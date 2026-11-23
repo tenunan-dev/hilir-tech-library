@@ -301,7 +301,11 @@ def build(db_path=None, corpus=None):
         CREATE TABLE drawings (id TEXT PRIMARY KEY, record TEXT NOT NULL, sectors TEXT NOT NULL);
         CREATE TABLE term_df (term TEXT PRIMARY KEY, df INTEGER NOT NULL);
     """)
-    records = load_records()
+    # A custom corpus root can carry its own catalog.jsonl (tests and scratch builds);
+    # production passes ROOT/corpus, so this is the same file load_records() reads.
+    local_catalog = corpus.parent / "catalog" / "catalog.jsonl"
+    records = ([json.loads(line) for line in local_catalog.read_text(encoding="utf-8").splitlines() if line]
+               if local_catalog.exists() else load_records())
     labels = taxonomy_labels()
     by_id = {r["id"]: r for r in records}
     for rec in records:

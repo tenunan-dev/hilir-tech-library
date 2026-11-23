@@ -1,0 +1,24 @@
+{
+  "id": "buffer-valley-industries",
+  "name": "Buffer Valley Industries",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Buffer Valley Industries is named as a supplier on a page read during the ammonia/urea sweep.",
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Silo",
+      "source_id": "en-wikipedia-org-wiki-silo"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 ammonia/urea sweep."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "enipedia-org-wiki-petronas-fertiliser-kedah",
+  "name": "Enipedia.Org — Export terminal",
+  "url": "https://enipedia.org/wiki/Petronas_Fertiliser_Kedah",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Enipedia.Org",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Petronas Chemicals Fertiliser Kedah uses a deep wharf terminal in Butterworth as primary maritime gateway; granular urea moved from Kuala Muda by dedicated rail Evidence: https://enipedia.org/wiki/Petronas_Fertiliser_Kedah"
+}

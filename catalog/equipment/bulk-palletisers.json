@@ -1,0 +1,80 @@
+{
+  "id": "bulk-palletisers",
+  "name": "Palletisers",
+  "equipment_type": "palletisers",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Palletisers",
+  "specifications": [
+    {
+      "metric": "high-level infeed",
+      "unit": "ft (2.13-3.15 m)",
+      "basis": "Wikipedia Palletizer: conventional and robotic palletizers can receive product at high elevation",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Palletizer",
+        "source_id": "en-wikipedia-org-wiki-palletizer"
+      },
+      "low": 7,
+      "high": 10.33
+    },
+    {
+      "metric": "floor-level infeed",
+      "unit": "ft (0.76-0.91 m)",
+      "basis": "Wikipedia Palletizer: low 'floor level' elevation",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Palletizer",
+        "source_id": "en-wikipedia-org-wiki-palletizer"
+      },
+      "low": 2.5,
+      "high": 3.0
+    },
+    {
+      "metric": "first mechanized palletizer",
+      "unit": "year",
+      "basis": "designed, built and installed by a company formerly known as Lamson Corp",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Palletizer",
+        "source_id": "en-wikipedia-org-wiki-palletizer"
+      },
+      "value": 1948
+    },
+    {
+      "metric": "end effector package types",
+      "unit": "n/a",
+      "basis": "Wikipedia Palletizer: end of arm tooling evolved to accommodate variation of pack patterns and package types",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Palletizer",
+        "source_id": "en-wikipedia-org-wiki-palletizer"
+      },
+      "value": "cases, bags, pails, drums, bottles"
+    }
+  ],
+  "vendors": [
+    "ocme-s-r-l"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Palletizer",
+      "source_id": "en-wikipedia-org-wiki-palletizer"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Palletizer throughput (layers/hour), bag patterns, pallet sizes, OEM model specs",
+      "why": "No OEM page fetched",
+      "next_action": "Fetch a palletizer OEM page."
+    },
+    {
+      "what": "Palletizer throughput (layers/hour), bag patterns, pallet sizes, OEM model specs",
+      "why": "No OEM page fetched",
+      "next_action": "Fetch a palletizer OEM page."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

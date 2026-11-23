@@ -1,0 +1,29 @@
+{
+  "id": "research-csiro-au-murchison-green-hydrogen",
+  "name": "Research.Csiro.Au — Marine export facility (planned)",
+  "url": "https://research.csiro.au/hyresource/murchison-green-hydrogen/",
+  "source_type": "agency-data",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Research.Csiro.Au",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Murchison Green Hydrogen full-scale scope includes marine export facility with pipelines and single-point mooring, plus desalination plant 5 GL/a Evidence: https://research.csiro.au/hyresource/murchison-green-hydrogen/"
+}

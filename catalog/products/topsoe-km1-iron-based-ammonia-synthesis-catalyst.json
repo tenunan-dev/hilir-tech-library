@@ -1,0 +1,31 @@
+{
+  "id": "topsoe-km1-iron-based-ammonia-synthesis-catalyst",
+  "name": "KM1 iron-based ammonia synthesis catalyst",
+  "manufacturer": "topsoe",
+  "product_type": "ammonia-converter",
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "description": "Vendor product line read 2026-11-24. KM111 optimized for lower converter bed; KM1R/KMR111 pre-reduced variants.",
+  "specifications": [
+    {
+      "metric": "Share of world ammonia produced with KM1",
+      "unit": "qualitative",
+      "basis": "",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
+        "source_id": "topsoe-com-ammonia-synthesis"
+      },
+      "value": "over half of the world's ammonia"
+    }
+  ],
+  "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
+  "sources": [
+    {
+      "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
+      "source_id": "topsoe-com-ammonia-synthesis"
+    }
+  ],
+  "notes": "KM111 optimized for lower converter bed; KM1R/KMR111 pre-reduced variants.",
+  "last_reviewed": "2026-11-24"
+}

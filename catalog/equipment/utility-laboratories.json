@@ -1,0 +1,37 @@
+{
+  "id": "utility-laboratories",
+  "name": "Laboratories",
+  "equipment_type": "laboratories",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Laboratories",
+  "specifications": [
+    {
+      "metric": "Product specification context",
+      "unit": "specification",
+      "basis": "Pusri urea EPD describes product as prills -6+18 US Mesh with main N content and maximum biuret 0.5%",
+      "source": {
+        "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+        "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+      },
+      "value": "urea prill -6+18 US Mesh; max biuret 0.5%"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+      "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+    }
+  ],
+  "gaps": [],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

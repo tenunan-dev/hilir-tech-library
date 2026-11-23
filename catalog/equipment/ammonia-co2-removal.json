@@ -1,0 +1,165 @@
+{
+  "id": "ammonia-co2-removal",
+  "name": "CO2 removal - amine",
+  "equipment_type": "co2",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "CO2 removal - amine (MDEA/MEA) absorbers and regenerators; Benfield/Selexol/Rectisol; solvent reclamation",
+  "specifications": [
+    {
+      "metric": "MDEA concentration in aqueous solution",
+      "unit": "wt%",
+      "basis": "Typical amine concentration for removing H2S and CO2 (Kohl & Nielsen, Gas Purification, cited on page)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Amine_gas_treating",
+        "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
+      },
+      "low": 30,
+      "high": 55
+    },
+    {
+      "metric": "MEA concentration for H2S and CO2 removal",
+      "unit": "wt%",
+      "basis": "Typical MEA concentration; ~30 wt% when removing only CO2 where plant metallurgy is appropriate",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Amine_gas_treating",
+        "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
+      },
+      "value": 20
+    },
+    {
+      "metric": "DEA concentration",
+      "unit": "wt%",
+      "basis": "Typical DEA concentration for H2S and CO2 removal",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Amine_gas_treating",
+        "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
+      },
+      "low": 25,
+      "high": 35
+    },
+    {
+      "metric": "MEA/DEA CO2 loading limit",
+      "unit": "mol CO2 per mol amine",
+      "basis": "Stoichiometric loading capacity limit for primary/secondary amines (Idem 2006 cited)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Amine_gas_treating",
+        "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
+      },
+      "value": 0.55
+    },
+    {
+      "metric": "Stripping energy share of amine unit operating cost",
+      "unit": "%",
+      "basis": "MEA/DEA require large regeneration energy, up to 70% of total operating costs (Idem 2006 cited)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Amine_gas_treating",
+        "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
+      },
+      "high": 70
+    },
+    {
+      "metric": "Amine absorber typical operating temperature",
+      "unit": "deg C",
+      "basis": "Simplified absorption column typical operating range (Amine gas treating page)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Amine_gas_treating",
+        "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
+      },
+      "low": 35,
+      "high": 50
+    },
+    {
+      "metric": "Amine absorber typical operating pressure",
+      "unit": "atm absolute",
+      "basis": "Simplified absorption column typical operating range",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Amine_gas_treating",
+        "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
+      },
+      "low": 5,
+      "high": 205
+    },
+    {
+      "metric": "Selexol absorption pressure",
+      "unit": "psia (2.07-13.8 MPa)",
+      "basis": "Selexol process acid-gas absorption pressure; capacity reduced below ~300 psia (2.07 MPa)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Selexol",
+        "source_id": "en-wikipedia-org-wiki-selexol"
+      },
+      "low": 300,
+      "high": 2000
+    },
+    {
+      "metric": "Rectisol absorption temperature",
+      "unit": "deg C (-40 deg F)",
+      "basis": "Cold methanol solvent absorbs acid gases at high pressure",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Rectisol",
+        "source_id": "en-wikipedia-org-wiki-rectisol"
+      },
+      "value": -40
+    },
+    {
+      "metric": "Rectisol absorption pressure",
+      "unit": "psia (2.76-6.89 MPa)",
+      "basis": "Rectisol process acid-gas absorption pressure",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Rectisol",
+        "source_id": "en-wikipedia-org-wiki-rectisol"
+      },
+      "low": 400,
+      "high": 1000
+    }
+  ],
+  "vendors": [
+    "linde-ag",
+    "air-liquide",
+    "uop-llc",
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Amine_gas_treating",
+      "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Selexol",
+      "source_id": "en-wikipedia-org-wiki-selexol"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rectisol",
+      "source_id": "en-wikipedia-org-wiki-rectisol"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Benfield hot-potassium-carbonate process details and supplier",
+      "why": "No page containing Benfield data was fetched; user requested it but no evidence obtained.",
+      "next_action": "Locate and fetch an authoritative Benfield process page (e.g. Fluor/BASF licensed solvent)."
+    },
+    {
+      "what": "MDEA specifically in ammonia CO2 service (as opposed to general gas treating) and solvent reclamation design",
+      "why": "Read pages discuss amines generically; no ammonia-plant MDEA/reclaimer page fetched.",
+      "next_action": "Fetch an OEM/EPC page on ammonia CO2 removal and amine reclamation."
+    },
+    {
+      "what": "Benfield hot-potassium-carbonate process details and supplier",
+      "why": "No page containing Benfield data was fetched; user requested it but no evidence obtained.",
+      "next_action": "Locate and fetch an authoritative Benfield process page (e.g. Fluor/BASF licensed solvent)."
+    },
+    {
+      "what": "MDEA specifically in ammonia CO2 service (as opposed to general gas treating) and solvent reclamation design",
+      "why": "Read pages discuss amines generically; no ammonia-plant MDEA/reclaimer page fetched.",
+      "next_action": "Fetch an OEM/EPC page on ammonia CO2 removal and amine reclamation."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

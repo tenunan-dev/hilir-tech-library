@@ -1,0 +1,27 @@
+{
+  "id": "nh3-basf-oppau-first-industrial-haber-bosch-ammonia-plant",
+  "name": "BASF Oppau first industrial Haber-Bosch ammonia plant",
+  "country": "Germany",
+  "location": "Germany",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "First industrial-scale Haber process plant; demonstrated by Carl Bosch's scale-up of Haber's laboratory process. Wikipedia secondary source; historical context only.",
+  "capacities": [],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Haber_process",
+      "source_id": "en-wikipedia-org-wiki-haber-process"
+    }
+  ],
+  "notes": "Wikipedia secondary source; historical context only.",
+  "last_reviewed": "2026-11-24"
+}

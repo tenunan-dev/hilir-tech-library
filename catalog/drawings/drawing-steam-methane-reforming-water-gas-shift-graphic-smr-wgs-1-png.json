@@ -1,0 +1,36 @@
+{
+  "id": "drawing-steam-methane-reforming-water-gas-shift-graphic-smr-wgs-1-png",
+  "title": "Steam methane reforming + water-gas shift graphic (SMR+WGS-1.png)",
+  "diagram_type": "schematic",
+  "description": "Commons description: 'Graphic of industrial process showing inputs into Steam Methane Reforming to produce one ton of hydrogen and other outputs'; current version shows SMR+WGS with and without CCS; 1944 x 1230 px.",
+  "publisher": "Wikimedia Commons / author Parent55",
+  "url": "https://en.wikipedia.org/wiki/File:SMR+WGS-1.png",
+  "licence": "CC0 1.0 Universal Public Domain Dedication",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PCH",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/File:SMR+WGS-1.png",
+      "source_id": "en-wikipedia-org-wiki-file-smr-wgs-1-png"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Commons notes the data lacks a source reference; diagram not reproduced.",
+  "last_reviewed": "2026-11-24"
+}

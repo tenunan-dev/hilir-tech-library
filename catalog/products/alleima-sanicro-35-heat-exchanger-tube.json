@@ -1,0 +1,31 @@
+{
+  "id": "alleima-sanicro-35-heat-exchanger-tube",
+  "name": "Sanicro 35 heat-exchanger tube",
+  "manufacturer": "alleima",
+  "product_type": "carbamate-condenser",
+  "equipment": [
+    "urea-carbamate-condenser"
+  ],
+  "description": "Vendor product line read 2026-11-24. Product claim read on UreaKnowHow news listing only; Alleima own page not fetched.",
+  "specifications": [
+    {
+      "metric": "outside diameter stocked",
+      "unit": "mm",
+      "basis": "UreaKnowHow news item: one-week delivery for critical heat exchanger needs",
+      "source": {
+        "url": "https://ureaknowhow.com/",
+        "source_id": "ureaknowhow-com-ureaknowhow-com"
+      },
+      "value": "19.05 mm and 25.4 mm"
+    }
+  ],
+  "url": "https://ureaknowhow.com/",
+  "sources": [
+    {
+      "url": "https://ureaknowhow.com/",
+      "source_id": "ureaknowhow-com-ureaknowhow-com"
+    }
+  ],
+  "notes": "Product claim read on UreaKnowHow news listing only; Alleima own page not fetched.",
+  "last_reviewed": "2026-11-24"
+}

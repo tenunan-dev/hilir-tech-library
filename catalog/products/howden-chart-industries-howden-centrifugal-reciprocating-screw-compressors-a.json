@@ -1,0 +1,64 @@
+{
+  "id": "howden-chart-industries-howden-centrifugal-reciprocating-screw-compressors-a",
+  "name": "Howden centrifugal / reciprocating / screw compressors and steam turbines",
+  "manufacturer": "howden-chart-industries",
+  "product_type": "screw",
+  "equipment": [
+    "bulk-screw-conveyors"
+  ],
+  "description": "Vendor product line read 2026-11-24. General portfolio; not ammonia-specific. Howden acquired by Chart in 2023.",
+  "specifications": [
+    {
+      "metric": "Reciprocating gas compressor rating",
+      "unit": "MW",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden",
+        "source_id": "chartindustries-com-www-chartindustries-com-howden"
+      },
+      "high": 20
+    },
+    {
+      "metric": "Reciprocating compressor speed",
+      "unit": "rpm",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden",
+        "source_id": "chartindustries-com-www-chartindustries-com-howden"
+      },
+      "low": 260,
+      "high": 1000
+    },
+    {
+      "metric": "Steam turbine electrical output range",
+      "unit": "kW",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden",
+        "source_id": "chartindustries-com-www-chartindustries-com-howden"
+      },
+      "low": 75,
+      "high": 40000
+    },
+    {
+      "metric": "Steam turbine mechanical drive range",
+      "unit": "MW",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden",
+        "source_id": "chartindustries-com-www-chartindustries-com-howden"
+      },
+      "low": 10,
+      "high": 40
+    }
+  ],
+  "url": "https://www.chartindustries.com/Howden",
+  "sources": [
+    {
+      "url": "https://www.chartindustries.com/Howden",
+      "source_id": "chartindustries-com-www-chartindustries-com-howden"
+    }
+  ],
+  "notes": "General portfolio; not ammonia-specific. Howden acquired by Chart in 2023.",
+  "last_reviewed": "2026-11-24"
+}

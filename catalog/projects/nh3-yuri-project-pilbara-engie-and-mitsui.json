@@ -1,0 +1,38 @@
+{
+  "id": "nh3-yuri-project-pilbara-engie-and-mitsui",
+  "name": "YURI project, Pilbara (ENGIE and Mitsui)",
+  "country": "Australia",
+  "location": "Australia",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Pilbara-based renewable ammonia project. AEA LEAD PDF read.",
+  "capacities": [
+    {
+      "metric": "production capacity",
+      "value": "600",
+      "unit": "t/y",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://ammoniaenergy.org/wp-content/uploads/2026/08/AEA-LEAD-Plants-Executive-Summary-August-2026.pdf",
+        "source_id": "ammoniaenergy-org-08-aea-lead-plants-executive-summary-august-2026"
+      }
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://ammoniaenergy.org/wp-content/uploads/2026/08/AEA-LEAD-Plants-Executive-Summary-August-2026.pdf",
+      "source_id": "ammoniaenergy-org-08-aea-lead-plants-executive-summary-august-2026"
+    }
+  ],
+  "notes": "AEA LEAD PDF read.",
+  "last_reviewed": "2026-11-24"
+}

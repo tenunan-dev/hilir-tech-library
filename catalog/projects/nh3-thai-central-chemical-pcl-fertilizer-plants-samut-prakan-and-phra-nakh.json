@@ -1,0 +1,38 @@
+{
+  "id": "nh3-thai-central-chemical-pcl-fertilizer-plants-samut-prakan-and-phra-nakh",
+  "name": "Thai Central Chemical PCL fertilizer plants (Samut Prakan and Phra Nakhon Si Ayutthaya)",
+  "country": "Thailand",
+  "location": "Thailand",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Company describes manufacture/distribution of chemical fertilizer compounds; the sources read do not confirm on-site ammonia or urea synthesis, so treat as adjacent fertilizer, not a confirmed urea plant. Search-verified snippet from echemi/lookchem descriptions; page_read=false and classification unconfirmed.",
+  "capacities": [
+    {
+      "metric": "production capacity",
+      "value": "000",
+      "unit": "t/y",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.tcccthai.com/en",
+        "source_id": "tcccthai-com-www-tcccthai-com-en"
+      }
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.tcccthai.com/en",
+      "source_id": "tcccthai-com-www-tcccthai-com-en"
+    }
+  ],
+  "notes": "Search-verified snippet from echemi/lookchem descriptions; page_read=false and classification unconfirmed.",
+  "last_reviewed": "2026-11-24"
+}

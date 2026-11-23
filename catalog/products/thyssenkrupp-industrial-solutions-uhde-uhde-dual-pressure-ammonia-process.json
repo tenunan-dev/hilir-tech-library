@@ -1,0 +1,82 @@
+{
+  "id": "thyssenkrupp-industrial-solutions-uhde-uhde-dual-pressure-ammonia-process",
+  "name": "Uhde dual-pressure ammonia process",
+  "manufacturer": "thyssenkrupp-industrial-solutions-uhde",
+  "product_type": "ammonia-converter",
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "description": "Vendor product line read 2026-11-24. Reference: SAFCO IV, Al-Jubail, 2006. Magnetite-based catalysts co-developed with Johnson Matthey.",
+  "specifications": [
+    {
+      "metric": "Capacity",
+      "unit": "t/day",
+      "basis": "",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+        "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
+      },
+      "value": 3300
+    },
+    {
+      "metric": "Basis for larger plants",
+      "unit": "t/day",
+      "basis": "",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+        "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
+      },
+      "low": 4000,
+      "high": 5000
+    },
+    {
+      "metric": "LP once-through converter suction pressure",
+      "unit": "bar approx.",
+      "basis": "",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+        "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
+      },
+      "value": 110
+    },
+    {
+      "metric": "HP loop operating pressure",
+      "unit": "bar",
+      "basis": "",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+        "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
+      },
+      "high": 210
+    },
+    {
+      "metric": "Share of ammonia from once-through converter",
+      "unit": "qualitative",
+      "basis": "",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+        "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
+      },
+      "value": "about one third"
+    },
+    {
+      "metric": "Ammonia condensed from once-through effluent",
+      "unit": "%",
+      "basis": "",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+        "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
+      },
+      "value": 85
+    }
+  ],
+  "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+  "sources": [
+    {
+      "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+      "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
+    }
+  ],
+  "notes": "Reference: SAFCO IV, Al-Jubail, 2006. Magnetite-based catalysts co-developed with Johnson Matthey.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "ammonia-methanation-purification",
+  "name": "Methanation and syngas drying/purification",
+  "equipment_type": "methanation",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Methanation and syngas drying/purification",
+  "specifications": [
+    {
+      "metric": "PK-5 ring-shaped methanation catalyst pressure-drop reduction",
+      "unit": "% lower pressure drop",
+      "basis": "Topsoe PK-5 versus conventional sphere- or cylindrical-shaped methanation catalysts",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation",
+        "source_id": "topsoe-com-ammonia-ammonia-methanation"
+      },
+      "low": 30,
+      "high": 70
+    },
+    {
+      "metric": "Methanation reactions",
+      "unit": "qualitative",
+      "basis": "Final hydrogen-purification step in Haber process",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Haber_process",
+        "source_id": "en-wikipedia-org-wiki-haber-process"
+      },
+      "value": "CO + 3H2 -> CH4 + H2O; CO2 + 4H2 -> CH4 + 2H2O"
+    },
+    {
+      "metric": "Typical methanation section pressure",
+      "unit": "bar absolute",
+      "basis": "Steam reforming, shift, CO2 removal and methanation each operate at about 25-35 bar absolute",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Haber_process",
+        "source_id": "en-wikipedia-org-wiki-haber-process"
+      },
+      "low": 25,
+      "high": 35
+    },
+    {
+      "metric": "SynCOR syngas cleaning",
+      "unit": "qualitative",
+      "basis": "Topsoe comparison: conventional uses methanation; SynCOR uses nitrogen wash, enabling inert-free synthesis loop with no purge",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
+        "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
+      },
+      "value": "nitrogen wash with purge and nitrogen addition"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation",
+      "source_id": "topsoe-com-ammonia-ammonia-methanation"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Haber_process",
+      "source_id": "en-wikipedia-org-wiki-haber-process"
+    },
+    {
+      "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
+      "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Syngas dryer type/design (molecular sieve vs glycol) andOutlet moisture specification",
+      "why": "Not covered by any fetched page.",
+      "next_action": "Fetch a syngas drying/purification OEM page or ammonia plant design reference."
+    },
+    {
+      "what": "Syngas dryer type/design (molecular sieve vs glycol) andOutlet moisture specification",
+      "why": "Not covered by any fetched page.",
+      "next_action": "Fetch a syngas drying/purification OEM page or ammonia plant design reference."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

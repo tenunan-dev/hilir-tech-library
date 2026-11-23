@@ -28,7 +28,8 @@
       "basis": "optimal SMR operating range at medium pressure",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Steam_reforming",
-        "note": "Wikipedia, Steam reforming (read 2026-11-17)"
+        "note": "Wikipedia, Steam reforming (read 2026-11-17)",
+        "source_id": "en-wikipedia-org-wiki-steam-reforming"
       }
     },
     {
@@ -39,7 +40,8 @@
       "basis": "medium-pressure SMR range",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Steam_reforming",
-        "note": "Wikipedia, Steam reforming (read 2026-11-17)"
+        "note": "Wikipedia, Steam reforming (read 2026-11-17)",
+        "source_id": "en-wikipedia-org-wiki-steam-reforming"
       }
     },
     {
@@ -50,7 +52,8 @@
       "basis": "typical S/C values; the NETL design case uses 2.60",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Steam_reforming",
-        "note": "Wikipedia, Steam reforming (read 2026-11-17)"
+        "note": "Wikipedia, Steam reforming (read 2026-11-17)",
+        "source_id": "en-wikipedia-org-wiki-steam-reforming"
       }
     },
     {
@@ -62,12 +65,110 @@
         "url": "https://www.osti.gov/servlets/purl/3363286",
         "note": "NETL report (DOI 10.2172/3363286), read 2026-11-17"
       }
+    },
+    {
+      "metric": "SMR optimal reactor temperature",
+      "unit": "deg C",
+      "basis": "Optimal SMR reactor operating temperature range (Speight, The refinery of the future, cited on page)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+        "source_id": "en-wikipedia-org-wiki-steam-reforming"
+      },
+      "low": 800,
+      "high": 900
+    },
+    {
+      "metric": "SMR operating pressure",
+      "unit": "bar",
+      "basis": "Optimal SMR medium-pressure range (same source)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+        "source_id": "en-wikipedia-org-wiki-steam-reforming"
+      },
+      "low": 20,
+      "high": 30
+    },
+    {
+      "metric": "SMR steam-to-carbon molar ratio",
+      "unit": "mol/mol",
+      "basis": "Typical S/C ratio values (Steam reforming page)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+        "source_id": "en-wikipedia-org-wiki-steam-reforming"
+      },
+      "low": 2.5,
+      "high": 3.0
+    },
+    {
+      "metric": "SMR pressure, conventional plant practice (wide range)",
+      "unit": "bar",
+      "basis": "Conventional steam reforming plants, 200-600 psi (Steam reforming page)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+        "source_id": "en-wikipedia-org-wiki-steam-reforming"
+      },
+      "low": 14,
+      "high": 40
+    },
+    {
+      "metric": "SMR outlet temperature, conventional plant practice",
+      "unit": "deg C",
+      "basis": "Conventional steam reforming plants (Steam reforming page)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+        "source_id": "en-wikipedia-org-wiki-steam-reforming"
+      },
+      "low": 815,
+      "high": 925
+    },
+    {
+      "metric": "SMR reaction enthalpy",
+      "unit": "kJ/mol CH4",
+      "basis": "CH4 + H2O <=> CO + 3H2, standard steam reforming reaction enthalpy",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+        "source_id": "en-wikipedia-org-wiki-steam-reforming"
+      },
+      "value": 206
+    },
+    {
+      "metric": "Steam reforming thermal efficiency",
+      "unit": "%",
+      "basis": "Steam reforming of natural gas efficiency (Steam reforming page, hydrogen fact sheet)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+        "source_id": "en-wikipedia-org-wiki-steam-reforming"
+      },
+      "low": 65,
+      "high": 75
+    },
+    {
+      "metric": "Two-step (Low Energy Ammonia) process capacity",
+      "unit": "MTPD ammonia",
+      "basis": "Topsoe Low Energy Ammonia Process, steam and air reforming, small and large scale up to 3500 MTPD",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification",
+        "source_id": "topsoe-com-ammonia-ammonia-purification"
+      },
+      "high": 3500
+    },
+    {
+      "metric": "Tubular radiant-wall reformer arrangement",
+      "unit": "qualitative",
+      "basis": "Topsoe equipment description",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-reforming",
+        "source_id": "topsoe-com-ammonia-ammonia-reforming"
+      },
+      "value": "catalyst tubes in single line, one or two fired boxes, burners on walls at several elevations"
     }
   ],
   "vendors": [
     "topsoe",
     "kbr",
-    "thyssenkrupp-uhde"
+    "thyssenkrupp-uhde",
+    "wood",
+    "casale"
   ],
   "technologies": [
     "pch-ammonia-urea",
@@ -77,7 +178,8 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Steam_reforming",
-      "note": "Wikipedia, Steam reforming (read 2026-11-17)"
+      "note": "Wikipedia, Steam reforming (read 2026-11-17)",
+      "source_id": "en-wikipedia-org-wiki-steam-reforming"
     },
     {
       "url": "https://www.osti.gov/servlets/purl/3363286",
@@ -86,14 +188,32 @@
     {
       "url": "https://www.topsoe.com/solutions/technologies/equipment-and-spare-parts/tubular-radiant-wall-steam-reformer",
       "note": "Topsoe tubular radiant-wall steam reformer page, read 2026-11-17"
+    },
+    {
+      "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification",
+      "source_id": "topsoe-com-ammonia-ammonia-purification"
+    },
+    {
+      "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-reforming",
+      "source_id": "topsoe-com-ammonia-ammonia-reforming"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-24",
   "gaps": [
     {
       "what": "tube wall temperature and tube-life limits",
       "why": "no fetched source states the tube wall temperature range",
       "next_action": "fetch an OEM reformer datasheet or a metallurgy reference that states tube skin temperature"
+    },
+    {
+      "what": "Tube dimensions, alloy specification, tube count, heat flux and burner ratings for named reformer designs",
+      "why": "OEM overview pages do not publish mechanical design data.",
+      "next_action": "Fetch individual equipment product pages from Topsoe (e.g. tubular radiant wall steam reformer) and EPC design papers."
+    },
+    {
+      "what": "Tube dimensions, alloy specification, tube count, heat flux and burner ratings for named reformer designs",
+      "why": "OEM overview pages do not publish mechanical design data.",
+      "next_action": "Fetch individual equipment product pages from Topsoe (e.g. tubular radiant wall steam reformer) and EPC design papers."
     }
   ],
   "vendor_models": [
@@ -124,5 +244,6 @@
       "range": "catalyst tube outlet about 800 C at approximately 45 bar",
       "url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/6cc6d788-4f6c-49f4-adf9-08295b1ee60c/brochure-ammonia_scr.pdf"
     }
-  ]
+  ],
+  "notes": "Enriched 2026-11-24 with page-read ammonia/urea sweep sources. Enriched 2026-11-24 with page-read ammonia/urea sweep sources."
 }

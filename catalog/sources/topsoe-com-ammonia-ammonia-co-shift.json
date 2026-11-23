@@ -1,0 +1,29 @@
+{
+  "id": "topsoe-com-ammonia-ammonia-co-shift",
+  "name": "Topsoe — Medium-temperature shift catalyst operating range",
+  "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-co-shift",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Topsoe",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Topsoe LK-813 / LK-819 catalyst descriptions (middle/bottom layer) Evidence: https://www.topsoe.com/solutions/outputs/ammonia/ammonia-co-shift"
+}

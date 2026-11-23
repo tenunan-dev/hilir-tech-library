@@ -1,0 +1,48 @@
+{
+  "id": "bulk-drag-conveyors",
+  "name": "Drag conveyors / tubular drag conveyors",
+  "equipment_type": "drag",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Drag conveyors / tubular drag conveyors",
+  "specifications": [
+    {
+      "metric": "equipment class",
+      "unit": "n/a",
+      "basis": "Wikipedia Bulk material handling",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bulk_material_handling",
+        "source_id": "en-wikipedia-org-wiki-bulk-material-handling"
+      },
+      "value": "tubular drag conveyors listed among stationary bulk handling systems"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Bulk_material_handling",
+      "source_id": "en-wikipedia-org-wiki-bulk-material-handling"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Drag conveyor capacity, chain speed, tube diameter, bend radius, vendor",
+      "why": "No page read provides these",
+      "next_action": "Fetch a drag conveyor OEM page."
+    },
+    {
+      "what": "Drag conveyor capacity, chain speed, tube diameter, bend radius, vendor",
+      "why": "No page read provides these",
+      "next_action": "Fetch a drag conveyor OEM page."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

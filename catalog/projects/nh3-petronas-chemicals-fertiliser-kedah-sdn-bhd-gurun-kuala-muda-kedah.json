@@ -1,0 +1,38 @@
+{
+  "id": "nh3-petronas-chemicals-fertiliser-kedah-sdn-bhd-gurun-kuala-muda-kedah",
+  "name": "PETRONAS Chemicals Fertiliser Kedah Sdn Bhd (Gurun / Kuala Muda, Kedah)",
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Natural gas feedstock; marketing through MITCO Sdn Bhd; export via deep wharf at Butterworth, Penang with dedicated railway link. Enipedia page read but is a secondary compiled wiki; last updated 4 Oct 2026. Cross-check against official PETRONAS source before production use.",
+  "capacities": [
+    {
+      "metric": "production capacity",
+      "value": "100",
+      "unit": "MT",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://enipedia.org/wiki/Petronas_Fertiliser_Kedah",
+        "source_id": "enipedia-org-wiki-petronas-fertiliser-kedah"
+      }
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://enipedia.org/wiki/Petronas_Fertiliser_Kedah",
+      "source_id": "enipedia-org-wiki-petronas-fertiliser-kedah"
+    }
+  ],
+  "notes": "Enipedia page read but is a secondary compiled wiki; last updated 4 Oct 2026. Cross-check against official PETRONAS source before production use.",
+  "last_reviewed": "2026-11-24"
+}

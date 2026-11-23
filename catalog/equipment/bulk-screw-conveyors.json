@@ -1,0 +1,68 @@
+{
+  "id": "bulk-screw-conveyors",
+  "name": "Screw conveyors",
+  "equipment_type": "screw",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Screw conveyors",
+  "specifications": [
+    {
+      "metric": "rate control",
+      "unit": "n/a",
+      "basis": "Wikipedia Screw conveyor: used as variable rate feeder by varying shaft rotation",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Screw_conveyor",
+        "source_id": "en-wikipedia-org-wiki-screw-conveyor"
+      },
+      "value": "volume transfer rate proportional to rotation rate of the shaft"
+    },
+    {
+      "metric": "inclination effect",
+      "unit": "n/a",
+      "basis": "Wikipedia Screw conveyor",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Screw_conveyor",
+        "source_id": "en-wikipedia-org-wiki-screw-conveyor"
+      },
+      "value": "capacity of a given unit rapidly decreases as angle of inclination increases"
+    },
+    {
+      "metric": "construction",
+      "unit": "n/a",
+      "basis": "Wikipedia Screw conveyor",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Screw_conveyor",
+        "source_id": "en-wikipedia-org-wiki-screw-conveyor"
+      },
+      "value": "trough or tube with spiral blade around a shaft (driven one end, held at other) or shaftless spiral driven at one end and free at the other"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Screw_conveyor",
+      "source_id": "en-wikipedia-org-wiki-screw-conveyor"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Screw conveyor diameter/pitch/capacity/power for urea service",
+      "why": "No OEM datasheet fetched",
+      "next_action": "Fetch a screw conveyor OEM engineering guide."
+    },
+    {
+      "what": "Screw conveyor diameter/pitch/capacity/power for urea service",
+      "why": "No OEM datasheet fetched",
+      "next_action": "Fetch a screw conveyor OEM engineering guide."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

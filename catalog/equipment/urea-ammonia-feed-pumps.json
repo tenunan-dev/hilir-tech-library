@@ -1,0 +1,48 @@
+{
+  "id": "urea-ammonia-feed-pumps",
+  "name": "Ammonia feed pumps",
+  "equipment_type": "ammonia",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Ammonia feed pumps",
+  "specifications": [
+    {
+      "metric": "ammonia feed physical state",
+      "unit": "n/a",
+      "basis": "Wikipedia Urea: 'the ammonia is available from the ammonia production plant in liquid form, which can be pumped into the system much more economically' (vs compressing CO2 gas)",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": "liquid"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+      "source_id": "en-wikipedia-org-w-index-php"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Ammonia feed pump flow, discharge pressure, NPSH, materials, vendor/model",
+      "why": "No page read contains these figures",
+      "next_action": "Fetch a pump OEM datasheet or an EPC urea plant equipment list."
+    },
+    {
+      "what": "Ammonia feed pump flow, discharge pressure, NPSH, materials, vendor/model",
+      "why": "No page read contains these figures",
+      "next_action": "Fetch a pump OEM datasheet or an EPC urea plant equipment list."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

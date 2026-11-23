@@ -1,0 +1,29 @@
+{
+  "id": "topsoe-com-ammonia-synthesis",
+  "name": "Topsoe",
+  "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Topsoe",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. KM1 used to produce over half of the world's ammonia (Topsoe leaflet referenced on page). Evidence: https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+}

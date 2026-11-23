@@ -1,0 +1,78 @@
+{
+  "id": "ammonia-shift-conversion",
+  "name": "Shift conversion - HT/LT shift reactors and catalysts",
+  "equipment_type": "shift",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Shift conversion - HT/LT shift reactors and catalysts",
+  "specifications": [
+    {
+      "metric": "Medium-temperature shift catalyst operating range",
+      "unit": "deg C",
+      "basis": "Topsoe LK-813 / LK-819 catalyst descriptions (middle/bottom layer)",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-co-shift",
+        "source_id": "topsoe-com-ammonia-ammonia-co-shift"
+      },
+      "low": 190,
+      "high": 330
+    },
+    {
+      "metric": "WGS reaction enthalpy",
+      "unit": "kJ/mol CO",
+      "basis": "CO + H2O <=> CO2 + H2, mildly exothermic",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+        "source_id": "en-wikipedia-org-wiki-steam-reforming"
+      },
+      "value": -41
+    },
+    {
+      "metric": "Equilibrium constant K at 400 deg C (N2+3H2<=>2NH3 context table)",
+      "unit": "dimensionless",
+      "basis": "Haber-process equilibrium table; illustrates temperature constraint on synthesis, not shift",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Haber_process",
+        "source_id": "en-wikipedia-org-wiki-haber-process"
+      },
+      "value": "16.4 x 10^-5"
+    }
+  ],
+  "vendors": [
+    "topsoe",
+    "johnson-matthey"
+  ],
+  "sources": [
+    {
+      "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-co-shift",
+      "source_id": "topsoe-com-ammonia-ammonia-co-shift"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+      "source_id": "en-wikipedia-org-wiki-steam-reforming"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Haber_process",
+      "source_id": "en-wikipedia-org-wiki-haber-process"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "HTS/LTS inlet-outlet CO concentrations, space velocity, catalyst life and reactor dimensions",
+      "why": "Not disclosed on overview pages.",
+      "next_action": "Fetch individual catalyst leaflets and AIChE ammonia production material (AIChE CEP page returned 403)."
+    },
+    {
+      "what": "HTS/LTS inlet-outlet CO concentrations, space velocity, catalyst life and reactor dimensions",
+      "why": "Not disclosed on overview pages.",
+      "next_action": "Fetch individual catalyst leaflets and AIChE ammonia production material (AIChE CEP page returned 403)."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

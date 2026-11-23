@@ -1,0 +1,114 @@
+{
+  "id": "bulk-silos-storage-bins",
+  "name": "Silos and storage bins",
+  "equipment_type": "silos",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Silos and storage bins",
+  "specifications": [
+    {
+      "metric": "storage silo diameter",
+      "unit": "m (10-90 ft)",
+      "basis": "Wikipedia Silo: storage silos cylindrical, typically 10-90 ft diameter",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Silo",
+        "source_id": "en-wikipedia-org-wiki-silo"
+      },
+      "low": 3,
+      "high": 27
+    },
+    {
+      "metric": "storage silo height",
+      "unit": "m (30-275 ft)",
+      "basis": "Wikipedia Silo: 30-275 ft height; taller/wider ones slipform and jumpform concrete",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Silo",
+        "source_id": "en-wikipedia-org-wiki-silo"
+      },
+      "low": 10,
+      "high": 90
+    },
+    {
+      "metric": "mobile powder silo capacity",
+      "unit": "tons",
+      "basis": "Wikipedia Silo, Cement storage silos section; fully mobile, with electronic weighing system",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Silo",
+        "source_id": "en-wikipedia-org-wiki-silo"
+      },
+      "low": 100,
+      "high": 750
+    },
+    {
+      "metric": "static upright powder silo capacity",
+      "unit": "tons",
+      "basis": "Wikipedia Silo, Cement storage silos section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Silo",
+        "source_id": "en-wikipedia-org-wiki-silo"
+      },
+      "low": 200,
+      "high": 800
+    },
+    {
+      "metric": "rigid silo size range",
+      "unit": "m3 (2 m3 to over 1000 m3)",
+      "basis": "Wikipedia Silo, Rigid silos section; may have multiple vertical partitions",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Silo",
+        "source_id": "en-wikipedia-org-wiki-silo"
+      },
+      "low": 2,
+      "high": 1000
+    },
+    {
+      "metric": "flexible silo minimum particle size",
+      "unit": "microns",
+      "basis": "Wikipedia Silo: flexible silos made from trevira tissue can handle particle size down to 2 microns and be pneumatically loaded without dust collector",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Silo",
+        "source_id": "en-wikipedia-org-wiki-silo"
+      },
+      "value": 2
+    },
+    {
+      "metric": "silo hazards",
+      "unit": "n/a",
+      "basis": "Wikipedia Silo Safety sections",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Silo",
+        "source_id": "en-wikipedia-org-wiki-silo"
+      },
+      "value": "dust explosion; grain entrapment; methane asphyxiation in enclosed stores"
+    }
+  ],
+  "vendors": [
+    "harvestore",
+    "buffer-valley-industries"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Silo",
+      "source_id": "en-wikipedia-org-wiki-silo"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Urea-specific silo capacity, caking/anti-caking measures, lining, aeration, reclaim system vendor",
+      "why": "No urea silo OEM page fetched",
+      "next_action": "Fetch a bulk-solids silo OEM page (e.g. BEUMER, AUMUND, Cemen Tech) via verified URL."
+    },
+    {
+      "what": "Urea-specific silo capacity, caking/anti-caking measures, lining, aeration, reclaim system vendor",
+      "why": "No urea silo OEM page fetched",
+      "next_action": "Fetch a bulk-solids silo OEM page (e.g. BEUMER, AUMUND, Cemen Tech) via verified URL."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

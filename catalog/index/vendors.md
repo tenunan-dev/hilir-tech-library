@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-616 vendor records covering 326 technologies. One record per vendor in
+644 vendor records covering 326 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -358,13 +358,24 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| ABB Australia | — | oem, supplier | Ammonia and urea |
 | [Agilyx](https://agilyx.com) | USA | developer, supplier | Plastics pyrolysis (chemical recycling) |
+| Air Liquide Japan | — | oem, supplier | Ammonia and urea |
+| American Petroleum Institute | — | oem, supplier | Ammonia and urea |
+| AMMO | — | oem, supplier | Ammonia and urea |
+| Aramis Group | — | oem, supplier | Ammonia and urea |
+| AUMUND France / Larsen & Toubro / ABB | — | oem, supplier | Ammonia and urea |
+| Badotherm | — | oem, supplier | Ammonia and urea |
 | [Borealis](https://www.borealisgroup.com) | Austria | operator | Polyethylene (gas phase, slurry, solution) |
 | [BP](https://www.bp.com) | United Kingdom | developer, licensor, operator | Acetic acid (methanol carbonylation) |
 | [Braskem](https://www.braskem.com) | Brazil | operator | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
+| Buffer Valley Industries | — | oem, supplier | Ammonia and urea |
+| Bühler | — | oem, supplier | Ammonia and urea |
 | [Carbios](https://www.carbios.com) | France | developer | Depolymerisation of PET (glycolysis, enzymatic) |
+| Casale SA | — | oem, supplier | Ammonia and urea |
 | [Celanese](https://www.celanese.com) | USA | operator, oem | Acetic acid (methanol carbonylation) |
 | [CF Industries](https://www.cfindustries.com) | United States | operator | Ammonia and urea |
+| Chart Industries / Howden | — | oem, supplier | Ammonia and urea |
 | [Chevron Phillips Chemical](https://www.cpchem.com) | USA | oem, licensor | Polyethylene (gas phase, slurry, solution) |
 | [CJ CheilJedang](https://www.cj.co.kr) | South Korea | oem | PHA bioplastics |
 | [Covestro](https://www.covestro.com) | Germany | oem | Engineering plastics (polycarbonate, nylon) |
@@ -372,17 +383,24 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Danimer Scientific](https://danimerscientific.com) | USA | oem | PHA bioplastics |
 | [DICP / SYN Energy Technology](https://www.dicp.ac.cn) | China | licensor | Methanol-to-olefins (MTO, DMTO) |
 | [Dow](https://www.dow.com) | USA | oem, licensor | Ethylene oxide and glycols; Propylene oxide (HPPO, PO/SM) |
+| Dynaflow Research Group BV | — | oem, supplier | Ammonia and urea |
 | [Evonik and thyssenkrupp Uhde (HPPO alliance)](https://www.evonik.com) | Germany | licensor | Propylene oxide (HPPO, PO/SM) |
 | [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Toluene disproportionation and transalkylation |
 | [Fluor](https://www.fluor.com) | USA | epc | Steam cracking (naphtha, ethane, LPG) |
 | [Fraunhofer Society](https://www.fraunhofer.de) | Germany | developer | Solvent-based purification of plastics |
 | [GIG Karasek](https://www.gigkarasek.at) | Austria | oem | Electrification of process heat (e-boilers, heat pumps) |
+| Harvestore | — | oem, supplier | Ammonia and urea |
 | [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Aromatics complexes (paraxylene, benzene); Methanol-to-olefins (MTO, DMTO); Paraxylene adsorption and crystallisation; Propane dehydrogenation (Oleflex, CATOFIN); Toluene disproportionation and transalkylation |
+| Howden (Chart Industries) | — | oem, supplier | Ammonia and urea |
 | [Hyundai Engineering & Construction](https://www.hdec.co.kr) | South Korea | epc | Steam cracking (naphtha, ethane, LPG) |
 | [Indorama Ventures](https://www.indoramaventures.com) | Thailand | oem | Depolymerisation of PET (glycolysis, enzymatic) |
 | [Ineos](https://www.ineos.com) | United Kingdom | oem | Polyethylene (gas phase, slurry, solution); Polypropylene (gas phase, bulk); PVC (suspension) and chlor-alkali |
+| Intralox | — | oem, supplier | Ammonia and urea |
+| JBW Consulting Engineers | — | oem, supplier | Ammonia and urea |
 | [Koch Fertilizer](https://www.kochfertilizer.com) | United States | operator | Ammonia and urea |
 | [Koch-Glitsch](https://kochglitsch.com) | USA | oem, supplier | Steam cracking (naphtha, ethane, LPG) |
+| LESER | — | oem, supplier | Ammonia and urea |
+| Linde AG | — | oem, supplier | Ammonia and urea |
 | [Loop Industries](https://www.loopindustries.com) | Canada | developer | Depolymerisation of PET (glycolysis, enzymatic) |
 | [LSB Industries](https://www.lsbindustries.com) | United States | operator | Ammonia and urea |
 | [Lummus Technology](https://www.lummustechnology.com) | USA | licensor | Butadiene extraction and on-purpose butadiene; Metathesis (OCT); Oxidative coupling of methane; Propane dehydrogenation (Oleflex, CATOFIN); Steam cracking (naphtha, ethane, LPG); Phenol and acetone (cumene) |
@@ -390,20 +408,30 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Mura Technology](https://muraplastics.com) | United Kingdom | developer | Plastics pyrolysis (chemical recycling) |
 | [NatureWorks](https://www.natureworks.com) | USA | oem | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
 | [Nutrien](https://www.nutrien.com) | Canada | operator | Ammonia and urea |
+| OCME S.r.L. | — | oem, supplier | Ammonia and urea |
 | [Plastic Energy](https://plasticenergy.com) | Spain | developer, operator | Plastics pyrolysis (chemical recycling) |
+| Plug Power Inc. | — | oem, supplier | Ammonia and urea |
 | [PureCycle Technologies](https://purecycletech.com) | USA | operator, oem | Solvent-based purification of plastics |
 | [SABIC](https://www.sabic.com) | Saudi Arabia | oem | Electric steam cracking; Engineering plastics (polycarbonate, nylon) |
 | [Samsung Engineering (Samsung E&A)](https://www.samsungengineering.co.kr) | South Korea | epc | Steam cracking (naphtha, ethane, LPG) |
+| Sandvik | — | oem, supplier | Ammonia and urea |
 | [Scientific Design Company](https://www.scientificdesign.com) | USA | licensor | Ethylene oxide and glycols |
+| SensoTech GmbH | — | oem, supplier | Ammonia and urea |
 | [Siluria Technologies](https://www.lummustechnology.com) | USA | developer | Oxidative coupling of methane |
 | [Sinopec](https://www.sinopecgroup.com/group/en/) | China | operator, developer, supplier | Steam cracking (naphtha, ethane, LPG) |
 | Sinopec Engineering Group | China | epc, licensor | Steam cracking (naphtha, ethane, LPG); Butadiene extraction and on-purpose butadiene |
 | [SK Ecoplant](https://www.skecplant.com) | South Korea | epc | Steam cracking (naphtha, ethane, LPG) |
+| SnamProgetti SpA | — | oem, supplier | Ammonia and urea |
+| SPG Steiner GmbH | — | oem, supplier | Ammonia and urea |
 | [Stamicarbon](https://www.stamicarbon.com) | Netherlands | licensor | Ammonia and urea |
+| thyssenkrupp Industrial Solutions (Uhde) | — | oem, supplier | Ammonia and urea |
 | [thyssenkrupp Uhde Inventa-Fischer](https://uhde.thyssenkrupp.com) | Germany | licensor | PET and polyester |
+| Topsoe A/S | — | oem, supplier | Ammonia and urea |
 | [TotalEnergies Corbion](https://www.totalenergies-corbion.com) | Netherlands | oem | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
 | [Toyo Engineering](https://www.toyo-eng.com) | Japan | epc, licensor | Ammonia and urea; Steam cracking (naphtha, ethane, LPG) |
 | [Univation Technologies](https://www.univation.com) | USA | licensor | Polyethylene (gas phase, slurry, solution) |
+| UOP LLC | — | oem, supplier | Ammonia and urea |
+| UreaKnowHow B.V. | — | oem, supplier | Ammonia and urea |
 | [W. R. Grace](https://grace.com) | USA | supplier | Polypropylene (gas phase, bulk) |
 | [Wison](https://www.wison-energies.com) | China | epc, developer | Steam cracking (naphtha, ethane, LPG) |
 | [Wood](https://www.woodplc.com) | UK | epc, service | Steam cracking (naphtha, ethane, LPG) |

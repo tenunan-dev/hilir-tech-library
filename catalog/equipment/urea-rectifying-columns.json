@@ -1,0 +1,48 @@
+{
+  "id": "urea-rectifying-columns",
+  "name": "Rectifying columns / distillation columns",
+  "equipment_type": "rectifying",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Rectifying columns / distillation columns",
+  "specifications": [
+    {
+      "metric": "distillation temperature (vendor description)",
+      "unit": "degC",
+      "basis": "SensoTech: reaction mixture decompressed to atmospheric pressure and freed from ammonium carbamate in distillation columns at 70 C",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "value": 70
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sensotech.com/en/urea-production",
+      "source_id": "sensotech-com-en-urea-production"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Column diameter/height, tray/packing type, reflux ratio, number of stages",
+      "why": "No page read contains these",
+      "next_action": "Locate an authoritative urea process flowsheet/design paper."
+    },
+    {
+      "what": "Column diameter/height, tray/packing type, reflux ratio, number of stages",
+      "why": "No page read contains these",
+      "next_action": "Locate an authoritative urea process flowsheet/design paper."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

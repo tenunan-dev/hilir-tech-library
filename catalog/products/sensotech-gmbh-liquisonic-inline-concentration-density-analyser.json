@@ -1,0 +1,53 @@
+{
+  "id": "sensotech-gmbh-liquisonic-inline-concentration-density-analyser",
+  "name": "LiquiSonic inline concentration/density analyser",
+  "manufacturer": "sensotech-gmbh",
+  "product_type": "process",
+  "equipment": [
+    "urea-control-safety-ventilation"
+  ],
+  "description": "Vendor product line read 2026-11-24. Ultrasonic sound-velocity + density; immersion sensors typically DN80 at decomposer outlet.",
+  "specifications": [
+    {
+      "metric": "concentration range",
+      "unit": "m%",
+      "basis": "typical measuring range",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "low": 0,
+      "high": 100
+    },
+    {
+      "metric": "temperature range",
+      "unit": "degC",
+      "basis": "typical measuring range",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "low": -10,
+      "high": 140
+    },
+    {
+      "metric": "sensors per Controller 30",
+      "unit": "count",
+      "basis": "controller specification",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "value": 4
+    }
+  ],
+  "url": "https://www.sensotech.com/en/urea-production",
+  "sources": [
+    {
+      "url": "https://www.sensotech.com/en/urea-production",
+      "source_id": "sensotech-com-en-urea-production"
+    }
+  ],
+  "notes": "Ultrasonic sound-velocity + density; immersion sensors typically DN80 at decomposer outlet.",
+  "last_reviewed": "2026-11-24"
+}

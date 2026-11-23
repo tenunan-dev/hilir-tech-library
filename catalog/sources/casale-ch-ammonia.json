@@ -1,0 +1,29 @@
+{
+  "id": "casale-ch-ammonia",
+  "name": "Casale",
+  "url": "https://casale.ch/technologies/ammonia/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Casale",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. N-ELEVA is traditional SMR-based process; energy specs recorded under product_candidates. Evidence: https://casale.ch/technologies/ammonia/"
+}

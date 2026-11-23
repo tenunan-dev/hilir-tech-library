@@ -1,0 +1,38 @@
+{
+  "id": "nh3-fakfak-ammonia-urea-amurea-complex-west-papua",
+  "name": "Fakfak Ammonia-Urea (Amurea) Complex, West Papua",
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "17 Nov 2026 agreement with TOYO Engineering for BED of urea plant using TOYO ACES21 process; separate BED with Topsoe signed 13 Nov 2026 for ammonia plant; part of Fakfak Fertilizer Industrial Estate; TOYO states >110 urea plants designed with its technologies. Full page read; owner press release dated 19 Nov 2026.",
+  "capacities": [
+    {
+      "metric": "production capacity",
+      "value": "000",
+      "unit": "t/y",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en",
+        "source_id": "pupuk-indonesia-com-913-pupuk-indonesia-dan-toyo-kembangkan-kapasi"
+      }
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en",
+      "source_id": "pupuk-indonesia-com-913-pupuk-indonesia-dan-toyo-kembangkan-kapasi"
+    }
+  ],
+  "notes": "Full page read; owner press release dated 19 Nov 2026.",
+  "last_reviewed": "2026-11-24"
+}

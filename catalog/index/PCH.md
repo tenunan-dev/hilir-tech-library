@@ -1,26 +1,89 @@
 # PCH: Petrochemicals
 
-184 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
+247 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
 | [A*STAR Institute of Sustainability for Chemicals, Energy and Environment](https://www.a-star.edu.sg/isce2) | research-institute | sea | open | summary-only (unverified) |
 | [AIST Japan energy and environment research](https://www.aist.go.jp/index_en.html) | research-institute | apac | open | full-text-restricted |
+| [Alleima](https://ureaknowhow.com/) | oem-supplier | global, apac, sea | open | summary-only |
+| [American Petroleum Institute](https://www.api.org/products-and-services/standards/important-standards-announcements/standard521) | oem-supplier | global, apac, sea | open | summary-only |
+| [Ammoniaenergy.Org — Guohua (Cangzhou) Integrated Energy 'Green Port Hydroge](https://ammoniaenergy.org/wp-content/uploads/2026/08/AEA-LEAD-Plants-Executive-Summary-August-2026.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Assetlibrary.Msasafety.Com — Detection applications in tank farms](https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Blogs.Ubc.Ca — Refrigeration utility selection (design study)](https://blogs.ubc.ca/rajdeepdev/files/2020/01/201_220-final-report.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Booksite.Elsevier.Com — Refrigeration working fluids](https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Bureau of Indian Standards](https://www.bis.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
+| [Bühler](https://www.buhlergroup.com/global/en/homepage.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [Casale](https://casale.ch/technologies/ammonia/) | oem-supplier | global, apac, sea | open | summary-only |
+| [Casale — CO2 conversion in reactor (Split Flow Loop)](https://www.casale.ch/technologies/urea/) | oem-supplier | global, apac, sea | open | summary-only |
+| [Casale — N-LOOP ammonia synthesis loop](https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/) | oem-supplier | global, apac, sea | open | summary-only |
+| [Chart Industries (Howden) — Howden reciprocating gas compressor ratings](https://www.chartindustries.com/Howden) | oem-supplier | global, apac, sea | open | summary-only |
+| [Chemguide — A flow scheme for the Haber Process (haberflow.gif)](https://www.chemguide.co.uk/physical/equilibria/haber.html) | research-institute | global, apac, sea | open | summary-only |
 | [Chulalongkorn Petroleum and Petrochemical College](https://www.ppc.chula.ac.th/) | research-institute | sea | open | full-text-restricted |
 | [CNKI China National Knowledge Infrastructure](https://oversea.cnki.net/) | journal | apac | paywalled | catalog-only (unverified) |
 | [CSIR-Indian Institute of Petroleum](https://www.iip.res.in/) | research-institute | apac | open | summary-only (unverified) |
 | [Dalian Institute of Chemical Physics (CAS)](https://english.dicp.cas.cn/) | research-institute | apac, global | open | summary-only (unverified) |
+| [Dynaflow — Number of distinct cooling systems at one ammonia ](https://dynaflow.com/consulting/projects/design-review-of-cooling-water-systems-for-ammonia-plant/) | oem-supplier | global, apac, sea | open | summary-only |
 | [ECOjet Edge+ low-NOx burner](https://johnzink.com/products/powerburners/ecojet-edge-plus) | oem-supplier | global, na, apac | open | summary-only |
+| [Enipedia.Org — Export terminal](https://enipedia.org/wiki/Petronas_Fertiliser_Kedah) | oem-supplier | global, apac, sea | open | summary-only |
+| [Esg.Pusri.Co.Id — Boiler types in Pusri cradle-to-gate boundary](https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Google Patents — Effluent quantity from urea synthesis reaction](https://patents.google.com/patent/US5096599A/en) | oem-supplier | global, apac, sea | open | summary-only |
+| [Info.Zeeco.Com — Number of flare types typically used in a urea pla](https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en) | oem-supplier | global, apac, sea | open | summary-only |
+| [International Energy Agency — Mass flows in the ammonia supply chain from fossil fuel](https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf) | agency-data | global, apac, sea | open | summary-only |
 | [J-STAGE (Japanese journals: JPI, SCEJ)](https://www.jstage.jst.go.jp/) | journal | apac | open | full-text-restricted |
 | [Japanese Industrial Standards (JISC)](https://www.jisc.go.jp/eng/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [John Zink Asia-Pacific locations](https://johnzink.com/our-business/locations/asia-pacific) | oem-supplier | apac, sea, na | open | summary-only |
+| [Johnson Matthey](https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde) | oem-supplier | global, apac, sea | open | summary-only |
 | [KIST Korea Institute of Science and Technology](https://www.kist.re.kr/eng/) | research-institute | apac | open | summary-only (unverified) |
 | [OISD Oil Industry Safety Directorate standards](https://www.oisd.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
+| [Petronas.Com — PC Fertiliser Sabah (Sabah ammonia/urea complex)](https://www.petronas.com/pcg/sites/default/files/uploads/content/pdf/petronas-annual-report-2017.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Pressurised deaerators](https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Prosim.Net — Simulation flowsheet of an ammonia synthesis process fr](https://www.prosim.net/wp-content/uploads/2023/05/PSPS_EX_EN-Ammonia-Synthesis-Process.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Pupukkaltim.Com — PT Pupuk Kalimantan Timur (Pupuk Kaltim), Bontang](https://www.pupukkaltim.com/en/p/tentang-perusahaan) | oem-supplier | global, apac, sea | open | summary-only |
+| [Research.Csiro.Au — Cryogenic ammonia tank capacity (planned project)](https://research.csiro.au/hyresource/allied-green-ammonia/) | agency-data | global, apac, sea | open | summary-only |
+| [Research.Csiro.Au — Marine export facility (planned)](https://research.csiro.au/hyresource/murchison-green-hydrogen/) | agency-data | global, apac, sea | open | summary-only |
+| [S3.Amazonaws.Com — PASB Kerteh OTS control systems](https://s3.amazonaws.com/aramis-craft-medias/case_studies/pdf/36-Petronas-PGSB-PASB-Malaysia-OTS.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [SensoTech — carbamate thermal conversion temperature/pressure](https://www.sensotech.com/en/urea-production) | oem-supplier | global, apac, sea | open | summary-only |
 | [Shell boilers (Learn About Steam)](https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Stamicarbon](https://ureaknowhow.com/stamicarbon/) | oem-supplier | global, apac, sea | open | summary-only |
 | [Standardization Administration of China (GB standards)](https://www.sac.gov.cn/) | standards-body | apac | mixed | catalog-only (unverified) |
+| [Tcccthai.Com — Thai Central Chemical PCL fertilizer plants (Samut Prak](https://www.tcccthai.com/en) | oem-supplier | global, apac, sea | open | summary-only |
+| [Topsoe](https://www.topsoe.com/solutions/outputs/ammonia/synthesis) | oem-supplier | global, apac, sea | open | summary-only |
+| [Topsoe — desulfurisation section in conventional vs SynCOR ](https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants) | oem-supplier | global, apac, sea | open | summary-only |
+| [Topsoe — HTZ-3 / HTZ-31 ZnO absorbent duty](https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification) | oem-supplier | global, apac, sea | open | summary-only |
+| [Topsoe — Medium-temperature shift catalyst operating range](https://www.topsoe.com/solutions/outputs/ammonia/ammonia-co-shift) | oem-supplier | global, apac, sea | open | summary-only |
+| [Topsoe — PK-5 ring-shaped methanation catalyst pressure-dro](https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation) | oem-supplier | global, apac, sea | open | summary-only |
+| [Topsoe — Tubular radiant-wall reformer arrangement](https://www.topsoe.com/solutions/outputs/ammonia/ammonia-reforming) | oem-supplier | global, apac, sea | open | summary-only |
+| [Toyo Engineering Corporation — TOYO ACES21 urea process](https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en) | oem-supplier | global, apac, sea | open | summary-only |
+| [Toyo Engineering — feed-solution concentration effect on granulation ](https://www.toyo-eng.com/jp/en/solution/urea_granulation/) | oem-supplier | global, apac, sea | open | summary-only |
+| [UreaKnowHow B.V.](https://ureaknowhow.com/fluid-bed-granulation-optimization/) | oem-supplier | global, apac, sea | open | summary-only |
+| [UreaKnowHow — Ca Mau Fertilizer Plant (PVCFC)](https://ureaknowhow.com/wp-content/uploads/2023/03/2023-03-Ca-Mau-Fertilizer-Plant-in-Vietnam-TEC-Granulation-10-Years-Operation-and-Performance-REV.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [UreaKnowHow — Figure 1 - process flow diagram of Stamicarbon original](https://ureaknowhow.com/wp-content/uploads/2020/10/2020-Cucchiella-Stamicarbon-Scaling-up-granulation-plants.pdf) | oem-supplier | global, apac, sea | open | summary-only (unverified) |
+| [UreaKnowHow — Urea Production by Stamicarbon 2000plus Technology - Pr](https://ureaknowhow.com/wp-content/uploads/attachments/process%20flow.pdf) | oem-supplier | global, apac, sea | open | summary-only (unverified) |
 | [Water tube boilers (Learn About Steam)](https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Wikipedia — Ammonia normal boiling point](https://en.wikipedia.org/wiki/Ammonia) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — baghouse collection efficiency](https://en.wikipedia.org/wiki/Dust_collector) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — Block flow diagram of an ammonia synthesis industrial p](https://en.wikipedia.org/wiki/File:AmmoniaSynthesisDiagram.png) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — CO2 feed pressure for carbamate formation](https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — continuous discharge speed](https://en.wikipedia.org/wiki/Bucket_elevator) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — equipment class](https://en.wikipedia.org/wiki/Bulk_material_handling) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — Flare sonic tip upstream pressure threshold](https://en.wikipedia.org/wiki/Gas_flare) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — high-level infeed](https://en.wikipedia.org/wiki/Palletizer) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — MDEA concentration in aqueous solution](https://en.wikipedia.org/wiki/Amine_gas_treating) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — melting point](https://en.wikipedia.org/wiki/Urea) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — Methane at primary reformer exit after air additio](https://en.wikipedia.org/wiki/Ammonia_production) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — pipe conveyor maximum incline](https://en.wikipedia.org/wiki/Conveyor_belt) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — prill formation mechanism](https://en.wikipedia.org/wiki/Prill) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — rate control](https://en.wikipedia.org/wiki/Screw_conveyor) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — Rectisol absorption temperature](https://en.wikipedia.org/wiki/Rectisol) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — Selexol absorption pressure](https://en.wikipedia.org/wiki/Selexol) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — SMR optimal reactor temperature](https://en.wikipedia.org/wiki/Steam_reforming) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — Sour gas classification threshold](https://en.wikipedia.org/wiki/Sour_gas) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — Steam methane reforming + water-gas shift graphic (SMR+](https://en.wikipedia.org/wiki/File:SMR+WGS-1.png) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — sulfur removal chemistry (H2S + ZnO -> ZnS + H2O)](https://en.wikipedia.org/wiki/Haber_process) | research-institute | global, apac, sea | open | summary-only |
+| [Wikipedia — The Process to make ammonia from coal (Ammoniafromcoal.](https://en.wikipedia.org/wiki/File:Ammoniafromcoal.png) | research-institute | global, apac, sea | open | summary-only (unverified) |
+| [Wikipedia — vibrator-assisted discharge](https://en.wikipedia.org/wiki/Silo) | research-institute | global, apac, sea | open | summary-only |
+| [Woodside Energy — Beaumont New Ammonia (formerly OCI Clean Ammonia), Beau](https://www.woodside.com/what-we-do/growth-projects/beaumont-new-ammonia) | oem-supplier | global, apac, sea | open | summary-only |
 | [ASEAN PATENTSCOPE](https://patentscope.wipo.int/search/en/asean/) | patents | sea | open | full-text-open (unverified) |
 | [Asia Petrochemical Industry Conference (APIC)](https://www.apic-online.org/) | association | apac | open | summary-only |
 | [Asia Refining Technology Conference (ARTC)](https://asiandownstreaminsights.com/events/asian-refining-technology-conference) | conference | apac, sea | mixed | catalog-only (unverified) |

@@ -1,0 +1,38 @@
+{
+  "id": "nh3-acme-ihi-renewable-ammonia-project-odisha-eastern-india",
+  "name": "ACME-IHI renewable ammonia project, Odisha, eastern India",
+  "country": "India",
+  "location": "India",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Japanese government funding for Indian renewable ammonia offtake; IHI and ACME announced the CfD award. AEA LEAD PDF read.",
+  "capacities": [
+    {
+      "metric": "production capacity",
+      "value": "000",
+      "unit": "t/y",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://ammoniaenergy.org/wp-content/uploads/2026/08/AEA-LEAD-Plants-Executive-Summary-August-2026.pdf",
+        "source_id": "ammoniaenergy-org-08-aea-lead-plants-executive-summary-august-2026"
+      }
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://ammoniaenergy.org/wp-content/uploads/2026/08/AEA-LEAD-Plants-Executive-Summary-August-2026.pdf",
+      "source_id": "ammoniaenergy-org-08-aea-lead-plants-executive-summary-august-2026"
+    }
+  ],
+  "notes": "AEA LEAD PDF read.",
+  "last_reviewed": "2026-11-24"
+}

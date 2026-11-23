@@ -1,0 +1,29 @@
+{
+  "id": "buhlergroup-com-en-homepage-html",
+  "name": "Bühler",
+  "url": "https://www.buhlergroup.com/global/en/homepage.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Buhlergroup.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Bucket-elevator product URL returned 404; only the site navigation was fetched. Do not treat as sourced vendor fact. Evidence: https://www.buhlergroup.com/global/en/homepage.html"
+}

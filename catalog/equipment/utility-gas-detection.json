@@ -1,0 +1,69 @@
+{
+  "id": "utility-gas-detection",
+  "name": "Gas detection",
+  "equipment_type": "gas",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Gas detection (ammonia detectors, fire and gas system)",
+  "specifications": [
+    {
+      "metric": "Ultrasonic leak detector range",
+      "unit": "m",
+      "basis": "Typical detection ranges 17-28 m depending on microphone technology; suitable only for pressurised installations from 2 bar (29 psi); MSA Observer i",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+        "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+      },
+      "low": 17,
+      "high": 28
+    },
+    {
+      "metric": "Laser open-path NH3 measuring range",
+      "unit": "ppm.m",
+      "basis": "Measuring range up to 0-15000 ppm.m; path lengths 5-40 m and 40-120 m; MSA Senscient ELDS",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+        "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+      },
+      "high": 15000
+    },
+    {
+      "metric": "Point catalytic bead range",
+      "unit": "%LEL",
+      "basis": "Typical measuring range 0-100 %LEL; MSA ULTIMA X5000 / General Monitors S5000 / TG5000 / PrimaX P",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+        "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+      },
+      "low": 0,
+      "high": 100
+    },
+    {
+      "metric": "Point electrochemical NH3 range",
+      "unit": "ppm",
+      "basis": "Typical measuring ranges for direct measurement of ammonia at occupational exposure levels; sensor life 1-2 years (XCell ammonia sensor >5 years per footnote)",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+        "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+      },
+      "value": "0-100 ppm and 0-1,000 ppm"
+    }
+  ],
+  "vendors": [
+    "msa-safety"
+  ],
+  "sources": [
+    {
+      "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+      "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+    }
+  ],
+  "gaps": [],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

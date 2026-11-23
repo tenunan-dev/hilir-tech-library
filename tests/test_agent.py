@@ -118,6 +118,14 @@ def test_rare_concept_pool_lets_a_code_beat_a_common_word(tmp_path):
     (corpus / "arxiv" / "pem.md").write_text(DOC, encoding="utf-8")
     for folder in ("technologies", "vendors", "equipment", "projects"):
         (tmp_path / "catalog" / folder).mkdir(parents=True)
+    # Isolate BM25 idf from the live catalog: this test pins the rare-concept pool, not corpus growth.
+    (tmp_path / "catalog" / "catalog.jsonl").write_text(
+        json.dumps({"id": "arxiv", "name": "Test corpus", "url": "https://example.com",
+                    "source_type": "agency-data", "sectors": ["PWR"], "disciplines": ["PRC"],
+                    "publisher_org": "Test", "regions": ["global"], "access": "open",
+                    "licence": "public-domain", "reuse_level": "full-text-open",
+                    "quality_tier": 1, "verification": "verified", "last_verified": "2026-01-01"}) + "\n",
+        encoding="utf-8")
     for card in (
         _card("ccs-code", "Capture with KS", "A licensor process named KS, offered as a package."),
         _card("ccs-plain", "Solvent deasphalting", "Solvent solvent solvent recovery and solvent recycle."),

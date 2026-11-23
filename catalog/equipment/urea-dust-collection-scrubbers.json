@@ -1,0 +1,162 @@
+{
+  "id": "urea-dust-collection-scrubbers",
+  "name": "Dust collection, scrubbers, ammonia/urea dust recovery",
+  "equipment_type": "dust",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Dust collection, scrubbers, ammonia/urea dust recovery | Warehouses and packaging",
+  "specifications": [
+    {
+      "metric": "urea dust after Toyo scrubber",
+      "unit": "mg/Nm3-Air",
+      "basis": "Toyo low-pressure drop dust scrubber with circulating water",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "high": 30
+    },
+    {
+      "metric": "ammonia removal option",
+      "unit": "n/a",
+      "basis": "Toyo: applied where ammonia discharged to atmosphere also needs reduction",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": "acid scrubbing using sulfuric acid or nitric acid"
+    },
+    {
+      "metric": "baghouse collection efficiency",
+      "unit": "percent (more than 99%)",
+      "basis": "Wikipedia Dust collector: fabric collectors can achieve collection efficiency of more than 99% for very fine particulates",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Dust_collector",
+        "source_id": "en-wikipedia-org-wiki-dust-collector"
+      },
+      "high": 100
+    },
+    {
+      "metric": "wet scrubber pressure drop - low energy",
+      "unit": "inches water gauge (124.4-621.9 Pa)",
+      "basis": "Wikipedia Dust collector spray-tower scrubber categorisation",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Dust_collector",
+        "source_id": "en-wikipedia-org-wiki-dust-collector"
+      },
+      "low": 0.5,
+      "high": 2.5
+    },
+    {
+      "metric": "wet scrubber pressure drop - low/medium",
+      "unit": "inches water gauge (0.622-1.493 kPa)",
+      "basis": "Wikipedia Dust collector",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Dust_collector",
+        "source_id": "en-wikipedia-org-wiki-dust-collector"
+      },
+      "low": 2.5,
+      "high": 6
+    },
+    {
+      "metric": "wet scrubber pressure drop - medium/high",
+      "unit": "inches water gauge (1.493-3.731 kPa)",
+      "basis": "Wikipedia Dust collector",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Dust_collector",
+        "source_id": "en-wikipedia-org-wiki-dust-collector"
+      },
+      "low": 6,
+      "high": 15
+    },
+    {
+      "metric": "wet scrubber pressure drop - high energy",
+      "unit": "inches water gauge (>3.731 kPa)",
+      "basis": "Wikipedia Dust collector: greater than 15 inches water gauge",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Dust_collector",
+        "source_id": "en-wikipedia-org-wiki-dust-collector"
+      },
+      "low": 15
+    },
+    {
+      "metric": "ESP operating voltage",
+      "unit": "kV",
+      "basis": "Wikipedia Dust collector: particles passed through strong 50-100 kV electrostatic field",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Dust_collector",
+        "source_id": "en-wikipedia-org-wiki-dust-collector"
+      },
+      "low": 50,
+      "high": 100
+    },
+    {
+      "metric": "unit collector capacity",
+      "unit": "ft3/min (90-900 L/s)",
+      "basis": "Wikipedia Dust collector unit collectors for bins, silos, remote belt-conveyor transfer points",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Dust_collector",
+        "source_id": "en-wikipedia-org-wiki-dust-collector"
+      },
+      "low": 200,
+      "high": 2000
+    },
+    {
+      "metric": "Urea package size",
+      "unit": "kg per bag",
+      "basis": "Pusri urea EPD: product packaged in 50 kg bag",
+      "source": {
+        "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+        "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Warehouse in system boundary",
+      "unit": "process block",
+      "basis": "Pusri urea EPD cradle-to-gate boundary explicitly includes 'f. Warehouse and packaging'",
+      "source": {
+        "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+        "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+      },
+      "value": "Warehouse and packaging"
+    }
+  ],
+  "vendors": [
+    "toyo",
+    "sensotech-gmbh"
+  ],
+  "sources": [
+    {
+      "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+      "source_id": "toyo-eng-com-urea-granulation"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dust_collector",
+      "source_id": "en-wikipedia-org-wiki-dust-collector"
+    },
+    {
+      "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+      "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Urea-specific dust collector models, filter media, air-to-cloth ratio, dust return method, emission guarantees",
+      "why": "No urea-plant dust-collection OEM page was read",
+      "next_action": "Fetch a vendor page for fertilizer dust collection (e.g. a baghouse OEM) with a known URL."
+    },
+    {
+      "what": "Urea-specific dust collector models, filter media, air-to-cloth ratio, dust return method, emission guarantees",
+      "why": "No urea-plant dust-collection OEM page was read",
+      "next_action": "Fetch a vendor page for fertilizer dust collection (e.g. a baghouse OEM) with a known URL."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

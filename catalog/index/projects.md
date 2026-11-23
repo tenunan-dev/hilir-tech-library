@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-331 project records (one per named project or plant, schema `schema/project.schema.json`).
+349 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -833,6 +833,12 @@ Status: **operating** | Country: DE
 two furnaces, about 4 t/h feed, 6 MW renewable power
 Technologies: pch-electric-steam-cracking
 
+### Ca Mau Fertilizer Plant (PVCFC) (nh3-ca-mau-fertilizer-plant-pvcfc)
+Status: **operating** | Country: Vietnam
+Construction started 2008 at U Minh, Ca Mau; natural gas feedstock from PM3-CAA field; TEC granulation technology; ~900 million USD initial investment stated in UreaKnowHow paper abstract. Search-verified snippets only; direct PDF fetch returned a gated HTML page and PVCFC news page returned 403. page_read=false.
+Technologies: pch-ammonia-urea
+Capacity: production capacity: 000 t/y
+
 ### Carbios Longlaville plant, Meurthe-et-Moselle (carbios-longlaville-plant-meurthe-et-moselle)
 Status: **operating** | Country: FR
 50,000 t/yr PET waste, EUR 230 million
@@ -893,10 +899,27 @@ Operating nitrogen complex in Alberta with gross annual capacity of 1.0 Mt ammon
 Technologies: pch-ammonia-urea, h2-refinery-ammonia-feedstock, h2-green-blue-ammonia
 Capacity: ammonia: 1.0 Mt/yr; urea: 0.7 Mt/yr
 
+### Orica Hunter Valley Hydrogen Hub / Kooragang Island, Newcastle (nh3-orica-hunter-valley-hydrogen-hub-kooragang-island-newcastle)
+Status: **operating** | Country: Australia
+Hydrogen added to an existing ammonia production facility. AEA LEAD PDF read.
+Technologies: pch-ammonia-urea
+
+### PETRONAS Chemicals Fertiliser Kedah Sdn Bhd (Gurun / Kuala Muda, Kedah) (nh3-petronas-chemicals-fertiliser-kedah-sdn-bhd-gurun-kuala-muda-kedah)
+Status: **operating** | Country: Malaysia
+Natural gas feedstock; marketing through MITCO Sdn Bhd; export via deep wharf at Butterworth, Penang with dedicated railway link. Enipedia page read but is a secondary compiled wiki; last updated 4 Oct 2026. Cross-check against official PETRONAS source before production use.
+Technologies: pch-ammonia-urea
+Capacity: production capacity: 100 MT
+
 ### Plastic Energy and TotalEnergies advanced recycling plant, Seville (plastic-energy-and-totalenergies-advanced-recycling-plant-seville)
 Status: **operating** | Country: ES
 33,000 t/yr plastic waste
 Technologies: pch-plastics-pyrolysis
+
+### PT Pupuk Sriwidjaja Palembang (Pusri) ammonia-urea complex (nh3-pt-pupuk-sriwidjaja-palembang-pusri-ammonia-urea-complex)
+Status: **operating** | Country: Indonesia
+Pioneer urea producer in Indonesia, established 24 Dec 1959, first production 1963 (Pusri-I), Pusri-II 1974; site 230 ha with Pusri-IB, Pusri-III, Pusri-IV and NPK units per EPD. EPD system boundary includes steam system, process condensate stripper, ARU & HRU and process condensate treatment. EPD PDF itself read (units/boundary); the 2.62 Mt/y figure is from a search snippet of a different Pusri PDF, page_read=false for that number.
+Technologies: pch-ammonia-urea
+Capacity: production capacity: 000 t/y
 
 ### PureCycle Ironton, Ohio (purecycle-ironton-ohio)
 Status: **operating** | Country: US
@@ -969,15 +992,95 @@ Status: **proposed** | Country: NL
 Technologies: pch-ammonia-urea
 Recorded gaps: confirmed project status
 
+### ACME-IHI renewable ammonia project, Odisha, eastern India (nh3-acme-ihi-renewable-ammonia-project-odisha-eastern-india)
+Status: **under-construction** | Country: India
+Japanese government funding for Indian renewable ammonia offtake; IHI and ACME announced the CfD award. AEA LEAD PDF read.
+Technologies: pch-ammonia-urea
+Capacity: production capacity: 000 t/y
+
+### Allied Green Ammonia Project, Gove Peninsula, Northern Territory (nh3-allied-green-ammonia-project-gove-peninsula-northern-territory)
+Status: **under-construction** | Country: Australia
+Total project cost US$6.8 billion stated by proponent; TOPSOE process licence and ammonia engineering (Oct 2023/May 2024); Plug Power 3 GW electrolyser purchase and BEDP (Jan 2025); SPG Steiner two 40,000 t cryogenic ammonia tanks (July 2024); Air Liquide Japan cryogenic nitrogen generator BEDP; ABB Australia micro-grid MOU; port and seawater intake infrastructure at Gove. CSIRO HyResource page read, reviewed by proponent April 2026.
+Technologies: pch-ammonia-urea, h2-green-blue-ammonia
+Capacity: production capacity: 500 t/y
+
+### Amoco/M.W. Kellogg single-converter ammonia plant, Texas City (nh3-amoco-m-w-kellogg-single-converter-ammonia-plant-texas-city)
+Status: **under-construction** | Country: USA
+First large single-train design; syngas compressed to 152 bar in four-case centrifugal compressor and to 324 bar in reciprocating compressor; won 1967 Kirkpatrick Chemical Engineering Achievement Award. Wikipedia secondary source.
+Technologies: pch-ammonia-urea
+
+### BASF Oppau first industrial Haber-Bosch ammonia plant (nh3-basf-oppau-first-industrial-haber-bosch-ammonia-plant)
+Status: **under-construction** | Country: Germany
+First industrial-scale Haber process plant; demonstrated by Carl Bosch's scale-up of Haber's laboratory process. Wikipedia secondary source; historical context only.
+Technologies: pch-ammonia-urea
+
+### Beaumont New Ammonia (formerly OCI Clean Ammonia), Beaumont, Texas (nh3-beaumont-new-ammonia-formerly-oci-clean-ammonia-beaumont-texas)
+Status: **under-construction** | Country: USA
+Expected to be one of first ammonia plants paired with autothermal reforming and 95% CO2 capture; lifecycle intensity ~0.8 tCO2/tNH3 vs 2.3 tCO2/tNH3 unabated (contracted threshold with Linde; subject to ExxonMobil CCS start-up and permits). Owner page read, last updated 25 Aug 2026.
+Technologies: pch-ammonia-urea
+Capacity: production capacity: 1.1 MT
+
+### Fakfak Ammonia-Urea (Amurea) Complex, West Papua (nh3-fakfak-ammonia-urea-amurea-complex-west-papua)
+Status: **under-construction** | Country: Indonesia
+17 Nov 2026 agreement with TOYO Engineering for BED of urea plant using TOYO ACES21 process; separate BED with Topsoe signed 13 Nov 2026 for ammonia plant; part of Fakfak Fertilizer Industrial Estate; TOYO states >110 urea plants designed with its technologies. Full page read; owner press release dated 19 Nov 2026.
+Technologies: pch-ammonia-urea
+Capacity: production capacity: 000 t/y
+
+### Good Earth Green Hydrogen and Ammonia (GEGHA) hub (nh3-good-earth-green-hydrogen-and-ammonia-gegha-hub)
+Status: **under-construction** | Country: Australia
+KAPSOM completed equipment shipments including ammonia synthesis skid in late September 2026 (search-verified snippet only). Capacity and status from AEA PDF read; KAPSOM detail page_read=false.
+Technologies: pch-ammonia-urea, h2-green-blue-ammonia
+Capacity: production capacity: 500 t/y
+
+### Guohua (Cangzhou) Integrated Energy 'Green Port Hydrogen City', Bohai Sea (nh3-guohua-cangzhou-integrated-energy-green-port-hydrogen-city-bohai-sea)
+Status: **under-construction** | Country: China
+Produces ISCC-certified, RFNBO-compliant ammonia on coast of Bohai Sea in northeast China. Ammonia Energy Association LEAD Plants Executive Summary Aug 2026, read.
+Technologies: pch-ammonia-urea, h2-green-blue-ammonia
+Capacity: production capacity: 000 t/y
+
 ### KPIC butadiene extraction unit, Ulsan, South Korea (Lummus, BASF NMP process) (kpic-butadiene-extraction-unit-ulsan-south-korea-lummus-basf-nmp-process)
 Status: **under-construction** | Country: KR
 146,000 t/yr butadiene via BASF BDE NMP extractive distillation, licensed by Lummus (award May 2021)
 Technologies: pch-butadiene
 
+### Murchison Green Hydrogen, Kalbarri, Western Australia (nh3-murchison-green-hydrogen-kalbarri-western-australia)
+Status: **under-construction** | Country: Australia
+Up to 445 wind turbines (3.1 GW), 2.6 GW solar PV, desalination 5 GL/a, marine export with pipelines and CALM buoy ~4.6 km offshore; AUD$814 million Hydrogen Headstart Round 1 funding for 1.5 GW first stage; AUD$1 billion Round 2 shortlisting May 2026. CSIRO HyResource page read, reviewed by proponent July 2026.
+Technologies: pch-ammonia-urea, h2-green-blue-ammonia
+
 ### NatureWorks Ingeo PLA plant, Rayong, Thailand (natureworks-ingeo-pla-plant-rayong-thailand)
 Status: **under-construction** | Country: TH
 75,000 t/yr; construction milestone Feb 2023, production planned from 2025
 Technologies: pch-bio-based-chemicals
+
+### PC Fertiliser Sabah (Sabah ammonia/urea complex) (nh3-pc-fertiliser-sabah-sabah-ammonia-urea-complex)
+Status: **under-construction** | Country: Malaysia
+PETRONAS 2017 annual report stated this added 1.9 mtpa and made PCG the second largest granular urea producer in Southeast Asia. Search-verified snippet only; the direct PDF URL returned 404 when fetched. page_read=false.
+Technologies: pch-ammonia-urea
+
+### PETRONAS Ammonia Sdn Bhd (PASB), Kerteh (nh3-petronas-ammonia-sdn-bhd-pasb-kerteh)
+Status: **under-construction** | Country: Malaysia
+Kerteh ammonia plant; operator training simulator built on INDISS with Yokogawa CS3000 emulation; adjacent gas plants GPPA (Kerteh) and GPPB (Paka) each 500 MMSCFD sales gas. Primary vendor case study PDF read; capacity printed verbatim.
+Technologies: pch-ammonia-urea
+Capacity: production capacity: 000 tpa
+
+### PT Pupuk Kalimantan Timur (Pupuk Kaltim), Bontang (nh3-pt-pupuk-kalimantan-timur-pupuk-kaltim-bontang)
+Status: **under-construction** | Country: Indonesia
+Described as largest integrated ammonia-urea plant in Southeast Asia; ISO 50001 first implemented at PKT-3 from April 2016; Ammonia Plant-2 revamp increased capacity to 1,841 t/d (search snippet). Company page transport error on fetch; figures from DuckDuckGo search snippets of the company page and Clean Energy Ministerial case study. page_read=false.
+Technologies: pch-ammonia-urea
+Capacity: production capacity: 000 t/y
+
+### Thai Central Chemical PCL fertilizer plants (Samut Prakan and Phra Nakhon Si Ayutthaya) (nh3-thai-central-chemical-pcl-fertilizer-plants-samut-prakan-and-phra-nakh)
+Status: **under-construction** | Country: Thailand
+Company describes manufacture/distribution of chemical fertilizer compounds; the sources read do not confirm on-site ammonia or urea synthesis, so treat as adjacent fertilizer, not a confirmed urea plant. Search-verified snippet from echemi/lookchem descriptions; page_read=false and classification unconfirmed.
+Technologies: pch-ammonia-urea
+Capacity: production capacity: 000 t/y
+
+### YURI project, Pilbara (ENGIE and Mitsui) (nh3-yuri-project-pilbara-engie-and-mitsui)
+Status: **under-construction** | Country: Australia
+Pilbara-based renewable ammonia project. AEA LEAD PDF read.
+Technologies: pch-ammonia-urea
+Capacity: production capacity: 600 t/y
 
 ## PRC: Process systems
 

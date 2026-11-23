@@ -1,0 +1,38 @@
+{
+  "id": "nh3-pt-pupuk-sriwidjaja-palembang-pusri-ammonia-urea-complex",
+  "name": "PT Pupuk Sriwidjaja Palembang (Pusri) ammonia-urea complex",
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Pioneer urea producer in Indonesia, established 24 Dec 1959, first production 1963 (Pusri-I), Pusri-II 1974; site 230 ha with Pusri-IB, Pusri-III, Pusri-IV and NPK units per EPD. EPD system boundary includes steam system, process condensate stripper, ARU & HRU and process condensate treatment. EPD PDF itself read (units/boundary); the 2.62 Mt/y figure is from a search snippet of a different Pusri PDF, page_read=false for that number.",
+  "capacities": [
+    {
+      "metric": "production capacity",
+      "value": "000",
+      "unit": "t/y",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+        "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+      }
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+      "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+    }
+  ],
+  "notes": "EPD PDF itself read (units/boundary); the 2.62 Mt/y figure is from a search snippet of a different Pusri PDF, page_read=false for that number.",
+  "last_reviewed": "2026-11-24"
+}

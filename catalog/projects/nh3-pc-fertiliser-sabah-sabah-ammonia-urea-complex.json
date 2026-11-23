@@ -1,0 +1,27 @@
+{
+  "id": "nh3-pc-fertiliser-sabah-sabah-ammonia-urea-complex",
+  "name": "PC Fertiliser Sabah (Sabah ammonia/urea complex)",
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "PETRONAS 2017 annual report stated this added 1.9 mtpa and made PCG the second largest granular urea producer in Southeast Asia. Search-verified snippet only; the direct PDF URL returned 404 when fetched. page_read=false.",
+  "capacities": [],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/pcg/sites/default/files/uploads/content/pdf/petronas-annual-report-2017.pdf",
+      "source_id": "petronas-com-pdf-petronas-annual-report-2017-pdf"
+    }
+  ],
+  "notes": "Search-verified snippet only; the direct PDF URL returned 404 when fetched. page_read=false.",
+  "last_reviewed": "2026-11-24"
+}

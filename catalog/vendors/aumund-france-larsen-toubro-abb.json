@@ -1,0 +1,24 @@
+{
+  "id": "aumund-france-larsen-toubro-abb",
+  "name": "AUMUND France / Larsen & Toubro / ABB",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "AUMUND France / Larsen & Toubro / ABB is named as a supplier on a page read during the ammonia/urea sweep.",
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+      "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 ammonia/urea sweep."
+}

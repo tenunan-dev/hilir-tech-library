@@ -56,6 +56,46 @@
         "url": "https://eprints.whiterose.ac.uk/id/eprint/97580/1/Urea%20prilling%20vs%20granulation%202015.pdf",
         "note": "Rahmanian et al., Urea prilling vs granulation, 2015, read 2026-11-17"
       }
+    },
+    {
+      "metric": "prill size limit",
+      "unit": "mm diameter",
+      "basis": "Wikipedia: prills limited to about 2.1 mm diameter, with low crushing strength and caking/crushing in bulk storage and handling",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": 2.1
+    },
+    {
+      "metric": "prill formation mechanism",
+      "unit": "n/a",
+      "basis": "Wikipedia Prill; material must be solid at room temperature and low-viscosity liquid when melted",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prill",
+        "source_id": "en-wikipedia-org-wiki-prill"
+      },
+      "value": "drops of melted material congeal/freeze in mid-air after dripping from top of a tall prilling tower"
+    },
+    {
+      "metric": "prilling displacement trend",
+      "unit": "n/a",
+      "basis": "Wikipedia Prill, citing Van't Land, Industrial Crystallization of Melts (2004), p.117",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prill",
+        "source_id": "en-wikipedia-org-wiki-prill"
+      },
+      "value": "prilling of ammonium nitrate and urea replaced in recent years by fluid bed granulation giving stronger, more abrasion-resistant granules"
+    },
+    {
+      "metric": "formaldehyde additive",
+      "unit": "n/a",
+      "basis": "Wikipedia Urea finishing",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": "added during production of both prills and granules to increase crushing strength and suppress caking"
     }
   ],
   "vendors": [
@@ -79,9 +119,17 @@
     {
       "url": "https://eprints.whiterose.ac.uk/id/eprint/97580/1/Urea%20prilling%20vs%20granulation%202015.pdf",
       "note": "Rahmanian et al., Urea prilling vs granulation, 2015 (prill size), read 2026-11-17"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+      "source_id": "en-wikipedia-org-w-index-php"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Prill",
+      "source_id": "en-wikipedia-org-wiki-prill"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-24",
   "vendor_models": [
     {
       "vendor": "stamicarbon",
@@ -92,5 +140,18 @@
       "range": "rotating buckets distribute liquid urea droplets evenly in the tower; optional seeding",
       "url": "https://www.stamicarbon.com/prilling-design"
     }
-  ]
+  ],
+  "gaps": [
+    {
+      "what": "Tower height/diameter, airflow, droplet size distribution, nozzle/bucket design and capacity",
+      "why": "No prilling-tower OEM page was fetched; Wikipedia Prill is a stub",
+      "next_action": "Find a prilling tower vendor/OEM page or old engineering design paper."
+    },
+    {
+      "what": "Tower height/diameter, airflow, droplet size distribution, nozzle/bucket design and capacity",
+      "why": "No prilling-tower OEM page was fetched; Wikipedia Prill is a stub",
+      "next_action": "Find a prilling tower vendor/OEM page or old engineering design paper."
+    }
+  ],
+  "notes": "Enriched 2026-11-24 with page-read ammonia/urea sweep sources. Enriched 2026-11-24 with page-read ammonia/urea sweep sources."
 }

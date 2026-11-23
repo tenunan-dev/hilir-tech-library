@@ -1,0 +1,36 @@
+{
+  "id": "drawing-figure-3-1-gas-turbine-cogeneration-with-heat-recovery-steam-generator-els",
+  "title": "Figure 3.1 Gas-turbine cogeneration with heat recovery steam generator (Elsevier Chapter 3)",
+  "diagram_type": "schematic",
+  "description": "Chapter text describes Figure 3.1: electricity and steam cogeneration using a gas turbine with HRSG (waste-heat boiler).",
+  "publisher": "Elsevier (sample chapter, ISBN 9780080966595)",
+  "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+  "licence": "Publisher copyright (sample chapter)",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PCH",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Figure referenced in text read; image not reproduced.",
+  "last_reviewed": "2026-11-24"
+}

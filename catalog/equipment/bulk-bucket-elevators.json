@@ -1,0 +1,68 @@
+{
+  "id": "bulk-bucket-elevators",
+  "name": "Bucket elevators",
+  "equipment_type": "bucket",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Bucket elevators",
+  "specifications": [
+    {
+      "metric": "continuous discharge speed",
+      "unit": "m/s (20 ft/s)",
+      "basis": "Wikipedia Bucket elevator: continuous discharge elevator uses speed around 6 m/s to achieve required centrifugal force",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bucket_elevator",
+        "source_id": "en-wikipedia-org-wiki-bucket-elevator"
+      },
+      "value": 6
+    },
+    {
+      "metric": "construction",
+      "unit": "n/a",
+      "basis": "Wikipedia Bucket elevator component list",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bucket_elevator",
+        "source_id": "en-wikipedia-org-wiki-bucket-elevator"
+      },
+      "value": "buckets, belt carrying buckets and transmitting pull, drive, loading/discharge accessories, belt tensioning, enclosure"
+    },
+    {
+      "metric": "materials handled",
+      "unit": "n/a",
+      "basis": "Wikipedia Bucket elevator lead: mechanism for hauling flowable bulk materials, most often grain or fertilizer",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bucket_elevator",
+        "source_id": "en-wikipedia-org-wiki-bucket-elevator"
+      },
+      "value": "grain or fertilizer (explicitly named)"
+    }
+  ],
+  "vendors": [
+    "b-hler"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Bucket_elevator",
+      "source_id": "en-wikipedia-org-wiki-bucket-elevator"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Elevator capacity (t/h), lift height, bucket size/spacing, belt speed range, drive power, OEM models",
+      "why": "No OEM page read",
+      "next_action": "Fetch a verified bucket elevator OEM page (Bühler, BEUMER, AUMUND, 4B Elevator Components)."
+    },
+    {
+      "what": "Elevator capacity (t/h), lift height, bucket size/spacing, belt speed range, drive power, OEM models",
+      "why": "No OEM page read",
+      "next_action": "Fetch a verified bucket elevator OEM page (Bühler, BEUMER, AUMUND, 4B Elevator Components)."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

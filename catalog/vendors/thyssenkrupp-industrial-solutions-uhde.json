@@ -1,0 +1,24 @@
+{
+  "id": "thyssenkrupp-industrial-solutions-uhde",
+  "name": "thyssenkrupp Industrial Solutions (Uhde)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "thyssenkrupp Industrial Solutions (Uhde) is named as a supplier on a page read during the ammonia/urea sweep.",
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+      "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 ammonia/urea sweep."
+}

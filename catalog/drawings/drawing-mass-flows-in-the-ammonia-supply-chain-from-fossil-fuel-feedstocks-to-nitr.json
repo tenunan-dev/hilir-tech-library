@@ -1,0 +1,34 @@
+{
+  "id": "drawing-mass-flows-in-the-ammonia-supply-chain-from-fossil-fuel-feedstocks-to-nitr",
+  "title": "Mass flows in the ammonia supply chain from fossil fuel feedstocks to nitrogen fertilisers and industrial products (IEA 2021)",
+  "diagram_type": "PFD",
+  "description": "Figure caption: line thickness proportional to mass flows, numeric values in Mt/y using 2019 production data, fossil feedstock only (not process energy inputs); abbreviations MAP, DAP, CAN, UAN, AS.",
+  "publisher": "IEA, Ammonia Technology Roadmap (2021)",
+  "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+  "licence": "CC BY 4.0 (IEA report page states licence)",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PCH",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+      "source_id": "iea-org-6ee41bb9-8e81-4b64-8701-2acc064ff6e4-ammoniatechnologyroad"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Caption read from PDF page 29 (report page 27). Source note: production volumes IFA; process characterisations and yields Levi and Cullen (2018).",
+  "last_reviewed": "2026-11-24"
+}

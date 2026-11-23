@@ -1,0 +1,62 @@
+{
+  "id": "casale-flexammonia-large-scale-green-ammonia-synthesis-loop",
+  "name": "FlexAMMONIA (large-scale green ammonia synthesis loop)",
+  "manufacturer": "casale",
+  "product_type": "ammonia",
+  "equipment": [
+    "ammonia-refrigeration-storage"
+  ],
+  "description": "Vendor product line read 2026-11-24. Green H2 from electrolysis and pure N2 from air separation unit.",
+  "specifications": [
+    {
+      "metric": "Clean syngas consumption per tonne ammonia",
+      "unit": "Nm3/t NH3 (equivalent to less than 2000 Nm3 H2)",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 2650
+    },
+    {
+      "metric": "Reaction heat recovery per tonne ammonia",
+      "unit": "Kcal/t NH3 (more than)",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 600000
+    },
+    {
+      "metric": "Plant turndown",
+      "unit": "%",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "low": 10,
+      "high": 100
+    },
+    {
+      "metric": "Ramp-up/down rate",
+      "unit": "%/min",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "high": 3
+    }
+  ],
+  "url": "https://casale.ch/technologies/ammonia/",
+  "sources": [
+    {
+      "url": "https://casale.ch/technologies/ammonia/",
+      "source_id": "casale-ch-ammonia"
+    }
+  ],
+  "notes": "Green H2 from electrolysis and pure N2 from air separation unit.",
+  "last_reviewed": "2026-11-24"
+}

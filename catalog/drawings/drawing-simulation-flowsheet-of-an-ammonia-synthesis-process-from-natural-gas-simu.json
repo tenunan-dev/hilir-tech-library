@@ -1,0 +1,36 @@
+{
+  "id": "drawing-simulation-flowsheet-of-an-ammonia-synthesis-process-from-natural-gas-simu",
+  "title": "Simulation flowsheet of an ammonia synthesis process from natural gas / simulation flowsheet of an ammonia synthesis reactor",
+  "diagram_type": "PFD",
+  "description": "ProSim document section 1.2 contains two titled flowsheets (p.6 natural-gas-to-ammonia process, p.7 ammonia synthesis reactor). Heat exchange between process streams and steam generation by a boiler are simulated; utility networks and expander-compressor couplings are not simulated.",
+  "publisher": "Fives ProSim, Labège, France (March 2024 version)",
+  "url": "https://www.prosim.net/wp-content/uploads/2023/05/PSPS_EX_EN-Ammonia-Synthesis-Process.pdf",
+  "licence": "Copyright (c) 2024 Fives ProSim - all rights reserved",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PCH",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.prosim.net/wp-content/uploads/2023/05/PSPS_EX_EN-Ammonia-Synthesis-Process.pdf",
+      "source_id": "prosim-net-05-psps-ex-en-ammonia-synthesis-process-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. PDF text read; figure titles verified, actual diagram not reproduced.",
+  "last_reviewed": "2026-11-24"
+}

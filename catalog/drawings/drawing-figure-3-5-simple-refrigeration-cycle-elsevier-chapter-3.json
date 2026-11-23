@@ -1,0 +1,36 @@
+{
+  "id": "drawing-figure-3-5-simple-refrigeration-cycle-elsevier-chapter-3",
+  "title": "Figure 3.5 Simple refrigeration cycle (Elsevier Chapter 3)",
+  "diagram_type": "schematic",
+  "description": "Figure labels: compressor, condenser, expansion valve, evaporator, process fluid, coolant, T1/T2.",
+  "publisher": "Elsevier (sample chapter, ISBN 9780080966595)",
+  "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+  "licence": "Publisher copyright (sample chapter)",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PCH",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Figure labels read from PDF text.",
+  "last_reviewed": "2026-11-24"
+}

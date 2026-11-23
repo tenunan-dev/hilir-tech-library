@@ -1,0 +1,36 @@
+{
+  "id": "drawing-us5096599a-fig-1-process-flow-diagram-of-urea-effluent-purification-fig-2",
+  "title": "US5096599A FIG. 1 - process flow diagram of urea effluent purification; FIG. 2 - hydrolyzer",
+  "diagram_type": "PFD",
+  "description": "FIG. 1 shows collection tank, pump, feed/preheat heat exchanger, stripping column with condenser and reflux, hydrolyser and second stripping section; FIG. 2 shows horizontal cylindrical hydrolyzer with alternating baffles and live steam manifolds.",
+  "publisher": "Google Patents / SnamProgetti SpA (expired US patent)",
+  "url": "https://patents.google.com/patent/US5096599A/en",
+  "licence": "Expired patent; patent publication openly accessible via Google Patents (images hosted at patentimages.storage.googleapis.com)",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PCH",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/US5096599A/en",
+      "source_id": "patents-google-com-us5096599a-en"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Full patent text and figure captions read. Images URLs present on page; not reproduced.",
+  "last_reviewed": "2026-11-24"
+}

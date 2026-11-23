@@ -1,0 +1,29 @@
+{
+  "id": "ureaknowhow-com-stamicarbon",
+  "name": "Stamicarbon",
+  "url": "https://ureaknowhow.com/stamicarbon/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "UreaKnowHow",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Profile page read; company own site (stamicarbon.com) returned CAPTCHA and was NOT read. Address Mercator 3, 6135 KW Sittard. Evidence: https://ureaknowhow.com/stamicarbon/"
+}

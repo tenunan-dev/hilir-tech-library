@@ -1,0 +1,76 @@
+{
+  "id": "urea-evaporation-concentration",
+  "name": "Evaporation / concentration",
+  "equipment_type": "evaporation",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Evaporation / concentration (pre-concentrator, evaporators)",
+  "specifications": [
+    {
+      "metric": "isocyanic acid decomposition risk",
+      "unit": "n/a",
+      "basis": "Wikipedia Urea side reactions; products volatilize and recombine on condensation, contaminating process condensate",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": "worst when urea solution is heated at low pressure during concentration for prilling or granulation"
+    },
+    {
+      "metric": "crystallization condition (vendor description)",
+      "unit": "n/a",
+      "basis": "SensoTech urea production process description",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "value": "urea solution evaporated, urea crystallized under vacuum; crystals centrifuged and dried"
+    },
+    {
+      "metric": "feed-solution concentration effect on granulation steam use",
+      "unit": "MT steam per MT product",
+      "basis": "Toyo Spout Fluid Bed Granulation consumption per unit of service",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": "steam 0.01 MT/MT depends on concentration of feed urea solution"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+      "source_id": "en-wikipedia-org-w-index-php"
+    },
+    {
+      "url": "https://www.sensotech.com/en/urea-production",
+      "source_id": "sensotech-com-en-urea-production"
+    },
+    {
+      "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+      "source_id": "toyo-eng-com-urea-granulation"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Evaporator stages, operating pressures/temperatures, melt concentration (wt%), heat duty, vendor",
+      "why": "Not available on pages read",
+      "next_action": "Fetch a urea finishing/evaporation OEM or licensor page directly."
+    },
+    {
+      "what": "Evaporator stages, operating pressures/temperatures, melt concentration (wt%), heat duty, vendor",
+      "why": "Not available on pages read",
+      "next_action": "Fetch a urea finishing/evaporation OEM or licensor page directly."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

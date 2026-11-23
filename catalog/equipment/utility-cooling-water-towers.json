@@ -1,0 +1,72 @@
+{
+  "id": "utility-cooling-water-towers",
+  "name": "Cooling water system and cooling towers",
+  "equipment_type": "cooling",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Cooling water system and cooling towers",
+  "specifications": [
+    {
+      "metric": "Cooling-water usable temperature floor",
+      "unit": "degC",
+      "basis": "Natural/forced-draft towers generally used unless river or lake water in sufficient quantity; cooling water usable down to about 40-50 C, below that chilled water or refrigeration is used",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Loop arrangement",
+      "unit": "configuration",
+      "basis": "Each process cooler served in parallel; cooling water almost never flows through two coolers in series; blowdown upstream of tower, make-up plus biocide/corrosion/fouling inhibitors",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": "parallel"
+    },
+    {
+      "metric": "Number of distinct cooling systems at one ammonia plant",
+      "unit": "systems",
+      "basis": "Australian ammonia plant commissioned mid-2000s with Sea Cooling Water (SCW) high-capacity system and secondary closed-loop Fresh Cooling Water (FCW), both with mainly underground composite piping",
+      "source": {
+        "url": "https://dynaflow.com/consulting/projects/design-review-of-cooling-water-systems-for-ammonia-plant/",
+        "source_id": "dynaflow-com-design-review-of-cooling-water-systems-for-ammonia-pl"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Seawater / brackish water use",
+      "unit": "qualitative",
+      "basis": "Coastal sites and offshore operations",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": "requires more expensive heat-exchanger materials of construction"
+    }
+  ],
+  "vendors": [
+    "dynaflow-research-group-bv",
+    "zeeco"
+  ],
+  "sources": [
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    },
+    {
+      "url": "https://dynaflow.com/consulting/projects/design-review-of-cooling-water-systems-for-ammonia-plant/",
+      "source_id": "dynaflow-com-design-review-of-cooling-water-systems-for-ammonia-pl"
+    }
+  ],
+  "gaps": [],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

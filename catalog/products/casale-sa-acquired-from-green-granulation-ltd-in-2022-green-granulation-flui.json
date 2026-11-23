@@ -1,0 +1,31 @@
+{
+  "id": "casale-sa-acquired-from-green-granulation-ltd-in-2022-green-granulation-flui",
+  "name": "GREEN GRANULATION fluidised bed granulation",
+  "manufacturer": "casale-sa",
+  "product_type": "granulator",
+  "equipment": [
+    "urea-fluid-bed-granulator"
+  ],
+  "description": "Vendor product line read 2026-11-24. For urea and ammonium nitrate.",
+  "specifications": [
+    {
+      "metric": "formaldehyde use",
+      "unit": "n/a",
+      "basis": "Casale benefits list",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/",
+        "source_id": "casale-ch-urea"
+      },
+      "value": "minimum or no use"
+    }
+  ],
+  "url": "https://www.casale.ch/technologies/urea/",
+  "sources": [
+    {
+      "url": "https://www.casale.ch/technologies/urea/",
+      "source_id": "casale-ch-urea"
+    }
+  ],
+  "notes": "For urea and ammonium nitrate.",
+  "last_reviewed": "2026-11-24"
+}

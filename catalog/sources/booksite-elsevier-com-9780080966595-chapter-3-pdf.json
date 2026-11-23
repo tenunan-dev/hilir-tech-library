@@ -1,0 +1,29 @@
+{
+  "id": "booksite-elsevier-com-9780080966595-chapter-3-pdf",
+  "name": "Booksite.Elsevier.Com — Refrigeration working fluids",
+  "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Booksite.Elsevier.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. In some situations ammonia, nitrogen and CO2 are used as refrigeration working fluids Evidence: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
+}

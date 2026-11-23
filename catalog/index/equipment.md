@@ -1,6 +1,6 @@
 # Equipment catalog
 
-100 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+143 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -47,13 +47,78 @@ Recorded gaps:
 
 - ASU specific energy on a nitrogen basis (kWh/t N2) — fetch an OEM ASU datasheet that states capacity and kWh/t N2
 
+## ammonia
+
+### Ammonia condensation/refrigeration, flash vessels, let-down and storage tanks (ammonia-refrigeration-storage)
+
+Primary code: PCH: Petrochemicals
+Ammonia condensation/refrigeration, flash vessels, let-down and storage tanks | Refrigeration / cold condensation for ammonia synthesis loop | Tank farms / ammonia storage
+Vendors: SPG Steiner GmbH (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Ammonia normal boiling point | -33.34 deg C at 1 atm | Ammonia properties infobox/text |
+| Ammonia critical point | 132.4 deg C | Critical temperature; critical pressure 111.3 atm (11,280 kPa) |
+| Pressurised ammonia storage vessel design pressure | 250 psi (1.7 MPa) | A storage vessel capable of 250 psi is suitable to contain liquid anhydrous ammonia |
+| Water content to avoid carbon-steel corrosion | 0.2 wt% minimum in ammonia | Ammonia with at least 0.2 wt% water is not corrosive to carbon steel; such tanks can last >50 years |
+| Ammonia separation temperature from recycle gas | -20 deg C | Resulting ammonia must be separated from residual H2/N2 at about -20 deg C |
+| Ammonia explosive limits in air | 15.0-33.6 vol% | Ammonia hazards infobox |
+| Global ammonia shipped annually | 18-20 Mt/year | Industrial ammonia transported by road, rail, sea and pipeline (CRS figure cited) |
+| Ammonia separation temperature | -20 degC | Resulting ammonia must be separated from residual hydrogen and nitrogen at -20 C |
+| Refrigeration working fluids | ammonia, nitrogen and carbon dioxide list | In some situations ammonia, nitrogen and CO2 are used as refrigeration working fluids |
+| Refrigeration utility selection (design study) | utility matching inlet/outlet temperature range for -43.3 C qualitative | UBC ammonia plant design report section 4.2 Selecting a utility |
+| Cryogenic ammonia tank capacity (planned project) | 40000 tonnes each | SPG Steiner BEDP for two 40,000-tonne cryogenic ammonia tanks at Allied Green Ammonia, Gove (July 2024) |
+| Detection applications in tank farms | compressor rooms, pump bays, valves, dike walls, access points list | MSA technical guide lists tank farms/transfer skids for ultrasonic, catalytic bead and electrochemical detectors |
+
+
+Recorded gaps:
+
+- Named storage tank vendors, tank capacities, refrigeration package duty and flash/let-down vessel design — Fetch authoritative pages on ammonia storage tanks (e.g. API/EFMA guidance or a tank OEM).
+- Named storage tank vendors, tank capacities, refrigeration package duty and flash/let-down vessel design — Fetch authoritative pages on ammonia storage tanks (e.g. API/EFMA guidance or a tank OEM).
+
+### Ammonia feed pumps (urea-ammonia-feed-pumps)
+
+Primary code: PCH: Petrochemicals
+Ammonia feed pumps
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| ammonia feed physical state | liquid n/a | Wikipedia Urea: 'the ammonia is available from the ammonia production plant in liquid form, which can be pumped into the system much more economically' (vs compressing CO2 gas) |
+
+
+Recorded gaps:
+
+- Ammonia feed pump flow, discharge pressure, NPSH, materials, vendor/model — Fetch a pump OEM datasheet or an EPC urea plant equipment list.
+- Ammonia feed pump flow, discharge pressure, NPSH, materials, vendor/model — Fetch a pump OEM datasheet or an EPC urea plant equipment list.
+
+### Ammonia plant control system, analysers and safety systems (ammonia-control-safety-systems)
+
+Primary code: PCH: Petrochemicals
+Ammonia plant control system, analysers and safety systems | Instrumentation and control rooms
+Vendors: Topsoe, Casale, thyssenkrupp Industrial Solutions (Uhde), Howden (Chart Industries), Yokogawa Electric, Aramis Group (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Uhde dual-pressure compressor size comparison | syngas compressor for 3300 t/day dual-pressure plant same size as conventional 2200 t/day plant qualitative | thyssenkrupp Uhde two-pressure process, indicating lower equipment stress through cooled HP casing |
+| Casale FlexAMMONIA plant turndown | 10-100 % of load | Green ammonia synthesis loop performance claim |
+| Casale FlexAMMONIA ramp rate | ?-3 %/min | Green ammonia synthesis loop ramp-up/down rate |
+| PASB Kerteh OTS control systems | Yokogawa CS3000 emulation system | Aramis provided PASB OTS on INDISS platform with Yokogawa CS3000 emulation; gas plants used Honeywell PKS Experion and Foxboro I/A |
+| Natural gas to ammonia process control example | steam flow control with control valve CV-101 and emergency shutdown valve control scheme | UBC design report describes feed preheat exchanger E-101 heated by high-temperature steam with control valve and emergency shutdown valve |
+
+
+Recorded gaps:
+
+- DCS/PLC vendor names, analyser types (H2, CO, CO2, NH3, moisture) and SIL-rated SIS architecture — Fetch Honeywell/Yokogawa/Emerson/Siemens ammonia or process-safety pages and AIChE ammonia safety material.
+- DCS/PLC vendor names, analyser types (H2, CO, CO2, NH3, moisture) and SIL-rated SIS architecture — Fetch Honeywell/Yokogawa/Emerson/Siemens ammonia or process-safety pages and AIChE ammonia safety material.
+
 ## ammonia-converter
 
 ### Ammonia synthesis converter (ammonia-synthesis-converter)
 
 Primary code: H2: Hydrogen and low-carbon fuels
 Catalytic reactor in the Haber-Bosch loop where hydrogen and nitrogen combine over an iron catalyst to form ammonia. Conversion per pass is limited by equilibrium, so the loop circulates unreacted gas, condenses ammonia by refrigeration and returns the remainder to the converter.
-Vendors: Topsoe, thyssenkrupp Uhde, KBR, Casale (4 model lines recorded).
+Vendors: Topsoe, thyssenkrupp Uhde, KBR, Casale, thyssenkrupp Industrial Solutions (Uhde), Howden (Chart Industries) (4 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -61,6 +126,16 @@ Vendors: Topsoe, thyssenkrupp Uhde, KBR, Casale (4 model lines recorded).
 | reactor temperature | 380-520 °C | NH3 synthesis reactor operating temperature |
 | single-train capacity | small-3500 t/d | large single-train ammonia converters up to 3,500 MTPD; Uhde quotes 3,300 mtpd and more |
 | conversion per pass | 15 % | about 15% of the gas turns into ammonia on each pass |
+| Ammonia synthesis loop operating pressure (general) | 60-180 bar | Synthesis loop pressure range depending on method (Haber process page) |
+| Typical modern synthesis pressure | 150-200 bar | Plants built 1964-1992: syngas manufacture 25-35 bar, ammonia synthesis 150-200 bar |
+| M.W. Kellogg Texas City syngas centrifugal compression | 152 bar | Four-case centrifugal compressor compressed syngas to 152 bar; reciprocating compressor gave final 324 bar operating pressure |
+| Uhde two-pressure process: LP once-through converter suction pressure | 110 bar (approx.) | Suction flange of LP casing of syngas compressor, 3-bed intercooled once-through converter makes about 1/3 of total ammonia |
+| Uhde two-pressure process: HP synthesis loop pressure | ?-210 bar | Remaining syngas compressed in HP casing to loop operating pressure up to 210 bar; makes remaining 2/3 of ammonia |
+| Ammonia condensed from once-through converter effluent | 85 % of ammonia produced in that converter | Mixture leaving the once-through converter is cooled; 85% of ammonia made there separated as liquid |
+| Single-pass conversion per reactor pass | 15 % | About 15% conversion per pass; overall conversion ~97-98% with recycle |
+| Synthesis temperature range | 300-500 deg C | Ammonia synthesis loop temperature range |
+| Howden reciprocating gas compressor ratings | ?-20 MW | Howden/Peter Brotherhood reciprocating gas compressors rated to 20 MW, 260-1000 rpm |
+| Howden steam turbine mechanical-drive range | 10-40 MW | Steam turbines as mechanical drive for rotating equipment such as pumps, compressors and fans |
 
 - **Topsoe** S-200 ammonia converter basket: two-bed radial flow with indirect cooling between beds; more than 130 units since 1976
 - **Topsoe** S-300 ammonia converter basket: three-bed radial flow; higher conversion and production efficiency than S-200; more than 50 installations
@@ -70,6 +145,8 @@ Vendors: Topsoe, thyssenkrupp Uhde, KBR, Casale (4 model lines recorded).
 Recorded gaps:
 
 - per-vendor converter model lines with casing, catalyst basket and pressure-drop data — fetch Topsoe S-200/S-300, KBR, Casale and Uhde converter pages and add model lines
+- Refrigeration compressor OEM/model data for ammonia service and circulator sizing rules — Locate working OEM URLs for process-gas compressors and ammonia refrigeration packages.
+- Refrigeration compressor OEM/model data for ammonia service and circulator sizing rules — Locate working OEM URLs for process-gas compressors and ammonia refrigeration packages.
 
 ## anaerobic-digesters
 
@@ -120,6 +197,52 @@ Recorded gaps:
 - ASHRAE-specific guidance for data-centre standby/prime generation — Fetch ASHRAE datacom series / ANSI-ASHRAE 9.9 or ASHRAE Journal articles on on-site generation and note exact document titles and dates
 - IEEE standards specific to data-centre genset integration (e.g. IEEE 446, IEEE 1100) exact editions and clauses — Fetch IEEE Xplore standards pages and record designation, year and scope
 - Malaysia/Singapore national equivalents of NFPA 110 / emissions limits for prime gas engines at data centres — Fetch DOE Malaysia, EMA Singapore and local environmental department guidance
+
+## bagging
+
+### Bagging machines and big-bag (bulk-bagging-fibc-filling)
+
+Primary code: PCH: Petrochemicals
+Bagging machines and big-bag (FIBC) filling
+Vendors: Bühler (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Bagging machines and big-bag (FIBC) filling | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Bagging rate (bags/h), bag sizes, weighing accuracy, dust extraction flow, OEM models and prices — Fetch a packaging OEM page (BEUMER, Bühler, Cronos, TAGMAS) via verified URL.
+- Bagging rate (bags/h), bag sizes, weighing accuracy, dust extraction flow, OEM models and prices — Fetch a packaging OEM page (BEUMER, Bühler, Cronos, TAGMAS) via verified URL.
+
+## belt
+
+### Belt conveyors (bulk-belt-conveyors)
+
+Primary code: PCH: Petrochemicals
+Belt conveyors (incl. chevron/cleated and elevator belts)
+Vendors: Sandvik, Intralox, AUMUND France / Larsen & Toubro / ABB (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| pipe conveyor maximum incline | 35 degrees | Wikipedia Conveyor belt: pipe conveyor for material paths requiring sharper bends and inclines up to 35 degrees |
+| sandwich belt maximum incline | 90 degrees | Wikipedia Conveyor belt: sandwich belt design enables travel along high inclines up to 90-degree angles |
+| highest steel-cord belt strength class | 10000 N/mm | Wikipedia: highest strength class conveyor belt installed, steel cord, at Chuquicamata mine, Chile |
+| aramid belt strength range | 630-3500 N/mm | Wikipedia: aramid used in range 630-3500 N/mm; advantages energy savings, enhanced lifetimes, improved productivity |
+| aramid belt example | 2250 N/mm, 3400 m long, >15% energy savings n/a | Wikipedia: underground belt at Baodian Coal Mine, Yanzhou Coal Mining Company, China |
+| longest single-span conveyor | 31 km | Wikipedia: Boddington bauxite mine Western Australia, cable belt conveyor feeding a 20 km conveyor (world's longest single flight) |
+| impumelelo conveyor capacity | 2400 t/h | Wikipedia: 26.8 km trough belt near Secunda, South Africa, transporting coal to a refinery |
+| India-Bangladesh cross-border conveyor | 17 km, 960 t/h, 1.8 MW n/a | Wikipedia: limestone/shale conveyor from Meghalaya, India to cement factory at Chhatak, Bangladesh; engineered by AUMUND France and Larsen & Toubro; drives by ABB |
+| belt scale / weigher | material flowing over belt may be weighed in transit using a beltweigher n/a | Wikipedia Conveyor belt applications |
+| belt components | drive pulley, idler pulley, reducer gearboxes, motors, couplings, scrapers, chutes, skirts, take-up assembly, safety switches n/a | Wikipedia Conveyor belt structure/applications |
+| conveyor safety devices | trip cords, belt sway switches, speed switches, belt rip switches, emergency stops; OSHA 1926.555 n/a | Wikipedia Conveyor belt safety system section |
+
+
+Recorded gaps:
+
+- Urea-specific belt conveyor capacity (t/h), belt width, speed, chevron/cleated belt profile dimensions and OEM model numbers — Retry with verified OEM URLs (Continental, Fenner Dunlop, Goodyear, BEUMER, Metso, FLSmidth) obtained from a working search integration.
+- Urea-specific belt conveyor capacity (t/h), belt width, speed, chevron/cleated belt profile dimensions and OEM model numbers — Retry with verified OEM URLs (Continental, Fenner Dunlop, Goodyear, BEUMER, Metso, FLSmidth) obtained from a working search integration.
 
 ## biogas-upgrading
 
@@ -346,6 +469,43 @@ Recorded gaps:
 - turndown ratios and part-load efficiency curves for the main fire-tube lines — read Cleaver-Brooks and Miura turndown data during the next boiler sweep
 - refinery large-firetube practice and which classes refineries specify below what load — look for refinery utility steam design references in corpus/
 
+## boilers
+
+### Boilers and steam system (utility-steam-system)
+
+Primary code: PCH: Petrochemicals
+Boilers and steam system (HP/MP/LP, waste-heat and package boilers)
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| HP steam pressure | 40 bar | Typical site HP steam about 40 bar, condensing temperature 250 C |
+| MP steam pressure | 20 bar | Typical MP main about 20 bar, condensing temperature 212 C |
+| LP steam pressure | 3 bar | Typical LP main about 3 bar, condensing at 134 C |
+| Cogeneration overall thermal efficiency | 70-80 % | Overall thermal efficiency of gas-turbine cogeneration with HRSG can be in the range 70-80% |
+| Boiler types in Pusri cradle-to-gate boundary | package boiler; waste heat boiler; coal boiler list | PT Pupuk Sriwidjaja Palembang urea EPD utilities |
+
+
+## bucket
+
+### Bucket elevators (bulk-bucket-elevators)
+
+Primary code: PCH: Petrochemicals
+Bucket elevators
+Vendors: Bühler (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| continuous discharge speed | 6 m/s (20 ft/s) | Wikipedia Bucket elevator: continuous discharge elevator uses speed around 6 m/s to achieve required centrifugal force |
+| construction | buckets, belt carrying buckets and transmitting pull, drive, loading/discharge accessories, belt tensioning, enclosure n/a | Wikipedia Bucket elevator component list |
+| materials handled | grain or fertilizer (explicitly named) n/a | Wikipedia Bucket elevator lead: mechanism for hauling flowable bulk materials, most often grain or fertilizer |
+
+
+Recorded gaps:
+
+- Elevator capacity (t/h), lift height, bucket size/spacing, belt speed range, drive power, OEM models — Fetch a verified bucket elevator OEM page (Bühler, BEUMER, AUMUND, 4B Elevator Components).
+- Elevator capacity (t/h), lift height, bucket size/spacing, belt speed range, drive power, OEM models — Fetch a verified bucket elevator OEM page (Bühler, BEUMER, AUMUND, 4B Elevator Components).
+
 ## burner
 
 ### HRSG duct burner (supplementary gas firing) (duct-burner-hrsg)
@@ -428,17 +588,24 @@ Recorded gaps:
 
 Primary code: PCH: Petrochemicals
 High-pressure exchanger where ammonia and carbon dioxide from the stripper recombine into carbamate, releasing heat that is recovered as steam. Pool-condenser designs carry the reaction further in the condenser itself, which reduces the duty left for the reactor and the recycle section.
-Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale, Saipem (3 model lines recorded).
+Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale, Saipem, Casale SA, Alleima (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
 | HP loop pressure | 150 bar | Saipem urea flowsheet, NH3-stripping process |
 | condenser outlet temperature | 155 °C | Saipem urea flowsheet, NH3-stripping process |
 | approach to equilibrium in a pool condenser | 60 % | reaction extent achieved in the pool condenser |
+| condenser pressure regime (stripping process) | full system pressure n/a | Wikipedia: stripped ammonia carried directly to a carbamate condenser 'also under full system pressure' |
+| condenser type (conventional recycle) | falling-film n/a | Wikipedia: recombining CO2 and NH3 in a falling-film carbamate condenser before pumping carbamate solution back to reactor |
 
 - **Stamicarbon** LAUNCH MELT pool condenser design: capacities from about 2,500 up to 6,000 mtpd
 - **thyssenkrupp Uhde** Urea 2000plus pool condenser: horizontal high-pressure carbamate condenser with submerged U-tube bundle
 - **Toyo Engineering** Vertical Submerged Carbamate Condenser (VSCC): 180 C and 152 bar; produces 5 bar steam
+
+Recorded gaps:
+
+- Condenser duty, heat transfer area, tube material/dimensions, approach temperature — Read a carbamate condenser datasheet or licensor technical paper.
+- Condenser duty, heat transfer area, tube material/dimensions, approach temperature — Read a carbamate condenser datasheet or licensor technical paper.
 
 ## chemical-dosing
 
@@ -577,13 +744,64 @@ Recorded gaps:
 
 - blower counts, stroke lengths, steam pressure and duty per surface — Read an OEM sootblower data sheet for a reference boiler.
 
+## co2
+
+### CO2 compression and purification (urea-co2-compression)
+
+Primary code: PCH: Petrochemicals
+CO2 compression and purification (from ammonia plant)
+Vendors: Stamicarbon, Casale SA, SensoTech GmbH (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| CO2 feed pressure for carbamate formation | 110 atm | Thermodynamic condition for carbamate formation reaction (2 NH3 + CO2 -> NH4CO2NH2, delta H = -117 kJ/mol at 110 atm and 160 C), Urea industrial production |
+| urea synthesis pressure range (as printed) | 1.4-1.75 MPa | Wikipedia Urea, Industrial production: process conditions compromise for carbamate formation vs urea formation at ~190 C |
+| synthesis temperature | 190 degC | temperature needed for the slow urea formation reaction, per Wikipedia Urea industrial production |
+| CO2 conversion in reactor (Split Flow Loop) | 62 percent | Casale SPLIT FLOW LOOP performance claim: 'CO2 conversion in the reactor as high as 62%' |
+| carbamate thermal conversion temperature/pressure | 130-200 bar | SensoTech: thermal conversion of ammonium carbamate at 200 C and 130-200 bar |
+
+
+Recorded gaps:
+
+- CO2 compressor OEM/model, polytropic efficiency, stage count, seal type, capacity range — Fetch a named OEM CO2 compressor page (e.g. MAN Energy Solutions, Siemens Energy, Ariel) directly if a URL can be obtained.
+- CO2 purification spec (H2S, sulfur, oil, inerts limits) and purifier vendor — Locate an authoritative urea process licence brochure or plant specification.
+- CO2 compressor OEM/model, polytropic efficiency, stage count, seal type, capacity range — Fetch a named OEM CO2 compressor page (e.g. MAN Energy Solutions, Siemens Energy, Ariel) directly if a URL can be obtained.
+- CO2 purification spec (H2S, sulfur, oil, inerts limits) and purifier vendor — Locate an authoritative urea process licence brochure or plant specification.
+
+### CO2 removal - amine (ammonia-co2-removal)
+
+Primary code: PCH: Petrochemicals
+CO2 removal - amine (MDEA/MEA) absorbers and regenerators; Benfield/Selexol/Rectisol; solvent reclamation
+Vendors: Linde AG, Air Liquide, UOP LLC, Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| MDEA concentration in aqueous solution | 30-55 wt% | Typical amine concentration for removing H2S and CO2 (Kohl & Nielsen, Gas Purification, cited on page) |
+| MEA concentration for H2S and CO2 removal | 20 wt% | Typical MEA concentration; ~30 wt% when removing only CO2 where plant metallurgy is appropriate |
+| DEA concentration | 25-35 wt% | Typical DEA concentration for H2S and CO2 removal |
+| MEA/DEA CO2 loading limit | 0.55 mol CO2 per mol amine | Stoichiometric loading capacity limit for primary/secondary amines (Idem 2006 cited) |
+| Stripping energy share of amine unit operating cost | ?-70 % | MEA/DEA require large regeneration energy, up to 70% of total operating costs (Idem 2006 cited) |
+| Amine absorber typical operating temperature | 35-50 deg C | Simplified absorption column typical operating range (Amine gas treating page) |
+| Amine absorber typical operating pressure | 5-205 atm absolute | Simplified absorption column typical operating range |
+| Selexol absorption pressure | 300-2000 psia (2.07-13.8 MPa) | Selexol process acid-gas absorption pressure; capacity reduced below ~300 psia (2.07 MPa) |
+| Rectisol absorption temperature | -40 deg C (-40 deg F) | Cold methanol solvent absorbs acid gases at high pressure |
+| Rectisol absorption pressure | 400-1000 psia (2.76-6.89 MPa) | Rectisol process acid-gas absorption pressure |
+
+
+Recorded gaps:
+
+- Benfield hot-potassium-carbonate process details and supplier — Locate and fetch an authoritative Benfield process page (e.g. Fluor/BASF licensed solvent).
+- MDEA specifically in ammonia CO2 service (as opposed to general gas treating) and solvent reclamation design — Fetch an OEM/EPC page on ammonia CO2 removal and amine reclamation.
+- Benfield hot-potassium-carbonate process details and supplier — Locate and fetch an authoritative Benfield process page (e.g. Fluor/BASF licensed solvent).
+- MDEA specifically in ammonia CO2 service (as opposed to general gas treating) and solvent reclamation design — Fetch an OEM/EPC page on ammonia CO2 removal and amine reclamation.
+
 ## co2-stripper
 
 ### Urea CO2 stripper (urea-co2-stripper)
 
 Primary code: PCH: Petrochemicals
 High-pressure column that strips unconverted carbamate from the urea solution using feed CO2 as the stripping agent, decomposing carbamate and returning ammonia and CO2 to the condenser. CO2 stripping cut the steam demand of urea plants relative to conventional total-recycle designs.
-Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering (3 model lines recorded).
+Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale SA, Yara (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -591,10 +809,32 @@ Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering (3 model lines recorde
 | stripper effluent temperature | 190 °C | CO2-stripping process, effluent conditions as stated |
 | residual carbamate in stripper outlet solution | 1-2 % | solution leaving the stripper |
 | stripping steam consumption | 0.8-1.0 t steam/t urea | steam used per tonne of urea in the stripping section |
+| stripping process operating pressure | at or near full reactor pressure n/a | Wikipedia: stripping process developed early 1960s by Stamicarbon in the Netherlands, operates at or near full pressure of the reaction vessel |
+| hydrolysis residence time | short (designed) n/a | urea hydrolyses back to ammonium carbamate in hottest stages, especially the stripper, so residence times there are designed to be short |
+| HYPER-U benefit | medium-high pressure (MHP) carbamate decomposition step reduces steam and cooling water demand n/a | Casale HYPER-U self-stripping process description |
 
 - **Stamicarbon** High-pressure CO2 stripper: CO2 stripping; no medium-pressure recirculation stage downstream
 - **Casale** SPLIT FLOW LOOP: best suited up to 2,300 MTD, or 3,500 MTD with medium-pressure stage
 - **Saipem** Falling-film stripper 31/41 E-1: operates at 146 kg/cm2g
+
+Recorded gaps:
+
+- Stripper tube count/length/diameter, duty, stripping efficiency number, corrosion allowance — Read Casale HP stripper news detail pages and the HYPER-U brochure via PDF-capable fetch.
+- Stripper tube count/length/diameter, duty, stripping efficiency number, corrosion allowance — Read Casale HP stripper news detail pages and the HYPER-U brochure via PDF-capable fetch.
+
+## compressed
+
+### Compressed air and instrument air (utility-instrument-air)
+
+Primary code: PCH: Petrochemicals
+Compressed air and instrument air
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Instrument air mains pressure | 6 bar | Air normally distributed at mains pressure of 6 bar (100 psig) |
+| Instrument air quality | dry and clean (free from oil) qualitative | Instrument air must be dry and clean; usually dried over packed molecular sieve adsorbent regenerated by temperature swing |
+
 
 ## compressed-air
 
@@ -734,6 +974,20 @@ Recorded gaps:
 
 - Actual cooling-system water consumption and COP at a gas-engine-powered data centre — Seek operator sustainability reports with measured WUE for JAK2 or similar sites
 
+### Cooling water system and cooling towers (utility-cooling-water-towers)
+
+Primary code: PCH: Petrochemicals
+Cooling water system and cooling towers
+Vendors: Dynaflow Research Group BV, Zeeco (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Cooling-water usable temperature floor | 40 degC | Natural/forced-draft towers generally used unless river or lake water in sufficient quantity; cooling water usable down to about 40-50 C, below that chilled water or refrigeration is used |
+| Loop arrangement | parallel configuration | Each process cooler served in parallel; cooling water almost never flows through two coolers in series; blowdown upstream of tower, make-up plus biocide/corrosion/fouling inhibitors |
+| Number of distinct cooling systems at one ammonia plant | 2 systems | Australian ammonia plant commissioned mid-2000s with Sea Cooling Water (SCW) high-capacity system and secondary closed-loop Fresh Cooling Water (FCW), both with mainly underground composite piping |
+| Seawater / brackish water use | requires more expensive heat-exchanger materials of construction qualitative | Coastal sites and offshore operations |
+
+
 ### Engine cooling: jacket-water system, radiator, cooling tower, heat exchanger, circulating pumps (gas-engine-cooling-system)
 
 Primary code: PWR: Power and renewables
@@ -816,6 +1070,59 @@ Recorded gaps:
 - No design basis for seal-air pressure relative to exhaust pressure (other than 'higher than exhaust pressure' and >500 mm wc from two vendors) — Fetch a damper datasheet giving seal-air differential pressure, flow and fan sizing basis.
 - No damper leakage class tied to a named standard (e.g. ASME N510 / EN 12237) found — Look for an HRSG damper specification citing a leakage test standard.
 
+## decomposers
+
+### Decomposers / carbamate decomposer (urea-carbamate-decomposer)
+
+Primary code: PCH: Petrochemicals
+Decomposers / carbamate decomposer (LP/MP)
+Vendors: SensoTech GmbH (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| first decompression stage | 1.8-2.5 MPa | Wikipedia: conventional recycle process depressurizes reaction solution in stages, first to 1.8-2.5 MPa |
+| second decompression stage | 0.2-0.5 MPa | Wikipedia: then to 0.2-0.5 MPa, each stage through a steam-heated carbamate decomposer |
+| inline analyser installation point | outlet of the decomposer, typically DN80 pipeline n/a | SensoTech LiquiSonic immersion sensors at decomposer outlet |
+
+
+Recorded gaps:
+
+- Decomposer heating-medium pressure, heat duty, vendor equipment details — Fetch a process-licensor technical paper or plant equipment list.
+- Decomposer heating-medium pressure, heat duty, vendor equipment details — Fetch a process-licensor technical paper or plant equipment list.
+
+## demineralised
+
+### Demineralised water and raw water treatment (utility-demin-water-treatment)
+
+Primary code: PCH: Petrochemicals
+Demineralised water and raw water treatment
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Dissolved solids in demineralised water | ?-1 ppm | Water with less than 1 part per million of dissolved solids can be produced by mixed/multiple-bed ion exchange |
+| Demin water cost multiple | 2 x raw water price | Demineralised water typically costs about double raw water, varying with mineral content and demin blowdown disposal cost |
+| Utility units in a named urea/ammonia plant cradle-to-gate boundary | filter water treatment; demin water treatment; cooling water treatment list | PT Pupuk Sriwidjaja Palembang urea EPD system boundary, utilities section |
+
+
+## drag
+
+### Drag conveyors / tubular drag conveyors (bulk-drag-conveyors)
+
+Primary code: PCH: Petrochemicals
+Drag conveyors / tubular drag conveyors
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| equipment class | tubular drag conveyors listed among stationary bulk handling systems n/a | Wikipedia Bulk material handling |
+
+
+Recorded gaps:
+
+- Drag conveyor capacity, chain speed, tube diameter, bend radius, vendor — Fetch a drag conveyor OEM page.
+- Drag conveyor capacity, chain speed, tube diameter, bend radius, vendor — Fetch a drag conveyor OEM page.
+
 ## ducting
 
 ### Expansion joints, flexible connectors and pipe supports in hot flue-gas / steam ducts (expansion-joints-ducting)
@@ -835,6 +1142,34 @@ Recorded gaps:
 - Pipe support/anchor/guide spacing rules for hot steam lines — Find ASME B31.1 or vendor pipe-support design guide with exact tables and record basis.
 - Asia-Pacific expansion-joint suppliers and local fabricators — Run a targeted regional search for ASEAN fabric expansion joint suppliers with fetchable datasheets.
 
+## dust
+
+### Dust collection, scrubbers, ammonia/urea dust recovery (urea-dust-collection-scrubbers)
+
+Primary code: PCH: Petrochemicals
+Dust collection, scrubbers, ammonia/urea dust recovery | Warehouses and packaging
+Vendors: Toyo Engineering, SensoTech GmbH (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| urea dust after Toyo scrubber | ?-30 mg/Nm3-Air | Toyo low-pressure drop dust scrubber with circulating water |
+| ammonia removal option | acid scrubbing using sulfuric acid or nitric acid n/a | Toyo: applied where ammonia discharged to atmosphere also needs reduction |
+| baghouse collection efficiency | ?-100 percent (more than 99%) | Wikipedia Dust collector: fabric collectors can achieve collection efficiency of more than 99% for very fine particulates |
+| wet scrubber pressure drop - low energy | 0.5-2.5 inches water gauge (124.4-621.9 Pa) | Wikipedia Dust collector spray-tower scrubber categorisation |
+| wet scrubber pressure drop - low/medium | 2.5-6 inches water gauge (0.622-1.493 kPa) | Wikipedia Dust collector |
+| wet scrubber pressure drop - medium/high | 6-15 inches water gauge (1.493-3.731 kPa) | Wikipedia Dust collector |
+| wet scrubber pressure drop - high energy | 15-? inches water gauge (>3.731 kPa) | Wikipedia Dust collector: greater than 15 inches water gauge |
+| ESP operating voltage | 50-100 kV | Wikipedia Dust collector: particles passed through strong 50-100 kV electrostatic field |
+| unit collector capacity | 200-2000 ft3/min (90-900 L/s) | Wikipedia Dust collector unit collectors for bins, silos, remote belt-conveyor transfer points |
+| Urea package size | 50 kg per bag | Pusri urea EPD: product packaged in 50 kg bag |
+| Warehouse in system boundary | Warehouse and packaging process block | Pusri urea EPD cradle-to-gate boundary explicitly includes 'f. Warehouse and packaging' |
+
+
+Recorded gaps:
+
+- Urea-specific dust collector models, filter media, air-to-cloth ratio, dust return method, emission guarantees — Fetch a vendor page for fertilizer dust collection (e.g. a baghouse OEM) with a known URL.
+- Urea-specific dust collector models, filter media, air-to-cloth ratio, dust return method, emission guarantees — Fetch a vendor page for fertilizer dust collection (e.g. a baghouse OEM) with a known URL.
+
 ## electrical
 
 ### Boiler motor control centres / variable speed drives and electrical supply for fans and pumps (boiler-mcc-vfd)
@@ -853,6 +1188,19 @@ Recorded gaps:
 - No named boiler MCC (motor control centre) product page or MCC bus/voltage/current rating found — Search 'boiler motor control centre MCC OEM' on Siemens/ABB/Schneider/Eaton sites and fetch a product page with bus rating and standards.
 - No electrical supply voltage/frequency figures for package boiler fans and pumps from an authoritative plant spec — Fetch a package boiler electrical utility requirement datasheet (OEM) listing site supply.
 - CrossCo VFD article not directly read (403) — Try the article via a cached/alternate URL or cite only the search-verified summary.
+
+### Electrical substation and power distribution (utility-electrical-substation)
+
+Primary code: PCH: Petrochemicals
+Electrical substation and power distribution
+Vendors: ABB Australia (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| US transmission voltages | 135, 220, 550 or 750 kV | In the United States power is usually transmitted over long distances at 135, 220, 550 or 750 kV; local substations step down |
+| On-site power generation in Pusri boundary | gas turbine generator; steam turbine generator list | Pusri urea EPD cradle-to-gate boundary lists production of electricity by gas turbine and steam turbine generator |
+| Micro-grid MOU | ABB Australia supplier | Allied Green Ammonia: ABB Australia MOU for scalable electrical micro-grid solution (September 2024) |
+
 
 ## emissions-control
 
@@ -909,6 +1257,26 @@ Recorded gaps:
 - Stoichiometric/rich-burn three-way-catalyst engine-out NOx/CO figures for the named large-bore engines — Fetch Cat G3500H/G3516H rich-burn TWC specification sheet and Jenbacher rich-burn factsheet
 - Intercooler/charge-air cooler duty, approach temperature and pressure drop — Fetch Jenbacher Type 6 engine type sheet or Wartsila 50SG leaflet (wartsi.ly/41mQHgo)
 - Named dual-fuel liquid-fuel day-tank sizing — Fetch Everllence 51/60DF fact sheet
+
+## evaporation
+
+### Evaporation / concentration (urea-evaporation-concentration)
+
+Primary code: PCH: Petrochemicals
+Evaporation / concentration (pre-concentrator, evaporators)
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| isocyanic acid decomposition risk | worst when urea solution is heated at low pressure during concentration for prilling or granulation n/a | Wikipedia Urea side reactions; products volatilize and recombine on condensation, contaminating process condensate |
+| crystallization condition (vendor description) | urea solution evaporated, urea crystallized under vacuum; crystals centrifuged and dried n/a | SensoTech urea production process description |
+| feed-solution concentration effect on granulation steam use | steam 0.01 MT/MT depends on concentration of feed urea solution MT steam per MT product | Toyo Spout Fluid Bed Granulation consumption per unit of service |
+
+
+Recorded gaps:
+
+- Evaporator stages, operating pressures/temperatures, melt concentration (wt%), heat duty, vendor — Fetch a urea finishing/evaporation OEM or licensor page directly.
+- Evaporator stages, operating pressures/temperatures, melt concentration (wt%), heat duty, vendor — Fetch a urea finishing/evaporation OEM or licensor page directly.
 
 ## evaporator-crystallisers
 
@@ -995,6 +1363,30 @@ Recorded gaps:
 
 - ID fan datasheets and quantified FGR ratios — Read fan and FGR datasheets for a specific boiler or HRSG.
 
+## feed
+
+### Feed gas treatment - hydrotreating / hydrodesulfurisation and ZnO guard beds (ammonia-feed-gas-treatment)
+
+Primary code: PCH: Petrochemicals
+Feed gas treatment - hydrotreating / hydrodesulfurisation and ZnO guard beds
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| sulfur removal chemistry (H2S + ZnO -> ZnS + H2O) | ZnO fixed bed qualitative | Natural-gas feed, upstream of reformer; sulfur deactivates subsequent catalysts |
+| HTZ-3 / HTZ-31 ZnO absorbent duty | high sulfur concentrations qualitative | Topsoe ammonia purification catalyst portfolio, high-density ZnO absorbent |
+| HTZ-5 / HTZ-51 ZnO absorbent duty | low sulfur concentrations or low-temperature operation qualitative | Topsoe ammonia purification catalyst portfolio, high-purity large-surface-area ZnO |
+| TK-250 / TK-261 hydrotreating catalyst feed range | natural gas to naphtha qualitative | Topsoe catalyst descriptions: TK-250 CoMo/alumina; TK-261 NiMo; hydrogenation of sulfur, chlorine and unsaturated compounds |
+| desulfurisation section in conventional vs SynCOR ammonia | standard in both concepts qualitative | Topsoe SynCOR Ammonia comparison table |
+
+
+Recorded gaps:
+
+- ZnO sulfur capacity (wt%), operating temperature and space velocity for each absorbent grade — Fetch individual catalyst data sheets, e.g. https://www.topsoe.com/our-resources/knowledge/our-products/catalysts/htz-31
+- Feed preheat exchanger train duty/temperature details — Find an authoritative ammonia plant heat-integration or EPC design page.
+- ZnO sulfur capacity (wt%), operating temperature and space velocity for each absorbent grade — Fetch individual catalyst data sheets, e.g. https://www.topsoe.com/our-resources/knowledge/our-products/catalysts/htz-31
+- Feed preheat exchanger train duty/temperature details — Find an authoritative ammonia plant heat-integration or EPC design page.
+
 ## feedwater
 
 ### Boiler feedwater pretreatment (boiler-feedwater-pretreatment)
@@ -1079,6 +1471,63 @@ Recorded gaps:
 
 - feedpump head, NPSH and duty for the packaged boiler lines — Read a feedpump selection sheet for a stated boiler duty.
 
+## fire
+
+### Fire protection and ammonia deluge/suppression (utility-fire-protection)
+
+Primary code: PCH: Petrochemicals
+Fire protection and ammonia deluge/suppression
+Vendors: JBW Consulting Engineers (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Water uses on a chemical site | fire hydrants use | Raw water used for process cleaning and to supply fire hydrants |
+
+
+## flare
+
+### Flare, relief, vent gas recovery and fugitive emission control (ammonia-flare-vent-control)
+
+Primary code: PCH: Petrochemicals
+Flare, relief, vent gas recovery and fugitive emission control | Flare and relief systems (ammonia and urea relief, liquid seal drums)
+Vendors: Howden (Chart Industries), American Petroleum Institute, Zeeco (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Flare sonic tip upstream pressure threshold | 5 bar | Sonic flare tip used when upstream pressure > 5 bar |
+| Personnel continuous-exposure thermal radiation limit | 1.58 kW/m2 (500 Btu/hr.ft2) | Maximum recommended radiation for continuous exposure of personnel in appropriate clothing (API Std 521 Table 12 cited) |
+| Short-time flare radiation limits | 4.73 kW/m2 (3-4 min); 6.31 kW/m2 (30 s) kW/m2 | Higher radiation permitted for reduced exposure times (API Std 521 cited) |
+| Howden EMISSIONGUARD TR2 packing ring vent-gas reduction (cumulative company figure) | 20,173,000 Nm3 (693,144,000 scf) of gas prevented from leaking Nm3 | Estimated cumulative reduction through packing-case vents, mainly petrochemical/natural-gas compression; equivalent to 60,500 t CO2 |
+| Number of flare types typically used in a urea plant | 4 types | Urea plants typically employ four flare types for various relief streams: ammonia, discontinuous, continuous and main |
+| Ammonia flare design exit velocity | restricted / low qualitative | Ammonia has low flame propagation speed, low heating value and low flame temperature; exit velocity must be restricted for residence time and flame stability; tip diameter controls maximum design exit velocity |
+| Continuous flare minimum exit velocity | higher than flame velocity of waste stream design rule | Prevents flashback into flare stack and upstream equipment where oxygen is present |
+| Liquid seal drum interaction with ammonia | ammonia dissolves in water forming corrosive ammonia solution qualitative | LSD commonly separates flare system from upstream header; often designed so all water is carried out during flaring and refilled afterwards |
+
+
+Recorded gaps:
+
+- Ammonia plant relief scenario list, flare header sizing and ammonia-specific vent recovery design — Fetch EFMA/AIChE ammonia safety guidance or an EPC flare-design page.
+- Ammonia plant relief scenario list, flare header sizing and ammonia-specific vent recovery design — Fetch EFMA/AIChE ammonia safety guidance or an EPC flare-design page.
+
+## fluidised
+
+### Fluidised bed cooler / product cooler (urea-fluid-bed-cooler)
+
+Primary code: PCH: Petrochemicals
+Fluidised bed cooler / product cooler
+Vendors: Toyo Engineering (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| fluidising cooler power | 24 kWh/MT | Toyo typical, in case of fluidizing product cooler |
+| bulk flow cooler power | 19 kW/MT (as printed) | Toyo note for bulk flow cooler by cooling water |
+
+
+Recorded gaps:
+
+- Cooler duty, air volume, residence time, vendor models other than Toyo — Fetch a bulk-solids cooler OEM page.
+- Cooler duty, air volume, residence time, vendor models other than Toyo — Fetch a bulk-solids cooler OEM page.
+
 ## fuel-gas
 
 ### Fuel gas system: pressure regulation, gas train, filters, scrubbers, booster/compressor, day tank (gas-engine-fuel-gas-system)
@@ -1107,6 +1556,22 @@ Recorded gaps:
 
 - Gas inlet pressure range, pressure-regulation setpoints, booster/compressor curve and scrubber sizing — Fetch gas-train data sheet from Jenbacher resource hub and a gas booster OEM datasheet
 - Liquid day-tank capacity for dual-fuel standby — Fetch Everllence 51/60DF fact sheet
+
+## gas
+
+### Gas detection (utility-gas-detection)
+
+Primary code: PCH: Petrochemicals
+Gas detection (ammonia detectors, fire and gas system)
+Vendors: MSA Safety (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Ultrasonic leak detector range | 17-28 m | Typical detection ranges 17-28 m depending on microphone technology; suitable only for pressurised installations from 2 bar (29 psi); MSA Observer i |
+| Laser open-path NH3 measuring range | ?-15000 ppm.m | Measuring range up to 0-15000 ppm.m; path lengths 5-40 m and 40-120 m; MSA Senscient ELDS |
+| Point catalytic bead range | 0-100 %LEL | Typical measuring range 0-100 %LEL; MSA ULTIMA X5000 / General Monitors S5000 / TG5000 / PrimaX P |
+| Point electrochemical NH3 range | 0-100 ppm and 0-1,000 ppm ppm | Typical measuring ranges for direct measurement of ammonia at occupational exposure levels; sensor life 1-2 years (XCell ammonia sensor >5 years per footnote) |
+
 
 ## generator
 
@@ -1159,7 +1624,7 @@ Recorded gaps:
 
 Primary code: PCH: Petrochemicals
 Fluid-bed unit that builds urea granules from sprayed melt onto seed particles, with internal recycling and classification to hold a target granule size. Granules are larger and harder than prills, which suits bulk blending and reduces caking.
-Vendors: thyssenkrupp Uhde, Stamicarbon, Toyo Engineering, Casale (4 model lines recorded).
+Vendors: thyssenkrupp Uhde, Stamicarbon, Toyo Engineering, Casale, Casale, UreaKnowHow B.V. (4 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -1167,11 +1632,30 @@ Vendors: thyssenkrupp Uhde, Stamicarbon, Toyo Engineering, Casale (4 model lines
 | granule size | 2-8 mm | product sizes produced in one plant |
 | recycle ratio | 0.5 ratio | recycle to product in a TEC fluid-bed granulator |
 | bed temperature | 110-119 °C | fluid-bed granulator bed temperature in the cited study |
+| product total nitrogen | 46.3 wt% | Toyo typical standard product quality, design-condition dependent |
+| product biuret | 0.8 wt% | Toyo typical product quality |
+| product moisture | 0.2 wt% | Toyo typical product quality |
+| product formaldehyde | 0.45 wt% | Toyo typical product quality |
+| product size 2-4 mm | 95 wt% | Toyo typical product quality |
+| granule hardness | 3.5 kg/granule for 3 mm | Toyo typical product quality |
+| steam consumption | 0.01 MT/MT product | Toyo consumption per unit of service, typical standard depending on atmospheric conditions, utility conditions and feed urea solution concentration |
+| power consumption (fluidising product cooler) | 24 kWh/MT product | Toyo typical standard in case of fluidizing product cooler |
+| power consumption (bulk flow cooler with cooling water) | 19 kW/MT (as printed) | Toyo note: 'In case of bulk flow cooler by cooling water, power consumption becomes 19kW/MT' |
+| cooling water | Nil n/a | Toyo consumption per unit of service for the standard granulation configuration |
+| urea dust emission | ?-30 mg/Nm3-Air | Toyo low-pressure-drop dust scrubber: air containing urea dust washed with circulating water to reduce urea dust to less than 30 mg/Nm3-Air |
+| Casale GREEN GRANULATION acquisition | 2022 year | Casale: technology developed by GREEN GRANULATION Ltd, fully acquired by Casale in 2022 |
 
 - **thyssenkrupp Uhde** UFT Fluid Bed Granulation: 2-8 mm product sizes from one plant; more than 20 plants at 3,000 mt/d or more
 - **Toyo Engineering** Spout-Fluid Bed Granulation: scaled from 50 to 3,250 MTPD; designed to 4,500 MTPD
 - **Stamicarbon** Fluid-bed granulation technology: 98.5 wt.% melt; up to 0.3 wt.% formaldehyde; on-stream time more than 150 days
 - **Casale** GREEN GRANULATION: feed concentration can be as low as 96-97%
+
+Recorded gaps:
+
+- UFT (Uhde fluidised bed) granulation specifics - capacity range, fluidisation velocity, product size, official page — Locate and fetch a current thyssenkrupp uhde fertilizer/urea UFT page via a working URL.
+- Granulator capacity range, bed area, spray nozzle count, seed recycle ratio — Read the Casale GREEN GRANULATION brochure PDF with a PDF-capable tool.
+- UFT (Uhde fluidised bed) granulation specifics - capacity range, fluidisation velocity, product size, official page — Locate and fetch a current thyssenkrupp uhde fertilizer/urea UFT page via a working URL.
+- Granulator capacity range, bed area, spray nozzle count, seed recycle ratio — Read the Casale GREEN GRANULATION brochure PDF with a PDF-capable tool.
 
 ## heat-exchanger
 
@@ -1355,6 +1839,19 @@ Recorded gaps:
 - Cladding material/thickness and weatherproofing specifications for outdoor steam lines in Southeast Asia — Find boiler OEM or insulation contractor specification with cladding gauge, material and fastening details.
 - Numeric heat-loss chart values for insulated HRSG/boiler casings (as opposed to pipes) — Fetch a boiler/HRSG OEM thermal performance datasheet or ASTM C680 based calculation example.
 
+## laboratories
+
+### Laboratories (utility-laboratories)
+
+Primary code: PCH: Petrochemicals
+Laboratories
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Product specification context | urea prill -6+18 US Mesh; max biuret 0.5% specification | Pusri urea EPD describes product as prills -6+18 US Mesh with main N content and maximum biuret 0.5% |
+
+
 ## lube-oil
 
 ### Lube oil system: pumps, filters, coolers, sump (gas-engine-lube-oil-system)
@@ -1408,6 +1905,19 @@ Recorded gaps:
 
 - per-form price tables from the manufacturers themselves — Ask a Malaysian panel builder (IPP/TNB-registered) for a section price benchmark
 
+## maintenance
+
+### Maintenance and workshops (utility-maintenance-workshops)
+
+Primary code: PCH: Petrochemicals
+Maintenance and workshops
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Maintenance and workshops | Qualitative function from pages read in this sweep. |
+
+
 ## membrane-systems
 
 ### MF/UF/RO membrane systems (wwt-membrane-systems)
@@ -1429,6 +1939,27 @@ Vendors: SUEZ Water Technologies, DuPont Water Solutions, Toray Industries, Nitt
 Recorded gaps:
 
 - per-model flux and pressure tables — Read FilmTec and ZeeWeed datasheets and record per-model figures
+
+## methanation
+
+### Methanation and syngas drying/purification (ammonia-methanation-purification)
+
+Primary code: PCH: Petrochemicals
+Methanation and syngas drying/purification
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| PK-5 ring-shaped methanation catalyst pressure-drop reduction | 30-70 % lower pressure drop | Topsoe PK-5 versus conventional sphere- or cylindrical-shaped methanation catalysts |
+| Methanation reactions | CO + 3H2 -> CH4 + H2O; CO2 + 4H2 -> CH4 + 2H2O qualitative | Final hydrogen-purification step in Haber process |
+| Typical methanation section pressure | 25-35 bar absolute | Steam reforming, shift, CO2 removal and methanation each operate at about 25-35 bar absolute |
+| SynCOR syngas cleaning | nitrogen wash with purge and nitrogen addition qualitative | Topsoe comparison: conventional uses methanation; SynCOR uses nitrogen wash, enabling inert-free synthesis loop with no purge |
+
+
+Recorded gaps:
+
+- Syngas dryer type/design (molecular sieve vs glycol) andOutlet moisture specification — Fetch a syngas drying/purification OEM page or ammonia plant design reference.
+- Syngas dryer type/design (molecular sieve vs glycol) andOutlet moisture specification — Fetch a syngas drying/purification OEM page or ammonia plant design reference.
 
 ## mv-switchgear
 
@@ -1463,6 +1994,21 @@ Vendors: ABB, Schneider Electric, Siemens, Eaton (4 model lines recorded).
 Recorded gaps:
 
 - per-panel prices from ABB/Schneider/Eaton themselves — Ask a TNB-registered Malaysian switchgear supplier (EPE Switchgear, Inteflex, others) for a per-unit benchmark
+
+## nitrogen
+
+### Nitrogen and inert gas supply (utility-nitrogen-inerting)
+
+Primary code: PCH: Petrochemicals
+Nitrogen and inert gas supply
+Vendors: Air Liquide Japan (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Inert-gas supply | usually nitrogen utility | Site utility list includes inert-gas supplies (usually nitrogen); ammonia, nitrogen and CO2 also used as refrigeration working fluids in some situations |
+| Nitrogen source for synthesis | air separation process | Hydrogen reacts with nitrogen derived from air separation; relatively pure N2 can be obtained by air separation with additional oxygen removal possibly required |
+| Cryogenic nitrogen generator BEDP contractor | Air Liquide Japan supplier | Allied Green Ammonia project: Air Liquide Japan contracted for BEDP for cryogenic nitrogen generator (July 2024) |
+
 
 ## oily-water-separator
 
@@ -1508,6 +2054,27 @@ Vendors: Xylem (1 model lines recorded).
 Recorded gaps:
 
 - per-model kg-O3/h ranges — Read Wedeco generator model pages
+
+## palletisers
+
+### Palletisers (bulk-palletisers)
+
+Primary code: PCH: Petrochemicals
+Palletisers
+Vendors: OCME S.r.L. (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| high-level infeed | 7-10.33 ft (2.13-3.15 m) | Wikipedia Palletizer: conventional and robotic palletizers can receive product at high elevation |
+| floor-level infeed | 2.5-3.0 ft (0.76-0.91 m) | Wikipedia Palletizer: low 'floor level' elevation |
+| first mechanized palletizer | 1948 year | designed, built and installed by a company formerly known as Lamson Corp |
+| end effector package types | cases, bags, pails, drums, bottles n/a | Wikipedia Palletizer: end of arm tooling evolved to accommodate variation of pack patterns and package types |
+
+
+Recorded gaps:
+
+- Palletizer throughput (layers/hour), bag patterns, pallet sizes, OEM model specs — Fetch a palletizer OEM page.
+- Palletizer throughput (layers/hour), bag patterns, pallet sizes, OEM model specs — Fetch a palletizer OEM page.
 
 ## power-cables
 
@@ -1641,8 +2208,85 @@ Vendors: Stamicarbon, Saipem, Casale, Toyo Engineering (1 model lines recorded).
 | large-unit capacity | 3000-very high t/d | large prilling units of at least 3,000 t/d of urea prills |
 | large-unit dimensions | at least 100 high and 20 in diameter m | large prilling towers |
 | prill size | 1.65 mm | typical prill diameter, compared with 2.82-3.06 mm granules |
+| prill size limit | 2.1 mm diameter | Wikipedia: prills limited to about 2.1 mm diameter, with low crushing strength and caking/crushing in bulk storage and handling |
+| prill formation mechanism | drops of melted material congeal/freeze in mid-air after dripping from top of a tall prilling tower n/a | Wikipedia Prill; material must be solid at room temperature and low-viscosity liquid when melted |
+| prilling displacement trend | prilling of ammonium nitrate and urea replaced in recent years by fluid bed granulation giving stronger, more abrasion-resistant granules n/a | Wikipedia Prill, citing Van't Land, Industrial Crystallization of Melts (2004), p.117 |
+| formaldehyde additive | added during production of both prills and granules to increase crushing strength and suppress caking n/a | Wikipedia Urea finishing |
 
 - **Stamicarbon** Prilling Design: rotating buckets distribute liquid urea droplets evenly in the tower; optional seeding
+
+Recorded gaps:
+
+- Tower height/diameter, airflow, droplet size distribution, nozzle/bucket design and capacity — Find a prilling tower vendor/OEM page or old engineering design paper.
+- Tower height/diameter, airflow, droplet size distribution, nozzle/bucket design and capacity — Find a prilling tower vendor/OEM page or old engineering design paper.
+
+## process
+
+### Process condensate treatment and sour water stripping (ammonia-sour-water-stripping)
+
+Primary code: PCH: Petrochemicals
+Process condensate treatment and sour water stripping | Effluent / wastewater treatment (ammonia stripping and urea hydrolysis)
+Vendors: SnamProgetti SpA (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Sour gas classification threshold | 5.7 mg H2S per m3 natural gas (~4 ppmv at STP) | Natural gas usually considered sour above this level; Texas Railroad Commission uses >100 ppmv for pipelines, TCEQ >24 ppmv upstream |
+| Effluent quantity from urea synthesis reaction | 300 kg water per tonne urea | One mole of water formed per mole of urea from 2NH3 + CO2 |
+| Total effluent to treatment | 500 kg per tonne urea | Adds ~150 kg/t urea wash/flushing water and ejector drive steam plus intermittent discharges; for a 1700 t/d plant about 850 m3/day |
+| Indicative urea effluent composition | NH3 2-5 wt%; CO2 1-2.5 wt%; urea 0.5-2 wt%; balance water wt% | Indicative composition stated in patent description (a second table gives CO2 1-1.25 wt%) |
+| Hydrolysis residence time | 20-40 min | Hydrolysis of urea/biuret at 200-240 C and 20-40 bar gauge; longer time has no appreciable effect |
+| Stripping column operating conditions | 1.5-4 bar gauge | Stripping stages at 128-150 C; live steam to column base or reboiler |
+| Treated effluent residual NH3 and urea | 0.4-10 ppm each | Residual content of between 10 and 0.4 ppm for each pollutant; below 1 ppm possible with preferred conditions, suitable as boiler feed water up to 110 bar steam |
+| Process condensate treatment in urea plant boundary | process condensate treatment unit | Pusri urea EPD cradle-to-gate system boundary includes crystallizer, prilling and process condensate treatment |
+
+
+Recorded gaps:
+
+- Ammonia-plant process condensate stripper design (number of trays, steam rate, overhead NH3 concentration) — Fetch an EPC/OEM sour-water stripping page or ammonia plant environmental-control reference.
+- Ammonia-plant process condensate stripper design (number of trays, steam rate, overhead NH3 concentration) — Fetch an EPC/OEM sour-water stripping page or ammonia plant environmental-control reference.
+
+### Process control, analysers, safety and ventilation (urea-control-safety-ventilation)
+
+Primary code: PCH: Petrochemicals
+Process control, analysers, safety and ventilation
+Vendors: SensoTech GmbH, Stamicarbon, LESER, Badotherm, AMMO (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| LiquiSonic measuring range - concentration | 0-100 m% | SensoTech typical measuring range |
+| LiquiSonic measuring range - temperature | -10-140 degC | SensoTech typical measuring range |
+| controller capacity | 4 sensors per LiquiSonic Controller 30 | SensoTech: Controller 30 can be connected with up to 4 sensors |
+| analyser vs lab time saving | 1 hour per day | SensoTech stated customer benefit: time required 1 h per day for laboratory measurements reduced by inline analysis |
+| sensor line size | DN80 nominal pipeline diameter | SensoTech: immersion sensors installed at outlet of decomposer, typically DN80 pipelines |
+| conveyor safety devices | trip cords, belt sway switches, speed switches, belt rip switches, emergency stops; OSHA 1926.555 n/a | Wikipedia Conveyor belt safety system |
+| silo confined-space ventilation | dedicated electric fan or silo blower to blow fresh air before entry; methane can displace oxygen n/a | Wikipedia Silo safety - unloading process |
+| ammonia leak incident reporting | 13 Sept 2026: two workers dead, up to 114 injured; 14 Sept 2026: up to 14 injured n/a | UreaKnowHow home page news headlines on ammonia leaks at nitrogen fertilizer plants |
+
+
+Recorded gaps:
+
+- Safety instrumented system (SIS) design, gas detector models/setpoints, ventilation rates for urea bagging buildings, DCS vendor — Fetch an HSE/OSHA guidance page with a working URL and a process-safety vendor page.
+- Safety instrumented system (SIS) design, gas detector models/setpoints, ventilation rates for urea bagging buildings, DCS vendor — Fetch an HSE/OSHA guidance page with a working URL and a process-safety vendor page.
+
+## product
+
+### Product storage, warehouses, bagging plants and loading-station dust extraction (bulk-warehousing-dust-extraction)
+
+Primary code: PCH: Petrochemicals
+Product storage, warehouses, bagging plants and loading-station dust extraction
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| unit collector applications | bins and silos or remote belt-conveyor transfer points n/a | Wikipedia Dust collector unit collectors section |
+| unit collector capacity range | 200-2000 ft3/min (90-900 L/s) | Wikipedia Dust collector |
+| dust explosion risk | finely granulated dust in air plus spark can trigger dust explosion powerful enough to destroy a concrete silo n/a | Wikipedia Silo, Dry-material/bin hazards section |
+
+
+Recorded gaps:
+
+- Warehouse storage capacity, bagging line count, dust-extraction air volumes and duct velocities — Fetch a fertilizer terminal/bagging plant case study.
+- Warehouse storage capacity, bagging line count, dust-extraction air volumes and duct velocities — Fetch a fertilizer terminal/bagging plant case study.
 
 ## protection-relays
 
@@ -1751,6 +2395,24 @@ Recorded gaps:
 - KSB feedwater-pump product page not found/read — Target ksb.com boiler feedwater pump pages directly.
 - No NPSHr value from an OEM for a package-boiler feed pump — Obtain OEM curve with NPSHr at the actual duty point.
 
+## rectifying
+
+### Rectifying columns / distillation columns (urea-rectifying-columns)
+
+Primary code: PCH: Petrochemicals
+Rectifying columns / distillation columns
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| distillation temperature (vendor description) | 70 degC | SensoTech: reaction mixture decompressed to atmospheric pressure and freed from ammonium carbamate in distillation columns at 70 C |
+
+
+Recorded gaps:
+
+- Column diameter/height, tray/packing type, reflux ratio, number of stages — Locate an authoritative urea process flowsheet/design paper.
+- Column diameter/height, tray/packing type, reflux ratio, number of stages — Locate an authoritative urea process flowsheet/design paper.
+
 ## safety
 
 ### Boiler safety valves, blowdown and level fittings (safety-valves-blowdown-boiler)
@@ -1793,6 +2455,50 @@ Vendors: Wärtsilä (0 model lines recorded).
 | Fire Detection System in plant common systems | listed as a common power-plant system and classified 'Non Critical' in the Schneider/Wärtsilä study (gas piping/pressure reduction, gas storage, electrical distribution, control system classified Critical) qualitative | Schneider Electric White Paper 286, Figure 5 |
 | Ventilation damper fire behaviour | gravity-type dampers close on actuator failure or loss of AC power, starving enclosure of air and helping extinguish fire; dampers to be used with screen qualitative | Cummins Gas Power Plant Application Manual, section 3.3 ventilation/dampers |
 
+
+## screw
+
+### Screw conveyors (bulk-screw-conveyors)
+
+Primary code: PCH: Petrochemicals
+Screw conveyors
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| rate control | volume transfer rate proportional to rotation rate of the shaft n/a | Wikipedia Screw conveyor: used as variable rate feeder by varying shaft rotation |
+| inclination effect | capacity of a given unit rapidly decreases as angle of inclination increases n/a | Wikipedia Screw conveyor |
+| construction | trough or tube with spiral blade around a shaft (driven one end, held at other) or shaftless spiral driven at one end and free at the other n/a | Wikipedia Screw conveyor |
+
+
+Recorded gaps:
+
+- Screw conveyor diameter/pitch/capacity/power for urea service — Fetch a screw conveyor OEM engineering guide.
+- Screw conveyor diameter/pitch/capacity/power for urea service — Fetch a screw conveyor OEM engineering guide.
+
+## secondary
+
+### Secondary reformer / autothermal reformer (ammonia-secondary-reformer-atr)
+
+Primary code: PCH: Petrochemicals
+Secondary reformer / autothermal reformer (ATR)
+Vendors: Topsoe, Casale (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| ATR syngas outlet temperature | 950-1100 deg C | Autothermal reforming outlet syngas temperature |
+| ATR syngas outlet pressure | ?-100 bar | Outlet pressure can be as high as 100 bar (ATR) |
+| ATR H2:CO ratio with CO2 | 1.0 mol/mol | ATR using carbon dioxide produces H2:CO = 1:1 |
+| ATR H2:CO ratio with steam | 2.5 mol/mol | ATR using steam produces H2:CO = 2.5:1 |
+| Methane at primary reformer exit after air addition to secondary | 1-2 % | Braun Purifier process: air added to secondary reformer reduces methane content of primary reformer exit stream to 1-2% |
+| SynCOR Ammonia steam-to-carbon ratio | 0.6 mol/mol | Topsoe SynCOR Ammonia ATR-based grassroot concept; conventional comparison value 3.0 |
+| Casale HyPURE-N (ATR) CO2 recovery | ?-99 % | Casale ATR-based blue ammonia process, all CO2 sent to sequestration or use |
+
+
+Recorded gaps:
+
+- ATR refractory/burner design details and oxygen-only ATR reference plants not tied to ammonia — Fetch Topsoe SynCOR ATR equipment page and Casale HyPURE-N brochure.
+- ATR refractory/burner design details and oxygen-only ATR reference plants not tied to ammonia — Fetch Topsoe SynCOR ATR equipment page and Casale HyPURE-N brochure.
 
 ## separator
 
@@ -1842,6 +2548,26 @@ Recorded gaps:
 - Detailed chemical-cleaning procedure for gas-fired HRSGs (drum/pressure-part-specific) — Fetch an OEM HRSG commissioning/cleaning manual excerpt or Veolia technical paper on pre-operational cleaning of combined-cycle HRSGs
 - Southeast Asian chemical-cleaning contractor/vendor for new boilers — Search for Veolia/Suez industrial cleaning services in Malaysia, Singapore and Indonesia and record service scope with URLs
 
+## shift
+
+### Shift conversion - HT/LT shift reactors and catalysts (ammonia-shift-conversion)
+
+Primary code: PCH: Petrochemicals
+Shift conversion - HT/LT shift reactors and catalysts
+Vendors: Topsoe, Johnson Matthey (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Medium-temperature shift catalyst operating range | 190-330 deg C | Topsoe LK-813 / LK-819 catalyst descriptions (middle/bottom layer) |
+| WGS reaction enthalpy | -41 kJ/mol CO | CO + H2O <=> CO2 + H2, mildly exothermic |
+| Equilibrium constant K at 400 deg C (N2+3H2<=>2NH3 context table) | 16.4 x 10^-5 dimensionless | Haber-process equilibrium table; illustrates temperature constraint on synthesis, not shift |
+
+
+Recorded gaps:
+
+- HTS/LTS inlet-outlet CO concentrations, space velocity, catalyst life and reactor dimensions — Fetch individual catalyst leaflets and AIChE ammonia production material (AIChE CEP page returned 403).
+- HTS/LTS inlet-outlet CO concentrations, space velocity, catalyst life and reactor dimensions — Fetch individual catalyst leaflets and AIChE ammonia production material (AIChE CEP page returned 403).
+
 ## silencer
 
 ### Silencers (fan inlet, stack/breeching, PRV/steam vent) (boiler-stack-vent-silencers)
@@ -1862,6 +2588,51 @@ Recorded gaps:
 
 - Site-specific insertion loss and pressure-drop curves for each silencer type — Request vendor selection sheets with flow, pressure, temperature and required sound level; record insertion loss by octave band and allowable dP.
 - Fan inlet silencer design inputs for boiler forced-draft/induced-draft fans specifically — Find boiler OEM (B&W/GE Vernova) or silencer case study for FD/ID fan installations.
+
+## silos
+
+### Silos and storage bins (bulk-silos-storage-bins)
+
+Primary code: PCH: Petrochemicals
+Silos and storage bins
+Vendors: Harvestore, Buffer Valley Industries (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| storage silo diameter | 3-27 m (10-90 ft) | Wikipedia Silo: storage silos cylindrical, typically 10-90 ft diameter |
+| storage silo height | 10-90 m (30-275 ft) | Wikipedia Silo: 30-275 ft height; taller/wider ones slipform and jumpform concrete |
+| mobile powder silo capacity | 100-750 tons | Wikipedia Silo, Cement storage silos section; fully mobile, with electronic weighing system |
+| static upright powder silo capacity | 200-800 tons | Wikipedia Silo, Cement storage silos section |
+| rigid silo size range | 2-1000 m3 (2 m3 to over 1000 m3) | Wikipedia Silo, Rigid silos section; may have multiple vertical partitions |
+| flexible silo minimum particle size | 2 microns | Wikipedia Silo: flexible silos made from trevira tissue can handle particle size down to 2 microns and be pneumatically loaded without dust collector |
+| silo hazards | dust explosion; grain entrapment; methane asphyxiation in enclosed stores n/a | Wikipedia Silo Safety sections |
+
+
+Recorded gaps:
+
+- Urea-specific silo capacity, caking/anti-caking measures, lining, aeration, reclaim system vendor — Fetch a bulk-solids silo OEM page (e.g. BEUMER, AUMUND, Cemen Tech) via verified URL.
+- Urea-specific silo capacity, caking/anti-caking measures, lining, aeration, reclaim system vendor — Fetch a bulk-solids silo OEM page (e.g. BEUMER, AUMUND, Cemen Tech) via verified URL.
+
+## sizing
+
+### Sizing screens and crushers (bulk-sizing-screens-crushers)
+
+Primary code: PCH: Petrochemicals
+Sizing screens and crushers
+Vendors: Toyo Engineering (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| screen type | double-deck screen separates product size from over- and undersize granules n/a | Toyo granulation process outline |
+| crusher type | double roller type crusher for oversize granules; crushed oversize recycled with undersize as seeds n/a | Toyo granulation process outline |
+| product size fraction | 95 wt% in 2-4 mm | Toyo typical product quality |
+| crusher setting optimization | proper settings of the crusher listed as an issue solved by UreaKnowHow FBG optimisation services n/a | UreaKnowHow Fluid Bed Granulation Optimization page |
+
+
+Recorded gaps:
+
+- Screen area, mesh apertures, crusher gap/capacity, crusher OEM — Fetch a screening/crushing OEM page with a known working URL.
+- Screen area, mesh apertures, crusher gap/capacity, crusher OEM — Fetch a screening/crushing OEM page with a known working URL.
 
 ## sludge-dewatering
 
@@ -1910,7 +2681,7 @@ Recorded gaps:
 
 Primary code: H2: Hydrogen and low-carbon fuels
 Fired tubular reactor in which natural gas or another light hydrocarbon reacts with steam over a nickel catalyst to make synthesis gas, followed in ammonia plants by a secondary reformer where air or oxygen is added and the remaining methane is converted. Reformers set the hydrogen-to-nitrogen ratio and the methane slip for the downstream shift and synthesis sections.
-Vendors: Topsoe, KBR, thyssenkrupp Uhde (3 model lines recorded).
+Vendors: Topsoe, KBR, thyssenkrupp Uhde, Wood, Casale (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -1918,6 +2689,15 @@ Vendors: Topsoe, KBR, thyssenkrupp Uhde (3 model lines recorded).
 | operating pressure | 20-30 bar | medium-pressure SMR range |
 | steam-to-carbon ratio | 2.5-3.0 mol/mol | typical S/C values; the NETL design case uses 2.60 |
 | secondary reformer outlet temperature | 982 °C | syngas cooled from the secondary reformer outlet in the NETL design case |
+| SMR optimal reactor temperature | 800-900 deg C | Optimal SMR reactor operating temperature range (Speight, The refinery of the future, cited on page) |
+| SMR operating pressure | 20-30 bar | Optimal SMR medium-pressure range (same source) |
+| SMR steam-to-carbon molar ratio | 2.5-3.0 mol/mol | Typical S/C ratio values (Steam reforming page) |
+| SMR pressure, conventional plant practice (wide range) | 14-40 bar | Conventional steam reforming plants, 200-600 psi (Steam reforming page) |
+| SMR outlet temperature, conventional plant practice | 815-925 deg C | Conventional steam reforming plants (Steam reforming page) |
+| SMR reaction enthalpy | 206 kJ/mol CH4 | CH4 + H2O <=> CO + 3H2, standard steam reforming reaction enthalpy |
+| Steam reforming thermal efficiency | 65-75 % | Steam reforming of natural gas efficiency (Steam reforming page, hydrogen fact sheet) |
+| Two-step (Low Energy Ammonia) process capacity | ?-3500 MTPD ammonia | Topsoe Low Energy Ammonia Process, steam and air reforming, small and large scale up to 3500 MTPD |
+| Tubular radiant-wall reformer arrangement | catalyst tubes in single line, one or two fired boxes, burners on walls at several elevations qualitative | Topsoe equipment description |
 
 - **Topsoe** Tubular radiant wall steam reformer: more than 250 units designed over 50+ years; low steam-to-carbon, high heat flux, high outlet temperature
 - **KBR** KRES (KBR Reforming Exchanger): installed in parallel with the existing SMR and secondary reformer; up to 130% of SMR capacity
@@ -1926,6 +2706,8 @@ Vendors: Topsoe, KBR, thyssenkrupp Uhde (3 model lines recorded).
 Recorded gaps:
 
 - tube wall temperature and tube-life limits — fetch an OEM reformer datasheet or a metallurgy reference that states tube skin temperature
+- Tube dimensions, alloy specification, tube count, heat flux and burner ratings for named reformer designs — Fetch individual equipment product pages from Topsoe (e.g. tubular radiant wall steam reformer) and EPC design papers.
+- Tube dimensions, alloy specification, tube count, heat flux and burner ratings for named reformer designs — Fetch individual equipment product pages from Topsoe (e.g. tubular radiant wall steam reformer) and EPC design papers.
 
 ## steam-trap
 
@@ -2029,6 +2811,27 @@ Recorded gaps:
 - Primary NFPA 110 standard text and exact clause numbers for load-bank test profiles — Consult NFPA LiNK or adopted edition via AHJ before specifying acceptance criteria
 - Load bank requirements specific to gas-engine (spark-ignition) prime plants running continuously rather than standby — Check engine OEM (INNIO/Wärtsilä) commissioning manuals for gas engine run-in procedures
 
+## truck-rail
+
+### Truck/rail loaders, shiploaders and bulk loading stations (bulk-loading-stations)
+
+Primary code: PCH: Petrochemicals
+Truck/rail loaders, shiploaders and bulk loading stations | Jetty / loading and rail loading
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| equipment class | shiploaders, truck dumpers, railcar dumpers/wagon tipplers, mobile hopper loaders/unloaders listed as bulk handling systems n/a | Wikipedia Bulk material handling |
+| silo discharge to transport | silos can be unloaded into rail cars, trucks, or conveyors n/a | Wikipedia Silo, Tower silo section |
+| Export terminal | deep wharf at Butterworth, Penang facility | Petronas Chemicals Fertiliser Kedah uses a deep wharf terminal in Butterworth as primary maritime gateway; granular urea moved from Kuala Muda by dedicated railway connection |
+| Marine export facility (planned) | CALM buoy single-point mooring about 4.6 km offshore facility | Murchison Green Hydrogen full-scale scope includes marine export facility with pipelines and single-point mooring, plus desalination plant 5 GL/a |
+
+
+Recorded gaps:
+
+- Loading rates (t/h), spout sizes, dust capture, OEM model data — Fetch a bulk loader OEM page (BEUMER, Siwertell, AUMUND) via verified URL.
+- Loading rates (t/h), spout sizes, dust capture, OEM model data — Fetch a bulk loader OEM page (BEUMER, Siwertell, AUMUND) via verified URL.
+
 ## turbine
 
 ### Industrial gas turbine (aeroderivative and heavy-frame) (turbine-gas-industrial)
@@ -2088,13 +2891,53 @@ Recorded gaps:
 
 - Measured field efficiency curves of high-efficiency UPS modes when fed by a gas engine with frequency variation — Look for independent test reports (LBNL/Uptime/IEEE) on UPS-generator interaction
 
+## urea
+
+### Urea melt / melting and hot-urea-solution handling (urea-melt-handling)
+
+Primary code: PCH: Petrochemicals
+Urea melt / melting and hot-urea-solution handling
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| melting point | 132.4 degC | Urea physical property (CRC97 cited by Wikipedia) |
+| molten urea decomposition onset | 152 degC | molten urea decomposes into ammonium cyanate at about 152 C |
+| urea water solubility | 1200 g/L | solubility in water at 25 C (CRC97) |
+
+
+Recorded gaps:
+
+- Melt tank capacity, material, pump specs, pipe tracing design — Seek a urea melt handling vendor datasheet.
+- Melt tank capacity, material, pump specs, pipe tracing design — Seek a urea melt handling vendor datasheet.
+
+### Urea solution / hot urea solution tanks and pumps (urea-solution-handling)
+
+Primary code: PCH: Petrochemicals
+Urea solution / hot urea solution tanks and pumps (UAN, UAS, AdBlue)
+Vendors: SensoTech GmbH, Stamicarbon (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| UAN nitrogen content | 32 wt% N | Wikipedia: UAN stable solution total nitrogen content 32%, approaching solid ammonium nitrate 33.5%, urea itself 46% |
+| UAN share of US liquid fertilizers | 80 percent | Wikipedia Urea liquid forms, citing Ren et al. 2021 |
+| DEF/AdBlue composition | 32.5% urea, 67.5% de-ionized water wt% | Wikipedia Urea Miscellaneous section |
+| inline urea concentration measurement range | 0-100 m% (mass percent) | SensoTech LiquiSonic typical measuring range for urea |
+| STAMI SPECIALTIES liquid products | enables production of liquid UAN and granular UAS n/a | Stamicarbon profile on UreaKnowHow |
+
+
+Recorded gaps:
+
+- Hot urea solution tank design temperature, material, pump specs, storage capacity — Fetch a urea solution tank/pump OEM page.
+- Hot urea solution tank design temperature, material, pump specs, storage capacity — Fetch a urea solution tank/pump OEM page.
+
 ## urea-reactor
 
 ### Urea reactor (urea-reactor)
 
 Primary code: PCH: Petrochemicals
 High-pressure reactor in which ammonia and carbon dioxide form ammonium carbamate and then dehydrate to urea. Conversion per pass is incomplete, so the high-pressure loop strips and recycles unconverted carbamate; reactor pressure, temperature and the ammonia-to-CO2 ratio set conversion and downstream stripping duty.
-Vendors: Stamicarbon, thyssenkrupp Uhde, Casale, Toyo Engineering, Saipem (5 model lines recorded).
+Vendors: Stamicarbon, thyssenkrupp Uhde, Casale, Toyo Engineering, Saipem, Casale SA (5 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2102,12 +2945,23 @@ Vendors: Stamicarbon, thyssenkrupp Uhde, Casale, Toyo Engineering, Saipem (5 mod
 | reactor outlet temperature | 188 °C | Saipem urea flowsheet, NH3-stripping process |
 | NH3/CO2 (N/C) ratio | 3.2-3.4 mol/mol | Snamprogetti process; patents quote 2.5-3.5 with 3.0-3.2 preferred |
 | CO2 conversion per pass | 62-64 % | share of CO2 entering the reactor converted to urea; the high-pressure loop reaches 85-90% overall |
+| carbamate formation enthalpy | -117 kJ/mol | 2 NH3 + CO2 <-> NH4CO2NH2 at 110 atm and 160 C; fast exothermic |
+| urea conversion enthalpy | 15.5 kJ/mol | NH4CO2NH2 <-> CO(NH2)2 + H2O, slow endothermic, at 160-180 C |
+| world urea production capacity | 180000000 tonnes/year | worldwide production capacity in 2020, cited to IFASTAT |
+| biuret formation suppression | excess ammonia n/a | 2 urea -> biuret + NH3; suppressed in synthesis reactor by maintaining excess ammonia |
+| corrosion mitigation | continuous small oxygen (air) injection; duplex stainless (1990s); zirconium or zirconium-clad titanium tubing (2000s) n/a | ammonium carbamate highly corrosive even to resistant stainless; passive oxide layer maintained by oxygen injection |
+| synthesis pressure / temperature (vendor description) | 200 C, 130-200 bar n/a | SensoTech application note: thermal conversion of ammonium carbamate at a temperature of 200 C and pressure 130 to 200 bar |
 
 - **Stamicarbon** LAUNCH MELT pool reactor design: suited to capacities up to about 2,500 mtpd; about 30 m plant height
 - **Toyo Engineering** ACES21 process: reactor at N/C 3.7, 182 C and 152 bar
 - **Toyo Engineering** ACES21-LP process: synthesis pressure lowered to 136 barG; 5-10% lighter synthesis equipment
 - **Casale** HYPER-U: combined condenser/reactor; optimally designed up to 4,000 MTD
 - **Saipem** Snamprogetti ammonia stripping urea process: synthesis conditions 188 C and 155 kg/cm2
+
+Recorded gaps:
+
+- Reactor volume, design pressure/temperature, liner material, number of trays/compartments, residence time — Read the Casale HYPER-U / SPLIT FLOW LOOP PDFs via a PDF-capable tool, and seek Stamicarbon Urea brochure.
+- Reactor volume, design pressure/temperature, liner material, number of trays/compartments, residence time — Read the Casale HYPER-U / SPLIT FLOW LOOP PDFs via a PDF-capable tool, and seek Stamicarbon Urea brochure.
 
 ## uv-reactors
 
@@ -2177,6 +3031,67 @@ Recorded gaps:
 - explicit vent arrangement and valve proof-of-closure details — Read a fuel-train P&ID from an OEM or NFPA 85 primary text.
 - gas booster/compressor sizing for low supply pressure — Find a gas-pressure and booster selection reference.
 
+## vibratory
+
+### Vibratory conveyors (bulk-vibratory-conveyors)
+
+Primary code: PCH: Petrochemicals
+Vibratory conveyors
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| vibrator-assisted discharge | hard-to-handle products discharged from 45-degree fabric silo cone, minimally assisted by a small vibrator fitted to the discharge transition n/a | Wikipedia Silo, Flexible silo storage system section |
+
+
+Recorded gaps:
+
+- Vibratory conveyor capacity, trough width, frequency/amplitude, OEM models — Fetch a vibratory conveyor OEM engineering page.
+- Vibratory conveyor capacity, trough width, frequency/amplitude, OEM models — Fetch a vibratory conveyor OEM engineering page.
+
+## waste
+
+### Waste heat boilers, steam generation, economisers and superheaters (ammonia-waste-heat-boiler)
+
+Primary code: PCH: Petrochemicals
+Waste heat boilers, steam generation, economisers and superheaters | Boilers and steam system (HP/MP/LP, waste-heat and package boilers)
+Vendors: Topsoe, Chart Industries / Howden (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Ammonia-loop waste heat boiler design feature | patented bayonet tube design keeps all low-alloy metal parts out of temperature zones where nitriding is a concern qualitative | Topsoe waste heat boiler (ammonia loop) equipment description |
+| Historical energy intensity reduction | 27-100 GJ per tonne ammonia | Energy consumption reduced from 100 GJ/t ammonia in 1920 to 27 GJ in 2019 (Ramskov 2019 cited) |
+| HP steam pressure | 40 bar | Typical site HP steam about 40 bar, condensing temperature 250 C |
+| MP steam pressure | 20 bar | Typical MP main about 20 bar, condensing temperature 212 C |
+| LP steam pressure | 3 bar | Typical LP main about 3 bar, condensing at 134 C |
+| Cogeneration overall thermal efficiency | 70-80 % | Overall thermal efficiency of gas-turbine cogeneration with HRSG can be in the range 70-80% |
+| Boiler types in Pusri cradle-to-gate boundary | package boiler; waste heat boiler; coal boiler list | PT Pupuk Sriwidjaja Palembang urea EPD utilities |
+
+
+Recorded gaps:
+
+- Steam pressure levels, duty (t/h), tube material and economiser/superheater specifications — Fetch a waste-heat boiler OEM page or ammonia plant steam-balance reference.
+- Steam pressure levels, duty (t/h), tube material and economiser/superheater specifications — Fetch a waste-heat boiler OEM page or ammonia plant steam-balance reference.
+
+## wastewater
+
+### Wastewater treatment / process condensate (urea-wastewater-treatment)
+
+Primary code: PCH: Petrochemicals
+Wastewater treatment / process condensate
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| contamination mechanism | thermal decomposition products volatilize into overhead vapours and recombine on condensation, contaminating process condensate n/a | Wikipedia Urea side reactions (isocyanic acid + ammonia from ammonium cyanate) |
+| scrubber water reuse | circulating water wash in granulator dust scrubber n/a | Toyo granulation clean emission section |
+
+
+Recorded gaps:
+
+- Effluent limits (NH3-N, urea, COD), treatment package vendor, steam consumption per m3, design flow — Fetch an effluent-treatment OEM or urea plant environmental specification page.
+- Effluent limits (NH3-N, urea, COD), treatment package vendor, steam consumption per m3, design flow — Fetch an effluent-treatment OEM or urea plant environmental specification page.
+
 ## water-treatment
 
 ### Condensate polishing systems for HRSG / once-through boilers (filtration, ion exchange; conductivity/sodium ta (condensate-polishing-system)
@@ -2229,3 +3144,21 @@ Recorded gaps:
 - Specific make-up-water conductivity/silica targets for HRSG high-pressure drums and once-through steam generators — Fetch ASME Consensus / EPRI guideline table or an OEM (GE Vernova, Siemens) HRSG water-chemistry datasheet and record drum-pressure-specific limits
 - Siemens water-treatment product page — Fetch Siemens water treatment / RO-EDI product page and record vendor specs
 - GE Vernova water chemistry guidance for HRSG — Fetch GE Vernova HRSG water-chemistry or service page
+
+## weigh
+
+### Weigh belts / beltweighers (bulk-weigh-belts)
+
+Primary code: PCH: Petrochemicals
+Weigh belts / beltweighers
+Vendors: Topsoe (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| in-transit weighing | material flowing over the belt may be weighed in transit using a beltweigher n/a | Wikipedia Conveyor belt applications |
+
+
+Recorded gaps:
+
+- Belt scale accuracy class, capacity range, calibration method, OEM models (Schenck/Siemens etc.) — Fetch a verified weigh-belt OEM datasheet.
+- Belt scale accuracy class, capacity range, calibration method, OEM models (Schenck/Siemens etc.) — Fetch a verified weigh-belt OEM datasheet.

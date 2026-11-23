@@ -1,0 +1,82 @@
+{
+  "id": "bulk-sizing-screens-crushers",
+  "name": "Sizing screens and crushers",
+  "equipment_type": "sizing",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Sizing screens and crushers",
+  "specifications": [
+    {
+      "metric": "screen type",
+      "unit": "n/a",
+      "basis": "Toyo granulation process outline",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": "double-deck screen separates product size from over- and undersize granules"
+    },
+    {
+      "metric": "crusher type",
+      "unit": "n/a",
+      "basis": "Toyo granulation process outline",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": "double roller type crusher for oversize granules; crushed oversize recycled with undersize as seeds"
+    },
+    {
+      "metric": "product size fraction",
+      "unit": "wt% in 2-4 mm",
+      "basis": "Toyo typical product quality",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 95
+    },
+    {
+      "metric": "crusher setting optimization",
+      "unit": "n/a",
+      "basis": "UreaKnowHow Fluid Bed Granulation Optimization page",
+      "source": {
+        "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",
+        "source_id": "ureaknowhow-com-fluid-bed-granulation-optimization"
+      },
+      "value": "proper settings of the crusher listed as an issue solved by UreaKnowHow FBG optimisation services"
+    }
+  ],
+  "vendors": [
+    "toyo"
+  ],
+  "sources": [
+    {
+      "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+      "source_id": "toyo-eng-com-urea-granulation"
+    },
+    {
+      "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",
+      "source_id": "ureaknowhow-com-fluid-bed-granulation-optimization"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Screen area, mesh apertures, crusher gap/capacity, crusher OEM",
+      "why": "Not on pages read (Metso/FLSmidth URLs not fetched)",
+      "next_action": "Fetch a screening/crushing OEM page with a known working URL."
+    },
+    {
+      "what": "Screen area, mesh apertures, crusher gap/capacity, crusher OEM",
+      "why": "Not on pages read (Metso/FLSmidth URLs not fetched)",
+      "next_action": "Fetch a screening/crushing OEM page with a known working URL."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

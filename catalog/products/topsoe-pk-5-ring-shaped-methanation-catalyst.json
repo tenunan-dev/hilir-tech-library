@@ -1,0 +1,32 @@
+{
+  "id": "topsoe-pk-5-ring-shaped-methanation-catalyst",
+  "name": "PK-5 ring-shaped methanation catalyst",
+  "manufacturer": "topsoe",
+  "product_type": "methanation",
+  "equipment": [
+    "ammonia-methanation-purification"
+  ],
+  "description": "Vendor product line read 2026-11-24. PK-7R is the pre-reduced alternative.",
+  "specifications": [
+    {
+      "metric": "Pressure drop reduction vs sphere/cylinder catalysts",
+      "unit": "%",
+      "basis": "",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation",
+        "source_id": "topsoe-com-ammonia-ammonia-methanation"
+      },
+      "low": 30,
+      "high": 70
+    }
+  ],
+  "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation",
+  "sources": [
+    {
+      "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation",
+      "source_id": "topsoe-com-ammonia-ammonia-methanation"
+    }
+  ],
+  "notes": "PK-7R is the pre-reduced alternative.",
+  "last_reviewed": "2026-11-24"
+}

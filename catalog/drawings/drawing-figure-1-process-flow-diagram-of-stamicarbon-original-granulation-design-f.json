@@ -1,0 +1,36 @@
+{
+  "id": "drawing-figure-1-process-flow-diagram-of-stamicarbon-original-granulation-design-f",
+  "title": "Figure 1 - process flow diagram of Stamicarbon original granulation design (final product cooler)",
+  "diagram_type": "PFD",
+  "description": "Search snippet from a UreaKnowHow-hosted paper by Cucchiella/Stamicarbon on scaling up granulation plants; direct fetch returned gated HTML.",
+  "publisher": "UreaKnowHow.com (Stamicarbon paper)",
+  "url": "https://ureaknowhow.com/wp-content/uploads/2020/10/2020-Cucchiella-Stamicarbon-Scaling-up-granulation-plants.pdf",
+  "licence": "Not verified (fetch gated)",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PCH",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://ureaknowhow.com/wp-content/uploads/2020/10/2020-Cucchiella-Stamicarbon-Scaling-up-granulation-plants.pdf",
+      "source_id": "ureaknowhow-com-10-2020-cucchiella-stamicarbon-scaling-up-granulat"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Document URL verified reachable; caption/text extracted 2026-11-24. Search-verified pointer only; snippet mentions scrubbing solutions and off-spec seed recycle.",
+  "last_reviewed": "2026-11-24"
+}

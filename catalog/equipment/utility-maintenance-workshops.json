@@ -1,0 +1,35 @@
+{
+  "id": "utility-maintenance-workshops",
+  "name": "Maintenance and workshops",
+  "equipment_type": "maintenance",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Maintenance and workshops",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Maintenance and workshops",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iea.org/reports/ammonia-technology-roadmap"
+      }
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iea.org/reports/ammonia-technology-roadmap"
+    }
+  ],
+  "gaps": [],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

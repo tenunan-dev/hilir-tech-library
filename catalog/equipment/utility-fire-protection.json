@@ -1,0 +1,37 @@
+{
+  "id": "utility-fire-protection",
+  "name": "Fire protection and ammonia deluge/suppression",
+  "equipment_type": "fire",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Fire protection and ammonia deluge/suppression",
+  "specifications": [
+    {
+      "metric": "Water uses on a chemical site",
+      "unit": "use",
+      "basis": "Raw water used for process cleaning and to supply fire hydrants",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": "fire hydrants"
+    }
+  ],
+  "vendors": [
+    "jbw-consulting-engineers"
+  ],
+  "sources": [
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    }
+  ],
+  "gaps": [],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

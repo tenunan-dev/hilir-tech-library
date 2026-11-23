@@ -1,0 +1,51 @@
+{
+  "id": "msa-safety-senscient-senscient-elds-laser-open-path-ammonia-detector",
+  "name": "Senscient ELDS laser open-path ammonia detector",
+  "manufacturer": "msa-safety",
+  "product_type": "ammonia-converter",
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "description": "Vendor product line read 2026-11-24. Applications listed include fertilizer/chemical manufacturing plants, ammonia production units, green ammonia export hubs.",
+  "specifications": [
+    {
+      "metric": "Measuring range",
+      "unit": "ppm.m",
+      "basis": "MSA technical guide: up to 0-15000 ppm.m",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+        "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+      },
+      "high": 15000
+    },
+    {
+      "metric": "Path length options",
+      "unit": "m",
+      "basis": "MSA technical guide table",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+        "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+      },
+      "value": "5-40 m and 40-120 m"
+    },
+    {
+      "metric": "Technology",
+      "unit": "name",
+      "basis": "Patented multi-point harmonic verification per guide footnote",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+        "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+      },
+      "value": "Enhanced Laser Diode Spectroscopy (ELDS)"
+    }
+  ],
+  "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+  "sources": [
+    {
+      "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+      "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+    }
+  ],
+  "notes": "Applications listed include fertilizer/chemical manufacturing plants, ammonia production units, green ammonia export hubs.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "nh3-beaumont-new-ammonia-formerly-oci-clean-ammonia-beaumont-texas",
+  "name": "Beaumont New Ammonia (formerly OCI Clean Ammonia), Beaumont, Texas",
+  "country": "USA",
+  "location": "USA",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Expected to be one of first ammonia plants paired with autothermal reforming and 95% CO2 capture; lifecycle intensity ~0.8 tCO2/tNH3 vs 2.3 tCO2/tNH3 unabated (contracted threshold with Linde; subject to ExxonMobil CCS start-up and permits). Owner page read, last updated 25 Aug 2026.",
+  "capacities": [
+    {
+      "metric": "production capacity",
+      "value": "1.1",
+      "unit": "MT",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.woodside.com/what-we-do/growth-projects/beaumont-new-ammonia",
+        "source_id": "woodside-com-growth-projects-beaumont-new-ammonia"
+      }
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.woodside.com/what-we-do/growth-projects/beaumont-new-ammonia",
+      "source_id": "woodside-com-growth-projects-beaumont-new-ammonia"
+    }
+  ],
+  "notes": "Owner page read, last updated 25 Aug 2026.",
+  "last_reviewed": "2026-11-24"
+}

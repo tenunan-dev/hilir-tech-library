@@ -1,0 +1,82 @@
+{
+  "id": "utility-steam-system",
+  "name": "Boilers and steam system",
+  "equipment_type": "boilers",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Boilers and steam system (HP/MP/LP, waste-heat and package boilers)",
+  "specifications": [
+    {
+      "metric": "HP steam pressure",
+      "unit": "bar",
+      "basis": "Typical site HP steam about 40 bar, condensing temperature 250 C",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": 40
+    },
+    {
+      "metric": "MP steam pressure",
+      "unit": "bar",
+      "basis": "Typical MP main about 20 bar, condensing temperature 212 C",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": 20
+    },
+    {
+      "metric": "LP steam pressure",
+      "unit": "bar",
+      "basis": "Typical LP main about 3 bar, condensing at 134 C",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Cogeneration overall thermal efficiency",
+      "unit": "%",
+      "basis": "Overall thermal efficiency of gas-turbine cogeneration with HRSG can be in the range 70-80%",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "low": 70,
+      "high": 80
+    },
+    {
+      "metric": "Boiler types in Pusri cradle-to-gate boundary",
+      "unit": "list",
+      "basis": "PT Pupuk Sriwidjaja Palembang urea EPD utilities",
+      "source": {
+        "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+        "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+      },
+      "value": "package boiler; waste heat boiler; coal boiler"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    },
+    {
+      "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+      "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+    }
+  ],
+  "gaps": [],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

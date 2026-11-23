@@ -1,0 +1,102 @@
+{
+  "id": "urea-solution-handling",
+  "name": "Urea solution / hot urea solution tanks and pumps",
+  "equipment_type": "urea",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Urea solution / hot urea solution tanks and pumps (UAN, UAS, AdBlue)",
+  "specifications": [
+    {
+      "metric": "UAN nitrogen content",
+      "unit": "wt% N",
+      "basis": "Wikipedia: UAN stable solution total nitrogen content 32%, approaching solid ammonium nitrate 33.5%, urea itself 46%",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": 32
+    },
+    {
+      "metric": "UAN share of US liquid fertilizers",
+      "unit": "percent",
+      "basis": "Wikipedia Urea liquid forms, citing Ren et al. 2021",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": 80
+    },
+    {
+      "metric": "DEF/AdBlue composition",
+      "unit": "wt%",
+      "basis": "Wikipedia Urea Miscellaneous section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Urea",
+        "source_id": "en-wikipedia-org-wiki-urea"
+      },
+      "value": "32.5% urea, 67.5% de-ionized water"
+    },
+    {
+      "metric": "inline urea concentration measurement range",
+      "unit": "m% (mass percent)",
+      "basis": "SensoTech LiquiSonic typical measuring range for urea",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "low": 0,
+      "high": 100
+    },
+    {
+      "metric": "STAMI SPECIALTIES liquid products",
+      "unit": "n/a",
+      "basis": "Stamicarbon profile on UreaKnowHow",
+      "source": {
+        "url": "https://ureaknowhow.com/stamicarbon/",
+        "source_id": "ureaknowhow-com-stamicarbon"
+      },
+      "value": "enables production of liquid UAN and granular UAS"
+    }
+  ],
+  "vendors": [
+    "sensotech-gmbh",
+    "stamicarbon"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+      "source_id": "en-wikipedia-org-w-index-php"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Urea",
+      "source_id": "en-wikipedia-org-wiki-urea"
+    },
+    {
+      "url": "https://www.sensotech.com/en/urea-production",
+      "source_id": "sensotech-com-en-urea-production"
+    },
+    {
+      "url": "https://ureaknowhow.com/stamicarbon/",
+      "source_id": "ureaknowhow-com-stamicarbon"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Hot urea solution tank design temperature, material, pump specs, storage capacity",
+      "why": "No page read provides these",
+      "next_action": "Fetch a urea solution tank/pump OEM page."
+    },
+    {
+      "what": "Hot urea solution tank design temperature, material, pump specs, storage capacity",
+      "why": "No page read provides these",
+      "next_action": "Fetch a urea solution tank/pump OEM page."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bulk-bagging-fibc-filling",
+  "name": "Bagging machines and big-bag",
+  "equipment_type": "bagging",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Bagging machines and big-bag (FIBC) filling",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Bagging machines and big-bag (FIBC) filling",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iea.org/reports/ammonia-technology-roadmap"
+      }
+    }
+  ],
+  "vendors": [
+    "b-hler"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iea.org/reports/ammonia-technology-roadmap"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Bagging rate (bags/h), bag sizes, weighing accuracy, dust extraction flow, OEM models and prices",
+      "why": "No bagging machine page was fetched",
+      "next_action": "Fetch a packaging OEM page (BEUMER, Bühler, Cronos, TAGMAS) via verified URL."
+    },
+    {
+      "what": "Bagging rate (bags/h), bag sizes, weighing accuracy, dust extraction flow, OEM models and prices",
+      "why": "No bagging machine page was fetched",
+      "next_action": "Fetch a packaging OEM page (BEUMER, Bühler, Cronos, TAGMAS) via verified URL."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

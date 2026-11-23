@@ -1,0 +1,29 @@
+{
+  "id": "pupukkaltim-com-p-tentang-perusahaan",
+  "name": "Pupukkaltim.Com — PT Pupuk Kalimantan Timur (Pupuk Kaltim), Bontang",
+  "url": "https://www.pupukkaltim.com/en/p/tentang-perusahaan",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Pupukkaltim.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Described as largest integrated ammonia-urea plant in Southeast Asia; ISO 50001 first implemented at PKT-3 from April 2016; Ammonia Plant-2 revamp increased cap Evidence: https://www.pupukkaltim.com/en/p/tentang-perusahaan"
+}

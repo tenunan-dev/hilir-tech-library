@@ -1,0 +1,52 @@
+{
+  "id": "casale-n-eleva-blue-smr-based-blue-ammonia-process",
+  "name": "N-ELEVA BLUE (SMR-based blue ammonia process)",
+  "manufacturer": "casale",
+  "product_type": "steam-reformer",
+  "equipment": [
+    "steam-reformer"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "NOx",
+      "unit": "mg/Nm3 standard scheme",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 110
+    },
+    {
+      "metric": "CO2 emissions",
+      "unit": "t CO2/t NH3",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "low": 0.1,
+      "high": 0.15
+    },
+    {
+      "metric": "Energy consumption",
+      "unit": "Gcal/MT LHV basis",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 7.9
+    }
+  ],
+  "url": "https://casale.ch/technologies/ammonia/",
+  "sources": [
+    {
+      "url": "https://casale.ch/technologies/ammonia/",
+      "source_id": "casale-ch-ammonia"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

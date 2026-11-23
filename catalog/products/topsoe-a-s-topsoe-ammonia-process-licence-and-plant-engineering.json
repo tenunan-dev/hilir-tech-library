@@ -1,0 +1,41 @@
+{
+  "id": "topsoe-a-s-topsoe-ammonia-process-licence-and-plant-engineering",
+  "name": "TOPSOE ammonia process licence and plant engineering",
+  "manufacturer": "topsoe-a-s",
+  "product_type": "ammonia-converter",
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "description": "Vendor product line read 2026-11-24. Also selected for Fakfak ammonia plant BED (13 Nov 2026) per Pupuk Indonesia release.",
+  "specifications": [
+    {
+      "metric": "Scope",
+      "unit": "scope",
+      "basis": "Allied Green Ammonia May 2024 entry; Oct 2023 first Australian green ammonia contract",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+        "source_id": "research-csiro-au-allied-green-ammonia"
+      },
+      "value": "process licence and ammonia plant engineering"
+    },
+    {
+      "metric": "Project capacity linked",
+      "unit": "t/y ammonia",
+      "basis": "Allied Green Ammonia project design capacity",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+        "source_id": "research-csiro-au-allied-green-ammonia"
+      },
+      "value": 958500
+    }
+  ],
+  "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+  "sources": [
+    {
+      "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+      "source_id": "research-csiro-au-allied-green-ammonia"
+    }
+  ],
+  "notes": "Also selected for Fakfak ammonia plant BED (13 Nov 2026) per Pupuk Indonesia release.",
+  "last_reviewed": "2026-11-24"
+}

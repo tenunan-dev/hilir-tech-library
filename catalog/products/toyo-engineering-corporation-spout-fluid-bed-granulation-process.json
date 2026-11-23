@@ -1,0 +1,81 @@
+{
+  "id": "toyo-engineering-corporation-spout-fluid-bed-granulation-process",
+  "name": "Spout Fluid Bed Granulation Process",
+  "manufacturer": "toyo",
+  "product_type": "granulator",
+  "equipment": [
+    "urea-fluid-bed-granulator"
+  ],
+  "description": "Vendor product line read 2026-11-24. Multi-spray nozzles, double-deck screen, double-roller crusher, low-pressure-drop dust scrubber.",
+  "specifications": [
+    {
+      "metric": "total nitrogen",
+      "unit": "wt%",
+      "basis": "typical product quality",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 46.3
+    },
+    {
+      "metric": "biuret",
+      "unit": "wt%",
+      "basis": "typical product quality",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 0.8
+    },
+    {
+      "metric": "size 2-4 mm",
+      "unit": "wt%",
+      "basis": "typical product quality",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 95
+    },
+    {
+      "metric": "steam",
+      "unit": "MT/MT",
+      "basis": "typical consumption",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 0.01
+    },
+    {
+      "metric": "power",
+      "unit": "kWh/MT",
+      "basis": "typical, fluidizing product cooler",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 24
+    },
+    {
+      "metric": "urea dust",
+      "unit": "mg/Nm3-Air (less than)",
+      "basis": "scrubber design target",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 30
+    }
+  ],
+  "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+  "sources": [
+    {
+      "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+      "source_id": "toyo-eng-com-urea-granulation"
+    }
+  ],
+  "notes": "Multi-spray nozzles, double-deck screen, double-roller crusher, low-pressure-drop dust scrubber.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "urea-wastewater-treatment",
+  "name": "Wastewater treatment / process condensate",
+  "equipment_type": "wastewater",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Wastewater treatment / process condensate",
+  "specifications": [
+    {
+      "metric": "contamination mechanism",
+      "unit": "n/a",
+      "basis": "Wikipedia Urea side reactions (isocyanic acid + ammonia from ammonium cyanate)",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": "thermal decomposition products volatilize into overhead vapours and recombine on condensation, contaminating process condensate"
+    },
+    {
+      "metric": "scrubber water reuse",
+      "unit": "n/a",
+      "basis": "Toyo granulation clean emission section",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": "circulating water wash in granulator dust scrubber"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+      "source_id": "en-wikipedia-org-w-index-php"
+    },
+    {
+      "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+      "source_id": "toyo-eng-com-urea-granulation"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Effluent limits (NH3-N, urea, COD), treatment package vendor, steam consumption per m3, design flow",
+      "why": "No page read contains these",
+      "next_action": "Fetch an effluent-treatment OEM or urea plant environmental specification page."
+    },
+    {
+      "what": "Effluent limits (NH3-N, urea, COD), treatment package vendor, steam consumption per m3, design flow",
+      "why": "No page read contains these",
+      "next_action": "Fetch an effluent-treatment OEM or urea plant environmental specification page."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

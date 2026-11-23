@@ -1,0 +1,41 @@
+{
+  "id": "toyo-engineering-corporation-toyo-aces21-urea-process",
+  "name": "TOYO ACES21 urea process",
+  "manufacturer": "toyo",
+  "product_type": "ammonia-converter",
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "description": "Vendor product line read 2026-11-24. ACES21 process claimed to improve energy efficiency and reduce capital investment (owner press release).",
+  "specifications": [
+    {
+      "metric": "Plant applications",
+      "unit": "plants designed/engineered/commissioned",
+      "basis": "TOYO states >110 urea plants using its technologies",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en",
+        "source_id": "pupuk-indonesia-com-913-pupuk-indonesia-dan-toyo-kembangkan-kapasi"
+      },
+      "low": 110
+    },
+    {
+      "metric": "Selected capacity",
+      "unit": "million t/y urea",
+      "basis": "Fakfak, West Papua urea plant BED selection, Nov 2026",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en",
+        "source_id": "pupuk-indonesia-com-913-pupuk-indonesia-dan-toyo-kembangkan-kapasi"
+      },
+      "value": 1.15
+    }
+  ],
+  "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en",
+  "sources": [
+    {
+      "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en",
+      "source_id": "pupuk-indonesia-com-913-pupuk-indonesia-dan-toyo-kembangkan-kapasi"
+    }
+  ],
+  "notes": "ACES21 process claimed to improve energy efficiency and reduce capital investment (owner press release).",
+  "last_reviewed": "2026-11-24"
+}

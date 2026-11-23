@@ -1,0 +1,29 @@
+{
+  "id": "prosim-net-05-psps-ex-en-ammonia-synthesis-process-pdf",
+  "name": "Prosim.Net — Simulation flowsheet of an ammonia synthesis process fr",
+  "url": "https://www.prosim.net/wp-content/uploads/2023/05/PSPS_EX_EN-Ammonia-Synthesis-Process.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Prosim.Net",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. PDF text read; figure titles verified, actual diagram not reproduced. Evidence: https://www.prosim.net/wp-content/uploads/2023/05/PSPS_EX_EN-Ammonia-Synthesis-Process.pdf"
+}

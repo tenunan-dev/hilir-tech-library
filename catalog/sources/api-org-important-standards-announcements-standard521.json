@@ -1,0 +1,29 @@
+{
+  "id": "api-org-important-standards-announcements-standard521",
+  "name": "American Petroleum Institute",
+  "url": "https://www.api.org/products-and-services/standards/important-standards-announcements/standard521",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "American Petroleum Institute",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Standard is purchasable; only the public announcement page was read. Evidence: https://www.api.org/products-and-services/standards/important-standards-announcements/standard521"
+}

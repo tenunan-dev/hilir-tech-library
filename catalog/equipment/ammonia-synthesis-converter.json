@@ -26,7 +26,8 @@
       "basis": "typical ammonia synthesis pressure as stated",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Ammonia_production",
-        "note": "Wikipedia, Ammonia production (read 2026-11-17)"
+        "note": "Wikipedia, Ammonia production (read 2026-11-17)",
+        "source_id": "en-wikipedia-org-wiki-ammonia-production"
       }
     },
     {
@@ -58,15 +59,122 @@
       "basis": "about 15% of the gas turns into ammonia on each pass",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Ammonia_production",
-        "note": "Wikipedia, Ammonia production (read 2026-11-17)"
+        "note": "Wikipedia, Ammonia production (read 2026-11-17)",
+        "source_id": "en-wikipedia-org-wiki-ammonia-production"
       }
+    },
+    {
+      "metric": "Ammonia synthesis loop operating pressure (general)",
+      "unit": "bar",
+      "basis": "Synthesis loop pressure range depending on method (Haber process page)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Haber_process",
+        "source_id": "en-wikipedia-org-wiki-haber-process"
+      },
+      "low": 60,
+      "high": 180
+    },
+    {
+      "metric": "Typical modern synthesis pressure",
+      "unit": "bar",
+      "basis": "Plants built 1964-1992: syngas manufacture 25-35 bar, ammonia synthesis 150-200 bar",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Ammonia_production",
+        "source_id": "en-wikipedia-org-wiki-ammonia-production"
+      },
+      "low": 150,
+      "high": 200
+    },
+    {
+      "metric": "M.W. Kellogg Texas City syngas centrifugal compression",
+      "unit": "bar",
+      "basis": "Four-case centrifugal compressor compressed syngas to 152 bar; reciprocating compressor gave final 324 bar operating pressure",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Ammonia_production",
+        "source_id": "en-wikipedia-org-wiki-ammonia-production"
+      },
+      "value": 152
+    },
+    {
+      "metric": "Uhde two-pressure process: LP once-through converter suction pressure",
+      "unit": "bar (approx.)",
+      "basis": "Suction flange of LP casing of syngas compressor, 3-bed intercooled once-through converter makes about 1/3 of total ammonia",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+        "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
+      },
+      "value": 110
+    },
+    {
+      "metric": "Uhde two-pressure process: HP synthesis loop pressure",
+      "unit": "bar",
+      "basis": "Remaining syngas compressed in HP casing to loop operating pressure up to 210 bar; makes remaining 2/3 of ammonia",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+        "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
+      },
+      "high": 210
+    },
+    {
+      "metric": "Ammonia condensed from once-through converter effluent",
+      "unit": "% of ammonia produced in that converter",
+      "basis": "Mixture leaving the once-through converter is cooled; 85% of ammonia made there separated as liquid",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+        "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
+      },
+      "value": 85
+    },
+    {
+      "metric": "Single-pass conversion per reactor pass",
+      "unit": "%",
+      "basis": "About 15% conversion per pass; overall conversion ~97-98% with recycle",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Haber_process",
+        "source_id": "en-wikipedia-org-wiki-haber-process"
+      },
+      "value": 15
+    },
+    {
+      "metric": "Synthesis temperature range",
+      "unit": "deg C",
+      "basis": "Ammonia synthesis loop temperature range",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Haber_process",
+        "source_id": "en-wikipedia-org-wiki-haber-process"
+      },
+      "low": 300,
+      "high": 500
+    },
+    {
+      "metric": "Howden reciprocating gas compressor ratings",
+      "unit": "MW",
+      "basis": "Howden/Peter Brotherhood reciprocating gas compressors rated to 20 MW, 260-1000 rpm",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden",
+        "source_id": "chartindustries-com-www-chartindustries-com-howden"
+      },
+      "high": 20
+    },
+    {
+      "metric": "Howden steam turbine mechanical-drive range",
+      "unit": "MW",
+      "basis": "Steam turbines as mechanical drive for rotating equipment such as pumps, compressors and fans",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden",
+        "source_id": "chartindustries-com-www-chartindustries-com-howden"
+      },
+      "low": 10,
+      "high": 40
     }
   ],
   "vendors": [
     "topsoe",
     "thyssenkrupp-uhde",
     "kbr",
-    "casale"
+    "casale",
+    "thyssenkrupp-industrial-solutions-uhde",
+    "howden-chart-industries"
   ],
   "technologies": [
     "pch-ammonia-urea",
@@ -75,7 +183,8 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Ammonia_production",
-      "note": "Wikipedia, Ammonia production (read 2026-11-17)"
+      "note": "Wikipedia, Ammonia production (read 2026-11-17)",
+      "source_id": "en-wikipedia-org-wiki-ammonia-production"
     },
     {
       "url": "https://www.osti.gov/servlets/purl/3363286",
@@ -84,14 +193,36 @@
     {
       "url": "https://www.topsoe.com/solutions/technologies/process-licensing/two-step-reformer-based-ammonia-process",
       "note": "Topsoe two-step reformer ammonia process page, read 2026-11-17"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Haber_process",
+      "source_id": "en-wikipedia-org-wiki-haber-process"
+    },
+    {
+      "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
+      "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
+    },
+    {
+      "url": "https://www.chartindustries.com/Howden",
+      "source_id": "chartindustries-com-www-chartindustries-com-howden"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-24",
   "gaps": [
     {
       "what": "per-vendor converter model lines with casing, catalyst basket and pressure-drop data",
       "why": "vendor equipment pages were not fetched this session beyond Topsoe's process page",
       "next_action": "fetch Topsoe S-200/S-300, KBR, Casale and Uhde converter pages and add model lines"
+    },
+    {
+      "what": "Refrigeration compressor OEM/model data for ammonia service and circulator sizing rules",
+      "why": "MAN, Siemens and Atlas Copco URLs returned 404; Howden page is general portfolio.",
+      "next_action": "Locate working OEM URLs for process-gas compressors and ammonia refrigeration packages."
+    },
+    {
+      "what": "Refrigeration compressor OEM/model data for ammonia service and circulator sizing rules",
+      "why": "MAN, Siemens and Atlas Copco URLs returned 404; Howden page is general portfolio.",
+      "next_action": "Locate working OEM URLs for process-gas compressors and ammonia refrigeration packages."
     }
   ],
   "vendor_models": [
@@ -132,5 +263,6 @@
       "range": "three radial catalyst beds in one or two converters; loop up to 210 bar; A30 4,000-5,000 mtpd",
       "url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/6cc6d788-4f6c-49f4-adf9-08295b1ee60c/brochure-ammonia_scr.pdf"
     }
-  ]
+  ],
+  "notes": "Enriched 2026-11-24 with page-read ammonia/urea sweep sources. Enriched 2026-11-24 with page-read ammonia/urea sweep sources."
 }

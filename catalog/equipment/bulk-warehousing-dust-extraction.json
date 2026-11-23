@@ -1,0 +1,73 @@
+{
+  "id": "bulk-warehousing-dust-extraction",
+  "name": "Product storage, warehouses, bagging plants and loading-station dust extraction",
+  "equipment_type": "product",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Product storage, warehouses, bagging plants and loading-station dust extraction",
+  "specifications": [
+    {
+      "metric": "unit collector applications",
+      "unit": "n/a",
+      "basis": "Wikipedia Dust collector unit collectors section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Dust_collector",
+        "source_id": "en-wikipedia-org-wiki-dust-collector"
+      },
+      "value": "bins and silos or remote belt-conveyor transfer points"
+    },
+    {
+      "metric": "unit collector capacity range",
+      "unit": "ft3/min (90-900 L/s)",
+      "basis": "Wikipedia Dust collector",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Dust_collector",
+        "source_id": "en-wikipedia-org-wiki-dust-collector"
+      },
+      "low": 200,
+      "high": 2000
+    },
+    {
+      "metric": "dust explosion risk",
+      "unit": "n/a",
+      "basis": "Wikipedia Silo, Dry-material/bin hazards section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Silo",
+        "source_id": "en-wikipedia-org-wiki-silo"
+      },
+      "value": "finely granulated dust in air plus spark can trigger dust explosion powerful enough to destroy a concrete silo"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Dust_collector",
+      "source_id": "en-wikipedia-org-wiki-dust-collector"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Silo",
+      "source_id": "en-wikipedia-org-wiki-silo"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Warehouse storage capacity, bagging line count, dust-extraction air volumes and duct velocities",
+      "why": "No page read provides these",
+      "next_action": "Fetch a fertilizer terminal/bagging plant case study."
+    },
+    {
+      "what": "Warehouse storage capacity, bagging line count, dust-extraction air volumes and duct velocities",
+      "why": "No page read provides these",
+      "next_action": "Fetch a fertilizer terminal/bagging plant case study."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

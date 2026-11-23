@@ -1,0 +1,31 @@
+{
+  "id": "casale-sa-uremium-29",
+  "name": "UREMIUM 29",
+  "manufacturer": "casale-sa",
+  "product_type": "granulator",
+  "equipment": [
+    "urea-fluid-bed-granulator"
+  ],
+  "description": "Vendor product line read 2026-11-24. Proprietary metallurgy; composition not disclosed on read page.",
+  "specifications": [
+    {
+      "metric": "application",
+      "unit": "n/a",
+      "basis": "Casale news items 'Yara selects Uremium 29' and HP stripper made with Uremium 29",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/",
+        "source_id": "casale-ch-urea"
+      },
+      "value": "critical items in urea plants / high-pressure strippers"
+    }
+  ],
+  "url": "https://www.casale.ch/technologies/urea/",
+  "sources": [
+    {
+      "url": "https://www.casale.ch/technologies/urea/",
+      "source_id": "casale-ch-urea"
+    }
+  ],
+  "notes": "Proprietary metallurgy; composition not disclosed on read page.",
+  "last_reviewed": "2026-11-24"
+}

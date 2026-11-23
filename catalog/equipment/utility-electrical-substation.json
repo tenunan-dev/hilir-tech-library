@@ -1,0 +1,65 @@
+{
+  "id": "utility-electrical-substation",
+  "name": "Electrical substation and power distribution",
+  "equipment_type": "electrical",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Electrical substation and power distribution",
+  "specifications": [
+    {
+      "metric": "US transmission voltages",
+      "unit": "kV",
+      "basis": "In the United States power is usually transmitted over long distances at 135, 220, 550 or 750 kV; local substations step down",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": "135, 220, 550 or 750"
+    },
+    {
+      "metric": "On-site power generation in Pusri boundary",
+      "unit": "list",
+      "basis": "Pusri urea EPD cradle-to-gate boundary lists production of electricity by gas turbine and steam turbine generator",
+      "source": {
+        "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+        "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+      },
+      "value": "gas turbine generator; steam turbine generator"
+    },
+    {
+      "metric": "Micro-grid MOU",
+      "unit": "supplier",
+      "basis": "Allied Green Ammonia: ABB Australia MOU for scalable electrical micro-grid solution (September 2024)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+        "source_id": "research-csiro-au-allied-green-ammonia"
+      },
+      "value": "ABB Australia"
+    }
+  ],
+  "vendors": [
+    "abb-australia"
+  ],
+  "sources": [
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    },
+    {
+      "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+      "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+    },
+    {
+      "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+      "source_id": "research-csiro-au-allied-green-ammonia"
+    }
+  ],
+  "gaps": [],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

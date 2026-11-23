@@ -1,0 +1,38 @@
+{
+  "id": "nh3-pt-pupuk-kalimantan-timur-pupuk-kaltim-bontang",
+  "name": "PT Pupuk Kalimantan Timur (Pupuk Kaltim), Bontang",
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Described as largest integrated ammonia-urea plant in Southeast Asia; ISO 50001 first implemented at PKT-3 from April 2016; Ammonia Plant-2 revamp increased capacity to 1,841 t/d (search snippet). Company page transport error on fetch; figures from DuckDuckGo search snippets of the company page and Clean Energy Ministerial case study. page_read=false.",
+  "capacities": [
+    {
+      "metric": "production capacity",
+      "value": "000",
+      "unit": "t/y",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.pupukkaltim.com/en/p/tentang-perusahaan",
+        "source_id": "pupukkaltim-com-p-tentang-perusahaan"
+      }
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.pupukkaltim.com/en/p/tentang-perusahaan",
+      "source_id": "pupukkaltim-com-p-tentang-perusahaan"
+    }
+  ],
+  "notes": "Company page transport error on fetch; figures from DuckDuckGo search snippets of the company page and Clean Energy Ministerial case study. page_read=false.",
+  "last_reviewed": "2026-11-24"
+}

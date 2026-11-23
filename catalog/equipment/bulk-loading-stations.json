@@ -1,0 +1,90 @@
+{
+  "id": "bulk-loading-stations",
+  "name": "Truck/rail loaders, shiploaders and bulk loading stations",
+  "equipment_type": "truck-rail",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Truck/rail loaders, shiploaders and bulk loading stations | Jetty / loading and rail loading",
+  "specifications": [
+    {
+      "metric": "equipment class",
+      "unit": "n/a",
+      "basis": "Wikipedia Bulk material handling",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bulk_material_handling",
+        "source_id": "en-wikipedia-org-wiki-bulk-material-handling"
+      },
+      "value": "shiploaders, truck dumpers, railcar dumpers/wagon tipplers, mobile hopper loaders/unloaders listed as bulk handling systems"
+    },
+    {
+      "metric": "silo discharge to transport",
+      "unit": "n/a",
+      "basis": "Wikipedia Silo, Tower silo section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Silo",
+        "source_id": "en-wikipedia-org-wiki-silo"
+      },
+      "value": "silos can be unloaded into rail cars, trucks, or conveyors"
+    },
+    {
+      "metric": "Export terminal",
+      "unit": "facility",
+      "basis": "Petronas Chemicals Fertiliser Kedah uses a deep wharf terminal in Butterworth as primary maritime gateway; granular urea moved from Kuala Muda by dedicated railway connection",
+      "source": {
+        "url": "https://enipedia.org/wiki/Petronas_Fertiliser_Kedah",
+        "source_id": "enipedia-org-wiki-petronas-fertiliser-kedah"
+      },
+      "value": "deep wharf at Butterworth, Penang"
+    },
+    {
+      "metric": "Marine export facility (planned)",
+      "unit": "facility",
+      "basis": "Murchison Green Hydrogen full-scale scope includes marine export facility with pipelines and single-point mooring, plus desalination plant 5 GL/a",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/murchison-green-hydrogen/",
+        "source_id": "research-csiro-au-murchison-green-hydrogen"
+      },
+      "value": "CALM buoy single-point mooring about 4.6 km offshore"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Bulk_material_handling",
+      "source_id": "en-wikipedia-org-wiki-bulk-material-handling"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Silo",
+      "source_id": "en-wikipedia-org-wiki-silo"
+    },
+    {
+      "url": "https://enipedia.org/wiki/Petronas_Fertiliser_Kedah",
+      "source_id": "enipedia-org-wiki-petronas-fertiliser-kedah"
+    },
+    {
+      "url": "https://research.csiro.au/hyresource/murchison-green-hydrogen/",
+      "source_id": "research-csiro-au-murchison-green-hydrogen"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Loading rates (t/h), spout sizes, dust capture, OEM model data",
+      "why": "No loaders OEM page fetched",
+      "next_action": "Fetch a bulk loader OEM page (BEUMER, Siwertell, AUMUND) via verified URL."
+    },
+    {
+      "what": "Loading rates (t/h), spout sizes, dust capture, OEM model data",
+      "why": "No loaders OEM page fetched",
+      "next_action": "Fetch a bulk loader OEM page (BEUMER, Siwertell, AUMUND) via verified URL."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "ammonia-flare-vent-control",
+  "name": "Flare, relief, vent gas recovery and fugitive emission control",
+  "equipment_type": "flare",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Flare, relief, vent gas recovery and fugitive emission control | Flare and relief systems (ammonia and urea relief, liquid seal drums)",
+  "specifications": [
+    {
+      "metric": "Flare sonic tip upstream pressure threshold",
+      "unit": "bar",
+      "basis": "Sonic flare tip used when upstream pressure > 5 bar",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_flare",
+        "source_id": "en-wikipedia-org-wiki-gas-flare"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Personnel continuous-exposure thermal radiation limit",
+      "unit": "kW/m2 (500 Btu/hr.ft2)",
+      "basis": "Maximum recommended radiation for continuous exposure of personnel in appropriate clothing (API Std 521 Table 12 cited)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_flare",
+        "source_id": "en-wikipedia-org-wiki-gas-flare"
+      },
+      "value": 1.58
+    },
+    {
+      "metric": "Short-time flare radiation limits",
+      "unit": "kW/m2",
+      "basis": "Higher radiation permitted for reduced exposure times (API Std 521 cited)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_flare",
+        "source_id": "en-wikipedia-org-wiki-gas-flare"
+      },
+      "value": "4.73 kW/m2 (3-4 min); 6.31 kW/m2 (30 s)"
+    },
+    {
+      "metric": "Howden EMISSIONGUARD TR2 packing ring vent-gas reduction (cumulative company figure)",
+      "unit": "Nm3",
+      "basis": "Estimated cumulative reduction through packing-case vents, mainly petrochemical/natural-gas compression; equivalent to 60,500 t CO2",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden",
+        "source_id": "chartindustries-com-www-chartindustries-com-howden"
+      },
+      "value": "20,173,000 Nm3 (693,144,000 scf) of gas prevented from leaking"
+    },
+    {
+      "metric": "Number of flare types typically used in a urea plant",
+      "unit": "types",
+      "basis": "Urea plants typically employ four flare types for various relief streams: ammonia, discontinuous, continuous and main",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
+        "source_id": "info-zeeco-com-pdf-flaring-up-world-fertilizer-pdf"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Ammonia flare design exit velocity",
+      "unit": "qualitative",
+      "basis": "Ammonia has low flame propagation speed, low heating value and low flame temperature; exit velocity must be restricted for residence time and flame stability; tip diameter controls maximum design exit velocity",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
+        "source_id": "info-zeeco-com-pdf-flaring-up-world-fertilizer-pdf"
+      },
+      "value": "restricted / low"
+    },
+    {
+      "metric": "Continuous flare minimum exit velocity",
+      "unit": "design rule",
+      "basis": "Prevents flashback into flare stack and upstream equipment where oxygen is present",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
+        "source_id": "info-zeeco-com-pdf-flaring-up-world-fertilizer-pdf"
+      },
+      "value": "higher than flame velocity of waste stream"
+    },
+    {
+      "metric": "Liquid seal drum interaction with ammonia",
+      "unit": "qualitative",
+      "basis": "LSD commonly separates flare system from upstream header; often designed so all water is carried out during flaring and refilled afterwards",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
+        "source_id": "info-zeeco-com-pdf-flaring-up-world-fertilizer-pdf"
+      },
+      "value": "ammonia dissolves in water forming corrosive ammonia solution"
+    }
+  ],
+  "vendors": [
+    "howden-chart-industries",
+    "american-petroleum-institute",
+    "zeeco"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Gas_flare",
+      "source_id": "en-wikipedia-org-wiki-gas-flare"
+    },
+    {
+      "url": "https://www.chartindustries.com/Howden",
+      "source_id": "chartindustries-com-www-chartindustries-com-howden"
+    },
+    {
+      "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
+      "source_id": "info-zeeco-com-pdf-flaring-up-world-fertilizer-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Ammonia plant relief scenario list, flare header sizing and ammonia-specific vent recovery design",
+      "why": "General flare sources only; no ammonia-specific relief study page fetched.",
+      "next_action": "Fetch EFMA/AIChE ammonia safety guidance or an EPC flare-design page."
+    },
+    {
+      "what": "Ammonia plant relief scenario list, flare header sizing and ammonia-specific vent recovery design",
+      "why": "General flare sources only; no ammonia-specific relief study page fetched.",
+      "next_action": "Fetch EFMA/AIChE ammonia safety guidance or an EPC flare-design page."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "dynaflow-com-design-review-of-cooling-water-systems-for-ammonia-pl",
+  "name": "Dynaflow — Number of distinct cooling systems at one ammonia ",
+  "url": "https://dynaflow.com/consulting/projects/design-review-of-cooling-water-systems-for-ammonia-plant/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Dynaflow",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Australian ammonia plant commissioned mid-2000s with Sea Cooling Water (SCW) high-capacity system and secondary closed-loop Fresh Cooling Water (FCW), both with Evidence: https://dynaflow.com/consulting/projects/design-review-of-cooling-water-systems-for-ammonia-plant/"
+}

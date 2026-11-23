@@ -1,0 +1,36 @@
+{
+  "id": "drawing-process-flow-diagram-pfd-and-process-control-diagram-ammonia-production-pl",
+  "title": "Process flow diagram (PFD) and Process Control Diagram, ammonia production plant design project",
+  "diagram_type": "PFD",
+  "description": "UBC design report lists Figure 2 Input-Output Diagram, Figure 3 block figure of separation unit, section 5.2 Process flow diagram focused on Haber-Bosch with stream table, and Figure 4 Process Control Diagram.",
+  "publisher": "University of British Columbia student design report (author blog host)",
+  "url": "https://blogs.ubc.ca/rajdeepdev/files/2020/01/201_220-final-report.pdf",
+  "licence": "Not stated in the PDF text read",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PCH",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://blogs.ubc.ca/rajdeepdev/files/2020/01/201_220-final-report.pdf",
+      "source_id": "blogs-ubc-ca-01-201-220-final-report-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Student report, not a validated design; diagram not reproduced.",
+  "last_reviewed": "2026-11-24"
+}

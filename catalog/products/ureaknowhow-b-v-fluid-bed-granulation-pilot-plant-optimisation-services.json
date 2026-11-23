@@ -1,0 +1,31 @@
+{
+  "id": "ureaknowhow-b-v-fluid-bed-granulation-pilot-plant-optimisation-services",
+  "name": "Fluid Bed Granulation Pilot Plant / optimisation services",
+  "manufacturer": "ureaknowhow-b-v",
+  "product_type": "granulator",
+  "equipment": [
+    "urea-fluid-bed-granulator"
+  ],
+  "description": "Vendor product line read 2026-11-24. Qualitative.",
+  "specifications": [
+    {
+      "metric": "service scope",
+      "unit": "n/a",
+      "basis": "UreaKnowHow service list",
+      "source": {
+        "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",
+        "source_id": "ureaknowhow-com-fluid-bed-granulation-optimization"
+      },
+      "value": "training, desk studies, online Q&A, site visits, troubleshooting, revamp proposals, dynamic simulator"
+    }
+  ],
+  "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",
+  "sources": [
+    {
+      "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",
+      "source_id": "ureaknowhow-com-fluid-bed-granulation-optimization"
+    }
+  ],
+  "notes": "Qualitative.",
+  "last_reviewed": "2026-11-24"
+}

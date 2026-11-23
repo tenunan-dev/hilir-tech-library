@@ -1,0 +1,106 @@
+{
+  "id": "ammonia-feed-gas-treatment",
+  "name": "Feed gas treatment - hydrotreating / hydrodesulfurisation and ZnO guard beds",
+  "equipment_type": "feed",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Feed gas treatment - hydrotreating / hydrodesulfurisation and ZnO guard beds",
+  "specifications": [
+    {
+      "metric": "sulfur removal chemistry (H2S + ZnO -> ZnS + H2O)",
+      "unit": "qualitative",
+      "basis": "Natural-gas feed, upstream of reformer; sulfur deactivates subsequent catalysts",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Haber_process",
+        "source_id": "en-wikipedia-org-wiki-haber-process"
+      },
+      "value": "ZnO fixed bed"
+    },
+    {
+      "metric": "HTZ-3 / HTZ-31 ZnO absorbent duty",
+      "unit": "qualitative",
+      "basis": "Topsoe ammonia purification catalyst portfolio, high-density ZnO absorbent",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification",
+        "source_id": "topsoe-com-ammonia-ammonia-purification"
+      },
+      "value": "high sulfur concentrations"
+    },
+    {
+      "metric": "HTZ-5 / HTZ-51 ZnO absorbent duty",
+      "unit": "qualitative",
+      "basis": "Topsoe ammonia purification catalyst portfolio, high-purity large-surface-area ZnO",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification",
+        "source_id": "topsoe-com-ammonia-ammonia-purification"
+      },
+      "value": "low sulfur concentrations or low-temperature operation"
+    },
+    {
+      "metric": "TK-250 / TK-261 hydrotreating catalyst feed range",
+      "unit": "qualitative",
+      "basis": "Topsoe catalyst descriptions: TK-250 CoMo/alumina; TK-261 NiMo; hydrogenation of sulfur, chlorine and unsaturated compounds",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification",
+        "source_id": "topsoe-com-ammonia-ammonia-purification"
+      },
+      "value": "natural gas to naphtha"
+    },
+    {
+      "metric": "desulfurisation section in conventional vs SynCOR ammonia",
+      "unit": "qualitative",
+      "basis": "Topsoe SynCOR Ammonia comparison table",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
+        "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
+      },
+      "value": "standard in both concepts"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Haber_process",
+      "source_id": "en-wikipedia-org-wiki-haber-process"
+    },
+    {
+      "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification",
+      "source_id": "topsoe-com-ammonia-ammonia-purification"
+    },
+    {
+      "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
+      "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "ZnO sulfur capacity (wt%), operating temperature and space velocity for each absorbent grade",
+      "why": "Topsoe overview page lists grades but no numeric duty; product data sheets not fetched.",
+      "next_action": "Fetch individual catalyst data sheets, e.g. https://www.topsoe.com/our-resources/knowledge/our-products/catalysts/htz-31"
+    },
+    {
+      "what": "Feed preheat exchanger train duty/temperature details",
+      "why": "No dedicated fetched source; feed preheat only implied in general process descriptions.",
+      "next_action": "Find an authoritative ammonia plant heat-integration or EPC design page."
+    },
+    {
+      "what": "ZnO sulfur capacity (wt%), operating temperature and space velocity for each absorbent grade",
+      "why": "Topsoe overview page lists grades but no numeric duty; product data sheets not fetched.",
+      "next_action": "Fetch individual catalyst data sheets, e.g. https://www.topsoe.com/our-resources/knowledge/our-products/catalysts/htz-31"
+    },
+    {
+      "what": "Feed preheat exchanger train duty/temperature details",
+      "why": "No dedicated fetched source; feed preheat only implied in general process descriptions.",
+      "next_action": "Find an authoritative ammonia plant heat-integration or EPC design page."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

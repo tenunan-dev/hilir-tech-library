@@ -1,0 +1,34 @@
+{
+  "id": "drawing-urea-production-by-stamicarbon-2000plus-technology-process-flow-diagram",
+  "title": "Urea Production by Stamicarbon 2000plus Technology - Process Flow Diagram",
+  "diagram_type": "PFD",
+  "description": "Search result title states 'Urea Production by Stamicarbon 2000plus Technology Process Flow Diagram'. Direct URL fetch returned a gated HTML page, so the diagram could not be read or verified beyond the search snippet.",
+  "publisher": "UreaKnowHow.com (hosted file, originating from Stamicarbon)",
+  "url": "https://ureaknowhow.com/wp-content/uploads/attachments/process%20flow.pdf",
+  "licence": "Not verified (fetch gated)",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PCH",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://ureaknowhow.com/wp-content/uploads/attachments/process%20flow.pdf",
+      "source_id": "ureaknowhow-com-attachments-process-20flow-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Document URL verified reachable; caption/text extracted 2026-11-24. Search-verified pointer only.",
+  "last_reviewed": "2026-11-24"
+}

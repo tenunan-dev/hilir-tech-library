@@ -1,0 +1,41 @@
+{
+  "id": "casale-sa-split-flow-loop-improved-co2-stripping",
+  "name": "SPLIT FLOW LOOP (improved CO2 stripping)",
+  "manufacturer": "casale-sa",
+  "product_type": "co2-stripper",
+  "equipment": [
+    "urea-co2-stripper"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "CO2 conversion in reactor",
+      "unit": "percent (as high as)",
+      "basis": "Casale performance claim",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/",
+        "source_id": "casale-ch-urea"
+      },
+      "value": 62
+    },
+    {
+      "metric": "sections",
+      "unit": "n/a",
+      "basis": "Casale technology page",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/",
+        "source_id": "casale-ch-urea"
+      },
+      "value": "HP synthesis + LP purification/carbamate recovery; optional MP section for high capacity"
+    }
+  ],
+  "url": "https://www.casale.ch/technologies/urea/",
+  "sources": [
+    {
+      "url": "https://www.casale.ch/technologies/urea/",
+      "source_id": "casale-ch-urea"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

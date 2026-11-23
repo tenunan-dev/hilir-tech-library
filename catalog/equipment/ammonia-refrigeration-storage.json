@@ -1,0 +1,184 @@
+{
+  "id": "ammonia-refrigeration-storage",
+  "name": "Ammonia condensation/refrigeration, flash vessels, let-down and storage tanks",
+  "equipment_type": "ammonia",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Ammonia condensation/refrigeration, flash vessels, let-down and storage tanks | Refrigeration / cold condensation for ammonia synthesis loop | Tank farms / ammonia storage",
+  "specifications": [
+    {
+      "metric": "Ammonia normal boiling point",
+      "unit": "deg C at 1 atm",
+      "basis": "Ammonia properties infobox/text",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Ammonia",
+        "source_id": "en-wikipedia-org-wiki-ammonia"
+      },
+      "value": -33.34
+    },
+    {
+      "metric": "Ammonia critical point",
+      "unit": "deg C",
+      "basis": "Critical temperature; critical pressure 111.3 atm (11,280 kPa)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Ammonia",
+        "source_id": "en-wikipedia-org-wiki-ammonia"
+      },
+      "value": 132.4
+    },
+    {
+      "metric": "Pressurised ammonia storage vessel design pressure",
+      "unit": "psi (1.7 MPa)",
+      "basis": "A storage vessel capable of 250 psi is suitable to contain liquid anhydrous ammonia",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Ammonia",
+        "source_id": "en-wikipedia-org-wiki-ammonia"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Water content to avoid carbon-steel corrosion",
+      "unit": "wt% minimum in ammonia",
+      "basis": "Ammonia with at least 0.2 wt% water is not corrosive to carbon steel; such tanks can last >50 years",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Ammonia",
+        "source_id": "en-wikipedia-org-wiki-ammonia"
+      },
+      "value": 0.2
+    },
+    {
+      "metric": "Ammonia separation temperature from recycle gas",
+      "unit": "deg C",
+      "basis": "Resulting ammonia must be separated from residual H2/N2 at about -20 deg C",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Haber_process",
+        "source_id": "en-wikipedia-org-wiki-haber-process"
+      },
+      "value": -20
+    },
+    {
+      "metric": "Ammonia explosive limits in air",
+      "unit": "vol%",
+      "basis": "Ammonia hazards infobox",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Ammonia",
+        "source_id": "en-wikipedia-org-wiki-ammonia"
+      },
+      "low": 15.0,
+      "high": 33.6
+    },
+    {
+      "metric": "Global ammonia shipped annually",
+      "unit": "Mt/year",
+      "basis": "Industrial ammonia transported by road, rail, sea and pipeline (CRS figure cited)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Ammonia_production",
+        "source_id": "en-wikipedia-org-wiki-ammonia-production"
+      },
+      "low": 18,
+      "high": 20
+    },
+    {
+      "metric": "Ammonia separation temperature",
+      "unit": "degC",
+      "basis": "Resulting ammonia must be separated from residual hydrogen and nitrogen at -20 C",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Haber_process",
+        "source_id": "en-wikipedia-org-wiki-haber-process"
+      },
+      "value": -20
+    },
+    {
+      "metric": "Refrigeration working fluids",
+      "unit": "list",
+      "basis": "In some situations ammonia, nitrogen and CO2 are used as refrigeration working fluids",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": "ammonia, nitrogen and carbon dioxide"
+    },
+    {
+      "metric": "Refrigeration utility selection (design study)",
+      "unit": "qualitative",
+      "basis": "UBC ammonia plant design report section 4.2 Selecting a utility",
+      "source": {
+        "url": "https://blogs.ubc.ca/rajdeepdev/files/2020/01/201_220-final-report.pdf",
+        "source_id": "blogs-ubc-ca-01-201-220-final-report-pdf"
+      },
+      "value": "utility matching inlet/outlet temperature range for -43.3 C"
+    },
+    {
+      "metric": "Cryogenic ammonia tank capacity (planned project)",
+      "unit": "tonnes each",
+      "basis": "SPG Steiner BEDP for two 40,000-tonne cryogenic ammonia tanks at Allied Green Ammonia, Gove (July 2024)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+        "source_id": "research-csiro-au-allied-green-ammonia"
+      },
+      "value": 40000
+    },
+    {
+      "metric": "Detection applications in tank farms",
+      "unit": "list",
+      "basis": "MSA technical guide lists tank farms/transfer skids for ultrasonic, catalytic bead and electrochemical detectors",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+        "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+      },
+      "value": "compressor rooms, pump bays, valves, dike walls, access points"
+    }
+  ],
+  "vendors": [
+    "spg-steiner-gmbh"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Ammonia",
+      "source_id": "en-wikipedia-org-wiki-ammonia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Haber_process",
+      "source_id": "en-wikipedia-org-wiki-haber-process"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ammonia_production",
+      "source_id": "en-wikipedia-org-wiki-ammonia-production"
+    },
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    },
+    {
+      "url": "https://blogs.ubc.ca/rajdeepdev/files/2020/01/201_220-final-report.pdf",
+      "source_id": "blogs-ubc-ca-01-201-220-final-report-pdf"
+    },
+    {
+      "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+      "source_id": "research-csiro-au-allied-green-ammonia"
+    },
+    {
+      "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+      "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named storage tank vendors, tank capacities, refrigeration package duty and flash/let-down vessel design",
+      "why": "No OEM storage/refrigeration page was successfully fetched.",
+      "next_action": "Fetch authoritative pages on ammonia storage tanks (e.g. API/EFMA guidance or a tank OEM)."
+    },
+    {
+      "what": "Named storage tank vendors, tank capacities, refrigeration package duty and flash/let-down vessel design",
+      "why": "No OEM storage/refrigeration page was successfully fetched.",
+      "next_action": "Fetch authoritative pages on ammonia storage tanks (e.g. API/EFMA guidance or a tank OEM)."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ureaknowhow-com-fluid-bed-granulation-optimization",
+  "name": "UreaKnowHow B.V.",
+  "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "UreaKnowHow",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Page read. Reported solved issues: on-stream time, lower wet recycle, sprayer issues, product moisture, crusher settings. Evidence: https://ureaknowhow.com/fluid-bed-granulation-optimization/"
+}

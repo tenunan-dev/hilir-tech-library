@@ -1,0 +1,68 @@
+{
+  "id": "urea-melt-handling",
+  "name": "Urea melt / melting and hot-urea-solution handling",
+  "equipment_type": "urea",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Urea melt / melting and hot-urea-solution handling",
+  "specifications": [
+    {
+      "metric": "melting point",
+      "unit": "degC",
+      "basis": "Urea physical property (CRC97 cited by Wikipedia)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Urea",
+        "source_id": "en-wikipedia-org-wiki-urea"
+      },
+      "value": 132.4
+    },
+    {
+      "metric": "molten urea decomposition onset",
+      "unit": "degC",
+      "basis": "molten urea decomposes into ammonium cyanate at about 152 C",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Urea",
+        "source_id": "en-wikipedia-org-wiki-urea"
+      },
+      "value": 152
+    },
+    {
+      "metric": "urea water solubility",
+      "unit": "g/L",
+      "basis": "solubility in water at 25 C (CRC97)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Urea",
+        "source_id": "en-wikipedia-org-wiki-urea"
+      },
+      "value": 1200
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Urea",
+      "source_id": "en-wikipedia-org-wiki-urea"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Melt tank capacity, material, pump specs, pipe tracing design",
+      "why": "No page read provides these",
+      "next_action": "Seek a urea melt handling vendor datasheet."
+    },
+    {
+      "what": "Melt tank capacity, material, pump specs, pipe tracing design",
+      "why": "No page read provides these",
+      "next_action": "Seek a urea melt handling vendor datasheet."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "woodside-com-growth-projects-beaumont-new-ammonia",
+  "name": "Woodside Energy — Beaumont New Ammonia (formerly OCI Clean Ammonia), Beau",
+  "url": "https://www.woodside.com/what-we-do/growth-projects/beaumont-new-ammonia",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Woodside Energy",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Expected to be one of first ammonia plants paired with autothermal reforming and 95% CO2 capture; lifecycle intensity ~0.8 tCO2/tNH3 vs 2.3 tCO2/tNH3 unabated ( Evidence: https://www.woodside.com/what-we-do/growth-projects/beaumont-new-ammonia"
+}

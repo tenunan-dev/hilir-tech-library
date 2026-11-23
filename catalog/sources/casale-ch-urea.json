@@ -1,0 +1,29 @@
+{
+  "id": "casale-ch-urea",
+  "name": "Casale — CO2 conversion in reactor (Split Flow Loop)",
+  "url": "https://www.casale.ch/technologies/urea/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Casale",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Casale SPLIT FLOW LOOP performance claim: 'CO2 conversion in the reactor as high as 62%' Evidence: https://www.casale.ch/technologies/urea/"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "nh3-orica-hunter-valley-hydrogen-hub-kooragang-island-newcastle",
+  "name": "Orica Hunter Valley Hydrogen Hub / Kooragang Island, Newcastle",
+  "country": "Australia",
+  "location": "Australia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Hydrogen added to an existing ammonia production facility. AEA LEAD PDF read.",
+  "capacities": [],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://ammoniaenergy.org/wp-content/uploads/2026/08/AEA-LEAD-Plants-Executive-Summary-August-2026.pdf",
+      "source_id": "ammoniaenergy-org-08-aea-lead-plants-executive-summary-august-2026"
+    }
+  ],
+  "notes": "AEA LEAD PDF read.",
+  "last_reviewed": "2026-11-24"
+}

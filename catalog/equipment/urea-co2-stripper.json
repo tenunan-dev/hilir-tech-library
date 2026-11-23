@@ -57,12 +57,44 @@
         "url": "https://patents.google.com/patent/US10919846B2/en",
         "note": "Patent US10919846B2, read 2026-11-17"
       }
+    },
+    {
+      "metric": "stripping process operating pressure",
+      "unit": "n/a",
+      "basis": "Wikipedia: stripping process developed early 1960s by Stamicarbon in the Netherlands, operates at or near full pressure of the reaction vessel",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": "at or near full reactor pressure"
+    },
+    {
+      "metric": "hydrolysis residence time",
+      "unit": "n/a",
+      "basis": "urea hydrolyses back to ammonium carbamate in hottest stages, especially the stripper, so residence times there are designed to be short",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": "short (designed)"
+    },
+    {
+      "metric": "HYPER-U benefit",
+      "unit": "n/a",
+      "basis": "Casale HYPER-U self-stripping process description",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/",
+        "source_id": "casale-ch-urea"
+      },
+      "value": "medium-high pressure (MHP) carbamate decomposition step reduces steam and cooling water demand"
     }
   ],
   "vendors": [
     "stamicarbon",
     "thyssenkrupp-uhde",
-    "toyo"
+    "toyo",
+    "casale-sa",
+    "yara"
   ],
   "technologies": [
     "pch-ammonia-urea"
@@ -75,10 +107,18 @@
     {
       "url": "https://patents.google.com/patent/US10919846B2/en",
       "note": "Patent US10919846B2 (stripping steam range), read 2026-11-17"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+      "source_id": "en-wikipedia-org-w-index-php"
+    },
+    {
+      "url": "https://www.casale.ch/technologies/urea/",
+      "source_id": "casale-ch-urea"
     }
   ],
-  "last_reviewed": "2026-11-17",
-  "notes": "Urea licensors use different stripping agents — CO2 stripping (Stamicarbon, Toyo ACES, Uhde), self-stripping (Casale) and NH3 stripping (Saipem) — so pressure, temperature and steam figures are not interchangeable across processes.",
+  "last_reviewed": "2026-11-24",
+  "notes": "Urea licensors use different stripping agents — CO2 stripping (Stamicarbon, Toyo ACES, Uhde), self-stripping (Casale) and NH3 stripping (Saipem) — so pressure, temperature and steam figures are not interchangeable across processes. Enriched 2026-11-24 with page-read ammonia/urea sweep sources. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
   "vendor_models": [
     {
       "vendor": "stamicarbon",
@@ -106,6 +146,18 @@
       ],
       "range": "operates at 146 kg/cm2g",
       "url": "https://ureaknowhow.com/wp-content/uploads/2021/01/2021-01-Baboo-Snamprogetti-Urea-Process.pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Stripper tube count/length/diameter, duty, stripping efficiency number, corrosion allowance",
+      "why": "Not disclosed on pages read; Casale brochure PDF not readable",
+      "next_action": "Read Casale HP stripper news detail pages and the HYPER-U brochure via PDF-capable fetch."
+    },
+    {
+      "what": "Stripper tube count/length/diameter, duty, stripping efficiency number, corrosion allowance",
+      "why": "Not disclosed on pages read; Casale brochure PDF not readable",
+      "next_action": "Read Casale HP stripper news detail pages and the HYPER-U brochure via PDF-capable fetch."
     }
   ]
 }

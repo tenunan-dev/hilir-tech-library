@@ -1,0 +1,36 @@
+{
+  "id": "drawing-block-flow-diagram-of-an-ammonia-synthesis-industrial-plant-ammoniasynthes",
+  "title": "Block flow diagram of an ammonia synthesis industrial plant (AmmoniaSynthesisDiagram.png)",
+  "diagram_type": "PFD",
+  "description": "Image description on the Commons file page: 'Block flow diagram of an ammonia synthesis industrial plant'; self-drawn in Microsoft Paint, ~June 2011; 309 x 233 px PNG.",
+  "publisher": "Wikimedia Commons / author Mbeychok (en.wikipedia)",
+  "url": "https://en.wikipedia.org/wiki/File:AmmoniaSynthesisDiagram.png",
+  "licence": "CC BY-SA 3.0 Unported and GFDL 1.2+ (dual licensed)",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PCH",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/File:AmmoniaSynthesisDiagram.png",
+      "source_id": "en-wikipedia-org-wiki-file-ammoniasynthesisdiagram-png"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. File page read; diagram itself not reproduced. Attribution: Mbeychok at English Wikipedia.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china",
+  "name": "Casale — N-LOOP ammonia synthesis loop",
+  "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Casale",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Jiangsu Debang Xinghua Chemical Technology Co., commissioned June 2024, no bottlenecks in synthesis loop. Evidence: https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
+}

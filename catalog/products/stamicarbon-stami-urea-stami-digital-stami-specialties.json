@@ -1,0 +1,31 @@
+{
+  "id": "stamicarbon-stami-urea-stami-digital-stami-specialties",
+  "name": "STAMI UREA / STAMI DIGITAL / STAMI SPECIALTIES",
+  "manufacturer": "stamicarbon",
+  "product_type": "process",
+  "equipment": [
+    "urea-control-safety-ventilation"
+  ],
+  "description": "Vendor product line read 2026-11-24. Own site blocked by CAPTCHA; profile page is the evidence source.",
+  "specifications": [
+    {
+      "metric": "installed base",
+      "unit": "n/a",
+      "basis": "Stamicarbon profile claim on UreaKnowHow",
+      "source": {
+        "url": "https://ureaknowhow.com/stamicarbon/",
+        "source_id": "ureaknowhow-com-stamicarbon"
+      },
+      "value": "technology used in half of the world's urea plants"
+    }
+  ],
+  "url": "https://ureaknowhow.com/stamicarbon/",
+  "sources": [
+    {
+      "url": "https://ureaknowhow.com/stamicarbon/",
+      "source_id": "ureaknowhow-com-stamicarbon"
+    }
+  ],
+  "notes": "Own site blocked by CAPTCHA; profile page is the evidence source.",
+  "last_reviewed": "2026-11-24"
+}

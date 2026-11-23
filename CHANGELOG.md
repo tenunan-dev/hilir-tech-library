@@ -8,6 +8,39 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.24.5] — 2026-11-24 — Ammonia/urea supporting systems and bulk handling
+
+Owner-directed expansion of the ammonia/urea categories, explicitly including conveyor belts and bulk
+material handling, with strict page-read evidence.
+
+### Added
+- **43 new equipment records**: ammonia front-end and purification (feed gas treatment, ATR, shift,
+  CO2 removal, methanation, refrigeration/storage, waste heat, sour water, flare, controls); urea
+  process support (CO2 compression, feed pumps, decomposers, rectification, evaporation, melt handling,
+  dust, wastewater, solution handling); **13 bulk-handling classes** (belt/chevron conveyors, bucket
+  elevators, screw/drag/vibratory conveyors, screens and crushers, weigh belts, bagging/FIBC filling,
+  palletisers, loading stations, silos, warehouses); and **11 utility classes** (cooling water, demin
+  water, steam, instrument air, nitrogen, fire protection, gas detection, electrical, workshops, labs).
+- **63 sources, 28 vendors, 30 product lines, 18 named plants, 14 PFD/P&ID/schematic pointers**. The 7
+  existing core equipment records and the `pch-ammonia-urea` card were enriched.
+- Evidence includes Topsoe process/catalyst pages, Casale ammonia and urea processes, Toyo spout-fluid-bed
+  granulation, the IEA Ammonia Technology Roadmap, an Elsevier utilities chapter, Wikipedia bulk-handling
+  articles, US5096599A (urea effluent hydrolysis) and named plants including Fakfak and Beaumont.
+
+### Verification
+`tools/build.py` 894 sources / 392 cards / 644 vendors / 143 equipment / 349 projects / 123 products /
+64 drawings; `pytest -q tests` **1,705 passed, 13 skipped**; Neon reloaded with 5,325 nodes, 16,968 edges
+and 15,801 vectors.
+
+### Gaps
+No OEM catalogue data for cleated belts, UFT granulation specifics, CO2 compressor/ammonia pump
+datasheets, or utility flow rates; no USD costs with a stated dollar year. All recorded as gaps.
+
+### Code note
+`library.build` now prefers a `catalog.jsonl` under a supplied corpus root, so scratch/test indexes are
+isolated from live-catalog growth; the rare-concept search test was given an isolated fixture.
+
+
 ## [2026.11.24.4] — 2026-11-24 — Gas-engine power for data centres
 
 Owner-directed expansion of the power/data-centre categories with strict, page-read evidence.

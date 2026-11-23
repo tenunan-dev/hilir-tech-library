@@ -1,0 +1,24 @@
+{
+  "id": "air-liquide-japan",
+  "name": "Air Liquide Japan",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Air Liquide Japan is named as a supplier on a page read during the ammonia/urea sweep.",
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+      "source_id": "research-csiro-au-allied-green-ammonia"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 ammonia/urea sweep."
+}

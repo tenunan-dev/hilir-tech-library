@@ -1,0 +1,29 @@
+{
+  "id": "s3-amazonaws-com-pdf-36-petronas-pgsb-pasb-malaysia-ots-pdf",
+  "name": "S3.Amazonaws.Com — PASB Kerteh OTS control systems",
+  "url": "https://s3.amazonaws.com/aramis-craft-medias/case_studies/pdf/36-Petronas-PGSB-PASB-Malaysia-OTS.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "S3.Amazonaws.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. Aramis provided PASB OTS on INDISS platform with Yokogawa CS3000 emulation; gas plants used Honeywell PKS Experion and Foxboro I/A Evidence: https://s3.amazonaws.com/aramis-craft-medias/case_studies/pdf/36-Petronas-PGSB-PASB-Malaysia-OTS.pdf"
+}

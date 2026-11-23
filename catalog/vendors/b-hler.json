@@ -1,0 +1,24 @@
+{
+  "id": "b-hler",
+  "name": "Bühler",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Bühler is named as a supplier on a page read during the ammonia/urea sweep.",
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Bucket_elevator",
+      "source_id": "en-wikipedia-org-wiki-bucket-elevator"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 ammonia/urea sweep."
+}

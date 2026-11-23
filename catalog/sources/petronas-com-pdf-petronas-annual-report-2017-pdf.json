@@ -1,0 +1,29 @@
+{
+  "id": "petronas-com-pdf-petronas-annual-report-2017-pdf",
+  "name": "Petronas.Com — PC Fertiliser Sabah (Sabah ammonia/urea complex)",
+  "url": "https://www.petronas.com/pcg/sites/default/files/uploads/content/pdf/petronas-annual-report-2017.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Petronas.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. PETRONAS 2017 annual report stated this added 1.9 mtpa and made PCG the second largest granular urea producer in Southeast Asia. Evidence: https://www.petronas.com/pcg/sites/default/files/uploads/content/pdf/petronas-annual-report-2017.pdf"
+}

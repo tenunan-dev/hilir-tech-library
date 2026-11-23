@@ -1,0 +1,38 @@
+{
+  "id": "nh3-ca-mau-fertilizer-plant-pvcfc",
+  "name": "Ca Mau Fertilizer Plant (PVCFC)",
+  "country": "Vietnam",
+  "location": "Vietnam",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Construction started 2008 at U Minh, Ca Mau; natural gas feedstock from PM3-CAA field; TEC granulation technology; ~900 million USD initial investment stated in UreaKnowHow paper abstract. Search-verified snippets only; direct PDF fetch returned a gated HTML page and PVCFC news page returned 403. page_read=false.",
+  "capacities": [
+    {
+      "metric": "production capacity",
+      "value": "000",
+      "unit": "t/y",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://ureaknowhow.com/wp-content/uploads/2023/03/2023-03-Ca-Mau-Fertilizer-Plant-in-Vietnam-TEC-Granulation-10-Years-Operation-and-Performance-REV.pdf",
+        "source_id": "ureaknowhow-com-03-2023-03-ca-mau-fertilizer-plant-in-vietnam-tec"
+      }
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://ureaknowhow.com/wp-content/uploads/2023/03/2023-03-Ca-Mau-Fertilizer-Plant-in-Vietnam-TEC-Granulation-10-Years-Operation-and-Performance-REV.pdf",
+      "source_id": "ureaknowhow-com-03-2023-03-ca-mau-fertilizer-plant-in-vietnam-tec"
+    }
+  ],
+  "notes": "Search-verified snippets only; direct PDF fetch returned a gated HTML page and PVCFC news page returned 403. page_read=false.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "sensotech-gmbh",
+  "name": "SensoTech GmbH",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "SensoTech GmbH is named as a supplier on a page read during the ammonia/urea sweep.",
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sensotech.com/en/urea-production",
+      "source_id": "sensotech-com-en-urea-production"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 ammonia/urea sweep."
+}

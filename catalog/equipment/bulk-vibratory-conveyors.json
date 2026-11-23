@@ -1,0 +1,48 @@
+{
+  "id": "bulk-vibratory-conveyors",
+  "name": "Vibratory conveyors",
+  "equipment_type": "vibratory",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Vibratory conveyors",
+  "specifications": [
+    {
+      "metric": "vibrator-assisted discharge",
+      "unit": "n/a",
+      "basis": "Wikipedia Silo, Flexible silo storage system section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Silo",
+        "source_id": "en-wikipedia-org-wiki-silo"
+      },
+      "value": "hard-to-handle products discharged from 45-degree fabric silo cone, minimally assisted by a small vibrator fitted to the discharge transition"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Silo",
+      "source_id": "en-wikipedia-org-wiki-silo"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Vibratory conveyor capacity, trough width, frequency/amplitude, OEM models",
+      "why": "No page read provides these",
+      "next_action": "Fetch a vibratory conveyor OEM engineering page."
+    },
+    {
+      "what": "Vibratory conveyor capacity, trough width, frequency/amplitude, OEM models",
+      "why": "No page read provides these",
+      "next_action": "Fetch a vibratory conveyor OEM engineering page."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

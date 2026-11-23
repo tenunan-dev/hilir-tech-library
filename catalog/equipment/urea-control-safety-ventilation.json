@@ -1,0 +1,136 @@
+{
+  "id": "urea-control-safety-ventilation",
+  "name": "Process control, analysers, safety and ventilation",
+  "equipment_type": "process",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Process control, analysers, safety and ventilation",
+  "specifications": [
+    {
+      "metric": "LiquiSonic measuring range - concentration",
+      "unit": "m%",
+      "basis": "SensoTech typical measuring range",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "low": 0,
+      "high": 100
+    },
+    {
+      "metric": "LiquiSonic measuring range - temperature",
+      "unit": "degC",
+      "basis": "SensoTech typical measuring range",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "low": -10,
+      "high": 140
+    },
+    {
+      "metric": "controller capacity",
+      "unit": "sensors per LiquiSonic Controller 30",
+      "basis": "SensoTech: Controller 30 can be connected with up to 4 sensors",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "value": 4
+    },
+    {
+      "metric": "analyser vs lab time saving",
+      "unit": "hour per day",
+      "basis": "SensoTech stated customer benefit: time required 1 h per day for laboratory measurements reduced by inline analysis",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "value": 1
+    },
+    {
+      "metric": "sensor line size",
+      "unit": "nominal pipeline diameter",
+      "basis": "SensoTech: immersion sensors installed at outlet of decomposer, typically DN80 pipelines",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "value": "DN80"
+    },
+    {
+      "metric": "conveyor safety devices",
+      "unit": "n/a",
+      "basis": "Wikipedia Conveyor belt safety system",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "value": "trip cords, belt sway switches, speed switches, belt rip switches, emergency stops; OSHA 1926.555"
+    },
+    {
+      "metric": "silo confined-space ventilation",
+      "unit": "n/a",
+      "basis": "Wikipedia Silo safety - unloading process",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Silo",
+        "source_id": "en-wikipedia-org-wiki-silo"
+      },
+      "value": "dedicated electric fan or silo blower to blow fresh air before entry; methane can displace oxygen"
+    },
+    {
+      "metric": "ammonia leak incident reporting",
+      "unit": "n/a",
+      "basis": "UreaKnowHow home page news headlines on ammonia leaks at nitrogen fertilizer plants",
+      "source": {
+        "url": "https://ureaknowhow.com/",
+        "source_id": "ureaknowhow-com-ureaknowhow-com"
+      },
+      "value": "13 Sept 2026: two workers dead, up to 114 injured; 14 Sept 2026: up to 14 injured"
+    }
+  ],
+  "vendors": [
+    "sensotech-gmbh",
+    "stamicarbon",
+    "leser",
+    "badotherm",
+    "ammo"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sensotech.com/en/urea-production",
+      "source_id": "sensotech-com-en-urea-production"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+      "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Silo",
+      "source_id": "en-wikipedia-org-wiki-silo"
+    },
+    {
+      "url": "https://ureaknowhow.com/",
+      "source_id": "ureaknowhow-com-ureaknowhow-com"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Safety instrumented system (SIS) design, gas detector models/setpoints, ventilation rates for urea bagging buildings, DCS vendor",
+      "why": "No page read provides these",
+      "next_action": "Fetch an HSE/OSHA guidance page with a working URL and a process-safety vendor page."
+    },
+    {
+      "what": "Safety instrumented system (SIS) design, gas detector models/setpoints, ventilation rates for urea bagging buildings, DCS vendor",
+      "why": "No page read provides these",
+      "next_action": "Fetch an HSE/OSHA guidance page with a working URL and a process-safety vendor page."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

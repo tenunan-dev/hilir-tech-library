@@ -1,0 +1,51 @@
+{
+  "id": "casale-n-eleva-smr-based-traditional-ammonia-process",
+  "name": "N-ELEVA (SMR-based traditional ammonia process)",
+  "manufacturer": "casale",
+  "product_type": "steam-reformer",
+  "equipment": [
+    "steam-reformer"
+  ],
+  "description": "Vendor product line read 2026-11-24. Technical brochure link on page; brochure itself not fetched.",
+  "specifications": [
+    {
+      "metric": "NOx",
+      "unit": "mg/Nm3 (standard scheme; lower possible with proper burner)",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 110
+    },
+    {
+      "metric": "Energy consumption, grey configuration",
+      "unit": "Gcal/MT (basis as stated on page)",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "high": 6.5
+    },
+    {
+      "metric": "Energy consumption, blue configuration",
+      "unit": "Gcal/MT",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 7.9
+    }
+  ],
+  "url": "https://casale.ch/technologies/ammonia/",
+  "sources": [
+    {
+      "url": "https://casale.ch/technologies/ammonia/",
+      "source_id": "casale-ch-ammonia"
+    }
+  ],
+  "notes": "Technical brochure link on page; brochure itself not fetched.",
+  "last_reviewed": "2026-11-24"
+}

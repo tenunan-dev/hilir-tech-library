@@ -1,0 +1,151 @@
+{
+  "id": "bulk-belt-conveyors",
+  "name": "Belt conveyors",
+  "equipment_type": "belt",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Belt conveyors (incl. chevron/cleated and elevator belts)",
+  "specifications": [
+    {
+      "metric": "pipe conveyor maximum incline",
+      "unit": "degrees",
+      "basis": "Wikipedia Conveyor belt: pipe conveyor for material paths requiring sharper bends and inclines up to 35 degrees",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "value": 35
+    },
+    {
+      "metric": "sandwich belt maximum incline",
+      "unit": "degrees",
+      "basis": "Wikipedia Conveyor belt: sandwich belt design enables travel along high inclines up to 90-degree angles",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "value": 90
+    },
+    {
+      "metric": "highest steel-cord belt strength class",
+      "unit": "N/mm",
+      "basis": "Wikipedia: highest strength class conveyor belt installed, steel cord, at Chuquicamata mine, Chile",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "aramid belt strength range",
+      "unit": "N/mm",
+      "basis": "Wikipedia: aramid used in range 630-3500 N/mm; advantages energy savings, enhanced lifetimes, improved productivity",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "low": 630,
+      "high": 3500
+    },
+    {
+      "metric": "aramid belt example",
+      "unit": "n/a",
+      "basis": "Wikipedia: underground belt at Baodian Coal Mine, Yanzhou Coal Mining Company, China",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "value": "2250 N/mm, 3400 m long, >15% energy savings"
+    },
+    {
+      "metric": "longest single-span conveyor",
+      "unit": "km",
+      "basis": "Wikipedia: Boddington bauxite mine Western Australia, cable belt conveyor feeding a 20 km conveyor (world's longest single flight)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "value": 31
+    },
+    {
+      "metric": "impumelelo conveyor capacity",
+      "unit": "t/h",
+      "basis": "Wikipedia: 26.8 km trough belt near Secunda, South Africa, transporting coal to a refinery",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "value": 2400
+    },
+    {
+      "metric": "India-Bangladesh cross-border conveyor",
+      "unit": "n/a",
+      "basis": "Wikipedia: limestone/shale conveyor from Meghalaya, India to cement factory at Chhatak, Bangladesh; engineered by AUMUND France and Larsen & Toubro; drives by ABB",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "value": "17 km, 960 t/h, 1.8 MW"
+    },
+    {
+      "metric": "belt scale / weigher",
+      "unit": "n/a",
+      "basis": "Wikipedia Conveyor belt applications",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "value": "material flowing over belt may be weighed in transit using a beltweigher"
+    },
+    {
+      "metric": "belt components",
+      "unit": "n/a",
+      "basis": "Wikipedia Conveyor belt structure/applications",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "value": "drive pulley, idler pulley, reducer gearboxes, motors, couplings, scrapers, chutes, skirts, take-up assembly, safety switches"
+    },
+    {
+      "metric": "conveyor safety devices",
+      "unit": "n/a",
+      "basis": "Wikipedia Conveyor belt safety system section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "value": "trip cords, belt sway switches, speed switches, belt rip switches, emergency stops; OSHA 1926.555"
+    }
+  ],
+  "vendors": [
+    "sandvik",
+    "intralox",
+    "aumund-france-larsen-toubro-abb"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+      "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Urea-specific belt conveyor capacity (t/h), belt width, speed, chevron/cleated belt profile dimensions and OEM model numbers",
+      "why": "All targeted conveyor OEM URLs failed (404/captcha/transport) and WebSearch returned no results",
+      "next_action": "Retry with verified OEM URLs (Continental, Fenner Dunlop, Goodyear, BEUMER, Metso, FLSmidth) obtained from a working search integration."
+    },
+    {
+      "what": "Urea-specific belt conveyor capacity (t/h), belt width, speed, chevron/cleated belt profile dimensions and OEM model numbers",
+      "why": "All targeted conveyor OEM URLs failed (404/captcha/transport) and WebSearch returned no results",
+      "next_action": "Retry with verified OEM URLs (Continental, Fenner Dunlop, Goodyear, BEUMER, Metso, FLSmidth) obtained from a working search integration."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

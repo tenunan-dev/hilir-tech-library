@@ -57,13 +57,135 @@
         "url": "https://ureaknowhow.com/wp-content/uploads/2015/05/2015-05-Su-Analysis-of-particle-growth-in-TEC-fluid-bed-granulator.pdf",
         "note": "Su, Analysis of particle growth in a TEC fluid-bed granulator, 2015, read 2026-11-17"
       }
+    },
+    {
+      "metric": "product total nitrogen",
+      "unit": "wt%",
+      "basis": "Toyo typical standard product quality, design-condition dependent",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 46.3
+    },
+    {
+      "metric": "product biuret",
+      "unit": "wt%",
+      "basis": "Toyo typical product quality",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 0.8
+    },
+    {
+      "metric": "product moisture",
+      "unit": "wt%",
+      "basis": "Toyo typical product quality",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 0.2
+    },
+    {
+      "metric": "product formaldehyde",
+      "unit": "wt%",
+      "basis": "Toyo typical product quality",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 0.45
+    },
+    {
+      "metric": "product size 2-4 mm",
+      "unit": "wt%",
+      "basis": "Toyo typical product quality",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 95
+    },
+    {
+      "metric": "granule hardness",
+      "unit": "kg/granule for 3 mm",
+      "basis": "Toyo typical product quality",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 3.5
+    },
+    {
+      "metric": "steam consumption",
+      "unit": "MT/MT product",
+      "basis": "Toyo consumption per unit of service, typical standard depending on atmospheric conditions, utility conditions and feed urea solution concentration",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 0.01
+    },
+    {
+      "metric": "power consumption (fluidising product cooler)",
+      "unit": "kWh/MT product",
+      "basis": "Toyo typical standard in case of fluidizing product cooler",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 24
+    },
+    {
+      "metric": "power consumption (bulk flow cooler with cooling water)",
+      "unit": "kW/MT (as printed)",
+      "basis": "Toyo note: 'In case of bulk flow cooler by cooling water, power consumption becomes 19kW/MT'",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 19
+    },
+    {
+      "metric": "cooling water",
+      "unit": "n/a",
+      "basis": "Toyo consumption per unit of service for the standard granulation configuration",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": "Nil"
+    },
+    {
+      "metric": "urea dust emission",
+      "unit": "mg/Nm3-Air",
+      "basis": "Toyo low-pressure-drop dust scrubber: air containing urea dust washed with circulating water to reduce urea dust to less than 30 mg/Nm3-Air",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "high": 30
+    },
+    {
+      "metric": "Casale GREEN GRANULATION acquisition",
+      "unit": "year",
+      "basis": "Casale: technology developed by GREEN GRANULATION Ltd, fully acquired by Casale in 2022",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/",
+        "source_id": "casale-ch-urea"
+      },
+      "value": 2022
     }
   ],
   "vendors": [
     "thyssenkrupp-uhde",
     "stamicarbon",
     "toyo",
-    "casale"
+    "casale",
+    "casale",
+    "ureaknowhow-b-v"
   ],
   "technologies": [
     "pch-ammonia-urea"
@@ -76,9 +198,17 @@
     {
       "url": "https://ureaknowhow.com/wp-content/uploads/2015/05/2015-05-Su-Analysis-of-particle-growth-in-TEC-fluid-bed-granulator.pdf",
       "note": "Su, Analysis of particle growth in a TEC fluid-bed granulator, 2015 (recycle ratio and bed temperature), read 2026-11-17"
+    },
+    {
+      "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+      "source_id": "toyo-eng-com-urea-granulation"
+    },
+    {
+      "url": "https://www.casale.ch/technologies/urea/",
+      "source_id": "casale-ch-urea"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-24",
   "vendor_models": [
     {
       "vendor": "thyssenkrupp-uhde",
@@ -116,5 +246,28 @@
       "range": "feed concentration can be as low as 96-97%",
       "url": "https://casale.ch/wp-content/uploads/2025/11/Casale_UREA_GREEN-GRANULATION.pdf"
     }
-  ]
+  ],
+  "gaps": [
+    {
+      "what": "UFT (Uhde fluidised bed) granulation specifics - capacity range, fluidisation velocity, product size, official page",
+      "why": "thyssenkrupp uhde URL returned 404; no verified page read",
+      "next_action": "Locate and fetch a current thyssenkrupp uhde fertilizer/urea UFT page via a working URL."
+    },
+    {
+      "what": "Granulator capacity range, bed area, spray nozzle count, seed recycle ratio",
+      "why": "Not disclosed on pages read",
+      "next_action": "Read the Casale GREEN GRANULATION brochure PDF with a PDF-capable tool."
+    },
+    {
+      "what": "UFT (Uhde fluidised bed) granulation specifics - capacity range, fluidisation velocity, product size, official page",
+      "why": "thyssenkrupp uhde URL returned 404; no verified page read",
+      "next_action": "Locate and fetch a current thyssenkrupp uhde fertilizer/urea UFT page via a working URL."
+    },
+    {
+      "what": "Granulator capacity range, bed area, spray nozzle count, seed recycle ratio",
+      "why": "Not disclosed on pages read",
+      "next_action": "Read the Casale GREEN GRANULATION brochure PDF with a PDF-capable tool."
+    }
+  ],
+  "notes": "Enriched 2026-11-24 with page-read ammonia/urea sweep sources. Enriched 2026-11-24 with page-read ammonia/urea sweep sources."
 }

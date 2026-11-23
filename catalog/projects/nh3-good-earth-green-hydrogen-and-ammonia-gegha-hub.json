@@ -1,0 +1,39 @@
+{
+  "id": "nh3-good-earth-green-hydrogen-and-ammonia-gegha-hub",
+  "name": "Good Earth Green Hydrogen and Ammonia (GEGHA) hub",
+  "country": "Australia",
+  "location": "Australia",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "KAPSOM completed equipment shipments including ammonia synthesis skid in late September 2026 (search-verified snippet only). Capacity and status from AEA PDF read; KAPSOM detail page_read=false.",
+  "capacities": [
+    {
+      "metric": "production capacity",
+      "value": "500",
+      "unit": "t/y",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://ammoniaenergy.org/wp-content/uploads/2026/08/AEA-LEAD-Plants-Executive-Summary-August-2026.pdf",
+        "source_id": "ammoniaenergy-org-08-aea-lead-plants-executive-summary-august-2026"
+      }
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-green-blue-ammonia"
+  ],
+  "sources": [
+    {
+      "url": "https://ammoniaenergy.org/wp-content/uploads/2026/08/AEA-LEAD-Plants-Executive-Summary-August-2026.pdf",
+      "source_id": "ammoniaenergy-org-08-aea-lead-plants-executive-summary-august-2026"
+    }
+  ],
+  "notes": "Capacity and status from AEA PDF read; KAPSOM detail page_read=false.",
+  "last_reviewed": "2026-11-24"
+}

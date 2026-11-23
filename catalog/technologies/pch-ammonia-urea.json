@@ -67,7 +67,20 @@
     "urea reactor",
     "CO2 stripper",
     "carbamate condenser",
-    "granulator"
+    "granulator",
+    "syngas compressor",
+    "CO2 removal (MDEA)",
+    "methanation catalysts",
+    "ammonia refrigeration and storage",
+    "waste heat boiler",
+    "flare and vent control",
+    "urea melt and evaporation",
+    "belt conveyors and bucket elevators",
+    "bagging and palletising",
+    "silos and warehouses",
+    "cooling towers and demin water",
+    "instrument air and nitrogen",
+    "ammonia detection and deluge"
   ],
   "suppliers": [
     {
@@ -654,9 +667,14 @@
     {
       "url": "https://fertilizercanada.ca/economic-impact-report-2020/global-use-and-export",
       "note": "Fertilizer Canada economic impact report, 2020"
+    },
+    {
+      "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+      "source_id": "toyo-eng-com-urea-granulation",
+      "note": "Read 2026-11-24 in the ammonia/urea sweep"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-24",
   "gaps": [
     {
       "field": "costs",
@@ -682,5 +700,5 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     }
   ],
-  "notes": "Process provenance: the urea train follows the Uhde brochure - carbamate condensation and urea reaction, CO2 stripping, low-pressure recirculation, evaporation, then prilling or fluid-bed granulation, with off-gas scrubbing and desorption/hydrolysis of process condensate. The ammonia synthesis loop itself is not described; the NH3/CO2 tie-in appears only in the block flow."
+  "notes": "Process provenance: the urea train follows the Uhde brochure - carbamate condensation and urea reaction, CO2 stripping, low-pressure recirculation, evaporation, then prilling or fluid-bed granulation, with off-gas scrubbing and desorption/hydrolysis of process condensate. The ammonia synthesis loop itself is not described; the NH3/CO2 tie-in appears only in the block flow. Supporting systems, bulk handling, utilities, products, drawings and projects added 2026-11-24. Supporting systems, bulk handling, utilities, products, drawings and projects added 2026-11-24."
 }

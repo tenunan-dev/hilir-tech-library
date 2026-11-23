@@ -1,0 +1,123 @@
+{
+  "id": "ammonia-waste-heat-boiler",
+  "name": "Waste heat boilers, steam generation, economisers and superheaters",
+  "equipment_type": "waste",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Waste heat boilers, steam generation, economisers and superheaters | Boilers and steam system (HP/MP/LP, waste-heat and package boilers)",
+  "specifications": [
+    {
+      "metric": "Ammonia-loop waste heat boiler design feature",
+      "unit": "qualitative",
+      "basis": "Topsoe waste heat boiler (ammonia loop) equipment description",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
+        "source_id": "topsoe-com-ammonia-synthesis"
+      },
+      "value": "patented bayonet tube design keeps all low-alloy metal parts out of temperature zones where nitriding is a concern"
+    },
+    {
+      "metric": "Historical energy intensity reduction",
+      "unit": "GJ per tonne ammonia",
+      "basis": "Energy consumption reduced from 100 GJ/t ammonia in 1920 to 27 GJ in 2019 (Ramskov 2019 cited)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+        "source_id": "en-wikipedia-org-wiki-steam-reforming"
+      },
+      "low": 27,
+      "high": 100
+    },
+    {
+      "metric": "HP steam pressure",
+      "unit": "bar",
+      "basis": "Typical site HP steam about 40 bar, condensing temperature 250 C",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": 40
+    },
+    {
+      "metric": "MP steam pressure",
+      "unit": "bar",
+      "basis": "Typical MP main about 20 bar, condensing temperature 212 C",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": 20
+    },
+    {
+      "metric": "LP steam pressure",
+      "unit": "bar",
+      "basis": "Typical LP main about 3 bar, condensing at 134 C",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Cogeneration overall thermal efficiency",
+      "unit": "%",
+      "basis": "Overall thermal efficiency of gas-turbine cogeneration with HRSG can be in the range 70-80%",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "low": 70,
+      "high": 80
+    },
+    {
+      "metric": "Boiler types in Pusri cradle-to-gate boundary",
+      "unit": "list",
+      "basis": "PT Pupuk Sriwidjaja Palembang urea EPD utilities",
+      "source": {
+        "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+        "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+      },
+      "value": "package boiler; waste heat boiler; coal boiler"
+    }
+  ],
+  "vendors": [
+    "topsoe",
+    "chart-industries-howden"
+  ],
+  "sources": [
+    {
+      "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
+      "source_id": "topsoe-com-ammonia-synthesis"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+      "source_id": "en-wikipedia-org-wiki-steam-reforming"
+    },
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    },
+    {
+      "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+      "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Steam pressure levels, duty (t/h), tube material and economiser/superheater specifications",
+      "why": "No fetched page gives these figures.",
+      "next_action": "Fetch a waste-heat boiler OEM page or ammonia plant steam-balance reference."
+    },
+    {
+      "what": "Steam pressure levels, duty (t/h), tube material and economiser/superheater specifications",
+      "why": "No fetched page gives these figures.",
+      "next_action": "Fetch a waste-heat boiler OEM page or ammonia plant steam-balance reference."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

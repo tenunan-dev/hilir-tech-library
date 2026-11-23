@@ -1,0 +1,28 @@
+{
+  "id": "nh3-murchison-green-hydrogen-kalbarri-western-australia",
+  "name": "Murchison Green Hydrogen, Kalbarri, Western Australia",
+  "country": "Australia",
+  "location": "Australia",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Up to 445 wind turbines (3.1 GW), 2.6 GW solar PV, desalination 5 GL/a, marine export with pipelines and CALM buoy ~4.6 km offshore; AUD$814 million Hydrogen Headstart Round 1 funding for 1.5 GW first stage; AUD$1 billion Round 2 shortlisting May 2026. CSIRO HyResource page read, reviewed by proponent July 2026.",
+  "capacities": [],
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-green-blue-ammonia"
+  ],
+  "sources": [
+    {
+      "url": "https://research.csiro.au/hyresource/murchison-green-hydrogen/",
+      "source_id": "research-csiro-au-murchison-green-hydrogen"
+    }
+  ],
+  "notes": "CSIRO HyResource page read, reviewed by proponent July 2026.",
+  "last_reviewed": "2026-11-24"
+}

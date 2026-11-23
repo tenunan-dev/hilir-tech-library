@@ -1,0 +1,29 @@
+{
+  "id": "patents-google-com-us5096599a-en",
+  "name": "Google Patents — Effluent quantity from urea synthesis reaction",
+  "url": "https://patents.google.com/patent/US5096599A/en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Google Patents",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the ammonia/urea sweep. One mole of water formed per mole of urea from 2NH3 + CO2 Evidence: https://patents.google.com/patent/US5096599A/en"
+}

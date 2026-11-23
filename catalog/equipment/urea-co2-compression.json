@@ -1,0 +1,110 @@
+{
+  "id": "urea-co2-compression",
+  "name": "CO2 compression and purification",
+  "equipment_type": "co2",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "CO2 compression and purification (from ammonia plant)",
+  "specifications": [
+    {
+      "metric": "CO2 feed pressure for carbamate formation",
+      "unit": "atm",
+      "basis": "Thermodynamic condition for carbamate formation reaction (2 NH3 + CO2 -> NH4CO2NH2, delta H = -117 kJ/mol at 110 atm and 160 C), Urea industrial production",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": 110
+    },
+    {
+      "metric": "urea synthesis pressure range (as printed)",
+      "unit": "MPa",
+      "basis": "Wikipedia Urea, Industrial production: process conditions compromise for carbamate formation vs urea formation at ~190 C",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "low": 1.4,
+      "high": 1.75
+    },
+    {
+      "metric": "synthesis temperature",
+      "unit": "degC",
+      "basis": "temperature needed for the slow urea formation reaction, per Wikipedia Urea industrial production",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": 190
+    },
+    {
+      "metric": "CO2 conversion in reactor (Split Flow Loop)",
+      "unit": "percent",
+      "basis": "Casale SPLIT FLOW LOOP performance claim: 'CO2 conversion in the reactor as high as 62%'",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/",
+        "source_id": "casale-ch-urea"
+      },
+      "value": 62
+    },
+    {
+      "metric": "carbamate thermal conversion temperature/pressure",
+      "unit": "bar",
+      "basis": "SensoTech: thermal conversion of ammonium carbamate at 200 C and 130-200 bar",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "low": 130,
+      "high": 200
+    }
+  ],
+  "vendors": [
+    "stamicarbon",
+    "casale-sa",
+    "sensotech-gmbh"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+      "source_id": "en-wikipedia-org-w-index-php"
+    },
+    {
+      "url": "https://www.casale.ch/technologies/urea/",
+      "source_id": "casale-ch-urea"
+    },
+    {
+      "url": "https://www.sensotech.com/en/urea-production",
+      "source_id": "sensotech-com-en-urea-production"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "CO2 compressor OEM/model, polytropic efficiency, stage count, seal type, capacity range",
+      "why": "No fetchable OEM page found; all guessed compressor URLs returned 404 or no search results",
+      "next_action": "Fetch a named OEM CO2 compressor page (e.g. MAN Energy Solutions, Siemens Energy, Ariel) directly if a URL can be obtained."
+    },
+    {
+      "what": "CO2 purification spec (H2S, sulfur, oil, inerts limits) and purifier vendor",
+      "why": "Not stated on any page read",
+      "next_action": "Locate an authoritative urea process licence brochure or plant specification."
+    },
+    {
+      "what": "CO2 compressor OEM/model, polytropic efficiency, stage count, seal type, capacity range",
+      "why": "No fetchable OEM page found; all guessed compressor URLs returned 404 or no search results",
+      "next_action": "Fetch a named OEM CO2 compressor page (e.g. MAN Energy Solutions, Siemens Energy, Ariel) directly if a URL can be obtained."
+    },
+    {
+      "what": "CO2 purification spec (H2S, sulfur, oil, inerts limits) and purifier vendor",
+      "why": "Not stated on any page read",
+      "next_action": "Locate an authoritative urea process licence brochure or plant specification."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

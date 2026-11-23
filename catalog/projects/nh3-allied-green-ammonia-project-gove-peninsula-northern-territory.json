@@ -1,0 +1,39 @@
+{
+  "id": "nh3-allied-green-ammonia-project-gove-peninsula-northern-territory",
+  "name": "Allied Green Ammonia Project, Gove Peninsula, Northern Territory",
+  "country": "Australia",
+  "location": "Australia",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Total project cost US$6.8 billion stated by proponent; TOPSOE process licence and ammonia engineering (Oct 2023/May 2024); Plug Power 3 GW electrolyser purchase and BEDP (Jan 2025); SPG Steiner two 40,000 t cryogenic ammonia tanks (July 2024); Air Liquide Japan cryogenic nitrogen generator BEDP; ABB Australia micro-grid MOU; port and seawater intake infrastructure at Gove. CSIRO HyResource page read, reviewed by proponent April 2026.",
+  "capacities": [
+    {
+      "metric": "production capacity",
+      "value": "500",
+      "unit": "t/y",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+        "source_id": "research-csiro-au-allied-green-ammonia"
+      }
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-green-blue-ammonia"
+  ],
+  "sources": [
+    {
+      "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+      "source_id": "research-csiro-au-allied-green-ammonia"
+    }
+  ],
+  "notes": "CSIRO HyResource page read, reviewed by proponent April 2026.",
+  "last_reviewed": "2026-11-24"
+}

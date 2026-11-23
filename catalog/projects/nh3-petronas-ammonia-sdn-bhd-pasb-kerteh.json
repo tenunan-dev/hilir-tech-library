@@ -1,0 +1,38 @@
+{
+  "id": "nh3-petronas-ammonia-sdn-bhd-pasb-kerteh",
+  "name": "PETRONAS Ammonia Sdn Bhd (PASB), Kerteh",
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Kerteh ammonia plant; operator training simulator built on INDISS with Yokogawa CS3000 emulation; adjacent gas plants GPPA (Kerteh) and GPPB (Paka) each 500 MMSCFD sales gas. Primary vendor case study PDF read; capacity printed verbatim.",
+  "capacities": [
+    {
+      "metric": "production capacity",
+      "value": "000",
+      "unit": "tpa",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://s3.amazonaws.com/aramis-craft-medias/case_studies/pdf/36-Petronas-PGSB-PASB-Malaysia-OTS.pdf",
+        "source_id": "s3-amazonaws-com-pdf-36-petronas-pgsb-pasb-malaysia-ots-pdf"
+      }
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://s3.amazonaws.com/aramis-craft-medias/case_studies/pdf/36-Petronas-PGSB-PASB-Malaysia-OTS.pdf",
+      "source_id": "s3-amazonaws-com-pdf-36-petronas-pgsb-pasb-malaysia-ots-pdf"
+    }
+  ],
+  "notes": "Primary vendor case study PDF read; capacity printed verbatim.",
+  "last_reviewed": "2026-11-24"
+}

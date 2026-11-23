@@ -1,0 +1,24 @@
+{
+  "id": "snamprogetti-spa",
+  "name": "SnamProgetti SpA",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "SnamProgetti SpA is named as a supplier on a page read during the ammonia/urea sweep.",
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Sour_gas",
+      "source_id": "en-wikipedia-org-wiki-sour-gas"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 ammonia/urea sweep."
+}

@@ -45,6 +45,26 @@
         "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2001_tech_mennen.pdf",
         "note": "IFA technical conference paper (Mennen), 2001, read 2026-11-17"
       }
+    },
+    {
+      "metric": "condenser pressure regime (stripping process)",
+      "unit": "n/a",
+      "basis": "Wikipedia: stripped ammonia carried directly to a carbamate condenser 'also under full system pressure'",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": "full system pressure"
+    },
+    {
+      "metric": "condenser type (conventional recycle)",
+      "unit": "n/a",
+      "basis": "Wikipedia: recombining CO2 and NH3 in a falling-film carbamate condenser before pumping carbamate solution back to reactor",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "value": "falling-film"
     }
   ],
   "vendors": [
@@ -52,7 +72,9 @@
     "thyssenkrupp-uhde",
     "toyo",
     "casale",
-    "saipem"
+    "saipem",
+    "casale-sa",
+    "alleima"
   ],
   "technologies": [
     "pch-ammonia-urea"
@@ -65,10 +87,14 @@
     {
       "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2001_tech_mennen.pdf",
       "note": "IFA technical conference paper (Mennen), 2001 (pool-condenser reaction extent), read 2026-11-17"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+      "source_id": "en-wikipedia-org-w-index-php"
     }
   ],
-  "last_reviewed": "2026-11-17",
-  "notes": "The pressure and temperature are from Saipem's NH3-stripping flowsheet; the 60% approach figure is for a pool condenser and is not a universal condenser specification.",
+  "last_reviewed": "2026-11-24",
+  "notes": "The pressure and temperature are from Saipem's NH3-stripping flowsheet; the 60% approach figure is for a pool condenser and is not a universal condenser specification. Enriched 2026-11-24 with page-read ammonia/urea sweep sources. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
   "vendor_models": [
     {
       "vendor": "stamicarbon",
@@ -96,6 +122,18 @@
       ],
       "range": "180 C and 152 bar; produces 5 bar steam",
       "url": "https://www.toyo-eng.com/jp/en/solution/energy/pdf/ACES21_Brochure.pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Condenser duty, heat transfer area, tube material/dimensions, approach temperature",
+      "why": "Not present on pages read",
+      "next_action": "Read a carbamate condenser datasheet or licensor technical paper."
+    },
+    {
+      "what": "Condenser duty, heat transfer area, tube material/dimensions, approach temperature",
+      "why": "Not present on pages read",
+      "next_action": "Read a carbamate condenser datasheet or licensor technical paper."
     }
   ]
 }

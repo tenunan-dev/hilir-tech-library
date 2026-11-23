@@ -1,0 +1,48 @@
+{
+  "id": "bulk-weigh-belts",
+  "name": "Weigh belts / beltweighers",
+  "equipment_type": "weigh",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Weigh belts / beltweighers",
+  "specifications": [
+    {
+      "metric": "in-transit weighing",
+      "unit": "n/a",
+      "basis": "Wikipedia Conveyor belt applications",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+        "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+      },
+      "value": "material flowing over the belt may be weighed in transit using a beltweigher"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
+      "source_id": "en-wikipedia-org-wiki-conveyor-belt"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Belt scale accuracy class, capacity range, calibration method, OEM models (Schenck/Siemens etc.)",
+      "why": "Schenck Process URL redirected to 404; Siemens weigh-belt page not fetched; WebSearch unavailable",
+      "next_action": "Fetch a verified weigh-belt OEM datasheet."
+    },
+    {
+      "what": "Belt scale accuracy class, capacity range, calibration method, OEM models (Schenck/Siemens etc.)",
+      "why": "Schenck Process URL redirected to 404; Siemens weigh-belt page not fetched; WebSearch unavailable",
+      "next_action": "Fetch a verified weigh-belt OEM datasheet."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

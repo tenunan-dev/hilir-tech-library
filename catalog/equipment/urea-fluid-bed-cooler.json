@@ -1,0 +1,58 @@
+{
+  "id": "urea-fluid-bed-cooler",
+  "name": "Fluidised bed cooler / product cooler",
+  "equipment_type": "fluidised",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Fluidised bed cooler / product cooler",
+  "specifications": [
+    {
+      "metric": "fluidising cooler power",
+      "unit": "kWh/MT",
+      "basis": "Toyo typical, in case of fluidizing product cooler",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 24
+    },
+    {
+      "metric": "bulk flow cooler power",
+      "unit": "kW/MT (as printed)",
+      "basis": "Toyo note for bulk flow cooler by cooling water",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 19
+    }
+  ],
+  "vendors": [
+    "toyo"
+  ],
+  "sources": [
+    {
+      "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+      "source_id": "toyo-eng-com-urea-granulation"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Cooler duty, air volume, residence time, vendor models other than Toyo",
+      "why": "Not on pages read",
+      "next_action": "Fetch a bulk-solids cooler OEM page."
+    },
+    {
+      "what": "Cooler duty, air volume, residence time, vendor models other than Toyo",
+      "why": "Not on pages read",
+      "next_action": "Fetch a bulk-solids cooler OEM page."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

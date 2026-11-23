@@ -1,0 +1,74 @@
+{
+  "id": "urea-carbamate-decomposer",
+  "name": "Decomposers / carbamate decomposer",
+  "equipment_type": "decomposers",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Decomposers / carbamate decomposer (LP/MP)",
+  "specifications": [
+    {
+      "metric": "first decompression stage",
+      "unit": "MPa",
+      "basis": "Wikipedia: conventional recycle process depressurizes reaction solution in stages, first to 1.8-2.5 MPa",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "low": 1.8,
+      "high": 2.5
+    },
+    {
+      "metric": "second decompression stage",
+      "unit": "MPa",
+      "basis": "Wikipedia: then to 0.2-0.5 MPa, each stage through a steam-heated carbamate decomposer",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+        "source_id": "en-wikipedia-org-w-index-php"
+      },
+      "low": 0.2,
+      "high": 0.5
+    },
+    {
+      "metric": "inline analyser installation point",
+      "unit": "n/a",
+      "basis": "SensoTech LiquiSonic immersion sensors at decomposer outlet",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "value": "outlet of the decomposer, typically DN80 pipeline"
+    }
+  ],
+  "vendors": [
+    "sensotech-gmbh"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
+      "source_id": "en-wikipedia-org-w-index-php"
+    },
+    {
+      "url": "https://www.sensotech.com/en/urea-production",
+      "source_id": "sensotech-com-en-urea-production"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Decomposer heating-medium pressure, heat duty, vendor equipment details",
+      "why": "Not on pages read",
+      "next_action": "Fetch a process-licensor technical paper or plant equipment list."
+    },
+    {
+      "what": "Decomposer heating-medium pressure, heat duty, vendor equipment details",
+      "why": "Not on pages read",
+      "next_action": "Fetch a process-licensor technical paper or plant equipment list."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

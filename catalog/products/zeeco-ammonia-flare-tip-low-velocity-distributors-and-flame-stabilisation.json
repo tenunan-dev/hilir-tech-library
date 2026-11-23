@@ -1,0 +1,41 @@
+{
+  "id": "zeeco-ammonia-flare-tip-low-velocity-distributors-and-flame-stabilisation",
+  "name": "Ammonia flare tip (low-velocity, distributors and flame stabilisation)",
+  "manufacturer": "zeeco",
+  "product_type": "ammonia-converter",
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "description": "Vendor product line read 2026-11-24. No numeric tip diameter or exit velocity published.",
+  "specifications": [
+    {
+      "metric": "Design principle",
+      "unit": "qualitative",
+      "basis": "Zeeco design guidance for ammonia waste gas; keeps flame temperature above ammonia ignition temperature and improves stability",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
+        "source_id": "info-zeeco-com-pdf-flaring-up-world-fertilizer-pdf"
+      },
+      "value": "restrict exit velocity; increase flare tip barrel diameter; use diffusion apparatuses"
+    },
+    {
+      "metric": "Flare types in urea service",
+      "unit": "types",
+      "basis": "ammonia, discontinuous, continuous and main flares",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
+        "source_id": "info-zeeco-com-pdf-flaring-up-world-fertilizer-pdf"
+      },
+      "value": 4
+    }
+  ],
+  "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
+  "sources": [
+    {
+      "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
+      "source_id": "info-zeeco-com-pdf-flaring-up-world-fertilizer-pdf"
+    }
+  ],
+  "notes": "No numeric tip diameter or exit velocity published.",
+  "last_reviewed": "2026-11-24"
+}

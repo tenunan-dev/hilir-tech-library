@@ -1,0 +1,51 @@
+{
+  "id": "casale-n-loop-ammonia-synthesis-loop",
+  "name": "N-LOOP ammonia synthesis loop",
+  "manufacturer": "casale",
+  "product_type": "ammonia-converter",
+  "equipment": [
+    "ammonia-synthesis-converter"
+  ],
+  "description": "Vendor product line read 2026-11-24. Jiangsu Debang Xinghua Chemical Technology Co., commissioned June 2024, no bottlenecks in synthesis loop.",
+  "specifications": [
+    {
+      "metric": "Reference plant capacity",
+      "unit": "MTD (coal-based ammonia)",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
+        "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
+      },
+      "value": 1200
+    },
+    {
+      "metric": "Achieved capacity shortly after start-up",
+      "unit": "% of nameplate",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
+        "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
+      },
+      "value": 110
+    },
+    {
+      "metric": "Stable extended operation",
+      "unit": "% load",
+      "basis": "",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
+        "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
+      },
+      "value": 130
+    }
+  ],
+  "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
+  "sources": [
+    {
+      "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
+      "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
+    }
+  ],
+  "notes": "Jiangsu Debang Xinghua Chemical Technology Co., commissioned June 2024, no bottlenecks in synthesis loop.",
+  "last_reviewed": "2026-11-24"
+}

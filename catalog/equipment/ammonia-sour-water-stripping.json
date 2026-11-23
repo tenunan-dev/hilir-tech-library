@@ -1,0 +1,129 @@
+{
+  "id": "ammonia-sour-water-stripping",
+  "name": "Process condensate treatment and sour water stripping",
+  "equipment_type": "process",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Process condensate treatment and sour water stripping | Effluent / wastewater treatment (ammonia stripping and urea hydrolysis)",
+  "specifications": [
+    {
+      "metric": "Sour gas classification threshold",
+      "unit": "mg H2S per m3 natural gas (~4 ppmv at STP)",
+      "basis": "Natural gas usually considered sour above this level; Texas Railroad Commission uses >100 ppmv for pipelines, TCEQ >24 ppmv upstream",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Sour_gas",
+        "source_id": "en-wikipedia-org-wiki-sour-gas"
+      },
+      "value": 5.7
+    },
+    {
+      "metric": "Effluent quantity from urea synthesis reaction",
+      "unit": "kg water per tonne urea",
+      "basis": "One mole of water formed per mole of urea from 2NH3 + CO2",
+      "source": {
+        "url": "https://patents.google.com/patent/US5096599A/en",
+        "source_id": "patents-google-com-us5096599a-en"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Total effluent to treatment",
+      "unit": "kg per tonne urea",
+      "basis": "Adds ~150 kg/t urea wash/flushing water and ejector drive steam plus intermittent discharges; for a 1700 t/d plant about 850 m3/day",
+      "source": {
+        "url": "https://patents.google.com/patent/US5096599A/en",
+        "source_id": "patents-google-com-us5096599a-en"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Indicative urea effluent composition",
+      "unit": "wt%",
+      "basis": "Indicative composition stated in patent description (a second table gives CO2 1-1.25 wt%)",
+      "source": {
+        "url": "https://patents.google.com/patent/US5096599A/en",
+        "source_id": "patents-google-com-us5096599a-en"
+      },
+      "value": "NH3 2-5 wt%; CO2 1-2.5 wt%; urea 0.5-2 wt%; balance water"
+    },
+    {
+      "metric": "Hydrolysis residence time",
+      "unit": "min",
+      "basis": "Hydrolysis of urea/biuret at 200-240 C and 20-40 bar gauge; longer time has no appreciable effect",
+      "source": {
+        "url": "https://patents.google.com/patent/US5096599A/en",
+        "source_id": "patents-google-com-us5096599a-en"
+      },
+      "low": 20,
+      "high": 40
+    },
+    {
+      "metric": "Stripping column operating conditions",
+      "unit": "bar gauge",
+      "basis": "Stripping stages at 128-150 C; live steam to column base or reboiler",
+      "source": {
+        "url": "https://patents.google.com/patent/US5096599A/en",
+        "source_id": "patents-google-com-us5096599a-en"
+      },
+      "low": 1.5,
+      "high": 4
+    },
+    {
+      "metric": "Treated effluent residual NH3 and urea",
+      "unit": "ppm each",
+      "basis": "Residual content of between 10 and 0.4 ppm for each pollutant; below 1 ppm possible with preferred conditions, suitable as boiler feed water up to 110 bar steam",
+      "source": {
+        "url": "https://patents.google.com/patent/US5096599A/en",
+        "source_id": "patents-google-com-us5096599a-en"
+      },
+      "low": 0.4,
+      "high": 10
+    },
+    {
+      "metric": "Process condensate treatment in urea plant boundary",
+      "unit": "unit",
+      "basis": "Pusri urea EPD cradle-to-gate system boundary includes crystallizer, prilling and process condensate treatment",
+      "source": {
+        "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+        "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+      },
+      "value": "process condensate treatment"
+    }
+  ],
+  "vendors": [
+    "snamprogetti-spa"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Sour_gas",
+      "source_id": "en-wikipedia-org-wiki-sour-gas"
+    },
+    {
+      "url": "https://patents.google.com/patent/US5096599A/en",
+      "source_id": "patents-google-com-us5096599a-en"
+    },
+    {
+      "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+      "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Ammonia-plant process condensate stripper design (number of trays, steam rate, overhead NH3 concentration)",
+      "why": "No ammonia-specific condensate/sour-water page was fetched.",
+      "next_action": "Fetch an EPC/OEM sour-water stripping page or ammonia plant environmental-control reference."
+    },
+    {
+      "what": "Ammonia-plant process condensate stripper design (number of trays, steam rate, overhead NH3 concentration)",
+      "why": "No ammonia-specific condensate/sour-water page was fetched.",
+      "next_action": "Fetch an EPC/OEM sour-water stripping page or ammonia plant environmental-control reference."
+    }
+  ],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

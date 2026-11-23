@@ -1,0 +1,61 @@
+{
+  "id": "utility-demin-water-treatment",
+  "name": "Demineralised water and raw water treatment",
+  "equipment_type": "demineralised",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Demineralised water and raw water treatment",
+  "specifications": [
+    {
+      "metric": "Dissolved solids in demineralised water",
+      "unit": "ppm",
+      "basis": "Water with less than 1 part per million of dissolved solids can be produced by mixed/multiple-bed ion exchange",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "high": 1
+    },
+    {
+      "metric": "Demin water cost multiple",
+      "unit": "x raw water price",
+      "basis": "Demineralised water typically costs about double raw water, varying with mineral content and demin blowdown disposal cost",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Utility units in a named urea/ammonia plant cradle-to-gate boundary",
+      "unit": "list",
+      "basis": "PT Pupuk Sriwidjaja Palembang urea EPD system boundary, utilities section",
+      "source": {
+        "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+        "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+      },
+      "value": "filter water treatment; demin water treatment; cooling water treatment"
+    }
+  ],
+  "vendors": [
+    "topsoe"
+  ],
+  "sources": [
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    },
+    {
+      "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
+      "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
+    }
+  ],
+  "gaps": [],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

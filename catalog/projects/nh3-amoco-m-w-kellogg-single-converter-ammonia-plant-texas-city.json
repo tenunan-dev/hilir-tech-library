@@ -1,0 +1,27 @@
+{
+  "id": "nh3-amoco-m-w-kellogg-single-converter-ammonia-plant-texas-city",
+  "name": "Amoco/M.W. Kellogg single-converter ammonia plant, Texas City",
+  "country": "USA",
+  "location": "USA",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "description": "First large single-train design; syngas compressed to 152 bar in four-case centrifugal compressor and to 324 bar in reciprocating compressor; won 1967 Kirkpatrick Chemical Engineering Achievement Award. Wikipedia secondary source.",
+  "capacities": [],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Ammonia_production",
+      "source_id": "en-wikipedia-org-wiki-ammonia-production"
+    }
+  ],
+  "notes": "Wikipedia secondary source.",
+  "last_reviewed": "2026-11-24"
+}

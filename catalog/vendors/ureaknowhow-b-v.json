@@ -1,0 +1,24 @@
+{
+  "id": "ureaknowhow-b-v",
+  "name": "UreaKnowHow B.V.",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "UreaKnowHow B.V. is named as a supplier on a page read during the ammonia/urea sweep.",
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",
+      "source_id": "ureaknowhow-com-fluid-bed-granulation-optimization"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 ammonia/urea sweep."
+}

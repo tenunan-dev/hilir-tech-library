@@ -1,0 +1,65 @@
+{
+  "id": "utility-nitrogen-inerting",
+  "name": "Nitrogen and inert gas supply",
+  "equipment_type": "nitrogen",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Nitrogen and inert gas supply",
+  "specifications": [
+    {
+      "metric": "Inert-gas supply",
+      "unit": "utility",
+      "basis": "Site utility list includes inert-gas supplies (usually nitrogen); ammonia, nitrogen and CO2 also used as refrigeration working fluids in some situations",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "value": "usually nitrogen"
+    },
+    {
+      "metric": "Nitrogen source for synthesis",
+      "unit": "process",
+      "basis": "Hydrogen reacts with nitrogen derived from air separation; relatively pure N2 can be obtained by air separation with additional oxygen removal possibly required",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Haber_process",
+        "source_id": "en-wikipedia-org-wiki-haber-process"
+      },
+      "value": "air separation"
+    },
+    {
+      "metric": "Cryogenic nitrogen generator BEDP contractor",
+      "unit": "supplier",
+      "basis": "Allied Green Ammonia project: Air Liquide Japan contracted for BEDP for cryogenic nitrogen generator (July 2024)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+        "source_id": "research-csiro-au-allied-green-ammonia"
+      },
+      "value": "Air Liquide Japan"
+    }
+  ],
+  "vendors": [
+    "air-liquide-japan"
+  ],
+  "sources": [
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Haber_process",
+      "source_id": "en-wikipedia-org-wiki-haber-process"
+    },
+    {
+      "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+      "source_id": "research-csiro-au-allied-green-ammonia"
+    }
+  ],
+  "gaps": [],
+  "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
+  "last_reviewed": "2026-11-24"
+}

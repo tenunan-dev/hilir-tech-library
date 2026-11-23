@@ -1,6 +1,32 @@
 # Product catalog
 
-93 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
+123 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
+
+## ammonia
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [FlexAMMONIA (large-scale green ammonia synthesis loop)](https://casale.ch/technologies/ammonia/) | Casale | Ammonia condensation/refrigeration, flash vessels, let-down and storage tanks | Clean syngas consumption per tonne ammonia; Reaction heat recovery per tonne ammonia; Plant turndown; Ramp-up/down rate |
+
+## ammonia-converter
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Ammonia flare tip (low-velocity, distributors and flame stabilisation)](https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en) | Zeeco | Ammonia synthesis converter | Design principle; Flare types in urea service |
+| [Cryogenic ammonia storage tanks (2 x 40,000 t)](https://research.csiro.au/hyresource/allied-green-ammonia/) | SPG Steiner GmbH | Ammonia synthesis converter | Tank capacity; Quantity |
+| [Cryogenic nitrogen generator](https://research.csiro.au/hyresource/allied-green-ammonia/) | Air Liquide Japan | Ammonia synthesis converter | Scope |
+| [KM1 iron-based ammonia synthesis catalyst](https://www.topsoe.com/solutions/outputs/ammonia/synthesis) | Topsoe | Ammonia synthesis converter | Share of world ammonia produced with KM1 |
+| [N-LOOP ammonia synthesis loop](https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/) | Casale | Ammonia synthesis converter | Reference plant capacity; Achieved capacity shortly after start-up; Stable extended operation |
+| [Observer i ultrasonic gas leak detector](https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf) | MSA Safety | Ammonia synthesis converter | Detection range; Minimum pressurised installation |
+| [Plug Power 3 GW PEM electrolyser system and BEDP](https://research.csiro.au/hyresource/allied-green-ammonia/) | Plug Power Inc. | Ammonia synthesis converter | Electrolyser capacity; Hydrogen output |
+| [S-200 ammonia converter basket](https://www.topsoe.com/solutions/outputs/ammonia/synthesis) | Topsoe | Ammonia synthesis converter | Catalyst beds |
+| [Senscient ELDS laser open-path ammonia detector](https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf) | MSA Safety | Ammonia synthesis converter | Measuring range; Path length options; Technology |
+| [SynCOR Ammonia (ATR-based grassroot ammonia process)](https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants) | Topsoe | Ammonia synthesis converter | Steam-to-carbon ratio; Steam throughput reduction; Relative energy consumption (conventional = 100); Relative make-up water consumption (conventional = 100); Referenced single-train capacity, ammonia |
+| [TOPSOE ammonia process licence and plant engineering](https://research.csiro.au/hyresource/allied-green-ammonia/) | Topsoe A/S | Ammonia synthesis converter | Scope; Project capacity linked |
+| [TOYO ACES21 urea process](https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en) | Toyo Engineering | Ammonia synthesis converter | Plant applications; Selected capacity |
+| [Two-step reformer based Low Energy Ammonia Process](https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification) | Topsoe | Ammonia synthesis converter | Capacity |
+| [Uhde dual-pressure ammonia process](https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde) | thyssenkrupp Industrial Solutions (Uhde) | Ammonia synthesis converter | Capacity; Basis for larger plants; LP once-through converter suction pressure; HP loop operating pressure; Share of ammonia from once-through converter; Ammonia condensed from once-through effluent |
+| [ULTIMA X5000 / General Monitors S5000 (electrochemical and catalytic bead variants)](https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf) | MSA Safety | Ammonia synthesis converter | Electrochemical NH3 range; Catalytic bead range |
 
 ## boiler
 
@@ -33,6 +59,12 @@
 | [teg+ Duct Burner](https://www.zeeco.com/products/burners/power-burners?hsLang=en) | Zeeco | HRSG duct burner (supplementary gas firing) | Support design; Flame stabilizer; Application |
 | [ZEECO GB Low-NOx Power Burner](https://www.zeeco.com/products/burners/power-burners?hsLang=en) | Zeeco | Low-NOx gas burner (package and ultra-low-NOx) | Heat input per burner; Combustion air / FGR; Fuels; Boiler types |
 
+## carbamate-condenser
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Sanicro 35 heat-exchanger tube](https://ureaknowhow.com/) | Alleima | Urea carbamate condenser | outside diameter stocked |
+
 ## chemical-dosing
 
 | Product | Manufacturer | Equipment | Specifications |
@@ -46,6 +78,12 @@
 | --- | --- | --- | --- |
 | [Preset Vent Silencers](https://burgessmanning.com/preset-vent-silencers/) | Burgess-Manning (CECO Environmental) | Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres | Inlet diameter; Casing diameter; Standard design temperature; Enhanced noise attenuation |
 | [Thermax Exhaust Gas-Driven Absorption Chiller-Heater](https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater) | Thermax | Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres | Capacity; Cooling COP; Exhaust temperature |
+
+## co2-stripper
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [SPLIT FLOW LOOP (improved CO2 stripping)](https://www.casale.ch/technologies/urea/) | Casale SA | Urea CO2 stripper | CO2 conversion in reactor; sections |
 
 ## compressed-air
 
@@ -145,6 +183,15 @@
 | --- | --- | --- | --- |
 | [Jenbacher containerised genset (Type 2/3/4 and Type 6)](https://www.jenbacher.com/en/energy-solutions/containerized-solutions/) | INNIO Jenbacher | Skid / packaged genset and enclosure | Power; Sound; Ambient |
 
+## granulator
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Fluid Bed Granulation Pilot Plant / optimisation services](https://ureaknowhow.com/fluid-bed-granulation-optimization/) | UreaKnowHow B.V. | Urea fluid-bed granulator | service scope |
+| [GREEN GRANULATION fluidised bed granulation](https://www.casale.ch/technologies/urea/) | Casale SA | Urea fluid-bed granulator | formaldehyde use |
+| [Spout Fluid Bed Granulation Process](https://www.toyo-eng.com/jp/en/solution/urea_granulation/) | Toyo Engineering | Urea fluid-bed granulator | total nitrogen; biuret; size 2-4 mm; steam; power; urea dust |
+| [UREMIUM 29](https://www.casale.ch/technologies/urea/) | Casale SA | Urea fluid-bed granulator | application |
+
 ## heat-exchanger
 
 | Product | Manufacturer | Equipment | Specifications |
@@ -182,6 +229,12 @@
 | --- | --- | --- | --- |
 | [Boiler Door and Drum Cover Insulation Jackets](https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/) | Thermaxx Jackets (Specialty Distribution Group, LLC) | Thermal insulation / lagging and cladding for boilers and steam lines (heat-loss figures) | Fire door surface temperature (uninsulated); Mud drum cover surface temperature (uninsulated); Typical insulation material; Warranty; Closure system; Equipment covered |
 
+## methanation
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [PK-5 ring-shaped methanation catalyst](https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation) | Topsoe | Methanation and syngas drying/purification | Pressure drop reduction vs sphere/cylinder catalysts |
+
 ## pressure-part
 
 | Product | Manufacturer | Equipment | Specifications |
@@ -193,6 +246,13 @@
 | [Modular HRSG steam drums](https://cleaverbrooks.com/product/modular-hrsg) | Cleaver-Brooks | Boiler steam drum and mud drum | Drum arrangement; Circulation |
 | [OEM Industrial Replacement Boiler Tubes (straight, rifled XID, bent, custom)](https://cleaverbrooks.com/solutions/boiler-tubes) | Cleaver-Brooks | Boiler heat-transfer tubes and tube sheets | Standard straight tube length; Rifled (XID) tube length; Material; Heat exchanger tube bending; Tube replacement bending; Other products; Quality documentation |
 | [TurboFer / AluFer condensing heat exchanger tubes (ClearFire-CE)](https://cleaverbrooks.com/product/cfce) | Cleaver-Brooks | Boiler heat-transfer tubes and tube sheets | Effective heat transfer surface; Thermal conductivity |
+
+## process
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [LiquiSonic inline concentration/density analyser](https://www.sensotech.com/en/urea-production) | SensoTech GmbH | Process control, analysers, safety and ventilation | concentration range; temperature range; sensors per Controller 30 |
+| [STAMI UREA / STAMI DIGITAL / STAMI SPECIALTIES](https://ureaknowhow.com/stamicarbon/) | Stamicarbon | Process control, analysers, safety and ventilation | installed base |
 
 ## pump
 
@@ -206,11 +266,30 @@
 | --- | --- | --- | --- |
 | [Blowdown Systems (Model BDS separators, Model BDT tanks)](https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems) | Cleaver-Brooks | Boiler safety valves, blowdown and level fittings | Method |
 
+## screw
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Howden centrifugal / reciprocating / screw compressors and steam turbines](https://www.chartindustries.com/Howden) | Howden (Chart Industries) | Screw conveyors | Reciprocating gas compressor rating; Reciprocating compressor speed; Steam turbine electrical output range; Steam turbine mechanical drive range |
+
+## secondary
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [HyPURE-N (ATR-based blue ammonia process)](https://casale.ch/technologies/ammonia/) | Casale | Secondary reformer / autothermal reformer | Energy consumption; CO2 recovery; Best-suited capacity |
+
 ## service
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [Chemical Treatment Systems (coagulation/flocculation, pH neutralisation, oxidation, precipitation, dosing skids)](https://woggroup.com/chemical-treatment-systems/) | WOG Technologies Limited | Chemical cleaning and passivation of new boilers (pre-commissioning) | System type; Control logic; Compliance referenced |
+
+## steam-reformer
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [N-ELEVA (SMR-based traditional ammonia process)](https://casale.ch/technologies/ammonia/) | Casale | Steam reformer (primary and secondary) | NOx; Energy consumption, grey configuration; Energy consumption, blue configuration |
+| [N-ELEVA BLUE (SMR-based blue ammonia process)](https://casale.ch/technologies/ammonia/) | Casale | Steam reformer (primary and secondary) | NOx; CO2 emissions; Energy consumption |
 
 ## steam-trap
 
@@ -220,6 +299,12 @@
 | [PowerTrap GP Series mechanical condensate pump (GP5C, GP10, GP10F, GP14 etc.)](https://www.tlv.com/en-us/products/condensate-recovery/powertrap) | TLV | Steam traps (thermodynamic, float, thermostatic, inverted bucket) | GP5C maximum operating pressure; GP5C condensate recovery; GP10 maximum operating pressure; GP10 condensate recovery; GP10F maximum operating temperature; GP14 maximum operating pressure; Power source |
 | [TD42 Thermodynamic Steam Trap](https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/) | Spirax Sarco | Steam traps (thermodynamic, float, thermostatic, inverted bucket) | Body design condition; Maximum allowable pressure; Maximum allowable / operating temperature; Recommended maximum operating pressure; Minimum allowable / operating temperature; Minimum operating differential pressure; Maximum operating backpressure; Maximum cold hydraulic test pressure; Nominal sizes; Blast discharge to atmosphere temperature warning |
 | [ThermoDyne A3N thermodynamic steam trap](https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne) | TLV | Steam traps (thermodynamic, float, thermostatic, inverted bucket) | Maximum operating pressure (PMO); Minimum operating pressure; Maximum operating temperature (TMO); Discharge capacity; Body material; Connection |
+
+## urea-reactor
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [HYPER-U (self-stripping urea process)](https://www.casale.ch/technologies/urea/) | Casale SA | Urea reactor | process type |
 
 ## valve-train
 
