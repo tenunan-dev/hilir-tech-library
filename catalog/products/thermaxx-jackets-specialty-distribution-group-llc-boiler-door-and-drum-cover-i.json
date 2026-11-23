@@ -1,0 +1,81 @@
+{
+  "id": "thermaxx-jackets-specialty-distribution-group-llc-boiler-door-and-drum-cover-i",
+  "name": "Boiler Door and Drum Cover Insulation Jackets",
+  "manufacturer": "thermaxx-jackets-specialty-distribution-group-llc",
+  "product_type": "insulation",
+  "equipment": [
+    "boiler-insulation-heat-loss"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Thermaxx Boiler Door Insulation Covers page. Page explicitly warns not to add insulation to certain Cleaver-Brooks models (CBR, CBLE, CB, CBEX, CBEXDP).",
+  "specifications": [
+    {
+      "metric": "Fire door surface temperature (uninsulated)",
+      "basis": "Printed under 'Boiler Temperatures': 'Surface temperatures may reach around 350°F in fire doors'",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+        "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+      },
+      "unit": "deg F",
+      "value": "around 350"
+    },
+    {
+      "metric": "Mud drum cover surface temperature (uninsulated)",
+      "basis": "Printed under 'Boiler Temperatures'",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+        "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+      },
+      "unit": "deg F",
+      "value": "around 200"
+    },
+    {
+      "metric": "Typical insulation material",
+      "basis": "Printed under Cost-Effective: 'We typically utilize 1” fiberglass for boiler insulation'",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+        "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+      },
+      "unit": "in",
+      "value": "1 in fiberglass"
+    },
+    {
+      "metric": "Warranty",
+      "basis": "Printed: 'come with a 5 year warranty' and '5 year guarantee'",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+        "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+      },
+      "unit": "years",
+      "value": "5 year"
+    },
+    {
+      "metric": "Closure system",
+      "basis": "Printed under Convenient",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+        "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+      },
+      "unit": "n/a",
+      "value": "velcro and D-rings"
+    },
+    {
+      "metric": "Equipment covered",
+      "basis": "Printed under 'Types of boiler doors and covers we regularly encounter'",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+        "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+      },
+      "unit": "n/a",
+      "value": "Boiler Access Doors; Steam Drum Covers; Mud Drum Covers"
+    }
+  ],
+  "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+  "sources": [
+    {
+      "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+      "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+    }
+  ],
+  "notes": "Read in full: Thermaxx Boiler Door Insulation Covers page. Page explicitly warns not to add insulation to certain Cleaver-Brooks models (CBR, CBLE, CB, CBEX, CBEXDP).",
+  "last_reviewed": "2026-11-24"
+}

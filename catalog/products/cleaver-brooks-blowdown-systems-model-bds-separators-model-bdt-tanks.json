@@ -1,0 +1,31 @@
+{
+  "id": "cleaver-brooks-blowdown-systems-model-bds-separators-model-bdt-tanks",
+  "name": "Blowdown Systems (Model BDS separators, Model BDT tanks)",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "safety",
+  "equipment": [
+    "safety-valves-blowdown-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Blowdown Systems catalog listing directly with WebFetch (text). No dedicated safety-valve product line found in the pages read; see gaps.",
+  "specifications": [
+    {
+      "metric": "Method",
+      "basis": "Blowdown Systems catalog listing: 'Cleaver-Brooks model BDS blowdown separators and model BDT tanks use a safe, proven, economical flash purification process'",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems",
+        "source_id": "cleaverbrooks-com-boiler-room-equipment-blowdown-systems"
+      },
+      "unit": "process",
+      "value": "Safe, proven, economical flash purification process for blowdown effectiveness and disposal"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems",
+      "source_id": "cleaverbrooks-com-boiler-room-equipment-blowdown-systems"
+    }
+  ],
+  "notes": "Fetched Blowdown Systems catalog listing directly with WebFetch (text). No dedicated safety-valve product line found in the pages read; see gaps.",
+  "last_reviewed": "2026-11-24"
+}

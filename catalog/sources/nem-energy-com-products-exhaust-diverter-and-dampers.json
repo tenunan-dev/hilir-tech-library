@@ -1,0 +1,26 @@
+{
+  "id": "nem-energy-com-products-exhaust-diverter-and-dampers",
+  "name": "NEM Energy",
+  "url": "https://nem-energy.com/products/exhaust-diverter-and-dampers/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "NEM Energy",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. search-verified via WebSearch; page fetch timed out. Evidence: https://nem-energy.com/products/exhaust-diverter-and-dampers/"
+}

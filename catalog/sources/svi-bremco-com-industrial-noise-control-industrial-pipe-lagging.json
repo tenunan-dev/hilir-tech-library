@@ -1,0 +1,26 @@
+{
+  "id": "svi-bremco-com-industrial-noise-control-industrial-pipe-lagging",
+  "name": "SVI BREMCO",
+  "url": "https://svi-bremco.com/gas-path-solutions/industrial-noise-control/industrial-pipe-lagging-silencers/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "SVI BREMCO",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Product family listed in read site navigation; detailed page not fetched. Evidence: https://svi-bremco.com/gas-path-solutions/industrial-noise-control/industrial-pipe-lagging-silencers/"
+}

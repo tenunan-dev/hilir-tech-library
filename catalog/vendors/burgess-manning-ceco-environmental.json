@@ -1,0 +1,24 @@
+{
+  "id": "burgess-manning-ceco-environmental",
+  "name": "Burgess-Manning (CECO Environmental)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Burgess-Manning (CECO Environmental) is named as a supplier on vendor pages read during the gas-boiler supporting-systems sweep.",
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://burgessmanning.com/preset-vent-silencers/",
+      "source_id": "burgessmanning-com-preset-vent-silencers"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a product page read in the 2026-11-24 supporting-systems sweep; country and detailed roles were not stated on the read page."
+}

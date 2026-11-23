@@ -1,0 +1,41 @@
+{
+  "id": "zeeco-zeeco-burner-management-systems-bms",
+  "name": "Zeeco Burner Management Systems (BMS)",
+  "manufacturer": "zeeco",
+  "product_type": "controls",
+  "equipment": [
+    "burner-management-safety-system"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). Linked BMS PDF brochure not opened.",
+  "specifications": [
+    {
+      "metric": "Components",
+      "basis": "Industrial Burners page Burner management systems section",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en",
+        "source_id": "zeeco-com-products-burners-hslang-en"
+      },
+      "unit": "scope of supply",
+      "value": "PLCs, HMIs, complex relay logic, transmitters for all measurements"
+    },
+    {
+      "metric": "Panel certifications",
+      "basis": "Industrial Burners page Burner management systems section",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en",
+        "source_id": "zeeco-com-products-burners-hslang-en"
+      },
+      "unit": "certifications",
+      "value": "UL certified panel shop; ATEX, CSA and UL certifications; IEC and NEC standards"
+    }
+  ],
+  "url": "https://www.zeeco.com/products/burners?hsLang=en",
+  "sources": [
+    {
+      "url": "https://www.zeeco.com/products/burners?hsLang=en",
+      "source_id": "zeeco-com-products-burners-hslang-en"
+    }
+  ],
+  "notes": "Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). Linked BMS PDF brochure not opened.",
+  "last_reviewed": "2026-11-24"
+}

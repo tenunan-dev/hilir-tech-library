@@ -1,0 +1,39 @@
+{
+  "id": "drawing-water-treatment-storage-and-blowdown-for-steam-boilers-figures-3-9-1-t",
+  "title": "Water Treatment, Storage and Blowdown for Steam Boilers — Figures 3.9.1 to 3.9.7",
+  "diagram_type": "schematic",
+  "description": "Figures covering the water cycle, regional raw-water quality, alkaline/temporary and non-alkaline/permanent hardness, total hardness relationships, non-scale-forming salts and pH scale — supporting boiler-water chemistry and blowdown design.",
+  "publisher": "Spirax Sarco — Learn About Steam (The Steam and Condensate Loop, The Boiler House)",
+  "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-treatment-storage-and-blowdown-for-steam-boilers",
+  "licence": "Copyright © Spirax Sarco Limited. All Rights Reserved.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "boiler-feedwater-pretreatment",
+    "boiler-chemical-dosing"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-treatment-storage-and-blowdown-for-steam-boilers",
+      "source_id": "spiraxsarco-com-the-boiler-house-water-treatment-storage-and-blo"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "Page fetched and read 2026-11-24. HTML page fetched and read; figure captions and image links verified.",
+  "last_reviewed": "2026-11-24"
+}

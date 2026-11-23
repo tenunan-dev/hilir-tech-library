@@ -1,0 +1,26 @@
+{
+  "id": "zeeco-com-products-burners-hslang-en",
+  "name": "Zeeco — Zeeco Burner Management Systems (BMS)",
+  "url": "https://www.zeeco.com/products/burners?hsLang=en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Zeeco",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). Linked BMS PDF brochure not opened. Evidence: https://www.zeeco.com/products/burners?hsLang=en"
+}

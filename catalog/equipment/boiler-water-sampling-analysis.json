@@ -1,0 +1,116 @@
+{
+  "id": "boiler-water-sampling-analysis",
+  "name": "Boiler water sampling and analysis",
+  "equipment_type": "instrumentation",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "INS",
+    "PRC"
+  ],
+  "description": "Obtain a representative, cooled sample for TDS/conductivity, pH, phosphate, silica, sulphite and iron testing without flash loss or scalding; increasingly use continuous online analysers linked to automatic blowdown and dosing control.",
+  "specifications": [
+    {
+      "metric": "Cooled sample temperature for conductivity measurement",
+      "unit": "°C",
+      "basis": "Spirax Sarco: add phenolphthalein then 5% acetic acid drop-by-drop until colourless before measuring",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+        "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+      },
+      "value": "<25"
+    },
+    {
+      "metric": "Hydrometer sensitivity",
+      "unit": "ppm per 0.0001 relative density",
+      "basis": "Spirax Sarco relative-density method",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+        "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+      },
+      "value": "0.0001 relative density at 15.5 °C ≈ 110 ppm TDS"
+    },
+    {
+      "metric": "AC excitation frequency for boiler-water conductivity probe",
+      "unit": "Hz",
+      "basis": "Spirax Sarco: high frequency needed to avoid electrolytic polarisation at high boiler-water conductivity",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+        "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+      },
+      "value": "~1000"
+    },
+    {
+      "metric": "Representative sample point",
+      "unit": "qualitative",
+      "basis": "Spirax Sarco: do not sample from gauge glasses, external control chambers or near feedwater inlet",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+        "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+      },
+      "value": "TDS blowdown connection"
+    },
+    {
+      "metric": "Condensate analysis frequency",
+      "unit": "per day",
+      "basis": "CEA BG04 §5: basic condensate analysis daily to prove steam quality and system health",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": "daily (minimum)"
+    },
+    {
+      "metric": "Inline vs offline analytical alignment",
+      "unit": "qualitative",
+      "basis": "Veolia TrueSense Analyze boiler water analyzer product page",
+      "source": {
+        "url": "https://www.watertechnologies.com/products/boiler-water/boiler-water-analyzer",
+        "source_id": "watertechnologies-com-boiler-water-boiler-water-analyzer"
+      },
+      "value": "online photometric methods aligned with routine offline methods; inline probes add operational data"
+    },
+    {
+      "metric": "Conductivity vs TDS measurement practice",
+      "unit": "qualitative",
+      "basis": "CEA BG04 Table 2 notes 12–13",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": "only one of the two needs to be measured; same method/readout must be used consistently"
+    }
+  ],
+  "vendors": [
+    "spirax-sarco",
+    "veolia-water-technologies-solutions"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+      "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+    },
+    {
+      "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+      "source_id": "cea-org-uk-07-cea-bg04-pdf"
+    },
+    {
+      "url": "https://www.watertechnologies.com/products/boiler-water/boiler-water-analyzer",
+      "source_id": "watertechnologies-com-boiler-water-boiler-water-analyzer"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Online silica analyser specification for HRSG/utility boilers",
+      "why": "No analyser datasheet with silica range, detection limit and sample conditions was fetched",
+      "next_action": "Fetch a Veolia Sievers/online silica analyser datasheet or equivalent OEM page"
+    },
+    {
+      "what": "Full analytical method standard BS 1427:2009 contents",
+      "why": "Only referenced in CEA BG04; standard text not fetched",
+      "next_action": "Record as a standard reference and fetch only if a public summary is available"
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-feedwater.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

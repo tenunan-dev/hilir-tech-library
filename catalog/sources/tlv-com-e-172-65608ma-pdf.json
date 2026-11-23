@@ -1,0 +1,26 @@
+{
+  "id": "tlv-com-e-172-65608ma-pdf",
+  "name": "Steam Desuperheating System RGDS — system flow diagram and component schedule (172-65608MA-03)",
+  "url": "https://www.tlv.com/sites/default/files/tlv_assets/ja/download/manual/doc/man/e/172-65608ma.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "TLV CO., LTD",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Direct PDF URL downloaded (484,155 bytes, 22 pages); system flow diagram and component table verified. Evidence: https://www.tlv.com/sites/default/files/tlv_assets/ja/download/manual/doc/man/e/172-65608ma.pdf"
+}

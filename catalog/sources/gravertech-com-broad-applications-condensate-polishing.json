@@ -1,0 +1,26 @@
+{
+  "id": "gravertech-com-broad-applications-condensate-polishing",
+  "name": "Graver Technologies",
+  "url": "https://www.gravertech.com/broad-applications/condensate-polishing",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Graver Technologies",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Read: deep bed polishers, pre-filters, combined-cycle and nuclear applications; product data sheets are PDFs (not fetched). Evidence: https://www.gravertech.com/broad-applications/condensate-polishing"
+}

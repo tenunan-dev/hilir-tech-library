@@ -1,0 +1,79 @@
+{
+  "id": "tlv-cyclone-separators-dc-series-for-steam-dc3s-dc5s",
+  "name": "Cyclone Separators DC Series for Steam (DC3S, DC5S)",
+  "manufacturer": "tlv",
+  "product_type": "boiler",
+  "equipment": [],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us Cyclone Separators for Steam (with Built-in Trap) page.",
+  "specifications": [
+    {
+      "metric": "Separation efficiency",
+      "basis": "Printed under Benefits and Features: 'high separation efficiency of 98%'",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam",
+        "source_id": "tlv-com-cyclone-separators-steam"
+      },
+      "unit": "%",
+      "value": "98"
+    },
+    {
+      "metric": "DC3S maximum operating pressure",
+      "basis": "Printed in Product Details table; body Cast Iron FC250",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam",
+        "source_id": "tlv-com-cyclone-separators-steam"
+      },
+      "unit": "psig",
+      "value": "300"
+    },
+    {
+      "metric": "DC3S maximum operating temperature",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam",
+        "source_id": "tlv-com-cyclone-separators-steam"
+      },
+      "unit": "deg F",
+      "value": "428"
+    },
+    {
+      "metric": "DC3S discharge capacity",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam",
+        "source_id": "tlv-com-cyclone-separators-steam"
+      },
+      "unit": "lb/h",
+      "value": "2070"
+    },
+    {
+      "metric": "DC5S maximum operating pressure",
+      "basis": "Printed in Product Details table; body Bronze CAC407",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam",
+        "source_id": "tlv-com-cyclone-separators-steam"
+      },
+      "unit": "psig",
+      "value": "230"
+    },
+    {
+      "metric": "DC5S discharge capacity",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam",
+        "source_id": "tlv-com-cyclone-separators-steam"
+      },
+      "unit": "lb/h",
+      "value": "185"
+    }
+  ],
+  "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam",
+  "sources": [
+    {
+      "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam",
+      "source_id": "tlv-com-cyclone-separators-steam"
+    }
+  ],
+  "notes": "Read in full: TLV en-us Cyclone Separators for Steam (with Built-in Trap) page.",
+  "last_reviewed": "2026-11-24"
+}

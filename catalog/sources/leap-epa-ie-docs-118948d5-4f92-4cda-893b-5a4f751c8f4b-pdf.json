@@ -1,0 +1,26 @@
+{
+  "id": "leap-epa-ie-docs-118948d5-4f92-4cda-893b-5a4f751c8f4b-pdf",
+  "name": "Typical arrangement of flue gas treatment and CEMS at an SCR-equipped engine (SCR/SNCR and CEMS functional sch",
+  "url": "https://leap.epa.ie/docs/118948d5-4f92-4cda-893b-5a4f751c8f4b.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "MAN Energy Solutions, submitted to Ireland EPA (Ammonia Slip and Measurement in Power Plants with SCR and Oxidation Catalyst)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. SEARCH-VERIFIED via WebSearch snippet. Do not copy or redistribute the figure; record citation only. EPA-hosted but third-party copyright applies. Evidence: https://leap.epa.ie/docs/118948d5-4f92-4cda-893b-5a4f751c8f4b.pdf"
+}

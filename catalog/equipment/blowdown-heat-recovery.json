@@ -1,0 +1,201 @@
+{
+  "id": "blowdown-heat-recovery",
+  "name": "Continuous/TDS blowdown control, flash vessels, blowdown heat-recovery exchangers",
+  "equipment_type": "heat-recovery",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Continuously remove concentrated boiler water to hold TDS below foaming/carryover limits; reduce energy and water loss by flashing to low pressure, recovering flash steam to the feedtank/deaerator, and cooling residual blowdown through a heat exchanger that preheats make-up before discharge.",
+  "specifications": [
+    {
+      "metric": "Conventional shell-boiler boiler-water TDS operating range",
+      "unit": "ppm",
+      "basis": "Spirax Sarco: 2000 ppm very small boilers to 3500 ppm larger boilers, provided near design pressure and moderate load",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+        "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+      },
+      "low": 2000,
+      "high": 3500
+    },
+    {
+      "metric": "Automatic TDS control example dead-band",
+      "unit": "ppm",
+      "basis": "Spirax Sarco on/off blowdown valve control illustration",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+        "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+      },
+      "value": "open at 3000 ppm; close at 2700 ppm (10% band)"
+    },
+    {
+      "metric": "Continuous blowdown orifice example",
+      "unit": "kg/h / mm",
+      "basis": "Spirax Sarco worked example; downstream pressure assumed 0.5 bar g",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+        "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+      },
+      "value": "1111 kg/h through ~3.6 mm orifice; 10 mm seat with needle set to 9.33 mm"
+    },
+    {
+      "metric": "Volume increase across blowdown orifice",
+      "unit": "times liquid volume",
+      "basis": "Spirax Sarco: water at saturation drops almost full boiler pressure across the orifice",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+        "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+      },
+      "value": ">1000"
+    },
+    {
+      "metric": "Flash fraction from 10 bar g to 0.5 bar g",
+      "unit": "% of blowdown water flashed",
+      "basis": "Spirax Sarco heat-recovery worked example; boiler saturation 184 °C; hfg at 0.5 bar g = 2226 kJ/kg",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/heat-recovery-from-boiler-blowdown-tds-control-only",
+        "source_id": "spiraxsarco-com-the-boiler-house-heat-recovery-from-boiler-blowd"
+      },
+      "value": 14.1
+    },
+    {
+      "metric": "Flash steam energy share of blowdown",
+      "unit": "% of blowdown energy flow",
+      "basis": "Spirax Sarco example (97 kW recoverable in flash steam vs 241 kW total blown down, 0 °C datum)",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/heat-recovery-from-boiler-blowdown-tds-control-only",
+        "source_id": "spiraxsarco-com-the-boiler-house-heat-recovery-from-boiler-blowd"
+      },
+      "value": "about 49"
+    },
+    {
+      "metric": "Flash-vessel steam velocity limit",
+      "unit": "m/s maximum in top section",
+      "basis": "Spirax Sarco equipment requirement; vessels built to recognised pressure-vessel standard e.g. PD 5500",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/heat-recovery-from-boiler-blowdown-tds-control-only",
+        "source_id": "spiraxsarco-com-the-boiler-house-heat-recovery-from-boiler-blowd"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Blowdown heat recovery via flash vessel",
+      "unit": "% of energy in boiler blowdown",
+      "basis": "Spirax Sarco (flash vessel and associated equipment, before residual heat recovery)",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/heat-recovery-from-boiler-blowdown-tds-control-only",
+        "source_id": "spiraxsarco-com-the-boiler-house-heat-recovery-from-boiler-blowd"
+      },
+      "value": "about 40"
+    },
+    {
+      "metric": "Residual blowdown temperature after heat exchanger",
+      "unit": "°C",
+      "basis": "Spirax Sarco: residual blowdown from 0.5 bar g flash vessel at about 105 °C cooled to ~20 °C heating make-up water",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/heat-recovery-from-boiler-blowdown-tds-control-only",
+        "source_id": "spiraxsarco-com-the-boiler-house-heat-recovery-from-boiler-blowd"
+      },
+      "value": "about 20"
+    },
+    {
+      "metric": "Total recovery with flash steam + residual heat exchanger",
+      "unit": "%",
+      "basis": "Spirax Sarco summary of complete heat-recovery arrangement",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/heat-recovery-from-boiler-blowdown-tds-control-only",
+        "source_id": "spiraxsarco-com-the-boiler-house-heat-recovery-from-boiler-blowd"
+      },
+      "value": "82% of original blowdown energy; 14% by mass of water recovered"
+    },
+    {
+      "metric": "Bottom blowdown example (10 bar g, 40 mm line, 10 m equivalent length)",
+      "unit": "kg/s / kJ/kg / MW / %",
+      "basis": "Spirax Sarco Bottom Blowdown worked example; minimum reasonable blowdown line length 7.5 m",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown",
+        "source_id": "spiraxsarco-com-the-boiler-house-bottom-blowdown"
+      },
+      "value": "6.2 kg/s; hf 782 kJ/kg → 4.85 MW; 16% flashes to atmosphere"
+    },
+    {
+      "metric": "Blowdown vessel design pressure",
+      "unit": "%",
+      "basis": "Spirax Sarco extracting HSE Guidance Note PM60; design temperature >= saturation temperature at vessel design pressure",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown",
+        "source_id": "spiraxsarco-com-the-boiler-house-bottom-blowdown"
+      },
+      "value": ">=25% of boiler maximum working pressure"
+    },
+    {
+      "metric": "Bottom blowdown restriction",
+      "unit": "psig",
+      "basis": "DOE Steam Sourcebook, Boiler Blowdown System section",
+      "source": {
+        "url": "https://www.energy.gov/sites/prod/files/2014/05/f15/steamsourcebook.pdf",
+        "source_id": "energy-gov-f15-steamsourcebook-pdf"
+      },
+      "value": "should never be permitted unless recommended by boiler manufacturer; above 700 psig may cause water starvation"
+    },
+    {
+      "metric": "BDV60 blowdown vessel design standard",
+      "unit": "standard",
+      "basis": "Spirax Sarco Malaysia product page",
+      "source": {
+        "url": "https://www.spiraxsarco.com/global/en-MY/products/boiler-controls-and-systems/blowdown-vessels",
+        "source_id": "spiraxsarco-com-boiler-controls-and-systems-blowdown-vessels"
+      },
+      "value": "ASME VIII Div 1 2015; Pressure Equipment Safety Regulations 2016; CEA BG03"
+    }
+  ],
+  "vendors": [
+    "spirax-sarco",
+    "tlv",
+    "veolia-water-technologies-solutions"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+      "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/heat-recovery-from-boiler-blowdown-tds-control-only",
+      "source_id": "spiraxsarco-com-the-boiler-house-heat-recovery-from-boiler-blowd"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown",
+      "source_id": "spiraxsarco-com-the-boiler-house-bottom-blowdown"
+    },
+    {
+      "url": "https://www.energy.gov/sites/prod/files/2014/05/f15/steamsourcebook.pdf",
+      "source_id": "energy-gov-f15-steamsourcebook-pdf"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/global/en-MY/products/boiler-controls-and-systems/blowdown-vessels",
+      "source_id": "spiraxsarco-com-boiler-controls-and-systems-blowdown-vessels"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Blowdown heat-recovery vendor datasheet with duty and approach-temperature basis",
+      "why": "Spirax gives energy percentages from a worked example; no OEM heat-recovery exchanger datasheet was fetched",
+      "next_action": "Fetch a Spirax/TLV blowdown heat-recovery package datasheet and record design duty, terminal temperatures and materials"
+    },
+    {
+      "what": "HRSG-specific continuous blowdown rates and flash recovery at high pressure",
+      "why": "Sources retrieved are shell/water-tube generic; no HRSG blowdown design figure found",
+      "next_action": "Fetch GE Vernova/Siemens HRSG water-chemistry or O&M guidance"
+    },
+    {
+      "what": "Dollar-year cost of blowdown heat loss",
+      "why": "No cost figures with currency/price year were retrieved on the read pages",
+      "next_action": "Only add after fetching a dated DOE tip sheet or BoE with explicit price year"
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-feedwater.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

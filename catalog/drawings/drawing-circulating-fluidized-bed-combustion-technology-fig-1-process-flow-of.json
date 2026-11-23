@@ -1,0 +1,37 @@
+{
+  "id": "drawing-circulating-fluidized-bed-combustion-technology-fig-1-process-flow-of",
+  "title": "Circulating Fluidized-bed Combustion Technology — Fig. 1 Process flow of circulating fluidized-bed boiler; Fig. 2 Schematic drawing of CFBC",
+  "diagram_type": "PFD",
+  "description": "Typical CFBC process flow and schematic: furnace with 4–8 m/s gas velocity, high-temperature cyclone returning coarse bed material/char to the boiler, fluidizing/combustion air preheater and boiler feedwater heater; notes two-stage combustion (reducing bed, oxidizing freeboard) for low NOx.",
+  "publisher": "Japan Coal Energy Center (JCOAL) — Clean Coal Technology in Japan",
+  "url": "https://www.jcoal.or.jp/eng/upload/cctinjapan_2_2A2.pdf",
+  "licence": "Copyright © JCOAL; publisher terms not restated on the PDF.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "air-preheater-boiler",
+    "superheater-boiler"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.jcoal.or.jp/eng/upload/cctinjapan_2_2A2.pdf",
+      "source_id": "jcoal-or-jp-upload-cctinjapan-2-2a2-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (31,942 bytes, 1 page); both figure captions and the surrounding process text verified.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "andritz-andritz-powerfluid-cfb-boiler-technology",
+  "name": "ANDRITZ PowerFluid CFB Boiler Technology",
+  "manufacturer": "andritz",
+  "product_type": "boiler",
+  "equipment": [
+    "boiler-gas-cfb"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Thermal power page directly with WebFetch (markdown). No numeric capacity printed on this page; dedicated EcoFluid/PowerFluid product pages not opened.",
+  "specifications": [
+    {
+      "metric": "CFB technology name",
+      "basis": "Thermal power page, 'CFB TECHNOLOGY - PowerFluid': flue gas velocity higher, bed expanded and entrained, material separated by cyclones and returned to lower furnace",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en",
+        "source_id": "andritz-com-thermal-power-en"
+      },
+      "unit": "product/technology name",
+      "value": "PowerFluid"
+    },
+    {
+      "metric": "Emissions mechanism",
+      "basis": "Thermal power page: efficient mixing and relatively low combustion temperatures contribute to low emissions",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en",
+        "source_id": "andritz-com-thermal-power-en"
+      },
+      "unit": "qualitative",
+      "value": "Low emissions of CO, hydrocarbons and nitric oxides"
+    },
+    {
+      "metric": "Fuel range",
+      "basis": "Thermal power page",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en",
+        "source_id": "andritz-com-thermal-power-en"
+      },
+      "unit": "fuel options",
+      "value": "Biomass, demolition wood, RDF, SRF, peat, various sludges, waste"
+    },
+    {
+      "metric": "Related BFB technology",
+      "basis": "Thermal power page BFB TECHNOLOGY - EcoFluid section",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en",
+        "source_id": "andritz-com-thermal-power-en"
+      },
+      "unit": "product/technology name",
+      "value": "EcoFluid"
+    }
+  ],
+  "url": "https://www.andritz.com/thermal-power-en",
+  "sources": [
+    {
+      "url": "https://www.andritz.com/thermal-power-en",
+      "source_id": "andritz-com-thermal-power-en"
+    }
+  ],
+  "notes": "Fetched Thermal power page directly with WebFetch (markdown). No numeric capacity printed on this page; dedicated EcoFluid/PowerFluid product pages not opened.",
+  "last_reviewed": "2026-11-24"
+}

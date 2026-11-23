@@ -1,0 +1,34 @@
+{
+  "id": "drawing-scr-process-flow-diagram-figure-2-1-chapter-4-2-nox-post-combustion-se",
+  "title": "SCR Process Flow Diagram — Figure 2.1, Chapter 4.2 NOx Post-Combustion Selective Catalytic Reduction",
+  "diagram_type": "PFD",
+  "description": "Simplified SCR process flow: economy bypass, anhydrous ammonia tank, electric vaporizer, dilution air blower, ammonia/air mixer and ammonia injection grid, static gas mixers, SCR catalyst reactor, air heater, ESP and ID fan; ammonia vapour and liquid lines are distinguished.",
+  "publisher": "U.S. Environmental Protection Agency",
+  "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch2.pdf",
+  "licence": "U.S. Government work — generally public domain in the United States.",
+  "reuse_level": "full-text-open",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch2.pdf",
+      "source_id": "epa-gov-documents-cs4-2ch2-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (457,397 bytes, 66 pages); Figure 2.1 caption and reagent-injection text verified.",
+  "last_reviewed": "2026-11-24"
+}

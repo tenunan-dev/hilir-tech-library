@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-546 vendor records covering 326 technologies. One record per vendor in
+596 vendor records covering 326 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -407,46 +407,72 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
 | [Abengoa](https://www.abengoa.com) | Spain | epc | Concentrated solar power with storage |
+| AERZEN (Aerzener Maschinenfabrik GmbH) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Aggreko](https://www.aggreko.com) | United Kingdom | rental, packager | Containerised hybrid power modules (solar, storage, gensets); Lithium-ion battery energy storage; Gas engines |
 | [ALZETA](https://alzeta.com/ultra-low-nox-burners) | United States | oem | Gas-fired steam and hot-water boilers |
 | [ANDRITZ](https://www.andritz.com) | Austria | oem | Hydropower |
 | [APR Energy](https://www.aprenergy.com) | USA | rental, packager | Mobile gas turbine power plants |
+| Armstrong International | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Atlantic Feedwater Systems | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Babcock & Wilcox](https://www.babcock.com) | USA | oem, service | Combined cycle and HRSG; Biomass and waste-to-energy |
 | [Baker Hughes](https://www.bakerhughes.com/) | USA | oem, service | Aeroderivative and industrial gas turbines; Cogeneration and combined heat and power |
 | [Bechtel](https://www.bechtel.com) | USA | epc | Large light-water reactors |
+| BOA Group | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Boldrocchi Group | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Bosch Industriekessel](https://www.bosch-industrial.com) | Germany | oem, service | Cogeneration and combined heat and power |
 | [BoxPower](https://boxpower.io) | USA | packager, oem | Containerised hybrid power modules (solar, storage, gensets) |
 | [Bredenoord](https://www.bredenoord.com) | Netherlands | rental | Containerised hybrid power modules (solar, storage, gensets) |
+| Brittania Industries | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Burgess-Manning (CECO Environmental) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [BWSC](https://www.bwsc.com) | Denmark | packager, epc | Powerships and power barges; Biomass and waste-to-energy |
 | [BWX Technologies](https://www.bwxt.com) | USA | oem, developer, supplier | Microreactors (transportable nuclear); Advanced reactors (high-temperature gas, molten salt) |
 | [BYD](https://www.fdbatt.com) | China | oem | Lithium-ion battery energy storage |
 | [CATL](https://www.catl.com) | China | oem | Lithium-ion battery energy storage; Sodium-ion batteries |
 | [CGN](https://www.cgn.com.cn) | China | operator, developer | Large light-water reactors |
+| Changyu Pump | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Ciel & Terre](https://www.ciel-et-terre.net) | France | developer, oem | Floating solar |
 | [Cleaver-Brooks](https://cleaverbrooks.com) | USA | oem | Combined cycle and HRSG; Cogeneration and combined heat and power |
 | [Climeon](https://climeon.com) | Sweden | oem | Modular ORC units for waste heat and small geothermal |
 | [Commonwealth Fusion Systems](https://cfs.energy) | USA | developer | Fusion |
+| Concord Environmental | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Cosin](https://www.cosinsolar.com) | China | oem, epc | Concentrated solar power with storage |
+| CS Instruments | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| dB Noise Reduction | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| dB Noise Reduction Inc. | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Doosan Enerbility](https://www.doosanenerbility.com) | South Korea | oem, supplier | Heavy-duty gas turbines (H and J class); Combined cycle and HRSG; Large light-water reactors; Offshore wind (fixed bottom) |
+| E+E Elektronik | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| EagleBurgmann (KE-A/S) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Eavor](https://eavor.com) | Canada | developer | Enhanced geothermal systems |
+| Eclipse Combustion (BoostPak; spec sheets hosted on Kromschroeder docuthek) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [EDF](https://www.edf.fr) | France | operator | Large light-water reactors; Hydropower |
 | [ElectraTherm](https://electratherm.com) | USA | oem | Modular ORC units for waste heat and small geothermal |
+| Emerson Copeland VFDs | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Energy Vault](https://energyvault.com) | USA | integrator, developer, service | Gravity energy storage; Lithium-ion battery energy storage |
+| Energylink International | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Enogia](https://www.enogia.com) | France | oem | Modular ORC units for waste heat and small geothermal |
 | [Entech Products Corp](https://www.entechproducts.com/products/combustion/) | United States | supplier, service | Combined cycle and HRSG; Gas-fired steam and hot-water boilers |
 | [Envision](https://www.envision-group.com) | China | oem, service | Onshore wind; Offshore wind (fixed bottom); Smart grids, microgrids and virtual power plants |
 | [Equinor](https://www.equinor.com) | Norway | operator, developer | Floating offshore wind; Offshore wind (fixed bottom) |
+| ETTER Engineering / BoosterWorx | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Everllence](https://www.everllence.com) | Germany | oem, packager | Modular reciprocating engine power plants; Gas engines; Powerships and power barges; Cogeneration and combined heat and power |
 | [Exergy](https://exergyint.com) | Italy | oem | Modular ORC units for waste heat and small geothermal |
 | [Fervo Energy](https://fervoenergy.com) | USA | developer, operator | Enhanced geothermal systems |
 | [Fluence](https://fluenceenergy.com/) | USA | integrator, service | Lithium-ion battery energy storage; Smart grids, microgrids and virtual power plants |
+| Forney Corporation | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Fox Equipment | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Fuel Tech | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Fuji Electric](https://www.fujielectric.com) | Japan | oem | Geothermal (flash and binary cycle) |
 | [Fulton](https://fulton.com/product-categories/steam-boilers/) | United States | oem | Gas-fired steam and hot-water boilers |
 | [GE Vernova](https://www.gevernova.com) | USA | oem, service | Mobile gas turbine power plants; Heavy-duty gas turbines (H and J class); Aeroderivative and industrial gas turbines; Combined cycle and HRSG; Cogeneration and combined heat and power; Hydropower; HVDC transmission and interconnectors |
 | [GE Vernova Hitachi Nuclear Energy](https://www.gevernova.com/nuclear) | USA | oem | Small modular reactors; Large light-water reactors |
 | [Goldwind](https://www.goldwind.com) | China | oem, service | Onshore wind; Offshore wind (fixed bottom) |
+| Graver Technologies | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Graver Water (Marmon Industrial Water) | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Grundfos | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [GS E&C](https://www.gsenc.com) | South Korea | epc | Combined cycle and HRSG |
+| GSD (Genel Sistem Dizaynı) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Halgo Power](https://www.halgopower.com/products/forced-draft-fans) | United States | oem, supplier | Gas-fired steam and hot-water boilers; Combined cycle and HRSG |
+| Hangguo (HGTYBypass) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Highview Power](https://highviewpower.com/) | United Kingdom | developer, oem | Compressed and liquid air energy storage |
 | [HiNa Battery](https://www.hinabattery.com/en/) | China | oem, supplier | Sodium-ion batteries |
 | [Hitachi Energy](https://www.hitachienergy.com/) | Switzerland | oem, integrator, service | HVDC transmission and interconnectors; Smart grids, microgrids and virtual power plants; Grid-forming inverters and synchronous condensers |
@@ -455,8 +481,11 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Hydrostor](https://www.hydrostor.ca/) | Canada | developer | Compressed and liquid air energy storage |
 | [Hyundai Engineering & Construction](https://www.hdec.co.kr) | South Korea | epc | Large light-water reactors |
 | [IHI Corporation](https://www.ihi.co.jp) | Japan | oem | Combined cycle and HRSG |
+| IMI Process Automation | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [INNIO Jenbacher](https://www.jenbacher.com) | Austria | oem | Gas engines; Modular reciprocating engine power plants; Cogeneration and combined heat and power |
+| Integrated Flow Solutions (IFS) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Invinity Energy Systems](https://invinity.com/) | United Kingdom | oem | Flow batteries (vanadium, zinc-bromine) |
+| Ion Exchange (India) Ltd | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [ITER Organization](https://www.iter.org) | France | developer | Fusion |
 | [JA Solar](https://www.jasolar.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT) |
 | [JERA](https://www.jera.co.jp) | Japan | operator | Combined cycle and HRSG; Hydrogen-capable and ammonia-fired gas turbines |
@@ -467,26 +496,36 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [KEPCO E&C](https://www.kepco-enc.com) | South Korea | epc | Large light-water reactors |
 | [KHNP](https://www.khnp.co.kr) | South Korea | operator | Large light-water reactors |
 | [Kraftblock](https://www.kraftblock.com/) | Germany | oem | Thermal energy storage (molten salt, sand, bricks) |
+| Kurita America Inc. | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Kurita Water Industries (Kurita ASEAN) | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| LANXESS | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [LONGi](https://www.longi.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT); Perovskite and tandem solar cells |
 | [McDermott](https://www.mcdermott.com) | USA | epc, oem | HVDC transmission and interconnectors |
+| Megaflexon | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| METCO Technologies | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Mitsubishi Power](https://power.mhi.com) | Japan | oem | Heavy-duty gas turbines (H and J class); Combined cycle and HRSG; Hydrogen-capable and ammonia-fired gas turbines; Mobile gas turbine power plants |
 | [Miura Boiler](https://miuraboiler.com) | Japan | oem | Cogeneration and combined heat and power |
 | [NANO Nuclear Energy](https://www.nanonuclearenergy.com) | USA | developer | Microreactors (transportable nuclear) |
+| NEM Energy | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [NuScale Power](https://www.nuscalepower.com) | USA | oem | Small modular reactors |
 | [Oklo](https://oklo.com) | USA | developer, operator | Microreactors (transportable nuclear); Advanced reactors (high-temperature gas, molten salt) |
 | [Orbital Marine Power](https://www.orbitalmarine.com) | United Kingdom | oem, developer | Tidal and wave energy |
 | [Ormat](https://www.ormat.com) | USA | oem, operator | Modular ORC units for waste heat and small geothermal; Geothermal (flash and binary cycle) |
+| Ovivo (Christ Water Technology / Kennicott) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Oxford PV](https://www.oxfordpv.com) | UK | oem, supplier | Perovskite and tandem solar cells |
 | [Polar Night Energy](https://polarnightenergy.com/) | Finland | oem | Thermal energy storage (molten salt, sand, bricks) |
 | [Power Barge Corporation](https://powerbargecorp.com) | USA | packager | Powerships and power barges |
 | [PR Power](https://www.prpower.com.au) | Australia | rental, supplier | Containerised hybrid power modules (solar, storage, gensets) |
 | [Principle Power](https://www.principlepower.com) | France | developer, service | Floating offshore wind |
 | [PROENERGY](https://www.proenergyservices.com) | USA | oem, packager, service | Mobile gas turbine power plants; Aeroderivative and industrial gas turbines |
+| Profire Energy | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [PT PLN (Persero)](https://web.pln.co.id) | Indonesia | operator | Floating solar |
+| Purolite (Ecolab) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Rolls-Royce Power Systems (mtu)](https://www.mtu-solutions.com) | Germany | oem, packager | Modular reciprocating engine power plants; Gas engines; Cogeneration and combined heat and power |
 | [Rolls-Royce SMR](https://www.rolls-royce-smr.com) | United Kingdom | oem, developer | Small modular reactors |
 | [Rondo Energy](https://www.rondo.com/) | USA | oem | Thermal energy storage (molten salt, sand, bricks) |
 | [Rongke Power](https://www.rongkepower.com) | China | oem, supplier | Flow batteries (vanadium, zinc-bromine) |
+| SCC Inc. | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Schneider Electric](https://www.se.com) | France | oem, integrator | Smart grids, microgrids and virtual power plants; Grid-forming inverters and synchronous condensers |
 | [Siemens Energy](https://www.siemens-energy.com) | Germany | oem, service | Heavy-duty gas turbines (H and J class); Aeroderivative and industrial gas turbines; Combined cycle and HRSG; Mobile gas turbine power plants; HVDC transmission and interconnectors; Grid-forming inverters and synchronous condensers |
 | [Siemens Gamesa](https://www.siemensgamesa.com) | Spain | oem, service | Offshore wind (fixed bottom); Onshore wind |
@@ -497,21 +536,32 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Spirax Sarco](https://spiraxsarco.com/learn-about-steam/the-boiler-house/introduction) | United Kingdom | oem, service, supplier | Gas-fired steam and hot-water boilers |
 | [Sumitomo SHI FW](https://shi-fw.com) | Finland | oem, service | Biomass and waste-to-energy; Combined cycle and HRSG |
 | [Sungrow](https://www.sungrowpower.com/) | China | oem | Lithium-ion battery energy storage; Floating solar; Grid-forming inverters and synchronous condensers |
+| SVI BREMCO | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [TerraPower](https://terrapower.com) | USA | developer | Advanced reactors (high-temperature gas, molten salt) |
 | [Tesla Energy](https://www.tesla.com/megapack) | USA | oem | Lithium-ion battery energy storage |
 | [Tetra Engineering Group](https://www.tetra-eng.com/whitepaper/duct-burners) | United Kingdom / United States | service, supplier | Combined cycle and HRSG; Gas-fired steam and hot-water boilers |
+| Thermaxx Jackets (Specialty Distribution Group, LLC) | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Thorburn Flex | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [TLV](https://www.tlv.com/steam-info/steam-theory) | Japan | oem, supplier | Gas-fired steam and hot-water boilers |
+| TMEIC | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Tokamak Energy](https://tokamakenergy.com) | UK | developer | Fusion |
 | [Trina Solar](https://www.trinasolar.com) | China | oem, supplier | Crystalline silicon PV (PERC, TOPCon, HJT); Lithium-ion battery energy storage |
 | [Turboden](https://www.turboden.com) | Italy | oem | Modular ORC units for waste heat and small geothermal |
+| Unaflex / Kadant | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [USP&E Global](https://uspeglobal.com) | USA | epc, rental, operator, service | Modular reciprocating engine power plants; Mobile gas turbine power plants; Containerised hybrid power modules (solar, storage, gensets) |
 | [Valmet](https://www.valmet.com/energyproduction/cfb-boilers/) | Finland | oem | Gas-fired steam and hot-water boilers; Biomass and waste-to-energy |
+| Veolia Australia & New Zealand — Industrial Services | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Veolia Water Technologies | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Veolia Water Technologies & Solutions | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Vestas](https://www.vestas.com) | Denmark | oem, service | Onshore wind; Offshore wind (fixed bottom) |
 | [Voith](https://voith.com) | Germany | oem, service | Hydropower |
 | [Waller Marine](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083) | USA | packager | Powerships and power barges |
+| Warren Controls | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Weishaupt](https://cleaverbrooks.com/product/switchfire) | Germany | oem | Gas-fired steam and hot-water boilers |
 | [Westinghouse Electric Company](https://www.westinghousenuclear.com) | USA | oem, developer | Microreactors (transportable nuclear); Large light-water reactors; Small modular reactors |
+| Wilhelmsen | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Wison](https://www.wison-energies.com) | China | epc, developer | Floating offshore wind |
+| WOG Technologies Limited | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Wärtsilä](https://www.wartsila.com/energy) | Finland | oem, packager | Modular reciprocating engine power plants; Gas engines; Powerships and power barges; Cogeneration and combined heat and power |
 | [X-energy](https://x-energy.com) | USA | developer, supplier | Advanced reactors (high-temperature gas, molten salt); Small modular reactors |
 | [Ørsted](https://orsted.com) | Denmark | developer, operator | Offshore wind (fixed bottom) |

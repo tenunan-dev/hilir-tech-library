@@ -205,6 +205,50 @@ CREATE TABLE IF NOT EXISTS project (                        -- curated project a
 );
 CREATE INDEX IF NOT EXISTS project_tsv_idx ON project USING gin (tsv);
 
+CREATE TABLE IF NOT EXISTS product (                        -- curated vendor product catalog records
+    id             text PRIMARY KEY,
+    name           text NOT NULL,
+    manufacturer   text NOT NULL,                            -- vendor directory id
+    product_type   text NOT NULL,                            -- equipment type family
+    equipment      text[] NOT NULL DEFAULT '{}',            -- equipment class ids supplied
+    description    text NOT NULL,
+    specifications jsonb NOT NULL DEFAULT '[]',
+    url            text NOT NULL,
+    sources        jsonb NOT NULL DEFAULT '[]',
+    gaps           jsonb NOT NULL DEFAULT '[]',
+    record         jsonb NOT NULL DEFAULT '{}'::jsonb,
+    search_text    text NOT NULL DEFAULT '',
+    embedding      vector(384),
+    tsv            tsvector GENERATED ALWAYS AS (
+                     setweight(to_tsvector('english', name), 'A') ||
+                     setweight(to_tsvector('english', search_text), 'B')) STORED
+);
+CREATE INDEX IF NOT EXISTS product_tsv_idx ON product USING gin (tsv);
+
+CREATE TABLE IF NOT EXISTS drawing (                         -- citable PFD / P&ID / schematic records
+    id            text PRIMARY KEY,
+    title         text NOT NULL,
+    diagram_type  text NOT NULL,
+    description   text NOT NULL,
+    publisher     text NOT NULL,
+    url           text NOT NULL,
+    licence       text,
+    reuse_level   text,
+    sectors       text[] NOT NULL DEFAULT '{}',
+    regions       text[] NOT NULL DEFAULT '{}',
+    equipment     text[] NOT NULL DEFAULT '{}',
+    technologies  text[] NOT NULL DEFAULT '{}',
+    sources       jsonb NOT NULL DEFAULT '[]',
+    gaps          jsonb NOT NULL DEFAULT '[]',
+    record        jsonb NOT NULL DEFAULT '{}'::jsonb,
+    search_text   text NOT NULL DEFAULT '',
+    embedding     vector(384),
+    tsv           tsvector GENERATED ALWAYS AS (
+                     setweight(to_tsvector('english', title), 'A') ||
+                     setweight(to_tsvector('english', search_text), 'B')) STORED
+);
+CREATE INDEX IF NOT EXISTS drawing_tsv_idx ON drawing USING gin (tsv);
+
 CREATE TABLE IF NOT EXISTS register_entry (            -- the indicative technology register (see library_stats for the live count)
     id       text PRIMARY KEY,
     sector   text NOT NULL,
@@ -415,6 +459,14 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
         UNION ALL
         SELECT 'project', p.id, p.name, p.tsv, p.embedding, p.sector_codes, NULL::text, NULL::text, NULL::text[]
         FROM project p
+        UNION ALL
+        SELECT 'product', pr.id, pr.name, pr.tsv, pr.embedding,
+               (SELECT array_agg(DISTINCT s) FROM unnest(pr.equipment) e JOIN equipment eq ON eq.id = e
+                CROSS JOIN LATERAL unnest(eq.sector_codes) s), NULL::text, NULL::text, NULL::text[]
+        FROM product pr
+        UNION ALL
+        SELECT 'drawing', d.id, d.title, d.tsv, d.embedding, d.sectors, NULL::text, d.reuse_level, d.regions
+        FROM drawing d
     ),
     -- Every pool draws from `keep`, so a filter cannot drift between them.
     keep AS (
@@ -425,12 +477,13 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
                 AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
                             AND st.kind = 'discipline' AND st.code = discipline)))
           AND (region IS NULL OR (
-                i.kind IN ('chunk', 'source')
-                AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
-                            AND st.kind = 'region' AND st.code = region)))
+                (i.kind IN ('chunk', 'source')
+                 AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
+                             AND st.kind = 'region' AND st.code = region))
+                OR (i.kind = 'drawing' AND region = ANY (i.regions))))
           AND (reuse_level IS NULL OR (
-                (i.kind IN ('chunk', 'source') AND i.src_reuse = reuse_level)
-                OR (i.kind IN ('technology', 'vendor', 'equipment', 'project') AND reuse_level = 'full-text-open')))
+                (i.kind IN ('chunk', 'source', 'drawing') AND i.src_reuse = reuse_level)
+                OR (i.kind IN ('technology', 'vendor', 'equipment', 'project', 'product') AND reuse_level = 'full-text-open')))
           AND (kind_filter IS NULL OR i.kind = kind_filter)
     ),
     -- Query terms (subscript digits folded, so CO₂ tokenises like CO2), each replaced by its

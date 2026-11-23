@@ -1,0 +1,26 @@
+{
+  "id": "tlv-com-electric-pumps-boiler-feed-pumps",
+  "name": "TLV (Ventrite product line) — Guardian / Guardian-Plus Electric Boiler Feed Pumps",
+  "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "TLV (Ventrite product line)",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Read in full: TLV en-us Electric Boiler Feed Pumps page (Guardian and Guardian-Plus series), including the linked condensate return & boiler feed water skid systems pamphlet refere Evidence: https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+}

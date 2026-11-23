@@ -1,0 +1,92 @@
+{
+  "id": "condensate-pump-hot-well",
+  "name": "Condensate return pumps, hot wells / collection tanks and condensate return lines (pumping vs pressure return;",
+  "equipment_type": "pump",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Collect and return hot condensate to the boiler/feedwater system. Where trap inlet pressure cannot overcome return-line backpressure (lift + friction + receiver pressure = TDH), use electric centrifugal/turbine pumps, non-electric steam/air-driven mechanical pumps (SPDs/pump-traps), or ejector-assisted low-NPSH condensate pumps (TLV; Spirax Sarco).",
+  "specifications": [
+    {
+      "metric": "cavitation onset, condensate temperature",
+      "unit": "°C",
+      "basis": "TLV: cavitation more typical with high-RPM motors when pumped liquid temperature rises above 80°C and NPSHA < NPSHR",
+      "source": {
+        "url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery",
+        "source_id": "tlv-com-condensate-recovery-types-of-condensate-recovery"
+      },
+      "value": 80
+    },
+    {
+      "metric": "elevated collection tank filling head above pump NPSHR",
+      "unit": "m (10-16 ft)",
+      "basis": "TLV mitigation for hot condensate to raise NPSHA (if added backpressure acceptable)",
+      "source": {
+        "url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery",
+        "source_id": "tlv-com-condensate-recovery-types-of-condensate-recovery"
+      },
+      "value": "3-5"
+    },
+    {
+      "metric": "ejector-assisted condensate pump minimum NPSHA",
+      "unit": "m (3 ft)",
+      "basis": "TLV specialty pump with suction ejector; low filling-head installation",
+      "source": {
+        "url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery",
+        "source_id": "tlv-com-condensate-recovery-types-of-condensate-recovery"
+      },
+      "value": 1
+    },
+    {
+      "metric": "pump speed example affecting local pressure drop",
+      "unit": "RPM",
+      "basis": "TLV cavitation article: higher speed raises impeller velocity and local pressure drop",
+      "source": {
+        "url": "https://www.tlv.com/steam-info/steam-theory/problems/cavitation-in-condensate-pumps",
+        "source_id": "tlv-com-problems-cavitation-in-condensate-pumps"
+      },
+      "value": "1,750 vs 3,500"
+    },
+    {
+      "metric": "return-line backpressure components (TDH)",
+      "unit": "qualitative",
+      "basis": "TLV definition of Total Dynamic Head",
+      "source": {
+        "url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery",
+        "source_id": "tlv-com-condensate-recovery-types-of-condensate-recovery"
+      },
+      "value": "lift + pipe friction + receiver static pressure"
+    }
+  ],
+  "vendors": [
+    "spirax-sarco"
+  ],
+  "sources": [
+    {
+      "url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery",
+      "source_id": "tlv-com-condensate-recovery-types-of-condensate-recovery"
+    },
+    {
+      "url": "https://www.tlv.com/steam-info/steam-theory/problems/cavitation-in-condensate-pumps",
+      "source_id": "tlv-com-problems-cavitation-in-condensate-pumps"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Hot-well sizing criteria and recommended storage minutes for each boiler type",
+      "why": "No fetched source states a numeric hot-well/hot-leg retention time",
+      "next_action": "Obtain vendor commissioning manuals or DOE steam system survey guide and cite the exact design rule."
+    },
+    {
+      "what": "Condensate return line velocity/erosion limits and flash-steam allowance in sizing",
+      "why": "TLV piping article exists in index but was not fetched; no numeric values captured",
+      "next_action": "Fetch TLV 'Condensate Recovery Piping' and Spirax block 13 pages for velocity and flash allowances."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-steam-condensate.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

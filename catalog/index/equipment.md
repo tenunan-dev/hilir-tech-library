@@ -1,6 +1,6 @@
 # Equipment catalog
 
-58 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+81 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -409,6 +409,58 @@ Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale, Saipem (3 mod
 - **thyssenkrupp Uhde** Urea 2000plus pool condenser: horizontal high-pressure carbamate condenser with submerged U-tube bundle
 - **Toyo Engineering** Vertical Submerged Carbamate Condenser (VSCC): 180 C and 152 bar; produces 5 bar steam
 
+## chemical-dosing
+
+### Boiler water chemical dosing (boiler-chemical-dosing)
+
+Primary code: PWR: Power and renewables
+After mechanical deaeration, chemically remove residual dissolved oxygen, maintain alkaline pH for magnetite passivation, neutralise CO2 acidity in condensate with volatile amines, condition residual hardness into removable sludge with phosphate/polymer/chelant, and inhibit foaming and caustic attack.
+Vendors: Veolia Water Technologies & Solutions, Wilhelmsen, LANXESS (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Theoretical sodium sulphite demand | 7.88 ppm pure Na2SO3 per 1.0 ppm dissolved O2 | Veolia Water Handbook Ch.11 (2Na2SO3 + O2 → 2Na2SO4); practical ~10 lb/lb O2 with technical grade and losses |
+| Spirax-design sodium sulphite dosing rate | 8 ppm per 1 ppm O2 + 4 ppm reserve; 45% active in liquid catalysed product ppm | Spirax Sarco worked example and dosing guidance |
+| Sulphite/oxygen reaction rate | doubles per 18 °F temperature rise; rapid at >=212 °F; fastest at pH 8.5–10.0 °F / pH | Veolia Water Handbook Ch.11 |
+| Catalysed vs uncatalysed sodium sulphite oxygen removal after 25 s contact | catalysed: complete; uncatalysed: <50% % of O2 removed | Veolia Water Handbook Ch.11, Figure 11-12 discussion |
+| Hydrazine dosing ratio | theoretical 1.0 ppm per 1 ppm O2; practical 1.5–2.0 parts per part O2 ppm per ppm O2 | Veolia Water Handbook Ch.11; 35% solution with flash point >200 °F; decomposition begins ~400 °F, rapid at 600 °F; optimum pH 9.0–10.0 |
+| Sulphite vs organic scavenger pressure split | sulfite below 900 psig (62 barg); organic DEHA/carbohydrazide above 900 psig (62 barg) psig / barg | Veolia feedwater-treatment-chemicals product page; Ch.11 states sulfite typically below 1000 psig and hydrazine/organic at 1000 psig and above |
+| Boiler-water sulphite residual | 30 to 70 (shell) / 60 to 100 (coil) ppm | CEA BG04 Table 2 |
+| Boiler-water tannin / ascorbic acid / DEHA / filming amine residual | tannin 120–160 shell; ascorbic acid 15–30; DEHA 0.1–1.0 in feedwater; film-forming amines 0.2–1.0 in feedwater ppm | CEA BG04 Table 2 |
+| Boiler-water phosphate residual | 30 to 60 (shell) / 30 to 70 (coil) ppm | CEA BG04 Table 2; notes 9–10: phosphate reserve not essential if carbonate alkalinity >=250 ppm; phosphate should not exceed 10% of minimum caustic alkalinity; chelant max 10 ppm |
+| Caustic alkalinity as fraction of TDS under phosphate conditioning | 10-15 % of dissolved solids | CEA BG04 Table 2 note 8 |
+| Silica-to-caustic-alkalinity ratio to prevent silicate scale | <0.4:1 ratio | CEA BG04 Table 2 note 11 |
+| Boiler-water pH for magnetite film | 10.5 to 12.0 pH units | Spirax Sarco (BS 2486 recommendation for shell boilers at 10 bar; higher pH only in higher-pressure boilers); CEA BG04 Table 2 boiler-water shell 10.5–12.0 at 25 °C |
+| Feedwater pH for corrosion control | not less than 8.5 to 9 pH units | Spirax Sarco Pressurised Deaerators: lowest level at which CO2 is absent |
+| Low-pressure hot-water boiler treatment | 200–400 ppm P-alkalinity; sodium sulfite + pH adjustment + polymer dispersant ppm | Veolia Water Handbook Ch.11, Low-Pressure Steam and Hot Water Heating Systems |
+| Lay-up sulphite reserve | 150 ppm (<48 h); >250 ppm (48 h–7 d); >500 ppm (7 d–1 month); pH 10–11.5 for up to one month ppm as sulphite / pH | CEA BG04 §8 idle boilers |
+| FDA food-contact approval | 21 CFR 173.310 regulation | Veolia states many Solus/OptiSperse products approved where steam may contact food; Steamate FM1007 OMRI-listed |
+
+
+Recorded gaps:
+
+- Exact amine dosing rates (morpholine, cyclohexylamine, MEA) in ppm per ppm CO2 for HRSG — Retry TP1206EN via alternate host or fetch a Veolia Steamate NA series product bulletin with feed-rate basis
+- Hydrazine replacement/DEHA dosing limits in modern gas-fired HRSGs — Fetch GE Vernova or Siemens HRSG water-chemistry manual excerpt
+- Cost data with dollar year — Fetch the linked PDF case studies and record currency and dollar year before adding any cost figure
+
+### SCR reagent systems (ammonia/urea storage, dosing, injection grids; ammonium sulfate/bisulfate in HRSGs) (scr-reagent-system)
+
+Primary code: PWR: Power and renewables
+Store and deliver aqueous ammonia (or anhydrous ammonia / urea) to an ammonia injection grid (AIG) upstream of the SCR catalyst; tuning of AIG distribution controls NOx removal, ammonia slip and downstream ammonium bisulfate (ABS) / ammonium sulfate (AS) deposition on air-preheater or HRSG tube surfaces. Flow-correction devices (turning vanes, static mixers, graduated straightening grids) and CFD are used to obtain uniform NH3/NOx distribution.
+Vendors: Concord Environmental, Fuel Tech, John Zink Company, Cleaver-Brooks, Zeeco (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Aqueous ammonia concentration and injection rate at a 2x1 combined cycle | 28% aqueous solution, 150 lb/hr wt% and lb/hr | At plant design operating conditions for HRSG SCR; W501FC+ gas turbines, gas-only full-load rating 480 MW at 120 F/15% RH |
+| HRSG module gas-side pressure drop before/after dry-ice cleaning | 2.1-6.8 inches H2O (clean condition 2.1; rises to 6.8 or more) | Module 5 (LP evaporator, IP economiser, HP economiser) of each HRSG; fouling attributed to ammonium bisulfate deposition; ~5 in H2O increase cost about 1-1.5 MW output |
+
+
+Recorded gaps:
+
+- Urea-to-NOx stoichiometry, urea storage/dosing equipment details and urea SCR vendor scope not found in fetched pages — Fetch a urea-SCR OEM datasheet (e.g. fuel/chemical dosing skid vendor) with explicit kg urea/kg NOx basis.
+- Ammonium sulfate concerns in gas-fired HRSGs specifically (as opposed to coal air preheaters) only partly evidenced — Find HRSG-specific catalyst SO2/SO3 conversion and ABS dew-point guidance for gas turbine exhaust with low sulfur.
+- No reagent storage tank sizes, material specifications or safety distances evidenced — Fetch an ammonia storage/delivery system datasheet or CCJ 'Ammonia delivery mod' best-practice article.
+
 ## clarifiers-thickeners
 
 ### Clarifiers and thickeners (wwt-clarifiers-thickeners)
@@ -464,6 +516,26 @@ Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering (3 model lines recorde
 - **Casale** SPLIT FLOW LOOP: best suited up to 2,300 MTD, or 3,500 MTD with medium-pressure stage
 - **Saipem** Falling-film stripper 31/41 E-1: operates at 146 kg/cm2g
 
+## compressed-air
+
+### Instrument air / plant compressed air systems (dampers, control valves, actuators) (instrument-air-system)
+
+Primary code: PWR: Power and renewables
+Supply dry, oil-free, particulate-controlled compressed air to pneumatic actuators on dampers and control valves and to instrument/control devices; dryers, filters, separators and receivers condition the air; dew-point sensors monitor dryness at critical points. Seal air for HRSG bypass dampers is a separate but related air system.
+Vendors: Atlas Copco, CS Instruments, E+E Elektronik (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Minimum pressure dew point margin below coldest exposed instrument | 10 degrees C (18 F) below the lowest temperature any part of the instrument system is exposed to | Atlas Copco citing ANSI/ISA-7.0.01-1996; measured at dryer outlet |
+| Maximum pressure dew point at line pressure | 4 degrees C (39 F) | Atlas Copco citing ANSI/ISA-7.0.01-1996; companion to the 10 C margin rule |
+
+
+Recorded gaps:
+
+- Typical instrument-air supply pressure range for boiler damper/valve actuators not found on an authoritative page — Fetch ISA-7.0.01 summaries or actuator OEM (Fisher, Emerson, Siemens, Parker) datasheets stating supply pressure (e.g. 20-100 psig) with basis.
+- No Ingersoll Rand, Parker, Emerson or Fisher instrument-air page was actually read — Fetch named OEM pages for air preparation and instrument actuators before adding them as evidenced vendors.
+- No SE Asia-specific instrument-air ambient-design example found — Look for ISA-7.0.01 ambient/PDP chart reproduced by a regional vendor and cite its exact values.
+
 ## compressor
 
 ### Centrifugal compressor (compressor-centrifugal)
@@ -482,6 +554,23 @@ Recorded gaps:
 
 - per-vendor model-line ranges (flow, stage count, discharge pressure) for Siemens Energy STC, Baker Hughes BCL/DBL and PCL, MCO-I and Atlas Copco integrally-geared machines — fetch the OEM compressor family pages (browser session if needed) and add model lines with stated ranges
 - CO2-specific compression train boundaries (inlet, discharge, density effects) — mine the ccs-co2-compression-dehydration card's sources and OEM CO2 compression references
+
+### Fuel gas booster / compressor for low supply pressure to burners (fuel-gas-booster)
+
+Primary code: PWR: Power and renewables
+Raises incoming utility gas pressure to the net regulated pressure required at the burner gas-train inlet when mains pressure is insufficient; packaged skids combine a hermetically sealed centrifugal blower, check valve, inlet/outlet pressure switches, isolating valves, gauges and a factory control panel, usually installed just downstream of the gas meter. Selection basis: gas flow = burner firing rate / calorific value; pressure lift = minimum required burner pressure minus available mains pressure.
+Vendors: Eclipse Combustion (BoostPak; spec sheets hosted on Kromschroeder docuthek), ETTER Engineering / BoosterWorx, Cleaver-Brooks, Brittania Industries (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| ETTER compact booster package capacity | 1000-1600 cfh natural gas | E101-P rated up to 1,000 CFH; E101-PHC up to 1,600 CFH; hermetically sealed, UL-listed factory-assembled packages |
+
+
+Recorded gaps:
+
+- No fetchable OEM page giving a complete booster selection table keyed to boiler HP with both flow and pressure basis for HRSG duct burners or CFB plants — Search GE Vernova / B&W / Mitsubishi HRSG duct-burner fuel-train specifications and gas-compressor OEMs (e.g. Honeywell/Eclipse) for a fetchable duty table.
+- No named Asia-Pacific gas-booster vendor or installed plant found — Search local-language terms (e.g. 'gas booster boiler Malaysia/Indonesia/China', 'gas pressure booster burner') and check KOSHA/KTL-listed suppliers.
+- Pressure range of 1-3 psi for power generation is printed in a presentation; conversion to inches wc not printed — Find an OEM table printing power-generation burner pressure in a single unit.
 
 ## controls
 
@@ -563,6 +652,65 @@ Vendors: Veolia, Evoqua Water Technologies (1 model lines recorded).
 Recorded gaps:
 
 - per-model flow ranges — Read Veolia/Evoqua DAF model pages
+
+## damper
+
+### Stack/breeching dampers, bypass dampers and sealing systems for HRSG simple-cycle operation (hrsg-bypass-damper)
+
+Primary code: PWR: Power and renewables
+Diverter/bypass damper systems route gas-turbine exhaust either to the bypass stack (simple cycle, HRSG offline) or through the HRSG (combined cycle), with mechanically interlocked isolation and seal-air systems so personnel can enter the isolated HRSG while the turbine runs. Stack dampers slow HRSG cooling between starts, prevent rain ingress and provide overpressure relief.
+Vendors: Forney Corporation, NEM Energy, GSD (Genel Sistem Dizaynı), Boldrocchi Group, Fox Equipment, METCO Technologies, Energylink International, Hangguo (HGTYBypass) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Forney dual BiPlane interlock positions | 10-80 degrees: open damper locked >80 degrees while mating damper closes >10 degrees | Forney article; mechanical interlock requires one damper at least 80% open so turbine exhaust cannot be fully blocked |
+| Forney seal-air fans and allowable entry temperature | 2 fans at 200% capacity; seal-air curtain designed to maintain temperatures below 140 F (OSHA confined-space requirement) for HRSG entry | Forney article; truss blade cavity forms air-seal plenum, flexible seal packs at blade tips |
+| Carbon packing temperature limit and shaft material | 400 degrees C (753 F) oxidising temperature limit for carbon components; 17-4PH stainless shaft | Forney article; purged lantern ring prevents exposure to corrosion and temperature above the oxidising limit |
+
+
+Recorded gaps:
+
+- No named SE Asia HRSG bypass-damper project (Malaysia/Indonesia/Philippines) found — Search regional EPC project references for 'bypass damper HRSG' and check Hangguo/Chinese vendor project lists.
+- No design basis for seal-air pressure relative to exhaust pressure (other than 'higher than exhaust pressure' and >500 mm wc from two vendors) — Fetch a damper datasheet giving seal-air differential pressure, flow and fan sizing basis.
+- No damper leakage class tied to a named standard (e.g. ASME N510 / EN 12237) found — Look for an HRSG damper specification citing a leakage test standard.
+
+## ducting
+
+### Expansion joints, flexible connectors and pipe supports in hot flue-gas / steam ducts (expansion-joints-ducting)
+
+Primary code: PWR: Power and renewables
+Accommodate thermal expansion, vibration and directional movement in boiler/flue-gas ducts and steam piping; protect ductwork, equipment and supports from cyclic stress and fatigue (dB Noise Reduction; vendor catalogues search-verified).
+Vendors: dB Noise Reduction Inc., EagleBurgmann (KE-A/S), Unaflex / Kadant, Megaflexon, Thorburn Flex, BOA Group (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| flexible connection function | absorbs vibration and cyclic stresses from temperature changes, airflow turbulence and excessive vibration qualitative | dB Noise Reduction flexible connections page (read) |
+
+
+Recorded gaps:
+
+- Temperature, pressure, movement and life ratings for fabric vs metallic expansion joints in HRSG/CFB flue gas — Download catalogues locally, extract rating tables with model numbers and design codes, then cite page numbers.
+- Pipe support/anchor/guide spacing rules for hot steam lines — Find ASME B31.1 or vendor pipe-support design guide with exact tables and record basis.
+- Asia-Pacific expansion-joint suppliers and local fabricators — Run a targeted regional search for ASEAN fabric expansion joint suppliers with fetchable datasheets.
+
+## electrical
+
+### Boiler motor control centres / variable speed drives and electrical supply for fans and pumps (boiler-mcc-vfd)
+
+Primary code: PWR: Power and renewables
+Provide motor starting, protection and speed control for forced-draft/induced-draft fans, combustion-air blowers and boiler feedwater/service water pumps. VFDs replace throttling valves/inlet dampers with speed control, reducing energy use, wear and start-up current; BMS/CCS panels integrate VFDs with burner control.
+Vendors: TMEIC, ABB, SCC Inc., Zeeco, Emerson Copeland VFDs (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Provide motor starting, protection and speed control for forced-draft/induced-draft fans, combustion-air blowers and boiler feedwater/service water pumps. VFDs replace throttling valves/inlet dampers with speed control, reducing energy use, | Qualitative function from the pages read in this sweep. |
+
+
+Recorded gaps:
+
+- No named boiler MCC (motor control centre) product page or MCC bus/voltage/current rating found — Search 'boiler motor control centre MCC OEM' on Siemens/ABB/Schneider/Eaton sites and fetch a product page with bus rating and standards.
+- No electrical supply voltage/frequency figures for package boiler fans and pumps from an authoritative plant spec — Fetch a package boiler electrical utility requirement datasheet (OEM) listing site supply.
+- CrossCo VFD article not directly read (403) — Try the article via a cached/alternate URL or cite only the search-verified summary.
 
 ## emissions-control
 
@@ -648,6 +796,63 @@ Recorded gaps:
 - ID fan datasheets and quantified FGR ratios — Read fan and FGR datasheets for a specific boiler or HRSG.
 
 ## feedwater
+
+### Boiler feedwater pretreatment (boiler-feedwater-pretreatment)
+
+Primary code: PWR: Power and renewables
+Remove suspended solids, chlorine/oxidants, scale-forming calcium/magnesium hardness and alkalinity from raw/make-up water before it reaches the boiler, reducing scale, foaming, carryover and chemical demand. External (pre-boiler) treatment is preferred where possible; conditioning is only a supplement.
+Vendors: Veolia Water Technologies, LANXESS, SUEZ Water Technologies (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Ion-exchange resin bead diameter | 0.5 to 1.0 mm | Spirax Sarco description of resin beads in packed-bed GRP pressure vessel |
+| Brine concentration for softener regeneration | 7-12 % NaCl solution | Base-exchange softening activation/regeneration (Spirax Sarco) |
+| TDS reduction by sodium base exchange | 0 % reduction (none) | Spirax Sarco: no reduction in TDS and no change in pH; only exchange of scale-forming for non-scale-forming salts |
+| Condensate return threshold for successful softener use in high alkaline hardness areas | >=50 % of condensate returned | Spirax Sarco, base exchange softening |
+| Condensate return below which more sophisticated ion exchange / dealkalisation is preferable | <40 % | Spirax Sarco, shell boiler plant selection |
+| pH after dealkalisation + degassing | 8.5-? pH (minimum) | CEA/ICOM BG04 §2.14: sodium hydroxide solution added after degassing to raise pH to at least 8.5 |
+| Feed water total hardness — shell boiler | 2 max ppm as CaCO3 | CEA BG04 Table 2, recommended water characteristics for shell or coil boilers up to 32 bar g |
+| Feed water pH at 25 °C — shell boiler / coil boiler | 8.5 to 9.5 / 9.5 to 11 pH units | CEA BG04 Table 2; note 1: with copper alloys in feed system shell-boiler value should not exceed pH 9.2 |
+| Feed water alkalinity threshold for CO2 carryover | 25 ppm | CEA BG04 Table 2 note 5: >=25 ppm alkalinity results in about 10 ppm CO2 in the steam; dealkalisation or RO then recommended |
+| Thermal conductivity of calcium carbonate scale | 0.9-2.6 W/mK | CEA BG04 Table 1, typical boiler scales (6.0–18.0 Btu in/h ft2 °F) |
+| Steam velocity in well-designed steam system | 25-40 m/s | CEA BG04 §1.3 note: 25 m/s = 90 kph and up to 40 m/s = 145 kph; above 40 m/s deemed bad practice |
+
+
+Recorded gaps:
+
+- Vendor-specific datasheet for activated-carbon filters / media sized for boiler make-up — Fetch a Veolia/Suez activated-carbon filter datasheet and record media type, bed depth and service-flow basis
+- Dow/DuPont RO membrane element datasheet for boiler make-up — Fetch a current Dow/DuPont FILMTEC datasheet for brackish-water elements and record salt rejection, flow and test-pressure basis
+- CFB-specific feedwater pretreatment guidance — Search DOE/EPRI or a CFB OEM (e.g. B&W) for CFB water chemistry guidance
+
+### Deaerator vent condensers and feedtank internals (spray nozzles, trays, sparge pipes) (deaerator-vent-condenser-internals)
+
+Primary code: PWR: Power and renewables
+Mechanically remove dissolved oxygen and carbon dioxide by heating feedwater to saturation and breaking it into droplets/thin sheets in a steam atmosphere; collect deaerated water in a storage section under a steam blanket; vent non-condensables with a small controlled steam loss. Feedtank internals condense returned flash steam and mix cold make-up uniformly.
+Vendors: Spirax Sarco, Veolia Water Technologies & Solutions, Warren Controls (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Pressurised deaerator operating pressure / saturation temperature | 0.2 bar g / 105 bar g / °C | Spirax Sarco typical operating parameters |
+| Deaerator storage capacity | 10-20 minutes of full-load boiler feed | Spirax Sarco typical operating parameters |
+| Water supply pressure to deaerator | >=2 bar | Spirax Sarco: required for good distribution at the nozzle (1.8 bar assumed at nozzle inlet in worked example) |
+| Steam supply pressure to pressure control valve | 5-10 bar | Spirax Sarco typical operating parameters |
+| Maximum deaerator turndown | 5:1 ratio | Spirax Sarco; below this, nozzle/spray atomisation may be poor; multi-dome units used |
+| Recommended deaerator vent rate | 0.5-2 kg steam/air mixture per 1000 kg/h deaerator capacity | Spirax Sarco: manufacturer recommendation on practical experience; DN20 steam-duty ball valve typically used part-open |
+| Air and oxygen content of feedwater at 80 / 85 °C | 5.9 g air per 1000 kg at 80 °C; 2.3 g O2 per 1000 kg at 85 °C g per 1000 kg water | Spirax Sarco deaerator venting capacity worked example |
+| Dissolved oxygen target — high-pressure water-tube / superheat plant | <7 ppb | Spirax Sarco: rate of attack rises rapidly with temperature; pressurised deaerators used |
+| Feedtank operating temperature and residual oxygen | 85–90 °C leaves about 2 mg/L O2 °C / mg/L | Spirax Sarco Pressurised Deaerators; atmospheric practical maximum ~85 °C |
+| Pressurised deaerator oxygen removal | 7 to 40 ppb O2 | DOE Steam Sourcebook: feedwater oxygen content by design of deaerator/deaerating heater |
+| Feedtank vent size | DN80 on 2000 L tank-DN250 on 30000 L tank nominal diameter | Spirax Sarco feedtank design and atmospheric deaerator guidance; vent head with internal baffle |
+| Feedtank storage capacity | 1 hour of steaming at maximum boiler evaporation | Spirax Sarco traditional practice; larger plants may use smaller hotwell plus cold treated-water storage |
+| Fuel saving per feedtank temperature rise | 1 % less fuel per 6 °C rise in feedtank temperature | Spirax Sarco, condensate return |
+| Feedpump cavitation risk threshold | >80 % condensate return (typical) | Spirax Sarco caution: excessive feedwater temperature can cause pump cavitation |
+| Deaerator internal corrosion locations | Stainless-steel tray chamber SCC; inlet spray-valve spring cracking; vent-condenser oxygen pitting; impingement-baffle erosion near steam inlet qualitative | Veolia Water Handbook Ch.11, Deaerators section |
+
+
+Recorded gaps:
+
+- Vent-condenser duty/specification sizing method and tray vs spray nozzle performance comparison table — Fetch an OEM deaerator datasheet (e.g. Spirax, Warren Controls via alternate host) with textual tray/spray comparison and vent-condenser sizing basis
+- Named deaerator OEM for gas-fired HRSG duty in Southeast Asia — Search for Siemens/GE Vernova/Veolia deaerator packages at regional combined-cycle plants
 
 ### Feedtank, deaerator and feedwater pump (feedwater-deaerator-system)
 
@@ -748,6 +953,38 @@ Recorded gaps:
 
 - superheater surface, metal temperature limits and attemperator spray rates — Read OEM superheater design descriptions and cycling guidance.
 
+## heat-recovery
+
+### Continuous/TDS blowdown control, flash vessels, blowdown heat-recovery exchangers (blowdown-heat-recovery)
+
+Primary code: PWR: Power and renewables
+Continuously remove concentrated boiler water to hold TDS below foaming/carryover limits; reduce energy and water loss by flashing to low pressure, recovering flash steam to the feedtank/deaerator, and cooling residual blowdown through a heat exchanger that preheats make-up before discharge.
+Vendors: Spirax Sarco, TLV, Veolia Water Technologies & Solutions (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Conventional shell-boiler boiler-water TDS operating range | 2000-3500 ppm | Spirax Sarco: 2000 ppm very small boilers to 3500 ppm larger boilers, provided near design pressure and moderate load |
+| Automatic TDS control example dead-band | open at 3000 ppm; close at 2700 ppm (10% band) ppm | Spirax Sarco on/off blowdown valve control illustration |
+| Continuous blowdown orifice example | 1111 kg/h through ~3.6 mm orifice; 10 mm seat with needle set to 9.33 mm kg/h / mm | Spirax Sarco worked example; downstream pressure assumed 0.5 bar g |
+| Volume increase across blowdown orifice | >1000 times liquid volume | Spirax Sarco: water at saturation drops almost full boiler pressure across the orifice |
+| Flash fraction from 10 bar g to 0.5 bar g | 14.1 % of blowdown water flashed | Spirax Sarco heat-recovery worked example; boiler saturation 184 °C; hfg at 0.5 bar g = 2226 kJ/kg |
+| Flash steam energy share of blowdown | about 49 % of blowdown energy flow | Spirax Sarco example (97 kW recoverable in flash steam vs 241 kW total blown down, 0 °C datum) |
+| Flash-vessel steam velocity limit | 3 m/s maximum in top section | Spirax Sarco equipment requirement; vessels built to recognised pressure-vessel standard e.g. PD 5500 |
+| Blowdown heat recovery via flash vessel | about 40 % of energy in boiler blowdown | Spirax Sarco (flash vessel and associated equipment, before residual heat recovery) |
+| Residual blowdown temperature after heat exchanger | about 20 °C | Spirax Sarco: residual blowdown from 0.5 bar g flash vessel at about 105 °C cooled to ~20 °C heating make-up water |
+| Total recovery with flash steam + residual heat exchanger | 82% of original blowdown energy; 14% by mass of water recovered % | Spirax Sarco summary of complete heat-recovery arrangement |
+| Bottom blowdown example (10 bar g, 40 mm line, 10 m equivalent length) | 6.2 kg/s; hf 782 kJ/kg → 4.85 MW; 16% flashes to atmosphere kg/s / kJ/kg / MW / % | Spirax Sarco Bottom Blowdown worked example; minimum reasonable blowdown line length 7.5 m |
+| Blowdown vessel design pressure | >=25% of boiler maximum working pressure % | Spirax Sarco extracting HSE Guidance Note PM60; design temperature >= saturation temperature at vessel design pressure |
+| Bottom blowdown restriction | should never be permitted unless recommended by boiler manufacturer; above 700 psig may cause water starvation psig | DOE Steam Sourcebook, Boiler Blowdown System section |
+| BDV60 blowdown vessel design standard | ASME VIII Div 1 2015; Pressure Equipment Safety Regulations 2016; CEA BG03 standard | Spirax Sarco Malaysia product page |
+
+
+Recorded gaps:
+
+- Blowdown heat-recovery vendor datasheet with duty and approach-temperature basis — Fetch a Spirax/TLV blowdown heat-recovery package datasheet and record design duty, terminal temperatures and materials
+- HRSG-specific continuous blowdown rates and flash recovery at high pressure — Fetch GE Vernova/Siemens HRSG water-chemistry or O&M guidance
+- Dollar-year cost of blowdown heat loss — Only add after fetching a dated DOE tip sheet or BoE with explicit price year
+
 ## hv-circuit-breakers
 
 ### High-voltage circuit breakers (132-500 kV) (ele-hv-circuit-breakers)
@@ -772,6 +1009,77 @@ Vendors: Hitachi Energy, Siemens Energy, GE Vernova (3 model lines recorded).
 Recorded gaps:
 
 - SF6 leakage rate and mechanical operating times from a manufacturer datasheet — Ask the owner for a manufacturer breaker datasheet, or read a GE/Hitachi technical guide
+
+## ignition
+
+### Pilot and ignition systems (pilots, igniters, flame scanners, BMS sequencing) (boiler-pilot-ignition-system)
+
+Primary code: PWR: Power and renewables
+Provide a reliable ignition source for pilot and main burners and prove flame presence before fuel is admitted; burner management system (BMS) sequences purge, pilot trial-for-ignition, flame proof, main flame light-off and shutdown, while a separate combustion control system meters fuel/air. Flame scanners with background-flame discrimination allow light-off and verification from the control room.
+Vendors: John Zink Company, Zeeco, Forney Corporation, Siemens, Profire Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| InstaFire pilot flame-loss detection time | 6-20 seconds | John Zink vendor page; stated faster than thermocouples which can take more than 9 minutes; control panel up to 1,000 ft from pilot; no compressed air required |
+| FFG remote ignition distance and service life | 1000 ft (distance from pilot; 'over 1,000 feet'); >40 years proven performance | John Zink vendor page; schedule 80 carbon or stainless steel piping; natural gas, propane, hydrogen; manual piezoelectric or automatic line-powered transformer |
+| Zeeco ProFlame scanner hazardous-area models | ZPF-110 (Zone 1, II 2G EExd IIC T6), ZPF-120 (Zone 2), ZPF-130 (nonhazardous) model designations | Zeeco Flame Scanners product page; ProFlame+ utility grade ZPF-1100UV/IR/DS, ZPF-1200UV/IR/DS, fiber optic ZPF-1200UF/IF |
+| Vortex-cooled scanner temperature drop | 28 degrees C (50 F) below incoming compressed air | Zeeco product page: vortex tube uses compressed air, no moving parts; cools scanner internals |
+| Zeeco Free Jet Power Burner emissions and turndown | 9-50 ppm NOx (9 ppm), sub-50 ppm CO, 20:1 fuel turndown; 30 ppm NOx potential without flue-gas recirculation | Chemical Engineering magazine interview with Zeeco CTO; small external flue-gas recirculation |
+| John Zink Solex burner NOx | 5 ppm NOx across fuel compositions and furnace temperatures | Chemical Engineering magazine; two combustion zones, compact flame length, designed to avoid SCR |
+| Profire 3100 BMS modular capacity | 32 modules combinable from one user interface | Chemical Engineering magazine; modules certified with regulatory bodies; can manage multiple burners or multiple pilots; forced-air I/O |
+
+
+Recorded gaps:
+
+- Laser/tunable-diode-laser ignition is not evidenced; only laser-based combustion *diagnostics* (John Zink ZoloSCAN WM-TDLAS, Yokogawa TDLS O2 analyzer) were found — Search specifically for 'laser ignition boiler burner' or 'laser-induced ignition pilot' vendor literature before recording laser igniters as a type.
+- No fetchable NFPA 85 document (paywalled); trial-for-ignition numbers quoted second-hand via AFRC (NFPA 86) and magazine articles — Use NFPA 85 handbook summaries or insurer/BOCA guidance pages that print the trial-for-ignition and purge requirements.
+- Asia-Pacific flame scanner/pilot vendors not yet evidenced beyond Zeeco/John Zink regional offices — Search KOSHA/KTL-certified ignition suppliers and Chinese/Japanese flame scanner OEMs.
+
+## instrumentation
+
+### Boiler water sampling and analysis (boiler-water-sampling-analysis)
+
+Primary code: PWR: Power and renewables
+Obtain a representative, cooled sample for TDS/conductivity, pH, phosphate, silica, sulphite and iron testing without flash loss or scalding; increasingly use continuous online analysers linked to automatic blowdown and dosing control.
+Vendors: Spirax Sarco, Veolia Water Technologies & Solutions (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Cooled sample temperature for conductivity measurement | <25 °C | Spirax Sarco: add phenolphthalein then 5% acetic acid drop-by-drop until colourless before measuring |
+| Hydrometer sensitivity | 0.0001 relative density at 15.5 °C ≈ 110 ppm TDS ppm per 0.0001 relative density | Spirax Sarco relative-density method |
+| AC excitation frequency for boiler-water conductivity probe | ~1000 Hz | Spirax Sarco: high frequency needed to avoid electrolytic polarisation at high boiler-water conductivity |
+| Representative sample point | TDS blowdown connection qualitative | Spirax Sarco: do not sample from gauge glasses, external control chambers or near feedwater inlet |
+| Condensate analysis frequency | daily (minimum) per day | CEA BG04 §5: basic condensate analysis daily to prove steam quality and system health |
+| Inline vs offline analytical alignment | online photometric methods aligned with routine offline methods; inline probes add operational data qualitative | Veolia TrueSense Analyze boiler water analyzer product page |
+| Conductivity vs TDS measurement practice | only one of the two needs to be measured; same method/readout must be used consistently qualitative | CEA BG04 Table 2 notes 12–13 |
+
+
+Recorded gaps:
+
+- Online silica analyser specification for HRSG/utility boilers — Fetch a Veolia Sievers/online silica analyser datasheet or equivalent OEM page
+- Full analytical method standard BS 1427:2009 contents — Record as a standard reference and fetch only if a public summary is available
+
+## insulation
+
+### Thermal insulation / lagging and cladding for boilers and steam lines (heat-loss figures) (boiler-insulation-heat-loss)
+
+Primary code: PWR: Power and renewables
+Reduce heat loss from boiler surfaces, steam and condensate piping, protect personnel and maintain steam pressure/temperature; insulation also reduces condensate formation and trap load (DOE steam tip sheets, search-verified; Engineering ToolBox; TLV).
+Vendors: SVI BREMCO (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| bare steam pipe heat loss | 54 to 1,852 W/m | Engineering ToolBox table for uninsulated horizontal steam pipes, still air, ambient 10-25°C; pipes 56-194 mm, temperature difference 15-150°C; min value 54 W/m at 56 mm/ΔT15, max 1,852 W/m at 194 mm/ΔT150 |
+| insulation thermal conductivity basis | 0.036 W/(m·K) | fibreglass insulation assumption for Engineering ToolBox insulated-pipe heat-loss diagrams |
+| worked insulated-pipe heat loss | ~20 W/m | 2 1/2 inch steel pipe, 80 mm fibreglass, fluid 90°C, ambient 10°C (ΔT 80°C), read from 80 mm diagram |
+| TD trap cap insulating cover effect | steam loss can be halved qualitative | Spirax Sarco energy-loss tutorial: insulating cap on thermodynamic trap under no-load conditions |
+| bimetallic trap lagging restriction | requires 1-3 m unlagged cooling leg m | Spirax Sarco thermostatic trap page |
+
+
+Recorded gaps:
+
+- Cladding material/thickness and weatherproofing specifications for outdoor steam lines in Southeast Asia — Find boiler OEM or insulation contractor specification with cladding gauge, material and fastening details.
+- Numeric heat-loss chart values for insulated HRSG/boiler casings (as opposed to pipes) — Fetch a boiler/HRSG OEM thermal performance datasheet or ASTM C680 based calculation example.
 
 ## lv-switchboards
 
@@ -1068,6 +1376,23 @@ Recorded gaps:
 
 ## pump
 
+### Boiler circulation pumps / forced-circulation pumps (HRSG, once-through, controlled circulation) (boiler-circulation-pump)
+
+Primary code: PWR: Power and renewables
+In forced/controlled-circulation HRSGs and boilers, a pump circulates water/steam-water mixture from the drum through parallel evaporator circuits and back, maintaining tube-wall wetting where natural density head is insufficient (horizontal tubes, limited drum-to-evaporator height, long circuits). Natural-circulation and once-through units need no circulation pump in normal operation (once-through with superimposed circulation uses one at start-up/low load).
+Vendors: Cleaver-Brooks (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Circulation ratio rule of thumb for forced-circulation HRSG | 5 ratio (5:1 circulating flow to steam flow) | Esteem Projects HRSG tutorial; 20-25% steam generation by weight is the film-boiling 'danger' zone; 3:1 may suffice where drum is far below/above evaporator |
+
+
+Recorded gaps:
+
+- No named OEM of HRSG circulation pumps (e.g. KSB, Grundfos, Sulzer) with a fetchable HRSG-specific product page — Search 'HRSG circulation pump KSB / Sulzer / Ruhrpumpen' and fetch datasheets with flow/head/NPSH basis.
+- No pump duty point (flow, head, NPSHr) for a specific HRSG circulation pump found — Locate an HRSG vendor proposal or EPC datasheet with forced-circulation pump duty.
+- No SE Asia HRSG forced-circulation plant example found — Search regional EPC/HRSG supplier case studies.
+
 ### Centrifugal pump (API 610 and general service) (pump-centrifugal)
 
 Primary code: ROT: Rotating and static equipment
@@ -1085,6 +1410,48 @@ Recorded gaps:
 
 - per-model flow, head and pressure ranges for the API 610 families (Sulzer ZE/ZP/ZPP, Flowserve Mark III/OH2/BB5, KSB) — fetch the Sulzer ZE/ZPP and Flowserve OH2/BB5 family pages (browser session if needed) and add per-model ranges
 - energy-footprint and efficiency benchmark for process pumps — Hydraulic Institute (pumps.org) pumping-system assessment publication is the natural source
+
+### Condensate return pumps, hot wells / collection tanks and condensate return lines (pumping vs pressure return; (condensate-pump-hot-well)
+
+Primary code: PWR: Power and renewables
+Collect and return hot condensate to the boiler/feedwater system. Where trap inlet pressure cannot overcome return-line backpressure (lift + friction + receiver pressure = TDH), use electric centrifugal/turbine pumps, non-electric steam/air-driven mechanical pumps (SPDs/pump-traps), or ejector-assisted low-NPSH condensate pumps (TLV; Spirax Sarco).
+Vendors: Spirax Sarco (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| cavitation onset, condensate temperature | 80 °C | TLV: cavitation more typical with high-RPM motors when pumped liquid temperature rises above 80°C and NPSHA < NPSHR |
+| elevated collection tank filling head above pump NPSHR | 3-5 m (10-16 ft) | TLV mitigation for hot condensate to raise NPSHA (if added backpressure acceptable) |
+| ejector-assisted condensate pump minimum NPSHA | 1 m (3 ft) | TLV specialty pump with suction ejector; low filling-head installation |
+| pump speed example affecting local pressure drop | 1,750 vs 3,500 RPM | TLV cavitation article: higher speed raises impeller velocity and local pressure drop |
+| return-line backpressure components (TDH) | lift + pipe friction + receiver static pressure qualitative | TLV definition of Total Dynamic Head |
+
+
+Recorded gaps:
+
+- Hot-well sizing criteria and recommended storage minutes for each boiler type — Obtain vendor commissioning manuals or DOE steam system survey guide and cite the exact design rule.
+- Condensate return line velocity/erosion limits and flash-steam allowance in sizing — Fetch TLV 'Condensate Recovery Piping' and Spirax block 13 pages for velocity and flash allowances.
+
+### Feedwater pump duty, NPSH and selection for package boilers (boiler-feedwater-pump)
+
+Primary code: PWR: Power and renewables
+Maintain drum water level by delivering feedwater at flow above evaporation rate and at head above boiler pressure plus valve/piping losses; NPSH available must exceed pump NPSH required at hot feedwater temperature to avoid cavitation. Arrangements: direct feed per boiler or booster set feeding a common manifold with modulating feedwater valves.
+Vendors: Grundfos, Cleaver-Brooks, Atlantic Feedwater Systems, Changyu Pump (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Applicability of the 16-step selection method | 100-1200 boiler horsepower; design pressure 150-500 psig | HPAC Engineering article by Steve Connor (Cleaver-Brooks) and Jim Swetye (Grundfos) |
+| Base flow formula | boiler maximum-capacity HP x 0.069 x C; C=1.50 intermittent, C=1.15 continuous gpm (as presented) | HPAC article step 2; 0.069 is a stated constant |
+| Continuous blowdown and bypass allowance | 10-20 percent of pump best-efficiency-point flow | HPAC steps 3-4: continuous blowdown often ~10% of BEP flow; bypass recirculation often 10-20% of BEP flow |
+| Base head formula | max boiler operating pressure x 2.31 x 1.03 / liquid specific gravity feet of head | HPAC step 6; factor 1.03 is the safety margin on boiler pressure |
+| Shutoff head above safety-valve setting | 3 percent | HPAC steps 10 and 14; shutoff head must be at least 3% above safety-valve setting |
+| NPSHa definition | absolute pressure in feedwater tank +/- elevation of minimum water level above pump - vapor pressure of water in tank - suction-line friction loss formula (head units) | HPAC step 12; NPSHr vs NPSHa must be checked for every installation (step 15) |
+
+
+Recorded gaps:
+
+- A specific manufacturer pump curve selection (model, flow, head, NPSHr) for a named package boiler was not read — Fetch a Grundfos/KSB/Sulzer boiler-feed pump datasheet and record model, flow, head, NPSHr and temperature basis.
+- KSB feedwater-pump product page not found/read — Target ksb.com boiler feedwater pump pages directly.
+- No NPSHr value from an OEM for a package-boiler feed pump — Obtain OEM curve with NPSHr at the actual duty point.
 
 ## safety
 
@@ -1114,6 +1481,75 @@ Vendors: Spirax Sarco, TLV (0 model lines recorded).
 Recorded gaps:
 
 - code-specific setting and capacity certifies for ASME Section I versus EN 12953 — Verify against ASME BPVC Section I and EN 12953 before using these as design limits.
+
+## separator
+
+### Steam separators / dryers and steam headers (moisture carryover limits) (steam-separators-dryers)
+
+Primary code: PWR: Power and renewables
+Remove entrained water droplets from steam that traps cannot catch; protect turbines, control valves and heat-transfer equipment from erosion, water hammer and reduced heat transfer; provide dry steam at point of use (TLV; Spirax Sarco).
+Vendors: Spirax Sarco (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| entrainment onset velocity | 10 m/s | TLV: at flow velocities as low as 10 m/s, directional changes and pressure differentials can entrain bottom condensate |
+| entrained droplet transport velocity | up to 30 m/s | TLV separator article |
+| TLV cyclone separator efficiency | up to 98 % | vendor claim using all four separation principles (mechanical impediment, velocity, directional change, impingement) |
+| steam dryness fraction definition | dryness = 100% - % entrained water by mass % | TLV basics; boilers do not generate 100% dry saturated steam without superheater |
+| sodium in steam indicating mechanical carryover | <=2 ppb | Chemical Engineering steam purity limit; saturated-steam sampling used to check drum mechanical carryover / failed separators |
+| steam velocity in superheated mains | up to 100 m/s | Spirax Sarco: possible with superheated steam if pressure drop acceptable, allowing smaller distribution pipelines |
+
+
+Recorded gaps:
+
+- Generic steam dryer moisture carryover limit (e.g. % by mass) for each boiler type — Locate turbine OEM (GE Vernova/Siemens) steam purity specification or ASME steam purity guidance and cite exact wetness limit with basis.
+- Separator pressure drop and capacity curves — Fetch TLV Valve Calculator / product datasheets for cyclone separator models.
+
+## service
+
+### Chemical cleaning and passivation of new boilers (pre-commissioning) (boiler-chemical-cleaning-passivation)
+
+Primary code: PWR: Power and renewables
+Remove welding slag, iron oxides, grease and construction debris from a newly built boiler before start-up; then form a protective magnetite film (passivation) to minimise corrosion and pitting during commissioning and lay-up.
+Vendors: Veolia Australia & New Zealand — Industrial Services, Veolia Water Technologies & Solutions (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Nyrstar Port Pirie new-boiler clean — degreasing temperature | 70 °C | Veolia ANZ case study: degreasing of a 140,000 L system |
+| Nyrstar passivation conditions | ammonia + sodium nitrate at pH 9 and 60 °C pH / °C | Veolia ANZ case study, 'The benefits' section |
+| Nyrstar clean duration / system volume / hours worked | 3 weeks / 140,000 L / 3,489 hours worked / 0 injuries weeks / L / hours / count | Veolia ANZ case study summary panel |
+| Hydrochloric acid cleaning reaction with magnetite | Fe3O4 + 8HCl → FeCl2 + 2FeCl3 + 4H2O stoichiometric reaction | Veolia Water Handbook Ch.11; ferric chloride corrosive, can dissolve metallic copper leading to copper replating and galvanic pitting unless complexing agent added |
+| Hydrazine/hydroquinone passivation reactions | N2H4 + 6Fe2O3 → 4Fe3O4 + 2H2O + N2; C6H4(OH)2 + 3Fe2O3 → 2Fe3O4 + C6H4O2 + H2O stoichiometric reactions | Veolia Water Handbook Ch.11, Metal Passivation section |
+| Acid-cleaning failure modes | Inhibitor breakdown from overheating cleaning solution; excessive exposure; high cleaning-agent concentration; incomplete neutralisation before start-up qualitative | Veolia Water Handbook Ch.11, Acidic Corrosion section |
+| Neutralisation pH before drain after chemical flush (hot-water systems) | 6.0 to 8.5 pH units | CEA BG04 §6.16 final full system flush |
+| Chemical cleaning time saving claim | up to 90% reduced cleaning time; up to two days saved on large vessels vs steaming-out % / days | Veolia ANZ chemical cleaning service page (company claim) |
+
+
+Recorded gaps:
+
+- Detailed chemical-cleaning procedure for gas-fired HRSGs (drum/pressure-part-specific) — Fetch an OEM HRSG commissioning/cleaning manual excerpt or Veolia technical paper on pre-operational cleaning of combined-cycle HRSGs
+- Southeast Asian chemical-cleaning contractor/vendor for new boilers — Search for Veolia/Suez industrial cleaning services in Malaysia, Singapore and Indonesia and record service scope with URLs
+
+## silencer
+
+### Silencers (fan inlet, stack/breeching, PRV/steam vent) (boiler-stack-vent-silencers)
+
+Primary code: PWR: Power and renewables
+Attenuate noise from fans/inlets, stack and breeching gas flow, and high-energy steam/gas vents through relief, safety, control or start-up valves; ensure acoustic compliance and personnel safety (Burgess-Manning; IMI; SVI BREMCO; dB Noise Reduction).
+Vendors: Burgess-Manning (CECO Environmental), IMI Process Automation, SVI BREMCO, dB Noise Reduction (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| guaranteed vent silencer attenuation | up to 60 dBA | Burgess-Manning custom vent silencer claim (transformative + absorptive principles) |
+| silencer design codes | ASME B31.1, B31.3, B31.8, ASME VIII Div 1, EN 13480, EN 13445 code list | Burgess-Manning custom vent silencer design codes |
+| fan inlet silencer selection inputs | fan type; duct configuration; allowable pressure drop; required noise reduction qualitative design inputs | dB Noise Reduction fan inlet silencer page (read) |
+| vent silencer service range | all kinds of flow rates, pressures and temperatures; no inlet/casing diameter limit qualitative | Burgess-Manning custom vent silencer page |
+
+
+Recorded gaps:
+
+- Site-specific insertion loss and pressure-drop curves for each silencer type — Request vendor selection sheets with flow, pressure, temperature and required sound level; record insertion loss by octave band and allowable dP.
+- Fan inlet silencer design inputs for boiler forced-draft/induced-draft fans specifically — Find boiler OEM (B&W/GE Vernova) or silencer case study for FD/ID fan installations.
 
 ## sludge-dewatering
 
@@ -1159,6 +1595,35 @@ Vendors: Topsoe, KBR, thyssenkrupp Uhde (3 model lines recorded).
 Recorded gaps:
 
 - tube wall temperature and tube-life limits — fetch an OEM reformer datasheet or a metallurgy reference that states tube skin temperature
+
+## steam-trap
+
+### Steam traps (thermodynamic, float, thermostatic, inverted bucket) (steam-traps-condensate-return)
+
+Primary code: PWR: Power and renewables
+Automatically discharge condensate, air and non-condensable gases from steam lines and heat-using equipment while holding back live steam; protects against waterlogging, water hammer, erosion and corrosion (Spirax Sarco; TLV).
+Vendors: Spirax Sarco, Armstrong International (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| thermodynamic trap minimum inlet pressure | 0.25 bar g | typical minimum differential for disc-type operation; source: Spirax Sarco 'Thermodynamic Steam Traps' |
+| thermodynamic trap maximum backpressure | 80 % of inlet pressure | Spirax Sarco design limit for TD traps |
+| TD trap closed period | 20-40 s | typical cycling interval, depends on steam temperature and ambient conditions; Spirax Sarco |
+| no-load steam loss, thermostatic / inverted-bucket / thermodynamic traps | up to ~0.5 kg/h | laboratory tests for 1/2-inch traps at low/no-load; Spirax Sarco energy-loss tutorial (thermostatic 'up to 0.5', inverted bucket 'around 0.5', TD 'generally around 0.5, doubled in severe weather, halved with insulating cap') |
+| TD trap radiation loss | not more than 0.25 kg/h | independent tests, small TD trap; at least a quarter of equal-sized inverted bucket traps; Spirax Sarco |
+| bimetallic trap cooling leg | 1-3 m | unlagged pipe needed to avoid waterlogging when trap discharges below saturation; Spirax Sarco |
+| liquid-expansion trap discharge temperature setting | 60-100 °C | adjustable discharge range of oil-filled element; Spirax Sarco |
+| balanced-pressure trap superheat tolerance | up to 70 °C of superheat | modern welded stainless capsule type; Spirax Sarco |
+| steam mains drainage interval | 30-50 m | general rule with adequately sized drain pockets; also drain bottom of every riser; Spirax Sarco |
+| free-float trap upper pressure application | up to 12 MPaG | certain TLV free-float models in high-pressure service |
+| disc trap upper pressure application | up to 26 MPaG | certain TLV disc-type models; cited for supercritical steam/condensate service |
+
+
+Recorded gaps:
+
+- Per-model trap capacity tables (kg/h vs differential pressure) and connection sizes — Fetch manufacturer selector tools (TLV Valve Calculator, Spirax datasheets) or request datasheets and record model-specific capacity with differential pressure basis.
+- Trap failure-mode distribution by boiler type (fire-tube vs HRSG vs CFB) — Locate plant-specific steam trap survey reports or EPRI/DOE case studies broken out by boiler type.
+- Monetised annual steam-trap loss with stated dollar year — Find a dated DOE/Armstrong publication and record dollar year and escalation basis.
 
 ## switchgear
 
@@ -1263,6 +1728,35 @@ Recorded gaps:
 
 - per-model lamp counts and flows — Read Trojan/UVDI model pages
 
+## valve-station
+
+### Pressure-reducing valves (PRVs) and desuperheating / attemperation stations (prv-desuperheating-station)
+
+Primary code: PWR: Power and renewables
+Reduce and stabilise steam pressure for process users (self-acting or actuated), and, where superheated steam is used for heating, inject water to control superheat to a temperature above saturation; protect downstream equipment and stabilise control (Spirax Sarco; TLV).
+Vendors: Spirax Sarco (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| direct-acting bellows PRV proportional band | 30-40 % of upstream pressure | Spirax Sarco pressure control applications |
+| pilot-operated PRV proportional band | typically <200 kPa | Spirax Sarco: narrow band and low hysteresis give tight repeatable control |
+| practical maximum pressure ratio per reducing stage | 10:1 ratio | Spirax Sarco series pressure reducing stations; example 25 barg -> 5 barg -> 1 barg |
+| globe control valve flow rangeability | 50:1 ratio | Spirax Sarco stated acceptable rangeability for pneumatic/electropneumatic pressure reduction |
+| diaphragm PRV pressure drop capability | 50:1 small sizes; 10:1 large sizes ratio | Spirax Sarco direct-operated diaphragm type |
+| desuperheated steam temperature above saturation (control setpoint) | 5-10 °C above saturation | Spirax Sarco pressure control applications; basic theory page says minimum typically within 3°C of saturation |
+| single-nozzle spray desuperheater minimum approach / turndown | 10°C above saturation; turndown max 3:1 °C / ratio | Spirax Sarco basic desuperheater types; radial and axial single-nozzle types |
+| multi-nozzle axial desuperheater turndown | 8:1 fixed area; 9:1 spring-assisted; 12:1 variable area ratio | Spirax Sarco basic desuperheater types |
+| tube-bundle desuperheater envelope | typically around 60 bar and 450°C; within 5°C of saturation bar / °C | Spirax Sarco indirect-contact type; high max operating temperature and pressure |
+| desuperheater steam inlet velocity | 40-60 m/s | typical velocity entering a desuperheater in good piping design; Spirax Sarco |
+| attemperation water pressure | must exceed steam pressure at injection point qualitative | Spirax Sarco water spray desuperheating; booster pump may be required |
+| steam enthalpy split example | at 10 bar a / 300°C: water 763, evaporation 2015, superheat 274 kJ/kg | Spirax Sarco worked example; illustrates why desuperheating is needed for heating applications |
+
+
+Recorded gaps:
+
+- Numeric attemperation/spraywater purity limit (conductivity, sodium, silica, solids) — Fetch GE Vernova/Siemens steam turbine or boiler attemperation water specification and cite exact limits and basis.
+- PRV noise prediction and silencer sizing method — Fetch Spirax control-valve noise module and IEC 60534-8-3 based vendor sizing notes.
+
 ## valve-train
 
 ### Boiler fuel gas train (double block and bleed) (gas-valve-train)
@@ -1283,3 +1777,56 @@ Recorded gaps:
 
 - explicit vent arrangement and valve proof-of-closure details — Read a fuel-train P&ID from an OEM or NFPA 85 primary text.
 - gas booster/compressor sizing for low supply pressure — Find a gas-pressure and booster selection reference.
+
+## water-treatment
+
+### Condensate polishing systems for HRSG / once-through boilers (filtration, ion exchange; conductivity/sodium ta (condensate-polishing-system)
+
+Primary code: PWR: Power and renewables
+Remove ionic and particulate contaminants (sodium, chloride, sulfate, silica, iron/copper oxides) from returned condensate and makeup before it reaches the boiler/steam generator, protecting boilers, turbines and HRSG evaporators from scaling, corrosion, hydrogen damage and turbine deposition (Graver; Chemical Engineering/ChemTreat).
+Vendors: Graver Technologies, WOG Technologies Limited, Kurita Water Industries (Kurita ASEAN), Veolia Water Technologies, Purolite (Ecolab), Ion Exchange (India) Ltd, Ovivo (Christ Water Technology / Kennicott) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| makeup treatment effluent specific conductivity | <=0.1 µS/cm | recommended normal upper limit for final MBIX/EDI effluent; Chemical Engineering (ChemTreat), 2019 |
+| condensate pump discharge cation conductivity (CACE) | <=0.2 µS/cm | recommended continuous CPD analysis for HRSG; Chemical Engineering (ChemTreat), 2019 |
+| feedwater cation conductivity (AVT(O)) | <=0.2 µS/cm |  Chemical Engineering (ChemTreat) AVT(O) recommended limit for high-pressure steam generators |
+| steam purity sodium / silica / CACE | Na <=2 ppb; SiO2 <=10 ppb; CACE <=0.2 µS/cm ppb / µS/cm | core steam purity monitoring parameters, Chemical Engineering (ChemTreat), 2019 |
+| CPU outlet quality claimed by vendor | conductivity <0.2 µS/cm; silica <10 ppb µS/cm / ppb | WOG Technologies CPU FAQ, dependent on feed quality and design |
+
+
+Recorded gaps:
+
+- Licensed primary EPRI/IAPWS tables for polisher outlet, drum HRSG and once-through HRSG action levels — Obtain EPRI 3002001381/TR-110051 or free IAPWS guidance and re-record targets with table numbers.
+- Polisher resin bed depth, flow rate (BV/h), differential pressure and temperature limits — Download and parse the Graver/Purolite datasheets via local PDF tooling, recording exact model and basis.
+-  Asia-Pacific refinery/petrochemical condensate polisher installations with named units and dates — Search utility tender awards and vendor press releases with plant name and commissioning year.
+
+### Reverse osmosis (RO), electrodeionisation (EDI/CEDI) and demineralisation for boiler make-up; conductivity/sil (boiler-makeup-ro-edi)
+
+Primary code: PWR: Power and renewables
+Produce high-purity make-up water with very low dissolved solids, silica and CO2 to allow high cycles of concentration, low blowdown and safe operation of high-pressure drums and superheaters. RO is the main corrective pre-treatment after softening; EDI/CEDI polishes RO permeate without acid/caustic regenerants.
+Vendors: Veolia Water Technologies, LANXESS, SUEZ Water Technologies (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| RO membrane element permeate recovery without fouling | 10-15 % of raw feed per membrane | CEA BG04 §2.9 (single membrane pass, no recirculation) |
+| RO system recovery with concentrate recirculation | 75-85 % | CEA BG04 §2.9; achieved without significant fouling especially with softened feed |
+| Optimum RO recovery with pre-softening | 75-80 % | CEA BG04 §2.10 balance of permeate quality and volume |
+| Membrane useful life | 3-5 years | CEA BG04 §2.7 commercial-grade thin-film polymeric membranes; up to 10 years if feed is base-exchange softened |
+| Example RO permeate TDS at 99% rejection of 400 ppm feed | 4 ppm | CEA BG04 §2.11 worked illustration (400 ppm raw feed, 99% rejection) |
+| Terion S MkII salt rejection | >99.5 % | Veolia product page: combined high-pressure RO membranes and CEDI |
+| Terion S MkII product water resistivity | up to 18 MOhm·cm | Veolia Terion S MkII product page |
+| Terion S MkII flow-rate range | 110-4000 L/h | Veolia product page; 7 standard models, container-transportable |
+| PROflex EDI footprint reduction | up to 40 % smaller than separate RO and EDI systems | Veolia PROflex EDI product page |
+| Boiler-water silica limit — shell boiler | 150 max ppm | CEA BG04 Table 2; note 11 ratio of silica to caustic alkalinity <0.4:1 prevents silicate scale |
+| Boiler-water dissolved solids (TDS) limit — shell boiler | 3500 max ppm | CEA BG04 Table 2 (or manufacturer's standard); coil boiler = manufacturer's standard |
+| Conductance-to-TDS conversion | 0.7 TDS ppm per µS/cm at 25 °C | Spirax Sarco, Controlling TDS in the Boiler Water |
+| Temperature coefficient of boiler-water conductivity | 2 % of the 25 °C value per 1 °C temperature rise | Spirax Sarco; automatic temperature compensation essential if pressure varies widely |
+| Feedwater contaminant targets for 900 psig boiler (ASME consensus quoted by Veolia) | <7 ppb O2 / 20 ppb Fe / 15 ppb Cu ppb | Veolia Water Handbook Ch.11 quoting ASME Consensus for Industrial Boilers; pH 8.5–9.5 |
+
+
+Recorded gaps:
+
+- Specific make-up-water conductivity/silica targets for HRSG high-pressure drums and once-through steam generators — Fetch ASME Consensus / EPRI guideline table or an OEM (GE Vernova, Siemens) HRSG water-chemistry datasheet and record drum-pressure-specific limits
+- Siemens water-treatment product page — Fetch Siemens water treatment / RO-EDI product page and record vendor specs
+- GE Vernova water chemistry guidance for HRSG — Fetch GE Vernova HRSG water-chemistry or service page

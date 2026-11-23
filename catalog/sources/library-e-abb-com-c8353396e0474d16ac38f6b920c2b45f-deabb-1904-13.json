@@ -1,0 +1,26 @@
+{
+  "id": "library-e-abb-com-c8353396e0474d16ac38f6b920c2b45f-deabb-1904-13",
+  "name": "ABB",
+  "url": "https://library.e.abb.com/public/c8353396e0474d16ac38f6b920c2b45f/DEABB+1904+13+en+Variable+Speed+Drive+final.pdf?x-sign=%2F4DbWl6DD3bY6K8r%2Bzl0%2BQ7%2B2iiWrs79JoxF7rmzdGN5Jh%2BqTnLQpYI98qFmpQv9",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "ABB",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. search-verified via WebSearch. Evidence: https://library.e.abb.com/public/c8353396e0474d16ac38f6b920c2b45f/DEABB+1904+13+en+Variable+Speed+Drive+final.pdf?x-sign=%2F4DbWl6DD3bY6K8r%2Bzl0%2BQ7%2B2iiWrs79JoxF7rmzdGN5Jh%2BqTnLQpYI98qFmpQv9"
+}

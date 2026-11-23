@@ -1,0 +1,130 @@
+{
+  "id": "boiler-chemical-cleaning-passivation",
+  "name": "Chemical cleaning and passivation of new boilers (pre-commissioning)",
+  "equipment_type": "service",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC",
+    "MAT"
+  ],
+  "description": "Remove welding slag, iron oxides, grease and construction debris from a newly built boiler before start-up; then form a protective magnetite film (passivation) to minimise corrosion and pitting during commissioning and lay-up.",
+  "specifications": [
+    {
+      "metric": "Nyrstar Port Pirie new-boiler clean — degreasing temperature",
+      "unit": "°C",
+      "basis": "Veolia ANZ case study: degreasing of a 140,000 L system",
+      "source": {
+        "url": "https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf",
+        "source_id": "anz-veolia-com-03-nyrstar-20case-20study-20-pdf"
+      },
+      "value": 70
+    },
+    {
+      "metric": "Nyrstar passivation conditions",
+      "unit": "pH / °C",
+      "basis": "Veolia ANZ case study, 'The benefits' section",
+      "source": {
+        "url": "https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf",
+        "source_id": "anz-veolia-com-03-nyrstar-20case-20study-20-pdf"
+      },
+      "value": "ammonia + sodium nitrate at pH 9 and 60 °C"
+    },
+    {
+      "metric": "Nyrstar clean duration / system volume / hours worked",
+      "unit": "weeks / L / hours / count",
+      "basis": "Veolia ANZ case study summary panel",
+      "source": {
+        "url": "https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf",
+        "source_id": "anz-veolia-com-03-nyrstar-20case-20study-20-pdf"
+      },
+      "value": "3 weeks / 140,000 L / 3,489 hours worked / 0 injuries"
+    },
+    {
+      "metric": "Hydrochloric acid cleaning reaction with magnetite",
+      "unit": "stoichiometric reaction",
+      "basis": "Veolia Water Handbook Ch.11; ferric chloride corrosive, can dissolve metallic copper leading to copper replating and galvanic pitting unless complexing agent added",
+      "source": {
+        "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+        "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+      },
+      "value": "Fe3O4 + 8HCl → FeCl2 + 2FeCl3 + 4H2O"
+    },
+    {
+      "metric": "Hydrazine/hydroquinone passivation reactions",
+      "unit": "stoichiometric reactions",
+      "basis": "Veolia Water Handbook Ch.11, Metal Passivation section",
+      "source": {
+        "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+        "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+      },
+      "value": "N2H4 + 6Fe2O3 → 4Fe3O4 + 2H2O + N2; C6H4(OH)2 + 3Fe2O3 → 2Fe3O4 + C6H4O2 + H2O"
+    },
+    {
+      "metric": "Acid-cleaning failure modes",
+      "unit": "qualitative",
+      "basis": "Veolia Water Handbook Ch.11, Acidic Corrosion section",
+      "source": {
+        "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+        "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+      },
+      "value": "Inhibitor breakdown from overheating cleaning solution; excessive exposure; high cleaning-agent concentration; incomplete neutralisation before start-up"
+    },
+    {
+      "metric": "Neutralisation pH before drain after chemical flush (hot-water systems)",
+      "unit": "pH units",
+      "basis": "CEA BG04 §6.16 final full system flush",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": "6.0 to 8.5"
+    },
+    {
+      "metric": "Chemical cleaning time saving claim",
+      "unit": "% / days",
+      "basis": "Veolia ANZ chemical cleaning service page (company claim)",
+      "source": {
+        "url": "https://www.anz.veolia.com/en-au/services/industrial-services/industrial-cleaning/chemical-cleaning-and-decontamination",
+        "source_id": "anz-veolia-com-industrial-cleaning-chemical-cleaning-and-deconta"
+      },
+      "value": "up to 90% reduced cleaning time; up to two days saved on large vessels vs steaming-out"
+    }
+  ],
+  "vendors": [
+    "veolia-australia-new-zealand-industrial-services",
+    "veolia-water-technologies-solutions"
+  ],
+  "sources": [
+    {
+      "url": "https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf",
+      "source_id": "anz-veolia-com-03-nyrstar-20case-20study-20-pdf"
+    },
+    {
+      "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+      "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+    },
+    {
+      "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+      "source_id": "cea-org-uk-07-cea-bg04-pdf"
+    },
+    {
+      "url": "https://www.anz.veolia.com/en-au/services/industrial-services/industrial-cleaning/chemical-cleaning-and-decontamination",
+      "source_id": "anz-veolia-com-industrial-cleaning-chemical-cleaning-and-deconta"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed chemical-cleaning procedure for gas-fired HRSGs (drum/pressure-part-specific)",
+      "why": "Nyrstar case is a lead-smelter boiler; Veolia handbook discusses mechanisms but not a full HRSG procedure",
+      "next_action": "Fetch an OEM HRSG commissioning/cleaning manual excerpt or Veolia technical paper on pre-operational cleaning of combined-cycle HRSGs"
+    },
+    {
+      "what": "Southeast Asian chemical-cleaning contractor/vendor for new boilers",
+      "why": "Only Australian/NZ Veolia and UK contributors found",
+      "next_action": "Search for Veolia/Suez industrial cleaning services in Malaysia, Singapore and Indonesia and record service scope with URLs"
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-feedwater.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

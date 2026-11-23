@@ -1,0 +1,133 @@
+{
+  "id": "boiler-pilot-ignition-system",
+  "name": "Pilot and ignition systems (pilots, igniters, flame scanners, BMS sequencing)",
+  "equipment_type": "ignition",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "INS"
+  ],
+  "description": "Provide a reliable ignition source for pilot and main burners and prove flame presence before fuel is admitted; burner management system (BMS) sequences purge, pilot trial-for-ignition, flame proof, main flame light-off and shutdown, while a separate combustion control system meters fuel/air. Flame scanners with background-flame discrimination allow light-off and verification from the control room.",
+  "specifications": [
+    {
+      "metric": "InstaFire pilot flame-loss detection time",
+      "unit": "seconds",
+      "basis": "John Zink vendor page; stated faster than thermocouples which can take more than 9 minutes; control panel up to 1,000 ft from pilot; no compressed air required",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/instafire-rapid-pilot-monitoring-and-ignition-system",
+        "source_id": "johnzink-com-flare-systems-instafire-rapid-pilot-monitoring-and"
+      },
+      "low": 6,
+      "high": 20
+    },
+    {
+      "metric": "FFG remote ignition distance and service life",
+      "unit": "ft (distance from pilot; 'over 1,000 feet'); >40 years proven performance",
+      "basis": "John Zink vendor page; schedule 80 carbon or stainless steel piping; natural gas, propane, hydrogen; manual piezoelectric or automatic line-powered transformer",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/flame-front-generator-pilot-ignition-system",
+        "source_id": "johnzink-com-flare-systems-flame-front-generator-pilot-ignition"
+      },
+      "low": 1000,
+      "high": 1000
+    },
+    {
+      "metric": "Zeeco ProFlame scanner hazardous-area models",
+      "unit": "model designations",
+      "basis": "Zeeco Flame Scanners product page; ProFlame+ utility grade ZPF-1100UV/IR/DS, ZPF-1200UV/IR/DS, fiber optic ZPF-1200UF/IF",
+      "source": {
+        "url": "https://www.zeeco.com/products/combustion-electronics/flame-scanners",
+        "source_id": "zeeco-com-combustion-electronics-flame-scanners"
+      },
+      "value": "ZPF-110 (Zone 1, II 2G EExd IIC T6), ZPF-120 (Zone 2), ZPF-130 (nonhazardous)"
+    },
+    {
+      "metric": "Vortex-cooled scanner temperature drop",
+      "unit": "degrees C (50 F) below incoming compressed air",
+      "basis": "Zeeco product page: vortex tube uses compressed air, no moving parts; cools scanner internals",
+      "source": {
+        "url": "https://www.zeeco.com/products/combustion-electronics/flame-scanners",
+        "source_id": "zeeco-com-combustion-electronics-flame-scanners"
+      },
+      "low": 28,
+      "high": 28
+    },
+    {
+      "metric": "Zeeco Free Jet Power Burner emissions and turndown",
+      "unit": "ppm NOx (9 ppm), sub-50 ppm CO, 20:1 fuel turndown; 30 ppm NOx potential without flue-gas recirculation",
+      "basis": "Chemical Engineering magazine interview with Zeeco CTO; small external flue-gas recirculation",
+      "source": {
+        "url": "https://www.chemengonline.com/the-balanced-burner",
+        "source_id": "chemengonline-com-the-balanced-burner"
+      },
+      "low": 9,
+      "high": 50
+    },
+    {
+      "metric": "John Zink Solex burner NOx",
+      "unit": "ppm NOx across fuel compositions and furnace temperatures",
+      "basis": "Chemical Engineering magazine; two combustion zones, compact flame length, designed to avoid SCR",
+      "source": {
+        "url": "https://www.chemengonline.com/the-balanced-burner",
+        "source_id": "chemengonline-com-the-balanced-burner"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Profire 3100 BMS modular capacity",
+      "unit": "modules combinable from one user interface",
+      "basis": "Chemical Engineering magazine; modules certified with regulatory bodies; can manage multiple burners or multiple pilots; forced-air I/O",
+      "source": {
+        "url": "https://www.chemengonline.com/the-balanced-burner",
+        "source_id": "chemengonline-com-the-balanced-burner"
+      },
+      "value": 32
+    }
+  ],
+  "vendors": [
+    "john-zink",
+    "zeeco",
+    "forney-corporation",
+    "siemens",
+    "profire-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://www.johnzink.com/products/flare-systems/instafire-rapid-pilot-monitoring-and-ignition-system",
+      "source_id": "johnzink-com-flare-systems-instafire-rapid-pilot-monitoring-and"
+    },
+    {
+      "url": "https://www.johnzink.com/products/flare-systems/flame-front-generator-pilot-ignition-system",
+      "source_id": "johnzink-com-flare-systems-flame-front-generator-pilot-ignition"
+    },
+    {
+      "url": "https://www.zeeco.com/products/combustion-electronics/flame-scanners",
+      "source_id": "zeeco-com-combustion-electronics-flame-scanners"
+    },
+    {
+      "url": "https://www.chemengonline.com/the-balanced-burner",
+      "source_id": "chemengonline-com-the-balanced-burner"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Laser/tunable-diode-laser ignition is not evidenced; only laser-based combustion *diagnostics* (John Zink ZoloSCAN WM-TDLAS, Yokogawa TDLS O2 analyzer) were found",
+      "why": "No OEM page describing laser ignition for boiler pilots in the retrieved results",
+      "next_action": "Search specifically for 'laser ignition boiler burner' or 'laser-induced ignition pilot' vendor literature before recording laser igniters as a type."
+    },
+    {
+      "what": "No fetchable NFPA 85 document (paywalled); trial-for-ignition numbers quoted second-hand via AFRC (NFPA 86) and magazine articles",
+      "why": "Standards text not openly available",
+      "next_action": "Use NFPA 85 handbook summaries or insurer/BOCA guidance pages that print the trial-for-ignition and purge requirements."
+    },
+    {
+      "what": "Asia-Pacific flame scanner/pilot vendors not yet evidenced beyond Zeeco/John Zink regional offices",
+      "why": "Search results centred on US OEMs",
+      "next_action": "Search KOSHA/KTL-certified ignition suppliers and Chinese/Japanese flame scanner OEMs."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-auxiliaries.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

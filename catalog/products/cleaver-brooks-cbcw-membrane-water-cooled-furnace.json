@@ -1,0 +1,41 @@
+{
+  "id": "cleaver-brooks-cbcw-membrane-water-cooled-furnace",
+  "name": "CBCW membrane water-cooled furnace",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "pressure-part",
+  "equipment": [
+    "furnace-waterwalls-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched CBCW product page directly with WebFetch (markdown). Waterwalls are a subsystem of the boiler, not a standalone product line.",
+  "specifications": [
+    {
+      "metric": "Furnace construction",
+      "basis": "CBCW Product narrative and Product Overview",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
+        "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
+      },
+      "unit": "construction",
+      "value": "100% membrane water-cooled, refractory free; welded front and rear walls also water cooled"
+    },
+    {
+      "metric": "Styles",
+      "basis": "CBCW Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
+        "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
+      },
+      "unit": "styles",
+      "value": "D-type and O-type"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
+      "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
+    }
+  ],
+  "notes": "Fetched CBCW product page directly with WebFetch (markdown). Waterwalls are a subsystem of the boiler, not a standalone product line.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "spiraxsarco-com-the-boiler-house-water-for-the-boiler",
+  "name": "Spirax Sarco — Ion-exchange resin bead diameter",
+  "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Spirax Sarco description of resin beads in packed-bed GRP pressure vessel Evidence: https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler"
+}

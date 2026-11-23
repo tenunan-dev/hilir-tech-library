@@ -309,7 +309,9 @@ def library_stats() -> dict:
                             + (SELECT count(*) FROM vendor WHERE embedding IS NOT NULL)
                             + (SELECT count(*) FROM equipment WHERE embedding IS NOT NULL)
                             + (SELECT count(*) FROM source WHERE embedding IS NOT NULL)
-                            + (SELECT count(*) FROM project WHERE embedding IS NOT NULL)""")
+                            + (SELECT count(*) FROM project WHERE embedding IS NOT NULL)
+                            + (SELECT count(*) FROM product WHERE embedding IS NOT NULL)
+                            + (SELECT count(*) FROM drawing WHERE embedding IS NOT NULL)""")
         out["vectors"] = cur.fetchone()[0]
         cur.execute("SELECT count(*) FROM technology")
         out["technologies"] = cur.fetchone()[0]
@@ -321,6 +323,10 @@ def library_stats() -> dict:
         out["register"] = cur.fetchone()[0]
         cur.execute("SELECT count(*) FROM project")
         out["projects"] = cur.fetchone()[0]
+        cur.execute("SELECT count(*) FROM product")
+        out["products"] = cur.fetchone()[0]
+        cur.execute("SELECT count(*) FROM drawing")
+        out["drawings"] = cur.fetchone()[0]
         return out
 
     return _execute(work)
@@ -699,6 +705,69 @@ def equipment_row(equipment_id: str) -> dict | None:
         rows = cur.fetchall()
         return _jsonb(rows[0][0]) if rows else None
 
+    return _execute(work)
+
+
+def product_rows(product_type: str | None = None, manufacturer: str | None = None,
+                 query: str | None = None) -> list[dict]:
+    """list_products-shaped rows from og.product.record, filtered like the SQLite path."""
+    def work(cur):
+        import products as product_records
+        cur.execute("SELECT record FROM product ORDER BY name")
+        out = []
+        for r in cur.fetchall():
+            rec = _jsonb(r[0])
+            if product_type and product_type != rec.get("product_type"):
+                continue
+            if manufacturer and manufacturer != rec.get("manufacturer"):
+                continue
+            hay = " ".join([rec["name"], " ".join(rec.get("aliases", [])), rec.get("description", ""),
+                            rec.get("manufacturer", ""), " ".join(rec.get("equipment", [])),
+                            " ".join(sp["metric"] for sp in rec.get("specifications", []))]).lower()
+            if query and query.lower() not in hay:
+                continue
+            out.append(product_records.summary(rec))
+        return out
+    return _execute(work)
+
+
+def product_row(product_id: str) -> dict | None:
+    """One full product catalog record from og.product.record."""
+    def work(cur):
+        cur.execute("SELECT record FROM product WHERE id = %s", (product_id,))
+        rows = cur.fetchall()
+        return _jsonb(rows[0][0]) if rows else None
+    return _execute(work)
+
+
+def drawing_rows(diagram_type: str | None = None, sector: str | None = None,
+                 query: str | None = None) -> list[dict]:
+    """list_drawings-shaped rows from og.drawing.record, filtered like the SQLite path."""
+    def work(cur):
+        import drawings as drawing_records
+        cur.execute("SELECT record, sectors FROM drawing ORDER BY title")
+        out = []
+        for r in cur.fetchall():
+            rec = _jsonb(r[0])
+            if diagram_type and diagram_type != rec.get("diagram_type"):
+                continue
+            if sector and sector not in (r[1] or []):
+                continue
+            hay = " ".join([rec["title"], " ".join(rec.get("aliases", [])), rec.get("description", ""),
+                            rec.get("publisher", ""), " ".join(rec.get("equipment", []))]).lower()
+            if query and query.lower() not in hay:
+                continue
+            out.append(drawing_records.summary(rec))
+        return out
+    return _execute(work)
+
+
+def drawing_row(drawing_id: str) -> dict | None:
+    """One full drawing record from og.drawing.record."""
+    def work(cur):
+        cur.execute("SELECT record FROM drawing WHERE id = %s", (drawing_id,))
+        rows = cur.fetchall()
+        return _jsonb(rows[0][0]) if rows else None
     return _execute(work)
 
 

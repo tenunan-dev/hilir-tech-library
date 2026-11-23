@@ -1,0 +1,90 @@
+{
+  "id": "tlv-pressure-reducing-valves-for-steam-cosr-series-cosr-3-cosr-16-cosr-21-cosr",
+  "name": "Pressure Reducing Valves for Steam COSR Series (COSR-3, COSR-16, COSR-21, COSR-16HT)",
+  "manufacturer": "tlv",
+  "product_type": "boiler",
+  "equipment": [],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us Pressure Reducing Valves for Steam (COSR Series) page.",
+  "specifications": [
+    {
+      "metric": "Secondary set pressure accuracy",
+      "basis": "Printed under Benefits and Features",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam",
+        "source_id": "tlv-com-pilot-operated-steam"
+      },
+      "unit": "MPa",
+      "value": "within +/- 0.01"
+    },
+    {
+      "metric": "COSR-3 maximum operating pressure",
+      "basis": "Printed in Product Details table; TMO 428 deg F",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam",
+        "source_id": "tlv-com-pilot-operated-steam"
+      },
+      "unit": "psig",
+      "value": "45"
+    },
+    {
+      "metric": "COSR-3 primary pressure",
+      "basis": "Printed in Product Details table; secondary 1.5-7 psig; max flow 21,000 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam",
+        "source_id": "tlv-com-pilot-operated-steam"
+      },
+      "unit": "psig",
+      "low": "15",
+      "high": "45"
+    },
+    {
+      "metric": "COSR-16 maximum operating pressure",
+      "basis": "Printed in Product Details table; TMO 428 deg F",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam",
+        "source_id": "tlv-com-pilot-operated-steam"
+      },
+      "unit": "psig",
+      "value": "250"
+    },
+    {
+      "metric": "COSR-16 max flow capacity",
+      "basis": "Printed in Product Details table; primary 30-250 psig, secondary 5-210 psig",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam",
+        "source_id": "tlv-com-pilot-operated-steam"
+      },
+      "unit": "lb/h",
+      "value": "47,380"
+    },
+    {
+      "metric": "COSR-21 maximum operating pressure",
+      "basis": "Printed in Product Details table; TMO 428 deg F, max flow 10,400 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam",
+        "source_id": "tlv-com-pilot-operated-steam"
+      },
+      "unit": "psig",
+      "value": "300"
+    },
+    {
+      "metric": "COSR-16HT maximum operating temperature",
+      "basis": "Printed in Product Details table; cast steel A216/A216M Gr.WCB, max flow 47,885 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam",
+        "source_id": "tlv-com-pilot-operated-steam"
+      },
+      "unit": "deg F",
+      "value": "572"
+    }
+  ],
+  "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam",
+  "sources": [
+    {
+      "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam",
+      "source_id": "tlv-com-pilot-operated-steam"
+    }
+  ],
+  "notes": "Read in full: TLV en-us Pressure Reducing Valves for Steam (COSR Series) page.",
+  "last_reviewed": "2026-11-24"
+}

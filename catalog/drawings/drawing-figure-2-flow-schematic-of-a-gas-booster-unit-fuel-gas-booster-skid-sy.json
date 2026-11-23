@@ -1,0 +1,36 @@
+{
+  "id": "drawing-figure-2-flow-schematic-of-a-gas-booster-unit-fuel-gas-booster-skid-sy",
+  "title": "Figure 2 — Flow schematic of a gas booster unit — Fuel Gas Booster Skid Systems",
+  "diagram_type": "schematic",
+  "description": "Gas booster skid flow: air filter, gas booster inlet, pressure gauge, pneumatic control valves, inlet/outlet non-return valves, piston/cylinder compression chamber, pilot and spool valves, drive unit, exhaust silencer and cooling cylinder; single- and two-stage configurations.",
+  "publisher": "EPCM Holdings (engineering article; Figures credited to Corken Inc. and Haskel/High-Pressure Technologies)",
+  "url": "https://epcmholdings.com/fuel-gas-booster-skid-systems",
+  "licence": "Site copyright; several figures credited to third parties — check original rights before reuse.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "fuel-gas-booster"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://epcmholdings.com/fuel-gas-booster-skid-systems",
+      "source_id": "epcmholdings-com-fuel-gas-booster-skid-systems"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "Page fetched and read 2026-11-24. HTML page fetched and read; Figure 2 caption and surrounding process description verified. Secondary source with third-party images.",
+  "last_reviewed": "2026-11-24"
+}

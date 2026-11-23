@@ -1,0 +1,28 @@
+{
+  "id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w",
+  "name": "Spirax Sarco — Conductance-to-TDS conversion",
+  "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Spirax Sarco, Controlling TDS in the Boiler Water Evidence: https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water"
+}

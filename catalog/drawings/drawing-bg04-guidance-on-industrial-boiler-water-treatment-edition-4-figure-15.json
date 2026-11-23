@@ -1,0 +1,38 @@
+{
+  "id": "drawing-bg04-guidance-on-industrial-boiler-water-treatment-edition-4-figure-15",
+  "title": "BG04 Guidance on Industrial Boiler Water Treatment, Edition 4 — Figure 15 Typical softener; Figure 19 Reverse Osmosis Process; Section 5 water treatment dosing arrangements",
+  "diagram_type": "schematic",
+  "description": "Indicative softener and RO process figures plus pre-treatment/dealkalisation/demineralisation and chemical-dosing set-ups for shell, coil and watertube boilers; includes blowdown, corrosion and conditioning treatment sections.",
+  "publisher": "Combustion Engineering Association (CEA), UK",
+  "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+  "licence": "© 2019 CEA — Guidance on Industrial Boiler Water Treatment, Edition 4.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "boiler-feedwater-pretreatment"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+      "source_id": "cea-org-uk-07-cea-bg04-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (3,470,027 bytes, 92 pages); Figure 15/19 captions and dosing-arrangement contents verified. Intro at https://cea.org.uk/wp-content/uploads/2021/06/BG04-Intro.pdf",
+  "last_reviewed": "2026-11-24"
+}

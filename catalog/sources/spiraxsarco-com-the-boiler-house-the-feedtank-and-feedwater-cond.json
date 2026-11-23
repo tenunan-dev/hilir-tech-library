@@ -1,0 +1,28 @@
+{
+  "id": "spiraxsarco-com-the-boiler-house-the-feedtank-and-feedwater-cond",
+  "name": "Spirax Sarco — Feedtank vent size",
+  "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Spirax Sarco feedtank design and atmospheric deaerator guidance; vent head with internal baffle Evidence: https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning"
+}

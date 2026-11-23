@@ -1,0 +1,34 @@
+{
+  "id": "drawing-typical-cems-for-multiple-parameter-monitoring-figure-4-1-chapter-4-se",
+  "title": "Typical CEMS for Multiple Parameter Monitoring — Figure 4.1, Chapter 4 Section 2 Monitors",
+  "diagram_type": "schematic",
+  "description": "Typical continuous emission monitoring system layout: stack/duct sampling interface, opacity monitor, gas analyzers for multiple parameters, and data acquisition system (DAS)/controller; text distinguishes extractive and in-situ CEMS and sample conditioning.",
+  "publisher": "U.S. Environmental Protection Agency",
+  "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs2ch4.pdf",
+  "licence": "U.S. Government work — generally public domain in the United States.",
+  "reuse_level": "full-text-open",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs2ch4.pdf",
+      "source_id": "epa-gov-documents-cs2ch4-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (312,827 bytes, 41 pages); Figure 4.1 caption and labels verified. EPA CEMS overview page also identified: https://www.epa.gov/emc/continuous-emission-monitoring-systems",
+  "last_reviewed": "2026-11-24"
+}

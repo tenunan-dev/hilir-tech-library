@@ -1,0 +1,105 @@
+{
+  "id": "cleaver-brooks-profire-sbr-30-low-nox-burner",
+  "name": "ProFire SBR-30 Low-NOx Burner",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "burner",
+  "equipment": [
+    "burner-gas-low-nox"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Where the table did not print a unit, the unit is explicitly left unasserted.",
+  "specifications": [
+    {
+      "metric": "NOx emissions",
+      "basis": "Product bullets and Technical Data table: <30 ppm, ~3% O2 across wide load range",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      },
+      "unit": "ppm NOx (less than, without FGR)",
+      "value": 30
+    },
+    {
+      "metric": "Natural gas input",
+      "basis": "Product narrative: natural gas fuel option from 16.8 to 54.6 MMBTU/hr; Technical Data Input Capacity 16,800-54,600",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      },
+      "unit": "MMBTU/hr",
+      "low": 16.8,
+      "high": 54.6
+    },
+    {
+      "metric": "Boiler horsepower",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      },
+      "unit": "HP",
+      "low": 400,
+      "high": 1300
+    },
+    {
+      "metric": "Oil input",
+      "basis": "Technical Data table (#2 fuel oil backup)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      },
+      "unit": "US GPH",
+      "low": 120,
+      "high": 390
+    },
+    {
+      "metric": "Turndown",
+      "basis": "Product bullet and Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      },
+      "unit": ":1 (up to, gas)",
+      "value": 10
+    },
+    {
+      "metric": "Furnace pressure",
+      "basis": "Technical Data table value 3.6-5.6; unit not stated on page, so not asserted as a named unit",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      },
+      "unit": "inches water column (unit not printed in table)",
+      "low": 3.6,
+      "high": 5.6
+    },
+    {
+      "metric": "Minimum gas pressure",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      },
+      "unit": "table value (unit not printed)",
+      "value": 5
+    },
+    {
+      "metric": "Mode of operation",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      },
+      "unit": "control mode",
+      "value": "Full modulation; parallel positioning standard"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/sbr30-burner",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/sbr30-burner",
+      "source_id": "cleaverbrooks-com-product-sbr30-burner"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown). Where the table did not print a unit, the unit is explicitly left unasserted.",
+  "last_reviewed": "2026-11-24"
+}

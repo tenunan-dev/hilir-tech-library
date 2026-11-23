@@ -1,0 +1,26 @@
+{
+  "id": "wilhelmsen-com-boiler-water-treatment-oxygen-scavenger-plus-25-l",
+  "name": "Wilhelmsen",
+  "url": "https://www.wilhelmsen.com/product-catalogue/products/marine-chemicals/water-treatment-chemicals/boiler-water-treatment/oxygen-scavenger-plus-25-ltr/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Wilhelmsen",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Search-verified snippets only (DuckDuckGo); pages not read. DEHA-volatile claim from snippet. Evidence: https://www.wilhelmsen.com/product-catalogue/products/marine-chemicals/water-treatment-chemicals/boiler-water-treatment/oxygen-scavenger-plus-25-ltr/"
+}

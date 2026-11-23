@@ -1,0 +1,26 @@
+{
+  "id": "tlv-com-other-pressure-reducing-valves-for-steam",
+  "name": "Pressure Reducing Valves for Steam — Fig. 1 process application, Fig. 2 direct-acting PRV, Fig. 3 pilot-operat",
+  "url": "https://www.tlv.com/steam-info/steam-theory/other/pressure-reducing-valves-for-steam",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "TLV CO., LTD — Steam Theory",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. HTML page fetched and read; three figure/GIF URLs and captions verified. Evidence: https://www.tlv.com/steam-info/steam-theory/other/pressure-reducing-valves-for-steam"
+}

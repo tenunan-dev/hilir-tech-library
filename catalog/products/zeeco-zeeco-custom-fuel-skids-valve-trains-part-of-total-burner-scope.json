@@ -1,0 +1,41 @@
+{
+  "id": "zeeco-zeeco-custom-fuel-skids-valve-trains-part-of-total-burner-scope",
+  "name": "Zeeco custom fuel skids / valve trains (part of total burner scope)",
+  "manufacturer": "zeeco",
+  "product_type": "valve-train",
+  "equipment": [
+    "gas-valve-train"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco pages directly with WebFetch (markdown). Valve train is described as part of scope, not a standalone named product line with printed specs.",
+  "specifications": [
+    {
+      "metric": "Scope",
+      "basis": "Zeeco Power Burners page GB burner bullet 'Total system approach: Full Scope of supply with BMS/combustion controls/valve trains/installation/commissioning'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+        "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      },
+      "unit": "scope of supply",
+      "value": "BMS / combustion controls / valve trains / installation / commissioning"
+    },
+    {
+      "metric": "Fuel skid customization",
+      "basis": "Zeeco Industrial Burners page Burner management systems section",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+        "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      },
+      "unit": "capability",
+      "value": "Custom fuel skids for various applications worldwide; any required dimension and specified feature"
+    }
+  ],
+  "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+  "sources": [
+    {
+      "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+      "source_id": "zeeco-com-burners-power-burners-hslang-en"
+    }
+  ],
+  "notes": "Fetched Zeeco pages directly with WebFetch (markdown). Valve train is described as part of scope, not a standalone named product line with printed specs.",
+  "last_reviewed": "2026-11-24"
+}

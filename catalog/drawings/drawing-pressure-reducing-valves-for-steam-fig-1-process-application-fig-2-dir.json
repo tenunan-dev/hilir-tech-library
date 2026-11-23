@@ -1,0 +1,38 @@
+{
+  "id": "drawing-pressure-reducing-valves-for-steam-fig-1-process-application-fig-2-dir",
+  "title": "Pressure Reducing Valves for Steam — Fig. 1 process application, Fig. 2 direct-acting PRV, Fig. 3 pilot-operated PRV",
+  "diagram_type": "schematic",
+  "description": "Animated/schematic figures showing steam at boiler pressure reduced locally to process set point, force-balance operation of a direct-acting PRV and of a pilot-operated PRV, with application guidance for sterilizers, unit heaters, humidifiers and steam distribution mains.",
+  "publisher": "TLV CO., LTD — Steam Theory",
+  "url": "https://www.tlv.com/steam-info/steam-theory/other/pressure-reducing-valves-for-steam",
+  "licence": "Copyright © TLV CO., LTD. All rights reserved.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "prv-desuperheating-station"
+  ],
+  "technologies": [
+    "pwr-cogeneration-chp"
+  ],
+  "sources": [
+    {
+      "url": "https://www.tlv.com/steam-info/steam-theory/other/pressure-reducing-valves-for-steam",
+      "source_id": "tlv-com-other-pressure-reducing-valves-for-steam"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "Page fetched and read 2026-11-24. HTML page fetched and read; three figure/GIF URLs and captions verified.",
+  "last_reviewed": "2026-11-24"
+}

@@ -33,18 +33,19 @@
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
-| Catalog sources | 586 valid, 586 unique ids |
-| Technology cards | 392 (407-entry register; WWT sector added 2026-11-13 — licensor-first PFD rule) |
-| Vendor records | 546 |
-| Equipment classes | 58 (gas-fired boiler types — fire-tube, water-tube, condensing hot-water and gas-conversion CFB — plus 17 component classes: low-NOx/duct burners, furnace and tubes, drums, economisers, superheaters, air preheaters, feedwater/deaerator, safety valves and blowdown, fans/stacks/FGR, BMS, gas trains, SCR/SNCR/CEMS, controls and soot blowers; and the earlier compressors/pumps/turbines, DC UPS/CRAH/busway/MV switchgear and ten WWT classes) |
+| Catalog sources | 762 valid, 762 unique ids |
+| Technology cards | 392 (407-entry register) |
+| Vendor records | 596 |
+| Equipment classes | 81 (58 boiler types/components from the first sweep, plus 23 supporting systems: feedwater pretreatment, RO/EDI, chemical dosing, sampling, blowdown recovery, cleaning, steam traps, condensate pumps/polishing, separators, PRV/desuperheating, expansion joints, silencers, insulation, gas boosters, pilots/ignition, instrument air, SCR reagent, circulation/feedwater pumps, MCC/VFD and HRSG bypass dampers) |
 | Projects and plants | 304 |
+| Product catalog | 69 vendor product lines with printed specifications (`schema/product.schema.json`, `catalog/products/`) |
+| Process drawings | 35 PFD/P&ID/schematic records (`schema/drawing.schema.json`, `catalog/drawings/`) — the diagrams stay at the publisher's url |
 | Corpus documents | 253, **one per source url** (decision 40), each with a hand-written summary — 207 open, 46 full-text-restricted (13,192 chunks locally and in Neon) |
 
-Verified live 2026-11-24: Neon reloaded (586 sources / 546 vendors / 392 cards / 58 equipment /
-304 projects / 407 register entries / 253 documents / 13,192 chunks / 4,475 nodes /
-13,667+ `similar_to` edges / 15,078 vectors); containers re-shipped from local images (api `8c32b9f134f6`, ui
-`74af3070928e`, healthy) and the baked index rebuilt; VPS gate `mygis 303, techlib-origin 403,
-tlea-origin 403` green; `pytest -q tests` 1,477 passed, 13 skipped. Standing main effort is source discovery
+Verified live 2026-11-24: Neon reloaded (762 sources / 596 vendors / 392 cards / 81 equipment /
+304 projects / 69 products / 35 drawings / 407 register entries / 253 documents / 13,192 chunks /
+4,904 nodes / 15,279 edges / 15,431 vectors); `pytest -q tests` 1,550 passed, 13 skipped.
+The MCP surface is 30 tools, adding list/get products and drawings. Standing main effort is source discovery
 (`docs/SOURCE_DISCOVERY_PLAN.md`, decision #30); the next equipment families wait on the owner
 (decision #33). Open owner items and the session log are in `docs/STATUS.md`.
 

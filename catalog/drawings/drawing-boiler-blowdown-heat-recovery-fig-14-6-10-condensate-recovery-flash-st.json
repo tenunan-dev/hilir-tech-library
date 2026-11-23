@@ -1,0 +1,40 @@
+{
+  "id": "drawing-boiler-blowdown-heat-recovery-fig-14-6-10-condensate-recovery-flash-st",
+  "title": "Boiler blowdown heat recovery (Fig. 14.6.10) — Condensate Recovery: Flash Steam",
+  "diagram_type": "PFD",
+  "description": "Typical heat-recovery arrangement: continuous blowdown through control valve to flash vessel, flash steam to boiler feedtank, residual condensate through plate heat exchanger before waste; text states up to 80% of blowdown heat can be reclaimed.",
+  "publisher": "Spirax Sarco — Learn About Steam",
+  "url": "https://www.spiraxsarco.com/learn-about-steam/condensate-recovery/flash-steam?sc_lang=en-GB",
+  "licence": "Copyright © Spirax Sarco Limited. All Rights Reserved.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "blowdown-heat-recovery",
+    "safety-valves-blowdown-boiler",
+    "feedwater-deaerator-system"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/condensate-recovery/flash-steam?sc_lang=en-GB",
+      "source_id": "spiraxsarco-com-condensate-recovery-flash-steam-sc-lang-en-gb"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. SEARCH-VERIFIED via WebSearch snippet with figure caption and process description; not fetched with WebFetch in this session.",
+  "last_reviewed": "2026-11-24"
+}

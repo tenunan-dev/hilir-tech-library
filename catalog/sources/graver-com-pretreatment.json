@@ -1,0 +1,26 @@
+{
+  "id": "graver-com-pretreatment",
+  "name": "Graver Water (Marmon Industrial Water) — Reactivator Solids Contact Clarifier",
+  "url": "https://graver.com/pretreatment/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Graver Water (Marmon Industrial Water)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Read in full: Graver 'Raw Water Pretreatment' page. Product line named in narrative text; no numeric specification table on this page. Evidence: https://graver.com/pretreatment/"
+}

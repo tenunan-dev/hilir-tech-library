@@ -1,0 +1,38 @@
+{
+  "id": "drawing-figure-2-11-pilot-gas-train-gas-fuel-flow-diagram-cleaver-brooks-cb-25",
+  "title": "Figure 2-11 Pilot Gas Train; gas fuel flow diagram — Cleaver-Brooks CB-250/350 hp Boiler Operation, Service and Parts Manual",
+  "diagram_type": "P&ID",
+  "description": "Package firetube boiler pilot gas train with gas pilot valves, pilot vent valve, pilot shutoff cock, pressure gauge and pilot pressure regulator; text also describes metered main gas through regulator, main shutoff cock, main gas valves and modulating butterfly valve to a non-premix burner, with programming-relay sequencing.",
+  "publisher": "Cleaver-Brooks",
+  "url": "https://boilerpage.com/wp-content/uploads/2025/03/Cleaver-Brooks-CB-250-350hp-Boiler-Manual.pdf",
+  "licence": "Copyright © Cleaver-Brooks; OEM manual, reproduction restricted.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "burner-gas-low-nox"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://boilerpage.com/wp-content/uploads/2025/03/Cleaver-Brooks-CB-250-350hp-Boiler-Manual.pdf",
+      "source_id": "boilerpage-com-03-cleaver-brooks-cb-250-350hp-boiler-manual-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (9,304,653 bytes, 169 pages); pilot train figure and gas-fuel-flow text verified. Additional gas train figures appear in the CBW manual at https://www.boilerdata.com/uploads/7/4/1/4/7414458/boiler-manual-cb-cbw__100_to_400_.pdf (search-verified).",
+  "last_reviewed": "2026-11-24"
+}

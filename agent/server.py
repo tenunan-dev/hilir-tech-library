@@ -62,10 +62,15 @@ ROUTING — pick the tool by the question being asked:
 - "What equipment classes exist and what are their limits?" -> list_equipment, then get_equipment.
 - "Which plants or projects use X, or what is built in country Z?" -> list_projects (filter by
   status, sector or country), get_project.
+- "What products / model lines supply X, and what do their spec sheets say?" -> list_products
+  (filter by product_type, manufacturer or text), then get_product for the printed specifications.
+- "Is there a PFD or P&ID for this process or equipment?" -> list_drawings (filter by diagram_type,
+  sector or text), then get_drawing for its scope, publisher, url and reuse terms. The diagram itself
+  is not copied here; open the url and respect its licence.
 - "What does this acronym mean?" -> get_glossary_term (or list_glossary to browse).
 - "Which standard applies?" -> list_standards / get_standard (designation, title, scope, url).
 - "Find me sources or text about X" -> search (kind: all/source/chunk/technology/vendor/equipment/
-  project), then list_documents for a source's documents, get_source for the record, and
+  project/product/drawing), then list_documents for a source's documents, get_source for the record, and
   get_document for the text.
 - "What does the library not know yet?" -> list_gaps (per-card missing inputs with reason and next
   action; narrow with sector/field/reason_code — it is a few hundred rows), and
@@ -360,6 +365,40 @@ def get_project(project_id: str) -> dict | None:
     recorded gaps. Returns null for an unknown id."""
     return _with_neon(lambda: pg.project_row(project_id),
                       lambda: library.get_project(project_id, db()))
+
+
+@server.tool()
+def list_products(product_type: str | None = None, manufacturer: str | None = None, query: str | None = None) -> list[dict]:
+    """Vendor product catalog: one record per product line with the specifications printed on the
+    vendor's own page. product_type is an equipment type (e.g. boiler, burner, valve-train);
+    manufacturer is a vendor id; query is text. Call with no arguments to see the product types."""
+    return _with_neon(lambda: pg.product_rows(product_type, manufacturer, query),
+                      lambda: library.list_products(product_type, manufacturer, query, db()))
+
+
+@server.tool()
+def get_product(product_id: str) -> dict | None:
+    """One product line: printed specifications (metric, range, unit, basis and source URL) and the
+    catalog page they were read from. Returns null for an unknown id."""
+    return _with_neon(lambda: pg.product_row(product_id),
+                      lambda: library.get_product(product_id, db()))
+
+
+@server.tool()
+def list_drawings(diagram_type: str | None = None, sector: str | None = None, query: str | None = None) -> list[dict]:
+    """Citable process drawings: PFDs, P&IDs, schematics and flowsheets for processes, technologies
+    and equipment, each with publisher, url and what it shows. diagram_type: PFD, P&ID, schematic,
+    flowsheet or block-diagram. sector is a taxonomy code; query is text."""
+    return _with_neon(lambda: pg.drawing_rows(diagram_type, sector, query),
+                      lambda: library.list_drawings(diagram_type, sector, query, db()))
+
+
+@server.tool()
+def get_drawing(drawing_id: str) -> dict | None:
+    """One drawing record: what the diagram shows, its publisher and url, which equipment and
+    technology cards it covers, and the recorded reuse terms. Returns null for an unknown id."""
+    return _with_neon(lambda: pg.drawing_row(drawing_id),
+                      lambda: library.get_drawing(drawing_id, db()))
 
 
 @server.tool()

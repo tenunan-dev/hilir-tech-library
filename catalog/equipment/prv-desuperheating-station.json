@@ -1,0 +1,166 @@
+{
+  "id": "prv-desuperheating-station",
+  "name": "Pressure-reducing valves (PRVs) and desuperheating / attemperation stations",
+  "equipment_type": "valve-station",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "INS"
+  ],
+  "description": "Reduce and stabilise steam pressure for process users (self-acting or actuated), and, where superheated steam is used for heating, inject water to control superheat to a temperature above saturation; protect downstream equipment and stabilise control (Spirax Sarco; TLV).",
+  "specifications": [
+    {
+      "metric": "direct-acting bellows PRV proportional band",
+      "unit": "% of upstream pressure",
+      "basis": "Spirax Sarco pressure control applications",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/control-applications/pressure-control-applications",
+        "source_id": "spiraxsarco-com-control-applications-pressure-control-applicatio"
+      },
+      "value": "30-40"
+    },
+    {
+      "metric": "pilot-operated PRV proportional band",
+      "unit": "kPa",
+      "basis": "Spirax Sarco: narrow band and low hysteresis give tight repeatable control",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/control-applications/pressure-control-applications",
+        "source_id": "spiraxsarco-com-control-applications-pressure-control-applicatio"
+      },
+      "value": "typically <200"
+    },
+    {
+      "metric": "practical maximum pressure ratio per reducing stage",
+      "unit": "ratio",
+      "basis": "Spirax Sarco series pressure reducing stations; example 25 barg -> 5 barg -> 1 barg",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/control-applications/pressure-control-applications",
+        "source_id": "spiraxsarco-com-control-applications-pressure-control-applicatio"
+      },
+      "value": "10:1"
+    },
+    {
+      "metric": "globe control valve flow rangeability",
+      "unit": "ratio",
+      "basis": "Spirax Sarco stated acceptable rangeability for pneumatic/electropneumatic pressure reduction",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/control-applications/pressure-control-applications",
+        "source_id": "spiraxsarco-com-control-applications-pressure-control-applicatio"
+      },
+      "value": "50:1"
+    },
+    {
+      "metric": "diaphragm PRV pressure drop capability",
+      "unit": "ratio",
+      "basis": "Spirax Sarco direct-operated diaphragm type",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/control-applications/pressure-control-applications",
+        "source_id": "spiraxsarco-com-control-applications-pressure-control-applicatio"
+      },
+      "value": "50:1 small sizes; 10:1 large sizes"
+    },
+    {
+      "metric": "desuperheated steam temperature above saturation (control setpoint)",
+      "unit": "°C above saturation",
+      "basis": "Spirax Sarco pressure control applications; basic theory page says minimum typically within 3°C of saturation",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/control-applications/pressure-control-applications",
+        "source_id": "spiraxsarco-com-control-applications-pressure-control-applicatio"
+      },
+      "value": "5-10"
+    },
+    {
+      "metric": "single-nozzle spray desuperheater minimum approach / turndown",
+      "unit": "°C / ratio",
+      "basis": "Spirax Sarco basic desuperheater types; radial and axial single-nozzle types",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheater-types",
+        "source_id": "spiraxsarco-com-desuperheating-basic-desuperheater-types"
+      },
+      "value": "10°C above saturation; turndown max 3:1"
+    },
+    {
+      "metric": "multi-nozzle axial desuperheater turndown",
+      "unit": "ratio",
+      "basis": "Spirax Sarco basic desuperheater types",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheater-types",
+        "source_id": "spiraxsarco-com-desuperheating-basic-desuperheater-types"
+      },
+      "value": "8:1 fixed area; 9:1 spring-assisted; 12:1 variable area"
+    },
+    {
+      "metric": "tube-bundle desuperheater envelope",
+      "unit": "bar / °C",
+      "basis": "Spirax Sarco indirect-contact type; high max operating temperature and pressure",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheater-types",
+        "source_id": "spiraxsarco-com-desuperheating-basic-desuperheater-types"
+      },
+      "value": "typically around 60 bar and 450°C; within 5°C of saturation"
+    },
+    {
+      "metric": "desuperheater steam inlet velocity",
+      "unit": "m/s",
+      "basis": "typical velocity entering a desuperheater in good piping design; Spirax Sarco",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheater-types",
+        "source_id": "spiraxsarco-com-desuperheating-basic-desuperheater-types"
+      },
+      "value": "40-60"
+    },
+    {
+      "metric": "attemperation water pressure",
+      "unit": "qualitative",
+      "basis": "Spirax Sarco water spray desuperheating; booster pump may be required",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheater-types",
+        "source_id": "spiraxsarco-com-desuperheating-basic-desuperheater-types"
+      },
+      "value": "must exceed steam pressure at injection point"
+    },
+    {
+      "metric": "steam enthalpy split example",
+      "unit": "kJ/kg",
+      "basis": "Spirax Sarco worked example; illustrates why desuperheating is needed for heating applications",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheating-theory",
+        "source_id": "spiraxsarco-com-desuperheating-basic-desuperheating-theory"
+      },
+      "value": "at 10 bar a / 300°C: water 763, evaporation 2015, superheat 274"
+    }
+  ],
+  "vendors": [
+    "spirax-sarco"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/control-applications/pressure-control-applications",
+      "source_id": "spiraxsarco-com-control-applications-pressure-control-applicatio"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheater-types",
+      "source_id": "spiraxsarco-com-desuperheating-basic-desuperheater-types"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheating-theory",
+      "source_id": "spiraxsarco-com-desuperheating-basic-desuperheating-theory"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Numeric attemperation/spraywater purity limit (conductivity, sodium, silica, solids)",
+      "why": "Fetched pages state water quality matters but no numeric spraywater specification",
+      "next_action": "Fetch GE Vernova/Siemens steam turbine or boiler attemperation water specification and cite exact limits and basis."
+    },
+    {
+      "what": "PRV noise prediction and silencer sizing method",
+      "why": "Spirax refers to Module 6.4 on noise but the page was not fetched",
+      "next_action": "Fetch Spirax control-valve noise module and IEC 60534-8-3 based vendor sizing notes."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-steam-condensate.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

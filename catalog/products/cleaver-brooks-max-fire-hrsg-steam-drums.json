@@ -1,0 +1,31 @@
+{
+  "id": "cleaver-brooks-max-fire-hrsg-steam-drums",
+  "name": "Max-Fire HRSG steam drums",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "pressure-part",
+  "equipment": [
+    "steam-drum-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Max-Fire product page directly with WebFetch (markdown).",
+  "specifications": [
+    {
+      "metric": "Drum design",
+      "basis": "Max-Fire Product Overview bullets",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "design feature",
+      "value": "Large steam drums to assure ample steaming area; downcomers on both ends of boiler"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/max-fire-series",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/max-fire-series",
+      "source_id": "cleaverbrooks-com-product-max-fire-series"
+    }
+  ],
+  "notes": "Fetched Max-Fire product page directly with WebFetch (markdown).",
+  "last_reviewed": "2026-11-24"
+}

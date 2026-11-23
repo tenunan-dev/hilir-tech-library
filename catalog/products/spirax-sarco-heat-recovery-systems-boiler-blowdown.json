@@ -1,0 +1,31 @@
+{
+  "id": "spirax-sarco-heat-recovery-systems-boiler-blowdown",
+  "name": "Heat recovery systems (boiler blowdown)",
+  "manufacturer": "spirax-sarco",
+  "product_type": "heat-recovery",
+  "equipment": [
+    "blowdown-heat-recovery"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Page fetched but the product section stated 'No content available in this section'. Only the category description is usable. GAP: no model-level specs.",
+  "specifications": [
+    {
+      "metric": "Function",
+      "basis": "Category description printed on page; no product model or numeric spec printed",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/",
+        "source_id": "spiraxsteam-com-boiler-controls-and-systems-heat-recovery-system"
+      },
+      "unit": "n/a",
+      "value": "Recover flash steam and heat from boiler blowdown"
+    }
+  ],
+  "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/",
+  "sources": [
+    {
+      "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/",
+      "source_id": "spiraxsteam-com-boiler-controls-and-systems-heat-recovery-system"
+    }
+  ],
+  "notes": "Page fetched but the product section stated 'No content available in this section'. Only the category description is usable. GAP: no model-level specs.",
+  "last_reviewed": "2026-11-24"
+}

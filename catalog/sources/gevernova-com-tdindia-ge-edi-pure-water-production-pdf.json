@@ -1,0 +1,26 @@
+{
+  "id": "gevernova-com-tdindia-ge-edi-pure-water-production-pdf",
+  "name": "Figure 1 — EDI Flow Schematic — Using EDI to Meet the Needs of Pure Water Production",
+  "url": "https://www.gevernova.com/gev/sites/default/files/tdindia/GE-EDI-pure-water-production.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "GE Vernova (formerly GE Water & Process Technologies), technical paper TP1078EN",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Direct PDF URL downloaded (301,256 bytes, 5 pages); Figure 1 caption and treatment train verified. Evidence: https://www.gevernova.com/gev/sites/default/files/tdindia/GE-EDI-pure-water-production.pdf"
+}

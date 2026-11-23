@@ -1,0 +1,61 @@
+{
+  "id": "cleaver-brooks-c2x-condensing-economizer",
+  "name": "C2X Condensing Economizer",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "heat-exchanger",
+  "equipment": [
+    "economizer-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "specifications": [
+    {
+      "metric": "Applicable boiler size",
+      "basis": "Product bullet: 'Boilers up to 2,500 HP'; accommodates all boiler design pressures",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x",
+        "source_id": "cleaverbrooks-com-product-c2x"
+      },
+      "unit": "HP (up to)",
+      "value": 2500
+    },
+    {
+      "metric": "Construction",
+      "basis": "Product bullets and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x",
+        "source_id": "cleaverbrooks-com-product-c2x"
+      },
+      "unit": "configuration",
+      "value": "Two-stage: separate non-condensing stack section and condensing section"
+    },
+    {
+      "metric": "Tube material",
+      "basis": "Product Overview: tube core assemblies individually removable; all gas side surfaces 316 stainless steel to eliminate corrosion",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x",
+        "source_id": "cleaverbrooks-com-product-c2x"
+      },
+      "unit": "material",
+      "value": "316 stainless steel tube with aluminum fins (Al-Fuse)"
+    },
+    {
+      "metric": "Condensing fuel basis",
+      "basis": "Product Overview bullet and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x",
+        "source_id": "cleaverbrooks-com-product-c2x"
+      },
+      "unit": "fuel basis",
+      "value": "Condenses on natural gas only; near-condensing mode on #2 oil"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/c2x",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/c2x",
+      "source_id": "cleaverbrooks-com-product-c2x"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown).",
+  "last_reviewed": "2026-11-24"
+}

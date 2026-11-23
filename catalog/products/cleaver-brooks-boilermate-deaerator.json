@@ -1,0 +1,63 @@
+{
+  "id": "cleaver-brooks-boilermate-deaerator",
+  "name": "BoilerMate Deaerator",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "feedwater",
+  "equipment": [
+    "feedwater-deaerator-system"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "specifications": [
+    {
+      "metric": "Capacity",
+      "basis": "Product bullets: 1,500-135,000 lbs/hr",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/boilermate",
+        "source_id": "cleaverbrooks-com-product-boilermate"
+      },
+      "unit": "lb/hr",
+      "low": 1500,
+      "high": 135000
+    },
+    {
+      "metric": "Type",
+      "basis": "Product bullets and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/boilermate",
+        "source_id": "cleaverbrooks-com-product-boilermate"
+      },
+      "unit": "type",
+      "value": "Pressurized packed column deaerator"
+    },
+    {
+      "metric": "Storage capacity",
+      "basis": "Product Overview attribute: 'Storage capacities from 10 to 30 minutes'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/boilermate",
+        "source_id": "cleaverbrooks-com-product-boilermate"
+      },
+      "unit": "minutes",
+      "low": 10,
+      "high": 30
+    },
+    {
+      "metric": "Pumping",
+      "basis": "Product bullets and Product Overview",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/boilermate",
+        "source_id": "cleaverbrooks-com-product-boilermate"
+      },
+      "unit": "configuration",
+      "value": "On/off or variable speed pumping"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/boilermate",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/boilermate",
+      "source_id": "cleaverbrooks-com-product-boilermate"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown).",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "valmet-valmet-cfb-boiler-superheaters",
+  "name": "Valmet CFB Boiler superheaters",
+  "manufacturer": "valmet",
+  "product_type": "heat-exchanger",
+  "equipment": [
+    "superheater-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Valmet CFB Boiler page directly with WebFetch (markdown). Superheaters are a subsystem of the CFB boiler, not a standalone named product line.",
+  "specifications": [
+    {
+      "metric": "Superheater design",
+      "basis": "Valmet CFB Boiler page bullets and 'High steam parameters' section",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "design feature",
+      "value": "Dedicated superheaters for corrosive fuels; easily replaceable superheaters in back pass"
+    },
+    {
+      "metric": "High steam parameters",
+      "basis": "Valmet CFB Boiler page: fluidized bed heat exchangers in loop seal",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "qualitative",
+      "value": "Possible without severe corrosion even with recovered fuels"
+    }
+  ],
+  "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+  "sources": [
+    {
+      "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+      "source_id": "valmet-com-energyproduction-cfb-boilers"
+    }
+  ],
+  "notes": "Fetched Valmet CFB Boiler page directly with WebFetch (markdown). Superheaters are a subsystem of the CFB boiler, not a standalone named product line.",
+  "last_reviewed": "2026-11-24"
+}

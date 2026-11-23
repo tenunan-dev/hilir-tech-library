@@ -1,0 +1,80 @@
+{
+  "id": "hrsg-bypass-damper",
+  "name": "Stack/breeching dampers, bypass dampers and sealing systems for HRSG simple-cycle operation",
+  "equipment_type": "damper",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Diverter/bypass damper systems route gas-turbine exhaust either to the bypass stack (simple cycle, HRSG offline) or through the HRSG (combined cycle), with mechanically interlocked isolation and seal-air systems so personnel can enter the isolated HRSG while the turbine runs. Stack dampers slow HRSG cooling between starts, prevent rain ingress and provide overpressure relief.",
+  "specifications": [
+    {
+      "metric": "Forney dual BiPlane interlock positions",
+      "unit": "degrees: open damper locked >80 degrees while mating damper closes >10 degrees",
+      "basis": "Forney article; mechanical interlock requires one damper at least 80% open so turbine exhaust cannot be fully blocked",
+      "source": {
+        "url": "https://www.forneycorp.com/articles/hrsg-bypass-dampers",
+        "source_id": "forneycorp-com-articles-hrsg-bypass-dampers"
+      },
+      "low": 10,
+      "high": 80
+    },
+    {
+      "metric": "Forney seal-air fans and allowable entry temperature",
+      "unit": "fans at 200% capacity; seal-air curtain designed to maintain temperatures below 140 F (OSHA confined-space requirement) for HRSG entry",
+      "basis": "Forney article; truss blade cavity forms air-seal plenum, flexible seal packs at blade tips",
+      "source": {
+        "url": "https://www.forneycorp.com/articles/hrsg-bypass-dampers",
+        "source_id": "forneycorp-com-articles-hrsg-bypass-dampers"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Carbon packing temperature limit and shaft material",
+      "unit": "degrees C (753 F) oxidising temperature limit for carbon components; 17-4PH stainless shaft",
+      "basis": "Forney article; purged lantern ring prevents exposure to corrosion and temperature above the oxidising limit",
+      "source": {
+        "url": "https://www.forneycorp.com/articles/hrsg-bypass-dampers",
+        "source_id": "forneycorp-com-articles-hrsg-bypass-dampers"
+      },
+      "value": 400
+    }
+  ],
+  "vendors": [
+    "forney-corporation",
+    "nem-energy",
+    "gsd-genel-sistem-dizayn",
+    "boldrocchi-group",
+    "fox-equipment",
+    "metco-technologies",
+    "energylink-international",
+    "hangguo-hgtybypass"
+  ],
+  "sources": [
+    {
+      "url": "https://www.forneycorp.com/articles/hrsg-bypass-dampers",
+      "source_id": "forneycorp-com-articles-hrsg-bypass-dampers"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "No named SE Asia HRSG bypass-damper project (Malaysia/Indonesia/Philippines) found",
+      "why": "Vendor pages found were US, European, Turkish and Chinese; no plant reference list read",
+      "next_action": "Search regional EPC project references for 'bypass damper HRSG' and check Hangguo/Chinese vendor project lists."
+    },
+    {
+      "what": "No design basis for seal-air pressure relative to exhaust pressure (other than 'higher than exhaust pressure' and >500 mm wc from two vendors)",
+      "why": "Only qualitative statements in fetched Forney page",
+      "next_action": "Fetch a damper datasheet giving seal-air differential pressure, flow and fan sizing basis."
+    },
+    {
+      "what": "No damper leakage class tied to a named standard (e.g. ASME N510 / EN 12237) found",
+      "why": "Vendors quote percentages without a test standard",
+      "next_action": "Look for an HRSG damper specification citing a leakage test standard."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-auxiliaries.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

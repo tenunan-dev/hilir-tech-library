@@ -1,0 +1,26 @@
+{
+  "id": "andritz-com-thermal-power-en",
+  "name": "ANDRITZ — ANDRITZ PowerFluid CFB Boiler Technology",
+  "url": "https://www.andritz.com/thermal-power-en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "ANDRITZ",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Fetched Thermal power page directly with WebFetch (markdown). No numeric capacity printed on this page; dedicated EcoFluid/PowerFluid product pages not opened. Evidence: https://www.andritz.com/thermal-power-en"
+}

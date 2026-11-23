@@ -1,0 +1,28 @@
+{
+  "id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler",
+  "name": "Spirax Sarco — SC20 Sample Cooler",
+  "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Read in full: Spirax Sarco SC20 product page including embedded technical information TI-P403-09 and installation guide IM-P403-66. Related SSC20 clean-steam cooler noted as a sepa Evidence: https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
+}

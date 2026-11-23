@@ -1,0 +1,26 @@
+{
+  "id": "epa-gov-2025-01-evaluation-of-particulate-matter-pm-continuous-e",
+  "name": "Unit 1 Effluent Schematic — Figure 1-1, Evaluation of Particulate Matter CEMS Volume 1",
+  "url": "https://www.epa.gov/system/files/documents/2025-01/evaluation-of-particulate-matter-pm-continuous-emission-monitoring-systems-cems-vol-1-9-2000_0.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "U.S. Environmental Protection Agency (contractor MRI)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Direct PDF URL downloaded (4,611,772 bytes, 154 pages). Figure 1-1 labels were confirmed from a WebSearch snippet (search-verified); text extraction of the firs Evidence: https://www.epa.gov/system/files/documents/2025-01/evaluation-of-particulate-matter-pm-continuous-emission-monitoring-systems-cems-vol-1-9-2000_0.pdf"
+}

@@ -97,4 +97,4 @@ def test_hybrid_search_schema_serves_projects():
     sql = (pathlib.Path(__file__).resolve().parent.parent / "db" / "schema.sql").read_text(encoding="utf-8")
     fn = sql.split("CREATE OR REPLACE FUNCTION hybrid_search", 1)[1].split("$$;", 1)[0]
     assert "SELECT 'project', p.id, p.name" in fn, "hybrid_search union lacks the project branch"
-    assert "('technology', 'vendor', 'equipment', 'project') AND reuse_level = 'full-text-open'" in fn
+    assert "('technology', 'vendor', 'equipment', 'project', 'product') AND reuse_level = 'full-text-open'" in fn

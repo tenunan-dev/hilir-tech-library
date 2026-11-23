@@ -1,0 +1,51 @@
+{
+  "id": "graver-water-marmon-industrial-water-reactivator-solids-contact-clarifier",
+  "name": "Reactivator Solids Contact Clarifier",
+  "manufacturer": "graver-water-marmon-industrial-water",
+  "product_type": "feedwater",
+  "equipment": [
+    "boiler-feedwater-pretreatment"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver 'Raw Water Pretreatment' page. Product line named in narrative text; no numeric specification table on this page.",
+  "specifications": [
+    {
+      "metric": "Clarifier type",
+      "basis": "Qualitative design description printed on Raw Water Pretreatment page; no numeric rating printed",
+      "source": {
+        "url": "https://graver.com/pretreatment/",
+        "source_id": "graver-com-pretreatment"
+      },
+      "unit": "n/a",
+      "value": "high rate, solids contact, sludge recirculation type"
+    },
+    {
+      "metric": "Functions integrated in single unit",
+      "basis": "Printed on Raw Water Pretreatment page",
+      "source": {
+        "url": "https://graver.com/pretreatment/",
+        "source_id": "graver-com-pretreatment"
+      },
+      "unit": "n/a",
+      "value": "chemical addition and mixing, flocculation, upflow clarification"
+    },
+    {
+      "metric": "Applications",
+      "basis": "Printed on Raw Water Pretreatment page",
+      "source": {
+        "url": "https://graver.com/pretreatment/",
+        "source_id": "graver-com-pretreatment"
+      },
+      "unit": "n/a",
+      "value": "clarification, lime softening, silica reduction, organics reduction"
+    }
+  ],
+  "url": "https://graver.com/pretreatment/",
+  "sources": [
+    {
+      "url": "https://graver.com/pretreatment/",
+      "source_id": "graver-com-pretreatment"
+    }
+  ],
+  "notes": "Read in full: Graver 'Raw Water Pretreatment' page. Product line named in narrative text; no numeric specification table on this page.",
+  "last_reviewed": "2026-11-24"
+}

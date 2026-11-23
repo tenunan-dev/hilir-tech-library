@@ -1,0 +1,72 @@
+{
+  "id": "valmet-valmet-cfb-boiler-formerly-cymic",
+  "name": "Valmet CFB Boiler (formerly CYMIC)",
+  "manufacturer": "valmet",
+  "product_type": "boiler",
+  "equipment": [
+    "boiler-gas-cfb"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Linked CFB brochure PDF not opened. Note: this is a solid-fuel CFB, not a gas-fired CFB; recorded against the class because no gas-fired CFB OEM spec page was found.",
+  "specifications": [
+    {
+      "metric": "Boiler size range",
+      "basis": "Product page: 'The wide size range covers boilers from 30 to 1200 MWth'",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "MWth",
+      "low": 30,
+      "high": 1200
+    },
+    {
+      "metric": "Cyclone construction",
+      "basis": "Product page 'High steam parameters' section; no hot expansion joints between furnace and cyclone",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "construction",
+      "value": "High-efficiency cylindrical cyclones of membrane walls covered by light refractory"
+    },
+    {
+      "metric": "Steam parameters",
+      "basis": "Product page: enabled by fluidized bed heat exchangers located in the loop seal; dedicated superheaters for corrosive fuels",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "qualitative",
+      "value": "High steam parameters without severe corrosion"
+    },
+    {
+      "metric": "Low-load operation",
+      "basis": "Product page section 'Low-load operation available for CFB boilers'",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "operating mode",
+      "value": "Partial bed operation available"
+    },
+    {
+      "metric": "Fuels",
+      "basis": "Product page 'High fuel flexibility'; more than 100 references worldwide, mostly multifuel boilers",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "fuel flexibility",
+      "value": "Biomass, agricultural waste streams, recovered fuels, coals, solid petrochemical residues (pet coke, asphaltene, solidified pitch), any combination"
+    }
+  ],
+  "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+  "sources": [
+    {
+      "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+      "source_id": "valmet-com-energyproduction-cfb-boilers"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown). Linked CFB brochure PDF not opened. Note: this is a solid-fuel CFB, not a gas-fired CFB; recorded against the class because no gas-fired CFB OEM spec page was found.",
+  "last_reviewed": "2026-11-24"
+}

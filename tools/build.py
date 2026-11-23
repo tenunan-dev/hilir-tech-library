@@ -31,6 +31,8 @@ SOURCES = ROOT / "catalog" / "sources"
 VENDORS = ROOT / "catalog" / "vendors"
 EQUIPMENT = ROOT / "catalog" / "equipment"
 PROJECTS = ROOT / "catalog" / "projects"
+PRODUCTS = ROOT / "catalog" / "products"
+DRAWINGS = ROOT / "catalog" / "drawings"
 INDEX = ROOT / "catalog" / "index"
 
 
@@ -288,6 +290,92 @@ def load_projects(vendor_ids, card_ids, source_ids):
     return projects, errors
 
 
+def load_products(vendor_ids, equipment_ids, source_ids):
+    import products as product_records
+    schema = json.loads((ROOT / "schema" / "product.schema.json").read_text(encoding="utf-8"))
+    validator = jsonschema.Draft202012Validator(schema, format_checker=jsonschema.FormatChecker())
+    out, errors = [], []
+    for path in sorted(PRODUCTS.glob("*.json")):
+        rec = json.loads(path.read_text(encoding="utf-8"))
+        errors += [f"products/{path.name}: {'/'.join(map(str, e.path))} {e.message}" for e in validator.iter_errors(rec)]
+        if rec.get("id") != path.stem:
+            errors.append(f"products/{path.name}: id does not match file name")
+        if rec["manufacturer"] not in vendor_ids:
+            errors.append(f"products/{path.name}: unknown vendor id {rec['manufacturer']}")
+        for eid in rec.get("equipment", []):
+            if eid not in equipment_ids:
+                errors.append(f"products/{path.name}: unknown equipment id {eid}")
+        for s in rec["sources"]:
+            if "source_id" in s and s["source_id"] not in source_ids:
+                errors.append(f"products/{path.name}: unknown source_id {s['source_id']}")
+        for spec in rec["specifications"]:
+            if "USD" in spec.get("unit", "").upper() and "year" not in spec:
+                errors.append(f"products/{path.name}: USD cost '{spec['metric']}' needs a dollar year")
+        out.append(rec)
+    return out, errors
+
+
+def load_drawings(equipment_ids, card_ids, source_ids):
+    import drawings as drawing_records
+    schema = json.loads((ROOT / "schema" / "drawing.schema.json").read_text(encoding="utf-8"))
+    validator = jsonschema.Draft202012Validator(schema, format_checker=jsonschema.FormatChecker())
+    out, errors = [], []
+    for path in sorted(DRAWINGS.glob("*.json")):
+        rec = json.loads(path.read_text(encoding="utf-8"))
+        errors += [f"drawings/{path.name}: {'/'.join(map(str, e.path))} {e.message}" for e in validator.iter_errors(rec)]
+        if rec.get("id") != path.stem:
+            errors.append(f"drawings/{path.name}: id does not match file name")
+        for eid in rec.get("equipment", []):
+            if eid not in equipment_ids:
+                errors.append(f"drawings/{path.name}: unknown equipment id {eid}")
+        for cid in rec.get("technologies", []):
+            if cid not in card_ids:
+                errors.append(f"drawings/{path.name}: unknown technology id {cid}")
+        for code in rec.get("sectors", []):
+            if code not in labels_all():
+                errors.append(f"drawings/{path.name}: unknown sector code {code}")
+        for s in rec["sources"]:
+            if "source_id" in s and s["source_id"] not in source_ids:
+                errors.append(f"drawings/{path.name}: unknown source_id {s['source_id']}")
+        out.append(rec)
+    return out, errors
+
+
+def labels_all(taxonomy=None):
+    taxonomy = taxonomy or yaml.safe_load((ROOT / "taxonomy.yaml").read_text(encoding="utf-8"))
+    return set(taxonomy["sectors"]) | set(taxonomy["disciplines"])
+
+
+def product_page(products, equipment_names, vendor_names):
+    import products as product_records
+    lines = ["# Product catalog", "",
+             f"{len(products)} vendor product lines with printed specifications "
+             "(schema `schema/product.schema.json`). Every figure cites the page it was read from.", ""]
+    by_type = collections.defaultdict(list)
+    for rec in products:
+        by_type[rec["product_type"]].append(rec)
+    for ptype in sorted(by_type):
+        lines += [f"## {ptype}", "", "| Product | Manufacturer | Equipment | Specifications |", "| --- | --- | --- | --- |"]
+        for rec in sorted(by_type[ptype], key=lambda r: r["name"].lower()):
+            specs = "; ".join(s["metric"] for s in rec["specifications"])
+            lines.append(f"| [{rec['name']}]({rec['url']}) | {vendor_names.get(rec['manufacturer'], rec['manufacturer'])} | "
+                         f"{', '.join(equipment_names.get(e, e) for e in rec.get('equipment', []))} | {specs} |")
+        lines.append("")
+    return "\n".join(lines)
+
+
+def drawing_page(drawings, equipment_names, card_names):
+    lines = ["# Process drawings (PFD / P&ID)", "",
+             f"{len(drawings)} citable diagrams (schema `schema/drawing.schema.json`). The diagram stays at the "
+             "publisher's URL; these records say what it shows and which equipment and technologies it covers.", "",
+             "| Diagram | Type | Publisher | Covers |", "| --- | --- | --- | --- |"]
+    for rec in sorted(drawings, key=lambda r: (r["diagram_type"], r["title"].lower())):
+        covers = ", ".join([equipment_names.get(e, e) for e in rec.get("equipment", [])]
+                           + [card_names.get(c, c) for c in rec.get("technologies", [])])
+        lines.append(f"| [{rec['title']}]({rec['url']}) | {rec['diagram_type']} | {rec['publisher']} | {covers} |")
+    return "\n".join(lines)
+
+
 def project_page(projects, labels):
     """catalog/index/projects.md: the project catalog grouped by sector, then status."""
     by_sector = collections.defaultdict(list)
@@ -384,6 +472,12 @@ def main():
     projects, proj_errors = load_projects({v["id"] for v in vendors}, {c["id"] for c in cards},
                                          {r.get("id") for r in records})
     errors += proj_errors
+    products, product_errors = load_products({v["id"] for v in vendors}, {e["id"] for e in equipment},
+                                             {r.get("id") for r in records})
+    errors += product_errors
+    drawings, drawing_errors = load_drawings({e["id"] for e in equipment}, {c["id"] for c in cards},
+                                             {r.get("id") for r in records})
+    errors += drawing_errors
     for url, paths in library.duplicate_documents().items():
         errors.append(f"corpus document stored twice ({url}): {' and '.join(paths)}")
     if errors:
@@ -409,6 +503,12 @@ def main():
     with (ROOT / "catalog" / "projects.jsonl").open("w", encoding="utf-8") as fh:
         for rec in projects:
             fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    with (ROOT / "catalog" / "products.jsonl").open("w", encoding="utf-8") as fh:
+        for rec in products:
+            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    with (ROOT / "catalog" / "drawings.jsonl").open("w", encoding="utf-8") as fh:
+        for rec in drawings:
+            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
     register = technologies.load_register(cards=cards)
     (INDEX / "technology-register.md").write_text(technologies.register_page(register, labels), encoding="utf-8")
     (INDEX / "gaps.md").write_text(technologies.gaps_page(technologies.gaps(cards, register)), encoding="utf-8")
@@ -418,9 +518,15 @@ def main():
     (INDEX / "equipment.md").write_text(
         equipment_page(equipment, {v["id"]: v["name"] for v in vendors}, labels), encoding="utf-8")
     (INDEX / "projects.md").write_text(project_page(projects, labels), encoding="utf-8")
+    eq_names = {e["id"]: e["name"] for e in equipment}
+    (INDEX / "products.md").write_text(
+        product_page(products, eq_names, {v["id"]: v["name"] for v in vendors}), encoding="utf-8")
+    (INDEX / "drawings.md").write_text(
+        drawing_page(drawings, eq_names, {c["id"]: c["name"] for c in cards}), encoding="utf-8")
     print(f"{len(records)} records valid, {len(ids)} unique ids, {len(cards)} technology cards, "
           f"{len(vendors)} vendor records, {len(equipment)} equipment records, "
-          f"{len(projects)} project records; indexes written")
+          f"{len(projects)} project records, {len(products)} product records, "
+          f"{len(drawings)} drawing records; indexes written")
     return 0
 
 

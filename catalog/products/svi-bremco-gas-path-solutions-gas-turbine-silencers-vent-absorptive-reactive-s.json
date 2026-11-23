@@ -1,0 +1,49 @@
+{
+  "id": "svi-bremco-gas-path-solutions-gas-turbine-silencers-vent-absorptive-reactive-s",
+  "name": "Gas Path Solutions - gas turbine silencers, vent/absorptive/reactive silencers, acoustical lagging systems",
+  "manufacturer": "svi-bremco",
+  "product_type": "boiler",
+  "equipment": [],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: SVI BREMCO Gas Path Solutions page. GAP: this page did not print expansion-joint product specs; the SVI BREMCO exhaust expansion-joint association was only search-verified from a directory snippet.",
+  "specifications": [
+    {
+      "metric": "Engineered solution families",
+      "basis": "List printed on Gas Path Solutions page; no numeric specs printed",
+      "source": {
+        "url": "https://svi-bremco.com/gas-path-solutions/",
+        "source_id": "svi-bremco-com-gas-path-solutions"
+      },
+      "unit": "n/a",
+      "value": "Gas turbine silencers; stacks and ductwork; air intake systems; vent silencers; absorptive silencers; combination silencers; reactive silencers; acoustical panel systems; acoustical lagging systems"
+    },
+    {
+      "metric": "Support capability",
+      "basis": "Printed on Gas Path Solutions page",
+      "source": {
+        "url": "https://svi-bremco.com/gas-path-solutions/",
+        "source_id": "svi-bremco-com-gas-path-solutions"
+      },
+      "unit": "n/a",
+      "value": "in-house engineering for acoustic, aerodynamic, thermal and structural project goals"
+    },
+    {
+      "metric": "Applicable sectors",
+      "basis": "Printed under Industries and Applications We Serve",
+      "source": {
+        "url": "https://svi-bremco.com/gas-path-solutions/",
+        "source_id": "svi-bremco-com-gas-path-solutions"
+      },
+      "unit": "n/a",
+      "value": "Power Generation (Simple/Open Cycle, Combined Cycle, Cogen, SCR/CO, Coal/Boiler, Biomass); Oil & Gas / Petrochemical"
+    }
+  ],
+  "url": "https://svi-bremco.com/gas-path-solutions/",
+  "sources": [
+    {
+      "url": "https://svi-bremco.com/gas-path-solutions/",
+      "source_id": "svi-bremco-com-gas-path-solutions"
+    }
+  ],
+  "notes": "Read in full: SVI BREMCO Gas Path Solutions page. GAP: this page did not print expansion-joint product specs; the SVI BREMCO exhaust expansion-joint association was only search-verified from a directory snippet.",
+  "last_reviewed": "2026-11-24"
+}

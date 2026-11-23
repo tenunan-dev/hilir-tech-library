@@ -1,0 +1,26 @@
+{
+  "id": "prod-xylem-com-white-papers-continuous-electrodeionization-for-b",
+  "name": "Figure 3 — Piping and instrumentation diagram of a typical CEDI skid — Continuous electrodeionization for boil",
+  "url": "https://prod.xylem.com/siteassets/brand/evoqua/resources/white-papers/continuous-electrodeionization-for-boiler-feed-water.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Xylem / Evoqua Water Technologies (white paper)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Direct PDF URL downloaded (406,770 bytes, 5 pages); Figure 3 P&ID caption and text verified. Evidence: https://prod.xylem.com/siteassets/brand/evoqua/resources/white-papers/continuous-electrodeionization-for-boiler-feed-water.pdf"
+}

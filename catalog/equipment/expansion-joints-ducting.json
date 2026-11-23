@@ -1,0 +1,58 @@
+{
+  "id": "expansion-joints-ducting",
+  "name": "Expansion joints, flexible connectors and pipe supports in hot flue-gas / steam ducts",
+  "equipment_type": "ducting",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "MAT"
+  ],
+  "description": "Accommodate thermal expansion, vibration and directional movement in boiler/flue-gas ducts and steam piping; protect ductwork, equipment and supports from cyclic stress and fatigue (dB Noise Reduction; vendor catalogues search-verified).",
+  "specifications": [
+    {
+      "metric": "flexible connection function",
+      "unit": "qualitative",
+      "basis": "dB Noise Reduction flexible connections page (read)",
+      "source": {
+        "url": "https://www.dbnoisereduction.com/flexible-connections-expansion-joints.php",
+        "source_id": "dbnoisereduction-com-flexible-connections-expansion-joints-php"
+      },
+      "value": "absorbs vibration and cyclic stresses from temperature changes, airflow turbulence and excessive vibration"
+    }
+  ],
+  "vendors": [
+    "db-noise-reduction-inc",
+    "eagleburgmann-ke-a-s",
+    "unaflex-kadant",
+    "megaflexon",
+    "thorburn-flex",
+    "boa-group"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dbnoisereduction.com/flexible-connections-expansion-joints.php",
+      "source_id": "dbnoisereduction-com-flexible-connections-expansion-joints-php"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Temperature, pressure, movement and life ratings for fabric vs metallic expansion joints in HRSG/CFB flue gas",
+      "why": "All detailed data are in PDF catalogues that WebFetch cannot read",
+      "next_action": "Download catalogues locally, extract rating tables with model numbers and design codes, then cite page numbers."
+    },
+    {
+      "what": "Pipe support/anchor/guide spacing rules for hot steam lines",
+      "why": "No fetched authoritative page gives numeric spacing or load limits",
+      "next_action": "Find ASME B31.1 or vendor pipe-support design guide with exact tables and record basis."
+    },
+    {
+      "what": "Asia-Pacific expansion-joint suppliers and local fabricators",
+      "why": "WebSearch quota exhausted before regional vendor search completed",
+      "next_action": "Run a targeted regional search for ASEAN fabric expansion joint suppliers with fetchable datasheets."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-steam-condensate.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

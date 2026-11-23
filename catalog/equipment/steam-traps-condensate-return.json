@@ -1,0 +1,170 @@
+{
+  "id": "steam-traps-condensate-return",
+  "name": "Steam traps (thermodynamic, float, thermostatic, inverted bucket)",
+  "equipment_type": "steam-trap",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Automatically discharge condensate, air and non-condensable gases from steam lines and heat-using equipment while holding back live steam; protects against waterlogging, water hammer, erosion and corrosion (Spirax Sarco; TLV).",
+  "specifications": [
+    {
+      "metric": "thermodynamic trap minimum inlet pressure",
+      "unit": "bar g",
+      "basis": "typical minimum differential for disc-type operation; source: Spirax Sarco 'Thermodynamic Steam Traps'",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps",
+        "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermodynamic-ste"
+      },
+      "value": 0.25
+    },
+    {
+      "metric": "thermodynamic trap maximum backpressure",
+      "unit": "% of inlet pressure",
+      "basis": "Spirax Sarco design limit for TD traps",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps",
+        "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermodynamic-ste"
+      },
+      "value": 80
+    },
+    {
+      "metric": "TD trap closed period",
+      "unit": "s",
+      "basis": "typical cycling interval, depends on steam temperature and ambient conditions; Spirax Sarco",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps",
+        "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermodynamic-ste"
+      },
+      "value": "20-40"
+    },
+    {
+      "metric": "no-load steam loss, thermostatic / inverted-bucket / thermodynamic traps",
+      "unit": "kg/h",
+      "basis": "laboratory tests for 1/2-inch traps at low/no-load; Spirax Sarco energy-loss tutorial (thermostatic 'up to 0.5', inverted bucket 'around 0.5', TD 'generally around 0.5, doubled in severe weather, halved with insulating cap')",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps",
+        "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-energy-losses-in"
+      },
+      "value": "up to ~0.5"
+    },
+    {
+      "metric": "TD trap radiation loss",
+      "unit": "kg/h",
+      "basis": "independent tests, small TD trap; at least a quarter of equal-sized inverted bucket traps; Spirax Sarco",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps",
+        "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-energy-losses-in"
+      },
+      "value": "not more than 0.25"
+    },
+    {
+      "metric": "bimetallic trap cooling leg",
+      "unit": "m",
+      "basis": "unlagged pipe needed to avoid waterlogging when trap discharges below saturation; Spirax Sarco",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps",
+        "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermostatic-stea"
+      },
+      "value": "1-3"
+    },
+    {
+      "metric": "liquid-expansion trap discharge temperature setting",
+      "unit": "°C",
+      "basis": "adjustable discharge range of oil-filled element; Spirax Sarco",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps",
+        "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermostatic-stea"
+      },
+      "value": "60-100"
+    },
+    {
+      "metric": "balanced-pressure trap superheat tolerance",
+      "unit": "°C of superheat",
+      "basis": "modern welded stainless capsule type; Spirax Sarco",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps",
+        "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermostatic-stea"
+      },
+      "value": "up to 70"
+    },
+    {
+      "metric": "steam mains drainage interval",
+      "unit": "m",
+      "basis": "general rule with adequately sized drain pockets; also drain bottom of every riser; Spirax Sarco",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/considerations-for-selecting-steam-traps",
+        "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-considerations-fo"
+      },
+      "value": "30-50"
+    },
+    {
+      "metric": "free-float trap upper pressure application",
+      "unit": "MPaG",
+      "basis": "certain TLV free-float models in high-pressure service",
+      "source": {
+        "url": "https://www.tlv.com/steam-info/steam-theory/steamtrap-basics/steam-trap-varieties-and-applications",
+        "source_id": "tlv-com-steamtrap-basics-steam-trap-varieties-and-applications"
+      },
+      "value": "up to 12"
+    },
+    {
+      "metric": "disc trap upper pressure application",
+      "unit": "MPaG",
+      "basis": "certain TLV disc-type models; cited for supercritical steam/condensate service",
+      "source": {
+        "url": "https://www.tlv.com/steam-info/steam-theory/steamtrap-basics/steam-trap-varieties-and-applications",
+        "source_id": "tlv-com-steamtrap-basics-steam-trap-varieties-and-applications"
+      },
+      "value": "up to 26"
+    }
+  ],
+  "vendors": [
+    "spirax-sarco",
+    "armstrong-international"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps",
+      "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermodynamic-ste"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps",
+      "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-energy-losses-in"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps",
+      "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermostatic-stea"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/considerations-for-selecting-steam-traps",
+      "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-considerations-fo"
+    },
+    {
+      "url": "https://www.tlv.com/steam-info/steam-theory/steamtrap-basics/steam-trap-varieties-and-applications",
+      "source_id": "tlv-com-steamtrap-basics-steam-trap-varieties-and-applications"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Per-model trap capacity tables (kg/h vs differential pressure) and connection sizes",
+      "why": "Spirax table 11.15.1 and vendor capacity charts are images/PDFs not machine-readable through WebFetch",
+      "next_action": "Fetch manufacturer selector tools (TLV Valve Calculator, Spirax datasheets) or request datasheets and record model-specific capacity with differential pressure basis."
+    },
+    {
+      "what": "Trap failure-mode distribution by boiler type (fire-tube vs HRSG vs CFB)",
+      "why": "Sources describe mechanisms generically, not by boiler type",
+      "next_action": "Locate plant-specific steam trap survey reports or EPRI/DOE case studies broken out by boiler type."
+    },
+    {
+      "what": "Monetised annual steam-trap loss with stated dollar year",
+      "why": "Armstrong snippet gives $10/1,000 lb with no price year",
+      "next_action": "Find a dated DOE/Armstrong publication and record dollar year and escalation basis."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-steam-condensate.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

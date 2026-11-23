@@ -1,0 +1,26 @@
+{
+  "id": "cleaverbrooks-com-boiler-room-equipment-economizers",
+  "name": "Cleaver-Brooks — ECF Economizer (ClearFire Economizer)",
+  "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Cleaver-Brooks",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Fetched Economizers catalog listing directly with WebFetch (text). Same page lists C1X, C2X, C2X-HE, CCE, CRB, CRE economizers. Evidence: https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers"
+}

@@ -2,7 +2,7 @@
 
 A curated catalog of public sources on oil, gas, petrochemical and energy technologies, built so AI agents can find, cite and read them.
 
-It holds **586 catalog sources** across 10 sectors (the eight energy sectors, IDC — data centres, and WWT — wastewater and water reuse) and 8 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of **253 collected documents** (one per source url — 207 open, 46 full-text-restricted); **392 technology cards** covering the 407-entry technology register; a **vendor directory of 546 records**; an **equipment catalog of 58 equipment classes** (including gas-fired boiler types and their components); and a **project catalog of 304 named projects and operating plants** (owners, contractors, capacities, milestones). A search index, a Postgres layer, an MCP server, a REST API and a web interface expose all of it to agents and people.
+It holds **762 catalog sources** across 10 sectors (the eight energy sectors, IDC — data centres, and WWT — wastewater and water reuse) and 8 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of **253 collected documents** (one per source url — 207 open, 46 full-text-restricted); **392 technology cards** covering the 407-entry technology register; a **vendor directory of 596 records**; an **equipment catalog of 81 equipment classes** (including gas-fired boiler types and their components); and a **project catalog of 304 named projects and operating plants** (owners, contractors, capacities, milestones), a **product catalog of 69 vendor product lines with printed specifications**, and **35 citable process drawings (PFD/P&ID/schematics)**. A search index, a Postgres layer, an MCP server, a REST API and a web interface expose all of it to agents and people.
 
 ## Documentation
 
@@ -35,6 +35,8 @@ It holds **586 catalog sources** across 10 sectors (the eight energy sectors, ID
 | `catalog/technology-register.yaml` | The ~300-technology register the cards cover |
 | `catalog/vendors/` | One record per vendor, supplier, EPC or packager |
 | `catalog/equipment/` | One record per equipment class (specification ranges with sources, vendor model lines) |
+| `catalog/products/` | One record per vendor product line with printed specifications (`schema/product.schema.json`) |
+| `catalog/drawings/` | Citable PFD/P&ID/schematic records that link to the publisher URL (`schema/drawing.schema.json`) |
 | `corpus/` | Collected content, as Markdown files with licence and provenance front matter |
 | `collectors/` | Licence-aware collectors (see `collectors/README.md`) |
 | `agent/` | Search index, MCP server, REST API and web interface (see `agent/README.md`) |
@@ -75,7 +77,7 @@ Terms findings are recorded as labels — e.g. terms-forbid-copying sites carry 
 
 - Simplest: load `catalog/catalog.jsonl` and filter by `sectors`, `disciplines`, `regions` or `reuse_level`.
 - For browsing or a Claude Project: attach `catalog/index/*.md`.
-- Search and retrieval: run the MCP server in `agent/` — **26 tools** for search and reading, technology cards, vendors, equipment classes, **projects**, gaps, library stats, and (`sql_query`, `db_catalog`, `graph_neighbors`) a read-only SQL window and knowledge graph over the Postgres layer — optionally with embeddings for semantic search.
+- Search and retrieval: run the MCP server in `agent/` — **30 tools** for search and reading, technology cards, vendors, equipment classes, **projects**, gaps, library stats, and (`sql_query`, `db_catalog`, `graph_neighbors`) a read-only SQL window and knowledge graph over the Postgres layer — optionally with embeddings for semantic search.
 - Cloud agents and browsers: **two doors behind hilir Access**.
   - MCP + REST: `https://techlib-api.hilir.app` (`POST /mcp`, `/api/*`, OpenAPI at `/api/openapi.json`).
   - Web UI: `https://techlib.hilir.app` (browser sign-in at `https://access.hilir.app`).
@@ -91,8 +93,8 @@ Terms findings are recorded as labels — e.g. terms-forbid-copying sites carry 
 
 ## Roadmap
 
-1. **Catalog (done):** taxonomy, schema, 586 records, generated indexes.
+1. **Catalog (done):** taxonomy, schema, 762 records, generated indexes.
 2. **Verification and corpus (ongoing):** records verified against live terms; collectors in `collectors/` (RSS, arXiv, OSTI, manual inbox) write licence-tagged Markdown into `corpus/<id>/`. See `collectors/README.md`.
-3. **Agent access (done):** SQLite FTS5 keyword index with optional embeddings, an MCP server with 26 tools, a REST API and an HTML interface, hosted at techlib.hilir.app / techlib-api.hilir.app behind hilir Access (open-licence text only).
+3. **Agent access (done):** SQLite FTS5 keyword index with optional embeddings, an MCP server with 30 tools, a REST API and an HTML interface, hosted at techlib.hilir.app / techlib-api.hilir.app behind hilir Access (open-licence text only).
 4. **Postgres layer (done):** pgvector, full-text search and a knowledge graph on Neon, reloaded from the files by `tools/load_postgres.py` and queried read-only by agents (`sql_query`) and the web console as role `og_mcp_read`. See [docs/POSTGRES.md](docs/POSTGRES.md).
-5. **Vendors and equipment (ongoing):** 546 vendor records and 58 equipment classes (boilers including gas-fired fire-tube, water-tube, condensing hot-water and gas-conversion CFB types, their components — burners, drums, economisers, superheaters, deaerators, safety valves, fans, emissions control — plus compressors, pumps, turbines, data-centre electrical and ten wastewater classes); the next families arrive on the owner's word (decision #33).
+5. **Vendors and equipment (ongoing):** 596 vendor records and 81 equipment classes, 69 product lines and 35 process drawings (boilers including gas-fired fire-tube, water-tube, condensing hot-water and gas-conversion CFB types, their components — burners, drums, economisers, superheaters, deaerators, safety valves, fans, emissions control — plus compressors, pumps, turbines, data-centre electrical and ten wastewater classes); the next families arrive on the owner's word (decision #33).

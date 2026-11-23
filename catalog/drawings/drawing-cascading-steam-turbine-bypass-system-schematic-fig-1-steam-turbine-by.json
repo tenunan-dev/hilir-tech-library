@@ -1,0 +1,37 @@
+{
+  "id": "drawing-cascading-steam-turbine-bypass-system-schematic-fig-1-steam-turbine-by",
+  "title": "Cascading steam turbine bypass system schematic (Fig. 1) — Steam Turbine Bypass Systems, Combined Cycle Journal 4Q 2003",
+  "diagram_type": "schematic",
+  "description": "Combined-cycle startup/transient arrangement: HP superheated steam diverted around the HP turbine through a pressure-control valve and attemperator into the cold reheat line; bypass stack and bypass damper alternatives discussed, with spray-water manifold for HP desuperheater.",
+  "publisher": "Combined Cycle Journal (Anderson & van Ballegooyen, Progress Energy / Gryphon International)",
+  "url": "https://competitivepower.us/pub/pdfs/Steam-Turbine-Bypass-Systems-CCJ-4Q-2003.pdf",
+  "licence": "Trade journal copyright; publisher terms not verified.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "hrsg-bypass-damper",
+    "prv-desuperheating-station"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://competitivepower.us/pub/pdfs/Steam-Turbine-Bypass-Systems-CCJ-4Q-2003.pdf",
+      "source_id": "competitivepower-us-pdfs-steam-turbine-bypass-systems-ccj-4q-200"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. SEARCH-VERIFIED via WebSearch snippet describing Figure 1 and the cascading bypass scheme; direct PDF not downloaded in this session.",
+  "last_reviewed": "2026-11-24"
+}

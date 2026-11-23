@@ -1,0 +1,36 @@
+{
+  "id": "drawing-figure-2-1-basic-system-schematic-instrument-air-systems-a-guide-for-p",
+  "title": "Figure 2-1 — Basic system schematic, Instrument Air Systems: A Guide for Power Plant Maintenance Personnel (NP-7079)",
+  "diagram_type": "schematic",
+  "description": "Power-plant instrument air system: intake filters, compressors, intercoolers, aftercoolers, moisture separators, air receiver, dryer subsystem and distribution subsystem serving instrument air and service air headers.",
+  "publisher": "U.S. Nuclear Regulatory Commission / EPRI (NP-7079)",
+  "url": "https://www.nrc.gov/docs/ml0037/ml003767039.pdf",
+  "licence": "U.S. Government work — generally public domain in the United States; EPRI co-brand may apply.",
+  "reuse_level": "full-text-open",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nrc.gov/docs/ml0037/ml003767039.pdf",
+      "source_id": "nrc-gov-ml0037-ml003767039-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. SEARCH-VERIFIED: Figure 2-1 and subsystem text captured from WebSearch snippet. Direct download returned HTTP 403 in this session; NRC document ID ML003767039. A related NRC training slide deck covers the generic IA layout: https://www.nrc.gov/docs/ML1414/ML14140A092.pdf (search-verified).",
+  "last_reviewed": "2026-11-24"
+}

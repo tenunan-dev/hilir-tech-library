@@ -1,0 +1,34 @@
+{
+  "id": "drawing-fig-1-3-schematic-diagram-of-a-cfb-boiler-design-operation-and-mainten",
+  "title": "Fig. 1.3 Schematic diagram of a CFB boiler — Design, Operation and Maintenance of CFB Boilers (Basu)",
+  "diagram_type": "schematic",
+  "description": "Textbook schematic of a typical CFB boiler: fast-fluidized furnace with in-furnace heat-transfer surfaces, gas–solid separator and solids recirculation to the furnace base, plus convective backpass. Explains fast-bed hydrodynamic condition.",
+  "publisher": "Prabir Basu / Springer (book preview)",
+  "url": "https://content.e-bookshelf.de/media/reading/L-3925765-5457caf33b.pdf",
+  "licence": "Copyrighted textbook preview; citation only.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://content.e-bookshelf.de/media/reading/L-3925765-5457caf33b.pdf",
+      "source_id": "content-e-bookshelf-de-reading-l-3925765-5457caf33b-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. SEARCH-VERIFIED via WebSearch snippet; PDF not downloaded in this session.",
+  "last_reviewed": "2026-11-24"
+}

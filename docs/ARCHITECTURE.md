@@ -101,6 +101,18 @@ Current families: five boiler classes (fire-tube package, industrial water-tube 
 CFB, electric/electrode), centrifugal compressor, centrifugal pump and industrial gas turbine.
 New families arrive on the owner's word (decision #33).
 
+### Product catalog and process drawings (`catalog/products/`, `catalog/drawings/`)
+
+Two further catalog layers added 2026-11-24. `products/` holds one record per vendor product line with
+the specifications printed on the manufacturer's own page (schema `schema/product.schema.json`);
+`drawings/` holds citable PFDs, P&IDs, schematics and flowsheets with publisher, URL, reuse terms and
+links to the equipment and technology cards they cover (schema `schema/drawing.schema.json`). The
+diagram itself is never copied into the repository. Both layers are validated by `tools/build.py`,
+indexed as kinds `product` and `drawing` in the SQLite and Postgres search paths, exposed through
+`list_products`/`get_product`/`list_drawings`/`get_drawing`, REST `/api/products` and `/api/drawings`,
+and web `/products` and `/drawings`, and loaded into `og.product` / `og.drawing` with vectors and graph
+nodes.
+
 ### Verification (`tools/verification/`)
 
 `log.jsonl` is an append-only log of terms checks: `id`, `checked_on`, `evidence` (URL), `finding`, and any of `url`, `licence`, `reuse_level`, `access`, `update_frequency`, `automated_access`, `permitted_use`. `apply_verification.py` replays the whole log onto the records, so the log is the source of truth for verification state. An entry with `"verified": false` records a check that could not confirm the terms; such records appear in `catalog/index/needs-manual-check.md`.

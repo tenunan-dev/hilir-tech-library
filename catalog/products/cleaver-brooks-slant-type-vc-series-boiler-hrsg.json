@@ -1,0 +1,31 @@
+{
+  "id": "cleaver-brooks-slant-type-vc-series-boiler-hrsg",
+  "name": "Slant Type/VC Series Boiler (HRSG)",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "boiler",
+  "equipment": [
+    "boiler-hrsg"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched HRSG catalog listing directly; one numeric qualifier printed. No full specification page opened.",
+  "specifications": [
+    {
+      "metric": "Gas side inlet temperature",
+      "basis": "HRSG catalog listing: 'ideal for applications where the gas side inlet temperature is less than 1,700°F'; single-pass design",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/boilers/hrsg",
+        "source_id": "cleaverbrooks-com-boilers-hrsg"
+      },
+      "unit": "deg F (less than)",
+      "value": 1700
+    }
+  ],
+  "url": "https://cleaverbrooks.com/catalog/boilers/hrsg",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/catalog/boilers/hrsg",
+      "source_id": "cleaverbrooks-com-boilers-hrsg"
+    }
+  ],
+  "notes": "Fetched HRSG catalog listing directly; one numeric qualifier printed. No full specification page opened.",
+  "last_reviewed": "2026-11-24"
+}

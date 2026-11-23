@@ -1,0 +1,26 @@
+{
+  "id": "johnzink-com-powerburners-selective-catalytic-reduction-scr-syst",
+  "name": "John Zink (Koch Engineered Solutions)",
+  "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "John Zink (Koch Engineered Solutions)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Product page listed in fetched John Zink navigation; not opened. Evidence: https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
+}

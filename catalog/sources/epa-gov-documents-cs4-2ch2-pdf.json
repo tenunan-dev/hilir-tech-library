@@ -1,0 +1,26 @@
+{
+  "id": "epa-gov-documents-cs4-2ch2-pdf",
+  "name": "SCR Process Flow Diagram — Figure 2.1, Chapter 4.2 NOx Post-Combustion Selective Catalytic Reduction",
+  "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch2.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "U.S. Environmental Protection Agency",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Direct PDF URL downloaded (457,397 bytes, 66 pages); Figure 2.1 caption and reagent-injection text verified. Evidence: https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch2.pdf"
+}

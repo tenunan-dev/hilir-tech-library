@@ -1,0 +1,39 @@
+{
+  "id": "drawing-figure-1-3-2-a-sophisticated-feedtank-system-where-the-water-is-being",
+  "title": "Figure 1.3.2 — A sophisticated feedtank system where the water is being heated by steam injection",
+  "diagram_type": "schematic",
+  "description": "Feedtank with steam injection heating, recirculation spray, level control, temperature control, cold make-up, condensate return, blowdown heat recovery and vent; companion figure shows flash condensing deaerator head with water spray, immersion tube and automatic air vent.",
+  "publisher": "Spirax Sarco (also mirrored by Spirax Steam)",
+  "url": "https://www.spiraxsteam.com/uploads/pdfs/202608/20260901062219858_2ccbde3a.pdf",
+  "licence": "Copyright © Spirax Sarco; manufacturer literature.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "feedwater-deaerator-system",
+    "boiler-controls-oxygen-trim"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spiraxsteam.com/uploads/pdfs/202608/20260901062219858_2ccbde3a.pdf",
+      "source_id": "spiraxsteam-com-202608-20260901062219858-2ccbde3a-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Mirror of the SB-P401-01 document; direct PDF URL downloaded (verified via the content.spiraxsarco.com master) and figure caption verified.",
+  "last_reviewed": "2026-11-24"
+}

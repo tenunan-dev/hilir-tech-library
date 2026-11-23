@@ -1,0 +1,26 @@
+{
+  "id": "cleaverbrooks-com-boiler-room-equipment-feed-systems",
+  "name": "Cleaver-Brooks",
+  "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/feed-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Cleaver-Brooks",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Catalog category observed in fetched Cleaver-Brooks Fuel Train page navigation; feed-system page not opened. Evidence: https://cleaverbrooks.com/catalog/boiler-room-equipment/feed-systems"
+}

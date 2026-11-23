@@ -1,0 +1,57 @@
+{
+  "id": "fuel-gas-booster",
+  "name": "Fuel gas booster / compressor for low supply pressure to burners",
+  "equipment_type": "compressor",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Raises incoming utility gas pressure to the net regulated pressure required at the burner gas-train inlet when mains pressure is insufficient; packaged skids combine a hermetically sealed centrifugal blower, check valve, inlet/outlet pressure switches, isolating valves, gauges and a factory control panel, usually installed just downstream of the gas meter. Selection basis: gas flow = burner firing rate / calorific value; pressure lift = minimum required burner pressure minus available mains pressure.",
+  "specifications": [
+    {
+      "metric": "ETTER compact booster package capacity",
+      "unit": "cfh natural gas",
+      "basis": "E101-P rated up to 1,000 CFH; E101-PHC up to 1,600 CFH; hermetically sealed, UL-listed factory-assembled packages",
+      "source": {
+        "url": "https://etterengineering.com/booster-systems",
+        "source_id": "etterengineering-com-booster-systems"
+      },
+      "low": 1000,
+      "high": 1600
+    }
+  ],
+  "vendors": [
+    "eclipse-combustion-boostpak-spec-sheets-hosted-on-kromschroe",
+    "etter-engineering-boosterworx",
+    "cleaver-brooks",
+    "brittania-industries"
+  ],
+  "sources": [
+    {
+      "url": "https://etterengineering.com/booster-systems",
+      "source_id": "etterengineering-com-booster-systems"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "No fetchable OEM page giving a complete booster selection table keyed to boiler HP with both flow and pressure basis for HRSG duct burners or CFB plants",
+      "why": "Search results returned commercial-boiler manuals and generic booster spec sheets; no HRSG-specific fuel-gas booster duty found",
+      "next_action": "Search GE Vernova / B&W / Mitsubishi HRSG duct-burner fuel-train specifications and gas-compressor OEMs (e.g. Honeywell/Eclipse) for a fetchable duty table."
+    },
+    {
+      "what": "No named Asia-Pacific gas-booster vendor or installed plant found",
+      "why": "All booster vendors found were North American/European; search terms skewed to UL/CSA packaged systems",
+      "next_action": "Search local-language terms (e.g. 'gas booster boiler Malaysia/Indonesia/China', 'gas pressure booster burner') and check KOSHA/KTL-listed suppliers."
+    },
+    {
+      "what": "Pressure range of 1-3 psi for power generation is printed in a presentation; conversion to inches wc not printed",
+      "why": "Avoid introducing a derived number as a sourced figure",
+      "next_action": "Find an OEM table printing power-generation burner pressure in a single unit."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-auxiliaries.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

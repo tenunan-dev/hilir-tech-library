@@ -1,0 +1,41 @@
+{
+  "id": "forney-corporation-durafire-oil-igniter",
+  "name": "DURAFire Oil Igniter",
+  "manufacturer": "forney-corporation",
+  "product_type": "ignition",
+  "equipment": [
+    "boiler-pilot-ignition-system"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Forney igniters list page. Descriptions are truncated on the list page; dedicated DURAFire page was not fetched. No numeric specs.",
+  "specifications": [
+    {
+      "metric": "Fuel",
+      "basis": "Printed on Forney igniters list page",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters",
+        "source_id": "forneycorp-com-igniters"
+      },
+      "unit": "n/a",
+      "value": "air atomized No. 2 oil"
+    },
+    {
+      "metric": "Design feature",
+      "basis": "Printed on Forney igniters list page; claimed self-stabilized and highly reliable",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters",
+        "source_id": "forneycorp-com-igniters"
+      },
+      "unit": "n/a",
+      "value": "protected primary combustion zone"
+    }
+  ],
+  "url": "https://www.forneycorp.com/igniters",
+  "sources": [
+    {
+      "url": "https://www.forneycorp.com/igniters",
+      "source_id": "forneycorp-com-igniters"
+    }
+  ],
+  "notes": "Read in full: Forney igniters list page. Descriptions are truncated on the list page; dedicated DURAFire page was not fetched. No numeric specs.",
+  "last_reviewed": "2026-11-24"
+}

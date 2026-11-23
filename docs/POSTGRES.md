@@ -15,6 +15,7 @@ Schema `og`, defined in [db/schema.sql](../db/schema.sql):
 | `technology` and its children | Cards: `technology_alias`, `technology_source`, `technology_figure` (performance and cost figures with unit, year, basis, source URL), `technology_supplier`, `technology_gap` (what is missing, why, where to look) |
 | `vendor` | The vendor directory: one row per curated record with aliases, roles, products, the card ids it supplies, an embedding and a full-text index |
 | `equipment` | The equipment catalog: one row per equipment class (boilers first) with `specifications` (range/basis/source jsonb), `vendor_models`, `vendors[]`, `technologies[]`, `gaps`, the record's `sources`, an embedding and a full-text index |
+| `product`, `drawing` | Product-catalog records with printed specifications, and citable PFD/P&ID/schematic records; both carry `record jsonb`, `search_text`, embeddings and weighted `tsv`, and are searchable as kinds `product` and `drawing` |
 | `register_entry` | The register of about 300 technologies, linked to a card where one exists |
 | `node`, `edge` | The knowledge graph (below) |
 

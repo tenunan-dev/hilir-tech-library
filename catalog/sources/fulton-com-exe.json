@@ -1,0 +1,26 @@
+{
+  "id": "fulton-com-exe",
+  "name": "Fulton — ENDURA XE Condensing Firetube Hydronic Boiler",
+  "url": "https://fulton.com/exe",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Fulton",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Fetched product page directly with WebFetch (markdown), including full model specification table. Evidence: https://fulton.com/exe"
+}

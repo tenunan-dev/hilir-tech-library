@@ -1,0 +1,26 @@
+{
+  "id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat",
+  "name": "Chemical Engineering magazine — makeup treatment effluent specific conductivity",
+  "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Chemical Engineering magazine",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. recommended normal upper limit for final MBIX/EDI effluent; Chemical Engineering (ChemTreat), 2019 Evidence: https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/"
+}

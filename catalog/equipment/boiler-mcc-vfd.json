@@ -1,0 +1,54 @@
+{
+  "id": "boiler-mcc-vfd",
+  "name": "Boiler motor control centres / variable speed drives and electrical supply for fans and pumps",
+  "equipment_type": "electrical",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "ELE",
+    "INS"
+  ],
+  "description": "Provide motor starting, protection and speed control for forced-draft/induced-draft fans, combustion-air blowers and boiler feedwater/service water pumps. VFDs replace throttling valves/inlet dampers with speed control, reducing energy use, wear and start-up current; BMS/CCS panels integrate VFDs with burner control.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Provide motor starting, protection and speed control for forced-draft/induced-draft fans, combustion-air blowers and boiler feedwater/service water pumps. VFDs replace throttling valves/inlet dampers with speed control, reducing energy use,",
+      "basis": "Qualitative function from the pages read in this sweep.",
+      "source": {
+        "url": "https://www.energy.gov/eere/amo/steam-systems"
+      }
+    }
+  ],
+  "vendors": [
+    "tmeic",
+    "abb",
+    "scc-inc",
+    "zeeco",
+    "emerson-copeland-vfds"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/eere/amo/steam-systems"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "No named boiler MCC (motor control centre) product page or MCC bus/voltage/current rating found",
+      "why": "Retrieved results concerned VFDs rather than complete MCC assemblies",
+      "next_action": "Search 'boiler motor control centre MCC OEM' on Siemens/ABB/Schneider/Eaton sites and fetch a product page with bus rating and standards."
+    },
+    {
+      "what": "No electrical supply voltage/frequency figures for package boiler fans and pumps from an authoritative plant spec",
+      "why": "Only the TMEIC 14.4 kV-or-below ID fan example was found; package boilers often 400 V/415 V/3-phase/50 Hz in SE Asia but not evidenced",
+      "next_action": "Fetch a package boiler electrical utility requirement datasheet (OEM) listing site supply."
+    },
+    {
+      "what": "CrossCo VFD article not directly read (403)",
+      "why": "WebFetch got non-2xx status",
+      "next_action": "Try the article via a cached/alternate URL or cite only the search-verified summary."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-auxiliaries.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

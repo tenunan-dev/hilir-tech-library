@@ -1,0 +1,61 @@
+{
+  "id": "john-zink-hrsg-duct-burners-ldrw-vc-coen-castings-flame-holders",
+  "name": "HRSG Duct Burners (LDRW, VC, Coen Castings flame holders)",
+  "manufacturer": "john-zink",
+  "product_type": "burner",
+  "equipment": [
+    "duct-burner-hrsg"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). No numeric heat-input or emissions figure printed on this page.",
+  "specifications": [
+    {
+      "metric": "Flame holder models",
+      "basis": "Product page 'Model Options' section with descriptions of each",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+        "source_id": "johnzink-com-powerburners-duct-burner"
+      },
+      "unit": "model designations",
+      "value": "LDRW (Low Draft Reverse Wing), VC (V-Cone Tip Wing), Coen Castings"
+    },
+    {
+      "metric": "Application",
+      "basis": "Product page Overview and Features",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+        "source_id": "johnzink-com-powerburners-duct-burner"
+      },
+      "unit": "application",
+      "value": "HRSG supplementary firing, combined cycle, dual cycle, cogeneration"
+    },
+    {
+      "metric": "Hydrogen readiness",
+      "basis": "Product page Feature: 'Hydrogen-Ready Capabilities'",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+        "source_id": "johnzink-com-powerburners-duct-burner"
+      },
+      "unit": "fuel capability",
+      "value": "Hydrogen and alternative fuels"
+    },
+    {
+      "metric": "Integrated equipment",
+      "basis": "Product page Features",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+        "source_id": "johnzink-com-powerburners-duct-burner"
+      },
+      "unit": "scope of supply",
+      "value": "Proprietary igniters, flame scanners, optional instrumentation packages"
+    }
+  ],
+  "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+  "sources": [
+    {
+      "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+      "source_id": "johnzink-com-powerburners-duct-burner"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown). No numeric heat-input or emissions figure printed on this page.",
+  "last_reviewed": "2026-11-24"
+}

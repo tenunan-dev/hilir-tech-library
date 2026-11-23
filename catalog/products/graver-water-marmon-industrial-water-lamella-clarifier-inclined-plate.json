@@ -1,0 +1,41 @@
+{
+  "id": "graver-water-marmon-industrial-water-lamella-clarifier-inclined-plate",
+  "name": "Lamella Clarifier (inclined plate)",
+  "manufacturer": "graver-water-marmon-industrial-water",
+  "product_type": "feedwater",
+  "equipment": [
+    "boiler-feedwater-pretreatment"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: same Graver Raw Water Pretreatment page.",
+  "specifications": [
+    {
+      "metric": "Design principle",
+      "basis": "Printed on Raw Water Pretreatment page",
+      "source": {
+        "url": "https://graver.com/pretreatment/",
+        "source_id": "graver-com-pretreatment"
+      },
+      "unit": "n/a",
+      "value": "inclined plate clarification assuring laminar flow conditions"
+    },
+    {
+      "metric": "Installation attribute",
+      "basis": "Printed on Raw Water Pretreatment page",
+      "source": {
+        "url": "https://graver.com/pretreatment/",
+        "source_id": "graver-com-pretreatment"
+      },
+      "unit": "n/a",
+      "value": "reduced space; can be located indoors or relocated"
+    }
+  ],
+  "url": "https://graver.com/pretreatment/",
+  "sources": [
+    {
+      "url": "https://graver.com/pretreatment/",
+      "source_id": "graver-com-pretreatment"
+    }
+  ],
+  "notes": "Read in full: same Graver Raw Water Pretreatment page.",
+  "last_reviewed": "2026-11-24"
+}

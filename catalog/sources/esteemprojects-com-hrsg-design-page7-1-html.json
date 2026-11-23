@@ -1,0 +1,26 @@
+{
+  "id": "esteemprojects-com-hrsg-design-page7-1-html",
+  "name": "Esteem Projects — Circulation ratio rule of thumb for forced-circulation HRSG",
+  "url": "https://www.esteemprojects.com/library/HRSG-Design/page7_1.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Esteem Projects",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Esteem Projects HRSG tutorial; 20-25% steam generation by weight is the film-boiling 'danger' zone; 3:1 may suffice where drum is far below/above evaporator Evidence: https://www.esteemprojects.com/library/HRSG-Design/page7_1.html"
+}

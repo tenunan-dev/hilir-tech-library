@@ -1,0 +1,39 @@
+{
+  "id": "drawing-heat-recovery-from-boiler-blowdown-sb-p404-11-au",
+  "title": "Heat recovery from boiler blowdown — SB-P404-11 (AU)",
+  "diagram_type": "PFD",
+  "description": "Labelled flow scheme: isolating valve, strainer, safety valve, blowdown inlet from TDS blowdown control valve(s), flash steam to feedtank, condensate via float trap, circulating pump through plate heat exchanger warming cold treated make-up water, vacuum breaker and flash condensing de-aerator head.",
+  "publisher": "Spirax Sarco",
+  "url": "https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/au/sb/heat_recovery_tds-sb-p404-11-au.ashx?rev=1ef8cf853c454be982e4cd3d492b05a7",
+  "licence": "Copyright © Spirax Sarco; manufacturer literature.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "blowdown-heat-recovery",
+    "steam-traps-condensate-return"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/au/sb/heat_recovery_tds-sb-p404-11-au.ashx?rev=1ef8cf853c454be982e4cd3d492b05a7",
+      "source_id": "content-spiraxsarco-com-sb-heat-recovery-tds-sb-p404-11-au-ashx"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (3,772,070 bytes, 4 pages) and system description verified.",
+  "last_reviewed": "2026-11-24"
+}

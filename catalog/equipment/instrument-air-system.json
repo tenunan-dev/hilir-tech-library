@@ -1,0 +1,65 @@
+{
+  "id": "instrument-air-system",
+  "name": "Instrument air / plant compressed air systems (dampers, control valves, actuators)",
+  "equipment_type": "compressed-air",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "INS",
+    "PRC"
+  ],
+  "description": "Supply dry, oil-free, particulate-controlled compressed air to pneumatic actuators on dampers and control valves and to instrument/control devices; dryers, filters, separators and receivers condition the air; dew-point sensors monitor dryness at critical points. Seal air for HRSG bypass dampers is a separate but related air system.",
+  "specifications": [
+    {
+      "metric": "Minimum pressure dew point margin below coldest exposed instrument",
+      "unit": "degrees C (18 F) below the lowest temperature any part of the instrument system is exposed to",
+      "basis": "Atlas Copco citing ANSI/ISA-7.0.01-1996; measured at dryer outlet",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/wiki/compressed-air-articles/instrument-air-quality",
+        "source_id": "atlascopco-com-compressed-air-articles-instrument-air-quality"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Maximum pressure dew point at line pressure",
+      "unit": "degrees C (39 F)",
+      "basis": "Atlas Copco citing ANSI/ISA-7.0.01-1996; companion to the 10 C margin rule",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/wiki/compressed-air-articles/instrument-air-quality",
+        "source_id": "atlascopco-com-compressed-air-articles-instrument-air-quality"
+      },
+      "value": 4
+    }
+  ],
+  "vendors": [
+    "atlas-copco",
+    "cs-instruments",
+    "e-e-elektronik"
+  ],
+  "sources": [
+    {
+      "url": "https://www.atlascopco.com/en-us/compressors/wiki/compressed-air-articles/instrument-air-quality",
+      "source_id": "atlascopco-com-compressed-air-articles-instrument-air-quality"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Typical instrument-air supply pressure range for boiler damper/valve actuators not found on an authoritative page",
+      "why": "Sources found specify quality/dew point and drying equipment, not a plant supply pressure",
+      "next_action": "Fetch ISA-7.0.01 summaries or actuator OEM (Fisher, Emerson, Siemens, Parker) datasheets stating supply pressure (e.g. 20-100 psig) with basis."
+    },
+    {
+      "what": "No Ingersoll Rand, Parker, Emerson or Fisher instrument-air page was actually read",
+      "why": "Search round focused on Atlas Copco and dew-point guidance",
+      "next_action": "Fetch named OEM pages for air preparation and instrument actuators before adding them as evidenced vendors."
+    },
+    {
+      "what": "No SE Asia-specific instrument-air ambient-design example found",
+      "why": "Tropical ambient conditions were not covered in the retrieved pages",
+      "next_action": "Look for ISA-7.0.01 ambient/PDP chart reproduced by a regional vendor and cite its exact values."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-auxiliaries.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

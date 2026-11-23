@@ -1,0 +1,26 @@
+{
+  "id": "energy-gov-f15-steamsourcebook-pdf",
+  "name": "US Department of Energy — Pressurised deaerator oxygen removal",
+  "url": "https://www.energy.gov/sites/prod/files/2014/05/f15/steamsourcebook.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "US Department of Energy",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. DOE Steam Sourcebook: feedwater oxygen content by design of deaerator/deaerating heater Evidence: https://www.energy.gov/sites/prod/files/2014/05/f15/steamsourcebook.pdf"
+}

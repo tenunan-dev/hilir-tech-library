@@ -28,7 +28,8 @@
         "gas valve train",
         "regulator",
         "double block and bleed shutoff valves",
-        "forced-draft fan"
+        "forced-draft fan",
+        "fuel gas booster"
       ],
       "to": [
         "BURN"
@@ -44,7 +45,9 @@
         "low-NOx gas burner",
         "flame scanner",
         "burner management system",
-        "furnace / membrane walls"
+        "furnace / membrane walls",
+        "pilot and igniter",
+        "instrument air"
       ],
       "to": [
         "HEAT"
@@ -80,7 +83,10 @@
         "feedtank / deaerator",
         "feedwater pump",
         "feedwater heater",
-        "blowdown vessel"
+        "blowdown vessel",
+        "water treatment",
+        "chemical dosing",
+        "blowdown heat recovery"
       ],
       "to": [
         "HEAT"
@@ -97,7 +103,10 @@
         "air preheater",
         "SCR or SNCR",
         "induced-draft fan",
-        "stack"
+        "stack",
+        "SCR reagent system",
+        "CEMS",
+        "stack silencer"
       ],
       "to": []
     }
@@ -116,7 +125,17 @@
     "safety relief valves and blowdown system",
     "forced- and induced-draft fans",
     "SCR / SNCR and CEMS",
-    "boiler controls and oxygen trim"
+    "boiler controls and oxygen trim",
+    "boiler feedwater pretreatment",
+    "RO/EDI make-up treatment",
+    "chemical dosing",
+    "deaerator and feedtank",
+    "blowdown heat recovery",
+    "steam traps and condensate return",
+    "instrument air",
+    "fuel gas booster",
+    "SCR reagent system",
+    "CEMS"
   ],
   "suppliers": [
     {
@@ -281,7 +300,7 @@
     "gas supply pressure and composition must be managed; booster/compressor sizing was not evidenced in this sweep",
     "HRSG and duct-burner scope at named combined-cycle plants is often not explicit in the cited pages"
   ],
-  "notes": "Process provenance: sources read 2026-11-24 cover shell/water-tube construction (Spirax Sarco), burner and emissions performance (Cleaver-Brooks, Zeeco, John Zink, ALZETA, Miura), feedwater and safety practice (Spirax Sarco, B&W), HRSG duct firing (GE Vernova, EIA, Tetra, B&W), CFB gas conversion (Zeeco, EPA) and codes (ASME, NFPA 85, EPA Boiler MACT). Vendor performance claims are labelled as such; no figure was estimated.",
+  "notes": "Process provenance: sources read 2026-11-24 cover shell/water-tube construction (Spirax Sarco), burner and emissions performance (Cleaver-Brooks, Zeeco, John Zink, ALZETA, Miura), feedwater and safety practice (Spirax Sarco, B&W), HRSG duct firing (GE Vernova, EIA, Tetra, B&W), CFB gas conversion (Zeeco, EPA) and codes (ASME, NFPA 85, EPA Boiler MACT). Vendor performance claims are labelled as such; no figure was estimated. Supporting systems (water treatment, chemical dosing, steam/condensate, auxiliaries) and two new layers — product catalogs and process drawings — added 2026-11-24. Supporting systems (water treatment, chemical dosing, steam/condensate, auxiliaries) and two new layers — product catalogs and process drawings — added 2026-11-24. Supporting systems (water treatment, chemical dosing, steam/condensate, auxiliaries) and two new layers — product catalogs and process drawings — added 2026-11-24. Supporting systems (water treatment, chemical dosing, steam/condensate, auxiliaries) and two new layers — product catalogs and process drawings — added 2026-11-24. Supporting systems (water treatment, chemical dosing, steam/condensate, auxiliaries) and two new layers — product catalogs and process drawings — added 2026-11-24. Supporting systems (water treatment, chemical dosing, steam/condensate, auxiliaries) and two new layers — product catalogs and process drawings — added 2026-11-24. Supporting systems (water treatment, chemical dosing, steam/condensate, auxiliaries) and two new layers — product catalogs and process drawings — added 2026-11-24.",
   "gaps": [
     {
       "field": "costs",
@@ -334,6 +353,19 @@
         }
       ],
       "action": "Add a sourced duty range when a specification sheet is read."
+    },
+    {
+      "field": "other",
+      "item": "Product catalogs and PFD/P&ID coverage across every equipment class",
+      "reason_code": "not_in_sources_read",
+      "reason": "Product and drawing records are catalogued at the publisher's URL; not every equipment class has a directly fetchable specification sheet or diagram.",
+      "where": [
+        {
+          "hint": "OEM product catalogs, DOE/EPA steam sourcebooks and vendor installation manuals",
+          "source_id": "doe-steam-systems"
+        }
+      ],
+      "action": "Fill the per-class product and drawing gaps listed on the new records when a citable page is read."
     }
   ],
   "sources": [

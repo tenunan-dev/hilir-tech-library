@@ -1,0 +1,61 @@
+{
+  "id": "zeeco-zeeco-gb-low-nox-power-burner",
+  "name": "ZEECO GB Low-NOx Power Burner",
+  "manufacturer": "zeeco",
+  "product_type": "burner",
+  "equipment": [
+    "burner-gas-low-nox"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Power Burners page directly with WebFetch (markdown); linked GB PDF brochure not opened.",
+  "specifications": [
+    {
+      "metric": "Heat input per burner",
+      "basis": "Power Burners page GB burner bullet: 'GB burners can be designed with heat inputs in excess of 360 MMBtu/hr per burner'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+        "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      },
+      "unit": "MMBtu/hr (in excess of, per burner)",
+      "value": 360
+    },
+    {
+      "metric": "Combustion air / FGR",
+      "basis": "GB burner bullet: lower CO2 footprint and less boiler impact with lower capital cost",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+        "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      },
+      "unit": "qualitative",
+      "value": "Lower excess air and FGR than competition"
+    },
+    {
+      "metric": "Fuels",
+      "basis": "GB burner bullet",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+        "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      },
+      "unit": "fuel options",
+      "value": "Natural gas, #6/#2 fuel oils, low-Btu gases (blast furnace gas/coke oven gas), opportunity fuels, waste streams"
+    },
+    {
+      "metric": "Boiler types",
+      "basis": "GB burner bullet: one burner applied to all boiler types",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+        "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      },
+      "unit": "applicability",
+      "value": "Package, industrial, utility, fluidized bed, stoker"
+    }
+  ],
+  "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+  "sources": [
+    {
+      "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+      "source_id": "zeeco-com-burners-power-burners-hslang-en"
+    }
+  ],
+  "notes": "Fetched Zeeco Power Burners page directly with WebFetch (markdown); linked GB PDF brochure not opened.",
+  "last_reviewed": "2026-11-24"
+}

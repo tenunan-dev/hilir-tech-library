@@ -1,0 +1,23 @@
+{
+  "id": "veolia-australia-new-zealand-industrial-services",
+  "name": "Veolia Australia & New Zealand — Industrial Services",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Veolia Australia & New Zealand — Industrial Services is named as a supplier on vendor pages read during the gas-boiler supporting-systems sweep.",
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a product page read in the 2026-11-24 supporting-systems sweep; country and detailed roles were not stated on the read page."
+}

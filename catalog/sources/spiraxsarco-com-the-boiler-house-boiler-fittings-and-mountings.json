@@ -1,0 +1,28 @@
+{
+  "id": "spiraxsarco-com-the-boiler-house-boiler-fittings-and-mountings",
+  "name": "Boiler Fittings and Mountings — Figures 3.7.1 to 3.7.14 (automatic TDS control, bottom blowdown, feedwater che",
+  "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco — Learn About Steam (The Steam and Condensate Loop, The Boiler House)",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. HTML page fetched and read; figure image URLs and captions verified in page source. Diagrams are small equipment schematics, not full P&IDs. Evidence: https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "airbestpractices-com-instrumentation-dew-point-measurement-compr",
+  "name": "E+E Elektronik",
+  "url": "https://www.airbestpractices.com/technology/instrumentation/dew-point-measurement-compressed-air-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "E+E Elektronik",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. search-verified via WebSearch; named in Compressed Air Best Practices article. Evidence: https://www.airbestpractices.com/technology/instrumentation/dew-point-measurement-compressed-air-systems"
+}

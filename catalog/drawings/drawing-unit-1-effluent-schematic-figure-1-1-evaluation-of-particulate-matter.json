@@ -1,0 +1,34 @@
+{
+  "id": "drawing-unit-1-effluent-schematic-figure-1-1-evaluation-of-particulate-matter",
+  "title": "Unit 1 Effluent Schematic — Figure 1-1, Evaluation of Particulate Matter CEMS Volume 1",
+  "diagram_type": "PFD",
+  "description": "Boiler/duct effluents showing mechanical dust collector, fabric filter baghouse, FGD absorber, PM-CEMS and Method 17 sampling locations, opacity monitor and stack; used as a real EPA demonstration layout for PM-CEMS placement.",
+  "publisher": "U.S. Environmental Protection Agency (contractor MRI)",
+  "url": "https://www.epa.gov/system/files/documents/2025-01/evaluation-of-particulate-matter-pm-continuous-emission-monitoring-systems-cems-vol-1-9-2000_0.pdf",
+  "licence": "U.S. Government work — generally public domain in the United States.",
+  "reuse_level": "full-text-open",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/system/files/documents/2025-01/evaluation-of-particulate-matter-pm-continuous-emission-monitoring-systems-cems-vol-1-9-2000_0.pdf",
+      "source_id": "epa-gov-2025-01-evaluation-of-particulate-matter-pm-continuous-e"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (4,611,772 bytes, 154 pages). Figure 1-1 labels were confirmed from a WebSearch snippet (search-verified); text extraction of the first pages was blank, so exact layout should be visually checked before use.",
+  "last_reviewed": "2026-11-24"
+}

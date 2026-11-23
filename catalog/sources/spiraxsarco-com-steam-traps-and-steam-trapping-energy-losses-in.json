@@ -1,0 +1,28 @@
+{
+  "id": "spiraxsarco-com-steam-traps-and-steam-trapping-energy-losses-in",
+  "name": "Spirax Sarco — no-load steam loss, thermostatic / inverted-bucket / thermod",
+  "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. laboratory tests for 1/2-inch traps at low/no-load; Spirax Sarco energy-loss tutorial (thermostatic 'up to 0.5', inverted bucket 'around 0.5', TD 'generally around 0.5, doubled in  Evidence: https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps"
+}

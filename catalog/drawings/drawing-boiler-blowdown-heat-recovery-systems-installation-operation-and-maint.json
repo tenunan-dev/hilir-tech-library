@@ -1,0 +1,40 @@
+{
+  "id": "drawing-boiler-blowdown-heat-recovery-systems-installation-operation-and-maint",
+  "title": "Boiler Blowdown Heat Recovery Systems — Installation, Operation and Maintenance, AI-P404-07 AB Issue 7, Figs 1a and 1b",
+  "diagram_type": "P&ID",
+  "description": "General layout and numbered parts list for a packaged blowdown heat-recovery system: flash vessel (FV), safety valve, vacuum breaker, steam distributor/flash condensing head, float trap, plate heat exchanger, recirculating pump, thermostat, feedwater tank and cold make-up tank; residual blowdown to drain.",
+  "publisher": "Spirax Sarco",
+  "url": "https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/en/ai/heat_recovery-ai-p404-07-en.ashx?rev=3487fc6fff89450eb5babb1fa9d70195",
+  "licence": "Copyright © 2014 Spirax Sarco; local regulations may restrict use; specification subject to change.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "blowdown-heat-recovery",
+    "safety-valves-blowdown-boiler",
+    "steam-traps-condensate-return"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/en/ai/heat_recovery-ai-p404-07-en.ashx?rev=3487fc6fff89450eb5babb1fa9d70195",
+      "source_id": "content-spiraxsarco-com-ai-heat-recovery-ai-p404-07-en-ashx-rev"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (499,664 bytes, 8 pages) and captions/parts list text-extracted. WebFetch cannot parse PDF.",
+  "last_reviewed": "2026-11-24"
+}

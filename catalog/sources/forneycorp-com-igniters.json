@@ -1,0 +1,26 @@
+{
+  "id": "forneycorp-com-igniters",
+  "name": "Forney Corporation — DURAFire Oil Igniter",
+  "url": "https://www.forneycorp.com/igniters",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Forney Corporation",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Read in full: Forney igniters list page. Descriptions are truncated on the list page; dedicated DURAFire page was not fetched. No numeric specs. Evidence: https://www.forneycorp.com/igniters"
+}

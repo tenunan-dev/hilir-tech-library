@@ -1,0 +1,26 @@
+{
+  "id": "johnzink-com-replacement-parts-burner-parts",
+  "name": "John Zink (Koch Engineered Solutions)",
+  "url": "https://www.johnzink.com/parts-services/replacement-parts/burner-parts",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "John Zink (Koch Engineered Solutions)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. FFG and InstaFire pages fetched directly; burner-parts listing search-verified. Evidence: https://www.johnzink.com/parts-services/replacement-parts/burner-parts"
+}

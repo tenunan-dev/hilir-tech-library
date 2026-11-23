@@ -1,0 +1,26 @@
+{
+  "id": "epa-gov-documents-cs2ch4-pdf",
+  "name": "Typical CEMS for Multiple Parameter Monitoring — Figure 4.1, Chapter 4 Section 2 Monitors",
+  "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs2ch4.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "U.S. Environmental Protection Agency",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Direct PDF URL downloaded (312,827 bytes, 41 pages); Figure 4.1 caption and labels verified. EPA CEMS overview page also identified: https://www.epa.gov/emc/con Evidence: https://www.epa.gov/sites/default/files/2020-07/documents/cs2ch4.pdf"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "kurita-america-inc-chemical-feed-systems-skid-mounted",
+  "name": "Chemical Feed Systems (skid-mounted)",
+  "manufacturer": "kurita-america-inc",
+  "product_type": "chemical-dosing",
+  "equipment": [
+    "boiler-chemical-dosing"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Kurita America Chemical Feed Systems solution page. Page also lists DReeM Polymer, Cetamine, Kuriverter IK110, PhosZero as related key products, but those pages were not read.",
+  "specifications": [
+    {
+      "metric": "Feed pressure",
+      "basis": "Printed as 'Up to 3,600 psi feed pressures' under Chemical Feed Skid Capabilities",
+      "source": {
+        "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems",
+        "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
+      },
+      "unit": "psi",
+      "high": "3,600"
+    },
+    {
+      "metric": "Feed rate",
+      "basis": "Printed as 'Up to 2,200 gallon/hour feed rate' on same page",
+      "source": {
+        "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems",
+        "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
+      },
+      "unit": "gallon/hour",
+      "high": "2,200"
+    },
+    {
+      "metric": "Pump types",
+      "basis": "Printed under Chemical Feed Skid Capabilities",
+      "source": {
+        "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems",
+        "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
+      },
+      "unit": "n/a",
+      "value": "solenoid, peristaltic or hydraulically driven"
+    },
+    {
+      "metric": "Frame materials",
+      "basis": "Printed under Chemical Feed Skid Capabilities",
+      "source": {
+        "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems",
+        "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
+      },
+      "unit": "n/a",
+      "value": "painted carbon steel; stainless steel; non-metallic"
+    },
+    {
+      "metric": "Piping materials",
+      "basis": "Printed under Chemical Feed Skid Capabilities",
+      "source": {
+        "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems",
+        "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
+      },
+      "unit": "n/a",
+      "value": "PVC; CPVC; stainless steel (tubing or welded); Alloy 20; PVDF"
+    }
+  ],
+  "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems",
+  "sources": [
+    {
+      "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems",
+      "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
+    }
+  ],
+  "notes": "Read in full: Kurita America Chemical Feed Systems solution page. Page also lists DReeM Polymer, Cetamine, Kuriverter IK110, PhosZero as related key products, but those pages were not read.",
+  "last_reviewed": "2026-11-24"
+}

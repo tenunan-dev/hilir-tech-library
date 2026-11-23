@@ -1,0 +1,41 @@
+{
+  "id": "cleaver-brooks-turbofer-alufer-condensing-heat-exchanger-tubes-clearfire-ce",
+  "name": "TurboFer / AluFer condensing heat exchanger tubes (ClearFire-CE)",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "pressure-part",
+  "equipment": [
+    "heat-transfer-tubes-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched ClearFire-CE product page directly with WebFetch (markdown).",
+  "specifications": [
+    {
+      "metric": "Effective heat transfer surface",
+      "basis": "ClearFire-CE Product Overview: AluFer tube technology increases effective heat transfer surface area up to five times",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "times greater than other condensing boilers",
+      "value": 5
+    },
+    {
+      "metric": "Thermal conductivity",
+      "basis": "ClearFire-CE Product Overview",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "times greater than stainless steel alone",
+      "value": 10
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/cfce",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/cfce",
+      "source_id": "cleaverbrooks-com-product-cfce"
+    }
+  ],
+  "notes": "Fetched ClearFire-CE product page directly with WebFetch (markdown).",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tlv-com-heat-recovery-steam",
+  "name": "TLV — Steam Condensing Heat Exchanger SR Series (SR-3, SR-8)",
+  "url": "https://www.tlv.com/en-us/products/heat-recovery/steam",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "TLV",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Read in full: TLV en-us Steam Condensing Heat Exchanger page. Qualitatively described as an open-to-atmosphere system recovering heat from waste steam as hot water. Evidence: https://www.tlv.com/en-us/products/heat-recovery/steam"
+}

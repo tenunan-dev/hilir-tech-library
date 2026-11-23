@@ -1,0 +1,28 @@
+{
+  "id": "content-spiraxsarco-com-ti-dsh-sizing-ti-p475-06-en-ashx-rev-da7",
+  "name": "Desuperheater Online Program Sizing Guidance — TI-P475-06 CTLS Issue 4, combined pressure reducing/desuperheat",
+  "url": "https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/en/ti/dsh_sizing-ti-p475-06-en.ashx?rev=da7fa56dddf14745b69654a9cf6112c2",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Direct PDF URL downloaded (1,307,533 bytes, 12 pages); combined PRDS diagrams and distance table verified. Evidence: https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/en/ti/dsh_sizing-ti-p475-06-en.ashx?rev=da7fa56dddf14745b69654a9cf6112c2"
+}

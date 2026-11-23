@@ -1,0 +1,26 @@
+{
+  "id": "cea-org-uk-07-cea-bg04-pdf",
+  "name": "Combustion Engineering Association — pH after dealkalisation + degassing",
+  "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+  "source_type": "association",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Combustion Engineering Association",
+  "regions": [
+    "global",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (CEA terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. CEA/ICOM BG04 §2.14: sodium hydroxide solution added after degassing to raise pH to at least 8.5 Evidence: https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
+}

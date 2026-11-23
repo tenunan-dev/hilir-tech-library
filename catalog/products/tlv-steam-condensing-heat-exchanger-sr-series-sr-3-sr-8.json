@@ -1,0 +1,71 @@
+{
+  "id": "tlv-steam-condensing-heat-exchanger-sr-series-sr-3-sr-8",
+  "name": "Steam Condensing Heat Exchanger SR Series (SR-3, SR-8)",
+  "manufacturer": "tlv",
+  "product_type": "heat-recovery",
+  "equipment": [
+    "blowdown-heat-recovery"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us Steam Condensing Heat Exchanger page. Qualitatively described as an open-to-atmosphere system recovering heat from waste steam as hot water.",
+  "specifications": [
+    {
+      "metric": "Maximum operating pressure (PMO)",
+      "basis": "Printed in Product Details table for SR-3 and SR-8; PMO defined on page as Maximum Operating Pressure",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/heat-recovery/steam",
+        "source_id": "tlv-com-heat-recovery-steam"
+      },
+      "unit": "psig",
+      "value": "7"
+    },
+    {
+      "metric": "Maximum operating temperature (TMO)",
+      "basis": "Printed in Product Details table for SR-3 and SR-8; TMO defined on page as Maximum Operating Temperature",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/heat-recovery/steam",
+        "source_id": "tlv-com-heat-recovery-steam"
+      },
+      "unit": "deg F",
+      "value": "285"
+    },
+    {
+      "metric": "Maximum steam flow rate SR-3",
+      "basis": "Printed in Product Details table; row also printed an unlabelled '212' in an adjacent cell whose metric is not resolvable from the markdown table, so it is not recorded as a spec",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/heat-recovery/steam",
+        "source_id": "tlv-com-heat-recovery-steam"
+      },
+      "unit": "lb/h",
+      "value": "660"
+    },
+    {
+      "metric": "Maximum steam flow rate SR-8",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/heat-recovery/steam",
+        "source_id": "tlv-com-heat-recovery-steam"
+      },
+      "unit": "lb/h",
+      "value": "1,760"
+    },
+    {
+      "metric": "Body / heat transfer coil material",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/heat-recovery/steam",
+        "source_id": "tlv-com-heat-recovery-steam"
+      },
+      "unit": "n/a",
+      "value": "Stainless (SUS304)"
+    }
+  ],
+  "url": "https://www.tlv.com/en-us/products/heat-recovery/steam",
+  "sources": [
+    {
+      "url": "https://www.tlv.com/en-us/products/heat-recovery/steam",
+      "source_id": "tlv-com-heat-recovery-steam"
+    }
+  ],
+  "notes": "Read in full: TLV en-us Steam Condensing Heat Exchanger page. Qualitatively described as an open-to-atmosphere system recovering heat from waste steam as hot water.",
+  "last_reviewed": "2026-11-24"
+}

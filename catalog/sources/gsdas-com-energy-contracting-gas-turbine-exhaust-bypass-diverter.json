@@ -1,0 +1,26 @@
+{
+  "id": "gsdas-com-energy-contracting-gas-turbine-exhaust-bypass-diverter",
+  "name": "GSD (Genel Sistem Dizaynı)",
+  "url": "https://gsdas.com/en/energy-industrial-contract-epc/energy-contracting/gas-turbine-exhaust-bypass-diverter-dampers",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "GSD (Genel Sistem Dizaynı)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. search-verified via WebSearch. Evidence: https://gsdas.com/en/energy-industrial-contract-epc/energy-contracting/gas-turbine-exhaust-bypass-diverter-dampers"
+}

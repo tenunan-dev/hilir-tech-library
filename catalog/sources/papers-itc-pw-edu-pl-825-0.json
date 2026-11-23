@@ -1,0 +1,26 @@
+{
+  "id": "papers-itc-pw-edu-pl-825-0",
+  "name": "Figure 1. Flow sheet of process model without supplementary firing — Flexible operation of combined cycle gas ",
+  "url": "https://papers.itc.pw.edu.pl/index.php/JPT/article/download/1056/825/0",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Encabo Cáceres, Montañés & Nord, Journal of Power Technologies 98(9) (2018) 188–197",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Direct PDF URL downloaded (1,172,480 bytes, 10 pages) using an unverified TLS context; Figure 1 caption verified. Evidence: https://papers.itc.pw.edu.pl/index.php/JPT/article/download/1056/825/0"
+}

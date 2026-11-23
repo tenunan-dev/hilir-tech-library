@@ -1,0 +1,39 @@
+{
+  "id": "drawing-improving-steam-system-performance-a-sourcebook-for-industry-second-ed",
+  "title": "Improving Steam System Performance: A Sourcebook for Industry, Second Edition — Figure 1 Steam System Schematic; Figures 2 and 3 Firetube/Watertube Boiler",
+  "diagram_type": "PFD",
+  "description": "Whole-steam-system schematic (generation, distribution, end use, condensate return) plus cutaway schematics of firetube and watertube boilers; accompanying text identifies fuel supply, combustion air, feedwater system, deaerator, feedwater pump, blowdown and exhaust gas venting as the generation subsystems.",
+  "publisher": "U.S. Department of Energy, Advanced Manufacturing Office; prepared by NREL/LBNL/Resource Dynamics Corporation (DOE/GO-102012-3423)",
+  "url": "https://www.energy.gov/sites/prod/files/2014/05/f15/steamsourcebook.pdf",
+  "licence": "U.S. Government work — generally public domain in the United States; check credits on individual figures.",
+  "reuse_level": "full-text-open",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "boiler-feedwater-pump",
+    "steam-traps-condensate-return"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/sites/prod/files/2014/05/f15/steamsourcebook.pdf",
+      "source_id": "energy-gov-f15-steamsourcebook-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (1,944,235 bytes, 64 pages); List of Figures and steam-system-basics text verified. Mirror: https://www.osti.gov/servlets/purl/1216315.",
+  "last_reviewed": "2026-11-24"
+}

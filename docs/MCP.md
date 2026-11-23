@@ -1,6 +1,6 @@
 # Using the MCP server
 
-The library exposes 26 tools over MCP (stdio locally, Streamable HTTP at
+The library exposes 30 tools over MCP (stdio locally, Streamable HTTP at
 `https://techlib-api.hilir.app/mcp`) and the same functionality as a REST API under `/api`. This
 page is the instruction sheet for an AI agent: what each tool answers, when to reach for it, and the
 rules that keep an answer honest. `tools/list` is the live count — this number tracks it.
@@ -58,7 +58,7 @@ Codes with names and subtopics. Cache it for the session; it changes only when t
 Hybrid keyword + vector search over sources, document passages, cards, vendors, equipment and
 projects. Each row carries `kind`, `ref`, `title`, `score`, `licence`, `reuse_level`,
 `permitted_use` and a url.
-`kind` may be `source`, `chunk`, `technology`, `vendor`, `equipment` or `project` to narrow.
+`kind` may be `source`, `chunk`, `technology`, `vendor`, `equipment`, `project`, `product` or `drawing` to narrow.
 Use it to *find* things; use the `get_*`/`list_*` tools to *read* them.
 
 Ranking is **concept coverage, then density** — not literal wording. The query is expanded through
@@ -149,6 +149,18 @@ name or a two-letter code and canonicalises mixed record spellings ("US", "USA" 
 `reference_plants[].project_id`, so a card's reference plant and the project record are the same
 thing seen from two sides.
 
+### Product catalog and process drawings
+
+**`list_products(product_type=None, manufacturer=None, query=None)`** / **`get_product(product_id)`**
+Vendor product lines with the specifications printed on the manufacturer's own page. `product_type`
+is an equipment type (call with no arguments to see them); `manufacturer` is a vendor id. Every
+figure carries a `basis` and the URL it was read from; unknowns are gaps, never estimates.
+
+**`list_drawings(diagram_type=None, sector=None, query=None)`** / **`get_drawing(drawing_id)`**
+Citable PFDs, P&IDs, schematics and flowsheets. Each record says what the diagram shows, who
+published it, where it lives, which equipment and technology cards it covers, and the reuse terms.
+The diagram itself is not copied into the repository — open the URL and respect its licence.
+
 ### Register and gaps
 
 **`list_technology_register(code=None, maturity=None, query=None)`**
@@ -232,6 +244,8 @@ Same functions, same shapes, for clients without MCP:
 | `list_vendors` / `get_vendor` | `GET /api/vendors?...` · `GET /api/vendors/{id}` |
 | `list_equipment` / `get_equipment` | `GET /api/equipment?...` · `GET /api/equipment/{id}` |
 | `list_projects` / `get_project` | `GET /api/projects?status=&sector=&country=&q=` · `GET /api/projects/{id}` |
+| `list_products` / `get_product` | `GET /api/products?product_type=&manufacturer=&q=` · `GET /api/products/{id}` |
+| `list_drawings` / `get_drawing` | `GET /api/drawings?diagram_type=&sector=&q=` · `GET /api/drawings/{id}` |
 | `list_technology_register` | `GET /api/register?...` |
 | `list_gaps` | `GET /api/gaps?field=&reason_code=&include_no_card=` |
 | `taxonomy` | `GET /api/taxonomy` |

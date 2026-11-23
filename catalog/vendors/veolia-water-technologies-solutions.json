@@ -1,0 +1,23 @@
+{
+  "id": "veolia-water-technologies-solutions",
+  "name": "Veolia Water Technologies & Solutions",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Veolia Water Technologies & Solutions is named as a supplier on vendor pages read during the gas-boiler supporting-systems sweep.",
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a product page read in the 2026-11-24 supporting-systems sweep; country and detailed roles were not stated on the read page."
+}

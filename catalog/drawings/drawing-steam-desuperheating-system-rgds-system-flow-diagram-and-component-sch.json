@@ -1,0 +1,37 @@
+{
+  "id": "drawing-steam-desuperheating-system-rgds-system-flow-diagram-and-component-sch",
+  "title": "Steam Desuperheating System RGDS — system flow diagram and component schedule (172-65608MA-03)",
+  "diagram_type": "P&ID",
+  "description": "Three-section desuperheating system: pressure reducing section (pressure control valve + sensor), desuperheating section (temperature control valve, strainer, check valve, sensor) and water mixing/separation section (water injector, static mixer, condensate separator, steam trap), with minimum straight-pipe and pump-section notes.",
+  "publisher": "TLV CO., LTD",
+  "url": "https://www.tlv.com/sites/default/files/tlv_assets/ja/download/manual/doc/man/e/172-65608ma.pdf",
+  "licence": "Copyright © 2021 by TLV CO., LTD. All rights reserved.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "prv-desuperheating-station",
+    "steam-traps-condensate-return"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.tlv.com/sites/default/files/tlv_assets/ja/download/manual/doc/man/e/172-65608ma.pdf",
+      "source_id": "tlv-com-e-172-65608ma-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (484,155 bytes, 22 pages); system flow diagram and component table verified.",
+  "last_reviewed": "2026-11-24"
+}

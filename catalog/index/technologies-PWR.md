@@ -379,12 +379,12 @@ A gas-fired boiler burns natural gas (or another gaseous fuel) in a contained fu
 
 ```mermaid
 flowchart LR
-    FUEL["Gas and combustion air are metered and conditioned<br/><small>gas valve train, regulator, double block and bleed shutoff valves, forced-draft fan</small>"]
-    BURN["Low-NOx burner fires into the water-cooled furnace<br/><small>low-NOx gas burner, flame scanner, burner management system, furnace / membrane walls</small>"]
+    FUEL["Gas and combustion air are metered and conditioned<br/><small>gas valve train, regulator, double block and bleed shutoff valves, forced-draft fan, fuel gas booster</small>"]
+    BURN["Low-NOx burner fires into the water-cooled furnace<br/><small>low-NOx gas burner, flame scanner, burner management system, furnace / membrane walls, pilot and igniter, instrument air</small>"]
     HEAT["Heat crosses the heat-transfer surfaces into boiler water<br/><small>fire tubes or water tubes, tube sheets / headers, superheater, economizer</small>"]
     STEAM["Steam separates and is conditioned for export or the turbine<br/><small>steam drum, attemperator / desuperheater, safety relief valves, steam stop valves</small>"]
-    FEED["Condensate and make-up are deaerated, heated and pumped back<br/><small>feedtank / deaerator, feedwater pump, feedwater heater, blowdown vessel</small>"]
-    GASOUT["Flue gas passes heat recovery and emission controls to the stack<br/><small>economizer, air preheater, SCR or SNCR, induced-draft fan, stack</small>"]
+    FEED["Condensate and make-up are deaerated, heated and pumped back<br/><small>feedtank / deaerator, feedwater pump, feedwater heater, blowdown vessel, water treatment, chemical dosing, blowdown heat recovery</small>"]
+    GASOUT["Flue gas passes heat recovery and emission controls to the stack<br/><small>economizer, air preheater, SCR or SNCR, induced-draft fan, stack, SCR reagent system, CEMS, stack silencer</small>"]
     FUEL -->|fuel gas + air| BURN
     BURN --> HEAT
     HEAT --> STEAM
@@ -392,7 +392,7 @@ flowchart LR
     FEED -->|deaerated feedwater| HEAT
 ```
 
-**Key equipment:** low-NOx / ultra-low-NOx gas burner, burner management and flame safeguard system, fuel gas train, furnace and membrane water walls, fire tubes or water tubes and tube sheets, steam drum and mud drum, superheater and attemperator, economizer, air preheater, deaerator and feedwater pump, safety relief valves and blowdown system, forced- and induced-draft fans, SCR / SNCR and CEMS, boiler controls and oxygen trim.
+**Key equipment:** low-NOx / ultra-low-NOx gas burner, burner management and flame safeguard system, fuel gas train, furnace and membrane water walls, fire tubes or water tubes and tube sheets, steam drum and mud drum, superheater and attemperator, economizer, air preheater, deaerator and feedwater pump, safety relief valves and blowdown system, forced- and induced-draft fans, SCR / SNCR and CEMS, boiler controls and oxygen trim, boiler feedwater pretreatment, RO/EDI make-up treatment, chemical dosing, deaerator and feedtank, blowdown heat recovery, steam traps and condensate return, instrument air, fuel gas booster, SCR reagent system, CEMS.
 
 **Performance:**
 - minimum combustion efficiency, large gas-fired commercial hot-water boiler: 96 % Ec; US DOE FEMP purchasing requirement for 2.5-10 MMBtu/hr input gas-fired hot-water boilers, based on 10 CFR 431.86; federal purchase minimum, not a product rating.. [source](https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers)
@@ -413,6 +413,7 @@ flowchart LR
 - site-specific NOx on a common O2 basis for the named burners (performance): Zeeco quotes ppm at varying excess air without an O2 basis, while Cleaver-Brooks, ALZETA and Miura quote ppm at about 3% O2. Where: Vendor emission test sheets stating the O2 reference and fuel (catalog: zeeco-pln-burner). Next: Normalise the figures to a stated O2 basis before comparing them.
 - named 100% natural-gas-fired CFB boiler plant with owner, capacity and status (reference_plants): Read OEM pages cover solid/multi-fuel CFB; the Zeeco gas-conversion paper PDF was not fetched and the EPA 40 ppm datum is an alumina calciner, not a boiler. Where: Zeeco/ASME POWER2014-32258 paper and CFB operators' conversion case studies (catalog: zeeco-cfb-gas-conversion). Next: Read the conversion paper and record a named plant if one is identified.
 - duct-burner fuel input range and FGR ratios with design basis (performance): Read HRSG pages give burner types and inspection limits but no quantified duct-firing duty or FGR ratio. Where: HRSG OEM duct-burner specification sheets with heat input (catalog: tetra-duct-burners). Next: Add a sourced duty range when a specification sheet is read.
+- Product catalogs and PFD/P&ID coverage across every equipment class (other): Product and drawing records are catalogued at the publisher's URL; not every equipment class has a directly fetchable specification sheet or diagram. Where: OEM product catalogs, DOE/EPA steam sourcebooks and vendor installation manuals (catalog: doe-steam-systems). Next: Fill the per-class product and drawing gaps listed on the new records when a citable page is read.
 
 Sources: [1](https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB), [2](https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB), [3](https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers), [4](https://cleaverbrooks.com/product/cfce), [5](https://cleaverbrooks.com/product/sbr5-burner), [6](https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner), [7](https://johnzink.com/products/powerburners/ecojet-edge-plus), [8](https://www.gevernova.com/gas-power/products/hrsg), [9](https://www.eia.gov/todayinenergy/detail.php?id=52778), [10](https://www.asme.org/certification-accreditation/boiler-and-pressure-vessel-certification). Last reviewed 2026-11-24.
 

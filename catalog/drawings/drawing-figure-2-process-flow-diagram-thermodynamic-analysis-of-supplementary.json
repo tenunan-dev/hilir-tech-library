@@ -1,0 +1,40 @@
+{
+  "id": "drawing-figure-2-process-flow-diagram-thermodynamic-analysis-of-supplementary",
+  "title": "Figure 2. Process flow diagram — Thermodynamic analysis of supplementary firing in an unfired HRSG (Khoy CCPP case study)",
+  "diagram_type": "PFD",
+  "description": "Combined-cycle PFD: two gas turbines and compressors, two HRSGs and deaerators, one steam turbine, condenser and natural-draft Heller cooling. Shows GT exhaust at 547 °C entering dual-pressure HRSG, HP/LP economizers, drums, superheaters, condensate extraction pumps and the common HP/LP feedwater pump.",
+  "publisher": "Tajik Mansouri & Rabiei, SET2011, 10th International Conference on Sustainable Energy Technologies",
+  "url": "https://caravelpress.com/proceedings/set/papers/2011.261/set.2011.261.pdf",
+  "licence": "Conference paper, openly posted PDF; author/publisher licence not stated on the paper.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "economizer-boiler",
+    "superheater-boiler",
+    "boiler-feedwater-pump"
+  ],
+  "technologies": [
+    "pwr-combined-cycle-hrsg"
+  ],
+  "sources": [
+    {
+      "url": "https://caravelpress.com/proceedings/set/papers/2011.261/set.2011.261.pdf",
+      "source_id": "caravelpress-com-2011-261-set-2011-261-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (218,202 bytes, 8 pages); Figure 2 caption and cycle description verified.",
+  "last_reviewed": "2026-11-24"
+}

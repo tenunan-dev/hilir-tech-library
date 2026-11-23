@@ -1,0 +1,52 @@
+{
+  "id": "boiler-circulation-pump",
+  "name": "Boiler circulation pumps / forced-circulation pumps (HRSG, once-through, controlled circulation)",
+  "equipment_type": "pump",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "In forced/controlled-circulation HRSGs and boilers, a pump circulates water/steam-water mixture from the drum through parallel evaporator circuits and back, maintaining tube-wall wetting where natural density head is insufficient (horizontal tubes, limited drum-to-evaporator height, long circuits). Natural-circulation and once-through units need no circulation pump in normal operation (once-through with superimposed circulation uses one at start-up/low load).",
+  "specifications": [
+    {
+      "metric": "Circulation ratio rule of thumb for forced-circulation HRSG",
+      "unit": "ratio (5:1 circulating flow to steam flow)",
+      "basis": "Esteem Projects HRSG tutorial; 20-25% steam generation by weight is the film-boiling 'danger' zone; 3:1 may suffice where drum is far below/above evaporator",
+      "source": {
+        "url": "https://www.esteemprojects.com/library/HRSG-Design/page7_1.html",
+        "source_id": "esteemprojects-com-hrsg-design-page7-1-html"
+      },
+      "value": 5
+    }
+  ],
+  "vendors": [
+    "cleaver-brooks"
+  ],
+  "sources": [
+    {
+      "url": "https://www.esteemprojects.com/library/HRSG-Design/page7_1.html",
+      "source_id": "esteemprojects-com-hrsg-design-page7-1-html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "No named OEM of HRSG circulation pumps (e.g. KSB, Grundfos, Sulzer) with a fetchable HRSG-specific product page",
+      "why": "Search results were design tutorials and book excerpts; pump OEM pages not surfaced",
+      "next_action": "Search 'HRSG circulation pump KSB / Sulzer / Ruhrpumpen' and fetch datasheets with flow/head/NPSH basis."
+    },
+    {
+      "what": "No pump duty point (flow, head, NPSHr) for a specific HRSG circulation pump found",
+      "why": "Design texts give circulation ratios, not pump curves",
+      "next_action": "Locate an HRSG vendor proposal or EPC datasheet with forced-circulation pump duty."
+    },
+    {
+      "what": "No SE Asia HRSG forced-circulation plant example found",
+      "why": "Sources were generic design material",
+      "next_action": "Search regional EPC/HRSG supplier case studies."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-auxiliaries.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

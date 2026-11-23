@@ -1,0 +1,36 @@
+{
+  "id": "drawing-figure-1-ion-exchange-reverse-osmosis-makeup-water-treatment-schematic",
+  "title": "Figure 1 — Ion exchange / reverse osmosis makeup-water treatment schematic — Boiler Feedwater Treatment application note",
+  "diagram_type": "schematic",
+  "description": "Makeup water treatment schematic with raw water through cation and anion exchangers (H+/OH− replacement) and an RO membrane showing permeate/product and reject streams; supporting text on demineralization, softeners, clarifiers and conductivity/TDS/pH/ORP measurement.",
+  "publisher": "Honeywell Process Solutions",
+  "url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/hps/products/pmc/process-instruments/analytical-instruments%26sensors/conductivity/pmt-hps-Power-Plant-Feedwater-Treatment-Application-Note.pdf",
+  "licence": "Copyright © Honeywell; vendor application note.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/hps/products/pmc/process-instruments/analytical-instruments%26sensors/conductivity/pmt-hps-Power-Plant-Feedwater-Treatment-Application-Note.pdf",
+      "source_id": "prod-edam-honeywell-com-conductivity-pmt-hps-power-plant-feedwat"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. SEARCH-VERIFIED via WebSearch snippet, including Figure 1 caption and ion-exchange/RO labels; direct PDF not fetched with WebFetch (PDF content type unsupported).",
+  "last_reviewed": "2026-11-24"
+}

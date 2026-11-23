@@ -1,0 +1,26 @@
+{
+  "id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c",
+  "name": "Veolia Water Technologies & Solutions — Feedwater contaminant targets for 900 psig boiler (ASME cons",
+  "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Veolia Water Technologies & Solutions",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Veolia Water Handbook Ch.11 quoting ASME Consensus for Industrial Boilers; pH 8.5–9.5 Evidence: https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control"
+}

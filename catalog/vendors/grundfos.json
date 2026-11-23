@@ -1,0 +1,23 @@
+{
+  "id": "grundfos",
+  "name": "Grundfos",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Grundfos is named as a supplier on vendor pages read during the gas-boiler supporting-systems sweep.",
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a vendor page read in the 2026-11-24 sweep; country and detailed roles were not stated on the read page."
+}

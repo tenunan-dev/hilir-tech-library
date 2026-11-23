@@ -1,0 +1,102 @@
+{
+  "id": "tlv-free-float-jx-series-steam-traps-j3s-x-j5s-x-j6s-x-j7x-j7-2x-j7-5x-j8x-fj3",
+  "name": "Free Float JX Series steam traps (J3S-X, J5S-X, J6S-X, J7X, J7.2X, J7.5X, J8X, FJ32-X, SJ3-SJ7)",
+  "manufacturer": "tlv",
+  "product_type": "steam-trap",
+  "equipment": [
+    "steam-traps-condensate-return"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us Free Float Steam Traps (Low Pressure) JX Series page with full model table. X-element air vent and fail-open design described.",
+  "specifications": [
+    {
+      "metric": "J3S-X maximum operating pressure (PMO)",
+      "basis": "Printed in Product Details table; body cast stainless steel ASTM A351 Gr.CF8",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process",
+        "source_id": "tlv-com-mechanical-process"
+      },
+      "unit": "psig",
+      "value": "300"
+    },
+    {
+      "metric": "J3S-X maximum operating temperature (TMO)",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process",
+        "source_id": "tlv-com-mechanical-process"
+      },
+      "unit": "deg F",
+      "value": "428"
+    },
+    {
+      "metric": "J3S-X discharge capacity",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process",
+        "source_id": "tlv-com-mechanical-process"
+      },
+      "unit": "lb/h",
+      "value": "1,700"
+    },
+    {
+      "metric": "J6S-X discharge capacity",
+      "basis": "Printed in Product Details table; PMO 300 psig, TMO 428 deg F",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process",
+        "source_id": "tlv-com-mechanical-process"
+      },
+      "unit": "lb/h",
+      "value": "7,500"
+    },
+    {
+      "metric": "J8X discharge capacity",
+      "basis": "Printed in Product Details table; PMO 250 psig, TMO 428 deg F, cast iron FC250",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process",
+        "source_id": "tlv-com-mechanical-process"
+      },
+      "unit": "lb/h",
+      "value": "47,000"
+    },
+    {
+      "metric": "FJ32-X QuickTrap maximum operating pressure",
+      "basis": "Printed in Product Details table; TMO 662 deg F, discharge capacity 1,500 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process",
+        "source_id": "tlv-com-mechanical-process"
+      },
+      "unit": "psig",
+      "value": "450"
+    },
+    {
+      "metric": "SJ3 discharge capacity",
+      "basis": "Printed in Product Details table; PMO 200 psig, TMO 428 deg F, cast iron",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process",
+        "source_id": "tlv-com-mechanical-process"
+      },
+      "unit": "lb/h",
+      "value": "1,380"
+    },
+    {
+      "metric": "Condensate load range, whole series",
+      "basis": "Qualitative printed claim: 'from the 100's of kg/h to several 10's of tons/h'",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process",
+        "source_id": "tlv-com-mechanical-process"
+      },
+      "unit": "kg/h to tonnes/h",
+      "low": "hundreds of kg/h",
+      "high": "tens of tonnes/h"
+    }
+  ],
+  "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process",
+  "sources": [
+    {
+      "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process",
+      "source_id": "tlv-com-mechanical-process"
+    }
+  ],
+  "notes": "Read in full: TLV en-us Free Float Steam Traps (Low Pressure) JX Series page with full model table. X-element air vent and fail-open design described.",
+  "last_reviewed": "2026-11-24"
+}

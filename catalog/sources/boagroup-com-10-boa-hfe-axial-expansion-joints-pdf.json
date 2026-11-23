@@ -1,0 +1,26 @@
+{
+  "id": "boagroup-com-10-boa-hfe-axial-expansion-joints-pdf",
+  "name": "BOA Group",
+  "url": "https://boagroup.com/wp-content/uploads/2019/10/BOA-HFE-Axial-Expansion-Joints.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "BOA Group",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. search-verified snippet only. Evidence: https://boagroup.com/wp-content/uploads/2019/10/BOA-HFE-Axial-Expansion-Joints.pdf"
+}

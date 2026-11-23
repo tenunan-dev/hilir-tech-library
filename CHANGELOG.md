@@ -8,6 +8,36 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.24.3] — 2026-11-24 — Supporting boiler systems, product catalog and PFD/P&ID layers
+
+Owner-directed expansion of the boiler work into balance-of-plant systems and two new database categories.
+
+### Added
+- **23 supporting-component equipment records** covering feedwater treatment, RO/EDI, chemical dosing,
+  sampling, blowdown heat recovery, chemical cleaning, steam traps and condensate return, condensate
+  polishing, steam separators, PRV/desuperheating stations, expansion joints, silencers, insulation,
+  gas boosters, pilots/ignition, instrument air, SCR reagent systems, circulation and feedwater pumps,
+  MCC/VFDs and HRSG bypass dampers.
+- **New `catalog/products/` layer** (`schema/product.schema.json`): 69 vendor product lines with
+  printed specifications, each citing the vendor page it was read from.
+- **New `catalog/drawings/` layer** (`schema/drawing.schema.json`): 35 citable PFDs, P&IDs, schematics
+  and flowsheets with publisher, URL, reuse terms and links to equipment and technology cards.
+- **176 new catalog sources** for the pages actually read; 50 new vendor records.
+- Four MCP tools (`list_products`, `get_product`, `list_drawings`, `get_drawing`) → 30 total; REST and
+  web routes for both layers; `og.product` and `og.drawing` tables in the Postgres layer with vectors,
+  full-text search and hybrid-search kinds; graph nodes for products and drawings.
+
+### Verification
+`tools/build.py` 762 sources / 392 cards / 596 vendors / 81 equipment / 304 projects / 69 products /
+35 drawings; `pytest -q tests` **1,550 passed, 13 skipped**; Neon schema applied and reloaded with the
+same counts plus 15,431 vectors; product and drawing kind-filtered searches verified directly.
+
+### Gaps
+No dedicated gas-fired CFB OEM product page, no named 100%-gas CFB plant, no directly fetched gas-valve-train
+datasheet, and several drawing licences need checking with the publisher before reuse — all recorded on
+the relevant records.
+
+
 ## [2026.11.24.2] — 2026-11-24 — Gas-fired boiler dataset expansion (full cross-layer set)
 
 Owner-directed expansion of the equipment, source, vendor, project and card layers for gas-fired

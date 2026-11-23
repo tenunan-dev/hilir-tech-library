@@ -1,0 +1,68 @@
+{
+  "id": "scr-reagent-system",
+  "name": "SCR reagent systems (ammonia/urea storage, dosing, injection grids; ammonium sulfate/bisulfate in HRSGs)",
+  "equipment_type": "chemical-dosing",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "HSE"
+  ],
+  "description": "Store and deliver aqueous ammonia (or anhydrous ammonia / urea) to an ammonia injection grid (AIG) upstream of the SCR catalyst; tuning of AIG distribution controls NOx removal, ammonia slip and downstream ammonium bisulfate (ABS) / ammonium sulfate (AS) deposition on air-preheater or HRSG tube surfaces. Flow-correction devices (turning vanes, static mixers, graduated straightening grids) and CFD are used to obtain uniform NH3/NOx distribution.",
+  "specifications": [
+    {
+      "metric": "Aqueous ammonia concentration and injection rate at a 2x1 combined cycle",
+      "unit": "wt% and lb/hr",
+      "basis": "At plant design operating conditions for HRSG SCR; W501FC+ gas turbines, gas-only full-load rating 480 MW at 120 F/15% RH",
+      "source": {
+        "url": "https://www.ccj-online.com/aig-upgrades-slash-ammonia-consumption-tube-fouling",
+        "source_id": "ccj-online-com-aig-upgrades-slash-ammonia-consumption-tube-fouli"
+      },
+      "value": "28% aqueous solution, 150 lb/hr"
+    },
+    {
+      "metric": "HRSG module gas-side pressure drop before/after dry-ice cleaning",
+      "unit": "inches H2O (clean condition 2.1; rises to 6.8 or more)",
+      "basis": "Module 5 (LP evaporator, IP economiser, HP economiser) of each HRSG; fouling attributed to ammonium bisulfate deposition; ~5 in H2O increase cost about 1-1.5 MW output",
+      "source": {
+        "url": "https://www.ccj-online.com/aig-upgrades-slash-ammonia-consumption-tube-fouling",
+        "source_id": "ccj-online-com-aig-upgrades-slash-ammonia-consumption-tube-fouli"
+      },
+      "low": 2.1,
+      "high": 6.8
+    }
+  ],
+  "vendors": [
+    "concord-environmental",
+    "fuel-tech",
+    "john-zink",
+    "cleaver-brooks",
+    "zeeco"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ccj-online.com/aig-upgrades-slash-ammonia-consumption-tube-fouling",
+      "source_id": "ccj-online-com-aig-upgrades-slash-ammonia-consumption-tube-fouli"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Urea-to-NOx stoichiometry, urea storage/dosing equipment details and urea SCR vendor scope not found in fetched pages",
+      "why": "Retrieved SCR sources focused on aqueous/anhydrous ammonia and catalyst/AIG design",
+      "next_action": "Fetch a urea-SCR OEM datasheet (e.g. fuel/chemical dosing skid vendor) with explicit kg urea/kg NOx basis."
+    },
+    {
+      "what": "Ammonium sulfate concerns in gas-fired HRSGs specifically (as opposed to coal air preheaters) only partly evidenced",
+      "why": "ABS is well evidenced for HRSG Module 5; AS formation literature is coal-fired air-preheater work",
+      "next_action": "Find HRSG-specific catalyst SO2/SO3 conversion and ABS dew-point guidance for gas turbine exhaust with low sulfur."
+    },
+    {
+      "what": "No reagent storage tank sizes, material specifications or safety distances evidenced",
+      "why": "Not printed in the retrieved sources",
+      "next_action": "Fetch an ammonia storage/delivery system datasheet or CCJ 'Ammonia delivery mod' best-practice article."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-auxiliaries.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

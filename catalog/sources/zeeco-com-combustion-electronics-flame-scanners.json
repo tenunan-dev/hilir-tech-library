@@ -1,0 +1,26 @@
+{
+  "id": "zeeco-com-combustion-electronics-flame-scanners",
+  "name": "Zeeco — Zeeco ProFlame scanner hazardous-area models",
+  "url": "https://www.zeeco.com/products/combustion-electronics/flame-scanners",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Zeeco",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Zeeco Flame Scanners product page; ProFlame+ utility grade ZPF-1100UV/IR/DS, ZPF-1200UV/IR/DS, fiber optic ZPF-1200UF/IF Evidence: https://www.zeeco.com/products/combustion-electronics/flame-scanners"
+}

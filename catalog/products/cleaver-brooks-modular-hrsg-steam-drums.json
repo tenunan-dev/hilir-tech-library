@@ -1,0 +1,41 @@
+{
+  "id": "cleaver-brooks-modular-hrsg-steam-drums",
+  "name": "Modular HRSG steam drums",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "pressure-part",
+  "equipment": [
+    "steam-drum-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Modular HRSG product page directly with WebFetch (markdown). Steam drum is a subsystem; no standalone steam-drum product line found.",
+  "specifications": [
+    {
+      "metric": "Drum arrangement",
+      "basis": "Modular HRSG Product Overview bullets",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "design feature",
+      "value": "Large separate steam drums with high efficiency drum internals"
+    },
+    {
+      "metric": "Circulation",
+      "basis": "Modular HRSG Product Overview bullets and Technical Data table 'Vertical Tube with Steam Drum'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "design feature",
+      "value": "Vertical tube natural circulation; hydraulically matched downcomers and risers"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/modular-hrsg",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/modular-hrsg",
+      "source_id": "cleaverbrooks-com-product-modular-hrsg"
+    }
+  ],
+  "notes": "Fetched Modular HRSG product page directly with WebFetch (markdown). Steam drum is a subsystem; no standalone steam-drum product line found.",
+  "last_reviewed": "2026-11-24"
+}

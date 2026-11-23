@@ -1,0 +1,31 @@
+{
+  "id": "cleaver-brooks-max-fire-hrsg-superheater-optional",
+  "name": "Max-Fire HRSG superheater (optional)",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "heat-exchanger",
+  "equipment": [
+    "superheater-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Max-Fire product page directly with WebFetch (markdown). Superheater is listed as an applicable HRSG component, not a standalone product.",
+  "specifications": [
+    {
+      "metric": "Superheater outlet temperature",
+      "basis": "Max-Fire Technical Data table: Steam Temperature up to 1,050 deg F; narrative: furnace and evaporator and superheater, if applicable",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "deg F (up to)",
+      "value": 1050
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/max-fire-series",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/max-fire-series",
+      "source_id": "cleaverbrooks-com-product-max-fire-series"
+    }
+  ],
+  "notes": "Fetched Max-Fire product page directly with WebFetch (markdown). Superheater is listed as an applicable HRSG component, not a standalone product.",
+  "last_reviewed": "2026-11-24"
+}

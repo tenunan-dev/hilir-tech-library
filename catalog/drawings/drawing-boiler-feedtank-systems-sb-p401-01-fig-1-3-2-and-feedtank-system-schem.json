@@ -1,0 +1,42 @@
+{
+  "id": "drawing-boiler-feedtank-systems-sb-p401-01-fig-1-3-2-and-feedtank-system-schem",
+  "title": "Boiler feedtank systems — SB-P401-01, Fig. 1.3.2 and feedtank system schematic",
+  "diagram_type": "PFD",
+  "description": "Feedtank arrangement showing fresh water → water softener → RO system → chemically treated make-up, boiler blowdown heat recovery, condensate return, flash condensing deaerator head, level and temperature control loops, recirculation spray and feedpumps to boiler.",
+  "publisher": "Spirax Sarco",
+  "url": "https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/en/sb/boiler_feedtank_systems-sb-p401-01-en.ashx?rev=1257fa62fae74c0ba828789abffe2361",
+  "licence": "Copyright © Spirax Sarco; manufacturer literature.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "feedwater-deaerator-system",
+    "boiler-feedwater-pretreatment",
+    "boiler-chemical-dosing",
+    "boiler-feedwater-pump",
+    "blowdown-heat-recovery"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/en/sb/boiler_feedtank_systems-sb-p401-01-en.ashx?rev=1257fa62fae74c0ba828789abffe2361",
+      "source_id": "content-spiraxsarco-com-sb-boiler-feedtank-systems-sb-p401-01-en"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (9,596,899 bytes, 12 pages) and text verified. Also mirrored at spiraxsteam.com.",
+  "last_reviewed": "2026-11-24"
+}

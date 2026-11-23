@@ -1,0 +1,28 @@
+{
+  "id": "spiraxsarco-com-boiler-controls-and-systems-sample-cooler",
+  "name": "Spirax Sarco",
+  "url": "https://www.spiraxsarco.com/global/en-US/products/boiler-controls-and-systems/sample-cooler",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Product page read: stainless-steel sampler coolers; suppress flash steam for accurate sample. Evidence: https://www.spiraxsarco.com/global/en-US/products/boiler-controls-and-systems/sample-cooler"
+}

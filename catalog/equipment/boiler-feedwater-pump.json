@@ -1,0 +1,107 @@
+{
+  "id": "boiler-feedwater-pump",
+  "name": "Feedwater pump duty, NPSH and selection for package boilers",
+  "equipment_type": "pump",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Maintain drum water level by delivering feedwater at flow above evaporation rate and at head above boiler pressure plus valve/piping losses; NPSH available must exceed pump NPSH required at hot feedwater temperature to avoid cavitation. Arrangements: direct feed per boiler or booster set feeding a common manifold with modulating feedwater valves.",
+  "specifications": [
+    {
+      "metric": "Applicability of the 16-step selection method",
+      "unit": "boiler horsepower; design pressure 150-500 psig",
+      "basis": "HPAC Engineering article by Steve Connor (Cleaver-Brooks) and Jim Swetye (Grundfos)",
+      "source": {
+        "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
+        "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
+      },
+      "low": 100,
+      "high": 1200
+    },
+    {
+      "metric": "Base flow formula",
+      "unit": "gpm (as presented)",
+      "basis": "HPAC article step 2; 0.069 is a stated constant",
+      "source": {
+        "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
+        "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
+      },
+      "value": "boiler maximum-capacity HP x 0.069 x C; C=1.50 intermittent, C=1.15 continuous"
+    },
+    {
+      "metric": "Continuous blowdown and bypass allowance",
+      "unit": "percent of pump best-efficiency-point flow",
+      "basis": "HPAC steps 3-4: continuous blowdown often ~10% of BEP flow; bypass recirculation often 10-20% of BEP flow",
+      "source": {
+        "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
+        "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
+      },
+      "low": 10,
+      "high": 20
+    },
+    {
+      "metric": "Base head formula",
+      "unit": "feet of head",
+      "basis": "HPAC step 6; factor 1.03 is the safety margin on boiler pressure",
+      "source": {
+        "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
+        "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
+      },
+      "value": "max boiler operating pressure x 2.31 x 1.03 / liquid specific gravity"
+    },
+    {
+      "metric": "Shutoff head above safety-valve setting",
+      "unit": "percent",
+      "basis": "HPAC steps 10 and 14; shutoff head must be at least 3% above safety-valve setting",
+      "source": {
+        "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
+        "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
+      },
+      "value": 3
+    },
+    {
+      "metric": "NPSHa definition",
+      "unit": "formula (head units)",
+      "basis": "HPAC step 12; NPSHr vs NPSHa must be checked for every installation (step 15)",
+      "source": {
+        "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
+        "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
+      },
+      "value": "absolute pressure in feedwater tank +/- elevation of minimum water level above pump - vapor pressure of water in tank - suction-line friction loss"
+    }
+  ],
+  "vendors": [
+    "grundfos",
+    "cleaver-brooks",
+    "atlantic-feedwater-systems",
+    "changyu-pump"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
+      "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "A specific manufacturer pump curve selection (model, flow, head, NPSHr) for a named package boiler was not read",
+      "why": "HPAC gives the method but no completed selection; Industrial Steam example uses its own VC100-7 pump which was not verified on an OEM curve",
+      "next_action": "Fetch a Grundfos/KSB/Sulzer boiler-feed pump datasheet and record model, flow, head, NPSHr and temperature basis."
+    },
+    {
+      "what": "KSB feedwater-pump product page not found/read",
+      "why": "No KSB result surfaced in the search rounds",
+      "next_action": "Target ksb.com boiler feedwater pump pages directly."
+    },
+    {
+      "what": "No NPSHr value from an OEM for a package-boiler feed pump",
+      "why": "Worked example used a generic 3.5 m first-stage NPSHr from a vendor blog",
+      "next_action": "Obtain OEM curve with NPSHr at the actual duty point."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-auxiliaries.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "epa-gov-documents-cs4-2ch1-pdf",
+  "name": "SNCR Boiler Gas Path Configuration (Figure 1.2) and Urea SNCR Process Flow Diagram (Figure 1.9) — Chapter 1 Se",
+  "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch1.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "U.S. Environmental Protection Agency",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Figure captions and text obtained via WebSearch snippet (search-verified); a companion SNCR cost-manual PDF at epa.gov was downloaded (985,798 bytes, 71 pages)  Evidence: https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch1.pdf"
+}

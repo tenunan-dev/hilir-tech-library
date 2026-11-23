@@ -1,0 +1,31 @@
+{
+  "id": "cleaver-brooks-max-fire-hrsg-membrane-water-cooled-furnace",
+  "name": "Max-Fire HRSG membrane/water-cooled furnace",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "pressure-part",
+  "equipment": [
+    "furnace-waterwalls-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Max-Fire product page directly with WebFetch (markdown).",
+  "specifications": [
+    {
+      "metric": "Furnace firing temperature",
+      "basis": "Max-Fire Product Overview: 'integral water-cooled furnace utilizing membrane-wall construction for firing temperatures up to 2800 F', avoiding high-maintenance refractory",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "deg F (up to)",
+      "value": 2800
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/max-fire-series",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/max-fire-series",
+      "source_id": "cleaverbrooks-com-product-max-fire-series"
+    }
+  ],
+  "notes": "Fetched Max-Fire product page directly with WebFetch (markdown).",
+  "last_reviewed": "2026-11-24"
+}

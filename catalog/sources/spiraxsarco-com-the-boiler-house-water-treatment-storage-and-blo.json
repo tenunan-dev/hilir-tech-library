@@ -1,0 +1,28 @@
+{
+  "id": "spiraxsarco-com-the-boiler-house-water-treatment-storage-and-blo",
+  "name": "Water Treatment, Storage and Blowdown for Steam Boilers — Figures 3.9.1 to 3.9.7",
+  "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-treatment-storage-and-blowdown-for-steam-boilers",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco — Learn About Steam (The Steam and Condensate Loop, The Boiler House)",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. HTML page fetched and read; figure captions and image links verified. Evidence: https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-treatment-storage-and-blowdown-for-steam-boilers"
+}

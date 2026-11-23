@@ -1,0 +1,41 @@
+{
+  "id": "cleaver-brooks-profire-sbr-30-combustion-air-fan-air-housing-integral-to-burne",
+  "name": "ProFire SBR-30 combustion air fan / air housing (integral to burner)",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "fan",
+  "equipment": [
+    "fd-fan-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched SBR-30 product page directly. No dedicated forced-draft fan OEM product page with fan curves or static pressure was found; this is fan content embedded in a burner page, not a fan product line.",
+  "specifications": [
+    {
+      "metric": "Air fan design",
+      "basis": "SBR-30 product page Product Overview bullet 'Silent operation with an advanced combustion air fan wheel using less horsepower and less noise'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      },
+      "unit": "design feature",
+      "value": "Advanced combustion air fan wheel using less horsepower and less noise; silent operation"
+    },
+    {
+      "metric": "Air housing",
+      "basis": "SBR-30 Product Overview bullet",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      },
+      "unit": "design feature",
+      "value": "Easy access air housing for internal components"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/sbr30-burner",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/sbr30-burner",
+      "source_id": "cleaverbrooks-com-product-sbr30-burner"
+    }
+  ],
+  "notes": "Fetched SBR-30 product page directly. No dedicated forced-draft fan OEM product page with fan curves or static pressure was found; this is fan content embedded in a burner page, not a fan product line.",
+  "last_reviewed": "2026-11-24"
+}

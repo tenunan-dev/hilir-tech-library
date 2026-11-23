@@ -1,0 +1,26 @@
+{
+  "id": "competitivepower-us-pdfs-steam-turbine-bypass-systems-ccj-4q-200",
+  "name": "Cascading steam turbine bypass system schematic (Fig. 1) — Steam Turbine Bypass Systems, Combined Cycle Journa",
+  "url": "https://competitivepower.us/pub/pdfs/Steam-Turbine-Bypass-Systems-CCJ-4Q-2003.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Combined Cycle Journal (Anderson & van Ballegooyen, Progress Energy / Gryphon International)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. SEARCH-VERIFIED via WebSearch snippet describing Figure 1 and the cascading bypass scheme; direct PDF not downloaded in this session. Evidence: https://competitivepower.us/pub/pdfs/Steam-Turbine-Bypass-Systems-CCJ-4Q-2003.pdf"
+}

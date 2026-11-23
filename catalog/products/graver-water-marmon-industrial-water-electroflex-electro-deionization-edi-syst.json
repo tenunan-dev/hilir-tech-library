@@ -1,0 +1,63 @@
+{
+  "id": "graver-water-marmon-industrial-water-electroflex-electro-deionization-edi-syst",
+  "name": "ElectroFlex Electro-deionization (EDI) Systems",
+  "manufacturer": "graver-water-marmon-industrial-water",
+  "product_type": "water-treatment",
+  "equipment": [
+    "boiler-makeup-ro-edi"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver ElectroFlex EDI Systems page. Cost percentages are vendor claims with no dollar year or currency, so no USD figure is recorded.",
+  "specifications": [
+    {
+      "metric": "Operating cost reduction vs mixed bed DI",
+      "basis": "Printed claim on Graver ElectroFlex page: '40-50% lower operating costs when compared to mixed bed DI'",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/",
+        "source_id": "graver-com-makeup-electroflex"
+      },
+      "unit": "% lower",
+      "low": "40",
+      "high": "50"
+    },
+    {
+      "metric": "Floor space vs ion exchange demineralization",
+      "basis": "Printed claim under 'Operating Cost Savings'",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/",
+        "source_id": "graver-com-makeup-electroflex"
+      },
+      "unit": "% less",
+      "low": "50",
+      "high": "75"
+    },
+    {
+      "metric": "Recycle of EDI reject to RO feed",
+      "basis": "Printed as a capability: 'Can be recycled upstream to the RO feed for 100% recovery, zero waste production'",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/",
+        "source_id": "graver-com-makeup-electroflex"
+      },
+      "unit": "% recovery, zero waste production",
+      "value": "100"
+    },
+    {
+      "metric": "Typical application",
+      "basis": "Printed under Typical Applications",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/",
+        "source_id": "graver-com-makeup-electroflex"
+      },
+      "unit": "n/a",
+      "value": "Power Generation: Steam makeup water"
+    }
+  ],
+  "url": "https://graver.com/makeup/electroflex/",
+  "sources": [
+    {
+      "url": "https://graver.com/makeup/electroflex/",
+      "source_id": "graver-com-makeup-electroflex"
+    }
+  ],
+  "notes": "Read in full: Graver ElectroFlex EDI Systems page. Cost percentages are vendor claims with no dollar year or currency, so no USD figure is recorded.",
+  "last_reviewed": "2026-11-24"
+}

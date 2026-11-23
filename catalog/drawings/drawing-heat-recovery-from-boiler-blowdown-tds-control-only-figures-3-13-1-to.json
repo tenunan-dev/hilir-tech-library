@@ -1,0 +1,41 @@
+{
+  "id": "drawing-heat-recovery-from-boiler-blowdown-tds-control-only-figures-3-13-1-to",
+  "title": "Heat Recovery from Boiler Blowdown (TDS control only) — Figures 3.13.1 to 3.13.4",
+  "diagram_type": "PFD",
+  "description": "Process flow schemes for flash steam generation from TDS blowdown, flash vessel with float trap and vacuum breaker feeding the feedtank, residual blowdown plate heat exchanger, and the preferred cold-water break tank/circulating pump arrangement. States ~82% energy and 14% water recovery.",
+  "publisher": "Spirax Sarco — Learn About Steam (The Steam and Condensate Loop, The Boiler House)",
+  "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/heat-recovery-from-boiler-blowdown-tds-control-only",
+  "licence": "Copyright © Spirax Sarco Limited. All Rights Reserved.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "blowdown-heat-recovery",
+    "steam-traps-condensate-return",
+    "feedwater-deaerator-system",
+    "safety-valves-blowdown-boiler"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/heat-recovery-from-boiler-blowdown-tds-control-only",
+      "source_id": "spiraxsarco-com-the-boiler-house-heat-recovery-from-boiler-blowd"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "Page fetched and read 2026-11-24. HTML page fetched and read; four figure image URLs and captions verified.",
+  "last_reviewed": "2026-11-24"
+}

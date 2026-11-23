@@ -1,0 +1,38 @@
+{
+  "id": "drawing-process-flow-diagram-showing-deaeration-equipment-chemical-dosing-and",
+  "title": "Process flow diagram showing deaeration equipment, chemical dosing and steam generation, with principal monitoring and control instrumentation",
+  "diagram_type": "PFD",
+  "description": "Training slide PFD: demineralized water and medium/low-grade condensate sprayed into a deaerator preheat zone, steam sparge stripping in the deaeration zone, vented gases, deaerated feedwater pumped via four chemical dosing systems (oxygen scavenger, dispersant, anti-foam/anti-prime, hardness agent) to steam generation; includes a deaerator level/flow cascade control diagram.",
+  "publisher": "ABB (ABB myLearning — Water Industry: Boiler Feed Water training deck)",
+  "url": "https://mylearning.abb.com/config/mylearning.abb.com/sites/default/files/fileupload/1553000669-ABB+-+Water+Industry+-+Boiler+Feed+Water.pdf",
+  "licence": "Copyright © ABB; training material.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "boiler-feedwater-pump"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://mylearning.abb.com/config/mylearning.abb.com/sites/default/files/fileupload/1553000669-ABB+-+Water+Industry+-+Boiler+Feed+Water.pdf",
+      "source_id": "mylearning-abb-com-fileupload-1553000669-abb-water-industry-boil"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. SEARCH-VERIFIED via WebSearch snippet describing the PFD and the process-flow/control diagrams; direct download returned HTTP 503 in this session.",
+  "last_reviewed": "2026-11-24"
+}

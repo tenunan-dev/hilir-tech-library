@@ -1,0 +1,28 @@
+{
+  "id": "content-spiraxsarco-com-sb-heat-recovery-tds-sb-p404-11-au-ashx",
+  "name": "Heat recovery from boiler blowdown — SB-P404-11 (AU)",
+  "url": "https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/au/sb/heat_recovery_tds-sb-p404-11-au.ashx?rev=1ef8cf853c454be982e4cd3d492b05a7",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Direct PDF URL downloaded (3,772,070 bytes, 4 pages) and system description verified. Evidence: https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/au/sb/heat_recovery_tds-sb-p404-11-au.ashx?rev=1ef8cf853c454be982e4cd3d492b05a7"
+}

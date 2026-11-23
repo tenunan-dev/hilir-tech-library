@@ -1,0 +1,28 @@
+{
+  "id": "spiraxsarco-com-steam-traps-and-steam-trapping-considerations-fo",
+  "name": "Spirax Sarco — steam mains drainage interval",
+  "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/considerations-for-selecting-steam-traps",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. general rule with adequately sized drain pockets; also drain bottom of every riser; Spirax Sarco Evidence: https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/considerations-for-selecting-steam-traps"
+}

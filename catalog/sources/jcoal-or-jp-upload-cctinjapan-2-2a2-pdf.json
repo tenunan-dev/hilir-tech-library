@@ -1,0 +1,26 @@
+{
+  "id": "jcoal-or-jp-upload-cctinjapan-2-2a2-pdf",
+  "name": "Circulating Fluidized-bed Combustion Technology — Fig. 1 Process flow of circulating fluidized-bed boiler; Fig",
+  "url": "https://www.jcoal.or.jp/eng/upload/cctinjapan_2_2A2.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Japan Coal Energy Center (JCOAL) — Clean Coal Technology in Japan",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Direct PDF URL downloaded (31,942 bytes, 1 page); both figure captions and the surrounding process text verified. Evidence: https://www.jcoal.or.jp/eng/upload/cctinjapan_2_2A2.pdf"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "anz-veolia-com-03-nyrstar-20case-20study-20-pdf",
+  "name": "Veolia Australia & New Zealand — Nyrstar Port Pirie new-boiler clean — degreasing temperature",
+  "url": "https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Veolia Australia & New Zealand",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Veolia ANZ case study: degreasing of a 140,000 L system Evidence: https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf"
+}

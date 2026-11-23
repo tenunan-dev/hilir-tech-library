@@ -1,0 +1,23 @@
+{
+  "id": "gsd-genel-sistem-dizayn",
+  "name": "GSD (Genel Sistem Dizaynı)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "GSD (Genel Sistem Dizaynı) is named as a supplier on vendor pages read during the gas-boiler supporting-systems sweep.",
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.forneycorp.com/articles/hrsg-bypass-dampers"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a product page read in the 2026-11-24 supporting-systems sweep; country and detailed roles were not stated on the read page."
+}

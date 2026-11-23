@@ -1,0 +1,113 @@
+{
+  "id": "cleaver-brooks-clearfire-ce-boiler",
+  "name": "ClearFire-CE Boiler",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "boiler",
+  "equipment": [
+    "boiler-gas-condensing-hot-water"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "specifications": [
+    {
+      "metric": "Input capacity",
+      "basis": "Product bullets: 11 models from 500 MBH to 6,000 MBH; Technical Data table 500-6,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "MBH (11 models)",
+      "low": 500,
+      "high": 6000
+    },
+    {
+      "metric": "AHRI combustion efficiency",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "%",
+      "value": 94.7
+    },
+    {
+      "metric": "AHRI thermal efficiency",
+      "basis": "Technical Data table; narrative states up to 99% efficient",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "%",
+      "value": 96
+    },
+    {
+      "metric": "Design temperature",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "deg F",
+      "value": 210
+    },
+    {
+      "metric": "NOx emissions",
+      "basis": "Bullet 'Standard less than 20 ppm NOx, sub 7 ppm NOx available'; table <20 ppm standard, lower emission optional",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "ppm NOx",
+      "low": 7,
+      "high": 20
+    },
+    {
+      "metric": "Turndown",
+      "basis": "Product bullet and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": ":1 fully modulating",
+      "value": 10
+    },
+    {
+      "metric": "Sound level",
+      "basis": "Product Overview attribute list",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "dBA at 3 feet (less than)",
+      "value": 70
+    },
+    {
+      "metric": "Heat exchanger construction",
+      "basis": "Product Overview; AluFer tube technology increases effective heat transfer surface up to five times and thermal conductivity ten times greater than stainless steel alone",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "material",
+      "value": "Duplex stainless steel; TurboFer/AluFer tubes"
+    },
+    {
+      "metric": "Hydrogen readiness",
+      "basis": "Product narrative: supports RNG and up to 20% volumetric mix hydrogen-natural gas blends",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "% volumetric hydrogen-natural gas blend",
+      "value": 20
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/cfce",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/cfce",
+      "source_id": "cleaverbrooks-com-product-cfce"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown).",
+  "last_reviewed": "2026-11-24"
+}

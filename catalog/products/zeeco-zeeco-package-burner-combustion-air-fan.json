@@ -1,0 +1,41 @@
+{
+  "id": "zeeco-zeeco-package-burner-combustion-air-fan",
+  "name": "Zeeco package burner combustion air fan",
+  "manufacturer": "zeeco",
+  "product_type": "fan",
+  "equipment": [
+    "fd-fan-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). No standalone fan model or fan curve printed.",
+  "specifications": [
+    {
+      "metric": "Fan design",
+      "basis": "Zeeco Industrial Burners page Packaged Burners section",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en",
+        "source_id": "zeeco-com-products-burners-hslang-en"
+      },
+      "unit": "design feature",
+      "value": "High efficiency backward curve blade design"
+    },
+    {
+      "metric": "Scope",
+      "basis": "Zeeco Industrial Burners page Packaged Burners section",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en",
+        "source_id": "zeeco-com-products-burners-hslang-en"
+      },
+      "unit": "scope",
+      "value": "Each package burner system comes complete with automatic flame monitoring and shut-off, rotary air dampers, and a combustion air fan"
+    }
+  ],
+  "url": "https://www.zeeco.com/products/burners?hsLang=en",
+  "sources": [
+    {
+      "url": "https://www.zeeco.com/products/burners?hsLang=en",
+      "source_id": "zeeco-com-products-burners-hslang-en"
+    }
+  ],
+  "notes": "Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). No standalone fan model or fan curve printed.",
+  "last_reviewed": "2026-11-24"
+}

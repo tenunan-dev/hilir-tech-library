@@ -1,0 +1,94 @@
+{
+  "id": "cleaver-brooks-cble-firetube-boiler",
+  "name": "CBLE Firetube Boiler",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "boiler",
+  "equipment": [
+    "boiler-gas-fire-tube-package"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "specifications": [
+    {
+      "metric": "Boiler horsepower",
+      "basis": "Product page bullet and Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble",
+        "source_id": "cleaverbrooks-com-product-cble"
+      },
+      "unit": "HP",
+      "low": 50,
+      "high": 800
+    },
+    {
+      "metric": "Steam design pressure",
+      "basis": "Product page bullet: 'Steam up to 300 psig'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble",
+        "source_id": "cleaverbrooks-com-product-cble"
+      },
+      "unit": "psig",
+      "value": 300
+    },
+    {
+      "metric": "Hot water design pressure",
+      "basis": "Product page bullet: 'Hot water up to 125 psig'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble",
+        "source_id": "cleaverbrooks-com-product-cble"
+      },
+      "unit": "psig",
+      "value": 125
+    },
+    {
+      "metric": "Input capacity",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble",
+        "source_id": "cleaverbrooks-com-product-cble"
+      },
+      "unit": "MBH",
+      "low": 2000,
+      "high": 32660
+    },
+    {
+      "metric": "NOx emission options",
+      "basis": "Bullet: 60 ppm, 30 ppm, 9 ppm and 5 ppm NOx emission rates available; table lists <9 ppm; narrative states down to <7 ppm NOx",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble",
+        "source_id": "cleaverbrooks-com-product-cble"
+      },
+      "unit": "ppm NOx",
+      "low": 5,
+      "high": 60
+    },
+    {
+      "metric": "Number of passes",
+      "basis": "Technical Data table; 4-pass dryback or waterback design",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble",
+        "source_id": "cleaverbrooks-com-product-cble"
+      },
+      "unit": "passes",
+      "value": 4
+    },
+    {
+      "metric": "Heating surface",
+      "basis": "Product Overview attribute list: '5 sq ft / BHP'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble",
+        "source_id": "cleaverbrooks-com-product-cble"
+      },
+      "unit": "sq ft per BHP",
+      "value": 5
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/cble",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/cble",
+      "source_id": "cleaverbrooks-com-product-cble"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown).",
+  "last_reviewed": "2026-11-24"
+}

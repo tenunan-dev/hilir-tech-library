@@ -1,0 +1,34 @@
+{
+  "id": "drawing-typical-schematic-for-ammonia-unloading-storage-distribution-vaporizat",
+  "title": "Typical schematic for ammonia unloading, storage, distribution & vaporization system (SCR), ANAM-400.0",
+  "diagram_type": "schematic",
+  "description": "Vendor schematic for SCR ammonia supply: truck/railcar unloading to storage tanks, ammonia flow control unit generating gas for injection upstream of the SCR; also shows a typical 3D model of the skid.",
+  "publisher": "Integrated Flow Solutions (IFS)",
+  "url": "https://ifs.marioninteractive.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf",
+  "licence": "Copyright © IFS; vendor literature.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://ifs.marioninteractive.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf",
+      "source_id": "ifs-marioninteractive-com-01-scr-ammonia-for-injection-system-an"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (279,633 bytes, 2 pages); schematic caption verified.",
+  "last_reviewed": "2026-11-24"
+}

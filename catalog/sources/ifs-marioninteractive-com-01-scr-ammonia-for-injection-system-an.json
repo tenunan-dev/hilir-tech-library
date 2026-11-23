@@ -1,0 +1,26 @@
+{
+  "id": "ifs-marioninteractive-com-01-scr-ammonia-for-injection-system-an",
+  "name": "Typical schematic for ammonia unloading, storage, distribution & vaporization system (SCR), ANAM-400.0",
+  "url": "https://ifs.marioninteractive.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Integrated Flow Solutions (IFS)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Direct PDF URL downloaded (279,633 bytes, 2 pages); schematic caption verified. Evidence: https://ifs.marioninteractive.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
+}

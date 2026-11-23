@@ -1,0 +1,91 @@
+{
+  "id": "tlv-powertrap-gp-series-mechanical-condensate-pump-gp5c-gp10-gp10f-gp14-etc",
+  "name": "PowerTrap GP Series mechanical condensate pump (GP5C, GP10, GP10F, GP14 etc.)",
+  "manufacturer": "tlv",
+  "product_type": "steam-trap",
+  "equipment": [
+    "steam-traps-condensate-return"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us PowerTrap (Mechanical Pump) GP Series page with full model table.",
+  "specifications": [
+    {
+      "metric": "GP5C maximum operating pressure",
+      "basis": "Printed in Product Details table; TMO 365 deg F",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap",
+        "source_id": "tlv-com-condensate-recovery-powertrap"
+      },
+      "unit": "psig",
+      "value": "75"
+    },
+    {
+      "metric": "GP5C condensate recovery",
+      "basis": "Printed in Product Details table; motive medium pressure range 5-75 psig",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap",
+        "source_id": "tlv-com-condensate-recovery-powertrap"
+      },
+      "unit": "lb/h",
+      "value": "320"
+    },
+    {
+      "metric": "GP10 maximum operating pressure",
+      "basis": "Printed in Product Details table; TMO 365 deg F",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap",
+        "source_id": "tlv-com-condensate-recovery-powertrap"
+      },
+      "unit": "psig",
+      "value": "150"
+    },
+    {
+      "metric": "GP10 condensate recovery",
+      "basis": "Printed in Product Details table; motive medium pressure range 5-150 psig",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap",
+        "source_id": "tlv-com-condensate-recovery-powertrap"
+      },
+      "unit": "lb/h",
+      "value": "18,600"
+    },
+    {
+      "metric": "GP10F maximum operating temperature",
+      "basis": "Printed in Product Details table; PMO 150 psig, condensate recovery 18,600 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap",
+        "source_id": "tlv-com-condensate-recovery-powertrap"
+      },
+      "unit": "deg F",
+      "value": "428"
+    },
+    {
+      "metric": "GP14 maximum operating pressure",
+      "basis": "Printed in Product Details table; TMO 392 deg F, condensate recovery 13,000 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap",
+        "source_id": "tlv-com-condensate-recovery-powertrap"
+      },
+      "unit": "psig",
+      "value": "200"
+    },
+    {
+      "metric": "Power source",
+      "basis": "Printed in product description",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap",
+        "source_id": "tlv-com-condensate-recovery-powertrap"
+      },
+      "unit": "n/a",
+      "value": "steam or compressed air; no electricity required"
+    }
+  ],
+  "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap",
+  "sources": [
+    {
+      "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap",
+      "source_id": "tlv-com-condensate-recovery-powertrap"
+    }
+  ],
+  "notes": "Read in full: TLV en-us PowerTrap (Mechanical Pump) GP Series page with full model table.",
+  "last_reviewed": "2026-11-24"
+}

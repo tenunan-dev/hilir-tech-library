@@ -1,0 +1,36 @@
+{
+  "id": "drawing-typical-p-id-of-instrument-air-instrument-service-air-system-engineeri",
+  "title": "Typical P&ID of Instrument Air — Instrument & Service Air System engineering whitepaper",
+  "diagram_type": "P&ID",
+  "description": "Generic instrument air P&ID showing two air compressors, intake filters, two air dryers, pre/post filters, two air receivers and a PLC; text covers compressor, dryer, filter, receiver and control-system selection for power, oil & gas and manufacturing plants.",
+  "publisher": "Yokogawa (Engineered Systems and Services whitepaper)",
+  "url": "https://azure-na-assets.contentstack.com/v3/assets/blta3c1d56420975795/bltb117df1445da53a7/692b646d060471ba9feb9f87/01072021_WP_Power_v2.pdf",
+  "licence": "Copyright © Yokogawa; vendor whitepaper.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://azure-na-assets.contentstack.com/v3/assets/blta3c1d56420975795/bltb117df1445da53a7/692b646d060471ba9feb9f87/01072021_WP_Power_v2.pdf",
+      "source_id": "azure-na-assets-contentstack-com-692b646d060471ba9feb9f87-010720"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (2,337,187 bytes, 4 pages); 'Typical P&ID of Instrument Air' caption verified.",
+  "last_reviewed": "2026-11-24"
+}

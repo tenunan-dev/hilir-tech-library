@@ -1,0 +1,225 @@
+{
+  "id": "boiler-chemical-dosing",
+  "name": "Boiler water chemical dosing",
+  "equipment_type": "chemical-dosing",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC",
+    "MAT"
+  ],
+  "description": "After mechanical deaeration, chemically remove residual dissolved oxygen, maintain alkaline pH for magnetite passivation, neutralise CO2 acidity in condensate with volatile amines, condition residual hardness into removable sludge with phosphate/polymer/chelant, and inhibit foaming and caustic attack.",
+  "specifications": [
+    {
+      "metric": "Theoretical sodium sulphite demand",
+      "unit": "ppm pure Na2SO3 per 1.0 ppm dissolved O2",
+      "basis": "Veolia Water Handbook Ch.11 (2Na2SO3 + O2 → 2Na2SO4); practical ~10 lb/lb O2 with technical grade and losses",
+      "source": {
+        "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+        "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+      },
+      "value": 7.88
+    },
+    {
+      "metric": "Spirax-design sodium sulphite dosing rate",
+      "unit": "ppm",
+      "basis": "Spirax Sarco worked example and dosing guidance",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning",
+        "source_id": "spiraxsarco-com-the-boiler-house-the-feedtank-and-feedwater-cond"
+      },
+      "value": "8 ppm per 1 ppm O2 + 4 ppm reserve; 45% active in liquid catalysed product"
+    },
+    {
+      "metric": "Sulphite/oxygen reaction rate",
+      "unit": "°F / pH",
+      "basis": "Veolia Water Handbook Ch.11",
+      "source": {
+        "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+        "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+      },
+      "value": "doubles per 18 °F temperature rise; rapid at >=212 °F; fastest at pH 8.5–10.0"
+    },
+    {
+      "metric": "Catalysed vs uncatalysed sodium sulphite oxygen removal after 25 s contact",
+      "unit": "% of O2 removed",
+      "basis": "Veolia Water Handbook Ch.11, Figure 11-12 discussion",
+      "source": {
+        "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+        "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+      },
+      "value": "catalysed: complete; uncatalysed: <50%"
+    },
+    {
+      "metric": "Hydrazine dosing ratio",
+      "unit": "ppm per ppm O2",
+      "basis": "Veolia Water Handbook Ch.11; 35% solution with flash point >200 °F; decomposition begins ~400 °F, rapid at 600 °F; optimum pH 9.0–10.0",
+      "source": {
+        "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+        "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+      },
+      "value": "theoretical 1.0 ppm per 1 ppm O2; practical 1.5–2.0 parts per part O2"
+    },
+    {
+      "metric": "Sulphite vs organic scavenger pressure split",
+      "unit": "psig / barg",
+      "basis": "Veolia feedwater-treatment-chemicals product page; Ch.11 states sulfite typically below 1000 psig and hydrazine/organic at 1000 psig and above",
+      "source": {
+        "url": "https://www.watertechnologies.com/products/boiler-water/feedwater-treatment-chemicals",
+        "source_id": "watertechnologies-com-boiler-water-feedwater-treatment-chemicals"
+      },
+      "value": "sulfite below 900 psig (62 barg); organic DEHA/carbohydrazide above 900 psig (62 barg)"
+    },
+    {
+      "metric": "Boiler-water sulphite residual",
+      "unit": "ppm",
+      "basis": "CEA BG04 Table 2",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": "30 to 70 (shell) / 60 to 100 (coil)"
+    },
+    {
+      "metric": "Boiler-water tannin / ascorbic acid / DEHA / filming amine residual",
+      "unit": "ppm",
+      "basis": "CEA BG04 Table 2",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": "tannin 120–160 shell; ascorbic acid 15–30; DEHA 0.1–1.0 in feedwater; film-forming amines 0.2–1.0 in feedwater"
+    },
+    {
+      "metric": "Boiler-water phosphate residual",
+      "unit": "ppm",
+      "basis": "CEA BG04 Table 2; notes 9–10: phosphate reserve not essential if carbonate alkalinity >=250 ppm; phosphate should not exceed 10% of minimum caustic alkalinity; chelant max 10 ppm",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": "30 to 60 (shell) / 30 to 70 (coil)"
+    },
+    {
+      "metric": "Caustic alkalinity as fraction of TDS under phosphate conditioning",
+      "unit": "% of dissolved solids",
+      "basis": "CEA BG04 Table 2 note 8",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "low": 10,
+      "high": 15
+    },
+    {
+      "metric": "Silica-to-caustic-alkalinity ratio to prevent silicate scale",
+      "unit": "ratio",
+      "basis": "CEA BG04 Table 2 note 11",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": "<0.4:1"
+    },
+    {
+      "metric": "Boiler-water pH for magnetite film",
+      "unit": "pH units",
+      "basis": "Spirax Sarco (BS 2486 recommendation for shell boilers at 10 bar; higher pH only in higher-pressure boilers); CEA BG04 Table 2 boiler-water shell 10.5–12.0 at 25 °C",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning",
+        "source_id": "spiraxsarco-com-the-boiler-house-the-feedtank-and-feedwater-cond"
+      },
+      "value": "10.5 to 12.0"
+    },
+    {
+      "metric": "Feedwater pH for corrosion control",
+      "unit": "pH units",
+      "basis": "Spirax Sarco Pressurised Deaerators: lowest level at which CO2 is absent",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
+        "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
+      },
+      "value": "not less than 8.5 to 9"
+    },
+    {
+      "metric": "Low-pressure hot-water boiler treatment",
+      "unit": "ppm",
+      "basis": "Veolia Water Handbook Ch.11, Low-Pressure Steam and Hot Water Heating Systems",
+      "source": {
+        "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+        "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+      },
+      "value": "200–400 ppm P-alkalinity; sodium sulfite + pH adjustment + polymer dispersant"
+    },
+    {
+      "metric": "Lay-up sulphite reserve",
+      "unit": "ppm as sulphite / pH",
+      "basis": "CEA BG04 §8 idle boilers",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": "150 ppm (<48 h); >250 ppm (48 h–7 d); >500 ppm (7 d–1 month); pH 10–11.5 for up to one month"
+    },
+    {
+      "metric": "FDA food-contact approval",
+      "unit": "regulation",
+      "basis": "Veolia states many Solus/OptiSperse products approved where steam may contact food; Steamate FM1007 OMRI-listed",
+      "source": {
+        "url": "https://www.watertechnologies.com/products/boiler-water/internal-boiler-chemicals",
+        "source_id": "watertechnologies-com-boiler-water-internal-boiler-chemicals"
+      },
+      "value": "21 CFR 173.310"
+    }
+  ],
+  "vendors": [
+    "veolia-water-technologies-solutions",
+    "wilhelmsen",
+    "lanxess"
+  ],
+  "sources": [
+    {
+      "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+      "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning",
+      "source_id": "spiraxsarco-com-the-boiler-house-the-feedtank-and-feedwater-cond"
+    },
+    {
+      "url": "https://www.watertechnologies.com/products/boiler-water/feedwater-treatment-chemicals",
+      "source_id": "watertechnologies-com-boiler-water-feedwater-treatment-chemicals"
+    },
+    {
+      "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+      "source_id": "cea-org-uk-07-cea-bg04-pdf"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
+      "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
+    },
+    {
+      "url": "https://www.watertechnologies.com/products/boiler-water/internal-boiler-chemicals",
+      "source_id": "watertechnologies-com-boiler-water-internal-boiler-chemicals"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Exact amine dosing rates (morpholine, cyclohexylamine, MEA) in ppm per ppm CO2 for HRSG",
+      "why": "Pages describe selection criteria (distribution ratio, basicity, thermal stability) but not numeric feed rates; Veolia technical paper TP1206EN PDF fetch failed (422)",
+      "next_action": "Retry TP1206EN via alternate host or fetch a Veolia Steamate NA series product bulletin with feed-rate basis"
+    },
+    {
+      "what": "Hydrazine replacement/DEHA dosing limits in modern gas-fired HRSGs",
+      "why": "No concrete numeric HRSG dosing table retrieved",
+      "next_action": "Fetch GE Vernova or Siemens HRSG water-chemistry manual excerpt"
+    },
+    {
+      "what": "Cost data with dollar year",
+      "why": "Case-study savings are quoted with '$' but no currency specification or price year on the listing pages",
+      "next_action": "Fetch the linked PDF case studies and record currency and dollar year before adding any cost figure"
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-feedwater.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

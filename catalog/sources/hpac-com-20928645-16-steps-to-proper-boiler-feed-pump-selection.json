@@ -1,0 +1,26 @@
+{
+  "id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection",
+  "name": "HPAC Engineering — Applicability of the 16-step selection method",
+  "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "HPAC Engineering",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. HPAC Engineering article by Steve Connor (Cleaver-Brooks) and Jim Swetye (Grundfos) Evidence: https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection"
+}

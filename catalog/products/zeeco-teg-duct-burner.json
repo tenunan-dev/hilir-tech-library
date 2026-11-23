@@ -1,0 +1,51 @@
+{
+  "id": "zeeco-teg-duct-burner",
+  "name": "teg+ Duct Burner",
+  "manufacturer": "zeeco",
+  "product_type": "burner",
+  "equipment": [
+    "duct-burner-hrsg"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Power Burners page directly with WebFetch (markdown). Same page also describes register-style and PDH air heater duct burners.",
+  "specifications": [
+    {
+      "metric": "Support design",
+      "basis": "Power Burners page teg+ section: reduces installation time and material costs",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+        "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      },
+      "unit": "design feature",
+      "value": "Self-supporting; eliminates internal fixed structural support"
+    },
+    {
+      "metric": "Flame stabilizer",
+      "basis": "Power Burners page teg+ section; nozzle design uses pilot flame propagation drilling and varying orifice sizes",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+        "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      },
+      "unit": "design feature",
+      "value": "Optimized drilled wing orifice pattern producing short, compact flame"
+    },
+    {
+      "metric": "Application",
+      "basis": "Power Burners page Duct burners and teg+ sections",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+        "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      },
+      "unit": "application",
+      "value": "HRSG and Turbine Exhaust Gas (TEG) supplementary firing"
+    }
+  ],
+  "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+  "sources": [
+    {
+      "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+      "source_id": "zeeco-com-burners-power-burners-hslang-en"
+    }
+  ],
+  "notes": "Fetched Zeeco Power Burners page directly with WebFetch (markdown). Same page also describes register-style and PDH air heater duct burners.",
+  "last_reviewed": "2026-11-24"
+}

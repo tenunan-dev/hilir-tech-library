@@ -1,0 +1,26 @@
+{
+  "id": "veoliawatertechnologies-com-technologies-terion-s",
+  "name": "Veolia Water Technologies & Solutions — Terion S MkII salt rejection",
+  "url": "https://www.veoliawatertechnologies.com/en/technologies/terion-s",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Veolia Water Technologies & Solutions",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Veolia product page: combined high-pressure RO membranes and CEDI Evidence: https://www.veoliawatertechnologies.com/en/technologies/terion-s"
+}

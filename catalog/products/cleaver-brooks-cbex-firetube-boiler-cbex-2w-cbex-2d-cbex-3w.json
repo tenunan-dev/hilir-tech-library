@@ -1,0 +1,114 @@
+{
+  "id": "cleaver-brooks-cbex-firetube-boiler-cbex-2w-cbex-2d-cbex-3w",
+  "name": "CBEX Firetube Boiler (CBEX-2W / CBEX-2D / CBEX-3W)",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "boiler",
+  "equipment": [
+    "boiler-gas-fire-tube-package"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Includes a printed Technical Data table, brochure links (SharePoint PDFs not opened).",
+  "specifications": [
+    {
+      "metric": "Steam design pressure",
+      "basis": "Product page bullet: 'Steam up to 300 psig', CBEX firetube boiler",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cleaverbrooks-com-product-cbex"
+      },
+      "unit": "psig",
+      "value": 300
+    },
+    {
+      "metric": "Hot water design pressure",
+      "basis": "Product page bullet: 'Hot water up to 125 psig'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cleaverbrooks-com-product-cbex"
+      },
+      "unit": "psig",
+      "value": 125
+    },
+    {
+      "metric": "Boiler horsepower range",
+      "basis": "Technical Data table: 100-2,500 (CBEX-2W), 250-800 (CBEX-2D), 250-800 (CBEX-3W)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cleaverbrooks-com-product-cbex"
+      },
+      "unit": "HP",
+      "low": 100,
+      "high": 2500
+    },
+    {
+      "metric": "Input capacity",
+      "basis": "Technical Data table; page prints 4,000-102,000 without unit, MBH inferred from same manufacturer's M5M/FLX tables that label input capacity in MBH",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cleaverbrooks-com-product-cbex"
+      },
+      "unit": "MBH (per Technical Data table label 'Input Capacity')",
+      "low": 4000,
+      "high": 102000
+    },
+    {
+      "metric": "NOx emissions",
+      "basis": "Bullet: 30 ppm NOx with 3% O2 across 10:1 turndown; sub 5 ppm NOx without SCR on most models. Table: <5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cleaverbrooks-com-product-cbex"
+      },
+      "unit": "ppm NOx at 3% O2",
+      "low": 5,
+      "high": 9
+    },
+    {
+      "metric": "CO emissions",
+      "basis": "Product page bullet; narrative also states <10 ppm CO without SCR",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cleaverbrooks-com-product-cbex"
+      },
+      "unit": "ppm (meets 10 ppm CO requirement)",
+      "value": 10
+    },
+    {
+      "metric": "Turndown",
+      "basis": "Product page bullet: '30 ppm NOx with 3% O2 across the 10:1 turndown range'; 3-pass model offers integral pre-piped feedwater economizer",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cleaverbrooks-com-product-cbex"
+      },
+      "unit": ":1",
+      "value": 10
+    },
+    {
+      "metric": "Number of passes",
+      "basis": "Product page: 2 Pass and 3 Pass; waterback or dryback design",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cleaverbrooks-com-product-cbex"
+      },
+      "unit": "passes",
+      "value": "2 or 3"
+    },
+    {
+      "metric": "Heat transfer enhancement",
+      "basis": "Product Overview: extended heat transfer tubes using CFD to optimize tube geometry and increase heat transfer by 85%",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cleaverbrooks-com-product-cbex"
+      },
+      "unit": "% increase in heat transfer",
+      "value": 85
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/cbex",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/cbex",
+      "source_id": "cleaverbrooks-com-product-cbex"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown). Includes a printed Technical Data table, brochure links (SharePoint PDFs not opened).",
+  "last_reviewed": "2026-11-24"
+}

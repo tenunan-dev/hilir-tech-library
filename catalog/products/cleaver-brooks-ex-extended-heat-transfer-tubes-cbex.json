@@ -1,0 +1,31 @@
+{
+  "id": "cleaver-brooks-ex-extended-heat-transfer-tubes-cbex",
+  "name": "EX extended heat transfer tubes (CBEX)",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "pressure-part",
+  "equipment": [
+    "heat-transfer-tubes-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched CBEX product page directly with WebFetch (markdown). Tube design is described within the boiler page.",
+  "specifications": [
+    {
+      "metric": "Heat transfer increase",
+      "basis": "CBEX Product Overview: extended heat transfer tubes with CFD-optimized geometry increase heat transfer by 85%",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cleaverbrooks-com-product-cbex"
+      },
+      "unit": "%",
+      "value": 85
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/cbex",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/cbex",
+      "source_id": "cleaverbrooks-com-product-cbex"
+    }
+  ],
+  "notes": "Fetched CBEX product page directly with WebFetch (markdown). Tube design is described within the boiler page.",
+  "last_reviewed": "2026-11-24"
+}

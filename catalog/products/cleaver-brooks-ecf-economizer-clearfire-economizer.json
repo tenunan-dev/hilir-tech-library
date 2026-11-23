@@ -1,0 +1,42 @@
+{
+  "id": "cleaver-brooks-ecf-economizer-clearfire-economizer",
+  "name": "ECF Economizer (ClearFire Economizer)",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "heat-exchanger",
+  "equipment": [
+    "economizer-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Economizers catalog listing directly with WebFetch (text). Same page lists C1X, C2X, C2X-HE, CCE, CRB, CRE economizers.",
+  "specifications": [
+    {
+      "metric": "Efficiency boost",
+      "basis": "Economizers catalog listing: 'Boost efficiency 3-5% with the ClearFire Economizer (ECF)'",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers",
+        "source_id": "cleaverbrooks-com-boiler-room-equipment-economizers"
+      },
+      "unit": "%",
+      "low": 3,
+      "high": 5
+    },
+    {
+      "metric": "Applicable boilers",
+      "basis": "Economizers catalog listing",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers",
+        "source_id": "cleaverbrooks-com-boiler-room-equipment-economizers"
+      },
+      "unit": "applicability",
+      "value": "ClearFire-H and CBT boilers from 10-80 HP, high or low pressure steam"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers",
+      "source_id": "cleaverbrooks-com-boiler-room-equipment-economizers"
+    }
+  ],
+  "notes": "Fetched Economizers catalog listing directly with WebFetch (text). Same page lists C1X, C2X, C2X-HE, CCE, CRB, CRE economizers.",
+  "last_reviewed": "2026-11-24"
+}

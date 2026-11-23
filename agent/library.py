@@ -22,6 +22,8 @@ import technologies
 import vendors
 import equipment
 import projects
+import products
+import drawings
 import bm25
 from urlnorm import url_key
 
@@ -45,6 +47,8 @@ TECHNOLOGY_LICENCE = "Library's own summary of cited sources; cite the sources l
 VENDOR_LICENCE = "Library's own curated vendor record; cite the sources listed in the record"
 EQUIPMENT_LICENCE = "Library's own curated equipment record; cite the sources listed in the record"
 PROJECT_LICENCE = "Library's own curated project record; cite the sources listed in the record"
+PRODUCT_LICENCE = "Library's own curated product catalog record; cite the vendor pages listed in the record"
+DRAWING_LICENCE = "Library's own curated drawing record; the diagram stays at the publisher's url"
 # Candidates each kind contributes to the rank fusion. og.hybrid_search uses the same 50
 # (its CTE keeps `r <= 50`), so a passage pool of 15,000 rows cannot crowd out the records.
 FUSION_POOL = 50
@@ -293,6 +297,8 @@ def build(db_path=None, corpus=None):
         CREATE TABLE vendors (id TEXT PRIMARY KEY, vendor TEXT NOT NULL, sectors TEXT NOT NULL);
         CREATE TABLE equipment (id TEXT PRIMARY KEY, record TEXT NOT NULL, sectors TEXT NOT NULL);
         CREATE TABLE projects (id TEXT PRIMARY KEY, record TEXT NOT NULL, sectors TEXT NOT NULL);
+        CREATE TABLE products (id TEXT PRIMARY KEY, record TEXT NOT NULL, sectors TEXT NOT NULL);
+        CREATE TABLE drawings (id TEXT PRIMARY KEY, record TEXT NOT NULL, sectors TEXT NOT NULL);
         CREATE TABLE term_df (term TEXT PRIMARY KEY, df INTEGER NOT NULL);
     """)
     records = load_records()
@@ -355,6 +361,24 @@ def build(db_path=None, corpus=None):
         db.execute("INSERT INTO search VALUES ('project', ?, ?, ?, ?, ?)",
                    (rec["id"], rec["id"], rec["name"], project_text(rec, card_names, vnames),
                     tag_text({"sectors": sectors}, labels)))
+    eq_sectors = {r["id"]: sorted(set(r.get("sector_codes") or ([r["sector"]] if r.get("sector") else [])))
+                  for r in equipment_recs}
+    product_recs = products.load_products(corpus.parent / "catalog" / "products")
+    for rec in product_recs:
+        sectors = sorted({code for eid in rec.get("equipment", []) for code in eq_sectors.get(eid, [])})
+        db.execute("INSERT INTO products VALUES (?, ?, ?)",
+                   (rec["id"], json.dumps(rec, ensure_ascii=False), json.dumps(sectors)))
+        db.execute("INSERT INTO search VALUES ('product', ?, ?, ?, ?, ?)",
+                   (rec["id"], rec["id"], rec["name"], products.search_text(rec),
+                    tag_text({"sectors": sectors}, labels)))
+    drawing_recs = drawings.load_drawings(corpus.parent / "catalog" / "drawings")
+    for rec in drawing_recs:
+        sectors = sorted(set(rec.get("sectors", [])))
+        db.execute("INSERT INTO drawings VALUES (?, ?, ?)",
+                   (rec["id"], json.dumps(rec, ensure_ascii=False), json.dumps(sectors)))
+        db.execute("INSERT INTO search VALUES ('drawing', ?, ?, ?, ?, ?)",
+                   (rec["id"], rec["id"], rec["title"], drawings.search_text(rec),
+                    tag_text({"sectors": sectors}, labels)))
     db.execute("INSERT INTO info VALUES ('root', ?)", (str(corpus.parent),))
     # Per-term document frequency, the same signal og.search_term carries on the Postgres path:
     # a product code is in a handful of records, an ordinary word in thousands, and the rare-concept
@@ -366,7 +390,8 @@ def build(db_path=None, corpus=None):
     db.executemany("INSERT INTO term_df VALUES (?, ?)", counts.items())
     db.commit()
     return {"sources": len(records), "documents": n_docs, "chunks": n_chunks, "technologies": len(cards),
-            "vendors": len(vendor_recs), "equipment": len(equipment_recs), "projects": len(project_recs)}
+            "vendors": len(vendor_recs), "equipment": len(equipment_recs), "projects": len(project_recs),
+            "products": len(product_recs), "drawings": len(drawing_recs)}
 
 
 def _matches(rec, sector, discipline, region, reuse_level):
@@ -424,7 +449,8 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     """
     db = db or connect()
     records = {r["id"]: json.loads(r["record"]) for r in db.execute("SELECT * FROM sources")}
-    kinds = ("source", "chunk", "technology", "vendor", "equipment", "project") if kind == "all" else (kind,)
+    kinds = ("source", "chunk", "technology", "vendor", "equipment", "project", "product", "drawing") \
+        if kind == "all" else (kind,)
     # Keep word characters only, then quote each token: any of the query's words (or a word its
     # concept group adds) may match. The token filter is what keeps the MATCH value inert, so it
     # must stay on this path into the parameterised query below.
@@ -525,6 +551,16 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
                     and reuse_level in (None, "full-text-open"):
                 results.append((score, row, prec))
             continue
+        if row["kind"] in ("product", "drawing"):
+            table = "products" if row["kind"] == "product" else "drawings"
+            found = db.execute(f"SELECT record, sectors FROM {table} WHERE id = ?", (row["ref"],)).fetchone()
+            if not found:
+                continue
+            prec, psectors = json.loads(found[0]), json.loads(found[1])
+            if row["kind"] in kinds and (not sector or sector in psectors) and not discipline \
+                    and reuse_level in (None, "full-text-open"):
+                results.append((score, row, prec))
+            continue
         rec = records.get(row["source_id"])
         if not rec or row["kind"] not in kinds or not _matches(rec, None, discipline, region, reuse_level):
             continue
@@ -539,6 +575,8 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     return [_technology_result(row, score, rec) if row["kind"] == "technology" else
             _vendor_result(row, score, rec) if row["kind"] == "vendor" else
             _equipment_result(row, score, rec) if row["kind"] == "equipment" else
+            _product_result(row, score, rec) if row["kind"] == "product" else
+            _drawing_result(row, score, rec) if row["kind"] == "drawing" else
             _project_result(row, score, rec) if row["kind"] == "project" else
             _result(db, row, score, records)
             for score, row, rec in results[:limit]]
@@ -802,6 +840,77 @@ def _equipment_result(row, score, erec):
     return out
 
 
+def _product_result(row, score, prec):
+    out = {"kind": "product", "ref": prec["id"], "title": prec["name"], "score": round(score, 4),
+           "licence": PRODUCT_LICENCE, "reuse_level": "full-text-open", "permitted_use": "any",
+           "manufacturer": prec["manufacturer"], "product_type": prec["product_type"],
+           "equipment": prec.get("equipment", []),
+           "spec_metrics": [s["metric"] for s in prec.get("specifications", [])]}
+    out["hint"] = "Call get_product for the printed specifications and the vendor catalog page."
+    return out
+
+
+def _drawing_result(row, score, prec):
+    out = {"kind": "drawing", "ref": prec["id"], "title": prec["title"], "score": round(score, 4),
+           "licence": prec.get("licence", DRAWING_LICENCE), "reuse_level": prec.get("reuse_level", "catalog-only"),
+           "permitted_use": "unstated", "diagram_type": prec["diagram_type"], "publisher": prec.get("publisher"),
+           "url": prec["url"], "equipment": prec.get("equipment", []), "technologies": prec.get("technologies", [])}
+    out["hint"] = "Call get_drawing for the diagram's scope and where it is published."
+    return out
+
+
+def get_product(product_id, db=None):
+    db = db or connect()
+    row = db.execute("SELECT record FROM products WHERE id = ?", (product_id,)).fetchone()
+    return json.loads(row[0]) if row else None
+
+
+def list_products(product_type=None, manufacturer=None, query=None, db=None):
+    db = db or connect()
+    q = (query or "").lower()
+    out = []
+    for blob in db.execute("SELECT record FROM products"):
+        rec = json.loads(blob[0])
+        if product_type and product_type != rec.get("product_type"):
+            continue
+        if manufacturer and manufacturer != rec.get("manufacturer"):
+            continue
+        hay = " ".join([rec["name"], " ".join(rec.get("aliases", [])), rec.get("description", ""),
+                        rec.get("manufacturer", ""), " ".join(rec.get("equipment", [])),
+                        " ".join(s["metric"] for s in rec.get("specifications", []))]).lower()
+        if q and q not in hay:
+            continue
+        out.append(products.summary(rec))
+    out.sort(key=lambda s: s["name"].lower())
+    return out
+
+
+def get_drawing(drawing_id, db=None):
+    db = db or connect()
+    row = db.execute("SELECT record FROM drawings WHERE id = ?", (drawing_id,)).fetchone()
+    return json.loads(row[0]) if row else None
+
+
+def list_drawings(diagram_type=None, sector=None, query=None, db=None):
+    db = db or connect()
+    q = (query or "").lower()
+    out = []
+    for blob, sectors in db.execute("SELECT record, sectors FROM drawings"):
+        rec = json.loads(blob)
+        if diagram_type and diagram_type != rec.get("diagram_type"):
+            continue
+        if sector and sector not in json.loads(sectors):
+            continue
+        hay = " ".join([rec["title"], " ".join(rec.get("aliases", [])), rec.get("description", ""),
+                        rec.get("publisher", ""), " ".join(rec.get("equipment", [])),
+                        " ".join(rec.get("technologies", []))]).lower()
+        if q and q not in hay:
+            continue
+        out.append(drawings.summary(rec))
+    out.sort(key=lambda s: (s.get("diagram_type", ""), s["title"].lower()))
+    return out
+
+
 def _project_result(row, score, prec):
     out = {"kind": "project", "ref": prec["id"], "title": prec["name"], "score": round(score, 4),
            "licence": PROJECT_LICENCE, "reuse_level": "full-text-open", "permitted_use": "any",
@@ -900,6 +1009,8 @@ def stats(db=None):
             "technologies": db.execute("SELECT count(*) FROM technologies").fetchone()[0],
             "vendors": db.execute("SELECT count(*) FROM vendors").fetchone()[0],
             "equipment": db.execute("SELECT count(*) FROM equipment").fetchone()[0],
+            "products": db.execute("SELECT count(*) FROM products").fetchone()[0],
+            "drawings": db.execute("SELECT count(*) FROM drawings").fetchone()[0],
             "embedding_model": (db.execute("SELECT value FROM info WHERE key = 'model'").fetchone() or [None])[0]}
 
 

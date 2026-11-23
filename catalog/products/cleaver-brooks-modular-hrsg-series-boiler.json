@@ -1,0 +1,93 @@
+{
+  "id": "cleaver-brooks-modular-hrsg-series-boiler",
+  "name": "Modular HRSG Series Boiler",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "boiler",
+  "equipment": [
+    "boiler-hrsg"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "specifications": [
+    {
+      "metric": "Gas turbine range",
+      "basis": "Product bullet 25-60 MW gas turbine-generators; Technical Data 'Gas Turbine Size 25 MW-60 MW'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "MW",
+      "low": 25,
+      "high": 60
+    },
+    {
+      "metric": "Turbine exhaust gas flow",
+      "basis": "Product bullets and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "lb/hr",
+      "low": 500000,
+      "high": 1000000
+    },
+    {
+      "metric": "Steam generation",
+      "basis": "Product bullet: Steam generation to 500,000+ lbs/hr",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "lb/hr (500,000+)",
+      "value": 500000
+    },
+    {
+      "metric": "Design pressure",
+      "basis": "Product bullet and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "psig (up to)",
+      "value": 1800
+    },
+    {
+      "metric": "Superheater outlet temperature",
+      "basis": "Product bullet and Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "deg F",
+      "value": 1050
+    },
+    {
+      "metric": "NOx with SCR",
+      "basis": "Product bullet",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "ppm NOx (less than, available)",
+      "value": 2
+    },
+    {
+      "metric": "Construction",
+      "basis": "Product bullets, Technical Data table and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "construction",
+      "value": "Vertical tube natural circulation with steam drum; field erected; single or multiple pressure levels"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/modular-hrsg",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/modular-hrsg",
+      "source_id": "cleaverbrooks-com-product-modular-hrsg"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown).",
+  "last_reviewed": "2026-11-24"
+}

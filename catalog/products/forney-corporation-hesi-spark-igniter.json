@@ -1,0 +1,51 @@
+{
+  "id": "forney-corporation-hesi-spark-igniter",
+  "name": "HESI Spark Igniter",
+  "manufacturer": "forney-corporation",
+  "product_type": "ignition",
+  "equipment": [
+    "boiler-pilot-ignition-system"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Forney igniters list page.",
+  "specifications": [
+    {
+      "metric": "Igniter class",
+      "basis": "Printed on Forney igniters list page",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters",
+        "source_id": "forneycorp-com-igniters"
+      },
+      "unit": "n/a",
+      "value": "Class 3"
+    },
+    {
+      "metric": "Duty",
+      "basis": "Printed on Forney igniters list page",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters",
+        "source_id": "forneycorp-com-igniters"
+      },
+      "unit": "n/a",
+      "value": "direct spark ignition of oil or gas igniters, small burners, and combustion turbines"
+    },
+    {
+      "metric": "Approval",
+      "basis": "Printed on Forney igniters list page",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters",
+        "source_id": "forneycorp-com-igniters"
+      },
+      "unit": "n/a",
+      "value": "Standard HESI is FM approved; CE Version meets Low Voltage Directive"
+    }
+  ],
+  "url": "https://www.forneycorp.com/igniters",
+  "sources": [
+    {
+      "url": "https://www.forneycorp.com/igniters",
+      "source_id": "forneycorp-com-igniters"
+    }
+  ],
+  "notes": "Read in full: Forney igniters list page.",
+  "last_reviewed": "2026-11-24"
+}

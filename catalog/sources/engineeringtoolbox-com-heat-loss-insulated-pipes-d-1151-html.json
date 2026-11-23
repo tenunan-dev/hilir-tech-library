@@ -1,0 +1,25 @@
+{
+  "id": "engineeringtoolbox-com-heat-loss-insulated-pipes-d-1151-html",
+  "name": "Engineering ToolBox — insulation thermal conductivity basis",
+  "url": "https://www.engineeringtoolbox.com/heat-loss-insulated-pipes-d_1151.html",
+  "source_type": "trade-media",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Engineering ToolBox",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. fibreglass insulation assumption for Engineering ToolBox insulated-pipe heat-loss diagrams Evidence: https://www.engineeringtoolbox.com/heat-loss-insulated-pipes-d_1151.html"
+}

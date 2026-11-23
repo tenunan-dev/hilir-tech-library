@@ -1,0 +1,205 @@
+{
+  "id": "deaerator-vent-condenser-internals",
+  "name": "Deaerator vent condensers and feedtank internals (spray nozzles, trays, sparge pipes)",
+  "equipment_type": "feedwater",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Mechanically remove dissolved oxygen and carbon dioxide by heating feedwater to saturation and breaking it into droplets/thin sheets in a steam atmosphere; collect deaerated water in a storage section under a steam blanket; vent non-condensables with a small controlled steam loss. Feedtank internals condense returned flash steam and mix cold make-up uniformly.",
+  "specifications": [
+    {
+      "metric": "Pressurised deaerator operating pressure / saturation temperature",
+      "unit": "bar g / °C",
+      "basis": "Spirax Sarco typical operating parameters",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
+        "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
+      },
+      "value": "0.2 bar g / 105"
+    },
+    {
+      "metric": "Deaerator storage capacity",
+      "unit": "minutes of full-load boiler feed",
+      "basis": "Spirax Sarco typical operating parameters",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
+        "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
+      },
+      "low": 10,
+      "high": 20
+    },
+    {
+      "metric": "Water supply pressure to deaerator",
+      "unit": "bar",
+      "basis": "Spirax Sarco: required for good distribution at the nozzle (1.8 bar assumed at nozzle inlet in worked example)",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
+        "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
+      },
+      "value": ">=2"
+    },
+    {
+      "metric": "Steam supply pressure to pressure control valve",
+      "unit": "bar",
+      "basis": "Spirax Sarco typical operating parameters",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
+        "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
+      },
+      "low": 5,
+      "high": 10
+    },
+    {
+      "metric": "Maximum deaerator turndown",
+      "unit": "ratio",
+      "basis": "Spirax Sarco; below this, nozzle/spray atomisation may be poor; multi-dome units used",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
+        "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
+      },
+      "value": "5:1"
+    },
+    {
+      "metric": "Recommended deaerator vent rate",
+      "unit": "kg steam/air mixture per 1000 kg/h deaerator capacity",
+      "basis": "Spirax Sarco: manufacturer recommendation on practical experience; DN20 steam-duty ball valve typically used part-open",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
+        "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
+      },
+      "low": 0.5,
+      "high": 2
+    },
+    {
+      "metric": "Air and oxygen content of feedwater at 80 / 85 °C",
+      "unit": "g per 1000 kg water",
+      "basis": "Spirax Sarco deaerator venting capacity worked example",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
+        "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
+      },
+      "value": "5.9 g air per 1000 kg at 80 °C; 2.3 g O2 per 1000 kg at 85 °C"
+    },
+    {
+      "metric": "Dissolved oxygen target — high-pressure water-tube / superheat plant",
+      "unit": "ppb",
+      "basis": "Spirax Sarco: rate of attack rises rapidly with temperature; pressurised deaerators used",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
+        "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
+      },
+      "value": "<7"
+    },
+    {
+      "metric": "Feedtank operating temperature and residual oxygen",
+      "unit": "°C / mg/L",
+      "basis": "Spirax Sarco Pressurised Deaerators; atmospheric practical maximum ~85 °C",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
+        "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
+      },
+      "value": "85–90 °C leaves about 2 mg/L O2"
+    },
+    {
+      "metric": "Pressurised deaerator oxygen removal",
+      "unit": "ppb O2",
+      "basis": "DOE Steam Sourcebook: feedwater oxygen content by design of deaerator/deaerating heater",
+      "source": {
+        "url": "https://www.energy.gov/sites/prod/files/2014/05/f15/steamsourcebook.pdf",
+        "source_id": "energy-gov-f15-steamsourcebook-pdf"
+      },
+      "value": "7 to 40"
+    },
+    {
+      "metric": "Feedtank vent size",
+      "unit": "nominal diameter",
+      "basis": "Spirax Sarco feedtank design and atmospheric deaerator guidance; vent head with internal baffle",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning",
+        "source_id": "spiraxsarco-com-the-boiler-house-the-feedtank-and-feedwater-cond"
+      },
+      "low": "DN80 on 2000 L tank",
+      "high": "DN250 on 30000 L tank"
+    },
+    {
+      "metric": "Feedtank storage capacity",
+      "unit": "hour of steaming at maximum boiler evaporation",
+      "basis": "Spirax Sarco traditional practice; larger plants may use smaller hotwell plus cold treated-water storage",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning",
+        "source_id": "spiraxsarco-com-the-boiler-house-the-feedtank-and-feedwater-cond"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Fuel saving per feedtank temperature rise",
+      "unit": "% less fuel per 6 °C rise in feedtank temperature",
+      "basis": "Spirax Sarco, condensate return",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning",
+        "source_id": "spiraxsarco-com-the-boiler-house-the-feedtank-and-feedwater-cond"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Feedpump cavitation risk threshold",
+      "unit": "% condensate return (typical)",
+      "basis": "Spirax Sarco caution: excessive feedwater temperature can cause pump cavitation",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning",
+        "source_id": "spiraxsarco-com-the-boiler-house-the-feedtank-and-feedwater-cond"
+      },
+      "value": ">80"
+    },
+    {
+      "metric": "Deaerator internal corrosion locations",
+      "unit": "qualitative",
+      "basis": "Veolia Water Handbook Ch.11, Deaerators section",
+      "source": {
+        "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+        "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+      },
+      "value": "Stainless-steel tray chamber SCC; inlet spray-valve spring cracking; vent-condenser oxygen pitting; impingement-baffle erosion near steam inlet"
+    }
+  ],
+  "vendors": [
+    "spirax-sarco",
+    "veolia-water-technologies-solutions",
+    "warren-controls"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
+      "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
+    },
+    {
+      "url": "https://www.energy.gov/sites/prod/files/2014/05/f15/steamsourcebook.pdf",
+      "source_id": "energy-gov-f15-steamsourcebook-pdf"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning",
+      "source_id": "spiraxsarco-com-the-boiler-house-the-feedtank-and-feedwater-cond"
+    },
+    {
+      "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+      "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Vent-condenser duty/specification sizing method and tray vs spray nozzle performance comparison table",
+      "why": "Spirax embeds the water-distribution comparison as an image (table 3.21.1) that could not be read as text; Warren Controls PDF was CAPTCHA-blocked",
+      "next_action": "Fetch an OEM deaerator datasheet (e.g. Spirax, Warren Controls via alternate host) with textual tray/spray comparison and vent-condenser sizing basis"
+    },
+    {
+      "what": "Named deaerator OEM for gas-fired HRSG duty in Southeast Asia",
+      "why": "No Asia-specific deaerator vendor page retrieved",
+      "next_action": "Search for Siemens/GE Vernova/Veolia deaerator packages at regional combined-cycle plants"
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-feedwater.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "drawing-figure-1-edi-flow-schematic-using-edi-to-meet-the-needs-of-pure-water",
+  "title": "Figure 1 — EDI Flow Schematic — Using EDI to Meet the Needs of Pure Water Production",
+  "diagram_type": "schematic",
+  "description": "EDI flow schematic with ionisation reactions in diluting compartments; case study train for a fossil municipal power plant: multimedia filters → sodium zeolite softeners → cartridge filters → RO → EDI → ion-exchange polishing resin for ultrapure boiler makeup water.",
+  "publisher": "GE Vernova (formerly GE Water & Process Technologies), technical paper TP1078EN",
+  "url": "https://www.gevernova.com/gev/sites/default/files/tdindia/GE-EDI-pure-water-production.pdf",
+  "licence": "Copyright © GE/GE Vernova; manufacturer technical paper.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "boiler-feedwater-pretreatment"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/gev/sites/default/files/tdindia/GE-EDI-pure-water-production.pdf",
+      "source_id": "gevernova-com-tdindia-ge-edi-pure-water-production-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (301,256 bytes, 5 pages); Figure 1 caption and treatment train verified.",
+  "last_reviewed": "2026-11-24"
+}

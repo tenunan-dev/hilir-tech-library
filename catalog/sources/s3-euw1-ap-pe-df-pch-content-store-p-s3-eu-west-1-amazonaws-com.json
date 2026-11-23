@@ -1,0 +1,26 @@
+{
+  "id": "s3-euw1-ap-pe-df-pch-content-store-p-s3-eu-west-1-amazonaws-com",
+  "name": "Schematic diagram of a CFB boiler (Fig. 1.3) — Combustion and Gasification in Fluidized Beds",
+  "url": "https://s3-euw1-ap-pe-df-pch-content-store-p.s3.eu-west-1.amazonaws.com/9780429075018/67b1bae2-6a8e-4c6a-93dd-f5de42ce55c9/preview.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Taylor & Francis / CRC Press (book preview; authors of Combustion and Gasification in Fluidized Beds)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. SEARCH-VERIFIED: figure caption and labels captured from WebSearch results of the publisher preview; signed URL not re-downloaded in this session. Evidence: https://s3-euw1-ap-pe-df-pch-content-store-p.s3.eu-west-1.amazonaws.com/9780429075018/67b1bae2-6a8e-4c6a-93dd-f5de42ce55c9/preview.pdf"
+}

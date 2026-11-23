@@ -1,0 +1,28 @@
+{
+  "id": "spiraxsarco-com-condensate-recovery-flash-steam-sc-lang-en-gb",
+  "name": "Boiler blowdown heat recovery (Fig. 14.6.10) — Condensate Recovery: Flash Steam",
+  "url": "https://www.spiraxsarco.com/learn-about-steam/condensate-recovery/flash-steam?sc_lang=en-GB",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco — Learn About Steam",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. SEARCH-VERIFIED via WebSearch snippet with figure caption and process description; not fetched with WebFetch in this session. Evidence: https://www.spiraxsarco.com/learn-about-steam/condensate-recovery/flash-steam?sc_lang=en-GB"
+}

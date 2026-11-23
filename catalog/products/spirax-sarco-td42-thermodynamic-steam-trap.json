@@ -1,0 +1,121 @@
+{
+  "id": "spirax-sarco-td42-thermodynamic-steam-trap",
+  "name": "TD42 Thermodynamic Steam Trap",
+  "manufacturer": "spirax-sarco",
+  "product_type": "steam-trap",
+  "equipment": [
+    "steam-traps-condensate-return"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Spirax Sarco TD42 product page including embedded technical information TI-P068-22-EN and installation/maintenance text. Page states condensate capacity depends on connection size and differential pressure; no single capacity number printed.",
+  "specifications": [
+    {
+      "metric": "Body design condition",
+      "basis": "Printed under 'Pressure, temperature and backpressure envelope'",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "n/a",
+      "value": "PN63"
+    },
+    {
+      "metric": "Maximum allowable pressure",
+      "basis": "Printed under 'Pressure, temperature and backpressure envelope'",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "bar g at 100 deg C",
+      "value": "63"
+    },
+    {
+      "metric": "Maximum allowable / operating temperature",
+      "basis": "Printed under 'Pressure, temperature and backpressure envelope'",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "deg C at 42 bar g",
+      "value": "400"
+    },
+    {
+      "metric": "Recommended maximum operating pressure",
+      "basis": "Printed under 'Pressure, temperature and backpressure envelope' and in pressure/temperature limits note",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "bar g",
+      "value": "42"
+    },
+    {
+      "metric": "Minimum allowable / operating temperature",
+      "basis": "Printed under 'Pressure, temperature and backpressure envelope'; consult manufacturer below this",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "deg C",
+      "value": "0"
+    },
+    {
+      "metric": "Minimum operating differential pressure",
+      "basis": "Printed under 'Pressure, temperature and backpressure envelope'",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "bar g",
+      "value": "0.25"
+    },
+    {
+      "metric": "Maximum operating backpressure",
+      "basis": "Printed: 'must not exceed 80% of the upstream pressure under any operating condition'",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "% of upstream pressure",
+      "value": "80"
+    },
+    {
+      "metric": "Maximum cold hydraulic test pressure",
+      "basis": "Printed in 'Pressure and temperature data' and narrative; not an allowable operating pressure",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "bar g",
+      "value": "95"
+    },
+    {
+      "metric": "Nominal sizes",
+      "basis": "Printed under Sizes and pipe connections; screwed BSP T Rp (ISO 7-1) or NPT",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "in",
+      "value": "3/8, 1/2, 3/4"
+    },
+    {
+      "metric": "Blast discharge to atmosphere temperature warning",
+      "basis": "Printed warning in installation instructions",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "deg C",
+      "value": "may be 100"
+    }
+  ],
+  "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+  "sources": [
+    {
+      "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+      "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+    }
+  ],
+  "notes": "Read in full: Spirax Sarco TD42 product page including embedded technical information TI-P068-22-EN and installation/maintenance text. Page states condensate capacity depends on connection size and differential pressure; no single capacity number printed.",
+  "last_reviewed": "2026-11-24"
+}

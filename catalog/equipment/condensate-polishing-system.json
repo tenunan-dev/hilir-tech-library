@@ -1,0 +1,102 @@
+{
+  "id": "condensate-polishing-system",
+  "name": "Condensate polishing systems for HRSG / once-through boilers (filtration, ion exchange; conductivity/sodium ta",
+  "equipment_type": "water-treatment",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Remove ionic and particulate contaminants (sodium, chloride, sulfate, silica, iron/copper oxides) from returned condensate and makeup before it reaches the boiler/steam generator, protecting boilers, turbines and HRSG evaporators from scaling, corrosion, hydrogen damage and turbine deposition (Graver; Chemical Engineering/ChemTreat).",
+  "specifications": [
+    {
+      "metric": "makeup treatment effluent specific conductivity",
+      "unit": "µS/cm",
+      "basis": "recommended normal upper limit for final MBIX/EDI effluent; Chemical Engineering (ChemTreat), 2019",
+      "source": {
+        "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
+        "source_id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat"
+      },
+      "value": "<=0.1"
+    },
+    {
+      "metric": "condensate pump discharge cation conductivity (CACE)",
+      "unit": "µS/cm",
+      "basis": "recommended continuous CPD analysis for HRSG; Chemical Engineering (ChemTreat), 2019",
+      "source": {
+        "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
+        "source_id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat"
+      },
+      "value": "<=0.2"
+    },
+    {
+      "metric": "feedwater cation conductivity (AVT(O))",
+      "unit": "µS/cm",
+      "basis": " Chemical Engineering (ChemTreat) AVT(O) recommended limit for high-pressure steam generators",
+      "source": {
+        "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
+        "source_id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat"
+      },
+      "value": "<=0.2"
+    },
+    {
+      "metric": "steam purity sodium / silica / CACE",
+      "unit": "ppb / µS/cm",
+      "basis": "core steam purity monitoring parameters, Chemical Engineering (ChemTreat), 2019",
+      "source": {
+        "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
+        "source_id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat"
+      },
+      "value": "Na <=2 ppb; SiO2 <=10 ppb; CACE <=0.2 µS/cm"
+    },
+    {
+      "metric": "CPU outlet quality claimed by vendor",
+      "unit": "µS/cm / ppb",
+      "basis": "WOG Technologies CPU FAQ, dependent on feed quality and design",
+      "source": {
+        "url": "https://woggroup.com/condensate-polishing-unit-cpu",
+        "source_id": "woggroup-com-condensate-polishing-unit-cpu"
+      },
+      "value": "conductivity <0.2 µS/cm; silica <10 ppb"
+    }
+  ],
+  "vendors": [
+    "graver-technologies",
+    "wog-technologies-limited",
+    "kurita-water-industries-kurita-asean",
+    "veolia-water-technologies",
+    "purolite-ecolab",
+    "ion-exchange-india-ltd",
+    "ovivo-christ-water-technology-kennicott"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
+      "source_id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat"
+    },
+    {
+      "url": "https://woggroup.com/condensate-polishing-unit-cpu",
+      "source_id": "woggroup-com-condensate-polishing-unit-cpu"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Licensed primary EPRI/IAPWS tables for polisher outlet, drum HRSG and once-through HRSG action levels",
+      "why": "Original EPRI documents are member-restricted; only second-hand snippets available",
+      "next_action": "Obtain EPRI 3002001381/TR-110051 or free IAPWS guidance and re-record targets with table numbers."
+    },
+    {
+      "what": "Polisher resin bed depth, flow rate (BV/h), differential pressure and temperature limits",
+      "why": "Datasheets linked from Graver are PDFs not fetchable by WebFetch",
+      "next_action": "Download and parse the Graver/Purolite datasheets via local PDF tooling, recording exact model and basis."
+    },
+    {
+      "what": " Asia-Pacific refinery/petrochemical condensate polisher installations with named units and dates",
+      "why": "Only one Philippines plant and one unnamed SE Asia plant found",
+      "next_action": "Search utility tender awards and vendor press releases with plant name and commissioning year."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-steam-condensate.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

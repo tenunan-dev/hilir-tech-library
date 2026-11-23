@@ -1,0 +1,61 @@
+{
+  "id": "john-zink-qln-low-nox-burner",
+  "name": "QLN Low NOx Burner",
+  "manufacturer": "john-zink",
+  "product_type": "burner",
+  "equipment": [
+    "burner-gas-low-nox"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). No numeric NOx ppm value printed on this page.",
+  "specifications": [
+    {
+      "metric": "Firing capacity",
+      "basis": "Product page: 'firing capacity of up to 450 MMBTU/HR HHV'",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/qln",
+        "source_id": "johnzink-com-powerburners-qln"
+      },
+      "unit": "MMBTU/hr HHV (up to)",
+      "value": 450
+    },
+    {
+      "metric": "NOx reduction mechanism",
+      "basis": "Product page Overview and Features",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/qln",
+        "source_id": "johnzink-com-powerburners-qln"
+      },
+      "unit": "design feature",
+      "value": "Advanced air/fuel premixing and fuel staging; internal FGR"
+    },
+    {
+      "metric": "Fuels",
+      "basis": "Product page Features; narrative also states gas and #2/light oil firing",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/qln",
+        "source_id": "johnzink-com-powerburners-qln"
+      },
+      "unit": "fuel options",
+      "value": "Natural gas, produced gas, syn gas, #2 fuel oil, bitumen"
+    },
+    {
+      "metric": "Application",
+      "basis": "Product page Overview",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/qln",
+        "source_id": "johnzink-com-powerburners-qln"
+      },
+      "unit": "application",
+      "value": "Once-through steam generators (OTSGs) and heaters"
+    }
+  ],
+  "url": "https://www.johnzink.com/products/powerburners/qln",
+  "sources": [
+    {
+      "url": "https://www.johnzink.com/products/powerburners/qln",
+      "source_id": "johnzink-com-powerburners-qln"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown). No numeric NOx ppm value printed on this page.",
+  "last_reviewed": "2026-11-24"
+}

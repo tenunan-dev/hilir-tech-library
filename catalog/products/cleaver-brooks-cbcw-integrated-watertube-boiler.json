@@ -1,0 +1,83 @@
+{
+  "id": "cleaver-brooks-cbcw-integrated-watertube-boiler",
+  "name": "CBCW Integrated Watertube Boiler",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "boiler",
+  "equipment": [
+    "boiler-gas-water-tube-package"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "specifications": [
+    {
+      "metric": "Steam capacity",
+      "basis": "Product bullets: 10,000 to 225,000 lb/hr; Technical Data table 'Steam Flows 10,000-225,000'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
+        "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
+      },
+      "unit": "lb/hr",
+      "low": 10000,
+      "high": 225000
+    },
+    {
+      "metric": "Design pressure (steam)",
+      "basis": "Product bullet: '100 to 550 psig on steam'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
+        "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
+      },
+      "unit": "psig",
+      "low": 100,
+      "high": 550
+    },
+    {
+      "metric": "Steam temperature",
+      "basis": "Technical Data table 'Steam Temperature: Saturated'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
+        "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
+      },
+      "unit": "steam condition",
+      "value": "Saturated"
+    },
+    {
+      "metric": "NOx emissions",
+      "basis": "Bullet 'Available to less than 9 ppm NOx'; Technical Data <9 ppm; narrative <2 ppm NOx with ultra-low NOx burner and SCR",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
+        "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
+      },
+      "unit": "ppm NOx (less than)",
+      "value": 9
+    },
+    {
+      "metric": "Furnace construction",
+      "basis": "Product narrative and Technical Data table; D-type and O-type styles, natural circulation",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
+        "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
+      },
+      "unit": "construction",
+      "value": "100% membrane water-cooled, refractory free"
+    },
+    {
+      "metric": "Fuels",
+      "basis": "Product bullets and Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
+        "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
+      },
+      "unit": "fuel options",
+      "value": "Natural gas, propane, digester gas, #2 light oil"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
+      "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown).",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "svi-bremco-com-industrial-noise-control-steam-vent-silencers",
+  "name": "SVI BREMCO",
+  "url": "https://svi-bremco.com/gas-path-solutions/industrial-noise-control/steam-vent-silencers/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "SVI BREMCO",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Read: HRSG/boiler and combined-cycle turnkey scope. Evidence: https://svi-bremco.com/gas-path-solutions/industrial-noise-control/steam-vent-silencers/"
+}

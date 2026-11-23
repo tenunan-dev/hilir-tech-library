@@ -1,0 +1,26 @@
+{
+  "id": "watertechnologies-com-boiler-water-boiler-water-analyzer",
+  "name": "Veolia Water Technologies & Solutions — Inline vs offline analytical alignment",
+  "url": "https://www.watertechnologies.com/products/boiler-water/boiler-water-analyzer",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Veolia Water Technologies & Solutions",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Veolia TrueSense Analyze boiler water analyzer product page Evidence: https://www.watertechnologies.com/products/boiler-water/boiler-water-analyzer"
+}

@@ -1,0 +1,161 @@
+{
+  "id": "boiler-feedwater-pretreatment",
+  "name": "Boiler feedwater pretreatment",
+  "equipment_type": "feedwater",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Remove suspended solids, chlorine/oxidants, scale-forming calcium/magnesium hardness and alkalinity from raw/make-up water before it reaches the boiler, reducing scale, foaming, carryover and chemical demand. External (pre-boiler) treatment is preferred where possible; conditioning is only a supplement.",
+  "specifications": [
+    {
+      "metric": "Ion-exchange resin bead diameter",
+      "unit": "mm",
+      "basis": "Spirax Sarco description of resin beads in packed-bed GRP pressure vessel",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler",
+        "source_id": "spiraxsarco-com-the-boiler-house-water-for-the-boiler"
+      },
+      "value": "0.5 to 1.0"
+    },
+    {
+      "metric": "Brine concentration for softener regeneration",
+      "unit": "% NaCl solution",
+      "basis": "Base-exchange softening activation/regeneration (Spirax Sarco)",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler",
+        "source_id": "spiraxsarco-com-the-boiler-house-water-for-the-boiler"
+      },
+      "low": 7,
+      "high": 12
+    },
+    {
+      "metric": "TDS reduction by sodium base exchange",
+      "unit": "% reduction (none)",
+      "basis": "Spirax Sarco: no reduction in TDS and no change in pH; only exchange of scale-forming for non-scale-forming salts",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler",
+        "source_id": "spiraxsarco-com-the-boiler-house-water-for-the-boiler"
+      },
+      "value": 0
+    },
+    {
+      "metric": "Condensate return threshold for successful softener use in high alkaline hardness areas",
+      "unit": "% of condensate returned",
+      "basis": "Spirax Sarco, base exchange softening",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler",
+        "source_id": "spiraxsarco-com-the-boiler-house-water-for-the-boiler"
+      },
+      "value": ">=50"
+    },
+    {
+      "metric": "Condensate return below which more sophisticated ion exchange / dealkalisation is preferable",
+      "unit": "%",
+      "basis": "Spirax Sarco, shell boiler plant selection",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler",
+        "source_id": "spiraxsarco-com-the-boiler-house-water-for-the-boiler"
+      },
+      "value": "<40"
+    },
+    {
+      "metric": "pH after dealkalisation + degassing",
+      "unit": "pH (minimum)",
+      "basis": "CEA/ICOM BG04 §2.14: sodium hydroxide solution added after degassing to raise pH to at least 8.5",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "low": 8.5
+    },
+    {
+      "metric": "Feed water total hardness — shell boiler",
+      "unit": "ppm as CaCO3",
+      "basis": "CEA BG04 Table 2, recommended water characteristics for shell or coil boilers up to 32 bar g",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": "2 max"
+    },
+    {
+      "metric": "Feed water pH at 25 °C — shell boiler / coil boiler",
+      "unit": "pH units",
+      "basis": "CEA BG04 Table 2; note 1: with copper alloys in feed system shell-boiler value should not exceed pH 9.2",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": "8.5 to 9.5 / 9.5 to 11"
+    },
+    {
+      "metric": "Feed water alkalinity threshold for CO2 carryover",
+      "unit": "ppm",
+      "basis": "CEA BG04 Table 2 note 5: >=25 ppm alkalinity results in about 10 ppm CO2 in the steam; dealkalisation or RO then recommended",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Thermal conductivity of calcium carbonate scale",
+      "unit": "W/mK",
+      "basis": "CEA BG04 Table 1, typical boiler scales (6.0–18.0 Btu in/h ft2 °F)",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "low": 0.9,
+      "high": 2.6
+    },
+    {
+      "metric": "Steam velocity in well-designed steam system",
+      "unit": "m/s",
+      "basis": "CEA BG04 §1.3 note: 25 m/s = 90 kph and up to 40 m/s = 145 kph; above 40 m/s deemed bad practice",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "low": 25,
+      "high": 40
+    }
+  ],
+  "vendors": [
+    "veolia-water-technologies",
+    "lanxess",
+    "suez"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler",
+      "source_id": "spiraxsarco-com-the-boiler-house-water-for-the-boiler"
+    },
+    {
+      "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+      "source_id": "cea-org-uk-07-cea-bg04-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Vendor-specific datasheet for activated-carbon filters / media sized for boiler make-up",
+      "why": "Neither CEA BG04 nor Spirax pages give named carbon-filter product specs",
+      "next_action": "Fetch a Veolia/Suez activated-carbon filter datasheet and record media type, bed depth and service-flow basis"
+    },
+    {
+      "what": "Dow/DuPont RO membrane element datasheet for boiler make-up",
+      "why": "Dow appears only as a DOE sourcebook contributor (search-verified); no membrane datasheet was fetched",
+      "next_action": "Fetch a current Dow/DuPont FILMTEC datasheet for brackish-water elements and record salt rejection, flow and test-pressure basis"
+    },
+    {
+      "what": "CFB-specific feedwater pretreatment guidance",
+      "why": "Sources retrieved cover shell/water-tube/HRSG; no CFB-specific water-chemistry page found",
+      "next_action": "Search DOE/EPRI or a CFB OEM (e.g. B&W) for CFB water chemistry guidance"
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-feedwater.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

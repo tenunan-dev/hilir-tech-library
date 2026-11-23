@@ -1,0 +1,91 @@
+{
+  "id": "graver-water-marmon-industrial-water-roflex-reverse-osmosis-systems",
+  "name": "ROFlex Reverse Osmosis Systems",
+  "manufacturer": "graver-water-marmon-industrial-water",
+  "product_type": "water-treatment",
+  "equipment": [
+    "boiler-makeup-ro-edi"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver ROFlex RO Systems page. Also links a data sheet PDF (Graver_DataSheet_ROFlex_2020.pdf) which was not fetched.",
+  "specifications": [
+    {
+      "metric": "Membrane size/type",
+      "basis": "Printed under 'Standard Design Features'; the page prints 'TFC 8”x40” high rejection BW membranes'",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "in (TFC high rejection BW membranes)",
+      "value": "8 x 40"
+    },
+    {
+      "metric": "High pressure piping material",
+      "basis": "Printed under Standard Design Features",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "n/a",
+      "value": "316L SS sch. 40"
+    },
+    {
+      "metric": "Low pressure piping material",
+      "basis": "Printed under Standard Design Features",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "n/a",
+      "value": "PVC sch. 80"
+    },
+    {
+      "metric": "Membrane vessel material",
+      "basis": "Printed under Standard Design Features",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "n/a",
+      "value": "FRP, side-ported"
+    },
+    {
+      "metric": "Motor supply",
+      "basis": "Printed under Standard Design Features as '460V/60HZ/3PH, TEFC motor'",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "V / Hz / phase",
+      "value": "460/60/3, TEFC"
+    },
+    {
+      "metric": "Pump type",
+      "basis": "Printed under Standard Design Features",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "n/a",
+      "value": "stainless steel vertical centrifugal pump"
+    },
+    {
+      "metric": "Typical application",
+      "basis": "Printed under Typical Applications",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "n/a",
+      "value": "Boiler Water Make-Up"
+    }
+  ],
+  "url": "https://graver.com/makeup/ro/",
+  "sources": [
+    {
+      "url": "https://graver.com/makeup/ro/",
+      "source_id": "graver-com-makeup-ro"
+    }
+  ],
+  "notes": "Read in full: Graver ROFlex RO Systems page. Also links a data sheet PDF (Graver_DataSheet_ROFlex_2020.pdf) which was not fetched.",
+  "last_reviewed": "2026-11-24"
+}

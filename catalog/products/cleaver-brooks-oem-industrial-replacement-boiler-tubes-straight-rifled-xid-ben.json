@@ -1,0 +1,95 @@
+{
+  "id": "cleaver-brooks-oem-industrial-replacement-boiler-tubes-straight-rifled-xid-ben",
+  "name": "OEM Industrial Replacement Boiler Tubes (straight, rifled XID, bent, custom)",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "pressure-part",
+  "equipment": [
+    "heat-transfer-tubes-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Boiler Tubes page directly with WebFetch (text).",
+  "specifications": [
+    {
+      "metric": "Standard straight tube length",
+      "basis": "Boiler Tubes page 'Types of Boiler Tubes': Standard Straight Boiler Tubes available from 50-510 in",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "inches",
+      "low": 50,
+      "high": 510
+    },
+    {
+      "metric": "Rifled (XID) tube length",
+      "basis": "Boiler Tubes page: Rifled tubes available from 50-366 in; internal grooves increase heat transfer by creating turbulence",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "inches",
+      "low": 50,
+      "high": 366
+    },
+    {
+      "metric": "Material",
+      "basis": "Boiler Tubes page 'OEM Quality You Can Trust'",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "material",
+      "value": "Premium ERW SA178 steel produced to ASME Boiler & Pressure Vessel Code requirements"
+    },
+    {
+      "metric": "Heat exchanger tube bending",
+      "basis": "Boiler Tubes page Tube Fabrication: ¾-1½ in OD tubes, radius sizes 2-15½ in, stainless and mild steel",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "inch OD",
+      "low": 0.75,
+      "high": 1.5
+    },
+    {
+      "metric": "Tube replacement bending",
+      "basis": "Boiler Tubes page: hot and cold bending capabilities include 1½ up to 4 in OD",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "inch OD",
+      "low": 1.5,
+      "high": 4
+    },
+    {
+      "metric": "Other products",
+      "basis": "Boiler Tubes page Tube Replacement section",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "scope",
+      "value": "Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging"
+    },
+    {
+      "metric": "Quality documentation",
+      "basis": "Boiler Tubes page 'Certified Materials'",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "quality",
+      "value": "Material traceability, MTR documentation, non-destructive testing, ASME compliance"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+      "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+    }
+  ],
+  "notes": "Fetched Boiler Tubes page directly with WebFetch (text).",
+  "last_reviewed": "2026-11-24"
+}

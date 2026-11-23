@@ -1,0 +1,38 @@
+{
+  "id": "drawing-desuperheater-online-program-sizing-guidance-ti-p475-06-ctls-issue-4-c",
+  "title": "Desuperheater Online Program Sizing Guidance — TI-P475-06 CTLS Issue 4, combined pressure reducing/desuperheating station diagrams",
+  "diagram_type": "P&ID",
+  "description": "Instrumented PRDS station schematics for venturi/spray and steam-atomising desuperheaters: steam supply, pressure regulating control valve with pressure controller, temperature regulating control valve, check valve, cooling water, desuperheater, temperature controller, plus recommended upstream/downstream straight-run distances (A and B).",
+  "publisher": "Spirax Sarco",
+  "url": "https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/en/ti/dsh_sizing-ti-p475-06-en.ashx?rev=da7fa56dddf14745b69654a9cf6112c2",
+  "licence": "© Copyright 2024 Spirax Sarco; 'Issued for sizing only'; local regulations may restrict use.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "prv-desuperheating-station"
+  ],
+  "technologies": [
+    "pwr-cogeneration-chp"
+  ],
+  "sources": [
+    {
+      "url": "https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/en/ti/dsh_sizing-ti-p475-06-en.ashx?rev=da7fa56dddf14745b69654a9cf6112c2",
+      "source_id": "content-spiraxsarco-com-ti-dsh-sizing-ti-p475-06-en-ashx-rev-da7"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (1,307,533 bytes, 12 pages); combined PRDS diagrams and distance table verified.",
+  "last_reviewed": "2026-11-24"
+}

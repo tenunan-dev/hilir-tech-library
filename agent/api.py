@@ -87,6 +87,20 @@ def routes(tools):
     async def project(request: Request):
         return _found(tools.get_project(request.path_params["project_id"]))
 
+    async def product_list(request: Request):
+        q = request.query_params
+        return JSONResponse(tools.list_products(q.get("product_type"), q.get("manufacturer"), q.get("q")))
+
+    async def product(request: Request):
+        return _found(tools.get_product(request.path_params["product_id"]))
+
+    async def drawing_list(request: Request):
+        q = request.query_params
+        return JSONResponse(tools.list_drawings(q.get("diagram_type"), q.get("sector"), q.get("q")))
+
+    async def drawing(request: Request):
+        return _found(tools.get_drawing(request.path_params["drawing_id"]))
+
     async def register(request: Request):
         q = request.query_params
         return JSONResponse(tools.list_technology_register(q.get("code"), q.get("maturity"), q.get("q")))
@@ -155,6 +169,8 @@ def routes(tools):
         Route("/api/register/{entry_id:path}", register_entry),
         Route("/api/equipment", equipment_list), Route("/api/equipment/{equipment_id}", equipment),
         Route("/api/projects", project_list), Route("/api/projects/{project_id}", project),
+        Route("/api/products", product_list), Route("/api/products/{product_id}", product),
+        Route("/api/drawings", drawing_list), Route("/api/drawings/{drawing_id}", drawing),
         Route("/api/gaps", gaps), Route("/api/stats", stats), Route("/api/version", version),
         Route("/api/figures", figures), Route("/api/taxonomy", taxonomy),
         Route("/api/glossary", glossary), Route("/api/glossary/{term}", glossary_term),
@@ -239,6 +255,16 @@ def openapi_spec(server_url):
                 "getProject", "One project record: capacities with sources, milestones, owners, contractors, "
                 "offtakers, technologies and gaps",
                 [_param("project_id", "Project id, e.g. hornsea-2-offshore-wind-farm-uk-north-sea-orsted", where="path")], JSON_OR_404),
+            "/api/products": get("listProducts", "Vendor product catalog: product lines with printed specifications", [
+                _param("product_type", "e.g. boiler, burner, valve-train"), _param("manufacturer", "Vendor id"),
+                _param("q", "Text filter")]),
+            "/api/products/{product_id}": get("getProduct", "One product line with printed specifications and source url",
+                                              [_param("product_id", "Product id", where="path")], JSON_OR_404),
+            "/api/drawings": get("listDrawings", "Citable PFDs, P&IDs, schematics and flowsheets", [
+                _param("diagram_type", "PFD, P&ID, schematic, flowsheet or block-diagram"), SECTOR,
+                _param("q", "Text filter")]),
+            "/api/drawings/{drawing_id}": get("getDrawing", "One process drawing: scope, publisher, url and coverage",
+                                              [_param("drawing_id", "Drawing id", where="path")], JSON_OR_404),
             "/api/register": get("listTechnologyRegister", "The full technology register (400+ entries across all sectors)", [
                 _param("code", "Sector or discipline code"), _param("maturity", "Maturity filter"), _param("q", "Text filter")]),
             "/api/register/{entry_id}": get("getRegisterEntry", "One register entry by its id, which register rows carry",

@@ -1,0 +1,34 @@
+{
+  "id": "drawing-figure-3-schematic-diagram-of-advanced-sncr-applied-to-lancaster-count",
+  "title": "Figure 3 — Schematic diagram of advanced SNCR applied to Lancaster County MWC (with NOx and NH3 CEMS)",
+  "diagram_type": "schematic",
+  "description": "SNCR with IR pyrometer, two reagent injection rows, separate aqueous NH3 and dilution water tanks, NOx and NH3 CEMS and process controller; dilution water pressure control loop and aqueous ammonia flow control valve are numbered.",
+  "publisher": "U.S. EPA (NEPIS) — NOx Control Technologies Applicable to Municipal Waste Combustion",
+  "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100P73S.TXT",
+  "licence": "U.S. Government work — generally public domain in the United States.",
+  "reuse_level": "full-text-open",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100P73S.TXT",
+      "source_id": "nepis-epa-gov-exe-zypurl-cgi-dockey-p100p73s-txt"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. SEARCH-VERIFIED via WebSearch snippet reproducing the figure caption and numbered loops; EPA NEPIS text page not fetched with WebFetch in this session.",
+  "last_reviewed": "2026-11-24"
+}

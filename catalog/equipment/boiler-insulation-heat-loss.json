@@ -1,0 +1,100 @@
+{
+  "id": "boiler-insulation-heat-loss",
+  "name": "Thermal insulation / lagging and cladding for boilers and steam lines (heat-loss figures)",
+  "equipment_type": "insulation",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "MAT"
+  ],
+  "description": "Reduce heat loss from boiler surfaces, steam and condensate piping, protect personnel and maintain steam pressure/temperature; insulation also reduces condensate formation and trap load (DOE steam tip sheets, search-verified; Engineering ToolBox; TLV).",
+  "specifications": [
+    {
+      "metric": "bare steam pipe heat loss",
+      "unit": "W/m",
+      "basis": "Engineering ToolBox table for uninsulated horizontal steam pipes, still air, ambient 10-25°C; pipes 56-194 mm, temperature difference 15-150°C; min value 54 W/m at 56 mm/ΔT15, max 1,852 W/m at 194 mm/ΔT150",
+      "source": {
+        "url": "https://www.engineeringtoolbox.com/heat-loss-steam-pipes-d_255.html",
+        "source_id": "engineeringtoolbox-com-heat-loss-steam-pipes-d-255-html"
+      },
+      "value": "54 to 1,852"
+    },
+    {
+      "metric": "insulation thermal conductivity basis",
+      "unit": "W/(m·K)",
+      "basis": "fibreglass insulation assumption for Engineering ToolBox insulated-pipe heat-loss diagrams",
+      "source": {
+        "url": "https://www.engineeringtoolbox.com/heat-loss-insulated-pipes-d_1151.html",
+        "source_id": "engineeringtoolbox-com-heat-loss-insulated-pipes-d-1151-html"
+      },
+      "value": 0.036
+    },
+    {
+      "metric": "worked insulated-pipe heat loss",
+      "unit": "W/m",
+      "basis": "2 1/2 inch steel pipe, 80 mm fibreglass, fluid 90°C, ambient 10°C (ΔT 80°C), read from 80 mm diagram",
+      "source": {
+        "url": "https://www.engineeringtoolbox.com/heat-loss-insulated-pipes-d_1151.html",
+        "source_id": "engineeringtoolbox-com-heat-loss-insulated-pipes-d-1151-html"
+      },
+      "value": "~20"
+    },
+    {
+      "metric": "TD trap cap insulating cover effect",
+      "unit": "qualitative",
+      "basis": "Spirax Sarco energy-loss tutorial: insulating cap on thermodynamic trap under no-load conditions",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps",
+        "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-energy-losses-in"
+      },
+      "value": "steam loss can be halved"
+    },
+    {
+      "metric": "bimetallic trap lagging restriction",
+      "unit": "m",
+      "basis": "Spirax Sarco thermostatic trap page",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps",
+        "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermostatic-stea"
+      },
+      "value": "requires 1-3 m unlagged cooling leg"
+    }
+  ],
+  "vendors": [
+    "svi-bremco"
+  ],
+  "sources": [
+    {
+      "url": "https://www.engineeringtoolbox.com/heat-loss-steam-pipes-d_255.html",
+      "source_id": "engineeringtoolbox-com-heat-loss-steam-pipes-d-255-html"
+    },
+    {
+      "url": "https://www.engineeringtoolbox.com/heat-loss-insulated-pipes-d_1151.html",
+      "source_id": "engineeringtoolbox-com-heat-loss-insulated-pipes-d-1151-html"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps",
+      "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-energy-losses-in"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps",
+      "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermostatic-stea"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Cladding material/thickness and weatherproofing specifications for outdoor steam lines in Southeast Asia",
+      "why": "No fetched source gives cladding material or gauge guidance",
+      "next_action": "Find boiler OEM or insulation contractor specification with cladding gauge, material and fastening details."
+    },
+    {
+      "what": "Numeric heat-loss chart values for insulated HRSG/boiler casings (as opposed to pipes)",
+      "why": "Engineering ToolBox data are pipe-specific; casing losses require different geometry",
+      "next_action": "Fetch a boiler/HRSG OEM thermal performance datasheet or ASTM C680 based calculation example."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-steam-condensate.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

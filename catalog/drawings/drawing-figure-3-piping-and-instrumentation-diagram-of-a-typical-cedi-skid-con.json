@@ -1,0 +1,34 @@
+{
+  "id": "drawing-figure-3-piping-and-instrumentation-diagram-of-a-typical-cedi-skid-con",
+  "title": "Figure 3 — Piping and instrumentation diagram of a typical CEDI skid — Continuous electrodeionization for boiler feed water",
+  "diagram_type": "P&ID",
+  "description": "P&ID for a continuous electrodeionization (CEDI) skid showing simple controls versus a conventionally regenerated demineralizer; includes RO/CEDI process considerations and typical makeup/feed water quality specifications for high-pressure boilers.",
+  "publisher": "Xylem / Evoqua Water Technologies (white paper)",
+  "url": "https://prod.xylem.com/siteassets/brand/evoqua/resources/white-papers/continuous-electrodeionization-for-boiler-feed-water.pdf",
+  "licence": "Copyright © Xylem/Evoqua; manufacturer white paper.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://prod.xylem.com/siteassets/brand/evoqua/resources/white-papers/continuous-electrodeionization-for-boiler-feed-water.pdf",
+      "source_id": "prod-xylem-com-white-papers-continuous-electrodeionization-for-b"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (406,770 bytes, 5 pages); Figure 3 P&ID caption and text verified.",
+  "last_reviewed": "2026-11-24"
+}

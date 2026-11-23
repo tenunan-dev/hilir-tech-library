@@ -1,0 +1,41 @@
+{
+  "id": "john-zink-air-heaters-recuperators",
+  "name": "Air Heaters & Recuperators",
+  "manufacturer": "john-zink",
+  "product_type": "heat-exchanger",
+  "equipment": [
+    "air-preheater-boiler"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched John Zink Products page directly with WebFetch (markdown). This is a process air-heater/recuperator category, NOT a boiler air preheater; no standalone boiler air-preheater spec page was found. See gaps.",
+  "specifications": [
+    {
+      "metric": "Function",
+      "basis": "John Zink Products page product card for Air Heaters & Recuperators",
+      "source": {
+        "url": "https://www.johnzink.com/products",
+        "source_id": "johnzink-com-products"
+      },
+      "unit": "qualitative",
+      "value": "Advanced combustion solutions for indirect-fired process gas heating applications"
+    },
+    {
+      "metric": "Characteristics",
+      "basis": "John Zink Products page product card",
+      "source": {
+        "url": "https://www.johnzink.com/products",
+        "source_id": "johnzink-com-products"
+      },
+      "unit": "qualitative",
+      "value": "Clean air contact with products and high efficiency in heat transfer"
+    }
+  ],
+  "url": "https://www.johnzink.com/products",
+  "sources": [
+    {
+      "url": "https://www.johnzink.com/products",
+      "source_id": "johnzink-com-products"
+    }
+  ],
+  "notes": "Fetched John Zink Products page directly with WebFetch (markdown). This is a process air-heater/recuperator category, NOT a boiler air preheater; no standalone boiler air-preheater spec page was found. See gaps.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tlv-com-steam-info-steam-theory",
+  "name": "TLV",
+  "url": "https://www.tlv.com/steam-info/steam-theory",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "TLV",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Steam-theory index read; no feedwater/blowdown-specific article found. Product categories listed in site navigation read at https://www.tlv.com/global/TI/steam- Evidence: https://www.tlv.com/steam-info/steam-theory"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "nepis-epa-gov-exe-zypurl-cgi-dockey-p100p73s-txt",
+  "name": "Figure 3 — Schematic diagram of advanced SNCR applied to Lancaster County MWC (with NOx and NH3 CEMS)",
+  "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100P73S.TXT",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "U.S. EPA (NEPIS) — NOx Control Technologies Applicable to Municipal Waste Combustion",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. SEARCH-VERIFIED via WebSearch snippet reproducing the figure caption and numbered loops; EPA NEPIS text page not fetched with WebFetch in this session. Evidence: https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100P73S.TXT"
+}

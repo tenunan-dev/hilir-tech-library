@@ -1,0 +1,113 @@
+{
+  "id": "cleaver-brooks-max-fire-series-hrsg-boiler",
+  "name": "Max-Fire Series HRSG Boiler",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "boiler",
+  "equipment": [
+    "boiler-hrsg"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "specifications": [
+    {
+      "metric": "Exhaust gas flow",
+      "basis": "Product bullet and Technical Data table 'Exhaust Gas Flows (lb/hr) Up to 1,000,000'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "lb/hr (up to)",
+      "value": 1000000
+    },
+    {
+      "metric": "Steam generation",
+      "basis": "Product bullet 10,000-500,000 lb/hr; Technical Data 'Steam Flows Up to 500,000'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "lb/hr",
+      "low": 10000,
+      "high": 500000
+    },
+    {
+      "metric": "Design pressure",
+      "basis": "Product bullet: Design pressure up to 1,800 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "psig (up to)",
+      "value": 1800
+    },
+    {
+      "metric": "Steam temperature",
+      "basis": "Product bullet and Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "deg F (up to)",
+      "value": 1050
+    },
+    {
+      "metric": "Duct firing temperature",
+      "basis": "Technical Data table; membrane/water-cooled furnace allows firing up to 2800 F without high-maintenance refractory",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "deg F (up to)",
+      "value": 2800
+    },
+    {
+      "metric": "Gas turbine size",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "MW",
+      "low": 3,
+      "high": 25
+    },
+    {
+      "metric": "NOx with SCR",
+      "basis": "Product bullet: stack emissions available to less than 2 ppm NOx with SCR",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "ppm NOx (less than, available)",
+      "value": 2
+    },
+    {
+      "metric": "HRSG efficiency claim",
+      "basis": "Product narrative: '>80% efficiency compared to 56% for traditional technologies'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "% (greater than)",
+      "value": 80
+    },
+    {
+      "metric": "Models",
+      "basis": "Product narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "model designations",
+      "value": "MF (O-style), MFA (A-style), VL (O-style), VLA (A-style)"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/max-fire-series",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/max-fire-series",
+      "source_id": "cleaverbrooks-com-product-max-fire-series"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown).",
+  "last_reviewed": "2026-11-24"
+}

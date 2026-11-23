@@ -1,0 +1,26 @@
+{
+  "id": "prod-edam-honeywell-com-conductivity-pmt-hps-power-plant-feedwat",
+  "name": "Figure 1 — Ion exchange / reverse osmosis makeup-water treatment schematic — Boiler Feedwater Treatment applic",
+  "url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/hps/products/pmc/process-instruments/analytical-instruments%26sensors/conductivity/pmt-hps-Power-Plant-Feedwater-Treatment-Application-Note.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Honeywell Process Solutions",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. SEARCH-VERIFIED via WebSearch snippet, including Figure 1 caption and ion-exchange/RO labels; direct PDF not fetched with WebFetch (PDF content type unsupported Evidence: https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/hps/products/pmc/process-instruments/analytical-instruments%26sensors/conductivity/pmt-hps-Power-Plant-Feedwater-Treatment-Application-Note.pdf"
+}

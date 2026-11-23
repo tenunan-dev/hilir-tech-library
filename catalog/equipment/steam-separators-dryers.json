@@ -1,0 +1,110 @@
+{
+  "id": "steam-separators-dryers",
+  "name": "Steam separators / dryers and steam headers (moisture carryover limits)",
+  "equipment_type": "separator",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Remove entrained water droplets from steam that traps cannot catch; protect turbines, control valves and heat-transfer equipment from erosion, water hammer and reduced heat transfer; provide dry steam at point of use (TLV; Spirax Sarco).",
+  "specifications": [
+    {
+      "metric": "entrainment onset velocity",
+      "unit": "m/s",
+      "basis": "TLV: at flow velocities as low as 10 m/s, directional changes and pressure differentials can entrain bottom condensate",
+      "source": {
+        "url": "https://www.tlv.com/steam-info/steam-theory/other/separators",
+        "source_id": "tlv-com-other-separators"
+      },
+      "value": 10
+    },
+    {
+      "metric": "entrained droplet transport velocity",
+      "unit": "m/s",
+      "basis": "TLV separator article",
+      "source": {
+        "url": "https://www.tlv.com/steam-info/steam-theory/other/separators",
+        "source_id": "tlv-com-other-separators"
+      },
+      "value": "up to 30"
+    },
+    {
+      "metric": "TLV cyclone separator efficiency",
+      "unit": "%",
+      "basis": "vendor claim using all four separation principles (mechanical impediment, velocity, directional change, impingement)",
+      "source": {
+        "url": "https://www.tlv.com/steam-info/steam-theory/other/separators",
+        "source_id": "tlv-com-other-separators"
+      },
+      "value": "up to 98"
+    },
+    {
+      "metric": "steam dryness fraction definition",
+      "unit": "%",
+      "basis": "TLV basics; boilers do not generate 100% dry saturated steam without superheater",
+      "source": {
+        "url": "https://www.tlv.com/steam-info/steam-theory/steam-basics/wet-steam-dry-steam",
+        "source_id": "tlv-com-steam-basics-wet-steam-dry-steam"
+      },
+      "value": "dryness = 100% - % entrained water by mass"
+    },
+    {
+      "metric": "sodium in steam indicating mechanical carryover",
+      "unit": "ppb",
+      "basis": "Chemical Engineering steam purity limit; saturated-steam sampling used to check drum mechanical carryover / failed separators",
+      "source": {
+        "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
+        "source_id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat"
+      },
+      "value": "<=2"
+    },
+    {
+      "metric": "steam velocity in superheated mains",
+      "unit": "m/s",
+      "basis": "Spirax Sarco: possible with superheated steam if pressure drop acceptable, allowing smaller distribution pipelines",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheating-theory",
+        "source_id": "spiraxsarco-com-desuperheating-basic-desuperheating-theory"
+      },
+      "value": "up to 100"
+    }
+  ],
+  "vendors": [
+    "spirax-sarco"
+  ],
+  "sources": [
+    {
+      "url": "https://www.tlv.com/steam-info/steam-theory/other/separators",
+      "source_id": "tlv-com-other-separators"
+    },
+    {
+      "url": "https://www.tlv.com/steam-info/steam-theory/steam-basics/wet-steam-dry-steam",
+      "source_id": "tlv-com-steam-basics-wet-steam-dry-steam"
+    },
+    {
+      "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
+      "source_id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheating-theory",
+      "source_id": "spiraxsarco-com-desuperheating-basic-desuperheating-theory"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Generic steam dryer moisture carryover limit (e.g. % by mass) for each boiler type",
+      "why": "Fetched pages give separator performance and steam purity impurity limits, not a single dryness/carryover acceptance value",
+      "next_action": "Locate turbine OEM (GE Vernova/Siemens) steam purity specification or ASME steam purity guidance and cite exact wetness limit with basis."
+    },
+    {
+      "what": "Separator pressure drop and capacity curves",
+      "why": "TLV states pressure loss must be checked but gives no curve in the read article",
+      "next_action": "Fetch TLV Valve Calculator / product datasheets for cyclone separator models."
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-steam-condensate.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

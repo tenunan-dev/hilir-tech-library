@@ -1,0 +1,26 @@
+{
+  "id": "processautomation-imiplc-com-additional-solutions-silencers",
+  "name": "IMI Process Automation",
+  "url": "https://processautomation.imiplc.com/products/additional-solutions/silencers",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "IMI Process Automation",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Read short product page; severe-service power/oil&gas/chemical claim. Evidence: https://processautomation.imiplc.com/products/additional-solutions/silencers"
+}

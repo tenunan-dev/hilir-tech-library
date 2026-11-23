@@ -1,0 +1,91 @@
+{
+  "id": "burgess-manning-ceco-environmental-preset-vent-silencers",
+  "name": "Preset Vent Silencers",
+  "manufacturer": "burgess-manning-ceco-environmental",
+  "product_type": "boiler",
+  "equipment": [],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Burgess-Manning Preset Vent Silencer product page. Applications include steam boilers and HRSGs.",
+  "specifications": [
+    {
+      "metric": "Inlet diameter",
+      "basis": "Printed under Design on Burgess-Manning Preset Vent Silencers page",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "unit": "in",
+      "low": "2",
+      "high": "12"
+    },
+    {
+      "metric": "Casing diameter",
+      "basis": "Printed under Design",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "unit": "in",
+      "low": "8",
+      "high": "24"
+    },
+    {
+      "metric": "Standard design temperature",
+      "basis": "Printed under Design",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "unit": "deg C",
+      "value": "250"
+    },
+    {
+      "metric": "Material",
+      "basis": "Printed under Design",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "unit": "n/a",
+      "value": "Carbon steel ASTM/ASME"
+    },
+    {
+      "metric": "Typical acoustic performance",
+      "basis": "Printed as 'Enhanced Noise Attenuation: Up to 50+ dB' with explicit note 'no guaranteed noise attenuation'",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "unit": "dB",
+      "high": "50+"
+    },
+    {
+      "metric": "Acoustic principles",
+      "basis": "Printed under Acoustic Principles",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "unit": "n/a",
+      "value": "Transformative and Absorptive"
+    },
+    {
+      "metric": "Construction",
+      "basis": "Printed under Design and Options",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "unit": "n/a",
+      "value": "cylindrical, fully welded, self-supported on discharge pipe; butt-weld or flanged inlet"
+    }
+  ],
+  "url": "https://burgessmanning.com/preset-vent-silencers/",
+  "sources": [
+    {
+      "url": "https://burgessmanning.com/preset-vent-silencers/",
+      "source_id": "burgessmanning-com-preset-vent-silencers"
+    }
+  ],
+  "notes": "Read in full: Burgess-Manning Preset Vent Silencer product page. Applications include steam boilers and HRSGs.",
+  "last_reviewed": "2026-11-24"
+}

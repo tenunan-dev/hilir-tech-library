@@ -1,0 +1,95 @@
+{
+  "id": "cleaver-brooks-flx-watertube-boiler",
+  "name": "FLX Watertube Boiler",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "boiler",
+  "equipment": [
+    "boiler-gas-water-tube-package"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "specifications": [
+    {
+      "metric": "Input capacity",
+      "basis": "Product bullet 1,500-25,000 MBH Input; Technical Data table 1,500-25,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx",
+        "source_id": "cleaverbrooks-com-product-flx"
+      },
+      "unit": "MBH",
+      "low": 1500,
+      "high": 25000
+    },
+    {
+      "metric": "Design pressure",
+      "basis": "Product bullet: 15-250 psig Design Pressure",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx",
+        "source_id": "cleaverbrooks-com-product-flx"
+      },
+      "unit": "psig",
+      "low": 15,
+      "high": 250
+    },
+    {
+      "metric": "Boiler horsepower",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx",
+        "source_id": "cleaverbrooks-com-product-flx"
+      },
+      "unit": "HP",
+      "low": 36,
+      "high": 600
+    },
+    {
+      "metric": "Thermal efficiency",
+      "basis": "Product narrative: efficiency ratings up to 81% (steam) and 85% (hot water); 5-pass bent water-tube design",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx",
+        "source_id": "cleaverbrooks-com-product-flx"
+      },
+      "unit": "%",
+      "low": 81,
+      "high": 85
+    },
+    {
+      "metric": "NOx emissions",
+      "basis": "Product bullet 'Available to <9 ppm NOx'; table lists Standard, <30, <20, <9",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx",
+        "source_id": "cleaverbrooks-com-product-flx"
+      },
+      "unit": "ppm NOx (option, less than)",
+      "value": 9
+    },
+    {
+      "metric": "Turndown",
+      "basis": "Product Overview attribute list",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx",
+        "source_id": "cleaverbrooks-com-product-flx"
+      },
+      "unit": "ratio",
+      "value": "15:1 standard / 10:1 controlled emissions"
+    },
+    {
+      "metric": "Number of passes",
+      "basis": "Technical Data table and narrative (5-pass cross-flow water tube design)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx",
+        "source_id": "cleaverbrooks-com-product-flx"
+      },
+      "unit": "passes",
+      "value": 5
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/flx",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/flx",
+      "source_id": "cleaverbrooks-com-product-flx"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown).",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "purolite-ecolab",
+  "name": "Purolite (Ecolab)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Purolite (Ecolab) is named as a supplier on vendor pages read during the gas-boiler supporting-systems sweep.",
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a product page read in the 2026-11-24 supporting-systems sweep; country and detailed roles were not stated on the read page."
+}

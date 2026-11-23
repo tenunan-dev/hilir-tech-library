@@ -1,0 +1,95 @@
+{
+  "id": "cleaver-brooks-m5m-watertube-boiler",
+  "name": "M5M Watertube Boiler",
+  "manufacturer": "cleaver-brooks",
+  "product_type": "boiler",
+  "equipment": [
+    "boiler-gas-water-tube-package"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "specifications": [
+    {
+      "metric": "Input capacity",
+      "basis": "Product bullet 2,000-6,000 MBH Input; Technical Data table 2,000-6,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": "MBH",
+      "low": 2000,
+      "high": 6000
+    },
+    {
+      "metric": "Design pressure (steam)",
+      "basis": "Product bullet: 15-500 psig Design Pressure (Steam)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": "psig",
+      "low": 15,
+      "high": 500
+    },
+    {
+      "metric": "Design pressure (hot water)",
+      "basis": "Product bullet: 160-250 psig Design Pressure (Hot Water)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": "psig",
+      "low": 160,
+      "high": 250
+    },
+    {
+      "metric": "Boiler horsepower",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": "HP",
+      "low": 48,
+      "high": 143
+    },
+    {
+      "metric": "NOx emissions",
+      "basis": "Product bullet 'Standard sub-20 ppm NOx'; narrative <20 ppm NOx without FGR and <10 CO as standard on natural gas",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": "ppm NOx (less than; standard, without FGR)",
+      "value": 20
+    },
+    {
+      "metric": "Turndown",
+      "basis": "Product Overview attribute list; linkageless premix burner",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": ":1 (up to)",
+      "value": 5
+    },
+    {
+      "metric": "Design temperature options",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": "deg F",
+      "value": "235, 340, 355, 380, 410"
+    }
+  ],
+  "url": "https://cleaverbrooks.com/product/m5m",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/m5m",
+      "source_id": "cleaverbrooks-com-product-m5m"
+    }
+  ],
+  "notes": "Fetched product page directly with WebFetch (markdown).",
+  "last_reviewed": "2026-11-24"
+}

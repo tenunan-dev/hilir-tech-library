@@ -1,0 +1,34 @@
+{
+  "id": "drawing-schematic-diagram-of-a-cfb-boiler-fig-1-3-combustion-and-gasification",
+  "title": "Schematic diagram of a CFB boiler (Fig. 1.3) — Combustion and Gasification in Fluidized Beds",
+  "diagram_type": "schematic",
+  "description": "Labelled CFB boiler loop: boiler/furnace, cyclone, loop seal, external heat exchanger, primary air windbox, sorbent and coal silo, ash cooler/classifier, backpass and gas/solid flow arrows.",
+  "publisher": "Taylor & Francis / CRC Press (book preview; authors of Combustion and Gasification in Fluidized Beds)",
+  "url": "https://s3-euw1-ap-pe-df-pch-content-store-p.s3.eu-west-1.amazonaws.com/9780429075018/67b1bae2-6a8e-4c6a-93dd-f5de42ce55c9/preview.pdf",
+  "licence": "Publisher preview; copyrighted book material. Signed URL may expire; use stable book/DOI page instead.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://s3-euw1-ap-pe-df-pch-content-store-p.s3.eu-west-1.amazonaws.com/9780429075018/67b1bae2-6a8e-4c6a-93dd-f5de42ce55c9/preview.pdf",
+      "source_id": "s3-euw1-ap-pe-df-pch-content-store-p-s3-eu-west-1-amazonaws-com"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. SEARCH-VERIFIED: figure caption and labels captured from WebSearch results of the publisher preview; signed URL not re-downloaded in this session.",
+  "last_reviewed": "2026-11-24"
+}

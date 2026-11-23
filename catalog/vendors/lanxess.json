@@ -1,0 +1,23 @@
+{
+  "id": "lanxess",
+  "name": "LANXESS",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "LANXESS is named as a supplier on vendor pages read during the gas-boiler supporting-systems sweep.",
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://lanxess.com/en/company/organization/business-units/liquid-purification-technologies"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a vendor page read in the 2026-11-24 sweep; country and detailed roles were not stated on the read page."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tlv-com-problems-cavitation-in-condensate-pumps",
+  "name": "TLV — pump speed example affecting local pressure drop",
+  "url": "https://www.tlv.com/steam-info/steam-theory/problems/cavitation-in-condensate-pumps",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "TLV",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. TLV cavitation article: higher speed raises impeller velocity and local pressure drop Evidence: https://www.tlv.com/steam-info/steam-theory/problems/cavitation-in-condensate-pumps"
+}

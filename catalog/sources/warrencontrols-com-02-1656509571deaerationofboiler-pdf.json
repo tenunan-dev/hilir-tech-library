@@ -1,0 +1,26 @@
+{
+  "id": "warrencontrols-com-02-1656509571deaerationofboiler-pdf",
+  "name": "Warren Controls",
+  "url": "https://www.warrencontrols.com/wp-content/uploads/2024/02/1656509571DeaerationofBoiler.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Warren Controls",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Search-verified snippet only: spring-loaded nozzles spray water into steam atmosphere; full PDF fetch blocked by CAPTCHA. Evidence: https://www.warrencontrols.com/wp-content/uploads/2024/02/1656509571DeaerationofBoiler.pdf"
+}

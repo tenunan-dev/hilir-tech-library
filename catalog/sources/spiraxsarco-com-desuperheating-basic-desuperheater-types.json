@@ -1,0 +1,28 @@
+{
+  "id": "spiraxsarco-com-desuperheating-basic-desuperheater-types",
+  "name": "Spirax Sarco — single-nozzle spray desuperheater minimum approach / turndow",
+  "url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheater-types",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Spirax Sarco basic desuperheater types; radial and axial single-nozzle types Evidence: https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheater-types"
+}

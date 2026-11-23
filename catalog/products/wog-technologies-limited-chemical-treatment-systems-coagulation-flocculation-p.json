@@ -1,0 +1,51 @@
+{
+  "id": "wog-technologies-limited-chemical-treatment-systems-coagulation-flocculation-p",
+  "name": "Chemical Treatment Systems (coagulation/flocculation, pH neutralisation, oxidation, precipitation, dosing skids)",
+  "manufacturer": "wog-technologies-limited",
+  "product_type": "service",
+  "equipment": [
+    "boiler-chemical-cleaning-passivation"
+  ],
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full. IMPORTANT MAPPING CAVEAT: this page addresses industrial water/wastewater chemical treatment, not boiler chemical cleaning or passivation. No dedicated OEM boiler chemical cleaning/passivation product or spec sheet was read. GAP recorded.",
+  "specifications": [
+    {
+      "metric": "System type",
+      "basis": "Capabilities list printed verbatim on WOG Chemical Treatment Systems page",
+      "source": {
+        "url": "https://woggroup.com/chemical-treatment-systems/",
+        "source_id": "woggroup-com-chemical-treatment-systems"
+      },
+      "unit": "n/a",
+      "value": "Coagulation and Flocculation Units; pH Neutralization Systems; Chemical Oxidation Systems; Precipitation and Complexation; Disinfection Systems; Integrated Dosing Skids"
+    },
+    {
+      "metric": "Control logic",
+      "basis": "Printed under 'Integrated Dosing Skids'",
+      "source": {
+        "url": "https://woggroup.com/chemical-treatment-systems/",
+        "source_id": "woggroup-com-chemical-treatment-systems"
+      },
+      "unit": "n/a",
+      "value": "flow-paced, pH-based and ORP-based"
+    },
+    {
+      "metric": "Compliance referenced",
+      "basis": "Printed claim on page; no numeric limit printed",
+      "source": {
+        "url": "https://woggroup.com/chemical-treatment-systems/",
+        "source_id": "woggroup-com-chemical-treatment-systems"
+      },
+      "unit": "n/a",
+      "value": "US EPA, EU REACH and other global regulatory standards"
+    }
+  ],
+  "url": "https://woggroup.com/chemical-treatment-systems/",
+  "sources": [
+    {
+      "url": "https://woggroup.com/chemical-treatment-systems/",
+      "source_id": "woggroup-com-chemical-treatment-systems"
+    }
+  ],
+  "notes": "Read in full. IMPORTANT MAPPING CAVEAT: this page addresses industrial water/wastewater chemical treatment, not boiler chemical cleaning or passivation. No dedicated OEM boiler chemical cleaning/passivation product or spec sheet was read. GAP recorded.",
+  "last_reviewed": "2026-11-24"
+}

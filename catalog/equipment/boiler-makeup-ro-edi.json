@@ -1,0 +1,205 @@
+{
+  "id": "boiler-makeup-ro-edi",
+  "name": "Reverse osmosis (RO), electrodeionisation (EDI/CEDI) and demineralisation for boiler make-up; conductivity/sil",
+  "equipment_type": "water-treatment",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Produce high-purity make-up water with very low dissolved solids, silica and CO2 to allow high cycles of concentration, low blowdown and safe operation of high-pressure drums and superheaters. RO is the main corrective pre-treatment after softening; EDI/CEDI polishes RO permeate without acid/caustic regenerants.",
+  "specifications": [
+    {
+      "metric": "RO membrane element permeate recovery without fouling",
+      "unit": "% of raw feed per membrane",
+      "basis": "CEA BG04 §2.9 (single membrane pass, no recirculation)",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "low": 10,
+      "high": 15
+    },
+    {
+      "metric": "RO system recovery with concentrate recirculation",
+      "unit": "%",
+      "basis": "CEA BG04 §2.9; achieved without significant fouling especially with softened feed",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "low": 75,
+      "high": 85
+    },
+    {
+      "metric": "Optimum RO recovery with pre-softening",
+      "unit": "%",
+      "basis": "CEA BG04 §2.10 balance of permeate quality and volume",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "low": 75,
+      "high": 80
+    },
+    {
+      "metric": "Membrane useful life",
+      "unit": "years",
+      "basis": "CEA BG04 §2.7 commercial-grade thin-film polymeric membranes; up to 10 years if feed is base-exchange softened",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "low": 3,
+      "high": 5
+    },
+    {
+      "metric": "Example RO permeate TDS at 99% rejection of 400 ppm feed",
+      "unit": "ppm",
+      "basis": "CEA BG04 §2.11 worked illustration (400 ppm raw feed, 99% rejection)",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Terion S MkII salt rejection",
+      "unit": "%",
+      "basis": "Veolia product page: combined high-pressure RO membranes and CEDI",
+      "source": {
+        "url": "https://www.veoliawatertechnologies.com/en/technologies/terion-s",
+        "source_id": "veoliawatertechnologies-com-technologies-terion-s"
+      },
+      "value": ">99.5"
+    },
+    {
+      "metric": "Terion S MkII product water resistivity",
+      "unit": "MOhm·cm",
+      "basis": "Veolia Terion S MkII product page",
+      "source": {
+        "url": "https://www.veoliawatertechnologies.com/en/technologies/terion-s",
+        "source_id": "veoliawatertechnologies-com-technologies-terion-s"
+      },
+      "value": "up to 18"
+    },
+    {
+      "metric": "Terion S MkII flow-rate range",
+      "unit": "L/h",
+      "basis": "Veolia product page; 7 standard models, container-transportable",
+      "source": {
+        "url": "https://www.veoliawatertechnologies.com/en/technologies/terion-s",
+        "source_id": "veoliawatertechnologies-com-technologies-terion-s"
+      },
+      "low": 110,
+      "high": 4000
+    },
+    {
+      "metric": "PROflex EDI footprint reduction",
+      "unit": "% smaller than separate RO and EDI systems",
+      "basis": "Veolia PROflex EDI product page",
+      "source": {
+        "url": "https://www.watertechnologies.com/products/reverse-osmosis/ro-edi-treatment-systems-proflex-edi-systems",
+        "source_id": "watertechnologies-com-reverse-osmosis-ro-edi-treatment-systems-p"
+      },
+      "value": "up to 40"
+    },
+    {
+      "metric": "Boiler-water silica limit — shell boiler",
+      "unit": "ppm",
+      "basis": "CEA BG04 Table 2; note 11 ratio of silica to caustic alkalinity <0.4:1 prevents silicate scale",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": "150 max"
+    },
+    {
+      "metric": "Boiler-water dissolved solids (TDS) limit — shell boiler",
+      "unit": "ppm",
+      "basis": "CEA BG04 Table 2 (or manufacturer's standard); coil boiler = manufacturer's standard",
+      "source": {
+        "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+        "source_id": "cea-org-uk-07-cea-bg04-pdf"
+      },
+      "value": "3500 max"
+    },
+    {
+      "metric": "Conductance-to-TDS conversion",
+      "unit": "TDS ppm per µS/cm at 25 °C",
+      "basis": "Spirax Sarco, Controlling TDS in the Boiler Water",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+        "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+      },
+      "value": 0.7
+    },
+    {
+      "metric": "Temperature coefficient of boiler-water conductivity",
+      "unit": "% of the 25 °C value per 1 °C temperature rise",
+      "basis": "Spirax Sarco; automatic temperature compensation essential if pressure varies widely",
+      "source": {
+        "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+        "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Feedwater contaminant targets for 900 psig boiler (ASME consensus quoted by Veolia)",
+      "unit": "ppb",
+      "basis": "Veolia Water Handbook Ch.11 quoting ASME Consensus for Industrial Boilers; pH 8.5–9.5",
+      "source": {
+        "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+        "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+      },
+      "value": "<7 ppb O2 / 20 ppb Fe / 15 ppb Cu"
+    }
+  ],
+  "vendors": [
+    "veolia-water-technologies",
+    "lanxess",
+    "suez"
+  ],
+  "sources": [
+    {
+      "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
+      "source_id": "cea-org-uk-07-cea-bg04-pdf"
+    },
+    {
+      "url": "https://www.veoliawatertechnologies.com/en/technologies/terion-s",
+      "source_id": "veoliawatertechnologies-com-technologies-terion-s"
+    },
+    {
+      "url": "https://www.watertechnologies.com/products/reverse-osmosis/ro-edi-treatment-systems-proflex-edi-systems",
+      "source_id": "watertechnologies-com-reverse-osmosis-ro-edi-treatment-systems-p"
+    },
+    {
+      "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
+      "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
+    },
+    {
+      "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
+      "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Specific make-up-water conductivity/silica targets for HRSG high-pressure drums and once-through steam generators",
+      "why": "CEA BG04 excludes energy-producer water-tube boilers; no ASME/EPRIguideline table was fetched",
+      "next_action": "Fetch ASME Consensus / EPRI guideline table or an OEM (GE Vernova, Siemens) HRSG water-chemistry datasheet and record drum-pressure-specific limits"
+    },
+    {
+      "what": "Siemens water-treatment product page",
+      "why": "Not retrieved in this session",
+      "next_action": "Fetch Siemens water treatment / RO-EDI product page and record vendor specs"
+    },
+    {
+      "what": "GE Vernova water chemistry guidance for HRSG",
+      "why": "No GE Vernova page fetched",
+      "next_action": "Fetch GE Vernova HRSG water-chemistry or service page"
+    }
+  ],
+  "notes": "Generated from the 2026-11-24 supporting-feedwater.json evidence sweep; every spec cites a page read that day.",
+  "last_reviewed": "2026-11-24"
+}

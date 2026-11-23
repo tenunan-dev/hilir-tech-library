@@ -1,0 +1,34 @@
+{
+  "id": "drawing-sncr-boiler-gas-path-configuration-figure-1-2-and-urea-sncr-process-fl",
+  "title": "SNCR Boiler Gas Path Configuration (Figure 1.2) and Urea SNCR Process Flow Diagram (Figure 1.9) — Chapter 1 Selective Noncatalytic Reduction",
+  "diagram_type": "PFD",
+  "description": "Boiler gas path with urea injectors in the furnace/convection pass (platen and secondary superheaters, pendant reheater, economizer) and a modular urea-SNCR process flow with urea unloading skid, storage tanks, circulation module, injection zone metering and dilution water.",
+  "publisher": "U.S. Environmental Protection Agency",
+  "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch1.pdf",
+  "licence": "U.S. Government work — generally public domain in the United States.",
+  "reuse_level": "full-text-open",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch1.pdf",
+      "source_id": "epa-gov-documents-cs4-2ch1-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Figure captions and text obtained via WebSearch snippet (search-verified); a companion SNCR cost-manual PDF at epa.gov was downloaded (985,798 bytes, 71 pages) and its Figure 1.9 'Urea SNCR Process Flow Diagram' and equipment list verified: https://www.epa.gov/sites/default/files/2017-12/documents/s",
+  "last_reviewed": "2026-11-24"
+}

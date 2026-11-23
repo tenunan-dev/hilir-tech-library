@@ -16,6 +16,8 @@ import technologies
 import vendors
 import equipment
 import projects
+import products
+import drawings
 
 ROOT = library.ROOT
 GENERIC_NAMES = {"operators", "operator", "various", "research", "major drilling contractors", "service companies",
@@ -158,6 +160,23 @@ def build_graph(root=None, corpus=None):
         for t in rec.get("technologies", []):
             if t in card_nodes:
                 g.edge(card_nodes[t], f"equipment:{rec['id']}", "uses_equipment")
+
+    # Product catalog and process drawings: products attach to their vendor and the equipment
+    # classes they supply; drawings attach to the equipment and technology cards they depict.
+    for rec in products.load_products(root / "catalog" / "products"):
+        pid = g.node(f"product:{rec['id']}", "product", rec["name"],
+                     manufacturer=rec["manufacturer"], product_type=rec.get("product_type"))
+        g.edge(pid, f"vendor:{rec['manufacturer']}", "supplied_by")
+        for eid in rec.get("equipment", []):
+            g.edge(pid, f"equipment:{eid}", "documents")
+    for rec in drawings.load_drawings(root / "catalog" / "drawings"):
+        did = g.node(f"drawing:{rec['id']}", "drawing", rec["title"],
+                     diagram_type=rec.get("diagram_type"), publisher=rec.get("publisher"), url=rec["url"])
+        for eid in rec.get("equipment", []):
+            g.edge(did, f"equipment:{eid}", "depicts")
+        for tid in rec.get("technologies", []):
+            if tid in card_nodes:
+                g.edge(did, card_nodes[tid], "depicts")
 
     # Projects and operating plants: one node per record, uses_technology edges to the cards it
     # deploys and built_by edges to the vendor-directory parties it names.

@@ -1,0 +1,39 @@
+{
+  "id": "drawing-figure-1-flow-sheet-of-process-model-without-supplementary-firing-flex",
+  "title": "Figure 1. Flow sheet of process model without supplementary firing — Flexible operation of combined cycle gas turbine power plants with supplementary firing",
+  "diagram_type": "flowsheet",
+  "description": "EBSILON process-model flowsheet of a dual-pressure HRSG combined cycle (ALSTOM GT26, methane) used to compare GT part-load, full-load duct firing, ambient compensation, and duct firing during GT shutdown; includes fresh-air fan for HRSG inlet when firing with the GT off.",
+  "publisher": "Encabo Cáceres, Montañés & Nord, Journal of Power Technologies 98(9) (2018) 188–197",
+  "url": "https://papers.itc.pw.edu.pl/index.php/JPT/article/download/1056/825/0",
+  "licence": "Open Access Journal (publisher-stated); specific CC licence not confirmed on the PDF.",
+  "reuse_level": "full-text-with-attribution",
+  "sectors": [
+    "PWR",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "superheater-boiler",
+    "economizer-boiler"
+  ],
+  "technologies": [
+    "pwr-combined-cycle-hrsg"
+  ],
+  "sources": [
+    {
+      "url": "https://papers.itc.pw.edu.pl/index.php/JPT/article/download/1056/825/0",
+      "source_id": "papers-itc-pw-edu-pl-825-0"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram is held at the publisher's URL, not in this repository",
+      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
+      "next_action": "Open the url and respect the stated licence before reusing the figure."
+    }
+  ],
+  "notes": "PDF/document URL verified reachable; caption and text extracted 2026-11-24. Direct PDF URL downloaded (1,172,480 bytes, 10 pages) using an unverified TLS context; Figure 1 caption verified.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "watertechnologies-com-boiler-water-feedwater-treatment-chemicals",
+  "name": "Veolia Water Technologies & Solutions — Sulphite vs organic scavenger pressure split",
+  "url": "https://www.watertechnologies.com/products/boiler-water/feedwater-treatment-chemicals",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Veolia Water Technologies & Solutions",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Veolia feedwater-treatment-chemicals product page; Ch.11 states sulfite typically below 1000 psig and hydrazine/organic at 1000 psig and above Evidence: https://www.watertechnologies.com/products/boiler-water/feedwater-treatment-chemicals"
+}
