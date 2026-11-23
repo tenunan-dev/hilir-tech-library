@@ -99,8 +99,16 @@ def _concept_coverage(groups, row):
 
 
 def term_df(db, term):
-    """How many index rows carry `term` — 0 when the index does not hold it at all."""
-    row = db.execute("SELECT df FROM term_df WHERE term = ?", (term,)).fetchone()
+    """How many index rows carry `term` — 0 when the index does not hold it at all.
+
+    A 0 for every term also covers an index built before `term_df` existed (a stale
+    build/library.db with newer code): the rare pool then stays empty and search behaves as it did
+    before, instead of raising `no such table`.
+    """
+    try:
+        row = db.execute("SELECT df FROM term_df WHERE term = ?", (term,)).fetchone()
+    except sqlite3.Error:
+        return 0
     return row[0] if row else 0
 
 

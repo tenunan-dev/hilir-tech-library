@@ -149,6 +149,14 @@ def test_rare_groups_ignores_terms_the_index_does_not_hold(db):
     assert library.rare_groups(library.concept_groups("electrolyzer zzzznotaword"), db) == []
 
 
+def test_search_survives_an_index_without_the_frequency_table(db):
+    """A stale build/library.db (built before term_df) with newer code must degrade, not raise."""
+    db.execute("DROP TABLE term_df")
+    db.commit()
+    assert library.rare_groups(library.concept_groups("electrolyzer"), db) == []
+    assert library.search("electrolyzer", db=db), "search still answers without the rare pool"
+
+
 def test_search_keeps_every_kind_in_the_result_set(tmp_path):
     """One global rank pool let the corpus bury all cards; each kind now contributes its own."""
     corpus = tmp_path / "corpus"
