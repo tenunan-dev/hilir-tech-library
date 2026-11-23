@@ -2,7 +2,7 @@
 
 A curated catalog of public sources on oil, gas, petrochemical and energy technologies, built so AI agents can find, cite and read them.
 
-It holds **484 catalog sources** across 10 sectors (the eight energy sectors, IDC — data centres, and WWT — wastewater and water reuse) and 6 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of **289 collected documents**; **368 technology cards** covering the technology register; a **vendor directory of 491 records**; an **equipment catalog of 22 equipment classes**; and a **project catalog of 239 named projects and operating plants** (owners, contractors, capacities, milestones). A search index, a Postgres layer, an MCP server, a REST API and a web interface expose all of it to agents and people.
+It holds **526 catalog sources** across 10 sectors (the eight energy sectors, IDC — data centres, and WWT — wastewater and water reuse) and 8 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of **253 collected documents** (one per source url — 207 open, 46 full-text-restricted); **391 technology cards** covering the 406-entry technology register; a **vendor directory of 537 records**; an **equipment catalog of 37 equipment classes**; and a **project catalog of 295 named projects and operating plants** (owners, contractors, capacities, milestones). A search index, a Postgres layer, an MCP server, a REST API and a web interface expose all of it to agents and people.
 
 ## Documentation
 
@@ -75,7 +75,7 @@ Terms findings are recorded as labels — e.g. terms-forbid-copying sites carry 
 
 - Simplest: load `catalog/catalog.jsonl` and filter by `sectors`, `disciplines`, `regions` or `reuse_level`.
 - For browsing or a Claude Project: attach `catalog/index/*.md`.
-- Search and retrieval: run the MCP server in `agent/` — **18 tools** for search and reading, technology cards, vendors, equipment classes, **projects**, gaps, library stats, and (`sql_query`, `db_catalog`, `graph_neighbors`) a read-only SQL window and knowledge graph over the Postgres layer — optionally with embeddings for semantic search.
+- Search and retrieval: run the MCP server in `agent/` — **26 tools** for search and reading, technology cards, vendors, equipment classes, **projects**, gaps, library stats, and (`sql_query`, `db_catalog`, `graph_neighbors`) a read-only SQL window and knowledge graph over the Postgres layer — optionally with embeddings for semantic search.
 - Cloud agents and browsers: **two doors behind hilir Access**.
   - MCP + REST: `https://techlib-api.hilir.app` (`POST /mcp`, `/api/*`, OpenAPI at `/api/openapi.json`).
   - Web UI: `https://techlib.hilir.app` (browser sign-in at `https://access.hilir.app`).
@@ -91,8 +91,8 @@ Terms findings are recorded as labels — e.g. terms-forbid-copying sites carry 
 
 ## Roadmap
 
-1. **Catalog (done):** taxonomy, schema, 400 records, generated indexes.
+1. **Catalog (done):** taxonomy, schema, 526 records, generated indexes.
 2. **Verification and corpus (ongoing):** records verified against live terms; collectors in `collectors/` (RSS, arXiv, OSTI, manual inbox) write licence-tagged Markdown into `corpus/<id>/`. See `collectors/README.md`.
-3. **Agent access (done):** SQLite FTS5 keyword index with optional embeddings, an MCP server with 18 tools, a REST API and an HTML interface, hosted at techlib.hilir.app / techlib-api.hilir.app behind hilir Access (open-licence text only).
+3. **Agent access (done):** SQLite FTS5 keyword index with optional embeddings, an MCP server with 26 tools, a REST API and an HTML interface, hosted at techlib.hilir.app / techlib-api.hilir.app behind hilir Access (open-licence text only).
 4. **Postgres layer (done):** pgvector, full-text search and a knowledge graph on Neon, reloaded from the files by `tools/load_postgres.py` and queried read-only by agents (`sql_query`) and the web console as role `og_mcp_read`. See [docs/POSTGRES.md](docs/POSTGRES.md).
-5. **Vendors and equipment (in progress):** 491 vendor records and 22 equipment classes; the next families (compressors, turbines, pumps beyond the first of each, then exchangers) arrive on the owner's word (decision #33).
+5. **Vendors and equipment (ongoing):** 537 vendor records and 37 equipment classes (boilers, compressors, pumps, turbines, data-centre electrical and ten wastewater classes); the next families arrive on the owner's word (decision #33).

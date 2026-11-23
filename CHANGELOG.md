@@ -8,6 +8,45 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.24.1] — 2026-11-24 — Full derived-artefact refresh; living docs corrected
+
+No code and no content change: every derived output is regenerated against the 253-document corpus,
+and the living documents that still quoted pre-2026.11.23 numbers are corrected. The previous
+release edited the corpus; this one removes the possibility of a reader (or an importer) working
+from stale outputs.
+
+### Derived artefacts regenerated
+
+| Artefact | Result |
+| --- | --- |
+| `catalog/*.jsonl`, `catalog/index/*` (`tools/build.py`) | 526 sources valid, 391 cards, 537 vendors, 37 equipment, 295 projects |
+| `build/library.db` (`agent/library.py build`) | 526 sources / 253 documents / 13,192 chunks (restricted text included locally) |
+| `build/embed-cache.db` (`agent/embed.py --incremental`) | 14,978 rows, 0 missing, all reused from cache |
+| Neon (`tools/load_postgres.py --embeddings sqlite`) | 253 documents / 11,876 chunks / 13,662 vectors / 4,355 nodes / 13,028 edges |
+| `build/public` (`agent/export_public.py`) | 207 open documents exported, 46 restricted excluded |
+| `build/dataverse/*.csv` (`tools/export_dataverse.py`) | 253 documents (207 with text, 46 metadata-only), 526 sources, 391 technologies, 406 register rows, 615 gaps, 26 taxonomy codes |
+
+### Archived
+
+- **`build/dataverse-2026-11-21/`** — the outgoing Dataverse export (six CSVs, generated when the
+  corpus held 289 documents), kept verbatim with an `README-ARCHIVED.md` so the owner can tell which
+  set a Power Platform import used. `build/` is gitignored; the archive lives beside the current
+  export.
+- The CSVs are regenerated **without `--include-restricted`** — DATAVERSE.md's default and decision
+  24: restricted documents get a metadata row and no body. The 2026-11-21 set had used
+  `--include-restricted`; if the target environment is personal and unreadable by colleagues,
+  re-run that command and the restriction is restored.
+
+### Living documents corrected
+
+`README.md` (484 sources / 289 documents / 368 cards / 491 vendors / 22 equipment / 239 projects /
+"18 tools" → 526 / 253 / 391 / 537 / 37 / 295 / 26), `AGENTS.md` (the "where the work stands" table
+and its live-verification line re-dated to 2026-11-24), and `docs/MAINTAINER_MANUAL.md` (the
+duplicate-document row now describes the url key rather than the sha256 skip).
+
+No document was rewritten past recognition, so nothing was moved into `docs/archive/`; the archive
+gained only the superseded CSV set above.
+
 ## [2026.11.23.4] — 2026-11-23 — One corpus document per source URL
 
 The 2026-11-23 tool-surface test left one data item for the owner (N3): the NETL MVA 2017 manual in

@@ -29,22 +29,23 @@
 - Do not touch auth internals, DNS, or application content without an explicit owner ask.
   Estate record: `hilir-access/docs/STATUS.md`.
 
-### Where the work stands (2026-11-12)
+### Where the work stands (2026-11-24)
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
-| Catalog sources | 505 valid, 505 unique ids |
-| Technology cards | 368 (401-entry register; WWT sector added 2026-11-13 — licensor-first PFD rule) |
-| Vendor records | 491 |
-| Equipment classes | 22 (boilers, compressors/pumps/turbines, DC UPS/CRAH/busway/MV switchgear, and ten WWT classes: membranes, DAF, aeration, dewatering, UV, ozone, digesters, biogas upgraders, evaporator-crystallisers, clarifiers) |
-| Projects and plants | 239 |
-| Corpus documents | 289, each with a hand-written summary (15,115 chunks) |
+| Catalog sources | 526 valid, 526 unique ids |
+| Technology cards | 391 (406-entry register; WWT sector added 2026-11-13 — licensor-first PFD rule) |
+| Vendor records | 537 |
+| Equipment classes | 37 (boilers, compressors/pumps/turbines, DC UPS/CRAH/busway/MV switchgear, and ten WWT classes: membranes, DAF, aeration, dewatering, UV, ozone, digesters, biogas upgraders, evaporator-crystallisers, clarifiers) |
+| Projects and plants | 295 |
+| Corpus documents | 253, **one per source url** (decision 40), each with a hand-written summary — 207 open, 46 full-text-restricted (13,192 chunks locally, 11,876 entering Neon) |
 
-Verified live 2026-11-12: Neon reloaded 2026-11-13 (505 sources / 491 vendors / 368 cards / 22 equipment /
-239 projects / 15,115 chunks / 4,451 nodes / 13,002 edges / 16,740 vectors) and both containers re-deployed from
-CI `images` run 43119783444 (ui sha256:8b8766ee…, api sha256:b869892e…, both healthy as user
-`library`); VPS gate `mygis 303, techlib-origin 403, tlea-origin 403` green. Standing main
-effort is source discovery (`docs/SOURCE_DISCOVERY_PLAN.md`, decision #30); the next equipment
+Verified live 2026-11-24: Neon reloaded (526 sources / 537 vendors / 391 cards / 37 equipment /
+295 projects / 406 register entries / 253 documents / 11,876 chunks / 4,355 nodes / 13,028 edges /
+13,662 vectors) and both containers re-shipped from local images (api
+`sha256:d2aa37872594…`, ui `sha256:d0625c4bbea7…`, healthy); VPS gate `mygis 303,
+techlib-origin 403, tlea-origin 403` green; `pytest -q tests` 1,437 passed, 13 skipped. Standing
+main effort is source discovery (`docs/SOURCE_DISCOVERY_PLAN.md`, decision #30); the next equipment
 families wait on the owner (decision #33). Open owner items and the session log are in
 `docs/STATUS.md`.
 

@@ -160,4 +160,4 @@ Make the smallest fix that works, add or update an offline test with a fixture c
 | Nothing written, no error | Empty bodies are skipped: the text extractor found no article in the page. Inspect the HTML; the site may need its own adapter or the manual inbox |
 | Most collected documents off topic | The source query is too broad (see "Tuning the arXiv search"). Do not commit; narrow the query and rerun |
 | CI fails on "Generated files are up to date" | Run `python tools/build.py` and commit `catalog/` |
-| Duplicate documents not written | Expected: identical text is skipped by SHA-256 |
+| Duplicate documents not written | Expected: a document is skipped when its text **or its source url** is already stored — `agent/urlnorm.py::url_key` ignores scheme, `www.`, a trailing slash, the fragment and an arXiv version suffix (decision 40). `python tools/build.py` fails if two indexed documents share a key |
