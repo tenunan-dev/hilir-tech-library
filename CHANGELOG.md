@@ -49,6 +49,9 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
   (`agent/library.py`) and seeded into **`og.search_concept`** by the loader. One group today:
   `carbon = carbon, co2`.
 - `agent/technologies.search_text(card)` — the card's index text, one string for both paths.
+- **`docs/RESPONSE-TL-S1_2026-11-23.md`** — the written response to the finding: reproduction, where
+  the reported diagnosis and its proposed fix do not hold (measured), root cause, what changed,
+  verification, and the recorded limitation.
 - Subscript folding: `CO₂` tokenises like `CO2` on both engines.
 - Tests: concept coverage and vocabulary bridging on the SQLite fixture; a parity test that asserts
   the acceptance query on both layers plus the card's full text in the Postgres index.
