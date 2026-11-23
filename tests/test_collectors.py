@@ -81,6 +81,21 @@ def test_rss_adapter_writes_document_once(corpus, monkeypatch):
     assert common.write_document(rec, title, url, body, published) is None  # duplicate by hash
 
 
+def test_same_source_url_is_stored_once_though_the_extraction_differs(corpus):
+    """The 2026-11-23 defect: a second extraction of the same PDF differs in whitespace, so the
+    body sha256 differs and corpus/ kept both copies (12 documents, ~1,900 duplicate chunks).
+    The url identifies the document, so the second copy is refused."""
+    rec = record()
+    first = common.write_document(rec, "Report", "https://example.org/report.pdf", "Line one.\n\nLine two.")
+    assert first is not None
+    assert common.write_document(rec, "Report", "https://example.org/report.pdf", "Line  one.\n\nLine  two.") is None
+    # scheme, case, "www.", a trailing slash and the fragment are the same document
+    for variant in ("https://www.example.org/report.pdf", "HTTP://EXAMPLE.ORG/report.pdf",
+                    "https://example.org/report.pdf/", "https://example.org/report.pdf#page=2"):
+        assert common.write_document(rec, "Report", variant, "Other text entirely.") is None, variant
+    assert common.write_document(rec, "Other", "https://example.org/other.pdf", "Other text entirely.") is not None
+
+
 def test_restricted_documents_carry_use_note(corpus):
     rec = record(reuse_level="full-text-restricted", licence="proprietary", permitted_use="personal-non-commercial")
     path = common.write_document(rec, "Brochure", "https://example.org/b", "Some text")

@@ -8,6 +8,47 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.23.4] — 2026-11-23 — One corpus document per source URL
+
+The 2026-11-23 tool-surface test left one data item for the owner (N3): the NETL MVA 2017 manual in
+the corpus twice. Re-checking the app's open-task list found the item **understated** — a corpus-wide
+scan found **12** documents stored twice under the same source URL, and live `search` returned both
+copies in one result set. Data-only release: no Worker or container deploy (the live server reads
+Neon).
+
+### Fixed
+
+- **12 duplicate corpus documents removed** (1,702 duplicate open-licence chunks): NETL MVA 2017 and
+  Cost & Performance Baseline Vol 1, IEA *CCUS in Clean Energy Transitions*, DOE/NPC Dual Challenge
+  Ch 8, DOE SAF *Review of Technical Pathways*, Global CCS Institute CO₂ shipping, NSTA wells
+  decommissioning, three arXiv papers and two LEMIGAS SCOG papers. In every pair the copy kept is the
+  one with the proper title and the more complete extraction; the dropped copies' unique lines were
+  extraction artifacts (mangled equations, mojibake), never content.
+
+### Changed
+
+- **The collector stores one document per source URL** (`collectors/common.py`): `url_key` ignores
+  scheme, case, a leading `www.`, a trailing slash and the fragment, so a re-extraction of the same
+  PDF is refused instead of written a second time. Previously only the body sha256 was compared, and
+  re-extraction changes whitespace. Replacing a revised edition at the same URL now means removing
+  the old file and its manifest line first (decision 40).
+- **`tools/build.py` fails a build** in which two indexed documents share a URL
+  (`agent/library.py::duplicate_documents`), so a hand-added copy cannot reach a publish.
+
+### Published
+
+- Rebuilt index (277 documents / 13,238 chunks, of which 1,316 belong to restricted documents and
+  never enter Neon), embeddings reused from cache, Neon reloaded: **277 documents / 11,922 chunks /
+  13,708 vectors** = 13,624 − 1,702, exactly the duplicate chunks. Live: `library_stats` 277/11,922,
+  `count(*)` = `count(distinct url)`, one copy per search result.
+
+### Tests
+
+- New `tests/test_corpus.py` — the live corpus holds one document per url, the check reports a
+  planted duplicate, and `corpus/_inbox` staging never counts; `tests/test_collectors.py` — a
+  re-extraction of the same URL is refused while scheme/case/`www.`/slash/fragment variants are the
+  same document. `pytest -q tests` → **1,434 passed, 13 skipped**.
+
 ## [2026.11.23.3] — 2026-11-23 — Tool surface: bounded `list_gaps`, a complete `db_catalog`, and routing that names every tool
 
 All 26 tools re-tested live against the 2026-11-19 findings document; the record is

@@ -254,6 +254,25 @@ def tag_text(meta, labels):
     return " ".join(codes + [labels.get(c, "") for c in codes] + [COUNTRIES.get(meta.get("country"), "")])
 
 
+def duplicate_documents(corpus=None):
+    """Source documents stored twice: indexed files that share a url, mapped url -> [paths].
+
+    The collector refuses a second copy of a url (collectors/common.py), so a group here means a
+    file was added by hand or predates that guard. The library indexes one document per source, and
+    a duplicate puts the same passage in two ranking slots.
+    """
+    corpus = pathlib.Path(corpus or CORPUS)
+    by_url = {}
+    for path in sorted(corpus.glob("*/*.md")):
+        if path.parent.name.startswith("_"):
+            continue
+        meta, _ = read_document(path)
+        url = (meta.get("url") or "").strip()
+        if url:
+            by_url.setdefault(url, []).append(str(path.relative_to(corpus.parent)))
+    return {url: paths for url, paths in by_url.items() if len(paths) > 1}
+
+
 def build(db_path=None, corpus=None):
     corpus = pathlib.Path(corpus or CORPUS)
     db_path = pathlib.Path(db_path or DB_PATH)

@@ -23,6 +23,7 @@ import jsonschema
 import yaml
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "agent"))
+import library  # noqa: E402
 import technologies  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -381,8 +382,10 @@ def main():
                                           {r.get("id") for r in records})
     errors += eq_errors
     projects, proj_errors = load_projects({v["id"] for v in vendors}, {c["id"] for c in cards},
-                                          {r.get("id") for r in records})
+                                         {r.get("id") for r in records})
     errors += proj_errors
+    for url, paths in library.duplicate_documents().items():
+        errors.append(f"corpus document stored twice ({url}): {' and '.join(paths)}")
     if errors:
         print("\n".join(errors))
         print(f"{len(errors)} validation errors")

@@ -201,8 +201,36 @@ def known_hashes():
     return {json.loads(line)["sha256"] for line in MANIFEST.read_text(encoding="utf-8").splitlines() if line}
 
 
+def url_key(url):
+    """What identifies a stored document: the scheme, the case, a leading "www.", a trailing
+    slash and the fragment are ignored, so the same source page is one document."""
+    parts = urllib.parse.urlsplit((url or "").strip())
+    host = parts.netloc.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    path = parts.path.rstrip("/") or "/"
+    return f"{host}{path}" + (f"?{parts.query}" if parts.query else "")
+
+
+def known_urls():
+    if not MANIFEST.exists():
+        return set()
+    keys = set()
+    for line in MANIFEST.read_text(encoding="utf-8").splitlines():
+        if line:
+            stored = json.loads(line).get("url")
+            if stored:
+                keys.add(url_key(stored))
+    return keys
+
+
 def write_document(rec, title, url, body, published=None, extra=None):
-    """Write one document under corpus/<source id>/ unless identical text is already stored.
+    """Write one document under corpus/<source id>/ unless it is already stored.
+
+    A document is already stored when its text is identical (body sha256) **or** its source URL is:
+    two extraction runs of the same PDF differ in whitespace, so the digest differs while the
+    document does not, and corpus/ carried both copies until 2026-11-23. To replace a document
+    (a revised edition at the same URL), remove its file and its manifest line first.
 
     Returns the path written, or None for a duplicate or empty document.
     """
@@ -210,7 +238,7 @@ def write_document(rec, title, url, body, published=None, extra=None):
     if not body:
         return None
     digest = hashlib.sha256(body.encode("utf-8")).hexdigest()
-    if digest in known_hashes():
+    if digest in known_hashes() or url_key(url) in known_urls():
         return None
     meta = {
         "source_id": rec["id"],
