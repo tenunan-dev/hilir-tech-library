@@ -975,6 +975,10 @@ def tables_doc() -> dict:
             {"name": "search_concept", "signature": "table: concept text, term text",
              "does": "the query-side concept groups the search expands through, seeded from "
                      "catalog/search-concepts.yaml"},
+            {"name": "search_term", "signature": "table: term text, df int",
+             "does": "document frequency per term, copied from the baked index by the loader; a "
+                     "query term at or below 1% of records (floor 8) is treated as a qualifier and "
+                     "forms the rare-concept pool, so a code like KS-1 or MDEA leads its result"},
             {"name": "refresh_similarity", "signature": "k int, min_sim float",
              "does": "rebuilds similar_to edges (write path, loader only)"},
         ],

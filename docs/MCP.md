@@ -67,9 +67,13 @@ contributes its own candidate pool to the reciprocal-rank fusion, and a record c
 query's concepts outranks one that repeats a single word. So `q=carbon capture amine` returns
 *Amine solvent post-combustion capture* first even though that card is written in CO2. Query the
 concepts you want answered and keep the query short: every extra word is a concept a record must
-also cover. A bare product code is the one case to qualify — `q=KS-1 solvent` finds the card (the
-supplier and process names are indexed) but the vector pool interleaves other solvent cards ahead of
-it; `q=KS-1 amine solvent` puts it first.
+also cover.
+
+A word that is **rare in the library** — a product or process code such as `KS-1`, `MDEA`,
+`Sulfinol`, `Benfield` — acts as a *qualifier*: it forms a third ranking pool, so records that carry
+it rank above records that merely share the common words. `q=KS-1 solvent` returns the amine card
+first, and `q=MDEA` returns amine acid gas removal. Rarity is measured (1% of records, floor 8), not
+a hand-written list, so a code you have not seen before behaves the same way.
 
 `kind` narrows **inside** the ranking on both layers (the SQL function `hybrid_search_kind`), so
 `kind=equipment` returns equipment records rather than whatever survived a global top-k. A query

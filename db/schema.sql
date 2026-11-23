@@ -352,6 +352,17 @@ CREATE TABLE IF NOT EXISTS search_concept (
     PRIMARY KEY (concept, term)
 );
 
+-- Document frequency per term across everything searchable, in the same raw-token form the query
+-- is tokenised to. It is the signal that separates a rare qualifier — a product or process code,
+-- "KS-1", "Benfield", "Sulfinol" — from an ordinary domain word, and it feeds hybrid_search's
+-- rare-concept pool. The loader copies it from the baked index (agent/library.py build), so both
+-- search paths decide rarity from the same numbers; absent rows mean "not rare" (unknown or
+-- common), which is the safe reading.
+CREATE TABLE IF NOT EXISTS search_term (
+    term text PRIMARY KEY,
+    df   integer NOT NULL
+);
+
 -- Hybrid search over passages, cards, vendor records, equipment classes, projects and catalog
 -- sources: reciprocal rank fusion of full-text and vector ranks. qvec may be NULL (keyword only);
 -- the optional sector/discipline/region/reuse_level filters mirror the SQLite search exactly:
@@ -405,6 +416,23 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
         SELECT 'project', p.id, p.name, p.tsv, p.embedding, p.sector_codes, NULL::text, NULL::text, NULL::text[]
         FROM project p
     ),
+    -- Every pool draws from `keep`, so a filter cannot drift between them.
+    keep AS (
+        SELECT i.* FROM items i
+        WHERE (sector IS NULL OR sector = ANY (i.sectors))
+          AND (discipline IS NULL OR (
+                i.kind IN ('chunk', 'source')
+                AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
+                            AND st.kind = 'discipline' AND st.code = discipline)))
+          AND (region IS NULL OR (
+                i.kind IN ('chunk', 'source')
+                AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
+                            AND st.kind = 'region' AND st.code = region)))
+          AND (reuse_level IS NULL OR (
+                (i.kind IN ('chunk', 'source') AND i.src_reuse = reuse_level)
+                OR (i.kind IN ('technology', 'vendor', 'equipment', 'project') AND reuse_level = 'full-text-open')))
+          AND (kind_filter IS NULL OR i.kind = kind_filter)
+    ),
     -- Query terms (subscript digits folded, so CO₂ tokenises like CO2), each replaced by its
     -- concept group; a word in no group is its own concept.
     qtok AS (
@@ -424,9 +452,30 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
         ) e
     ),
     qconcept AS (SELECT concept, array_agg(DISTINCT term) AS terms FROM qexp GROUP BY concept),
+    -- Per-concept document frequency: how many searchable records carry the concept at all. A
+    -- rare concept is a *qualifier* — "KS-1", "Benfield", "Sulfinol", "cryogenic" — and the record
+    -- that carries it is very likely the answer, even when its vector neighbourhood is a different
+    -- topic. Measured over the whole corpus by the loader into og.search_term.
+    qdf AS (
+        SELECT qc.concept, qc.terms,
+               (SELECT min(st.df) FROM search_term st WHERE st.term = ANY (qc.terms)) AS df
+        FROM qconcept qc
+    ),
+    corpus_size AS (SELECT count(*) AS n FROM items),
     tq AS (SELECT to_tsquery('english',
                    string_agg('(' || array_to_string(terms, ' | ') || ')', ' | ' ORDER BY concept)) AS query
            FROM qconcept),
+    -- The rare subset of the query (a NULL query when every concept is common, so the pool dies).
+    -- Production corpus 2026-11-23: product codes sit at 0.03–0.8% of records, ordinary domain
+    -- words at 3–27%, so 1% (floor 8) separates them; the floor keeps small corpora usable.
+    -- `df BETWEEN 1 AND ...` matters: an unknown term (or a search_term table that has not been
+    -- filled yet) is NOT rare, so the pool stays empty instead of doubling the keyword pool.
+    rq AS (
+        SELECT to_tsquery('english',
+                   string_agg('(' || array_to_string(terms, ' | ') || ')', ' | ' ORDER BY concept)) AS query
+        FROM qdf, corpus_size
+        WHERE qdf.df BETWEEN 1 AND greatest(8, corpus_size.n / 100)
+    ),
     -- one rank pool per kind: 15k passages must not crowd cards, vendors, equipment and
     -- sources out of the candidate set (each kind contributes up to 50 candidates to the fusion).
     -- Coverage leads the order, density breaks the tie: the query is an implicit conjunction,
@@ -441,42 +490,29 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
                                         DESC,
                                         ts_rank_cd(i.tsv, tq.query) DESC,
                                         i.ref) AS r
-            FROM items i, tq
+            FROM keep i, tq
             WHERE i.tsv @@ tq.query
-              AND (kind_filter IS NULL OR i.kind = kind_filter)
-              AND (sector IS NULL OR sector = ANY (i.sectors))
-              AND (discipline IS NULL OR (
-                    i.kind IN ('chunk', 'source')
-                    AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
-                                AND st.kind = 'discipline' AND st.code = discipline)))
-              AND (region IS NULL OR (
-                    i.kind IN ('chunk', 'source')
-                    AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
-                                AND st.kind = 'region' AND st.code = region)))
-              AND (reuse_level IS NULL OR (
-                    (i.kind IN ('chunk', 'source') AND i.src_reuse = reuse_level)
-                    OR (i.kind IN ('technology', 'vendor', 'equipment', 'project') AND reuse_level = 'full-text-open')))
+        ) ranked WHERE r <= 50
+    ),
+    -- The third pool: records carrying a rare query concept, ranked by how strongly they carry it.
+    -- Fusion sums pools, so this is what stops a common word's vector neighbourhood from outvoting
+    -- the one record that actually names the code the user typed (2026-11-23: "KS-1 solvent" put
+    -- the amine card keyword-1st but 4th overall, behind solvent-deasphalting cards).
+    rare AS (
+        SELECT kind, ref, r FROM (
+            SELECT i.kind, i.ref,
+                   row_number() OVER (PARTITION BY i.kind
+                                      ORDER BY ts_rank_cd(i.tsv, rq.query) DESC, i.ref) AS r
+            FROM keep i, rq
+            WHERE rq.query IS NOT NULL AND i.tsv @@ rq.query
         ) ranked WHERE r <= 50
     ),
     vec AS (
         SELECT kind, ref, r FROM (
             SELECT i.kind, i.ref,
                    row_number() OVER (PARTITION BY i.kind ORDER BY i.embedding <=> qvec) AS r
-            FROM items i
+            FROM keep i
             WHERE qvec IS NOT NULL AND i.embedding IS NOT NULL
-              AND (kind_filter IS NULL OR i.kind = kind_filter)
-              AND (sector IS NULL OR sector = ANY (i.sectors))
-              AND (discipline IS NULL OR (
-                    i.kind IN ('chunk', 'source')
-                    AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
-                                AND st.kind = 'discipline' AND st.code = discipline)))
-              AND (region IS NULL OR (
-                    i.kind IN ('chunk', 'source')
-                    AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
-                                AND st.kind = 'region' AND st.code = region)))
-              AND (reuse_level IS NULL OR (
-                    (i.kind IN ('chunk', 'source') AND i.src_reuse = reuse_level)
-                    OR (i.kind IN ('technology', 'vendor', 'equipment', 'project') AND reuse_level = 'full-text-open')))
         ) ranked WHERE r <= 50
     ),
     fused AS (
@@ -490,7 +526,8 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
                * (CASE WHEN u.regions IS NULL THEN 1.0 ELSE
                       greatest(CASE WHEN 'sea' = ANY (u.regions) THEN 1.25 ELSE 1.0 END,
                                CASE WHEN 'apac' = ANY (u.regions) THEN 1.15 ELSE 1.0 END) END) AS score
-        FROM (SELECT k.*, i.regions FROM (SELECT * FROM kw UNION ALL SELECT * FROM vec) k
+        FROM (SELECT k.*, i.regions FROM (SELECT * FROM kw UNION ALL SELECT * FROM vec
+                                          UNION ALL SELECT * FROM rare) k
               JOIN items i ON i.kind = k.kind AND i.ref = k.ref) u
         GROUP BY u.kind, u.ref, u.regions
     )

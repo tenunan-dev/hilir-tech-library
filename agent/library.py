@@ -98,6 +98,26 @@ def _concept_coverage(groups, row):
     return sum(1 for group in groups if any(term in haystack for term in group))
 
 
+def term_df(db, term):
+    """How many index rows carry `term` — 0 when the index does not hold it at all."""
+    row = db.execute("SELECT df FROM term_df WHERE term = ?", (term,)).fetchone()
+    return row[0] if row else 0
+
+
+def rare_groups(groups, db):
+    """The query's rare concepts — the qualifiers a user typed (a product or process code).
+
+    "Rare" is measured, not listed: a concept is rare when the least common of its terms appears
+    in at least one and no more than 1% of the index (floor 8 records). On the production corpus
+    that separates product codes (0.03–0.8% of records) from ordinary domain words (3–27%).
+    og.hybrid_search applies the same cut-off against og.search_term. A term the index does not
+    hold at all is not rare — it matches nothing, so promoting it would only add noise.
+    """
+    n = db.execute("SELECT count(*) FROM search").fetchone()[0]
+    cutoff = max(8, n // 100)
+    return [group for group in groups if 0 < min(term_df(db, t) for t in group) <= cutoff]
+
+
 
 def equipment_text(rec, card_names, vendor_names):
     """The text an equipment record is indexed and embedded by (SQLite and Postgres stay identical)."""
@@ -244,6 +264,7 @@ def build(db_path=None, corpus=None):
         CREATE TABLE vendors (id TEXT PRIMARY KEY, vendor TEXT NOT NULL, sectors TEXT NOT NULL);
         CREATE TABLE equipment (id TEXT PRIMARY KEY, record TEXT NOT NULL, sectors TEXT NOT NULL);
         CREATE TABLE projects (id TEXT PRIMARY KEY, record TEXT NOT NULL, sectors TEXT NOT NULL);
+        CREATE TABLE term_df (term TEXT PRIMARY KEY, df INTEGER NOT NULL);
     """)
     records = load_records()
     labels = taxonomy_labels()
@@ -306,6 +327,14 @@ def build(db_path=None, corpus=None):
                    (rec["id"], rec["id"], rec["name"], project_text(rec, card_names, vnames),
                     tag_text({"sectors": sectors}, labels)))
     db.execute("INSERT INTO info VALUES ('root', ?)", (str(corpus.parent),))
+    # Per-term document frequency, the same signal og.search_term carries on the Postgres path:
+    # a product code is in a handful of records, an ordinary word in thousands, and the rare-concept
+    # pool uses that ratio to let a query naming a code rank the record that carries it.
+    counts = {}
+    for title, text, tags in db.execute("SELECT title, text, tags FROM search"):
+        for tok in {t for t in re.findall(r"\w+", f"{title} {text} {tags}".lower())}:
+            counts[tok] = counts.get(tok, 0) + 1
+    db.executemany("INSERT INTO term_df VALUES (?, ?)", counts.items())
     db.commit()
     return {"sources": len(records), "documents": n_docs, "chunks": n_chunks, "technologies": len(cards),
             "vendors": len(vendor_recs), "equipment": len(equipment_recs), "projects": len(project_recs)}
@@ -349,14 +378,17 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
            db=None, embedder=None, exclude_restricted=False, query_vector=None):
     """Keyword search (BM25) fused with vector search, ranked the same way og.hybrid_search is.
 
-    Two rules shape the keyword half, and both exist because of a measured failure (2026-11-23,
-    "carbon capture amine" could not find the card named "Amine solvent post-combustion capture"):
+    Three rules shape it, each from a measured failure (2026-11-23):
 
     * The query is expanded through catalog/search-concepts.yaml, so "carbon" also searches
-      "co2" — the catalogue writes the molecule, people type the element.
+      "co2" — the catalogue writes the molecule, people type the element. "carbon capture amine"
+      could not find the card named "Amine solvent post-combustion capture" without it.
     * Rows are ordered by how many query CONCEPTS they cover, then by BM25. Counting raw words
       let a document whose title happens to hold every word outrank every card, and let cards
       that merely said "carbon" often beat the card that is the answer.
+    * A concept that is rare in the index (a product or process code: "KS-1", "MDEA") forms a
+      third pool of its own, so the record carrying it leads even when a common word in the same
+      query has a better vector neighbourhood. See rare_groups().
 
     exclude_restricted drops passages from full-text-restricted sources (catalog records stay),
     for servers that other people can reach.
@@ -388,6 +420,19 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
         if kw_pos[row["kind"]] > FUSION_POOL:
             continue
         ranked[row["rowid"]] = [row, 1.0 / (60 + kw_pos[row["kind"]])]
+    # A third pool for the query's rare concepts — the code the user typed. Fusion sums pools, so
+    # this is what keeps a common word's vector neighbourhood from outvoting the one record that
+    # names the code ("KS-1 solvent" put the amine card keyword-1st but 4th overall, 2026-11-23).
+    rare = rare_groups(concepts, db)
+    if rare:
+        rare_pos = {}
+        for row in sorted((r for r in rows if _concept_coverage(rare, r)), key=lambda r: r["rank"]):
+            rare_pos[row["kind"]] = rare_pos.get(row["kind"], 0) + 1
+            if rare_pos[row["kind"]] > FUSION_POOL:
+                continue
+            if row["rowid"] not in ranked:
+                ranked[row["rowid"]] = [row, 0.0]
+            ranked[row["rowid"]][1] += 1.0 / (60 + rare_pos[row["kind"]])
     qvec = None
     if db.execute("SELECT count(*) FROM vectors").fetchone()[0]:
         import numpy as np

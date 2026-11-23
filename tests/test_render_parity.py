@@ -49,7 +49,7 @@ def scratch_db():
     vectors.update({("vendor", v["id"]): _hash_vector(loader.library.vendor_text(v, card_names)) for v in data["vendors"]})
     vectors.update({("chunk", c["id"]): _hash_vector(c["body"]) for c in data["chunks"][:200]})
     with psycopg.connect(os.environ["TEST_DATABASE_URL"]) as conn:
-        loader.load(conn, data, nodes, edges, vectors)
+        loader.load(conn, data, nodes, edges, vectors, loader.term_df(db_path))
     yield
     db_path.unlink(missing_ok=True)
 
@@ -206,15 +206,14 @@ def test_search_ranks_the_answer_first_on_both_layers(monkeypatch):
     monkeypatch.setenv("DATABASE_URL", os.environ["TEST_DATABASE_URL"])
     try:
         pg_refs = [h["ref"] for h in pg.search_library("carbon capture amine", limit=3)]
-        # the bare product code is a keyword #1 but the vector pool interleaves solvent cards
-        # ahead of it, so membership — not position — is what the index text guarantees
-        pg_ks1 = [h["ref"] for h in pg.search_library("KS-1 solvent", kind="technology", limit=5)]
-        pg_guided = [h["ref"] for h in pg.search_library("KS-1 amine solvent", kind="technology", limit=3)]
+        # a bare product code is a qualifier: the record that carries it leads, on both layers
+        pg_ks1 = [h["ref"] for h in pg.search_library("KS-1 solvent", kind="technology", limit=3)]
+        pg_mdea = [h["ref"] for h in pg.search_library("MDEA", kind="technology", limit=3)]
     finally:
         monkeypatch.delenv("DATABASE_URL", raising=False)
     assert pg_refs[0] == "ccs-amine-post-combustion"
-    assert "ccs-amine-post-combustion" in pg_ks1
-    assert pg_guided[0] == "ccs-amine-post-combustion"
+    assert pg_ks1[0] == "ccs-amine-post-combustion"
+    assert pg_mdea[0] == "gas-amine-agr"
     assert pg.search_library("!!!", limit=3) == [], "a query with no words returns nothing, as on SQLite"
     # kind narrows inside the ranking: the SQLite path lists boiler records for this query
     assert pg.search_library("boiler blowdown", kind="equipment", limit=3), \
@@ -222,7 +221,9 @@ def test_search_ranks_the_answer_first_on_both_layers(monkeypatch):
     with psycopg.connect(os.environ["TEST_DATABASE_URL"]) as conn:
         row = conn.execute("SELECT search_text FROM og.technology WHERE id = %s",
                            ("ccs-amine-post-combustion",)).fetchone()
+        df = conn.execute("SELECT df FROM og.search_term WHERE term = 'ks'").fetchone()
     assert row and "KS-1" in row[0], "the Postgres index carries the card's full text"
+    assert df and df[0] > 0, "the loader fills the document-frequency table the rare pool reads"
 
 
 @needs_db

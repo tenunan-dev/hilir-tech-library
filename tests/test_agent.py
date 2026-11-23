@@ -104,6 +104,51 @@ def test_search_ranks_concept_coverage_and_bridges_vocabulary(tmp_path):
         [h["ref"] for h in library.search("co2", kind="technology", limit=3, db=db)]
 
 
+def test_rare_concept_pool_lets_a_code_beat_a_common_word(tmp_path):
+    """A user who types a product code gets the card, even when a common word in the same query
+    favours a different record on coverage and BM25.
+
+    "solvent ks": both cards cover one query concept, so coverage ties; BM25 prefers the card that
+    repeats "solvent". The rare-concept pool (og.hybrid_search's third pool) is what puts the card
+    that carries the rare code first — and setting the code's document frequency back to common
+    proves that is the cause, not the order of the fixture.
+    """
+    corpus = tmp_path / "corpus"
+    (corpus / "arxiv").mkdir(parents=True)
+    (corpus / "arxiv" / "pem.md").write_text(DOC, encoding="utf-8")
+    for folder in ("technologies", "vendors", "equipment", "projects"):
+        (tmp_path / "catalog" / folder).mkdir(parents=True)
+    for card in (
+        _card("ccs-code", "Capture with KS", "A licensor process named KS, offered as a package."),
+        _card("ccs-plain", "Solvent deasphalting", "Solvent solvent solvent recovery and solvent recycle."),
+    ):
+        (tmp_path / "catalog" / "technologies" / f"{card['id']}.json").write_text(json.dumps(card), encoding="utf-8")
+    library.build(tmp_path / "lib.db", corpus)
+    db = library.connect(tmp_path / "lib.db")
+
+    def set_df(**pairs):
+        db.execute("DELETE FROM term_df")
+        db.executemany("INSERT INTO term_df VALUES (?, ?)", pairs.items())
+        db.commit()
+
+    set_df(ks=1, solvent=5000, capture=900, **{"1": 8000, "with": 40, "a": 9000, "and": 9000})
+    assert library.rare_groups(library.concept_groups("solvent ks"), db) == [("ks",)]
+    assert library.search("solvent ks", kind="technology", limit=2, db=db)[0]["ref"] == "ccs-code"
+
+    set_df(ks=5000, solvent=5000, capture=900, **{"1": 8000, "with": 40, "a": 9000, "and": 9000})
+    assert library.rare_groups(library.concept_groups("solvent ks"), db) == []
+    assert library.search("solvent ks", kind="technology", limit=2, db=db)[0]["ref"] == "ccs-plain", \
+        "with no rare concept the coverage/BM25 order stands — so the pool above is the cause"
+
+
+def test_rare_groups_ignores_terms_the_index_does_not_hold(db):
+    """An unknown word is not rare: promoting it would only add noise, and it lets a schema apply
+    whose df table is empty behave exactly as before (no rare pool)."""
+    db.execute("DELETE FROM term_df")
+    db.commit()
+    assert library.rare_groups(library.concept_groups("electrolyzer zzzznotaword"), db) == []
+
+
 def test_search_keeps_every_kind_in_the_result_set(tmp_path):
     """One global rank pool let the corpus bury all cards; each kind now contributes its own."""
     corpus = tmp_path / "corpus"

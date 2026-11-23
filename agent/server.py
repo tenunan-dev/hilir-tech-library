@@ -130,8 +130,11 @@ def search(query: str, kind: str = "all", sector: str | None = None, discipline:
     groups (catalog/search-concepts.yaml — carbon = carbon + co2), and a record covering MORE of
     the query's concepts outranks one that repeats a single word often. "carbon capture amine"
     therefore returns the amine post-combustion card first even though that card is written in
-    CO2 and never says "carbon". Query the concepts you want answered; a phrasing the catalogue
-    does not use still works, but covering fewer concepts means a lower rank.
+    CO2 and never says "carbon". A term that is rare in the library — a product or process code
+    such as KS-1, MDEA or Sulfinol — acts as a qualifier: records carrying it rank above records
+    that merely share the common words, so `KS-1 solvent` returns the amine card first. Query the
+    concepts you want answered; a phrasing the catalogue does not use still works, but covering
+    fewer concepts means a lower rank.
 
     Rows are lean summaries whose extra fields vary by kind (vendors carry roles, projects carry
     status and capacities; a "gaps" count or "stub": true marks a recorded data gap — see

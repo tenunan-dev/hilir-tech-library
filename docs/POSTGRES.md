@@ -54,6 +54,15 @@ filtering a global top-k afterwards returned nothing for equipment, projects and
 curated kinds outscore them). `hybrid_search` is a wrapper that calls it with no kind filter, so a
 schema apply never breaks a running client. A query with no words returns no rows.
 
+A third pool fuses in records that carry a **rare** query concept. `og.search_term` holds the
+document frequency of every lexeme (filled by the loader with `ts_stat`, one pass over the chunk and
+curated `tsv`s); a concept whose rarest term appears in at most 1% of records (floor 8) is treated as
+a qualifier — a product or process code — and records carrying it enter the fusion with their own
+rank. That is what makes `KS-1 solvent` return the amine card first instead of the solvent cards a
+common word happens to favour: production frequencies put codes at 0.03–0.8% and ordinary domain
+words at 3–27%. An empty or unfilled `search_term` simply produces no rare pool, so the behaviour
+degrades to coverage-and-density, never to an error.
+
 
 ## The graph
 

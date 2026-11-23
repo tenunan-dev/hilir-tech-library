@@ -32,6 +32,9 @@ import technologies  # noqa: E402
 import vendors  # noqa: E402
 
 DIM = 384
+# Terms whose document frequency is above this are never "rare" under any plausible cut-off
+# (hybrid_search uses 1% of records, floor 8), so they are not worth carrying to Postgres.
+TERM_DF_CAP = 1000
 
 
 def vec_text(vec):
@@ -113,7 +116,27 @@ def card_embed_text(card):
                       " ".join(s["name"] + " " + s.get("product", "") for s in card["suppliers"]), card["maturity"]])
 
 
-def load(conn, data, nodes, edges, vectors):
+def term_df(db_path):
+    """{(term, document frequency)} from the baked index, or {} when it has none.
+
+    The index computes it over the exact text both paths search (`agent/library.py build`), with
+    raw tokens — the same form the query is tokenised to. Deliberately NOT ts_stat: that returns
+    *stemmed* lexemes ('amine' → 'amin'), and the query looks terms up raw, so half the corpus
+    would look unknown. Only terms at or below TERM_DF_CAP are worth carrying: anything above any
+    plausible rare threshold means "common", and an absent term means the same thing.
+    """
+    if not pathlib.Path(db_path).exists():
+        return {}
+    db = sqlite3.connect(db_path)
+    try:
+        return dict(db.execute("SELECT term, df FROM term_df WHERE df <= ?", (TERM_DF_CAP,)).fetchall())
+    except sqlite3.Error:
+        return {}
+    finally:
+        db.close()
+
+
+def load(conn, data, nodes, edges, vectors, df_terms=None):
     """Replace all rows. `conn` is an open psycopg connection; the caller commits."""
     cur = conn.cursor()
     # The og schema is applied once by the maintainer (psql -f db/schema.sql —
@@ -121,7 +144,7 @@ def load(conn, data, nodes, edges, vectors):
     cur.execute("SET search_path = og, public")
     # TRUNCATE list kept in sync with the og schema (db/schema.sql); written as a
     # literal so no statement is ever assembled at runtime.
-    cur.execute("TRUNCATE edge, node, register_entry, technology_gap, technology_supplier, technology_figure, technology_source, technology_alias, technology, vendor, equipment, project, chunk, document, source_tag, search_concept, source RESTART IDENTITY CASCADE")
+    cur.execute("TRUNCATE edge, node, register_entry, technology_gap, technology_supplier, technology_figure, technology_source, technology_alias, technology, vendor, equipment, project, chunk, document, source_tag, search_concept, search_term, source RESTART IDENTITY CASCADE")
     # The query-side concept groups (SRCH_CONCEPT): both search paths expand a query through them,
     # so they load with the data rather than living only in the schema file.
     for concept, terms in sorted(library.search_concepts().items()):
@@ -210,6 +233,14 @@ def load(conn, data, nodes, edges, vectors):
                     (e["src"], e["dst"], e["rel"], e["weight"], json.dumps(e["props"])))
     if any(("technology", c["id"]) in vectors for c in data["cards"]):
         cur.execute("SELECT refresh_similarity()")
+    # Document frequency, for the rare-concept pool in hybrid_search: a product code sits in a
+    # handful of records, an ordinary word in thousands. Copied from the baked index so both paths
+    # judge rarity from the same df figures (each applies its own 1%-of-records cut-off, because
+    # the Postgres store carries no restricted passages and is therefore slightly smaller).
+    df_terms = df_terms if df_terms is not None else {}
+    if df_terms:
+        cur.executemany("INSERT INTO search_term VALUES (%s, %s) ON CONFLICT (term) DO UPDATE SET df = EXCLUDED.df",
+                        sorted(df_terms.items()))
     cur.execute("ANALYZE")
     return {"sources": len(data["records"]), "documents": len(data["docs"]), "chunks": len(data["chunks"]),
             "technologies": len(data["cards"]), "vendors": len(data["vendors"]), "register": len(data["entries"]),
@@ -294,7 +325,7 @@ def main(argv=None):
         # over the WAN to Neon (per-row round trips cost the full RTT each, and the long silent
         # stretch gets the connection dropped before the transaction ever commits)
         with conn.pipeline():
-            result = load(conn, data, nodes, edges, vectors)
+            result = load(conn, data, nodes, edges, vectors, term_df(library.DB_PATH))
     print(json.dumps(result))
     return 0
 

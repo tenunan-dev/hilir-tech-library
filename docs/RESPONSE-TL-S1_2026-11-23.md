@@ -107,7 +107,8 @@ also immune to the failure mode of a weighted sum — a long document that menti
 
 ## 6. Verification
 
-- `python tools/build.py` → **526 records valid**; `pytest -q tests` → **1,427 passed, 13 skipped**.
+- `python tools/build.py` → **526 records valid**; `pytest -q tests` → **1,429 passed, 13 skipped**
+  (1,427 at the first cut, before the follow-up in §7 added its tests).
 - Neon reloaded: 526 sources / 289 documents / 13,624 open-licence chunks / 391 cards / 537 vendors /
   37 equipment / 295 projects / 406 register / 4,391 nodes / 13,205 edges / 16,902 vectors;
   `og.search_concept` seeded (`carbon:carbon`, `carbon:co2`).
@@ -125,15 +126,36 @@ search("carbon capture amine", limit=3)
   `"!!!"` → empty, `boiler blowdown` (unfiltered) → unchanged in character.
 - Containers re-shipped; VPS gate `mygis 303, techlib-origin 403, tlea-origin 403`.
 
-## 7. Residual limitation (recorded, not papered over)
+## 7. The bare-product-code limitation — closed the same day
 
-A **bare product code** is the one query class the fusion does not lead with: `KS-1` is keyword
-rank 1, but the 384-dimension bi-encoder ranks solvent-deasphalting cards above it, so
-`KS-1 solvent` returns the card 4th. Qualifying it with the concept (`KS-1 amine solvent`) puts it
-first, and the tool description, `docs/MCP.md` and the `techlib-mcp` skill now say so. Closing it
-properly needs an **IDF-weighted** keyword score — `ts_rank_cd` has no document-frequency term, which
-is also why "solvent" and "KS-1" count equally today. That is a separate change with its own cost
-(an extra scan per term) and is not bundled here.
+Recorded in the first pass and fixed in `2026.11.23.2`:
+
+| Before | After |
+|---|---|
+| `KS-1 solvent` → card 4th, behind solvent-deasphalting | `KS-1 solvent` → card **first** (0.0615) |
+| `MDEA` → amine acid gas removal, but by a thin margin | `MDEA` → amine acid gas removal, first |
+| A code the user saw on a vendor page needed the catalogue's own phrasing added | the code alone is enough |
+
+Cause: `ts_rank_cd` has no document-frequency term, so the common word ("solvent", 693 records)
+counted as much as the code ("KS-1", 13), and reciprocal-rank fusion let the common word's vector
+neighbourhood outvote the keyword pool's #1.
+
+Fix: a **third rank pool** for rare query concepts. `og.search_term` holds the document frequency of
+every term (copied from the baked index on load — the same raw-token form the query is tokenised to;
+`ts_stat` was tried first and rejected because it returns *stemmed* lexemes, so "amine" would look
+unknown beside "amin"). A concept whose rarest term appears in ≤1% of records (floor 8) is a
+qualifier, and records carrying it are fused in with their own rank. The cut-off is measured, not a
+hand-written list: production frequencies put codes at 13–130 records and ordinary domain words at
+419–3,964, so an unfamiliar code behaves the same way.
+
+Cases verified live: `KS-1 solvent` → amine post-combustion; `MDEA` → amine acid gas removal;
+`Benfield` → hot potassium carbonate; `cryogenic capture` → cryogenic capture. Regression checks:
+`carbon capture amine` and `boiler blowdown` unchanged, and `solvent` alone still returns the solvent
+cards (no rare concept, so no third pool).
+
+Remaining honest note: the rare pool is a *bonus on top of* coverage and vector fusion, not a filter.
+A query made only of codes that the library does not hold returns whatever the other pools find —
+which is the correct answer to "we do not have this".
 
 ## 8. Where to read more
 

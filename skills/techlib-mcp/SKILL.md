@@ -71,7 +71,9 @@ empty page that reads like "no data" and is not.
   query's concepts outranks one that repeats a word. Ask with the concepts you want answered —
   `carbon capture amine` ranks the amine post-combustion card first although that card is
   written in CO2 — and keep the query short: every extra word is a concept the record must
-  also cover.
+  also cover. A genuinely rare word is a **qualifier**, not another option: a product or process
+  code (`KS-1`, `MDEA`, `Sulfinol`, `Benfield`) puts the records carrying it first even beside a
+  common word, so typing a code you saw on a vendor page is enough — no need to know our phrasing.
 - An empty `find_figures` result means the cards hold no figure for that question. Answer
   with `list_gaps(field="costs"|"performance")`, not an estimate. An unknown `kind` raises
   on purpose: a silent fallback would hide the typo.

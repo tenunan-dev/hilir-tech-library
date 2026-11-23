@@ -8,6 +8,38 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.23.2] — 2026-11-23 — A product code finds its card: rare terms rank as qualifiers
+
+### Fixed
+
+- **A bare product or process code did not lead its result** — the one limitation recorded in
+  `2026.11.23`: `search("KS-1 solvent")` put the amine card 4th behind solvent-deasphalting, because
+  the keyword pool's #1 was outvoted in fusion by a common word's vector neighbourhood. `ts_rank_cd`
+  has no document-frequency term, so "solvent" (693 records) counted as much as "KS-1" (13).
+  Fixed with a **third rank pool**: concepts whose rarest term appears in at most 1% of records
+  (floor 8) are treated as qualifiers, and records carrying them enter the fusion with their own
+  rank. Rarity is measured per load into the new `og.search_term`, not listed by hand, so a code
+  nobody has thought about behaves the same way.
+
+### Added
+
+- `og.search_term(term, df)` — document frequency per term, copied from the baked index (the same
+  raw-token form the query is tokenised to; `ts_stat` was tried first and rejected because it
+  returns *stemmed* lexemes, so "amine" would look unknown next to "amin").
+- `library.build` now writes `term_df` into the SQLite index; `agent/library.rare_groups` applies the
+  same cut-off, so the two paths pick the same qualifiers from the same numbers.
+- `tools/load_postgres.term_df(path)` carries the figures to Postgres.
+
+### Verified
+
+- Production frequencies: `ks` 13, `sulfinol` 31, `benfield` 4, `mdea` 81, `cryogenic` 130 are
+  qualifiers; `amine` 419, `solvent` 640, `boiler` 590, `carbon` 3,964 are not.
+- `pytest -q tests` → **1,429 passed, 13 skipped** (including a causation test: with the code's
+  frequency set to common, the same query returns the other card).
+- Live on `techlib-api.hilir.app`: `KS-1 solvent` → `ccs-amine-post-combustion` **first** (0.0615);
+  `MDEA` → `gas-amine-agr`; `Benfield` → `gas-hot-potassium-carbonate`; `cryogenic capture` →
+  `ccs-cryogenic`; `carbon capture amine` and `boiler blowdown` unchanged.
+
 ## [2026.11.23] — 2026-11-23 — Concept-aware search: coverage ranking, one index text, per-kind pools
 
 ### Fixed
