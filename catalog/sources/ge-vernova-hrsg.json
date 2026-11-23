@@ -1,0 +1,30 @@
+{
+  "id": "ge-vernova-hrsg",
+  "name": "GE Vernova heat recovery steam generators",
+  "url": "https://www.gevernova.com/gas-power/products/hrsg",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "GE Vernova",
+  "regions": [
+    "global",
+    "na",
+    "apac",
+    "sea",
+    "me",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. HRSG configurations (horizontal drum, horizontal once-through, vertical drum), supplementary firing, SCR/CO catalysts, bypass and modular construction; more than 1,300 installed and over 2.5 million hours of once-through operation (vendor statements); plant references in Malaysia, South Korea, Taiwan, UAE and UK. Evidence: https://www.gevernova.com/gas-power/products/hrsg"
+}

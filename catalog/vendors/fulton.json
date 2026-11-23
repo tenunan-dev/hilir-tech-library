@@ -1,0 +1,31 @@
+{
+  "id": "fulton",
+  "name": "Fulton",
+  "aliases": [
+    "Fulton Boiler Works"
+  ],
+  "country": "United States",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Manufacturer of packaged steam and hot-water boilers; the product-category page was read during the boiler sweep.",
+  "products": [
+    "packaged steam boilers",
+    "hot-water boilers"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "url": "https://fulton.com/product-categories/steam-boilers/",
+  "sources": [
+    {
+      "url": "https://fulton.com/product-categories/steam-boilers/",
+      "source_id": "fulton-steam-boilers"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Individual Fulton data-sheet PDFs were not fetched, so no product specification is asserted."
+}

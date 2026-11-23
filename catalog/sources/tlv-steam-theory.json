@@ -1,0 +1,26 @@
+{
+  "id": "tlv-steam-theory",
+  "name": "TLV steam theory",
+  "url": "https://www.tlv.com/steam-info/steam-theory",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "TLV",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. TLV steam-theory reference pages, used as a secondary steam-systems cross-check alongside Spirax Sarco. Evidence: https://www.tlv.com/steam-info/steam-theory"
+}

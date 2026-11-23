@@ -1,0 +1,25 @@
+{
+  "id": "epa-cems",
+  "name": "EPA continuous emission monitoring systems",
+  "url": "https://www.epa.gov/emc/emc-continuous-emission-monitoring-systems",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "INS",
+    "HSE"
+  ],
+  "publisher_org": "US EPA",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. CEMS definition: total equipment for gas/PM concentration or emission rate using analyser measurements plus a conversion equation, graph or program; installation performance specifications and ongoing QA requirements. Evidence: https://www.epa.gov/emc/emc-continuous-emission-monitoring-systems"
+}

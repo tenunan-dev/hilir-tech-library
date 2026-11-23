@@ -1,0 +1,25 @@
+{
+  "id": "epa-boiler-mact",
+  "name": "EPA Boiler MACT — industrial, commercial and institutional boilers",
+  "url": "https://www.epa.gov/stationary-sources-air-pollution/industrial-commercial-and-institutional-boilers-and-process-0",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "US EPA",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. 40 CFR 63 Subpart DDDDD national emissions standard for hazardous air pollutants from boilers and process heaters at major sources: mercury, HCl, particulate and CO standards plus periodic tune-up requirements. Evidence: https://www.epa.gov/stationary-sources-air-pollution/industrial-commercial-and-institutional-boilers-and-process-0"
+}

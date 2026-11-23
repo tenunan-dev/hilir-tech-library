@@ -1,0 +1,29 @@
+{
+  "id": "jz-ecojet-edge",
+  "name": "ECOjet Edge+ low-NOx burner",
+  "url": "https://johnzink.com/products/powerburners/ecojet-edge-plus",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "John Zink",
+  "regions": [
+    "global",
+    "na",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Advanced fuel staging and mixing gives as low as 15 ppm NOx without FGR in select applications; natural gas to 100% hydrogen; more than 350 ECOjet installations worldwide (vendor statement). Evidence: https://johnzink.com/products/powerburners/ecojet-edge-plus"
+}

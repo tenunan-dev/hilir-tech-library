@@ -1,0 +1,26 @@
+{
+  "id": "cb-scr",
+  "name": "Cleaver-Brooks selective catalytic reduction",
+  "url": "https://cleaverbrooks.com/product/scr",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Cleaver-Brooks",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Packaged SCR offering up to 95% NOx reduction; the page states 1 ppm in its summary and 2 ppm in its body without burner rework, a discrepancy recorded as a gap rather than resolved. Evidence: https://cleaverbrooks.com/product/scr"
+}

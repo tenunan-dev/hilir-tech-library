@@ -1,0 +1,27 @@
+{
+  "id": "zeeco-scr-systems",
+  "name": "Zeeco SCR systems",
+  "url": "https://zeeco.com/scr-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Zeeco",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Single-source SCR scope: reactor, DeNOx catalyst, oxidation catalyst, reagent storage/dosing/injection, PLC, silencers, CEMS, platforms and catalyst management, for gas-engine and combined-cycle applications. Evidence: https://zeeco.com/scr-systems"
+}

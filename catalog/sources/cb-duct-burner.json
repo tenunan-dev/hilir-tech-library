@@ -1,0 +1,25 @@
+{
+  "id": "cb-duct-burner",
+  "name": "Natcom duct burner for HRSG supplementary firing",
+  "url": "https://cleaverbrooks.com/product/duct-burner",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Cleaver-Brooks",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. HRSG supplementary-firing duct burner, 10-500 MMBtu/hr, natural gas and propane; available to under 7 ppm NOx and under 50 ppm CO (attribute table also states under 0.1 lb/MMBtu). Evidence: https://cleaverbrooks.com/product/duct-burner"
+}

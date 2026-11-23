@@ -1,6 +1,6 @@
 # PCH: Petrochemicals
 
-171 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
+184 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -11,11 +11,16 @@
 | [CNKI China National Knowledge Infrastructure](https://oversea.cnki.net/) | journal | apac | paywalled | catalog-only (unverified) |
 | [CSIR-Indian Institute of Petroleum](https://www.iip.res.in/) | research-institute | apac | open | summary-only (unverified) |
 | [Dalian Institute of Chemical Physics (CAS)](https://english.dicp.cas.cn/) | research-institute | apac, global | open | summary-only (unverified) |
+| [ECOjet Edge+ low-NOx burner](https://johnzink.com/products/powerburners/ecojet-edge-plus) | oem-supplier | global, na, apac | open | summary-only |
 | [J-STAGE (Japanese journals: JPI, SCEJ)](https://www.jstage.jst.go.jp/) | journal | apac | open | full-text-restricted |
 | [Japanese Industrial Standards (JISC)](https://www.jisc.go.jp/eng/) | standards-body | apac | mixed | catalog-only (unverified) |
+| [John Zink Asia-Pacific locations](https://johnzink.com/our-business/locations/asia-pacific) | oem-supplier | apac, sea, na | open | summary-only |
 | [KIST Korea Institute of Science and Technology](https://www.kist.re.kr/eng/) | research-institute | apac | open | summary-only (unverified) |
 | [OISD Oil Industry Safety Directorate standards](https://www.oisd.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
+| [Pressurised deaerators](https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Shell boilers (Learn About Steam)](https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [Standardization Administration of China (GB standards)](https://www.sac.gov.cn/) | standards-body | apac | mixed | catalog-only (unverified) |
+| [Water tube boilers (Learn About Steam)](https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [ASEAN PATENTSCOPE](https://patentscope.wipo.int/search/en/asean/) | patents | sea | open | full-text-open (unverified) |
 | [Asia Petrochemical Industry Conference (APIC)](https://www.apic-online.org/) | association | apac | open | summary-only |
 | [Asia Refining Technology Conference (ARTC)](https://asiandownstreaminsights.com/events/asian-refining-technology-conference) | conference | apac, sea | mixed | catalog-only (unverified) |
@@ -48,6 +53,7 @@
 | [AIChE Center for Chemical Process Safety (CCPS)](https://www.aiche.org/ccps) | association | global | mixed | summary-only |
 | [AIChE Journal](https://aiche.onlinelibrary.wiley.com/journal/15475905) | journal | global | mixed | catalog-only (unverified) |
 | [AIChE Spring Meeting and Global Congress on Process Safety](https://www.aiche.org/conferences/aiche-spring-meeting-and-global-congress-on-process-safety) | conference | global | mixed | catalog-only |
+| [ALZETA ultra-low-NOx burners](https://alzeta.com/ultra-low-nox-burners) | oem-supplier | global, na | open | summary-only |
 | [AMPP Standards (former NACE and SSPC)](https://www.ampp.org/standards) | standards-body | global | paywalled | catalog-only |
 | [API Standards and Publications](https://www.api.org/products-and-services/standards) | standards-body | global, na | paywalled | catalog-only |
 | [ASME Boiler & Pressure Vessel Code (BPVC)](https://www.asme.org/codes-standards/bpvc-standards/bpvc-2023) | standards-body | global | paywalled | catalog-only |
@@ -56,20 +62,26 @@
 | [ASTM International petroleum products standards (Committee D02)](https://www.astm.org/products-services/standards-and-publications.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Catalysts (MDPI)](https://www.mdpi.com/journal/catalysts) | journal | global | open | full-text-open |
 | [CCPS Process Safety Beacon](https://www.aiche.org/ccps/process-safety-beacon) | association | global | open | full-text-restricted |
+| [Cleaver-Brooks fuel trains](https://cleaverbrooks.com/product/fuel-train) | oem-supplier | global, na | open | summary-only |
+| [DOE Steam Systems (Industrial Technologies Office)](https://www.energy.gov/eere/amo/steam-systems) | agency-data | global, na | open | summary-only |
 | [Energy & Environmental Science](https://pubs.rsc.org/en/journal/eesc) | journal | global | mixed | full-text-restricted |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
 | [European Commission DG CLIMA](https://climate.ec.europa.eu) | agency-data | eu | open | full-text-open |
+| [Honeywell burner management systems](https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems) | oem-supplier | global, na | open | summary-only |
+| [Honeywell S70X/S80X flame-scanner viewing heads](https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x) | oem-supplier | global, na | open | summary-only |
 | [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [IECEx System (IEC System for Certification to Standards relating to Equipment for use in Explosive Atmospheres)](https://www.iecex.com/) | standards-body | global | open | summary-only |
 | [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | summary-only |
 | [Industrial & Engineering Chemistry Research (ACS)](https://pubs.acs.org/journal/iecred) | journal | global | mixed | catalog-only (unverified) |
+| [Industrial water-tube package boilers](https://babcock.com/home/products-services/steam-generators/industrial-water-tube-package-boilers) | oem-supplier | global, na | open | summary-only |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Journal of Loss Prevention in the Process Industries](https://www.sciencedirect.com/journal/journal-of-loss-prevention-in-the-process-industries) | journal | global | mixed | catalog-only (unverified) |
 | [KAUST research (clean combustion, catalysis)](https://www.kaust.edu.sa/en/research) | research-institute | me | open | full-text-restricted |
 | [NFPA Codes and Standards](https://www.nfpa.org/codes-and-standards) | standards-body | global, na | mixed | catalog-only (unverified) |
+| [PLN ultra-low-NOx package burner](https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
 | [Process Safety Progress](https://aiche.onlinelibrary.wiley.com/journal/15475913) | journal | global | mixed | catalog-only (unverified) |
 | [Processes (MDPI)](https://www.mdpi.com/journal/processes) | journal | global | open | full-text-open |
 | [TNO energy and materials transition](https://www.tno.nl/en/sustainable/) | research-institute | eu | open | full-text-restricted |
@@ -77,6 +89,7 @@
 | [UK Health and Safety Executive (offshore and COMAH)](https://www.hse.gov.uk/) | agency-data | eu, global | open | full-text-open |
 | [US Chemical Safety Board investigations](https://www.csb.gov/) | agency-data | na, global | open | full-text-open |
 | [USGS Mineral Commodity Summaries](https://pubs.usgs.gov/periodicals/mcs2026/) | agency-data | global | open | full-text-open |
+| [Zeeco SCR systems](https://zeeco.com/scr-systems) | oem-supplier | global, na | open | summary-only |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted |
 | [ADIPEC](https://www.adipec.com/) | conference | me, global | mixed | catalog-only |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only |

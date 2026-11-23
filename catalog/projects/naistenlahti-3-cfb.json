@@ -1,0 +1,41 @@
+{
+  "id": "naistenlahti-3-cfb",
+  "name": "Naistenlahti 3 CFB plant",
+  "aliases": [],
+  "country": "FI",
+  "location": "Tampere",
+  "status": "operating",
+  "project_type": "retrofit",
+  "description": "Tampereen Energia CFB plant piloting Valmet partial-bed combustion for fuel flexibility; Valmet states CO2 emissions more than halved.",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC"
+  ],
+  "capacities": [],
+  "owners": [
+    {
+      "name": "Tampereen Energia",
+      "role": "owner"
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Valmet",
+      "role": "EPC / supplier"
+    }
+  ],
+  "technologies": [
+    "pwr-biomass-waste-to-energy",
+    "pwr-gas-fired-boilers"
+  ],
+  "milestones": [],
+  "sources": [
+    {
+      "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+      "source_id": "valmet-cfb"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Multi-fuel CFB, not natural gas."
+}

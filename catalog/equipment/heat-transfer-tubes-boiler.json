@@ -1,0 +1,123 @@
+{
+  "id": "heat-transfer-tubes-boiler",
+  "name": "Boiler heat-transfer tubes and tube sheets",
+  "equipment_type": "pressure-part",
+  "description": "The pressure-part surface across which heat passes from gas to water. Fire-tube boilers pass gas inside furnace and smoke tubes with water outside and tube sheets separating the two; water-tube boilers pass water inside tubes with gas outside. Extended and enhanced tube forms are claimed to raise effective surface area and heat transfer.",
+  "specifications": [
+    {
+      "metric": "furnace tube wall thickness",
+      "basis": "18-20 mm compromise between pressure capability and heat transfer",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+        "source_id": "spirax-shell-boilers"
+      },
+      "unit": "mm",
+      "low": 18,
+      "high": 20
+    },
+    {
+      "metric": "practical shell boiler pressure limit",
+      "basis": "About 27 bar implied by the furnace tube wall thickness",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+        "source_id": "spirax-shell-boilers"
+      },
+      "unit": "bar",
+      "value": 27
+    },
+    {
+      "metric": "heat-transfer increase, CBEX extended tubes",
+      "basis": "Cleaver-Brooks claims extended heat-transfer tubes in EX systems increase heat transfer by 85% (vendor claim)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cb-cbex"
+      },
+      "unit": "%",
+      "value": 85
+    },
+    {
+      "metric": "effective surface area, AluFer tube",
+      "basis": "Cleaver-Brooks claims up to five times the effective heat-transfer surface area of other condensing boilers",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cb-cfce"
+      },
+      "unit": "x",
+      "value": 5
+    },
+    {
+      "metric": "number of passes, condensing firetube",
+      "basis": "ClearFire-CE technical data: number of passes 1",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cb-cfce"
+      },
+      "unit": "passes",
+      "value": 1
+    },
+    {
+      "metric": "boiler horsepower heat-transfer convention",
+      "basis": "US convention after 1900: 5 sq ft per boiler horsepower",
+      "source": {
+        "url": "https://engineeringtoolbox.com/boiler-horsepower-d_1061.html",
+        "source_id": "etb-boiler-horsepower"
+      },
+      "unit": "sq ft/BHP",
+      "value": 5
+    }
+  ],
+  "vendors": [
+    "cleaver-brooks",
+    "babcock-wilcox"
+  ],
+  "sources": [
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+      "source_id": "spirax-shell-boilers"
+    },
+    {
+      "url": "https://cleaverbrooks.com/product/cbex",
+      "source_id": "cb-cbex"
+    },
+    {
+      "url": "https://cleaverbrooks.com/product/cfce",
+      "source_id": "cb-cfce"
+    },
+    {
+      "url": "https://engineeringtoolbox.com/boiler-horsepower-d_1061.html",
+      "source_id": "etb-boiler-horsepower"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "aliases": [
+    "smoke tubes",
+    "fire tubes",
+    "water tubes",
+    "tube sheet",
+    "extended surface tube"
+  ],
+  "applications": [
+    "fire-tube boilers",
+    "water-tube boilers",
+    "condensing boilers"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "rot-heat-exchangers"
+  ],
+  "gaps": [
+    {
+      "what": "tube material, fin geometry and fouling allowance for gas firing",
+      "why": "Read pages give dimensions and vendor performance claims but not tube material specs or fouling factors.",
+      "next_action": "Read a boiler tube datasheet or design standard."
+    }
+  ]
+}

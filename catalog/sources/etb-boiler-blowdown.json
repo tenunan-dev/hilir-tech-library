@@ -1,0 +1,27 @@
+{
+  "id": "etb-boiler-blowdown",
+  "name": "Boiler blowdown (Engineering ToolBox)",
+  "url": "https://engineeringtoolbox.com/boiler-blowdown-d_908.html",
+  "source_type": "trade-media",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Engineering ToolBox",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Recommended maximum boiler-water TDS 2,000-10,000 ppm depending on type; ASME watertube 0-300 psig TDS limit 3,500 ppm; blowdown tanks required by UPC/UMC above 15 psig. Evidence: https://engineeringtoolbox.com/boiler-blowdown-d_908.html"
+}

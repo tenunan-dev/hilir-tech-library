@@ -1,0 +1,29 @@
+{
+  "id": "alzeta",
+  "name": "ALZETA",
+  "aliases": [],
+  "country": "United States",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Combustion equipment maker using premixed surface-stabilised combustion for ultra-low-NOx industrial burners.",
+  "products": [
+    "surface-stabilised ultra-low-NOx burners"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "rot-fired-heaters-low-nox-burners",
+    "hse-nox-control"
+  ],
+  "url": "https://alzeta.com/ultra-low-nox-burners",
+  "sources": [
+    {
+      "url": "https://alzeta.com/ultra-low-nox-burners",
+      "source_id": "alzeta-ulnox"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

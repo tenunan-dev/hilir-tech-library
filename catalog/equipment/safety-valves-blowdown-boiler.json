@@ -1,0 +1,191 @@
+{
+  "id": "safety-valves-blowdown-boiler",
+  "name": "Boiler safety valves, blowdown and level fittings",
+  "equipment_type": "safety",
+  "description": "Fittings that protect the pressure boundary and control water quality: safety valves sized to at least the boiler's 'from and at 100 C' evaporation and fully open within 110% of design pressure; continuous/TDS blowdown from the water surface; bottom blowdown to remove sediment; and independent water-level indication and gauges.",
+  "specifications": [
+    {
+      "metric": "safety valve discharge capacity",
+      "basis": "Total discharge capacity must be at least equal to the boiler's 'from and at 100 C' evaporation rating",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB",
+        "source_id": "spirax-boiler-fittings"
+      },
+      "unit": "qualitative",
+      "value": "at least from-and-at 100 C rating"
+    },
+    {
+      "metric": "full rated discharge pressure",
+      "basis": "Full rated safety-valve discharge capacity within 110% of boiler design pressure",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB",
+        "source_id": "spirax-boiler-fittings"
+      },
+      "unit": "% of design pressure",
+      "value": 110
+    },
+    {
+      "metric": "minimum safety valve inlet bore",
+      "basis": "Minimum 20 mm inlet bore",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB",
+        "source_id": "spirax-boiler-fittings"
+      },
+      "unit": "mm",
+      "value": 20
+    },
+    {
+      "metric": "TDS blowdown connection",
+      "basis": "Boiler connection typically DN15 or DN20",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB",
+        "source_id": "spirax-boiler-fittings"
+      },
+      "unit": "DN mm",
+      "low": 15,
+      "high": 20
+    },
+    {
+      "metric": "bottom blowdown valve size",
+      "basis": "Usually DN25 to DN50 key-operated valve",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB",
+        "source_id": "spirax-boiler-fittings"
+      },
+      "unit": "DN mm",
+      "low": 25,
+      "high": 50
+    },
+    {
+      "metric": "bottom blowdown pulse",
+      "basis": "A single four-second blowdown every eight hours is described as more effective than one long blow",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB",
+        "source_id": "spirax-bottom-blowdown"
+      },
+      "unit": "s per 8 h",
+      "value": 4
+    },
+    {
+      "metric": "minimum blowdown line length",
+      "basis": "Spirax Sarco: a reasonable minimum is 7.5 m, used for blowdown vessel sizing",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB",
+        "source_id": "spirax-bottom-blowdown"
+      },
+      "unit": "m",
+      "value": 7.5
+    },
+    {
+      "metric": "blowdown vessel design pressure",
+      "basis": "At least 25% of boiler maximum working pressure, quoting HSE Guidance Note PM60",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB",
+        "source_id": "spirax-bottom-blowdown"
+      },
+      "unit": "% of MWP",
+      "value": 25
+    },
+    {
+      "metric": "blowdown vessel vent limit",
+      "basis": "Vent sized so vessel pressure does not exceed 0.35 bar g",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB",
+        "source_id": "spirax-bottom-blowdown"
+      },
+      "unit": "bar g",
+      "value": 0.35
+    },
+    {
+      "metric": "blowdown vessel overflow temperature",
+      "basis": "Standing water volume must keep overflow temperature at or below 43 C",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB",
+        "source_id": "spirax-bottom-blowdown"
+      },
+      "unit": "degC",
+      "value": 43
+    },
+    {
+      "metric": "pressure gauge dial",
+      "basis": "At least 150 mm diameter and Bourdon tube type",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB",
+        "source_id": "spirax-boiler-fittings"
+      },
+      "unit": "mm",
+      "value": 150
+    },
+    {
+      "metric": "water level indicators",
+      "basis": "Boilers rated 100 kW or more have at least two water level indicators",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB",
+        "source_id": "spirax-boiler-fittings"
+      },
+      "unit": "count",
+      "value": 2
+    },
+    {
+      "metric": "recommended maximum TDS",
+      "basis": "Engineering ToolBox: normally 2,000-10,000 ppm depending on boiler type",
+      "source": {
+        "url": "https://engineeringtoolbox.com/boiler-blowdown-d_908.html",
+        "source_id": "etb-boiler-blowdown"
+      },
+      "unit": "ppm",
+      "low": 2000,
+      "high": 10000
+    }
+  ],
+  "vendors": [
+    "spirax-sarco",
+    "tlv"
+  ],
+  "sources": [
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB",
+      "source_id": "spirax-boiler-fittings"
+    },
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB",
+      "source_id": "spirax-bottom-blowdown"
+    },
+    {
+      "url": "https://engineeringtoolbox.com/boiler-blowdown-d_908.html",
+      "source_id": "etb-boiler-blowdown"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PCH",
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "aliases": [
+    "safety relief valve",
+    "boiler mountings",
+    "continuous blowdown",
+    "bottom blowdown",
+    "level gauge"
+  ],
+  "applications": [
+    "all steam boiler types"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "rot-valves-actuators",
+    "hse-gas-flame-detection"
+  ],
+  "gaps": [
+    {
+      "what": "code-specific setting and capacity certifies for ASME Section I versus EN 12953",
+      "why": "The read pages give UK practice and rules of thumb; primary code text is paywalled.",
+      "next_action": "Verify against ASME BPVC Section I and EN 12953 before using these as design limits."
+    }
+  ]
+}

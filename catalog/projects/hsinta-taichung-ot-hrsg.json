@@ -1,0 +1,56 @@
+{
+  "id": "hsinta-taichung-ot-hrsg",
+  "name": "Hsinta and Taichung once-through HRSG fleet",
+  "aliases": [],
+  "country": "TW",
+  "location": "Hsinta and Taichung",
+  "status": "under-construction",
+  "project_type": "expansion",
+  "description": "Ten GE Vernova once-through HRSGs ordered behind 7HA.03 gas turbines; technology win announced September 2020.",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC"
+  ],
+  "capacities": [
+    {
+      "metric": "once-through HRSGs",
+      "value": 10,
+      "unit": "units",
+      "basis": "Count stated in the GE Vernova OT HRSG experience timeline, September 2020 announcement.",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/hrsg",
+        "source_id": "ge-vernova-hrsg"
+      }
+    }
+  ],
+  "owners": [],
+  "contractors": [
+    {
+      "name": "GE Vernova",
+      "role": "EPC / supplier"
+    }
+  ],
+  "technologies": [
+    "pwr-combined-cycle-hrsg",
+    "pwr-gas-fired-boilers"
+  ],
+  "milestones": [
+    {
+      "event": "technology selection announced",
+      "date": "2020-09",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/hrsg",
+        "source_id": "ge-vernova-hrsg"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/gas-power/products/hrsg",
+      "source_id": "ge-vernova-hrsg"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Owner is not named on the read page."
+}

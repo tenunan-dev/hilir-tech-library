@@ -1,0 +1,38 @@
+{
+  "id": "halgo-power",
+  "name": "Halgo Power",
+  "aliases": [],
+  "country": "United States",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem",
+    "fabrication"
+  ],
+  "description": "Supplier of forced-draft fans, stacks, ductwork and FGR mixing boxes for boiler and HRSG installations.",
+  "products": [
+    "forced-draft fans",
+    "fan inlet silencers",
+    "FGR mixing boxes",
+    "stacks and ductwork",
+    "SCR reactor houses"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "pwr-combined-cycle-hrsg"
+  ],
+  "url": "https://www.halgopower.com/products/forced-draft-fans",
+  "sources": [
+    {
+      "url": "https://www.halgopower.com/products/forced-draft-fans",
+      "source_id": "halgo-fd-fans"
+    },
+    {
+      "url": "https://halgopower.com/products/stacks-and-ductwork",
+      "source_id": "halgo-stacks-ductwork"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

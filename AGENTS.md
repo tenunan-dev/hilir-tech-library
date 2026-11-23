@@ -29,25 +29,24 @@
 - Do not touch auth internals, DNS, or application content without an explicit owner ask.
   Estate record: `hilir-access/docs/STATUS.md`.
 
-### Where the work stands (2026-11-24)
+### Where the work stands (2026-11-24, after the gas-fired boiler sweep)
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
-| Catalog sources | 526 valid, 526 unique ids |
-| Technology cards | 391 (406-entry register; WWT sector added 2026-11-13 — licensor-first PFD rule) |
-| Vendor records | 537 |
-| Equipment classes | 37 (boilers, compressors/pumps/turbines, DC UPS/CRAH/busway/MV switchgear, and ten WWT classes: membranes, DAF, aeration, dewatering, UV, ozone, digesters, biogas upgraders, evaporator-crystallisers, clarifiers) |
-| Projects and plants | 295 |
-| Corpus documents | 253, **one per source url** (decision 40), each with a hand-written summary — 207 open, 46 full-text-restricted (13,192 chunks locally, 11,876 entering Neon) |
+| Catalog sources | 586 valid, 586 unique ids |
+| Technology cards | 392 (407-entry register; WWT sector added 2026-11-13 — licensor-first PFD rule) |
+| Vendor records | 546 |
+| Equipment classes | 58 (gas-fired boiler types — fire-tube, water-tube, condensing hot-water and gas-conversion CFB — plus 17 component classes: low-NOx/duct burners, furnace and tubes, drums, economisers, superheaters, air preheaters, feedwater/deaerator, safety valves and blowdown, fans/stacks/FGR, BMS, gas trains, SCR/SNCR/CEMS, controls and soot blowers; and the earlier compressors/pumps/turbines, DC UPS/CRAH/busway/MV switchgear and ten WWT classes) |
+| Projects and plants | 304 |
+| Corpus documents | 253, **one per source url** (decision 40), each with a hand-written summary — 207 open, 46 full-text-restricted (13,192 chunks locally and in Neon) |
 
-Verified live 2026-11-24: Neon reloaded (526 sources / 537 vendors / 391 cards / 37 equipment /
-295 projects / 406 register entries / 253 documents / 11,876 chunks / 4,355 nodes / 13,028 edges /
-13,662 vectors) and both containers re-shipped from local images (api
-`sha256:d2aa37872594…`, ui `sha256:d0625c4bbea7…`, healthy); VPS gate `mygis 303,
-techlib-origin 403, tlea-origin 403` green; `pytest -q tests` 1,437 passed, 13 skipped. Standing
-main effort is source discovery (`docs/SOURCE_DISCOVERY_PLAN.md`, decision #30); the next equipment
-families wait on the owner (decision #33). Open owner items and the session log are in
-`docs/STATUS.md`.
+Verified live 2026-11-24: Neon reloaded (586 sources / 546 vendors / 392 cards / 58 equipment /
+304 projects / 407 register entries / 253 documents / 13,192 chunks / 4,475 nodes /
+13,667+ `similar_to` edges / 15,078 vectors); containers re-shipped from local images (api `8c32b9f134f6`, ui
+`74af3070928e`, healthy) and the baked index rebuilt; VPS gate `mygis 303, techlib-origin 403,
+tlea-origin 403` green; `pytest -q tests` 1,477 passed, 13 skipped. Standing main effort is source discovery
+(`docs/SOURCE_DISCOVERY_PLAN.md`, decision #30); the next equipment families wait on the owner
+(decision #33). Open owner items and the session log are in `docs/STATUS.md`.
 
 Permission boundary, restated: the only write in this application is an account row in
 `library.account` (admin-gated). There is no endpoint that writes catalog content, and the

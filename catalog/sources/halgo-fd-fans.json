@@ -1,0 +1,26 @@
+{
+  "id": "halgo-fd-fans",
+  "name": "Halgo Power forced-draft fans",
+  "url": "https://www.halgopower.com/products/forced-draft-fans",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Halgo Power",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. FD fan pushes combustion air, fuel and flue gas through the boiler, catalysts, economiser, FGR ductwork and stack; arrangements 3, 4 and 7; inlet silencers and filters; FGR mixing box dampers regulating recirculated and fresh air; VFD offered instead of dampers. Evidence: https://www.halgopower.com/products/forced-draft-fans"
+}

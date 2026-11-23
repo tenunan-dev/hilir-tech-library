@@ -1,0 +1,130 @@
+{
+  "id": "burner-management-safety-system",
+  "name": "Burner management and flame safeguard system",
+  "equipment_type": "controls",
+  "description": "Safety system that sequences purge, ignition and firing and trips the fuel on loss of flame or failed permissives. Designed to NFPA 85/86, IRI, ISA 84, FM and Gastec practice; flame supervision uses UV or IR viewing heads, with SIL3-capable assemblies available.",
+  "specifications": [
+    {
+      "metric": "UV detector spectral response",
+      "basis": "Honeywell S70X/S80X UV models: UVTron sensor, 185-260 nm, peak 210 nm",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
+        "source_id": "honeywell-flame-scanners"
+      },
+      "unit": "nm",
+      "low": 185,
+      "high": 260
+    },
+    {
+      "metric": "IR detector spectral response",
+      "basis": "Honeywell IR models: germanium detector, 950-1,710 nm",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
+        "source_id": "honeywell-flame-scanners"
+      },
+      "unit": "nm",
+      "low": 950,
+      "high": 1710
+    },
+    {
+      "metric": "functional safety capability",
+      "basis": "S702/S802 and S706/S806 viewing-head families are SIL 3 capable",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
+        "source_id": "honeywell-flame-scanners"
+      },
+      "unit": "SIL",
+      "value": 3
+    },
+    {
+      "metric": "ambient temperature range",
+      "basis": "Standard S70X/S80X models rated -40 to +85 C",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
+        "source_id": "honeywell-flame-scanners"
+      },
+      "unit": "degC",
+      "low": -40,
+      "high": 85
+    },
+    {
+      "metric": "UV tube life",
+      "basis": "10,000-50,000 hours depending on conditions, with monthly sensitivity check recommended",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
+        "source_id": "honeywell-flame-scanners"
+      },
+      "unit": "hours",
+      "low": 10000,
+      "high": 50000
+    },
+    {
+      "metric": "optical field of view",
+      "basis": "IR models 1 degree, UV models 5 degrees",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
+        "source_id": "honeywell-flame-scanners"
+      },
+      "unit": "degrees",
+      "low": 1,
+      "high": 5
+    },
+    {
+      "metric": "standards basis",
+      "basis": "Honeywell states systems are engineered to NFPA 85/86, IRI, ISA 84, Factory Mutual and Gastec practice",
+      "source": {
+        "url": "https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems",
+        "source_id": "honeywell-bms"
+      },
+      "unit": "qualitative",
+      "value": "NFPA 85/86, IRI, ISA 84, FM, Gastec"
+    }
+  ],
+  "vendors": [
+    "honeywell",
+    "zeeco"
+  ],
+  "sources": [
+    {
+      "url": "https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems",
+      "source_id": "honeywell-bms"
+    },
+    {
+      "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
+      "source_id": "honeywell-flame-scanners"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PCH",
+    "INS",
+    "HSE"
+  ],
+  "aliases": [
+    "BMS",
+    "flame safeguard",
+    "flame scanner system",
+    "burner management system"
+  ],
+  "applications": [
+    "package boilers",
+    "utility boilers",
+    "fired heaters",
+    "HRSG duct burners"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "ins-safety-instrumented-systems",
+    "hse-gas-flame-detection"
+  ],
+  "gaps": [
+    {
+      "what": "trip logic and proof-of-closure arrangements for specific boiler makes",
+      "why": "Read pages describe scanner hardware and standards basis, not the detailed burner-specific sequence.",
+      "next_action": "Read the burner OEM's BMS sequence matrix and NFPA 85 (primary text is paywalled)."
+    }
+  ]
+}

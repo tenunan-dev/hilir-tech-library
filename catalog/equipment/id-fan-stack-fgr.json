@@ -1,0 +1,92 @@
+{
+  "id": "id-fan-stack-fgr",
+  "name": "Induced-draft fan, stack and FGR ducting",
+  "equipment_type": "fan",
+  "description": "Induced-draft fan and flue-gas path that maintain furnace draft and discharge products to stack. Stacks and ductwork are engineered from flue-gas volume, temperature and space constraints; dampers hold a set draft loss and an SCR reactor house is sized from the catalyst mass required to meet the emission limit. FGR ducting returns a controlled share of flue gas to the forced-draft intake.",
+  "specifications": [
+    {
+      "metric": "stack/duct design inputs",
+      "basis": "Flue-gas volumetric flow, flue-gas temperature, space constraints and optional catalyst modules",
+      "source": {
+        "url": "https://halgopower.com/products/stacks-and-ductwork",
+        "source_id": "halgo-stacks-ductwork"
+      },
+      "unit": "qualitative",
+      "value": "flow, temperature, space, catalyst"
+    },
+    {
+      "metric": "stack damper function",
+      "basis": "Maintain a predetermined draft loss; parallel or opposed blade with pneumatic actuators common",
+      "source": {
+        "url": "https://www.halgopower.com/products/forced-draft-fans",
+        "source_id": "halgo-fd-fans"
+      },
+      "unit": "qualitative",
+      "value": "constant draft loss"
+    },
+    {
+      "metric": "SCR reactor house sizing basis",
+      "basis": "Dimensions set by the amount and density of catalyst needed to meet the specified emission limit",
+      "source": {
+        "url": "https://halgopower.com/products/stacks-and-ductwork",
+        "source_id": "halgo-stacks-ductwork"
+      },
+      "unit": "qualitative",
+      "value": "catalyst mass"
+    },
+    {
+      "metric": "FGR effect on burner NOx",
+      "basis": "Induced FGR on the SBR-5 burner gives 5 ppm NOx at about 3% O2",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr5-burner",
+        "source_id": "cb-sbr5-burner"
+      },
+      "unit": "ppm",
+      "value": 5
+    }
+  ],
+  "vendors": [
+    "halgo-power"
+  ],
+  "sources": [
+    {
+      "url": "https://halgopower.com/products/stacks-and-ductwork",
+      "source_id": "halgo-stacks-ductwork"
+    },
+    {
+      "url": "https://www.halgopower.com/products/forced-draft-fans",
+      "source_id": "halgo-fd-fans"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "aliases": [
+    "ID fan",
+    "induced draught fan",
+    "flue gas recirculation duct",
+    "boiler stack"
+  ],
+  "applications": [
+    "package boilers",
+    "HRSGs",
+    "SCR retrofits"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "hse-nox-control"
+  ],
+  "gaps": [
+    {
+      "what": "ID fan datasheets and quantified FGR ratios",
+      "why": "The read pages give function and arrangement but no fan curves, duties or recirculation percentages.",
+      "next_action": "Read fan and FGR datasheets for a specific boiler or HRSG."
+    }
+  ]
+}

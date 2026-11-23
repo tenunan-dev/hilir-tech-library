@@ -1,0 +1,25 @@
+{
+  "id": "epa-sncr-fact-sheet",
+  "name": "EPA air pollution control technology fact sheet — SNCR",
+  "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "US EPA",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. SNCR reduces NOx 30-50% alone and 65-75% with combustion controls; 870-1,150 C reaction window; 2-10 ppm ammonia slip; applicable 50-6,000 MMBtu/hr units; capital cost 900-2,500 USD per MMBtu/hr in 1999 dollars (year stated, not escalated). Evidence: https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT"
+}

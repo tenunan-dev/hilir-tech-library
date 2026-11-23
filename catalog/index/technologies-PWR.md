@@ -1,6 +1,6 @@
 # PWR technology options
 
-39 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+40 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
@@ -14,6 +14,7 @@
 | [Floating solar](#pwr-floating-solar) | Solar | commercial | 9 | Sungrow (floating PV systems); Ciel & Terre (Hydrelio floats) | total capital cost, floating PV: 1.18 USD per Wp (2022$) |
 | [Flow batteries (vanadium, zinc-bromine)](#pwr-flow-batteries) | Electrochemical storage | commercial | 9 | Rongke Power (vanadium flow); Invinity Energy Systems (vanadium flow) | installed cost, vanadium redox flow battery: 446 USD per kWh (2024$) |
 | [Gas engines](#pwr-gas-engines) | Gas-fired power | commercial | 9 | Wärtsilä (31SG, 34SG, 50SG); INNIO Jenbacher (Jenbacher gas engines); MAN Energy Solutions (Everllence) (gas engines); JEREH (INNIO Jenbacher/Waukesha authorized integrator; 3 kVA-3,300 kVA gas gensets and distributed energy (Jereh Distributed Energy)) | total installed cost, gas engine in grid-interconnected CHP application: 1433-2900 USD/kW (2013) (2013$)<br>total installed cost, reciprocating engine CHP: 2000-4250 USD/kW (2020) (2020$) |
+| [Gas-fired steam and hot-water boilers](#pwr-gas-fired-boilers) | Steam generation | commercial |  | Cleaver-Brooks (CBEX/CBLE firetube, ClearFire-CE and SwitchFire condensing boilers, ProFire burners); Miura (once-through vertical water-tube steam generators and ultra-low-NOx LX burners); Babcock & Wilcox (industrial water-tube package boilers, IR-CFB boilers and HRSG pressure parts); Fulton (packaged steam boilers); Zeeco (PLN/GO low-NOx package burners, SCR systems and CFB gas-conversion burners); John Zink (ECOjet Edge+, QLN and duct burners); ALZETA (surface-stabilised ultra-low-NOx burners); Valmet (CFB boilers with partial-bed low-load operation); Spirax Sarco (feedtanks, deaerators, valves and steam-system engineering guidance) |  |
 | [Geothermal (flash and binary cycle)](#pwr-geothermal-flash-binary) | Geothermal | commercial | 9 | Ormat (binary and flash plants); Toshiba (geothermal steam turbines); Fuji Electric (geothermal steam turbines) | overnight capital cost, hydrothermal: 4759-6349 USD/kW |
 | [Grid-forming inverters and synchronous condensers](#pwr-grid-forming-inverters) | Grid | commercial | 9 | SMA (grid-forming inverters); Siemens Energy (synchronous condensers) | Hornsdale grid-forming expansion cost: 71 million AUD (50 MW / 64.5 MWh expansion) |
 | [HVDC transmission and interconnectors](#pwr-hvdc-transmission) | Grid | commercial | 9 | Hitachi Energy (HVDC Classic and HVDC Light); Siemens Energy (HVDC Plus); GE Vernova (HVDC) | capital cost, HVDC transmission line: 0.3-0.34 USD million per km (2010$) |
@@ -370,6 +371,50 @@ flowchart LR
 TRL source: [DOE/EE-2764 (Aug 2023): 'Reciprocating internal combustion engines are a mature technology'; over 2,700 US sites with engine CHP, aggregate ~2.9 GW; read 2026-11-16](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf)
 
 Sources: [1](https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine), [2](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants), [3](https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali), [4](https://en.wikipedia.org/wiki/Gas_engine). Last reviewed 2026-11-16.
+
+## Gas-fired steam and hot-water boilers
+<a id="pwr-gas-fired-boilers"></a>
+
+A gas-fired boiler burns natural gas (or another gaseous fuel) in a contained furnace and transfers the heat through pressure-part surfaces to water, producing steam or hot water. Package fire-tube boilers pass hot gas through tubes surrounded by water; water-tube boilers pass water through tubes in the gas path and separate steam in a drum or use once-through circuits; condensing designs cool the flue gas below its dew point to recover latent heat. Low-NOx burners, flue-gas recirculation and post-combustion catalysts control emissions. Heat recovery steam generators raise steam from gas-turbine exhaust and may burn additional gas in the duct.
+
+```mermaid
+flowchart LR
+    FUEL["Gas and combustion air are metered and conditioned<br/><small>gas valve train, regulator, double block and bleed shutoff valves, forced-draft fan</small>"]
+    BURN["Low-NOx burner fires into the water-cooled furnace<br/><small>low-NOx gas burner, flame scanner, burner management system, furnace / membrane walls</small>"]
+    HEAT["Heat crosses the heat-transfer surfaces into boiler water<br/><small>fire tubes or water tubes, tube sheets / headers, superheater, economizer</small>"]
+    STEAM["Steam separates and is conditioned for export or the turbine<br/><small>steam drum, attemperator / desuperheater, safety relief valves, steam stop valves</small>"]
+    FEED["Condensate and make-up are deaerated, heated and pumped back<br/><small>feedtank / deaerator, feedwater pump, feedwater heater, blowdown vessel</small>"]
+    GASOUT["Flue gas passes heat recovery and emission controls to the stack<br/><small>economizer, air preheater, SCR or SNCR, induced-draft fan, stack</small>"]
+    FUEL -->|fuel gas + air| BURN
+    BURN --> HEAT
+    HEAT --> STEAM
+    STEAM --> FEED
+    FEED -->|deaerated feedwater| HEAT
+```
+
+**Key equipment:** low-NOx / ultra-low-NOx gas burner, burner management and flame safeguard system, fuel gas train, furnace and membrane water walls, fire tubes or water tubes and tube sheets, steam drum and mud drum, superheater and attemperator, economizer, air preheater, deaerator and feedwater pump, safety relief valves and blowdown system, forced- and induced-draft fans, SCR / SNCR and CEMS, boiler controls and oxygen trim.
+
+**Performance:**
+- minimum combustion efficiency, large gas-fired commercial hot-water boiler: 96 % Ec; US DOE FEMP purchasing requirement for 2.5-10 MMBtu/hr input gas-fired hot-water boilers, based on 10 CFR 431.86; federal purchase minimum, not a product rating.. [source](https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers)
+- AHRI thermal efficiency, condensing gas hot-water boiler: 94.7-96 %; Cleaver-Brooks ClearFire-CE technical data: AHRI combustion 94.7%, AHRI thermal 96.0%; 'up to 99%' is OEM marketing wording and is not used here.. [source](https://cleaverbrooks.com/product/cfce)
+- NOx, natural-gas low-NOx burner without FGR: 9-40 ppm; Zeeco PLN brochure ladder: 40 ppm at 40% excess air, 30 at 45%, 15 at 50%, 9 at 60%; the page does not state the O2 reference basis, so these are not directly comparable to 3%-O2 figures.. [source](https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner)
+- NOx, natural-gas burner at about 3% O2 without FGR: 15-30 ppm at about 3% O2; Cleaver-Brooks SBR-30 under 30 ppm; John Zink ECOjet Edge+ as low as 15 ppm without FGR in select applications (vendor claims).. [source](https://cleaverbrooks.com/product/sbr30-burner)
+- NOx, ultra-low-NOx burner with flue-gas recirculation: 5 ppm at about 3% O2; Cleaver-Brooks SBR-5 with induced FGR at about 3% O2 (body states 3-4%); ALZETA surface-stabilised burner below 5 ppm corrected to 3% O2.. [source](https://cleaverbrooks.com/product/sbr5-burner)
+- turndown, package gas burners: 10 :1; Cleaver-Brooks SBR-30/SBR-5 and Zeeco PLN/GO stated firing turndown on gaseous fuel; ClearFire-CE condensing boiler also 10:1.. [source](https://cleaverbrooks.com/product/sbr30-burner)
+- efficiency improvement per feedwater temperature rise: 2 % per 10 degC; Spirax Sarco: in broad terms each 10 C increase in feedwater temperature gives about a 2% boiler efficiency improvement.. [source](https://spiraxsarco.com/learn-about-steam/the-boiler-house/miscellaneous-boiler-types-economisers-and-superheaters?sc_lang=en-GB)
+- US combined-cycle capacity equipped with duct burners: 208 GW; About 75% of the 278 GW US combined-cycle fleet, EIA data from EIA-860 and EIA-923, article 15 June 2022.. [source](https://www.eia.gov/todayinenergy/detail.php?id=52778)
+
+**Reference plants:**
+- Sultan Ibrahim power plant, Track 4A (Pasir Gudang, Johor), MY: 1,440 MW total; two 9HA.02 gas turbines, two once-through HRSGs; operating. [source](https://www.gevernova.com/gas-power/resources/case-studies/southern-power-generations-track-4a-employs-9ha)
+- GS Caltex Yeosu complex (SOLEX burner retrofit), KR: 32 SOLEX burners; under 5 ppm NOx, SCR avoided; operating. [source](https://johnzink.com/products/powerburners/ecojet-edge-plus)
+
+**Missing inputs:**
+- installed cost per kW or per t/h of steam for gas-fired package boilers in 2026 USD (costs): No page read in this sweep states a boiler installed cost with a dollar year; DOE FEMP cost examples on the read page omit the year. Where: DOE FEMP boiler purchasing guide and recent EPC cost benchmarks; record the cost year (catalog: doe-femp-boilers). Next: Find a dated installed-cost reference before adding any cost figure to this card.
+- site-specific NOx on a common O2 basis for the named burners (performance): Zeeco quotes ppm at varying excess air without an O2 basis, while Cleaver-Brooks, ALZETA and Miura quote ppm at about 3% O2. Where: Vendor emission test sheets stating the O2 reference and fuel (catalog: zeeco-pln-burner). Next: Normalise the figures to a stated O2 basis before comparing them.
+- named 100% natural-gas-fired CFB boiler plant with owner, capacity and status (reference_plants): Read OEM pages cover solid/multi-fuel CFB; the Zeeco gas-conversion paper PDF was not fetched and the EPA 40 ppm datum is an alumina calciner, not a boiler. Where: Zeeco/ASME POWER2014-32258 paper and CFB operators' conversion case studies (catalog: zeeco-cfb-gas-conversion). Next: Read the conversion paper and record a named plant if one is identified.
+- duct-burner fuel input range and FGR ratios with design basis (performance): Read HRSG pages give burner types and inspection limits but no quantified duct-firing duty or FGR ratio. Where: HRSG OEM duct-burner specification sheets with heat input (catalog: tetra-duct-burners). Next: Add a sourced duty range when a specification sheet is read.
+
+Sources: [1](https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB), [2](https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB), [3](https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers), [4](https://cleaverbrooks.com/product/cfce), [5](https://cleaverbrooks.com/product/sbr5-burner), [6](https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner), [7](https://johnzink.com/products/powerburners/ecojet-edge-plus), [8](https://www.gevernova.com/gas-power/products/hrsg), [9](https://www.eia.gov/todayinenergy/detail.php?id=52778), [10](https://www.asme.org/certification-accreditation/boiler-and-pressure-vessel-certification). Last reviewed 2026-11-24.
 
 ## Geothermal (flash and binary cycle)
 <a id="pwr-geothermal-flash-binary"></a>

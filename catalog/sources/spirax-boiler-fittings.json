@@ -1,0 +1,29 @@
+{
+  "id": "spirax-boiler-fittings",
+  "name": "Boiler fittings and mountings",
+  "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "eu",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Safety-valve sizing criterion: total discharge at least equal to boiler 'from and at 100 C' evaporation, full rated flow within 110% of design pressure, minimum 20 mm inlet bore; TDS blowdown connection DN15-20; bottom blowdown DN25-50; pressure gauge dial at least 150 mm; two level indicators at 100 kW and above; gauge glass lowest reading 50 mm above the overheating point. Evidence: https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB"
+}

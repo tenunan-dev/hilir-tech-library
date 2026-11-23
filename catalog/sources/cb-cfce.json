@@ -1,0 +1,25 @@
+{
+  "id": "cb-cfce",
+  "name": "ClearFire-CE condensing boiler",
+  "url": "https://cleaverbrooks.com/product/cfce",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Cleaver-Brooks",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. 11 models 500-6,000 MBH input; one-pass duplex stainless condensing firetube with TurboFer/AluFer tubes; AHRI thermal 96.0% / combustion 94.7%; 10:1 turndown; under 20 ppm NOx standard, sub-7 ppm optional; 210 F design; burner/controls stated to support up to 20% volumetric hydrogen-natural gas blends. Evidence: https://cleaverbrooks.com/product/cfce"
+}

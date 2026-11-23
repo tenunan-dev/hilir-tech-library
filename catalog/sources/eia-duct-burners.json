@@ -1,0 +1,26 @@
+{
+  "id": "eia-duct-burners",
+  "name": "EIA: most combined-cycle plants have duct burners",
+  "url": "https://www.eia.gov/todayinenergy/detail.php?id=52778",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "US Energy Information Administration",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. US combined-cycle fleet 278 GW, of which about 208 GW (about 75%) has duct burners; 2020 capacity factor 59% with duct firing versus 47% without (EIA-860/EIA-923). Evidence: https://www.eia.gov/todayinenergy/detail.php?id=52778"
+}

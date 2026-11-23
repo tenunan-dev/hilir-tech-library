@@ -1,0 +1,27 @@
+{
+  "id": "bw-boiler-cycling",
+  "name": "Boiler cycling considerations",
+  "url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Babcock & Wilcox",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Cycling damage mechanisms: limiting lower-furnace subcooling to 100 F (56 C) implies low probability of damage; drum top-to-bottom temperature variation causes drum humping and connection stress; outlet-header thermal shock differentials reduced from 200-400 F to below 100 F; economiser metal temperature can rise 17-28 C/hour during offline air leakage; SCR minimum average inlet gas temperature 104 C (220 F) for cold start-up. Evidence: https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations"
+}

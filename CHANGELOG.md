@@ -8,6 +8,44 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.24.2] — 2026-11-24 — Gas-fired boiler dataset expansion (full cross-layer set)
+
+Owner-directed expansion of the equipment, source, vendor, project and card layers for gas-fired
+boilers and their components. Every fact comes from a page read during the sweep (URL + basis;
+USD figures carry a dollar year); missing facts are recorded as gaps, not estimates.
+
+### Added
+
+- **60 catalog sources** — OEM product/datasheet pages (Spirax Sarco Learn About Steam, Cleaver-Brooks,
+  B&W, Zeeco, John Zink, GE Vernova, Valmet, ANDRITZ, Miura, ALZETA, Halgo, Honeywell, Fulton, TLV),
+  agency/regulator pages (DOE FEMP, EIA, EPA SNCR/CEMS/CFB/Boiler MACT, OSHA) and code references
+  (ASME BPVC certification, NFPA 85 at UpCodes, Engineering ToolBox).
+- **Technology layer** — register entry and card `pwr-gas-fired-boilers` (PWR, commercial), with eight
+  sourced performance figures, nine suppliers, two reference plants and four recorded gaps.
+- **Equipment layer (21 new records, 37 → 58)** — boiler types `boiler-gas-fire-tube-package`,
+  `boiler-gas-water-tube-package`, `boiler-gas-condensing-hot-water`, `boiler-gas-cfb`; components
+  `burner-gas-low-nox`, `duct-burner-hrsg`, `burner-management-safety-system`, `gas-valve-train`,
+  `fd-fan-boiler`, `id-fan-stack-fgr`, `economizer-boiler`, `superheater-boiler`,
+  `air-preheater-boiler`, `steam-drum-boiler`, `feedwater-deaerator-system`,
+  `safety-valves-blowdown-boiler`, `soot-blower-boiler`, `scr-nox-control-boiler`,
+  `boiler-controls-oxygen-trim`, `furnace-waterwalls-boiler`, `heat-transfer-tubes-boiler`.
+  `boiler-hrsg` was enriched with page-read HRSG fleet, duct-burner and pressure-part sources.
+- **9 vendors** and **9 projects** — component suppliers and named installations (Malaysia, Korea,
+  Taiwan, UAE, Finland, Japan, US) with sourced capacities and statuses.
+
+### Verification
+
+`tools/build.py` 586 sources / 392 cards / 546 vendors / 58 equipment / 304 projects; index rebuild
+15,078 embedded rows, 0 missing; `pytest -q tests` **1,477 passed, 13 skipped**; Neon reloaded and
+independently queried with the same counts.
+
+### Known gaps
+
+No installed-cost figure with a dollar year; NOx figures quoted on different O2/excess-air bases;
+no named 100%-natural-gas CFB plant; no duct-burner duty ranges, fan/FGR datasheets or code-specific
+design limits in the pages read. All are recorded on the relevant equipment records and card.
+
+
 ## [2026.11.24.1] — 2026-11-24 — Full derived-artefact refresh; living docs corrected
 
 No code and no content change: every derived output is regenerated against the 253-document corpus,

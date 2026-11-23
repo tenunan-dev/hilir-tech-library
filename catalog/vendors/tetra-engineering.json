@@ -1,0 +1,31 @@
+{
+  "id": "tetra-engineering",
+  "name": "Tetra Engineering Group",
+  "aliases": [],
+  "country": "United Kingdom / United States",
+  "roles": [
+    "service",
+    "supplier"
+  ],
+  "categories": [
+    "engineering-consultancy"
+  ],
+  "description": "Engineering consultancy publishing HRSG duct-burner inspection guidance, fitness-for-service and finite-element assessments.",
+  "products": [
+    "duct burner inspection guides",
+    "HRSG inspection",
+    "FEA and life assessment"
+  ],
+  "technologies": [
+    "pwr-combined-cycle-hrsg",
+    "pwr-gas-fired-boilers"
+  ],
+  "url": "https://www.tetra-eng.com/whitepaper/duct-burners",
+  "sources": [
+    {
+      "url": "https://www.tetra-eng.com/whitepaper/duct-burners",
+      "source_id": "tetra-duct-burners"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

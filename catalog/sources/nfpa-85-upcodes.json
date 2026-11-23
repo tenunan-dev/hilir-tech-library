@@ -1,0 +1,25 @@
+{
+  "id": "nfpa-85-upcodes",
+  "name": "NFPA 85 (2023) table of contents at UpCodes",
+  "url": "https://up.codes/viewer/nfpa/nfpa-85-2023",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "UpCodes (reproducing NFPA 85)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (NFPA copyright)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Boiler and Combustion Systems Hazards Code: chapters for single- and multiple-burner boilers, atmospheric fluidized bed boilers, HRSGs and other combustion-turbine exhaust systems, pulverised fuel systems and stokers. The full NFPA text is not in the repository. Evidence: https://up.codes/viewer/nfpa/nfpa-85-2023"
+}

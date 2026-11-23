@@ -1,0 +1,28 @@
+{
+  "id": "miura-ulnox",
+  "name": "Why you need an ultra-low-NOx steam boiler",
+  "url": "https://miuraboiler.com/why-you-need-an-ultra-low-nox-steam-boiler/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "Miura",
+  "regions": [
+    "global",
+    "na",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Fuel-to-steam efficiency 85% for the LX series versus 83% stated for a typical fire-tube boiler; 87% with built-in energy recovery and water treatment (vendor comparison). Evidence: https://miuraboiler.com/why-you-need-an-ultra-low-nox-steam-boiler/"
+}

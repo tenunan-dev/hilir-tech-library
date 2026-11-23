@@ -1,0 +1,168 @@
+{
+  "id": "duct-burner-hrsg",
+  "name": "HRSG duct burner (supplementary gas firing)",
+  "equipment_type": "burner",
+  "description": "Burner installed in the gas-turbine exhaust duct to burn additional natural gas in the remaining oxygen and raise steam output. Two main forms are standard round gas burners and linear grid burners spanning the duct. Installed in the transition duct before the lead tube bank or between superheater stages, with flame holders, pilots, igniters and flame scanners.",
+  "specifications": [
+    {
+      "metric": "heat input, Cleaver-Brooks Natcom",
+      "basis": "HRSG supplementary firing: 10-500 MMBtu/hr, natural gas and propane",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/duct-burner",
+        "source_id": "cb-duct-burner"
+      },
+      "unit": "MMBtu/hr",
+      "low": 10,
+      "high": 500
+    },
+    {
+      "metric": "emissions, Cleaver-Brooks Natcom",
+      "basis": "Available to under 7 ppm NOx and under 50 ppm CO; attribute table also states under 0.1 lb/MMBtu",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/duct-burner",
+        "source_id": "cb-duct-burner"
+      },
+      "unit": "ppm",
+      "value": 7
+    },
+    {
+      "metric": "emissions, John Zink ProLine in-line",
+      "basis": "0.03 lb/MMBtu for each of NOx and CO; gaseous fuels including natural gas and hydrogen",
+      "source": {
+        "url": "https://johnzink.com/products/duct-burner/proline-in-line-duct-burner",
+        "source_id": "jz-proline-duct-burner"
+      },
+      "unit": "lb/MMBtu",
+      "value": 0.03
+    },
+    {
+      "metric": "heat release per unit length, ProLine",
+      "basis": "Up to 5 MMBtu/hr per foot of burner length (4.8 MW/m)",
+      "source": {
+        "url": "https://johnzink.com/products/duct-burner/proline-in-line-duct-burner",
+        "source_id": "jz-proline-duct-burner"
+      },
+      "unit": "MMBtu/hr/ft",
+      "value": 5
+    },
+    {
+      "metric": "turndown, ProLine",
+      "basis": "20:1 stated for the in-line duct burner",
+      "source": {
+        "url": "https://johnzink.com/products/duct-burner/proline-in-line-duct-burner",
+        "source_id": "jz-proline-duct-burner"
+      },
+      "unit": ":1",
+      "value": 20
+    },
+    {
+      "metric": "runner sag inspection criterion",
+      "basis": "Tetra Engineering: excessive sag above 2-3 in (5-8 cm) at runner midpoint; one improperly installed runner buckled in under 10,000 operating hours",
+      "source": {
+        "url": "https://www.tetra-eng.com/whitepaper/duct-burners",
+        "source_id": "tetra-duct-burners"
+      },
+      "unit": "in",
+      "low": 2,
+      "high": 3
+    },
+    {
+      "metric": "US combined-cycle capacity with duct burners",
+      "basis": "About 208 GW of the 278 GW US combined-cycle fleet, EIA-860/EIA-923 data, article June 2022",
+      "source": {
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=52778",
+        "source_id": "eia-duct-burners"
+      },
+      "unit": "GW",
+      "value": 208
+    },
+    {
+      "metric": "capacity factor with versus without duct firing",
+      "basis": "EIA 2020: 59% for plants with duct firing versus 47% without; fleet average 56%",
+      "source": {
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=52778",
+        "source_id": "eia-duct-burners"
+      },
+      "unit": "%",
+      "low": 47,
+      "high": 59
+    }
+  ],
+  "vendors": [
+    "john-zink",
+    "cleaver-brooks",
+    "entech-products"
+  ],
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/duct-burner",
+      "source_id": "cb-duct-burner"
+    },
+    {
+      "url": "https://johnzink.com/products/duct-burner/proline-in-line-duct-burner",
+      "source_id": "jz-proline-duct-burner"
+    },
+    {
+      "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+      "source_id": "jz-duct-burner"
+    },
+    {
+      "url": "https://www.tetra-eng.com/whitepaper/duct-burners",
+      "source_id": "tetra-duct-burners"
+    },
+    {
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=52778",
+      "source_id": "eia-duct-burners"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "aliases": [
+    "duct burner",
+    "supplementary firing burner",
+    "in-line duct burner",
+    "grid burner"
+  ],
+  "applications": [
+    "combined-cycle HRSGs",
+    "cogeneration steam boosting",
+    "peak steam demand"
+  ],
+  "technologies": [
+    "pwr-combined-cycle-hrsg",
+    "pwr-gas-fired-boilers"
+  ],
+  "vendor_models": [
+    {
+      "vendor": "john-zink",
+      "line": "ProLine in-line duct burner",
+      "range": "0.03 lb/MMBtu NOx and CO, to 5 MMBtu/hr/ft, 20:1 turndown",
+      "url": "https://johnzink.com/products/duct-burner/proline-in-line-duct-burner"
+    },
+    {
+      "vendor": "john-zink",
+      "line": "Duct-burner flame holders",
+      "range": "LDRW low-draft reverse wing, VC V-cone tip wing and Coen castings, with igniters and flame scanners",
+      "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+    },
+    {
+      "vendor": "cleaver-brooks",
+      "line": "Natcom duct burner",
+      "range": "10-500 MMBtu/hr, under 7 ppm NOx / under 50 ppm CO",
+      "url": "https://cleaverbrooks.com/product/duct-burner"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "quantified duct-firing duty ranges for named HRSG projects",
+      "why": "Read pages give burner types, fleet statistics and inspection limits but not the heat input at individual plants.",
+      "next_action": "Find HRSG OEM duct-burner specification sheets with heat input and exhaust conditions."
+    }
+  ]
+}

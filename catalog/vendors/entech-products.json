@@ -1,0 +1,32 @@
+{
+  "id": "entech-products",
+  "name": "Entech Products Corp",
+  "aliases": [],
+  "country": "United States",
+  "roles": [
+    "supplier",
+    "service"
+  ],
+  "categories": [
+    "equipment-oem",
+    "oilfield-service"
+  ],
+  "description": "Supplies duct burners, igniters, pilots and flame scanners and provides HRSG inspection and outage services.",
+  "products": [
+    "duct burners",
+    "igniters and pilots",
+    "flame scanners",
+    "HRSG inspection services"
+  ],
+  "technologies": [
+    "pwr-combined-cycle-hrsg",
+    "pwr-gas-fired-boilers"
+  ],
+  "url": "https://www.entechproducts.com/products/combustion/",
+  "sources": [
+    {
+      "url": "https://www.entechproducts.com/products/combustion/"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

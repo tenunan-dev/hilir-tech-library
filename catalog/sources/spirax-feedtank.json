@@ -1,0 +1,28 @@
+{
+  "id": "spirax-feedtank",
+  "name": "The feedtank and feedwater conditioning",
+  "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "eu",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Traditional feedtank capacity is one hour of steaming at maximum evaporation; vent DN80 on a 2,000 L tank to DN250 on 30,000 L; about 1% less fuel per 6 C rise in feedtank temperature; sodium sulphite dosing 8 ppm per ppm oxygen plus 4 ppm reserve; condensate return above about 80% risks feedpump cavitation. Evidence: https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB"
+}

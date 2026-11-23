@@ -1,0 +1,109 @@
+{
+  "id": "economizer-boiler",
+  "name": "Boiler economizer (feedwater heat recovery)",
+  "equipment_type": "heat-exchanger",
+  "description": "Heat exchanger that raises feedwater temperature using flue gas leaving the boiler or superheater, cutting fuel use. Spirax Sarco gives about a 2% efficiency gain per 10 C rise in feedwater temperature; condensing economisers cool gas below the dew point and need corrosion-resistant surfaces.",
+  "specifications": [
+    {
+      "metric": "efficiency improvement per feedwater temperature rise",
+      "basis": "Spirax Sarco: in broad terms a 10 C increase in feedwater temperature gives about a 2% efficiency improvement",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/miscellaneous-boiler-types-economisers-and-superheaters?sc_lang=en-GB",
+        "source_id": "spirax-boiler-misc"
+      },
+      "unit": "% per 10 degC",
+      "value": 2
+    },
+    {
+      "metric": "feedtank fuel effect",
+      "basis": "Spirax Sarco: about 1% less fuel required for every 6 C temperature rise in the feedtank",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB",
+        "source_id": "spirax-feedtank"
+      },
+      "unit": "% per 6 degC",
+      "value": 1
+    },
+    {
+      "metric": "economizer metal temperature rise offline",
+      "basis": "B&W: economiser metal temperature can increase at 30-50 F/h (17-28 C/h) during an offline/air-leakage period",
+      "source": {
+        "url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations",
+        "source_id": "bw-boiler-cycling"
+      },
+      "unit": "degC/h",
+      "low": 17,
+      "high": 28
+    },
+    {
+      "metric": "integrated condensing heat-exchanger efficiency",
+      "basis": "ClearFire-CE AHRI thermal efficiency 96.0% with condensing heat exchanger",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cb-cfce"
+      },
+      "unit": "%",
+      "value": 96
+    },
+    {
+      "metric": "boiler horsepower heat-transfer convention",
+      "basis": "US convention: 5 sq ft of heat-transfer surface per boiler horsepower is common after 1900 (10 before)",
+      "source": {
+        "url": "https://engineeringtoolbox.com/boiler-horsepower-d_1061.html",
+        "source_id": "etb-boiler-horsepower"
+      },
+      "unit": "sq ft/BHP",
+      "value": 5
+    }
+  ],
+  "vendors": [
+    "babcock-wilcox",
+    "cleaver-brooks",
+    "spirax-sarco"
+  ],
+  "sources": [
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/miscellaneous-boiler-types-economisers-and-superheaters?sc_lang=en-GB",
+      "source_id": "spirax-boiler-misc"
+    },
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB",
+      "source_id": "spirax-feedtank"
+    },
+    {
+      "url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations",
+      "source_id": "bw-boiler-cycling"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "aliases": [
+    "economiser",
+    "feedwater heater",
+    "stack heat recovery",
+    "condensing economizer"
+  ],
+  "applications": [
+    "steam boilers",
+    "HRSGs",
+    "condensing hot-water boilers"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "rot-heat-exchangers"
+  ],
+  "gaps": [
+    {
+      "what": "economizer duty and surface area for the gas boiler lines",
+      "why": "Read pages give the efficiency rule of thumb but no duty or surface-area tables.",
+      "next_action": "Read OEM economizer specification sheets with gas inlet/outlet temperatures."
+    }
+  ]
+}

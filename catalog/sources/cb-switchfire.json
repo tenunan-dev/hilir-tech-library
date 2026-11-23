@@ -1,0 +1,25 @@
+{
+  "id": "cb-switchfire",
+  "name": "SwitchFire condensing boiler",
+  "url": "https://cleaverbrooks.com/product/switchfire",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Cleaver-Brooks",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Dual-fuel and gas-only condensing firetube, 6,000/10,000/12,000 MBH; AHRI combustion 95.6% / thermal 96.3%; gas-only premix up to 15:1 turndown and sub-20 ppm NOx (7 ppm optional); dual-fuel Weishaupt burner up to 6:1 and sub-30 ppm on natural gas. Evidence: https://cleaverbrooks.com/product/switchfire"
+}

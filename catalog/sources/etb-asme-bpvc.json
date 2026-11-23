@@ -1,0 +1,26 @@
+{
+  "id": "etb-asme-bpvc",
+  "name": "ASME Boiler and Pressure Vessel Code summary (Engineering ToolBox)",
+  "url": "https://engineeringtoolbox.com/asme-boiler-vessel-code-d_8.html",
+  "source_type": "trade-media",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT",
+    "HSE"
+  ],
+  "publisher_org": "Engineering ToolBox",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Secondary summary of ASME BPVC sections; primary ASME pages are catalogued separately as asme-bpvc / asme-bpvc-certification. Evidence: https://engineeringtoolbox.com/asme-boiler-vessel-code-d_8.html"
+}

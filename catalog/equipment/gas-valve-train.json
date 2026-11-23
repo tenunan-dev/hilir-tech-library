@@ -1,0 +1,99 @@
+{
+  "id": "gas-valve-train",
+  "name": "Boiler fuel gas train (double block and bleed)",
+  "equipment_type": "valve-train",
+  "description": "Pre-assembled piping that conditions and safely isolates gaseous fuel before the burner: regulator, main shutoff valves, vent, pressure switches and manual isolation. Cleaver-Brooks lists natural gas, refinery gas, hydrogen, landfill, digester and tail gas; trains are designed to NFPA 85, FM, CSA B149.3 and ASME B31.1/B31.3 with SIL and hazardous-area options.",
+  "specifications": [
+    {
+      "metric": "fuels handled",
+      "basis": "Natural gas, refinery gas, hydrogen, landfill gas, digester gas and tail gas",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/fuel-train",
+        "source_id": "cb-fuel-train"
+      },
+      "unit": "qualitative",
+      "value": "multiple gaseous fuels"
+    },
+    {
+      "metric": "design codes",
+      "basis": "NFPA 85, FM, CSA B149.3, ASME B31.1 or B31.3; SIL and hazardous-location designs offered",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/fuel-train",
+        "source_id": "cb-fuel-train"
+      },
+      "unit": "qualitative",
+      "value": "NFPA 85 / FM / CSA B149.3 / ASME B31.1 or B31.3"
+    },
+    {
+      "metric": "main shutoff arrangement",
+      "basis": "Zeeco PLN/GO standard equipment: ventless regulator, ventless dual block main gas shutoff valves, high/low pressure switches and two manual gas valves",
+      "source": {
+        "url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner",
+        "source_id": "zeeco-pln-burner"
+      },
+      "unit": "qualitative",
+      "value": "dual block main shutoff with ventless regulator"
+    },
+    {
+      "metric": "pilot train components",
+      "basis": "Pilot train has its own regulator, solenoid valve and manual valve",
+      "source": {
+        "url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner",
+        "source_id": "zeeco-pln-burner"
+      },
+      "unit": "qualitative",
+      "value": "regulator + solenoid + manual valve"
+    }
+  ],
+  "vendors": [
+    "cleaver-brooks",
+    "zeeco"
+  ],
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/fuel-train",
+      "source_id": "cb-fuel-train"
+    },
+    {
+      "url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner",
+      "source_id": "zeeco-pln-burner"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PCH",
+    "PRC",
+    "HSE"
+  ],
+  "aliases": [
+    "gas train",
+    "fuel train",
+    "double block and bleed valve train",
+    "gas regulator skid"
+  ],
+  "applications": [
+    "gas-fired package boilers",
+    "fired heaters",
+    "duct burners"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "rot-valves-actuators",
+    "hse-gas-flame-detection"
+  ],
+  "gaps": [
+    {
+      "what": "explicit vent arrangement and valve proof-of-closure details",
+      "why": "The read pages name dual block valves and a ventless regulator but do not give a full P&ID or vent routing.",
+      "next_action": "Read a fuel-train P&ID from an OEM or NFPA 85 primary text."
+    },
+    {
+      "what": "gas booster/compressor sizing for low supply pressure",
+      "why": "No read page gives booster sizing or pressure-drop data.",
+      "next_action": "Find a gas-pressure and booster selection reference."
+    }
+  ]
+}

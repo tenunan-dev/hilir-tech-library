@@ -1,0 +1,52 @@
+{
+  "id": "spiritwood-station-cfb-chp",
+  "name": "Spiritwood Station CFB CHP plant",
+  "aliases": [],
+  "country": "US",
+  "location": "North Dakota",
+  "status": "operating",
+  "project_type": "greenfield",
+  "description": "Approximately 56 MW net electricity plus process steam for an adjacent malt plant, using a B&W internal-recirculation circulating fluidized bed boiler.",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC"
+  ],
+  "capacities": [
+    {
+      "metric": "net power generation",
+      "value": 56,
+      "unit": "MW",
+      "basis": "Approximately 56 MW net stated in the B&W success story on the CFB page.",
+      "source": {
+        "url": "https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers",
+        "source_id": "bw-cfb-boilers"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Great River Energy",
+      "role": "owner"
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Babcock & Wilcox",
+      "role": "EPC / supplier"
+    }
+  ],
+  "technologies": [
+    "pwr-cogeneration-chp",
+    "pwr-gas-fired-boilers"
+  ],
+  "milestones": [],
+  "sources": [
+    {
+      "url": "https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers",
+      "source_id": "bw-cfb-boilers"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Coal-fired IR-CFB, not natural gas; recorded as a CFB plant reference only."
+}

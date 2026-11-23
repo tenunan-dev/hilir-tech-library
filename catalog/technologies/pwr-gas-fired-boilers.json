@@ -1,0 +1,392 @@
+{
+  "id": "pwr-gas-fired-boilers",
+  "name": "Gas-fired steam and hot-water boilers",
+  "aliases": [
+    "Gas-fired boiler",
+    "Natural gas boiler",
+    "Gas boiler",
+    "Packaged boiler",
+    "Condensing gas boiler",
+    "Gas-fired steam generator"
+  ],
+  "sector": "PWR",
+  "category": "Steam generation",
+  "applications": [
+    "process steam for refineries, petrochemical and industrial plants",
+    "on-site utility steam and combined heat and power",
+    "building and campus hot-water heating",
+    "supplementary firing in HRSGs behind gas turbines",
+    "fuel-flexible CFB steam generation and solid-fuel-to-gas conversion"
+  ],
+  "maturity": "commercial",
+  "principle": "A gas-fired boiler burns natural gas (or another gaseous fuel) in a contained furnace and transfers the heat through pressure-part surfaces to water, producing steam or hot water. Package fire-tube boilers pass hot gas through tubes surrounded by water; water-tube boilers pass water through tubes in the gas path and separate steam in a drum or use once-through circuits; condensing designs cool the flue gas below its dew point to recover latent heat. Low-NOx burners, flue-gas recirculation and post-combustion catalysts control emissions. Heat recovery steam generators raise steam from gas-turbine exhaust and may burn additional gas in the duct.",
+  "process_steps": [
+    {
+      "id": "FUEL",
+      "name": "Gas and combustion air are metered and conditioned",
+      "equipment": [
+        "gas valve train",
+        "regulator",
+        "double block and bleed shutoff valves",
+        "forced-draft fan"
+      ],
+      "to": [
+        "BURN"
+      ],
+      "streams": {
+        "BURN": "fuel gas + air"
+      }
+    },
+    {
+      "id": "BURN",
+      "name": "Low-NOx burner fires into the water-cooled furnace",
+      "equipment": [
+        "low-NOx gas burner",
+        "flame scanner",
+        "burner management system",
+        "furnace / membrane walls"
+      ],
+      "to": [
+        "HEAT"
+      ]
+    },
+    {
+      "id": "HEAT",
+      "name": "Heat crosses the heat-transfer surfaces into boiler water",
+      "equipment": [
+        "fire tubes or water tubes",
+        "tube sheets / headers",
+        "superheater",
+        "economizer"
+      ],
+      "to": [
+        "STEAM"
+      ]
+    },
+    {
+      "id": "STEAM",
+      "name": "Steam separates and is conditioned for export or the turbine",
+      "equipment": [
+        "steam drum",
+        "attemperator / desuperheater",
+        "safety relief valves",
+        "steam stop valves"
+      ]
+    },
+    {
+      "id": "FEED",
+      "name": "Condensate and make-up are deaerated, heated and pumped back",
+      "equipment": [
+        "feedtank / deaerator",
+        "feedwater pump",
+        "feedwater heater",
+        "blowdown vessel"
+      ],
+      "to": [
+        "HEAT"
+      ],
+      "streams": {
+        "HEAT": "deaerated feedwater"
+      }
+    },
+    {
+      "id": "GASOUT",
+      "name": "Flue gas passes heat recovery and emission controls to the stack",
+      "equipment": [
+        "economizer",
+        "air preheater",
+        "SCR or SNCR",
+        "induced-draft fan",
+        "stack"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "low-NOx / ultra-low-NOx gas burner",
+    "burner management and flame safeguard system",
+    "fuel gas train",
+    "furnace and membrane water walls",
+    "fire tubes or water tubes and tube sheets",
+    "steam drum and mud drum",
+    "superheater and attemperator",
+    "economizer",
+    "air preheater",
+    "deaerator and feedwater pump",
+    "safety relief valves and blowdown system",
+    "forced- and induced-draft fans",
+    "SCR / SNCR and CEMS",
+    "boiler controls and oxygen trim"
+  ],
+  "suppliers": [
+    {
+      "name": "Cleaver-Brooks",
+      "product": "CBEX/CBLE firetube, ClearFire-CE and SwitchFire condensing boilers, ProFire burners"
+    },
+    {
+      "name": "Miura",
+      "product": "once-through vertical water-tube steam generators and ultra-low-NOx LX burners"
+    },
+    {
+      "name": "Babcock & Wilcox",
+      "product": "industrial water-tube package boilers, IR-CFB boilers and HRSG pressure parts"
+    },
+    {
+      "name": "Fulton",
+      "product": "packaged steam boilers"
+    },
+    {
+      "name": "Zeeco",
+      "product": "PLN/GO low-NOx package burners, SCR systems and CFB gas-conversion burners"
+    },
+    {
+      "name": "John Zink",
+      "product": "ECOjet Edge+, QLN and duct burners"
+    },
+    {
+      "name": "ALZETA",
+      "product": "surface-stabilised ultra-low-NOx burners"
+    },
+    {
+      "name": "Valmet",
+      "product": "CFB boilers with partial-bed low-load operation"
+    },
+    {
+      "name": "Spirax Sarco",
+      "product": "feedtanks, deaerators, valves and steam-system engineering guidance"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "minimum combustion efficiency, large gas-fired commercial hot-water boiler",
+      "low": 96,
+      "high": 96,
+      "unit": "% Ec",
+      "basis": "US DOE FEMP purchasing requirement for 2.5-10 MMBtu/hr input gas-fired hot-water boilers, based on 10 CFR 431.86; federal purchase minimum, not a product rating.",
+      "source": {
+        "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers",
+        "source_id": "doe-femp-boilers"
+      }
+    },
+    {
+      "metric": "AHRI thermal efficiency, condensing gas hot-water boiler",
+      "low": 94.7,
+      "high": 96,
+      "unit": "%",
+      "basis": "Cleaver-Brooks ClearFire-CE technical data: AHRI combustion 94.7%, AHRI thermal 96.0%; 'up to 99%' is OEM marketing wording and is not used here.",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cb-cfce"
+      }
+    },
+    {
+      "metric": "NOx, natural-gas low-NOx burner without FGR",
+      "low": 9,
+      "high": 40,
+      "unit": "ppm",
+      "basis": "Zeeco PLN brochure ladder: 40 ppm at 40% excess air, 30 at 45%, 15 at 50%, 9 at 60%; the page does not state the O2 reference basis, so these are not directly comparable to 3%-O2 figures.",
+      "source": {
+        "url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner",
+        "source_id": "zeeco-pln-burner"
+      }
+    },
+    {
+      "metric": "NOx, natural-gas burner at about 3% O2 without FGR",
+      "low": 15,
+      "high": 30,
+      "unit": "ppm at about 3% O2",
+      "basis": "Cleaver-Brooks SBR-30 under 30 ppm; John Zink ECOjet Edge+ as low as 15 ppm without FGR in select applications (vendor claims).",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cb-sbr30-burner"
+      }
+    },
+    {
+      "metric": "NOx, ultra-low-NOx burner with flue-gas recirculation",
+      "low": 5,
+      "high": 5,
+      "unit": "ppm at about 3% O2",
+      "basis": "Cleaver-Brooks SBR-5 with induced FGR at about 3% O2 (body states 3-4%); ALZETA surface-stabilised burner below 5 ppm corrected to 3% O2.",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr5-burner",
+        "source_id": "cb-sbr5-burner"
+      }
+    },
+    {
+      "metric": "turndown, package gas burners",
+      "low": 10,
+      "high": 10,
+      "unit": ":1",
+      "basis": "Cleaver-Brooks SBR-30/SBR-5 and Zeeco PLN/GO stated firing turndown on gaseous fuel; ClearFire-CE condensing boiler also 10:1.",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cb-sbr30-burner"
+      }
+    },
+    {
+      "metric": "efficiency improvement per feedwater temperature rise",
+      "low": 2,
+      "high": 2,
+      "unit": "% per 10 degC",
+      "basis": "Spirax Sarco: in broad terms each 10 C increase in feedwater temperature gives about a 2% boiler efficiency improvement.",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/miscellaneous-boiler-types-economisers-and-superheaters?sc_lang=en-GB",
+        "source_id": "spirax-boiler-misc"
+      }
+    },
+    {
+      "metric": "US combined-cycle capacity equipped with duct burners",
+      "low": 208,
+      "high": 208,
+      "unit": "GW",
+      "basis": "About 75% of the 278 GW US combined-cycle fleet, EIA data from EIA-860 and EIA-923, article 15 June 2022.",
+      "source": {
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=52778",
+        "source_id": "eia-duct-burners"
+      }
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Sultan Ibrahim power plant, Track 4A (Pasir Gudang, Johor)",
+      "country": "MY",
+      "capacity": "1,440 MW total; two 9HA.02 gas turbines, two once-through HRSGs",
+      "status": "operating",
+      "project_id": "sultan-ibrahim-power-plant-track-4a",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/resources/case-studies/southern-power-generations-track-4a-employs-9ha"
+      }
+    },
+    {
+      "name": "GS Caltex Yeosu complex (SOLEX burner retrofit)",
+      "country": "KR",
+      "capacity": "32 SOLEX burners; under 5 ppm NOx, SCR avoided",
+      "status": "operating",
+      "project_id": "gs-caltex-yeosu-solex-burners",
+      "source": {
+        "url": "https://johnzink.com/products/powerburners/ecojet-edge-plus",
+        "source_id": "jz-ecojet-edge"
+      }
+    }
+  ],
+  "advantages": [
+    "commercial, widely available technology with packaged delivery and short erection times",
+    "natural gas gives low particulate and sulphur emissions and straightforward control",
+    "modern low-NOx and condensing configurations reach very low NOx and high efficiency",
+    "fuel flexibility: dual-fuel, refinery gas, hydrogen blends and CFB gas conversion"
+  ],
+  "limitations": [
+    "NOx figures from different vendors use different O2 and excess-air bases and are not directly comparable",
+    "condensing operation needs corrosion-resistant heat-exchange surfaces and condensate management",
+    "gas supply pressure and composition must be managed; booster/compressor sizing was not evidenced in this sweep",
+    "HRSG and duct-burner scope at named combined-cycle plants is often not explicit in the cited pages"
+  ],
+  "notes": "Process provenance: sources read 2026-11-24 cover shell/water-tube construction (Spirax Sarco), burner and emissions performance (Cleaver-Brooks, Zeeco, John Zink, ALZETA, Miura), feedwater and safety practice (Spirax Sarco, B&W), HRSG duct firing (GE Vernova, EIA, Tetra, B&W), CFB gas conversion (Zeeco, EPA) and codes (ASME, NFPA 85, EPA Boiler MACT). Vendor performance claims are labelled as such; no figure was estimated.",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost per kW or per t/h of steam for gas-fired package boilers in 2026 USD",
+      "reason_code": "not_in_sources_read",
+      "reason": "No page read in this sweep states a boiler installed cost with a dollar year; DOE FEMP cost examples on the read page omit the year.",
+      "where": [
+        {
+          "hint": "DOE FEMP boiler purchasing guide and recent EPC cost benchmarks; record the cost year",
+          "source_id": "doe-femp-boilers"
+        }
+      ],
+      "action": "Find a dated installed-cost reference before adding any cost figure to this card."
+    },
+    {
+      "field": "performance",
+      "item": "site-specific NOx on a common O2 basis for the named burners",
+      "reason_code": "conflicting_sources",
+      "reason": "Zeeco quotes ppm at varying excess air without an O2 basis, while Cleaver-Brooks, ALZETA and Miura quote ppm at about 3% O2.",
+      "where": [
+        {
+          "hint": "Vendor emission test sheets stating the O2 reference and fuel",
+          "source_id": "zeeco-pln-burner"
+        }
+      ],
+      "action": "Normalise the figures to a stated O2 basis before comparing them."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named 100% natural-gas-fired CFB boiler plant with owner, capacity and status",
+      "reason_code": "not_in_sources_read",
+      "reason": "Read OEM pages cover solid/multi-fuel CFB; the Zeeco gas-conversion paper PDF was not fetched and the EPA 40 ppm datum is an alumina calciner, not a boiler.",
+      "where": [
+        {
+          "hint": "Zeeco/ASME POWER2014-32258 paper and CFB operators' conversion case studies",
+          "source_id": "zeeco-cfb-gas-conversion"
+        }
+      ],
+      "action": "Read the conversion paper and record a named plant if one is identified."
+    },
+    {
+      "field": "performance",
+      "item": "duct-burner fuel input range and FGR ratios with design basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "Read HRSG pages give burner types and inspection limits but no quantified duct-firing duty or FGR ratio.",
+      "where": [
+        {
+          "hint": "HRSG OEM duct-burner specification sheets with heat input",
+          "source_id": "tetra-duct-burners"
+        }
+      ],
+      "action": "Add a sourced duty range when a specification sheet is read."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+      "source_id": "spirax-shell-boilers",
+      "note": "Shell boiler construction and limits"
+    },
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+      "source_id": "spirax-water-tube-boilers",
+      "note": "Water-tube construction and steam conditions"
+    },
+    {
+      "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers",
+      "source_id": "doe-femp-boilers",
+      "note": "FEMP efficiency requirements"
+    },
+    {
+      "url": "https://cleaverbrooks.com/product/cfce",
+      "source_id": "cb-cfce",
+      "note": "Condensing boiler performance"
+    },
+    {
+      "url": "https://cleaverbrooks.com/product/sbr5-burner",
+      "source_id": "cb-sbr5-burner",
+      "note": "Ultra-low-NOx burner with FGR"
+    },
+    {
+      "url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner",
+      "source_id": "zeeco-pln-burner",
+      "note": "NOx versus excess air"
+    },
+    {
+      "url": "https://johnzink.com/products/powerburners/ecojet-edge-plus",
+      "source_id": "jz-ecojet-edge",
+      "note": "ECOjet Edge+ performance and installed base"
+    },
+    {
+      "url": "https://www.gevernova.com/gas-power/products/hrsg",
+      "source_id": "ge-vernova-hrsg",
+      "note": "HRSG configurations and plant references"
+    },
+    {
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=52778",
+      "source_id": "eia-duct-burners",
+      "note": "US duct-burner fleet statistics"
+    },
+    {
+      "url": "https://www.asme.org/certification-accreditation/boiler-and-pressure-vessel-certification",
+      "source_id": "asme-bpvc-certification",
+      "note": "BPVC certificate categories"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

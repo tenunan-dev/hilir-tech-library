@@ -1,0 +1,145 @@
+{
+  "id": "boiler-gas-cfb",
+  "name": "Gas-fired and gas-conversion circulating fluidized bed boiler",
+  "equipment_type": "boiler",
+  "description": "Circulating fluidized bed boiler in which fine solids are suspended in a high-velocity gas stream and circulated through a cyclone or U-beam collector back to the furnace. Commercial CFB lines from the OEMs read are dominated by solid and multi-fuel designs; natural-gas firing is evidenced as a solid-fuel-to-gas conversion offering and as gas firing in a circulating-bed alumina calciner, not as a dedicated gas-fired boiler product.",
+  "specifications": [
+    {
+      "metric": "steam capacity, B&W IR-CFB",
+      "basis": "B&W IR-CFB product specifications: 2.2 million lb/h (277 kg/s) or greater as required",
+      "source": {
+        "url": "https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers",
+        "source_id": "bw-cfb-boilers"
+      },
+      "unit": "lb/h",
+      "value": 2200000
+    },
+    {
+      "metric": "steam pressure, B&W IR-CFB",
+      "basis": "B&W: 'to 2600 psig' (17.9 MPa)",
+      "source": {
+        "url": "https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers",
+        "source_id": "bw-cfb-boilers"
+      },
+      "unit": "psig",
+      "value": 2600
+    },
+    {
+      "metric": "steam temperature, B&W IR-CFB",
+      "basis": "B&W: 'as required, usually to 1050 F (566 C)'",
+      "source": {
+        "url": "https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers",
+        "source_id": "bw-cfb-boilers"
+      },
+      "unit": "degF",
+      "value": 1050
+    },
+    {
+      "metric": "size range, Valmet CFB",
+      "basis": "Valmet: boilers from 30 to 1,200 MWth (solid/multi-fuel range)",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-cfb"
+      },
+      "unit": "MWth",
+      "low": 30,
+      "high": 1200
+    },
+    {
+      "metric": "size range, ANDRITZ waste CFB",
+      "basis": "ANDRITZ PowerFluid Waste CFB: 50-200 t/h steam (40-150 MW)",
+      "source": {
+        "url": "https://www.andritz.com/products-en/tiac/environmental-solutions/powerfluid-boilers",
+        "source_id": "andritz-cfb-boilers"
+      },
+      "unit": "t/h",
+      "low": 50,
+      "high": 200
+    },
+    {
+      "metric": "fluidizing velocity, CFB",
+      "basis": "EPA technology overview: about 10-30 ft/s for CFB versus 2-12 ft/s for conventional FBC; historical report, not a current guarantee",
+      "source": {
+        "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100RMKB.TXT",
+        "source_id": "epa-cfb-overview"
+      },
+      "unit": "ft/s",
+      "low": 10,
+      "high": 30
+    },
+    {
+      "metric": "natural-gas NOx in circulating fluid bed calciner",
+      "basis": "EPA report: 40 ppm NOx achieved with natural gas firing in a Lurgi circulating fluid bed alumina calciner at up to 2,650 F; this is NOT a steam boiler",
+      "source": {
+        "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100RMKB.TXT",
+        "source_id": "epa-cfb-overview"
+      },
+      "unit": "ppm",
+      "value": 40
+    }
+  ],
+  "vendors": [
+    "babcock-wilcox",
+    "valmet",
+    "andritz",
+    "zeeco"
+  ],
+  "sources": [
+    {
+      "url": "https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers",
+      "source_id": "bw-cfb-boilers"
+    },
+    {
+      "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+      "source_id": "valmet-cfb"
+    },
+    {
+      "url": "https://www.andritz.com/products-en/tiac/environmental-solutions/powerfluid-boilers",
+      "source_id": "andritz-cfb-boilers"
+    },
+    {
+      "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100RMKB.TXT",
+      "source_id": "epa-cfb-overview"
+    },
+    {
+      "url": "https://www.zeeco.com/resources/news/solid-fuel-to-natural-gas-conversions-for-circulating-fluid-bed-boilers",
+      "source_id": "zeeco-cfb-gas-conversion"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "aliases": [
+    "CFB boiler",
+    "circulating fluidized bed steam generator",
+    "gas conversion CFB"
+  ],
+  "applications": [
+    "industrial steam",
+    "CHP",
+    "refinery fuel flexibility",
+    "solid-fuel-to-gas conversion"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "pwr-biomass-waste-to-energy"
+  ],
+  "gaps": [
+    {
+      "what": "named 100% natural-gas-fired CFB boiler plant with owner, capacity, status and date",
+      "why": "Read OEM pages cover solid and multi-fuel CFB; the Zeeco technical paper PDF was not fetched and the EPA datum is an alumina calciner.",
+      "next_action": "Read the Zeeco/ASME POWER2014-32258 paper and any operator conversion case study."
+    },
+    {
+      "what": "gas-fired CFB burner counts, gas-train specifications and emission guarantees",
+      "why": "No read page gives these for a gas-fired CFB boiler.",
+      "next_action": "Search OEM conversion case studies and burner datasheets."
+    }
+  ]
+}

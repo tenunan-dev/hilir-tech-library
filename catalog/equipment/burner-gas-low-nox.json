@@ -1,0 +1,201 @@
+{
+  "id": "burner-gas-low-nox",
+  "name": "Low-NOx gas burner (package and ultra-low-NOx)",
+  "equipment_type": "burner",
+  "description": "Burner that stages fuel and air, delays mixing or recirculates flue gas to lower flame temperature and NOx formation. Package gas burners span roughly 10-500 MMBtu/hr with 10:1 turndown; ultra-low-NOx versions reach single-digit ppm NOx with flue-gas recirculation or surface-stabilised premixed combustion. Used on fire-tube, water-tube and hot-water boilers and on refinery fired heaters.",
+  "specifications": [
+    {
+      "metric": "NOx, natural gas without FGR",
+      "basis": "Cleaver-Brooks SBR-30: under 30 ppm at about 3% O2 across a wide load range",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cb-sbr30-burner"
+      },
+      "unit": "ppm at about 3% O2",
+      "value": 30
+    },
+    {
+      "metric": "heat input, SBR-30",
+      "basis": "16,800-54,600 MBH (16.8-54.6 MMBtu/hr); 400-1,300 HP boilers",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cb-sbr30-burner"
+      },
+      "unit": "MMBtu/hr",
+      "low": 16.8,
+      "high": 54.6
+    },
+    {
+      "metric": "heat input, SBR-5",
+      "basis": "10,500-42,000 MBH (10.5-42 MMBtu/hr); 250-1,000 HP boilers, gas or ASTM 2D-S15",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr5-burner",
+        "source_id": "cb-sbr5-burner"
+      },
+      "unit": "MMBtu/hr",
+      "low": 10.5,
+      "high": 42
+    },
+    {
+      "metric": "NOx with induced FGR",
+      "basis": "SBR-5: 5 ppm at about 3% O2 (body states 3-4%) with induced FGR",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr5-burner",
+        "source_id": "cb-sbr5-burner"
+      },
+      "unit": "ppm",
+      "value": 5
+    },
+    {
+      "metric": "NOx ladder versus excess air, Zeeco PLN",
+      "basis": "40 ppm at 40%, 30 at 45%, 15 at 50%, 9 at 60% excess air without FGR; O2 reference basis not stated",
+      "source": {
+        "url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner",
+        "source_id": "zeeco-pln-burner"
+      },
+      "unit": "ppm",
+      "low": 9,
+      "high": 40
+    },
+    {
+      "metric": "heat release, Zeeco PLN/GO",
+      "basis": "2.5-63 MMBtu/hr (0.73-18.5 MW), natural gas, LPG or other on request",
+      "source": {
+        "url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner",
+        "source_id": "zeeco-pln-burner"
+      },
+      "unit": "MMBtu/hr",
+      "low": 2.5,
+      "high": 63
+    },
+    {
+      "metric": "NOx with staged flame and internal FGR",
+      "basis": "Zeeco GO: 30 ppm at 15% excess air on natural gas/propane without external FGR; O2 basis not stated",
+      "source": {
+        "url": "https://zeeco.com/resources/brochures/go-ultra-low-nox-package-burner",
+        "source_id": "zeeco-go-burner"
+      },
+      "unit": "ppm",
+      "value": 30
+    },
+    {
+      "metric": "NOx without FGR, ECOjet Edge+",
+      "basis": "John Zink: as low as 15 ppm without FGR in select applications; more than 350 ECOjet installations (vendor statement)",
+      "source": {
+        "url": "https://johnzink.com/products/powerburners/ecojet-edge-plus",
+        "source_id": "jz-ecojet-edge"
+      },
+      "unit": "ppm",
+      "value": 15
+    },
+    {
+      "metric": "NOx, surface-stabilised premix burner",
+      "basis": "ALZETA: below 5 ppm corrected to 3% O2 for most commercial and industrial heating applications",
+      "source": {
+        "url": "https://alzeta.com/ultra-low-nox-burners",
+        "source_id": "alzeta-ulnox"
+      },
+      "unit": "ppm at 3% O2",
+      "value": 5
+    },
+    {
+      "metric": "turndown, package gas burners",
+      "basis": "10:1 stated for SBR-30/SBR-5 and Zeeco PLN/GO",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cb-sbr30-burner"
+      },
+      "unit": ":1",
+      "value": 10
+    }
+  ],
+  "vendors": [
+    "cleaver-brooks",
+    "zeeco",
+    "john-zink",
+    "alzeta",
+    "miura"
+  ],
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/sbr30-burner",
+      "source_id": "cb-sbr30-burner"
+    },
+    {
+      "url": "https://cleaverbrooks.com/product/sbr5-burner",
+      "source_id": "cb-sbr5-burner"
+    },
+    {
+      "url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner",
+      "source_id": "zeeco-pln-burner"
+    },
+    {
+      "url": "https://johnzink.com/products/powerburners/ecojet-edge-plus",
+      "source_id": "jz-ecojet-edge"
+    },
+    {
+      "url": "https://alzeta.com/ultra-low-nox-burners",
+      "source_id": "alzeta-ulnox"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PCH",
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "aliases": [
+    "ultra-low-NOx burner",
+    "low-NOx gas burner",
+    "FGR burner",
+    "premix burner"
+  ],
+  "applications": [
+    "package steam boilers",
+    "hot-water boilers",
+    "refinery fired heaters",
+    "process heaters"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "rot-fired-heaters-low-nox-burners",
+    "hse-nox-control"
+  ],
+  "vendor_models": [
+    {
+      "vendor": "cleaver-brooks",
+      "line": "ProFire SBR-30 / SBR-5",
+      "range": "16.8-54.6 and 10.5-42 MMBtu/hr; 10:1; 30 ppm without FGR / 5 ppm with FGR",
+      "url": "https://cleaverbrooks.com/product/sbr5-burner"
+    },
+    {
+      "vendor": "zeeco",
+      "line": "PLN / GO",
+      "range": "2.5-63 MMBtu/hr; 10:1; 9-40 ppm versus excess air (PLN), 30 ppm at 15% excess air (GO)",
+      "url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner"
+    },
+    {
+      "vendor": "john-zink",
+      "line": "ECOjet Edge+",
+      "range": "as low as 15 ppm NOx without FGR in select applications; natural gas to 100% hydrogen",
+      "url": "https://johnzink.com/products/powerburners/ecojet-edge-plus"
+    },
+    {
+      "vendor": "alzeta",
+      "line": "surface-stabilised premix",
+      "range": "below 5 ppm corrected to 3% O2",
+      "url": "https://alzeta.com/ultra-low-nox-burners"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "common O2 reference basis for the quoted NOx figures",
+      "why": "Zeeco quotes ppm against excess air without an O2 basis; other vendors quote about 3% O2.",
+      "next_action": "Obtain emission test sheets stating both excess air and O2 reference."
+    }
+  ]
+}

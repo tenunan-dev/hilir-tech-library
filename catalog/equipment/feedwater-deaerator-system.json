@@ -1,0 +1,171 @@
+{
+  "id": "feedwater-deaerator-system",
+  "name": "Feedtank, deaerator and feedwater pump",
+  "equipment_type": "feedwater",
+  "description": "System that stores returned condensate and make-up, heats it and removes dissolved oxygen before the feedwater pump delivers it to the boiler. Atmospheric feedtanks operate at 85-90 C; pressurised deaerators at 0.2 bar g / 105 C with 10-20 minutes of storage, about 5:1 turndown and a vent rate of 0.5-2 kg per 1,000 kg/h of capacity.",
+  "specifications": [
+    {
+      "metric": "atmospheric feedtank temperature",
+      "basis": "Spirax Sarco: typically 85-90 C, giving about 2 mg/L dissolved oxygen",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB",
+        "source_id": "spirax-deaerators"
+      },
+      "unit": "degC",
+      "low": 85,
+      "high": 90
+    },
+    {
+      "metric": "pressurised deaerator pressure",
+      "basis": "0.2 bar g, equivalent saturation temperature 105 C",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB",
+        "source_id": "spirax-deaerators"
+      },
+      "unit": "bar g",
+      "value": 0.2
+    },
+    {
+      "metric": "deaerator storage on full boiler load",
+      "basis": "10-20 minutes",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB",
+        "source_id": "spirax-deaerators"
+      },
+      "unit": "min",
+      "low": 10,
+      "high": 20
+    },
+    {
+      "metric": "water supply pressure to nozzles",
+      "basis": "At least 2 bar for good nozzle distribution",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB",
+        "source_id": "spirax-deaerators"
+      },
+      "unit": "bar",
+      "value": 2
+    },
+    {
+      "metric": "steam supply pressure to pressure control valve",
+      "basis": "5-10 bar",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB",
+        "source_id": "spirax-deaerators"
+      },
+      "unit": "bar",
+      "low": 5,
+      "high": 10
+    },
+    {
+      "metric": "deaerator turndown",
+      "basis": "Approximately 5:1",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB",
+        "source_id": "spirax-deaerators"
+      },
+      "unit": ":1",
+      "value": 5
+    },
+    {
+      "metric": "deaerator vent rate",
+      "basis": "Manufacturers tend to recommend 0.5-2 kg of steam/air mixture per 1,000 kg/h of capacity",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB",
+        "source_id": "spirax-deaerators"
+      },
+      "unit": "kg per 1000 kg/h",
+      "low": 0.5,
+      "high": 2
+    },
+    {
+      "metric": "feedwater pH",
+      "basis": "Maintain feedwater at not less than pH 8.5 to 9 to limit CO2 corrosion",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB",
+        "source_id": "spirax-deaerators"
+      },
+      "unit": "pH",
+      "low": 8.5,
+      "high": 9
+    },
+    {
+      "metric": "dissolved oxygen, high-pressure water-tube boilers",
+      "basis": "Typically less than 7 ppb where superheated steam is required",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB",
+        "source_id": "spirax-deaerators"
+      },
+      "unit": "ppb",
+      "value": 7
+    },
+    {
+      "metric": "feedtank capacity convention",
+      "basis": "Traditional practice: sufficient capacity for one hour of steaming at maximum evaporation",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB",
+        "source_id": "spirax-feedtank"
+      },
+      "unit": "hours",
+      "value": 1
+    },
+    {
+      "metric": "condensate return cavitation risk",
+      "basis": "Very high condensate return rates, typically over 80%, may cause excessive feedwater temperature and feedpump cavitation",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB",
+        "source_id": "spirax-feedtank"
+      },
+      "unit": "%",
+      "value": 80
+    }
+  ],
+  "vendors": [
+    "spirax-sarco",
+    "tlv",
+    "cleaver-brooks"
+  ],
+  "sources": [
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB",
+      "source_id": "spirax-deaerators"
+    },
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB",
+      "source_id": "spirax-feedtank"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "aliases": [
+    "deaerator",
+    "feedwater tank",
+    "feed pump",
+    "feedtank",
+    "feedwater conditioning"
+  ],
+  "applications": [
+    "steam boilers",
+    "HRSGs",
+    "cogeneration"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "rot-pumps",
+    "rot-heat-exchangers"
+  ],
+  "gaps": [
+    {
+      "what": "feedpump head, NPSH and duty for the packaged boiler lines",
+      "why": "Read pages cover deaeration and conditioning but give no pump curve or NPSH data.",
+      "next_action": "Read a feedpump selection sheet for a stated boiler duty."
+    }
+  ]
+}

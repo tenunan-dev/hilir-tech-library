@@ -1,10 +1,16 @@
 {
   "id": "boiler-hrsg",
   "name": "Heat recovery steam generator (HRSG)",
-  "aliases": ["HRSG", "heat-recovery steam generator", "exhaust heat boiler"],
+  "aliases": [
+    "HRSG",
+    "heat-recovery steam generator",
+    "exhaust heat boiler"
+  ],
   "equipment_type": "boiler",
   "sector": "PWR",
-  "sector_codes": ["PWR"],
+  "sector_codes": [
+    "PWR"
+  ],
   "description": "Boiler fired by hot combustion-turbine or furnace exhaust gas rather than by burners, raised in horizontal or vertical panels behind a gas turbine with one or more drum pressures and optionally reheat. Converts a gas turbine into a combined-cycle or cogeneration plant and is the deciding component for how much of the turbine exhaust energy becomes steam.",
   "applications": [
     "combined-cycle power generation",
@@ -22,6 +28,46 @@
         "url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
         "note": "US EPA technical support document: efficient generation from combustion turbine EGUs, April 2024"
       }
+    },
+    {
+      "metric": "installed HRSG fleet, GE Vernova",
+      "basis": "OEM statement: more than 1,300 HRSGs installed worldwide",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/hrsg",
+        "source_id": "ge-vernova-hrsg"
+      },
+      "unit": "units",
+      "value": 1300
+    },
+    {
+      "metric": "once-through HRSG operating experience",
+      "basis": "OEM statement: over 2.5 million operating hours for once-through HRSG technology",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/hrsg",
+        "source_id": "ge-vernova-hrsg"
+      },
+      "unit": "million hours",
+      "value": 2.5
+    },
+    {
+      "metric": "US combined-cycle capacity with duct burners",
+      "basis": "About 208 GW of 278 GW US combined-cycle fleet has duct burners, EIA-860/EIA-923, June 2022",
+      "source": {
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=52778",
+        "source_id": "eia-duct-burners"
+      },
+      "unit": "GW",
+      "value": 208
+    },
+    {
+      "metric": "HRSG component scope",
+      "basis": "B&W supplies HARPs, superheaters, reheaters, economisers, finned tubing, headers, casing, inlet ducting, HP/IP/LP drums and SCR/CO catalyst housings",
+      "source": {
+        "url": "https://www.babcock.com/home/products-services/specialized-businesses/hrsg-components-modules-harps-tubes",
+        "source_id": "bw-hrsg-components"
+      },
+      "unit": "qualitative",
+      "value": "pressure parts and catalyst housings"
     }
   ],
   "vendor_models": [
@@ -38,10 +84,48 @@
       "range": "state-of-the-art customized packaged heat-recovery steam generators for gas-fired turbines from 1 to 60 MW",
       "url": "https://cleaverbrooks.com",
       "note": "Cleaver-Brooks HRSG page description, search-verified 30 October 2026 (site returned 403 to direct fetch)"
+    },
+    {
+      "vendor": "ge-vernova",
+      "line": "Horizontal drum / horizontal once-through / vertical drum HRSG",
+      "range": "supplementary firing, SCR/CO catalysts, bypass and modular construction; 1,300+ installed (OEM statement)",
+      "url": "https://www.gevernova.com/gas-power/products/hrsg"
+    },
+    {
+      "vendor": "john-zink",
+      "line": "HRSG duct burners",
+      "range": "LDRW, VC and Coen-casting flame holders with igniters and flame scanners",
+      "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+    },
+    {
+      "vendor": "ge-vernova",
+      "line": "Horizontal drum / horizontal once-through / vertical drum HRSG",
+      "range": "supplementary firing, SCR/CO catalysts, bypass and modular construction; 1,300+ installed (OEM statement)",
+      "url": "https://www.gevernova.com/gas-power/products/hrsg"
+    },
+    {
+      "vendor": "john-zink",
+      "line": "HRSG duct burners",
+      "range": "LDRW, VC and Coen-casting flame holders with igniters and flame scanners",
+      "url": "https://www.johnzink.com/products/powerburners/duct-burner"
     }
   ],
-  "vendors": ["babcock-wilcox", "cleaver-brooks", "doosan-enerbility", "ihi", "sumitomo-shi-fw"],
-  "technologies": ["pwr-combined-cycle-hrsg", "pwr-cogeneration-chp"],
+  "vendors": [
+    "babcock-wilcox",
+    "cleaver-brooks",
+    "doosan-enerbility",
+    "ihi",
+    "sumitomo-shi-fw",
+    "ge-vernova",
+    "john-zink",
+    "tetra-engineering",
+    "entech-products"
+  ],
+  "technologies": [
+    "pwr-cogeneration-chp",
+    "pwr-combined-cycle-hrsg",
+    "pwr-gas-fired-boilers"
+  ],
   "sources": [
     {
       "url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
@@ -54,9 +138,29 @@
     {
       "url": "https://cleaverbrooks.com",
       "note": "Cleaver-Brooks HRSG page description (1-60 MW turbine HRSG), search-verified 30 October 2026"
+    },
+    {
+      "url": "https://www.gevernova.com/gas-power/products/hrsg",
+      "source_id": "ge-vernova-hrsg"
+    },
+    {
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=52778",
+      "source_id": "eia-duct-burners"
+    },
+    {
+      "url": "https://www.tetra-eng.com/whitepaper/duct-burners",
+      "source_id": "tetra-duct-burners"
+    },
+    {
+      "url": "https://www.babcock.com/home/products-services/specialized-businesses/hrsg-components-modules-harps-tubes",
+      "source_id": "bw-hrsg-components"
+    },
+    {
+      "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+      "source_id": "jz-duct-burner"
     }
   ],
-  "notes": "Further suppliers named on the combined-cycle HRSG card (GE Vernova, Siemens Energy, Mitsubishi Power) carry no equipment spec here yet; their HRSG lines are held as a gap.",
+  "notes": "Further suppliers named on the combined-cycle HRSG card (GE Vernova, Siemens Energy, Mitsubishi Power) carry no equipment spec here yet; their HRSG lines are held as a gap. Enriched 2026-11-24 with page-read HRSG fleet, duct-burner and pressure-part sources; the original EPA efficiency range is retained. Enriched 2026-11-24 with page-read HRSG fleet, duct-burner and pressure-part sources; the original EPA efficiency range is retained.",
   "gaps": [
     {
       "what": "OEM HRSG specification ranges (steam pressures, temperatures, supplemental firing) for major suppliers",
@@ -64,5 +168,5 @@
       "next_action": "read Mitsubishi Power and B&W HRSG detail pages in the next equipment sweep"
     }
   ],
-  "last_reviewed": "2026-10-30"
+  "last_reviewed": "2026-11-24"
 }

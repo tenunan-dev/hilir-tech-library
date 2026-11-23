@@ -1,0 +1,36 @@
+{
+  "id": "naepo-district-heating-chp",
+  "name": "Naepo district heating CHP conversion",
+  "aliases": [],
+  "country": "KR",
+  "location": "Naepo",
+  "status": "operating",
+  "project_type": "retrofit",
+  "description": "GE Vernova customer story describing conversion to LNG-based combined heat and power for district heating, replacing individual hot-water boilers.",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC"
+  ],
+  "capacities": [],
+  "owners": [],
+  "contractors": [
+    {
+      "name": "GE Vernova",
+      "role": "EPC / supplier"
+    }
+  ],
+  "technologies": [
+    "pwr-cogeneration-chp",
+    "pwr-gas-fired-boilers"
+  ],
+  "milestones": [],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/gas-power/products/hrsg",
+      "source_id": "ge-vernova-hrsg"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "No capacity is stated on the read page."
+}

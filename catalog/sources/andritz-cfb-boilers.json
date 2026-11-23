@@ -1,0 +1,27 @@
+{
+  "id": "andritz-cfb-boilers",
+  "name": "ANDRITZ PowerFluid circulating fluidized bed boilers",
+  "url": "https://www.andritz.com/products-en/tiac/environmental-solutions/powerfluid-boilers",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "ANDRITZ",
+  "regions": [
+    "global",
+    "eu",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Waste CFB 50-200 t/h steam (40-150 MW), Bio CFB 100-750 t/h (80-550 MW); references include Kamisu, Japan (148/137 t/h, 543 C, 136.5/34 bar(a)) and Busan/Donghae in South Korea. Evidence: https://www.andritz.com/products-en/tiac/environmental-solutions/powerfluid-boilers"
+}

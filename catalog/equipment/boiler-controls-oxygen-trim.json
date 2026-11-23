@@ -1,0 +1,109 @@
+{
+  "id": "boiler-controls-oxygen-trim",
+  "name": "Boiler controls and oxygen trim",
+  "equipment_type": "controls",
+  "description": "Control system that holds the fuel-to-air ratio and steam conditions across load. A stand-alone PLC oxygen-trim package uses an O2 sensor, firing-rate sensor and actuator or variable-speed drive to compensate for temperature, barometric pressure and fuel changes; package burners add parallel positioning, remote monitoring and burner-management interlocks.",
+  "specifications": [
+    {
+      "metric": "O2 trim architecture",
+      "basis": "Stand-alone PLC-based system: O2 sensor + firing-rate sensor + PLC panel + actuator or VSD",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim",
+        "source_id": "cb-accu-trim"
+      },
+      "unit": "qualitative",
+      "value": "PLC + O2 and firing-rate sensors"
+    },
+    {
+      "metric": "control modes",
+      "basis": "Air trim or fuel trim; single-point/jackshaft with customisation for parallel positioning or alternate fuel",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim",
+        "source_id": "cb-accu-trim"
+      },
+      "unit": "qualitative",
+      "value": "air trim / fuel trim"
+    },
+    {
+      "metric": "compensated variables",
+      "basis": "Compensates for temperature, barometric pressure and fuel changes",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim",
+        "source_id": "cb-accu-trim"
+      },
+      "unit": "qualitative",
+      "value": "temperature, pressure, fuel"
+    },
+    {
+      "metric": "remote monitoring",
+      "basis": "Parallel positioning and remote IoT monitoring included on ProFire SBR-30/SBR-5",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cb-sbr30-burner"
+      },
+      "unit": "qualitative",
+      "value": "parallel positioning + IoT"
+    },
+    {
+      "metric": "safety-limit supervision",
+      "basis": "Interlocks/permissives, flame presence monitoring, safety-limit supervision, prepurge and controlled shutdown",
+      "source": {
+        "url": "https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems",
+        "source_id": "honeywell-bms"
+      },
+      "unit": "qualitative",
+      "value": "interlocks + flame supervision"
+    }
+  ],
+  "vendors": [
+    "cleaver-brooks",
+    "honeywell",
+    "zeeco"
+  ],
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/accu-trim",
+      "source_id": "cb-accu-trim"
+    },
+    {
+      "url": "https://cleaverbrooks.com/product/sbr30-burner",
+      "source_id": "cb-sbr30-burner"
+    },
+    {
+      "url": "https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems",
+      "source_id": "honeywell-bms"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "INS",
+    "PRC"
+  ],
+  "aliases": [
+    "O2 trim",
+    "oxygen trim",
+    "boiler control panel",
+    "parallel positioning"
+  ],
+  "applications": [
+    "package boilers",
+    "fired heaters",
+    "HRSGs"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "ins-process-analysers",
+    "ins-dcs-scada",
+    "ins-safety-instrumented-systems"
+  ],
+  "gaps": [
+    {
+      "what": "measured savings and set-point accuracy for O2 trim on gas boilers",
+      "why": "Read pages describe architecture and compensation but give no savings or accuracy figures.",
+      "next_action": "Find a controlled trial or OEM datasheet stating O2 set point and fuel saving."
+    }
+  ]
+}

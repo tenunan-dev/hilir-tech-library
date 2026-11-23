@@ -1,18 +1,35 @@
 # PWR: Power and renewables
 
-176 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+236 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
+| [ANDRITZ PowerFluid circulating fluidized bed boilers](https://www.andritz.com/products-en/tiac/environmental-solutions/powerfluid-boilers) | oem-supplier | global, eu, apac | open | summary-only |
+| [Boiler fittings and mountings](https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Bottom blowdown](https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [Bureau of Indian Standards](https://www.bis.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
+| [Circulating fluidized-bed boilers](https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers) | oem-supplier | global, na, apac | open | summary-only |
 | [CSIRO energy research](https://www.csiro.au/en/research/technology-space/energy) | research-institute | apac | open | full-text-restricted |
+| [ECOjet Edge+ low-NOx burner](https://johnzink.com/products/powerburners/ecojet-edge-plus) | oem-supplier | global, na, apac | open | summary-only |
+| [GE Vernova heat recovery steam generators](https://www.gevernova.com/gas-power/products/hrsg) | oem-supplier | global, na, apac, sea, me, eu | open | summary-only |
 | [Institut Teknologi Bandung energy research](https://www.itb.ac.id/) | research-institute | sea | open | full-text-restricted |
 | [Japanese Industrial Standards (JISC)](https://www.jisc.go.jp/eng/) | standards-body | apac | mixed | catalog-only (unverified) |
+| [John Zink Asia-Pacific locations](https://johnzink.com/our-business/locations/asia-pacific) | oem-supplier | apac, sea, na | open | summary-only |
 | [Malaysian Standards (Department of Standards Malaysia)](https://www.jsm.gov.my/) | standards-body | apac, sea | paywalled | catalog-only (unverified) |
+| [Miscellaneous boiler types, economisers and superheaters](https://spiraxsarco.com/learn-about-steam/the-boiler-house/miscellaneous-boiler-types-economisers-and-superheaters?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Miura America product range](https://miuraboiler.com/products-category/all) | oem-supplier | global, na, apac, sea | open | summary-only |
+| [Miura LX series steam boiler (Canada)](https://miuraboiler.ca/product/lx-steam-boiler) | oem-supplier | global, na, apac | open | summary-only |
 | [NTU Energy Research Institute (ERI@N)](https://www.ntu.edu.sg/erian) | research-institute | sea | open | summary-only (unverified) |
 | [NUS Energy Studies Institute](https://esi.nus.edu.sg/) | research-institute | sea | open | full-text-restricted |
 | [Oxford Institute for Energy Studies (OIES)](https://www.oxfordenergy.org/) | research-institute | global, apac | open | full-text-restricted |
+| [Pressurised deaerators](https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Shell boilers (Learn About Steam)](https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [SNI Indonesian National Standards (BSN)](https://bsn.go.id/) | standards-body | apac, sea | mixed | catalog-only (unverified) |
+| [The feedtank and feedwater conditioning](https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [TLV steam theory](https://www.tlv.com/steam-info/steam-theory) | oem-supplier | global, apac | open | summary-only |
+| [Valmet CFB boiler](https://www.valmet.com/energyproduction/cfb-boilers/) | oem-supplier | global, eu, apac | open | summary-only |
+| [Water tube boilers (Learn About Steam)](https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Why you need an ultra-low-NOx steam boiler](https://miuraboiler.com/why-you-need-an-ultra-low-nox-steam-boiler/) | oem-supplier | global, na, apac | open | summary-only |
 | [APEC Asia Pacific Energy Research Centre (APERC)](https://aperc.or.jp/) | research-institute | apac | open | full-text-restricted |
 | [ARENA Australian Renewable Energy Agency knowledge bank](https://arena.gov.au/knowledge-bank/) | agency-data | apac | open | full-text-open |
 | [ASEAN Centre for Energy (ACE)](https://aseanenergy.org/) | agency-data | sea, apac | open | full-text-restricted |
@@ -59,17 +76,34 @@
 | [Suruhanjaya Tenaga (Energy Commission, Malaysia)](https://www.st.gov.my/) | standards-body | sea, global | open | summary-only (unverified) |
 | [Tenaga Nasional Berhad (TNB)](https://www.tnb.com.my/) | agency-data | sea, global | open | summary-only (unverified) |
 | [The Edge Malaysia energy coverage](https://theedgemalaysia.com/) | trade-media | sea | mixed | catalog-only (unverified) |
+| [Accu-Trim oxygen trim system](https://cleaverbrooks.com/product/accu-trim) | oem-supplier | global, na | open | summary-only |
+| [Air heaters](https://www.babcock.com/home/products/air-heaters) | oem-supplier | global, na | open | summary-only |
+| [ALZETA ultra-low-NOx burners](https://alzeta.com/ultra-low-nox-burners) | oem-supplier | global, na | open | summary-only |
 | [Argonne GREET model](https://greet.anl.gov/) | research-institute | global | open | full-text-open |
 | [ASME Boiler & Pressure Vessel Code (BPVC)](https://www.asme.org/codes-standards/bpvc-standards/bpvc-2023) | standards-body | global | paywalled | catalog-only |
+| [ASME boiler and pressure vessel certification](https://www.asme.org/certification-accreditation/boiler-and-pressure-vessel-certification) | standards-body | global | open | summary-only |
 | [ASME Codes and Standards (BPVC, B31)](https://www.asme.org/codes-standards) | standards-body | global, na | paywalled | catalog-only (unverified) |
 | [ASME Turbo Expo](https://event.asme.org/Turbo-Expo) | conference | global | mixed | catalog-only (unverified) |
+| [Boiler cycling considerations](https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations) | oem-supplier | global, na | open | summary-only |
+| [CBEX firetube boiler](https://cleaverbrooks.com/product/cbex) | oem-supplier | global, na | open | summary-only |
+| [CBLE firetube boiler](https://cleaverbrooks.com/product/cble) | oem-supplier | global, na | open | summary-only |
 | [CINEA featured projects](https://cinea.ec.europa.eu) | agency-data | eu | open | full-text-open |
+| [ClearFire-CE condensing boiler](https://cleaverbrooks.com/product/cfce) | oem-supplier | global, na | open | summary-only |
+| [Cleaver-Brooks fuel trains](https://cleaverbrooks.com/product/fuel-train) | oem-supplier | global, na | open | summary-only |
+| [Cleaver-Brooks modular HRSG](https://cleaverbrooks.com/product/modular-hrsg) | oem-supplier | global, na | open | summary-only |
+| [Cleaver-Brooks selective catalytic reduction](https://cleaverbrooks.com/product/scr) | oem-supplier | global, na | open | summary-only |
 | [Congress.gov legislation text](https://www.congress.gov) | agency-data | na | open | full-text-open (unverified) |
 | [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/analyses-and-statistics/technology-catalogues) | agency-data | eu, global | open | full-text-open |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
+| [DOE FEMP — Purchasing energy-efficient boilers](https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers) | agency-data | global, na | open | summary-only |
+| [DOE Steam Systems (Industrial Technologies Office)](https://www.energy.gov/eere/amo/steam-systems) | agency-data | global, na | open | summary-only |
+| [EIA: most combined-cycle plants have duct burners](https://www.eia.gov/todayinenergy/detail.php?id=52778) | agency-data | global, na | open | summary-only |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
 | [Energy & Environmental Science](https://pubs.rsc.org/en/journal/eesc) | journal | global | mixed | full-text-restricted |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
+| [EPA air pollution control technology fact sheet — SNCR](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT) | agency-data | global, na | open | summary-only |
+| [EPA Boiler MACT — industrial, commercial and institutional boilers](https://www.epa.gov/stationary-sources-air-pollution/industrial-commercial-and-institutional-boilers-and-process-0) | agency-data | global, na | open | summary-only |
+| [EPA continuous emission monitoring systems](https://www.epa.gov/emc/emc-continuous-emission-monitoring-systems) | agency-data | global, na | open | summary-only |
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
@@ -77,21 +111,41 @@
 | [European Commission DG CLIMA](https://climate.ec.europa.eu) | agency-data | eu | open | full-text-open |
 | [Fraunhofer ISE](https://www.ise.fraunhofer.de/en.html) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org) | agency-data | global | open | full-text-with-attribution |
+| [Fulton steam boilers](https://fulton.com/product-categories/steam-boilers/) | oem-supplier | global, na | open | summary-only |
+| [GO ultra-low-NOx package burner](https://zeeco.com/resources/brochures/go-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
+| [Halgo Power forced-draft fans](https://www.halgopower.com/products/forced-draft-fans) | oem-supplier | global, na | open | summary-only |
+| [Halgo Power stacks and ductwork](https://halgopower.com/products/stacks-and-ductwork) | oem-supplier | global, na | open | summary-only |
+| [Honeywell burner management systems](https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems) | oem-supplier | global, na | open | summary-only |
+| [Honeywell S70X/S80X flame-scanner viewing heads](https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x) | oem-supplier | global, na | open | summary-only |
+| [HRSG components, modules, HARPs and tubes](https://www.babcock.com/home/products-services/specialized-businesses/hrsg-components-modules-harps-tubes) | oem-supplier | global, na | open | summary-only |
 | [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
+| [Industrial water-tube package boilers](https://babcock.com/home/products-services/steam-generators/industrial-water-tube-package-boilers) | oem-supplier | global, na | open | summary-only |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
+| [John Zink HRSG duct burners](https://www.johnzink.com/products/powerburners/duct-burner) | oem-supplier | global, na | open | summary-only |
 | [LBNL Electricity Markets & Policy — wind PPA prices](https://emp.lbl.gov/wind-power-purchase-agreement-ppa-prices) | research-institute | global | open | full-text-open |
 | [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted |
+| [Natcom duct burner for HRSG supplementary firing](https://cleaverbrooks.com/product/duct-burner) | oem-supplier | global, na | open | summary-only |
 | [National Energy Technology Laboratory (NETL)](https://netl.doe.gov/) | research-institute | na, global | open | full-text-open |
 | [National Renewable Energy Laboratory (NREL) publications](https://www.nrel.gov/research/publications.html) | research-institute | na, global | open | full-text-restricted |
 | [Offshore Technology Conference (OTC)](https://www.otcnet.org/) | conference | global | mixed | catalog-only (unverified) |
+| [OSHA pressure vessels — standards](https://www.osha.gov/pressure-vessels/standards) | agency-data | global, na | open | summary-only |
 | [OSTI.GOV DOE scientific and technical information](https://www.osti.gov/) | agency-data | na, global | open | full-text-restricted |
 | [Pacific Northwest National Laboratory](https://www.pnnl.gov/) | research-institute | na | open | full-text-restricted |
+| [PLN ultra-low-NOx package burner](https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
+| [ProFire SBR-30 low-NOx burner](https://cleaverbrooks.com/product/sbr30-burner) | oem-supplier | global, na | open | summary-only |
+| [ProFire SBR-5 ultra-low-NOx burner with FGR](https://cleaverbrooks.com/product/sbr5-burner) | oem-supplier | global, na | open | summary-only |
+| [ProLine in-line duct burner](https://johnzink.com/products/duct-burner/proline-in-line-duct-burner) | oem-supplier | global, na | open | summary-only |
+| [QLN low-NOx burner](https://johnzink.com/products/powerburners/qln) | oem-supplier | global, na | open | summary-only |
+| [Solid fuel to natural gas conversions for circulating fluid bed boilers](https://www.zeeco.com/resources/news/solid-fuel-to-natural-gas-conversions-for-circulating-fluid-bed-boilers) | oem-supplier | global, na | open | summary-only |
+| [Sootblower and boiler cleaning terminology, principles and applications](https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications) | oem-supplier | global, na | open | summary-only |
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
 | [Stanford Doerr School of Sustainability energy research](https://sustainability.stanford.edu/) | research-institute | global | open | summary-only (unverified) |
 | [Sustainability (MDPI)](https://www.mdpi.com/journal/sustainability) | journal | global | open | full-text-open |
+| [SwitchFire condensing boiler](https://cleaverbrooks.com/product/switchfire) | oem-supplier | global, na | open | summary-only |
 | [US Federal Register](https://www.federalregister.gov) | agency-data | na | open | full-text-open |
 | [USGS Mineral Commodity Summaries](https://pubs.usgs.gov/periodicals/mcs2026/) | agency-data | global | open | full-text-open |
+| [Zeeco SCR systems](https://zeeco.com/scr-systems) | oem-supplier | global, na | open | summary-only |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted |
 | [ACWA Power project pages](https://acwapower.com) | oem-supplier | me, global | open | full-text-restricted |
 | [Applied Energy](https://www.sciencedirect.com/journal/applied-energy) | journal | global | mixed | full-text-restricted |
@@ -115,6 +169,7 @@
 | [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
 | [Environmental Science & Technology](https://pubs.acs.org/journal/esthag) | journal | global | mixed | full-text-restricted (unverified) |
 | [EPA AP-42 emission factors](https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors) | agency-data | na, global | open | full-text-open |
+| [EPA technology overview: circulating fluidized-bed combustion](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100RMKB.TXT) | agency-data | global, na, eu | open | summary-only |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |
@@ -141,6 +196,7 @@
 | [National Carbon Capture Center (US DOE)](https://www.nationalcarboncapturecenter.com) | research-institute | global | open | full-text-restricted |
 | [NERSA (National Energy Regulator of South Africa)](https://www.nersa.org.za) | agency-data | af | open | full-text-open |
 | [Net Zero Teesside project pages](https://www.netzeroteesside.co.uk) | agency-data | eu | open | full-text-restricted |
+| [NFPA 85 (2023) table of contents at UpCodes](https://up.codes/viewer/nfpa/nfpa-85-2023) | standards-body | global, na | open | summary-only |
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted |
 | [NREL Annual Technology Baseline (ATB)](https://atb.nrel.gov) | agency-data | na, global | open | full-text-open |
 | [OPC Foundation (OPC UA)](https://opcfoundation.org/) | standards-body | global | free-registration | catalog-only (unverified) |
@@ -153,6 +209,7 @@
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | licensor | global | open | full-text-restricted (unverified) |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
 | [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | catalog-only |
+| [Tetra Engineering — Duct Burners white paper](https://www.tetra-eng.com/whitepaper/duct-burners) | trade-media | global | open | summary-only |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
 | [U.S. EIA analysis and outlooks (STEO, AEO, IEO)](https://www.eia.gov/analysis/) | agency-data | global, na | open | full-text-open |
 | [U.S. EIA Open Data API](https://www.eia.gov/opendata/) | agency-data | global, na | free-registration | full-text-open |
@@ -164,7 +221,10 @@
 | [World Nuclear Association](https://world-nuclear.org/information-library) | association | global | open | full-text-restricted |
 | [Wärtsilä Energy](https://www.wartsila.com/energy) | oem-supplier | global | open | full-text-restricted |
 | [Aquatech International (ZLD)](https://www.aquatech.com/) | licensor | global | open | summary-only (unverified) |
+| [ASME Boiler and Pressure Vessel Code summary (Engineering ToolBox)](https://engineeringtoolbox.com/asme-boiler-vessel-code-d_8.html) | trade-media | global | open | summary-only |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [Boiler blowdown (Engineering ToolBox)](https://engineeringtoolbox.com/boiler-blowdown-d_908.html) | trade-media | global, na | open | summary-only |
+| [Boiler horsepower (Engineering ToolBox)](https://engineeringtoolbox.com/boiler-horsepower-d_1061.html) | trade-media | global | open | summary-only |
 | [DuPont Water Solutions](https://www.dupont.com/water.html) | oem-supplier | global | open | summary-only (unverified) |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |

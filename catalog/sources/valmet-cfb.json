@@ -1,0 +1,27 @@
+{
+  "id": "valmet-cfb",
+  "name": "Valmet CFB boiler",
+  "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Valmet",
+  "regions": [
+    "global",
+    "eu",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Cyclone-based CFB design; 30-1,200 MWth size range and more than 100 references worldwide (vendor statements); low-load partial-bed option; Naistenlahti 3 and TSE customer cases. Evidence: https://www.valmet.com/energyproduction/cfb-boilers/"
+}

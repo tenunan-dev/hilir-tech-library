@@ -1,6 +1,6 @@
 # GAS: Gas processing and LNG
 
-236 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
+237 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -96,6 +96,7 @@
 | [Columbia Center on Global Energy Policy](https://www.energypolicy.columbia.edu/) | research-institute | global | open | full-text-restricted |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [eCFR — Title 49 (PHMSA pipeline safety)](https://www.ecfr.gov) | standards-body | global | open | full-text-open |
+| [EIA: most combined-cycle plants have duct burners](https://www.eia.gov/todayinenergy/detail.php?id=52778) | agency-data | global, na | open | summary-only |
 | [Energy Institute Publications](https://publishing.energyinst.org/) | standards-body | global, eu | mixed | catalog-only (unverified) |
 | [European Commission CCS Directive implementation guidance](https://op.europa.eu/en/publication-detail/-/publication/47fb8148-d436-4ba3-88fb-ceb774b88933) | agency-data | eu | open | full-text-open |
 | [Gases (MDPI)](https://www.mdpi.com/journal/gases) | journal | global | open | full-text-open |

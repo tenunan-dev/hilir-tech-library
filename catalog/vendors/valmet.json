@@ -1,0 +1,31 @@
+{
+  "id": "valmet",
+  "name": "Valmet",
+  "aliases": [],
+  "country": "Finland",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Finnish boiler and process-technology OEM supplying cyclone-type circulating fluidized bed boilers with partial-bed low-load operation.",
+  "products": [
+    "Valmet CFB Boiler (formerly CYMIC)",
+    "partial-bed combustion",
+    "BFB boilers"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "pwr-biomass-waste-to-energy",
+    "rot-fired-heaters-low-nox-burners"
+  ],
+  "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+  "sources": [
+    {
+      "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+      "source_id": "valmet-cfb"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

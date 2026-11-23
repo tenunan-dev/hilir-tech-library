@@ -1,0 +1,27 @@
+{
+  "id": "cb-sbr5-burner",
+  "name": "ProFire SBR-5 ultra-low-NOx burner with FGR",
+  "url": "https://cleaverbrooks.com/product/sbr5-burner",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "Cleaver-Brooks",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Natural-gas or ASTM 2D-S15 burner for 250-1,000 HP boilers; 10,500-42,000 MBH (10.5-42 MMBtu/hr); 5 ppm NOx with induced FGR at about 3% O2 (body says 3-4%). Evidence: https://cleaverbrooks.com/product/sbr5-burner"
+}

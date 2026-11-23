@@ -1,25 +1,25 @@
 # Catalog summary
 
-526 sources in total.
+586 sources in total.
 
 ## By sector and discipline code
 
 | Value | Sources |
 | --- | --- |
-| PRC | 327 |
-| GAS | 236 |
+| PRC | 386 |
+| REF | 240 |
+| GAS | 237 |
+| PWR | 236 |
 | H2 | 232 |
 | UPS | 229 |
-| REF | 198 |
+| PCH | 184 |
 | DIG | 182 |
-| PWR | 176 |
-| PCH | 171 |
 | CCS | 166 |
-| HSE | 115 |
+| HSE | 144 |
+| ROT | 117 |
+| MAT | 88 |
 | MID | 87 |
-| MAT | 80 |
-| ROT | 71 |
-| INS | 29 |
+| INS | 35 |
 | WWT | 27 |
 | ELE | 8 |
 | CIV | 4 |
@@ -28,26 +28,26 @@
 
 | Value | Sources |
 | --- | --- |
-| global | 358 |
-| apac | 82 |
-| sea | 69 |
-| na | 46 |
-| eu | 43 |
-| me | 17 |
+| global | 417 |
+| apac | 99 |
+| na | 92 |
+| sea | 72 |
+| eu | 54 |
+| me | 18 |
 | af | 1 |
 
 ## By source type
 
 | Value | Sources |
 | --- | --- |
-| agency-data | 110 |
-| oem-supplier | 74 |
+| oem-supplier | 120 |
+| agency-data | 118 |
 | research-institute | 61 |
 | association | 54 |
 | journal | 49 |
-| trade-media | 43 |
+| trade-media | 47 |
 | licensor | 42 |
-| standards-body | 38 |
+| standards-body | 40 |
 | conference | 24 |
 | epc-contractor | 19 |
 | patents | 12 |
@@ -56,8 +56,8 @@
 
 | Value | Sources |
 | --- | --- |
+| summary-only | 209 |
 | full-text-restricted | 161 |
-| summary-only | 149 |
 | full-text-open | 107 |
 | catalog-only | 105 |
 | full-text-with-attribution | 4 |
@@ -66,5 +66,5 @@
 
 | Value | Sources |
 | --- | --- |
-| verified | 315 |
+| verified | 375 |
 | unverified | 211 |

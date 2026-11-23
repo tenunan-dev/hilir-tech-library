@@ -1,0 +1,26 @@
+{
+  "id": "cb-cbex",
+  "name": "CBEX firetube boiler",
+  "url": "https://cleaverbrooks.com/product/cbex",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Cleaver-Brooks",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. CBEX packaged firetube line 100-2,500 HP, steam to 300 psig, hot water to 125 psig, 2- or 3-pass; extended heat-transfer tubes claimed to increase heat transfer by 85%. Evidence: https://cleaverbrooks.com/product/cbex"
+}

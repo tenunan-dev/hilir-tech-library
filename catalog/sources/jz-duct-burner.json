@@ -1,0 +1,25 @@
+{
+  "id": "jz-duct-burner",
+  "name": "John Zink HRSG duct burners",
+  "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "John Zink",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Duct-burner flame holder models LDRW (low-draft reverse wing), VC (V-cone tip wing) and Coen castings, with integrated igniters and flame scanners. Evidence: https://www.johnzink.com/products/powerburners/duct-burner"
+}

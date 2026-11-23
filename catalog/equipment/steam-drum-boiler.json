@@ -1,0 +1,82 @@
+{
+  "id": "steam-drum-boiler",
+  "name": "Boiler steam drum and mud drum",
+  "equipment_type": "pressure-part",
+  "description": "In drum-type water-tube boilers the upper steam drum is the point of steam/water separation and feedwater introduction, while the lower mud drum collects sediment; downcomers carry cooler dense water to the lower drum and risers return the heated mixture. Drum temperature stratification during cycling drives humping and connection stress, so drum design and circulation are central to load-change capability.",
+  "specifications": [
+    {
+      "metric": "drum-type boiler pressure capability",
+      "basis": "Spirax Sarco: water-tube boilers with steam drums handle steam up to 160 bar",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+        "source_id": "spirax-water-tube-boilers"
+      },
+      "unit": "bar",
+      "value": 160
+    },
+    {
+      "metric": "cycling drum temperature effect",
+      "basis": "B&W: top-to-bottom drum temperature variations can lead to drum humping and excessive stresses on connections (qualitative)",
+      "source": {
+        "url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations",
+        "source_id": "bw-boiler-cycling"
+      },
+      "unit": "qualitative",
+      "value": "drum humping and connection stress"
+    },
+    {
+      "metric": "outlet-header thermal shock exposure",
+      "basis": "B&W: thermal shock differentials reduced from 200-400 F to below 100 F (56 C) in improved designs",
+      "source": {
+        "url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations",
+        "source_id": "bw-boiler-cycling"
+      },
+      "unit": "degF",
+      "low": 100,
+      "high": 400
+    }
+  ],
+  "vendors": [
+    "babcock-wilcox"
+  ],
+  "sources": [
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+      "source_id": "spirax-water-tube-boilers"
+    },
+    {
+      "url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations",
+      "source_id": "bw-boiler-cycling"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "aliases": [
+    "steam drum",
+    "mud drum",
+    "lower drum",
+    "downcomer and riser circuit"
+  ],
+  "applications": [
+    "water-tube package boilers",
+    "utility boilers",
+    "HRSGs"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "gaps": [
+    {
+      "what": "drum dimensions, retention time and circulation ratio for the package lines",
+      "why": "Read pages describe function and cycling behaviour but give no drum sizing data.",
+      "next_action": "Read a package-boiler data sheet with drum details."
+    }
+  ]
+}

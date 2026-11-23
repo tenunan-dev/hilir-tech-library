@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-295 project records (one per named project or plant, schema `schema/project.schema.json`).
+304 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -1083,6 +1083,16 @@ Status: **operating** | Country: ID
 TM2500 mobile generators on two-trailer assemblies, more than 25 MW per unit, delivering electricity to Indonesia's remote areas (2016)
 Technologies: pwr-mobile-gas-turbine-plants
 
+### GS Caltex Yeosu SOLEX burner retrofit (gs-caltex-yeosu-solex-burners)
+Status: **operating** | Country: KR
+Refinery fired-heater retrofit using 32 John Zink SOLEX burners, achieving below 5 ppm NOx and avoiding an SCR; the case study quotes about USD 150,000 per year in avoided operating cost without a dollar year.
+Technologies: rot-fired-heaters-low-nox-burners, hse-nox-control, pwr-gas-fired-boilers
+
+### Hamriyah Independent Power Plant (hamriyah-independent-power-plant)
+Status: **operating** | Country: AE
+Combined-cycle independent power plant with GE Vernova gas turbines and turnkey EPC; all three blocks began operation in October 2023 and the plant supplies up to 40% of Sharjah's electricity needs.
+Technologies: pwr-combined-cycle-hrsg, pwr-gas-fired-boilers
+
 ### Hamriyah Independent Power Plant (3 x GE 9HA.01) (hamriyah-ipp)
 Status: **operating** | Country: United Arab Emirates
 1.8 GW combined-cycle plant with three GE 9HA.01 heavy-duty gas turbines, described by GE as the most efficient in the region.
@@ -1118,6 +1128,12 @@ Status: **operating** | Country: NO
 88 MW, 11 floating turbines, world's largest floating wind farm; first power 13 Nov 2022; powers Snorre and Gullfaks oil and gas platforms
 Technologies: pwr-floating-offshore-wind
 
+### Jeju LNG combined-cycle plant (KOMIPO) (jeju-lng-cogen-komipo)
+Status: **operating** | Country: KR
+250 MW small-block LNG generation described in a GE Vernova HRSG customer story as a high-efficiency island solution.
+Technologies: pwr-combined-cycle-hrsg, pwr-gas-fired-boilers
+Capacity: power generation: 250 MW
+
 ### Karpowership Indonesia floating power plants with PAL Indonesia shipyard cooperation (karpowership-indonesia-floating-power-plants-with-pal-indonesia-shipyard)
 Status: **operating** | Country: ID
 Karpowership Indonesia operates floating power plants; cooperation agreement with state shipbuilder PAL Indonesia to build power ships for Indonesia (2016); per-ship capacity not stated in the source
@@ -1143,6 +1159,16 @@ Status: **operating** | Country: Ghana
 Powership supplying Ghana's grid under a power purchase agreement with ECG.
 Technologies: pwr-powerships-power-barges
 
+### Naepo district heating CHP conversion (naepo-district-heating-chp)
+Status: **operating** | Country: KR
+GE Vernova customer story describing conversion to LNG-based combined heat and power for district heating, replacing individual hot-water boilers.
+Technologies: pwr-cogeneration-chp, pwr-gas-fired-boilers
+
+### Naistenlahti 3 CFB plant (naistenlahti-3-cfb)
+Status: **operating** | Country: FI
+Tampereen Energia CFB plant piloting Valmet partial-bed combustion for fuel flexibility; Valmet states CO2 emissions more than halved.
+Technologies: pwr-biomass-waste-to-energy, pwr-gas-fired-boilers
+
 ### Next Kraftwerke Next Pool VPP (next-kraftwerke-next-pool)
 Status: **operating** | Country: Germany (plus seven EU countries)
 Virtual power plant pooling distributed generation and flexible demand across eight European markets.
@@ -1152,6 +1178,12 @@ Technologies: pwr-smart-grids-vpp
 Status: **operating** | Country: MA
 about 510 MW of concentrated solar power (plus a 72 MW PV plant) across Noor I-III, including the Noor III molten-salt tower; about USD 2.5 bn; phases 2014-2018; world's largest CSP complex
 Technologies: pwr-concentrated-solar-power
+
+### Obayashi Kamisu CFB boiler (kamisu-cfb-boiler)
+Status: **operating** | Country: JP
+ANDRITZ PowerFluid CFB reference with two stated steam conditions of 148/137 t/h at 543/543 C and 136.5/34 bar(a).
+Technologies: pwr-biomass-waste-to-energy, pwr-gas-fired-boilers
+Capacity: steam production:  t/h
 
 ### Oxford PV perovskite-on-silicon tandem line, Brandenburg an der Havel, Germany (oxford-pv-perovskite-on-silicon-tandem-line-brandenburg-an-der-havel-ger)
 Status: **operating** | Country: DE
@@ -1172,6 +1204,18 @@ Technologies: pwr-thermal-energy-storage
 Status: **operating** | Country: Australia
 4.4 MW solar + 2 MW battery
 Technologies: pwr-containerised-hybrid-modules
+
+### Spiritwood Station CFB CHP plant (spiritwood-station-cfb-chp)
+Status: **operating** | Country: US
+Approximately 56 MW net electricity plus process steam for an adjacent malt plant, using a B&W internal-recirculation circulating fluidized bed boiler.
+Technologies: pwr-cogeneration-chp, pwr-gas-fired-boilers
+Capacity: net power generation: 56 MW
+
+### Sultan Ibrahim Power Plant, Track 4A (sultan-ibrahim-power-plant-track-4a)
+Status: **operating** | Country: MY
+1,440 MW combined-cycle plant with two GE Vernova 9HA.02 gas turbines, STF-D650 steam turbines, W88 generators and two once-through HRSGs; POWER magazine 2021 Plant of the Year.
+Technologies: pwr-combined-cycle-hrsg, pwr-heavy-duty-gas-turbines, pwr-gas-fired-boilers
+Capacity: net plant power generation: 1440 MW
 
 ### Sunny Bangchak solar plant, Thailand (sunny-bangchak-solar-plant-thailand)
 Status: **operating** | Country: TH
@@ -1237,6 +1281,12 @@ Technologies: pwr-modular-engine-plants
 Status: **under-construction** | Country: CA
 300 MWe BWRX-300; OPG received construction approval April 2025 - first grid-scale SMR under construction in a G7 country; CAD 7.7 bn project
 Technologies: pwr-small-modular-reactors
+
+### Hsinta and Taichung once-through HRSG fleet (hsinta-taichung-ot-hrsg)
+Status: **under-construction** | Country: TW
+Ten GE Vernova once-through HRSGs ordered behind 7HA.03 gas turbines; technology win announced September 2020.
+Technologies: pwr-combined-cycle-hrsg, pwr-gas-fired-boilers
+Capacity: once-through HRSGs: 10 units
 
 ### ITER, Cadarache, France (35-nation collaboration) (iter-cadarache-france-35-nation-collaboration)
 Status: **under-construction** | Country: FR

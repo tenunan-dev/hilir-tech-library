@@ -1,0 +1,27 @@
+{
+  "id": "cb-sbr30-burner",
+  "name": "ProFire SBR-30 low-NOx burner",
+  "url": "https://cleaverbrooks.com/product/sbr30-burner",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "Cleaver-Brooks",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Natural-gas burner for 400-1,300 HP boilers; 16,800-54,600 MBH (16.8-54.6 MMBtu/hr); 10:1 turndown; under 30 ppm NOx at about 3% O2 without FGR; parallel positioning and remote IoT monitoring standard. Evidence: https://cleaverbrooks.com/product/sbr30-burner"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "sultan-ibrahim-power-plant-track-4a",
+  "name": "Sultan Ibrahim Power Plant, Track 4A",
+  "aliases": [
+    "Pasir Gudang combined-cycle plant"
+  ],
+  "country": "MY",
+  "location": "Pasir Gudang, Johor",
+  "status": "operating",
+  "project_type": "greenfield",
+  "description": "1,440 MW combined-cycle plant with two GE Vernova 9HA.02 gas turbines, STF-D650 steam turbines, W88 generators and two once-through HRSGs; POWER magazine 2021 Plant of the Year.",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC"
+  ],
+  "capacities": [
+    {
+      "metric": "net plant power generation",
+      "value": 1440,
+      "unit": "MW",
+      "basis": "Total plant output stated on the GE Vernova case-study page; not an ISO turbine rating.",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/resources/case-studies/southern-power-generations-track-4a-employs-9ha"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Southern Power Generation",
+      "role": "owner"
+    }
+  ],
+  "contractors": [
+    {
+      "name": "GE Vernova",
+      "role": "EPC / supplier"
+    }
+  ],
+  "technologies": [
+    "pwr-combined-cycle-hrsg",
+    "pwr-heavy-duty-gas-turbines",
+    "pwr-gas-fired-boilers"
+  ],
+  "milestones": [],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/gas-power/resources/case-studies/southern-power-generations-track-4a-employs-9ha"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "HRSGs are confirmed on the read page; duct burners at this plant are not stated there."
+}

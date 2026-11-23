@@ -1,0 +1,28 @@
+{
+  "id": "miura-lx",
+  "name": "Miura LX series steam boiler (Canada)",
+  "url": "https://miuraboiler.ca/product/lx-steam-boiler",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "Miura",
+  "regions": [
+    "global",
+    "na",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Ultra-low-NOx quenched-flame gas burner rated 9 ppm at 3% corrected O2 on natural gas or propane; 50-300 HP range. Evidence: https://miuraboiler.ca/product/lx-steam-boiler"
+}

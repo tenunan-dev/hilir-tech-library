@@ -1,0 +1,51 @@
+{
+  "id": "jeju-lng-cogen-komipo",
+  "name": "Jeju LNG combined-cycle plant (KOMIPO)",
+  "aliases": [],
+  "country": "KR",
+  "location": "Jeju Island",
+  "status": "operating",
+  "project_type": "greenfield",
+  "description": "250 MW small-block LNG generation described in a GE Vernova HRSG customer story as a high-efficiency island solution.",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC"
+  ],
+  "capacities": [
+    {
+      "metric": "power generation",
+      "value": 250,
+      "unit": "MW",
+      "basis": "Capacity stated on the GE Vernova HRSG page; no further basis given.",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/hrsg",
+        "source_id": "ge-vernova-hrsg"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Korea Midland Power Company (KOMIPO)",
+      "role": "owner"
+    }
+  ],
+  "contractors": [
+    {
+      "name": "GE Vernova",
+      "role": "EPC / supplier"
+    }
+  ],
+  "technologies": [
+    "pwr-combined-cycle-hrsg",
+    "pwr-gas-fired-boilers"
+  ],
+  "milestones": [],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/gas-power/products/hrsg",
+      "source_id": "ge-vernova-hrsg"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

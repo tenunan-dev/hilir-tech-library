@@ -1,0 +1,28 @@
+{
+  "id": "alzeta-ulnox",
+  "name": "ALZETA ultra-low-NOx burners",
+  "url": "https://alzeta.com/ultra-low-nox-burners",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "ALZETA",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Premixed surface-stabilised combustion gives below 5 ppm NOx corrected to 3% O2 for most commercial and industrial heating applications. Evidence: https://alzeta.com/ultra-low-nox-burners"
+}

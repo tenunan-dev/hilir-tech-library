@@ -1,0 +1,28 @@
+{
+  "id": "spirax-water-tube-boilers",
+  "name": "Water tube boilers (Learn About Steam)",
+  "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "eu",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Water-tube boiler characteristics: water inside tubes and gas outside, steam drum plus mud drum with downcomers/risers and membrane furnace walls; up to 160 bar, 500 kg/s steam output and 550 C superheat; alternative layouts 5,000-180,000 kg/h; gas-turbine exhaust about 500 C for waste-heat boilers. Evidence: https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB"
+}

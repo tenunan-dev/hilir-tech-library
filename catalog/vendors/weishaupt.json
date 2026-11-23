@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt",
+  "name": "Weishaupt",
+  "aliases": [
+    "Weishaupt GmbH"
+  ],
+  "country": "Germany",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "German burner manufacturer named on the Cleaver-Brooks SwitchFire page as the dual-fuel burner and controls supplier.",
+  "products": [
+    "dual-fuel industrial burners"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "url": "https://cleaverbrooks.com/product/switchfire",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/switchfire",
+      "source_id": "cb-switchfire"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from the Cleaver-Brooks product page; no independent Weishaupt page was read."
+}

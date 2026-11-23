@@ -1,0 +1,27 @@
+{
+  "id": "epa-cfb-overview",
+  "name": "EPA technology overview: circulating fluidized-bed combustion",
+  "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100RMKB.TXT",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "US EPA (GCA Corporation report)",
+  "regions": [
+    "global",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Historical EPA-funded CFB overview: 10-30 ft/s CFB fluidising velocity versus 2-12 ft/s conventional FBC, 50-300 µm versus 1,000-1,200 µm bed particles; a Lurgi circulating fluid bed alumina calciner achieved 40 ppm NOx on natural gas (not a boiler); Pihlava PYROFLOW retrofit commercial April 1979. Evidence: https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100RMKB.TXT"
+}

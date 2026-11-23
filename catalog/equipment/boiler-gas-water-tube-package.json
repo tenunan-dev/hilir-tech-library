@@ -1,0 +1,138 @@
+{
+  "id": "boiler-gas-water-tube-package",
+  "name": "Gas-fired industrial water-tube package boiler",
+  "equipment_type": "boiler",
+  "description": "Shop-assembled water-tube boiler with water inside the tubes and combustion gas outside, served by a steam drum and mud drum with downcomers and risers and a finned membrane furnace wall. Natural circulation and the separation of steam and water from the heated circuit allow much higher pressures and outputs than a shell boiler, and the design can fire natural gas, refinery gas or dual fuel.",
+  "specifications": [
+    {
+      "metric": "steam output, power-station class",
+      "basis": "Spirax Sarco: 'high steam output (up to 500 kg/s)'",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+        "source_id": "spirax-water-tube-boilers"
+      },
+      "unit": "kg/s",
+      "value": 500
+    },
+    {
+      "metric": "design pressure, power-station class",
+      "basis": "Spirax Sarco: 'high pressure steam (up to 160 bar)'",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+        "source_id": "spirax-water-tube-boilers"
+      },
+      "unit": "bar",
+      "value": 160
+    },
+    {
+      "metric": "superheated steam temperature",
+      "basis": "Spirax Sarco: 'superheated steam (up to 550 C)'",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+        "source_id": "spirax-water-tube-boilers"
+      },
+      "unit": "degC",
+      "value": 550
+    },
+    {
+      "metric": "capacity range of alternative water-tube layouts",
+      "basis": "Spirax Sarco: layouts 'available with capacities from 5 000 kg/h to 180 000 kg/h'",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+        "source_id": "spirax-water-tube-boilers"
+      },
+      "unit": "kg/h",
+      "low": 5000,
+      "high": 180000
+    },
+    {
+      "metric": "B&W industrial water-tube package capacity",
+      "basis": "B&W package boiler range 10,000-1,200,000 lb/h (4.5-544.2 t/h) as recorded in the existing boiler-industrial-watertube-package record",
+      "source": {
+        "url": "https://www.babcock.com/home/products/package-boilers"
+      },
+      "unit": "lb/h",
+      "low": 10000,
+      "high": 1200000
+    },
+    {
+      "metric": "NOx, ultra-low-NOx gas burner",
+      "basis": "Miura LX water-tube boiler with quenched-flame burner: 9 ppm at 3% corrected O2, natural gas or propane",
+      "source": {
+        "url": "https://miuraboiler.ca/product/lx-steam-boiler",
+        "source_id": "miura-lx"
+      },
+      "unit": "ppm at 3% O2",
+      "value": 9
+    },
+    {
+      "metric": "fuel-to-steam efficiency",
+      "basis": "Miura states 85% for LX and 87% with built-in energy recovery and water treatment, against 83% 'typical fire-tube' (vendor comparison)",
+      "source": {
+        "url": "https://miuraboiler.com/why-you-need-an-ultra-low-nox-steam-boiler/",
+        "source_id": "miura-ulnox"
+      },
+      "unit": "%",
+      "low": 85,
+      "high": 87
+    }
+  ],
+  "vendors": [
+    "babcock-wilcox",
+    "cleaver-brooks",
+    "miura"
+  ],
+  "sources": [
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+      "source_id": "spirax-water-tube-boilers"
+    },
+    {
+      "url": "https://babcock.com/home/products-services/steam-generators/industrial-water-tube-package-boilers",
+      "source_id": "bw-industrial-watertube-boilers"
+    },
+    {
+      "url": "https://miuraboiler.ca/product/lx-steam-boiler",
+      "source_id": "miura-lx"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PCH",
+    "PRC",
+    "ROT"
+  ],
+  "aliases": [
+    "watertube package boiler",
+    "D-type package boiler",
+    "O-type package boiler"
+  ],
+  "applications": [
+    "refinery and petrochemical steam",
+    "utility power",
+    "chemical and pharmaceutical plants",
+    "food processing"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "pwr-combined-cycle-hrsg"
+  ],
+  "vendor_models": [
+    {
+      "vendor": "miura",
+      "line": "LX once-through vertical water-tube",
+      "range": "50-300 HP, 9 ppm NOx at 3% O2 on natural gas or propane",
+      "url": "https://miuraboiler.ca/product/lx-steam-boiler"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "whether current OEM literature uses the D-type/O-type terminology on the earlier record",
+      "why": "None of the pages read in this sweep used those layout names; the existing record took them from an earlier B&W page.",
+      "next_action": "Confirm the layout names against a current B&W package-boiler brochure before relying on them."
+    }
+  ]
+}

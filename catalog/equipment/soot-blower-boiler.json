@@ -1,0 +1,65 @@
+{
+  "id": "soot-blower-boiler",
+  "name": "Boiler soot blower and online cleaning",
+  "equipment_type": "cleaning",
+  "description": "Online cleaning equipment that removes ash and soot deposits from heat-transfer surfaces to preserve efficiency, keep flue-gas temperatures within design and prevent gas-passage blockage. Saturated steam is the most widely used blowing medium because boiler-generated steam is available; SCR catalyst cleaning uses much lower steam velocity to avoid mechanical or erosive damage.",
+  "specifications": [
+    {
+      "metric": "blowing medium",
+      "basis": "Saturated steam is the most widely used medium because boiler-generated steam avoids an external supply",
+      "source": {
+        "url": "https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications",
+        "source_id": "bw-sootblowers"
+      },
+      "unit": "qualitative",
+      "value": "saturated steam"
+    },
+    {
+      "metric": "SCR catalyst cleaning velocity",
+      "basis": "Steam velocity is low compared with boiler sootblowing applications to avoid mechanical or erosive damage",
+      "source": {
+        "url": "https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications",
+        "source_id": "bw-sootblowers"
+      },
+      "unit": "qualitative",
+      "value": "low velocity"
+    }
+  ],
+  "vendors": [
+    "babcock-wilcox"
+  ],
+  "sources": [
+    {
+      "url": "https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications",
+      "source_id": "bw-sootblowers"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "aliases": [
+    "sootblower",
+    "soot blowing system",
+    "online boiler cleaning"
+  ],
+  "applications": [
+    "utility boilers",
+    "refinery boilers",
+    "HRSGs with catalysts"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "gaps": [
+    {
+      "what": "blower counts, stroke lengths, steam pressure and duty per surface",
+      "why": "The read page is a terminology and principles article without equipment tables.",
+      "next_action": "Read an OEM sootblower data sheet for a reference boiler."
+    }
+  ]
+}

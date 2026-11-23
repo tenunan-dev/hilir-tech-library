@@ -1,0 +1,26 @@
+{
+  "id": "cb-accu-trim",
+  "name": "Accu-Trim oxygen trim system",
+  "url": "https://cleaverbrooks.com/product/accu-trim",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "INS",
+    "PRC"
+  ],
+  "publisher_org": "Cleaver-Brooks",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Stand-alone PLC-based oxygen trim: O2 sensor, firing-rate sensor, PLC panel and actuator or VSD; air trim or fuel trim; compensates for temperature, barometric pressure and fuel changes. Evidence: https://cleaverbrooks.com/product/accu-trim"
+}

@@ -107,7 +107,7 @@ session redirects to sign-in. Your role (which only decides whether you can mana
 | `/` | Counts, search box, sector grid |
 | `/search?q=...` | Ranked sources, passages, technology cards, vendor records and equipment classes |
 | `/technologies`, `/technologies/{id}` | Comparison table; one card in full: block diagram, figures with unit/year/basis/source, suppliers, reference plants, gaps, sources |
-| `/vendors` | The vendor directory (421 records, categories included); the coverage queue stays empty unless a new card names a supplier the directory lacks, and generic card descriptions are listed as notes |
+| `/vendors` | The vendor directory (546 records, categories included); the coverage queue stays empty unless a new card names a supplier the directory lacks, and generic card descriptions are listed as notes |
 | `/equipment`, `/equipment/{id}` | The equipment catalog: specification tables with basis and source, vendor model lines, applications, gaps |
 | `/register`, `/sources`, `/documents?path=...`, `/gaps` | The register, catalog records with their documents, document text, missing inputs |
 | `/database` | Row counts, schema reference, example queries |

@@ -1,0 +1,67 @@
+{
+  "id": "air-preheater-boiler",
+  "name": "Boiler air preheater",
+  "equipment_type": "heat-exchanger",
+  "description": "Heat exchanger that transfers heat from outgoing flue gas to incoming combustion air. Regenerative (rotary) designs use a rotating matrix or baskets; recuperative designs use tubular or plate elements. B&W supplies air heaters and notes the cold-end metal temperature is generally approximated from the average gas and air temperatures.",
+  "specifications": [
+    {
+      "metric": "cold-end metal temperature basis",
+      "basis": "B&W: general assumption is that cold-end metal temperature is approximately the average of the gas and air inlet temperatures (qualitative, no numeric value on the read page)",
+      "source": {
+        "url": "https://www.babcock.com/home/products/air-heaters",
+        "source_id": "bw-air-heaters"
+      },
+      "unit": "qualitative",
+      "value": "average of gas and air inlet temperatures"
+    },
+    {
+      "metric": "product scope",
+      "basis": "B&W air-heater product page read during the sweep; no performance table was given",
+      "source": {
+        "url": "https://www.babcock.com/home/products/air-heaters",
+        "source_id": "bw-air-heaters"
+      },
+      "unit": "qualitative",
+      "value": "tubular and regenerative air heaters"
+    }
+  ],
+  "vendors": [
+    "babcock-wilcox"
+  ],
+  "sources": [
+    {
+      "url": "https://www.babcock.com/home/products/air-heaters",
+      "source_id": "bw-air-heaters"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "aliases": [
+    "air heater",
+    "regenerative air heater",
+    "tubular air preheater",
+    "apo"
+  ],
+  "applications": [
+    "utility boilers",
+    "refinery steam generators",
+    "HRSGs"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "rot-heat-exchangers"
+  ],
+  "gaps": [
+    {
+      "what": "quantified air-heater duty, cold-end corrosion allowance and leakage rates",
+      "why": "The B&W page read is descriptive and gives no performance table.",
+      "next_action": "Read an air-heater data sheet with gas/air temperatures and leakage guarantee."
+    }
+  ]
+}

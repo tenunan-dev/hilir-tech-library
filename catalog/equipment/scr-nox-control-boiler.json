@@ -1,0 +1,166 @@
+{
+  "id": "scr-nox-control-boiler",
+  "name": "SCR, SNCR and CEMS for boilers",
+  "equipment_type": "emissions-control",
+  "description": "Post-combustion NOx control. SCR passes flue gas over a catalyst with a reagent, achieving up to 95% reduction on packaged systems; SNCR injects reagent into a 870-1,150 C window and gives 30-50% reduction alone or 65-75% with combustion controls. CEMS provides the continuous concentration and emission-rate measurement used to demonstrate compliance.",
+  "specifications": [
+    {
+      "metric": "NOx reduction, packaged SCR",
+      "basis": "Cleaver-Brooks states up to 95% reduction; the page says 1 ppm in its summary and 2 ppm in its body without burner rework",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/scr",
+        "source_id": "cb-scr"
+      },
+      "unit": "%",
+      "value": 95
+    },
+    {
+      "metric": "stack NOx with SCR, modular HRSG",
+      "basis": "Available below 2 ppm NOx with SCR and integrated CO catalyst on 25-60 MW modular HRSGs",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cb-modular-hrsg"
+      },
+      "unit": "ppm",
+      "value": 2
+    },
+    {
+      "metric": "SCR scope of supply",
+      "basis": "Reactor, DeNOx catalyst, oxidation catalyst, reagent storage/dosing/injection, PLC, silencers, CEMS, platforms and catalyst management",
+      "source": {
+        "url": "https://zeeco.com/scr-systems",
+        "source_id": "zeeco-scr-systems"
+      },
+      "unit": "qualitative",
+      "value": "full SCR scope"
+    },
+    {
+      "metric": "NOx reduction, SNCR alone",
+      "basis": "EPA fact sheet: 30-50% reduction",
+      "source": {
+        "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT",
+        "source_id": "epa-sncr-fact-sheet"
+      },
+      "unit": "%",
+      "low": 30,
+      "high": 50
+    },
+    {
+      "metric": "NOx reduction, SNCR with combustion controls",
+      "basis": "EPA fact sheet citing ICAC 2000: 65-75% with low-NOx burners",
+      "source": {
+        "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT",
+        "source_id": "epa-sncr-fact-sheet"
+      },
+      "unit": "%",
+      "low": 65,
+      "high": 75
+    },
+    {
+      "metric": "SNCR reaction temperature window",
+      "basis": "870-1,150 C (1,600-2,100 F); enhancers can lower the window",
+      "source": {
+        "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT",
+        "source_id": "epa-sncr-fact-sheet"
+      },
+      "unit": "degC",
+      "low": 870,
+      "high": 1150
+    },
+    {
+      "metric": "permitted ammonia slip",
+      "basis": "Typical US permitted levels 2-10 ppm",
+      "source": {
+        "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT",
+        "source_id": "epa-sncr-fact-sheet"
+      },
+      "unit": "ppm",
+      "low": 2,
+      "high": 10
+    },
+    {
+      "metric": "SNCR capital cost, industrial boilers",
+      "basis": "USD 900-2,500 per MMBtu/hr for units above 100 MMBtu/hr, stated in 1999 dollars; not escalated",
+      "source": {
+        "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT",
+        "source_id": "epa-sncr-fact-sheet"
+      },
+      "unit": "USD per MMBtu/hr",
+      "low": 900,
+      "high": 2500,
+      "year": 1999
+    },
+    {
+      "metric": "CEMS definition",
+      "basis": "Total equipment for gas/PM concentration or emission rate using analyser measurements plus a conversion equation, graph or program",
+      "source": {
+        "url": "https://www.epa.gov/emc/emc-continuous-emission-monitoring-systems",
+        "source_id": "epa-cems"
+      },
+      "unit": "qualitative",
+      "value": "analysers + conversion"
+    }
+  ],
+  "vendors": [
+    "cleaver-brooks",
+    "zeeco"
+  ],
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com/product/scr",
+      "source_id": "cb-scr"
+    },
+    {
+      "url": "https://zeeco.com/scr-systems",
+      "source_id": "zeeco-scr-systems"
+    },
+    {
+      "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT",
+      "source_id": "epa-sncr-fact-sheet"
+    },
+    {
+      "url": "https://www.epa.gov/emc/emc-continuous-emission-monitoring-systems",
+      "source_id": "epa-cems"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PCH",
+    "PRC",
+    "HSE",
+    "INS"
+  ],
+  "aliases": [
+    "SCR",
+    "SNCR",
+    "selective catalytic reduction",
+    "selective non-catalytic reduction",
+    "CEMS"
+  ],
+  "applications": [
+    "package boilers",
+    "utility boilers",
+    "HRSGs",
+    "refinery heaters"
+  ],
+  "technologies": [
+    "hse-nox-control",
+    "pwr-gas-fired-boilers",
+    "pwr-combined-cycle-hrsg"
+  ],
+  "gaps": [
+    {
+      "what": "SCR ammonia-slip guarantee and catalyst life for gas-fired package boilers",
+      "why": "The read SCR pages give reduction efficiency but no slip guarantee, catalyst volume or life.",
+      "next_action": "Read an OEM SCR data sheet with slip, catalyst volume and temperature window."
+    },
+    {
+      "what": "which of the Cleaver-Brooks SCR 1 ppm / 2 ppm statements is current",
+      "why": "Summary and body of the same read page differ.",
+      "next_action": "Confirm with the OEM or an updated product sheet."
+    }
+  ]
+}

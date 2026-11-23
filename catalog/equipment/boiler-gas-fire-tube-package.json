@@ -1,0 +1,157 @@
+{
+  "id": "boiler-gas-fire-tube-package",
+  "name": "Gas-fired packaged fire-tube (shell) steam boiler",
+  "equipment_type": "boiler",
+  "description": "Shop-assembled shell boiler with the burner firing into a large furnace tube and hot gas making two to four passes through tubes surrounded by boiler water; the standard packaged steam source for small and medium gas-fired industrial loads. Wet-back reversal chambers give more heating surface than refractory-lined dry-back designs.",
+  "specifications": [
+    {
+      "metric": "furnace/flue tube wall thickness",
+      "basis": "Spirax Sarco: 'a compromise is reached with a furnace tube wall thickness of between 18 mm and 20 mm'",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+        "source_id": "spirax-shell-boilers"
+      },
+      "unit": "mm",
+      "low": 18,
+      "high": 20
+    },
+    {
+      "metric": "practical pressure limit",
+      "basis": "Spirax Sarco: that tube wall thickness 'translates to a practical pressure limit for shell boilers of around 27 bar'; most operate at 17 bar or less",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+        "source_id": "spirax-shell-boilers"
+      },
+      "unit": "bar",
+      "value": 27
+    },
+    {
+      "metric": "gas temperature before reversal chamber, plain steel",
+      "basis": "Spirax Sarco: gas should be cooled to at least 420 C before entering the reversal chamber of a plain-steel shell boiler",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+        "source_id": "spirax-shell-boilers"
+      },
+      "unit": "degC",
+      "value": 420
+    },
+    {
+      "metric": "gas temperature before reversal chamber, alloy steel",
+      "basis": "Spirax Sarco: 470 C minimum for alloy-steel construction",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+        "source_id": "spirax-shell-boilers"
+      },
+      "unit": "degC",
+      "value": 470
+    },
+    {
+      "metric": "flame temperature in furnace tube",
+      "basis": "Spirax Sarco: flame temperature 'may be up to 1800 C'",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+        "source_id": "spirax-shell-boilers"
+      },
+      "unit": "degC",
+      "value": 1800
+    },
+    {
+      "metric": "Cleaver-Brooks CBEX output range",
+      "basis": "CBEX packaged firetube: 100-2,500 HP, steam to 300 psig, hot water to 125 psig, 2- or 3-pass",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cb-cbex"
+      },
+      "unit": "HP",
+      "low": 100,
+      "high": 2500
+    },
+    {
+      "metric": "Cleaver-Brooks CBLE output range",
+      "basis": "CBLE four-pass packaged firetube: 50-800 HP, steam to 300 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble",
+        "source_id": "cb-cble"
+      },
+      "unit": "HP",
+      "low": 50,
+      "high": 800
+    },
+    {
+      "metric": "NOx options, natural gas",
+      "basis": "CBLE offers NOx ratings down to 5 ppm on natural gas (vendor options)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble",
+        "source_id": "cb-cble"
+      },
+      "unit": "ppm",
+      "value": 5
+    }
+  ],
+  "vendors": [
+    "cleaver-brooks",
+    "fulton",
+    "miura"
+  ],
+  "sources": [
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+      "source_id": "spirax-shell-boilers"
+    },
+    {
+      "url": "https://cleaverbrooks.com/product/cbex",
+      "source_id": "cb-cbex"
+    },
+    {
+      "url": "https://cleaverbrooks.com/product/cble",
+      "source_id": "cb-cble"
+    },
+    {
+      "url": "https://miuraboiler.com/products-category/all",
+      "source_id": "miura-all-products"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "aliases": [
+    "shell boiler",
+    "gas firetube package boiler",
+    "smoke-tube boiler"
+  ],
+  "applications": [
+    "process steam for food, chemical and manufacturing plants",
+    "on-site utility steam",
+    "dual-fuel standby"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "pwr-cogeneration-chp"
+  ],
+  "vendor_models": [
+    {
+      "vendor": "cleaver-brooks",
+      "line": "CBEX",
+      "range": "100-2,500 HP, 2/3-pass, extended heat-transfer tubes",
+      "url": "https://cleaverbrooks.com/product/cbex"
+    },
+    {
+      "vendor": "cleaver-brooks",
+      "line": "CBLE",
+      "range": "50-800 HP, 4-pass, NOx options to 5 ppm",
+      "url": "https://cleaverbrooks.com/product/cble"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "turndown and part-load efficiency curves for the main gas fire-tube lines",
+      "why": "Vendor pages read give output, pressure and NOx but not turndown for CBEX/CBLE.",
+      "next_action": "Read distributor specification sheets for turndown data."
+    }
+  ]
+}

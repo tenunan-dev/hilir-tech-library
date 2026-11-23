@@ -1,19 +1,26 @@
 # HSE: Health, safety and environment
 
-115 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+144 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
 | [Australian Energy Producers Journal](https://connectsci.au/ep) | journal | apac | mixed | catalog-only |
+| [Boiler fittings and mountings](https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Bottom blowdown](https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [Bureau of Indian Standards](https://www.bis.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
+| [Circulating fluidized-bed boilers](https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers) | oem-supplier | global, na, apac | open | summary-only |
+| [ECOjet Edge+ low-NOx burner](https://johnzink.com/products/powerburners/ecojet-edge-plus) | oem-supplier | global, na, apac | open | summary-only |
+| [GE Vernova heat recovery steam generators](https://www.gevernova.com/gas-power/products/hrsg) | oem-supplier | global, na, apac, sea, me, eu | open | summary-only |
 | [Japanese Industrial Standards (JISC)](https://www.jisc.go.jp/eng/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [Malaysian Standards (Department of Standards Malaysia)](https://www.jsm.gov.my/) | standards-body | apac, sea | paywalled | catalog-only (unverified) |
+| [Miura LX series steam boiler (Canada)](https://miuraboiler.ca/product/lx-steam-boiler) | oem-supplier | global, na, apac | open | summary-only |
 | [NOPSEMA offshore safety regulator](https://www.nopsema.gov.au/) | agency-data | apac | open | full-text-restricted |
 | [OISD Oil Industry Safety Directorate standards](https://www.oisd.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [SNI 13-6910-2002 Safe Onshore and Offshore Drilling Operations (BSN)](https://id.scribd.com/document/1031759154/SNI-13-6910-2002) | standards-body | sea | mixed | full-text-restricted |
 | [SNI Indonesian National Standards (BSN)](https://bsn.go.id/) | standards-body | apac, sea | mixed | catalog-only (unverified) |
 | [Standardization Administration of China (GB standards)](https://www.sac.gov.cn/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [Standards Australia (AS 2885 pipelines, AS/NZS 60079)](https://www.standards.org.au/) | standards-body | apac | paywalled | catalog-only (unverified) |
+| [Why you need an ultra-low-NOx steam boiler](https://miuraboiler.com/why-you-need-an-ultra-low-nox-steam-boiler/) | oem-supplier | global, na, apac | open | summary-only |
 | [ASEAN Centre for Energy (ACE)](https://aseanenergy.org/) | agency-data | sea, apac | open | full-text-restricted |
 | [Australian DCCEEW energy and hydrogen](https://www.dcceew.gov.au/energy) | agency-data | apac | open | full-text-open |
 | [Australian Energy Producers (formerly APPEA)](https://energyproducers.au/) | association | apac | open | full-text-restricted |
@@ -36,18 +43,29 @@
 | [Malaysian Petrochemicals Association](https://www.mpa.org.my/) | association | sea | open | summary-only (unverified) |
 | [AIChE Center for Chemical Process Safety (CCPS)](https://www.aiche.org/ccps) | association | global | mixed | summary-only |
 | [AIChE Spring Meeting and Global Congress on Process Safety](https://www.aiche.org/conferences/aiche-spring-meeting-and-global-congress-on-process-safety) | conference | global | mixed | catalog-only |
+| [ALZETA ultra-low-NOx burners](https://alzeta.com/ultra-low-nox-burners) | oem-supplier | global, na | open | summary-only |
 | [API Standards and Publications](https://www.api.org/products-and-services/standards) | standards-body | global, na | paywalled | catalog-only |
 | [Argonne GREET model](https://greet.anl.gov/) | research-institute | global | open | full-text-open |
 | [ASME Boiler & Pressure Vessel Code (BPVC)](https://www.asme.org/codes-standards/bpvc-standards/bpvc-2023) | standards-body | global | paywalled | catalog-only |
+| [ASME boiler and pressure vessel certification](https://www.asme.org/certification-accreditation/boiler-and-pressure-vessel-certification) | standards-body | global | open | summary-only |
 | [CCPS Process Safety Beacon](https://www.aiche.org/ccps/process-safety-beacon) | association | global | open | full-text-restricted |
+| [Cleaver-Brooks fuel trains](https://cleaverbrooks.com/product/fuel-train) | oem-supplier | global, na | open | summary-only |
+| [Cleaver-Brooks modular HRSG](https://cleaverbrooks.com/product/modular-hrsg) | oem-supplier | global, na | open | summary-only |
+| [Cleaver-Brooks selective catalytic reduction](https://cleaverbrooks.com/product/scr) | oem-supplier | global, na | open | summary-only |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [eCFR — Title 49 (PHMSA pipeline safety)](https://www.ecfr.gov) | standards-body | global | open | full-text-open |
+| [EIA: most combined-cycle plants have duct burners](https://www.eia.gov/todayinenergy/detail.php?id=52778) | agency-data | global, na | open | summary-only |
 | [Energy Institute Publications](https://publishing.energyinst.org/) | standards-body | global, eu | mixed | catalog-only (unverified) |
+| [EPA air pollution control technology fact sheet — SNCR](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT) | agency-data | global, na | open | summary-only |
+| [EPA Boiler MACT — industrial, commercial and institutional boilers](https://www.epa.gov/stationary-sources-air-pollution/industrial-commercial-and-institutional-boilers-and-process-0) | agency-data | global, na | open | summary-only |
+| [EPA continuous emission monitoring systems](https://www.epa.gov/emc/emc-continuous-emission-monitoring-systems) | agency-data | global, na | open | summary-only |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
 | [European Commission CCS Directive implementation guidance](https://op.europa.eu/en/publication-detail/-/publication/47fb8148-d436-4ba3-88fb-ceb774b88933) | agency-data | eu | open | full-text-open |
 | [European Commission DG CLIMA](https://climate.ec.europa.eu) | agency-data | eu | open | full-text-open |
+| [GO ultra-low-NOx package burner](https://zeeco.com/resources/brochures/go-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
 | [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open |
+| [Honeywell burner management systems](https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems) | oem-supplier | global, na | open | summary-only |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
 | [IEAGHG Technology Collaboration Programme reports](https://ieaghg.org/) | research-institute | global | mixed | full-text-restricted |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
@@ -65,12 +83,20 @@
 | [NORSOK D-010 Well integrity in drilling and well operations (Rev. 4 updates copy)](https://id.scribd.com/document/396965999/2-Norsok-Terje-Lokke-Sorensen) | standards-body | eu, global | mixed | full-text-restricted |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
+| [OSHA pressure vessels — standards](https://www.osha.gov/pressure-vessels/standards) | agency-data | global, na | open | summary-only |
+| [PLN ultra-low-NOx package burner](https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
 | [Process Safety Progress](https://aiche.onlinelibrary.wiley.com/journal/15475913) | journal | global | mixed | catalog-only (unverified) |
+| [ProFire SBR-30 low-NOx burner](https://cleaverbrooks.com/product/sbr30-burner) | oem-supplier | global, na | open | summary-only |
+| [ProFire SBR-5 ultra-low-NOx burner with FGR](https://cleaverbrooks.com/product/sbr5-burner) | oem-supplier | global, na | open | summary-only |
+| [ProLine in-line duct burner](https://johnzink.com/products/duct-burner/proline-in-line-duct-burner) | oem-supplier | global, na | open | summary-only |
+| [QLN low-NOx burner](https://johnzink.com/products/powerburners/qln) | oem-supplier | global, na | open | summary-only |
 | [SIGTTO Society of International Gas Tanker and Terminal Operators](https://www.sigtto.org/) | association | global | mixed | catalog-only (unverified) |
+| [Solid fuel to natural gas conversions for circulating fluid bed boilers](https://www.zeeco.com/resources/news/solid-fuel-to-natural-gas-conversions-for-circulating-fluid-bed-boilers) | oem-supplier | global, na | open | summary-only |
 | [Sustainability (MDPI)](https://www.mdpi.com/journal/sustainability) | journal | global | open | full-text-open |
 | [UK Health and Safety Executive (offshore and COMAH)](https://www.hse.gov.uk/) | agency-data | eu, global | open | full-text-open |
 | [US Chemical Safety Board investigations](https://www.csb.gov/) | agency-data | na, global | open | full-text-open |
 | [US Federal Register](https://www.federalregister.gov) | agency-data | na | open | full-text-open |
+| [Zeeco SCR systems](https://zeeco.com/scr-systems) | oem-supplier | global, na | open | summary-only |
 | [Alberta Energy Regulator (AER)](https://www.aer.ca) | agency-data | na | open | full-text-open |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only |
 | [BASF OASE gas treatment](https://energy-resources.basf.com/global/en/gas-treatment) | licensor | global | open | full-text-restricted |
@@ -88,6 +114,7 @@
 | [EPA Class VI well information (geologic sequestration of CO2)](https://www.epa.gov/uic/class-vi-wells-used-geologic-sequestration-carbon-dioxide) | agency-data | na | open | full-text-open |
 | [EPA Effluent Guidelines — Petroleum Refining (40 CFR 419)](https://www.epa.gov/eg/petroleum-refining-effluent-guidelines) | agency-data | na, global | open | full-text-open |
 | [EPA GSG: Petroleum Refineries (LCAR snapshot)](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refineries.pdf) | agency-data | global | open | full-text-open (unverified) |
+| [EPA technology overview: circulating fluidized-bed combustion](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100RMKB.TXT) | agency-data | global, na, eu | open | summary-only |
 | [FM Global Property Loss Prevention Data Sheets](https://www.fm.com) | research-institute | global | paywalled | catalog-only |
 | [Freeport LNG Site Completion Impact Report (2020)](https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF) | agency-data | global | open | full-text-restricted |
 | [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted |
@@ -102,6 +129,7 @@
 | [National Carbon Capture Center (US DOE)](https://www.nationalcarboncapturecenter.com) | research-institute | global | open | full-text-restricted |
 | [NERSA (National Energy Regulator of South Africa)](https://www.nersa.org.za) | agency-data | af | open | full-text-open |
 | [Net Zero Teesside project pages](https://www.netzeroteesside.co.uk) | agency-data | eu | open | full-text-restricted |
+| [NFPA 85 (2023) table of contents at UpCodes](https://up.codes/viewer/nfpa/nfpa-85-2023) | standards-body | global, na | open | summary-only |
 | [Northern Lights JV news pages](https://norlights.com/newsroom/) | agency-data | eu | open | full-text-restricted |
 | [Norwegian Offshore Directorate (Sokkeldirektoratet)](https://www.sodir.no/en/) | agency-data | eu | open | full-text-open (unverified) |
 | [OGMP 2.0 Oil and Gas Methane Partnership (UNEP IMEO)](https://www.ogmpartnership.org/) | association | global | open | full-text-restricted (unverified) |
@@ -117,5 +145,6 @@
 | [Vicat](https://www.vicat.com) | oem-supplier | global | open | full-text-restricted |
 | [World Bank Global Flaring & Methane Reduction (GFMR) Partnership](https://www.worldbank.org/en/programs/gasflaringreduction) | agency-data | global | open | full-text-open |
 | [World Nuclear Association](https://world-nuclear.org/information-library) | association | global | open | full-text-restricted |
+| [ASME Boiler and Pressure Vessel Code summary (Engineering ToolBox)](https://engineeringtoolbox.com/asme-boiler-vessel-code-d_8.html) | trade-media | global | open | summary-only |
 | [The Maritime Executive](https://maritime-executive.com) | trade-media | global | open | summary-only |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

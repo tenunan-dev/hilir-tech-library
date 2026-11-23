@@ -1,0 +1,26 @@
+{
+  "id": "asme-bpvc-certification",
+  "name": "ASME boiler and pressure vessel certification",
+  "url": "https://www.asme.org/certification-accreditation/boiler-and-pressure-vessel-certification",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT",
+    "HSE"
+  ],
+  "publisher_org": "ASME",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary (ASME copyright)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. BPVC certificate categories: Section I power boilers (S, A, E, M, PRT), Section IV heating boilers (H, HLW) and Section VIII pressure vessels (U, UM, U2, U3); BPVC certification covers design, fabrication, assembly and inspection during construction. Evidence: https://www.asme.org/certification-accreditation/boiler-and-pressure-vessel-certification"
+}

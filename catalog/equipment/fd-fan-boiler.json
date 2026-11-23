@@ -1,0 +1,85 @@
+{
+  "id": "fd-fan-boiler",
+  "name": "Boiler forced-draft fan and inlet silencer",
+  "equipment_type": "fan",
+  "description": "Fan that pushes combustion air through the windbox, burner and gas passes, and can also convey flue gas through catalysts, economiser, FGR ducting and stack. Arrangements 3, 4 and 7 are offered; inlet silencers and filters reduce intake noise and protect the fan, and a variable-speed drive can replace damper control at part load.",
+  "specifications": [
+    {
+      "metric": "fan arrangements",
+      "basis": "Halgo Power lists AMCA arrangements 3, 4 and 7",
+      "source": {
+        "url": "https://www.halgopower.com/products/forced-draft-fans",
+        "source_id": "halgo-fd-fans"
+      },
+      "unit": "qualitative",
+      "value": "arrangements 3, 4, 7"
+    },
+    {
+      "metric": "FGR mixing arrangement",
+      "basis": "A portion of flue gas is routed to the FD fan intake and mixed with fresh air; dampers regulate both streams to lower flame temperature and NOx",
+      "source": {
+        "url": "https://www.halgopower.com/products/forced-draft-fans",
+        "source_id": "halgo-fd-fans"
+      },
+      "unit": "qualitative",
+      "value": "FGR mixing box with dampers"
+    },
+    {
+      "metric": "inlet silencer purpose",
+      "basis": "Sized to attach directly to the fan inlet and reduce intake noise to a specified decibel limit",
+      "source": {
+        "url": "https://www.halgopower.com/products/forced-draft-fans",
+        "source_id": "halgo-fd-fans"
+      },
+      "unit": "qualitative",
+      "value": "fan inlet silencer"
+    },
+    {
+      "metric": "part-load control",
+      "basis": "VFD offered in lieu of dampers; many package boilers operate at a fraction of nameplate",
+      "source": {
+        "url": "https://www.halgopower.com/products/forced-draft-fans",
+        "source_id": "halgo-fd-fans"
+      },
+      "unit": "qualitative",
+      "value": "VFD or damper"
+    }
+  ],
+  "vendors": [
+    "halgo-power"
+  ],
+  "sources": [
+    {
+      "url": "https://www.halgopower.com/products/forced-draft-fans",
+      "source_id": "halgo-fd-fans"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "aliases": [
+    "FD fan",
+    "forced draught fan",
+    "combustion air fan"
+  ],
+  "applications": [
+    "package boilers",
+    "utility boilers",
+    "HRSGs"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "gaps": [
+    {
+      "what": "fan duty, static pressure and power for named boiler sizes",
+      "why": "The read product page is descriptive and carries no fan performance table.",
+      "next_action": "Obtain a fan selection datasheet with flow, pressure and speed for a reference boiler."
+    }
+  ]
+}

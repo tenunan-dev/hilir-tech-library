@@ -1,6 +1,6 @@
 # Equipment catalog
 
-37 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+58 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -150,18 +150,118 @@ Recorded gaps:
 
 - electrode boiler capacity ceiling at high voltage (MW-class hot-water and steam units) — read an OEM electrode boiler page (e.g. Precision Boilers) for the utility-class range
 
+### Gas-fired and gas-conversion circulating fluidized bed boiler (boiler-gas-cfb)
+
+Primary code: PWR: Power and renewables
+Circulating fluidized bed boiler in which fine solids are suspended in a high-velocity gas stream and circulated through a cyclone or U-beam collector back to the furnace. Commercial CFB lines from the OEMs read are dominated by solid and multi-fuel designs; natural-gas firing is evidenced as a solid-fuel-to-gas conversion offering and as gas firing in a circulating-bed alumina calciner, not as a dedicated gas-fired boiler product.
+Vendors: Babcock & Wilcox, Valmet, ANDRITZ, Zeeco (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| steam capacity, B&W IR-CFB | 2200000 lb/h | B&W IR-CFB product specifications: 2.2 million lb/h (277 kg/s) or greater as required |
+| steam pressure, B&W IR-CFB | 2600 psig | B&W: 'to 2600 psig' (17.9 MPa) |
+| steam temperature, B&W IR-CFB | 1050 degF | B&W: 'as required, usually to 1050 F (566 C)' |
+| size range, Valmet CFB | 30-1200 MWth | Valmet: boilers from 30 to 1,200 MWth (solid/multi-fuel range) |
+| size range, ANDRITZ waste CFB | 50-200 t/h | ANDRITZ PowerFluid Waste CFB: 50-200 t/h steam (40-150 MW) |
+| fluidizing velocity, CFB | 10-30 ft/s | EPA technology overview: about 10-30 ft/s for CFB versus 2-12 ft/s for conventional FBC; historical report, not a current guarantee |
+| natural-gas NOx in circulating fluid bed calciner | 40 ppm | EPA report: 40 ppm NOx achieved with natural gas firing in a Lurgi circulating fluid bed alumina calciner at up to 2,650 F; this is NOT a steam boiler |
+
+
+Recorded gaps:
+
+- named 100% natural-gas-fired CFB boiler plant with owner, capacity, status and date — Read the Zeeco/ASME POWER2014-32258 paper and any operator conversion case study.
+- gas-fired CFB burner counts, gas-train specifications and emission guarantees — Search OEM conversion case studies and burner datasheets.
+
+### Gas-fired condensing hot-water boiler (boiler-gas-condensing-hot-water)
+
+Primary code: PWR: Power and renewables
+Packaged hydronic boiler that cools flue gas below its dew point to recover the latent heat of water vapour, using corrosion-resistant duplex or stainless heat-transfer surfaces. Available as one-pass firetube designs with premix or dual-fuel burners, with high turndown and integrated controls for commercial and institutional heating.
+Vendors: Cleaver-Brooks, Fulton (2 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| minimum combustion efficiency, large commercial gas hot-water boiler | 96 % Ec | DOE FEMP purchasing requirement for 2.5-10 MMBtu/hr input gas-fired hot-water boilers, based on 10 CFR 431.86 |
+| input capacity, Cleaver-Brooks ClearFire-CE | 500-6000 MBH | 11 models from 500 to 6,000 MBH input |
+| AHRI thermal efficiency, ClearFire-CE | 94.7-96 % | AHRI thermal 96.0% and combustion 94.7%; the page's 'up to 99%' is marketing wording |
+| turndown, ClearFire-CE | 10 :1 | 10:1 fully modulating on the ClearFire-CE product page |
+| NOx, ClearFire-CE standard | 20 ppm | Under 20 ppm NOx standard, sub-7 ppm optional (OEM specification) |
+| hydrogen blend capability | 20 % by volume | Manufacturer states burner and controls support up to 20% volumetric hydrogen-natural gas blend; not a certification |
+| input capacity, Cleaver-Brooks SwitchFire | 6000-12000 MBH | 6,000 / 10,000 / 12,000 MBH models |
+| AHRI thermal efficiency, SwitchFire | 95.6-96.3 % | AHRI combustion 95.6% / thermal 96.3%; 'up to 98%' is OEM wording |
+
+- **Cleaver-Brooks** ClearFire-CE: 500-6,000 MBH, AHRI thermal 96%, 10:1 turndown, duplex stainless with TurboFer/AluFer tubes
+- **Cleaver-Brooks** SwitchFire: 6,000-12,000 MBH, gas-only premix to 15:1 turndown or dual-fuel Weishaupt burner to 6:1
+
+Recorded gaps:
+
+- named condensing-boiler installations in Asia Pacific — Look for FEMP case studies and OEM reference lists with owner, capacity and date.
+
+### Gas-fired industrial water-tube package boiler (boiler-gas-water-tube-package)
+
+Primary code: PWR: Power and renewables
+Shop-assembled water-tube boiler with water inside the tubes and combustion gas outside, served by a steam drum and mud drum with downcomers and risers and a finned membrane furnace wall. Natural circulation and the separation of steam and water from the heated circuit allow much higher pressures and outputs than a shell boiler, and the design can fire natural gas, refinery gas or dual fuel.
+Vendors: Babcock & Wilcox, Cleaver-Brooks, Miura Boiler (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| steam output, power-station class | 500 kg/s | Spirax Sarco: 'high steam output (up to 500 kg/s)' |
+| design pressure, power-station class | 160 bar | Spirax Sarco: 'high pressure steam (up to 160 bar)' |
+| superheated steam temperature | 550 degC | Spirax Sarco: 'superheated steam (up to 550 C)' |
+| capacity range of alternative water-tube layouts | 5000-180000 kg/h | Spirax Sarco: layouts 'available with capacities from 5 000 kg/h to 180 000 kg/h' |
+| B&W industrial water-tube package capacity | 10000-1200000 lb/h | B&W package boiler range 10,000-1,200,000 lb/h (4.5-544.2 t/h) as recorded in the existing boiler-industrial-watertube-package record |
+| NOx, ultra-low-NOx gas burner | 9 ppm at 3% O2 | Miura LX water-tube boiler with quenched-flame burner: 9 ppm at 3% corrected O2, natural gas or propane |
+| fuel-to-steam efficiency | 85-87 % | Miura states 85% for LX and 87% with built-in energy recovery and water treatment, against 83% 'typical fire-tube' (vendor comparison) |
+
+- **Miura Boiler** LX once-through vertical water-tube: 50-300 HP, 9 ppm NOx at 3% O2 on natural gas or propane
+
+Recorded gaps:
+
+- whether current OEM literature uses the D-type/O-type terminology on the earlier record — Confirm the layout names against a current B&W package-boiler brochure before relying on them.
+
+### Gas-fired packaged fire-tube (shell) steam boiler (boiler-gas-fire-tube-package)
+
+Primary code: PWR: Power and renewables
+Shop-assembled shell boiler with the burner firing into a large furnace tube and hot gas making two to four passes through tubes surrounded by boiler water; the standard packaged steam source for small and medium gas-fired industrial loads. Wet-back reversal chambers give more heating surface than refractory-lined dry-back designs.
+Vendors: Cleaver-Brooks, Fulton, Miura Boiler (2 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| furnace/flue tube wall thickness | 18-20 mm | Spirax Sarco: 'a compromise is reached with a furnace tube wall thickness of between 18 mm and 20 mm' |
+| practical pressure limit | 27 bar | Spirax Sarco: that tube wall thickness 'translates to a practical pressure limit for shell boilers of around 27 bar'; most operate at 17 bar or less |
+| gas temperature before reversal chamber, plain steel | 420 degC | Spirax Sarco: gas should be cooled to at least 420 C before entering the reversal chamber of a plain-steel shell boiler |
+| gas temperature before reversal chamber, alloy steel | 470 degC | Spirax Sarco: 470 C minimum for alloy-steel construction |
+| flame temperature in furnace tube | 1800 degC | Spirax Sarco: flame temperature 'may be up to 1800 C' |
+| Cleaver-Brooks CBEX output range | 100-2500 HP | CBEX packaged firetube: 100-2,500 HP, steam to 300 psig, hot water to 125 psig, 2- or 3-pass |
+| Cleaver-Brooks CBLE output range | 50-800 HP | CBLE four-pass packaged firetube: 50-800 HP, steam to 300 psig |
+| NOx options, natural gas | 5 ppm | CBLE offers NOx ratings down to 5 ppm on natural gas (vendor options) |
+
+- **Cleaver-Brooks** CBEX: 100-2,500 HP, 2/3-pass, extended heat-transfer tubes
+- **Cleaver-Brooks** CBLE: 50-800 HP, 4-pass, NOx options to 5 ppm
+
+Recorded gaps:
+
+- turndown and part-load efficiency curves for the main gas fire-tube lines — Read distributor specification sheets for turndown data.
+
 ### Heat recovery steam generator (HRSG) (boiler-hrsg)
 
 Primary code: PWR: Power and renewables
 Boiler fired by hot combustion-turbine or furnace exhaust gas rather than by burners, raised in horizontal or vertical panels behind a gas turbine with one or more drum pressures and optionally reheat. Converts a gas turbine into a combined-cycle or cogeneration plant and is the deciding component for how much of the turbine exhaust energy becomes steam.
-Vendors: Babcock & Wilcox, Cleaver-Brooks, Doosan Enerbility, IHI Corporation, Sumitomo SHI FW (2 model lines recorded).
+Vendors: Babcock & Wilcox, Cleaver-Brooks, Doosan Enerbility, IHI Corporation, Sumitomo SHI FW, GE Vernova, John Zink Company, Tetra Engineering Group, Entech Products Corp (6 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
 | steam-cycle efficiency by HRSG configuration | 20-30 % | about 20% for two-pressure without reheat, 26% for three-pressure, about 30% for three-pressure with reheat |
+| installed HRSG fleet, GE Vernova | 1300 units | OEM statement: more than 1,300 HRSGs installed worldwide |
+| once-through HRSG operating experience | 2.5 million hours | OEM statement: over 2.5 million operating hours for once-through HRSG technology |
+| US combined-cycle capacity with duct burners | 208 GW | About 208 GW of 278 GW US combined-cycle fleet has duct burners, EIA-860/EIA-923, June 2022 |
+| HRSG component scope | pressure parts and catalyst housings qualitative | B&W supplies HARPs, superheaters, reheaters, economisers, finned tubing, headers, casing, inlet ducting, HP/IP/LP drums and SCR/CO catalyst housings |
 
 - **Babcock & Wilcox** HRSG systems, upgrades and components: reliable HRSG systems plus upgrades and replacement components — HARPs (high pressure evaporators), headers, finned tubing and other pressure parts — suitable for a wide range of combustion turbine applications
 - **Cleaver-Brooks** packaged HRSG for small turbines: state-of-the-art customized packaged heat-recovery steam generators for gas-fired turbines from 1 to 60 MW
+- **GE Vernova** Horizontal drum / horizontal once-through / vertical drum HRSG: supplementary firing, SCR/CO catalysts, bypass and modular construction; 1,300+ installed (OEM statement)
+- **John Zink Company** HRSG duct burners: LDRW, VC and Coen-casting flame holders with igniters and flame scanners
+- **GE Vernova** Horizontal drum / horizontal once-through / vertical drum HRSG: supplementary firing, SCR/CO catalysts, bypass and modular construction; 1,300+ installed (OEM statement)
+- **John Zink Company** HRSG duct burners: LDRW, VC and Coen-casting flame holders with igniters and flame scanners
 
 Recorded gaps:
 
@@ -214,6 +314,61 @@ Recorded gaps:
 
 - turndown ratios and part-load efficiency curves for the main fire-tube lines — read Cleaver-Brooks and Miura turndown data during the next boiler sweep
 - refinery large-firetube practice and which classes refineries specify below what load — look for refinery utility steam design references in corpus/
+
+## burner
+
+### HRSG duct burner (supplementary gas firing) (duct-burner-hrsg)
+
+Primary code: PWR: Power and renewables
+Burner installed in the gas-turbine exhaust duct to burn additional natural gas in the remaining oxygen and raise steam output. Two main forms are standard round gas burners and linear grid burners spanning the duct. Installed in the transition duct before the lead tube bank or between superheater stages, with flame holders, pilots, igniters and flame scanners.
+Vendors: John Zink Company, Cleaver-Brooks, Entech Products Corp (3 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| heat input, Cleaver-Brooks Natcom | 10-500 MMBtu/hr | HRSG supplementary firing: 10-500 MMBtu/hr, natural gas and propane |
+| emissions, Cleaver-Brooks Natcom | 7 ppm | Available to under 7 ppm NOx and under 50 ppm CO; attribute table also states under 0.1 lb/MMBtu |
+| emissions, John Zink ProLine in-line | 0.03 lb/MMBtu | 0.03 lb/MMBtu for each of NOx and CO; gaseous fuels including natural gas and hydrogen |
+| heat release per unit length, ProLine | 5 MMBtu/hr/ft | Up to 5 MMBtu/hr per foot of burner length (4.8 MW/m) |
+| turndown, ProLine | 20 :1 | 20:1 stated for the in-line duct burner |
+| runner sag inspection criterion | 2-3 in | Tetra Engineering: excessive sag above 2-3 in (5-8 cm) at runner midpoint; one improperly installed runner buckled in under 10,000 operating hours |
+| US combined-cycle capacity with duct burners | 208 GW | About 208 GW of the 278 GW US combined-cycle fleet, EIA-860/EIA-923 data, article June 2022 |
+| capacity factor with versus without duct firing | 47-59 % | EIA 2020: 59% for plants with duct firing versus 47% without; fleet average 56% |
+
+- **John Zink Company** ProLine in-line duct burner: 0.03 lb/MMBtu NOx and CO, to 5 MMBtu/hr/ft, 20:1 turndown
+- **John Zink Company** Duct-burner flame holders: LDRW low-draft reverse wing, VC V-cone tip wing and Coen castings, with igniters and flame scanners
+- **Cleaver-Brooks** Natcom duct burner: 10-500 MMBtu/hr, under 7 ppm NOx / under 50 ppm CO
+
+Recorded gaps:
+
+- quantified duct-firing duty ranges for named HRSG projects — Find HRSG OEM duct-burner specification sheets with heat input and exhaust conditions.
+
+### Low-NOx gas burner (package and ultra-low-NOx) (burner-gas-low-nox)
+
+Primary code: PWR: Power and renewables
+Burner that stages fuel and air, delays mixing or recirculates flue gas to lower flame temperature and NOx formation. Package gas burners span roughly 10-500 MMBtu/hr with 10:1 turndown; ultra-low-NOx versions reach single-digit ppm NOx with flue-gas recirculation or surface-stabilised premixed combustion. Used on fire-tube, water-tube and hot-water boilers and on refinery fired heaters.
+Vendors: Cleaver-Brooks, Zeeco, John Zink Company, ALZETA, Miura Boiler (4 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| NOx, natural gas without FGR | 30 ppm at about 3% O2 | Cleaver-Brooks SBR-30: under 30 ppm at about 3% O2 across a wide load range |
+| heat input, SBR-30 | 16.8-54.6 MMBtu/hr | 16,800-54,600 MBH (16.8-54.6 MMBtu/hr); 400-1,300 HP boilers |
+| heat input, SBR-5 | 10.5-42 MMBtu/hr | 10,500-42,000 MBH (10.5-42 MMBtu/hr); 250-1,000 HP boilers, gas or ASTM 2D-S15 |
+| NOx with induced FGR | 5 ppm | SBR-5: 5 ppm at about 3% O2 (body states 3-4%) with induced FGR |
+| NOx ladder versus excess air, Zeeco PLN | 9-40 ppm | 40 ppm at 40%, 30 at 45%, 15 at 50%, 9 at 60% excess air without FGR; O2 reference basis not stated |
+| heat release, Zeeco PLN/GO | 2.5-63 MMBtu/hr | 2.5-63 MMBtu/hr (0.73-18.5 MW), natural gas, LPG or other on request |
+| NOx with staged flame and internal FGR | 30 ppm | Zeeco GO: 30 ppm at 15% excess air on natural gas/propane without external FGR; O2 basis not stated |
+| NOx without FGR, ECOjet Edge+ | 15 ppm | John Zink: as low as 15 ppm without FGR in select applications; more than 350 ECOjet installations (vendor statement) |
+| NOx, surface-stabilised premix burner | 5 ppm at 3% O2 | ALZETA: below 5 ppm corrected to 3% O2 for most commercial and industrial heating applications |
+| turndown, package gas burners | 10 :1 | 10:1 stated for SBR-30/SBR-5 and Zeeco PLN/GO |
+
+- **Cleaver-Brooks** ProFire SBR-30 / SBR-5: 16.8-54.6 and 10.5-42 MMBtu/hr; 10:1; 30 ppm without FGR / 5 ppm with FGR
+- **Zeeco** PLN / GO: 2.5-63 MMBtu/hr; 10:1; 9-40 ppm versus excess air (PLN), 30 ppm at 15% excess air (GO)
+- **John Zink Company** ECOjet Edge+: as low as 15 ppm NOx without FGR in select applications; natural gas to 100% hydrogen
+- **ALZETA** surface-stabilised premix: below 5 ppm corrected to 3% O2
+
+Recorded gaps:
+
+- common O2 reference basis for the quoted NOx figures — Obtain emission test sheets stating both excess air and O2 reference.
 
 ## busway
 
@@ -272,6 +427,24 @@ Recorded gaps:
 
 - per-model tank sizes — Read WesTech/Veolia clarifier model pages
 
+## cleaning
+
+### Boiler soot blower and online cleaning (soot-blower-boiler)
+
+Primary code: PWR: Power and renewables
+Online cleaning equipment that removes ash and soot deposits from heat-transfer surfaces to preserve efficiency, keep flue-gas temperatures within design and prevent gas-passage blockage. Saturated steam is the most widely used blowing medium because boiler-generated steam is available; SCR catalyst cleaning uses much lower steam velocity to avoid mechanical or erosive damage.
+Vendors: Babcock & Wilcox (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| blowing medium | saturated steam qualitative | Saturated steam is the most widely used medium because boiler-generated steam avoids an external supply |
+| SCR catalyst cleaning velocity | low velocity qualitative | Steam velocity is low compared with boiler sootblowing applications to avoid mechanical or erosive damage |
+
+
+Recorded gaps:
+
+- blower counts, stroke lengths, steam pressure and duty per surface — Read an OEM sootblower data sheet for a reference boiler.
+
 ## co2-stripper
 
 ### Urea CO2 stripper (urea-co2-stripper)
@@ -309,6 +482,48 @@ Recorded gaps:
 
 - per-vendor model-line ranges (flow, stage count, discharge pressure) for Siemens Energy STC, Baker Hughes BCL/DBL and PCL, MCO-I and Atlas Copco integrally-geared machines — fetch the OEM compressor family pages (browser session if needed) and add model lines with stated ranges
 - CO2-specific compression train boundaries (inlet, discharge, density effects) — mine the ccs-co2-compression-dehydration card's sources and OEM CO2 compression references
+
+## controls
+
+### Boiler controls and oxygen trim (boiler-controls-oxygen-trim)
+
+Primary code: PWR: Power and renewables
+Control system that holds the fuel-to-air ratio and steam conditions across load. A stand-alone PLC oxygen-trim package uses an O2 sensor, firing-rate sensor and actuator or variable-speed drive to compensate for temperature, barometric pressure and fuel changes; package burners add parallel positioning, remote monitoring and burner-management interlocks.
+Vendors: Cleaver-Brooks, Honeywell, Zeeco (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| O2 trim architecture | PLC + O2 and firing-rate sensors qualitative | Stand-alone PLC-based system: O2 sensor + firing-rate sensor + PLC panel + actuator or VSD |
+| control modes | air trim / fuel trim qualitative | Air trim or fuel trim; single-point/jackshaft with customisation for parallel positioning or alternate fuel |
+| compensated variables | temperature, pressure, fuel qualitative | Compensates for temperature, barometric pressure and fuel changes |
+| remote monitoring | parallel positioning + IoT qualitative | Parallel positioning and remote IoT monitoring included on ProFire SBR-30/SBR-5 |
+| safety-limit supervision | interlocks + flame supervision qualitative | Interlocks/permissives, flame presence monitoring, safety-limit supervision, prepurge and controlled shutdown |
+
+
+Recorded gaps:
+
+- measured savings and set-point accuracy for O2 trim on gas boilers — Find a controlled trial or OEM datasheet stating O2 set point and fuel saving.
+
+### Burner management and flame safeguard system (burner-management-safety-system)
+
+Primary code: PWR: Power and renewables
+Safety system that sequences purge, ignition and firing and trips the fuel on loss of flame or failed permissives. Designed to NFPA 85/86, IRI, ISA 84, FM and Gastec practice; flame supervision uses UV or IR viewing heads, with SIL3-capable assemblies available.
+Vendors: Honeywell, Zeeco (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| UV detector spectral response | 185-260 nm | Honeywell S70X/S80X UV models: UVTron sensor, 185-260 nm, peak 210 nm |
+| IR detector spectral response | 950-1710 nm | Honeywell IR models: germanium detector, 950-1,710 nm |
+| functional safety capability | 3 SIL | S702/S802 and S706/S806 viewing-head families are SIL 3 capable |
+| ambient temperature range | -40-85 degC | Standard S70X/S80X models rated -40 to +85 C |
+| UV tube life | 10000-50000 hours | 10,000-50,000 hours depending on conditions, with monthly sensitivity check recommended |
+| optical field of view | 1-5 degrees | IR models 1 degree, UV models 5 degrees |
+| standards basis | NFPA 85/86, IRI, ISA 84, FM, Gastec qualitative | Honeywell states systems are engineered to NFPA 85/86, IRI, ISA 84, Factory Mutual and Gastec practice |
+
+
+Recorded gaps:
+
+- trip logic and proof-of-closure arrangements for specific boiler makes — Read the burner OEM's BMS sequence matrix and NFPA 85 (primary text is paywalled).
 
 ## crah
 
@@ -349,6 +564,32 @@ Recorded gaps:
 
 - per-model flow ranges — Read Veolia/Evoqua DAF model pages
 
+## emissions-control
+
+### SCR, SNCR and CEMS for boilers (scr-nox-control-boiler)
+
+Primary code: PWR: Power and renewables
+Post-combustion NOx control. SCR passes flue gas over a catalyst with a reagent, achieving up to 95% reduction on packaged systems; SNCR injects reagent into a 870-1,150 C window and gives 30-50% reduction alone or 65-75% with combustion controls. CEMS provides the continuous concentration and emission-rate measurement used to demonstrate compliance.
+Vendors: Cleaver-Brooks, Zeeco (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| NOx reduction, packaged SCR | 95 % | Cleaver-Brooks states up to 95% reduction; the page says 1 ppm in its summary and 2 ppm in its body without burner rework |
+| stack NOx with SCR, modular HRSG | 2 ppm | Available below 2 ppm NOx with SCR and integrated CO catalyst on 25-60 MW modular HRSGs |
+| SCR scope of supply | full SCR scope qualitative | Reactor, DeNOx catalyst, oxidation catalyst, reagent storage/dosing/injection, PLC, silencers, CEMS, platforms and catalyst management |
+| NOx reduction, SNCR alone | 30-50 % | EPA fact sheet: 30-50% reduction |
+| NOx reduction, SNCR with combustion controls | 65-75 % | EPA fact sheet citing ICAC 2000: 65-75% with low-NOx burners |
+| SNCR reaction temperature window | 870-1150 degC | 870-1,150 C (1,600-2,100 F); enhancers can lower the window |
+| permitted ammonia slip | 2-10 ppm | Typical US permitted levels 2-10 ppm |
+| SNCR capital cost, industrial boilers | 900-2500 USD per MMBtu/hr | USD 900-2,500 per MMBtu/hr for units above 100 MMBtu/hr, stated in 1999 dollars; not escalated |
+| CEMS definition | analysers + conversion qualitative | Total equipment for gas/PM concentration or emission rate using analyser measurements plus a conversion equation, graph or program |
+
+
+Recorded gaps:
+
+- SCR ammonia-slip guarantee and catalyst life for gas-fired package boilers — Read an OEM SCR data sheet with slip, catalyst volume and temperature window.
+- which of the Cleaver-Brooks SCR 1 ppm / 2 ppm statements is current — Confirm with the OEM or an updated product sheet.
+
 ## evaporator-crystallisers
 
 ### ZLD evaporators and crystallisers (wwt-evaporator-crystallisers)
@@ -367,6 +608,71 @@ Vendors: Aquatech International, Veolia (1 model lines recorded).
 Recorded gaps:
 
 - per-model m3/d ranges — Read Aquatech/Veolia HPD model pages
+
+## fan
+
+### Boiler forced-draft fan and inlet silencer (fd-fan-boiler)
+
+Primary code: PWR: Power and renewables
+Fan that pushes combustion air through the windbox, burner and gas passes, and can also convey flue gas through catalysts, economiser, FGR ducting and stack. Arrangements 3, 4 and 7 are offered; inlet silencers and filters reduce intake noise and protect the fan, and a variable-speed drive can replace damper control at part load.
+Vendors: Halgo Power (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| fan arrangements | arrangements 3, 4, 7 qualitative | Halgo Power lists AMCA arrangements 3, 4 and 7 |
+| FGR mixing arrangement | FGR mixing box with dampers qualitative | A portion of flue gas is routed to the FD fan intake and mixed with fresh air; dampers regulate both streams to lower flame temperature and NOx |
+| inlet silencer purpose | fan inlet silencer qualitative | Sized to attach directly to the fan inlet and reduce intake noise to a specified decibel limit |
+| part-load control | VFD or damper qualitative | VFD offered in lieu of dampers; many package boilers operate at a fraction of nameplate |
+
+
+Recorded gaps:
+
+- fan duty, static pressure and power for named boiler sizes — Obtain a fan selection datasheet with flow, pressure and speed for a reference boiler.
+
+### Induced-draft fan, stack and FGR ducting (id-fan-stack-fgr)
+
+Primary code: PWR: Power and renewables
+Induced-draft fan and flue-gas path that maintain furnace draft and discharge products to stack. Stacks and ductwork are engineered from flue-gas volume, temperature and space constraints; dampers hold a set draft loss and an SCR reactor house is sized from the catalyst mass required to meet the emission limit. FGR ducting returns a controlled share of flue gas to the forced-draft intake.
+Vendors: Halgo Power (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| stack/duct design inputs | flow, temperature, space, catalyst qualitative | Flue-gas volumetric flow, flue-gas temperature, space constraints and optional catalyst modules |
+| stack damper function | constant draft loss qualitative | Maintain a predetermined draft loss; parallel or opposed blade with pneumatic actuators common |
+| SCR reactor house sizing basis | catalyst mass qualitative | Dimensions set by the amount and density of catalyst needed to meet the specified emission limit |
+| FGR effect on burner NOx | 5 ppm | Induced FGR on the SBR-5 burner gives 5 ppm NOx at about 3% O2 |
+
+
+Recorded gaps:
+
+- ID fan datasheets and quantified FGR ratios — Read fan and FGR datasheets for a specific boiler or HRSG.
+
+## feedwater
+
+### Feedtank, deaerator and feedwater pump (feedwater-deaerator-system)
+
+Primary code: PWR: Power and renewables
+System that stores returned condensate and make-up, heats it and removes dissolved oxygen before the feedwater pump delivers it to the boiler. Atmospheric feedtanks operate at 85-90 C; pressurised deaerators at 0.2 bar g / 105 C with 10-20 minutes of storage, about 5:1 turndown and a vent rate of 0.5-2 kg per 1,000 kg/h of capacity.
+Vendors: Spirax Sarco, TLV, Cleaver-Brooks (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| atmospheric feedtank temperature | 85-90 degC | Spirax Sarco: typically 85-90 C, giving about 2 mg/L dissolved oxygen |
+| pressurised deaerator pressure | 0.2 bar g | 0.2 bar g, equivalent saturation temperature 105 C |
+| deaerator storage on full boiler load | 10-20 min | 10-20 minutes |
+| water supply pressure to nozzles | 2 bar | At least 2 bar for good nozzle distribution |
+| steam supply pressure to pressure control valve | 5-10 bar | 5-10 bar |
+| deaerator turndown | 5 :1 | Approximately 5:1 |
+| deaerator vent rate | 0.5-2 kg per 1000 kg/h | Manufacturers tend to recommend 0.5-2 kg of steam/air mixture per 1,000 kg/h of capacity |
+| feedwater pH | 8.5-9 pH | Maintain feedwater at not less than pH 8.5 to 9 to limit CO2 corrosion |
+| dissolved oxygen, high-pressure water-tube boilers | 7 ppb | Typically less than 7 ppb where superheated steam is required |
+| feedtank capacity convention | 1 hours | Traditional practice: sufficient capacity for one hour of steaming at maximum evaporation |
+| condensate return cavitation risk | 80 % | Very high condensate return rates, typically over 80%, may cause excessive feedwater temperature and feedpump cavitation |
+
+
+Recorded gaps:
+
+- feedpump head, NPSH and duty for the packaged boiler lines — Read a feedpump selection sheet for a stated boiler duty.
 
 ## granulator
 
@@ -387,6 +693,60 @@ Vendors: thyssenkrupp Uhde, Stamicarbon, Toyo Engineering, Casale (4 model lines
 - **Toyo Engineering** Spout-Fluid Bed Granulation: scaled from 50 to 3,250 MTPD; designed to 4,500 MTPD
 - **Stamicarbon** Fluid-bed granulation technology: 98.5 wt.% melt; up to 0.3 wt.% formaldehyde; on-stream time more than 150 days
 - **Casale** GREEN GRANULATION: feed concentration can be as low as 96-97%
+
+## heat-exchanger
+
+### Boiler air preheater (air-preheater-boiler)
+
+Primary code: PWR: Power and renewables
+Heat exchanger that transfers heat from outgoing flue gas to incoming combustion air. Regenerative (rotary) designs use a rotating matrix or baskets; recuperative designs use tubular or plate elements. B&W supplies air heaters and notes the cold-end metal temperature is generally approximated from the average gas and air temperatures.
+Vendors: Babcock & Wilcox (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| cold-end metal temperature basis | average of gas and air inlet temperatures qualitative | B&W: general assumption is that cold-end metal temperature is approximately the average of the gas and air inlet temperatures (qualitative, no numeric value on the read page) |
+| product scope | tubular and regenerative air heaters qualitative | B&W air-heater product page read during the sweep; no performance table was given |
+
+
+Recorded gaps:
+
+- quantified air-heater duty, cold-end corrosion allowance and leakage rates — Read an air-heater data sheet with gas/air temperatures and leakage guarantee.
+
+### Boiler economizer (feedwater heat recovery) (economizer-boiler)
+
+Primary code: PWR: Power and renewables
+Heat exchanger that raises feedwater temperature using flue gas leaving the boiler or superheater, cutting fuel use. Spirax Sarco gives about a 2% efficiency gain per 10 C rise in feedwater temperature; condensing economisers cool gas below the dew point and need corrosion-resistant surfaces.
+Vendors: Babcock & Wilcox, Cleaver-Brooks, Spirax Sarco (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| efficiency improvement per feedwater temperature rise | 2 % per 10 degC | Spirax Sarco: in broad terms a 10 C increase in feedwater temperature gives about a 2% efficiency improvement |
+| feedtank fuel effect | 1 % per 6 degC | Spirax Sarco: about 1% less fuel required for every 6 C temperature rise in the feedtank |
+| economizer metal temperature rise offline | 17-28 degC/h | B&W: economiser metal temperature can increase at 30-50 F/h (17-28 C/h) during an offline/air-leakage period |
+| integrated condensing heat-exchanger efficiency | 96 % | ClearFire-CE AHRI thermal efficiency 96.0% with condensing heat exchanger |
+| boiler horsepower heat-transfer convention | 5 sq ft/BHP | US convention: 5 sq ft of heat-transfer surface per boiler horsepower is common after 1900 (10 before) |
+
+
+Recorded gaps:
+
+- economizer duty and surface area for the gas boiler lines — Read OEM economizer specification sheets with gas inlet/outlet temperatures.
+
+### Boiler superheater and attemperator (superheater-boiler)
+
+Primary code: PWR: Power and renewables
+Heat exchanger that adds heat to saturated steam, usually as pendant or horizontal banks in the gas path, with a desuperheater or attemperator controlling final steam temperature. Water-tube power boilers can reach 550 C superheated steam; separate or supplementary-fired superheaters are used where gas-turbine exhaust is too cool.
+Vendors: Babcock & Wilcox (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| superheated steam temperature, upper capability | 550 degC | Spirax Sarco: 'superheated steam (up to 550 C)' for water-tube boilers |
+| gas-turbine exhaust temperature to waste-heat boiler | 500 degC | Spirax Sarco: hot exhaust gases from a gas turbine approximately 500 C |
+| SCR minimum inlet gas temperature | 104 degC | B&W: recommended minimum average gas temperature entering SCR equipment is 220 F (104 C) for cold start-up |
+
+
+Recorded gaps:
+
+- superheater surface, metal temperature limits and attemperator spray rates — Read OEM superheater design descriptions and cycling guidance.
 
 ## hv-circuit-breakers
 
@@ -603,6 +963,64 @@ Recorded gaps:
 - manufacturer loss tables for power transformers (275-500 kV class) — Read a manufacturer power-transformer technical guide for loss ranges by rating
 - Malaysian retail prices from a local manufacturer — Ask owner for a local transformer quote benchmark, or watch ePerolehan/TNB tender award notices for a like-for-like unit price
 
+## pressure-part
+
+### Boiler furnace and membrane water walls (furnace-waterwalls-boiler)
+
+Primary code: PWR: Power and renewables
+Radiant heat-release enclosure around the flame. Fire-tube boilers confine the flame in a large furnace tube surrounded by water; water-tube boilers use finned membrane wall panels in which the furnace walls themselves form evaporator surface. Cooling the gas before the reversal chamber and limiting metal subcooling during cycling are central to tube life.
+Vendors: Babcock & Wilcox, Cleaver-Brooks (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| flame temperature | 1800 degC | Spirax Sarco: flame temperature in shell-boiler furnace tubes may be up to 1,800 C |
+| gas temperature before reversal, plain steel | 420 degC | Minimum cooling to 420 C before a plain-steel reversal chamber |
+| gas temperature before reversal, alloy steel | 470 degC | Minimum cooling to 470 C before an alloy-steel reversal chamber |
+| lower-furnace subcooling limit | 100 degF | B&W: if lower-furnace subcooling is limited to 100 F (56 C) there is a low probability of cycling damage |
+| furnace wall construction | finned membrane wall qualitative | Spirax Sarco: water-tube boilers use finned tube membranes for furnace walls |
+
+
+Recorded gaps:
+
+- heat-flux and refractory specification for gas-fired furnaces — Read a furnace design reference or OEM specification.
+
+### Boiler heat-transfer tubes and tube sheets (heat-transfer-tubes-boiler)
+
+Primary code: PWR: Power and renewables
+The pressure-part surface across which heat passes from gas to water. Fire-tube boilers pass gas inside furnace and smoke tubes with water outside and tube sheets separating the two; water-tube boilers pass water inside tubes with gas outside. Extended and enhanced tube forms are claimed to raise effective surface area and heat transfer.
+Vendors: Cleaver-Brooks, Babcock & Wilcox (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| furnace tube wall thickness | 18-20 mm | 18-20 mm compromise between pressure capability and heat transfer |
+| practical shell boiler pressure limit | 27 bar | About 27 bar implied by the furnace tube wall thickness |
+| heat-transfer increase, CBEX extended tubes | 85 % | Cleaver-Brooks claims extended heat-transfer tubes in EX systems increase heat transfer by 85% (vendor claim) |
+| effective surface area, AluFer tube | 5 x | Cleaver-Brooks claims up to five times the effective heat-transfer surface area of other condensing boilers |
+| number of passes, condensing firetube | 1 passes | ClearFire-CE technical data: number of passes 1 |
+| boiler horsepower heat-transfer convention | 5 sq ft/BHP | US convention after 1900: 5 sq ft per boiler horsepower |
+
+
+Recorded gaps:
+
+- tube material, fin geometry and fouling allowance for gas firing — Read a boiler tube datasheet or design standard.
+
+### Boiler steam drum and mud drum (steam-drum-boiler)
+
+Primary code: PWR: Power and renewables
+In drum-type water-tube boilers the upper steam drum is the point of steam/water separation and feedwater introduction, while the lower mud drum collects sediment; downcomers carry cooler dense water to the lower drum and risers return the heated mixture. Drum temperature stratification during cycling drives humping and connection stress, so drum design and circulation are central to load-change capability.
+Vendors: Babcock & Wilcox (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| drum-type boiler pressure capability | 160 bar | Spirax Sarco: water-tube boilers with steam drums handle steam up to 160 bar |
+| cycling drum temperature effect | drum humping and connection stress qualitative | B&W: top-to-bottom drum temperature variations can lead to drum humping and excessive stresses on connections (qualitative) |
+| outlet-header thermal shock exposure | 100-400 degF | B&W: thermal shock differentials reduced from 200-400 F to below 100 F (56 C) in improved designs |
+
+
+Recorded gaps:
+
+- drum dimensions, retention time and circulation ratio for the package lines — Read a package-boiler data sheet with drum details.
+
 ## prilling-tower
 
 ### Urea prilling tower (urea-prilling-tower)
@@ -667,6 +1085,35 @@ Recorded gaps:
 
 - per-model flow, head and pressure ranges for the API 610 families (Sulzer ZE/ZP/ZPP, Flowserve Mark III/OH2/BB5, KSB) — fetch the Sulzer ZE/ZPP and Flowserve OH2/BB5 family pages (browser session if needed) and add per-model ranges
 - energy-footprint and efficiency benchmark for process pumps — Hydraulic Institute (pumps.org) pumping-system assessment publication is the natural source
+
+## safety
+
+### Boiler safety valves, blowdown and level fittings (safety-valves-blowdown-boiler)
+
+Primary code: PWR: Power and renewables
+Fittings that protect the pressure boundary and control water quality: safety valves sized to at least the boiler's 'from and at 100 C' evaporation and fully open within 110% of design pressure; continuous/TDS blowdown from the water surface; bottom blowdown to remove sediment; and independent water-level indication and gauges.
+Vendors: Spirax Sarco, TLV (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| safety valve discharge capacity | at least from-and-at 100 C rating qualitative | Total discharge capacity must be at least equal to the boiler's 'from and at 100 C' evaporation rating |
+| full rated discharge pressure | 110 % of design pressure | Full rated safety-valve discharge capacity within 110% of boiler design pressure |
+| minimum safety valve inlet bore | 20 mm | Minimum 20 mm inlet bore |
+| TDS blowdown connection | 15-20 DN mm | Boiler connection typically DN15 or DN20 |
+| bottom blowdown valve size | 25-50 DN mm | Usually DN25 to DN50 key-operated valve |
+| bottom blowdown pulse | 4 s per 8 h | A single four-second blowdown every eight hours is described as more effective than one long blow |
+| minimum blowdown line length | 7.5 m | Spirax Sarco: a reasonable minimum is 7.5 m, used for blowdown vessel sizing |
+| blowdown vessel design pressure | 25 % of MWP | At least 25% of boiler maximum working pressure, quoting HSE Guidance Note PM60 |
+| blowdown vessel vent limit | 0.35 bar g | Vent sized so vessel pressure does not exceed 0.35 bar g |
+| blowdown vessel overflow temperature | 43 degC | Standing water volume must keep overflow temperature at or below 43 C |
+| pressure gauge dial | 150 mm | At least 150 mm diameter and Bourdon tube type |
+| water level indicators | 2 count | Boilers rated 100 kW or more have at least two water level indicators |
+| recommended maximum TDS | 2000-10000 ppm | Engineering ToolBox: normally 2,000-10,000 ppm depending on boiler type |
+
+
+Recorded gaps:
+
+- code-specific setting and capacity certifies for ASME Section I versus EN 12953 — Verify against ASME BPVC Section I and EN 12953 before using these as design limits.
 
 ## sludge-dewatering
 
@@ -815,3 +1262,24 @@ Vendors: Trojan Technologies, Xylem (1 model lines recorded).
 Recorded gaps:
 
 - per-model lamp counts and flows — Read Trojan/UVDI model pages
+
+## valve-train
+
+### Boiler fuel gas train (double block and bleed) (gas-valve-train)
+
+Primary code: PWR: Power and renewables
+Pre-assembled piping that conditions and safely isolates gaseous fuel before the burner: regulator, main shutoff valves, vent, pressure switches and manual isolation. Cleaver-Brooks lists natural gas, refinery gas, hydrogen, landfill, digester and tail gas; trains are designed to NFPA 85, FM, CSA B149.3 and ASME B31.1/B31.3 with SIL and hazardous-area options.
+Vendors: Cleaver-Brooks, Zeeco (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| fuels handled | multiple gaseous fuels qualitative | Natural gas, refinery gas, hydrogen, landfill gas, digester gas and tail gas |
+| design codes | NFPA 85 / FM / CSA B149.3 / ASME B31.1 or B31.3 qualitative | NFPA 85, FM, CSA B149.3, ASME B31.1 or B31.3; SIL and hazardous-location designs offered |
+| main shutoff arrangement | dual block main shutoff with ventless regulator qualitative | Zeeco PLN/GO standard equipment: ventless regulator, ventless dual block main gas shutoff valves, high/low pressure switches and two manual gas valves |
+| pilot train components | regulator + solenoid + manual valve qualitative | Pilot train has its own regulator, solenoid valve and manual valve |
+
+
+Recorded gaps:
+
+- explicit vent arrangement and valve proof-of-closure details — Read a fuel-train P&ID from an OEM or NFPA 85 primary text.
+- gas booster/compressor sizing for low supply pressure — Find a gas-pressure and booster selection reference.

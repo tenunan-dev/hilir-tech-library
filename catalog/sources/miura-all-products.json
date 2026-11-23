@@ -1,0 +1,28 @@
+{
+  "id": "miura-all-products",
+  "name": "Miura America product range",
+  "url": "https://miuraboiler.com/products-category/all",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Miura",
+  "regions": [
+    "global",
+    "na",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Miura once-through vertical water-tube packaged steam generators; offices across Malaysia, Singapore, Indonesia, Thailand, Philippines, Vietnam and Bangladesh. Evidence: https://miuraboiler.com/products-category/all"
+}

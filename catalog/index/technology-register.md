@@ -1,6 +1,6 @@
 # Technology register
 
-406 technologies across oil, gas, petrochemicals and new energy; 399 have a technology card so far.
+407 technologies across oil, gas, petrochemicals and new energy; 400 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -202,6 +202,7 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Gas-fired power | Heavy-duty gas turbines (H and J class) | commercial | GE Vernova, Siemens Energy, Mitsubishi Power | [card](technologies-PWR.md#pwr-heavy-duty-gas-turbines) |
 | Gas-fired power | Aeroderivative and industrial gas turbines | commercial | GE Vernova, Siemens Energy, Solar Turbines, Baker Hughes | [card](technologies-PWR.md#pwr-aeroderivative-turbines) |
 | Gas-fired power | Combined cycle and HRSG | commercial | GE Vernova, Siemens Energy, Mitsubishi Power | [card](technologies-PWR.md#pwr-combined-cycle-hrsg) |
+| Gas-fired power | Gas-fired steam and hot-water boilers | commercial | Cleaver-Brooks, Miura, Babcock & Wilcox, Fulton, Valmet | [card](technologies-PWR.md#pwr-gas-fired-boilers) |
 | Gas-fired power | Cogeneration and combined heat and power | commercial | Various | [card](technologies-PWR.md#pwr-cogeneration-chp) |
 | Gas-fired power | Gas engines | commercial | Wärtsilä, Jenbacher (INNIO), MAN Energy Solutions (Everllence) | [card](technologies-PWR.md#pwr-gas-engines) |
 | Gas-fired power | Hydrogen-capable and ammonia-fired gas turbines | demonstration | Mitsubishi Power, GE Vernova, IHI | [card](technologies-PWR.md#pwr-hydrogen-ammonia-turbines) |

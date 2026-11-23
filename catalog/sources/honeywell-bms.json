@@ -1,0 +1,28 @@
+{
+  "id": "honeywell-bms",
+  "name": "Honeywell burner management systems",
+  "url": "https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "INS",
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Honeywell",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. BMS engineered to NFPA 85/86, IRI, ISA 84, Factory Mutual and Gastec practice: prepurge, interlocks/permissives, flame presence monitoring, safety-limit supervision and controlled shutdown. Evidence: https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems"
+}

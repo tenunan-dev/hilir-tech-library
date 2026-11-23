@@ -1,0 +1,28 @@
+{
+  "id": "jz-apac-locations",
+  "name": "John Zink Asia-Pacific locations",
+  "url": "https://johnzink.com/our-business/locations/asia-pacific",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "ROT",
+    "PRC"
+  ],
+  "publisher_org": "John Zink",
+  "regions": [
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Asia-Pacific presence in Singapore, China, Japan, South Korea, India and Australia, with manufacturing at Changshu, China. Evidence: https://johnzink.com/our-business/locations/asia-pacific"
+}

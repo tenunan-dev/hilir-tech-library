@@ -1,0 +1,108 @@
+{
+  "id": "furnace-waterwalls-boiler",
+  "name": "Boiler furnace and membrane water walls",
+  "equipment_type": "pressure-part",
+  "description": "Radiant heat-release enclosure around the flame. Fire-tube boilers confine the flame in a large furnace tube surrounded by water; water-tube boilers use finned membrane wall panels in which the furnace walls themselves form evaporator surface. Cooling the gas before the reversal chamber and limiting metal subcooling during cycling are central to tube life.",
+  "specifications": [
+    {
+      "metric": "flame temperature",
+      "basis": "Spirax Sarco: flame temperature in shell-boiler furnace tubes may be up to 1,800 C",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+        "source_id": "spirax-shell-boilers"
+      },
+      "unit": "degC",
+      "value": 1800
+    },
+    {
+      "metric": "gas temperature before reversal, plain steel",
+      "basis": "Minimum cooling to 420 C before a plain-steel reversal chamber",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+        "source_id": "spirax-shell-boilers"
+      },
+      "unit": "degC",
+      "value": 420
+    },
+    {
+      "metric": "gas temperature before reversal, alloy steel",
+      "basis": "Minimum cooling to 470 C before an alloy-steel reversal chamber",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+        "source_id": "spirax-shell-boilers"
+      },
+      "unit": "degC",
+      "value": 470
+    },
+    {
+      "metric": "lower-furnace subcooling limit",
+      "basis": "B&W: if lower-furnace subcooling is limited to 100 F (56 C) there is a low probability of cycling damage",
+      "source": {
+        "url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations",
+        "source_id": "bw-boiler-cycling"
+      },
+      "unit": "degF",
+      "value": 100
+    },
+    {
+      "metric": "furnace wall construction",
+      "basis": "Spirax Sarco: water-tube boilers use finned tube membranes for furnace walls",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+        "source_id": "spirax-water-tube-boilers"
+      },
+      "unit": "qualitative",
+      "value": "finned membrane wall"
+    }
+  ],
+  "vendors": [
+    "babcock-wilcox",
+    "cleaver-brooks"
+  ],
+  "sources": [
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+      "source_id": "spirax-shell-boilers"
+    },
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+      "source_id": "spirax-water-tube-boilers"
+    },
+    {
+      "url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations",
+      "source_id": "bw-boiler-cycling"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PCH",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "aliases": [
+    "furnace",
+    "firebox",
+    "membrane wall",
+    "water wall",
+    "refractory lining"
+  ],
+  "applications": [
+    "fire-tube and water-tube boilers",
+    "CFB boilers",
+    "HRSGs"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "gaps": [
+    {
+      "what": "heat-flux and refractory specification for gas-fired furnaces",
+      "why": "Read pages give temperature limits and construction types but no heat-flux or refractory data.",
+      "next_action": "Read a furnace design reference or OEM specification."
+    }
+  ]
+}

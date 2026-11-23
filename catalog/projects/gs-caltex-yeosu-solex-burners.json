@@ -1,0 +1,42 @@
+{
+  "id": "gs-caltex-yeosu-solex-burners",
+  "name": "GS Caltex Yeosu SOLEX burner retrofit",
+  "aliases": [],
+  "country": "KR",
+  "location": "Yeosu",
+  "status": "operating",
+  "project_type": "retrofit",
+  "description": "Refinery fired-heater retrofit using 32 John Zink SOLEX burners, achieving below 5 ppm NOx and avoiding an SCR; the case study quotes about USD 150,000 per year in avoided operating cost without a dollar year.",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC"
+  ],
+  "capacities": [],
+  "owners": [
+    {
+      "name": "GS Caltex",
+      "role": "owner"
+    }
+  ],
+  "contractors": [
+    {
+      "name": "John Zink",
+      "role": "EPC / supplier"
+    }
+  ],
+  "technologies": [
+    "rot-fired-heaters-low-nox-burners",
+    "hse-nox-control",
+    "pwr-gas-fired-boilers"
+  ],
+  "milestones": [],
+  "sources": [
+    {
+      "url": "https://johnzink.com/products/powerburners/ecojet-edge-plus",
+      "source_id": "jz-ecojet-edge"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "The cost figure is left in the description with its missing dollar year stated; no capex record is asserted."
+}

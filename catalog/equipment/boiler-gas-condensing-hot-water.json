@@ -1,0 +1,153 @@
+{
+  "id": "boiler-gas-condensing-hot-water",
+  "name": "Gas-fired condensing hot-water boiler",
+  "equipment_type": "boiler",
+  "description": "Packaged hydronic boiler that cools flue gas below its dew point to recover the latent heat of water vapour, using corrosion-resistant duplex or stainless heat-transfer surfaces. Available as one-pass firetube designs with premix or dual-fuel burners, with high turndown and integrated controls for commercial and institutional heating.",
+  "specifications": [
+    {
+      "metric": "minimum combustion efficiency, large commercial gas hot-water boiler",
+      "basis": "DOE FEMP purchasing requirement for 2.5-10 MMBtu/hr input gas-fired hot-water boilers, based on 10 CFR 431.86",
+      "source": {
+        "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers",
+        "source_id": "doe-femp-boilers"
+      },
+      "unit": "% Ec",
+      "value": 96
+    },
+    {
+      "metric": "input capacity, Cleaver-Brooks ClearFire-CE",
+      "basis": "11 models from 500 to 6,000 MBH input",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cb-cfce"
+      },
+      "unit": "MBH",
+      "low": 500,
+      "high": 6000
+    },
+    {
+      "metric": "AHRI thermal efficiency, ClearFire-CE",
+      "basis": "AHRI thermal 96.0% and combustion 94.7%; the page's 'up to 99%' is marketing wording",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cb-cfce"
+      },
+      "unit": "%",
+      "low": 94.7,
+      "high": 96
+    },
+    {
+      "metric": "turndown, ClearFire-CE",
+      "basis": "10:1 fully modulating on the ClearFire-CE product page",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cb-cfce"
+      },
+      "unit": ":1",
+      "value": 10
+    },
+    {
+      "metric": "NOx, ClearFire-CE standard",
+      "basis": "Under 20 ppm NOx standard, sub-7 ppm optional (OEM specification)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cb-cfce"
+      },
+      "unit": "ppm",
+      "value": 20
+    },
+    {
+      "metric": "hydrogen blend capability",
+      "basis": "Manufacturer states burner and controls support up to 20% volumetric hydrogen-natural gas blend; not a certification",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cb-cfce"
+      },
+      "unit": "% by volume",
+      "value": 20
+    },
+    {
+      "metric": "input capacity, Cleaver-Brooks SwitchFire",
+      "basis": "6,000 / 10,000 / 12,000 MBH models",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/switchfire",
+        "source_id": "cb-switchfire"
+      },
+      "unit": "MBH",
+      "low": 6000,
+      "high": 12000
+    },
+    {
+      "metric": "AHRI thermal efficiency, SwitchFire",
+      "basis": "AHRI combustion 95.6% / thermal 96.3%; 'up to 98%' is OEM wording",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/switchfire",
+        "source_id": "cb-switchfire"
+      },
+      "unit": "%",
+      "low": 95.6,
+      "high": 96.3
+    }
+  ],
+  "vendors": [
+    "cleaver-brooks",
+    "fulton"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers",
+      "source_id": "doe-femp-boilers"
+    },
+    {
+      "url": "https://cleaverbrooks.com/product/cfce",
+      "source_id": "cb-cfce"
+    },
+    {
+      "url": "https://cleaverbrooks.com/product/switchfire",
+      "source_id": "cb-switchfire"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "aliases": [
+    "condensing boiler",
+    "hydronic condensing boiler",
+    "commercial hot-water boiler"
+  ],
+  "applications": [
+    "office buildings",
+    "schools and universities",
+    "healthcare",
+    "multi-family housing",
+    "process hot water"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "vendor_models": [
+    {
+      "vendor": "cleaver-brooks",
+      "line": "ClearFire-CE",
+      "range": "500-6,000 MBH, AHRI thermal 96%, 10:1 turndown, duplex stainless with TurboFer/AluFer tubes",
+      "url": "https://cleaverbrooks.com/product/cfce"
+    },
+    {
+      "vendor": "cleaver-brooks",
+      "line": "SwitchFire",
+      "range": "6,000-12,000 MBH, gas-only premix to 15:1 turndown or dual-fuel Weishaupt burner to 6:1",
+      "url": "https://cleaverbrooks.com/product/switchfire"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "named condensing-boiler installations in Asia Pacific",
+      "why": "No vendor or project page read in this sweep named a building or plant with a condensing gas boiler.",
+      "next_action": "Look for FEMP case studies and OEM reference lists with owner, capacity and date."
+    }
+  ]
+}

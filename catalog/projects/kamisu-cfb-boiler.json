@@ -1,0 +1,53 @@
+{
+  "id": "kamisu-cfb-boiler",
+  "name": "Obayashi Kamisu CFB boiler",
+  "aliases": [],
+  "country": "JP",
+  "location": "Kamisu, Ibaraki",
+  "status": "operating",
+  "project_type": "greenfield",
+  "description": "ANDRITZ PowerFluid CFB reference with two stated steam conditions of 148/137 t/h at 543/543 C and 136.5/34 bar(a).",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC"
+  ],
+  "capacities": [
+    {
+      "metric": "steam production",
+      "low": 137,
+      "high": 148,
+      "unit": "t/h",
+      "basis": "Two values printed side by side on the ANDRITZ product page; the basis for the pair is not explained.",
+      "source": {
+        "url": "https://www.andritz.com/products-en/tiac/environmental-solutions/powerfluid-boilers",
+        "source_id": "andritz-cfb-boilers"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Obayashi",
+      "role": "owner"
+    }
+  ],
+  "contractors": [
+    {
+      "name": "ANDRITZ",
+      "role": "EPC / supplier"
+    }
+  ],
+  "technologies": [
+    "pwr-biomass-waste-to-energy",
+    "pwr-gas-fired-boilers"
+  ],
+  "milestones": [],
+  "sources": [
+    {
+      "url": "https://www.andritz.com/products-en/tiac/environmental-solutions/powerfluid-boilers",
+      "source_id": "andritz-cfb-boilers"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Solid/multi-fuel CFB, not natural gas."
+}

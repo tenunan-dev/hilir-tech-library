@@ -1,0 +1,27 @@
+{
+  "id": "osha-pressure-vessels",
+  "name": "OSHA pressure vessels — standards",
+  "url": "https://www.osha.gov/pressure-vessels/standards",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT",
+    "HSE"
+  ],
+  "publisher_org": "US OSHA",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. OSHA lists 29 CFR 1910 Subparts H and M provisions and notes that ASME BPVC and API 510/572/910 are national consensus standards, not OSHA regulations. Evidence: https://www.osha.gov/pressure-vessels/standards"
+}

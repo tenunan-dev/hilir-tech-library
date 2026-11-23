@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-537 vendor records covering 325 technologies. One record per vendor in
+546 vendor records covering 326 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -219,6 +219,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [ALZETA](https://alzeta.com/ultra-low-nox-burners) | United States | oem | NOx control (SCR, SNCR, low-NOx burners) |
 | [Engelhard Corporation](https://www.basf.com) | USA | oem | NOx control (SCR, SNCR, low-NOx burners) |
 | [IHI Corporation](https://www.ihi.co.jp) | Japan | oem | NOx control (SCR, SNCR, low-NOx burners) |
 | [J-W Instruments](https://www.jwinstruments.com) | USA | oem | Gas and flame detection |
@@ -407,6 +408,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | --- | --- | --- | --- |
 | [Abengoa](https://www.abengoa.com) | Spain | epc | Concentrated solar power with storage |
 | [Aggreko](https://www.aggreko.com) | United Kingdom | rental, packager | Containerised hybrid power modules (solar, storage, gensets); Lithium-ion battery energy storage; Gas engines |
+| [ALZETA](https://alzeta.com/ultra-low-nox-burners) | United States | oem | Gas-fired steam and hot-water boilers |
 | [ANDRITZ](https://www.andritz.com) | Austria | oem | Hydropower |
 | [APR Energy](https://www.aprenergy.com) | USA | rental, packager | Mobile gas turbine power plants |
 | [Babcock & Wilcox](https://www.babcock.com) | USA | oem, service | Combined cycle and HRSG; Biomass and waste-to-energy |
@@ -431,6 +433,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [ElectraTherm](https://electratherm.com) | USA | oem | Modular ORC units for waste heat and small geothermal |
 | [Energy Vault](https://energyvault.com) | USA | integrator, developer, service | Gravity energy storage; Lithium-ion battery energy storage |
 | [Enogia](https://www.enogia.com) | France | oem | Modular ORC units for waste heat and small geothermal |
+| [Entech Products Corp](https://www.entechproducts.com/products/combustion/) | United States | supplier, service | Combined cycle and HRSG; Gas-fired steam and hot-water boilers |
 | [Envision](https://www.envision-group.com) | China | oem, service | Onshore wind; Offshore wind (fixed bottom); Smart grids, microgrids and virtual power plants |
 | [Equinor](https://www.equinor.com) | Norway | operator, developer | Floating offshore wind; Offshore wind (fixed bottom) |
 | [Everllence](https://www.everllence.com) | Germany | oem, packager | Modular reciprocating engine power plants; Gas engines; Powerships and power barges; Cogeneration and combined heat and power |
@@ -438,10 +441,12 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Fervo Energy](https://fervoenergy.com) | USA | developer, operator | Enhanced geothermal systems |
 | [Fluence](https://fluenceenergy.com/) | USA | integrator, service | Lithium-ion battery energy storage; Smart grids, microgrids and virtual power plants |
 | [Fuji Electric](https://www.fujielectric.com) | Japan | oem | Geothermal (flash and binary cycle) |
+| [Fulton](https://fulton.com/product-categories/steam-boilers/) | United States | oem | Gas-fired steam and hot-water boilers |
 | [GE Vernova](https://www.gevernova.com) | USA | oem, service | Mobile gas turbine power plants; Heavy-duty gas turbines (H and J class); Aeroderivative and industrial gas turbines; Combined cycle and HRSG; Cogeneration and combined heat and power; Hydropower; HVDC transmission and interconnectors |
 | [GE Vernova Hitachi Nuclear Energy](https://www.gevernova.com/nuclear) | USA | oem | Small modular reactors; Large light-water reactors |
 | [Goldwind](https://www.goldwind.com) | China | oem, service | Onshore wind; Offshore wind (fixed bottom) |
 | [GS E&C](https://www.gsenc.com) | South Korea | epc | Combined cycle and HRSG |
+| [Halgo Power](https://www.halgopower.com/products/forced-draft-fans) | United States | oem, supplier | Gas-fired steam and hot-water boilers; Combined cycle and HRSG |
 | [Highview Power](https://highviewpower.com/) | United Kingdom | developer, oem | Compressed and liquid air energy storage |
 | [HiNa Battery](https://www.hinabattery.com/en/) | China | oem, supplier | Sodium-ion batteries |
 | [Hitachi Energy](https://www.hitachienergy.com/) | Switzerland | oem, integrator, service | HVDC transmission and interconnectors; Smart grids, microgrids and virtual power plants; Grid-forming inverters and synchronous condensers |
@@ -489,17 +494,22 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Solar Turbines](https://www.solarturbines.com) | USA | oem, service | Aeroderivative and industrial gas turbines |
 | [SolarContainer](https://www.solarcontainer.one) | Austria | oem, packager | Containerised hybrid power modules (solar, storage, gensets) |
 | [SolarReserve](https://www.solarreserve.com) | USA | developer, operator | Concentrated solar power with storage |
+| [Spirax Sarco](https://spiraxsarco.com/learn-about-steam/the-boiler-house/introduction) | United Kingdom | oem, service, supplier | Gas-fired steam and hot-water boilers |
 | [Sumitomo SHI FW](https://shi-fw.com) | Finland | oem, service | Biomass and waste-to-energy; Combined cycle and HRSG |
 | [Sungrow](https://www.sungrowpower.com/) | China | oem | Lithium-ion battery energy storage; Floating solar; Grid-forming inverters and synchronous condensers |
 | [TerraPower](https://terrapower.com) | USA | developer | Advanced reactors (high-temperature gas, molten salt) |
 | [Tesla Energy](https://www.tesla.com/megapack) | USA | oem | Lithium-ion battery energy storage |
+| [Tetra Engineering Group](https://www.tetra-eng.com/whitepaper/duct-burners) | United Kingdom / United States | service, supplier | Combined cycle and HRSG; Gas-fired steam and hot-water boilers |
+| [TLV](https://www.tlv.com/steam-info/steam-theory) | Japan | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Tokamak Energy](https://tokamakenergy.com) | UK | developer | Fusion |
 | [Trina Solar](https://www.trinasolar.com) | China | oem, supplier | Crystalline silicon PV (PERC, TOPCon, HJT); Lithium-ion battery energy storage |
 | [Turboden](https://www.turboden.com) | Italy | oem | Modular ORC units for waste heat and small geothermal |
 | [USP&E Global](https://uspeglobal.com) | USA | epc, rental, operator, service | Modular reciprocating engine power plants; Mobile gas turbine power plants; Containerised hybrid power modules (solar, storage, gensets) |
+| [Valmet](https://www.valmet.com/energyproduction/cfb-boilers/) | Finland | oem | Gas-fired steam and hot-water boilers; Biomass and waste-to-energy |
 | [Vestas](https://www.vestas.com) | Denmark | oem, service | Onshore wind; Offshore wind (fixed bottom) |
 | [Voith](https://voith.com) | Germany | oem, service | Hydropower |
 | [Waller Marine](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083) | USA | packager | Powerships and power barges |
+| [Weishaupt](https://cleaverbrooks.com/product/switchfire) | Germany | oem | Gas-fired steam and hot-water boilers |
 | [Westinghouse Electric Company](https://www.westinghousenuclear.com) | USA | oem, developer | Microreactors (transportable nuclear); Large light-water reactors; Small modular reactors |
 | [Wison](https://www.wison-energies.com) | China | epc, developer | Floating offshore wind |
 | [Wärtsilä](https://www.wartsila.com/energy) | Finland | oem, packager | Modular reciprocating engine power plants; Gas engines; Powerships and power barges; Cogeneration and combined heat and power |
@@ -550,6 +560,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
 | [Alfa Laval](https://www.alfalaval.com) | Sweden | oem, supplier | Shell-and-tube, plate and printed-circuit heat exchangers |
+| [ALZETA](https://alzeta.com/ultra-low-nox-burners) | United States | oem | Fired heaters and low-NOx burners |
 | [American Marsh Pumps](https://www.americanmarsh.com) | USA | oem | Centrifugal and positive displacement pumps |
 | [Ashton Seals](https://www.ashtonseals.co.uk) | United Kingdom | supplier | Mechanical seals, magnetic bearings and integrated motor-compressors |
 | [ClearSign Technologies](https://clearsign.com) | USA | oem | Fired heaters and low-NOx burners |
@@ -567,8 +578,11 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Omniseal Solutions](https://www.omnisealsolutions.com) | Belgium | oem | Mechanical seals, magnetic bearings and integrated motor-compressors |
 | [Shanghai Electric](https://www.shanghai-electric.com) | China | oem | Steam turbines and expanders |
 | [Solar Turbines](https://www.solarturbines.com) | USA | oem, service | Centrifugal and axial compressors |
+| [Spirax Sarco](https://spiraxsarco.com/learn-about-steam/the-boiler-house/introduction) | United Kingdom | oem, service, supplier | Shell-and-tube, plate and printed-circuit heat exchangers; Valves and actuators |
 | [SPX Cooling Technologies](https://spxcooling.com) | USA | oem | Air coolers and cooling towers |
 | [Sulzer](https://www.sulzer.com) | Switzerland | oem | Centrifugal and positive displacement pumps |
+| [TLV](https://www.tlv.com/steam-info/steam-theory) | Japan | oem, supplier | Shell-and-tube, plate and printed-circuit heat exchangers |
+| [Valmet](https://www.valmet.com/energyproduction/cfb-boilers/) | Finland | oem | Fired heaters and low-NOx burners |
 | [Velan](https://www.velan.com) | Canada | oem | Valves and actuators |
 
 ## UPS: Upstream
@@ -722,4 +736,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-362 of 391 cards list at least one directory vendor.
+363 of 392 cards list at least one directory vendor.

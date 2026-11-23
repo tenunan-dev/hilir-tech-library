@@ -1,0 +1,50 @@
+{
+  "id": "hamriyah-independent-power-plant",
+  "name": "Hamriyah Independent Power Plant",
+  "aliases": [],
+  "country": "AE",
+  "location": "Hamriyah, Sharjah",
+  "status": "operating",
+  "project_type": "greenfield",
+  "description": "Combined-cycle independent power plant with GE Vernova gas turbines and turnkey EPC; all three blocks began operation in October 2023 and the plant supplies up to 40% of Sharjah's electricity needs.",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "PRC"
+  ],
+  "capacities": [],
+  "owners": [
+    {
+      "name": "Sharjah Electricity, Water and Gas Authority / SHIPCO",
+      "role": "owner"
+    }
+  ],
+  "contractors": [
+    {
+      "name": "GE Vernova",
+      "role": "EPC / supplier"
+    }
+  ],
+  "technologies": [
+    "pwr-combined-cycle-hrsg",
+    "pwr-gas-fired-boilers"
+  ],
+  "milestones": [
+    {
+      "event": "all three blocks in operation",
+      "date": "2023-10",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/hrsg",
+        "source_id": "ge-vernova-hrsg"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/gas-power/products/hrsg",
+      "source_id": "ge-vernova-hrsg"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "HRSG capacity is not stated on the read page."
+}

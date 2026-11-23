@@ -1,34 +1,51 @@
 # PRC: Process systems
 
-327 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+386 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
 | [A*STAR Institute of Sustainability for Chemicals, Energy and Environment](https://www.a-star.edu.sg/isce2) | research-institute | sea | open | summary-only (unverified) |
 | [AIST Japan energy and environment research](https://www.aist.go.jp/index_en.html) | research-institute | apac | open | full-text-restricted |
+| [ANDRITZ PowerFluid circulating fluidized bed boilers](https://www.andritz.com/products-en/tiac/environmental-solutions/powerfluid-boilers) | oem-supplier | global, eu, apac | open | summary-only |
 | [Australian Energy Producers Journal](https://connectsci.au/ep) | journal | apac | mixed | catalog-only |
+| [Boiler fittings and mountings](https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Bottom blowdown](https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [Chulalongkorn Petroleum and Petrochemical College](https://www.ppc.chula.ac.th/) | research-institute | sea | open | full-text-restricted |
+| [Circulating fluidized-bed boilers](https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers) | oem-supplier | global, na, apac | open | summary-only |
 | [CNKI China National Knowledge Infrastructure](https://oversea.cnki.net/) | journal | apac | paywalled | catalog-only (unverified) |
 | [CO2CRC Otway International Test Centre](https://co2crc.com.au/) | research-institute | apac | open | full-text-restricted |
 | [CSIR-Indian Institute of Petroleum](https://www.iip.res.in/) | research-institute | apac | open | summary-only (unverified) |
 | [CSIRO energy research](https://www.csiro.au/en/research/technology-space/energy) | research-institute | apac | open | full-text-restricted |
 | [Dalian Institute of Chemical Physics (CAS)](https://english.dicp.cas.cn/) | research-institute | apac, global | open | summary-only (unverified) |
+| [ECOjet Edge+ low-NOx burner](https://johnzink.com/products/powerburners/ecojet-edge-plus) | oem-supplier | global, na, apac | open | summary-only |
+| [GE Vernova heat recovery steam generators](https://www.gevernova.com/gas-power/products/hrsg) | oem-supplier | global, na, apac, sea, me, eu | open | summary-only |
 | [IIT Bombay National Centre of Excellence in CCUS](https://www.iitb.ac.in/) | research-institute | apac | open | summary-only (unverified) |
 | [Indonesian Petroleum Association (IPA)](https://www.ipa.or.id/) | association | sea | mixed | catalog-only (unverified) |
 | [Institut Teknologi Bandung energy research](https://www.itb.ac.id/) | research-institute | sea | open | full-text-restricted |
 | [International Petroleum Technology Conference (IPTC)](https://www.iptcnet.org/) | conference | apac, me | mixed | catalog-only (unverified) |
 | [IPA Convention and Exhibition](https://convex.ipa.or.id/) | conference | sea | mixed | catalog-only (unverified) |
 | [J-STAGE (Japanese journals: JPI, SCEJ)](https://www.jstage.jst.go.jp/) | journal | apac | open | full-text-restricted |
+| [John Zink Asia-Pacific locations](https://johnzink.com/our-business/locations/asia-pacific) | oem-supplier | apac, sea, na | open | summary-only |
 | [KIST Korea Institute of Science and Technology](https://www.kist.re.kr/eng/) | research-institute | apac | open | summary-only (unverified) |
 | [LEMIGAS Research and Development Centre for Oil and Gas](https://www.lemigas.esdm.go.id/) | research-institute | sea | open | summary-only (unverified) |
+| [Miscellaneous boiler types, economisers and superheaters](https://spiraxsarco.com/learn-about-steam/the-boiler-house/miscellaneous-boiler-types-economisers-and-superheaters?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Miura America product range](https://miuraboiler.com/products-category/all) | oem-supplier | global, na, apac, sea | open | summary-only |
+| [Miura LX series steam boiler (Canada)](https://miuraboiler.ca/product/lx-steam-boiler) | oem-supplier | global, na, apac | open | summary-only |
 | [NTU Energy Research Institute (ERI@N)](https://www.ntu.edu.sg/erian) | research-institute | sea | open | summary-only (unverified) |
 | [Petroleum (KeAi)](https://www.keaipublishing.com/en/journals/petroleum/) | journal | apac | open | full-text-restricted |
 | [Petroleum Science (KeAi, open access)](https://www.keaipublishing.com/en/journals/petroleum-science/) | journal | apac, global | open | full-text-restricted |
 | [Petrovietnam Journal](https://tapchidaukhi.vn/) | journal | sea | open | full-text-restricted |
+| [Pressurised deaerators](https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [Scientific Contributions Oil and Gas (LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/SCOG) | journal | sea | open | full-text-open |
+| [Shell boilers (Learn About Steam)](https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [SNI 13-6910-2002 Safe Onshore and Offshore Drilling Operations (BSN)](https://id.scribd.com/document/1031759154/SNI-13-6910-2002) | standards-body | sea | mixed | full-text-restricted |
+| [The feedtank and feedwater conditioning](https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [TLV steam theory](https://www.tlv.com/steam-info/steam-theory) | oem-supplier | global, apac | open | summary-only |
 | [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted |
 | [University of Queensland energy and CCS research](https://uq.edu.au/legal/copyright-privacy-disclaimer) | research-institute | apac | open | full-text-restricted |
+| [Valmet CFB boiler](https://www.valmet.com/energyproduction/cfb-boilers/) | oem-supplier | global, eu, apac | open | summary-only |
+| [Water tube boilers (Learn About Steam)](https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Why you need an ultra-low-NOx steam boiler](https://miuraboiler.com/why-you-need-an-ultra-low-nox-steam-boiler/) | oem-supplier | global, na, apac | open | summary-only |
 | [ARENA Australian Renewable Energy Agency knowledge bank](https://arena.gov.au/knowledge-bank/) | agency-data | apac | open | full-text-open |
 | [ASEAN PATENTSCOPE](https://patentscope.wipo.int/search/en/asean/) | patents | sea | open | full-text-open (unverified) |
 | [Asia Petrochemical Industry Conference (APIC)](https://www.apic-online.org/) | association | apac | open | summary-only |
@@ -78,60 +95,96 @@
 | [Sinopec technology licensing](https://www.sinopecgroup.com/group/en/) | licensor | apac, global | open | summary-only (unverified) |
 | [Tokyo Gas technology](https://www.tokyo-gas.co.jp/en/) | licensor | apac | open | summary-only (unverified) |
 | [Woodside Energy](https://www.woodside.com/) | licensor | apac | open | summary-only (unverified) |
+| [Accu-Trim oxygen trim system](https://cleaverbrooks.com/product/accu-trim) | oem-supplier | global, na | open | summary-only |
 | [AIChE Journal](https://aiche.onlinelibrary.wiley.com/journal/15475905) | journal | global | mixed | catalog-only (unverified) |
 | [AIChE Spring Meeting and Global Congress on Process Safety](https://www.aiche.org/conferences/aiche-spring-meeting-and-global-congress-on-process-safety) | conference | global | mixed | catalog-only |
+| [Air heaters](https://www.babcock.com/home/products/air-heaters) | oem-supplier | global, na | open | summary-only |
+| [ALZETA ultra-low-NOx burners](https://alzeta.com/ultra-low-nox-burners) | oem-supplier | global, na | open | summary-only |
 | [Argonne GREET model](https://greet.anl.gov/) | research-institute | global | open | full-text-open |
 | [ASME Boiler & Pressure Vessel Code (BPVC)](https://www.asme.org/codes-standards/bpvc-standards/bpvc-2023) | standards-body | global | paywalled | catalog-only |
+| [ASME boiler and pressure vessel certification](https://www.asme.org/certification-accreditation/boiler-and-pressure-vessel-certification) | standards-body | global | open | summary-only |
 | [Association of American Plant Food Control Officials (AAPFCO)](https://www.aapfco.org/) | association | na | mixed | catalog-only |
 | [ASTM International petroleum products standards (Committee D02)](https://www.astm.org/products-services/standards-and-publications.html) | standards-body | global | paywalled | catalog-only (unverified) |
+| [Boiler cycling considerations](https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations) | oem-supplier | global, na | open | summary-only |
 | [Catalysts (MDPI)](https://www.mdpi.com/journal/catalysts) | journal | global | open | full-text-open |
+| [CBEX firetube boiler](https://cleaverbrooks.com/product/cbex) | oem-supplier | global, na | open | summary-only |
+| [CBLE firetube boiler](https://cleaverbrooks.com/product/cble) | oem-supplier | global, na | open | summary-only |
 | [CINEA featured projects](https://cinea.ec.europa.eu) | agency-data | eu | open | full-text-open |
+| [ClearFire-CE condensing boiler](https://cleaverbrooks.com/product/cfce) | oem-supplier | global, na | open | summary-only |
+| [Cleaver-Brooks fuel trains](https://cleaverbrooks.com/product/fuel-train) | oem-supplier | global, na | open | summary-only |
+| [Cleaver-Brooks modular HRSG](https://cleaverbrooks.com/product/modular-hrsg) | oem-supplier | global, na | open | summary-only |
+| [Cleaver-Brooks selective catalytic reduction](https://cleaverbrooks.com/product/scr) | oem-supplier | global, na | open | summary-only |
 | [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/analyses-and-statistics/technology-catalogues) | agency-data | eu, global | open | full-text-open |
+| [DOE FEMP — Purchasing energy-efficient boilers](https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers) | agency-data | global, na | open | summary-only |
+| [DOE Steam Systems (Industrial Technologies Office)](https://www.energy.gov/eere/amo/steam-systems) | agency-data | global, na | open | summary-only |
 | [eCFR — Title 49 (PHMSA pipeline safety)](https://www.ecfr.gov) | standards-body | global | open | full-text-open |
+| [EIA: most combined-cycle plants have duct burners](https://www.eia.gov/todayinenergy/detail.php?id=52778) | agency-data | global, na | open | summary-only |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
 | [Energy & Environmental Science](https://pubs.rsc.org/en/journal/eesc) | journal | global | mixed | full-text-restricted |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
+| [EPA air pollution control technology fact sheet — SNCR](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT) | agency-data | global, na | open | summary-only |
+| [EPA Boiler MACT — industrial, commercial and institutional boilers](https://www.epa.gov/stationary-sources-air-pollution/industrial-commercial-and-institutional-boilers-and-process-0) | agency-data | global, na | open | summary-only |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
 | [EUBCE European Biomass Conference and Exhibition](https://www.eubce.com/) | conference | global, eu | free-registration | full-text-restricted |
 | [European Commission CCS Directive implementation guidance](https://op.europa.eu/en/publication-detail/-/publication/47fb8148-d436-4ba3-88fb-ceb774b88933) | agency-data | eu | open | full-text-open |
 | [Fraunhofer ISE](https://www.ise.fraunhofer.de/en.html) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [Fuel (Elsevier)](https://www.sciencedirect.com/journal/fuel) | journal | global | mixed | catalog-only (unverified) |
+| [Fulton steam boilers](https://fulton.com/product-categories/steam-boilers/) | oem-supplier | global, na | open | summary-only |
 | [Gases (MDPI)](https://www.mdpi.com/journal/gases) | journal | global | open | full-text-open |
 | [GHGT Greenhouse Gas Control Technologies conference](https://ghgt.info/) | conference | global | open | full-text-restricted |
+| [GO ultra-low-NOx package burner](https://zeeco.com/resources/brochures/go-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
 | [GPA Midstream Association](https://gpamidstream.org/) | association | na, global | mixed | catalog-only (unverified) |
 | [GPSA Engineering Data Book](https://gpsamidstreamsuppliers.org/) | association | global | paywalled | catalog-only (unverified) |
 | [GTI Energy](https://www.gti.energy/) | research-institute | global | mixed | summary-only (unverified) |
+| [Halgo Power forced-draft fans](https://www.halgopower.com/products/forced-draft-fans) | oem-supplier | global, na | open | summary-only |
+| [Halgo Power stacks and ductwork](https://halgopower.com/products/stacks-and-ductwork) | oem-supplier | global, na | open | summary-only |
+| [Honeywell burner management systems](https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems) | oem-supplier | global, na | open | summary-only |
+| [Honeywell S70X/S80X flame-scanner viewing heads](https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x) | oem-supplier | global, na | open | summary-only |
+| [HRSG components, modules, HARPs and tubes](https://www.babcock.com/home/products-services/specialized-businesses/hrsg-components-modules-harps-tubes) | oem-supplier | global, na | open | summary-only |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
 | [IEAGHG Technology Collaboration Programme reports](https://ieaghg.org/) | research-institute | global | mixed | full-text-restricted |
 | [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | summary-only |
 | [Industrial & Engineering Chemistry Research (ACS)](https://pubs.acs.org/journal/iecred) | journal | global | mixed | catalog-only (unverified) |
+| [Industrial water-tube package boilers](https://babcock.com/home/products-services/steam-generators/industrial-water-tube-package-boilers) | oem-supplier | global, na | open | summary-only |
 | [International Journal of Greenhouse Gas Control](https://www.sciencedirect.com/journal/international-journal-of-greenhouse-gas-control) | journal | global | mixed | catalog-only (unverified) |
 | [International Journal of Hydrogen Energy](https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy) | journal | global | mixed | catalog-only (unverified) |
 | [ISO 14687 (hydrogen fuel purity)](https://www.iso.org/standard/69539.html) | standards-body | global | paywalled | catalog-only |
 | [ISO 19880 (gaseous hydrogen fuelling stations)](https://www.iso.org/standard/71940.html) | standards-body | global | paywalled | catalog-only |
 | [ISO/TC 197 Hydrogen technologies](https://www.iso.org/committee/54560.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 265 Carbon dioxide capture, transportation and geological storage](https://www.iso.org/committee/648607.html) | standards-body | global | paywalled | catalog-only (unverified) |
+| [John Zink HRSG duct burners](https://www.johnzink.com/products/powerburners/duct-burner) | oem-supplier | global, na | open | summary-only |
 | [Journal of Petroleum Exploration and Production Technology (Springer, OA)](https://link.springer.com/journal/13202) | journal | global | open | full-text-open |
 | [KAUST research (clean combustion, catalysis)](https://www.kaust.edu.sa/en/research) | research-institute | me | open | full-text-restricted |
 | [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted |
 | [LNG2026 / LNGxx triennial conference](https://www.lng2026.com/) | conference | global | mixed | catalog-only (unverified) |
 | [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted |
+| [Natcom duct burner for HRSG supplementary firing](https://cleaverbrooks.com/product/duct-burner) | oem-supplier | global, na | open | summary-only |
 | [National Energy Technology Laboratory (NETL)](https://netl.doe.gov/) | research-institute | na, global | open | full-text-open |
 | [National Renewable Energy Laboratory (NREL) publications](https://www.nrel.gov/research/publications.html) | research-institute | na, global | open | full-text-restricted |
 | [NORSOK D-010 Well integrity in drilling and well operations (Rev. 4 updates copy)](https://id.scribd.com/document/396965999/2-Norsok-Terje-Lokke-Sorensen) | standards-body | eu, global | mixed | full-text-restricted |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
+| [OSHA pressure vessels — standards](https://www.osha.gov/pressure-vessels/standards) | agency-data | global, na | open | summary-only |
 | [OSTI.GOV DOE scientific and technical information](https://www.osti.gov/) | agency-data | na, global | open | full-text-restricted |
 | [Pacific Northwest National Laboratory](https://www.pnnl.gov/) | research-institute | na | open | full-text-restricted |
 | [Petroleum Research (KeAi)](https://www.keaipublishing.com/en/journals/petroleum-research/) | journal | global | open | full-text-open |
+| [PLN ultra-low-NOx package burner](https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
 | [Processes (MDPI)](https://www.mdpi.com/journal/processes) | journal | global | open | full-text-open |
+| [ProFire SBR-30 low-NOx burner](https://cleaverbrooks.com/product/sbr30-burner) | oem-supplier | global, na | open | summary-only |
+| [ProFire SBR-5 ultra-low-NOx burner with FGR](https://cleaverbrooks.com/product/sbr5-burner) | oem-supplier | global, na | open | summary-only |
+| [ProLine in-line duct burner](https://johnzink.com/products/duct-burner/proline-in-line-duct-burner) | oem-supplier | global, na | open | summary-only |
+| [QLN low-NOx burner](https://johnzink.com/products/powerburners/qln) | oem-supplier | global, na | open | summary-only |
 | [Science and Technology for Energy Transition (STET, IFPEN)](https://www.stet-review.org/) | journal | global | open | full-text-restricted |
 | [SINTEF Energy](https://www.sintef.no/en/energy/) | research-institute | eu, global | open | full-text-restricted (unverified) |
+| [Solid fuel to natural gas conversions for circulating fluid bed boilers](https://www.zeeco.com/resources/news/solid-fuel-to-natural-gas-conversions-for-circulating-fluid-bed-boilers) | oem-supplier | global, na | open | summary-only |
+| [Sootblower and boiler cleaning terminology, principles and applications](https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications) | oem-supplier | global, na | open | summary-only |
 | [SPE Journal](https://onepetro.org/SJ) | journal | global | paywalled | catalog-only (unverified) |
 | [Stanford Doerr School of Sustainability energy research](https://sustainability.stanford.edu/) | research-institute | global | open | summary-only (unverified) |
+| [SwitchFire condensing boiler](https://cleaverbrooks.com/product/switchfire) | oem-supplier | global, na | open | summary-only |
 | [TNO energy and materials transition](https://www.tno.nl/en/sustainable/) | research-institute | eu | open | full-text-restricted |
 | [Torque and Drag Field Applications in Horizontal Wells (IJOGCT 16(3), 2017)](https://id.scribd.com/document/604239685/Torque-and-drag-field-applications-in-horizontal-wells) | journal | global | mixed | full-text-restricted |
 | [USGS Mineral Commodity Summaries](https://pubs.usgs.gov/periodicals/mcs2026/) | agency-data | global | open | full-text-open |
+| [Zeeco SCR systems](https://zeeco.com/scr-systems) | oem-supplier | global, na | open | summary-only |
 | [ACWA Power project pages](https://acwapower.com) | oem-supplier | me, global | open | full-text-restricted |
 | [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | licensor | global | open | full-text-restricted |
 | [Alberta Open Data portal](https://open.alberta.ca) | agency-data | na | open | full-text-open (unverified) |
@@ -178,6 +231,7 @@
 | [EPA Class VI well information (geologic sequestration of CO2)](https://www.epa.gov/uic/class-vi-wells-used-geologic-sequestration-carbon-dioxide) | agency-data | na | open | full-text-open |
 | [EPA Effluent Guidelines — Petroleum Refining (40 CFR 419)](https://www.epa.gov/eg/petroleum-refining-effluent-guidelines) | agency-data | na, global | open | full-text-open |
 | [EPA GSG: Petroleum Refineries (LCAR snapshot)](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refineries.pdf) | agency-data | global | open | full-text-open (unverified) |
+| [EPA technology overview: circulating fluidized-bed combustion](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100RMKB.TXT) | agency-data | global, na, eu | open | summary-only |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [ERTC European Refining Technology Conference](https://www.wraconferences.com/) | conference | eu | mixed | catalog-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
@@ -229,6 +283,7 @@
 | [NETL LCA of Greenhouse Gas Emissions for Hydrogen Pathways (2019)](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [Nexant / NexantECA reports](https://www.nexanteca.com/) | research-institute | global | paywalled | catalog-only (unverified) |
 | [NFOGM (Norwegian Society for Oil and Gas Measurement)](https://nfogm.no) | association | eu | mixed | full-text-restricted |
+| [NFPA 85 (2023) table of contents at UpCodes](https://up.codes/viewer/nfpa/nfpa-85-2023) | standards-body | global, na | open | summary-only |
 | [Nitrogen (Fixed)—Ammonia, Mineral Commodity Summaries 2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nitrogen.pdf) | agency-data | global | open | full-text-open |
 | [Northern Lights JV news pages](https://norlights.com/newsroom/) | agency-data | eu | open | full-text-restricted |
 | [NREL Annual Technology Baseline (ATB)](https://atb.nrel.gov) | agency-data | na, global | open | full-text-open |
@@ -253,6 +308,7 @@
 | [Sulzer](https://www.sulzer.com/) | oem-supplier | global | open | full-text-restricted |
 | [Sunfire](https://www.sunfire.de/en/) | oem-supplier | eu | open | summary-only (unverified) |
 | [Technip Energies](https://www.ten.com/en) | epc-contractor | global | open | summary-only |
+| [Tetra Engineering — Duct Burners white paper](https://www.tetra-eng.com/whitepaper/duct-burners) | trade-media | global | open | summary-only |
 | [The Chemical Engineer (IChemE)](https://www.thechemicalengineer.com) | trade-media | global | mixed | catalog-only |
 | [The Fertilizer Institute (TFI)](https://www.tfi.org/) | association | na | open | summary-only |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
@@ -279,7 +335,10 @@
 | [Alfa Laval (separation and heat transfer)](https://www.alfalaval.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [ANDRITZ Separation](https://www.andritz.com/products-separation) | oem-supplier | global | open | summary-only (unverified) |
 | [Aquatech International (ZLD)](https://www.aquatech.com/) | licensor | global | open | summary-only (unverified) |
+| [ASME Boiler and Pressure Vessel Code summary (Engineering ToolBox)](https://engineeringtoolbox.com/asme-boiler-vessel-code-d_8.html) | trade-media | global | open | summary-only |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [Boiler blowdown (Engineering ToolBox)](https://engineeringtoolbox.com/boiler-blowdown-d_908.html) | trade-media | global, na | open | summary-only |
+| [Boiler horsepower (Engineering ToolBox)](https://engineeringtoolbox.com/boiler-horsepower-d_1061.html) | trade-media | global | open | summary-only |
 | [Carbon Herald](https://carbonherald.com/) | trade-media | global | open | summary-only (unverified) |
 | [CheManager](https://www.chemanager-online.com) | trade-media | global | open | catalog-only |
 | [Chemical Processing](https://www.chemicalprocessing.com) | trade-media | global | mixed | catalog-only |

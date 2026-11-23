@@ -1,0 +1,27 @@
+{
+  "id": "zeeco-go-burner",
+  "name": "GO ultra-low-NOx package burner",
+  "url": "https://zeeco.com/resources/brochures/go-ultra-low-nox-package-burner",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "Zeeco",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Staged flame with internal FGR gives 30 ppm NOx at 15% excess air on natural gas/propane without external FGR; 10:1 turndown; optional oxygen trim, VFD and remote panels; O2 basis not stated. Evidence: https://zeeco.com/resources/brochures/go-ultra-low-nox-package-burner"
+}

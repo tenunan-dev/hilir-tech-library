@@ -1,0 +1,40 @@
+{
+  "id": "spirax-sarco",
+  "name": "Spirax Sarco",
+  "aliases": [],
+  "country": "United Kingdom",
+  "roles": [
+    "oem",
+    "service",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem",
+    "engineering-consultancy"
+  ],
+  "description": "Steam-system equipment maker and publisher of the Learn About Steam engineering reference, covering feedtanks, deaerators, valves, traps and boiler fittings.",
+  "products": [
+    "feedtanks and deaerators",
+    "blowdown and steam traps",
+    "control valves",
+    "Learn About Steam reference"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "rot-heat-exchangers",
+    "rot-valves-actuators"
+  ],
+  "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/introduction",
+  "sources": [
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB",
+      "source_id": "spirax-deaerators"
+    },
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB",
+      "source_id": "spirax-boiler-fittings"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Product scope inferred from the read Learn About Steam pages; no separate product catalogue page was fetched."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tlv",
+  "name": "TLV",
+  "aliases": [
+    "TLV Engineering"
+  ],
+  "country": "Japan",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Japanese steam-system equipment supplier whose steam-theory reference is used here as a secondary cross-check for steam and condensate behaviour.",
+  "products": [
+    "steam traps",
+    "steam theory reference",
+    "desuperheating systems"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers",
+    "rot-heat-exchangers"
+  ],
+  "url": "https://www.tlv.com/steam-info/steam-theory",
+  "sources": [
+    {
+      "url": "https://www.tlv.com/steam-info/steam-theory",
+      "source_id": "tlv-steam-theory"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

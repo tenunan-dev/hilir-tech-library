@@ -2,7 +2,7 @@
 
 A curated catalog of public sources on oil, gas, petrochemical and energy technologies, built so AI agents can find, cite and read them.
 
-It holds **526 catalog sources** across 10 sectors (the eight energy sectors, IDC — data centres, and WWT — wastewater and water reuse) and 8 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of **253 collected documents** (one per source url — 207 open, 46 full-text-restricted); **391 technology cards** covering the 406-entry technology register; a **vendor directory of 537 records**; an **equipment catalog of 37 equipment classes**; and a **project catalog of 295 named projects and operating plants** (owners, contractors, capacities, milestones). A search index, a Postgres layer, an MCP server, a REST API and a web interface expose all of it to agents and people.
+It holds **586 catalog sources** across 10 sectors (the eight energy sectors, IDC — data centres, and WWT — wastewater and water reuse) and 8 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of **253 collected documents** (one per source url — 207 open, 46 full-text-restricted); **392 technology cards** covering the 407-entry technology register; a **vendor directory of 546 records**; an **equipment catalog of 58 equipment classes** (including gas-fired boiler types and their components); and a **project catalog of 304 named projects and operating plants** (owners, contractors, capacities, milestones). A search index, a Postgres layer, an MCP server, a REST API and a web interface expose all of it to agents and people.
 
 ## Documentation
 
@@ -12,7 +12,7 @@ It holds **526 catalog sources** across 10 sectors (the eight energy sectors, ID
 | [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) | Picking up development: environment, gates, publish pipeline, verification, where each kind of change goes |
 | [docs/AUTH.md](docs/AUTH.md) | **Auth is load-bearing.** The hilir Access model, where the code lives, what never to reintroduce |
 | [docs/USER_GUIDE.md](docs/USER_GUIDE.md) | Using the library: files, MCP server, REST, web UI, licence handling |
-| [docs/MCP.md](docs/MCP.md) | **Agent routing guide to the 24 MCP tools** — which tool answers which question, the four rules, worked answers, and the REST mirror |
+| [docs/MCP.md](docs/MCP.md) | **Agent routing guide to the 26 MCP tools** — which tool answers which question, the four rules, worked answers, and the REST mirror |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | How the parts fit together |
 | [docs/MAINTAINER_MANUAL.md](docs/MAINTAINER_MANUAL.md) | Adding sources, verifying terms, collecting, refreshing |
 | [docs/HOSTING.md](docs/HOSTING.md) | Topology, publishing, and the post-deploy verification (current-state section at the top) |
@@ -91,8 +91,8 @@ Terms findings are recorded as labels — e.g. terms-forbid-copying sites carry 
 
 ## Roadmap
 
-1. **Catalog (done):** taxonomy, schema, 526 records, generated indexes.
+1. **Catalog (done):** taxonomy, schema, 586 records, generated indexes.
 2. **Verification and corpus (ongoing):** records verified against live terms; collectors in `collectors/` (RSS, arXiv, OSTI, manual inbox) write licence-tagged Markdown into `corpus/<id>/`. See `collectors/README.md`.
 3. **Agent access (done):** SQLite FTS5 keyword index with optional embeddings, an MCP server with 26 tools, a REST API and an HTML interface, hosted at techlib.hilir.app / techlib-api.hilir.app behind hilir Access (open-licence text only).
 4. **Postgres layer (done):** pgvector, full-text search and a knowledge graph on Neon, reloaded from the files by `tools/load_postgres.py` and queried read-only by agents (`sql_query`) and the web console as role `og_mcp_read`. See [docs/POSTGRES.md](docs/POSTGRES.md).
-5. **Vendors and equipment (ongoing):** 537 vendor records and 37 equipment classes (boilers, compressors, pumps, turbines, data-centre electrical and ten wastewater classes); the next families arrive on the owner's word (decision #33).
+5. **Vendors and equipment (ongoing):** 546 vendor records and 58 equipment classes (boilers including gas-fired fire-tube, water-tube, condensing hot-water and gas-conversion CFB types, their components — burners, drums, economisers, superheaters, deaerators, safety valves, fans, emissions control — plus compressors, pumps, turbines, data-centre electrical and ten wastewater classes); the next families arrive on the owner's word (decision #33).

@@ -1,0 +1,26 @@
+{
+  "id": "doe-femp-boilers",
+  "name": "DOE FEMP — Purchasing energy-efficient boilers",
+  "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS"
+  ],
+  "publisher_org": "US Department of Energy (FEMP)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. 10 CFR 431.86 based tables: large commercial gas-fired hot-water boilers minimum 96% combustion efficiency; oil-fired 89%; gas/oil steam boilers 83.7%/85.8% thermal efficiency; condensing recovers latent heat but needs corrosion-resistant materials; optimum-start and remote connectivity guidance. Evidence: https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers"
+}

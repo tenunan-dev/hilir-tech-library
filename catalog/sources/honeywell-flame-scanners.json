@@ -1,0 +1,27 @@
+{
+  "id": "honeywell-flame-scanners",
+  "name": "Honeywell S70X/S80X flame-scanner viewing heads",
+  "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "INS",
+    "PRC"
+  ],
+  "publisher_org": "Honeywell",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. UV 185-260 nm (peak 210) or IR germanium 950-1710 nm detection; SIL 3 capable; IP64; -40 to +85 C; UV tube life 10,000-50,000 hours with monthly sensitivity check; optical field of view 1 degree IR / 5 degrees UV. Evidence: https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+}

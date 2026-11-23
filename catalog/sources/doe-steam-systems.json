@@ -1,0 +1,27 @@
+{
+  "id": "doe-steam-systems",
+  "name": "DOE Steam Systems (Industrial Technologies Office)",
+  "url": "https://www.energy.gov/eere/amo/steam-systems",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "US Department of Energy",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. DOE steam systems programme index linking the steam sourcebook and tip sheets (linked PDFs were not fetched). Evidence: https://www.energy.gov/eere/amo/steam-systems"
+}

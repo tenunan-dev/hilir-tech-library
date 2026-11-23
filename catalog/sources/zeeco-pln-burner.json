@@ -1,0 +1,28 @@
+{
+  "id": "zeeco-pln-burner",
+  "name": "PLN ultra-low-NOx package burner",
+  "url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "Zeeco",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. NOx ladder without FGR: 40 ppm at 40% excess air, 30 at 45%, 15 at 50%, 9 at 60%; 2.5-63 MMBtu/hr heat release, 10:1 turndown; standard Siemens LMV3/LMV51 or AutoFlame Mini Mark 8 BMS, ventless regulator and dual block main shutoff valves; O2 reference basis not stated. Evidence: https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bw-air-heaters",
+  "name": "Air heaters",
+  "url": "https://www.babcock.com/home/products/air-heaters",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Babcock & Wilcox",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. B&W air-heater product page; cold-end metal temperature is generally approximated from average gas and air temperatures (qualitative statement used in the cycling article). Evidence: https://www.babcock.com/home/products/air-heaters"
+}

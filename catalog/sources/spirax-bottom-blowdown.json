@@ -1,0 +1,28 @@
+{
+  "id": "spirax-bottom-blowdown",
+  "name": "Bottom blowdown",
+  "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "eu",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. A single four-second bottom blowdown every eight hours is described as more effective than one long blow; minimum blowdown line length 7.5 m; blowdown vessel design pressure at least 25% of boiler MWP (HSE PM60), vent keeps vessel below 0.35 bar g and overflow below 43 C. Evidence: https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB"
+}

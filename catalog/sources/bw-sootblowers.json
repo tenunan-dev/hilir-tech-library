@@ -1,0 +1,26 @@
+{
+  "id": "bw-sootblowers",
+  "name": "Sootblower and boiler cleaning terminology, principles and applications",
+  "url": "https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Babcock & Wilcox",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Saturated steam is the most widely used sootblowing medium because boiler-generated steam is available; SCR catalyst cleaning uses relatively low steam velocity to avoid mechanical or erosive damage. Evidence: https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications"
+}

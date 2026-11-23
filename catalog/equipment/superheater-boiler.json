@@ -1,0 +1,79 @@
+{
+  "id": "superheater-boiler",
+  "name": "Boiler superheater and attemperator",
+  "equipment_type": "heat-exchanger",
+  "description": "Heat exchanger that adds heat to saturated steam, usually as pendant or horizontal banks in the gas path, with a desuperheater or attemperator controlling final steam temperature. Water-tube power boilers can reach 550 C superheated steam; separate or supplementary-fired superheaters are used where gas-turbine exhaust is too cool.",
+  "specifications": [
+    {
+      "metric": "superheated steam temperature, upper capability",
+      "basis": "Spirax Sarco: 'superheated steam (up to 550 C)' for water-tube boilers",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+        "source_id": "spirax-water-tube-boilers"
+      },
+      "unit": "degC",
+      "value": 550
+    },
+    {
+      "metric": "gas-turbine exhaust temperature to waste-heat boiler",
+      "basis": "Spirax Sarco: hot exhaust gases from a gas turbine approximately 500 C",
+      "source": {
+        "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+        "source_id": "spirax-water-tube-boilers"
+      },
+      "unit": "degC",
+      "value": 500
+    },
+    {
+      "metric": "SCR minimum inlet gas temperature",
+      "basis": "B&W: recommended minimum average gas temperature entering SCR equipment is 220 F (104 C) for cold start-up",
+      "source": {
+        "url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations",
+        "source_id": "bw-boiler-cycling"
+      },
+      "unit": "degC",
+      "value": 104
+    }
+  ],
+  "vendors": [
+    "babcock-wilcox"
+  ],
+  "sources": [
+    {
+      "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
+      "source_id": "spirax-water-tube-boilers"
+    },
+    {
+      "url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations",
+      "source_id": "bw-boiler-cycling"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PRC",
+    "ROT"
+  ],
+  "aliases": [
+    "superheater",
+    "desuperheater",
+    "attemperator",
+    "final superheater"
+  ],
+  "applications": [
+    "utility and industrial steam",
+    "combined-cycle HRSGs"
+  ],
+  "technologies": [
+    "pwr-gas-fired-boilers"
+  ],
+  "gaps": [
+    {
+      "what": "superheater surface, metal temperature limits and attemperator spray rates",
+      "why": "Read pages give the achievable steam temperature but not design detail.",
+      "next_action": "Read OEM superheater design descriptions and cycling guidance."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "spirax-shell-boilers",
+  "name": "Shell boilers (Learn About Steam)",
+  "url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Spirax Sarco",
+  "regions": [
+    "global",
+    "eu",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Shell-boiler construction: gas in tubes, water outside; wetback vs dryback reversal chambers; furnace tube wall 18-20 mm gives a practical ~27 bar pressure limit; gas cooled to at least 420 C (plain) / 470 C (alloy) before reversal; flame temperature up to 1800 C; ~27,000 kg/h UK-road-transportable package limit. Evidence: https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB"
+}

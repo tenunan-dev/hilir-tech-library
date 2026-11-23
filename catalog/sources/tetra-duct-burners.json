@@ -1,0 +1,25 @@
+{
+  "id": "tetra-duct-burners",
+  "name": "Tetra Engineering — Duct Burners white paper",
+  "url": "https://www.tetra-eng.com/whitepaper/duct-burners",
+  "source_type": "trade-media",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Tetra Engineering Group",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 with WebFetch during the gas-fired boiler sweep. Two duct-burner types (standard round gas burners and linear grid burners), location in the transition duct or between superheater stages; inspection criterion of 2-3 in (5-8 cm) runner sag at midpoint; one improperly installed runner buckled in under 10,000 hours. Evidence: https://www.tetra-eng.com/whitepaper/duct-burners"
+}
