@@ -1,0 +1,44 @@
+{
+  "id": "moomba-power-plant-extension-south-australia-gas-field-electrification",
+  "name": "Moomba power plant extension, South Australia (gas-field electrification)",
+  "country": "Australia",
+  "location": "Australia",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "IDC"
+  ],
+  "description": "Part of infrastructure upgrade replacing compression at seven gas-driven compressor stations with a single centralised electric-driven station; local Moomba field gas supply. page_read:false - WebSearch result marked search-verified; direct page not fetched this session",
+  "capacities": [
+    {
+      "metric": "power generation",
+      "value": 59.0,
+      "unit": "MW",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.wartsila.com/media/news/22-10-2026-wartsila-engines-selected-for-major-australian-energy-infrastructure-upgrade-project-3804886",
+        "source_id": "wartsila-com-news-22-10-2026-wartsila-engines-selected-for-major-a"
+      }
+    }
+  ],
+  "technologies": [
+    "pwr-gas-engines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/media/news/22-10-2026-wartsila-engines-selected-for-major-australian-energy-infrastructure-upgrade-project-3804886",
+      "source_id": "wartsila-com-news-22-10-2026-wartsila-engines-selected-for-major-a"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed commissioning dates and owner/contractor roles",
+      "why": "Not consistently stated on the read page.",
+      "next_action": "Read the project's primary announcement for dated milestones."
+    }
+  ],
+  "notes": "page_read:false - WebSearch result marked search-verified; direct page not fetched this session",
+  "last_reviewed": "2026-11-24"
+}

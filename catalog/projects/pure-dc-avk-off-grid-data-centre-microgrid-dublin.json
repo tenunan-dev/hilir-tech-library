@@ -1,0 +1,45 @@
+{
+  "id": "pure-dc-avk-off-grid-data-centre-microgrid-dublin",
+  "name": "Pure DC / AVK off-grid data-centre microgrid, Dublin",
+  "country": "Ireland (non-APAC comparator - gas-engine data-centre reference)",
+  "location": "Ireland (non-APAC comparator - gas-engine data-centre reference)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "IDC"
+  ],
+  "description": "Described as Europe's first large-scale off-grid data-centre microgrid; gas primary fuel with HVO backup; hydrogen-blend ready and CHP-ready; fully independent of national grid. page_read:true (WebFetch 2026-11-24)",
+  "capacities": [
+    {
+      "metric": "power generation",
+      "value": 60.0,
+      "unit": "MW",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/learn-more/references/other-industrial/pure-dc-and-avk-ireland",
+        "source_id": "wartsila-com-other-industrial-pure-dc-and-avk-ireland"
+      }
+    }
+  ],
+  "technologies": [
+    "pwr-gas-engines",
+    "idc-behind-the-meter-gas"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/other-industrial/pure-dc-and-avk-ireland",
+      "source_id": "wartsila-com-other-industrial-pure-dc-and-avk-ireland"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed commissioning dates and owner/contractor roles",
+      "why": "Not consistently stated on the read page.",
+      "next_action": "Read the project's primary announcement for dated milestones."
+    }
+  ],
+  "notes": "page_read:true (WebFetch 2026-11-24)",
+  "last_reviewed": "2026-11-24"
+}

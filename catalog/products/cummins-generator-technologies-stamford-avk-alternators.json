@@ -1,0 +1,42 @@
+{
+  "id": "cummins-generator-technologies-stamford-avk-alternators",
+  "name": "STAMFORD / AvK alternators",
+  "manufacturer": "cummins-generator-technologies",
+  "product_type": "generator",
+  "equipment": [
+    "gas-engine-alternator"
+  ],
+  "description": "Vendor product line read 2026-11-24. Wire-wound STAMFORD and bar-wound AvK",
+  "specifications": [
+    {
+      "metric": "Combined range",
+      "unit": "kVA",
+      "basis": "",
+      "source": {
+        "url": "https://www.cummins.com/generators/alternators",
+        "source_id": "cummins-com-generators-alternators"
+      },
+      "low": 7.5,
+      "high": 11200
+    },
+    {
+      "metric": "Global coverage",
+      "unit": "countries",
+      "basis": "",
+      "source": {
+        "url": "https://www.cummins.com/generators/alternators",
+        "source_id": "cummins-com-generators-alternators"
+      },
+      "value": 116
+    }
+  ],
+  "url": "https://www.cummins.com/generators/alternators",
+  "sources": [
+    {
+      "url": "https://www.cummins.com/generators/alternators",
+      "source_id": "cummins-com-generators-alternators"
+    }
+  ],
+  "notes": "Wire-wound STAMFORD and bar-wound AvK",
+  "last_reviewed": "2026-11-24"
+}

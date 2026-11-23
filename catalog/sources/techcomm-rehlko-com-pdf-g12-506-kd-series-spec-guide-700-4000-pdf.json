@@ -1,0 +1,28 @@
+{
+  "id": "techcomm-rehlko-com-pdf-g12-506-kd-series-spec-guide-700-4000-pdf",
+  "name": "Rehlko",
+  "url": "https://techcomm.rehlko.com/$web/techcomm/pdf/G12-506_KD_Series_Spec_Guide_700-4000.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Techcomm.Rehlko.Com",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Search-verified only Evidence: https://techcomm.rehlko.com/$web/techcomm/pdf/G12-506_KD_Series_Spec_Guide_700-4000.pdf"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "drawing-cummins-gas-power-plant-application-manual-figure-26-oil-level-maintainer",
+  "title": "Cummins Gas Power Plant Application Manual — Figure 26 'Oil level maintainer installation' and Figure 27 'Oil storage tank' (plus Figs 28-29)",
+  "diagram_type": "schematic",
+  "description": "Numbered parts list: crankcase pressure balance line, oil supply from external storage, supply to oil pan, oil level display, normal operating range, low zone (shutdown/alarm); oil fill connection and make-up tank.",
+  "publisher": "Cummins Inc.",
+  "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+  "licence": "Copyright © 2017 Cummins Inc.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Pointer only; captions and parts list verified in extracted text (pp. 36-39).",
+  "last_reviewed": "2026-11-24"
+}

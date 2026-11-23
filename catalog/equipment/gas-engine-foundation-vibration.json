@@ -1,0 +1,66 @@
+{
+  "id": "gas-engine-foundation-vibration",
+  "name": "Foundations, plinths and vibration isolation",
+  "equipment_type": "civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "CIV",
+    "MAT",
+    "PWR"
+  ],
+  "description": "Foundations, plinths and vibration isolation",
+  "specifications": [
+    {
+      "metric": "Pad levelness / flatness",
+      "unit": "inch (6.35 mm)",
+      "basis": "Cummins Gas Power Plant Application Manual section 3.6.5.1: mounting pad or piers level and flat within 0.25 in (6.35 mm); isolate from rest of concrete flatwork with flexible caulking",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "0.25"
+    },
+    {
+      "metric": "Massive foundation ratio",
+      "unit": "times installed equipment weight",
+      "basis": "Cummins Gas Power Plant Application Manual section 3.6.5.1: further vibration control with massive mounting foundation at least 1.5x weight of installed equipment",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "at least 1.5"
+    },
+    {
+      "metric": "Steel spring isolator damping",
+      "unit": "% of generator set vibration energy",
+      "basis": "Cummins Gas Power Plant Application Manual section 3.6.5.3: lean-burn natural gas gensets come standard with steel spring isolators which 'can dampen up to 98%' of vibration energy",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "high": "98"
+    },
+    {
+      "metric": "Pad concrete strength and geometry",
+      "unit": "psi / mm",
+      "basis": "Cummins Gas Power Plant Application Manual section 3.6.5.2",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "28-day compressive strength at least 2500 psi (17,236.89 kPa); depth at least 6 in (150 mm); extends at least 9 in (230 mm) beyond skid on all sides"
+    }
+  ],
+  "vendors": [
+    "cummins-inc"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+    }
+  ],
+  "gaps": [],
+  "notes": "Merged from 1 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

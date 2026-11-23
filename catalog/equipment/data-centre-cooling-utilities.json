@@ -1,0 +1,44 @@
+{
+  "id": "data-centre-cooling-utilities",
+  "name": "Cooling utilities for the data centre directly coupled to the gas-engine energy story",
+  "equipment_type": "cooling",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Cooling utilities for the data centre directly coupled to the gas-engine energy story",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Cooling utilities for the data centre directly coupled to the gas-engine energy story",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+        "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+      }
+    }
+  ],
+  "vendors": [
+    "johnson-controls-york-silent-aire",
+    "vertiv",
+    "trane"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+      "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Actual cooling-system water consumption and COP at a gas-engine-powered data centre",
+      "why": "Only modelled zero-water claims found",
+      "next_action": "Seek operator sustainability reports with measured WUE for JAK2 or similar sites"
+    }
+  ],
+  "notes": "Merged from 1 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

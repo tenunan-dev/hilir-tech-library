@@ -1,0 +1,36 @@
+{
+  "id": "drawing-schneider-electric-white-paper-286-figure-5-a-high-level-presentation-of-t",
+  "title": "Schneider Electric White Paper 286 — Figure 5 'A high-level presentation of the power plant components'",
+  "diagram_type": "PFD",
+  "description": "Generator-unit auxiliaries (engine/alternator, cooling, instrument air, starting air unit, exhaust gas unit, control panel) and common systems (gas piping and pressure reduction, gas storage, electrical distribution, control, fire detection, lubrication) marked critical/non-critical.",
+  "publisher": "Schneider Electric Data Center Science Center (with Wärtsilä)",
+  "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+  "licence": "Schneider Electric White Paper 286, Version 1",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+      "source_id": "download-se-com-download-se-com-files"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Pointer only; figure text/caption verified in extracted PDF (p. 7).",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "innio-jenbacher-austria",
+  "name": "INNIO Jenbacher, Austria",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "INNIO Jenbacher, Austria is named as a supplier or publisher on a page read during the gas-engine/data-centre sweep.",
+  "technologies": [
+    "pwr-gas-engines",
+    "idc-behind-the-meter-gas"
+  ],
+  "sources": [
+    {
+      "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
+      "source_id": "powermag-com-engine-power-plants-surge-as-data-centers-drive-unpre"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 gas-engine/data-centre sweep; country and detailed roles were not stated on the read page."
+}

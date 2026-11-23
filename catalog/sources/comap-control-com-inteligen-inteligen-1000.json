@@ -1,0 +1,28 @@
+{
+  "id": "comap-control-com-inteligen-inteligen-1000",
+  "name": "ComAp — ComAp InteliGen 1000 coordinated units",
+  "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "ComAp",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. ComAp InteliGen 1000 product page: CAN FD inter-controller communication, up to 64 additional controllers; ISA 62443 level 2-3 security; hot-swap and CAN redund Evidence: https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+}

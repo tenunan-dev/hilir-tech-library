@@ -1,0 +1,37 @@
+{
+  "id": "drawing-typical-arrangement-of-flue-gas-treatment-and-cems-at-an-scr-equipped-engi",
+  "title": "Typical arrangement of flue gas treatment and CEMS at an SCR-equipped engine",
+  "diagram_type": "schematic",
+  "description": "SCR/SNCR and CEMS functional schematic at an engine, from a MAN Energy Solutions submission to Ireland's EPA. Techlib marks this record full-text-restricted: no part may be passed to third parties or reproduced without permission.",
+  "publisher": "MAN Energy Solutions (submitted to Ireland EPA)",
+  "url": "https://leap.epa.ie/docs/118948d5-4f92-4cda-893b-5a4f751c8f4b.pdf",
+  "licence": "RESTRICTED - no part may be passed to third parties, reproduced or contents disclosed without express permission of MAN Energy Solutions",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "gas-engine-exhaust-emissions",
+    "gas-engine-prime-mover"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://leap.epa.ie/docs/118948d5-4f92-4cda-893b-5a4f751c8f4b.pdf",
+      "source_id": "leap-epa-ie-docs-118948d5-4f92-4cda-893b-5a4f751c8f4b-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Document URL verified reachable; caption/text extracted 2026-11-24. Citation-only pointer; do NOT reproduce or redistribute the figure. Recorded in techlib drawings catalogue from a WebSearch snippet (search-verified); not fetched here.",
+  "last_reviewed": "2026-11-24"
+}

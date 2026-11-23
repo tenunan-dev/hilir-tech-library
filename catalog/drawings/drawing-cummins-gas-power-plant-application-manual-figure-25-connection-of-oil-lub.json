@@ -1,0 +1,36 @@
+{
+  "id": "drawing-cummins-gas-power-plant-application-manual-figure-25-connection-of-oil-lub",
+  "title": "Cummins Gas Power Plant Application Manual — Figure 25 'Connection of oil lubrication system (gravity feed system) to generator sets'",
+  "diagram_type": "schematic",
+  "description": "Gravity-feed lube-oil arrangement showing fresh oil storage, service tank, suction strainer/foot valve and engine sump connection; supports the 1-4 m elevation gravity-feed rule.",
+  "publisher": "Cummins Inc.",
+  "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+  "licence": "Copyright © 2017 Cummins Inc.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Pointer only; Fig. 25 caption verified in extracted text (p. 35).",
+  "last_reviewed": "2026-11-24"
+}

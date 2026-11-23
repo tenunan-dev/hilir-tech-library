@@ -1,0 +1,28 @@
+{
+  "id": "vertiv-com-shared-vertiv-energycore-battery-storage-system-data-sh",
+  "name": "Vertiv",
+  "url": "https://www.vertiv.com/4a1875/globalassets/shared/vertiv-energycore-battery-storage-system-data-sheet-sl-71271.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Vertiv",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. search-verified. Evidence: https://www.vertiv.com/4a1875/globalassets/shared/vertiv-energycore-battery-storage-system-data-sheet-sl-71271.pdf"
+}

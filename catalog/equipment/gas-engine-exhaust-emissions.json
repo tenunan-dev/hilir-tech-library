@@ -1,0 +1,160 @@
+{
+  "id": "gas-engine-exhaust-emissions",
+  "name": "Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints",
+  "equipment_type": "exhaust",
+  "sector": "PWR",
+  "sector_codes": [
+    "HSE",
+    "PRC",
+    "PWR"
+  ],
+  "description": "Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints | Emissions control: oxidation catalyst, SCR, NOx/CO figures | Exhaust stacks, silencers and emission after-treatment",
+  "specifications": [
+    {
+      "metric": "BOP elements",
+      "unit": "qualitative",
+      "basis": "Jenbacher Type 6 and J920 Balance of Plant element lists",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "value": "Activated carbon absorber; exhaust gas silencer; exhaust gas heat exchanger"
+    },
+    {
+      "metric": "NOx reduction",
+      "unit": "% (greater than)",
+      "basis": "Johnson Matthey SCR systems for stationary diesel and gas engines; can be coupled with ammonia-slip or oxidation catalyst for CO, HC, NH3 and VOCs",
+      "source": {
+        "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
+        "source_id": "matthey-com-emissions-control-nox-control-systems"
+      },
+      "low": 95
+    },
+    {
+      "metric": "Converter power range",
+      "unit": "HP",
+      "basis": "Johnson Matthey Modulex C catalytic converter, stainless steel; Modulex B 250-2250 HP carbon/stainless; DualOx 2000 HP and larger",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",
+        "source_id": "matthey-com-emissions-control-oxidation-catalyst-systems"
+      },
+      "value": "50-500"
+    },
+    {
+      "metric": "NOx emission basis",
+      "unit": "mg/Nm3 @ 5% O2 dry exhaust",
+      "basis": "Jenbacher Type 6 and J920 published technical data; engine/genset emissions setting",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "value": "250 / 500"
+    },
+    {
+      "metric": "NOx reduction vs Tier 2 diesel",
+      "unit": "% (greater than)",
+      "basis": "Jenbacher 100% hydrogen data-centre generator option; search-verified? NO - value is on the fetched Jenbacher data-centre page",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/",
+        "source_id": "jenbacher-com-data-center"
+      },
+      "low": 95
+    },
+    {
+      "metric": "Exhaust routing height",
+      "unit": "feet (2.3 m) above (personnel-work areas / combustible surfaces context)",
+      "basis": "Cummins Gas Power Plant Application Manual, exhaust section: route exhaust piping at least 8 feet (2.3 metres) above... (qualifier as printed in the manual)",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "low": "8"
+    },
+    {
+      "metric": "Carbon steel exhaust thermal expansion",
+      "unit": "mm per m per 100 deg C",
+      "basis": "Cummins Gas Power Plant Application Manual, exhaust section; expansion joints required in long straight runs and every change of direction",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "0.0078 inches per foot of pipe per 100 deg F rise (1.17 mm per metre per 100 deg C)"
+    },
+    {
+      "metric": "Catalyst / SCR notes",
+      "unit": "qualitative",
+      "basis": "Cummins Gas Power Plant Application Manual, exhaust after-treatment section",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "oxidation catalyst located as close to engine as possible; catalyst bypass at start-up to protect from high exhaust temperatures; DEF approx. one-third urea and two-thirds water; SCR costly, heavy, needs careful doser sizing and ammonia-slip control"
+    },
+    {
+      "metric": "Burgess-Manning preset vent silencer sizes",
+      "unit": "inch / deg C / dB",
+      "basis": "Burgess-Manning Preset Vent Silencers product page, Technical Data / Design sections",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "value": "inlet diameter 2-12 in; casing diameter 8-24 in; standard design temperature 250 deg C; enhanced noise attenuation up to 50+ dB (typical, no guaranteed attenuation)"
+    }
+  ],
+  "vendors": [
+    "innio-jenbacher",
+    "johnson-matthey",
+    "burgess-manning-ceco-environmental",
+    "svi-bremco"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+      "source_id": "jenbacher-com-type-6"
+    },
+    {
+      "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
+      "source_id": "matthey-com-emissions-control-nox-control-systems"
+    },
+    {
+      "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",
+      "source_id": "matthey-com-emissions-control-oxidation-catalyst-systems"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/",
+      "source_id": "jenbacher-com-data-center"
+    },
+    {
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+    },
+    {
+      "url": "https://burgessmanning.com/preset-vent-silencers/",
+      "source_id": "burgessmanning-com-preset-vent-silencers"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Silencer insertion-loss spectrum, exhaust backpressure and expansion-joint specification",
+      "why": "Not printed on fetched pages",
+      "next_action": "Fetch a silencer/expansion-joint OEM datasheet (e.g. Veeder-Root/AMF/Beair)"
+    },
+    {
+      "what": "Combustion-air intake filtration classes for gas engines specifically",
+      "why": "Only generic diesel-generator spec sheets found in search",
+      "next_action": "Fetch Jenbacher/Wartsila air-intake BOP datasheets"
+    },
+    {
+      "what": "CO and formaldehyde outlet figures with explicit basis (mg/Nm3, O2, temperature)",
+      "why": "JM pages state percentage reductions but not outlet concentrations; Jenbacher pages give NOx only",
+      "next_action": "Fetch JM power-generation brochure PDF and Jenbacher EPA Tier 4 factsheet with a PDF reader"
+    },
+    {
+      "what": "Catalyst poison limits for siloxanes/sulphur in biogas",
+      "why": "Wartsila mentions catalyst poisons but gives no limits",
+      "next_action": "Fetch Wartsila 50SG leaflet and JM fuel-specification guidance"
+    }
+  ],
+  "notes": "Merged from 3 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

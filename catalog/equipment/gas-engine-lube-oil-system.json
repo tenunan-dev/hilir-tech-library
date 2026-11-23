@@ -1,0 +1,118 @@
+{
+  "id": "gas-engine-lube-oil-system",
+  "name": "Lube oil system: pumps, filters, coolers, sump",
+  "equipment_type": "lube-oil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PRC",
+    "PWR",
+    "ROT"
+  ],
+  "description": "Lube oil system: pumps, filters, coolers, sump | Lube-oil storage, transfer, filtration and make-up",
+  "specifications": [
+    {
+      "metric": "Scope inclusion",
+      "unit": "qualitative",
+      "basis": "Jenbacher Type 6 containerised solution, usual scope of supply; alongside container ventilation, cooling systems and control panel/gas train",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "value": "Lube oil supply system"
+    },
+    {
+      "metric": "Lube oil grade",
+      "unit": "SAE viscosity grade",
+      "basis": "Cummins Gas Power Plant Application Manual section 3.2.1",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "mono-grade SAE 40 (most Cummins lean-burn gas gensets); never use diesel engine oil in a natural gas engine"
+    },
+    {
+      "metric": "Service (day) tank base elevation above floor for gravity feed",
+      "unit": "m",
+      "basis": "Cummins Gas Power Plant Application Manual section 3.2.3: tank base between 1 and 4 m above floor level for adequate gravity feed to engine sump",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "low": "1",
+      "high": "4"
+    },
+    {
+      "metric": "Minimum oil make-up tank capacity",
+      "unit": "litres (27 US gallons)",
+      "basis": "Cummins Gas Power Plant Application Manual section 3.2.4.2: design not specified but tank must contain a minimum of 100 liters; total capacity depends on expected running hours and genset datasheet oil consumption",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "100"
+    },
+    {
+      "metric": "Make-up tank connection pipe internal diameter",
+      "unit": "inch I.D. minimum",
+      "basis": "Cummins Gas Power Plant Application Manual section 3.2.4.2: make-up tank mounted away from engine, connected by suitable pipework of at least 3/4 inch I.D.",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "low": "0.75"
+    },
+    {
+      "metric": "Fresh oil piping / siphon protection",
+      "unit": "qualitative design rule",
+      "basis": "Cummins Gas Power Plant Application Manual section 3.2.3",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "pickled or cold-drawn pickled pipe; strainer and foot valve on storage tank suction; solenoid valve if service tank lower than storage tank to prevent siphon overfill"
+    },
+    {
+      "metric": "Lubrication system in common plant architecture",
+      "unit": "qualitative",
+      "basis": "Schneider Electric White Paper 286, Figure 5 'A high-level presentation of the power plant components'",
+      "source": {
+        "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+        "source_id": "download-se-com-download-se-com-files"
+      },
+      "value": "Lubrication System listed among power-plant common systems (alongside gas piping/pressure reduction, gas storage, electrical distribution, control, fire detection)"
+    }
+  ],
+  "vendors": [
+    "innio-jenbacher",
+    "rehlko",
+    "cummins-inc"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+      "source_id": "jenbacher-com-type-6"
+    },
+    {
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+    },
+    {
+      "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+      "source_id": "download-se-com-download-se-com-files"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Sump capacity, oil pump flow/pressure, filter micron ratings and cooler duty",
+      "why": "Not published on the fetched pages",
+      "next_action": "Fetch OEM engine data sheets and lube-oil system P&IDs from Jenbacher customer portal (login required)"
+    },
+    {
+      "what": "Named independent lube-oil pump/filter/cooler suppliers",
+      "why": "No evidence gathered",
+      "next_action": "Search and fetch OEM/specialist datasheets (e.g. Boleng, Facet, Hilliard)"
+    }
+  ],
+  "notes": "Merged from 2 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

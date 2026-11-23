@@ -1,0 +1,44 @@
+{
+  "id": "ge-pltd-pesanggaran-bali-pt-indonesia-power",
+  "name": "PLTD Pesanggaran, Bali (PT Indonesia Power)",
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "IDC"
+  ],
+  "description": "Utility reference plant recorded in the HILIR techlib project catalogue; source is a Wärtsilä reference page. page_read:false - techlib catalogue record with cited source; page not re-fetched this session",
+  "capacities": [
+    {
+      "metric": "power generation",
+      "value": 200.0,
+      "unit": "MW",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali",
+        "source_id": "wartsila-com-utilities-pesanggaran-bali"
+      }
+    }
+  ],
+  "technologies": [
+    "pwr-gas-engines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali",
+      "source_id": "wartsila-com-utilities-pesanggaran-bali"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed commissioning dates and owner/contractor roles",
+      "why": "Not consistently stated on the read page.",
+      "next_action": "Read the project's primary announcement for dated milestones."
+    }
+  ],
+  "notes": "page_read:false - techlib catalogue record with cited source; page not re-fetched this session",
+  "last_reviewed": "2026-11-24"
+}

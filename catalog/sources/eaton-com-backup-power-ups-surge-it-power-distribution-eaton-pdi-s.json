@@ -1,0 +1,28 @@
+{
+  "id": "eaton-com-backup-power-ups-surge-it-power-distribution-eaton-pdi-s",
+  "name": "Eaton",
+  "url": "https://www.eaton.com/us/en-us/catalog/backup-power-ups-surge-it-power-distribution/eaton-pdi-static-transfer-switch.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Eaton",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Page returned HTTP 403 to WebFetch; content search-verified only. Evidence: https://www.eaton.com/us/en-us/catalog/backup-power-ups-surge-it-power-distribution/eaton-pdi-static-transfer-switch.html"
+}

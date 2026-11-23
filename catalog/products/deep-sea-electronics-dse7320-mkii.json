@@ -1,0 +1,64 @@
+{
+  "id": "deep-sea-electronics-dse7320-mkii",
+  "name": "DSE7320 MKII",
+  "manufacturer": "deep-sea-electronics",
+  "product_type": "engine",
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "description": "Vendor product line read 2026-11-24. AMF, single diesel or gas genset, IP65 front with gasket",
+  "specifications": [
+    {
+      "metric": "DC supply",
+      "unit": "V DC continuous",
+      "basis": "",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
+        "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
+      },
+      "low": 8,
+      "high": 35
+    },
+    {
+      "metric": "Generator/mains voltage",
+      "unit": "V AC phase-neutral",
+      "basis": "",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
+        "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
+      },
+      "low": 15,
+      "high": 415
+    },
+    {
+      "metric": "Frequency range",
+      "unit": "Hz",
+      "basis": "",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
+        "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
+      },
+      "low": 3.5,
+      "high": 75
+    },
+    {
+      "metric": "Panel size",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
+        "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
+      },
+      "value": "245 x 184 x 51"
+    }
+  ],
+  "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
+  "sources": [
+    {
+      "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
+      "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
+    }
+  ],
+  "notes": "AMF, single diesel or gas genset, IP65 front with gasket",
+  "last_reviewed": "2026-11-24"
+}

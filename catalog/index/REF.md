@@ -1,6 +1,6 @@
 # REF: Refining
 
-416 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
+406 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -113,7 +113,6 @@
 | [Sinopec technology licensing](https://www.sinopecgroup.com/group/en/) | licensor | apac, global | open | summary-only (unverified) |
 | [ABB](https://library.e.abb.com/public/c8353396e0474d16ac38f6b920c2b45f/DEABB+1904+13+en+Variable+Speed+Drive+final.pdf?x-sign=%2F4DbWl6DD3bY6K8r%2Bzl0%2BQ7%2B2iiWrs79JoxF7rmzdGN5Jh%2BqTnLQpYI98qFmpQv9) | oem-supplier | global, na | open | summary-only |
 | [Accu-Trim oxygen trim system](https://cleaverbrooks.com/product/accu-trim) | oem-supplier | global, na | open | summary-only |
-| [AERZEN (Aerzener Maschinenfabrik GmbH) — High Pressure Gas Booster Series GM-HP](https://www.aerzen.com/product/gas-booster-for-high-pressure-applications) | oem-supplier | global, na | open | summary-only |
 | [AIChE Center for Chemical Process Safety (CCPS)](https://www.aiche.org/ccps) | association | global | mixed | summary-only |
 | [AIChE Journal](https://aiche.onlinelibrary.wiley.com/journal/15475905) | journal | global | mixed | catalog-only (unverified) |
 | [AIChE Spring Meeting and Global Congress on Process Safety](https://www.aiche.org/conferences/aiche-spring-meeting-and-global-congress-on-process-safety) | conference | global | mixed | catalog-only |
@@ -130,13 +129,11 @@
 | [ASME Codes and Standards (BPVC, B31)](https://www.asme.org/codes-standards) | standards-body | global, na | paywalled | catalog-only (unverified) |
 | [ASTM International petroleum products standards (Committee D02)](https://www.astm.org/products-services/standards-and-publications.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Atlantic Feedwater Systems](https://atlanticfeedwatersystemsinc.com/guidelines/) | oem-supplier | global, na | open | summary-only |
-| [Atlas Copco — GA (VSD+) oil-injected rotary screw compressors](https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series) | oem-supplier | global, na | open | summary-only |
 | [Atlas Copco — Minimum pressure dew point margin below coldest exposed inst](https://www.atlascopco.com/en-us/compressors/wiki/compressed-air-articles/instrument-air-quality) | oem-supplier | global, na | open | summary-only |
 | [BOA Group](https://boagroup.com/wp-content/uploads/2019/10/BOA-HFE-Axial-Expansion-Joints.pdf) | oem-supplier | global, na | open | summary-only |
 | [Boiler cycling considerations](https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations) | oem-supplier | global, na | open | summary-only |
 | [Boldrocchi Group](https://www.boldrocchigroup.com/heavy-duty-process-dampers/) | oem-supplier | global, na | open | summary-only |
 | [Brittania Industries](https://www.brittaniaindustries.com/solutions/natural-gas-boosters) | oem-supplier | global, na | open | summary-only |
-| [Burgess-Manning (CECO Environmental) — Preset Vent Silencers](https://burgessmanning.com/preset-vent-silencers/) | oem-supplier | global, na | open | summary-only |
 | [Burgessmanning.Com — guaranteed vent silencer attenuation](https://burgessmanning.com/custom-vent-silencer) | oem-supplier | global, na | open | summary-only |
 | [Cascading steam turbine bypass system schematic (Fig. 1) — Steam Turbine Bypass Systems, Combined Cycle Journa](https://competitivepower.us/pub/pdfs/Steam-Turbine-Bypass-Systems-CCJ-4Q-2003.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Catalysts (MDPI)](https://www.mdpi.com/journal/catalysts) | journal | global | open | full-text-open |
@@ -191,11 +188,8 @@
 | [Fig. 1.3 Schematic diagram of a CFB boiler — Design, Operation and Maintenance of CFB Boilers (Basu)](https://content.e-bookshelf.de/media/reading/L-3925765-5457caf33b.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Figure 1 — EDI Flow Schematic — Using EDI to Meet the Needs of Pure Water Production](https://www.gevernova.com/gev/sites/default/files/tdindia/GE-EDI-pure-water-production.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Figure 1 — Ion exchange / reverse osmosis makeup-water treatment schematic — Boiler Feedwater Treatment applic](https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/hps/products/pmc/process-instruments/analytical-instruments%26sensors/conductivity/pmt-hps-Power-Plant-Feedwater-Treatment-Application-Note.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
-| [Figure 1 — Typical PFD for an Instrument Air Supply System](https://enggcyclopedia.com/2012/02/typical-pfd-instrument-air-supply-system) | oem-supplier | global, na | open | summary-only |
 | [Figure 1. Flow sheet of process model without supplementary firing — Flexible operation of combined cycle gas ](https://papers.itc.pw.edu.pl/index.php/JPT/article/download/1056/825/0) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Figure 2 — Flow schematic of a gas booster unit — Fuel Gas Booster Skid Systems](https://epcmholdings.com/fuel-gas-booster-skid-systems) | oem-supplier | global, na | open | summary-only |
-| [Figure 2-1 — Basic system schematic, Instrument Air Systems: A Guide for Power Plant Maintenance Personnel (NP](https://www.nrc.gov/docs/ml0037/ml003767039.pdf) | agency-data | global, na | open | summary-only (unverified) |
-| [Figure 2-11 Pilot Gas Train; gas fuel flow diagram — Cleaver-Brooks CB-250/350 hp Boiler Operation, Service an](https://boilerpage.com/wp-content/uploads/2025/03/Cleaver-Brooks-CB-250-350hp-Boiler-Manual.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Figure 2. Process flow diagram — Thermodynamic analysis of supplementary firing in an unfired HRSG (Khoy CCPP ](https://caravelpress.com/proceedings/set/papers/2011.261/set.2011.261.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Figure 3 — Piping and instrumentation diagram of a typical CEDI skid — Continuous electrodeionization for boil](https://prod.xylem.com/siteassets/brand/evoqua/resources/white-papers/continuous-electrodeionization-for-boiler-feed-water.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Figure 3 — Schematic diagram of advanced SNCR applied to Lancaster County MWC (with NOx and NH3 CEMS)](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100P73S.TXT) | agency-data | global, na | open | summary-only (unverified) |
@@ -265,20 +259,16 @@
 | [SCC Inc.](https://scccombustion.com/products/variable-frequency-drives-vfd) | oem-supplier | global, na | open | summary-only |
 | [Schematic diagram of a CFB boiler (Fig. 1.3) — Combustion and Gasification in Fluidized Beds](https://s3-euw1-ap-pe-df-pch-content-store-p.s3.eu-west-1.amazonaws.com/9780429075018/67b1bae2-6a8e-4c6a-93dd-f5de42ce55c9/preview.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Science and Technology for Energy Transition (STET, IFPEN)](https://www.stet-review.org/) | journal | global | open | full-text-restricted |
-| [SCR Process Flow Diagram — Figure 2.1, Chapter 4.2 NOx Post-Combustion Selective Catalytic Reduction](https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch2.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [SNCR Boiler Gas Path Configuration (Figure 1.2) and Urea SNCR Process Flow Diagram (Figure 1.9) — Chapter 1 Se](https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch1.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [Sootblower and boiler cleaning terminology, principles and applications](https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications) | oem-supplier | global, na | open | summary-only |
 | [SUEZ](https://www.suez.com/-/media/suez-global/files/press-release/pdf-english/pr_suez_completes_the_acquisition_of_lanxess_membrane_portfolio_04012021_.pdf) | oem-supplier | global, na | open | summary-only |
 | [SVI BREMCO](https://svi-bremco.com/gas-path-solutions/industrial-noise-control/industrial-pipe-lagging-silencers/) | oem-supplier | global, na | open | summary-only |
 | [SVI BREMCO](https://svi-bremco.com/gas-path-solutions/industrial-noise-control/steam-vent-silencers/) | oem-supplier | global, na | open | summary-only |
-| [SVI BREMCO — Gas Path Solutions - gas turbine silencers, vent/absorptive/reactive silencers, acoustical lagging systems](https://svi-bremco.com/gas-path-solutions/) | oem-supplier | global, na | open | summary-only |
 | [Thermaxx Jackets (Specialty Distribution Group, LLC) — Boiler Door and Drum Cover Insulation Jackets](https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/) | oem-supplier | global, na | open | summary-only |
 | [Thorburn Flex](https://thorburnflex.com/pdf/Duct-Flex-%202018.pdf) | oem-supplier | global, na | open | summary-only |
 | [TMEIC](https://tmeic.com/wp-content/uploads/2025/05/PowerGenSolutionsI-5003-Feb2019.pdf) | oem-supplier | global, na | open | summary-only |
 | [Turbomachinery and Pump Symposia (Texas A&M)](https://tps.tamu.edu/) | conference | global | open | full-text-restricted |
 | [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | summary-only |
-| [Typical arrangement of flue gas treatment and CEMS at an SCR-equipped engine (SCR/SNCR and CEMS functional sch](https://leap.epa.ie/docs/118948d5-4f92-4cda-893b-5a4f751c8f4b.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
-| [Typical CEMS for Multiple Parameter Monitoring — Figure 4.1, Chapter 4 Section 2 Monitors](https://www.epa.gov/sites/default/files/2020-07/documents/cs2ch4.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [Typical P&ID of Instrument Air — Instrument & Service Air System engineering whitepaper](https://azure-na-assets.contentstack.com/v3/assets/blta3c1d56420975795/bltb117df1445da53a7/692b646d060471ba9feb9f87/01072021_WP_Power_v2.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Typical schematic for ammonia unloading, storage, distribution & vaporization system (SCR), ANAM-400.0](https://ifs.marioninteractive.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [UK Health and Safety Executive (offshore and COMAH)](https://www.hse.gov.uk/) | agency-data | eu, global | open | full-text-open |

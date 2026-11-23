@@ -1,0 +1,28 @@
+{
+  "id": "esource-com-white-paper-what-technologies-are-competing-solve-powe",
+  "name": "Tesla",
+  "url": "https://www.esource.com/white-paper/what-technologies-are-competing-solve-power-challenges-ai-data-center-load-management",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Esource.Com",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Only a third-party reference to a Tesla proposal (~30 ms grid-forming BESS response); no Tesla product page read. Record as weak evidence. Evidence: https://www.esource.com/white-paper/what-technologies-are-competing-solve-power-challenges-ai-data-center-load-management"
+}

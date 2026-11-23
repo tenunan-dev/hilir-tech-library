@@ -8,6 +8,32 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.24.4] — 2026-11-24 — Gas-engine power for data centres
+
+Owner-directed expansion of the power/data-centre categories with strict, page-read evidence.
+
+### Added
+- **19 equipment records** for gas-engine power plants and their data-centre integration: prime mover,
+  alternator, packaged genset/enclosure, cooling, lube oil, fuel gas, exhaust/emissions, starting and
+  instrument air, paralleling controls, switchgear/ATS, waste-heat absorption chiller, foundations and
+  vibration isolation, fire/gas detection, drainage and spill containment, data-centre power
+  architecture, UPS/flywheel, BESS bridging, load banks and cooling utilities.
+- **69 sources**, **20 vendors**, **24 product lines**, **14 named plants** and **16 PFD/P&ID/schematic
+  pointers**. The `pwr-gas-engines` and `idc-behind-the-meter-gas` cards were extended.
+- Evidence includes the Cummins gas power plant manual, MWM design/installation guide, Schneider/Wärtsilä
+  White Paper 286, Wärtsilä 50SG/34SG, INNIO Jenbacher J920, ComAp InteliGen 1000, Uptime Institute Tiers,
+  EPA data-centre engine rules and Thermax absorption chillers.
+
+### Verification
+`tools/build.py` 831 sources / 392 cards / 616 vendors / 100 equipment / 331 projects / 93 products /
+50 drawings; `pytest -q tests` **1,616 passed, 13 skipped**; Neon reloaded with 5,107 nodes, 16,137 edges
+and 15,605 vectors.
+
+### Gaps
+No independently fetched figures for ABB/Eaton switchgear, cooling-tower duty, starting-air ratings,
+gas-train setpoints or measured PUE — recorded on the relevant equipment records rather than estimated.
+
+
 ## [2026.11.24.3] — 2026-11-24 — Supporting boiler systems, product catalog and PFD/P&ID layers
 
 Owner-directed expansion of the boiler work into balance-of-plant systems and two new database categories.

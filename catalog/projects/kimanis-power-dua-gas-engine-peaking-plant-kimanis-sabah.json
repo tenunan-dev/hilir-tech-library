@@ -1,0 +1,44 @@
+{
+  "id": "kimanis-power-dua-gas-engine-peaking-plant-kimanis-sabah",
+  "name": "Kimanis Power (Dua) gas-engine peaking plant, Kimanis, Sabah",
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "IDC"
+  ],
+  "description": "Malaysia's first large-scale (utility-scale) gas engine facility; 21-year PPA with Sabah Electricity; EPCC consortium Synerlitz (Malaysia), China Energy Engineering Group Guangxi Electric Power Design Institute and CEEC Guangxi Electric Power (Malaysia); RM580 million Sukuk Wakalah facility rated AA1/Stable by RAM; with sister 285 MW CCGT plant supplies about one-third of Sabah installed capacity. page_read:true (WebFetch 2026-11-24). Corroborated by Everllence release https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants (page_read:true).",
+  "capacities": [
+    {
+      "metric": "power generation",
+      "value": 100.0,
+      "unit": "MW",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.ram.com.my/pressrelease?prviewid=7207",
+        "source_id": "ram-com-my-www-ram-com-my-pressrelease"
+      }
+    }
+  ],
+  "technologies": [
+    "pwr-gas-engines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ram.com.my/pressrelease?prviewid=7207",
+      "source_id": "ram-com-my-www-ram-com-my-pressrelease"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed commissioning dates and owner/contractor roles",
+      "why": "Not consistently stated on the read page.",
+      "next_action": "Read the project's primary announcement for dated milestones."
+    }
+  ],
+  "notes": "page_read:true (WebFetch 2026-11-24). Corroborated by Everllence release https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants (page_read:true).",
+  "last_reviewed": "2026-11-24"
+}

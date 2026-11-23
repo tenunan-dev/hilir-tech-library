@@ -1,6 +1,6 @@
 # Equipment catalog
 
-81 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+100 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -89,6 +89,37 @@ Vendors: Veolia, Cambi AS, Xergi A/S (1 model lines recorded).
 Recorded gaps:
 
 - per-project digester sizes — Collect digester sizes from reference projects
+
+## architecture
+
+### Data-centre power architecture and tier/redundancy (data-centre-power-architecture)
+
+Primary code: IDC: Data centres
+Data-centre power architecture and tier/redundancy (N, N+1, 2N, distributed redundancy) | Standards and guidance for data-centre standby/prime generation | Data-centre power integration (gas-engine off-grid / BTM microgrid)
+Vendors: Schneider Electric, Vertiv, Eaton, Caterpillar, Schneider Electric, INNIO Jenbacher (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Tier I-IV definitions | Tier I basic UPS + engine generator; Tier II redundant capacity components; Tier III concurrently maintainable with redundant distribution paths; Tier IV fault tolerant with multiple independent, physically isolated systems classification | Uptime Institute Tier Classification System; Tiers progressive; Tier definitions set in the Tier Standard: Topology; 4300+ certifications issued in 120+ countries |
+| EPA emergency-engine non-emergency hours | 50 h/year | EPA Clean Air Act Resources for Data Centers: certain emergency engines may operate 50 hours/year in non-emergency situations under 40 CFR 63.6640(f)(3)-(4), 60.4211(f)(3), 60.4243(d)(3) |
+| EPA default assumption for emergency-generator potential to emit | 500 h/year | EPA page quoting 1995 PTE guidance: '500 hours is an appropriate default assumption for estimating the number of hours that an emergency generator could be expected to operate under worst-case conditions'; alternatives case-by-case |
+| Applicable US emission rules for data-centre engines | 40 CFR part 60 subparts IIII (stationary compression-ignition) and JJJJ (stationary spark-ignition); 40 CFR part 63 subpart ZZZZ (RICE NESHAP); 40 CFR part 60 subpart TTTT (GHG for electric generating units); NSPS for stationary gas/combustion turbines regulation set | EPA Clean Air Act Resources for Data Centers page |
+| 2026 DOE 202(c) emergency orders effect on engine hours | Operation under these emergency orders does not count toward the 50 h non-emergency allowance regulatory interpretation | EPA alert: spring/summer 2026 DOE orders directing RTOs to require data centres/large loads to run backup generation as last resort before Energy Emergency Alert Level 3 |
+| Uptime Tier certification scale | Over 4,300 Tier Certifications issued in 120+ countries count | Uptime Institute Tier Classification System page |
+| Study availability target | 99.999% (about five minutes downtime per year); avoided event = loss of power to IT servers for more than 20 ms % / minutes / ms | Schneider Electric White Paper 286, electrical design section |
+| Engine plant start / load acceptance (10 MW medium-speed gas engine) | start, synchronise and reach nominal speed within 15 s; additional 35 s to support site full load; steps of about 20% of nominal output seconds / % | Schneider Electric White Paper 286, 'Gas engine attributes important for large data centre applications' and Figure 4 start-up curves |
+| Example 10 MW-class plant configuration | 9 gas generator units (7+2 redundancy), four data-centre buildings at 17.5 MW each, 15 kV MV switchgear, 18 MVA grid backup for Block 1 only units / MW / kV / MVA | Schneider Electric White Paper 286, electrical distribution architecture and Figure 7 |
+| Data-centre cooling share / CCHP efficiency claim | cooling usually accounts for up to 40% of a data centre's energy requirements; Jenbacher CCHP electrical + thermal efficiency up to 95%; pipeline-gas CCHP can cut DC CO2 footprint by up to 50% depending on energy mix and save >20% primary energy % | INNIO Jenbacher Data Centers industry page (vendor claims) |
+| Wärtsilä DC plant scale / deployment claim | power plants of 10-23 MW engines can provide over 450 MW; large-scale plants operational 12 months after manufacturing completion; CAPEX stated 20-30% lower including primary + reserve capacity MW / months / % | Wärtsilä Data center power solutions page (vendor claims) |
+
+
+Recorded gaps:
+
+- No independently published, non-vendor comparison of 2N vs distributed-redundancy availability for gas-engine-fed (rather than diesel-fed) data centres — Search Uptime Institute journal / IEEE/IET literature for measured availability of BTM gas-engine data-centre power architectures
+- Short-circuit ratings for a gas-engine plant bus tied into an existing data-centre 2N topology — Obtain site-specific fault study; no generic figure accepted
+- ASHRAE-specific guidance for data-centre standby/prime generation — Fetch ASHRAE datacom series / ANSI-ASHRAE 9.9 or ASHRAE Journal articles on on-site generation and note exact document titles and dates
+- IEEE standards specific to data-centre genset integration (e.g. IEEE 446, IEEE 1100) exact editions and clauses — Fetch IEEE Xplore standards pages and record designation, year and scope
+- Malaysia/Singapore national equivalents of NFPA 110 / emissions limits for prime gas engines at data centres — Fetch DOE Malaysia, EMA Singapore and local environmental department guidance
 
 ## biogas-upgrading
 
@@ -461,6 +492,55 @@ Recorded gaps:
 - Ammonium sulfate concerns in gas-fired HRSGs specifically (as opposed to coal air preheaters) only partly evidenced — Find HRSG-specific catalyst SO2/SO3 conversion and ABS dew-point guidance for gas turbine exhaust with low sulfur.
 - No reagent storage tank sizes, material specifications or safety distances evidenced — Fetch an ammonia storage/delivery system datasheet or CCJ 'Ammonia delivery mod' best-practice article.
 
+## chiller
+
+### Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres (gas-engine-waste-heat-chiller)
+
+Primary code: PWR: Power and renewables
+Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres
+Vendors: Thermax, Johnson Controls (YORK, Silent-Aire), Carrier (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Thermax exhaust-gas absorption chiller capacity | 50-3000 TR (refrigeration tons) | Thermax Exhaust Gas-Driven Absorption Chiller-Heater technical data; page header also states 30 TR to 3000 TR / 100 kW to 9 MW |
+| Thermax exhaust-gas absorption chiller COP | 1.53 COP (cooling) | Thermax product page: cooling COP up to 1.53; up to 40% heating-energy savings and 20% water savings claimed |
+| Thermax exhaust temperature and output temperatures | Exhaust 250-600 C; chilled water -5 to 35 C; hot water up to 110 C deg C | Thermax product page technical data; double-effect design based on exhaust temperature; LiBr-water solution |
+
+
+Recorded gaps:
+
+- Measured COP and heat-recovery rate for absorption chillers coupled specifically to a named gas engine model at a data centre — Request thermodynamic datasheet from engine OEM and chiller vendor for a specific engine exhaust mass flow/temperature
+- Thermax capacity discrepancy (30-3000 TR header vs 50-3000 TR table) — Query Thermax for a certified capacity table; do not choose either value silently
+
+## civil
+
+### Drainage, spill containment and wastewater (gas-engine-drainage-spill)
+
+Primary code: PWR: Power and renewables
+Drainage, spill containment and wastewater
+Vendors: Wärtsilä (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Concrete pad / spill containment | reinforced concrete, 28-day compressive strength at least 2500 psi (17,236.89 kPa); pad at least 6 in (150 mm) deep and extending at least 9 in (230 mm) beyond skid on all sides; serviceability and spill containment to be considered psi / mm | Cummins Gas Power Plant Application Manual, section 3.6.5.2 |
+| Oil overflow and waste oil | overflow pipe on make-up tank in case of level sensor failure; overflow oil routed to receptacle to avoid spills; waste lube oil tank recovers used oil before recycling/off-site disposal qualitative | Cummins Gas Power Plant Application Manual, sections 3.2.4.2 and 3.2.2 |
+| Exhaust condensate drainage | piping must slope down and away from exhaust turbo and include condensate drains; rain cap/trap may be needed on vertical outlets (freeze risk noted) qualitative | Cummins Gas Power Plant Application Manual, exhaust system section |
+
+
+### Foundations, plinths and vibration isolation (gas-engine-foundation-vibration)
+
+Primary code: PWR: Power and renewables
+Foundations, plinths and vibration isolation
+Vendors: Cummins Inc. (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Pad levelness / flatness | 0.25 inch (6.35 mm) | Cummins Gas Power Plant Application Manual section 3.6.5.1: mounting pad or piers level and flat within 0.25 in (6.35 mm); isolate from rest of concrete flatwork with flexible caulking |
+| Massive foundation ratio | at least 1.5 times installed equipment weight | Cummins Gas Power Plant Application Manual section 3.6.5.1: further vibration control with massive mounting foundation at least 1.5x weight of installed equipment |
+| Steel spring isolator damping | ?-98 % of generator set vibration energy | Cummins Gas Power Plant Application Manual section 3.6.5.3: lean-burn natural gas gensets come standard with steel spring isolators which 'can dampen up to 98%' of vibration energy |
+| Pad concrete strength and geometry | 28-day compressive strength at least 2500 psi (17,236.89 kPa); depth at least 6 in (150 mm); extends at least 9 in (230 mm) beyond skid on all sides psi / mm | Cummins Gas Power Plant Application Manual section 3.6.5.2 |
+
+
 ## clarifiers-thickeners
 
 ### Clarifiers and thickeners (wwt-clarifiers-thickeners)
@@ -614,6 +694,68 @@ Recorded gaps:
 
 - trip logic and proof-of-closure arrangements for specific boiler makes — Read the burner OEM's BMS sequence matrix and NFPA 85 (primary text is paywalled).
 
+### Engine control / genset controller / paralleling controls / protection relays / synchronising (gas-engine-controls-paralleling)
+
+Primary code: PWR: Power and renewables
+Engine control / genset controller / paralleling controls / protection relays / synchronising | Power monitoring / DCIM / microgrid and genset paralleling controllers
+Vendors: ComAp, Woodward, Basler Electric, Deep Sea Electronics, DEIF, Schneider Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Genset paralleling capacity | 1-32 gensets | Woodward easYgen-3000XT isochronous operation; functions include synchronization, protection, AVR, configurable PIDs, genset automation, load and power factor control |
+| Generator/mains voltage range | 15-415 V AC phase-to-neutral | Deep Sea DSE7320 MKII generator and mains sensing; 25-720V phase-to-phase; frequency 3.5-75 Hz |
+| Excitation current | 10000 A DC | Basler DECS-2100 digital excitation control system, up to; controls/protects/monitors synchronous generators and motors |
+| ComAp InteliGen 1000 coordinated units | 64 additional gen-sets/mains/tie controllers | ComAp InteliGen 1000 product page: CAN FD inter-controller communication, up to 64 additional controllers; ISA 62443 level 2-3 security; hot-swap and CAN redundancy (software key); 3x Ethernet Modbus TCP/SNMP, 1x RS-485 Modbus RTU; enclosure 262x182x47 mm |
+| ComAp InteliGen 1000 functions | Automatic mains failure, start-up synchronisation, kW/kVAr sharing, dynamic spinning reserve, peak shaving, load shedding, droop regulation, user-defined protections function set | ComAp InteliGen 1000 product page extended feature list; compliant with EN 50549, VDE-AR-N 4105/4110, G99, TOR, IEEE 1547 |
+| ComAp bank-controller scalability | 63-4032 controllable units | ComAp extended feature 'Bank controller': up to 63 source controllers under one bank controller, up to 64 bank controllers on a common bus, theoretical maximum 4,032 control units |
+
+
+Recorded gaps:
+
+- Full IEC 61850 / protection-relay model list for MV gas-engine switchgear — Fetch ABB/Siemens/Schneider protection relay and switchgear datasheets
+- Site-specific grid-code certification for a named Jenbacher/Wartsila installation — Fetch project grid-code compliance statements
+- DEIF and Woodward specific genset/microgrid controller models and specs — Fetch official DEIF and Woodward product pages and record model numbers with URLs
+- Evidence that a specific data centre uses a named paralleling controller with gas engines — Seek case studies from ComAp/DEIF/Woodward with named sites
+
+## cooling
+
+### Cooling utilities for the data centre directly coupled to the gas-engine energy story (data-centre-cooling-utilities)
+
+Primary code: IDC: Data centres
+Cooling utilities for the data centre directly coupled to the gas-engine energy story
+Vendors: Johnson Controls (YORK, Silent-Aire), Vertiv, Trane (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Cooling utilities for the data centre directly coupled to the gas-engine energy story | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Actual cooling-system water consumption and COP at a gas-engine-powered data centre — Seek operator sustainability reports with measured WUE for JAK2 or similar sites
+
+### Engine cooling: jacket-water system, radiator, cooling tower, heat exchanger, circulating pumps (gas-engine-cooling-system)
+
+Primary code: PWR: Power and renewables
+Engine cooling: jacket-water system, radiator, cooling tower, heat exchanger, circulating pumps | Cooling water / cooling towers (open and closed) and heat rejection | Closed-loop jacket water / HT and LT circuits, expansion and monitoring
+Vendors: INNIO Jenbacher, Wärtsilä, Cummins Inc., MWM / Everllence, MWM / Everllence (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Heat-recovery design temperatures | 70 / 90 degC return / hot water | Jenbacher J920 FleXtra CHP module; heating-water circuit with 70C return and 90C+ hot water for ~94% total efficiency |
+| Radiator design | flat fins / appropriate fin distance qualitative | Jenbacher cooling system (radiators) BOP: sufficient surface area and cooling capacity, easy cleaning; special coatings/materials near coast; special soldering/heating for extremely cold environments |
+| CHP total efficiency | 95 % | Jenbacher Type 6 CHP module, up to; engine and alternator on frame, control panel, gas train, heat exchangers including exhaust-gas heat exchanger |
+| Cooling tower with heat exchanger; water treatment obligations | Cooling towers typically used with heat exchangers; chemical water treatment, make-up system, discharge and special maintenance must be planned qualitative | Cummins Gas Power Plant Application Manual A049Z057 section 3.1.9.2; Figure 24 'Tower cooling system connection to generator set' |
+| Closed-loop cooling process water consumption (data-centre application) | ?-<5 litres/hour | Wärtsilä Data center power solutions: closed-loop cooling with water-to-air radiators keeps process water consumption near zero; 'consume less than 5 liters (1.3 gallons) of water per hour' |
+| Ambient operating range / altitude (same closed-loop plant) | -45-50 deg C | Wärtsilä Data center power solutions: full power from -45 C to 50 C; 100% output above 1,200 m altitude |
+| Cooling system functions (fill/drain/vent) | maintain temperature at design flow, maintain design pressure, accommodate expansion/contraction/overfill/loss, provide vent path for entrapped air, provide fill/drain/sample points qualitative | Cummins Gas Power Plant Application Manual, section 3.1 cooling system introduction |
+
+
+Recorded gaps:
+
+- Radiator thermal duty, design ambient, coolant flow and pump head for a named engine — Fetch Jenbacher Type 6 engine type sheet PDF (innio.com/images/medias/files/167/...) with a PDF reader
+- Cooling tower and circulating-pump vendor/models — Fetch EVAPCO/Baltimore Aircoil/SPX cooling tower data centre brochures
+
 ## crah
 
 ### Data centre CRAH/CRAC room cooling (air side) (crah-room-cooling)
@@ -738,6 +880,36 @@ Recorded gaps:
 - SCR ammonia-slip guarantee and catalyst life for gas-fired package boilers — Read an OEM SCR data sheet with slip, catalyst volume and temperature window.
 - which of the Cleaver-Brooks SCR 1 ppm / 2 ppm statements is current — Confirm with the OEM or an updated product sheet.
 
+## engine
+
+### Gas engine prime mover (gas-engine-prime-mover)
+
+Primary code: PWR: Power and renewables
+Gas engine prime mover (lean-burn / stoichiometric spark-ignition / dual-fuel; cylinders, turbochargers, intercoolers)
+Vendors: Wartsila Energy, INNIO Jenbacher, Everllence, MAN Engines, Rolls-Royce Power Systems (mtu), Caterpillar (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Rated electrical power | 18834 kW | Wartsila 50SG 18V50SG, 50Hz, generator terminals, 100kPa ambient, 25C suction air, 30% RH, without engine-driven pumps, PF 1.0 |
+| Electrical efficiency | 50.2 % | Wartsila 50SG 18V, 50Hz, same reference conditions; stated with 5% tolerance |
+| Cylinder bore / stroke | 500 / 580 mm | Wartsila 50SG, 18V configuration; engine speed 500 rpm (50Hz) / 514 rpm (60Hz) |
+| Rated electrical power range | 5840-9795 kW | Wartsila 34SG, 12V/16V/20V, 50Hz, generator terminals, 100kPa, 25C, 30% RH, PF1.0 |
+| Electrical output | 10606 kW | INNIO Jenbacher J920 FleXtra genset, 50Hz, natural gas, output at generator terminals, DIN ISO 3046/DIN 6271, +5% tolerance, NOx basis 250/500 mg/Nm3 @5% O2 dry |
+| Electrical efficiency | 48.7 % | Jenbacher J920 FleXtra, up to, 50/60Hz, generator terminals, ISO 3046 basis, NOx 250/500 mg/Nm3 @5% O2 dry |
+| Electrical output | 4499 kW | Jenbacher Type 6 (J624), up to, 50Hz, generator terminals, DIN ISO 3046 / DIN 6271, +5% tolerance, NOx 250/500 mg/Nm3 @5% O2 dry |
+| Engine speed | 1500 rpm | Jenbacher Type 6, 50Hz; 1500 rpm with gearbox for 60Hz; mean piston speed 11 m/s at 1500 rpm (Type 6 fact sheet, search-verified) |
+| Mechanical output | 12900 kWm | Everllence (ex-MAN) 35/44G and 35/44G TS, up to; 720/750 rpm; 60/50 Hz |
+| Mechanical output | 20700 kWm | Everllence 51/60G and 51/60G TS, up to; 500/514 rpm; 50/60 Hz |
+| Power range | 37-750 kW | MAN Engines natural-gas engine programme (E0834-E3872), continuous operation; special gas 68-750 kW; overall efficiency >90% |
+| Electrical power range | 776-2547 kWe | Rolls-Royce mtu gas gensets, 50Hz (60Hz 30-2,522 kWe); Time Before Overhaul 84,000 h |
+
+
+Recorded gaps:
+
+- Stoichiometric/rich-burn three-way-catalyst engine-out NOx/CO figures for the named large-bore engines — Fetch Cat G3500H/G3516H rich-burn TWC specification sheet and Jenbacher rich-burn factsheet
+- Intercooler/charge-air cooler duty, approach temperature and pressure drop — Fetch Jenbacher Type 6 engine type sheet or Wartsila 50SG leaflet (wartsi.ly/41mQHgo)
+- Named dual-fuel liquid-fuel day-tank sizing — Fetch Everllence 51/60DF fact sheet
+
 ## evaporator-crystallisers
 
 ### ZLD evaporators and crystallisers (wwt-evaporator-crystallisers)
@@ -756,6 +928,34 @@ Vendors: Aquatech International, Veolia (1 model lines recorded).
 Recorded gaps:
 
 - per-model m3/d ranges — Read Aquatech/Veolia HPD model pages
+
+## exhaust
+
+### Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints (gas-engine-exhaust-emissions)
+
+Primary code: PWR: Power and renewables
+Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints | Emissions control: oxidation catalyst, SCR, NOx/CO figures | Exhaust stacks, silencers and emission after-treatment
+Vendors: INNIO Jenbacher, Johnson Matthey, Burgess-Manning (CECO Environmental), SVI BREMCO (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| BOP elements | Activated carbon absorber; exhaust gas silencer; exhaust gas heat exchanger qualitative | Jenbacher Type 6 and J920 Balance of Plant element lists |
+| NOx reduction | 95-? % (greater than) | Johnson Matthey SCR systems for stationary diesel and gas engines; can be coupled with ammonia-slip or oxidation catalyst for CO, HC, NH3 and VOCs |
+| Converter power range | 50-500 HP | Johnson Matthey Modulex C catalytic converter, stainless steel; Modulex B 250-2250 HP carbon/stainless; DualOx 2000 HP and larger |
+| NOx emission basis | 250 / 500 mg/Nm3 @ 5% O2 dry exhaust | Jenbacher Type 6 and J920 published technical data; engine/genset emissions setting |
+| NOx reduction vs Tier 2 diesel | 95-? % (greater than) | Jenbacher 100% hydrogen data-centre generator option; search-verified? NO - value is on the fetched Jenbacher data-centre page |
+| Exhaust routing height | 8-? feet (2.3 m) above (personnel-work areas / combustible surfaces context) | Cummins Gas Power Plant Application Manual, exhaust section: route exhaust piping at least 8 feet (2.3 metres) above... (qualifier as printed in the manual) |
+| Carbon steel exhaust thermal expansion | 0.0078 inches per foot of pipe per 100 deg F rise (1.17 mm per metre per 100 deg C) mm per m per 100 deg C | Cummins Gas Power Plant Application Manual, exhaust section; expansion joints required in long straight runs and every change of direction |
+| Catalyst / SCR notes | oxidation catalyst located as close to engine as possible; catalyst bypass at start-up to protect from high exhaust temperatures; DEF approx. one-third urea and two-thirds water; SCR costly, heavy, needs careful doser sizing and ammonia-slip control qualitative | Cummins Gas Power Plant Application Manual, exhaust after-treatment section |
+| Burgess-Manning preset vent silencer sizes | inlet diameter 2-12 in; casing diameter 8-24 in; standard design temperature 250 deg C; enhanced noise attenuation up to 50+ dB (typical, no guaranteed attenuation) inch / deg C / dB | Burgess-Manning Preset Vent Silencers product page, Technical Data / Design sections |
+
+
+Recorded gaps:
+
+- Silencer insertion-loss spectrum, exhaust backpressure and expansion-joint specification — Fetch a silencer/expansion-joint OEM datasheet (e.g. Veeder-Root/AMF/Beair)
+- Combustion-air intake filtration classes for gas engines specifically — Fetch Jenbacher/Wartsila air-intake BOP datasheets
+- CO and formaldehyde outlet figures with explicit basis (mg/Nm3, O2, temperature) — Fetch JM power-generation brochure PDF and Jenbacher EPA Tier 4 factsheet with a PDF reader
+- Catalyst poison limits for siloxanes/sulphur in biogas — Fetch Wartsila 50SG leaflet and JM fuel-specification guidance
 
 ## fan
 
@@ -878,6 +1078,80 @@ Vendors: Spirax Sarco, TLV, Cleaver-Brooks (0 model lines recorded).
 Recorded gaps:
 
 - feedpump head, NPSH and duty for the packaged boiler lines — Read a feedpump selection sheet for a stated boiler duty.
+
+## fuel-gas
+
+### Fuel gas system: pressure regulation, gas train, filters, scrubbers, booster/compressor, day tank (gas-engine-fuel-gas-system)
+
+Primary code: PWR: Power and renewables
+Fuel gas system: pressure regulation, gas train, filters, scrubbers, booster/compressor, day tank (liquid) | Fuel gas storage, compression, drying and pressure-reduction train
+Vendors: INNIO Jenbacher, Everllence, Woodward, AERZEN (Aerzener Maschinenfabrik GmbH), Cummins Inc., Schneider Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Fine filter rating | 3 um | Jenbacher gas train, 3 micrometre fine filter as a security filter; part of minimum scope of supply |
+| Hydrogen admixture (pipeline gas) | 25 vol % | Jenbacher 'Ready for H2' option, up to 25 vol% hydrogen in pipeline gas; data-centre page |
+| Hydrogen admixture | 25 % | Everllence 51/60G and 35/44G TS gas mixture; gas fuel engines overview |
+| Gas filter rating | 50 micron | Cummins Gas Power Plant Application Manual section 3.4.3.1: 'This is a 50 micron rating filter used for all gases and air' |
+| Regulator outlet pressure (adjustable range) | 100-160 mbar | Cummins Gas Power Plant Application Manual section 3.4.3.1: regulator output pressure generally adjustable between 100 and 160 mbar |
+| Regulator inlet pressure (general range) | 1.25-4.0 bar | Cummins Gas Power Plant Application Manual section 3.4.3.1: depends on valve seat diameter of the pressure regulating valve |
+| LNG storage volume for 12 h operation of one 10 MW engine | ?-<50 m³ (~1,700 ft³) | Schneider Electric White Paper 286, section 'Storing gas on site for increased availability': less than 50 m³ sufficient for 12 hours at 10 MW; LNG kept below -162 C in insulated cryogenic tanks |
+| On-site fuel storage design requirement (hyperscale DC study) | 48 hours at full load capacity hours | Schneider Electric White Paper 286, 'A gas power plant architecture overview': study set the on-site gas storage requirement at 48 h assuming full load |
+| Gas distribution redundancy | fully redundant 2 x 100% gas distribution; physically separated main feeders; LNG storage A/B with pressure reduction stations A/B; gas-leak sections automatically isolated qualitative | Schneider Electric White Paper 286, 'Gas supply system architecture' and Figure 10 |
+| Medium-speed engine gas admission pressure | 6-7 bar (85-100 psi) | Schneider Electric White Paper 286, 'Gas engine technology': medium-speed engines supply gas individually to each cylinder inlet, requiring around 6-7 bar |
+| AERZEN GM-HP gas booster volume flow | 50-38000 m³/h | AERZEN product page Technical data: High Pressure Gas Booster Series GM-HP, positive displacement blowers, oil-free conveying of process gases |
+| AERZEN GM-HP differential pressure | 150-2000 mbar | AERZEN product page Technical data (1 or 2 stage design, separate pressurised oil lubrication, oil-free gas transport) |
+
+
+Recorded gaps:
+
+- Gas inlet pressure range, pressure-regulation setpoints, booster/compressor curve and scrubber sizing — Fetch gas-train data sheet from Jenbacher resource hub and a gas booster OEM datasheet
+- Liquid day-tank capacity for dual-fuel standby — Fetch Everllence 51/60DF fact sheet
+
+## generator
+
+### Generator / alternator (gas-engine-alternator)
+
+Primary code: PWR: Power and renewables
+Generator / alternator (synchronous, brushless, PMG excitation, AVR)
+Vendors: Mecc Alte, Cummins Generator Technologies, Basler Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Rating range | 800-1300 kVA | Mecc Alte ECO43, 4-pole brushless synchronous MV/HV, @50Hz / class H / 40C / PF0.8, referred to an 11kV unit; up to 13.8 kV |
+| Voltage | 13.8 kV | Mecc Alte ECO43/46/47/49 medium and high voltage, up to; 50/60Hz, 1500/1800 rpm; IP23 (up to IP45 on request for ECO43-47) |
+| Alternator rating range | 7.5-11200 kVA | Cummins STAMFORD / AvK alternators, combined range; HQ England, UK; operations in 116 countries |
+| Generator voltage | 10.5 / 11 kV | Jenbacher J920 FleXtra 50Hz genset scope of supply; 60Hz 480V-13.8kV |
+
+
+Recorded gaps:
+
+- Alternator efficiency and short-circuit withstand for the specific gas-genset voltage ratings — Fetch Mecc Alte ECO-series technical data sheets and STAMFORD AvK product selector
+- Confirm PMG use for large MV/HV gas gensets (>3 MVA) — Fetch Mecc Alte Quick Selection Guide REV 8.1 and Jenbacher J920 alternator data
+
+## genset
+
+### Skid / packaged genset and enclosure (gas-engine-packaged-genset-enclosure)
+
+Primary code: PWR: Power and renewables
+Skid / packaged genset and enclosure (containerised, outdoor, acoustic) | Acoustic enclosures and noise barriers
+Vendors: INNIO Jenbacher, Rehlko, Rolls-Royce Power Systems (mtu), Burgess-Manning (CECO Environmental) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Container length | 12192 mm | Jenbacher Type 2/3/4 generator container, standard 40 ft; width 8 ft (~2438 mm) or ~10 ft (~3000 mm); height 2591-2896 mm |
+| Sound pressure level | 65 dB(A) at 10 m | Jenbacher Type 2/3/4 container overall package, surface sound pressure level per DIN 45635; lower levels on request |
+| Ambient temperature range | -25-34 degC | Jenbacher Type 2/3/4 container standard ventilation; option for -40C and (most variants) +45C |
+| Type 6 container dimensions | 13,500-20,500 / 3,000-4,000 / ~7,500 mm L/W/H | Jenbacher Type 6 single-bank (two-module) container; main unit without roof-mounted equipment; capacity 1634-4507 kW |
+| Enclosure acoustic design measures | sound attenuation built into air inlet/outlet; linings of fibreglass, drywall with fibreglass, insulated perforated airfoils or foam; evaluate flame retardance and resistance to oil/contaminants; 90-degree duct bend reduces high-frequency noise; high-mass line-of-sight barriers (sand-filled cement block or brick) qualitative | Cummins Gas Power Plant Application Manual, Noise Attenuation Support (3.6.7) |
+| Enclosure doors and windows | shall meet the site noise reduction requirement qualitative | Cummins Gas Power Plant Application Manual, enclosure design section |
+| Vendor enclosure product families | Acoustic Enclosures, Acoustic Buildings, Acoustic Shrouds, Acoustic Walls and Noise Barriers, Acoustic Louvers, Acoustic Containers, Engine Test Cells product families (no figures) | Burgess-Manning product navigation and company page read this session |
+
+
+Recorded gaps:
+
+- Verified Rehlko POD enclosure sound and dimension table — Fetch the Rehlko POD PDF directly via a different fetch path or PDF reader
+- Bus duct and container fire-system specifications — Fetch Jenbacher container factsheet and Rehlko POD standard-features list
 
 ## granulator
 
@@ -1080,6 +1354,30 @@ Recorded gaps:
 
 - Cladding material/thickness and weatherproofing specifications for outdoor steam lines in Southeast Asia — Find boiler OEM or insulation contractor specification with cladding gauge, material and fastening details.
 - Numeric heat-loss chart values for insulated HRSG/boiler casings (as opposed to pipes) — Fetch a boiler/HRSG OEM thermal performance datasheet or ASTM C680 based calculation example.
+
+## lube-oil
+
+### Lube oil system: pumps, filters, coolers, sump (gas-engine-lube-oil-system)
+
+Primary code: PWR: Power and renewables
+Lube oil system: pumps, filters, coolers, sump | Lube-oil storage, transfer, filtration and make-up
+Vendors: INNIO Jenbacher, Rehlko, Cummins Inc. (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Scope inclusion | Lube oil supply system qualitative | Jenbacher Type 6 containerised solution, usual scope of supply; alongside container ventilation, cooling systems and control panel/gas train |
+| Lube oil grade | mono-grade SAE 40 (most Cummins lean-burn gas gensets); never use diesel engine oil in a natural gas engine SAE viscosity grade | Cummins Gas Power Plant Application Manual section 3.2.1 |
+| Service (day) tank base elevation above floor for gravity feed | 1-4 m | Cummins Gas Power Plant Application Manual section 3.2.3: tank base between 1 and 4 m above floor level for adequate gravity feed to engine sump |
+| Minimum oil make-up tank capacity | 100 litres (27 US gallons) | Cummins Gas Power Plant Application Manual section 3.2.4.2: design not specified but tank must contain a minimum of 100 liters; total capacity depends on expected running hours and genset datasheet oil consumption |
+| Make-up tank connection pipe internal diameter | 0.75-? inch I.D. minimum | Cummins Gas Power Plant Application Manual section 3.2.4.2: make-up tank mounted away from engine, connected by suitable pipework of at least 3/4 inch I.D. |
+| Fresh oil piping / siphon protection | pickled or cold-drawn pickled pipe; strainer and foot valve on storage tank suction; solenoid valve if service tank lower than storage tank to prevent siphon overfill qualitative design rule | Cummins Gas Power Plant Application Manual section 3.2.3 |
+| Lubrication system in common plant architecture | Lubrication System listed among power-plant common systems (alongside gas piping/pressure reduction, gas storage, electrical distribution, control, fire detection) qualitative | Schneider Electric White Paper 286, Figure 5 'A high-level presentation of the power plant components' |
+
+
+Recorded gaps:
+
+- Sump capacity, oil pump flow/pressure, filter micron ratings and cooler duty — Fetch OEM engine data sheets and lube-oil system P&IDs from Jenbacher customer portal (login required)
+- Named independent lube-oil pump/filter/cooler suppliers — Search and fetch OEM/specialist datasheets (e.g. Boleng, Facet, Hilliard)
 
 ## lv-switchboards
 
@@ -1482,6 +1780,20 @@ Recorded gaps:
 
 - code-specific setting and capacity certifies for ASME Section I versus EN 12953 — Verify against ASME BPVC Section I and EN 12953 before using these as design limits.
 
+### Fire protection and gas detection (gas-engine-fire-gas-detection)
+
+Primary code: PWR: Power and renewables
+Fire protection and gas detection
+Vendors: Wärtsilä (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Fire protection design requirements (genset enclosure) | design by competent licensed professional and reviewed by Cummins; uninterruptible emergency power for critical functions; smoke and heat detection in all non-sprinkled areas; alarms monitored 24/7 at constantly attended location qualitative | Cummins Gas Power Plant Application Manual, section 5.6.3 Fire Arrangements |
+| Minimum fire rating of enclosure boundaries | 1 hour (walls, shutters, ceiling, doors and windows) | Cummins Gas Power Plant Application Manual, section 5.6.3 |
+| Fire Detection System in plant common systems | listed as a common power-plant system and classified 'Non Critical' in the Schneider/Wärtsilä study (gas piping/pressure reduction, gas storage, electrical distribution, control system classified Critical) qualitative | Schneider Electric White Paper 286, Figure 5 |
+| Ventilation damper fire behaviour | gravity-type dampers close on actuator failure or loss of AC power, starving enclosure of air and helping extinguish fire; dampers to be used with screen qualitative | Cummins Gas Power Plant Application Manual, section 3.3 ventilation/dampers |
+
+
 ## separator
 
 ### Steam separators / dryers and steam headers (moisture carryover limits) (steam-separators-dryers)
@@ -1573,6 +1885,25 @@ Recorded gaps:
 
 - per-model capacities — Read Alfa Laval/Andritz/Flottweg model pages
 
+## starting
+
+### Starting system: starting air/motors, batteries (gas-engine-starting-instrument-air)
+
+Primary code: PWR: Power and renewables
+Starting system: starting air/motors, batteries | Compressed air / instrument air and starting air
+Vendors: Deep Sea Electronics, ComAp, Atlas Copco, Yokogawa Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| DC control supply | 8-35 V DC | Deep Sea DSE7320 MKII controller continuous supply range; cranking dropout survives 0 V for 100 ms if supply >=10 V before dropout and recovers to 5 V |
+| Instrument air / starting air in plant architecture | Instrument Air and Starting Air Unit are listed as generator-unit auxiliaries; starting air unit and controller unit are engine-dedicated in the study plant qualitative | Schneider Electric White Paper 286, Figure 5 and accompanying text |
+
+
+Recorded gaps:
+
+- Starting-air compressor/receiver and starter-motor power for large gas engines — Fetch Wartsila/Everllence starting-system datasheets or EPC specification
+- Battery capacity (Ah/CCA) for a named gas genset — Fetch a specific gas genset specification sheet
+
 ## steam-reformer
 
 ### Steam reformer (primary and secondary) (steam-reformer)
@@ -1625,6 +1956,24 @@ Recorded gaps:
 - Trap failure-mode distribution by boiler type (fire-tube vs HRSG vs CFB) — Locate plant-specific steam trap survey reports or EPRI/DOE case studies broken out by boiler type.
 - Monetised annual steam-trap loss with stated dollar year — Find a dated DOE/Armstrong publication and record dollar year and escalation basis.
 
+## storage
+
+### Battery energy storage / lithium-ion UPS / flywheels integrated with gensets for bridging and peak shaving (data-centre-bess-bridging)
+
+Primary code: IDC: Data centres
+Battery energy storage / lithium-ion UPS / flywheels integrated with gensets for bridging and peak shaving
+Vendors: Active Power (Piller group), Vertiv, Fluence, Tesla Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Battery energy storage / lithium-ion UPS / flywheels integrated with gensets for bridging and peak shaving | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- No verified datasheet for a Tesla BESS product specifically configured for data-centre UPS bridging — Fetch Tesla Megapack product page and NERC Large Loads Task Force presentation directly
+- Measured round-trip efficiency and degradation for Li-ion UPS vs flywheel in a hot, high-cycling AI load profile — Seek independent test or operator data
+
 ## switchgear
 
 ### Data centre medium-voltage switchgear (mv-switchgear-data-centre)
@@ -1644,6 +1993,41 @@ Recorded gaps:
 
 - rated current and short-circuit withstand per panel family — Read ABB UniGear and SafeRing datasheets for current/short-circuit figures
 - Schneider PIX/SM6 and Hitachi Energy model lines — Read both ranges and add model lines
+
+### Generator circuit breaker, LV/MV switchgear, bus ducts, ATS / CTTS (gas-engine-switchgear-ats)
+
+Primary code: PWR: Power and renewables
+Generator circuit breaker, LV/MV switchgear, bus ducts, ATS / CTTS
+Vendors: ABB, Eaton, ComAp, Cummins (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Generator circuit breaker, LV/MV switchgear, bus ducts, ATS / CTTS | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- All switchgear/GCB/ATS figures independently fetched — Use PDF-layout reader or terminal download, then re-record with page_read:true
+- Bus duct / busway manufacturer and ampacity range — Fetch ABB/Schneider/Eaton busway data-centre pages
+- Medium-voltage generator neutral grounding and earthing arrangements — Fetch project single-line diagrams or OEM switchgear guides
+
+## testing
+
+### Load banks, commissioning and testing equipment for gensets (data-centre-load-bank)
+
+Primary code: IDC: Data centres
+Load banks, commissioning and testing equipment for gensets
+Vendors: Avtron Power Solutions, Trystar, Buckeye Power Sales (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Load banks, commissioning and testing equipment for gensets | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Primary NFPA 110 standard text and exact clause numbers for load-bank test profiles — Consult NFPA LiNK or adopted edition via AHJ before specifying acceptance criteria
+- Load bank requirements specific to gas-engine (spark-ignition) prime plants running continuously rather than standby — Check engine OEM (INNIO/Wärtsilä) commissioning manuals for gas engine run-in procedures
 
 ## turbine
 
@@ -1688,6 +2072,21 @@ Recorded gaps:
 
 - efficiency per operating mode (double-conversion vs eco) — Read the EXL S1 datasheet efficiency tables and record per-mode figures
 - Schneider Galaxy VX/VL and Eaton 93PM capacity ranges — Read both vendor product pages and add model lines
+
+### UPS systems (data-centre-ups-flywheel)
+
+Primary code: IDC: Data centres
+UPS systems (double-conversion, modular, flywheel, lithium-ion)
+Vendors: Eaton, Vertiv, Schneider Electric, Active Power / Piller (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | UPS systems (double-conversion, modular, flywheel, lithium-ion) | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Measured field efficiency curves of high-efficiency UPS modes when fed by a gas engine with frequency variation — Look for independent test reports (LBNL/Uptime/IEEE) on UPS-generator interaction
 
 ## urea-reactor
 

@@ -1,0 +1,121 @@
+{
+  "id": "gas-engine-packaged-genset-enclosure",
+  "name": "Skid / packaged genset and enclosure",
+  "equipment_type": "genset",
+  "sector": "PWR",
+  "sector_codes": [
+    "HSE",
+    "IDC",
+    "MAT",
+    "PRC",
+    "PWR"
+  ],
+  "description": "Skid / packaged genset and enclosure (containerised, outdoor, acoustic) | Acoustic enclosures and noise barriers",
+  "specifications": [
+    {
+      "metric": "Container length",
+      "unit": "mm",
+      "basis": "Jenbacher Type 2/3/4 generator container, standard 40 ft; width 8 ft (~2438 mm) or ~10 ft (~3000 mm); height 2591-2896 mm",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+        "source_id": "jenbacher-com-containerized-solutions"
+      },
+      "value": 12192
+    },
+    {
+      "metric": "Sound pressure level",
+      "unit": "dB(A) at 10 m",
+      "basis": "Jenbacher Type 2/3/4 container overall package, surface sound pressure level per DIN 45635; lower levels on request",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+        "source_id": "jenbacher-com-containerized-solutions"
+      },
+      "value": 65
+    },
+    {
+      "metric": "Ambient temperature range",
+      "unit": "degC",
+      "basis": "Jenbacher Type 2/3/4 container standard ventilation; option for -40C and (most variants) +45C",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+        "source_id": "jenbacher-com-containerized-solutions"
+      },
+      "low": -25,
+      "high": 34
+    },
+    {
+      "metric": "Type 6 container dimensions",
+      "unit": "mm L/W/H",
+      "basis": "Jenbacher Type 6 single-bank (two-module) container; main unit without roof-mounted equipment; capacity 1634-4507 kW",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+        "source_id": "jenbacher-com-containerized-solutions"
+      },
+      "value": "13,500-20,500 / 3,000-4,000 / ~7,500"
+    },
+    {
+      "metric": "Enclosure acoustic design measures",
+      "unit": "qualitative",
+      "basis": "Cummins Gas Power Plant Application Manual, Noise Attenuation Support (3.6.7)",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "sound attenuation built into air inlet/outlet; linings of fibreglass, drywall with fibreglass, insulated perforated airfoils or foam; evaluate flame retardance and resistance to oil/contaminants; 90-degree duct bend reduces high-frequency noise; high-mass line-of-sight barriers (sand-filled cement block or brick)"
+    },
+    {
+      "metric": "Enclosure doors and windows",
+      "unit": "qualitative",
+      "basis": "Cummins Gas Power Plant Application Manual, enclosure design section",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "shall meet the site noise reduction requirement"
+    },
+    {
+      "metric": "Vendor enclosure product families",
+      "unit": "product families (no figures)",
+      "basis": "Burgess-Manning product navigation and company page read this session",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "value": "Acoustic Enclosures, Acoustic Buildings, Acoustic Shrouds, Acoustic Walls and Noise Barriers, Acoustic Louvers, Acoustic Containers, Engine Test Cells"
+    }
+  ],
+  "vendors": [
+    "innio-jenbacher",
+    "rehlko",
+    "rolls-royce-power-systems",
+    "burgess-manning-ceco-environmental"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+      "source_id": "jenbacher-com-containerized-solutions"
+    },
+    {
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+    },
+    {
+      "url": "https://burgessmanning.com/preset-vent-silencers/",
+      "source_id": "burgessmanning-com-preset-vent-silencers"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Verified Rehlko POD enclosure sound and dimension table",
+      "why": "Rehlko page returned HTTP 403 to WebFetch; only WebSearch snippet obtained",
+      "next_action": "Fetch the Rehlko POD PDF directly via a different fetch path or PDF reader"
+    },
+    {
+      "what": "Bus duct and container fire-system specifications",
+      "why": "Not detailed on fetched pages",
+      "next_action": "Fetch Jenbacher container factsheet and Rehlko POD standard-features list"
+    }
+  ],
+  "notes": "Merged from 2 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

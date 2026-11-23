@@ -1,0 +1,28 @@
+{
+  "id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine",
+  "name": "Wärtsilä — Rated electrical power",
+  "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Wärtsilä",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Wartsila 50SG 18V50SG, 50Hz, generator terminals, 100kPa ambient, 25C suction air, 30% RH, without engine-driven pumps, PF 1.0 Evidence: https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+}

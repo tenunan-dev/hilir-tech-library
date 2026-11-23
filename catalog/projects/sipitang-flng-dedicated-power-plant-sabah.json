@@ -1,0 +1,44 @@
+{
+  "id": "sipitang-flng-dedicated-power-plant-sabah",
+  "name": "Sipitang FLNG dedicated power plant, Sabah",
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "IDC"
+  ],
+  "description": "Decentralised sole electricity supply to a nearshore FLNG terminal; 10-year LTSA with 52,000 operating hours spare-parts structure; engines reach full load in under three minutes and cope with rapid load changes. page_read:true (MAN ES press release; company now Everllence). LTSA detail from Everllence Oct 2026 release (search-verified).",
+  "capacities": [
+    {
+      "metric": "power generation",
+      "value": 52.0,
+      "unit": "MW",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.man-es.com/company/press-releases/press-details/2024/09/04/man-energy-solutions-to-supply-gas-engines-for-three-power-plants-in-southeast-asia",
+        "source_id": "man-es-com-04-man-energy-solutions-to-supply-gas-engines-for-three"
+      }
+    }
+  ],
+  "technologies": [
+    "pwr-gas-engines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.man-es.com/company/press-releases/press-details/2024/09/04/man-energy-solutions-to-supply-gas-engines-for-three-power-plants-in-southeast-asia",
+      "source_id": "man-es-com-04-man-energy-solutions-to-supply-gas-engines-for-three"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed commissioning dates and owner/contractor roles",
+      "why": "Not consistently stated on the read page.",
+      "next_action": "Read the project's primary announcement for dated milestones."
+    }
+  ],
+  "notes": "page_read:true (MAN ES press release; company now Everllence). LTSA detail from Everllence Oct 2026 release (search-verified).",
+  "last_reviewed": "2026-11-24"
+}

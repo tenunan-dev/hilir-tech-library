@@ -1,0 +1,25 @@
+{
+  "id": "cummins-generator-technologies",
+  "name": "Cummins Generator Technologies",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Cummins Generator Technologies is named as a supplier or publisher on a page read during the gas-engine/data-centre sweep.",
+  "technologies": [
+    "pwr-gas-engines",
+    "idc-behind-the-meter-gas"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cummins.com/generators/alternators",
+      "source_id": "cummins-com-generators-alternators"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 gas-engine/data-centre sweep; country and detailed roles were not stated on the read page."
+}

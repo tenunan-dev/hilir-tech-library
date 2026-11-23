@@ -1,0 +1,61 @@
+{
+  "id": "wartsila-energy-wartsila-50sg-18v50sg",
+  "name": "Wartsila 50SG (18V50SG)",
+  "manufacturer": "wartsila-energy",
+  "product_type": "engine",
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "description": "Vendor product line read 2026-11-24. 18V, bore 500 mm, stroke 580 mm; natural gas/biogas/synthetic methane, H2 blending",
+  "specifications": [
+    {
+      "metric": "Rated electrical power",
+      "unit": "kW @50Hz, generator terminals, 100kPa/25C/30%RH, PF1.0, no engine-driven pumps",
+      "basis": "",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
+      },
+      "value": 18434
+    },
+    {
+      "metric": "Electrical efficiency",
+      "unit": "% @50Hz, 5% tolerance",
+      "basis": "",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
+      },
+      "value": 50.2
+    },
+    {
+      "metric": "Engine speed",
+      "unit": "rpm @50Hz (514 @60Hz)",
+      "basis": "",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Full-load start time",
+      "unit": "min (fast start)",
+      "basis": "",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
+      },
+      "value": "<2"
+    }
+  ],
+  "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+      "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
+    }
+  ],
+  "notes": "18V, bore 500 mm, stroke 580 mm; natural gas/biogas/synthetic methane, H2 blending",
+  "last_reviewed": "2026-11-24"
+}

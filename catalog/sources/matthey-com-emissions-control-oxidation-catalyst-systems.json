@@ -1,0 +1,28 @@
+{
+  "id": "matthey-com-emissions-control-oxidation-catalyst-systems",
+  "name": "Johnson Matthey",
+  "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Johnson Matthey",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Integrated silencer available Evidence: https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
+}

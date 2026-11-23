@@ -1,0 +1,188 @@
+{
+  "id": "gas-engine-fuel-gas-system",
+  "name": "Fuel gas system: pressure regulation, gas train, filters, scrubbers, booster/compressor, day tank",
+  "equipment_type": "fuel-gas",
+  "sector": "PWR",
+  "sector_codes": [
+    "HSE",
+    "PRC",
+    "PWR",
+    "ROT"
+  ],
+  "description": "Fuel gas system: pressure regulation, gas train, filters, scrubbers, booster/compressor, day tank (liquid) | Fuel gas storage, compression, drying and pressure-reduction train",
+  "specifications": [
+    {
+      "metric": "Fine filter rating",
+      "unit": "um",
+      "basis": "Jenbacher gas train, 3 micrometre fine filter as a security filter; part of minimum scope of supply",
+      "source": {
+        "url": "https://www.jenbacher.com/en/services/balance-of-plant/4072-2/",
+        "source_id": "jenbacher-com-4072-2"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Hydrogen admixture (pipeline gas)",
+      "unit": "vol %",
+      "basis": "Jenbacher 'Ready for H2' option, up to 25 vol% hydrogen in pipeline gas; data-centre page",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/",
+        "source_id": "jenbacher-com-data-center"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Hydrogen admixture",
+      "unit": "%",
+      "basis": "Everllence 51/60G and 35/44G TS gas mixture; gas fuel engines overview",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Gas filter rating",
+      "unit": "micron",
+      "basis": "Cummins Gas Power Plant Application Manual section 3.4.3.1: 'This is a 50 micron rating filter used for all gases and air'",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "50"
+    },
+    {
+      "metric": "Regulator outlet pressure (adjustable range)",
+      "unit": "mbar",
+      "basis": "Cummins Gas Power Plant Application Manual section 3.4.3.1: regulator output pressure generally adjustable between 100 and 160 mbar",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "low": "100",
+      "high": "160"
+    },
+    {
+      "metric": "Regulator inlet pressure (general range)",
+      "unit": "bar",
+      "basis": "Cummins Gas Power Plant Application Manual section 3.4.3.1: depends on valve seat diameter of the pressure regulating valve",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "low": "1.25",
+      "high": "4.0"
+    },
+    {
+      "metric": "LNG storage volume for 12 h operation of one 10 MW engine",
+      "unit": "m³ (~1,700 ft³)",
+      "basis": "Schneider Electric White Paper 286, section 'Storing gas on site for increased availability': less than 50 m³ sufficient for 12 hours at 10 MW; LNG kept below -162 C in insulated cryogenic tanks",
+      "source": {
+        "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+        "source_id": "download-se-com-download-se-com-files"
+      },
+      "high": "<50"
+    },
+    {
+      "metric": "On-site fuel storage design requirement (hyperscale DC study)",
+      "unit": "hours",
+      "basis": "Schneider Electric White Paper 286, 'A gas power plant architecture overview': study set the on-site gas storage requirement at 48 h assuming full load",
+      "source": {
+        "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+        "source_id": "download-se-com-download-se-com-files"
+      },
+      "value": "48 hours at full load capacity"
+    },
+    {
+      "metric": "Gas distribution redundancy",
+      "unit": "qualitative",
+      "basis": "Schneider Electric White Paper 286, 'Gas supply system architecture' and Figure 10",
+      "source": {
+        "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+        "source_id": "download-se-com-download-se-com-files"
+      },
+      "value": "fully redundant 2 x 100% gas distribution; physically separated main feeders; LNG storage A/B with pressure reduction stations A/B; gas-leak sections automatically isolated"
+    },
+    {
+      "metric": "Medium-speed engine gas admission pressure",
+      "unit": "bar (85-100 psi)",
+      "basis": "Schneider Electric White Paper 286, 'Gas engine technology': medium-speed engines supply gas individually to each cylinder inlet, requiring around 6-7 bar",
+      "source": {
+        "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+        "source_id": "download-se-com-download-se-com-files"
+      },
+      "low": "6",
+      "high": "7"
+    },
+    {
+      "metric": "AERZEN GM-HP gas booster volume flow",
+      "unit": "m³/h",
+      "basis": "AERZEN product page Technical data: High Pressure Gas Booster Series GM-HP, positive displacement blowers, oil-free conveying of process gases",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+        "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+      },
+      "low": "50",
+      "high": "38000"
+    },
+    {
+      "metric": "AERZEN GM-HP differential pressure",
+      "unit": "mbar",
+      "basis": "AERZEN product page Technical data (1 or 2 stage design, separate pressurised oil lubrication, oil-free gas transport)",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+        "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+      },
+      "low": "150",
+      "high": "2000"
+    }
+  ],
+  "vendors": [
+    "innio-jenbacher",
+    "everllence",
+    "woodward",
+    "aerzen-aerzener-maschinenfabrik-gmbh",
+    "cummins-inc",
+    "schneider-electric"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/services/balance-of-plant/4072-2/",
+      "source_id": "jenbacher-com-4072-2"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/",
+      "source_id": "jenbacher-com-data-center"
+    },
+    {
+      "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+      "source_id": "everllence-com-products-gas-fuel-engines"
+    },
+    {
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+    },
+    {
+      "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+      "source_id": "download-se-com-download-se-com-files"
+    },
+    {
+      "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+      "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Gas inlet pressure range, pressure-regulation setpoints, booster/compressor curve and scrubber sizing",
+      "why": "Not printed on fetched pages",
+      "next_action": "Fetch gas-train data sheet from Jenbacher resource hub and a gas booster OEM datasheet"
+    },
+    {
+      "what": "Liquid day-tank capacity for dual-fuel standby",
+      "why": "No source found",
+      "next_action": "Fetch Everllence 51/60DF fact sheet"
+    }
+  ],
+  "notes": "Merged from 2 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fluenceenergy-com-fluenceenergy-com-data-center-solution",
+  "name": "Fluence Energy",
+  "url": "https://fluenceenergy.com/data-center-solution",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Fluence Energy",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Data-centre solution page and brochure in WebSearch cache. Evidence: https://fluenceenergy.com/data-center-solution"
+}

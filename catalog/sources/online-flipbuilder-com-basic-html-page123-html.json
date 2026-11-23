@@ -1,0 +1,28 @@
+{
+  "id": "online-flipbuilder-com-basic-html-page123-html",
+  "name": "Engine IQ — P&ID of a gas engine plant — Engine IQ flip'21, p. 123",
+  "url": "https://online.flipbuilder.com/mniezgorski/flbe/files/basic-html/page123.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Engine IQ",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Pointer only - no diagram reproduced. WebFetch read 2026-11-24; title and all labels from the page's OCR/text block. Evidence: https://online.flipbuilder.com/mniezgorski/flbe/files/basic-html/page123.html"
+}

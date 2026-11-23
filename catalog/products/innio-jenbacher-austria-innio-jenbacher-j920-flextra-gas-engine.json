@@ -1,0 +1,41 @@
+{
+  "id": "innio-jenbacher-austria-innio-jenbacher-j920-flextra-gas-engine",
+  "name": "INNIO Jenbacher J920 FleXtra gas engine",
+  "manufacturer": "innio-jenbacher-austria",
+  "product_type": "engine",
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "description": "Vendor product line read 2026-11-24. Deployed in the 104 MW Greenville, Texas peaking plant with 11 engines (POWER article, page_read:true).",
+  "specifications": [
+    {
+      "metric": "Time to full load",
+      "unit": "minutes",
+      "basis": "POWER magazine article: 'achieves full load within two minutes'",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
+        "source_id": "powermag-com-engine-power-plants-surge-as-data-centers-drive-unpre"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Engine portfolio rating (Jenbacher Type 9 page navigation)",
+      "unit": "kW/engine",
+      "basis": "Jenbacher data-centre page navigation labels 'Jenbacher Type 9 Up to 10606 kW/engine'",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
+        "source_id": "powermag-com-engine-power-plants-surge-as-data-centers-drive-unpre"
+      },
+      "high": 10606
+    }
+  ],
+  "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
+  "sources": [
+    {
+      "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
+      "source_id": "powermag-com-engine-power-plants-surge-as-data-centers-drive-unpre"
+    }
+  ],
+  "notes": "Deployed in the 104 MW Greenville, Texas peaking plant with 11 engines (POWER article, page_read:true).",
+  "last_reviewed": "2026-11-24"
+}

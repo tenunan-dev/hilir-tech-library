@@ -1,0 +1,44 @@
+{
+  "id": "ge-labuan-island-gas-power-plant-kab-energy-holdings",
+  "name": "Labuan Island gas power plant (KAB Energy Holdings)",
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "IDC"
+  ],
+  "description": "New gas-fired plant on Labuan Island off Borneo replacing retiring assets, supplying local grid and a manufacturing region; dual-fuel switching between gas and liquid fuels; covered by a 10-year Everllence LTSA (Oct 2026). page_read:true; LTSA corroboration at https://www.everllence.com/company/press-releases/details/2026/10/06/everllence-expands-service-business-in-southeast-asia (search-verified snippet, page_read:false).",
+  "capacities": [
+    {
+      "metric": "power generation",
+      "value": 120.0,
+      "unit": "MW",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
+        "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
+      }
+    }
+  ],
+  "technologies": [
+    "pwr-gas-engines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
+      "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed commissioning dates and owner/contractor roles",
+      "why": "Not consistently stated on the read page.",
+      "next_action": "Read the project's primary announcement for dated milestones."
+    }
+  ],
+  "notes": "page_read:true; LTSA corroboration at https://www.everllence.com/company/press-releases/details/2026/10/06/everllence-expands-service-business-in-southeast-asia (search-verified snippet, page_read:false).",
+  "last_reviewed": "2026-11-24"
+}

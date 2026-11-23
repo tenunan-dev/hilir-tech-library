@@ -1,0 +1,28 @@
+{
+  "id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a",
+  "name": "Thermax — Thermax exhaust-gas absorption chiller capacity",
+  "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Thermax",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Thermax Exhaust Gas-Driven Absorption Chiller-Heater technical data; page header also states 30 TR to 3000 TR / 100 kW to 9 MW Evidence: https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
+}

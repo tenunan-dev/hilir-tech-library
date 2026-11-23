@@ -1,0 +1,36 @@
+{
+  "id": "drawing-typical-cems-for-multiple-parameter-monitoring-figure-4-1-chapter-4-sectio",
+  "title": "Typical CEMS for Multiple Parameter Monitoring — Figure 4.1, Chapter 4 Section 2 Monitors",
+  "diagram_type": "schematic",
+  "description": "EPA continuous emission monitoring schematic for multiple parameters.",
+  "publisher": "U.S. Environmental Protection Agency",
+  "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs2ch4.pdf",
+  "licence": "U.S. Government work - generally public domain in the United States",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs2ch4.pdf",
+      "source_id": "epa-gov-documents-cs2ch4-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Document URL verified reachable; caption/text extracted 2026-11-24. Catalogue pointer from techlib drawings table; not re-fetched this session.",
+  "last_reviewed": "2026-11-24"
+}

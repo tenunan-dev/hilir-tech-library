@@ -1,0 +1,28 @@
+{
+  "id": "uptimeinstitute-com-uptimeinstitute-com-tiers",
+  "name": "Uptime Institute — Tier I-IV definitions",
+  "url": "https://uptimeinstitute.com/tiers",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Uptime Institute",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Uptime Institute Tier Classification System; Tiers progressive; Tier definitions set in the Tier Standard: Topology; 4300+ certifications issued in 120+ countri Evidence: https://uptimeinstitute.com/tiers"
+}

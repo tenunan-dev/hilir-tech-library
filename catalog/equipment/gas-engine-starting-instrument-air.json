@@ -1,0 +1,66 @@
+{
+  "id": "gas-engine-starting-instrument-air",
+  "name": "Starting system: starting air/motors, batteries",
+  "equipment_type": "starting",
+  "sector": "PWR",
+  "sector_codes": [
+    "INS",
+    "PRC",
+    "PWR",
+    "ROT"
+  ],
+  "description": "Starting system: starting air/motors, batteries | Compressed air / instrument air and starting air",
+  "specifications": [
+    {
+      "metric": "DC control supply",
+      "unit": "V DC",
+      "basis": "Deep Sea DSE7320 MKII controller continuous supply range; cranking dropout survives 0 V for 100 ms if supply >=10 V before dropout and recovers to 5 V",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
+        "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
+      },
+      "low": 8,
+      "high": 35
+    },
+    {
+      "metric": "Instrument air / starting air in plant architecture",
+      "unit": "qualitative",
+      "basis": "Schneider Electric White Paper 286, Figure 5 and accompanying text",
+      "source": {
+        "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+        "source_id": "download-se-com-download-se-com-files"
+      },
+      "value": "Instrument Air and Starting Air Unit are listed as generator-unit auxiliaries; starting air unit and controller unit are engine-dedicated in the study plant"
+    }
+  ],
+  "vendors": [
+    "deep-sea-electronics",
+    "comap",
+    "atlas-copco",
+    "yokogawa"
+  ],
+  "sources": [
+    {
+      "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
+      "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
+    },
+    {
+      "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+      "source_id": "download-se-com-download-se-com-files"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Starting-air compressor/receiver and starter-motor power for large gas engines",
+      "why": "No fetched OEM page gives these values",
+      "next_action": "Fetch Wartsila/Everllence starting-system datasheets or EPC specification"
+    },
+    {
+      "what": "Battery capacity (Ah/CCA) for a named gas genset",
+      "why": "Only generic 12V battery noted in a search-verified diesel sheet",
+      "next_action": "Fetch a specific gas genset specification sheet"
+    }
+  ],
+  "notes": "Merged from 2 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

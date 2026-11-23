@@ -1,0 +1,28 @@
+{
+  "id": "epcmholdings-com-epcmholdings-com-fuel-gas-booster-skid-systems",
+  "name": "EPCM Holdings — Figure 2 — Flow schematic of a gas booster unit — Fuel ",
+  "url": "https://epcmholdings.com/fuel-gas-booster-skid-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "EPCM Holdings",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Catalogue pointer from techlib drawings table; not re-fetched this session; secondary source. Evidence: https://epcmholdings.com/fuel-gas-booster-skid-systems"
+}

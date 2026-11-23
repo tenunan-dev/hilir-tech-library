@@ -1,0 +1,63 @@
+{
+  "id": "burgess-manning-ceco-environmental-netherlands-usa-singapore-preset-vent-sil",
+  "name": "Preset Vent Silencers",
+  "manufacturer": "burgess-manning-ceco-environmental",
+  "product_type": "chiller",
+  "equipment": [
+    "gas-engine-waste-heat-chiller"
+  ],
+  "description": "Vendor product line read 2026-11-24. Self-supported on discharge pipe; transformative and absorptive acoustic principles. Read in full this session.",
+  "specifications": [
+    {
+      "metric": "Inlet diameter",
+      "unit": "inch",
+      "basis": "Product page Design section",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "low": 2,
+      "high": 12
+    },
+    {
+      "metric": "Casing diameter",
+      "unit": "inch",
+      "basis": "Product page Design section",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "low": 8,
+      "high": 24
+    },
+    {
+      "metric": "Standard design temperature",
+      "unit": "deg C",
+      "basis": "Product page Design section",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Enhanced noise attenuation",
+      "unit": "dB",
+      "basis": "Product page: 'Typical acoustic performance (no guaranteed noise attenuation)'",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "high": "50+"
+    }
+  ],
+  "url": "https://burgessmanning.com/preset-vent-silencers/",
+  "sources": [
+    {
+      "url": "https://burgessmanning.com/preset-vent-silencers/",
+      "source_id": "burgessmanning-com-preset-vent-silencers"
+    }
+  ],
+  "notes": "Self-supported on discharge pipe; transformative and absorptive acoustic principles. Read in full this session.",
+  "last_reviewed": "2026-11-24"
+}

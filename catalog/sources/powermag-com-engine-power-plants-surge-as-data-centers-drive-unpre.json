@@ -1,0 +1,28 @@
+{
+  "id": "powermag-com-engine-power-plants-surge-as-data-centers-drive-unpre",
+  "name": "INNIO Jenbacher, Austria — INNIO Jenbacher J920 FleXtra gas engine",
+  "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "POWER magazine",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Deployed in the 104 MW Greenville, Texas peaking plant with 11 engines (POWER article, page_read:true). Evidence: https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
+}

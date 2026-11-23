@@ -1,0 +1,28 @@
+{
+  "id": "cat-com-ep-prod-ser-guide-gas-html",
+  "name": "Caterpillar",
+  "url": "https://www.cat.com/en_US/by-industry/electric-power/ep-prod-ser-guide/gas.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Cat.Com",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Search-verified only (page not fetched) Evidence: https://www.cat.com/en_US/by-industry/electric-power/ep-prod-ser-guide/gas.html"
+}

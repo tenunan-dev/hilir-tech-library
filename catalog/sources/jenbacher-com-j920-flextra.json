@@ -1,0 +1,28 @@
+{
+  "id": "jenbacher-com-j920-flextra",
+  "name": "INNIO Jenbacher — Electrical output",
+  "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "INNIO Jenbacher",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. INNIO Jenbacher J920 FleXtra genset, 50Hz, natural gas, output at generator terminals, DIN ISO 3046/DIN 6271, +5% tolerance, NOx basis 250/500 mg/Nm3 @5% O2 dry Evidence: https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+}

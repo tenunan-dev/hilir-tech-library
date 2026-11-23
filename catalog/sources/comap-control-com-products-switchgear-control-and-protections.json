@@ -1,0 +1,28 @@
+{
+  "id": "comap-control-com-products-switchgear-control-and-protections",
+  "name": "ComAp",
+  "url": "https://www.comap-control.com/products/switchgear-control-and-protections",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "ComAp",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. URL from fetched ComAp page navigation; page not separately fetched Evidence: https://www.comap-control.com/products/switchgear-control-and-protections"
+}

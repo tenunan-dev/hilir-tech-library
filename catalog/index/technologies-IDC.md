@@ -99,7 +99,7 @@ flowchart LR
     GEN --> DIST
 ```
 
-**Key equipment:** aeroderivative gas turbines (LM6000, TM2500), heavy-duty gas turbines (7HA.03, 430 MW class), reciprocating gas gensets (10 MW class), on-site MV distribution and substations.
+**Key equipment:** aeroderivative gas turbines (LM6000, TM2500), heavy-duty gas turbines (7HA.03, 430 MW class), reciprocating gas gensets (10 MW class), on-site MV distribution and substations, gas-engine genset with paralleling controls, UPS and flywheel bridging, BESS for peak shaving, load banks for commissioning, waste-heat absorption chiller (CCHP), 2x100% redundant gas distribution, Tier III/IV redundancy architecture.
 
 **Performance:**
 - deployment time, mobile aeroderivative units (TM2500): 14 days; installable in about 14 days per the vendor; fast-start aeros restore power within five minutes. [source](https://www.gevernova.com/gas-power/industries/data-centers)
@@ -112,7 +112,7 @@ TRL source: [Commercial gas-turbine technology deployed at scale (7F fleet about
 **Missing inputs:**
 - installed cost per kW for BTM gas capacity, with dollar year (costs): Vendor pages carry no prices. Where: EIA/industry cost studies; disclosed project filings (open). Next: Add cost figures with dollar year and basis.
 
-Sources: [1](https://www.gevernova.com/gas-power/industries/data-centers), [2](https://www.chevron.com/newsroom/2025/q1/power-solutions-for-us-data-centers). Last reviewed 2026-11-17.
+Sources: [1](https://www.gevernova.com/gas-power/industries/data-centers), [2](https://www.chevron.com/newsroom/2025/q1/power-solutions-for-us-data-centers), [3](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions), [4](https://www.jenbacher.com/en/energy-solutions/industries/data-center/), [5](https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN), [6](https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf), [7](https://uptimeinstitute.com/tiers). Last reviewed 2026-11-24.
 
 ## Data centre UPS systems (double-conversion, lithium, modular)
 <a id="idc-ups-systems"></a>

@@ -1,0 +1,61 @@
+{
+  "id": "innio-jenbacher-jenbacher-j920-flextra",
+  "name": "Jenbacher J920 FleXtra",
+  "manufacturer": "innio-jenbacher",
+  "product_type": "engine",
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "description": "Vendor product line read 2026-11-24. Three factory-tested modules; 2-stage turbocharging; ~94% total efficiency CHP",
+  "specifications": [
+    {
+      "metric": "Electrical output",
+      "unit": "kW @50Hz, ISO 3046/DIN 6271, +5% tolerance, NOx 250/500 mg/Nm3 @5% O2 dry",
+      "basis": "",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+        "source_id": "jenbacher-com-j920-flextra"
+      },
+      "value": 10606
+    },
+    {
+      "metric": "Voltage",
+      "unit": "kV @50Hz",
+      "basis": "",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+        "source_id": "jenbacher-com-j920-flextra"
+      },
+      "value": "10.5 / 11"
+    },
+    {
+      "metric": "Electrical efficiency",
+      "unit": "% up to",
+      "basis": "",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+        "source_id": "jenbacher-com-j920-flextra"
+      },
+      "value": 48.7
+    },
+    {
+      "metric": "Start to full power",
+      "unit": "min",
+      "basis": "",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+        "source_id": "jenbacher-com-j920-flextra"
+      },
+      "value": 2
+    }
+  ],
+  "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+      "source_id": "jenbacher-com-j920-flextra"
+    }
+  ],
+  "notes": "Three factory-tested modules; 2-stage turbocharging; ~94% total efficiency CHP",
+  "last_reviewed": "2026-11-24"
+}

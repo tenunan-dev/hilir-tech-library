@@ -1,17 +1,19 @@
 {
   "id": "atlascopco-com-rotary-screw-compressor-ga-series",
-  "name": "Atlas Copco — GA (VSD+) oil-injected rotary screw compressors",
+  "name": "Atlas Copco",
   "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series",
   "source_type": "oem-supplier",
   "sectors": [
     "PWR",
-    "REF"
+    "IDC"
   ],
   "disciplines": [
     "PRC",
-    "ROT"
+    "ROT",
+    "ELE",
+    "INS"
   ],
-  "publisher_org": "Atlas Copco",
+  "publisher_org": "Atlascopco.Com",
   "regions": [
     "global",
     "na"
@@ -22,5 +24,5 @@
   "quality_tier": 1,
   "verification": "verified",
   "last_verified": "2026-11-24",
-  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Read in full: Atlas Copco USA GA series page. Full Feature variants include integrated dryer and oil-water separator. Related G, GR (up to 20 bar), GA 90+-160 VSD+ and GA 180-315 V Evidence: https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Catalogue pointer from the techlib product record; page not re-fetched in this session (page_read:false at product level) Evidence: https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
 }

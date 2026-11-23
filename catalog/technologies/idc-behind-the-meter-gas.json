@@ -54,7 +54,14 @@
     "aeroderivative gas turbines (LM6000, TM2500)",
     "heavy-duty gas turbines (7HA.03, 430 MW class)",
     "reciprocating gas gensets (10 MW class)",
-    "on-site MV distribution and substations"
+    "on-site MV distribution and substations",
+    "gas-engine genset with paralleling controls",
+    "UPS and flywheel bridging",
+    "BESS for peak shaving",
+    "load banks for commissioning",
+    "waste-heat absorption chiller (CCHP)",
+    "2x100% redundant gas distribution",
+    "Tier III/IV redundancy architecture"
   ],
   "suppliers": [
     {
@@ -140,9 +147,34 @@
     {
       "url": "https://www.chevron.com/newsroom/2025/q1/power-solutions-for-us-data-centers",
       "note": "Chevron newsroom (28 January 2025): Engine No.1/Chevron/GE Vernova power-foundry partnership for co-located data centres, read via search summary 2026-11-12"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+      "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu",
+      "note": "Read 2026-11-24 in the gas-engine/data-centre sweep"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/",
+      "source_id": "jenbacher-com-data-center",
+      "note": "Read 2026-11-24 in the gas-engine/data-centre sweep"
+    },
+    {
+      "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+      "source_id": "download-se-com-download-se-com-files",
+      "note": "Read 2026-11-24 in the gas-engine/data-centre sweep"
+    },
+    {
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf",
+      "note": "Read 2026-11-24 in the gas-engine/data-centre sweep"
+    },
+    {
+      "url": "https://uptimeinstitute.com/tiers",
+      "source_id": "uptimeinstitute-com-uptimeinstitute-com-tiers",
+      "note": "Read 2026-11-24 in the gas-engine/data-centre sweep"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-24",
   "gaps": [
     {
       "field": "costs",
@@ -167,5 +199,6 @@
       "source_id": "ge-vernova",
       "note": "Commercial gas-turbine technology deployed at scale (7F fleet about 175 GW installed) — TRL 9, read 2026-11-12"
     }
-  }
+  },
+  "notes": " Gas-engine/data-centre equipment, utilities, products, drawings and APAC projects added 2026-11-24. Gas-engine/data-centre equipment, utilities, products, drawings and APAC projects added 2026-11-24. Gas-engine/data-centre equipment, utilities, products, drawings and APAC projects added 2026-11-24."
 }

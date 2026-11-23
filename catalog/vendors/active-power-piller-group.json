@@ -1,0 +1,25 @@
+{
+  "id": "active-power-piller-group",
+  "name": "Active Power (Piller group)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Active Power (Piller group) is named as a supplier or publisher on a page read during the gas-engine/data-centre sweep.",
+  "technologies": [
+    "pwr-gas-engines",
+    "idc-behind-the-meter-gas"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+      "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 gas-engine/data-centre sweep; country and detailed roles were not stated on the read page."
+}

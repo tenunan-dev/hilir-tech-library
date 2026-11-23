@@ -1,6 +1,6 @@
 # Product catalog
 
-69 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
+93 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
 
 ## boiler
 
@@ -40,6 +40,13 @@
 | [Ammonia Vaporizers & SCR Injection Systems (ANAM-400 family, Cold/Hot AFCU)](https://www.ifsolutions.com/products/scr-ammonia-system/) | Integrated Flow Solutions (IFS) | SCR reagent systems (ammonia/urea storage, dosing, injection grids; ammonium sulfate/bisulfate in HRSGs) | Storage vessel capacity; Storage vessel construction; Anhydrous vaporizer; Vessel code; Piping design code; Pipe fabrication code; Structural steel assembly code; System design standard; Hazardous location option |
 | [Chemical Feed Systems (skid-mounted)](https://www.kuritaamerica.com/solutions/chemical-feed-systems) | Kurita America Inc. | Boiler water chemical dosing | Feed pressure; Feed rate; Pump types; Frame materials; Piping materials |
 
+## chiller
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Preset Vent Silencers](https://burgessmanning.com/preset-vent-silencers/) | Burgess-Manning (CECO Environmental) | Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres | Inlet diameter; Casing diameter; Standard design temperature; Enhanced noise attenuation |
+| [Thermax Exhaust Gas-Driven Absorption Chiller-Heater](https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater) | Thermax | Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres | Capacity; Cooling COP; Exhaust temperature |
+
 ## compressed-air
 
 | Product | Manufacturer | Equipment | Specifications |
@@ -58,8 +65,10 @@
 | --- | --- | --- | --- |
 | [Accu-Trim Stand Alone O2 Trim Control](https://cleaverbrooks.com/product/accu-trim) | Cleaver-Brooks | Boiler controls and oxygen trim | Control type; Trim modes; Compensation; Sensors; Fuel train compatibility |
 | [Burner Management Systems (DCS and PLC platforms)](https://www.forneycorp.com/burner-management-systems) | Forney Corporation | Burner management and flame safeguard system | Platform types; Engineering scope |
+| [ComAp InteliGen 1000](https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000) | ComAp | Engine control / genset controller / paralleling controls / protection relays / synchronising | Cooperating controllers; Cybersecurity; Enclosure |
 | [EOS 500 Burner Control](https://cleaverbrooks.com/catalog/controls/boiler-controls) | Cleaver-Brooks | Burner management and flame safeguard system | Display; Positioning |
 | [Hawk Boiler Controls / Hawk 4500](https://cleaverbrooks.com/catalog/controls/boiler-controls) | Cleaver-Brooks | Boiler controls and oxygen trim | Hawk Boiler Controls features; Hawk 4500 features |
+| [Woodward easYgen-3000XT](https://www.woodward.com/products/industrial/generator-controllers/easygen) | Woodward | Engine control / genset controller / paralleling controls / protection relays / synchronising | Isochronous gensets; Measurement; Redundancy |
 | [Zeeco Burner Management Systems (BMS)](https://www.zeeco.com/products/burners?hsLang=en) | Zeeco | Burner management and flame safeguard system | Components; Panel certifications |
 
 ## damper
@@ -73,6 +82,33 @@
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [Selective Catalytic Reduction (SCR) Systems](https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems) | John Zink Company | SCR, SNCR and CEMS for boilers | NOx reduction; Reductant options; Additional catalyst; Applications |
+
+## engine
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Basler DECS-2100](https://www.basler.com/product/decs-2100-digital-excitation-control-system) | Basler Electric | Gas engine prime mover | Excitation current; Optional |
+| [ComAp InteliSys 2000](https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers) | ComAp | Gas engine prime mover | Applications; Grid codes |
+| [DSE7320 MKII](https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii) | Deep Sea Electronics | Gas engine prime mover | DC supply; Generator/mains voltage; Frequency range; Panel size |
+| [Everllence 35/44G (TS)](https://www.everllence.com/energy/products/gas-fuel-engines) | Everllence | Gas engine prime mover | Mechanical output; Engine speed; Ramp rate; Hydrogen admixture |
+| [Everllence 51/60G (TS)](https://www.everllence.com/energy/products/gas-fuel-engines) | Everllence | Gas engine prime mover | Mechanical output; Engine speed; Efficiency |
+| [INNIO Jenbacher J920 FleXtra gas engine](https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/) | INNIO Jenbacher, Austria | Gas engine prime mover | Time to full load; Engine portfolio rating (Jenbacher Type 9 page navigation) |
+| [Jenbacher J920 FleXtra](https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/) | INNIO Jenbacher | Gas engine prime mover | Electrical output; Voltage; Electrical efficiency; Start to full power |
+| [Jenbacher Type 6 (J612/J616/J620/J624)](https://www.jenbacher.com/en/gas-engines/type-6/) | INNIO Jenbacher | Gas engine prime mover | Electrical output; Voltage; Engine speed; Service life |
+| [MAN E3872](https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html) | MAN Engines | Gas engine prime mover | Power; Cylinders / displacement; Bore / stroke; Air-fuel ratio |
+| [Mecc Alte ECO43 / ECO46 / ECO47 / ECO49](https://www.meccalte.com/en/products/alternators/power-products-mvhv) | Mecc Alte | Gas engine prime mover | Rating band; Voltage; Speed |
+| [Wartsila 34SG (12V/16V/20V)](https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine) | Wartsila Energy | Gas engine prime mover | Rated electrical power; Electrical efficiency; Engine speed |
+| [Wartsila 50SG (18V50SG)](https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine) | Wartsila Energy | Gas engine prime mover | Rated electrical power; Electrical efficiency; Engine speed; Full-load start time |
+| [Wärtsilä 31SG gas engine](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions) | Wärtsilä | Gas engine prime mover | Electrical output; Electrical efficiency |
+| [Wärtsilä 46TS-SG gas engine](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions) | Wärtsilä | Gas engine prime mover | Electrical output (50/60 Hz variants as listed); Electrical efficiency |
+| [Wärtsilä 50SG gas engine](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions) | Wärtsilä | Gas engine prime mover | Electrical output; Electrical efficiency |
+
+## exhaust
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Johnson Matthey Modulex B/C and DualOx](https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems) | Johnson Matthey | Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints | Engine power |
+| [Johnson Matthey SINOx SCR system](https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems) | Johnson Matthey | Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints | NOx reduction; Service interval |
 
 ## fan
 
@@ -90,6 +126,24 @@
 | [Monoscour Gravity Filter](https://graver.com/pretreatment/) | Graver Water (Marmon Industrial Water) | Boiler feedwater pretreatment | Filter type; Design duty |
 | [Reactivator Solids Contact Clarifier](https://graver.com/pretreatment/) | Graver Water (Marmon Industrial Water) | Boiler feedwater pretreatment | Clarifier type; Functions integrated in single unit; Applications |
 | [TrayMaster Deaerator (TMV / TMH)](https://cleaverbrooks.com/product/traymaster) | Cleaver-Brooks | Feedtank, deaerator and feedwater pump | Capacity TMV; Capacity TMH; Residual dissolved oxygen; Configuration; Standard |
+
+## fuel-gas
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [High Pressure Gas Booster Series GM-HP](https://www.aerzen.com/product/gas-booster-for-high-pressure-applications) | AERZEN (Aerzener Maschinenfabrik GmbH) | Fuel gas system: pressure regulation, gas train, filters, scrubbers, booster/compressor, day tank | Volume flow; Differential pressure; Conveying |
+
+## generator
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [STAMFORD / AvK alternators](https://www.cummins.com/generators/alternators) | Cummins Generator Technologies | Generator / alternator | Combined range; Global coverage |
+
+## genset
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Jenbacher containerised genset (Type 2/3/4 and Type 6)](https://www.jenbacher.com/en/energy-solutions/containerized-solutions/) | INNIO Jenbacher | Skid / packaged genset and enclosure | Power; Sound; Ambient |
 
 ## heat-exchanger
 

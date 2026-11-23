@@ -1,0 +1,195 @@
+{
+  "id": "gas-engine-prime-mover",
+  "name": "Gas engine prime mover",
+  "equipment_type": "engine",
+  "sector": "PWR",
+  "sector_codes": [
+    "IDC",
+    "PRC",
+    "PWR",
+    "ROT"
+  ],
+  "description": "Gas engine prime mover (lean-burn / stoichiometric spark-ignition / dual-fuel; cylinders, turbochargers, intercoolers)",
+  "specifications": [
+    {
+      "metric": "Rated electrical power",
+      "unit": "kW",
+      "basis": "Wartsila 50SG 18V50SG, 50Hz, generator terminals, 100kPa ambient, 25C suction air, 30% RH, without engine-driven pumps, PF 1.0",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
+      },
+      "value": 18834
+    },
+    {
+      "metric": "Electrical efficiency",
+      "unit": "%",
+      "basis": "Wartsila 50SG 18V, 50Hz, same reference conditions; stated with 5% tolerance",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
+      },
+      "value": 50.2
+    },
+    {
+      "metric": "Cylinder bore / stroke",
+      "unit": "mm",
+      "basis": "Wartsila 50SG, 18V configuration; engine speed 500 rpm (50Hz) / 514 rpm (60Hz)",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
+      },
+      "value": "500 / 580"
+    },
+    {
+      "metric": "Rated electrical power range",
+      "unit": "kW",
+      "basis": "Wartsila 34SG, 12V/16V/20V, 50Hz, generator terminals, 100kPa, 25C, 30% RH, PF1.0",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-34sg-gas-engine"
+      },
+      "low": 5840,
+      "high": 9795
+    },
+    {
+      "metric": "Electrical output",
+      "unit": "kW",
+      "basis": "INNIO Jenbacher J920 FleXtra genset, 50Hz, natural gas, output at generator terminals, DIN ISO 3046/DIN 6271, +5% tolerance, NOx basis 250/500 mg/Nm3 @5% O2 dry",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+        "source_id": "jenbacher-com-j920-flextra"
+      },
+      "value": 10606
+    },
+    {
+      "metric": "Electrical efficiency",
+      "unit": "%",
+      "basis": "Jenbacher J920 FleXtra, up to, 50/60Hz, generator terminals, ISO 3046 basis, NOx 250/500 mg/Nm3 @5% O2 dry",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+        "source_id": "jenbacher-com-j920-flextra"
+      },
+      "value": 48.7
+    },
+    {
+      "metric": "Electrical output",
+      "unit": "kW",
+      "basis": "Jenbacher Type 6 (J624), up to, 50Hz, generator terminals, DIN ISO 3046 / DIN 6271, +5% tolerance, NOx 250/500 mg/Nm3 @5% O2 dry",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "value": 4499
+    },
+    {
+      "metric": "Engine speed",
+      "unit": "rpm",
+      "basis": "Jenbacher Type 6, 50Hz; 1500 rpm with gearbox for 60Hz; mean piston speed 11 m/s at 1500 rpm (Type 6 fact sheet, search-verified)",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "Mechanical output",
+      "unit": "kWm",
+      "basis": "Everllence (ex-MAN) 35/44G and 35/44G TS, up to; 720/750 rpm; 60/50 Hz",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": 12900
+    },
+    {
+      "metric": "Mechanical output",
+      "unit": "kWm",
+      "basis": "Everllence 51/60G and 51/60G TS, up to; 500/514 rpm; 50/60 Hz",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": 20700
+    },
+    {
+      "metric": "Power range",
+      "unit": "kW",
+      "basis": "MAN Engines natural-gas engine programme (E0834-E3872), continuous operation; special gas 68-750 kW; overall efficiency >90%",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      },
+      "low": 37,
+      "high": 750
+    },
+    {
+      "metric": "Electrical power range",
+      "unit": "kWe",
+      "basis": "Rolls-Royce mtu gas gensets, 50Hz (60Hz 30-2,522 kWe); Time Before Overhaul 84,000 h",
+      "source": {
+        "url": "https://www.mtu-solutions.com/seai/en/applications/power-generation/power-generation-applications/data-centers.html",
+        "source_id": "mtu-solutions-com-power-generation-applications-data-centers-html"
+      },
+      "low": 776,
+      "high": 2547
+    }
+  ],
+  "vendors": [
+    "wartsila-energy",
+    "innio-jenbacher",
+    "everllence",
+    "man-engines",
+    "rolls-royce-power-systems",
+    "caterpillar"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+      "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine",
+      "source_id": "wartsila-com-engine-power-plants-wartsila-34sg-gas-engine"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+      "source_id": "jenbacher-com-j920-flextra"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+      "source_id": "jenbacher-com-type-6"
+    },
+    {
+      "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+      "source_id": "everllence-com-products-gas-fuel-engines"
+    },
+    {
+      "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+      "source_id": "man-eu-gas-power-generation-gas-html"
+    },
+    {
+      "url": "https://www.mtu-solutions.com/seai/en/applications/power-generation/power-generation-applications/data-centers.html",
+      "source_id": "mtu-solutions-com-power-generation-applications-data-centers-html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Stoichiometric/rich-burn three-way-catalyst engine-out NOx/CO figures for the named large-bore engines",
+      "why": "OEM pages quote lean-burn NOx (250/500 mg/Nm3 @5% O2) but not a matching rich-burn dataset",
+      "next_action": "Fetch Cat G3500H/G3516H rich-burn TWC specification sheet and Jenbacher rich-burn factsheet"
+    },
+    {
+      "what": "Intercooler/charge-air cooler duty, approach temperature and pressure drop",
+      "why": "Not printed on the fetched OEM pages",
+      "next_action": "Fetch Jenbacher Type 6 engine type sheet or Wartsila 50SG leaflet (wartsi.ly/41mQHgo)"
+    },
+    {
+      "what": "Named dual-fuel liquid-fuel day-tank sizing",
+      "why": "Not specified on fetched pages",
+      "next_action": "Fetch Everllence 51/60DF fact sheet"
+    }
+  ],
+  "notes": "Merged from 1 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

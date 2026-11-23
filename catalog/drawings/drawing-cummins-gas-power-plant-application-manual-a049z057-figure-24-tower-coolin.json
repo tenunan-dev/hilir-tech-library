@@ -1,0 +1,36 @@
+{
+  "id": "drawing-cummins-gas-power-plant-application-manual-a049z057-figure-24-tower-coolin",
+  "title": "Cummins Gas Power Plant Application Manual A049Z057 — Figure 24 'Tower cooling system connection to generator set' (also Fig. 23 raw water system connections)",
+  "diagram_type": "schematic",
+  "description": "Cooling-tower/heat-exchanger connection to the genset; manual text states cooling towers are typically used with heat exchangers and require chemical water treatment, make-up, discharge and maintenance planning.",
+  "publisher": "Cummins Inc.",
+  "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+  "licence": "Copyright © 2017 Cummins Inc. (A049Z057 Issue 1)",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Pointer only - no diagram reproduced. PDF downloaded and text-extracted this session; Fig. 23/24 captions verified on pp. 32-33.",
+  "last_reviewed": "2026-11-24"
+}

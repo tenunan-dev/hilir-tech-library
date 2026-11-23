@@ -1,0 +1,36 @@
+{
+  "id": "drawing-figure-2-1-basic-system-schematic-instrument-air-systems-a-guide-for-power",
+  "title": "Figure 2-1 — Basic system schematic, Instrument Air Systems: A Guide for Power Plant Maintenance Personnel (NP-7079)",
+  "diagram_type": "schematic",
+  "description": "Generic instrument-air system layout from an NRC/EPRI guide; recorded in the techlib drawings catalogue with NRC document ID ML003767039.",
+  "publisher": "U.S. Nuclear Regulatory Commission / EPRI",
+  "url": "https://www.nrc.gov/docs/ml0037/ml003767039.pdf",
+  "licence": "U.S. Government work - generally public domain in the United States; EPRI co-brand may apply",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.nrc.gov/docs/ml0037/ml003767039.pdf",
+      "source_id": "nrc-gov-ml0037-ml003767039-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Document URL verified reachable; caption/text extracted 2026-11-24. Catalogue pointer; techlib record notes figure caption from a WebSearch snippet (search-verified) and a direct download HTTP 403 in the earlier session. Not re-fetched here.",
+  "last_reviewed": "2026-11-24"
+}

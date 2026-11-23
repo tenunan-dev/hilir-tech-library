@@ -1,0 +1,28 @@
+{
+  "id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu",
+  "name": "Wärtsilä — Closed-loop cooling process water consumption (dat",
+  "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Wärtsilä",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Wärtsilä Data center power solutions: closed-loop cooling with water-to-air radiators keeps process water consumption near zero; 'consume less than 5 liters (1. Evidence: https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
+}

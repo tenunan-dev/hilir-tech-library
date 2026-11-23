@@ -1,0 +1,44 @@
+{
+  "id": "batam-gas-power-plant-man-everllence-20v35-44g",
+  "name": "Batam gas power plant (MAN/Everllence 20V35/44G)",
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "IDC"
+  ],
+  "description": "New plant feeding the Indonesian grid in Batam opposite Singapore; low-emission natural gas; selected for hot, humid climate. page_read:true. A separate INNIO/PT MPower 80 MW Jenbacher grid-stabilisation agreement in Batam (14 Oct 2025), explicitly linked to ten data centres under development, is recorded at https://www.innio.com/en/news-media/press-releases/innio-and-pt-mpower-daya-energia-supply-80-mw-for-grid-stabilization-in-indonesia/ (page_read:true); number of engines not stated there.",
+  "capacities": [
+    {
+      "metric": "power generation",
+      "value": 52.0,
+      "unit": "MW",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.man-es.com/company/press-releases/press-details/2024/09/04/man-energy-solutions-to-supply-gas-engines-for-three-power-plants-in-southeast-asia",
+        "source_id": "man-es-com-04-man-energy-solutions-to-supply-gas-engines-for-three"
+      }
+    }
+  ],
+  "technologies": [
+    "pwr-gas-engines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.man-es.com/company/press-releases/press-details/2024/09/04/man-energy-solutions-to-supply-gas-engines-for-three-power-plants-in-southeast-asia",
+      "source_id": "man-es-com-04-man-energy-solutions-to-supply-gas-engines-for-three"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed commissioning dates and owner/contractor roles",
+      "why": "Not consistently stated on the read page.",
+      "next_action": "Read the project's primary announcement for dated milestones."
+    }
+  ],
+  "notes": "page_read:true. A separate INNIO/PT MPower 80 MW Jenbacher grid-stabilisation agreement in Batam (14 Oct 2025), explicitly linked to ten data centres under development, is recorded at https://www.innio.com/en/news-media/press-releases/innio-and-pt-mpower-daya-energia-supply-80-mw-for-grid-stabilizat",
+  "last_reviewed": "2026-11-24"
+}

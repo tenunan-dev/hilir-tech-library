@@ -1,0 +1,37 @@
+{
+  "id": "drawing-schneider-electric-white-paper-286-figure-1-block-diagram-showing-the-diff",
+  "title": "Schneider Electric White Paper 286 — Figure 1 'Block diagram showing the difference between a traditional diesel-powered solution and a gas powered solution without connection to t",
+  "diagram_type": "PFD",
+  "description": "Utility/grid + backup diesel gensets versus main-source gas engines (with optional grid connection) feeding MV/LV data-centre IT, mechanical and office loads.",
+  "publisher": "Schneider Electric Data Center Science Center (with Wärtsilä)",
+  "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+  "licence": "Schneider Electric White Paper 286, Version 1 (copyright publisher)",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "gas-engine-prime-mover",
+    "gas-engine-switchgear-ats"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+      "source_id": "download-se-com-download-se-com-files"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Pointer only; caption verified in text-extracted PDF.",
+  "last_reviewed": "2026-11-24"
+}

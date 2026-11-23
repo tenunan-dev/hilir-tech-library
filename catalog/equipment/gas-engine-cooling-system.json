@@ -1,0 +1,129 @@
+{
+  "id": "gas-engine-cooling-system",
+  "name": "Engine cooling: jacket-water system, radiator, cooling tower, heat exchanger, circulating pumps",
+  "equipment_type": "cooling",
+  "sector": "PWR",
+  "sector_codes": [
+    "IDC",
+    "PRC",
+    "PWR",
+    "ROT"
+  ],
+  "description": "Engine cooling: jacket-water system, radiator, cooling tower, heat exchanger, circulating pumps | Cooling water / cooling towers (open and closed) and heat rejection | Closed-loop jacket water / HT and LT circuits, expansion and monitoring",
+  "specifications": [
+    {
+      "metric": "Heat-recovery design temperatures",
+      "unit": "degC return / hot water",
+      "basis": "Jenbacher J920 FleXtra CHP module; heating-water circuit with 70C return and 90C+ hot water for ~94% total efficiency",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+        "source_id": "jenbacher-com-j920-flextra"
+      },
+      "value": "70 / 90"
+    },
+    {
+      "metric": "Radiator design",
+      "unit": "qualitative",
+      "basis": "Jenbacher cooling system (radiators) BOP: sufficient surface area and cooling capacity, easy cleaning; special coatings/materials near coast; special soldering/heating for extremely cold environments",
+      "source": {
+        "url": "https://www.jenbacher.com/en/services/balance-of-plant/4077-2/",
+        "source_id": "jenbacher-com-4077-2"
+      },
+      "value": "flat fins / appropriate fin distance"
+    },
+    {
+      "metric": "CHP total efficiency",
+      "unit": "%",
+      "basis": "Jenbacher Type 6 CHP module, up to; engine and alternator on frame, control panel, gas train, heat exchangers including exhaust-gas heat exchanger",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "value": 95
+    },
+    {
+      "metric": "Cooling tower with heat exchanger; water treatment obligations",
+      "unit": "qualitative",
+      "basis": "Cummins Gas Power Plant Application Manual A049Z057 section 3.1.9.2; Figure 24 'Tower cooling system connection to generator set'",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "Cooling towers typically used with heat exchangers; chemical water treatment, make-up system, discharge and special maintenance must be planned"
+    },
+    {
+      "metric": "Closed-loop cooling process water consumption (data-centre application)",
+      "unit": "litres/hour",
+      "basis": "Wärtsilä Data center power solutions: closed-loop cooling with water-to-air radiators keeps process water consumption near zero; 'consume less than 5 liters (1.3 gallons) of water per hour'",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+        "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+      },
+      "high": "<5"
+    },
+    {
+      "metric": "Ambient operating range / altitude (same closed-loop plant)",
+      "unit": "deg C",
+      "basis": "Wärtsilä Data center power solutions: full power from -45 C to 50 C; 100% output above 1,200 m altitude",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+        "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+      },
+      "low": "-45",
+      "high": "50"
+    },
+    {
+      "metric": "Cooling system functions (fill/drain/vent)",
+      "unit": "qualitative",
+      "basis": "Cummins Gas Power Plant Application Manual, section 3.1 cooling system introduction",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      },
+      "value": "maintain temperature at design flow, maintain design pressure, accommodate expansion/contraction/overfill/loss, provide vent path for entrapped air, provide fill/drain/sample points"
+    }
+  ],
+  "vendors": [
+    "innio-jenbacher",
+    "wartsila",
+    "cummins-inc",
+    "mwm-everllence",
+    "mwm-everllence"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+      "source_id": "jenbacher-com-j920-flextra"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/services/balance-of-plant/4077-2/",
+      "source_id": "jenbacher-com-4077-2"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+      "source_id": "jenbacher-com-type-6"
+    },
+    {
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+      "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Radiator thermal duty, design ambient, coolant flow and pump head for a named engine",
+      "why": "Not printed on the fetched Jenbacher BOP page",
+      "next_action": "Fetch Jenbacher Type 6 engine type sheet PDF (innio.com/images/medias/files/167/...) with a PDF reader"
+    },
+    {
+      "what": "Cooling tower and circulating-pump vendor/models",
+      "why": "No OEM page fetched for cooling towers",
+      "next_action": "Fetch EVAPCO/Baltimore Aircoil/SPX cooling tower data centre brochures"
+    }
+  ],
+  "notes": "Merged from 3 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

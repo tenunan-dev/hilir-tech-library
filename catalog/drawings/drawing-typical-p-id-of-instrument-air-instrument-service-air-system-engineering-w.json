@@ -1,0 +1,36 @@
+{
+  "id": "drawing-typical-p-id-of-instrument-air-instrument-service-air-system-engineering-w",
+  "title": "Typical P&ID of Instrument Air — Instrument & Service Air System engineering whitepaper",
+  "diagram_type": "P&ID",
+  "description": "Vendor whitepaper figure 'Typical P&ID of Instrument Air'.",
+  "publisher": "Yokogawa",
+  "url": "https://azure-na-assets.contentstack.com/v3/assets/blta3c1d56420975795/bltb117df1445da53a7/692b646d060471ba9feb9f87/01072021_WP_Power_v2.pdf",
+  "licence": "Copyright © Yokogawa",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://azure-na-assets.contentstack.com/v3/assets/blta3c1d56420975795/bltb117df1445da53a7/692b646d060471ba9feb9f87/01072021_WP_Power_v2.pdf",
+      "source_id": "azure-na-assets-contentstack-com-692b646d060471ba9feb9f87-01072021"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Document URL verified reachable; caption/text extracted 2026-11-24. Catalogue pointer from techlib drawings table; PDF downloaded in earlier session but not re-fetched here.",
+  "last_reviewed": "2026-11-24"
+}

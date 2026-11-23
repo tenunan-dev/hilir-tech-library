@@ -1,0 +1,28 @@
+{
+  "id": "ps-buckeyepowersales-com-03-testing-generator-sets-resistive-vs-re",
+  "name": "Buckeye Power Sales",
+  "url": "https://ps.buckeyepowersales.com/wp-content/uploads/2017/03/Testing-Generator-Sets-Resistive-vs.-Reactive_BPS_35.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Ps.Buckeyepowersales.Com",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. search-verified. Evidence: https://ps.buckeyepowersales.com/wp-content/uploads/2017/03/Testing-Generator-Sets-Resistive-vs.-Reactive_BPS_35.pdf"
+}

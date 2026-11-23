@@ -1,0 +1,71 @@
+{
+  "id": "gas-engine-waste-heat-chiller",
+  "name": "Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres",
+  "equipment_type": "chiller",
+  "sector": "PWR",
+  "sector_codes": [
+    "IDC",
+    "PRC",
+    "PWR",
+    "ROT"
+  ],
+  "description": "Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres",
+  "specifications": [
+    {
+      "metric": "Thermax exhaust-gas absorption chiller capacity",
+      "unit": "TR (refrigeration tons)",
+      "basis": "Thermax Exhaust Gas-Driven Absorption Chiller-Heater technical data; page header also states 30 TR to 3000 TR / 100 kW to 9 MW",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+        "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
+      },
+      "low": 50,
+      "high": 3000
+    },
+    {
+      "metric": "Thermax exhaust-gas absorption chiller COP",
+      "unit": "COP (cooling)",
+      "basis": "Thermax product page: cooling COP up to 1.53; up to 40% heating-energy savings and 20% water savings claimed",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+        "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
+      },
+      "value": 1.53
+    },
+    {
+      "metric": "Thermax exhaust temperature and output temperatures",
+      "unit": "deg C",
+      "basis": "Thermax product page technical data; double-effect design based on exhaust temperature; LiBr-water solution",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+        "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
+      },
+      "value": "Exhaust 250-600 C; chilled water -5 to 35 C; hot water up to 110 C"
+    }
+  ],
+  "vendors": [
+    "thermax",
+    "johnson-controls-york-silent-aire",
+    "carrier"
+  ],
+  "sources": [
+    {
+      "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+      "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Measured COP and heat-recovery rate for absorption chillers coupled specifically to a named gas engine model at a data centre",
+      "why": "Found only vendor catalogue values and modelled reference designs",
+      "next_action": "Request thermodynamic datasheet from engine OEM and chiller vendor for a specific engine exhaust mass flow/temperature"
+    },
+    {
+      "what": "Thermax capacity discrepancy (30-3000 TR header vs 50-3000 TR table)",
+      "why": "Two values on the same page",
+      "next_action": "Query Thermax for a certified capacity table; do not choose either value silently"
+    }
+  ],
+  "notes": "Merged from 1 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

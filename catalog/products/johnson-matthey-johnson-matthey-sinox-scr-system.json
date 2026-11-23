@@ -1,0 +1,41 @@
+{
+  "id": "johnson-matthey-johnson-matthey-sinox-scr-system",
+  "name": "Johnson Matthey SINOx SCR system",
+  "manufacturer": "johnson-matthey",
+  "product_type": "exhaust",
+  "equipment": [
+    "gas-engine-exhaust-emissions"
+  ],
+  "description": "Vendor product line read 2026-11-24. SINOx honeycomb catalyst, stainless housing, injection lance, dosing pump, silencer options",
+  "specifications": [
+    {
+      "metric": "NOx reduction",
+      "unit": "% greater than, stationary diesel and gas engines",
+      "basis": "",
+      "source": {
+        "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
+        "source_id": "matthey-com-emissions-control-nox-control-systems"
+      },
+      "low": 95
+    },
+    {
+      "metric": "Service interval",
+      "unit": "hours before maintenance, stated",
+      "basis": "",
+      "source": {
+        "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
+        "source_id": "matthey-com-emissions-control-nox-control-systems"
+      },
+      "value": 15000
+    }
+  ],
+  "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
+  "sources": [
+    {
+      "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
+      "source_id": "matthey-com-emissions-control-nox-control-systems"
+    }
+  ],
+  "notes": "SINOx honeycomb catalyst, stainless housing, injection lance, dosing pump, silencer options",
+  "last_reviewed": "2026-11-24"
+}

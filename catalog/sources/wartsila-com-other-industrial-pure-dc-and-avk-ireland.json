@@ -1,0 +1,28 @@
+{
+  "id": "wartsila-com-other-industrial-pure-dc-and-avk-ireland",
+  "name": "Wärtsilä — Pure DC / AVK off-grid data-centre microgrid, Dublin",
+  "url": "https://www.wartsila.com/energy/learn-more/references/other-industrial/pure-dc-and-avk-ireland",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Wärtsilä",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Described as Europe's first large-scale off-grid data-centre microgrid; gas primary fuel with HVO backup; hydrogen-blend ready and CHP-ready; fully independent  Evidence: https://www.wartsila.com/energy/learn-more/references/other-industrial/pure-dc-and-avk-ireland"
+}

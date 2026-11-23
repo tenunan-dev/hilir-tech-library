@@ -1,0 +1,25 @@
+{
+  "id": "cummins-inc",
+  "name": "Cummins Inc.",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Cummins Inc. is named as a supplier or publisher on a page read during the gas-engine/data-centre sweep.",
+  "technologies": [
+    "pwr-gas-engines",
+    "idc-behind-the-meter-gas"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+      "source_id": "jenbacher-com-j920-flextra"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 gas-engine/data-centre sweep; country and detailed roles were not stated on the read page."
+}

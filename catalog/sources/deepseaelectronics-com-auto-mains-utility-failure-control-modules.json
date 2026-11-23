@@ -1,0 +1,28 @@
+{
+  "id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules",
+  "name": "Deep Sea Electronics — DC control supply",
+  "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Deep Sea Electronics",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Deep Sea DSE7320 MKII controller continuous supply range; cranking dropout survives 0 V for 100 ms if supply >=10 V before dropout and recovers to 5 V Evidence: https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii"
+}

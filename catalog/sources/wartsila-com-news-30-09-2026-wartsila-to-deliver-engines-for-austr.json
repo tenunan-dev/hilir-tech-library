@@ -1,0 +1,28 @@
+{
+  "id": "wartsila-com-news-30-09-2026-wartsila-to-deliver-engines-for-austr",
+  "name": "Wärtsilä — Australia's largest reciprocating engine power plant (g",
+  "url": "https://www.wartsila.com/media/news/30-09-2026-wartsila-to-deliver-engines-for-australia-s-largest-ever-engine-power-plant-to-support-the-country-s-energy-transition-3795697",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Wärtsilä",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Grid balancing and system security to support wind/solar integration; up to 25 vol-% hydrogen blend currently supported. Evidence: https://www.wartsila.com/media/news/30-09-2026-wartsila-to-deliver-engines-for-australia-s-largest-ever-engine-power-plant-to-support-the-country-s-energy-transition-3795697"
+}

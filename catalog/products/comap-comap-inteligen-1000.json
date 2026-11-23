@@ -1,0 +1,51 @@
+{
+  "id": "comap-comap-inteligen-1000",
+  "name": "ComAp InteliGen 1000",
+  "manufacturer": "comap",
+  "product_type": "controls",
+  "equipment": [
+    "gas-engine-controls-paralleling"
+  ],
+  "description": "Vendor product line read 2026-11-24. Read directly via WebFetch.",
+  "specifications": [
+    {
+      "metric": "Cooperating controllers",
+      "unit": "additional units",
+      "basis": "",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+        "source_id": "comap-control-com-inteligen-inteligen-1000"
+      },
+      "value": 64
+    },
+    {
+      "metric": "Cybersecurity",
+      "unit": "compliance claim",
+      "basis": "",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+        "source_id": "comap-control-com-inteligen-inteligen-1000"
+      },
+      "value": "ISA 62443 level 2-3"
+    },
+    {
+      "metric": "Enclosure",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+        "source_id": "comap-control-com-inteligen-inteligen-1000"
+      },
+      "value": "262 x 182 x 47"
+    }
+  ],
+  "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+  "sources": [
+    {
+      "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+      "source_id": "comap-control-com-inteligen-inteligen-1000"
+    }
+  ],
+  "notes": "Read directly via WebFetch.",
+  "last_reviewed": "2026-11-24"
+}

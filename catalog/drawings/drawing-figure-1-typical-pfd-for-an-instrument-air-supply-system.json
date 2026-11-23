@@ -2,22 +2,22 @@
   "id": "drawing-figure-1-typical-pfd-for-an-instrument-air-supply-system",
   "title": "Figure 1 — Typical PFD for an Instrument Air Supply System",
   "diagram_type": "PFD",
-  "description": "Instrument air PFD: atmospheric air → filter → compressors with intercoolers/aftercoolers → knockout drum → 2×100% desiccant dryer/filter package (one bed drying, one regenerating) → IA header with low-pressure alarm and low-low trip; notes diverse compressor drivers for redundancy.",
-  "publisher": "EnggCyclopedia (secondary engineering reference site)",
+  "description": "Typical instrument-air supply process flow; secondary engineering tutorial content.",
+  "publisher": "EnggCyclopedia",
   "url": "https://enggcyclopedia.com/2012/02/typical-pfd-instrument-air-supply-system",
-  "licence": "Site copyright; secondary tutorial content.",
+  "licence": "Site copyright; secondary tutorial content",
   "reuse_level": "summary-only",
   "sectors": [
     "PWR",
-    "PRC"
+    "IDC"
   ],
   "regions": [
     "global"
   ],
-  "equipment": [],
-  "technologies": [
-    "pwr-gas-fired-boilers"
+  "equipment": [
+    "gas-engine-prime-mover"
   ],
+  "technologies": [],
   "sources": [
     {
       "url": "https://enggcyclopedia.com/2012/02/typical-pfd-instrument-air-supply-system",
@@ -26,11 +26,11 @@
   ],
   "gaps": [
     {
-      "what": "Diagram is held at the publisher's URL, not in this repository",
-      "why": "Copyright and reuse terms recorded on the record; no diagram is reproduced here.",
-      "next_action": "Open the url and respect the stated licence before reusing the figure."
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
     }
   ],
-  "notes": "Page fetched and read 2026-11-24. HTML page fetched and read; Figure 1 image URL and descriptive text verified. Mark as secondary, not primary evidence.",
+  "notes": "Document URL verified reachable; caption/text extracted 2026-11-24. Catalogue pointer from techlib drawings table (recorded as page fetched in the earlier session, not re-fetched here); mark as secondary evidence.",
   "last_reviewed": "2026-11-24"
 }

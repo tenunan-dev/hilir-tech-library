@@ -352,7 +352,7 @@ flowchart LR
     ENG --> GEN
 ```
 
-**Key equipment:** gas engine, generator, turbocharger, exhaust after-treatment, cooling system.
+**Key equipment:** gas engine, generator, turbocharger, exhaust after-treatment, cooling system, gas engine prime mover, alternator, packaged genset enclosure, jacket-water and radiator cooling, lube oil system, fuel gas train and storage, exhaust silencer and SCR, starting air, paralleling controller, generator circuit breaker and MV switchgear, absorption chiller for waste heat, foundation and vibration isolation.
 
 **Performance:**
 - 18V50SG electrical efficiency (50 Hz): 50.2 %; output 18,434 kW; 5% tolerance on efficiency. [source](https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine)
@@ -370,7 +370,7 @@ flowchart LR
 
 TRL source: [DOE/EE-2764 (Aug 2023): 'Reciprocating internal combustion engines are a mature technology'; over 2,700 US sites with engine CHP, aggregate ~2.9 GW; read 2026-11-16](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf)
 
-Sources: [1](https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine), [2](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants), [3](https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali), [4](https://en.wikipedia.org/wiki/Gas_engine). Last reviewed 2026-11-16.
+Sources: [1](https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine), [2](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants), [3](https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali), [4](https://en.wikipedia.org/wiki/Gas_engine), [5](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions), [6](https://www.jenbacher.com/en/energy-solutions/industries/data-center/), [7](https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN), [8](https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf), [9](https://uptimeinstitute.com/tiers). Last reviewed 2026-11-24.
 
 ## Gas-fired steam and hot-water boilers
 <a id="pwr-gas-fired-boilers"></a>

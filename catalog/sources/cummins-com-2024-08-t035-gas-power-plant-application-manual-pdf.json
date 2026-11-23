@@ -1,0 +1,28 @@
+{
+  "id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf",
+  "name": "Cummins — Enclosure acoustic design measures",
+  "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Cummins",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Cummins Gas Power Plant Application Manual, Noise Attenuation Support (3.6.7) Evidence: https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
+}

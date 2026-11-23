@@ -52,7 +52,19 @@
     "generator",
     "turbocharger",
     "exhaust after-treatment",
-    "cooling system"
+    "cooling system",
+    "gas engine prime mover",
+    "alternator",
+    "packaged genset enclosure",
+    "jacket-water and radiator cooling",
+    "lube oil system",
+    "fuel gas train and storage",
+    "exhaust silencer and SCR",
+    "starting air",
+    "paralleling controller",
+    "generator circuit breaker and MV switchgear",
+    "absorption chiller for waste heat",
+    "foundation and vibration isolation"
   ],
   "suppliers": [
     {
@@ -178,9 +190,34 @@
     {
       "url": "https://en.wikipedia.org/wiki/Gas_engine",
       "note": "Wikipedia: Gas engine — process-description cross-check 2026-10-29 (secondary source)"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+      "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu",
+      "note": "Read 2026-11-24 in the gas-engine/data-centre sweep"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/",
+      "source_id": "jenbacher-com-data-center",
+      "note": "Read 2026-11-24 in the gas-engine/data-centre sweep"
+    },
+    {
+      "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+      "source_id": "download-se-com-download-se-com-files",
+      "note": "Read 2026-11-24 in the gas-engine/data-centre sweep"
+    },
+    {
+      "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
+      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf",
+      "note": "Read 2026-11-24 in the gas-engine/data-centre sweep"
+    },
+    {
+      "url": "https://uptimeinstitute.com/tiers",
+      "source_id": "uptimeinstitute-com-uptimeinstitute-com-tiers",
+      "note": "Read 2026-11-24 in the gas-engine/data-centre sweep"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-24",
   "gaps": [],
   "trl": {
     "low": 9,
@@ -215,5 +252,6 @@
         "note": "US DOE/EE-2764, CHP Technologies: Reciprocating Engines (Aug 2023), Table 4 capital and O&M costs, read 2026-11-16"
       }
     }
-  ]
+  ],
+  "notes": " Balance-of-plant, utilities, products, drawings and named projects added 2026-11-24. Balance-of-plant, utilities, products, drawings and named projects added 2026-11-24. Balance-of-plant, utilities, products, drawings and named projects added 2026-11-24."
 }

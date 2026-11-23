@@ -1,0 +1,44 @@
+{
+  "id": "ge-ohio-hyperscale-data-centre-engine-plant-w-rtsil-34sg-debut",
+  "name": "Ohio hyperscale data-centre engine plant (Wärtsilä 34SG debut)",
+  "country": "USA (non-APAC comparator)",
+  "location": "USA (non-APAC comparator)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "IDC"
+  ],
+  "description": "Primary off-grid power; first data-centre application of the 34SG model; brings Wärtsilä US data-centre capacity sold to over 1.6 GW at the time. page_read:false - WebSearch result marked search-verified; direct page not fetched this session",
+  "capacities": [
+    {
+      "metric": "power generation",
+      "value": 412.0,
+      "unit": "MW",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.wartsila.com/media/news/16-04-2026-wartsila-s-34sg-engine-makes-its-data-center-debut-with-new-412-mw-u-s-project-3740972",
+        "source_id": "wartsila-com-news-16-04-2026-wartsila-s-34sg-engine-makes-its-data"
+      }
+    }
+  ],
+  "technologies": [
+    "pwr-gas-engines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/media/news/16-04-2026-wartsila-s-34sg-engine-makes-its-data-center-debut-with-new-412-mw-u-s-project-3740972",
+      "source_id": "wartsila-com-news-16-04-2026-wartsila-s-34sg-engine-makes-its-data"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed commissioning dates and owner/contractor roles",
+      "why": "Not consistently stated on the read page.",
+      "next_action": "Read the project's primary announcement for dated milestones."
+    }
+  ],
+  "notes": "page_read:false - WebSearch result marked search-verified; direct page not fetched this session",
+  "last_reviewed": "2026-11-24"
+}

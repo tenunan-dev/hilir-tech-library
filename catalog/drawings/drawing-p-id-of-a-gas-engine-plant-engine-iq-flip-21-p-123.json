@@ -1,0 +1,36 @@
+{
+  "id": "drawing-p-id-of-a-gas-engine-plant-engine-iq-flip-21-p-123",
+  "title": "P&ID of a gas engine plant — Engine IQ flip'21, p. 123",
+  "diagram_type": "P&ID",
+  "description": "Labelled blocks: oil management, exhaust system, LT water, HT water, power supply, gas supply, emergency cooling; page states 'All rights reserved May 19'.",
+  "publisher": "Engine IQ (flipbuilder flipbook; publisher not further identified on the page)",
+  "url": "https://online.flipbuilder.com/mniezgorski/flbe/files/basic-html/page123.html",
+  "licence": "All rights reserved (as printed on the page)",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://online.flipbuilder.com/mniezgorski/flbe/files/basic-html/page123.html",
+      "source_id": "online-flipbuilder-com-basic-html-page123-html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Pointer only - no diagram reproduced. WebFetch read 2026-11-24; title and all labels from the page's OCR/text block.",
+  "last_reviewed": "2026-11-24"
+}

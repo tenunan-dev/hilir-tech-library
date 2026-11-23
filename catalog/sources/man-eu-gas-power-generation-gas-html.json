@@ -1,0 +1,28 @@
+{
+  "id": "man-eu-gas-power-generation-gas-html",
+  "name": "MAN Energy Solutions — Power range",
+  "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "MAN Energy Solutions",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. MAN Engines natural-gas engine programme (E0834-E3872), continuous operation; special gas 68-750 kW; overall efficiency >90% Evidence: https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+}

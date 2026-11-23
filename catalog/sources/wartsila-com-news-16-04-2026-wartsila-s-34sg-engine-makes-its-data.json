@@ -1,0 +1,28 @@
+{
+  "id": "wartsila-com-news-16-04-2026-wartsila-s-34sg-engine-makes-its-data",
+  "name": "Wärtsilä — Ohio hyperscale data-centre engine plant (Wärtsilä 34SG",
+  "url": "https://www.wartsila.com/media/news/16-04-2026-wartsila-s-34sg-engine-makes-its-data-center-debut-with-new-412-mw-u-s-project-3740972",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Wärtsilä",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Primary off-grid power; first data-centre application of the 34SG model; brings Wärtsilä US data-centre capacity sold to over 1.6 GW at the time. Evidence: https://www.wartsila.com/media/news/16-04-2026-wartsila-s-34sg-engine-makes-its-data-center-debut-with-new-412-mw-u-s-project-3740972"
+}

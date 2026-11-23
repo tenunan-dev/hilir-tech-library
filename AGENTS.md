@@ -33,18 +33,18 @@
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
-| Catalog sources | 762 valid, 762 unique ids |
+| Catalog sources | 831 valid, 831 unique ids |
 | Technology cards | 392 (407-entry register) |
-| Vendor records | 596 |
-| Equipment classes | 81 (58 boiler types/components from the first sweep, plus 23 supporting systems: feedwater pretreatment, RO/EDI, chemical dosing, sampling, blowdown recovery, cleaning, steam traps, condensate pumps/polishing, separators, PRV/desuperheating, expansion joints, silencers, insulation, gas boosters, pilots/ignition, instrument air, SCR reagent, circulation/feedwater pumps, MCC/VFD and HRSG bypass dampers) |
-| Projects and plants | 304 |
-| Product catalog | 69 vendor product lines with printed specifications (`schema/product.schema.json`, `catalog/products/`) |
-| Process drawings | 35 PFD/P&ID/schematic records (`schema/drawing.schema.json`, `catalog/drawings/`) — the diagrams stay at the publisher's url |
+| Vendor records | 616 |
+| Equipment classes | 100 (58 boiler types/components from the first sweep, plus 23 supporting systems: feedwater pretreatment, RO/EDI, chemical dosing, sampling, blowdown recovery, cleaning, steam traps, condensate pumps/polishing, separators, PRV/desuperheating, expansion joints, silencers, insulation, gas boosters, pilots/ignition, instrument air, SCR reagent, circulation/feedwater pumps, MCC/VFD and HRSG bypass dampers) |
+| Projects and plants | 331 |
+| Product catalog | 93 vendor product lines with printed specifications (`schema/product.schema.json`, `catalog/products/`) |
+| Process drawings | 50 PFD/P&ID/schematic records (`schema/drawing.schema.json`, `catalog/drawings/`) — the diagrams stay at the publisher's url |
 | Corpus documents | 253, **one per source url** (decision 40), each with a hand-written summary — 207 open, 46 full-text-restricted (13,192 chunks locally and in Neon) |
 
-Verified live 2026-11-24: Neon reloaded (762 sources / 596 vendors / 392 cards / 81 equipment /
-304 projects / 69 products / 35 drawings / 407 register entries / 253 documents / 13,192 chunks /
-4,904 nodes / 15,279 edges / 15,431 vectors); `pytest -q tests` 1,550 passed, 13 skipped.
+Verified live 2026-11-24: Neon reloaded (831 sources / 616 vendors / 392 cards / 100 equipment /
+331 projects / 93 products / 50 drawings / 407 register entries / 253 documents / 13,192 chunks /
+5,107 nodes / 16,137 edges / 15,605 vectors); `pytest -q tests` 1,616 passed, 13 skipped.
 The MCP surface is 30 tools, adding list/get products and drawings. Standing main effort is source discovery
 (`docs/SOURCE_DISCOVERY_PLAN.md`, decision #30); the next equipment families wait on the owner
 (decision #33). Open owner items and the session log are in `docs/STATUS.md`.

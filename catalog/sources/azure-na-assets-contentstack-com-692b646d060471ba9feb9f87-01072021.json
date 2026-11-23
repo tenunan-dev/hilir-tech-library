@@ -1,0 +1,28 @@
+{
+  "id": "azure-na-assets-contentstack-com-692b646d060471ba9feb9f87-01072021",
+  "name": "Yokogawa",
+  "url": "https://azure-na-assets.contentstack.com/v3/assets/blta3c1d56420975795/bltb117df1445da53a7/692b646d060471ba9feb9f87/01072021_WP_Power_v2.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Azure Na Assets.Contentstack.Com",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Diagram pointer recorded in drawings array; not re-fetched this session Evidence: https://azure-na-assets.contentstack.com/v3/assets/blta3c1d56420975795/bltb117df1445da53a7/692b646d060471ba9feb9f87/01072021_WP_Power_v2.pdf"
+}

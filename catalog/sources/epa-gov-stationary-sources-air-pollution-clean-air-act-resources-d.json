@@ -1,0 +1,28 @@
+{
+  "id": "epa-gov-stationary-sources-air-pollution-clean-air-act-resources-d",
+  "name": "US Environmental Protection Agency — EPA emergency-engine non-emergency hours",
+  "url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "US Environmental Protection Agency",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. EPA Clean Air Act Resources for Data Centers: certain emergency engines may operate 50 hours/year in non-emergency situations under 40 CFR 63.6640(f)(3)-(4), 60 Evidence: https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers"
+}

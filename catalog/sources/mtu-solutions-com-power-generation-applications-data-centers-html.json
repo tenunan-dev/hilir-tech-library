@@ -1,0 +1,28 @@
+{
+  "id": "mtu-solutions-com-power-generation-applications-data-centers-html",
+  "name": "MTU Solutions — Electrical power range",
+  "url": "https://www.mtu-solutions.com/seai/en/applications/power-generation/power-generation-applications/data-centers.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "MTU Solutions",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Rolls-Royce mtu gas gensets, 50Hz (60Hz 30-2,522 kWe); Time Before Overhaul 84,000 h Evidence: https://www.mtu-solutions.com/seai/en/applications/power-generation/power-generation-applications/data-centers.html"
+}

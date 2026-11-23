@@ -1,0 +1,25 @@
+{
+  "id": "carrier",
+  "name": "Carrier",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Carrier is named as a supplier or publisher on a page read during the gas-engine/data-centre sweep.",
+  "technologies": [
+    "pwr-gas-engines",
+    "idc-behind-the-meter-gas"
+  ],
+  "sources": [
+    {
+      "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+      "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 gas-engine/data-centre sweep; country and detailed roles were not stated on the read page."
+}

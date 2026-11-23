@@ -1,0 +1,51 @@
+{
+  "id": "everllence-ex-man-energy-solutions-everllence-51-60g-ts",
+  "name": "Everllence 51/60G (TS)",
+  "manufacturer": "everllence",
+  "product_type": "engine",
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "description": "Vendor product line read 2026-11-24. 25% hydrogen admixture",
+  "specifications": [
+    {
+      "metric": "Mechanical output",
+      "unit": "kWm up to",
+      "basis": "",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": 20700
+    },
+    {
+      "metric": "Engine speed",
+      "unit": "rpm (50/60 Hz)",
+      "basis": "",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": "500 / 514"
+    },
+    {
+      "metric": "Efficiency",
+      "unit": "% with two-stage turbocharging",
+      "basis": "",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": ">51"
+    }
+  ],
+  "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+  "sources": [
+    {
+      "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+      "source_id": "everllence-com-products-gas-fuel-engines"
+    }
+  ],
+  "notes": "25% hydrogen admixture",
+  "last_reviewed": "2026-11-24"
+}

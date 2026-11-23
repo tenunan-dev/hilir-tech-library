@@ -1,0 +1,50 @@
+{
+  "id": "data-centre-bess-bridging",
+  "name": "Battery energy storage / lithium-ion UPS / flywheels integrated with gensets for bridging and peak shaving",
+  "equipment_type": "storage",
+  "sector": "IDC",
+  "sector_codes": [
+    "ELE",
+    "IDC",
+    "PWR"
+  ],
+  "description": "Battery energy storage / lithium-ion UPS / flywheels integrated with gensets for bridging and peak shaving",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Battery energy storage / lithium-ion UPS / flywheels integrated with gensets for bridging and peak shaving",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+        "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+      }
+    }
+  ],
+  "vendors": [
+    "active-power-piller-group",
+    "vertiv",
+    "fluence",
+    "tesla-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+      "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "No verified datasheet for a Tesla BESS product specifically configured for data-centre UPS bridging",
+      "why": "Only a third-party NERC-presentation reference was found",
+      "next_action": "Fetch Tesla Megapack product page and NERC Large Loads Task Force presentation directly"
+    },
+    {
+      "what": "Measured round-trip efficiency and degradation for Li-ion UPS vs flywheel in a hot, high-cycling AI load profile",
+      "why": "Vendor claims only",
+      "next_action": "Seek independent test or operator data"
+    }
+  ],
+  "notes": "Merged from 1 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

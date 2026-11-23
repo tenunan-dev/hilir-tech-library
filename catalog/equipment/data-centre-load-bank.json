@@ -1,0 +1,48 @@
+{
+  "id": "data-centre-load-bank",
+  "name": "Load banks, commissioning and testing equipment for gensets",
+  "equipment_type": "testing",
+  "sector": "IDC",
+  "sector_codes": [
+    "ELE",
+    "IDC"
+  ],
+  "description": "Load banks, commissioning and testing equipment for gensets",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Load banks, commissioning and testing equipment for gensets",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+        "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+      }
+    }
+  ],
+  "vendors": [
+    "avtron-power-solutions",
+    "trystar",
+    "buckeye-power-sales"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+      "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Primary NFPA 110 standard text and exact clause numbers for load-bank test profiles",
+      "why": "Standard is paywalled; only secondary summaries were retrieved",
+      "next_action": "Consult NFPA LiNK or adopted edition via AHJ before specifying acceptance criteria"
+    },
+    {
+      "what": "Load bank requirements specific to gas-engine (spark-ignition) prime plants running continuously rather than standby",
+      "why": "Found guidance is framed around diesel emergency generators",
+      "next_action": "Check engine OEM (INNIO/Wärtsilä) commissioning manuals for gas engine run-in procedures"
+    }
+  ],
+  "notes": "Merged from 1 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

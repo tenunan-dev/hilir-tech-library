@@ -1,17 +1,19 @@
 {
   "id": "burgessmanning-com-preset-vent-silencers",
-  "name": "Burgess-Manning (CECO Environmental) — Preset Vent Silencers",
+  "name": "Burgess-Manning — Vendor enclosure product families",
   "url": "https://burgessmanning.com/preset-vent-silencers/",
   "source_type": "oem-supplier",
   "sectors": [
     "PWR",
-    "REF"
+    "IDC"
   ],
   "disciplines": [
     "PRC",
-    "ROT"
+    "ROT",
+    "ELE",
+    "INS"
   ],
-  "publisher_org": "Burgess-Manning (CECO Environmental)",
+  "publisher_org": "Burgess-Manning",
   "regions": [
     "global",
     "na"
@@ -22,5 +24,5 @@
   "quality_tier": 1,
   "verification": "verified",
   "last_verified": "2026-11-24",
-  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Read in full: Burgess-Manning Preset Vent Silencer product page. Applications include steam boilers and HRSGs. Evidence: https://burgessmanning.com/preset-vent-silencers/"
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Burgess-Manning product navigation and company page read this session Evidence: https://burgessmanning.com/preset-vent-silencers/"
 }

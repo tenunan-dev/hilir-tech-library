@@ -1,0 +1,42 @@
+{
+  "id": "w-rtsil-finland-w-rtsil-46ts-sg-gas-engine",
+  "name": "Wärtsilä 46TS-SG gas engine",
+  "manufacturer": "wartsila",
+  "product_type": "engine",
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "description": "Vendor product line read 2026-11-24. Selected for the 300 MW / 13-engine Australian plant (press release page_read:true).",
+  "specifications": [
+    {
+      "metric": "Electrical output (50/60 Hz variants as listed)",
+      "unit": "MW",
+      "basis": "Wärtsilä data-centre page product grid",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+        "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+      },
+      "low": 20.4,
+      "high": 22.9
+    },
+    {
+      "metric": "Electrical efficiency",
+      "unit": "%",
+      "basis": "Wärtsilä data-centre page product grid; 2 min start-up time",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+        "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+      },
+      "value": 51.3
+    }
+  ],
+  "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+      "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+    }
+  ],
+  "notes": "Selected for the 300 MW / 13-engine Australian plant (press release page_read:true).",
+  "last_reviewed": "2026-11-24"
+}

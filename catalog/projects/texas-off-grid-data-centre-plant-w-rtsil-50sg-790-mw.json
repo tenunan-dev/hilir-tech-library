@@ -1,0 +1,44 @@
+{
+  "id": "texas-off-grid-data-centre-plant-w-rtsil-50sg-790-mw",
+  "name": "Texas off-grid data-centre plant (Wärtsilä 50SG, 790 MW)",
+  "country": "USA (non-APAC comparator)",
+  "location": "USA (non-APAC comparator)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "IDC"
+  ],
+  "description": "Heat rate approx. 6,800 Btu/kWh (approx. 50% efficiency) as stated; natural gas; full capacity at temperatures exceeding 100 F (~38 C). page_read:false - WebSearch result marked search-verified; direct page not fetched this session",
+  "capacities": [
+    {
+      "metric": "power generation",
+      "value": 790.0,
+      "unit": "MW",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.wartsila.com/media/news/23-04-2026-wartsila-continues-to-expand-its-data-center-footprint-with-new-790-mw-order-in-texas-the-next-data-center-alley-3744599",
+        "source_id": "wartsila-com-news-23-04-2026-wartsila-continues-to-expand-its-data"
+      }
+    }
+  ],
+  "technologies": [
+    "pwr-gas-engines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/media/news/23-04-2026-wartsila-continues-to-expand-its-data-center-footprint-with-new-790-mw-order-in-texas-the-next-data-center-alley-3744599",
+      "source_id": "wartsila-com-news-23-04-2026-wartsila-continues-to-expand-its-data"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed commissioning dates and owner/contractor roles",
+      "why": "Not consistently stated on the read page.",
+      "next_action": "Read the project's primary announcement for dated milestones."
+    }
+  ],
+  "notes": "page_read:false - WebSearch result marked search-verified; direct page not fetched this session",
+  "last_reviewed": "2026-11-24"
+}

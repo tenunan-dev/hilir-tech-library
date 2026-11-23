@@ -1,0 +1,28 @@
+{
+  "id": "mtu-solutions-com-power-generation-products-gas-generator-sets-htm",
+  "name": "Rolls-Royce Power Systems / mtu",
+  "url": "https://www.mtu-solutions.com/seai/en/applications/power-generation/power-generation-products/gas-generator-sets.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "MTU Solutions",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. URL listed from fetched mtu data-center page navigation; product page not separately fetched Evidence: https://www.mtu-solutions.com/seai/en/applications/power-generation/power-generation-products/gas-generator-sets.html"
+}

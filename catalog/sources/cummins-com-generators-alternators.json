@@ -1,0 +1,28 @@
+{
+  "id": "cummins-com-generators-alternators",
+  "name": "Cummins — Alternator rating range",
+  "url": "https://www.cummins.com/generators/alternators",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Cummins",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Cummins STAMFORD / AvK alternators, combined range; HQ England, UK; operations in 116 countries Evidence: https://www.cummins.com/generators/alternators"
+}

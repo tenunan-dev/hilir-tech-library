@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-596 vendor records covering 326 technologies. One record per vendor in
+616 vendor records covering 326 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -228,12 +228,23 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| Active Power (Piller group) | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Active Power / Piller | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [AirTrunk](https://airtrunk.com) | Australia | developer, operator | SMR and fuel-cell power purchase for data centres |
 | [Anord Mardix](https://www.anordmardix.com) | Ireland | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Asperitas](https://www.asperitas.com/) | NL | oem | Immersion cooling |
+| Avtron Power Solutions | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Basler Electric | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [Boyd Corporation](https://www.boydcorp.com/) | US | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| Buckeye Power Sales | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Carrier | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [Caterpillar](https://www.caterpillar.com/) | US | oem | Behind-the-meter gas generation for data centres |
+| ComAp | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [CoolIT Systems](https://www.coolitsystems.com/) | CA | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| Cummins Generator Technologies | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Cummins Inc. | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Deep Sea Electronics | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| DEIF | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [Digital Realty](https://www.digitalrealty.com) | USA | developer, operator | SMR and fuel-cell power purchase for data centres |
 | [DPR Construction](https://www.dpr.com) | USA | epc | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Enel X](https://www.enelx.com/) | IT | service | Data centre grid interaction (demand response and frequency services) |
@@ -242,18 +253,27 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Green Revolution Cooling (GRC)](https://www.grcooling.com/) | US | oem | Immersion cooling |
 | [GridBeyond](https://gridbeyond.com/) | IE | service | Data centre grid interaction (demand response and frequency services) |
 | [Holder Construction](https://www.holderconstruction.com) | USA | epc | Data centre siting and power procurement |
+| INNIO Jenbacher, Austria | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Johnson Controls (YORK, Silent-Aire) | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [Legrand](https://www.legrand.com/) | FR | oem | Rack power distribution (PDU, 48 V DC and 415 V AC architectures); Medium-voltage switchgear and busway in the data hall |
 | [LiquidStack](https://www.liquidstack.com/) | US | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Mace Group](https://www.macegroup.com) | United Kingdom | epc, service | Data centre siting and power procurement |
+| MAN Engines | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Mecc Alte | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [Mercury Engineering](https://www.mercuryeng.com) | Ireland | epc | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Motivair](https://www.motivaircorp.com/) | US | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Munters](https://www.munters.com/) | SE | oem | Free cooling and economisers |
+| MWM / Everllence | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [NVIDIA](https://www.nvidia.com/) | US | oem | AI-training and inference load profiles |
+| Rehlko | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [Rittal](https://www.rittal.com) | Germany | oem, supplier | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Rosendin Electric](https://www.rosendin.com) | USA | epc | Data centre UPS systems (double-conversion, lithium, modular); Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [STULZ](https://www.stulz.com/) | DE | oem | Air cooling (CRAH/CRAC, hot/cold aisle containment) |
 | [Submer](https://submer.com/) | ES | oem | Immersion cooling |
+| Trane | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Trystar | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [Uptime Institute](https://uptimeinstitute.com/) | US | service | Data centre energy and water benchmarking (PUE/WUE) |
+| Wartsila Energy | — | oem, supplier | Behind-the-meter gas generation for data centres |
 
 ## INS: Instrumentation and control
 
@@ -407,6 +427,8 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
 | [Abengoa](https://www.abengoa.com) | Spain | epc | Concentrated solar power with storage |
+| Active Power (Piller group) | — | oem, supplier | Gas engines |
+| Active Power / Piller | — | oem, supplier | Gas engines |
 | AERZEN (Aerzener Maschinenfabrik GmbH) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Aggreko](https://www.aggreko.com) | United Kingdom | rental, packager | Containerised hybrid power modules (solar, storage, gensets); Lithium-ion battery energy storage; Gas engines |
 | [ALZETA](https://alzeta.com/ultra-low-nox-burners) | United States | oem | Gas-fired steam and hot-water boilers |
@@ -414,8 +436,10 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [APR Energy](https://www.aprenergy.com) | USA | rental, packager | Mobile gas turbine power plants |
 | Armstrong International | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | Atlantic Feedwater Systems | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Avtron Power Solutions | — | oem, supplier | Gas engines |
 | [Babcock & Wilcox](https://www.babcock.com) | USA | oem, service | Combined cycle and HRSG; Biomass and waste-to-energy |
 | [Baker Hughes](https://www.bakerhughes.com/) | USA | oem, service | Aeroderivative and industrial gas turbines; Cogeneration and combined heat and power |
+| Basler Electric | — | oem, supplier | Gas engines |
 | [Bechtel](https://www.bechtel.com) | USA | epc | Large light-water reactors |
 | BOA Group | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | Boldrocchi Group | — | oem, supplier | Gas-fired steam and hot-water boilers |
@@ -423,22 +447,29 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [BoxPower](https://boxpower.io) | USA | packager, oem | Containerised hybrid power modules (solar, storage, gensets) |
 | [Bredenoord](https://www.bredenoord.com) | Netherlands | rental | Containerised hybrid power modules (solar, storage, gensets) |
 | Brittania Industries | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Buckeye Power Sales | — | oem, supplier | Gas engines |
 | Burgess-Manning (CECO Environmental) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [BWSC](https://www.bwsc.com) | Denmark | packager, epc | Powerships and power barges; Biomass and waste-to-energy |
 | [BWX Technologies](https://www.bwxt.com) | USA | oem, developer, supplier | Microreactors (transportable nuclear); Advanced reactors (high-temperature gas, molten salt) |
 | [BYD](https://www.fdbatt.com) | China | oem | Lithium-ion battery energy storage |
+| Carrier | — | oem, supplier | Gas engines |
 | [CATL](https://www.catl.com) | China | oem | Lithium-ion battery energy storage; Sodium-ion batteries |
 | [CGN](https://www.cgn.com.cn) | China | operator, developer | Large light-water reactors |
 | Changyu Pump | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Ciel & Terre](https://www.ciel-et-terre.net) | France | developer, oem | Floating solar |
 | [Cleaver-Brooks](https://cleaverbrooks.com) | USA | oem | Combined cycle and HRSG; Cogeneration and combined heat and power |
 | [Climeon](https://climeon.com) | Sweden | oem | Modular ORC units for waste heat and small geothermal |
+| ComAp | — | oem, supplier | Gas engines |
 | [Commonwealth Fusion Systems](https://cfs.energy) | USA | developer | Fusion |
 | Concord Environmental | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Cosin](https://www.cosinsolar.com) | China | oem, epc | Concentrated solar power with storage |
 | CS Instruments | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Cummins Generator Technologies | — | oem, supplier | Gas engines |
+| Cummins Inc. | — | oem, supplier | Gas engines |
 | dB Noise Reduction | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | dB Noise Reduction Inc. | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Deep Sea Electronics | — | oem, supplier | Gas engines |
+| DEIF | — | oem, supplier | Gas engines |
 | [Doosan Enerbility](https://www.doosanenerbility.com) | South Korea | oem, supplier | Heavy-duty gas turbines (H and J class); Combined cycle and HRSG; Large light-water reactors; Offshore wind (fixed bottom) |
 | E+E Elektronik | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | EagleBurgmann (KE-A/S) | — | oem, supplier | Gas-fired steam and hot-water boilers |
@@ -483,6 +514,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [IHI Corporation](https://www.ihi.co.jp) | Japan | oem | Combined cycle and HRSG |
 | IMI Process Automation | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [INNIO Jenbacher](https://www.jenbacher.com) | Austria | oem | Gas engines; Modular reciprocating engine power plants; Cogeneration and combined heat and power |
+| INNIO Jenbacher, Austria | — | oem, supplier | Gas engines |
 | Integrated Flow Solutions (IFS) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Invinity Energy Systems](https://invinity.com/) | United Kingdom | oem | Flow batteries (vanadium, zinc-bromine) |
 | Ion Exchange (India) Ltd | — | oem, supplier | Gas-fired steam and hot-water boilers |
@@ -491,6 +523,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [JERA](https://www.jera.co.jp) | Japan | operator | Combined cycle and HRSG; Hydrogen-capable and ammonia-fired gas turbines |
 | [JEREH](https://www.jereh.com) | China | oem, packager, epc, service, rental | Mobile gas turbine power plants; Aeroderivative and industrial gas turbines; Gas engines; Cogeneration and combined heat and power; Lithium-ion battery energy storage |
 | [JinkoSolar](https://www.jinkosolar.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT) |
+| Johnson Controls (YORK, Silent-Aire) | — | oem, supplier | Gas engines |
 | [Kairos Power](https://kairospower.com) | USA | developer, oem | Advanced reactors (high-temperature gas, molten salt) |
 | [Karpowership](https://karpowership.com) | Turkey | operator, packager | Powerships and power barges |
 | [KEPCO E&C](https://www.kepco-enc.com) | South Korea | epc | Large light-water reactors |
@@ -500,11 +533,14 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Kurita Water Industries (Kurita ASEAN) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | LANXESS | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [LONGi](https://www.longi.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT); Perovskite and tandem solar cells |
+| MAN Engines | — | oem, supplier | Gas engines |
 | [McDermott](https://www.mcdermott.com) | USA | epc, oem | HVDC transmission and interconnectors |
+| Mecc Alte | — | oem, supplier | Gas engines |
 | Megaflexon | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | METCO Technologies | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Mitsubishi Power](https://power.mhi.com) | Japan | oem | Heavy-duty gas turbines (H and J class); Combined cycle and HRSG; Hydrogen-capable and ammonia-fired gas turbines; Mobile gas turbine power plants |
 | [Miura Boiler](https://miuraboiler.com) | Japan | oem | Cogeneration and combined heat and power |
+| MWM / Everllence | — | oem, supplier | Gas engines |
 | [NANO Nuclear Energy](https://www.nanonuclearenergy.com) | USA | developer | Microreactors (transportable nuclear) |
 | NEM Energy | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [NuScale Power](https://www.nuscalepower.com) | USA | oem | Small modular reactors |
@@ -521,6 +557,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Profire Energy | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [PT PLN (Persero)](https://web.pln.co.id) | Indonesia | operator | Floating solar |
 | Purolite (Ecolab) | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Rehlko | — | oem, supplier | Gas engines |
 | [Rolls-Royce Power Systems (mtu)](https://www.mtu-solutions.com) | Germany | oem, packager | Modular reciprocating engine power plants; Gas engines; Cogeneration and combined heat and power |
 | [Rolls-Royce SMR](https://www.rolls-royce-smr.com) | United Kingdom | oem, developer | Small modular reactors |
 | [Rondo Energy](https://www.rondo.com/) | USA | oem | Thermal energy storage (molten salt, sand, bricks) |
@@ -545,7 +582,9 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [TLV](https://www.tlv.com/steam-info/steam-theory) | Japan | oem, supplier | Gas-fired steam and hot-water boilers |
 | TMEIC | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Tokamak Energy](https://tokamakenergy.com) | UK | developer | Fusion |
+| Trane | — | oem, supplier | Gas engines |
 | [Trina Solar](https://www.trinasolar.com) | China | oem, supplier | Crystalline silicon PV (PERC, TOPCon, HJT); Lithium-ion battery energy storage |
+| Trystar | — | oem, supplier | Gas engines |
 | [Turboden](https://www.turboden.com) | Italy | oem | Modular ORC units for waste heat and small geothermal |
 | Unaflex / Kadant | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [USP&E Global](https://uspeglobal.com) | USA | epc, rental, operator, service | Modular reciprocating engine power plants; Mobile gas turbine power plants; Containerised hybrid power modules (solar, storage, gensets) |
@@ -557,6 +596,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Voith](https://voith.com) | Germany | oem, service | Hydropower |
 | [Waller Marine](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083) | USA | packager | Powerships and power barges |
 | Warren Controls | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Wartsila Energy | — | oem, supplier | Gas engines |
 | [Weishaupt](https://cleaverbrooks.com/product/switchfire) | Germany | oem | Gas-fired steam and hot-water boilers |
 | [Westinghouse Electric Company](https://www.westinghousenuclear.com) | USA | oem, developer | Microreactors (transportable nuclear); Large light-water reactors; Small modular reactors |
 | Wilhelmsen | — | oem, supplier | Gas-fired steam and hot-water boilers |

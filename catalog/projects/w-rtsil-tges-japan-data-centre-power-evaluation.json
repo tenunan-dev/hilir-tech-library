@@ -1,0 +1,33 @@
+{
+  "id": "w-rtsil-tges-japan-data-centre-power-evaluation",
+  "name": "Wärtsilä / TGES Japan data-centre power evaluation",
+  "country": "Japan",
+  "location": "Japan",
+  "status": "proposed",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "IDC"
+  ],
+  "description": "Framework to jointly evaluate on-site/off-grid gas- or dual-fuel engine power for selected TGES data-centre opportunities in Japan; technical concepts, performance parameters and feasibility. page_read:true; no capacity, engine count or owner-of-final-plant disclosed",
+  "capacities": [],
+  "technologies": [
+    "pwr-gas-engines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/media/news/17-09-2026-wartsila-and-tges-to-evaluate-power-solutions-to-support-japan-s-accelerating-ai-driven-data-centre-growth-3797628",
+      "source_id": "wartsila-com-news-17-09-2026-wartsila-and-tges-to-evaluate-power-s"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed commissioning dates and owner/contractor roles",
+      "why": "Not consistently stated on the read page.",
+      "next_action": "Read the project's primary announcement for dated milestones."
+    }
+  ],
+  "notes": "page_read:true; no capacity, engine count or owner-of-final-plant disclosed",
+  "last_reviewed": "2026-11-24"
+}

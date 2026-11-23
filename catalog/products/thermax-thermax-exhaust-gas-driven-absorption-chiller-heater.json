@@ -1,0 +1,53 @@
+{
+  "id": "thermax-thermax-exhaust-gas-driven-absorption-chiller-heater",
+  "name": "Thermax Exhaust Gas-Driven Absorption Chiller-Heater",
+  "manufacturer": "thermax",
+  "product_type": "chiller",
+  "equipment": [
+    "gas-engine-waste-heat-chiller"
+  ],
+  "description": "Vendor product line read 2026-11-24. Read directly via WebFetch.",
+  "specifications": [
+    {
+      "metric": "Capacity",
+      "unit": "TR (table); header states 30-3000 TR",
+      "basis": "",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+        "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
+      },
+      "low": 50,
+      "high": 3000
+    },
+    {
+      "metric": "Cooling COP",
+      "unit": "up to",
+      "basis": "",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+        "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
+      },
+      "value": 1.53
+    },
+    {
+      "metric": "Exhaust temperature",
+      "unit": "deg C",
+      "basis": "",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+        "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
+      },
+      "low": 250,
+      "high": 600
+    }
+  ],
+  "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+  "sources": [
+    {
+      "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+      "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
+    }
+  ],
+  "notes": "Read directly via WebFetch.",
+  "last_reviewed": "2026-11-24"
+}

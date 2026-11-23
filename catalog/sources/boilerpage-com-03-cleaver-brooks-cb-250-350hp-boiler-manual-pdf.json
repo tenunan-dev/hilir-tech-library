@@ -1,17 +1,19 @@
 {
   "id": "boilerpage-com-03-cleaver-brooks-cb-250-350hp-boiler-manual-pdf",
-  "name": "Figure 2-11 Pilot Gas Train; gas fuel flow diagram — Cleaver-Brooks CB-250/350 hp Boiler Operation, Service an",
+  "name": "BoilerPage — Figure 2-11 Pilot Gas Train; gas fuel flow diagram — Cl",
   "url": "https://boilerpage.com/wp-content/uploads/2025/03/Cleaver-Brooks-CB-250-350hp-Boiler-Manual.pdf",
   "source_type": "oem-supplier",
   "sectors": [
     "PWR",
-    "REF"
+    "IDC"
   ],
   "disciplines": [
     "PRC",
-    "ROT"
+    "ROT",
+    "ELE",
+    "INS"
   ],
-  "publisher_org": "Cleaver-Brooks",
+  "publisher_org": "BoilerPage",
   "regions": [
     "global",
     "na"
@@ -22,5 +24,5 @@
   "quality_tier": 1,
   "verification": "unverified",
   "last_verified": null,
-  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Direct PDF URL downloaded (9,304,653 bytes, 169 pages); pilot train figure and gas-fuel-flow text verified. Additional gas train figures appear in the CBW manua Evidence: https://boilerpage.com/wp-content/uploads/2025/03/Cleaver-Brooks-CB-250-350hp-Boiler-Manual.pdf"
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Catalogue pointer from techlib drawings table; not re-fetched this session. Boiler application, not gas engine. Evidence: https://boilerpage.com/wp-content/uploads/2025/03/Cleaver-Brooks-CB-250-350hp-Boiler-Manual.pdf"
 }

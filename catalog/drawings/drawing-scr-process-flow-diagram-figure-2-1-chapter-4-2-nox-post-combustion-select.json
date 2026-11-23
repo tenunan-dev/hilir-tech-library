@@ -1,0 +1,37 @@
+{
+  "id": "drawing-scr-process-flow-diagram-figure-2-1-chapter-4-2-nox-post-combustion-select",
+  "title": "SCR Process Flow Diagram — Figure 2.1, Chapter 4.2 NOx Post-Combustion Selective Catalytic Reduction",
+  "diagram_type": "PFD",
+  "description": "EPA NOx control chapter figure showing SCR process and reagent injection.",
+  "publisher": "U.S. Environmental Protection Agency",
+  "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch2.pdf",
+  "licence": "U.S. Government work - generally public domain in the United States",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "gas-engine-exhaust-emissions",
+    "gas-engine-prime-mover"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch2.pdf",
+      "source_id": "epa-gov-documents-cs4-2ch2-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Document URL verified reachable; caption/text extracted 2026-11-24. Catalogue pointer from techlib drawings table; PDF downloaded in earlier session but not re-fetched here.",
+  "last_reviewed": "2026-11-24"
+}

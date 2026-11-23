@@ -1,0 +1,45 @@
+{
+  "id": "ge-concord-group-four-palm-oil-waste-biogas-plants-malaysia",
+  "name": "Concord Group four palm-oil-waste/biogas plants, Malaysia",
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "under-construction",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "IDC"
+  ],
+  "description": "Palm-oil-waste biogas with methane capture; long-term servicing by INNIO; INNIO stated >500 Jenbacher engines operating on biogas and about 1 GW installed in ASEAN at the time. page_read:true",
+  "capacities": [
+    {
+      "metric": "power generation",
+      "value": 8.0,
+      "unit": "MW",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-signs-agreement-with-concord-group-of-companies-to-develop-four-biogas-power-plants-supporting-malaysian-decarbonization-efforts-2/",
+        "source_id": "innio-com-innio-signs-agreement-with-concord-group-of-companies-to"
+      }
+    }
+  ],
+  "technologies": [
+    "pwr-gas-engines",
+    "pwr-biomass-waste-to-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-signs-agreement-with-concord-group-of-companies-to-develop-four-biogas-power-plants-supporting-malaysian-decarbonization-efforts-2/",
+      "source_id": "innio-com-innio-signs-agreement-with-concord-group-of-companies-to"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed commissioning dates and owner/contractor roles",
+      "why": "Not consistently stated on the read page.",
+      "next_action": "Read the project's primary announcement for dated milestones."
+    }
+  ],
+  "notes": "page_read:true",
+  "last_reviewed": "2026-11-24"
+}

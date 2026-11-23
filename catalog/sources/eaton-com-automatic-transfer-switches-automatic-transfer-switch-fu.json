@@ -1,0 +1,28 @@
+{
+  "id": "eaton-com-automatic-transfer-switches-automatic-transfer-switch-fu",
+  "name": "Eaton",
+  "url": "https://www.eaton.com/us/en-us/products/low-voltage-power-distribution-controls-systems/automatic-transfer-switches/automatic-transfer-switch-fundamentals.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Eaton",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. WebFetch 403; all figures search-verified only Evidence: https://www.eaton.com/us/en-us/products/low-voltage-power-distribution-controls-systems/automatic-transfer-switches/automatic-transfer-switch-fundamentals.html"
+}

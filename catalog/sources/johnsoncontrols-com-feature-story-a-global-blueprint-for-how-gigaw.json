@@ -1,0 +1,28 @@
+{
+  "id": "johnsoncontrols-com-feature-story-a-global-blueprint-for-how-gigaw",
+  "name": "Johnson Controls (YORK, Silent-Aire)",
+  "url": "https://www.johnsoncontrols.com/building-insights/feature-story/a-global-blueprint-for-how-gigawatt-scale-ai-factories-can-re-use-waste-heat-with-absorption-chillers",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Johnson Controls",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. search-verified only. Evidence: https://www.johnsoncontrols.com/building-insights/feature-story/a-global-blueprint-for-how-gigawatt-scale-ai-factories-can-re-use-waste-heat-with-absorption-chillers"
+}

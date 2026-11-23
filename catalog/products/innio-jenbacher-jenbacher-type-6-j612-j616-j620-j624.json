@@ -1,0 +1,61 @@
+{
+  "id": "innio-jenbacher-jenbacher-type-6-j612-j616-j620-j624",
+  "name": "Jenbacher Type 6 (J612/J616/J620/J624)",
+  "manufacturer": "innio-jenbacher",
+  "product_type": "engine",
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "description": "Vendor product line read 2026-11-24. Pre-combustion chamber; Miller valve timing; LEANOX lean-burn; >7,000 engines since 1989",
+  "specifications": [
+    {
+      "metric": "Electrical output",
+      "unit": "kW up to @50Hz, generator terminals, ISO 3046 +5%",
+      "basis": "",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "value": 4499
+    },
+    {
+      "metric": "Voltage",
+      "unit": "kV @50Hz",
+      "basis": "",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "value": "400 / 6.3 / 10.5"
+    },
+    {
+      "metric": "Engine speed",
+      "unit": "rpm @50Hz",
+      "basis": "",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "Service life",
+      "unit": "operating hours before first major overhaul (fact sheet, search-verified)",
+      "basis": "",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "value": 60000
+    }
+  ],
+  "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+      "source_id": "jenbacher-com-type-6"
+    }
+  ],
+  "notes": "Pre-combustion chamber; Miller valve timing; LEANOX lean-burn; >7,000 engines since 1989",
+  "last_reviewed": "2026-11-24"
+}

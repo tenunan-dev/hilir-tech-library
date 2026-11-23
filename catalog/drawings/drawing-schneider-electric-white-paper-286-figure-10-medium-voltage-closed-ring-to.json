@@ -1,0 +1,36 @@
+{
+  "id": "drawing-schneider-electric-white-paper-286-figure-10-medium-voltage-closed-ring-to",
+  "title": "Schneider Electric White Paper 286 — Figure 10 'Medium Voltage closed ring topology based architecture for the gas supply system' (caption as printed)",
+  "diagram_type": "schematic",
+  "description": "Utility gas supply, redundant pressure reduction stations A and B, LNG storage A and B, generators 1-9; physical separation and 2x100% redundancy discussed in text.",
+  "publisher": "Schneider Electric Data Center Science Center (with Wärtsilä)",
+  "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+  "licence": "Schneider Electric White Paper 286, Version 1",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+      "source_id": "download-se-com-download-se-com-files"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "No diagram is copied into this repository.",
+      "next_action": "Open the URL and respect the stated licence before reuse."
+    }
+  ],
+  "notes": "Page read 2026-11-24. Pointer only; caption and component labels verified in extracted PDF. Also Figs 7-9, 11-13 cover MV topology, protection and automation.",
+  "last_reviewed": "2026-11-24"
+}

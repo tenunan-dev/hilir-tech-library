@@ -1,0 +1,52 @@
+{
+  "id": "woodward-woodward-easygen-3000xt",
+  "name": "Woodward easYgen-3000XT",
+  "manufacturer": "woodward",
+  "product_type": "controls",
+  "equipment": [
+    "gas-engine-controls-paralleling"
+  ],
+  "description": "Vendor product line read 2026-11-24. Synchronising, protection, AVR, load/PF control in one controller",
+  "specifications": [
+    {
+      "metric": "Isochronous gensets",
+      "unit": "gensets",
+      "basis": "",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
+        "source_id": "woodward-com-generator-controllers-easygen"
+      },
+      "low": 1,
+      "high": 32
+    },
+    {
+      "metric": "Measurement",
+      "unit": "accuracy class",
+      "basis": "",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
+        "source_id": "woodward-com-generator-controllers-easygen"
+      },
+      "value": "Class I true RMS"
+    },
+    {
+      "metric": "Redundancy",
+      "unit": "modes (search-verified detail)",
+      "basis": "",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
+        "source_id": "woodward-com-generator-controllers-easygen"
+      },
+      "value": "cold / warm / hot"
+    }
+  ],
+  "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
+  "sources": [
+    {
+      "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
+      "source_id": "woodward-com-generator-controllers-easygen"
+    }
+  ],
+  "notes": "Synchronising, protection, AVR, load/PF control in one controller",
+  "last_reviewed": "2026-11-24"
+}

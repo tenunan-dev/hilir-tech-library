@@ -1,0 +1,61 @@
+{
+  "id": "everllence-ex-man-energy-solutions-everllence-35-44g-ts",
+  "name": "Everllence 35/44G (TS)",
+  "manufacturer": "everllence",
+  "product_type": "engine",
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "description": "Vendor product line read 2026-11-24. Two-stage turbocharging option",
+  "specifications": [
+    {
+      "metric": "Mechanical output",
+      "unit": "kWm up to",
+      "basis": "",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": 12900
+    },
+    {
+      "metric": "Engine speed",
+      "unit": "rpm (60/50 Hz)",
+      "basis": "",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": "720 / 750"
+    },
+    {
+      "metric": "Ramp rate",
+      "unit": "MW/min hot",
+      "basis": "",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": ">14"
+    },
+    {
+      "metric": "Hydrogen admixture",
+      "unit": "%",
+      "basis": "",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": 25
+    }
+  ],
+  "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+  "sources": [
+    {
+      "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+      "source_id": "everllence-com-products-gas-fuel-engines"
+    }
+  ],
+  "notes": "Two-stage turbocharging option",
+  "last_reviewed": "2026-11-24"
+}

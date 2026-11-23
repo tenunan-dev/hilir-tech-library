@@ -1,0 +1,28 @@
+{
+  "id": "everllence-com-products-gas-fuel-engines",
+  "name": "Everllence — Mechanical output",
+  "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Everllence",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Everllence (ex-MAN) 35/44G and 35/44G TS, up to; 720/750 rpm; 60/50 Hz Evidence: https://www.everllence.com/energy/products/gas-fuel-engines"
+}

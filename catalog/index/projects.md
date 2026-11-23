@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-304 project records (one per named project or plant, schema `schema/project.schema.json`).
+331 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -1003,6 +1003,20 @@ Status: **operating** | Country: AE
 four APR1400 units, 5.6 GW total, about 25% of UAE electricity; construction from 2012; Unit 4 grid-connected March 2024; ~40 TWh/yr
 Technologies: pwr-large-light-water-reactors
 
+### Batam gas power plant (MAN/Everllence 20V35/44G) (batam-gas-power-plant-man-everllence-20v35-44g)
+Status: **operating** | Country: Indonesia
+New plant feeding the Indonesian grid in Batam opposite Singapore; low-emission natural gas; selected for hot, humid climate. page_read:true. A separate INNIO/PT MPower 80 MW Jenbacher grid-stabilisation agreement in Batam (14 Oct 2025), explicitly linked to ten data centres under development, is recorded at https://www.innio.com/en/news-media/press-releases/innio-and-pt-mpower-daya-energia-supply-80-mw-for-grid-stabilization-in-indonesia/ (page_read:true); number of engines not stated there.
+Technologies: pwr-gas-engines
+Capacity: power generation: 52.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Batam gas power plant (MAN/Everllence 20V35/44G) (ge-batam-gas-power-plant-man-everllence-20v35-44g)
+Status: **operating** | Country: Indonesia
+New plant feeding the Indonesian grid in Batam opposite Singapore; low-emission natural gas; selected for hot, humid climate. page_read:true. A separate INNIO/PT MPower 80 MW Jenbacher grid-stabilisation agreement in Batam (14 Oct 2025), explicitly linked to ten data centres under development, is recorded at https://www.innio.com/en/news-media/press-releases/innio-and-pt-mpower-daya-energia-supply-80-mw-for-grid-stabilization-in-indonesia/ (page_read:true); number of engines not stated there.
+Technologies: pwr-gas-engines
+Capacity: power generation: 52.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
 ### Bisha mine solar-diesel hybrid (Aggreko for Nevsun) (bisha-mine-solar-diesel-hybrid)
 Status: **operating** | Country: Eritrea
 Containerised solar-diesel hybrid power for an off-grid mine.
@@ -1022,6 +1036,20 @@ Technologies: pwr-cogeneration-chp
 Status: **operating** | Country: CN
 ±1,100 kV, 12 GW, about 3,300 km from Xinjiang to Anhui; world's highest-voltage DC transmission; full-voltage operation January 2019
 Technologies: pwr-hvdc-transmission
+
+### Cikarang gas power plant (MAN/Everllence 20V35/44G TS) (cikarang-gas-power-plant-man-everllence-20v35-44g-ts)
+Status: **operating** | Country: Indonesia
+Suburb of Jakarta; low-emission natural gas feeding Indonesian grid. page_read:true
+Technologies: pwr-gas-engines
+Capacity: power generation: 50.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Cikarang gas power plant (MAN/Everllence 20V35/44G TS) (ge-cikarang-gas-power-plant-man-everllence-20v35-44g-ts)
+Status: **operating** | Country: Indonesia
+Suburb of Jakarta; low-emission natural gas feeding Indonesian grid. page_read:true
+Technologies: pwr-gas-engines
+Capacity: power generation: 50.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
 
 ### Cirata floating solar PV plant, West Java, Indonesia (cirata-floating-solar-pv-plant-west-java-indonesia)
 Status: **operating** | Country: ID
@@ -1144,10 +1172,52 @@ Status: **operating** | Country: United Kingdom
 893 MW CCGT with HRSG, the most efficient CCGT in Europe at commissioning.
 Technologies: pwr-combined-cycle-hrsg
 
+### Kibing Solar New Materials solar-glass plant expansion, Kota Kinabalu, Sabah (ge-kibing-solar-new-materials-solar-glass-plant-expansion-kota-kinabalu-s)
+Status: **operating** | Country: Malaysia
+Decentralised industrial self-generation independent of the public grid; energy used directly in solar-glass production processes. page_read:true; original 65 MW / 4-engine project described at https://man-es.com/company/press-releases/press-details/2023/06/27/65-mw-dual-fuel-engines-bound-for-malaysian-power-plant (search-verified, page_read:false).
+Technologies: pwr-gas-engines
+Capacity: power generation: 18.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Kibing Solar New Materials solar-glass plant expansion, Kota Kinabalu, Sabah (kibing-solar-new-materials-solar-glass-plant-expansion-kota-kinabalu-sabah)
+Status: **operating** | Country: Malaysia
+Decentralised industrial self-generation independent of the public grid; energy used directly in solar-glass production processes. page_read:true; original 65 MW / 4-engine project described at https://man-es.com/company/press-releases/press-details/2023/06/27/65-mw-dual-fuel-engines-bound-for-malaysian-power-plant (search-verified, page_read:false).
+Technologies: pwr-gas-engines
+Capacity: power generation: 18.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Kimanis Power (Dua) gas-engine peaking plant, Kimanis, Sabah (ge-kimanis-power-dua-gas-engine-peaking-plant-kimanis-sabah)
+Status: **operating** | Country: Malaysia
+Malaysia's first large-scale (utility-scale) gas engine facility; 21-year PPA with Sabah Electricity; EPCC consortium Synerlitz (Malaysia), China Energy Engineering Group Guangxi Electric Power Design Institute and CEEC Guangxi Electric Power (Malaysia); RM580 million Sukuk Wakalah facility rated AA1/Stable by RAM; with sister 285 MW CCGT plant supplies about one-third of Sabah installed capacity. page_read:true (WebFetch 2026-11-24). Corroborated by Everllence release https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants (page_read:true).
+Technologies: pwr-gas-engines
+Capacity: power generation: 100.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Kimanis Power (Dua) gas-engine peaking plant, Kimanis, Sabah (kimanis-power-dua-gas-engine-peaking-plant-kimanis-sabah)
+Status: **operating** | Country: Malaysia
+Malaysia's first large-scale (utility-scale) gas engine facility; 21-year PPA with Sabah Electricity; EPCC consortium Synerlitz (Malaysia), China Energy Engineering Group Guangxi Electric Power Design Institute and CEEC Guangxi Electric Power (Malaysia); RM580 million Sukuk Wakalah facility rated AA1/Stable by RAM; with sister 285 MW CCGT plant supplies about one-third of Sabah installed capacity. page_read:true (WebFetch 2026-11-24). Corroborated by Everllence release https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants (page_read:true).
+Technologies: pwr-gas-engines
+Capacity: power generation: 100.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
 ### La Rance tidal barrage, France (la-rance-tidal-barrage-france)
 Status: **operating** | Country: FR
 240 MW (24 x 10 MW bulb turbines), commissioned 1966, the world's first large tidal-range power station, still in full operation
 Technologies: pwr-tidal-wave
+
+### Labuan Island gas power plant (KAB Energy Holdings) (ge-labuan-island-gas-power-plant-kab-energy-holdings)
+Status: **operating** | Country: Malaysia
+New gas-fired plant on Labuan Island off Borneo replacing retiring assets, supplying local grid and a manufacturing region; dual-fuel switching between gas and liquid fuels; covered by a 10-year Everllence LTSA (Oct 2026). page_read:true; LTSA corroboration at https://www.everllence.com/company/press-releases/details/2026/10/06/everllence-expands-service-business-in-southeast-asia (search-verified snippet, page_read:false).
+Technologies: pwr-gas-engines
+Capacity: power generation: 120.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Labuan Island gas power plant (KAB Energy Holdings) (labuan-island-gas-power-plant-kab-energy-holdings)
+Status: **operating** | Country: Malaysia
+New gas-fired plant on Labuan Island off Borneo replacing retiring assets, supplying local grid and a manufacturing region; dual-fuel switching between gas and liquid fuels; covered by a 10-year Everllence LTSA (Oct 2026). page_read:true; LTSA corroboration at https://www.everllence.com/company/press-releases/details/2026/10/06/everllence-expands-service-business-in-southeast-asia (search-verified snippet, page_read:false).
+Technologies: pwr-gas-engines
+Capacity: power generation: 120.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
 
 ### MeyGen tidal stream array, Pentland Firth, Scotland (SAE Renewables) (meygen-tidal-stream-array-pentland-firth-scotland-sae-renewables)
 Status: **operating** | Country: GB
@@ -1185,10 +1255,31 @@ ANDRITZ PowerFluid CFB reference with two stated steam conditions of 148/137 t/h
 Technologies: pwr-biomass-waste-to-energy, pwr-gas-fired-boilers
 Capacity: steam production:  t/h
 
+### Ohio hyperscale data-centre engine plant (Wärtsilä 34SG debut) (ge-ohio-hyperscale-data-centre-engine-plant-w-rtsil-34sg-debut)
+Status: **operating** | Country: USA (non-APAC comparator)
+Primary off-grid power; first data-centre application of the 34SG model; brings Wärtsilä US data-centre capacity sold to over 1.6 GW at the time. page_read:false - WebSearch result marked search-verified; direct page not fetched this session
+Technologies: pwr-gas-engines
+Capacity: power generation: 412.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Ohio hyperscale data-centre engine plant (Wärtsilä 34SG debut) (ohio-hyperscale-data-centre-engine-plant-w-rtsil-34sg-debut)
+Status: **operating** | Country: USA (non-APAC comparator)
+Primary off-grid power; first data-centre application of the 34SG model; brings Wärtsilä US data-centre capacity sold to over 1.6 GW at the time. page_read:false - WebSearch result marked search-verified; direct page not fetched this session
+Technologies: pwr-gas-engines
+Capacity: power generation: 412.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
 ### Oxford PV perovskite-on-silicon tandem line, Brandenburg an der Havel, Germany (oxford-pv-perovskite-on-silicon-tandem-line-brandenburg-an-der-havel-ger)
 Status: **operating** | Country: DE
 world's first commercial shipment of perovskite-tandem solar modules to a customer (5 Sep 2024); production modules 24.5% efficiency (up to 20% more energy than silicon); record 28.6% commercial-size cell (2024)
 Technologies: pwr-perovskite-tandem
+
+### PLTD Pesanggaran, Bali (PT Indonesia Power) (ge-pltd-pesanggaran-bali-pt-indonesia-power)
+Status: **operating** | Country: Indonesia
+Utility reference plant recorded in the HILIR techlib project catalogue; source is a Wärtsilä reference page. page_read:false - techlib catalogue record with cited source; page not re-fetched this session
+Technologies: pwr-gas-engines
+Capacity: power generation: 200.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
 
 ### PLTD Pesanggaran, Bali (PT Indonesia Power) (pltd-pesanggaran-bali-pt-indonesia-power)
 Status: **operating** | Country: ID
@@ -1204,6 +1295,34 @@ Technologies: pwr-thermal-energy-storage
 Status: **operating** | Country: Australia
 4.4 MW solar + 2 MW battery
 Technologies: pwr-containerised-hybrid-modules
+
+### Pure DC / AVK off-grid data-centre microgrid, Dublin (ge-pure-dc-avk-off-grid-data-centre-microgrid-dublin)
+Status: **operating** | Country: Ireland (non-APAC comparator - gas-engine data-centre reference)
+Described as Europe's first large-scale off-grid data-centre microgrid; gas primary fuel with HVO backup; hydrogen-blend ready and CHP-ready; fully independent of national grid. page_read:true (WebFetch 2026-11-24)
+Technologies: pwr-gas-engines, idc-behind-the-meter-gas
+Capacity: power generation: 60.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Pure DC / AVK off-grid data-centre microgrid, Dublin (pure-dc-avk-off-grid-data-centre-microgrid-dublin)
+Status: **operating** | Country: Ireland (non-APAC comparator - gas-engine data-centre reference)
+Described as Europe's first large-scale off-grid data-centre microgrid; gas primary fuel with HVO backup; hydrogen-blend ready and CHP-ready; fully independent of national grid. page_read:true (WebFetch 2026-11-24)
+Technologies: pwr-gas-engines, idc-behind-the-meter-gas
+Capacity: power generation: 60.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Sipitang FLNG dedicated power plant, Sabah (ge-sipitang-flng-dedicated-power-plant-sabah)
+Status: **operating** | Country: Malaysia
+Decentralised sole electricity supply to a nearshore FLNG terminal; 10-year LTSA with 52,000 operating hours spare-parts structure; engines reach full load in under three minutes and cope with rapid load changes. page_read:true (MAN ES press release; company now Everllence). LTSA detail from Everllence Oct 2026 release (search-verified).
+Technologies: pwr-gas-engines
+Capacity: power generation: 52.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Sipitang FLNG dedicated power plant, Sabah (sipitang-flng-dedicated-power-plant-sabah)
+Status: **operating** | Country: Malaysia
+Decentralised sole electricity supply to a nearshore FLNG terminal; 10-year LTSA with 52,000 operating hours spare-parts structure; engines reach full load in under three minutes and cope with rapid load changes. page_read:true (MAN ES press release; company now Everllence). LTSA detail from Everllence Oct 2026 release (search-verified).
+Technologies: pwr-gas-engines
+Capacity: power generation: 52.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
 
 ### Spiritwood Station CFB CHP plant (spiritwood-station-cfb-chp)
 Status: **operating** | Country: US
@@ -1226,6 +1345,20 @@ Technologies: pwr-crystalline-silicon-pv
 Status: **operating** | Country: JP
 JAC advanced-class gas turbine validated in commercial configuration; world's first grid-connected 30% hydrogen co-firing demonstration (Nov 2023); Takasago Hydrogen Park supplies on-site hydrogen across the value chain
 Technologies: pwr-hydrogen-ammonia-turbines
+
+### Texas off-grid data-centre plant (Wärtsilä 50SG, 790 MW) (ge-texas-off-grid-data-centre-plant-w-rtsil-50sg-790-mw)
+Status: **operating** | Country: USA (non-APAC comparator)
+Heat rate approx. 6,800 Btu/kWh (approx. 50% efficiency) as stated; natural gas; full capacity at temperatures exceeding 100 F (~38 C). page_read:false - WebSearch result marked search-verified; direct page not fetched this session
+Technologies: pwr-gas-engines
+Capacity: power generation: 790.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Texas off-grid data-centre plant (Wärtsilä 50SG, 790 MW) (texas-off-grid-data-centre-plant-w-rtsil-50sg-790-mw)
+Status: **operating** | Country: USA (non-APAC comparator)
+Heat rate approx. 6,800 Btu/kWh (approx. 50% efficiency) as stated; natural gas; full capacity at temperatures exceeding 100 F (~38 C). page_read:false - WebSearch result marked search-verified; direct page not fetched this session
+Technologies: pwr-gas-engines
+Capacity: power generation: 790.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
 
 ### Velika Ciglena geothermal ORC (Turboden) (velika-ciglena-geothermal-orc)
 Status: **operating** | Country: Croatia
@@ -1277,6 +1410,46 @@ Status: **proposed** | Country: USA
 124 MW
 Technologies: pwr-modular-engine-plants
 
+### Wärtsilä / TGES Japan data-centre power evaluation (ge-w-rtsil-tges-japan-data-centre-power-evaluation)
+Status: **proposed** | Country: Japan
+Framework to jointly evaluate on-site/off-grid gas- or dual-fuel engine power for selected TGES data-centre opportunities in Japan; technical concepts, performance parameters and feasibility. page_read:true; no capacity, engine count or owner-of-final-plant disclosed
+Technologies: pwr-gas-engines
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Wärtsilä / TGES Japan data-centre power evaluation (w-rtsil-tges-japan-data-centre-power-evaluation)
+Status: **proposed** | Country: Japan
+Framework to jointly evaluate on-site/off-grid gas- or dual-fuel engine power for selected TGES data-centre opportunities in Japan; technical concepts, performance parameters and feasibility. page_read:true; no capacity, engine count or owner-of-final-plant disclosed
+Technologies: pwr-gas-engines
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Australia's largest reciprocating engine power plant (grid balancing) (australia-s-largest-reciprocating-engine-power-plant-grid-balancing)
+Status: **under-construction** | Country: Australia
+Grid balancing and system security to support wind/solar integration; up to 25 vol-% hydrogen blend currently supported. page_read:true
+Technologies: pwr-gas-engines
+Capacity: power generation: 300.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Australia's largest reciprocating engine power plant (grid balancing) (ge-australia-s-largest-reciprocating-engine-power-plant-grid-balancing)
+Status: **under-construction** | Country: Australia
+Grid balancing and system security to support wind/solar integration; up to 25 vol-% hydrogen blend currently supported. page_read:true
+Technologies: pwr-gas-engines
+Capacity: power generation: 300.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Concord Group four palm-oil-waste/biogas plants, Malaysia (concord-group-four-palm-oil-waste-biogas-plants-malaysia)
+Status: **under-construction** | Country: Malaysia
+Palm-oil-waste biogas with methane capture; long-term servicing by INNIO; INNIO stated >500 Jenbacher engines operating on biogas and about 1 GW installed in ASEAN at the time. page_read:true
+Technologies: pwr-gas-engines, pwr-biomass-waste-to-energy
+Capacity: power generation: 8.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Concord Group four palm-oil-waste/biogas plants, Malaysia (ge-concord-group-four-palm-oil-waste-biogas-plants-malaysia)
+Status: **under-construction** | Country: Malaysia
+Palm-oil-waste biogas with methane capture; long-term servicing by INNIO; INNIO stated >500 Jenbacher engines operating on biogas and about 1 GW installed in ASEAN at the time. page_read:true
+Technologies: pwr-gas-engines, pwr-biomass-waste-to-energy
+Capacity: power generation: 8.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
 ### Darlington BWRX-300, Ontario (OPG / GE Hitachi) (darlington-bwrx-300-ontario-opg-ge-hitachi)
 Status: **under-construction** | Country: CA
 300 MWe BWRX-300; OPG received construction approval April 2025 - first grid-scale SMR under construction in a G7 country; CAD 7.7 bn project
@@ -1292,6 +1465,20 @@ Capacity: once-through HRSGs: 10 units
 Status: **under-construction** | Country: FR
 tokamak designed for 500 MW fusion power (ten times the input heating); European Council approved EUR 5.61 bn EU funding to 2027 (Feb 2021); first plasma had been expected December 2025 before the 2024 schedule re-baseline added years and about EUR 5 bn; NIF (US) demonstrated fusion ignition December 2022
 Technologies: pwr-fusion
+
+### Moomba power plant extension, South Australia (gas-field electrification) (ge-moomba-power-plant-extension-south-australia-gas-field-electrification)
+Status: **under-construction** | Country: Australia
+Part of infrastructure upgrade replacing compression at seven gas-driven compressor stations with a single centralised electric-driven station; local Moomba field gas supply. page_read:false - WebSearch result marked search-verified; direct page not fetched this session
+Technologies: pwr-gas-engines
+Capacity: power generation: 59.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Moomba power plant extension, South Australia (gas-field electrification) (moomba-power-plant-extension-south-australia-gas-field-electrification)
+Status: **under-construction** | Country: Australia
+Part of infrastructure upgrade replacing compression at seven gas-driven compressor stations with a single centralised electric-driven station; local Moomba field gas supply. page_read:false - WebSearch result marked search-verified; direct page not fetched this session
+Technologies: pwr-gas-engines
+Capacity: power generation: 59.0 MW
+Recorded gaps: Detailed commissioning dates and owner/contractor roles
 
 ### QPM Isaac Power Station aeroderivative units, Queensland (qpm-isaac-power-station-aeroderivative-units-queensland)
 Status: **under-construction** | Country: AU

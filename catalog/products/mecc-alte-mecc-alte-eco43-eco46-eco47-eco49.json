@@ -1,0 +1,52 @@
+{
+  "id": "mecc-alte-mecc-alte-eco43-eco46-eco47-eco49",
+  "name": "Mecc Alte ECO43 / ECO46 / ECO47 / ECO49",
+  "manufacturer": "mecc-alte",
+  "product_type": "engine",
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "description": "Vendor product line read 2026-11-24. Brushless synchronous, DER2 digital AVR, class H insulation, IC01 cooling",
+  "specifications": [
+    {
+      "metric": "Rating band",
+      "unit": "kVA across ECO43-ECO49, @50Hz/cl.H/40C/PF0.8, 11kV reference",
+      "basis": "",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
+        "source_id": "meccalte-com-alternators-power-products-mvhv"
+      },
+      "low": 800,
+      "high": 5000
+    },
+    {
+      "metric": "Voltage",
+      "unit": "kV up to",
+      "basis": "",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
+        "source_id": "meccalte-com-alternators-power-products-mvhv"
+      },
+      "value": 13.8
+    },
+    {
+      "metric": "Speed",
+      "unit": "rpm (50/60 Hz), 4 poles",
+      "basis": "",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
+        "source_id": "meccalte-com-alternators-power-products-mvhv"
+      },
+      "value": "1500 / 1800"
+    }
+  ],
+  "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
+  "sources": [
+    {
+      "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
+      "source_id": "meccalte-com-alternators-power-products-mvhv"
+    }
+  ],
+  "notes": "Brushless synchronous, DER2 digital AVR, class H insulation, IC01 cooling",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "gas-engine-alternator",
+  "name": "Generator / alternator",
+  "equipment_type": "generator",
+  "sector": "PWR",
+  "sector_codes": [
+    "ELE",
+    "IDC",
+    "PWR"
+  ],
+  "description": "Generator / alternator (synchronous, brushless, PMG excitation, AVR)",
+  "specifications": [
+    {
+      "metric": "Rating range",
+      "unit": "kVA",
+      "basis": "Mecc Alte ECO43, 4-pole brushless synchronous MV/HV, @50Hz / class H / 40C / PF0.8, referred to an 11kV unit; up to 13.8 kV",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
+        "source_id": "meccalte-com-alternators-power-products-mvhv"
+      },
+      "low": 800,
+      "high": 1300
+    },
+    {
+      "metric": "Voltage",
+      "unit": "kV",
+      "basis": "Mecc Alte ECO43/46/47/49 medium and high voltage, up to; 50/60Hz, 1500/1800 rpm; IP23 (up to IP45 on request for ECO43-47)",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
+        "source_id": "meccalte-com-alternators-power-products-mvhv"
+      },
+      "value": 13.8
+    },
+    {
+      "metric": "Alternator rating range",
+      "unit": "kVA",
+      "basis": "Cummins STAMFORD / AvK alternators, combined range; HQ England, UK; operations in 116 countries",
+      "source": {
+        "url": "https://www.cummins.com/generators/alternators",
+        "source_id": "cummins-com-generators-alternators"
+      },
+      "low": 7.5,
+      "high": 11200
+    },
+    {
+      "metric": "Generator voltage",
+      "unit": "kV",
+      "basis": "Jenbacher J920 FleXtra 50Hz genset scope of supply; 60Hz 480V-13.8kV",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+        "source_id": "jenbacher-com-j920-flextra"
+      },
+      "value": "10.5 / 11"
+    }
+  ],
+  "vendors": [
+    "mecc-alte",
+    "cummins-generator-technologies",
+    "basler-electric"
+  ],
+  "sources": [
+    {
+      "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
+      "source_id": "meccalte-com-alternators-power-products-mvhv"
+    },
+    {
+      "url": "https://www.cummins.com/generators/alternators",
+      "source_id": "cummins-com-generators-alternators"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+      "source_id": "jenbacher-com-j920-flextra"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Alternator efficiency and short-circuit withstand for the specific gas-genset voltage ratings",
+      "why": "Not printed on the fetched product-overview pages",
+      "next_action": "Fetch Mecc Alte ECO-series technical data sheets and STAMFORD AvK product selector"
+    },
+    {
+      "what": "Confirm PMG use for large MV/HV gas gensets (>3 MVA)",
+      "why": "Mecc Alte describes PMG as a pilot excitation option and separately markets PMG as a prime generator for variable-speed small sets; applicability to 10MW-class gas gensets not established on fetched pages",
+      "next_action": "Fetch Mecc Alte Quick Selection Guide REV 8.1 and Jenbacher J920 alternator data"
+    }
+  ],
+  "notes": "Merged from 1 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

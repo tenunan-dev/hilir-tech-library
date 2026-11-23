@@ -1,17 +1,19 @@
 {
   "id": "aerzen-com-product-gas-booster-for-high-pressure-applications",
-  "name": "AERZEN (Aerzener Maschinenfabrik GmbH) — High Pressure Gas Booster Series GM-HP",
+  "name": "AERZEN — AERZEN GM-HP gas booster volume flow",
   "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
   "source_type": "oem-supplier",
   "sectors": [
     "PWR",
-    "REF"
+    "IDC"
   ],
   "disciplines": [
     "PRC",
-    "ROT"
+    "ROT",
+    "ELE",
+    "INS"
   ],
-  "publisher_org": "AERZEN (Aerzener Maschinenfabrik GmbH)",
+  "publisher_org": "AERZEN",
   "regions": [
     "global",
     "na"
@@ -22,5 +24,5 @@
   "quality_tier": 1,
   "verification": "verified",
   "last_verified": "2026-11-24",
-  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. Read in full: AERZEN High Pressure Gas Booster GM-HP product page including the expandable Technical data section. Applications listed include natural gas compression, pipeline boo Evidence: https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. AERZEN product page Technical data: High Pressure Gas Booster Series GM-HP, positive displacement blowers, oil-free conveying of process gases Evidence: https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
 }

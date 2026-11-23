@@ -1,17 +1,19 @@
 {
   "id": "enggcyclopedia-com-02-typical-pfd-instrument-air-supply-system",
-  "name": "Figure 1 — Typical PFD for an Instrument Air Supply System",
+  "name": "EnggCyclopedia — Figure 1 — Typical PFD for an Instrument Air Supply Sys",
   "url": "https://enggcyclopedia.com/2012/02/typical-pfd-instrument-air-supply-system",
   "source_type": "oem-supplier",
   "sectors": [
     "PWR",
-    "REF"
+    "IDC"
   ],
   "disciplines": [
     "PRC",
-    "ROT"
+    "ROT",
+    "ELE",
+    "INS"
   ],
-  "publisher_org": "EnggCyclopedia (secondary engineering reference site)",
+  "publisher_org": "EnggCyclopedia",
   "regions": [
     "global",
     "na"
@@ -20,7 +22,7 @@
   "licence": "proprietary (site terms)",
   "reuse_level": "summary-only",
   "quality_tier": 1,
-  "verification": "verified",
-  "last_verified": "2026-11-24",
-  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. HTML page fetched and read; Figure 1 image URL and descriptive text verified. Mark as secondary, not primary evidence. Evidence: https://enggcyclopedia.com/2012/02/typical-pfd-instrument-air-supply-system"
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Catalogue pointer from techlib drawings table (recorded as page fetched in the earlier session, not re-fetched here); mark as secondary evidence. Evidence: https://enggcyclopedia.com/2012/02/typical-pfd-instrument-air-supply-system"
 }

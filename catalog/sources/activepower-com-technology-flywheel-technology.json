@@ -1,0 +1,28 @@
+{
+  "id": "activepower-com-technology-flywheel-technology",
+  "name": "Active Power / Piller",
+  "url": "https://www.activepower.com/technology/flywheel-technology",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Active Power (Piller)",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Flywheel figures search-verified from vendor PDFs. Evidence: https://www.activepower.com/technology/flywheel-technology"
+}

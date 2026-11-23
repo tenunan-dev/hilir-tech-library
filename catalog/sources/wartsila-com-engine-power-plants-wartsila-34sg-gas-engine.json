@@ -1,0 +1,28 @@
+{
+  "id": "wartsila-com-engine-power-plants-wartsila-34sg-gas-engine",
+  "name": "Wärtsilä — Rated electrical power range",
+  "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Wärtsilä",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Wartsila 34SG, 12V/16V/20V, 50Hz, generator terminals, 100kPa, 25C, 30% RH, PF1.0 Evidence: https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+}

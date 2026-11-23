@@ -1,0 +1,28 @@
+{
+  "id": "jenbacher-com-data-center",
+  "name": "INNIO Jenbacher",
+  "url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "INNIO Jenbacher",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Page read; only service-line names visible, no oil spec figures printed on that page Evidence: https://www.jenbacher.com/en/energy-solutions/industries/data-center/"
+}

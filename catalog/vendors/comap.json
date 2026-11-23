@@ -1,0 +1,29 @@
+{
+  "id": "comap",
+  "name": "ComAp",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "ComAp is named as a supplier on a page read during the gas-engine/data-centre sweep.",
+  "technologies": [
+    "pwr-gas-engines",
+    "idc-behind-the-meter-gas"
+  ],
+  "sources": [
+    {
+      "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers",
+      "source_id": "comap-control-com-controllers-paralleling-gen-set-controllers"
+    },
+    {
+      "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+      "source_id": "comap-control-com-inteligen-inteligen-1000"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 sweep."
+}

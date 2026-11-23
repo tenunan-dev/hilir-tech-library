@@ -1,0 +1,43 @@
+{
+  "id": "w-rtsil-finland-w-rtsil-31sg-gas-engine",
+  "name": "Wärtsilä 31SG gas engine",
+  "manufacturer": "wartsila",
+  "product_type": "engine",
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "description": "Vendor product line read 2026-11-24. Used at Moomba 59 MW extension (5 units) per search-verified press release snippet.",
+  "specifications": [
+    {
+      "metric": "Electrical output",
+      "unit": "MW",
+      "basis": "Wärtsilä data-centre page product grid (50/60 Hz variants)",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+        "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+      },
+      "low": 11.4,
+      "high": 11.8
+    },
+    {
+      "metric": "Electrical efficiency",
+      "unit": "%",
+      "basis": "Wärtsilä data-centre page product grid; 90% CHP efficiency also stated",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+        "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+      },
+      "low": 51.5,
+      "high": 51.6
+    }
+  ],
+  "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+      "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+    }
+  ],
+  "notes": "Used at Moomba 59 MW extension (5 units) per search-verified press release snippet.",
+  "last_reviewed": "2026-11-24"
+}

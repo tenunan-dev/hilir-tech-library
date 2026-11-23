@@ -1,0 +1,44 @@
+{
+  "id": "ge-kibing-solar-new-materials-solar-glass-plant-expansion-kota-kinabalu-s",
+  "name": "Kibing Solar New Materials solar-glass plant expansion, Kota Kinabalu, Sabah",
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "IDC"
+  ],
+  "description": "Decentralised industrial self-generation independent of the public grid; energy used directly in solar-glass production processes. page_read:true; original 65 MW / 4-engine project described at https://man-es.com/company/press-releases/press-details/2023/06/27/65-mw-dual-fuel-engines-bound-for-malaysian-power-plant (search-verified, page_read:false).",
+  "capacities": [
+    {
+      "metric": "power generation",
+      "value": 18.0,
+      "unit": "MW",
+      "basis": "Capacity as stated on the cited page.",
+      "source": {
+        "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
+        "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
+      }
+    }
+  ],
+  "technologies": [
+    "pwr-gas-engines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
+      "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed commissioning dates and owner/contractor roles",
+      "why": "Not consistently stated on the read page.",
+      "next_action": "Read the project's primary announcement for dated milestones."
+    }
+  ],
+  "notes": "page_read:true; original 65 MW / 4-engine project described at https://man-es.com/company/press-releases/press-details/2023/06/27/65-mw-dual-fuel-engines-bound-for-malaysian-power-plant (search-verified, page_read:false).",
+  "last_reviewed": "2026-11-24"
+}

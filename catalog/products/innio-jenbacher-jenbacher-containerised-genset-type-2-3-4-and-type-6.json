@@ -1,0 +1,51 @@
+{
+  "id": "innio-jenbacher-jenbacher-containerised-genset-type-2-3-4-and-type-6",
+  "name": "Jenbacher containerised genset (Type 2/3/4 and Type 6)",
+  "manufacturer": "innio-jenbacher",
+  "product_type": "genset",
+  "equipment": [
+    "gas-engine-packaged-genset-enclosure"
+  ],
+  "description": "Vendor product line read 2026-11-24. Turnkey, pre-installed auxiliaries",
+  "specifications": [
+    {
+      "metric": "Power",
+      "unit": "kW for Type 2/3/4 / Type 6",
+      "basis": "",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+        "source_id": "jenbacher-com-containerized-solutions"
+      },
+      "value": "249-1562 / 1634-4507"
+    },
+    {
+      "metric": "Sound",
+      "unit": "dB(A) at 10 m, DIN 45635 (Type 2/3/4); 65/70/75/80 for Type 6",
+      "basis": "",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+        "source_id": "jenbacher-com-containerized-solutions"
+      },
+      "value": 65
+    },
+    {
+      "metric": "Ambient",
+      "unit": "degC, Type 2/3/4 / Type 6 standard ventilation",
+      "basis": "",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+        "source_id": "jenbacher-com-containerized-solutions"
+      },
+      "value": "-25 to +34 / -25 to +40"
+    }
+  ],
+  "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+      "source_id": "jenbacher-com-containerized-solutions"
+    }
+  ],
+  "notes": "Turnkey, pre-installed auxiliaries",
+  "last_reviewed": "2026-11-24"
+}

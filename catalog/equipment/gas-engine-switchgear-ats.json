@@ -1,0 +1,55 @@
+{
+  "id": "gas-engine-switchgear-ats",
+  "name": "Generator circuit breaker, LV/MV switchgear, bus ducts, ATS / CTTS",
+  "equipment_type": "switchgear",
+  "sector": "PWR",
+  "sector_codes": [
+    "ELE",
+    "IDC",
+    "PWR"
+  ],
+  "description": "Generator circuit breaker, LV/MV switchgear, bus ducts, ATS / CTTS",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Generator circuit breaker, LV/MV switchgear, bus ducts, ATS / CTTS",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+        "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+      }
+    }
+  ],
+  "vendors": [
+    "abb",
+    "eaton",
+    "comap",
+    "cummins"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
+      "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "All switchgear/GCB/ATS figures independently fetched",
+      "why": "ABB PDF unsupported by WebFetch; Eaton page 403",
+      "next_action": "Use PDF-layout reader or terminal download, then re-record with page_read:true"
+    },
+    {
+      "what": "Bus duct / busway manufacturer and ampacity range",
+      "why": "No page fetched",
+      "next_action": "Fetch ABB/Schneider/Eaton busway data-centre pages"
+    },
+    {
+      "what": "Medium-voltage generator neutral grounding and earthing arrangements",
+      "why": "Not on fetched pages",
+      "next_action": "Fetch project single-line diagrams or OEM switchgear guides"
+    }
+  ],
+  "notes": "Merged from 1 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

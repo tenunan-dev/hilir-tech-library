@@ -1,0 +1,31 @@
+{
+  "id": "johnson-matthey-johnson-matthey-modulex-b-c-and-dualox",
+  "name": "Johnson Matthey Modulex B/C and DualOx",
+  "manufacturer": "johnson-matthey",
+  "product_type": "exhaust",
+  "equipment": [
+    "gas-engine-exhaust-emissions"
+  ],
+  "description": "Vendor product line read 2026-11-24. Oxidation and three-way catalyst elements; integrated silencer available",
+  "specifications": [
+    {
+      "metric": "Engine power",
+      "unit": "HP for Modulex C / Modulex B / DualOx",
+      "basis": "",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",
+        "source_id": "matthey-com-emissions-control-oxidation-catalyst-systems"
+      },
+      "value": "50-500 / 250-2250 / >=2000"
+    }
+  ],
+  "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",
+  "sources": [
+    {
+      "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",
+      "source_id": "matthey-com-emissions-control-oxidation-catalyst-systems"
+    }
+  ],
+  "notes": "Oxidation and three-way catalyst elements; integrated silencer available",
+  "last_reviewed": "2026-11-24"
+}

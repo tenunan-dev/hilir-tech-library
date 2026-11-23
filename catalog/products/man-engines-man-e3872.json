@@ -1,0 +1,61 @@
+{
+  "id": "man-engines-man-e3872",
+  "name": "MAN E3872",
+  "manufacturer": "man-engines",
+  "product_type": "engine",
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "description": "Vendor product line read 2026-11-24. 44.0% efficiency claim from MAN press release (search-verified only)",
+  "specifications": [
+    {
+      "metric": "Power",
+      "unit": "kW natural gas",
+      "basis": "",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      },
+      "value": 735
+    },
+    {
+      "metric": "Cylinders / displacement",
+      "unit": "cylinders / L",
+      "basis": "",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      },
+      "value": "12 / 29.6"
+    },
+    {
+      "metric": "Bore / stroke",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      },
+      "value": "138 / 165"
+    },
+    {
+      "metric": "Air-fuel ratio",
+      "unit": "lambda, natural gas",
+      "basis": "",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      },
+      "value": "1.77-1.78"
+    }
+  ],
+  "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+  "sources": [
+    {
+      "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+      "source_id": "man-eu-gas-power-generation-gas-html"
+    }
+  ],
+  "notes": "44.0% efficiency claim from MAN press release (search-verified only)",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "matthey-com-emissions-control-nox-control-systems",
+  "name": "Johnson Matthey — NOx reduction",
+  "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Johnson Matthey",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Johnson Matthey SCR systems for stationary diesel and gas engines; can be coupled with ammonia-slip or oxidation catalyst for CO, HC, NH3 and VOCs Evidence: https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
+}

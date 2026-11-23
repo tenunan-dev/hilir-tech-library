@@ -1,0 +1,128 @@
+{
+  "id": "gas-engine-controls-paralleling",
+  "name": "Engine control / genset controller / paralleling controls / protection relays / synchronising",
+  "equipment_type": "controls",
+  "sector": "PWR",
+  "sector_codes": [
+    "ELE",
+    "IDC",
+    "INS",
+    "PWR"
+  ],
+  "description": "Engine control / genset controller / paralleling controls / protection relays / synchronising | Power monitoring / DCIM / microgrid and genset paralleling controllers",
+  "specifications": [
+    {
+      "metric": "Genset paralleling capacity",
+      "unit": "gensets",
+      "basis": "Woodward easYgen-3000XT isochronous operation; functions include synchronization, protection, AVR, configurable PIDs, genset automation, load and power factor control",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
+        "source_id": "woodward-com-generator-controllers-easygen"
+      },
+      "low": 1,
+      "high": 32
+    },
+    {
+      "metric": "Generator/mains voltage range",
+      "unit": "V AC phase-to-neutral",
+      "basis": "Deep Sea DSE7320 MKII generator and mains sensing; 25-720V phase-to-phase; frequency 3.5-75 Hz",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
+        "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
+      },
+      "low": 15,
+      "high": 415
+    },
+    {
+      "metric": "Excitation current",
+      "unit": "A DC",
+      "basis": "Basler DECS-2100 digital excitation control system, up to; controls/protects/monitors synchronous generators and motors",
+      "source": {
+        "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system",
+        "source_id": "basler-com-product-decs-2100-digital-excitation-control-system"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "ComAp InteliGen 1000 coordinated units",
+      "unit": "additional gen-sets/mains/tie controllers",
+      "basis": "ComAp InteliGen 1000 product page: CAN FD inter-controller communication, up to 64 additional controllers; ISA 62443 level 2-3 security; hot-swap and CAN redundancy (software key); 3x Ethernet Modbus TCP/SNMP, 1x RS-485 Modbus RTU; enclosure 262x182x47 mm",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+        "source_id": "comap-control-com-inteligen-inteligen-1000"
+      },
+      "value": 64
+    },
+    {
+      "metric": "ComAp InteliGen 1000 functions",
+      "unit": "function set",
+      "basis": "ComAp InteliGen 1000 product page extended feature list; compliant with EN 50549, VDE-AR-N 4105/4110, G99, TOR, IEEE 1547",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+        "source_id": "comap-control-com-inteligen-inteligen-1000"
+      },
+      "value": "Automatic mains failure, start-up synchronisation, kW/kVAr sharing, dynamic spinning reserve, peak shaving, load shedding, droop regulation, user-defined protections"
+    },
+    {
+      "metric": "ComAp bank-controller scalability",
+      "unit": "controllable units",
+      "basis": "ComAp extended feature 'Bank controller': up to 63 source controllers under one bank controller, up to 64 bank controllers on a common bus, theoretical maximum 4,032 control units",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+        "source_id": "comap-control-com-inteligen-inteligen-1000"
+      },
+      "low": 63,
+      "high": 4032
+    }
+  ],
+  "vendors": [
+    "comap",
+    "woodward",
+    "basler-electric",
+    "deep-sea-electronics",
+    "deif",
+    "schneider-electric"
+  ],
+  "sources": [
+    {
+      "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
+      "source_id": "woodward-com-generator-controllers-easygen"
+    },
+    {
+      "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
+      "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
+    },
+    {
+      "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system",
+      "source_id": "basler-com-product-decs-2100-digital-excitation-control-system"
+    },
+    {
+      "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+      "source_id": "comap-control-com-inteligen-inteligen-1000"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Full IEC 61850 / protection-relay model list for MV gas-engine switchgear",
+      "why": "Not covered by fetched pages",
+      "next_action": "Fetch ABB/Siemens/Schneider protection relay and switchgear datasheets"
+    },
+    {
+      "what": "Site-specific grid-code certification for a named Jenbacher/Wartsila installation",
+      "why": "Controller certification is generic; project settings not published",
+      "next_action": "Fetch project grid-code compliance statements"
+    },
+    {
+      "what": "DEIF and Woodward specific genset/microgrid controller models and specs",
+      "why": "No page fetched or search result captured for these vendors",
+      "next_action": "Fetch official DEIF and Woodward product pages and record model numbers with URLs"
+    },
+    {
+      "what": "Evidence that a specific data centre uses a named paralleling controller with gas engines",
+      "why": "ComAp documentation describes target applications but does not name a commissioned gas-engine data centre",
+      "next_action": "Seek case studies from ComAp/DEIF/Woodward with named sites"
+    }
+  ],
+  "notes": "Merged from 2 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
+  "last_reviewed": "2026-11-24"
+}

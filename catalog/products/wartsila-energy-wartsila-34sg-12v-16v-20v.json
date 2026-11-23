@@ -1,0 +1,53 @@
+{
+  "id": "wartsila-energy-wartsila-34sg-12v-16v-20v",
+  "name": "Wartsila 34SG (12V/16V/20V)",
+  "manufacturer": "wartsila-energy",
+  "product_type": "engine",
+  "equipment": [
+    "gas-engine-prime-mover"
+  ],
+  "description": "Vendor product line read 2026-11-24. Four-stroke spark-ignited lean-burn; based on Wartsila 32; 1,000 generating sets delivered",
+  "specifications": [
+    {
+      "metric": "Rated electrical power",
+      "unit": "kW @50Hz, same reference basis",
+      "basis": "",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-34sg-gas-engine"
+      },
+      "low": 5840,
+      "high": 9795
+    },
+    {
+      "metric": "Electrical efficiency",
+      "unit": "% @50Hz, 5% tolerance",
+      "basis": "",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-34sg-gas-engine"
+      },
+      "low": 48.0,
+      "high": 48.9
+    },
+    {
+      "metric": "Engine speed",
+      "unit": "rpm @50Hz (720 @60Hz)",
+      "basis": "",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-34sg-gas-engine"
+      },
+      "value": 750
+    }
+  ],
+  "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine",
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine",
+      "source_id": "wartsila-com-engine-power-plants-wartsila-34sg-gas-engine"
+    }
+  ],
+  "notes": "Four-stroke spark-ignited lean-burn; based on Wartsila 32; 1,000 generating sets delivered",
+  "last_reviewed": "2026-11-24"
+}

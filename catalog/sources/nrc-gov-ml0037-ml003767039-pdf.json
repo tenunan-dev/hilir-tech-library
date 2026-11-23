@@ -1,17 +1,19 @@
 {
   "id": "nrc-gov-ml0037-ml003767039-pdf",
-  "name": "Figure 2-1 — Basic system schematic, Instrument Air Systems: A Guide for Power Plant Maintenance Personnel (NP",
+  "name": "US Nuclear Regulatory Commission — Figure 2-1 — Basic system schematic, Instrument Air Sys",
   "url": "https://www.nrc.gov/docs/ml0037/ml003767039.pdf",
   "source_type": "agency-data",
   "sectors": [
     "PWR",
-    "REF"
+    "IDC"
   ],
   "disciplines": [
     "PRC",
-    "ROT"
+    "ROT",
+    "ELE",
+    "INS"
   ],
-  "publisher_org": "U.S. Nuclear Regulatory Commission / EPRI (NP-7079)",
+  "publisher_org": "US Nuclear Regulatory Commission",
   "regions": [
     "global",
     "na"
@@ -22,5 +24,5 @@
   "quality_tier": 1,
   "verification": "unverified",
   "last_verified": null,
-  "notes": "Page read 2026-11-24 during the gas-boiler supporting-systems sweep. SEARCH-VERIFIED: Figure 2-1 and subsystem text captured from WebSearch snippet. Direct download returned HTTP 403 in this session; NRC document ID ML003767039.  Evidence: https://www.nrc.gov/docs/ml0037/ml003767039.pdf"
+  "notes": "Page read 2026-11-24 during the gas-engine/data-centre sweep. Catalogue pointer; techlib record notes figure caption from a WebSearch snippet (search-verified) and a direct download HTTP 403 in the earlier sessio Evidence: https://www.nrc.gov/docs/ml0037/ml003767039.pdf"
 }
