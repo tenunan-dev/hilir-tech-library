@@ -87,12 +87,17 @@ inventory rather than passages.
 **`list_documents(source_id=None, sector=None, limit=50) → [documents]`**
 The collected-documents index: `path` (the handle `get_document` takes), `title`, `source_id`,
 `source_name`, `source_url`, `reuse_level`, `sectors`, and `text_included` — false for
-full-text-restricted documents, whose stored text is never served (the metadata is).
+full-text-restricted documents, whose stored text is never served (the metadata is). One row per
+source document: the corpus holds **one document per source url** (decision 40 — scheme, case,
+`www.`, a trailing slash, the fragment and an arXiv version suffix are the same document), so a url
+never appears twice and a `path` is a stable handle.
 
 **`get_document(path, offset=0, limit=20000) → {meta, text, total_chars, ...}`**
 Front matter and text of one document. `offset`/`limit` page through the text in characters
 (default 20,000, hard cap 100,000); the corpus holds documents over 2M characters, so check
-`total_chars` and page rather than asking for everything.
+`total_chars` and page rather than asking for everything. A metadata-only record is not kept beside
+the full text of the same source (an arXiv abstract record was removed where the paper itself is
+stored), so there is no second copy to hunt for.
 
 ### Cards and figures
 

@@ -84,6 +84,10 @@ empty page that reads like "no data" and is not.
 - `get_document` pages in characters (`offset`/`limit`, default 20,000, hard cap 100,000):
   check `total_chars` first; the corpus holds documents over 2M characters. Documents with
   `text_included: false` serve metadata only — their stored text is never published.
+- The corpus holds **one document per source url** (scheme/`www.`/trailing-slash/arXiv-version
+  variants are the same document, and a metadata-only record is not kept beside the full text).
+  `list_documents` and `search` never return the same document twice, so a `path` is a stable
+  handle — an absent document is absent, not stored under a second copy.
 - Vendor ownership lives in `notes` and `aliases`: a brand named on a card may resolve to
   a parent record (acquisitions are common). `get_vendor` on the parent before concluding
   a brand is missing.

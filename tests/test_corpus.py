@@ -33,9 +33,27 @@ def test_duplicate_documents_reports_one_url_with_two_files(tmp_path):
     _doc(corpus / "netl", "report-8b88bb67.md", "report", "https://example.org/report.pdf")
     _doc(corpus / "netl", "other.md", "Other", "https://example.org/other.pdf")
     groups = library.duplicate_documents(corpus)
-    assert list(groups) == ["https://example.org/report.pdf"]
-    assert sorted(pathlib.Path(p).name for p in groups["https://example.org/report.pdf"]) == [
+    assert list(groups) == ["example.org/report.pdf"]
+    assert sorted(pathlib.Path(p).name for p in groups["example.org/report.pdf"]) == [
         "report-8b88bb67.md", "report-f43dd9c1.md"]
+
+
+def test_url_variants_of_one_source_are_one_document(tmp_path):
+    """Scheme, case, www., a trailing slash, the fragment and an arXiv version suffix do not make a
+    different document — a metadata record at abs/IDv1 beside the full text of abs/ID is the case
+    that survived the sha256 guard (2026-11-23)."""
+    corpus = tmp_path / "corpus"
+    _doc(corpus / "arxiv", "paper-fulltext.md", "Paper", "https://arxiv.org/abs/2607.06093")
+    _doc(corpus / "arxiv", "paper-abstract.md", "Paper (abstract)", "http://arxiv.org/abs/2607.06093v1")
+    groups = library.duplicate_documents(corpus)
+    assert list(groups) == ["arxiv.org/abs/2607.06093"]
+    assert len(groups["arxiv.org/abs/2607.06093"]) == 2
+
+
+def test_the_corpus_holds_no_abstract_record_beside_a_full_text():
+    """The 2026-11-23 sweep left one arXiv pair open; normalising the version suffix found 23 more.
+    They are gone, so the invariant covers metadata records too."""
+    assert library.duplicate_documents() == {}
 
 
 def test_staging_folder_is_not_indexed_so_it_never_counts_as_a_duplicate(tmp_path):

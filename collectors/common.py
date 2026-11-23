@@ -11,6 +11,7 @@ import json
 import pathlib
 import re
 import socket
+import sys
 import time
 import urllib.parse
 import urllib.robotparser
@@ -18,6 +19,8 @@ import urllib.robotparser
 import requests
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "agent"))
+from urlnorm import url_key  # noqa: E402  (one implementation, shared with the build gate)
 CORPUS = ROOT / "corpus"
 MANIFEST = CORPUS / "manifest.jsonl"
 USER_AGENT = "hilir-tech-library-collector/0.1 (+https://github.com/tenunan-dev/hilir-tech-library)"
@@ -199,17 +202,6 @@ def known_hashes():
     if not MANIFEST.exists():
         return set()
     return {json.loads(line)["sha256"] for line in MANIFEST.read_text(encoding="utf-8").splitlines() if line}
-
-
-def url_key(url):
-    """What identifies a stored document: the scheme, the case, a leading "www.", a trailing
-    slash and the fragment are ignored, so the same source page is one document."""
-    parts = urllib.parse.urlsplit((url or "").strip())
-    host = parts.netloc.lower()
-    if host.startswith("www."):
-        host = host[4:]
-    path = parts.path.rstrip("/") or "/"
-    return f"{host}{path}" + (f"?{parts.query}" if parts.query else "")
 
 
 def known_urls():

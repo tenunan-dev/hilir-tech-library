@@ -13,8 +13,9 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 The 2026-11-23 tool-surface test left one data item for the owner (N3): the NETL MVA 2017 manual in
 the corpus twice. Re-checking the app's open-task list found the item **understated** — a corpus-wide
 scan found **12** documents stored twice under the same source URL, and live `search` returned both
-copies in one result set. Data-only release: no Worker or container deploy (the live server reads
-Neon).
+copies in one result set. Teaching the URL key about arXiv version suffixes then found **24 more**:
+metadata-only records filed beside the full text of the same paper. **36 duplicates removed in all**,
+289 → 253 documents.
 
 ### Fixed
 
@@ -24,6 +25,9 @@ Neon).
   decommissioning, three arXiv papers and two LEMIGAS SCOG papers. In every pair the copy kept is the
   one with the proper title and the more complete extraction; the dropped copies' unique lines were
   extraction artifacts (mangled equations, mojibake), never content.
+- **24 arXiv metadata-only records removed** (46 chunks): each an abstract stored beside the paper
+  itself (`content: "metadata-and-abstract"`, 0.8–2.2 KB against a 20–62 KB full text). The corpus
+  keeps the full text; the abstract is its opening passage.
 
 ### Changed
 
@@ -32,22 +36,33 @@ Neon).
   PDF is refused instead of written a second time. Previously only the body sha256 was compared, and
   re-extraction changes whitespace. Replacing a revised edition at the same URL now means removing
   the old file and its manifest line first (decision 40).
+- **`url_key` lives in `agent/urlnorm.py`** and is imported by both the collector and the build gate,
+  so the write-side guard and the gate cannot drift; on arXiv it also drops the version suffix
+  (`abs/ID` and `abs/IDv3` are one document), which is what found the 24 metadata records.
 - **`tools/build.py` fails a build** in which two indexed documents share a URL
   (`agent/library.py::duplicate_documents`), so a hand-added copy cannot reach a publish.
 
+### MCP surface
+
+- Server **instructions** gained a paragraph on the invariant ("the corpus holds one document per
+  source url"), and the `list_documents`, `get_document`, `search` and `library_stats` descriptions
+  now say that a url appears once, so a `path` is a stable handle and an absent document is absent
+  rather than stored under a second copy. `docs/MCP.md` and the `techlib-mcp` skill say the same.
+
 ### Published
 
-- Rebuilt index (277 documents / 13,238 chunks, of which 1,316 belong to restricted documents and
-  never enter Neon), embeddings reused from cache, Neon reloaded: **277 documents / 11,922 chunks /
-  13,708 vectors** = 13,624 − 1,702, exactly the duplicate chunks. Live: `library_stats` 277/11,922,
-  `count(*)` = `count(distinct url)`, one copy per search result.
+- Rebuilt index (253 documents / 13,192 chunks, of which 1,316 belong to restricted documents and
+  never enter Neon), embeddings reused from cache, Neon reloaded: **253 documents / 11,876 chunks /
+  13,662 vectors** = 13,624 − 1,702 − 46, exactly the duplicate documents. Live: `library_stats`
+  253/11,876, one copy per search result.
 
 ### Tests
 
 - New `tests/test_corpus.py` — the live corpus holds one document per url, the check reports a
-  planted duplicate, and `corpus/_inbox` staging never counts; `tests/test_collectors.py` — a
-  re-extraction of the same URL is refused while scheme/case/`www.`/slash/fragment variants are the
-  same document. `pytest -q tests` → **1,434 passed, 13 skipped**.
+  planted duplicate, URL variants (including `abs/IDv1`) are one document, and `corpus/_inbox`
+  staging never counts; `tests/test_collectors.py` — a re-extraction of the same URL is refused
+  while scheme/case/`www.`/slash/fragment variants are, and an arXiv abstract is not stored beside
+  its paper. `pytest -q tests` → **1,437 passed, 13 skipped**.
 
 ## [2026.11.23.3] — 2026-11-23 — Tool surface: bounded `list_gaps`, a complete `db_catalog`, and routing that names every tool
 

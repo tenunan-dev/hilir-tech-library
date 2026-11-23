@@ -87,6 +87,13 @@ READING TEXT: get_document pages in characters (`offset`/`limit`, default 20,000
 read `total_chars` first and page; some corpus documents exceed 2M characters. A document with
 `text_included: false` is a full-text-restricted private copy: metadata is served, text is not.
 
+THE CORPUS HOLDS ONE DOCUMENT PER SOURCE URL. A source page appears once, so `list_documents` and
+`search` never return the same document twice and a `path` is a stable handle: re-extractions,
+scheme/www variants and arXiv version suffixes (`abs/ID` and `abs/IDv3`) are the same document, and
+where a metadata-only record and the full paper both existed, the full text was kept. If you cannot
+find a document you expect, it is not stored or it is under the url its source publishes — not
+"stored under another copy".
+
 RULES THAT MATTER:
 1. Cite the url (source_url, url, or the source note) for every factual claim you take from here.
 2. Respect reuse_level: full-text-restricted means a private reference copy — quote briefly and never
@@ -135,7 +142,8 @@ def search(query: str, kind: str = "all", sector: str | None = None, discipline:
     kind: "all", "source" (catalog records), "chunk" (passages from collected documents),
     "technology" (cards), "vendor" (vendor directory records), "equipment" (equipment classes)
     or "project" (named projects and operating plants). Anything else returns empty — the kind
-    list is exact, not a free-text filter.
+    list is exact, not a free-text filter. Passages come from one document per source url, so the
+    same text is never returned twice under two paths.
     sector / discipline: a taxonomy code such as H2 or ROT — call taxonomy() first; a wrong code
     silently returns empty. region: e.g. sea, apac, global. limit: rows returned, capped at 50.
     NOTE: a discipline (or region) filter keeps only sources and their passages — technology
@@ -216,6 +224,10 @@ def get_document(path: str, offset: int = 0, limit: int = 20000) -> dict | None:
     Text of full-text-restricted documents is withheld on public servers — the front matter and
     summary still come back, which is a licence boundary, not a fetch failure.
 
+    One document per source url: a page is stored once, so a path names exactly one document and
+    there is no second copy to look for. Metadata-only records (for example an arXiv abstract) are
+    not kept beside the full text of the same paper.
+
     offset/limit page through the text in characters (default limit 20,000, hard cap 100,000);
     the response carries total_chars, so call again with offset += limit until you have the
     part you need — the corpus holds documents over 2M characters."""
@@ -225,11 +237,12 @@ def get_document(path: str, offset: int = 0, limit: int = 20000) -> dict | None:
 
 @server.tool()
 def list_documents(source_id: str | None = None, sector: str | None = None, limit: int = 50) -> list[dict]:
-    """The collected documents index: one row per document with its path (the handle get_document
-    takes), title, source, url, reuse_level, the sectors it is tagged with, and text_included —
-    false for full-text-restricted documents, whose stored text is never served (the metadata is).
-    source_id narrows to one catalog source (the id get_source gives); sector narrows to a
-    taxonomy code. Rows are capped at 500."""
+    """The collected documents index: one row per source document with its path (the handle
+    get_document takes), title, source, url, reuse_level, the sectors it is tagged with, and
+    text_included — false for full-text-restricted documents, whose stored text is never served
+    (the metadata is). A source url appears once: the corpus stores one document per source, so a
+    row is a distinct document rather than a copy. source_id narrows to one catalog source (the id
+    get_source gives); sector narrows to a taxonomy code. Rows are capped at 500."""
     return _with_neon(lambda: pg.document_rows(source_id, sector, limit),
                       lambda: library.list_documents(source_id, sector, limit, db(), EXCLUDE_RESTRICTED))
 
@@ -425,9 +438,10 @@ def get_standard(ref: str) -> dict | None:
 @server.tool()
 def library_stats() -> dict:
     """Counts of sources, documents, chunks, vectors, technology cards, vendors, equipment classes
-    and projects — the freshness check: compare against what you expect after a publish. On a
-    Neon-backed server the numbers are live; on the baked-index fallback documents exclude
-    full-text-restricted sources and vectors may be absent."""
+    and projects — the freshness check: compare against what you expect after a publish. `documents`
+    counts distinct source documents (one per source url, so no copies). On a Neon-backed server the
+    numbers are live; on the baked-index fallback documents exclude full-text-restricted sources and
+    vectors may be absent."""
     # Neon first (decision #34): the container's baked index is the offline fallback and holds
     # no embeddings, so without this the MCP number disagreed with REST /api/stats.
     if pg.configured():

@@ -23,6 +23,7 @@ import vendors
 import equipment
 import projects
 import bm25
+from urlnorm import url_key
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORPUS = ROOT / "corpus"
@@ -255,11 +256,12 @@ def tag_text(meta, labels):
 
 
 def duplicate_documents(corpus=None):
-    """Source documents stored twice: indexed files that share a url, mapped url -> [paths].
+    """Source documents stored twice: indexed files that share a source url, mapped key -> [paths].
 
-    The collector refuses a second copy of a url (collectors/common.py), so a group here means a
-    file was added by hand or predates that guard. The library indexes one document per source, and
-    a duplicate puts the same passage in two ranking slots.
+    The key is `urlnorm.url_key` — the same one the collector refuses a second copy by, so scheme,
+    case, "www.", a trailing slash, the fragment and an arXiv version suffix do not hide a duplicate.
+    The library indexes one document per source url, and a duplicate puts the same passage in two
+    ranking slots.
     """
     corpus = pathlib.Path(corpus or CORPUS)
     by_url = {}
@@ -269,7 +271,7 @@ def duplicate_documents(corpus=None):
         meta, _ = read_document(path)
         url = (meta.get("url") or "").strip()
         if url:
-            by_url.setdefault(url, []).append(str(path.relative_to(corpus.parent)))
+            by_url.setdefault(url_key(url), []).append(str(path.relative_to(corpus.parent)))
     return {url: paths for url, paths in by_url.items() if len(paths) > 1}
 
 

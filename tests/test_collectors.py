@@ -96,6 +96,16 @@ def test_same_source_url_is_stored_once_though_the_extraction_differs(corpus):
     assert common.write_document(rec, "Other", "https://example.org/other.pdf", "Other text entirely.") is not None
 
 
+def test_an_arxiv_abstract_is_not_stored_beside_its_full_text(corpus):
+    """abs/IDv1 and abs/ID are the same paper (the 2026-11-23 case): the version suffix is not a
+    different document, so the metadata record is refused once the paper is stored."""
+    rec = record(id="arxiv")
+    assert common.write_document(rec, "Paper", "https://arxiv.org/abs/2607.06093", "Full text of the paper." * 20)
+    assert common.write_document(rec, "Paper (abstract)", "http://arxiv.org/abs/2607.06093v1", "Abstract only.") is None
+    # a genuinely different paper is still written
+    assert common.write_document(rec, "Other paper", "https://arxiv.org/abs/2607.06094v1", "Another paper.") is not None
+
+
 def test_restricted_documents_carry_use_note(corpus):
     rec = record(reuse_level="full-text-restricted", licence="proprietary", permitted_use="personal-non-commercial")
     path = common.write_document(rec, "Brochure", "https://example.org/b", "Some text")
