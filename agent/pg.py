@@ -908,7 +908,7 @@ def tables_doc() -> dict:
              "holds": "passages of open-licence documents"},
             {"name": "technology",
              "columns": ["id", "name", "sector", "category", "maturity", "principle", "trl_low", "trl_high",
-                         "last_reviewed", "card jsonb", "embedding", "tsv"],
+                         "last_reviewed", "card jsonb", "search_text", "embedding", "tsv"],
              "holds": "technology cards"},
             {"name": "technology_alias",
              "columns": ["technology_id", "alias"],
@@ -927,16 +927,33 @@ def tables_doc() -> dict:
              "holds": "card children: gaps with reason_code/reason/action/where"},
             {"name": "vendor",
              "columns": ["id", "name", "aliases[]", "country", "roles[]", "description", "products[]", "url",
-                         "technologies[]", "record jsonb", "embedding", "tsv"],
+                         "technologies[]", "record jsonb", "search_text", "embedding", "tsv"],
              "holds": "curated vendor directory records; technologies[] holds the card ids they supply; "
                       "record is the full catalog record (sources, notes, last_reviewed)"},
             {"name": "equipment",
              "columns": ["id", "name", "equipment_type", "sector", "sector_codes[]", "description",
                          "specifications jsonb", "vendor_models jsonb", "vendors[]", "technologies[]",
-                         "gaps jsonb", "sources jsonb", "record jsonb", "embedding", "tsv"],
+                         "gaps jsonb", "sources jsonb", "record jsonb", "search_text", "embedding", "tsv"],
              "holds": "curated equipment catalog records (one per equipment class, boilers first); "
                       "specifications hold metric/range/basis/source, vendor_models the model lines and "
                       "record the full catalog record (aliases, applications, notes, last_reviewed)"},
+            {"name": "project",
+             "columns": ["id", "name", "project_type", "sector", "sector_codes[]", "country", "location",
+                         "status", "description", "capacities jsonb", "capex jsonb", "owners jsonb",
+                         "contractors jsonb", "offtakers jsonb", "technologies[]", "milestones jsonb",
+                         "gaps jsonb", "sources jsonb", "record jsonb", "search_text", "embedding", "tsv"],
+             "holds": "curated project and operating-plant records (status proposed/FID/under-construction/"
+                      "commissioning/operating/suspended/decommissioned); capacities, capex and milestones "
+                      "each carry their source and, for money, its dollar year"},
+            {"name": "search_concept",
+             "columns": ["concept", "term"],
+             "holds": "the query-side concept groups search expands through (carbon = carbon + co2), "
+                      "seeded from catalog/search-concepts.yaml"},
+            {"name": "search_term",
+             "columns": ["term", "df"],
+             "holds": "document frequency per term, copied from the baked index by the loader; a query "
+                      "term at or below 1% of records (floor 8) is a qualifier and forms the rare-concept "
+                      "pool, so a code like KS-1 or MDEA leads its result"},
             {"name": "register_entry",
              "columns": ["id", "sector", "area", "name", "maturity", "examples", "card_id"],
              "holds": "the technology register (indicative, unverified); the live count is in "
@@ -972,13 +989,6 @@ def tables_doc() -> dict:
             {"name": "hybrid_search_kind", "signature": "q text, qvec vector(384), k int, sector text, discipline text, region text, reuse_level text, kind_filter text",
              "does": "hybrid_search with a kind filter applied inside the ranking (kind = chunk, "
                      "source, technology, vendor, equipment or project)"},
-            {"name": "search_concept", "signature": "table: concept text, term text",
-             "does": "the query-side concept groups the search expands through, seeded from "
-                     "catalog/search-concepts.yaml"},
-            {"name": "search_term", "signature": "table: term text, df int",
-             "does": "document frequency per term, copied from the baked index by the loader; a "
-                     "query term at or below 1% of records (floor 8) is treated as a qualifier and "
-                     "forms the rare-concept pool, so a code like KS-1 or MDEA leads its result"},
             {"name": "refresh_similarity", "signature": "k int, min_sim float",
              "does": "rebuilds similar_to edges (write path, loader only)"},
         ],

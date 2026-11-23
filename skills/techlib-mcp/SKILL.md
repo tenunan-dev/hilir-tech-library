@@ -1,11 +1,11 @@
 ---
 name: techlib-mcp
-description: Search and read the HILIR Technology Library through its MCP server (techlib-api.hilir.app) — 24 tools over a curated catalogue of public sources on oil, gas, petrochemical and energy technology, holding technology cards, cost and performance figures with their basis, vendor and equipment records, plants and projects, collected source documents, standards and a glossary. Use it when the user asks what technology options exist for X and how mature they are, what X costs or how efficient it is, who supplies X, what an equipment class can do, which plants use X, what a standard or acronym means, or for citable sources on an energy topic. Do NOT use it for drawing generation (JELAS CAD / hilir-cad), process simulation (DWSIM / dwsim-mcp), electrical studies (Thunderbolt / hilir-thunderbolt), Malaysian site facts (mygis-mcp) or man-hour and cost norms (resources-mcp).
+description: Search and read the HILIR Technology Library through its MCP server (techlib-api.hilir.app) — 26 tools over a curated catalogue of public sources on oil, gas, petrochemical and energy technology, holding technology cards, cost and performance figures with their basis, vendor and equipment records, plants and projects, collected source documents, standards and a glossary. Use it when the user asks what technology options exist for X and how mature they are, what X costs or how efficient it is, who supplies X, what an equipment class can do, which plants use X, what a standard or acronym means, or for citable sources on an energy topic. Do NOT use it for drawing generation (JELAS CAD / hilir-cad), process simulation (DWSIM / dwsim-mcp), electrical studies (Thunderbolt / hilir-thunderbolt), Malaysian site facts (mygis-mcp) or man-hour and cost norms (resources-mcp).
 ---
 
 # HILIR Technology Library — over MCP
 
-`techlib-api.hilir.app` serves the Technology Library over MCP: 24 tools (Streamable
+`techlib-api.hilir.app` serves the Technology Library over MCP: 26 tools (Streamable
 HTTP, stateless; `tools/list` is the live count) and the same functions as a REST API
 under `/api`. The library is a curated catalogue of public sources on oil, gas,
 petrochemical and energy technologies, built for AI agents to find, cite and read —
@@ -31,14 +31,15 @@ troubleshooting. Also: `docs/USER_GUIDE.md` (client setup), `docs/AUTH.md` (auth
 | The question | Start with | Then |
 |---|---|---|
 | Options and maturity for X | `compare_technologies(sector=…, application=…)` | `get_technology` on 2–4 ids |
+| Two or three named cards, side by side | `compare_technologies(technology_ids=[…])` | `get_technology` on the one that matters |
 | What X costs / how efficient X is | `find_figures(query=…, sector=…)` | `get_technology` for the whole card |
 | Who supplies X / what does vendor Y make | `list_vendors(sector=…, query=…)` | `get_vendor` |
 | Limits of an equipment class | `list_equipment(equipment_type=…)` | `get_equipment` |
 | Which plants use X / what is built in Z | `list_projects(sector=…, country=…, query=…)` | `get_project` |
 | What does this acronym mean | `get_glossary_term("CCGT")` | `list_glossary(q)` to browse |
 | Which code/standard applies | `list_standards(org="API")` | `get_standard("API 610")` |
-| Sources or text about X | `search(q, kind=…)` | `get_source` / `list_documents` / `get_document` |
-| What the library does not know | `list_gaps(…)` | `list_technology_register` for card-less topics |
+| Sources or text about X | `search(q, kind=…)` | `list_documents(source_id=…)`, then `get_source` / `get_document` |
+| What the library does not know | `list_gaps(sector=…, field=…)` | `list_technology_register`, then `get_register_entry("CCS/slug")` for one row |
 | How are these connected | `graph_neighbors(node=…)` | `sql_query` for custom joins (read `db_catalog()` first) |
 | Counts, freshness, provenance | `library_stats()` | `sql_query` against the Postgres layer |
 

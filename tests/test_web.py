@@ -255,7 +255,10 @@ def test_standards_page_lists_and_filters(c):
 
 def test_gaps_page_shows_register_entries_without_a_card(c):
     # these rows were filtered out of /gaps while it passed include_no_card=False, which hid the
-    # library's biggest structural hole from the only page meant to show it
+    # library's biggest structural hole from the only page meant to show it.
+    # admin(c) explicitly: the client is module-scoped, so this test must not depend on whichever
+    # header an earlier test happened to leave behind (it 401'd when run alone).
+    admin(c)
     r = c.get("/gaps")
     assert r.status_code == 200
     assert "register entries with no card" in r.text

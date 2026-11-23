@@ -1,9 +1,9 @@
 # Using the MCP server
 
-The library exposes 24 tools over MCP (stdio locally, Streamable HTTP at
+The library exposes 26 tools over MCP (stdio locally, Streamable HTTP at
 `https://techlib-api.hilir.app/mcp`) and the same functionality as a REST API under `/api`. This
 page is the instruction sheet for an AI agent: what each tool answers, when to reach for it, and the
-rules that keep an answer honest.
+rules that keep an answer honest. `tools/list` is the live count — this number tracks it.
 
 Read [AUTH.md](AUTH.md) before connecting to the hosted endpoint — HTTP mode needs a hilir Access
 bearer token, and by default it does not serve text from full-text-restricted sources.
@@ -154,12 +154,15 @@ their `id`, which `get_register_entry(id)` takes.
 **`get_register_entry(entry_id)`**
 One register entry by its id (`code/slug-of-name`, e.g. `CCS/amine-solvent-post-combustion-capture`).
 
-**`list_gaps(sector=None, field=None, reason_code=None, include_no_card=False)`**
+**`list_gaps(sector=None, field=None, reason_code=None, include_no_card=False, limit=100)`**
 What the library knows it does not know: `field` (trl, performance, costs, reference_plants,
 suppliers, status, process, other), `reason_code` (not_in_sources_read, source_unreachable,
 source_not_collected, paid_source, status_unchecked, conflicting_sources, general_knowledge_only),
 plus `item`, `reason`, `where`, `action`. Use it to answer "can you tell me X?" honestly and to pick
-the next thing worth researching.
+the next thing worth researching. The full set is several hundred rows — mostly one per card with
+near-identical text — so narrow with `sector`/`field`/`reason_code`; `limit` (default 100, cap 1000)
+is a backstop, not a browsing parameter. `/gaps` on the web UI reads the dataset directly and is not
+capped.
 
 ### Reference
 

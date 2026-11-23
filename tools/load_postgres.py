@@ -242,10 +242,19 @@ def load(conn, data, nodes, edges, vectors, df_terms=None):
         cur.executemany("INSERT INTO search_term VALUES (%s, %s) ON CONFLICT (term) DO UPDATE SET df = EXCLUDED.df",
                         sorted(df_terms.items()))
     cur.execute("ANALYZE")
+    # What is actually STORED, not what was carried: the baked index holds vectors for restricted
+    # passages that the open-licence load never inserts, so len(vectors) overstates the total.
+    cur.execute("""SELECT (SELECT count(*) FROM technology WHERE embedding IS NOT NULL)
+                        + (SELECT count(*) FROM vendor WHERE embedding IS NOT NULL)
+                        + (SELECT count(*) FROM equipment WHERE embedding IS NOT NULL)
+                        + (SELECT count(*) FROM project WHERE embedding IS NOT NULL)
+                        + (SELECT count(*) FROM source WHERE embedding IS NOT NULL)
+                        + (SELECT count(*) FROM chunk WHERE embedding IS NOT NULL)""")
+    stored_vectors = cur.fetchone()[0]
     return {"sources": len(data["records"]), "documents": len(data["docs"]), "chunks": len(data["chunks"]),
             "technologies": len(data["cards"]), "vendors": len(data["vendors"]), "register": len(data["entries"]),
             "equipment": len(data["equipment"]), "projects": len(data["projects"]),
-            "nodes": len(nodes), "edges": len(edges), "vectors": len(vectors)}
+            "nodes": len(nodes), "edges": len(edges), "vectors": stored_vectors}
 
 
 def grant_readonly(dsn):

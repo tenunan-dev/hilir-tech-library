@@ -8,6 +8,51 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.23.3] — 2026-11-23 — Tool surface: bounded `list_gaps`, a complete `db_catalog`, and routing that names every tool
+
+All 26 tools re-tested live against the 2026-11-19 findings document; the record is
+[docs/MCP-TEST_2026-11-23.md](docs/MCP-TEST_2026-11-23.md) and the response
+[docs/RESPONSE-2026-11-19-tooltest_2026-11-23.md](docs/RESPONSE-2026-11-19-tooltest_2026-11-23.md).
+
+### Changed
+
+- **`list_gaps` is bounded**: `limit` (default 100, cap 1000). One sector still returned 30+ rows
+  with near-identical TRL text, and the unfiltered set is several hundred; the description now says
+  to narrow by `sector`/`field`/`reason_code` instead of raising the limit. `/gaps` in the web UI
+  reads the dataset directly, so the page still shows every row.
+- **Server instructions** now route to `compare_technologies(technology_ids=…)`, `list_documents`
+  and `get_register_entry` (all three existed but were unmentioned), state how `search` ranks
+  (concept coverage, rare-term qualifiers, `kind` narrowing inside the ranking), and explain how to
+  read a long document (`get_document` paging, `text_included: false`).
+
+### Fixed
+
+- **`db_catalog` was incomplete**: `og.project` was missing entirely (295 rows, used by
+  `list_projects` and `search`), `search_concept`/`search_term` were listed under *functions*
+  although they are tables, and `search_text` was absent from the four curated tables' column
+  lists. Anyone writing SQL for projects was guessing.
+- **The publish summary over-reported vectors** — it printed the count carried from the baked index
+  (16,902) rather than stored in Postgres (15,410; the difference is restricted passages that never
+  enter Neon).
+- **`/gaps` read the MCP tool** and so inherited its new cap; it now reads the dataset directly, so
+  the page cannot silently lose rows to a display limit.
+- **Test hygiene**: `test_gaps_page_shows_register_entries_without_a_card` relied on a header left by
+  an earlier test on the module-scoped client and 401'd when run alone; it authenticates explicitly.
+
+### Verified
+
+- `pytest -q tests` → **1,430 passed, 13 skipped**.
+- Live: all nine 2026-11-19 findings confirmed closed (glossary PUE/WUE, document paging, `db_catalog`
+  schema, no duplicate Malaysian projects, Kasawari milestones corrected, blanks marked `stub`,
+  vendor stubs, gap counts on comparisons, the amine search card first); the three suggested tools
+  all exist.
+- Container re-shipped (api `sha256:9b9230d6a3b6…`, ui `sha256:8d1b2c6ba7f2…`; gate
+  `mygis 303, techlib-origin 403, tlea-origin 403`) after pruning 18.2 GB of stale local build
+  cache (the first attempt died with `no space left on device` mid-`COPY`, while
+  `local-images.sh` still reported exit 0 because its output was piped to `tail`).
+- Live after the ship: `list_gaps(sector="WWT", limit=3)` returns exactly three rows; `db_catalog`
+  lists `og.project` with `search_text`, and both search tables appear under tables.
+
 ## [2026.11.23.2] — 2026-11-23 — A product code finds its card: rare terms rank as qualifiers
 
 ### Fixed

@@ -54,6 +54,8 @@ code list with names and subtopics rather than guessing.
 
 ROUTING — pick the tool by the question being asked:
 - "What are the options for X?" -> compare_technologies, then get_technology on the interesting ids.
+  To compare cards you already know, pass technology_ids (they are returned in the order given);
+  the sector/maturity/application filters are then ignored.
 - "How much does X cost / how efficient is X?" -> find_figures (returns every recorded figure with
   its basis, dollar year and source url). Use get_technology when you want the whole card.
 - "Who supplies X / what does vendor Y make?" -> list_vendors, then get_vendor.
@@ -63,13 +65,27 @@ ROUTING — pick the tool by the question being asked:
 - "What does this acronym mean?" -> get_glossary_term (or list_glossary to browse).
 - "Which standard applies?" -> list_standards / get_standard (designation, title, scope, url).
 - "Find me sources or text about X" -> search (kind: all/source/chunk/technology/vendor/equipment/
-  project), then get_source or get_document for the full record or text.
+  project), then list_documents for a source's documents, get_source for the record, and
+  get_document for the text.
 - "What does the library not know yet?" -> list_gaps (per-card missing inputs with reason and next
-  action), and list_technology_register for the indicative register including entries with no card.
+  action; narrow with sector/field/reason_code — it is a few hundred rows), and
+  list_technology_register for the indicative register including entries with no card. Both return
+  rows that get_register_entry can then fetch individually ("code/slug-of-name").
 - "How are these things connected?" -> graph_neighbors (technology, vendor, project, source nodes).
 - "Give me counts / is the data current?" -> library_stats.
 - Anything the tools above do not express -> sql_query against the read-only Postgres layer; call
   db_catalog first for tables, views and columns.
+
+HOW SEARCH RANKS, so you phrase a query well: search is concept-aware, not literal. The query is
+expanded through the library's concept groups (carbon = carbon + co2) and a record covering more of
+the query's concepts outranks one that repeats a single word; a term that is rare in the library (a
+product or process code such as KS-1, MDEA, Sulfinol) acts as a qualifier, so records carrying it
+lead. `kind` narrows inside the ranking. Query the concepts you want answered rather than a phrase
+you hope appears verbatim, and a query with no searchable words returns nothing.
+
+READING TEXT: get_document pages in characters (`offset`/`limit`, default 20,000, cap 100,000) —
+read `total_chars` first and page; some corpus documents exceed 2M characters. A document with
+`text_included: false` is a full-text-restricted private copy: metadata is served, text is not.
 
 RULES THAT MATTER:
 1. Cite the url (source_url, url, or the source note) for every factual claim you take from here.
@@ -354,14 +370,17 @@ def get_register_entry(entry_id: str) -> dict | None:
 
 @server.tool()
 def list_gaps(sector: str | None = None, field: str | None = None, reason_code: str | None = None,
-              include_no_card: bool = False) -> list[dict]:
+              include_no_card: bool = False, limit: int = 100) -> list[dict]:
     """Inputs the technology cards still lack, each with why it is missing (reason_code: not_in_sources_read,
     source_unreachable, source_not_collected, paid_source, status_unchecked, conflicting_sources,
     general_knowledge_only), where to get it, the next action and any blocker. field: trl, performance, costs,
     reference_plants, suppliers, status, process, other. include_no_card adds register technologies with no card.
-    Use it to tell users what the library cannot answer yet, or to pick the next collection task."""
-    return _with_neon(lambda: pg.gap_rows(sector, field, reason_code, include_no_card),
+    Use it to tell users what the library cannot answer yet, or to pick the next collection task.
+    limit: rows returned (default 100, capped at 1000) — the full set is several hundred rows, most
+    of them one per card, so narrow with sector/field/reason_code rather than raising it blindly."""
+    rows = _with_neon(lambda: pg.gap_rows(sector, field, reason_code, include_no_card),
                       lambda: library.list_gaps(sector, field, reason_code, include_no_card, db()))
+    return rows[:max(1, min(int(limit), 1000))]
 
 
 @server.tool()

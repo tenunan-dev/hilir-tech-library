@@ -1834,9 +1834,11 @@ def routes(tools) -> list:
         qp = request.query_params
         sector, field = str(qp.get("sector") or ""), str(qp.get("field") or "")
         # include_no_card is deliberate: register entries with no card are the library's biggest
-        # structural hole and were invisible here while this passed False.
+        # structural hole and were invisible here while this passed False. Read the dataset
+        # directly rather than through server.list_gaps: that is the MCP tool and caps its
+        # response to a page-sized slice, which would silently drop rows from this page.
         rows = _neon_first(lambda: pg.gap_rows(sector or None, field or None, None, True),
-                           lambda: tools.list_gaps(sector or None, field or None, None, True))
+                           lambda: library.list_gaps(sector or None, field or None, None, True, tools.db()))
         groups = {}
         for gap in rows:
             groups.setdefault((gap.get("card"), gap.get("technology")), []).append(gap)
