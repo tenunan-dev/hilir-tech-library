@@ -54,7 +54,13 @@ metadata-only records filed beside the full text of the same paper. **36 duplica
 - Rebuilt index (253 documents / 13,192 chunks, of which 1,316 belong to restricted documents and
   never enter Neon), embeddings reused from cache, Neon reloaded: **253 documents / 11,876 chunks /
   13,662 vectors** = 13,624 − 1,702 − 46, exactly the duplicate documents. Live: `library_stats`
-  253/11,876, one copy per search result.
+  253/11,876, one copy per search result. The data change needs no deploy (the server reads Neon).
+- **Container ship blocked:** both images built locally (api `sha256:d2aa37872594…`, ui
+  `sha256:d0625c4bbea7…`), but the VPS root filesystem was at 99% (557 MB) and the API image's
+  `docker load` ran out of space mid-extraction. No service impact (all containers healthy, public
+  probes green, the old API image still running), but the `api:latest` tag is now absent, so the
+  stack cannot be recreated until a successful load. Recovery and the exact owner commands are in
+  `docs/STATUS.md`; the MCP instruction/description text therefore lands on the next successful ship.
 
 ### Tests
 
