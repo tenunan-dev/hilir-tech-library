@@ -38,6 +38,16 @@ fused over chunks, cards, vendor records, equipment classes and catalog sources;
 after `q` is optional, and `discipline`/`region` filter sources and passages only, while
 `reuse_level` compares the source's level), `refresh_similarity(k, min_sim)`.
 
+`hybrid_search` ranks the keyword pool by **concept coverage, then density**: the query is expanded
+through `og.search_concept` (seeded by the loader from `catalog/search-concepts.yaml`, the same file
+the SQLite path reads) and a record covering more of the query's concepts outranks one that repeats
+a single word. Each kind contributes up to 50 candidates to the fusion, so 15,000 passages cannot
+crowd out the curated records. The four curated tables carry a `search_text` column — the exact
+string the SQLite index holds (`technologies.search_text`, `library.vendor_text` /
+`equipment_text` / `project_text`) — and a `tsv` generated as
+`setweight(name,'A') || setweight(search_text,'B')`, so both paths index the same words and a name
+match weighs more than a body match.
+
 
 ## The graph
 

@@ -81,9 +81,14 @@ CREATE TABLE IF NOT EXISTS technology (
     trl_high      integer,
     last_reviewed date NOT NULL,
     card          jsonb NOT NULL,                   -- the full card, as in catalog/technologies
+    search_text   text NOT NULL DEFAULT '',         -- the card's index text (agent/technologies.search_text)
     embedding     vector(384),
+    -- The name is weighted above the body, and the body is the SAME string the SQLite index
+    -- carries, so the two search paths cannot index different words. A card written in CO2 where
+    -- the user types "carbon" is bridged by og.search_concept at query time, not by rewriting cards.
     tsv           tsvector GENERATED ALWAYS AS (
-                    to_tsvector('english', name || ' ' || category || ' ' || principle)) STORED
+                    setweight(to_tsvector('english', name), 'A') ||
+                    setweight(to_tsvector('english', search_text), 'B')) STORED
 );
 CREATE INDEX IF NOT EXISTS technology_tsv_idx ON technology USING gin (tsv);
 CREATE INDEX IF NOT EXISTS technology_sector_idx ON technology (sector, maturity);
@@ -142,9 +147,11 @@ CREATE TABLE IF NOT EXISTS vendor (                    -- curated vendor directo
     url          text,
     technologies text[] NOT NULL DEFAULT '{}',         -- ids of the technology cards this vendor supplies
     record       jsonb NOT NULL DEFAULT '{}'::jsonb,   -- the full catalog record, as in catalog/vendors
+    search_text  text NOT NULL DEFAULT '',             -- index text (agent/library.vendor_text)
     embedding    vector(384),
     tsv          tsvector GENERATED ALWAYS AS (
-                    to_tsvector('english', name || ' ' || coalesce(country, '') || ' ' || description)) STORED
+                    setweight(to_tsvector('english', name), 'A') ||
+                    setweight(to_tsvector('english', search_text), 'B')) STORED
 );
 CREATE INDEX IF NOT EXISTS vendor_tsv_idx ON vendor USING gin (tsv);
 
@@ -162,9 +169,11 @@ CREATE TABLE IF NOT EXISTS equipment (                     -- curated equipment 
     gaps            jsonb NOT NULL DEFAULT '[]',
     sources         jsonb NOT NULL DEFAULT '[]',           -- the record's own sources (url, note)
     record          jsonb NOT NULL DEFAULT '{}'::jsonb,    -- the full catalog record, as in catalog/equipment
+    search_text     text NOT NULL DEFAULT '',              -- index text (agent/library.equipment_text)
     embedding       vector(384),
     tsv             tsvector GENERATED ALWAYS AS (
-                      to_tsvector('english', name || ' ' || description)) STORED
+                      setweight(to_tsvector('english', name), 'A') ||
+                      setweight(to_tsvector('english', search_text), 'B')) STORED
 );
 CREATE INDEX IF NOT EXISTS equipment_tsv_idx ON equipment USING gin (tsv);
 
@@ -188,9 +197,11 @@ CREATE TABLE IF NOT EXISTS project (                        -- curated project a
     gaps          jsonb NOT NULL DEFAULT '[]',
     sources       jsonb NOT NULL DEFAULT '[]',             -- the record's own sources (url, note)
     record        jsonb NOT NULL DEFAULT '{}'::jsonb,      -- the full catalog record, as in catalog/projects
+    search_text   text NOT NULL DEFAULT '',                -- index text (agent/library.project_text)
     embedding     vector(384),
     tsv           tsvector GENERATED ALWAYS AS (
-                    to_tsvector('english', name || ' ' || description)) STORED
+                    setweight(to_tsvector('english', name), 'A') ||
+                    setweight(to_tsvector('english', search_text), 'B')) STORED
 );
 CREATE INDEX IF NOT EXISTS project_tsv_idx ON project USING gin (tsv);
 
@@ -254,6 +265,37 @@ CREATE INDEX IF NOT EXISTS source_embedding_idx ON source USING hnsw (embedding 
 -- full catalog records so the get_* tools serve everything without a column per field
 ALTER TABLE vendor ADD COLUMN IF NOT EXISTS record jsonb NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE equipment ADD COLUMN IF NOT EXISTS record jsonb NOT NULL DEFAULT '{}'::jsonb;
+-- 2026-11-23: the four curated record kinds are full-text indexed by the text the loader writes
+-- (the same string the SQLite index carries), with the name weighted above the body. Rewrites a
+-- small table each run (about 1,150 rows across the four) and is a no-op on a fresh database.
+ALTER TABLE technology ADD COLUMN IF NOT EXISTS search_text text NOT NULL DEFAULT '';
+ALTER TABLE vendor     ADD COLUMN IF NOT EXISTS search_text text NOT NULL DEFAULT '';
+ALTER TABLE equipment  ADD COLUMN IF NOT EXISTS search_text text NOT NULL DEFAULT '';
+ALTER TABLE project    ADD COLUMN IF NOT EXISTS search_text text NOT NULL DEFAULT '';
+DROP INDEX IF EXISTS technology_tsv_idx;
+DROP INDEX IF EXISTS vendor_tsv_idx;
+DROP INDEX IF EXISTS equipment_tsv_idx;
+DROP INDEX IF EXISTS project_tsv_idx;
+ALTER TABLE technology DROP COLUMN IF EXISTS tsv;
+ALTER TABLE vendor     DROP COLUMN IF EXISTS tsv;
+ALTER TABLE equipment  DROP COLUMN IF EXISTS tsv;
+ALTER TABLE project    DROP COLUMN IF EXISTS tsv;
+ALTER TABLE technology ADD COLUMN tsv tsvector GENERATED ALWAYS AS (
+    setweight(to_tsvector('english', name), 'A') ||
+    setweight(to_tsvector('english', search_text), 'B')) STORED;
+ALTER TABLE vendor ADD COLUMN tsv tsvector GENERATED ALWAYS AS (
+    setweight(to_tsvector('english', name), 'A') ||
+    setweight(to_tsvector('english', search_text), 'B')) STORED;
+ALTER TABLE equipment ADD COLUMN tsv tsvector GENERATED ALWAYS AS (
+    setweight(to_tsvector('english', name), 'A') ||
+    setweight(to_tsvector('english', search_text), 'B')) STORED;
+ALTER TABLE project ADD COLUMN tsv tsvector GENERATED ALWAYS AS (
+    setweight(to_tsvector('english', name), 'A') ||
+    setweight(to_tsvector('english', search_text), 'B')) STORED;
+CREATE INDEX IF NOT EXISTS technology_tsv_idx ON technology USING gin (tsv);
+CREATE INDEX IF NOT EXISTS vendor_tsv_idx ON vendor USING gin (tsv);
+CREATE INDEX IF NOT EXISTS equipment_tsv_idx ON equipment USING gin (tsv);
+CREATE INDEX IF NOT EXISTS project_tsv_idx ON project USING gin (tsv);
 -- the pre-2026-11-03 hybrid_search had four arguments; CREATE OR REPLACE cannot change a
 -- signature, so the old overload is dropped explicitly (no-op once gone)
 DROP FUNCTION IF EXISTS hybrid_search(text, vector, integer, text);
@@ -300,6 +342,16 @@ RETURNS TABLE (node_id text, kind text, label text, depth integer, via text[]) L
     ORDER BY w.node_id, w.depth;
 $$;
 
+-- Concept groups the query is expanded through: a query word is replaced by every term of its
+-- group, and ranking counts CONCEPTS matched rather than words. Seeded from
+-- catalog/search-concepts.yaml by tools/load_postgres.py (the SQLite path reads the same file),
+-- so "carbon" also searches "co2" and a card written in molecules still answers an element.
+CREATE TABLE IF NOT EXISTS search_concept (
+    concept text NOT NULL,
+    term    text NOT NULL,
+    PRIMARY KEY (concept, term)
+);
+
 -- Hybrid search over passages, cards, vendor records, equipment classes, projects and catalog
 -- sources: reciprocal rank fusion of full-text and vector ranks. qvec may be NULL (keyword only);
 -- the optional sector/discipline/region/reuse_level filters mirror the SQLite search exactly:
@@ -309,9 +361,12 @@ $$;
 -- when the filter is unset or full-text-open. Passages of full-text-restricted documents NEVER
 -- surface: their text may sit in this database (owner load), but search must not serve it.
 -- Example: SELECT * FROM hybrid_search('CO2 storage Malay Basin', NULL, 10);
--- Ranking parity with the SQLite fallback (agent/library.py): technology cards are boosted
--- 1.3 (TECHNOLOGY_BOOST) and chunk/source rows get the region boost of their source's tags
--- (sea 1.25, apac 1.15 — the max when a source carries both), so the two paths rank alike.
+-- Ranking parity with the SQLite fallback (agent/library.py): the keyword pool orders by concept
+-- coverage then density, technology cards are boosted 1.3 (TECHNOLOGY_BOOST) and chunk/source rows
+-- get the region boost of their source's tags (sea 1.25, apac 1.15), so the two paths rank alike.
+-- Coverage first is what fixed 2026-11-23: "carbon capture amine" ranked cards that say "carbon"
+-- often above the card named "Amine solvent post-combustion capture", which is written in CO2 and
+-- therefore matched only two of the three words however well it answered the question.
 CREATE OR REPLACE FUNCTION hybrid_search(q text, qvec vector(384) DEFAULT NULL, k integer DEFAULT 10,
                                          sector text DEFAULT NULL, discipline text DEFAULT NULL,
                                          region text DEFAULT NULL, reuse_level text DEFAULT NULL)
@@ -346,13 +401,42 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
         SELECT 'project', p.id, p.name, p.tsv, p.embedding, p.sector_codes, NULL::text, NULL::text, NULL::text[]
         FROM project p
     ),
-    tq AS (SELECT websearch_to_tsquery('english', regexp_replace(trim(q), '\s+', ' or ', 'g')) AS query),
-    -- one rank pool per kind: 11k passages must not crowd cards, vendors, equipment and
-    -- sources out of the candidate set (each kind contributes up to 50 candidates to the fusion)
+    -- Query terms (subscript digits folded, so CO₂ tokenises like CO2), each replaced by its
+    -- concept group; a word in no group is its own concept.
+    qtok AS (
+        SELECT DISTINCT tok FROM unnest(regexp_split_to_array(
+                   lower(regexp_replace(translate(q, '₀₁₂₃₄₅₆₇₈₉', '0123456789'), '[^[:alnum:]]+', ' ', 'g')),
+                   '\s+')) AS t(tok)
+        WHERE tok <> ''
+    ),
+    qexp AS (
+        SELECT coalesce(sc.concept, qtok.tok) AS concept, e.term
+        FROM qtok
+        LEFT JOIN search_concept sc ON sc.term = qtok.tok
+        CROSS JOIN LATERAL (
+            SELECT unnest(coalesce(
+                (SELECT array_agg(s2.term) FROM search_concept s2 WHERE s2.concept = sc.concept),
+                ARRAY[qtok.tok])) AS term
+        ) e
+    ),
+    qconcept AS (SELECT concept, array_agg(DISTINCT term) AS terms FROM qexp GROUP BY concept),
+    tq AS (SELECT to_tsquery('english',
+                   string_agg('(' || array_to_string(terms, ' | ') || ')', ' | ' ORDER BY concept)) AS query
+           FROM qconcept),
+    -- one rank pool per kind: 15k passages must not crowd cards, vendors, equipment and
+    -- sources out of the candidate set (each kind contributes up to 50 candidates to the fusion).
+    -- Coverage leads the order, density breaks the tie: the query is an implicit conjunction,
+    -- so answering all of it beats answering one word often.
     kw AS (
         SELECT kind, ref, r FROM (
             SELECT i.kind, i.ref,
-                   row_number() OVER (PARTITION BY i.kind ORDER BY ts_rank_cd(i.tsv, tq.query) DESC) AS r
+                   row_number() OVER (PARTITION BY i.kind
+                                      ORDER BY
+                                        (SELECT count(*) FROM qconcept qc
+                                         WHERE i.tsv @@ to_tsquery('english', array_to_string(qc.terms, ' | ')))
+                                        DESC,
+                                        ts_rank_cd(i.tsv, tq.query) DESC,
+                                        i.ref) AS r
             FROM items i, tq
             WHERE i.tsv @@ tq.query
               AND (sector IS NULL OR sector = ANY (i.sectors))
@@ -406,7 +490,7 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
     )
     SELECT f.kind, f.ref, i.title, f.score
     FROM fused f JOIN items i ON i.kind = f.kind AND i.ref = f.ref
-    ORDER BY f.score DESC LIMIT k;
+    ORDER BY f.score DESC, f.kind, f.ref LIMIT k;
 $$;
 
 -- Add semantic similar_to edges between technology cards: each card gets edges to its k nearest

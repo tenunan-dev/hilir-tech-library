@@ -104,8 +104,10 @@ def collect(include_restricted=False):
             "equipment": equipment_recs, "projects": project_recs, "docs": docs, "chunks": chunks}
 
 
-def card_search_text(card):
-    """Same text the SQLite index embeds for a card."""
+def card_embed_text(card):
+    """The text a card is embedded by. Narrower than technologies.search_text (the full-text
+    text): the embedding has not changed since the vectors were built, and re-embedding to match
+    the index would move every card in the vector ranking for no gain."""
     return "\n".join([card["category"], card["principle"], " ".join(card.get("aliases", [])),
                       " ".join(card.get("applications", [])), " ".join(card["key_equipment"]),
                       " ".join(s["name"] + " " + s.get("product", "") for s in card["suppliers"]), card["maturity"]])
@@ -119,7 +121,12 @@ def load(conn, data, nodes, edges, vectors):
     cur.execute("SET search_path = og, public")
     # TRUNCATE list kept in sync with the og schema (db/schema.sql); written as a
     # literal so no statement is ever assembled at runtime.
-    cur.execute("TRUNCATE edge, node, register_entry, technology_gap, technology_supplier, technology_figure, technology_source, technology_alias, technology, vendor, equipment, project, chunk, document, source_tag, source RESTART IDENTITY CASCADE")
+    cur.execute("TRUNCATE edge, node, register_entry, technology_gap, technology_supplier, technology_figure, technology_source, technology_alias, technology, vendor, equipment, project, chunk, document, source_tag, search_concept, source RESTART IDENTITY CASCADE")
+    # The query-side concept groups (SRCH_CONCEPT): both search paths expand a query through them,
+    # so they load with the data rather than living only in the schema file.
+    for concept, terms in sorted(library.search_concepts().items()):
+        for term in terms:
+            cur.execute("INSERT INTO search_concept VALUES (%s, %s) ON CONFLICT DO NOTHING", (concept, term))
     for r in data["records"]:
         vec = vectors.get(("source", r["id"]))
         cur.execute("INSERT INTO source (id, name, url, source_type, publisher_org, country, access, licence, reuse_level, permitted_use, automated_access, quality_tier, verification, last_verified, update_frequency, notes, record, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
@@ -138,12 +145,16 @@ def load(conn, data, nodes, edges, vectors):
                     [(c["id"], c["document_id"], c["ord"], c["title"], c["body"],
                       vec_text(vectors[("chunk", c["id"])]) if ("chunk", c["id"]) in vectors else None) for c in data["chunks"]])
     source_ids = {r["id"] for r in data["records"]}
+    card_names = {c["id"]: c["name"] for c in data["cards"]}
+    vendor_names = {v["id"]: v["name"] for v in data["vendors"]}
+    equipment_by_vendor = library.equipment_of_vendors(data["equipment"], vendor_names)
     for card in data["cards"]:
         trl = card.get("trl") or {}
         v = vectors.get(("technology", card["id"]))
-        cur.execute("INSERT INTO technology (id, name, sector, category, maturity, principle, trl_low, trl_high, last_reviewed, card, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
+        cur.execute("INSERT INTO technology (id, name, sector, category, maturity, principle, trl_low, trl_high, last_reviewed, card, search_text, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
                     (card["id"], card["name"], card["sector"], card["category"], card["maturity"], card["principle"], trl.get("low"),
-                     trl.get("high"), card["last_reviewed"], json.dumps(card), vec_text(v) if v is not None else None))
+                     trl.get("high"), card["last_reviewed"], json.dumps(card), technologies.search_text(card),
+                     vec_text(v) if v is not None else None))
         for alias in set(card.get("aliases", [])):
             cur.execute("INSERT INTO technology_alias VALUES (%s,%s)", (card["id"], alias))
         for s in card["sources"]:
@@ -162,26 +173,30 @@ def load(conn, data, nodes, edges, vectors):
                          json.dumps(g.get("where", []))))
     for v in data["vendors"]:
         vec = vectors.get(("vendor", v["id"]))
-        cur.execute("INSERT INTO vendor (id, name, aliases, country, roles, description, products, url, technologies, record, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
+        cur.execute("INSERT INTO vendor (id, name, aliases, country, roles, description, products, url, technologies, record, search_text, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
                     (v["id"], v["name"], v.get("aliases", []), v.get("country"), v.get("roles", []), v["description"], v.get("products", []),
-                     v.get("url"), v.get("technologies", []), json.dumps(v), vec_text(vec) if vec is not None else None))
+                     v.get("url"), v.get("technologies", []), json.dumps(v),
+                     library.vendor_text(v, card_names, equipment_by_vendor.get(v["id"])),
+                     vec_text(vec) if vec is not None else None))
     for e in data["equipment"]:
         vec = vectors.get(("equipment", e["id"]))
-        cur.execute("INSERT INTO equipment (id, name, equipment_type, sector, sector_codes, description, specifications, vendor_models, vendors, technologies, gaps, sources, record, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
+        cur.execute("INSERT INTO equipment (id, name, equipment_type, sector, sector_codes, description, specifications, vendor_models, vendors, technologies, gaps, sources, record, search_text, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
                     (e["id"], e["name"], e["equipment_type"], e.get("sector"), e.get("sector_codes", []),
                      e["description"], json.dumps(e.get("specifications", [])), json.dumps(e.get("vendor_models", [])),
                      e.get("vendors", []), e.get("technologies", []), json.dumps(e.get("gaps", [])),
-                     json.dumps(e.get("sources", [])), json.dumps(e), vec_text(vec) if vec is not None else None))
+                     json.dumps(e.get("sources", [])), json.dumps(e), library.equipment_text(e, card_names, vendor_names),
+                     vec_text(vec) if vec is not None else None))
     for p in data["projects"]:
         vec = vectors.get(("project", p["id"]))
-        cur.execute("INSERT INTO project (id, name, project_type, sector, sector_codes, country, location, status, description, capacities, capex, owners, contractors, offtakers, technologies, milestones, gaps, sources, record, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
+        cur.execute("INSERT INTO project (id, name, project_type, sector, sector_codes, country, location, status, description, capacities, capex, owners, contractors, offtakers, technologies, milestones, gaps, sources, record, search_text, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
                     (p["id"], p["name"], p.get("project_type"), p.get("sector"), p.get("sector_codes", []),
                      p.get("country"), p.get("location"), p["status"], p["description"],
                      json.dumps(p.get("capacities", [])), json.dumps(p.get("capex", [])),
                      json.dumps(p.get("owners", [])), json.dumps(p.get("contractors", [])),
                      json.dumps(p.get("offtakers", [])), p.get("technologies", []),
                      json.dumps(p.get("milestones", [])), json.dumps(p.get("gaps", [])),
-                     json.dumps(p.get("sources", [])), json.dumps(p), vec_text(vec) if vec is not None else None))
+                     json.dumps(p.get("sources", [])), json.dumps(p), library.project_text(p, card_names, vendor_names),
+                     vec_text(vec) if vec is not None else None))
     for e in data["entries"]:
         cur.execute("INSERT INTO register_entry VALUES (%s,%s,%s,%s,%s,%s,%s)",
                     (graph.register_id(e).removeprefix("register:"), e["code"], e["area"], e["name"], e["maturity"], e["examples"], e["card"]))
@@ -264,7 +279,7 @@ def main(argv=None):
             card_names = {c["id"]: c["name"] for c in data["cards"]}
             eq_names = library.equipment_of_vendors(data["equipment"], {v["id"]: v["name"] for v in data["vendors"]})
             vendor_names = {v["id"]: v["name"] for v in data["vendors"]}
-            items = ([("technology", c["id"], card_search_text(c)) for c in data["cards"]]
+            items = ([("technology", c["id"], card_embed_text(c)) for c in data["cards"]]
                      + [("vendor", v["id"], library.vendor_text(v, card_names, eq_names.get(v["id"]))) for v in data["vendors"]]
                      + [("equipment", e["id"], library.equipment_text(e, card_names, vendor_names)) for e in data["equipment"]]
                      + [("project", p["id"], library.project_text(p, card_names, vendor_names)) for p in data["projects"]]

@@ -61,6 +61,16 @@ projects. Each row carries `kind`, `ref`, `title`, `score`, `licence`, `reuse_le
 `kind` may be `source`, `chunk`, `technology`, `vendor`, `equipment` or `project` to narrow.
 Use it to *find* things; use the `get_*`/`list_*` tools to *read* them.
 
+Ranking is **concept coverage, then density** — not literal wording. The query is expanded through
+the library's concept groups (`catalog/search-concepts.yaml` — carbon = carbon + co2), each kind
+contributes its own candidate pool to the reciprocal-rank fusion, and a record covering more of the
+query's concepts outranks one that repeats a single word. So `q=carbon capture amine` returns
+*Amine solvent post-combustion capture* first even though that card is written in CO2. Query the
+concepts you want answered and keep the query short: every extra word is a concept a record must
+also cover. A bare product code is the one case to qualify — `q=KS-1 solvent` finds the card (the
+supplier and process names are indexed) but the vector pool interleaves other solvent cards ahead of
+it; `q=KS-1 amine solvent` puts it first.
+
 **`list_by_tag(code=None, region=None, reuse_level=None, source_type=None) → [sources]`**
 Catalogue records by sector/discipline code, Asia Pacific ranked first. The right tool for
 "what sources do we hold on midstream leak detection" — cheaper than search when you want the

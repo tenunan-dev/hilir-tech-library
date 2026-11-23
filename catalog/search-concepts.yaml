@@ -1,0 +1,16 @@
+# Query-side concept groups for search.
+#
+# Read by BOTH search paths so they rank alike: agent/library.py (the baked SQLite index) and
+# og.hybrid_search (Postgres/Neon, seeded into og.search_concept by tools/load_postgres.py).
+#
+# A concept is a set of interchangeable terms. A query word is expanded to every term of its
+# group, and ranking counts CONCEPTS matched, not words — so "carbon capture amine" ranks a
+# card that covers carbon + capture + amine above a card that merely says "carbon" often.
+#
+# Keep this list short and evidenced. Each group earns its place because the catalogue and the
+# people searching it name the same thing differently; speculative synonyms only add noise.
+concepts:
+  # Cards write CO2 (the molecule); users search "carbon capture". Verified 2026-11-23: the
+  # amine post-combustion card was absent from the top 5 for "carbon capture amine" because the
+  # word "carbon" appears nowhere in it (name + category + principle all say CO2).
+  carbon: [carbon, co2]

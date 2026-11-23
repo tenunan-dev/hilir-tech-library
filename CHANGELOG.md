@@ -8,6 +8,72 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.23] — 2026-11-23 — Concept-aware search: coverage ranking, one index text, per-kind pools
+
+### Fixed
+
+- **`search("carbon capture amine")` could not find the card named *Amine solvent post-combustion
+  capture*** (finding TL-S1, reproduced live: the card was 6th with `kind="all"`). The card matches
+  two of the three words; the word it lacks is `carbon`, because the card — correctly — is written
+  in CO2. The keyword pool ordered by `ts_rank_cd` alone, which has no title weight and no coverage
+  term, so every card that happened to say "carbon" (BECCS, DAC, biochar, molten carbonate) scored
+  0.4–0.6 against its 0.3. The keyword pool now orders by **concept coverage, then density**, and
+  the query is expanded through concept groups, so `carbon` also searches `co2`. Verified live: the
+  card is now **#1** for `carbon capture amine`, `post-combustion amine capture` and
+  `KS-1 amine solvent`.
+- **The Postgres index carried only `name || category || principle`** while the SQLite index carried
+  aliases, applications, key equipment, supplier names, maturity and cost/performance metrics — so a
+  card's own supplier and process names ("KS-1 solvent", "KM CDR") found it on the baked index and
+  **not at all** on Neon. The four curated tables now carry a `search_text` column holding exactly
+  the string the SQLite index holds (`technologies.search_text`, `library.vendor_text` /
+  `equipment_text` / `project_text`), and a `tsv` generated as
+  `setweight(name,'A') || setweight(search_text,'B')`.
+- **The SQLite fallback fused one global rank pool** and sorted by a raw substring count over
+  `title+text+tags`, so a corpus document titled *Compendium of Carbon Capture Technology 2024*
+  claimed all three words from its title: `search("carbon capture amine", kind="all", limit=50)`
+  returned **47 chunks, 1 vendor, 2 unrelated cards** and no relevant card. Keyword and vector
+  pools are now per kind (50 candidates each, mirroring `og.hybrid_search`); the same query returns
+  24 cards, 8 vendors, 8 projects, 8 chunks.
+
+### Added
+
+- **`catalog/search-concepts.yaml`** — the query-side concept groups, read by both paths
+  (`agent/library.py`) and seeded into **`og.search_concept`** by the loader. One group today:
+  `carbon = carbon, co2`.
+- `agent/technologies.search_text(card)` — the card's index text, one string for both paths.
+- Subscript folding: `CO₂` tokenises like `CO2` on both engines.
+- Tests: concept coverage and vocabulary bridging on the SQLite fixture; a parity test that asserts
+  the acceptance query on both layers plus the card's full text in the Postgres index.
+
+### Changed
+
+- `tools/load_postgres.py`: seeds `og.search_concept` on every load, writes `search_text` for
+  technology/vendor/equipment/project, and `card_search_text` → **`card_embed_text`** (the embedding
+  input is unchanged on purpose — re-embedding would move every card in the vector ranking for no
+  gain).
+- MCP `search` description, `docs/MCP.md`, `docs/POSTGRES.md` and the `techlib-mcp` skill now say
+  how the ranking works and how to phrase a query (concepts, not phrasing; qualify a bare product
+  code).
+
+### Verified
+
+- `python tools/build.py` → **526 records valid**; `pytest -q tests` → **1,426 passed, 13 skipped**.
+- Neon reloaded: 526 sources / 289 documents / 13,624 open-licence chunks / 391 cards / 537 vendors /
+  37 equipment / 295 projects / 406 register / 4,391 nodes / 13,205 edges / 16,902 vectors;
+  `og.search_concept` seeded (`carbon:carbon`, `carbon:co2`).
+- Live on `techlib-api.hilir.app` (ZCode MCP): `carbon capture amine` → `ccs-amine-post-combustion`
+  first (0.0426), `gas-amine-agr` second; `KS-1 solvent` now returns the card (4th, was absent);
+  `KS-1 amine solvent` → first.
+- Containers re-shipped: api `sha256:896a58f241ba…`, ui `sha256:cbb76fb9c32e…`; VPS gate
+  `mygis 303, techlib-origin 403, tlea-origin 403`.
+
+### Known limitation
+
+- A **bare product code** is the one query the fusion does not lead with: "KS-1" is a keyword #1 but
+  the 384-dim bi-encoder puts solvent-deasphalting cards ahead of it, so `KS-1 solvent` returns the
+  card 4th. Qualifying it with the concept (`KS-1 amine solvent`) puts it first. Documented in
+  `docs/MCP.md`; an IDF-weighted keyword score is the way to close it if it matters.
+
 ## [2026.11.21] — 2026-11-21 — Agent skill for using the MCP
 
 ### Added

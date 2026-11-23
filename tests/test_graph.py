@@ -109,7 +109,7 @@ def test_load_postgres_end_to_end():
     data = load_postgres.collect()
     nodes, edges = graph.build_graph()
     card_names = {c["id"]: c["name"] for c in data["cards"]}
-    vectors = {("technology", c["id"]): hash_vector(load_postgres.card_search_text(c)) for c in data["cards"]}
+    vectors = {("technology", c["id"]): hash_vector(load_postgres.card_embed_text(c)) for c in data["cards"]}
     vectors.update({("vendor", v["id"]): hash_vector(load_postgres.library.vendor_text(v, card_names))
                     for v in data["vendors"]})
     vectors.update({("chunk", c["id"]): hash_vector(c["body"]) for c in data["chunks"][:200]})

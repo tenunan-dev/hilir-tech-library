@@ -125,6 +125,14 @@ def search(query: str, kind: str = "all", sector: str | None = None, discipline:
     NOTE: a discipline (or region) filter keeps only sources and their passages — technology
     cards, vendors, equipment and projects carry no such tags and are silently excluded on both
     the database and the baked-index path.
+
+    Ranking is concept-aware, not literal. The query is expanded through the library's concept
+    groups (catalog/search-concepts.yaml — carbon = carbon + co2), and a record covering MORE of
+    the query's concepts outranks one that repeats a single word often. "carbon capture amine"
+    therefore returns the amine post-combustion card first even though that card is written in
+    CO2 and never says "carbon". Query the concepts you want answered; a phrasing the catalogue
+    does not use still works, but covering fewer concepts means a lower rank.
+
     Rows are lean summaries whose extra fields vary by kind (vendors carry roles, projects carry
     status and capacities; a "gaps" count or "stub": true marks a recorded data gap — see
     get_* / list_gaps); an empty result can mean a wrong code or a real gap — follow the get_*

@@ -15,6 +15,24 @@ def load_cards(folder=None):
     return [json.loads(p.read_text(encoding="utf-8")) for p in sorted(pathlib.Path(folder or CARDS).glob("*.json"))]
 
 
+def search_text(card):
+    """The text a card is full-text indexed by — one string, used by both search paths
+    (agent/library.py for the SQLite index, tools/load_postgres.py for og.technology.search_text)
+    so the two cannot index different words.
+
+    It is deliberately more than name + category + principle: aliases, applications, key
+    equipment, supplier names, maturity and the cost/performance metric names are what people
+    search for ("KS-1 solvent", "KM CDR", "cement"). Leaving them out made a card unreachable by
+    its own supplier's process name on the Postgres path (verified 2026-11-23).
+    """
+    return "\n".join([card["category"], card["principle"], " ".join(card.get("aliases", [])),
+                      " ".join(card.get("applications", [])), " ".join(card["key_equipment"]),
+                      " ".join(s["name"] + " " + s.get("product", "") for s in card["suppliers"]), card["maturity"],
+                      # What a card offers, so "options ... block diagram equipment cost" queries reach it.
+                      "technology option block flow diagram process steps equipment",
+                      " ".join(f["metric"] for f in card.get("costs", []) + card.get("performance", []))])
+
+
 def edges(card):
     """(from, to, label) for each flow; a step without "to" flows to the next step."""
     steps = card["process_steps"]

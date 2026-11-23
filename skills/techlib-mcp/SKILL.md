@@ -66,6 +66,12 @@ empty page that reads like "no data" and is not.
 
 - `search` *finds*; the `get_*`/`list_*` tools *read*. Search rows carry licence and
   `reuse_level` — check them before quoting.
+- `search` ranks by **concept coverage, not literal wording**: the query is expanded through
+  the library's concept groups (carbon = carbon + co2) and a record covering more of your
+  query's concepts outranks one that repeats a word. Ask with the concepts you want answered —
+  `carbon capture amine` ranks the amine post-combustion card first although that card is
+  written in CO2 — and keep the query short: every extra word is a concept the record must
+  also cover.
 - An empty `find_figures` result means the cards hold no figure for that question. Answer
   with `list_gaps(field="costs"|"performance")`, not an estimate. An unknown `kind` raises
   on purpose: a silent fallback would hide the typo.

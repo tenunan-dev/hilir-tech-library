@@ -45,7 +45,7 @@ def scratch_db():
     data = loader.collect(include_restricted=True)
     nodes, edges = graph.build_graph()
     card_names = {c["id"]: c["name"] for c in data["cards"]}
-    vectors = {("technology", c["id"]): _hash_vector(loader.card_search_text(c)) for c in data["cards"]}
+    vectors = {("technology", c["id"]): _hash_vector(loader.card_embed_text(c)) for c in data["cards"]}
     vectors.update({("vendor", v["id"]): _hash_vector(loader.library.vendor_text(v, card_names)) for v in data["vendors"]})
     vectors.update({("chunk", c["id"]): _hash_vector(c["body"]) for c in data["chunks"][:200]})
     with psycopg.connect(os.environ["TEST_DATABASE_URL"]) as conn:
@@ -183,6 +183,42 @@ def test_gaps_parity(monkeypatch):
     sqlite_html, neon_html, _ = _render(monkeypatch, "/gaps?sector=CCS")
     count = lambda html: int(re.search(r"(\d+) gaps", html).group(1))  # noqa: E731
     assert count(sqlite_html) == count(neon_html), "the same gap count renders per sector"
+
+
+@needs_db
+def test_search_ranks_the_answer_first_on_both_layers(monkeypatch):
+    """The 2026-11-23 acceptance case, on the real catalogue and both layers.
+
+    The card is named "Amine solvent post-combustion capture" and is written in CO2, so a literal
+    engine drops it behind every card that happens to say "carbon". Concept coverage (carbon =
+    carbon | co2) has to put it first, and the Postgres index has to carry the same text the
+    SQLite index does — otherwise a supplier name ("KS-1") is findable on one path only.
+    """
+    import psycopg
+    import library, pg
+
+    db = library.connect(REPO / "build" / "parity-scratch.db")
+    sqlite_refs = [h["ref"] for h in library.search("carbon capture amine", limit=3, db=db)]
+    assert sqlite_refs[0] == "ccs-amine-post-combustion"
+    # a supplier process name that lives only in the card's index text (not its name)
+    assert library.search("KS-1 solvent", kind="technology", limit=3, db=db)[0]["ref"] == "ccs-amine-post-combustion"
+
+    monkeypatch.setenv("DATABASE_URL", os.environ["TEST_DATABASE_URL"])
+    try:
+        pg_refs = [h["ref"] for h in pg.search_library("carbon capture amine", limit=3)]
+        # the bare product code is a keyword #1 but the vector pool interleaves solvent cards
+        # ahead of it, so membership — not position — is what the index text guarantees
+        pg_ks1 = [h["ref"] for h in pg.search_library("KS-1 solvent", kind="technology", limit=5)]
+        pg_guided = [h["ref"] for h in pg.search_library("KS-1 amine solvent", kind="technology", limit=3)]
+    finally:
+        monkeypatch.delenv("DATABASE_URL", raising=False)
+    assert pg_refs[0] == "ccs-amine-post-combustion"
+    assert "ccs-amine-post-combustion" in pg_ks1
+    assert pg_guided[0] == "ccs-amine-post-combustion"
+    with psycopg.connect(os.environ["TEST_DATABASE_URL"]) as conn:
+        row = conn.execute("SELECT search_text FROM og.technology WHERE id = %s",
+                           ("ccs-amine-post-combustion",)).fetchone()
+    assert row and "KS-1" in row[0], "the Postgres index carries the card's full text"
 
 
 @needs_db

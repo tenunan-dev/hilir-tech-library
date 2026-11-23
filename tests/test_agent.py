@@ -59,6 +59,66 @@ def test_chunk_respects_size():
     assert len(chunks) > 1 and all(len(c) <= 1200 for c in chunks)
 
 
+def _card(card_id, name, principle):
+    return {"id": card_id, "name": name, "sector": "CCS", "category": "Capture", "maturity": "commercial",
+            "principle": principle, "process_steps": [], "key_equipment": [], "suppliers": [],
+            "sources": [], "last_reviewed": "2026-11-23"}
+
+
+# The 2026-11-23 finding, reduced to three cards: the answer is written in CO2 and never says
+# "carbon"; the competition repeats "carbon" and never says "amine".
+CONCEPT_CARDS = (
+    _card("ccs-amine", "Amine solvent post-combustion capture",
+          "Flue gas is contacted with an aqueous amine solution, which reacts with CO2."),
+    _card("ccs-carbon", "Bioenergy carbon capture",
+          "Carbon is captured from carbon-rich biomass combustion; carbon storage follows."),
+    _card("ccs-cryogenic", "Cryogenic capture",
+          "Flue gas is cooled until the CO2 desublimates."),
+)
+
+
+def test_search_ranks_concept_coverage_and_bridges_vocabulary(tmp_path):
+    """A card covering every query concept outranks cards that merely repeat one word.
+
+    "carbon capture amine" is satisfied by ccs-amine (amine + capture in the name, CO2 in the
+    principle) through the carbon = carbon|co2 group; the two cards that only say "carbon" or
+    only say "capture" rank behind it, however often they repeat the word.
+    """
+    corpus = tmp_path / "corpus"
+    (corpus / "arxiv").mkdir(parents=True)
+    (corpus / "arxiv" / "pem.md").write_text(DOC, encoding="utf-8")
+    for folder in ("technologies", "vendors", "equipment", "projects"):
+        (tmp_path / "catalog" / folder).mkdir(parents=True)
+    for card in CONCEPT_CARDS:
+        (tmp_path / "catalog" / "technologies" / f"{card['id']}.json").write_text(json.dumps(card), encoding="utf-8")
+    library.build(tmp_path / "lib.db", corpus)
+    db = library.connect(tmp_path / "lib.db")
+
+    hits = library.search("carbon capture amine", kind="technology", limit=3, db=db)
+    assert hits and hits[0]["ref"] == "ccs-amine"
+    assert {h["ref"] for h in hits} == {"ccs-amine", "ccs-carbon", "ccs-cryogenic"}
+    # bridging runs both ways: "co2" reaches a card written in "carbon"
+    assert "ccs-carbon" in [h["ref"] for h in library.search("co2", kind="technology", limit=3, db=db)]
+    # subscript digits fold, so CO₂ queries like CO2
+    assert [h["ref"] for h in library.search("CO₂", kind="technology", limit=3, db=db)] == \
+        [h["ref"] for h in library.search("co2", kind="technology", limit=3, db=db)]
+
+
+def test_search_keeps_every_kind_in_the_result_set(tmp_path):
+    """One global rank pool let the corpus bury all cards; each kind now contributes its own."""
+    corpus = tmp_path / "corpus"
+    (corpus / "arxiv").mkdir(parents=True)
+    (corpus / "arxiv" / "pem.md").write_text(DOC, encoding="utf-8")
+    for folder in ("technologies", "vendors", "equipment", "projects"):
+        (tmp_path / "catalog" / folder).mkdir(parents=True)
+    (tmp_path / "catalog" / "technologies" / "h2-pem-test.json").write_text(json.dumps(CARD), encoding="utf-8")
+    (tmp_path / "catalog" / "vendors" / "test-vendor.json").write_text(json.dumps(VENDOR), encoding="utf-8")
+    library.build(tmp_path / "lib.db", corpus)
+    db = library.connect(tmp_path / "lib.db")
+    kinds = {h["kind"] for h in library.search("electrolyser stack", limit=20, db=db)}
+    assert {"technology", "vendor"} <= kinds
+
+
 def test_search_finds_chunks_and_sources(db):
     hits = library.search("electrolyzer degradation", db=db)
     assert hits[0]["kind"] == "chunk" and hits[0]["path"] == "corpus/arxiv/pem.md"

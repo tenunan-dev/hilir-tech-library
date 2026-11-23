@@ -44,6 +44,59 @@ TECHNOLOGY_LICENCE = "Library's own summary of cited sources; cite the sources l
 VENDOR_LICENCE = "Library's own curated vendor record; cite the sources listed in the record"
 EQUIPMENT_LICENCE = "Library's own curated equipment record; cite the sources listed in the record"
 PROJECT_LICENCE = "Library's own curated project record; cite the sources listed in the record"
+# Candidates each kind contributes to the rank fusion. og.hybrid_search uses the same 50
+# (its CTE keeps `r <= 50`), so a passage pool of 15,000 rows cannot crowd out the records.
+FUSION_POOL = 50
+# Subscript digits, so "CO₂" tokenises like "CO2" instead of losing the 2.
+_SUBSCRIPTS = str.maketrans("₀₁₂₃₄₅₆₇₈₉", "0123456789")
+_concept_cache = None
+
+
+def search_concepts(path=None):
+    """concept -> tuple of interchangeable terms, from catalog/search-concepts.yaml.
+
+    The same file seeds og.search_concept on the Postgres path (tools/load_postgres.py), so both
+    rankings expand a query identically. A missing or empty file means no expansion — each query
+    word is its own concept — which is the safe fallback, not an error.
+    """
+    global _concept_cache
+    if path is None and _concept_cache is not None:
+        return _concept_cache
+    file = pathlib.Path(path) if path else ROOT / "catalog" / "search-concepts.yaml"
+    data = yaml.safe_load(file.read_text(encoding="utf-8")) if file.exists() else {}
+    table = {}
+    for concept, members in ((data or {}).get("concepts") or {}).items():
+        words = tuple(w for term in members or [] for w in re.findall(r"\w+", str(term).lower()))
+        if words:
+            table[str(concept).lower()] = words
+    if path is None:
+        _concept_cache = table
+    return table
+
+
+def concept_groups(query, concepts=None):
+    """The query's tokens grouped by concept, each group expanded to every term of its concept.
+
+    ["carbon", "capture", "amine"] -> [("carbon", "co2"), ("capture",), ("amine",)]. A word in
+    no group is its own concept.
+    """
+    table = search_concepts() if concepts is None else concepts
+    lookup = {term: concept for concept, members in table.items() for term in members}
+    groups, seen = [], set()
+    for token in re.findall(r"\w+", query.translate(_SUBSCRIPTS).lower()):
+        concept = lookup.get(token, token)
+        if concept in seen:
+            continue
+        seen.add(concept)
+        groups.append(table.get(concept, (token,)))
+    return groups
+
+
+def _concept_coverage(groups, row):
+    """How many of the query's concepts this row covers (substring match, as the index does)."""
+    haystack = f"{row['title']} {row['text']} {row['tags']}".lower()
+    return sum(1 for group in groups if any(term in haystack for term in group))
+
 
 
 def equipment_text(rec, card_names, vendor_names):
@@ -219,14 +272,9 @@ def build(db_path=None, corpus=None):
     cards = technologies.load_cards(corpus.parent / "catalog" / "technologies")
     for card in cards:
         db.execute("INSERT INTO technologies VALUES (?, ?)", (card["id"], json.dumps(card, ensure_ascii=False)))
-        text = "\n".join([card["category"], card["principle"], " ".join(card.get("aliases", [])),
-                          " ".join(card.get("applications", [])), " ".join(card["key_equipment"]),
-                          " ".join(s["name"] + " " + s.get("product", "") for s in card["suppliers"]), card["maturity"],
-                          # What a card offers, so "options ... block diagram equipment cost" queries reach it.
-                          "technology option block flow diagram process steps equipment",
-                          " ".join(f["metric"] for f in card.get("costs", []) + card.get("performance", []))])
         db.execute("INSERT INTO search VALUES ('technology', ?, ?, ?, ?, ?)",
-                   (card["id"], card["id"], card["name"], text, tag_text({"sectors": [card["sector"]]}, labels)))
+                   (card["id"], card["id"], card["name"], technologies.search_text(card),
+                    tag_text({"sectors": [card["sector"]]}, labels)))
     sector_of = {c["id"]: c["sector"] for c in cards}
     card_names = {c["id"]: c["name"] for c in cards}
     equipment_recs = equipment.load_equipment(corpus.parent / "catalog" / "equipment")
@@ -299,7 +347,16 @@ def _result(db, row, score, records):
 
 def search(query, kind="all", sector=None, discipline=None, region=None, reuse_level=None, limit=10,
            db=None, embedder=None, exclude_restricted=False, query_vector=None):
-    """Keyword search (BM25), fused with vector search when vectors and an embedder are available.
+    """Keyword search (BM25) fused with vector search, ranked the same way og.hybrid_search is.
+
+    Two rules shape the keyword half, and both exist because of a measured failure (2026-11-23,
+    "carbon capture amine" could not find the card named "Amine solvent post-combustion capture"):
+
+    * The query is expanded through catalog/search-concepts.yaml, so "carbon" also searches
+      "co2" — the catalogue writes the molecule, people type the element.
+    * Rows are ordered by how many query CONCEPTS they cover, then by BM25. Counting raw words
+      let a document whose title happens to hold every word outrank every card, and let cards
+      that merely said "carbon" often beat the card that is the answer.
 
     exclude_restricted drops passages from full-text-restricted sources (catalog records stay),
     for servers that other people can reach.
@@ -307,10 +364,11 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     db = db or connect()
     records = {r["id"]: json.loads(r["record"]) for r in db.execute("SELECT * FROM sources")}
     kinds = ("source", "chunk", "technology", "vendor", "equipment", "project") if kind == "all" else (kind,)
-    # Keep word characters only, then quote each token: any of the query's words may match, and
-    # BM25 ranks rows that match more of them higher. The token filter is what keeps the MATCH
-    # value inert, so it must stay on this path into the parameterised query below.
-    terms = re.findall(r"\w+", query.lower())
+    # Keep word characters only, then quote each token: any of the query's words (or a word its
+    # concept group adds) may match. The token filter is what keeps the MATCH value inert, so it
+    # must stay on this path into the parameterised query below.
+    concepts = concept_groups(query)
+    terms = [t for group in concepts for t in group]
     q = " OR ".join(f'"{t}"' for t in terms)
     if not q:
         return []
@@ -319,12 +377,17 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     # The MATCH query itself lives in ./bm25.py (its own validated module); q is
     # inert here — word-character tokens only, quoted per token (filter above).
     rows = bm25.match_rows(db, q)
-    # Rows matching more of the query's words come first; BM25 orders rows within each group.
-    terms = set(re.findall(r"\w+", query.lower()))
-    rows.sort(key=lambda r: (-sum(t in f"{r['title']} {r['text']} {r['tags']}".lower() for t in terms), r["rank"]))
+    rows.sort(key=lambda r: (-_concept_coverage(concepts, r), r["rank"]))
+    # Reciprocal rank fusion, per kind: a passage pool of 15,000 rows must not push every card,
+    # vendor and equipment class out of the candidate set. og.hybrid_search partitions the same
+    # way (50 per kind); a single global pool buried all 400 cards under the corpus (2026-11-23).
     ranked = {}
-    for pos, row in enumerate(rows):
-        ranked[row["rowid"]] = [row, 1.0 / (60 + pos)]
+    kw_pos = {}
+    for row in rows:
+        kw_pos[row["kind"]] = kw_pos.get(row["kind"], 0) + 1
+        if kw_pos[row["kind"]] > FUSION_POOL:
+            continue
+        ranked[row["rowid"]] = [row, 1.0 / (60 + kw_pos[row["kind"]])]
     qvec = None
     if db.execute("SELECT count(*) FROM vectors").fetchone()[0]:
         import numpy as np
@@ -338,14 +401,21 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
             qvec = np.asarray(embedder([query])[0], dtype=np.float32)
     if qvec is not None:
         import numpy as np
-        ids, vecs = zip(*((r[0], np.frombuffer(r[1], dtype=np.float32)) for r in db.execute("SELECT rowid, vec FROM vectors")))
-        sims = np.stack(vecs) @ qvec
-        for pos, idx in enumerate(np.argsort(-sims)[:200]):
+        vec_rows = db.execute("SELECT v.rowid, s.kind, v.vec FROM vectors v JOIN search s ON s.rowid = v.rowid").fetchall()
+        ids = [r[0] for r in vec_rows]
+        vec_kind = {r[0]: r[1] for r in vec_rows}
+        sims = np.stack([np.frombuffer(r[2], dtype=np.float32) for r in vec_rows]) @ qvec
+        vec_pos = {}
+        for idx in np.argsort(-sims):
             rowid = ids[idx]
+            kind_ = vec_kind[rowid]
+            if vec_pos.get(kind_, 0) >= FUSION_POOL:
+                continue
+            vec_pos[kind_] = vec_pos.get(kind_, 0) + 1
             if rowid not in ranked:
                 row = db.execute("SELECT rowid, kind, ref, source_id, title, text FROM search WHERE rowid = ?", (rowid,)).fetchone()
                 ranked[rowid] = [row, 0.0]
-            ranked[rowid][1] += 1.0 / (60 + pos)
+            ranked[rowid][1] += 1.0 / (60 + vec_pos[kind_])
     results = []
     for row, score in ranked.values():
         if row["kind"] == "technology":
