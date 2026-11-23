@@ -55,12 +55,13 @@ metadata-only records filed beside the full text of the same paper. **36 duplica
   never enter Neon), embeddings reused from cache, Neon reloaded: **253 documents / 11,876 chunks /
   13,662 vectors** = 13,624 − 1,702 − 46, exactly the duplicate documents. Live: `library_stats`
   253/11,876, one copy per search result. The data change needs no deploy (the server reads Neon).
-- **Container ship blocked:** both images built locally (api `sha256:d2aa37872594…`, ui
-  `sha256:d0625c4bbea7…`), but the VPS root filesystem was at 99% (557 MB) and the API image's
-  `docker load` ran out of space mid-extraction. No service impact (all containers healthy, public
-  probes green, the old API image still running), but the `api:latest` tag is now absent, so the
-  stack cannot be recreated until a successful load. Recovery and the exact owner commands are in
-  `docs/STATUS.md`; the MCP instruction/description text therefore lands on the next successful ship.
+- **Containers shipped** (first attempt failed on a full host): both images built locally (api
+  `sha256:d2aa37872594…`, ui `sha256:d0625c4bbea7…`), the instruction text grep-verified inside the
+  API image before shipping. At 99% free the load died mid-extraction with no service impact; the
+  owner pruned to 57%, `deploy/local-images.sh --ship-only` then shipped both in one stream,
+  containers recreated `healthy`, gate `mygis 303, techlib-origin 403, tlea-origin 403`. The
+  instruction/description text is now served from the verified image (`docs/STATUS.md` has the
+  recovery detail and the rollback line).
 
 ### Tests
 
