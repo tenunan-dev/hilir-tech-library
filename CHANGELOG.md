@@ -34,11 +34,16 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 
 - Production frequencies: `ks` 13, `sulfinol` 31, `benfield` 4, `mdea` 81, `cryogenic` 130 are
   qualifiers; `amine` 419, `solvent` 640, `boiler` 590, `carbon` 3,964 are not.
-- `pytest -q tests` → **1,429 passed, 13 skipped** (including a causation test: with the code's
-  frequency set to common, the same query returns the other card).
+- `pytest -q tests` → **1,430 passed, 13 skipped** (including a causation test: with the code's
+  frequency set to common, the same query returns the other card, and one that drops `term_df` and
+  still gets answers — a stale index degrades instead of raising).
 - Live on `techlib-api.hilir.app`: `KS-1 solvent` → `ccs-amine-post-combustion` **first** (0.0615);
   `MDEA` → `gas-amine-agr`; `Benfield` → `gas-hot-potassium-carbonate`; `cryogenic capture` →
   `ccs-cryogenic`; `carbon capture amine` and `boiler blowdown` unchanged.
+- Containers re-shipped on retry (the first attempt hit `ssh: connect to host … port 22: Connection
+  refused` while the VPS disk was at 91%; the service stayed up because the fix is DB-side):
+  api `sha256:b98e957f933f…`, ui `sha256:a32550ac5e39…`; gate
+  `mygis 303, techlib-origin 403, tlea-origin 403`.
 
 ## [2026.11.23] — 2026-11-23 — Concept-aware search: coverage ranking, one index text, per-kind pools
 
