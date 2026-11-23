@@ -215,6 +215,10 @@ def test_search_ranks_the_answer_first_on_both_layers(monkeypatch):
     assert pg_refs[0] == "ccs-amine-post-combustion"
     assert "ccs-amine-post-combustion" in pg_ks1
     assert pg_guided[0] == "ccs-amine-post-combustion"
+    assert pg.search_library("!!!", limit=3) == [], "a query with no words returns nothing, as on SQLite"
+    # kind narrows inside the ranking: the SQLite path lists boiler records for this query
+    assert pg.search_library("boiler blowdown", kind="equipment", limit=3), \
+        "equipment search must not be filtered out of a global top-k"
     with psycopg.connect(os.environ["TEST_DATABASE_URL"]) as conn:
         row = conn.execute("SELECT search_text FROM og.technology WHERE id = %s",
                            ("ccs-amine-post-combustion",)).fetchone()

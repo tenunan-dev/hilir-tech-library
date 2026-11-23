@@ -146,16 +146,19 @@ def _vec_text(qvec) -> str:
 
 
 def hybrid_search(q: str, k: int = 10, qvec=None, sector: str | None = None, discipline: str | None = None,
-                  region: str | None = None, reuse_level: str | None = None) -> list[dict]:
-    """hybrid_search(q, qvec, k, sector, discipline, region, reuse_level) over passages, cards,
-    vendors, equipment and sources; every filter optional. Passages of full-text-restricted
-    documents never surface (the SQL function excludes them)."""
+                  region: str | None = None, reuse_level: str | None = None,
+                  kind: str | None = None) -> list[dict]:
+    """hybrid_search_kind(q, qvec, k, sector, discipline, region, reuse_level, kind) over passages,
+    cards, vendors, equipment and sources; every filter optional. `kind` narrows INSIDE the ranking
+    — filtering a global top-k afterwards returned nothing for equipment, projects and passages,
+    because the curated kinds outscore them. Passages of full-text-restricted documents never
+    surface (the SQL function excludes them)."""
     k = max(1, min(50, int(k)))
     vec = _vec_text(qvec) if qvec is not None else None
 
     def work(cur):
-        cur.execute("SELECT kind, ref, title, score FROM hybrid_search(%s, %s::vector, %s, %s, %s, %s, %s)",
-                    (q, vec, k, sector, discipline, region, reuse_level))
+        cur.execute("SELECT kind, ref, title, score FROM hybrid_search_kind(%s, %s::vector, %s, %s, %s, %s, %s, %s)",
+                    (q, vec, k, sector, discipline, region, reuse_level, kind))
         return _rows(cur)
 
     return _execute(work)
@@ -782,7 +785,8 @@ def search_library(q: str, kind: str = "all", sector: str | None = None, limit: 
     one enrichment query per kind so rows carry the fields the web page and REST render
     (licence, snippet, roles, ...)."""
     kinds = ("source", "chunk", "technology", "vendor", "equipment", "project") if kind == "all" else (kind,)
-    hits = hybrid_search(q, min(max(1, int(limit)), 50), qvec, sector, discipline, region, reuse_level)
+    hits = hybrid_search(q, min(max(1, int(limit)), 50), qvec, sector, discipline, region, reuse_level,
+                          None if kind == "all" else kind)
     by_kind = {}
     for h in hits:
         if h["kind"] in kinds:
@@ -962,7 +966,15 @@ def tables_doc() -> dict:
             {"name": "hybrid_search", "signature": "q text, qvec vector(384), k int, sector text, discipline text, region text, reuse_level text",
              "does": "reciprocal-rank fusion of full-text and vector search over passages, cards, vendors, "
                      "equipment and catalog sources; all filters optional and mirror the SQLite search; "
-                     "passages of full-text-restricted documents are excluded"},
+                     "passages of full-text-restricted documents are excluded. Ranks by concept coverage "
+                     "(og.search_concept: carbon = carbon + co2) then density, per kind. Use "
+                     "hybrid_search_kind(... , kind_filter) to narrow to one kind inside the ranking"},
+            {"name": "hybrid_search_kind", "signature": "q text, qvec vector(384), k int, sector text, discipline text, region text, reuse_level text, kind_filter text",
+             "does": "hybrid_search with a kind filter applied inside the ranking (kind = chunk, "
+                     "source, technology, vendor, equipment or project)"},
+            {"name": "search_concept", "signature": "table: concept text, term text",
+             "does": "the query-side concept groups the search expands through, seeded from "
+                     "catalog/search-concepts.yaml"},
             {"name": "refresh_similarity", "signature": "k int, min_sim float",
              "does": "rebuilds similar_to edges (write path, loader only)"},
         ],

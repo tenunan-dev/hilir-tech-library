@@ -34,6 +34,14 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
   returned **47 chunks, 1 vendor, 2 unrelated cards** and no relevant card. Keyword and vector
   pools are now per kind (50 candidates each, mirroring `og.hybrid_search`); the same query returns
   24 cards, 8 vendors, 8 projects, 8 chunks.
+- **`search(kind=…)` came back empty for equipment, projects and passages on the Neon path.** The
+  kind was filtered *after* a global top-k, and the curated kinds outscore equipment and projects,
+  so `search("boiler blowdown", kind="equipment")` returned nothing while the SQLite path listed
+  four boiler records. `hybrid_search_kind(…, kind_filter)` now filters inside the ranking; the
+  7-argument `hybrid_search(…)` remains as a wrapper, so a schema apply never breaks a running
+  client.
+- **A query with no words (`"!!!"`) returned the nearest vectors** on the Neon path (arbitrary
+  cards); both paths now return `[]`. `CO₂` also folds to `CO2` on both engines.
 
 ### Added
 
@@ -57,7 +65,7 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 
 ### Verified
 
-- `python tools/build.py` → **526 records valid**; `pytest -q tests` → **1,426 passed, 13 skipped**.
+- `python tools/build.py` → **526 records valid**; `pytest -q tests` → **1,427 passed, 13 skipped**.
 - Neon reloaded: 526 sources / 289 documents / 13,624 open-licence chunks / 391 cards / 537 vendors /
   37 equipment / 295 projects / 406 register / 4,391 nodes / 13,205 edges / 16,902 vectors;
   `og.search_concept` seeded (`carbon:carbon`, `carbon:co2`).

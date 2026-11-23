@@ -46,6 +46,34 @@ def test_run_sql_needs_a_dsn(monkeypatch):
         pg.run_sql("SELECT 1")
 
 
+def test_hybrid_search_passes_the_kind_filter_into_the_ranking(monkeypatch):
+    """`kind` narrows INSIDE hybrid_search_kind. Filtering a global top-k afterwards returned
+    nothing for equipment, projects and passages, because the curated kinds outscore them — live
+    `search("boiler blowdown", kind="equipment")` came back empty while the SQLite path listed four
+    boiler records (2026-11-23)."""
+    captured = {}
+
+    class Cur:
+        description = []
+
+        def execute(self, sql, params=None):
+            captured["sql"], captured["params"] = sql, params
+
+        def fetchall(self):
+            return []
+
+    def fake_execute(work):
+        work(Cur())
+        return []
+
+    monkeypatch.setattr(pg, "_execute", fake_execute)
+    assert pg.hybrid_search("boiler blowdown", 3, None, None, None, None, None, "equipment") == []
+    assert "hybrid_search_kind" in captured["sql"], "the kind must reach the SQL function"
+    assert captured["params"][-1] == "equipment"
+    pg.hybrid_search("boiler blowdown", 3)
+    assert captured["params"][-1] is None, "an unfiltered search passes no kind"
+
+
 def test_guard_runs_before_any_connection(monkeypatch):
     monkeypatch.setenv("DATABASE_URL", "postgresql://nowhere/db")
     with pytest.raises(pg.BadSql):

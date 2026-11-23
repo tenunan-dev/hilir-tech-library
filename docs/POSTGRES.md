@@ -48,6 +48,12 @@ string the SQLite index holds (`technologies.search_text`, `library.vendor_text`
 `setweight(name,'A') || setweight(search_text,'B')`, so both paths index the same words and a name
 match weighs more than a body match.
 
+`hybrid_search_kind(q, qvec, k, sector, discipline, region, reuse_level, kind_filter)` is the same
+search with the kind applied **inside** the ranking — the MCP `search` tool passes it, because
+filtering a global top-k afterwards returned nothing for equipment, projects and passages (the
+curated kinds outscore them). `hybrid_search` is a wrapper that calls it with no kind filter, so a
+schema apply never breaks a running client. A query with no words returns no rows.
+
 
 ## The graph
 

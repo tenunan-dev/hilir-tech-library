@@ -367,9 +367,13 @@ CREATE TABLE IF NOT EXISTS search_concept (
 -- Coverage first is what fixed 2026-11-23: "carbon capture amine" ranked cards that say "carbon"
 -- often above the card named "Amine solvent post-combustion capture", which is written in CO2 and
 -- therefore matched only two of the three words however well it answered the question.
-CREATE OR REPLACE FUNCTION hybrid_search(q text, qvec vector(384) DEFAULT NULL, k integer DEFAULT 10,
+-- kind_filter narrows inside the ranking (search(kind=...) must not filter a global top-k
+-- afterwards: the curated kinds score higher than equipment and projects, so every non-curated
+-- kind came back empty). hybrid_search() below is the 7-argument form and keeps working.
+CREATE OR REPLACE FUNCTION hybrid_search_kind(q text, qvec vector(384) DEFAULT NULL, k integer DEFAULT 10,
                                          sector text DEFAULT NULL, discipline text DEFAULT NULL,
-                                         region text DEFAULT NULL, reuse_level text DEFAULT NULL)
+                                         region text DEFAULT NULL, reuse_level text DEFAULT NULL,
+                                         kind_filter text DEFAULT NULL)
 RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE sql STABLE AS $$
     WITH items AS (
         SELECT 'chunk'::text AS kind, c.id AS ref, c.title, c.tsv, c.embedding, d.sectors,
@@ -439,6 +443,7 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
                                         i.ref) AS r
             FROM items i, tq
             WHERE i.tsv @@ tq.query
+              AND (kind_filter IS NULL OR i.kind = kind_filter)
               AND (sector IS NULL OR sector = ANY (i.sectors))
               AND (discipline IS NULL OR (
                     i.kind IN ('chunk', 'source')
@@ -459,6 +464,7 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
                    row_number() OVER (PARTITION BY i.kind ORDER BY i.embedding <=> qvec) AS r
             FROM items i
             WHERE qvec IS NOT NULL AND i.embedding IS NOT NULL
+              AND (kind_filter IS NULL OR i.kind = kind_filter)
               AND (sector IS NULL OR sector = ANY (i.sectors))
               AND (discipline IS NULL OR (
                     i.kind IN ('chunk', 'source')
@@ -490,7 +496,19 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
     )
     SELECT f.kind, f.ref, i.title, f.score
     FROM fused f JOIN items i ON i.kind = f.kind AND i.ref = f.ref
+    -- a query with no words has no concept to cover: return nothing rather than the nearest
+    -- vectors of the punctuation (the SQLite path returns [] for the same input)
+    WHERE EXISTS (SELECT 1 FROM qtok)
     ORDER BY f.score DESC, f.kind, f.ref LIMIT k;
+$$;
+
+-- The 7-argument form every existing caller uses (the container, docs, worked examples): the same
+-- search without a kind filter. Kept as a wrapper so a schema apply never breaks a running client.
+CREATE OR REPLACE FUNCTION hybrid_search(q text, qvec vector(384) DEFAULT NULL, k integer DEFAULT 10,
+                                         sector text DEFAULT NULL, discipline text DEFAULT NULL,
+                                         region text DEFAULT NULL, reuse_level text DEFAULT NULL)
+RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE sql STABLE AS $$
+    SELECT * FROM hybrid_search_kind(q, qvec, k, sector, discipline, region, reuse_level, NULL);
 $$;
 
 -- Add semantic similar_to edges between technology cards: each card gets edges to its k nearest

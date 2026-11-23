@@ -71,6 +71,10 @@ also cover. A bare product code is the one case to qualify — `q=KS-1 solvent` 
 supplier and process names are indexed) but the vector pool interleaves other solvent cards ahead of
 it; `q=KS-1 amine solvent` puts it first.
 
+`kind` narrows **inside** the ranking on both layers (the SQL function `hybrid_search_kind`), so
+`kind=equipment` returns equipment records rather than whatever survived a global top-k. A query
+with no searchable words returns `[]`.
+
 **`list_by_tag(code=None, region=None, reuse_level=None, source_type=None) → [sources]`**
 Catalogue records by sector/discipline code, Asia Pacific ranked first. The right tool for
 "what sources do we hold on midstream leak detection" — cheaper than search when you want the
