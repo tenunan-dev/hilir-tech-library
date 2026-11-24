@@ -22,8 +22,7 @@
   "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
   "sources": [
     {
-      "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
-      "source_id": "sys-yokogawa-com"
+      "url": "https://www.yokogawa.com/ia/dcs/centum-vp/"
     }
   ],
   "notes": "Catalogue-level confirmation of product families; individual model specifications not retrieved.",

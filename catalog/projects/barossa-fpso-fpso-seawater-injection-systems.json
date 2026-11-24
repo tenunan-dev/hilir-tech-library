@@ -1,0 +1,23 @@
+{
+  "id": "barossa-fpso-fpso-seawater-injection-systems",
+  "name": "Barossa FPSO / FPSO seawater injection systems",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Multiple",
+  "location": "Multiple",
+  "status": "operating",
+  "description": "Valve Magazine / Baker Hughes article (search extracts) describes overboard dump valves as part of FPSO seawater injection systems; no figures asserted from unread PDFs.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://valvemagazine.com/articles/floating-production-storage-and-offloading",
+      "note": "Valve Magazine / Baker Hughes article (search extracts) describes overboard dump valves as part of FPSO seawater injection systems; no figures asserted from unread PDFs."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (5. Safety and Emergency Equipment)."
+}

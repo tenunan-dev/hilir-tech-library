@@ -63,8 +63,7 @@
   "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
   "sources": [
     {
-      "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
-      "source_id": "valmet-com-energyproduction-cfb-boilers"
+      "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown). Linked CFB brochure PDF not opened. Note: this is a solid-fuel CFB, not a gas-fired CFB; recorded against the class because no gas-fired CFB OEM spec page was found.",

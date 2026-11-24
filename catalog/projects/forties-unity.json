@@ -1,0 +1,24 @@
+{
+  "id": "forties-unity",
+  "name": "Forties Unity",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United Kingdom (North Sea)",
+  "location": "United Kingdom (North Sea)",
+  "status": "operating",
+  "description": "Named example of a normally unmanned installation with a helipad; not a Malaysian asset.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Normally_unmanned_installation",
+      "source_id": "whp-en-wikipedia-org-normally-unmanned-installation",
+      "note": "Named example of a normally unmanned installation with a helipad; not a Malaysian asset."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (6. Structural and Marine Systems)."
+}

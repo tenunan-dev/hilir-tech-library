@@ -1,0 +1,176 @@
+{
+  "id": "whp-firewater-pumps-deluge-sprinkler-system-hydrants-and-hose-reels",
+  "name": "Firewater pumps, deluge/sprinkler system, hydrants and hose reels",
+  "equipment_type": "whp-utility",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Offshore firewater systems use self-contained firewater pump packages (vertical suspended deep-well/wet-pit or horizontal OH/BB types, diesel or electric driven) feeding fixed deluge, hydrants and hose reels. IOGP S-721 and NFPA 20 set performance and testing; Ramboll/NPD report describes deluge and firewater philosophy on unmanned WHPs.",
+  "aliases": [
+    "Firewater pumps, deluge/sprinkler system, hydrants and hose reels"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Firewater pump package (diesel or electr — Shutoff/deadhead pressure rise",
+      "unit": "% of rated pressure at design conditions",
+      "basis": "The shutoff or deadhead pressure rise shall lie between 110 % and 140 % of rated pressure at design conditions",
+      "low": 110,
+      "high": 140,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Firewater pump package (diesel or electr — Column pipe flow velocity at 100% rated flow",
+      "unit": "m/s",
+      "basis": "column pipe flow velocity at 100 % rated flow not to exceed 4 m/s (13 ft/s)",
+      "value": 4,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Firewater pump package (diesel or electr — Screens/strainer blockage allowance in submergence calculation",
+      "unit": "%",
+      "basis": "Submergence calculations shall include 50 % blockage of screens or strainer area",
+      "value": 50,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Firewater pump package (diesel or electr — Wave trough design return period for impeller submergence",
+      "unit": "years",
+      "basis": "First stage impeller submergence for offshore pumps shall be the depth required to provide NPSH required by pump at end of curve duty point allowing for the specified 100 year wave trough depth",
+      "value": 100,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Firewater pump package (diesel or electr — Diesel engine site-rated power margin",
+      "unit": "% of maximum required pump kW at peak load",
+      "basis": "Site rated engine power after NFPA 20 deductions shall be at least 110 % of the maximum required pump kW (bhp) at peak load, including gear and other transmission losses",
+      "value": 110,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Firewater pump package (diesel or electr — Diesel engine proven field operating service",
+      "unit": "hours",
+      "basis": "Design and mechanical construction of diesel engines, accessories, and auxiliary system components shall have at least 24 000 hours of field operating service",
+      "value": 24000,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Firewater pump package (diesel or electr — Right-angle gearbox continuous operating capability",
+      "unit": "hours",
+      "basis": "Right angled gearboxes shall be capable of transmitting maximum power continuously for a minimum of 15 000 hours of operation",
+      "value": 15000,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Firewater pump package (diesel or electr — Coupling service factor - electric motor via gearbox",
+      "unit": "dimensionless",
+      "basis": "A service factor of 1,25 shall be used for pumps driven by an electric induction motor via a gearbox",
+      "value": 1.25,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Firewater pump package (diesel or electr — Coupling service factor - diesel engine via gearbox",
+      "unit": "dimensionless",
+      "basis": "A service factor of 1,5 shall be used for pumps driven by a diesel engine via a gearbox",
+      "value": 1.5,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Firewater pump package (diesel or electr — Gearbox oil temperature to bearings / return oil",
+      "unit": "degC",
+      "basis": "The temperature of the oil supply to the gearbox bearings shall not exceed 50 °C (120 °F); The temperature of the returning oil from the drain/sump ... shall not exceed the lesser of 80 °C (176 °F) or gearbox manufacturer’s maximum allowable oil temperature",
+      "low": 50,
+      "high": 80,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Firewater pump package (diesel or electr — Independent starting systems",
+      "unit": "systems",
+      "basis": "Engines shall be provided with two starting systems in accordance with NFPA 20 as primary and secondary starts",
+      "value": 2,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Reliability — Uptime of simple unmanned platforms",
+      "unit": "%",
+      "basis": "Types 2 and 3 have very a high availability (uptime) - in the range of 95% - 99.5%",
+      "low": 95,
+      "high": 99.5,
+      "source": {
+        "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
+        "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-nfpa-37"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+      "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+    },
+    {
+      "url": "https://www.celerosft.com/en-us/industries/oil-gas/upstream",
+      "source_id": "whp-celerosft-com-upstream"
+    },
+    {
+      "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Firewater system",
+      "why": "No deluge/sprinkler design density, hydrant spacing or hose-reel specification was found in the pages read",
+      "next_action": "Fetch NFPA 15 / ISO 13702 application pages or a WHP firewater design basis with densities and coverage"
+    },
+    {
+      "what": "Firewater system",
+      "why": "No numeric firewater pump flow/head rating for a named WHP was read",
+      "next_action": "Fetch the S-721D data sheet for a named project or an OEM firewater pump datasheet"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (3. Utility Systems). Nine Section-3 utility items were researched against pages actually read. Strongest primary evidence: Shell TechXplorer Digest (Timi/Gorek hybrid solar-wind-battery: 14 kWp/80 m2 array, 73.6 kWh/day, ",
+  "last_reviewed": "2026-11-24"
+}

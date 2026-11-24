@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-api-spec-2h-grade-50-plate",
+  "name": "API Spec 2H Grade 50 plate",
+  "material_category": "offshore-structural-steel",
+  "description": "API Spec 2H Grade 50 plate named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
+        "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-topside-decks"
+  ],
+  "sources": [
+    {
+      "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
+      "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

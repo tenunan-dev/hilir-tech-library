@@ -1,0 +1,28 @@
+{
+  "id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes",
+  "name": "Delivering Quality Bulk Marine Gasoil to Offshore Installations, Rev A, 15 January 2019",
+  "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ROT",
+    "HSE"
+  ],
+  "subtopics": [
+    "30-page PDF text read via r.jina.ai reader on 2026-11-24; contributor list includes BP, Ch"
+  ],
+  "publisher_org": "Marine Safety Forum",
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "access": "open",
+  "licence": "MSF copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. 30-page PDF text read via r.jina.ai reader on 2026-11-24; contributor list includes BP, Chevron, Equinor, Shell, Total."
+}

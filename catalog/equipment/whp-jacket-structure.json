@@ -1,0 +1,276 @@
+{
+  "id": "whp-jacket-structure",
+  "name": "Jacket structure",
+  "equipment_type": "whp-structural-marine",
+  "sector": "CIV",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "CIV"
+  ],
+  "description": "A fixed steel jacket is a braced tubular, pile-founded substructure that carries the topside and laterally supports and protects well conductors and the pipeline riser; ESDEP states the overwhelming majority of platforms are piled-jacket with steel deck structures. For smaller/marginal fields the read sources describe conductor-supported minimum-facility platforms (MFP/CoSMOS), monopile or caisson alternatives. Appurtenances evidenced on read pages are a clamp-on boat landing (US4679964A, US4932",
+  "aliases": [
+    "Jacket structure (3 or 4-legged steel jacket, or conductor-supported/monopile for smaller fields) with boat landing, riser clamp, barge bump"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Fixed steel jacket (3-/4-legged tubular, — Well conductor size protected by jacket",
+      "unit": "inch",
+      "basis": "ESDEP Lecture 15A.1 section 4.1: jackets \"support laterally and protect the 26-30 inch well conductors and the pipeline riser\".",
+      "low": 26,
+      "high": 30,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Fixed steel jacket (3-/4-legged tubular, — Typical air gap (topside clearance above maximum wave)",
+      "unit": "m (approximately)",
+      "basis": "ESDEP 15A.1 section 2.2: clearance usually taken at approximately 1.50 m, to be increased if reservoir depletion creates significant subsidence.",
+      "value": 1.5,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Fixed steel jacket (3-/4-legged tubular, — Jacket pile diameter",
+      "unit": "m (up to)",
+      "basis": "ESDEP 15A.1 section 4.2: open-ended tubular steel piles \"with diameters up to 2m\".",
+      "high": 2,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Fixed steel jacket (3-/4-legged tubular, — Jacket pile penetration, typical",
+      "unit": "m",
+      "basis": "ESDEP 15A.1 section 4.2: piles driven approximately 40 - 80 m into the seabed.",
+      "low": 40,
+      "high": 80,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Fixed steel jacket (3-/4-legged tubular, — Jacket pile penetration, deep case",
+      "unit": "m (in some cases)",
+      "basis": "ESDEP 15A.1 section 4.2: \"and in some cases 120 m deep into the seabed\".",
+      "value": 120,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Fixed steel jacket (3-/4-legged tubular, — Economically feasible water depth, fixed platform",
+      "unit": "ft (about 150 m)",
+      "basis": "Wikipedia Fixed platform: \"economically feasible for installation in water depths up to about 500 feet (150 m)\". Conflicts with the 520 m figure on the Oil platform page; neither preferred.",
+      "value": 500,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Fixed_platform",
+        "source_id": "en-wikipedia-org-wiki-fixed-platform"
+      }
+    },
+    {
+      "metric": "Fixed steel jacket (3-/4-legged tubular, — Economically feasible water depth, fixed platform (second source)",
+      "unit": "m (about 1,710 ft)",
+      "basis": "Wikipedia Oil platform: \"Fixed platforms are economically feasible for installation in water depths up to about 520 m (1,710 ft)\". Conflict noted; neither figure preferred.",
+      "value": 520,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+        "source_id": "whp-en-wikipedia-org-offshore-platform"
+      }
+    },
+    {
+      "metric": "Boat landing / barge impact protection ( — Conductor diameter for clamp-on boat landing",
+      "unit": "inch",
+      "basis": "US4679964A description: conductor pipe \"typically in the range of about 26 to about 30 inches in diameter\" with wall thickness about one inch; boat landing clamped to it at the water line.",
+      "low": 26,
+      "high": 30,
+      "source": {
+        "url": "https://patents.google.com/patent/US4679964A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Boat landing / barge impact protection ( — Example anchor pile length",
+      "unit": "ft",
+      "basis": "US4679964A description: \"the piling is 70 feet in length\" with about 52 feet protruding into the seabed.",
+      "value": 70,
+      "source": {
+        "url": "https://patents.google.com/patent/US4679964A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Boat landing / barge impact protection ( — Clamp-base footprint of prior-art Sea Horse system",
+      "unit": "ft (approximately, square)",
+      "basis": "US4932811A background: \"The base of the sea horse clamp is approximately forty by forty feet square where piling are driven through the cans\".",
+      "value": 40,
+      "source": {
+        "url": "https://patents.google.com/patent/US4932811A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Conductor-supported / monopile substruct — Conductor-supported platform water depth applicability",
+      "unit": "m (up to)",
+      "basis": "2H Minimum Facility Platforms: conductor-supported MFPs \"suitable for water depths up to 120m\".",
+      "high": 120,
+      "source": {
+        "url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms",
+        "source_id": "whp-2hoffshore-com-minimum-facility-platforms"
+      }
+    },
+    {
+      "metric": "Reliability — Offshore inspection, maintenance and repair share of OPEX",
+      "unit": "% of OPEX (North Sea)",
+      "basis": "ESDEP 15A.1 section 9.3: \"In the North Sea approximately 20 percent of OPEX are required for offshore inspection, maintenance and repair (IMR)\".",
+      "value": 20,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Reliability — Dynamic analysis trigger",
+      "unit": "seconds (natural period)",
+      "basis": "ESDEP 15A.1 section 8.1: dynamic analysis performed for system behaviour under wave attack if the natural period exceeds 3 seconds.",
+      "value": 3,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "2h-offshore"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fixed_platform",
+      "source_id": "en-wikipedia-org-wiki-fixed-platform"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    },
+    {
+      "url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms",
+      "source_id": "whp-2hoffshore-com-minimum-facility-platforms"
+    },
+    {
+      "url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/monopile-wellhead-platforms",
+      "source_id": "whp-2hoffshore-com-monopile-wellhead-platforms"
+    },
+    {
+      "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+      "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+      "source_id": "offshore-technology-com-projects-kebabangan-field"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+      "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+    },
+    {
+      "url": "https://patents.google.com/patent/US5513929A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4679964A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4932811A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN103758095A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
+      "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
+    },
+    {
+      "url": "https://www.azom.com/article.aspx?ArticleID=5344",
+      "source_id": "azom-com-www-azom-com-article-aspx"
+    },
+    {
+      "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
+      "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"
+    },
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "api-standards"
+    },
+    {
+      "url": "https://www.sika.com/dms/getdocument.get/aab6ff9d-faaf-4409-9e47-e8e502432c20/glo-bkd-a-jacket-installation-malaysia.pdf",
+      "source_id": "sika-com-aab6ff9d-faaf-4409-9e47-e8e502432c20-glo-bkd-a-jacket-ins"
+    },
+    {
+      "url": "https://cdn.standards.iteh.ai/samples/65688/ddf8c5d1ce3f4162afa60c6efd7d11be/ISO-19902-2020.pdf",
+      "source_id": "cdn-standards-iteh-ai-ddf8c5d1ce3f4162afa60c6efd7d11be-iso-19902-2"
+    },
+    {
+      "url": "https://www.iconeng.com.au/track-record/projects/d1-cluster-development-wellhead-support-frames-whs",
+      "source_id": "iconeng-com-au-projects-d1-cluster-development-wellhead-support-fr"
+    },
+    {
+      "url": "https://mhb.com.my/solutions/offshore/",
+      "source_id": "mhb-com-my-offshore"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Barge bumper and pull-in tube sizing",
+      "why": "No page read in this sweep gave dimensions, energy ratings or detailing rules for barge bumpers or pull-in tubes.",
+      "next_action": "Fetch a jacket appurtenance specification page or engineering-company detail sheet and read it with WebFetch."
+    },
+    {
+      "what": "ISO 19902 full text",
+      "why": "The ISO 19902:2020 sample PDF was not read successfully and the ISO standard page was not resolved; no figures or clauses from ISO 19902 are asserted.",
+      "next_action": "Locate and WebFetch a readable ISO 19902 landing page, or read the standard under licence."
+    },
+    {
+      "what": "Current API RP 2A edition",
+      "why": "The ESDEP lecture cites API-RP2A 18th ed. 1989; the API standards landing page read does not state the current edition.",
+      "next_action": "Fetch an API page that prints the current RP 2A-WSD edition and status."
+    },
+    {
+      "what": "Conflicting fixed-platform water-depth limits",
+      "why": "Wikipedia Fixed platform says about 500 ft (150 m); Wikipedia Oil platform says about 520 m (1,710 ft). Neither was preferred.",
+      "next_action": "Seek a primary standard or API text stating the applicability range."
+    },
+    {
+      "what": "Kebabangan platform description conflict",
+      "why": "Offshore Technology page calls the platform both \"floating\" and installed on a fixed eight-leg steel jacket; the fixed-jacket figures are quoted as printed but the conflict is unresolved.",
+      "next_action": "Cross-check against KPOC / operator or contractor sources."
+    },
+    {
+      "what": "Jacket-only cost with dollar year",
+      "why": "No page read gave a jacket-only USD cost with a stated dollar year.",
+      "next_action": "Fetch a project page with a named-year USD contract value."
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (6. Structural and Marine Systems). Six structural/marine WHP items were researched from pages actually read with WebFetch. Evidence-first findings: a fixed steel jacket is a pile-founded braced tubular substructure carrying the topside",
+  "last_reviewed": "2026-11-24"
+}

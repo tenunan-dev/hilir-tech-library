@@ -62,8 +62,7 @@
   "url": "https://cleaverbrooks.com/product/accu-trim",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/accu-trim",
-      "source_id": "cleaverbrooks-com-product-accu-trim"
+      "url": "https://cleaverbrooks.com/product/accu-trim"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown). No numeric O2 setpoint printed.",

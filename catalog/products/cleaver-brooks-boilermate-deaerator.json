@@ -54,8 +54,7 @@
   "url": "https://cleaverbrooks.com/product/boilermate",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/boilermate",
-      "source_id": "cleaverbrooks-com-product-boilermate"
+      "url": "https://cleaverbrooks.com/product/boilermate"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown).",

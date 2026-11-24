@@ -42,8 +42,7 @@
   "url": "https://casale.ch/technologies/ammonia/",
   "sources": [
     {
-      "url": "https://casale.ch/technologies/ammonia/",
-      "source_id": "casale-ch-ammonia"
+      "url": "https://casale.ch/technologies/ammonia/"
     }
   ],
   "notes": "Technical brochure link on page; brochure itself not fetched.",

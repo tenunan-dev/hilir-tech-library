@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-stainless-steel-transfer-basket-frame",
+  "name": "Stainless steel transfer basket frame",
+  "material_category": "metal",
+  "description": "Stainless steel transfer basket frame named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.viking-life.com/products/additional-lsa/transfer-descent-and-recovery/transfer-baskets/personnel-transfer-basket-safe-transfer-8-pers-1145-8",
+        "source_id": "whp-viking-life-com-personnel-transfer-basket-safe-transfer-8"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-life-rafts-retrieval-nets-sea-rescue-baskets"
+  ],
+  "sources": [
+    {
+      "url": "https://www.viking-life.com/products/additional-lsa/transfer-descent-and-recovery/transfer-baskets/personnel-transfer-basket-safe-transfer-8-pers-1145-8",
+      "source_id": "whp-viking-life-com-personnel-transfer-basket-safe-transfer-8"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

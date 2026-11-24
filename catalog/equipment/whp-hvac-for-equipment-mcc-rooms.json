@@ -1,0 +1,222 @@
+{
+  "id": "whp-hvac-for-equipment-mcc-rooms",
+  "name": "HVAC for equipment/MCC rooms",
+  "equipment_type": "whp-utility",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "HVAC for electrical equipment/MCC rooms maintains temperature, humidity and pressurisation, provides dilution ventilation and isolates on fire/gas detection. Sources read: IEEE Houston offshore electrical design seminar (USCG ambient and HVAC rules) and PDHonline M332 HVAC Design for Oil & Gas Facilities (ISO 15138/NORSOK H-001 basis).",
+  "aliases": [
+    "HVAC for equipment/MCC rooms"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — General design ambient temperature",
+      "unit": "degC",
+      "basis": "Ambient temperature of 40 oC (104 oF) except for the following",
+      "value": 40,
+      "source": {
+        "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+        "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+      }
+    },
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — Rotating electrical equipment in machinery rooms/weather decks",
+      "unit": "degC",
+      "basis": "50 oC (122 oF) for rotating electrical equipment in “Machinery Rooms” and “Weather Decks” [unless 45 oC (113 oF) can be shown as a maximum for these spaces]",
+      "value": 50,
+      "source": {
+        "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+        "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+      }
+    },
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — Cables and non-rotating electrical equipment in machinery rooms/weather decks",
+      "unit": "degC",
+      "basis": "45 oC (113 oF) for Cables and other non-rotating electrical equipment for “Machinery Rooms” and “Weather Decks”",
+      "value": 45,
+      "source": {
+        "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+        "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+      }
+    },
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — Air-conditioned space design temperature",
+      "unit": "degC",
+      "basis": "30 oC (86 oF) is permitted in air conditioned spaces (but 40 oC is norm) – duplication of HVAC recommended",
+      "value": 30,
+      "source": {
+        "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+        "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+      }
+    },
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — Control and instrumentation equipment ambient",
+      "unit": "degC",
+      "basis": "55 oC (131 oF) for all control and instrumentation equipment",
+      "value": 55,
+      "source": {
+        "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+        "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+      }
+    },
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — Electrical substation maximum temperature",
+      "unit": "degC",
+      "basis": "The temperatures are generally not required to exceed 40° C in the electrical substations",
+      "value": 40,
+      "source": {
+        "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+        "source_id": "whp-pdhonline-com-m332content-pdf"
+      }
+    },
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — Relative humidity target",
+      "unit": "% +/- 5%",
+      "basis": "Offshore facilities are high in humidity, which needs to be controlled to comfortable levels of 50 ± 5%",
+      "value": 50,
+      "source": {
+        "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+        "source_id": "whp-pdhonline-com-m332content-pdf"
+      }
+    },
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — Hazardous/non-hazardous pressure differential",
+      "unit": "Pa",
+      "basis": "Maintenance of a pressure differential between hazardous and non-hazardous areas (generally in the range of 30 to 70 Pa) is essential to prevent ingress of toxic or hazardous gases",
+      "low": 30,
+      "high": 70,
+      "source": {
+        "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+        "source_id": "whp-pdhonline-com-m332content-pdf"
+      }
+    },
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — Process area mechanical ventilation rate",
+      "unit": "air changes per hour (minimum)",
+      "basis": "The process areas should be provided with mechanical ventilation systems capable of continuously providing at least 12 air changes per hour",
+      "value": 12,
+      "source": {
+        "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+        "source_id": "whp-pdhonline-com-m332content-pdf"
+      }
+    },
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — Supply / return duct pressure drop",
+      "unit": "Pa",
+      "basis": "The pressure drop in supply air ducting will be in the range of 1000 to 1500 Pa and that in return air ducting will be in the range of 500 to 1000 Pa",
+      "low": 500,
+      "high": 1500,
+      "source": {
+        "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+        "source_id": "whp-pdhonline-com-m332content-pdf"
+      }
+    },
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — Minimum outside air in manned areas",
+      "unit": "CFM per person",
+      "basis": "In all manned areas, HVAC systems should provide a minimum of 20 CFM of outside air per person",
+      "value": 20,
+      "source": {
+        "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+        "source_id": "whp-pdhonline-com-m332content-pdf"
+      }
+    },
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — Minimum separation of air intake and extract outlet",
+      "unit": "m",
+      "basis": "The separation between air intakes and extract outlets should be a minimum of 4.5m, but greater where practicable",
+      "value": 4.5,
+      "source": {
+        "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+        "source_id": "whp-pdhonline-com-m332content-pdf"
+      }
+    },
+    {
+      "metric": "HVAC system for electrical/MCC rooms (DX — HVAC motor rating",
+      "unit": "degC rated motors",
+      "basis": "50 degree C rated motors",
+      "value": 50,
+      "source": {
+        "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+        "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+      }
+    },
+    {
+      "metric": "Battery room ventilation (UPS/battery ba — Hydrogen concentration limit",
+      "unit": "% by volume",
+      "basis": "Size the battery room ventilation system to prevent hydrogen concentration in the room from exceeding 2 percent by volume",
+      "value": 2,
+      "source": {
+        "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+        "source_id": "whp-pdhonline-com-m332content-pdf"
+      }
+    },
+    {
+      "metric": "Battery room ventilation (UPS/battery ba — Battery room air changes (if battery data unavailable)",
+      "unit": "air changes per hour",
+      "basis": "In event the battery data is not available “maintain at least 12 air changes per hour”",
+      "value": 12,
+      "source": {
+        "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+        "source_id": "whp-pdhonline-com-m332content-pdf"
+      }
+    },
+    {
+      "metric": "Battery room ventilation (UPS/battery ba — ABS large battery room ventilation",
+      "unit": "air changes per hour",
+      "basis": "ABS requires 1 air change every two minutes (30/hr) unless fewer are proven required through hydrogen emission calculations",
+      "value": 30,
+      "source": {
+        "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+        "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+      }
+    },
+    {
+      "metric": "Battery room ventilation (UPS/battery ba — Threshold for large battery room classification",
+      "unit": "kW of connected charging device output (lead acid)",
+      "basis": "Large Battery Room > 2kW of connected charging device output (based on lead acid service)",
+      "value": 2,
+      "source": {
+        "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+        "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-ieee-houston-section-pcic"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+      "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+    },
+    {
+      "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+      "source_id": "whp-pdhonline-com-m332content-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "HVAC for equipment/MCC rooms",
+      "why": "No WHP-specific HVAC equipment schedule, cooling capacity or fan duty was found",
+      "next_action": "Fetch a named WHP HVAC design basis/equipment list"
+    },
+    {
+      "what": "HVAC for equipment/MCC rooms",
+      "why": "No USD cost for offshore HVAC equipment or installation was found in the pages read",
+      "next_action": "Fetch an OEM HVAC package quotation or project cost report with dollar year"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (3. Utility Systems). Nine Section-3 utility items were researched against pages actually read. Strongest primary evidence: Shell TechXplorer Digest (Timi/Gorek hybrid solar-wind-battery: 14 kWp/80 m2 array, 73.6 kWh/day, ",
+  "last_reviewed": "2026-11-24"
+}

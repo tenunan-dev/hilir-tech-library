@@ -32,8 +32,7 @@
   "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls",
-      "source_id": "cleaverbrooks-com-controls-boiler-controls"
+      "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     }
   ],
   "notes": "Fetched Boiler Controls catalog listing directly with WebFetch (text). Also printed: ClearFire-CE has 'Inherent O2 trim' (separate product page read).",

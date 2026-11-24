@@ -1,0 +1,621 @@
+{
+  "id": "ups-whp-safety-and-emergency-equipment",
+  "name": "Wellhead platform safety and emergency equipment",
+  "aliases": [
+    "Wellhead platform safety and emergency equipment"
+  ],
+  "sector": "UPS",
+  "category": "Offshore wellhead platforms",
+  "applications": [
+    "offshore Malaysia wellhead platform",
+    "minimum-facility normally unmanned platform"
+  ],
+  "maturity": "commercial",
+  "principle": "Wellhead platform safety and emergency equipment: lifeboats/TEMPSC, life rafts, escape routes, fire equipment and ESD isolation. Sourced from pages read in the 2026-11-24 WHP component sweep.",
+  "process_steps": [
+    {
+      "id": "LIFEBOAT_TEMPSC_WI",
+      "name": "Lifeboat / TEMPSC with davit",
+      "equipment": [
+        "Lifeboat / TEMPSC with davit"
+      ]
+    },
+    {
+      "id": "LIFE_RAFTS_RETRIEV",
+      "name": "Life rafts, retrieval nets, sea rescue baskets",
+      "equipment": [
+        "Life rafts, retrieval nets, sea rescue baskets"
+      ]
+    },
+    {
+      "id": "ESCAPE_ROUTES_MUST",
+      "name": "Escape routes, muster points, signs and safety lighting",
+      "equipment": [
+        "Escape routes, muster points, signs and safety lighting"
+      ]
+    },
+    {
+      "id": "FIRE_EXTINGUISHERS",
+      "name": "Fire extinguishers, hydrant hoses, SCBA sets on manned platforms",
+      "equipment": [
+        "Fire extinguishers, hydrant hoses, SCBA sets on manned platforms"
+      ]
+    },
+    {
+      "id": "OVERBOARD_DUMP_VAL",
+      "name": "Overboard dump valves and ESD-initiated isolation of all wells and pipelines",
+      "equipment": [
+        "Overboard dump valves and ESD-initiated isolation of all wells and pipelines"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "Lifeboat / TEMPSC with davit",
+    "Life rafts, retrieval nets, sea rescue baskets",
+    "Escape routes, muster points, signs and safety lighting",
+    "Fire extinguishers, hydrant hoses, SCBA sets on manned platforms",
+    "Overboard dump valves and ESD-initiated isolation of all wells and pipelines"
+  ],
+  "suppliers": [
+    {
+      "name": "SLB (Cameron pressure control equipment)"
+    },
+    {
+      "name": "Cameron (SLB)"
+    },
+    {
+      "name": "Baker Hughes"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Reliability — Release gear proof test load factor",
+      "unit": "x total loaded mass",
+      "basis": "46 CFR 109.301(i)(5): at least once every 5 years or whenever overhauled",
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      },
+      "low": 1.1,
+      "high": 1.1
+    },
+    {
+      "metric": "Reliability — Launching appliance thorough examination interval",
+      "unit": "years max",
+      "basis": "46 CFR 109.301(i)(2), with dynamic test of winch brake on completion",
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      },
+      "low": 5,
+      "high": 5
+    },
+    {
+      "metric": "Reliability — Weekly lifeboat engine run time",
+      "unit": "min ahead and astern",
+      "basis": "46 CFR 109.301(d)(2)",
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      },
+      "low": 3,
+      "high": 3
+    },
+    {
+      "metric": "Reliability — Redundant braking for lifeboat winch",
+      "unit": "",
+      "basis": "WO2013122479A1: secondary components 'ensure proper operation / braking in the event of failure of the primary system'; either accumulator can release both brakes",
+      "source": {
+        "url": "https://patents.google.com/patent/WO2013122479A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 1968,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/TEMPSC",
+        "source_id": "whp-en-wikipedia-org-tempsc"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 1983,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/TEMPSC",
+        "source_id": "whp-en-wikipedia-org-tempsc"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 1996,
+      "source": {
+        "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
+        "source_id": "whp-solas-lsa-code-vercel-app"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/TEMPSC",
+        "source_id": "whp-en-wikipedia-org-tempsc"
+      }
+    },
+    {
+      "metric": "Reliability — Inflatable liferaft service interval",
+      "unit": "months",
+      "basis": "46 CFR 109.301(g)(1) for MODUs",
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      },
+      "low": 12,
+      "high": 12
+    },
+    {
+      "metric": "Reliability — Hydrostatic release unit service interval",
+      "unit": "months",
+      "basis": "46 CFR 109.301(h)(1)",
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      },
+      "low": 12,
+      "high": 12
+    },
+    {
+      "metric": "Reliability — Dual redundant lifting slings",
+      "unit": "",
+      "basis": "Viking Life 1145-8: elastic compensator sling plus chain or wire sling, 'serving as a backup in case the other sling fails'",
+      "source": {
+        "url": "https://www.viking-life.com/products/additional-lsa/transfer-descent-and-recovery/transfer-baskets/personnel-transfer-basket-safe-transfer-8-pers-1145-8",
+        "source_id": "whp-viking-life-com-personnel-transfer-basket-safe-transfer-8"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 1996,
+      "source": {
+        "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
+        "source_id": "whp-solas-lsa-code-vercel-app"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2003,
+      "source": {
+        "url": "https://patents.google.com/patent/US7069874B2/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://www.viking-life.com/products/additional-lsa/transfer-descent-and-recovery/transfer-baskets/personnel-transfer-basket-safe-transfer-8-pers-1145-8",
+        "source_id": "whp-viking-life-com-personnel-transfer-basket-safe-transfer-8"
+      }
+    },
+    {
+      "metric": "Reliability — Single point of failure tolerance",
+      "unit": "",
+      "basis": "SOLAS II-2/13.2.1; failure of any single light or cut in a lighting strip must not make marking ineffective (13.3.2.5.1)",
+      "source": {
+        "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+        "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+      }
+    },
+    {
+      "metric": "Reliability — General alarm test frequency (MODU)",
+      "unit": "per week",
+      "basis": "46 CFR 109.301(d)(3): 'The general alarm system must be tested' under weekly inspections and tests",
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      },
+      "low": 1,
+      "high": 1
+    },
+    {
+      "metric": "Reliability — Monthly extinguisher inspection",
+      "unit": "per month",
+      "basis": "33 CFR 145.01(b)(2): monthly inspections required by NFPA 10 may be conducted by owner, operator, person-in-charge or designated crew member",
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-33/part-145",
+        "source_id": "whp-ecfr-gov-part-145"
+      },
+      "low": 1,
+      "high": 1
+    },
+    {
+      "metric": "Reliability — Annual extinguisher maintenance and hydrostatic test",
+      "unit": "per year",
+      "basis": "33 CFR 145.01(b)(1) and (4): annual maintenance/recharging to NFPA 10; hydrostatic pressure tests by qualified servicing facility",
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-33/part-145",
+        "source_id": "whp-ecfr-gov-part-145"
+      },
+      "low": 1,
+      "high": 1
+    },
+    {
+      "metric": "Reliability — SCBA readiness",
+      "unit": "",
+      "basis": "46 CFR 77.30-5(d) and 96.30-5(b) (search extract): all emergency equipment maintained operative; master and chief engineer ensure sufficient crew familiar with operation",
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-77.30-5",
+        "source_id": "whp-ecfr-gov-section-77-30-5"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2016,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-33/part-145",
+        "source_id": "whp-ecfr-gov-part-145"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2013,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-33/section-149.417",
+        "source_id": "whp-ecfr-gov-section-149-417"
+      }
+    },
+    {
+      "metric": "Reliability — ESD component quality requirement",
+      "unit": "",
+      "basis": "30 CFR 250.855(a)",
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-30/chapter-II/subchapter-B/part-250/subpart-H/subject-group-ECFR081ef9e2fac31ea/section-250.855",
+        "source_id": "whp-ecfr-gov-section-250-855"
+      }
+    },
+    {
+      "metric": "Reliability — SSV leak-tightness requirement",
+      "unit": "",
+      "basis": "Fluid Handling Pro / Trillium article: 'any leakage past the plug and seat will be erosive' for recycle/dump valves closed against full discharge head",
+      "source": {
+        "url": "https://fluidhandlingpro.com/fluid-process-technology/fluid-process-control-valves/optimizing-offshore-operations-choosing-valves-for-water-injection-and-overboard-dump-systems",
+        "source_id": "whp-fluidhandlingpro-com-optimizing-offshore-operations-choosi"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2016,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-30/chapter-II/subchapter-B/part-250/subpart-H/subject-group-ECFR081ef9e2fac31ea/section-250.855",
+        "source_id": "whp-ecfr-gov-section-250-855"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "Price — Revere USCG/SOLAS 'A' liferaft, low profile container - list price from",
+      "unit": "USD",
+      "basis": "Dollar year not stated; SurvivalAtSea.com listing shows copyright 2026; 'From $4095' (dollar year not stated)",
+      "source": {
+        "url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx",
+        "source_id": "whp-survivalatsea-com-uscg-solas-aspx"
+      },
+      "low": 4095,
+      "high": 4095
+    },
+    {
+      "metric": "Price — Survitec Zodiac USCG/SOLAS 'A' liferaft, low profile container - list price from",
+      "unit": "USD",
+      "basis": "Dollar year not stated; SurvivalAtSea.com listing ©2026; 'From $3450' (dollar year not stated)",
+      "source": {
+        "url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx",
+        "source_id": "whp-survivalatsea-com-uscg-solas-aspx"
+      },
+      "low": 3450,
+      "high": 3450
+    },
+    {
+      "metric": "Price — Survitec Zodiac XTREM USCG/SOLAS 'A' liferaft - list price from",
+      "unit": "USD",
+      "basis": "Dollar year not stated; SurvivalAtSea.com listing ©2026; 'From $6250' (dollar year not stated)",
+      "source": {
+        "url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx",
+        "source_id": "whp-survivalatsea-com-uscg-solas-aspx"
+      },
+      "low": 6250,
+      "high": 6250
+    },
+    {
+      "metric": "Price — Revere USCG-approved compact liferaft - list price from",
+      "unit": "USD",
+      "basis": "Dollar year not stated; SurvivalAtSea.com listing ©2026; 'From $5000' (dollar year not stated)",
+      "source": {
+        "url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx",
+        "source_id": "whp-survivalatsea-com-uscg-solas-aspx"
+      },
+      "low": 5000,
+      "high": 5000
+    },
+    {
+      "metric": "Price — Pre-owned Crewsaver USCG/SOLAS 6-person liferaft",
+      "unit": "USD",
+      "basis": "Dollar year not stated; SurvivalAtSea.com listing ©2026; was $3,595, now $1,995 (out of stock) (dollar year not stated)",
+      "source": {
+        "url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx",
+        "source_id": "whp-survivalatsea-com-uscg-solas-aspx"
+      },
+      "low": 1995,
+      "high": 1995
+    }
+  ],
+  "advantages": [
+    "Minimum-facility WHPs avoid onboard processing by exporting fluids to a host"
+  ],
+  "limitations": [
+    "Many component figures are not published on freely readable pages; gaps are recorded"
+  ],
+  "sources": [
+    {
+      "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
+      "source_id": "whp-solas-lsa-code-vercel-app"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-L/part-133/subpart-B/section-133.150",
+      "source_id": "whp-ecfr-gov-section-133-150"
+    },
+    {
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.48%2866%29.pdf",
+      "note": "LSA Code (MSC.48(66)) Ch.II 2.1; Ch.IV 4.4; Ch.VI 6.1 International Life-Saving Appliance Code - lifebuoys, lifeboats, launching and embarkation appliances — Lifeboat / TEMPSC with davit"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-L/part-133/subpart-B/section-133.150",
+      "source_id": "whp-ecfr-gov-section-133-150",
+      "note": "46 CFR 133.150 Survival craft launching and recovery arrangements: General (OSV) — Lifeboat / TEMPSC with davit"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+      "source_id": "whp-ecfr-gov-section-109-301",
+      "note": "46 CFR 109.301 Operational readiness, maintenance, and inspection of lifesaving equipment — Lifeboat / TEMPSC with davit"
+    },
+    {
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+      "source_id": "whp-laws-lois-justice-gc-ca-section-22-html",
+      "note": "SOR/96-118 s.22 Canada Oil and Gas Installations Regulations - Lifesaving equipment for offshore installations — Lifeboat / TEMPSC with davit"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/TEMPSC",
+      "source_id": "whp-en-wikipedia-org-tempsc",
+      "note": "SOLAS 1974 Ch.III (1983 amendment) Made TEMPSC mandatory on merchant vessels, tankers, MODUs and offshore platforms built on/after 1 January 1986 — Lifeboat / TEMPSC with davit"
+    },
+    {
+      "url": "https://patents.google.com/patent/WO2013122479A1/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent WO2013122479A1 Lifeboat winch with a redundant braking system (Norsafe AS) — Lifeboat / TEMPSC with davit"
+    },
+    {
+      "url": "https://patents.google.com/patent/US7069874B2/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US7069874B2 Davit-launched life raft (Survitec SAS (originally Zodiac International SA)) — Lifeboat / TEMPSC with davit"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+      "source_id": "whp-ecfr-gov-section-109-301"
+    },
+    {
+      "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
+      "source_id": "whp-solas-lsa-code-vercel-app",
+      "note": "LSA Code 4.1 and 4.2 General requirements for liferafts and inflatable liferafts — Life rafts, retrieval nets, sea rescue b"
+    },
+    {
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+      "source_id": "whp-laws-lois-justice-gc-ca-section-22-html",
+      "note": "SOR/96-118 s.22(1)(b), (f)(iii), (f)(viii) Canada Oil and Gas Installations Regulations - liferafts and rescue/transfer baskets — Life rafts, retrieval nets, sea rescue b"
+    },
+    {
+      "url": "https://www.viking-life.com/products/additional-lsa/transfer-descent-and-recovery/transfer-baskets/personnel-transfer-basket-safe-transfer-8-pers-1145-8",
+      "source_id": "whp-viking-life-com-personnel-transfer-basket-safe-transfer-8",
+      "note": "DNVGL-ST-0378 / EN 14502-1:2010 Type approval and product certificate basis for SAFE-TRANSFER personnel baskets — Life rafts, retrieval nets, sea rescue b"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+      "source_id": "whp-ecfr-gov-section-109-301",
+      "note": "46 CFR 109.301(g), (h) Servicing of inflatable lifesaving appliances and hydrostatic release units — Life rafts, retrieval nets, sea rescue b"
+    },
+    {
+      "url": "https://patents.google.com/patent/US7069874B2/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US7069874B2 Davit-launched life raft (Survitec SAS (originally Zodiac International SA)) — Life rafts, retrieval nets, sea rescue b"
+    },
+    {
+      "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+      "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+    },
+    {
+      "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+      "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm",
+      "note": "SOLAS II-2/13 Means of escape — Escape routes, muster points, signs and "
+    },
+    {
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1023(26).pdf",
+      "note": "IMO Resolution A.1023(26) - 2009 MODU Code, 9.4 Means of escape on mobile offshore drilling units — Escape routes, muster points, signs and "
+    },
+    {
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1116(30).pdf",
+      "note": "IMO Resolution A.1116(30) Signs - MES, EES, LSS, FES, PSS, WSS, MSS and SIS categories — Escape routes, muster points, signs and "
+    },
+    {
+      "url": "https://www.hse.gov.uk/foi/internalops/hid_circs/technical_osd/spc_tech_osd_40.htm",
+      "note": "EN 1838 Lighting applications - emergency lighting (via UK HSE SPC/TECH/OSD/40) — Escape routes, muster points, signs and "
+    },
+    {
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+      "source_id": "whp-laws-lois-justice-gc-ca-section-22-html",
+      "note": "SOR/96-118 s.22(6) Posting of lifesaving appliance plans on offshore installations — Escape routes, muster points, signs and "
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-33/part-145",
+      "source_id": "whp-ecfr-gov-part-145"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-33/section-149.417",
+      "source_id": "whp-ecfr-gov-section-149-417"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-33/part-145",
+      "source_id": "whp-ecfr-gov-part-145",
+      "note": "33 CFR Part 145 Fire-Fighting Equipment (Outer Continental Shelf) — Fire extinguishers, hydrant hoses, SCBA "
+    }
+  ],
+  "notes": "LSA Code (MSC.48(66)) Ch.II 2.1; Ch.IV 4.4; Ch.VI 6.1 International Life-Saving Appliance Code - lifebuoys, lifeboats, launching and embarkation appliances — Lifeboat / TEMPSC with davit | 46 CFR 133.150 Survival craft launching and recovery arrangements: General (OSV) — Lifeboat / TEMPSC with davit | 46 CFR 109.301 Operational readiness, maintenance, and inspection of lifesaving equipment — Lifeboat / TEMPSC with davit | SOR/96-118 s.22 Canada Oil and Gas Installations Regulations - Lifesaving equipment for offshore installations — Lifeboat / TEMPSC with davit | SOLAS 1974 Ch.III (1983 amendment) Made TEMPSC mandatory on merchant vessels, tankers, MODUs and offshore platforms built on/after 1 January 1986 — Lifeboat / TEMPSC with davit | Patent WO2013122479A1 Lifeboat winch with a redundant braking system (Norsafe AS) — Lifeboat / TEMPSC with davit | Patent US7069874B2 Davit-launched life raft (Survitec SAS (originally Zodiac International SA)) — Lifeboat / TEMPSC with davit | LSA Cod",
+  "last_reviewed": "2026-11-24",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "Quantity/availability/reliability figures for lifeboats and davits on offshore platforms",
+      "reason_code": "not_in_sources_read",
+      "reason": "Quantitative failure-rate studies (Bureau Veritas OMAE2008 Prat et al., MAIB lifeboat study, InterManager/OCIMF incident analyses) were located but their PDFs were refused by WebFetch, so no failure-rate figures are asserted",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Lifeboat / TEMPSC with davit",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch the PDFs by an alternate method and record failure probabilities with basis"
+    },
+    {
+      "field": "performance",
+      "item": "Lifeboat/TEMPSC purchase price in USD with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Gohi Marine states 'Price Negotiable'; other found quotes were in EUR/GBP and the schema requires USD",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Lifeboat / TEMPSC with davit",
+          "access": "open"
+        }
+      ],
+      "action": "Obtain a dated USD quotation from an OEM such as Survitec, Viking or Norsafe"
+    },
+    {
+      "field": "performance",
+      "item": "Retrieval nets (liferaft retrieval / boarding nets)",
+      "reason_code": "not_in_sources_read",
+      "reason": "No page directly read during this research gave a printed specification for a dedicated liferaft retrieval net; the LSA Code provisions read cover boarding ramps and boarding ladders instead",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Life rafts, retrieval nets, sea rescue baskets",
+          "access": "open"
+        }
+      ],
+      "action": "Search OEM catalogues (Survitec, Viking, Zodiac) for 'liferaft retrieval net' datasheets and record printed specs"
+    },
+    {
+      "field": "performance",
+      "item": "Liferaft service cost and replacement cost with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Found EUR service-cost indication (up to EUR 667 excl VAT from Galanos/Arimar) but schema requires USD with a dollar year",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Life rafts, retrieval nets, sea rescue baskets",
+          "access": "open"
+        }
+      ],
+      "action": "Find a dated USD service/replacement quotation from a US or APAC service station"
+    },
+    {
+      "field": "performance",
+      "item": "Offshore-specific illumination levels (lux) for muster areas, temporary refuge and escape routes",
+      "reason_code": "not_in_sources_read",
+      "reason": "The UK HSE SPC/TECH/OSD/40 page returned 404 on WebFetch; EN 1838 values were only seen in search extracts and are not asserted as page-read figures",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Escape routes, muster points, signs and safety lighting",
+          "access": "open"
+        }
+      ],
+      "action": "Retrieve the HSE circular from an archived copy and WebFetch it, or obtain EN 1838 text"
+    },
+    {
+      "field": "performance",
+      "item": "Named vendors for photoluminescent escape-route systems on offshore units",
+      "reason_code": "not_in_sources_read",
+      "reason": "No vendor page was read for this item",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Escape routes, muster points, signs and safety lighting",
+          "access": "open"
+        }
+      ],
+      "action": "Search OEM datasheets for photoluminescent escape guidance systems with printed lux/endurance specs"
+    },
+    {
+      "field": "performance",
+      "item": "Fire extinguisher, hydrant hose and SCBA purchase prices with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "No dated USD price list was read for these items",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Fire extinguishers, hydrant hoses, SCBA sets on manned platf",
+          "access": "open"
+        }
+      ],
+      "action": "Obtain OEM distributor quotations with explicit dollar year"
+    },
+    {
+      "field": "performance",
+      "item": "SCBA cylinder and duration figures from a WebFetch-readable page",
+      "reason_code": "not_in_sources_read",
+      "reason": "NFPA 1981, DHS TechNotes and NAVSEA standard item were PDFs refused by WebFetch; only the 46 CFR 77.30-5 30-minute minimum is page-read verified",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Fire extinguishers, hydrant hoses, SCBA sets on manned platf",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch accessible HTML mirrors or read PDFs with a PDF-capable tool"
+    },
+    {
+      "field": "performance",
+      "item": "Full text of API RP 14C 8th edition with safety analysis tables (SACs) and ESD appendix C",
+      "reason_code": "not_in_sources_read",
+      "reason": "PDF refused by WebFetch",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Overboard dump valves and ESD-initiated isolation of all wel",
+          "access": "open"
+        }
+      ],
+      "action": "Read the standard PDF with a PDF-capable tool or obtain licensed copy"
+    },
+    {
+      "field": "performance",
+      "item": "ESD proof-test results / availability figures for offshore platforms",
+      "reason_code": "not_in_sources_read",
+      "reason": "No directly read page published quantitative ESD failure rates or SIL verification figures",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Overboard dump valves and ESD-initiated isolation of all wel",
+          "access": "open"
+        }
+      ],
+      "action": "Search for OREDA/operator ESD reliability data with printed figures"
+    }
+  ]
+}

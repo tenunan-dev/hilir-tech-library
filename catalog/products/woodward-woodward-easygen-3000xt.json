@@ -43,8 +43,7 @@
   "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
   "sources": [
     {
-      "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
-      "source_id": "woodward-com-generator-controllers-easygen"
+      "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
     }
   ],
   "notes": "Synchronising, protection, AVR, load/PF control in one controller",

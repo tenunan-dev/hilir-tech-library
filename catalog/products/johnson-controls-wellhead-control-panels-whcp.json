@@ -22,8 +22,7 @@
   "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
   "sources": [
     {
-      "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
-      "source_id": "johnsoncontrols-com-oil-and-gas-production-systems"
+      "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems"
     }
   ],
   "notes": "Integrator for API 674 and 675 pump packages.",

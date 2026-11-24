@@ -52,8 +52,7 @@
   "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
   "sources": [
     {
-      "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
-      "source_id": "cat-oceaneering-com"
+      "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     }
   ],
   "notes": "HTML index page read; each item links to a separate PDF datasheet (not WebFetch-readable). The page's 'more than 0 km' counter is a rendering artifact and is not reported as a figure.",

@@ -8,6 +8,26 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.24.12] — 2026-11-24 — Every item in the Mistral-chat WHP list, all categories
+
+Read the shared Mistral chat, extracted all 41 items across its six sections, and researched every
+item across equipment, vendor, technology, design standard, patent, reliability, operational history,
+price, project, drawing and material categories. Ingested all of it into the library.
+
+### Added
+- **41 equipment records, 39 projects, 19 drawings, 28 materials, 67 sources** (26 standards, 19 patents),
+  **13 vendors**, and **six technology cards** with 172 sourced performance/cost figures.
+- Cards cover WHP well systems, production process, utilities, control/safety/comms, safety/emergency
+  and structures/marine, with register entries; figures carry URL, basis and dollar year where applicable.
+- Evidence includes Tarpon KMSE/AJK, West Desaru, Shell Timi, IEC 61511/61508, 33/46 CFR, SOLAS/LSA,
+  IOGP S-714/721, Kebabangan and read patent pages. Unread PDFs and unpriced items are recorded as gaps.
+
+### Verification
+`tools/build.py` 1,713 sources / 398 cards / 920 vendors / 430 equipment / 686 projects / 361 products /
+321 drawings / 139 materials; `pytest -q tests` **2,753 passed, 13 skipped**; Neon reloaded with 8,145 nodes,
+30,541 edges and 18,160 vectors.
+
+
 ## [2026.11.24.11] — 2026-11-24 — Product catalogs and specifications for all systems
 
 Owner-directed catalog/spec-sheet sweep for every equipment family searched today, ingested into the products and equipment layers.

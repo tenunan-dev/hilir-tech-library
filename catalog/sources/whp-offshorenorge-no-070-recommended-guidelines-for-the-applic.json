@@ -1,0 +1,29 @@
+{
+  "id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic",
+  "name": "Recommended guidelines for application of IEC 61508 and IEC 61511 in the Norwegian petroleum industry, No. 070 rev 06",
+  "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS",
+    "UPS"
+  ],
+  "disciplines": [
+    "INS",
+    "HSE"
+  ],
+  "subtopics": [
+    "PDF downloaded and text extracted; SIL tables and PFD values read from extracted text"
+  ],
+  "publisher_org": "Offshore Norge",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. PDF downloaded and text extracted; SIL tables and PFD values read from extracted text"
+}

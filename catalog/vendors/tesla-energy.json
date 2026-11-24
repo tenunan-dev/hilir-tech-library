@@ -12,8 +12,7 @@
   "sources": [
     {
       "url": "https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
-      "note": "NREL ATB 2024 utility-scale battery storage page (read for card pwr-lithium-ion-bess)",
-      "source_id": "nrel"
+      "note": "NREL ATB 2024 utility-scale battery storage page (read for card pwr-lithium-ion-bess)"
     }
   ],
   "last_reviewed": "2026-10-26",

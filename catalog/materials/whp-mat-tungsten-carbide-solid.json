@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-tungsten-carbide-solid",
+  "name": "Tungsten carbide (solid)",
+  "material_category": "ceramic-metal-composite",
+  "description": "Tungsten carbide (solid) named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://fluidhandlingpro.com/fluid-process-technology/fluid-process-control-valves/optimizing-offshore-operations-choosing-valves-for-water-injection-and-overboard-dump-systems",
+        "source_id": "whp-fluidhandlingpro-com-optimizing-offshore-operations-choosi"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-overboard-dump-valves-and-esd-initiated-isolation-of-all-wells-and-pip"
+  ],
+  "sources": [
+    {
+      "url": "https://fluidhandlingpro.com/fluid-process-technology/fluid-process-control-valves/optimizing-offshore-operations-choosing-valves-for-water-injection-and-overboard-dump-systems",
+      "source_id": "whp-fluidhandlingpro-com-optimizing-offshore-operations-choosi"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

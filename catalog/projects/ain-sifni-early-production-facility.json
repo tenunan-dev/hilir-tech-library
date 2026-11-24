@@ -1,0 +1,24 @@
+{
+  "id": "ain-sifni-early-production-facility",
+  "name": "Ain Sifni early production facility",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Iraq (Kurdistan Region)",
+  "location": "Iraq (Kurdistan Region)",
+  "status": "operating",
+  "description": "SPEC scope included utility systems (including chemical injection) alongside process equipment (page read).",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+      "source_id": "specoilandgas-com-ancillary-equipment-utilities",
+      "note": "SPEC scope included utility systems (including chemical injection) alongside process equipment (page read)."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (2. Production Process Systems)."
+}

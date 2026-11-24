@@ -32,8 +32,7 @@
   "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
   "sources": [
     {
-      "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
-      "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     }
   ],
   "notes": "Fetched Zeeco pages directly with WebFetch (markdown). Valve train is described as part of scope, not a standalone named product line with printed specs.",

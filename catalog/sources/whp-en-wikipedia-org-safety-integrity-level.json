@@ -1,0 +1,26 @@
+{
+  "id": "whp-en-wikipedia-org-safety-integrity-level",
+  "name": "Wikipedia Safety integrity level",
+  "url": "https://en.wikipedia.org/wiki/Safety_Integrity_Level",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "INS"
+  ],
+  "subtopics": [
+    "Page read; IEC EN 61508 PFD/PFH and RRF tables printed"
+  ],
+  "publisher_org": "Wikipedia",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Page read; IEC EN 61508 PFD/PFH and RRF tables printed"
+}

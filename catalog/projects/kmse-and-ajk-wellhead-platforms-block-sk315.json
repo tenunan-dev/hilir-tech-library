@@ -1,0 +1,24 @@
+{
+  "id": "kmse-and-ajk-wellhead-platforms-block-sk315",
+  "name": "KMSE and AJK wellhead platforms, Block SK315",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "PETRONAS Carigali client; Tarpon detailed design, fabrication, transport and installation of relocatable WHPs in 70-85 m water.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+      "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe",
+      "note": "PETRONAS Carigali client; Tarpon detailed design, fabrication, transport and installation of relocatable WHPs in 70-85 m water."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (6. Structural and Marine Systems)."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "timi-unmanned-wellhead-platform",
+  "name": "Timi unmanned wellhead platform",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Solar-wind hybrid powers safety instrumented system/fire and gas system, process control system, telecommunications, wellhead control panel and wells equipment; total daily energy demand 73.6 kWh, average load 3 kW; first gas Aug 2023 reported on Shell news pages (not fetched here)",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+      "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma",
+      "note": "Solar-wind hybrid powers safety instrumented system/fire and gas system, process control system, telecommunications, wellhead control panel and wells equipment; total daily energy demand 73.6 kWh, average load 3 kW; firs"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (4. Control, Safety and Communication Systems)."
+}

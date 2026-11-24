@@ -1,0 +1,72 @@
+{
+  "id": "whp-instrument-utility-air-compressors-receivers-and-dryers",
+  "name": "Instrument/utility air compressors, receivers and dryers",
+  "equipment_type": "whp-utility",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Instrument/utility air packages comprise rotary-screw, oil-free screw or reciprocating compressors, knock-out drum, filters, refrigerated or adsorption dryers, receiver tanks, piping, instrumentation and valves. Instrument air must be dry and oil-free and is typically distributed at 6 bar (100 psig).",
+  "aliases": [
+    "Instrument/utility air compressors, receivers and dryers"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Instrument air package - compressor, KO  — Instrument air mains pressure",
+      "unit": "bar",
+      "basis": "Air normally distributed at a mains pressure of 6 bar (100 psig)",
+      "value": 6,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      }
+    },
+    {
+      "metric": "Price — Cost of drying air for instrument air",
+      "unit": "USD per standard m3",
+      "basis": "Drying the air, for example for instrument air, typically adds about $0.005 per standard m 3 ($0.14/1000 scf) - Chemical Engineering Design 2nd ed., ©2013, no separate dollar year stated; dollar year 2013.",
+      "low": 0.005,
+      "high": 0.005,
+      "year": 2013,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-booksite-elsevier-com"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    },
+    {
+      "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+      "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Instrument/utility air",
+      "why": "No instrument-air dew point class (e.g. ISO 8573) or air-quality standard page was read",
+      "next_action": "Fetch ISO 8573 (or equivalent) publisher page and an OEM dryer datasheet with pressure dew point"
+    },
+    {
+      "what": "Instrument/utility air",
+      "why": "No receiver volume, compressor FAD or dryer capacity specifically for a WHP was found",
+      "next_action": "Fetch a named WHP utility design basis or OEM instrument-air skid datasheet"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (3. Utility Systems). Nine Section-3 utility items were researched against pages actually read. Strongest primary evidence: Shell TechXplorer Digest (Timi/Gorek hybrid solar-wind-battery: 14 kWp/80 m2 array, 73.6 kWh/day, ",
+  "last_reviewed": "2026-11-24"
+}

@@ -32,8 +32,7 @@
   "url": "https://www.forneycorp.com/burner-management-systems",
   "sources": [
     {
-      "url": "https://www.forneycorp.com/burner-management-systems",
-      "source_id": "forneycorp-com-burner-management-systems"
+      "url": "https://www.forneycorp.com/burner-management-systems"
     }
   ],
   "notes": "Fetched BMS page directly with WebFetch (markdown). Linked BMS brochure PDF not opened.",

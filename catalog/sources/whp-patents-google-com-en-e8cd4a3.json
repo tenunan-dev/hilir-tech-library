@@ -1,0 +1,27 @@
+{
+  "id": "whp-patents-google-com-en-e8cd4a3",
+  "name": "US6981848B1 Methanol injection system and method to prevent freezing of a natural gas pipeline",
+  "url": "https://patents.google.com/patent/US6981848B1/en",
+  "source_type": "patents",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE",
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "patent publication",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Patent read in the WHP sweep: Methanol injection system and method to prevent freezing of a natural gas pipeline; assignee PGI International Ltd (current assignee Parker Hannifin Corp); Priority/filing 1996-02-29, publication/grant 2006-01-03, expired fee related; gas-pressure-powered injection pump with temperature and flow sensing. Page read 2026-11-24.",
+  "publisher_org": "Google Patents (patent office bibliographic data)"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-lexan-920",
+  "name": "Lexan 920",
+  "material_category": "polymer-detector-enclosure",
+  "description": "Lexan 920 named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+        "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-fire-and-gas"
+  ],
+  "sources": [
+    {
+      "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+      "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

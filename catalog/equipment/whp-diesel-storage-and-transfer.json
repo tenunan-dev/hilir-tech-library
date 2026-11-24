@@ -1,0 +1,193 @@
+{
+  "id": "whp-diesel-storage-and-transfer",
+  "name": "Diesel storage and transfer",
+  "equipment_type": "whp-utility",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Bulk marine gasoil is bunkered from shore/vessel to the installation, held in storage and day tanks, and transferred to emergency gensets, fire pumps and crane engines. The read guidance sets fuel quality, microbial and water limits, tank inspection and bunkering controls; JIP33 S-714/S-721 give day-tank and fuel-system design requirements.",
+  "aliases": [
+    "Diesel storage and transfer (fuel for emergency gensets and cranes)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Marine gasoil (MGO) bulk storage and day — Maximum sulphur content (SECA)",
+      "unit": "%",
+      "basis": "Offshore Installations in the North Sea fall within a Sulphur Emission Control Area (SECA) that limits ships to use fuel with a maximum sulphur content of 0.1%",
+      "value": 0.1,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+      }
+    },
+    {
+      "metric": "Marine gasoil (MGO) bulk storage and day — Minimum flash point",
+      "unit": "degC",
+      "basis": "According to the International Convention for Safety of Life at Sea (SOLAS) the Flash Point must be a minimum of 60°C",
+      "value": 60,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+      }
+    },
+    {
+      "metric": "Marine gasoil (MGO) bulk storage and day — Pour point, summer / winter",
+      "unit": "degC",
+      "basis": "This is 0°C in summer and -6°C in winter",
+      "low": -6,
+      "high": 0,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+      }
+    },
+    {
+      "metric": "Marine gasoil (MGO) bulk storage and day — Cold filter plugging point, summer / winter (BS 2869)",
+      "unit": "degC",
+      "basis": "The BS:2869 specification is -4°C in Summer and -12°C in Winter",
+      "low": -12,
+      "high": -4,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+      }
+    },
+    {
+      "metric": "Marine gasoil (MGO) bulk storage and day — Maximum fuel retained onboard before testing",
+      "unit": "days",
+      "basis": "fuel is not retained onboard for more than 30 days",
+      "value": 30,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+      }
+    },
+    {
+      "metric": "Marine gasoil (MGO) bulk storage and day — Day tank minimum operating level above fuel injection pump inlet",
+      "unit": "mm",
+      "basis": "The day tank minimum operating level shall be 300 mm (12 in) above inlet of the fuel injection pump where a positive static head is required",
+      "value": 300,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Reliability — Water content - negligible / moderate / heavy",
+      "unit": "mg/kg",
+      "basis": "Water content (e.g. by IP438): Negligible <100 mg/kg; Moderate 100 - 200 mg/kg; Heavy >200 mg/kg",
+      "low": 100,
+      "high": 200,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+      }
+    },
+    {
+      "metric": "Reliability — Total viable count of culturable bacteria/yeasts/moulds",
+      "unit": "CFU/Litre",
+      "basis": "Total Viable Count of culturable bacteria, yeasts and/or moulds (e.g. by IP385 / ASTM D6974 or IP613): Negligible <10^4 CFU/Litre; Moderate 10^4 - 10^5 CFU/Litre; Heavy >10^5 CFU/Litre",
+      "low": 10000,
+      "high": 100000,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+      }
+    },
+    {
+      "metric": "Price — Diesel standby fuel infrastructure - day tank",
+      "unit": "USD",
+      "basis": "a day tank (2,000–8,000) ... fuel infrastructure cost ranges, 2026 vendor pricing guide; dollar year 2026.",
+      "low": 2000,
+      "high": 8000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — Diesel standby fuel infrastructure - bulk storage tank",
+      "unit": "USD",
+      "basis": "bulk storage tank (8,000–60,000+ depending on capacity); dollar year 2026.",
+      "low": 8000,
+      "high": 60000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — Fuel infrastructure for 500 kW / 72 h autonomy",
+      "unit": "USD",
+      "basis": "For a 500 kW facility requiring 72 hours of autonomous runtime, fuel infrastructure can add 25,000–50,000 to the total project; dollar year 2026.",
+      "low": 25000,
+      "high": 50000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — Diesel fuel cost",
+      "unit": "USD/kWh",
+      "basis": "Fuel cost per kWh - Diesel Standby: 0.08–0.15; dollar year 2026.",
+      "low": 0.08,
+      "high": 0.15,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-marine-safety-forum"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+    },
+    {
+      "url": "https://zccpower.com/commercial-standby-generator-cost",
+      "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+    },
+    {
+      "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+    },
+    {
+      "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+      "source_id": "whp-pdhonline-com-m332content-pdf"
+    },
+    {
+      "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+      "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diesel storage and transfer",
+      "why": "No WHP-specific diesel storage tank capacity, day-tank volume or transfer-pump duty/head was found in the pages read",
+      "next_action": "Fetch a named WHP/BEP design basis or utility specification with tank sizes and pump ratings"
+    },
+    {
+      "what": "Diesel storage and transfer",
+      "why": "No vendor datasheet for an offshore-rated diesel transfer pump or bunkering skid was read",
+      "next_action": "Fetch an OEM fuel-transfer-pump datasheet with flow, head and material specs"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (3. Utility Systems). Nine Section-3 utility items were researched against pages actually read. Strongest primary evidence: Shell TechXplorer Digest (Timi/Gorek hybrid solar-wind-battery: 14 kWp/80 m2 array, 73.6 kWh/day, ",
+  "last_reviewed": "2026-11-24"
+}

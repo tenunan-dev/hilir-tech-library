@@ -1,0 +1,81 @@
+{
+  "id": "whp-helideck",
+  "name": "Helideck",
+  "equipment_type": "whp-structural-marine",
+  "sector": "CIV",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "CIV"
+  ],
+  "description": "The read sources treat a helipad/helideck as an appurtenance: an NUI is described as little more than a well bay, helipad and emergency shelter; US4679964A describes a cantilevered helideck on single- or multi-well conductor-supported configurations; US4932811A describes an upper heliport deck carried by piles around a caisson. No page read in this sweep stated a helideck D-value, load classification, obstacle-free sector or a visit-frequency rule, and the CAP 437 PDF was refused.",
+  "aliases": [
+    "Helideck (only on platforms with regular crewed visits)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "List membership",
+      "value": "Recorded from the Mistral-chat WHP component list",
+      "basis": "Item listed in the source chat; no numeric specification was found in the pages read.",
+      "source": {
+        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
+        "note": "Mistral chat, Wellhead platform components overview (read 2026-11-24)"
+      },
+      "unit": "n/a"
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-wikipedia-wikimedia-foundation"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Normally_unmanned_installation",
+      "source_id": "whp-en-wikipedia-org-normally-unmanned-installation"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4679964A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4932811A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+      "source_id": "offshore-technology-com-projects-kebabangan-field"
+    },
+    {
+      "url": "https://www.caa.co.uk/publication/download/14788"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Helideck D-value, load class and obstacle-free sectors",
+      "why": "UK CAA CAP 437 PDF was refused by WebFetch (application/pdf); no figures asserted from it.",
+      "next_action": "Read an HTML CAP 437 / ICAO helideck page, or fetch the PDF by another method, then record sections and values."
+    },
+    {
+      "what": "Visit frequency rule for crewed visits",
+      "why": "The read pages say \"occasionally\" or \"regular visits\" but give no numeric interval; the fortnightly-visit statement in the source chat was not verified.",
+      "next_action": "Find an operator or regulator page stating the actual visit interval for Malaysian WHPs."
+    },
+    {
+      "what": "Malaysian helideck aviation standard",
+      "why": "No Malaysian CAAP/CAAM helideck page was read successfully.",
+      "next_action": "Locate and read the applicable Malaysian offshore helideck standard page."
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (6. Structural and Marine Systems). Six structural/marine WHP items were researched from pages actually read with WebFetch. Evidence-first findings: a fixed steel jacket is a pile-founded braced tubular substructure carrying the topside",
+  "last_reviewed": "2026-11-24"
+}

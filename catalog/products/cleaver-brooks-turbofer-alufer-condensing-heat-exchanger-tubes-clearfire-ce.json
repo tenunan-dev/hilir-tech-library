@@ -32,8 +32,7 @@
   "url": "https://cleaverbrooks.com/product/cfce",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/cfce",
-      "source_id": "cleaverbrooks-com-product-cfce"
+      "url": "https://cleaverbrooks.com/product/cfce"
     }
   ],
   "notes": "Fetched ClearFire-CE product page directly with WebFetch (markdown).",

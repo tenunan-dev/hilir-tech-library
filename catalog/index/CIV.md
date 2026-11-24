@@ -1,10 +1,12 @@
 # CIV: Civil and structural
 
-568 sources. Sub-topics: structural-steel, foundations-piling, pipe-racks, modular-construction, ibs, offshore-structures, floating-structures, concrete, blast-resistance, fireproofing, seismic, temporary-works-lifting.
+596 sources. Sub-topics: structural-steel, foundations-piling, pipe-racks, modular-construction, ibs, offshore-structures, floating-structures, concrete, blast-resistance, fireproofing, seismic, temporary-works-lifting.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
 | [2H Offshore](https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [2H Offshore — Minimum Facility Platforms](https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms) | oem-supplier | apac, global | open | summary-only |
+| [2H Offshore — Monopile Wellhead Platforms](https://2hoffshore.com/sectors/oil-and-gas/platforms/monopile-wellhead-platforms) | oem-supplier | global, apac | open | summary-only |
 | [2Hoffshore.Com — D18 Phase 2 and D28 Phase 1 conductor-supported platfor](https://2hoffshore.com/about/news/2h-offshore-installs-its-eighth-conductor-supported-platform-offshore-malaysia) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [ABB Wellhead Management System](https://library.e.abb.com/public/87968d164d3140ebaf6301f8c4a17019/PB_2102736-EN_B_WEB.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [ABS](https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/offshore/243_guidance_notes_subsea_hybrid_riser_systems_2017/Hybrid_Riser_GN_e-Jan17.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -84,6 +86,7 @@
 | [CDI Oil & Gas](https://www.cdiog.com/wellhead-production-equipment/christmas-tree) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [CECO Environmental (Peerless Separation & Filtration)](https://www.cecoenviro.com/products/deoiling-hydrocyclones) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Cimarron](https://cimarron.com/solutions/production-and-processing/teg-dehydration/) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [CN103758095A — Offshore jacket production platform](https://patents.google.com/patent/CN103758095A/en) | patents | apac | open | full-text-open |
 | [Cnpc.Com.Cn — JZ9-3 (Bohai Bay, China)](https://www.cnpc.com.cn/cnpc/gcdx/201507/4e39a22c7cc945b792d7231df2b21e91/files/4a13bd9d4d5b4bd4b8acbc75d01ac9a3.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Cometto.Com — Cometto MSPE axle load range](https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter) | oem-supplier | global, apac, sea | open | summary-only |
 | [COOEC](https://www.cnoocengineering.com/english/Solutions/Yards) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
@@ -553,6 +556,7 @@
 | [Malampaya Deep Water Gas-to-Power Project — cost](https://www.officialgazette.gov.ph/2012/01/24/malampaya-consortium-remits-1-134-b-to-government) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [Malampaya Deep Water Gas-to-Power Project — cost](https://www.ogj.com/drilling-production/production-operations/article/17261643/oct-1-startup-due-for-malampaya-gas-field-project-off-philippines) | trade-media | global, apac, na, eu | open | summary-only |
 | [Malampaya Deep Water Gas-to-Power Project — cost](https://sarpn.org/documents/d0002569/7-WRI_Community_dev_May2007.pdf) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Normally unmanned installation](https://en.wikipedia.org/wiki/Normally_unmanned_installation) | oem-supplier | global, sea | open | full-text-open |
 | [Petronius platform — cost](https://www.offshore-technology.com/projects/petronius/) | trade-media | global, apac, na, eu | open | summary-only |
 | [PFLNG DUA (PETRONAS Floating LNG 2) — cost](https://lng2030.com/project/lng_223) | trade-media | global, apac, na, eu | open | summary-only |
 | [PNG LNG Project — cost](https://chemanager-online.com/en/news/exxon-s-png-lng-project-costs-balloon-to-19-billion) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
@@ -568,7 +572,31 @@
 | [Tangguh LNG Train 3 Expansion — cost](https://www.offshore-technology.com/projects/tangguh-expansion-project-papua-barat/) | trade-media | global, apac, na, eu | open | summary-only |
 | [Tangguh LNG Train 3 Expansion — cost](https://www.wsj.com/articles/SB10001424052970204712904578094051528788578) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [Yme field redevelopment (MOPUstor) and Yme New Development — cost](https://www.offshore-technology.com/projects/ymeegersundbasin/) | trade-media | global, apac, na, eu | open | summary-only |
+| [2H Offshore — Addressing Integrity Issues on Ageing Platform Conductors (webinar, 28 Oct 2020)](https://2hoffshore.com/knowledge/addressing-integrity-issues-on-ageing-platform-conductors) | oem-supplier | global | open | summary-only |
+| [AU2015261530B2 Subsea universal Xmas tree hang-off adapter](https://patents.google.com/patent/AU2015261530B2/en) | patents | global | open | summary-only |
+| [CN113162215B Emergency power supply system and control method for replacing offshore platform diesel generator system](https://patents.google.com/patent/CN113162215B/en) | patents | global | open | summary-only |
+| [Delivering Quality Potable Water to Offshore Installations, Issue 2, 18 July 2013](https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf) | standards-body | eu, global | open | summary-only |
+| [Electrical Design Considerations for Offshore Installations (IEEE Houston PCIC seminar)](https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf) | standards-body | na, global | open | summary-only |
+| [IEC 61511](https://en.wikipedia.org/wiki/IEC_61511) | standards-body | global | open | summary-only |
+| [ISO 10423:2009 (withdrawn)](https://www.iso.org/standard/42757.html) | standards-body | global | open | summary-only |
+| [NFPA 30](https://www.pdhonline.com/courses/m332/m332content.pdf) | standards-body | global | open | summary-only |
+| [NFPA 37](https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf) | standards-body | global | open | summary-only |
+| [US20120273228A1 Integrated Choke Manifold System for Use in A Well Application](https://patents.google.com/patent/US20120273228A1/en) | patents | global | open | summary-only |
+| [US20220069575A1 Power supply system for an offshore platform](https://patents.google.com/patent/US20220069575A1/en) | patents | global | open | summary-only |
+| [US4135949A Safety interlock for pipeline pig launcher and receiver](https://patents.google.com/patent/US4135949A/en) | patents | global | open | summary-only |
+| [US4237936A Pig trap closure](https://patents.google.com/patent/US4237936A/en) | patents | global | open | summary-only |
+| [US4679964A Offshore well support miniplatform](https://patents.google.com/patent/US4679964A/en) | patents | global | open | summary-only |
+| [US4932811A Well head conductor and/or caisson support system](https://patents.google.com/patent/US4932811A/en) | patents | global | open | summary-only |
+| [US5513929A Fixed offshore platform structures, using small diameter, tensioned, well casing tiebacks](https://patents.google.com/patent/US5513929A/en) | patents | global | open | summary-only |
+| [US6805200B2 Horizontal spool tree wellhead system and method](https://patents.google.com/patent/US6805200B2/en) | patents | global | open | summary-only |
+| [US6981848B1 Methanol injection system and method to prevent freezing of a natural gas pipeline](https://patents.google.com/patent/US6981848B1/en) | patents | global | open | summary-only |
+| [US7069874B2 Davit-launched life raft](https://patents.google.com/patent/US7069874B2/en) | patents | global | open | summary-only |
+| [WO2008045381A2 Dual subsea production chokes for high pressure well production](https://patents.google.com/patent/WO2008045381A2/en) | patents | global | open | summary-only |
+| [WO2013122479A1 Lifeboat winch with a redundant braking system](https://patents.google.com/patent/WO2013122479A1/en) | patents | global | open | summary-only |
+| [WO2016067222A1 Additive management system](https://patents.google.com/patent/WO2016067222A1/en) | patents | global | open | summary-only |
+| [WO2018052314A1 Optimising fire protection for an offshore platform](https://patents.google.com/patent/WO2018052314A1/en) | patents | global | open | summary-only |
 | [CB&I (McDermott) technologies](https://www.cbi.com) | licensor | global | open | full-text-restricted |
 | [Construction Industry Institute (CII)](https://www.construction-institute.org) | association | global | mixed | catalog-only |
 | [CSI Spring Support and Strut Selection Guide](https://www.csidesigns.com/PDFs/SSSguide.pdf) | oem-supplier | global | open | catalog-only (unverified) |
+| [Oil platform (offshore platform)](https://en.wikipedia.org/wiki/Offshore_platform) | oem-supplier | global | open | full-text-open |
 | [UK Health and Safety Executive (HSE)](https://www.hse.gov.uk/electricity/) | agency-data | eu | open | summary-only |

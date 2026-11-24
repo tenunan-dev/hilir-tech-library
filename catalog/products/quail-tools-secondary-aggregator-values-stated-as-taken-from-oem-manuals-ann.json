@@ -103,8 +103,7 @@
   "url": "https://www.quailtools.com/BOPSpecSheets.html",
   "sources": [
     {
-      "url": "https://www.quailtools.com/BOPSpecSheets.html",
-      "source_id": "cat-quailtools-com-bopspecsheets-html"
+      "url": "https://www.quailtools.com/BOPSpecSheets.html"
     }
   ],
   "notes": "SECONDARY SOURCE, NOT OEM. Page explicitly states: 'Drawings and information contained herein are for general purposes only and is not intended to replace OEM data... All values are from OEM's most current operation / maintenance / user's manual, as of spec binders published date.' Use as search/aggregation evidence only; confirm against an OEM data sheet before engineering use.",

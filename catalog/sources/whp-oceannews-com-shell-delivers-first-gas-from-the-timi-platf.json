@@ -1,0 +1,27 @@
+{
+  "id": "whp-oceannews-com-shell-delivers-first-gas-from-the-timi-platf",
+  "name": "Shell Delivers First Gas From The Timi Platform In Malaysia",
+  "url": "https://oceannews.com/news/energy/shell-delivers-first-gas-from-the-timi-platform-in-malaysia",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "HTML article read directly with WebFetch on 2026-11-24; dated 28 August 2023."
+  ],
+  "publisher_org": "Ocean News & Technology",
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. HTML article read directly with WebFetch on 2026-11-24; dated 28 August 2023."
+}

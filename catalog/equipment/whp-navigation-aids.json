@@ -1,0 +1,185 @@
+{
+  "id": "whp-navigation-aids",
+  "name": "Navigation aids",
+  "equipment_type": "whp-control-safety-comms",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Offshore structures are marked as a single unit, block or field under IALA G1162: white main/secondary lanterns flashing Morse U, red subsidiary lights, ID panels, fog signals, racon and optional aviation obstruction lighting.",
+  "aliases": [
+    "Navigation aids (fog horn, marine lanterns, aircraft obstruction lighting, racon/marine radar transponder)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Main and secondary marine lanterns (IALA — Main/secondary light range",
+      "unit": "nautical miles",
+      "basis": "Intensity range 10 nm (main and secondary lights)",
+      "value": 10,
+      "source": {
+        "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+        "source_id": "whp-msmoffshore-com"
+      }
+    },
+    {
+      "metric": "Main and secondary marine lanterns (IALA — Subsidiary light range",
+      "unit": "nautical miles",
+      "basis": "Flashing red light, Morse U every 15 secs, intensity range 3 nm",
+      "value": 3,
+      "source": {
+        "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+        "source_id": "whp-msmoffshore-com"
+      }
+    },
+    {
+      "metric": "Fog signal (main/secondary) — Main sound range",
+      "unit": "nautical miles",
+      "basis": "Sound range 2 nm in any direction (MAIN)",
+      "value": 2,
+      "source": {
+        "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+        "source_id": "whp-msmoffshore-com"
+      }
+    },
+    {
+      "metric": "Fog signal (main/secondary) — Secondary sound range",
+      "unit": "nautical miles",
+      "basis": "Minimum sound range 1/2 nm in any direction (SECONDARY)",
+      "value": 0.5,
+      "source": {
+        "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+        "source_id": "whp-msmoffshore-com"
+      }
+    },
+    {
+      "metric": "Fog signal (main/secondary) — Independent power autonomy",
+      "unit": "h",
+      "basis": "Autonomy 96h for a power source independent",
+      "value": 96,
+      "source": {
+        "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+        "source_id": "whp-msmoffshore-com"
+      }
+    },
+    {
+      "metric": "Phalcon-EX-SS Zone 1 racon — Weight",
+      "unit": "kg",
+      "basis": "Mechanical Specification: Weight 20 kg",
+      "value": 20,
+      "source": {
+        "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+        "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+      }
+    },
+    {
+      "metric": "Phalcon-EX-SS Zone 1 racon — Input voltage",
+      "unit": "VDC",
+      "basis": "Electrical Specification: Input Voltage 9-36V DC",
+      "low": 9,
+      "high": 36,
+      "source": {
+        "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+        "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+      }
+    },
+    {
+      "metric": "Phalcon-EX-SS Zone 1 racon — Average power",
+      "unit": "W",
+      "basis": "Average Power 3W, based on traffic",
+      "value": 3,
+      "source": {
+        "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+        "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+      }
+    },
+    {
+      "metric": "Phalcon-EX-SS Zone 1 racon — Antenna gain",
+      "unit": "dBi",
+      "basis": "Antenna Gain: X-band 5dBi, S-band 3dBi",
+      "low": 3,
+      "high": 5,
+      "source": {
+        "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+        "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+      }
+    },
+    {
+      "metric": "Zone 1 Nav Aid Skid System — Battery backup autonomy",
+      "unit": "h",
+      "basis": "Skid includes 10NM lantern, 2NM/0.5NM fog signal, fog detector and battery backup; calculated autonomy of 96 hours",
+      "value": 96,
+      "source": {
+        "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+        "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+      }
+    },
+    {
+      "metric": "Zone 1 Nav Aid Skid System — FA-250 10NM lantern power",
+      "unit": "W average",
+      "basis": "FA-250 10NM: 20W LED array providing flashing 10NM Morse U white light; Average power 3.33W",
+      "value": 3.33,
+      "source": {
+        "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+        "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+      }
+    },
+    {
+      "metric": "Zone 1 Nav Aid Skid System — ICAO Type A obstruction light",
+      "unit": "W DC",
+      "basis": "ICAO TYPE A: 3W DC, 3.5W AC, 10cd, Red LED array aviation light",
+      "value": 3,
+      "source": {
+        "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+        "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Independent power autonomy",
+      "unit": "h",
+      "basis": "IALA G1162 main/secondary fog signal autonomy for independent power source",
+      "value": 96,
+      "source": {
+        "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+        "source_id": "whp-msmoffshore-com"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-msm-offshore"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+      "source_id": "whp-msmoffshore-com"
+    },
+    {
+      "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+      "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+    },
+    {
+      "url": "https://orga.nl/aids-to-navigation/marine-foghorns/fh800ex-3/"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Navigation aids",
+      "why": "No Malaysia-specific WHP AtoN inventory or helideck lighting layout from an actual page read",
+      "next_action": "Find an operator AtoN schedule with printed ranges and autonomy"
+    },
+    {
+      "what": "Navigation aids",
+      "why": "No USD price for a complete Zone 1 nav-aid skid found",
+      "next_action": "Obtain a priced skid quotation with dollar year"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (4. Control, Safety and Communication Systems). Six Section-4 WHP control/safety/comms items were researched from pages and PDFs actually read. Verified evidence: Offshore Norge guideline 070 rev 06 (PDF text extracted) assigns SIL 3 to ESD isolati",
+  "last_reviewed": "2026-11-24"
+}

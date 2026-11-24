@@ -1,0 +1,93 @@
+{
+  "id": "whp-chokes-and-choke-manifolds",
+  "name": "Chokes and choke manifolds",
+  "equipment_type": "whp-production-process",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Choke valves and choke manifolds provide well isolation, flow routing and flow control on trees and manifolds. A choke is described as the smallest restriction in a Christmas tree, used to control production rate (and in some cases sand production), with two types: positive chokes with interchangeable beans and adjustable chokes. Master valves are normally fully open and not operated while flowing; the lower master is normally manual, the upper often hydraulically actuated for remote shut-in, an",
+  "aliases": [
+    "Chokes and choke manifolds (manual and actuated)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Choke valve (positive/bean and adjustabl — Conventional choke-manifold circuit arrangement",
+      "unit": "choke circuits",
+      "basis": "US20120273228A1 background: conventionally 'at least two choke circuits in which two adjustable chokes are arranged such that one adjustable choke may be isolated and taken out of service for repair and refurbishment while well flow is directed through the other'",
+      "value": 2,
+      "source": {
+        "url": "https://patents.google.com/patent/US20120273228A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Choke valve (positive/bean and adjustabl — Series subsea production choke pressure-difference capability",
+      "unit": "psi",
+      "basis": "WO2008045381A2 claims 5-6: difference between well pressure and riser pressure 'greater than 4500 psi' / 'greater than 5500 psi'; patent states pressure difference between chokes typically less than 4000 psi, more typically less than 2500 psi",
+      "low": 4500,
+      "high": 5500,
+      "source": {
+        "url": "https://patents.google.com/patent/WO2008045381A2/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Choke valve (positive/bean and adjustabl — Combined choke flow coefficient range (two chokes in series)",
+      "unit": "GPM*psi^0.5",
+      "basis": "WO2008045381A2 claim 9: 'combined range of Cv of between 1.2 and 0.05 GPM*psi0 5' (most preferred 1.0 to 0.1 in claim 10)",
+      "low": 0.05,
+      "high": 1.2,
+      "source": {
+        "url": "https://patents.google.com/patent/WO2008045381A2/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "aker-solutions",
+    "velan",
+    "flowserve"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/",
+      "source_id": "sys-drillingformulas-com"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+    },
+    {
+      "url": "https://patents.google.com/patent/US20120273228A1/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/WO2008045381A2/en",
+      "source_id": "whp-patents-google-com-en"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Choke valve bore sizes, Cv and actuator thrust for named tree models",
+      "why": "Named OEM choke datasheets not fetched",
+      "next_action": "Fetch datasheets and record printed ranges with basis"
+    },
+    {
+      "what": "Failure rate (per demand/hour) and proof-test interval for production chokes",
+      "why": "No reliability database page read",
+      "next_action": "Record numeric rates only from a page actually read"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (2. Production Process Systems). Eight Section-2 wellhead production-process items were researched against pages actually read with WebFetch. Verified primary evidence includes: TechnipFMC rigid-pipeline (4-18 in; >1,100 km pipe-in-p",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "whp-webstore-iec-ch-61289",
+  "name": "IEC 61511-1:2016+AMD1:2017 CSV",
+  "url": "https://webstore.iec.ch/en/publication/61289",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR",
+    "REF",
+    "GAS"
+  ],
+  "disciplines": [
+    "INS",
+    "HSE"
+  ],
+  "subtopics": [
+    "Title and scope read from IEC Webstore; standard text not read"
+  ],
+  "publisher_org": "IEC",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "paywalled",
+  "licence": "IEC copyright",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Title and scope read from IEC Webstore; standard text not read"
+}

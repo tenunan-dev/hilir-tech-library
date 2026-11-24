@@ -1,0 +1,29 @@
+{
+  "id": "whp-tdl-ia-com-offshore-platform-fso-automation-html",
+  "name": "Automation for Offshore Platforms and FSOs",
+  "url": "https://www.tdl-ia.com/offshore-platform-fso-automation.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS",
+    "UPS"
+  ],
+  "disciplines": [
+    "INS",
+    "DIG"
+  ],
+  "subtopics": [
+    "Project years and platform names read directly from page"
+  ],
+  "publisher_org": "TDL Industrial Automation Company Limited",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "site copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Project years and platform names read directly from page"
+}

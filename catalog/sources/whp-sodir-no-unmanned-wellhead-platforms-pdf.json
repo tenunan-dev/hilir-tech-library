@@ -1,0 +1,27 @@
+{
+  "id": "whp-sodir-no-unmanned-wellhead-platforms-pdf",
+  "name": "Unmanned Wellhead Platforms - UWHP Summary Report (Ramboll/NPD, March 2016)",
+  "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ELE",
+    "HSE"
+  ],
+  "subtopics": [
+    "27-page PDF text read via r.jina.ai reader on 2026-11-24."
+  ],
+  "publisher_org": "Ramboll for Norwegian Petroleum Directorate",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "Ramboll/NPD copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. 27-page PDF text read via r.jina.ai reader on 2026-11-24."
+}

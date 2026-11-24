@@ -1,0 +1,568 @@
+{
+  "id": "ups-whp-production-process-systems",
+  "name": "Wellhead platform production process systems",
+  "aliases": [
+    "Wellhead platform production process systems"
+  ],
+  "sector": "UPS",
+  "category": "Offshore wellhead platforms",
+  "applications": [
+    "offshore Malaysia wellhead platform",
+    "minimum-facility normally unmanned platform"
+  ],
+  "maturity": "commercial",
+  "principle": "Wellhead platform production process systems: manifolds, chokes, pig traps, chemical injection, drains, vents and sampling. Sourced from pages read in the 2026-11-24 WHP component sweep.",
+  "process_steps": [
+    {
+      "id": "PRODUCTION_MANIFOL",
+      "name": "Production manifold / headers with production and test headers to commingle flui",
+      "equipment": [
+        "Production manifold / headers with production and test headers to commingle flui"
+      ]
+    },
+    {
+      "id": "CHOKES_AND_CHOKE_M",
+      "name": "Chokes and choke manifolds",
+      "equipment": [
+        "Chokes and choke manifolds"
+      ]
+    },
+    {
+      "id": "PIG_LAUNCHER_RECEI",
+      "name": "Pig launcher / receiver for the export pipeline",
+      "equipment": [
+        "Pig launcher / receiver for the export pipeline"
+      ]
+    },
+    {
+      "id": "EXPORT_RISERS_AND",
+      "name": "Export risers and subsea pipeline tie-ins to the CPP or FSO",
+      "equipment": [
+        "Export risers and subsea pipeline tie-ins to the CPP or FSO"
+      ]
+    },
+    {
+      "id": "CHEMICAL_INJECTION",
+      "name": "Chemical injection system",
+      "equipment": [
+        "Chemical injection system"
+      ]
+    },
+    {
+      "id": "CLOSED_DRAIN_SYSTE",
+      "name": "Closed drain system and open/slop drain with sump caisson",
+      "equipment": [
+        "Closed drain system and open/slop drain with sump caisson"
+      ]
+    },
+    {
+      "id": "VENTS_FLARE_TIP",
+      "name": "Vents / flare tip",
+      "equipment": [
+        "Vents / flare tip"
+      ]
+    },
+    {
+      "id": "SAMPLING_CONNECTIO",
+      "name": "Sampling connections and gauging",
+      "equipment": [
+        "Sampling connections and gauging"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "Production manifold / headers with production and test headers to commingle fluids",
+    "Chokes and choke manifolds",
+    "Pig launcher / receiver for the export pipeline",
+    "Export risers and subsea pipeline tie-ins to the CPP or FSO",
+    "Chemical injection system",
+    "Closed drain system and open/slop drain with sump caisson",
+    "Vents / flare tip",
+    "Sampling connections and gauging"
+  ],
+  "suppliers": [
+    {
+      "name": "TechnipFMC (CDS Separation Systems)"
+    },
+    {
+      "name": "Baker Hughes"
+    },
+    {
+      "name": "Aker Solutions"
+    },
+    {
+      "name": "TechnipFMC (CDS Separation Systems)"
+    },
+    {
+      "name": "Aker Solutions"
+    },
+    {
+      "name": "Velan"
+    },
+    {
+      "name": "Flowserve"
+    },
+    {
+      "name": "Aker Solutions"
+    },
+    {
+      "name": "TechnipFMC (CDS Separation Systems)"
+    },
+    {
+      "name": "Baker Hughes"
+    },
+    {
+      "name": "Aker Solutions"
+    },
+    {
+      "name": "American Bureau of Shipping"
+    },
+    {
+      "name": "ChampionX"
+    },
+    {
+      "name": "Clariant"
+    },
+    {
+      "name": "Allmarc Industries"
+    },
+    {
+      "name": "John Zink (Koch Engineered Solutions)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Reliability — Choke bean erosion sensitivity",
+      "unit": "qualitative",
+      "basis": "US20120273228A1: 'The choke bean design is extremely sensitive to erosion and can be completely destroyed in only a few minutes if the well produces sand, debris, proppant or other particulates with high-speed flows through the choke' (no numeric failure rate printed)",
+      "source": {
+        "url": "https://patents.google.com/patent/US20120273228A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Reliability — Single subsea choke deterioration at high differential pressure",
+      "unit": "qualitative",
+      "basis": "WO2008045381A2: excess pressure 'as high as 5000 to 6000 psi across the production choke, rapid deterioration or even failure of the choke is likely due to the severe operating conditions at the choke trim'",
+      "source": {
+        "url": "https://patents.google.com/patent/WO2008045381A2/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 1952,
+      "source": {
+        "url": "https://patents.google.com/patent/US4135949A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+        "source_id": "technipfmc-com-rigid-pipelines"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://patents.google.com/patent/US6981848B1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 1993,
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums",
+        "source_id": "cra-energy-product-knockout-drums"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums",
+        "source_id": "cra-energy-product-knockout-drums"
+      }
+    },
+    {
+      "metric": "Reliability — MPFM calibration verification / proof-test interval",
+      "unit": "interval",
+      "basis": "Emerson Roxar 2600 FAQ: 'with a typical recommendation being yearly checks and verification. Calibration is typically verified using test separator data or sampling' — no failure rate printed",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      }
+    },
+    {
+      "metric": "Reliability — MPFM maintenance drivers",
+      "unit": "qualitative",
+      "basis": "Emerson: 'The meter has no moving parts, reducing wear and maintenance needs, and a robust design, reducing failures and the need for spare parts'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      }
+    }
+  ],
+  "costs": [],
+  "advantages": [
+    "Minimum-facility WHPs avoid onboard processing by exporting fluids to a host"
+  ],
+  "limitations": [
+    "Many component figures are not published on freely readable pages; gaps are recorded"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "sys-en-wikipedia-org-oil-platform"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+      "source_id": "technipfmc-com-manifolds"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well",
+      "note": "API Spec 6A Wellhead and Christmas tree equipment (listed on the Christmas tree page) — Production manifold / headers with produ"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well",
+      "note": "API Spec 17D Subsea wellhead and tree equipment (listed on the Christmas tree page) — Production manifold / headers with produ"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well",
+      "note": "ISO 10423:2009 Petroleum and natural gas industries — Drilling and production equipment — Wellhead and Christmas tree equipment — Production manifold / headers with produ"
+    },
+    {
+      "url": "https://www.stdhive.com/pdf_preview/api-rp-14c-pdf",
+      "source_id": "stdhive-com-pdf-preview-api-rp-14c-pdf",
+      "note": "API RP 14C, 8th ed (2017) Analysis, Design, Installation, and Testing of Safety Systems for Offshore Production Facilities — safety flow chart and scope figures — Production manifold / headers with produ"
+    },
+    {
+      "url": "https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/",
+      "source_id": "sys-drillingformulas-com"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well",
+      "note": "API Spec 6A Wellhead and Christmas tree equipment — examples of manual and actuated tree valve configurations — Chokes and choke manifolds"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well",
+      "note": "API Spec 17D Subsea wellhead and tree equipment — Chokes and choke manifolds"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well",
+      "note": "ISO 10423:2009 Petroleum and natural gas industries — Wellhead and Christmas tree equipment — Chokes and choke manifolds"
+    },
+    {
+      "url": "https://patents.google.com/patent/US20120273228A1/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US20120273228A1 Integrated Choke Manifold System for Use in A Well Application (Schlumberger Technology Corp) — Chokes and choke manifolds"
+    },
+    {
+      "url": "https://patents.google.com/patent/WO2008045381A2/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent WO2008045381A2 Dual subsea production chokes for high pressure well production (Fluor Technologies Corp) — Chokes and choke manifolds"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4135949A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4237936A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://www.stdhive.com/pdf_preview/api-rp-14c-pdf",
+      "source_id": "stdhive-com-pdf-preview-api-rp-14c-pdf",
+      "note": "API RP 14C, 8th ed (2017) Safety systems for offshore production facilities (safety flow chart includes pigging interfaces in the registered drawing record) — Pig launcher / receiver for the export p"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4135949A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US4135949A Safety interlock for pipeline pig launcher and receiver (Phillips Petroleum Co) — Pig launcher / receiver for the export p"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4237936A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US4237936A Pig trap closure (TD Williamson Inc) — Pig launcher / receiver for the export p"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+      "source_id": "technipfmc-com-rigid-pipelines"
+    },
+    {
+      "url": "https://www.orcina.com/wp-content/uploads/examples/a/a05/A05%20Steel%20catenary%20riser%20systems.pdf",
+      "source_id": "sys-orcina-com-a05-20steel-20catenary-20riser-20systems-pdf",
+      "note": "API RP 2RD Design of risers for floating production systems (Referenced in OrcaFlex Example A05 entry in HILIR drawing register; not read in this sweep) — Export risers and subsea pipeline tie-in"
+    },
+    {
+      "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+      "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+    },
+    {
+      "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+      "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+    },
+    {
+      "url": "https://patents.google.com/patent/US6981848B1/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US6981848B1 Methanol injection system and method to prevent freezing of a natural gas pipeline (PGI International Ltd (current assignee Parker Hannifin Corp)) — Chemical injection system"
+    },
+    {
+      "url": "https://patents.google.com/patent/WO2016067222A1/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent WO2016067222A1 Additive management system (OneSubsea IP UK Ltd) — Chemical injection system"
+    }
+  ],
+  "notes": "API Spec 6A Wellhead and Christmas tree equipment (listed on the Christmas tree page) — Production manifold / headers with produ | API Spec 17D Subsea wellhead and tree equipment (listed on the Christmas tree page) — Production manifold / headers with produ | ISO 10423:2009 Petroleum and natural gas industries — Drilling and production equipment — Wellhead and Christmas tree equipment — Production manifold / headers with produ | API RP 14C, 8th ed (2017) Analysis, Design, Installation, and Testing of Safety Systems for Offshore Production Facilities — safety flow chart and scope figures — Production manifold / headers with pr | API Spec 6A Wellhead and Christmas tree equipment — examples of manual and actuated tree valve configurations — Chokes and choke manifolds | API Spec 17D Subsea wellhead and tree equipment — Chokes and choke manifolds | ISO 10423:2009 Petroleum and natural gas industries — Wellhead and Christmas tree equipment — Chokes and choke manifolds | Patent US20120273228A",
+  "last_reviewed": "2026-11-24",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "Design pressure/temperature of a named topside production/test header (not subsea manifold)",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only OEM subsea manifold ratings were read; no WHP topside header datasheet read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Production manifold / headers with production and test heade",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a named topside manifold or production/test header datasheet and record ratings with basis"
+    },
+    {
+      "field": "performance",
+      "item": "Capital cost of production manifold/headers",
+      "reason_code": "not_in_sources_read",
+      "reason": "No item-specific cost figure read from a primary page",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Production manifold / headers with production and test heade",
+          "access": "open"
+        }
+      ],
+      "action": "Find a cost figure with explicit dollar year and scope basis; leave as gap until then"
+    },
+    {
+      "field": "performance",
+      "item": "Choke valve bore sizes, Cv and actuator thrust for named tree models",
+      "reason_code": "not_in_sources_read",
+      "reason": "Named OEM choke datasheets not fetched",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Chokes and choke manifolds",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch datasheets and record printed ranges with basis"
+    },
+    {
+      "field": "performance",
+      "item": "Failure rate (per demand/hour) and proof-test interval for production chokes",
+      "reason_code": "not_in_sources_read",
+      "reason": "No reliability database page read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Chokes and choke manifolds",
+          "access": "open"
+        }
+      ],
+      "action": "Record numeric rates only from a page actually read"
+    },
+    {
+      "field": "performance",
+      "item": "Pig trap pressure class, size and supplier for a named WHP",
+      "reason_code": "not_in_sources_read",
+      "reason": "No pig trap OEM datasheet read; only generic patent dimensions",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Pig launcher / receiver for the export pipeline",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a pig trap datasheet and record size, pressure class and material with basis"
+    },
+    {
+      "field": "performance",
+      "item": "Capital cost of pig launcher/receiver",
+      "reason_code": "not_in_sources_read",
+      "reason": "No item-specific cost figure read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Pig launcher / receiver for the export pipeline",
+          "access": "open"
+        }
+      ],
+      "action": "Find cost with dollar year and scope basis"
+    },
+    {
+      "field": "performance",
+      "item": "Actual riser diameters, wall thicknesses and tensioner ratings for a named WHP/FSO tie-in",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only conceptual OEM descriptions read; project-specific riser papers not fetched",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Export risers and subsea pipeline tie-ins to the CPP or FSO",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch project-specific riser paper and record printed dimensions"
+    },
+    {
+      "field": "performance",
+      "item": "Riser/pipeline failure rate or availability for WHP export systems",
+      "reason_code": "not_in_sources_read",
+      "reason": "No reliability database or operator reliability page read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Export risers and subsea pipeline tie-ins to the CPP or FSO",
+          "access": "open"
+        }
+      ],
+      "action": "Record numeric reliability only from a page actually read"
+    },
+    {
+      "field": "performance",
+      "item": "MEG/methanol injection rates and hydrate-inhibition design basis for a named WHP",
+      "reason_code": "not_in_sources_read",
+      "reason": "No flow assurance design paper or operator injection-rate table read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Chemical injection system",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a named field design paper and record rates with basis"
+    },
+    {
+      "field": "performance",
+      "item": "Storage tank sizes and dosing pump turndown for a named WHP chemical injection package",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only generic skid description and patent examples read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Chemical injection system",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch OEM datasheet and record printed ranges"
+    },
+    {
+      "field": "performance",
+      "item": "Closed drain system design basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No primary page on closed drain vessel/header design read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Closed drain system and open/slop drain with sump caisson",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch an open design basis or standards preview and record pressure, turndown and routing with basis"
+    },
+    {
+      "field": "performance",
+      "item": "Open/slop drain and sump caisson sizing",
+      "reason_code": "not_in_sources_read",
+      "reason": "No sump caisson datasheet or design paper read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Closed drain system and open/slop drain with sump caisson",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a named design paper and record dimensions/capacity"
+    },
+    {
+      "field": "performance",
+      "item": "Cold vent prevalence on unmanned WHPs",
+      "reason_code": "not_in_sources_read",
+      "reason": "No primary page read in this sweep states cold vent is common on unmanned WHPs; the NUI definition page read describes well bay, helipad and emergency shelter only",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Vents / flare tip",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a regulator/operator page and record the venting practice with its exact wording"
+    },
+    {
+      "field": "performance",
+      "item": "Flare tip diameter, radiation limit and stack height for a specific WHP",
+      "reason_code": "not_in_sources_read",
+      "reason": "No project flare design sheet read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Vents / flare tip",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a flare design paper and record printed values"
+    },
+    {
+      "field": "performance",
+      "item": "Design pressure of Roxar 2600 MPFM (3,750 psi ANSI / 5,000 psi hub) and 1.5-8 in sizes",
+      "reason_code": "not_in_sources_read",
+      "reason": "These figures appear in a HILIR tech library record but were not printed on the Emerson page read with WebFetch in this sweep, so they are not asserted here",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Sampling connections and gauging",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch the datasheet and record the figures with exact basis"
+    },
+    {
+      "field": "performance",
+      "item": "Sampling point count, location and sampler model for a named WHP",
+      "reason_code": "not_in_sources_read",
+      "reason": "No WHP sampling/gauging design page read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Sampling connections and gauging",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a design page and record printed connections and sampling devices"
+    }
+  ]
+}

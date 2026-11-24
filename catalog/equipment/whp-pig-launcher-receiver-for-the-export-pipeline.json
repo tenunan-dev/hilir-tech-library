@@ -1,0 +1,89 @@
+{
+  "id": "whp-pig-launcher-receiver-for-the-export-pipeline",
+  "name": "Pig launcher / receiver for the export pipeline",
+  "equipment_type": "whp-production-process",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Pig traps launch and receive pigs to clean or inspect flowlines between manifold and platform / along export pipelines. SPEC Oil & Gas lists pig launchers and receivers among its ancillary equipment (page read). Patent US4135949A describes the safety interlock problem: inadvertent opening of a pressurised receiver or admission of fluid while the closure is off is a hazard to personnel and the environment.",
+  "aliases": [
+    "Pig launcher / receiver for the export pipeline(s)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Pig launcher / receiver (pig trap) — Example pig receiver station diameter vs pipeline",
+      "unit": "inch",
+      "basis": "US4135949A: 'a thirty inch diameter pipeline can have a forty-two inch diameter station which usually will be of length considerably greater than the diameter of the pipe'",
+      "value": 42,
+      "source": {
+        "url": "https://patents.google.com/patent/US4135949A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Pig launcher / receiver (pig trap) — Interlock preferred setpoint",
+      "unit": "psig",
+      "basis": "US4135949A: pressures up to about ten pounds preferred; 'a pressure of about 5 psig is most preferred because of convenience'",
+      "value": 5,
+      "source": {
+        "url": "https://patents.google.com/patent/US4135949A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Pig launcher / receiver (pig trap) — Safe-to-open closure pressure setpoint",
+      "unit": "psig",
+      "basis": "US4135949A: 'By choosing a setpoint of about 1/2 to about 1 psig it can be assured that the vessel is free of dangerous pressure levels before the operation of opening the vessel can begin'",
+      "low": 0.5,
+      "high": 1,
+      "source": {
+        "url": "https://patents.google.com/patent/US4135949A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "aker-solutions"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/US4135949A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4237936A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+      "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+    },
+    {
+      "url": "https://www.stdhive.com/pdf_preview/api-rp-14c-pdf",
+      "source_id": "stdhive-com-pdf-preview-api-rp-14c-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Pig trap pressure class, size and supplier for a named WHP",
+      "why": "No pig trap OEM datasheet read; only generic patent dimensions",
+      "next_action": "Fetch a pig trap datasheet and record size, pressure class and material with basis"
+    },
+    {
+      "what": "Capital cost of pig launcher/receiver",
+      "why": "No item-specific cost figure read",
+      "next_action": "Find cost with dollar year and scope basis"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (2. Production Process Systems). Eight Section-2 wellhead production-process items were researched against pages actually read with WebFetch. Verified primary evidence includes: TechnipFMC rigid-pipeline (4-18 in; >1,100 km pipe-in-p",
+  "last_reviewed": "2026-11-24"
+}

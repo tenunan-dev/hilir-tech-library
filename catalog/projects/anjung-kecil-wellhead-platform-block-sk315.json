@@ -1,0 +1,24 @@
+{
+  "id": "anjung-kecil-wellhead-platform-block-sk315",
+  "name": "Anjung Kecil wellhead platform (Block SK315)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Described as a Tarpon platform, \"a minimum facility and unmanned platform typically installed in shallow water\"; FPSO MaMPU-1 hosts processing equipment.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+      "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field",
+      "note": "Described as a Tarpon platform, \"a minimum facility and unmanned platform typically installed in shallow water\"; FPSO MaMPU-1 hosts processing equipment."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (6. Structural and Marine Systems)."
+}

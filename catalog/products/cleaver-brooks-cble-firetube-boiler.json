@@ -85,8 +85,7 @@
   "url": "https://cleaverbrooks.com/product/cble",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/cble",
-      "source_id": "cleaverbrooks-com-product-cble"
+      "url": "https://cleaverbrooks.com/product/cble"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown).",

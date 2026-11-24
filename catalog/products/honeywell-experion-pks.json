@@ -32,8 +32,7 @@
   "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
   "sources": [
     {
-      "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
-      "source_id": "sys-process-honeywell-com-experion-pks"
+      "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     }
   ],
   "notes": "DCS; statistics sourced from Honeywell process automation overview page (also fetched).",

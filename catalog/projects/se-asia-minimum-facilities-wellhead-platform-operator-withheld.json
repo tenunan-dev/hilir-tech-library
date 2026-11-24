@@ -1,0 +1,24 @@
+{
+  "id": "se-asia-minimum-facilities-wellhead-platform-operator-withheld",
+  "name": "SE Asia minimum-facilities wellhead platform (operator withheld)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "South East Asia (country not named)",
+  "location": "South East Asia (country not named)",
+  "status": "operating",
+  "description": "Two production wells with future gas lift provision, tied back by an 8 km flexible flowline.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+      "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design",
+      "note": "Two production wells with future gas lift provision, tied back by an 8 km flexible flowline."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (6. Structural and Marine Systems)."
+}

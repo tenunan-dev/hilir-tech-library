@@ -1,0 +1,24 @@
+{
+  "id": "timi-wellhead-platform",
+  "name": "Timi wellhead platform",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "SK318 PSC, sweet gas field discovered 2018; Sarawak Shell operator 75%, PETRONAS Carigali 15%, Brunei Energy Exploration 10%; unmanned WHP tied back to an existing Shell-operated hub via an 80-km pipeline; about 60% lighter than a conventional tender-assisted drilling WHP; up to 50,000 BOEPD at peak (Ocean News, 2023).",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+      "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma",
+      "note": "SK318 PSC, sweet gas field discovered 2018; Sarawak Shell operator 75%, PETRONAS Carigali 15%, Brunei Energy Exploration 10%; unmanned WHP tied back to an existing Shell-operated hub via an 80-km pipeline; about 60% ligh"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (3. Utility Systems)."
+}

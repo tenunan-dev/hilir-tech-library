@@ -1,0 +1,27 @@
+{
+  "id": "whp-ipsgroupbv-com",
+  "name": "WELLHEAD CONTROL PANEL (multi)",
+  "url": "https://www.ipsgroupbv.com/products/turnkey-control-systems/wellhead-control-panel-multi/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "INS",
+    "ROT"
+  ],
+  "subtopics": [
+    "Page read; four pressure levels, accumulator volumes and precharges printed"
+  ],
+  "publisher_org": "IPS Group BV",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "site terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Page read; four pressure levels, accumulator volumes and precharges printed"
+}

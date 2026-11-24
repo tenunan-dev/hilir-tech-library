@@ -1,0 +1,25 @@
+{
+  "id": "whp-mat-brass-or-aluminium-coupling-guards-non-sparking-fan-blades",
+  "name": "Brass or aluminium coupling guards; non-sparking fan blades",
+  "material_category": "metals",
+  "description": "Brass or aluminium coupling guards; non-sparking fan blades named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-diesel-driven-emergency-generator-with-ups-battery-banks"
+  ],
+  "sources": [
+    {
+      "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

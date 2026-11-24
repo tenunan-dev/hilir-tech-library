@@ -1,0 +1,26 @@
+{
+  "id": "whp-drawing-offshore-platform-f-g-detector-layout-examples-autrosafe",
+  "title": "Offshore platform F&G detector layout examples (AutroSafe)",
+  "diagram_type": "schematic",
+  "description": "Typical offshore platform system example listed in system design document; PDF not fetched",
+  "publisher": "Autronica Fire and Security",
+  "url": "https://product.autronicafire.com/fileshare/fileupload/15330/sysdeenginifg_xgb.pdf",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "whp-fire-and-gas"
+  ],
+  "sources": [
+    {
+      "url": "https://product.autronicafire.com/fileshare/fileupload/15330/sysdeenginifg_xgb.pdf",
+      "note": "Typical offshore platform system example listed in system design document; PDF not fetched"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 2026-11-24 WHP sweep; the drawing stays at the publisher URL."
+}

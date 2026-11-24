@@ -86,8 +86,7 @@
   "url": "https://cleaverbrooks.com/product/flx",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/flx",
-      "source_id": "cleaverbrooks-com-product-flx"
+      "url": "https://cleaverbrooks.com/product/flx"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown).",

@@ -1,0 +1,74 @@
+{
+  "id": "whp-platform-telecom-vhf-uhf-radio-satellite-communication",
+  "name": "Platform telecom: VHF/UHF radio, satellite communication",
+  "equipment_type": "whp-control-safety-comms",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Offshore telecom combines terrestrial two-way radio (VHF/UHF, DMR/P25), satellite voice and VSAT broadband, safety-critical public address/general alarm, CCTV and cyber-secured links back to shore.",
+  "aliases": [
+    "Platform telecom: VHF/UHF radio, satellite communication (VSAT), PA/GA system, CCTV"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Offshore satellite broadband (Ku-band Gl — Broadband data speed",
+      "unit": "Mbps",
+      "basis": "High Data Speeds Internet (over 300Mbps) service using the Ku band Global Xpress technology",
+      "low": 300,
+      "source": {
+        "url": "https://vmdsolutions.net/offshore-2",
+        "source_id": "whp-vmdsolutions-net-offshore-2"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-vmd-solutions"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://vmdsolutions.net/offshore-2",
+      "source_id": "whp-vmdsolutions-net-offshore-2"
+    },
+    {
+      "url": "https://mhaautomation.com/paga-systems"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN113162215B/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://www.mrckorea.com/product-communication"
+    },
+    {
+      "url": "https://zenitel.com/sites/default/files/Zenitel-Maritime_Energy_Company_Brochure_WEB.pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "PA/GA system",
+      "why": "No page actually read gives sound-pressure coverage, amplifier power or redundancy for a Malaysian WHP PA/GA",
+      "next_action": "Fetch OEM datasheets and extract printed sound coverage basis"
+    },
+    {
+      "what": "VSAT on WHP",
+      "why": "No offshore WHP VSAT link budget, availability SLA or USD cost from a page read",
+      "next_action": "Source an operator service sheet with availability and dollar year"
+    },
+    {
+      "what": "CCTV",
+      "why": "No camera count or hazardous-area certification for a named WHP from a read page",
+      "next_action": "Locate a project CCTV specification with Ex certification"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (4. Control, Safety and Communication Systems). Six Section-4 WHP control/safety/comms items were researched from pages and PDFs actually read. Verified evidence: Offshore Norge guideline 070 rev 06 (PDF text extracted) assigns SIL 3 to ESD isolati",
+  "last_reviewed": "2026-11-24"
+}

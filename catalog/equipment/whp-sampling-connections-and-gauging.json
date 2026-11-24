@@ -1,0 +1,82 @@
+{
+  "id": "whp-sampling-connections-and-gauging",
+  "name": "Sampling connections and gauging",
+  "equipment_type": "whp-production-process",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Sampling and gauging connections provide fluid property data for allocation, custody transfer and sales-specification compliance. A Christmas tree often provides chemical injection points, monitoring points (pressure, temperature, corrosion, erosion, sand detection, flow rate, flow composition, valve and choke valve position feedback) and connection points for downhole pressure and temperature transducers (Wikipedia, read). Emerson's Roxar 2600 MPFM gives real-time three-phase measurement withou",
+  "aliases": [
+    "Sampling connections and gauging"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Multiphase flow meter (Roxar 2600) / met — MPFM operating envelope (GVF / WLR)",
+      "unit": "%",
+      "basis": "Emerson Roxar 2600 FAQ: 'high accuracy multiphase flow measurement for all phases within the full range of flowing conditions, 0-100% GVF and 0-100% WLR'",
+      "low": 0,
+      "high": 100,
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      }
+    },
+    {
+      "metric": "Multiphase flow meter (Roxar 2600) / met — Meter sizes available",
+      "unit": "sizes",
+      "basis": "Emerson FAQ: 'Roxar™ 2600 MPFM is available in 6 sizes, with material options ranging from duplex stainless steel to Inconel'",
+      "value": 6,
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "baker-hughes-emerson-roxar",
+    "technipfmc-cds-separation-systems",
+    "honeywell"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+      "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+      "source_id": "technipfmc-com-manifolds"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Design pressure of Roxar 2600 MPFM (3,750 psi ANSI / 5,000 psi hub) and 1.5-8 in sizes",
+      "why": "These figures appear in a HILIR tech library record but were not printed on the Emerson page read with WebFetch in this sweep, so they are not asserted here",
+      "next_action": "Fetch the datasheet and record the figures with exact basis"
+    },
+    {
+      "what": "Sampling point count, location and sampler model for a named WHP",
+      "why": "No WHP sampling/gauging design page read",
+      "next_action": "Fetch a design page and record printed connections and sampling devices"
+    },
+    {
+      "what": "Cost of metering/sampling package",
+      "why": "No item-specific cost figure read",
+      "next_action": "Record with dollar year and basis only when a source is read"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (2. Production Process Systems). Eight Section-2 wellhead production-process items were researched against pages actually read with WebFetch. Verified primary evidence includes: TechnipFMC rigid-pipeline (4-18 in; >1,100 km pipe-in-p",
+  "last_reviewed": "2026-11-24"
+}

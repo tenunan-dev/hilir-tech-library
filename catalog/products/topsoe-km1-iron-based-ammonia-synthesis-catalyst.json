@@ -22,8 +22,7 @@
   "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
   "sources": [
     {
-      "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
-      "source_id": "topsoe-com-ammonia-synthesis"
+      "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     }
   ],
   "notes": "KM111 optimized for lower converter bed; KM1R/KMR111 pre-reduced variants.",

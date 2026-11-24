@@ -1,0 +1,24 @@
+{
+  "id": "shah-deniz-stage-2-sdb-platform-complex",
+  "name": "Shah Deniz Stage 2 (SDB platform complex)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Azerbaijan",
+  "location": "Azerbaijan",
+  "status": "operating",
+  "description": "BP ESIA Chapter 5: two vertical seawater lift pump caissons; extraction from one caisson at -75 m, up to approx. 2,173 m3/hr per pump, electrochlorinated and filtered; cooling water discharge up to 2,124 m3/hr at -54.5 m.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
+      "source_id": "whp-bp-com-5-project-description-pdf",
+      "note": "BP ESIA Chapter 5: two vertical seawater lift pump caissons; extraction from one caisson at -75 m, up to approx. 2,173 m3/hr per pump, electrochlorinated and filtered; cooling water discharge up to 2,124 m3/hr at -54.5 m"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (3. Utility Systems)."
+}

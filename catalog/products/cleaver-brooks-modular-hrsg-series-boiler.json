@@ -84,8 +84,7 @@
   "url": "https://cleaverbrooks.com/product/modular-hrsg",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/modular-hrsg",
-      "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      "url": "https://cleaverbrooks.com/product/modular-hrsg"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown).",

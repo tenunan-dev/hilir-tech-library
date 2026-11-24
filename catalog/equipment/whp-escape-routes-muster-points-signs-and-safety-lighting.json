@@ -1,0 +1,144 @@
+{
+  "id": "whp-escape-routes-muster-points-signs-and-safety-lighting",
+  "name": "Escape routes, muster points, signs and safety lighting",
+  "equipment_type": "whp-safety-emergency",
+  "sector": "HSE",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "HSE"
+  ],
+  "description": "Arrangements that let personnel reach muster and embarkation stations: at least two widely separated means of escape, marked routes, photoluminescent strip indicators, emergency lighting, assembly/mimic plans, EEBDs and handrail strength requirements. Sources are SOLAS II-2/13, IMO MODU Code, classification and regulator pages.",
+  "aliases": [
+    "Escape routes, muster points, signs and safety lighting"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Escape route marking and emergency light — Number of means of escape",
+      "unit": "widely separated means from all spaces or group of spaces",
+      "basis": "SOLAS II-2/13.2.1 (read on imorules.com)",
+      "value": 2,
+      "source": {
+        "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+        "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+      }
+    },
+    {
+      "metric": "Escape route marking and emergency light — Strip indicator height above deck",
+      "unit": "mm (maximum)",
+      "basis": "SOLAS II-2/13.3.2.5.1: escape routes marked by lighting or photoluminescent strip indicators placed not more than 300 mm above deck at all points including angles and intersections",
+      "value": 300,
+      "source": {
+        "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+        "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+      }
+    },
+    {
+      "metric": "Escape route marking and emergency light — Maximum dead-end corridor length",
+      "unit": "m",
+      "basis": "SOLAS II-2/13.3.3.4 for cargo ships; IMO 2009 MODU Code 9.4.1.3 and RS Class Rules 9.2.6 (search extracts)",
+      "value": 7,
+      "source": {
+        "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+        "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+      }
+    },
+    {
+      "metric": "Escape route marking and emergency light — Quick-release escape door force",
+      "unit": "N (maximum)",
+      "basis": "SOLAS II-2/13.3.2.6.2: latch releases when force not exceeding 67 N applied; actuating bar at least 760 mm and not more than 1120 mm above deck",
+      "value": 67,
+      "source": {
+        "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+        "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+      }
+    },
+    {
+      "metric": "Escape route marking and emergency light — Handrail / handhold strength",
+      "unit": "N/m (horizontal and vertical distributed load)",
+      "basis": "SOLAS II-2/13.7.3.1",
+      "value": 750,
+      "source": {
+        "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+        "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+      }
+    },
+    {
+      "metric": "Escape route marking and emergency light — Minimum clear width of escape stairway with single escape",
+      "unit": "mm",
+      "basis": "SOLAS II-2/13.3.2.1.2 with handrails on both sides",
+      "value": 800,
+      "source": {
+        "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+        "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+      }
+    },
+    {
+      "metric": "Escape route marking and emergency light — Minimum EEBDs in accommodation",
+      "unit": "devices",
+      "basis": "SOLAS II-2/13.3.4.2: all ships shall carry at least two emergency escape breathing devices within accommodation spaces",
+      "value": 2,
+      "source": {
+        "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+        "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+      }
+    },
+    {
+      "metric": "Reliability — General alarm test frequency (MODU)",
+      "unit": "per week",
+      "basis": "46 CFR 109.301(d)(3): 'The general alarm system must be tested' under weekly inspections and tests",
+      "value": 1,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-imo-text-hosted-by-imorules-com-classification-register"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+      "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+      "source_id": "whp-ecfr-gov-section-109-301"
+    },
+    {
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+      "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
+    },
+    {
+      "url": "https://www.hse.gov.uk/foi/internalops/hid_circs/technical_osd/spc_tech_osd_40.htm"
+    },
+    {
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1023(26).pdf"
+    },
+    {
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1116(30).pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Offshore-specific illumination levels (lux) for muster areas, temporary refuge and escape routes",
+      "why": "The UK HSE SPC/TECH/OSD/40 page returned 404 on WebFetch; EN 1838 values were only seen in search extracts and are not asserted as page-read figures",
+      "next_action": "Retrieve the HSE circular from an archived copy and WebFetch it, or obtain EN 1838 text"
+    },
+    {
+      "what": "Named vendors for photoluminescent escape-route systems on offshore units",
+      "why": "No vendor page was read for this item",
+      "next_action": "Search OEM datasheets for photoluminescent escape guidance systems with printed lux/endurance specs"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (5. Safety and Emergency Equipment). Five Section-5 safety items were researched against primary sources actually read. Strongest evidence is regulatory: IMO LSA Code (via an HTML mirror), 33 CFR Part 145 and 149.417, 46 CFR 133.150, 109",
+  "last_reviewed": "2026-11-24"
+}

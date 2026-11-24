@@ -1,0 +1,26 @@
+{
+  "id": "whp-drawing-figure-4-timi-hybrid-system-overview",
+  "title": "Figure 4 - Timi hybrid system overview",
+  "diagram_type": "block-diagram",
+  "description": "Solar PV array 48 V DC and wind turbine 48 V DC via solar controllers to a NiCd battery bank; standby diesel generator 400 V AC; 400 V AC 50 Hz and 24 V DC distribution to SIS/F&G, telecom, helideck lighting, wellhead control panel hydraulic pump motor, chemical injection pump motors, process control system and AC loads.",
+  "publisher": "Shell TechXplorer Digest 2022",
+  "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "whp-power-generation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+      "note": "Solar PV array 48 V DC and wind turbine 48 V DC via solar controllers to a NiCd battery bank; standby diesel generator 400 V AC; 400 V AC 50 Hz and 24 V DC distribution to SIS/F&G, telecom, helideck lighting, wellhead co"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 2026-11-24 WHP sweep; the drawing stays at the publisher URL."
+}

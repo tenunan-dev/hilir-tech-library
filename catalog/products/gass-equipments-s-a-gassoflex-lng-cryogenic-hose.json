@@ -83,8 +83,7 @@
   "url": "https://gasso.com/en/producto/lng",
   "sources": [
     {
-      "url": "https://gasso.com/en/producto/lng",
-      "source_id": "cat-gasso-com-lng"
+      "url": "https://gasso.com/en/producto/lng"
     }
   ],
   "notes": "Technical specifications table on page is an image; figures above are from the printed text/Characteristics list.",

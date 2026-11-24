@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-pipe-in-pipe-insulation-and-heating",
+  "name": "Pipe-in-pipe insulation and heating",
+  "material_category": "insulation",
+  "description": "Pipe-in-pipe insulation and heating named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+        "source_id": "technipfmc-com-rigid-pipelines"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-export-risers-and-subsea-pipeline-tie-ins-to-the-cpp-or-fso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+      "source_id": "technipfmc-com-rigid-pipelines"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

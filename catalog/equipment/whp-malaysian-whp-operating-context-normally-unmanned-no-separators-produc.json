@@ -1,0 +1,204 @@
+{
+  "id": "whp-malaysian-whp-operating-context-normally-unmanned-no-separators-produc",
+  "name": "Malaysian WHP operating context: normally unmanned, no separators/produced-water treatment/g",
+  "equipment_type": "whp-structural-marine",
+  "sector": "CIV",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "CIV"
+  ],
+  "description": "Read pages establish that Anjung Kecil WHP is a Tarpon \"minimum facility and unmanned platform typically installed in shallow water\", tied to the MaMPU-1 FPSO which carries crude stabilisation (Sep-iSYS), a low-pressure condensate recovery unit and storage. The NUI articles describe remote operation with occasional visits and emergency shelter. 2H describes an unmanned MFP tied back by flexible flowline. The specific claims of no separators/produced-water treatment/gas compression onboard and fo",
+  "aliases": [
+    "Malaysian WHP operating context: normally unmanned, no separators/produced-water treatment/gas compression onboard (all on CPP/FSO/MOPU), pe"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Host FPSO / MOPU with processing (MaMPU- — FPSO storage capacity",
+      "unit": "barrels",
+      "basis": "Offshore Technology Anjung Kecil: storage capacity of the MaMPU-1 FPSO is 318,000 barrels.",
+      "value": 318000,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+        "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+      }
+    },
+    {
+      "metric": "Host FPSO / MOPU with processing (MaMPU- — FPSO oil production capacity",
+      "unit": "barrels of oil per day",
+      "basis": "Offshore Technology Anjung Kecil: production capacity of 15,000 barrels of oil per day.",
+      "value": 15000,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+        "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+      }
+    },
+    {
+      "metric": "Host FPSO / MOPU with processing (MaMPU- — FPSO gas handling capacity",
+      "unit": "million metric standard cubic feet per day (mmscfd)",
+      "basis": "Offshore Technology Anjung Kecil: gas handling capacity of 25 million metric standard cubic feet per day.",
+      "value": 25,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+        "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+      }
+    },
+    {
+      "metric": "Host FPSO / MOPU with processing (MaMPU- — Incremental oil from LP-CRS",
+      "unit": "barrels of oil per one million square cubic feet of flared gas (as printed)",
+      "basis": "Offshore Technology Anjung Kecil: CRS and Sep-iSYS expected to add approximately 50 barrels of oil per one million square cubic feet of flared gas.",
+      "value": 50,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+        "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+      }
+    },
+    {
+      "metric": "Host FPSO / MOPU with processing (MaMPU- — Flaring emissions reduction",
+      "unit": "% on daily flaring rates",
+      "basis": "Offshore Technology Anjung Kecil: technology will reduce carbon emissions by 25% to 30% on daily flaring rates.",
+      "low": 25,
+      "high": 30,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+        "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+      }
+    },
+    {
+      "metric": "Host FPSO / MOPU with processing (MaMPU- — Dynamic subsea power cable",
+      "unit": "km",
+      "basis": "Offshore Technology Anjung Kecil: dynamic subsea power cable between FPSO and well-head platform.",
+      "value": 1.26,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+        "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+      }
+    },
+    {
+      "metric": "KMSE / AJK WHPs (PETRONAS Carigali) — Water depth",
+      "unit": "m",
+      "basis": "Tarpon KMSE/AJK project page.",
+      "low": 70,
+      "high": 85,
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      }
+    },
+    {
+      "metric": "KMSE / AJK WHPs (PETRONAS Carigali) — Design life",
+      "unit": "years",
+      "basis": "Tarpon KMSE/AJK project page.",
+      "value": 20,
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      }
+    },
+    {
+      "metric": "KMSE / AJK WHPs (PETRONAS Carigali) — Distance offshore",
+      "unit": "km (approximately, offshore Bintulu, Sarawak)",
+      "basis": "Tarpon KMSE/AJK page: fields located in Block SK315 approximately 200km offshore from the coast of Bintulu, Sarawak.",
+      "value": 200,
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      }
+    },
+    {
+      "metric": "Price — Kebabangan FEED contract value (USD-equivalent as printed)",
+      "unit": "USD million (as printed)",
+      "basis": "As printed: \"The four-year contract is valued at Nkr170m (approximately $30m)\". Dollar year not stated; article dated 5 May 2016. USD-equivalent only; Nkr figure not converted here.; dollar year not stated.",
+      "value": 30,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+        "source_id": "offshore-technology-com-projects-kebabangan-field"
+      },
+      "year": 2016
+    },
+    {
+      "metric": "Price — Kebabangan topsides fabrication contract",
+      "unit": "USD million (as printed)",
+      "basis": "As printed: \"A $380m (RM1.15bn) contract to fabricate the topsides of the platform was awarded to Sime Darby Engineering in April 2011\". Dollar year not stated; article dated 5 May 2016.; dollar year not stated.",
+      "value": 380,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+        "source_id": "offshore-technology-com-projects-kebabangan-field"
+      },
+      "year": 2011
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "2h-offshore"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+      "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+    },
+    {
+      "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+      "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+      "source_id": "offshore-technology-com-projects-kebabangan-field"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Normally_unmanned_installation",
+      "source_id": "whp-en-wikipedia-org-normally-unmanned-installation"
+    },
+    {
+      "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+      "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+    },
+    {
+      "url": "https://2hoffshore.com/knowledge/addressing-integrity-issues-on-ageing-platform-conductors",
+      "source_id": "whp-2hoffshore-com-addressing-integrity-issues-on-ageing-platf"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4932811A/en",
+      "source_id": "whp-patents-google-com-en"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "No separators / produced-water treatment / gas compression onboard",
+      "why": "Not stated explicitly on any page read; inference from \"minimum facility and unmanned\" and from processing equipment being on the FPSO is NOT recorded as a fact.",
+      "next_action": "Fetch a PETRONAS/Vestigo WHP facilities-scope page listing equipment excluded from the WHP."
+    },
+    {
+      "what": "Fortnightly visits",
+      "why": "The fortnightly interval appears in the source chat only; read pages say \"occasionally\" or \"regular visits\" without a number.",
+      "next_action": "Verify with an operator or regulator page before recording."
+    },
+    {
+      "what": "All processing on CPP/FSO/MOPU",
+      "why": "Only the Anjung Kecil MaMPU-1 FPSO processing equipment was verified; a general rule for all Malaysian WHPs was not found.",
+      "next_action": "Fetch operator pages describing the host-processing split."
+    },
+    {
+      "what": "Malampaya, Tangguh and Kebabangan WHP-specific details",
+      "why": "Only Kebabangan page was fetched in this sweep; Malampaya and Tangguh pages were not read, so no figures are asserted for them.",
+      "next_action": "Fetch and WebFetch those project pages before adding figures."
+    },
+    {
+      "what": "Dollar-year on Kebabangan USD figures",
+      "why": "Both USD figures have no printed dollar year; recorded with year:null and literal basis stating this.",
+      "next_action": "Find a source with an explicit dollar year."
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (6. Structural and Marine Systems). Six structural/marine WHP items were researched from pages actually read with WebFetch. Evidence-first findings: a fixed steel jacket is a pile-founded braced tubular substructure carrying the topside",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "whp-vents-flare-tip",
+  "name": "Vents / flare tip",
+  "equipment_type": "whp-production-process",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Flare and vent systems dispose of relief/blowdown/start-up gas by controlled combustion; a knock-out drum upstream removes entrained liquid to prevent liquid carryover, flame instability and hazardous 'flaming rain' (CRA Energy page, read). FlareTech states its knockout drums range from 2 to 600 barrels. The claim that cold vent is common on unmanned WHPs is not supported by a page read in this sweep and is left as a gap.",
+  "aliases": [
+    "Vents / flare tip (cold vent common on unmanned WHPs)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Flare stack / boom and flare tip — Flare KO drum size range (fabricator)",
+      "unit": "BBL",
+      "basis": "FlareTech Inc. Flare Knockout Drums page: 'designed and manufactured Flare Knockout Drums from small 2 Barrels (BBL) to large 600BBL volumes'",
+      "low": 2,
+      "high": 600,
+      "source": {
+        "url": "https://www.flaretechinc.com/products/flare-knockout-drums",
+        "source_id": "flaretechinc-com-products-flare-knockout-drums"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "allmarc-industries",
+    "john-zink-koch-engineered-solutions"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.flaretechinc.com/products/flare-knockout-drums",
+      "source_id": "flaretechinc-com-products-flare-knockout-drums"
+    },
+    {
+      "url": "https://www.cra.energy/product/knockout-drums",
+      "source_id": "cra-energy-product-knockout-drums"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Cold vent prevalence on unmanned WHPs",
+      "why": "No primary page read in this sweep states cold vent is common on unmanned WHPs; the NUI definition page read describes well bay, helipad and emergency shelter only",
+      "next_action": "Fetch a regulator/operator page and record the venting practice with its exact wording"
+    },
+    {
+      "what": "Flare tip diameter, radiation limit and stack height for a specific WHP",
+      "why": "No project flare design sheet read",
+      "next_action": "Fetch a flare design paper and record printed values"
+    },
+    {
+      "what": "Flare tip failure rate, availability and proof-test interval",
+      "why": "No reliability data read",
+      "next_action": "Record numeric data only from a page actually read"
+    },
+    {
+      "what": "Flare/vent system capital cost",
+      "why": "No item-specific cost figure read",
+      "next_action": "Find cost with dollar year and basis"
+    },
+    {
+      "what": "Flare tip patent",
+      "why": "Web searches for a flare-tip patent returned no usable results in this sweep",
+      "next_action": "Open a patent page directly and read assignee and publication year before recording"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (2. Production Process Systems). Eight Section-2 wellhead production-process items were researched against pages actually read with WebFetch. Verified primary evidence includes: TechnipFMC rigid-pipeline (4-18 in; >1,100 km pipe-in-p",
+  "last_reviewed": "2026-11-24"
+}

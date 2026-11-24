@@ -1,0 +1,152 @@
+{
+  "id": "whp-esd-stations-at-strategic-locations",
+  "name": "ESD stations at strategic locations",
+  "equipment_type": "whp-well-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Offshore Magazine reports a wellhead control panel and control and safety systems on the West Desaru WSS, and the cited API RP 14C training slides print a five-level shutdown hierarchy driven by manual, fire-and-gas and hydraulic-pressure inputs.",
+  "aliases": [
+    "ESD stations at strategic locations (eg. boat landing, cellar deck, christmas tree area)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Emergency shutdown (ESD) system and manu — shutdown levels",
+      "unit": "levels",
+      "basis": "Shutdown logic: Level 1 APS abandon platform; Level 2 ESD I total; Level 3 ESD II partial; Level 4 PSD total; Level 5 PSD partial",
+      "value": 5,
+      "source": {
+        "url": "https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html",
+        "source_id": "sys-pdfcoffee-com-safety-design-and-api-rp-14c-2-pdf-free-html"
+      }
+    },
+    {
+      "metric": "Emergency shutdown (ESD) system and manu — levels of protection",
+      "unit": "levels",
+      "basis": "Premises for basic analysis and design include two levels of protection with primary and secondary activation order",
+      "value": 2,
+      "source": {
+        "url": "https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html",
+        "source_id": "sys-pdfcoffee-com-safety-design-and-api-rp-14c-2-pdf-free-html"
+      }
+    },
+    {
+      "metric": "Emergency shutdown (ESD) system and manu — low-pressure sensor exemption length",
+      "unit": "ft (3 m)",
+      "basis": "SAC A.1 Wellheads and Flow Lines: PSL installed; flow line segment between well and first choking device less than 10 feet (3 m)",
+      "value": 10,
+      "source": {
+        "url": "https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html",
+        "source_id": "sys-pdfcoffee-com-safety-design-and-api-rp-14c-2-pdf-free-html"
+      }
+    },
+    {
+      "metric": "Emergency shutdown (ESD) system and manu — ESD actions on SCSSV",
+      "unit": "function",
+      "basis": "ESD actions may include closure of SSVs and, where included in the engineered safety design, initiation of SCSSV closure",
+      "value": 1,
+      "source": {
+        "url": "https://www.oilgasz.com/2023/07/offshore-platform-wellhead-systems.html?m=1",
+        "source_id": "whp-oilgasz-com-offshore-platform-wellhead-systems-html"
+      }
+    },
+    {
+      "metric": "Reliability — SIL 1 probability of dangerous failure on demand (low demand)",
+      "unit": "PFD",
+      "basis": "PFD 0.1-0.01, RRF 10-100, low demand operation per IEC EN 61508 as printed in table",
+      "low": 0.01,
+      "high": 0.1,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Safety_Integrity_Level",
+        "source_id": "whp-en-wikipedia-org-safety-integrity-level"
+      }
+    },
+    {
+      "metric": "Reliability — SIL 2 probability of dangerous failure on demand (low demand)",
+      "unit": "PFD",
+      "basis": "PFD 0.01-0.001, RRF 100-1000, low demand operation per IEC EN 61508",
+      "low": 0.001,
+      "high": 0.01,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Safety_Integrity_Level",
+        "source_id": "whp-en-wikipedia-org-safety-integrity-level"
+      }
+    },
+    {
+      "metric": "Reliability — SIL 3 probability of dangerous failure on demand (low demand)",
+      "unit": "PFD",
+      "basis": "PFD 0.001-0.0001, RRF 1000-10,000, low demand operation per IEC EN 61508",
+      "low": 0.0001,
+      "high": 0.001,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Safety_Integrity_Level",
+        "source_id": "whp-en-wikipedia-org-safety-integrity-level"
+      }
+    },
+    {
+      "metric": "Reliability — SIL 4 probability of dangerous failure on demand (low demand)",
+      "unit": "PFD",
+      "basis": "PFD 0.0001-0.00001, RRF 10,000-100,000, low demand operation per IEC EN 61508",
+      "low": 1e-05,
+      "high": 0.0001,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Safety_Integrity_Level",
+        "source_id": "whp-en-wikipedia-org-safety-integrity-level"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "ips-group-bv"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.oilgasz.com/2023/07/offshore-platform-wellhead-systems.html?m=1",
+      "source_id": "whp-oilgasz-com-offshore-platform-wellhead-systems-html"
+    },
+    {
+      "url": "https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html",
+      "source_id": "sys-pdfcoffee-com-safety-design-and-api-rp-14c-2-pdf-free-html"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Safety_Integrity_Level",
+      "source_id": "whp-en-wikipedia-org-safety-integrity-level"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/IEC_61511",
+      "source_id": "whp-en-wikipedia-org-iec-61511"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "ESD station locations (boat landing, cellar deck, tree area)",
+      "why": "No fetched source states those exact locations; the Mistral claim is unverified",
+      "next_action": "Find an WHP ESD philosophy or layout drawing"
+    },
+    {
+      "what": "SIL target for WHP ESD functions",
+      "why": "SIL tables are generic; no WHP-specific SIL allocation found",
+      "next_action": "Find a project-specific SIL study"
+    },
+    {
+      "what": "proof-test interval for ESD final elements",
+      "why": "No sourced proof-test interval found",
+      "next_action": "Source a printed proof-test interval"
+    },
+    {
+      "what": "price/cost of ESD stations",
+      "why": "No sourced USD figure with dollar year found",
+      "next_action": "Find a sourced USD cost with year and basis"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (1. Well Systems). WebSearch returned no results in this environment, so research used WebFetch on pages found from the local catalog and from the source chat. Pages actually read: Wikipedia Christmas tree, IEC 61511 an",
+  "last_reviewed": "2026-11-24"
+}

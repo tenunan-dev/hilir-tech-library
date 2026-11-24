@@ -1,0 +1,85 @@
+{
+  "id": "whp-water-injection-manifold-and-w-i-pig-launcher-receiver",
+  "name": "Water injection manifold and W.I. pig launcher/receiver",
+  "equipment_type": "whp-well-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "The West Desaru WSS houses water injection flowlines, manifolds and a pig launcher, with produced oil routed to the FP5 MOPU and exported through a 14-km subsea pipeline to an FSO via an 8-in flexible riser.",
+  "aliases": [
+    "Water injection manifold and W.I. pig launcher/receiver"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Water injection flowlines and manifold — water injection flowline presence",
+      "unit": "system",
+      "basis": "West Desaru WSS topsides accommodate oil production, gas lift and water injection flowlines plus manifolds",
+      "value": 1,
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      }
+    },
+    {
+      "metric": "Pig launcher and flexible riser — flexible riser diameter",
+      "unit": "in (20 cm)",
+      "basis": "West Desaru WSS houses a pig launcher and an 8-in (20-cm) flexible riser",
+      "value": 8,
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      }
+    },
+    {
+      "metric": "Pig launcher and flexible riser — subsea export pipeline length",
+      "unit": "km",
+      "basis": "Produced oil processed at MOPU then returned to WSS for export via 14-km (8.7-mi) subsea pipeline to an FSO",
+      "value": 14,
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "aquaterra-energy"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+      "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+    },
+    {
+      "url": "https://www.oilgasz.com/2023/07/offshore-platform-wellhead-systems.html?m=1",
+      "source_id": "whp-oilgasz-com-offshore-platform-wellhead-systems-html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "W.I. pig receiver location and size",
+      "why": "Only a pig launcher is named on the WSS; no receiver specification found",
+      "next_action": "Source a project P&ID showing the pig trap pair"
+    },
+    {
+      "what": "water injection manifold rating and number of slots",
+      "why": "Not printed on the read pages",
+      "next_action": "Find an OEM water injection manifold datasheet"
+    },
+    {
+      "what": "price/cost of W.I. manifold and pig launcher",
+      "why": "No sourced USD figure with dollar year found",
+      "next_action": "Find a sourced USD cost with year and basis"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (1. Well Systems). WebSearch returned no results in this environment, so research used WebFetch on pages found from the local catalog and from the source chat. Pages actually read: Wikipedia Christmas tree, IEC 61511 an",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "se-asia-minimum-facilities-wellhead-platform-cosmos",
+  "name": "SE Asia minimum-facilities wellhead platform (CoSMOS)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "South East Asia (operator/field withheld)",
+  "location": "South East Asia (operator/field withheld)",
+  "status": "operating",
+  "description": "Unmanned MFP, two production wells, future gas lift provision, 8 km flexible flowline tieback; EPCi by 2H with installation team including operator and rig.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+      "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design",
+      "note": "Unmanned MFP, two production wells, future gas lift provision, 8 km flexible flowline tieback; EPCi by 2H with installation team including operator and rig."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (6. Structural and Marine Systems)."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "whp-vendor-fgg-web-fgg-uni-lj-si",
+  "name": "FGG Web (FGG, Uni Ljubljana)",
+  "country": "—",
+  "roles": [
+    "service"
+  ],
+  "categories": [
+    "engineering-consultancy"
+  ],
+  "description": "Publisher of a page read in the 2026-11-24 WHP sweep; not necessarily an equipment supplier.",
+  "technologies": [
+    "ups-whp-well-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Fallback vendor link for an equipment class with no named supplier on the pages read."
+}

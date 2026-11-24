@@ -1,0 +1,26 @@
+{
+  "id": "whp-drawing-how-to-place-aids-to-navigation-on-an-offshore-platform",
+  "title": "How to place aids to navigation on an offshore platform",
+  "diagram_type": "schematic",
+  "description": "Layout drawing embedded in IALA G1162 guidance page; downloadable PDF linked",
+  "publisher": "MSM Offshore",
+  "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "whp-navigation-aids"
+  ],
+  "sources": [
+    {
+      "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+      "note": "Layout drawing embedded in IALA G1162 guidance page; downloadable PDF linked"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 2026-11-24 WHP sweep; the drawing stays at the publisher URL."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "whp-iso-org-79588-html",
+  "name": "ISO 10423:2022 standard page",
+  "url": "https://www.iso.org/standard/79588.html",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "subtopics": [
+    "Page read; abstract and API 6A 21st edition (2018) supplement statement printed"
+  ],
+  "publisher_org": "ISO",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "ISO terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Page read; abstract and API 6A 21st edition (2018) supplement statement printed"
+}

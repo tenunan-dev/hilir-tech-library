@@ -65,8 +65,7 @@
   "url": "https://www.sma.de/en/products/solar-inverters",
   "sources": [
     {
-      "url": "https://www.sma.de/en/products/solar-inverters",
-      "source_id": "cat-sma-de-solar-inverters"
+      "url": "https://www.sma.de/en/products/solar-inverters"
     }
   ],
   "notes": "Page notes 100% grid independence and grid-forming solutions for large scale; SMA ShadeFix MPP tracking; single-phase inverters up to 4.6 kVA under German VDE-AR-N 4105 code. Detailed per-model data sheets linked but not read.",

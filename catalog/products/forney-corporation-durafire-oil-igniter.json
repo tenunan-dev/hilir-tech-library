@@ -32,8 +32,7 @@
   "url": "https://www.forneycorp.com/igniters",
   "sources": [
     {
-      "url": "https://www.forneycorp.com/igniters",
-      "source_id": "forneycorp-com-igniters"
+      "url": "https://www.forneycorp.com/igniters"
     }
   ],
   "notes": "Read in full: Forney igniters list page. Descriptions are truncated on the list page; dedicated DURAFire page was not fetched. No numeric specs.",

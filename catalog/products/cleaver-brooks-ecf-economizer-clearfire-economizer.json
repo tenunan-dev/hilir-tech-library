@@ -33,8 +33,7 @@
   "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers",
-      "source_id": "cleaverbrooks-com-boiler-room-equipment-economizers"
+      "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers"
     }
   ],
   "notes": "Fetched Economizers catalog listing directly with WebFetch (text). Same page lists C1X, C2X, C2X-HE, CCE, CRB, CRE economizers.",

@@ -1,0 +1,26 @@
+{
+  "id": "whp-drawing-escape-route-plan-fire-control-plan",
+  "title": "Escape route plan / fire control plan",
+  "diagram_type": "schematic",
+  "description": "ABS Guide for Enhanced Fire Protection Arrangements 2022, 9.5: 'An escape route plan is to be prominently displayed at various points onboard as well as on the fire control plan' (PDF seen in search extract only, not WebFetch-read).",
+  "publisher": "IMO / ABS",
+  "url": "https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/other/202-enfireprotection-2022/efp-guide-july22.pdf",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "whp-escape-routes-muster-points-signs-and-safety-lighting"
+  ],
+  "sources": [
+    {
+      "url": "https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/other/202-enfireprotection-2022/efp-guide-july22.pdf",
+      "note": "ABS Guide for Enhanced Fire Protection Arrangements 2022, 9.5: 'An escape route plan is to be prominently displayed at various points onboard as well as on the fire control plan' (PDF seen in search extract only, not Web"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 2026-11-24 WHP sweep; the drawing stays at the publisher URL."
+}

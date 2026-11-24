@@ -52,8 +52,7 @@
   "url": "https://www.johnzink.com/products/powerburners/qln",
   "sources": [
     {
-      "url": "https://www.johnzink.com/products/powerburners/qln",
-      "source_id": "johnzink-com-powerburners-qln"
+      "url": "https://www.johnzink.com/products/powerburners/qln"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown). No numeric NOx ppm value printed on this page.",

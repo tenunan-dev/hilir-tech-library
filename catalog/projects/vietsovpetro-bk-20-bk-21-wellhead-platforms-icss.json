@@ -1,0 +1,24 @@
+{
+  "id": "vietsovpetro-bk-20-bk-21-wellhead-platforms-icss",
+  "name": "Vietsovpetro BK-20 & BK-21 wellhead platforms ICSS",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Vietnam",
+  "location": "Vietnam",
+  "status": "operating",
+  "description": "ControlLogix, AADvance and FactoryTalk View materials supplied with engineering support",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.tdl-ia.com/offshore-platform-fso-automation.html",
+      "source_id": "whp-tdl-ia-com-offshore-platform-fso-automation-html",
+      "note": "ControlLogix, AADvance and FactoryTalk View materials supplied with engineering support"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (4. Control, Safety and Communication Systems)."
+}

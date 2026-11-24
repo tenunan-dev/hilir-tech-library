@@ -1,0 +1,24 @@
+{
+  "id": "liwan-3-1",
+  "name": "Liwan 3-1",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "China",
+  "location": "China",
+  "status": "operating",
+  "description": "Deepwater subsea wells tied back via manifolds/flowlines to a shallow-water platform and onshore Gaolan terminal (registered drawing caption; source page not fetched).",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16757093/liwan-marks-first-ever-deepwater-gas-development-offshore-china",
+      "source_id": "cost-offshore-mag-com-liwan-marks-first-ever-deepwater-gas-develo",
+      "note": "Deepwater subsea wells tied back via manifolds/flowlines to a shallow-water platform and onshore Gaolan terminal (registered drawing caption; source page not fetched)."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (2. Production Process Systems)."
+}

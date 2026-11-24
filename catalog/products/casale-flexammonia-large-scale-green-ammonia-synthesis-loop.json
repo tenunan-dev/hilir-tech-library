@@ -53,8 +53,7 @@
   "url": "https://casale.ch/technologies/ammonia/",
   "sources": [
     {
-      "url": "https://casale.ch/technologies/ammonia/",
-      "source_id": "casale-ch-ammonia"
+      "url": "https://casale.ch/technologies/ammonia/"
     }
   ],
   "notes": "Green H2 from electrolysis and pure N2 from air separation unit.",

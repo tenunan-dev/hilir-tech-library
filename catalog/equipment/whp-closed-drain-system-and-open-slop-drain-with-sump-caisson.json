@@ -1,0 +1,66 @@
+{
+  "id": "whp-closed-drain-system-and-open-slop-drain-with-sump-caisson",
+  "name": "Closed drain system and open/slop drain with sump caisson",
+  "equipment_type": "whp-production-process",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Drainage is part of platform utility scope alongside lifting, evacuation, power and environmental control. No primary page describing closed drain, open/slop drain and sump caisson design for a WHP was read in this sweep; the HILIR tech library has an equipment record ('Platform utilities: cranes, lifeboats, power generation, HVAC and drainage') whose cited pages were about crane vessels and a Gulf of Suez jacket case study, not drain design. Recorded as a gap rather than an estimate.",
+  "aliases": [
+    "Closed drain system and open/slop drain with sump caisson"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "List membership",
+      "value": "Recorded from the Mistral-chat WHP component list",
+      "basis": "Item listed in the source chat; no numeric specification was found in the pages read.",
+      "source": {
+        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
+        "note": "Mistral chat, Wellhead platform components overview (read 2026-11-24)"
+      },
+      "unit": "n/a"
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "american-petroleum-institute"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "api-standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Closed drain system design basis",
+      "why": "No primary page on closed drain vessel/header design read",
+      "next_action": "Fetch an open design basis or standards preview and record pressure, turndown and routing with basis"
+    },
+    {
+      "what": "Open/slop drain and sump caisson sizing",
+      "why": "No sump caisson datasheet or design paper read",
+      "next_action": "Fetch a named design paper and record dimensions/capacity"
+    },
+    {
+      "what": "Drain system failure rates, availability and proof-test interval",
+      "why": "No reliability data read",
+      "next_action": "Record numeric data only from a page actually read"
+    },
+    {
+      "what": "Drain system cost",
+      "why": "No item-specific cost read",
+      "next_action": "Find cost with dollar year and basis"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (2. Production Process Systems). Eight Section-2 wellhead production-process items were researched against pages actually read with WebFetch. Verified primary evidence includes: TechnipFMC rigid-pipeline (4-18 in; >1,100 km pipe-in-p",
+  "last_reviewed": "2026-11-24"
+}

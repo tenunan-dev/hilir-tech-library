@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-fire-retardant-frp-grp-glass-reinforced-plastic",
+  "name": "Fire-retardant FRP / GRP (glass reinforced plastic)",
+  "material_category": "composite-hull",
+  "description": "Fire-retardant FRP / GRP (glass reinforced plastic) named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.gohimarine.com/sale-37362161-solas-approved-95kg-per-person-totally-enclosed-motor-propelled-survival-craft-tempsc.html",
+        "source_id": "whp-gohimarine-com-sale-37362161-solas-approved-95kg-per-perso"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-lifeboat-tempsc-with-davit"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gohimarine.com/sale-37362161-solas-approved-95kg-per-person-totally-enclosed-motor-propelled-survival-craft-tempsc.html",
+      "source_id": "whp-gohimarine-com-sale-37362161-solas-approved-95kg-per-perso"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

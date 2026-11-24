@@ -1,0 +1,29 @@
+{
+  "id": "whp-msmoffshore-com",
+  "name": "Marking Oil & Gas structures - IALA G1162",
+  "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ELE",
+    "HSE",
+    "ROT"
+  ],
+  "subtopics": [
+    "Page fetched; all AtoN characteristics quoted from it"
+  ],
+  "publisher_org": "MSM Offshore",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "site copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Page fetched; all AtoN characteristics quoted from it"
+}

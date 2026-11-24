@@ -1,0 +1,24 @@
+{
+  "id": "yggdrasil-subsea-development",
+  "name": "Yggdrasil subsea development",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Norway",
+  "location": "Norway",
+  "status": "operating",
+  "description": "Aker Solutions scope included nine off six-slot templates and manifolds",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.akersolutions.com/news/news-archive/2022/aker-solutions-secures-multiple-contracts-with-aker-bp--record-high-order-intake/",
+      "source_id": "akersolutions-com-aker-solutions-secures-multiple-contracts-with-a",
+      "note": "Aker Solutions scope included nine off six-slot templates and manifolds"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (1. Well Systems)."
+}

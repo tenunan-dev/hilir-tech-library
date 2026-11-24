@@ -1,0 +1,24 @@
+{
+  "id": "jvpc-n1-wellhead-platform-process-control-upgrade",
+  "name": "JVPC N1 wellhead platform process control upgrade",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Vietnam",
+  "location": "Vietnam",
+  "status": "operating",
+  "description": "PLC-5 to ControlLogix with central SCADA communication; site work carried out from the FSO",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.tdl-ia.com/offshore-platform-fso-automation.html",
+      "source_id": "whp-tdl-ia-com-offshore-platform-fso-automation-html",
+      "note": "PLC-5 to ControlLogix with central SCADA communication; site work carried out from the FSO"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (4. Control, Safety and Communication Systems)."
+}

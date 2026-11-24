@@ -1,0 +1,27 @@
+{
+  "id": "whp-patents-google-com-en-b99dfb3",
+  "name": "US20220069575A1 Power supply system for an offshore platform",
+  "url": "https://patents.google.com/patent/US20220069575A1/en",
+  "source_type": "patents",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE",
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "patent publication",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Patent read in the WHP sweep: Power supply system for an offshore platform; assignee Equinor Energy AS; Inventor Trond Normann Sivertsen Torvund. Priority 2017-03-10; filed 2021-11-04; published 2022-03-03; granted as US11601011B2 on 2023-03-07. Two-level supply, UPS for safety-critical loads, high-power battery storage and remote black-start for unmanned WHPs. Page read 2026-11-24.",
+  "publisher_org": "Google Patents (patent office bibliographic data)"
+}

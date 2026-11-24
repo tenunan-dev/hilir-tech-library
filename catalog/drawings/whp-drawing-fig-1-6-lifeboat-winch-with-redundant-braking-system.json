@@ -1,0 +1,26 @@
+{
+  "id": "whp-drawing-fig-1-6-lifeboat-winch-with-redundant-braking-system",
+  "title": "FIG. 1-6 - lifeboat winch with redundant braking system",
+  "diagram_type": "schematic",
+  "description": "Front, side, top, cut-through detail, davit-mounted perspective and hydraulic circuit views of the redundant winch (FIG. 6 shows accumulators 13/14, brake release valves 11/12, throttle valves 5/5a/8).",
+  "publisher": "Google Patents / Norsafe AS",
+  "url": "https://patents.google.com/patent/WO2013122479A1/en",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "whp-lifeboat-tempsc-with-davit"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/WO2013122479A1/en",
+      "note": "Front, side, top, cut-through detail, davit-mounted perspective and hydraulic circuit views of the redundant winch (FIG. 6 shows accumulators 13/14, brake release valves 11/12, throttle valves 5/5a/8)."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 2026-11-24 WHP sweep; the drawing stays at the publisher URL."
+}

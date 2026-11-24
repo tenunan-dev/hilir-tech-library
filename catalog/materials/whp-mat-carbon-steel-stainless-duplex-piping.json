@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-carbon-steel-stainless-duplex-piping",
+  "name": "Carbon steel / stainless / duplex piping",
+  "material_category": "piping",
+  "description": "Carbon steel / stainless / duplex piping named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards",
+        "source_id": "api-standards"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-production-manifold-headers-with-production-and-test-headers-to-commin"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "api-standards"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

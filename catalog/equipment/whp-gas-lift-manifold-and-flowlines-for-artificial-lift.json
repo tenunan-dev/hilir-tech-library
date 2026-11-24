@@ -1,0 +1,90 @@
+{
+  "id": "whp-gas-lift-manifold-and-flowlines-for-artificial-lift",
+  "name": "Gas lift manifold and flowlines for artificial lift",
+  "equipment_type": "whp-well-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "The West Desaru conductor-supported WSS topsides were designed with gas lift flowlines alongside oil production and water injection flowlines, and Baker Hughes supplies injection-pressure and production-pressure-operated gas lift valves for continuous or intermittent lift.",
+  "aliases": [
+    "Gas lift manifold and flowlines for artificial lift"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Gas lift valves and mandrels — valve operating principles",
+      "unit": "types",
+      "basis": "Baker Hughes lists injection pressure and production pressure-operated valves",
+      "value": 2,
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
+        "source_id": "cat-bakerhughes-com-gas-lift-valves"
+      }
+    },
+    {
+      "metric": "Gas lift valves and mandrels — mandrel compatibility",
+      "unit": "count",
+      "basis": "Designed for any Baker Hughes side pocket and tubing retrievable mandrel and fully compatible with other manufacturers' mandrels",
+      "value": 0,
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
+        "source_id": "cat-bakerhughes-com-gas-lift-valves"
+      }
+    },
+    {
+      "metric": "Gas lift flowlines (WHP topsides) — gas lift flowline presence",
+      "unit": "system",
+      "basis": "West Desaru WSS topsides accommodate 28 dry tree completions and associated oil production, gas lift and water injection flowlines",
+      "value": 1,
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "baker-hughes",
+    "aquaterra-energy"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
+      "source_id": "cat-bakerhughes-com-gas-lift-valves"
+    },
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+      "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+    },
+    {
+      "url": "https://patents.google.com/patent/AU2015261530B2/en",
+      "source_id": "whp-patents-google-com-en"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "gas lift manifold size, pressure and material",
+      "why": "No fetched page prints manifold specifications",
+      "next_action": "Source an OEM gas lift manifold datasheet"
+    },
+    {
+      "what": "injection gas rate and pressure",
+      "why": "Not printed on the read pages",
+      "next_action": "Find a project design basis with gas injection figures"
+    },
+    {
+      "what": "price/cost of gas lift manifold and flowlines",
+      "why": "No sourced USD figure with dollar year found",
+      "next_action": "Find a sourced USD cost with year and basis"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (1. Well Systems). WebSearch returned no results in this environment, so research used WebFetch on pages found from the local catalog and from the source chat. Pages actually read: Wikipedia Christmas tree, IEC 61511 an",
+  "last_reviewed": "2026-11-24"
+}

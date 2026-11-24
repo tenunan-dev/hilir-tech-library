@@ -1,0 +1,159 @@
+{
+  "id": "whp-potable-water-storage-and-hot-water-system",
+  "name": "Potable water storage and hot water system",
+  "equipment_type": "whp-utility",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Potable water is bunkered to the installation, stored in dedicated tanks and distributed through domestic pipework with chlorination; hot water is provided by calorifiers where fitted. The Marine Safety Forum guidance gives water-quality limits, tank management and disinfection practice for offshore installations.",
+  "aliases": [
+    "Potable water storage and hot water system"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Potable water storage tank and domestic  — Free chlorine at point of delivery to vessel",
+      "unit": "ppm",
+      "basis": "The free chlorine concentrations in water must be maintained above 0.2ppm at the point of delivery to the vessel",
+      "low": 0.2,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+      }
+    },
+    {
+      "metric": "Potable water storage tank and domestic  — Installation disinfection maintenance range",
+      "unit": "ppm free chlorine",
+      "basis": "Can the installation demonstrate that it has maintained chlorination levels between 0.2ppm and 0.5ppm over a prolonged period of time?",
+      "low": 0.2,
+      "high": 0.5,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+      }
+    },
+    {
+      "metric": "Potable water storage tank and domestic  — Good-practice maximum storage before disposal",
+      "unit": "days",
+      "basis": "Good practice would be to dispose of all water in such tanks after 14 days continuous storage",
+      "value": 14,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+      }
+    },
+    {
+      "metric": "Potable water storage tank and domestic  — Super-chlorination concentration",
+      "unit": "ppm (mg/l)",
+      "basis": "In order to achieve 50ppm (50mg/l) disinfectant in solution ... The disinfected water at 50ppm should be allowed to remain in the whole system for at least 1 hour",
+      "value": 50,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+      }
+    },
+    {
+      "metric": "Potable water storage tank and domestic  — Coliforms / E.coli / Enterococci limit",
+      "unit": "counts per 100 ml",
+      "basis": "Legislative limit is 0 counts per 100ml",
+      "value": 0,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+      }
+    },
+    {
+      "metric": "Potable water storage tank and domestic  — Chlorides limit",
+      "unit": "mgCl/l (less than)",
+      "basis": "Chlorides Legislative limits <250 mgCl/l",
+      "value": 250,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+      }
+    },
+    {
+      "metric": "Potable water storage tank and domestic  — Total viable count at 22 degC / 37 degC",
+      "unit": "cfu/ml",
+      "basis": "In the UKCS, a workable limit of 300cfu/ml at 22 oC and 100cfu/ml at 37 oC is regarded as acceptable",
+      "high": 300,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+      }
+    },
+    {
+      "metric": "Potable water storage tank and domestic  — Hydrocarbons limit",
+      "unit": "ppb (less than)",
+      "basis": "Hydrocarbons <10 ppb ... Less than 10ppb is the stated limit value as this is generally the limit of detection",
+      "value": 10,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+      }
+    },
+    {
+      "metric": "Potable water storage tank and domestic  — Legionella limit",
+      "unit": "cfu/litre (less than)",
+      "basis": "Legislative limit is <100 cfu/l",
+      "value": 100,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+      }
+    },
+    {
+      "metric": "Price — Raw water rough cost estimate",
+      "unit": "USD per 1000 gal",
+      "basis": "A very rough estimate of water costs can be made by assuming $2 per 1000 gal ($0.5 per metric ton) - Chemical Engineering Design 2nd ed., ©2013, dollar year not separately stated; dollar year 2013.",
+      "value": 2,
+      "year": 2013,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      }
+    },
+    {
+      "metric": "Price — Demineralised water cost multiple",
+      "unit": "x raw water price",
+      "basis": "Demineralized water typically costs about double the price of raw water; dollar year 2013.",
+      "value": 2,
+      "year": 2013,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-marine-safety-forum"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Potable water and hot water",
+      "why": "No WHP potable-water tank capacity, hot-water calorifier rating or hot-water design temperature was found",
+      "next_action": "Fetch a named WHP design basis or accommodation-utilities specification with tank sizes and hot-water duties"
+    },
+    {
+      "what": "Potable water and hot water",
+      "why": "No vendor datasheet for an offshore potable-water package or calorifier was read",
+      "next_action": "Fetch an OEM potable-water/hot-water package datasheet"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (3. Utility Systems). Nine Section-3 utility items were researched against pages actually read. Strongest primary evidence: Shell TechXplorer Digest (Timi/Gorek hybrid solar-wind-battery: 14 kWp/80 m2 array, 73.6 kWh/day, ",
+  "last_reviewed": "2026-11-24"
+}

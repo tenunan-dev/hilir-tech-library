@@ -1,0 +1,24 @@
+{
+  "id": "equinor-patent-example-unmanned-whp-upp-field-development",
+  "name": "Equinor patent example - unmanned WHP/UPP field development",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "not stated",
+  "location": "not stated",
+  "status": "operating",
+  "description": "Six-slot subsea production system 12 km from UWP/UPP site; 34 km from tie-in to host; water depth 100-110 m; UPS-fed ventilation, F&G, gas-supply control and communications during black start.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/US20220069575A1/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Six-slot subsea production system 12 km from UWP/UPP site; 34 km from tie-in to host; water depth 100-110 m; UPS-fed ventilation, F&G, gas-supply control and communications during black start."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (3. Utility Systems)."
+}

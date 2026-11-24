@@ -105,8 +105,7 @@
   "url": "https://cleaverbrooks.com/product/cbex",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/cbex",
-      "source_id": "cleaverbrooks-com-product-cbex"
+      "url": "https://cleaverbrooks.com/product/cbex"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown). Includes a printed Technical Data table, brochure links (SharePoint PDFs not opened).",

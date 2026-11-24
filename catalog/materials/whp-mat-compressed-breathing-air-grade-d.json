@@ -1,0 +1,25 @@
+{
+  "id": "whp-mat-compressed-breathing-air-grade-d",
+  "name": "Compressed breathing air - Grade D",
+  "material_category": "gas",
+  "description": "Compressed breathing air - Grade D named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.navsea.navy.mil/Portals/103/Documents/SSRAC/NSI/FY%2026/009-088_FY26.pdf"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-fire-extinguishers-hydrant-hoses-scba-sets-on-manned-platforms"
+  ],
+  "sources": [
+    {
+      "url": "https://www.navsea.navy.mil/Portals/103/Documents/SSRAC/NSI/FY%2026/009-088_FY26.pdf"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

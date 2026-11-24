@@ -1,6 +1,6 @@
 # PWR: Power and renewables
 
-1046 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+1048 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -127,6 +127,7 @@
 | [Huisman Equipment](https://www.huismanequipment.com/en/1007-4_Huisman-awarded-with-contract-for-world-s-largest-Leg-Encircling-Crane?p=1) | oem-supplier | global, apac, sea | open | summary-only |
 | [Hydril / Wikipedia (secondary)](https://en.wikipedia.org/wiki/Blowout_preventer) | research-institute | global, apac, sea, na, eu | open | summary-only |
 | [Ichthys LNG (Ichthys gas field) — cost](https://en.wikipedia.org/w/index.php?title=Ichthys_gas_field&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
+| [IEC 61511-1:2016+AMD1:2017 CSV](https://webstore.iec.ch/en/publication/61289) | standards-body | global, sea | paywalled | catalog-only |
 | [Igs.Org.In — Indian railway embankment soft-ground improvement](https://igs.org.in/storage/proceedings-uploads/TH-08-108-160523094501.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [IGSB](https://www.igsb.eu/en/faq) | oem-supplier | global, apac, sea | open | summary-only |
 | [India Electricals (IES)](https://indiaelectricals.net/products/perforated-cable-tray/) | oem-supplier | global, apac, sea | open | summary-only |
@@ -671,6 +672,7 @@
 | [Yokogawa](https://www.yokogawa.com/) | oem-supplier | global, apac | open | full-text-restricted |
 | [Zeto](https://www.zeto.com/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Asia Pacific Clean Hydrogen / Singapore International Energy Week](https://www.siew.gov.sg/) | conference | sea | open | summary-only (unverified) |
+| [Commercial Standby Generator Cost: 2026 Pricing by Capacity](https://zccpower.com/commercial-standby-generator-cost) | standards-body | global, sea | open | summary-only |
 | [Grid System Operator (GSO), Malaysia](https://www.gso.org.my/) | agency-data | sea, global | open | summary-only (unverified) |
 | [Hanwha Ocean](https://www.hanwhaocean.com/en/) | oem-supplier | apac, global | open | summary-only (unverified) |
 | [JERA](https://www.jera.co.jp/en) | licensor | apac | open | summary-only (unverified) |

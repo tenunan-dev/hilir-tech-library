@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-seawater-grade-materials",
+  "name": "Seawater-grade materials",
+  "material_category": "metallurgy",
+  "description": "Seawater-grade materials named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-seawater-lift-pumps"
+  ],
+  "sources": [
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

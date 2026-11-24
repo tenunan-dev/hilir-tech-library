@@ -1,0 +1,24 @@
+{
+  "id": "block-47-early-production-facility",
+  "name": "Block 47 early production facility",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Yemen",
+  "location": "Yemen",
+  "status": "operating",
+  "description": "SPEC scope included utility systems alongside process equipment (page read).",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+      "source_id": "specoilandgas-com-ancillary-equipment-utilities",
+      "note": "SPEC scope included utility systems alongside process equipment (page read)."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (2. Production Process Systems)."
+}

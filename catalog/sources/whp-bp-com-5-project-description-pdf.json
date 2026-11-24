@@ -1,0 +1,27 @@
+{
+  "id": "whp-bp-com-5-project-description-pdf",
+  "name": "Shah Deniz 2 Project ESIA Chapter 5: Project Description (November 2013)",
+  "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ROT",
+    "HSE"
+  ],
+  "subtopics": [
+    "93-page PDF text read via r.jina.ai reader on 2026-11-24; seawater figures verified in the"
+  ],
+  "publisher_org": "BP",
+  "regions": [
+    "me"
+  ],
+  "access": "open",
+  "licence": "BP copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. 93-page PDF text read via r.jina.ai reader on 2026-11-24; seawater figures verified in the fetched text (line ~1400 of the reader output)."
+}

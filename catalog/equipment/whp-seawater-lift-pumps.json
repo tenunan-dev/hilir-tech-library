@@ -1,0 +1,158 @@
+{
+  "id": "whp-seawater-lift-pumps",
+  "name": "Seawater lift pumps",
+  "equipment_type": "whp-utility",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Seawater lift pumps draw seawater from caissons/wells for cooling, firewater, washing and ballast duties. BP Shah Deniz 2 project description gives MODU/water-system duties and extraction rates; IOGP S-721 sets vertical-pump submergence, anti-fouling and column-pipe requirements; Celeros/S&N and ClydeUnion are named suppliers.",
+  "aliases": [
+    "Seawater lift pumps"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Vertical seawater lift pump (MODU/rig an — Seawater lift pump capacity (Heydar Aliyev MODU)",
+      "unit": "m3/hr",
+      "basis": "6 seawater lift pumps, but typically 2 used which are designed to lift up to 960m 3/hr from a depth below sea level of between 17.5 and 19.5m",
+      "value": 960,
+      "source": {
+        "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
+        "source_id": "whp-bp-com-5-project-description-pdf"
+      }
+    },
+    {
+      "metric": "Vertical seawater lift pump (MODU/rig an — Suction depth (Heydar Aliyev MODU)",
+      "unit": "m below sea level",
+      "basis": "designed to lift up to 960m 3/hr from a depth below sea level of between 17.5 and 19.5m",
+      "low": 17.5,
+      "high": 19.5,
+      "source": {
+        "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
+        "source_id": "whp-bp-com-5-project-description-pdf"
+      }
+    },
+    {
+      "metric": "Vertical seawater lift pump (MODU/rig an — Seawater lift pump capacity (Istiglal MODU)",
+      "unit": "m3/hr",
+      "basis": "Seawater lift pumps designed to lift up to 230m 3/hr from a depth below sea level of 9.8m",
+      "value": 230,
+      "source": {
+        "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
+        "source_id": "whp-bp-com-5-project-description-pdf"
+      }
+    },
+    {
+      "metric": "Vertical seawater lift pump (MODU/rig an — Suction depth (Istiglal MODU)",
+      "unit": "m below sea level",
+      "basis": "designed to lift up to 230m 3/hr from a depth below sea level of 9.8m",
+      "value": 9.8,
+      "source": {
+        "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
+        "source_id": "whp-bp-com-5-project-description-pdf"
+      }
+    },
+    {
+      "metric": "Vertical seawater lift pump (MODU/rig an — Maximum seawater extraction per pump (SD2 platform caisson)",
+      "unit": "m3/hr",
+      "basis": "Seawater will be extracted from 1 of the 2 vertical seawater lift pump caissons at a depth of -75m below sea level. The maximum seawater extraction design flow rate per pump will be approximately 2,173m3/hr",
+      "value": 2173,
+      "source": {
+        "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
+        "source_id": "whp-bp-com-5-project-description-pdf"
+      }
+    },
+    {
+      "metric": "Vertical seawater lift pump (MODU/rig an — Sea intake screen mesh",
+      "unit": "mm diameter",
+      "basis": "The design of the seawater intake caissons on the platform will incorporate a mesh of 200mm diameter",
+      "value": 200,
+      "source": {
+        "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
+        "source_id": "whp-bp-com-5-project-description-pdf"
+      }
+    },
+    {
+      "metric": "Vertical seawater lift pump (MODU/rig an — Filtration after lift",
+      "unit": "microns",
+      "basis": "and then filtered to remove any particles that are above 50 microns in diameter",
+      "value": 50,
+      "source": {
+        "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
+        "source_id": "whp-bp-com-5-project-description-pdf"
+      }
+    },
+    {
+      "metric": "Vertical seawater lift pump (MODU/rig an — Column pipe velocity at 100% rated flow (S-721)",
+      "unit": "m/s",
+      "basis": "column pipe flow velocity at 100 % rated flow not to exceed 4 m/s (13 ft/s)",
+      "value": 4,
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    },
+    {
+      "metric": "Price — Cooling-water system make-up and chemical treatment cost",
+      "unit": "USD/1000 gal",
+      "basis": "The costs of water make-up and chemical treatment usually add about $0.02/1000 gal - Chemical Engineering Design 2nd ed., ©2013; dollar year 2013.",
+      "value": 0.02,
+      "year": 2013,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      }
+    },
+    {
+      "metric": "Price — Recirculating cooling water pumping power",
+      "unit": "kWh/1000 gal circulated",
+      "basis": "The power used in a typical recirculating cooling water system is usually between 1 and 2 kWh/1000 gal of circulating water; dollar year 2013.",
+      "low": 1,
+      "high": 2,
+      "year": 2013,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "bp"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
+      "source_id": "whp-bp-com-5-project-description-pdf"
+    },
+    {
+      "url": "https://www.celerosft.com/en-us/industries/oil-gas/upstream",
+      "source_id": "whp-celerosft-com-upstream"
+    },
+    {
+      "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+      "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Seawater lift pumps",
+      "why": "No OEM seawater lift pump datasheet with flow/head curves, materials or power ratings for a WHP was read",
+      "next_action": "Fetch an S&N Pumps or ClydeUnion seawater lift pump datasheet"
+    },
+    {
+      "what": "Seawater lift pumps",
+      "why": "No seawater lift pump failure rate or proof-test interval was found",
+      "next_action": "Seek operator reliability data or an OEM maintenance manual"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (3. Utility Systems). Nine Section-3 utility items were researched against pages actually read. Strongest primary evidence: Shell TechXplorer Digest (Timi/Gorek hybrid solar-wind-battery: 14 kWp/80 m2 array, 73.6 kWh/day, ",
+  "last_reviewed": "2026-11-24"
+}

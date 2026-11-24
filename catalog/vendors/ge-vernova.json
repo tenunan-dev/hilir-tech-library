@@ -19,12 +19,10 @@
   "sources": [
     {
       "url": "https://www.gevernova.com/gas-power/products/gas-turbines/tm2500",
-      "source_id": "ge-vernova",
       "note": "GE Vernova TM2500 product page, read 26 October 2026"
     },
     {
       "url": "https://www.gevernova.com/gas-power/products/gas-turbines/7ha",
-      "source_id": "ge-vernova",
       "note": "GE Vernova 7HA product page (read for card pwr-heavy-duty-gas-turbines)"
     }
   ],

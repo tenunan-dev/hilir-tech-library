@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-wellhead-material-class",
+  "name": "Wellhead material class",
+  "material_category": "specification-defined",
+  "description": "Wellhead material class named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.iso.org/standard/42757.html",
+        "source_id": "whp-iso-org-42757-html"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-wellheads-and-christmas-trees"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/42757.html",
+      "source_id": "whp-iso-org-42757-html"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

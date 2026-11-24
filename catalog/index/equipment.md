@@ -1,6 +1,6 @@
 # Equipment catalog
 
-389 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+430 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -7425,3 +7425,1011 @@ Vendors: NOV (Bondstrand), Halliburton, Balance Point Control (BPC), Internation
 Recorded gaps:
 
 - Deck load/footprint and crane limits for CT and snubbing spreads on small WHPs — Fetch rig-up drawings or intervention engineering papers.
+
+## whp-control-safety-comms
+
+### Condition monitoring instrumentation (whp-condition-monitoring-instrumentation)
+
+Primary code: UPS: Upstream
+Wireless and wired instrumentation monitors annulus/wellhead pressure and structural vibration to cut manual rounds and detect integrity issues early; LoRaWAN battery-powered sensors suit unmanned offshore wells.
+Vendors: Yokogawa Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Yokogawa Sushi Sensor wireless pressure  — Gateway distance in cited case | 4 km | wireless pressure sensor at wellhead equipment to a gateway located approximately 4 km away; maximum distance varies with environment |
+| Yokogawa Sushi Sensor wireless pressure  — Data collection interval | 1-? qualitative | intervals ranging from one minute to three days (low in minutes, high in days) |
+| Reliability — Pressure monitoring frequency | 1-? qualitative | one minute to three days, more frequent than traditional operator rounds |
+| Price — 4-20 mA wellhead pressure transmitter (onshore proxy) | 300-800 USD | Quality oilfield pressure transmitters from major industrial instrumentation manufacturers; US onshore guide dated 6 May 2026; dollar year 2026. |
+
+
+Recorded gaps:
+
+- Annulus pressure monitoring — Fetch an OEM annulus sensor datasheet with printed range and accuracy
+- Vibration monitoring — Source a vendor datasheet with printed frequency range and sensitivity
+- Condition monitoring cost — Obtain a USD quotation with scope basis
+
+### ESD (whp-esd)
+
+Primary code: UPS: Upstream
+ESD is a safety instrumented system that drives the wellhead control panel and shutdown valves to a safe state. Offshore Norge recommended guidance assigns SIL 3 to isolation of the production/injection bore of a topside well; US OCS rules require de-energize-to-trip or supervised ESD stations.
+Vendors: Offshore Norge (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| ESD logic (wellhead control panel) incl. — Required SIL - ESD isolation of production/injection bore in one topside well | 3 SIL | Table A.6.5 Summary of SIL requirements - Isolation of topside well functions |
+| Reliability — Required SIL - ESD isolation of production/injection bore | 3 SIL | Offshore Norge guideline No. 070 rev 06, Table A.6.5 |
+| Reliability — Required SIL - ESD isolation of annulus in one topside gas lift well | 3 SIL | Offshore Norge guideline No. 070 rev 06, Table A.6.5 |
+
+
+Recorded gaps:
+
+- ESD with dual redundant logic — Obtain a named WHP cause-and-effect matrix and SIS architecture diagram
+- ESD SDV valves — Find an accessible copy and extract the closing sequence, PST and proof-test interval
+- ESD SDV valves — Source a priced ESD package with dollar year
+
+### Fire and Gas (whp-fire-and-gas)
+
+Primary code: UPS: Upstream
+F&G detection covers flame (UV/IR), smoke, heat, combustible/toxic gas and pneumatic fusible plug loops, interfaced to deluge, ESD, PAGA and the ICSS. Offshore Norge assigns SIL 2 to single-detector fire and gas detection sub-functions.
+Vendors: Consilium Safety (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Consilium CS-PH Ex programmable intrinsi — PFDavg | 0.00029 dimensionless | PFDavg 2.9 x 10^-4; calculated for MTTR 8 h and proof test interval 1 year |
+| Consilium CS-PH Ex programmable intrinsi — Safe failure fraction | 92 % | Functional Safety Data: Type B, HFT 0, SFF 92 % |
+| Consilium CS-PH Ex programmable intrinsi — Operating voltage | 16-38 VDC | Operating voltage 16-38 VDC |
+| Consilium CS-PH Ex programmable intrinsi — Proof test interval used in PFD calculation | 1 year | PFDavg is calculated for MTTR 8 h and proof test interval 1 year |
+| Consilium CS-PH Ex programmable intrinsi — SIL certification | 2 SIL | SIL Certificate no. TUV NORD 44 788 13082116; SIL 2 certified according to IEC 61508; suitable for SIL 1 and SIL 2 |
+| F&G logic and detector sub-functions (1o — Fire detection total PFD - smoke | 0.0019 dimensionless | Table A.8.1 total for function: Smoke 1.9 x 10^-3 (detector 7.0 x 10^-4 + F&G logic 1.2 x 10^-3) |
+| F&G logic and detector sub-functions (1o — Fire detection total PFD - heat | 0.0028 dimensionless | Table A.8.1 total for function: Heat 2.8 x 10^-3 (detector 2.2 x 10^-3 + logic 1.2 x 10^-3) |
+| F&G logic and detector sub-functions (1o — Fire detection total PFD - flame | 0.0027 dimensionless | Table A.8.1 total for function: Flame 2.7 x 10^-3 (detector 1.5 x 10^-3 + logic 1.2 x 10^-3) |
+| Reliability — PFDavg | 0.00029 dimensionless | Consilium CS-PH Ex, MTTR 8 h, 1-year proof test interval |
+| Reliability — F&G logic PFD (single I/O, redundant CPU) | 0.0012 dimensionless | Offshore Norge Table A.8.1, voting 1oo1 |
+| Reliability — Required SIL - fire detection with one detector | 2 SIL | Offshore Norge section A.7: fire detector (heat, flame or smoke) + F&G logic incl I/O |
+| Reliability — Required SIL - gas detection with one detector | 2 SIL | Offshore Norge section A.8.1: catalytic, IR point, IR line or H2S detector + F&G logic incl I/O |
+
+
+Recorded gaps:
+
+- Fusible plug loops — Find an accessible OEM datasheet with printed fusible element rating
+- F&G detector coverage on a WHP — Locate a published F&G mapping result with basis
+- F&G system cost — Source a USD quote with dollar year and scope basis
+
+### Navigation aids (whp-navigation-aids)
+
+Primary code: UPS: Upstream
+Offshore structures are marked as a single unit, block or field under IALA G1162: white main/secondary lanterns flashing Morse U, red subsidiary lights, ID panels, fog signals, racon and optional aviation obstruction lighting.
+Vendors: MSM Offshore (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Main and secondary marine lanterns (IALA — Main/secondary light range | 10 nautical miles | Intensity range 10 nm (main and secondary lights) |
+| Main and secondary marine lanterns (IALA — Subsidiary light range | 3 nautical miles | Flashing red light, Morse U every 15 secs, intensity range 3 nm |
+| Fog signal (main/secondary) — Main sound range | 2 nautical miles | Sound range 2 nm in any direction (MAIN) |
+| Fog signal (main/secondary) — Secondary sound range | 0.5 nautical miles | Minimum sound range 1/2 nm in any direction (SECONDARY) |
+| Fog signal (main/secondary) — Independent power autonomy | 96 h | Autonomy 96h for a power source independent |
+| Phalcon-EX-SS Zone 1 racon — Weight | 20 kg | Mechanical Specification: Weight 20 kg |
+| Phalcon-EX-SS Zone 1 racon — Input voltage | 9-36 VDC | Electrical Specification: Input Voltage 9-36V DC |
+| Phalcon-EX-SS Zone 1 racon — Average power | 3 W | Average Power 3W, based on traffic |
+| Phalcon-EX-SS Zone 1 racon — Antenna gain | 3-5 dBi | Antenna Gain: X-band 5dBi, S-band 3dBi |
+| Zone 1 Nav Aid Skid System — Battery backup autonomy | 96 h | Skid includes 10NM lantern, 2NM/0.5NM fog signal, fog detector and battery backup; calculated autonomy of 96 hours |
+| Zone 1 Nav Aid Skid System — FA-250 10NM lantern power | 3.33 W average | FA-250 10NM: 20W LED array providing flashing 10NM Morse U white light; Average power 3.33W |
+| Zone 1 Nav Aid Skid System — ICAO Type A obstruction light | 3 W DC | ICAO TYPE A: 3W DC, 3.5W AC, 10cd, Red LED array aviation light |
+| Reliability — Independent power autonomy | 96 h | IALA G1162 main/secondary fog signal autonomy for independent power source |
+
+
+Recorded gaps:
+
+- Navigation aids — Find an operator AtoN schedule with printed ranges and autonomy
+- Navigation aids — Obtain a priced skid quotation with dollar year
+
+### Platform telecom: VHF/UHF radio, satellite communication (whp-platform-telecom-vhf-uhf-radio-satellite-communication)
+
+Primary code: UPS: Upstream
+Offshore telecom combines terrestrial two-way radio (VHF/UHF, DMR/P25), satellite voice and VSAT broadband, safety-critical public address/general alarm, CCTV and cyber-secured links back to shore.
+Vendors: VMD Solutions (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Offshore satellite broadband (Ku-band Gl — Broadband data speed | 300-? Mbps | High Data Speeds Internet (over 300Mbps) service using the Ku band Global Xpress technology |
+
+
+Recorded gaps:
+
+- PA/GA system — Fetch OEM datasheets and extract printed sound coverage basis
+- VSAT on WHP — Source an operator service sheet with availability and dollar year
+- CCTV — Locate a project CCTV specification with Ex certification
+
+### Process control and monitoring via SCADA/DCS, remote from shore or hub platform (whp-process-control-and-monitoring-via-scada-dcs-remote-from-shore-or-hub)
+
+Primary code: UPS: Upstream
+Minimum-facility WHPs are normally unmanned; supervisory control gathers wellhead/process data to a hub platform or onshore centre over radio, cellular, fibre or satellite links. Control loops stay in local PLC/RTU, with SCADA as supervisory layer; safety functions are implemented in a separate SIS.
+Vendors: Rockwell Automation, AVEVA, Yokogawa Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Tatsoft FrameworX SCADA/IIoT — Native connectors included in licence | 120-? connectors | more than 120 connectors are included in the license |
+| Tatsoft FrameworX SCADA/IIoT — Router-embedded deployment scale | 300-? sites | A large United States oil and gas operator runs FrameworX inside Cisco industrial routers at more than 300 production sites, onshore and offshore |
+| Rockwell ICSS on wellhead platforms (Con — Safety integrity capability | 2-3 SIL | Safety instrumented systems for SIL 2 and SIL 3 functions on AADvance and Trusted, including ESD and Fire & Gas |
+| Price — Wellhead monitoring installed hardware per well (onshore proxy, NOT offshore WHP) | 3000-8000 USD | US onshore Permian wellhead monitoring hardware: two pressure transmitters, temperature sensor, cellular gateway, panel, solar/battery, install labour; vendor guide dated 6 May 2026; dollar year 2026. |
+| Price — Upfront implementation, traditional on-premise SCADA for 10 wells (onshore proxy) | 80000-200000 USD | vendor guide dated 6 May 2026; onshore US, not an offshore platform quote; dollar year 2026. |
+
+
+Recorded gaps:
+
+- Process control and monitoring via SCADA/DCS — Find a named offshore WHP automation contract with USD value and dollar year
+- Process control and monitoring via SCADA/DCS — Source a printed latency/availability specification with basis
+
+## whp-production-process
+
+### Chemical injection system (whp-chemical-injection-system)
+
+Primary code: UPS: Upstream
+Chemical injection skids dose inhibitors into the well stream or flowline to maintain flow assurance, separation performance and asset integrity. SPEC describes a 'Skid with dosing pumps and tank that injects chemicals into the process' supplied with the process equipment or standalone. The kill wing valve on a tree is primarily used to inject corrosion inhibitors or methanol to prevent hydrate formation. Digital Refining (PTQ, Jul-2015) states EG is considered above -40 degF and methanol for te
+Vendors: ChampionX, Clariant (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Chemical injection skid (dosing pumps an — Methanol / EG hydrate-inhibition regime | -140--40 degF | Digital Refining article: 'EG can be considered when downstream processing temperatures are not excessively low (above -40°F), and methanol is adequate for much lower downstream processing temperatures (as low as below -140°F)'. Low is a printed 'below -140 degF' qualifier, high is 'above -40 degF' qualifier. |
+| Methanol injection pump and timer packag — Methanol dose volume per pump cycle | 10 cc | US6981848B1: 'a selected quantity of methanol, e.g., 10 cc, may be pumped from the storage tank 12 to the pipeline 14 each time the pump is cycled' |
+| Methanol injection pump and timer packag — Timer interval | 7 s | US6981848B1: 'Timer 18 may be set by the operator to cycle the pump in a selected time interval of, for example, 7 seconds' |
+| Methanol injection pump and timer packag — Control battery voltage | 4.5 V DC | US6981848B1: timer, motor, controller and sensors 'may all be powered by a conventional 4.5-volt DC battery 40' |
+| Methanol injection pump and timer packag — Line temperature activation setpoint | 30 degF | US6981848B1: controller may open valve when line sensor drops below 30 degF, or ambient sensor below 28 degF (ambient value separately reported) |
+| Methanol injection pump and timer packag — CIMV ultrasonic flow meter range | 0.5-26500 L/h | WO2016067222A1: 'an ultrasonic flow meter 20 configured to measure a range of flow rates between approximately 0.5 liters per hour to 26,500 liters per hour, or more' |
+
+
+Recorded gaps:
+
+- MEG/methanol injection rates and hydrate-inhibition design basis for a named WHP — Fetch a named field design paper and record rates with basis
+- Storage tank sizes and dosing pump turndown for a named WHP chemical injection package — Fetch OEM datasheet and record printed ranges
+- Capital/operating cost of chemical injection system — Record with dollar year and scope basis only when a source is read
+
+### Chokes and choke manifolds (whp-chokes-and-choke-manifolds)
+
+Primary code: UPS: Upstream
+Choke valves and choke manifolds provide well isolation, flow routing and flow control on trees and manifolds. A choke is described as the smallest restriction in a Christmas tree, used to control production rate (and in some cases sand production), with two types: positive chokes with interchangeable beans and adjustable chokes. Master valves are normally fully open and not operated while flowing; the lower master is normally manual, the upper often hydraulically actuated for remote shut-in, an
+Vendors: TechnipFMC (CDS Separation Systems), Aker Solutions, Velan, Flowserve (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Choke valve (positive/bean and adjustabl — Conventional choke-manifold circuit arrangement | 2 choke circuits | US20120273228A1 background: conventionally 'at least two choke circuits in which two adjustable chokes are arranged such that one adjustable choke may be isolated and taken out of service for repair and refurbishment while well flow is directed through the other' |
+| Choke valve (positive/bean and adjustabl — Series subsea production choke pressure-difference capability | 4500-5500 psi | WO2008045381A2 claims 5-6: difference between well pressure and riser pressure 'greater than 4500 psi' / 'greater than 5500 psi'; patent states pressure difference between chokes typically less than 4000 psi, more typically less than 2500 psi |
+| Choke valve (positive/bean and adjustabl — Combined choke flow coefficient range (two chokes in series) | 0.05-1.2 GPM*psi^0.5 | WO2008045381A2 claim 9: 'combined range of Cv of between 1.2 and 0.05 GPM*psi0 5' (most preferred 1.0 to 0.1 in claim 10) |
+
+
+Recorded gaps:
+
+- Choke valve bore sizes, Cv and actuator thrust for named tree models — Fetch datasheets and record printed ranges with basis
+- Failure rate (per demand/hour) and proof-test interval for production chokes — Record numeric rates only from a page actually read
+
+### Closed drain system and open/slop drain with sump caisson (whp-closed-drain-system-and-open-slop-drain-with-sump-caisson)
+
+Primary code: UPS: Upstream
+Drainage is part of platform utility scope alongside lifting, evacuation, power and environmental control. No primary page describing closed drain, open/slop drain and sump caisson design for a WHP was read in this sweep; the HILIR tech library has an equipment record ('Platform utilities: cranes, lifeboats, power generation, HVAC and drainage') whose cited pages were about crane vessels and a Gulf of Suez jacket case study, not drain design. Recorded as a gap rather than an estimate.
+Vendors: American Petroleum Institute (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| List membership | Recorded from the Mistral-chat WHP component list n/a | Item listed in the source chat; no numeric specification was found in the pages read. |
+
+
+Recorded gaps:
+
+- Closed drain system design basis — Fetch an open design basis or standards preview and record pressure, turndown and routing with basis
+- Open/slop drain and sump caisson sizing — Fetch a named design paper and record dimensions/capacity
+- Drain system failure rates, availability and proof-test interval — Record numeric data only from a page actually read
+- Drain system cost — Find cost with dollar year and basis
+
+### Export risers and subsea pipeline tie-ins to the CPP or FSO (whp-export-risers-and-subsea-pipeline-tie-ins-to-the-cpp-or-fso)
+
+Primary code: UPS: Upstream
+Rigid flowlines and export pipelines carry oilfield fluids from wellhead/manifold to the processing facility and from offshore facilities to onshore receiving terminals; risers accommodate vessel motion and environmental loads between seabed flowlines/PLET and the surface host. TechnipFMC lists single pipelines, plastic-lined pipelines, corrosion-resistant alloy pipelines, direct electrically heated pipelines, pipe-in-pipe, electrically trace-heated pipe-in-pipe, piggybacked pipelines, steel cat
+Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, Aker Solutions, American Bureau of Shipping (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Rigid flowlines, export pipelines and tr — Rigid pipeline diameter range | 4-18 inch | TechnipFMC rigid pipelines: 'range from small diameter 4-inch pipes for oilfield service fluids, to 18-inch infield lines, to larger diameter export trunk lines connecting offshore processing facilities to onshore receiving facilities' |
+| Rigid flowlines, export pipelines and tr — Installed pipe-in-pipe length (company track record) | 1100 km | TechnipFMC: 'more than 1,100 kilometers of installed pipe-in-pipe' (value recorded as 1100 with 'more than' qualifier) |
+
+
+Recorded gaps:
+
+- Actual riser diameters, wall thicknesses and tensioner ratings for a named WHP/FSO tie-in — Fetch project-specific riser paper and record printed dimensions
+- Riser/pipeline failure rate or availability for WHP export systems — Record numeric reliability only from a page actually read
+
+### Pig launcher / receiver for the export pipeline (whp-pig-launcher-receiver-for-the-export-pipeline)
+
+Primary code: UPS: Upstream
+Pig traps launch and receive pigs to clean or inspect flowlines between manifold and platform / along export pipelines. SPEC Oil & Gas lists pig launchers and receivers among its ancillary equipment (page read). Patent US4135949A describes the safety interlock problem: inadvertent opening of a pressurised receiver or admission of fluid while the closure is off is a hazard to personnel and the environment.
+Vendors: Aker Solutions (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Pig launcher / receiver (pig trap) — Example pig receiver station diameter vs pipeline | 42 inch | US4135949A: 'a thirty inch diameter pipeline can have a forty-two inch diameter station which usually will be of length considerably greater than the diameter of the pipe' |
+| Pig launcher / receiver (pig trap) — Interlock preferred setpoint | 5 psig | US4135949A: pressures up to about ten pounds preferred; 'a pressure of about 5 psig is most preferred because of convenience' |
+| Pig launcher / receiver (pig trap) — Safe-to-open closure pressure setpoint | 0.5-1 psig | US4135949A: 'By choosing a setpoint of about 1/2 to about 1 psig it can be assured that the vessel is free of dangerous pressure levels before the operation of opening the vessel can begin' |
+
+
+Recorded gaps:
+
+- Pig trap pressure class, size and supplier for a named WHP — Fetch a pig trap datasheet and record size, pressure class and material with basis
+- Capital cost of pig launcher/receiver — Find cost with dollar year and scope basis
+
+### Production manifold / headers with production and test headers to commingle fluids (whp-production-manifold-headers-with-production-and-test-headers-to-commin)
+
+Primary code: UPS: Upstream
+Wellhead gathering manifold and headers that commingle flows from multiple wells, route them to production and test headers, distribute injection fluids/chemicals and provide isolation and pigging interfaces. On a typical platform the process train is listed as wellhead, production manifold, production separator, glycol dehydration, gas compressors, water injection pumps, oil/gas export metering and main oil line pumps (Wikipedia Oil platform, read). OEM manifold/tie-in systems include tradition
+Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, Aker Solutions (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Production / test manifold and headers — Manifold pressure rating (upper) | 20000 psi | TechnipFMC Manifolds page: 'Up to 20K psi' (as printed) |
+| Production / test manifold and headers — Manifold temperature rating (upper) | 350 degF | TechnipFMC Manifolds page: 'Up to 350F' (as printed) |
+| Production / test manifold and headers — Connection diameter (upper) | 30 ft | TechnipFMC Manifolds page: 'Up to 30’ connection diameter' (as printed) |
+
+
+Recorded gaps:
+
+- Design pressure/temperature of a named topside production/test header (not subsea manifold) — Fetch a named topside manifold or production/test header datasheet and record ratings with basis
+- Capital cost of production manifold/headers — Find a cost figure with explicit dollar year and scope basis; leave as gap until then
+
+### Sampling connections and gauging (whp-sampling-connections-and-gauging)
+
+Primary code: UPS: Upstream
+Sampling and gauging connections provide fluid property data for allocation, custody transfer and sales-specification compliance. A Christmas tree often provides chemical injection points, monitoring points (pressure, temperature, corrosion, erosion, sand detection, flow rate, flow composition, valve and choke valve position feedback) and connection points for downhole pressure and temperature transducers (Wikipedia, read). Emerson's Roxar 2600 MPFM gives real-time three-phase measurement withou
+Vendors: Baker Hughes / Emerson Roxar, TechnipFMC (CDS Separation Systems), Honeywell (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Multiphase flow meter (Roxar 2600) / met — MPFM operating envelope (GVF / WLR) | 0-100 % | Emerson Roxar 2600 FAQ: 'high accuracy multiphase flow measurement for all phases within the full range of flowing conditions, 0-100% GVF and 0-100% WLR' |
+| Multiphase flow meter (Roxar 2600) / met — Meter sizes available | 6 sizes | Emerson FAQ: 'Roxar™ 2600 MPFM is available in 6 sizes, with material options ranging from duplex stainless steel to Inconel' |
+
+
+Recorded gaps:
+
+- Design pressure of Roxar 2600 MPFM (3,750 psi ANSI / 5,000 psi hub) and 1.5-8 in sizes — Fetch the datasheet and record the figures with exact basis
+- Sampling point count, location and sampler model for a named WHP — Fetch a design page and record printed connections and sampling devices
+- Cost of metering/sampling package — Record with dollar year and basis only when a source is read
+
+### Vents / flare tip (whp-vents-flare-tip)
+
+Primary code: UPS: Upstream
+Flare and vent systems dispose of relief/blowdown/start-up gas by controlled combustion; a knock-out drum upstream removes entrained liquid to prevent liquid carryover, flame instability and hazardous 'flaming rain' (CRA Energy page, read). FlareTech states its knockout drums range from 2 to 600 barrels. The claim that cold vent is common on unmanned WHPs is not supported by a page read in this sweep and is left as a gap.
+Vendors: Allmarc Industries, John Zink (Koch Engineered Solutions) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Flare stack / boom and flare tip — Flare KO drum size range (fabricator) | 2-600 BBL | FlareTech Inc. Flare Knockout Drums page: 'designed and manufactured Flare Knockout Drums from small 2 Barrels (BBL) to large 600BBL volumes' |
+
+
+Recorded gaps:
+
+- Cold vent prevalence on unmanned WHPs — Fetch a regulator/operator page and record the venting practice with its exact wording
+- Flare tip diameter, radiation limit and stack height for a specific WHP — Fetch a flare design paper and record printed values
+- Flare tip failure rate, availability and proof-test interval — Record numeric data only from a page actually read
+- Flare/vent system capital cost — Find cost with dollar year and basis
+- Flare tip patent — Open a patent page directly and read assignee and publication year before recording
+
+## whp-safety-emergency
+
+### Escape routes, muster points, signs and safety lighting (whp-escape-routes-muster-points-signs-and-safety-lighting)
+
+Primary code: HSE: Health, safety and environment
+Arrangements that let personnel reach muster and embarkation stations: at least two widely separated means of escape, marked routes, photoluminescent strip indicators, emergency lighting, assembly/mimic plans, EEBDs and handrail strength requirements. Sources are SOLAS II-2/13, IMO MODU Code, classification and regulator pages.
+Vendors: IMO text hosted by imorules.com / classification register (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Escape route marking and emergency light — Number of means of escape | 2 widely separated means from all spaces or group of spaces | SOLAS II-2/13.2.1 (read on imorules.com) |
+| Escape route marking and emergency light — Strip indicator height above deck | 300 mm (maximum) | SOLAS II-2/13.3.2.5.1: escape routes marked by lighting or photoluminescent strip indicators placed not more than 300 mm above deck at all points including angles and intersections |
+| Escape route marking and emergency light — Maximum dead-end corridor length | 7 m | SOLAS II-2/13.3.3.4 for cargo ships; IMO 2009 MODU Code 9.4.1.3 and RS Class Rules 9.2.6 (search extracts) |
+| Escape route marking and emergency light — Quick-release escape door force | 67 N (maximum) | SOLAS II-2/13.3.2.6.2: latch releases when force not exceeding 67 N applied; actuating bar at least 760 mm and not more than 1120 mm above deck |
+| Escape route marking and emergency light — Handrail / handhold strength | 750 N/m (horizontal and vertical distributed load) | SOLAS II-2/13.7.3.1 |
+| Escape route marking and emergency light — Minimum clear width of escape stairway with single escape | 800 mm | SOLAS II-2/13.3.2.1.2 with handrails on both sides |
+| Escape route marking and emergency light — Minimum EEBDs in accommodation | 2 devices | SOLAS II-2/13.3.4.2: all ships shall carry at least two emergency escape breathing devices within accommodation spaces |
+| Reliability — General alarm test frequency (MODU) | 1 per week | 46 CFR 109.301(d)(3): 'The general alarm system must be tested' under weekly inspections and tests |
+
+
+Recorded gaps:
+
+- Offshore-specific illumination levels (lux) for muster areas, temporary refuge and escape routes — Retrieve the HSE circular from an archived copy and WebFetch it, or obtain EN 1838 text
+- Named vendors for photoluminescent escape-route systems on offshore units — Search OEM datasheets for photoluminescent escape guidance systems with printed lux/endurance specs
+
+### Fire extinguishers, hydrant hoses, SCBA sets on manned platforms (whp-fire-extinguishers-hydrant-hoses-scba-sets-on-manned-platforms)
+
+Primary code: HSE: Health, safety and environment
+Portable and semi-portable extinguishers, fire-main hydrants and hoses, and self-contained breathing apparatus for fire teams on manned offshore installations. Evidence is from USCG Outer Continental Shelf and Deepwater Port regulations, SOLAS/IMO sources, US 46 CFR emergency-equipment rules and an OEM product catalogue.
+Vendors: US Coast Guard (OFR) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Self-contained breathing apparatus (SCBA — Minimum air supply | 30 min | 46 CFR 77.30-5(a): each SCBA must be pressure-demand open-circuit type, MSHA and NIOSH approved, with at minimum a 30-minute air supply and a full facepiece |
+| Reliability — Monthly extinguisher inspection | 1 per month | 33 CFR 145.01(b)(2): monthly inspections required by NFPA 10 may be conducted by owner, operator, person-in-charge or designated crew member |
+| Reliability — Annual extinguisher maintenance and hydrostatic test | 1 per year | 33 CFR 145.01(b)(1) and (4): annual maintenance/recharging to NFPA 10; hydrostatic pressure tests by qualified servicing facility |
+
+
+Recorded gaps:
+
+- Fire extinguisher, hydrant hose and SCBA purchase prices with dollar year — Obtain OEM distributor quotations with explicit dollar year
+- SCBA cylinder and duration figures from a WebFetch-readable page — Fetch accessible HTML mirrors or read PDFs with a PDF-capable tool
+- Offshore-platform-specific fire-hose and hydrant spacing — WebFetch those eCFR sections directly
+
+### Life rafts, retrieval nets, sea rescue baskets (whp-life-rafts-retrieval-nets-sea-rescue-baskets)
+
+Primary code: HSE: Health, safety and environment
+Inflatable liferafts (float-free and davit-launched), their canisters and hydrostatic release units, plus personnel transfer baskets / rescue baskets. Retrieval nets were not directly evidenced in the pages read; this is recorded as a gap.
+Vendors: IMO text mirrored by SOLAS/LSA Code (Vercel) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Mass limit for side-to-side transfer | 185 kg | 46 CFR 133.150(c)(1): craft boarded from deck less than 4.5 m above waterline and mass not more than 185 kg need not have launching appliance; LSA Code 4.1.2.2 equivalent |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Inflation time at 18-20 C | 1 min | LSA Code 4.2.2.3: inflation completed within 1 min at ambient 18-20 C |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Inflation time at -30 C | 3 min | LSA Code 4.2.2.3: inflation completed within 3 min at -30 C |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Buoyancy chamber compartment withstand pressure | 3 times working pressure | LSA Code 4.2.2.4 (numbered 4.2.7.4 in OCR mirror): each inflatable compartment withstand at least 3 times working pressure |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Carrying capacity divisor - tube volume | 0.096 m3 per person | LSA Code 4.2.3.1: greatest whole number from volume of main buoyancy tubes divided by 0.096 |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Carrying capacity divisor - floor area | 0.372 m2 per person | LSA Code 4.2.3.2: inner horizontal cross-sectional area divided by 0.372 |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Boarding ramp load | 100 kg | LSA Code 4.2.4.1: at least one entrance with semi-rigid boarding ramp capable of supporting a person weighing 100 kg sitting or kneeling and not holding onto the raft |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Boarding ladder lowest step below waterline | 0.4 m | LSA Code 4.2.4.2 for entrances without a boarding ramp |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Towing speed with full complement | 3 knots in calm water | LSA Code 4.2.5.3 |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Water pockets fill time | 60 % of capacity within 25 s of deployment | LSA Code 4.2.5.4.2 in OCR mirror |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Water pocket aggregate capacity, up to 10 persons | 220 L (minimum) | LSA Code 4.2.5.4.3 in OCR mirror |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Davit-launched raft suspension load | 4 times mass of full complement of persons and equipment | LSA Code 4.2.8.1.1: at 20 +/- 3 C with all relief valves inoperative |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Service interval (MODU) | 12 months | 46 CFR 109.301(g)(1): each inflatable lifesaving appliance serviced within 12 months of initial packing and each subsequent servicing (5-month delay allowed to next scheduled inspection) |
+| Inflatable liferaft (SOLAS / USCG-SOLAS  — Aggregate capacity, manned offshore installation | 100 % of persons on board | Canada OGI Regs s.22(1)(b): one or more inflatable liferafts with combined capacity at least 100% of total POB, float-free capability, Class A equipment |
+| Hydrostatic release unit (HRU) and float — HRU service interval (MODU) | 12 months | 46 CFR 109.301(h)(1): each hydrostatic release unit other than disposable serviced within 12 months of manufacture and each subsequent servicing |
+| Offshore personnel transfer basket / res — Capacity, SAFE-TRANSFER 8-person | 8 persons | Viking Life product page 1145-8: 'Capacity: 8 persons' |
+| Offshore personnel transfer basket / res — Payload, SAFE-TRANSFER 8-person | 1000 kg | Viking Life product page: 'Max load (payload): 1000 kg' |
+| Offshore personnel transfer basket / res — Rescue basket capacity, Canadian offshore rule | 6 persons (minimum) | Canada OGI Regs s.22(1)(f)(iii): 'a rescue basket capable of accommodating at least six persons' |
+| Offshore personnel transfer basket / res — Buoyant personnel transfer baskets, Canadian offshore rule | 2 baskets | Canada OGI Regs s.22(1)(f)(viii) |
+| Reliability — Inflatable liferaft service interval | 12 months | 46 CFR 109.301(g)(1) for MODUs |
+| Reliability — Hydrostatic release unit service interval | 12 months | 46 CFR 109.301(h)(1) |
+| Price — Revere USCG/SOLAS 'A' liferaft, low profile container - list price from | 4095 USD | Dollar year not stated; SurvivalAtSea.com listing shows copyright 2026; 'From $4095'; dollar year not stated. |
+| Price — Survitec Zodiac USCG/SOLAS 'A' liferaft, low profile container - list price from | 3450 USD | Dollar year not stated; SurvivalAtSea.com listing ©2026; 'From $3450'; dollar year not stated. |
+| Price — Survitec Zodiac XTREM USCG/SOLAS 'A' liferaft - list price from | 6250 USD | Dollar year not stated; SurvivalAtSea.com listing ©2026; 'From $6250'; dollar year not stated. |
+| Price — Revere USCG-approved compact liferaft - list price from | 5000 USD | Dollar year not stated; SurvivalAtSea.com listing ©2026; 'From $5000'; dollar year not stated. |
+| Price — Pre-owned Crewsaver USCG/SOLAS 6-person liferaft | 1995 USD | Dollar year not stated; SurvivalAtSea.com listing ©2026; was $3,595, now $1,995 (out of stock); dollar year not stated. |
+
+
+Recorded gaps:
+
+- Retrieval nets (liferaft retrieval / boarding nets) — Search OEM catalogues (Survitec, Viking, Zodiac) for 'liferaft retrieval net' datasheets and record printed specs
+- Liferaft service cost and replacement cost with dollar year — Find a dated USD service/replacement quotation from a US or APAC service station
+- Quantitative liferaft deployment reliability / failure-on-demand rate — Locate an open lifecycle/reliability study and WebFetch the text
+
+### Lifeboat / TEMPSC with davit (whp-lifeboat-tempsc-with-davit)
+
+Primary code: HSE: Health, safety and environment
+Totally Enclosed Motor Propelled Survival Craft (TEMPSC) launched by davit or free-fall, required on manned offshore units, together with lifebuoys (life rings) and their self-igniting lights, self-activating smoke signals and buoyant lifelines. Evidence spans USCG/US regulations, the IMO LSA Code, Canadian offshore rules, a manufacturer datasheet, two patents and historical records.
+Vendors: IMO text mirrored by SOLAS/LSA Code (Vercel) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Totally Enclosed Motor Propelled Surviva — Offered capacity range, manufacturer | 16-150 persons | Gohi Marine GLB series product table, 'Capacity 16-150 Persons'; 'Max. Capacity of 150 persons lifeboat is also available' |
+| Totally Enclosed Motor Propelled Surviva — Design mass per person, manufacturer option | 95 kg/person | Product title 'SOLAS Approved 95KG Per Person ... TEMPSC'; seat design can meet 100 kg per person |
+| Totally Enclosed Motor Propelled Surviva — Full-load speed | 6-? knots | Gohi Marine table 'Speed >=6' for all GLB50C/F to GLB117C/F models |
+| Totally Enclosed Motor Propelled Surviva — Minimum speed, Canadian offshore rule | 6 knots | Canada Oil and Gas Installations Regulations s.22(2)(e): 'be capable of a speed of not less than 6 knots' |
+| Totally Enclosed Motor Propelled Surviva — Self-contained air supply | 10 min | Canada OGI Regs s.22(2)(f): 'a self-contained air supply sufficient for at least 10 minutes' |
+| Totally Enclosed Motor Propelled Surviva — Aggregate capacity, manned installation | 200 % of persons on board | Canada OGI Regs s.22(1)(a): two or more totally enclosed survival craft with combined capacity at least 200% of total POB |
+| Totally Enclosed Motor Propelled Surviva — Launch time, all survival craft | 10 min | 46 CFR 133.150(a): capable of being launched with full complement within 10 minutes of abandon-ship signal |
+| Totally Enclosed Motor Propelled Surviva — Embarkation preparation time, 2 crew | 5 min | Canada OGI Regs s.22(2)(j): stowed so two crew members can complete preparations for embarkation and launching in less than 5 minutes |
+| Davit / launching appliance and winch wi — Structural attachment strength factor | 4.5 times load | 46 CFR 133.150(f): structural attachment designed to at least 4.5 times the load imparted and the ultimate strength of the material |
+| Davit / launching appliance and winch wi — Board davit-launched craft | 3 min | 46 CFR 133.150(g)(6): each davit-launched liferaft boardable by full complement within 3 minutes of instruction to board |
+| Davit / launching appliance and winch wi — Release gear proof load | 1.1 times total loaded mass | 46 CFR 109.301(i)(5): release gear operationally tested under load of 1.1 times total mass of lifeboat with full complement, whenever overhauled or at least once every 5 years |
+| Davit / launching appliance and winch wi — Launching appliance examination interval | 5 years (maximum) | 46 CFR 109.301(i)(2): thoroughly examined at intervals not exceeding 5 years, followed by dynamic test of winch brake |
+| Davit / launching appliance and winch wi — Fall renewal interval | 5 years (maximum) | 46 CFR 109.301(j): each fall inspected annually and renewed when necessary or at intervals of not more than 5 years, whichever earlier |
+| Davit / launching appliance and winch wi — Winch lowering speed, training mode | 30 m/min | WO2013122479A1: first flow control valve 'set to control the lowering speed at approximately 30 m/min' when isolating valve closed |
+| Davit / launching appliance and winch wi — Winch lowering speed, standby/evacuation mode | 60 m/min | WO2013122479A1: second primary flow control valve permits 'increasing the lowering speed to 60 m/min'; isolating valve normally open ready for evacuation |
+| Davit / launching appliance and winch wi — Accumulator normal working pressure | 200 bar | WO2013122479A1: 'normal working pressure of the accumulators is 200bar and the opening pressure of the multi disk brakes ... typically 18bar' |
+| Lifebuoy (life ring) with self-igniting  — Outer diameter | 800 mm (maximum) | LSA Code 2.1.1.1 as printed on SEAFDEC/TD page: 'outer diameter of no more than 800 mm' |
+| Lifebuoy (life ring) with self-igniting  — Inner diameter | 400 mm (minimum) | LSA Code 2.1.1.1: 'inner diameter of not less than 400 mm' |
+| Lifebuoy (life ring) with self-igniting  — Buoyancy | 14.5 kg iron in fresh water for 24 h | LSA Code 2.1.1.3 |
+| Lifebuoy (life ring) with self-igniting  — Mass | 2.5 kg (minimum) | LSA Code 2.1.1.4 |
+| Lifebuoy (life ring) with self-igniting  — Mass with quick-release for light/smoke | 4 kg (minimum) | LSA Code 2.1.1.7: if intended to operate quick-release arrangement for self-activated smoke signals and self-igniting lights |
+| Lifebuoy (life ring) with self-igniting  — Drop test height | 30 m (or stowage height, whichever greater) | LSA Code 2.1.1.6 |
+| Lifebuoy (life ring) with self-igniting  — Grab line diameter | 9.5 mm (minimum) | LSA Code 2.1.1.8, secured at four equidistant points to form four equal loops |
+| Lifebuoy (life ring) with self-igniting  — Fire resistance | 2 s (no burning/melting after total envelopment) | LSA Code 2.1.1.5 |
+| Lifebuoy (life ring) with self-igniting  — Number on manned offshore installation | 8-14 lifebuoys | Canada OGI Regs s.22(1)(f)(ii): 8 if <=100 m; 10 if >100 and <150 m; 12 if >=150 and <200 m; 14 if >=200 m |
+| Lifebuoy (life ring) with self-igniting  — Lifebuoys with lights / smoke | 50 % of total (at least half), with not fewer than 2 with smoke signals | Canada OGI Regs s.22(4) |
+| Lifebuoy (life ring) with self-igniting  — Buoyant lifeline length | 30 m (or 1.5 x stowage-to-waterline distance, whichever greater) | Canada OGI Regs s.22(5) for two lifebuoys not equipped with lights and smoke signals |
+| Reliability — Release gear proof test load factor | 1.1 x total loaded mass | 46 CFR 109.301(i)(5): at least once every 5 years or whenever overhauled |
+| Reliability — Launching appliance thorough examination interval | 5 years max | 46 CFR 109.301(i)(2), with dynamic test of winch brake on completion |
+| Reliability — Weekly lifeboat engine run time | 3 min ahead and astern | 46 CFR 109.301(d)(2) |
+
+
+Recorded gaps:
+
+- Quantity/availability/reliability figures for lifeboats and davits on offshore platforms — Fetch the PDFs by an alternate method and record failure probabilities with basis
+- Lifeboat/TEMPSC purchase price in USD with dollar year — Obtain a dated USD quotation from an OEM such as Survitec, Viking or Norsafe
+
+### Overboard dump valves and ESD-initiated isolation of all wells and pipelines (whp-overboard-dump-valves-and-esd-initiated-isolation-of-all-wells-and-pip)
+
+Primary code: HSE: Health, safety and environment
+Emergency shutdown (ESD) systems that isolate wells and pipelines, using surface safety valves (SSV), boarding shutdown valves (BSDV), subsurface safety valves (SSSV) and shutdown valves; plus overboard dump valves used on offshore water injection / drain systems. Evidence is primarily from BSEE regulation, API RP 14C definitions (search extract), API 6A (search extract), OEM datasheets and an incident-derived engineering article.
+Vendors: SLB (Cameron pressure control equipment), Cameron (SLB), Baker Hughes (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Surface Safety Valve (SSV) / Boarding Sh — Pressure class | 2000-20000 psi working pressure | Indus Hydraulics IH-OFE-SSV |
+| Surface Safety Valve (SSV) / Boarding Sh — Temperature range | -46-180 deg C | Indus Hydraulics IH-OFE-SSV |
+
+
+Recorded gaps:
+
+- Full text of API RP 14C 8th edition with safety analysis tables (SACs) and ESD appendix C — Read the standard PDF with a PDF-capable tool or obtain licensed copy
+- ESD proof-test results / availability figures for offshore platforms — Search for OREDA/operator ESD reliability data with printed figures
+- Prices for SSV, BSDV and overboard dump valves with dollar year — Request dated quotations
+
+## whp-structural-marine
+
+### Helideck (whp-helideck)
+
+Primary code: CIV: Civil and structural
+The read sources treat a helipad/helideck as an appurtenance: an NUI is described as little more than a well bay, helipad and emergency shelter; US4679964A describes a cantilevered helideck on single- or multi-well conductor-supported configurations; US4932811A describes an upper heliport deck carried by piles around a caisson. No page read in this sweep stated a helideck D-value, load classification, obstacle-free sector or a visit-frequency rule, and the CAP 437 PDF was refused.
+Vendors: Wikipedia (Wikimedia Foundation) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| List membership | Recorded from the Mistral-chat WHP component list n/a | Item listed in the source chat; no numeric specification was found in the pages read. |
+
+
+Recorded gaps:
+
+- Helideck D-value, load class and obstacle-free sectors — Read an HTML CAP 437 / ICAO helideck page, or fetch the PDF by another method, then record sections and values.
+- Visit frequency rule for crewed visits — Find an operator or regulator page stating the actual visit interval for Malaysian WHPs.
+- Malaysian helideck aviation standard — Locate and read the applicable Malaysian offshore helideck standard page.
+
+### Jacket structure (whp-jacket-structure)
+
+Primary code: CIV: Civil and structural
+A fixed steel jacket is a braced tubular, pile-founded substructure that carries the topside and laterally supports and protects well conductors and the pipeline riser; ESDEP states the overwhelming majority of platforms are piled-jacket with steel deck structures. For smaller/marginal fields the read sources describe conductor-supported minimum-facility platforms (MFP/CoSMOS), monopile or caisson alternatives. Appurtenances evidenced on read pages are a clamp-on boat landing (US4679964A, US4932
+Vendors: 2H Offshore (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Fixed steel jacket (3-/4-legged tubular, — Well conductor size protected by jacket | 26-30 inch | ESDEP Lecture 15A.1 section 4.1: jackets "support laterally and protect the 26-30 inch well conductors and the pipeline riser". |
+| Fixed steel jacket (3-/4-legged tubular, — Typical air gap (topside clearance above maximum wave) | 1.5 m (approximately) | ESDEP 15A.1 section 2.2: clearance usually taken at approximately 1.50 m, to be increased if reservoir depletion creates significant subsidence. |
+| Fixed steel jacket (3-/4-legged tubular, — Jacket pile diameter | ?-2 m (up to) | ESDEP 15A.1 section 4.2: open-ended tubular steel piles "with diameters up to 2m". |
+| Fixed steel jacket (3-/4-legged tubular, — Jacket pile penetration, typical | 40-80 m | ESDEP 15A.1 section 4.2: piles driven approximately 40 - 80 m into the seabed. |
+| Fixed steel jacket (3-/4-legged tubular, — Jacket pile penetration, deep case | 120 m (in some cases) | ESDEP 15A.1 section 4.2: "and in some cases 120 m deep into the seabed". |
+| Fixed steel jacket (3-/4-legged tubular, — Economically feasible water depth, fixed platform | 500 ft (about 150 m) | Wikipedia Fixed platform: "economically feasible for installation in water depths up to about 500 feet (150 m)". Conflicts with the 520 m figure on the Oil platform page; neither preferred. |
+| Fixed steel jacket (3-/4-legged tubular, — Economically feasible water depth, fixed platform (second source) | 520 m (about 1,710 ft) | Wikipedia Oil platform: "Fixed platforms are economically feasible for installation in water depths up to about 520 m (1,710 ft)". Conflict noted; neither figure preferred. |
+| Boat landing / barge impact protection ( — Conductor diameter for clamp-on boat landing | 26-30 inch | US4679964A description: conductor pipe "typically in the range of about 26 to about 30 inches in diameter" with wall thickness about one inch; boat landing clamped to it at the water line. |
+| Boat landing / barge impact protection ( — Example anchor pile length | 70 ft | US4679964A description: "the piling is 70 feet in length" with about 52 feet protruding into the seabed. |
+| Boat landing / barge impact protection ( — Clamp-base footprint of prior-art Sea Horse system | 40 ft (approximately, square) | US4932811A background: "The base of the sea horse clamp is approximately forty by forty feet square where piling are driven through the cans". |
+| Conductor-supported / monopile substruct — Conductor-supported platform water depth applicability | ?-120 m (up to) | 2H Minimum Facility Platforms: conductor-supported MFPs "suitable for water depths up to 120m". |
+| Reliability — Offshore inspection, maintenance and repair share of OPEX | 20 % of OPEX (North Sea) | ESDEP 15A.1 section 9.3: "In the North Sea approximately 20 percent of OPEX are required for offshore inspection, maintenance and repair (IMR)". |
+| Reliability — Dynamic analysis trigger | 3 seconds (natural period) | ESDEP 15A.1 section 8.1: dynamic analysis performed for system behaviour under wave attack if the natural period exceeds 3 seconds. |
+
+
+Recorded gaps:
+
+- Barge bumper and pull-in tube sizing — Fetch a jacket appurtenance specification page or engineering-company detail sheet and read it with WebFetch.
+- ISO 19902 full text — Locate and WebFetch a readable ISO 19902 landing page, or read the standard under licence.
+- Current API RP 2A edition — Fetch an API page that prints the current RP 2A-WSD edition and status.
+- Conflicting fixed-platform water-depth limits — Seek a primary standard or API text stating the applicability range.
+- Kebabangan platform description conflict — Cross-check against KPOC / operator or contractor sources.
+- Jacket-only cost with dollar year — Fetch a project page with a named-year USD contract value.
+
+### Malaysian WHP operating context: normally unmanned, no separators/produced-water treatment/g (whp-malaysian-whp-operating-context-normally-unmanned-no-separators-produc)
+
+Primary code: CIV: Civil and structural
+Read pages establish that Anjung Kecil WHP is a Tarpon "minimum facility and unmanned platform typically installed in shallow water", tied to the MaMPU-1 FPSO which carries crude stabilisation (Sep-iSYS), a low-pressure condensate recovery unit and storage. The NUI articles describe remote operation with occasional visits and emergency shelter. 2H describes an unmanned MFP tied back by flexible flowline. The specific claims of no separators/produced-water treatment/gas compression onboard and fo
+Vendors: 2H Offshore (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Host FPSO / MOPU with processing (MaMPU- — FPSO storage capacity | 318000 barrels | Offshore Technology Anjung Kecil: storage capacity of the MaMPU-1 FPSO is 318,000 barrels. |
+| Host FPSO / MOPU with processing (MaMPU- — FPSO oil production capacity | 15000 barrels of oil per day | Offshore Technology Anjung Kecil: production capacity of 15,000 barrels of oil per day. |
+| Host FPSO / MOPU with processing (MaMPU- — FPSO gas handling capacity | 25 million metric standard cubic feet per day (mmscfd) | Offshore Technology Anjung Kecil: gas handling capacity of 25 million metric standard cubic feet per day. |
+| Host FPSO / MOPU with processing (MaMPU- — Incremental oil from LP-CRS | 50 barrels of oil per one million square cubic feet of flared gas (as printed) | Offshore Technology Anjung Kecil: CRS and Sep-iSYS expected to add approximately 50 barrels of oil per one million square cubic feet of flared gas. |
+| Host FPSO / MOPU with processing (MaMPU- — Flaring emissions reduction | 25-30 % on daily flaring rates | Offshore Technology Anjung Kecil: technology will reduce carbon emissions by 25% to 30% on daily flaring rates. |
+| Host FPSO / MOPU with processing (MaMPU- — Dynamic subsea power cable | 1.26 km | Offshore Technology Anjung Kecil: dynamic subsea power cable between FPSO and well-head platform. |
+| KMSE / AJK WHPs (PETRONAS Carigali) — Water depth | 70-85 m | Tarpon KMSE/AJK project page. |
+| KMSE / AJK WHPs (PETRONAS Carigali) — Design life | 20 years | Tarpon KMSE/AJK project page. |
+| KMSE / AJK WHPs (PETRONAS Carigali) — Distance offshore | 200 km (approximately, offshore Bintulu, Sarawak) | Tarpon KMSE/AJK page: fields located in Block SK315 approximately 200km offshore from the coast of Bintulu, Sarawak. |
+| Price — Kebabangan FEED contract value (USD-equivalent as printed) | 30 USD million (as printed) | As printed: "The four-year contract is valued at Nkr170m (approximately $30m)". Dollar year not stated; article dated 5 May 2016. USD-equivalent only; Nkr figure not converted here.; dollar year not stated. |
+| Price — Kebabangan topsides fabrication contract | 380 USD million (as printed) | As printed: "A $380m (RM1.15bn) contract to fabricate the topsides of the platform was awarded to Sime Darby Engineering in April 2011". Dollar year not stated; article dated 5 May 2016.; dollar year not stated. |
+
+
+Recorded gaps:
+
+- No separators / produced-water treatment / gas compression onboard — Fetch a PETRONAS/Vestigo WHP facilities-scope page listing equipment excluded from the WHP.
+- Fortnightly visits — Verify with an operator or regulator page before recording.
+- All processing on CPP/FSO/MOPU — Fetch operator pages describing the host-processing split.
+- Malampaya, Tangguh and Kebabangan WHP-specific details — Fetch and WebFetch those project pages before adding figures.
+- Dollar-year on Kebabangan USD figures — Find a source with an explicit dollar year.
+
+### Minimum-facility WHP logistics: designed for jack-up-rig installation, little or no onboard (whp-minimum-facility-whp-logistics-designed-for-jack-up-rig-installation-l)
+
+Primary code: CIV: Civil and structural
+2H Offshore describes conductor-supported minimum facility platforms (MFP, MFP+ and the CoSMOS variant) that can be entirely installed from a jack-up drilling rig, eliminating conventional offshore installation spread. The SE Asia project used a multiphase flow meter and three power sources (solar panels, nitrogen racks, diesel-powered cranes) to reduce topside payload, with an 8 km flexible flowline tieback and two-stage installation. Tarpon describes relocatable, 20-year-life, three-slot minim
+Vendors: 2H Offshore (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Conductor-supported minimum facility pla — Applicable water depth | ?-120 m (up to) | 2H Minimum Facility Platforms: conductor-supported MFPs "suitable for water depths up to 120m". |
+| Conductor-supported minimum facility pla — Stated design and delivery expertise | 15 years | 2H MFP page: "With 15 years’ expertise in the design and delivery of MFPs" (page undated). |
+| Conductor-supported minimum facility pla — Production wells on SE Asia MFP | 2 wells | 2H project: "an unmanned minimum facilities wellhead platform housing two production wells along with provisions for future gas lift". |
+| Conductor-supported minimum facility pla — Flexible flowline tieback length | 8 km | 2H project: tied back "using an 8km flexible flowline". |
+| Conductor-supported minimum facility pla — Number of diversified power sources | 3 power sources | 2H project: "diversifying power supply from three different power sources (solar panels, nitrogen racks and diesel powered cranes)". |
+| Conductor-supported minimum facility pla — Design, delivery and installation duration | 10 months | 2H project: CoSMOS platform "successfully designed, delivered and installed within 10 months, and ahead of schedule". |
+| Conductor-supported minimum facility pla — Project man-hours | 225000 man hours (approximate) | 2H project: milestone achieved "with approx. 225,000 man hours and zero lost time incidents (LTI)". |
+| Conductor-supported minimum facility pla — Installation campaign stages | 2 stages | 2H project: two-part installation campaign; substructure installed early so drilling ran in parallel with topside fabrication, topside installed in second phase. |
+| Jack-up rig (installation and drilling u — Jack-up drilling water depth | 100-120 m | ESDEP 15A.1 section 3.1: jack-up drilling rigs used for exploration wells for water depths up to 100 - 120 m. |
+| Jack-up rig (installation and drilling u — Jack-up typical water depth | ?-120 m (390 ft), some designs 170 m (560 ft) | Wikipedia Oil platform, Jack-up drilling rigs section. |
+| Jack-up rig (installation and drilling u — Jack-up depth in patent background | ?-300 ft (generally designed up to) | US5513929A background: "the jack-up is generally designed for water depths up to three hundred feet". |
+| Tarpon relocatable WHP — Conductor slots per platform | 3 slots (20-inch, internal to caisson) | Tarpon KMSE/AJK page: each platform has three 20-inch conductor slots internal to the caisson, two utilised and one spare. |
+| Tarpon relocatable WHP — Design life | 20 years (operational lifespan) | Tarpon KMSE/AJK page: platforms designed for a 20-year operational lifespan and made relocatable. |
+| Tarpon relocatable WHP — Water depth range | 70-85 m | Tarpon KMSE/AJK page: water depths varying from 70m to 85m. |
+| Reliability — Lost time incidents on CoSMOS project | 0 LTI (lost time incidents) | 2H project: approx. 225,000 man hours and zero lost time incidents, attributed to QHSE procedures. |
+
+
+Recorded gaps:
+
+- MFP cost with dollar year — Fetch a project page printing a dated USD cost.
+- Onboard processing inventory for the SE Asia MFP — Fetch a facilities scope page to confirm which processing equipment is omitted.
+- Fortnightly visit interval — Find a Malaysian operator page stating visit frequency.
+- Jack-up installation sea-state limits — Fetch an installation-method statement with stated weather window.
+
+### Risers and J-tubes for pipelines and subsea cables (whp-risers-and-j-tubes-for-pipelines-and-subsea-cables)
+
+Primary code: CIV: Civil and structural
+ESDEP defines a pipeline riser as the piping rising from seabed to topside level and describes conductors as protecting and guiding the drill string from topside to 40-100 m below the seabed. US5513929A describes conventional casing guides and tensioned-casing production risers; US4679964A shows a prefabricated riser pipe from a conductor-mounted miniplatform to a remote flowline. At Anjung Kecil a 1.26 km dynamic subsea power cable links the FPSO to the wellhead platform. No page read during th
+Vendors: FGG Web (FGG, Uni Ljubljana) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Pipeline riser / conductor-guided riser — Conductor depth below seabed | 40-100 m (under sea bottom) | ESDEP 15A.1 glossary, "CONDUCTORS": tubular protecting and guiding the drill string from topside down to 40 to 100 m under the sea bottom. |
+| Pipeline riser / conductor-guided riser — Conventional conductor diameter examples | 24-30 inch | US5513929A background: conductors "usually from twenty-four to thirty inches" in diameter. |
+| Pipeline riser / conductor-guided riser — Sump / discharge pipe depth below water level | 5-10 m below water level | ESDEP 15A.1 glossary, "SUMPS": vertical pipes from topside down to 5-10 m below water level for intake or discharge. |
+| Dynamic subsea power cable (FPSO to WHP) — Dynamic subsea power cable length | 1.26 km | Offshore Technology Anjung Kecil: "A 1.26km-long dynamic subsea power cable will be laid between the FPSO and the well-head platform as part of the field modification plan". |
+| Reliability — Dynamic analysis trigger for slender members and conductors | 3 seconds (natural period) | ESDEP 15A.1 section 8.1: dynamic analysis if natural period exceeds 3 seconds; slender jacket members and conductors listed as locally dynamic. |
+
+
+Recorded gaps:
+
+- J-tube sizing and bend restrictor data — Fetch and WebFetch a manufacturer J-tube/bend-restrictor data page.
+- Riser design standard — Fetch readable HTML pages naming the applicable riser standards and read them.
+- Riser fatigue life and inspection interval — Fetch an operator or integrity-management page with stated intervals.
+
+### Topside decks (whp-topside-decks)
+
+Primary code: CIV: Civil and structural
+Read sources describe topside structural concepts (single integrated deck, split deck, integrated deck with living quarters, modular topside on a module support frame), weight bands and one-lift installation limits, plus equipment module and living-quarter module construction. ESDEP lists major deck functions including well control, separation, pumps/compressors, power generation and accommodation. No page read during this sweep explicitly names the cellar/main/mezzanine three-level arrangement 
+Vendors: 2H Offshore (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Integrated / modular topside deck and mo — Single integrated deck weight limit | ?-100 MN (up to approximately) | ESDEP 15A.1 section 5.2.1: "the single integrated deck (up to approx 100 MN)". |
+| Integrated / modular topside deck and mo — Topside single-lift installation limit | ?-120 MN (up to approximately) | ESDEP 15A.1 section 7.2.4: "For topsides up to approximately 120 MN, the topside may be installed in one lift". |
+| Integrated / modular topside deck and mo — Major modularized topside weight | 200-400 MN | ESDEP 15A.1 section 5.2.3: "A major modularized topside weighs 200 to 400 MN". |
+| Integrated / modular topside deck and mo — Equipment module weight | 20-75 MN | ESDEP 15A.1 section 6: equipment modules (20-75 MN), rectangular boxes with one or two intermediate floors. |
+| Integrated / modular topside deck and mo — Living quarter module weight | 5-25 MN | ESDEP 15A.1 section 6: living quarter modules (5-25 MN). |
+| Wellhead area / deck level arrangement — Kebabangan deck content and mass | 17000 t (deck weight) | Offshore Technology Kebabangan: deck weighs 17,000 t and features a tender-assisted drilling (TAD) rig, utilities and accommodation for staff. |
+| Reliability — Design life of Tarpon KMSE/AJK WHPs | 20 years (operational lifespan, design) | Tarpon Systems project page: platforms designed for a 20-year operational lifespan and made relocatable. |
+| Price — Topsides fabrication contract, Kebabangan | 380 USD million (as printed) | As printed: "A $380m (RM1.15bn) contract to fabricate the topsides of the platform was awarded to Sime Darby Engineering in April 2011". Dollar year not stated; article dated 5 May 2016. Not a unit-rate or full project cost.; dollar year not stated. |
+
+
+Recorded gaps:
+
+- Cellar / main / mezzanine deck naming — Fetch a WHP topside GA description page and confirm the deck naming and functions.
+- Deck steel weight for an unmanned WHP — Fetch a minimum-facility topside weight statement.
+- USD deck cost with stated dollar year — Find a dated-cost source or record literal basis "dollar year not stated" as done here.
+
+## whp-utility
+
+### Crane (whp-crane)
+
+Primary code: UPS: Upstream
+Unmanned and manned WHPs use pedestal/deck cranes for supply-boat transfers, wireline/coiled-tubing equipment and module handling. PALFINGER AHC crane data gives printed capacity/radius/wire ranges; Ramboll/NPD gives crane sizes by UWHP type. No page read gave a quantified laydown-area specification.
+Vendors: PALFINGER (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Pedestal/deck crane - PALFINGER active h — SWL range | 5-250 tons | PALFINGER can deliver AHC cranes with SWL ranging from 5 to 250 tons and wire capacities exceeding 3,000 meters |
+| Pedestal/deck crane - PALFINGER active h — Hoisting capacity | 250 metric tons (up to) | Hoisting capacity up to 250 metric tons |
+| Pedestal/deck crane - PALFINGER active h — Jib radius | 50 m (up to, engineering to order) | Jib radius up to 50 meters (engineering to order) |
+| Pedestal/deck crane - PALFINGER active h — Main winch wire capacity | 3000 m | 3,000-meter wire capacity for standard range |
+| Pedestal/deck crane - PALFINGER active h — Winterisation temperature | -50 degC | PALFINGER has developed a range of innovative solutions that ensure safe and reliable performance at temperatures as low as -50 °C |
+| UWHP pedestal crane sizing by platform t — Type 0 crane sizing | 50-60 tonnes (coiled tubing equipment) | The platform has a crane sized for coiled tubing equipment (50-60 tonnes) |
+| UWHP pedestal crane sizing by platform t — Type 1 crane sizing | 10-50 tonnes (well intervention equipment) | The platform has a crane sized for well intervention equipment (10-50 tonnes) |
+| UWHP pedestal crane sizing by platform t — Type 2 crane sizing | 1-2 tonnes | The platform has a small crane (1-2 tonnes) |
+
+
+Recorded gaps:
+
+- Crane and laydown areas — Fetch a WHP topside layout/general arrangement drawing or structural design basis with deck load ratings
+- Crane and laydown areas — Fetch an OEM quotation or project equipment cost report
+
+### Diesel storage and transfer (whp-diesel-storage-and-transfer)
+
+Primary code: UPS: Upstream
+Bulk marine gasoil is bunkered from shore/vessel to the installation, held in storage and day tanks, and transferred to emergency gensets, fire pumps and crane engines. The read guidance sets fuel quality, microbial and water limits, tank inspection and bunkering controls; JIP33 S-714/S-721 give day-tank and fuel-system design requirements.
+Vendors: Marine Safety Forum (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Marine gasoil (MGO) bulk storage and day — Maximum sulphur content (SECA) | 0.1 % | Offshore Installations in the North Sea fall within a Sulphur Emission Control Area (SECA) that limits ships to use fuel with a maximum sulphur content of 0.1% |
+| Marine gasoil (MGO) bulk storage and day — Minimum flash point | 60 degC | According to the International Convention for Safety of Life at Sea (SOLAS) the Flash Point must be a minimum of 60°C |
+| Marine gasoil (MGO) bulk storage and day — Pour point, summer / winter | -6-0 degC | This is 0°C in summer and -6°C in winter |
+| Marine gasoil (MGO) bulk storage and day — Cold filter plugging point, summer / winter (BS 2869) | -12--4 degC | The BS:2869 specification is -4°C in Summer and -12°C in Winter |
+| Marine gasoil (MGO) bulk storage and day — Maximum fuel retained onboard before testing | 30 days | fuel is not retained onboard for more than 30 days |
+| Marine gasoil (MGO) bulk storage and day — Day tank minimum operating level above fuel injection pump inlet | 300 mm | The day tank minimum operating level shall be 300 mm (12 in) above inlet of the fuel injection pump where a positive static head is required |
+| Reliability — Water content - negligible / moderate / heavy | 100-200 mg/kg | Water content (e.g. by IP438): Negligible <100 mg/kg; Moderate 100 - 200 mg/kg; Heavy >200 mg/kg |
+| Reliability — Total viable count of culturable bacteria/yeasts/moulds | 10000-100000 CFU/Litre | Total Viable Count of culturable bacteria, yeasts and/or moulds (e.g. by IP385 / ASTM D6974 or IP613): Negligible <10^4 CFU/Litre; Moderate 10^4 - 10^5 CFU/Litre; Heavy >10^5 CFU/Litre |
+| Price — Diesel standby fuel infrastructure - day tank | 2000-8000 USD | a day tank (2,000–8,000) ... fuel infrastructure cost ranges, 2026 vendor pricing guide; dollar year 2026. |
+| Price — Diesel standby fuel infrastructure - bulk storage tank | 8000-60000 USD | bulk storage tank (8,000–60,000+ depending on capacity); dollar year 2026. |
+| Price — Fuel infrastructure for 500 kW / 72 h autonomy | 25000-50000 USD | For a 500 kW facility requiring 72 hours of autonomous runtime, fuel infrastructure can add 25,000–50,000 to the total project; dollar year 2026. |
+| Price — Diesel fuel cost | 0.08-0.15 USD/kWh | Fuel cost per kWh - Diesel Standby: 0.08–0.15; dollar year 2026. |
+
+
+Recorded gaps:
+
+- Diesel storage and transfer — Fetch a named WHP/BEP design basis or utility specification with tank sizes and pump ratings
+- Diesel storage and transfer — Fetch an OEM fuel-transfer-pump datasheet with flow, head and material specs
+
+### Diesel-driven emergency generator with UPS/battery banks (whp-diesel-driven-emergency-generator-with-ups-battery-banks)
+
+Primary code: UPS: Upstream
+Emergency/essential diesel generator packages supply emergency, essential and main loads on ISO/IEC offshore units; JIP33 S-714-1J sets starting, battery, cooling, excitation and testing requirements. UPS/battery banks bridge the gap to generator pickup and support black start; the Equinor patent and Shell Timi design give battery/UPS architecture and energy levels. USCG/IEEE practice defines essential-generation loads including HVAC, potable water, instrument air and crane auxiliaries.
+Vendors: Cummins, Caterpillar, Shell Malaysia Exploration and Production (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Diesel generator package (emergency/esse — Independent starting systems for emergency service | 2 systems | Diesel engines in emergency generator service shall have two independent starting systems |
+| Diesel generator package (emergency/esse — Cranking cycles without recharge | 3 cycles of 15 s cranking + 15 s rest | Starting systems shall be rated for handling three consecutive cranking cycles, each of 15 s of cranking and 15 s of rest, without recharging the battery or pressurizing the air vessel or hydraulic oil accumulator |
+| Diesel generator package (emergency/esse — Radiator / air cooler design margin | 110 % of heat load at maximum engine power | Radiators or external air coolers shall be designed for 110 % of the heat load at the maximum engine power, at the maximum ambient design temperature |
+| Diesel generator package (emergency/esse — Water-cooled heat exchanger design margin | 110 % of maximum heat load | Water-cooled heat exchangers shall be designed for 110 % of the maximum heat load at the maximum cooling medium inlet temperature |
+| Diesel generator package (emergency/esse — Insulated bearing threshold | 350 mV RMS shaft voltage | Bearing insulation shall be provided for generators with shaft voltage greater than 350 mV RMS value |
+| Diesel generator package (emergency/esse — Personnel hot-surface protection threshold | 60 degC | In areas that are accessible during operation and inspection, protection against potential injury from surfaces exceeding 60 °C (140 °F) shall be provided |
+| Diesel generator package (emergency/esse — Baseplate mounting pad flatness | 0.15 mm/m | Baseplate mounting pads shall be flat and parallel with each other to within 0,15 mm/m (0,002 in/ft) |
+| Diesel generator package (emergency/esse — Baseplate surface finish | 3.2 µm Ra | The surface finish of baseplate mounting areas shall not exceed Ra 3,2 µm (125 µin) |
+| Diesel generator package (emergency/esse — Lifting provision threshold | 25 kg | Components over 25 kg (55 lb) requiring removal for maintenance shall have lifting lugs or provisions for lifting eyebolts |
+| UPS and battery bank with black-start ca — Low-power UPS-side energy level | 50-100 kWh | the first energy level may be in the range 50-100 kWh whereas the second energy level may be in the range 500-1000 kWh or higher |
+| UPS and battery bank with black-start ca — High-power storage energy level | 500-1000 kWh | the first energy level may be in the range 50-100 kWh whereas the second energy level may be in the range 500-1000 kWh or higher |
+| UPS and battery bank with black-start ca — Example battery bank (patent) | 1000 kWh (two batteries at 500 kWh) | In this example there are two batteries 66 rated at 500 kWh allowing for 1000 kWh for the second power supply apparatus when powered by the batteries 66 alone |
+| UPS and battery bank with black-start ca — Emergency power rail | 400 V | a 400 V rail 72 for emergency power, which may be supplied from the first power supply apparatus 60 |
+| UPS and battery bank with black-start ca — Generator rating in patent example | 5 MW | The gas turbine 68 is rated at 25 MW and generator, where present, might be 5 MW |
+| Price — 500 kW diesel standby genset total installed (factory-direct) | 135000-305000 USD | A 500 kW commercial standby generator set costs 135,000 to 305,000 installed, with factory-direct options typically 30-50% below Tier 1 dealer quotes; dollar year 2026. |
+| Price — 500 kW diesel standby genset total installed (Tier 1 dealer) | 320000-600000 USD | 500 kW ... Total Installed (Tier 1): 320,000-600,000; dollar year 2026. |
+| Price — 100 kW diesel standby genset total installed (factory-direct) | 28000-73000 USD | 100 kW system runs 28,000-73,000 installed (factory-direct); dollar year 2026. |
+| Price — 1,000 kW diesel standby genset total installed (factory-direct) | 300000-620000 USD | 1,000 kW ... Total Installed (Factory-Direct): 300,000-620,000; dollar year 2026. |
+| Price — Diesel genset equipment cost | 180-400 USD/kW | Equipment costs for diesel standby gensets typically fall in the 180-400 per kW range for factory-direct units; dollar year 2026. |
+| Price — US large industrial total installed cost | 250-450 USD/kW | United States - Total installed cost: 300-600/kW (small commercial), 250-450/kW (large industrial); dollar year 2026. |
+| Price — Southeast Asia total installed cost | 280-550 USD/kW | Southeast Asia (Indonesia, Philippines, Vietnam) - Total installed cost: 280-550/kW; dollar year 2026. |
+| Price — ATS 500-1,000 kW total cost | 23000-60000 USD | 500-1,000 kW ATS Equipment 15,000-40,000; ATS Installation 8,000-20,000; Total ATS Cost 23,000-60,000; dollar year 2026. |
+
+
+Recorded gaps:
+
+- Emergency generator and UPS — Fetch an EPC/operator project cost report or OEM offshore genset quotation with a stated dollar year
+- Emergency generator and UPS — Fetch operator reliability data, OREDA-style handbook figures, or NFPA 110 test-frequency page with exact figures
+- Emergency generator and UPS — Fetch an OEM offshore/marine UPS datasheet with printed efficiency and battery specs
+
+### Firewater pumps, deluge/sprinkler system, hydrants and hose reels (whp-firewater-pumps-deluge-sprinkler-system-hydrants-and-hose-reels)
+
+Primary code: UPS: Upstream
+Offshore firewater systems use self-contained firewater pump packages (vertical suspended deep-well/wet-pit or horizontal OH/BB types, diesel or electric driven) feeding fixed deluge, hydrants and hose reels. IOGP S-721 and NFPA 20 set performance and testing; Ramboll/NPD report describes deluge and firewater philosophy on unmanned WHPs.
+Vendors: NFPA 37 (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Firewater pump package (diesel or electr — Shutoff/deadhead pressure rise | 110-140 % of rated pressure at design conditions | The shutoff or deadhead pressure rise shall lie between 110 % and 140 % of rated pressure at design conditions |
+| Firewater pump package (diesel or electr — Column pipe flow velocity at 100% rated flow | 4 m/s | column pipe flow velocity at 100 % rated flow not to exceed 4 m/s (13 ft/s) |
+| Firewater pump package (diesel or electr — Screens/strainer blockage allowance in submergence calculation | 50 % | Submergence calculations shall include 50 % blockage of screens or strainer area |
+| Firewater pump package (diesel or electr — Wave trough design return period for impeller submergence | 100 years | First stage impeller submergence for offshore pumps shall be the depth required to provide NPSH required by pump at end of curve duty point allowing for the specified 100 year wave trough depth |
+| Firewater pump package (diesel or electr — Diesel engine site-rated power margin | 110 % of maximum required pump kW at peak load | Site rated engine power after NFPA 20 deductions shall be at least 110 % of the maximum required pump kW (bhp) at peak load, including gear and other transmission losses |
+| Firewater pump package (diesel or electr — Diesel engine proven field operating service | 24000 hours | Design and mechanical construction of diesel engines, accessories, and auxiliary system components shall have at least 24 000 hours of field operating service |
+| Firewater pump package (diesel or electr — Right-angle gearbox continuous operating capability | 15000 hours | Right angled gearboxes shall be capable of transmitting maximum power continuously for a minimum of 15 000 hours of operation |
+| Firewater pump package (diesel or electr — Coupling service factor - electric motor via gearbox | 1.25 dimensionless | A service factor of 1,25 shall be used for pumps driven by an electric induction motor via a gearbox |
+| Firewater pump package (diesel or electr — Coupling service factor - diesel engine via gearbox | 1.5 dimensionless | A service factor of 1,5 shall be used for pumps driven by a diesel engine via a gearbox |
+| Firewater pump package (diesel or electr — Gearbox oil temperature to bearings / return oil | 50-80 degC | The temperature of the oil supply to the gearbox bearings shall not exceed 50 °C (120 °F); The temperature of the returning oil from the drain/sump ... shall not exceed the lesser of 80 °C (176 °F) or gearbox manufacturer’s maximum allowable oil temperature |
+| Firewater pump package (diesel or electr — Independent starting systems | 2 systems | Engines shall be provided with two starting systems in accordance with NFPA 20 as primary and secondary starts |
+| Reliability — Uptime of simple unmanned platforms | 95-99.5 % | Types 2 and 3 have very a high availability (uptime) - in the range of 95% - 99.5% |
+
+
+Recorded gaps:
+
+- Firewater system — Fetch NFPA 15 / ISO 13702 application pages or a WHP firewater design basis with densities and coverage
+- Firewater system — Fetch the S-721D data sheet for a named project or an OEM firewater pump datasheet
+
+### HVAC for equipment/MCC rooms (whp-hvac-for-equipment-mcc-rooms)
+
+Primary code: UPS: Upstream
+HVAC for electrical equipment/MCC rooms maintains temperature, humidity and pressurisation, provides dilution ventilation and isolates on fire/gas detection. Sources read: IEEE Houston offshore electrical design seminar (USCG ambient and HVAC rules) and PDHonline M332 HVAC Design for Oil & Gas Facilities (ISO 15138/NORSOK H-001 basis).
+Vendors: IEEE Houston Section / PCIC (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| HVAC system for electrical/MCC rooms (DX — General design ambient temperature | 40 degC | Ambient temperature of 40 oC (104 oF) except for the following |
+| HVAC system for electrical/MCC rooms (DX — Rotating electrical equipment in machinery rooms/weather decks | 50 degC | 50 oC (122 oF) for rotating electrical equipment in “Machinery Rooms” and “Weather Decks” [unless 45 oC (113 oF) can be shown as a maximum for these spaces] |
+| HVAC system for electrical/MCC rooms (DX — Cables and non-rotating electrical equipment in machinery rooms/weather decks | 45 degC | 45 oC (113 oF) for Cables and other non-rotating electrical equipment for “Machinery Rooms” and “Weather Decks” |
+| HVAC system for electrical/MCC rooms (DX — Air-conditioned space design temperature | 30 degC | 30 oC (86 oF) is permitted in air conditioned spaces (but 40 oC is norm) – duplication of HVAC recommended |
+| HVAC system for electrical/MCC rooms (DX — Control and instrumentation equipment ambient | 55 degC | 55 oC (131 oF) for all control and instrumentation equipment |
+| HVAC system for electrical/MCC rooms (DX — Electrical substation maximum temperature | 40 degC | The temperatures are generally not required to exceed 40° C in the electrical substations |
+| HVAC system for electrical/MCC rooms (DX — Relative humidity target | 50 % +/- 5% | Offshore facilities are high in humidity, which needs to be controlled to comfortable levels of 50 ± 5% |
+| HVAC system for electrical/MCC rooms (DX — Hazardous/non-hazardous pressure differential | 30-70 Pa | Maintenance of a pressure differential between hazardous and non-hazardous areas (generally in the range of 30 to 70 Pa) is essential to prevent ingress of toxic or hazardous gases |
+| HVAC system for electrical/MCC rooms (DX — Process area mechanical ventilation rate | 12 air changes per hour (minimum) | The process areas should be provided with mechanical ventilation systems capable of continuously providing at least 12 air changes per hour |
+| HVAC system for electrical/MCC rooms (DX — Supply / return duct pressure drop | 500-1500 Pa | The pressure drop in supply air ducting will be in the range of 1000 to 1500 Pa and that in return air ducting will be in the range of 500 to 1000 Pa |
+| HVAC system for electrical/MCC rooms (DX — Minimum outside air in manned areas | 20 CFM per person | In all manned areas, HVAC systems should provide a minimum of 20 CFM of outside air per person |
+| HVAC system for electrical/MCC rooms (DX — Minimum separation of air intake and extract outlet | 4.5 m | The separation between air intakes and extract outlets should be a minimum of 4.5m, but greater where practicable |
+| HVAC system for electrical/MCC rooms (DX — HVAC motor rating | 50 degC rated motors | 50 degree C rated motors |
+| Battery room ventilation (UPS/battery ba — Hydrogen concentration limit | 2 % by volume | Size the battery room ventilation system to prevent hydrogen concentration in the room from exceeding 2 percent by volume |
+| Battery room ventilation (UPS/battery ba — Battery room air changes (if battery data unavailable) | 12 air changes per hour | In event the battery data is not available “maintain at least 12 air changes per hour” |
+| Battery room ventilation (UPS/battery ba — ABS large battery room ventilation | 30 air changes per hour | ABS requires 1 air change every two minutes (30/hr) unless fewer are proven required through hydrogen emission calculations |
+| Battery room ventilation (UPS/battery ba — Threshold for large battery room classification | 2 kW of connected charging device output (lead acid) | Large Battery Room > 2kW of connected charging device output (based on lead acid service) |
+
+
+Recorded gaps:
+
+- HVAC for equipment/MCC rooms — Fetch a named WHP HVAC design basis/equipment list
+- HVAC for equipment/MCC rooms — Fetch an OEM HVAC package quotation or project cost report with dollar year
+
+### Instrument/utility air compressors, receivers and dryers (whp-instrument-utility-air-compressors-receivers-and-dryers)
+
+Primary code: UPS: Upstream
+Instrument/utility air packages comprise rotary-screw, oil-free screw or reciprocating compressors, knock-out drum, filters, refrigerated or adsorption dryers, receiver tanks, piping, instrumentation and valves. Instrument air must be dry and oil-free and is typically distributed at 6 bar (100 psig).
+Vendors: Booksite (Elsevier) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Instrument air package - compressor, KO  — Instrument air mains pressure | 6 bar | Air normally distributed at a mains pressure of 6 bar (100 psig) |
+| Price — Cost of drying air for instrument air | 0.005 USD per standard m3 | Drying the air, for example for instrument air, typically adds about $0.005 per standard m 3 ($0.14/1000 scf) - Chemical Engineering Design 2nd ed., ©2013, no separate dollar year stated; dollar year 2013. |
+
+
+Recorded gaps:
+
+- Instrument/utility air — Fetch ISO 8573 (or equivalent) publisher page and an OEM dryer datasheet with pressure dew point
+- Instrument/utility air — Fetch a named WHP utility design basis or OEM instrument-air skid datasheet
+
+### Potable water storage and hot water system (whp-potable-water-storage-and-hot-water-system)
+
+Primary code: UPS: Upstream
+Potable water is bunkered to the installation, stored in dedicated tanks and distributed through domestic pipework with chlorination; hot water is provided by calorifiers where fitted. The Marine Safety Forum guidance gives water-quality limits, tank management and disinfection practice for offshore installations.
+Vendors: Marine Safety Forum (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Potable water storage tank and domestic  — Free chlorine at point of delivery to vessel | 0.2-? ppm | The free chlorine concentrations in water must be maintained above 0.2ppm at the point of delivery to the vessel |
+| Potable water storage tank and domestic  — Installation disinfection maintenance range | 0.2-0.5 ppm free chlorine | Can the installation demonstrate that it has maintained chlorination levels between 0.2ppm and 0.5ppm over a prolonged period of time? |
+| Potable water storage tank and domestic  — Good-practice maximum storage before disposal | 14 days | Good practice would be to dispose of all water in such tanks after 14 days continuous storage |
+| Potable water storage tank and domestic  — Super-chlorination concentration | 50 ppm (mg/l) | In order to achieve 50ppm (50mg/l) disinfectant in solution ... The disinfected water at 50ppm should be allowed to remain in the whole system for at least 1 hour |
+| Potable water storage tank and domestic  — Coliforms / E.coli / Enterococci limit | 0 counts per 100 ml | Legislative limit is 0 counts per 100ml |
+| Potable water storage tank and domestic  — Chlorides limit | 250 mgCl/l (less than) | Chlorides Legislative limits <250 mgCl/l |
+| Potable water storage tank and domestic  — Total viable count at 22 degC / 37 degC | ?-300 cfu/ml | In the UKCS, a workable limit of 300cfu/ml at 22 oC and 100cfu/ml at 37 oC is regarded as acceptable |
+| Potable water storage tank and domestic  — Hydrocarbons limit | 10 ppb (less than) | Hydrocarbons <10 ppb ... Less than 10ppb is the stated limit value as this is generally the limit of detection |
+| Potable water storage tank and domestic  — Legionella limit | 100 cfu/litre (less than) | Legislative limit is <100 cfu/l |
+| Price — Raw water rough cost estimate | 2 USD per 1000 gal | A very rough estimate of water costs can be made by assuming $2 per 1000 gal ($0.5 per metric ton) - Chemical Engineering Design 2nd ed., ©2013, dollar year not separately stated; dollar year 2013. |
+| Price — Demineralised water cost multiple | 2 x raw water price | Demineralized water typically costs about double the price of raw water; dollar year 2013. |
+
+
+Recorded gaps:
+
+- Potable water and hot water — Fetch a named WHP design basis or accommodation-utilities specification with tank sizes and hot-water duties
+- Potable water and hot water — Fetch an OEM potable-water/hot-water package datasheet
+
+### Power generation (whp-power-generation)
+
+Primary code: UPS: Upstream
+Wellhead-platform power can be imported by subsea power cable from a host/CPP, generated locally by diesel or gas turbine, or supplied by a solar-PV/wind/battery hybrid with a standby diesel. Shell Timi (Malaysia) is the first SMEP wellhead platform fully powered by a solar-wind hybrid system; the Equinor patent describes a cascaded UPS/battery/black-start architecture for unmanned platforms.
+Vendors: Shell Malaysia Exploration and Production (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Timi solar-wind hybrid power system with — Solar PV array rating | 14 kWp | an 80-m 2, 14-kWp solar photovoltaic array must be installed to generate the 25 kWh/d required to supply the load and charge the batteries during the day in the worst-case solar insolation conditions |
+| Timi solar-wind hybrid power system with — Solar PV array area | 80 m2 | an 80-m 2, 14-kWp solar photovoltaic array must be installed to generate the 25 kWh/d required to supply the load and charge the batteries during the day in the worst-case solar insolation conditions |
+| Timi solar-wind hybrid power system with — Solar daily energy target | 25 kWh/day | to generate the 25 kWh/d required to supply the load and charge the batteries during the day in the worst-case solar insolation conditions |
+| Timi solar-wind hybrid power system with — Solar panel conversion efficiency | 18-22 % | Even given recent developments in solar-panel technology, the conversion efficiency of the panels is 18–22% |
+| Timi solar-wind hybrid power system with — Total daily energy demand (Timi) | 73.6 kWh/day | The total daily energy demand will be 73.6 kWh, which corresponds to an average load of 3 kW |
+| Timi solar-wind hybrid power system with — Average electrical load (Timi) | 3 kW | The total daily energy demand will be 73.6 kWh, which corresponds to an average load of 3 kW |
+| Timi solar-wind hybrid power system with — Standby diesel generator rating (Timi) | 40 kWe | Standby power will be supplied by a diesel generator rated at 40 kWe |
+| Timi solar-wind hybrid power system with — Selected battery autonomy (Timi) | 4 days | a 4-d autonomy was selected for Timi, which results in a smaller battery footprint and lower overall weight |
+| Timi solar-wind hybrid power system with — Normal regional solar-platform autonomy | 5 days | A solar-powered platform in this region is normally designed for an autonomy of 5 d to cater for the cloudy days during the monsoon season |
+| Timi solar-wind hybrid power system with — Solar panel tilt angle | 5 degrees | a solar panel tilt angle of 5°, instead of the 15° specified in the Shell design and engineering practice for solar energy installations, will be used for better optimisation of insolation |
+| Timi solar-wind hybrid power system with — Solar PV frame maximum design wind speed | 33 m/s | The solar photovoltaic panel frame supports are designed for a maximum wind speed of 33 m/s, which is much higher than the typical maximum 10-min wind speed of 20 m/s experienced in Malaysian waters in recent years |
+| Timi solar-wind hybrid power system with — Typical maximum 10-min wind speed, Malaysian waters | 20 m/s | much higher than the typical maximum 10-min wind speed of 20 m/s experienced in Malaysian waters in recent years |
+| Timi solar-wind hybrid power system with — Average wind speed offshore Malaysia | 3-6 m/s | According to wind data from NASA, the average wind speed in the waters offshore peninsular Malaysia and Sabah and Sarawak states is 3–6 m/s |
+| Timi solar-wind hybrid power system with — Generation-level DC voltage | 48 V DC | A higher voltage, 48 instead of 24 V DC, will be used at the power generation level to reduce the size of the cables and batteries and the number of controllers required |
+| Subsea power cable from host/CPP to unma — Power cable rating (low-power host supply) | 50-200 kW | the power supply via the power cable may be rated at 50-200 kW, such as at about 100 kW |
+| Subsea power cable from host/CPP to unma — Low-power first energy level | 50-100 kWh | the first energy level may be in the range 50-100 kWh whereas the second energy level may be in the range 500-1000 kWh or higher |
+| Subsea power cable from host/CPP to unma — High-power second energy level | 500-1000 kWh | the first energy level may be in the range 50-100 kWh whereas the second energy level may be in the range 500-1000 kWh or higher |
+| Subsea power cable from host/CPP to unma — Gas turbine rating in example | 25 MW | a gas turbine is used then it may be rated at the power level higher than the high-power energy storage system ... a 25 MW turbine may be present |
+| Reliability — Availability of simple unmanned platforms (Types 2 and 3) | 95-99.5 % uptime | Generally, there are good experiences with the UWHPs. Types 2 and 3 have very a high availability (uptime) - in the range of 95% - 99.5% |
+| Price — Wholesale electricity benchmark (North America) | 0.06 USD/kWh | Wholesale electricity prices vary regionally ... but are typically about $0.06/kWh in North America at the time of writing (Chemical Engineering Design, 2nd ed., ©2013); dollar year 2013. |
+
+
+Recorded gaps:
+
+- Power generation — Fetch a Shell/operator detailed Timi electrical design paper or EPC vendor data sheet
+- Power generation — Fetch an umbilical/cable OEM datasheet and a host-to-WHP power-from-shore project page
+- Power generation — Seek a project cost breakdown or Shell announcement with figures and dollar year
+
+### Seawater lift pumps (whp-seawater-lift-pumps)
+
+Primary code: UPS: Upstream
+Seawater lift pumps draw seawater from caissons/wells for cooling, firewater, washing and ballast duties. BP Shah Deniz 2 project description gives MODU/water-system duties and extraction rates; IOGP S-721 sets vertical-pump submergence, anti-fouling and column-pipe requirements; Celeros/S&N and ClydeUnion are named suppliers.
+Vendors: BP (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Vertical seawater lift pump (MODU/rig an — Seawater lift pump capacity (Heydar Aliyev MODU) | 960 m3/hr | 6 seawater lift pumps, but typically 2 used which are designed to lift up to 960m 3/hr from a depth below sea level of between 17.5 and 19.5m |
+| Vertical seawater lift pump (MODU/rig an — Suction depth (Heydar Aliyev MODU) | 17.5-19.5 m below sea level | designed to lift up to 960m 3/hr from a depth below sea level of between 17.5 and 19.5m |
+| Vertical seawater lift pump (MODU/rig an — Seawater lift pump capacity (Istiglal MODU) | 230 m3/hr | Seawater lift pumps designed to lift up to 230m 3/hr from a depth below sea level of 9.8m |
+| Vertical seawater lift pump (MODU/rig an — Suction depth (Istiglal MODU) | 9.8 m below sea level | designed to lift up to 230m 3/hr from a depth below sea level of 9.8m |
+| Vertical seawater lift pump (MODU/rig an — Maximum seawater extraction per pump (SD2 platform caisson) | 2173 m3/hr | Seawater will be extracted from 1 of the 2 vertical seawater lift pump caissons at a depth of -75m below sea level. The maximum seawater extraction design flow rate per pump will be approximately 2,173m3/hr |
+| Vertical seawater lift pump (MODU/rig an — Sea intake screen mesh | 200 mm diameter | The design of the seawater intake caissons on the platform will incorporate a mesh of 200mm diameter |
+| Vertical seawater lift pump (MODU/rig an — Filtration after lift | 50 microns | and then filtered to remove any particles that are above 50 microns in diameter |
+| Vertical seawater lift pump (MODU/rig an — Column pipe velocity at 100% rated flow (S-721) | 4 m/s | column pipe flow velocity at 100 % rated flow not to exceed 4 m/s (13 ft/s) |
+| Price — Cooling-water system make-up and chemical treatment cost | 0.02 USD/1000 gal | The costs of water make-up and chemical treatment usually add about $0.02/1000 gal - Chemical Engineering Design 2nd ed., ©2013; dollar year 2013. |
+| Price — Recirculating cooling water pumping power | 1-2 kWh/1000 gal circulated | The power used in a typical recirculating cooling water system is usually between 1 and 2 kWh/1000 gal of circulating water; dollar year 2013. |
+
+
+Recorded gaps:
+
+- Seawater lift pumps — Fetch an S&N Pumps or ClydeUnion seawater lift pump datasheet
+- Seawater lift pumps — Seek operator reliability data or an OEM maintenance manual
+
+## whp-well-system
+
+### Drilling slots / well bays (whp-drilling-slots-well-bays)
+
+Primary code: UPS: Upstream
+Malaysian Tarpon minimum-facility WHPs for PETRONAS Carigali were built with three 20-inch conductor slots internal to the caisson (two used, one spare) in 70-85 m water, while the West Desaru conductor-supported WSS grew from 18 wellhead flowline connections at the outset to 28 in the final design.
+Vendors: Aquaterra Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Conductor slot / well bay slot (Tarpon p — conductor slots per platform | 3 slots | KMSE and AJK WHPs: three 20-inch conductor slots internal to caisson, two utilised and one spare |
+| Conductor slot / well bay slot (Tarpon p — water depth | 70-85 m | Detailed design, fabrication, transport and installation of WHPs in water depths varying from 70 m to 85 m |
+| Conductor slot / well bay slot (Tarpon p — wellhead flowline connections (design growth) | 18-28 connections | West Desaru WSS topsides: wellhead flowline connections grew from 18 slots at outset to 28 because of drilling/completion scope growth |
+| Reliability — operational design life | 20 years | Tarpon platforms designed for a 20-year operational lifespan and relocatable |
+| Reliability — minimum design fatigue life | 10 years | West Desaru WSS minimum 10-year design fatigue life; structure re-designed after slot growth |
+
+
+Recorded gaps:
+
+- 4-12 slots typical range — Find a primary page or standard that prints a slot-count range before recording it
+- slot spacing and wellbay layout — Source a GA drawing with printed slot spacing
+- price/cost per slot — Find a sourced USD cost with dollar year and basis
+
+### ESD stations at strategic locations (whp-esd-stations-at-strategic-locations)
+
+Primary code: UPS: Upstream
+Offshore Magazine reports a wellhead control panel and control and safety systems on the West Desaru WSS, and the cited API RP 14C training slides print a five-level shutdown hierarchy driven by manual, fire-and-gas and hydraulic-pressure inputs.
+Vendors: IPS Group BV (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Emergency shutdown (ESD) system and manu — shutdown levels | 5 levels | Shutdown logic: Level 1 APS abandon platform; Level 2 ESD I total; Level 3 ESD II partial; Level 4 PSD total; Level 5 PSD partial |
+| Emergency shutdown (ESD) system and manu — levels of protection | 2 levels | Premises for basic analysis and design include two levels of protection with primary and secondary activation order |
+| Emergency shutdown (ESD) system and manu — low-pressure sensor exemption length | 10 ft (3 m) | SAC A.1 Wellheads and Flow Lines: PSL installed; flow line segment between well and first choking device less than 10 feet (3 m) |
+| Emergency shutdown (ESD) system and manu — ESD actions on SCSSV | 1 function | ESD actions may include closure of SSVs and, where included in the engineered safety design, initiation of SCSSV closure |
+| Reliability — SIL 1 probability of dangerous failure on demand (low demand) | 0.01-0.1 PFD | PFD 0.1-0.01, RRF 10-100, low demand operation per IEC EN 61508 as printed in table |
+| Reliability — SIL 2 probability of dangerous failure on demand (low demand) | 0.001-0.01 PFD | PFD 0.01-0.001, RRF 100-1000, low demand operation per IEC EN 61508 |
+| Reliability — SIL 3 probability of dangerous failure on demand (low demand) | 0.0001-0.001 PFD | PFD 0.001-0.0001, RRF 1000-10,000, low demand operation per IEC EN 61508 |
+| Reliability — SIL 4 probability of dangerous failure on demand (low demand) | 1e-05-0.0001 PFD | PFD 0.0001-0.00001, RRF 10,000-100,000, low demand operation per IEC EN 61508 |
+
+
+Recorded gaps:
+
+- ESD station locations (boat landing, cellar deck, tree area) — Find an WHP ESD philosophy or layout drawing
+- SIL target for WHP ESD functions — Find a project-specific SIL study
+- proof-test interval for ESD final elements — Source a printed proof-test interval
+- price/cost of ESD stations — Find a sourced USD cost with year and basis
+
+### Gas lift manifold and flowlines for artificial lift (whp-gas-lift-manifold-and-flowlines-for-artificial-lift)
+
+Primary code: UPS: Upstream
+The West Desaru conductor-supported WSS topsides were designed with gas lift flowlines alongside oil production and water injection flowlines, and Baker Hughes supplies injection-pressure and production-pressure-operated gas lift valves for continuous or intermittent lift.
+Vendors: Baker Hughes, Aquaterra Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Gas lift valves and mandrels — valve operating principles | 2 types | Baker Hughes lists injection pressure and production pressure-operated valves |
+| Gas lift valves and mandrels — mandrel compatibility | 0 count | Designed for any Baker Hughes side pocket and tubing retrievable mandrel and fully compatible with other manufacturers' mandrels |
+| Gas lift flowlines (WHP topsides) — gas lift flowline presence | 1 system | West Desaru WSS topsides accommodate 28 dry tree completions and associated oil production, gas lift and water injection flowlines |
+
+
+Recorded gaps:
+
+- gas lift manifold size, pressure and material — Source an OEM gas lift manifold datasheet
+- injection gas rate and pressure — Find a project design basis with gas injection figures
+- price/cost of gas lift manifold and flowlines — Find a sourced USD cost with year and basis
+
+### Water injection manifold and W.I. pig launcher/receiver (whp-water-injection-manifold-and-w-i-pig-launcher-receiver)
+
+Primary code: UPS: Upstream
+The West Desaru WSS houses water injection flowlines, manifolds and a pig launcher, with produced oil routed to the FP5 MOPU and exported through a 14-km subsea pipeline to an FSO via an 8-in flexible riser.
+Vendors: Aquaterra Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Water injection flowlines and manifold — water injection flowline presence | 1 system | West Desaru WSS topsides accommodate oil production, gas lift and water injection flowlines plus manifolds |
+| Pig launcher and flexible riser — flexible riser diameter | 8 in (20 cm) | West Desaru WSS houses a pig launcher and an 8-in (20-cm) flexible riser |
+| Pig launcher and flexible riser — subsea export pipeline length | 14 km | Produced oil processed at MOPU then returned to WSS for export via 14-km (8.7-mi) subsea pipeline to an FSO |
+
+
+Recorded gaps:
+
+- W.I. pig receiver location and size — Source a project P&ID showing the pig trap pair
+- water injection manifold rating and number of slots — Find an OEM water injection manifold datasheet
+- price/cost of W.I. manifold and pig launcher — Find a sourced USD cost with year and basis
+
+### Well test facilities: test manifold with either a test separator or a multiphase flow meter (whp-well-test-facilities-test-manifold-with-either-a-test-separator-or-a-m)
+
+Primary code: UPS: Upstream
+OilGasz states a test manifold routes a selected well to a test separator, an MPFM or other measurement equipment, and Emerson describes the Roxar 2600 MPFM as a compact vertical inline meter giving three-phase rates without separation across 0-100% GVF and 0-100% WLR.
+Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Roxar 2600 Multiphase Flow Meter — available sizes | 6 sizes | Roxar 2600 MPFM available in 6 sizes, with materials from duplex stainless steel to Inconel and enclosures in SS316 or painted aluminum |
+| Roxar 2600 Multiphase Flow Meter — gas volume fraction range | 0-100 % GVF | Both gamma and non-gamma versions deliver reliable performance across 0-100% GVF and 0-100% WLR |
+| Roxar 2600 Multiphase Flow Meter — water liquid ratio range | 0-100 % WLR | 0-100% WLR operating envelope printed on Emerson multiphase flow page |
+| Roxar 2600 Multiphase Flow Meter — measurement update rate | 10 per second | Phase fraction and flow rate calculations at high resolution of 10 times a second |
+| Roxar 2600 Multiphase Flow Meter — field experience | 30 years | Emerson states over 30 years of field experience and a global presence for its MPFMs |
+| Vx Spectra surface multiphase flowmeter — high-GVF threshold | 95 % GVF | Triple-energy source improves liquid rates and water/liquid ratio at GVF greater than 95% |
+| Test separator / test manifold — test separator vs MPFM trade-off | 0 count | Test separators may offer lower uncertainty in controlled conditions; MPFMs provide higher operational efficiency and reduce space, weight and piping |
+| Reliability — calibration/verification interval | 1 year | Typical recommendation is yearly checks and verification; calibration verified using test separator data or sampling |
+| Reliability — moving parts | 0 count | Roxar 2600 has no moving parts, reducing wear and maintenance needs and the need for spare parts |
+
+
+Recorded gaps:
+
+- test separator sizing and duty for a Malaysian WHP — Source a test separator datasheet
+- MPFM turndown figures from a fetched page — Fetch the specific product datasheet that prints turndown
+- price/cost of MPFM or test separator — Find a sourced USD cost with year and basis
+
+### Wellhead Control Panel (whp-wellhead-control-panel)
+
+Primary code: UPS: Upstream
+A multi-well hydraulic wellhead control panel described by IPS Group BV operates nine wells (seven installed, two spare) using four pressure levels - 480 bar for SCSSVs, 280 bar for SSVs/SDVs, 150 bar for the field loop and 6 bar control pressure.
+Vendors: IPS Group BV (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Wellhead control panel (multi-well, hydr — wells controlled | 9 wells | System designed to operate nine production wells, seven installed and two spare |
+| Wellhead control panel (multi-well, hydr — VHP header pressure | 480 bar | 480 bars (VHP header) for the 9 x SCSSV |
+| Wellhead control panel (multi-well, hydr — MHP header pressure | 280 bar | 280 bar (MHP header) for the 9 x SSV and 9 x SDV valves |
+| Wellhead control panel (multi-well, hydr — HP header pressure | 150 bar | 150 bar (HP header) for field loop of 9 ROCV, 10 ESDV, 14 SDV and 4 BDV |
+| Wellhead control panel (multi-well, hydr — LP header pressure | 6 bar | 6 bar (LP header) control pressure, generated by reduction from HP header through two regulators |
+| Wellhead control panel (multi-well, hydr — VHP accumulator volume | 5 litre | VHP header equipped with 5 litre bladder accumulators, nitrogen precharge 357.2 bar |
+| Wellhead control panel (multi-well, hydr — MHP/HP accumulator volume | 35 litre | MHP header 35 litre bladder accumulators precharge 170.9 bar; HP header 35 litre precharge 98.9 bar |
+| Wellhead control panel (multi-well, hydr — actuated valve pressure capability | 15000 psi | INTECH modular single and multi-well panels can operate valves of up to 15,000 psi |
+| Single-well wellhead control panel — wells controlled | 1 well | System designed to operate one production well; operates SCSSV, production master valve, production wing valve, choke valve and methanol injection valve |
+| Reliability — accumulator precharge check interval | 1 year | The pre-charge pressure must be checked at least once per year and if necessary charged again |
+| Reliability — pump redundancy | 2 pumps per pressure level | Each pressure level has two dedicated electric driven pumps (A and B) |
+| Reliability — design operational life | 25 years | INTECH panels can be designed for up to 25 years of operational life, with optional extended O&M support |
+| Reliability — hydraulic system low-pressure trip | 0 count | API RP 14C training slides list 'Low pressure hydraulic system' as an input to ESD II |
+
+
+Recorded gaps:
+
+- WCP/HPU specification on a named Malaysian WHP — Find a project-specific WHCP datasheet
+- hydraulic fluid type and HPU power rating — Source an HPU datasheet
+- price/cost of WCP/HPU — Find a sourced USD cost with year and basis
+
+### Wellheads and Christmas trees (whp-wellheads-and-christmas-trees)
+
+Primary code: UPS: Upstream
+The West Desaru WSS carried 28 dry-tree completions using single, dual and triple splitter wellheads, and ISO 10423:2022 states that it supplements API Spec 6A, 21st edition (2018), for wellhead and tree equipment.
+Vendors: Baker Hughes, TechnipFMC (CDS Separation Systems), Aker Solutions (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Dry-tree (surface) Christmas tree assemb — master valve redundancy | 2 valves | Typically two master valves (lower and upper) provide redundancy; if one fails the other can perform the function |
+| Dry-tree (surface) Christmas tree assemb — pressure rating (subsea tree systems) | 15000 psi | Baker Hughes provides 5-inch and 7-inch systems with up-to 15,000 psi pressure rating capability |
+| Dry-tree (surface) Christmas tree assemb — water depth capability | 10000 ft | Baker Hughes tree systems facilitate control of intelligent completions in water depths up to 10,000 ft |
+| Dry-tree (surface) Christmas tree assemb — HPHT flowing temperature | 350 degF | Baker Hughes HPHT Tree system: production pressures up to 15,000 psi, flowing temperatures up to 350 degF |
+| Dry-tree (surface) Christmas tree assemb — tree configuration count | 28 completions | West Desaru WSS topsides accommodate 28 dry tree well completions comprising single, dual and triple splitter wellheads |
+| IC conventional wellhead system (SLB/Cam — pressure rating | 10000 psi | Rated up to 10,000 psi, can be configured for many service conditions |
+| IC conventional wellhead system (SLB/Cam — load shoulder angle | 45 degrees | IC wellhead system uses a straight-bore design with a 45-degree load shoulder |
+| Reliability — two master valves used for redundancy | 2 valves | DrillingFormulas: two master valves provide redundancy so another can perform the function if one fails |
+| Reliability — fail-safe closed hydraulic wing valve | 0 count | Hydraulic operated wing valves usually fail safe closed, requiring active hydraulic pressure to stay open; loss of control fluid shuts the well in |
+
+
+Recorded gaps:
+
+- printed pressure class table for API 6A (2,000/3,000/5,000/10,000/15,000/20,000 psi) — Read the standard or an OEM datasheet that prints the class table
+- single/dual/triple splitter dimensional details — Find a manufacturer datasheet for splitter wellheads
+- price/cost of dry trees — Find a sourced USD figure with year and basis

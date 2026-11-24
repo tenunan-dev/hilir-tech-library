@@ -16,12 +16,10 @@
   "sources": [
     {
       "url": "https://www.everllence.com/energy/solutions/thermal-power/baseload/",
-      "source_id": "man-energy",
       "note": "Everllence thermal power baseload page, read 26 October 2026"
     },
     {
       "url": "https://www.everllence.com/company/press-releases/details/2025/06/04/man-energy-solutions-becomes-everllence",
-      "source_id": "man-energy",
       "note": "Everllence renaming press release, 4 June 2025, read 26 October 2026"
     }
   ],

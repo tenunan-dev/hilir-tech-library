@@ -1,0 +1,24 @@
+{
+  "id": "offshore-platform-fpso-modu-lifeboat-installations",
+  "name": "Offshore platform / FPSO / MODU lifeboat installations",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Multiple",
+  "location": "Multiple",
+  "status": "operating",
+  "description": "Gohi Marine lists totally enclosed lifeboats as suitable for various oil platforms and FPSO; gravity luffing arm, platform and free-fall davits are offered for offshore installations.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.gohimarine.com/sale-37362161-solas-approved-95kg-per-person-totally-enclosed-motor-propelled-survival-craft-tempsc.html",
+      "source_id": "whp-gohimarine-com-sale-37362161-solas-approved-95kg-per-perso",
+      "note": "Gohi Marine lists totally enclosed lifeboats as suitable for various oil platforms and FPSO; gravity luffing arm, platform and free-fall davits are offered for offshore installations."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (5. Safety and Emergency Equipment)."
+}

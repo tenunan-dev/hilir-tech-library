@@ -1,0 +1,27 @@
+{
+  "id": "whp-oilgasz-com-offshore-platform-wellhead-systems-html",
+  "name": "Unmanned Offshore Platforms: Wellhead Systems & Testing",
+  "url": "https://www.oilgasz.com/2023/07/offshore-platform-wellhead-systems.html?m=1",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "INS",
+    "HSE"
+  ],
+  "subtopics": [
+    "Page read; ESD actions, fusible elements and SSV/SCSSV behaviour printed"
+  ],
+  "publisher_org": "OilGasz",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "site terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Page read; ESD actions, fusible elements and SSV/SCSSV behaviour printed"
+}

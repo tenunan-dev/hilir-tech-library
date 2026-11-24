@@ -1,0 +1,26 @@
+{
+  "id": "whp-drawing-figures-5-10-spider-esdv-cellar-cellar-mezzanine-process-and",
+  "title": "Figures 5-10: spider, ESDV, cellar, cellar mezzanine, process and weather deck plans",
+  "diagram_type": "schematic",
+  "description": "Example unmanned platform layout with a dedicated ESDV deck 4 m above spider deck",
+  "publisher": "Google Patents (WO2018052314A1)",
+  "url": "https://patents.google.com/patent/WO2018052314A1/en",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "whp-esd"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/WO2018052314A1/en",
+      "note": "Example unmanned platform layout with a dedicated ESDV deck 4 m above spider deck"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 2026-11-24 WHP sweep; the drawing stays at the publisher URL."
+}

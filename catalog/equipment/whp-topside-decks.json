@@ -1,0 +1,168 @@
+{
+  "id": "whp-topside-decks",
+  "name": "Topside decks",
+  "equipment_type": "whp-structural-marine",
+  "sector": "CIV",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "CIV"
+  ],
+  "description": "Read sources describe topside structural concepts (single integrated deck, split deck, integrated deck with living quarters, modular topside on a module support frame), weight bands and one-lift installation limits, plus equipment module and living-quarter module construction. ESDEP lists major deck functions including well control, separation, pumps/compressors, power generation and accommodation. No page read during this sweep explicitly names the cellar/main/mezzanine three-level arrangement ",
+  "aliases": [
+    "Topside decks (cellar deck, main deck, mezzanine as required)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Integrated / modular topside deck and mo — Single integrated deck weight limit",
+      "unit": "MN (up to approximately)",
+      "basis": "ESDEP 15A.1 section 5.2.1: \"the single integrated deck (up to approx 100 MN)\".",
+      "high": 100,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Integrated / modular topside deck and mo — Topside single-lift installation limit",
+      "unit": "MN (up to approximately)",
+      "basis": "ESDEP 15A.1 section 7.2.4: \"For topsides up to approximately 120 MN, the topside may be installed in one lift\".",
+      "high": 120,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Integrated / modular topside deck and mo — Major modularized topside weight",
+      "unit": "MN",
+      "basis": "ESDEP 15A.1 section 5.2.3: \"A major modularized topside weighs 200 to 400 MN\".",
+      "low": 200,
+      "high": 400,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Integrated / modular topside deck and mo — Equipment module weight",
+      "unit": "MN",
+      "basis": "ESDEP 15A.1 section 6: equipment modules (20-75 MN), rectangular boxes with one or two intermediate floors.",
+      "low": 20,
+      "high": 75,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Integrated / modular topside deck and mo — Living quarter module weight",
+      "unit": "MN",
+      "basis": "ESDEP 15A.1 section 6: living quarter modules (5-25 MN).",
+      "low": 5,
+      "high": 25,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Wellhead area / deck level arrangement — Kebabangan deck content and mass",
+      "unit": "t (deck weight)",
+      "basis": "Offshore Technology Kebabangan: deck weighs 17,000 t and features a tender-assisted drilling (TAD) rig, utilities and accommodation for staff.",
+      "value": 17000,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+        "source_id": "offshore-technology-com-projects-kebabangan-field"
+      }
+    },
+    {
+      "metric": "Reliability — Design life of Tarpon KMSE/AJK WHPs",
+      "unit": "years (operational lifespan, design)",
+      "basis": "Tarpon Systems project page: platforms designed for a 20-year operational lifespan and made relocatable.",
+      "value": 20,
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      }
+    },
+    {
+      "metric": "Price — Topsides fabrication contract, Kebabangan",
+      "unit": "USD million (as printed)",
+      "basis": "As printed: \"A $380m (RM1.15bn) contract to fabricate the topsides of the platform was awarded to Sime Darby Engineering in April 2011\". Dollar year not stated; article dated 5 May 2016. Not a unit-rate or full project cost.; dollar year not stated.",
+      "value": 380,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+        "source_id": "offshore-technology-com-projects-kebabangan-field"
+      },
+      "year": 2011
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "2h-offshore"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN103758095A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/US5513929A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4932811A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+      "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+    },
+    {
+      "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+      "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+      "source_id": "offshore-technology-com-projects-kebabangan-field"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+      "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+    },
+    {
+      "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
+      "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Cellar / main / mezzanine deck naming",
+      "why": "None of the pages read explicitly names a three-level cellar-main-mezzanine arrangement for a wellhead platform; only CN103758095A mentions a sub-cellar deck.",
+      "next_action": "Fetch a WHP topside GA description page and confirm the deck naming and functions."
+    },
+    {
+      "what": "Deck steel weight for an unmanned WHP",
+      "why": "Weight bands read are for integrated/modular production topsides (MN scale), not minimum-facility WHP decks.",
+      "next_action": "Fetch a minimum-facility topside weight statement."
+    },
+    {
+      "what": "USD deck cost with stated dollar year",
+      "why": "The $380m figure has no dollar year printed; no other USD topside figure was read.",
+      "next_action": "Find a dated-cost source or record literal basis \"dollar year not stated\" as done here."
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (6. Structural and Marine Systems). Six structural/marine WHP items were researched from pages actually read with WebFetch. Evidence-first findings: a fixed steel jacket is a pile-founded braced tubular substructure carrying the topside",
+  "last_reviewed": "2026-11-24"
+}

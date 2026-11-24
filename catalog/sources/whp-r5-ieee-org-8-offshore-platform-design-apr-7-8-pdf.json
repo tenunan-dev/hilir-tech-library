@@ -1,0 +1,29 @@
+{
+  "id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf",
+  "name": "Electrical Design Considerations for Offshore Installations (IEEE Houston PCIC seminar)",
+  "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ELE",
+    "CIV",
+    "HSE"
+  ],
+  "subtopics": [
+    "115-page PDF text read via r.jina.ai reader on 2026-11-24; US manned offshore/USCG basis."
+  ],
+  "publisher_org": "IEEE Houston Section / PCIC",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "IEEE copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. 115-page PDF text read via r.jina.ai reader on 2026-11-24; US manned offshore/USCG basis."
+}

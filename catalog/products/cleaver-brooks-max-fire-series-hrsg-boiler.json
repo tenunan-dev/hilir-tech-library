@@ -104,8 +104,7 @@
   "url": "https://cleaverbrooks.com/product/max-fire-series",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/max-fire-series",
-      "source_id": "cleaverbrooks-com-product-max-fire-series"
+      "url": "https://cleaverbrooks.com/product/max-fire-series"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown).",

@@ -1,0 +1,28 @@
+{
+  "id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw",
+  "name": "Delivering Quality Potable Water to Offshore Installations, Issue 2, 18 July 2013",
+  "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "CIV"
+  ],
+  "subtopics": [
+    "27-page PDF text read via r.jina.ai reader on 2026-11-24; contributors include BP, Chevron"
+  ],
+  "publisher_org": "Marine Safety Forum",
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "access": "open",
+  "licence": "MSF copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. 27-page PDF text read via r.jina.ai reader on 2026-11-24; contributors include BP, Chevron, Shell, Total, ExxonMobil-affiliated operators."
+}

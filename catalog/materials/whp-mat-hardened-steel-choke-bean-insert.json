@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-hardened-steel-choke-bean-insert",
+  "name": "Hardened steel (choke bean/insert)",
+  "material_category": "metals",
+  "description": "Hardened steel (choke bean/insert) named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://patents.google.com/patent/US20120273228A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-chokes-and-choke-manifolds"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/US20120273228A1/en",
+      "source_id": "whp-patents-google-com-en"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

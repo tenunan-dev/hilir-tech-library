@@ -1,0 +1,193 @@
+{
+  "id": "whp-fire-and-gas",
+  "name": "Fire and Gas",
+  "equipment_type": "whp-control-safety-comms",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "F&G detection covers flame (UV/IR), smoke, heat, combustible/toxic gas and pneumatic fusible plug loops, interfaced to deluge, ESD, PAGA and the ICSS. Offshore Norge assigns SIL 2 to single-detector fire and gas detection sub-functions.",
+  "aliases": [
+    "Fire and Gas (F&G) detection: flame, smoke, heat and gas detectors, fusible plug loops"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Consilium CS-PH Ex programmable intrinsi — PFDavg",
+      "unit": "dimensionless",
+      "basis": "PFDavg 2.9 x 10^-4; calculated for MTTR 8 h and proof test interval 1 year",
+      "value": 0.00029,
+      "source": {
+        "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+        "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf"
+      }
+    },
+    {
+      "metric": "Consilium CS-PH Ex programmable intrinsi — Safe failure fraction",
+      "unit": "%",
+      "basis": "Functional Safety Data: Type B, HFT 0, SFF 92 %",
+      "value": 92,
+      "source": {
+        "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+        "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf"
+      }
+    },
+    {
+      "metric": "Consilium CS-PH Ex programmable intrinsi — Operating voltage",
+      "unit": "VDC",
+      "basis": "Operating voltage 16-38 VDC",
+      "low": 16,
+      "high": 38,
+      "source": {
+        "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+        "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf"
+      }
+    },
+    {
+      "metric": "Consilium CS-PH Ex programmable intrinsi — Proof test interval used in PFD calculation",
+      "unit": "year",
+      "basis": "PFDavg is calculated for MTTR 8 h and proof test interval 1 year",
+      "value": 1,
+      "source": {
+        "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+        "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf"
+      }
+    },
+    {
+      "metric": "Consilium CS-PH Ex programmable intrinsi — SIL certification",
+      "unit": "SIL",
+      "basis": "SIL Certificate no. TUV NORD 44 788 13082116; SIL 2 certified according to IEC 61508; suitable for SIL 1 and SIL 2",
+      "value": 2,
+      "source": {
+        "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+        "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf"
+      }
+    },
+    {
+      "metric": "F&G logic and detector sub-functions (1o — Fire detection total PFD - smoke",
+      "unit": "dimensionless",
+      "basis": "Table A.8.1 total for function: Smoke 1.9 x 10^-3 (detector 7.0 x 10^-4 + F&G logic 1.2 x 10^-3)",
+      "value": 0.0019,
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      }
+    },
+    {
+      "metric": "F&G logic and detector sub-functions (1o — Fire detection total PFD - heat",
+      "unit": "dimensionless",
+      "basis": "Table A.8.1 total for function: Heat 2.8 x 10^-3 (detector 2.2 x 10^-3 + logic 1.2 x 10^-3)",
+      "value": 0.0028,
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      }
+    },
+    {
+      "metric": "F&G logic and detector sub-functions (1o — Fire detection total PFD - flame",
+      "unit": "dimensionless",
+      "basis": "Table A.8.1 total for function: Flame 2.7 x 10^-3 (detector 1.5 x 10^-3 + logic 1.2 x 10^-3)",
+      "value": 0.0027,
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      }
+    },
+    {
+      "metric": "Reliability — PFDavg",
+      "unit": "dimensionless",
+      "basis": "Consilium CS-PH Ex, MTTR 8 h, 1-year proof test interval",
+      "value": 0.00029,
+      "source": {
+        "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+        "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — F&G logic PFD (single I/O, redundant CPU)",
+      "unit": "dimensionless",
+      "basis": "Offshore Norge Table A.8.1, voting 1oo1",
+      "value": 0.0012,
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      }
+    },
+    {
+      "metric": "Reliability — Required SIL - fire detection with one detector",
+      "unit": "SIL",
+      "basis": "Offshore Norge section A.7: fire detector (heat, flame or smoke) + F&G logic incl I/O",
+      "value": 2,
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      }
+    },
+    {
+      "metric": "Reliability — Required SIL - gas detection with one detector",
+      "unit": "SIL",
+      "basis": "Offshore Norge section A.8.1: catalytic, IR point, IR line or H2S detector + F&G logic incl I/O",
+      "value": 2,
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-consilium-safety"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+      "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf"
+    },
+    {
+      "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+      "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+    },
+    {
+      "url": "https://pdfcoffee.com/3500-fire-gas-detection-system-pdf-free.html"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/61289",
+      "source_id": "whp-webstore-iec-ch-61289"
+    },
+    {
+      "url": "https://techstar.com/wp-content/uploads/2024/04/1400-021-MC_HazardWatch_FX-12_Bulletin.pdf"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN113162215B/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN114699699B/en"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Fusible plug loops",
+      "why": "No design temperature, plug rating or loop proof-test interval from an actually read page",
+      "next_action": "Find an accessible OEM datasheet with printed fusible element rating"
+    },
+    {
+      "what": "F&G detector coverage on a WHP",
+      "why": "No detector coverage percentage or mapping study for a Malaysian WHP found",
+      "next_action": "Locate a published F&G mapping result with basis"
+    },
+    {
+      "what": "F&G system cost",
+      "why": "Only a GBP tanker-system cost range appeared in search results and is not USD or offshore-platform specific",
+      "next_action": "Source a USD quote with dollar year and scope basis"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (4. Control, Safety and Communication Systems). Six Section-4 WHP control/safety/comms items were researched from pages and PDFs actually read. Verified evidence: Offshore Norge guideline 070 rev 06 (PDF text extracted) assigns SIL 3 to ESD isolati",
+  "last_reviewed": "2026-11-24"
+}

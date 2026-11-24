@@ -1,0 +1,24 @@
+{
+  "id": "west-desaru-wss",
+  "name": "West Desaru WSS",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "28 dry tree completions: single, dual and triple splitter wellheads",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+      "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult",
+      "note": "28 dry tree completions: single, dual and triple splitter wellheads"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (1. Well Systems)."
+}

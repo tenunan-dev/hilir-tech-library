@@ -1,0 +1,24 @@
+{
+  "id": "unnamed-offshore-gas-company-wellhead-pressure-monitoring",
+  "name": "Unnamed offshore gas company wellhead pressure monitoring",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "unspecified",
+  "location": "unspecified",
+  "status": "operating",
+  "description": "Hundreds of offshore wells; wireless sensor to gateway ~4 km with threshold alerts; reduced rounds and improved worker safety",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead",
+      "source_id": "whp-yokogawa-com-s-sensor-offshore-natural-gas-drilling-platfo",
+      "note": "Hundreds of offshore wells; wireless sensor to gateway ~4 km with threshold alerts; reduced rounds and improved worker safety"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (4. Control, Safety and Communication Systems)."
+}

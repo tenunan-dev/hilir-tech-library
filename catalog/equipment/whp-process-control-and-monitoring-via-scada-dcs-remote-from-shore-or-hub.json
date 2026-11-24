@@ -1,0 +1,123 @@
+{
+  "id": "whp-process-control-and-monitoring-via-scada-dcs-remote-from-shore-or-hub",
+  "name": "Process control and monitoring via SCADA/DCS, remote from shore or hub platform",
+  "equipment_type": "whp-control-safety-comms",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Minimum-facility WHPs are normally unmanned; supervisory control gathers wellhead/process data to a hub platform or onshore centre over radio, cellular, fibre or satellite links. Control loops stay in local PLC/RTU, with SCADA as supervisory layer; safety functions are implemented in a separate SIS.",
+  "aliases": [
+    "Process control and monitoring via SCADA/DCS, remote from shore or hub platform"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Tatsoft FrameworX SCADA/IIoT — Native connectors included in licence",
+      "unit": "connectors",
+      "basis": "more than 120 connectors are included in the license",
+      "low": 120,
+      "source": {
+        "url": "https://tatsoft.com/oil-gas/",
+        "source_id": "whp-tatsoft-com"
+      }
+    },
+    {
+      "metric": "Tatsoft FrameworX SCADA/IIoT — Router-embedded deployment scale",
+      "unit": "sites",
+      "basis": "A large United States oil and gas operator runs FrameworX inside Cisco industrial routers at more than 300 production sites, onshore and offshore",
+      "low": 300,
+      "source": {
+        "url": "https://tatsoft.com/oil-gas/",
+        "source_id": "whp-tatsoft-com"
+      }
+    },
+    {
+      "metric": "Rockwell ICSS on wellhead platforms (Con — Safety integrity capability",
+      "unit": "SIL",
+      "basis": "Safety instrumented systems for SIL 2 and SIL 3 functions on AADvance and Trusted, including ESD and Fire & Gas",
+      "low": 2,
+      "high": 3,
+      "source": {
+        "url": "https://www.tdl-ia.com/offshore-platform-fso-automation.html",
+        "source_id": "whp-tdl-ia-com-offshore-platform-fso-automation-html"
+      }
+    },
+    {
+      "metric": "Price — Wellhead monitoring installed hardware per well (onshore proxy, NOT offshore WHP)",
+      "unit": "USD",
+      "basis": "US onshore Permian wellhead monitoring hardware: two pressure transmitters, temperature sensor, cellular gateway, panel, solar/battery, install labour; vendor guide dated 6 May 2026; dollar year 2026.",
+      "low": 3000,
+      "high": 8000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html",
+        "source_id": "whp-merobix-com-wellhead-monitoring-system-guide-html"
+      }
+    },
+    {
+      "metric": "Price — Upfront implementation, traditional on-premise SCADA for 10 wells (onshore proxy)",
+      "unit": "USD",
+      "basis": "vendor guide dated 6 May 2026; onshore US, not an offshore platform quote; dollar year 2026.",
+      "low": 80000,
+      "high": 200000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html",
+        "source_id": "whp-merobix-com-wellhead-monitoring-system-guide-html"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "rockwell-automation",
+    "aveva",
+    "yokogawa"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.tdl-ia.com/offshore-platform-fso-automation.html",
+      "source_id": "whp-tdl-ia-com-offshore-platform-fso-automation-html"
+    },
+    {
+      "url": "https://www.masibus.com/projects-executed/scada-projects-executed/wellhead-monitoring-and-control-system-for-offshore-platform",
+      "source_id": "whp-masibus-com-wellhead-monitoring-and-control-system-for-off"
+    },
+    {
+      "url": "https://tatsoft.com/oil-gas/",
+      "source_id": "whp-tatsoft-com"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/61289",
+      "source_id": "whp-webstore-iec-ch-61289"
+    },
+    {
+      "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+      "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+    },
+    {
+      "url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html",
+      "source_id": "whp-merobix-com-wellhead-monitoring-system-guide-html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Process control and monitoring via SCADA/DCS",
+      "why": "No published capex/opex for an offshore Malaysian WHP SCADA/DCS upgrade found; only onshore US proxy costs",
+      "next_action": "Find a named offshore WHP automation contract with USD value and dollar year"
+    },
+    {
+      "what": "Process control and monitoring via SCADA/DCS",
+      "why": "Round-trip latency and availability classes for satellite-linked WHP SCADA not stated in sources read",
+      "next_action": "Source a printed latency/availability specification with basis"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (4. Control, Safety and Communication Systems). Six Section-4 WHP control/safety/comms items were researched from pages and PDFs actually read. Verified evidence: Offshore Norge guideline 070 rev 06 (PDF text extracted) assigns SIL 3 to ESD isolati",
+  "last_reviewed": "2026-11-24"
+}

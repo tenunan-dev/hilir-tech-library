@@ -64,8 +64,7 @@
   "url": "https://cleaverbrooks.com/product/traymaster",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/traymaster",
-      "source_id": "cleaverbrooks-com-product-traymaster"
+      "url": "https://cleaverbrooks.com/product/traymaster"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown).",

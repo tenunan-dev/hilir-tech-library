@@ -42,8 +42,7 @@
   "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
   "sources": [
     {
-      "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
-      "source_id": "comap-control-com-inteligen-inteligen-1000"
+      "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     }
   ],
   "notes": "Read directly via WebFetch.",

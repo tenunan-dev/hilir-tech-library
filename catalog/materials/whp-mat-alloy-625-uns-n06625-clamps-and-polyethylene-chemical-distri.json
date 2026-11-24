@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-alloy-625-uns-n06625-clamps-and-polyethylene-chemical-distri",
+  "name": "Alloy 625 (UNS N06625) clamps and polyethylene chemical distribution line",
+  "material_category": "metals-polymer",
+  "description": "Alloy 625 (UNS N06625) clamps and polyethylene chemical distribution line named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+        "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-firewater-pumps-deluge-sprinkler-system-hydrants-and-hose-reels"
+  ],
+  "sources": [
+    {
+      "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+      "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

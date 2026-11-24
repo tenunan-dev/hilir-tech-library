@@ -52,8 +52,7 @@
   "url": "https://www.andritz.com/thermal-power-en",
   "sources": [
     {
-      "url": "https://www.andritz.com/thermal-power-en",
-      "source_id": "andritz-com-thermal-power-en"
+      "url": "https://www.andritz.com/thermal-power-en"
     }
   ],
   "notes": "Fetched Thermal power page directly with WebFetch (markdown). No numeric capacity printed on this page; dedicated EcoFluid/PowerFluid product pages not opened.",

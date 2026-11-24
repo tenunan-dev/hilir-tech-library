@@ -1,0 +1,94 @@
+{
+  "id": "whp-production-manifold-headers-with-production-and-test-headers-to-commin",
+  "name": "Production manifold / headers with production and test headers to commingle fluids",
+  "equipment_type": "whp-production-process",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Wellhead gathering manifold and headers that commingle flows from multiple wells, route them to production and test headers, distribute injection fluids/chemicals and provide isolation and pigging interfaces. On a typical platform the process train is listed as wellhead, production manifold, production separator, glycol dehydration, gas compressors, water injection pumps, oil/gas export metering and main oil line pumps (Wikipedia Oil platform, read). OEM manifold/tie-in systems include tradition",
+  "aliases": [
+    "Production manifold / headers with production and test headers to commingle fluids"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Production / test manifold and headers — Manifold pressure rating (upper)",
+      "unit": "psi",
+      "basis": "TechnipFMC Manifolds page: 'Up to 20K psi' (as printed)",
+      "value": 20000,
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+        "source_id": "technipfmc-com-manifolds"
+      }
+    },
+    {
+      "metric": "Production / test manifold and headers — Manifold temperature rating (upper)",
+      "unit": "degF",
+      "basis": "TechnipFMC Manifolds page: 'Up to 350F' (as printed)",
+      "value": 350,
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+        "source_id": "technipfmc-com-manifolds"
+      }
+    },
+    {
+      "metric": "Production / test manifold and headers — Connection diameter (upper)",
+      "unit": "ft",
+      "basis": "TechnipFMC Manifolds page: 'Up to 30’ connection diameter' (as printed)",
+      "value": 30,
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+        "source_id": "technipfmc-com-manifolds"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "baker-hughes",
+    "aker-solutions"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "sys-en-wikipedia-org-oil-platform"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+      "source_id": "technipfmc-com-manifolds"
+    },
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "api-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+    },
+    {
+      "url": "https://www.stdhive.com/pdf_preview/api-rp-14c-pdf",
+      "source_id": "stdhive-com-pdf-preview-api-rp-14c-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Design pressure/temperature of a named topside production/test header (not subsea manifold)",
+      "why": "Only OEM subsea manifold ratings were read; no WHP topside header datasheet read",
+      "next_action": "Fetch a named topside manifold or production/test header datasheet and record ratings with basis"
+    },
+    {
+      "what": "Capital cost of production manifold/headers",
+      "why": "No item-specific cost figure read from a primary page",
+      "next_action": "Find a cost figure with explicit dollar year and scope basis; leave as gap until then"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (2. Production Process Systems). Eight Section-2 wellhead production-process items were researched against pages actually read with WebFetch. Verified primary evidence includes: TechnipFMC rigid-pipeline (4-18 in; >1,100 km pipe-in-p",
+  "last_reviewed": "2026-11-24"
+}

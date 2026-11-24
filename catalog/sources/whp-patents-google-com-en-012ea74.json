@@ -1,0 +1,27 @@
+{
+  "id": "whp-patents-google-com-en-012ea74",
+  "name": "WO2013122479A1 Lifeboat winch with a redundant braking system",
+  "url": "https://patents.google.com/patent/WO2013122479A1/en",
+  "source_type": "patents",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE",
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "patent publication",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Patent read in the WHP sweep: Lifeboat winch with a redundant braking system; assignee Norsafe AS; Priority 2012-02-16; published 2013-08-22; dual brake pump / dual accumulator redundancy motivated by NORSOK R-002; primary brake described as hydraulic-release Stormag multi-disc multi-spring brake, max moment 442 Nm at approx 2750 RPM; 160 cm3/rev primary brake pump. Page read 2026-11-24.",
+  "publisher_org": "Google Patents (patent office bibliographic data)"
+}

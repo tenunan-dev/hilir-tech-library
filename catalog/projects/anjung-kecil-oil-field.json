@@ -1,0 +1,24 @@
+{
+  "id": "anjung-kecil-oil-field",
+  "name": "Anjung Kecil oil field",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Block SK315, ~200 km off Bintulu, Sarawak; operator Vestigo Petroleum (PETRONAS Carigali subsidiary); WHP plus MaMPU-1 FPSO; WER telecom and 1.26 km dynamic power cable link.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+      "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field",
+      "note": "Block SK315, ~200 km off Bintulu, Sarawak; operator Vestigo Petroleum (PETRONAS Carigali subsidiary); WHP plus MaMPU-1 FPSO; WER telecom and 1.26 km dynamic power cable link."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (6. Structural and Marine Systems)."
+}

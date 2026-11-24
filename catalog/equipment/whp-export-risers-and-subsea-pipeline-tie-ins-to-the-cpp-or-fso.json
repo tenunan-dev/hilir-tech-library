@@ -1,0 +1,78 @@
+{
+  "id": "whp-export-risers-and-subsea-pipeline-tie-ins-to-the-cpp-or-fso",
+  "name": "Export risers and subsea pipeline tie-ins to the CPP or FSO",
+  "equipment_type": "whp-production-process",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Rigid flowlines and export pipelines carry oilfield fluids from wellhead/manifold to the processing facility and from offshore facilities to onshore receiving terminals; risers accommodate vessel motion and environmental loads between seabed flowlines/PLET and the surface host. TechnipFMC lists single pipelines, plastic-lined pipelines, corrosion-resistant alloy pipelines, direct electrically heated pipelines, pipe-in-pipe, electrically trace-heated pipe-in-pipe, piggybacked pipelines, steel cat",
+  "aliases": [
+    "Export risers and subsea pipeline tie-ins to the CPP or FSO"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Rigid flowlines, export pipelines and tr — Rigid pipeline diameter range",
+      "unit": "inch",
+      "basis": "TechnipFMC rigid pipelines: 'range from small diameter 4-inch pipes for oilfield service fluids, to 18-inch infield lines, to larger diameter export trunk lines connecting offshore processing facilities to onshore receiving facilities'",
+      "low": 4,
+      "high": 18,
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+        "source_id": "technipfmc-com-rigid-pipelines"
+      }
+    },
+    {
+      "metric": "Rigid flowlines, export pipelines and tr — Installed pipe-in-pipe length (company track record)",
+      "unit": "km",
+      "basis": "TechnipFMC: 'more than 1,100 kilometers of installed pipe-in-pipe' (value recorded as 1100 with 'more than' qualifier)",
+      "value": 1100,
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+        "source_id": "technipfmc-com-rigid-pipelines"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "baker-hughes",
+    "aker-solutions",
+    "american-bureau-of-shipping"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+      "source_id": "technipfmc-com-rigid-pipelines"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+      "source_id": "technipfmc-com-manifolds"
+    },
+    {
+      "url": "https://www.orcina.com/wp-content/uploads/examples/a/a05/A05%20Steel%20catenary%20riser%20systems.pdf",
+      "source_id": "sys-orcina-com-a05-20steel-20catenary-20riser-20systems-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Actual riser diameters, wall thicknesses and tensioner ratings for a named WHP/FSO tie-in",
+      "why": "Only conceptual OEM descriptions read; project-specific riser papers not fetched",
+      "next_action": "Fetch project-specific riser paper and record printed dimensions"
+    },
+    {
+      "what": "Riser/pipeline failure rate or availability for WHP export systems",
+      "why": "No reliability database or operator reliability page read",
+      "next_action": "Record numeric reliability only from a page actually read"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (2. Production Process Systems). Eight Section-2 wellhead production-process items were researched against pages actually read with WebFetch. Verified primary evidence includes: TechnipFMC rigid-pipeline (4-18 in; >1,100 km pipe-in-p",
+  "last_reviewed": "2026-11-24"
+}

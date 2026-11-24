@@ -1,0 +1,109 @@
+{
+  "id": "whp-drilling-slots-well-bays",
+  "name": "Drilling slots / well bays",
+  "equipment_type": "whp-well-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Malaysian Tarpon minimum-facility WHPs for PETRONAS Carigali were built with three 20-inch conductor slots internal to the caisson (two used, one spare) in 70-85 m water, while the West Desaru conductor-supported WSS grew from 18 wellhead flowline connections at the outset to 28 in the final design.",
+  "aliases": [
+    "Drilling slots / well bays (typically 4–12 slots on a jacketed WHP)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Conductor slot / well bay slot (Tarpon p — conductor slots per platform",
+      "unit": "slots",
+      "basis": "KMSE and AJK WHPs: three 20-inch conductor slots internal to caisson, two utilised and one spare",
+      "value": 3,
+      "low": 2,
+      "high": 3,
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      }
+    },
+    {
+      "metric": "Conductor slot / well bay slot (Tarpon p — water depth",
+      "unit": "m",
+      "basis": "Detailed design, fabrication, transport and installation of WHPs in water depths varying from 70 m to 85 m",
+      "low": 70,
+      "high": 85,
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      }
+    },
+    {
+      "metric": "Conductor slot / well bay slot (Tarpon p — wellhead flowline connections (design growth)",
+      "unit": "connections",
+      "basis": "West Desaru WSS topsides: wellhead flowline connections grew from 18 slots at outset to 28 because of drilling/completion scope growth",
+      "low": 18,
+      "high": 28,
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      }
+    },
+    {
+      "metric": "Reliability — operational design life",
+      "unit": "years",
+      "basis": "Tarpon platforms designed for a 20-year operational lifespan and relocatable",
+      "value": 20,
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      }
+    },
+    {
+      "metric": "Reliability — minimum design fatigue life",
+      "unit": "years",
+      "basis": "West Desaru WSS minimum 10-year design fatigue life; structure re-designed after slot growth",
+      "value": 10,
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "aquaterra-energy"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+      "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+    },
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+      "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "4-12 slots typical range",
+      "why": "The Mistral source states 4-12 slots but no fetched page confirms that range; a Tarpon platform has 3 slots and West Desaru 28 connections",
+      "next_action": "Find a primary page or standard that prints a slot-count range before recording it"
+    },
+    {
+      "what": "slot spacing and wellbay layout",
+      "why": "No fetched source gives slot pitch or spacing dimensions",
+      "next_action": "Source a GA drawing with printed slot spacing"
+    },
+    {
+      "what": "price/cost per slot",
+      "why": "No sourced USD figure with a dollar year was found",
+      "next_action": "Find a sourced USD cost with dollar year and basis"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (1. Well Systems). WebSearch returned no results in this environment, so research used WebFetch on pages found from the local catalog and from the source chat. Pages actually read: Wikipedia Christmas tree, IEC 61511 an",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "whp-vendor-marine-safety-forum",
+  "name": "Marine Safety Forum",
+  "country": "—",
+  "roles": [
+    "service"
+  ],
+  "categories": [
+    "engineering-consultancy"
+  ],
+  "description": "Publisher of a page read in the 2026-11-24 WHP sweep; not necessarily an equipment supplier.",
+  "technologies": [
+    "ups-whp-production-process-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Fallback vendor link for an equipment class with no named supplier on the pages read."
+}

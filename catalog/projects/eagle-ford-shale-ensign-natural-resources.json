@@ -1,0 +1,24 @@
+{
+  "id": "eagle-ford-shale-ensign-natural-resources",
+  "name": "Eagle Ford Shale (Ensign Natural Resources)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "USA",
+  "location": "USA",
+  "status": "operating",
+  "description": "Vx Spectra MPFM case study cited on SLB page",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/reservoir-characterization/reservoir-testing/surface-testing/surface-multiphase-flowmetering/vx-spectra-surface-multiphase-flowmeter",
+      "source_id": "whp-slb-com-vx-spectra-surface-multiphase-flowmeter",
+      "note": "Vx Spectra MPFM case study cited on SLB page"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (1. Well Systems)."
+}

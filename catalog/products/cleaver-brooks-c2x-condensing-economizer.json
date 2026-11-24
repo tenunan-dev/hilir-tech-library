@@ -52,8 +52,7 @@
   "url": "https://cleaverbrooks.com/product/c2x",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/c2x",
-      "source_id": "cleaverbrooks-com-product-c2x"
+      "url": "https://cleaverbrooks.com/product/c2x"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown).",

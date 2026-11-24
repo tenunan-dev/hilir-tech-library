@@ -82,8 +82,7 @@
   "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
   "sources": [
     {
-      "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
-      "source_id": "cat-te-com-electrical-wet-mate-html"
+      "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     }
   ],
   "notes": "HTML product-group page read; linked DDE datasheet not separately read.",

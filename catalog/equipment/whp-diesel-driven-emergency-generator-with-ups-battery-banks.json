@@ -1,0 +1,293 @@
+{
+  "id": "whp-diesel-driven-emergency-generator-with-ups-battery-banks",
+  "name": "Diesel-driven emergency generator with UPS/battery banks",
+  "equipment_type": "whp-utility",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Emergency/essential diesel generator packages supply emergency, essential and main loads on ISO/IEC offshore units; JIP33 S-714-1J sets starting, battery, cooling, excitation and testing requirements. UPS/battery banks bridge the gap to generator pickup and support black start; the Equinor patent and Shell Timi design give battery/UPS architecture and energy levels. USCG/IEEE practice defines essential-generation loads including HVAC, potable water, instrument air and crane auxiliaries.",
+  "aliases": [
+    "Diesel-driven emergency generator with UPS/battery banks"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Diesel generator package (emergency/esse — Independent starting systems for emergency service",
+      "unit": "systems",
+      "basis": "Diesel engines in emergency generator service shall have two independent starting systems",
+      "value": 2,
+      "source": {
+        "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+      }
+    },
+    {
+      "metric": "Diesel generator package (emergency/esse — Cranking cycles without recharge",
+      "unit": "cycles of 15 s cranking + 15 s rest",
+      "basis": "Starting systems shall be rated for handling three consecutive cranking cycles, each of 15 s of cranking and 15 s of rest, without recharging the battery or pressurizing the air vessel or hydraulic oil accumulator",
+      "value": 3,
+      "source": {
+        "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+      }
+    },
+    {
+      "metric": "Diesel generator package (emergency/esse — Radiator / air cooler design margin",
+      "unit": "% of heat load at maximum engine power",
+      "basis": "Radiators or external air coolers shall be designed for 110 % of the heat load at the maximum engine power, at the maximum ambient design temperature",
+      "value": 110,
+      "source": {
+        "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+      }
+    },
+    {
+      "metric": "Diesel generator package (emergency/esse — Water-cooled heat exchanger design margin",
+      "unit": "% of maximum heat load",
+      "basis": "Water-cooled heat exchangers shall be designed for 110 % of the maximum heat load at the maximum cooling medium inlet temperature",
+      "value": 110,
+      "source": {
+        "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+      }
+    },
+    {
+      "metric": "Diesel generator package (emergency/esse — Insulated bearing threshold",
+      "unit": "mV RMS shaft voltage",
+      "basis": "Bearing insulation shall be provided for generators with shaft voltage greater than 350 mV RMS value",
+      "value": 350,
+      "source": {
+        "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+      }
+    },
+    {
+      "metric": "Diesel generator package (emergency/esse — Personnel hot-surface protection threshold",
+      "unit": "degC",
+      "basis": "In areas that are accessible during operation and inspection, protection against potential injury from surfaces exceeding 60 °C (140 °F) shall be provided",
+      "value": 60,
+      "source": {
+        "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+      }
+    },
+    {
+      "metric": "Diesel generator package (emergency/esse — Baseplate mounting pad flatness",
+      "unit": "mm/m",
+      "basis": "Baseplate mounting pads shall be flat and parallel with each other to within 0,15 mm/m (0,002 in/ft)",
+      "value": 0.15,
+      "source": {
+        "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+      }
+    },
+    {
+      "metric": "Diesel generator package (emergency/esse — Baseplate surface finish",
+      "unit": "µm Ra",
+      "basis": "The surface finish of baseplate mounting areas shall not exceed Ra 3,2 µm (125 µin)",
+      "value": 3.2,
+      "source": {
+        "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+      }
+    },
+    {
+      "metric": "Diesel generator package (emergency/esse — Lifting provision threshold",
+      "unit": "kg",
+      "basis": "Components over 25 kg (55 lb) requiring removal for maintenance shall have lifting lugs or provisions for lifting eyebolts",
+      "value": 25,
+      "source": {
+        "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+      }
+    },
+    {
+      "metric": "UPS and battery bank with black-start ca — Low-power UPS-side energy level",
+      "unit": "kWh",
+      "basis": "the first energy level may be in the range 50-100 kWh whereas the second energy level may be in the range 500-1000 kWh or higher",
+      "low": 50,
+      "high": 100,
+      "source": {
+        "url": "https://patents.google.com/patent/US20220069575A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "UPS and battery bank with black-start ca — High-power storage energy level",
+      "unit": "kWh",
+      "basis": "the first energy level may be in the range 50-100 kWh whereas the second energy level may be in the range 500-1000 kWh or higher",
+      "low": 500,
+      "high": 1000,
+      "source": {
+        "url": "https://patents.google.com/patent/US20220069575A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "UPS and battery bank with black-start ca — Example battery bank (patent)",
+      "unit": "kWh (two batteries at 500 kWh)",
+      "basis": "In this example there are two batteries 66 rated at 500 kWh allowing for 1000 kWh for the second power supply apparatus when powered by the batteries 66 alone",
+      "value": 1000,
+      "source": {
+        "url": "https://patents.google.com/patent/US20220069575A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "UPS and battery bank with black-start ca — Emergency power rail",
+      "unit": "V",
+      "basis": "a 400 V rail 72 for emergency power, which may be supplied from the first power supply apparatus 60",
+      "value": 400,
+      "source": {
+        "url": "https://patents.google.com/patent/US20220069575A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "UPS and battery bank with black-start ca — Generator rating in patent example",
+      "unit": "MW",
+      "basis": "The gas turbine 68 is rated at 25 MW and generator, where present, might be 5 MW",
+      "value": 5,
+      "source": {
+        "url": "https://patents.google.com/patent/US20220069575A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Price — 500 kW diesel standby genset total installed (factory-direct)",
+      "unit": "USD",
+      "basis": "A 500 kW commercial standby generator set costs 135,000 to 305,000 installed, with factory-direct options typically 30-50% below Tier 1 dealer quotes; dollar year 2026.",
+      "low": 135000,
+      "high": 305000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — 500 kW diesel standby genset total installed (Tier 1 dealer)",
+      "unit": "USD",
+      "basis": "500 kW ... Total Installed (Tier 1): 320,000-600,000; dollar year 2026.",
+      "low": 320000,
+      "high": 600000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — 100 kW diesel standby genset total installed (factory-direct)",
+      "unit": "USD",
+      "basis": "100 kW system runs 28,000-73,000 installed (factory-direct); dollar year 2026.",
+      "low": 28000,
+      "high": 73000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — 1,000 kW diesel standby genset total installed (factory-direct)",
+      "unit": "USD",
+      "basis": "1,000 kW ... Total Installed (Factory-Direct): 300,000-620,000; dollar year 2026.",
+      "low": 300000,
+      "high": 620000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — Diesel genset equipment cost",
+      "unit": "USD/kW",
+      "basis": "Equipment costs for diesel standby gensets typically fall in the 180-400 per kW range for factory-direct units; dollar year 2026.",
+      "low": 180,
+      "high": 400,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — US large industrial total installed cost",
+      "unit": "USD/kW",
+      "basis": "United States - Total installed cost: 300-600/kW (small commercial), 250-450/kW (large industrial); dollar year 2026.",
+      "low": 250,
+      "high": 450,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — Southeast Asia total installed cost",
+      "unit": "USD/kW",
+      "basis": "Southeast Asia (Indonesia, Philippines, Vietnam) - Total installed cost: 280-550/kW; dollar year 2026.",
+      "low": 280,
+      "high": 550,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — ATS 500-1,000 kW total cost",
+      "unit": "USD",
+      "basis": "500-1,000 kW ATS Equipment 15,000-40,000; ATS Installation 8,000-20,000; Total ATS Cost 23,000-60,000; dollar year 2026.",
+      "low": 23000,
+      "high": 60000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "cummins",
+    "caterpillar",
+    "shell-malaysia-exploration-and-production"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+    },
+    {
+      "url": "https://patents.google.com/patent/US20220069575A1/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+      "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+    },
+    {
+      "url": "https://zccpower.com/commercial-standby-generator-cost",
+      "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Emergency generator and UPS",
+      "why": "No offshore-installed emergency genset/UPS price with dollar year was found; the 2026 figures are onshore commercial benchmarks from a vendor blog",
+      "next_action": "Fetch an EPC/operator project cost report or OEM offshore genset quotation with a stated dollar year"
+    },
+    {
+      "what": "Emergency generator and UPS",
+      "why": "No emergency genset proof-test interval or measured availability/failure rate was found in the pages read",
+      "next_action": "Fetch operator reliability data, OREDA-style handbook figures, or NFPA 110 test-frequency page with exact figures"
+    },
+    {
+      "what": "Emergency generator and UPS",
+      "why": "No UPS efficiency or battery recharge/discharge curve for an offshore UPS was read",
+      "next_action": "Fetch an OEM offshore/marine UPS datasheet with printed efficiency and battery specs"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (3. Utility Systems). Nine Section-3 utility items were researched against pages actually read. Strongest primary evidence: Shell TechXplorer Digest (Timi/Gorek hybrid solar-wind-battery: 14 kWp/80 m2 array, 73.6 kWh/day, ",
+  "last_reviewed": "2026-11-24"
+}

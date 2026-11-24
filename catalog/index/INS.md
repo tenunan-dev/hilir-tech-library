@@ -1,11 +1,12 @@
 # INS: Instrumentation and control
 
-552 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering, field-instrumentation, fire-gas-detection, machinery-control, vibration-monitoring, control-valves.
+588 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering, field-instrumentation, fire-gas-detection, machinery-control, vibration-monitoring, control-valves.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
 | [2H Offshore](https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [2Hoffshore.Com — D18 Phase 2 and D28 Phase 1 conductor-supported platfor](https://2hoffshore.com/about/news/2h-offshore-installs-its-eighth-conductor-supported-platform-offshore-malaysia) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [30 CFR 250.855 Emergency shutdown (ESD) system](https://www.ecfr.gov/current/title-30/chapter-II/subchapter-B/part-250/subpart-H/subject-group-ECFR081ef9e2fac31ea/section-250.855) | standards-body | global, sea | open | summary-only |
 | [ABB Wellhead Management System](https://library.e.abb.com/public/87968d164d3140ebaf6301f8c4a17019/PB_2102736-EN_B_WEB.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [ABS](https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/offshore/243_guidance_notes_subsea_hybrid_riser_systems_2017/Hybrid_Riser_GN_e-Jan17.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Akersolutions.Com — Dvalin North](https://www.akersolutions.com/news/news-archive/2022/aker-solutions-asa-aker-solutions-wins-dvalin-north-subsea-contract-from-wintershall-dea/) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -50,6 +51,7 @@
 | [CRA (Combustion Research Associates)](https://www.cra.energy/product/knockout-drums) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Cra.Energy — Three enclosed ground flares, Assam gas gathering stati](https://www.cra.energy/case-study/stk-execution-of-three-high-capacity-enclosed-ground-flare-systems-for-ongcs-gas-production-facilities-in-assam) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [CRP Subsea](https://www.crpsubsea.com/products/product-families/bend-fatigue-protection/bend-restrictor) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [CS-PH Ex programmable smoke & heat detector data sheet](https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf) | standards-body | global, sea | open | summary-only |
 | [CTC Marine](https://submarinepipelines.com/lunchlearn/SeabedInterventionMethodologies_Sept2019.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Deepoceangroup.Com — T1500+ jet trenching ROV depth](https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Deepsea Technologies, Inc.](https://deepsea-tech.com/portfolio/subsea-flowline-gas-injection-manifolds) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -88,6 +90,7 @@
 | [Hydril / Wikipedia (secondary)](https://en.wikipedia.org/wiki/Blowout_preventer) | research-institute | global, apac, sea, na, eu | open | summary-only |
 | [Hydropneumatic S.r.l.](https://www.hydropneumatic.it/HydroPneumatic/DataSheets/HYPN-DataSheet-WHCP-CIS-DS-R0-Wellhead-Injection-Skids.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Iconeng.Com.Au — MMC D1 cluster WHSF, D30 and Dana fields, offshore Sara](https://www.iconeng.com.au/track-record/projects/d1-cluster-development-wellhead-support-frames-whs) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [IEC 61511-1:2016+AMD1:2017 CSV](https://webstore.iec.ch/en/publication/61289) | standards-body | global, sea | paywalled | catalog-only |
 | [Info.Zeeco.Com — Number of flare types typically used in a urea pla](https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en) | oem-supplier | global, apac, sea | open | summary-only |
 | [INPEX CORPORATION](https://www.inpex.com/assets/documents/english/ir/library/integrated_report/inpex_integratedreport202512_en_03.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [INPEX CORPORATION](https://www.inpex.com/english/news/upload/20250804.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
@@ -124,6 +127,7 @@
 | [Oedigital.Com — Jerun CPP topside, SK408W, Sarawak](https://www.oedigital.com/news/512208-mmhe-delivers-topside-for-jerun-gas-field-platform-offshore-malaysia) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Oedigital.Com — Timi WHP comparison case](https://www.oedigital.com/news/490216-malaysia-shell-to-develop-timi-field-with-solar-wind-powered-platform) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Offshore Mag.Com — West Desaru WSS, Peninsular Malaysia](https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [Offshore Natural Gas Drilling Platform: Remote Pressure Monitoring of Wellhead Equipment](https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead) | oem-supplier | global, sea | open | summary-only |
 | [OMS (Oilfield Manufacturers and Supplies)](https://www.omsos.com/product-services/surface-wellhead-trees) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Onepetro.Org — Titan TTR system, Telemark Hub, Mississippi Canyon 941](https://onepetro.org/OTCONF/proceedings-pdf/10OTC/10OTC/OTC-21024-MS/1719423/otc-21024-ms.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [OneSubsea](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-boosting-pumps) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -147,6 +151,7 @@
 | [Prysmian](https://www.prysmian.com/en/markets/transmission/submarine-power/offshore-specialties) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Prysmian — Sapinhoa pre-salt](https://www.prysmian.com/en/insight/construction-and-industries/subsea-umbilicals-risers-and-flowlines-surf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Pupukkaltim.Com — PT Pupuk Kalimantan Timur (Pupuk Kaltim), Bontang](https://www.pupukkaltim.com/en/p/tentang-perusahaan) | oem-supplier | global, apac, sea | open | summary-only |
+| [Recommended guidelines for application of IEC 61508 and IEC 61511 in the Norwegian petroleum industry, No. 070 rev 06](https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Referencebook.Iasp.Tgscloud.Net — Akpo field, Nigeria (subsea tree/manifold reference)](https://www.referencebook.iasp.tgscloud.net/TOTAL_Handbooks/Akpo-Handbook.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Research.Csiro.Au — Cryogenic ammonia tank capacity (planned project)](https://research.csiro.au/hyresource/allied-green-ammonia/) | agency-data | global, apac, sea | open | summary-only |
 | [Research.Csiro.Au — Marine export facility (planned)](https://research.csiro.au/hyresource/murchison-green-hydrogen/) | agency-data | global, apac, sea | open | summary-only |
@@ -285,6 +290,7 @@
 | [Asme.Org — B31.1 latest edition](https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Asme.Org — B31.3 latest edition](https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Asme.Org — B31.8 latest edition](https://www.asme.org/codes-standards/find-codes-standards/b31-8-gas-transmission-distribution-piping-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Automation for Offshore Platforms and FSOs](https://www.tdl-ia.com/offshore-platform-fso-automation.html) | oem-supplier | global, sea | open | summary-only |
 | [Baker Hughes](https://www.bakerhughes.com/completions/gas-lift-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Baker Hughes](https://www.bakerhughes.com/subsea/subsea-production-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Baker Hughes — Flexible pipe installation speed advantage](https://www.bakerhughes.com/subsea/flexible-pipe-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -312,6 +318,7 @@
 | [Emerson (Rosemount) — Rosemount Synchros Wireless Repeater](https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Emerson (Roxar) — Roxar 2600 Multiphase Flow Meter (MPFM), with Roxar 5726 Multiphase Transmitter](https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Emerson Automation Solutions — Emerson industrial wireless portfolio (gateways, wireless instrumentation, SmartPower mod](https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Empowering Offshore Operations with Secure and High-Availability Telecommunications](https://vmdsolutions.net/offshore-2) | oem-supplier | global, sea | open | summary-only |
 | [Endress+Hauser — Cerabar PMP51B pressure transmitter](https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Endress+Hauser — Cerabar PMP71B pressure transmitter](https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [EnggCyclopedia](https://enggcyclopedia.com/2012/02/typical-pfd-instrument-air-supply-system) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
@@ -387,6 +394,7 @@
 | [Quail Tools (secondary aggregator; values stated as taken from OEM manuals) — Annular / Single Ram / Double Ram BOP spec](https://www.quailtools.com/BOPSpecSheets.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Rittal — JB Junction Boxes and terminal boxes (carbon steel, 304/316 stainless steel), PK/GA/KX enclosure families](https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Rolls-Royce Power Systems AG (mtu) — mtu diesel generator sets - Series 4000, 2000, 1600, 0080-0225](https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [SCADA Software for Oil and Gas](https://tatsoft.com/oil-gas/) | oem-supplier | global, sea | open | summary-only |
 | [Scarborough Gas Project and Pluto Train 2](https://www.offshore-technology.com/projects/scarborough-gas-field/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Schneider Electric Data Center Science Center (with Wärtsilä)](https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [SCM (Solutions for Energy) — SEA-VI 6-100 Wet Mate Connector](https://www.scmlemans.com/product/sea-vi-6-100-serie) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -438,6 +446,7 @@
 | [US Government Publishing Office / eCFR (BSEE)](https://www.ecfr.gov/current/title-30/section-250.855) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [US patent by Melvyn F. Whitby and John T. Mangan (Cameron); copy on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cameron_EVO_BOP_Patent_(Stack).jpg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Victaulic Company — Victaulic mechanical pipe joining, fittings, flow control and expansion joints](https://www.victaulic.com/products/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Wellhead Monitoring and Control System for Offshore Platform](https://www.masibus.com/projects-executed/scada-projects-executed/wellhead-monitoring-and-control-system-for-offshore-platform) | oem-supplier | global, sea | open | summary-only |
 | [Wikimedia Commons; author 'Con-struct' (2012)](https://commons.wikimedia.org/wiki/File:Pump_with_tank_pid_en.svg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Wikimedia Commons; author 'Ub' (2001)](https://commons.wikimedia.org/wiki/File:P%26ID.JPG) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Wikimedia Commons; author Egmason (2011)](https://commons.wikimedia.org/wiki/File:Blowout_Preventer.svg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -446,12 +455,15 @@
 | [Yokogawa](https://www.yokogawa.com/ia/dcs/centum-vp/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Yokogawa](https://www.yokogawa.com/) | oem-supplier | global, apac | open | full-text-restricted |
 | [Zeto](https://www.zeto.com/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Wellhead Monitoring System Complete Guide (2026)](https://www.merobix.com/blog/wellhead-monitoring-system-guide.html) | oem-supplier | global, sea | open | summary-only |
+| [2H Offshore — Addressing Integrity Issues on Ageing Platform Conductors (webinar, 28 Oct 2020)](https://2hoffshore.com/knowledge/addressing-integrity-issues-on-ageing-platform-conductors) | oem-supplier | global | open | summary-only |
 | [ABB](https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/gas-insulated) | oem-supplier | global, na | open | summary-only |
 | [Accu-Trim oxygen trim system](https://cleaverbrooks.com/product/accu-trim) | oem-supplier | global, na | open | summary-only |
 | [Active Power / Piller](https://www.activepower.com/technology/flywheel-technology) | oem-supplier | global, na | open | summary-only |
 | [AERZEN — AERZEN GM-HP gas booster volume flow](https://www.aerzen.com/product/gas-booster-for-high-pressure-applications) | oem-supplier | global, na | open | summary-only |
 | [API Standards and Publications](https://www.api.org/products-and-services/standards) | standards-body | global, na | paywalled | catalog-only |
 | [Atlas Copco](https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series) | oem-supplier | global, na | open | summary-only |
+| [AU2015261530B2 Subsea universal Xmas tree hang-off adapter](https://patents.google.com/patent/AU2015261530B2/en) | patents | global | open | summary-only |
 | [Avtron Power Solutions](https://avtronpower.com/) | oem-supplier | global, na | open | summary-only |
 | [Basler Electric](https://www.basler.com/product/decs-2100-digital-excitation-control-system) | oem-supplier | global, na | open | summary-only |
 | [BoilerPage — Figure 2-11 Pilot Gas Train; gas fuel flow diagram — Cl](https://boilerpage.com/wp-content/uploads/2025/03/Cleaver-Brooks-CB-250-350hp-Boiler-Manual.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
@@ -460,6 +472,7 @@
 | [Burgess-Manning — Vendor enclosure product families](https://burgessmanning.com/preset-vent-silencers/) | oem-supplier | global, na | open | summary-only |
 | [Caterpillar](https://www.cat.com/en_US/by-industry/electric-power/ep-prod-ser-guide/gas.html) | oem-supplier | global, na | open | summary-only |
 | [Caterpillar](https://www.datacenterdynamics.com/en/news/caterpillar-partners-with-hunt-energy-to-deliver-up-to-1gw-of-power-for-data-centers-in-north-america/) | oem-supplier | global, na | open | summary-only |
+| [CN113162215B Emergency power supply system and control method for replacing offshore platform diesel generator system](https://patents.google.com/patent/CN113162215B/en) | patents | global | open | summary-only |
 | [ComAp](https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers) | oem-supplier | global, na | open | summary-only |
 | [ComAp](https://www.comap-control.com/products/switchgear-control-and-protections) | oem-supplier | global, na | open | summary-only |
 | [ComAp — ComAp InteliGen 1000 coordinated units](https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000) | oem-supplier | global, na | open | summary-only |
@@ -479,8 +492,10 @@
 | [Everllence — Labuan Island gas power plant (KAB Energy Holdings)](https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants) | oem-supplier | global, na | open | summary-only |
 | [Everllence — Mechanical output](https://www.everllence.com/energy/products/gas-fuel-engines) | oem-supplier | global, na | open | summary-only |
 | [Fluence Energy](https://fluenceenergy.com/data-center-solution) | oem-supplier | global, na | open | summary-only |
+| [GB2385347A Concentric tubing completion system](https://patents.google.com/xhr/query?url=q%3Dchristmas%2Btree%2Bwellhead%26num%3D10&exp=) | patents | global | open | summary-only |
 | [Honeywell burner management systems](https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems) | oem-supplier | global, na | open | summary-only |
 | [Honeywell S70X/S80X flame-scanner viewing heads](https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x) | oem-supplier | global, na | open | summary-only |
+| [IEC 61511](https://en.wikipedia.org/wiki/IEC_61511) | standards-body | global | open | summary-only |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [INNIO Jenbacher](https://www.jenbacher.com/en/services/balance-of-plant/6335-2/) | oem-supplier | global, na | open | summary-only |
 | [INNIO Jenbacher](https://www.jenbacher.com/en/energy-solutions/industries/data-center/) | oem-supplier | global, na | open | summary-only |
@@ -493,6 +508,7 @@
 | [INNIO — Concord Group four palm-oil-waste/biogas plants, Malays](https://www.innio.com/en/news-media/press-releases/innio-signs-agreement-with-concord-group-of-companies-to-develop-four-biogas-power-plants-supporting-malaysian-decarbonization-efforts-2/) | oem-supplier | global, na | open | summary-only |
 | [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
+| [ISO 10423:2009 (withdrawn)](https://www.iso.org/standard/42757.html) | standards-body | global | open | summary-only |
 | [Johnson Controls (YORK, Silent-Aire)](https://www.johnsoncontrols.com/media-center/news/press-releases/2026/07/28/johnson-controls-introduces-absorption-chiller-reference-design-guide-unlocking-up-to-97mw-of-additi) | oem-supplier | global, na | open | summary-only |
 | [Johnson Controls (YORK, Silent-Aire)](https://www.johnsoncontrols.com/building-insights/feature-story/a-global-blueprint-for-how-gigawatt-scale-ai-factories-can-re-use-waste-heat-with-absorption-chillers) | oem-supplier | global, na | open | summary-only |
 | [Johnson Matthey](https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems) | oem-supplier | global, na | open | summary-only |
@@ -500,6 +516,8 @@
 | [MAN Energy Solutions — Sipitang FLNG dedicated power plant, Sabah](https://www.man-es.com/company/press-releases/press-details/2024/09/04/man-energy-solutions-to-supply-gas-engines-for-three-power-plants-in-southeast-asia) | oem-supplier | global, na | open | summary-only |
 | [Mecc Alte — Rating range](https://www.meccalte.com/en/products/alternators/power-products-mvhv) | oem-supplier | global, na | open | summary-only |
 | [MTU Solutions — Electrical power range](https://www.mtu-solutions.com/seai/en/applications/power-generation/power-generation-applications/data-centers.html) | oem-supplier | global, na | open | summary-only |
+| [NFPA 30](https://www.pdhonline.com/courses/m332/m332content.pdf) | standards-body | global | open | summary-only |
+| [NFPA 37](https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf) | standards-body | global | open | summary-only |
 | [Pipeline Research Council International (PRCI)](https://www.prci.org/) | research-institute | global | mixed | catalog-only (unverified) |
 | [RAM Ratings — Kimanis Power (Dua) gas-engine peaking plant, Kimanis, ](https://www.ram.com.my/pressrelease?prviewid=7207) | oem-supplier | global, na | open | summary-only |
 | [Rehlko](https://techcomm.rehlko.com/$web/techcomm/pdf/G12-506_KD_Series_Spec_Guide_700-4000.pdf) | oem-supplier | global, na | open | summary-only |
@@ -517,9 +535,25 @@
 | [US Environmental Protection Agency — SCR Process Flow Diagram — Figure 2.1, Chapter 4.2 NOx ](https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch2.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [US Environmental Protection Agency — Typical CEMS for Multiple Parameter Monitoring — Figure](https://www.epa.gov/sites/default/files/2020-07/documents/cs2ch4.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [US Nuclear Regulatory Commission — Figure 2-1 — Basic system schematic, Instrument Air Sys](https://www.nrc.gov/docs/ml0037/ml003767039.pdf) | agency-data | global, na | open | summary-only (unverified) |
+| [US20120273228A1 Integrated Choke Manifold System for Use in A Well Application](https://patents.google.com/patent/US20120273228A1/en) | patents | global | open | summary-only |
+| [US20220069575A1 Power supply system for an offshore platform](https://patents.google.com/patent/US20220069575A1/en) | patents | global | open | summary-only |
+| [US4135949A Safety interlock for pipeline pig launcher and receiver](https://patents.google.com/patent/US4135949A/en) | patents | global | open | summary-only |
+| [US4237936A Pig trap closure](https://patents.google.com/patent/US4237936A/en) | patents | global | open | summary-only |
+| [US4679964A Offshore well support miniplatform](https://patents.google.com/patent/US4679964A/en) | patents | global | open | summary-only |
+| [US4932811A Well head conductor and/or caisson support system](https://patents.google.com/patent/US4932811A/en) | patents | global | open | summary-only |
+| [US5513929A Fixed offshore platform structures, using small diameter, tensioned, well casing tiebacks](https://patents.google.com/patent/US5513929A/en) | patents | global | open | summary-only |
+| [US6805200B2 Horizontal spool tree wellhead system and method](https://patents.google.com/patent/US6805200B2/en) | patents | global | open | summary-only |
+| [US6981848B1 Methanol injection system and method to prevent freezing of a natural gas pipeline](https://patents.google.com/patent/US6981848B1/en) | patents | global | open | summary-only |
+| [US7069874B2 Davit-launched life raft](https://patents.google.com/patent/US7069874B2/en) | patents | global | open | summary-only |
 | [Vertiv](https://www.vertiv.com/4934c2/globalassets/campaigns/ai-hub/overhaul/reference-design/vertiv-reference-design-029a_datasheet_apac-en_2025_sl-80247.pdf) | oem-supplier | global, na | open | summary-only |
 | [Vertiv](https://www.vertiv.com/4a1875/globalassets/shared/vertiv-energycore-battery-storage-system-data-sheet-sl-71271.pdf) | oem-supplier | global, na | open | summary-only |
 | [Vertiv](https://www.vertiv.com/) | oem-supplier | global, na | open | summary-only |
+| [Vx Spectra Surface Multiphase Flowmeter](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/reservoir-characterization/reservoir-testing/surface-testing/surface-multiphase-flowmetering/vx-spectra-surface-multiphase-flowmeter) | patents | global | open | summary-only |
+| [WELLHEAD CONTROL PANEL (multi)](https://www.ipsgroupbv.com/products/turnkey-control-systems/wellhead-control-panel-multi/) | oem-supplier | global | open | summary-only |
+| [WO2008045381A2 Dual subsea production chokes for high pressure well production](https://patents.google.com/patent/WO2008045381A2/en) | patents | global | open | summary-only |
+| [WO2013122479A1 Lifeboat winch with a redundant braking system](https://patents.google.com/patent/WO2013122479A1/en) | patents | global | open | summary-only |
+| [WO2016067222A1 Additive management system](https://patents.google.com/patent/WO2016067222A1/en) | patents | global | open | summary-only |
+| [WO2018052314A1 Optimising fire protection for an offshore platform](https://patents.google.com/patent/WO2018052314A1/en) | patents | global | open | summary-only |
 | [Woodward](https://www.woodward.com/products/wp-content/uploads/sites/3/2025/04/B37581_N.pdf) | oem-supplier | global, na | open | summary-only |
 | [Woodward — Genset paralleling capacity](https://www.woodward.com/products/industrial/generator-controllers/easygen) | oem-supplier | global, na | open | summary-only |
 | [Wärtsilä — Australia's largest reciprocating engine power plant (g](https://www.wartsila.com/media/news/30-09-2026-wartsila-to-deliver-engines-for-australia-s-largest-ever-engine-power-plant-to-support-the-country-s-energy-transition-3795697) | oem-supplier | global, na | open | summary-only |
@@ -551,7 +585,9 @@
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
 | [TechnipFMC](https://www.technipfmc.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
+| [Unmanned Offshore Platforms: Wellhead Systems & Testing](https://www.oilgasz.com/2023/07/offshore-platform-wellhead-systems.html?m=1) | oem-supplier | global | open | summary-only |
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
+| [Wikipedia Safety integrity level](https://en.wikipedia.org/wiki/Safety_Integrity_Level) | standards-body | global | open | summary-only |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Rockwell Automation](https://www.rockwellautomation.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [VEGA Grieshaber](https://www.vega.com/) | oem-supplier | global | open | summary-only (unverified) |

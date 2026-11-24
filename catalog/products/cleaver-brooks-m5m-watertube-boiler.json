@@ -86,8 +86,7 @@
   "url": "https://cleaverbrooks.com/product/m5m",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/m5m",
-      "source_id": "cleaverbrooks-com-product-m5m"
+      "url": "https://cleaverbrooks.com/product/m5m"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown).",

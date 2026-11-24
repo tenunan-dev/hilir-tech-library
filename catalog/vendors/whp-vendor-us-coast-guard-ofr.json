@@ -1,0 +1,22 @@
+{
+  "id": "whp-vendor-us-coast-guard-ofr",
+  "name": "US Coast Guard (OFR)",
+  "country": "—",
+  "roles": [
+    "service"
+  ],
+  "categories": [
+    "engineering-consultancy"
+  ],
+  "description": "Publisher of a page read in the 2026-11-24 WHP sweep; not necessarily an equipment supplier.",
+  "technologies": [
+    "ups-whp-utility-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ecfr.gov/current/title-33/part-145"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Fallback vendor link for an equipment class with no named supplier on the pages read."
+}

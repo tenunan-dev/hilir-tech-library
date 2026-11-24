@@ -42,8 +42,7 @@
   "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
   "sources": [
     {
-      "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
-      "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     }
   ],
   "notes": "Fetched Zeeco Power Burners page directly with WebFetch (markdown). Same page also describes register-style and PDH air heater duct burners.",

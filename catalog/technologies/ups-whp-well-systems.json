@@ -1,0 +1,644 @@
+{
+  "id": "ups-whp-well-systems",
+  "name": "Wellhead platform well systems",
+  "aliases": [
+    "Wellhead platform well systems"
+  ],
+  "sector": "UPS",
+  "category": "Offshore wellhead platforms",
+  "applications": [
+    "offshore Malaysia wellhead platform",
+    "minimum-facility normally unmanned platform"
+  ],
+  "maturity": "commercial",
+  "principle": "Wellhead platform well systems: well systems: wellheads and trees, WCP/HPU, gas lift, water injection and well testing. Sourced from pages read in the 2026-11-24 WHP component sweep.",
+  "process_steps": [
+    {
+      "id": "DRILLING_SLOTS_WEL",
+      "name": "Drilling slots / well bays",
+      "equipment": [
+        "Drilling slots / well bays"
+      ]
+    },
+    {
+      "id": "WELLHEADS_AND_CHRI",
+      "name": "Wellheads and Christmas trees",
+      "equipment": [
+        "Wellheads and Christmas trees"
+      ]
+    },
+    {
+      "id": "WELLHEAD_CONTROL_P",
+      "name": "Wellhead Control Panel",
+      "equipment": [
+        "Wellhead Control Panel"
+      ]
+    },
+    {
+      "id": "ESD_STATIONS_AT_ST",
+      "name": "ESD stations at strategic locations",
+      "equipment": [
+        "ESD stations at strategic locations"
+      ]
+    },
+    {
+      "id": "GAS_LIFT_MANIFOLD",
+      "name": "Gas lift manifold and flowlines for artificial lift",
+      "equipment": [
+        "Gas lift manifold and flowlines for artificial lift"
+      ]
+    },
+    {
+      "id": "WATER_INJECTION_MA",
+      "name": "Water injection manifold and W.I. pig launcher/receiver",
+      "equipment": [
+        "Water injection manifold and W.I. pig launcher/receiver"
+      ]
+    },
+    {
+      "id": "WELL_TEST_FACILITI",
+      "name": "Well test facilities: test manifold with either a test separator or a multiphase",
+      "equipment": [
+        "Well test facilities: test manifold with either a test separator or a multiphase"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "Drilling slots / well bays",
+    "Wellheads and Christmas trees",
+    "Wellhead Control Panel",
+    "ESD stations at strategic locations",
+    "Gas lift manifold and flowlines for artificial lift",
+    "Water injection manifold and W.I. pig launcher/receiver",
+    "Well test facilities: test manifold with either a test separator or a multiphase flow meter"
+  ],
+  "suppliers": [
+    {
+      "name": "Aquaterra Energy"
+    },
+    {
+      "name": "Baker Hughes"
+    },
+    {
+      "name": "TechnipFMC (CDS Separation Systems)"
+    },
+    {
+      "name": "Aker Solutions"
+    },
+    {
+      "name": "IPS Group BV"
+    },
+    {
+      "name": "IPS Group BV"
+    },
+    {
+      "name": "Baker Hughes"
+    },
+    {
+      "name": "Aquaterra Energy"
+    },
+    {
+      "name": "Aquaterra Energy"
+    },
+    {
+      "name": "SLB (Cameron pressure control equipment)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Reliability — operational design life",
+      "unit": "years",
+      "basis": "Tarpon platforms designed for a 20-year operational lifespan and relocatable",
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      },
+      "low": 20,
+      "high": 20
+    },
+    {
+      "metric": "Reliability — minimum design fatigue life",
+      "unit": "years",
+      "basis": "West Desaru WSS minimum 10-year design fatigue life; structure re-designed after slot growth",
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      },
+      "low": 10,
+      "high": 10
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2012,
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      }
+    },
+    {
+      "metric": "Reliability — two master valves used for redundancy",
+      "unit": "valves",
+      "basis": "DrillingFormulas: two master valves provide redundancy so another can perform the function if one fails",
+      "source": {
+        "url": "https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/",
+        "source_id": "sys-drillingformulas-com"
+      },
+      "low": 2,
+      "high": 2
+    },
+    {
+      "metric": "Reliability — fail-safe closed hydraulic wing valve",
+      "unit": "count",
+      "basis": "Hydraulic operated wing valves usually fail safe closed, requiring active hydraulic pressure to stay open; loss of control fluid shuts the well in",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      },
+      "low": 0,
+      "high": 0
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 1962,
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
+        "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2021,
+      "source": {
+        "url": "https://www.technipfmc.com/en/media/news/2025/05/technipfmc-marks-milestone-100th-subsea-20-tree-delivery-with-client-that-placed-first-order/",
+        "source_id": "technipfmc-com-technipfmc-marks-milestone-100th-subsea-20-tree-del"
+      }
+    },
+    {
+      "metric": "Reliability — accumulator precharge check interval",
+      "unit": "year",
+      "basis": "The pre-charge pressure must be checked at least once per year and if necessary charged again",
+      "source": {
+        "url": "https://www.ipsgroupbv.com/products/turnkey-control-systems/wellhead-control-panel-multi/",
+        "source_id": "whp-ipsgroupbv-com"
+      },
+      "low": 1,
+      "high": 1
+    },
+    {
+      "metric": "Reliability — pump redundancy",
+      "unit": "pumps per pressure level",
+      "basis": "Each pressure level has two dedicated electric driven pumps (A and B)",
+      "source": {
+        "url": "https://www.ipsgroupbv.com/products/turnkey-control-systems/wellhead-control-panel-multi/",
+        "source_id": "whp-ipsgroupbv-com"
+      },
+      "low": 2,
+      "high": 2
+    },
+    {
+      "metric": "Reliability — design operational life",
+      "unit": "years",
+      "basis": "INTECH panels can be designed for up to 25 years of operational life, with optional extended O&M support",
+      "source": {
+        "url": "https://www.intechww.com/skids-packages/wellhead-solutions/wellhead-control-panels",
+        "source_id": "intechww-com-wellhead-solutions-wellhead-control-panels"
+      },
+      "low": 25,
+      "high": 25
+    },
+    {
+      "metric": "Reliability — hydraulic system low-pressure trip",
+      "unit": "count",
+      "basis": "API RP 14C training slides list 'Low pressure hydraulic system' as an input to ESD II",
+      "source": {
+        "url": "https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html",
+        "source_id": "sys-pdfcoffee-com-safety-design-and-api-rp-14c-2-pdf-free-html"
+      },
+      "low": 0,
+      "high": 0
+    },
+    {
+      "metric": "Reliability — SIL 1 probability of dangerous failure on demand (low demand)",
+      "unit": "PFD",
+      "basis": "PFD 0.1-0.01, RRF 10-100, low demand operation per IEC EN 61508 as printed in table",
+      "low": 0.01,
+      "high": 0.1,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Safety_Integrity_Level",
+        "source_id": "whp-en-wikipedia-org-safety-integrity-level"
+      }
+    },
+    {
+      "metric": "Reliability — SIL 2 probability of dangerous failure on demand (low demand)",
+      "unit": "PFD",
+      "basis": "PFD 0.01-0.001, RRF 100-1000, low demand operation per IEC EN 61508",
+      "low": 0.001,
+      "high": 0.01,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Safety_Integrity_Level",
+        "source_id": "whp-en-wikipedia-org-safety-integrity-level"
+      }
+    },
+    {
+      "metric": "Reliability — SIL 3 probability of dangerous failure on demand (low demand)",
+      "unit": "PFD",
+      "basis": "PFD 0.001-0.0001, RRF 1000-10,000, low demand operation per IEC EN 61508",
+      "low": 0.0001,
+      "high": 0.001,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Safety_Integrity_Level",
+        "source_id": "whp-en-wikipedia-org-safety-integrity-level"
+      }
+    },
+    {
+      "metric": "Reliability — SIL 4 probability of dangerous failure on demand (low demand)",
+      "unit": "PFD",
+      "basis": "PFD 0.0001-0.00001, RRF 10,000-100,000, low demand operation per IEC EN 61508",
+      "low": 1e-05,
+      "high": 0.0001,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Safety_Integrity_Level",
+        "source_id": "whp-en-wikipedia-org-safety-integrity-level"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html",
+        "source_id": "sys-pdfcoffee-com-safety-design-and-api-rp-14c-2-pdf-free-html"
+      }
+    },
+    {
+      "metric": "Reliability — calibration/verification interval",
+      "unit": "year",
+      "basis": "Typical recommendation is yearly checks and verification; calibration verified using test separator data or sampling",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      },
+      "low": 1,
+      "high": 1
+    },
+    {
+      "metric": "Reliability — moving parts",
+      "unit": "count",
+      "basis": "Roxar 2600 has no moving parts, reducing wear and maintenance needs and the need for spare parts",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      },
+      "low": 0,
+      "high": 0
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://www.oilgasz.com/2023/07/offshore-platform-wellhead-systems.html?m=1",
+        "source_id": "whp-oilgasz-com-offshore-platform-wellhead-systems-html"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/reservoir-characterization/reservoir-testing/surface-testing/surface-multiphase-flowmetering/vx-spectra-surface-multiphase-flowmeter",
+        "source_id": "whp-slb-com-vx-spectra-surface-multiphase-flowmeter"
+      }
+    }
+  ],
+  "costs": [],
+  "advantages": [
+    "Minimum-facility WHPs avoid onboard processing by exporting fluids to a host"
+  ],
+  "limitations": [
+    "Many component figures are not published on freely readable pages; gaps are recorded"
+  ],
+  "sources": [
+    {
+      "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+      "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+    },
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+      "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+    },
+    {
+      "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
+      "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
+    },
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems",
+      "source_id": "cat-slb-com-ic-conventional-wellhead-systems"
+    },
+    {
+      "url": "https://www.iso.org/standard/79588.html",
+      "source_id": "whp-iso-org-79588-html",
+      "note": "ISO 10423:2022 Petroleum and natural gas industries - Drilling and production equipment - Wellhead and tree equipment — Wellheads and Christmas trees"
+    },
+    {
+      "url": "https://www.iso.org/standard/42757.html",
+      "source_id": "whp-iso-org-42757-html",
+      "note": "ISO 10423:2009 (withdrawn) Petroleum and natural gas industries - Drilling and production equipment - Wellhead and christmas tree equipment; defines PSL 1, 2, 3, 3G and 4 — Wellheads and Christmas trees"
+    },
+    {
+      "url": "https://www.iso.org/standard/79588.html",
+      "source_id": "whp-iso-org-79588-html",
+      "note": "API Spec 6A, 21st edition (2018) Referenced by ISO 10423:2022 as the specification supplemented by that document — Wellheads and Christmas trees"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well",
+      "note": "API 6A and API 17D Identify valve configurations of subsea and surface trees — Wellheads and Christmas trees"
+    },
+    {
+      "url": "https://patents.google.com/patent/US6805200B2/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US6805200B2 Horizontal spool tree wellhead system and method (Dril Quip Inc (original assignee; current assignee Innovex International Inc)) — Wellheads and Christmas trees"
+    },
+    {
+      "url": "https://patents.google.com/patent/AU2015261530B2/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent AU2015261530B2 Subsea universal Xmas tree hang-off adapter (Aker Solutions AS) — Wellheads and Christmas trees"
+    },
+    {
+      "url": "https://patents.google.com/xhr/query?url=q%3Dchristmas%2Btree%2Bwellhead%26num%3D10&exp=",
+      "source_id": "whp-patents-google-com-query",
+      "note": "Patent GB2385347A Concentric tubing completion system (Fmc Technologies) — Wellheads and Christmas trees"
+    },
+    {
+      "url": "https://patents.google.com/xhr/query?url=q%3Dchristmas%2Btree%2Bwellhead%26num%3D10&exp=",
+      "source_id": "whp-patents-google-com-query",
+      "note": "Patent US10240424B2 Christmas tree (Stuart Brown) — Wellheads and Christmas trees"
+    },
+    {
+      "url": "https://www.ipsgroupbv.com/products/turnkey-control-systems/wellhead-control-panel-multi/",
+      "source_id": "whp-ipsgroupbv-com"
+    },
+    {
+      "url": "https://www.intechww.com/skids-packages/wellhead-solutions/wellhead-control-panels",
+      "source_id": "intechww-com-wellhead-solutions-wellhead-control-panels"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/IEC_61511",
+      "source_id": "whp-en-wikipedia-org-iec-61511",
+      "note": "IEC 61511 Functional safety - Safety instrumented systems for the process industry sector — Wellhead Control Panel"
+    },
+    {
+      "url": "https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html",
+      "source_id": "sys-pdfcoffee-com-safety-design-and-api-rp-14c-2-pdf-free-html",
+      "note": "API RP 14C Analyse, design and install basic surface safety systems (shutdown levels table in cited training slides) — Wellhead Control Panel"
+    },
+    {
+      "url": "https://www.oilgasz.com/2023/07/offshore-platform-wellhead-systems.html?m=1",
+      "source_id": "whp-oilgasz-com-offshore-platform-wellhead-systems-html"
+    },
+    {
+      "url": "https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html",
+      "source_id": "sys-pdfcoffee-com-safety-design-and-api-rp-14c-2-pdf-free-html"
+    },
+    {
+      "url": "https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html",
+      "source_id": "sys-pdfcoffee-com-safety-design-and-api-rp-14c-2-pdf-free-html",
+      "note": "API RP 14C Recommended Practice for Analysis, Design, Installation, and Testing of Basic Surface Safety Systems on Offshore Production Platforms — ESD stations at strategic locations"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/IEC_61511",
+      "source_id": "whp-en-wikipedia-org-iec-61511",
+      "note": "IEC 61511 / BS EN 61511 / EN 61511 Functional safety - safety instrumented systems for the process industry sector (CENELEC adoption, BSI published as BS EN 61511) — ESD stations at strategic locations"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/IEC_61511",
+      "source_id": "whp-en-wikipedia-org-iec-61511",
+      "note": "ANSI/ISA 84.00.01-2004 Issued September 2004, mirrors IEC 61511 with a grandfathering clause — ESD stations at strategic locations"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Safety_Integrity_Level",
+      "source_id": "whp-en-wikipedia-org-safety-integrity-level",
+      "note": "IEC 61508 Master functional safety standard referenced by IEC 61511 — ESD stations at strategic locations"
+    },
+    {
+      "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
+      "source_id": "cat-bakerhughes-com-gas-lift-valves"
+    },
+    {
+      "url": "https://patents.google.com/patent/AU2015261530B2/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent AU2015261530B2 Subsea universal Xmas tree hang-off adapter (Aker Solutions AS) — Gas lift manifold and flowlines for arti"
+    }
+  ],
+  "notes": "ISO 10423:2022 Petroleum and natural gas industries - Drilling and production equipment - Wellhead and tree equipment — Wellheads and Christmas trees | ISO 10423:2009 (withdrawn) Petroleum and natural gas industries - Drilling and production equipment - Wellhead and christmas tree equipment; defines PSL 1, 2, 3, 3G and 4 — Wellheads and Christmas tre | API Spec 6A, 21st edition (2018) Referenced by ISO 10423:2022 as the specification supplemented by that document — Wellheads and Christmas trees | API 6A and API 17D Identify valve configurations of subsea and surface trees — Wellheads and Christmas trees | Patent US6805200B2 Horizontal spool tree wellhead system and method (Dril Quip Inc (original assignee; current assignee Innovex International Inc)) — Wellheads and Christmas trees | Patent AU2015261530B2 Subsea universal Xmas tree hang-off adapter (Aker Solutions AS) — Wellheads and Christmas trees | Patent GB2385347A Concentric tubing completion system (Fmc Technologies) — Wellheads ",
+  "last_reviewed": "2026-11-24",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "4-12 slots typical range",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Mistral source states 4-12 slots but no fetched page confirms that range; a Tarpon platform has 3 slots and West Desaru 28 connections",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Drilling slots / well bays",
+          "access": "open"
+        }
+      ],
+      "action": "Find a primary page or standard that prints a slot-count range before recording it"
+    },
+    {
+      "field": "performance",
+      "item": "slot spacing and wellbay layout",
+      "reason_code": "not_in_sources_read",
+      "reason": "No fetched source gives slot pitch or spacing dimensions",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Drilling slots / well bays",
+          "access": "open"
+        }
+      ],
+      "action": "Source a GA drawing with printed slot spacing"
+    },
+    {
+      "field": "performance",
+      "item": "printed pressure class table for API 6A (2,000/3,000/5,000/10,000/15,000/20,000 psi)",
+      "reason_code": "not_in_sources_read",
+      "reason": "No fetched page printed the full API 6A pressure class table",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Wellheads and Christmas trees",
+          "access": "open"
+        }
+      ],
+      "action": "Read the standard or an OEM datasheet that prints the class table"
+    },
+    {
+      "field": "performance",
+      "item": "single/dual/triple splitter dimensional details",
+      "reason_code": "not_in_sources_read",
+      "reason": "Offshore Magazine names the configurations but prints no dimensions or pressure ratings",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Wellheads and Christmas trees",
+          "access": "open"
+        }
+      ],
+      "action": "Find a manufacturer datasheet for splitter wellheads"
+    },
+    {
+      "field": "performance",
+      "item": "WCP/HPU specification on a named Malaysian WHP",
+      "reason_code": "not_in_sources_read",
+      "reason": "West Desaru article confirms a panel exists but prints no pressure levels or HPU details",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Wellhead Control Panel",
+          "access": "open"
+        }
+      ],
+      "action": "Find a project-specific WHCP datasheet"
+    },
+    {
+      "field": "performance",
+      "item": "hydraulic fluid type and HPU power rating",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not printed on the read pages",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Wellhead Control Panel",
+          "access": "open"
+        }
+      ],
+      "action": "Source an HPU datasheet"
+    },
+    {
+      "field": "performance",
+      "item": "ESD station locations (boat landing, cellar deck, tree area)",
+      "reason_code": "not_in_sources_read",
+      "reason": "No fetched source states those exact locations; the Mistral claim is unverified",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for ESD stations at strategic locations",
+          "access": "open"
+        }
+      ],
+      "action": "Find an WHP ESD philosophy or layout drawing"
+    },
+    {
+      "field": "performance",
+      "item": "SIL target for WHP ESD functions",
+      "reason_code": "not_in_sources_read",
+      "reason": "SIL tables are generic; no WHP-specific SIL allocation found",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for ESD stations at strategic locations",
+          "access": "open"
+        }
+      ],
+      "action": "Find a project-specific SIL study"
+    },
+    {
+      "field": "performance",
+      "item": "gas lift manifold size, pressure and material",
+      "reason_code": "not_in_sources_read",
+      "reason": "No fetched page prints manifold specifications",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Gas lift manifold and flowlines for artificial lift",
+          "access": "open"
+        }
+      ],
+      "action": "Source an OEM gas lift manifold datasheet"
+    },
+    {
+      "field": "performance",
+      "item": "injection gas rate and pressure",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not printed on the read pages",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Gas lift manifold and flowlines for artificial lift",
+          "access": "open"
+        }
+      ],
+      "action": "Find a project design basis with gas injection figures"
+    },
+    {
+      "field": "performance",
+      "item": "W.I. pig receiver location and size",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only a pig launcher is named on the WSS; no receiver specification found",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Water injection manifold and W.I. pig launcher/receiver",
+          "access": "open"
+        }
+      ],
+      "action": "Source a project P&ID showing the pig trap pair"
+    },
+    {
+      "field": "performance",
+      "item": "water injection manifold rating and number of slots",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not printed on the read pages",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Water injection manifold and W.I. pig launcher/receiver",
+          "access": "open"
+        }
+      ],
+      "action": "Find an OEM water injection manifold datasheet"
+    },
+    {
+      "field": "performance",
+      "item": "test separator sizing and duty for a Malaysian WHP",
+      "reason_code": "not_in_sources_read",
+      "reason": "No fetched page gives separator dimensions or capacity for a WHP",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Well test facilities: test manifold with either a test separ",
+          "access": "open"
+        }
+      ],
+      "action": "Source a test separator datasheet"
+    },
+    {
+      "field": "performance",
+      "item": "MPFM turndown figures from a fetched page",
+      "reason_code": "not_in_sources_read",
+      "reason": "A prior sweep noted Diligens Spectra 10:1 to 50:1 turndown with 19 mm and 40 mm venturis, but the page fetched here returned navigation only for those figures",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Well test facilities: test manifold with either a test separ",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch the specific product datasheet that prints turndown"
+    }
+  ]
+}

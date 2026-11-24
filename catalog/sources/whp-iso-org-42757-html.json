@@ -1,0 +1,30 @@
+{
+  "id": "whp-iso-org-42757-html",
+  "name": "ISO 10423:2009 (withdrawn)",
+  "url": "https://www.iso.org/standard/42757.html",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE",
+    "CIV"
+  ],
+  "subtopics": [
+    "Petroleum and natural gas industries - Drilling and production equipment - Wellhead and ch"
+  ],
+  "publisher_org": "ISO 10423:2009 (withdrawn)",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Petroleum and natural gas industries - Drilling and production equipment - Wellhead and christmas tree equipment; defines PSL 1, 2, 3, 3G and 4"
+}

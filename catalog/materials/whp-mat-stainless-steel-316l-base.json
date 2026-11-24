@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-stainless-steel-316l-base",
+  "name": "Stainless Steel 316L base",
+  "material_category": "metal-racon-mounting",
+  "description": "Stainless Steel 316L base named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+        "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-navigation-aids"
+  ],
+  "sources": [
+    {
+      "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+      "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

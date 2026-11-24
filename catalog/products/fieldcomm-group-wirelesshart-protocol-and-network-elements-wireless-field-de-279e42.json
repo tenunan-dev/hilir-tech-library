@@ -32,8 +32,7 @@
   "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
   "sources": [
     {
-      "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
-      "source_id": "cat-fieldcommgroup-org-wirelesshart"
+      "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     }
   ],
   "notes": "Page read in full. Defines three network elements (wireless field devices, gateways, network manager) and four messaging modes. Registered-products subpage returned HTTP 403 to WebFetch and is not used as evidence.",

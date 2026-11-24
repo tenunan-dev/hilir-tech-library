@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-316-stainless-steel-hvac-construction-and-copper-fin-coils",
+  "name": "316 stainless steel HVAC construction and copper fin coils",
+  "material_category": "metals",
+  "description": "316 stainless steel HVAC construction and copper fin coils named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+        "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-hvac-for-equipment-mcc-rooms"
+  ],
+  "sources": [
+    {
+      "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+      "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

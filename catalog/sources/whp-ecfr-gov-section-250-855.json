@@ -1,0 +1,29 @@
+{
+  "id": "whp-ecfr-gov-section-250-855",
+  "name": "30 CFR 250.855 Emergency shutdown (ESD) system",
+  "url": "https://www.ecfr.gov/current/title-30/chapter-II/subchapter-B/part-250/subpart-H/subject-group-ECFR081ef9e2fac31ea/section-250.855",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "INS",
+    "ELE"
+  ],
+  "subtopics": [
+    "Read directly; current as of 11/20/2026."
+  ],
+  "publisher_org": "BSEE / Office of the Federal Register",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "US Government public domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Read directly; current as of 11/20/2026."
+}

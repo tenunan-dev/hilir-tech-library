@@ -1,0 +1,28 @@
+{
+  "id": "whp-en-wikipedia-org-normally-unmanned-installation",
+  "name": "Normally unmanned installation",
+  "url": "https://en.wikipedia.org/wiki/Normally_unmanned_installation",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "HSE"
+  ],
+  "subtopics": [
+    "Read with WebFetch; article flags need for more citations. Ref: SPE-197513-MS (not itself "
+  ],
+  "publisher_org": "Wikipedia / Wikimedia Foundation",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Read with WebFetch; article flags need for more citations. Ref: SPE-197513-MS (not itself fetched)."
+}

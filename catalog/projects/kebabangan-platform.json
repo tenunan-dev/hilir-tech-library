@@ -1,0 +1,24 @@
+{
+  "id": "kebabangan-platform",
+  "name": "Kebabangan platform",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Deck includes accommodation for staff and a tender-assisted drilling rig; no helideck dimensions given on the page read.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+      "source_id": "offshore-technology-com-projects-kebabangan-field",
+      "note": "Deck includes accommodation for staff and a tender-assisted drilling rig; no helideck dimensions given on the page read."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (6. Structural and Marine Systems)."
+}

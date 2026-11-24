@@ -43,8 +43,7 @@
   "url": "https://www.cummins.com/en-apac/generators/diesel",
   "sources": [
     {
-      "url": "https://www.cummins.com/en-apac/generators/diesel",
-      "source_id": "cat-cummins-com-diesel"
+      "url": "https://www.cummins.com/en-apac/generators/diesel"
     }
   ],
   "notes": "50/60 Hz; Quiet and Standard ranges",

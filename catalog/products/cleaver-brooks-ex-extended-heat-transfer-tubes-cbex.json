@@ -22,8 +22,7 @@
   "url": "https://cleaverbrooks.com/product/cbex",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/cbex",
-      "source_id": "cleaverbrooks-com-product-cbex"
+      "url": "https://cleaverbrooks.com/product/cbex"
     }
   ],
   "notes": "Fetched CBEX product page directly with WebFetch (markdown). Tube design is described within the boiler page.",

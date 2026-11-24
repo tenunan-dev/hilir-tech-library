@@ -1,0 +1,27 @@
+{
+  "id": "whp-patents-google-com-en-757d8c7",
+  "name": "WO2016067222A1 Additive management system",
+  "url": "https://patents.google.com/patent/WO2016067222A1/en",
+  "source_type": "patents",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE",
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "patent publication",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Patent read in the WHP sweep: Additive management system; assignee OneSubsea IP UK Ltd; Priority 2014-10-28, publication 2016-05-06, ceased; CIMVs at wellhead/manifold/riser with feedback control of chemical-to-water ratio. Page read 2026-11-24.",
+  "publisher_org": "Google Patents (patent office bibliographic data)"
+}

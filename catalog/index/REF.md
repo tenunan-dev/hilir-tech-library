@@ -1,6 +1,6 @@
 # REF: Refining
 
-469 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
+471 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -27,6 +27,7 @@
 | [Chulalongkorn Petroleum and Petrochemical College](https://www.ppc.chula.ac.th/) | research-institute | sea | open | full-text-restricted |
 | [Circulating fluidized-bed boilers](https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers) | oem-supplier | global, na, apac | open | summary-only |
 | [CNKI China National Knowledge Infrastructure](https://oversea.cnki.net/) | journal | apac | paywalled | catalog-only (unverified) |
+| [CS-PH Ex programmable smoke & heat detector data sheet](https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf) | standards-body | global, sea | open | summary-only |
 | [CSIR-Indian Institute of Petroleum](https://www.iip.res.in/) | research-institute | apac | open | summary-only (unverified) |
 | [Dalian Institute of Chemical Physics (CAS)](https://english.dicp.cas.cn/) | research-institute | apac, global | open | summary-only (unverified) |
 | [Desuperheater Online Program Sizing Guidance — TI-P475-06 CTLS Issue 4, combined pressure reducing/desuperheat](https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/en/ti/dsh_sizing-ti-p475-06-en.ashx?rev=da7fa56dddf14745b69654a9cf6112c2) | oem-supplier | global, apac, sea, eu | open | summary-only (unverified) |
@@ -37,6 +38,7 @@
 | [Figure 1.3.2 — A sophisticated feedtank system where the water is being heated by steam injection](https://www.spiraxsteam.com/uploads/pdfs/202608/20260901062219858_2ccbde3a.pdf) | oem-supplier | global, apac, sea, eu | open | summary-only (unverified) |
 | [Google Patents — Effluent quantity from urea synthesis reaction](https://patents.google.com/patent/US5096599A/en) | oem-supplier | global, apac, sea | open | summary-only |
 | [Heat recovery from boiler blowdown — SB-P404-11 (AU)](https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/au/sb/heat_recovery_tds-sb-p404-11-au.ashx?rev=1ef8cf853c454be982e4cd3d492b05a7) | oem-supplier | global, apac, sea, eu | open | summary-only (unverified) |
+| [IEC 61511-1:2016+AMD1:2017 CSV](https://webstore.iec.ch/en/publication/61289) | standards-body | global, sea | paywalled | catalog-only |
 | [Info.Zeeco.Com — Number of flare types typically used in a urea pla](https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en) | oem-supplier | global, apac, sea | open | summary-only |
 | [International Energy Agency — Mass flows in the ammonia supply chain from fossil fuel](https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf) | agency-data | global, apac, sea | open | summary-only |
 | [J-STAGE (Japanese journals: JPI, SCEJ)](https://www.jstage.jst.go.jp/) | journal | apac | open | full-text-restricted |

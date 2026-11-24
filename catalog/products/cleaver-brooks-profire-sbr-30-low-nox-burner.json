@@ -96,8 +96,7 @@
   "url": "https://cleaverbrooks.com/product/sbr30-burner",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/sbr30-burner",
-      "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      "url": "https://cleaverbrooks.com/product/sbr30-burner"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown). Where the table did not print a unit, the unit is explicitly left unasserted.",

@@ -60,8 +60,7 @@
   "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
   "sources": [
     {
-      "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
-      "source_id": "cat-siemens-com-scalance-s-html"
+      "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     }
   ],
   "notes": "Page read in full (WebFetch returned status 200, canonical https://www.siemens.com/en-us/products/scalance/s-industrial-security-appliance/). Linked Siemens ordering-overview PDF was not fetched.",

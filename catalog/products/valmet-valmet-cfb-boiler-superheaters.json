@@ -32,8 +32,7 @@
   "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
   "sources": [
     {
-      "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
-      "source_id": "valmet-com-energyproduction-cfb-boilers"
+      "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     }
   ],
   "notes": "Fetched Valmet CFB Boiler page directly with WebFetch (markdown). Superheaters are a subsystem of the CFB boiler, not a standalone named product line.",

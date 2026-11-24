@@ -1,0 +1,27 @@
+{
+  "id": "whp-solas-lsa-code-vercel-app",
+  "name": "SOLAS LSA Code Section 4.2 - Inflatable liferafts (educational mirror)",
+  "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "MAT"
+  ],
+  "subtopics": [
+    "HTML page read directly; OCR text with stated inaccuracies - treat official IMO document a"
+  ],
+  "publisher_org": "IMO text mirrored by solas-lsa-code.vercel.app",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "educational mirror; site states it is not an official document",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. HTML page read directly; OCR text with stated inaccuracies - treat official IMO document as authoritative."
+}

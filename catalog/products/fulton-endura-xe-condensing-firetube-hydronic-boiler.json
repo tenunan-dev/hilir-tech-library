@@ -86,8 +86,7 @@
   "url": "https://fulton.com/exe",
   "sources": [
     {
-      "url": "https://fulton.com/exe",
-      "source_id": "fulton-com-exe"
+      "url": "https://fulton.com/exe"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown), including full model specification table.",

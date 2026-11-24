@@ -82,8 +82,7 @@
   "url": "https://graver.com/makeup/ro/",
   "sources": [
     {
-      "url": "https://graver.com/makeup/ro/",
-      "source_id": "graver-com-makeup-ro"
+      "url": "https://graver.com/makeup/ro/"
     }
   ],
   "notes": "Read in full: Graver ROFlex RO Systems page. Also links a data sheet PDF (Graver_DataSheet_ROFlex_2020.pdf) which was not fetched.",

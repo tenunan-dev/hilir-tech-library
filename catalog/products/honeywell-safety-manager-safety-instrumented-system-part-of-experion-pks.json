@@ -128,8 +128,7 @@
   "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
   "sources": [
     {
-      "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
-      "source_id": "cat-process-honeywell-com-safety-manager"
+      "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     }
   ],
   "notes": "Page read in full including Specifications tab and part-number list. Universal Safety I/O allows remote I/O in hazardous locations, reducing marshalling cabinets/home-run cables/junction boxes.",

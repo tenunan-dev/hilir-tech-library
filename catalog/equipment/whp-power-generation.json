@@ -1,0 +1,270 @@
+{
+  "id": "whp-power-generation",
+  "name": "Power generation",
+  "equipment_type": "whp-utility",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Wellhead-platform power can be imported by subsea power cable from a host/CPP, generated locally by diesel or gas turbine, or supplied by a solar-PV/wind/battery hybrid with a standby diesel. Shell Timi (Malaysia) is the first SMEP wellhead platform fully powered by a solar-wind hybrid system; the Equinor patent describes a cascaded UPS/battery/black-start architecture for unmanned platforms.",
+  "aliases": [
+    "Power generation (subsea cable from CPP; hybrid solar-wind with battery storage e.g. Shell Timi WHP)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Timi solar-wind hybrid power system with — Solar PV array rating",
+      "unit": "kWp",
+      "basis": "an 80-m 2, 14-kWp solar photovoltaic array must be installed to generate the 25 kWh/d required to supply the load and charge the batteries during the day in the worst-case solar insolation conditions",
+      "value": 14,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Solar PV array area",
+      "unit": "m2",
+      "basis": "an 80-m 2, 14-kWp solar photovoltaic array must be installed to generate the 25 kWh/d required to supply the load and charge the batteries during the day in the worst-case solar insolation conditions",
+      "value": 80,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Solar daily energy target",
+      "unit": "kWh/day",
+      "basis": "to generate the 25 kWh/d required to supply the load and charge the batteries during the day in the worst-case solar insolation conditions",
+      "value": 25,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Solar panel conversion efficiency",
+      "unit": "%",
+      "basis": "Even given recent developments in solar-panel technology, the conversion efficiency of the panels is 18–22%",
+      "low": 18,
+      "high": 22,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Total daily energy demand (Timi)",
+      "unit": "kWh/day",
+      "basis": "The total daily energy demand will be 73.6 kWh, which corresponds to an average load of 3 kW",
+      "value": 73.6,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Average electrical load (Timi)",
+      "unit": "kW",
+      "basis": "The total daily energy demand will be 73.6 kWh, which corresponds to an average load of 3 kW",
+      "value": 3,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Standby diesel generator rating (Timi)",
+      "unit": "kWe",
+      "basis": "Standby power will be supplied by a diesel generator rated at 40 kWe",
+      "value": 40,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Selected battery autonomy (Timi)",
+      "unit": "days",
+      "basis": "a 4-d autonomy was selected for Timi, which results in a smaller battery footprint and lower overall weight",
+      "value": 4,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Normal regional solar-platform autonomy",
+      "unit": "days",
+      "basis": "A solar-powered platform in this region is normally designed for an autonomy of 5 d to cater for the cloudy days during the monsoon season",
+      "value": 5,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Solar panel tilt angle",
+      "unit": "degrees",
+      "basis": "a solar panel tilt angle of 5°, instead of the 15° specified in the Shell design and engineering practice for solar energy installations, will be used for better optimisation of insolation",
+      "value": 5,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Solar PV frame maximum design wind speed",
+      "unit": "m/s",
+      "basis": "The solar photovoltaic panel frame supports are designed for a maximum wind speed of 33 m/s, which is much higher than the typical maximum 10-min wind speed of 20 m/s experienced in Malaysian waters in recent years",
+      "value": 33,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Typical maximum 10-min wind speed, Malaysian waters",
+      "unit": "m/s",
+      "basis": "much higher than the typical maximum 10-min wind speed of 20 m/s experienced in Malaysian waters in recent years",
+      "value": 20,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Average wind speed offshore Malaysia",
+      "unit": "m/s",
+      "basis": "According to wind data from NASA, the average wind speed in the waters offshore peninsular Malaysia and Sabah and Sarawak states is 3–6 m/s",
+      "low": 3,
+      "high": 6,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Timi solar-wind hybrid power system with — Generation-level DC voltage",
+      "unit": "V DC",
+      "basis": "A higher voltage, 48 instead of 24 V DC, will be used at the power generation level to reduce the size of the cables and batteries and the number of controllers required",
+      "value": 48,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Subsea power cable from host/CPP to unma — Power cable rating (low-power host supply)",
+      "unit": "kW",
+      "basis": "the power supply via the power cable may be rated at 50-200 kW, such as at about 100 kW",
+      "low": 50,
+      "high": 200,
+      "source": {
+        "url": "https://patents.google.com/patent/US20220069575A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Subsea power cable from host/CPP to unma — Low-power first energy level",
+      "unit": "kWh",
+      "basis": "the first energy level may be in the range 50-100 kWh whereas the second energy level may be in the range 500-1000 kWh or higher",
+      "low": 50,
+      "high": 100,
+      "source": {
+        "url": "https://patents.google.com/patent/US20220069575A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Subsea power cable from host/CPP to unma — High-power second energy level",
+      "unit": "kWh",
+      "basis": "the first energy level may be in the range 50-100 kWh whereas the second energy level may be in the range 500-1000 kWh or higher",
+      "low": 500,
+      "high": 1000,
+      "source": {
+        "url": "https://patents.google.com/patent/US20220069575A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Subsea power cable from host/CPP to unma — Gas turbine rating in example",
+      "unit": "MW",
+      "basis": "a gas turbine is used then it may be rated at the power level higher than the high-power energy storage system ... a 25 MW turbine may be present",
+      "value": 25,
+      "source": {
+        "url": "https://patents.google.com/patent/US20220069575A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Reliability — Availability of simple unmanned platforms (Types 2 and 3)",
+      "unit": "% uptime",
+      "basis": "Generally, there are good experiences with the UWHPs. Types 2 and 3 have very a high availability (uptime) - in the range of 95% - 99.5%",
+      "low": 95,
+      "high": 99.5,
+      "source": {
+        "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
+        "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
+      }
+    },
+    {
+      "metric": "Price — Wholesale electricity benchmark (North America)",
+      "unit": "USD/kWh",
+      "basis": "Wholesale electricity prices vary regionally ... but are typically about $0.06/kWh in North America at the time of writing (Chemical Engineering Design, 2nd ed., ©2013); dollar year 2013.",
+      "value": 0.06,
+      "year": 2013,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "shell-malaysia-exploration-and-production"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+      "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+    },
+    {
+      "url": "https://patents.google.com/patent/US20220069575A1/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
+      "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
+    },
+    {
+      "url": "https://oceannews.com/news/energy/shell-delivers-first-gas-from-the-timi-platform-in-malaysia",
+      "source_id": "whp-oceannews-com-shell-delivers-first-gas-from-the-timi-platf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Power generation",
+      "why": "No OEM datasheet giving rated wind-turbine power or battery Ah/kWh for the Timi hybrid system was found in the pages read",
+      "next_action": "Fetch a Shell/operator detailed Timi electrical design paper or EPC vendor data sheet"
+    },
+    {
+      "what": "Power generation",
+      "why": "No WHP-specific subsea cable voltage/current/conductor specification was read",
+      "next_action": "Fetch an umbilical/cable OEM datasheet and a host-to-WHP power-from-shore project page"
+    },
+    {
+      "what": "Power generation",
+      "why": "No CAPEX or OPEX figure in USD for the Timi hybrid system",
+      "next_action": "Seek a project cost breakdown or Shell announcement with figures and dollar year"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (3. Utility Systems). Nine Section-3 utility items were researched against pages actually read. Strongest primary evidence: Shell TechXplorer Digest (Timi/Gorek hybrid solar-wind-battery: 14 kWp/80 m2 array, 73.6 kWh/day, ",
+  "last_reviewed": "2026-11-24"
+}

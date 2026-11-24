@@ -1,0 +1,27 @@
+{
+  "id": "whp-zccpower-com-commercial-standby-generator-cost",
+  "name": "Commercial Standby Generator Cost: 2026 Pricing by Capacity",
+  "url": "https://zccpower.com/commercial-standby-generator-cost",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "subtopics": [
+    "HTML vendor pricing article dated 2026-06-10 read directly with WebFetch on 2026-11-24. Co"
+  ],
+  "publisher_org": "Shandong ZC Power Co., Ltd",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. HTML vendor pricing article dated 2026-06-10 read directly with WebFetch on 2026-11-24. Commercial onshore benchmarks, not offshore-installed prices; use as order-of-magnitude only."
+}

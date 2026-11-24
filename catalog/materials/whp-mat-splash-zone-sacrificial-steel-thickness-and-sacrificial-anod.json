@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-splash-zone-sacrificial-steel-thickness-and-sacrificial-anod",
+  "name": "Splash-zone sacrificial steel thickness and sacrificial anodes",
+  "material_category": "corrosion-protection",
+  "description": "Splash-zone sacrificial steel thickness and sacrificial anodes named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-jacket-structure"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

@@ -26,12 +26,10 @@
   "url": "https://www.halgopower.com/products/forced-draft-fans",
   "sources": [
     {
-      "url": "https://www.halgopower.com/products/forced-draft-fans",
-      "source_id": "halgo-fd-fans"
+      "url": "https://www.halgopower.com/products/forced-draft-fans"
     },
     {
-      "url": "https://halgopower.com/products/stacks-and-ductwork",
-      "source_id": "halgo-stacks-ductwork"
+      "url": "https://halgopower.com/products/stacks-and-ductwork"
     }
   ],
   "last_reviewed": "2026-11-24"

@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-molecular-sieve-adsorbent",
+  "name": "Molecular sieve adsorbent",
+  "material_category": "adsorbent",
+  "description": "Molecular sieve adsorbent named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-instrument-utility-air-compressors-receivers-and-dryers"
+  ],
+  "sources": [
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

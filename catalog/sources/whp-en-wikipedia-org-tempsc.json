@@ -1,0 +1,26 @@
+{
+  "id": "whp-en-wikipedia-org-tempsc",
+  "name": "TEMPSC Wikipedia article",
+  "url": "https://en.wikipedia.org/wiki/TEMPSC",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "subtopics": [
+    "Read directly; article flagged as lacking inline citations - use for operational history o"
+  ],
+  "publisher_org": "Wikipedia / Wikimedia Foundation",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Read directly; article flagged as lacking inline citations - use for operational history only."
+}

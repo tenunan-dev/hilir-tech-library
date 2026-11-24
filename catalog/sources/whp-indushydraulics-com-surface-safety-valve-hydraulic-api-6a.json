@@ -1,0 +1,27 @@
+{
+  "id": "whp-indushydraulics-com-surface-safety-valve-hydraulic-api-6a",
+  "name": "Indus Hydraulics IH-OFE-SSV product page",
+  "url": "https://indushydraulics.com/p/surface-safety-valve-hydraulic-api-6a",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "subtopics": [
+    "Read directly."
+  ],
+  "publisher_org": "Indus Hydraulic Power Trading LLC (Dubai)",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "Vendor page",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Read directly."
+}

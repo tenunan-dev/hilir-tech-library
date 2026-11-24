@@ -1,0 +1,23 @@
+{
+  "id": "wandoo-field-australia-esd-well-and-riser-isolation",
+  "name": "Wandoo Field (Australia) - ESD well and riser isolation",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Australia",
+  "location": "Australia",
+  "status": "operating",
+  "description": "Wandoo Facility EP summary (search extract of document) lists platform ESD closing riser shutdown valve and isolation of wells as part of facility ESD as controls for hydrocarbon release; not WebFetch-read, no figures asserted.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://docs.nopsema.gov.au/A680640",
+      "note": "Wandoo Facility EP summary (search extract of document) lists platform ESD closing riser shutdown valve and isolation of wells as part of facility ESD as controls for hydrocarbon release; not WebFetch-read, no figures as"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (5. Safety and Emergency Equipment)."
+}

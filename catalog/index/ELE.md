@@ -1,11 +1,12 @@
 # ELE: Electrical engineering
 
-462 sources. Sub-topics: power-generation, hv-distribution, switchgear, protection, transformers, motors-drives, emergency-power, hazardous-area-electrical, heat-tracing, cable-systems, power-management, earthing-lightning.
+469 sources. Sub-topics: power-generation, hv-distribution, switchgear, protection, transformers, motors-drives, emergency-power, hazardous-area-electrical, heat-tracing, cable-systems, power-management, earthing-lightning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
 | [2H Offshore](https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [2Hoffshore.Com — D18 Phase 2 and D28 Phase 1 conductor-supported platfor](https://2hoffshore.com/about/news/2h-offshore-installs-its-eighth-conductor-supported-platform-offshore-malaysia) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [30 CFR 250.855 Emergency shutdown (ESD) system](https://www.ecfr.gov/current/title-30/chapter-II/subchapter-B/part-250/subpart-H/subject-group-ECFR081ef9e2fac31ea/section-250.855) | standards-body | global, sea | open | summary-only |
 | [ABB Wellhead Management System](https://library.e.abb.com/public/87968d164d3140ebaf6301f8c4a17019/PB_2102736-EN_B_WEB.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [ABS](https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/offshore/243_guidance_notes_subsea_hybrid_riser_systems_2017/Hybrid_Riser_GN_e-Jan17.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Akersolutions.Com — Dvalin North](https://www.akersolutions.com/news/news-archive/2022/aker-solutions-asa-aker-solutions-wins-dvalin-north-subsea-contract-from-wintershall-dea/) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -121,6 +122,7 @@
 | [PETRONAS — Bindu WHP, offshore Terengganu](https://www.petronas.com/sites/default/files/uploads/content/2026/PETRONAS%20Activity%20Outlook%202026-2028.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [PETRONAS — Timi WHP, SK318, offshore Sarawak](https://www.petronas.com/mpm/media/media-releases/first-gas-production-sk318-timi-field) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Pietro Fiorentini](https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/water-and-hydrocarbon-dew-point-control-units-silica-gel) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [Products & Services Oil & Gas Aids to Navigation catalogue](https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Proserv](https://proserv.com/technology-solution/subsea-control-systems/subsea-control-module/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Prysmian](https://www.prysmian.com/en/markets/transmission/submarine-power/offshore-specialties) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Prysmian — Sapinhoa pre-salt](https://www.prysmian.com/en/insight/construction-and-industries/subsea-umbilicals-risers-and-flowlines-surf) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -248,6 +250,7 @@
 | [Emerson (Rosemount) — Rosemount Synchros Wireless Repeater](https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Emerson (Roxar) — Roxar 2600 Multiphase Flow Meter (MPFM), with Roxar 5726 Multiphase Transmitter](https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Emerson Automation Solutions — Emerson industrial wireless portfolio (gateways, wireless instrumentation, SmartPower mod](https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Empowering Offshore Operations with Secure and High-Availability Telecommunications](https://vmdsolutions.net/offshore-2) | oem-supplier | global, sea | open | summary-only |
 | [Endress+Hauser — Cerabar PMP51B pressure transmitter](https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Endress+Hauser — Cerabar PMP71B pressure transmitter](https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [EnggCyclopedia](https://enggcyclopedia.com/2012/02/typical-pfd-instrument-air-supply-system) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
@@ -294,6 +297,7 @@
 | [LEWA (LEWA Solutions GmbH) — LEWA Chemical Injection Packages (CIP)](https://www.lewa.com/en/systems/chemical-injection-packages/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [LONGi Green Energy Technology Co., Ltd. — LONGi Hi-MO 9 PV modules (LR7-72HYD, LR8-66HYD; LR7-72HYD-635M to 660M)](https://www.longi.com/en/products/modules/hi-mo-9/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [LONGi — LONGi Hi-MO 9 module maximum power](https://www.longi.com/en/products/modules/hi-mo-9/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Marking Oil & Gas structures - IALA G1162](https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/) | standards-body | global, sea | open | summary-only |
 | [MDPI JMSE](https://www.mdpi.com/2077-1312/9/11/1179) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Milton Roy (Ingersoll Rand) — MAXROY Series Industrial Grade Metering Pump](https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Montanuniversität Leoben (review thesis)](https://pure.unileoben.ac.at/ws/portalfiles/portal/1876337/AC13373932n01vt.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
@@ -381,6 +385,7 @@
 | [Wikimedia Commons; author Steven Baltakatei Sandoval](https://commons.wikimedia.org/wiki/File:ISO_10628-2_2012_Symbols_Sheet_1.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Yokogawa](https://www.yokogawa.com/ia/dcs/centum-vp/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Zeto](https://www.zeto.com/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Commercial Standby Generator Cost: 2026 Pricing by Capacity](https://zccpower.com/commercial-standby-generator-cost) | standards-body | global, sea | open | summary-only |
 | [Grid System Operator (GSO), Malaysia](https://www.gso.org.my/) | agency-data | sea, global | open | summary-only (unverified) |
 | [Malaysia Transformer Manufacturing (MTM)](https://www.malaysiatransformer.com/) | oem-supplier | sea | open | summary-only |
 | [Suruhanjaya Tenaga (Energy Commission, Malaysia)](https://www.st.gov.my/) | standards-body | sea, global | open | summary-only (unverified) |
@@ -407,6 +412,7 @@
 | [Eaton](https://www.eaton.com/us/en-us/products/low-voltage-power-distribution-controls-systems/automatic-transfer-switches/automatic-transfer-switch-fundamentals.html) | oem-supplier | global, na | open | summary-only |
 | [Eaton](https://www.eaton.com/us/en-us/catalog/backup-power-ups-surge-it-power-distribution/eaton-pdi-static-transfer-switch.html) | oem-supplier | global, na | open | summary-only |
 | [Eaton](https://www.eaton.com/) | oem-supplier | global, na | open | summary-only |
+| [Electrical Design Considerations for Offshore Installations (IEEE Houston PCIC seminar)](https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf) | standards-body | na, global | open | summary-only |
 | [EnggCyclopedia — Figure 1 — Typical PFD for an Instrument Air Supply Sys](https://enggcyclopedia.com/2012/02/typical-pfd-instrument-air-supply-system) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Engine IQ — P&ID of a gas engine plant — Engine IQ flip'21, p. 123](https://online.flipbuilder.com/mniezgorski/flbe/files/basic-html/page123.html) | oem-supplier | global, na | open | summary-only |
 | [EPCM Holdings — Figure 2 — Flow schematic of a gas booster unit — Fuel ](https://epcmholdings.com/fuel-gas-booster-skid-systems) | oem-supplier | global, na | open | summary-only (unverified) |
@@ -442,6 +448,7 @@
 | [Tesla](https://www.esource.com/white-paper/what-technologies-are-competing-solve-power-challenges-ai-data-center-load-management) | oem-supplier | global, na | open | summary-only |
 | [Thermax — Thermax exhaust-gas absorption chiller capacity](https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater) | oem-supplier | global, na | open | summary-only |
 | [Trystar](https://www.trystar.com/wp-content/uploads/document-library/Resistive-Reactive-Load-Banks.pdf) | oem-supplier | global, na | open | summary-only |
+| [Unmanned Wellhead Platforms - UWHP Summary Report (Ramboll/NPD, March 2016)](https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf) | oem-supplier | eu | open | summary-only |
 | [Uptime Institute — Tier I-IV definitions](https://uptimeinstitute.com/tiers) | oem-supplier | global, na | open | summary-only |
 | [US Environmental Protection Agency — EPA emergency-engine non-emergency hours](https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers) | agency-data | global, na | open | summary-only |
 | [US Environmental Protection Agency — SCR Process Flow Diagram — Figure 2.1, Chapter 4.2 NOx ](https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch2.pdf) | agency-data | global, na | open | summary-only (unverified) |

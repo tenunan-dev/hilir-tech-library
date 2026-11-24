@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-duplex-stainless-steel-to-inconel",
+  "name": "Duplex stainless steel to Inconel",
+  "material_category": "metals-stainless-nickel-alloy",
+  "description": "Duplex stainless steel to Inconel named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-sampling-connections-and-gauging"
+  ],
+  "sources": [
+    {
+      "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+      "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

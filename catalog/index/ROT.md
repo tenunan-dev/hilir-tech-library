@@ -1,6 +1,6 @@
 # ROT: Rotating and static equipment
 
-1065 sources. Sub-topics: compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals.
+1092 sources. Sub-topics: compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -685,6 +685,7 @@
 | [LEWA (LEWA Solutions GmbH) — LEWA Chemical Injection Packages (CIP)](https://www.lewa.com/en/systems/chemical-injection-packages/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [LONGi Green Energy Technology Co., Ltd. — LONGi Hi-MO 9 PV modules (LR7-72HYD, LR8-66HYD; LR7-72HYD-635M to 660M)](https://www.longi.com/en/products/modules/hi-mo-9/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [LONGi — LONGi Hi-MO 9 module maximum power](https://www.longi.com/en/products/modules/hi-mo-9/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Marking Oil & Gas structures - IALA G1162](https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/) | standards-body | global, sea | open | summary-only |
 | [MDPI JMSE](https://www.mdpi.com/2077-1312/9/11/1179) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Milton Roy (Ingersoll Rand) — MAXROY Series Industrial Grade Metering Pump](https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Mitsubishi Heavy Industries Compressor and gas turbines](https://www.mhi.com/) | oem-supplier | apac, global | open | summary-only |
@@ -790,6 +791,7 @@
 | [Atlantic Feedwater Systems](https://atlanticfeedwatersystemsinc.com/guidelines/) | oem-supplier | global, na | open | summary-only |
 | [Atlas Copco](https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series) | oem-supplier | global, na | open | summary-only |
 | [Atlas Copco — Minimum pressure dew point margin below coldest exposed inst](https://www.atlascopco.com/en-us/compressors/wiki/compressed-air-articles/instrument-air-quality) | oem-supplier | global, na | open | summary-only |
+| [AU2015261530B2 Subsea universal Xmas tree hang-off adapter](https://patents.google.com/patent/AU2015261530B2/en) | patents | global | open | summary-only |
 | [Avtron Power Solutions](https://avtronpower.com/) | oem-supplier | global, na | open | summary-only |
 | [Basler Electric](https://www.basler.com/product/decs-2100-digital-excitation-control-system) | oem-supplier | global, na | open | summary-only |
 | [BOA Group](https://boagroup.com/wp-content/uploads/2019/10/BOA-HFE-Axial-Expansion-Joints.pdf) | oem-supplier | global, na | open | summary-only |
@@ -806,6 +808,7 @@
 | [Caterpillar](https://www.datacenterdynamics.com/en/news/caterpillar-partners-with-hunt-energy-to-deliver-up-to-1gw-of-power-for-data-centers-in-north-america/) | oem-supplier | global, na | open | summary-only |
 | [CBEX firetube boiler](https://cleaverbrooks.com/product/cbex) | oem-supplier | global, na | open | summary-only |
 | [CBLE firetube boiler](https://cleaverbrooks.com/product/cble) | oem-supplier | global, na | open | summary-only |
+| [Celeros Flow Technology - Upstream Oil & Gas](https://www.celerosft.com/en-us/industries/oil-gas/upstream) | standards-body | global | open | summary-only |
 | [CEN/TC 12 Oil and gas industries](https://standards.cencenelec.eu/) | standards-body | eu | paywalled | catalog-only (unverified) |
 | [Changyu Pump](https://changyupump.com/blog/boiler-feed-pump-calculation) | oem-supplier | global, na | open | summary-only |
 | [Chemical Engineering Construction — Aqueous ammonia concentration and injection rate at a 2x1 co](https://www.ccj-online.com/aig-upgrades-slash-ammonia-consumption-tube-fouling) | oem-supplier | global, na | open | summary-only |
@@ -836,6 +839,7 @@
 | [Cleaver-Brooks — ProFire SBR-30 Low-NOx Burner](https://cleaverbrooks.com/product/sbr30-burner) | oem-supplier | global, na | open | summary-only |
 | [Cleaver-Brooks — Slant Type/VC Series Boiler (HRSG)](https://cleaverbrooks.com/catalog/boilers/hrsg) | oem-supplier | global, na | open | summary-only |
 | [Cleaver-Brooks — TrayMaster Deaerator (TMV / TMH)](https://cleaverbrooks.com/product/traymaster) | oem-supplier | global, na | open | summary-only |
+| [CN113162215B Emergency power supply system and control method for replacing offshore platform diesel generator system](https://patents.google.com/patent/CN113162215B/en) | patents | global | open | summary-only |
 | [ComAp](https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers) | oem-supplier | global, na | open | summary-only |
 | [ComAp](https://www.comap-control.com/products/switchgear-control-and-protections) | oem-supplier | global, na | open | summary-only |
 | [ComAp — ComAp InteliGen 1000 coordinated units](https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000) | oem-supplier | global, na | open | summary-only |
@@ -845,6 +849,7 @@
 | [Dbnoisereduction.Com — fan inlet silencer selection inputs](https://www.dbnoisereduction.com/fan-inlet-silencer.php) | oem-supplier | global, na | open | summary-only |
 | [Dbnoisereduction.Com — flexible connection function](https://www.dbnoisereduction.com/flexible-connections-expansion-joints.php) | oem-supplier | global, na | open | summary-only |
 | [Deep Sea Electronics — DC control supply](https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii) | oem-supplier | global, na | open | summary-only |
+| [Delivering Quality Bulk Marine Gasoil to Offshore Installations, Rev A, 15 January 2019](https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf) | standards-body | eu, global | open | summary-only |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [DOE FEMP — Purchasing energy-efficient boilers](https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers) | agency-data | global, na | open | summary-only |
 | [DOE Steam Systems (Industrial Technologies Office)](https://www.energy.gov/eere/amo/steam-systems) | agency-data | global, na | open | summary-only |
@@ -883,6 +888,7 @@
 | [Fuel Tech](https://www.ftek.com/wp-content/uploads/2026/04/SCR_industrial_FINAL_2026.pdf) | oem-supplier | global, na | open | summary-only |
 | [Fulton steam boilers](https://fulton.com/product-categories/steam-boilers/) | oem-supplier | global, na | open | summary-only |
 | [Fulton — ENDURA XE Condensing Firetube Hydronic Boiler](https://fulton.com/exe) | oem-supplier | global, na | open | summary-only |
+| [GB2385347A Concentric tubing completion system](https://patents.google.com/xhr/query?url=q%3Dchristmas%2Btree%2Bwellhead%26num%3D10&exp=) | patents | global | open | summary-only |
 | [GO ultra-low-NOx package burner](https://zeeco.com/resources/brochures/go-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
 | [GPSA Engineering Data Book](https://gpsamidstreamsuppliers.org/) | association | global | paywalled | catalog-only (unverified) |
 | [Graver Technologies](https://www.gravertech.com/broad-applications/condensate-polishing) | oem-supplier | global, na | open | summary-only |
@@ -897,6 +903,7 @@
 | [HPAC Engineering — Applicability of the 16-step selection method](https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection) | oem-supplier | global, na | open | summary-only |
 | [HRSG components, modules, HARPs and tubes](https://www.babcock.com/home/products-services/specialized-businesses/hrsg-components-modules-harps-tubes) | oem-supplier | global, na | open | summary-only |
 | [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
+| [IEC 61511](https://en.wikipedia.org/wiki/IEC_61511) | standards-body | global | open | summary-only |
 | [IMI Process Automation](https://processautomation.imiplc.com/products/additional-solutions/silencers) | oem-supplier | global, na | open | summary-only |
 | [Industrial water-tube package boilers](https://babcock.com/home/products-services/steam-generators/industrial-water-tube-package-boilers) | oem-supplier | global, na | open | summary-only |
 | [INNIO Jenbacher](https://www.jenbacher.com/en/services/balance-of-plant/6335-2/) | oem-supplier | global, na | open | summary-only |
@@ -911,6 +918,7 @@
 | [Integrated Flow Solutions (IFS) — Ammonia Vaporizers & SCR Injection Systems (ANAM-400 family, Cold/Hot AFCU)](https://www.ifsolutions.com/products/scr-ammonia-system/) | oem-supplier | global, na | open | summary-only |
 | [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
 | [Ion Exchange (India) Ltd](https://ionexchangeglobal.com/products/core-solutions/condensate-polishing/) | oem-supplier | global, na | open | summary-only |
+| [ISO 10423:2009 (withdrawn)](https://www.iso.org/standard/42757.html) | standards-body | global | open | summary-only |
 | [ISO/TC 197 Hydrogen technologies](https://www.iso.org/committee/54560.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [John Zink (Koch Engineered Solutions)](https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems) | oem-supplier | global, na | open | summary-only |
@@ -936,6 +944,8 @@
 | [MTU Solutions — Electrical power range](https://www.mtu-solutions.com/seai/en/applications/power-generation/power-generation-applications/data-centers.html) | oem-supplier | global, na | open | summary-only |
 | [Natcom duct burner for HRSG supplementary firing](https://cleaverbrooks.com/product/duct-burner) | oem-supplier | global, na | open | summary-only |
 | [NEM Energy](https://nem-energy.com/products/exhaust-diverter-and-dampers/) | oem-supplier | global, na | open | summary-only |
+| [NFPA 30](https://www.pdhonline.com/courses/m332/m332content.pdf) | standards-body | global | open | summary-only |
+| [NFPA 37](https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf) | standards-body | global | open | summary-only |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
 | [Ovivo (Christ Water Technology / Kennicott)](https://filtsep.com/content/news/ovivo-wins-contracts-in-the-asian-electronics-and-energy-markets) | oem-supplier | global, na | open | summary-only |
 | [PLN ultra-low-NOx package burner](https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
@@ -954,6 +964,7 @@
 | [Schneider Electric](https://www.se.com/ww/en/product-range/61779-galaxy-vs-ups/) | oem-supplier | global, na | open | summary-only |
 | [Schneider Electric](https://www.se.com/ww/en/) | oem-supplier | global, na | open | summary-only |
 | [Schneider Electric — Lubrication system in common plant architecture](https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN) | oem-supplier | global, na | open | summary-only |
+| [Shah Deniz 2 Project ESIA Chapter 5: Project Description (November 2013)](https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf) | oem-supplier | me | open | summary-only |
 | [SNCR Boiler Gas Path Configuration (Figure 1.2) and Urea SNCR Process Flow Diagram (Figure 1.9) — Chapter 1 Se](https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch1.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [Solid fuel to natural gas conversions for circulating fluid bed boilers](https://www.zeeco.com/resources/news/solid-fuel-to-natural-gas-conversions-for-circulating-fluid-bed-boilers) | oem-supplier | global, na | open | summary-only |
 | [Sootblower and boiler cleaning terminology, principles and applications](https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications) | oem-supplier | global, na | open | summary-only |
@@ -981,6 +992,16 @@
 | [US Environmental Protection Agency — SCR Process Flow Diagram — Figure 2.1, Chapter 4.2 NOx ](https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch2.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [US Environmental Protection Agency — Typical CEMS for Multiple Parameter Monitoring — Figure](https://www.epa.gov/sites/default/files/2020-07/documents/cs2ch4.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [US Nuclear Regulatory Commission — Figure 2-1 — Basic system schematic, Instrument Air Sys](https://www.nrc.gov/docs/ml0037/ml003767039.pdf) | agency-data | global, na | open | summary-only (unverified) |
+| [US20120273228A1 Integrated Choke Manifold System for Use in A Well Application](https://patents.google.com/patent/US20120273228A1/en) | patents | global | open | summary-only |
+| [US20220069575A1 Power supply system for an offshore platform](https://patents.google.com/patent/US20220069575A1/en) | patents | global | open | summary-only |
+| [US4135949A Safety interlock for pipeline pig launcher and receiver](https://patents.google.com/patent/US4135949A/en) | patents | global | open | summary-only |
+| [US4237936A Pig trap closure](https://patents.google.com/patent/US4237936A/en) | patents | global | open | summary-only |
+| [US4679964A Offshore well support miniplatform](https://patents.google.com/patent/US4679964A/en) | patents | global | open | summary-only |
+| [US4932811A Well head conductor and/or caisson support system](https://patents.google.com/patent/US4932811A/en) | patents | global | open | summary-only |
+| [US5513929A Fixed offshore platform structures, using small diameter, tensioned, well casing tiebacks](https://patents.google.com/patent/US5513929A/en) | patents | global | open | summary-only |
+| [US6805200B2 Horizontal spool tree wellhead system and method](https://patents.google.com/patent/US6805200B2/en) | patents | global | open | summary-only |
+| [US6981848B1 Methanol injection system and method to prevent freezing of a natural gas pipeline](https://patents.google.com/patent/US6981848B1/en) | patents | global | open | summary-only |
+| [US7069874B2 Davit-launched life raft](https://patents.google.com/patent/US7069874B2/en) | patents | global | open | summary-only |
 | [Valmet — Valmet CFB Boiler (formerly CYMIC)](https://www.valmet.com/energyproduction/cfb-boilers/) | oem-supplier | global, na | open | summary-only |
 | [Veolia Australia & New Zealand — Chemical cleaning time saving claim](https://www.anz.veolia.com/en-au/services/industrial-services/industrial-cleaning/chemical-cleaning-and-decontamination) | oem-supplier | global, na | open | summary-only |
 | [Veolia Australia & New Zealand — Nyrstar Port Pirie new-boiler clean — degreasing temperature](https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf) | oem-supplier | global, na | open | summary-only |
@@ -996,7 +1017,12 @@
 | [Vertiv](https://www.vertiv.com/4a1875/globalassets/shared/vertiv-energycore-battery-storage-system-data-sheet-sl-71271.pdf) | oem-supplier | global, na | open | summary-only |
 | [Vertiv](https://www.vertiv.com/) | oem-supplier | global, na | open | summary-only |
 | [Warren Controls](https://www.warrencontrols.com/wp-content/uploads/2024/02/1656509571DeaerationofBoiler.pdf) | oem-supplier | global, na | open | summary-only |
+| [WELLHEAD CONTROL PANEL (multi)](https://www.ipsgroupbv.com/products/turnkey-control-systems/wellhead-control-panel-multi/) | oem-supplier | global | open | summary-only |
 | [Wilhelmsen](https://www.wilhelmsen.com/product-catalogue/products/marine-chemicals/water-treatment-chemicals/boiler-water-treatment/oxygen-scavenger-plus-25-ltr/) | oem-supplier | global, na | open | summary-only |
+| [WO2008045381A2 Dual subsea production chokes for high pressure well production](https://patents.google.com/patent/WO2008045381A2/en) | patents | global | open | summary-only |
+| [WO2013122479A1 Lifeboat winch with a redundant braking system](https://patents.google.com/patent/WO2013122479A1/en) | patents | global | open | summary-only |
+| [WO2016067222A1 Additive management system](https://patents.google.com/patent/WO2016067222A1/en) | patents | global | open | summary-only |
+| [WO2018052314A1 Optimising fire protection for an offshore platform](https://patents.google.com/patent/WO2018052314A1/en) | patents | global | open | summary-only |
 | [WOG Technologies Limited — Chemical Treatment Systems (coagulation/flocculation, pH neutralisation, oxidation, precipitation, dosing skids)](https://woggroup.com/chemical-treatment-systems/) | oem-supplier | global, na | open | summary-only |
 | [Woggroup.Com — CPU outlet quality claimed by vendor](https://woggroup.com/condensate-polishing-unit-cpu) | oem-supplier | global, na | open | summary-only |
 | [Woodward](https://www.woodward.com/products/wp-content/uploads/sites/3/2025/04/B37581_N.pdf) | oem-supplier | global, na | open | summary-only |
@@ -1047,6 +1073,7 @@
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
 | [Nel Hydrogen](https://nelhydrogen.com/) | oem-supplier | global | open | full-text-restricted |
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted |
+| [Oil platform (offshore platform)](https://en.wikipedia.org/wiki/Offshore_platform) | oem-supplier | global | open | full-text-open |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
 | [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | catalog-only |
 | [SPE Annual Technical Conference and Exhibition (ATCE)](https://www.atce.org) | conference | global | mixed | catalog-only |

@@ -22,8 +22,7 @@
   "url": "https://cleaverbrooks.com/catalog/boilers/hrsg",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/catalog/boilers/hrsg",
-      "source_id": "cleaverbrooks-com-boilers-hrsg"
+      "url": "https://cleaverbrooks.com/catalog/boilers/hrsg"
     }
   ],
   "notes": "Fetched HRSG catalog listing directly; one numeric qualifier printed. No full specification page opened.",

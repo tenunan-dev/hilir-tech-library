@@ -1,0 +1,30 @@
+{
+  "id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf",
+  "name": "CS-PH Ex programmable smoke & heat detector data sheet",
+  "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "GAS",
+    "REF"
+  ],
+  "disciplines": [
+    "INS",
+    "HSE",
+    "MAT"
+  ],
+  "subtopics": [
+    "PDF downloaded and text extracted directly; certification and functional safety data read "
+  ],
+  "publisher_org": "Consilium Safety",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. PDF downloaded and text extracted directly; certification and functional safety data read verbatim"
+}

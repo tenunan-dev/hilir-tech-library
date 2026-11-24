@@ -32,8 +32,7 @@
   "url": "https://cleaverbrooks.com/product/sbr30-burner",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/sbr30-burner",
-      "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      "url": "https://cleaverbrooks.com/product/sbr30-burner"
     }
   ],
   "notes": "Fetched SBR-30 product page directly. No dedicated forced-draft fan OEM product page with fan curves or static pressure was found; this is fan content embedded in a burner page, not a fan product line.",

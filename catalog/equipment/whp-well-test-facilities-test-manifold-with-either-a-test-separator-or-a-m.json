@@ -1,0 +1,155 @@
+{
+  "id": "whp-well-test-facilities-test-manifold-with-either-a-test-separator-or-a-m",
+  "name": "Well test facilities: test manifold with either a test separator or a multiphase flow meter",
+  "equipment_type": "whp-well-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "OilGasz states a test manifold routes a selected well to a test separator, an MPFM or other measurement equipment, and Emerson describes the Roxar 2600 MPFM as a compact vertical inline meter giving three-phase rates without separation across 0-100% GVF and 0-100% WLR.",
+  "aliases": [
+    "Well test facilities: test manifold with either a test separator or a multiphase flow meter (MPFM)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Roxar 2600 Multiphase Flow Meter — available sizes",
+      "unit": "sizes",
+      "basis": "Roxar 2600 MPFM available in 6 sizes, with materials from duplex stainless steel to Inconel and enclosures in SS316 or painted aluminum",
+      "value": 6,
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      }
+    },
+    {
+      "metric": "Roxar 2600 Multiphase Flow Meter — gas volume fraction range",
+      "unit": "% GVF",
+      "basis": "Both gamma and non-gamma versions deliver reliable performance across 0-100% GVF and 0-100% WLR",
+      "low": 0,
+      "high": 100,
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/flow-measurement/multiphase-flow",
+        "source_id": "emerson-com-flow-measurement-multiphase-flow"
+      }
+    },
+    {
+      "metric": "Roxar 2600 Multiphase Flow Meter — water liquid ratio range",
+      "unit": "% WLR",
+      "basis": "0-100% WLR operating envelope printed on Emerson multiphase flow page",
+      "low": 0,
+      "high": 100,
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/flow-measurement/multiphase-flow",
+        "source_id": "emerson-com-flow-measurement-multiphase-flow"
+      }
+    },
+    {
+      "metric": "Roxar 2600 Multiphase Flow Meter — measurement update rate",
+      "unit": "per second",
+      "basis": "Phase fraction and flow rate calculations at high resolution of 10 times a second",
+      "value": 10,
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/flow-measurement/multiphase-flow",
+        "source_id": "emerson-com-flow-measurement-multiphase-flow"
+      }
+    },
+    {
+      "metric": "Roxar 2600 Multiphase Flow Meter — field experience",
+      "unit": "years",
+      "basis": "Emerson states over 30 years of field experience and a global presence for its MPFMs",
+      "value": 30,
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/flow-measurement/multiphase-flow",
+        "source_id": "emerson-com-flow-measurement-multiphase-flow"
+      }
+    },
+    {
+      "metric": "Vx Spectra surface multiphase flowmeter — high-GVF threshold",
+      "unit": "% GVF",
+      "basis": "Triple-energy source improves liquid rates and water/liquid ratio at GVF greater than 95%",
+      "value": 95,
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/reservoir-characterization/reservoir-testing/surface-testing/surface-multiphase-flowmetering/vx-spectra-surface-multiphase-flowmeter",
+        "source_id": "whp-slb-com-vx-spectra-surface-multiphase-flowmeter"
+      }
+    },
+    {
+      "metric": "Test separator / test manifold — test separator vs MPFM trade-off",
+      "unit": "count",
+      "basis": "Test separators may offer lower uncertainty in controlled conditions; MPFMs provide higher operational efficiency and reduce space, weight and piping",
+      "value": 0,
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/flow-measurement/multiphase-flow",
+        "source_id": "emerson-com-flow-measurement-multiphase-flow"
+      }
+    },
+    {
+      "metric": "Reliability — calibration/verification interval",
+      "unit": "year",
+      "basis": "Typical recommendation is yearly checks and verification; calibration verified using test separator data or sampling",
+      "value": 1,
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      }
+    },
+    {
+      "metric": "Reliability — moving parts",
+      "unit": "count",
+      "basis": "Roxar 2600 has no moving parts, reducing wear and maintenance needs and the need for spare parts",
+      "value": 0,
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "slb-cameron-pressure-control-equipment"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.oilgasz.com/2023/07/offshore-platform-wellhead-systems.html?m=1",
+      "source_id": "whp-oilgasz-com-offshore-platform-wellhead-systems-html"
+    },
+    {
+      "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+      "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+    },
+    {
+      "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/flow-measurement/multiphase-flow",
+      "source_id": "emerson-com-flow-measurement-multiphase-flow"
+    },
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/reservoir-characterization/reservoir-testing/surface-testing/surface-multiphase-flowmetering/vx-spectra-surface-multiphase-flowmeter",
+      "source_id": "whp-slb-com-vx-spectra-surface-multiphase-flowmeter"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "test separator sizing and duty for a Malaysian WHP",
+      "why": "No fetched page gives separator dimensions or capacity for a WHP",
+      "next_action": "Source a test separator datasheet"
+    },
+    {
+      "what": "MPFM turndown figures from a fetched page",
+      "why": "A prior sweep noted Diligens Spectra 10:1 to 50:1 turndown with 19 mm and 40 mm venturis, but the page fetched here returned navigation only for those figures",
+      "next_action": "Fetch the specific product datasheet that prints turndown"
+    },
+    {
+      "what": "price/cost of MPFM or test separator",
+      "why": "No sourced USD figure with dollar year found",
+      "next_action": "Find a sourced USD cost with year and basis"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (1. Well Systems). WebSearch returned no results in this environment, so research used WebFetch on pages found from the local catalog and from the source chat. Pages actually read: Wikipedia Christmas tree, IEC 61511 an",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,249 @@
+{
+  "id": "whp-minimum-facility-whp-logistics-designed-for-jack-up-rig-installation-l",
+  "name": "Minimum-facility WHP logistics: designed for jack-up-rig installation, little or no onboard",
+  "equipment_type": "whp-structural-marine",
+  "sector": "CIV",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "CIV"
+  ],
+  "description": "2H Offshore describes conductor-supported minimum facility platforms (MFP, MFP+ and the CoSMOS variant) that can be entirely installed from a jack-up drilling rig, eliminating conventional offshore installation spread. The SE Asia project used a multiphase flow meter and three power sources (solar panels, nitrogen racks, diesel-powered cranes) to reduce topside payload, with an 8 km flexible flowline tieback and two-stage installation. Tarpon describes relocatable, 20-year-life, three-slot minim",
+  "aliases": [
+    "Minimum-facility WHP logistics: designed for jack-up-rig installation, little or no onboard processing"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Conductor-supported minimum facility pla — Applicable water depth",
+      "unit": "m (up to)",
+      "basis": "2H Minimum Facility Platforms: conductor-supported MFPs \"suitable for water depths up to 120m\".",
+      "high": 120,
+      "source": {
+        "url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms",
+        "source_id": "whp-2hoffshore-com-minimum-facility-platforms"
+      }
+    },
+    {
+      "metric": "Conductor-supported minimum facility pla — Stated design and delivery expertise",
+      "unit": "years",
+      "basis": "2H MFP page: \"With 15 years’ expertise in the design and delivery of MFPs\" (page undated).",
+      "value": 15,
+      "source": {
+        "url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms",
+        "source_id": "whp-2hoffshore-com-minimum-facility-platforms"
+      }
+    },
+    {
+      "metric": "Conductor-supported minimum facility pla — Production wells on SE Asia MFP",
+      "unit": "wells",
+      "basis": "2H project: \"an unmanned minimum facilities wellhead platform housing two production wells along with provisions for future gas lift\".",
+      "value": 2,
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    },
+    {
+      "metric": "Conductor-supported minimum facility pla — Flexible flowline tieback length",
+      "unit": "km",
+      "basis": "2H project: tied back \"using an 8km flexible flowline\".",
+      "value": 8,
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    },
+    {
+      "metric": "Conductor-supported minimum facility pla — Number of diversified power sources",
+      "unit": "power sources",
+      "basis": "2H project: \"diversifying power supply from three different power sources (solar panels, nitrogen racks and diesel powered cranes)\".",
+      "value": 3,
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    },
+    {
+      "metric": "Conductor-supported minimum facility pla — Design, delivery and installation duration",
+      "unit": "months",
+      "basis": "2H project: CoSMOS platform \"successfully designed, delivered and installed within 10 months, and ahead of schedule\".",
+      "value": 10,
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    },
+    {
+      "metric": "Conductor-supported minimum facility pla — Project man-hours",
+      "unit": "man hours (approximate)",
+      "basis": "2H project: milestone achieved \"with approx. 225,000 man hours and zero lost time incidents (LTI)\".",
+      "value": 225000,
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    },
+    {
+      "metric": "Conductor-supported minimum facility pla — Installation campaign stages",
+      "unit": "stages",
+      "basis": "2H project: two-part installation campaign; substructure installed early so drilling ran in parallel with topside fabrication, topside installed in second phase.",
+      "value": 2,
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    },
+    {
+      "metric": "Jack-up rig (installation and drilling u — Jack-up drilling water depth",
+      "unit": "m",
+      "basis": "ESDEP 15A.1 section 3.1: jack-up drilling rigs used for exploration wells for water depths up to 100 - 120 m.",
+      "low": 100,
+      "high": 120,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Jack-up rig (installation and drilling u — Jack-up typical water depth",
+      "unit": "m (390 ft), some designs 170 m (560 ft)",
+      "basis": "Wikipedia Oil platform, Jack-up drilling rigs section.",
+      "high": 120,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+        "source_id": "whp-en-wikipedia-org-offshore-platform"
+      }
+    },
+    {
+      "metric": "Jack-up rig (installation and drilling u — Jack-up depth in patent background",
+      "unit": "ft (generally designed up to)",
+      "basis": "US5513929A background: \"the jack-up is generally designed for water depths up to three hundred feet\".",
+      "high": 300,
+      "source": {
+        "url": "https://patents.google.com/patent/US5513929A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Tarpon relocatable WHP — Conductor slots per platform",
+      "unit": "slots (20-inch, internal to caisson)",
+      "basis": "Tarpon KMSE/AJK page: each platform has three 20-inch conductor slots internal to the caisson, two utilised and one spare.",
+      "value": 3,
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      }
+    },
+    {
+      "metric": "Tarpon relocatable WHP — Design life",
+      "unit": "years (operational lifespan)",
+      "basis": "Tarpon KMSE/AJK page: platforms designed for a 20-year operational lifespan and made relocatable.",
+      "value": 20,
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      }
+    },
+    {
+      "metric": "Tarpon relocatable WHP — Water depth range",
+      "unit": "m",
+      "basis": "Tarpon KMSE/AJK page: water depths varying from 70m to 85m.",
+      "low": 70,
+      "high": 85,
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      }
+    },
+    {
+      "metric": "Reliability — Lost time incidents on CoSMOS project",
+      "unit": "LTI (lost time incidents)",
+      "basis": "2H project: approx. 225,000 man hours and zero lost time incidents, attributed to QHSE procedures.",
+      "value": 0,
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "2h-offshore"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+      "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+    },
+    {
+      "url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms",
+      "source_id": "whp-2hoffshore-com-minimum-facility-platforms"
+    },
+    {
+      "url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/monopile-wellhead-platforms",
+      "source_id": "whp-2hoffshore-com-monopile-wellhead-platforms"
+    },
+    {
+      "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+      "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+    },
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4679964A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4932811A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/US5513929A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+      "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+    },
+    {
+      "url": "https://2hoffshore.com/knowledge/addressing-integrity-issues-on-ageing-platform-conductors",
+      "source_id": "whp-2hoffshore-com-addressing-integrity-issues-on-ageing-platf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "MFP cost with dollar year",
+      "why": "2H states the CoSMOS design was lowest cost but gives no USD figure; no dollar-year cost was read.",
+      "next_action": "Fetch a project page printing a dated USD cost."
+    },
+    {
+      "what": "Onboard processing inventory for the SE Asia MFP",
+      "why": "The 2H page names a multiphase flow meter and power sources but does not list separators, produced-water treatment or gas compression as absent.",
+      "next_action": "Fetch a facilities scope page to confirm which processing equipment is omitted."
+    },
+    {
+      "what": "Fortnightly visit interval",
+      "why": "Not verified on any page read in this sweep.",
+      "next_action": "Find a Malaysian operator page stating visit frequency."
+    },
+    {
+      "what": "Jack-up installation sea-state limits",
+      "why": "Not stated on the pages read.",
+      "next_action": "Fetch an installation-method statement with stated weather window."
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (6. Structural and Marine Systems). Six structural/marine WHP items were researched from pages actually read with WebFetch. Evidence-first findings: a fixed steel jacket is a pile-founded braced tubular substructure carrying the topside",
+  "last_reviewed": "2026-11-24"
+}

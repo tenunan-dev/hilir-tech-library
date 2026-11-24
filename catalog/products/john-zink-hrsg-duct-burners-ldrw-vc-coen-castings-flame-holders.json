@@ -52,8 +52,7 @@
   "url": "https://www.johnzink.com/products/powerburners/duct-burner",
   "sources": [
     {
-      "url": "https://www.johnzink.com/products/powerburners/duct-burner",
-      "source_id": "johnzink-com-powerburners-duct-burner"
+      "url": "https://www.johnzink.com/products/powerburners/duct-burner"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown). No numeric heat-input or emissions figure printed on this page.",

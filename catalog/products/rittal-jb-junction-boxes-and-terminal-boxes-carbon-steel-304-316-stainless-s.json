@@ -32,8 +32,7 @@
   "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201",
   "sources": [
     {
-      "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201",
-      "source_id": "cat-rittal-com-pg20231215sch201"
+      "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
     }
   ],
   "notes": "Catalogue page read in full (232 variants listed). The linked JB & WM Specification Guide PDF (with UL/cUL Type 1/3R/12/4/4X and 16 ga/1.5 mm figures) was seen in search results but WebFetch returned 'Unsupported fetched file content type: application/pdf' — those figures are NOT asserted as page-read.",

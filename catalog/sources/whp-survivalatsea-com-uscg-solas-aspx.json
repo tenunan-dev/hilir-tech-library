@@ -1,0 +1,27 @@
+{
+  "id": "whp-survivalatsea-com-uscg-solas-aspx",
+  "name": "SurvivalAtSea USCG/SOLAS liferafts price list",
+  "url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "subtopics": [
+    "Read directly; USD list prices with no explicit dollar year."
+  ],
+  "publisher_org": "SurvivalAtSea.com / Avecom",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "Vendor page",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Read directly; USD list prices with no explicit dollar year."
+}

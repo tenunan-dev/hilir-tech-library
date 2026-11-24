@@ -1,0 +1,388 @@
+{
+  "id": "whp-lifeboat-tempsc-with-davit",
+  "name": "Lifeboat / TEMPSC with davit",
+  "equipment_type": "whp-safety-emergency",
+  "sector": "HSE",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "HSE"
+  ],
+  "description": "Totally Enclosed Motor Propelled Survival Craft (TEMPSC) launched by davit or free-fall, required on manned offshore units, together with lifebuoys (life rings) and their self-igniting lights, self-activating smoke signals and buoyant lifelines. Evidence spans USCG/US regulations, the IMO LSA Code, Canadian offshore rules, a manufacturer datasheet, two patents and historical records.",
+  "aliases": [
+    "Lifeboat / TEMPSC with davit (on manned units) and lifebuoys"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Totally Enclosed Motor Propelled Surviva — Offered capacity range, manufacturer",
+      "unit": "persons",
+      "basis": "Gohi Marine GLB series product table, 'Capacity 16-150 Persons'; 'Max. Capacity of 150 persons lifeboat is also available'",
+      "low": 16,
+      "high": 150,
+      "source": {
+        "url": "https://www.gohimarine.com/sale-37362161-solas-approved-95kg-per-person-totally-enclosed-motor-propelled-survival-craft-tempsc.html",
+        "source_id": "whp-gohimarine-com-sale-37362161-solas-approved-95kg-per-perso"
+      }
+    },
+    {
+      "metric": "Totally Enclosed Motor Propelled Surviva — Design mass per person, manufacturer option",
+      "unit": "kg/person",
+      "basis": "Product title 'SOLAS Approved 95KG Per Person ... TEMPSC'; seat design can meet 100 kg per person",
+      "value": 95,
+      "source": {
+        "url": "https://www.gohimarine.com/sale-37362161-solas-approved-95kg-per-person-totally-enclosed-motor-propelled-survival-craft-tempsc.html",
+        "source_id": "whp-gohimarine-com-sale-37362161-solas-approved-95kg-per-perso"
+      }
+    },
+    {
+      "metric": "Totally Enclosed Motor Propelled Surviva — Full-load speed",
+      "unit": "knots",
+      "basis": "Gohi Marine table 'Speed >=6' for all GLB50C/F to GLB117C/F models",
+      "low": 6,
+      "source": {
+        "url": "https://www.gohimarine.com/sale-37362161-solas-approved-95kg-per-person-totally-enclosed-motor-propelled-survival-craft-tempsc.html",
+        "source_id": "whp-gohimarine-com-sale-37362161-solas-approved-95kg-per-perso"
+      }
+    },
+    {
+      "metric": "Totally Enclosed Motor Propelled Surviva — Minimum speed, Canadian offshore rule",
+      "unit": "knots",
+      "basis": "Canada Oil and Gas Installations Regulations s.22(2)(e): 'be capable of a speed of not less than 6 knots'",
+      "value": 6,
+      "source": {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+        "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
+      }
+    },
+    {
+      "metric": "Totally Enclosed Motor Propelled Surviva — Self-contained air supply",
+      "unit": "min",
+      "basis": "Canada OGI Regs s.22(2)(f): 'a self-contained air supply sufficient for at least 10 minutes'",
+      "value": 10,
+      "source": {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+        "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
+      }
+    },
+    {
+      "metric": "Totally Enclosed Motor Propelled Surviva — Aggregate capacity, manned installation",
+      "unit": "% of persons on board",
+      "basis": "Canada OGI Regs s.22(1)(a): two or more totally enclosed survival craft with combined capacity at least 200% of total POB",
+      "value": 200,
+      "source": {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+        "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
+      }
+    },
+    {
+      "metric": "Totally Enclosed Motor Propelled Surviva — Launch time, all survival craft",
+      "unit": "min",
+      "basis": "46 CFR 133.150(a): capable of being launched with full complement within 10 minutes of abandon-ship signal",
+      "value": 10,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-L/part-133/subpart-B/section-133.150",
+        "source_id": "whp-ecfr-gov-section-133-150"
+      }
+    },
+    {
+      "metric": "Totally Enclosed Motor Propelled Surviva — Embarkation preparation time, 2 crew",
+      "unit": "min",
+      "basis": "Canada OGI Regs s.22(2)(j): stowed so two crew members can complete preparations for embarkation and launching in less than 5 minutes",
+      "value": 5,
+      "source": {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+        "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
+      }
+    },
+    {
+      "metric": "Davit / launching appliance and winch wi — Structural attachment strength factor",
+      "unit": "times load",
+      "basis": "46 CFR 133.150(f): structural attachment designed to at least 4.5 times the load imparted and the ultimate strength of the material",
+      "value": 4.5,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-L/part-133/subpart-B/section-133.150",
+        "source_id": "whp-ecfr-gov-section-133-150"
+      }
+    },
+    {
+      "metric": "Davit / launching appliance and winch wi — Board davit-launched craft",
+      "unit": "min",
+      "basis": "46 CFR 133.150(g)(6): each davit-launched liferaft boardable by full complement within 3 minutes of instruction to board",
+      "value": 3,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-L/part-133/subpart-B/section-133.150",
+        "source_id": "whp-ecfr-gov-section-133-150"
+      }
+    },
+    {
+      "metric": "Davit / launching appliance and winch wi — Release gear proof load",
+      "unit": "times total loaded mass",
+      "basis": "46 CFR 109.301(i)(5): release gear operationally tested under load of 1.1 times total mass of lifeboat with full complement, whenever overhauled or at least once every 5 years",
+      "value": 1.1,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      }
+    },
+    {
+      "metric": "Davit / launching appliance and winch wi — Launching appliance examination interval",
+      "unit": "years (maximum)",
+      "basis": "46 CFR 109.301(i)(2): thoroughly examined at intervals not exceeding 5 years, followed by dynamic test of winch brake",
+      "value": 5,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      }
+    },
+    {
+      "metric": "Davit / launching appliance and winch wi — Fall renewal interval",
+      "unit": "years (maximum)",
+      "basis": "46 CFR 109.301(j): each fall inspected annually and renewed when necessary or at intervals of not more than 5 years, whichever earlier",
+      "value": 5,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      }
+    },
+    {
+      "metric": "Davit / launching appliance and winch wi — Winch lowering speed, training mode",
+      "unit": "m/min",
+      "basis": "WO2013122479A1: first flow control valve 'set to control the lowering speed at approximately 30 m/min' when isolating valve closed",
+      "value": 30,
+      "source": {
+        "url": "https://patents.google.com/patent/WO2013122479A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Davit / launching appliance and winch wi — Winch lowering speed, standby/evacuation mode",
+      "unit": "m/min",
+      "basis": "WO2013122479A1: second primary flow control valve permits 'increasing the lowering speed to 60 m/min'; isolating valve normally open ready for evacuation",
+      "value": 60,
+      "source": {
+        "url": "https://patents.google.com/patent/WO2013122479A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Davit / launching appliance and winch wi — Accumulator normal working pressure",
+      "unit": "bar",
+      "basis": "WO2013122479A1: 'normal working pressure of the accumulators is 200bar and the opening pressure of the multi disk brakes ... typically 18bar'",
+      "value": 200,
+      "source": {
+        "url": "https://patents.google.com/patent/WO2013122479A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Lifebuoy (life ring) with self-igniting  — Outer diameter",
+      "unit": "mm (maximum)",
+      "basis": "LSA Code 2.1.1.1 as printed on SEAFDEC/TD page: 'outer diameter of no more than 800 mm'",
+      "value": 800,
+      "source": {
+        "url": "https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/",
+        "source_id": "whp-seafdec-or-th"
+      }
+    },
+    {
+      "metric": "Lifebuoy (life ring) with self-igniting  — Inner diameter",
+      "unit": "mm (minimum)",
+      "basis": "LSA Code 2.1.1.1: 'inner diameter of not less than 400 mm'",
+      "value": 400,
+      "source": {
+        "url": "https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/",
+        "source_id": "whp-seafdec-or-th"
+      }
+    },
+    {
+      "metric": "Lifebuoy (life ring) with self-igniting  — Buoyancy",
+      "unit": "kg iron in fresh water for 24 h",
+      "basis": "LSA Code 2.1.1.3",
+      "value": 14.5,
+      "source": {
+        "url": "https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/",
+        "source_id": "whp-seafdec-or-th"
+      }
+    },
+    {
+      "metric": "Lifebuoy (life ring) with self-igniting  — Mass",
+      "unit": "kg (minimum)",
+      "basis": "LSA Code 2.1.1.4",
+      "value": 2.5,
+      "source": {
+        "url": "https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/",
+        "source_id": "whp-seafdec-or-th"
+      }
+    },
+    {
+      "metric": "Lifebuoy (life ring) with self-igniting  — Mass with quick-release for light/smoke",
+      "unit": "kg (minimum)",
+      "basis": "LSA Code 2.1.1.7: if intended to operate quick-release arrangement for self-activated smoke signals and self-igniting lights",
+      "value": 4,
+      "source": {
+        "url": "https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/",
+        "source_id": "whp-seafdec-or-th"
+      }
+    },
+    {
+      "metric": "Lifebuoy (life ring) with self-igniting  — Drop test height",
+      "unit": "m (or stowage height, whichever greater)",
+      "basis": "LSA Code 2.1.1.6",
+      "value": 30,
+      "source": {
+        "url": "https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/",
+        "source_id": "whp-seafdec-or-th"
+      }
+    },
+    {
+      "metric": "Lifebuoy (life ring) with self-igniting  — Grab line diameter",
+      "unit": "mm (minimum)",
+      "basis": "LSA Code 2.1.1.8, secured at four equidistant points to form four equal loops",
+      "value": 9.5,
+      "source": {
+        "url": "https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/",
+        "source_id": "whp-seafdec-or-th"
+      }
+    },
+    {
+      "metric": "Lifebuoy (life ring) with self-igniting  — Fire resistance",
+      "unit": "s (no burning/melting after total envelopment)",
+      "basis": "LSA Code 2.1.1.5",
+      "value": 2,
+      "source": {
+        "url": "https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/",
+        "source_id": "whp-seafdec-or-th"
+      }
+    },
+    {
+      "metric": "Lifebuoy (life ring) with self-igniting  — Number on manned offshore installation",
+      "unit": "lifebuoys",
+      "basis": "Canada OGI Regs s.22(1)(f)(ii): 8 if <=100 m; 10 if >100 and <150 m; 12 if >=150 and <200 m; 14 if >=200 m",
+      "low": 8,
+      "high": 14,
+      "source": {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+        "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
+      }
+    },
+    {
+      "metric": "Lifebuoy (life ring) with self-igniting  — Lifebuoys with lights / smoke",
+      "unit": "% of total (at least half), with not fewer than 2 with smoke signals",
+      "basis": "Canada OGI Regs s.22(4)",
+      "value": 50,
+      "source": {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+        "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
+      }
+    },
+    {
+      "metric": "Lifebuoy (life ring) with self-igniting  — Buoyant lifeline length",
+      "unit": "m (or 1.5 x stowage-to-waterline distance, whichever greater)",
+      "basis": "Canada OGI Regs s.22(5) for two lifebuoys not equipped with lights and smoke signals",
+      "value": 30,
+      "source": {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+        "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
+      }
+    },
+    {
+      "metric": "Reliability — Release gear proof test load factor",
+      "unit": "x total loaded mass",
+      "basis": "46 CFR 109.301(i)(5): at least once every 5 years or whenever overhauled",
+      "value": 1.1,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      }
+    },
+    {
+      "metric": "Reliability — Launching appliance thorough examination interval",
+      "unit": "years max",
+      "basis": "46 CFR 109.301(i)(2), with dynamic test of winch brake on completion",
+      "value": 5,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      }
+    },
+    {
+      "metric": "Reliability — Weekly lifeboat engine run time",
+      "unit": "min ahead and astern",
+      "basis": "46 CFR 109.301(d)(2)",
+      "value": 3,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+        "source_id": "whp-ecfr-gov-section-109-301"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-imo-text-mirrored-by-solas-lsa-code-vercel-app"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
+      "source_id": "whp-solas-lsa-code-vercel-app"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-L/part-133/subpart-B/section-133.150",
+      "source_id": "whp-ecfr-gov-section-133-150"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-46/section-109.301",
+      "source_id": "whp-ecfr-gov-section-109-301"
+    },
+    {
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+      "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
+    },
+    {
+      "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+      "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+    },
+    {
+      "url": "https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/",
+      "source_id": "whp-seafdec-or-th"
+    },
+    {
+      "url": "https://patents.google.com/patent/US7069874B2/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/WO2013122479A1/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/TEMPSC",
+      "source_id": "whp-en-wikipedia-org-tempsc"
+    },
+    {
+      "url": "https://www.gohimarine.com/sale-37362161-solas-approved-95kg-per-person-totally-enclosed-motor-propelled-survival-craft-tempsc.html",
+      "source_id": "whp-gohimarine-com-sale-37362161-solas-approved-95kg-per-perso"
+    },
+    {
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.48%2866%29.pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Quantity/availability/reliability figures for lifeboats and davits on offshore platforms",
+      "why": "Quantitative failure-rate studies (Bureau Veritas OMAE2008 Prat et al., MAIB lifeboat study, InterManager/OCIMF incident analyses) were located but their PDFs were refused by WebFetch, so no failure-rate figures are asserted",
+      "next_action": "Fetch the PDFs by an alternate method and record failure probabilities with basis"
+    },
+    {
+      "what": "Lifeboat/TEMPSC purchase price in USD with dollar year",
+      "why": "Gohi Marine states 'Price Negotiable'; other found quotes were in EUR/GBP and the schema requires USD",
+      "next_action": "Obtain a dated USD quotation from an OEM such as Survitec, Viking or Norsafe"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (5. Safety and Emergency Equipment). Five Section-5 safety items were researched against primary sources actually read. Strongest evidence is regulatory: IMO LSA Code (via an HTML mirror), 33 CFR Part 145 and 149.417, 46 CFR 133.150, 109",
+  "last_reviewed": "2026-11-24"
+}

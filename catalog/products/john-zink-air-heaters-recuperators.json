@@ -32,8 +32,7 @@
   "url": "https://www.johnzink.com/products",
   "sources": [
     {
-      "url": "https://www.johnzink.com/products",
-      "source_id": "johnzink-com-products"
+      "url": "https://www.johnzink.com/products"
     }
   ],
   "notes": "Fetched John Zink Products page directly with WebFetch (markdown). This is a process air-heater/recuperator category, NOT a boiler air preheater; no standalone boiler air-preheater spec page was found. See gaps.",

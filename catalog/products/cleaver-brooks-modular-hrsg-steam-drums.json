@@ -32,8 +32,7 @@
   "url": "https://cleaverbrooks.com/product/modular-hrsg",
   "sources": [
     {
-      "url": "https://cleaverbrooks.com/product/modular-hrsg",
-      "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      "url": "https://cleaverbrooks.com/product/modular-hrsg"
     }
   ],
   "notes": "Fetched Modular HRSG product page directly with WebFetch (markdown). Steam drum is a subsystem; no standalone steam-drum product line found.",

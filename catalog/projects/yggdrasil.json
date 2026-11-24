@@ -1,0 +1,24 @@
+{
+  "id": "yggdrasil",
+  "name": "Yggdrasil",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Norway",
+  "location": "Norway",
+  "status": "operating",
+  "description": "40 standardized vertical subsea trees plus Vectus 6.0 control modules, topside control systems and nine six-slot templates/manifolds",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.akersolutions.com/news/news-archive/2022/aker-solutions-secures-multiple-contracts-with-aker-bp--record-high-order-intake/",
+      "source_id": "akersolutions-com-aker-solutions-secures-multiple-contracts-with-a",
+      "note": "40 standardized vertical subsea trees plus Vectus 6.0 control modules, topside control systems and nine six-slot templates/manifolds"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (1. Well Systems)."
+}

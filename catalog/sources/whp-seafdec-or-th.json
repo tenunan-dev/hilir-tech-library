@@ -1,0 +1,27 @@
+{
+  "id": "whp-seafdec-or-th",
+  "name": "SOLAS Regulation of LIFEBUOYS and onboard M.V. SEAFDEC",
+  "url": "https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "subtopics": [
+    "APAC source; HTML page read directly; reproduces LSA Code 2.1.1 criteria."
+  ],
+  "publisher_org": "Southeast Asian Fisheries Development Center / Training Department (Thailand)",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "SEAFDEC website; translation disclaimer",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. APAC source; HTML page read directly; reproduces LSA Code 2.1.1 criteria."
+}

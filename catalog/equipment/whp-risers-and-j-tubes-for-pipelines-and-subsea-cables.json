@@ -1,0 +1,125 @@
+{
+  "id": "whp-risers-and-j-tubes-for-pipelines-and-subsea-cables",
+  "name": "Risers and J-tubes for pipelines and subsea cables",
+  "equipment_type": "whp-structural-marine",
+  "sector": "CIV",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "CIV"
+  ],
+  "description": "ESDEP defines a pipeline riser as the piping rising from seabed to topside level and describes conductors as protecting and guiding the drill string from topside to 40-100 m below the seabed. US5513929A describes conventional casing guides and tensioned-casing production risers; US4679964A shows a prefabricated riser pipe from a conductor-mounted miniplatform to a remote flowline. At Anjung Kecil a 1.26 km dynamic subsea power cable links the FPSO to the wellhead platform. No page read during th",
+  "aliases": [
+    "Risers and J-tubes for pipelines and subsea cables"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Pipeline riser / conductor-guided riser — Conductor depth below seabed",
+      "unit": "m (under sea bottom)",
+      "basis": "ESDEP 15A.1 glossary, \"CONDUCTORS\": tubular protecting and guiding the drill string from topside down to 40 to 100 m under the sea bottom.",
+      "low": 40,
+      "high": 100,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Pipeline riser / conductor-guided riser — Conventional conductor diameter examples",
+      "unit": "inch",
+      "basis": "US5513929A background: conductors \"usually from twenty-four to thirty inches\" in diameter.",
+      "low": 24,
+      "high": 30,
+      "source": {
+        "url": "https://patents.google.com/patent/US5513929A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Pipeline riser / conductor-guided riser — Sump / discharge pipe depth below water level",
+      "unit": "m below water level",
+      "basis": "ESDEP 15A.1 glossary, \"SUMPS\": vertical pipes from topside down to 5-10 m below water level for intake or discharge.",
+      "low": 5,
+      "high": 10,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Dynamic subsea power cable (FPSO to WHP) — Dynamic subsea power cable length",
+      "unit": "km",
+      "basis": "Offshore Technology Anjung Kecil: \"A 1.26km-long dynamic subsea power cable will be laid between the FPSO and the well-head platform as part of the field modification plan\".",
+      "value": 1.26,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+        "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+      }
+    },
+    {
+      "metric": "Reliability — Dynamic analysis trigger for slender members and conductors",
+      "unit": "seconds (natural period)",
+      "basis": "ESDEP 15A.1 section 8.1: dynamic analysis if natural period exceeds 3 seconds; slender jacket members and conductors listed as locally dynamic.",
+      "value": 3,
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-fgg-web-fgg-uni-lj-si"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+    },
+    {
+      "url": "https://patents.google.com/patent/US5513929A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4679964A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+      "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+    },
+    {
+      "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+      "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+    },
+    {
+      "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
+      "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "J-tube sizing and bend restrictor data",
+      "why": "The CRP Subsea page was not fetched successfully in this sweep; no J-tube diameter, bend radius or MBR figures are asserted.",
+      "next_action": "Fetch and WebFetch a manufacturer J-tube/bend-restrictor data page."
+    },
+    {
+      "what": "Riser design standard",
+      "why": "API RP 2RD / API RP 17B were not read directly; the BSEE report PDF was refused in this sweep.",
+      "next_action": "Fetch readable HTML pages naming the applicable riser standards and read them."
+    },
+    {
+      "what": "Riser fatigue life and inspection interval",
+      "why": "No page read gave a fatigue life or inspection interval specific to a WHP riser or J-tube.",
+      "next_action": "Fetch an operator or integrity-management page with stated intervals."
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (6. Structural and Marine Systems). Six structural/marine WHP items were researched from pages actually read with WebFetch. Evidence-first findings: a fixed steel jacket is a pile-founded braced tubular substructure carrying the topside",
+  "last_reviewed": "2026-11-24"
+}

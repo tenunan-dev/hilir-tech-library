@@ -1,0 +1,24 @@
+{
+  "id": "gorek-wellhead-platform",
+  "name": "Gorek wellhead platform",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Minimal-facility wellhead platform fully powered by solar energy; first gas May 2020.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+      "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma",
+      "note": "Minimal-facility wellhead platform fully powered by solar energy; first gas May 2020."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (3. Utility Systems)."
+}

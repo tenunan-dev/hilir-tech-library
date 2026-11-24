@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-inherently-buoyant-lifebuoy-material",
+  "name": "Inherently buoyant lifebuoy material",
+  "material_category": "polymer-foam",
+  "description": "Inherently buoyant lifebuoy material named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/",
+        "source_id": "whp-seafdec-or-th"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-lifeboat-tempsc-with-davit"
+  ],
+  "sources": [
+    {
+      "url": "https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/",
+      "source_id": "whp-seafdec-or-th"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

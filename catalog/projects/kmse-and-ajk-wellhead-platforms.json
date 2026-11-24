@@ -1,0 +1,24 @@
+{
+  "id": "kmse-and-ajk-wellhead-platforms",
+  "name": "KMSE and AJK wellhead platforms",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Tarpon platforms designed for 20-year operational lifespan, relocatable, with three 20-inch conductor slots per platform.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+      "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe",
+      "note": "Tarpon platforms designed for 20-year operational lifespan, relocatable, with three 20-inch conductor slots per platform."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (6. Structural and Marine Systems)."
+}

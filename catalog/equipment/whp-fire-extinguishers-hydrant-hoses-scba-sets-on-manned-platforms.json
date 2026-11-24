@@ -1,0 +1,103 @@
+{
+  "id": "whp-fire-extinguishers-hydrant-hoses-scba-sets-on-manned-platforms",
+  "name": "Fire extinguishers, hydrant hoses, SCBA sets on manned platforms",
+  "equipment_type": "whp-safety-emergency",
+  "sector": "HSE",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "HSE"
+  ],
+  "description": "Portable and semi-portable extinguishers, fire-main hydrants and hoses, and self-contained breathing apparatus for fire teams on manned offshore installations. Evidence is from USCG Outer Continental Shelf and Deepwater Port regulations, SOLAS/IMO sources, US 46 CFR emergency-equipment rules and an OEM product catalogue.",
+  "aliases": [
+    "Fire extinguishers, hydrant hoses, SCBA sets on manned platforms"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Self-contained breathing apparatus (SCBA — Minimum air supply",
+      "unit": "min",
+      "basis": "46 CFR 77.30-5(a): each SCBA must be pressure-demand open-circuit type, MSHA and NIOSH approved, with at minimum a 30-minute air supply and a full facepiece",
+      "value": 30,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-77.30-5",
+        "source_id": "whp-ecfr-gov-section-77-30-5"
+      }
+    },
+    {
+      "metric": "Reliability — Monthly extinguisher inspection",
+      "unit": "per month",
+      "basis": "33 CFR 145.01(b)(2): monthly inspections required by NFPA 10 may be conducted by owner, operator, person-in-charge or designated crew member",
+      "value": 1,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-33/part-145",
+        "source_id": "whp-ecfr-gov-part-145"
+      }
+    },
+    {
+      "metric": "Reliability — Annual extinguisher maintenance and hydrostatic test",
+      "unit": "per year",
+      "basis": "33 CFR 145.01(b)(1) and (4): annual maintenance/recharging to NFPA 10; hydrostatic pressure tests by qualified servicing facility",
+      "value": 1,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-33/part-145",
+        "source_id": "whp-ecfr-gov-part-145"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-us-coast-guard-ofr"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.ecfr.gov/current/title-33/part-145",
+      "source_id": "whp-ecfr-gov-part-145"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-33/section-149.417",
+      "source_id": "whp-ecfr-gov-section-149-417"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-46/section-77.30-5",
+      "source_id": "whp-ecfr-gov-section-77-30-5"
+    },
+    {
+      "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+      "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+    },
+    {
+      "url": "https://www.dhs.gov/sites/default/files/2024-02/23_04_10_selfcontainedbreathingapparatustn.pdf"
+    },
+    {
+      "url": "https://www.viking-life.com/products/firefighting-equipment/fire-extinguishers-and-accessories/"
+    },
+    {
+      "url": "https://nfpanorm.com/wp-content/preview/1981%202019.pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Fire extinguisher, hydrant hose and SCBA purchase prices with dollar year",
+      "why": "No dated USD price list was read for these items",
+      "next_action": "Obtain OEM distributor quotations with explicit dollar year"
+    },
+    {
+      "what": "SCBA cylinder and duration figures from a WebFetch-readable page",
+      "why": "NFPA 1981, DHS TechNotes and NAVSEA standard item were PDFs refused by WebFetch; only the 46 CFR 77.30-5 30-minute minimum is page-read verified",
+      "next_action": "Fetch accessible HTML mirrors or read PDFs with a PDF-capable tool"
+    },
+    {
+      "what": "Offshore-platform-specific fire-hose and hydrant spacing",
+      "why": "46 CFR 34.10-10 and 142.240 text was only seen in search extracts",
+      "next_action": "WebFetch those eCFR sections directly"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (5. Safety and Emergency Equipment). Five Section-5 safety items were researched against primary sources actually read. Strongest evidence is regulatory: IMO LSA Code (via an HTML mirror), 33 CFR Part 145 and 149.417, 46 CFR 133.150, 109",
+  "last_reviewed": "2026-11-24"
+}

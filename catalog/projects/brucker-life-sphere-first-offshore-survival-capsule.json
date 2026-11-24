@@ -1,0 +1,24 @@
+{
+  "id": "brucker-life-sphere-first-offshore-survival-capsule",
+  "name": "Brucker Life Sphere (first offshore survival capsule)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "First TEMPSC, 1968, manufactured in Beverly Hills, California; single hook, 28-passenger spherical capsule; USCG approval led to IMO SOLAS amendment.",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/TEMPSC",
+      "source_id": "whp-en-wikipedia-org-tempsc",
+      "note": "First TEMPSC, 1968, manufactured in Beverly Hills, California; single hook, 28-passenger spherical capsule; USCG approval led to IMO SOLAS amendment."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (5. Safety and Emergency Equipment)."
+}

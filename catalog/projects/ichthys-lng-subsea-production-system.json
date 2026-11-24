@@ -1,0 +1,24 @@
+{
+  "id": "ichthys-lng-subsea-production-system",
+  "name": "Ichthys LNG subsea production system",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Australia",
+  "location": "Australia",
+  "status": "operating",
+  "description": "Drill centres with wellheads and collection manifold, flowlines/umbilicals, flexible risers, FPSO and gas export pipeline; recorded in HILIR tech library drawing register (factsheet PDF not fetched in this sweep).",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf",
+      "source_id": "inpex-com-au-rbmjbgrj-ichthys-offshore-facilities-operation-ep-fac",
+      "note": "Drill centres with wellheads and collection manifold, flowlines/umbilicals, flexible risers, FPSO and gas export pipeline; recorded in HILIR tech library drawing register (factsheet PDF not fetched in this sweep)."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (2. Production Process Systems)."
+}

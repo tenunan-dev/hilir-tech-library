@@ -1,0 +1,768 @@
+{
+  "id": "ups-whp-platform-structures-and-marine-systems",
+  "name": "Minimum-facility wellhead platform structures and marine systems",
+  "aliases": [
+    "Minimum-facility wellhead platform structures and marine systems"
+  ],
+  "sector": "UPS",
+  "category": "Offshore wellhead platforms",
+  "applications": [
+    "offshore Malaysia wellhead platform",
+    "minimum-facility normally unmanned platform"
+  ],
+  "maturity": "commercial",
+  "principle": "Minimum-facility wellhead platform structures and marine systems: jackets, topsides, risers/J-tubes, helidecks, jack-up installation and unmanned operation. Sourced from pages read in the 2026-11-24 WHP component sweep.",
+  "process_steps": [
+    {
+      "id": "JACKET_STRUCTURE",
+      "name": "Jacket structure",
+      "equipment": [
+        "Jacket structure"
+      ]
+    },
+    {
+      "id": "TOPSIDE_DECKS",
+      "name": "Topside decks",
+      "equipment": [
+        "Topside decks"
+      ]
+    },
+    {
+      "id": "RISERS_AND_J_TUBES",
+      "name": "Risers and J-tubes for pipelines and subsea cables",
+      "equipment": [
+        "Risers and J-tubes for pipelines and subsea cables"
+      ]
+    },
+    {
+      "id": "HELIDECK",
+      "name": "Helideck",
+      "equipment": [
+        "Helideck"
+      ]
+    },
+    {
+      "id": "MINIMUM_FACILITY_L",
+      "name": "Minimum-facility WHP logistics: designed for jack-up-rig installation, little or",
+      "equipment": [
+        "Minimum-facility WHP logistics: designed for jack-up-rig installation, little or"
+      ]
+    },
+    {
+      "id": "MALAYSIAN_OPERATIN",
+      "name": "Malaysian WHP operating context: normally unmanned, no separators/produced-water",
+      "equipment": [
+        "Malaysian WHP operating context: normally unmanned, no separators/produced-water"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "Jacket structure",
+    "Topside decks",
+    "Risers and J-tubes for pipelines and subsea cables",
+    "Helideck",
+    "Minimum-facility WHP logistics: designed for jack-up-rig installation, little or no onboard",
+    "Malaysian WHP operating context: normally unmanned, no separators/produced-water treatment/g"
+  ],
+  "suppliers": [
+    {
+      "name": "2H Offshore"
+    },
+    {
+      "name": "2H Offshore"
+    },
+    {
+      "name": "2H Offshore"
+    },
+    {
+      "name": "2H Offshore"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Reliability — Survival load case recurrence period",
+      "unit": "years (return period)",
+      "basis": "ESDEP 15A.1 section 8.2: survival state under wave/current/wind attack with 50 or 100 years recurrence period.",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Reliability — Operational load case recurrence period",
+      "unit": "years (return period)",
+      "basis": "ESDEP 15A.1 section 8.2: operational state under wave/current/wind attack with 1 or 5 years recurrence period, under full operation.",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Reliability — Offshore inspection, maintenance and repair share of OPEX",
+      "unit": "% of OPEX (North Sea)",
+      "basis": "ESDEP 15A.1 section 9.3: \"In the North Sea approximately 20 percent of OPEX are required for offshore inspection, maintenance and repair (IMR)\".",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      },
+      "low": 20,
+      "high": 20
+    },
+    {
+      "metric": "Reliability — IMR expenditure over project life",
+      "unit": "qualitative (share of original investment)",
+      "basis": "ESDEP 15A.1 section 9.3: amount spent on IMR over project life \"can add up to approximately half the original investment\".",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Reliability — Dynamic analysis trigger",
+      "unit": "seconds (natural period)",
+      "basis": "ESDEP 15A.1 section 8.1: dynamic analysis performed for system behaviour under wave attack if the natural period exceeds 3 seconds.",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      },
+      "low": 3,
+      "high": 3
+    },
+    {
+      "metric": "Reliability — Fatigue assessment inclusion",
+      "unit": "qualitative",
+      "basis": "ESDEP 15A.1 section 8.2 lists fatigue assessment alongside survival, operational and accidental cases; DNV-RP-C203 objective is methods for fatigue assessment of offshore steel structures.",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 1989,
+      "source": {
+        "url": "https://patents.google.com/patent/US4932811A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2011,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+        "source_id": "offshore-technology-com-projects-kebabangan-field"
+      }
+    },
+    {
+      "metric": "Reliability — GBS topside rigid-connection fatigue",
+      "unit": "qualitative",
+      "basis": "ESDEP 15A.1 section 5.3.",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Reliability — Local dynamic behaviour items",
+      "unit": "qualitative",
+      "basis": "ESDEP 15A.1 section 8.1.",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Reliability — Design life of Tarpon KMSE/AJK WHPs",
+      "unit": "years (operational lifespan, design)",
+      "basis": "Tarpon Systems project page: platforms designed for a 20-year operational lifespan and made relocatable.",
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      },
+      "low": 20,
+      "high": 20
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2020,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+        "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+      }
+    },
+    {
+      "metric": "Reliability — Conductor contribution to total environmental loading on fixed platform",
+      "unit": "% of total environmental loading (typical range)",
+      "basis": "US5513929A background: \"well conductors above the seabed contribute a major portion of the total environmental loading on the platform (typically twenty to 30 percent)\".",
+      "source": {
+        "url": "https://patents.google.com/patent/US5513929A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Reliability — Dynamic analysis trigger for slender members and conductors",
+      "unit": "seconds (natural period)",
+      "basis": "ESDEP 15A.1 section 8.1: dynamic analysis if natural period exceeds 3 seconds; slender jacket members and conductors listed as locally dynamic.",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+      },
+      "low": 3,
+      "high": 3
+    },
+    {
+      "metric": "Reliability — Fatigue assessment",
+      "unit": "qualitative",
+      "basis": "ESDEP 15A.1 section 8.2; DNV-RP-C203 provides methods for fatigue assessment of offshore steel structures.",
+      "source": {
+        "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
+        "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 1996,
+      "source": {
+        "url": "https://patents.google.com/patent/US5513929A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2020,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+        "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    },
+    {
+      "metric": "Reliability — NUI refuge provision",
+      "unit": "qualitative",
+      "basis": "Wikipedia Normally unmanned installation.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Normally_unmanned_installation",
+        "source_id": "whp-en-wikipedia-org-normally-unmanned-installation"
+      }
+    },
+    {
+      "metric": "Reliability — Helicopter access rationale",
+      "unit": "qualitative",
+      "basis": "US4679964A description.",
+      "source": {
+        "url": "https://patents.google.com/patent/US4679964A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Normally_unmanned_installation",
+        "source_id": "whp-en-wikipedia-org-normally-unmanned-installation"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Normally_unmanned_installation",
+        "source_id": "whp-en-wikipedia-org-normally-unmanned-installation"
+      }
+    },
+    {
+      "metric": "Reliability — Lost time incidents on CoSMOS project",
+      "unit": "LTI (lost time incidents)",
+      "basis": "2H project: approx. 225,000 man hours and zero lost time incidents, attributed to QHSE procedures.",
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      },
+      "low": 0,
+      "high": 0
+    },
+    {
+      "metric": "Reliability — Power supply redundancy",
+      "unit": "qualitative",
+      "basis": "2H SE Asia project.",
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    },
+    {
+      "metric": "Reliability — Rig-interfaces robustness",
+      "unit": "qualitative",
+      "basis": "2H SE Asia project, Challenges section.",
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 1989,
+      "source": {
+        "url": "https://patents.google.com/patent/US4932811A/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Reliability — Emergency shelter for visiting crews",
+      "unit": "qualitative",
+      "basis": "Wikipedia Normally unmanned installation.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Normally_unmanned_installation",
+        "source_id": "whp-en-wikipedia-org-normally-unmanned-installation"
+      }
+    },
+    {
+      "metric": "Reliability — NUI decommissioning-phase integrity checks",
+      "unit": "qualitative",
+      "basis": "Wikipedia Normally unmanned installation.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Normally_unmanned_installation",
+        "source_id": "whp-en-wikipedia-org-normally-unmanned-installation"
+      }
+    },
+    {
+      "metric": "Reliability — Ageing conductor integrity topics",
+      "unit": "qualitative",
+      "basis": "2H webinar page dated 28 Oct 2020.",
+      "source": {
+        "url": "https://2hoffshore.com/knowledge/addressing-integrity-issues-on-ageing-platform-conductors",
+        "source_id": "whp-2hoffshore-com-addressing-integrity-issues-on-ageing-platf"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2019,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+        "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2016,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+        "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2014,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+        "source_id": "offshore-technology-com-projects-kebabangan-field"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+        "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "Price — Topsides fabrication contract, Kebabangan",
+      "unit": "USD million (as printed)",
+      "basis": "As printed: \"A $380m (RM1.15bn) contract to fabricate the topsides of the platform was awarded to Sime Darby Engineering in April 2011\". Dollar year not stated; article dated 5 May 2016. Not a unit-rate or full project cost. (dollar year not stated)",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+        "source_id": "offshore-technology-com-projects-kebabangan-field"
+      },
+      "low": 380,
+      "high": 380
+    },
+    {
+      "metric": "Price — Kebabangan FEED contract value (USD-equivalent as printed)",
+      "unit": "USD million (as printed)",
+      "basis": "As printed: \"The four-year contract is valued at Nkr170m (approximately $30m)\". Dollar year not stated; article dated 5 May 2016. USD-equivalent only; Nkr figure not converted here. (dollar year not stated)",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+        "source_id": "offshore-technology-com-projects-kebabangan-field"
+      },
+      "low": 30,
+      "high": 30
+    },
+    {
+      "metric": "Price — Kebabangan topsides fabrication contract",
+      "unit": "USD million (as printed)",
+      "basis": "As printed: \"A $380m (RM1.15bn) contract to fabricate the topsides of the platform was awarded to Sime Darby Engineering in April 2011\". Dollar year not stated; article dated 5 May 2016. (dollar year not stated)",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+        "source_id": "offshore-technology-com-projects-kebabangan-field"
+      },
+      "low": 380,
+      "high": 380
+    }
+  ],
+  "advantages": [
+    "Minimum-facility WHPs avoid onboard processing by exporting fluids to a host"
+  ],
+  "limitations": [
+    "Many component figures are not published on freely readable pages; gaps are recorded"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fixed_platform",
+      "source_id": "en-wikipedia-org-wiki-fixed-platform"
+    },
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm",
+      "note": "API RP 2A-WSD Recommended practice for planning, designing and constructing fixed offshore platforms (18th ed. 1989 as cited) — Jacket structure"
+    },
+    {
+      "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
+      "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor",
+      "note": "DNV-RP-C203 Fatigue design of offshore steel structures (Edition 2024-10, amended 2025-10) — Jacket structure"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN103758095A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent CN103758095A Offshore jacket production platform (China National Offshore Oil Corp CNOOC; CNOOC Research Institute Co Ltd) — Jacket structure"
+    },
+    {
+      "url": "https://patents.google.com/patent/US5513929A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US5513929A Fixed offshore platform structures, using small diameter, tensioned, well casing tiebacks (McDermott International Inc) — Jacket structure"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4932811A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US4932811A Well head conductor and/or caisson support system (Robert Folding (Individual)) — Jacket structure"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN103758095A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm",
+      "note": "AISC specification Specification for the design, fabrication and erection of structural steel for buildings (cited as frequently used for topside detail design) — Topside decks"
+    },
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm",
+      "note": "AWS D1.1-90 Structural Welding Code - Steel (cited as the structural offshore welding code) — Topside decks"
+    },
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm",
+      "note": "API RP 2A-WSD Recommended practice for planning, designing and constructing fixed offshore platforms — Topside decks"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN103758095A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent CN103758095A Offshore jacket production platform (China National Offshore Oil Corp CNOOC; CNOOC Research Institute Co Ltd) — Topside decks"
+    },
+    {
+      "url": "https://patents.google.com/patent/US5513929A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US5513929A Fixed offshore platform structures, using small diameter, tensioned, well casing tiebacks (McDermott International Inc) — Topside decks"
+    },
+    {
+      "url": "https://patents.google.com/patent/US5513929A/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/US5513929A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US5513929A Fixed offshore platform structures, using small diameter, tensioned, well casing tiebacks (McDermott International Inc) — Risers and J-tubes for pipelines and sub"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4679964A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US4679964A Offshore well support miniplatform (Seahorse Equipment Corp) — Risers and J-tubes for pipelines and sub"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Normally_unmanned_installation",
+      "source_id": "whp-en-wikipedia-org-normally-unmanned-installation"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4679964A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US4679964A Offshore well support miniplatform (Seahorse Equipment Corp) — Helideck"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4932811A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US4932811A Well head conductor and/or caisson support system (Robert Folding (Individual)) — Helideck"
+    },
+    {
+      "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
+      "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
+    },
+    {
+      "url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms",
+      "source_id": "whp-2hoffshore-com-minimum-facility-platforms"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4679964A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US4679964A Offshore well support miniplatform (Seahorse Equipment Corp) — Minimum-facility WHP logistics: designed"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4932811A/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US4932811A Well head conductor and/or caisson support system (Robert Folding (Individual)) — Minimum-facility WHP logistics: designed"
+    }
+  ],
+  "notes": "API RP 2A-WSD Recommended practice for planning, designing and constructing fixed offshore platforms (18th ed. 1989 as cited) — Jacket structure | DNV-RP-C203 Fatigue design of offshore steel structures (Edition 2024-10, amended 2025-10) — Jacket structure | Patent CN103758095A Offshore jacket production platform (China National Offshore Oil Corp CNOOC; CNOOC Research Institute Co Ltd) — Jacket structure | Patent US5513929A Fixed offshore platform structures, using small diameter, tensioned, well casing tiebacks (McDermott International Inc) — Jacket structure | Patent US4932811A Well head conductor and/or caisson support system (Robert Folding (Individual)) — Jacket structure | AISC specification Specification for the design, fabrication and erection of structural steel for buildings (cited as frequently used for topside detail design) — Topside decks | AWS D1.1-90 Structural Welding Code - Steel (cited as the structural offshore welding code) — Topside decks | API RP 2A-WSD Recommend",
+  "last_reviewed": "2026-11-24",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "Barge bumper and pull-in tube sizing",
+      "reason_code": "not_in_sources_read",
+      "reason": "No page read in this sweep gave dimensions, energy ratings or detailing rules for barge bumpers or pull-in tubes.",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Jacket structure",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a jacket appurtenance specification page or engineering-company detail sheet and read it with WebFetch."
+    },
+    {
+      "field": "performance",
+      "item": "ISO 19902 full text",
+      "reason_code": "not_in_sources_read",
+      "reason": "The ISO 19902:2020 sample PDF was not read successfully and the ISO standard page was not resolved; no figures or clauses from ISO 19902 are asserted.",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Jacket structure",
+          "access": "open"
+        }
+      ],
+      "action": "Locate and WebFetch a readable ISO 19902 landing page, or read the standard under licence."
+    },
+    {
+      "field": "performance",
+      "item": "Cellar / main / mezzanine deck naming",
+      "reason_code": "not_in_sources_read",
+      "reason": "None of the pages read explicitly names a three-level cellar-main-mezzanine arrangement for a wellhead platform; only CN103758095A mentions a sub-cellar deck.",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Topside decks",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a WHP topside GA description page and confirm the deck naming and functions."
+    },
+    {
+      "field": "performance",
+      "item": "Deck steel weight for an unmanned WHP",
+      "reason_code": "not_in_sources_read",
+      "reason": "Weight bands read are for integrated/modular production topsides (MN scale), not minimum-facility WHP decks.",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Topside decks",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a minimum-facility topside weight statement."
+    },
+    {
+      "field": "performance",
+      "item": "J-tube sizing and bend restrictor data",
+      "reason_code": "not_in_sources_read",
+      "reason": "The CRP Subsea page was not fetched successfully in this sweep; no J-tube diameter, bend radius or MBR figures are asserted.",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Risers and J-tubes for pipelines and subsea cables",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch and WebFetch a manufacturer J-tube/bend-restrictor data page."
+    },
+    {
+      "field": "performance",
+      "item": "Riser design standard",
+      "reason_code": "not_in_sources_read",
+      "reason": "API RP 2RD / API RP 17B were not read directly; the BSEE report PDF was refused in this sweep.",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Risers and J-tubes for pipelines and subsea cables",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch readable HTML pages naming the applicable riser standards and read them."
+    },
+    {
+      "field": "performance",
+      "item": "Helideck D-value, load class and obstacle-free sectors",
+      "reason_code": "not_in_sources_read",
+      "reason": "UK CAA CAP 437 PDF was refused by WebFetch (application/pdf); no figures asserted from it.",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Helideck",
+          "access": "open"
+        }
+      ],
+      "action": "Read an HTML CAP 437 / ICAO helideck page, or fetch the PDF by another method, then record sections and values."
+    },
+    {
+      "field": "performance",
+      "item": "Visit frequency rule for crewed visits",
+      "reason_code": "not_in_sources_read",
+      "reason": "The read pages say \"occasionally\" or \"regular visits\" but give no numeric interval; the fortnightly-visit statement in the source chat was not verified.",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Helideck",
+          "access": "open"
+        }
+      ],
+      "action": "Find an operator or regulator page stating the actual visit interval for Malaysian WHPs."
+    },
+    {
+      "field": "performance",
+      "item": "MFP cost with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "2H states the CoSMOS design was lowest cost but gives no USD figure; no dollar-year cost was read.",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Minimum-facility WHP logistics: designed for jack-up-rig ins",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a project page printing a dated USD cost."
+    },
+    {
+      "field": "performance",
+      "item": "Onboard processing inventory for the SE Asia MFP",
+      "reason_code": "not_in_sources_read",
+      "reason": "The 2H page names a multiphase flow meter and power sources but does not list separators, produced-water treatment or gas compression as absent.",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Minimum-facility WHP logistics: designed for jack-up-rig ins",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a facilities scope page to confirm which processing equipment is omitted."
+    },
+    {
+      "field": "performance",
+      "item": "No separators / produced-water treatment / gas compression onboard",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not stated explicitly on any page read; inference from \"minimum facility and unmanned\" and from processing equipment being on the FPSO is NOT recorded as a fact.",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Malaysian WHP operating context: normally unmanned, no separ",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a PETRONAS/Vestigo WHP facilities-scope page listing equipment excluded from the WHP."
+    },
+    {
+      "field": "performance",
+      "item": "Fortnightly visits",
+      "reason_code": "not_in_sources_read",
+      "reason": "The fortnightly interval appears in the source chat only; read pages say \"occasionally\" or \"regular visits\" without a number.",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Malaysian WHP operating context: normally unmanned, no separ",
+          "access": "open"
+        }
+      ],
+      "action": "Verify with an operator or regulator page before recording."
+    }
+  ]
+}

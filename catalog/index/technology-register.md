@@ -1,6 +1,6 @@
 # Technology register
 
-407 technologies across oil, gas, petrochemicals and new energy; 400 have a technology card so far.
+413 technologies across oil, gas, petrochemicals and new energy; 406 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -64,6 +64,12 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Water and emissions in upstream | Vapour recovery units | commercial | Hy-Bon (Cimarron) | [card](technologies-UPS.md#ups-flare-gas-recovery) |
 | Water and emissions in upstream | Seawater sulfate removal for injection water | commercial | Veolia, Toray membranes | [card](technologies-UPS.md#ups-seawater-sulfate-removal) |
 | Water and emissions in upstream | Electric instead of gas-pneumatic controllers | commercial | Various | [card](technologies-UPS.md#ups-electric-pneumatic-controllers) |
+| Wellhead platforms (WHP) | Wellhead platform well systems | commercial | Offshore Malaysia WHPs; minimum-facility designs | [card](technologies-UPS.md#ups-whp-well-systems) |
+| Wellhead platforms (WHP) | Wellhead platform production process systems | commercial | Offshore Malaysia WHPs; minimum-facility designs | [card](technologies-UPS.md#ups-whp-production-process-systems) |
+| Wellhead platforms (WHP) | Wellhead platform utility systems | commercial | Offshore Malaysia WHPs; minimum-facility designs | [card](technologies-UPS.md#ups-whp-utility-systems) |
+| Wellhead platforms (WHP) | Wellhead platform control, safety and communication systems | commercial | Offshore Malaysia WHPs; minimum-facility designs | [card](technologies-UPS.md#ups-whp-control-safety-and-communication-systems) |
+| Wellhead platforms (WHP) | Wellhead platform safety and emergency equipment | commercial | Offshore Malaysia WHPs; minimum-facility designs | [card](technologies-UPS.md#ups-whp-safety-and-emergency-equipment) |
+| Wellhead platforms (WHP) | Minimum-facility wellhead platform structures and marine systems | commercial | Offshore Malaysia WHPs; minimum-facility designs | [card](technologies-UPS.md#ups-whp-platform-structures-and-marine-systems) |
 
 ## MID: Midstream
 

@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-mild-steel-storage-tanks",
+  "name": "Mild steel storage tanks",
+  "material_category": "metals",
+  "description": "Mild steel storage tanks named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-diesel-storage-and-transfer"
+  ],
+  "sources": [
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

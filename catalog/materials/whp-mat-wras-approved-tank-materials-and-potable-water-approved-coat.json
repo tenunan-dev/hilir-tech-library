@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-wras-approved-tank-materials-and-potable-water-approved-coat",
+  "name": "WRAS-approved tank materials and potable-water-approved coatings",
+  "material_category": "polymer-coating",
+  "description": "WRAS-approved tank materials and potable-water-approved coatings named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-potable-water-storage-and-hot-water-system"
+  ],
+  "sources": [
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

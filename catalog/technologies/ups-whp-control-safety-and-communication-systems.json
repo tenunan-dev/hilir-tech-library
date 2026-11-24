@@ -1,0 +1,628 @@
+{
+  "id": "ups-whp-control-safety-and-communication-systems",
+  "name": "Wellhead platform control, safety and communication systems",
+  "aliases": [
+    "Wellhead platform control, safety and communication systems"
+  ],
+  "sector": "UPS",
+  "category": "Offshore wellhead platforms",
+  "applications": [
+    "offshore Malaysia wellhead platform",
+    "minimum-facility normally unmanned platform"
+  ],
+  "maturity": "commercial",
+  "principle": "Wellhead platform control, safety and communication systems: SCADA/DCS, ESD/SDV, fire and gas, navigation aids, telecom and condition monitoring. Sourced from pages read in the 2026-11-24 WHP component sweep.",
+  "process_steps": [
+    {
+      "id": "PROCESS_CONTROL_AN",
+      "name": "Process control and monitoring via SCADA/DCS, remote from shore or hub platform",
+      "equipment": [
+        "Process control and monitoring via SCADA/DCS, remote from shore or hub platform"
+      ]
+    },
+    {
+      "id": "ESD",
+      "name": "ESD",
+      "equipment": [
+        "ESD"
+      ]
+    },
+    {
+      "id": "FIRE_AND_GAS",
+      "name": "Fire and Gas",
+      "equipment": [
+        "Fire and Gas"
+      ]
+    },
+    {
+      "id": "NAVIGATION_AIDS",
+      "name": "Navigation aids",
+      "equipment": [
+        "Navigation aids"
+      ]
+    },
+    {
+      "id": "PLATFORM_TELECOM_V",
+      "name": "Platform telecom: VHF/UHF radio, satellite communication",
+      "equipment": [
+        "Platform telecom: VHF/UHF radio, satellite communication"
+      ]
+    },
+    {
+      "id": "CONDITION_MONITORI",
+      "name": "Condition monitoring instrumentation",
+      "equipment": [
+        "Condition monitoring instrumentation"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "Process control and monitoring via SCADA/DCS, remote from shore or hub platform",
+    "ESD",
+    "Fire and Gas",
+    "Navigation aids",
+    "Platform telecom: VHF/UHF radio, satellite communication",
+    "Condition monitoring instrumentation"
+  ],
+  "suppliers": [
+    {
+      "name": "Rockwell Automation"
+    },
+    {
+      "name": "AVEVA"
+    },
+    {
+      "name": "Yokogawa Electric"
+    },
+    {
+      "name": "Yokogawa Electric"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Reliability — SCADA failover architecture",
+      "unit": "qualitative",
+      "basis": "primary and backup station per node, configurable failover timeout; control remains in PLC/RTU if SCADA is down",
+      "source": {
+        "url": "https://tatsoft.com/oil-gas/",
+        "source_id": "whp-tatsoft-com"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2021,
+      "source": {
+        "url": "https://www.masibus.com/projects-executed/scada-projects-executed/wellhead-monitoring-and-control-system-for-offshore-platform",
+        "source_id": "whp-masibus-com-wellhead-monitoring-and-control-system-for-off"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2013,
+      "source": {
+        "url": "https://www.tdl-ia.com/offshore-platform-fso-automation.html",
+        "source_id": "whp-tdl-ia-com-offshore-platform-fso-automation-html"
+      }
+    },
+    {
+      "metric": "Reliability — Required SIL - ESD isolation of production/injection bore",
+      "unit": "SIL",
+      "basis": "Offshore Norge guideline No. 070 rev 06, Table A.6.5",
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      },
+      "low": 3,
+      "high": 3
+    },
+    {
+      "metric": "Reliability — Required SIL - ESD isolation of annulus in one topside gas lift well",
+      "unit": "SIL",
+      "basis": "Offshore Norge guideline No. 070 rev 06, Table A.6.5",
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      },
+      "low": 3,
+      "high": 3
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2001,
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2026,
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-30/section-250.855",
+        "source_id": "sys-ecfr-gov-section-250-855"
+      }
+    },
+    {
+      "metric": "Reliability — PFDavg",
+      "unit": "dimensionless",
+      "basis": "Consilium CS-PH Ex, MTTR 8 h, 1-year proof test interval",
+      "source": {
+        "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+        "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf"
+      },
+      "low": 0.00029,
+      "high": 0.00029
+    },
+    {
+      "metric": "Reliability — F&G logic PFD (single I/O, redundant CPU)",
+      "unit": "dimensionless",
+      "basis": "Offshore Norge Table A.8.1, voting 1oo1",
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      },
+      "low": 0.0012,
+      "high": 0.0012
+    },
+    {
+      "metric": "Reliability — Required SIL - fire detection with one detector",
+      "unit": "SIL",
+      "basis": "Offshore Norge section A.7: fire detector (heat, flame or smoke) + F&G logic incl I/O",
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      },
+      "low": 2,
+      "high": 2
+    },
+    {
+      "metric": "Reliability — Required SIL - gas detection with one detector",
+      "unit": "SIL",
+      "basis": "Offshore Norge section A.8.1: catalytic, IR point, IR line or H2S detector + F&G logic incl I/O",
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      },
+      "low": 2,
+      "high": 2
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2024,
+      "source": {
+        "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+        "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2016,
+      "source": {
+        "url": "https://www.tdl-ia.com/offshore-platform-fso-automation.html",
+        "source_id": "whp-tdl-ia-com-offshore-platform-fso-automation-html"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2017,
+      "source": {
+        "url": "https://www.tdl-ia.com/offshore-platform-fso-automation.html",
+        "source_id": "whp-tdl-ia-com-offshore-platform-fso-automation-html"
+      }
+    },
+    {
+      "metric": "Reliability — Independent power autonomy",
+      "unit": "h",
+      "basis": "IALA G1162 main/secondary fog signal autonomy for independent power source",
+      "source": {
+        "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+        "source_id": "whp-msmoffshore-com"
+      },
+      "low": 96,
+      "high": 96
+    },
+    {
+      "metric": "Reliability — Racon self-test",
+      "unit": "qualitative",
+      "basis": "Automatic self-test feature listed for Phalcon-EX-SS Zone 1 racon",
+      "source": {
+        "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+        "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2022,
+      "source": {
+        "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+        "source_id": "whp-msmoffshore-com"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2024,
+      "source": {
+        "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+        "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Transfer response",
+      "unit": "qualitative",
+      "basis": "Patent states switching response speed can reach millisecond level with the fast transfer switch; no measured figure given",
+      "source": {
+        "url": "https://patents.google.com/patent/CN113162215B/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://vmdsolutions.net/offshore-2",
+        "source_id": "whp-vmdsolutions-net-offshore-2"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2023,
+      "source": {
+        "url": "https://patents.google.com/patent/CN113162215B/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Reliability — Pressure monitoring frequency",
+      "unit": "qualitative",
+      "basis": "one minute to three days, more frequent than traditional operator rounds",
+      "low": 1,
+      "source": {
+        "url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead",
+        "source_id": "whp-yokogawa-com-s-sensor-offshore-natural-gas-drilling-platfo"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead",
+        "source_id": "whp-yokogawa-com-s-sensor-offshore-natural-gas-drilling-platfo"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "Price — Wellhead monitoring installed hardware per well (onshore proxy, NOT offshore WHP)",
+      "unit": "USD",
+      "basis": "US onshore Permian wellhead monitoring hardware: two pressure transmitters, temperature sensor, cellular gateway, panel, solar/battery, install labour; vendor guide dated 6 May 2026",
+      "low": 3000,
+      "high": 8000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html",
+        "source_id": "whp-merobix-com-wellhead-monitoring-system-guide-html"
+      }
+    },
+    {
+      "metric": "Price — Upfront implementation, traditional on-premise SCADA for 10 wells (onshore proxy)",
+      "unit": "USD",
+      "basis": "vendor guide dated 6 May 2026; onshore US, not an offshore platform quote",
+      "low": 80000,
+      "high": 200000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html",
+        "source_id": "whp-merobix-com-wellhead-monitoring-system-guide-html"
+      }
+    },
+    {
+      "metric": "Price — 4-20 mA wellhead pressure transmitter (onshore proxy)",
+      "unit": "USD",
+      "basis": "Quality oilfield pressure transmitters from major industrial instrumentation manufacturers; US onshore guide dated 6 May 2026",
+      "low": 300,
+      "high": 800,
+      "year": 2026,
+      "source": {
+        "url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html",
+        "source_id": "whp-merobix-com-wellhead-monitoring-system-guide-html"
+      }
+    }
+  ],
+  "advantages": [
+    "Minimum-facility WHPs avoid onboard processing by exporting fluids to a host"
+  ],
+  "limitations": [
+    "Many component figures are not published on freely readable pages; gaps are recorded"
+  ],
+  "sources": [
+    {
+      "url": "https://www.tdl-ia.com/offshore-platform-fso-automation.html",
+      "source_id": "whp-tdl-ia-com-offshore-platform-fso-automation-html"
+    },
+    {
+      "url": "https://www.masibus.com/projects-executed/scada-projects-executed/wellhead-monitoring-and-control-system-for-offshore-platform",
+      "source_id": "whp-masibus-com-wellhead-monitoring-and-control-system-for-off"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/61289",
+      "source_id": "whp-webstore-iec-ch-61289",
+      "note": "IEC 61511-1:2016+AMD1:2017 CSV Functional safety - Safety instrumented systems for the process industry sector - Part 1: Framework, definitions, system, hardware and application programming requirements — Process control"
+    },
+    {
+      "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+      "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-30/section-250.855",
+      "source_id": "sys-ecfr-gov-section-250-855"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/61289",
+      "source_id": "whp-webstore-iec-ch-61289",
+      "note": "IEC 61511-1:2016+AMD1:2017 CSV Functional safety - Safety instrumented systems for the process industry sector - Part 1 — ESD"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-30/section-250.855",
+      "source_id": "sys-ecfr-gov-section-250-855",
+      "note": "30 CFR 250.855 Emergency shutdown (ESD) system — ESD"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-30/section-250.855",
+      "source_id": "sys-ecfr-gov-section-250-855",
+      "note": "API RP 14C Appendix C section C1 Recommended practice for analysis, design, installation and testing of basic surface safety systems (cited by 30 CFR 250.855) — ESD"
+    },
+    {
+      "url": "https://www.api.org/~/media/files/publications/whats%20new/17v_e1%20pa.pdf",
+      "note": "API RP 17V first edition Analysis, Design, Installation, and Testing of Safety Systems for Subsea Applications — ESD"
+    },
+    {
+      "url": "https://www.adnoc.ae/-/media/adnoc-v2/files/specs/2021/engineering-standards-and-specifications-october14th/emergency-shutdown-sis-specification.ashx",
+      "note": "AGES-SP-04-004 Rev 1 (ADNOC Emergency Shutdown/SIS specification) Operator ESD/SIS specification, hydraulic safety shutdown system and partial stroke test requirements — ESD"
+    },
+    {
+      "url": "https://patents.google.com/patent/WO2018052314A1/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent WO2018052314A1 Optimising fire protection for an offshore platform (Statoil Petroleum ASA (current assignee Equinor Energy AS)) — ESD"
+    },
+    {
+      "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+      "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf"
+    },
+    {
+      "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+      "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf",
+      "note": "IEC 61508 Functional safety of electrical/electronic/programmable electronic safety-related systems — Fire and Gas"
+    },
+    {
+      "url": "https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf",
+      "source_id": "whp-consiliumsafety-com-5210021-00a-cs-ph-20ex-m-en-2024-x-pdf",
+      "note": "EN 54-5:2017/A1:2018; EN 54-7:2018; EN 54-17:2005/AC:2007 Fire detection and fire alarm systems - heat, smoke and short-circuit isolators — Fire and Gas"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/61289",
+      "source_id": "whp-webstore-iec-ch-61289",
+      "note": "IEC 61511-1:2016+AMD1:2017 CSV Functional safety - SIS for the process industry sector - Part 1 — Fire and Gas"
+    },
+    {
+      "url": "https://techstar.com/wp-content/uploads/2024/04/1400-021-MC_HazardWatch_FX-12_Bulletin.pdf",
+      "note": "NFPA 72 National Fire Alarm and Signaling Code (cited for redundant F&G power supply by MSA bulletin) — Fire and Gas"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN113162215B/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent CN113162215B Emergency power supply system and control method for replacing offshore platform diesel generator system (PowerChina Huadong Engineering Corp Ltd) — Fire and Gas"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN114699699B/en",
+      "note": "Patent CN114699699B Fire monitoring and control system for oil storage site (Hefei University of Technology) — Fire and Gas"
+    },
+    {
+      "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+      "source_id": "whp-msmoffshore-com"
+    },
+    {
+      "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
+      "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
+    },
+    {
+      "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+      "source_id": "whp-msmoffshore-com",
+      "note": "IALA G1162 The marking of man-made offshore structures — Navigation aids"
+    },
+    {
+      "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+      "source_id": "whp-msmoffshore-com",
+      "note": "ITU-R M.824-4 Technical parameters of radar beacons (racons) — Navigation aids"
+    },
+    {
+      "url": "https://orga.nl/aids-to-navigation/marine-foghorns/fh800ex-3/",
+      "note": "IALA O-139 The marking of man-made offshore structures — Navigation aids"
+    },
+    {
+      "url": "https://orga.nl/aids-to-navigation/marine-foghorns/fh800ex-3/",
+      "note": "33 CFR Part 67 Aids to navigation on artificial islands and fixed structures — Navigation aids"
+    }
+  ],
+  "notes": "IEC 61511-1:2016+AMD1:2017 CSV Functional safety - Safety instrumented systems for the process industry sector - Part 1: Framework, definitions, system, hardware and application programming requiremen | IEC 61511-1:2016+AMD1:2017 CSV Functional safety - Safety instrumented systems for the process industry sector - Part 1 — ESD | 30 CFR 250.855 Emergency shutdown (ESD) system — ESD | API RP 14C Appendix C section C1 Recommended practice for analysis, design, installation and testing of basic surface safety systems (cited by 30 CFR 250.855) — ESD | API RP 17V first edition Analysis, Design, Installation, and Testing of Safety Systems for Subsea Applications — ESD | AGES-SP-04-004 Rev 1 (ADNOC Emergency Shutdown/SIS specification) Operator ESD/SIS specification, hydraulic safety shutdown system and partial stroke test requirements — ESD | Patent WO2018052314A1 Optimising fire protection for an offshore platform (Statoil Petroleum ASA (current assignee Equinor Energy AS)) — ESD | IEC 61508",
+  "last_reviewed": "2026-11-24",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "Process control and monitoring via SCADA/DCS",
+      "reason_code": "not_in_sources_read",
+      "reason": "No published capex/opex for an offshore Malaysian WHP SCADA/DCS upgrade found; only onshore US proxy costs",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Process control and monitoring via SCADA/DCS, remote from sh",
+          "access": "open"
+        }
+      ],
+      "action": "Find a named offshore WHP automation contract with USD value and dollar year"
+    },
+    {
+      "field": "performance",
+      "item": "Process control and monitoring via SCADA/DCS",
+      "reason_code": "not_in_sources_read",
+      "reason": "Round-trip latency and availability classes for satellite-linked WHP SCADA not stated in sources read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Process control and monitoring via SCADA/DCS, remote from sh",
+          "access": "open"
+        }
+      ],
+      "action": "Source a printed latency/availability specification with basis"
+    },
+    {
+      "field": "performance",
+      "item": "ESD with dual redundant logic",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read states the voting architecture (e.g. 1oo2/2oo3) of the dual redundant ESD logic on a Malaysian WHP",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for ESD",
+          "access": "open"
+        }
+      ],
+      "action": "Obtain a named WHP cause-and-effect matrix and SIS architecture diagram"
+    },
+    {
+      "field": "performance",
+      "item": "ESD SDV valves",
+      "reason_code": "not_in_sources_read",
+      "reason": "ADNOC ESD specification returned HTTP 403; no numeric figures or sequences asserted from it",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for ESD",
+          "access": "open"
+        }
+      ],
+      "action": "Find an accessible copy and extract the closing sequence, PST and proof-test interval"
+    },
+    {
+      "field": "performance",
+      "item": "Fusible plug loops",
+      "reason_code": "not_in_sources_read",
+      "reason": "No design temperature, plug rating or loop proof-test interval from an actually read page",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Fire and Gas",
+          "access": "open"
+        }
+      ],
+      "action": "Find an accessible OEM datasheet with printed fusible element rating"
+    },
+    {
+      "field": "performance",
+      "item": "F&G detector coverage on a WHP",
+      "reason_code": "not_in_sources_read",
+      "reason": "No detector coverage percentage or mapping study for a Malaysian WHP found",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Fire and Gas",
+          "access": "open"
+        }
+      ],
+      "action": "Locate a published F&G mapping result with basis"
+    },
+    {
+      "field": "performance",
+      "item": "Navigation aids",
+      "reason_code": "not_in_sources_read",
+      "reason": "No Malaysia-specific WHP AtoN inventory or helideck lighting layout from an actual page read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Navigation aids",
+          "access": "open"
+        }
+      ],
+      "action": "Find an operator AtoN schedule with printed ranges and autonomy"
+    },
+    {
+      "field": "performance",
+      "item": "Navigation aids",
+      "reason_code": "not_in_sources_read",
+      "reason": "No USD price for a complete Zone 1 nav-aid skid found",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Navigation aids",
+          "access": "open"
+        }
+      ],
+      "action": "Obtain a priced skid quotation with dollar year"
+    },
+    {
+      "field": "performance",
+      "item": "PA/GA system",
+      "reason_code": "not_in_sources_read",
+      "reason": "No page actually read gives sound-pressure coverage, amplifier power or redundancy for a Malaysian WHP PA/GA",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Platform telecom: VHF/UHF radio, satellite communication",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch OEM datasheets and extract printed sound coverage basis"
+    },
+    {
+      "field": "performance",
+      "item": "VSAT on WHP",
+      "reason_code": "not_in_sources_read",
+      "reason": "No offshore WHP VSAT link budget, availability SLA or USD cost from a page read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Platform telecom: VHF/UHF radio, satellite communication",
+          "access": "open"
+        }
+      ],
+      "action": "Source an operator service sheet with availability and dollar year"
+    },
+    {
+      "field": "performance",
+      "item": "Annulus pressure monitoring",
+      "reason_code": "not_in_sources_read",
+      "reason": "No printed accuracy, pressure range or alarm setpoint from an actually read annulus-specific datasheet",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Condition monitoring instrumentation",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch an OEM annulus sensor datasheet with printed range and accuracy"
+    },
+    {
+      "field": "performance",
+      "item": "Vibration monitoring",
+      "reason_code": "not_in_sources_read",
+      "reason": "No WHP-specific vibration severity limits or sensor specifications from a page read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Condition monitoring instrumentation",
+          "access": "open"
+        }
+      ],
+      "action": "Source a vendor datasheet with printed frequency range and sensitivity"
+    }
+  ]
+}

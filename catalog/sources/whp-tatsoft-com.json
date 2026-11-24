@@ -1,0 +1,29 @@
+{
+  "id": "whp-tatsoft-com",
+  "name": "SCADA Software for Oil and Gas",
+  "url": "https://tatsoft.com/oil-gas/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "INS",
+    "DIG"
+  ],
+  "subtopics": [
+    "Full page fetched; deployment and connector figures quoted with printed basis"
+  ],
+  "publisher_org": "Tatsoft LLC",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "site copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Full page fetched; deployment and connector figures quoted with printed basis"
+}

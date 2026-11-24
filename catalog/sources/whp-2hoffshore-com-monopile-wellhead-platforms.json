@@ -1,0 +1,28 @@
+{
+  "id": "whp-2hoffshore-com-monopile-wellhead-platforms",
+  "name": "2H Offshore — Monopile Wellhead Platforms",
+  "url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/monopile-wellhead-platforms",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC"
+  ],
+  "subtopics": [
+    "Read with WebFetch on 2026-11-24; figures transcribed from page text."
+  ],
+  "publisher_org": "2H Offshore Engineering Ltd (Acteon)",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Read with WebFetch on 2026-11-24; figures transcribed from page text."
+}

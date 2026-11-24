@@ -1,0 +1,30 @@
+{
+  "id": "whp-en-wikipedia-org-iec-61511",
+  "name": "IEC 61511",
+  "url": "https://en.wikipedia.org/wiki/IEC_61511",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE",
+    "CIV"
+  ],
+  "subtopics": [
+    "Functional safety - Safety instrumented systems for the process industry sector"
+  ],
+  "publisher_org": "IEC 61511",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Functional safety - Safety instrumented systems for the process industry sector"
+}

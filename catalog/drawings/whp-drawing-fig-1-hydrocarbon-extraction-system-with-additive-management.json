@@ -1,0 +1,26 @@
+{
+  "id": "whp-drawing-fig-1-hydrocarbon-extraction-system-with-additive-management",
+  "title": "FIG. 1 — Hydrocarbon extraction system with additive management system",
+  "diagram_type": "schematic",
+  "description": "Schematic of wellheads, trees, riser, manifold, CIMVs, hydrate inhibitor regeneration, flow meters and controller; page read with WebFetch.",
+  "publisher": "WIPO / OneSubsea IP UK Ltd (Google Patents)",
+  "url": "https://patents.google.com/patent/WO2016067222A1/en",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "whp-chemical-injection-system"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/WO2016067222A1/en",
+      "note": "Schematic of wellheads, trees, riser, manifold, CIMVs, hydrate inhibitor regeneration, flow meters and controller; page read with WebFetch."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 2026-11-24 WHP sweep; the drawing stays at the publisher URL."
+}

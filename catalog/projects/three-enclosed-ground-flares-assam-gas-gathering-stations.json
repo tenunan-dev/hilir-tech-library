@@ -1,0 +1,24 @@
+{
+  "id": "three-enclosed-ground-flares-assam-gas-gathering-stations",
+  "name": "Three enclosed ground flares, Assam gas gathering stations",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "India",
+  "location": "India",
+  "status": "operating",
+  "description": "CRA case study: three enclosed ground flares replacing atmospheric venting with enclosed combustion (page read; no year printed).",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.cra.energy/product/knockout-drums",
+      "source_id": "cra-energy-product-knockout-drums",
+      "note": "CRA case study: three enclosed ground flares replacing atmospheric venting with enclosed combustion (page read; no year printed)."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (2. Production Process Systems)."
+}

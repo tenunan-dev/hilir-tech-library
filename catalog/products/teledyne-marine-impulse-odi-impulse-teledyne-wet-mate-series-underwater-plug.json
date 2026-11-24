@@ -83,8 +83,7 @@
   "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
   "sources": [
     {
-      "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
-      "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
+      "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     }
   ],
   "notes": "Table read from HTML page. A separate Teledyne Nautilus WM1.7-60 HTML page returned only the header under WebFetch and is treated as search-verified only.",

@@ -1,0 +1,24 @@
+{
+  "id": "vietsovpetro-central-compressor-platform-f-g",
+  "name": "Vietsovpetro Central Compressor Platform F&G",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Vietnam",
+  "location": "Vietnam",
+  "status": "operating",
+  "description": "SIL 3 process safety system for fire and gas functions",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.tdl-ia.com/offshore-platform-fso-automation.html",
+      "source_id": "whp-tdl-ia-com-offshore-platform-fso-automation-html",
+      "note": "SIL 3 process safety system for fire and gas functions"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (4. Control, Safety and Communication Systems)."
+}

@@ -1,27 +1,27 @@
 # Catalog summary
 
-1646 sources in total.
+1713 sources in total.
 
 ## By sector and discipline code
 
 | Value | Sources |
 | --- | --- |
-| PRC | 1446 |
-| ROT | 1065 |
-| PWR | 1046 |
-| MID | 839 |
-| UPS | 825 |
-| MAT | 660 |
-| CIV | 568 |
-| INS | 552 |
-| REF | 469 |
-| ELE | 462 |
+| PRC | 1474 |
+| ROT | 1092 |
+| PWR | 1048 |
+| UPS | 889 |
+| MID | 840 |
+| MAT | 663 |
+| CIV | 596 |
+| INS | 588 |
+| REF | 471 |
+| ELE | 469 |
 | PCH | 247 |
-| GAS | 237 |
+| GAS | 242 |
 | H2 | 232 |
-| DIG | 182 |
+| HSE | 191 |
+| DIG | 187 |
 | CCS | 166 |
-| HSE | 144 |
 | IDC | 79 |
 | WWT | 27 |
 
@@ -29,43 +29,43 @@
 
 | Value | Sources |
 | --- | --- |
-| global | 1477 |
-| apac | 958 |
-| na | 886 |
-| sea | 838 |
-| eu | 491 |
-| me | 18 |
+| global | 1540 |
+| apac | 962 |
+| na | 887 |
+| sea | 863 |
+| eu | 494 |
+| me | 19 |
 | af | 1 |
 
 ## By source type
 
 | Value | Sources |
 | --- | --- |
-| oem-supplier | 963 |
+| oem-supplier | 985 |
 | agency-data | 173 |
 | research-institute | 139 |
 | trade-media | 111 |
+| standards-body | 82 |
 | association | 58 |
-| standards-body | 56 |
 | journal | 49 |
 | licensor | 42 |
+| patents | 31 |
 | conference | 24 |
 | epc-contractor | 19 |
-| patents | 12 |
 
 ## By reuse level
 
 | Value | Sources |
 | --- | --- |
-| summary-only | 1269 |
+| summary-only | 1332 |
 | full-text-restricted | 161 |
-| full-text-open | 107 |
-| catalog-only | 105 |
+| full-text-open | 110 |
+| catalog-only | 106 |
 | full-text-with-attribution | 4 |
 
 ## By verification
 
 | Value | Sources |
 | --- | --- |
-| verified | 1312 |
+| verified | 1379 |
 | unverified | 334 |

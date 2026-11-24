@@ -1,0 +1,26 @@
+{
+  "id": "whp-drawing-schematic-representation-of-a-pipeline-pig-launching-system",
+  "title": "Schematic representation of a pipeline pig launching system with safety interlock",
+  "diagram_type": "schematic",
+  "description": "The single drawing in US4135949A shows barrel 9, inlet/outlet control valves, vent/drain lines and closure 31 with interlock; page read with WebFetch.",
+  "publisher": "Google Patents / Phillips Petroleum Co",
+  "url": "https://patents.google.com/patent/US4135949A/en",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "whp-pig-launcher-receiver-for-the-export-pipeline"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/US4135949A/en",
+      "note": "The single drawing in US4135949A shows barrel 9, inlet/outlet control valves, vent/drain lines and closure 31 with interlock; page read with WebFetch."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 2026-11-24 WHP sweep; the drawing stays at the publisher URL."
+}

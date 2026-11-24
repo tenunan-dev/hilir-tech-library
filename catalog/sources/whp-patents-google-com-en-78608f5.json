@@ -1,0 +1,27 @@
+{
+  "id": "whp-patents-google-com-en-78608f5",
+  "name": "US4135949A Safety interlock for pipeline pig launcher and receiver",
+  "url": "https://patents.google.com/patent/US4135949A/en",
+  "source_type": "patents",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE",
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "patent publication",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Patent read in the WHP sweep: Safety interlock for pipeline pig launcher and receiver; assignee Phillips Petroleum Co; Priority/filing 1976-05-18, publication/grant 1979-01-23, expired lifetime; interlock prevents opening under pressure and admission of flow while closure off. Page read 2026-11-24.",
+  "publisher_org": "Google Patents (patent office bibliographic data)"
+}

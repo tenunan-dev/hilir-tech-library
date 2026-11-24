@@ -1,0 +1,22 @@
+{
+  "id": "whp-vendor-wikipedia-wikimedia-foundation",
+  "name": "Wikipedia (Wikimedia Foundation)",
+  "country": "—",
+  "roles": [
+    "service"
+  ],
+  "categories": [
+    "engineering-consultancy"
+  ],
+  "description": "Publisher of a page read in the 2026-11-24 WHP sweep; not necessarily an equipment supplier.",
+  "technologies": [
+    "ups-whp-well-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Fallback vendor link for an equipment class with no named supplier on the pages read."
+}

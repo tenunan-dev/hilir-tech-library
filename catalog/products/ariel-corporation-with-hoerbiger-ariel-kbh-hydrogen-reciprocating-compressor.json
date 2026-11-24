@@ -73,8 +73,7 @@
   "url": "https://www.arielcorp.com/compressors/kbh.html",
   "sources": [
     {
-      "url": "https://www.arielcorp.com/compressors/kbh.html",
-      "source_id": "cat-arielcorp-com-kbh-html"
+      "url": "https://www.arielcorp.com/compressors/kbh.html"
     }
   ],
   "notes": "Vertically oriented, non-lubricated cylinders for gas purity; page claims 500 bar discharge at 250 kg/h means 1 KBH does the work of 5-6 leading diaphragm style compressors. Linked KBH product sheet is a PDF (not read).",

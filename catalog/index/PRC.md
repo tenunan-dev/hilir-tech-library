@@ -1,10 +1,12 @@
 # PRC: Process systems
 
-1446 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+1474 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
 | [2H Offshore](https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [2H Offshore — Minimum Facility Platforms](https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms) | oem-supplier | apac, global | open | summary-only |
+| [2H Offshore — Monopile Wellhead Platforms](https://2hoffshore.com/sectors/oil-and-gas/platforms/monopile-wellhead-platforms) | oem-supplier | global, apac | open | summary-only |
 | [2Hoffshore.Com — D18 Phase 2 and D28 Phase 1 conductor-supported platfor](https://2hoffshore.com/about/news/2h-offshore-installs-its-eighth-conductor-supported-platform-offshore-malaysia) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [A*STAR Institute of Sustainability for Chemicals, Energy and Environment](https://www.a-star.edu.sg/isce2) | research-institute | sea | open | summary-only (unverified) |
 | [ABB Wellhead Management System](https://library.e.abb.com/public/87968d164d3140ebaf6301f8c4a17019/PB_2102736-EN_B_WEB.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -109,6 +111,7 @@
 | [Chulalongkorn Petroleum and Petrochemical College](https://www.ppc.chula.ac.th/) | research-institute | sea | open | full-text-restricted |
 | [Cimarron](https://cimarron.com/solutions/production-and-processing/teg-dehydration/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Circulating fluidized-bed boilers](https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers) | oem-supplier | global, na, apac | open | summary-only |
+| [CN103758095A — Offshore jacket production platform](https://patents.google.com/patent/CN103758095A/en) | patents | apac | open | full-text-open |
 | [CNKI China National Knowledge Infrastructure](https://oversea.cnki.net/) | journal | apac | paywalled | catalog-only (unverified) |
 | [Cnpc.Com.Cn — JZ9-3 (Bohai Bay, China)](https://www.cnpc.com.cn/cnpc/gcdx/201507/4e39a22c7cc945b792d7231df2b21e91/files/4a13bd9d4d5b4bd4b8acbc75d01ac9a3.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [CO2CRC Otway International Test Centre](https://co2crc.com.au/) | research-institute | apac | open | full-text-restricted |
@@ -879,6 +882,7 @@
 | [Shah Deniz Stage Two (Full Field Development)](https://www.offshore-technology.com/projects/shah-deniz-stage-2-caspian-sea/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Sharda Industrial Corporation — COMPOHOSE LNG cryogenic composite hose (SNS type)](https://composite-hose.com/cryogenic/lng) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Shell Australia Pty Ltd / NOPSEMA](https://docs.nopsema.gov.au/A680618) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [Shell Delivers First Gas From The Timi Platform In Malaysia](https://oceannews.com/news/energy/shell-delivers-first-gas-from-the-timi-platform-in-malaysia) | oem-supplier | sea, apac | open | summary-only |
 | [Shijiazhuang Ruker Oilfield Technology Co., Ltd. — Choke & kill line hose (full bore), JLG-FB series](https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Siemens Energy (incl. ex-Dresser-Rand)](https://www.siemens-energy.com/global/en/home/products-services/product-offering/compressors.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Siemens — SCALANCE S Industrial Security Appliances (SCALANCE SC-600, S615/S605, SC622-2C, SC626-2C)](https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -973,6 +977,7 @@
 | [Atlantic Feedwater Systems](https://atlanticfeedwatersystemsinc.com/guidelines/) | oem-supplier | global, na | open | summary-only |
 | [Atlas Copco](https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series) | oem-supplier | global, na | open | summary-only |
 | [Atlas Copco — Minimum pressure dew point margin below coldest exposed inst](https://www.atlascopco.com/en-us/compressors/wiki/compressed-air-articles/instrument-air-quality) | oem-supplier | global, na | open | summary-only |
+| [AU2015261530B2 Subsea universal Xmas tree hang-off adapter](https://patents.google.com/patent/AU2015261530B2/en) | patents | global | open | summary-only |
 | [Avtron Power Solutions](https://avtronpower.com/) | oem-supplier | global, na | open | summary-only |
 | [Basler Electric](https://www.basler.com/product/decs-2100-digital-excitation-control-system) | oem-supplier | global, na | open | summary-only |
 | [BOA Group](https://boagroup.com/wp-content/uploads/2019/10/BOA-HFE-Axial-Expansion-Joints.pdf) | oem-supplier | global, na | open | summary-only |
@@ -1021,6 +1026,7 @@
 | [Cleaver-Brooks — ProFire SBR-30 Low-NOx Burner](https://cleaverbrooks.com/product/sbr30-burner) | oem-supplier | global, na | open | summary-only |
 | [Cleaver-Brooks — Slant Type/VC Series Boiler (HRSG)](https://cleaverbrooks.com/catalog/boilers/hrsg) | oem-supplier | global, na | open | summary-only |
 | [Cleaver-Brooks — TrayMaster Deaerator (TMV / TMH)](https://cleaverbrooks.com/product/traymaster) | oem-supplier | global, na | open | summary-only |
+| [CN113162215B Emergency power supply system and control method for replacing offshore platform diesel generator system](https://patents.google.com/patent/CN113162215B/en) | patents | global | open | summary-only |
 | [ComAp](https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers) | oem-supplier | global, na | open | summary-only |
 | [ComAp](https://www.comap-control.com/products/switchgear-control-and-protections) | oem-supplier | global, na | open | summary-only |
 | [ComAp — ComAp InteliGen 1000 coordinated units](https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000) | oem-supplier | global, na | open | summary-only |
@@ -1081,6 +1087,7 @@
 | [Fulton steam boilers](https://fulton.com/product-categories/steam-boilers/) | oem-supplier | global, na | open | summary-only |
 | [Fulton — ENDURA XE Condensing Firetube Hydronic Boiler](https://fulton.com/exe) | oem-supplier | global, na | open | summary-only |
 | [Gases (MDPI)](https://www.mdpi.com/journal/gases) | journal | global | open | full-text-open |
+| [GB2385347A Concentric tubing completion system](https://patents.google.com/xhr/query?url=q%3Dchristmas%2Btree%2Bwellhead%26num%3D10&exp=) | patents | global | open | summary-only |
 | [GHGT Greenhouse Gas Control Technologies conference](https://ghgt.info/) | conference | global | open | full-text-restricted |
 | [GO ultra-low-NOx package burner](https://zeeco.com/resources/brochures/go-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
 | [GPA Midstream Association](https://gpamidstream.org/) | association | na, global | mixed | catalog-only (unverified) |
@@ -1101,6 +1108,7 @@
 | [HRSG components, modules, HARPs and tubes](https://www.babcock.com/home/products-services/specialized-businesses/hrsg-components-modules-harps-tubes) | oem-supplier | global, na | open | summary-only |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
 | [IEAGHG Technology Collaboration Programme reports](https://ieaghg.org/) | research-institute | global | mixed | full-text-restricted |
+| [IEC 61511](https://en.wikipedia.org/wiki/IEC_61511) | standards-body | global | open | summary-only |
 | [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | summary-only |
 | [IMI Process Automation](https://processautomation.imiplc.com/products/additional-solutions/silencers) | oem-supplier | global, na | open | summary-only |
 | [Industrial & Engineering Chemistry Research (ACS)](https://pubs.acs.org/journal/iecred) | journal | global | mixed | catalog-only (unverified) |
@@ -1118,6 +1126,8 @@
 | [International Journal of Greenhouse Gas Control](https://www.sciencedirect.com/journal/international-journal-of-greenhouse-gas-control) | journal | global | mixed | catalog-only (unverified) |
 | [International Journal of Hydrogen Energy](https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy) | journal | global | mixed | catalog-only (unverified) |
 | [Ion Exchange (India) Ltd](https://ionexchangeglobal.com/products/core-solutions/condensate-polishing/) | oem-supplier | global, na | open | summary-only |
+| [ISO 10423:2009 (withdrawn)](https://www.iso.org/standard/42757.html) | standards-body | global | open | summary-only |
+| [ISO 10423:2022 standard page](https://www.iso.org/standard/79588.html) | standards-body | global | open | summary-only |
 | [ISO 14687 (hydrogen fuel purity)](https://www.iso.org/standard/69539.html) | standards-body | global | paywalled | catalog-only |
 | [ISO 19880 (gaseous hydrogen fuelling stations)](https://www.iso.org/standard/71940.html) | standards-body | global | paywalled | catalog-only |
 | [ISO/TC 197 Hydrogen technologies](https://www.iso.org/committee/54560.html) | standards-body | global | paywalled | catalog-only (unverified) |
@@ -1151,6 +1161,8 @@
 | [National Energy Technology Laboratory (NETL)](https://netl.doe.gov/) | research-institute | na, global | open | full-text-open |
 | [National Renewable Energy Laboratory (NREL) publications](https://www.nrel.gov/research/publications.html) | research-institute | na, global | open | full-text-restricted |
 | [NEM Energy](https://nem-energy.com/products/exhaust-diverter-and-dampers/) | oem-supplier | global, na | open | summary-only |
+| [NFPA 30](https://www.pdhonline.com/courses/m332/m332content.pdf) | standards-body | global | open | summary-only |
+| [NFPA 37](https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf) | standards-body | global | open | summary-only |
 | [NORSOK D-010 Well integrity in drilling and well operations (Rev. 4 updates copy)](https://id.scribd.com/document/396965999/2-Norsok-Terje-Lokke-Sorensen) | standards-body | eu, global | mixed | full-text-restricted |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
 | [OSHA pressure vessels — standards](https://www.osha.gov/pressure-vessels/standards) | agency-data | global, na | open | summary-only |
@@ -1205,6 +1217,16 @@
 | [US Environmental Protection Agency — SCR Process Flow Diagram — Figure 2.1, Chapter 4.2 NOx ](https://www.epa.gov/sites/default/files/2020-07/documents/cs4-2ch2.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [US Environmental Protection Agency — Typical CEMS for Multiple Parameter Monitoring — Figure](https://www.epa.gov/sites/default/files/2020-07/documents/cs2ch4.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [US Nuclear Regulatory Commission — Figure 2-1 — Basic system schematic, Instrument Air Sys](https://www.nrc.gov/docs/ml0037/ml003767039.pdf) | agency-data | global, na | open | summary-only (unverified) |
+| [US20120273228A1 Integrated Choke Manifold System for Use in A Well Application](https://patents.google.com/patent/US20120273228A1/en) | patents | global | open | summary-only |
+| [US20220069575A1 Power supply system for an offshore platform](https://patents.google.com/patent/US20220069575A1/en) | patents | global | open | summary-only |
+| [US4135949A Safety interlock for pipeline pig launcher and receiver](https://patents.google.com/patent/US4135949A/en) | patents | global | open | summary-only |
+| [US4237936A Pig trap closure](https://patents.google.com/patent/US4237936A/en) | patents | global | open | summary-only |
+| [US4679964A Offshore well support miniplatform](https://patents.google.com/patent/US4679964A/en) | patents | global | open | summary-only |
+| [US4932811A Well head conductor and/or caisson support system](https://patents.google.com/patent/US4932811A/en) | patents | global | open | summary-only |
+| [US5513929A Fixed offshore platform structures, using small diameter, tensioned, well casing tiebacks](https://patents.google.com/patent/US5513929A/en) | patents | global | open | summary-only |
+| [US6805200B2 Horizontal spool tree wellhead system and method](https://patents.google.com/patent/US6805200B2/en) | patents | global | open | summary-only |
+| [US6981848B1 Methanol injection system and method to prevent freezing of a natural gas pipeline](https://patents.google.com/patent/US6981848B1/en) | patents | global | open | summary-only |
+| [US7069874B2 Davit-launched life raft](https://patents.google.com/patent/US7069874B2/en) | patents | global | open | summary-only |
 | [USGS Mineral Commodity Summaries](https://pubs.usgs.gov/periodicals/mcs2026/) | agency-data | global | open | full-text-open |
 | [Valmet — Valmet CFB Boiler (formerly CYMIC)](https://www.valmet.com/energyproduction/cfb-boilers/) | oem-supplier | global, na | open | summary-only |
 | [Veolia Australia & New Zealand — Chemical cleaning time saving claim](https://www.anz.veolia.com/en-au/services/industrial-services/industrial-cleaning/chemical-cleaning-and-decontamination) | oem-supplier | global, na | open | summary-only |
@@ -1220,8 +1242,13 @@
 | [Vertiv](https://www.vertiv.com/4934c2/globalassets/campaigns/ai-hub/overhaul/reference-design/vertiv-reference-design-029a_datasheet_apac-en_2025_sl-80247.pdf) | oem-supplier | global, na | open | summary-only |
 | [Vertiv](https://www.vertiv.com/4a1875/globalassets/shared/vertiv-energycore-battery-storage-system-data-sheet-sl-71271.pdf) | oem-supplier | global, na | open | summary-only |
 | [Vertiv](https://www.vertiv.com/) | oem-supplier | global, na | open | summary-only |
+| [Vx Spectra Surface Multiphase Flowmeter](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/reservoir-characterization/reservoir-testing/surface-testing/surface-multiphase-flowmetering/vx-spectra-surface-multiphase-flowmeter) | patents | global | open | summary-only |
 | [Warren Controls](https://www.warrencontrols.com/wp-content/uploads/2024/02/1656509571DeaerationofBoiler.pdf) | oem-supplier | global, na | open | summary-only |
 | [Wilhelmsen](https://www.wilhelmsen.com/product-catalogue/products/marine-chemicals/water-treatment-chemicals/boiler-water-treatment/oxygen-scavenger-plus-25-ltr/) | oem-supplier | global, na | open | summary-only |
+| [WO2008045381A2 Dual subsea production chokes for high pressure well production](https://patents.google.com/patent/WO2008045381A2/en) | patents | global | open | summary-only |
+| [WO2013122479A1 Lifeboat winch with a redundant braking system](https://patents.google.com/patent/WO2013122479A1/en) | patents | global | open | summary-only |
+| [WO2016067222A1 Additive management system](https://patents.google.com/patent/WO2016067222A1/en) | patents | global | open | summary-only |
+| [WO2018052314A1 Optimising fire protection for an offshore platform](https://patents.google.com/patent/WO2018052314A1/en) | patents | global | open | summary-only |
 | [WOG Technologies Limited — Chemical Treatment Systems (coagulation/flocculation, pH neutralisation, oxidation, precipitation, dosing skids)](https://woggroup.com/chemical-treatment-systems/) | oem-supplier | global, na | open | summary-only |
 | [Woggroup.Com — CPU outlet quality claimed by vendor](https://woggroup.com/condensate-polishing-unit-cpu) | oem-supplier | global, na | open | summary-only |
 | [Woodward](https://www.woodward.com/products/wp-content/uploads/sites/3/2025/04/B37581_N.pdf) | oem-supplier | global, na | open | summary-only |
@@ -1298,6 +1325,7 @@
 | [FAOSTAT](https://www.fao.org/faostat/en/) | agency-data | global | open | summary-only |
 | [farmdoc daily (University of Illinois)](https://farmdocdaily.illinois.edu/) | research-institute | na | open | summary-only |
 | [Fertilizers Europe (EFMA successor)](https://www.fertilizerseurope.com/) | association | eu | open | summary-only |
+| [Fluid Handling Pro - Choosing Valves for Water Injection and Overboard Dump Systems](https://fluidhandlingpro.com/fluid-process-technology/fluid-process-control-valves/optimizing-offshore-operations-choosing-valves-for-water-injection-and-overboard-dump-systems) | oem-supplier | global | open | summary-only |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Freeport LNG Site Completion Impact Report (2020)](https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF) | agency-data | global | open | full-text-restricted |
 | [Frontiers in Climate](https://www.frontiersin.org/journals/climate) | journal | global | open | full-text-open |

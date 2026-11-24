@@ -1,0 +1,26 @@
+{
+  "id": "whp-drawing-us4679964a-fig-1-12-conductor-clamp-seabed-frame-boat-landin",
+  "title": "US4679964A FIG. 1-12 — conductor clamp, seabed frame, boat landing and miniplatform",
+  "diagram_type": "schematic",
+  "description": "FIG. 9 boat landing and miniplatform on a conductor pipe; FIG. 10 octagonal boat-landing frame; FIG. 11 rectangular seabed base frame.",
+  "publisher": "Google Patents / Seahorse Equipment Corp",
+  "url": "https://patents.google.com/patent/US4679964A/en",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "whp-jacket-structure"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/US4679964A/en",
+      "note": "FIG. 9 boat landing and miniplatform on a conductor pipe; FIG. 10 octagonal boat-landing frame; FIG. 11 rectangular seabed base frame."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 2026-11-24 WHP sweep; the drawing stays at the publisher URL."
+}

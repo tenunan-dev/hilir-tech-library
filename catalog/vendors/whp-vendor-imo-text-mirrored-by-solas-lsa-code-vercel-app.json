@@ -1,0 +1,22 @@
+{
+  "id": "whp-vendor-imo-text-mirrored-by-solas-lsa-code-vercel-app",
+  "name": "IMO text mirrored by SOLAS/LSA Code (Vercel)",
+  "country": "—",
+  "roles": [
+    "service"
+  ],
+  "categories": [
+    "engineering-consultancy"
+  ],
+  "description": "Publisher of a page read in the 2026-11-24 WHP sweep; not necessarily an equipment supplier.",
+  "technologies": [
+    "ups-whp-utility-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Fallback vendor link for an equipment class with no named supplier on the pages read."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "whp-patents-google-com-en-b8f4483",
+  "name": "CN113162215B Emergency power supply system and control method for replacing offshore platform diesel generator system",
+  "url": "https://patents.google.com/patent/CN113162215B/en",
+  "source_type": "patents",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE",
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "patent publication",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Patent read in the WHP sweep: Emergency power supply system and control method for replacing offshore platform diesel generator system; assignee PowerChina Huadong Engineering Corp Ltd; Priority 2021-04-01, granted 2023-06-02; auxiliary fire control uses photoelectric smoke and photoelectric temperature detection plus a fire-detector tube; emergency loads include platform fire alarm and fire broadcasting equipment Page read 2026-11-24.",
+  "publisher_org": "Google Patents (patent office bibliographic data)"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "whp-celerosft-com-upstream",
+  "name": "Celeros Flow Technology - Upstream Oil & Gas",
+  "url": "https://www.celerosft.com/en-us/industries/oil-gas/upstream",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "subtopics": [
+    "HTML page read via r.jina.ai reader on 2026-11-24 (direct WebFetch returned 403). Qualitat"
+  ],
+  "publisher_org": "Celeros Flow Technology",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. HTML page read via r.jina.ai reader on 2026-11-24 (direct WebFetch returned 403). Qualitative vendor scope only; no numeric ratings recorded."
+}

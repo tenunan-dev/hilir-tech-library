@@ -1,0 +1,24 @@
+{
+  "id": "kayu-manis-south-east-and-anjung-kecil-whps",
+  "name": "Kayu Manis South East and Anjung Kecil WHPs",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Tarpon detailed design, fabrication, transport and installation for PETRONAS Carigali; water depths 70-85 m; 20-year operational lifespan; relocatable; three 20-inch conductor slots per platform (two used, one spare).",
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+      "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe",
+      "note": "Tarpon detailed design, fabrication, transport and installation for PETRONAS Carigali; water depths 70-85 m; 20-year operational lifespan; relocatable; three 20-inch conductor slots per platform (two used, one spare)."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Recorded from a page read in the 2026-11-24 WHP sweep (6. Structural and Marine Systems)."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "whp-mat-rubber-pvc-pu-liferaft-fabric-with-double-chambered-tubes",
+  "name": "Rubber / PVC / PU liferaft fabric with double-chambered tubes",
+  "material_category": "elastomer-coated-fabric",
+  "description": "Rubber / PVC / PU liferaft fabric with double-chambered tubes named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://citimarinestore.com/en/revere-lalizas-life-raft-solas-oceano-25-person-throw-overboard-canister.html"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-life-rafts-retrieval-nets-sea-rescue-baskets"
+  ],
+  "sources": [
+    {
+      "url": "https://citimarinestore.com/en/revere-lalizas-life-raft-solas-oceano-25-person-throw-overboard-canister.html"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

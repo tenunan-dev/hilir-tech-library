@@ -1,0 +1,126 @@
+{
+  "id": "whp-chemical-injection-system",
+  "name": "Chemical injection system",
+  "equipment_type": "whp-production-process",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Chemical injection skids dose inhibitors into the well stream or flowline to maintain flow assurance, separation performance and asset integrity. SPEC describes a 'Skid with dosing pumps and tank that injects chemicals into the process' supplied with the process equipment or standalone. The kill wing valve on a tree is primarily used to inject corrosion inhibitors or methanol to prevent hydrate formation. Digital Refining (PTQ, Jul-2015) states EG is considered above -40 degF and methanol for te",
+  "aliases": [
+    "Chemical injection system (methanol, corrosion inhibitor, demulsifier, scale inhibitor) with storage tanks and injection pumps"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Chemical injection skid (dosing pumps an — Methanol / EG hydrate-inhibition regime",
+      "unit": "degF",
+      "basis": "Digital Refining article: 'EG can be considered when downstream processing temperatures are not excessively low (above -40°F), and methanol is adequate for much lower downstream processing temperatures (as low as below -140°F)'. Low is a printed 'below -140 degF' qualifier, high is 'above -40 degF' qualifier.",
+      "low": -140,
+      "high": -40,
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+        "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+      }
+    },
+    {
+      "metric": "Methanol injection pump and timer packag — Methanol dose volume per pump cycle",
+      "unit": "cc",
+      "basis": "US6981848B1: 'a selected quantity of methanol, e.g., 10 cc, may be pumped from the storage tank 12 to the pipeline 14 each time the pump is cycled'",
+      "value": 10,
+      "source": {
+        "url": "https://patents.google.com/patent/US6981848B1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Methanol injection pump and timer packag — Timer interval",
+      "unit": "s",
+      "basis": "US6981848B1: 'Timer 18 may be set by the operator to cycle the pump in a selected time interval of, for example, 7 seconds'",
+      "value": 7,
+      "source": {
+        "url": "https://patents.google.com/patent/US6981848B1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Methanol injection pump and timer packag — Control battery voltage",
+      "unit": "V DC",
+      "basis": "US6981848B1: timer, motor, controller and sensors 'may all be powered by a conventional 4.5-volt DC battery 40'",
+      "value": 4.5,
+      "source": {
+        "url": "https://patents.google.com/patent/US6981848B1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Methanol injection pump and timer packag — Line temperature activation setpoint",
+      "unit": "degF",
+      "basis": "US6981848B1: controller may open valve when line sensor drops below 30 degF, or ambient sensor below 28 degF (ambient value separately reported)",
+      "value": 30,
+      "source": {
+        "url": "https://patents.google.com/patent/US6981848B1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    },
+    {
+      "metric": "Methanol injection pump and timer packag — CIMV ultrasonic flow meter range",
+      "unit": "L/h",
+      "basis": "WO2016067222A1: 'an ultrasonic flow meter 20 configured to measure a range of flow rates between approximately 0.5 liters per hour to 26,500 liters per hour, or more'",
+      "low": 0.5,
+      "high": 26500,
+      "source": {
+        "url": "https://patents.google.com/patent/WO2016067222A1/en",
+        "source_id": "whp-patents-google-com-en"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "championx",
+    "clariant"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+      "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+    },
+    {
+      "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+      "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+    },
+    {
+      "url": "https://patents.google.com/patent/US6981848B1/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/WO2016067222A1/en",
+      "source_id": "whp-patents-google-com-en"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "MEG/methanol injection rates and hydrate-inhibition design basis for a named WHP",
+      "why": "No flow assurance design paper or operator injection-rate table read",
+      "next_action": "Fetch a named field design paper and record rates with basis"
+    },
+    {
+      "what": "Storage tank sizes and dosing pump turndown for a named WHP chemical injection package",
+      "why": "Only generic skid description and patent examples read",
+      "next_action": "Fetch OEM datasheet and record printed ranges"
+    },
+    {
+      "what": "Capital/operating cost of chemical injection system",
+      "why": "No item-specific cost figure read",
+      "next_action": "Record with dollar year and scope basis only when a source is read"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (2. Production Process Systems). Eight Section-2 wellhead production-process items were researched against pages actually read with WebFetch. Verified primary evidence includes: TechnipFMC rigid-pipeline (4-18 in; >1,100 km pipe-in-p",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,884 @@
+{
+  "id": "ups-whp-utility-systems",
+  "name": "Wellhead platform utility systems",
+  "aliases": [
+    "Wellhead platform utility systems"
+  ],
+  "sector": "UPS",
+  "category": "Offshore wellhead platforms",
+  "applications": [
+    "offshore Malaysia wellhead platform",
+    "minimum-facility normally unmanned platform"
+  ],
+  "maturity": "commercial",
+  "principle": "Wellhead platform utility systems: power, diesel, instrument air, water, firewater, seawater, HVAC, cranes and emergency power. Sourced from pages read in the 2026-11-24 WHP component sweep.",
+  "process_steps": [
+    {
+      "id": "POWER_GENERATION",
+      "name": "Power generation",
+      "equipment": [
+        "Power generation"
+      ]
+    },
+    {
+      "id": "DIESEL_STORAGE_AND",
+      "name": "Diesel storage and transfer",
+      "equipment": [
+        "Diesel storage and transfer"
+      ]
+    },
+    {
+      "id": "INSTRUMENT_UTILITY",
+      "name": "Instrument/utility air compressors, receivers and dryers",
+      "equipment": [
+        "Instrument/utility air compressors, receivers and dryers"
+      ]
+    },
+    {
+      "id": "POTABLE_WATER_STOR",
+      "name": "Potable water storage and hot water system",
+      "equipment": [
+        "Potable water storage and hot water system"
+      ]
+    },
+    {
+      "id": "FIREWATER_PUMPS_DE",
+      "name": "Firewater pumps, deluge/sprinkler system, hydrants and hose reels",
+      "equipment": [
+        "Firewater pumps, deluge/sprinkler system, hydrants and hose reels"
+      ]
+    },
+    {
+      "id": "SEAWATER_LIFT_PUMP",
+      "name": "Seawater lift pumps",
+      "equipment": [
+        "Seawater lift pumps"
+      ]
+    },
+    {
+      "id": "HVAC_FOR_EQUIPMENT",
+      "name": "HVAC for equipment/MCC rooms",
+      "equipment": [
+        "HVAC for equipment/MCC rooms"
+      ]
+    },
+    {
+      "id": "CRANE",
+      "name": "Crane",
+      "equipment": [
+        "Crane"
+      ]
+    },
+    {
+      "id": "DIESEL_DRIVEN_EMER",
+      "name": "Diesel-driven emergency generator with UPS/battery banks",
+      "equipment": [
+        "Diesel-driven emergency generator with UPS/battery banks"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "Power generation",
+    "Diesel storage and transfer",
+    "Instrument/utility air compressors, receivers and dryers",
+    "Potable water storage and hot water system",
+    "Firewater pumps, deluge/sprinkler system, hydrants and hose reels",
+    "Seawater lift pumps",
+    "HVAC for equipment/MCC rooms",
+    "Crane",
+    "Diesel-driven emergency generator with UPS/battery banks"
+  ],
+  "suppliers": [
+    {
+      "name": "Shell Malaysia Exploration and Production"
+    },
+    {
+      "name": "PALFINGER"
+    },
+    {
+      "name": "Cummins"
+    },
+    {
+      "name": "Caterpillar"
+    },
+    {
+      "name": "Shell Malaysia Exploration and Production"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Reliability — Availability of simple unmanned platforms (Types 2 and 3)",
+      "unit": "% uptime",
+      "basis": "Generally, there are good experiences with the UWHPs. Types 2 and 3 have very a high availability (uptime) - in the range of 95% - 99.5%",
+      "low": 95,
+      "high": 99.5,
+      "source": {
+        "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
+        "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Host cable preferred over local diesel for reliability",
+      "unit": "qualitative",
+      "basis": "Diesel engines cause downtime, and therefore cable supply from the host platform is preferred",
+      "source": {
+        "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
+        "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Hybrid benefit for battery charging",
+      "unit": "qualitative",
+      "basis": "Compared with the alternatives, it means reduced battery size, improved battery charging performance during the night and bad weather, and lower weight and capital and operating expenditure",
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2020,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2018,
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "year": 2023,
+      "source": {
+        "url": "https://oceannews.com/news/energy/shell-delivers-first-gas-from-the-timi-platform-in-malaysia",
+        "source_id": "whp-oceannews-com-shell-delivers-first-gas-from-the-timi-platf"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+        "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+      }
+    },
+    {
+      "metric": "Reliability — Water content - negligible / moderate / heavy",
+      "unit": "mg/kg",
+      "basis": "Water content (e.g. by IP438): Negligible <100 mg/kg; Moderate 100 - 200 mg/kg; Heavy >200 mg/kg",
+      "low": 100,
+      "high": 200,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+      }
+    },
+    {
+      "metric": "Reliability — Total viable count of culturable bacteria/yeasts/moulds",
+      "unit": "CFU/Litre",
+      "basis": "Total Viable Count of culturable bacteria, yeasts and/or moulds (e.g. by IP385 / ASTM D6974 or IP613): Negligible <10^4 CFU/Litre; Moderate 10^4 - 10^5 CFU/Litre; Heavy >10^5 CFU/Litre",
+      "low": 10000,
+      "high": 100000,
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+      }
+    },
+    {
+      "metric": "Reliability — Microbial monitoring frequency",
+      "unit": "qualitative",
+      "basis": "Take Bottom or Drain Sample every 1 – 3 Months; and routine monitoring of tank bottoms typically every one to six months, depending on risk",
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+        "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+      }
+    },
+    {
+      "metric": "Reliability — Water quality testing frequency",
+      "unit": "qualitative",
+      "basis": "quarterly microbial and chemical sampling ... and annual inspections to check for coating breakdown, rust, deposits or organic growth are required",
+      "source": {
+        "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+        "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+      }
+    },
+    {
+      "metric": "Reliability — Uptime of simple unmanned platforms",
+      "unit": "%",
+      "basis": "Types 2 and 3 have very a high availability (uptime) - in the range of 95% - 99.5%",
+      "low": 95,
+      "high": 99.5,
+      "source": {
+        "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
+        "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Firewater minimisation recommendation",
+      "unit": "qualitative",
+      "basis": "It is beneficial to reduce the F&G and fire water systems to an absolute minimum",
+      "source": {
+        "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
+        "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — NORSOK firewater pump requirement",
+      "unit": "qualitative",
+      "basis": "the present legislation in Norway also requires that fire water pump(s) (a NORSOK requirement) are installed on platforms with helidecks",
+      "source": {
+        "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
+        "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
+        "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Subsea HSP multiphase pump run-life claim (adjacent technology)",
+      "unit": "qualitative vendor claim",
+      "basis": "The multiphase variant of the HSP has over ten years successful operation as the primary means of production in subsea wells and has demonstrated run lives around three times longer than the industry average for electric submersible pumps",
+      "source": {
+        "url": "https://www.celerosft.com/en-us/industries/oil-gas/upstream",
+        "source_id": "whp-celerosft-com-upstream"
+      }
+    },
+    {
+      "metric": "Reliability — HVAC redundancy requirement",
+      "unit": "qualitative",
+      "basis": "HVAC systems serving spaces where area classification depends on ventilation or where operational aspects require extensive ventilation availability shall have back-up capacity/ adequate standby /redundancy",
+      "source": {
+        "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+        "source_id": "whp-pdhonline-com-m332content-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Battery room ventilation on emergency power",
+      "unit": "qualitative",
+      "basis": "The battery rooms shall have 100% duty plus standby explosion proof exhaust fans, with automatic change-over in event of failure of main fan",
+      "source": {
+        "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+        "source_id": "whp-pdhonline-com-m332content-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Electro-hydraulic crane versus diesel generator loading",
+      "unit": "qualitative",
+      "basis": "The use of electro-hydraulic cranes is not recommended on installations with diesel generators, as the diesel engine will be sized for the major user: the crane. Therefore, for the majority of the time, the engine will run on a very low utilisation, which causes problems for diesel engines",
+      "source": {
+        "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
+        "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
+      }
+    },
+    {
+      "metric": "Operational history — operational history",
+      "unit": "",
+      "basis": "As printed on the cited page.",
+      "source": {
+        "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
+        "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Minimum online main generating sets",
+      "unit": "qualitative",
+      "basis": "Typically at least two units must be running with at least one spare (possible exception for water injection)",
+      "source": {
+        "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+        "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Essential generator loads",
+      "unit": "qualitative",
+      "basis": "Typical Types of Load to consider for Essential Generation supply are ... ; Loads to maintain a level of life support facilities ... (i.e. HVAC, lighting, kitchen, potable water, sewage, etc.) ... Diesel fuel transfer pumps ... Loads to “blackstart” one main generator set ... Instrument / plant air compressor ... Crane auxiliaries",
+      "source": {
+        "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
+        "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Two independent starting systems with automatic changeover",
+      "unit": "qualitative",
+      "basis": "Diesel engines with two independent starting systems shall have an automatic changeover device",
+      "source": {
+        "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "Price — Wholesale electricity benchmark (North America)",
+      "unit": "USD/kWh",
+      "basis": "Wholesale electricity prices vary regionally ... but are typically about $0.06/kWh in North America at the time of writing (Chemical Engineering Design, 2nd ed., ©2013)",
+      "year": 2013,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "low": 0.06,
+      "high": 0.06
+    },
+    {
+      "metric": "Price — Diesel standby fuel infrastructure - day tank",
+      "unit": "USD",
+      "basis": "a day tank (2,000–8,000) ... fuel infrastructure cost ranges, 2026 vendor pricing guide",
+      "low": 2000,
+      "high": 8000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — Diesel standby fuel infrastructure - bulk storage tank",
+      "unit": "USD",
+      "basis": "bulk storage tank (8,000–60,000+ depending on capacity)",
+      "low": 8000,
+      "high": 60000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — Fuel infrastructure for 500 kW / 72 h autonomy",
+      "unit": "USD",
+      "basis": "For a 500 kW facility requiring 72 hours of autonomous runtime, fuel infrastructure can add 25,000–50,000 to the total project",
+      "low": 25000,
+      "high": 50000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — Diesel fuel cost",
+      "unit": "USD/kWh",
+      "basis": "Fuel cost per kWh - Diesel Standby: 0.08–0.15",
+      "low": 0.08,
+      "high": 0.15,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — Cost of drying air for instrument air",
+      "unit": "USD per standard m3",
+      "basis": "Drying the air, for example for instrument air, typically adds about $0.005 per standard m 3 ($0.14/1000 scf) - Chemical Engineering Design 2nd ed., ©2013, no separate dollar year stated",
+      "low": 0.005,
+      "high": 0.005,
+      "year": 2013,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      }
+    },
+    {
+      "metric": "Price — Raw water rough cost estimate",
+      "unit": "USD per 1000 gal",
+      "basis": "A very rough estimate of water costs can be made by assuming $2 per 1000 gal ($0.5 per metric ton) - Chemical Engineering Design 2nd ed., ©2013, dollar year not separately stated",
+      "year": 2013,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "low": 2,
+      "high": 2
+    },
+    {
+      "metric": "Price — Demineralised water cost multiple",
+      "unit": "x raw water price",
+      "basis": "Demineralized water typically costs about double the price of raw water",
+      "year": 2013,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "low": 2,
+      "high": 2
+    },
+    {
+      "metric": "Price — Cooling-water system make-up and chemical treatment cost",
+      "unit": "USD/1000 gal",
+      "basis": "The costs of water make-up and chemical treatment usually add about $0.02/1000 gal - Chemical Engineering Design 2nd ed., ©2013",
+      "year": 2013,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      },
+      "low": 0.02,
+      "high": 0.02
+    },
+    {
+      "metric": "Price — Recirculating cooling water pumping power",
+      "unit": "kWh/1000 gal circulated",
+      "basis": "The power used in a typical recirculating cooling water system is usually between 1 and 2 kWh/1000 gal of circulating water",
+      "low": 1,
+      "high": 2,
+      "year": 2013,
+      "source": {
+        "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+        "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+      }
+    },
+    {
+      "metric": "Price — 500 kW diesel standby genset total installed (factory-direct)",
+      "unit": "USD",
+      "basis": "A 500 kW commercial standby generator set costs 135,000 to 305,000 installed, with factory-direct options typically 30-50% below Tier 1 dealer quotes",
+      "low": 135000,
+      "high": 305000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — 500 kW diesel standby genset total installed (Tier 1 dealer)",
+      "unit": "USD",
+      "basis": "500 kW ... Total Installed (Tier 1): 320,000-600,000",
+      "low": 320000,
+      "high": 600000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — 100 kW diesel standby genset total installed (factory-direct)",
+      "unit": "USD",
+      "basis": "100 kW system runs 28,000-73,000 installed (factory-direct)",
+      "low": 28000,
+      "high": 73000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — 1,000 kW diesel standby genset total installed (factory-direct)",
+      "unit": "USD",
+      "basis": "1,000 kW ... Total Installed (Factory-Direct): 300,000-620,000",
+      "low": 300000,
+      "high": 620000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — Diesel genset equipment cost",
+      "unit": "USD/kW",
+      "basis": "Equipment costs for diesel standby gensets typically fall in the 180-400 per kW range for factory-direct units",
+      "low": 180,
+      "high": 400,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — US large industrial total installed cost",
+      "unit": "USD/kW",
+      "basis": "United States - Total installed cost: 300-600/kW (small commercial), 250-450/kW (large industrial)",
+      "low": 250,
+      "high": 450,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — Southeast Asia total installed cost",
+      "unit": "USD/kW",
+      "basis": "Southeast Asia (Indonesia, Philippines, Vietnam) - Total installed cost: 280-550/kW",
+      "low": 280,
+      "high": 550,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    },
+    {
+      "metric": "Price — ATS 500-1,000 kW total cost",
+      "unit": "USD",
+      "basis": "500-1,000 kW ATS Equipment 15,000-40,000; ATS Installation 8,000-20,000; Total ATS Cost 23,000-60,000",
+      "low": 23000,
+      "high": 60000,
+      "year": 2026,
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+      }
+    }
+  ],
+  "advantages": [
+    "Minimum-facility WHPs avoid onboard processing by exporting fluids to a host"
+  ],
+  "limitations": [
+    "Many component figures are not published on freely readable pages; gaps are recorded"
+  ],
+  "sources": [
+    {
+      "url": "https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf",
+      "source_id": "shell-com-9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f-digest-wit-unma"
+    },
+    {
+      "url": "https://patents.google.com/patent/US20220069575A1/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://patents.google.com/patent/US20220069575A1/en",
+      "source_id": "whp-patents-google-com-en",
+      "note": "Patent US20220069575A1 Power supply system for an offshore platform (Equinor Energy AS) — Power generation"
+    },
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
+    },
+    {
+      "url": "https://zccpower.com/commercial-standby-generator-cost",
+      "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
+    },
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes",
+      "note": "BS ISO 8217:2017 Class DMA Petroleum products - Fuels (class F) - Specifications of marine fuels — Diesel storage and transfer"
+    },
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes",
+      "note": "BS 2869 Fuel oils for agricultural, domestic and industrial engines and boilers — Diesel storage and transfer"
+    },
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes",
+      "note": "API 650 Welded Tanks for Oil Storage — Diesel storage and transfer"
+    },
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes",
+      "note": "API 620 Design and Construction of Large, Welded, Low-pressure Storage Tanks — Diesel storage and transfer"
+    },
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes",
+      "note": "BS EN 14015:2004 Specification for the design and manufacture of site built, vertical, cylindrical, flat-bottomed, above ground, welded, steel tanks — Diesel storage and transfer"
+    },
+    {
+      "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf",
+      "note": "ASTM D975 Standard Specification for Diesel Fuel — Diesel storage and transfer"
+    },
+    {
+      "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+      "source_id": "whp-pdhonline-com-m332content-pdf",
+      "note": "NFPA 30 Flammable and Combustible Liquids Code — Diesel storage and transfer"
+    },
+    {
+      "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+      "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s",
+      "note": "NFPA 37 Standard for the Installation and Use of Stationary Combustion Engines and Gas Turbines — Diesel storage and transfer"
+    },
+    {
+      "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
+      "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
+    },
+    {
+      "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+      "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+    },
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
+    },
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw",
+      "note": "Drinking Water Directive 1998 (EU) Council Directive 98/83/EC on the quality of water intended for human consumption — Potable water storage and hot water syst"
+    },
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw",
+      "note": "WHO Guidelines for Drinking-water Quality Guidelines for Drinking-water Quality — Potable water storage and hot water syst"
+    },
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw",
+      "note": "BS EN ISO 5667-3:2012 Water quality - Sampling - Preservation and handling of water samples — Potable water storage and hot water syst"
+    },
+    {
+      "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
+      "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw",
+      "note": "WRAS Water Regulations Advisory Scheme - approved materials and components — Potable water storage and hot water syst"
+    },
+    {
+      "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+      "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
+    },
+    {
+      "url": "https://www.celerosft.com/en-us/industries/oil-gas/upstream",
+      "source_id": "whp-celerosft-com-upstream"
+    },
+    {
+      "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+      "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s",
+      "note": "NFPA 20 Standard for the Installation of Stationary Pumps for Fire Protection — Firewater pumps, deluge/sprinkler system"
+    },
+    {
+      "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+      "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s",
+      "note": "IOGP S-721 Specification for Firewater Pump Package — Firewater pumps, deluge/sprinkler system"
+    }
+  ],
+  "notes": "Patent US20220069575A1 Power supply system for an offshore platform (Equinor Energy AS) — Power generation | BS ISO 8217:2017 Class DMA Petroleum products - Fuels (class F) - Specifications of marine fuels — Diesel storage and transfer | BS 2869 Fuel oils for agricultural, domestic and industrial engines and boilers — Diesel storage and transfer | API 650 Welded Tanks for Oil Storage — Diesel storage and transfer | API 620 Design and Construction of Large, Welded, Low-pressure Storage Tanks — Diesel storage and transfer | BS EN 14015:2004 Specification for the design and manufacture of site built, vertical, cylindrical, flat-bottomed, above ground, welded, steel tanks — Diesel storage and transfer | ASTM D975 Standard Specification for Diesel Fuel — Diesel storage and transfer | NFPA 30 Flammable and Combustible Liquids Code — Diesel storage and transfer | NFPA 37 Standard for the Installation and Use of Stationary Combustion Engines and Gas Turbines — Diesel storage and transfer | Dri",
+  "last_reviewed": "2026-11-24",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "Power generation",
+      "reason_code": "not_in_sources_read",
+      "reason": "No OEM datasheet giving rated wind-turbine power or battery Ah/kWh for the Timi hybrid system was found in the pages read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Power generation",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a Shell/operator detailed Timi electrical design paper or EPC vendor data sheet"
+    },
+    {
+      "field": "performance",
+      "item": "Power generation",
+      "reason_code": "not_in_sources_read",
+      "reason": "No WHP-specific subsea cable voltage/current/conductor specification was read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Power generation",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch an umbilical/cable OEM datasheet and a host-to-WHP power-from-shore project page"
+    },
+    {
+      "field": "performance",
+      "item": "Diesel storage and transfer",
+      "reason_code": "not_in_sources_read",
+      "reason": "No WHP-specific diesel storage tank capacity, day-tank volume or transfer-pump duty/head was found in the pages read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Diesel storage and transfer",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a named WHP/BEP design basis or utility specification with tank sizes and pump ratings"
+    },
+    {
+      "field": "performance",
+      "item": "Diesel storage and transfer",
+      "reason_code": "not_in_sources_read",
+      "reason": "No vendor datasheet for an offshore-rated diesel transfer pump or bunkering skid was read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Diesel storage and transfer",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch an OEM fuel-transfer-pump datasheet with flow, head and material specs"
+    },
+    {
+      "field": "performance",
+      "item": "Instrument/utility air",
+      "reason_code": "not_in_sources_read",
+      "reason": "No instrument-air dew point class (e.g. ISO 8573) or air-quality standard page was read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Instrument/utility air compressors, receivers and dryers",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch ISO 8573 (or equivalent) publisher page and an OEM dryer datasheet with pressure dew point"
+    },
+    {
+      "field": "performance",
+      "item": "Instrument/utility air",
+      "reason_code": "not_in_sources_read",
+      "reason": "No receiver volume, compressor FAD or dryer capacity specifically for a WHP was found",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Instrument/utility air compressors, receivers and dryers",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a named WHP utility design basis or OEM instrument-air skid datasheet"
+    },
+    {
+      "field": "performance",
+      "item": "Potable water and hot water",
+      "reason_code": "not_in_sources_read",
+      "reason": "No WHP potable-water tank capacity, hot-water calorifier rating or hot-water design temperature was found",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Potable water storage and hot water system",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a named WHP design basis or accommodation-utilities specification with tank sizes and hot-water duties"
+    },
+    {
+      "field": "performance",
+      "item": "Potable water and hot water",
+      "reason_code": "not_in_sources_read",
+      "reason": "No vendor datasheet for an offshore potable-water package or calorifier was read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Potable water storage and hot water system",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch an OEM potable-water/hot-water package datasheet"
+    },
+    {
+      "field": "performance",
+      "item": "Firewater system",
+      "reason_code": "not_in_sources_read",
+      "reason": "No deluge/sprinkler design density, hydrant spacing or hose-reel specification was found in the pages read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Firewater pumps, deluge/sprinkler system, hydrants and hose ",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch NFPA 15 / ISO 13702 application pages or a WHP firewater design basis with densities and coverage"
+    },
+    {
+      "field": "performance",
+      "item": "Firewater system",
+      "reason_code": "not_in_sources_read",
+      "reason": "No numeric firewater pump flow/head rating for a named WHP was read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Firewater pumps, deluge/sprinkler system, hydrants and hose ",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch the S-721D data sheet for a named project or an OEM firewater pump datasheet"
+    },
+    {
+      "field": "performance",
+      "item": "Seawater lift pumps",
+      "reason_code": "not_in_sources_read",
+      "reason": "No OEM seawater lift pump datasheet with flow/head curves, materials or power ratings for a WHP was read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Seawater lift pumps",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch an S&N Pumps or ClydeUnion seawater lift pump datasheet"
+    },
+    {
+      "field": "performance",
+      "item": "Seawater lift pumps",
+      "reason_code": "not_in_sources_read",
+      "reason": "No seawater lift pump failure rate or proof-test interval was found",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Seawater lift pumps",
+          "access": "open"
+        }
+      ],
+      "action": "Seek operator reliability data or an OEM maintenance manual"
+    },
+    {
+      "field": "performance",
+      "item": "HVAC for equipment/MCC rooms",
+      "reason_code": "not_in_sources_read",
+      "reason": "No WHP-specific HVAC equipment schedule, cooling capacity or fan duty was found",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for HVAC for equipment/MCC rooms",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a named WHP HVAC design basis/equipment list"
+    },
+    {
+      "field": "performance",
+      "item": "HVAC for equipment/MCC rooms",
+      "reason_code": "not_in_sources_read",
+      "reason": "No USD cost for offshore HVAC equipment or installation was found in the pages read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for HVAC for equipment/MCC rooms",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch an OEM HVAC package quotation or project cost report with dollar year"
+    },
+    {
+      "field": "performance",
+      "item": "Crane and laydown areas",
+      "reason_code": "not_in_sources_read",
+      "reason": "No laydown-area dimensions, deck loading or crane pedestal foundation specification was found in the pages read",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Crane",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch a WHP topside layout/general arrangement drawing or structural design basis with deck load ratings"
+    },
+    {
+      "field": "performance",
+      "item": "Crane and laydown areas",
+      "reason_code": "not_in_sources_read",
+      "reason": "No crane price or lifecycle cost with dollar year was found",
+      "where": [
+        {
+          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Crane",
+          "access": "open"
+        }
+      ],
+      "action": "Fetch an OEM quotation or project equipment cost report"
+    }
+  ]
+}

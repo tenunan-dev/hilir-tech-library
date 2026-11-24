@@ -1,0 +1,30 @@
+{
+  "id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s",
+  "name": "NFPA 37",
+  "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE",
+    "CIV"
+  ],
+  "subtopics": [
+    "Standard for the Installation and Use of Stationary Combustion Engines and Gas Turbines"
+  ],
+  "publisher_org": "NFPA 37",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Standard for the Installation and Use of Stationary Combustion Engines and Gas Turbines"
+}

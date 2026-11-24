@@ -1,0 +1,26 @@
+{
+  "id": "whp-drawing-offshore-platform-paga-system-configuration-diagram",
+  "title": "Offshore platform PAGA system configuration diagram",
+  "diagram_type": "schematic",
+  "description": "Diagram appears in a PAGA instructions PDF located by search; PDF not fetched",
+  "publisher": "KNTECH",
+  "url": "https://www.koontech.com/UploadImage/KNTECH-PAGA-System-Instructions.pdf",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "whp-platform-telecom-vhf-uhf-radio-satellite-communication"
+  ],
+  "sources": [
+    {
+      "url": "https://www.koontech.com/UploadImage/KNTECH-PAGA-System-Instructions.pdf",
+      "note": "Diagram appears in a PAGA instructions PDF located by search; PDF not fetched"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 2026-11-24 WHP sweep; the drawing stays at the publisher URL."
+}

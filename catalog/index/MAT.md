@@ -1,6 +1,6 @@
 # MAT: Materials and integrity
 
-660 sources. Sub-topics: corrosion, metallurgy, coatings, inspection, rbi, non-metallics.
+663 sources. Sub-topics: corrosion, metallurgy, coatings, inspection, rbi, non-metallics.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -77,6 +77,7 @@
 | [COOEC (CNOOC Engineering)](https://www.cnoocengineering.com/english/Solutions/Fleet/) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Corporate.Exxonmobil.Com — Bream B (Bass Strait)](https://corporate.exxonmobil.com/-/media/global/files/locations/australia/decommissioning-campaign-1-project-update---september-2024.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [CRSI (Concrete Reinforcing Steel Institute)](https://www.irebar.com/USCommonBarGrades.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [CS-PH Ex programmable smoke & heat detector data sheet](https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf) | standards-body | global, sea | open | summary-only |
 | [CSIRO energy research](https://www.csiro.au/en/research/technology-space/energy) | research-institute | apac | open | full-text-restricted |
 | [Cswoffshore.Com — monopile weight range (fabricator)](https://www.cswoffshore.com/solutions/monopiles) | oem-supplier | global, apac, sea | open | summary-only |
 | [Deep Trekker](https://www.deeptrekker.com/resources/case-study-offshore-riser-inspections-with-an-underwater-rov) | oem-supplier | global, apac, sea | open | summary-only |
@@ -620,6 +621,7 @@
 | [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | summary-only |
 | [International Journal of Hydrogen Energy](https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy) | journal | global | mixed | catalog-only (unverified) |
 | [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
+| [ISO 10423:2022 standard page](https://www.iso.org/standard/79588.html) | standards-body | global | open | summary-only |
 | [ISO/TC 265 Carbon dioxide capture, transportation and geological storage](https://www.iso.org/committee/648607.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted |
@@ -651,6 +653,7 @@
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Sandmeyer Steel](https://www.sandmeyersteel.com) | oem-supplier | global | open | full-text-restricted |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
+| [SOLAS LSA Code Section 4.2 - Inflatable liferafts (educational mirror)](https://solas-lsa-code.vercel.app/en/lsa/4.2/) | standards-body | global | open | summary-only |
 | [Tetra Engineering — Duct Burners white paper](https://www.tetra-eng.com/whitepaper/duct-burners) | trade-media | global | open | summary-only |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
 | [US BSEE offshore safety and technology](https://www.bsee.gov/) | agency-data | na | open | full-text-open |

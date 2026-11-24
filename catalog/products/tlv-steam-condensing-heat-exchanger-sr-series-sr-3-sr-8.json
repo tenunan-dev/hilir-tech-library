@@ -62,8 +62,7 @@
   "url": "https://www.tlv.com/en-us/products/heat-recovery/steam",
   "sources": [
     {
-      "url": "https://www.tlv.com/en-us/products/heat-recovery/steam",
-      "source_id": "tlv-com-heat-recovery-steam"
+      "url": "https://www.tlv.com/en-us/products/heat-recovery/steam"
     }
   ],
   "notes": "Read in full: TLV en-us Steam Condensing Heat Exchanger page. Qualitatively described as an open-to-atmosphere system recovering heat from waste steam as hot water.",

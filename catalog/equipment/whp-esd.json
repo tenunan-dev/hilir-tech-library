@@ -1,0 +1,99 @@
+{
+  "id": "whp-esd",
+  "name": "ESD",
+  "equipment_type": "whp-control-safety-comms",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "ESD is a safety instrumented system that drives the wellhead control panel and shutdown valves to a safe state. Offshore Norge recommended guidance assigns SIL 3 to isolation of the production/injection bore of a topside well; US OCS rules require de-energize-to-trip or supervised ESD stations.",
+  "aliases": [
+    "ESD (Emergency Shutdown) system with dual redundant logic and SDV valves"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "ESD logic (wellhead control panel) incl. — Required SIL - ESD isolation of production/injection bore in one topside well",
+      "unit": "SIL",
+      "basis": "Table A.6.5 Summary of SIL requirements - Isolation of topside well functions",
+      "value": 3,
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      }
+    },
+    {
+      "metric": "Reliability — Required SIL - ESD isolation of production/injection bore",
+      "unit": "SIL",
+      "basis": "Offshore Norge guideline No. 070 rev 06, Table A.6.5",
+      "value": 3,
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      }
+    },
+    {
+      "metric": "Reliability — Required SIL - ESD isolation of annulus in one topside gas lift well",
+      "unit": "SIL",
+      "basis": "Offshore Norge guideline No. 070 rev 06, Table A.6.5",
+      "value": 3,
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-offshore-norge"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+      "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-30/section-250.855",
+      "source_id": "sys-ecfr-gov-section-250-855"
+    },
+    {
+      "url": "https://patents.google.com/patent/WO2018052314A1/en",
+      "source_id": "whp-patents-google-com-en"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/61289",
+      "source_id": "whp-webstore-iec-ch-61289"
+    },
+    {
+      "url": "https://www.api.org/~/media/files/publications/whats%20new/17v_e1%20pa.pdf"
+    },
+    {
+      "url": "https://www.adnoc.ae/-/media/adnoc-v2/files/specs/2021/engineering-standards-and-specifications-october14th/emergency-shutdown-sis-specification.ashx"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "ESD with dual redundant logic",
+      "why": "No source read states the voting architecture (e.g. 1oo2/2oo3) of the dual redundant ESD logic on a Malaysian WHP",
+      "next_action": "Obtain a named WHP cause-and-effect matrix and SIS architecture diagram"
+    },
+    {
+      "what": "ESD SDV valves",
+      "why": "ADNOC ESD specification returned HTTP 403; no numeric figures or sequences asserted from it",
+      "next_action": "Find an accessible copy and extract the closing sequence, PST and proof-test interval"
+    },
+    {
+      "what": "ESD SDV valves",
+      "why": "No USD cost for ESD valves or ESD logic on an offshore WHP found",
+      "next_action": "Source a priced ESD package with dollar year"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (4. Control, Safety and Communication Systems). Six Section-4 WHP control/safety/comms items were researched from pages and PDFs actually read. Verified evidence: Offshore Norge guideline 070 rev 06 (PDF text extracted) assigns SIL 3 to ESD isolati",
+  "last_reviewed": "2026-11-24"
+}

@@ -52,8 +52,7 @@
   "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems",
   "sources": [
     {
-      "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems",
-      "source_id": "johnzink-com-powerburners-selective-catalytic-reduction-scr-syst"
+      "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     }
   ],
   "notes": "Fetched product page directly with WebFetch (markdown).",

@@ -1,0 +1,100 @@
+{
+  "id": "whp-condition-monitoring-instrumentation",
+  "name": "Condition monitoring instrumentation",
+  "equipment_type": "whp-control-safety-comms",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Wireless and wired instrumentation monitors annulus/wellhead pressure and structural vibration to cut manual rounds and detect integrity issues early; LoRaWAN battery-powered sensors suit unmanned offshore wells.",
+  "aliases": [
+    "Condition monitoring instrumentation (wellhead annulus pressure, vibration)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Yokogawa Sushi Sensor wireless pressure  — Gateway distance in cited case",
+      "unit": "km",
+      "basis": "wireless pressure sensor at wellhead equipment to a gateway located approximately 4 km away; maximum distance varies with environment",
+      "value": 4,
+      "source": {
+        "url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead",
+        "source_id": "whp-yokogawa-com-s-sensor-offshore-natural-gas-drilling-platfo"
+      }
+    },
+    {
+      "metric": "Yokogawa Sushi Sensor wireless pressure  — Data collection interval",
+      "unit": "qualitative",
+      "basis": "intervals ranging from one minute to three days (low in minutes, high in days)",
+      "low": 1,
+      "source": {
+        "url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead",
+        "source_id": "whp-yokogawa-com-s-sensor-offshore-natural-gas-drilling-platfo"
+      }
+    },
+    {
+      "metric": "Reliability — Pressure monitoring frequency",
+      "unit": "qualitative",
+      "basis": "one minute to three days, more frequent than traditional operator rounds",
+      "low": 1,
+      "source": {
+        "url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead",
+        "source_id": "whp-yokogawa-com-s-sensor-offshore-natural-gas-drilling-platfo"
+      }
+    },
+    {
+      "metric": "Price — 4-20 mA wellhead pressure transmitter (onshore proxy)",
+      "unit": "USD",
+      "basis": "Quality oilfield pressure transmitters from major industrial instrumentation manufacturers; US onshore guide dated 6 May 2026; dollar year 2026.",
+      "low": 300,
+      "high": 800,
+      "year": 2026,
+      "source": {
+        "url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html",
+        "source_id": "whp-merobix-com-wellhead-monitoring-system-guide-html"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "yokogawa"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead",
+      "source_id": "whp-yokogawa-com-s-sensor-offshore-natural-gas-drilling-platfo"
+    },
+    {
+      "url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html",
+      "source_id": "whp-merobix-com-wellhead-monitoring-system-guide-html"
+    },
+    {
+      "url": "https://processautomation.imiplc.com/news-and-insights/case-studies/offshore-annulus-pressure-monitoring-with-neon-pressure-sensors-and-solidred"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Annulus pressure monitoring",
+      "why": "No printed accuracy, pressure range or alarm setpoint from an actually read annulus-specific datasheet",
+      "next_action": "Fetch an OEM annulus sensor datasheet with printed range and accuracy"
+    },
+    {
+      "what": "Vibration monitoring",
+      "why": "No WHP-specific vibration severity limits or sensor specifications from a page read",
+      "next_action": "Source a vendor datasheet with printed frequency range and sensitivity"
+    },
+    {
+      "what": "Condition monitoring cost",
+      "why": "No offshore WHP condition monitoring package price with dollar year",
+      "next_action": "Obtain a USD quotation with scope basis"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (4. Control, Safety and Communication Systems). Six Section-4 WHP control/safety/comms items were researched from pages and PDFs actually read. Verified evidence: Offshore Norge guideline 070 rev 06 (PDF text extracted) assigns SIL 3 to ESD isolati",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "whp-overboard-dump-valves-and-esd-initiated-isolation-of-all-wells-and-pip",
+  "name": "Overboard dump valves and ESD-initiated isolation of all wells and pipelines",
+  "equipment_type": "whp-safety-emergency",
+  "sector": "HSE",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "HSE"
+  ],
+  "description": "Emergency shutdown (ESD) systems that isolate wells and pipelines, using surface safety valves (SSV), boarding shutdown valves (BSDV), subsurface safety valves (SSSV) and shutdown valves; plus overboard dump valves used on offshore water injection / drain systems. Evidence is primarily from BSEE regulation, API RP 14C definitions (search extract), API 6A (search extract), OEM datasheets and an incident-derived engineering article.",
+  "aliases": [
+    "Overboard dump valves and ESD-initiated isolation of all wells and pipelines"
+  ],
+  "subtypes": [],
+  "applications": [
+    "offshore Malaysia wellhead platform (WHP)",
+    "normally unmanned minimum-facility WHP"
+  ],
+  "specifications": [
+    {
+      "metric": "Surface Safety Valve (SSV) / Boarding Sh — Pressure class",
+      "unit": "psi working pressure",
+      "basis": "Indus Hydraulics IH-OFE-SSV",
+      "low": 2000,
+      "high": 20000,
+      "source": {
+        "url": "https://indushydraulics.com/p/surface-safety-valve-hydraulic-api-6a",
+        "source_id": "whp-indushydraulics-com-surface-safety-valve-hydraulic-api-6a"
+      }
+    },
+    {
+      "metric": "Surface Safety Valve (SSV) / Boarding Sh — Temperature range",
+      "unit": "deg C",
+      "basis": "Indus Hydraulics IH-OFE-SSV",
+      "low": -46,
+      "high": 180,
+      "source": {
+        "url": "https://indushydraulics.com/p/surface-safety-valve-hydraulic-api-6a",
+        "source_id": "whp-indushydraulics-com-surface-safety-valve-hydraulic-api-6a"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "slb-cameron-pressure-control-equipment",
+    "cameron-slb",
+    "baker-hughes"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.ecfr.gov/current/title-30/chapter-II/subchapter-B/part-250/subpart-H/subject-group-ECFR081ef9e2fac31ea/section-250.855",
+      "source_id": "whp-ecfr-gov-section-250-855"
+    },
+    {
+      "url": "https://indushydraulics.com/p/surface-safety-valve-hydraulic-api-6a",
+      "source_id": "whp-indushydraulics-com-surface-safety-valve-hydraulic-api-6a"
+    },
+    {
+      "url": "https://fluidhandlingpro.com/fluid-process-technology/fluid-process-control-valves/optimizing-offshore-operations-choosing-valves-for-water-injection-and-overboard-dump-systems",
+      "source_id": "whp-fluidhandlingpro-com-optimizing-offshore-operations-choosi"
+    },
+    {
+      "url": "https://api.stdlink.com/preview/2024/07/20/109624da09504880a4732d6d44a46856.pdf"
+    },
+    {
+      "url": "https://www.bsee.gov/sites/bsee.gov/files/p-pincs-production-111417.pdf"
+    },
+    {
+      "url": "https://www.slb.com/-/media/files/sur/brochure/introduction-to-api-specification-6a.ashx",
+      "source_id": "slb-com-brochure-introduction-to-api-specification-6a-ashx"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-40/section-112.11"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Full text of API RP 14C 8th edition with safety analysis tables (SACs) and ESD appendix C",
+      "why": "PDF refused by WebFetch",
+      "next_action": "Read the standard PDF with a PDF-capable tool or obtain licensed copy"
+    },
+    {
+      "what": "ESD proof-test results / availability figures for offshore platforms",
+      "why": "No directly read page published quantitative ESD failure rates or SIL verification figures",
+      "next_action": "Search for OREDA/operator ESD reliability data with printed figures"
+    },
+    {
+      "what": "Prices for SSV, BSDV and overboard dump valves with dollar year",
+      "why": "Vendor pages read gave specifications but no prices",
+      "next_action": "Request dated quotations"
+    }
+  ],
+  "notes": "From the Mistral-chat WHP component list (5. Safety and Emergency Equipment). Five Section-5 safety items were researched against primary sources actually read. Strongest evidence is regulatory: IMO LSA Code (via an HTML mirror), 33 CFR Part 145 and 149.417, 46 CFR 133.150, 109",
+  "last_reviewed": "2026-11-24"
+}

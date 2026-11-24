@@ -1,0 +1,22 @@
+{
+  "id": "whp-vendor-imo-text-hosted-by-imorules-com-classification-register",
+  "name": "IMO text hosted by imorules.com / classification register",
+  "country": "—",
+  "roles": [
+    "service"
+  ],
+  "categories": [
+    "engineering-consultancy"
+  ],
+  "description": "Publisher of a page read in the 2026-11-24 WHP sweep; not necessarily an equipment supplier.",
+  "technologies": [
+    "ups-whp-utility-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Fallback vendor link for an equipment class with no named supplier on the pages read."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "whp-mat-photoluminescent-strip-indicators",
+  "name": "Photoluminescent strip indicators",
+  "material_category": "signage-material",
+  "description": "Photoluminescent strip indicators named for WHP service on a page read in the 2026-11-24 sweep.",
+  "specifications": [
+    {
+      "metric": "Material listed",
+      "value": "No printed property found",
+      "basis": "Named on a page read in the 2026-11-24 WHP sweep; no numeric property stated.",
+      "source": {
+        "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+        "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+      }
+    }
+  ],
+  "equipment": [
+    "whp-escape-routes-muster-points-signs-and-safety-lighting"
+  ],
+  "sources": [
+    {
+      "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
+      "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

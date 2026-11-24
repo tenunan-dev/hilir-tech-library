@@ -1,0 +1,27 @@
+{
+  "id": "whp-ecfr-gov-section-77-30-5",
+  "name": "46 CFR 77.30-5",
+  "url": "https://www.ecfr.gov/current/title-46/section-77.30-5",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "subtopics": [
+    "Read directly."
+  ],
+  "publisher_org": "US Coast Guard / OFR",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "US Government public domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Read directly."
+}

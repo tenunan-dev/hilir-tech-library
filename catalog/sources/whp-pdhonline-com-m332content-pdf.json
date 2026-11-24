@@ -1,0 +1,30 @@
+{
+  "id": "whp-pdhonline-com-m332content-pdf",
+  "name": "NFPA 30",
+  "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE",
+    "CIV"
+  ],
+  "subtopics": [
+    "Flammable and Combustible Liquids Code"
+  ],
+  "publisher_org": "NFPA 30",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the Mistral-chat WHP component sweep. Flammable and Combustible Liquids Code"
+}

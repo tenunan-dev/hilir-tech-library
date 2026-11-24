@@ -102,8 +102,7 @@
   "url": "https://www.nov.com/products/duraflex",
   "sources": [
     {
-      "url": "https://www.nov.com/products/duraflex",
-      "source_id": "cat-nov-com-duraflex"
+      "url": "https://www.nov.com/products/duraflex"
     }
   ],
   "notes": "API 15S licensed facility per printed page. Sizes 3, 4 and 6 in on this page; a linked 2021 flyer mentions 8 in and 750 psi but that PDF was not WebFetch-verified.",
