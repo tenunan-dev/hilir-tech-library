@@ -1,0 +1,100 @@
+{
+  "id": "timi-field-development-sk318",
+  "name": "Timi field development, SK318",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia (offshore Sarawak)",
+  "location": "Malaysia (offshore Sarawak)",
+  "status": "operating",
+  "description": "New wellhead fixed platform tied to F23 via 80 km pipeline; Malaysia's deepest fixed platform at about 143 m.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "FID taken",
+      "date": "2021",
+      "source": {
+        "url": "https://www.offshore-mag.com/regional-reports/asia/article/14284091/timi-field-platform-completed-at-sarawak-yard",
+        "source_id": "retro-offshore-mag-com-timi-field-platform-completed-0ee9863"
+      }
+    },
+    {
+      "event": "Mechanical completion",
+      "date": "2022",
+      "source": {
+        "url": "https://www.offshore-mag.com/regional-reports/asia/article/14284091/timi-field-platform-completed-at-sarawak-yard",
+        "source_id": "retro-offshore-mag-com-timi-field-platform-completed-0ee9863"
+      }
+    },
+    {
+      "event": "First gas production",
+      "date": "2023",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/first-gas-production-sk318-timi-field",
+        "source_id": "retro-petronas-com-first-gas-production-sk318-timi-f-58c0867"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Sarawak Shell Berhad (operator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Brunei Energy Exploration",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Brooke Dockyard and Engineering Works Corp (fabricator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/media/media-releases/first-gas-production-sk318-timi-field",
+      "source_id": "retro-petronas-com-first-gas-production-sk318-timi-f-58c0867",
+      "note": "New wellhead fixed platform tied to F23 via 80 km pipeline; Malaysia's deepest f"
+    },
+    {
+      "url": "https://www.petronas.com/media/media-releases/first-gas-production-sk318-timi-field",
+      "source_id": "retro-petronas-com-first-gas-production-sk318-timi-f-58c0867"
+    },
+    {
+      "url": "https://www.offshore-mag.com/regional-reports/asia/article/14284091/timi-field-platform-completed-at-sarawak-yard",
+      "source_id": "retro-offshore-mag-com-timi-field-platform-completed-0ee9863"
+    },
+    {
+      "url": "https://www.petronas.com/media/media-releases/first-gas-production-sk318-timi-field",
+      "source_id": "retro-petronas-com-first-gas-production-sk318-timi-f-58c0867",
+      "note": "New wellhead fixed platform tied to F23 via 80 km pipeline; Malaysia's deepest fixed platform at about 143 m."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Timi platform capex / contract value",
+      "why": "Neither read page states a cost.",
+      "next_action": "Look for a Shell or Broook Dockyard contract announcement."
+    },
+    {
+      "what": "Two production figures with different bases",
+      "why": "300 MMscfd (PETRONAS gas capacity) and 50,000 boe/d (Offshore Magazine peak production) are recorded separately, not reconciled.",
+      "next_action": "If needed, seek a common-basis production figure from an operator report."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

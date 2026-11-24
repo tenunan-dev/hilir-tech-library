@@ -1,0 +1,25 @@
+{
+  "id": "retro-mat-full-penetration-butt-welds",
+  "name": "Full penetration butt welds",
+  "material_category": "welding",
+  "description": "Full penetration butt welds named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "Weld procedure",
+      "unit": "method",
+      "basis": "Offshore Magazine 2012: most structural welds are full penetration butt welds; weld improvements introduced for fatigue resistance.",
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      },
+      "year": 2012
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+      "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

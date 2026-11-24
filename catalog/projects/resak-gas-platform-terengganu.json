@@ -1,0 +1,118 @@
+{
+  "id": "resak-gas-platform-terengganu",
+  "name": "Resak gas platform, Terengganu",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "First Malaysian platform to be remotely controlled from land.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "SFJT-C DCS remote access from main platform and onshore",
+      "date": "2001",
+      "source": {
+        "url": "https://r.jina.ai/https://www.petroleumsoftware.co.uk/documents/flomekosfjt04.pdf",
+        "source_id": "retro-r-jina-ai-flomekosfjt04-pdf-40dec88"
+      }
+    },
+    {
+      "event": "Pemanis satellite telemetry start-up",
+      "date": "2021",
+      "source": {
+        "url": "https://r.jina.ai/https://www.morningstarcorp.com/wp-content/uploads/case-study-solar-powers-offshore-satellite-comms-malaysia-swift-energy-en.pdf",
+        "source_id": "retro-r-jina-ai-case-study-solar-powers-offshore-sat-742666e"
+      }
+    },
+    {
+      "event": "Resak remote-operations conversion announced",
+      "date": "2021",
+      "source": {
+        "url": "https://www.offshore-mag.com/field-development/article/14213949/industry-advancing-unmanned-platforms-remote-operations",
+        "source_id": "retro-offshore-mag-com-industry-advancing-unmanned-p-20e60d9"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "PETRONAS",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Sarawak Shell Berhad",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Petroleum Software Ltd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Swift Energy",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Honeywell",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Morningstar Corporation",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PTTEP",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/field-development/article/14213949/industry-advancing-unmanned-platforms-remote-operations",
+      "source_id": "retro-offshore-mag-com-industry-advancing-unmanned-p-20e60d9",
+      "note": "First Malaysian platform to be remotely controlled from land."
+    },
+    {
+      "url": "https://www.offshore-mag.com/field-development/article/14213949/industry-advancing-unmanned-platforms-remote-operations",
+      "source_id": "retro-offshore-mag-com-industry-advancing-unmanned-p-20e60d9"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.petroleumsoftware.co.uk/documents/flomekosfjt04.pdf",
+      "source_id": "retro-r-jina-ai-flomekosfjt04-pdf-40dec88"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.petroleumsoftware.co.uk/documents/flomekosfjt04.pdf",
+      "source_id": "retro-r-jina-ai-flomekosfjt04-pdf-40dec88",
+      "note": "DCS-controlled smart wells; metering data accessible onshore and from Miri head office."
+    },
+    {
+      "url": "https://www.tarponsystems.com/epcic-for-zuhal-east-development-project",
+      "source_id": "retro-tarponsystems-com-epcic-for-zuhal-east-develop-8cfcbcd"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.morningstarcorp.com/wp-content/uploads/case-study-solar-powers-offshore-satellite-comms-malaysia-swift-energy-en.pdf",
+      "source_id": "retro-r-jina-ai-case-study-solar-powers-offshore-sat-742666e"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Verification of Resak unmanned status after 2023",
+      "why": "Only the 2021 announcement was readable; no confirmation of achieved unmanned operation",
+      "next_action": "Find PETRONAS Activity Outlook 2021-23 or later progress report"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year technology evolution). Evidence-first 20-year retrospective of minimum-facility offshore wellhead platforms (WHPs) in Malaysian/SE Asian waters, built only from pages and PDFs actually read (several PDFs"
+}

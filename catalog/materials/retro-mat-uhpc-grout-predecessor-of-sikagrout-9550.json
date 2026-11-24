@@ -1,0 +1,25 @@
+{
+  "id": "retro-mat-uhpc-grout-predecessor-of-sikagrout-9550",
+  "name": "UHPC grout (predecessor of SikaGrout-9550)",
+  "material_category": "cementitious-repair-material",
+  "description": "UHPC grout (predecessor of SikaGrout-9550) named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "compressive/flexural strength",
+      "unit": "relative / GPa",
+      "basis": "Sika case sheet 2017 Sarawak project; shrinkage-compensated, low permeability, chloride/sulfate resistance",
+      "source": {
+        "url": "https://r.jina.ai/https://offshore.sika.com/dam/dms/corporate/3/glo-corrosion-protection-structural-casing-wells-malaysia.pdf",
+        "source_id": "retro-r-jina-ai-glo-corrosion-protection-structural-73beb02"
+      },
+      "year": 2017
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://offshore.sika.com/dam/dms/corporate/3/glo-corrosion-protection-structural-casing-wells-malaysia.pdf",
+      "source_id": "retro-r-jina-ai-glo-corrosion-protection-structural-73beb02"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

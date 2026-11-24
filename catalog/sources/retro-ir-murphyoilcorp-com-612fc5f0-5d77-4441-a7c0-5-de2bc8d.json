@@ -1,0 +1,25 @@
+{
+  "id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d",
+  "name": "Murphy Oil Corporation 2018 Annual Report / Form 10-K",
+  "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Murphy Oil Corporation / U.S. SEC",
+  "access": "open",
+  "licence": "public filing",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch 403; read via https://r.jina.ai/https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63."
+}

@@ -1,0 +1,1941 @@
+{
+  "id": "ups-whp-twenty-year-retrospective",
+  "name": "Twenty-year wellhead platform development and cost history (2006–2026)",
+  "aliases": [
+    "Twenty-year wellhead platform development and cost history (2006–2026)"
+  ],
+  "sector": "UPS",
+  "category": "Offshore wellhead platforms",
+  "applications": [
+    "Malaysia and Southeast Asia wellhead platforms",
+    "minimum-facility and unmanned WHPs"
+  ],
+  "maturity": "commercial",
+  "principle": "A 20-year retrospective assembled from dated project, technology and cost evidence on Malaysian and regional wellhead platforms, recorded with sources and dollar years where published.",
+  "process_steps": [
+    {
+      "id": "BASE_2006",
+      "name": "Baseline conventional WHP practice (2006)",
+      "equipment": [
+        "conventional platform"
+      ]
+    },
+    {
+      "id": "MIN_FACILITY",
+      "name": "Minimum-facility and conductor-supported WHPs",
+      "equipment": [
+        "conductor-supported WHP",
+        "jacket WHP"
+      ]
+    },
+    {
+      "id": "UNMANNED",
+      "name": "Unmanned operation and remote monitoring",
+      "equipment": [
+        "SCADA",
+        "F&G",
+        "solar-battery"
+      ]
+    },
+    {
+      "id": "TODAY",
+      "name": "Current tieback and digital practice (2026)",
+      "equipment": [
+        "subsea tieback",
+        "MPFM"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "wellhead platforms",
+    "conductor-supported WHPs",
+    "subsea tiebacks",
+    "multiphase meters"
+  ],
+  "suppliers": [],
+  "performance": [
+    {
+      "metric": "Operational history — Golok discovered (gas in multiple reservoirs)",
+      "unit": "",
+      "basis": "OGJ reported that Belum, Golok, Maharani and Serampang found gas in multiple reservoirs in 2005; Murphy's 2005 10-K lists Golok among discoveries added in SK309/SK311.",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17224324/a-malaysian-perspective",
+        "source_id": "retro-ogj-com-a-malaysian-perspective-26c28c2"
+      },
+      "year": 2005
+    },
+    {
+      "metric": "Operational history — First gas from SK309/SK311 Sarawak Gas Project",
+      "unit": "",
+      "basis": "Production commenced 17 September 2009 from natural gas fields in Blocks SK309 and SK311, supplied to the PETRONAS LNG Complex at Bintulu; Murphy 85%, PETRONAS Carigali 15%.",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-production-sarawak-natural-gas/",
+        "source_id": "retro-ir-murphyoilcorp-com-2a4b3c4"
+      },
+      "year": 2009
+    },
+    {
+      "metric": "Operational history — Serampang gas discovery",
+      "unit": "",
+      "basis": "OGJ reported Belum, Golok, Maharani and Serampang found gas in multiple reservoirs in 2005; Murphy's 2005 10-K also lists Serampang among discoveries added.",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17224324/a-malaysian-perspective",
+        "source_id": "retro-ogj-com-a-malaysian-perspective-26c28c2"
+      },
+      "year": 2005
+    },
+    {
+      "metric": "Operational history — Gas production start for SK309/SK311 Sarawak Gas Project",
+      "unit": "",
+      "basis": "Serampang is part of the multi-phase development whose first production started 17 September 2009, with gas supplied to the PETRONAS LNG Complex at Bintulu.",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-production-sarawak-natural-gas/",
+        "source_id": "retro-ir-murphyoilcorp-com-2a4b3c4"
+      },
+      "year": 2009
+    },
+    {
+      "metric": "Operational history — PETRONAS decided not to award the Tembikai & Chenang small field RSC after competitive bidding",
+      "unit": "",
+      "basis": "PETRONAS media release dated 25 January 2013 stated it would not proceed with the award and would not re-open the cluster for bidding.",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/petronas-clarifies-status-tembikai-and-chenang-rsc",
+        "source_id": "retro-petronas-com-petronas-clarifies-status-tembika-56a43e9"
+      },
+      "year": 2013
+    },
+    {
+      "metric": "Operational history — First oil from Tembikai field",
+      "unit": "",
+      "basis": "Offshore Technology states oil production from the Tembikai oil field began in October 2015 from a separate development with a central processing platform and FSO; PETRONAS later stated first oil in June 2015.",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      },
+      "year": 2015
+    },
+    {
+      "metric": "Operational history — First ZEEPod installed and commissioned at TNAG",
+      "unit": "",
+      "basis": "ZEE Engineering states the first ZEEPod was installed and commissioned in July 2019 for Vestigo Petroleum; MMHE/MHB delivered topside and substructure from its Pasir Gudang/West yard in a nine-month schedule.",
+      "source": {
+        "url": "https://zee-eng.com/blog-detail/zeepod-is-reshaping-the-future-of-marginal-oil-amp-gas-field-development-in-malaysia-the-future-of-marginal-oil-amp-gas-field-development-in-malaysia"
+      },
+      "year": 2019
+    },
+    {
+      "metric": "Operational history — Tembikai gas pipelay completed",
+      "unit": "",
+      "basis": "OGJ reported the 68-km 12-in subsea pipelay to the Berantai FPSO completed in July 2020; gas production was expected to commence in 2020.",
+      "source": {
+        "url": "https://www.ogj.com/pipelines-transportation/pipelines/article/14180036/petronas-completes-tembikai-gas-pipelay",
+        "source_id": "retro-ogj-com-petronas-completes-tembikai-gas-pipela-ad03656"
+      },
+      "year": 2020
+    },
+    {
+      "metric": "Reliability — ZEEPod TNAG units in operation",
+      "unit": "years of operation",
+      "basis": "ZEE Engineering delivered-units table lists ZEEPod No. 1 TNAG - VESTIGO, water depth 70 m, topside lifting weight 400 MT, status '5 Years Operation' (page undated, accessed 2026)",
+      "source": {
+        "url": "https://zee-eng.com/zeepod",
+        "source_id": "retro-zee-eng-com-zeepod-d7ab155"
+      },
+      "low": 5,
+      "high": 5,
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — West Patricia first oil",
+      "unit": "",
+      "basis": "Murphy Sarawak Oil started first oil production from West Patricia in Block SK309 in May 2003, 40 km offshore Bintulu in 130 ft of water.",
+      "source": {
+        "url": "https://www.offshore-mag.com/production/article/16771129/murphy-oil-has-first-production-in-malaysia",
+        "source_id": "retro-offshore-mag-com-murphy-oil-has-first-producti-b95f59b"
+      },
+      "year": 2003
+    },
+    {
+      "metric": "Operational history — West Patricia and Congkak combined production",
+      "unit": "",
+      "basis": "Murphy's 2005 10-K reported about 13,500 net barrels of oil per day from West Patricia and Congkak, with 2006 output expected to decline 10-15% on PSC entitlement effects.",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312506054960/d10k.htm",
+        "source_id": "retro-sec-gov-d10k-htm-d0f771c"
+      },
+      "year": 2005
+    },
+    {
+      "metric": "Operational history — Second West Patricia wellhead platform work started",
+      "unit": "",
+      "basis": "Upstream reported in December 2011 that Murphy had started work on a new wellhead platform to boost capacity at West Patricia to handle more output from SK309/SK311.",
+      "source": {
+        "url": "https://www.upstreamonline.com/weekly/murphy-double-for-malaysia/1-1-977294"
+      },
+      "year": 2011
+    },
+    {
+      "metric": "Operational history — Water injection / capacity support works at West Patricia",
+      "unit": "",
+      "basis": "Vantris Energy (formerly SapuraKencana) track record lists EPCIC of Patricia Satellite PT-SA and West Patricia WP-PA topside facilities for SK309/311, February to August 2013.",
+      "source": {
+        "url": "https://vantrisenergy.com/operations-maintenance/hook-up-and-commissioning/track-record",
+        "source_id": "retro-vantrisenergy-com-track-record-a9b9c94"
+      },
+      "year": 2013
+    },
+    {
+      "metric": "Operational history — FSO swap at West Patricia",
+      "unit": "",
+      "basis": "Malaysia Marine Department notice 96/2026(T) advised that NEPTUNE MOON would arrive on 14 July 2026 to temporarily replace FSO CASPIAN SEA until 18 September 2026, while CASPIAN SEA sailed to Singapore for maintenance on 19 July 2026.",
+      "source": {
+        "url": "https://www.marine.gov.my/wp-content/uploads/2026/07/96-2026T-%E2%80%93-NOTICE-OF-TEMPORARY-REPLACEMENT-OF-FSO-CASPIAN-SEA-BY-NEPTUNE-MOON-AT-WEST-PATRICIA-FIELD-BLOCK-SK309-OFFSHORE-SARAWAK-WITHIN-THE-EXCLUSIVE-ECONOMIC-ZONE.pdf",
+        "source_id": "retro-marine-gov-my-96-2026t-e2-80-93-notice-of-temp-a941070"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — share of SK309/SK311 oil production attributable to West Patricia",
+      "unit": "percent approximately",
+      "basis": "About 7,400 barrels of oil per day produced in 2012 in Blocks SK309/311, almost 75% at West Patricia (Murphy 2012 Form 10-K)",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312513082919/d446290d10k.htm"
+      },
+      "low": 75,
+      "high": 75,
+      "year": 2012
+    },
+    {
+      "metric": "Operational history — HOA for gas sales signed",
+      "unit": "",
+      "basis": "A Barrel Full chronology records a heads of agreement for gas sales signed in 2006, followed by FEED completion for phase 1 in 2007 and first gas in 2009.",
+      "source": {
+        "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+        "source_id": "retro-abarrelfull-co-uk-sarawak-gas-project-bd57e85"
+      },
+      "year": 2006
+    },
+    {
+      "metric": "Operational history — East Patricia gas discovery",
+      "unit": "",
+      "basis": "Murphy announced the East Patricia discovery in SK309 on 12 June 2009 with about 230 ft of net gas pay in 89 ft of water, 23 miles from the Bintulu gas receiving facility; Murphy 60%, PETRONAS Carigali 40%.",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-additional-discoveries-malaysia"
+      },
+      "year": 2009
+    },
+    {
+      "metric": "Operational history — Gas sales agreement extended to September 2021",
+      "unit": "",
+      "basis": "Murphy exercised its option in December 2012 to extend the PETRONAS gas sales agreement, lengthening the contract from 2014 to September 2021.",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312513082919/d446290d10k.htm",
+        "source_id": "retro-sec-gov-d446290d10k-htm-03c3af0"
+      },
+      "year": 2012
+    },
+    {
+      "metric": "Operational history — Five new SK309/SK311 fields on production",
+      "unit": "",
+      "basis": "Serendah, Patricia, South Acis, Permas and Merapuh were brought on production in the second half of 2013 through platforms and pipelines tied back to existing infrastructure.",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm",
+        "source_id": "retro-sec-gov-mur-20141231x10k-htm-dafb5db"
+      },
+      "year": 2013
+    },
+    {
+      "metric": "Operational history — Murphy sold 30% of its Malaysian interests",
+      "unit": "",
+      "basis": "Murphy completed sale of 20% of its Malaysian oil and gas interests in December 2014 and an additional 10% in January 2015, reducing its SK309/SK311 interest to 59.5%.",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm",
+        "source_id": "retro-sec-gov-mur-20141231x10k-htm-dafb5db"
+      },
+      "year": 2014
+    },
+    {
+      "metric": "Operational history — PTTEP acquired Murphy's Malaysia business",
+      "unit": "",
+      "basis": "PTTEP HK Offshore signed an SSPA on 21 March 2019 to acquire 100% of Murphy's Malaysian business for USD 2,127 million, including the SK309 & SK311 project; completion expected end Q2 2019.",
+      "source": {
+        "url": "https://www.pttep.com/en/newsroom/press-releases/460/pttep-acquires-murphy-oil-corporation-s-business-in-malaysia-strengthen-long-term-growth-in-southeast-asia",
+        "source_id": "retro-pttep-com-pttep-acquires-murphy-oil-corporatio-562720b"
+      },
+      "year": 2019
+    },
+    {
+      "metric": "Operational history — D28 Phase 1 conductor-supported platform installed offshore Sarawak",
+      "unit": "",
+      "basis": "2H Offshore completed concept, detailed design, transportation and installation in 35 m water for OceanMight on behalf of PETRONAS Carigali; jack-up rig installation used for both jacket and topside.",
+      "source": {
+        "url": "https://2hoffshore.com/about/news/2h-offshore-installs-its-eighth-conductor-supported-platform-offshore-malaysia",
+        "source_id": "2hoffshore-com-news-2h-offshore-installs-its-eighth-conductor-supp"
+      },
+      "year": 2019
+    },
+    {
+      "metric": "Operational history — D18 Phase 2 conductor-supported platform installed offshore Sarawak",
+      "unit": "",
+      "basis": "2H's eighth conductor-supported platform in Malaysian waters; installed in 35 m water, jacket and topside in the same campaign and handed over to drilling and completions.",
+      "source": {
+        "url": "https://2hoffshore.com/about/news/2h-offshore-installs-its-eighth-conductor-supported-platform-offshore-malaysia",
+        "source_id": "2hoffshore-com-news-2h-offshore-installs-its-eighth-conductor-supp"
+      },
+      "year": 2020
+    },
+    {
+      "metric": "Operational history — Kikeh first production",
+      "unit": "",
+      "basis": "Kikeh, Malaysia's first deepwater development, had been in production since 2007 (Murphy operations summary, 2013).",
+      "source": {
+        "url": "http://supplybase.blogspot.com/2013/11/murphy-oil-malaysia.html"
+      },
+      "year": 2007
+    },
+    {
+      "metric": "Operational history — East Patricia and Siakap North discoveries announced",
+      "unit": "",
+      "basis": "Murphy announced East Patricia in SK309 (about 230 ft net gas pay, 89 ft water) and Siakap North in Block K (about 4,300 ft water, 80% Murphy) on 12 June 2009.",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-additional-discoveries-malaysia",
+        "source_id": "retro-ir-murphyoilcorp-com-murphy-oil-announces-addi-69d7672"
+      },
+      "year": 2009
+    },
+    {
+      "metric": "Operational history — Kakap-Gumusut full-field production startup",
+      "unit": "",
+      "basis": "Murphy's 2014 10-K states the Kakap main production facility was completed and full-field production started in October 2014, with early production via a temporary tie-back to Kikeh from late 2012.",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm",
+        "source_id": "retro-sec-gov-mur-20141231x10k-htm-dafb5db"
+      },
+      "year": 2014
+    },
+    {
+      "metric": "Operational history — SK314A and SK405B exploration commitments",
+      "unit": "",
+      "basis": "Murphy's 2018 10-K records a 59.5% interest in SK314A (488 thousand gross acres; three exploration wells drilled 2015-2016) and a 59.5% working interest in SK405B acquired November 2017 (2,305 sq km, 10-50 m water depth).",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+        "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d"
+      },
+      "year": 2018
+    },
+    {
+      "metric": "Operational history — Kikeh deepwater gas-lift and Malaysia free cash flow",
+      "unit": "",
+      "basis": "Murphy's 2018 annual report says the Kikeh DTU gas lift project was completed, with a field-wide subsea gas lift project next; Malaysia assets continued to generate free cash flow.",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+        "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d"
+      },
+      "year": 2018
+    },
+    {
+      "metric": "Reliability — Murphy company-wide total recordable incident rate trend",
+      "unit": "TRIR",
+      "basis": "Murphy 2018 annual report states TRIR was unchanged from the previous year and that its safety record places it in the top quartile versus peers; no numeric rate given and this is not Malaysia-specific",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+        "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d"
+      },
+      "year": 2018
+    },
+    {
+      "metric": "Operational history — First Tarpon (cable-guyed caisson) used",
+      "unit": "",
+      "basis": "Offshore Magazine 1999: the cable-guyed caisson known as Tarpon was first used in 1987; patents owned by Stolt Comex Seaway.",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+        "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+      },
+      "year": 1987
+    },
+    {
+      "metric": "Operational history — Fleet size reported",
+      "unit": "",
+      "basis": "37 cable-guyed caisson minimal production platforms operating in Gulf of Mexico, West Africa and Indonesia (1999 article).",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+        "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+      },
+      "year": 1999
+    },
+    {
+      "metric": "Operational history — Malaysian fleet sample installed",
+      "unit": "",
+      "basis": "IJREST 2014 Platform X: 76.30 m water depth, 200 km shore distance, unmanned, PETRONAS operator, installed 2006.",
+      "source": {
+        "url": "https://ijrest.net/old_website/downloads/16112014/pid-16201408.pdf",
+        "source_id": "retro-ijrest-net-pid-16201408-pdf-ff43f8e"
+      },
+      "year": 2006
+    },
+    {
+      "metric": "Operational history — DIALOG acquisition of Tarpon IP and Malaysian company",
+      "unit": "",
+      "basis": "DIALOG acquired entire equity in Tarpon Platform Systems Malaysia Sdn Bhd and all assets of Tarpon Systems International II LLC including IP, 15 November 2023.",
+      "source": {
+        "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+        "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+      },
+      "year": 2023
+    },
+    {
+      "metric": "Operational history — Fleet size reported by DIALOG",
+      "unit": "",
+      "basis": "DIALOG OTC Asia 2026 deck: Tarpon minimal field production system with over 60 installations worldwide.",
+      "source": {
+        "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf",
+        "source_id": "retro-cdn-prod-website-files-com-69ca1db5102fd7a4134-db92ecf"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — Design storm return period",
+      "unit": "years",
+      "basis": "Tarpon What We Do and DIALOG BPTEC 2025 deck: designed to API RP2A to withstand 100-year storm.",
+      "source": {
+        "url": "https://www.tarponsystems.com/what-we-do",
+        "source_id": "retro-tarponsystems-com-what-we-do-886f3b5"
+      },
+      "low": 100,
+      "high": 100,
+      "year": 2025
+    },
+    {
+      "metric": "Reliability — Minimum fatigue life practice",
+      "unit": "x anticipated service life",
+      "basis": "1999 Tarpon article: fatigue life of the system is a prerogative of the owner but generally three times the anticipated service life as a minimum.",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+        "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+      },
+      "low": 3,
+      "high": 3,
+      "year": 1999
+    },
+    {
+      "metric": "Reliability — Platform X topside weight",
+      "unit": "tonnes",
+      "basis": "IJREST 2014 paper Table 1: Tarpon monopod offshore East Peninsular Malaysia, unmanned, installed 2006; topside 196.10 T, substructure 800 T, water depth 76.30 m.",
+      "source": {
+        "url": "https://ijrest.net/old_website/downloads/16112014/pid-16201408.pdf",
+        "source_id": "retro-ijrest-net-pid-16201408-pdf-ff43f8e"
+      },
+      "low": 196.1,
+      "high": 196.1,
+      "year": 2014
+    },
+    {
+      "metric": "Reliability — Platform X governing load",
+      "unit": "PGA equivalent (g)",
+      "basis": "IJREST 2014: as-designed metocean displacement was 1.16 times the 0.114g response, equivalent to about 0.124g; seismic did not govern. Range of PGA models 0.01-0.114g.",
+      "source": {
+        "url": "https://ijrest.net/old_website/downloads/16112014/pid-16201408.pdf",
+        "source_id": "retro-ijrest-net-pid-16201408-pdf-ff43f8e"
+      },
+      "year": 2014
+    },
+    {
+      "metric": "Operational history — RAJA SFA PSC signed",
+      "unit": "",
+      "basis": "PETRONAS (via MPM) and DIALOG Resources signed the RAJA Cluster Small Field Asset PSC on 5 December 2024.",
+      "source": {
+        "url": "https://www.dialogasia.com/news/raja-cluster-small-field-asset-production-sharing-contract-2",
+        "source_id": "retro-dialogasia-com-raja-cluster-small-field-asset-2b372f0"
+      },
+      "year": 2024
+    },
+    {
+      "metric": "Operational history — FDAP approved / FID reached",
+      "unit": "",
+      "basis": "PETRONAS approved the field development and abandonment plan on 21 September 2026 at USD81 million FID.",
+      "source": {
+        "url": "https://www.dialogasia.com/news/raja-cluster-small-field-asset-production-sharing-contract-2",
+        "source_id": "retro-dialogasia-com-raja-cluster-small-field-asset-2b372f0"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — First commercial production expected",
+      "unit": "",
+      "basis": "Borneo Post quoting PublicInvest: first commercial production targeted by end of the two-year development phase, implying around September 2028.",
+      "source": {
+        "url": "https://www.theborneopost.com/2026/09/22/dialogs-raja-cluster-devt-plan-secures-petronas-approval-us81-mln-fid",
+        "source_id": "retro-theborneopost-com-dialogs-raja-cluster-devt-pl-1c478bf"
+      },
+      "year": 2028
+    },
+    {
+      "metric": "Operational history — DIALOG entry into upstream",
+      "unit": "",
+      "basis": "DIALOG Annual Report 2026 key milestones: ventured into Upstream with Balai Cluster Fields in Sarawak.",
+      "source": {
+        "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+        "source_id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1"
+      },
+      "year": 2011
+    },
+    {
+      "metric": "Operational history — BJC SFA PSC participation",
+      "unit": "",
+      "basis": "Annual Report 2026: 70% participating interest and operatorship of Baram Junior Cluster SFA PSC up to 2037 (offshore Sarawak).",
+      "source": {
+        "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+        "source_id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1"
+      },
+      "year": 2037
+    },
+    {
+      "metric": "Operational history — Salbiah WHP installed",
+      "unit": "",
+      "basis": "Annual Report 2026 key events: installation of Salbiah wellhead platform offshore Miri, Sarawak, 25 March 2026; COO review calls it successful completion including fabrication, load-out, sail-away and offshore installation.",
+      "source": {
+        "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+        "source_id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — Salbiah first gas expected",
+      "unit": "",
+      "basis": "Annual Report 2026 executive chairman statement: development progressing with expected first gas in Q2 FY2027.",
+      "source": {
+        "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+        "source_id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1"
+      },
+      "year": 2027
+    },
+    {
+      "metric": "Operational history — Zuhal East WHP installed",
+      "unit": "",
+      "basis": "Tarpon page records EPCIC completion but prints no date; DIALOG BPTEC/OTC decks list Zuhal East as a completed Malaysian installation at 42 m.",
+      "source": {
+        "url": "https://www.tarponsystems.com/epcic-for-zuhal-east-development-project",
+        "source_id": "retro-tarponsystems-com-epcic-for-zuhal-east-develop-8cfcbcd"
+      }
+    },
+    {
+      "metric": "Reliability — Operating mode",
+      "unit": "mode",
+      "basis": "Tarpon Zuhal East page: unmanned platform with minimal manual intervention and minimum facilities; remote monitoring from SUPG-B.",
+      "source": {
+        "url": "https://www.tarponsystems.com/epcic-for-zuhal-east-development-project",
+        "source_id": "retro-tarponsystems-com-epcic-for-zuhal-east-develop-8cfcbcd"
+      }
+    },
+    {
+      "metric": "Operational history — EPC contract awarded",
+      "unit": "",
+      "basis": "Tarpon awarded EPC contract for four WHPs; project ran October 2011 to June 2012.",
+      "source": {
+        "url": "https://www.tarponsystems.com/wellhead-platforms-for-balai-bentara-spaoh-and-west-acis-fields",
+        "source_id": "retro-tarponsystems-com-wellhead-platforms-for-balai-3f57d73"
+      },
+      "year": 2011
+    },
+    {
+      "metric": "Operational history — WHP installation year per DIALOG decks",
+      "unit": "",
+      "basis": "BPTEC 2025 deck project photos label Balai, Bentara, Spaoh and West Acis as 2012.",
+      "source": {
+        "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/67a06cb414f86bdde3dbe790_Dialog%20Upsteam%20-%20BPTEC%202025.pdf",
+        "source_id": "retro-cdn-prod-website-files-com-67a06cb414f86bdde3d-8875f7c"
+      },
+      "year": 2012
+    },
+    {
+      "metric": "Reliability — Delivery time under contract",
+      "unit": "months",
+      "basis": "Tarpon Balai page: constrained time frame under nine months while adhering to safety and integrity principles.",
+      "source": {
+        "url": "https://www.tarponsystems.com/wellhead-platforms-for-balai-bentara-spaoh-and-west-acis-fields",
+        "source_id": "retro-tarponsystems-com-wellhead-platforms-for-balai-3f57d73"
+      },
+      "low": 9,
+      "high": 9
+    },
+    {
+      "metric": "Operational history — Tanjong Baram contract award",
+      "unit": "",
+      "basis": "2H awarded detailed engineering/procurement/fabrication/installation support/commissioning; installation planned 1H 2015.",
+      "source": {
+        "url": "https://www.offshore-mag.com/business-briefs/company-news/article/16782486/2h-offshore-to-deliver-lightweight-conductor-supported-platform",
+        "source_id": "retro-offshore-mag-com-2h-offshore-to-deliver-lightw-7c52230"
+      },
+      "year": 2014
+    },
+    {
+      "metric": "Operational history — D28 Phase 1 WHP installed",
+      "unit": "",
+      "basis": "March 2019 report of completed jackup installation offshore Sarawak.",
+      "source": {
+        "url": "https://www.offshore-mag.com/field-development/article/16790310/2h-offshore-jackup-sets-down-lightweight-platform-offshore-sarawak",
+        "source_id": "retro-offshore-mag-com-2h-offshore-jackup-sets-down-63a2842"
+      },
+      "year": 2019
+    },
+    {
+      "metric": "Operational history — D18 Phase 2 WHP installed",
+      "unit": "",
+      "basis": "May 2020 report of second platform of its kind installed by jackup for PETRONAS in Malaysia.",
+      "source": {
+        "url": "https://www.oedigital.com/news/478690-2h-offshore-installs-wellhead-platform-offshore-malaysia",
+        "source_id": "retro-oedigital-com-478690-2h-offshore-installs-well-111268e"
+      },
+      "year": 2020
+    },
+    {
+      "metric": "Reliability — Install method",
+      "unit": "method",
+      "basis": "Offshore Magazine 2019: both substructure and topsides installed using a jackup drilling rig, a first for PETRONAS offshore Malaysia.",
+      "source": {
+        "url": "https://www.offshore-mag.com/field-development/article/16790310/2h-offshore-jackup-sets-down-lightweight-platform-offshore-sarawak",
+        "source_id": "retro-offshore-mag-com-2h-offshore-jackup-sets-down-63a2842"
+      },
+      "year": 2019
+    },
+    {
+      "metric": "Operational history — WSS ordered",
+      "unit": "",
+      "basis": "Petrofac and PETRONAS ordered the unmanned minimal facilities platform; first Sea Swift-type installation in Asia/Pacific; production planned for 2012.",
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      },
+      "year": 2012
+    },
+    {
+      "metric": "Reliability — Fatigue-life sensitivity to site shift",
+      "unit": "years",
+      "basis": "Offshore Magazine 2012: moving platform a few kilometres could lessen fatigue life from 15 to three years, unacceptable; structure redesigned for 10-year minimum.",
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      },
+      "year": 2012
+    },
+    {
+      "metric": "Operational history — FID taken",
+      "unit": "",
+      "basis": "Offshore Magazine 2022: Sarawak Shell and partners took FID in August 2021; PETRONAS 2023 confirms two years from FID to first gas.",
+      "source": {
+        "url": "https://www.offshore-mag.com/regional-reports/asia/article/14284091/timi-field-platform-completed-at-sarawak-yard",
+        "source_id": "retro-offshore-mag-com-timi-field-platform-completed-0ee9863"
+      },
+      "year": 2021
+    },
+    {
+      "metric": "Operational history — Mechanical completion",
+      "unit": "",
+      "basis": "Brooke Dockyard completed fixed offshore structure works at Demak yard; event 1 Oct 2022.",
+      "source": {
+        "url": "https://www.offshore-mag.com/regional-reports/asia/article/14284091/timi-field-platform-completed-at-sarawak-yard",
+        "source_id": "retro-offshore-mag-com-timi-field-platform-completed-0ee9863"
+      },
+      "year": 2022
+    },
+    {
+      "metric": "Operational history — First gas production",
+      "unit": "",
+      "basis": "PETRONAS: first gas on 22 August 2023.",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/first-gas-production-sk318-timi-field",
+        "source_id": "retro-petronas-com-first-gas-production-sk318-timi-f-58c0867"
+      },
+      "year": 2023
+    },
+    {
+      "metric": "Reliability — Power system",
+      "unit": "mode",
+      "basis": "PETRONAS 2023: designed unmanned and powered by solar and wind hybrid power energy system; less than 5 kW continuous generation.",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/first-gas-production-sk318-timi-field",
+        "source_id": "retro-petronas-com-first-gas-production-sk318-timi-f-58c0867"
+      },
+      "year": 2023
+    },
+    {
+      "metric": "Operational history — Field discovered",
+      "unit": "",
+      "basis": "Offshore Technology: discovered in the 1970s; about 150 vertically stacked Miocene sand reservoirs.",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+        "source_id": "retro-offshore-technology-com-5f2af6b"
+      }
+    },
+    {
+      "metric": "Operational history — First oil",
+      "unit": "",
+      "basis": "Offshore Technology project profile.",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+        "source_id": "retro-offshore-technology-com-5f2af6b"
+      },
+      "year": 1982
+    },
+    {
+      "metric": "Operational history — Artificial lift review",
+      "unit": "",
+      "basis": "BPMT reviewed artificial lift technologies; ESP selected for additional capacity and reliability.",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+        "source_id": "retro-offshore-technology-com-5f2af6b"
+      },
+      "year": 2007
+    },
+    {
+      "metric": "Operational history — Phase 3 construction",
+      "unit": "",
+      "basis": "Offshore Technology: construction began 2018, completion expected 2020; WHP FEED/EPCIC awarded to Brooke Dockyard April 2017.",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+        "source_id": "retro-offshore-technology-com-5f2af6b"
+      },
+      "year": 2018
+    },
+    {
+      "metric": "Reliability — First oil year",
+      "unit": "year",
+      "basis": "Offshore Technology: Bokor produced first oil in 1982; artificial lift reviewed in 2007 after decline.",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+        "source_id": "retro-offshore-technology-com-5f2af6b"
+      },
+      "year": 1982
+    },
+    {
+      "metric": "Operational history — Sirung-1 discovery",
+      "unit": "",
+      "basis": "The Star 2026 quote from PTTEP Malaysia asset country manager.",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      },
+      "year": 2021
+    },
+    {
+      "metric": "Operational history — FID for first operated Malaysian project",
+      "unit": "",
+      "basis": "The Star: PTTEP made FID in February 2026.",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — CPP EPC agreement signing",
+      "unit": "",
+      "basis": "Brooke CPP EPC agreement signed 26 May 2026, witnessed by Sarawak Premier; completion targeted February 2028.",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — MFDP price agreement awarded",
+      "unit": "",
+      "basis": "MHB press release dated 3 March 2026.",
+      "source": {
+        "url": "https://mhb.com.my/mhb-group-secures-epc-contract-from-pttep-strengthening-its-position-as-a-leading-offshore-solutions-provider",
+        "source_id": "retro-mhb-com-my-mhb-group-secures-epc-contract-from-a524dd6"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — First oil targeted",
+      "unit": "",
+      "basis": "The Star: aligned towards first oil in 2028.",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      },
+      "year": 2028
+    },
+    {
+      "metric": "Reliability — Design philosophy",
+      "unit": "approach",
+      "basis": "MHB press release 2026: standardised WHP design with catalogue-of-items approach for consistency, efficiency and replicability.",
+      "source": {
+        "url": "https://mhb.com.my/mhb-group-secures-epc-contract-from-pttep-strengthening-its-position-as-a-leading-offshore-solutions-provider",
+        "source_id": "retro-mhb-com-my-mhb-group-secures-epc-contract-from-a524dd6"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — Field discovered",
+      "unit": "",
+      "basis": "MSOSH: discovered July 1970; AWT case study: discovered by CONOCO in July 1970.",
+      "source": {
+        "url": "https://award39.msosh.org.my/petronas-duyong-platform",
+        "source_id": "retro-award39-msosh-org-my-petronas-duyong-platform-c253522"
+      },
+      "year": 1970
+    },
+    {
+      "metric": "Operational history — First commercial gas",
+      "unit": "",
+      "basis": "MSOSH: first gas flowed December 1984; AWT case study: first commercial gas April 1984 — two dated sources with different months, both recorded.",
+      "source": {
+        "url": "https://award39.msosh.org.my/petronas-duyong-platform",
+        "source_id": "retro-award39-msosh-org-my-petronas-duyong-platform-c253522"
+      },
+      "year": 1984
+    },
+    {
+      "metric": "Operational history — Revisits / redevelopment studies",
+      "unit": "",
+      "basis": "AWT: drilling four new wells (1995), workover/evaluating T reservoir (1999), workover/testing T reservoir (2001); Revisit IV in 2004.",
+      "source": {
+        "url": "https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf",
+        "source_id": "retro-awtinternational-com-awt-case-study-geoscience-4fd9a97"
+      },
+      "year": 1995
+    },
+    {
+      "metric": "Operational history — EnQuest farm-out announcement",
+      "unit": "",
+      "basis": "EnQuest RNS 10 Jun 2026: proposed acquisition of 30% non-operated PI in PM6-12 PSC including Duyong, Gansar and Resak.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — Production efficiency 2025",
+      "unit": "percent",
+      "basis": "EnQuest RNS 2026: PM6-12 production efficiency in excess of 90% in 2025.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      },
+      "low": 90,
+      "high": 90,
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — Tukau discovery",
+      "unit": "",
+      "basis": "OSTI: discovered by TK-2 in 1966 with 235 ft net oil sand and 16 ft wet gas sand.",
+      "source": {
+        "url": "https://www.osti.gov/biblio/6859707",
+        "source_id": "retro-osti-gov-6859707-35b3115"
+      },
+      "year": 1966
+    },
+    {
+      "metric": "Operational history — Tukau development drilling began",
+      "unit": "",
+      "basis": "OSTI: development drilling commenced in 1975 with 23 wells; appraisal wells 1973-1975.",
+      "source": {
+        "url": "https://www.osti.gov/biblio/6859707",
+        "source_id": "retro-osti-gov-6859707-35b3115"
+      },
+      "year": 1975
+    },
+    {
+      "metric": "Operational history — SK305 D30 first oil",
+      "unit": "",
+      "basis": "A Barrel Full wiki: first oil from D30 field in 2010.",
+      "source": {
+        "url": "https://www.abarrelfull.co.uk/SK305_Block_Oil_And_Gas_Fields",
+        "source_id": "retro-abarrelfull-co-uk-sk305-block-oil-and-gas-fiel-50540aa"
+      },
+      "year": 2010
+    },
+    {
+      "metric": "Operational history — Kinabalu WHP letter of award",
+      "unit": "",
+      "basis": "Gulf Oil and Gas 11 Sep 2015: OceanMight LOA from Talisman, conditional on FDP approval and detailed design; completion expected before end Q2 2017.",
+      "source": {
+        "url": "https://gulfoilandgas.com/webpro1/main/mainnews.asp?id=46930",
+        "source_id": "retro-gulfoilandgas-com-mainnews-asp-61ff3f2"
+      },
+      "year": 2015
+    },
+    {
+      "metric": "Operational history — Balingian first hydrocarbon",
+      "unit": "",
+      "basis": "EnQuest investor deck asset summary: Balingian first hydrocarbon date 1979; PSC expiry Dec-2036.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_-_Investor_Deck_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-investor-deck-vf-pdf-3b7c2ab"
+      },
+      "year": 1979
+    },
+    {
+      "metric": "Operational history — D35-D21-J4 first hydrocarbon",
+      "unit": "",
+      "basis": "EnQuest investor deck asset summary.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_-_Investor_Deck_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-investor-deck-vf-pdf-3b7c2ab"
+      },
+      "year": 1994
+    },
+    {
+      "metric": "Operational history — SK8 first hydrocarbon",
+      "unit": "",
+      "basis": "EnQuest investor deck asset summary.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_-_Investor_Deck_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-investor-deck-vf-pdf-3b7c2ab"
+      },
+      "year": 2004
+    },
+    {
+      "metric": "Operational history — Proposed farm-outs announced",
+      "unit": "",
+      "basis": "EnQuest RNS 10 Jun 2026: three FOAs for four PSC packages, completion expected 31 Dec 2026.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — Balingian uptime",
+      "unit": "percent",
+      "basis": "EnQuest RNS 2026: uptime across the fields exceeding 90% in recent years; each field hub underwent asset life extension to PSC expiry 2036.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      },
+      "low": 90,
+      "high": 90,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — D35-D21-J4 production efficiency 2025",
+      "unit": "percent",
+      "basis": "EnQuest RNS: production efficiency in 2025 above 85%.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      },
+      "low": 85,
+      "high": 85,
+      "year": 2025
+    },
+    {
+      "metric": "Operational history — Discovery",
+      "unit": "",
+      "basis": "Timi sweet gas field discovered",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/timi-sweet-gas-field-development-sarawak-malaysia"
+      },
+      "year": 2018
+    },
+    {
+      "metric": "Operational history — PSC signed",
+      "unit": "",
+      "basis": "SSB signed PSCs for blocks 2B and SK318 (9,000 km2) in April 2012",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/timi-sweet-gas-field-development-sarawak-malaysia"
+      },
+      "year": 2012
+    },
+    {
+      "metric": "Operational history — FID",
+      "unit": "",
+      "basis": "Partners took FID in August 2021",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/timi-sweet-gas-field-development-sarawak-malaysia"
+      },
+      "year": 2021
+    },
+    {
+      "metric": "Operational history — EPC award",
+      "unit": "",
+      "basis": "Brooke Dockyard awarded EPC for fixed offshore structure in November 2021",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/timi-sweet-gas-field-development-sarawak-malaysia"
+      },
+      "year": 2021
+    },
+    {
+      "metric": "Operational history — Oil production start",
+      "unit": "",
+      "basis": "Oil production began October 2015",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development",
+        "source_id": "retro-offshore-technology-com-tembikai-non-associate-c977001"
+      },
+      "year": 2015
+    },
+    {
+      "metric": "Operational history — Gas project launched",
+      "unit": "",
+      "basis": "Gas development launched in H2 2018; MHB contracted for WHP in October 2018",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development",
+        "source_id": "retro-offshore-technology-com-tembikai-non-associate-c977001"
+      },
+      "year": 2018
+    },
+    {
+      "metric": "Operational history — Pipeline EPCI award",
+      "unit": "",
+      "basis": "Alam Maritim Resources awarded $59m EPCI contract in April 2019",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development",
+        "source_id": "retro-offshore-technology-com-tembikai-non-associate-c977001"
+      },
+      "year": 2019
+    },
+    {
+      "metric": "Operational history — Offshore installation",
+      "unit": "",
+      "basis": "Offshore installation works initiated in 2019",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development",
+        "source_id": "retro-offshore-technology-com-tembikai-non-associate-c977001"
+      },
+      "year": 2019
+    },
+    {
+      "metric": "Operational history — EIA final report",
+      "unit": "",
+      "basis": "Final EIA submitted February 2026",
+      "source": {
+        "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+        "source_id": "retro-r-jina-ai-260142-5500114"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — Fabrication planned",
+      "unit": "",
+      "basis": "Teja fabrication Mar 2027; Pepulut Feb 2027",
+      "source": {
+        "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+        "source_id": "retro-r-jina-ai-260142-5500114"
+      },
+      "year": 2027
+    },
+    {
+      "metric": "Operational history — Installation planned",
+      "unit": "",
+      "basis": "Both jackets planned for installation Mar 2028",
+      "source": {
+        "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+        "source_id": "retro-r-jina-ai-260142-5500114"
+      },
+      "year": 2028
+    },
+    {
+      "metric": "Operational history — First gas planned",
+      "unit": "",
+      "basis": "Teja first gas Oct 2029; Pepulut July 2029",
+      "source": {
+        "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+        "source_id": "retro-r-jina-ai-260142-5500114"
+      },
+      "year": 2029
+    },
+    {
+      "metric": "Operational history — Block award",
+      "unit": "",
+      "basis": "JX Nippon acquired Block SK10",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/layang-offshore-field"
+      },
+      "year": 1987
+    },
+    {
+      "metric": "Operational history — Discovery",
+      "unit": "",
+      "basis": "Layang discovered (Helang discovered 1990)",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/layang-offshore-field"
+      },
+      "year": 1991
+    }
+  ],
+  "costs": [
+    {
+      "metric": "Price — pipeline EPCI and pre-commissioning contract value",
+      "unit": "USD million",
+      "basis": "Alam Maritim Resources Berhad contract for engineering, procurement, construction, installation and pre-commissioning of the Tembikai gas pipeline system, awarded April 2019; dollar year not stated",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      },
+      "low": 59,
+      "high": 59,
+      "year": 2019
+    },
+    {
+      "metric": "Price — EPC substructures and templates for Patricia and Serendah platforms",
+      "unit": "USD million",
+      "basis": "Kencana Petroleum contract from Murphy Sarawak Oil, reported approximately RM101 million (USD 33.4 million), delivered 1st-3rd quarter 2012; dollar year not stated",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/02/23/kencana-lands-epc-deal-for-project-offshore-malaysia"
+      },
+      "low": 33.4,
+      "high": 33.4,
+      "year": 2012
+    },
+    {
+      "metric": "Price — acquisition price for 100% of Murphy Oil's Malaysia business",
+      "unit": "USD million",
+      "basis": "PTTEP press release 21 March 2019: acquisition worth USD 2,127 million covering five projects including SK309 & SK311; dollar year not stated",
+      "source": {
+        "url": "https://www.pttep.com/en/newsroom/press-releases/460/pttep-acquires-murphy-oil-corporation-s-business-in-malaysia-strengthen-long-term-growth-in-southeast-asia",
+        "source_id": "retro-pttep-com-pttep-acquires-murphy-oil-corporatio-562720b"
+      },
+      "low": 2127,
+      "high": 2127,
+      "year": 2019
+    },
+    {
+      "metric": "Price — finding and development cost, company-wide",
+      "unit": "USD per barrel of oil equivalent (less than)",
+      "basis": "Murphy 2018 annual report: 166% organic reserve replacement with finding and development costs below $11/BOE; dollar year 2018",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+        "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d"
+      },
+      "low": 11,
+      "high": 11,
+      "year": 2018
+    },
+    {
+      "metric": "Price — realised oil price, company-wide",
+      "unit": "USD per barrel",
+      "basis": "Murphy 2018 annual report: $64/bbl realised price in 2018; dollar year 2018",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+        "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d"
+      },
+      "low": 64,
+      "high": 64,
+      "year": 2018
+    },
+    {
+      "metric": "Price — write-off of prior-year Kenarong and Pertang well costs",
+      "unit": "USD million",
+      "basis": "Murphy 2014 Form 10-K: prior-year well costs of $47.4 million related to Kenarong and Pertang written off in 2014 after PETRONAS rejected an extension of the gas holding agreement; dollar year not stated in filing",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm",
+        "source_id": "retro-sec-gov-mur-20141231x10k-htm-dafb5db"
+      },
+      "low": 47.4,
+      "high": 47.4,
+      "year": 2014
+    },
+    {
+      "metric": "Price — Cash consideration for DIALOG acquisition of Tarpon Malaysia + TSIL assets",
+      "unit": "USD million (as printed)",
+      "basis": "DIALOG press release dated 15 Nov 2023: cash consideration approximately USD1.19 million (approximately RM5.5 million).",
+      "source": {
+        "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+        "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+      },
+      "low": 1.19,
+      "high": 1.19,
+      "year": 2023
+    },
+    {
+      "metric": "Price — Final investment decision (FDAP approval) amount",
+      "unit": "USD million (as printed)",
+      "basis": "DIALOG press release dated 21 Sep 2026: FDAP achieved FID amounting to USD81 million; Borneo Post reports RM330m equivalent.",
+      "source": {
+        "url": "https://www.dialogasia.com/news/raja-cluster-small-field-asset-production-sharing-contract-2",
+        "source_id": "retro-dialogasia-com-raja-cluster-small-field-asset-2b372f0"
+      },
+      "low": 81,
+      "high": 81,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Development cost per barrel of 2P reserves",
+      "unit": "USD/bbl (as printed)",
+      "basis": "PublicInvest Research quoted by Borneo Post 22 Sep 2026: US$81m translates to approximately US$13.3 per barrel of 2P reserves (analyst estimate).",
+      "source": {
+        "url": "https://www.theborneopost.com/2026/09/22/dialogs-raja-cluster-devt-plan-secures-petronas-approval-us81-mln-fid",
+        "source_id": "retro-theborneopost-com-dialogs-raja-cluster-devt-pl-1c478bf"
+      },
+      "low": 13.3,
+      "high": 13.3,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Assumed oil price (analyst scenario)",
+      "unit": "USD/bbl (as printed)",
+      "basis": "PublicInvest Research assumption quoted by Borneo Post: oil price US$65 per barrel; not a realised price.",
+      "source": {
+        "url": "https://www.theborneopost.com/2026/09/22/dialogs-raja-cluster-devt-plan-secures-petronas-approval-us81-mln-fid",
+        "source_id": "retro-theborneopost-com-dialogs-raja-cluster-devt-pl-1c478bf"
+      },
+      "low": 65,
+      "high": 65,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Estimated FY29 earnings contribution",
+      "unit": "MYR",
+      "basis": "PublicInvest estimate quoted by Borneo Post: about RM30-50 million in FY29 assuming 3,000 bpd initial production; dollar year 2026 (article date).",
+      "source": {
+        "url": "https://www.theborneopost.com/2026/09/22/dialogs-raja-cluster-devt-plan-secures-petronas-approval-us81-mln-fid",
+        "source_id": "retro-theborneopost-com-dialogs-raja-cluster-devt-pl-1c478bf"
+      },
+      "low": 30,
+      "high": 50,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Central processing platform EPCIC contract",
+      "unit": "USD",
+      "basis": "Offshore Technology: MMHE received $226.7m EPCIC contract for CPP in April 2017; dollar year not stated.",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+        "source_id": "retro-offshore-technology-com-5f2af6b"
+      },
+      "low": 226.7,
+      "high": 226.7,
+      "year": 2017
+    },
+    {
+      "metric": "Price — Brooke CPP EPC contract (SK405B Sirung/Chenda)",
+      "unit": "MYR",
+      "basis": "The Star 1 Jun 2026: RM1bil EPC contract awarded by PTTEP Sarawak Oil Ltd; largest EPC contract secured by Brooke in O&G.",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      },
+      "low": 1.0,
+      "high": 1.0,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Expected local procurement",
+      "unit": "MYR",
+      "basis": "The Star 2026: nearly RM480 million channelled through local procurement (100% locally sourced materials and engineering items).",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      },
+      "low": 480,
+      "high": 480,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Duyong redevelopment CAPEX without gas surface jet pump",
+      "unit": "USD million (as printed)",
+      "basis": "AWT case study: gas surface jet pump removed requirement for new 8-in pipeline, reducing CAPEX from US$25 million to US$5 million; dollar year not stated. (dollar year not stated)",
+      "source": {
+        "url": "https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf",
+        "source_id": "retro-awtinternational-com-awt-case-study-geoscience-4fd9a97"
+      },
+      "low": 5,
+      "high": 25
+    },
+    {
+      "metric": "Price — Total multi-package deal including Kinabalu WHP LOA",
+      "unit": "USD million (as printed)",
+      "basis": "Gulf Oil and Gas 2015: total $39.8 million ($171.1 MYR) deal covering steel products to SESCO, a 1,000-ton fuel storage tank LOA from Sarawak Energy, and the Talisman WHP LOA; WHP contract value not revealed; dollar year not stated.",
+      "source": {
+        "url": "https://gulfoilandgas.com/webpro1/main/mainnews.asp?id=46930",
+        "source_id": "retro-gulfoilandgas-com-mainnews-asp-61ff3f2"
+      },
+      "low": 39.8,
+      "high": 39.8,
+      "year": 2015
+    },
+    {
+      "metric": "Price — Maximum total consideration for four PSC packages",
+      "unit": "USD million (as printed)",
+      "basis": "EnQuest RNS 10 Jun 2026: maximum total consideration $833 million; $554m upfront, $189m deferred, $90m contingent.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      },
+      "low": 833,
+      "high": 833,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Upfront consideration",
+      "unit": "USD million (as printed)",
+      "basis": "EnQuest RNS: $554 million payable on completion expected 31 Dec 2026.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      },
+      "low": 554,
+      "high": 554,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Deferred consideration",
+      "unit": "USD million (as printed)",
+      "basis": "EnQuest RNS: $189 million over three years in equal $63m instalments.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      },
+      "low": 189,
+      "high": 189,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Contingent consideration cap",
+      "unit": "USD",
+      "basis": "EnQuest RNS: up to $90m subject to FID on three Balingian projects.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      },
+      "low": 90,
+      "high": 90,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Life-of-field 2P capex for acquired PIs",
+      "unit": "USD million (as printed)",
+      "basis": "EnQuest RNS: new Participating Interests 2P life of field capex c.$170 million post-completion.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      },
+      "low": 170,
+      "high": 170,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Upfront consideration per boe 2P",
+      "unit": "USD/boe (as printed)",
+      "basis": "EnQuest investor deck: upfront consideration of $4.0/boe 2P; $5.38/boe including deferred consideration.",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_-_Investor_Deck_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-investor-deck-vf-pdf-3b7c2ab"
+      },
+      "low": 4.0,
+      "high": 4.0,
+      "year": 2026
+    },
+    {
+      "metric": "Price — pipeline EPCI contract value",
+      "unit": "USD",
+      "basis": "Alam Maritim Resources EPCI and pre-commissioning contract awarded April 2019; dollar year not stated",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development",
+        "source_id": "retro-offshore-technology-com-tembikai-non-associate-c977001"
+      },
+      "low": 59000000,
+      "high": 59000000,
+      "year": 2019
+    },
+    {
+      "metric": "Price — external turret system contract",
+      "unit": "USD",
+      "basis": "contract awarded to Orwell Offshore/FES International consortium; dollar year not stated (dollar year not stated)",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/layang-offshore-field"
+      },
+      "low": 40000000,
+      "high": 40000000
+    },
+    {
+      "metric": "Price — pre-development phase investment",
+      "unit": "USD",
+      "basis": "Phase-1 estimate 2011-2014; dollar year not stated",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak"
+      },
+      "low": 200000000,
+      "high": 250000000,
+      "year": 2011
+    },
+    {
+      "metric": "Price — development phase investment",
+      "unit": "USD",
+      "basis": "Phase-2 estimate; dollar year not stated (dollar year not stated)",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak"
+      },
+      "low": 650000000,
+      "high": 700000000
+    },
+    {
+      "metric": "Price — debt financing received",
+      "unit": "USD",
+      "basis": "from SMBC, Standard Chartered and CIMB, May 2012; dollar year not stated",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak"
+      },
+      "low": 162000000,
+      "high": 162000000,
+      "year": 2012
+    },
+    {
+      "metric": "Price — Roc Oil Malaysia contribution",
+      "unit": "USD",
+      "basis": "approximate equity contribution; dollar year not stated (dollar year not stated)",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak"
+      },
+      "low": 35000000,
+      "high": 35000000
+    },
+    {
+      "metric": "Price — project capital expenditure",
+      "unit": "USD",
+      "basis": "projected capital expenditures; dollar year not stated (dollar year not stated)",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development",
+        "source_id": "offshore-technology-com-projects-kikeh-floating-production-storage"
+      },
+      "low": 1400000000,
+      "high": 1400000000
+    },
+    {
+      "metric": "Price — TLP transport and installation contract",
+      "unit": "USD",
+      "basis": "IEV Malaysia / Heerema contract value; dollar year not stated (dollar year not stated)",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/malikai-deepwater-oilfield-project",
+        "source_id": "offshore-technology-com-projects-malikai-deepwater-oilfield-projec"
+      },
+      "low": 100000000,
+      "high": 100000000
+    },
+    {
+      "metric": "Price — initial work commitment",
+      "unit": "USD",
+      "basis": "approximately $0.6m net to Seascape; dollar year not stated (dollar year not stated)",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      },
+      "low": 600000,
+      "high": 600000
+    },
+    {
+      "metric": "Price — award financial commitment",
+      "unit": "USD",
+      "basis": "approximately $2m, met from existing cash; dollar year not stated (dollar year not stated)",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      },
+      "low": 2000000,
+      "high": 2000000
+    },
+    {
+      "metric": "Price — high-level exploration well cost estimate",
+      "unit": "USD",
+      "basis": "third-party high-level cost estimate for a successful Kertang exploration well (gross); dollar year not stated (dollar year not stated)",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      },
+      "low": 70000000,
+      "high": 70000000
+    },
+    {
+      "metric": "Price — EPC/fabrication contract value - SK309/SK311 phase 1 substructures",
+      "unit": "USD million (as printed)",
+      "basis": "$16.5-million contract to fabricate substructures and related services, phase 1 SK309/SK311 gas field development; article dated 1 Aug 2007; no explicit dollar base year stated on page (publication year used).",
+      "source": {
+        "url": "https://www.offshore-mag.com/field-development/article/16796535/kencana-wins-murphy-sarawak-contract",
+        "source_id": "retro-offshore-mag-com-kencana-wins-murphy-sarawak-c-6ed72df"
+      },
+      "low": 16.5,
+      "high": 16.5,
+      "year": 2007
+    },
+    {
+      "metric": "Price — EPC contract value - Patricia & Serendah substructures/template (RM as printed)",
+      "unit": "RM",
+      "basis": "'approximately RM101 million' reported 23 Feb 2012; publication year used, no explicit dollar base year stated.",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/02/23/kencana-lands-epc-deal-for-project-offshore-malaysia",
+        "source_id": "retro-offshore-energy-biz-kencana-lands-epc-deal-for-6116c97"
+      },
+      "low": 101,
+      "high": 101,
+      "year": 2012
+    },
+    {
+      "metric": "Price — EPC contract value - Patricia & Serendah substructures/template (USD as printed)",
+      "unit": "USD million (as printed)",
+      "basis": "'(USD 33.4 million)' as printed on same page beside RM101 million; publication year 2012 used, no explicit price-level base year stated.",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/02/23/kencana-lands-epc-deal-for-project-offshore-malaysia",
+        "source_id": "retro-offshore-energy-biz-kencana-lands-epc-deal-for-6116c97"
+      },
+      "low": 33.4,
+      "high": 33.4,
+      "year": 2012
+    },
+    {
+      "metric": "Price — EPCC contract value - PT-SA + SN-AA topsides (RM range, source A)",
+      "unit": "RM",
+      "basis": "Estimated between RM250 million and RM300 million; article dated 26 July 2012; no explicit dollar base year stated. Conflicting figure retained separately below.",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/07/26/malaysia-sapurakencana-gets-epcc-contracts-for-pt-sa-and-sn-aa-topsides",
+        "source_id": "retro-offshore-energy-biz-malaysia-sapurakencana-get-f43f5ce"
+      },
+      "low": 250,
+      "high": 300,
+      "year": 2012
+    },
+    {
+      "metric": "Price — EPC contract value - PT-SA + SN-AA topsides (USD, source B - conflicting)",
+      "unit": "USD million (as printed)",
+      "basis": "Around $78 million for the two contracts; article dated 26 July 2012; no explicit dollar base year stated. This conflicts with source A's RM250-300m; no silent reconciliation.",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/07/26/malaysia-sapurakencana-petroleum-receives-epc-contracts-for-two-topsides-facilities",
+        "source_id": "retro-offshore-energy-biz-malaysia-sapurakencana-pet-8b13fd8"
+      },
+      "low": 78,
+      "high": 78,
+      "year": 2012
+    },
+    {
+      "metric": "Price — EPCC contract value - SA-SA topside (RM as printed)",
+      "unit": "RM",
+      "basis": "'RM149 million (US$39.9 million) EPCC contract' reported 30 June 2015; publication year used, no explicit price-level base year stated.",
+      "source": {
+        "url": "https://www.shipandoffshore.net/news/offshore/detail/news/epcc-contract-for-malaysian-yard-brooke-dockyard.html",
+        "source_id": "retro-shipandoffshore-net-epcc-contract-for-malaysia-0b80262"
+      },
+      "low": 149,
+      "high": 149,
+      "year": 2015
+    },
+    {
+      "metric": "Price — EPCC contract value - SA-SA topside (USD as printed)",
+      "unit": "USD million (as printed)",
+      "basis": "'US$39.9 million' as printed with RM149 million, 30 June 2015 article; publication year used, no explicit base year stated.",
+      "source": {
+        "url": "https://www.shipandoffshore.net/news/offshore/detail/news/epcc-contract-for-malaysian-yard-brooke-dockyard.html",
+        "source_id": "retro-shipandoffshore-net-epcc-contract-for-malaysia-0b80262"
+      },
+      "low": 39.9,
+      "high": 39.9,
+      "year": 2015
+    },
+    {
+      "metric": "Price — Pipeline EPCI and pre-commissioning contract - Tembikai TNAG",
+      "unit": "USD",
+      "basis": "'$59m contract' to AMRB with Cortez Subsea for EPCI and pre-commissioning of the TNAG pipeline system, awarded April 2019; page dated 13 December 2019; no explicit dollar base year stated.",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      },
+      "low": 59,
+      "high": 59,
+      "year": 2019
+    },
+    {
+      "metric": "Price — Corporate acquisition consideration - Tarpon Malaysia + TSIL assets/IP (USD)",
+      "unit": "USD million (as printed)",
+      "basis": "'approximately USD 1.19 million', 15 November 2023 acquisition; publication/stated transaction year 2023, no explicit price-level base year stated. Not a WHP cost.",
+      "source": {
+        "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+        "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+      },
+      "low": 1.19,
+      "high": 1.19,
+      "year": 2023
+    },
+    {
+      "metric": "Price — Corporate acquisition consideration - Tarpon Malaysia + TSIL assets/IP (RM, first source)",
+      "unit": "RM",
+      "basis": "'approximately RM 5.5 million' as printed on DIALOG press release, 15 November 2023.",
+      "source": {
+        "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+        "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+      },
+      "low": 5.5,
+      "high": 5.5,
+      "year": 2023
+    },
+    {
+      "metric": "Price — Corporate acquisition consideration - Tarpon Malaysia + TSIL assets/IP (USD, second source)",
+      "unit": "USD million (as printed)",
+      "basis": "Independently read second source prints 'US$1.19 million (approximately RM5.5 million)' as total cash consideration; dated 15 November 2023. Confirms rather than conflicts with the DIALOG release.",
+      "source": {
+        "url": "https://theedgemalaysia.com/node/690126",
+        "source_id": "retro-theedgemalaysia-com-690126-b976a78"
+      },
+      "low": 1.19,
+      "high": 1.19,
+      "year": 2023
+    },
+    {
+      "metric": "Price — RAJA Cluster development FID value",
+      "unit": "USD million (as printed)",
+      "basis": "'US$81 million project' at FID, reported 27 September 2026; publication year used, no explicit dollar base year stated on page.",
+      "source": {
+        "url": "https://inspenet.com/en/news/dialog-resources-81-million-offshore-raja/",
+        "source_id": "retro-inspenet-com-df54b43"
+      },
+      "low": 81,
+      "high": 81,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Vessel charter contract value (USD, 125 days)",
+      "unit": "USD million (as printed)",
+      "basis": "'US45 million' charter value for 125 days from 18 August 2012; article Sept 2012; publication year used, no explicit dollar base year stated.",
+      "source": {
+        "url": "https://theedgemalaysia.com/article/sapurakencana-jv-clinches-charter-contract-worth-rm1395-million-mexico",
+        "source_id": "retro-theedgemalaysia-com-sapurakencana-jv-clinches-5eddbd9"
+      },
+      "low": 45,
+      "high": 45,
+      "year": 2012
+    },
+    {
+      "metric": "Price — Vessel charter contract value (RM, 125 days)",
+      "unit": "RM",
+      "basis": "'RM139.5 million' as printed with US45 million; 125-day charter from 18 August 2012.",
+      "source": {
+        "url": "https://theedgemalaysia.com/article/sapurakencana-jv-clinches-charter-contract-worth-rm1395-million-mexico",
+        "source_id": "retro-theedgemalaysia-com-sapurakencana-jv-clinches-5eddbd9"
+      },
+      "low": 139.5,
+      "high": 139.5,
+      "year": 2012
+    },
+    {
+      "metric": "Price — Malaysian assets 30% stake aggregate purchase price (not WHP capex)",
+      "unit": "USD billion (as printed)",
+      "basis": "'$2.0 billion' aggregate purchase price, effective date 1 January 2014, SEC press release 18 December 2014; USD in billions. Not a platform cost.",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742314000009/mur-20141222ex99168145d.htm",
+        "source_id": "retro-sec-gov-mur-20141222ex99168145d-htm-52cd7ec"
+      },
+      "low": 2.0,
+      "high": 2.0,
+      "year": 2014
+    },
+    {
+      "metric": "Price — Malaysian subsidiary sale consideration (USD, not WHP capex)",
+      "unit": "USD billion (as printed)",
+      "basis": "'US$2.127 billion' all-cash, March 2019 article; publication year used, no explicit base year stated. Not a platform cost.",
+      "source": {
+        "url": "https://theedgemalaysia.com/article/murphy-oil-exits-malaysia-after-two-decades-us2bil-divestment-deal",
+        "source_id": "retro-theedgemalaysia-com-murphy-oil-exits-malaysia-f4fcf93"
+      },
+      "low": 2.127,
+      "high": 2.127,
+      "year": 2019
+    },
+    {
+      "metric": "Price — Malaysian subsidiary sale consideration (RM, not WHP capex)",
+      "unit": "RM",
+      "basis": "'RM8.62 billion' as printed beside US$2.127 billion; March 2019; no conversion applied.",
+      "source": {
+        "url": "https://theedgemalaysia.com/article/murphy-oil-exits-malaysia-after-two-decades-us2bil-divestment-deal",
+        "source_id": "retro-theedgemalaysia-com-murphy-oil-exits-malaysia-f4fcf93"
+      },
+      "low": 8.62,
+      "high": 8.62,
+      "year": 2019
+    },
+    {
+      "metric": "Price — Contingent drilling-results bonus, maximum",
+      "unit": "USD million (as printed)",
+      "basis": "'up to US$100 million' contingent on exploratory drilling results before October 2020; stated in March 2019 article; publication year used, no explicit price-level base year stated.",
+      "source": {
+        "url": "https://theedgemalaysia.com/article/murphy-oil-exits-malaysia-after-two-decades-us2bil-divestment-deal",
+        "source_id": "retro-theedgemalaysia-com-murphy-oil-exits-malaysia-f4fcf93"
+      },
+      "low": 100,
+      "high": 100,
+      "year": 2019
+    },
+    {
+      "metric": "Price — cash consideration for Tarpon Malaysia equity plus TSIL assets and IP",
+      "unit": "USD million (as printed)",
+      "basis": "DIALOG press release: approximately USD 1.19 million (about RM 5.5 million), transaction dated 15 Nov 2023; dollar year = transaction date",
+      "source": {
+        "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+        "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+      },
+      "low": 1190000,
+      "high": 1190000,
+      "year": 2023
+    },
+    {
+      "metric": "Price — EPCI and pre-commissioning contract for TNAG pipeline system",
+      "unit": "USD",
+      "basis": "Offshore Technology: Alam Maritim Resources Berhad received a $59m contract in April 2019; dollar year not stated (award date April 2019 reported)",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      },
+      "low": 59000000,
+      "high": 59000000,
+      "year": 2019
+    },
+    {
+      "metric": "Price — TNAG pipeline EPCI contract value",
+      "unit": "USD",
+      "basis": "Offshore Technology: AMRB $59m contract awarded April 2019; dollar year not stated",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      },
+      "low": 59000000,
+      "high": 59000000,
+      "year": 2019
+    },
+    {
+      "metric": "Price — estimated capital expenditure saving of MPFM versus test separator solution",
+      "unit": "USD",
+      "basis": "Offshore Magazine Nov 2001: capex saving estimated at US$800,000 compared to a test separator solution on an unmanned wellhead platform (location not stated); dollar year not stated",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16758633/reservoir-monitoring-multiphase-meter-on-unmanned-wellhead-platform-replaces-test-separator",
+        "source_id": "retro-offshore-mag-com-reservoir-monitoring-multipha-41bad2c"
+      },
+      "low": 800000,
+      "high": 800000,
+      "year": 2001
+    },
+    {
+      "metric": "Price — UK decommissioning expenditure in 2020",
+      "unit": "GBP",
+      "basis": "MDPI 2023 review: estimated UK spent GBP 1.1 billion in 2020 (non-USD comparator)",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mdpi.com/2071-1050/15/17/12757",
+        "source_id": "retro-r-jina-ai-12757-42ab148"
+      },
+      "low": 1100000000,
+      "high": 1100000000,
+      "year": 2020
+    },
+    {
+      "metric": "Price — global offshore platform removal cost estimate",
+      "unit": "USD billion (as printed)",
+      "basis": "MDPI 2023 review citing a published estimate: global cost of removal estimated at USD 210 billion; dollar year not stated",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mdpi.com/2071-1050/15/17/12757",
+        "source_id": "retro-r-jina-ai-12757-42ab148"
+      },
+      "low": 210000000000,
+      "high": 210000000000,
+      "year": 2023
+    },
+    {
+      "metric": "Price — MARS waste-handling facility investment",
+      "unit": "USD million (as printed)",
+      "basis": "MDPI 2023 review: MARS built a North Sea waste handling facility at a cost of USD 200 million; dollar year not stated",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mdpi.com/2071-1050/15/17/12757",
+        "source_id": "retro-r-jina-ai-12757-42ab148"
+      },
+      "low": 200000000,
+      "high": 200000000,
+      "year": 2023
+    },
+    {
+      "metric": "Price — Piper Alpha 1988 disaster property damage",
+      "unit": "USD billion (as printed)",
+      "basis": "MDPI 2023 review: July 1988 Piper Alpha decommissioning-related incident, 165 crew lost, property damage around USD 1.4 billion; dollar year not stated",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mdpi.com/2071-1050/15/17/12757",
+        "source_id": "retro-r-jina-ai-12757-42ab148"
+      },
+      "low": 1400000000,
+      "high": 1400000000,
+      "year": 2023
+    }
+  ],
+  "advantages": [
+    "Dated evidence keeps conflicting project costs side by side instead of reconciling them"
+  ],
+  "limitations": [
+    "Many field-level costs are not published with a dollar year; those are recorded as gaps"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/general-interest/companies/article/17224324/a-malaysian-perspective",
+      "source_id": "retro-ogj-com-a-malaysian-perspective-26c28c2"
+    },
+    {
+      "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-production-sarawak-natural-gas/",
+      "source_id": "retro-ir-murphyoilcorp-com-2a4b3c4"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312506054960/d10k.htm",
+      "source_id": "retro-sec-gov-d10k-htm-d0f771c"
+    },
+    {
+      "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+      "source_id": "retro-abarrelfull-co-uk-sarawak-gas-project-bd57e85"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+      "source_id": "retro-offshore-technology-com-da28718"
+    },
+    {
+      "url": "https://zee-eng.com/zeepod",
+      "source_id": "retro-zee-eng-com-zeepod-d7ab155"
+    },
+    {
+      "url": "https://www.petronas.com/media/media-releases/petronas-clarifies-status-tembikai-and-chenang-rsc",
+      "source_id": "retro-petronas-com-petronas-clarifies-status-tembika-56a43e9"
+    },
+    {
+      "url": "https://www.ogj.com/pipelines-transportation/pipelines/article/14180036/petronas-completes-tembikai-gas-pipelay",
+      "source_id": "retro-ogj-com-petronas-completes-tembikai-gas-pipela-ad03656"
+    },
+    {
+      "url": "https://www.offshore-mag.com/production/article/16771129/murphy-oil-has-first-production-in-malaysia",
+      "source_id": "retro-offshore-mag-com-murphy-oil-has-first-producti-b95f59b"
+    },
+    {
+      "url": "https://www.marine.gov.my/wp-content/uploads/2026/07/96-2026T-%E2%80%93-NOTICE-OF-TEMPORARY-REPLACEMENT-OF-FSO-CASPIAN-SEA-BY-NEPTUNE-MOON-AT-WEST-PATRICIA-FIELD-BLOCK-SK309-OFFSHORE-SARAWAK-WITHIN-THE-EXCLUSIVE-ECONOMIC-ZONE.pdf",
+      "source_id": "retro-marine-gov-my-96-2026t-e2-80-93-notice-of-temp-a941070"
+    },
+    {
+      "url": "https://vantrisenergy.com/operations-maintenance/hook-up-and-commissioning/track-record",
+      "source_id": "retro-vantrisenergy-com-track-record-a9b9c94"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312513082919/d446290d10k.htm",
+      "source_id": "retro-sec-gov-d446290d10k-htm-03c3af0"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm",
+      "source_id": "retro-sec-gov-mur-20141231x10k-htm-dafb5db"
+    },
+    {
+      "url": "https://www.pttep.com/en/newsroom/press-releases/460/pttep-acquires-murphy-oil-corporation-s-business-in-malaysia-strengthen-long-term-growth-in-southeast-asia",
+      "source_id": "retro-pttep-com-pttep-acquires-murphy-oil-corporatio-562720b"
+    },
+    {
+      "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+      "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d"
+    },
+    {
+      "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-additional-discoveries-malaysia",
+      "source_id": "retro-ir-murphyoilcorp-com-murphy-oil-announces-addi-69d7672"
+    },
+    {
+      "url": "https://www.tarponsystems.com/what-we-do",
+      "source_id": "retro-tarponsystems-com-what-we-do-886f3b5"
+    },
+    {
+      "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+      "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+    },
+    {
+      "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+      "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf",
+      "source_id": "retro-cdn-prod-website-files-com-69ca1db5102fd7a4134-db92ecf"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/67a06cb414f86bdde3dbe790_Dialog%20Upsteam%20-%20BPTEC%202025.pdf",
+      "source_id": "retro-cdn-prod-website-files-com-67a06cb414f86bdde3d-8875f7c"
+    },
+    {
+      "url": "https://www.api.org/~/media/files/publications/whats%20new/2a-wsd_e22%20pa.pdf",
+      "source_id": "retro-api-org-2a-wsd-e22-20pa-pdf-4e4a9ea"
+    },
+    {
+      "url": "https://patents.google.com/patent/US7942611B2/en",
+      "source_id": "retro-patents-google-com-en-9f37592"
+    },
+    {
+      "url": "https://ijrest.net/old_website/downloads/16112014/pid-16201408.pdf",
+      "source_id": "retro-ijrest-net-pid-16201408-pdf-ff43f8e"
+    },
+    {
+      "url": "https://www.dialogasia.com/news/raja-cluster-small-field-asset-production-sharing-contract-2",
+      "source_id": "retro-dialogasia-com-raja-cluster-small-field-asset-2b372f0"
+    },
+    {
+      "url": "https://www.theborneopost.com/2026/09/22/dialogs-raja-cluster-devt-plan-secures-petronas-approval-us81-mln-fid",
+      "source_id": "retro-theborneopost-com-dialogs-raja-cluster-devt-pl-1c478bf"
+    },
+    {
+      "url": "https://www.dialogasia.com/upstream/upstream-assets-ventures",
+      "source_id": "retro-dialogasia-com-upstream-assets-ventures-71c1245"
+    },
+    {
+      "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+      "source_id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1"
+    },
+    {
+      "url": "https://www.tarponsystems.com/wellhead-platforms-for-balai-bentara-spaoh-and-west-acis-fields",
+      "source_id": "retro-tarponsystems-com-wellhead-platforms-for-balai-3f57d73"
+    },
+    {
+      "url": "https://www.tarponsystems.com/epcic-for-zuhal-east-development-project",
+      "source_id": "retro-tarponsystems-com-epcic-for-zuhal-east-develop-8cfcbcd"
+    },
+    {
+      "url": "https://www.offshore-mag.com/field-development/article/16790310/2h-offshore-jackup-sets-down-lightweight-platform-offshore-sarawak",
+      "source_id": "retro-offshore-mag-com-2h-offshore-jackup-sets-down-63a2842"
+    },
+    {
+      "url": "https://www.oedigital.com/news/478690-2h-offshore-installs-wellhead-platform-offshore-malaysia",
+      "source_id": "retro-oedigital-com-478690-2h-offshore-installs-well-111268e"
+    },
+    {
+      "url": "https://www.offshore-mag.com/business-briefs/company-news/article/16782486/2h-offshore-to-deliver-lightweight-conductor-supported-platform",
+      "source_id": "retro-offshore-mag-com-2h-offshore-to-deliver-lightw-7c52230"
+    },
+    {
+      "url": "https://www.petronas.com/media/media-releases/first-gas-production-sk318-timi-field",
+      "source_id": "retro-petronas-com-first-gas-production-sk318-timi-f-58c0867"
+    },
+    {
+      "url": "https://www.offshore-mag.com/regional-reports/asia/article/14284091/timi-field-platform-completed-at-sarawak-yard",
+      "source_id": "retro-offshore-mag-com-timi-field-platform-completed-0ee9863"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+      "source_id": "retro-offshore-technology-com-5f2af6b"
+    },
+    {
+      "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+      "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+    },
+    {
+      "url": "https://mhb.com.my/mhb-group-secures-epc-contract-from-pttep-strengthening-its-position-as-a-leading-offshore-solutions-provider",
+      "source_id": "retro-mhb-com-my-mhb-group-secures-epc-contract-from-a524dd6"
+    },
+    {
+      "url": "https://award39.msosh.org.my/petronas-duyong-platform",
+      "source_id": "retro-award39-msosh-org-my-petronas-duyong-platform-c253522"
+    },
+    {
+      "url": "https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf",
+      "source_id": "retro-awtinternational-com-awt-case-study-geoscience-4fd9a97"
+    }
+  ],
+  "notes": "20-year retrospective assembled 2026-11-24; 93 project records linked.",
+  "last_reviewed": "2026-11-24",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "field-level capex and operating cost with a stated dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Most operator and contractor pages read do not publish dated field-level costs.",
+      "where": [
+        {
+          "hint": "PETRONAS activity reports, operator annual reports, IHS/Wood Mackenzie project databases",
+          "access": "paid"
+        }
+      ],
+      "action": "Search dated project-award announcements and annual reports for each named field."
+    }
+  ]
+}

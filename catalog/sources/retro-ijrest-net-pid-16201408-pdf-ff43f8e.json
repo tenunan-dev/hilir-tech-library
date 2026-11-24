@@ -1,0 +1,25 @@
+{
+  "id": "retro-ijrest-net-pid-16201408-pdf-ff43f8e",
+  "name": "IJREST — Finite Element Analysis of Offshore Cable Guyed Monotower (2014, PDF)",
+  "url": "https://ijrest.net/old_website/downloads/16112014/pid-16201408.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "ROT",
+    "MAT"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "International Journal for Research in Emerging Science and Technology",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch returned unsupported PDF content type; page read through reader proxy https://r.jina.ai/<url> as instructed. Figures transcribed from the proxied page text. Platform X: 76.30 m water, 196.10 t topside, 800 t substructure, installed 2006, PGA 0.114g, wave-governed."
+}

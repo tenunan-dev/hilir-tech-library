@@ -1,0 +1,64 @@
+{
+  "id": "zuhal-east-development",
+  "name": "Zuhal East Development",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia (offshore Labuan, Sabah)",
+  "location": "Malaysia (offshore Labuan, Sabah)",
+  "status": "operating",
+  "description": "EPCIC of 220 MT WHP and 200 MT caisson, 6-in x 5 km pipeline to SUPG-B and provision of marine spread.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "DIALOG Tarpon Offshore Platforms Sdn Bhd (EPCIC contractor)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.tarponsystems.com/epcic-for-zuhal-east-development-project",
+      "source_id": "retro-tarponsystems-com-epcic-for-zuhal-east-develop-8cfcbcd",
+      "note": "EPCIC of 220 MT WHP and 200 MT caisson, 6-in x 5 km pipeline to SUPG-B and provi"
+    },
+    {
+      "url": "https://www.tarponsystems.com/epcic-for-zuhal-east-development-project",
+      "source_id": "retro-tarponsystems-com-epcic-for-zuhal-east-develop-8cfcbcd"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf",
+      "source_id": "retro-cdn-prod-website-files-com-69ca1db5102fd7a4134-db92ecf"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/67a06cb414f86bdde3dbe790_Dialog%20Upsteam%20-%20BPTEC%202025.pdf",
+      "source_id": "retro-cdn-prod-website-files-com-67a06cb414f86bdde3d-8875f7c"
+    },
+    {
+      "url": "https://www.tarponsystems.com/epcic-for-zuhal-east-development-project",
+      "source_id": "retro-tarponsystems-com-epcic-for-zuhal-east-develop-8cfcbcd",
+      "note": "EPCIC of 220 MT WHP and 200 MT caisson, 6-in x 5 km pipeline to SUPG-B and provision of marine spread."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Zuhal East contract value and completion year",
+      "why": "No contract value or date printed on Tarpon page or DIALOG decks.",
+      "next_action": "Find a PETRONAS or DIALOG Bursa announcement with the award date/value."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "retro-offshore-technology-com-c3a5bd0",
+  "name": "Offshore Technology – Malikai Deepwater Oilfield Project",
+  "url": "https://www.offshore-technology.com/projects/malikai-deepwater-oilfield-project/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Offshore Technology / GlobalData",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Read in full: TLP dimensions, wells, vendors, $100m T&I contract."
+}

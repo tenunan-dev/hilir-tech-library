@@ -1,0 +1,150 @@
+{
+  "id": "tembikai-non-associated-gas-development-zeepod-whp",
+  "name": "Tembikai non-associated gas development (ZEEPod WHP)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Marginal-field unmanned minimum-facility gas development, operator Vestigo Petroleum (PETRONAS Carigali owned); tripod caisson ZEEPod WHP tied to Berantai FPSO.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Oil production start",
+      "date": "2015",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development",
+        "source_id": "retro-offshore-technology-com-tembikai-non-associate-c977001"
+      }
+    },
+    {
+      "event": "Gas project launched",
+      "date": "2018",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development",
+        "source_id": "retro-offshore-technology-com-tembikai-non-associate-c977001"
+      }
+    },
+    {
+      "event": "Pipeline EPCI award",
+      "date": "2019",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development",
+        "source_id": "retro-offshore-technology-com-tembikai-non-associate-c977001"
+      }
+    },
+    {
+      "event": "Offshore installation",
+      "date": "2019",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development",
+        "source_id": "retro-offshore-technology-com-tembikai-non-associate-c977001"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "pipeline EPCI contract value",
+      "year": 2019,
+      "basis": "Alam Maritim Resources EPCI and pre-commissioning contract awarded April 2019; dollar year not stated",
+      "value": 59000000,
+      "unit": "USD",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development",
+        "source_id": "retro-offshore-technology-com-tembikai-non-associate-c977001"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Vestigo Petroleum (operator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "ZEE Engineering (designer/patent holder)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "MHB / MMHE West yard (WHP fabrication)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Reach Integrated (telecom)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Fame Klaut (transport and installation)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Alam Maritim Resources Berhad + Cortez Subsea (pipeline EPCI)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "NOV-Tuboscope (Zap-Lok mechanical connectors)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Sapura Samudra (soil boring survey vessel)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+      "source_id": "retro-offshore-technology-com-da28718",
+      "note": "Marginal-field unmanned minimum-facility gas development, operator Vestigo Petro"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+      "source_id": "retro-offshore-technology-com-da28718"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development",
+      "source_id": "retro-offshore-technology-com-tembikai-non-associate-c977001",
+      "note": "Source states structure 'designed and patented by ZEE Engineering'; patent number and filing year not stated."
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development",
+      "source_id": "retro-offshore-technology-com-tembikai-non-associate-c977001"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Gas first-production date",
+      "why": "Source says expected 2020, no confirmed date found",
+      "next_action": "Check PETRONAS/Vestigo production announcements"
+    },
+    {
+      "what": "Actual capex of WHP",
+      "why": "Only the pipeline contract value is published",
+      "next_action": "Look for small-field RSC cost disclosure"
+    },
+    {
+      "what": "Incident history",
+      "why": "None in read source",
+      "next_action": "Search DOSH/DOE records"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

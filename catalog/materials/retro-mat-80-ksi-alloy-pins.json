@@ -1,0 +1,25 @@
+{
+  "id": "retro-mat-80-ksi-alloy-pins",
+  "name": "80 ksi alloy pins",
+  "material_category": "steel",
+  "description": "80 ksi alloy pins named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "Specified yield",
+      "unit": "ksi",
+      "basis": "1999 Tarpon article: pins are 80 ksi alloy material to minimise size since they are diver-installed.",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+        "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+      },
+      "year": 1999
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+      "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

@@ -33,19 +33,19 @@
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
-| Catalog sources | 1,713 valid, 1,713 unique ids |
-| Technology cards | 398 (413-entry register) |
-| Vendor records | 920 |
+| Catalog sources | 1,812 valid, 1,812 unique ids |
+| Technology cards | 399 (414-entry register) |
+| Vendor records | 1,074 |
 | Equipment classes | 430 (41 WHP component classes from the Mistral-chat sweep, 58 boiler types/components from the first sweep, plus 23 supporting systems: feedwater pretreatment, RO/EDI, chemical dosing, sampling, blowdown recovery, cleaning, steam traps, condensate pumps/polishing, separators, PRV/desuperheating, expansion joints, silencers, insulation, gas boosters, pilots/ignition, instrument air, SCR reagent, circulation/feedwater pumps, MCC/VFD and HRSG bypass dampers) |
-| Projects and plants | 686 |
+| Projects and plants | 779 |
 | Product catalog | 361 vendor product lines with printed specifications (`schema/product.schema.json`, `catalog/products/`) |
-| Process drawings | 321 PFD/P&ID/schematic records (`schema/drawing.schema.json`, `catalog/drawings/`) — the diagrams stay at the publisher's url |
-| Engineering materials | 139 records with sourced properties (`schema/material.schema.json`, `catalog/materials/`) |
+| Process drawings | 324 PFD/P&ID/schematic records (`schema/drawing.schema.json`, `catalog/drawings/`) — the diagrams stay at the publisher's url |
+| Engineering materials | 159 records with sourced properties (`schema/material.schema.json`, `catalog/materials/`) |
 | Corpus documents | 253, **one per source url** (decision 40), each with a hand-written summary — 207 open, 46 full-text-restricted (13,192 chunks locally and in Neon) |
 
-Verified live 2026-11-24: Neon reloaded (1,713 sources / 920 vendors / 398 cards / 430 equipment /
-686 projects / 361 products / 321 drawings / 139 materials / 413 register entries / 253 documents /
-13,192 chunks / 8,145 nodes / 30,541 edges / 18,160 vectors); `pytest -q tests` 2,753 passed, 13 skipped.
+Verified live 2026-11-25: Neon reloaded (1,812 sources / 1,074 vendors / 399 cards / 430 equipment /
+779 projects / 361 products / 324 drawings / 159 materials / 414 register entries / 253 documents /
+13,192 chunks / 8,574 nodes / 31,425 edges / 18,530 vectors); `pytest -q tests` 3,021 passed, 13 skipped.
 Sourced project capex and installation cost benchmarks are queryable via `find_figures`.
 The MCP surface is 32 tools, adding list/get materials.
 The MCP surface is 30 tools, adding list/get products and drawings. Standing main effort is source discovery

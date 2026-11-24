@@ -1,0 +1,133 @@
+{
+  "id": "balai-cluster-balai-bentara-west-acis-spaoh",
+  "name": "Balai Cluster (Balai, Bentara, West Acis, Spaoh)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Four small oil/gas fields offshore Sarawak developed with four lightweight Tarpon guyed caisson WHPs plus early production vessel EPV Balai Mutiara under a 15-year RSC.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "RSC award",
+      "date": "2011",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak"
+      }
+    },
+    {
+      "event": "Discovery",
+      "date": "2011",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak"
+      }
+    },
+    {
+      "event": "WHP installation",
+      "date": "2012",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak"
+      }
+    },
+    {
+      "event": "First oil",
+      "date": "2013",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak"
+      }
+    },
+    {
+      "event": "FDP submission",
+      "date": "2013",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "pre-development phase investment",
+      "year": 2011,
+      "basis": "Phase-1 estimate 2011-2014; dollar year not stated",
+      "value": 200000000,
+      "low": 200000000,
+      "high": 250000000,
+      "unit": "USD",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak"
+      }
+    },
+    {
+      "metric": "debt financing received",
+      "year": 2012,
+      "basis": "from SMBC, Standard Chartered and CIMB, May 2012; dollar year not stated",
+      "value": 162000000,
+      "unit": "USD",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "PETRONAS (owner)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Keppel Shipyard (EPV conversion)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Sumitomo Mitsui Banking Corp, Standard Chartered, CIMB (financing)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak/",
+      "source_id": "retro-offshore-technology-com-482c414",
+      "note": "Four small oil/gas fields offshore Sarawak developed with four lightweight Tarpo"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak/",
+      "source_id": "retro-offshore-technology-com-482c414"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/balai-cluster-project-sarawak"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Individual WHP weights",
+      "why": "Not published in read source",
+      "next_action": "Find vendor literature on Tarpon guyed caisson"
+    },
+    {
+      "what": "Full development outcome",
+      "why": "Article states pre-development phase as of early 2014",
+      "next_action": "Check later operator reports"
+    },
+    {
+      "what": "Incidents",
+      "why": "None reported",
+      "next_action": "Search regulatory records"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

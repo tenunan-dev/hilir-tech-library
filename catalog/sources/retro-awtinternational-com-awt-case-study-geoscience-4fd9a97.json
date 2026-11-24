@@ -1,0 +1,26 @@
+{
+  "id": "retro-awtinternational-com-awt-case-study-geoscience-4fd9a97",
+  "name": "AWT — Duyong Field Development Plan case study (PDF)",
+  "url": "https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "AWT International",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch returned unsupported PDF content type; page read through reader proxy https://r.jina.ai/<url> as instructed. Figures transcribed from the proxied page text. CAPEX US$25m -> US$5m and recovery factors; dollar year not stated."
+}

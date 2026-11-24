@@ -1,0 +1,86 @@
+{
+  "id": "sk309-sk311-sarawak-gas-project-phase-1-golok-merapuh-serampang",
+  "name": "SK309/SK311 Sarawak Gas Project phase 1 (Golok, Merapuh, Serampang)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Multi-phase gas development with gas sales to Malaysia LNG via pipeline; condensate to West Patricia FSO. Contractor lists name Kencana for Serampang-A (SEPA) platform.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Contract awarded for phase 1 SK309/SK311 substructures",
+      "date": "2007",
+      "source": {
+        "url": "https://www.offshore-mag.com/field-development/article/16796535/kencana-wins-murphy-sarawak-contract",
+        "source_id": "retro-offshore-mag-com-kencana-wins-murphy-sarawak-c-6ed72df"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "EPC/fabrication contract value - SK309/SK311 phase 1 substructures",
+      "year": 2007,
+      "basis": "$16.5-million contract to fabricate substructures and related services, phase 1 SK309/SK311 gas field development; article dated 1 Aug 2007; no explicit dollar base year stated on page (publication year used).",
+      "value": 16.5,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://www.offshore-mag.com/field-development/article/16796535/kencana-wins-murphy-sarawak-contract",
+        "source_id": "retro-offshore-mag-com-kencana-wins-murphy-sarawak-c-6ed72df"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Kencana HL Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Kencana Petroleum Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Murphy Sarawak Oil Co Ltd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+      "source_id": "retro-abarrelfull-co-uk-sarawak-gas-project-bd57e85",
+      "note": "Multi-phase gas development with gas sales to Malaysia LNG via pipeline; condens"
+    },
+    {
+      "url": "https://www.offshore-mag.com/field-development/article/16796535/kencana-wins-murphy-sarawak-contract",
+      "source_id": "retro-offshore-mag-com-kencana-wins-murphy-sarawak-c-6ed72df"
+    },
+    {
+      "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+      "source_id": "retro-abarrelfull-co-uk-sarawak-gas-project-bd57e85"
+    },
+    {
+      "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+      "source_id": "retro-abarrelfull-co-uk-sarawak-gas-project-bd57e85",
+      "note": "Multi-phase gas development with gas sales to Malaysia LNG via pipeline; condensate to West Patricia FSO. Contractor lists name Kencana for Serampang-A (SEPA) platform."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Base year / price level of the 2007 $16.5m figure",
+      "why": "Article gives a publication date but does not state a price-level base year or currency-definition basis.",
+      "next_action": "Find the original SapuraKencana/Kencana Bursa announcement or annual report that may state the ringgit equivalent and valuation date."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

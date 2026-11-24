@@ -1,10 +1,11 @@
 # DIG: Digital
 
-187 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
+189 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
 | [CO2CRC Otway International Test Centre](https://co2crc.com.au/) | research-institute | apac | open | full-text-restricted |
+| [FLOMEKO 2004 ESMER paper (PDF)](https://r.jina.ai/https://www.petroleumsoftware.co.uk/documents/flomekosfjt04.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Geoscience Australia energy resources](https://www.ga.gov.au/scientific-topics/energy) | agency-data | apac | open | full-text-open |
 | [Indonesian Petroleum Association (IPA)](https://www.ipa.or.id/) | association | sea | mixed | catalog-only (unverified) |
 | [International Petroleum Technology Conference (IPTC)](https://www.iptcnet.org/) | conference | apac, me | mixed | catalog-only (unverified) |
@@ -34,6 +35,7 @@
 | [METI Agency for Natural Resources and Energy](https://www.enecho.meti.go.jp/en/) | agency-data | apac | open | full-text-restricted |
 | [MISC Group (LNG shipping, FPSO and offshore)](https://www.miscgroup.com/) | epc-contractor | sea, apac | open | summary-only (unverified) |
 | [National Energy Administration of China](https://www.nea.gov.cn/) | agency-data | apac | open | full-text-restricted |
+| [Offshore Magazine - Industry advancing unmanned platforms, remote operations](https://www.offshore-mag.com/field-development/article/14213949/industry-advancing-unmanned-platforms-remote-operations) | oem-supplier | global, sea | open | summary-only |
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | full-text-restricted |
 | [Philippines Department of Energy](https://doe.gov.ph/) | agency-data | sea | open | full-text-open |
 | [SCADA Software for Oil and Gas](https://tatsoft.com/oil-gas/) | oem-supplier | global, sea | open | summary-only |

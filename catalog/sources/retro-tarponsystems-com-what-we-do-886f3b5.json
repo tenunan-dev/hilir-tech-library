@@ -1,0 +1,28 @@
+{
+  "id": "retro-tarponsystems-com-what-we-do-886f3b5",
+  "name": "DIALOG Tarpon — What We Do (standards, capability, installations)",
+  "url": "https://www.tarponsystems.com/what-we-do",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "MAT",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "DIALOG Tarpon Offshore Platforms Sdn Bhd",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch; capability 20-110 m, 8 wells, 350 t, 30,000 BPD, API RP2A 100-year storm; 44 US/4 West Africa/1 Indonesia/11 Malaysia installations."
+}

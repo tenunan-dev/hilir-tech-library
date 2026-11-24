@@ -26,7 +26,7 @@
     {
       "metric": "Shell executive's cost-per-capacity ballpark (low)",
       "low": 3000000000,
-      "unit": "USD",
+      "unit": "USD billion (as printed)",
       "basis": "Malcolm Brinded, Shell Executive Director Upstream International: '$3 billion-$3.5 billion per one million metric tons of production capacity'",
       "year": 2011,
       "source": {
@@ -38,7 +38,7 @@
     {
       "metric": "Shell executive's cost-per-capacity ballpark (high)",
       "high": 3500000000,
-      "unit": "USD",
+      "unit": "USD billion (as printed)",
       "basis": "Same Brinded quote: '$3 billion-$3.5 billion per one million metric tons'",
       "year": 2011,
       "source": {
@@ -50,7 +50,7 @@
     {
       "metric": "Estimated total project cost (investment sources at FID)",
       "value": 11000000000,
-      "unit": "USD",
+      "unit": "USD billion (as printed)",
       "basis": "OGJ: 'The development, which some investment sources say will cost $11 billion'",
       "year": 2011,
       "source": {
@@ -62,7 +62,7 @@
     {
       "metric": "Vessel construction contract (press report)",
       "value": 3400000000,
-      "unit": "USD",
+      "unit": "USD billion (as printed)",
       "basis": "BusinessKorea: Samsung Heavy won the Prelude FLNG project in 2011 'at the cost of US$3.4 billion (3.89 trillion won)'",
       "year": 2011,
       "source": {

@@ -1,0 +1,162 @@
+{
+  "id": "tembikai-oil-development-first-oil-2015",
+  "name": "Tembikai oil development (first oil 2015)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Three production wells and a central processing platform exporting oil via flexible subsea pipeline to an FSO; peak expected 2,000 bopd.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "PETRONAS decided not to award the Tembikai & Chenang small field RSC after competitive bidding",
+      "date": "2013",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/petronas-clarifies-status-tembikai-and-chenang-rsc",
+        "source_id": "retro-petronas-com-petronas-clarifies-status-tembika-56a43e9"
+      }
+    },
+    {
+      "event": "First oil from Tembikai field",
+      "date": "2015",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      }
+    },
+    {
+      "event": "First ZEEPod installed and commissioned at TNAG",
+      "date": "2019",
+      "source": {
+        "url": "https://zee-eng.com/blog-detail/zeepod-is-reshaping-the-future-of-marginal-oil-amp-gas-field-development-in-malaysia-the-future-of-marginal-oil-amp-gas-field-development-in-malaysia"
+      }
+    },
+    {
+      "event": "Tembikai gas pipelay completed",
+      "date": "2020",
+      "source": {
+        "url": "https://www.ogj.com/pipelines-transportation/pipelines/article/14180036/petronas-completes-tembikai-gas-pipelay",
+        "source_id": "retro-ogj-com-petronas-completes-tembikai-gas-pipela-ad03656"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "pipeline EPCI and pre-commissioning contract value",
+      "year": 2019,
+      "basis": "Alam Maritim Resources Berhad contract for engineering, procurement, construction, installation and pre-commissioning of the Tembikai gas pipeline system, awarded April 2019; dollar year not stated",
+      "value": 59,
+      "unit": "USD million",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "ZEE Engineering Sdn Bhd (designer/patent holder)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Reach Integrated Sdn Bhd (telecommunications, March 2019)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Fame Klaut (transport and installation)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Alam Maritim Resources Berhad + Cortez Subsea (pipeline EPCI)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "NOV-Tuboscope (Zap-Lok mechanical connectors)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Vestigo Petroleum Sdn Bhd (operator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Cortez Subsea Ltd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Alam Maritim (M) Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "NOV-Tuboscope",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Vestigo Petroleum Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+      "source_id": "retro-offshore-technology-com-da28718",
+      "note": "Three production wells and a central processing platform exporting oil via flexi"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+      "source_id": "retro-offshore-technology-com-da28718"
+    },
+    {
+      "url": "https://zee-eng.com/zeepod",
+      "source_id": "retro-zee-eng-com-zeepod-d7ab155"
+    },
+    {
+      "url": "https://www.petronas.com/media/media-releases/petronas-clarifies-status-tembikai-and-chenang-rsc",
+      "source_id": "retro-petronas-com-petronas-clarifies-status-tembika-56a43e9"
+    },
+    {
+      "url": "https://www.ogj.com/pipelines-transportation/pipelines/article/14180036/petronas-completes-tembikai-gas-pipelay",
+      "source_id": "retro-ogj-com-petronas-completes-tembikai-gas-pipela-ad03656"
+    },
+    {
+      "url": "https://zee-eng.com/zeepod",
+      "source_id": "retro-zee-eng-com-zeepod-d7ab155",
+      "note": "Grant/filing year not stated; number contains '2015' but no year is asserted. ZEE also reports a PETRONAS New Concept Technical Readiness Level score of 7/7 for ZEEPod."
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+      "source_id": "retro-offshore-technology-com-da28718",
+      "note": "Offshore Terengganu, about 150 km from shore, 70 m water; owned by Petronas Carigali and operated by Vestigo Petroleum; minimum-facility ZEEPod wellhead platform tied to the Berantai FPSO."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Any Murphy Oil ownership or contract interest in Tembikai",
+      "why": "All read sources identify PETRONAS Carigali (owner) and Vestigo Petroleum (operator); none mentions Murphy. The task's premise that Tembikai is a Murphy asset is not supported.",
+      "next_action": "Treat Tembikai as a technology analogue only; do not record it as a Murphy field unless a Murphy-specific source is found."
+    },
+    {
+      "what": "ZEEPod patent title, filing/grant date and claims",
+      "why": "Only the patent number PI2015002104 was printed on the read page.",
+      "next_action": "Query a patent register for PI2015002104 to obtain title, priority date and assignee of record."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Murphy Malaysia assets). Pages actually read with WebFetch: A Barrel Full Sarawak Gas Project; Murphy 2005, 2012 and 2014 Forms 10-K (SEC; 2014 via r.jina.ai reader proxy because of response size); Murphy "
+}

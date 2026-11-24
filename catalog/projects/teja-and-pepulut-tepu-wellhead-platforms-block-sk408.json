@@ -1,0 +1,104 @@
+{
+  "id": "teja-and-pepulut-tepu-wellhead-platforms-block-sk408",
+  "name": "Teja and Pepulut (TePu) wellhead platforms, Block SK408",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Two unmanned two-slot WHPs in Central Luconia, tied into the F23 hub; planned first gas 2029. Source is a 27-page DOE Malaysia EIA final report (Feb 2026).",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "EIA final report",
+      "date": "2026",
+      "source": {
+        "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+        "source_id": "retro-r-jina-ai-260142-5500114"
+      }
+    },
+    {
+      "event": "Fabrication planned",
+      "date": "2027",
+      "source": {
+        "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+        "source_id": "retro-r-jina-ai-260142-5500114"
+      }
+    },
+    {
+      "event": "Installation planned",
+      "date": "2028",
+      "source": {
+        "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+        "source_id": "retro-r-jina-ai-260142-5500114"
+      }
+    },
+    {
+      "event": "First gas planned",
+      "date": "2029",
+      "source": {
+        "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+        "source_id": "retro-r-jina-ai-260142-5500114"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Sarawak Shell Berhad (proponent)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Chemsain Konsultant Sdn Bhd (EIA qualified person)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+      "source_id": "retro-r-jina-ai-260142-5500114",
+      "note": "Two unmanned two-slot WHPs in Central Luconia, tied into the F23 hub; planned fi"
+    },
+    {
+      "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+      "source_id": "retro-r-jina-ai-260142-5500114"
+    },
+    {
+      "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+      "source_id": "retro-r-jina-ai-260142-5500114",
+      "note": "Figure in EIA executive summary, source SSB 2026"
+    },
+    {
+      "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+      "source_id": "retro-r-jina-ai-260142-5500114",
+      "note": "Referenced as F23-TS-200-P-7704-0001, Rev.1, 29 Oct 2025"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Capex / contract values",
+      "why": "EIA contains no cost figures",
+      "next_action": "Look for Shell FID or contractor announcements"
+    },
+    {
+      "what": "WHP structural concept detail",
+      "why": "EIA names jackets but gives no jacket weight or conductor-count",
+      "next_action": "Consult concept-select report referenced in EIA"
+    },
+    {
+      "what": "Operating history",
+      "why": "Project not yet producing; no incidents",
+      "next_action": "Future tracking"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

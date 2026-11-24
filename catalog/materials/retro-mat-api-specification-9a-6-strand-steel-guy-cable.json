@@ -1,0 +1,25 @@
+{
+  "id": "retro-mat-api-specification-9a-6-strand-steel-guy-cable",
+  "name": "API Specification 9A 6-strand steel guy cable",
+  "material_category": "wire-rope",
+  "description": "API Specification 9A 6-strand steel guy cable named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "Minimum size in cyclonic areas",
+      "unit": "in / strand count",
+      "basis": "1999 Tarpon article: 6-strand steel cable to API Spec 9A; 2-in, 6 by 19 considered minimum; cables designed to 50% nominal breaking strength per API 9A.",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+        "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+      },
+      "year": 1999
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+      "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

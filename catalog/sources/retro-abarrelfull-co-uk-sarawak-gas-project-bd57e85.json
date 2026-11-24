@@ -1,0 +1,25 @@
+{
+  "id": "retro-abarrelfull-co-uk-sarawak-gas-project-bd57e85",
+  "name": "Sarawak Gas Project (A Barrel Full wiki)",
+  "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "A Barrel Full",
+  "access": "open",
+  "licence": "wiki, CC-style reuse",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Read directly with WebFetch; secondary wiki, used only for contractor names and chronology."
+}

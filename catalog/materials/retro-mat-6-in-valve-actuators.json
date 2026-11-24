@@ -1,0 +1,27 @@
+{
+  "id": "retro-mat-6-in-valve-actuators",
+  "name": "6-in valve actuators",
+  "material_category": "valve",
+  "description": "6-in valve actuators named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "Size",
+      "unit": "in",
+      "basis": "Offshore Technology: Paladon Systems supplied 6-in valve actuators for the project in 2018.",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+        "source_id": "retro-offshore-technology-com-5f2af6b"
+      },
+      "low": 6,
+      "high": 6,
+      "year": 2018
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+      "source_id": "retro-offshore-technology-com-5f2af6b"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

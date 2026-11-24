@@ -25,7 +25,7 @@
       "id": "FAB",
       "name": "Fabricate shell, heads and nozzles",
       "equipment": [
-        "shell",
+        "retro-vendor-shell-operator-35",
         "heads"
       ]
     },
@@ -42,7 +42,7 @@
     }
   ],
   "key_equipment": [
-    "shell",
+    "retro-vendor-shell-operator-35",
     "heads",
     "nozzles",
     "relief valves and rupture discs",

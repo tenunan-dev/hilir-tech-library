@@ -1,0 +1,26 @@
+{
+  "id": "retro-zee-eng-com-zeepod-d7ab155",
+  "name": "ZEEPod page and blog (ZEE Engineering)",
+  "url": "https://zee-eng.com/zeepod",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS"
+  ],
+  "disciplines": [
+    "CIV",
+    "ROT",
+    "MAT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "ZEE Engineering Sdn Bhd",
+  "access": "open",
+  "licence": "publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Read directly with WebFetch; vendor source, specs are vendor-stated."
+}

@@ -1,0 +1,168 @@
+{
+  "id": "kakap-gumusut-unitized-field-block-k-block-j",
+  "name": "Kakap-Gumusut unitized field, Block K / Block J",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Unitized with Shell's Gumusut discovery; Murphy interest reduced through unitization and redeterminations to 6.35% by 2018.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Kikeh first production",
+      "date": "2007",
+      "source": {
+        "url": "http://supplybase.blogspot.com/2013/11/murphy-oil-malaysia.html"
+      }
+    },
+    {
+      "event": "East Patricia and Siakap North discoveries announced",
+      "date": "2009",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-additional-discoveries-malaysia",
+        "source_id": "retro-ir-murphyoilcorp-com-murphy-oil-announces-addi-69d7672"
+      }
+    },
+    {
+      "event": "Kakap-Gumusut full-field production startup",
+      "date": "2014",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm",
+        "source_id": "retro-sec-gov-mur-20141231x10k-htm-dafb5db"
+      }
+    },
+    {
+      "event": "SK314A and SK405B exploration commitments",
+      "date": "2018",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+        "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d"
+      }
+    },
+    {
+      "event": "Kikeh deepwater gas-lift and Malaysia free cash flow",
+      "date": "2018",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+        "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "finding and development cost, company-wide",
+      "year": 2018,
+      "basis": "Murphy 2018 annual report: 166% organic reserve replacement with finding and development costs below $11/BOE; dollar year 2018",
+      "value": 11,
+      "unit": "USD per barrel of oil equivalent (less than)",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+        "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d"
+      }
+    },
+    {
+      "metric": "realised oil price, company-wide",
+      "year": 2018,
+      "basis": "Murphy 2018 annual report: $64/bbl realised price in 2018; dollar year 2018",
+      "value": 64,
+      "unit": "USD per barrel",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+        "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d"
+      }
+    },
+    {
+      "metric": "write-off of prior-year Kenarong and Pertang well costs",
+      "year": 2014,
+      "basis": "Murphy 2014 Form 10-K: prior-year well costs of $47.4 million related to Kenarong and Pertang written off in 2014 after PETRONAS rejected an extension of the gas holding agreement; dollar year not stated in filing",
+      "value": 47.4,
+      "unit": "USD million",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm",
+        "source_id": "retro-sec-gov-mur-20141231x10k-htm-dafb5db"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Murphy Oil (operator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Murphy Oil (pre-2019)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS (FLNG)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PTTEP (post-acquisition operator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+      "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d",
+      "note": "Unitized with Shell's Gumusut discovery; Murphy interest reduced through unitiza"
+    },
+    {
+      "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+      "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d"
+    },
+    {
+      "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-additional-discoveries-malaysia",
+      "source_id": "retro-ir-murphyoilcorp-com-murphy-oil-announces-addi-69d7672"
+    },
+    {
+      "url": "http://supplybase.blogspot.com/2013/11/murphy-oil-malaysia.html",
+      "note": "Malaysia's first deepwater development, discovered 2002, first production 2007, spar plus FPSO; operated by Murphy with 80% interest at startup."
+    },
+    {
+      "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+      "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d",
+      "note": "Unitized with Shell's Gumusut discovery; Murphy interest reduced through unitization and redeterminations to 6.35% by 2018."
+    },
+    {
+      "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+      "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d",
+      "note": "Unitized development operated by Murphy with a tie-back to Kikeh; discovered 2009."
+    },
+    {
+      "url": "https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63",
+      "source_id": "retro-ir-murphyoilcorp-com-612fc5f0-5d77-4441-a7c0-5-de2bc8d",
+      "note": "SK314A acquired May 2013, SK405B acquired November 2017, SK2C acquired February 2015; all 59.5% or 50% Murphy interests with exploration well commitments."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Kikeh, Kakap, Siakap and Rotan detailed technology, processing and export specifications",
+      "why": "The fetched sources give water depths, capacities and production but not detailed processing trains, export systems or equipment vendors.",
+      "next_action": "Locate Kikeh/Kakap technical papers (SPE/Offshore Technology Conference) and vendor case studies."
+    },
+    {
+      "what": "Incidents, uptime, workovers and decommissioning for the deepwater assets",
+      "why": "No field-specific reliability history was present in the pages read; the only safety metric was company-wide and non-numeric.",
+      "next_action": "Search regulatory incident databases and operator reliability reports."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Murphy Malaysia assets). Pages actually read with WebFetch: A Barrel Full Sarawak Gas Project; Murphy 2005, 2012 and 2014 Forms 10-K (SEC; 2014 via r.jina.ai reader proxy because of response size); Murphy "
+}

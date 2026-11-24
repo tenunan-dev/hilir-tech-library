@@ -1,0 +1,60 @@
+{
+  "id": "sk309-sk311-blocks-murphy-now-pttep",
+  "name": "SK309 & SK311 blocks (Murphy / now PTTEP)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Offshore Sarawak; report index mentions capital and operating cost tables that would be relevant to this retrospective but are not publicly visible.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Wood Mackenzie SK309 & SK311 asset report dated",
+      "date": "2026",
+      "source": {
+        "url": "https://www.woodmac.com/reports/upstream-oil-and-gas-sk309-and-sk311-lng-2297666/",
+        "source_id": "retro-woodmac-com-4145a4e"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Wood Mackenzie",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.woodmac.com/reports/upstream-oil-and-gas-sk309-and-sk311-lng-2297666/",
+      "source_id": "retro-woodmac-com-4145a4e",
+      "note": "Offshore Sarawak; report index mentions capital and operating cost tables that w"
+    },
+    {
+      "url": "https://www.woodmac.com/reports/upstream-oil-and-gas-sk309-and-sk311-lng-2297666/",
+      "source_id": "retro-woodmac-com-4145a4e"
+    },
+    {
+      "url": "https://www.woodmac.com/reports/upstream-oil-and-gas-sk309-and-sk311-lng-2297666/",
+      "source_id": "retro-woodmac-com-4145a4e",
+      "note": "Offshore Sarawak; report index mentions capital and operating cost tables that would be relevant to this retrospective but are not publicly visible."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Capital costs and operating costs for SK309 & SK311, 2018-2034",
+      "why": "Wood Mackenzie index confirms the tables exist but the figures require purchase; no figure is visible on the read page.",
+      "next_action": "Obtain licensed access and transcribe the 'Capital Costs Pre-2018 to 2026 (US$ million)' and 'Operating Costs 2026 to 2034 (US$ million)' tables with their stated basis."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

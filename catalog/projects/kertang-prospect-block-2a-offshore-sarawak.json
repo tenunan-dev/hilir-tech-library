@@ -1,0 +1,106 @@
+{
+  "id": "kertang-prospect-block-2a-offshore-sarawak",
+  "name": "Kertang prospect (Block 2A, offshore Sarawak)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Deepwater exploration prospect (not a producing asset) included as the forward end of the 20-year retrospective: operator INPEX, Seascape 10%, drilling approved for 2026-27.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Block award",
+      "date": "2023",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      }
+    },
+    {
+      "event": "Farm-out to INPEX",
+      "date": "2025",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      }
+    },
+    {
+      "event": "Phase 2 exploration approval",
+      "date": "2025",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "INPEX (operator, 42.5%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS (40%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Seascape (10%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETROS (7.5%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "ERCE (CPR)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "CGG (2015 3D seismic)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://seascape-energy.com/operations-malaysia/",
+      "source_id": "retro-seascape-energy-com-32b78bb",
+      "note": "Deepwater exploration prospect (not a producing asset) included as the forward e"
+    },
+    {
+      "url": "https://seascape-energy.com/operations-malaysia/",
+      "source_id": "retro-seascape-energy-com-32b78bb"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Discovery / production",
+      "why": "Prospect only, no discovery",
+      "next_action": "Track 2026-27 drilling results"
+    },
+    {
+      "what": "Capex",
+      "why": "Only third-party well cost estimate",
+      "next_action": "Find operator budget"
+    },
+    {
+      "what": "Incidents",
+      "why": "No operations yet",
+      "next_action": "Not applicable"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

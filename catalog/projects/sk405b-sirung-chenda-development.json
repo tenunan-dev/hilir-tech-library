@@ -1,0 +1,159 @@
+{
+  "id": "sk405b-sirung-chenda-development",
+  "name": "SK405B Sirung & Chenda development",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia (offshore Sarawak)",
+  "location": "Malaysia (offshore Sarawak)",
+  "status": "operating",
+  "description": "PTTEP first operated Malaysian greenfield; central processing platform plus wellhead platform; zero routine flaring and remote operations.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Sirung-1 discovery",
+      "date": "2021",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      }
+    },
+    {
+      "event": "FID for first operated Malaysian project",
+      "date": "2026",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      }
+    },
+    {
+      "event": "CPP EPC agreement signing",
+      "date": "2026",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      }
+    },
+    {
+      "event": "MFDP price agreement awarded",
+      "date": "2026",
+      "source": {
+        "url": "https://mhb.com.my/mhb-group-secures-epc-contract-from-pttep-strengthening-its-position-as-a-leading-offshore-solutions-provider",
+        "source_id": "retro-mhb-com-my-mhb-group-secures-epc-contract-from-a524dd6"
+      }
+    },
+    {
+      "event": "First oil targeted",
+      "date": "2028",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Brooke CPP EPC contract (SK405B Sirung/Chenda)",
+      "year": 2026,
+      "basis": "The Star 1 Jun 2026: RM1bil EPC contract awarded by PTTEP Sarawak Oil Ltd; largest EPC contract secured by Brooke in O&G.",
+      "value": 1.0,
+      "unit": "MYR",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      }
+    },
+    {
+      "metric": "Expected local procurement",
+      "year": 2026,
+      "basis": "The Star 2026: nearly RM480 million channelled through local procurement (100% locally sourced materials and engineering items).",
+      "value": 480,
+      "unit": "MYR",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "PTTEP Sarawak Oil Ltd (operator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Brooke Holdings Sdn Bhd (CPP EPC)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Mitsui Energy Development Co Ltd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PTTEP Sarawak Oil Ltd / PTTEP HK Oil Ltd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Malaysia Marine and Heavy Engineering",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Pasir Gudang, Johor yard",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+      "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d",
+      "note": "PTTEP first operated Malaysian greenfield; central processing platform plus well"
+    },
+    {
+      "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+      "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+    },
+    {
+      "url": "https://mhb.com.my/mhb-group-secures-epc-contract-from-pttep-strengthening-its-position-as-a-leading-offshore-solutions-provider",
+      "source_id": "retro-mhb-com-my-mhb-group-secures-epc-contract-from-a524dd6"
+    },
+    {
+      "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+      "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d",
+      "note": "PTTEP first operated Malaysian greenfield; central processing platform plus wellhead platform; zero routine flaring and remote operations."
+    },
+    {
+      "url": "https://mhb.com.my/mhb-group-secures-epc-contract-from-pttep-strengthening-its-position-as-a-leading-offshore-solutions-provider",
+      "source_id": "retro-mhb-com-my-mhb-group-secures-epc-contract-from-a524dd6",
+      "note": "Up to 11 standardised WHPs over four years; four work orders awarded; fabricated at Pasir Gudang."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "MHB MFDP contract value",
+      "why": "MHB press release gives scope and schedule but no value.",
+      "next_action": "Check MHB Bursa announcement for the price agreement value."
+    },
+    {
+      "what": "SK405B water depth",
+      "why": "Neither read page states field water depth.",
+      "next_action": "Fetch PTTEP project page or SK405B FID release."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

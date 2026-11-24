@@ -1,0 +1,25 @@
+{
+  "id": "retro-mat-class-c-astm-a-36-caisson-steel-d-t-30",
+  "name": "Class C ASTM A-36 caisson steel (D/t > 30)",
+  "material_category": "structural-steel",
+  "description": "Class C ASTM A-36 caisson steel (D/t > 30) named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "wall thickness ratio condition",
+      "unit": "ratio",
+      "basis": "Offshore Magazine Apr 1999: for D/t greater than 30, Class C material ASTM A-36 can be used",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+        "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+      },
+      "year": 1999
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+      "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

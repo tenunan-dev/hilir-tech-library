@@ -1,0 +1,109 @@
+{
+  "id": "tanjong-baram-field",
+  "name": "Tanjong Baram field",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia (offshore Sarawak)",
+  "location": "Malaysia (offshore Sarawak)",
+  "status": "operating",
+  "description": "EQ Petroleum/EnQuest, 10 m water, 8 km tieback to West Lutong-A.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Tanjong Baram contract award",
+      "date": "2014",
+      "source": {
+        "url": "https://www.offshore-mag.com/business-briefs/company-news/article/16782486/2h-offshore-to-deliver-lightweight-conductor-supported-platform",
+        "source_id": "retro-offshore-mag-com-2h-offshore-to-deliver-lightw-7c52230"
+      }
+    },
+    {
+      "event": "D28 Phase 1 WHP installed",
+      "date": "2019",
+      "source": {
+        "url": "https://www.offshore-mag.com/field-development/article/16790310/2h-offshore-jackup-sets-down-lightweight-platform-offshore-sarawak",
+        "source_id": "retro-offshore-mag-com-2h-offshore-jackup-sets-down-63a2842"
+      }
+    },
+    {
+      "event": "D18 Phase 2 WHP installed",
+      "date": "2020",
+      "source": {
+        "url": "https://www.oedigital.com/news/478690-2h-offshore-installs-wellhead-platform-offshore-malaysia",
+        "source_id": "retro-oedigital-com-478690-2h-offshore-installs-well-111268e"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "2H Offshore",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "OceanMight Sdn Bhd (local fabricator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "OceanMight Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "EQ Petroleum Developments Malaysia Sdn Bhd (EnQuest subsidiary)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/business-briefs/company-news/article/16782486/2h-offshore-to-deliver-lightweight-conductor-supported-platform",
+      "source_id": "retro-offshore-mag-com-2h-offshore-to-deliver-lightw-7c52230",
+      "note": "EQ Petroleum/EnQuest, 10 m water, 8 km tieback to West Lutong-A."
+    },
+    {
+      "url": "https://www.offshore-mag.com/field-development/article/16790310/2h-offshore-jackup-sets-down-lightweight-platform-offshore-sarawak",
+      "source_id": "retro-offshore-mag-com-2h-offshore-jackup-sets-down-63a2842"
+    },
+    {
+      "url": "https://www.oedigital.com/news/478690-2h-offshore-installs-wellhead-platform-offshore-malaysia",
+      "source_id": "retro-oedigital-com-478690-2h-offshore-installs-well-111268e"
+    },
+    {
+      "url": "https://www.offshore-mag.com/business-briefs/company-news/article/16782486/2h-offshore-to-deliver-lightweight-conductor-supported-platform",
+      "source_id": "retro-offshore-mag-com-2h-offshore-to-deliver-lightw-7c52230"
+    },
+    {
+      "url": "https://www.offshore-mag.com/field-development/article/16790310/2h-offshore-jackup-sets-down-lightweight-platform-offshore-sarawak",
+      "source_id": "retro-offshore-mag-com-2h-offshore-jackup-sets-down-63a2842",
+      "note": "PETRONAS Carigali-operated field, OceanMight fabricator, 35 m water."
+    },
+    {
+      "url": "https://www.oedigital.com/news/478690-2h-offshore-installs-wellhead-platform-offshore-malaysia",
+      "source_id": "retro-oedigital-com-478690-2h-offshore-installs-well-111268e",
+      "note": "OceanMight for PCSB, 35 m water, eighth 2H conductor-supported installation."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Contract values for D28/D18/Tanjong Baram",
+      "why": "None of the three read articles states a contract value.",
+      "next_action": "Check 2H/Acteon press releases or OceanMight filings for values."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

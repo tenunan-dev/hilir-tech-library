@@ -1,0 +1,25 @@
+{
+  "id": "retro-mat-sacrificial-anodes",
+  "name": "Sacrificial anodes",
+  "material_category": "corrosion-protection",
+  "description": "Sacrificial anodes named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "Application",
+      "unit": "component",
+      "basis": "1999 Tarpon article: cathodic protection provided by sacrificial anodes on caisson and anchor piles; cable ends speltered with epoxy resins.",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+        "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+      },
+      "year": 1999
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+      "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

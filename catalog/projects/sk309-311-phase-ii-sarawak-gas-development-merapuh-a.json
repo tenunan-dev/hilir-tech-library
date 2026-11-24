@@ -1,0 +1,65 @@
+{
+  "id": "sk309-311-phase-ii-sarawak-gas-development-merapuh-a",
+  "name": "SK309/311 Phase II Sarawak Gas Development - Merapuh-A",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Merapuh is one of the phase-1/phase-2 gas fields (with Golok and Serampang) feeding the Bintulu LNG complex.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "EPCIC awarded for Merapuh-A production topside, SK309/311 Phase II",
+      "date": "2011",
+      "source": {
+        "url": "https://brookeholding.com/epcic-of-merapuh-a-production-topside-for-sk309-311-phase-ii-sarawak-gas-development-project/",
+        "source_id": "retro-brookeholding-com-38975d1"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Brooke Holding / Brooke Dockyard",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Murphy Sarawak Oil Company Limited",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://brookeholding.com/epcic-of-merapuh-a-production-topside-for-sk309-311-phase-ii-sarawak-gas-development-project/",
+      "source_id": "retro-brookeholding-com-38975d1",
+      "note": "Merapuh is one of the phase-1/phase-2 gas fields (with Golok and Serampang) feed"
+    },
+    {
+      "url": "https://brookeholding.com/epcic-of-merapuh-a-production-topside-for-sk309-311-phase-ii-sarawak-gas-development-project/",
+      "source_id": "retro-brookeholding-com-38975d1"
+    },
+    {
+      "url": "https://brookeholding.com/epcic-of-merapuh-a-production-topside-for-sk309-311-phase-ii-sarawak-gas-development-project/",
+      "source_id": "retro-brookeholding-com-38975d1",
+      "note": "Merapuh is one of the phase-1/phase-2 gas fields (with Golok and Serampang) feeding the Bintulu LNG complex."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Merapuh-A topside EPCIC contract value",
+      "why": "Contractor project page gives scope and dates but no price.",
+      "next_action": "Check Brooke Holding annual reports 2011-2013 or Murphy/SapuraKencana announcements for a stated value."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

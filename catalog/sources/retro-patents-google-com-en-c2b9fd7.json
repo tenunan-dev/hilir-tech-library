@@ -1,0 +1,24 @@
+{
+  "id": "retro-patents-google-com-en-c2b9fd7",
+  "name": "Google Patents US5498107A",
+  "url": "https://patents.google.com/patent/US5498107A/en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Google Patents",
+  "access": "open",
+  "licence": "public patent record",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Read via r.jina.ai mirror; dates, assignee and claims verified."
+}

@@ -1,0 +1,139 @@
+{
+  "id": "serendah",
+  "name": "Serendah",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Marginal oil and gas field in 30 m water, 35 km from Bintulu, tied into Merapuh-Golok pipeline.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Murphy starts two wellhead platform projects including Serendah",
+      "date": "2011",
+      "source": {
+        "url": "https://www.upstreamonline.com/weekly/murphy-double-for-malaysia/1-1-977294",
+        "source_id": "retro-upstreamonline-com-1-1-977294-b8b611e"
+      }
+    },
+    {
+      "event": "MHB contracted for TNAG wellhead facilities",
+      "date": "2018",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      }
+    },
+    {
+      "event": "Rosmari-Marjoram unmanned platform first gas",
+      "date": "2026",
+      "source": {
+        "url": "https://www.offshore-mag.com/production/news/55419430/shell-shell-brings-rosmari-marjoram-gas-development-onstream-offshore-malaysia",
+        "source_id": "retro-offshore-mag-com-shell-shell-brings-rosmari-ma-c99b78d"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "EPCI and pre-commissioning contract for TNAG pipeline system",
+      "year": 2019,
+      "basis": "Offshore Technology: Alam Maritim Resources Berhad received a $59m contract in April 2019; dollar year not stated (award date April 2019 reported)",
+      "value": 59000000,
+      "unit": "USD",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Tarpon Platform Systems",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Murphy Oil (operator at the time of the article)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Vestigo Petroleum (operator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "MHB / MMHE",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Reach Integrated",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.upstreamonline.com/weekly/murphy-double-for-malaysia/1-1-977294",
+      "source_id": "retro-upstreamonline-com-1-1-977294-b8b611e",
+      "note": "Marginal oil and gas field in 30 m water, 35 km from Bintulu, tied into Merapuh-"
+    },
+    {
+      "url": "https://www.tarponsystems.com/epcic-for-zuhal-east-development-project",
+      "source_id": "retro-tarponsystems-com-epcic-for-zuhal-east-develop-8cfcbcd"
+    },
+    {
+      "url": "https://www.upstreamonline.com/weekly/murphy-double-for-malaysia/1-1-977294",
+      "source_id": "retro-upstreamonline-com-1-1-977294-b8b611e"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field/",
+      "source_id": "retro-offshore-technology-com-631cba7"
+    },
+    {
+      "url": "https://www.offshore-mag.com/production/news/55419430/shell-shell-brings-rosmari-marjoram-gas-development-onstream-offshore-malaysia",
+      "source_id": "retro-offshore-mag-com-shell-shell-brings-rosmari-ma-c99b78d"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.klmtechgroup.com/PDF/ess/PROJECT_STANDARD_AND_SPECIFICATIONS_offshore_technical_safety_Rev01.pdf",
+      "source_id": "retro-r-jina-ai-project-standard-and-specifications-0ee3c51"
+    },
+    {
+      "url": "https://www.tarponsystems.com/epcic-for-zuhal-east-development-project",
+      "source_id": "retro-tarponsystems-com-epcic-for-zuhal-east-develop-8cfcbcd",
+      "note": "Remote monitoring facilities from SUPG-B implemented to monitor the unmanned platform; minimal manual intervention and minimum facilities on board."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Cost and reliability of minimum-facility WHPs",
+      "why": "No published availability, visit frequency or unit cost for Zuhal East, Serendah or Anjung Kecil WHPs",
+      "next_action": "Seek operator asset performance summaries or regulatory filings"
+    },
+    {
+      "what": "Upstream ZEEPod replication article",
+      "why": "Body not readable (paywall/standfirst only)",
+      "next_action": "Try authorised subscription or cached copy; no figures asserted beyond standfirst"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year technology evolution). Evidence-first 20-year retrospective of minimum-facility offshore wellhead platforms (WHPs) in Malaysian/SE Asian waters, built only from pages and PDFs actually read (several PDFs"
+}

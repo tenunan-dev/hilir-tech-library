@@ -1,0 +1,103 @@
+{
+  "id": "malaysia-offshore-decommissioning-programme-petronas-mpm",
+  "name": "Malaysia offshore decommissioning programme (PETRONAS MPM)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Removals, P&A and selective repurposing; five rigs-to-reef conversions since 2004 including Baram-8, Sarawak; case-by-case approach between full removal, partial decommissioning and repurposing.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Ophir wellhead platform abandoned and relocated to Jitang",
+      "date": "2019",
+      "source": {
+        "url": "https://www.sptoffshore.com/projects/ophir-relocation/"
+      }
+    },
+    {
+      "event": "T7 Global completes Zuhal East well abandonment",
+      "date": "2026",
+      "source": {
+        "url": "https://offsnet.com/content/asia-pacific/malaysias-offshore-decommissioning-accelerates-in-2026",
+        "source_id": "retro-offsnet-com-malaysias-offshore-decommissioning-1845807"
+      }
+    },
+    {
+      "event": "PETRONAS Carigali tender for removal of up to 31 platforms",
+      "date": "2026",
+      "source": {
+        "url": "https://offsnet.com/content/asia-pacific/malaysias-offshore-decommissioning-accelerates-in-2026",
+        "source_id": "retro-offsnet-com-malaysias-offshore-decommissioning-1845807"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "T7 Global Berhad / Tanjung Offshore Services",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "HELMS Geomarine",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Redtech Offshore",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "SPT Offshore (Ophir relocation)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://offsnet.com/content/asia-pacific/malaysias-offshore-decommissioning-accelerates-in-2026",
+      "source_id": "retro-offsnet-com-malaysias-offshore-decommissioning-1845807",
+      "note": "Removals, P&A and selective repurposing; five rigs-to-reef conversions since 200"
+    },
+    {
+      "url": "https://offsnet.com/content/asia-pacific/malaysias-offshore-decommissioning-accelerates-in-2026",
+      "source_id": "retro-offsnet-com-malaysias-offshore-decommissioning-1845807"
+    },
+    {
+      "url": "https://offsnet.com/content/asia-pacific/malaysias-offshore-decommissioning-accelerates-in-2026",
+      "source_id": "retro-offsnet-com-malaysias-offshore-decommissioning-1845807",
+      "note": "Removals, P&A and selective repurposing; five rigs-to-reef conversions since 2004 including Baram-8, Sarawak; case-by-case approach between full removal, partial decommissioning and repurposing."
+    },
+    {
+      "url": "https://www.sptoffshore.com/projects/ophir-relocation/"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Actual decommissioning cost for a Malaysian WHP (e.g. Ophir, Baram-8)",
+      "why": "Read pages give dates and methods but no currency figure; the OnePetro/Ophir and contractor pages were only seen as search snippets, not read.",
+      "next_action": "WebFetch the OTC Asia paper and SPT Offshore page; if they print a contract value, record it with year, basis and URL."
+    },
+    {
+      "what": "Value of the PETRONAS up-to-31-platform removal tender",
+      "why": "2026 article reports the tender but not its value.",
+      "next_action": "Check PETRONAS/MPM tender notices or contractor Bursa announcements for awarded package values."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

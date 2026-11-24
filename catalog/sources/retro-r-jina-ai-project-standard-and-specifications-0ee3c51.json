@@ -1,0 +1,27 @@
+{
+  "id": "retro-r-jina-ai-project-standard-and-specifications-0ee3c51",
+  "name": "ISO 13702",
+  "url": "https://r.jina.ai/https://www.klmtechgroup.com/PDF/ess/PROJECT_STANDARD_AND_SPECIFICATIONS_offshore_technical_safety_Rev01.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE",
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Standards body",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Petroleum and natural gas industries - Control and mitigation of fires and explosions on offshore production installations"
+}

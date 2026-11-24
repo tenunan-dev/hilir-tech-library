@@ -1,0 +1,25 @@
+{
+  "id": "retro-vantrisenergy-com-track-record-a9b9c94",
+  "name": "Hook-up and Commissioning Track Record (Vantris Energy / Sapura Energy)",
+  "url": "https://vantrisenergy.com/operations-maintenance/hook-up-and-commissioning/track-record",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS"
+  ],
+  "disciplines": [
+    "CIV",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Vantris Energy Berhad (formerly Sapura Energy)",
+  "access": "open",
+  "licence": "publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Read directly with WebFetch."
+}

@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-920 vendor records covering 324 technologies. One record per vendor in
+1074 vendor records covering 325 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -201,7 +201,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Survitec Group | — | oem, supplier | Plant structural steel design |
 | Tank Built Pte Ltd | — | oem, supplier | Plant structural steel design |
 | TBG Technologies (Chokusen), Japan | — | oem, supplier | Plant structural steel design |
-| Technip (now TechnipFMC) | — | oem, service | Fixed platform topsides and substructures |
 | Technip / TechnipFMC | — | oem, service | Fixed platform topsides and substructures |
 | Technip Energies Loading Systems | — | oem, supplier | Plant structural steel design |
 | Technip Samsung Consortium | — | oem, service | Fixed platform topsides and substructures |
@@ -212,7 +211,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | TheNavalArch | — | oem, service | Fixed platform topsides and substructures |
 | Thunder Cranes | — | oem, service | Fixed platform topsides and substructures |
 | TII SCHEUERLE | — | oem, supplier | Plant structural steel design |
-| Transocean | — | oem, service | Fixed platform topsides and substructures |
 | Trelleborg | — | oem, service | Fixed platform topsides and substructures |
 | Trelleborg Marine & Infrastructure | — | oem, supplier | Plant structural steel design |
 | Trelleborg Marine and Infrastructure | — | oem, service | Fixed platform topsides and substructures |
@@ -310,7 +308,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Seatrium](https://www.seatrium.com) | Singapore | epc, oem | LNG bunkering |
 | [Sumitomo Precision Products](https://www.spp.co.jp) | Japan | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers) |
 | [Titan LNG](https://titan-lng.com) | Netherlands | operator | Bio-LNG and liquefied biomethane |
-| [TotalEnergies](https://totalenergies.com) | France | operator | LNG bunkering |
 | [Wison](https://www.wison-energies.com) | China | epc, developer | Floating LNG (FLNG); Small and mid-scale modular LNG |
 | [Worley](https://www.worley.com) | Australia | epc, service | Sulfur recovery (Claus, tail gas treating, SuperClaus) |
 
@@ -602,7 +599,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | UreaKnowHow B.V. | — | oem, supplier | Ammonia and urea |
 | [W. R. Grace](https://grace.com) | USA | supplier | Polypropylene (gas phase, bulk) |
 | [Wison](https://www.wison-energies.com) | China | epc, developer | Steam cracking (naphtha, ethane, LPG) |
-| [Wood](https://www.woodplc.com) | UK | epc, service | Steam cracking (naphtha, ethane, LPG) |
 | [Worley](https://www.worley.com) | Australia | epc, service | Steam cracking (naphtha, ethane, LPG) |
 
 ## PRC: Process systems
@@ -835,7 +831,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Sinopec Engineering Group | China | epc, licensor | Crude and vacuum distillation with heat integration; Crude-to-chemicals complexes |
 | [SK Ecoplant](https://www.skecplant.com) | South Korea | epc | Crude and vacuum distillation with heat integration |
 | [SUEZ Water Technologies](https://www.suezwatertechnologies.com) | France | supplier | Wastewater treatment (API separators, DAF, biological, MBR) |
-| [Wood](https://www.woodplc.com) | UK | epc, service | Crude and vacuum distillation with heat integration |
 | [Worley](https://www.worley.com) | Australia | epc, service | Crude and vacuum distillation with heat integration |
 | [Yokogawa Electric](https://www.yokogawa.com/) | Japan | oem, integrator | Advanced process control and real-time optimisation |
 
@@ -877,35 +872,63 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [ABB](https://new.abb.com) | Switzerland | oem, integrator | Offshore platform electrification (power from shore, offshore wind) |
 | ABB Wellhead Management System | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | ABS | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| ADNOC | — | supplier | Wellhead platform control, safety and communication systems |
+| Aerodyne Group | — | supplier | Wellhead platform control, safety and communication systems |
+| Alam Maritim (M) Sdn Bhd | — | supplier | Wellhead platform control, safety and communication systems |
+| Alam Maritim Resources Berhad | — | supplier | Wellhead platform control, safety and communication systems |
+| Alam Maritim Resources Berhad + Cortez Subsea (pipeline EPCI) | — | supplier | Wellhead platform control, safety and communication systems |
 | Allmarc Industries | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| AMEC (FEED) | — | supplier | Wellhead platform control, safety and communication systems |
 | API | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Aquaterra Energy | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Aquatic | — | supplier | Wellhead platform control, safety and communication systems |
 | Ariel Corporation (with Hoerbiger) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | ASME | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [AspenTech](https://www.aspentech.com) | USA | supplier | Production optimisation and digital oilfield; Reservoir simulation (black oil, compositional, thermal) |
+| AWT International (field-development study) | — | supplier | Wellhead platform control, safety and communication systems |
 | [Axter](https://axter.no) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
 | Baker Hughes / Emerson Roxar | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Balance Point Control (BPC) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| BC Petroleum (client) | — | supplier | Wellhead platform control, safety and communication systems |
 | [BiSN Well Tools](https://bisn.com) | United Kingdom | service, supplier | Well plug and abandonment technologies (thermite, bismuth plugs); Well plug and abandonment (cement plugs, rig-based) |
+| Blackstone Process Solutions (FEED) | — | supplier | Wellhead platform control, safety and communication systems |
 | Bluewater Energy Services | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Booksite (Elsevier) | — | service | Wellhead platform production process systems |
 | [Borets Company](https://www.borets.ru) | Russia | oem, service | Electric submersible pumps |
+| Boustead Penang Shipyard Sdn Bhd / BHIC | — | supplier | Wellhead platform control, safety and communication systems |
 | [BP](https://www.bp.com) | United Kingdom | developer, licensor, operator | Waterflooding and low-salinity water injection |
+| BPMT (PETRONAS-Schlumberger gain-share alliance) | — | supplier | Wellhead platform control, safety and communication systems |
+| Brooke Dockyard | — | supplier | Wellhead platform control, safety and communication systems |
+| Brooke Dockyard / Brooke Holding | — | supplier | Wellhead platform control, safety and communication systems |
+| Brooke Dockyard and Engineering Works (WHP FEED/EPCIC) | — | supplier | Wellhead platform control, safety and communication systems |
+| Brooke Dockyard and Engineering Works Corp (fabricator) | — | supplier | Wellhead platform control, safety and communication systems |
+| Brooke Dockyard and Engineering Works Corporation (EPC, fixed offshore structure) | — | supplier | Wellhead platform control, safety and communication systems |
+| Brooke Holding / Brooke Dockyard | — | supplier | Wellhead platform control, safety and communication systems |
+| Brooke Holding Sdn Bhd (formerly Brooke Dockyard) | — | supplier | Wellhead platform control, safety and communication systems |
+| Brooke Holdings Sdn Bhd (CPP EPC) | — | supplier | Wellhead platform control, safety and communication systems |
+| Brunei Energy Exploration (10%) | — | supplier | Wellhead platform control, safety and communication systems |
 | [BW Offshore](https://www.bwoffshore.com) | Norway | operator, oem | FPSO and floating production (TLP, spar, semi-submersible) |
 | CAMTOP Oilfield Tools | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | CAPE Holland | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | CDI Oil & Gas | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | CECO Environmental (Peerless Separation & Filtration) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Cenovus Energy](https://www.cenovus.com) | Canada | operator | Thermal EOR (steam flood, SAGD, CSS) |
+| certifying agencies and peer reviewers (unnamed) | — | supplier | Wellhead platform control, safety and communication systems |
 | [CETCO](https://www.mineralstech.com/cetco) | US | supplier | Produced water treatment (hydrocyclones, flotation, membranes) |
 | chemical vendors not named on fetched pages | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Chemsain Konsultant Sdn Bhd (EIA qualified person) | — | supplier | Wellhead platform control, safety and communication systems |
 | [Chevron](https://www.chevron.com) | USA | operator | Thermal EOR (steam flood, SAGD, CSS) |
 | [Cimarron Energy (Aereon)](https://aereon.com) | USA | oem, service | Flare gas recovery and zero routine flaring |
 | [CNPC](https://www.cnpc.com.cn) | China | operator, developer | Gas hydrate production |
 | [Cognite](https://www.cognite.com) | Norway | supplier | AI-assisted seismic interpretation and history matching; Production optimisation and digital oilfield |
 | [Computer Modelling Group](https://www.cmgl.ca) | Canada | supplier | Reservoir simulation (black oil, compositional, thermal) |
+| Conoco Indonesia Inc. Ltd (Block B PSC contractor, Hang Tuah operator) | — | supplier | Wellhead platform control, safety and communication systems |
+| ConocoPhillips Sabah | — | supplier | Wellhead platform control, safety and communication systems |
 | Consilium Safety | — | service | Wellhead platform safety and emergency equipment |
+| Construcciones Maritimas Mexicanas S.A. de C.V. | — | supplier | Wellhead platform control, safety and communication systems |
 | [Core Laboratories](https://www.corelab.com) | USA | service | Digital core and special core analysis |
+| Cortez Subsea | — | supplier | Wellhead platform control, safety and communication systems |
+| Cortez Subsea Ltd | — | supplier | Wellhead platform control, safety and communication systems |
 | CPI by Howden | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | CRA (Combustion Research Associates) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | CRP Subsea | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
@@ -913,29 +936,45 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | DeepOcean | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Deepsea Technologies, Inc. | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Denbury](https://www.denbury.com) | USA | operator | CO2 enhanced oil recovery (miscible CO2 flooding) |
+| DIALOG Group Berhad (from 15 Nov 2023) | — | supplier | Wellhead platform control, safety and communication systems |
+| DIALOG Resources Sdn Bhd (20% PI in D35/D21/J4) | — | supplier | Wellhead platform control, safety and communication systems |
+| DIALOG Tarpon Offshore Platforms Sdn Bhd (EPC) | — | supplier | Wellhead platform control, safety and communication systems |
 | Dixon Valve & Coupling Company (Dixon Europe) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Dolphin Drilling](https://dolphindrilling.com) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
 | [Dover Corporation](https://www.dovercorporation.com) | USA | oem, supplier | Rod lift and progressing cavity pumps |
+| Dril-Quip Asia Pacific / UMW Petrodril (subsea wellheads, risers, trees) | — | supplier | Wellhead platform control, safety and communication systems |
+| Drydocks World (turret fabrication) | — | supplier | Wellhead platform control, safety and communication systems |
 | [DuPont Water Solutions](https://www.dupont.com/water.html) | USA | supplier | Seawater sulfate removal for injection water |
+| E&P Malaysia Ventures Sdn Bhd | — | supplier | Wellhead platform control, safety and communication systems |
 | Emerson (duplex stainless steel option on Roxar 2600, page read) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Emerson Automation Solutions | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Enefit](https://www.enefit.com) | Estonia | operator, developer | Oil shale retorting |
+| Engineering Works Corporation | — | supplier | Wellhead platform control, safety and communication systems |
 | Enhydra | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Enhydra Ltd | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| EnQuest (30% PI acquisition proposed 2026) | — | supplier | Wellhead platform control, safety and communication systems |
+| EnQuest PLC (proposed acquirer) | — | supplier | Wellhead platform control, safety and communication systems |
 | [Enventure Global Technology](https://www.enventuregt.com) | USA | oem | Casing drilling and expandable tubulars |
 | EPCM Holdings | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| EPOMS Energy | — | supplier | Wellhead platform control, safety and communication systems |
 | eProcess Technologies | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| EQ Petroleum Developments Malaysia Sdn Bhd (EnQuest subsidiary) | — | supplier | Wellhead platform control, safety and communication systems |
+| ERCE (CPR) | — | supplier | Wellhead platform control, safety and communication systems |
 | ERGIL | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | EWFM (E W Fuel Management Ltd) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Exedra AS](https://exedra.no) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
 | [Exxon Neftegas](https://www.exxonmobil.com) | Russia | operator | Extended-reach and multilateral wells |
 | ExxonMobil (FLEXSORB, OASE sulfexx joint development) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Fame Klaut (transport and installation) | — | supplier | Wellhead platform control, safety and communication systems |
 | FGG Web (FGG, Uni Ljubljana) | — | service | Wellhead platform well systems |
 | FieldComm Group (specification owner) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Fisher (Emerson) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | FlareTech | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | FlareTech Inc. | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [FLIR Systems](https://www.flir.com) | USA | oem | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
+| Floatech / TH Heavy Engineering (FPSO owner) | — | supplier | Wellhead platform control, safety and communication systems |
+| FMC (dry trees) | — | supplier | Wellhead platform control, safety and communication systems |
+| Frames (heat exchangers, dew pointing unit) | — | supplier | Wellhead platform control, safety and communication systems |
 | [Frames Group](https://frames-group.com/) | NL | packager, integrator | Produced water treatment (hydrocyclones, flotation, membranes) |
 | [Framo](https://www.onesubsea.slb.com) | Norway | oem | Subsea boosting and multiphase pumps; Subsea separation and water reinjection |
 | FST | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
@@ -943,53 +982,102 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Gassó Equipments S.A. | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | GE Vernova / Baker Hughes | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [GHGSat](https://www.ghgsat.com) | Canada | service | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
+| Global Industries (D30 platform installation) | — | supplier | Wellhead platform control, safety and communication systems |
+| GMOS (FPSO design/project management) | — | supplier | Wellhead platform control, safety and communication systems |
 | [Halliburton](https://www.halliburton.com) | USA | service, supplier | AI-assisted seismic interpretation and history matching; Coiled tubing and well intervention; Hydraulic fracturing (plug-and-perf, electric frac fleets); Intelligent completions and inflow control devices; Managed pressure drilling; Measurement and logging while drilling (MWD/LWD); Production optimisation and digital oilfield; Rotary steerable systems; Sand control (gravel pack, frac pack, screens) |
 | [Halliburton Landmark](https://www.landmark.solutions) | USA | supplier, service | Full-waveform inversion and seismic imaging |
 | [Helmerich & Payne](https://www.hpinc.com) | USA | service | Drilling automation and autonomous rigs |
+| HELMS Geomarine | — | supplier | Wellhead platform control, safety and communication systems |
 | Hitec Products AS (NORWEP listing) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Howden (a Chart Industries company; KK&K, CKD brands) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Howden / Burton Corblin | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Howden / Peter Brotherhood | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Howden Turbo UK (Peter Brotherhood) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Hydropneumatic S.r.l. | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Icon Engineering (frames design) | — | supplier | Wellhead platform control, safety and communication systems |
 | IEEE Houston Section / PCIC | — | service | Wellhead platform production process systems |
+| IKM (riserless mud recovery) | — | supplier | Wellhead platform control, safety and communication systems |
 | IMO text hosted by imorules.com / classification register | — | service | Wellhead platform utility systems |
 | IMO text mirrored by SOLAS/LSA Code (Vercel) | — | service | Wellhead platform utility systems |
 | INNIO / Wartsila | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| INPEX (operator, 42.5%) | — | supplier | Wellhead platform control, safety and communication systems |
+| Institut Francais du Petrole | — | supplier | Wellhead platform control, safety and communication systems |
+| Intec Engineering | — | supplier | Wellhead platform control, safety and communication systems |
 | INTECH Automation & Intelligence | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| INTECSEA (hull/deck/mooring design via other source not read here) | — | supplier | Wellhead platform control, safety and communication systems |
+| InterMoor (Acteon) | — | supplier | Wellhead platform control, safety and communication systems |
 | International Snubbing Services | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Interwell](https://interwell.com) | Norway | service | Well plug and abandonment technologies (thermite, bismuth plugs) |
 | IPS Group BV | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | ISA / ISA100 Wireless Compliance Institute | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | ISA / ISAGCA / ISCI (ISASecure) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | ISS Process (Innovative Synergy Solutions) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| jack-up rig Ron Tappmeyer | — | supplier | Wellhead platform control, safety and communication systems |
 | [JAPEX](https://www.japex.co.jp) | Japan | operator | CO2 enhanced oil recovery (miscible CO2 flooding) |
 | [JEREH](https://www.jereh.com) | China | oem, packager, epc, service, rental | Hydraulic fracturing (plug-and-perf, electric frac fleets) |
 | [JOGMEC](https://www.jogmec.go.jp) | Japan | developer, operator | Gas hydrate production; CO2 enhanced oil recovery (miscible CO2 flooding) |
+| JOGMEC and JGC (methane technology centre partners, separate project) | — | supplier | Wellhead platform control, safety and communication systems |
 | John Zink (Koch Engineered Solutions) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | John Zink Company, LLC (Koch Engineered Solutions) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Jurunature (atmospheric tanks) | — | supplier | Wellhead platform control, safety and communication systems |
+| Jurutera Jasa (Sarawak) Sdn Bhd (engineering consultant) | — | supplier | Wellhead platform control, safety and communication systems |
+| JX Nippon Oil & Gas Exploration (Malaysia) – operator 75% | — | supplier | Wellhead platform control, safety and communication systems |
 | [Kayrros](https://www.kayrros.com) | France | service | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
+| Kencana (Serampang-A platform) | — | supplier | Wellhead platform control, safety and communication systems |
+| Kencana HL (SN-PA topsides EPCC) | — | supplier | Wellhead platform control, safety and communication systems |
+| Kencana HL Sdn Bhd | — | supplier | Wellhead platform control, safety and communication systems |
+| Kencana HL Sdn Bhd / Kencana Petroleum Bhd | — | supplier | Wellhead platform control, safety and communication systems |
+| Kencana Petroleum Berhad | — | supplier | Wellhead platform control, safety and communication systems |
+| Kencana Petroleum Bhd | — | supplier | Wellhead platform control, safety and communication systems |
+| Keppel Shipyard (EPV conversion) | — | supplier | Wellhead platform control, safety and communication systems |
+| Keyfields Helm (soil investigation vessel) | — | supplier | Wellhead platform control, safety and communication systems |
 | Kinder Morgan Treating | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| KLM Technology Group (Johor Bahru, Malaysia) | — | supplier | Wellhead platform control, safety and communication systems |
+| KUFPEC (25%) | — | supplier | Wellhead platform control, safety and communication systems |
+| Labuan Shipyard & Engineering | — | supplier | Wellhead platform control, safety and communication systems |
 | LEWA (LEWA Solutions GmbH) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Liberty Energy](https://libertyenergy.com) | USA | service | Hydraulic fracturing (plug-and-perf, electric frac fleets) |
 | [Liberty Lift Solutions](https://www.libertylift.com) | USA | service, supplier | Plunger lift and hydraulic jet pumps |
 | LONGi Green Energy Technology Co., Ltd. | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Malaysia Marine and Heavy Engineering](https://www.mmhe.com.my) | Malaysia | epc, oem | Fixed jackets and gravity-based structures |
+| Malaysia Shipyard & Engineering / MMHE (fabrication) | — | supplier | Wellhead platform control, safety and communication systems |
 | Marine Safety Forum | — | service | Wellhead platform production process systems |
+| MBSB Investment Bank (estimate commentary) | — | supplier | Wellhead platform control, safety and communication systems |
 | [McDermott](https://www.mcdermott.com) | USA | epc, oem | Subsea production systems (trees, manifolds, umbilicals) |
+| MHB / MMHE | — | supplier | Wellhead platform control, safety and communication systems |
+| MHB / MMHE West yard (WHP fabrication) | — | supplier | Wellhead platform control, safety and communication systems |
 | Milton Roy (Ingersoll Rand) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [MISC Berhad](https://www.miscgroup.com) | Malaysia | operator, packager | FPSO and floating production (TLP, spar, semi-submersible) |
+| MISC Offshore Floating Terminals Dua | — | supplier | Wellhead platform control, safety and communication systems |
+| Mitsui Energy Development Co Ltd | — | supplier | Wellhead platform control, safety and communication systems |
+| MMCOG (FEED for Belum topside per A Barrel Full) | — | supplier | Wellhead platform control, safety and communication systems |
 | [MODEC Inc.](https://www.modec.com) | Japan | oem, operator | FPSO and floating production (TLP, spar, semi-submersible) |
+| Modern American Recycling Services (MARS, cited example) | — | supplier | Wellhead platform control, safety and communication systems |
+| Morningstar Corporation | — | supplier | Wellhead platform control, safety and communication systems |
+| MR Innovative Offshore Solutions | — | supplier | Wellhead platform control, safety and communication systems |
 | MSA | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | MSM Offshore | — | service | Wellhead platform safety and emergency equipment |
 | Multiple registered vendors (FieldComm Group registry) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Murphy Oil (operator at the time of the article) | — | supplier | Wellhead platform control, safety and communication systems |
+| Murphy Oil Corporation | — | supplier | Wellhead platform control, safety and communication systems |
+| Murphy Sabah Oil | — | supplier | Wellhead platform control, safety and communication systems |
+| Murphy Sabah Oil Company (operator, 80%) | — | supplier | Wellhead platform control, safety and communication systems |
+| Murphy Sarawak Oil | — | supplier | Wellhead platform control, safety and communication systems |
+| Murphy Sarawak Oil Co Ltd (client; now PTTEP Sarawak Oil Ltd) | — | supplier | Wellhead platform control, safety and communication systems |
+| Murphy Sarawak Oil Co. | — | supplier | Wellhead platform control, safety and communication systems |
+| Murphy Sarawak Oil Company Limited | — | supplier | Wellhead platform control, safety and communication systems |
+| Murphy Sarawak Oil Corporation | — | supplier | Wellhead platform control, safety and communication systems |
 | [Nabors Industries](https://www.nabors.com) | Bermuda | oem, service | Drilling automation and autonomous rigs |
 | NAO Inc. | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| National Engineering Laboratory (UK) | — | supplier | Wellhead platform control, safety and communication systems |
 | [Nexans](https://www.nexans.com) | France | oem | Long subsea tiebacks with direct electrical heating |
 | NFPA 37 | — | service | Wellhead platform production process systems |
+| Nickel-cadmium battery technology (manufacturer not stated) | — | supplier | Wellhead platform control, safety and communication systems |
+| NOV-Tuboscope (Zap-Lok mechanical connectors) | — | supplier | Wellhead platform control, safety and communication systems |
 | [Novomet](https://novomet.ru) | Russia | oem | Electric submersible pumps |
 | [Occidental Petroleum](https://www.oxy.com) | USA | operator, developer | CO2 enhanced oil recovery (miscible CO2 flooding); Thermal EOR (steam flood, SAGD, CSS) |
 | Oceaneering International | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| OceanMight Sdn Bhd (KKB associate, contractor) | — | supplier | Wellhead platform control, safety and communication systems |
 | Oceans of Energy | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | OCIMF | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Offshore Norge | — | service | Wellhead platform safety and emergency equipment |
@@ -997,28 +1085,62 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | OilPro | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | OMS (Oilfield Manufacturers and Supplies) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | OneSubsea (SLB/Aker Solutions JV) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Orwell Offshore + FES International (turret, $40m) | — | supplier | Wellhead platform control, safety and communication systems |
+| Paladon Systems (valve actuators) | — | supplier | Wellhead platform control, safety and communication systems |
+| Pasir Gudang, Johor yard | — | supplier | Wellhead platform control, safety and communication systems |
+| Pertamina | — | supplier | Wellhead platform control, safety and communication systems |
+| Perunding Ranhill Worley (technical partner, MOU) | — | supplier | Wellhead platform control, safety and communication systems |
 | Petro Controls Europe BV | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Petrobank Energy and Resources](https://petrobank.ca) | Canada | developer | In-situ combustion and solvent-assisted SAGD; Heavy oil upgrading (in-field) |
 | [Petrobras](https://petrobras.com.br) | Brazil | operator | Oil shale retorting; Subsea separation and water reinjection |
 | [Petrofac](https://www.petrofac.com) | UK | epc, service | FPSO and floating production (TLP, spar, semi-submersible) |
+| Petroleum Sarawak Exploration and Production Sdn Bhd | — | supplier | Wellhead platform control, safety and communication systems |
+| Petroleum Software Ltd | — | supplier | Wellhead platform control, safety and communication systems |
 | [PETRONAS](https://www.petronas.com) | Malaysia | operator, developer | Chemical EOR (polymer and surfactant flooding) |
+| PETRONAS CCS Ventures / TotalEnergies / Mitsui (CCS assessment) | — | supplier | Wellhead platform control, safety and communication systems |
+| PETRONAS Malaysia Petroleum Management | — | supplier | Wellhead platform control, safety and communication systems |
+| PETROS (7.5%) | — | supplier | Wellhead platform control, safety and communication systems |
+| PetroVietnam (operator per page) | — | supplier | Wellhead platform control, safety and communication systems |
 | [PGS](https://www.pgs.com) | Norway | service | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
 | Pietro Fiorentini (TEG packages) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Plascorp Pty Ltd | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Project Canary](https://www.projectcanary.com) | USA | service | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
 | Proserv | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| PSEP (30%) | — | supplier | Wellhead platform control, safety and communication systems |
+| PT Pertamina Malaysia Eksplorasi Produksi | — | supplier | Wellhead platform control, safety and communication systems |
+| PTTEP (25%) | — | supplier | Wellhead platform control, safety and communication systems |
+| PTTEP Sarawak Oil Limited (source of marine notice) | — | supplier | Wellhead platform control, safety and communication systems |
+| PTTEP Sarawak Oil Ltd (operator) | — | supplier | Wellhead platform control, safety and communication systems |
+| PTTEP Sarawak Oil Ltd / PTTEP HK Oil Ltd | — | supplier | Wellhead platform control, safety and communication systems |
+| Ranhill-WorleyParsons (FEED phase 1) | — | supplier | Wellhead platform control, safety and communication systems |
+| Reach Integrated (telecom) | — | supplier | Wellhead platform control, safety and communication systems |
+| Reach Integrated Sdn Bhd (telecommunications, March 2019) | — | supplier | Wellhead platform control, safety and communication systems |
+| Redtech Offshore | — | supplier | Wellhead platform control, safety and communication systems |
+| ROC Oil | — | supplier | Wellhead platform control, safety and communication systems |
 | [Rock Flow Dynamics](https://rfdyn.com) | Russia | supplier | Reservoir simulation (black oil, compositional, thermal) |
 | Rolls-Royce Power Systems AG (mtu) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Sabah Shell Petroleum | — | supplier | Wellhead platform control, safety and communication systems |
+| Sabah Shell Petroleum Company (operator) | — | supplier | Wellhead platform control, safety and communication systems |
+| Sapura Samudra (soil boring survey vessel) | — | supplier | Wellhead platform control, safety and communication systems |
+| SapuraAcergy Sdn Bhd | — | supplier | Wellhead platform control, safety and communication systems |
+| SapuraKencana HL (EPCC) | — | supplier | Wellhead platform control, safety and communication systems |
+| SapuraKencana Petroleum Berhad | — | supplier | Wellhead platform control, safety and communication systems |
+| SapuraKencana Petroleum Bhd | — | supplier | Wellhead platform control, safety and communication systems |
+| Sarawak Shell Berhad (client) | — | supplier | Wellhead platform control, safety and communication systems |
+| SBM + MISC JVs (FPSO owner/operator) | — | supplier | Wellhead platform control, safety and communication systems |
 | [SBM Offshore](https://www.sbmoffshore.com) | Netherlands | oem, operator | FPSO and floating production (TLP, spar, semi-submersible) |
 | SCM (Solutions for Energy) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Seascape (10%) | — | supplier | Wellhead platform control, safety and communication systems |
+| Seascape Energy Asia (100%, operator) | — | supplier | Wellhead platform control, safety and communication systems |
 | [Sercel](https://www.sercel.com) | France | oem | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
 | Sharda Industrial Corporation | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Shearwater GeoServices](https://shearwatergeo.com) | Norway | service | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
-| [Shell](https://www.shell.com) | United Kingdom | operator, developer | Chemical EOR (polymer and surfactant flooding) |
+| Shell (operator, 35%) | — | supplier | Wellhead platform control, safety and communication systems |
 | Shell Malaysia Exploration and Production | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Shijiazhuang Ruker Oilfield Technology Co., Ltd. | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Siemens](https://www.siemens.com) | Germany | oem, integrator | Produced water treatment (hydrocyclones, flotation, membranes) |
 | Siemens Energy (incl. ex-Dresser-Rand) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Sika Services AG (turnkey) | — | supplier | Wellhead platform control, safety and communication systems |
 | SLB (Cameron pressure control equipment) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | SLB / Emerson (equipment qualified to NACE MR0175/ISO 15156) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
@@ -1026,29 +1148,56 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [SNF](https://www.snfgroup.com) | France | supplier | Chemical EOR (polymer and surfactant flooding) |
 | SolarEdge | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | SPEC Oil & Gas Technologies (fabricator) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Sproule-ERCE (competent person's report) | — | supplier | Wellhead platform control, safety and communication systems |
+| SPT Offshore (Ophir relocation) | — | supplier | Wellhead platform control, safety and communication systems |
+| Stolt Comex Seaway (1999 patent owner) | — | supplier | Wellhead platform control, safety and communication systems |
+| Stolt Comex Seaway / Tarpon Systems | — | supplier | Wellhead platform control, safety and communication systems |
+| Storegga | — | supplier | Wellhead platform control, safety and communication systems |
+| Subsea 7 (Rockwater 2) | — | supplier | Wellhead platform control, safety and communication systems |
+| Subsea 7 S.A. | — | supplier | Wellhead platform control, safety and communication systems |
 | Subsea7 (Swagelining all-polymer liner) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Sulzer](https://www.sulzer.com) | Switzerland | oem | Subsea boosting and multiphase pumps |
+| Sumitomo Mitsui Banking Corp, Standard Chartered, CIMB (financing) | — | supplier | Wellhead platform control, safety and communication systems |
 | [Suncor Energy](https://www.suncor.com) | Canada | operator | Oil sands mining and froth treatment; Thermal EOR (steam flood, SAGD, CSS) |
 | Sungrow Power Supply Co., Ltd. | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Swagelok | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Swagelok Company | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Swiber (Golok pipeline, per A Barrel Full - unverified in fetched Swiber article) | — | supplier | Wellhead platform control, safety and communication systems |
+| Swift Energy | — | supplier | Wellhead platform control, safety and communication systems |
 | [Syncrude Canada](https://www.syncrude.ca) | Canada | operator | Oil sands mining and froth treatment |
 | Synergy Engineering | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| T7 Global Berhad / Tanjung Offshore Services | — | supplier | Wellhead platform control, safety and communication systems |
 | Tai Crest Resources | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Talisman Malaysia Limited (client) | — | supplier | Wellhead platform control, safety and communication systems |
+| Tarpon Platform Systems | — | supplier | Wellhead platform control, safety and communication systems |
+| Tarpon Platform Systems Malaysia Sdn Bhd | — | supplier | Wellhead platform control, safety and communication systems |
+| Tarpon Systems International II, LLC | — | supplier | Wellhead platform control, safety and communication systems |
 | TE Connectivity (SEACON) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Technip (EPIC spar; subsea pipelines/risers) | — | supplier | Wellhead platform control, safety and communication systems |
+| Technip + MHB 50:50 JV (TLP EPC) | — | supplier | Wellhead platform control, safety and communication systems |
 | TechnipFMC (CDS Separation Systems) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Teledyne Marine (Impulse / ODI) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Tendeka](https://www.tendeka.com) | United Kingdom | oem, supplier | Intelligent completions and inflow control devices |
 | [TGS](https://www.tgs.com) | USA | service | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
+| TH Heavy / Ramunia Holdings (fabricator) | — | supplier | Wellhead platform control, safety and communication systems |
 | [Thermo Fisher Scientific](https://www.thermofisher.com) | USA | supplier | Digital core and special core analysis |
 | [Toray Industries](https://www.toray.com) | Japan | supplier | Seawater sulfate removal for injection water |
+| TotalEnergies (30%, operator) | — | supplier | Wellhead platform control, safety and communication systems |
+| TotalEnergies and Mitsui (CCS partners per trade press) | — | supplier | Wellhead platform control, safety and communication systems |
+| Transocean (jackup Galveston Key) | — | supplier | Wellhead platform control, safety and communication systems |
+| TUV NEL | — | supplier | Wellhead platform control, safety and communication systems |
+| Universiti Teknologi PETRONAS authors | — | supplier | Wellhead platform control, safety and communication systems |
 | US Coast Guard (OFR) | — | service | Wellhead platform utility systems |
 | US EPA Natural Gas STAR (guidance) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | US EPA Natural Gas STAR Program | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| UTEC | — | supplier | Wellhead platform control, safety and communication systems |
 | Veetech Automation FZE | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Veolia](https://www.veolia.com) | France | supplier, service | Produced water treatment (hydrocyclones, flotation, membranes); Seawater sulfate removal for injection water |
 | Veolia Water Technologies / VWS Westgarth | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Vestigo Petroleum (operator) | — | supplier | Wellhead platform control, safety and communication systems |
+| Vestigo Petroleum Sdn Bhd (operator) | — | supplier | Wellhead platform control, safety and communication systems |
 | Victaulic Company | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Virgo Valves (1,900 valves) | — | supplier | Wellhead platform control, safety and communication systems |
 | [Viridien](https://www.viridienglobal.com) | France | service, supplier | Full-waveform inversion and seismic imaging; 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
 | VMD Solutions | — | service | Wellhead platform safety and emergency equipment |
 | Wasco Energy | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
@@ -1057,8 +1206,11 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Wellstrom AS](https://wellstrom.com) | Norway | oem, service | Well plug and abandonment technologies (thermite, bismuth plugs); Well plug and abandonment (cement plugs, rig-based) |
 | Wikipedia (Wikimedia Foundation) | — | service | Wellhead platform well systems |
 | [Wison](https://www.wison-energies.com) | China | epc, developer | FPSO and floating production (TLP, spar, semi-submersible) |
-| [Wood](https://www.woodplc.com) | UK | epc, service | FPSO and floating production (TLP, spar, semi-submersible) |
+| Wood Mackenzie | — | supplier | Wellhead platform control, safety and communication systems |
+| ZEE Engineering (design patent) | — | supplier | Wellhead platform control, safety and communication systems |
+| ZEE Engineering Sdn Bhd (designer/patent holder) | — | supplier | Wellhead platform control, safety and communication systems |
 | [Zeeco](https://www.zeeco.com) | USA | oem | Flare gas recovery and zero routine flaring |
+| Zephyr (Airdolphin low-wind turbine cited as example) | — | supplier | Wellhead platform control, safety and communication systems |
 | Zeto | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 
 ## WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
@@ -1114,6 +1266,7 @@ batch of this directory.
 
 - **CIV** (1): CIDB Malaysia
 - **HSE** (1): Flare Ventures
+- **REF** (1): Foster Wheeler (Amec)
 - **WWT** (1): Monroe Environmental
 
 ## Card notes: generic supplier descriptions (not nameable vendors)
@@ -1126,4 +1279,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-369 of 398 cards list at least one directory vendor.
+369 of 399 cards list at least one directory vendor.

@@ -162,7 +162,7 @@
     },
     {
       "metric": "Total project CAPEX / investment at FID",
-      "unit": "USD",
+      "unit": "USD billion (as printed)",
       "basis": "INPEX and Total FID announcement: 'US$34 billion Ichthys LNG Project'; CAPEX line in INPEX project summary Source dated 13 January 2012 and states the figure at FID; source does not separately label a nominal-dollar base year.",
       "source": {
         "url": "https://www.inpex.com.au/news-and-updates/media-centre/media-releases/final-investment-decision-on-ichthys-lng-project/",
@@ -174,7 +174,7 @@
     },
     {
       "metric": "Total project investment at FID (JV partner statement)",
-      "unit": "USD",
+      "unit": "USD billion (as printed)",
       "basis": "Total/TotalEnergies press release: 'investment of US$34 billion dollars'; Total holds 24% Press release dated 13 January 2012; base dollar year not separately labelled.",
       "source": {
         "url": "https://totalenergies.com/newsroom/australie-total-et-inpex-lancent-ichthys-projet-strategique-de-gnl-offshore/?lang=eng",

@@ -1,0 +1,25 @@
+{
+  "id": "retro-api-org-2a-wsd-e22-20pa-pdf-4e4a9ea",
+  "name": "API RP 2A-WSD 22nd edition product/contents sheet (PDF)",
+  "url": "https://www.api.org/~/media/files/publications/whats%20new/2a-wsd_e22%20pa.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "ROT",
+    "MAT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "American Petroleum Institute",
+  "access": "open",
+  "licence": "API publication (copyright)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch returned unsupported PDF content type; page read through reader proxy https://r.jina.ai/<url> as instructed. Figures transcribed from the proxied page text. 22nd ed Nov 2014, 310 pp, product G2AWSD22; API 2SIM companion for fitness-for-purpose."
+}

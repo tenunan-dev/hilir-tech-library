@@ -1,0 +1,103 @@
+{
+  "id": "dialog-acquisition-of-tarpon-platform-systems-november-2023",
+  "name": "DIALOG acquisition of Tarpon Platform Systems (November 2023)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "DIALOG Group Berhad acquired the entire equity interest in Tarpon Platform Systems Malaysia Sdn Bhd plus all tangible and intangible assets (including IP) of Tarpon Systems International II LLC on 15 November 2023. Two independently read pages print the same consideration in USD and RM; both recorded side by side. This is a corporate acquisition price for the platform-system business, NOT an WHP fabrication or development cost.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Acquisition completed",
+      "date": "2023",
+      "source": {
+        "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+        "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Corporate acquisition consideration - Tarpon Malaysia + TSIL assets/IP (USD)",
+      "year": 2023,
+      "basis": "'approximately USD 1.19 million', 15 November 2023 acquisition; publication/stated transaction year 2023, no explicit price-level base year stated. Not a WHP cost.",
+      "value": 1.19,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+        "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+      }
+    },
+    {
+      "metric": "Corporate acquisition consideration - Tarpon Malaysia + TSIL assets/IP (RM, first source)",
+      "year": 2023,
+      "basis": "'approximately RM 5.5 million' as printed on DIALOG press release, 15 November 2023.",
+      "value": 5.5,
+      "unit": "RM",
+      "source": {
+        "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+        "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+      }
+    },
+    {
+      "metric": "Corporate acquisition consideration - Tarpon Malaysia + TSIL assets/IP (USD, second source)",
+      "year": 2023,
+      "basis": "Independently read second source prints 'US$1.19 million (approximately RM5.5 million)' as total cash consideration; dated 15 November 2023. Confirms rather than conflicts with the DIALOG release.",
+      "value": 1.19,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://theedgemalaysia.com/node/690126",
+        "source_id": "retro-theedgemalaysia-com-690126-b976a78"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "DIALOG Group Berhad",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Tarpon Platform Systems Malaysia Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Tarpon Systems International II, LLC",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+      "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a",
+      "note": "DIALOG Group Berhad acquired the entire equity interest in Tarpon Platform Syste"
+    },
+    {
+      "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+      "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+    },
+    {
+      "url": "https://theedgemalaysia.com/node/690126",
+      "source_id": "retro-theedgemalaysia-com-690126-b976a78"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Purchase-price allocation to the Tarpon patent/IP",
+      "why": "Neither page splits the USD1.19m between equity, tangible assets and IP; no per-platform value can be derived.",
+      "next_action": "Consult the Bursa Malaysia announcement/circular for a purchase-price allocation note."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

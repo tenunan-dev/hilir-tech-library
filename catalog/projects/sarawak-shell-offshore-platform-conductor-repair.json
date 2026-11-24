@@ -1,0 +1,104 @@
+{
+  "id": "sarawak-shell-offshore-platform-conductor-repair",
+  "name": "Sarawak Shell offshore platform conductor repair",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Two wellhead conductors repaired in splash zone and upper annulus with 4 t UHPC grout, diverless execution, third-party strength testing.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Tarpon third-generation guying removes sheave fatigue problem",
+      "date": "1999",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+        "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+      }
+    },
+    {
+      "event": "API RP 2A-WSD 22nd edition published",
+      "date": "2014",
+      "source": {
+        "url": "https://r.jina.ai/https://www.api.org/~/media/files/publications/whats%20new/2a-wsd_e22%20pa.pdf",
+        "source_id": "retro-r-jina-ai-2a-wsd-e22-20pa-pdf-7914ef6"
+      }
+    },
+    {
+      "event": "Sarawak Shell conductor repair campaign",
+      "date": "2017",
+      "source": {
+        "url": "https://r.jina.ai/https://offshore.sika.com/dam/dms/corporate/3/glo-corrosion-protection-structural-casing-wells-malaysia.pdf",
+        "source_id": "retro-r-jina-ai-glo-corrosion-protection-structural-73beb02"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Stolt Comex Seaway / Tarpon Systems",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "certifying agencies and peer reviewers (unnamed)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Sika Services AG (turnkey)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Sarawak Shell Berhad (client)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://offshore.sika.com/dam/dms/corporate/3/glo-corrosion-protection-structural-casing-wells-malaysia.pdf",
+      "source_id": "retro-r-jina-ai-glo-corrosion-protection-structural-73beb02",
+      "note": "Two wellhead conductors repaired in splash zone and upper annulus with 4 t UHPC "
+    },
+    {
+      "url": "https://r.jina.ai/https://offshore.sika.com/dam/dms/corporate/3/glo-corrosion-protection-structural-casing-wells-malaysia.pdf",
+      "source_id": "retro-r-jina-ai-glo-corrosion-protection-structural-73beb02"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.api.org/~/media/files/publications/whats%20new/2a-wsd_e22%20pa.pdf",
+      "source_id": "retro-r-jina-ai-2a-wsd-e22-20pa-pdf-7914ef6"
+    },
+    {
+      "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+      "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+    },
+    {
+      "url": "https://r.jina.ai/https://offshore.sika.com/dam/dms/corporate/3/glo-corrosion-protection-structural-casing-wells-malaysia.pdf",
+      "source_id": "retro-r-jina-ai-glo-corrosion-protection-structural-73beb02",
+      "note": "Two wellhead conductors repaired in splash zone and upper annulus with 4 t UHPC grout, diverless execution, third-party strength testing."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Asset-specific inspection intervals and corrosion rates",
+      "why": "No published inspection intervals or measured corrosion rates for the named Malaysian WHPs",
+      "next_action": "Obtain integrity management plans and inspection reports from operators"
+    },
+    {
+      "what": "Owner/field identity of the June 2023 decommissioned conductor-supported platform",
+      "why": "OnePetro abstracts blocked by CAPTCHA; no field name given in readable text",
+      "next_action": "Access authorised copy of SPE 216278-MS / OTC 34879-MS; no figures asserted from blocked pages"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year technology evolution). Evidence-first 20-year retrospective of minimum-facility offshore wellhead platforms (WHPs) in Malaysian/SE Asian waters, built only from pages and PDFs actually read (several PDFs"
+}

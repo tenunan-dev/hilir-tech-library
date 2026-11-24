@@ -1,0 +1,84 @@
+{
+  "id": "tarpon-whp-projects-kayu-manis-south-east-anjung-kecil-zuhal-east-bala",
+  "name": "Tarpon WHP projects: Kayu Manis South East, Anjung Kecil, Zuhal East, Balai, Bentara, Spaoh, West Acis",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Tarpon 'Our Projects' page lists installation of two WHPs for Kayu Manis SE and Anjung Kecil, EPCIC for Zuhal East, and WHPs for Balai, Bentara, Spaoh and West Acis fields. No contract values printed.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Tarpon Platform Systems founded",
+      "date": "2008",
+      "source": {
+        "url": "https://www.tarponsystems.com/about-us",
+        "source_id": "retro-tarponsystems-com-about-us-f4a57a5"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "DIALOG Tarpon Offshore Platforms Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Tarpon Platform Systems Malaysia Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Tarpon Systems International II, LLC",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "ZEE Engineering",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "MHB / MMHE",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.tarponsystems.com/what-we-do",
+      "source_id": "retro-tarponsystems-com-what-we-do-886f3b5",
+      "note": "Tarpon 'Our Projects' page lists installation of two WHPs for Kayu Manis SE and "
+    },
+    {
+      "url": "https://www.tarponsystems.com/what-we-do",
+      "source_id": "retro-tarponsystems-com-what-we-do-886f3b5"
+    },
+    {
+      "url": "https://www.tarponsystems.com/about-us",
+      "source_id": "retro-tarponsystems-com-about-us-f4a57a5"
+    },
+    {
+      "url": "https://www.tarponsystems.com/what-we-do",
+      "source_id": "retro-tarponsystems-com-what-we-do-886f3b5",
+      "note": "Tarpon 'Our Projects' page lists installation of two WHPs for Kayu Manis SE and Anjung Kecil, EPCIC for Zuhal East, and WHPs for Balai, Bentara, Spaoh and West Acis fields. No contract values printed."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Quantified capital-cost and operating-cost saving of minimum-facility WHP vs conventional platform",
+      "why": "Both vendor pages describe the saving qualitatively only; no number, ratio or percentage is stated on either page.",
+      "next_action": "Look for a vendor technical paper or operator presentation that prints a comparative figure; do not compute one."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

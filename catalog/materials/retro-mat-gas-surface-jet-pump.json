@@ -1,0 +1,26 @@
+{
+  "id": "retro-mat-gas-surface-jet-pump",
+  "name": "Gas surface jet pump",
+  "material_category": "artificial-lift-process",
+  "description": "Gas surface jet pump named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "Pipeline avoided",
+      "unit": "in",
+      "basis": "AWT case study: jet pump removed requirement for a new 8-inch pipeline to accept gas from high-pressure wells.",
+      "source": {
+        "url": "https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf",
+        "source_id": "retro-awtinternational-com-awt-case-study-geoscience-4fd9a97"
+      },
+      "low": 8,
+      "high": 8
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf",
+      "source_id": "retro-awtinternational-com-awt-case-study-geoscience-4fd9a97"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

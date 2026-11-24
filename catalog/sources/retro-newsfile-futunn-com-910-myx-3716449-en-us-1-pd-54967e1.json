@@ -1,0 +1,27 @@
+{
+  "id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1",
+  "name": "DIALOG Group Berhad — Integrated Annual Report 2026 (PDF)",
+  "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "HSE"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "DIALOG Group Berhad",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch returned unsupported PDF content type; page read through reader proxy https://r.jina.ai/<url> as instructed. Figures transcribed from the proxied page text. Baram Junior Cluster 70:30, Salbiah WHP installation 25 Mar 2026, first gas Q2 FY2027; upstream entry 2011."
+}

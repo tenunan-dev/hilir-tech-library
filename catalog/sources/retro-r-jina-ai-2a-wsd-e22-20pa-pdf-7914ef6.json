@@ -1,0 +1,23 @@
+{
+  "id": "retro-r-jina-ai-2a-wsd-e22-20pa-pdf-7914ef6",
+  "name": "API RP 2A-WSD 22nd ed brochure and contents (PDF)",
+  "url": "https://r.jina.ai/https://www.api.org/~/media/files/publications/whats%20new/2a-wsd_e22%20pa.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "American Petroleum Institute",
+  "access": "open",
+  "licence": "publisher terms; PDF read via r.jina.ai mirror",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Directly read via r.jina.ai; clause headings and edition date verified."
+}

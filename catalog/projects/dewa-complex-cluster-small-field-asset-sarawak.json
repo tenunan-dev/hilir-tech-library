@@ -1,0 +1,96 @@
+{
+  "id": "dewa-complex-cluster-small-field-asset-sarawak",
+  "name": "DEWA Complex Cluster small-field asset (Sarawak)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Twelve shallow-water gas discoveries (D30, Danau, D41, etc.) awarded under PETRONAS Small Field Asset PSC terms in Oct 2024; low-cost normally unmanned platform concept.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Original gas discovery",
+      "date": "1982",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      }
+    },
+    {
+      "event": "SFA PSC award",
+      "date": "2024",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      }
+    },
+    {
+      "event": "Competent Person's Report",
+      "date": "2025",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "EnQuest (operator, 42%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Seascape Energy Asia (28%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PSEP (30%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Sproule-ERCE (competent person's report)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://seascape-energy.com/operations-malaysia/",
+      "source_id": "retro-seascape-energy-com-32b78bb",
+      "note": "Twelve shallow-water gas discoveries (D30, Danau, D41, etc.) awarded under PETRO"
+    },
+    {
+      "url": "https://seascape-energy.com/operations-malaysia/",
+      "source_id": "retro-seascape-energy-com-32b78bb"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "FID / first gas dates",
+      "why": "Not stated; pre-development",
+      "next_action": "Watch for FDP approval"
+    },
+    {
+      "what": "Capex",
+      "why": "Only initial work commitment published",
+      "next_action": "Find partner budget disclosure"
+    },
+    {
+      "what": "Incidents",
+      "why": "Pre-production",
+      "next_action": "Not applicable yet"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

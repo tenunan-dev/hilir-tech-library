@@ -1,0 +1,86 @@
+{
+  "id": "rosmari-and-marjoram-sour-gas-development",
+  "name": "Rosmari and Marjoram sour gas development",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Deepwater sour gas fields 220 km off Bintulu: subsea tie-back plus unmanned solar-powered WHP, 207 km pipeline and onshore Bintulu gas plant. A readable 2022 source expected first gas in 2026; a later Shell release was unreadable and yielded no figures.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Discovery",
+      "date": "2014",
+      "source": {
+        "url": "https://jpt.spe.org/shell-takes-fid-on-joint-malaysian-sour-gas-development",
+        "source_id": "retro-jpt-spe-org-shell-takes-fid-on-joint-malaysian-c4b5179"
+      }
+    },
+    {
+      "event": "FID",
+      "date": "2022",
+      "source": {
+        "url": "https://jpt.spe.org/shell-takes-fid-on-joint-malaysian-sour-gas-development",
+        "source_id": "retro-jpt-spe-org-shell-takes-fid-on-joint-malaysian-c4b5179"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Sarawak Shell Berhad (operator, 80%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS (20%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Samsung Engineering (Samsung E&A)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/shell-takes-fid-on-joint-malaysian-sour-gas-development",
+      "source_id": "retro-jpt-spe-org-shell-takes-fid-on-joint-malaysian-c4b5179",
+      "note": "Deepwater sour gas fields 220 km off Bintulu: subsea tie-back plus unmanned sola"
+    },
+    {
+      "url": "https://jpt.spe.org/shell-takes-fid-on-joint-malaysian-sour-gas-development",
+      "source_id": "retro-jpt-spe-org-shell-takes-fid-on-joint-malaysian-c4b5179"
+    },
+    {
+      "url": "https://www.shell.com/news-and-insights/newsroom/news-and-media-releases/2026/shell-delivers-first-gas-from-the-rosmari-marjoram-development-in-malaysia.html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Water depth",
+      "why": "Shell release unreadable, so 800 m figure not asserted",
+      "next_action": "Find another readable source"
+    },
+    {
+      "what": "Project capex",
+      "why": "No figure in read source",
+      "next_action": "Find Shell FID disclosure"
+    },
+    {
+      "what": "Confirmed first-gas date",
+      "why": "Only the unreadable Shell release is dated 17 Nov 2026; JPT said expected 2026",
+      "next_action": "Find readable announcement"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

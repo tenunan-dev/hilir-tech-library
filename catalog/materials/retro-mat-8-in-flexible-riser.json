@@ -1,0 +1,27 @@
+{
+  "id": "retro-mat-8-in-flexible-riser",
+  "name": "8-in flexible riser",
+  "material_category": "riser",
+  "description": "8-in flexible riser named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "Diameter",
+      "unit": "in",
+      "basis": "Offshore Magazine 2012: WSS houses an 8-in (20 cm) flexible riser.",
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      },
+      "low": 8,
+      "high": 8,
+      "year": 2012
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+      "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

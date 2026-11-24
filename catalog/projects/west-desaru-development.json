@@ -1,0 +1,75 @@
+{
+  "id": "west-desaru-development",
+  "name": "West Desaru development",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia (offshore Peninsular Malaysia)",
+  "location": "Malaysia (offshore Peninsular Malaysia)",
+  "status": "operating",
+  "description": "WSS bridge-linked to FP5 MOPU; oil processed at MOPU then exported via 14 km pipeline to FSO.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "WSS ordered",
+      "date": "2012",
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Aquaterra Energy",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "TH Heavy / Ramunia Holdings (fabricator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Petrofac (MOPU FP5)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Transocean (jackup Galveston Key)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+      "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult",
+      "note": "WSS bridge-linked to FP5 MOPU; oil processed at MOPU then exported via 14 km pip"
+    },
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+      "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+    },
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+      "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult",
+      "note": "WSS bridge-linked to FP5 MOPU; oil processed at MOPU then exported via 14 km pipeline to FSO."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "West Desaru contract value",
+      "why": "Not printed in the 2012 article.",
+      "next_action": "Look for Aquaterra/Petrofac award announcement."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "retro-drawing-pepulut-equipment-layout-plan",
+  "title": "Pepulut Equipment Layout Plan",
+  "diagram_type": "schematic",
+  "description": "Figure in EIA executive summary, source SSB 2026",
+  "publisher": "Sarawak Shell Berhad",
+  "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+      "source_id": "retro-r-jina-ai-260142-5500114",
+      "note": "Figure in EIA executive summary, source SSB 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 20-year WHP retrospective; drawing stays at the publisher url."
+}

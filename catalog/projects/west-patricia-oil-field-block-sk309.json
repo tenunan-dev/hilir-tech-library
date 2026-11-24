@@ -1,0 +1,127 @@
+{
+  "id": "west-patricia-oil-field-block-sk309",
+  "name": "West Patricia oil field, Block SK309",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "40 km offshore Bintulu, 130 ft water; condensate to FSO; no in-window capex figure found.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "West Patricia first oil - benchmark claim (pre-window context)",
+      "date": "2003",
+      "source": {
+        "url": "https://www.energynewsbulletin.net/operations/news/1052674/oil-west-patricia",
+        "source_id": "retro-energynewsbulletin-net-oil-west-patricia-d4454ac"
+      }
+    },
+    {
+      "event": "Sarawak Gas Project HOA signed / FEED / first gas",
+      "date": "2006",
+      "source": {
+        "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+        "source_id": "retro-abarrelfull-co-uk-sarawak-gas-project-bd57e85"
+      }
+    },
+    {
+      "event": "West Patricia WP-PA jacket installed by jack-up rig",
+      "date": "2002",
+      "source": {
+        "url": "https://www.iconeng.com.au/project/murphy-west-patricia-field-development-wp-pa-wellhead-platform-jacket-installation-sarawak-malaysia/"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Murphy Sarawak Oil",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Brooke Dockyard",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "ICON Engineering (installation engineering)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Murphy Sarawak Oil Co Ltd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Kencana (Serampang-A platform)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Swiber (Golok pipeline)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Ranhill-WorleyParsons (FEED phase 1)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.energynewsbulletin.net/operations/news/1052674/oil-west-patricia",
+      "source_id": "retro-energynewsbulletin-net-oil-west-patricia-d4454ac",
+      "note": "40 km offshore Bintulu, 130 ft water; condensate to FSO; no in-window capex figu"
+    },
+    {
+      "url": "https://www.energynewsbulletin.net/operations/news/1052674/oil-west-patricia",
+      "source_id": "retro-energynewsbulletin-net-oil-west-patricia-d4454ac"
+    },
+    {
+      "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+      "source_id": "retro-abarrelfull-co-uk-sarawak-gas-project-bd57e85"
+    },
+    {
+      "url": "https://www.iconeng.com.au/project/murphy-west-patricia-field-development-wp-pa-wellhead-platform-jacket-installation-sarawak-malaysia/"
+    },
+    {
+      "url": "https://www.energynewsbulletin.net/operations/news/1052674/oil-west-patricia",
+      "source_id": "retro-energynewsbulletin-net-oil-west-patricia-d4454ac",
+      "note": "40 km offshore Bintulu, 130 ft water; condensate to FSO; no in-window capex figure found."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "In-window (2006-2026) capex or contract value specifically for West Patricia",
+      "why": "Only pre-2006 qualitative cost narrative found; no dated currency figure for this asset on any read page.",
+      "next_action": "Search PTTEP annual reports after 2019 for Sarawak asset capex; check Wood Mackenzie West Patricia report index (likely paywalled)."
+    },
+    {
+      "what": "Golok field development capex and Serampang-A platform cost",
+      "why": "Wiki and contractor pages give fields/contractors but no cost; only the wider SK309/SK311 substructure/topsides contract values were found.",
+      "next_action": "Look for Swiber/Kencana Bursa announcements with contract values for the Golok pipeline and Serampang-A topside."
+    },
+    {
+      "what": "Operating cost (opex) per field/platform for the named assets",
+      "why": "No read page prints an opex figure; Wood Mackenzie lists 'Operating Costs' tables but they are paywalled.",
+      "next_action": "Access the Wood Mackenzie SK309 & SK311 report with 'Operating Costs 2026 to 2034 (US$ million)' table and record figures with their year and basis."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

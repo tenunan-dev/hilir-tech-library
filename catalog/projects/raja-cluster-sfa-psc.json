@@ -1,0 +1,144 @@
+{
+  "id": "raja-cluster-sfa-psc",
+  "name": "RAJA Cluster SFA PSC",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia (offshore East Kertih, Terengganu)",
+  "location": "Malaysia (offshore East Kertih, Terengganu)",
+  "status": "operating",
+  "description": "DIALOG Resources 100% participating interest and sole operatorship; PSC up to 2038; development supported by in-house Tarpon platform.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "RAJA SFA PSC signed",
+      "date": "2024",
+      "source": {
+        "url": "https://www.dialogasia.com/news/raja-cluster-small-field-asset-production-sharing-contract-2",
+        "source_id": "retro-dialogasia-com-raja-cluster-small-field-asset-2b372f0"
+      }
+    },
+    {
+      "event": "FDAP approved / FID reached",
+      "date": "2026",
+      "source": {
+        "url": "https://www.dialogasia.com/news/raja-cluster-small-field-asset-production-sharing-contract-2",
+        "source_id": "retro-dialogasia-com-raja-cluster-small-field-asset-2b372f0"
+      }
+    },
+    {
+      "event": "First commercial production expected",
+      "date": "2028",
+      "source": {
+        "url": "https://www.theborneopost.com/2026/09/22/dialogs-raja-cluster-devt-plan-secures-petronas-approval-us81-mln-fid",
+        "source_id": "retro-theborneopost-com-dialogs-raja-cluster-devt-pl-1c478bf"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Final investment decision (FDAP approval) amount",
+      "year": 2026,
+      "basis": "DIALOG press release dated 21 Sep 2026: FDAP achieved FID amounting to USD81 million; Borneo Post reports RM330m equivalent.",
+      "value": 81,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://www.dialogasia.com/news/raja-cluster-small-field-asset-production-sharing-contract-2",
+        "source_id": "retro-dialogasia-com-raja-cluster-small-field-asset-2b372f0"
+      }
+    },
+    {
+      "metric": "Development cost per barrel of 2P reserves",
+      "year": 2026,
+      "basis": "PublicInvest Research quoted by Borneo Post 22 Sep 2026: US$81m translates to approximately US$13.3 per barrel of 2P reserves (analyst estimate).",
+      "value": 13.3,
+      "unit": "USD/bbl (as printed)",
+      "source": {
+        "url": "https://www.theborneopost.com/2026/09/22/dialogs-raja-cluster-devt-plan-secures-petronas-approval-us81-mln-fid",
+        "source_id": "retro-theborneopost-com-dialogs-raja-cluster-devt-pl-1c478bf"
+      }
+    },
+    {
+      "metric": "Assumed oil price (analyst scenario)",
+      "year": 2026,
+      "basis": "PublicInvest Research assumption quoted by Borneo Post: oil price US$65 per barrel; not a realised price.",
+      "value": 65,
+      "unit": "USD/bbl (as printed)",
+      "source": {
+        "url": "https://www.theborneopost.com/2026/09/22/dialogs-raja-cluster-devt-plan-secures-petronas-approval-us81-mln-fid",
+        "source_id": "retro-theborneopost-com-dialogs-raja-cluster-devt-pl-1c478bf"
+      }
+    },
+    {
+      "metric": "Estimated FY29 earnings contribution",
+      "year": 2026,
+      "basis": "PublicInvest estimate quoted by Borneo Post: about RM30-50 million in FY29 assuming 3,000 bpd initial production; dollar year 2026 (article date).",
+      "low": 30,
+      "high": 50,
+      "unit": "MYR",
+      "source": {
+        "url": "https://www.theborneopost.com/2026/09/22/dialogs-raja-cluster-devt-plan-secures-petronas-approval-us81-mln-fid",
+        "source_id": "retro-theborneopost-com-dialogs-raja-cluster-devt-pl-1c478bf"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "DIALOG Resources Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "DIALOG Tarpon Offshore Platforms Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.dialogasia.com/upstream/upstream-assets-ventures",
+      "source_id": "retro-dialogasia-com-upstream-assets-ventures-71c1245",
+      "note": "DIALOG Resources 100% participating interest and sole operatorship; PSC up to 20"
+    },
+    {
+      "url": "https://www.dialogasia.com/news/raja-cluster-small-field-asset-production-sharing-contract-2",
+      "source_id": "retro-dialogasia-com-raja-cluster-small-field-asset-2b372f0"
+    },
+    {
+      "url": "https://www.theborneopost.com/2026/09/22/dialogs-raja-cluster-devt-plan-secures-petronas-approval-us81-mln-fid",
+      "source_id": "retro-theborneopost-com-dialogs-raja-cluster-devt-pl-1c478bf"
+    },
+    {
+      "url": "https://www.dialogasia.com/upstream/upstream-assets-ventures",
+      "source_id": "retro-dialogasia-com-upstream-assets-ventures-71c1245"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf",
+      "source_id": "retro-cdn-prod-website-files-com-69ca1db5102fd7a4134-db92ecf"
+    },
+    {
+      "url": "https://www.dialogasia.com/upstream/upstream-assets-ventures",
+      "source_id": "retro-dialogasia-com-upstream-assets-ventures-71c1245",
+      "note": "DIALOG Resources 100% participating interest and sole operatorship; PSC up to 2038; development supported by in-house Tarpon platform."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "RAJA exact water depth and well count",
+      "why": "Only '<100 m' suitability is stated; no field-specific water depth or well count is printed on the read pages.",
+      "next_action": "Fetch the RAJA Cluster project page or FDAP details if published."
+    },
+    {
+      "what": "EPC contract value for RAJA WHPs",
+      "why": "The FID is a field-development amount, not a separated WHP contract value.",
+      "next_action": "Look for a Bursa announcement or contractor award for the Tarpon WHP scope."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

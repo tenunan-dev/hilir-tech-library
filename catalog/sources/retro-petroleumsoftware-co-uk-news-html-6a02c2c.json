@@ -1,0 +1,23 @@
+{
+  "id": "retro-petroleumsoftware-co-uk-news-html-6a02c2c",
+  "name": "Petroleum Software Ltd news archive",
+  "url": "https://www.petroleumsoftware.co.uk/news.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "INS"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Petroleum Software Ltd",
+  "access": "open",
+  "licence": "site terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Directly read; dated entries 2002-2025 verified."
+}

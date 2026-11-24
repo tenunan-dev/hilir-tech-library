@@ -1,0 +1,26 @@
+{
+  "id": "retro-cdn-prod-website-files-com-69ca1db5102fd7a4134-db92ecf",
+  "name": "DIALOG Upstream — OTC Asia 2026 presentation (PDF)",
+  "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "DIALOG Group Berhad",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch returned unsupported PDF content type; page read through reader proxy https://r.jina.ai/<url> as instructed. Figures transcribed from the proxied page text. Tarpon 700 MT/6-well/API RP2A; Malaysian installation water-depth table; Zuhal East and Balai EPCIC."
+}

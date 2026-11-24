@@ -1,0 +1,99 @@
+{
+  "id": "temaris-cluster-tembakau-and-mengkuang-fields",
+  "name": "Temaris Cluster (Tembakau and Mengkuang fields)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Two shallow-water gas discoveries offshore Peninsular Malaysia awarded 100% to Seascape in 2025 under Small Field Asset terms; planned normally unmanned platform.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Tembakau discovery",
+      "date": "2012",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      }
+    },
+    {
+      "event": "Appraisal",
+      "date": "2014",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      }
+    },
+    {
+      "event": "PSC award",
+      "date": "2025",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      }
+    },
+    {
+      "event": "Area extension",
+      "date": "2026",
+      "source": {
+        "url": "https://seascape-energy.com/operations-malaysia/",
+        "source_id": "retro-seascape-energy-com-32b78bb"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Seascape Energy Asia (100%, operator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS (licensor)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "JOGMEC and JGC (methane technology centre partners, separate project)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://seascape-energy.com/operations-malaysia/",
+      "source_id": "retro-seascape-energy-com-32b78bb",
+      "note": "Two shallow-water gas discoveries offshore Peninsular Malaysia awarded 100% to S"
+    },
+    {
+      "url": "https://seascape-energy.com/operations-malaysia/",
+      "source_id": "retro-seascape-energy-com-32b78bb"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "WHP design and schedule",
+      "why": "Concept only, no FID",
+      "next_action": "Wait for FDP/FID"
+    },
+    {
+      "what": "Capex",
+      "why": "Only award financial commitment published",
+      "next_action": "Find partner disclosure"
+    },
+    {
+      "what": "Incidents",
+      "why": "Pre-production",
+      "next_action": "Not applicable yet"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

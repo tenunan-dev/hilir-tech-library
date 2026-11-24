@@ -1,0 +1,136 @@
+{
+  "id": "murphy-malaysia-portfolio-transactions-2014-partial-divestment-2019-ex",
+  "name": "Murphy Malaysia portfolio transactions (2014 partial divestment; 2019 exit) - not WHP costs",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Two dated, read figures for transactions that transferred the SK309/SK311 assets including West Patricia/Golok/Serampang: Murphy's 2014 sale of 30% of its Malaysian assets to Pertamina at an aggregate purchase price of $2.0 billion (SEC exhibit), and its 2019 all-cash sale of Murphy Sabah and Murphy Sarawak to PTTEP for US$2.127 billion / RM8.62 billion plus an up-to-US$100m contingent bonus. These are asset/equity transaction values, NOT platform capex; kept here only to bound asset value, with explicit basis.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "First phase of 30% Malaysian asset sale to Pertamina closed",
+      "date": "2014",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742314000009/mur-20141222ex99168145d.htm",
+        "source_id": "retro-sec-gov-mur-20141222ex99168145d-htm-52cd7ec"
+      }
+    },
+    {
+      "event": "Murphy exits Malaysia - sale to PTTEP announced",
+      "date": "2019",
+      "source": {
+        "url": "https://theedgemalaysia.com/article/murphy-oil-exits-malaysia-after-two-decades-us2bil-divestment-deal",
+        "source_id": "retro-theedgemalaysia-com-murphy-oil-exits-malaysia-f4fcf93"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Malaysian assets 30% stake aggregate purchase price (not WHP capex)",
+      "year": 2014,
+      "basis": "'$2.0 billion' aggregate purchase price, effective date 1 January 2014, SEC press release 18 December 2014; USD in billions. Not a platform cost.",
+      "value": 2.0,
+      "unit": "USD billion (as printed)",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742314000009/mur-20141222ex99168145d.htm",
+        "source_id": "retro-sec-gov-mur-20141222ex99168145d-htm-52cd7ec"
+      }
+    },
+    {
+      "metric": "Malaysian subsidiary sale consideration (USD, not WHP capex)",
+      "year": 2019,
+      "basis": "'US$2.127 billion' all-cash, March 2019 article; publication year used, no explicit base year stated. Not a platform cost.",
+      "value": 2.127,
+      "unit": "USD billion (as printed)",
+      "source": {
+        "url": "https://theedgemalaysia.com/article/murphy-oil-exits-malaysia-after-two-decades-us2bil-divestment-deal",
+        "source_id": "retro-theedgemalaysia-com-murphy-oil-exits-malaysia-f4fcf93"
+      }
+    },
+    {
+      "metric": "Malaysian subsidiary sale consideration (RM, not WHP capex)",
+      "year": 2019,
+      "basis": "'RM8.62 billion' as printed beside US$2.127 billion; March 2019; no conversion applied.",
+      "value": 8.62,
+      "unit": "RM",
+      "source": {
+        "url": "https://theedgemalaysia.com/article/murphy-oil-exits-malaysia-after-two-decades-us2bil-divestment-deal",
+        "source_id": "retro-theedgemalaysia-com-murphy-oil-exits-malaysia-f4fcf93"
+      }
+    },
+    {
+      "metric": "Contingent drilling-results bonus, maximum",
+      "year": 2019,
+      "basis": "'up to US$100 million' contingent on exploratory drilling results before October 2020; stated in March 2019 article; publication year used, no explicit price-level base year stated.",
+      "value": 100,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://theedgemalaysia.com/article/murphy-oil-exits-malaysia-after-two-decades-us2bil-divestment-deal",
+        "source_id": "retro-theedgemalaysia-com-murphy-oil-exits-malaysia-f4fcf93"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Murphy Oil Corporation",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PTTEP",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PT Pertamina Malaysia Eksplorasi Produksi",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742314000009/mur-20141222ex99168145d.htm",
+      "source_id": "retro-sec-gov-mur-20141222ex99168145d-htm-52cd7ec",
+      "note": "Two dated, read figures for transactions that transferred the SK309/SK311 assets"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742314000009/mur-20141222ex99168145d.htm",
+      "source_id": "retro-sec-gov-mur-20141222ex99168145d-htm-52cd7ec"
+    },
+    {
+      "url": "https://theedgemalaysia.com/article/murphy-oil-exits-malaysia-after-two-decades-us2bil-divestment-deal",
+      "source_id": "retro-theedgemalaysia-com-murphy-oil-exits-malaysia-f4fcf93"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312509040617/dex13.htm",
+      "source_id": "retro-sec-gov-dex13-htm-5fe6dc1"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Field-level capex for SK309/SK311 / West Patricia in Murphy filings",
+      "why": "The 2008 annual report gives only consolidated capital expenditures and Malaysia production/reserve data; no field-level capex, per-well cost or operating cost.",
+      "next_action": "Search Murphy 10-K 'Malaysia' segment footnotes and the PTTEP transaction filings for asset-level capex disclosure."
+    },
+    {
+      "what": "Per-well drilling/completion cost for Sarawak WHP wells",
+      "why": "No read page prints a per-well cost for any of the named fields.",
+      "next_action": "Find an operator Annual Report, Wood Mackenzie asset table or OTC paper that states cost per well with its year and basis."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

@@ -1,0 +1,144 @@
+{
+  "id": "tarpon-installations-malaysia",
+  "name": "Tarpon installations — Malaysia",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "11 installations listed on Tarpon What We Do page (SVG: SMK-A, LEDP-A, PeDP-A, North Lukut, Spaoh, Balai, West Acis, Bentara, Kayu Manis SE, Anjung Kecil, Zuhal East).",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "First Tarpon (cable-guyed caisson) used",
+      "date": "1987",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+        "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+      }
+    },
+    {
+      "event": "Fleet size reported",
+      "date": "1999",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+        "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+      }
+    },
+    {
+      "event": "Malaysian fleet sample installed",
+      "date": "2006",
+      "source": {
+        "url": "https://ijrest.net/old_website/downloads/16112014/pid-16201408.pdf",
+        "source_id": "retro-ijrest-net-pid-16201408-pdf-ff43f8e"
+      }
+    },
+    {
+      "event": "DIALOG acquisition of Tarpon IP and Malaysian company",
+      "date": "2023",
+      "source": {
+        "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+        "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+      }
+    },
+    {
+      "event": "Fleet size reported by DIALOG",
+      "date": "2026",
+      "source": {
+        "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf",
+        "source_id": "retro-cdn-prod-website-files-com-69ca1db5102fd7a4134-db92ecf"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Cash consideration for DIALOG acquisition of Tarpon Malaysia + TSIL assets",
+      "year": 2023,
+      "basis": "DIALOG press release dated 15 Nov 2023: cash consideration approximately USD1.19 million (approximately RM5.5 million).",
+      "value": 1.19,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+        "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "DIALOG Tarpon Offshore Platforms Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Tarpon Platform Systems Malaysia Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Stolt Comex Seaway (original patent owner)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Tarpon Systems International II, LLC",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.tarponsystems.com/what-we-do",
+      "source_id": "retro-tarponsystems-com-what-we-do-886f3b5",
+      "note": "11 installations listed on Tarpon What We Do page (SVG: SMK-A, LEDP-A, PeDP-A, N"
+    },
+    {
+      "url": "https://www.tarponsystems.com/what-we-do",
+      "source_id": "retro-tarponsystems-com-what-we-do-886f3b5"
+    },
+    {
+      "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+      "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+    },
+    {
+      "url": "https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd",
+      "source_id": "retro-dialogasia-com-acquisition-of-entire-equity-in-45be33a"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf",
+      "source_id": "retro-cdn-prod-website-files-com-69ca1db5102fd7a4134-db92ecf"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/67a06cb414f86bdde3dbe790_Dialog%20Upsteam%20-%20BPTEC%202025.pdf",
+      "source_id": "retro-cdn-prod-website-files-com-67a06cb414f86bdde3d-8875f7c"
+    },
+    {
+      "url": "https://www.api.org/~/media/files/publications/whats%20new/2a-wsd_e22%20pa.pdf",
+      "source_id": "retro-api-org-2a-wsd-e22-20pa-pdf-4e4a9ea"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Specific Stolt Comex Seaway Tarpon patent number",
+      "why": "The 1999 article names the patent owner but not a patent number; a real related patent (US7942611B2, Keystone) was read, but it is not the Tarpon patent.",
+      "next_action": "Locate and WebFetch the actual Stolt Comex Seaway / Tarpon Systems patent page before asserting a patent number."
+    },
+    {
+      "what": "Copyright/licence of Tarpon AutoCAD drawings",
+      "why": "Drawings are described but the drawing files and their reuse terms were not fetched.",
+      "next_action": "Request the drawings from the operator/OEM and read their licence before any reuse."
+    },
+    {
+      "what": "Exact topside weight contradiction (350 t vs 700 MT)",
+      "why": "OEM website states up to 350 t while DIALOG 2026 decks state up to 700 metric tons; both are recorded as separate figures with separate bases, not reconciled.",
+      "next_action": "Obtain a dated OEM specification sheet clarifying configuration-dependent limits."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

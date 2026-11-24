@@ -1,0 +1,25 @@
+{
+  "id": "retro-r-jina-ai-flomekosfjt04-pdf-40dec88",
+  "name": "FLOMEKO 2004 ESMER paper (PDF)",
+  "url": "https://r.jina.ai/https://www.petroleumsoftware.co.uk/documents/flomekosfjt04.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "INS",
+    "DIG"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Petroleum Software Ltd / Sarawak Shell Berhad authors",
+  "access": "open",
+  "licence": "publisher terms; PDF read via r.jina.ai mirror",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Directly read via r.jina.ai; SFJT-C automation details verified."
+}

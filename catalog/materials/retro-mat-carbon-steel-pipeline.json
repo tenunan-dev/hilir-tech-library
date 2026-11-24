@@ -1,0 +1,24 @@
+{
+  "id": "retro-mat-carbon-steel-pipeline",
+  "name": "carbon steel pipeline",
+  "material_category": "pipeline",
+  "description": "carbon steel pipeline named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "pipeline sizes",
+      "unit": "",
+      "basis": "continuous corrosion inhibition injection",
+      "source": {
+        "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+        "source_id": "retro-r-jina-ai-260142-5500114"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+      "source_id": "retro-r-jina-ai-260142-5500114"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

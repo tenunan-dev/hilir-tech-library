@@ -33,7 +33,7 @@
     {
       "metric": "Total project CAPEX / investment at FID",
       "value": 34000000000,
-      "unit": "USD",
+      "unit": "USD billion (as printed)",
       "basis": "INPEX and Total FID announcement: 'US$34 billion Ichthys LNG Project'; CAPEX line in INPEX project summary",
       "year": 2012,
       "source": {
@@ -45,7 +45,7 @@
     {
       "metric": "Total project investment at FID (JV partner statement)",
       "value": 34000000000,
-      "unit": "USD",
+      "unit": "USD billion (as printed)",
       "basis": "Total/TotalEnergies press release: 'investment of US$34 billion dollars'; Total holds 24%",
       "year": 2012,
       "source": {
@@ -57,7 +57,7 @@
     {
       "metric": "Development cost at FID (trade press)",
       "value": 34000000000,
-      "unit": "USD",
+      "unit": "USD billion (as printed)",
       "basis": "Oil & Gas Journal: '$34 billion development'",
       "year": 2012,
       "source": {

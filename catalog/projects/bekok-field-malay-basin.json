@@ -1,0 +1,59 @@
+{
+  "id": "bekok-field-malay-basin",
+  "name": "Bekok field (Malay Basin)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Oil field discovered 1971, part of the 1970-71 giant-field cluster; EUR 296 MMboe per PETRONAS (1999).",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Discovery",
+      "date": "1971",
+      "source": {
+        "url": "https://r.jina.ai/https://gsm.org.my/wp-content/uploads/gsm_file_2/702001-101921-PDF.pdf",
+        "source_id": "retro-r-jina-ai-702001-101921-pdf-pdf-3a34fbd"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://gsm.org.my/wp-content/uploads/gsm_file_2/702001-101921-PDF.pdf",
+      "source_id": "retro-r-jina-ai-702001-101921-pdf-pdf-3a34fbd",
+      "note": "Oil field discovered 1971, part of the 1970-71 giant-field cluster; EUR 296 MMbo"
+    },
+    {
+      "url": "https://r.jina.ai/https://gsm.org.my/wp-content/uploads/gsm_file_2/702001-101921-PDF.pdf",
+      "source_id": "retro-r-jina-ai-702001-101921-pdf-pdf-3a34fbd"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Facility concept / water depth",
+      "why": "Not in read source",
+      "next_action": "Find field-specific development papers"
+    },
+    {
+      "what": "First oil/gas year",
+      "why": "Not in read source",
+      "next_action": "Find PETRONAS production records"
+    },
+    {
+      "what": "Capex and incidents",
+      "why": "Not in read source",
+      "next_action": "Find operator disclosures"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

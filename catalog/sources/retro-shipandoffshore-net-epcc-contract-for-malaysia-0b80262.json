@@ -1,0 +1,25 @@
+{
+  "id": "retro-shipandoffshore-net-epcc-contract-for-malaysia-0b80262",
+  "name": "EPCC contract for Malaysian yard Brooke Dockyard",
+  "url": "https://www.shipandoffshore.net/news/offshore/detail/news/epcc-contract-for-malaysian-yard-brooke-dockyard.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Ship&Offshore (DVV Media Group GmbH)",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch returned HTTP 403; read successfully via https://r.jina.ai/<url> (jina.ai proxy) and figures confirmed verbatim. Proxy used; note recorded as required."
+}

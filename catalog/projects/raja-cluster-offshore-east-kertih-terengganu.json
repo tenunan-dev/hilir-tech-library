@@ -1,0 +1,100 @@
+{
+  "id": "raja-cluster-offshore-east-kertih-terengganu",
+  "name": "RAJA Cluster, offshore East Kertih, Terengganu",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Small/marginal field cluster, ~6.1 mmboe 2P; uses Dialog's Tarpon platform for fields in <100 m water; 14-year SFA PSC including 2 years pre-development, ~2 years construction/commissioning and ~10 years production. Dialog also operates Baram Junior Cluster (since 2023) and Mutiara Cluster (from June 2025).",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "RAJA Cluster awarded under Small Field Production Agreement PSC",
+      "date": "2024",
+      "source": {
+        "url": "https://inspenet.com/en/news/dialog-resources-81-million-offshore-raja/",
+        "source_id": "retro-inspenet-com-df54b43"
+      }
+    },
+    {
+      "event": "Final investment decision and development approval",
+      "date": "2026",
+      "source": {
+        "url": "https://inspenet.com/en/news/dialog-resources-81-million-offshore-raja/",
+        "source_id": "retro-inspenet-com-df54b43"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "RAJA Cluster development FID value",
+      "year": 2026,
+      "basis": "'US$81 million project' at FID, reported 27 September 2026; publication year used, no explicit dollar base year stated on page.",
+      "value": 81,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://inspenet.com/en/news/dialog-resources-81-million-offshore-raja/",
+        "source_id": "retro-inspenet-com-df54b43"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "DIALOG Resources Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "DIALOG Group Berhad",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Malaysia Petroleum Management",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "MBSB Investment Bank (estimate commentary)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://inspenet.com/en/news/dialog-resources-81-million-offshore-raja/",
+      "source_id": "retro-inspenet-com-df54b43",
+      "note": "Small/marginal field cluster, ~6.1 mmboe 2P; uses Dialog's Tarpon platform for f"
+    },
+    {
+      "url": "https://inspenet.com/en/news/dialog-resources-81-million-offshore-raja/",
+      "source_id": "retro-inspenet-com-df54b43"
+    },
+    {
+      "url": "https://inspenet.com/en/news/dialog-resources-81-million-offshore-raja/",
+      "source_id": "retro-inspenet-com-df54b43",
+      "note": "Small/marginal field cluster, ~6.1 mmboe 2P; uses Dialog's Tarpon platform for fields in <100 m water; 14-year SFA PSC including 2 years pre-development, ~2 years construction/commissioning and ~10 ye"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Upstream original report for the RAJA FID",
+      "why": "Inspenet cites Upstream but the original was not read directly.",
+      "next_action": "Fetch the Upstream article directly (likely paywalled) to confirm the US$81m figure at source."
+    },
+    {
+      "what": "Breakdown of the US$81m between platform, drilling, pipeline and abandonment",
+      "why": "Page reports only the aggregate FID value.",
+      "next_action": "Seek Dialog Group Bursa announcement or corporate presentation with a cost breakdown."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

@@ -1,0 +1,164 @@
+{
+  "id": "tukau-field",
+  "name": "Tukau field",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia (offshore Sarawak)",
+  "location": "Malaysia (offshore Sarawak)",
+  "status": "operating",
+  "description": "Complex domal anticline, seven fault blocks, nine well jackets; additional jacket expected to boost production about 50%.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Tukau discovery",
+      "date": "1966",
+      "source": {
+        "url": "https://www.osti.gov/biblio/6859707",
+        "source_id": "retro-osti-gov-6859707-35b3115"
+      }
+    },
+    {
+      "event": "Tukau development drilling began",
+      "date": "1975",
+      "source": {
+        "url": "https://www.osti.gov/biblio/6859707",
+        "source_id": "retro-osti-gov-6859707-35b3115"
+      }
+    },
+    {
+      "event": "SK305 D30 first oil",
+      "date": "2010",
+      "source": {
+        "url": "https://www.abarrelfull.co.uk/SK305_Block_Oil_And_Gas_Fields",
+        "source_id": "retro-abarrelfull-co-uk-sk305-block-oil-and-gas-fiel-50540aa"
+      }
+    },
+    {
+      "event": "Kinabalu WHP letter of award",
+      "date": "2015",
+      "source": {
+        "url": "https://gulfoilandgas.com/webpro1/main/mainnews.asp?id=46930",
+        "source_id": "retro-gulfoilandgas-com-mainnews-asp-61ff3f2"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Total multi-package deal including Kinabalu WHP LOA",
+      "year": 2015,
+      "basis": "Gulf Oil and Gas 2015: total $39.8 million ($171.1 MYR) deal covering steel products to SESCO, a 1,000-ton fuel storage tank LOA from Sarawak Energy, and the Talisman WHP LOA; WHP contract value not revealed; dollar year not stated.",
+      "value": 39.8,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://gulfoilandgas.com/webpro1/main/mainnews.asp?id=46930",
+        "source_id": "retro-gulfoilandgas-com-mainnews-asp-61ff3f2"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "PetroVietnam (operator per page)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Pertamina",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Icon Engineering (frames design)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "MISC (MOPU supply/operation)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Global Industries (D30 platform installation)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Talisman Malaysia Limited (client)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "OceanMight Sdn Bhd (KKB associate, contractor)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.osti.gov/biblio/6859707",
+      "source_id": "retro-osti-gov-6859707-35b3115",
+      "note": "Complex domal anticline, seven fault blocks, nine well jackets; additional jacke"
+    },
+    {
+      "url": "https://www.abarrelfull.co.uk/SK305_Block_Oil_And_Gas_Fields",
+      "source_id": "retro-abarrelfull-co-uk-sk305-block-oil-and-gas-fiel-50540aa"
+    },
+    {
+      "url": "https://www.osti.gov/biblio/6859707",
+      "source_id": "retro-osti-gov-6859707-35b3115"
+    },
+    {
+      "url": "https://gulfoilandgas.com/webpro1/main/mainnews.asp?id=46930",
+      "source_id": "retro-gulfoilandgas-com-mainnews-asp-61ff3f2"
+    },
+    {
+      "url": "https://www.abarrelfull.co.uk/SK305_Block_Oil_And_Gas_Fields",
+      "source_id": "retro-abarrelfull-co-uk-sk305-block-oil-and-gas-fiel-50540aa",
+      "note": "Two MOPU units, wellhead support frames, operator listed as PetroVietnam with PETRONAS and Pertamina."
+    },
+    {
+      "url": "https://www.osti.gov/biblio/6859707",
+      "source_id": "retro-osti-gov-6859707-35b3115",
+      "note": "Complex domal anticline, seven fault blocks, nine well jackets; additional jacket expected to boost production about 50%."
+    },
+    {
+      "url": "https://gulfoilandgas.com/webpro1/main/mainnews.asp?id=46930",
+      "source_id": "retro-gulfoilandgas-com-mainnews-asp-61ff3f2",
+      "note": "Talisman Malaysia to OceanMight for EPC of one wellhead platform."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Kinabalu WHP standalone contract value",
+      "why": "KKB did not reveal the WHP contract value; the $39.8m figure covers three separate items.",
+      "next_action": "Find the Bursa filing from KKB with a value breakdown."
+    },
+    {
+      "what": "SK305 operator attribution",
+      "why": "The wiki lists PetroVietnam as operator while naming PETRONAS/Pertamina partners; not corroborated by a primary page in this research.",
+      "next_action": "Fetch the PETRONAS/MISC primary pages linked from the wiki."
+    },
+    {
+      "what": "Tukau full paper",
+      "why": "OSTI has abstract only; no digital full text available.",
+      "next_action": "Request the AAPG Bulletin paper through WorldCat/Google Scholar."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

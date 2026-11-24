@@ -1,0 +1,25 @@
+{
+  "id": "retro-brookeholding-com-d3fd01b",
+  "name": "Brooke Holding - Fabrication of WP-IA topsides",
+  "url": "https://brookeholding.com/fabrication-of-wp-ia-topsides/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Brooke Holding Sdn Bhd",
+  "access": "open",
+  "licence": "site terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Directly read; datas and capacities verified."
+}

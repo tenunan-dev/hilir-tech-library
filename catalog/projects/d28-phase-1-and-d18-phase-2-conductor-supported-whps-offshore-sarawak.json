@@ -1,0 +1,92 @@
+{
+  "id": "d28-phase-1-and-d18-phase-2-conductor-supported-whps-offshore-sarawak",
+  "name": "D28 Phase 1 and D18 Phase 2 conductor-supported WHPs, offshore Sarawak",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Not Murphy projects; included as technology analogues for minimum-facility conductor-supported platforms in the same 20-year window and region.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "D28 Phase 1 conductor-supported platform installed offshore Sarawak",
+      "date": "2019",
+      "source": {
+        "url": "https://2hoffshore.com/about/news/2h-offshore-installs-its-eighth-conductor-supported-platform-offshore-malaysia",
+        "source_id": "2hoffshore-com-news-2h-offshore-installs-its-eighth-conductor-supp"
+      }
+    },
+    {
+      "event": "D18 Phase 2 conductor-supported platform installed offshore Sarawak",
+      "date": "2020",
+      "source": {
+        "url": "https://2hoffshore.com/about/news/2h-offshore-installs-its-eighth-conductor-supported-platform-offshore-malaysia",
+        "source_id": "2hoffshore-com-news-2h-offshore-installs-its-eighth-conductor-supp"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "2H Offshore",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "OceanMight Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://2hoffshore.com/about/news/2h-offshore-installs-its-eighth-conductor-supported-platform-offshore-malaysia",
+      "source_id": "2hoffshore-com-news-2h-offshore-installs-its-eighth-conductor-supp",
+      "note": "Not Murphy projects; included as technology analogues for minimum-facility condu"
+    },
+    {
+      "url": "https://2hoffshore.com/about/news/2h-offshore-installs-its-eighth-conductor-supported-platform-offshore-malaysia",
+      "source_id": "2hoffshore-com-news-2h-offshore-installs-its-eighth-conductor-supp"
+    },
+    {
+      "url": "https://zee-eng.com/zeepod",
+      "source_id": "retro-zee-eng-com-zeepod-d7ab155"
+    },
+    {
+      "url": "https://zee-eng.com/zeepod",
+      "source_id": "retro-zee-eng-com-zeepod-d7ab155",
+      "note": "Vendor page states patent number and PETRONAS TRL 7/7 award; no filing or grant year given."
+    },
+    {
+      "url": "https://2hoffshore.com/about/news/2h-offshore-installs-its-eighth-conductor-supported-platform-offshore-malaysia",
+      "source_id": "2hoffshore-com-news-2h-offshore-installs-its-eighth-conductor-supp",
+      "note": "Not Murphy projects; included as technology analogues for minimum-facility conductor-supported platforms in the same 20-year window and region."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Quantified cost saving of conductor-supported platforms versus conventional jackets",
+      "why": "2H Offshore describes 'substantial time and cost savings' without a figure.",
+      "next_action": "Look for a 2H technical paper or SPE publication with quantified capital cost comparison."
+    },
+    {
+      "what": "Evidence that Murphy itself used conductor-supported or ZEEPod platforms",
+      "why": "The read sources document these technologies for PETRONAS/Vestigo fields, not for Murphy fields.",
+      "next_action": "Search Murphy Sarawak platform design references specifically before classifying Murphy facilities as conductor-supported."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Murphy Malaysia assets). Pages actually read with WebFetch: A Barrel Full Sarawak Gas Project; Murphy 2005, 2012 and 2014 Forms 10-K (SEC; 2014 via r.jina.ai reader proxy because of response size); Murphy "
+}

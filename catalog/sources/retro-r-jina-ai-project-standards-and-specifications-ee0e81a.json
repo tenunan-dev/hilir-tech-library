@@ -1,0 +1,25 @@
+{
+  "id": "retro-r-jina-ai-project-standards-and-specifications-ee0e81a",
+  "name": "KLM Technology Group - Instrumentation Design Criteria Rev 01",
+  "url": "https://r.jina.ai/https://www.klmtechgroup.com/PDF/ess/PROJECT_STANDARDS_AND_SPECIFICATIONS_offshore_instrumentation_criteria_Rev01.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "INS",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "KLM Technology Group",
+  "access": "open",
+  "licence": "publisher terms; PDF read via r.jina.ai mirror",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Directly read via r.jina.ai; ESD/F&G philosophy verified."
+}

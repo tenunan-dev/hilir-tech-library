@@ -1,0 +1,88 @@
+{
+  "id": "sk309-patricia-and-serendah-development",
+  "name": "SK309 Patricia and Serendah development",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Part of Murphy Sarawak's SK309 field development offshore Bintulu; Serendah is a marginal field in 30 m water, 35 km from Bintulu, tied into the Merapuh-Golok pipeline.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "EPC contract awarded for Patricia and Serendah substructures/template",
+      "date": "2012",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/02/23/kencana-lands-epc-deal-for-project-offshore-malaysia",
+        "source_id": "retro-offshore-energy-biz-kencana-lands-epc-deal-for-6116c97"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "EPC contract value - Patricia & Serendah substructures/template (RM as printed)",
+      "year": 2012,
+      "basis": "'approximately RM101 million' reported 23 Feb 2012; publication year used, no explicit dollar base year stated.",
+      "value": 101,
+      "unit": "RM",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/02/23/kencana-lands-epc-deal-for-project-offshore-malaysia",
+        "source_id": "retro-offshore-energy-biz-kencana-lands-epc-deal-for-6116c97"
+      }
+    },
+    {
+      "metric": "EPC contract value - Patricia & Serendah substructures/template (USD as printed)",
+      "year": 2012,
+      "basis": "'(USD 33.4 million)' as printed on same page beside RM101 million; publication year 2012 used, no explicit price-level base year stated.",
+      "value": 33.4,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/02/23/kencana-lands-epc-deal-for-project-offshore-malaysia",
+        "source_id": "retro-offshore-energy-biz-kencana-lands-epc-deal-for-6116c97"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Kencana Petroleum Berhad",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Murphy Sarawak Oil Co Ltd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-energy.biz/2012/02/23/kencana-lands-epc-deal-for-project-offshore-malaysia",
+      "source_id": "retro-offshore-energy-biz-kencana-lands-epc-deal-for-6116c97",
+      "note": "Part of Murphy Sarawak's SK309 field development offshore Bintulu; Serendah is a"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2012/02/23/kencana-lands-epc-deal-for-project-offshore-malaysia",
+      "source_id": "retro-offshore-energy-biz-kencana-lands-epc-deal-for-6116c97"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2012/02/23/kencana-lands-epc-deal-for-project-offshore-malaysia",
+      "source_id": "retro-offshore-energy-biz-kencana-lands-epc-deal-for-6116c97",
+      "note": "Part of Murphy Sarawak's SK309 field development offshore Bintulu; Serendah is a marginal field in 30 m water, 35 km from Bintulu, tied into the Merapuh-Golok pipeline."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Per-platform split of the RM101m / USD33.4m contract",
+      "why": "Source reports one combined value for Patricia and Serendah substructures and template; no Patricia-only or Serendah-only cost is printed.",
+      "next_action": "Seek the Kencana/SapuraKencana Bursa announcement or annual report with a contract breakdown."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

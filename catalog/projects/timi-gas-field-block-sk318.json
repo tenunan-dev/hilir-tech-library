@@ -1,0 +1,103 @@
+{
+  "id": "timi-gas-field-block-sk318",
+  "name": "Timi gas field (Block SK318)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Unmanned wellhead platform, Sarawak Shell-operated sweet-gas development in Block SK318; 80 km tie-back to the Shell-operated F23 hub. A PETRONAS first-gas release could not be read and was excluded.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Discovery",
+      "date": "2018",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/timi-sweet-gas-field-development-sarawak-malaysia"
+      }
+    },
+    {
+      "event": "PSC signed",
+      "date": "2012",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/timi-sweet-gas-field-development-sarawak-malaysia"
+      }
+    },
+    {
+      "event": "FID",
+      "date": "2021",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/timi-sweet-gas-field-development-sarawak-malaysia"
+      }
+    },
+    {
+      "event": "EPC award",
+      "date": "2021",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/timi-sweet-gas-field-development-sarawak-malaysia"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Sarawak Shell Berhad (operator, 75%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Brunei Energy Exploration (10%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Brooke Dockyard and Engineering Works Corporation (EPC, fixed offshore structure)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/timi-sweet-gas-field-development-sarawak-malaysia/",
+      "source_id": "retro-offshore-technology-com-53e7989",
+      "note": "Unmanned wellhead platform, Sarawak Shell-operated sweet-gas development in Bloc"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/timi-sweet-gas-field-development-sarawak-malaysia/",
+      "source_id": "retro-offshore-technology-com-53e7989"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/timi-sweet-gas-field-development-sarawak-malaysia"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Exact Timi WHP water depth",
+      "why": "PETRONAS MPM first-gas release could not be read (404, also via r.jina.ai) and was therefore excluded",
+      "next_action": "Locate an archived copy of the release before recording the 143 m figure"
+    },
+    {
+      "what": "EPC contract value",
+      "why": "No figure in the read project profile",
+      "next_action": "Find Shell or Brooke Dockyard disclosure"
+    },
+    {
+      "what": "Operating incidents / reliability",
+      "why": "None reported in read source",
+      "next_action": "Search regulatory reports"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

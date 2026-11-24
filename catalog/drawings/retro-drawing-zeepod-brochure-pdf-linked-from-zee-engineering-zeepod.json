@@ -1,0 +1,23 @@
+{
+  "id": "retro-drawing-zeepod-brochure-pdf-linked-from-zee-engineering-zeepod",
+  "title": "ZEEPod Brochure (PDF linked from ZEE Engineering ZEEPod page)",
+  "diagram_type": "schematic",
+  "description": "Brochure link present on the fetched ZEEPod page but the PDF itself was not fetched; no drawing content asserted.",
+  "publisher": "ZEE Engineering Sdn Bhd",
+  "url": "https://zee-eng.com/assets/storage/zeepod/Zeepod%20Brouchure.pdf",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "sources": [
+    {
+      "url": "https://zee-eng.com/assets/storage/zeepod/Zeepod%20Brouchure.pdf",
+      "note": "Brochure link present on the fetched ZEEPod page but the PDF itself was not fetched; no drawing content asserted."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 20-year WHP retrospective; drawing stays at the publisher url."
+}

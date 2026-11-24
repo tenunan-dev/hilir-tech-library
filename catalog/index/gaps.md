@@ -3,11 +3,11 @@
 What the library should hold but does not yet, why, where to get it and what to do next. Generated from the `gaps` field
 of each card in catalog/technologies/ and from register entries without a card. Agents: call `list_gaps`.
 
-693 missing inputs on 329 cards; 7 register technologies have no card yet.
+694 missing inputs on 330 cards; 7 register technologies have no card yet.
 
 | Reason | Count |
 | --- | --- |
-| not_in_sources_read | 677 |
+| not_in_sources_read | 678 |
 | paid_source | 11 |
 | no_card_yet | 7 |
 | status_unchecked | 2 |
@@ -720,6 +720,7 @@ of each card in catalog/technologies/ and from register entries without a card. 
 | [Wellhead platform safety and emergency equipment](technologies-UPS.md#ups-whp-safety-and-emergency-equipment) | SCBA cylinder and duration figures from a WebFetch-readable page (performance) | NFPA 1981, DHS TechNotes and NAVSEA standard item were PDFs refused by WebFetch; only the 46 CFR 77.30-5 30-minute minimum is page-read verified | OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Fire extinguishers, hydrant hoses, SCBA sets on manned platf (open) | Fetch accessible HTML mirrors or read PDFs with a PDF-capable tool |
 | [Wellhead platform safety and emergency equipment](technologies-UPS.md#ups-whp-safety-and-emergency-equipment) | Full text of API RP 14C 8th edition with safety analysis tables (SACs) and ESD appendix C (performance) | PDF refused by WebFetch | OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Overboard dump valves and ESD-initiated isolation of all wel (open) | Read the standard PDF with a PDF-capable tool or obtain licensed copy |
 | [Wellhead platform safety and emergency equipment](technologies-UPS.md#ups-whp-safety-and-emergency-equipment) | ESD proof-test results / availability figures for offshore platforms (performance) | No directly read page published quantitative ESD failure rates or SIL verification figures | OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Overboard dump valves and ESD-initiated isolation of all wel (open) | Search for OREDA/operator ESD reliability data with printed figures |
+| [Twenty-year wellhead platform development and cost history (2006–2026)](technologies-UPS.md#ups-whp-twenty-year-retrospective) | field-level capex and operating cost with a stated dollar year (costs) | Most operator and contractor pages read do not publish dated field-level costs. | PETRONAS activity reports, operator annual reports, IHS/Wood Mackenzie project databases (paid) | Search dated project-award announcements and annual reports for each named field. |
 | [Wellhead platform utility systems](technologies-UPS.md#ups-whp-utility-systems) | Power generation (performance) | No OEM datasheet giving rated wind-turbine power or battery Ah/kWh for the Timi hybrid system was found in the pages read | OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Power generation (open) | Fetch a Shell/operator detailed Timi electrical design paper or EPC vendor data sheet |
 | [Wellhead platform utility systems](technologies-UPS.md#ups-whp-utility-systems) | Power generation (performance) | No WHP-specific subsea cable voltage/current/conductor specification was read | OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Power generation (open) | Fetch an umbilical/cable OEM datasheet and a host-to-WHP power-from-shore project page |
 | [Wellhead platform utility systems](technologies-UPS.md#ups-whp-utility-systems) | Diesel storage and transfer (performance) | No WHP-specific diesel storage tank capacity, day-tank volume or transfer-pump duty/head was found in the pages read | OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Diesel storage and transfer (open) | Fetch a named WHP/BEP design basis or utility specification with tank sizes and pump ratings |

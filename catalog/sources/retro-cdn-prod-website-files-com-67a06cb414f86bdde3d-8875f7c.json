@@ -1,0 +1,25 @@
+{
+  "id": "retro-cdn-prod-website-files-com-67a06cb414f86bdde3d-8875f7c",
+  "name": "DIALOG Upstream — BPTEC 2025 presentation (PDF)",
+  "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/67a06cb414f86bdde3dbe790_Dialog%20Upsteam%20-%20BPTEC%202025.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "DIALOG Group Berhad",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch returned unsupported PDF content type; page read through reader proxy https://r.jina.ai/<url> as instructed. Figures transcribed from the proxied page text. Tarpon project years 2004/2006/2012/2013; 100-year storm; 6-conductor."
+}

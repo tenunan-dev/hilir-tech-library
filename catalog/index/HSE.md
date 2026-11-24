@@ -1,6 +1,6 @@
 # HSE: Health, safety and environment
 
-191 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+203 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -17,13 +17,16 @@
 | [Canada Oil and Gas Installations Regulations SOR/96-118 s.22](https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html) | standards-body | global, sea | open | summary-only |
 | [Circulating fluidized-bed boilers](https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers) | oem-supplier | global, na, apac | open | summary-only |
 | [CS-PH Ex programmable smoke & heat detector data sheet](https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf) | standards-body | global, sea | open | summary-only |
+| [DIALOG Group Berhad — Integrated Annual Report 2026 (PDF)](https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf) | oem-supplier | sea | open | summary-only |
 | [ECOjet Edge+ low-NOx burner](https://johnzink.com/products/powerburners/ecojet-edge-plus) | oem-supplier | global, na, apac | open | summary-only |
 | [GE Vernova heat recovery steam generators](https://www.gevernova.com/gas-power/products/hrsg) | oem-supplier | global, na, apac, sea, me, eu | open | summary-only |
 | [IEC 61511-1:2016+AMD1:2017 CSV](https://webstore.iec.ch/en/publication/61289) | standards-body | global, sea | paywalled | catalog-only |
 | [Japanese Industrial Standards (JISC)](https://www.jisc.go.jp/eng/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [Malaysian Standards (Department of Standards Malaysia)](https://www.jsm.gov.my/) | standards-body | apac, sea | paywalled | catalog-only (unverified) |
 | [Miura LX series steam boiler (Canada)](https://miuraboiler.ca/product/lx-steam-boiler) | oem-supplier | global, na, apac | open | summary-only |
+| [Murphy Oil Corporation 2018 Annual Report / Form 10-K](https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63) | oem-supplier | global, sea | open | summary-only |
 | [NOPSEMA offshore safety regulator](https://www.nopsema.gov.au/) | agency-data | apac | open | full-text-restricted |
+| [Notice to Mariners 96/2026(T) - FSO replacement at West Patricia](https://www.marine.gov.my/wp-content/uploads/2026/07/96-2026T-%E2%80%93-NOTICE-OF-TEMPORARY-REPLACEMENT-OF-FSO-CASPIAN-SEA-BY-NEPTUNE-MOON-AT-WEST-PATRICIA-FIELD-BLOCK-SK309-OFFSHORE-SARAWAK-WITHIN-THE-EXCLUSIVE-ECONOMIC-ZONE.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Offshore Natural Gas Drilling Platform: Remote Pressure Monitoring of Wellhead Equipment](https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead) | oem-supplier | global, sea | open | summary-only |
 | [OISD Oil Industry Safety Directorate standards](https://www.oisd.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [Recommended guidelines for application of IEC 61508 and IEC 61511 in the Norwegian petroleum industry, No. 070 rev 06](https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf) | oem-supplier | global, sea | open | summary-only |
@@ -36,16 +39,22 @@
 | [Australian DCCEEW energy and hydrogen](https://www.dcceew.gov.au/energy) | agency-data | apac | open | full-text-open |
 | [Australian Energy Producers (formerly APPEA)](https://energyproducers.au/) | association | apac | open | full-text-restricted |
 | [Central Pollution Control Board (India) — general standards for discharge](https://cpcb.nic.in/generalstandards.pdf) | agency-data | apac | open | summary-only |
+| [DIALOG Tarpon — What We Do (standards, capability, installations)](https://www.tarponsystems.com/what-we-do) | oem-supplier | global, sea | open | summary-only |
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
+| [DOE Malaysia EIA final report – Teja and Pepulut Field Development (via r.jina.ai)](https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9) | oem-supplier | global, sea | open | summary-only |
 | [Geological Survey of Queensland open data](https://geoscience.data.qld.gov.au) | agency-data | apac | open | full-text-open |
 | [Global CCS Institute publications](https://www.globalccsinstitute.com/resources/publications-reports-research/) | association | global, apac | mixed | full-text-restricted |
 | [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
 | [JDIH ESDM (Indonesian energy regulation database)](https://jdih.esdm.go.id) | agency-data | sea | open | full-text-open |
+| [KLM Technology Group - Instrumentation Design Criteria Rev 01](https://r.jina.ai/https://www.klmtechgroup.com/PDF/ess/PROJECT_STANDARDS_AND_SPECIFICATIONS_offshore_instrumentation_criteria_Rev01.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Malaysia Petroleum Management (PETRONAS MPM)](https://www.petronas.com/mpm) | agency-data | sea | open | summary-only (unverified) |
+| [Malaysia's offshore decommissioning accelerates in 2026](https://offsnet.com/content/asia-pacific/malaysias-offshore-decommissioning-accelerates-in-2026) | oem-supplier | global, sea | open | summary-only |
 | [Marking Oil & Gas structures - IALA G1162](https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/) | standards-body | global, sea | open | summary-only |
 | [Methanol Institute](https://www.methanol.org/) | association | global, apac | open | full-text-restricted |
+| [MHB - Setting Benchmark for Fit-for-Purpose Solution](https://mhb.com.my/setting-benchmark-for-mhbs-one-design-build-for-many/) | oem-supplier | global, sea | open | summary-only |
 | [MISC Group (LNG shipping, FPSO and offshore)](https://www.miscgroup.com/) | epc-contractor | sea, apac | open | summary-only (unverified) |
 | [Normally unmanned installation](https://en.wikipedia.org/wiki/Normally_unmanned_installation) | oem-supplier | global, sea | open | full-text-open |
+| [Ocean Energy Resources – Soil investigation for CCS at Duyong](https://ocean-energyresources.com/2025/02/04/soil-investigation-work-for-carbon-captured-storage-project/) | oem-supplier | global, sea | open | summary-only |
 | [Peraturan.id (BPK regulation database)](https://peraturan.bpk.go.id) | standards-body | sea | open | full-text-open |
 | [Singapore MPA (Maritime and Port Authority)](https://www.mpa.gov.sg) | agency-data | sea, apac | open | full-text-open |
 | [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted |
@@ -92,17 +101,20 @@
 | [IEAGHG Technology Collaboration Programme reports](https://ieaghg.org/) | research-institute | global | mixed | full-text-restricted |
 | [IEC 61511](https://en.wikipedia.org/wiki/IEC_61511) | standards-body | global | open | summary-only |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
+| [IEC webstore - IEC 61511-1:2016](https://webstore.iec.ch/en/publication/24241) | oem-supplier | global | open | summary-only |
 | [IECEx System (IEC System for Certification to Standards relating to Equipment for use in Explosive Atmospheres)](https://www.iecex.com/) | standards-body | global | open | summary-only |
 | [IMO MARPOL (International Maritime Organization)](https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx) | standards-body | global | mixed | summary-only |
 | [International Journal of Greenhouse Gas Control](https://www.sciencedirect.com/journal/international-journal-of-greenhouse-gas-control) | journal | global | mixed | catalog-only (unverified) |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO 10423:2009 (withdrawn)](https://www.iso.org/standard/42757.html) | standards-body | global | open | summary-only |
+| [ISO 13702](https://r.jina.ai/https://www.klmtechgroup.com/PDF/ess/PROJECT_STANDARD_AND_SPECIFICATIONS_offshore_technical_safety_Rev01.pdf) | standards-body | global | open | summary-only |
 | [ISO 14687 (hydrogen fuel purity)](https://www.iso.org/standard/69539.html) | standards-body | global | paywalled | catalog-only |
 | [ISO 19880 (gaseous hydrogen fuelling stations)](https://www.iso.org/standard/71940.html) | standards-body | global | paywalled | catalog-only |
 | [ISO/TC 197 Hydrogen technologies](https://www.iso.org/committee/54560.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 265 Carbon dioxide capture, transportation and geological storage](https://www.iso.org/committee/648607.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Journal of Loss Prevention in the Process Industries](https://www.sciencedirect.com/journal/journal-of-loss-prevention-in-the-process-industries) | journal | global | mixed | catalog-only (unverified) |
+| [MDPI Sustainability - Environmental Sustainability and Efficiency of Offshore Platform Decommissioning: A Review](https://r.jina.ai/https://www.mdpi.com/2071-1050/15/17/12757) | oem-supplier | global | open | summary-only |
 | [NFPA 30](https://www.pdhonline.com/courses/m332/m332content.pdf) | standards-body | global | open | summary-only |
 | [NFPA 37](https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf) | standards-body | global | open | summary-only |
 | [NFPA Codes and Standards](https://www.nfpa.org/codes-and-standards) | standards-body | global, na | mixed | catalog-only (unverified) |

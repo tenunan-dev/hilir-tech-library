@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-686 project records (one per named project or plant, schema `schema/project.schema.json`).
+779 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -2069,10 +2069,52 @@ Status: **operating** | Country: USA GOM
 12,700 t topsides, 2,860 ft water depth, first GOM TLP with drilling rig and full production facilities
 Technologies: civ-offshore-platform-structures
 
+### Balai Cluster (Balai, Bentara, West Acis, Spaoh) (balai-cluster-balai-bentara-west-acis-spaoh)
+Status: **operating** | Country: Malaysia
+Four small oil/gas fields offshore Sarawak developed with four lightweight Tarpon guyed caisson WHPs plus early production vessel EPV Balai Mutiara under a 15-year RSC.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Individual WHP weights; Full development outcome; Incidents
+
+### Balai Cluster Development (balai-cluster-development)
+Status: **operating** | Country: Malaysia (Bintulu, Sarawak)
+EPCIC of four WHPs at Balai, Bentara, Spaoh and West Acis fields; guyed caissons, anchor piles and platforms.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Balai cluster contract value
+
+### Balai Cluster fields (balai-cluster-fields)
+Status: **operating** | Country: Malaysia (offshore Bintulu, Sarawak)
+DIALOG's 2011 upstream entry per Annual Report 2026; Balai/Bentara/Spaoh/West Acis WHPs built by Tarpon 2011-2012 as a separate item.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Salbiah water depth, WHP design and contract value; Decommissioning / abandonment year for BJC fields
+
+### Balai, Bentara, Spaoh and West Acis fields (Balai cluster) (balai-bentara-spaoh-and-west-acis-fields-balai-cluster)
+Status: **operating** | Country: Malaysia
+Four Tarpon guyed-caisson WHPs, client BC Petroleum, water depths 48-66 m, about 256,000 man-hours.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Named-asset WHP availability/failure rates; Unit capex of conductor-supported WHPs; ZEEPod patent grant date
+
 ### Baldpate GB 260 (pf-baldpate-gb-260)
 Status: **operating** | Country: USA
 12 skirt piles through 84 in sleeves, ~430 ft penetration
 Technologies: civ-offshore-platform-structures
+
+### Balingian PSC (Bayan, D18, D28, Temana) (balingian-psc-bayan-d18-d28-temana)
+Status: **operating** | Country: Malaysia (offshore Sarawak)
+90% PI proposed acquisition; 33.7 kboepd 2025 net PI; crude exported via Bintulu Crude Oil Terminal, gas processed at Bayan MOPU.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Balingian/D35 field-specific WHP capex; Completion of EnQuest acquisition
+
+### Bambazon Cluster and Erb South small-field assets (bambazon-cluster-and-erb-south-small-field-assets)
+Status: **operating** | Country: Malaysia
+EPOMS small-field tie-back developments: Bambazon (Bambazon, Tiga Papan, Mengkira) and Erb South, awarded under SFA PSCs in 2023 and 2024.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Water depth; Capex / contract values; First oil / FID
+
+### Baram Junior Cluster SFA PSC (baram-junior-cluster-sfa-psc)
+Status: **operating** | Country: Malaysia (offshore Miri, Sarawak)
+DIALOG Resources 70%, PSEP 30%; operatorship DIALOG; SFA PSC to 2037; resource assessment and pre-development reported in Annual Report 2024/2025.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Salbiah water depth, WHP design and contract value; Decommissioning / abandonment year for BJC fields
 
 ### Barossa FPSO / FPSO seawater injection systems (barossa-fpso-fpso-seawater-injection-systems)
 Status: **operating** | Country: Multiple
@@ -2082,6 +2124,12 @@ Valve Magazine / Baker Hughes article (search extracts) describes overboard dump
 Status: **operating** | Country: Australia
 capacity: ~3.4 Mtpa LNG; 25-year production life; $3.6bn (A$4.98bn) FID | status: Operating/commissioned: FPSO received first gas September 2025; first LNG cargo to JERA June 2026 | dates: ['2006 Barossa discovery', 'Mar 2018 NOPSEMA proposal accepted', 'Mar 2021 FID', 'Mar 2022 Environment Plan approved', 'Jun 2025 FPSO installed', 'Sep 2025 first gas', 'Jun 2026 first LNG cargo'] | location: Bonaparte Basin, Timor Sea, 285 km north-north-west of Darwin; 130-350 m water depth
 Technologies: ups-subsea-production-systems
+
+### Bayan Oilfield Services Contract (bayan-oilfield-services-contract)
+Status: **operating** | Country: Malaysia (offshore Bintulu, Sarawak)
+DIALOG Bayan Petroleum Sdn Bhd is OSC contractor to PCSB for recoverable-reserve enhancement at Bayan field.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Balingian/D35 field-specific WHP capex; Completion of EnQuest acquisition
 
 ### Bayu Undan (pf-bayu-undan)
 Status: **operating** | Country: Australia (Timor Sea)
@@ -2097,6 +2145,12 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: Poland
 Heerema Thialf installed 100 turbine foundations and 2 OSS jackets (2026 news item on Heerema home page).
 Technologies: civ-offshore-platform-structures
+
+### Bekok field (Malay Basin) (bekok-field-malay-basin)
+Status: **operating** | Country: Malaysia
+Oil field discovered 1971, part of the 1970-71 giant-field cluster; EUR 296 MMboe per PETRONAS (1999).
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Facility concept / water depth; First oil/gas year; Capex and incidents
 
 ### Benguela-Belize Lobito-Tomboco (pf-benguela-belize-lobito-tomboco)
 Status: **operating** | Country: Angola
@@ -2146,6 +2200,12 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: Malaysia
 80,000 BWPD; 3x50% pumps/hydrocyclones + 100% CFU; guaranteed 30 ppm OIW; MMHE/PETRONAS Carigali.
 Technologies: ups-subsea-production-systems
+
+### Bokor Phase 3 redevelopment (bokor-phase-3-redevelopment)
+Status: **operating** | Country: Malaysia (Baram Delta, offshore Sarawak)
+Three new WHPs and new CPP under Baram Delta EOR; operator PCSB with Sarawak Shell.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Bokor three-WHP EPCIC value; Dollar year of $226.7m
 
 ### Bonga Deep-water Project (sys-bonga-deep-water-project)
 Status: **operating** | Country: Nigeria
@@ -2232,6 +2292,12 @@ Status: **operating** | Country: China
 Honeywell Experion PKS DCS, Safety Manager ESD, F&G, combustible/toxic/flame detectors; four 160,000 m3 LNG tanks; search-verified case study.
 Technologies: ups-subsea-production-systems
 
+### Congkak oil field, Block SK309 (congkak-oil-field-block-sk309)
+Status: **operating** | Country: Malaysia
+Congkak and West Patricia together produced about 13,500 net barrels of oil per day in 2005 (Murphy 2005 10-K).
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Belum, Merapuh, Pemanis, Patricia, Permas and South Acis individual discovery dates, water depths, well counts and capex; Chemical injection skid package supplier detail and value
+
 ### Coral South FLNG (ENI) (pf-coral-south-flng-eni)
 Status: **operating** | Country: Mozambique
 turret weight ~8,000 MT, HIPPS 400 bar/143 bar
@@ -2247,15 +2313,39 @@ Status: **operating** | Country: Australia
 24,000 t jacket under tow with support vessels, Shell and McDermott 2025.
 Technologies: civ-offshore-platform-structures
 
+### D18 Phase 2 (d18-phase-2)
+Status: **operating** | Country: Malaysia (offshore Sarawak)
+OceanMight for PCSB, 35 m water, eighth 2H conductor-supported installation.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Contract values for D28/D18/Tanjong Baram
+
 ### D18 Phase 2 and D28 Phase 1 conductor-supported platforms, Sarawak (wh-d18-phase-2-and-d28-phase-1-conductor-supported-platforms-sarawak)
 Status: **operating** | Country: Malaysia
 D18 Phase 2 installed in 35 m water depth for OceanMight on behalf of PETRONAS Carigali; lightweight conductor-supported substructure and topside installed by jack-up drilling rig; eighth conductor-supported platform installed in Malaysian waters by 2H Kuala Lumpur office.
 Technologies: ups-subsea-production-systems
 
+### D28 Phase 1 (d28-phase-1)
+Status: **operating** | Country: Malaysia (offshore Sarawak)
+PETRONAS Carigali-operated field, OceanMight fabricator, 35 m water.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Contract values for D28/D18/Tanjong Baram
+
+### D28 Phase 1 and D18 Phase 2 conductor-supported WHPs, offshore Sarawak (d28-phase-1-and-d18-phase-2-conductor-supported-whps-offshore-sarawak)
+Status: **operating** | Country: Malaysia
+Not Murphy projects; included as technology analogues for minimum-facility conductor-supported platforms in the same 20-year window and region.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Quantified cost saving of conductor-supported platforms versus conventional jackets; Evidence that Murphy itself used conductor-supported or ZEEPod platforms
+
 ### D30 and Dana WHSF conductors, Sarawak (wh-d30-and-dana-whsf-conductors-sarawak)
 Status: **operating** | Country: Malaysia
 36-inch conductors driven and grouted into four 40-inch legs acting as structural piles; four internal 24-inch conductors at D30 and one at Dana.
 Technologies: ups-subsea-production-systems
+
+### D35-D21-J4 PSC (d35-d21-j4-psc)
+Status: **operating** | Country: Malaysia (offshore Sarawak)
+50% PI proposed acquisition; DIALOG Resources 20% participating interest per DIALOG upstream page; operator PCSB.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Balingian/D35 field-specific WHP capex; Completion of EnQuest acquisition
 
 ### Daqing oilfield polymer flood (daqing-oilfield-polymer-flood)
 Status: **operating** | Country: CN
@@ -2267,10 +2357,22 @@ Status: **operating** | Country: various
 authors compare 20,000 t crane floatover, heavy-lift derrick barge, jacking system, Kiewit Heavy Lift Device and multiple modular lifts
 Technologies: civ-offshore-platform-structures
 
+### DEWA Complex Cluster small-field asset (Sarawak) (dewa-complex-cluster-small-field-asset-sarawak)
+Status: **operating** | Country: Malaysia
+Twelve shallow-water gas discoveries (D30, Danau, D41, etc.) awarded under PETRONAS Small Field Asset PSC terms in Oct 2024; low-cost normally unmanned platform concept.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: FID / first gas dates; Capex; Incidents
+
 ### Dhirubhai Deepwater KG1 (pf-dhirubhai-deepwater-kg1)
 Status: **operating** | Country: India
 3,107 m water-depth record in 2011 for Reliance
 Technologies: civ-offshore-platform-structures
+
+### DIALOG acquisition of Tarpon Platform Systems (November 2023) (dialog-acquisition-of-tarpon-platform-systems-november-2023)
+Status: **operating** | Country: Malaysia
+DIALOG Group Berhad acquired the entire equity interest in Tarpon Platform Systems Malaysia Sdn Bhd plus all tangible and intangible assets (including IP) of Tarpon Systems International II LLC on 15 November 2023. Two independently read pages print the same consideration in USD and RM; both recorded side by side. This is a corporate acquisition price for the platform-system business, NOT an WHP fabrication or development cost.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Purchase-price allocation to the Tarpon patent/IP
 
 ### Diana (pf-diana)
 Status: **operating** | Country: USA
@@ -2301,6 +2403,18 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Norway
 Condeep monotower concrete platform at 251 m, installed 1993
 Technologies: civ-offshore-platform-structures
+
+### Duyong Field (duyong-field)
+Status: **operating** | Country: Malaysia (offshore Terengganu, Peninsular Malaysia)
+Processing hub CPP with GCP, DDP-B, FTP, LQ; remote drilling platforms DDP-A and DDP-C; Sotong Collector Platform-A.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Conflicting first-gas month (April vs December 1984); Duyong decommission year; 2025 CCS permit primary page
+
+### Duyong gas field (Block PM6/12, offshore Terengganu) (duyong-gas-field-block-pm6-12-offshore-terengganu)
+Status: **operating** | Country: Malaysia
+Mature Malay Basin gas field, discovered July 1970 and first gas December 1984; now a candidate CO2 storage site under a 2024 PETRONAS-ADNOC-Storegga JSDA.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Current producing status; Decommissioning timetable; Incident history
 
 ### Dvalin North (wh-dvalin-north)
 Status: **operating** | Country: Norway
@@ -2364,6 +2478,12 @@ Status: **operating** | Country: Brazil
 Oceaneering case study advertises high-precision subsea survey, real-time anchor positioning and ROV support for FPSO mooring hook-up — search-verified snippet only.
 Technologies: civ-offshore-platform-structures
 
+### Gorek (SMEP) (gorek-smep)
+Status: **operating** | Country: Malaysia
+Minimal facility wellhead platform fully powered by solar energy.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Measured hybrid-system availability; CAPEX/OPEX of hybrid power
+
 ### Gorek platform, Malaysia (wh-gorek-platform-malaysia)
 Status: **operating** | Country: Malaysia
 Minimal facility wellhead platform fully powered by solar energy, precursor to Timi hybrid power.
@@ -2399,6 +2519,12 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Norway
 380 m tall, 1.4-1.5 Mt displacement, 216/217 m depth
 Technologies: civ-offshore-platform-structures
+
+### Gumusut-Kakap (gumusut-kakap)
+Status: **operating** | Country: Malaysia
+Blocks J/K, offshore Sabah, ~1,200 m water depth
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Total project capex; Phase 2-4 first oil dates; Incidents
 
 ### Gumusut-Kakap Deepwater Project (sys-gumusut-kakap-deepwater-project)
 Status: **operating** | Country: Malaysia
@@ -2536,6 +2662,12 @@ Status: **operating** | Country: Gulf of Mexico/USA
 Chevron power umbilicals installed August 2014 at about 2,400 m - deepest power umbilical installation for Nexans
 Technologies: ups-subsea-production-systems
 
+### Jerneh field (Malay Basin) (jerneh-field-malay-basin)
+Status: **operating** | Country: Malaysia
+Gas/condensate field discovered 1969; EUR 695 MMboe equivalent to 4.9 tcf.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Facility concept / water depth; First oil/gas year; Capex and incidents
+
 ### Jerun CPP topside, SK408W, Sarawak (wh-jerun-cpp-topside-sk408w-sarawak)
 Status: **operating** | Country: Malaysia
 Approximately 15,000 MT topside to be installed with 11,200 MT jacket; client SapuraOMV, with Shell and PETRONAS Carigali at 30% each.
@@ -2596,6 +2728,12 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Vietnam
 PLC-5 to ControlLogix with central SCADA communication; site work carried out from the FSO
 
+### Kakap-Gumusut unitized field, Block K / Block J (kakap-gumusut-unitized-field-block-k-block-j)
+Status: **operating** | Country: Malaysia
+Unitized with Shell's Gumusut discovery; Murphy interest reduced through unitization and redeterminations to 6.35% by 2018.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Kikeh, Kakap, Siakap and Rotan detailed technology, processing and export specifications; Incidents, uptime, workovers and decommissioning for the deepwater assets
+
 ### Kanowit FLNG (pf-kanowit-flng)
 Status: **operating** | Country: Malaysia
 Petronas contract with Technip/DSME, 2012, off Sarawak
@@ -2615,6 +2753,12 @@ Technologies: ups-multiphase-flow-metering
 ### Kayu Manis South East (KMSE) and Anjung Kecil (AJK) WHPs (kayu-manis-south-east-kmse-and-anjung-kecil-ajk-whps)
 Status: **operating** | Country: Malaysia
 PETRONAS Carigali, Block SK315, three 20-inch conductor slots per platform
+
+### Kayu Manis South East and Anjung Kecil (kayu-manis-south-east-and-anjung-kecil)
+Status: **operating** | Country: Malaysia
+Two Tarpon WHPs in Block SK315, ~200 km off Bintulu, water depths 70-85 m, designed for 20-year operational life and relocatable; three 20-in conductor slots (two used, one spare).
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Named-asset WHP availability/failure rates; Unit capex of conductor-supported WHPs; ZEEPod patent grant date
 
 ### Kayu Manis South East and Anjung Kecil WHPs (kayu-manis-south-east-and-anjung-kecil-whps)
 Status: **operating** | Country: Malaysia
@@ -2652,10 +2796,34 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: Malaysia
 Deck includes accommodation for staff and a tender-assisted drilling rig; no helideck dimensions given on the page read.
 
+### Kenarong and Pertang, Block PM311 (kenarong-and-pertang-block-pm311)
+Status: **operating** | Country: Malaysia
+Murphy held 75% gas holding agreements for Kenarong and Pertang; an extension application was rejected by PETRONAS in 2014 and the prior-year well costs were written off.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Kikeh, Kakap, Siakap and Rotan detailed technology, processing and export specifications; Incidents, uptime, workovers and decommissioning for the deepwater assets
+
+### Kertang prospect (Block 2A, offshore Sarawak) (kertang-prospect-block-2a-offshore-sarawak)
+Status: **operating** | Country: Malaysia
+Deepwater exploration prospect (not a producing asset) included as the forward end of the 20-year retrospective: operator INPEX, Seascape 10%, drilling approved for 2026-27.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Discovery / production; Capex; Incidents
+
 ### Kikeh (pf-kikeh)
 Status: **operating** | Country: Malaysia
 142 m × 32 m truss spar dry tree unit, 1,310-1,330 m, first Malaysian deepwater development
 Technologies: civ-offshore-platform-structures
+
+### Kikeh deepwater field (Block K, Sabah) (kikeh-deepwater-field-block-k-sabah)
+Status: **operating** | Country: Malaysia
+Malaysia's first deepwater development: truss spar dry-tree unit + FPSO, first oil August 2007, roughly five years after 2003 discovery.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Capex dollar year; Decommissioning plan/year; Incident/reliability record
+
+### Kikeh deepwater oil field, Block K offshore Sabah (kikeh-deepwater-oil-field-block-k-offshore-sabah)
+Status: **operating** | Country: Malaysia
+Malaysia's first deepwater development, discovered 2002, first production 2007, spar plus FPSO; operated by Murphy with 80% interest at startup.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Kikeh, Kakap, Siakap and Rotan detailed technology, processing and export specifications; Incidents, uptime, workovers and decommissioning for the deepwater assets
 
 ### Kikeh FPSO (pf-kikeh-fpso)
 Status: **operating** | Country: Malaysia
@@ -2671,6 +2839,12 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: Malaysia
 Truss spar in 1,310 m water, South China Sea — only spar installed outside Gulf of Mexico per Wikipedia list; anchor type not stated on page.
 Technologies: civ-offshore-platform-structures
+
+### Kinabalu Redevelopment (kinabalu-redevelopment)
+Status: **operating** | Country: Malaysia (offshore Sabah)
+Talisman Malaysia to OceanMight for EPC of one wellhead platform.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Kinabalu WHP standalone contract value; SK305 operator attribution; Tukau full paper
 
 ### Kincardine (pf-kincardine)
 Status: **operating** | Country: UK
@@ -2705,6 +2879,18 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Netherlands/North Sea
 Direct-weld LMU used; no sand-jack lowering phase.
 Technologies: civ-offshore-platform-structures
+
+### Lang Lebah and B14 integrated gas development (SK410B) (lang-lebah-and-b14-integrated-gas-development-sk410b)
+Status: **operating** | Country: Malaysia
+Integrated development of two Sarawak gas fields, one of Malaysia's largest gas discoveries; 30% operated farm-out to TotalEnergies signed 2 Nov 2026.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Water depth; Facility concept / WHP count; Discovery year and capex
+
+### Layang marginal field (Block SK10) (layang-marginal-field-block-sk10)
+Status: **operating** | Country: Malaysia
+Unmanned WHP tied to a leased FPSO; marginal oil/gas development in 90 m water offshore Sarawak, production from mid-2016.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: WHP size / weights; Actual first production date; Reliability incidents
 
 ### Lena (pf-lena)
 Status: **operating** | Country: USA
@@ -2792,10 +2978,22 @@ Status: **operating** | Country: Philippines
 substructure_type: Concrete gravity substructure (CGS), rectangular caisson with four shafts | topside_type: Three-level integrated deck (weather, production, cellar decks) plus accommodation module | water_depth: 43 m at platform; subsea wells at approx. 820-850 m | topside_weight: 13,000 t initial operating weight; load-out weight 10,000 t excluding transportation frame (Offshore Technology); 11,500 t at installation (Offshore Magazine, KBR) — source-specific values | installation_method: Float-over of integrated topsides by KBR in mid-March 2001 using H-541 barge; 36 pumps transferred >21,000 t/h seawater; full weight transfer in 57 minutes; CGS installed summer 2000 on seabed prepared with 17,000 t rock in 361 mounds; 75,000 t iron ore ballast in open cells; 3,000 t rock scour protection | contractor: Brown & Root / KBR (EPCI, $432m contract awarded Aug 1998); topsides fabrication Se
 Technologies: civ-offshore-platform-structures
 
+### Malaysia offshore decommissioning programme (PETRONAS MPM) (malaysia-offshore-decommissioning-programme-petronas-mpm)
+Status: **operating** | Country: Malaysia
+Removals, P&A and selective repurposing; five rigs-to-reef conversions since 2004 including Baram-8, Sarawak; case-by-case approach between full removal, partial decommissioning and repurposing.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Actual decommissioning cost for a Malaysian WHP (e.g. Ophir, Baram-8); Value of the PETRONAS up-to-31-platform removal tender
+
 ### Malikai (pf-malikai)
 Status: **operating** | Country: Malaysia
 26,000 t TLP, 500 m, first in Malaysia
 Technologies: civ-offshore-platform-structures
+
+### Malikai deepwater oilfield (Block G, Sabah) (malikai-deepwater-oilfield-block-g-sabah)
+Status: **operating** | Country: Malaysia
+First TLP in Malaysian waters: 26,000 t tension leg platform in 500 m water, first production December 2016; tie-back to Kebabangan hub.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Total project capex; Incidents / reliability
 
 ### Maureen ALC (pf-maureen-alc)
 Status: **operating** | Country: UK
@@ -2836,6 +3034,18 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: India
 Hi-Tech Elastomers supplied 4 HLMUs and 8 stabbing cones for float-over jacket/topside operations.
 Technologies: civ-offshore-platform-structures
+
+### Murphy Malaysia portfolio transactions (2014 partial divestment; 2019 exit) - not WHP costs (murphy-malaysia-portfolio-transactions-2014-partial-divestment-2019-ex)
+Status: **operating** | Country: Malaysia
+Two dated, read figures for transactions that transferred the SK309/SK311 assets including West Patricia/Golok/Serampang: Murphy's 2014 sale of 30% of its Malaysian assets to Pertamina at an aggregate purchase price of $2.0 billion (SEC exhibit), and its 2019 all-cash sale of Murphy Sabah and Murphy Sarawak to PTTEP for US$2.127 billion / RM8.62 billion plus an up-to-US$100m contingent bonus. These are asset/equity transaction values, NOT platform capex; kept here only to bound asset value, with explicit basis.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Field-level capex for SK309/SK311 / West Patricia in Murphy filings; Per-well drilling/completion cost for Sarawak WHP wells
+
+### Murphy West Patricia WP-PA and WP-IA, Block SK309 Sarawak (murphy-west-patricia-wp-pa-and-wp-ia-block-sk309-sarawak)
+Status: **operating** | Country: Malaysia
+WP-PA: 40 m water depth, 300 t jacket, 600 t topsides, 6 slots/18 wells. WP-IA: 40,000 bwpd water injection, 620 t topsides completed 30 Aug 2003, same lightweight four-leg structure.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Named-asset WHP availability/failure rates; Unit capex of conductor-supported WHPs; ZEEPod patent grant date
 
 ### Muskeg River Mine (Albian Sands Energy, Shell-led), Athabasca, Alberta (muskeg-river-mine-albian-sands-energy-shell-led-athabasca-alberta)
 Status: **operating** | Country: CA
@@ -2881,6 +3091,12 @@ Technologies: ups-casing-drilling-expandable-tubulars
 Status: **operating** | Country: RU
 world-record extended-reach well at completion: 12,345 m measured depth (40,502 ft)
 Technologies: ups-extended-reach-multilateral-wells
+
+### Offshore construction vessel charter - Sapura 3000 (2012) (offshore-construction-vessel-charter-sapura-3000-2012)
+Status: **operating** | Country: Malaysia
+Charter contract value for the pipelay/heavy-lift vessel Sapura 3000, secured by SapuraAcergy Sdn Bhd (SapuraKencana/Subsea 7 JV) from Construcciones Maritimas Mexicanas for heavy lifts in the Gulf of Mexico, charter from 18 August 2012 for 125 days. Both printed currencies preserved. NO day rate is printed on the page and none is computed here.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Sapura 3000 daily charter rate; Malaysia/Sarawak WHP installation vessel or jack-up day rate, 2006-2026
 
 ### Offshore platform / FPSO / MODU lifeboat installations (offshore-platform-fpso-modu-lifeboat-installations)
 Status: **operating** | Country: Multiple
@@ -2935,6 +3151,12 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: Malaysia
 Tai Crest Resources awarded contract to supply flare ignition package in 2019.
 Technologies: ups-subsea-production-systems
+
+### Pemanis gas facility (pemanis-gas-facility)
+Status: **operating** | Country: Malaysia
+Solar-powered wellhead telemetry transmitting pressure, temperature and gas metering data to land operations centre by satellite.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Measured hybrid-system availability; CAPEX/OPEX of hybrid power
 
 ### Perdido (pf-perdido)
 Status: **operating** | Country: USA
@@ -2998,6 +3220,12 @@ Status: **operating** | Country: Malaysia
 1.2 Mtpa LNG, 21 topsides modules, one flare, 1.2 MTPA design, offshore Malaysia 70-200 m water depth
 Technologies: civ-offshore-platform-structures
 
+### PM6-12 PSC proposed acquisition (pm6-12-psc-proposed-acquisition)
+Status: **operating** | Country: Malaysia (offshore Peninsular Malaysia)
+EnQuest proposed 30% non-operated PI; Duyong, Gansar, Resak plus Beranang pre-development.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Conflicting first-gas month (April vs December 1984); Duyong decommission year; 2025 CCS permit primary page
+
 ### PNG LNG Project (cost-png-lng-project)
 Status: **operating** | Country: Papua New Guinea
 Predominantly onshore development: Hides gas conditioning plant and wellpads, Kutubu/Gobe associated gas facilities, onshore and offshore pipelines. Not a fixed offshore platform project - noted as a scope caveat. | Two-train LNG liquefaction and storage plant near Port Moresby | ~700 km pipelines through rugged terrain; pipe airlifted in places; new roads, communications and Komo airfield constructed for heavy equipment | Chiyoda + JGC JV (LNG plant and marine facilities EPC3); CBI + Clough JV (Hides gas conditioning plant and wellpads EPC4); SpieCapag (onshore pipeline EPC5A) - all from the PNG LNG Q3 2013 ES report, search-verified only | Not applicable to a predominantly onshore development; no offshore platform water depth stated | 6.9 Mtpa original design; >8.3 Mtpa current capacity (PNG LNG project page, search-verified); >9 Tcf gas over ~30 years Predominantly onshore development: Hides gas conditioning plant and wellpads, Kutubu/Gobe associated gas facilities, onshore and offshore pipelines. Not a fixed offshore platform project - noted as a scope caveat. | Two-train LNG liquefaction and storage plant near Port Moresby | ~700 km pipelines through rugged terrain; pipe airli
@@ -3023,6 +3251,30 @@ Status: **operating** | Country: France
 25 MW TLP floater, 2024
 Technologies: civ-offshore-platform-structures
 
+### PTTEP Marginal Field Design Platform programme (pttep-marginal-field-design-platform-programme)
+Status: **operating** | Country: Malaysia (offshore Sarawak)
+Up to 11 standardised WHPs over four years; four work orders awarded; fabricated at Pasir Gudang.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: MHB MFDP contract value; SK405B water depth
+
+### PTTEP Sarawak marginal-field WHP package (up to 11 WHPs) (pttep-sarawak-marginal-field-whp-package-up-to-11-whps)
+Status: **operating** | Country: Malaysia
+EPC of up to 11 WHPs, 1,500-2,000 t each; fabrication at MHB Pasir Gudang, Johor; installation offshore Sarawak.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Contract values for the 2023 Sarawak Shell standard WHP EPC award and the 2026 PTTEP/MHB 11-WHP agreement
+
+### RAJA Cluster SFA PSC (raja-cluster-sfa-psc)
+Status: **operating** | Country: Malaysia (offshore East Kertih, Terengganu)
+DIALOG Resources 100% participating interest and sole operatorship; PSC up to 2038; development supported by in-house Tarpon platform.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: RAJA exact water depth and well count; EPC contract value for RAJA WHPs
+
+### RAJA Cluster, offshore East Kertih, Terengganu (raja-cluster-offshore-east-kertih-terengganu)
+Status: **operating** | Country: Malaysia
+Small/marginal field cluster, ~6.1 mmboe 2P; uses Dialog's Tarpon platform for fields in <100 m water; 14-year SFA PSC including 2 years pre-development, ~2 years construction/commissioning and ~10 years production. Dialog also operates Baram Junior Cluster (since 2023) and Mutiara Cluster (from June 2025).
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Upstream original report for the RAJA FID; Breakdown of the US$81m between platform, drilling, pipeline and abandonment
+
 ### Red Hawk (pf-red-hawk)
 Status: **operating** | Country: USA
 Only cell spar, 1,615 m, decommissioned 2014 under Rigs-to-Reefs
@@ -3033,6 +3285,24 @@ Status: **operating** | Country: USA (Gulf of Mexico)
 Decommissioned 2014 under Rigs-to-Reefs.
 Technologies: civ-offshore-platform-structures
 
+### Resak gas platform, Terengganu (resak-gas-platform-terengganu)
+Status: **operating** | Country: Malaysia
+First Malaysian platform to be remotely controlled from land.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Verification of Resak unmanned status after 2023
+
+### Rosmari and Marjoram sour gas development (rosmari-and-marjoram-sour-gas-development)
+Status: **operating** | Country: Malaysia
+Deepwater sour gas fields 220 km off Bintulu: subsea tie-back plus unmanned solar-powered WHP, 207 km pipeline and onshore Bintulu gas plant. A readable 2022 source expected first gas in 2026; a later Shell release was unreadable and yielded no figures.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Water depth; Project capex; Confirmed first-gas date
+
+### Rosmari-Marjoram (rosmari-marjoram)
+Status: **operating** | Country: Malaysia
+Subsea tieback, unmanned WHP, 207 km pipeline, onshore gas plant; FID 2022.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Tieback reliability data; TNAG pipeline contract dollar year
+
 ### Salsabil sour gas plant, Pakistan (wh-salsabil-sour-gas-plant-pakistan)
 Status: **operating** | Country: Pakistan
 Dewan Petroleum, 2008; two 30 MMSCFD TEG trains plus two 30 MMSCFD amine trains in a 60 MMSCFD plant.
@@ -3042,6 +3312,36 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: Brazil
 Prysmian umbilical record 2,500 m water depth (2015), in partnership with Petrobras
 Technologies: ups-subsea-production-systems
+
+### Sarawak Gas Project (includes Serampang) (sarawak-gas-project-includes-serampang)
+Status: **operating** | Country: Malaysia
+Phase 1 FEED by Ranhill-WorleyParsons completed 2007; Kencana fabricated substructures under a $16.5 million contract; first gas 2009.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Serampang water depth, wells, processing capacity, capex and operational incidents
+
+### Sarawak Gas Project (SK309 & SK311), including Golok (sarawak-gas-project-sk309-sk311-including-golok)
+Status: **operating** | Country: Malaysia
+Multi-phase gas development including Golok, Merapuh, Serampang, Belum and Pemanis; condensate routed to the West Patricia FSO; first production 2009.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Golok field exact water depth, coordinates, discovery/FID dates and production start year; Confirmation that Swiber built the Golok pipeline; Golok-specific capex, per-well cost, uptime and incident history
+
+### Sarawak Gas Project - Belum, Golok, Merapuh, Pemanis, Serampang (sarawak-gas-project-belum-golok-merapuh-pemanis-serampang)
+Status: **operating** | Country: Malaysia
+Water depth 34-40 m, Murphy 85% operator at startup (59.5% after 2014/2015 sell-down), first production 2009, gas to Bintulu LNG and condensate to West Patricia FSO.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Belum, Merapuh, Pemanis, Patricia, Permas and South Acis individual discovery dates, water depths, well counts and capex; Chemical injection skid package supplier detail and value
+
+### Sarawak Oil Project - Patricia, Permas, Serendah, South Acis (sarawak-oil-project-patricia-permas-serendah-south-acis)
+Status: **operating** | Country: Malaysia
+Water depth 32-48 m, discovered 2005, production from second half 2013 through platforms tying back to West Patricia FSO with gas sold by pipeline to shore.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Belum, Merapuh, Pemanis, Patricia, Permas and South Acis individual discovery dates, water depths, well counts and capex; Chemical injection skid package supplier detail and value
+
+### Sarawak Shell offshore platform conductor repair (sarawak-shell-offshore-platform-conductor-repair)
+Status: **operating** | Country: Malaysia
+Two wellhead conductors repaired in splash zone and upper annulus with 4 t UHPC grout, diverless execution, third-party strength testing.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Asset-specific inspection intervals and corrosion rates; Owner/field identity of the June 2023 decommissioned conductor-supported platform
 
 ### SE Asia minimum-facilities wellhead platform (CoSMOS) (se-asia-minimum-facilities-wellhead-platform-cosmos)
 Status: **operating** | Country: South East Asia (operator/field withheld)
@@ -3060,6 +3360,36 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: UK
 Saipem 7000 installing 114 jacket foundations ~27 km east of Montrose, Scotland (per Wikipedia page, current at time of read).
 Technologies: civ-offshore-platform-structures
+
+### Seligi field (Malay Basin) (seligi-field-malay-basin)
+Status: **operating** | Country: Malaysia
+Largest oil field in the Malay Basin by some estimates, discovered 1971; EUR 589 MMboe.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Facility concept / water depth; First oil/gas year; Capex and incidents
+
+### Serendah (serendah)
+Status: **operating** | Country: Malaysia
+Marginal oil and gas field in 30 m water, 35 km from Bintulu, tied into Merapuh-Golok pipeline.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Cost and reliability of minimum-facility WHPs; Upstream ZEEPod replication article
+
+### SFJT-C (South Furious Jacket C), Sabah (sfjt-c-south-furious-jacket-c-sabah)
+Status: **operating** | Country: Malaysia
+Slim unmanned smart satellite platform, around 800 measurement points, 3 smart wells, ~35 km off Kota Belud.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Named-asset MPFM availability percentages
+
+### SFJT-C South Furious smart satellite platform, Sabah (sfjt-c-south-furious-smart-satellite-platform-sabah)
+Status: **operating** | Country: Malaysia
+DCS-controlled smart wells; metering data accessible onshore and from Miri head office.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Verification of Resak unmanned status after 2023
+
+### SFJT-E satellite platform, Sabah (sfjt-e-satellite-platform-sabah)
+Status: **operating** | Country: Malaysia
+Unmanned platform with minimum intervention and remote operation facilities; eight production wells phase 1.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Named-asset MPFM availability percentages
 
 ### Shah Deniz Stage 2 (SDB platform complex) (shah-deniz-stage-2-sdb-platform-complex)
 Status: **operating** | Country: Azerbaijan
@@ -3085,6 +3415,54 @@ Status: **operating** | Country: United States
 TechnipFMC EVDT set world record for deepest installed tree at 9,627 ft in 2011.
 Technologies: ups-subsea-production-systems
 
+### Siakap North-Petai (siakap-north-petai)
+Status: **operating** | Country: Malaysia
+Unitized development operated by Murphy with a tie-back to Kikeh; discovered 2009.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Kikeh, Kakap, Siakap and Rotan detailed technology, processing and export specifications; Incidents, uptime, workovers and decommissioning for the deepwater assets
+
+### SK305 D1 cluster (D30 and Dana) (sk305-d1-cluster-d30-and-dana)
+Status: **operating** | Country: Malaysia (offshore Sarawak)
+Two MOPU units, wellhead support frames, operator listed as PetroVietnam with PETRONAS and Pertamina.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Kinabalu WHP standalone contract value; SK305 operator attribution; Tukau full paper
+
+### SK309 & SK311 blocks (Murphy / now PTTEP) (sk309-sk311-blocks-murphy-now-pttep)
+Status: **operating** | Country: Malaysia
+Offshore Sarawak; report index mentions capital and operating cost tables that would be relevant to this retrospective but are not publicly visible.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Capital costs and operating costs for SK309 & SK311, 2018-2034
+
+### SK309 Patricia and Serendah development (sk309-patricia-and-serendah-development)
+Status: **operating** | Country: Malaysia
+Part of Murphy Sarawak's SK309 field development offshore Bintulu; Serendah is a marginal field in 30 m water, 35 km from Bintulu, tied into the Merapuh-Golok pipeline.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Per-platform split of the RM101m / USD33.4m contract
+
+### SK309/311 Phase II Sarawak Gas Development - Merapuh-A (sk309-311-phase-ii-sarawak-gas-development-merapuh-a)
+Status: **operating** | Country: Malaysia
+Merapuh is one of the phase-1/phase-2 gas fields (with Golok and Serampang) feeding the Bintulu LNG complex.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Merapuh-A topside EPCIC contract value
+
+### SK309/311 SPSA development - PT-SA and SN-AA topsides (sk309-311-spsa-development-pt-sa-and-sn-aa-topsides)
+Status: **operating** | Country: Malaysia
+Patricia Satellite-A Platform and Serendah Accommodation-A Platform topsides for the Serendah, Patricia & South Acis development offshore Bintulu, Sarawak.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Which of the two conflicting 2012 topsides values is correct
+
+### SK309/SK311 Sarawak Gas Project phase 1 (Golok, Merapuh, Serampang) (sk309-sk311-sarawak-gas-project-phase-1-golok-merapuh-serampang)
+Status: **operating** | Country: Malaysia
+Multi-phase gas development with gas sales to Malaysia LNG via pipeline; condensate to West Patricia FSO. Contractor lists name Kencana for Serampang-A (SEPA) platform.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Base year / price level of the 2007 $16.5m figure
+
+### SK314A, SK405B, SK2C shallow-water Sarawak exploration blocks (sk314a-sk405b-sk2c-shallow-water-sarawak-exploration-blocks)
+Status: **operating** | Country: Malaysia
+SK314A acquired May 2013, SK405B acquired November 2017, SK2C acquired February 2015; all 59.5% or 50% Murphy interests with exploration well commitments.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Kikeh, Kakap, Siakap and Rotan detailed technology, processing and export specifications; Incidents, uptime, workovers and decommissioning for the deepwater assets
+
 ### SK316 CPP and WHP topsides, Sarawak (wh-sk316-cpp-and-whp-topsides-sarawak)
 Status: **operating** | Country: Malaysia
 CPP topside 12,688 MT, jacket 9,126 MT, piles 4,968 MT; WHP topside 1,821 MT, jacket 2,418 MT, piles 1,761 MT, bridge 469 MT.
@@ -3095,10 +3473,28 @@ Status: **operating** | Country: Malaysia
 WHP topside 1,821 MT; jacket 2,418 MT; piles 1,761 MT; bridge 469 MT; client PETRONAS Carigali.
 Technologies: ups-subsea-production-systems
 
+### SK318 Timi (sk318-timi)
+Status: **operating** | Country: Malaysia
+Unmanned WHP tied to F23 hub via 80 km pipeline; 300 MMscfd capability with less than 5 kW continuous generation.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Tieback reliability data; TNAG pipeline contract dollar year
+
+### SK405B Sirung & Chenda development (sk405b-sirung-chenda-development)
+Status: **operating** | Country: Malaysia (offshore Sarawak)
+PTTEP first operated Malaysian greenfield; central processing platform plus wellhead platform; zero routine flaring and remote operations.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: MHB MFDP contract value; SK405B water depth
+
 ### SK408W Jerun field, Malaysia (wh-sk408w-jerun-field-malaysia)
 Status: **operating** | Country: Malaysia
 3,200 BWPD; HP hydrocyclone + compact gas flotation; 3,000 to 20 ppmV; MMHE/SapuraOMV.
 Technologies: ups-subsea-production-systems
+
+### SK8 PSC (Jintan, Cili Padi, Bijan) (sk8-psc-jintan-cili-padi-bijan)
+Status: **operating** | Country: Malaysia (offshore Sarawak)
+100% PI proposed acquisition; 11.3 kboepd 2025; Jintan via M1 Hub, Cili Padi via F23 Hub.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Balingian/D35 field-specific WHP capex; Completion of EnQuest acquisition
 
 ### Skarv (pf-skarv)
 Status: **operating** | Country: Norway
@@ -3145,6 +3541,12 @@ Status: **operating** | Country: Malaysia
 Listed as ISS Process produced water project references on the fetched water-treatment page; no numeric duty published there.
 Technologies: ups-subsea-production-systems
 
+### SPSA SK309/311 South Acis SA-SA platform (spsa-sk309-311-south-acis-sa-sa-platform)
+Status: **operating** | Country: Malaysia
+Separate satellite platform in South Acis field, Block SK311, ~17 km from West Patricia, 35 m water depth.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Contract price for the related SA-PA / SA-AA South Acis topsides
+
 ### Statfjord WAG (water-alternating-gas injection) (statfjord-wag-water-alternating-gas-injection)
 Status: **operating** | Country: NO
 largest oil field in the North Sea at start-up (production began 23 Nov 1979); injection converted from water-only to WAG in the late 1990s
@@ -3176,10 +3578,52 @@ Two new offshore platforms plus an expandable hub platform; 13 new production we
 Technologies: civ-offshore-platform-structures
 Recorded gaps: Dollar year not stated for some published costs
 
+### Tanjong Baram field (tanjong-baram-field)
+Status: **operating** | Country: Malaysia (offshore Sarawak)
+EQ Petroleum/EnQuest, 10 m water, 8 km tieback to West Lutong-A.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Contract values for D28/D18/Tanjong Baram
+
+### Tapis field (Malay Basin) (tapis-field-malay-basin)
+Status: **operating** | Country: Malaysia
+Giant oil/condensate field, first Malay Basin discovery 1969; basin-centre anticline play (P1).
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Facility concept / water depth; First oil/gas year; Capex and incidents
+
 ### TAQA Atrush desalting equipment, Kurdistan Region of Iraq (wh-taqa-atrush-desalting-equipment-kurdistan-region-of-iraq)
 Status: **operating** | Country: Iraq
 50,000 BOPD facility; 2 electrostatic dehydrators and 2 crude cross exchangers, designed/fabricated/tested by SPEC, 2019.
 Technologies: ups-subsea-production-systems
+
+### Tarpon installations — Indonesia (tarpon-installations-indonesia)
+Status: **operating** | Country: Indonesia
+1 installation per Tarpon What We Do page counter.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Specific Stolt Comex Seaway Tarpon patent number; Copyright/licence of Tarpon AutoCAD drawings; Exact topside weight contradiction (350 t vs 700 MT)
+
+### Tarpon installations — Malaysia (tarpon-installations-malaysia)
+Status: **operating** | Country: Malaysia
+11 installations listed on Tarpon What We Do page (SVG: SMK-A, LEDP-A, PeDP-A, North Lukut, Spaoh, Balai, West Acis, Bentara, Kayu Manis SE, Anjung Kecil, Zuhal East).
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Specific Stolt Comex Seaway Tarpon patent number; Copyright/licence of Tarpon AutoCAD drawings; Exact topside weight contradiction (350 t vs 700 MT)
+
+### Tarpon installations — United States (tarpon-installations-united-states)
+Status: **operating** | Country: United States
+44 installations per Tarpon What We Do page counter.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Specific Stolt Comex Seaway Tarpon patent number; Copyright/licence of Tarpon AutoCAD drawings; Exact topside weight contradiction (350 t vs 700 MT)
+
+### Tarpon installations — West Africa (tarpon-installations-west-africa)
+Status: **operating** | Country: West Africa
+4 installations per Tarpon What We Do page counter.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Specific Stolt Comex Seaway Tarpon patent number; Copyright/licence of Tarpon AutoCAD drawings; Exact topside weight contradiction (350 t vs 700 MT)
+
+### Tarpon WHP projects: Kayu Manis South East, Anjung Kecil, Zuhal East, Balai, Bentara, Spaoh, West Acis (tarpon-whp-projects-kayu-manis-south-east-anjung-kecil-zuhal-east-bala)
+Status: **operating** | Country: Malaysia
+Tarpon 'Our Projects' page lists installation of two WHPs for Kayu Manis SE and Anjung Kecil, EPCIC for Zuhal East, and WHPs for Balai, Bentara, Spaoh and West Acis fields. No contract values printed.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Quantified capital-cost and operating-cost saving of minimum-facility WHP vs conventional platform
 
 ### Tarsiut Island (pf-tarsiut-island)
 Status: **operating** | Country: Canada
@@ -3190,6 +3634,60 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: multiple regions
 North America 665 UWD systems installed; South America 74; Africa/Mediterranean 553; Europe/Russia 675; Asia/Australia 328 (brochure figures, undated beyond 2018 publication date).
 Technologies: ups-subsea-production-systems
+
+### Teja and Pepulut (TePu) wellhead platforms, Block SK408 (teja-and-pepulut-tepu-wellhead-platforms-block-sk408)
+Status: **operating** | Country: Malaysia
+Two unmanned two-slot WHPs in Central Luconia, tied into the F23 hub; planned first gas 2029. Source is a 27-page DOE Malaysia EIA final report (Feb 2026).
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Capex / contract values; WHP structural concept detail; Operating history
+
+### Temaris Cluster (Tembakau and Mengkuang fields) (temaris-cluster-tembakau-and-mengkuang-fields)
+Status: **operating** | Country: Malaysia
+Two shallow-water gas discoveries offshore Peninsular Malaysia awarded 100% to Seascape in 2025 under Small Field Asset terms; planned normally unmanned platform.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: WHP design and schedule; Capex; Incidents
+
+### Tembikai Non-Associated Gas (TNAG) (tembikai-non-associated-gas-tnag)
+Status: **operating** | Country: Malaysia
+Vestigo/PETRONAS small-field RSC; 1,500 t tripod substructure and 400 t topside; 8-well configuration, two risers.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Named-asset WHP availability/failure rates; Unit capex of conductor-supported WHPs; ZEEPod patent grant date
+
+### Tembikai Non-Associated Gas (TNAG) development, Tembikai-Chenang Cluster RSC (tembikai-non-associated-gas-tnag-development-tembikai-chenang-cluster-b86708)
+Status: **operating** | Country: Malaysia
+150 km offshore Terengganu in 70 m water; operator Vestigo Petroleum, owner Petronas Carigali; unmanned ZEEPod WHP tied to Berantai FPSO by 60 km 12 in pipeline; 45 mmscfd design per ZEE Engineering page surfaced in search (not read).
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: TNAG wellhead platform fabrication/installation cost; Quantified minimum-facility vs conventional WHP cost saving for TNAG
+
+### Tembikai Non-Associated Gas (TNAG) development, Tembikai-Chenang Cluster Small Field RSC (tembikai-non-associated-gas-tnag-development-tembikai-chenang-cluster)
+Status: **operating** | Country: Malaysia
+Offshore Terengganu, about 150 km from shore, 70 m water; owned by Petronas Carigali and operated by Vestigo Petroleum; minimum-facility ZEEPod wellhead platform tied to the Berantai FPSO.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Any Murphy Oil ownership or contract interest in Tembikai; ZEEPod patent title, filing/grant date and claims
+
+### Tembikai non-associated gas development (ZEEPod WHP) (tembikai-non-associated-gas-development-zeepod-whp)
+Status: **operating** | Country: Malaysia
+Marginal-field unmanned minimum-facility gas development, operator Vestigo Petroleum (PETRONAS Carigali owned); tripod caisson ZEEPod WHP tied to Berantai FPSO.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Gas first-production date; Actual capex of WHP; Incident history
+
+### Tembikai oil development (first oil 2015) (tembikai-oil-development-first-oil-2015)
+Status: **operating** | Country: Malaysia
+Three production wells and a central processing platform exporting oil via flexible subsea pipeline to an FSO; peak expected 2,000 bopd.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Any Murphy Oil ownership or contract interest in Tembikai; ZEEPod patent title, filing/grant date and claims
+
+### Tembikai TNAG (tembikai-tnag)
+Status: **operating** | Country: Malaysia
+Fit-for-purpose ZEEPod design delivered in nine months at MHB West yard.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Installation cost comparison
+
+### Tembikai-Chenang Cluster small-field RSC (tembikai-chenang-cluster-small-field-rsc)
+Status: **operating** | Country: Malaysia
+Fourth RSC to production after KBM, Balai and Berantai; first small-field RSC executed by PETRONAS subsidiary Vestigo.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Tieback reliability data; TNAG pipeline contract dollar year
 
 ### Terra Nova FPSO (pf-terra-nova-fpso)
 Status: **operating** | Country: Canada
@@ -3214,6 +3712,18 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: USA/South Korea
 Blue Marlin transported BP's then-largest semi-submersible platform from DSME yard to Kiewit Offshore Services, Ingleside, Texas, 2004.
 Technologies: civ-offshore-platform-structures
+
+### Timi field development, SK318 (timi-field-development-sk318)
+Status: **operating** | Country: Malaysia (offshore Sarawak)
+New wellhead fixed platform tied to F23 via 80 km pipeline; Malaysia's deepest fixed platform at about 143 m.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Timi platform capex / contract value; Two production figures with different bases
+
+### Timi gas field (Block SK318) (timi-gas-field-block-sk318)
+Status: **operating** | Country: Malaysia
+Unmanned wellhead platform, Sarawak Shell-operated sweet-gas development in Block SK318; 80 km tie-back to the Shell-operated F23 hub. A PETRONAS first-gas release could not be read and was excluded.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Exact Timi WHP water depth; EPC contract value; Operating incidents / reliability
 
 ### Timi unmanned wellhead platform (timi-unmanned-wellhead-platform)
 Status: **operating** | Country: Malaysia
@@ -3278,6 +3788,12 @@ Status: **operating** | Country: Norway
 capacity: 1.8 tcm gas and 2 billion bbl oil recoverable; 2008 output ~138,000 bpd oil and ~120 Mmscm/d gas; Troll A 472 m tall, 656,000 t | status: Operating; oil production from late 1995, Troll B gas Sep 1995, Troll East gas Jun 1996, Troll C late 1999 | dates: ['1979 discovery', '1995-96 first production', '1999 Troll C start'] | location: Blocks 31/2, 31/3, 31/5 and 31/6, ~65 km west of Kollsnes; 315-345 m water depth
 Technologies: ups-subsea-production-systems
 
+### Tukau field (tukau-field)
+Status: **operating** | Country: Malaysia (offshore Sarawak)
+Complex domal anticline, seven fault blocks, nine well jackets; additional jacket expected to boost production about 50%.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Kinabalu WHP standalone contract value; SK305 operator attribution; Tukau full paper
+
 ### Tullow Chacher Gas Processing Facility, Pakistan (wh-tullow-chacher-gas-processing-facility-pakistan)
 Status: **operating** | Country: Pakistan
 SPEC mechanical heater treater project reference, 2007.
@@ -3333,6 +3849,12 @@ Status: **operating** | Country: unspecified
 about 2,000 t; Rosemond-EMI 2020 — example of small launch jacket.
 Technologies: civ-offshore-platform-structures
 
+### West Desaru development (west-desaru-development)
+Status: **operating** | Country: Malaysia (offshore Peninsular Malaysia)
+WSS bridge-linked to FP5 MOPU; oil processed at MOPU then exported via 14 km pipeline to FSO.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: West Desaru contract value
+
 ### West Desaru WSS (west-desaru-wss)
 Status: **operating** | Country: Malaysia
 28 dry tree completions: single, dual and triple splitter wellheads
@@ -3345,6 +3867,30 @@ Status: **operating** | Country: Malaysia
 Status: **operating** | Country: Malaysia
 Unmanned minimal facilities platform; Petrofac and Petronas ordered Aquaterra Sea Swift-derived WSS; first of its kind in Asia/Pacific; bridge linked to adjacent MOPU; topside supports 28 well completions and oil production, gas lift and water injection flowlines and manifolds; installed by jack-up drilling rig; four 36-inch x 2-inch leg conductors; relatively small subsea footprint of 8 square metres.
 Technologies: ups-subsea-production-systems
+
+### West Natuna – Hang Tuah movable offshore production platform (Indonesia) (west-natuna-hang-tuah-movable-offshore-production-platform-indonesia)
+Status: **operating** | Country: Malaysia
+Cross-border gas peer: 100 km, 18-inch pipeline from Conoco Indonesia's Hang Tuah movable offshore production platform (Block B, West Natuna) to PETRONAS Carigali's Duyong platform, first gas August 2002.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Water depth; Contract value; Incidents
+
+### West Patricia oil field development, Block SK309 (west-patricia-oil-field-development-block-sk309)
+Status: **operating** | Country: Malaysia
+Murphy's first Malaysian development; first oil 2003; 85% Murphy / 15% PETRONAS Carigali at startup; hub for later SK309/311 tie-backs.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: West Patricia discovery year and recoverable reserves; West Patricia wells plug and abandonment 2024; West Patricia-specific incidents, uptime and workover history
+
+### West Patricia oil field, Block SK309 (west-patricia-oil-field-block-sk309)
+Status: **operating** | Country: Malaysia
+40 km offshore Bintulu, 130 ft water; condensate to FSO; no in-window capex figure found.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: In-window (2006-2026) capex or contract value specifically for West Patricia; Golok field development capex and Serampang-A platform cost; Operating cost (opex) per field/platform for the named assets
+
+### West Patricia WP-PA / WP-IA (west-patricia-wp-pa-wp-ia)
+Status: **operating** | Country: Malaysia
+Rig-installed jackets; floatover topsides; 300 t / 600 t and 620 t weights respectively.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Installation cost comparison
 
 ### West Qurna-1 wet crude treatment, Iraq (wh-west-qurna-1-wet-crude-treatment-iraq)
 Status: **operating** | Country: Iraq
@@ -3398,6 +3944,18 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Norway
 13,500 t MOPU single-lift removal Aug 2016; first commercial lift.
 Technologies: civ-offshore-platform-structures
+
+### Zuhal East (zuhal-east)
+Status: **operating** | Country: Malaysia
+220 MT WHP and 200 MT caisson, 40 km offshore Labuan Sabah; single guided caisson with 4 slots drilled by jack-up; unmanned with remote monitoring from SUPG-B.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Named-asset WHP availability/failure rates; Unit capex of conductor-supported WHPs; ZEEPod patent grant date
+
+### Zuhal East Development (zuhal-east-development)
+Status: **operating** | Country: Malaysia (offshore Labuan, Sabah)
+EPCIC of 220 MT WHP and 200 MT caisson, 6-in x 5 km pipeline to SUPG-B and provision of marine spread.
+Technologies: ups-whp-platform-structures-and-marine-systems
+Recorded gaps: Zuhal East contract value and completion year
 
 ### Åsgard subsea compression (wh-sgard-subsea-compression)
 Status: **operating** | Country: Norway

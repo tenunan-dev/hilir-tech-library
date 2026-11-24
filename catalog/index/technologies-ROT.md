@@ -200,7 +200,7 @@ Vessels hold gas or liquid at a pressure different from ambient; the wall carrie
 ```mermaid
 flowchart LR
     DES["Design to a code (ASME BPVC, EN 13445)<br/><small>design code</small>"]
-    FAB["Fabricate shell, heads and nozzles<br/><small>shell, heads</small>"]
+    FAB["Fabricate shell, heads and nozzles<br/><small>retro-vendor-shell-operator-35, heads</small>"]
     TEST["Hydrostatic test at 1.5 times working pressure<br/><small>test rig</small>"]
     STAMP["Inspector signs off; nameplate with U-stamp"]
     DES --> FAB
@@ -208,7 +208,7 @@ flowchart LR
     TEST --> STAMP
 ```
 
-**Key equipment:** shell, heads, nozzles, relief valves and rupture discs, supports.
+**Key equipment:** retro-vendor-shell-operator-35, heads, nozzles, relief valves and rupture discs, supports.
 
 **Performance:**
 - hydrostatic test pressure: 1.5 times working pressure; as stated for pressure vessels. [source](https://en.wikipedia.org/wiki/Pressure_vessel)

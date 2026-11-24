@@ -8,6 +8,24 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.25.1] — 2026-11-25 — Twenty-year project, technology and cost retrospective
+
+Owner-directed 2006–2026 retrospective on Murphy Golok, Serampang, West Patricia, Dialog Tarpon,
+Tembikai RSC and their peers, researched by five evidence-first agents and ingested into the library.
+
+### Added
+- **93 project records, 99 sources, 154 vendors, 3 drawings, 20 materials** and one new technology card
+  carrying 278 sourced performance/cost figures with URLs, basis and dollar years.
+- Dated evidence includes the 2005 Golok/Serampang discoveries, West Patricia's structural evolution,
+  the Tarpon/ZEEPod minimum-facility concepts, Timi/Gorek solar power, MPFM history, and costs from
+  2007 to 2026 (conflicting topsides figures preserved, not reconciled).
+
+### Verification
+`tools/build.py` 1,812 sources / 399 cards / 1,074 vendors / 430 equipment / 779 projects / 361 products /
+324 drawings / 159 materials; `pytest -q tests` **3,021 passed, 13 skipped**; Neon reloaded with 8,574 nodes,
+31,425 edges and 18,530 vectors.
+
+
 ## [2026.11.24.12] — 2026-11-24 — Every item in the Mistral-chat WHP list, all categories
 
 Read the shared Mistral chat, extracted all 41 items across its six sections, and researched every

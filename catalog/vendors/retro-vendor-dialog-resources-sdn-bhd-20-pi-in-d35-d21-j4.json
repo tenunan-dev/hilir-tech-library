@@ -1,0 +1,22 @@
+{
+  "id": "retro-vendor-dialog-resources-sdn-bhd-20-pi-in-d35-d21-j4",
+  "name": "DIALOG Resources Sdn Bhd (20% PI in D35/D21/J4)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "DIALOG Resources Sdn Bhd (20% PI in D35/D21/J4) named on a page read in the 20-year WHP retrospective.",
+  "technologies": [
+    "ups-whp-control-safety-and-communication-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Minimal vendor record from a page read in the 20-year retrospective."
+}

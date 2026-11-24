@@ -1,0 +1,90 @@
+{
+  "id": "pttep-sarawak-marginal-field-whp-package-up-to-11-whps",
+  "name": "PTTEP Sarawak marginal-field WHP package (up to 11 WHPs)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "EPC of up to 11 WHPs, 1,500-2,000 t each; fabrication at MHB Pasir Gudang, Johor; installation offshore Sarawak.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "PTTEP awards four-year WHP price agreement to MHB",
+      "date": "2026",
+      "source": {
+        "url": "https://ocean-energyresources.com/2026/03/06/mhb-secures-sarawak-offshore-contract-from-pttep/",
+        "source_id": "retro-ocean-energyresources-com-1f8c0c3"
+      }
+    },
+    {
+      "event": "Sarawak Shell awards WHP EPC contract to two local companies",
+      "date": "2023",
+      "source": {
+        "url": "https://www.shell.com.my/about-us/media/2023-press-releases/shell-awards-engineering-procurement-and-construction-contract-to-two-sarawakian-companies.html"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Sarawak Shell Berhad",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Brooke Dockyard and Engineering Works Corporation",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "OceanMight Sdn Bhd (KKB Engineering)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Malaysia Marine and Heavy Engineering",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PTTEP",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ocean-energyresources.com/2026/03/06/mhb-secures-sarawak-offshore-contract-from-pttep/",
+      "source_id": "retro-ocean-energyresources-com-1f8c0c3",
+      "note": "EPC of up to 11 WHPs, 1,500-2,000 t each; fabrication at MHB Pasir Gudang, Johor"
+    },
+    {
+      "url": "https://ocean-energyresources.com/2026/03/06/mhb-secures-sarawak-offshore-contract-from-pttep/",
+      "source_id": "retro-ocean-energyresources-com-1f8c0c3"
+    },
+    {
+      "url": "https://www.shell.com.my/about-us/media/2023-press-releases/shell-awards-engineering-procurement-and-construction-contract-to-two-sarawakian-companies.html"
+    },
+    {
+      "url": "https://ocean-energyresources.com/2026/03/06/mhb-secures-sarawak-offshore-contract-from-pttep/",
+      "source_id": "retro-ocean-energyresources-com-1f8c0c3",
+      "note": "EPC of up to 11 WHPs, 1,500-2,000 t each; fabrication at MHB Pasir Gudang, Johor; installation offshore Sarawak."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Contract values for the 2023 Sarawak Shell standard WHP EPC award and the 2026 PTTEP/MHB 11-WHP agreement",
+      "why": "Shell page unreadable and PTTEP/MHB article prints no value; no cost figure can be recorded.",
+      "next_action": "Read the Bursa Malaysia announcements from MHB, KKB Engineering and Brooke Holding for stated contract sums, then add them with year and basis."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

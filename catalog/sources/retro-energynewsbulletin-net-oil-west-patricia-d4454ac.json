@@ -1,0 +1,25 @@
+{
+  "id": "retro-energynewsbulletin-net-oil-west-patricia-d4454ac",
+  "name": "First oil for West Patricia",
+  "url": "https://www.energynewsbulletin.net/operations/news/1052674/oil-west-patricia",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Energy News Bulletin (Aspermont)",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Read directly with WebFetch; dated 22 May 2003, outside 2006-2026 window. Qualitative cost claims only, no currency figure asserted."
+}

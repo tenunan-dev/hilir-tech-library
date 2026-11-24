@@ -1,0 +1,24 @@
+{
+  "id": "retro-sec-gov-dex13-htm-5fe6dc1",
+  "name": "2008 Annual Report to Security Holders (Murphy Oil)",
+  "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312509040617/dex13.htm",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Murphy Oil Corporation / U.S. SEC EDGAR",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Read directly via r.jina.ai proxy (jina.ai used). Reports consolidated capital expenditures of $2,364,686 thousand for 2008 and Malaysia production volumes, but NO Malaysia field-level capex, WHP cost or per-well cost is printed - none asserted."
+}

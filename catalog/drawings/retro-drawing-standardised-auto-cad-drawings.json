@@ -1,0 +1,24 @@
+{
+  "id": "retro-drawing-standardised-auto-cad-drawings",
+  "title": "Standardised Auto-Cad Drawings",
+  "diagram_type": "schematic",
+  "description": "Tarpon What We Do lists 'Standardised Auto-Cad Drawings' and 'Repeatable Design' as commercial differentiators; 1999 article notes site-specific AutoCAD drawings can be developed quickly after analysis. No drawing file itself was accessed.",
+  "publisher": "DIALOG Tarpon Offshore Platforms Sdn Bhd",
+  "url": "https://www.tarponsystems.com/what-we-do",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "sources": [
+    {
+      "url": "https://www.tarponsystems.com/what-we-do",
+      "source_id": "retro-tarponsystems-com-what-we-do-886f3b5",
+      "note": "Tarpon What We Do lists 'Standardised Auto-Cad Drawings' and 'Repeatable Design' as commercial differentiators; 1999 article notes site-specific AutoCAD drawings can be developed quickly after analysi"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Diagram pointer from the 20-year WHP retrospective; drawing stays at the publisher url."
+}

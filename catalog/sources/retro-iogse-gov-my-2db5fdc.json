@@ -1,0 +1,24 @@
+{
+  "id": "retro-iogse-gov-my-2db5fdc",
+  "name": "i-OGSE IP Marketplace - ZEEPod substructure patent",
+  "url": "https://iogse.gov.my/ogse-ip-marketplace/a-substructure-for-an-offshore-oil-and-gas-platform/?lang=my",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Malaysia Petroleum Resources Corporation",
+  "access": "open",
+  "licence": "government page; no explicit licence",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Directly read; application number, year, status and owner verified."
+}

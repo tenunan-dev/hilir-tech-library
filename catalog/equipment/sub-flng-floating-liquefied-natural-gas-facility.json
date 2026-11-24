@@ -23,7 +23,7 @@
     }
   ],
   "vendors": [
-    "shell",
+    "retro-vendor-shell-operator-35",
     "technip-samsung-consortium",
     "sbm-offshore"
   ],

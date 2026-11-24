@@ -1,0 +1,109 @@
+{
+  "id": "sarawak-gas-project-sk309-sk311-including-golok",
+  "name": "Sarawak Gas Project (SK309 & SK311), including Golok",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Multi-phase gas development including Golok, Merapuh, Serampang, Belum and Pemanis; condensate routed to the West Patricia FSO; first production 2009.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Golok discovered (gas in multiple reservoirs)",
+      "date": "2005",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17224324/a-malaysian-perspective",
+        "source_id": "retro-ogj-com-a-malaysian-perspective-26c28c2"
+      }
+    },
+    {
+      "event": "First gas from SK309/SK311 Sarawak Gas Project",
+      "date": "2009",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-production-sarawak-natural-gas/",
+        "source_id": "retro-ir-murphyoilcorp-com-2a4b3c4"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Murphy Sarawak Oil Co Ltd (operator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Kencana HL Sdn Bhd / Kencana Petroleum Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Ranhill-WorleyParsons (FEED phase 1)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Swiber (Golok pipeline, per A Barrel Full - unverified in fetched Swiber article)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Murphy Sarawak Oil Co Ltd (client; now PTTEP Sarawak Oil Ltd)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Jurutera Jasa (Sarawak) Sdn Bhd (engineering consultant)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+      "note": "Multi-phase gas development including Golok, Merapuh, Serampang, Belum and Peman"
+    },
+    {
+      "url": "https://www.ogj.com/general-interest/companies/article/17224324/a-malaysian-perspective",
+      "source_id": "retro-ogj-com-a-malaysian-perspective-26c28c2"
+    },
+    {
+      "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-production-sarawak-natural-gas/",
+      "source_id": "retro-ir-murphyoilcorp-com-2a4b3c4"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312506054960/d10k.htm",
+      "source_id": "retro-sec-gov-d10k-htm-d0f771c"
+    },
+    {
+      "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+      "note": "Multi-phase gas development including Golok, Merapuh, Serampang, Belum and Pemanis; condensate routed to the West Patricia FSO; first production 2009."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Golok field exact water depth, coordinates, discovery/FID dates and production start year",
+      "why": "Global Energy Monitor Golok field page returned HTTP 403 directly and a CAPTCHA via https://r.jina.ai/, so no figures were taken from it.",
+      "next_action": "Read GEM page from an authenticated session or use the GEM dataset, then record field-level dates and coordinates with page_read:true."
+    },
+    {
+      "what": "Confirmation that Swiber built the Golok pipeline",
+      "why": "A Barrel Full names Swiber for the Golok pipeline, but the only Swiber article fetched (OGJ, 27 June 2007) describes a $31 million letter of intent for the Puteri gas field, not Golok.",
+      "next_action": "Find the original Swiber/Murphy Golok pipeline award announcement before attributing the contract."
+    },
+    {
+      "what": "Golok-specific capex, per-well cost, uptime and incident history",
+      "why": "No field-level cost or reliability figure was found in the pages actually read.",
+      "next_action": "Search Murphy annual reports and PETRONAS notices for field-specific figures."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Murphy Malaysia assets). Pages actually read with WebFetch: A Barrel Full Sarawak Gas Project; Murphy 2005, 2012 and 2014 Forms 10-K (SEC; 2014 via r.jina.ai reader proxy because of response size); Murphy "
+}

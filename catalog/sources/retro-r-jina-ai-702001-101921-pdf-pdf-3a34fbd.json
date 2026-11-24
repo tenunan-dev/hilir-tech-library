@@ -1,0 +1,25 @@
+{
+  "id": "retro-r-jina-ai-702001-101921-pdf-pdf-3a34fbd",
+  "name": "Geological Society of Malaysia Bulletin 72 (2021) – Five decades in the Malay Basin (via r.jina.ai)",
+  "url": "https://r.jina.ai/https://gsm.org.my/wp-content/uploads/gsm_file_2/702001-101921-PDF.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Geological Society of Malaysia",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct PDF fetch via jina; 26 pages; Tables 3/4 and HPHT well data read."
+}

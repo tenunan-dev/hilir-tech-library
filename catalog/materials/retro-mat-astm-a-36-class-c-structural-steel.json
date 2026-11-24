@@ -1,0 +1,25 @@
+{
+  "id": "retro-mat-astm-a-36-class-c-structural-steel",
+  "name": "ASTM A-36 (Class C structural steel)",
+  "material_category": "steel",
+  "description": "ASTM A-36 (Class C structural steel) named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "Caisson material rule",
+      "unit": "ratio/spec",
+      "basis": "1999 Tarpon article: for D/t ratios greater than 30 (1.50 in for 48-in diameter), Class C material can be used.",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+        "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+      },
+      "year": 1999
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications",
+      "source_id": "retro-offshore-mag-com-tarpon-monotower-develops-fur-4d48e17"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,174 @@
+{
+  "id": "sarawak-oil-project-patricia-permas-serendah-south-acis",
+  "name": "Sarawak Oil Project - Patricia, Permas, Serendah, South Acis",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Water depth 32-48 m, discovered 2005, production from second half 2013 through platforms tying back to West Patricia FSO with gas sold by pipeline to shore.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "HOA for gas sales signed",
+      "date": "2006",
+      "source": {
+        "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+        "source_id": "retro-abarrelfull-co-uk-sarawak-gas-project-bd57e85"
+      }
+    },
+    {
+      "event": "East Patricia gas discovery",
+      "date": "2009",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-additional-discoveries-malaysia"
+      }
+    },
+    {
+      "event": "Gas sales agreement extended to September 2021",
+      "date": "2012",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312513082919/d446290d10k.htm",
+        "source_id": "retro-sec-gov-d446290d10k-htm-03c3af0"
+      }
+    },
+    {
+      "event": "Five new SK309/SK311 fields on production",
+      "date": "2013",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm",
+        "source_id": "retro-sec-gov-mur-20141231x10k-htm-dafb5db"
+      }
+    },
+    {
+      "event": "Murphy sold 30% of its Malaysian interests",
+      "date": "2014",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm",
+        "source_id": "retro-sec-gov-mur-20141231x10k-htm-dafb5db"
+      }
+    },
+    {
+      "event": "PTTEP acquired Murphy's Malaysia business",
+      "date": "2019",
+      "source": {
+        "url": "https://www.pttep.com/en/newsroom/press-releases/460/pttep-acquires-murphy-oil-corporation-s-business-in-malaysia-strengthen-long-term-growth-in-southeast-asia",
+        "source_id": "retro-pttep-com-pttep-acquires-murphy-oil-corporatio-562720b"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "EPC substructures and templates for Patricia and Serendah platforms",
+      "year": 2012,
+      "basis": "Kencana Petroleum contract from Murphy Sarawak Oil, reported approximately RM101 million (USD 33.4 million), delivered 1st-3rd quarter 2012; dollar year not stated",
+      "value": 33.4,
+      "unit": "USD million",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/02/23/kencana-lands-epc-deal-for-project-offshore-malaysia"
+      }
+    },
+    {
+      "metric": "acquisition price for 100% of Murphy Oil's Malaysia business",
+      "year": 2019,
+      "basis": "PTTEP press release 21 March 2019: acquisition worth USD 2,127 million covering five projects including SK309 & SK311; dollar year not stated",
+      "value": 2127,
+      "unit": "USD million",
+      "source": {
+        "url": "https://www.pttep.com/en/newsroom/press-releases/460/pttep-acquires-murphy-oil-corporation-s-business-in-malaysia-strengthen-long-term-growth-in-southeast-asia",
+        "source_id": "retro-pttep-com-pttep-acquires-murphy-oil-corporatio-562720b"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Kencana HL (SN-PA topsides EPCC)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Vantris Energy (Sapura Energy)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Murphy Sarawak Oil Co Ltd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Brooke Holding Sdn Bhd (formerly Brooke Dockyard)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Murphy Sarawak Oil Company Limited",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Boustead Penang Shipyard Sdn Bhd / BHIC",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Reach Integrated Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "MMCOG (FEED for Belum topside per A Barrel Full)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "http://supplybase.blogspot.com/2013/11/murphy-oil-malaysia.html",
+      "note": "Water depth 32-48 m, discovered 2005, production from second half 2013 through p"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312513082919/d446290d10k.htm",
+      "source_id": "retro-sec-gov-d446290d10k-htm-03c3af0"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm",
+      "source_id": "retro-sec-gov-mur-20141231x10k-htm-dafb5db"
+    },
+    {
+      "url": "https://www.pttep.com/en/newsroom/press-releases/460/pttep-acquires-murphy-oil-corporation-s-business-in-malaysia-strengthen-long-term-growth-in-southeast-asia",
+      "source_id": "retro-pttep-com-pttep-acquires-murphy-oil-corporatio-562720b"
+    },
+    {
+      "url": "http://supplybase.blogspot.com/2013/11/murphy-oil-malaysia.html"
+    },
+    {
+      "url": "http://supplybase.blogspot.com/2013/11/murphy-oil-malaysia.html",
+      "note": "Water depth 34-40 m, Murphy 85% operator at startup (59.5% after 2014/2015 sell-down), first production 2009, gas to Bintulu LNG and condensate to West Patricia FSO."
+    },
+    {
+      "url": "http://supplybase.blogspot.com/2013/11/murphy-oil-malaysia.html",
+      "note": "Water depth 32-48 m, discovered 2005, production from second half 2013 through platforms tying back to West Patricia FSO with gas sold by pipeline to shore."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Belum, Merapuh, Pemanis, Patricia, Permas and South Acis individual discovery dates, water depths, well counts and capex",
+      "why": "Only project-level water depth ranges and aggregate production/reserves were found in pages actually read.",
+      "next_action": "Locate Murphy field-by-field project sheets or PETRONAS EIA documents for each field."
+    },
+    {
+      "what": "Chemical injection skid package supplier detail and value",
+      "why": "A Barrel Full names BC Petrochemical for a chemical injection skid package but gives no value or specifications.",
+      "next_action": "Find BC Petrochemical project reference for the Murphy package."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Murphy Malaysia assets). Pages actually read with WebFetch: A Barrel Full Sarawak Gas Project; Murphy 2005, 2012 and 2014 Forms 10-K (SEC; 2014 via r.jina.ai reader proxy because of response size); Murphy "
+}

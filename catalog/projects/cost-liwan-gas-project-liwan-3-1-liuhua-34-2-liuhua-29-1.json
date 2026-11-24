@@ -15,7 +15,7 @@
     {
       "metric": "Exploration costs expected to be recovered",
       "value": 800000000,
-      "unit": "USD",
+      "unit": "USD million (as printed)",
       "basis": "Husky quick facts: 'Husky expects to recover approximately $800 million in exploration costs in the first 18 months of production'",
       "year": 2014,
       "source": {

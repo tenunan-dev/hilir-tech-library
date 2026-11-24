@@ -1,0 +1,24 @@
+{
+  "id": "retro-mat-abrasion-resistant-zirconium-arz-bearings",
+  "name": "Abrasion-resistant zirconium (ARZ) bearings",
+  "material_category": "artificial-lift-materials",
+  "description": "Abrasion-resistant zirconium (ARZ) bearings named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "Application",
+      "unit": "component",
+      "basis": "Offshore Technology: new wells equipped with ESPs with abrasion-resistant zirconium bearings, check valve over pump and mixed flow stages.",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+        "source_id": "retro-offshore-technology-com-5f2af6b"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+      "source_id": "retro-offshore-technology-com-5f2af6b"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

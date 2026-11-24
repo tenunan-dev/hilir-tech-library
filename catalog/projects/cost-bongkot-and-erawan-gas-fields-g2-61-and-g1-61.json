@@ -27,7 +27,7 @@
     {
       "metric": "Investment required to double Erawan output to 800 MMSCFD",
       "value": 900000000,
-      "unit": "USD",
+      "unit": "USD million (as printed)",
       "basis": "PTTEP CEO: '$900 million to double gas production at Erawan to 800 MMSCFD and keep the capacity at this level for 10 years'",
       "year": 2024,
       "source": {

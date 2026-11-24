@@ -1,0 +1,22 @@
+{
+  "id": "retro-mat-36-inch-conductor-tnag-zeepod",
+  "name": "36-inch conductor (TNAG ZEEPod)",
+  "material_category": "conductor-wellhead",
+  "description": "36-inch conductor (TNAG ZEEPod) named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "quantity and diameter",
+      "unit": "count / inches",
+      "basis": "TNAG remotely operated gas platform in 72.5 m water; compact topside and substructure",
+      "source": {
+        "url": "https://zee-eng.com/blog-detail/zeepod-is-reshaping-the-future-of-marginal-oil-amp-gas-field-development-in-malaysia-the-future-of-marginal-oil-amp-gas-field-development-in-malaysia"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://zee-eng.com/blog-detail/zeepod-is-reshaping-the-future-of-marginal-oil-amp-gas-field-development-in-malaysia-the-future-of-marginal-oil-amp-gas-field-development-in-malaysia"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

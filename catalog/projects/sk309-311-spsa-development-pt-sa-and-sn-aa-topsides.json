@@ -1,0 +1,98 @@
+{
+  "id": "sk309-311-spsa-development-pt-sa-and-sn-aa-topsides",
+  "name": "SK309/311 SPSA development - PT-SA and SN-AA topsides",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Patricia Satellite-A Platform and Serendah Accommodation-A Platform topsides for the Serendah, Patricia & South Acis development offshore Bintulu, Sarawak.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Notices of award received for PT-SA and SN-AA topsides EPCC",
+      "date": "2012",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/07/26/malaysia-sapurakencana-gets-epcc-contracts-for-pt-sa-and-sn-aa-topsides",
+        "source_id": "retro-offshore-energy-biz-malaysia-sapurakencana-get-f43f5ce"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "EPCC contract value - PT-SA + SN-AA topsides (RM range, source A)",
+      "year": 2012,
+      "basis": "Estimated between RM250 million and RM300 million; article dated 26 July 2012; no explicit dollar base year stated. Conflicting figure retained separately below.",
+      "low": 250,
+      "high": 300,
+      "unit": "RM",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/07/26/malaysia-sapurakencana-gets-epcc-contracts-for-pt-sa-and-sn-aa-topsides",
+        "source_id": "retro-offshore-energy-biz-malaysia-sapurakencana-get-f43f5ce"
+      }
+    },
+    {
+      "metric": "EPC contract value - PT-SA + SN-AA topsides (USD, source B - conflicting)",
+      "year": 2012,
+      "basis": "Around $78 million for the two contracts; article dated 26 July 2012; no explicit dollar base year stated. This conflicts with source A's RM250-300m; no silent reconciliation.",
+      "value": 78,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/07/26/malaysia-sapurakencana-petroleum-receives-epc-contracts-for-two-topsides-facilities",
+        "source_id": "retro-offshore-energy-biz-malaysia-sapurakencana-pet-8b13fd8"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "SapuraKencana Petroleum Berhad",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Kencana HL Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Murphy Sarawak Oil Co Ltd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-energy.biz/2012/07/26/malaysia-sapurakencana-gets-epcc-contracts-for-pt-sa-and-sn-aa-topsides",
+      "source_id": "retro-offshore-energy-biz-malaysia-sapurakencana-get-f43f5ce",
+      "note": "Patricia Satellite-A Platform and Serendah Accommodation-A Platform topsides for"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2012/07/26/malaysia-sapurakencana-gets-epcc-contracts-for-pt-sa-and-sn-aa-topsides",
+      "source_id": "retro-offshore-energy-biz-malaysia-sapurakencana-get-f43f5ce"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2012/07/26/malaysia-sapurakencana-petroleum-receives-epc-contracts-for-two-topsides-facilities",
+      "source_id": "retro-offshore-energy-biz-malaysia-sapurakencana-pet-8b13fd8"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2012/07/26/malaysia-sapurakencana-gets-epcc-contracts-for-pt-sa-and-sn-aa-topsides",
+      "source_id": "retro-offshore-energy-biz-malaysia-sapurakencana-get-f43f5ce",
+      "note": "Patricia Satellite-A Platform and Serendah Accommodation-A Platform topsides for the Serendah, Patricia & South Acis development offshore Bintulu, Sarawak."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Which of the two conflicting 2012 topsides values is correct",
+      "why": "Two same-date pages print RM250-300m and ~$78m for the same two contracts; neither page explains the difference and neither states an explicit dollar base year.",
+      "next_action": "Obtain the original SapuraKencana Bursa Malaysia announcement of 26 July 2012 to resolve the discrepancy; keep both figures until then."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

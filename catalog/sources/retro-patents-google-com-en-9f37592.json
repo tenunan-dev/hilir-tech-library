@@ -1,0 +1,24 @@
+{
+  "id": "retro-patents-google-com-en-9f37592",
+  "name": "Google Patents — US7942611B2 Offshore structure support",
+  "url": "https://patents.google.com/patent/US7942611B2/en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "ROT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Google Patents / USPTO",
+  "access": "open",
+  "licence": "patent document (public)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch returned unsupported PDF content type; page read through reader proxy https://r.jina.ai/<url> as instructed. Figures transcribed from the proxied page text. Keystone Engineering; teepee braced caisson; priority 2001, granted 17 May 2011; related.minimal-structure prior art."
+}

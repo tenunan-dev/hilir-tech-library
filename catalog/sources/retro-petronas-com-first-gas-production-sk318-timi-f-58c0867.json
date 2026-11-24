@@ -1,0 +1,26 @@
+{
+  "id": "retro-petronas-com-first-gas-production-sk318-timi-f-58c0867",
+  "name": "PETRONAS — First Gas Production from SK318 Timi Field (2023)",
+  "url": "https://www.petronas.com/media/media-releases/first-gas-production-sk318-timi-field",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "PETRONAS",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch; 143 m water, 80 km pipeline, 300 MMscfd, <5 kW, first gas 22 Aug 2023."
+}

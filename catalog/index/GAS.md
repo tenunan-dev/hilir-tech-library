@@ -1,25 +1,35 @@
 # GAS: Gas processing and LNG
 
-242 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
+266 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
 | [Australian Energy Producers Journal](https://connectsci.au/ep) | journal | apac | mixed | catalog-only |
 | [CS-PH Ex programmable smoke & heat detector data sheet](https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf) | standards-body | global, sea | open | summary-only |
 | [CSIRO energy research](https://www.csiro.au/en/research/technology-space/energy) | research-institute | apac | open | full-text-restricted |
+| [EnQuest — Proposed $833m acquisition RNS announcement (10 Jun 2026, PDF)](https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf) | oem-supplier | sea | open | summary-only |
 | [IEC 61511-1:2016+AMD1:2017 CSV](https://webstore.iec.ch/en/publication/61289) | standards-body | global, sea | paywalled | catalog-only |
 | [Indonesian Petroleum Association (IPA)](https://www.ipa.or.id/) | association | sea | mixed | catalog-only (unverified) |
 | [Institut Teknologi Bandung energy research](https://www.itb.ac.id/) | research-institute | sea | open | full-text-restricted |
 | [International Petroleum Technology Conference (IPTC)](https://www.iptcnet.org/) | conference | apac, me | mixed | catalog-only (unverified) |
 | [IPA Convention and Exhibition](https://convex.ipa.or.id/) | conference | sea | mixed | catalog-only (unverified) |
 | [LEMIGAS Research and Development Centre for Oil and Gas](https://www.lemigas.esdm.go.id/) | research-institute | sea | open | summary-only (unverified) |
+| [Murphy Oil Announces Additional Discoveries in Malaysia (12 Jun 2009)](https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-additional-discoveries-malaysia) | oem-supplier | global, sea | open | summary-only |
+| [Murphy Oil Announces First Production from Sarawak Natural Gas Project (18 Sep 2009)](https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-production-sarawak-natural-gas/) | oem-supplier | global, sea | open | summary-only |
+| [Murphy Oil Corporation 2005 Form 10-K](https://www.sec.gov/Archives/edgar/data/717423/000119312506054960/d10k.htm) | oem-supplier | global, sea | open | summary-only |
+| [Murphy Oil Corporation 2012 Form 10-K](https://www.sec.gov/Archives/edgar/data/717423/000119312513082919/d446290d10k.htm) | oem-supplier | global, sea | open | summary-only |
+| [Murphy Oil Corporation 2014 Form 10-K](https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm) | oem-supplier | global, sea | open | summary-only |
+| [Murphy Oil Corporation 2018 Annual Report / Form 10-K](https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63) | oem-supplier | global, sea | open | summary-only |
 | [NOPSEMA offshore safety regulator](https://www.nopsema.gov.au/) | agency-data | apac | open | full-text-restricted |
 | [NUS Energy Studies Institute](https://esi.nus.edu.sg/) | research-institute | sea | open | full-text-restricted |
 | [Offshore Natural Gas Drilling Platform: Remote Pressure Monitoring of Wellhead Equipment](https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead) | oem-supplier | global, sea | open | summary-only |
 | [OISD Oil Industry Safety Directorate standards](https://www.oisd.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [OTC Asia (Kuala Lumpur)](https://otcasia.org/) | conference | sea, apac | mixed | catalog-only (unverified) |
 | [Oxford Institute for Energy Studies (OIES)](https://www.oxfordenergy.org/) | research-institute | global, apac | open | full-text-restricted |
+| [PETRONAS Clarifies Status on Tembikai and Chenang RSC (25 Jan 2013)](https://www.petronas.com/media/media-releases/petronas-clarifies-status-tembikai-and-chenang-rsc) | oem-supplier | global, sea | open | summary-only |
+| [PETRONAS — First Gas Production from SK318 Timi Field (2023)](https://www.petronas.com/media/media-releases/first-gas-production-sk318-timi-field) | oem-supplier | sea | open | summary-only |
 | [Petrovietnam Journal](https://tapchidaukhi.vn/) | journal | sea | open | full-text-restricted |
+| [PTTEP acquires Murphy Oil Corporation's business in Malaysia (21 Mar 2019)](https://www.pttep.com/en/newsroom/press-releases/460/pttep-acquires-murphy-oil-corporation-s-business-in-malaysia-strengthen-long-term-growth-in-southeast-asia) | oem-supplier | global, sea | open | summary-only |
 | [Recommended guidelines for application of IEC 61508 and IEC 61511 in the Norwegian petroleum industry, No. 070 rev 06](https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Scientific Contributions Oil and Gas (LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/SCOG) | journal | sea | open | full-text-open |
 | [SNI 13-6910-2002 Safe Onshore and Offshore Drilling Operations (BSN)](https://id.scribd.com/document/1031759154/SNI-13-6910-2002) | standards-body | sea | mixed | full-text-restricted |
@@ -27,18 +37,23 @@
 | [Standards Australia (AS 2885 pipelines, AS/NZS 60079)](https://www.standards.org.au/) | standards-body | apac | paywalled | catalog-only (unverified) |
 | [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted |
 | [University of Queensland energy and CCS research](https://uq.edu.au/legal/copyright-privacy-disclaimer) | research-institute | apac | open | full-text-restricted |
+| [A Malaysian perspective (OGJ, 11 Dec 2006)](https://www.ogj.com/general-interest/companies/article/17224324/a-malaysian-perspective) | oem-supplier | global, sea | open | summary-only |
 | [APEC Asia Pacific Energy Research Centre (APERC)](https://aperc.or.jp/) | research-institute | apac | open | full-text-restricted |
 | [ASCOPE ASEAN Council on Petroleum](https://www.ascope.org/) | association | sea | open | summary-only (unverified) |
 | [ASEAN Centre for Energy (ACE)](https://aseanenergy.org/) | agency-data | sea, apac | open | full-text-restricted |
 | [Australian DCCEEW energy and hydrogen](https://www.dcceew.gov.au/energy) | agency-data | apac | open | full-text-open |
 | [Australian Energy Producers (formerly APPEA)](https://energyproducers.au/) | association | apac | open | full-text-restricted |
 | [Automation for Offshore Platforms and FSOs](https://www.tdl-ia.com/offshore-platform-fso-automation.html) | oem-supplier | global, sea | open | summary-only |
+| [AWT — Duyong Field Development Plan case study (PDF)](https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf) | oem-supplier | sea | open | summary-only |
 | [Chiyoda Corporation](https://www.chiyodacorp.com/en/) | epc-contractor | apac, global | open | full-text-restricted |
 | [CNPC Economics and Technology Research Institute](https://www.cnpc.com.cn/en/) | research-institute | apac | open | summary-only (unverified) |
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
 | [Ebara Corporation](https://www.ebara.com/) | oem-supplier | apac, global | open | summary-only (unverified) |
+| [EnQuest — Malaysia FOA investor deck (10 Jun 2026, PDF)](https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_-_Investor_Deck_vF.pdf) | oem-supplier | sea | open | summary-only |
+| [EPCIC of Merapuh - A Production Topside for SK309/311 Phase II Sarawak Gas Development Project](https://brookeholding.com/epcic-of-merapuh-a-production-topside-for-sk309-311-phase-ii-sarawak-gas-development-project/) | oem-supplier | global, sea | open | summary-only |
 | [ERIA Economic Research Institute for ASEAN and East Asia](https://www.eria.org/) | research-institute | sea, apac | open | full-text-restricted |
 | [Gastech](https://www.gastechevent.com/) | conference | global, apac | mixed | catalog-only (unverified) |
+| [Hook-up and Commissioning Track Record (Vantris Energy / Sapura Energy)](https://vantrisenergy.com/operations-maintenance/hook-up-and-commissioning/track-record) | oem-supplier | global, sea | open | summary-only |
 | [ICIS chemicals and energy news](https://www.icis.com/explore/) | trade-media | global, apac | paywalled | catalog-only (unverified) |
 | [India Ministry of Petroleum and Natural Gas](https://mopng.gov.in/en) | agency-data | apac | open | full-text-restricted |
 | [India Petroleum Planning and Analysis Cell (PPAC)](https://ppac.gov.in/) | agency-data | apac | open | full-text-restricted |
@@ -48,6 +63,7 @@
 | [JDIH ESDM (Indonesian energy regulation database)](https://jdih.esdm.go.id) | agency-data | sea | open | full-text-open |
 | [JGC Holdings](https://www.jgc.com/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
 | [JOGMEC Japan Organization for Metals and Energy Security](https://www.jogmec.go.jp/english/) | agency-data | apac, global | open | full-text-restricted |
+| [Kencana wins Murphy Sarawak contract](https://www.offshore-mag.com/field-development/article/16796535/kencana-wins-murphy-sarawak-contract) | oem-supplier | global, sea | open | summary-only |
 | [KIPRIS Korea patent information](https://www.kipris.or.kr/enghome/main.do) | patents | apac | open | full-text-open (unverified) |
 | [Korea Energy Economics Institute (KEEI)](https://www.keei.re.kr/eng) | research-institute | apac | open | full-text-restricted |
 | [Lembaran Publikasi Minyak dan Gas Bumi (LPMGB, LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/LPMGB) | journal | sea | open | full-text-open |
@@ -57,19 +73,25 @@
 | [MISC Group (LNG shipping, FPSO and offshore)](https://www.miscgroup.com/) | epc-contractor | sea, apac | open | summary-only (unverified) |
 | [Mitsubishi Heavy Industries Compressor and gas turbines](https://www.mhi.com/) | oem-supplier | apac, global | open | summary-only |
 | [National Energy Administration of China](https://www.nea.gov.cn/) | agency-data | apac | open | full-text-restricted |
+| [Offshore Magazine — Timi Field platform completed at Sarawak yard (2022)](https://www.offshore-mag.com/regional-reports/asia/article/14284091/timi-field-platform-completed-at-sarawak-yard) | oem-supplier | sea | open | summary-only |
 | [Peraturan.id (BPK regulation database)](https://peraturan.bpk.go.id) | standards-body | sea | open | full-text-open |
+| [Petronas completes Tembikai gas pipelay (OGJ, 21 Jul 2020)](https://www.ogj.com/pipelines-transportation/pipelines/article/14180036/petronas-completes-tembikai-gas-pipelay) | oem-supplier | global, sea | open | summary-only |
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | full-text-restricted |
 | [Philippines Department of Energy](https://doe.gov.ph/) | agency-data | sea | open | full-text-open |
 | [Singapore Energy Market Authority](https://www.ema.gov.sg/) | agency-data | sea | open | full-text-restricted |
 | [Singapore MPA (Maritime and Port Authority)](https://www.mpa.gov.sg) | agency-data | sea, apac | open | full-text-open |
+| [SK309 & SK311 (LNG) Report](https://www.woodmac.com/reports/upstream-oil-and-gas-sk309-and-sk311-lng-2297666/) | oem-supplier | global, sea | open | catalog-only |
 | [SKK Migas](https://www.skkmigas.go.id/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [SKK Migas PTK-040/2023/S9 Rev.02: Abandonment and Site Restoration (ASR) / post-operation activities](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
+| [Tembikai Non-Associated Gas Development (Offshore Technology, 13 Dec 2019)](https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/) | oem-supplier | global, sea | open | summary-only |
 | [Thailand Department of Mineral Fuels](https://dmf.go.th/) | agency-data | sea | open | full-text-restricted |
 | [Thailand Department of Mineral Fuels (DMF)](https://www.dmf.go.th) | agency-data | sea | open | catalog-only |
 | [Thailand Energy Policy and Planning Office (EPPO)](https://www.eppo.go.th/index.php/en/) | agency-data | sea | open | full-text-restricted |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
 | [Yokogawa](https://www.yokogawa.com/) | oem-supplier | global, apac | open | full-text-restricted |
+| [ZEEPod page and blog (ZEE Engineering)](https://zee-eng.com/zeepod) | oem-supplier | global, sea | open | summary-only |
+| [A Barrel Full — SK305 Block Oil And Gas Fields (wiki)](https://www.abarrelfull.co.uk/SK305_Block_Oil_And_Gas_Fields) | oem-supplier | sea | open | summary-only |
 | [Asia Pacific Clean Hydrogen / Singapore International Energy Week](https://www.siew.gov.sg/) | conference | sea | open | summary-only (unverified) |
 | [Asian Oil & Gas (AOG) magazine](https://www.aogdigital.com/) | trade-media | sea, apac | open | summary-only (unverified) |
 | [Brunei Department of Energy](https://www.energy.gov.bn/) | agency-data | sea | open | summary-only (unverified) |
@@ -82,6 +104,7 @@
 | [Keppel Infrastructure and Energy](https://www.keppel.com/) | epc-contractor | sea | open | summary-only (unverified) |
 | [KOGAS Korea Gas Corporation](https://www.kogas.or.kr/site/eng/main.do) | licensor | apac | open | summary-only (unverified) |
 | [Malaysia Marine and Heavy Engineering](https://www.mhb.com.my/) | epc-contractor | sea | open | summary-only (unverified) |
+| [MSOSH Award — PETRONAS Carigali Duyong Platform profile](https://award39.msosh.org.my/petronas-duyong-platform) | oem-supplier | sea | open | summary-only |
 | [Myanmar Ministry of Energy](https://www.moee.gov.mm/) | agency-data | sea | open | summary-only (unverified) |
 | [Petromindo Indonesia energy news](https://www.petromindo.com/) | trade-media | sea | mixed | catalog-only (unverified) |
 | [Petrovietnam](https://www.pvn.vn/) | agency-data | sea | open | summary-only (unverified) |
@@ -89,6 +112,7 @@
 | [Samsung E&A](https://www.samsungena.com/en/) | epc-contractor | apac, me | open | summary-only (unverified) |
 | [Samsung Heavy Industries](https://www.samsungshi.com/eng/) | oem-supplier | apac, global | open | summary-only (unverified) |
 | [Santos](https://www.santos.com/) | licensor | apac | open | summary-only (unverified) |
+| [Sarawak Gas Project (A Barrel Full wiki)](https://www.abarrelfull.co.uk/Sarawak_Gas_Project) | oem-supplier | global, sea | open | summary-only |
 | [Seatrium](https://www.seatrium.com/) | epc-contractor | sea, global | open | summary-only (unverified) |
 | [The Edge Malaysia energy coverage](https://theedgemalaysia.com/) | trade-media | sea | mixed | catalog-only (unverified) |
 | [Tokyo Gas technology](https://www.tokyo-gas.co.jp/en/) | licensor | apac | open | summary-only (unverified) |

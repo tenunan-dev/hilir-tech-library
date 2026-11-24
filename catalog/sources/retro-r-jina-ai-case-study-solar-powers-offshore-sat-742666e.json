@@ -1,0 +1,25 @@
+{
+  "id": "retro-r-jina-ai-case-study-solar-powers-offshore-sat-742666e",
+  "name": "Morningstar case study - Solar Powers Offshore Satellite Communications in Malaysia",
+  "url": "https://r.jina.ai/https://www.morningstarcorp.com/wp-content/uploads/case-study-solar-powers-offshore-satellite-comms-malaysia-swift-energy-en.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ELE",
+    "INS"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Morningstar Corporation",
+  "access": "open",
+  "licence": "publisher terms; PDF read via r.jina.ai mirror",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Directly read via r.jina.ai; 2021 Pemanis installation figures verified."
+}

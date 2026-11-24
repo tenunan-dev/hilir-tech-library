@@ -1,0 +1,111 @@
+{
+  "id": "baram-junior-cluster-sfa-psc",
+  "name": "Baram Junior Cluster SFA PSC",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia (offshore Miri, Sarawak)",
+  "location": "Malaysia (offshore Miri, Sarawak)",
+  "status": "operating",
+  "description": "DIALOG Resources 70%, PSEP 30%; operatorship DIALOG; SFA PSC to 2037; resource assessment and pre-development reported in Annual Report 2024/2025.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "DIALOG entry into upstream",
+      "date": "2011",
+      "source": {
+        "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+        "source_id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1"
+      }
+    },
+    {
+      "event": "BJC SFA PSC participation",
+      "date": "2037",
+      "source": {
+        "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+        "source_id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1"
+      }
+    },
+    {
+      "event": "Salbiah WHP installed",
+      "date": "2026",
+      "source": {
+        "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+        "source_id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1"
+      }
+    },
+    {
+      "event": "Salbiah first gas expected",
+      "date": "2027",
+      "source": {
+        "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+        "source_id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "DIALOG Resources Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Petroleum Sarawak Exploration and Production Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.dialogasia.com/upstream/upstream-assets-ventures",
+      "source_id": "retro-dialogasia-com-upstream-assets-ventures-71c1245",
+      "note": "DIALOG Resources 70%, PSEP 30%; operatorship DIALOG; SFA PSC to 2037; resource a"
+    },
+    {
+      "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+      "source_id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1"
+    },
+    {
+      "url": "https://www.dialogasia.com/upstream/upstream-assets-ventures",
+      "source_id": "retro-dialogasia-com-upstream-assets-ventures-71c1245"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/67a06cb414f86bdde3dbe790_Dialog%20Upsteam%20-%20BPTEC%202025.pdf",
+      "source_id": "retro-cdn-prod-website-files-com-67a06cb414f86bdde3d-8875f7c"
+    },
+    {
+      "url": "https://www.tarponsystems.com/wellhead-platforms-for-balai-bentara-spaoh-and-west-acis-fields",
+      "source_id": "retro-tarponsystems-com-wellhead-platforms-for-balai-3f57d73"
+    },
+    {
+      "url": "https://www.dialogasia.com/upstream/upstream-assets-ventures",
+      "source_id": "retro-dialogasia-com-upstream-assets-ventures-71c1245",
+      "note": "DIALOG Resources 70%, PSEP 30%; operatorship DIALOG; SFA PSC to 2037; resource assessment and pre-development reported in Annual Report 2024/2025."
+    },
+    {
+      "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+      "source_id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1",
+      "note": "DIALOG's 2011 upstream entry per Annual Report 2026; Balai/Bentara/Spaoh/West Acis WHPs built by Tarpon 2011-2012 as a separate item."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Salbiah water depth, WHP design and contract value",
+      "why": "Annual Report 2026 confirms installation but prints no water depth, platform type or EPC value.",
+      "next_action": "Fetch a DIALOG Bursa announcement or project page for Salbiah specifics."
+    },
+    {
+      "what": "Decommissioning / abandonment year for BJC fields",
+      "why": "Not stated in the read pages.",
+      "next_action": "Look for the BJC FDAP or PSC decommissioning plan if published."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

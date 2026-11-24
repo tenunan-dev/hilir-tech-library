@@ -1,0 +1,23 @@
+{
+  "id": "retro-offshore-mag-com-reservoir-monitoring-multipha-41bad2c",
+  "name": "Offshore Magazine - Reservoir monitoring: MPFM replaces test separator",
+  "url": "https://www.offshore-mag.com/equipment-engineering/article/16758633/reservoir-monitoring-multiphase-meter-on-unmanned-wellhead-platform-replaces-test-separator",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "INS"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Offshore Magazine",
+  "access": "open",
+  "licence": "publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Directly read (Nov 2001 article): 100% availability over four years, three manufacturer interventions, 1-hour well tests, weekly visits and USD 800,000 capex saving verified; generic analogue, not a Malaysian asset."
+}

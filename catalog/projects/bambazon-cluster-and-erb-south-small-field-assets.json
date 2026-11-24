@@ -1,0 +1,73 @@
+{
+  "id": "bambazon-cluster-and-erb-south-small-field-assets",
+  "name": "Bambazon Cluster and Erb South small-field assets",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "EPOMS small-field tie-back developments: Bambazon (Bambazon, Tiga Papan, Mengkira) and Erb South, awarded under SFA PSCs in 2023 and 2024.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Bambazon SFA PSC award",
+      "date": "2023",
+      "source": {
+        "url": "https://r.jina.ai/https://cdn.asp.events/CLIENT_SPE__29FE44FF_5056_B733_49EC4D60A02A6A7D/sites/25BWM5/media/featured-presentations/S1_Sri-Ganesh-Gopalakrishnan_Upstream-Synergy-to-unlock-Small-Field-Development.pdf",
+        "source_id": "retro-r-jina-ai-s1-sri-ganesh-gopalakrishnan-upstrea-81f0075"
+      }
+    },
+    {
+      "event": "Erb South SFA PSC award",
+      "date": "2024",
+      "source": {
+        "url": "https://r.jina.ai/https://cdn.asp.events/CLIENT_SPE__29FE44FF_5056_B733_49EC4D60A02A6A7D/sites/25BWM5/media/featured-presentations/S1_Sri-Ganesh-Gopalakrishnan_Upstream-Synergy-to-unlock-Small-Field-Development.pdf",
+        "source_id": "retro-r-jina-ai-s1-sri-ganesh-gopalakrishnan-upstrea-81f0075"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "EPOMS Energy",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://cdn.asp.events/CLIENT_SPE__29FE44FF_5056_B733_49EC4D60A02A6A7D/sites/25BWM5/media/featured-presentations/S1_Sri-Ganesh-Gopalakrishnan_Upstream-Synergy-to-unlock-Small-Field-Development.pdf",
+      "source_id": "retro-r-jina-ai-s1-sri-ganesh-gopalakrishnan-upstrea-81f0075",
+      "note": "EPOMS small-field tie-back developments: Bambazon (Bambazon, Tiga Papan, Mengkir"
+    },
+    {
+      "url": "https://r.jina.ai/https://cdn.asp.events/CLIENT_SPE__29FE44FF_5056_B733_49EC4D60A02A6A7D/sites/25BWM5/media/featured-presentations/S1_Sri-Ganesh-Gopalakrishnan_Upstream-Synergy-to-unlock-Small-Field-Development.pdf",
+      "source_id": "retro-r-jina-ai-s1-sri-ganesh-gopalakrishnan-upstrea-81f0075"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Water depth",
+      "why": "Not stated for these clusters",
+      "next_action": "Consult PETRONAS SFA block data"
+    },
+    {
+      "what": "Capex / contract values",
+      "why": "No figures in presentation",
+      "next_action": "Find EPCIC tender outcomes"
+    },
+    {
+      "what": "First oil / FID",
+      "why": "Not stated",
+      "next_action": "Track project announcements"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

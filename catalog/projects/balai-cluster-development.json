@@ -1,0 +1,81 @@
+{
+  "id": "balai-cluster-development",
+  "name": "Balai Cluster Development",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia (Bintulu, Sarawak)",
+  "location": "Malaysia (Bintulu, Sarawak)",
+  "status": "operating",
+  "description": "EPCIC of four WHPs at Balai, Bentara, Spaoh and West Acis fields; guyed caissons, anchor piles and platforms.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "EPC contract awarded",
+      "date": "2011",
+      "source": {
+        "url": "https://www.tarponsystems.com/wellhead-platforms-for-balai-bentara-spaoh-and-west-acis-fields",
+        "source_id": "retro-tarponsystems-com-wellhead-platforms-for-balai-3f57d73"
+      }
+    },
+    {
+      "event": "WHP installation year per DIALOG decks",
+      "date": "2012",
+      "source": {
+        "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/67a06cb414f86bdde3dbe790_Dialog%20Upsteam%20-%20BPTEC%202025.pdf",
+        "source_id": "retro-cdn-prod-website-files-com-67a06cb414f86bdde3d-8875f7c"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "BC Petroleum (client)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "DIALOG Tarpon Offshore Platforms Sdn Bhd (EPC)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf",
+      "source_id": "retro-cdn-prod-website-files-com-69ca1db5102fd7a4134-db92ecf",
+      "note": "EPCIC of four WHPs at Balai, Bentara, Spaoh and West Acis fields; guyed caissons"
+    },
+    {
+      "url": "https://www.tarponsystems.com/wellhead-platforms-for-balai-bentara-spaoh-and-west-acis-fields",
+      "source_id": "retro-tarponsystems-com-wellhead-platforms-for-balai-3f57d73"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf",
+      "source_id": "retro-cdn-prod-website-files-com-69ca1db5102fd7a4134-db92ecf"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/67a06cb414f86bdde3dbe790_Dialog%20Upsteam%20-%20BPTEC%202025.pdf",
+      "source_id": "retro-cdn-prod-website-files-com-67a06cb414f86bdde3d-8875f7c"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf",
+      "source_id": "retro-cdn-prod-website-files-com-69ca1db5102fd7a4134-db92ecf",
+      "note": "EPCIC of four WHPs at Balai, Bentara, Spaoh and West Acis fields; guyed caissons, anchor piles and platforms."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Balai cluster contract value",
+      "why": "Not stated on Tarpon page or DIALOG decks.",
+      "next_action": "Find BC Petroleum/PETRONAS award announcement."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

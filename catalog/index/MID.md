@@ -1,6 +1,6 @@
 # MID: Midstream
 
-840 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
+842 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -106,6 +106,7 @@
 | [Deltares / wpd offshore solutions (HR Wallingford eprints host)](https://eprints.hrwallingford.com/id/eprint/1126/1/PA_6_39-Riezebos-H.pdf) | agency-data | global, apac, sea | open | summary-only (unverified) |
 | [DESMI (Ro-Clean)](https://www.desmiro-clean.com/products-solutions/oil-spill-response) | oem-supplier | global, apac, sea | open | summary-only |
 | [Det Norske Veritas AS (training material hosted by PDFCOFFEE)](https://pdfcoffee.com/introduction-to-subsea-production-system-pdf-free.html) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
+| [DIALOG Group Berhad — Integrated Annual Report 2026 (PDF)](https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf) | oem-supplier | sea | open | summary-only |
 | [Digital Refining (PTQ) — Pipeline water-content specification range](https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [DNV](https://www.dnv.com/maritime/offshore-classification/floating-production) | standards-body | global, apac, sea, eu, na | open | summary-only |
 | [DNV](https://dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines) | agency-data | global, apac, sea | open | summary-only |
@@ -567,6 +568,7 @@
 | [Cummins Inc. — Cummins diesel generator sets (Quiet Diesel, Standard Diesel, Centum Series)](https://www.cummins.com/en-apac/generators/diesel) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Cummins — Cummins diesel genset rating range](https://www.cummins.com/en-apac/generators/diesel) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Cummins — Cummins natural-gas genset range](https://www.cummins.com/generators) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [DIALOG Upstream — OTC Asia 2026 presentation (PDF)](https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf) | oem-supplier | sea | open | summary-only |
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
 | [Dixon Valve & Coupling Company (Dixon Europe) — A9661LG Composite Cryogenic LNG Hose (A9661-S6S6-N-050)](https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [DrillingFormulas.Com (references Applied Drilling Engineering / SPE, Azar, Australian Drilling Manual, Devereux)](https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |

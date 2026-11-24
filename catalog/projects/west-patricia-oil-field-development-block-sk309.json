@@ -1,0 +1,126 @@
+{
+  "id": "west-patricia-oil-field-development-block-sk309",
+  "name": "West Patricia oil field development, Block SK309",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Murphy's first Malaysian development; first oil 2003; 85% Murphy / 15% PETRONAS Carigali at startup; hub for later SK309/311 tie-backs.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "West Patricia first oil",
+      "date": "2003",
+      "source": {
+        "url": "https://www.offshore-mag.com/production/article/16771129/murphy-oil-has-first-production-in-malaysia",
+        "source_id": "retro-offshore-mag-com-murphy-oil-has-first-producti-b95f59b"
+      }
+    },
+    {
+      "event": "West Patricia and Congkak combined production",
+      "date": "2005",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312506054960/d10k.htm",
+        "source_id": "retro-sec-gov-d10k-htm-d0f771c"
+      }
+    },
+    {
+      "event": "Second West Patricia wellhead platform work started",
+      "date": "2011",
+      "source": {
+        "url": "https://www.upstreamonline.com/weekly/murphy-double-for-malaysia/1-1-977294"
+      }
+    },
+    {
+      "event": "Water injection / capacity support works at West Patricia",
+      "date": "2013",
+      "source": {
+        "url": "https://vantrisenergy.com/operations-maintenance/hook-up-and-commissioning/track-record",
+        "source_id": "retro-vantrisenergy-com-track-record-a9b9c94"
+      }
+    },
+    {
+      "event": "FSO swap at West Patricia",
+      "date": "2026",
+      "source": {
+        "url": "https://www.marine.gov.my/wp-content/uploads/2026/07/96-2026T-%E2%80%93-NOTICE-OF-TEMPORARY-REPLACEMENT-OF-FSO-CASPIAN-SEA-BY-NEPTUNE-MOON-AT-WEST-PATRICIA-FIELD-BLOCK-SK309-OFFSHORE-SARAWAK-WITHIN-THE-EXCLUSIVE-ECONOMIC-ZONE.pdf",
+        "source_id": "retro-marine-gov-my-96-2026t-e2-80-93-notice-of-temp-a941070"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Murphy Sarawak Oil Co Ltd (operator, 85%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PTTEP Sarawak Oil Limited (source of marine notice)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/production/article/16771129/murphy-oil-has-first-production-in-malaysia",
+      "source_id": "retro-offshore-mag-com-murphy-oil-has-first-producti-b95f59b",
+      "note": "Murphy's first Malaysian development; first oil 2003; 85% Murphy / 15% PETRONAS "
+    },
+    {
+      "url": "https://www.offshore-mag.com/production/article/16771129/murphy-oil-has-first-production-in-malaysia",
+      "source_id": "retro-offshore-mag-com-murphy-oil-has-first-producti-b95f59b"
+    },
+    {
+      "url": "https://www.marine.gov.my/wp-content/uploads/2026/07/96-2026T-%E2%80%93-NOTICE-OF-TEMPORARY-REPLACEMENT-OF-FSO-CASPIAN-SEA-BY-NEPTUNE-MOON-AT-WEST-PATRICIA-FIELD-BLOCK-SK309-OFFSHORE-SARAWAK-WITHIN-THE-EXCLUSIVE-ECONOMIC-ZONE.pdf",
+      "source_id": "retro-marine-gov-my-96-2026t-e2-80-93-notice-of-temp-a941070"
+    },
+    {
+      "url": "https://vantrisenergy.com/operations-maintenance/hook-up-and-commissioning/track-record",
+      "source_id": "retro-vantrisenergy-com-track-record-a9b9c94"
+    },
+    {
+      "url": "https://www.offshore-mag.com/production/article/16771129/murphy-oil-has-first-production-in-malaysia",
+      "source_id": "retro-offshore-mag-com-murphy-oil-has-first-producti-b95f59b",
+      "note": "Murphy's first Malaysian development; first oil 2003; 85% Murphy / 15% PETRONAS Carigali at startup; hub for later SK309/311 tie-backs."
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312506054960/d10k.htm",
+      "source_id": "retro-sec-gov-d10k-htm-d0f771c"
+    },
+    {
+      "url": "https://www.upstreamonline.com/weekly/murphy-double-for-malaysia/1-1-977294"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "West Patricia discovery year and recoverable reserves",
+      "why": "Sources conflict: the 2013 secondary blog says discovery 1962; OGJ 2006 says West Patricia discovered in 2000; OGJ 2002 (not fetched) refers to discovery in 2001. Only figures from pages actually read are recorded, and this conflict is not resolved.",
+      "next_action": "Fetch OGJ 2002 commerciality article and Murphy's original West Patricia discovery release to resolve the discovery year."
+    },
+    {
+      "what": "West Patricia wells plug and abandonment 2024",
+      "why": "A marine notice URL for 2024 P&A appeared in search results but the PDF returned 404 through WebFetch and through the reader proxy; no dates, well names or figures are asserted from it.",
+      "next_action": "Retrieve the notice from the Marine Department archive or an archived copy and record well names and P&A dates."
+    },
+    {
+      "what": "West Patricia-specific incidents, uptime and workover history",
+      "why": "No field-specific reliability or workover figure was found in the pages actually read.",
+      "next_action": "Search site-specific HSE notices and Murphy operational filings."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Murphy Malaysia assets). Pages actually read with WebFetch: A Barrel Full Sarawak Gas Project; Murphy 2005, 2012 and 2014 Forms 10-K (SEC; 2014 via r.jina.ai reader proxy because of response size); Murphy "
+}

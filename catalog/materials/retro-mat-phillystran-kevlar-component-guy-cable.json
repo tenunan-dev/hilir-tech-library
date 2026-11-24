@@ -1,0 +1,24 @@
+{
+  "id": "retro-mat-phillystran-kevlar-component-guy-cable",
+  "name": "PHILLYSTRAN (Kevlar-component) guy cable",
+  "material_category": "synthetic-fibre-cable",
+  "description": "PHILLYSTRAN (Kevlar-component) guy cable named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "manufacturer",
+      "unit": "n/a",
+      "basis": "US5498107A specification: Kevlar-component PHILLYSTRAN cables preferred for handling, tensile strength and lower long-term creep than steel",
+      "source": {
+        "url": "https://patents.google.com/patent/US5498107A/en",
+        "source_id": "retro-patents-google-com-en-c2b9fd7"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/US5498107A/en",
+      "source_id": "retro-patents-google-com-en-c2b9fd7"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

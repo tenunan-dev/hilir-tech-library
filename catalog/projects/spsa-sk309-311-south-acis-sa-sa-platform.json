@@ -1,0 +1,101 @@
+{
+  "id": "spsa-sk309-311-south-acis-sa-sa-platform",
+  "name": "SPSA SK309/311 South Acis SA-SA platform",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Separate satellite platform in South Acis field, Block SK311, ~17 km from West Patricia, 35 m water depth.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "EPCC contract signed for SA-SA topside",
+      "date": "2015",
+      "source": {
+        "url": "https://www.shipandoffshore.net/news/offshore/detail/news/epcc-contract-for-malaysian-yard-brooke-dockyard.html",
+        "source_id": "retro-shipandoffshore-net-epcc-contract-for-malaysia-0b80262"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "EPCC contract value - SA-SA topside (RM as printed)",
+      "year": 2015,
+      "basis": "'RM149 million (US$39.9 million) EPCC contract' reported 30 June 2015; publication year used, no explicit price-level base year stated.",
+      "value": 149,
+      "unit": "RM",
+      "source": {
+        "url": "https://www.shipandoffshore.net/news/offshore/detail/news/epcc-contract-for-malaysian-yard-brooke-dockyard.html",
+        "source_id": "retro-shipandoffshore-net-epcc-contract-for-malaysia-0b80262"
+      }
+    },
+    {
+      "metric": "EPCC contract value - SA-SA topside (USD as printed)",
+      "year": 2015,
+      "basis": "'US$39.9 million' as printed with RM149 million, 30 June 2015 article; publication year used, no explicit base year stated.",
+      "value": 39.9,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://www.shipandoffshore.net/news/offshore/detail/news/epcc-contract-for-malaysian-yard-brooke-dockyard.html",
+        "source_id": "retro-shipandoffshore-net-epcc-contract-for-malaysia-0b80262"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Brooke Dockyard",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Engineering Works Corporation",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Murphy Sarawak Oil Corporation",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Perunding Ranhill Worley (technical partner, MOU)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.shipandoffshore.net/news/offshore/detail/news/epcc-contract-for-malaysian-yard-brooke-dockyard.html",
+      "source_id": "retro-shipandoffshore-net-epcc-contract-for-malaysia-0b80262",
+      "note": "Separate satellite platform in South Acis field, Block SK311, ~17 km from West P"
+    },
+    {
+      "url": "https://www.shipandoffshore.net/news/offshore/detail/news/epcc-contract-for-malaysian-yard-brooke-dockyard.html",
+      "source_id": "retro-shipandoffshore-net-epcc-contract-for-malaysia-0b80262"
+    },
+    {
+      "url": "https://brookeholding.com/epcc-south-acis-topside-sa-pa-utility-topsides-sa-aa/"
+    },
+    {
+      "url": "https://www.shipandoffshore.net/news/offshore/detail/news/epcc-contract-for-malaysian-yard-brooke-dockyard.html",
+      "source_id": "retro-shipandoffshore-net-epcc-contract-for-malaysia-0b80262",
+      "note": "Separate satellite platform in South Acis field, Block SK311, ~17 km from West Patricia, 35 m water depth."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Contract price for the related SA-PA / SA-AA South Acis topsides",
+      "why": "Contractor project page surfaced tonnage and award date in a search snippet but was not read; no price figure is asserted.",
+      "next_action": "WebFetch the contractor page and any Brooke annual report for a stated contract value."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

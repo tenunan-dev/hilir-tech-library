@@ -1,6 +1,6 @@
 # MAT: Materials and integrity
 
-663 sources. Sub-topics: corrosion, metallurgy, coatings, inspection, rbi, non-metallics.
+671 sources. Sub-topics: corrosion, metallurgy, coatings, inspection, rbi, non-metallics.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -86,6 +86,7 @@
 | [Deltares / Rijksdienst voor Ondernemend Nederland (RVO), Nederwiek Wind Farm Zone](https://offshorewind.rvo.nl/file/download/87f6dd24-f514-4b2f-9b82-913b48109fe1/nw_20241114_mor_svasek_scour-and-scour-mitigation-report.pdf) | agency-data | global, apac, sea | open | summary-only (unverified) |
 | [Deltares / wpd offshore solutions (HR Wallingford eprints host)](https://eprints.hrwallingford.com/id/eprint/1126/1/PA_6_39-Riezebos-H.pdf) | agency-data | global, apac, sea | open | summary-only (unverified) |
 | [DESMI (Ro-Clean)](https://www.desmiro-clean.com/products-solutions/oil-spill-response) | oem-supplier | global, apac, sea | open | summary-only |
+| [DIALOG — acquisition of Tarpon Platform Systems Malaysia (15 Nov 2023)](https://www.dialogasia.com/news/acquisition-of-entire-equity-interest-in-tarpon-platform-systems-malaysia-sdn-bhd) | oem-supplier | sea | open | summary-only |
 | [DNV](https://www.dnv.com/maritime/offshore-classification/floating-production) | standards-body | global, apac, sea, eu, na | open | summary-only |
 | [DNV](https://dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines) | agency-data | global, apac, sea | open | summary-only |
 | [DNV (Installjac software)](https://www.dnv.com/services/simulation-of-jacket-installations-installjac-2279/) | standards-body | global, apac, sea, eu, na | open | summary-only |
@@ -451,6 +452,7 @@
 | [Cummins Inc.](https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Cummins — Cummins diesel genset rating range](https://www.cummins.com/en-apac/generators/diesel) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Cummins — Cummins natural-gas genset range](https://www.cummins.com/generators) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [DIALOG Tarpon — What We Do (standards, capability, installations)](https://www.tarponsystems.com/what-we-do) | oem-supplier | global, sea | open | summary-only |
 | [DrillingFormulas.Com (references Applied Drilling Engineering / SPE, Azar, Australian Drilling Manual, Devereux)](https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Dräger](https://www.draeger.com/en-us_u/Products/Flame-Detectors/Flame-5000) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Ecomar Storage Solution FZC LLC / EPC contractor](https://cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/flex031/uploads/pdfjscommunity/original/2X/6/686af929c0ae2573d8470b0b680c568fa0fad42e.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
@@ -480,6 +482,7 @@
 | [Ichthys LNG — cost](https://www.inpex.com.au/news-and-updates/media-centre/media-releases/final-investment-decision-on-ichthys-lng-project/) | trade-media | global, apac, na, eu | open | summary-only |
 | [Ichthys LNG — cost](https://www.ogj.com/pipelines-transportation/lng/article/17273248/inpex-total-make-fid-for-ichthys-lng-project) | trade-media | global, apac, na, eu | open | summary-only |
 | [Ichthys LNG — cost](https://totalenergies.com/newsroom/australie-total-et-inpex-lancent-ichthys-projet-strategique-de-gnl-offshore/?lang=eng) | trade-media | global, apac, na, eu | open | summary-only |
+| [IJREST — Finite Element Analysis of Offshore Cable Guyed Monotower (2014, PDF)](https://ijrest.net/old_website/downloads/16112014/pid-16201408.pdf) | oem-supplier | sea | open | summary-only |
 | [INNIO / Wartsila](https://www.wartsila.com/marine/products/engines-and-generating-sets) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [INPEX CORPORATION](https://www.inpex.com/english/news/upload/20250804.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [INPEX CORPORATION](https://www.inpex.com/english/ichthys/concept.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -544,6 +547,7 @@
 | [Offshore Technology (GlobalData)](https://www.offshore-technology.com/projects/troll/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Offshore Technology (GlobalData)](https://www.offshore-technology.com/projects/perdido/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Offshore Technology (GlobalData)](https://www.offshore-technology.com/projects/malampaya/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Offshore Technology — Bokor Phase 3 Redevelopment Project (2019)](https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/) | oem-supplier | sea | open | summary-only |
 | [Orcina](https://www.orcina.com/wp-content/uploads/examples/a/a05/A05%20Steel%20catenary%20riser%20systems.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Petronas Bintulu LNG Complex (incl. LNG Train 9)](https://www.offshore-technology.com/projects/petronas-bintulu-lng-complex-sarawak/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [PETRONAS PFLNG DUA (PFLNG-2, Rotan/Buluh gas fields)](https://www.offshore-technology.com/projects/pflng-2-rotan-flng-project-sabah/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -565,6 +569,7 @@
 | [Shell Australia Pty Ltd / NOPSEMA](https://docs.nopsema.gov.au/A680618) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Siemens Energy (incl. ex-Dresser-Rand)](https://www.siemens-energy.com/global/en/home/products-services/product-offering/compressors.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Siemens.Com — Siemens PCS 7 version / cybersecurity](https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Sika - Strengthening and Corrosion Protection of Structural Casing of Wells, Sarawak Malaysia (PDF)](https://r.jina.ai/https://offshore.sika.com/dam/dms/corporate/3/glo-corrosion-protection-structural-casing-wells-malaysia.pdf) | oem-supplier | global, sea | open | summary-only |
 | [SLB OneSubsea](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [SLB OneSubsea](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-separation) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture)](https://www.onesubsea.slb.com/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -600,11 +605,13 @@
 | [Wikimedia Commons; author Steven Baltakatei Sandoval](https://commons.wikimedia.org/wiki/File:ISO_10628-2_2012_Symbols_Sheet_1.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Yme field redevelopment (MOPUstor) and Yme New Development — cost](https://www.offshore-technology.com/projects/ymeegersundbasin/) | trade-media | global, apac, na, eu | open | summary-only |
 | [Yokogawa](https://www.yokogawa.com/ia/dcs/centum-vp/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [ZEEPod page and blog (ZEE Engineering)](https://zee-eng.com/zeepod) | oem-supplier | global, sea | open | summary-only |
 | [Zeto](https://www.zeto.com/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Malaysia Marine and Heavy Engineering](https://www.mhb.com.my/) | epc-contractor | sea | open | summary-only (unverified) |
 | [Seatrium](https://www.seatrium.com/) | epc-contractor | sea, global | open | summary-only (unverified) |
 | [AMPP Annual Conference + Expo](https://ace.ampp.org/) | conference | global | paywalled | catalog-only |
 | [AMPP Standards (former NACE and SSPC)](https://www.ampp.org/standards) | standards-body | global | paywalled | catalog-only |
+| [API RP 2A-WSD 22nd edition product/contents sheet (PDF)](https://www.api.org/~/media/files/publications/whats%20new/2a-wsd_e22%20pa.pdf) | standards-body | global | open | summary-only |
 | [API Standards and Publications](https://www.api.org/products-and-services/standards) | standards-body | global, na | paywalled | catalog-only |
 | [ASME boiler and pressure vessel certification](https://www.asme.org/certification-accreditation/boiler-and-pressure-vessel-certification) | standards-body | global | open | summary-only |
 | [ASME Codes and Standards (BPVC, B31)](https://www.asme.org/codes-standards) | standards-body | global, na | paywalled | catalog-only (unverified) |
@@ -649,6 +656,7 @@
 | [INGAA Interstate Natural Gas Association of America](https://ingaa.org/) | association | na | open | summary-only (unverified) |
 | [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
 | [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted |
+| [Offshore Magazine — Tarpon monotower develops further from 37 field applications (1999)](https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications) | oem-supplier | global | open | summary-only |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Sandmeyer Steel](https://www.sandmeyersteel.com) | oem-supplier | global | open | full-text-restricted |

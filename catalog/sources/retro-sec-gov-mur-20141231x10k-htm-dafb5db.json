@@ -1,0 +1,24 @@
+{
+  "id": "retro-sec-gov-mur-20141231x10k-htm-dafb5db",
+  "name": "Murphy Oil Corporation 2014 Form 10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "U.S. Securities and Exchange Commission / Murphy Oil Corporation",
+  "access": "open",
+  "licence": "public filing",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch exceeded the response size limit; full text read via https://r.jina.ai/https://www.sec.gov/Archives/edgar/data/717423/000071742315000016/mur-20141231x10k.htm."
+}

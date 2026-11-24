@@ -1,0 +1,147 @@
+{
+  "id": "sfjt-c-south-furious-jacket-c-sabah",
+  "name": "SFJT-C (South Furious Jacket C), Sabah",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Slim unmanned smart satellite platform, around 800 measurement points, 3 smart wells, ~35 km off Kota Belud.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "ESMER T3 commissioned at SFJT-C",
+      "date": "2002",
+      "source": {
+        "url": "https://www.petroleumsoftware.co.uk/news.html",
+        "source_id": "retro-petroleumsoftware-co-uk-news-html-6a02c2c"
+      }
+    },
+    {
+      "event": "ESMER T2 upgrade commissioned on SFJT-C",
+      "date": "2006",
+      "source": {
+        "url": "https://www.petroleumsoftware.co.uk/news.html",
+        "source_id": "retro-petroleumsoftware-co-uk-news-html-6a02c2c"
+      }
+    },
+    {
+      "event": "ESMER V6 selected for SFJT-E",
+      "date": "2006",
+      "source": {
+        "url": "https://www.petroleumsoftware.co.uk/news.html",
+        "source_id": "retro-petroleumsoftware-co-uk-news-html-6a02c2c"
+      }
+    },
+    {
+      "event": "esmerDual and esmerDigital launched",
+      "date": "2021",
+      "source": {
+        "url": "https://www.petroleumsoftware.co.uk/news.html",
+        "source_id": "retro-petroleumsoftware-co-uk-news-html-6a02c2c"
+      }
+    },
+    {
+      "event": "Petroleum Software exhibits esmerDual and esmerWGM at OGA Kuala Lumpur",
+      "date": "2025",
+      "source": {
+        "url": "https://www.petroleumsoftware.co.uk/news.html",
+        "source_id": "retro-petroleumsoftware-co-uk-news-html-6a02c2c"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "estimated capital expenditure saving of MPFM versus test separator solution",
+      "year": 2001,
+      "basis": "Offshore Magazine Nov 2001: capex saving estimated at US$800,000 compared to a test separator solution on an unmanned wellhead platform (location not stated); dollar year not stated",
+      "value": 800000,
+      "unit": "USD",
+      "source": {
+        "url": "https://www.offshore-mag.com/equipment-engineering/article/16758633/reservoir-monitoring-multiphase-meter-on-unmanned-wellhead-platform-replaces-test-separator",
+        "source_id": "retro-offshore-mag-com-reservoir-monitoring-multipha-41bad2c"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Petroleum Software Ltd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Sarawak Shell Berhad",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "National Engineering Laboratory (UK)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Institut Francais du Petrole",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Sabah Shell Petroleum",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "TUV NEL",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.petroleumsoftware.co.uk/documents/flomekosfjt04.pdf",
+      "source_id": "retro-r-jina-ai-flomekosfjt04-pdf-40dec88",
+      "note": "Slim unmanned smart satellite platform, around 800 measurement points, 3 smart w"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.petroleumsoftware.co.uk/documents/flomekosfjt04.pdf",
+      "source_id": "retro-r-jina-ai-flomekosfjt04-pdf-40dec88"
+    },
+    {
+      "url": "https://www.petroleumsoftware.co.uk/news.html",
+      "source_id": "retro-petroleumsoftware-co-uk-news-html-6a02c2c"
+    },
+    {
+      "url": "https://www.offshore-mag.com/equipment-engineering/article/16758633/reservoir-monitoring-multiphase-meter-on-unmanned-wellhead-platform-replaces-test-separator",
+      "source_id": "retro-offshore-mag-com-reservoir-monitoring-multipha-41bad2c"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.petroleumsoftware.co.uk/documents/flomekosfjt04.pdf",
+      "source_id": "retro-r-jina-ai-flomekosfjt04-pdf-40dec88",
+      "note": " bibliographic detail taken from the reference list of the FLOMEKO 2004 paper actually read; patent document itself not separately fetched"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.petroleumsoftware.co.uk/documents/flomekosfjt04.pdf",
+      "source_id": "retro-r-jina-ai-flomekosfjt04-pdf-40dec88",
+      "note": "Slim unmanned smart satellite platform, around 800 measurement points, 3 smart wells, ~35 km off Kota Belud."
+    },
+    {
+      "url": "https://www.petroleumsoftware.co.uk/news.html",
+      "source_id": "retro-petroleumsoftware-co-uk-news-html-6a02c2c",
+      "note": "Unmanned platform with minimum intervention and remote operation facilities; eight production wells phase 1."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named-asset MPFM availability percentages",
+      "why": "Only accuracy and continuous-operation duration are published for SFJT-C/E; no availability or failure-rate figures",
+      "next_action": "Request vendor/operator performance logs"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year technology evolution). Evidence-first 20-year retrospective of minimum-facility offshore wellhead platforms (WHPs) in Malaysian/SE Asian waters, built only from pages and PDFs actually read (several PDFs"
+}

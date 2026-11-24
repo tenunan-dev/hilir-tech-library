@@ -1,0 +1,25 @@
+{
+  "id": "retro-abarrelfull-co-uk-sk305-block-oil-and-gas-fiel-50540aa",
+  "name": "A Barrel Full — SK305 Block Oil And Gas Fields (wiki)",
+  "url": "https://www.abarrelfull.co.uk/SK305_Block_Oil_And_Gas_Fields",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "A Barrel Full (wiki)",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch; community wiki, last edited 20 Dec 2023; D30/Dana, 150 m, 2010 first oil, MOPU units."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "retro-vendor-kencana-hl-sdn-bhd",
+  "name": "Kencana HL Sdn Bhd",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Kencana HL Sdn Bhd named on a page read in the 20-year WHP retrospective.",
+  "technologies": [
+    "ups-whp-control-safety-and-communication-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Minimal vendor record from a page read in the 20-year retrospective."
+}

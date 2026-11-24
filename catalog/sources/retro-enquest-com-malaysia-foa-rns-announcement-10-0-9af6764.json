@@ -1,0 +1,26 @@
+{
+  "id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764",
+  "name": "EnQuest — Proposed $833m acquisition RNS announcement (10 Jun 2026, PDF)",
+  "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "EnQuest PLC",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch returned unsupported PDF content type; page read through reader proxy https://r.jina.ai/<url> as instructed. Figures transcribed from the proxied page text. $833m max consideration, $170m life-of-field capex, PSC water depths and reserves."
+}

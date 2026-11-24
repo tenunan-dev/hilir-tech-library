@@ -1,0 +1,22 @@
+{
+  "id": "retro-vendor-murphy-sabah-oil",
+  "name": "Murphy Sabah Oil",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Murphy Sabah Oil named on a page read in the 20-year WHP retrospective.",
+  "technologies": [
+    "ups-whp-control-safety-and-communication-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Minimal vendor record from a page read in the 20-year retrospective."
+}

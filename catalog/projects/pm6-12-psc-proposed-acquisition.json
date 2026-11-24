@@ -1,0 +1,126 @@
+{
+  "id": "pm6-12-psc-proposed-acquisition",
+  "name": "PM6-12 PSC proposed acquisition",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia (offshore Peninsular Malaysia)",
+  "location": "Malaysia (offshore Peninsular Malaysia)",
+  "status": "operating",
+  "description": "EnQuest proposed 30% non-operated PI; Duyong, Gansar, Resak plus Beranang pre-development.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Field discovered",
+      "date": "1970",
+      "source": {
+        "url": "https://award39.msosh.org.my/petronas-duyong-platform",
+        "source_id": "retro-award39-msosh-org-my-petronas-duyong-platform-c253522"
+      }
+    },
+    {
+      "event": "First commercial gas",
+      "date": "1984",
+      "source": {
+        "url": "https://award39.msosh.org.my/petronas-duyong-platform",
+        "source_id": "retro-award39-msosh-org-my-petronas-duyong-platform-c253522"
+      }
+    },
+    {
+      "event": "Revisits / redevelopment studies",
+      "date": "1995",
+      "source": {
+        "url": "https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf",
+        "source_id": "retro-awtinternational-com-awt-case-study-geoscience-4fd9a97"
+      }
+    },
+    {
+      "event": "EnQuest farm-out announcement",
+      "date": "2026",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "EnQuest (30% PI acquisition proposed 2026)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "AWT International (field-development study)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS CCS Ventures / TotalEnergies / Mitsui (CCS assessment)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+      "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764",
+      "note": "EnQuest proposed 30% non-operated PI; Duyong, Gansar, Resak plus Beranang pre-de"
+    },
+    {
+      "url": "https://award39.msosh.org.my/petronas-duyong-platform",
+      "source_id": "retro-award39-msosh-org-my-petronas-duyong-platform-c253522"
+    },
+    {
+      "url": "https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf",
+      "source_id": "retro-awtinternational-com-awt-case-study-geoscience-4fd9a97"
+    },
+    {
+      "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+      "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+    },
+    {
+      "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_-_Investor_Deck_vF.pdf",
+      "source_id": "retro-enquest-com-malaysia-foa-investor-deck-vf-pdf-3b7c2ab"
+    },
+    {
+      "url": "https://award39.msosh.org.my/petronas-duyong-platform",
+      "source_id": "retro-award39-msosh-org-my-petronas-duyong-platform-c253522",
+      "note": "Processing hub CPP with GCP, DDP-B, FTP, LQ; remote drilling platforms DDP-A and DDP-C; Sotong Collector Platform-A."
+    },
+    {
+      "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+      "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764",
+      "note": "EnQuest proposed 30% non-operated PI; Duyong, Gansar, Resak plus Beranang pre-development."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Conflicting first-gas month (April vs December 1984)",
+      "why": "AWT and MSOSH give different months; both retained with separate bases, neither preferred.",
+      "next_action": "Seek a PETRONAS primary source resolving the exact first-gas date."
+    },
+    {
+      "what": "Duyong decommission year",
+      "why": "PSC expiry 2033 is stated; no decommissioning year given.",
+      "next_action": "Look for a decommissioning plan or CCS life-extension study."
+    },
+    {
+      "what": "2025 CCS permit primary page",
+      "why": "OGJ and DayakDaily pages were returned by search but not WebFetch-read in this research; no CCS figures are recorded.",
+      "next_action": "WebFetch the PETRONAS/OGJ/DayakDaily pages before adding CCS dates or values."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "retro-marine-gov-my-96-2026t-e2-80-93-notice-of-temp-a941070",
+  "name": "Notice to Mariners 96/2026(T) - FSO replacement at West Patricia",
+  "url": "https://www.marine.gov.my/wp-content/uploads/2026/07/96-2026T-%E2%80%93-NOTICE-OF-TEMPORARY-REPLACEMENT-OF-FSO-CASPIAN-SEA-BY-NEPTUNE-MOON-AT-WEST-PATRICIA-FIELD-BLOCK-SK309-OFFSHORE-SARAWAK-WITHIN-THE-EXCLUSIVE-ECONOMIC-ZONE.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ROT",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Jabatan Laut Malaysia / Malaysia Marine Department Sarawak",
+  "access": "open",
+  "licence": "government notice",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch rejected PDF content type; read via reader proxy https://r.jina.ai/ with page text returned."
+}

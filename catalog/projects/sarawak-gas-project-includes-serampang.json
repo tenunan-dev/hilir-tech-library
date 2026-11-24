@@ -1,0 +1,81 @@
+{
+  "id": "sarawak-gas-project-includes-serampang",
+  "name": "Sarawak Gas Project (includes Serampang)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Phase 1 FEED by Ranhill-WorleyParsons completed 2007; Kencana fabricated substructures under a $16.5 million contract; first gas 2009.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Serampang gas discovery",
+      "date": "2005",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17224324/a-malaysian-perspective",
+        "source_id": "retro-ogj-com-a-malaysian-perspective-26c28c2"
+      }
+    },
+    {
+      "event": "Gas production start for SK309/SK311 Sarawak Gas Project",
+      "date": "2009",
+      "source": {
+        "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-production-sarawak-natural-gas/",
+        "source_id": "retro-ir-murphyoilcorp-com-2a4b3c4"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Kencana",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Murphy Sarawak Oil Co Ltd (operator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+      "source_id": "retro-abarrelfull-co-uk-sarawak-gas-project-bd57e85",
+      "note": "Phase 1 FEED by Ranhill-WorleyParsons completed 2007; Kencana fabricated substru"
+    },
+    {
+      "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+      "source_id": "retro-abarrelfull-co-uk-sarawak-gas-project-bd57e85"
+    },
+    {
+      "url": "https://www.abarrelfull.co.uk/Sarawak_Gas_Project",
+      "source_id": "retro-abarrelfull-co-uk-sarawak-gas-project-bd57e85",
+      "note": "Phase 1 FEED by Ranhill-WorleyParsons completed 2007; Kencana fabricated substructures under a $16.5 million contract; first gas 2009."
+    },
+    {
+      "url": "https://www.ogj.com/general-interest/companies/article/17224324/a-malaysian-perspective",
+      "source_id": "retro-ogj-com-a-malaysian-perspective-26c28c2"
+    },
+    {
+      "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-production-sarawak-natural-gas/",
+      "source_id": "retro-ir-murphyoilcorp-com-2a4b3c4"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Serampang water depth, wells, processing capacity, capex and operational incidents",
+      "why": "No Serampang-specific numeric figures were present in any page actually read.",
+      "next_action": "Locate Murphy Sarawak project descriptions or PETRONAS EIA documents for Serampang."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Murphy Malaysia assets). Pages actually read with WebFetch: A Barrel Full Sarawak Gas Project; Murphy 2005, 2012 and 2014 Forms 10-K (SEC; 2014 via r.jina.ai reader proxy because of response size); Murphy "
+}

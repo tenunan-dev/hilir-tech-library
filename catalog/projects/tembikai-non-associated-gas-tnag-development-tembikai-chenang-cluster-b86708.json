@@ -1,0 +1,128 @@
+{
+  "id": "tembikai-non-associated-gas-tnag-development-tembikai-chenang-cluster-b86708",
+  "name": "Tembikai Non-Associated Gas (TNAG) development, Tembikai-Chenang Cluster RSC",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "150 km offshore Terengganu in 70 m water; operator Vestigo Petroleum, owner Petronas Carigali; unmanned ZEEPod WHP tied to Berantai FPSO by 60 km 12 in pipeline; 45 mmscfd design per ZEE Engineering page surfaced in search (not read).",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "TNAG project sanction / development launch",
+      "date": "2018",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      }
+    },
+    {
+      "event": "Pipeline EPCI contract awarded; offshore installation works begin",
+      "date": "2019",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      }
+    },
+    {
+      "event": "Inaugural gas flow from TNAG",
+      "date": "2020",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Pipeline EPCI and pre-commissioning contract - Tembikai TNAG",
+      "year": 2019,
+      "basis": "'$59m contract' to AMRB with Cortez Subsea for EPCI and pre-commissioning of the TNAG pipeline system, awarded April 2019; page dated 13 December 2019; no explicit dollar base year stated.",
+      "value": 59,
+      "unit": "USD",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+        "source_id": "retro-offshore-technology-com-da28718"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Alam Maritim Resources Berhad",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Cortez Subsea",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Malaysia Marine and Heavy Engineering",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Fame Klaut",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "ZEE Engineering",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Vestigo Petroleum Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "MHB / MMHE West yard",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "ZEE Engineering (design patent)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+      "source_id": "retro-offshore-technology-com-da28718",
+      "note": "150 km offshore Terengganu in 70 m water; operator Vestigo Petroleum, owner Petr"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+      "source_id": "retro-offshore-technology-com-da28718"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/",
+      "source_id": "retro-offshore-technology-com-da28718",
+      "note": "150 km offshore Terengganu in 70 m water; operator Vestigo Petroleum, owner Petronas Carigali; unmanned ZEEPod WHP tied to Berantai FPSO by 60 km 12 in pipeline; 45 mmscfd design per ZEE Engineering p"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "TNAG wellhead platform fabrication/installation cost",
+      "why": "Source names MHB as WHP contractor (October 2018) and Fame Klaut for transportation/installation but prints no price for either scope.",
+      "next_action": "Look for MHB Bursa announcement Q4 2018 or Vestigo/Petronas contract notices."
+    },
+    {
+      "what": "Quantified minimum-facility vs conventional WHP cost saving for TNAG",
+      "why": "Page says only 'lower capital expenditure and negligible operating expenses'; no percentage, ratio or currency figure stated.",
+      "next_action": "Seek a ZEE Engineering technical paper or MHB presentation with a quantified comparison; do not infer a saving from the $59m pipeline contract."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year costs). Evidence-first cost retrospective, 2006-2026. Every figure below comes from a page actually read with WebFetch (one 2015 trade page was read only via the r.jina.ai proxy after a di"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "kikeh-deepwater-field-block-k-sabah",
+  "name": "Kikeh deepwater field (Block K, Sabah)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Malaysia's first deepwater development: truss spar dry-tree unit + FPSO, first oil August 2007, roughly five years after 2003 discovery.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Discovery",
+      "date": "2003",
+      "source": {
+        "url": "https://r.jina.ai/https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-oil-production-deepwater-kikeh-field",
+        "source_id": "retro-r-jina-ai-murphy-oil-announces-first-oil-produ-e42e847"
+      }
+    },
+    {
+      "event": "Appraisal",
+      "date": "2004",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development",
+        "source_id": "offshore-technology-com-projects-kikeh-floating-production-storage"
+      }
+    },
+    {
+      "event": "Spar contract award",
+      "date": "2005",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development",
+        "source_id": "offshore-technology-com-projects-kikeh-floating-production-storage"
+      }
+    },
+    {
+      "event": "First oil",
+      "date": "2007",
+      "source": {
+        "url": "https://r.jina.ai/https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-oil-production-deepwater-kikeh-field",
+        "source_id": "retro-r-jina-ai-murphy-oil-announces-first-oil-produ-e42e847"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Murphy Sabah Oil Company (operator, 80%)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Technip (EPIC spar; subsea pipelines/risers)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Malaysia Shipyard & Engineering / MMHE (fabrication)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "FMC (dry trees)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Aker Solutions",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "SBM + MISC JVs (FPSO owner/operator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Intec Engineering",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Subsea 7 (Rockwater 2)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development/",
+      "source_id": "sys-offshore-technology-com-dc5c67",
+      "note": "Malaysia's first deepwater development: truss spar dry-tree unit + FPSO, first o"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development/",
+      "source_id": "sys-offshore-technology-com-dc5c67"
+    },
+    {
+      "url": "https://r.jina.ai/https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-oil-production-deepwater-kikeh-field",
+      "source_id": "retro-r-jina-ai-murphy-oil-announces-first-oil-produ-e42e847"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development",
+      "source_id": "offshore-technology-com-projects-kikeh-floating-production-storage"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Capex dollar year",
+      "why": "Project capex '$1.4bn' has no base year in read source",
+      "next_action": "Find Murphy annual report with nominal-year capex"
+    },
+    {
+      "what": "Decommissioning plan/year",
+      "why": "Not in read sources",
+      "next_action": "Check PETRONAS decommissioning register"
+    },
+    {
+      "what": "Incident/reliability record",
+      "why": "None in read sources",
+      "next_action": "Search regulator or operator HSE reports"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

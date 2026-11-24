@@ -1,0 +1,83 @@
+{
+  "id": "west-natuna-hang-tuah-movable-offshore-production-platform-indonesia",
+  "name": "West Natuna – Hang Tuah movable offshore production platform (Indonesia)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Cross-border gas peer: 100 km, 18-inch pipeline from Conoco Indonesia's Hang Tuah movable offshore production platform (Block B, West Natuna) to PETRONAS Carigali's Duyong platform, first gas August 2002.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "GSA signed",
+      "date": "2001",
+      "source": {
+        "url": "https://offshoreman.net/oil-gas-jobs/petronas-receives-first-gas-from-west-natunaceremony-witnessed-by-dr-mahathir-and-president-megawati",
+        "source_id": "retro-offshoreman-net-petronas-receives-first-gas-fr-0286ffd"
+      }
+    },
+    {
+      "event": "First gas",
+      "date": "2002",
+      "source": {
+        "url": "https://offshoreman.net/oil-gas-jobs/petronas-receives-first-gas-from-west-natunaceremony-witnessed-by-dr-mahathir-and-president-megawati",
+        "source_id": "retro-offshoreman-net-petronas-receives-first-gas-fr-0286ffd"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Conoco Indonesia Inc. Ltd (Block B PSC contractor, Hang Tuah operator)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Pertamina",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://offshoreman.net/oil-gas-jobs/petronas-receives-first-gas-from-west-natunaceremony-witnessed-by-dr-mahathir-and-president-megawati",
+      "source_id": "retro-offshoreman-net-petronas-receives-first-gas-fr-0286ffd",
+      "note": "Cross-border gas peer: 100 km, 18-inch pipeline from Conoco Indonesia's Hang Tua"
+    },
+    {
+      "url": "https://offshoreman.net/oil-gas-jobs/petronas-receives-first-gas-from-west-natunaceremony-witnessed-by-dr-mahathir-and-president-megawati",
+      "source_id": "retro-offshoreman-net-petronas-receives-first-gas-fr-0286ffd"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Water depth",
+      "why": "Not stated in read source",
+      "next_action": "Find Block B field data"
+    },
+    {
+      "what": "Contract value",
+      "why": "No monetary figure",
+      "next_action": "Find GSA commercial terms"
+    },
+    {
+      "what": "Incidents",
+      "why": "None in read source",
+      "next_action": "Search HSE records"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

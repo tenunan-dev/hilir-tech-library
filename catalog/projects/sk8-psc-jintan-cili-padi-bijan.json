@@ -1,0 +1,193 @@
+{
+  "id": "sk8-psc-jintan-cili-padi-bijan",
+  "name": "SK8 PSC (Jintan, Cili Padi, Bijan)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia (offshore Sarawak)",
+  "location": "Malaysia (offshore Sarawak)",
+  "status": "operating",
+  "description": "100% PI proposed acquisition; 11.3 kboepd 2025; Jintan via M1 Hub, Cili Padi via F23 Hub.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Balingian first hydrocarbon",
+      "date": "1979",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_-_Investor_Deck_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-investor-deck-vf-pdf-3b7c2ab"
+      }
+    },
+    {
+      "event": "D35-D21-J4 first hydrocarbon",
+      "date": "1994",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_-_Investor_Deck_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-investor-deck-vf-pdf-3b7c2ab"
+      }
+    },
+    {
+      "event": "SK8 first hydrocarbon",
+      "date": "2004",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_-_Investor_Deck_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-investor-deck-vf-pdf-3b7c2ab"
+      }
+    },
+    {
+      "event": "Proposed farm-outs announced",
+      "date": "2026",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Maximum total consideration for four PSC packages",
+      "year": 2026,
+      "basis": "EnQuest RNS 10 Jun 2026: maximum total consideration $833 million; $554m upfront, $189m deferred, $90m contingent.",
+      "value": 833,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      }
+    },
+    {
+      "metric": "Upfront consideration",
+      "year": 2026,
+      "basis": "EnQuest RNS: $554 million payable on completion expected 31 Dec 2026.",
+      "value": 554,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      }
+    },
+    {
+      "metric": "Deferred consideration",
+      "year": 2026,
+      "basis": "EnQuest RNS: $189 million over three years in equal $63m instalments.",
+      "value": 189,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      }
+    },
+    {
+      "metric": "Contingent consideration cap",
+      "year": 2026,
+      "basis": "EnQuest RNS: up to $90m subject to FID on three Balingian projects.",
+      "value": 90,
+      "unit": "USD",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      }
+    },
+    {
+      "metric": "Life-of-field 2P capex for acquired PIs",
+      "year": 2026,
+      "basis": "EnQuest RNS: new Participating Interests 2P life of field capex c.$170 million post-completion.",
+      "value": 170,
+      "unit": "USD million (as printed)",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+      }
+    },
+    {
+      "metric": "Upfront consideration per boe 2P",
+      "year": 2026,
+      "basis": "EnQuest investor deck: upfront consideration of $4.0/boe 2P; $5.38/boe including deferred consideration.",
+      "value": 4.0,
+      "unit": "USD/boe (as printed)",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_-_Investor_Deck_vF.pdf",
+        "source_id": "retro-enquest-com-malaysia-foa-investor-deck-vf-pdf-3b7c2ab"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "EnQuest PLC (proposed acquirer)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "DIALOG Resources Sdn Bhd (20% PI in D35/D21/J4)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "ROC Oil",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "E&P Malaysia Ventures Sdn Bhd",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+      "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764",
+      "note": "100% PI proposed acquisition; 11.3 kboepd 2025; Jintan via M1 Hub, Cili Padi via"
+    },
+    {
+      "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+      "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764"
+    },
+    {
+      "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_-_Investor_Deck_vF.pdf",
+      "source_id": "retro-enquest-com-malaysia-foa-investor-deck-vf-pdf-3b7c2ab"
+    },
+    {
+      "url": "https://www.dialogasia.com/upstream/upstream-assets-ventures",
+      "source_id": "retro-dialogasia-com-upstream-assets-ventures-71c1245"
+    },
+    {
+      "url": "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf",
+      "source_id": "retro-newsfile-futunn-com-910-myx-3716449-en-us-1-pd-54967e1"
+    },
+    {
+      "url": "https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_RNS_Announcement_10.06.26_-_vF.pdf",
+      "source_id": "retro-enquest-com-malaysia-foa-rns-announcement-10-0-9af6764",
+      "note": "90% PI proposed acquisition; 33.7 kboepd 2025 net PI; crude exported via Bintulu Crude Oil Terminal, gas processed at Bayan MOPU."
+    },
+    {
+      "url": "https://www.dialogasia.com/upstream/upstream-assets-ventures",
+      "source_id": "retro-dialogasia-com-upstream-assets-ventures-71c1245",
+      "note": "50% PI proposed acquisition; DIALOG Resources 20% participating interest per DIALOG upstream page; operator PCSB."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Balingian/D35 field-specific WHP capex",
+      "why": "Portfolio capex $170m is aggregated across four PSCs, not per WHP.",
+      "next_action": "Seek field-level FDAP or PSC accounts if published."
+    },
+    {
+      "what": "Completion of EnQuest acquisition",
+      "why": "RNS states expected 31 Dec 2026, subject to conditions; not a completed transaction at the report date.",
+      "next_action": "Check for a completion announcement after 31 Dec 2026."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

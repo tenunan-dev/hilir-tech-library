@@ -1,0 +1,27 @@
+{
+  "id": "retro-r-jina-ai-260142-5500114",
+  "name": "DOE Malaysia EIA final report – Teja and Pepulut Field Development (via r.jina.ai)",
+  "url": "https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Department of Environment Malaysia / Sarawak Shell Berhad",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Read via r.jina.ai (direct PDF fetch failed with transport error); 27 pages; project schedule and process concept extracted."
+}

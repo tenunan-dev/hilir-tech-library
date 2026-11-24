@@ -1,0 +1,134 @@
+{
+  "id": "duyong-gas-field-block-pm6-12-offshore-terengganu",
+  "name": "Duyong gas field (Block PM6/12, offshore Terengganu)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Mature Malay Basin gas field, discovered July 1970 and first gas December 1984; now a candidate CO2 storage site under a 2024 PETRONAS-ADNOC-Storegga JSDA.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "Discovery",
+      "date": "1970",
+      "source": {
+        "url": "https://ocean-energyresources.com/2025/02/04/soil-investigation-work-for-carbon-captured-storage-project/",
+        "source_id": "retro-ocean-energyresources-com-3f2277b"
+      }
+    },
+    {
+      "event": "First gas",
+      "date": "1984",
+      "source": {
+        "url": "https://ocean-energyresources.com/2025/02/04/soil-investigation-work-for-carbon-captured-storage-project/",
+        "source_id": "retro-ocean-energyresources-com-3f2277b"
+      }
+    },
+    {
+      "event": "Ultra-HPHT well",
+      "date": "2013",
+      "source": {
+        "url": "https://r.jina.ai/https://gsm.org.my/wp-content/uploads/gsm_file_2/702001-101921-PDF.pdf",
+        "source_id": "retro-r-jina-ai-702001-101921-pdf-pdf-3a34fbd"
+      }
+    },
+    {
+      "event": "Shallow discovery",
+      "date": "2012",
+      "source": {
+        "url": "https://r.jina.ai/https://gsm.org.my/wp-content/uploads/gsm_file_2/702001-101921-PDF.pdf",
+        "source_id": "retro-r-jina-ai-702001-101921-pdf-pdf-3a34fbd"
+      }
+    },
+    {
+      "event": "CCS JSDA",
+      "date": "2024",
+      "source": {
+        "url": "https://ocean-energyresources.com/2025/02/04/soil-investigation-work-for-carbon-captured-storage-project/",
+        "source_id": "retro-ocean-energyresources-com-3f2277b"
+      }
+    },
+    {
+      "event": "CCS soil investigation",
+      "date": "2025",
+      "source": {
+        "url": "https://ocean-energyresources.com/2025/02/04/soil-investigation-work-for-carbon-captured-storage-project/",
+        "source_id": "retro-ocean-energyresources-com-3f2277b"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "PETRONAS",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "ADNOC",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Storegga",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "TotalEnergies and Mitsui (CCS partners per trade press)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Keyfields Helm (soil investigation vessel)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ocean-energyresources.com/2025/02/04/soil-investigation-work-for-carbon-captured-storage-project/",
+      "source_id": "retro-ocean-energyresources-com-3f2277b",
+      "note": "Mature Malay Basin gas field, discovered July 1970 and first gas December 1984; "
+    },
+    {
+      "url": "https://ocean-energyresources.com/2025/02/04/soil-investigation-work-for-carbon-captured-storage-project/",
+      "source_id": "retro-ocean-energyresources-com-3f2277b"
+    },
+    {
+      "url": "https://r.jina.ai/https://gsm.org.my/wp-content/uploads/gsm_file_2/702001-101921-PDF.pdf",
+      "source_id": "retro-r-jina-ai-702001-101921-pdf-pdf-3a34fbd"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Current producing status",
+      "why": "No current production rate in read sources",
+      "next_action": "Check PETRONAS production reports"
+    },
+    {
+      "what": "Decommissioning timetable",
+      "why": "Not stated",
+      "next_action": "Check decommissioning plan"
+    },
+    {
+      "what": "Incident history",
+      "why": "None in read sources",
+      "next_action": "Search regulator records"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (20-year project register). A 20-year (2006-2026) register of 20 named offshore assets, weighted to Malaysian/Sarawak/Sabah wellhead platforms and small fields, built only from pages actually read. Malaysian "
+}

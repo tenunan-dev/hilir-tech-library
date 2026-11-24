@@ -1,0 +1,24 @@
+{
+  "id": "retro-sec-gov-d10k-htm-d0f771c",
+  "name": "Murphy Oil Corporation 2005 Form 10-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/717423/000119312506054960/d10k.htm",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "U.S. Securities and Exchange Commission / Murphy Oil Corporation",
+  "access": "open",
+  "licence": "public filing",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Read directly with WebFetch."
+}

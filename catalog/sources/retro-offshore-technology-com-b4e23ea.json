@@ -1,0 +1,26 @@
+{
+  "id": "retro-offshore-technology-com-b4e23ea",
+  "name": "Offshore Technology – Layang Offshore Field",
+  "url": "https://www.offshore-technology.com/projects/layang-offshore-field/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Offshore Technology / GlobalData",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Read in full: water depth, concept, host FPSO, contractors."
+}

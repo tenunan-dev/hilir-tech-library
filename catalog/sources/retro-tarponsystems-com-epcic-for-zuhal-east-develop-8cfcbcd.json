@@ -1,0 +1,26 @@
+{
+  "id": "retro-tarponsystems-com-epcic-for-zuhal-east-develop-8cfcbcd",
+  "name": "DIALOG Tarpon — Zuhal East EPCIC project page",
+  "url": "https://www.tarponsystems.com/epcic-for-zuhal-east-development-project",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "DIALOG Tarpon Offshore Platforms Sdn Bhd",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch; 220 MT WHP, 200 MT caisson, 4 slots, 6-in x 5 km pipeline, 40 km off Labuan."
+}

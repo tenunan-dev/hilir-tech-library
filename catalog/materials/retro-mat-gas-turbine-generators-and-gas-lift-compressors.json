@@ -1,0 +1,25 @@
+{
+  "id": "retro-mat-gas-turbine-generators-and-gas-lift-compressors",
+  "name": "Gas turbine generators and gas lift compressors",
+  "material_category": "rotating-equipment",
+  "description": "Gas turbine generators and gas lift compressors named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "Procurement",
+      "unit": "scope",
+      "basis": "The Star 2026: major packages such as gas turbine generators and gas lift compressors among locally sourced materials/engineering items.",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+        "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+      },
+      "year": 2026
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job",
+      "source_id": "retro-thestar-com-my-brooke-holdings-wins-rm1bil-oil-a0d7b3d"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}

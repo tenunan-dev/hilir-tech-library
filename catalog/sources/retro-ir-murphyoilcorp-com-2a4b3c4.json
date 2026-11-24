@@ -1,0 +1,25 @@
+{
+  "id": "retro-ir-murphyoilcorp-com-2a4b3c4",
+  "name": "Murphy Oil Announces First Production from Sarawak Natural Gas Project (18 Sep 2009)",
+  "url": "https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-production-sarawak-natural-gas/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Murphy Oil Corporation / Business Wire",
+  "access": "open",
+  "licence": "publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Direct WebFetch returned HTTP 403; page read successfully via reader proxy https://r.jina.ai/https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-production-sarawak-natural-gas/."
+}

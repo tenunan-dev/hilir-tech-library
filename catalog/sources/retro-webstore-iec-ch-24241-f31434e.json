@@ -1,0 +1,24 @@
+{
+  "id": "retro-webstore-iec-ch-24241-f31434e",
+  "name": "IEC webstore - IEC 61511-1:2016",
+  "url": "https://webstore.iec.ch/en/publication/24241",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "INS",
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "IEC",
+  "access": "open",
+  "licence": "publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 in the 20-year WHP retrospective. Directly read; title, scope and publication date verified."
+}

@@ -1,0 +1,128 @@
+{
+  "id": "bokor-phase-3-redevelopment",
+  "name": "Bokor Phase 3 redevelopment",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia (Baram Delta, offshore Sarawak)",
+  "location": "Malaysia (Baram Delta, offshore Sarawak)",
+  "status": "operating",
+  "description": "Three new WHPs and new CPP under Baram Delta EOR; operator PCSB with Sarawak Shell.",
+  "technologies": [
+    "ups-whp-platform-structures-and-marine-systems"
+  ],
+  "milestones": [
+    {
+      "event": "First oil",
+      "date": "1982",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+        "source_id": "retro-offshore-technology-com-5f2af6b"
+      }
+    },
+    {
+      "event": "Artificial lift review",
+      "date": "2007",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+        "source_id": "retro-offshore-technology-com-5f2af6b"
+      }
+    },
+    {
+      "event": "Phase 3 construction",
+      "date": "2018",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+        "source_id": "retro-offshore-technology-com-5f2af6b"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Central processing platform EPCIC contract",
+      "year": 2017,
+      "basis": "Offshore Technology: MMHE received $226.7m EPCIC contract for CPP in April 2017; dollar year not stated.",
+      "value": 226.7,
+      "unit": "USD",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+        "source_id": "retro-offshore-technology-com-5f2af6b"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "PETRONAS Carigali",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Sarawak Shell Berhad",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Brooke Dockyard and Engineering Works (WHP FEED/EPCIC)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "BPMT (PETRONAS-Schlumberger gain-share alliance)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Malaysia Marine and Heavy Engineering",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Boskalis (float-over)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Labuan Shipyard & Engineering",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    },
+    {
+      "name": "Paladon Systems (valve actuators)",
+      "role": "equipment supplier / EPC (as stated on cited page)",
+      "note": "Named on a page read in the 20-year WHP retrospective."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+      "source_id": "retro-offshore-technology-com-5f2af6b",
+      "note": "Three new WHPs and new CPP under Baram Delta EOR; operator PCSB with Sarawak She"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+      "source_id": "retro-offshore-technology-com-5f2af6b"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/",
+      "source_id": "retro-offshore-technology-com-5f2af6b",
+      "note": "Three new WHPs and new CPP under Baram Delta EOR; operator PCSB with Sarawak Shell."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Bokor three-WHP EPCIC value",
+      "why": "The read page gives the CPP value but not the value of Brooke Dockyard's three-WHP contract.",
+      "next_action": "Fetch a Brooke/PETRONAS award announcement."
+    },
+    {
+      "what": "Dollar year of $226.7m",
+      "why": "The page dates the award to April 2017 but does not state a dollar year.",
+      "next_action": "Use the stated nominal amount without inflation adjustment unless a 2017 price basis is found."
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "From the 20-year WHP retrospective (Dialog / Sarawak peers). Evidence-first 2006-2026 retrospective built only from 27 web pages/PDFs actually read with WebFetch; PDFs were decoded through the r.jina.ai reader proxy and that is recorded in e"
+}

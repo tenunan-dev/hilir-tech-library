@@ -1,0 +1,25 @@
+{
+  "id": "retro-mat-solar-wind-hybrid-power-system",
+  "name": "Solar/wind hybrid power system",
+  "material_category": "power",
+  "description": "Solar/wind hybrid power system named for offshore WHP service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "Continuous power",
+      "unit": "kW",
+      "basis": "PETRONAS 2023: unmanned platform powered by solar and wind hybrid, less than 5 kW continuous power generation.",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/first-gas-production-sk318-timi-field",
+        "source_id": "retro-petronas-com-first-gas-production-sk318-timi-f-58c0867"
+      },
+      "year": 2023
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/media/media-releases/first-gas-production-sk318-timi-field",
+      "source_id": "retro-petronas-com-first-gas-production-sk318-timi-f-58c0867"
+    }
+  ],
+  "last_reviewed": "2026-11-24"
+}
