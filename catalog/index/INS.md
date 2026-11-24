@@ -1,6 +1,6 @@
 # INS: Instrumentation and control
 
-598 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering, field-instrumentation, fire-gas-detection, machinery-control, vibration-monitoring, control-valves.
+602 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering, field-instrumentation, fire-gas-detection, machinery-control, vibration-monitoring, control-valves.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -123,6 +123,7 @@
 | [NAO Inc.](https://naoinc.com/drums) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Nexans](https://hidrocaven.com/img/manuales/aplicacion-submarina.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [NOAA (Offshore Single Point Mooring Systems, NOAA repository)](https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf) | agency-data | global, apac, sea, na | open | summary-only (unverified) |
+| [NOPSEMA Investigation - Prelude FLNG - Report (IVT11026, UPS Fire and Shutdown, redacted)](https://www.nopsema.gov.au/sites/default/files/documents/Report%20-%20IVT11026%20Shell%20Prelude%20UPS%20Fire%20and%20Shutdown%20-%20Redacted.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Ocean Systems Engineering (training material mirrored on PDFCOFFEE)](https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [OCIMF](https://www.ocimf.org/document-libary/249-goto-earf-rome-r13/file) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Oedigital.Com — Jerun CPP topside, SK408W, Sarawak](https://www.oedigital.com/news/512208-mmhe-delivers-topside-for-jerun-gas-field-platform-offshore-malaysia) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -467,6 +468,7 @@
 | [Accu-Trim oxygen trim system](https://cleaverbrooks.com/product/accu-trim) | oem-supplier | global, na | open | summary-only |
 | [Active Power / Piller](https://www.activepower.com/technology/flywheel-technology) | oem-supplier | global, na | open | summary-only |
 | [AERZEN — AERZEN GM-HP gas booster volume flow](https://www.aerzen.com/product/gas-booster-for-high-pressure-applications) | oem-supplier | global, na | open | summary-only |
+| [API RP 2T (3rd ed., July 2010, reaffirmed Dec 2023)](https://api.stdlink.com/preview/2024/09/11/3757125860b8423b9cecf3e29bab6dc2.pdf) | standards-body | global | open | summary-only |
 | [API Standards and Publications](https://www.api.org/products-and-services/standards) | standards-body | global, na | paywalled | catalog-only |
 | [Atlas Copco](https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series) | oem-supplier | global, na | open | summary-only |
 | [AU2015261530B2 Subsea universal Xmas tree hang-off adapter](https://patents.google.com/patent/AU2015261530B2/en) | patents | global | open | summary-only |
@@ -486,6 +488,8 @@
 | [Cummins — Alternator rating range](https://www.cummins.com/generators/alternators) | oem-supplier | global, na | open | summary-only |
 | [Cummins — Enclosure acoustic design measures](https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf) | oem-supplier | global, na | open | summary-only |
 | [Deep Sea Electronics — DC control supply](https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii) | oem-supplier | global, na | open | summary-only |
+| [DNV Floating Production classification page](https://www.dnv.com/maritime/offshore-classification/floating-production/) | oem-supplier | global | open | summary-only |
+| [DNV offshore technical guidance documents for download](https://www.dnv.com/maritime/offshore-classification/technical-guidance-otg/) | oem-supplier | global | open | summary-only |
 | [DOE FEMP — Purchasing energy-efficient boilers](https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers) | agency-data | global, na | open | summary-only |
 | [Eaton](https://www.eaton.com/us/en-us/products/low-voltage-power-distribution-controls-systems/automatic-transfer-switches/automatic-transfer-switch-fundamentals.html) | oem-supplier | global, na | open | summary-only |
 | [Eaton](https://www.eaton.com/us/en-us/catalog/backup-power-ups-surge-it-power-distribution/eaton-pdi-static-transfer-switch.html) | oem-supplier | global, na | open | summary-only |

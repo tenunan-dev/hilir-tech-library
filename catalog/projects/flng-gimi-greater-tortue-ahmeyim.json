@@ -1,0 +1,225 @@
+{
+  "id": "flng-gimi-greater-tortue-ahmeyim",
+  "name": "FLNG Gimi / Greater Tortue Ahmeyim",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Mauritania and Senegal",
+  "location": "Mauritania and Senegal",
+  "status": "operating",
+  "description": "Converted FLNG; Golar reports asset under development of USD 1.34bn and USD 630m debt drawn at 30 Sep 2023.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "EPE presented FLNG investment costs with named-unit CAPEX benchmark table",
+      "date": "2019",
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    },
+    {
+      "event": "S&P Global stated FLNG and FSRU EPC cost trends",
+      "date": "2024",
+      "source": {
+        "url": "https://www.upstreamonline.com/sponsored-content/sandpglobal/aglimpseintotheepcmarketforflngsandfsrus",
+        "source_id": "mob-upstreamonline-com-aglimpseintotheepcmarketfor-535364d"
+      }
+    },
+    {
+      "event": "FLNG Gimi sailed from Seatrium Singapore for the Greater Tortue Ahmeyim hub",
+      "date": "2023",
+      "source": {
+        "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q3-2023.pdf",
+        "source_id": "mob-golarlng-com-golar-lng-q3-2023-pdf-594035b"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "PFLNG Satu liquefaction/vessel CAPEX",
+      "year": 2017,
+      "unit": "USD billion",
+      "basis": "EPE 2019 presentation table; capacity 1.2 mtpa; in operation 2017; dollar year is the operation-start year stated by the source.",
+      "value": 1.2,
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    },
+    {
+      "metric": "PFLNG Satu total CAPEX",
+      "year": 2017,
+      "unit": "USD billion",
+      "basis": "EPE 2019 table; total project CAPEX including non-liquefaction scope.",
+      "value": 1.5,
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    },
+    {
+      "metric": "Hilli Episeyo liquefaction/vessel CAPEX",
+      "year": 2018,
+      "unit": "USD billion",
+      "basis": "EPE table; 2.4 mtpa; in operation 2018.",
+      "value": 1.4,
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    },
+    {
+      "metric": "Hilli Episeyo total CAPEX",
+      "year": 2018,
+      "unit": "USD billion",
+      "basis": "EPE table; converted FLNG, Cameroon.",
+      "value": 1.9,
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    },
+    {
+      "metric": "Prelude FLNG liquefaction/vessel CAPEX",
+      "year": 2019,
+      "unit": "USD billion",
+      "basis": "EPE table; 3.6 mtpa; in operation 2019.",
+      "value": 7.2,
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    },
+    {
+      "metric": "Prelude FLNG total CAPEX",
+      "year": 2019,
+      "unit": "USD billion",
+      "basis": "EPE table; 3.6 mtpa; total project CAPEX. Westwood separately notes construction delays and cost overruns on Prelude.",
+      "value": 12,
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    },
+    {
+      "metric": "Tango FLNG liquefaction/vessel CAPEX",
+      "year": 2019,
+      "unit": "USD billion",
+      "basis": "EPE table; 0.5 mtpa Argentina; in operation 2019.",
+      "value": 0.3,
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    },
+    {
+      "metric": "PFLNG Dua total CAPEX",
+      "year": 2020,
+      "unit": "USD billion",
+      "basis": "EPE table; 1.5 mtpa; scheduled 2020.",
+      "value": 1.7,
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    },
+    {
+      "metric": "Fortuna FLNG total CAPEX",
+      "year": 2022,
+      "unit": "USD billion",
+      "basis": "EPE table; 2.2 mtpa Equatorial Guinea; scheduled 2022.",
+      "value": 2.0,
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    },
+    {
+      "metric": "Coral South FLNG liquefaction/vessel CAPEX",
+      "year": 2022,
+      "unit": "USD billion",
+      "basis": "EPE table; 3.4 mtpa Mozambique; scheduled 2022. EPE case study separately states Coral South liquefaction capex of USD 1.8 billion for a different scope.",
+      "value": 4.3,
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    },
+    {
+      "metric": "Coral South FLNG total CAPEX",
+      "year": 2022,
+      "unit": "USD billion",
+      "basis": "EPE table; 3.4 mtpa; total CAPEX. Conflicting with the 1.8 billion figure quoted in the case study; both kept.",
+      "value": 7.7,
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    },
+    {
+      "metric": "Integrated FLNG unit cost, Prelude",
+      "year": 2019,
+      "unit": "USD per tonne per annum",
+      "basis": "EPE chart of unit CAPEX versus capacity; value read from chart labels preserved as printed.",
+      "value": 3333,
+      "source": {
+        "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+        "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q3-2023.pdf",
+      "source_id": "mob-golarlng-com-golar-lng-q3-2023-pdf-594035b",
+      "note": "Converted FLNG; Golar reports asset under development of USD 1.34bn and USD 630m"
+    },
+    {
+      "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+      "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d"
+    },
+    {
+      "url": "https://www.upstreamonline.com/sponsored-content/sandpglobal/aglimpseintotheepcmarketforflngsandfsrus",
+      "source_id": "mob-upstreamonline-com-aglimpseintotheepcmarketfor-535364d"
+    },
+    {
+      "url": "https://energy-analytics-institute.org/2023/04/04/flng-market-emerges-with-35bn-epc-contract-award-value-forecast-2023-27",
+      "source_id": "mob-energy-analytics-institute-org-flng-market-eme-702e232"
+    },
+    {
+      "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q3-2023.pdf",
+      "source_id": "mob-golarlng-com-golar-lng-q3-2023-pdf-594035b"
+    },
+    {
+      "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+      "source_id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d",
+      "note": "3.6 mtpa; EPE records 7.2bn vessel/liquefaction CAPEX and 12bn total CAPEX; Westwood notes well-documented construction delays, cost overruns and operational challenges."
+    },
+    {
+      "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q3-2023.pdf",
+      "source_id": "mob-golarlng-com-golar-lng-q3-2023-pdf-594035b",
+      "note": "Converted FLNG; Golar reports asset under development of USD 1.34bn and USD 630m debt drawn at 30 Sep 2023."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Unit cost of Eni Tango FLNG acquired from Exmar in 2022",
+      "why": "Westwood notes the purchase but gives no price on the read page.",
+      "next_action": "Check Exmar or Eni announcement for the acquisition price."
+    },
+    {
+      "what": "Per-unit newbuild FLNG EPC price for Wison 3.5 mtpa Congo FLNG",
+      "why": "S&P article confirms the 2022 EPC award but reports no value.",
+      "next_action": "Find Wison or Eni contract announcement with value."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit costs). Evidence-first retrospective of dated mobile production unit costs, 2006-2026. Strongest primary evidence: Seatrium's S$11bn P-84/P-85 contract (reported by pre"
+}

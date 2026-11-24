@@ -1,0 +1,25 @@
+{
+  "id": "mob-sec-gov-exh-991-htm-95ffa0d",
+  "name": "SEC EX-99.1 Golar Q1 2022 press release (Arctic FSRU conversion and sale)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1207179/000117184322003959/exh_991.htm",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Golar LNG Limited (SEC filing exhibit)",
+  "access": "open",
+  "licence": "Public regulatory filing",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read via r.jina.ai proxy; EUR 269m / USD 288m sale price and approximately USD 160m estimated conversion cost verified."
+}

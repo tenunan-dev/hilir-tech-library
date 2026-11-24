@@ -1,0 +1,26 @@
+{
+  "id": "mob-api-stdlink-com-3757125860b8423b9cecf3e29bab6d-61216d6",
+  "name": "API RP 2T (3rd ed., July 2010, reaffirmed Dec 2023)",
+  "url": "https://api.stdlink.com/preview/2024/09/11/3757125860b8423b9cecf3e29bab6dc2.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Standards body",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Planning, Designing, and Constructing Tension Leg Platforms (referenced for floating systems context)"
+}

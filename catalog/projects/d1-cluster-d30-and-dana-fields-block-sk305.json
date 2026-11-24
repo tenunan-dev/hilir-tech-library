@@ -1,0 +1,75 @@
+{
+  "id": "d1-cluster-d30-and-dana-fields-block-sk305",
+  "name": "D1 cluster D30 and Dana fields, Block SK305",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Phase one of D1 cluster development; MOPU Satu and MOPU Dua bridge-linked to wellhead platforms.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "O&M commenced",
+      "date": "2010",
+      "source": {
+        "url": "https://www.fpsoventures.com/experiences/mopu-satu-and-dua",
+        "source_id": "mob-fpsoventures-com-mopu-satu-and-dua-05bfada"
+      }
+    },
+    {
+      "event": "MOPU Satu demobilised",
+      "date": "2016",
+      "source": {
+        "url": "https://www.fpsoventures.com/experiences/mopu-satu-and-dua",
+        "source_id": "mob-fpsoventures-com-mopu-satu-and-dua-05bfada"
+      }
+    },
+    {
+      "event": "MOPU Dua demobilised",
+      "date": "2016",
+      "source": {
+        "url": "https://www.fpsoventures.com/experiences/mopu-satu-and-dua",
+        "source_id": "mob-fpsoventures-com-mopu-satu-and-dua-05bfada"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.fpsoventures.com/experiences/mopu-satu-and-dua",
+      "source_id": "mob-fpsoventures-com-mopu-satu-and-dua-05bfada",
+      "note": "Phase one of D1 cluster development; MOPU Satu and MOPU Dua bridge-linked to wel"
+    },
+    {
+      "url": "https://www.fpsoventures.com/experiences/mopu-satu-and-dua",
+      "source_id": "mob-fpsoventures-com-mopu-satu-and-dua-05bfada"
+    },
+    {
+      "url": "https://www.fpsoventures.com/experiences/mopu-satu-and-dua",
+      "source_id": "mob-fpsoventures-com-mopu-satu-and-dua-05bfada",
+      "note": "Phase one of D1 cluster development; MOPU Satu and MOPU Dua bridge-linked to wellhead platforms."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Individual unit specifications",
+      "why": "The source combines both MOPUs; no separate processing capacity, hull size or conversion yard per unit.",
+      "next_action": "Locate D1 cluster project documentation for each MOPU."
+    },
+    {
+      "what": "Contract value and charter terms",
+      "why": "Not stated on the page read.",
+      "next_action": "Check PETRONAS Carigali contract awards."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

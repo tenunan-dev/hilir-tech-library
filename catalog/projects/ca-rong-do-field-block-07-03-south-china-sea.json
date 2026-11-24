@@ -1,0 +1,93 @@
+{
+  "id": "ca-rong-do-field-block-07-03-south-china-sea",
+  "name": "Ca Rong Do field, Block 07/03, South China Sea",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Vietnam",
+  "location": "Vietnam",
+  "status": "operating",
+  "description": "Repsol-operated gas field halted amid South China Sea dispute; associated TTR order also cancelled.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Contract awarded",
+      "date": "2017",
+      "source": {
+        "url": "http://www.thestar.com.my/business/business-news/2017/04/26/yinson-nets-fpso-charter-contract-valued-up-to-rm4pt35bil"
+      }
+    },
+    {
+      "event": "Force majeure notification",
+      "date": "2018",
+      "source": {
+        "url": "https://jpt.spe.org/yinson-loses-1-billion-fpso-charter-vietnam-project",
+        "source_id": "mob-jpt-spe-org-yinson-loses-1-billion-fpso-charte-a5c48b3"
+      }
+    },
+    {
+      "event": "Contract cancelled",
+      "date": "2019",
+      "source": {
+        "url": "https://jpt.spe.org/yinson-loses-1-billion-fpso-charter-vietnam-project",
+        "source_id": "mob-jpt-spe-org-yinson-loses-1-billion-fpso-charte-a5c48b3"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Estimated total 15-year charter value",
+      "year": 2017,
+      "unit": "USD",
+      "basis": "Aggregate value including five one-year options; stated at April 2017 award as up to US$1bn (RM4.35bn)",
+      "value": 1000000000,
+      "source": {
+        "url": "http://www.thestar.com.my/business/business-news/2017/04/26/yinson-nets-fpso-charter-contract-valued-up-to-rm4pt35bil"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/yinson-loses-1-billion-fpso-charter-vietnam-project",
+      "source_id": "mob-jpt-spe-org-yinson-loses-1-billion-fpso-charte-a5c48b3",
+      "note": "Repsol-operated gas field halted amid South China Sea dispute; associated TTR or"
+    },
+    {
+      "url": "http://www.thestar.com.my/business/business-news/2017/04/26/yinson-nets-fpso-charter-contract-valued-up-to-rm4pt35bil"
+    },
+    {
+      "url": "https://jpt.spe.org/yinson-loses-1-billion-fpso-charter-vietnam-project",
+      "source_id": "mob-jpt-spe-org-yinson-loses-1-billion-fpso-charte-a5c48b3"
+    },
+    {
+      "url": "https://jpt.spe.org/yinson-loses-1-billion-fpso-charter-vietnam-project",
+      "source_id": "mob-jpt-spe-org-yinson-loses-1-billion-fpso-charte-a5c48b3",
+      "note": "Repsol-operated gas field halted amid South China Sea dispute; associated TTR order also cancelled."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "FPSO identity",
+      "why": "No vessel name was given in the two pages read.",
+      "next_action": "Find Yinson filing naming the conversion candidate (often reported as a converted VLCC)."
+    },
+    {
+      "what": "Capacity and water depth",
+      "why": "No processing/storage capacity or water depth stated.",
+      "next_action": "Locate the original tender or Yinson project brochure."
+    },
+    {
+      "what": "Dispute outcome",
+      "why": "No final settlement or claim outcome was read.",
+      "next_action": "Follow up Bursa Malaysia announcements."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mob-api-org-17j-20e4-20pa-pdf-d3c6d8a",
+  "name": "API 17J 4th edition 'what's new' PDF",
+  "url": "https://www.api.org/~/media/files/publications/whats%20new/17j%20e4%20pa.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "MAT",
+    "PRC",
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "American Petroleum Institute",
+  "access": "open",
+  "licence": "© API; preview extract only",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 3-page PDF read via https://r.jina.ai/ text mirror. Used for edition, date and scope only."
+}

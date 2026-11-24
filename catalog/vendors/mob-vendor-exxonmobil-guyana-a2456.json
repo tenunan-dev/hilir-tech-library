@@ -1,0 +1,22 @@
+{
+  "id": "mob-vendor-exxonmobil-guyana-a2456",
+  "name": "ExxonMobil Guyana",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "ExxonMobil Guyana named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

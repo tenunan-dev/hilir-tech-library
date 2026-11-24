@@ -1,0 +1,236 @@
+{
+  "id": "rosebank-petrojarl-knarr-fpso",
+  "name": "Rosebank / Petrojarl Knarr FPSO",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United Kingdom",
+  "location": "United Kingdom",
+  "status": "operating",
+  "description": "Equinor field 130 km west of Shetland, estimated 300 million bbl recoverable; redeploy existing Altera-owned FPSO for 25 years without drydocking.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "NSTA re-baselined UKCS decommissioning cost estimate",
+      "date": "2023",
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/q0od4gta/decommissioning-cost-report.pdf",
+        "source_id": "mob-nstauthority-co-uk-decommissioning-cost-report-51a1efe"
+      }
+    },
+    {
+      "event": "NSTA 2024 update raised decade forecast",
+      "date": "2024",
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/ppvlelgd/ukcs-decom-cost-and-performance-update-01.pdf",
+        "source_id": "mob-nstauthority-co-uk-ukcs-decom-cost-and-perform-29cd408"
+      }
+    },
+    {
+      "event": "SBM impaired Deep Panuke MOPU after decommissioning reassessment",
+      "date": "2020",
+      "source": {
+        "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+        "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d"
+      }
+    },
+    {
+      "event": "Aker Solutions won Rosebank FPSO upgrade and life-extension EPC",
+      "date": "2023",
+      "source": {
+        "url": "https://www.akersolutions.com/news/news-archive/2023/aker-solutions-wins-rosebank-fpso-contract-from-altera-infrastructure/",
+        "source_id": "mob-akersolutions-com-20ead70"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "UKCS 2022 re-baselined decommissioning cost estimate",
+      "year": 2021,
+      "unit": "GBP billion",
+      "basis": "NSTA 2023 report: November 2022 re-baseline of GBP 37bn in 2021 prices, sourced from 2021 UKCS Stewardship Survey, for 2023 onward; full portfolio best estimate, not mobile-only.",
+      "value": 37,
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/q0od4gta/decommissioning-cost-report.pdf",
+        "source_id": "mob-nstauthority-co-uk-decommissioning-cost-report-51a1efe"
+      }
+    },
+    {
+      "metric": "UKCS 2023 decommissioning cost estimate",
+      "year": 2022,
+      "unit": "GBP billion",
+      "basis": "NSTA 2023 report: total estimated cost GBP 40bn in 2022 prices for 2023 onward, GBP 3bn above the 2022 re-baseline; full portfolio, not mobile-only.",
+      "value": 40,
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/q0od4gta/decommissioning-cost-report.pdf",
+        "source_id": "mob-nstauthority-co-uk-decommissioning-cost-report-51a1efe"
+      }
+    },
+    {
+      "metric": "UKCS decommissioning cost estimate, 2023 onward, 2021 constant prices",
+      "year": 2021,
+      "unit": "GBP billion",
+      "basis": "NSTA 2024 update: forecast cost of decommissioning from start of 2023 onwards is GBP 40bn in 2021 prices; full portfolio best estimate including adjustments, not mobile-only. Same nominal figure as the 2023 report's GBP 40bn but on a different price basis; kept side by side.",
+      "value": 40,
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/ppvlelgd/ukcs-decom-cost-and-performance-update-01.pdf",
+        "source_id": "mob-nstauthority-co-uk-ukcs-decom-cost-and-perform-29cd408"
+      }
+    },
+    {
+      "metric": "UKCS decommissioning cost estimate, 2024 onward, 2023 prices",
+      "year": 2023,
+      "unit": "GBP billion",
+      "basis": "NSTA 2024 Appendix 1: 2024 estimate GBP 43bn in 2023 prices; 2022 baseline GBP 37bn in 2021 prices; 2023 estimate GBP 40bn in 2022 prices.",
+      "value": 43,
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/ppvlelgd/ukcs-decom-cost-and-performance-update-01.pdf",
+        "source_id": "mob-nstauthority-co-uk-ukcs-decom-cost-and-perform-29cd408"
+      }
+    },
+    {
+      "metric": "UKCS 2023-2032 decade decommissioning forecast",
+      "year": 2023,
+      "unit": "GBP billion",
+      "basis": "NSTA 2024: decade spend forecast GBP 24bn in 2023 prices, up GBP 3bn from GBP 21bn in 2022 prices; peak GBP 2.5bn per annum.",
+      "value": 24,
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/ppvlelgd/ukcs-decom-cost-and-performance-update-01.pdf",
+        "source_id": "mob-nstauthority-co-uk-ukcs-decom-cost-and-perform-29cd408"
+      }
+    },
+    {
+      "metric": "UKCS forecast post-cessation-of-production running cost",
+      "year": 2023,
+      "unit": "GBP billion",
+      "basis": "NSTA 2024 Appendix 5 performance metric 3, GBP 3.7bn for 2024+ in 2023 prices versus GBP 3.4bn for 2023+ in 2022 prices.",
+      "value": 3.7,
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/ppvlelgd/ukcs-decom-cost-and-performance-update-01.pdf",
+        "source_id": "mob-nstauthority-co-uk-ukcs-decom-cost-and-perform-29cd408"
+      }
+    },
+    {
+      "metric": "Deep Panuke MOPU depreciation at end of lease",
+      "year": 2020,
+      "unit": "USD million",
+      "basis": "SBM 2020 annual report: full depreciation of net book value at end of lease in July 2020, including USD 78m that would have been recognised in 2021 under the initial schedule.",
+      "value": 123,
+      "source": {
+        "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+        "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d"
+      }
+    },
+    {
+      "metric": "Deep Panuke MOPU impairment from decommissioning cost reassessment",
+      "year": 2020,
+      "unit": "USD million",
+      "basis": "SBM 2020 annual report: adverse cash flows from reassessed demobilisation, towing and green recycling costs; +/- USD 1m per +/-1% discount rate and per +/-USD 1m towing/recycling cost.",
+      "value": 8,
+      "source": {
+        "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+        "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d"
+      }
+    },
+    {
+      "metric": "Thunder Hawk semi-submersible impairment",
+      "year": 2020,
+      "unit": "USD million",
+      "basis": "SBM 2020 annual report: post-tax discount rate raised to 11.6% from 6.1% in 2019, more conservative production profile ending 2025; +/-USD 1m per +/-1% discount rate.",
+      "value": 10,
+      "source": {
+        "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+        "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d"
+      }
+    },
+    {
+      "metric": "Rosebank Petrojarl Knarr upgrade EPC, Aker Solutions order intake",
+      "year": 2023,
+      "unit": "NOK billion",
+      "basis": "Aker press release: expects to book around NOK 2.5bn, reflecting Aker's part of the JV scope; footnote defines substantial contract as NOK 2.5-4.0bn; Norwegian kroner preserved as printed.",
+      "value": 2.5,
+      "low": 2.5,
+      "high": 4.0,
+      "source": {
+        "url": "https://www.akersolutions.com/news/news-archive/2023/aker-solutions-wins-rosebank-fpso-contract-from-altera-infrastructure/",
+        "source_id": "mob-akersolutions-com-20ead70"
+      }
+    },
+    {
+      "metric": "Indicative FPSO decommissioning cost range",
+      "year": 2025,
+      "unit": "USD million",
+      "basis": "PlantFCE 2025 blog: typical range depending on location, water depth and regulatory requirements; consultancy estimate, dollar year not stated by page.",
+      "low": 100,
+      "high": 300,
+      "source": {
+        "url": "https://plantfce.com/blog/posts/decommissioning-and-redeployment-costs-of-fpso",
+        "source_id": "mob-plantfce-com-decommissioning-and-redeployment-dcda61a"
+      }
+    },
+    {
+      "metric": "Indicative FPSO redeployment cost range",
+      "year": 2025,
+      "unit": "USD million",
+      "basis": "PlantFCE 2025 blog: range depending on FPSO condition and complexity of new field; consultancy estimate, dollar year not stated by page.",
+      "low": 200,
+      "high": 600,
+      "source": {
+        "url": "https://plantfce.com/blog/posts/decommissioning-and-redeployment-costs-of-fpso",
+        "source_id": "mob-plantfce-com-decommissioning-and-redeployment-dcda61a"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.akersolutions.com/news/news-archive/2023/aker-solutions-wins-rosebank-fpso-contract-from-altera-infrastructure/",
+      "source_id": "mob-akersolutions-com-20ead70",
+      "note": "Equinor field 130 km west of Shetland, estimated 300 million bbl recoverable; re"
+    },
+    {
+      "url": "https://www.nstauthority.co.uk/media/q0od4gta/decommissioning-cost-report.pdf",
+      "source_id": "mob-nstauthority-co-uk-decommissioning-cost-report-51a1efe"
+    },
+    {
+      "url": "https://www.nstauthority.co.uk/media/ppvlelgd/ukcs-decom-cost-and-performance-update-01.pdf",
+      "source_id": "mob-nstauthority-co-uk-ukcs-decom-cost-and-perform-29cd408"
+    },
+    {
+      "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+      "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d"
+    },
+    {
+      "url": "https://www.akersolutions.com/news/news-archive/2023/aker-solutions-wins-rosebank-fpso-contract-from-altera-infrastructure/",
+      "source_id": "mob-akersolutions-com-20ead70"
+    },
+    {
+      "url": "https://plantfce.com/blog/posts/decommissioning-and-redeployment-costs-of-fpso",
+      "source_id": "mob-plantfce-com-decommissioning-and-redeployment-dcda61a"
+    },
+    {
+      "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+      "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d",
+      "note": "SBM owned and leased to client; parent-company guarantees prior to 2010; charter rate continued to end of initial lease period."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named FPSO decommissioning contract values",
+      "why": "NSTA reports aggregate UKCS estimates; no page read gave a signed FPSO removal or recycling contract price.",
+      "next_action": "Search NSTA decommissioning programme approvals and operator announcements for named FPSO sailaway/recycling awards."
+    },
+    {
+      "what": "Total Rosebank Knarr upgrade value",
+      "why": "Aker discloses only its own JV share order intake, not the full contract value.",
+      "next_action": "Check Altera Infrastructure or Equinor project filings for the total scope value."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit costs). Evidence-first retrospective of dated mobile production unit costs, 2006-2026. Strongest primary evidence: Seatrium's S$11bn P-84/P-85 contract (reported by pre"
+}

@@ -1,6 +1,6 @@
 # HSE: Health, safety and environment
 
-203 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+230 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -17,24 +17,36 @@
 | [Canada Oil and Gas Installations Regulations SOR/96-118 s.22](https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html) | standards-body | global, sea | open | summary-only |
 | [Circulating fluidized-bed boilers](https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers) | oem-supplier | global, na, apac | open | summary-only |
 | [CS-PH Ex programmable smoke & heat detector data sheet](https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf) | standards-body | global, sea | open | summary-only |
+| [CSB Investigation Report Executive Summary - Drilling Rig Explosion and Fire at the Macondo Well](https://www.csb.gov/assets/1/20/20160412_macondo_full_exec_summary.pdf?15671) | oem-supplier | global, sea | open | summary-only |
+| [Deepwater Horizon Joint Investigation Team Releases Final Report](https://www.bsee.gov/site-page/deepwater-horizon-joint-investigation-team-releases-final-report) | oem-supplier | global, sea | open | summary-only |
 | [DIALOG Group Berhad — Integrated Annual Report 2026 (PDF)](https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf) | oem-supplier | sea | open | summary-only |
 | [ECOjet Edge+ low-NOx burner](https://johnzink.com/products/powerburners/ecojet-edge-plus) | oem-supplier | global, na, apac | open | summary-only |
+| [Egina: A Flagship Offshore Project in Nigeria](https://totalenergies.com/company/projects/oil/egina-deep-offshore-nigeria) | oem-supplier | global, sea | open | summary-only |
+| [First oil for Turritella](https://www.sbmoffshore.com/newsroom/first-oil-turritella/) | oem-supplier | global, sea | open | summary-only |
+| [FPSOS: COVID-19, conversions, safety & the changing digital landscape (ABS Drydock 2021)](https://ww2.eagle.org/content/dam/eagle/articles/abs-fpso-conversions-drydock-magazine-march-21.pdf) | oem-supplier | global, sea | open | summary-only |
 | [GE Vernova heat recovery steam generators](https://www.gevernova.com/gas-power/products/hrsg) | oem-supplier | global, na, apac, sea, me, eu | open | summary-only |
 | [IEC 61511-1:2016+AMD1:2017 CSV](https://webstore.iec.ch/en/publication/61289) | standards-body | global, sea | paywalled | catalog-only |
 | [Japanese Industrial Standards (JISC)](https://www.jisc.go.jp/eng/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [Malaysian Standards (Department of Standards Malaysia)](https://www.jsm.gov.my/) | standards-body | apac, sea | paywalled | catalog-only (unverified) |
 | [Miura LX series steam boiler (Canada)](https://miuraboiler.ca/product/lx-steam-boiler) | oem-supplier | global, na, apac | open | summary-only |
 | [Murphy Oil Corporation 2018 Annual Report / Form 10-K](https://ir.murphyoilcorp.com/static-files/612fc5f0-5d77-4441-a7c0-5dfffc905e63) | oem-supplier | global, sea | open | summary-only |
+| [NOPSEMA Investigation - Prelude FLNG - Report (IVT11026, UPS Fire and Shutdown, redacted)](https://www.nopsema.gov.au/sites/default/files/documents/Report%20-%20IVT11026%20Shell%20Prelude%20UPS%20Fire%20and%20Shutdown%20-%20Redacted.pdf) | oem-supplier | global, sea | open | summary-only |
 | [NOPSEMA offshore safety regulator](https://www.nopsema.gov.au/) | agency-data | apac | open | full-text-restricted |
 | [Notice to Mariners 96/2026(T) - FSO replacement at West Patricia](https://www.marine.gov.my/wp-content/uploads/2026/07/96-2026T-%E2%80%93-NOTICE-OF-TEMPORARY-REPLACEMENT-OF-FSO-CASPIAN-SEA-BY-NEPTUNE-MOON-AT-WEST-PATRICIA-FIELD-BLOCK-SK309-OFFSHORE-SARAWAK-WITHIN-THE-EXCLUSIVE-ECONOMIC-ZONE.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Offshore Natural Gas Drilling Platform: Remote Pressure Monitoring of Wellhead Equipment](https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead) | oem-supplier | global, sea | open | summary-only |
 | [OISD Oil Industry Safety Directorate standards](https://www.oisd.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
+| [Pemantauan Tumpahan Minyak Di Medan Kikeh FPSO (Offshore Sabah) Tier One](https://www.mmea.gov.my/index.php/ms/allcategories-ms-my/12-berita-utama/982-pemantauan-tumpahan-minyak-di-medan-kikeh-fpso-offshore-sabah-tier-one) | oem-supplier | global, sea | open | summary-only |
 | [Recommended guidelines for application of IEC 61508 and IEC 61511 in the Norwegian petroleum industry, No. 070 rev 06](https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf) | oem-supplier | global, sea | open | summary-only |
+| [SBM Offshore 2020 Annual Report, Property Plant and Equipment](https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company) | oem-supplier | global, sea | open | summary-only |
 | [SNI 13-6910-2002 Safe Onshore and Offshore Drilling Operations (BSN)](https://id.scribd.com/document/1031759154/SNI-13-6910-2002) | standards-body | sea | mixed | full-text-restricted |
 | [SNI Indonesian National Standards (BSN)](https://bsn.go.id/) | standards-body | apac, sea | mixed | catalog-only (unverified) |
 | [Standardization Administration of China (GB standards)](https://www.sac.gov.cn/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [Standards Australia (AS 2885 pipelines, AS/NZS 60079)](https://www.standards.org.au/) | standards-body | apac | paywalled | catalog-only (unverified) |
+| [UKCS Decommissioning Cost and Performance Report 2023](https://www.nstauthority.co.uk/media/q0od4gta/decommissioning-cost-report.pdf) | oem-supplier | global, sea | open | summary-only |
+| [UKCS Decommissioning Cost and Performance Update 2024](https://www.nstauthority.co.uk/media/ppvlelgd/ukcs-decom-cost-and-performance-update-01.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Why you need an ultra-low-NOx steam boiler](https://miuraboiler.com/why-you-need-an-ultra-low-nox-steam-boiler/) | oem-supplier | global, na, apac | open | summary-only |
+| [Yinson - Helang milestones and HSE track record](https://www.yinson.com/news/fpso-helang-milestones-and-excellent-hse-track-record) | oem-supplier | global, sea | open | summary-only |
+| [Yinson Holdings Integrated Annual Report 2024 — Yinson Production business review (PDF)](https://ar.yinson.com/2024/download-file/YHB%20IAR24%20-%20Business%20Review%20Yinson%20Production.pdf) | oem-supplier | global, sea | open | summary-only |
 | [ASEAN Centre for Energy (ACE)](https://aseanenergy.org/) | agency-data | sea, apac | open | full-text-restricted |
 | [Australian DCCEEW energy and hydrogen](https://www.dcceew.gov.au/energy) | agency-data | apac | open | full-text-open |
 | [Australian Energy Producers (formerly APPEA)](https://energyproducers.au/) | association | apac | open | full-text-restricted |
@@ -42,9 +54,11 @@
 | [DIALOG Tarpon — What We Do (standards, capability, installations)](https://www.tarponsystems.com/what-we-do) | oem-supplier | global, sea | open | summary-only |
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
 | [DOE Malaysia EIA final report – Teja and Pepulut Field Development (via r.jina.ai)](https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9) | oem-supplier | global, sea | open | summary-only |
+| [FPSO Life Extension via Consortium Approach | Case Study](https://www.oceaneering.com/case-studies/delivering-fpso-life-extension-through-integrated-offshore-operations/) | oem-supplier | global, sea | open | summary-only |
 | [Geological Survey of Queensland open data](https://geoscience.data.qld.gov.au) | agency-data | apac | open | full-text-open |
 | [Global CCS Institute publications](https://www.globalccsinstitute.com/resources/publications-reports-research/) | association | global, apac | mixed | full-text-restricted |
 | [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
+| [Investigation ongoing: Three dead and one injured in Southeast Asian FSO incident](https://www.offshore-energy.biz/2026/05/26/investigation-ongoing-three-dead-and-one-injured-in-southeast-asian-fso-incident) | oem-supplier | global, sea | open | summary-only |
 | [JDIH ESDM (Indonesian energy regulation database)](https://jdih.esdm.go.id) | agency-data | sea | open | full-text-open |
 | [KLM Technology Group - Instrumentation Design Criteria Rev 01](https://r.jina.ai/https://www.klmtechgroup.com/PDF/ess/PROJECT_STANDARDS_AND_SPECIFICATIONS_offshore_instrumentation_criteria_Rev01.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Malaysia Petroleum Management (PETRONAS MPM)](https://www.petronas.com/mpm) | agency-data | sea | open | summary-only (unverified) |
@@ -56,6 +70,7 @@
 | [Normally unmanned installation](https://en.wikipedia.org/wiki/Normally_unmanned_installation) | oem-supplier | global, sea | open | full-text-open |
 | [Ocean Energy Resources – Soil investigation for CCS at Duyong](https://ocean-energyresources.com/2025/02/04/soil-investigation-work-for-carbon-captured-storage-project/) | oem-supplier | global, sea | open | summary-only |
 | [Peraturan.id (BPK regulation database)](https://peraturan.bpk.go.id) | standards-body | sea | open | full-text-open |
+| [PTTEP shuts in Malaysia fields for work on FPSO](https://www.upstreamonline.com/finance/pttep-shuts-in-malaysia-fields-for-work-on-fpso/2-1-2067272) | oem-supplier | global, sea | open | summary-only |
 | [Singapore MPA (Maritime and Port Authority)](https://www.mpa.gov.sg) | agency-data | sea, apac | open | full-text-open |
 | [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted |
 | [SIRIM (Malaysian standards body)](https://www.sirim.my) | standards-body | sea | mixed | catalog-only |
@@ -63,13 +78,17 @@
 | [SOLAS Regulation of LIFEBUOYS and onboard M.V. SEAFDEC](https://www.seafdec.or.th/knowledge/solas-regulation-of-lifebuoys-and-onboard-m-v-seafdec/) | oem-supplier | global, sea | open | summary-only |
 | [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
 | [Thailand Department of Mineral Fuels (DMF)](https://www.dmf.go.th) | agency-data | sea | open | catalog-only |
+| [Thunder Horse PDQ - Wikipedia](https://en.wikipedia.org/wiki/Thunder_Horse_PDQ) | oem-supplier | global, sea | open | summary-only |
+| [Decommissioning and Redeployment Costs of FPSOs](https://plantfce.com/blog/posts/decommissioning-and-redeployment-costs-of-fpso) | oem-supplier | global, sea | open | summary-only |
 | [Gohi Marine SOLAS TEMPSC product datasheet](https://www.gohimarine.com/sale-37362161-solas-approved-95kg-per-person-totally-enclosed-motor-propelled-survival-craft-tempsc.html) | oem-supplier | global, sea | open | summary-only |
 | [Indus Hydraulics IH-OFE-SSV product page](https://indushydraulics.com/p/surface-safety-valve-hydraulic-api-6a) | standards-body | global, sea | open | summary-only |
 | [Malaysian Petrochemicals Association](https://www.mpa.org.my/) | association | sea | open | summary-only (unverified) |
+| [Mooring Line Failures, Evacuation at Gryphon Alpha FPSO](https://budsoffshoreenergy.com/2011/02/05/mooring-line-failures-evacuation-at-gryphon-alpha-fpso/) | oem-supplier | global, sea | open | summary-only |
 | [SurvivalAtSea USCG/SOLAS liferafts price list](https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx) | oem-supplier | global, sea | open | summary-only |
 | [AIChE Center for Chemical Process Safety (CCPS)](https://www.aiche.org/ccps) | association | global | mixed | summary-only |
 | [AIChE Spring Meeting and Global Congress on Process Safety](https://www.aiche.org/conferences/aiche-spring-meeting-and-global-congress-on-process-safety) | conference | global | mixed | catalog-only |
 | [ALZETA ultra-low-NOx burners](https://alzeta.com/ultra-low-nox-burners) | oem-supplier | global, na | open | summary-only |
+| [API RP 2T (3rd ed., July 2010, reaffirmed Dec 2023)](https://api.stdlink.com/preview/2024/09/11/3757125860b8423b9cecf3e29bab6dc2.pdf) | standards-body | global | open | summary-only |
 | [API Standards and Publications](https://www.api.org/products-and-services/standards) | standards-body | global, na | paywalled | catalog-only |
 | [Argonne GREET model](https://greet.anl.gov/) | research-institute | global | open | full-text-open |
 | [ASME Boiler & Pressure Vessel Code (BPVC)](https://www.asme.org/codes-standards/bpvc-standards/bpvc-2023) | standards-body | global | paywalled | catalog-only |
@@ -82,6 +101,8 @@
 | [CN113162215B Emergency power supply system and control method for replacing offshore platform diesel generator system](https://patents.google.com/patent/CN113162215B/en) | patents | global | open | summary-only |
 | [Delivering Quality Bulk Marine Gasoil to Offshore Installations, Rev A, 15 January 2019](https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf) | standards-body | eu, global | open | summary-only |
 | [Delivering Quality Potable Water to Offshore Installations, Issue 2, 18 July 2013](https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf) | standards-body | eu, global | open | summary-only |
+| [DNV Floating Production classification page](https://www.dnv.com/maritime/offshore-classification/floating-production/) | oem-supplier | global | open | summary-only |
+| [DNV offshore technical guidance documents for download](https://www.dnv.com/maritime/offshore-classification/technical-guidance-otg/) | oem-supplier | global | open | summary-only |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [eCFR — Title 49 (PHMSA pipeline safety)](https://www.ecfr.gov) | standards-body | global | open | full-text-open |
 | [EIA: most combined-cycle plants have duct burners](https://www.eia.gov/todayinenergy/detail.php?id=52778) | agency-data | global, na | open | summary-only |
@@ -94,6 +115,7 @@
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
 | [European Commission CCS Directive implementation guidance](https://op.europa.eu/en/publication-detail/-/publication/47fb8148-d436-4ba3-88fb-ceb774b88933) | agency-data | eu | open | full-text-open |
 | [European Commission DG CLIMA](https://climate.ec.europa.eu) | agency-data | eu | open | full-text-open |
+| [Global FPSO decommissioning insights 2024 (report 2023dfi)](https://idms.iogp.org/Documents/1274) | oem-supplier | global | open | summary-only |
 | [GO ultra-low-NOx package burner](https://zeeco.com/resources/brochures/go-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
 | [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open |
 | [Honeywell burner management systems](https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems) | oem-supplier | global, na | open | summary-only |
@@ -104,6 +126,8 @@
 | [IEC webstore - IEC 61511-1:2016](https://webstore.iec.ch/en/publication/24241) | oem-supplier | global | open | summary-only |
 | [IECEx System (IEC System for Certification to Standards relating to Equipment for use in Explosive Atmospheres)](https://www.iecex.com/) | standards-body | global | open | summary-only |
 | [IMO MARPOL (International Maritime Organization)](https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx) | standards-body | global | mixed | summary-only |
+| [International Convention for the Prevention of Pollution from Ships (MARPOL)](https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Prevention-of-Pollution-from-Ships-(MARPOL).aspx) | oem-supplier | global | open | summary-only |
+| [International Convention for the Safety of Life at Sea (SOLAS), 1974](https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Safety-of-Life-at-Sea-(SOLAS),-1974.aspx) | oem-supplier | global | open | summary-only |
 | [International Journal of Greenhouse Gas Control](https://www.sciencedirect.com/journal/international-journal-of-greenhouse-gas-control) | journal | global | mixed | catalog-only (unverified) |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO 10423:2009 (withdrawn)](https://www.iso.org/standard/42757.html) | standards-body | global | open | summary-only |
@@ -120,6 +144,7 @@
 | [NFPA Codes and Standards](https://www.nfpa.org/codes-and-standards) | standards-body | global, na | mixed | catalog-only (unverified) |
 | [NORSOK D-010 Well integrity in drilling and well operations (Rev. 4 updates copy)](https://id.scribd.com/document/396965999/2-Norsok-Terje-Lokke-Sorensen) | standards-body | eu, global | mixed | full-text-restricted |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
+| [OCIMF Books catalogue](https://www.ocimf.org/publications/books) | oem-supplier | global | open | summary-only |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
 | [OSHA pressure vessels — standards](https://www.osha.gov/pressure-vessels/standards) | agency-data | global, na | open | summary-only |
 | [PLN ultra-low-NOx package burner](https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
@@ -132,11 +157,13 @@
 | [SIGTTO Society of International Gas Tanker and Terminal Operators](https://www.sigtto.org/) | association | global | mixed | catalog-only (unverified) |
 | [Solid fuel to natural gas conversions for circulating fluid bed boilers](https://www.zeeco.com/resources/news/solid-fuel-to-natural-gas-conversions-for-circulating-fluid-bed-boilers) | oem-supplier | global, na | open | summary-only |
 | [Sustainability (MDPI)](https://www.mdpi.com/journal/sustainability) | journal | global | open | full-text-open |
+| [Transient Responses Evaluation of FPSO with Different Failure Scenarios of Mooring Lines](https://www.mdpi.com/2077-1312/9/2/103) | oem-supplier | global | open | summary-only |
 | [UK Health and Safety Executive (offshore and COMAH)](https://www.hse.gov.uk/) | agency-data | eu, global | open | full-text-open |
 | [Unmanned Wellhead Platforms - UWHP Summary Report (Ramboll/NPD, March 2016)](https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf) | oem-supplier | eu | open | summary-only |
 | [US Chemical Safety Board investigations](https://www.csb.gov/) | agency-data | na, global | open | full-text-open |
 | [US Federal Register](https://www.federalregister.gov) | agency-data | na | open | full-text-open |
 | [US20120273228A1 Integrated Choke Manifold System for Use in A Well Application](https://patents.google.com/patent/US20120273228A1/en) | patents | global | open | summary-only |
+| [US20150314835A1 - Buoyant turret mooring with porous receptor cage](https://patents.google.com/patent/US20150314835A1/en) | oem-supplier | global | open | summary-only |
 | [US20220069575A1 Power supply system for an offshore platform](https://patents.google.com/patent/US20220069575A1/en) | patents | global | open | summary-only |
 | [US4135949A Safety interlock for pipeline pig launcher and receiver](https://patents.google.com/patent/US4135949A/en) | patents | global | open | summary-only |
 | [US4237936A Pig trap closure](https://patents.google.com/patent/US4237936A/en) | patents | global | open | summary-only |

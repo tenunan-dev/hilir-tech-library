@@ -1,0 +1,139 @@
+{
+  "id": "fpso-espirito-santo-bc-10",
+  "name": "FPSO Espirito Santo (BC-10)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Brazil",
+  "location": "Brazil",
+  "status": "operating",
+  "description": "First turret-moored FPSO in the world to use steel catenary risers for fluid transfers; SBM/MISC JV.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Largest internal turret delivered for P-53",
+      "date": "2007",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    },
+    {
+      "event": "First turret-moored FPSO with steel catenary risers, Espirito Santo",
+      "date": "2008",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    },
+    {
+      "event": "5,500 tonne Skarv turret installed",
+      "date": "2011",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    },
+    {
+      "event": "COOL LNG transfer system qualified",
+      "date": "2011",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    },
+    {
+      "event": "VHP swivel rated over 800 bar",
+      "date": "2013",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    },
+    {
+      "event": "FPSO Turritella installed — deepest moored unit",
+      "date": "2016",
+      "source": {
+        "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/sbm-fast4ward-investor-presentation-houston-11-18-16.pdf",
+        "source_id": "mob-sbmoffshore-com-sbm-fast4ward-investor-present-cd4d5cb"
+      }
+    },
+    {
+      "event": "Fast4Ward mooring catalogue internal/external/spread",
+      "date": "2016",
+      "source": {
+        "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/sbm-fast4ward-investor-presentation-houston-11-18-16.pdf",
+        "source_id": "mob-sbmoffshore-com-sbm-fast4ward-investor-present-cd4d5cb"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "SBM Offshore",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Imodco",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "SOFEC",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "APL",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Technip (EPIC spar; subsea pipelines/risers)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+      "source_id": "mob-sbmoffshore-com-830170a",
+      "note": "First turret-moored FPSO in the world to use steel catenary risers for fluid tra"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+      "source_id": "mob-sbmoffshore-com-830170a"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/sbm-fast4ward-investor-presentation-houston-11-18-16.pdf",
+      "source_id": "mob-sbmoffshore-com-sbm-fast4ward-investor-present-cd4d5cb"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/what-we-do/jettyless-spm-fuild-transfer-solutions-by-imodco/",
+      "source_id": "mob-sbmoffshore-com-c5524fa"
+    },
+    {
+      "url": "https://patents.google.com/patent/US5899638A/en",
+      "source_id": "mob-patents-google-com-en-2d6014f"
+    },
+    {
+      "url": "https://api.stdlink.com/preview/2024/09/11/3757125860b8423b9cecf3e29bab6dc2.pdf",
+      "source_id": "mob-api-stdlink-com-3757125860b8423b9cecf3e29bab6d-61216d6"
+    },
+    {
+      "url": "https://patents.google.com/patent/US5899638A/en",
+      "source_id": "mob-patents-google-com-en-2d6014f",
+      "note": "Read via reader proxy. Covers pivoting latch top connector for TLP tendons and for drilling/production risers of other floating platforms (TLP, spar)."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "mooring failure/reliability statistics for turret systems 2006–2026",
+      "why": "None of the read pages published failure rates",
+      "next_action": "Source a class-society mooring integrity study and read it before adding figures"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile production technology). Evidence-first 2006–2026 retrospective across 15 mobile-production themes, built only from pages actually read with WebFetch; PDFs were read through the r.jina."
+}

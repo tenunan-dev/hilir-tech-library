@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-1540 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+1674 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -12,6 +12,7 @@
 | [A*STAR Institute of Sustainability for Chemicals, Energy and Environment](https://www.a-star.edu.sg/isce2) | research-institute | sea | open | summary-only (unverified) |
 | [ABB Wellhead Management System](https://library.e.abb.com/public/87968d164d3140ebaf6301f8c4a17019/PB_2102736-EN_B_WEB.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [ABS](https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/offshore/243_guidance_notes_subsea_hybrid_riser_systems_2017/Hybrid_Riser_GN_e-Jan17.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [ABS Awards World's First REMOTE-CON Notation for FPSO Liza Unity](https://pressreleases.eagle.org/news/abs-awards-world-s-first-remote-con-notation-for-fpso-liza-unity) | oem-supplier | global, sea | open | summary-only |
 | [Acteon](https://acteon.com/solutions/project-lifecycle/offshore-construction/positioning-and-construction-support) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Acteon.Com — Menck double-acting hammer energy range (whole spr](https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Aibel](https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
@@ -20,6 +21,7 @@
 | [AIST Japan energy and environment research](https://www.aist.go.jp/index_en.html) | research-institute | apac | open | full-text-restricted |
 | [Aker Solutions](https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Aker Solutions](https://news.cision.com/aker-solutions-asa/r/aker-solutions-delivers-large-johan-sverdrup-module,c3380312) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
+| [Aker Solutions Wins Rosebank FPSO Contract from Altera Infrastructure](https://www.akersolutions.com/news/news-archive/2023/aker-solutions-wins-rosebank-fpso-contract-from-altera-infrastructure/) | oem-supplier | global, sea | open | summary-only |
 | [Akersolutions.Com — Dvalin North](https://www.akersolutions.com/news/news-archive/2022/aker-solutions-asa-aker-solutions-wins-dvalin-north-subsea-contract-from-wintershall-dea/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Akersolutions.Com — Lingshui 17-2](https://www.akersolutions.com/news/news-archive/2018/aker-solutions-wins-subsea-order-for-lingshui-field-development-in-china/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Akersolutions.Com — Yggdrasil (NOAKA)](https://www.akersolutions.com/news/news-archive/2022/aker-solutions-secures-multiple-contracts-with-aker-bp--record-high-order-intake/) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -47,6 +49,8 @@
 | [Ampelmann — Petrobras / Solstad Offshore, Brazil — A-type and E-typ](https://www.ampelmann.nl/news-articles/ampelmann-signs-two-year-contract-extension-with-solstad-offshore-in-brazil) | oem-supplier | global, apac, sea | open | summary-only |
 | [Ampelmann — Taiwan offshore wind — two E1000 systems](https://www.ampelmann.nl/news-articles/winds-of-change-ampelmann-signs-two-e1000-systems-to-drive-growth-in-taiwans-offshore-wind-market) | oem-supplier | global, apac, sea | open | summary-only |
 | [ANDRITZ PowerFluid circulating fluidized bed boilers](https://www.andritz.com/products-en/tiac/environmental-solutions/powerfluid-boilers) | oem-supplier | global, eu, apac | open | summary-only |
+| [Angola: TotalEnergies launches the Kaminho deepwater project](https://totalenergies.com/news/press-releases/angola-totalenergies-launches-kaminho-deepwater-project) | oem-supplier | global, sea | open | summary-only |
+| [Anugerah Mulia Raya - MOPU Rubicone](https://amrcorp.com.my/projects/) | oem-supplier | global, sea | open | summary-only |
 | [API](https://www.api.org/products-and-services/standards) | standards-body | global, apac, sea, na, eu | open | summary-only |
 | [Aquaterra Energy](https://aquaterraenergy.com/delivering-a-jacket-supported-platform-in-a-seismic-region-in-the-gulf-of-suez) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Aquaterra Energy](https://aquaterraenergy.com/pushing-the-boundaries-wellhead-support-structure) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -73,6 +77,7 @@
 | [BASF — MDEA CAS number](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/formulations-and-solvents) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [BAUER Equipment Australia Pty Ltd](https://www.bauerequipment.com.au/en/micro-piles) | oem-supplier | global, apac, sea | open | summary-only |
 | [BAUER Spezialtiefbau GmbH](https://geotechnical-solutions.bauer.de/en/piles) | oem-supplier | global, apac, sea | open | summary-only |
+| [BHP Billiton Begins Production From Neptune Facility In The Deepwater Gulf Of Mexico](https://www.bhp.com/news/media-centre/releases/2008/07/bhp-billiton-begins-production-from-neptune-facility-in-the-deepwater-gulf-of-mexico) | oem-supplier | global, sea | open | summary-only |
 | [Blogs.Ubc.Ca — Refrigeration utility selection (design study)](https://blogs.ubc.ca/rajdeepdev/files/2020/01/201_220-final-report.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Bluewater Energy Services](https://www.bluewater.com/our-solutions/mooring-and-transfer-systems/calm-buoy-terminals/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Boiler blowdown heat recovery (Fig. 14.6.10) — Condensate Recovery: Flash Steam](https://www.spiraxsarco.com/learn-about-steam/condensate-recovery/flash-steam?sc_lang=en-GB) | oem-supplier | global, apac, sea, eu | open | summary-only (unverified) |
@@ -94,6 +99,7 @@
 | [British Standards Institution (BSI)](https://www.normsplash.com/Samples/BSI/194347938/BS-6349-4-2014-en.pdf) | agency-data | global, apac, sea | open | summary-only |
 | [British Standards Institution (BSI)](https://shaghool.ir/Files/BS6349_8_Code-of-practice-for-the-design-of-Ro-Ro-ramps-linkspans-and-walkways-2007.pdf) | agency-data | global, apac, sea | open | summary-only |
 | [BSEE / Minerals Management Service (Deepwater Riser Design, Fatigue Life and Standards Study, 2007); original credit API RP 2RD](https://www.bsee.gov/sites/bsee.gov/files/research-reports/572aa.pdf) | standards-body | global, apac, sea, na | open | summary-only (unverified) |
+| [Bumi Armada - Armada Sterling III specifications](https://www.bumiarmada.com/armada-sterling-iii) | oem-supplier | global, sea | open | summary-only |
 | [Bühler](https://www.buhlergroup.com/global/en/homepage.html) | oem-supplier | global, apac, sea | open | summary-only |
 | [Cameron (SLB)](https://www.slb.com/-/media/files/sur/brochure/introduction-to-api-specification-6a.ashx) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [CAMTOP Oilfield Tools](https://www.camtop-oilfieldtools.com/product/wellhead-assembly-and-christmas-tree) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -124,6 +130,7 @@
 | [Cra.Energy — Three enclosed ground flares, Assam gas gathering stati](https://www.cra.energy/case-study/stk-execution-of-three-high-capacity-enclosed-ground-flare-systems-for-ongcs-gas-production-facilities-in-assam) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [CRP Subsea](https://www.crpsubsea.com/products/product-families/bend-fatigue-protection/bend-restrictor) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [CRSI (Concrete Reinforcing Steel Institute)](https://www.irebar.com/USCommonBarGrades.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [CSB Investigation Report Executive Summary - Drilling Rig Explosion and Fire at the Macondo Well](https://www.csb.gov/assets/1/20/20160412_macondo_full_exec_summary.pdf?15671) | oem-supplier | global, sea | open | summary-only |
 | [CSIR-Indian Institute of Petroleum](https://www.iip.res.in/) | research-institute | apac | open | summary-only (unverified) |
 | [CSIRO energy research](https://www.csiro.au/en/research/technology-space/energy) | research-institute | apac | open | full-text-restricted |
 | [Cswoffshore.Com — monopile weight range (fabricator)](https://www.cswoffshore.com/solutions/monopiles) | oem-supplier | global, apac, sea | open | summary-only |
@@ -133,6 +140,7 @@
 | [Deepoceangroup.Com — T1500+ jet trenching ROV depth](https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Deepsea Technologies, Inc.](https://deepsea-tech.com/portfolio/subsea-flowline-gas-injection-manifolds) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Deepwater (stoprust.com)](https://stoprust.com/sacrificial-anodes) | oem-supplier | global, apac, sea | open | summary-only |
+| [Deepwater Horizon Joint Investigation Team Releases Final Report](https://www.bsee.gov/site-page/deepwater-horizon-joint-investigation-team-releases-final-report) | oem-supplier | global, sea | open | summary-only |
 | [Deltares / Rijksdienst voor Ondernemend Nederland (RVO), IJmuiden Ver Wind Farm Zone](https://offshorewind.rvo.nl/file/download/5704b803-1954-4d8f-a3d7-77c0d0c423ec/ijv_20230207_deltares_scour-and-scour-mitigation-report-f.pdf) | agency-data | global, apac, sea | open | summary-only (unverified) |
 | [Deltares / Rijksdienst voor Ondernemend Nederland (RVO), Nederwiek Wind Farm Zone](https://offshorewind.rvo.nl/file/download/87f6dd24-f514-4b2f-9b82-913b48109fe1/nw_20241114_mor_svasek_scour-and-scour-mitigation-report.pdf) | agency-data | global, apac, sea | open | summary-only (unverified) |
 | [Deltares / wpd offshore solutions (HR Wallingford eprints host)](https://eprints.hrwallingford.com/id/eprint/1126/1/PA_6_39-Riezebos-H.pdf) | agency-data | global, apac, sea | open | summary-only (unverified) |
@@ -160,6 +168,7 @@
 | [ECOjet Edge+ low-NOx burner](https://johnzink.com/products/powerburners/ecojet-edge-plus) | oem-supplier | global, na, apac | open | summary-only |
 | [Ecomar Storage Solution FZC LLC / EPC contractor (ESD Philosophy Rev A, 15 Feb 2024)](https://cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/flex031/uploads/pdfjscommunity/original/2X/6/686af929c0ae2573d8470b0b680c568fa0fad42e.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [EEW Group (EEW SPC / PPE / Korea / Malaysia)](https://eew-group.com/offshore-wind) | oem-supplier | global, apac, sea | open | summary-only |
+| [EIA Natural Gas Weekly Update, 18 May 2017](https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2017/05_18/) | oem-supplier | global, sea | open | summary-only |
 | [Emerson (Roxar)](https://www.emerson.com/en/measurement-instrumentation/catalog/flow-measurement/multiphase-flow) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Emerson — Roxar 2600 MPFM operating envelope](https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Enerflex](https://www.enerflex.com/wp-content/uploads/EFX_WATER-Sales-Sheet-Separon_DesandingHydrocyclone.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -180,21 +189,31 @@
 | [FDG](https://www.fdgau.com/wp-content/uploads/sites/2/2026/08/AU-Cable-Tray-Technical-Specifications.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Fgg Web.Fgg.Uni Lj.Si — inter-deck vertical distance](https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Figure 1.3.2 — A sophisticated feedtank system where the water is being heated by steam injection](https://www.spiraxsteam.com/uploads/pdfs/202608/20260901062219858_2ccbde3a.pdf) | oem-supplier | global, apac, sea, eu | open | summary-only (unverified) |
+| [Final Results SBM Offshore 2008](https://www.sbmoffshore.com/wp-content/uploads/2024/03/pressrelease-20090310-original-503.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Fiorentini Iberia.Com — Dry gas spec from TEG unit](https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-packages-with-liquid-media-technology-teg-deg-meg) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Fiorentini Iberia.Com — Typical inlet mercury concentration](https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Fiorentini Iberia.Com — Water content achievable](https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-units-with-fixed-bed-technology-molecular-sieves-and-aluminas-silica-gel) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [First oil on BW Pioneer - BW Offshore](https://bwoffshore.com/pressreleases/first-oil-on-bw-pioneer) | oem-supplier | global, sea | open | summary-only |
+| [First production from Indonesian gas project — Santos](https://www.santos.com/news/first-production-from-indonesian-gas-project/) | oem-supplier | global, sea | open | summary-only |
 | [First Subsea](https://www.offshore-technology.com/projects/heidelberg-field-gulf-mexico-us) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Flaretechinc.Com — Flare KO drum size range (fabricator)](https://www.flaretechinc.com/products/flare-knockout-drums) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [FLNG as an option to monetizing natural gas from pre-salt in Brazil (EPE presentation)](https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Flowtork — Flowtork/Technip Energies refining & petrochemical](https://flowtork.com/marine-loading-arms) | oem-supplier | global, apac, sea | open | summary-only |
 | [Fluor / COOEC-Fluor](https://www.fluor.com/projects/cnooc-huizhou-oilfield-topsides-module) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Fluor.Com — Malampaya Depletion Compression Platform (DCP, Phase 3)](https://www.fluor.com/projects/offshore-deepwater-gas-to-power-epc) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Flyability — inspection time: rope/boat vs drone](https://www.flyability.com/blog/offshore-drone-inspections) | oem-supplier | global, apac, sea | open | summary-only |
 | [Fosroc — Cementitious grout for baseplates (gap range)](https://www.fosroc.com/product/show/conbextra-gp) | oem-supplier | global, apac, sea | open | summary-only |
+| [FPSO Ventures - MOPU Satu & Dua](https://www.fpsoventures.com/experiences/mopu-satu-and-dua) | oem-supplier | global, sea | open | summary-only |
+| [FPSOS: COVID-19, conversions, safety & the changing digital landscape (ABS Drydock 2021)](https://ww2.eagle.org/content/dam/eagle/articles/abs-fpso-conversions-drydock-magazine-march-21.pdf) | oem-supplier | global, sea | open | summary-only |
 | [FST](https://en.sz-fst.com/news_detail/11.html) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Fugro](https://www.fugro.com/expertise/positioning-and-construction-support) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Fyfe / CS-NRI — FRP fire protection](https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions) | oem-supplier | global, apac, sea | open | summary-only |
+| [GE Oil & Gas Awarded $160 Million Petrobras Contracts for P-58 and P-62](https://www.ge.com/news/press-releases/ge-oil-gas-awarded-160-million-petrobras-contracts-p-58-and-p-62-floating-production) | oem-supplier | global, sea | open | summary-only |
 | [GE Vernova heat recovery steam generators](https://www.gevernova.com/gas-power/products/hrsg) | oem-supplier | global, na, apac, sea, me, eu | open | summary-only |
 | [GEOfabrics Limited](https://geofabrics.com/wp-content/uploads/2024/02/Coastal-Brochure.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Golar LNG 2023 Annual Report Form 20-F](https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/annual-reports/2023-annual-report-form-20-f-golar-lng.pdf) | oem-supplier | global, sea | open | summary-only |
+| [Golar LNG Q2 2022 interim results](https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q2-2022.pdf) | oem-supplier | global, sea | open | summary-only |
+| [Golar LNG Q3 2023 interim results](https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q3-2023.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Goldhofer — Goldhofer THP/SL axle load](https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl) | oem-supplier | global, apac, sea | open | summary-only |
 | [Google Patents — Effluent quantity from urea synthesis reaction](https://patents.google.com/patent/US5096599A/en) | oem-supplier | global, apac, sea | open | summary-only |
 | [Gorgon Gas Project — cost](https://en.wikipedia.org/w/index.php?title=Gorgon_gas_project&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
@@ -226,6 +245,7 @@
 | [IGSB](https://www.igsb.eu/en/faq) | oem-supplier | global, apac, sea | open | summary-only |
 | [IIT Bombay National Centre of Excellence in CCUS](https://www.iitb.ac.in/) | research-institute | apac | open | summary-only (unverified) |
 | [India Electricals (IES)](https://indiaelectricals.net/products/perforated-cable-tray/) | oem-supplier | global, apac, sea | open | summary-only |
+| [Indonesia ESDM - Natuna energy story](https://www.esdm.go.id/id/media-center/arsip-berita/dari-laut-lepas-natuna-cerita-anak-bangsa-membangun-kemandirian-energi) | oem-supplier | global, sea | open | summary-only |
 | [Indonesian Petroleum Association (IPA)](https://www.ipa.or.id/) | association | sea | mixed | catalog-only (unverified) |
 | [Info.Zeeco.Com — Number of flare types typically used in a urea pla](https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en) | oem-supplier | global, apac, sea | open | summary-only |
 | [INPEX CORPORATION](https://www.inpex.com/assets/documents/english/ir/library/integrated_report/inpex_integratedreport202512_en_03.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
@@ -267,6 +287,7 @@
 | [John Zink Asia-Pacific locations](https://johnzink.com/our-business/locations/asia-pacific) | oem-supplier | apac, sea, na | open | summary-only |
 | [Johnson Controls — Johnson Controls product scope](https://www.johnsoncontrols.com/oil-and-gas/production-systems) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Johnson Matthey](https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde) | oem-supplier | global, apac, sea | open | summary-only |
+| [Join us down memory lane - Johan Castberg Turret Mooring System project](https://www.sbmoffshore.com/newsroom/join-us-down-memory-lane-watch-video-johan-castberg-turret-mooring-system-tms) | oem-supplier | global, sea | open | summary-only |
 | [Jotun](https://www.jotun.com/ww-en/products-and-services/products/Antifouling-SeaGuardian) | oem-supplier | global, apac, sea | open | summary-only |
 | [Journal of Petroleum Technology (SPE)](https://jpt.spe.org/mastering-produced-water-management-in-deepwater-gom-25-years-of-insights-part-2) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [Journal of Petroleum Technology (SPE)](https://jpt.spe.org/ongc-seeks-technical-help-to-boost-offshore-production) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
@@ -310,7 +331,11 @@
 | [Miura America product range](https://miuraboiler.com/products-category/all) | oem-supplier | global, na, apac, sea | open | summary-only |
 | [Miura LX series steam boiler (Canada)](https://miuraboiler.ca/product/lx-steam-boiler) | oem-supplier | global, na, apac | open | summary-only |
 | [MME Group](https://www.mme-group.com/cathodic-protection/sacrificial-anodes) | oem-supplier | global, apac, sea | open | summary-only |
+| [MODEC - FPSO Kakap Natuna](https://www.modec.com/project/detail/kakap.html) | oem-supplier | global, sea | open | summary-only |
+| [MODEC - FSO Rang Dong MV17 project](https://www.modec.com/project/detail/rangdong.html) | oem-supplier | global, sea | open | summary-only |
+| [MODEC 1H 2024 Financial Results Summary](https://www.modec.com/ir/library/presentation/assets/pdf/2024_2q_Analyst_presentation_en.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Montanuniversität Leoben (subsea production systems review thesis); figure from source [6] cited in the thesis](https://pure.unileoben.ac.at/ws/portalfiles/portal/1876337/AC13373932n01vt.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
+| [Mozambique's first LNG cargo departs from Coral Sul FLNG, offshore the Rovuma basin](https://www.eni.com/en-IT/media/press-release/2022/11/eni-coral-first-cargo.html) | oem-supplier | global, sea | open | summary-only |
 | [Murphy Oil Announces Additional Discoveries in Malaysia (12 Jun 2009)](https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-additional-discoveries-malaysia) | oem-supplier | global, sea | open | summary-only |
 | [Murphy Oil Announces First Production from Sarawak Natural Gas Project (18 Sep 2009)](https://ir.murphyoilcorp.com/news-releases/news-release-details/murphy-oil-announces-first-production-sarawak-natural-gas/) | oem-supplier | global, sea | open | summary-only |
 | [Murphy Oil Corporation 2005 Form 10-K](https://www.sec.gov/Archives/edgar/data/717423/000119312506054960/d10k.htm) | oem-supplier | global, sea | open | summary-only |
@@ -322,8 +347,10 @@
 | [National Offshore Wind Research and Development Consortium (NOWRDC); Tufts University / URI / NREL / NGI](https://nationaloffshorewind.org/wp-content/uploads/154719_Final-Report.pdf) | agency-data | global, apac, sea | open | summary-only |
 | [Naue GmbH & Co. KG](https://www.naue.com/global-en/products/geotextiles/secutex-h) | oem-supplier | global, apac, sea | open | summary-only |
 | [Nexans](https://hidrocaven.com/img/manuales/aplicacion-submarina.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [Nigeria: Total starts up production of the giant Egina field](https://totalenergies.com/newsroom/nigeria-total-starts-production-giant-egina-field/?lang=eng) | oem-supplier | global, sea | open | summary-only |
 | [NOAA (Offshore Single Point Mooring Systems, NOAA repository)](https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf) | agency-data | global, apac, sea, na | open | summary-only (unverified) |
 | [NOV (Bondstrand)](https://assets.nov.com/NCP4N68N/at/946fqw4xfc6rxt3rqvx4vb6/CAPS_FGS_MOS1109_Bondstrand_Structural_for_Topsides_FLYER.pdf) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
+| [NOV announces new contract award for STP system](https://www.nov.com/news/nov-announces-new-contract-award-for-stp-system) | oem-supplier | global, sea | open | summary-only |
 | [NPES](https://www.npes.in/services/cable-trays) | oem-supplier | global, apac, sea | open | summary-only |
 | [NTU Energy Research Institute (ERI@N)](https://www.ntu.edu.sg/erian) | research-institute | sea | open | summary-only (unverified) |
 | [Nucor](https://rosap.ntl.bts.gov/view/dot/32013/dot_32013_DS1.pdf) | oem-supplier | global, apac, sea | open | summary-only |
@@ -379,6 +406,7 @@
 | [Pacific Marine & Industrial (PM&I)](https://www.pacificmarine.net/marine-deck/marine-fenders/pneumatic-fenders-yokohama-fenders.htm) | oem-supplier | global, apac, sea | open | summary-only |
 | [PALFINGER — PALFINGER AHC hoisting capacity / jib radius / wir](https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html) | oem-supplier | global, apac, sea | open | summary-only |
 | [Parliament.Wa.Gov.Au — Prelude FLNG living quarters](https://www.parliament.wa.gov.au/parliament/commit.nsf/(Evidence+Lookup+by+Com+ID)/86A29802584DD0BC48257D8C001C710B/$file/20140811+Sub.+09+Shell.pdf) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
+| [PaxOcean - Indonesia's 1st FPSO conversion delivered](https://paxocean.com/2024/10/17/paxocean-group-delivers-indonesias-1st-fpso-conversion) | oem-supplier | global, sea | open | summary-only |
 | [Pdfcoffee.Com — definition](https://pdfcoffee.com/offshore-platform-topside-pdf-free.html) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [PERI GmbH](https://www.peri.com.au/product/formwork-load-calculator.html) | oem-supplier | global, apac, sea | open | summary-only |
 | [Peri.Com.Au — PERI formwork project list (cross-reference)](https://www.peri.com.au/dam/jcr:c64fb84d-069b-4138-a85b-b872077fbb42/duo-brochure-2026.pdf) | oem-supplier | global, apac, sea | open | summary-only |
@@ -386,12 +414,18 @@
 | [Petro Controls Europe BV](https://petro-controls.com/products/chemical-injection-system/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Petroleum (KeAi)](https://www.keaipublishing.com/en/journals/petroleum/) | journal | apac | open | full-text-restricted |
 | [Petroleum Science (KeAi, open access)](https://www.keaipublishing.com/en/journals/petroleum-science/) | journal | apac, global | open | full-text-restricted |
+| [PETRONAS - First Gas for PFLNG Satu](https://www.petronas.com/media/media-releases/first-gas-petronas-first-floating-lng-facility-pflng-satu) | oem-supplier | global, sea | open | summary-only |
+| [PETRONAS - First to produce LNG from two floating facilities](https://www.petronas.com/media/media-releases/petronas-becomes-worlds-first-produce-lng-two-floating-facilities) | oem-supplier | global, sea | open | summary-only |
+| [PETRONAS - Malikai Field Achieves First Oil](https://www.petronas.com/media/media-releases/malikai-field-achieves-first-oil) | oem-supplier | global, sea | open | summary-only |
 | [PETRONAS Clarifies Status on Tembikai and Chenang RSC (25 Jan 2013)](https://www.petronas.com/media/media-releases/petronas-clarifies-status-tembikai-and-chenang-rsc) | oem-supplier | global, sea | open | summary-only |
+| [PETRONAS first floating LNG facility PFLNG SATU achieves first cargo](https://www.petronas.com/media/media-releases/petronas-first-floating-lng-facility-pflng-satu-achieves-first-cargo) | oem-supplier | global, sea | open | summary-only |
+| [PETRONAS LNG page (FLNG quick facts)](https://www.petronas.com/progressing-energy/liquefied-natural-gas) | oem-supplier | global, sea | open | summary-only |
 | [PETRONAS — Bindu WHP, offshore Terengganu](https://www.petronas.com/sites/default/files/uploads/content/2026/PETRONAS%20Activity%20Outlook%202026-2028.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [PETRONAS — First Gas Production from SK318 Timi Field (2023)](https://www.petronas.com/media/media-releases/first-gas-production-sk318-timi-field) | oem-supplier | sea | open | summary-only |
 | [PETRONAS — Timi WHP, SK318, offshore Sarawak](https://www.petronas.com/mpm/media/media-releases/first-gas-production-sk318-timi-field) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Petronas.Com — PC Fertiliser Sabah (Sabah ammonia/urea complex)](https://www.petronas.com/pcg/sites/default/files/uploads/content/pdf/petronas-annual-report-2017.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Petrovietnam Journal](https://tapchidaukhi.vn/) | journal | sea | open | full-text-restricted |
+| [Pharos Energy - Extension of TGT FPSO bare boat charter](https://www.pharos.energy/investors/press-releases/extension-of-tgt-fpso-bare-boat-charter/) | oem-supplier | global, sea | open | summary-only |
 | [PIANC](https://pianc.org/publication/pianc-fender-guidelines-2024) | association | global, apac, sea | open | summary-only |
 | [PIANC (International Association for Navigation Congresses), MarCom WG 211; copy hosted by Bundesanstalt für Wasserbau (](https://izw.baw.de/publikationen/pianc/0/IVZMarCom%20WG%20211.pdf) | association | global, apac, sea | open | summary-only |
 | [PIANC MarCom WG 180; copy hosted by BAW](https://izw.baw.de/publikationen/pianc/0/marcom180IVZ.pdf) | association | global, apac, sea | open | summary-only |
@@ -400,8 +434,10 @@
 | [Pillar Consulting Group](https://pillar-inc.com/wp-content/uploads/2017/06/INDUSTRIAL-MARKET-Project-Profile-02-Industrial-Blast-Walls.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Porthosco2.Nl — Porthos CO2 injection host](https://www.porthosco2.nl/en) | oem-supplier | global, apac, sea | open | summary-only |
 | [Portland Bolt](https://www.portlandbolt.com/technical/specifications/astm-f3125) | oem-supplier | global, apac, sea | open | summary-only |
+| [Prelude FLNG fact sheet (PDF)](https://www.shell.com.au/content/dam/shell/assets/en/australia/about-us/documents/shell-prelude-factsheet-oct-2017.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Prelude FLNG — cost](https://en.wikipedia.org/w/index.php?title=Floating_liquefied_natural_gas&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
 | [Prelude FLNG — cost](https://en.wikipedia.org/wiki/Prelude_FLNG) | research-institute | global, apac, na, eu | open | summary-only |
+| [Prelude officially enters into Lloyd's Register class](https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2017/prelude-officially-enters-into-lloyds-register-class/) | oem-supplier | global, sea | open | summary-only |
 | [Pressure Reducing Valves for Steam — Fig. 1 process application, Fig. 2 direct-acting PRV, Fig. 3 pilot-operat](https://www.tlv.com/steam-info/steam-theory/other/pressure-reducing-valves-for-steam) | oem-supplier | global, apac | open | summary-only |
 | [Pressurised deaerators](https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [Proserv](https://proserv.com/technology-solution/subsea-control-systems/subsea-control-module/) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -417,13 +453,22 @@
 | [Rosetexwool](https://www.rosetexwool.net/news/offshore-fireproofing-passive-fire-protection-on-platforms) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [S3.Amazonaws.Com — PASB Kerteh OTS control systems](https://s3.amazonaws.com/aramis-craft-medias/case_studies/pdf/36-Petronas-PGSB-PASB-Malaysia-OTS.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Saipem](https://www.saipem.com/en/media/press-releases/2024-11-14/saipem-new-offshore-contract-totalenergies-suriname-19-billion-usd) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
+| [Saipem: three new contracts awarded by TotalEnergies EP Angola Block 20 for Kaminho, overall 3.7 billion USD](https://www.saipem.com/en/media/press-releases/2024-05-21/saipem-three-new-contracts-awarded-totalenergies-ep-angola-block-20) | oem-supplier | global, sea | open | summary-only |
 | [Sapura / Vantris Energy (incl. L&T Sapura JV)](https://vantrisenergy.com/services/engineering-construction/epcic/offshore-construction-and-installation/) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [SBM Atlantia / SOFEC](https://www.osti.gov/etdeweb/servlets/purl/21169064) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [SBM Offshore](https://kivi.nl/_Resources/Persistent/c/3/e/1/c3e175839290460412ad91aa0d8611e791c0390e/KIVI%20lecture%2025-Jan-16%20-%20issue%20to%20KIVI%20-%202spp.pdf) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [SBM Offshore](https://www.shell.com/news-and-insights/newsroom/news-and-media-releases/_jcr_content/root/main/section/simple_1285915735/call_to_action_11159_578483303/links/item0.stream/1669043581418/ef8aa6eff3694727cb88fdbd0d68fa3bb60d3586/2014-media-releases.pdf) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
+| [SBM Offshore 2020 Annual Report, Property Plant and Equipment](https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company) | oem-supplier | global, sea | open | summary-only |
+| [SBM Offshore 2023 Annual Report, note 4.3.3 Revenue](https://2023.annualreport.sbmoffshore.com/pdfondemand/printpdf?docId=158691&nodes=159515) | oem-supplier | global, sea | open | summary-only |
+| [SBM Offshore Awarded Contracts to Provide World's Deepest Disconnectable FPSO for Shell Stones in Gulf of Mexico](https://www.sbmoffshore.com/newsroom/sbm-offshore-awarded-contracts-provide-worlds-deepest/) | oem-supplier | global, sea | open | summary-only |
+| [SBM Offshore Awarded Turnkey Contract for Statoil's Johan Castberg Turret Mooring System](https://www.sbmoffshore.com/newsroom/sbm-offshore-awarded-turnkey-contract-statoils-johan) | oem-supplier | global, sea | open | summary-only |
 | [Scientific Contributions Oil and Gas (LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/SCOG) | journal | sea | open | full-text-open |
 | [SeaCamel](https://seacamel.com/lmu/) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
+| [Seatrium Secures FPSO Newbuild Contracts P-84 and P-85 from Petrobras](https://investors.seatrium.com/newsroom/20240525_070541_5E2_HJVHUYQIT7REJOGG.1.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Seaway7 (Subsea7)](https://www.seaway7.com/our-fleet/) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
+| [SEC EX-99.1 Golar Q1 2022 press release (Arctic FSRU conversion and sale)](https://www.sec.gov/Archives/edgar/data/1207179/000117184322003959/exh_991.htm) | oem-supplier | global, sea | open | summary-only |
+| [SEC EX-99.1: Snam purchases 5 billion cubic metre floating LNG regasification terminal from Golar LNG for US$350 million](https://www.sec.gov/Archives/edgar/data/1207179/000117184322004053/exh_991.htm) | oem-supplier | global, sea | open | summary-only |
+| [Sembcorp Marine secures S$130 million pre-FPSO conversion contract from Petrobras](https://www.hartenergy.com/news/sembcorp-marine-secures-130-million-pre-fpso-conversion-contract-petrobras-offshore-87543) | oem-supplier | global, sea | open | summary-only |
 | [SensoTech — carbamate thermal conversion temperature/pressure](https://www.sensotech.com/en/urea-production) | oem-supplier | global, apac, sea | open | summary-only |
 | [Shell](https://www.shell.com/what-we-do/oil-and-natural-gas/liquefied-natural-gas-lng/floating-lng.html) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Shell Australia Pty Ltd / NOPSEMA (Environment Plan Summary)](https://docs.nopsema.gov.au/A680618) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
@@ -528,6 +573,8 @@
 | [TechnipFMC](https://www.technipfmc.com/media/uhjeyiie/2024-annual-report-on-form-10-k.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [TechnipFMC](https://www.technipfmc.com/en/what-we-do/surface/wellheads-and-trees/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [TechnipFMC (formerly CDS Separation Systems)](https://www.technipfmc.com/en/what-we-do/surface/production) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [TechnipFMC - Malikai Malaysia's first tension leg platform](https://www.technipfmc.com/en/media/news/2017/04/malikai-malaysias-first-tension-leg-platform/) | oem-supplier | global, sea | open | summary-only |
+| [TechnipFMC 2013 Malikai EPC award (referenced)](https://www.technipfmc.com/en/investors/archives/technip/press-releases/technip-in-a-jv-with-mmhe-awarded-substantial-contract-for-the-malikai-project-in-malaysia/) | oem-supplier | global, sea | open | summary-only |
 | [TechnipFMC — Manifold pressure rating](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [TechnipFMC — Rigid pipeline diameter range](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [TechnipFMC — Shell BC-10](https://www.technipfmc.com/en/media/news/2025/05/technipfmc-marks-milestone-100th-subsea-20-tree-delivery-with-client-that-placed-first-order/) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -589,6 +636,9 @@
 | [U.S. Department of Transportation, Federal Highway Administration (FHWA-HIF-07-022)](https://www.fhwa.dot.gov/bridge/pubs/07022/hif07022.pdf) | oem-supplier | global, apac, sea, eu, na | open | summary-only (unverified) |
 | [UK Health and Safety Executive (HSE), COMAH SRAM Technical Measures](https://hse.gov.uk/comah/sragtech/techmeasjetties.htm) | agency-data | global, apac, sea | open | summary-only |
 | [UK Maritime and Coastguard Agency (MCA), Merchant Shipping Instructions](https://assets.publishing.service.gov.uk/media/5efb1d50d3bf7f769866dc36/MSIS_14_Chapter_18.pdf) | agency-data | global, apac, sea | open | summary-only (unverified) |
+| [UKCS Decommissioning Cost and Performance Report 2023](https://www.nstauthority.co.uk/media/q0od4gta/decommissioning-cost-report.pdf) | oem-supplier | global, sea | open | summary-only |
+| [UKCS Decommissioning Cost and Performance Update 2024](https://www.nstauthority.co.uk/media/ppvlelgd/ukcs-decom-cost-and-performance-update-01.pdf) | oem-supplier | global, sea | open | summary-only |
+| [UKCS Unit Operating Costs in 2020](https://www.nstauthority.co.uk/media/p3ed5ezn/ukcsunitoperatingcostin2020.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Universalsteelamerica.Com — stocked thickness range](https://www.universalsteelamerica.com/api-2h-steel-plate) | oem-supplier | global, apac, sea | open | summary-only |
 | [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted |
 | [University of Ljubljana — jacket function](https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm) | research-institute | global, apac, sea, na | open | summary-only |
@@ -685,11 +735,17 @@
 | [Wikipedia — vibrator-assisted discharge](https://en.wikipedia.org/wiki/Silo) | research-institute | global, apac, sea | open | summary-only |
 | [Wikipedia — water-depth capability by vintage](https://en.wikipedia.org/wiki/Drillship) | research-institute | global, apac, sea, eu, na | open | summary-only |
 | [Woodside Energy — Beaumont New Ammonia (formerly OCI Clean Ammonia), Beau](https://www.woodside.com/what-we-do/growth-projects/beaumont-new-ammonia) | oem-supplier | global, apac, sea | open | summary-only |
+| [Yinson - FPSO Helang achieves first gas](https://www.yinson.com/news/yinsons-fpso-helang-achieves-first-gas) | oem-supplier | global, sea | open | summary-only |
+| [Yinson - Helang milestones and HSE track record](https://www.yinson.com/news/fpso-helang-milestones-and-excellent-hse-track-record) | oem-supplier | global, sea | open | summary-only |
+| [Yinson Production - Fleet list](https://www.yinson-production.com/our-business/fleet/?lang=en) | oem-supplier | global, sea | open | summary-only |
+| [Yinson Production - FSO Bien Dong 01 extension](https://www.yinson-production.com/news/yinson-production-receives-charter-contract-extension-for-fso-ptsc-bien-dong-01) | oem-supplier | global, sea | open | summary-only |
 | [Yme field redevelopment (MOPUstor) and Yme New Development — cost](https://en.wikipedia.org/w/index.php?title=Yme_field&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
 | [Yokohama Rubber — Pneumatic 50 — guaranteed energy absorption (GEA) ](https://www.y-yokohama.com/global/product/mb/fenders/floating/) | oem-supplier | global, apac, sea | open | summary-only |
 | [ØlenBetong](https://www.equinor.com/magazine/new-industrial-chapter) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Ørsted / Danish Energy Agency (Tethys/ENS host)](https://tethys.pnnl.gov/sites/default/files/publications/Anholt_StabilisationofCableProtectionSystemsandCablesatScourProtectedMonopileLocationsandtheOffshoreSubstation.pdf) | agency-data | global, apac, sea | open | summary-only (unverified) |
+| [$3.9 Billion Egina FPSO Contract: NNPC kicks against further variation payment to Samsung](https://punchng.com/3-9-billion-egina-fpso-contract-nnpc-kicks-against-further-variation-payment-to-samsung/) | oem-supplier | global, sea | open | summary-only |
 | [A Malaysian perspective (OGJ, 11 Dec 2006)](https://www.ogj.com/general-interest/companies/article/17224324/a-malaysian-perspective) | oem-supplier | global, sea | open | summary-only |
+| [Aasta Hansteen spar - Wikipedia](https://en.wikipedia.org/wiki/Aasta_Hansteen_spar) | oem-supplier | global, sea | open | summary-only |
 | [Aasta Hansteen spar and Polarled pipeline — cost](https://www.equinor.com/en/news/2018-12-17-aasta-hansteen.html) | trade-media | global, apac, na, eu | open | summary-only |
 | [Abadi LNG (Masela) — cost](https://en.antaranews.com/news/422873/indonesia-launches-us209-billion-abadi-masela-lng-project) | trade-media | global, apac, na, eu | open | summary-only |
 | [Abadi LNG (Masela) — cost](https://en.antaranews.com/news/438211/inpex-completes-abadi-masela-lng-feed-ahead-of-schedule) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
@@ -698,7 +754,10 @@
 | [ABB](https://new.abb.com/control-systems/system-800xA) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [About Us - DIALOG Tarpon Offshore Platforms](https://www.tarponsystems.com/about-us) | oem-supplier | global, sea | open | summary-only |
 | [ACG Phase 3 ESIA (copy reproduced on Silo.tips)](https://silo.tips/download/55-offshore-platform-production) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [Aker Solutions (Wikipedia)](https://en.wikipedia.org/wiki/Aker_Solutions) | oem-supplier | global, sea | open | summary-only |
+| [American Bureau of Shipping (Wikipedia)](https://en.wikipedia.org/wiki/American_Bureau_of_Shipping) | oem-supplier | global, sea | open | summary-only |
 | [American Petroleum Institute, API RP 14C 8th ed (2017); preview on stdhive.com](https://www.stdhive.com/pdf_preview/api-rp-14c-pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [AmInvest Research - Potential sale of KAS III](https://klse.i3investor.com/web/blog/detail/AmInvestResearch/2024-03-07-story-h-186635527-Bumi_Armada_Potential_Sale_of_Karapan_Armada_Sterling_III) | oem-supplier | global, sea | open | summary-only |
 | [ARENA Australian Renewable Energy Agency knowledge bank](https://arena.gov.au/knowledge-bank/) | agency-data | apac | open | full-text-open |
 | [Ariel Corporation (with Hoerbiger) — Ariel KBH hydrogen reciprocating compressor](https://www.arielcorp.com/compressors/kbh.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Ariel Corporation — Ariel JGN / JGQ separable reciprocating compressor (1-throw and 2-throw)](https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -713,7 +772,9 @@
 | [Asme.Org — B31.1 latest edition](https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Asme.Org — B31.3 latest edition](https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Asme.Org — B31.8 latest edition](https://www.asme.org/codes-standards/find-codes-standards/b31-8-gas-transmission-distribution-piping-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Atlantis PQ - Wikipedia](https://en.wikipedia.org/wiki/Atlantis_PQ) | oem-supplier | global, sea | open | summary-only |
 | [AWT — Duyong Field Development Plan case study (PDF)](https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf) | oem-supplier | sea | open | summary-only |
+| [Baird Maritime - Marlin Natuna conversion](https://www.bairdmaritime.com/amp/story/offshore/refining-processing/offshore-processing-storage/vessel-conversion-marlin-natuna-large-floating-oil-and-gas-production-unit-for-deployment-off-western-indonesia) | oem-supplier | global, sea | open | summary-only |
 | [Baker Hughes](https://www.bakerhughes.com/completions/gas-lift-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Baker Hughes](https://www.bakerhughes.com/subsea/subsea-production-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Baker Hughes — Flexible pipe installation speed advantage](https://www.bakerhughes.com/subsea/flexible-pipe-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -726,12 +787,16 @@
 | [Bongkot and Erawan gas fields (G2/61 and G1/61) — cost](https://www.pttep.com/en/newsroom/press-releases/454/pttep-pushes-forward-investment-plan-in-bongkot-and-erawan-creating-long-term-value-to-the-country-thai-people-and-company-s-growth) | trade-media | global, apac, na, eu | open | summary-only |
 | [Borneo Post — Dialog RAJA Cluster US$81m FID (22 Sep 2026)](https://www.theborneopost.com/2026/09/22/dialogs-raja-cluster-devt-plan-secures-petronas-approval-us81-mln-fid) | oem-supplier | sea | open | summary-only |
 | [BP Berau Ltd / Sucofindo / Asian Development Bank](https://www.adb.org/sites/default/files/project-documents/49222/49222-001-esmr-en_7.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [Brazil: PetroRio Connects Polvo and Tubarao Martelo Fields. Eyes Significant OPEX Cut](https://www.oedigital.com/news/489189-brazil-petrorio-connects-polvo-and-tubarao-martelo-fields-eyes-significant-opex-cut) | oem-supplier | global, sea | open | summary-only |
 | [Browse FLNG Project (Brecknock, Calliance, Torosa)](https://www.offshore-technology.com/projects/browse-flng-project/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [BSEE / MMS (Deepwater Riser Design Study, 2007); original figures credited to API RP 2RD and API RP 17B](https://www.bsee.gov/sites/bsee.gov/files/research-reports/572aa.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [Bumi Armada (Wikipedia)](https://en.wikipedia.org/wiki/Bumi_Armada) | oem-supplier | global, sea | open | summary-only |
+| [BW Offshore (Wikipedia)](https://en.wikipedia.org/wiki/BW_Offshore) | oem-supplier | global, sea | open | summary-only |
 | [Caterpillar](https://www.cat.com/en_US/by-industry/electric-power.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Centre for High Technology (CHT) India](https://cht.gov.in/) | research-institute | apac | open | full-text-open |
 | [Chartindustries.Com — Periflow maximum discharge pressure](https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Chartindustries.Com — Single-stage flow range](https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [China International Marine Containers (Wikipedia)](https://en.wikipedia.org/wiki/China_International_Marine_Containers) | oem-supplier | global, sea | open | summary-only |
 | [Chiyoda Corporation](https://www.chiyodacorp.com/en/) | epc-contractor | apac, global | open | full-text-restricted |
 | [CNIPA China National Intellectual Property Administration](https://english.cnipa.gov.cn/) | patents | apac | open | full-text-restricted |
 | [Cummins Inc.](https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
@@ -748,6 +813,7 @@
 | [DIALOG Upstream — OTC Asia 2026 presentation (PDF)](https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf) | oem-supplier | sea | open | summary-only |
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
 | [Dixon Valve & Coupling Company (Dixon Europe) — A9661LG Composite Cryogenic LNG Hose (A9661-S6S6-N-050)](https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [DNV (Wikipedia)](https://en.wikipedia.org/wiki/DNV) | oem-supplier | global, sea | open | summary-only |
 | [DOE Malaysia EIA final report – Teja and Pepulut Field Development (via r.jina.ai)](https://r.jina.ai/https://edl.doe.gov.my/media/260142?signature=1549bf4b79ff65f4374a1feea79bb742106aa294933c6cb54ee089f24b144bd9) | oem-supplier | global, sea | open | summary-only |
 | [DrillingFormulas.Com (references Applied Drilling Engineering / SPE, Azar, Australian Drilling Manual, Devereux)](https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Dräger](https://www.draeger.com/en-us_u/Products/Flame-Detectors/Flame-5000) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -776,6 +842,9 @@
 | [First oil for West Patricia](https://www.energynewsbulletin.net/operations/news/1052674/oil-west-patricia) | oem-supplier | global, sea | open | summary-only |
 | [Fisher (Emerson)](https://www.emerson.com/en-us/automation/control-and-safety-systems/control-valves/fisher) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [FlareTech](https://flaretech.com) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [FLNG Market Boasts $35bn EPC Contract Award Value 2023-27](https://energy-analytics-institute.org/2023/04/04/flng-market-emerges-with-35bn-epc-contract-award-value-forecast-2023-27) | oem-supplier | global, sea | open | summary-only |
+| [FPSO orders resume with US$12Bn in awards](https://www.rivieramm.com/news-content-hub/fpso-orders-resume-with-us12bn-in-awards-82131) | oem-supplier | global, sea | open | summary-only |
+| [FPSO Ventures - FPSO Kikeh](https://www.fpsoventures.com/experiences/fpsokikeh/) | oem-supplier | global, sea | open | summary-only |
 | [Fuji Koatsu Flexible Hose Co., Ltd. — Meiji Flex Composite Hose - Cryogenic Hose, series 0933 / 0940 / 0957](https://fujikoatsu.jp/en/pages/79) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [GARUDA Garba Rujukan Digital (Indonesian journals)](https://garuda.kemdikbud.go.id/) | journal | sea | open | full-text-restricted (unverified) |
 | [Gassó Equipments S.A. — Gassoflex LNG cryogenic hose](https://gasso.com/en/producto/lng) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -784,10 +853,14 @@
 | [Geological Society of Malaysia Bulletin 72 (2021) – Five decades in the Malay Basin (via r.jina.ai)](https://r.jina.ai/https://gsm.org.my/wp-content/uploads/gsm_file_2/702001-101921-PDF.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Geological Survey of Queensland open data](https://geoscience.data.qld.gov.au) | agency-data | apac | open | full-text-open |
 | [Global CCS Institute publications](https://www.globalccsinstitute.com/resources/publications-reports-research/) | association | global, apac | mixed | full-text-restricted |
+| [Golar: Hilli Episeyo in full commercial operation off Cameroon](https://www.offshore-energy.biz/2018/06/04/golar-hilli-episeyo-in-full-commercial-operation-off-cameroon) | oem-supplier | global, sea | open | summary-only |
 | [Gorgon LNG (Gorgon Gas Development) — cost](https://www.abc.net.au/news/2013-12-12/gorgon-gas-project-cost-blowout/5151982) | trade-media | global, apac, na, eu | open | summary-only |
 | [Gorgon LNG (Gorgon Gas Development) — cost](https://www.geos.ed.ac.uk/sccs/project-info/27) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [Gumusut-Kakap Deepwater Project](https://www.offshore-technology.com/projects/gumusut-kakap-deepwater-oil-gas/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Hanwha Ocean (Wikipedia)](https://en.wikipedia.org/wiki/Hanwha_Ocean) | oem-supplier | global, sea | open | summary-only |
+| [HD Hyundai Heavy Industries (Wikipedia)](https://en.wikipedia.org/wiki/HD_Hyundai_Heavy_Industries) | oem-supplier | global, sea | open | summary-only |
 | [Hibernia oil field platform — cost](https://www.offshore-technology.com/projects/hibernia/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Highest FPS throughput capacity since 2010 greenlighted in 2022, says Westwood](https://www.offshore-energy.biz/2022/12/16/highest-fps-throughput-capacity-since-2010-greenlighted-in-2022-says-westwood) | oem-supplier | global, sea | open | summary-only |
 | [Honeywell](https://process.honeywell.com/us/en/solutions/experion-pks) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Honeywell Analytics](https://www.honeywellanalytics.com/en/products/gas-detectors) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Honeywell — Safety Manager (Safety Instrumented System, part of Experion PKS)](https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -848,8 +921,10 @@
 | [John Zink — Flare destruction efficiency (LRGO multi-point gro](https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Journal of Earth Energy Engineering (Universitas Islam Riau)](https://journal.uir.ac.id/index.php/JEEE) | journal | sea | open | full-text-open |
 | [Journal of Petroleum Technology (SPE)](https://jpt.spe.org/mastering-produced-water-management-in-deepwater-gom-25-years-of-insights-part-2) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [JPT - Yinson loses $1-billion FPSO charter](https://jpt.spe.org/yinson-loses-1-billion-fpso-charter-vietnam-project) | oem-supplier | global, sea | open | summary-only |
 | [JPT / SPE – Shell Takes FID on Joint Malaysian Sour Gas Development](https://jpt.spe.org/shell-takes-fid-on-joint-malaysian-sour-gas-development) | oem-supplier | global, sea | open | summary-only |
 | [JPT / SPE – TotalEnergies Takes Operator Stake in Lang Lebah, B14](https://jpt.spe.org/totalenergies-takes-operator-stake-in-lang-lebah-b14-to-boost-malaysian-lng-production) | oem-supplier | global, sea | open | summary-only |
+| [Jubilee Field - Ghana - Offshore Technology](https://www.offshore-technology.com/projects/jubilee-field/) | oem-supplier | global, sea | open | summary-only |
 | [Kebabangan Gas Field / Northern Hub Project](https://www.offshore-technology.com/projects/kebabangan-field/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Kencana Lands EPC Deal for Project Offshore Malaysia](https://www.offshore-energy.biz/2012/02/23/kencana-lands-epc-deal-for-project-offshore-malaysia) | oem-supplier | global, sea | open | summary-only |
 | [Kencana wins Murphy Sarawak contract](https://www.offshore-mag.com/field-development/article/16796535/kencana-wins-murphy-sarawak-contract) | oem-supplier | global, sea | open | summary-only |
@@ -860,6 +935,7 @@
 | [Lembaran Publikasi Minyak dan Gas Bumi (LPMGB, LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/LPMGB) | journal | sea | open | full-text-open |
 | [LEWA (LEWA Solutions GmbH) — LEWA Chemical Injection Packages (CIP)](https://www.lewa.com/en/systems/chemical-injection-packages/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Liwan Gas Project (Liwan 3-1 / Liuhua 34-2 / Liuhua 29-1) — cost](https://www.offshore-mag.com/subsea/article/16757093/liwan-marks-first-ever-deepwater-gas-development-offshore-china) | trade-media | global, apac, na, eu | open | summary-only |
+| [Lloyd's Register (Wikipedia)](https://en.wikipedia.org/wiki/Lloyd%27s_Register) | oem-supplier | global, sea | open | summary-only |
 | [LONGi Green Energy Technology Co., Ltd. — LONGi Hi-MO 9 PV modules (LR7-72HYD, LR8-66HYD; LR7-72HYD-635M to 660M)](https://www.longi.com/en/products/modules/hi-mo-9/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [LONGi — LONGi Hi-MO 9 module maximum power](https://www.longi.com/en/products/modules/hi-mo-9/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Malampaya Deep Water Gas-to-Power Project — cost](https://www.officialgazette.gov.ph/2012/01/24/malampaya-consortium-remits-1-134-b-to-government) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
@@ -874,6 +950,7 @@
 | [MHB secures Sarawak offshore contract from PTTEP](https://ocean-energyresources.com/2026/03/06/mhb-secures-sarawak-offshore-contract-from-pttep/) | oem-supplier | global, sea | open | summary-only |
 | [Milton Roy (Ingersoll Rand) — MAXROY Series Industrial Grade Metering Pump](https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Mitsubishi Heavy Industries CO2 capture (KM CDR)](https://www.mhi.com/products/environment/carboncapture.html) | licensor | apac, global | open | summary-only |
+| [MODEC (Wikipedia)](https://en.wikipedia.org/wiki/MODEC) | oem-supplier | global, sea | open | summary-only |
 | [Montanuniversität Leoben (review thesis)](https://pure.unileoben.ac.at/ws/portalfiles/portal/1876337/AC13373932n01vt.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [MSA](https://www.msasafety.com/fixed-gas-and-flame-detection/gas-detectors/ultima-x5000-gas-monitor) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Mtu Solutions.Com — MTU diesel genset portfolio ceiling](https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -889,27 +966,39 @@
 | [NOAA Office of Ocean Exploration and Research; graphic originally by Oil States Industries, Inc.](https://commons.wikimedia.org/wiki/File:Types_of_offshore_oil_and_gas_structures.jpg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [NOV (National Oilwell Varco) — DuraFlex composite spoolable pipe, Series 500](https://www.nov.com/products/duraflex) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [NOV (National Oilwell Varco) — Red Thread IIA Fiberglass Pipe (primary and secondary)](https://www.nov.com/products/red-thread-iia-fiberglass-pipe) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [NOV Inc. (Wikipedia)](https://en.wikipedia.org/wiki/NOV_Inc.) | oem-supplier | global, sea | open | summary-only |
+| [NS Energy - Gumusut-Kakap Oil Field](https://www.nsenergybusiness.com/projects/gumusut-kakap-oil-field/) | oem-supplier | global, sea | open | summary-only |
 | [Ocean Energy Resources – Soil investigation for CCS at Duyong](https://ocean-energyresources.com/2025/02/04/soil-investigation-work-for-carbon-captured-storage-project/) | oem-supplier | global, sea | open | summary-only |
 | [Ocean Systems Engineering (training material)](https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Oceaneering International — Subsea umbilical product family (steel tube, thermoplastic hose, power, IWOCS), M Series jun](https://www.oceaneering.com/subsea-distribution-solutions/products/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Offshore Energy - Bien Dong 01 extension](https://www.offshore-energy.biz/2023/06/06/fso-staying-five-more-years-at-gas-fields-off-vietnam) | oem-supplier | global, sea | open | summary-only |
+| [Offshore Energy - Keppel delivers Armada TGT 1](https://www.offshore-energy.biz/2011/06/13/singapore-keppel-shipyard-delivers-its-latest-fpso-project-armada-tgt-1) | oem-supplier | global, sea | open | summary-only |
+| [Offshore Energy - Yinson/PTSC Lam Son FPSO deal 2012](https://www.offshore-energy.biz/2012/06/11/malaysias-yinson-enters-into-fpso-deal-with-vietnams-ptsc) | oem-supplier | global, sea | open | summary-only |
+| [Offshore Engineer - Yinson/PTSC Lam Son charter 2020](https://www.oedigital.com/news/476673-yinson-ptsc-sign-long-term-fpso-charter-deal) | oem-supplier | global, sea | open | summary-only |
 | [Offshore Magazine (Barrett, Cheyne, Molloy — Expro Group)](https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [Offshore Magazine - Keppel confirms Madura BD FPSO delivery](https://www.offshore-mag.com/vessels/article/16769914/keppel-confirms-delivery-of-madura-bd-fpso) | oem-supplier | global, sea | open | summary-only |
+| [Offshore Magazine - Malaysia names first deepwater FPSO](https://www.offshore-mag.com/vessels/article/16796309/malaysia-names-first-deepwater-fpso) | oem-supplier | global, sea | open | summary-only |
+| [Offshore Magazine - Shell adds four wells](https://www.offshore-mag.com/production/article/14067731/shell-adds-four-wells-to-gumusut-kakap-production-offshore-sabah) | oem-supplier | global, sea | open | summary-only |
 | [Offshore Magazine; image credited to CNOOC Ltd](https://www.offshore-mag.com/subsea/article/16757093/liwan-marks-first-ever-deepwater-gas-development-offshore-china) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Offshore Technology (GlobalData)](https://www.offshore-technology.com/projects/ormen-lange-field/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Offshore Technology (GlobalData)](https://www.offshore-technology.com/projects/troll/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Offshore Technology (GlobalData)](https://www.offshore-technology.com/projects/perdido/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Offshore Technology (GlobalData)](https://www.offshore-technology.com/projects/malampaya/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Offshore Technology - Bien Dong 1 project](https://www.offshore-technology.com/projects/bien-dong-nam-con-son-basin-vietnam) | oem-supplier | global, sea | open | summary-only |
 | [Offshore Technology – Balai Cluster Project, Sarawak](https://www.offshore-technology.com/projects/balai-cluster-project-sarawak/) | oem-supplier | global, sea | open | summary-only |
 | [Offshore Technology – Layang Offshore Field](https://www.offshore-technology.com/projects/layang-offshore-field/) | oem-supplier | global, sea | open | summary-only |
 | [Offshore Technology – Malikai Deepwater Oilfield Project](https://www.offshore-technology.com/projects/malikai-deepwater-oilfield-project/) | oem-supplier | global, sea | open | summary-only |
 | [Offshore Technology – Timi Sweet Gas Field Development](https://www.offshore-technology.com/projects/timi-sweet-gas-field-development-sarawak-malaysia/) | oem-supplier | global, sea | open | summary-only |
 | [Offshore Technology — Bokor Phase 3 Redevelopment Project (2019)](https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/) | oem-supplier | sea | open | summary-only |
 | [OffshoreMan – PETRONAS receives first gas from West Natuna (2002)](https://offshoreman.net/oil-gas-jobs/petronas-receives-first-gas-from-west-natunaceremony-witnessed-by-dr-mahathir-and-president-megawati) | oem-supplier | global, sea | open | summary-only |
+| [Oil & Gas Journal - Refurbished jack up production unit off Malaysia](https://www.ogj.com/drilling-production/article/17224827/refurbished-jack-up-production-unit-produces-marginal-field-off-malaysia) | oem-supplier | global, sea | open | summary-only |
 | [Oil States International — Top Tension Riser (TTR)](https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [OneSubsea (SLB) — Subsea junction box](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [OneSubsea (SLB) — Subsea trees (horizontal, wellhead vertical, tubing head spool vertical)](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Orcina](https://www.orcina.com/wp-content/uploads/examples/a/a05/A05%20Steel%20catenary%20riser%20systems.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [OSTI — Tukau Field: Finding new oil after 20 years of production (1996)](https://www.osti.gov/biblio/6859707) | oem-supplier | sea | open | summary-only |
 | [Peraturan.id (BPK regulation database)](https://peraturan.bpk.go.id) | standards-body | sea | open | full-text-open |
+| [Petrobras Awards Seatrium $8.16-Billion Contract](https://jpt.spe.org/petrobras-awards-seatrium-11-billion-contract-to-build-fpsos-for-sepia-and-atapu-fields-in-santos-basin) | oem-supplier | global, sea | open | summary-only |
 | [Petronas Bintulu LNG Complex (incl. LNG Train 9)](https://www.offshore-technology.com/projects/petronas-bintulu-lng-complex-sarawak/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [PETRONAS media release – Successful Delivery of Gumusut-Kakap Semi-FPS (4 July 2013)](https://www.petronas.com/media/media-releases/successful-delivery-gumusut-kakap-semi-fps) | oem-supplier | global, sea | open | summary-only |
 | [PETRONAS PFLNG DUA (PFLNG-2, Rotan/Buluh gas fields)](https://www.offshore-technology.com/projects/pflng-2-rotan-flng-project-sabah/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -928,23 +1017,31 @@
 | [Prelude FLNG — cost](https://www.offshore-technology.com/projects/shell-project/) | trade-media | global, apac, na, eu | open | summary-only |
 | [Prelude FLNG — cost](https://www.ogj.com/pipelines-transportation/lng/article/17266891/shell-moving-ahead-with-prelude-floating-lng-project) | trade-media | global, apac, na, eu | open | summary-only |
 | [Quail Tools (secondary aggregator; values stated as taken from OEM manuals) — Annular / Single Ram / Double Ram BOP spec](https://www.quailtools.com/BOPSpecSheets.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Remazel to Deliver Equipment for SBM Offshore's Prosperity FPSO](https://www.oedigital.com/news/487578-remazel-to-deliver-equipment-for-sbm-offshore-s-prosperity-fpso) | oem-supplier | global, sea | open | summary-only |
 | [Rittal — JB Junction Boxes and terminal boxes (carbon steel, 304/316 stainless steel), PK/GA/KX enclosure families](https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Rolls-Royce Power Systems AG (mtu) — mtu diesel generator sets - Series 4000, 2000, 1600, 0080-0225](https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Samsung Heavy Industries (Wikipedia)](https://en.wikipedia.org/wiki/Samsung_Heavy_Industries) | oem-supplier | global, sea | open | summary-only |
 | [SapuraKencana JV clinches charter contract worth RM139.5 million in Mexico](https://theedgemalaysia.com/article/sapurakencana-jv-clinches-charter-contract-worth-rm1395-million-mexico) | oem-supplier | global, sea | open | summary-only |
+| [SBM confirms P-57 contract](https://www.offshore-mag.com/field-development/article/16780732/sbm-confirms-p-57-contract) | oem-supplier | global, sea | open | summary-only |
+| [SBM Offshore (Wikipedia)](https://en.wikipedia.org/wiki/SBM_Offshore) | oem-supplier | global, sea | open | summary-only |
 | [Scarborough Gas Project and Pluto Train 2](https://www.offshore-technology.com/projects/scarborough-gas-field/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Schneider Electric Data Center Science Center (with Wärtsilä)](https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [SCM (Solutions for Energy) — SEA-VI 6-100 Wet Mate Connector](https://www.scmlemans.com/product/sea-vi-6-100-serie) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Seascape Energy Asia – Operations Malaysia](https://seascape-energy.com/operations-malaysia/) | oem-supplier | global, sea | open | summary-only |
+| [Seatrium (Wikipedia)](https://en.wikipedia.org/wiki/Seatrium) | oem-supplier | global, sea | open | summary-only |
+| [Seatrium secures $8.2bn FPSO newbuild contract from Petrobras](https://www.nsenergybusiness.com/news/seatrium-secures-fpso-contract-from-petrobras) | oem-supplier | global, sea | open | summary-only |
 | [Shah Deniz Stage Two (Full Field Development)](https://www.offshore-technology.com/projects/shah-deniz-stage-2-caspian-sea/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Sharda Industrial Corporation — COMPOHOSE LNG cryogenic composite hose (SNS type)](https://composite-hose.com/cryogenic/lng) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Shell Australia Pty Ltd / NOPSEMA](https://docs.nopsema.gov.au/A680618) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Shell Delivers First Gas From The Timi Platform In Malaysia](https://oceannews.com/news/energy/shell-delivers-first-gas-from-the-timi-platform-in-malaysia) | oem-supplier | sea, apac | open | summary-only |
 | [Shijiazhuang Ruker Oilfield Technology Co., Ltd. — Choke & kill line hose (full bore), JLG-FB series](https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Ship Technology - PFLNG 1 SATU](https://www.ship-technology.com/projects/petronas-floating-lng-facility-pflng-1) | oem-supplier | global, sea | open | summary-only |
 | [Siemens Energy (incl. ex-Dresser-Rand)](https://www.siemens-energy.com/global/en/home/products-services/product-offering/compressors.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Siemens — SCALANCE S Industrial Security Appliances (SCALANCE SC-600, S615/S605, SC622-2C, SC626-2C)](https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Siemens.Com — Siemens PCS 7 version / cybersecurity](https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [SIRIM (Malaysian standards body)](https://www.sirim.my) | standards-body | sea | mixed | catalog-only |
 | [SK309 & SK311 (LNG) Report](https://www.woodmac.com/reports/upstream-oil-and-gas-sk309-and-sk311-lng-2297666/) | oem-supplier | global, sea | open | catalog-only |
+| [Skarv and Idun Offshore Fields, North Sea, Norway - Offshore Technology](https://www.offshore-technology.com/projects/skarv/) | oem-supplier | global, sea | open | summary-only |
 | [SKK Migas PTK-040/2023/S9 Rev.02: Abandonment and Site Restoration (ASR) / post-operation activities](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [SLB (Cameron product family) — 25,000-psi Ram-Type BOP](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [SLB (Cameron product family) — DL High-Pressure Annular BOP](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -973,17 +1070,21 @@
 | [Tangguh LNG Project](https://www.offshore-technology.com/projects/tangguh/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Tangguh LNG Train 3 Expansion — cost](https://www.offshore-technology.com/projects/tangguh-expansion-project-papua-barat/) | trade-media | global, apac, na, eu | open | summary-only |
 | [Tangguh LNG Train 3 Expansion — cost](https://www.wsj.com/articles/SB10001424052970204712904578094051528788578) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Tanker Conversions to FPSO Design and Integrity Management - Challenges](https://jpt.spe.org/tanker-conversions-fpso-design-and-integrity-management-challenges) | oem-supplier | global, sea | open | summary-only |
 | [TE Connectivity (SEACON) — SEACON HydraElectric Wet-Mate Connectors (incl. HydraElectric Ethernet Connector)](https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [TechnipFMC](https://www.technipfmc.com/media/rakf034t/intervention-workover-control-systems-brochure_digital.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [TechnipFMC](https://www.technipfmc.com/media/l11loka4/technipfmc-umbilicals-brochure.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [TechnipFMC (Wikipedia)](https://en.wikipedia.org/wiki/TechnipFMC) | oem-supplier | global, sea | open | summary-only |
 | [TechnipFMC — Flexible pipe high-pressure resistance](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [TechnipFMC — Flexible pipes (unbonded flexible pipe)](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [TechnipFMC — Rigid pipeline water depth capability](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [TechnipFMC — Standard pumps and complete pump skid systems (surface production)](https://www.technipfmc.com/en/what-we-do/surface/production/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [TechnipFMC — TechnipFMC subsea tree pressure rating](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [TechnipFMC — Umbilical systems track record](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Teekay (Wikipedia)](https://en.wikipedia.org/wiki/Teekay) | oem-supplier | global, sea | open | summary-only |
 | [Teledyne Marine (Impulse / ODI) — Impulse / Teledyne Wet Mate Series underwater pluggable connectors (IE2-BC, IERD2-BC, ](https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Tembikai Non-Associated Gas Development (Offshore Technology, 13 Dec 2019)](https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/) | oem-supplier | global, sea | open | summary-only |
+| [Terra Nova oil field - Wikipedia](https://en.wikipedia.org/wiki/Terra_Nova_oil_field) | oem-supplier | global, sea | open | summary-only |
 | [ThaiJO Thai Journals Online](https://www.tci-thaijo.org/) | journal | sea | open | full-text-restricted |
 | [Thailand Department of Mineral Fuels (DMF)](https://www.dmf.go.th) | agency-data | sea | open | catalog-only |
 | [The Star — Brooke Holdings wins RM1bil oil and gas job (2026)](https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job) | oem-supplier | sea | open | summary-only |
@@ -994,17 +1095,26 @@
 | [US Government Publishing Office / eCFR (BSEE)](https://www.ecfr.gov/current/title-30/section-250.855) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [US patent by Melvyn F. Whitby and John T. Mangan (Cameron); copy on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cameron_EVO_BOP_Patent_(Stack).jpg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Victaulic Company — Victaulic mechanical pipe joining, fittings, flow control and expansion joints](https://www.victaulic.com/products/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Westwood Insight - Offshore EPC contracting activity to remain buoyant in 2025](https://www.westwoodenergy.com/news/westwood-insight-offshore-epc-contracting-activity-to-remain-buoyant-in-2025) | oem-supplier | global, sea | open | summary-only |
 | [Wikimedia Commons; author 'Con-struct' (2012)](https://commons.wikimedia.org/wiki/File:Pump_with_tank_pid_en.svg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Wikimedia Commons; author 'Ub' (2001)](https://commons.wikimedia.org/wiki/File:P%26ID.JPG) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Wikimedia Commons; author Egmason (2011)](https://commons.wikimedia.org/wiki/File:Blowout_Preventer.svg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Wikimedia Commons; author Mbeychok (2012)](https://commons.wikimedia.org/wiki/File:FlareStack_System.png) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Wikimedia Commons; author Steven Baltakatei Sandoval](https://commons.wikimedia.org/wiki/File:ISO_10628-2_2012_Symbols_Sheet_1.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
+| [Yinson Holdings (Wikipedia)](https://en.wikipedia.org/wiki/Yinson_Holdings) | oem-supplier | global, sea | open | summary-only |
 | [Yme field redevelopment (MOPUstor) and Yme New Development — cost](https://www.offshore-technology.com/projects/ymeegersundbasin/) | trade-media | global, apac, na, eu | open | summary-only |
 | [Yokogawa](https://www.yokogawa.com/ia/dcs/centum-vp/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Zeto](https://www.zeto.com/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [A Barrel Full — SK305 Block Oil And Gas Fields (wiki)](https://www.abarrelfull.co.uk/SK305_Block_Oil_And_Gas_Fields) | oem-supplier | sea | open | summary-only |
+| [A glimpse into the EPC market for FLNGs and FSRUs](https://www.upstreamonline.com/sponsored-content/sandpglobal/aglimpseintotheepcmarketforflngsandfsrus) | oem-supplier | global, sea | open | summary-only |
+| [Are Cost Components Driving FPSO Units Towards East?](https://www.gep.com/blog/mind/are-cost-components-driving-fpso-construction-towards-the-east) | oem-supplier | global, sea | open | summary-only |
+| [Compass International FPSO cost estimator book page](https://compassinternational.net/blog/floating-production-storage-and-offloading-facility) | oem-supplier | global, sea | open | summary-only |
+| [Decommissioning and Redeployment Costs of FPSOs](https://plantfce.com/blog/posts/decommissioning-and-redeployment-costs-of-fpso) | oem-supplier | global, sea | open | summary-only |
 | [Energy Connects](https://www.energyconnects.com) | trade-media | me, sea, global | open | catalog-only |
+| [FPSO Conversion vs. New Build: A Cost Comparison](https://plantfce.com/blog/posts/fpso-conversion-vs-new-build) | oem-supplier | global, sea | open | summary-only |
+| [FPSO Newbuild vs Conversion: Engineering and Commercial Trade-offs](https://offshoreindustry.co.uk/fpso-newbuild-vs-conversion-the-engineering-and-commercial-trade-offs-reshaping-the-worlds-fpso-orderbook) | oem-supplier | global, sea | open | summary-only |
+| [Guide to FPSO Charter Rate Estimation](https://plantfce.com/blog/posts/understanding-fpso-charter-rate-estimation-key-actors-and-pricing-models) | oem-supplier | global, sea | open | summary-only |
 | [INPEX](https://www.inpex.com.au/) | licensor | apac | open | summary-only (unverified) |
 | [JERA](https://www.jera.co.jp/en) | licensor | apac | open | summary-only (unverified) |
 | [Keppel Infrastructure and Energy](https://www.keppel.com/) | epc-contractor | sea | open | summary-only (unverified) |
@@ -1018,6 +1128,7 @@
 | [Santos](https://www.santos.com/) | licensor | apac | open | summary-only (unverified) |
 | [Sarawak Gas Project (A Barrel Full wiki)](https://www.abarrelfull.co.uk/Sarawak_Gas_Project) | oem-supplier | global, sea | open | summary-only |
 | [Sinopec technology licensing](https://www.sinopecgroup.com/group/en/) | licensor | apac, global | open | summary-only (unverified) |
+| [The FPSO Cost Discussion](https://www.marinelink.com/news/discussion-fpso-cost396888) | oem-supplier | global, sea | open | summary-only |
 | [Tokyo Gas technology](https://www.tokyo-gas.co.jp/en/) | licensor | apac | open | summary-only (unverified) |
 | [Woodside Energy](https://www.woodside.com/) | licensor | apac | open | summary-only (unverified) |
 | [ ZEEPod tripod minimum-facility wellhead platform design](https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development) | patents | global | open | summary-only |
@@ -1031,6 +1142,11 @@
 | [Air heaters](https://www.babcock.com/home/products/air-heaters) | oem-supplier | global, na | open | summary-only |
 | [ALZETA ultra-low-NOx burners](https://alzeta.com/ultra-low-nox-burners) | oem-supplier | global, na | open | summary-only |
 | [ANDRITZ — ANDRITZ PowerFluid CFB Boiler Technology](https://www.andritz.com/thermal-power-en) | oem-supplier | global, na | open | summary-only |
+| [API 17J 4th edition 'what's new' PDF](https://www.api.org/~/media/files/publications/whats%20new/17j%20e4%20pa.pdf) | oem-supplier | global | open | summary-only |
+| [API RP 2FPS (R2025) catalogue record](https://store.accuristech.com/standards/api-rp-2fps-r2025?product_id=1811406) | oem-supplier | global | open | summary-only |
+| [API RP 2SK catalogue record (Accuris)](https://store.accuristech.com/standards/api-rp-2sk?product_id=2580812) | oem-supplier | global | open | summary-only |
+| [API RP 2T (3rd ed., July 2010, reaffirmed Dec 2023)](https://api.stdlink.com/preview/2024/09/11/3757125860b8423b9cecf3e29bab6dc2.pdf) | standards-body | global | open | summary-only |
+| [API RP 2T (R2023) catalogue record](https://store.accuristech.com/standards/api-rp-2t-r2023?product_id=1730946) | oem-supplier | global | open | summary-only |
 | [Argonne GREET model](https://greet.anl.gov/) | research-institute | global | open | full-text-open |
 | [Armstrong International](https://armstronginternational.com/products-landing/steam-condensate-solutions) | oem-supplier | global, na | open | summary-only |
 | [ASME Boiler & Pressure Vessel Code (BPVC)](https://www.asme.org/codes-standards/bpvc-standards/bpvc-2023) | standards-body | global | paywalled | catalog-only |
@@ -1100,6 +1216,7 @@
 | [Dbnoisereduction.Com — fan inlet silencer selection inputs](https://www.dbnoisereduction.com/fan-inlet-silencer.php) | oem-supplier | global, na | open | summary-only |
 | [Dbnoisereduction.Com — flexible connection function](https://www.dbnoisereduction.com/flexible-connections-expansion-joints.php) | oem-supplier | global, na | open | summary-only |
 | [Deep Sea Electronics — DC control supply](https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii) | oem-supplier | global, na | open | summary-only |
+| [Digital Services — SBM Offshore](https://www.sbmoffshore.com/what-we-do/digital-services/) | oem-supplier | global | open | summary-only |
 | [DOE FEMP — Purchasing energy-efficient boilers](https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers) | agency-data | global, na | open | summary-only |
 | [DOE Steam Systems (Industrial Technologies Office)](https://www.energy.gov/eere/amo/steam-systems) | agency-data | global, na | open | summary-only |
 | [E+E Elektronik](https://www.airbestpractices.com/technology/instrumentation/dew-point-measurement-compressed-air-systems) | oem-supplier | global, na | open | summary-only |
@@ -1129,6 +1246,7 @@
 | [Everllence](https://www.everllence.com/energy/products/dual-fuel-engines) | oem-supplier | global, na | open | summary-only |
 | [Everllence — Labuan Island gas power plant (KAB Energy Holdings)](https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants) | oem-supplier | global, na | open | summary-only |
 | [Everllence — Mechanical output](https://www.everllence.com/energy/products/gas-fuel-engines) | oem-supplier | global, na | open | summary-only |
+| [Excelerate Energy — JOGMEC Journal (PDF)](https://journal.jogmec.go.jp/content/300517000.pdf) | oem-supplier | global | open | summary-only |
 | [Fig. 1.3 Schematic diagram of a CFB boiler — Design, Operation and Maintenance of CFB Boilers (Basu)](https://content.e-bookshelf.de/media/reading/L-3925765-5457caf33b.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Figure 1 — EDI Flow Schematic — Using EDI to Meet the Needs of Pure Water Production](https://www.gevernova.com/gev/sites/default/files/tdindia/GE-EDI-pure-water-production.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Figure 1 — Ion exchange / reverse osmosis makeup-water treatment schematic — Boiler Feedwater Treatment applic](https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/hps/products/pmc/process-instruments/analytical-instruments%26sensors/conductivity/pmt-hps-Power-Plant-Feedwater-Treatment-Application-Note.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
@@ -1137,6 +1255,7 @@
 | [Figure 2. Process flow diagram — Thermodynamic analysis of supplementary firing in an unfired HRSG (Khoy CCPP ](https://caravelpress.com/proceedings/set/papers/2011.261/set.2011.261.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Figure 3 — Piping and instrumentation diagram of a typical CEDI skid — Continuous electrodeionization for boil](https://prod.xylem.com/siteassets/brand/evoqua/resources/white-papers/continuous-electrodeionization-for-boiler-feed-water.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Figure 3 — Schematic diagram of advanced SNCR applied to Lancaster County MWC (with NOx and NH3 CEMS)](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100P73S.TXT) | agency-data | global, na | open | summary-only (unverified) |
+| [Floating Production Solutions & Operations — SBM Offshore](https://www.sbmoffshore.com/what-we-do/fpso-operations/) | oem-supplier | global | open | summary-only |
 | [Fluence Energy](https://fluenceenergy.com/data-center-solution) | oem-supplier | global, na | open | summary-only |
 | [Forney Corporation](https://www.forneycorp.com/burner-management-systems) | oem-supplier | global, na | open | summary-only |
 | [Forney Corporation](https://www.forneycorp.com/products/hrsg-bypass-dampers) | oem-supplier | global, na | open | summary-only |
@@ -1186,16 +1305,20 @@
 | [INNIO Jenbacher, Austria — INNIO Jenbacher J920 FleXtra gas engine](https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/) | oem-supplier | global, na | open | summary-only |
 | [INNIO — Concord Group four palm-oil-waste/biogas plants, Malays](https://www.innio.com/en/news-media/press-releases/innio-signs-agreement-with-concord-group-of-companies-to-develop-four-biogas-power-plants-supporting-malaysian-decarbonization-efforts-2/) | oem-supplier | global, na | open | summary-only |
 | [Integrated Flow Solutions (IFS) — Ammonia Vaporizers & SCR Injection Systems (ANAM-400 family, Cold/Hot AFCU)](https://www.ifsolutions.com/products/scr-ammonia-system/) | oem-supplier | global, na | open | summary-only |
+| [Integrity Management Process of Tension Leg Platforms, BSEE Project E17PC00018 (PDF)](https://www.bsee.gov/sites/bsee.gov/files/2026-04/TAP%20792%20Integrity%20Management%20of%20TLP%20Final%20Research%20Report%20_508c.pdf) | oem-supplier | global | open | summary-only |
 | [International Journal of Greenhouse Gas Control](https://www.sciencedirect.com/journal/international-journal-of-greenhouse-gas-control) | journal | global | mixed | catalog-only (unverified) |
 | [International Journal of Hydrogen Energy](https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy) | journal | global | mixed | catalog-only (unverified) |
+| [Investor Presentation Houston, 18 Nov 2016 (PDF)](https://www.sbmoffshore.com/wp-content/uploads/2024/03/sbm-fast4ward-investor-presentation-houston-11-18-16.pdf) | oem-supplier | global | open | summary-only |
 | [Ion Exchange (India) Ltd](https://ionexchangeglobal.com/products/core-solutions/condensate-polishing/) | oem-supplier | global, na | open | summary-only |
 | [ISO 10423:2009 (withdrawn)](https://www.iso.org/standard/42757.html) | standards-body | global | open | summary-only |
 | [ISO 10423:2022 standard page](https://www.iso.org/standard/79588.html) | standards-body | global | open | summary-only |
 | [ISO 13702](https://r.jina.ai/https://www.klmtechgroup.com/PDF/ess/PROJECT_STANDARD_AND_SPECIFICATIONS_offshore_technical_safety_Rev01.pdf) | standards-body | global | open | summary-only |
 | [ISO 14687 (hydrogen fuel purity)](https://www.iso.org/standard/69539.html) | standards-body | global | paywalled | catalog-only |
 | [ISO 19880 (gaseous hydrogen fuelling stations)](https://www.iso.org/standard/71940.html) | standards-body | global | paywalled | catalog-only |
+| [ISO 19904-1:2019 standard page](https://www.iso.org/standard/63801.html) | oem-supplier | global | open | summary-only |
 | [ISO/TC 197 Hydrogen technologies](https://www.iso.org/committee/54560.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 265 Carbon dioxide capture, transportation and geological storage](https://www.iso.org/committee/648607.html) | standards-body | global | paywalled | catalog-only (unverified) |
+| [Jettyless SPM Fluid Transfer Solutions by Imodco](https://www.sbmoffshore.com/what-we-do/jettyless-spm-fuild-transfer-solutions-by-imodco/) | oem-supplier | global | open | summary-only |
 | [John Zink (Koch Engineered Solutions)](https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems) | oem-supplier | global, na | open | summary-only |
 | [John Zink (Koch Engineered Solutions)](https://www.johnzink.com/parts-services/replacement-parts/burner-parts) | oem-supplier | global, na | open | summary-only |
 | [John Zink HRSG duct burners](https://www.johnzink.com/products/powerburners/duct-burner) | oem-supplier | global, na | open | summary-only |
@@ -1228,9 +1351,11 @@
 | [NFPA 30](https://www.pdhonline.com/courses/m332/m332content.pdf) | standards-body | global | open | summary-only |
 | [NFPA 37](https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf) | standards-body | global | open | summary-only |
 | [NORSOK D-010 Well integrity in drilling and well operations (Rev. 4 updates copy)](https://id.scribd.com/document/396965999/2-Norsok-Terje-Lokke-Sorensen) | standards-body | eu, global | mixed | full-text-restricted |
+| [OCIMF Books catalogue](https://www.ocimf.org/publications/books) | oem-supplier | global | open | summary-only |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
 | [OSHA pressure vessels — standards](https://www.osha.gov/pressure-vessels/standards) | agency-data | global, na | open | summary-only |
 | [OSTI.GOV DOE scientific and technical information](https://www.osti.gov/) | agency-data | na, global | open | full-text-restricted |
+| [Our Heritage — SBM Offshore](https://www.sbmoffshore.com/who-we-are/our-heritage/) | oem-supplier | global | open | summary-only |
 | [Ovivo (Christ Water Technology / Kennicott)](https://filtsep.com/content/news/ovivo-wins-contracts-in-the-asian-electronics-and-energy-markets) | oem-supplier | global, na | open | summary-only |
 | [Pacific Northwest National Laboratory](https://www.pnnl.gov/) | research-institute | na | open | full-text-restricted |
 | [Petroleum Research (KeAi)](https://www.keaipublishing.com/en/journals/petroleum-research/) | journal | global | open | full-text-open |
@@ -1271,6 +1396,7 @@
 | [TMEIC](https://tmeic.com/wp-content/uploads/2025/05/PowerGenSolutionsI-5003-Feb2019.pdf) | oem-supplier | global, na | open | summary-only |
 | [TNO energy and materials transition](https://www.tno.nl/en/sustainable/) | research-institute | eu | open | full-text-restricted |
 | [Torque and Drag Field Applications in Horizontal Wells (IJOGCT 16(3), 2017)](https://id.scribd.com/document/604239685/Torque-and-drag-field-applications-in-horizontal-wells) | journal | global | mixed | full-text-restricted |
+| [Transient Responses Evaluation of FPSO with Different Failure Scenarios of Mooring Lines](https://www.mdpi.com/2077-1312/9/2/103) | oem-supplier | global | open | summary-only |
 | [Trystar](https://www.trystar.com/wp-content/uploads/document-library/Resistive-Reactive-Load-Banks.pdf) | oem-supplier | global, na | open | summary-only |
 | [Typical P&ID of Instrument Air — Instrument & Service Air System engineering whitepaper](https://azure-na-assets.contentstack.com/v3/assets/blta3c1d56420975795/bltb117df1445da53a7/692b646d060471ba9feb9f87/01072021_WP_Power_v2.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Typical schematic for ammonia unloading, storage, distribution & vaporization system (SCR), ANAM-400.0](https://ifs.marioninteractive.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
@@ -1283,12 +1409,14 @@
 | [US Environmental Protection Agency — Typical CEMS for Multiple Parameter Monitoring — Figure](https://www.epa.gov/sites/default/files/2020-07/documents/cs2ch4.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [US Nuclear Regulatory Commission — Figure 2-1 — Basic system schematic, Instrument Air Sys](https://www.nrc.gov/docs/ml0037/ml003767039.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [US20120273228A1 Integrated Choke Manifold System for Use in A Well Application](https://patents.google.com/patent/US20120273228A1/en) | patents | global | open | summary-only |
+| [US20150314835A1 - Buoyant turret mooring with porous receptor cage](https://patents.google.com/patent/US20150314835A1/en) | oem-supplier | global | open | summary-only |
 | [US20220069575A1 Power supply system for an offshore platform](https://patents.google.com/patent/US20220069575A1/en) | patents | global | open | summary-only |
 | [US4135949A Safety interlock for pipeline pig launcher and receiver](https://patents.google.com/patent/US4135949A/en) | patents | global | open | summary-only |
 | [US4237936A Pig trap closure](https://patents.google.com/patent/US4237936A/en) | patents | global | open | summary-only |
 | [US4679964A Offshore well support miniplatform](https://patents.google.com/patent/US4679964A/en) | patents | global | open | summary-only |
 | [US4932811A Well head conductor and/or caisson support system](https://patents.google.com/patent/US4932811A/en) | patents | global | open | summary-only |
 | [US5513929A Fixed offshore platform structures, using small diameter, tensioned, well casing tiebacks](https://patents.google.com/patent/US5513929A/en) | patents | global | open | summary-only |
+| [US5899638A — Floating platform top connector](https://patents.google.com/patent/US5899638A/en) | oem-supplier | global | open | summary-only |
 | [US6805200B2 Horizontal spool tree wellhead system and method](https://patents.google.com/patent/US6805200B2/en) | patents | global | open | summary-only |
 | [US6981848B1 Methanol injection system and method to prevent freezing of a natural gas pipeline](https://patents.google.com/patent/US6981848B1/en) | patents | global | open | summary-only |
 | [US7069874B2 Davit-launched life raft](https://patents.google.com/patent/US7069874B2/en) | patents | global | open | summary-only |
@@ -1313,6 +1441,7 @@
 | [WO2008045381A2 Dual subsea production chokes for high pressure well production](https://patents.google.com/patent/WO2008045381A2/en) | patents | global | open | summary-only |
 | [WO2013122479A1 Lifeboat winch with a redundant braking system](https://patents.google.com/patent/WO2013122479A1/en) | patents | global | open | summary-only |
 | [WO2016067222A1 Additive management system](https://patents.google.com/patent/WO2016067222A1/en) | patents | global | open | summary-only |
+| [WO2017174665A1 - Turret mooring system arrangement](https://patents.google.com/patent/WO2017174665A1/en) | oem-supplier | global | open | summary-only |
 | [WO2018052314A1 Optimising fire protection for an offshore platform](https://patents.google.com/patent/WO2018052314A1/en) | patents | global | open | summary-only |
 | [WOG Technologies Limited — Chemical Treatment Systems (coagulation/flocculation, pH neutralisation, oxidation, precipitation, dosing skids)](https://woggroup.com/chemical-treatment-systems/) | oem-supplier | global, na | open | summary-only |
 | [Woggroup.Com — CPU outlet quality claimed by vendor](https://woggroup.com/condensate-polishing-unit-cpu) | oem-supplier | global, na | open | summary-only |
@@ -1334,11 +1463,13 @@
 | [Zeeco — Zeeco Burner Management Systems (BMS)](https://www.zeeco.com/products/burners?hsLang=en) | oem-supplier | global, na | open | summary-only |
 | [Zeeco — ZEECO GB Low-NOx Power Burner](https://www.zeeco.com/products/burners/power-burners?hsLang=en) | oem-supplier | global, na | open | summary-only |
 | [Zeeco — Zeeco ProFlame scanner hazardous-area models](https://www.zeeco.com/products/combustion-electronics/flame-scanners) | oem-supplier | global, na | open | summary-only |
+| [2022 Worldwide Survey of FPSO units (PDF)](https://img.offshore-mag.com/files/base/ebm/os/document/2022/12/2022_Worldwide_Survey_of_Floating_Production_Storage_and_Offloading_Units.6398fd2a675a5.pdf?dl=2022_Worldwide_Survey_of_Floating_Production_Storage_and_Offloading_Units.6398fd2a675a5.pdf) | oem-supplier | global | open | summary-only |
 | [ACWA Power project pages](https://acwapower.com) | oem-supplier | me, global | open | full-text-restricted |
 | [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | licensor | global | open | full-text-restricted |
 | [Alberta Open Data portal](https://open.alberta.ca) | agency-data | na | open | full-text-open (unverified) |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only |
 | [Ammonia Energy Association](https://ammoniaenergy.org/) | association | global | open | full-text-restricted |
+| [API RP 2SK 2005 sample PDF](https://www.normsplash.com/Samples/API/174394726/API-RP-2SK-2005-(R2015)-en.pdf) | oem-supplier | global | open | summary-only |
 | [Applied Energy](https://www.sciencedirect.com/journal/applied-energy) | journal | global | mixed | full-text-restricted |
 | [arXiv (physics.chem-ph, eess.SY, cs.LG energy papers)](https://arxiv.org/) | journal | global | open | full-text-restricted |
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
@@ -1390,6 +1521,7 @@
 | [FAOSTAT](https://www.fao.org/faostat/en/) | agency-data | global | open | summary-only |
 | [farmdoc daily (University of Illinois)](https://farmdocdaily.illinois.edu/) | research-institute | na | open | summary-only |
 | [Fertilizers Europe (EFMA successor)](https://www.fertilizerseurope.com/) | association | eu | open | summary-only |
+| [Floating liquefied natural gas - Wikipedia](https://en.wikipedia.org/wiki/Floating_liquefied_natural_gas) | oem-supplier | global | open | summary-only |
 | [Fluid Handling Pro - Choosing Valves for Water Injection and Overboard Dump Systems](https://fluidhandlingpro.com/fluid-process-technology/fluid-process-control-valves/optimizing-offshore-operations-choosing-valves-for-water-injection-and-overboard-dump-systems) | oem-supplier | global | open | summary-only |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Freeport LNG Site Completion Impact Report (2020)](https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF) | agency-data | global | open | full-text-restricted |
@@ -1425,6 +1557,7 @@
 | [Lummus Technology](https://www.lummustechnology.com/) | licensor | global | open | full-text-restricted |
 | [MIT CCS Project Database](https://sequestration.mit.edu/tools/index.html) | research-institute | global | open | full-text-restricted |
 | [Mitsubishi Power news pages](https://power.mhi.com/news) | oem-supplier | global | open | full-text-restricted |
+| [MOPUs evolving to meet greater depth, flexibility challenges](https://www.offshore-mag.com/drilling-completion/article/16763365/mopus-evolving-to-meet-greater-depth-flexibility-challenges) | oem-supplier | global | open | summary-only |
 | [National Carbon Capture Center (US DOE)](https://www.nationalcarboncapturecenter.com) | research-institute | global | open | full-text-restricted |
 | [Nel Hydrogen](https://nelhydrogen.com/) | oem-supplier | global | open | full-text-restricted |
 | [Net Zero Teesside project pages](https://www.netzeroteesside.co.uk) | agency-data | eu | open | full-text-restricted |
@@ -1455,6 +1588,7 @@
 | [SINTEF TCCS-10: Emerging CO2 capture technologies (Garcia)](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-capture-technologies.pdf) | research-institute | global | open | full-text-open (unverified) |
 | [SLB](https://www.slb.com/) | oem-supplier | global | open | full-text-restricted |
 | [SLB Capturi (formerly Aker Carbon Capture)](https://www.slbcapturi.com/) | licensor | global | open | full-text-restricted |
+| [Spar history reflects innovation, success](https://www.offshore-mag.com/field-development/article/16756603/spar-history-reflects-innovation-success) | oem-supplier | global | open | summary-only |
 | [SPE Annual Technical Conference and Exhibition (ATCE)](https://www.atce.org) | conference | global | mixed | catalog-only |
 | [SPE peer-reviewed journals (Formation Evaluation / Reservoir Evaluation)](https://onepetro.org) | journal | global | mixed | full-text-restricted |
 | [Sulzer](https://www.sulzer.com/) | oem-supplier | global | open | full-text-restricted |

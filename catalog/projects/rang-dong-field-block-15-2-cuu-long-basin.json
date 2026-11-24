@@ -1,0 +1,75 @@
+{
+  "id": "rang-dong-field-block-15-2-cuu-long-basin",
+  "name": "Rang Dong field, Block 15-2, Cuu Long Basin",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Vietnam",
+  "location": "Vietnam",
+  "status": "operating",
+  "description": "JVPC-operated field with three platforms; oil stored on MV17 and offloaded to shuttle tankers.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "MODEC awarded FSO contract",
+      "date": "2006",
+      "source": {
+        "url": "https://www.modec.com/project/detail/rangdong.html",
+        "source_id": "mob-modec-com-rangdong-html-b2c702d"
+      }
+    },
+    {
+      "event": "First oil",
+      "date": "2008",
+      "source": {
+        "url": "https://www.modec.com/project/detail/rangdong.html",
+        "source_id": "mob-modec-com-rangdong-html-b2c702d"
+      }
+    },
+    {
+      "event": "Time charter extension",
+      "date": "2017",
+      "source": {
+        "url": "https://www.modec.com/project/detail/rangdong.html",
+        "source_id": "mob-modec-com-rangdong-html-b2c702d"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.modec.com/project/detail/rangdong.html",
+      "source_id": "mob-modec-com-rangdong-html-b2c702d",
+      "note": "JVPC-operated field with three platforms; oil stored on MV17 and offloaded to sh"
+    },
+    {
+      "url": "https://www.modec.com/project/detail/rangdong.html",
+      "source_id": "mob-modec-com-rangdong-html-b2c702d"
+    },
+    {
+      "url": "https://www.modec.com/project/detail/rangdong.html",
+      "source_id": "mob-modec-com-rangdong-html-b2c702d",
+      "note": "JVPC-operated field with three platforms; oil stored on MV17 and offloaded to shuttle tankers."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Charter value",
+      "why": "No daily rate or contract value was on the page read.",
+      "next_action": "Find MODEC annual report disclosure of the time-charter value."
+    },
+    {
+      "what": "Uptime",
+      "why": "No uptime figure given.",
+      "next_action": "Check MODEC O&M performance reports."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

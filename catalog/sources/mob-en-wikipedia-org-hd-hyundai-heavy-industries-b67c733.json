@@ -1,0 +1,25 @@
+{
+  "id": "mob-en-wikipedia-org-hd-hyundai-heavy-industries-b67c733",
+  "name": "HD Hyundai Heavy Industries (Wikipedia)",
+  "url": "https://en.wikipedia.org/wiki/HD_Hyundai_Heavy_Industries",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Wikipedia / Wikimedia Foundation",
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Article text read via MediaWiki API extract (titles=HD%20Hyundai%20Heavy%20Industries)."
+}

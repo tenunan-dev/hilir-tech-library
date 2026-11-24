@@ -1,0 +1,24 @@
+{
+  "id": "mob-santos-com-2403c50",
+  "name": "First production from Indonesian gas project — Santos",
+  "url": "https://www.santos.com/news/first-production-from-indonesian-gas-project/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Santos",
+  "access": "open",
+  "licence": "publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch; dated 3 Oct 2006."
+}

@@ -1,0 +1,111 @@
+{
+  "id": "fpso-agogo",
+  "name": "FPSO Agogo",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Angola",
+  "location": "Angola",
+  "status": "operating",
+  "description": "15-year contract, anticipated US$5.3 billion revenue; designed with 27% carbon emission reduction and offshore CCS technology.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Founded as logistics company",
+      "date": "1984",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Yinson_Holdings",
+        "source_id": "mob-en-wikipedia-org-yinson-holdings-2cf77a3"
+      }
+    },
+    {
+      "event": "Yinson GreenTech established",
+      "date": "2020",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Yinson_Holdings",
+        "source_id": "mob-en-wikipedia-org-yinson-holdings-2cf77a3"
+      }
+    },
+    {
+      "event": "Agogo FPSO delivered for Angola",
+      "date": "2025",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Yinson_Holdings",
+        "source_id": "mob-en-wikipedia-org-yinson-holdings-2cf77a3"
+      }
+    },
+    {
+      "event": "US$1 billion investor injection",
+      "date": "2025",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Yinson_Holdings",
+        "source_id": "mob-en-wikipedia-org-yinson-holdings-2cf77a3"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Agogo FPSO anticipated total contract revenue",
+      "year": 2025,
+      "unit": "USD million (as printed)",
+      "basis": "dollar year not stated; US$5.3 billion anticipated revenue over the 15-year contract duration, reported by Forbes 16 April 2025 as cited on the page",
+      "value": 5300,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Yinson_Holdings",
+        "source_id": "mob-en-wikipedia-org-yinson-holdings-2cf77a3"
+      }
+    },
+    {
+      "metric": "Investment into Yinson Production",
+      "year": 2025,
+      "unit": "USD million (as printed)",
+      "basis": "US$1 billion investment from consortium of international investment firms, 14 January 2025; dollar year not stated; equity investment, not a contract price",
+      "value": 1000,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Yinson_Holdings",
+        "source_id": "mob-en-wikipedia-org-yinson-holdings-2cf77a3"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Yinson Production",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Yinson_Holdings",
+      "source_id": "mob-en-wikipedia-org-yinson-holdings-2cf77a3",
+      "note": "15-year contract, anticipated US$5.3 billion revenue; designed with 27% carbon e"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yinson_Holdings",
+      "source_id": "mob-en-wikipedia-org-yinson-holdings-2cf77a3"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yinson_Holdings",
+      "source_id": "mob-en-wikipedia-org-yinson-holdings-2cf77a3",
+      "note": "15-year contract, anticipated US$5.3 billion revenue; designed with 27% carbon emission reduction and offshore CCS technology."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Names and contract values of the other eight FPSOs",
+      "why": "Page states nine FPSOs but names only Agogo",
+      "next_action": "Read Yinson Production annual reports and project pages"
+    },
+    {
+      "what": "Dollar year for Agogo US$5.3bn revenue figure",
+      "why": "Reported as future nominal revenue without a base year",
+      "next_action": "Read the Forbes article and any Yinson announcement defining the revenue basis"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

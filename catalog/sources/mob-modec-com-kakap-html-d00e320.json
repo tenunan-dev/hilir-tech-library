@@ -1,0 +1,25 @@
+{
+  "id": "mob-modec-com-kakap-html-d00e320",
+  "name": "MODEC - FPSO Kakap Natuna",
+  "url": "https://www.modec.com/project/detail/kakap.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "MODEC",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch; historical baseline outside 2006-2026 window."
+}

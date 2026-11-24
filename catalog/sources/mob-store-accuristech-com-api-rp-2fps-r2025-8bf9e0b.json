@@ -1,0 +1,25 @@
+{
+  "id": "mob-store-accuristech-com-api-rp-2fps-r2025-8bf9e0b",
+  "name": "API RP 2FPS (R2025) catalogue record",
+  "url": "https://store.accuristech.com/standards/api-rp-2fps-r2025?product_id=1811406",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Accuris / American Petroleum Institute",
+  "access": "open",
+  "licence": "© Accuris/API catalogue metadata only",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Fetched via https://r.jina.ai/ mirror after direct 403."
+}

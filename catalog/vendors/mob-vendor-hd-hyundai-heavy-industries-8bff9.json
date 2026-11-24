@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-hd-hyundai-heavy-industries-8bff9",
+  "name": "HD Hyundai Heavy Industries",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "HD Hyundai Heavy Industries named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/kizomba-offshore-field-deepwater-project/",
+      "source_id": "cost-offshore-technology-com-7e5c28"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

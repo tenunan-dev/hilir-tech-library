@@ -1,0 +1,25 @@
+{
+  "id": "mob-imo-org-international-convention-for-the-safet-9770454",
+  "name": "International Convention for the Safety of Life at Sea (SOLAS), 1974",
+  "url": "https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Safety-of-Life-at-Sea-(SOLAS),-1974.aspx",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "ROT",
+    "ELE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "International Maritime Organization",
+  "access": "open",
+  "licence": "© IMO; brief factual summary only",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch. Adoption 1 November 1974, entry into force 25 May 1980; Chapter XV detail recorded."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mob-dnv-com-bf32e43",
+  "name": "DNV Floating Production classification page",
+  "url": "https://www.dnv.com/maritime/offshore-classification/floating-production/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "HSE",
+    "INS",
+    "ROT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "DNV AS",
+  "access": "open",
+  "licence": "© DNV AS",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch. Used for unit types classed, count of units in class, shelf-state references and life-extension/RBI statement."
+}

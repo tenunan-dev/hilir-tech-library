@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-transocean-owner-operator-of-dwh-7cf6f",
+  "name": "Transocean (owner/operator of DWH)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Transocean (owner/operator of DWH) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.csb.gov/assets/1/20/20160412_macondo_full_exec_summary.pdf?15671",
+      "source_id": "mob-csb-gov-20160412-macondo-full-exec-summary-pdf-da4cc95"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

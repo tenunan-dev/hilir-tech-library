@@ -1,0 +1,25 @@
+{
+  "id": "mob-compassinternational-net-floating-production-s-c3967e2",
+  "name": "Compass International FPSO cost estimator book page",
+  "url": "https://compassinternational.net/blog/floating-production-storage-and-offloading-facility",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Compass International, Inc.",
+  "access": "open",
+  "licence": "Publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 17 June 2016; USD 12,034 low and USD 20,307 high per tonne verified; underlying PDF not read, so basis limited to what the page states."
+}

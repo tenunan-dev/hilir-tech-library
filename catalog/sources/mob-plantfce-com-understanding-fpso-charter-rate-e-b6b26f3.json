@@ -1,0 +1,24 @@
+{
+  "id": "mob-plantfce-com-understanding-fpso-charter-rate-e-b6b26f3",
+  "name": "Guide to FPSO Charter Rate Estimation",
+  "url": "https://plantfce.com/blog/posts/understanding-fpso-charter-rate-estimation-key-actors-and-pricing-models",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "PlantFCE / Storm Consulting",
+  "access": "open",
+  "licence": "Publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Day-rate bands are explicitly illustrative scenarios, not contract data; recorded with dollar year not stated."
+}

@@ -1,0 +1,129 @@
+{
+  "id": "madura-bd-field-madura-strait-east-java",
+  "name": "Madura BD field, Madura Strait, East Java",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "operating",
+  "description": "Sour-gas development operated by Husky-CNOOC Madura Ltd; gas exported via 52 km pipeline to an onshore gas metering station.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "FPSO contract awarded",
+      "date": "2014",
+      "source": {
+        "url": "https://www.offshore-mag.com/vessels/article/16769914/keppel-confirms-delivery-of-madura-bd-fpso",
+        "source_id": "mob-offshore-mag-com-keppel-confirms-delivery-of-m-bd3e6c2"
+      }
+    },
+    {
+      "event": "Conversion at Keppel",
+      "date": "2015",
+      "source": {
+        "url": "https://www.offshore-mag.com/vessels/article/16769914/keppel-confirms-delivery-of-madura-bd-fpso",
+        "source_id": "mob-offshore-mag-com-keppel-confirms-delivery-of-m-bd3e6c2"
+      }
+    },
+    {
+      "event": "Naming / delivery",
+      "date": "2016",
+      "source": {
+        "url": "https://www.offshore-mag.com/vessels/article/16769914/keppel-confirms-delivery-of-madura-bd-fpso",
+        "source_id": "mob-offshore-mag-com-keppel-confirms-delivery-of-m-bd3e6c2"
+      }
+    },
+    {
+      "event": "Arrival on field",
+      "date": "2017",
+      "source": {
+        "url": "https://www.offshore-mag.com/vessels/article/16769914/keppel-confirms-delivery-of-madura-bd-fpso",
+        "source_id": "mob-offshore-mag-com-keppel-confirms-delivery-of-m-bd3e6c2"
+      }
+    },
+    {
+      "event": "First oil",
+      "date": "2017",
+      "source": {
+        "url": "https://www.bumiarmada.com/armada-sterling-iii",
+        "source_id": "mob-bumiarmada-com-armada-sterling-iii-96b994b"
+      }
+    },
+    {
+      "event": "First gas ceremony",
+      "date": "2017",
+      "source": {
+        "url": "https://www.offshore-mag.com/vessels/article/16769914/keppel-confirms-delivery-of-madura-bd-fpso",
+        "source_id": "mob-offshore-mag-com-keppel-confirms-delivery-of-m-bd3e6c2"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Bareboat charter contract sum",
+      "year": 2017,
+      "unit": "USD",
+      "basis": "Contract sum on bareboat basis for firm 10-year period starting 2017 with up to five annual renewal options; stated in 2024 research note",
+      "value": 1180000000,
+      "source": {
+        "url": "https://klse.i3investor.com/web/blog/detail/AmInvestResearch/2024-03-07-story-h-186635527-Bumi_Armada_Potential_Sale_of_Karapan_Armada_Sterling_III",
+        "source_id": "mob-klse-i3investor-com-2024-03-07-story-h-1866355-deab2b1"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/vessels/article/16769914/keppel-confirms-delivery-of-madura-bd-fpso",
+      "source_id": "mob-offshore-mag-com-keppel-confirms-delivery-of-m-bd3e6c2",
+      "note": "Sour-gas development operated by Husky-CNOOC Madura Ltd; gas exported via 52 km "
+    },
+    {
+      "url": "https://www.bumiarmada.com/armada-sterling-iii",
+      "source_id": "mob-bumiarmada-com-armada-sterling-iii-96b994b"
+    },
+    {
+      "url": "https://www.offshore-mag.com/vessels/article/16769914/keppel-confirms-delivery-of-madura-bd-fpso",
+      "source_id": "mob-offshore-mag-com-keppel-confirms-delivery-of-m-bd3e6c2"
+    },
+    {
+      "url": "https://klse.i3investor.com/web/blog/detail/AmInvestResearch/2024-03-07-story-h-186635527-Bumi_Armada_Potential_Sale_of_Karapan_Armada_Sterling_III",
+      "source_id": "mob-klse-i3investor-com-2024-03-07-story-h-1866355-deab2b1"
+    },
+    {
+      "url": "https://www.offshore-mag.com/vessels/article/16769914/keppel-confirms-delivery-of-madura-bd-fpso",
+      "source_id": "mob-offshore-mag-com-keppel-confirms-delivery-of-m-bd3e6c2",
+      "note": "Sour-gas development operated by Husky-CNOOC Madura Ltd; gas exported via 52 km pipeline to an onshore gas metering station."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Storage capacity conflict",
+      "why": "Bumi Armada states 570,000 bbl condensate storage; Keppel/Offshore Magazine state 370,000 bbl.",
+      "next_action": "Reconcile against the vessel's tank table before using one number."
+    },
+    {
+      "what": "Condensate capacity conflict",
+      "why": "Bumi Armada 8,008 bpd vs Keppel design 7,500 bbl/d.",
+      "next_action": "Cite both bases separately."
+    },
+    {
+      "what": "HCML field page",
+      "why": "hcml.co.id returned HTTP 503 on direct WebFetch; dates for 2015 construction start, 13 January 2017 arrival and 20 September 2017 first gas came only from search results and are therefore not asserted as read facts.",
+      "next_action": "Retry the HCML page or r.jina.ai proxy."
+    },
+    {
+      "what": "Reliability",
+      "why": "No incident/uptime figure on the three pages read.",
+      "next_action": "Check Bumi Armada HSSE reports."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

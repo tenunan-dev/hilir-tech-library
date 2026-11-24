@@ -8,6 +8,23 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.25.2] — 2026-11-25 — Mobile production platforms: 20-year retrospective
+
+Owner-directed sweep of mobile production platform technology, projects, vendors, contractors,
+costs and reliability over 2006–2026, run by six evidence-first agents and ingested into the library.
+
+### Added
+- **122 projects, 153 sources, 117 vendors, 4 drawings, 6 materials** and one technology card with
+  583 sourced performance/cost figures and a register entry.
+- Coverage: FPSO/FPU, MOPU, semi-submersible production, TLP, spar, FLNG/FSRU; named units in APAC
+  and globally; vendors and EPC yards; dated contracts and charter values; reliability, standards
+  and patents, with unread full texts logged as gaps.
+
+### Verification
+`tools/build.py` 1,965 sources / 400 cards / 1,191 vendors / 430 equipment / 901 projects / 361 products /
+328 drawings / 165 materials; `pytest -q tests` **3,267 passed, 13 skipped**.
+
+
 ## [2026.11.25.1] — 2026-11-25 — Twenty-year project, technology and cost retrospective
 
 Owner-directed 2006–2026 retrospective on Murphy Golok, Serampang, West Patricia, Dialog Tarpon,

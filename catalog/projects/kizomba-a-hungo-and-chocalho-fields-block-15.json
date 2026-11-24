@@ -1,0 +1,91 @@
+{
+  "id": "kizomba-a-hungo-and-chocalho-fields-block-15",
+  "name": "Kizomba A (Hungo and Chocalho fields), Block 15",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Angola",
+  "location": "Angola",
+  "status": "operating",
+  "description": "Development consists of a TLP plus the FPSO; operator ExxonMobil",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Block 15 production began",
+      "date": "2003",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Kizomba_deepwater_project",
+        "source_id": "en-wikipedia-org-wiki-kizomba-deepwater-project"
+      }
+    },
+    {
+      "event": "Kizomba B first oil",
+      "date": "2005",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Kizomba_deepwater_project",
+        "source_id": "en-wikipedia-org-wiki-kizomba-deepwater-project"
+      }
+    },
+    {
+      "event": "Kizomba C launched with two FPSOs",
+      "date": "2008",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Kizomba_deepwater_project",
+        "source_id": "en-wikipedia-org-wiki-kizomba-deepwater-project"
+      }
+    },
+    {
+      "event": "Production sharing contract extended",
+      "date": "2025",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Kizomba_deepwater_project",
+        "source_id": "en-wikipedia-org-wiki-kizomba-deepwater-project"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "ExxonMobil (owner/operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Hyundai Heavy Industries, Ulsan, South Korea (builder)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Esso Exploration Angola",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Kizomba_deepwater_project",
+      "source_id": "en-wikipedia-org-wiki-kizomba-deepwater-project",
+      "note": "Development consists of a TLP plus the FPSO; operator ExxonMobil"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kizomba_deepwater_project",
+      "source_id": "en-wikipedia-org-wiki-kizomba-deepwater-project"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Kizomba A first-oil year",
+      "why": "Page states 2003 Block 15 startup and 2005 Kizomba B first oil, but not Kizomba A separately",
+      "next_action": "Check ExxonMobil The Lamp issue 3/2004 (dead link on Wikipedia) or Angolan regulator records"
+    },
+    {
+      "what": "Kizomba A processing capacity",
+      "why": "250,000 bpd figure on page refers to Kizomba B, not A",
+      "next_action": "Find vessel-specific data sheet"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

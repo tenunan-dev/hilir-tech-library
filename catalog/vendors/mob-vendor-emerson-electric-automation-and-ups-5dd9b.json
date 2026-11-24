@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-emerson-electric-automation-and-ups-5dd9b",
+  "name": "Emerson Electric (automation and UPS)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Emerson Electric (automation and UPS) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+      "source_id": "cost-en-wikipedia-org-prelude-flng"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mob-nstauthority-co-uk-decommissioning-cost-report-51a1efe",
+  "name": "UKCS Decommissioning Cost and Performance Report 2023",
+  "url": "https://www.nstauthority.co.uk/media/q0od4gta/decommissioning-cost-report.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "North Sea Transition Authority",
+  "access": "open",
+  "licence": "NSTA user agreement, reuse free with attribution",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 44-page PDF read via r.jina.ai proxy; GBP 37bn re-baseline in 2021 prices, GBP 40bn 2023 estimate in 2022 prices and GBP 21bn decade forecast verified in Appendix 1 and Section 2."
+}

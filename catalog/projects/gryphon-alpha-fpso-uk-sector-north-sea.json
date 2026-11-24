@@ -1,0 +1,59 @@
+{
+  "id": "gryphon-alpha-fpso-uk-sector-north-sea",
+  "name": "Gryphon Alpha FPSO, UK sector North Sea",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United Kingdom",
+  "location": "United Kingdom",
+  "status": "operating",
+  "description": "Four of ten mooring lines failed; 70+ personnel evacuated, 40 essential personnel remained",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Four mooring lines failed in North Sea storm; partial loss of station; crew evacuated",
+      "date": "2011",
+      "source": {
+        "url": "https://budsoffshoreenergy.com/2011/02/05/mooring-line-failures-evacuation-at-gryphon-alpha-fpso/",
+        "source_id": "mob-budsoffshoreenergy-com-7380787"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://budsoffshoreenergy.com/2011/02/05/mooring-line-failures-evacuation-at-gryphon-alpha-fpso/",
+      "source_id": "mob-budsoffshoreenergy-com-7380787",
+      "note": "Four of ten mooring lines failed; 70+ personnel evacuated, 40 essential personne"
+    },
+    {
+      "url": "https://budsoffshoreenergy.com/2011/02/05/mooring-line-failures-evacuation-at-gryphon-alpha-fpso/",
+      "source_id": "mob-budsoffshoreenergy-com-7380787"
+    },
+    {
+      "url": "https://budsoffshoreenergy.com/2011/02/05/mooring-line-failures-evacuation-at-gryphon-alpha-fpso/",
+      "source_id": "mob-budsoffshoreenergy-com-7380787",
+      "note": "Four of ten mooring lines failed; 70+ personnel evacuated, 40 essential personnel remained"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Official UK HSE/MAIB inquiry findings for the 2011 Gryphon Alpha mooring failure",
+      "why": "Only a secondary blog relay of a BBC report was readable; OnePetro and JPT papers were blocked",
+      "next_action": "Retrieve HSE report or an institutional copy of the OTC paper through a subscribed library"
+    },
+    {
+      "what": "Root cause (chain manufacturing defect vs storm overload) and damaged subsea infrastructure inventory",
+      "why": "Not stated in the readable source",
+      "next_action": "Search regulator and operator archives for the incident report"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit reliability and standards). Evidence-first 20-year retrospective built only from pages/PDFs actually read with WebFetch (several via the r.jina.ai text mirror, noted per source). Named APA"
+}

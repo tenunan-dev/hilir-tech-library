@@ -1,0 +1,24 @@
+{
+  "id": "mob-mat-prelude-flng-hull-steel",
+  "name": "Prelude FLNG hull steel",
+  "material_category": "hull-steel",
+  "description": "Prelude FLNG hull steel named for mobile production unit service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "steel quantity",
+      "unit": "tonnes",
+      "basis": "Wikipedia Prelude FLNG article; tertiary source read directly, steel quantity attributed to cited references",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+      "source_id": "cost-en-wikipedia-org-prelude-flng"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

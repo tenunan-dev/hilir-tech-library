@@ -1,0 +1,25 @@
+{
+  "id": "mob-bsee-gov-deepwater-horizon-joint-investigation-5a8d378",
+  "name": "Deepwater Horizon Joint Investigation Team Releases Final Report",
+  "url": "https://www.bsee.gov/site-page/deepwater-horizon-joint-investigation-team-releases-final-report",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Bureau of Safety and Environmental Enforcement, US DOI",
+  "access": "open",
+  "licence": "US federal government work",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch. Used for investigation scope and dates only; fatality/injury/spill figures taken from CSB report."
+}

@@ -1,0 +1,79 @@
+{
+  "id": "neptune-development-atwater-valley-green-canyon-613",
+  "name": "Neptune development, Atwater Valley / Green Canyon 613",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Oil exported via Caesar pipeline (BHP 25%), gas via Cleopatra pipeline (BHP 22%)",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "First oil and gas production",
+      "date": "2008",
+      "source": {
+        "url": "https://www.bhp.com/news/media-centre/releases/2008/07/bhp-billiton-begins-production-from-neptune-facility-in-the-deepwater-gulf-of-mexico",
+        "source_id": "mob-bhp-com-bhp-billiton-begins-production-from-ne-591f9b6"
+      }
+    },
+    {
+      "event": "Adjacent projects context",
+      "date": "2007",
+      "source": {
+        "url": "https://www.bhp.com/news/media-centre/releases/2008/07/bhp-billiton-begins-production-from-neptune-facility-in-the-deepwater-gulf-of-mexico",
+        "source_id": "mob-bhp-com-bhp-billiton-begins-production-from-ne-591f9b6"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "BHP Billiton (operator, 35%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Marathon Oil Company (30%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Woodside Energy (USA) Inc. (20%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Maxus (U.S.) Exploration Company (15%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.bhp.com/news/media-centre/releases/2008/07/bhp-billiton-begins-production-from-neptune-facility-in-the-deepwater-gulf-of-mexico",
+      "source_id": "mob-bhp-com-bhp-billiton-begins-production-from-ne-591f9b6",
+      "note": "Oil exported via Caesar pipeline (BHP 25%), gas via Cleopatra pipeline (BHP 22%)"
+    },
+    {
+      "url": "https://www.bhp.com/news/media-centre/releases/2008/07/bhp-billiton-begins-production-from-neptune-facility-in-the-deepwater-gulf-of-mexico",
+      "source_id": "mob-bhp-com-bhp-billiton-begins-production-from-ne-591f9b6"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "TLP capital cost",
+      "why": "Not stated in the read release",
+      "next_action": "Check BHP annual report 2008 petroleum projects"
+    },
+    {
+      "what": "TLP hull designer name and top tension",
+      "why": "Release refers only to 'the engineering contractor that designed the hull'",
+      "next_action": "Find BHP Neptune briefing paper PDF (surfaced in search, not read)"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

@@ -1,0 +1,170 @@
+{
+  "id": "kuito-espirito-santo-brasil-capixaba-fpsos",
+  "name": "Kuito / Espirito Santo / Brasil / Capixaba FPSOs",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Brazil",
+  "location": "Brazil",
+  "status": "operating",
+  "description": "Listed as de-commissioned units in the SBM FPSO list.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "IHC Caland renamed SBM Offshore",
+      "date": "2005",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+        "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98"
+      }
+    },
+    {
+      "event": "Shell FLNG turret framework agreement",
+      "date": "2009",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+        "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98"
+      }
+    },
+    {
+      "event": "GustoMSC divested",
+      "date": "2012",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+        "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98"
+      }
+    },
+    {
+      "event": "Dutch bribery settlement",
+      "date": "2014",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+        "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98"
+      }
+    },
+    {
+      "event": "Shell Stones deepest disconnectable FPSO contract",
+      "date": "2013",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "GustoMSC divestment proceeds",
+      "year": 2012,
+      "unit": "USD million (as printed)",
+      "basis": "US$185 million sale to Parcom Capital; dollar year not stated; nominal at 2012 transaction",
+      "value": 185,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+        "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98"
+      }
+    },
+    {
+      "metric": "Dutch Public Prosecutor settlement",
+      "year": 2014,
+      "unit": "USD million (as printed)",
+      "basis": "US$240 million record settlement, November 2014; dollar year not stated; nominal at transaction date",
+      "value": 240,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+        "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98"
+      }
+    },
+    {
+      "metric": "2016 settlement (incl. Petrobras)",
+      "year": 2016,
+      "unit": "USD million (as printed)",
+      "basis": "US$162.8 million, of which 149 million for Petrobras; dollar year not stated; nominal at transaction date",
+      "value": 162.8,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+        "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98"
+      }
+    },
+    {
+      "metric": "US authorities bribery settlement",
+      "year": 2017,
+      "unit": "USD million (as printed)",
+      "basis": "US$238 million settlement late 2017 for bribery in Brazil, Angola, Equatorial Guinea, Kazakhstan and Iraq; dollar year not stated",
+      "value": 238,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+        "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98"
+      }
+    },
+    {
+      "metric": "2023 revenue",
+      "year": 2023,
+      "unit": "USD billion (as printed)",
+      "basis": "US$4.963 billion, 2023 Annual Report; fiscal-year figure, not a contract price; dollar year not stated in page",
+      "value": 4.963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+        "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "SBM Offshore N.V.",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "The Linde Group",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+      "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98",
+      "note": "Listed as de-commissioned units in the SBM FPSO list."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+      "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading",
+      "note": "World's deepest disconnectable FPSO, 2,900 m water depth, Gulf of Mexico; awarded July 2013."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+      "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98",
+      "note": "Listed in SBM Offshore FPSO group companies list as sold to ExxonMobil."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+      "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98",
+      "note": "Listed as under construction in the SBM FPSO list."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Unit-by-unit FPSO charter values and dates for 2006-2026",
+      "why": "Wikipedia FPSO list gives names/status but no individual contract values or charter rates",
+      "next_action": "Read SBM annual reports 2006-2026 and individual press releases for contract values and dollar years"
+    },
+    {
+      "what": "Dollar-year basis for cited USD figures",
+      "why": "Page reports nominal USD without a constant-dollar base year",
+      "next_action": "Source annual reports stating the reporting currency convention"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "skarv-fpso-bp-norge",
+  "name": "Skarv FPSO (BP Norge)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Norway",
+  "location": "Norway",
+  "status": "operating",
+  "description": "Aker Kvaerner/Solutions developed front-end and overall system design; hull to Samsung; turret to SBM; hull delivered January 2010 per FPSO Wikipedia page.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Aker Kvaerner renamed Aker Solutions",
+      "date": "2008",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Aker_Solutions",
+        "source_id": "mob-en-wikipedia-org-aker-solutions-0b0f3bd"
+      }
+    },
+    {
+      "event": "EPC division spun off as Kvaerner ASA",
+      "date": "2011",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Aker_Solutions",
+        "source_id": "mob-en-wikipedia-org-aker-solutions-0b0f3bd"
+      }
+    },
+    {
+      "event": "Split into Aker Solutions and Akastor",
+      "date": "2014",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Aker_Solutions",
+        "source_id": "mob-en-wikipedia-org-aker-solutions-0b0f3bd"
+      }
+    },
+    {
+      "event": "Merger with Kvaerner ASA",
+      "date": "2020",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Aker_Solutions",
+        "source_id": "mob-en-wikipedia-org-aker-solutions-0b0f3bd"
+      }
+    },
+    {
+      "event": "Skarv start-up date conflict",
+      "date": "2012",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/skarv/",
+        "source_id": "mob-offshore-technology-com-13fe71d"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "2006 sale of pulp-and-paper and power businesses to Metso",
+      "year": 2006,
+      "unit": "EUR million",
+      "basis": "€335 million sale in 2006; corporate divestment, not a mobile unit contract; non-USD figure, dollar-year rule not applicable",
+      "value": 335,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Aker_Solutions",
+        "source_id": "mob-en-wikipedia-org-aker-solutions-0b0f3bd"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Aker Solutions",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Aker Kvaerner",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "BP Norge",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading",
+      "note": "Aker Kvaerner/Solutions developed front-end and overall system design; hull to S"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Aker_Solutions",
+      "source_id": "mob-en-wikipedia-org-aker-solutions-0b0f3bd"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/skarv/",
+      "source_id": "mob-offshore-technology-com-13fe71d"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading",
+      "note": "Aker Kvaerner/Solutions developed front-end and overall system design; hull to Samsung; turret to SBM; hull delivered January 2010 per FPSO Wikipedia page."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Skarv EPcma contract value",
+      "why": "Only the front-end design NKr100m figure is printed",
+      "next_action": "Read the cited Rigzone 'Aker Kvaerner Wins More Skarv Work' article"
+    },
+    {
+      "what": "Dollar year for Skarv figures",
+      "why": "Nominal amounts only",
+      "next_action": "Locate original 2008-2012 contract announcements"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

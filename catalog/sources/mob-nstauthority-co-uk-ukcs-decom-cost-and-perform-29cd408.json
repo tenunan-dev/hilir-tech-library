@@ -1,0 +1,26 @@
+{
+  "id": "mob-nstauthority-co-uk-ukcs-decom-cost-and-perform-29cd408",
+  "name": "UKCS Decommissioning Cost and Performance Update 2024",
+  "url": "https://www.nstauthority.co.uk/media/ppvlelgd/ukcs-decom-cost-and-performance-update-01.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "North Sea Transition Authority",
+  "access": "open",
+  "licence": "NSTA user agreement; reuse free of charge with attribution",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 26-page PDF read via r.jina.ai proxy; Figure 6 caption present but plotted day-rate values not in extracted text, so no figures asserted."
+}

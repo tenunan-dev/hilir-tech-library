@@ -1,0 +1,132 @@
+{
+  "id": "jubilee-field-phase-i-deepwater-tano-west-cape-three-points",
+  "name": "Jubilee field Phase I, Deepwater Tano / West Cape Three Points",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Ghana",
+  "location": "Ghana",
+  "status": "operating",
+  "description": "Tullow 38.98%, Kosmos 38.61%, GNPC 19.69%, PetroSA 2.72%; recoverable reserves >370 million barrels",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "MODEC awarded EPC contract",
+      "date": "2008",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/jubilee-field/",
+        "source_id": "mob-offshore-technology-com-7c644b3"
+      }
+    },
+    {
+      "event": "Conversion completed at Jurong",
+      "date": "2010",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/jubilee-field/",
+        "source_id": "mob-offshore-technology-com-7c644b3"
+      }
+    },
+    {
+      "event": "Towed to field and installed",
+      "date": "2010",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/jubilee-field/",
+        "source_id": "mob-offshore-technology-com-7c644b3"
+      }
+    },
+    {
+      "event": "First oil",
+      "date": "2010",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/jubilee-field/",
+        "source_id": "mob-offshore-technology-com-7c644b3"
+      }
+    },
+    {
+      "event": "Early production ramp-up",
+      "date": "2011",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/jubilee-field/",
+        "source_id": "mob-offshore-technology-com-7c644b3"
+      }
+    },
+    {
+      "event": "Operatorship transfer",
+      "date": "2022",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/jubilee-field/",
+        "source_id": "mob-offshore-technology-com-7c644b3"
+      }
+    },
+    {
+      "event": "Jubilee South East onstream",
+      "date": "2023",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/jubilee-field/",
+        "source_id": "mob-offshore-technology-com-7c644b3"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "MODEC (EPC and O&M to 2022)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Jurong Shipyard, Singapore (conversion)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Tullow Oil (operator from July 2022)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Technip (risers, flowlines, umbilicals)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Subsea 7 / i-Tech (ROV system)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Weatherford (flowline pigging)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/jubilee-field/",
+      "source_id": "mob-offshore-technology-com-7c644b3",
+      "note": "Tullow 38.98%, Kosmos 38.61%, GNPC 19.69%, PetroSA 2.72%; recoverable reserves >"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/jubilee-field/",
+      "source_id": "mob-offshore-technology-com-7c644b3"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/jubilee-field/",
+      "source_id": "mob-offshore-technology-com-7c644b3",
+      "note": "Tullow 38.98%, Kosmos 38.61%, GNPC 19.69%, PetroSA 2.72%; recoverable reserves >370 million barrels"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "FPSO conversion/EPC contract value",
+      "why": "No figure stated on the page read",
+      "next_action": "Check MODEC annual reports for the 2008 contract value"
+    },
+    {
+      "what": "reliability and downtime history",
+      "why": "No quantified uptime or incident data on the page read",
+      "next_action": "Obtain Ghana Petroleum Commission production reports"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-hyundai-heavy-industries-south-korea-fabrication-of-21ef3",
+  "name": "Hyundai Heavy Industries, South Korea (fabrication of hull and topsides)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Hyundai Heavy Industries, South Korea (fabrication of hull and topsides) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Aasta_Hansteen_spar",
+      "source_id": "mob-en-wikipedia-org-aasta-hansteen-spar-6b380e4"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

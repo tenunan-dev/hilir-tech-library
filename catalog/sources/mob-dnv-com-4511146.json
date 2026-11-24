@@ -1,0 +1,26 @@
+{
+  "id": "mob-dnv-com-4511146",
+  "name": "DNV offshore technical guidance documents for download",
+  "url": "https://www.dnv.com/maritime/offshore-classification/technical-guidance-otg/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "HSE",
+    "ROT",
+    "INS"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "DNV AS",
+  "access": "open",
+  "licence": "© DNV AS; descriptions quoted as brief factual summary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch. Used for OTG-17, OTG-18, OTG-27 and DNV-OS-E301 references."
+}

@@ -1,0 +1,143 @@
+{
+  "id": "thunder-hawk-semi-submersible-production-facility",
+  "name": "Thunder Hawk semi-submersible production facility",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "SBM Offshore owned; only lease-fleet facility with revenue dependent on produced volumes; unit-of-production depreciation; USD 10m impairment in 2020 with post-tax discount rate 11.6% versus 6.1% in 2019.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "MODEC and SBM disclose fixed-day-rate lease/operate models",
+      "date": "2024",
+      "source": {
+        "url": "https://www.modec.com/ir/library/presentation/assets/pdf/2024_2q_Analyst_presentation_en.pdf",
+        "source_id": "mob-modec-com-2024-2q-analyst-presentation-en-pdf-f355b24"
+      }
+    },
+    {
+      "event": "SBM 2023 revenue note confirms charter-rate share",
+      "date": "2023",
+      "source": {
+        "url": "https://2023.annualreport.sbmoffshore.com/pdfondemand/printpdf?docId=158691&nodes=159515",
+        "source_id": "mob-2023-annualreport-sbmoffshore-com-printpdf-919b209"
+      }
+    },
+    {
+      "event": "NSTA publishes semi-submersible average day-rate chart",
+      "date": "2024",
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/ppvlelgd/ukcs-decom-cost-and-performance-update-01.pdf",
+        "source_id": "mob-nstauthority-co-uk-ukcs-decom-cost-and-perform-29cd408"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Illustrative charter rate, generic converted FPSO 50,000-100,000 bopd, West Africa, 10 years",
+      "year": 2024,
+      "unit": "USD per day",
+      "basis": "PlantFCE consultancy blog illustrative scenario, published 2024; estimated rate only, not a signed contract; dollar year not stated by page.",
+      "low": 150000,
+      "high": 300000,
+      "source": {
+        "url": "https://plantfce.com/blog/posts/understanding-fpso-charter-rate-estimation-key-actors-and-pricing-models",
+        "source_id": "mob-plantfce-com-understanding-fpso-charter-rate-e-b6b26f3"
+      }
+    },
+    {
+      "metric": "Illustrative charter rate, large newbuild FPSO 150,000+ bopd, Brazil pre-salt, 15 years",
+      "year": 2024,
+      "unit": "USD per day",
+      "basis": "PlantFCE consultancy blog illustrative scenario, published 2024; estimated rate only, not a signed contract; dollar year not stated by page.",
+      "low": 350000,
+      "high": 550000,
+      "source": {
+        "url": "https://plantfce.com/blog/posts/understanding-fpso-charter-rate-estimation-key-actors-and-pricing-models",
+        "source_id": "mob-plantfce-com-understanding-fpso-charter-rate-e-b6b26f3"
+      }
+    },
+    {
+      "metric": "Illustrative charter rate, small converted FPSO 25,000-50,000 bopd, Southeast Asia, 7 years",
+      "year": 2024,
+      "unit": "USD per day",
+      "basis": "PlantFCE consultancy blog illustrative scenario, published 2024; estimated rate only, not a signed contract; dollar year not stated by page.",
+      "low": 100000,
+      "high": 200000,
+      "source": {
+        "url": "https://plantfce.com/blog/posts/understanding-fpso-charter-rate-estimation-key-actors-and-pricing-models",
+        "source_id": "mob-plantfce-com-understanding-fpso-charter-rate-e-b6b26f3"
+      }
+    },
+    {
+      "metric": "Charter-rate share of SBM Lease and Operate revenue",
+      "year": 2023,
+      "unit": "percent",
+      "basis": "SBM 2023 annual report note 4.3.3; 51% in 2022; structural revenue mix figure, not a rate.",
+      "value": 46,
+      "source": {
+        "url": "https://2023.annualreport.sbmoffshore.com/pdfondemand/printpdf?docId=158691&nodes=159515",
+        "source_id": "mob-2023-annualreport-sbmoffshore-com-printpdf-919b209"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+      "note": "SBM Offshore owned; only lease-fleet facility with revenue dependent on produced"
+    },
+    {
+      "url": "https://www.modec.com/ir/library/presentation/assets/pdf/2024_2q_Analyst_presentation_en.pdf",
+      "source_id": "mob-modec-com-2024-2q-analyst-presentation-en-pdf-f355b24"
+    },
+    {
+      "url": "https://2023.annualreport.sbmoffshore.com/pdfondemand/printpdf?docId=158691&nodes=159515",
+      "source_id": "mob-2023-annualreport-sbmoffshore-com-printpdf-919b209"
+    },
+    {
+      "url": "https://www.nstauthority.co.uk/media/ppvlelgd/ukcs-decom-cost-and-performance-update-01.pdf",
+      "source_id": "mob-nstauthority-co-uk-ukcs-decom-cost-and-perform-29cd408"
+    },
+    {
+      "url": "https://plantfce.com/blog/posts/understanding-fpso-charter-rate-estimation-key-actors-and-pricing-models",
+      "source_id": "mob-plantfce-com-understanding-fpso-charter-rate-e-b6b26f3"
+    },
+    {
+      "url": "https://www.modec.com/ir/library/presentation/assets/pdf/2023_2q_Analyst_presentation_en.pdf",
+      "note": "MODEC 35% owned; 21-year charter with Petrobras; Buzios field; 150,000 bopd and 212 mmscfd."
+    },
+    {
+      "url": "https://www.modec.com/ir/library/presentation/assets/pdf/2024_2q_Analyst_presentation_en.pdf",
+      "source_id": "mob-modec-com-2024-2q-analyst-presentation-en-pdf-f355b24",
+      "note": "MODEC 32.5% owned; 25-year charter with Petrobras; Marlim field."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Actual contracted FPSO day rates for named units",
+      "why": "Operators and lessors report day-rate methodology and backlog but not the per-day figure; no primary source found with a signed rate.",
+      "next_action": "Inspect Appendix B Part A of the 2005 Murphy/Kikeh FPSO charter contract (SEC EX-10.5A) for a stated Hire Rate, then seek recent equivalents."
+    },
+    {
+      "what": "Semi-submersible P&A day rates from NSTA Figure 6",
+      "why": "Chart is an image; extracted PDF text gives only caption and source (Westwood, June 2024).",
+      "next_action": "Read the chart visually from the PDF or obtain the underlying Westwood series."
+    },
+    {
+      "what": "FiFi and DP premiums",
+      "why": "No source read in this sweep quantified a fire-fighting or dynamic-positioning premium for a mobile production unit.",
+      "next_action": "Search class/insurance sources or charter-party addenda for FiFi/DP day-rate uplifts."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit costs). Evidence-first retrospective of dated mobile production unit costs, 2006-2026. Strongest primary evidence: Seatrium's S$11bn P-84/P-85 contract (reported by pre"
+}

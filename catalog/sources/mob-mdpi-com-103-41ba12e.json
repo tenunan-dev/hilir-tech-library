@@ -1,0 +1,26 @@
+{
+  "id": "mob-mdpi-com-103-41ba12e",
+  "name": "Transient Responses Evaluation of FPSO with Different Failure Scenarios of Mooring Lines",
+  "url": "https://www.mdpi.com/2077-1312/9/2/103",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "MAT",
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "MDPI, Journal of Marine Science and Engineering",
+  "access": "open",
+  "licence": "CC BY 4.0 (MDPI open access)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Direct WebFetch returned 403; full article text was read via https://r.jina.ai/ mirror. All simulation numbers explicitly labelled as model results, and the 23-incident count is quoted from the paper's Introduction."
+}

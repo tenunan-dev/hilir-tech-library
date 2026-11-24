@@ -2,7 +2,7 @@
 
 A curated catalog of public sources on oil, gas, petrochemical and energy technologies, built so AI agents can find, cite and read them.
 
-It holds **1,812 catalog sources** across 10 sectors (the eight energy sectors, IDC — data centres, and WWT — wastewater and water reuse) and 8 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of **253 collected documents** (one per source url — 207 open, 46 full-text-restricted); **399 technology cards** covering the 414-entry technology register; a **vendor directory of 1,074 records**; an **equipment catalog of 430 equipment classes** (including gas-fired boiler types and their components); and a **project catalog of 779 named projects and operating plants** (owners, contractors, capacities, milestones), a **product catalog of 361 vendor product lines with printed specifications**, and **324 citable process drawings (PFD/P&ID/schematics)**. A search index, a Postgres layer, an MCP server, a REST API and a web interface expose all of it to agents and people.
+It holds **1,965 catalog sources** across 10 sectors (the eight energy sectors, IDC — data centres, and WWT — wastewater and water reuse) and 8 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of **253 collected documents** (one per source url — 207 open, 46 full-text-restricted); **400 technology cards** covering the 415-entry technology register; a **vendor directory of 1,191 records**; an **equipment catalog of 430 equipment classes** (including gas-fired boiler types and their components); and a **project catalog of 901 named projects and operating plants** (owners, contractors, capacities, milestones), a **product catalog of 361 vendor product lines with printed specifications**, and **328 citable process drawings (PFD/P&ID/schematics)**. A search index, a Postgres layer, an MCP server, a REST API and a web interface expose all of it to agents and people.
 
 ## Documentation
 
@@ -94,7 +94,7 @@ Terms findings are recorded as labels — e.g. terms-forbid-copying sites carry 
 
 ## Roadmap
 
-1. **Catalog (done):** taxonomy, schema, 1,812 records, generated indexes.
+1. **Catalog (done):** taxonomy, schema, 1,965 records, generated indexes.
 2. **Verification and corpus (ongoing):** records verified against live terms; collectors in `collectors/` (RSS, arXiv, OSTI, manual inbox) write licence-tagged Markdown into `corpus/<id>/`. See `collectors/README.md`.
 3. **Agent access (done):** SQLite FTS5 keyword index with optional embeddings, an MCP server with 32 tools, a REST API and an HTML interface, hosted at techlib.hilir.app / techlib-api.hilir.app behind hilir Access (open-licence text only).
 4. **Postgres layer (done):** pgvector, full-text search and a knowledge graph on Neon, reloaded from the files by `tools/load_postgres.py` and queried read-only by agents (`sql_query`) and the web console as role `og_mcp_read`. See [docs/POSTGRES.md](docs/POSTGRES.md).

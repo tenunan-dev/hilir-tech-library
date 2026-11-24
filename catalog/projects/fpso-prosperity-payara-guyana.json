@@ -1,0 +1,105 @@
+{
+  "id": "fpso-prosperity-payara-guyana",
+  "name": "FPSO Prosperity (Payara, Guyana)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Guyana",
+  "location": "Guyana",
+  "status": "operating",
+  "description": "SBM Fast4Ward hull; spread moored in about 1,900 m; Remazel supplied mooring tensioning system and riser pull-in package with value undisclosed.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "SBM awarded Equinor/Statoil turnkey contract for Johan Castberg turret mooring system",
+      "date": "2017",
+      "source": {
+        "url": "https://www.sbmoffshore.com/newsroom/sbm-offshore-awarded-turnkey-contract-statoils-johan",
+        "source_id": "mob-sbmoffshore-com-sbm-offshore-awarded-turnkey-c-fda8191"
+      }
+    },
+    {
+      "event": "Final Johan Castberg TMS modules sailed from Dubai to Singapore",
+      "date": "2020",
+      "source": {
+        "url": "https://www.sbmoffshore.com/newsroom/join-us-down-memory-lane-watch-video-johan-castberg-turret-mooring-system-tms",
+        "source_id": "mob-sbmoffshore-com-join-us-down-memory-lane-watch-3114048"
+      }
+    },
+    {
+      "event": "APL/NOV awarded two submerged turret production systems",
+      "date": "2019",
+      "source": {
+        "url": "https://www.nov.com/news/nov-announces-new-contract-award-for-stp-system",
+        "source_id": "mob-nov-com-nov-announces-new-contract-award-for-s-a968f7a"
+      }
+    },
+    {
+      "event": "Remazel contracted for Prosperity FPSO mooring tensioning and riser pull-in package",
+      "date": "2021",
+      "source": {
+        "url": "https://www.oedigital.com/news/487578-remazel-to-deliver-equipment-for-sbm-offshore-s-prosperity-fpso",
+        "source_id": "mob-oedigital-com-487578-remazel-to-deliver-equipm-220f533"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.oedigital.com/news/487578-remazel-to-deliver-equipment-for-sbm-offshore-s-prosperity-fpso",
+      "source_id": "mob-oedigital-com-487578-remazel-to-deliver-equipm-220f533",
+      "note": "SBM Fast4Ward hull; spread moored in about 1,900 m; Remazel supplied mooring ten"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/newsroom/sbm-offshore-awarded-turnkey-contract-statoils-johan",
+      "source_id": "mob-sbmoffshore-com-sbm-offshore-awarded-turnkey-c-fda8191"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/newsroom/join-us-down-memory-lane-watch-video-johan-castberg-turret-mooring-system-tms",
+      "source_id": "mob-sbmoffshore-com-join-us-down-memory-lane-watch-3114048"
+    },
+    {
+      "url": "https://www.nov.com/news/nov-announces-new-contract-award-for-stp-system",
+      "source_id": "mob-nov-com-nov-announces-new-contract-award-for-s-a968f7a"
+    },
+    {
+      "url": "https://www.oedigital.com/news/487578-remazel-to-deliver-equipment-for-sbm-offshore-s-prosperity-fpso",
+      "source_id": "mob-oedigital-com-487578-remazel-to-deliver-equipm-220f533"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/newsroom/sbm-offshore-awarded-turnkey-contract-statoils-johan",
+      "source_id": "mob-sbmoffshore-com-sbm-offshore-awarded-turnkey-c-fda8191",
+      "note": "8,000 t bogie turret, 21 riser slots, 372 m water depth, three bundles of five mooring lines; fabricated by Drydocks World Dubai, designed by SBM Offshore."
+    },
+    {
+      "url": "https://www.oedigital.com/news/487578-remazel-to-deliver-equipment-for-sbm-offshore-s-prosperity-fpso",
+      "source_id": "mob-oedigital-com-487578-remazel-to-deliver-equipm-220f533",
+      "note": "SBM Fast4Ward hull; spread moored in about 1,900 m; Remazel supplied mooring tensioning system and riser pull-in package with value undisclosed."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Value of Johan Castberg turret mooring system EPC",
+      "why": "SBM's award announcement and follow-up news give scope and schedule but no price.",
+      "next_action": "Check Equinor project cost disclosures or SBM annual report order intake by product line."
+    },
+    {
+      "what": "Values of the two 2019 STP system awards",
+      "why": "NOV release is silent on price.",
+      "next_action": "Seek Reliance/Bumi Armada project filings or NOV segment order disclosures."
+    },
+    {
+      "what": "Prosperity riser pull-in and mooring tensioning package price",
+      "why": "Supplier explicitly declined to disclose value as confidential.",
+      "next_action": "No reliable public source identified; leave as gap."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit costs). Evidence-first retrospective of dated mobile production unit costs, 2006-2026. Strongest primary evidence: Seatrium's S$11bn P-84/P-85 contract (reported by pre"
+}

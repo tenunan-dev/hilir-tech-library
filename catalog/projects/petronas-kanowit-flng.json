@@ -1,0 +1,136 @@
+{
+  "id": "petronas-kanowit-flng",
+  "name": "Petronas Kanowit FLNG",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Technip and DSME consortium awarded procurement, engineering, construction, installation and commissioning contract for FLNG destined for Kanowit gas field off Sarawak.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "DSME name adopted",
+      "date": "2002",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hanwha_Ocean",
+        "source_id": "mob-en-wikipedia-org-hanwha-ocean-01a4d4c"
+      }
+    },
+    {
+      "event": "Petronas/Technip/DSME FLNG consortium contract",
+      "date": "2012",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+      }
+    },
+    {
+      "event": "Accounting fraud finding and state bailout",
+      "date": "2017",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hanwha_Ocean",
+        "source_id": "mob-en-wikipedia-org-hanwha-ocean-01a4d4c"
+      }
+    },
+    {
+      "event": "Hanwha controlling stake",
+      "date": "2022",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hanwha_Ocean",
+        "source_id": "mob-en-wikipedia-org-hanwha-ocean-01a4d4c"
+      }
+    },
+    {
+      "event": "Renamed Hanwha Ocean",
+      "date": "2023",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hanwha_Ocean",
+        "source_id": "mob-en-wikipedia-org-hanwha-ocean-01a4d4c"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Hanwha controlling stake acquisition",
+      "year": 2022,
+      "unit": "USD million (as printed)",
+      "basis": "2 trillion won (US$1.5 billion) for 49.3% stake, December 2022; dollar year not stated; conversion as printed",
+      "value": 1500,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hanwha_Ocean",
+        "source_id": "mob-en-wikipedia-org-hanwha-ocean-01a4d4c"
+      }
+    },
+    {
+      "metric": "Government loan (2025-equivalent USD as printed)",
+      "year": 2025,
+      "unit": "USD million (as printed)",
+      "basis": "Page states ₩2.9 trillion (equivalent to ₩3.46 trillion or US$2.58 billion in 2025) for March 2017 loan; 2025-equivalent, not a contract price; dollar year 2025 as stated",
+      "value": 2580,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hanwha_Ocean",
+        "source_id": "mob-en-wikipedia-org-hanwha-ocean-01a4d4c"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Hanwha Ocean",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Aker Arctic Technology Inc.",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Yamal LNG",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading",
+      "note": "Technip and DSME consortium awarded procurement, engineering, construction, inst"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hanwha_Ocean",
+      "source_id": "mob-en-wikipedia-org-hanwha-ocean-01a4d4c"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading",
+      "note": "Technip and DSME consortium awarded procurement, engineering, construction, installation and commissioning contract for FLNG destined for Kanowit gas field off Sarawak."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hanwha_Ocean",
+      "source_id": "mob-en-wikipedia-org-hanwha-ocean-01a4d4c",
+      "note": "15 Arc7 Yamalmax LNG carriers designed by Aker Arctic."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Kanowit FLNG contract value",
+      "why": "No value printed on the page read",
+      "next_action": "Read the Rigzone first-steel article and Petronas announcement"
+    },
+    {
+      "what": "DSME FPSO-specific contract register 2006-2026",
+      "why": "Only LNG carrier and general corporate figures were found",
+      "next_action": "Read DSME/Hanwha Ocean annual reports and project releases"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

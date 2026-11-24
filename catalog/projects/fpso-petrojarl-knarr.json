@@ -1,0 +1,171 @@
+{
+  "id": "fpso-petrojarl-knarr",
+  "name": "FPSO Petrojarl Knarr",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Norway",
+  "location": "Norway",
+  "status": "operating",
+  "description": "Norwegian North Sea, BG Group; 63,000 bbl/d; Samsung-built hull, Aibel final preparations.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Offshore business commenced as Golar Nor Offshore",
+      "date": "1998",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Teekay",
+        "source_id": "mob-en-wikipedia-org-teekay-07bc2c5"
+      }
+    },
+    {
+      "event": "Navion acquisition",
+      "date": "2002",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Teekay",
+        "source_id": "mob-en-wikipedia-org-teekay-07bc2c5"
+      }
+    },
+    {
+      "event": "Petrojarl ASA majority acquisition",
+      "date": "2006",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Teekay",
+        "source_id": "mob-en-wikipedia-org-teekay-07bc2c5"
+      }
+    },
+    {
+      "event": "Remaining Petrojarl shares acquired",
+      "date": "2008",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Teekay",
+        "source_id": "mob-en-wikipedia-org-teekay-07bc2c5"
+      }
+    },
+    {
+      "event": "Brookfield investment / exit from offshore",
+      "date": "2017",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Teekay",
+        "source_id": "mob-en-wikipedia-org-teekay-07bc2c5"
+      }
+    },
+    {
+      "event": "Sale of remaining offshore interests",
+      "date": "2019",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Teekay",
+        "source_id": "mob-en-wikipedia-org-teekay-07bc2c5"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Brookfield equity investment in Teekay Offshore",
+      "year": 2017,
+      "unit": "USD million (as printed)",
+      "basis": "US$640 million equity investment completed September 2017; dollar year not stated; equity transaction",
+      "value": 640,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Teekay",
+        "source_id": "mob-en-wikipedia-org-teekay-07bc2c5"
+      }
+    },
+    {
+      "metric": "Sale of remaining Teekay Offshore interests",
+      "year": 2019,
+      "unit": "USD million (as printed)",
+      "basis": "US$100 million, April 2019; dollar year not stated; divestment",
+      "value": 100,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Teekay",
+        "source_id": "mob-en-wikipedia-org-teekay-07bc2c5"
+      }
+    },
+    {
+      "metric": "Maersk LNG carrier business acquisition",
+      "year": 2011,
+      "unit": "USD million (as printed)",
+      "basis": "Deal worth US$1.4 billion for eight Maersk LNG carriers after October 2011; dollar year not stated; not a mobile production unit transaction",
+      "value": 1400,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Teekay",
+        "source_id": "mob-en-wikipedia-org-teekay-07bc2c5"
+      }
+    },
+    {
+      "metric": "Stonepeak acquisition of Teekay LNG",
+      "year": 2021,
+      "unit": "USD million (as printed)",
+      "basis": "US$6.2 billion transaction announced 2021, closed 13 January 2022; dollar year not stated; LNG shipping, not FPSO",
+      "value": 6200,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Teekay",
+        "source_id": "mob-en-wikipedia-org-teekay-07bc2c5"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Teekay",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Samsung Heavy Industries",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Aibel",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "BG Group",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Teekay",
+      "source_id": "mob-en-wikipedia-org-teekay-07bc2c5",
+      "note": "Norwegian North Sea, BG Group; 63,000 bbl/d; Samsung-built hull, Aibel final pre"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Teekay",
+      "source_id": "mob-en-wikipedia-org-teekay-07bc2c5"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Teekay",
+      "source_id": "mob-en-wikipedia-org-teekay-07bc2c5",
+      "note": "Norwegian North Sea, BG Group; 63,000 bbl/d; Samsung-built hull, Aibel final preparations."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Teekay",
+      "source_id": "mob-en-wikipedia-org-teekay-07bc2c5",
+      "note": "Converted from the Russian tanker Che Guevara, acquired 2007."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Teekay",
+      "source_id": "mob-en-wikipedia-org-teekay-07bc2c5",
+      "note": "JV of Teekay LNG and China LNG (COSCO); first Eduard Toll delivered January 2018, final Yakov Gakkel December 2019."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Petrojarl acquisition price (2006)",
+      "why": "Only the acquisition date is stated",
+      "next_action": "Read the Teekay 6-K filed 31 August 2006"
+    },
+    {
+      "what": "FPSO charter values for Knarr and Cidade de Rio das Ostras",
+      "why": "No contract values printed",
+      "next_action": "Read Teekay Offshore annual reports"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

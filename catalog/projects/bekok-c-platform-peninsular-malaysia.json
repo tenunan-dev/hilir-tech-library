@@ -1,0 +1,62 @@
+{
+  "id": "bekok-c-platform-peninsular-malaysia",
+  "name": "Bekok-C platform, Peninsular Malaysia",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "MOPU Rubicone served Bekok-C from 2011 to 2013.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Conversion and start-up",
+      "date": "2011",
+      "source": {
+        "url": "https://amrcorp.com.my/projects/",
+        "source_id": "mob-amrcorp-com-my-05f4b78"
+      }
+    },
+    {
+      "event": "Demobilisation",
+      "date": "2013",
+      "source": {
+        "url": "https://amrcorp.com.my/projects/",
+        "source_id": "mob-amrcorp-com-my-05f4b78"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://amrcorp.com.my/projects/",
+      "source_id": "mob-amrcorp-com-my-05f4b78",
+      "note": "MOPU Rubicone served Bekok-C from 2011 to 2013."
+    },
+    {
+      "url": "https://amrcorp.com.my/projects/",
+      "source_id": "mob-amrcorp-com-my-05f4b78"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Water depth",
+      "why": "No water depth stated on the contractor page.",
+      "next_action": "Check Bekok-C platform data from PETRONAS."
+    },
+    {
+      "what": "Contract value",
+      "why": "No charter or conversion value stated.",
+      "next_action": "Look for PETRONAS Carigali award announcement."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

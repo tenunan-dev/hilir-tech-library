@@ -1,0 +1,99 @@
+{
+  "id": "thunder-hawk",
+  "name": "Thunder Hawk",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Murphy Oil five-year lease of newbuild DeepDraft Semi.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "First semi-submersible production system, Argyll",
+      "date": "1975",
+      "source": {
+        "url": "https://www.offshore-mag.com/drilling-completion/article/16763365/mopus-evolving-to-meet-greater-depth-flexibility-challenges",
+        "source_id": "mob-offshore-mag-com-mopus-evolving-to-meet-greate-4828fa8"
+      }
+    },
+    {
+      "event": "DeepDraft Semi installed at Independence Hub",
+      "date": "2006",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    },
+    {
+      "event": "First DeepDraft Semi with PHA contract — Thunder Hawk",
+      "date": "2008",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "SBM Offshore",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Technip (EPIC spar; subsea pipelines/risers)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Aker",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Kvaerner",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Murphy Oil (operator at the time of the article)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+      "source_id": "mob-sbmoffshore-com-830170a",
+      "note": "Murphy Oil five-year lease of newbuild DeepDraft Semi."
+    },
+    {
+      "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+      "source_id": "mob-sbmoffshore-com-830170a"
+    },
+    {
+      "url": "https://www.offshore-mag.com/drilling-completion/article/16763365/mopus-evolving-to-meet-greater-depth-flexibility-challenges",
+      "source_id": "mob-offshore-mag-com-mopus-evolving-to-meet-greate-4828fa8"
+    },
+    {
+      "url": "https://www.iso.org/standard/63801.html",
+      "source_id": "mob-iso-org-63801-html-d8a4034"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+      "source_id": "mob-sbmoffshore-com-830170a",
+      "note": "Industry-first DeepDraft Semi at 8,000 ft in the Gulf of Mexico."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "2006–2026 semi-submersible FPU production and reliability statistics",
+      "why": "The detailed semi-submersible fleet survey read was published in 2000; no equally detailed 2020s survey was read",
+      "next_action": "Source a recent worldwide FPU survey from an operator or class society"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile production technology). Evidence-first 2006–2026 retrospective across 15 mobile-production themes, built only from pages actually read with WebFetch; PDFs were read through the r.jina."
+}

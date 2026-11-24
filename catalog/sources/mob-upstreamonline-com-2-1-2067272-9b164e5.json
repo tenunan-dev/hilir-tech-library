@@ -1,0 +1,25 @@
+{
+  "id": "mob-upstreamonline-com-2-1-2067272-9b164e5",
+  "name": "PTTEP shuts in Malaysia fields for work on FPSO",
+  "url": "https://www.upstreamonline.com/finance/pttep-shuts-in-malaysia-fields-for-work-on-fpso/2-1-2067272",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ROT",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Upstream / DN Media Group",
+  "access": "open",
+  "licence": "© Upstream; brief summary only",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Fetched via https://r.jina.ai/ text mirror because direct WebFetch returned a blocked/unavailable page; publication date 2 November 2026."
+}

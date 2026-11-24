@@ -1,0 +1,87 @@
+{
+  "id": "terra-nova-field-jeanne-d-arc-basin",
+  "name": "Terra Nova field, Jeanne d'Arc Basin",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Canada",
+  "location": "Canada",
+  "status": "operating",
+  "description": "Offshore Newfoundland and Labrador; Late Jurassic sandstone reservoir",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Field discovered",
+      "date": "1984",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Terra_Nova_oil_field",
+        "source_id": "mob-en-wikipedia-org-terra-nova-oil-field-36c3413"
+      }
+    },
+    {
+      "event": "Production began",
+      "date": "2002",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Terra_Nova_oil_field",
+        "source_id": "mob-en-wikipedia-org-terra-nova-oil-field-36c3413"
+      }
+    },
+    {
+      "event": "Production stopped and vessel moved for repairs",
+      "date": "2019",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Terra_Nova_oil_field",
+        "source_id": "mob-en-wikipedia-org-terra-nova-oil-field-36c3413"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Suncor Energy (operator, 48%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Cenovus Energy (34%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Murphy Oil (18%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Petro-Canada (discoverer)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Terra_Nova_oil_field",
+      "source_id": "mob-en-wikipedia-org-terra-nova-oil-field-36c3413",
+      "note": "Offshore Newfoundland and Labrador; Late Jurassic sandstone reservoir"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Terra_Nova_oil_field",
+      "source_id": "mob-en-wikipedia-org-terra-nova-oil-field-36c3413"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "FPSO dimensions, storage and throughput",
+      "why": "A StFX summary PDF with these figures appeared only in a search result snippet and was not fetched/read; per strict rules its numbers are not asserted",
+      "next_action": "Fetch and read the PDF directly, then add figures with page_read:true"
+    },
+    {
+      "what": "FPSO capital cost and contract yard",
+      "why": "Not stated on the read page",
+      "next_action": "Check Petro-Canada/Suncor project archives"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

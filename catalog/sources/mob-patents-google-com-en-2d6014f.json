@@ -1,0 +1,23 @@
+{
+  "id": "mob-patents-google-com-en-2d6014f",
+  "name": "US5899638A — Floating platform top connector",
+  "url": "https://patents.google.com/patent/US5899638A/en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Google Patents (USPTO bibliographic data)",
+  "access": "open",
+  "licence": "patent text public",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Direct WebFetch returned 503; read via reader proxy https://r.jina.ai/. Bibliographic data and specification read, not just snippet."
+}

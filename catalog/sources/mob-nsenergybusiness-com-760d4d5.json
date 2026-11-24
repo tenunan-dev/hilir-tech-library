@@ -1,0 +1,25 @@
+{
+  "id": "mob-nsenergybusiness-com-760d4d5",
+  "name": "NS Energy - Gumusut-Kakap Oil Field",
+  "url": "https://www.nsenergybusiness.com/projects/gumusut-kakap-oil-field/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "NS Energy / GlobalData",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch; 2021 project page."
+}

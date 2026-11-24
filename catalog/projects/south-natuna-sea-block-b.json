@@ -1,0 +1,55 @@
+{
+  "id": "south-natuna-sea-block-b",
+  "name": "South Natuna Sea Block B",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "operating",
+  "description": "15-16 offshore platforms, three subsea fields and two FPSOs (Belanak and Marlin Natuna); gas delivered to Singapore via West Natuna Transportation System.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/dari-laut-lepas-natuna-cerita-anak-bangsa-membangun-kemandirian-energi",
+      "source_id": "mob-esdm-go-id-dari-laut-lepas-natuna-cerita-anak-cfd6c37",
+      "note": "15-16 offshore platforms, three subsea fields and two FPSOs (Belanak and Marlin "
+    },
+    {
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/dari-laut-lepas-natuna-cerita-anak-bangsa-membangun-kemandirian-energi",
+      "source_id": "mob-esdm-go-id-dari-laut-lepas-natuna-cerita-anak-cfd6c37"
+    },
+    {
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/dari-laut-lepas-natuna-cerita-anak-bangsa-membangun-kemandirian-energi",
+      "source_id": "mob-esdm-go-id-dari-laut-lepas-natuna-cerita-anak-cfd6c37",
+      "note": "15-16 offshore platforms, three subsea fields and two FPSOs (Belanak and Marlin Natuna); gas delivered to Singapore via West Natuna Transportation System."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Nameplate capacity / water depth / first oil",
+      "why": "The ESDM article gives only a qualitative description of Belanak.",
+      "next_action": "Find MedcoEnergi or MODEC/SBM project sheet for Belanak."
+    },
+    {
+      "what": "Contract value and lease term",
+      "why": "Not stated on the page read.",
+      "next_action": "Check MedcoEnergi annual report."
+    },
+    {
+      "what": "Reliability",
+      "why": "No uptime or incident data.",
+      "next_action": "Check SKK Migas reports."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

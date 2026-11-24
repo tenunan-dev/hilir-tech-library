@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-murphy-oil-18-eac55",
+  "name": "Murphy Oil (18%)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Murphy Oil (18%) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Terra_Nova_oil_field",
+      "source_id": "mob-en-wikipedia-org-terra-nova-oil-field-36c3413"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

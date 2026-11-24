@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-sbm-offshore-turret-mooring-system-subcontract-built-8940d",
+  "name": "SBM Offshore - turret mooring system subcontract (built at Drydocks World Dubai, UAE)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "SBM Offshore - turret mooring system subcontract (built at Drydocks World Dubai, UAE) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+      "source_id": "cost-en-wikipedia-org-prelude-flng"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

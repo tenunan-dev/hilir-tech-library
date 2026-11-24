@@ -1,6 +1,6 @@
 # ELE: Electrical engineering
 
-481 sources. Sub-topics: power-generation, hv-distribution, switchgear, protection, transformers, motors-drives, emergency-power, hazardous-area-electrical, heat-tracing, cable-systems, power-management, earthing-lightning.
+485 sources. Sub-topics: power-generation, hv-distribution, switchgear, protection, transformers, motors-drives, emergency-power, hazardous-area-electrical, heat-tracing, cable-systems, power-management, earthing-lightning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -59,7 +59,9 @@
 | [Fiorentini Iberia.Com — Typical inlet mercury concentration](https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Fiorentini Iberia.Com — Water content achievable](https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-units-with-fixed-bed-technology-molecular-sieves-and-aluminas-silica-gel) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Flaretechinc.Com — Flare KO drum size range (fabricator)](https://www.flaretechinc.com/products/flare-knockout-drums) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [FLNG as an option to monetizing natural gas from pre-salt in Brazil (EPE presentation)](https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf) | oem-supplier | global, sea | open | summary-only |
 | [FST](https://en.sz-fst.com/news_detail/11.html) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [GE Oil & Gas Awarded $160 Million Petrobras Contracts for P-58 and P-62](https://www.ge.com/news/press-releases/ge-oil-gas-awarded-160-million-petrobras-contracts-p-58-and-p-62-floating-production) | oem-supplier | global, sea | open | summary-only |
 | [Halliburton](https://www.halliburton.com/en/completions/well-intervention-and-diagnostics/hydraulic-workover) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Halliburton — Asia Pacific high-pressure gas well HWO intervention](https://halliburton.com/en/resources/hydraulic-workover-intervention-increases-gas-production) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Hitec Products AS (NORWEP listing)](https://www.norwep.com/technology/wffD8j79jTN8PCdyXMtLM8) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -100,6 +102,7 @@
 | [NAO Inc.](https://naoinc.com/drums) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Nexans](https://hidrocaven.com/img/manuales/aplicacion-submarina.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [NOAA (Offshore Single Point Mooring Systems, NOAA repository)](https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf) | agency-data | global, apac, sea, na | open | summary-only (unverified) |
+| [NOPSEMA Investigation - Prelude FLNG - Report (IVT11026, UPS Fire and Shutdown, redacted)](https://www.nopsema.gov.au/sites/default/files/documents/Report%20-%20IVT11026%20Shell%20Prelude%20UPS%20Fire%20and%20Shutdown%20-%20Redacted.pdf) | oem-supplier | global, sea | open | summary-only |
 | [Ocean Systems Engineering (training material mirrored on PDFCOFFEE)](https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [OCIMF](https://www.ocimf.org/document-libary/249-goto-earf-rome-r13/file) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Oedigital.Com — Jerun CPP topside, SK408W, Sarawak](https://www.oedigital.com/news/512208-mmhe-delivers-topside-for-jerun-gas-field-platform-offshore-malaysia) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -442,6 +445,7 @@
 | [INNIO Jenbacher — Radiator design](https://www.jenbacher.com/en/services/balance-of-plant/4077-2/) | oem-supplier | global, na | open | summary-only |
 | [INNIO Jenbacher, Austria — INNIO Jenbacher J920 FleXtra gas engine](https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/) | oem-supplier | global, na | open | summary-only |
 | [INNIO — Concord Group four palm-oil-waste/biogas plants, Malays](https://www.innio.com/en/news-media/press-releases/innio-signs-agreement-with-concord-group-of-companies-to-develop-four-biogas-power-plants-supporting-malaysian-decarbonization-efforts-2/) | oem-supplier | global, na | open | summary-only |
+| [International Convention for the Safety of Life at Sea (SOLAS), 1974](https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Safety-of-Life-at-Sea-(SOLAS),-1974.aspx) | oem-supplier | global | open | summary-only |
 | [Johnson Controls (YORK, Silent-Aire)](https://www.johnsoncontrols.com/media-center/news/press-releases/2026/07/28/johnson-controls-introduces-absorption-chiller-reference-design-guide-unlocking-up-to-97mw-of-additi) | oem-supplier | global, na | open | summary-only |
 | [Johnson Controls (YORK, Silent-Aire)](https://www.johnsoncontrols.com/building-insights/feature-story/a-global-blueprint-for-how-gigawatt-scale-ai-factories-can-re-use-waste-heat-with-absorption-chillers) | oem-supplier | global, na | open | summary-only |
 | [Johnson Matthey](https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems) | oem-supplier | global, na | open | summary-only |

@@ -1,0 +1,151 @@
+{
+  "id": "pflng-satu",
+  "name": "PFLNG SATU",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Kanowit field offshore Sarawak, later relocated to Kebabangan, Sabah; 1.2 MTPA.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Prelude enters Lloyd's Register class",
+      "date": "2017",
+      "source": {
+        "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2017/prelude-officially-enters-into-lloyds-register-class/",
+        "source_id": "mob-lr-org-2e91dd2"
+      }
+    },
+    {
+      "event": "PFLNG SATU first LNG drop",
+      "date": "2016",
+      "source": {
+        "url": "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2017/05_18/",
+        "source_id": "mob-eia-gov-48aab3e"
+      }
+    },
+    {
+      "event": "PFLNG SATU first cargo",
+      "date": "2017",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/petronas-first-floating-lng-facility-pflng-satu-achieves-first-cargo",
+        "source_id": "mob-petronas-com-petronas-first-floating-lng-facil-d2e8c76"
+      }
+    },
+    {
+      "event": "PFLNG SATU 100th cargo",
+      "date": "2024",
+      "source": {
+        "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+        "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+      }
+    },
+    {
+      "event": "PFLNG DUA first cargo",
+      "date": "2021",
+      "source": {
+        "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+        "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Shell (operator, 35%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Technip Samsung Consortium (TSC)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Samsung Heavy Industries",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "SBM Offshore (mooring)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "INPEX (operator, 42.5%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "KOGAS",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "OPIC",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Lloyd's Register (class)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "PETRONAS",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Hanwha Ocean",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+      "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e",
+      "note": "Kanowit field offshore Sarawak, later relocated to Kebabangan, Sabah; 1.2 MTPA."
+    },
+    {
+      "url": "https://www.shell.com.au/content/dam/shell/assets/en/australia/about-us/documents/shell-prelude-factsheet-oct-2017.pdf",
+      "source_id": "mob-shell-com-au-shell-prelude-factsheet-oct-2017-3b24fe6"
+    },
+    {
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2017/prelude-officially-enters-into-lloyds-register-class/",
+      "source_id": "mob-lr-org-2e91dd2"
+    },
+    {
+      "url": "https://www.petronas.com/media/media-releases/petronas-first-floating-lng-facility-pflng-satu-achieves-first-cargo",
+      "source_id": "mob-petronas-com-petronas-first-floating-lng-facil-d2e8c76"
+    },
+    {
+      "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+      "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+    },
+    {
+      "url": "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2017/05_18/",
+      "source_id": "mob-eia-gov-48aab3e"
+    },
+    {
+      "url": "https://www.petronas.com/media/media-releases/successful-production-lng-petronas-first-floating-lng-facility-pflng-satu"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "individual patent numbers for the 150+ Prelude FLNG patents",
+      "why": "LR press release gives only an aggregate count; no patent numbers were published there",
+      "next_action": "Search a patent database by Shell/Technip assignee and read the individual patent pages before recording numbers"
+    },
+    {
+      "what": "resolution of PFLNG SATU length discrepancy (300 m vs 365 m)",
+      "why": "Two PETRONAS pages read give different figures",
+      "next_action": "Find a single PETRONAS or class specification sheet that states one length"
+    },
+    {
+      "what": "PFLNG SATU first-LNG date verified from a read page",
+      "why": "The 9 Dec 2016 PETRONAS release was not read directly; the date was corroborated by EIA and the PETRONAS LNG page",
+      "next_action": "Read the Dec 2016 PETRONAS release directly"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile production technology). Evidence-first 2006–2026 retrospective across 15 mobile-production themes, built only from pages actually read with WebFetch; PDFs were read through the r.jina."
+}

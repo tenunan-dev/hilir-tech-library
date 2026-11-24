@@ -1,0 +1,100 @@
+{
+  "id": "forel-and-terubuk-fields-south-natuna-sea-block-b",
+  "name": "Forel and Terubuk fields, South Natuna Sea Block B",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "operating",
+  "description": "Medco E&P Natuna operates the block; FPSO Marlin Natuna serves Forel and FPSO Belanak serves Block B.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Conversion delivered / sail-away",
+      "date": "2024",
+      "source": {
+        "url": "https://paxocean.com/2024/10/17/paxocean-group-delivers-indonesias-1st-fpso-conversion",
+        "source_id": "mob-paxocean-com-paxocean-group-delivers-indonesia-c6a01e9"
+      }
+    },
+    {
+      "event": "First production from Forel",
+      "date": "2025",
+      "source": {
+        "url": "https://www.esdm.go.id/id/media-center/arsip-berita/dari-laut-lepas-natuna-cerita-anak-bangsa-membangun-kemandirian-energi",
+        "source_id": "mob-esdm-go-id-dari-laut-lepas-natuna-cerita-anak-cfd6c37"
+      }
+    },
+    {
+      "event": "Presidential inauguration",
+      "date": "2025",
+      "source": {
+        "url": "https://www.esdm.go.id/id/media-center/arsip-berita/dari-laut-lepas-natuna-cerita-anak-bangsa-membangun-kemandirian-energi",
+        "source_id": "mob-esdm-go-id-dari-laut-lepas-natuna-cerita-anak-cfd6c37"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Conversion cost",
+      "year": 2025,
+      "unit": "USD",
+      "basis": "Approximate total cost of the Marlin Natuna tanker-to-FPSO conversion, stated in the 27 March 2025 Baird Maritime article; dollar year from publication",
+      "value": 236000000,
+      "source": {
+        "url": "https://www.bairdmaritime.com/amp/story/offshore/refining-processing/offshore-processing-storage/vessel-conversion-marlin-natuna-large-floating-oil-and-gas-production-unit-for-deployment-off-western-indonesia",
+        "source_id": "mob-bairdmaritime-com-vessel-conversion-marlin-nat-41ff79b"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/dari-laut-lepas-natuna-cerita-anak-bangsa-membangun-kemandirian-energi",
+      "source_id": "mob-esdm-go-id-dari-laut-lepas-natuna-cerita-anak-cfd6c37",
+      "note": "Medco E&P Natuna operates the block; FPSO Marlin Natuna serves Forel and FPSO Be"
+    },
+    {
+      "url": "https://paxocean.com/2024/10/17/paxocean-group-delivers-indonesias-1st-fpso-conversion",
+      "source_id": "mob-paxocean-com-paxocean-group-delivers-indonesia-c6a01e9"
+    },
+    {
+      "url": "https://www.bairdmaritime.com/amp/story/offshore/refining-processing/offshore-processing-storage/vessel-conversion-marlin-natuna-large-floating-oil-and-gas-production-unit-for-deployment-off-western-indonesia",
+      "source_id": "mob-bairdmaritime-com-vessel-conversion-marlin-nat-41ff79b"
+    },
+    {
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/dari-laut-lepas-natuna-cerita-anak-bangsa-membangun-kemandirian-energi",
+      "source_id": "mob-esdm-go-id-dari-laut-lepas-natuna-cerita-anak-cfd6c37"
+    },
+    {
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/dari-laut-lepas-natuna-cerita-anak-bangsa-membangun-kemandirian-energi",
+      "source_id": "mob-esdm-go-id-dari-laut-lepas-natuna-cerita-anak-cfd6c37",
+      "note": "Medco E&P Natuna operates the block; FPSO Marlin Natuna serves Forel and FPSO Belanak serves Block B."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "First-oil date detail",
+      "why": "The 12 May 2025 first-flow date came from a CNBC Indonesia search result; that page was not read directly with WebFetch. Only the 16 May 2025 inauguration is sourced from the ESDM page read.",
+      "next_action": "Read the CNBC Indonesia article to confirm the earlier date."
+    },
+    {
+      "what": "Lease terms",
+      "why": "Project described as a leased FPSO but no rate/term on pages read.",
+      "next_action": "Find SKK Migas or Medco contract disclosure."
+    },
+    {
+      "what": "Incidents",
+      "why": "No reliability data on pages read.",
+      "next_action": "Check SKK Migas production uptime reports."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mob-csb-gov-20160412-macondo-full-exec-summary-pdf-da4cc95",
+  "name": "CSB Investigation Report Executive Summary - Drilling Rig Explosion and Fire at the Macondo Well",
+  "url": "https://www.csb.gov/assets/1/20/20160412_macondo_full_exec_summary.pdf?15671",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "U.S. Chemical Safety and Hazard Investigation Board",
+  "access": "open",
+  "licence": "US federal government work; quoted as brief factual summary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 24-page PDF read via https://r.jina.ai/ text mirror because WebFetch cannot render application/pdf directly."
+}

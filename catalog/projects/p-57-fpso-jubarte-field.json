@@ -1,0 +1,167 @@
+{
+  "id": "p-57-fpso-jubarte-field",
+  "name": "P-57 FPSO, Jubarte field",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Brazil",
+  "location": "Brazil",
+  "status": "operating",
+  "description": "VLCC Accord converted in Singapore; 180,000 b/d oil and 71 MMcf/d gas; turnkey supply plus three years operation.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Petrobras signed the P-57 FPSO turnkey agreement with SBM Offshore",
+      "date": "2008",
+      "source": {
+        "url": "https://www.offshore-mag.com/field-development/article/16780732/sbm-confirms-p-57-contract",
+        "source_id": "mob-offshore-mag-com-sbm-confirms-p-57-contract-e1cd187"
+      }
+    },
+    {
+      "event": "Jurong Shipyard secured P62 pre-conversion works",
+      "date": "2010",
+      "source": {
+        "url": "https://www.hartenergy.com/news/sembcorp-marine-secures-130-million-pre-fpso-conversion-contract-petrobras-offshore-87543",
+        "source_id": "mob-hartenergy-com-sembcorp-marine-secures-130-mil-655db45"
+      }
+    },
+    {
+      "event": "GE Oil & Gas won P-58 and P-62 equipment packages",
+      "date": "2010",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ge-oil-gas-awarded-160-million-petrobras-contracts-p-58-and-p-62-floating-production",
+        "source_id": "mob-ge-com-ge-oil-gas-awarded-160-million-petrobra-36f6e74"
+      }
+    },
+    {
+      "event": "SBM Offshore reported 2008 results and order portfolio",
+      "date": "2008",
+      "source": {
+        "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/pressrelease-20090310-original-503.pdf",
+        "source_id": "mob-sbmoffshore-com-pressrelease-20090310-original-3b6d4cc"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "P-57 FPSO turnkey supply contract value",
+      "year": 2008,
+      "unit": "USD billion",
+      "basis": "Offshore Magazine: Petrobras signed the formal USD 1.25-billion agreement with SBM Offshore for turnkey supply of the P-57 FPSO; conversion of VLCC Accord in Singapore.",
+      "value": 1.25,
+      "source": {
+        "url": "https://www.offshore-mag.com/field-development/article/16780732/sbm-confirms-p-57-contract",
+        "source_id": "mob-offshore-mag-com-sbm-confirms-p-57-contract-e1cd187"
+      }
+    },
+    {
+      "metric": "P62 pre-conversion hull and accommodation works",
+      "year": 2010,
+      "unit": "SGD million",
+      "basis": "Hart Energy reprint of Sembcorp Marine announcement: approximately S$130 million contract to Jurong Shipyard; Singapore dollars preserved as printed, no conversion.",
+      "value": 130,
+      "source": {
+        "url": "https://www.hartenergy.com/news/sembcorp-marine-secures-130-million-pre-fpso-conversion-contract-petrobras-offshore-87543",
+        "source_id": "mob-hartenergy-com-sembcorp-marine-secures-130-mil-655db45"
+      }
+    },
+    {
+      "metric": "P-58 and P-62 gas turbine and compressor packages",
+      "year": 2010,
+      "unit": "USD million",
+      "basis": "GE press release: USD 160 million double FPSO unit contract for power generation and compression packages; equipment package only, not an FPSO EPC value.",
+      "value": 160,
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ge-oil-gas-awarded-160-million-petrobras-contracts-p-58-and-p-62-floating-production",
+        "source_id": "mob-ge-com-ge-oil-gas-awarded-160-million-petrobra-36f6e74"
+      }
+    },
+    {
+      "metric": "SBM Offshore new orders in 2008",
+      "year": 2008,
+      "unit": "USD million",
+      "basis": "SBM 2008 results: new orders totalled USD 4,365m, split 67% turnkey and 33% lease and operate; corporate aggregate, not a unit cost.",
+      "value": 4365,
+      "source": {
+        "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/pressrelease-20090310-original-503.pdf",
+        "source_id": "mob-sbmoffshore-com-pressrelease-20090310-original-3b6d4cc"
+      }
+    },
+    {
+      "metric": "SBM Offshore year-end 2008 order portfolio",
+      "year": 2008,
+      "unit": "USD billion",
+      "basis": "SBM 2008 results: order portfolio USD 9.25bn, up 16.2%; USD 6.28bn is nondiscounted value of long-term lease contract revenue; corporate aggregate.",
+      "value": 9.25,
+      "source": {
+        "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/pressrelease-20090310-original-503.pdf",
+        "source_id": "mob-sbmoffshore-com-pressrelease-20090310-original-3b6d4cc"
+      }
+    },
+    {
+      "metric": "SBM Offshore investment in fixed assets in 2008",
+      "year": 2008,
+      "unit": "USD million",
+      "basis": "SBM 2008 results: total capital expenditure USD 999.8m rounded to USD 1.0bn, mainly new lease fleet investment including Espirito Santo, Thunder Hawk semi-submersible, MOPUstor Yme and Deep Panuke MOPU; corporate aggregate.",
+      "value": 1000,
+      "source": {
+        "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/pressrelease-20090310-original-503.pdf",
+        "source_id": "mob-sbmoffshore-com-pressrelease-20090310-original-3b6d4cc"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/field-development/article/16780732/sbm-confirms-p-57-contract",
+      "source_id": "mob-offshore-mag-com-sbm-confirms-p-57-contract-e1cd187",
+      "note": "VLCC Accord converted in Singapore; 180,000 b/d oil and 71 MMcf/d gas; turnkey s"
+    },
+    {
+      "url": "https://www.offshore-mag.com/field-development/article/16780732/sbm-confirms-p-57-contract",
+      "source_id": "mob-offshore-mag-com-sbm-confirms-p-57-contract-e1cd187"
+    },
+    {
+      "url": "https://www.hartenergy.com/news/sembcorp-marine-secures-130-million-pre-fpso-conversion-contract-petrobras-offshore-87543",
+      "source_id": "mob-hartenergy-com-sembcorp-marine-secures-130-mil-655db45"
+    },
+    {
+      "url": "https://www.ge.com/news/press-releases/ge-oil-gas-awarded-160-million-petrobras-contracts-p-58-and-p-62-floating-production",
+      "source_id": "mob-ge-com-ge-oil-gas-awarded-160-million-petrobra-36f6e74"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/pressrelease-20090310-original-503.pdf",
+      "source_id": "mob-sbmoffshore-com-pressrelease-20090310-original-3b6d4cc"
+    },
+    {
+      "url": "https://www.offshore-mag.com/field-development/article/16780732/sbm-confirms-p-57-contract",
+      "source_id": "mob-offshore-mag-com-sbm-confirms-p-57-contract-e1cd187",
+      "note": "VLCC Accord converted in Singapore; 180,000 b/d oil and 71 MMcf/d gas; turnkey supply plus three years operation."
+    },
+    {
+      "url": "https://www.hartenergy.com/news/sembcorp-marine-secures-130-million-pre-fpso-conversion-contract-petrobras-offshore-87543",
+      "source_id": "mob-hartenergy-com-sembcorp-marine-secures-130-mil-655db45",
+      "note": "VLCC MT SUVA; hull steel renewal and accommodation refurbishment by Jurong Shipyard; GE supplied turbines and compressors."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Total P-57 project scope split between hull conversion and topsides",
+      "why": "The USD 1.25bn figure is a combined turnkey supply value.",
+      "next_action": "Seek SBM 2008/2009 annual report project disclosures."
+    },
+    {
+      "what": "Full P-62 FPSO conversion value",
+      "why": "Only the S$130m pre-conversion scope and the separate GE equipment package are published.",
+      "next_action": "Find Jurong Shipyard/Sembcorp press releases covering the main conversion contract."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit costs). Evidence-first retrospective of dated mobile production unit costs, 2006-2026. Strongest primary evidence: Seatrium's S$11bn P-84/P-85 contract (reported by pre"
+}

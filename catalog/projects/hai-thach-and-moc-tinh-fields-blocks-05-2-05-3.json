@@ -1,0 +1,130 @@
+{
+  "id": "hai-thach-and-moc-tinh-fields-blocks-05-2-05-3",
+  "name": "Hai Thach and Moc Tinh fields, Blocks 05-2/05-3",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Vietnam",
+  "location": "Vietnam",
+  "status": "operating",
+  "description": "Bien Dong 1 development; condensate offloaded from FSO while gas goes via the Nam Con Son trunkline.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "FSO supply heads of agreement",
+      "date": "2010",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bien-dong-nam-con-son-basin-vietnam",
+        "source_id": "mob-offshore-technology-com-bien-dong-nam-con-son-5894cba"
+      }
+    },
+    {
+      "event": "Keel laid",
+      "date": "2012",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bien-dong-nam-con-son-basin-vietnam",
+        "source_id": "mob-offshore-technology-com-bien-dong-nam-con-son-5894cba"
+      }
+    },
+    {
+      "event": "First condensate / operations",
+      "date": "2013",
+      "source": {
+        "url": "https://www.yinson-production.com/news/yinson-production-receives-charter-contract-extension-for-fso-ptsc-bien-dong-01",
+        "source_id": "mob-yinson-production-com-yinson-production-receiv-85b82df"
+      }
+    },
+    {
+      "event": "Five-year charter extension",
+      "date": "2023",
+      "source": {
+        "url": "https://www.yinson-production.com/news/yinson-production-receives-charter-contract-extension-for-fso-ptsc-bien-dong-01",
+        "source_id": "mob-yinson-production-com-yinson-production-receiv-85b82df"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Construction loan",
+      "year": 2011,
+      "unit": "USD",
+      "basis": "Loan agreement signed September 2011 by PTSC and partners (Yinson, UOB, OCBC) for FSO construction; dollar year from 2011 agreement",
+      "value": 105000000,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bien-dong-nam-con-son-basin-vietnam",
+        "source_id": "mob-offshore-technology-com-bien-dong-nam-con-son-5894cba"
+      }
+    },
+    {
+      "metric": "FSO construction subcontract",
+      "year": 2013,
+      "unit": "KRW",
+      "basis": "dollar year not stated; KRW 70bn (article-stated ~$64m) construction subcontract to Sungdong, reported in the 2013 Offshore Technology profile",
+      "value": 64000000,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bien-dong-nam-con-son-basin-vietnam",
+        "source_id": "mob-offshore-technology-com-bien-dong-nam-con-son-5894cba"
+      }
+    },
+    {
+      "metric": "Five-year bareboat charter extension",
+      "year": 2023,
+      "unit": "USD",
+      "basis": "Estimated value of extension 4 June 2023 to 3 June 2028, announced 6 June 2023",
+      "value": 74600000,
+      "source": {
+        "url": "https://www.yinson-production.com/news/yinson-production-receives-charter-contract-extension-for-fso-ptsc-bien-dong-01",
+        "source_id": "mob-yinson-production-com-yinson-production-receiv-85b82df"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/bien-dong-nam-con-son-basin-vietnam",
+      "source_id": "mob-offshore-technology-com-bien-dong-nam-con-son-5894cba",
+      "note": "Bien Dong 1 development; condensate offloaded from FSO while gas goes via the Na"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/bien-dong-nam-con-son-basin-vietnam",
+      "source_id": "mob-offshore-technology-com-bien-dong-nam-con-son-5894cba"
+    },
+    {
+      "url": "https://www.yinson-production.com/news/yinson-production-receives-charter-contract-extension-for-fso-ptsc-bien-dong-01",
+      "source_id": "mob-yinson-production-com-yinson-production-receiv-85b82df"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2023/06/06/fso-staying-five-more-years-at-gas-fields-off-vietnam",
+      "source_id": "mob-offshore-energy-biz-fso-staying-five-more-year-eba820b"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/bien-dong-nam-con-son-basin-vietnam",
+      "source_id": "mob-offshore-technology-com-bien-dong-nam-con-son-5894cba",
+      "note": "Bien Dong 1 development; condensate offloaded from FSO while gas goes via the Nam Con Son trunkline."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Uptime",
+      "why": "A search result citing 'above 99%' uptime came from Yinson's 2017 annual report, which was not read directly with WebFetch.",
+      "next_action": "Read the Yinson 2017 annual report PDF."
+    },
+    {
+      "what": "Original charter value",
+      "why": "A USD331.2m original contract size appeared in a Yinson annual-report search result but was not read directly.",
+      "next_action": "Read the source PDF to confirm."
+    },
+    {
+      "what": "Storage unit basis",
+      "why": "Offshore Technology states '350,000 barrels per day' for storage, which is dimensionally inconsistent with a storage capacity; other sources state 350,000 barrels.",
+      "next_action": "Use 350,000 bbl with the Yinson source."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

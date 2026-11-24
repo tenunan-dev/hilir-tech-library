@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-the-linde-group-51399",
+  "name": "The Linde Group",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "The Linde Group named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

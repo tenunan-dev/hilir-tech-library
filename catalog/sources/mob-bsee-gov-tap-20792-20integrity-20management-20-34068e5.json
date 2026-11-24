@@ -1,0 +1,23 @@
+{
+  "id": "mob-bsee-gov-tap-20792-20integrity-20management-20-34068e5",
+  "name": "Integrity Management Process of Tension Leg Platforms, BSEE Project E17PC00018 (PDF)",
+  "url": "https://www.bsee.gov/sites/bsee.gov/files/2026-04/TAP%20792%20Integrity%20Management%20of%20TLP%20Final%20Research%20Report%20_508c.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "BSEE / Energo Engineering",
+  "access": "open",
+  "licence": "US government work with added disclaimer; report states it was inadvertently disseminated publicly and is for peer review only",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. WebFetch cannot parse application/pdf; read via reader proxy https://r.jina.ai/. Report dated September 2018, published URL path 2026-04."
+}

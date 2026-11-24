@@ -1,0 +1,26 @@
+{
+  "id": "mob-epe-gov-br-estande-20-20flng-20as-20option-20t-f810b0d",
+  "name": "FLNG as an option to monetizing natural gas from pre-salt in Brazil (EPE presentation)",
+  "url": "https://www.epe.gov.br/sites-pt/sala-de-imprensa/noticias/Documents/ESTANDE%20-%20FLNG%20as%20option%20to%20monetizing%20natural%20gas%20from%20pre-salt%20in%20Brazil.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Empresa de Planejamento Energético (EPE), Brazil",
+  "access": "open",
+  "licence": "Government presentation; cite source",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 16-page PDF read via r.jina.ai proxy; CAPEX table and unit-cost chart labels verified; source explicitly says figures are literature-based."
+}

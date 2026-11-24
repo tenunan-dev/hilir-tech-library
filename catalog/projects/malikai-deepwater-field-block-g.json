@@ -1,0 +1,91 @@
+{
+  "id": "malikai-deepwater-field-block-g",
+  "name": "Malikai deepwater field, Block G",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Tieback to Kebabangan; part of PETRONAS Sabah integrated oil and gas project.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Oil discovered",
+      "date": "2004",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/malikai-field-achieves-first-oil",
+        "source_id": "mob-petronas-com-malikai-field-achieves-first-oil-1c57fec"
+      }
+    },
+    {
+      "event": "Topside and hull fabrication completed",
+      "date": "2016",
+      "source": {
+        "url": "https://www.technipfmc.com/en/media/news/2017/04/malikai-malaysias-first-tension-leg-platform/",
+        "source_id": "mob-technipfmc-com-21d4605"
+      }
+    },
+    {
+      "event": "Sail-away",
+      "date": "2016",
+      "source": {
+        "url": "https://www.technipfmc.com/en/media/news/2017/04/malikai-malaysias-first-tension-leg-platform/",
+        "source_id": "mob-technipfmc-com-21d4605"
+      }
+    },
+    {
+      "event": "First oil",
+      "date": "2016",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/malikai-field-achieves-first-oil",
+        "source_id": "mob-petronas-com-malikai-field-achieves-first-oil-1c57fec"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/media/media-releases/malikai-field-achieves-first-oil",
+      "source_id": "mob-petronas-com-malikai-field-achieves-first-oil-1c57fec",
+      "note": "Tieback to Kebabangan; part of PETRONAS Sabah integrated oil and gas project."
+    },
+    {
+      "url": "https://www.technipfmc.com/en/media/news/2017/04/malikai-malaysias-first-tension-leg-platform/",
+      "source_id": "mob-technipfmc-com-21d4605"
+    },
+    {
+      "url": "https://www.petronas.com/media/media-releases/malikai-field-achieves-first-oil",
+      "source_id": "mob-petronas-com-malikai-field-achieves-first-oil-1c57fec"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/investors/archives/technip/press-releases/technip-in-a-jv-with-mmhe-awarded-substantial-contract-for-the-malikai-project-in-malaysia/",
+      "source_id": "mob-technipfmc-com-dcc27cd"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "TLP EPC contract value",
+      "why": "Technip described the 2013 award as 'substantial' (its stated band EUR250-500m) but that press release was not read directly with WebFetch.",
+      "next_action": "Read the TechnipFMC 2013 press release and record the exact euro amount/basis."
+    },
+    {
+      "what": "Gas capacity basis",
+      "why": "60,000 bpd oil and 50 MMscfd gas (TechnipFMC) vs 1.4 million m3/day gas in the EPC-era description.",
+      "next_action": "Keep both figures with their separate bases; do not convert."
+    },
+    {
+      "what": "Wells and risers / reliability",
+      "why": "No well count, tendon count or uptime figure was given on the two pages read.",
+      "next_action": "Check TechnipFMC project data and Shell HSSE reports."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

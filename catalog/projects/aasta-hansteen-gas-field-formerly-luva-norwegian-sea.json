@@ -1,0 +1,96 @@
+{
+  "id": "aasta-hansteen-gas-field-formerly-luva-norwegian-sea",
+  "name": "Aasta Hansteen gas field (formerly Luva), Norwegian Sea",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Norway",
+  "location": "Norway",
+  "status": "operating",
+  "description": "Tie-in of Luva, Haklang, Snefrid Sør and Nord fields; future Irpa tie-back; gas exported via Polarled to Nyhamna",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Field discovered as Luva",
+      "date": "1997",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Aasta_Hansteen_spar",
+        "source_id": "mob-en-wikipedia-org-aasta-hansteen-spar-6b380e4"
+      }
+    },
+    {
+      "event": "Inshore hook-up at Stord",
+      "date": "2018",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Aasta_Hansteen_spar",
+        "source_id": "mob-en-wikipedia-org-aasta-hansteen-spar-6b380e4"
+      }
+    },
+    {
+      "event": "Production started",
+      "date": "2018",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Aasta_Hansteen_spar",
+        "source_id": "mob-en-wikipedia-org-aasta-hansteen-spar-6b380e4"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Equinor (operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Technip (spar hull design)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "CB&I (topsides design)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Hyundai Heavy Industries, South Korea (fabrication of hull and topsides)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Dockwise Vanguard (heavy transport)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Aasta_Hansteen_spar",
+      "source_id": "mob-en-wikipedia-org-aasta-hansteen-spar-6b380e4",
+      "note": "Tie-in of Luva, Haklang, Snefrid Sør and Nord fields; future Irpa tie-back; gas "
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Aasta_Hansteen_spar",
+      "source_id": "mob-en-wikipedia-org-aasta-hansteen-spar-6b380e4"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Aasta_Hansteen_spar",
+      "source_id": "mob-en-wikipedia-org-aasta-hansteen-spar-6b380e4",
+      "note": "Tie-in of Luva, Haklang, Snefrid Sør and Nord fields; future Irpa tie-back; gas exported via Polarled to Nyhamna"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "USD-equivalent cost",
+      "why": "Only NOK37.5bn stated; no dated FX rate in read source",
+      "next_action": "Use a dated NOK/USD rate from a citable source if conversion needed"
+    },
+    {
+      "what": "gas and condensate capacity",
+      "why": "Not stated on the pages read",
+      "next_action": "Fetch the Equinor 'Aasta Hansteen on stream' 2018 release (direct fetch returned only a shell page)"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

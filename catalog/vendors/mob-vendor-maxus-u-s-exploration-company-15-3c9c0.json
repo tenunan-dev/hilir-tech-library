@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-maxus-u-s-exploration-company-15-3c9c0",
+  "name": "Maxus (U.S.) Exploration Company (15%)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Maxus (U.S.) Exploration Company (15%) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bhp.com/news/media-centre/releases/2008/07/bhp-billiton-begins-production-from-neptune-facility-in-the-deepwater-gulf-of-mexico",
+      "source_id": "mob-bhp-com-bhp-billiton-begins-production-from-ne-591f9b6"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

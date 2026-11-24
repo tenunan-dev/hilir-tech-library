@@ -1,0 +1,24 @@
+{
+  "id": "mob-acteon-com-mooring-chain-calculator-018448a",
+  "name": "Calculate mooring chain weight, break load and proof load",
+  "url": "https://acteon.com/insights/blogs/mooring-chain-calculator",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "MAT",
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Acteon / Intermoor",
+  "access": "open",
+  "licence": "© Acteon; brief factual summary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch. Published 18 August 2026; describes calculator outputs but the page itself contains no numeric chain table."
+}

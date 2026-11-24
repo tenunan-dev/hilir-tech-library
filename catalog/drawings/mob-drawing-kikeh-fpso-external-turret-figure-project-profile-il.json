@@ -1,0 +1,24 @@
+{
+  "id": "mob-drawing-kikeh-fpso-external-turret-figure-project-profile-il",
+  "title": "Kikeh FPSO external turret figure (project-profile illustration)",
+  "diagram_type": "schematic",
+  "description": "Figure caption on the project page: 'At Technip Spar's bow is the external turret that can accommodate up to 17 flexible risers.' A full general arrangement drawing was not available on the page",
+  "publisher": "Offshore Technology / GlobalData",
+  "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development/",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development/",
+      "source_id": "sys-offshore-technology-com-dc5c67",
+      "note": "Figure caption on the project page: 'At Technip Spar's bow is the external turret that can accommodate up to 17 flexible risers.' A full general arrangement drawing was not available on the page"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the 20-year mobile platform retrospective."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mob-bairdmaritime-com-vessel-conversion-marlin-nat-41ff79b",
+  "name": "Baird Maritime - Marlin Natuna conversion",
+  "url": "https://www.bairdmaritime.com/amp/story/offshore/refining-processing/offshore-processing-storage/vessel-conversion-marlin-natuna-large-floating-oil-and-gas-production-unit-for-deployment-off-western-indonesia",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Baird Maritime",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch; 27 March 2025; cost and specifications."
+}

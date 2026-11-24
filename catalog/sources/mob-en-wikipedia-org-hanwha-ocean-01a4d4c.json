@@ -1,0 +1,25 @@
+{
+  "id": "mob-en-wikipedia-org-hanwha-ocean-01a4d4c",
+  "name": "Hanwha Ocean (Wikipedia)",
+  "url": "https://en.wikipedia.org/wiki/Hanwha_Ocean",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Wikipedia / Wikimedia Foundation",
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Page read via WebFetch; historical section flagged as incomplete on the page."
+}

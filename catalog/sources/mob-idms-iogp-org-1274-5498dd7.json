@@ -1,0 +1,25 @@
+{
+  "id": "mob-idms-iogp-org-1274-5498dd7",
+  "name": "Global FPSO decommissioning insights 2024 (report 2023dfi)",
+  "url": "https://idms.iogp.org/Documents/1274",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "ROT",
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "IOGP / Publications Portal",
+  "access": "open",
+  "licence": "© IOGP; catalogue description only, full report requires download registration",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch. Only title, report number, publication date and scope sentence used; no unit counts asserted."
+}

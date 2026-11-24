@@ -1,0 +1,24 @@
+{
+  "id": "mob-offshore-mag-com-keppel-confirms-delivery-of-m-bd3e6c2",
+  "name": "Offshore Magazine - Keppel confirms Madura BD FPSO delivery",
+  "url": "https://www.offshore-mag.com/vessels/article/16769914/keppel-confirms-delivery-of-madura-bd-fpso",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Offshore Magazine",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch; 24 October 2016."
+}

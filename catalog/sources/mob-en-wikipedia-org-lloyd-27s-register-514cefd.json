@@ -1,0 +1,25 @@
+{
+  "id": "mob-en-wikipedia-org-lloyd-27s-register-514cefd",
+  "name": "Lloyd's Register (Wikipedia)",
+  "url": "https://en.wikipedia.org/wiki/Lloyd%27s_Register",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Wikipedia / Wikimedia Foundation",
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Article text read via MediaWiki API extract (titles=Lloyd%27s%20Register)."
+}

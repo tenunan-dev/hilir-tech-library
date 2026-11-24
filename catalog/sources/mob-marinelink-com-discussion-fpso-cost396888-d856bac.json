@@ -1,0 +1,25 @@
+{
+  "id": "mob-marinelink-com-discussion-fpso-cost396888-d856bac",
+  "name": "The FPSO Cost Discussion",
+  "url": "https://www.marinelink.com/news/discussion-fpso-cost396888",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Maritime Activity Reports / Marine Reporter",
+  "access": "open",
+  "licence": "Publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 26 August 2015 conference report; quotes attributed to SBM, BW Offshore and Yinson; figures are speakers' approximate statements."
+}

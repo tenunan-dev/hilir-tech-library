@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-china-merchants-industry-holdings-cmih-02e5b",
+  "name": "China Merchants Industry Holdings (CMIH)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "China Merchants Industry Holdings (CMIH) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://img.offshore-mag.com/files/base/ebm/os/document/2022/12/2022_Worldwide_Survey_of_Floating_Production_Storage_and_Offloading_Units.6398fd2a675a5.pdf?dl=2022_Worldwide_Survey_of_Floating_Production_Storage_and_Offloading_Units.6398fd2a675a5.pdf",
+      "source_id": "mob-img-offshore-mag-com-2022-worldwide-survey-of-4ccb06d"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

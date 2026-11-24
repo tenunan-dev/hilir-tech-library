@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-fjords-processing-norway-meg-reclamation-module-buil-a6a89",
+  "name": "Fjords Processing Norway - MEG reclamation module (built in South Korea)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Fjords Processing Norway - MEG reclamation module (built in South Korea) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+      "source_id": "cost-en-wikipedia-org-prelude-flng"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mob-nstauthority-co-uk-ukcsunitoperatingcostin2020-0d4cf52",
+  "name": "UKCS Unit Operating Costs in 2020",
+  "url": "https://www.nstauthority.co.uk/media/p3ed5ezn/ukcsunitoperatingcostin2020.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "North Sea Transition Authority",
+  "access": "open",
+  "licence": "NSTA reuse terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 12-page PDF read via r.jina.ai proxy; GBP 11.2/boe and GBP 6.5bn verified; facility-type breakdown charts not machine-readable."
+}

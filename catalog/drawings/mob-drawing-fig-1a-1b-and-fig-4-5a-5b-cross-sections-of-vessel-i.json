@@ -1,0 +1,24 @@
+{
+  "id": "mob-drawing-fig-1a-1b-and-fig-4-5a-5b-cross-sections-of-vessel-i",
+  "title": "FIG. 1A/1B and FIG. 4/5A/5B cross-sections of vessel internal turret and bearing arrangement",
+  "diagram_type": "schematic",
+  "description": "Figures show axial bogies, radial wheels, collar deck, riser deck, lower stoppers, lip seal and water labyrinth for FPSO/FLNG turret mooring",
+  "publisher": "Google Patents (applicant Single Buoy Moorings Inc)",
+  "url": "https://patents.google.com/patent/WO2017174665A1/en",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/WO2017174665A1/en",
+      "source_id": "mob-patents-google-com-en-392e21f",
+      "note": "Figures show axial bogies, radial wheels, collar deck, riser deck, lower stoppers, lip seal and water labyrinth for FPSO/FLNG turret mooring"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the 20-year mobile platform retrospective."
+}

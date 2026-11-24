@@ -1,0 +1,23 @@
+{
+  "id": "mob-journal-jogmec-go-jp-300517000-pdf-c5a7c7f",
+  "name": "Excelerate Energy — JOGMEC Journal (PDF)",
+  "url": "https://journal.jogmec.go.jp/content/300517000.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "JOGMEC",
+  "access": "open",
+  "licence": "publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. WebFetch cannot parse application/pdf; read via reader proxy https://r.jina.ai/. Report based on information as of end August 2024."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mob-ogj-com-refurbished-jack-up-production-unit-pr-a48f736",
+  "name": "Oil & Gas Journal - Refurbished jack up production unit off Malaysia",
+  "url": "https://www.ogj.com/drilling-production/article/17224827/refurbished-jack-up-production-unit-produces-marginal-field-off-malaysia",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Oil & Gas Journal",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch; 4 December 2006 article."
+}

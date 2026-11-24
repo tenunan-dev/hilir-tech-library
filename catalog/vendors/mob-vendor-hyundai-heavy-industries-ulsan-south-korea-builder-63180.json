@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-hyundai-heavy-industries-ulsan-south-korea-builder-63180",
+  "name": "Hyundai Heavy Industries, Ulsan, South Korea (builder)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Hyundai Heavy Industries, Ulsan, South Korea (builder) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Kizomba_deepwater_project",
+      "source_id": "en-wikipedia-org-wiki-kizomba-deepwater-project"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

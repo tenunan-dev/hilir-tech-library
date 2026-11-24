@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-mmhe-shipyard-pasir-gudang-malaysia-conversion-per-w-9ab61",
+  "name": "MMHE Shipyard Pasir Gudang, Malaysia (conversion, per Wikipedia FPSO article read)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "MMHE Shipyard Pasir Gudang, Malaysia (conversion, per Wikipedia FPSO article read) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://bwoffshore.com/pressreleases/first-oil-on-bw-pioneer",
+      "source_id": "mob-bwoffshore-com-first-oil-on-bw-pioneer-3e4890b"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

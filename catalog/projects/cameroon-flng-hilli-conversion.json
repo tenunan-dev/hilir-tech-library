@@ -1,0 +1,99 @@
+{
+  "id": "cameroon-flng-hilli-conversion",
+  "name": "Cameroon FLNG (Hilli conversion)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Cameroon",
+  "location": "Cameroon",
+  "status": "operating",
+  "description": "Converted LNG carrier, per EIA.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Penrod 72 drilling semi converted to production semisubmersible",
+      "date": "1988",
+      "source": {
+        "url": "https://www.offshore-mag.com/drilling-completion/article/16763365/mopus-evolving-to-meet-greater-depth-flexibility-challenges",
+        "source_id": "mob-offshore-mag-com-mopus-evolving-to-meet-greate-4828fa8"
+      }
+    },
+    {
+      "event": "Maleo converted jack-up MOPU first gas",
+      "date": "2006",
+      "source": {
+        "url": "https://www.santos.com/news/first-production-from-indonesian-gas-project/",
+        "source_id": "mob-santos-com-2403c50"
+      }
+    },
+    {
+      "event": "LNG carrier Hilli converted to FLNG (Cameroon)",
+      "date": "2017",
+      "source": {
+        "url": "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2017/05_18/",
+        "source_id": "mob-eia-gov-48aab3e"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Oceaneering",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Global Process Systems",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Radiant Utama Interinsco",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Paragon Engineering",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "UMC Petroleum",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2017/05_18/",
+      "source_id": "mob-eia-gov-48aab3e",
+      "note": "Converted LNG carrier, per EIA."
+    },
+    {
+      "url": "https://www.offshore-mag.com/drilling-completion/article/16763365/mopus-evolving-to-meet-greater-depth-flexibility-challenges",
+      "source_id": "mob-offshore-mag-com-mopus-evolving-to-meet-greate-4828fa8"
+    },
+    {
+      "url": "https://www.santos.com/news/first-production-from-indonesian-gas-project/",
+      "source_id": "mob-santos-com-2403c50"
+    },
+    {
+      "url": "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2017/05_18/",
+      "source_id": "mob-eia-gov-48aab3e"
+    },
+    {
+      "url": "https://www.santos.com/news/first-production-from-indonesian-gas-project/",
+      "source_id": "mob-santos-com-2403c50",
+      "note": "Converted jack-up drilling rig, Madura Strait."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Gulftide 1995 conversion schedule verified from a read page",
+      "why": "Only the OTC abstract snippet was seen",
+      "next_action": "Read the OTC 8164 abstract via reader proxy"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile production technology). Evidence-first 2006–2026 retrospective across 15 mobile-production themes, built only from pages actually read with WebFetch; PDFs were read through the r.jina."
+}

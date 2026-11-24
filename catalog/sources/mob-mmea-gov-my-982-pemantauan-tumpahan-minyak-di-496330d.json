@@ -1,0 +1,26 @@
+{
+  "id": "mob-mmea-gov-my-982-pemantauan-tumpahan-minyak-di-496330d",
+  "name": "Pemantauan Tumpahan Minyak Di Medan Kikeh FPSO (Offshore Sabah) Tier One",
+  "url": "https://www.mmea.gov.my/index.php/ms/allcategories-ms-my/12-berita-utama/982-pemantauan-tumpahan-minyak-di-medan-kikeh-fpso-offshore-sabah-tier-one",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "ROT",
+    "MAT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Agensi Penguatkuasaan Maritim Malaysia (Maritime Malaysia / MMEA)",
+  "access": "open",
+  "licence": "© APMM; government public release",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch; original in Malay. Figures (spill tier, two-week repair, three standby ships) are from this release."
+}

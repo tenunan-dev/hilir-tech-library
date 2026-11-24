@@ -1,0 +1,25 @@
+{
+  "id": "mob-plantfce-com-decommissioning-and-redeployment-dcda61a",
+  "name": "Decommissioning and Redeployment Costs of FPSOs",
+  "url": "https://plantfce.com/blog/posts/decommissioning-and-redeployment-costs-of-fpso",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "PlantFCE / Storm Consulting",
+  "access": "open",
+  "licence": "Publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 11 January 2025; cost ranges are indicative and unsourced on the page."
+}

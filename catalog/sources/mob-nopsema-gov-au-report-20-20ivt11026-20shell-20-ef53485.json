@@ -1,0 +1,27 @@
+{
+  "id": "mob-nopsema-gov-au-report-20-20ivt11026-20shell-20-ef53485",
+  "name": "NOPSEMA Investigation - Prelude FLNG - Report (IVT11026, UPS Fire and Shutdown, redacted)",
+  "url": "https://www.nopsema.gov.au/sites/default/files/documents/Report%20-%20IVT11026%20Shell%20Prelude%20UPS%20Fire%20and%20Shutdown%20-%20Redacted.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ELE",
+    "HSE",
+    "INS",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "National Offshore Petroleum Safety and Environmental Management Authority (NOPSEMA)",
+  "access": "open",
+  "licence": "Commonwealth of Australia regulator report, redacted; quoted as brief factual summary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 16-page PDF fetched and read via https://r.jina.ai/ text mirror because WebFetch cannot render application/pdf directly. All incident figures come from this document."
+}

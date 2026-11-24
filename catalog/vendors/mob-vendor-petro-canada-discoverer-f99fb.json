@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-petro-canada-discoverer-f99fb",
+  "name": "Petro-Canada (discoverer)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Petro-Canada (discoverer) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Terra_Nova_oil_field",
+      "source_id": "mob-en-wikipedia-org-terra-nova-oil-field-36c3413"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

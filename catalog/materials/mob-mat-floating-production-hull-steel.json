@@ -1,0 +1,38 @@
+{
+  "id": "mob-mat-floating-production-hull-steel",
+  "name": "Floating production hull steel",
+  "material_category": "hull-steel",
+  "description": "Floating production hull steel named for mobile production unit service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "Prelude FLNG steel quantity",
+      "unit": "qualitative",
+      "basis": "Wikipedia Prelude FLNG article, tertiary source read directly",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "metric": "ISO 19904-1:2019 material scope",
+      "unit": "qualitative",
+      "basis": "ISO 19904-1:2019 abstract on ISO catalogue page",
+      "source": {
+        "url": "https://www.iso.org/standard/63801.html",
+        "source_id": "mob-iso-org-63801-html-d8a4034"
+      },
+      "year": 1990
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+      "source_id": "cost-en-wikipedia-org-prelude-flng"
+    },
+    {
+      "url": "https://www.iso.org/standard/63801.html",
+      "source_id": "mob-iso-org-63801-html-d8a4034"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

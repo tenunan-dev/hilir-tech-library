@@ -1,0 +1,179 @@
+{
+  "id": "p-85-sepia-2",
+  "name": "P-85 (Sepia 2)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Brazil",
+  "location": "Brazil",
+  "status": "operating",
+  "description": "225,000 bopd; 10 million Sm3/d gas; 25% local content; Sepia consortium Petrobras 55.3%, TotalEnergies 16.9%, PETRONAS 12.7%, QatarEnergy 12.7%, Petrogal 2.4%.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Petrobras awarded Seatrium newbuild supply contracts for P-84 and P-85",
+      "date": "2024",
+      "source": {
+        "url": "https://investors.seatrium.com/newsroom/20240525_070541_5E2_HJVHUYQIT7REJOGG.1.pdf",
+        "source_id": "mob-investors-seatrium-com-20240525-070541-5e2-hjv-82c8b48"
+      }
+    },
+    {
+      "event": "Saipem awarded three Kaminho contracts by TotalEnergies EP Angola Block 20",
+      "date": "2024",
+      "source": {
+        "url": "https://www.saipem.com/en/media/press-releases/2024-05-21/saipem-three-new-contracts-awarded-totalenergies-ep-angola-block-20",
+        "source_id": "mob-saipem-com-saipem-three-new-contracts-awarded-0326eac"
+      }
+    },
+    {
+      "event": "EMA recorded three FPSO orders since Q2 2024 totalling US$12.0Bn",
+      "date": "2024",
+      "source": {
+        "url": "https://www.rivieramm.com/news-content-hub/fpso-orders-resume-with-us12bn-in-awards-82131",
+        "source_id": "mob-rivieramm-com-fpso-orders-resume-with-us12bn-i-560642c"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "FPSO newbuild EPC contract value, P-84 + P-85 combined (contractor's own statement)",
+      "year": 2024,
+      "unit": "SGD billion",
+      "basis": "Seatrium press release PDF: contracts valued at approximately S$11 billion; Singapore dollars preserved as printed, no conversion applied.",
+      "value": 11,
+      "source": {
+        "url": "https://investors.seatrium.com/newsroom/20240525_070541_5E2_HJVHUYQIT7REJOGG.1.pdf",
+        "source_id": "mob-investors-seatrium-com-20240525-070541-5e2-hjv-82c8b48"
+      }
+    },
+    {
+      "metric": "FPSO newbuild EPC contract value, P-84 + P-85 combined (press conversion)",
+      "year": 2024,
+      "unit": "SGD billion",
+      "basis": "NS Energy: contract worth S$11bn ($8.15bn) for two FPSOs; dollar figure as printed by the source.",
+      "value": 8.15,
+      "source": {
+        "url": "https://www.nsenergybusiness.com/news/seatrium-secures-fpso-contract-from-petrobras",
+        "source_id": "mob-nsenergybusiness-com-seatrium-secures-fpso-con-c8117c7"
+      }
+    },
+    {
+      "metric": "FPSO newbuild EPC contract value, P-84 + P-85 combined (SPE JPT)",
+      "year": 2024,
+      "unit": "USD billion",
+      "basis": "JPT: Petrobras awarded Seatrium an $8.16-billion contract to build two all-electric FPSOs; note conflict with 8.15 and 8.2 figures, not reconciled.",
+      "value": 8.16,
+      "source": {
+        "url": "https://jpt.spe.org/petrobras-awards-seatrium-11-billion-contract-to-build-fpsos-for-sepia-and-atapu-fields-in-santos-basin",
+        "source_id": "mob-jpt-spe-org-petrobras-awards-seatrium-11-billi-ab67417"
+      }
+    },
+    {
+      "metric": "FPSO newbuild EPC contract value, P-84 + P-85 combined (EMA via Riviera)",
+      "year": 2024,
+      "unit": "USD billion",
+      "basis": "Riviera/EMA: US$8.2Bn EPC award to Seatrium for P84 and P85; retained alongside conflicting 8.15/8.16 figures.",
+      "value": 8.2,
+      "source": {
+        "url": "https://www.rivieramm.com/news-content-hub/fpso-orders-resume-with-us12bn-in-awards-82131",
+        "source_id": "mob-rivieramm-com-fpso-orders-resume-with-us12bn-i-560642c"
+      }
+    },
+    {
+      "metric": "Indicative per-unit newbuild FPSO price, P-84/P-85 class",
+      "year": 2024,
+      "unit": "USD billion per unit",
+      "basis": "EMA managing director quoted in Riviera: most expensive FPSOs ever ordered 'at over US$4.0Bn' each; lower bound only, no exact figure stated.",
+      "low": 4.0,
+      "source": {
+        "url": "https://www.rivieramm.com/news-content-hub/fpso-orders-resume-with-us12bn-in-awards-82131",
+        "source_id": "mob-rivieramm-com-fpso-orders-resume-with-us12bn-i-560642c"
+      }
+    },
+    {
+      "metric": "Kaminho combined EPSCC FPSO + 12-year O&M + SURF contract value",
+      "year": 2024,
+      "unit": "USD billion",
+      "basis": "Saipem press release: overall amount of the three contracts is 3.7 billion USD; explicitly a bundled scope, not a standalone FPSO unit cost.",
+      "value": 3.7,
+      "source": {
+        "url": "https://www.saipem.com/en/media/press-releases/2024-05-21/saipem-three-new-contracts-awarded-totalenergies-ep-angola-block-20",
+        "source_id": "mob-saipem-com-saipem-three-new-contracts-awarded-0326eac"
+      }
+    },
+    {
+      "metric": "Three FPSO orders placed since Q2 2024, aggregate",
+      "year": 2024,
+      "unit": "USD billion",
+      "basis": "EMA Floating Production Systems report as quoted by Riviera: three units ordered since Q2 2024 totalling US$12.0Bn.",
+      "value": 12.0,
+      "source": {
+        "url": "https://www.rivieramm.com/news-content-hub/fpso-orders-resume-with-us12bn-in-awards-82131",
+        "source_id": "mob-rivieramm-com-fpso-orders-resume-with-us12bn-i-560642c"
+      }
+    },
+    {
+      "metric": "Floating production system share of 2024 offshore EPC awards",
+      "year": 2024,
+      "unit": "USD billion",
+      "basis": "Westwood: FPS market accounted for 44% (US$23 billion) of offshore EPC contract awards in 2024; aggregate market figure, not a unit cost.",
+      "value": 23,
+      "source": {
+        "url": "https://www.westwoodenergy.com/news/westwood-insight-offshore-epc-contracting-activity-to-remain-buoyant-in-2025",
+        "source_id": "mob-westwoodenergy-com-westwood-insight-offshore-e-9aaaeec"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.nsenergybusiness.com/news/seatrium-secures-fpso-contract-from-petrobras",
+      "source_id": "mob-nsenergybusiness-com-seatrium-secures-fpso-con-c8117c7",
+      "note": "225,000 bopd; 10 million Sm3/d gas; 25% local content; Sepia consortium Petrobra"
+    },
+    {
+      "url": "https://investors.seatrium.com/newsroom/20240525_070541_5E2_HJVHUYQIT7REJOGG.1.pdf",
+      "source_id": "mob-investors-seatrium-com-20240525-070541-5e2-hjv-82c8b48"
+    },
+    {
+      "url": "https://jpt.spe.org/petrobras-awards-seatrium-11-billion-contract-to-build-fpsos-for-sepia-and-atapu-fields-in-santos-basin",
+      "source_id": "mob-jpt-spe-org-petrobras-awards-seatrium-11-billi-ab67417"
+    },
+    {
+      "url": "https://www.nsenergybusiness.com/news/seatrium-secures-fpso-contract-from-petrobras",
+      "source_id": "mob-nsenergybusiness-com-seatrium-secures-fpso-con-c8117c7"
+    },
+    {
+      "url": "https://www.rivieramm.com/news-content-hub/fpso-orders-resume-with-us12bn-in-awards-82131",
+      "source_id": "mob-rivieramm-com-fpso-orders-resume-with-us12bn-i-560642c"
+    },
+    {
+      "url": "https://www.saipem.com/en/media/press-releases/2024-05-21/saipem-three-new-contracts-awarded-totalenergies-ep-angola-block-20",
+      "source_id": "mob-saipem-com-saipem-three-new-contracts-awarded-0326eac"
+    },
+    {
+      "url": "https://totalenergies.com/news/press-releases/angola-totalenergies-launches-kaminho-deepwater-project",
+      "source_id": "mob-totalenergies-com-angola-totalenergies-launche-bcfa932"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Standalone P-84 and P-85 per-unit breakdown",
+      "why": "All sources give only the combined contract value; EMA's over-US$4bn is an imprecise lower bound.",
+      "next_action": "Seek Petrobras tender documentation or Seatrium annual report segment disclosure splitting P-84 and P-85."
+    },
+    {
+      "what": "Separate Kaminho FPSO-only value",
+      "why": "Saipem's 3.7 billion USD bundles FPSO EPCC, 12-year O&M and SURF.",
+      "next_action": "Look for Saipem order-intake disclosure or Angolan regulatory filing with a scope split."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit costs). Evidence-first retrospective of dated mobile production unit costs, 2006-2026. Strongest primary evidence: Seatrium's S$11bn P-84/P-85 contract (reported by pre"
+}

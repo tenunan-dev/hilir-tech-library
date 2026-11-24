@@ -1,0 +1,26 @@
+{
+  "id": "mob-patents-google-com-en-e57775e",
+  "name": "US20150314835A1 - Buoyant turret mooring with porous receptor cage",
+  "url": "https://patents.google.com/patent/US20150314835A1/en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT",
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Google Patents / USPTO bibliographic data",
+  "access": "open",
+  "licence": "Patent publication; bibliographic and descriptive facts quoted briefly",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Direct WebFetch returned 503; full page read via https://r.jina.ai/ mirror. Assignee, dates, family and numeric claims come from that read page."
+}

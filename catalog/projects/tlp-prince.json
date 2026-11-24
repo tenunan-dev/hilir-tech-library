@@ -1,0 +1,141 @@
+{
+  "id": "tlp-prince",
+  "name": "TLP Prince",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "El Paso Prince field, Gulf of Mexico, 454 m water depth.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "First offshore production vessel",
+      "date": "1986",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/MODEC",
+        "source_id": "mob-en-wikipedia-org-modec-281d09e"
+      }
+    },
+    {
+      "event": "First TLP delivered",
+      "date": "2001",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/MODEC",
+        "source_id": "mob-en-wikipedia-org-modec-281d09e"
+      }
+    },
+    {
+      "event": "IPO on Tokyo Stock Exchange second section",
+      "date": "2003",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/MODEC",
+        "source_id": "mob-en-wikipedia-org-modec-281d09e"
+      }
+    },
+    {
+      "event": "SOFEC acquisition",
+      "date": "2006",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/MODEC",
+        "source_id": "mob-en-wikipedia-org-modec-281d09e"
+      }
+    },
+    {
+      "event": "Offshore gas-to-liquids joint development",
+      "date": "2007",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/MODEC",
+        "source_id": "mob-en-wikipedia-org-modec-281d09e"
+      }
+    },
+    {
+      "event": "Reporting currency changed to USD",
+      "date": "2021",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/MODEC",
+        "source_id": "mob-en-wikipedia-org-modec-281d09e"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "FY2018 revenue",
+      "year": 2018,
+      "unit": "USD billion (as printed)",
+      "basis": "Page states JPY 221.9 billion (US$2 billion) FY2018; converted figure as printed, dollar year not stated",
+      "value": 2,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/MODEC",
+        "source_id": "mob-en-wikipedia-org-modec-281d09e"
+      }
+    },
+    {
+      "metric": "FY2018 net income",
+      "year": 2018,
+      "unit": "USD million (as printed)",
+      "basis": "Page states JPY 21.8 billion (US$198 million) FY2018; converted figure as printed, dollar year not stated",
+      "value": 198,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/MODEC",
+        "source_id": "mob-en-wikipedia-org-modec-281d09e"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "MODEC, Inc.",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "SOFEC, Inc.",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/MODEC",
+      "source_id": "mob-en-wikipedia-org-modec-281d09e",
+      "note": "El Paso Prince field, Gulf of Mexico, 454 m water depth."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MODEC",
+      "source_id": "mob-en-wikipedia-org-modec-281d09e"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MODEC",
+      "source_id": "mob-en-wikipedia-org-modec-281d09e",
+      "note": "First offshore production vessel, Kakap KH field, 88 m water depth."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading",
+      "note": "MODEC-owned and operated under service agreement with PEMEX E&P; converted ULCC with SOFEC external turret, 800,000 bbl/d design."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MODEC",
+      "source_id": "mob-en-wikipedia-org-modec-281d09e",
+      "note": "Referenced on the MODEC page as a 2017 news item about the TEN project FPSO arrival."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "FPSO charter contract values 2006-2026",
+      "why": "No contract values printed on the company or FPSO pages read",
+      "next_action": "Read MODEC annual reports and project press releases for named contract values, dates and dollar years"
+    },
+    {
+      "what": "SOFEC acquisition price (2006)",
+      "why": "Only the acquisition year is given",
+      "next_action": "Locate 2006 acquisition disclosure"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

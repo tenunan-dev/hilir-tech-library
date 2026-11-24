@@ -1,0 +1,26 @@
+{
+  "id": "mob-budsoffshoreenergy-com-7380787",
+  "name": "Mooring Line Failures, Evacuation at Gryphon Alpha FPSO",
+  "url": "https://budsoffshoreenergy.com/2011/02/05/mooring-line-failures-evacuation-at-gryphon-alpha-fpso/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "ROT",
+    "CIV"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Bud's Offshore Energy (BOE)",
+  "access": "open",
+  "licence": "© WordPress.com blog; brief factual summary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch. Secondary account of a BBC report; no primary inquiry report was read. OnePetro OTC 2014 paper and JPT 2015 article were found but both were CAPTCHA-blocked via WebFetch and r.jina.ai, so no figures were taken from them."
+}

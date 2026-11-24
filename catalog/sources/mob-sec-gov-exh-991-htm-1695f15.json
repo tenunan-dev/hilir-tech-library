@@ -1,0 +1,25 @@
+{
+  "id": "mob-sec-gov-exh-991-htm-1695f15",
+  "name": "SEC EX-99.1: Snam purchases 5 billion cubic metre floating LNG regasification terminal from Golar LNG for US$350 million",
+  "url": "https://www.sec.gov/Archives/edgar/data/1207179/000117184322004053/exh_991.htm",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Golar LNG / Snam (SEC filing exhibit)",
+  "access": "open",
+  "licence": "Public regulatory filing",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. USD 350m price and asset scope verified verbatim on SEC EDGAR."
+}

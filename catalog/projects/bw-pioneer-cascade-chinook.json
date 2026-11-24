@@ -1,0 +1,174 @@
+{
+  "id": "bw-pioneer-cascade-chinook",
+  "name": "BW Pioneer (Cascade & Chinook)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Petrobras America; 2,600 m water depth; EPCI awarded October 2007, production started early 2012; converted at MMHE Pasir Gudang, Malaysia.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "First FSO delivered",
+      "date": "1982",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    },
+    {
+      "event": "Rebranded BW Offshore and listed in Oslo",
+      "date": "2006",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    },
+    {
+      "event": "APL acquired as technology division",
+      "date": "2007",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    },
+    {
+      "event": "APL sold to National Oilwell Varco",
+      "date": "2010",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    },
+    {
+      "event": "Prosafe Production full acquisition",
+      "date": "2010",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    },
+    {
+      "event": "Catcher FPSO selected by Premier Oil",
+      "date": "2014",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    },
+    {
+      "event": "Catcher FPSO sailed from Keppel Shipyard",
+      "date": "2017",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "APL divestment to National Oilwell Varco",
+      "year": 2010,
+      "unit": "USD million (as printed)",
+      "basis": "USD 500 million in cash; dollar year not stated; figure from archived press-release title cited on Wikipedia",
+      "value": 500,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    },
+    {
+      "metric": "2013 revenue",
+      "year": 2013,
+      "unit": "USD million (as printed)",
+      "basis": "US$982.4 million; company financial figure, not a contract price; dollar year not stated",
+      "value": 982.4,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    },
+    {
+      "metric": "2013 operating income",
+      "year": 2013,
+      "unit": "USD million (as printed)",
+      "basis": "US$181.4 million; company financial figure, not a contract price",
+      "value": 181.4,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "BW Offshore Limited",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Advanced Production and Loading (APL)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "MMHE Shipyard Pasir Gudang",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+      "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716",
+      "note": "Petrobras America; 2,600 m water depth; EPCI awarded October 2007, production st"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+      "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+      "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716",
+      "note": "Petrobras America; 2,600 m water depth; EPCI awarded October 2007, production started early 2012; converted at MMHE Pasir Gudang, Malaysia."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+      "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716",
+      "note": "Catcher field, Harbour Energy; seven-year fixed term contract with Premier Oil from 2017; left Keppel Shipyard 28 August 2017."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+      "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716",
+      "note": "Santos; contract duration shown in the fleet table."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+      "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716",
+      "note": "Pemex; 90 m water depth, fleet table."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+      "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716",
+      "note": "Espoir field, CNR; 2002-2017 contract; sold to CNR in 2023."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Contract values for Catcher, Prosafe and individual FPSO charters",
+      "why": "Page gives durations and ownership percentages but no contract values",
+      "next_action": "Read BW Offshore annual reports and the archived press releases referenced on the page"
+    },
+    {
+      "what": "Dollar-year basis for APL USD 500 million",
+      "why": "Only the cash amount and year are printed",
+      "next_action": "Open the archived BW Offshore press release"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

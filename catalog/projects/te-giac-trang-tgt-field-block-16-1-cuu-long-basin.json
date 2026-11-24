@@ -1,0 +1,96 @@
+{
+  "id": "te-giac-trang-tgt-field-block-16-1-cuu-long-basin",
+  "name": "Te Giac Trang (TGT) field, Block 16-1, Cuu Long Basin",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Vietnam",
+  "location": "Vietnam",
+  "status": "operating",
+  "description": "Hoang Long Joint Operating Company partnership between PVEP, SOCO Vietnam, OPECO Vietnam and PTTEP.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "First oil",
+      "date": "2011",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2011/06/13/singapore-keppel-shipyard-delivers-its-latest-fpso-project-armada-tgt-1",
+        "source_id": "mob-offshore-energy-biz-singapore-keppel-shipyard-6c70c5e"
+      }
+    },
+    {
+      "event": "Bareboat charter extension signed",
+      "date": "2018",
+      "source": {
+        "url": "https://www.pharos.energy/investors/press-releases/extension-of-tgt-fpso-bare-boat-charter/",
+        "source_id": "mob-pharos-energy-1094bff"
+      }
+    },
+    {
+      "event": "Seven-year operating milestone",
+      "date": "2018",
+      "source": {
+        "url": "https://www.pharos.energy/investors/press-releases/extension-of-tgt-fpso-bare-boat-charter/",
+        "source_id": "mob-pharos-energy-1094bff"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Six-year bareboat charter extension",
+      "year": 2018,
+      "unit": "USD",
+      "basis": "Contract value of extension from 27 August 2018 to 14 November 2024 at lowered lease rate; stated in 6 August 2018 release",
+      "value": 285000000,
+      "source": {
+        "url": "https://www.pharos.energy/investors/press-releases/extension-of-tgt-fpso-bare-boat-charter/",
+        "source_id": "mob-pharos-energy-1094bff"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.pharos.energy/investors/press-releases/extension-of-tgt-fpso-bare-boat-charter/",
+      "source_id": "mob-pharos-energy-1094bff",
+      "note": "Hoang Long Joint Operating Company partnership between PVEP, SOCO Vietnam, OPECO"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2011/06/13/singapore-keppel-shipyard-delivers-its-latest-fpso-project-armada-tgt-1",
+      "source_id": "mob-offshore-energy-biz-singapore-keppel-shipyard-6c70c5e"
+    },
+    {
+      "url": "https://www.pharos.energy/investors/press-releases/extension-of-tgt-fpso-bare-boat-charter/",
+      "source_id": "mob-pharos-energy-1094bff"
+    },
+    {
+      "url": "https://www.pharos.energy/investors/press-releases/extension-of-tgt-fpso-bare-boat-charter/",
+      "source_id": "mob-pharos-energy-1094bff",
+      "note": "Hoang Long Joint Operating Company partnership between PVEP, SOCO Vietnam, OPECO Vietnam and PTTEP."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "DWT/LOA figures",
+      "why": "The Offshore Energy page lacks DWT and LOA; a MagicPort AIS page appeared in search results but was not read directly with WebFetch.",
+      "next_action": "Read the MagicPort or class record before recording 147,834 t / 336 m."
+    },
+    {
+      "what": "Post-2024 charter",
+      "why": "No dated confirmation of the 2024-2026 extension or field licence to 2031 was read.",
+      "next_action": "Read Bumi Armada AGM/annual report filings."
+    },
+    {
+      "what": "Charter value at inception",
+      "why": "Only the 2018 extension value was read.",
+      "next_action": "Find the original 2011 bareboat charter award value with dollar year."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

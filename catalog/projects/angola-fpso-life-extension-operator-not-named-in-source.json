@@ -1,0 +1,88 @@
+{
+  "id": "angola-fpso-life-extension-operator-not-named-in-source",
+  "name": "Angola FPSO life extension (operator not named in source)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Angola",
+  "location": "Angola",
+  "status": "operating",
+  "description": "Nine risers and one umbilical replaced at 1,500 m water depth as part of a major life-extension project",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "FPSO life-extension campaign completed offshore Angola (nine risers and one umbilical replaced)",
+      "date": "2025",
+      "source": {
+        "url": "https://www.oceaneering.com/case-studies/delivering-fpso-life-extension-through-integrated-offshore-operations/",
+        "source_id": "mob-oceaneering-com-20f5336"
+      }
+    },
+    {
+      "event": "IOGP published Global FPSO decommissioning insights 2024 (report 2023dfi)",
+      "date": "2024",
+      "source": {
+        "url": "https://idms.iogp.org/Documents/1274",
+        "source_id": "mob-idms-iogp-org-1274-5498dd7"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.oceaneering.com/case-studies/delivering-fpso-life-extension-through-integrated-offshore-operations/",
+      "source_id": "mob-oceaneering-com-20f5336",
+      "note": "Nine risers and one umbilical replaced at 1,500 m water depth as part of a major"
+    },
+    {
+      "url": "https://www.imorules.com/LRMAT_CH10_3.html",
+      "source_id": "mob-imorules-com-lrmat-ch10-3-html-8412763"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+      "source_id": "technipfmc-com-flexible-pipes"
+    },
+    {
+      "url": "https://www.oceaneering.com/case-studies/delivering-fpso-life-extension-through-integrated-offshore-operations/",
+      "source_id": "mob-oceaneering-com-20f5336"
+    },
+    {
+      "url": "https://idms.iogp.org/Documents/1274",
+      "source_id": "mob-idms-iogp-org-1274-5498dd7"
+    },
+    {
+      "url": "https://acteon.com/insights/blogs/mooring-chain-calculator",
+      "source_id": "mob-acteon-com-mooring-chain-calculator-018448a"
+    },
+    {
+      "url": "https://www.oceaneering.com/case-studies/delivering-fpso-life-extension-through-integrated-offshore-operations/",
+      "source_id": "mob-oceaneering-com-20f5336",
+      "note": "Nine risers and one umbilical replaced at 1,500 m water depth as part of a major life-extension project"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named-unit turret bearing failure case study with measured wear/failure data",
+      "why": "A studylib document on turret bearing failures was located but both direct and r.jina.ai fetches returned a human-verification block; no figures taken",
+      "next_action": "Access the papers through an institutional subscription and read them before recording wear rates or failure causes"
+    },
+    {
+      "what": "Fleet-wide decommissioning unit counts and yard-capacity numbers",
+      "why": "IOGP report full text required registration and was not read; catalogue page has no figures",
+      "next_action": "Register/download the report and record counts with publication year and definition of 'ready for decommissioning'"
+    },
+    {
+      "what": "Hull steel grade/specification for named units",
+      "why": "None of the read pages states the steel grade for Kikeh, Prelude, Gryphon Alpha or Deepwater Horizon",
+      "next_action": "Search class society plan approval records or project material specifications before asserting a steel grade"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit reliability and standards). Evidence-first 20-year retrospective built only from pages/PDFs actually read with WebFetch (several via the r.jina.ai text mirror, noted per source). Named APA"
+}

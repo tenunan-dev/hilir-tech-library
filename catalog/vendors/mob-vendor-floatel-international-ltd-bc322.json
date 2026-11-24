@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-floatel-international-ltd-bc322",
+  "name": "Floatel International Ltd",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Floatel International Ltd named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.floatel.no/",
+      "source_id": "mob-floatel-no-b9e80d8"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

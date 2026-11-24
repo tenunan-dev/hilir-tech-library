@@ -1,0 +1,50 @@
+{
+  "id": "anoa-field-natuna-sea",
+  "name": "Anoa field, Natuna Sea",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "operating",
+  "description": "External turret, new-build hull, EPCI + lease + O&M contract model.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "MODEC (EPCI, lease and O&M), field operator not named on the page read",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.modec.com/project/detail/kakap.html",
+      "source_id": "mob-modec-com-kakap-html-d00e320",
+      "note": "External turret, new-build hull, EPCI + lease + O&M contract model."
+    },
+    {
+      "url": "https://www.modec.com/project/detail/kakap.html",
+      "source_id": "mob-modec-com-kakap-html-d00e320"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed Anoa project data page",
+      "why": "The linked MODEC detail page /project/detail/anoa.html was not read directly with WebFetch.",
+      "next_action": "Read that page and add first oil, capacity and client."
+    },
+    {
+      "what": "Capacity and contract",
+      "why": "No throughput, storage, charter value or dates were on the listing tile.",
+      "next_action": "See detailed MODEC page."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

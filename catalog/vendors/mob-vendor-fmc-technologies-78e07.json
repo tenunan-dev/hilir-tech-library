@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-fmc-technologies-78e07",
+  "name": "FMC Technologies",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "FMC Technologies named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/TechnipFMC",
+      "source_id": "mob-en-wikipedia-org-technipfmc-d05c879"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

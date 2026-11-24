@@ -1,0 +1,25 @@
+{
+  "id": "mob-petronas-com-first-gas-petronas-first-floating-f036373",
+  "name": "PETRONAS - First Gas for PFLNG Satu",
+  "url": "https://www.petronas.com/media/media-releases/first-gas-petronas-first-floating-lng-facility-pflng-satu",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "PETRONAS",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch; 2016 media release."
+}

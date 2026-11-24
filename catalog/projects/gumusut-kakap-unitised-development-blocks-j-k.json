@@ -1,0 +1,132 @@
+{
+  "id": "gumusut-kakap-unitised-development-blocks-j-k",
+  "name": "Gumusut-Kakap unitised development, Blocks J/K",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia / Brunei",
+  "location": "Malaysia / Brunei",
+  "status": "operating",
+  "description": "Joint development operated by Sabah Shell with ConocoPhillips, PETRONAS Carigali, Murphy, Brunei Contractors, PTTEP and Pertamina.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Gumusut and Kakap unitised",
+      "date": "2006",
+      "source": {
+        "url": "https://www.nsenergybusiness.com/projects/gumusut-kakap-oil-field/",
+        "source_id": "mob-nsenergybusiness-com-760d4d5"
+      }
+    },
+    {
+      "event": "Early production via Kikeh",
+      "date": "2012",
+      "source": {
+        "url": "https://www.nsenergybusiness.com/projects/gumusut-kakap-oil-field/",
+        "source_id": "mob-nsenergybusiness-com-760d4d5"
+      }
+    },
+    {
+      "event": "Semi-FPS delivered from MMHE yard",
+      "date": "2013",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/successful-delivery-gumusut-kakap-semi-fps",
+        "source_id": "retro-petronas-com-successful-delivery-gumusut-kakap-6b0f2e0"
+      }
+    },
+    {
+      "event": "First production from semi-FPS",
+      "date": "2014",
+      "source": {
+        "url": "https://www.nsenergybusiness.com/projects/gumusut-kakap-oil-field/",
+        "source_id": "mob-nsenergybusiness-com-760d4d5"
+      }
+    },
+    {
+      "event": "Phase 2 first oil",
+      "date": "2019",
+      "source": {
+        "url": "https://www.nsenergybusiness.com/projects/gumusut-kakap-oil-field/",
+        "source_id": "mob-nsenergybusiness-com-760d4d5"
+      }
+    },
+    {
+      "event": "Phase 3 FID",
+      "date": "2020",
+      "source": {
+        "url": "https://www.nsenergybusiness.com/projects/gumusut-kakap-oil-field/",
+        "source_id": "mob-nsenergybusiness-com-760d4d5"
+      }
+    },
+    {
+      "event": "Unitisation agreement formalised",
+      "date": "2021",
+      "source": {
+        "url": "https://www.nsenergybusiness.com/projects/gumusut-kakap-oil-field/",
+        "source_id": "mob-nsenergybusiness-com-760d4d5"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Four-well drilling contract (Maersk Drilling)",
+      "year": 2021,
+      "unit": "USD",
+      "basis": "'approximately £24.5mn ($34mn)' contract value stated in the 2021 article; includes five one-well options",
+      "value": 34000000,
+      "source": {
+        "url": "https://www.nsenergybusiness.com/projects/gumusut-kakap-oil-field/",
+        "source_id": "mob-nsenergybusiness-com-760d4d5"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.nsenergybusiness.com/projects/gumusut-kakap-oil-field/",
+      "source_id": "mob-nsenergybusiness-com-760d4d5",
+      "note": "Joint development operated by Sabah Shell with ConocoPhillips, PETRONAS Carigali"
+    },
+    {
+      "url": "https://www.nsenergybusiness.com/projects/gumusut-kakap-oil-field/",
+      "source_id": "mob-nsenergybusiness-com-760d4d5"
+    },
+    {
+      "url": "https://www.petronas.com/media/media-releases/successful-delivery-gumusut-kakap-semi-fps",
+      "source_id": "retro-petronas-com-successful-delivery-gumusut-kakap-6b0f2e0"
+    },
+    {
+      "url": "https://www.offshore-mag.com/production/article/14067731/shell-adds-four-wells-to-gumusut-kakap-production-offshore-sabah",
+      "source_id": "mob-offshore-mag-com-shell-adds-four-wells-to-gumu-17dc123"
+    },
+    {
+      "url": "https://www.nsenergybusiness.com/projects/gumusut-kakap-oil-field/",
+      "source_id": "mob-nsenergybusiness-com-760d4d5",
+      "note": "Joint development operated by Sabah Shell with ConocoPhillips, PETRONAS Carigali, Murphy, Brunei Contractors, PTTEP and Pertamina."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "25-year lease contract value",
+      "why": "NS Energy states a 25-year lease with Shell Sabah Petroleum but gives no value or dollar year.",
+      "next_action": "Locate MISC/Shell filing disclosing charter value and sign-off date."
+    },
+    {
+      "what": "Capacity basis discrepancy",
+      "why": "Sources read give 165,000 bpd rated (NS Energy/Offshore Magazine) and 150,000 boe/d design (PETRONAS).",
+      "next_action": "Do not merge the two; cite each with its own basis."
+    },
+    {
+      "what": "Incidents",
+      "why": "No reliability/incident figures on the pages read.",
+      "next_action": "Check Shell/MISC HSSE reports."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

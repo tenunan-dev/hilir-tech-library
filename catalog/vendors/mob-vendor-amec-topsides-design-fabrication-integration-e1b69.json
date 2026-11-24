@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-amec-topsides-design-fabrication-integration-e1b69",
+  "name": "AMEC (topsides design/fabrication/integration)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "AMEC (topsides design/fabrication/integration) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/bonga/",
+      "source_id": "sys-offshore-technology-com-1525c7"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mob-fpsoventures-com-mopu-satu-and-dua-05bfada",
+  "name": "FPSO Ventures - MOPU Satu & Dua",
+  "url": "https://www.fpsoventures.com/experiences/mopu-satu-and-dua",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "FPSO Ventures Sdn Bhd",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch; includes reliability figures."
+}

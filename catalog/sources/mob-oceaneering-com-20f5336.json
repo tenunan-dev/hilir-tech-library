@@ -1,0 +1,27 @@
+{
+  "id": "mob-oceaneering-com-20f5336",
+  "name": "FPSO Life Extension via Consortium Approach | Case Study",
+  "url": "https://www.oceaneering.com/case-studies/delivering-fpso-life-extension-through-integrated-offshore-operations/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ROT",
+    "MAT",
+    "HSE",
+    "CIV"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Oceaneering International",
+  "access": "open",
+  "licence": "© Oceaneering; brief factual summary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch. Unit name not disclosed by the source; no cost figures were present."
+}

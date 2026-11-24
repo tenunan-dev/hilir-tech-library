@@ -4002,7 +4002,7 @@ Vendors: Allseas (OEM design), Huisman Equipment (0 model lines recorded).
 
 Primary code: UPS: Upstream
 Transport spar hull horizontally (wet tow or dry tow), upend by controlled ballasting/flooding, connect spread mooring (chain-wire-chain or chain-polyester-chain), then install topsides by crane or float-over.
-Vendors: Technip (EPIC spar; subsea pipelines/risers), J. Ray McDermott (0 model lines recorded).
+Vendors: Technip (risers, flowlines, umbilicals), J. Ray McDermott (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -5470,7 +5470,7 @@ Recorded gaps:
 
 Primary code: H2: Hydrogen and low-carbon fuels
 Fired tubular reactor in which natural gas or another light hydrocarbon reacts with steam over a nickel catalyst to make synthesis gas, followed in ammonia plants by a secondary reformer where air or oxygen is added and the remaining methane is converted. Reformers set the hydrogen-to-nitrogen ratio and the methane slip for the downstream shift and synthesis sections.
-Vendors: Topsoe, KBR, thyssenkrupp Uhde, AMEC (FEED), Casale (3 model lines recorded).
+Vendors: Topsoe, KBR, thyssenkrupp Uhde, AMEC (topsides design/fabrication/integration), Casale (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -5648,7 +5648,7 @@ Vendors: Norwegian Contractors, Arup, DORIS / C G DORIS (0 model lines recorded)
 
 Primary code: UPS: Upstream
 Ship-shaped self-propelled drilling vessel with moonpool, derrick and dynamic positioning; used for exploratory and development drilling in deep/ultra-deep water.
-Vendors: Transocean (jackup Galveston Key) (0 model lines recorded).
+Vendors: Transocean (owner/operator of DWH) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -5702,7 +5702,7 @@ Vendors: Aker Solutions, Saipem (ex-Micoperi 7000), Sif Group, Heerema Marine Co
 
 Primary code: UPS: Upstream
 Floating facility that extracts, processes, liquefies, stores and offloads LNG at sea, removing the need for a pipeline to shore.
-Vendors: Shell (operator, 35%), Technip Samsung Consortium, SBM Offshore (0 model lines recorded).
+Vendors: Shell (operator, 35%), Technip Samsung Consortium (TSC), SBM Offshore (Atlantia/SeaStar) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -5753,7 +5753,7 @@ Vendors: Equinor, Principle Power, SBM Offshore / IFPEN (0 model lines recorded)
 
 Primary code: UPS: Upstream
 Ship-shaped or circular floating vessel that receives, processes and stores hydrocarbons from subsea wells or nearby platforms and offloads to shuttle tankers; FSO/FSU store only.
-Vendors: SBM Offshore, MODEC Inc., BW Offshore, Aker Solutions (0 model lines recorded).
+Vendors: SBM Offshore (Atlantia/SeaStar), MODEC (EPC and O&M to 2022), BW Offshore, Aker Solutions (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -5868,7 +5868,7 @@ Vendors: Heerema Marine Contractors, Saipem (ex-Micoperi 7000), Petrobras (0 mod
 
 Primary code: UPS: Upstream
 Deep-draft vertical buoyant cylinder(s) moored by spread mooring; deep draft gives low wave sensitivity and supports dry-tree or subsea production.
-Vendors: Technip (EPIC spar; subsea pipelines/risers), J. Ray McDermott (0 model lines recorded).
+Vendors: Technip (risers, flowlines, umbilicals), J. Ray McDermott (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -6065,7 +6065,7 @@ Vendors: COOEC (CNOOC Engineering) (0 model lines recorded).
 
 Primary code: UPS: Upstream
 Ship-shaped floating production topsides with process, utility, accommodation and offloading systems; turret mooring allows weathervaning and transfers fluids/power between subsea and topsides through a swivel.
-Vendors: SOFEC, SBM Offshore (0 model lines recorded).
+Vendors: SOFEC, SBM Offshore (Atlantia/SeaStar) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |

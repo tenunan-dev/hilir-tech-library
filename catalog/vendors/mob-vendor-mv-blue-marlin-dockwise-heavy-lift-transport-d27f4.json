@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-mv-blue-marlin-dockwise-heavy-lift-transport-d27f4",
+  "name": "MV Blue Marlin / Dockwise (heavy-lift transport)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "MV Blue Marlin / Dockwise (heavy-lift transport) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Thunder_Horse_PDQ",
+      "source_id": "mob-en-wikipedia-org-thunder-horse-pdq-1a34032"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

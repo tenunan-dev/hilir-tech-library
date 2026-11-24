@@ -1,0 +1,25 @@
+{
+  "id": "mob-offshore-technology-com-bien-dong-nam-con-son-5894cba",
+  "name": "Offshore Technology - Bien Dong 1 project",
+  "url": "https://www.offshore-technology.com/projects/bien-dong-nam-con-son-basin-vietnam",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Offshore Technology / GlobalData",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch; 4 June 2013 profile."
+}

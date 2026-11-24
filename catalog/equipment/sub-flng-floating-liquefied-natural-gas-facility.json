@@ -24,8 +24,8 @@
   ],
   "vendors": [
     "retro-vendor-shell-operator-35",
-    "technip-samsung-consortium",
-    "sbm-offshore"
+    "mob-vendor-technip-samsung-consortium-tsc-27896",
+    "mob-vendor-sbm-offshore-atlantia-seastar-a037e"
   ],
   "sources": [
     {

@@ -1,0 +1,54 @@
+{
+  "id": "kakap-kh-field-natuna-sea",
+  "name": "Kakap KH field, Natuna Sea",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "operating",
+  "description": "CALM rigid-yoke mooring with flexible riser to PLEM.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "First oil",
+      "date": "1986",
+      "source": {
+        "url": "https://www.modec.com/project/detail/kakap.html",
+        "source_id": "mob-modec-com-kakap-html-d00e320"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.modec.com/project/detail/kakap.html",
+      "source_id": "mob-modec-com-kakap-html-d00e320",
+      "note": "CALM rigid-yoke mooring with flexible riser to PLEM."
+    },
+    {
+      "url": "https://www.modec.com/project/detail/kakap.html",
+      "source_id": "mob-modec-com-kakap-html-d00e320"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Relevance window",
+      "why": "First oil 1986 is outside the 2006-2026 retrospective; included only as a historical baseline for Natuna floating production.",
+      "next_action": "Flag as baseline when importing into the library."
+    },
+    {
+      "what": "Decommissioning date",
+      "why": "Not stated on the page read.",
+      "next_action": "Find MODEC or Marathon abandonment record."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

@@ -1,0 +1,187 @@
+{
+  "id": "golar-tundra-snam-piombino-fsru-terminal",
+  "name": "Golar Tundra / Snam Piombino FSRU terminal",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Italy",
+  "location": "Italy",
+  "status": "operating",
+  "description": "5 billion m3/year regasification; about 6.5% of Italian domestic gas needs; Golar leased the vessel back briefly as an LNG carrier.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Snam acquired Golar Tundra from Golar LNG",
+      "date": "2022",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1207179/000117184322004053/exh_991.htm",
+        "source_id": "mob-sec-gov-exh-991-htm-1695f15"
+      }
+    },
+    {
+      "event": "Golar agreed to convert and sell Golar Arctic to Snam as an FSRU",
+      "date": "2022",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1207179/000117184322003959/exh_991.htm",
+        "source_id": "mob-sec-gov-exh-991-htm-95ffa0d"
+      }
+    },
+    {
+      "event": "Golar reacquired Hilli common units from New Fortress Energy",
+      "date": "2023",
+      "source": {
+        "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q3-2023.pdf",
+        "source_id": "mob-golarlng-com-golar-lng-q3-2023-pdf-594035b"
+      }
+    },
+    {
+      "event": "SBM recorded disposal and lease reclassification for FPSO Espirito Santo",
+      "date": "2020",
+      "source": {
+        "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+        "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "ASSET TRANSACTION - Golar Tundra FSRU sale price",
+      "year": 2022,
+      "unit": "USD million",
+      "basis": "Snam/Golar SEC exhibit: acquisition for US$350 million (about EUR 330 million); asset transaction, not a unit cost. Golar reported net cash proceeds of USD 193.1m after debt and fees.",
+      "value": 350,
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1207179/000117184322004053/exh_991.htm",
+        "source_id": "mob-sec-gov-exh-991-htm-1695f15"
+      }
+    },
+    {
+      "metric": "ASSET TRANSACTION - Golar Arctic converted FSRU sale price",
+      "year": 2022,
+      "unit": "EUR million",
+      "basis": "Golar Q2 2022 report read via r.jina.ai proxy: sale of converted FSRU to Snam for EUR 269.0m (about USD 288m per Golar); euro preserved as printed; asset transaction, not a unit cost.",
+      "value": 269,
+      "source": {
+        "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q2-2022.pdf",
+        "source_id": "mob-golarlng-com-golar-lng-q2-2022-pdf-6f9c076"
+      }
+    },
+    {
+      "metric": "CONVERSION SCOPE - Golar Arctic FSRU estimated conversion cost",
+      "year": 2022,
+      "unit": "USD million",
+      "basis": "Golar 26 May 2022 6-K exhibit read via r.jina.ai proxy: estimated conversion cost approximately USD 160m due to high specification equipment and inflationary market conditions; this IS a conversion cost figure, distinct from the sale price.",
+      "value": 160,
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1207179/000117184322003959/exh_991.htm",
+        "source_id": "mob-sec-gov-exh-991-htm-95ffa0d"
+      }
+    },
+    {
+      "metric": "ASSET TRANSACTION - Golar Tundra final sale price including working capital adjustment",
+      "year": 2022,
+      "unit": "USD million",
+      "basis": "Golar Q2 2022 report note 4: agreement 31 May 2022 for Snam to acquire Golar LNG NB 13 Corporation for USD 352.5m including a USD 2.5m working capital adjustment; kept alongside the USD 350m headline price from the joint press release, not reconciled.",
+      "value": 352.5,
+      "source": {
+        "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q2-2022.pdf",
+        "source_id": "mob-golarlng-com-golar-lng-q2-2022-pdf-6f9c076"
+      }
+    },
+    {
+      "metric": "ASSET TRANSACTION - OSX-3 / Bravo FPSO purchase by PetroRio",
+      "year": 2020,
+      "unit": "USD million",
+      "basis": "Offshore Engineer reporting as previously reported in 2020: PetroRio bought the OSX-3 FPSO for USD 140m together with an 80% stake in Tubarao Martelo; asset transaction, not a unit cost.",
+      "value": 140,
+      "source": {
+        "url": "https://www.oedigital.com/news/489189-brazil-petrorio-connects-polvo-and-tubarao-martelo-fields-eyes-significant-opex-cut",
+        "source_id": "mob-oedigital-com-489189-brazil-petrorio-connects-4cce478"
+      }
+    },
+    {
+      "metric": "ASSET TRANSACTION - FPSO Espirito Santo net disposal amount",
+      "year": 2020,
+      "unit": "USD million",
+      "basis": "SBM 2020 annual report: net disposal USD 126m = historical cost USD 584m less accumulated depreciation USD 458m; accounting disposal on lease reclassification, not a market sale price.",
+      "value": 126,
+      "source": {
+        "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+        "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d"
+      }
+    },
+    {
+      "metric": "ASSET TRANSACTION - Golar Hilli common units cash component of buyback",
+      "year": 2023,
+      "unit": "USD million",
+      "basis": "Golar Q3 2023: USD 100.0m cash plus USD 116.9m of NFE shares and USD 3.9m of distribution rights; equity transaction, not a unit cost.",
+      "value": 100,
+      "source": {
+        "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q3-2023.pdf",
+        "source_id": "mob-golarlng-com-golar-lng-q3-2023-pdf-594035b"
+      }
+    },
+    {
+      "metric": "ASSET TRANSACTION - Golar net consideration for carriers and Golar Tundra",
+      "year": 2022,
+      "unit": "USD million",
+      "basis": "Golar 2023 Form 20-F read via r.jina.ai proxy: 2022 disposals of most LNG carriers and the Golar Tundra FSRU for net consideration USD 697.8m with gain USD 113.2m; portfolio transaction, not a unit cost.",
+      "value": 697.8,
+      "source": {
+        "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/annual-reports/2023-annual-report-form-20-f-golar-lng.pdf",
+        "source_id": "mob-golarlng-com-2023-annual-report-form-20-f-gola-ccf4839"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1207179/000117184322004053/exh_991.htm",
+      "source_id": "mob-sec-gov-exh-991-htm-1695f15",
+      "note": "5 billion m3/year regasification; about 6.5% of Italian domestic gas needs; Gola"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1207179/000117184322004053/exh_991.htm",
+      "source_id": "mob-sec-gov-exh-991-htm-1695f15"
+    },
+    {
+      "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q3-2023.pdf",
+      "source_id": "mob-golarlng-com-golar-lng-q3-2023-pdf-594035b"
+    },
+    {
+      "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q2-2022.pdf",
+      "source_id": "mob-golarlng-com-golar-lng-q2-2022-pdf-6f9c076"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1207179/000117184322003959/exh_991.htm",
+      "source_id": "mob-sec-gov-exh-991-htm-95ffa0d"
+    },
+    {
+      "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/annual-reports/2023-annual-report-form-20-f-golar-lng.pdf",
+      "source_id": "mob-golarlng-com-2023-annual-report-form-20-f-gola-ccf4839"
+    },
+    {
+      "url": "https://www.oedigital.com/news/489189-brazil-petrorio-connects-polvo-and-tubarao-martelo-fields-eyes-significant-opex-cut",
+      "source_id": "mob-oedigital-com-489189-brazil-petrorio-connects-4cce478"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Final completed Golar Arctic FSRU sale proceeds",
+      "why": "The EUR 269m figure is the agreed sale price signed in May 2022; Golar stated ownership would not transfer for up to three years, so final proceeds were not in the read pages.",
+      "next_action": "Check later Golar annual reports for completion of the Arctic conversion and sale."
+    },
+    {
+      "what": "Scope split of the USD 697.8m 2022 disposal consideration",
+      "why": "The 20-F reports a combined net consideration for carriers plus Golar Tundra and a combined gain.",
+      "next_action": "Use the separately reported Golar Tundra USD 350m/352.5m figures for the FSRU component; no further split asserted."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit costs). Evidence-first retrospective of dated mobile production unit costs, 2006-2026. Strongest primary evidence: Seatrium's S$11bn P-84/P-85 contract (reported by pre"
+}

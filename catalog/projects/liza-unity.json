@@ -1,0 +1,175 @@
+{
+  "id": "liza-unity",
+  "name": "Liza Unity",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Guyana",
+  "location": "Guyana",
+  "status": "operating",
+  "description": "First Fast4Ward FPSO; 2 million bbl storage, 220,000 bbl/d oil nameplate in 2022 survey.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "SBM opens Kuala Lumpur execution centre",
+      "date": "2006",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    },
+    {
+      "event": "FPSO Aseng delivered two years after contract award",
+      "date": "2011",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    },
+    {
+      "event": "Generation 3 FPSO enters market; Cidade de Paraty",
+      "date": "2013",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    },
+    {
+      "event": "Fast4Ward programme launched",
+      "date": "2016",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    },
+    {
+      "event": "FPSO Liza Destiny installed offshore Guyana",
+      "date": "2019",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    },
+    {
+      "event": "First oil from first Fast4Ward FPSO",
+      "date": "2022",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    },
+    {
+      "event": "First F4W FPSO Sepetiba arrives in Brazil",
+      "date": "2024",
+      "source": {
+        "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+        "source_id": "mob-sbmoffshore-com-830170a"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "typical CAPEX of near-term mid-to-large FPSO projects",
+      "year": 2024,
+      "unit": "USD",
+      "basis": "Yinson Holdings Integrated Annual Report 2024 market outlook: 'robust demand outlook near-term mostly for mid-sized to large FPSOs with CAPEX of over USD 1 billion' — dollar year not stated",
+      "low": 1000000000,
+      "source": {
+        "url": "https://ar.yinson.com/2024/download-file/YHB%20IAR24%20-%20Business%20Review%20Yinson%20Production.pdf",
+        "source_id": "mob-ar-yinson-com-yhb-20iar24-20-20business-20revi-e32f2ea"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "SBM Offshore",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Shanghai Waigaoqiao Shipbuilding (SWS)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "China Merchants Industry Holdings (CMIH)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Keppel",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "ExxonMobil (FLEXSORB, OASE sulfexx joint development)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Petrobras",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "MODEC Inc.",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "BW Offshore",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Bumi Armada",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Yinson Production",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://img.offshore-mag.com/files/base/ebm/os/document/2022/12/2022_Worldwide_Survey_of_Floating_Production_Storage_and_Offloading_Units.6398fd2a675a5.pdf?dl=2022_Worldwide_Survey_of_Floating_Production_Storage_and_Offloading_Units.6398fd2a675a5.pdf",
+      "source_id": "mob-img-offshore-mag-com-2022-worldwide-survey-of-4ccb06d",
+      "note": "First Fast4Ward FPSO; 2 million bbl storage, 220,000 bbl/d oil nameplate in 2022"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/who-we-are/our-heritage/",
+      "source_id": "mob-sbmoffshore-com-830170a"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/what-we-do/fpso-operations/",
+      "source_id": "mob-sbmoffshore-com-214297f"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/sbm-fast4ward-investor-presentation-houston-11-18-16.pdf",
+      "source_id": "mob-sbmoffshore-com-sbm-fast4ward-investor-present-cd4d5cb"
+    },
+    {
+      "url": "https://img.offshore-mag.com/files/base/ebm/os/document/2022/12/2022_Worldwide_Survey_of_Floating_Production_Storage_and_Offloading_Units.6398fd2a675a5.pdf?dl=2022_Worldwide_Survey_of_Floating_Production_Storage_and_Offloading_Units.6398fd2a675a5.pdf",
+      "source_id": "mob-img-offshore-mag-com-2022-worldwide-survey-of-4ccb06d"
+    },
+    {
+      "url": "https://ar.yinson.com/2024/download-file/YHB%20IAR24%20-%20Business%20Review%20Yinson%20Production.pdf",
+      "source_id": "mob-ar-yinson-com-yhb-20iar24-20-20business-20revi-e32f2ea"
+    },
+    {
+      "url": "https://www.iso.org/standard/63801.html",
+      "source_id": "mob-iso-org-63801-html-d8a4034"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "published unit capital cost of a named FPSO with an explicit dollar year",
+      "why": "Company and survey pages give market CAPEX bands, not a named unit price with a stated dollar year",
+      "next_action": "Find an operator or lender project document that states a named FPSO cost and its dollar year"
+    },
+    {
+      "what": "ISO 19904-1 full normative text",
+      "why": "Only the ISO abstract was readable; the full 200-page standard is behind paywall",
+      "next_action": "Obtain licensed copy before quoting specific clauses"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile production technology). Evidence-first 2006–2026 retrospective across 15 mobile-production themes, built only from pages actually read with WebFetch; PDFs were read through the r.jina."
+}

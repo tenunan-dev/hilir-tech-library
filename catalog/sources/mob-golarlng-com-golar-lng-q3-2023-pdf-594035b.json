@@ -1,0 +1,25 @@
+{
+  "id": "mob-golarlng-com-golar-lng-q3-2023-pdf-594035b",
+  "name": "Golar LNG Q3 2023 interim results",
+  "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q3-2023.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Golar LNG Limited",
+  "access": "open",
+  "licence": "Publisher copyright; factual summary only",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 17-page PDF read via r.jina.ai proxy; 1.34bn asset under development, 159m MKII spend and 20-year Gimi contract verified."
+}

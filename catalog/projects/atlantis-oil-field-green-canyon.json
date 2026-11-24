@@ -1,0 +1,111 @@
+{
+  "id": "atlantis-oil-field-green-canyon",
+  "name": "Atlantis oil field, Green Canyon",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Deepwater Gulf of Mexico; BP/BHP joint venture",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Hull laid down",
+      "date": "2004",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Atlantis_PQ",
+        "source_id": "mob-en-wikipedia-org-atlantis-pq-a59c1c6"
+      }
+    },
+    {
+      "event": "Sailed to Gulf of Mexico",
+      "date": "2006",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Atlantis_PQ",
+        "source_id": "mob-en-wikipedia-org-atlantis-pq-a59c1c6"
+      }
+    },
+    {
+      "event": "Hull launched and platform in service",
+      "date": "2007",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Atlantis_PQ",
+        "source_id": "mob-en-wikipedia-org-atlantis-pq-a59c1c6"
+      }
+    },
+    {
+      "event": "Food & Water Watch lawsuit filed",
+      "date": "2010",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Atlantis_PQ",
+        "source_id": "mob-en-wikipedia-org-atlantis-pq-a59c1c6"
+      }
+    },
+    {
+      "event": "Case dismissed",
+      "date": "2014",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Atlantis_PQ",
+        "source_id": "mob-en-wikipedia-org-atlantis-pq-a59c1c6"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "BP (56%, operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "BHP (44%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Daewoo Shipbuilding & Marine Engineering, Okpo (hull)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "GVA Consultants (hull design)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Morgan City, Louisiana (topsides modules)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Ingleside, Texas (hull integration)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Atlantis_PQ",
+      "source_id": "mob-en-wikipedia-org-atlantis-pq-a59c1c6",
+      "note": "Deepwater Gulf of Mexico; BP/BHP joint venture"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Atlantis_PQ",
+      "source_id": "mob-en-wikipedia-org-atlantis-pq-a59c1c6"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "capital cost and production capacity",
+      "why": "Not stated on the page read",
+      "next_action": "Obtain BP Atlantis field fact sheet or OTC papers"
+    },
+    {
+      "what": "verification of 89%/95% allegations",
+      "why": "Reported allegations in litigation, dismissed by court",
+      "next_action": "Read court judgment if quantitative reliability claims are needed"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

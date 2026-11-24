@@ -1,0 +1,124 @@
+{
+  "id": "maleo-gas-field-mopu",
+  "name": "Maleo gas field MOPU",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "operating",
+  "description": "Converted jack-up drilling rig, Madura Offshore PSC, 140 km east of Surabaya; 7.4 km spur-line to East Java Gas Pipeline.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "First offshore production jackup, Gulftide at Ekofisk",
+      "date": "1971",
+      "source": {
+        "url": "https://www.offshore-mag.com/drilling-completion/article/16763365/mopus-evolving-to-meet-greater-depth-flexibility-challenges",
+        "source_id": "mob-offshore-mag-com-mopus-evolving-to-meet-greate-4828fa8"
+      }
+    },
+    {
+      "event": "TPG 500 newbuild jackup MOPU at Harding",
+      "date": "1996",
+      "source": {
+        "url": "https://www.offshore-mag.com/drilling-completion/article/16763365/mopus-evolving-to-meet-greater-depth-flexibility-challenges",
+        "source_id": "mob-offshore-mag-com-mopus-evolving-to-meet-greate-4828fa8"
+      }
+    },
+    {
+      "event": "Maleo gas project first production from converted jack-up MOPU",
+      "date": "2006",
+      "source": {
+        "url": "https://www.santos.com/news/first-production-from-indonesian-gas-project/",
+        "source_id": "mob-santos-com-2403c50"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Maleo gas project total cost",
+      "year": 2006,
+      "unit": "USD million",
+      "basis": "Santos 3 Oct 2006 media release: US$75 million (A$100 million) project; dollar year not stated",
+      "value": 75,
+      "source": {
+        "url": "https://www.santos.com/news/first-production-from-indonesian-gas-project/",
+        "source_id": "mob-santos-com-2403c50"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Oceaneering",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Global Process Systems Inc (Dubai)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Radiant Utama Interinsco",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Paragon Engineering",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Mercator Oil & Gas",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Gulf Piping Company",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.santos.com/news/first-production-from-indonesian-gas-project/",
+      "source_id": "mob-santos-com-2403c50",
+      "note": "Converted jack-up drilling rig, Madura Offshore PSC, 140 km east of Surabaya; 7."
+    },
+    {
+      "url": "https://www.santos.com/news/first-production-from-indonesian-gas-project/",
+      "source_id": "mob-santos-com-2403c50"
+    },
+    {
+      "url": "https://www.offshore-mag.com/drilling-completion/article/16763365/mopus-evolving-to-meet-greater-depth-flexibility-challenges",
+      "source_id": "mob-offshore-mag-com-mopus-evolving-to-meet-greate-4828fa8"
+    },
+    {
+      "url": "http://large.stanford.edu/publications/coal/references/ocean/mops/legend/docs/legend.pdf"
+    },
+    {
+      "url": "https://www.santos.com/news/first-production-from-indonesian-gas-project/",
+      "source_id": "mob-santos-com-2403c50",
+      "note": "Converted jack-up drilling rig, Madura Offshore PSC, 140 km east of Surabaya; 7.4 km spur-line to East Java Gas Pipeline."
+    },
+    {
+      "url": "https://www.offshore-mag.com/drilling-completion/article/16763365/mopus-evolving-to-meet-greater-depth-flexibility-challenges",
+      "source_id": "mob-offshore-mag-com-mopus-evolving-to-meet-greate-4828fa8",
+      "note": "Giant newbuild production jackup on concrete gravity base, central North Sea."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "verified 2022 Sagar Samrat jack-up-to-MOPU conversion figures",
+      "why": "The ONGC page timed out on direct WebFetch and the reader proxy returned 422; no figures from it are recorded",
+      "next_action": "Fetch the ONGC page again or use another primary source for the conversion and capacity"
+    },
+    {
+      "what": "Ocean Legend MOPU figures verified by page read",
+      "why": "Source PDF was not read with WebFetch",
+      "next_action": "Read the Oceaneering PDF via the approved reader proxy"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile production technology). Evidence-first 2006–2026 retrospective across 15 mobile-production themes, built only from pages actually read with WebFetch; PDFs were read through the r.jina."
+}

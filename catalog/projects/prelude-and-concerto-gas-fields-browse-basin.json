@@ -1,0 +1,206 @@
+{
+  "id": "prelude-and-concerto-gas-fields-browse-basin",
+  "name": "Prelude and Concerto gas fields, Browse Basin",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Australia",
+  "location": "Australia",
+  "status": "operating",
+  "description": "Joint venture Shell, KOGAS and Inpex; 200 km offshore Western Australia",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Shell approved funding (FID)",
+      "date": "2011",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_liquefied_natural_gas",
+        "source_id": "mob-en-wikipedia-org-floating-liquefied-natural-ga-c92efe1"
+      }
+    },
+    {
+      "event": "First metal cut for substructure",
+      "date": "2012",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "event": "Hull launched / floated out",
+      "date": "2013",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "event": "All 14 gas plant modules installed",
+      "date": "2015",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "event": "Arrived on station off Western Australia",
+      "date": "2017",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "event": "Initial production started",
+      "date": "2018",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "event": "Shutdown after electrical fault",
+      "date": "2020",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "event": "Production restarted",
+      "date": "2021",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "event": "Resumed operations after regulator challenge",
+      "date": "2022",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "vessel cost analyst estimate low",
+      "year": 2013,
+      "unit": "USD billion",
+      "basis": "Analyst estimates in 2013 for cost of vessel; range",
+      "low": 10.8,
+      "high": 12.6,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "metric": "Shell cost estimate per million tonnes capacity",
+      "year": 2014,
+      "unit": "USD billion",
+      "basis": "Shell estimate up to US$3.5bn per million tons of production capacity",
+      "value": 3.5,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "metric": "announced investment equivalent",
+      "year": 2011,
+      "unit": "USD billion",
+      "basis": "Royal Dutch Shell announced AUD12bn (stated in source as USD8.71bn) on 20 May 2011",
+      "value": 8.71,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_liquefied_natural_gas",
+        "source_id": "mob-en-wikipedia-org-floating-liquefied-natural-ga-c92efe1"
+      }
+    },
+    {
+      "metric": "reported total cost (unconfirmed)",
+      "year": 2021,
+      "unit": "USD billion",
+      "basis": "WAtoday reported it was believed ship cost at least US$17.5bn; Shell never confirmed; 'at least' means value is a lower bound",
+      "value": 17.5,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Shell plc",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Technip Samsung Consortium (TSC)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Samsung Heavy Industries (Geoje shipyard)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "SBM Offshore (turret mooring)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "FMC Technologies (subsea wellheads)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Emerson Electric (automation and UPS)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "KOGAS",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "INPEX (operator, 42.5%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+      "source_id": "cost-en-wikipedia-org-prelude-flng",
+      "note": "Joint venture Shell, KOGAS and Inpex; 200 km offshore Western Australia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+      "source_id": "cost-en-wikipedia-org-prelude-flng"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_liquefied_natural_gas",
+      "source_id": "mob-en-wikipedia-org-floating-liquefied-natural-ga-c92efe1"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "confirmed final capital cost",
+      "why": "Shell has never published it; only analyst estimates and press beliefs exist",
+      "next_action": "Seek Shell annual report or auditor disclosure"
+    },
+    {
+      "what": "mooring water depth",
+      "why": "Not stated on the pages read",
+      "next_action": "Check NOPSEMA environmental plan or Shell EIS PDF"
+    },
+    {
+      "what": "reliability statistics (uptime, downtime days)",
+      "why": "Only qualitative incident descriptions available",
+      "next_action": "Obtain NOPSEMA incident notices and production data"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mob-sbmoffshore-com-pressrelease-20090310-original-3b6d4cc",
+  "name": "Final Results SBM Offshore 2008",
+  "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/pressrelease-20090310-original-503.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "SBM Offshore N.V.",
+  "access": "open",
+  "licence": "Publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 18-page PDF read via r.jina.ai proxy; all corporate aggregates and cost-overrun statements verified."
+}

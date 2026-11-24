@@ -1,0 +1,118 @@
+{
+  "id": "skarv-and-idun-fpso",
+  "name": "Skarv and Idun FPSO",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Norway",
+  "location": "Norway",
+  "status": "operating",
+  "description": "BP operator; hull and topsides by Samsung; Aker front-end design; water depth 350-450 m.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Skarv hull contract awarded by BP",
+      "date": "2010",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/skarv/",
+        "source_id": "mob-offshore-technology-com-13fe71d"
+      }
+    },
+    {
+      "event": "Shell/Samsung LNG FPSO agreement",
+      "date": "2009",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+      }
+    },
+    {
+      "event": "Petrojarl Knarr hull built",
+      "date": "2014",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Teekay",
+        "source_id": "mob-en-wikipedia-org-teekay-07bc2c5"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Skarv FPSO hull fabrication contract",
+      "year": 2010,
+      "unit": "USD million (as printed)",
+      "basis": "dollar year not stated; BP awarded US$400 million contract for Skarv FPSO hull; hull delivered 2010",
+      "value": 400,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/skarv/",
+        "source_id": "mob-offshore-technology-com-13fe71d"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Samsung Heavy Industries",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "BP",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Aker Kvaerner",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/skarv/",
+      "source_id": "mob-offshore-technology-com-13fe71d",
+      "note": "BP operator; hull and topsides by Samsung; Aker front-end design; water depth 35"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/skarv/",
+      "source_id": "mob-offshore-technology-com-13fe71d"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Samsung_Heavy_Industries",
+      "source_id": "mob-en-wikipedia-org-samsung-heavy-industries-1724a44"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/skarv/",
+      "source_id": "mob-offshore-technology-com-13fe71d",
+      "note": "BP operator; hull and topsides by Samsung; Aker front-end design; water depth 350-450 m."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Teekay",
+      "source_id": "mob-en-wikipedia-org-teekay-07bc2c5",
+      "note": "Built by Samsung Heavy Industries for Teekay/BG Group, 63,000 bbl/d."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading",
+      "note": "Agreement to build up to 10 LNG FPSOs at the Samsung yard."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar-year basis for Skarv contracts",
+      "why": "Project page prints nominal US$ values with no base year",
+      "next_action": "Locate the original 2008-2010 BP award announcements"
+    },
+    {
+      "what": "Contract values for Shell LNG FPSO series",
+      "why": "Agreement announced without values on the page read",
+      "next_action": "Read the 2009 Platts/Shell announcement"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

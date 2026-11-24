@@ -1,0 +1,161 @@
+{
+  "id": "polvo-tubarao-martelo-cluster",
+  "name": "Polvo / Tubarao Martelo cluster",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Brazil",
+  "location": "Brazil",
+  "status": "operating",
+  "description": "PetroRio holds 80% of Tubarao Martelo; cluster economic life to 2037 on 1P reserves per DeGolyer & MacNaughton; emissions fell from 18.6 to 13.7 kg CO2 per barrel.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "PetroRio completed Polvo-Tubarao Martelo tieback and cut cluster OPEX",
+      "date": "2021",
+      "source": {
+        "url": "https://www.oedigital.com/news/489189-brazil-petrorio-connects-polvo-and-tubarao-martelo-fields-eyes-significant-opex-cut",
+        "source_id": "mob-oedigital-com-489189-brazil-petrorio-connects-4cce478"
+      }
+    },
+    {
+      "event": "Golar reported Q3 2023 FLNG vessel operating expenses",
+      "date": "2023",
+      "source": {
+        "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q3-2023.pdf",
+        "source_id": "mob-golarlng-com-golar-lng-q3-2023-pdf-594035b"
+      }
+    },
+    {
+      "event": "NSTA reported UKCS unit operating costs",
+      "date": "2020",
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/p3ed5ezn/ukcsunitoperatingcostin2020.pdf",
+        "source_id": "mob-nstauthority-co-uk-ukcsunitoperatingcostin2020-0d4cf52"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Polvo/Tubarao Martelo cluster OPEX reduction from eliminating chartered FPSO",
+      "year": 2021,
+      "unit": "USD million per year",
+      "basis": "PetroRio statement quoted by Offshore Engineer: reduction comprises Polvo FPSO lease, maintenance and diesel expenses.",
+      "value": 50,
+      "source": {
+        "url": "https://www.oedigital.com/news/489189-brazil-petrorio-connects-polvo-and-tubarao-martelo-fields-eyes-significant-opex-cut",
+        "source_id": "mob-oedigital-com-489189-brazil-petrorio-connects-4cce478"
+      }
+    },
+    {
+      "metric": "Cluster total operating cost before tieback",
+      "year": 2021,
+      "unit": "USD million per year",
+      "basis": "PetroRio statement as quoted; field-cluster level, includes more than FPSO costs.",
+      "value": 120,
+      "source": {
+        "url": "https://www.oedigital.com/news/489189-brazil-petrorio-connects-polvo-and-tubarao-martelo-fields-eyes-significant-opex-cut",
+        "source_id": "mob-oedigital-com-489189-brazil-petrorio-connects-4cce478"
+      }
+    },
+    {
+      "metric": "Cluster total operating cost after tieback",
+      "year": 2021,
+      "unit": "USD million per year",
+      "basis": "PetroRio statement as quoted; approximately USD 70 million per year.",
+      "value": 70,
+      "source": {
+        "url": "https://www.oedigital.com/news/489189-brazil-petrorio-connects-polvo-and-tubarao-martelo-fields-eyes-significant-opex-cut",
+        "source_id": "mob-oedigital-com-489189-brazil-petrorio-connects-4cce478"
+      }
+    },
+    {
+      "metric": "Polvo-Tubarao Martelo tieback CAPEX",
+      "year": 2021,
+      "unit": "USD million",
+      "basis": "PetroRio statement: tieback completed in 11 months; one-off project CAPEX, not a unit cost.",
+      "value": 45,
+      "source": {
+        "url": "https://www.oedigital.com/news/489189-brazil-petrorio-connects-polvo-and-tubarao-martelo-fields-eyes-significant-opex-cut",
+        "source_id": "mob-oedigital-com-489189-brazil-petrorio-connects-4cce478"
+      }
+    },
+    {
+      "metric": "FLNG segment vessel operating expenses, Q3 2023",
+      "year": 2023,
+      "unit": "USD million per quarter",
+      "basis": "Golar Q3 2023 statement of operations; FLNG segment (Hilli operating plus Gimi pre-operational); not a per-unit annual OPEX.",
+      "value": 17.726,
+      "source": {
+        "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q3-2023.pdf",
+        "source_id": "mob-golarlng-com-golar-lng-q3-2023-pdf-594035b"
+      }
+    },
+    {
+      "metric": "UKCS average unit operating cost",
+      "year": 2020,
+      "unit": "GBP per boe",
+      "basis": "NSTA UKCS Unit Operating Costs 2020, 2020 prices; all UKCS facilities, used only as a peer benchmark, not mobile-only.",
+      "value": 11.2,
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/p3ed5ezn/ukcsunitoperatingcostin2020.pdf",
+        "source_id": "mob-nstauthority-co-uk-ukcsunitoperatingcostin2020-0d4cf52"
+      }
+    },
+    {
+      "metric": "UKCS total operating expenditure",
+      "year": 2020,
+      "unit": "GBP billion per year",
+      "basis": "NSTA report executive summary; down nearly GBP 0.8bn (11%) year on year; all UKCS, not mobile-only.",
+      "value": 6.5,
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/p3ed5ezn/ukcsunitoperatingcostin2020.pdf",
+        "source_id": "mob-nstauthority-co-uk-ukcsunitoperatingcostin2020-0d4cf52"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.oedigital.com/news/489189-brazil-petrorio-connects-polvo-and-tubarao-martelo-fields-eyes-significant-opex-cut",
+      "source_id": "mob-oedigital-com-489189-brazil-petrorio-connects-4cce478",
+      "note": "PetroRio holds 80% of Tubarao Martelo; cluster economic life to 2037 on 1P reser"
+    },
+    {
+      "url": "https://www.oedigital.com/news/489189-brazil-petrorio-connects-polvo-and-tubarao-martelo-fields-eyes-significant-opex-cut",
+      "source_id": "mob-oedigital-com-489189-brazil-petrorio-connects-4cce478"
+    },
+    {
+      "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q3-2023.pdf",
+      "source_id": "mob-golarlng-com-golar-lng-q3-2023-pdf-594035b"
+    },
+    {
+      "url": "https://www.nstauthority.co.uk/media/p3ed5ezn/ukcsunitoperatingcostin2020.pdf",
+      "source_id": "mob-nstauthority-co-uk-ukcsunitoperatingcostin2020-0d4cf52"
+    },
+    {
+      "url": "https://www.oedigital.com/news/489189-brazil-petrorio-connects-polvo-and-tubarao-martelo-fields-eyes-significant-opex-cut",
+      "source_id": "mob-oedigital-com-489189-brazil-petrorio-connects-4cce478",
+      "note": "PetroRio holds 80% of Tubarao Martelo; cluster economic life to 2037 on 1P reserves per DeGolyer & MacNaughton; emissions fell from 18.6 to 13.7 kg CO2 per barrel."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "FPSO-only OPEX per day or per barrel",
+      "why": "Operator and owner reports disclose segment or cluster totals, not a standalone FPSO OPEX rate.",
+      "next_action": "Seek IBP/ANP benchmark publications or operator FPSO O&M contract disclosures."
+    },
+    {
+      "what": "FiFi/DP manning and insurance premium components",
+      "why": "No page read quantified these within FPSO OPEX.",
+      "next_action": "Look for class-society or P&I club publications on FiFi/DP unit premiums."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit costs). Evidence-first retrospective of dated mobile production unit costs, 2006-2026. Strongest primary evidence: Seatrium's S$11bn P-84/P-85 contract (reported by pre"
+}

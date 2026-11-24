@@ -1,6 +1,6 @@
 # Engineering materials
 
-159 material records (schema `schema/material.schema.json`). Every property carries the source it was read from.
+165 material records (schema `schema/material.schema.json`). Every property carries the source it was read from.
 
 | Material | Category | Properties | Applications |
 | --- | --- | --- | --- |
@@ -56,9 +56,12 @@
 | [Nickel-cadmium battery bank (Timi)](https://r.jina.ai/https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf) | electrical-storage | technology choice rationale |  |
 | [High-strength structural bolts](https://www.iso.org/standard/84215.html) | fastener | function | Connect structural steel members in bearing-type or slip-critical joints; pretensioned assemblies transfer load by friction and resist slip and fatigue. |
 | [Passive fire protection](https://www.iso.org/standard/84215.html) | fire-protection | function | Protects structural steel, process equipment and control systems from hydrocarbon/jet fire by intumescence, delaying the steel reaching its critical core temper |
+| [Unbonded flexible pipe / flexible riser](https://www.api.org/~/media/files/publications/whats%20new/17j%20e4%20pa.pdf) | flexible-riser | API 17J scope; construction materials; retrievability; Kikeh external turret riser size range |  |
 | [Compressed breathing air - Grade D](https://www.navsea.navy.mil/Portals/103/Documents/SSRAC/NSI/FY%2026/009-088_FY26.pdf) | gas | Material listed |  |
 | [Geotextile filter fabric and rock armour](https://www.iso.org/standard/84215.html) | geosynthetic-civil | function | Filter and separation layer between seabed/fine-grained soil and rock armour or precast concrete units at breakwaters, quay walls, groynes and scour protection; |
 | [Grouts — cementitious, epoxy and anchoring](https://www.fosroc.com/product/show/conbextra-gp) | grout | Conbextra GP gap range | Fill voids between baseplates/sole plates and concrete foundations, anchor bolts and rebar, and grout cable bolts/tunnel segments; transfer loads with high bear |
+| [Floating production hull steel](https://en.wikipedia.org/wiki/Prelude_FLNG) | hull-steel | Prelude FLNG steel quantity; ISO 19904-1:2019 material scope |  |
+| [Prelude FLNG hull steel](https://en.wikipedia.org/wiki/Prelude_FLNG) | hull-steel | steel quantity |  |
 | [Pipe-in-pipe insulation and heating](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/) | insulation | Material listed |  |
 | [Pipe-in-pipe thermal insulation](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/) | insulation | Installed PiP length | Maintain fluid temperature above wax/hydrate formation; second containment barrier |
 | [Structural welding consumables and procedures](https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/) | joining-welding | AWS D1.1:2025 scope | Qualify welding procedures and welders and define inspection/acceptance criteria for structural steel and tubular connections. |
@@ -102,7 +105,9 @@
 | [Duplex stainless steel to Inconel](https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter) | metals-stainless-nickel-alloy | Material listed |  |
 | [Stainless and high-alloy steel tubes](https://www.api.org/products-and-services/standards) | metals-tubing | function | Hydraulic control and chemical injection conduits in steel tube umbilicals |
 | [Molecular sieve 3A / 4A and activated alumina / silica gel desiccants](https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-units-with-fixed-bed-technology-molecular-sieves-and-aluminas-silica-gel) | mineral-adsorbent | Media selection basis; Other solid desiccants | Solid desiccant adsorption for very low water dew points and hydrocarbon dew point control. |
+| [Offshore mooring chain (stud-link and studless, flash-butt welded)](https://www.imorules.com/LRMAT_CH10_3.html) | mooring-chain | available grades; studless chain deployment; Grade R5 break test load at 60 mm nominal diameter; welded studs into grades R4/R4S/R5; grade range recognised by Intermoor/Acteon chain calculator |  |
 | [Synthetic fibre mooring ropes](https://epcmholdings.com/spm-calm-buoy-system/) | mooring-consumables | Hawser load; Dyneema strength | SPM/CALM buoy hawser and anchor legs; tanker offtake hawser |
+| [cut-resistant polyester mooring and steel chain](https://en.wikipedia.org/wiki/Aasta_Hansteen_spar) | mooring-materials | mooring material |  |
 | [Pecan and walnut shell filter media](https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters) | natural-granular-filter-media | Media blend | Polish produced water: collect oil on shell surfaces while capturing suspended solids; regenerated by backwash. |
 | [Inconel 718](https://fluidhandlingpro.com/fluid-process-technology/fluid-process-control-valves/optimizing-offshore-operations-choosing-valves-for-water-injection-and-overboard-dump-systems) | nickel-alloy | Material listed |  |
 | [Composites / fibre-reinforced polymer](https://www.iso.org/standard/84215.html) | non-metallic-structural-materials | function | Corrosion-resistant walkways, gratings, cable supports and secondary structures in marine environments. |
@@ -160,6 +165,7 @@
 | [Class C ASTM A-36 caisson steel (D/t > 30)](https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications) | structural-steel | wall thickness ratio condition |  |
 | [Tubular sections and piles](https://www.cswoffshore.com/solutions/monopiles) | structural-steel-products | monopile diameter classes; pin pile diameter / length / weight | Primary members of jackets, monopiles, pin piles and conductors. |
 | [PHILLYSTRAN (Kevlar-component) guy cable](https://patents.google.com/patent/US5498107A/en) | synthetic-fibre-cable | manufacturer |  |
+| [Turret bearing system (axial bogies and radial wheels)](https://patents.google.com/patent/WO2017174665A1/en) | turret-bearings | bearing arrangement; seawater protection; turret cage porosity for disconnect/reconnect |  |
 | [6-in valve actuators](https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/) | valve | Size |  |
 | [Full penetration butt welds](https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in) | welding | Weld procedure |  |
 | [API Specification 9A 6-strand steel guy cable](https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications) | wire-rope | Minimum size in cyclonic areas |  |

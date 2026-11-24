@@ -1,0 +1,23 @@
+{
+  "id": "mob-img-offshore-mag-com-2022-worldwide-survey-of-4ccb06d",
+  "name": "2022 Worldwide Survey of FPSO units (PDF)",
+  "url": "https://img.offshore-mag.com/files/base/ebm/os/document/2022/12/2022_Worldwide_Survey_of_Floating_Production_Storage_and_Offloading_Units.6398fd2a675a5.pdf?dl=2022_Worldwide_Survey_of_Floating_Production_Storage_and_Offloading_Units.6398fd2a675a5.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Offshore Magazine / Energy Maritime Associates",
+  "access": "open",
+  "licence": "©2022 Offshore; publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. WebFetch cannot parse application/pdf; read via reader proxy https://r.jina.ai/. Survey disclaimer states data partly owner-supplied; not an audited census."
+}

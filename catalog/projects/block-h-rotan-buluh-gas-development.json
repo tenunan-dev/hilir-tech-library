@@ -1,0 +1,139 @@
+{
+  "id": "block-h-rotan-buluh-gas-development",
+  "name": "Block H Rotan/Buluh gas development",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Deepwater gas monetisation via PFLNG DUA; PTTEP Sabah Oil operates Block H.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Rotan discovery",
+      "date": "2007",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/pflng-2-rotan-flng-project-sabah/",
+        "source_id": "sys-offshore-technology-com-c904ac"
+      }
+    },
+    {
+      "event": "FEED commenced",
+      "date": "2012",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/pflng-2-rotan-flng-project-sabah/",
+        "source_id": "sys-offshore-technology-com-c904ac"
+      }
+    },
+    {
+      "event": "Final investment decision",
+      "date": "2014",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/pflng-2-rotan-flng-project-sabah/",
+        "source_id": "sys-offshore-technology-com-c904ac"
+      }
+    },
+    {
+      "event": "Construction began",
+      "date": "2015",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/pflng-2-rotan-flng-project-sabah/",
+        "source_id": "sys-offshore-technology-com-c904ac"
+      }
+    },
+    {
+      "event": "Official naming",
+      "date": "2019",
+      "source": {
+        "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+        "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+      }
+    },
+    {
+      "event": "Sail-away",
+      "date": "2020",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/pflng-2-rotan-flng-project-sabah/",
+        "source_id": "sys-offshore-technology-com-c904ac"
+      }
+    },
+    {
+      "event": "First gas",
+      "date": "2021",
+      "source": {
+        "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+        "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+      }
+    },
+    {
+      "event": "First LNG",
+      "date": "2021",
+      "source": {
+        "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+        "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+      }
+    },
+    {
+      "event": "First cargo",
+      "date": "2021",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+        "source_id": "mob-petronas-com-petronas-becomes-worlds-first-pro-0321d3a"
+      }
+    },
+    {
+      "event": "100th cargo",
+      "date": "2025",
+      "source": {
+        "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+        "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/pflng-2-rotan-flng-project-sabah/",
+      "source_id": "sys-offshore-technology-com-c904ac",
+      "note": "Deepwater gas monetisation via PFLNG DUA; PTTEP Sabah Oil operates Block H."
+    },
+    {
+      "url": "https://www.petronas.com/media/media-releases/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+      "source_id": "mob-petronas-com-petronas-becomes-worlds-first-pro-0321d3a"
+    },
+    {
+      "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+      "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/pflng-2-rotan-flng-project-sabah/",
+      "source_id": "sys-offshore-technology-com-c904ac"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Length discrepancy",
+      "why": "PETRONAS quick facts state 333 m; Ship/industry project profile gives 393 m hull.",
+      "next_action": "Resolve against class records; do not average."
+    },
+    {
+      "what": "EPCI contract value",
+      "why": "No dollar value of the JGC/SHI EPCI contract was given on the pages read.",
+      "next_action": "Find a dated contract-award release with value and dollar year."
+    },
+    {
+      "what": "Incidents",
+      "why": "No reliability or incident data on the pages read.",
+      "next_action": "Check PETRONAS and PTTEP HSSE reports."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mob-ww2-eagle-org-abs-fpso-conversions-drydock-mag-8d3c86d",
+  "name": "FPSOS: COVID-19, conversions, safety & the changing digital landscape (ABS Drydock 2021)",
+  "url": "https://ww2.eagle.org/content/dam/eagle/articles/abs-fpso-conversions-drydock-magazine-march-21.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "American Bureau of Shipping",
+  "access": "open",
+  "licence": "ABS publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. PDF read via r.jina.ai proxy; USD 56bn five-year CAPEX projection and 11.2bn annual average verified."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mob-offshore-technology-com-13fe71d",
+  "name": "Skarv and Idun Offshore Fields, North Sea, Norway - Offshore Technology",
+  "url": "https://www.offshore-technology.com/projects/skarv/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Offshore Technology (GlobalData)",
+  "access": "open",
+  "licence": "licence not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read via r.jina.ai proxy; detailed dated contracts and capacities"
+}

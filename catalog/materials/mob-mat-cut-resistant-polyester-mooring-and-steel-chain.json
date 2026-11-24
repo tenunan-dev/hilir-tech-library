@@ -1,0 +1,24 @@
+{
+  "id": "mob-mat-cut-resistant-polyester-mooring-and-steel-chain",
+  "name": "cut-resistant polyester mooring and steel chain",
+  "material_category": "mooring-materials",
+  "description": "cut-resistant polyester mooring and steel chain named for mobile production unit service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "mooring material",
+      "unit": "description",
+      "basis": "Wikipedia Design section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Aasta_Hansteen_spar",
+        "source_id": "mob-en-wikipedia-org-aasta-hansteen-spar-6b380e4"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Aasta_Hansteen_spar",
+      "source_id": "mob-en-wikipedia-org-aasta-hansteen-spar-6b380e4"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

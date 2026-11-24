@@ -1,0 +1,25 @@
+{
+  "id": "mob-2023-annualreport-sbmoffshore-com-printpdf-919b209",
+  "name": "SBM Offshore 2023 Annual Report, note 4.3.3 Revenue",
+  "url": "https://2023.annualreport.sbmoffshore.com/pdfondemand/printpdf?docId=158691&nodes=159515",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "SBM Offshore N.V.",
+  "access": "open",
+  "licence": "Publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 46% charter-rate share and fixed-day-rate statement verified in page text."
+}

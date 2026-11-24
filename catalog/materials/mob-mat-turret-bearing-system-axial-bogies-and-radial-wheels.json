@@ -1,0 +1,49 @@
+{
+  "id": "mob-mat-turret-bearing-system-axial-bogies-and-radial-wheels",
+  "name": "Turret bearing system (axial bogies and radial wheels)",
+  "material_category": "turret-bearings",
+  "description": "Turret bearing system (axial bogies and radial wheels) named for mobile production unit service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "bearing arrangement",
+      "unit": "qualitative",
+      "basis": "WO2017174665A1 description and figures, as read",
+      "source": {
+        "url": "https://patents.google.com/patent/WO2017174665A1/en",
+        "source_id": "mob-patents-google-com-en-392e21f"
+      },
+      "year": 2017
+    },
+    {
+      "metric": "seawater protection",
+      "unit": "qualitative",
+      "basis": "WO2017174665A1 description",
+      "source": {
+        "url": "https://patents.google.com/patent/WO2017174665A1/en",
+        "source_id": "mob-patents-google-com-en-392e21f"
+      },
+      "year": 2017
+    },
+    {
+      "metric": "turret cage porosity for disconnect/reconnect",
+      "unit": "qualitative",
+      "basis": "US20150314835A1 description",
+      "source": {
+        "url": "https://patents.google.com/patent/US20150314835A1/en",
+        "source_id": "mob-patents-google-com-en-e57775e"
+      },
+      "year": 2015
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/WO2017174665A1/en",
+      "source_id": "mob-patents-google-com-en-392e21f"
+    },
+    {
+      "url": "https://patents.google.com/patent/US20150314835A1/en",
+      "source_id": "mob-patents-google-com-en-e57775e"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

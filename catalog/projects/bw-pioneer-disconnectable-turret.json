@@ -1,0 +1,100 @@
+{
+  "id": "bw-pioneer-disconnectable-turret",
+  "name": "BW Pioneer disconnectable turret",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "EPCI awarded October 2007; conversion at MMHE Pasir Gudang, Malaysia; disconnectable turret by APL.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Nexus Floating Production established",
+      "date": "2006",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    },
+    {
+      "event": "Acquired by BW Offshore",
+      "date": "2007",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    },
+    {
+      "event": "Sold to National Oilwell Varco",
+      "date": "2010",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "APL sale to National Oilwell Varco",
+      "year": 2010,
+      "unit": "USD million (as printed)",
+      "basis": "USD 500 million cash; dollar year not stated; title of archived press release cited on BW Offshore Wikipedia page",
+      "value": 500,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "APL",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "BW Offshore",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "NOV Inc.",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading",
+      "note": "EPCI awarded October 2007; conversion at MMHE Pasir Gudang, Malaysia; disconnect"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+      "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading",
+      "note": "EPCI awarded October 2007; conversion at MMHE Pasir Gudang, Malaysia; disconnectable turret by APL."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+      "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716",
+      "note": "APL's FPSO contracting venture, subsequently controlled by BW Offshore."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "APL standalone revenue, asset and equipment figures",
+      "why": "No separate financial or equipment specifications printed on pages read",
+      "next_action": "Read archived APL website via Wayback and the NOV acquisition release"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

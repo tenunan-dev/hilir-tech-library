@@ -1,0 +1,150 @@
+{
+  "id": "malta-lng-fsu",
+  "name": "Malta LNG FSU",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malta",
+  "location": "Malta",
+  "status": "operating",
+  "description": "ElectroGas Malta; 125,000 m3 MOSS carrier FSU, 18-year project life, RM1 billion deal reported 2015.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "First Malaysian-owned FPSO",
+      "date": "1997",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+        "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda"
+      }
+    },
+    {
+      "event": "Acquired by Ananda Krishnan / taken private",
+      "date": "2002",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+        "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda"
+      }
+    },
+    {
+      "event": "Re-listing on Bursa Malaysia",
+      "date": "2011",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+        "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda"
+      }
+    },
+    {
+      "event": "Fleet expansion 2009-2015",
+      "date": "2015",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+        "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda"
+      }
+    },
+    {
+      "event": "Entry into floating LNG",
+      "date": "2015",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+        "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "2011 IPO proceeds (USD equivalent as printed)",
+      "year": 2011,
+      "unit": "USD million (as printed)",
+      "basis": "RM2.66 billion (US$889 million), 2011 IPO; dollar year not stated; conversion as printed on page",
+      "value": 889,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+        "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda"
+      }
+    },
+    {
+      "metric": "Armada Perdana Oyo field contract",
+      "year": 2014,
+      "unit": "USD million (as printed)",
+      "basis": "US$381 million deal reported 20 February 2014; dollar year not stated; from cited Rigzone headline",
+      "value": 381,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+        "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda"
+      }
+    },
+    {
+      "metric": "Madura BD FPSO contract",
+      "year": 2014,
+      "unit": "USD million (as printed)",
+      "basis": "US$1.18 billion FPSO contract with Husky-CNOOC, 12 December 2014; dollar year not stated; from cited Rigzone headline",
+      "value": 1180,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+        "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Bumi Armada Berhad",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+      "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda",
+      "note": "ElectroGas Malta; 125,000 m3 MOSS carrier FSU, 18-year project life, RM1 billion"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+      "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+      "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda",
+      "note": "Afren; two-year contract extension announced December 2013; previously Bunga Kekwa (Malaysia/Vietnam) and Baram field, Sarawak."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+      "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda",
+      "note": "Currently operated by CAMAC Energy; US$381 million deal reported 2014."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+      "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda",
+      "note": "Operated by Hoang Long Joint Operating Company (HLJOC)."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+      "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda",
+      "note": "Off Mumbai for Oil and Natural Gas Corporation (ONGC)."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+      "source_id": "mob-en-wikipedia-org-bumi-armada-5865fda",
+      "note": "North-western Balnaves field, operated by Apache Corporation."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar-year basis for USD contract figures",
+      "why": "Nominal USD amounts with no constant-dollar base stated",
+      "next_action": "Read the cited Rigzone/Bloomberg/FinanceAsia articles for stated dollar basis"
+    },
+    {
+      "what": "Kraken RM4.6b and Angola RM9.5b contract USD equivalents",
+      "why": "Figures are in MYR only on the page read",
+      "next_action": "Read cited news articles and record original currency and year"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

@@ -1,0 +1,171 @@
+{
+  "id": "prelude-flng-browse-basin",
+  "name": "Prelude FLNG, Browse Basin",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Australia",
+  "location": "Australia",
+  "status": "operating",
+  "description": "Turret-moored to 16 seabed driven piles; designed for Category 5 cyclones; 200 km off Western Australia",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Shell approved funding for Prelude FLNG",
+      "date": "2011",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "event": "Hull launched/floated out at Geoje, South Korea",
+      "date": "2013",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "event": "Prelude arrived on station off Western Australia after 5,800 km maiden voyage",
+      "date": "2017",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "event": "Initial production started",
+      "date": "2018",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "event": "Shutdown after electrical problem and two unintended gas releases NOPSEMA called dangerous",
+      "date": "2020",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "event": "UPS room fire, ESD1/ESD0 and total loss of power; extended unstable power period",
+      "date": "2021",
+      "source": {
+        "url": "https://www.nopsema.gov.au/sites/default/files/documents/Report%20-%20IVT11026%20Shell%20Prelude%20UPS%20Fire%20and%20Shutdown%20-%20Redacted.pdf",
+        "source_id": "mob-nopsema-gov-au-report-20-20ivt11026-20shell-20-ef53485"
+      }
+    },
+    {
+      "event": "Operations resumed / LNG shipments restarted",
+      "date": "2022",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Prelude FLNG analyst cost estimate range",
+      "year": 2013,
+      "unit": "USD",
+      "basis": "Wikipedia Prelude FLNG article: 'Analyst estimates in 2013 for the cost of the vessel were between US$10.8 to $12.6 billion'; tertiary source, not a Shell-confirmed figure",
+      "low": 10800000000,
+      "high": 12600000000,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "metric": "Shell estimate of cost per million tonnes of production capacity",
+      "year": 2014,
+      "unit": "USD per million tonnes per year capacity (up to)",
+      "basis": "Wikipedia Prelude FLNG article quoting Shell's 2014 estimate and Wall Street Journal, implying a total up to $12.6 billion",
+      "value": 3500000000,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    },
+    {
+      "metric": "reported vessel cost, unconfirmed by Shell",
+      "year": 2021,
+      "unit": "USD (at least)",
+      "basis": "Wikipedia Prelude FLNG article: WAToday reported in 2021 it was believed the ship had cost at least US$17.5 billion, 'though Shell has never confirmed the actual cost'",
+      "value": 17500000000,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+        "source_id": "cost-en-wikipedia-org-prelude-flng"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Shell plc (owner/operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "SBM Offshore - turret mooring system subcontract (built at Drydocks World Dubai, UAE)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "FMC Technologies (subsea wellheads)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Emerson - automation and uninterrupted power supply systems",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Fjords Processing Norway - MEG reclamation module (built in South Korea)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "KOGAS and Inpex - joint venture partners",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+      "source_id": "cost-en-wikipedia-org-prelude-flng",
+      "note": "Turret-moored to 16 seabed driven piles; designed for Category 5 cyclones; 200 k"
+    },
+    {
+      "url": "https://www.nopsema.gov.au/sites/default/files/documents/Report%20-%20IVT11026%20Shell%20Prelude%20UPS%20Fire%20and%20Shutdown%20-%20Redacted.pdf",
+      "source_id": "mob-nopsema-gov-au-report-20-20ivt11026-20shell-20-ef53485"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+      "source_id": "cost-en-wikipedia-org-prelude-flng"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+      "source_id": "cost-en-wikipedia-org-prelude-flng",
+      "note": "Turret-moored to 16 seabed driven piles; designed for Category 5 cyclones; 200 km off Western Australia"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Root cause of Prelude 2021 UPS fire and repeated generator trips",
+      "why": "NOPSEMA report states root causes were unknown at the time and outside its initial investigation scope",
+      "next_action": "Locate the completed Shell internal report or subsequent NOPSEMA compliance/enforcement notice"
+    },
+    {
+      "what": "Cumulative Prelude downtime/uptime percentage by year",
+      "why": "Neither the regulator report nor the encyclopedia article reports annual production availability",
+      "next_action": "Request production availability data from NOPSEMA incident records or Shell annual reports"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit reliability and standards). Evidence-first 20-year retrospective built only from pages/PDFs actually read with WebFetch (several via the r.jina.ai text mirror, noted per source). Named APA"
+}

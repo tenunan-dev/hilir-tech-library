@@ -1,0 +1,26 @@
+{
+  "id": "mob-en-wikipedia-org-bumi-armada-5865fda",
+  "name": "Bumi Armada (Wikipedia)",
+  "url": "https://en.wikipedia.org/wiki/Bumi_Armada",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Wikipedia / Wikimedia Foundation",
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Page read via WebFetch; contract figures traced on page to Rigzone, The Star and The Sun headlines."
+}

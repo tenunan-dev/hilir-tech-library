@@ -1,0 +1,119 @@
+{
+  "id": "coral-south-flng",
+  "name": "Coral South FLNG",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Mozambique",
+  "location": "Mozambique",
+  "status": "operating",
+  "description": "Listed among TechnipFMC recent projects on the page.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "TechnipFMC formed",
+      "date": "2017",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/TechnipFMC",
+        "source_id": "mob-en-wikipedia-org-technipfmc-d05c879"
+      }
+    },
+    {
+      "event": "Announced separation into two companies",
+      "date": "2019",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/TechnipFMC",
+        "source_id": "mob-en-wikipedia-org-technipfmc-d05c879"
+      }
+    },
+    {
+      "event": "Spin-off completed",
+      "date": "2021",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/TechnipFMC",
+        "source_id": "mob-en-wikipedia-org-technipfmc-d05c879"
+      }
+    },
+    {
+      "event": "Technip Nigeria LNG bribery fine",
+      "date": "2010",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/TechnipFMC",
+        "source_id": "mob-en-wikipedia-org-technipfmc-d05c879"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Technip 2010 bribery fine",
+      "year": 2010,
+      "unit": "USD million (as printed)",
+      "basis": "US$240 million fine on predecessor Technip; dollar year not stated; not a project contract value",
+      "value": 240,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/TechnipFMC",
+        "source_id": "mob-en-wikipedia-org-technipfmc-d05c879"
+      }
+    },
+    {
+      "metric": "2019 bribery resolution",
+      "year": 2019,
+      "unit": "USD million (as printed)",
+      "basis": "Around US$300 million agreed June 2019 to resolve Iraq (FMC) and Brazil/Petrobras bribery allegations; dollar year not stated",
+      "value": 300,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/TechnipFMC",
+        "source_id": "mob-en-wikipedia-org-technipfmc-d05c879"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "TechnipFMC (CDS Separation Systems)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Technip (EPIC spar; subsea pipelines/risers)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "FMC Technologies",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/TechnipFMC",
+      "source_id": "mob-en-wikipedia-org-technipfmc-d05c879",
+      "note": "Listed among TechnipFMC recent projects on the page."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/TechnipFMC",
+      "source_id": "mob-en-wikipedia-org-technipfmc-d05c879"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading",
+      "note": "Petronas made a procurement, engineering, construction, installation and commissioning contract with the Technip and DSME consortium for the Kanowit gas field FLNG off Sarawak."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Technip/DSME Kanowit FLNG contract value",
+      "why": "No figure on the page read",
+      "next_action": "Read the cited Rigzone/OE Digital articles"
+    },
+    {
+      "what": "Unit-specific flexible pipe/riser contract values 2006-2026",
+      "why": "No contract values in the company page",
+      "next_action": "Read TechnipFMC project press releases"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

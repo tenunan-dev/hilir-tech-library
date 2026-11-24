@@ -1,0 +1,25 @@
+{
+  "id": "mob-store-accuristech-com-api-rp-2sk-a357a69",
+  "name": "API RP 2SK catalogue record (Accuris)",
+  "url": "https://store.accuristech.com/standards/api-rp-2sk?product_id=2580812",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Accuris / American Petroleum Institute",
+  "access": "open",
+  "licence": "© Accuris/API catalogue metadata only; full standard is copyrighted and paywalled",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Fetched via https://r.jina.ai/ text mirror after direct 403. Edition, date, scope and price from the catalogue page."
+}

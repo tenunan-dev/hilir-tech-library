@@ -1,0 +1,108 @@
+{
+  "id": "macondo-well-deepwater-horizon",
+  "name": "Macondo well / Deepwater Horizon",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States of America",
+  "location": "United States of America",
+  "status": "operating",
+  "description": "Dynamically positioned semi-submersible MODU; major mobile offshore unit accident used as reliability boundary case, not a production platform",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Deepwater Horizon blowout, explosion, fire, evacuation and sinking at Macondo well",
+      "date": "2010",
+      "source": {
+        "url": "https://www.bsee.gov/site-page/deepwater-horizon-joint-investigation-team-releases-final-report",
+        "source_id": "mob-bsee-gov-deepwater-horizon-joint-investigation-5a8d378"
+      }
+    },
+    {
+      "event": "Publication of peer-reviewed transient mooring failure study covering 2000-2021 incident record",
+      "date": "2021",
+      "source": {
+        "url": "https://www.mdpi.com/2077-1312/9/2/103",
+        "source_id": "mob-mdpi-com-103-41ba12e"
+      }
+    },
+    {
+      "event": "FSO Sepat lifeboat-maintenance accident off East Coast Peninsular Malaysia",
+      "date": "2025",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2026/05/26/investigation-ongoing-three-dead-and-one-injured-in-southeast-asian-fso-incident",
+        "source_id": "mob-offshore-energy-biz-investigation-ongoing-thre-e005497"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "DeepStar (design referenced in paper)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "MARIN (model-test benchmark data used for validation)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Transocean (owner/operator of DWH)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "BP (operator/leaseholder of Macondo well)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Halliburton (named in BSEE JIT findings)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.csb.gov/assets/1/20/20160412_macondo_full_exec_summary.pdf?15671",
+      "source_id": "mob-csb-gov-20160412-macondo-full-exec-summary-pdf-da4cc95",
+      "note": "Dynamically positioned semi-submersible MODU; major mobile offshore unit acciden"
+    },
+    {
+      "url": "https://www.mdpi.com/2077-1312/9/2/103",
+      "source_id": "mob-mdpi-com-103-41ba12e"
+    },
+    {
+      "url": "https://www.csb.gov/assets/1/20/20160412_macondo_full_exec_summary.pdf?15671",
+      "source_id": "mob-csb-gov-20160412-macondo-full-exec-summary-pdf-da4cc95"
+    },
+    {
+      "url": "https://www.bsee.gov/site-page/deepwater-horizon-joint-investigation-team-releases-final-report",
+      "source_id": "mob-bsee-gov-deepwater-horizon-joint-investigation-5a8d378"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2026/05/26/investigation-ongoing-three-dead-and-one-injured-in-southeast-asian-fso-incident",
+      "source_id": "mob-offshore-energy-biz-investigation-ongoing-thre-e005497"
+    },
+    {
+      "url": "https://www.csb.gov/assets/1/20/20160412_macondo_full_exec_summary.pdf?15671",
+      "source_id": "mob-csb-gov-20160412-macondo-full-exec-summary-pdf-da4cc95",
+      "note": "Dynamically positioned semi-submersible MODU; major mobile offshore unit accident used as reliability boundary case, not a production platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Source list behind the 'at least 23 mooring failures since 2000' count",
+      "why": "The MDPI paper refers to reference [6] but the full reference list was not in the extracted text that was read",
+      "next_action": "Read the paper's references section or DeepStar mooring integrity database to identify the primary incident list"
+    },
+    {
+      "what": "Observed (not modelled) distribution of single vs multiple line failures on FPSOs",
+      "why": "The readable paper reports simulations; no field statistics with break-down by unit were found",
+      "next_action": "Locate an accessible DeepStar or IOGP mooring failure database report"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit reliability and standards). Evidence-first 20-year retrospective built only from pages/PDFs actually read with WebFetch (several via the r.jina.ai text mirror, noted per source). Named APA"
+}

@@ -1,0 +1,185 @@
+{
+  "id": "egina-field-oml-130-pml-2-3-4",
+  "name": "Egina field, OML 130 / PML 2/3/4",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Nigeria",
+  "location": "Nigeria",
+  "status": "operating",
+  "description": "TotalEnergies 24%, CNOOC 45%, Petrobras 16%, SAPETRO 15% plus NNPC; discovered 2003",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Development launched",
+      "date": "2013",
+      "source": {
+        "url": "https://totalenergies.com/company/projects/oil/egina-deep-offshore-nigeria",
+        "source_id": "mob-totalenergies-com-egina-deep-offshore-nigeria-c4b2df6"
+      }
+    },
+    {
+      "event": "FPSO sailed from LADOL quay to field",
+      "date": "2018",
+      "source": {
+        "url": "https://punchng.com/3-9-billion-egina-fpso-contract-nnpc-kicks-against-further-variation-payment-to-samsung/",
+        "source_id": "mob-punchng-com-357414e"
+      }
+    },
+    {
+      "event": "First oil",
+      "date": "2018",
+      "source": {
+        "url": "https://totalenergies.com/newsroom/nigeria-total-starts-production-giant-egina-field/?lang=eng",
+        "source_id": "mob-totalenergies-com-b1c2330"
+      }
+    },
+    {
+      "event": "First zero routine flaring project in Nigeria",
+      "date": "2019",
+      "source": {
+        "url": "https://totalenergies.com/company/projects/oil/egina-deep-offshore-nigeria",
+        "source_id": "mob-totalenergies-com-egina-deep-offshore-nigeria-c4b2df6"
+      }
+    },
+    {
+      "event": "OML130 licence renewed",
+      "date": "2023",
+      "source": {
+        "url": "https://totalenergies.com/company/projects/oil/egina-deep-offshore-nigeria",
+        "source_id": "mob-totalenergies-com-egina-deep-offshore-nigeria-c4b2df6"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "initial FPSO EPC contract sum",
+      "year": 2013,
+      "unit": "USD",
+      "basis": "Punch: contract awarded by Total Upstream Nigeria to Samsung Heavy Industries in 2013 at initial sum US$2,993,800,514",
+      "value": 2993800514,
+      "source": {
+        "url": "https://punchng.com/3-9-billion-egina-fpso-contract-nnpc-kicks-against-further-variation-payment-to-samsung/",
+        "source_id": "mob-punchng-com-357414e"
+      }
+    },
+    {
+      "metric": "reviewed FPSO contract sum",
+      "year": 2018,
+      "unit": "USD",
+      "basis": "Punch Dec 2018: initial sum later reviewed upward to US$3,335,941,349; dollar year of review not stated",
+      "value": 3335941349,
+      "source": {
+        "url": "https://punchng.com/3-9-billion-egina-fpso-contract-nnpc-kicks-against-further-variation-payment-to-samsung/",
+        "source_id": "mob-punchng-com-357414e"
+      }
+    },
+    {
+      "metric": "variation costs paid to date",
+      "year": 2018,
+      "unit": "USD",
+      "basis": "Punch Dec 2018 reporting additional US$546,755,118 paid, about 30% of original price",
+      "value": 546755118,
+      "source": {
+        "url": "https://punchng.com/3-9-billion-egina-fpso-contract-nnpc-kicks-against-further-variation-payment-to-samsung/",
+        "source_id": "mob-punchng-com-357414e"
+      }
+    },
+    {
+      "metric": "arbitration claim sought by Samsung",
+      "year": 2018,
+      "unit": "USD billion",
+      "basis": "Punch Dec 2018: SHI seeking US$1.6bn in London arbitration; claim, not an awarded cost",
+      "value": 1.6,
+      "source": {
+        "url": "https://punchng.com/3-9-billion-egina-fpso-contract-nnpc-kicks-against-further-variation-payment-to-samsung/",
+        "source_id": "mob-punchng-com-357414e"
+      }
+    },
+    {
+      "metric": "CAPEX saving at startup, more than",
+      "year": 2018,
+      "unit": "USD billion",
+      "basis": "TotalEnergies: startup achieved close to 10% below initial budget, more than $1bn CAPEX savings",
+      "value": 1,
+      "low": 1,
+      "source": {
+        "url": "https://totalenergies.com/newsroom/nigeria-total-starts-production-giant-egina-field/?lang=eng",
+        "source_id": "mob-totalenergies-com-b1c2330"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "TotalEnergies (operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Samsung Heavy Industries / SHI-MCI Nigeria (turnkey EPC)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "NNPC",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "CNOOC",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "SAPETRO",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Petrobras",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "LADOL free zone quayside (fabrication/integration site)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://totalenergies.com/newsroom/nigeria-total-starts-production-giant-egina-field/?lang=eng",
+      "source_id": "mob-totalenergies-com-b1c2330",
+      "note": "TotalEnergies 24%, CNOOC 45%, Petrobras 16%, SAPETRO 15% plus NNPC; discovered 2"
+    },
+    {
+      "url": "https://totalenergies.com/newsroom/nigeria-total-starts-production-giant-egina-field/?lang=eng",
+      "source_id": "mob-totalenergies-com-b1c2330"
+    },
+    {
+      "url": "https://totalenergies.com/company/projects/oil/egina-deep-offshore-nigeria",
+      "source_id": "mob-totalenergies-com-egina-deep-offshore-nigeria-c4b2df6"
+    },
+    {
+      "url": "https://punchng.com/3-9-billion-egina-fpso-contract-nnpc-kicks-against-further-variation-payment-to-samsung/",
+      "source_id": "mob-punchng-com-357414e"
+    },
+    {
+      "url": "https://totalenergies.com/newsroom/nigeria-total-starts-production-giant-egina-field/?lang=eng",
+      "source_id": "mob-totalenergies-com-b1c2330",
+      "note": "TotalEnergies 24%, CNOOC 45%, Petrobras 16%, SAPETRO 15% plus NNPC; discovered 2003"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "final adjudicated FPSO contract price",
+      "why": "Arbitration claim and disputed variations reported; no final award in sources read",
+      "next_action": "Check London arbitration outcome or TotalEnergies accounts"
+    },
+    {
+      "what": "FPSO topside weight",
+      "why": "Topside weight appears in a search result snippet from Oil & Gas Journal that was not fetched and read",
+      "next_action": "Fetch the OGJ article and add with page_read:true"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-779 project records (one per named project or plant, schema `schema/project.schema.json`).
+901 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -1958,6 +1958,12 @@ Status: **operating** | Country: Norway
 17 suction anchors
 Technologies: civ-offshore-platform-structures
 
+### Aasta Hansteen gas field (formerly Luva), Norwegian Sea (aasta-hansteen-gas-field-formerly-luva-norwegian-sea)
+Status: **operating** | Country: Norway
+Tie-in of Luva, Haklang, Snefrid Sør and Nord fields; future Irpa tie-back; gas exported via Polarled to Nyhamna
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: USD-equivalent cost; gas and condensate capacity
+
 ### Aasta Hansteen spar (pf-aasta-hansteen-spar)
 Status: **operating** | Country: Norway
 17 suction anchors; spar in 1,300 m water (2018).
@@ -2023,6 +2029,12 @@ Status: **operating** | Country: Nigeria
 11,970 t integrated topsides, three decks plus mezzanine, 130 systems commissioned at yard, floatover by Mighty Servant 3
 Technologies: civ-offshore-platform-structures
 
+### Angola FPSO life extension (operator not named in source) (angola-fpso-life-extension-operator-not-named-in-source)
+Status: **operating** | Country: Angola
+Nine risers and one umbilical replaced at 1,500 m water depth as part of a major life-extension project
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Named-unit turret bearing failure case study with measured wear/failure data; Fleet-wide decommissioning unit counts and yard-capacity numbers; Hull steel grade/specification for named units
+
 ### Anjung Kecil (pf-anjung-kecil)
 Status: **operating** | Country: Malaysia
 Tarpon minimum-facility unmanned wellhead platform, Block SK315, Sarawak; tied to MAMPU-1 FPSO
@@ -2031,6 +2043,12 @@ Technologies: civ-offshore-platform-structures
 ### Anjung Kecil field (anjung-kecil-field)
 Status: **operating** | Country: Malaysia
 1.26 km dynamic subsea power cable between FPSO MaMPU-1 and the wellhead platform; WER telecom link.
+
+### Anjung Kecil field, Block SK315 (anjung-kecil-field-block-sk315)
+Status: **operating** | Country: Malaysia
+Marginal field developed with a Tarpon unmanned wellhead platform tied to MaMPU-1.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: MISC data-sheet figures; First oil date; Charter/lease terms
 
 ### Anjung Kecil oil field (anjung-kecil-oil-field)
 Status: **operating** | Country: Malaysia
@@ -2044,6 +2062,18 @@ Described as a Tarpon platform, "a minimum facility and unmanned platform typica
 Status: **operating** | Country: Malaysia
 Tarpon minimum-facility unmanned platform; modification work includes chute support structure and shelter structure.
 
+### Anoa field, Natuna Sea (anoa-field-natuna-sea)
+Status: **operating** | Country: Indonesia
+External turret, new-build hull, EPCI + lease + O&M contract model.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Detailed Anoa project data page; Capacity and contract
+
+### APL loading/disconnectable turret equipment on BW Pioneer (apl-loading-disconnectable-turret-equipment-on-bw-pioneer)
+Status: **operating** | Country: United States
+APL, acquired by NOV in 2010, supplied the disconnectable turret on BW Offshore's Pioneer FPSO in 2,600 m Gulf of Mexico water depth.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: GustoMSC 2018 purchase price; Named FPSO equipment scopes and values for NOV/NKT Flexibles
+
 ### Ardjuna LPG barge (pf-ardjuna-lpg-barge)
 Status: **operating** | Country: Indonesia
 First prestressed concrete barge, 43 m, 1974
@@ -2053,6 +2083,48 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: UK
 First semi-submersible floating production platform, converted 1975
 Technologies: civ-offshore-platform-structures
+
+### Armada Claire (Balnaves) (armada-claire-balnaves)
+Status: **operating** | Country: Australia
+North-western Balnaves field, operated by Apache Corporation.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Dollar-year basis for USD contract figures; Kraken RM4.6b and Angola RM9.5b contract USD equivalents
+
+### Armada Kraken (armada-kraken)
+Status: **operating** | Country: United Kingdom
+Bumi Armada conversion FPSO, first oil June 2017, Kraken field; internal turret.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: published unit capital cost of a named FPSO with an explicit dollar year; ISO 19904-1 full normative text
+
+### Armada Perdana (Oyo field) (armada-perdana-oyo-field)
+Status: **operating** | Country: Nigeria
+Currently operated by CAMAC Energy; US$381 million deal reported 2014.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Dollar-year basis for USD contract figures; Kraken RM4.6b and Angola RM9.5b contract USD equivalents
+
+### Armada Perkasa (Okoro-Setu) (armada-perkasa-okoro-setu)
+Status: **operating** | Country: Nigeria
+Afren; two-year contract extension announced December 2013; previously Bunga Kekwa (Malaysia/Vietnam) and Baram field, Sarawak.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Dollar-year basis for USD contract figures; Kraken RM4.6b and Angola RM9.5b contract USD equivalents
+
+### Armada Sterling (D1 field) (armada-sterling-d1-field)
+Status: **operating** | Country: India
+Off Mumbai for Oil and Natural Gas Corporation (ONGC).
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Dollar-year basis for USD contract figures; Kraken RM4.6b and Angola RM9.5b contract USD equivalents
+
+### Armada Sterling II (C-7 field) (armada-sterling-ii-c-7-field)
+Status: **operating** | Country: India
+Off Mumbai for ONGC; installation and commissioning by Shapoorji Pallonji and Company.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Dollar-year basis for USD contract figures; Kraken RM4.6b and Angola RM9.5b contract USD equivalents
+
+### Armada TGT1 (Te Giac Trang) (armada-tgt1-te-giac-trang)
+Status: **operating** | Country: Vietnam
+Operated by Hoang Long Joint Operating Company (HLJOC).
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Dollar-year basis for USD contract figures; Kraken RM4.6b and Angola RM9.5b contract USD equivalents
 
 ### Asgard subsea gas compression, Norwegian Sea (asgard-subsea-gas-compression-norwegian-sea)
 Status: **operating** | Country: NO
@@ -2064,10 +2136,22 @@ Status: **operating** | Country: Asia Pacific (country not named)
 460K HWO/snubbing unit on unmanned platform supported by tender vessels; slip-and-shear BOP stack; recovered 2-inch CT string stuck at 3,865 m; reported up to 20% production uplift.
 Technologies: ups-subsea-production-systems
 
+### Atlantis oil field, Green Canyon (atlantis-oil-field-green-canyon)
+Status: **operating** | Country: United States
+Deepwater Gulf of Mexico; BP/BHP joint venture
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: capital cost and production capacity; verification of 89%/95% allegations
+
 ### Auger (Shell) (pf-auger-shell)
 Status: **operating** | Country: USA GOM
 12,700 t topsides, 2,860 ft water depth, first GOM TLP with drilling rig and full production facilities
 Technologies: civ-offshore-platform-structures
+
+### Bahia Regasification Terminal (bahia-regasification-terminal)
+Status: **operating** | Country: Brazil
+FSRU Sequoia, 173,400 m3; 10-year charter from January 2024.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: MISC Lekas FSU Malaysia details from a read primary page; FSRU regasification send-out capacities with a read source
 
 ### Balai Cluster (Balai, Bentara, West Acis, Spaoh) (balai-cluster-balai-bentara-west-acis-spaoh)
 Status: **operating** | Country: Malaysia
@@ -2152,6 +2236,12 @@ Oil field discovered 1971, part of the 1970-71 giant-field cluster; EUR 296 MMbo
 Technologies: ups-whp-platform-structures-and-marine-systems
 Recorded gaps: Facility concept / water depth; First oil/gas year; Capex and incidents
 
+### Bekok-C platform, Peninsular Malaysia (bekok-c-platform-peninsular-malaysia)
+Status: **operating** | Country: Malaysia
+MOPU Rubicone served Bekok-C from 2011 to 2013.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Water depth; Contract value
+
 ### Benguela-Belize Lobito-Tomboco (pf-benguela-belize-lobito-tomboco)
 Status: **operating** | Country: Angola
 512 m tall compliant tower in 390 m water depth
@@ -2196,6 +2286,12 @@ Status: **operating** | Country: Yemen
 SPEC scope included utility systems alongside process equipment; MCC/switchgear room image on page.
 Technologies: ups-subsea-production-systems
 
+### Block H Rotan/Buluh gas development (block-h-rotan-buluh-gas-development)
+Status: **operating** | Country: Malaysia
+Deepwater gas monetisation via PFLNG DUA; PTTEP Sabah Oil operates Block H.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Length discrepancy; EPCI contract value; Incidents
+
 ### BOKOR CPP produced water package, Malaysia (wh-bokor-cpp-produced-water-package-malaysia)
 Status: **operating** | Country: Malaysia
 80,000 BWPD; 3x50% pumps/hydrocyclones + 100% CFU; guaranteed 30 ppm OIW; MMHE/PETRONAS Carigali.
@@ -2211,6 +2307,24 @@ Recorded gaps: Bokor three-WHP EPCIC value; Dollar year of $226.7m
 Status: **operating** | Country: Nigeria
 capacity: 200,000 bpd oil and 150 MMscfd gas; 819 million bbl produced by end-2018; $3.6bn field development cost | status: Operating; first oil November 2005, first shipment February 2006 | dates: ['1993 OPL 212 awarded / discovery', '1995-96 discovery well', 'Nov 2005 first oil', 'Feb 2006 first shipment', '2017 fourth TAM'] | location: 120 km south-west of Niger Delta; >1,000 m water depth
 Technologies: ups-subsea-production-systems
+
+### Bonga field export line (bonga-field-export-line)
+Status: **operating** | Country: Nigeria
+Trelline flexible export line.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: export system throughput or offloading availability figures
+
+### Bonga field, OML 118, Niger Delta shelf/deepwater (bonga-field-oml-118-niger-delta-shelf-deepwater)
+Status: **operating** | Country: Nigeria
+Nigeria's first deepwater development; gas exported to NLNG Bonny where a third train was constructed
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: dollar year of $3.6bn development cost; FPSO storage capacity and dimensions
+
+### Bonga Trelline export line (bonga-trelline-export-line)
+Status: **operating** | Country: Nigeria
+SBM supplied and installed a Trelline flexible export line at Shell Nigeria's Bonga field.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: mooring failure/reliability statistics for turret systems 2006–2026
 
 ### Bongkot and Erawan gas fields (G2/61 and G1/61) (cost-bongkot-and-erawan-gas-fields-g2-61-and-g1-61)
 Status: **operating** | Country: Thailand
@@ -2252,6 +2366,18 @@ Status: **operating** | Country: USA (Gulf of Mexico)
 47,000 t jacket launched in 412 m water depth, Shell 1988; cited as largest jacket launched in the article.
 Technologies: civ-offshore-platform-structures
 
+### BW Catcher (bw-catcher)
+Status: **operating** | Country: United Kingdom
+Catcher field, Harbour Energy; seven-year fixed term contract with Premier Oil from 2017; left Keppel Shipyard 28 August 2017.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Contract values for Catcher, Prosafe and individual FPSO charters; Dollar-year basis for APL USD 500 million
+
+### BW Opal (Barossa) (bw-opal-barossa)
+Status: **operating** | Country: Australia
+Santos; contract duration shown in the fleet table.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Contract values for Catcher, Prosafe and individual FPSO charters; Dollar-year basis for APL USD 500 million
+
 ### BW Opal FPSO, Barossa Gas Project, Australia (wh-bw-opal-fpso-barossa-gas-project-australia)
 Status: **operating** | Country: Australia
 World's largest offshore power generation per Siemens Energy; 5 x SGT-750 combined cycle with 30 MW steam turbine.
@@ -2261,6 +2387,54 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: USA (converted Malaysia)
 2,600 m water depth, 80,000 bbl/d, disconnectable turret
 Technologies: civ-offshore-platform-structures
+
+### BW Pioneer (Cascade & Chinook) (bw-pioneer-cascade-chinook)
+Status: **operating** | Country: United States
+Petrobras America; 2,600 m water depth; EPCI awarded October 2007, production started early 2012; converted at MMHE Pasir Gudang, Malaysia.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Contract values for Catcher, Prosafe and individual FPSO charters; Dollar-year basis for APL USD 500 million
+
+### BW Pioneer disconnectable turret (bw-pioneer-disconnectable-turret)
+Status: **operating** | Country: United States
+EPCI awarded October 2007; conversion at MMHE Pasir Gudang, Malaysia; disconnectable turret by APL.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: APL standalone revenue, asset and equipment figures
+
+### Ca Rong Do field, Block 07/03, South China Sea (ca-rong-do-field-block-07-03-south-china-sea)
+Status: **operating** | Country: Vietnam
+Repsol-operated gas field halted amid South China Sea dispute; associated TTR order also cancelled.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: FPSO identity; Capacity and water depth; Dispute outcome
+
+### Cameroon FLNG (Hilli conversion) (cameroon-flng-hilli-conversion)
+Status: **operating** | Country: Cameroon
+Converted LNG carrier, per EIA.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Gulftide 1995 conversion schedule verified from a read page
+
+### Cameroon FLNG, Kribi / Sanaga gas fields (cameroon-flng-kribi-sanaga-gas-fields)
+Status: **operating** | Country: Cameroon
+Tolling agreement with Perenco Cameroon SA and SNH; first converted FLNG in the world
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: conversion capital cost; number of liquefaction trains installed
+
+### Cascade and Chinook fields, Walker Ridge, US Gulf of Mexico (cascade-and-chinook-fields-walker-ridge-us-gulf-of-mexico)
+Status: **operating** | Country: United States
+BW Offshore's first FPSO in US waters; disconnectable turret for hurricane regions
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: water depth discrepancy; contract value; Chinook first-oil date exact sourcing
+
+### Catcher FPSO quayside completion at Keppel Shipyard (catcher-fpso-quayside-completion-at-keppel-shipyard)
+Status: **operating** | Country: Singapore
+BW Offshore Catcher FPSO left Keppel Shipyard for UK North Sea on seven-year contract with Premier Oil.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Currency clarification on S$ figures placed in USD unit field; Full 2006-2026 yard contract register
+
+### Cendor field, Block PM304 (cendor-field-block-pm304)
+Status: **operating** | Country: Malaysia
+Marginal field developed with Malaysia's first MOPU; first flexible composite subsea pipeline in Malaysia.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Unit names; Charter terms and cost; Decommissioning date
 
 ### Chevron Benguela Belize compliant tower piles (pf-chevron-benguela-belize-compliant-tower-piles)
 Status: **operating** | Country: Angola
@@ -2298,10 +2472,28 @@ Congkak and West Patricia together produced about 13,500 net barrels of oil per 
 Technologies: ups-whp-platform-structures-and-marine-systems
 Recorded gaps: Belum, Merapuh, Pemanis, Patricia, Permas and South Acis individual discovery dates, water depths, well counts and capex; Chemical injection skid package supplier detail and value
 
+### Converted versus newbuild FPSO cost methodology and industry trend benchmarks (converted-versus-newbuild-fpso-cost-methodology-and-industry)
+Status: **operating** | Country: Malaysia
+Cost methodology and trend figures stated by the sources: cost per boepd of throughput, hull share of total capex, conversion discount, yard labour rates, equipment shares and indicative ranges. Figures from different years and different bases are kept side by side and not reconciled.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Dollar-year basis for the Compass per-tonne model; Reconciliation of 10% conversion rule with actual contract awards
+
+### Coral South FLNG (coral-south-flng)
+Status: **operating** | Country: Mozambique
+Listed among TechnipFMC recent projects on the page.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Technip/DSME Kanowit FLNG contract value; Unit-specific flexible pipe/riser contract values 2006-2026
+
 ### Coral South FLNG (ENI) (pf-coral-south-flng-eni)
 Status: **operating** | Country: Mozambique
 turret weight ~8,000 MT, HIPPS 400 bar/143 bar
 Technologies: civ-offshore-platform-structures
+
+### Coral South, Area 4, Rovuma Basin (coral-south-area-4-rovuma-basin)
+Status: **operating** | Country: Mozambique
+MRV JV (Eni, ExxonMobil, CNPC) holds 70% Area 4; Galp, KOGAS, ENH 10% each
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: project capital cost; water depth and hull dimensions; EPC/conversion yard
 
 ### Coulomb to NaKika (pf-coulomb-to-nakika)
 Status: **operating** | Country: USA
@@ -2312,6 +2504,12 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Australia
 24,000 t jacket under tow with support vessels, Shell and McDermott 2025.
 Technologies: civ-offshore-platform-structures
+
+### D1 cluster D30 and Dana fields, Block SK305 (d1-cluster-d30-and-dana-fields-block-sk305)
+Status: **operating** | Country: Malaysia
+Phase one of D1 cluster development; MOPU Satu and MOPU Dua bridge-linked to wellhead platforms.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Individual unit specifications; Contract value and charter terms
 
 ### D18 Phase 2 (d18-phase-2)
 Status: **operating** | Country: Malaysia (offshore Sarawak)
@@ -2351,6 +2549,12 @@ Recorded gaps: Balingian/D35 field-specific WHP capex; Completion of EnQuest acq
 Status: **operating** | Country: CN
 average incremental recovery about 11% over waterflooding across tested blocks
 Technologies: ups-chemical-eor
+
+### Deep Panuke MOPU (deep-panuke-mopu)
+Status: **operating** | Country: Canada
+SBM owned and leased to client; parent-company guarantees prior to 2010; charter rate continued to end of initial lease period.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Named FPSO decommissioning contract values; Total Rosebank Knarr upgrade value
 
 ### Deep-draft semisubmersible FPU concepts (pf-deep-draft-semisubmersible-fpu-concepts)
 Status: **operating** | Country: various
@@ -2425,6 +2629,12 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: USA
 Vx Spectra MPFM case study cited on SLB page
 
+### Egina field, OML 130 / PML 2/3/4 (egina-field-oml-130-pml-2-3-4)
+Status: **operating** | Country: Nigeria
+TotalEnergies 24%, CNOOC 45%, Petrobras 16%, SAPETRO 15% plus NNPC; discovered 2003
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: final adjudicated FPSO contract price; FPSO topside weight
+
 ### Egina Oil Field and FPSO (sys-egina-oil-field-and-fpso)
 Status: **operating** | Country: Nigeria
 capacity: 200,000 bpd peak (FPSO 208,000 bpd); 550 million bbl reserves; 2.3 million bbl oil storage; $16bn | status: Operating; first oil December 2018 | dates: ['Dec 2003 Egina-1 discovery', '2008 basic engineering', 'Dec 2013 construction start', 'Dec 2018 first oil'] | location: OML 130, Gulf of Guinea, ~150 km off Nigeria; ~1,600 m water depth
@@ -2449,6 +2659,12 @@ Technologies: ups-all-electric-subsea
 Status: **operating** | Country: not stated
 Six-slot subsea production system 12 km from UWP/UPP site; 34 km from tie-in to host; water depth 100-110 m; UPS-fed ventilation, F&G, gas-supply control and communications during black start.
 
+### Espoir Ivorien (espoir-ivorien)
+Status: **operating** | Country: Ivory Coast
+Espoir field, CNR; 2002-2017 contract; sold to CNR in 2023.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Contract values for Catcher, Prosafe and individual FPSO charters; Dollar-year basis for APL USD 500 million
+
 ### Fenris (Aker BP) (pf-fenris-aker-bp)
 Status: **operating** | Country: Norway
 2,600 t unmanned wellhead platform
@@ -2459,14 +2675,50 @@ Status: **operating** | Country: Malaysia/SEA
 1959 Shell Malaysia CALM Type Gusto in 48 ft water depth, concept developed by Esso, first SPM facility
 Technologies: ups-subsea-production-systems
 
+### FLNG Gimi / Greater Tortue Ahmeyim (flng-gimi-greater-tortue-ahmeyim)
+Status: **operating** | Country: Mauritania and Senegal
+Converted FLNG; Golar reports asset under development of USD 1.34bn and USD 630m debt drawn at 30 Sep 2023.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Unit cost of Eni Tango FLNG acquired from Exmar in 2022; Per-unit newbuild FLNG EPC price for Wison 3.5 mtpa Congo FLNG
+
+### Forel and Terubuk fields, South Natuna Sea Block B (forel-and-terubuk-fields-south-natuna-sea-block-b)
+Status: **operating** | Country: Indonesia
+Medco E&P Natuna operates the block; FPSO Marlin Natuna serves Forel and FPSO Belanak serves Block B.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: First-oil date detail; Lease terms; Incidents
+
 ### Forties Unity (forties-unity)
 Status: **operating** | Country: United Kingdom (North Sea)
 Named example of a normally unmanned installation with a helipad; not a Malaysian asset.
+
+### FPSO Agogo (fpso-agogo)
+Status: **operating** | Country: Angola
+15-year contract, anticipated US$5.3 billion revenue; designed with 27% carbon emission reduction and offshore CCS technology.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Names and contract values of the other eight FPSOs; Dollar year for Agogo US$5.3bn revenue figure
 
 ### FPSO Cidade de Itajai, Tiro & Sidon fields, Brazil (wh-fpso-cidade-de-itajai-tiro-sidon-fields-brazil)
 Status: **operating** | Country: Brazil
 Two SGT-400 gas turbine packages power water injection; search-verified Siemens Energy page.
 Technologies: ups-subsea-production-systems
+
+### FPSO Espirito Santo (BC-10) (fpso-espirito-santo-bc-10)
+Status: **operating** | Country: Brazil
+First turret-moored FPSO in the world to use steel catenary risers for fluid transfers; SBM/MISC JV.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: mooring failure/reliability statistics for turret systems 2006–2026
+
+### FPSO hull and living quarters for Statoil Petroleum (fpso-hull-and-living-quarters-for-statoil-petroleum)
+Status: **operating** | Country: Norway
+US$490 million newbuild FPSO hull and living quarters contract.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Currency clarification on S$ figures placed in USD unit field; Full 2006-2026 yard contract register
+
+### FPSO Kakap Natuna (fpso-kakap-natuna)
+Status: **operating** | Country: Indonesia
+First offshore production vessel, Kakap KH field, 88 m water depth.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: FPSO charter contract values 2006-2026; SOFEC acquisition price (2006)
 
 ### FPSO Kikeh (Kikeh field, offshore Sabah) (fpso-kikeh-kikeh-field-offshore-sabah)
 Status: **operating** | Country: MY
@@ -2477,6 +2729,54 @@ Technologies: ups-fpso-floating-production
 Status: **operating** | Country: Brazil
 Oceaneering case study advertises high-precision subsea survey, real-time anchor positioning and ROV support for FPSO mooring hook-up — search-verified snippet only.
 Technologies: civ-offshore-platform-structures
+
+### FPSO MV32 Almirante Barroso (fpso-mv32-almirante-barroso)
+Status: **operating** | Country: Brazil
+MODEC 35% owned; 21-year charter with Petrobras; Buzios field; 150,000 bopd and 212 mmscfd.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Actual contracted FPSO day rates for named units; Semi-submersible P&A day rates from NSTA Figure 6; FiFi and DP premiums
+
+### FPSO MV33 Anita Garibaldi (fpso-mv33-anita-garibaldi)
+Status: **operating** | Country: Brazil
+MODEC 32.5% owned; 25-year charter with Petrobras; Marlim field.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Actual contracted FPSO day rates for named units; Semi-submersible P&A day rates from NSTA Figure 6; FiFi and DP premiums
+
+### FPSO Petrojarl Cidade de Rio das Ostras (fpso-petrojarl-cidade-de-rio-das-ostras)
+Status: **operating** | Country: Brazil
+Converted from the Russian tanker Che Guevara, acquired 2007.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Petrojarl acquisition price (2006); FPSO charter values for Knarr and Cidade de Rio das Ostras
+
+### FPSO Petrojarl Knarr (fpso-petrojarl-knarr)
+Status: **operating** | Country: Norway
+Norwegian North Sea, BG Group; 63,000 bbl/d; Samsung-built hull, Aibel final preparations.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Petrojarl acquisition price (2006); FPSO charter values for Knarr and Cidade de Rio das Ostras
+
+### FPSO Prosperity (Payara, Guyana) (fpso-prosperity-payara-guyana)
+Status: **operating** | Country: Guyana
+SBM Fast4Ward hull; spread moored in about 1,900 m; Remazel supplied mooring tensioning system and riser pull-in package with value undisclosed.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Value of Johan Castberg turret mooring system EPC; Values of the two 2019 STP system awards; Prosperity riser pull-in and mooring tensioning package price
+
+### FPSO Turritella (fpso-turritella)
+Status: **operating** | Country: United States
+Deepest production unit/FPSO at almost 2,900 m, disconnectable turret with steel lazy wave risers.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: mooring failure/reliability statistics for turret systems 2006–2026
+
+### FSO Ta'Kuntah (Cantarell) (fso-ta-kuntah-cantarell)
+Status: **operating** | Country: Mexico
+MODEC-owned and operated under service agreement with PEMEX E&P; converted ULCC with SOFEC external turret, 800,000 bbl/d design.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: FPSO charter contract values 2006-2026; SOFEC acquisition price (2006)
+
+### Golar Tundra / Snam Piombino FSRU terminal (golar-tundra-snam-piombino-fsru-terminal)
+Status: **operating** | Country: Italy
+5 billion m3/year regasification; about 6.5% of Italian domestic gas needs; Golar leased the vessel back briefly as an LNG carrier.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Final completed Golar Arctic FSRU sale proceeds; Scope split of the USD 697.8m 2022 disposal consideration
 
 ### Gorek (SMEP) (gorek-smep)
 Status: **operating** | Country: Malaysia
@@ -2510,6 +2810,18 @@ Status: **operating** | Country: Denmark
 12 small suction caissons for loading buoy at 40 m depth, 1981
 Technologies: civ-offshore-platform-structures
 
+### GranMorgu / Jaguar / Kaminho / Longtail FPSOs (granmorgu-jaguar-kaminho-longtail-fpsos)
+Status: **operating** | Country: Malaysia
+Listed as under construction in the SBM FPSO list.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Unit-by-unit FPSO charter values and dates for 2006-2026; Dollar-year basis for cited USD figures
+
+### Gryphon Alpha FPSO, UK sector North Sea (gryphon-alpha-fpso-uk-sector-north-sea)
+Status: **operating** | Country: United Kingdom
+Four of ten mooring lines failed; 70+ personnel evacuated, 40 essential personnel remained
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Official UK HSE/MAIB inquiry findings for the 2011 Gryphon Alpha mooring failure; Root cause (chain manufacturing defect vs storm overload) and damaged subsea infrastructure inventory
+
 ### Gudrun (pf-gudrun)
 Status: **operating** | Country: Norway
 Fixed processing platform, 7,400 t steel jacket, 361 ft water depth, 16 well slots, first oil April 2014
@@ -2531,10 +2843,34 @@ Status: **operating** | Country: Malaysia
 capacity: FPS processing capacity 150,000 bbl/d oil; average production expected 135,000 bbl/d; reserves 300-500 million boe | status: Operating; first production October 2014 | dates: ['2003 Gumusut discovery', '2004 Kakap discovery', '2006 unitisation agreement', 'Jan 2008 FID and development drilling', 'Oct 2010-Nov 2010 mooring piles', 'Oct 2014 first production'] | location: Blocks J and K, ~120 km offshore Sabah; 1,200 m water depth
 Technologies: ups-subsea-production-systems
 
+### Gumusut-Kakap unitised development, Blocks J/K (gumusut-kakap-unitised-development-blocks-j-k)
+Status: **operating** | Country: Malaysia / Brunei
+Joint development operated by Sabah Shell with ConocoPhillips, PETRONAS Carigali, Murphy, Brunei Contractors, PTTEP and Pertamina.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: 25-year lease contract value; Capacity basis discrepancy; Incidents
+
+### GustoMSC designs (gustomsc-designs)
+Status: **operating** | Country: Netherlands
+GustoMSC, bought by SBM in 1984 and sold to Parcom in 2012 for US$185 million, purchased by NOV in 2018.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: GustoMSC 2018 purchase price; Named FPSO equipment scopes and values for NOV/NKT Flexibles
+
 ### Gyda platform removal (pf-gyda-platform-removal)
 Status: **operating** | Country: Norway
 30,000 t complete platform single-lift removal 2021/2022.
 Technologies: civ-offshore-platform-structures
+
+### Hai Thach and Moc Tinh fields, Blocks 05-2/05-3 (hai-thach-and-moc-tinh-fields-blocks-05-2-05-3)
+Status: **operating** | Country: Vietnam
+Bien Dong 1 development; condensate offloaded from FSO while gas goes via the Nam Con Son trunkline.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Uptime; Original charter value; Storage unit basis
+
+### Harding TPG 500 (harding-tpg-500)
+Status: **operating** | Country: United Kingdom
+Giant newbuild production jackup on concrete gravity base, central North Sea.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: verified 2022 Sagar Samrat jack-up-to-MOPU conversion figures; Ocean Legend MOPU figures verified by page read
 
 ### Haynesville Shale HPHT sour gas well test, Texas (wh-haynesville-shale-hpht-sour-gas-well-test-texas)
 Status: **operating** | Country: USA
@@ -2673,6 +3009,12 @@ Status: **operating** | Country: Malaysia
 Approximately 15,000 MT topside to be installed with 11,200 MT jacket; client SapuraOMV, with Shell and PETRONAS Carigali at 30% each.
 Technologies: ups-subsea-production-systems
 
+### Johan Castberg FPSO turret mooring system (johan-castberg-fpso-turret-mooring-system)
+Status: **operating** | Country: Norway
+8,000 t bogie turret, 21 riser slots, 372 m water depth, three bundles of five mooring lines; fabricated by Drydocks World Dubai, designed by SBM Offshore.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Value of Johan Castberg turret mooring system EPC; Values of the two 2019 STP system awards; Prosperity riser pull-in and mooring tensioning package price
+
 ### Johan Castberg FPSO, Norway (wh-johan-castberg-fpso-norway)
 Status: **operating** | Country: Norway
 SGT-750 gas turbines minimise weight and footprint; listed on Siemens Energy FPSO page.
@@ -2724,9 +3066,21 @@ Status: **operating** | Country: Norway
 560 beds; KBR/Kvaerner JV with Leirvik modules; described as close to 'plug-n-play'
 Technologies: civ-offshore-platform-structures
 
+### Jubilee field Phase I, Deepwater Tano / West Cape Three Points (jubilee-field-phase-i-deepwater-tano-west-cape-three-points)
+Status: **operating** | Country: Ghana
+Tullow 38.98%, Kosmos 38.61%, GNPC 19.69%, PetroSA 2.72%; recoverable reserves >370 million barrels
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: FPSO conversion/EPC contract value; reliability and downtime history
+
 ### JVPC N1 wellhead platform process control upgrade (jvpc-n1-wellhead-platform-process-control-upgrade)
 Status: **operating** | Country: Vietnam
 PLC-5 to ControlLogix with central SCADA communication; site work carried out from the FSO
+
+### Kakap KH field, Natuna Sea (kakap-kh-field-natuna-sea)
+Status: **operating** | Country: Indonesia
+CALM rigid-yoke mooring with flexible riser to PLEM.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Relevance window; Decommissioning date
 
 ### Kakap-Gumusut unitized field, Block K / Block J (kakap-gumusut-unitized-field-block-k-block-j)
 Status: **operating** | Country: Malaysia
@@ -2734,10 +3088,22 @@ Unitized with Shell's Gumusut discovery; Murphy interest reduced through unitiza
 Technologies: ups-whp-platform-structures-and-marine-systems
 Recorded gaps: Kikeh, Kakap, Siakap and Rotan detailed technology, processing and export specifications; Incidents, uptime, workovers and decommissioning for the deepwater assets
 
+### Kaminho (Cameia and Golfinho) (kaminho-cameia-and-golfinho)
+Status: **operating** | Country: Angola
+First large deepwater development in Kwanza basin, 1,700 m water depth; VLCC converted to all-electric FPSO; 70,000 bopd plateau; breakeven under 30 USD/b and 16 kg CO2e/boe stated by operator; >10 million Angolan man-hours.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Standalone P-84 and P-85 per-unit breakdown; Separate Kaminho FPSO-only value
+
 ### Kanowit FLNG (pf-kanowit-flng)
 Status: **operating** | Country: Malaysia
 Petronas contract with Technip/DSME, 2012, off Sarawak
 Technologies: civ-offshore-platform-structures
+
+### Kanowit gas field / Kumang Cluster Phase 1 (kanowit-gas-field-kumang-cluster-phase-1)
+Status: **operating** | Country: Malaysia
+First FLNG deployment 2016-2019 offshore Sarawak; relocated to Kebabangan gas field offshore Sabah.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Length discrepancy; LNG/condensate tank capacities; Contract value; Incidents
 
 ### Kashagan field development (Island D artificial islands) (cost-kashagan-field-development-island-d-artificial-islands)
 Status: **operating** | Country: Kazakhstan (northern Caspian Sea)
@@ -2825,6 +3191,12 @@ Malaysia's first deepwater development, discovered 2002, first production 2007, 
 Technologies: ups-whp-platform-structures-and-marine-systems
 Recorded gaps: Kikeh, Kakap, Siakap and Rotan detailed technology, processing and export specifications; Incidents, uptime, workovers and decommissioning for the deepwater assets
 
+### Kikeh field development, Block K, Sabah (kikeh-field-development-block-k-sabah)
+Status: **operating** | Country: Malaysia
+Operator Murphy Sabah Oil Company (80%) with Petronas Carigali (20%); integrated spar + FPSO + subsea development.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Charter extension exercised / current lease status; Kikeh discovery date; Reliability and incidents
+
 ### Kikeh FPSO (pf-kikeh-fpso)
 Status: **operating** | Country: Malaysia
 337 m × 54.6 m, 273,000 dwt, 2 million bbl, 120,000 bpd
@@ -2834,6 +3206,18 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Malaysia
 capacity: 2 million bbl FPSO storage; 400-700 million bbl recoverable; 120,000 bpd initial ramp-up | status: Operating; first oil August 2007 | dates: ['Apr 2004 Kikeh-7 appraisal well', 'Aug 2007 first oil'] | location: Block K, 120 km north-west of Labuan, offshore Sabah, East Malaysia; ~1,330 m water depth
 Technologies: ups-subsea-production-systems
+
+### Kikeh FPSO development, Block K, offshore Sabah (kikeh-fpso-development-block-k-offshore-sabah)
+Status: **operating** | Country: Malaysia
+First deepwater development in Malaysia; truss spar dry-tree unit plus turret-moored FPSO; MOSCoP Tier 1 export-hose spill in August 2022
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Cause of the 2026 Kikeh FPSO restoration shut-in; Kikeh FPSO downtime/uptime percentage and mooring integrity inspection results
+
+### Kikeh GAP fluid transfer (kikeh-gap-fluid-transfer)
+Status: **operating** | Country: Malaysia
+FTL-GAP system for producing wells offshore Malaysia.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: export system throughput or offloading availability figures
 
 ### Kikeh spar (pf-kikeh-spar)
 Status: **operating** | Country: Malaysia
@@ -2856,11 +3240,29 @@ Status: **operating** | Country: Angola
 1,177 m TLP; associated FPSO storage 2.2 million bbl
 Technologies: civ-offshore-platform-structures
 
+### Kizomba A (Hungo and Chocalho fields), Block 15 (kizomba-a-hungo-and-chocalho-fields-block-15)
+Status: **operating** | Country: Angola
+Development consists of a TLP plus the FPSO; operator ExxonMobil
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Kizomba A first-oil year; Kizomba A processing capacity
+
 ### Kizomba A / B / C deepwater project (cost-kizomba-a-b-c-deepwater-project)
 Status: **operating** | Country: Angola (Block 15)
 Kizomba A: extended-leg TLP (dry tree, ABB ETLP design) plus subsea completions; B: surface wellhead platform and subsea wells; C: subsea wells only | TLP dry-tree topsides (two 6,000 t modules, 7,500 t drilling rig) tied to FPSO; FPSO processing/storage topsides | TLP hull towed from Rotterdam; FPSOs built in Korea and towed to field; subsea tiebacks to FPSOs | ABB (TLP design); Hyundai Heavy Industries (FPSOs); McDermott (TLP detailed engineering); Saipem; SBM Offshore | 1,250 m (Kizomba A TLP); ~1,000-1,400 m (discoveries); 4,425 ft stated for project | Kizomba A target 250,000 bpd; B target 250,000 bpd; C 100,000 bpd from Saxi/Batuque; ~2 billion boe recoverable Kizomba A FPSO construction cost: USD 800 — dollar year not stated (Construction cost of the Kizomba A FPSO by Hyundai Heavy Industries) Kizomba A development investment: USD 3.2 — dollar year not stated (Estimated total investment in Kizomba A development (TLP + FPSO + wells)) Kizomba B project cost: USD 3 — dollar year not stated (Construction/development cost of the Kizomba B project, started early 2003) Kizomba B FPSO allocation: USD 750 — dollar year not stated (Amount earmarked by ExxonMobil for the Kizomba B FPSO
 Technologies: civ-offshore-platform-structures
 Recorded gaps: Dollar year not stated for some published costs
+
+### Kizomba A FPSO (kizomba-a-fpso)
+Status: **operating** | Country: Angola
+Built by Hyundai Heavy Industries at cost of more than US$800 million; 2.2 million barrel storage class; operated by Esso Exploration Angola.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Dollar years for Kizomba figures; 2006-2026 HHI FPSO contract register
+
+### Kizomba B FPSO (kizomba-b-fpso)
+Status: **operating** | Country: Angola
+US$750 million earmarked for the FPSO; 2.2 million barrels storage; 285 m x 63 m x 32 m, 81,000 t.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Dollar years for Kizomba figures; 2006-2026 HHI FPSO contract register
 
 ### KMSE and AJK wellhead platforms (kmse-and-ajk-wellhead-platforms)
 Status: **operating** | Country: Malaysia
@@ -2869,6 +3271,12 @@ Tarpon platforms designed for 20-year operational lifespan, relocatable, with th
 ### KMSE and AJK wellhead platforms, Block SK315 (kmse-and-ajk-wellhead-platforms-block-sk315)
 Status: **operating** | Country: Malaysia
 PETRONAS Carigali client; Tarpon detailed design, fabrication, transport and installation of relocatable WHPs in 70-85 m water.
+
+### Kuito / Espirito Santo / Brasil / Capixaba FPSOs (kuito-espirito-santo-brasil-capixaba-fpsos)
+Status: **operating** | Country: Brazil
+Listed as de-commissioned units in the SBM FPSO list.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Unit-by-unit FPSO charter values and dates for 2006-2026; Dollar-year basis for cited USD figures
 
 ### LAM-E topside (North Sea, Netherlands) (pf-lam-e-topside-north-sea-netherlands)
 Status: **operating** | Country: Netherlands
@@ -2886,11 +3294,23 @@ Integrated development of two Sarawak gas fields, one of Malaysia's largest gas 
 Technologies: ups-whp-platform-structures-and-marine-systems
 Recorded gaps: Water depth; Facility concept / WHP count; Discovery year and capex
 
+### Layang and Helang fields, Block SK10 (layang-and-helang-fields-block-sk10)
+Status: **operating** | Country: Malaysia
+Gas exported via ~200 km subsea pipeline to MLNG Tiga at Bintulu; condensate and Layang oil offloaded from the FPSO.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Helang charter contract value; Water depth / dimensions; Gas compression basis
+
 ### Layang marginal field (Block SK10) (layang-marginal-field-block-sk10)
 Status: **operating** | Country: Malaysia
 Unmanned WHP tied to a leased FPSO; marginal oil/gas development in 90 m water offshore Sarawak, production from mid-2016.
 Technologies: ups-whp-platform-structures-and-marine-systems
 Recorded gaps: WHP size / weights; Actual first production date; Reliability incidents
+
+### Lekas LNG Terminal (lekas-lng-terminal)
+Status: **operating** | Country: Malaysia
+MISC-operated floating storage LNG terminal in Malaysia with regasification equipment on an offshore jetty — from a page found in search but not read; no figures asserted.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: MISC Lekas FSU Malaysia details from a read primary page; FSRU regasification send-out capacities with a read source
 
 ### Lena (pf-lena)
 Status: **operating** | Country: USA
@@ -2922,6 +3342,24 @@ Nine deepwater subsea wells in 1,200-1,500 m water depth tied back 75 km to a sh
 Technologies: civ-offshore-platform-structures
 Recorded gaps: Dollar year not stated for some published costs
 
+### Liza Deep Water Project (liza-deep-water-project)
+Status: **operating** | Country: Guyana
+Listed among TechnipFMC recent projects on the page.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Technip/DSME Kanowit FLNG contract value; Unit-specific flexible pipe/riser contract values 2006-2026
+
+### Liza Destiny / Liza Unity / ONE GUYANA / Prosperity FPSOs (liza-destiny-liza-unity-one-guyana-prosperity-fpsos)
+Status: **operating** | Country: Guyana
+Listed in SBM Offshore FPSO group companies list as sold to ExxonMobil.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Unit-by-unit FPSO charter values and dates for 2006-2026; Dollar-year basis for cited USD figures
+
+### Liza Unity (liza-unity)
+Status: **operating** | Country: Guyana
+First Fast4Ward FPSO; 2 million bbl storage, 220,000 bbl/d oil nameplate in 2022 survey.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: published unit capital cost of a named FPSO with an explicit dollar year; ISO 19904-1 full normative text
+
 ### Long Lake SAGD with in-field upgrader (Nexen, later CNOOC), Alberta (long-lake-sagd-with-in-field-upgrader-nexen-later-cnooc-alberta)
 Status: **operating** | Country: CA
 design 72,000 bpd bitumen (SAGD + integrated in-field upgrader); operator guided 38,000-45,000 bpd for 2011
@@ -2936,6 +3374,18 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Russia (Sakhalin)
 Concrete gravity base substructure platform shown in Wikipedia oil platform article; float-out/float-in concept described for Condeep-type structures.
 Technologies: civ-offshore-platform-structures
+
+### Macondo well / Deepwater Horizon (macondo-well-deepwater-horizon)
+Status: **operating** | Country: United States of America
+Dynamically positioned semi-submersible MODU; major mobile offshore unit accident used as reliability boundary case, not a production platform
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Source list behind the 'at least 23 mooring failures since 2000' count; Observed (not modelled) distribution of single vs multiple line failures on FPSOs
+
+### Madura BD field, Madura Strait, East Java (madura-bd-field-madura-strait-east-java)
+Status: **operating** | Country: Indonesia
+Sour-gas development operated by Husky-CNOOC Madura Ltd; gas exported via 52 km pipeline to an onshore gas metering station.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Storage capacity conflict; Condensate capacity conflict; HCML field page; Reliability
 
 ### Makat and Balgymbaeva gas treatment units, Kazakhstan (wh-makat-and-balgymbaeva-gas-treatment-units-kazakhstan)
 Status: **operating** | Country: Kazakhstan
@@ -2984,16 +3434,40 @@ Removals, P&A and selective repurposing; five rigs-to-reef conversions since 200
 Technologies: ups-whp-platform-structures-and-marine-systems
 Recorded gaps: Actual decommissioning cost for a Malaysian WHP (e.g. Ophir, Baram-8); Value of the PETRONAS up-to-31-platform removal tender
 
+### Maleo gas field MOPU (maleo-gas-field-mopu)
+Status: **operating** | Country: Indonesia
+Converted jack-up drilling rig, Madura Offshore PSC, 140 km east of Surabaya; 7.4 km spur-line to East Java Gas Pipeline.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: verified 2022 Sagar Samrat jack-up-to-MOPU conversion figures; Ocean Legend MOPU figures verified by page read
+
+### Maleo MOPU (maleo-mopu)
+Status: **operating** | Country: Indonesia
+Converted jack-up drilling rig, Madura Strait.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Gulftide 1995 conversion schedule verified from a read page
+
 ### Malikai (pf-malikai)
 Status: **operating** | Country: Malaysia
 26,000 t TLP, 500 m, first in Malaysia
 Technologies: civ-offshore-platform-structures
+
+### Malikai deepwater field, Block G (malikai-deepwater-field-block-g)
+Status: **operating** | Country: Malaysia
+Tieback to Kebabangan; part of PETRONAS Sabah integrated oil and gas project.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: TLP EPC contract value; Gas capacity basis; Wells and risers / reliability
 
 ### Malikai deepwater oilfield (Block G, Sabah) (malikai-deepwater-oilfield-block-g-sabah)
 Status: **operating** | Country: Malaysia
 First TLP in Malaysian waters: 26,000 t tension leg platform in 500 m water, first production December 2016; tie-back to Kebabangan hub.
 Technologies: ups-whp-platform-structures-and-marine-systems
 Recorded gaps: Total project capex; Incidents / reliability
+
+### Malta LNG FSU (malta-lng-fsu)
+Status: **operating** | Country: Malta
+ElectroGas Malta; 125,000 m3 MOSS carrier FSU, 18-year project life, RM1 billion deal reported 2015.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Dollar-year basis for USD contract figures; Kraken RM4.6b and Angola RM9.5b contract USD equivalents
 
 ### Maureen ALC (pf-maureen-alc)
 Status: **operating** | Country: UK
@@ -3024,6 +3498,24 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Malaysia
 Approximately 45 m water depth; substructure acts as drilling template with 36-inch conductors driven and grouted into four 40-inch legs doubling as structural piles; D30 accommodates at least eight wells, Dana at least five; JOC partners Petronas Carigali, Pertamina and Petrovietnam; 24-inch internal conductors.
 Technologies: ups-subsea-production-systems
+
+### Moheshkhali Floating LNG (moheshkhali-floating-lng)
+Status: **operating** | Country: Bangladesh
+FSRU Excellence, 138,000 m3, receiving capacity 3.8 MTPA, started 2018.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: MISC Lekas FSU Malaysia details from a read primary page; FSRU regasification send-out capacities with a read source
+
+### MOPUstor Yme (mopustor-yme)
+Status: **operating** | Country: Norway
+Jack-up production unit for Talisman's Yme field; included in SBM's USD 999.8m 2008 capital expenditure; no separate value disclosed.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Standalone semi-submersible production unit newbuild or conversion value; MOPU newbuild/conversion unit cost; TLP and spar cost benchmarks
+
+### MSU Floatel Triumph contract (msu-floatel-triumph-contract)
+Status: **operating** | Country: Malaysia
+Letter of intent converted to firm contract; contract value, client and location not printed on the page read.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Ownership (possible COSCO link); Contract values and dollar years for all Floatel charters; Yard of construction and build dates for the four units
 
 ### Mumbai Coastal Road Project (pf-mumbai-coastal-road-project)
 Status: **operating** | Country: India
@@ -3066,6 +3558,18 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: USA GOM
 first production spar 1996, 1,930 ft water depth, 6,600 t topsides
 Technologies: civ-offshore-platform-structures
+
+### Neptune development, Atwater Valley / Green Canyon 613 (neptune-development-atwater-valley-green-canyon-613)
+Status: **operating** | Country: United States
+Oil exported via Caesar pipeline (BHP 25%), gas via Cleopatra pipeline (BHP 22%)
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: TLP capital cost; TLP hull designer name and top tension
+
+### Nexus Floating Production (nexus-floating-production)
+Status: **operating** | Country: Norway
+APL's FPSO contracting venture, subsequently controlled by BW Offshore.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: APL standalone revenue, asset and equipment figures
 
 ### Ninian Northern platform removal (pf-ninian-northern-platform-removal)
 Status: **operating** | Country: UK North Sea
@@ -3132,6 +3636,30 @@ Status: **operating** | Country: Norway
 One of 16 receiving scrubbers assembled in shop; shown in SLB phase separation internals brochure (search-verified).
 Technologies: ups-subsea-production-systems
 
+### P-57 FPSO, Jubarte field (p-57-fpso-jubarte-field)
+Status: **operating** | Country: Brazil
+VLCC Accord converted in Singapore; 180,000 b/d oil and 71 MMcf/d gas; turnkey supply plus three years operation.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Total P-57 project scope split between hull conversion and topsides; Full P-62 FPSO conversion value
+
+### P-62 FPSO, Roncador field (p-62-fpso-roncador-field)
+Status: **operating** | Country: Brazil
+VLCC MT SUVA; hull steel renewal and accommodation refurbishment by Jurong Shipyard; GE supplied turbines and compressors.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Total P-57 project scope split between hull conversion and topsides; Full P-62 FPSO conversion value
+
+### P-84 (Atapu 2) (p-84-atapu-2)
+Status: **operating** | Country: Brazil
+225,000 bopd; 10 million Sm3/d gas; all-electric; 20% local content; Atapu consortium Petrobras 65.7%, Shell 16.7%, TotalEnergies 15%.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Standalone P-84 and P-85 per-unit breakdown; Separate Kaminho FPSO-only value
+
+### P-85 (Sepia 2) (p-85-sepia-2)
+Status: **operating** | Country: Brazil
+225,000 bopd; 10 million Sm3/d gas; 25% local content; Sepia consortium Petrobras 55.3%, TotalEnergies 16.9%, PETRONAS 12.7%, QatarEnergy 12.7%, Petrogal 2.4%.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Standalone P-84 and P-85 per-unit breakdown; Separate Kaminho FPSO-only value
+
 ### P63 FPSO (Petrobras) (pf-p63-fpso-petrobras)
 Status: **operating** | Country: Brazil
 23 process plant modules installed during conversion; 1,500 people at peak
@@ -3193,6 +3721,12 @@ Status: **operating** | Country: Malaysia
 capacity: 25.7 Mtpa existing -> 29.3 Mtpa after Train 9; Train 9 3.6 Mtpa; 8 then 9 LNG trains; 850 MMscfd additional feed gas | status: Operating; Train 9 scheduled completion late 2015 | dates: ['Aug 1982 first train online', 'Jan 1983 first cargo', '1996 trains 4 and 6', '2004 trains 7 and 8', 'Dec 2012 FEED complete', 'Mar 2013 EPCC award', 'Late 2015 scheduled completion'] | location: ~20 km from Bintulu Town, Sarawak; 276 ha
 Technologies: ups-subsea-production-systems
 
+### Petronas Kanowit FLNG (petronas-kanowit-flng)
+Status: **operating** | Country: Malaysia
+Technip and DSME consortium awarded procurement, engineering, construction, installation and commissioning contract for FLNG destined for Kanowit gas field off Sarawak.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Kanowit FLNG contract value; DSME FPSO-specific contract register 2006-2026
+
 ### PETRONAS PFLNG DUA (PFLNG-2, Rotan/Buluh gas fields) (sys-petronas-pflng-dua-pflng-2-rotan-buluh-gas-fields)
 Status: **operating** | Country: Malaysia
 capacity: 1.5 million tonnes per annum LNG; world's first FLNG serving a deepwater gas field >1,000 m | status: Operating; first production February 2021 | dates: ['Jan 2007 Rotan-1 discovery', '2012 FEED', 'Feb 2014 FID', 'May 2015 fabrication start', 'Dec 2015 keel laying', 'May 2016 hull launch', 'Feb-Mar 2020 tow to field', 'Feb 2021 first production'] | location: Block H, South China Sea, 140 km offshore Kota Kinabalu, Sabah; moored in up to 1,500 m water
@@ -3209,11 +3743,23 @@ Compliant piled tower (flexible tower; 43,000 t, 1,870 ft design height) | 7,500
 Technologies: civ-offshore-platform-structures
 Recorded gaps: Dollar year not stated for some published costs
 
+### PFLNG DUA (pflng-dua)
+Status: **operating** | Country: Malaysia
+Rotan field 140 km offshore Kota Kinabalu, Sabah; 1.5 MTPA, water depth up to 1,500 m.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: individual patent numbers for the 150+ Prelude FLNG patents; resolution of PFLNG SATU length discrepancy (300 m vs 365 m); PFLNG SATU first-LNG date verified from a read page
+
 ### PFLNG DUA (PETRONAS Floating LNG 2) (cost-pflng-dua-petronas-floating-lng-2)
 Status: **operating** | Country: Malaysia
 Deepwater FLNG vessel, 333 m in length (PETRONAS LNG page, search-verified); capable of water depths up to 1,500 m | FLNG topside with liquefaction, storage and offloading; described as PETRONAS's first deepwater FLNG | Moored at the Rotan gas field; subsea commissioning completed before first gas | Not established from a fetched page; gap | Up to 1,500 m (PETRONAS LNG page, search-verified) | 1.5 Mtpa LNG Cost (project tracker): USD 1600000000 — dollar year not stated (LNG2030 project tracker record for PFLNG Dua: 'Cost (US$bn) 1.6') Deepwater FLNG vessel, 333 m in length (PETRONAS LNG page, search-verified); capable of water depths up to 1,500 m | FLNG topside with liquefaction, storage and offloading; described as PETRONAS's first deepwater FLNG | Moored at the Rotan gas field; subsea commissioning completed before first gas | Not established from a fetched page; gap | Up to 1,500 m (PETRONAS LNG page, search-verified) | 1.5 Mtpa LNG Cost (project tracker): USD 1600000000 — dollar year not stated (LNG2030 project tracker record for PFLNG Dua: 'Cost (US$bn) 1.6')
 Technologies: civ-offshore-platform-structures
 Recorded gaps: Dollar year not stated for some published costs
+
+### PFLNG SATU (pflng-satu)
+Status: **operating** | Country: Malaysia
+Kanowit field offshore Sarawak, later relocated to Kebabangan, Sabah; 1.2 MTPA.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: individual patent numbers for the 150+ Prelude FLNG patents; resolution of PFLNG SATU length discrepancy (300 m vs 365 m); PFLNG SATU first-LNG date verified from a read page
 
 ### PFLNG1 / FLNG Satu (PETRONAS) (pf-pflng1-flng-satu-petronas)
 Status: **operating** | Country: Malaysia
@@ -3231,6 +3777,18 @@ Status: **operating** | Country: Papua New Guinea
 Predominantly onshore development: Hides gas conditioning plant and wellpads, Kutubu/Gobe associated gas facilities, onshore and offshore pipelines. Not a fixed offshore platform project - noted as a scope caveat. | Two-train LNG liquefaction and storage plant near Port Moresby | ~700 km pipelines through rugged terrain; pipe airlifted in places; new roads, communications and Komo airfield constructed for heavy equipment | Chiyoda + JGC JV (LNG plant and marine facilities EPC3); CBI + Clough JV (Hides gas conditioning plant and wellpads EPC4); SpieCapag (onshore pipeline EPC5A) - all from the PNG LNG Q3 2013 ES report, search-verified only | Not applicable to a predominantly onshore development; no offshore platform water depth stated | 6.9 Mtpa original design; >8.3 Mtpa current capacity (PNG LNG project page, search-verified); >9 Tcf gas over ~30 years Predominantly onshore development: Hides gas conditioning plant and wellpads, Kutubu/Gobe associated gas facilities, onshore and offshore pipelines. Not a fixed offshore platform project - noted as a scope caveat. | Two-train LNG liquefaction and storage plant near Port Moresby | ~700 km pipelines through rugged terrain; pipe airli
 Technologies: civ-offshore-platform-structures
 
+### Polvo / Tubarao Martelo cluster (polvo-tubarao-martelo-cluster)
+Status: **operating** | Country: Brazil
+PetroRio holds 80% of Tubarao Martelo; cluster economic life to 2037 on 1P reserves per DeGolyer & MacNaughton; emissions fell from 18.6 to 13.7 kg CO2 per barrel.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: FPSO-only OPEX per day or per barrel; FiFi/DP manning and insurance premium components
+
+### Prelude and Concerto gas fields, Browse Basin (prelude-and-concerto-gas-fields-browse-basin)
+Status: **operating** | Country: Australia
+Joint venture Shell, KOGAS and Inpex; 200 km offshore Western Australia
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: confirmed final capital cost; mooring water depth; reliability statistics (uptime, downtime days)
+
 ### Prelude FLNG (pf-prelude-flng)
 Status: **operating** | Country: Australia
 488 m, >600,000 t, 3.6 mtpa LNG, ~200-475 km off Broome; first cargo June 2019 Floating FLNG hull (double-hulled ship-shaped floater), turret-moored to seabed suction/driven piles | FLNG processing plant (14 gas-plant modules), LNG storage (six tanks, 220,000 m3) | Built at Samsung Heavy Industries, Geoje; towed ~5,800 km to site; moored by turret to 16 steel piles | Technip-Samsung Consortium (TSC); SBM Offshore (turret mooring); FMC Technologies (subsea); Emerson (automation) | 250 m | 5.3 Mt/y liquids and condensate: 3.6 Mt/y LNG, 1.3 Mt/y condensate, 0.4 Mt/y LPG; 110,000 boe/d design announced capital investment: USD 12 — dollar year not stated (Investment announced by Shell to build the Prelude FLNG facility; source gives announcement date 20 May 2011 but no explicit price-year labe) analyst estimated vessel cost: USD 10.8-12.6 — dollar year not stated (Industry analyst estimate of Prelude vessel cost reported by Reuters; article dated 4 December 2013) Shell unit cost guidanc FLNG vessel: double-hulled, 488 m x 74 m x 105 m; 600,000 t fully loaded; turret moored to seabed piles/suction piles at ~250 m water depth | 14 gas plant topsides modules; LNG, LPG and condensate proces
@@ -3245,6 +3803,18 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Australia
 temporary refuge, designated living quarters separated from processes by utilities and safety gap
 Technologies: civ-offshore-platform-structures
+
+### Prelude FLNG topsides (prelude-flng-topsides)
+Status: **operating** | Country: Australia
+Dual Mixed Refrigerant liquefaction, LNG/LPG and condensate processing modules.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: quantified processing capacities of generic Fast4Ward modules
+
+### Prelude FLNG, Browse Basin (prelude-flng-browse-basin)
+Status: **operating** | Country: Australia
+Turret-moored to 16 seabed driven piles; designed for Category 5 cyclones; 200 km off Western Australia
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Root cause of Prelude 2021 UPS fire and repeated generator trips; Cumulative Prelude downtime/uptime percentage by year
 
 ### Provence Grand Large (pf-provence-grand-large)
 Status: **operating** | Country: France
@@ -3275,6 +3845,12 @@ Small/marginal field cluster, ~6.1 mmboe 2P; uses Dialog's Tarpon platform for f
 Technologies: ups-whp-platform-structures-and-marine-systems
 Recorded gaps: Upstream original report for the RAJA FID; Breakdown of the US$81m between platform, drilling, pipeline and abandonment
 
+### Rang Dong field, Block 15-2, Cuu Long Basin (rang-dong-field-block-15-2-cuu-long-basin)
+Status: **operating** | Country: Vietnam
+JVPC-operated field with three platforms; oil stored on MV17 and offloaded to shuttle tankers.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Charter value; Uptime
+
 ### Red Hawk (pf-red-hawk)
 Status: **operating** | Country: USA
 Only cell spar, 1,615 m, decommissioned 2014 under Rigs-to-Reefs
@@ -3290,6 +3866,12 @@ Status: **operating** | Country: Malaysia
 First Malaysian platform to be remotely controlled from land.
 Technologies: ups-whp-platform-structures-and-marine-systems
 Recorded gaps: Verification of Resak unmanned status after 2023
+
+### Rosebank / Petrojarl Knarr FPSO (rosebank-petrojarl-knarr-fpso)
+Status: **operating** | Country: United Kingdom
+Equinor field 130 km west of Shetland, estimated 300 million bbl recoverable; redeploy existing Altera-owned FPSO for 25 years without drydocking.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Named FPSO decommissioning contract values; Total Rosebank Knarr upgrade value
 
 ### Rosmari and Marjoram sour gas development (rosmari-and-marjoram-sour-gas-development)
 Status: **operating** | Country: Malaysia
@@ -3367,6 +3949,12 @@ Largest oil field in the Malay Basin by some estimates, discovered 1971; EUR 589
 Technologies: ups-whp-platform-structures-and-marine-systems
 Recorded gaps: Facility concept / water depth; First oil/gas year; Capex and incidents
 
+### Sepetiba (Mero 2) (sepetiba-mero-2)
+Status: **operating** | Country: Brazil
+First Fast4Ward FPSO to arrive in Brazil; 22.5-year lease and operation contract referenced in SBM 2019 annual report.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: published unit capital cost of a named FPSO with an explicit dollar year; ISO 19904-1 full normative text
+
 ### Serendah (serendah)
 Status: **operating** | Country: Malaysia
 Marginal oil and gas field in 30 m water, 35 km from Bintulu, tied into Merapuh-Golok pipeline.
@@ -3405,6 +3993,12 @@ Status: **operating** | Country: Brazil
 First Subsea 2.0 tree installed in 2021; 100th tree (2025) for a Shell Gulf of America project
 Technologies: ups-subsea-production-systems
 
+### Shell LNG FPSO series (up to 10) (shell-lng-fpso-series-up-to-10)
+Status: **operating** | Country: Malaysia
+Agreement to build up to 10 LNG FPSOs at the Samsung yard.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Dollar-year basis for Skarv contracts; Contract values for Shell LNG FPSO series
+
 ### Shell Perdido spar (pf-shell-perdido-spar)
 Status: **operating** | Country: USA (Gulf of Mexico)
 lightweight single-lift topsides installed by Thialf in March 2009, living quarter added three days later
@@ -3414,6 +4008,12 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: United States
 TechnipFMC EVDT set world record for deepest installed tree at 9,627 ft in 2011.
 Technologies: ups-subsea-production-systems
+
+### Shell Stones FPSO (shell-stones-fpso)
+Status: **operating** | Country: United States
+World's deepest disconnectable FPSO, 2,900 m water depth, Gulf of Mexico; awarded July 2013.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Unit-by-unit FPSO charter values and dates for 2006-2026; Dollar-year basis for cited USD figures
 
 ### Siakap North-Petai (siakap-north-petai)
 Status: **operating** | Country: Malaysia
@@ -3501,6 +4101,36 @@ Status: **operating** | Country: Norway
 292 m FPSO, 19 million m3/d gas, 13,500 m3/d oil
 Technologies: civ-offshore-platform-structures
 
+### Skarv and Idun fields (skarv-and-idun-fields)
+Status: **operating** | Country: Norway
+16 subsea wells tied back to the Skarv FPSO; water depth 350-450 m.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: VetcoGray corporate identity and country; Dollar year for US$265m
+
+### Skarv and Idun fields, PL212/PL262/PL159 (skarv-and-idun-fields-pl212-pl262-pl159)
+Status: **operating** | Country: Norway
+Total recoverable basis 16.8 million m3 oil and condensate and 48.3 billion m3 rich gas; ~80% of Skarv resources gas
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: first production year; total FPSO-investment figure in USD
+
+### Skarv and Idun flowlines (skarv-and-idun-flowlines)
+Status: **operating** | Country: Norway
+42 km of flowlines to the Skarv FPSO; pipelay by Skandi Navica.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Corporate headquarters and acquisition history; Dollar year for US$125m contract
+
+### Skarv and Idun FPSO (skarv-and-idun-fpso)
+Status: **operating** | Country: Norway
+BP operator; hull and topsides by Samsung; Aker front-end design; water depth 350-450 m.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Dollar-year basis for Skarv contracts; Contract values for Shell LNG FPSO series
+
+### Skarv FPSO (BP Norge) (skarv-fpso-bp-norge)
+Status: **operating** | Country: Norway
+Aker Kvaerner/Solutions developed front-end and overall system design; hull to Samsung; turret to SBM; hull delivered January 2010 per FPSO Wikipedia page.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Skarv EPcma contract value; Dollar year for Skarv figures
+
 ### Skarv Satellites (wh-skarv-satellites)
 Status: **operating** | Country: Norway
 Seven vertical trees, three 4-slot template/manifolds, one cluster manifold; 60 km umbilicals; tie-back to Alvheim FPSO
@@ -3541,6 +4171,12 @@ Status: **operating** | Country: Malaysia
 Listed as ISS Process produced water project references on the fetched water-treatment page; no numeric duty published there.
 Technologies: ups-subsea-production-systems
 
+### South Natuna Sea Block B (south-natuna-sea-block-b)
+Status: **operating** | Country: Indonesia
+15-16 offshore platforms, three subsea fields and two FPSOs (Belanak and Marlin Natuna); gas delivered to Singapore via West Natuna Transportation System.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Nameplate capacity / water depth / first oil; Contract value and lease term; Reliability
+
 ### SPSA SK309/311 South Acis SA-SA platform (spsa-sk309-311-south-acis-sa-sa-platform)
 Status: **operating** | Country: Malaysia
 Separate satellite platform in South Acis field, Block SK311, ~17 km from West Patricia, 35 m water depth.
@@ -3556,6 +4192,12 @@ Technologies: ups-gas-injection-wag
 Status: **operating** | Country: NO
 well 34/11-A-9 T2, gas/condensate producer with reservoir at about 4,000 m, 770 bar and 160 C; CT milling of a stuck-closed isolation ball valve
 Technologies: ups-coiled-tubing-intervention
+
+### Stones development, Walker Ridge, US Gulf of Mexico (stones-development-walker-ridge-us-gulf-of-mexico)
+Status: **operating** | Country: United States
+Shell Offshore Inc. client; SBM-led JV owns and operates the FPSO under a 10-year initial lease-and-operate contract
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: charter hire rate; actual field peak production achieved
 
 ### Sukowati field, Bojonegoro (Pertamina EP, with JOGMEC and JAPEX) (sukowati-field-bojonegoro-pertamina-ep-with-jogmec-and-japex)
 Status: **operating** | Country: ID
@@ -3630,6 +4272,12 @@ Status: **operating** | Country: Canada
 4 hollow caissons, Beaufort Sea, 16 m, removed
 Technologies: civ-offshore-platform-structures
 
+### Te Giac Trang (TGT) field, Block 16-1, Cuu Long Basin (te-giac-trang-tgt-field-block-16-1-cuu-long-basin)
+Status: **operating** | Country: Vietnam
+Hoang Long Joint Operating Company partnership between PVEP, SOCO Vietnam, OPECO Vietnam and PTTEP.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: DWT/LOA figures; Post-2024 charter; Charter value at inception
+
 ### TechnipFMC subsea wellhead installations (regional tally from Subsea Drilling Services brochure) (wh-technipfmc-subsea-wellhead-installations-regional-tally-from-subsea-dr)
 Status: **operating** | Country: multiple regions
 North America 665 UWD systems installed; South America 74; Africa/Mediterranean 553; Europe/Russia 675; Asia/Australia 328 (brochure figures, undated beyond 2018 publication date).
@@ -3689,10 +4337,28 @@ Fourth RSC to production after KBM, Balai and Berantai; first small-field RSC ex
 Technologies: ups-whp-platform-structures-and-marine-systems
 Recorded gaps: Tieback reliability data; TNAG pipeline contract dollar year
 
+### TEN FPSO Prof. John Evans Atta Mills (ten-fpso-prof-john-evans-atta-mills)
+Status: **operating** | Country: Ghana
+Referenced on the MODEC page as a 2017 news item about the TEN project FPSO arrival.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: FPSO charter contract values 2006-2026; SOFEC acquisition price (2006)
+
+### Terra Nova field, Jeanne d'Arc Basin (terra-nova-field-jeanne-d-arc-basin)
+Status: **operating** | Country: Canada
+Offshore Newfoundland and Labrador; Late Jurassic sandstone reservoir
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: FPSO dimensions, storage and throughput; FPSO capital cost and contract yard
+
 ### Terra Nova FPSO (pf-terra-nova-fpso)
 Status: **operating** | Country: Canada
 example of disconnectable turret technology
 Technologies: civ-offshore-platform-structures
+
+### Thang Long and Dong Do fields, Blocks 01/97 & 02/97 (thang-long-and-dong-do-fields-blocks-01-97-02-97)
+Status: **operating** | Country: Vietnam
+Lam Son JOC operated by PETRONAS Carigali and PVEP at award.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Storage capacity conflict; Water depth / field water depth; Uptime
 
 ### Three enclosed ground flares, Assam gas gathering stations (three-enclosed-ground-flares-assam-gas-gathering-stations)
 Status: **operating** | Country: India
@@ -3702,6 +4368,30 @@ CRA case study: three enclosed ground flares replacing atmospheric venting with 
 Status: **operating** | Country: India
 LSTK delivery replacing atmospheric venting with enclosed combustion; CRA case study listed on fetched KO drum page.
 Technologies: ups-subsea-production-systems
+
+### Thunder Hawk (thunder-hawk)
+Status: **operating** | Country: United States
+Murphy Oil five-year lease of newbuild DeepDraft Semi.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: 2006–2026 semi-submersible FPU production and reliability statistics
+
+### Thunder Hawk FPU (thunder-hawk-fpu)
+Status: **operating** | Country: United States
+SBM semi-submersible production facility in the US Gulf of Mexico; temporarily shut down 45 days at operator request in 2020; operator credit rating downgraded; production profile assumed to end 2025 in impairment test.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Standalone semi-submersible production unit newbuild or conversion value; MOPU newbuild/conversion unit cost; TLP and spar cost benchmarks
+
+### Thunder Hawk semi-submersible production facility (thunder-hawk-semi-submersible-production-facility)
+Status: **operating** | Country: United States
+SBM Offshore owned; only lease-fleet facility with revenue dependent on produced volumes; unit-of-production depreciation; USD 10m impairment in 2020 with post-tax discount rate 11.6% versus 6.1% in 2019.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Actual contracted FPSO day rates for named units; Semi-submersible P&A day rates from NSTA Figure 6; FiFi and DP premiums
+
+### Thunder Horse oil field, Mississippi Canyon 778/822 (thunder-horse-oil-field-mississippi-canyon-778-822)
+Status: **operating** | Country: United States
+150 miles (240 km) southeast of New Orleans, deepwater Gulf of Mexico
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: dollar year of US$5bn cost; nameplate oil and gas capacity
 
 ### Thunder Horse PDQ dry transport (not floating installation) (pf-thunder-horse-pdq-dry-transport-not-floating-installation)
 Status: **operating** | Country: USA
@@ -3751,6 +4441,12 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: United States
 Approximately 4,000 ft water depth; TTR support frame near top of column; six dry tree riser slots, three planned for initial development; riser bottom connected to 18-3/4 in wellhead profile with hydraulically actuated connector; post-Katrina 1,000-year hurricane robustness checks.
 Technologies: ups-subsea-production-systems
+
+### TLP Prince (tlp-prince)
+Status: **operating** | Country: United States
+El Paso Prince field, Gulf of Mexico, 454 m water depth.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: FPSO charter contract values 2006-2026; SOFEC acquisition price (2006)
 
 ### Tonmoor gas lift compression station, Jones Creek, Nigeria (wh-tonmoor-gas-lift-compression-station-jones-creek-nigeria)
 Status: **operating** | Country: Nigeria
@@ -3922,6 +4618,36 @@ Status: **operating** | Country: China
 Honeywell scope: Experion PKS DCS, ESD, Safety Manager SIS, F&G, field equipment/FDM and HIPPS; completed one month ahead of schedule and project cost reduced 2% (Honeywell case study).
 Technologies: ups-subsea-production-systems
 
+### Xikomba / N'goma FPSO refurbishment at Keppel Shipyard (xikomba-n-goma-fpso-refurbishment-at-keppel-shipyard)
+Status: **operating** | Country: Angola
+SBM Offshore upgrade contract for the Xikomba FPSO awarded to Keppel Shipyard in April 2012; unit later relocated to Eni Block 15/06 as N'goma FPSO.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Currency clarification on S$ figures placed in USD unit field; Full 2006-2026 yard contract register
+
+### Yamal LNG icebreaking carrier newbuildings (yamal-lng-icebreaking-carrier-newbuildings)
+Status: **operating** | Country: Russia
+Six vessels in Teekay LNG / China LNG (COSCO) JV; Eduard Toll delivered January 2018, Yakov Gakkel December 2019.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: COSCO as mobile production platform owner/charterer; Dates and values of COSCO CIMC stake changes
+
+### Yamal LNG icebreaking carriers (yamal-lng-icebreaking-carriers)
+Status: **operating** | Country: Russia
+15 Arc7 Yamalmax LNG carriers designed by Aker Arctic.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Kanowit FLNG contract value; DSME FPSO-specific contract register 2006-2026
+
+### Yamal LNG icebreaking carriers (six newbuildings) (yamal-lng-icebreaking-carriers-six-newbuildings)
+Status: **operating** | Country: Russia
+JV of Teekay LNG and China LNG (COSCO); first Eduard Toll delivered January 2018, final Yakov Gakkel December 2019.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Petrojarl acquisition price (2006); FPSO charter values for Knarr and Cidade de Rio das Ostras
+
+### Yantai CIMC Raffles Shipyard (yantai-cimc-raffles-shipyard)
+Status: **operating** | Country: China
+Shipyard ownership stated on the CIMC page; no named mobile production units or contract values printed on the pages read.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Named FPSO/FLNG units built or converted at Yantai CIMC Raffles; Mobile unit contract values and dollar years
+
 ### Yggdrasil (yggdrasil)
 Status: **operating** | Country: Norway
 40 standardized vertical subsea trees plus Vectus 6.0 control modules, topside control systems and nine six-slot templates/manifolds
@@ -3944,6 +4670,12 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Norway
 13,500 t MOPU single-lift removal Aug 2016; first commercial lift.
 Technologies: civ-offshore-platform-structures
+
+### YÙUM K'AK'NÀAB (Ku-Maloob-Zaap) (y-um-k-ak-n-ab-ku-maloob-zaap)
+Status: **operating** | Country: Mexico
+Pemex; 90 m water depth, fleet table.
+Technologies: ups-mobile-production-twenty-year-retrospective
+Recorded gaps: Contract values for Catcher, Prosafe and individual FPSO charters; Dollar-year basis for APL USD 500 million
 
 ### Zuhal East (zuhal-east)
 Status: **operating** | Country: Malaysia

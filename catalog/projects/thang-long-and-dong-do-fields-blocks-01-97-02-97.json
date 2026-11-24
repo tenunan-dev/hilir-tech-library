@@ -1,0 +1,114 @@
+{
+  "id": "thang-long-and-dong-do-fields-blocks-01-97-02-97",
+  "name": "Thang Long and Dong Do fields, Blocks 01/97 & 02/97",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Vietnam",
+  "location": "Vietnam",
+  "status": "operating",
+  "description": "Lam Son JOC operated by PETRONAS Carigali and PVEP at award.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Contract awarded / JV formed",
+      "date": "2012",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/06/11/malaysias-yinson-enters-into-fpso-deal-with-vietnams-ptsc",
+        "source_id": "mob-offshore-energy-biz-malaysias-yinson-enters-in-5c6b879"
+      }
+    },
+    {
+      "event": "Conversion and first oil",
+      "date": "2014",
+      "source": {
+        "url": "https://www.oedigital.com/news/476673-yinson-ptsc-sign-long-term-fpso-charter-deal",
+        "source_id": "mob-oedigital-com-476673-yinson-ptsc-sign-long-ter-f9c8177"
+      }
+    },
+    {
+      "event": "Interim/long-term charter signed",
+      "date": "2020",
+      "source": {
+        "url": "https://www.oedigital.com/news/476673-yinson-ptsc-sign-long-term-fpso-charter-deal",
+        "source_id": "mob-oedigital-com-476673-yinson-ptsc-sign-long-ter-f9c8177"
+      }
+    },
+    {
+      "event": "New 18-month charter",
+      "date": "2025",
+      "source": {
+        "url": "https://www.yinson-production.com/our-business/fleet/?lang=en",
+        "source_id": "mob-yinson-production-com-bd0d04b"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Original bareboat charter incl. options",
+      "year": 2012,
+      "unit": "USD",
+      "basis": "Total contract value including three-year option period, stated in June 2012 award report; dollar year taken from announcement date",
+      "value": 737300000,
+      "source": {
+        "url": "https://www.offshore-energy.biz/2012/06/11/malaysias-yinson-enters-into-fpso-deal-with-vietnams-ptsc",
+        "source_id": "mob-offshore-energy-biz-malaysias-yinson-enters-in-5c6b879"
+      }
+    },
+    {
+      "metric": "Charter contract 2017-2021",
+      "year": 2020,
+      "unit": "USD",
+      "basis": "Estimated contract value announced 16 March 2020, retroactive 1 July 2017 to 30 June 2021",
+      "value": 122870000,
+      "source": {
+        "url": "https://www.oedigital.com/news/476673-yinson-ptsc-sign-long-term-fpso-charter-deal",
+        "source_id": "mob-oedigital-com-476673-yinson-ptsc-sign-long-ter-f9c8177"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.offshore-energy.biz/2012/06/11/malaysias-yinson-enters-into-fpso-deal-with-vietnams-ptsc",
+      "source_id": "mob-offshore-energy-biz-malaysias-yinson-enters-in-5c6b879",
+      "note": "Lam Son JOC operated by PETRONAS Carigali and PVEP at award."
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2012/06/11/malaysias-yinson-enters-into-fpso-deal-with-vietnams-ptsc",
+      "source_id": "mob-offshore-energy-biz-malaysias-yinson-enters-in-5c6b879"
+    },
+    {
+      "url": "https://www.oedigital.com/news/476673-yinson-ptsc-sign-long-term-fpso-charter-deal",
+      "source_id": "mob-oedigital-com-476673-yinson-ptsc-sign-long-ter-f9c8177"
+    },
+    {
+      "url": "https://www.yinson-production.com/our-business/fleet/?lang=en",
+      "source_id": "mob-yinson-production-com-bd0d04b"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Storage capacity conflict",
+      "why": "2020 report and PTSC-derived figures say up to 650,000 bbl; current Yinson fleet page says 350,000 bbl.",
+      "next_action": "Reconcile with a Yinson vessel brochure before using one number."
+    },
+    {
+      "what": "Water depth / field water depth",
+      "why": "Not given on pages read.",
+      "next_action": "Find Thang Long/Dong Do field data from PVEP."
+    },
+    {
+      "what": "Uptime",
+      "why": "PTSC milestone page in search results claims 99.99% uptime but was not read directly.",
+      "next_action": "Read the PTSC Production Services milestone PDF."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

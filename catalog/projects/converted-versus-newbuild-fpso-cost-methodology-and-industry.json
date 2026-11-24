@@ -1,0 +1,227 @@
+{
+  "id": "converted-versus-newbuild-fpso-cost-methodology-and-industry",
+  "name": "Converted versus newbuild FPSO cost methodology and industry trend benchmarks",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Cost methodology and trend figures stated by the sources: cost per boepd of throughput, hull share of total capex, conversion discount, yard labour rates, equipment shares and indicative ranges. Figures from different years and different bases are kept side by side and not reconciled.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Hess described conversion economics using the Triton FPSO",
+      "date": "2013",
+      "source": {
+        "url": "https://jpt.spe.org/tanker-conversions-fpso-design-and-integrity-management-challenges",
+        "source_id": "mob-jpt-spe-org-tanker-conversions-fpso-design-and-671def8"
+      }
+    },
+    {
+      "event": "FPSO Europe Congress 2015 delegates discussed cost inflation drivers",
+      "date": "2015",
+      "source": {
+        "url": "https://www.marinelink.com/news/discussion-fpso-cost396888",
+        "source_id": "mob-marinelink-com-discussion-fpso-cost396888-d856bac"
+      }
+    },
+    {
+      "event": "Westwood published FPSO EPC cost per throughput benchmarks",
+      "date": "2022",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2022/12/16/highest-fps-throughput-capacity-since-2010-greenlighted-in-2022-says-westwood",
+        "source_id": "mob-offshore-energy-biz-highest-fps-throughput-cap-833c6b8"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Secondhand tanker purchased for Triton FPSO conversion",
+      "year": 2013,
+      "unit": "USD million",
+      "basis": "JPT 2013 article quotes Hess: at the time a 1-2 year old secondhand tanker could be purchased for approximately USD 36 million; dollar year not stated by page (refers to an earlier purchase).",
+      "value": 36,
+      "source": {
+        "url": "https://jpt.spe.org/tanker-conversions-fpso-design-and-integrity-management-challenges",
+        "source_id": "mob-jpt-spe-org-tanker-conversions-fpso-design-and-671def8"
+      }
+    },
+    {
+      "metric": "Bespoke west-of-Shetland FPSO, hull and topsides",
+      "year": 2013,
+      "unit": "USD million",
+      "basis": "JPT 2013 article: cost upward of USD 400 million for hull and topsides at the same time as the tanker purchase; dollar year not stated by page.",
+      "value": 400,
+      "source": {
+        "url": "https://jpt.spe.org/tanker-conversions-fpso-design-and-integrity-management-challenges",
+        "source_id": "mob-jpt-spe-org-tanker-conversions-fpso-design-and-671def8"
+      }
+    },
+    {
+      "metric": "Bespoke FPSO hull alone",
+      "year": 2013,
+      "unit": "USD million",
+      "basis": "JPT 2013 article: hull alone approximately USD 100 million; comparison stated as one-third the price of a USD 36m tanker for the same cargo capacity; dollar year not stated by page.",
+      "value": 100,
+      "source": {
+        "url": "https://jpt.spe.org/tanker-conversions-fpso-design-and-integrity-management-challenges",
+        "source_id": "mob-jpt-spe-org-tanker-conversions-fpso-design-and-671def8"
+      }
+    },
+    {
+      "metric": "Single-hull VLCC conversion cost as share of newbuild",
+      "year": 2020,
+      "unit": "percent of newbuild cost",
+      "basis": "GEP blog published 2020: estimated single-hull conversions cost around 10% of a newbuild, available in about two years, around 20% less time than a newbuild; dollar year not stated by page.",
+      "value": 10,
+      "source": {
+        "url": "https://www.gep.com/blog/mind/are-cost-components-driving-fpso-construction-towards-the-east",
+        "source_id": "mob-gep-com-are-cost-components-driving-fpso-const-dddecb8"
+      }
+    },
+    {
+      "metric": "Shipbuilding labour rate, China",
+      "year": 2018,
+      "unit": "USD per hour",
+      "basis": "GEP blog states 2018 Chinese shipbuilding labour rates of USD 10-15/hour versus more than USD 30/hour in Germany and Japan.",
+      "low": 10,
+      "high": 15,
+      "source": {
+        "url": "https://www.gep.com/blog/mind/are-cost-components-driving-fpso-construction-towards-the-east",
+        "source_id": "mob-gep-com-are-cost-components-driving-fpso-const-dddecb8"
+      }
+    },
+    {
+      "metric": "Shipbuilding labour rate, Germany and Japan",
+      "year": 2018,
+      "unit": "USD per hour",
+      "basis": "GEP blog states labour costs more than USD 30/hour in Germany and Japan; lower bound only.",
+      "value": 30,
+      "source": {
+        "url": "https://www.gep.com/blog/mind/are-cost-components-driving-fpso-construction-towards-the-east",
+        "source_id": "mob-gep-com-are-cost-components-driving-fpso-const-dddecb8"
+      }
+    },
+    {
+      "metric": "Recent conversion hull price range cited at FPSO Europe Congress",
+      "year": 2015,
+      "unit": "USD million",
+      "basis": "Maritime Reporter/Marine Link 2015 conference report: some recent deals saw conversion hulls fetch USD 50-100 million; newbuilds described as a cost-cutter even at about a billion dollars.",
+      "low": 50,
+      "high": 100,
+      "source": {
+        "url": "https://www.marinelink.com/news/discussion-fpso-cost396888",
+        "source_id": "mob-marinelink-com-discussion-fpso-cost396888-d856bac"
+      }
+    },
+    {
+      "metric": "Newbuild FPSO described as viable cost-cutter",
+      "year": 2015,
+      "unit": "USD billion",
+      "basis": "Maritime Reporter 2015: new-build still seen as a viable cost-cutter even if it costs a billion dollars; approximate figure stated as quote.",
+      "value": 1,
+      "source": {
+        "url": "https://www.marinelink.com/news/discussion-fpso-cost396888",
+        "source_id": "mob-marinelink-com-discussion-fpso-cost396888-d856bac"
+      }
+    },
+    {
+      "metric": "Operator-led over-design cost penalty",
+      "year": 2015,
+      "unit": "USD million",
+      "basis": "BW Offshore CTO quoted in Maritime Reporter 2015: an oil company decision to go it alone with a yard can cost USD 500 million; contractors' own low cost structure asserted qualitatively.",
+      "value": 500,
+      "source": {
+        "url": "https://www.marinelink.com/news/discussion-fpso-cost396888",
+        "source_id": "mob-marinelink-com-discussion-fpso-cost396888-d856bac"
+      }
+    },
+    {
+      "metric": "Operator strategic desire to own FPSO, cost penalty",
+      "year": 2015,
+      "unit": "USD million",
+      "basis": "BW Offshore CTO quoted: can cost operators a quarter billion dollars more; qualitative conference statement.",
+      "value": 250,
+      "source": {
+        "url": "https://www.marinelink.com/news/discussion-fpso-cost396888",
+        "source_id": "mob-marinelink-com-discussion-fpso-cost396888-d856bac"
+      }
+    },
+    {
+      "metric": "Illustrative FPSO conversion CAPEX range",
+      "year": 2025,
+      "unit": "USD million",
+      "basis": "PlantFCE 2025 blog: typical conversion cost range depending on tanker condition and complexity; consultancy estimate, dollar year not stated by page.",
+      "low": 150,
+      "high": 700,
+      "source": {
+        "url": "https://plantfce.com/blog/posts/fpso-conversion-vs-new-build",
+        "source_id": "mob-plantfce-com-fpso-conversion-vs-new-build-8f20cbc"
+      }
+    },
+    {
+      "metric": "Illustrative FPSO newbuild CAPEX range",
+      "year": 2025,
+      "unit": "USD billion",
+      "basis": "PlantFCE 2025 blog: newbuild costs range USD 1-3 billion with higher cost for advanced features and larger capacity; consultancy estimate, dollar year not stated by page.",
+      "low": 1,
+      "high": 3,
+      "source": {
+        "url": "https://plantfce.com/blog/posts/fpso-conversion-vs-new-build",
+        "source_id": "mob-plantfce-com-fpso-conversion-vs-new-build-8f20cbc"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/tanker-conversions-fpso-design-and-integrity-management-challenges",
+      "source_id": "mob-jpt-spe-org-tanker-conversions-fpso-design-and-671def8",
+      "note": "Cost methodology and trend figures stated by the sources: cost per boepd of thro"
+    },
+    {
+      "url": "https://jpt.spe.org/tanker-conversions-fpso-design-and-integrity-management-challenges",
+      "source_id": "mob-jpt-spe-org-tanker-conversions-fpso-design-and-671def8"
+    },
+    {
+      "url": "https://www.gep.com/blog/mind/are-cost-components-driving-fpso-construction-towards-the-east",
+      "source_id": "mob-gep-com-are-cost-components-driving-fpso-const-dddecb8"
+    },
+    {
+      "url": "https://www.marinelink.com/news/discussion-fpso-cost396888",
+      "source_id": "mob-marinelink-com-discussion-fpso-cost396888-d856bac"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2022/12/16/highest-fps-throughput-capacity-since-2010-greenlighted-in-2022-says-westwood",
+      "source_id": "mob-offshore-energy-biz-highest-fps-throughput-cap-833c6b8"
+    },
+    {
+      "url": "https://ww2.eagle.org/content/dam/eagle/articles/abs-fpso-conversions-drydock-magazine-march-21.pdf",
+      "source_id": "mob-ww2-eagle-org-abs-fpso-conversions-drydock-mag-8d3c86d"
+    },
+    {
+      "url": "https://offshoreindustry.co.uk/fpso-newbuild-vs-conversion-the-engineering-and-commercial-trade-offs-reshaping-the-worlds-fpso-orderbook",
+      "source_id": "mob-offshoreindustry-co-uk-fpso-newbuild-vs-conver-fc7a50b"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar-year basis for the Compass per-tonne model",
+      "why": "The page gives no price year for the actual 180,000-ton FPSO.",
+      "next_action": "Request the underlying cost model PDF and identify its base year."
+    },
+    {
+      "what": "Reconciliation of 10% conversion rule with actual contract awards",
+      "why": "GEP's 10%of-newbuild claim conflicts with project-level conversion hull prices of USD 50-100m and conversion CAPEX ranges of USD 150-700m.",
+      "next_action": "Treat as competing methodologies; seek a definition of which scopes each percentage covers before comparison."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit costs). Evidence-first retrospective of dated mobile production unit costs, 2006-2026. Strongest primary evidence: Seatrium's S$11bn P-84/P-85 contract (reported by pre"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-paragon-engineering-5a8f3",
+  "name": "Paragon Engineering",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Paragon Engineering named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.santos.com/news/first-production-from-indonesian-gas-project/",
+      "source_id": "mob-santos-com-2403c50"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mob-en-wikipedia-org-terra-nova-oil-field-36c3413",
+  "name": "Terra Nova oil field - Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Terra_Nova_oil_field",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Wikimedia Foundation",
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly; dated field history and harsh-environment FPSO first; page carries 'needs more citations' and 'needs update' notices"
+}

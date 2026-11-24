@@ -1,0 +1,25 @@
+{
+  "id": "mob-gep-com-are-cost-components-driving-fpso-const-dddecb8",
+  "name": "Are Cost Components Driving FPSO Units Towards East?",
+  "url": "https://www.gep.com/blog/mind/are-cost-components-driving-fpso-construction-towards-the-east",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "GEP",
+  "access": "open",
+  "licence": "Publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Published 3 March 2020; 10% conversion estimate, labour rates and man-hour share verified."
+}

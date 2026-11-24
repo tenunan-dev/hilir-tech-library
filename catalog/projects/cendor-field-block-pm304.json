@@ -1,0 +1,72 @@
+{
+  "id": "cendor-field-block-pm304",
+  "name": "Cendor field, Block PM304",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Marginal field developed with Malaysia's first MOPU; first flexible composite subsea pipeline in Malaysia.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "MOPU began operating",
+      "date": "2006",
+      "source": {
+        "url": "https://www.ogj.com/drilling-production/article/17224827/refurbished-jack-up-production-unit-produces-marginal-field-off-malaysia",
+        "source_id": "mob-ogj-com-refurbished-jack-up-production-unit-pr-a48f736"
+      }
+    },
+    {
+      "event": "Seven dry-tree wells drilled and completed",
+      "date": "2006",
+      "source": {
+        "url": "https://www.ogj.com/drilling-production/article/17224827/refurbished-jack-up-production-unit-produces-marginal-field-off-malaysia",
+        "source_id": "mob-ogj-com-refurbished-jack-up-production-unit-pr-a48f736"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/drilling-production/article/17224827/refurbished-jack-up-production-unit-produces-marginal-field-off-malaysia",
+      "source_id": "mob-ogj-com-refurbished-jack-up-production-unit-pr-a48f736",
+      "note": "Marginal field developed with Malaysia's first MOPU; first flexible composite su"
+    },
+    {
+      "url": "https://www.ogj.com/drilling-production/article/17224827/refurbished-jack-up-production-unit-produces-marginal-field-off-malaysia",
+      "source_id": "mob-ogj-com-refurbished-jack-up-production-unit-pr-a48f736"
+    },
+    {
+      "url": "https://www.ogj.com/drilling-production/article/17224827/refurbished-jack-up-production-unit-produces-marginal-field-off-malaysia",
+      "source_id": "mob-ogj-com-refurbished-jack-up-production-unit-pr-a48f736",
+      "note": "Marginal field developed with Malaysia's first MOPU; first flexible composite subsea pipeline in Malaysia."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Unit names",
+      "why": "The article does not name the MOPU or FSO vessels.",
+      "next_action": "Find Petrofac project documents naming both units."
+    },
+    {
+      "what": "Charter terms and cost",
+      "why": "MOPU and FSO were both leased but no rate or term given.",
+      "next_action": "Check Petrofac annual report 2006-2007."
+    },
+    {
+      "what": "Decommissioning date",
+      "why": "Not stated in the article.",
+      "next_action": "Find PETRONAS field abandonment records."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

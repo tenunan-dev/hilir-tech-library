@@ -1,0 +1,63 @@
+{
+  "id": "skarv-and-idun-fields",
+  "name": "Skarv and Idun fields",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Norway",
+  "location": "Norway",
+  "status": "operating",
+  "description": "16 subsea wells tied back to the Skarv FPSO; water depth 350-450 m.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Skarv SPS EPC contract awarded",
+      "date": "2009",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/skarv/",
+        "source_id": "mob-offshore-technology-com-13fe71d"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "VetcoGray",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "BP",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/skarv/",
+      "source_id": "mob-offshore-technology-com-13fe71d",
+      "note": "16 subsea wells tied back to the Skarv FPSO; water depth 350-450 m."
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/skarv/",
+      "source_id": "mob-offshore-technology-com-13fe71d"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "VetcoGray corporate identity and country",
+      "why": "Not stated on the page read",
+      "next_action": "Read a corporate profile and verify ownership history before recording"
+    },
+    {
+      "what": "Dollar year for US$265m",
+      "why": "Nominal contract value only",
+      "next_action": "Locate original BP award announcement"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

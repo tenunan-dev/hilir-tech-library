@@ -1,0 +1,24 @@
+{
+  "id": "mob-en-wikipedia-org-aasta-hansteen-spar-6b380e4",
+  "name": "Aasta Hansteen spar - Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Aasta_Hansteen_spar",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Wikimedia Foundation",
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly; spar dimensions, firsts, installation and NOK cost; cites Equinor 17 Dec 2018 release"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "thunder-horse-oil-field-mississippi-canyon-778-822",
+  "name": "Thunder Horse oil field, Mississippi Canyon 778/822",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "150 miles (240 km) southeast of New Orleans, deepwater Gulf of Mexico",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Hull laid down",
+      "date": "2003",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Thunder_Horse_PDQ",
+        "source_id": "mob-en-wikipedia-org-thunder-horse-pdq-1a34032"
+      }
+    },
+    {
+      "event": "Hull transported to Gulf of Mexico",
+      "date": "2004",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Thunder_Horse_PDQ",
+        "source_id": "mob-en-wikipedia-org-thunder-horse-pdq-1a34032"
+      }
+    },
+    {
+      "event": "Hurricane Dennis list",
+      "date": "2005",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Thunder_Horse_PDQ",
+        "source_id": "mob-en-wikipedia-org-thunder-horse-pdq-1a34032"
+      }
+    },
+    {
+      "event": "First oil",
+      "date": "2008",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Thunder_Horse_PDQ",
+        "source_id": "mob-en-wikipedia-org-thunder-horse-pdq-1a34032"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "BP plc (75%, operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "ExxonMobil (25%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Daewoo Shipbuilding & Marine Engineering, Okpo (hull)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "GVA Consultants (hull design)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "MV Blue Marlin / Dockwise (heavy-lift transport)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Kiewit Offshore Services, Ingleside, Texas (topsides integration)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Thunder_Horse_PDQ",
+      "source_id": "mob-en-wikipedia-org-thunder-horse-pdq-1a34032",
+      "note": "150 miles (240 km) southeast of New Orleans, deepwater Gulf of Mexico"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Thunder_Horse_PDQ",
+      "source_id": "mob-en-wikipedia-org-thunder-horse-pdq-1a34032"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "dollar year of US$5bn cost",
+      "why": "Infobox gives no year",
+      "next_action": "Locate contemporaneous BP project cost release"
+    },
+    {
+      "what": "nameplate oil and gas capacity",
+      "why": "Not stated on the page read",
+      "next_action": "Obtain BP Thunder Horse field fact sheet (dead link in references)"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

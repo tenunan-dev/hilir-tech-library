@@ -1,0 +1,123 @@
+{
+  "id": "moheshkhali-floating-lng",
+  "name": "Moheshkhali Floating LNG",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Bangladesh",
+  "location": "Bangladesh",
+  "status": "operating",
+  "description": "FSRU Excellence, 138,000 m3, receiving capacity 3.8 MTPA, started 2018.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Excelerate Energy founded",
+      "date": "2003",
+      "source": {
+        "url": "https://journal.jogmec.go.jp/content/300517000.pdf",
+        "source_id": "mob-journal-jogmec-go-jp-300517000-pdf-c5a7c7f"
+      }
+    },
+    {
+      "event": "Gulf Gateway Deepwater Port commissioned — world's first FSRU facility",
+      "date": "2005",
+      "source": {
+        "url": "https://journal.jogmec.go.jp/content/300517000.pdf",
+        "source_id": "mob-journal-jogmec-go-jp-300517000-pdf-c5a7c7f"
+      }
+    },
+    {
+      "event": "Teesside Gasport — world's first dockside floating regasification facility",
+      "date": "2007",
+      "source": {
+        "url": "https://journal.jogmec.go.jp/content/300517000.pdf",
+        "source_id": "mob-journal-jogmec-go-jp-300517000-pdf-c5a7c7f"
+      }
+    },
+    {
+      "event": "Exemplar starts supply at Inkoo, Finland",
+      "date": "2022",
+      "source": {
+        "url": "https://journal.jogmec.go.jp/content/300517000.pdf",
+        "source_id": "mob-journal-jogmec-go-jp-300517000-pdf-c5a7c7f"
+      }
+    },
+    {
+      "event": "Excelerate listed on NYSE",
+      "date": "2022",
+      "source": {
+        "url": "https://journal.jogmec.go.jp/content/300517000.pdf",
+        "source_id": "mob-journal-jogmec-go-jp-300517000-pdf-c5a7c7f"
+      }
+    },
+    {
+      "event": "Hull 3407 newbuild FSRU scheduled for 2026",
+      "date": "2026",
+      "source": {
+        "url": "https://journal.jogmec.go.jp/content/300517000.pdf",
+        "source_id": "mob-journal-jogmec-go-jp-300517000-pdf-c5a7c7f"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Excelerate Energy",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Hoegh LNG",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Golar LNG",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "MISC (Lekas FSU, Malaysia)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://journal.jogmec.go.jp/content/300517000.pdf",
+      "source_id": "mob-journal-jogmec-go-jp-300517000-pdf-c5a7c7f",
+      "note": "FSRU Excellence, 138,000 m3, receiving capacity 3.8 MTPA, started 2018."
+    },
+    {
+      "url": "https://journal.jogmec.go.jp/content/300517000.pdf",
+      "source_id": "mob-journal-jogmec-go-jp-300517000-pdf-c5a7c7f"
+    },
+    {
+      "url": "https://energypedia.info/images/4/40/Around_the_World_in_FSRUs.pdf"
+    },
+    {
+      "url": "https://energypedia.info/images/4/40/Around_the_World_in_FSRUs.pdf",
+      "note": "MISC-operated floating storage LNG terminal in Malaysia with regasification equipment on an offshore jetty — from a page found in search but not read; no figures asserted."
+    },
+    {
+      "url": "https://journal.jogmec.go.jp/content/300517000.pdf",
+      "source_id": "mob-journal-jogmec-go-jp-300517000-pdf-c5a7c7f",
+      "note": "FSRU Sequoia, 173,400 m3; 10-year charter from January 2024."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "MISC Lekas FSU Malaysia details from a read primary page",
+      "why": "The energypedia PDF was not read",
+      "next_action": "Read the energypedia PDF via reader proxy or find a PETRONAS/MISC page"
+    },
+    {
+      "what": "FSRU regasification send-out capacities with a read source",
+      "why": "The JOGMEC fleet table gives storage but not send-out figures; send-out tables appeared in other search results that were not read",
+      "next_action": "Read the Excelerate corporate presentation or Oxford Energy paper via reader proxy"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile production technology). Evidence-first 2006–2026 retrospective across 15 mobile-production themes, built only from pages actually read with WebFetch; PDFs were read through the r.jina."
+}

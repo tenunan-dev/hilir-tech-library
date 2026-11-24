@@ -1,0 +1,66 @@
+{
+  "id": "mob-mat-offshore-mooring-chain-stud-link-and-studless-flash",
+  "name": "Offshore mooring chain (stud-link and studless, flash-butt welded)",
+  "material_category": "mooring-chain",
+  "description": "Offshore mooring chain (stud-link and studless, flash-butt welded) named for mobile production unit service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "available grades",
+      "unit": "grade designations",
+      "basis": "LR Rules for the Manufacture, Testing and Certification of Materials, July 2022, Ch 10 Sec 3.1.1; scope covers offshore mooring of mobile offshore units and floating production units",
+      "source": {
+        "url": "https://www.imorules.com/LRMAT_CH10_3.html",
+        "source_id": "mob-imorules-com-lrmat-ch10-3-html-8412763"
+      },
+      "year": 2022
+    },
+    {
+      "metric": "studless chain deployment",
+      "unit": "qualitative",
+      "basis": "LR Ch 10 Sec 3.1.4",
+      "source": {
+        "url": "https://www.imorules.com/LRMAT_CH10_3.html",
+        "source_id": "mob-imorules-com-lrmat-ch10-3-html-8412763"
+      }
+    },
+    {
+      "metric": "Grade R5 break test load at 60 mm nominal diameter",
+      "unit": "kN",
+      "basis": "LR Table 10.3.1 Test loads for mooring chain cables; last (R5 break test load) column at nominal diameter 60 mm",
+      "source": {
+        "url": "https://www.imorules.com/LRMAT_CH10_3.html",
+        "source_id": "mob-imorules-com-lrmat-ch10-3-html-8412763"
+      }
+    },
+    {
+      "metric": "welded studs into grades R4/R4S/R5",
+      "unit": "qualitative",
+      "basis": "LR Ch 10 Sec 3.3.1 and 3.3.2",
+      "source": {
+        "url": "https://www.imorules.com/LRMAT_CH10_3.html",
+        "source_id": "mob-imorules-com-lrmat-ch10-3-html-8412763"
+      }
+    },
+    {
+      "metric": "grade range recognised by Intermoor/Acteon chain calculator",
+      "unit": "qualitative",
+      "basis": "Acteon blog published 18 August 2026 describing its Intermoor Mooring Chain Calculator; no numeric chain table was present on the page",
+      "source": {
+        "url": "https://acteon.com/insights/blogs/mooring-chain-calculator",
+        "source_id": "mob-acteon-com-mooring-chain-calculator-018448a"
+      },
+      "year": 2026
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.imorules.com/LRMAT_CH10_3.html",
+      "source_id": "mob-imorules-com-lrmat-ch10-3-html-8412763"
+    },
+    {
+      "url": "https://acteon.com/insights/blogs/mooring-chain-calculator",
+      "source_id": "mob-acteon-com-mooring-chain-calculator-018448a"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

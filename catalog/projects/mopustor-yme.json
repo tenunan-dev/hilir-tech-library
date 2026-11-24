@@ -1,0 +1,127 @@
+{
+  "id": "mopustor-yme",
+  "name": "MOPUstor Yme",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Norway",
+  "location": "Norway",
+  "status": "operating",
+  "description": "Jack-up production unit for Talisman's Yme field; included in SBM's USD 999.8m 2008 capital expenditure; no separate value disclosed.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "SBM listed its mobile production fleet composition",
+      "date": "2020",
+      "source": {
+        "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+        "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d"
+      }
+    },
+    {
+      "event": "SBM 2008 capex included semi-submersible and MOPU construction",
+      "date": "2008",
+      "source": {
+        "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/pressrelease-20090310-original-503.pdf",
+        "source_id": "mob-sbmoffshore-com-pressrelease-20090310-original-3b6d4cc"
+      }
+    },
+    {
+      "event": "Westwood recorded unit types sanctioned in 2022",
+      "date": "2022",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2022/12/16/highest-fps-throughput-capacity-since-2010-greenlighted-in-2022-says-westwood",
+        "source_id": "mob-offshore-energy-biz-highest-fps-throughput-cap-833c6b8"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "SBM company-owned property plant and equipment pledged as security",
+      "year": 2020,
+      "unit": "USD million",
+      "basis": "SBM 2020 annual report: carrying amount of company-owned PP&E pledged as security for liabilities, mainly external financing (2019: USD 479m); fleet-level accounting value, not a unit price.",
+      "value": 282,
+      "source": {
+        "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+        "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d"
+      }
+    },
+    {
+      "metric": "Floating production systems EPC value sanctioned in 2022",
+      "year": 2022,
+      "unit": "USD billion",
+      "basis": "Westwood via Offshore Energy: 13 units sanctioned YTD with estimated EPC value USD 15bn, ten FPSOs and three FPSS; market aggregate, not a unit cost.",
+      "value": 15,
+      "source": {
+        "url": "https://www.offshore-energy.biz/2022/12/16/highest-fps-throughput-capacity-since-2010-greenlighted-in-2022-says-westwood",
+        "source_id": "mob-offshore-energy-biz-highest-fps-throughput-cap-833c6b8"
+      }
+    },
+    {
+      "metric": "Thunder Hawk semi-submersible impairment",
+      "year": 2020,
+      "unit": "USD million",
+      "basis": "SBM 2020 annual report: unit-of-production depreciation and impairment based on volume-dependent revenue; accounting figure, not a cost benchmark.",
+      "value": 10,
+      "source": {
+        "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+        "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/pressrelease-20090310-original-503.pdf",
+      "source_id": "mob-sbmoffshore-com-pressrelease-20090310-original-3b6d4cc",
+      "note": "Jack-up production unit for Talisman's Yme field; included in SBM's USD 999.8m 2"
+    },
+    {
+      "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+      "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/pressrelease-20090310-original-503.pdf",
+      "source_id": "mob-sbmoffshore-com-pressrelease-20090310-original-3b6d4cc"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2022/12/16/highest-fps-throughput-capacity-since-2010-greenlighted-in-2022-says-westwood",
+      "source_id": "mob-offshore-energy-biz-highest-fps-throughput-cap-833c6b8"
+    },
+    {
+      "url": "https://2020.annualreport.sbmoffshore.com/corporate-statements-2020/notes-to-the-consolidated-financial-statements/property-plant-and-equipment/property-plant-and-equipment-owned-by-the-company",
+      "source_id": "mob-2020-annualreport-sbmoffshore-com-property-pla-449c66d",
+      "note": "SBM semi-submersible production facility in the US Gulf of Mexico; temporarily shut down 45 days at operator request in 2020; operator credit rating downgraded; production profile assumed to end 2025 "
+    },
+    {
+      "url": "https://www.sbmoffshore.com/wp-content/uploads/2024/03/pressrelease-20090310-original-503.pdf",
+      "source_id": "mob-sbmoffshore-com-pressrelease-20090310-original-3b6d4cc",
+      "note": "Jack-up production unit for Talisman's Yme field; included in SBM's USD 999.8m 2008 capital expenditure; no separate value disclosed."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Standalone semi-submersible production unit newbuild or conversion value",
+      "why": "Read sources disclose impairments and fleet accounting but not an award value for a semi-submersible production facility.",
+      "next_action": "Search for Shell Sparta FPSS (Seatrium award confirmed January 2024) and CNOOC Deepwater 2 FPSS contract values."
+    },
+    {
+      "what": "MOPU newbuild/conversion unit cost",
+      "why": "ADES and Zentech/HOEC pages in search results describe MOPU services and conversions but were not read in full; no value was asserted.",
+      "next_action": "Fetch those pages and look for contract values; do not use the qualitative lower-upfront-cost claim as a figure."
+    },
+    {
+      "what": "TLP and spar cost benchmarks",
+      "why": "No page actually read contained a unit cost for a tension leg platform or spar production platform; Westwood records no spar or TLP awards in 2022.",
+      "next_action": "Search operator announcements for TLP/spar hull and topsides contract values, e.g. Petrobras Papa Terra TLP or Gulf of Mexico spars."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit costs). Evidence-first retrospective of dated mobile production unit costs, 2006-2026. Strongest primary evidence: Seatrium's S$11bn P-84/P-85 contract (reported by pre"
+}

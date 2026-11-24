@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-petrobras-americas-cascade-100-chinook-66-67-ea3a9",
+  "name": "Petrobras Americas (Cascade 100%; Chinook 66.67%)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Petrobras Americas (Cascade 100%; Chinook 66.67%) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://bwoffshore.com/pressreleases/first-oil-on-bw-pioneer",
+      "source_id": "mob-bwoffshore-com-first-oil-on-bw-pioneer-3e4890b"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

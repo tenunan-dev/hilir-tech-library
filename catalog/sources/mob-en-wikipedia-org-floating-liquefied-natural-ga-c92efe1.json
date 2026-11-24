@@ -1,0 +1,23 @@
+{
+  "id": "mob-en-wikipedia-org-floating-liquefied-natural-ga-c92efe1",
+  "name": "Floating liquefied natural gas - Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Floating_liquefied_natural_gas",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Wikimedia Foundation",
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly; 2011 FID investment figure and first-FLNG context"
+}

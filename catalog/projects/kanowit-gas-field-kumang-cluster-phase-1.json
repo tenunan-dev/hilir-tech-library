@@ -1,0 +1,141 @@
+{
+  "id": "kanowit-gas-field-kumang-cluster-phase-1",
+  "name": "Kanowit gas field / Kumang Cluster Phase 1",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "First FLNG deployment 2016-2019 offshore Sarawak; relocated to Kebabangan gas field offshore Sabah.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "FEED contract awarded",
+      "date": "2010",
+      "source": {
+        "url": "https://www.ship-technology.com/projects/petronas-floating-lng-facility-pflng-1",
+        "source_id": "mob-ship-technology-com-petronas-floating-lng-faci-812ac81"
+      }
+    },
+    {
+      "event": "EPCI contract signed",
+      "date": "2012",
+      "source": {
+        "url": "https://www.ship-technology.com/projects/petronas-floating-lng-facility-pflng-1",
+        "source_id": "mob-ship-technology-com-petronas-floating-lng-faci-812ac81"
+      }
+    },
+    {
+      "event": "Construction started",
+      "date": "2013",
+      "source": {
+        "url": "https://www.ship-technology.com/projects/petronas-floating-lng-facility-pflng-1",
+        "source_id": "mob-ship-technology-com-petronas-floating-lng-faci-812ac81"
+      }
+    },
+    {
+      "event": "Sail-away from Okpo",
+      "date": "2016",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/first-gas-petronas-first-floating-lng-facility-pflng-satu",
+        "source_id": "mob-petronas-com-first-gas-petronas-first-floating-f036373"
+      }
+    },
+    {
+      "event": "First gas",
+      "date": "2016",
+      "source": {
+        "url": "https://www.petronas.com/media/media-releases/first-gas-petronas-first-floating-lng-facility-pflng-satu",
+        "source_id": "mob-petronas-com-first-gas-petronas-first-floating-f036373"
+      }
+    },
+    {
+      "event": "First LNG drop",
+      "date": "2016",
+      "source": {
+        "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+        "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+      }
+    },
+    {
+      "event": "First LNG cargo",
+      "date": "2017",
+      "source": {
+        "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+        "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+      }
+    },
+    {
+      "event": "Relocation to Kebabangan",
+      "date": "2019",
+      "source": {
+        "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+        "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+      }
+    },
+    {
+      "event": "100th cargo",
+      "date": "2024",
+      "source": {
+        "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+        "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/media/media-releases/first-gas-petronas-first-floating-lng-facility-pflng-satu",
+      "source_id": "mob-petronas-com-first-gas-petronas-first-floating-f036373",
+      "note": "First FLNG deployment 2016-2019 offshore Sarawak; relocated to Kebabangan gas fi"
+    },
+    {
+      "url": "https://www.petronas.com/media/media-releases/first-gas-petronas-first-floating-lng-facility-pflng-satu",
+      "source_id": "mob-petronas-com-first-gas-petronas-first-floating-f036373"
+    },
+    {
+      "url": "https://www.petronas.com/progressing-energy/liquefied-natural-gas",
+      "source_id": "mob-petronas-com-liquefied-natural-gas-0946b9e"
+    },
+    {
+      "url": "https://www.ship-technology.com/projects/petronas-floating-lng-facility-pflng-1",
+      "source_id": "mob-ship-technology-com-petronas-floating-lng-faci-812ac81"
+    },
+    {
+      "url": "https://www.petronas.com/media/media-releases/first-gas-petronas-first-floating-lng-facility-pflng-satu",
+      "source_id": "mob-petronas-com-first-gas-petronas-first-floating-f036373",
+      "note": "First FLNG deployment 2016-2019 offshore Sarawak; relocated to Kebabangan gas field offshore Sabah."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Length discrepancy",
+      "why": "PETRONAS quick facts state 300 m; Ship Technology states 365 m and ~60 m wide.",
+      "next_action": "Verify against the vessel's class/registry record before using a single length."
+    },
+    {
+      "what": "LNG/condensate tank capacities",
+      "why": "A 177,000 m3 LNG and 20,000 m3 condensate storage figure appeared in a search result but its source page was not read directly.",
+      "next_action": "Read the OnePetro PFLNG1 paper PDF via an accessible proxy and cite its exact basis."
+    },
+    {
+      "what": "Contract value",
+      "why": "No EPCI value was stated on the three pages read.",
+      "next_action": "Find a sourced contract value with dollar year."
+    },
+    {
+      "what": "Incidents",
+      "why": "No incident or downtime record on pages read.",
+      "next_action": "Check PETRONAS LNG HSSE reporting."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

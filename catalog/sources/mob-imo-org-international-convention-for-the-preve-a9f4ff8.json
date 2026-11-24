@@ -1,0 +1,24 @@
+{
+  "id": "mob-imo-org-international-convention-for-the-preve-a9f4ff8",
+  "name": "International Convention for the Prevention of Pollution from Ships (MARPOL)",
+  "url": "https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Prevention-of-Pollution-from-Ships-(MARPOL).aspx",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "ROT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "International Maritime Organization",
+  "access": "open",
+  "licence": "© IMO; brief factual summary only",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch. Adoption 2 November 1973; combined instrument in force 2 October 1983; six annexes."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mob-golarlng-com-golar-lng-q2-2022-pdf-6f9c076",
+  "name": "Golar LNG Q2 2022 interim results",
+  "url": "https://www.golarlng.com/~/media/Files/G/Golar-Lng/documents/quarterly-reports/golar-lng-q2-2022.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Golar LNG Limited",
+  "access": "open",
+  "licence": "Publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 22-page PDF read via r.jina.ai proxy; EUR 269m Arctic sale, USD 350m and USD 352.5m Tundra prices, USD 160m Gimi incentive and impairment verified."
+}

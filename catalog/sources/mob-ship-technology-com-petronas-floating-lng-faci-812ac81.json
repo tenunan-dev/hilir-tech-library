@@ -1,0 +1,25 @@
+{
+  "id": "mob-ship-technology-com-petronas-floating-lng-faci-812ac81",
+  "name": "Ship Technology - PFLNG 1 SATU",
+  "url": "https://www.ship-technology.com/projects/petronas-floating-lng-facility-pflng-1",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Ship Technology / GlobalData",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch; 7 January 2020 profile."
+}

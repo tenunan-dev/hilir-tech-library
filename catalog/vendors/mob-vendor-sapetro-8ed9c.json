@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-sapetro-8ed9c",
+  "name": "SAPETRO",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "SAPETRO named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://totalenergies.com/newsroom/nigeria-total-starts-production-giant-egina-field/?lang=eng",
+      "source_id": "mob-totalenergies-com-b1c2330"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

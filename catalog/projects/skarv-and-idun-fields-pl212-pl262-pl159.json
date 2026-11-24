@@ -1,0 +1,128 @@
+{
+  "id": "skarv-and-idun-fields-pl212-pl262-pl159",
+  "name": "Skarv and Idun fields, PL212/PL262/PL159",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Norway",
+  "location": "Norway",
+  "status": "operating",
+  "description": "Total recoverable basis 16.8 million m3 oil and condensate and 48.3 billion m3 rich gas; ~80% of Skarv resources gas",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "BP submitted joint development plan",
+      "date": "2007",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/skarv/",
+        "source_id": "mob-offshore-technology-com-13fe71d"
+      }
+    },
+    {
+      "event": "Topside module steel cutting",
+      "date": "2008",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/skarv/",
+        "source_id": "mob-offshore-technology-com-13fe71d"
+      }
+    },
+    {
+      "event": "Hull delivered and FPSO left Korea",
+      "date": "2010",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/skarv/",
+        "source_id": "mob-offshore-technology-com-13fe71d"
+      }
+    },
+    {
+      "event": "Field production started",
+      "date": "2012",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/skarv/",
+        "source_id": "mob-offshore-technology-com-13fe71d"
+      }
+    },
+    {
+      "event": "Expected plateau rate",
+      "date": "2013",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/skarv/",
+        "source_id": "mob-offshore-technology-com-13fe71d"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "BP (operator, 23.835%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Statoil (36.165%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "E.ON Ruhrgas (28.0825%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "PGNiG Norway (11.9175%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Aker Solutions (FEED and EPcma)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Samsung Heavy Industries (hull and topsides)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "SBM Offshore (turret)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "VetcoGray (subsea production system)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Subsea 7 (flowlines)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/skarv/",
+      "source_id": "mob-offshore-technology-com-13fe71d",
+      "note": "Total recoverable basis 16.8 million m3 oil and condensate and 48.3 billion m3 r"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/skarv/",
+      "source_id": "mob-offshore-technology-com-13fe71d"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/skarv/",
+      "source_id": "mob-offshore-technology-com-13fe71d",
+      "note": "Total recoverable basis 16.8 million m3 oil and condensate and 48.3 billion m3 rich gas; ~80% of Skarv resources gas"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "first production year",
+      "why": "Two read sources disagree: Offshore Technology says December 2012; Wikipedia FPSO article says August 2011",
+      "next_action": "Verify against Norwegian Petroleum Directorate field data"
+    },
+    {
+      "what": "total FPSO-investment figure in USD",
+      "why": "Only NKr30bn field-development total and NKr100m FEED stated",
+      "next_action": "Convert using dated exchange rate from a primary source"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

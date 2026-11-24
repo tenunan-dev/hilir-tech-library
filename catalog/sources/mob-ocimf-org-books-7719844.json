@@ -1,0 +1,26 @@
+{
+  "id": "mob-ocimf-org-books-7719844",
+  "name": "OCIMF Books catalogue",
+  "url": "https://www.ocimf.org/publications/books",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "ROT",
+    "PRC",
+    "MAT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Oil Companies International Marine Forum (OCIMF)",
+  "access": "open",
+  "licence": "© OCIMF; edition/year metadata only; guidance documents are copyrighted publications",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch. Used only for titles, editions, years and named co-publishers (ICS, SIGTTO, IAPH)."
+}

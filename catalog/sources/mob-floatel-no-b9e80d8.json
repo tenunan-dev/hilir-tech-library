@@ -1,0 +1,25 @@
+{
+  "id": "mob-floatel-no-b9e80d8",
+  "name": "Floatel International home page",
+  "url": "https://www.floatel.no/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ROT",
+    "CIV"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Floatel International Ltd",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Fetched via https://r.jina.ai/https://www.floatel.no/ because the site is JS-rendered; page content (fleet, capacities, Oslo address, news dates) read in the Jina text output."
+}

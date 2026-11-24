@@ -1,0 +1,24 @@
+{
+  "id": "mob-drawing-typical-external-turret-mooring-arrangement-figure-4",
+  "title": "Typical External Turret Mooring Arrangement (Figure 4)",
+  "diagram_type": "schematic",
+  "description": "Listed in the sample PDF contents; same document also lists Figure 5 Typical Internal Turret Mooring Arrangement, Figure 6 Variations on Turret/Riser System, Figure 10 SALM with Tubular Riser and Yoke and Figure 12 Dynamic Positioning. PDF was read via r.jina.ai text mirror, which exposes the figure captions but not the drawn images",
+  "publisher": "American Petroleum Institute (API RP 2SK, 3rd edition sample PDF)",
+  "url": "https://www.normsplash.com/Samples/API/174394726/API-RP-2SK-2005-(R2015)-en.pdf",
+  "sectors": [
+    "UPS"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "sources": [
+    {
+      "url": "https://www.normsplash.com/Samples/API/174394726/API-RP-2SK-2005-(R2015)-en.pdf",
+      "source_id": "mob-normsplash-com-api-rp-2sk-2005-r2015-en-pdf-e6a4fc0",
+      "note": "Listed in the sample PDF contents; same document also lists Figure 5 Typical Internal Turret Mooring Arrangement, Figure 6 Variations on Turret/Riser System, Figure 10 SALM with Tubular Riser and Yoke"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the 20-year mobile platform retrospective."
+}

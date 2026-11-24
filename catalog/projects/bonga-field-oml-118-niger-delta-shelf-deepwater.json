@@ -1,0 +1,144 @@
+{
+  "id": "bonga-field-oml-118-niger-delta-shelf-deepwater",
+  "name": "Bonga field, OML 118, Niger Delta shelf/deepwater",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Nigeria",
+  "location": "Nigeria",
+  "status": "operating",
+  "description": "Nigeria's first deepwater development; gas exported to NLNG Bonny where a third train was constructed",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Deepwater acreage award and discovery",
+      "date": "1993",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bonga/",
+        "source_id": "sys-offshore-technology-com-1525c7"
+      }
+    },
+    {
+      "event": "AMEC topsides contract",
+      "date": "2001",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bonga/",
+        "source_id": "sys-offshore-technology-com-1525c7"
+      }
+    },
+    {
+      "event": "Newbuild hull arrived in UK",
+      "date": "2002",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bonga/",
+        "source_id": "sys-offshore-technology-com-1525c7"
+      }
+    },
+    {
+      "event": "First oil",
+      "date": "2005",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bonga/",
+        "source_id": "sys-offshore-technology-com-1525c7"
+      }
+    },
+    {
+      "event": "800 million barrels milestone",
+      "date": "2018",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bonga/",
+        "source_id": "sys-offshore-technology-com-1525c7"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "AMEC topsides contract (USD equivalent)",
+      "year": 2001,
+      "unit": "USD million",
+      "basis": "Source states £300m ($463m) offshore contract secured in 2001; USD equivalent as reported, dollar year 2001 contract award",
+      "value": 463,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/bonga/",
+        "source_id": "sys-offshore-technology-com-1525c7"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Shell Nigeria Exploration and Production Company (operator, 55%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Esso (20%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Total (12.5%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Agip (12.5%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "NNPC",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Samsung Heavy Industries (FPSO hull)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "AMEC (topsides design/fabrication/integration)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "ABB (subsea EPC)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Stolt Offshore (subsea construction)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Seaway Polaris (pipelay)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/bonga/",
+      "source_id": "sys-offshore-technology-com-1525c7",
+      "note": "Nigeria's first deepwater development; gas exported to NLNG Bonny where a third "
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/bonga/",
+      "source_id": "sys-offshore-technology-com-1525c7"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/bonga/",
+      "source_id": "sys-offshore-technology-com-1525c7",
+      "note": "Nigeria's first deepwater development; gas exported to NLNG Bonny where a third train was constructed"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "dollar year of $3.6bn development cost",
+      "why": "Project profile gives no date for the figure",
+      "next_action": "Find contemporaneous Shell announcement"
+    },
+    {
+      "what": "FPSO storage capacity and dimensions",
+      "why": "Not given in the read project profile; figures appeared in unread search snippets only",
+      "next_action": "Fetch a vessel-specific source and read it"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

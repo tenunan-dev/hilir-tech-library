@@ -1,0 +1,96 @@
+{
+  "id": "layang-and-helang-fields-block-sk10",
+  "name": "Layang and Helang fields, Block SK10",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Gas exported via ~200 km subsea pipeline to MLNG Tiga at Bintulu; condensate and Layang oil offloaded from the FPSO.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Charter contract signed",
+      "date": "2018",
+      "source": {
+        "url": "https://www.yinson.com/news/yinsons-fpso-helang-achieves-first-gas",
+        "source_id": "mob-yinson-com-yinsons-fpso-helang-achieves-first-7050dfd"
+      }
+    },
+    {
+      "event": "First oil / charter rates commenced",
+      "date": "2019",
+      "source": {
+        "url": "https://www.yinson.com/news/yinsons-fpso-helang-achieves-first-gas",
+        "source_id": "mob-yinson-com-yinsons-fpso-helang-achieves-first-7050dfd"
+      }
+    },
+    {
+      "event": "Four years of operation",
+      "date": "2023",
+      "source": {
+        "url": "https://www.yinson.com/news/fpso-helang-milestones-and-excellent-hse-track-record",
+        "source_id": "mob-yinson-com-fpso-helang-milestones-and-excellen-11c189d"
+      }
+    },
+    {
+      "event": "Four years LTI-free operations",
+      "date": "2024",
+      "source": {
+        "url": "https://www.yinson.com/news/fpso-helang-milestones-and-excellent-hse-track-record",
+        "source_id": "mob-yinson-com-fpso-helang-milestones-and-excellen-11c189d"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.yinson.com/news/yinsons-fpso-helang-achieves-first-gas",
+      "source_id": "mob-yinson-com-yinsons-fpso-helang-achieves-first-7050dfd",
+      "note": "Gas exported via ~200 km subsea pipeline to MLNG Tiga at Bintulu; condensate and"
+    },
+    {
+      "url": "https://www.yinson.com/news/yinsons-fpso-helang-achieves-first-gas",
+      "source_id": "mob-yinson-com-yinsons-fpso-helang-achieves-first-7050dfd"
+    },
+    {
+      "url": "https://www.yinson.com/news/fpso-helang-milestones-and-excellent-hse-track-record",
+      "source_id": "mob-yinson-com-fpso-helang-milestones-and-excellen-11c189d"
+    },
+    {
+      "url": "https://www.yinson-production.com/our-business/fleet/?lang=en",
+      "source_id": "mob-yinson-production-com-bd0d04b"
+    },
+    {
+      "url": "https://www.yinson.com/news/yinsons-fpso-helang-achieves-first-gas",
+      "source_id": "mob-yinson-com-yinsons-fpso-helang-achieves-first-7050dfd",
+      "note": "Gas exported via ~200 km subsea pipeline to MLNG Tiga at Bintulu; condensate and Layang oil offloaded from the FPSO."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Helang charter contract value",
+      "why": "A charter value and 2018 timing appeared in a Yinson corporate-presentation search result; r.jina.ai returned HTTP 422 for that PDF and direct WebFetch could not parse it. The figure is therefore not asserted.",
+      "next_action": "Read the original Yinson announcement or a readable PDF copy before entering this as a confirmed figure."
+    },
+    {
+      "what": "Water depth / dimensions",
+      "why": "The 90 m water depth and 248.8 m LOA came from search results, not pages read directly.",
+      "next_action": "Fetch the Yinson Helang vessel brochure PDF through an accessible route."
+    },
+    {
+      "what": "Gas compression basis",
+      "why": "Fleet page states 180 MMscf/d; brochure search result states 170 MMscf/d.",
+      "next_action": "Reconcile from the vessel brochure."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (APAC mobile units). Evidence-first register of 20 named floating/mobile production units in Malaysia and Southeast Asia across 2006-2026, built only from pages actually read with W"
+}

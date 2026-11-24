@@ -1,0 +1,24 @@
+{
+  "id": "mob-shell-com-au-shell-prelude-factsheet-oct-2017-3b24fe6",
+  "name": "Prelude FLNG fact sheet (PDF)",
+  "url": "https://www.shell.com.au/content/dam/shell/assets/en/australia/about-us/documents/shell-prelude-factsheet-oct-2017.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Shell Australia",
+  "access": "open",
+  "licence": "publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. WebFetch cannot parse application/pdf; read via reader proxy https://r.jina.ai/."
+}

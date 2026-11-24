@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-hoegh-lng-bcd3c",
+  "name": "Hoegh LNG",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Hoegh LNG named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://journal.jogmec.go.jp/content/300517000.pdf",
+      "source_id": "mob-journal-jogmec-go-jp-300517000-pdf-c5a7c7f"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mob-normsplash-com-api-rp-2sk-2005-r2015-en-pdf-e6a4fc0",
+  "name": "API RP 2SK 2005 sample PDF",
+  "url": "https://www.normsplash.com/Samples/API/174394726/API-RP-2SK-2005-(R2015)-en.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "American Petroleum Institute (sample hosted by Normsplash)",
+  "access": "open",
+  "licence": "© API 2005, 2008; preview extract only",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. 11-page PDF read via https://r.jina.ai/ text mirror. Used for table of contents and figure captions only."
+}

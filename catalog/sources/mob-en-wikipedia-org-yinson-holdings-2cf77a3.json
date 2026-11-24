@@ -1,0 +1,25 @@
+{
+  "id": "mob-en-wikipedia-org-yinson-holdings-2cf77a3",
+  "name": "Yinson Holdings (Wikipedia)",
+  "url": "https://en.wikipedia.org/wiki/Yinson_Holdings",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Wikipedia / Wikimedia Foundation",
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Page read via WebFetch; underlying Forbes and The Star articles cited on page."
+}

@@ -1,0 +1,138 @@
+{
+  "id": "cameroon-flng-kribi-sanaga-gas-fields",
+  "name": "Cameroon FLNG, Kribi / Sanaga gas fields",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Cameroon",
+  "location": "Cameroon",
+  "status": "operating",
+  "description": "Tolling agreement with Perenco Cameroon SA and SNH; first converted FLNG in the world",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "First LNG from Sanaga field",
+      "date": "2018",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2018/06/04/golar-hilli-episeyo-in-full-commercial-operation-off-cameroon",
+        "source_id": "mob-offshore-energy-biz-golar-hilli-episeyo-in-ful-594e513"
+      }
+    },
+    {
+      "event": "Full commercial operation accepted",
+      "date": "2018",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2018/06/04/golar-hilli-episeyo-in-full-commercial-operation-off-cameroon",
+        "source_id": "mob-offshore-energy-biz-golar-hilli-episeyo-in-ful-594e513"
+      }
+    },
+    {
+      "event": "Customer acceptance milestone",
+      "date": "2018",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_liquefied_natural_gas",
+        "source_id": "mob-en-wikipedia-org-floating-liquefied-natural-ga-c92efe1"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "base tolling EBITDA income per year",
+      "year": 2018,
+      "unit": "USD million",
+      "basis": "Golar statement reported by Offshore Energy at start of commercial operations, June 2018",
+      "value": 164,
+      "source": {
+        "url": "https://www.offshore-energy.biz/2018/06/04/golar-hilli-episeyo-in-full-commercial-operation-off-cameroon",
+        "source_id": "mob-offshore-energy-biz-golar-hilli-episeyo-in-ful-594e513"
+      }
+    },
+    {
+      "metric": "additional operating cash flow per year (oil-price linked)",
+      "year": 2018,
+      "unit": "USD million",
+      "basis": "Assuming Brent averages US$75/bbl, per Golar statement June 2018",
+      "value": 45,
+      "source": {
+        "url": "https://www.offshore-energy.biz/2018/06/04/golar-hilli-episeyo-in-full-commercial-operation-off-cameroon",
+        "source_id": "mob-offshore-energy-biz-golar-hilli-episeyo-in-ful-594e513"
+      }
+    },
+    {
+      "metric": "lease financing facility drawable",
+      "year": 2018,
+      "unit": "USD million",
+      "basis": "Golar able to draw on $960m lease financing facility replacing existing loan on start of commercial ops",
+      "value": 960,
+      "source": {
+        "url": "https://www.offshore-energy.biz/2018/06/04/golar-hilli-episeyo-in-full-commercial-operation-off-cameroon",
+        "source_id": "mob-offshore-energy-biz-golar-hilli-episeyo-in-ful-594e513"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Golar LNG (owner/operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Perenco Cameroon SA",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Societe Nationale Des Hydrocarbures (SNH)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Keppel Shipyard, Singapore (conversion, per Wikipedia FLNG article read)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Black & Veatch (design, per Wikipedia FLNG article read)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Gazprom (sole off-taker)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-energy.biz/2018/06/04/golar-hilli-episeyo-in-full-commercial-operation-off-cameroon",
+      "source_id": "mob-offshore-energy-biz-golar-hilli-episeyo-in-ful-594e513",
+      "note": "Tolling agreement with Perenco Cameroon SA and SNH; first converted FLNG in the "
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2018/06/04/golar-hilli-episeyo-in-full-commercial-operation-off-cameroon",
+      "source_id": "mob-offshore-energy-biz-golar-hilli-episeyo-in-ful-594e513"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_liquefied_natural_gas",
+      "source_id": "mob-en-wikipedia-org-floating-liquefied-natural-ga-c92efe1"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2018/06/04/golar-hilli-episeyo-in-full-commercial-operation-off-cameroon",
+      "source_id": "mob-offshore-energy-biz-golar-hilli-episeyo-in-ful-594e513",
+      "note": "Tolling agreement with Perenco Cameroon SA and SNH; first converted FLNG in the world"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "conversion capital cost",
+      "why": "A law-firm page in a search snippet cited US$1.2bn financing but that page returned 404 and was not read; no figure asserted",
+      "next_action": "Fetch an accessible Golar financing disclosure"
+    },
+    {
+      "what": "number of liquefaction trains installed",
+      "why": "Read source refers to 'minimum 2 trains' in commissioning but not total; a secondary snippet claimed four and was not read",
+      "next_action": "Obtain Golar vessel specification sheet"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

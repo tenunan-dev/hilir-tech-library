@@ -1,0 +1,24 @@
+{
+  "id": "mob-yinson-production-com-bd0d04b",
+  "name": "Yinson Production - Fleet list",
+  "url": "https://www.yinson-production.com/our-business/fleet/?lang=en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Yinson Production",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Read directly with WebFetch; current contract and capacity data."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mob-en-wikipedia-org-teekay-07bc2c5",
+  "name": "Teekay (Wikipedia)",
+  "url": "https://en.wikipedia.org/wiki/Teekay",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "publisher_org": "Wikipedia / Wikimedia Foundation",
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the mobile production platform retrospective. Page read via WebFetch; acquisition figures traced to Teekay press releases and SEC filing cited on page."
+}

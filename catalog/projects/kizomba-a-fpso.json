@@ -1,0 +1,114 @@
+{
+  "id": "kizomba-a-fpso",
+  "name": "Kizomba A FPSO",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Angola",
+  "location": "Angola",
+  "status": "operating",
+  "description": "Built by Hyundai Heavy Industries at cost of more than US$800 million; 2.2 million barrel storage class; operated by Esso Exploration Angola.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Founded and first ships",
+      "date": "1972",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/HD_Hyundai_Heavy_Industries",
+        "source_id": "mob-en-wikipedia-org-hd-hyundai-heavy-industries-b67c733"
+      }
+    },
+    {
+      "event": "Kizomba A FPSO built",
+      "date": "2004",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kizomba-offshore-field-deepwater-project/",
+        "source_id": "cost-offshore-technology-com-7e5c28"
+      }
+    },
+    {
+      "event": "DSME acquisition deal collapsed",
+      "date": "2019",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/HD_Hyundai_Heavy_Industries",
+        "source_id": "mob-en-wikipedia-org-hd-hyundai-heavy-industries-b67c733"
+      }
+    },
+    {
+      "event": "Merger with HD Hyundai Mipo",
+      "date": "2025",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/HD_Hyundai_Heavy_Industries",
+        "source_id": "mob-en-wikipedia-org-hd-hyundai-heavy-industries-b67c733"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Kizomba A FPSO build cost",
+      "year": 2004,
+      "unit": "USD",
+      "basis": "dollar year not stated; \"more than $800m\" for the FPSO built by Hyundai Heavy Industries; first oil 2004",
+      "value": 800,
+      "low": 800,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kizomba-offshore-field-deepwater-project/",
+        "source_id": "cost-offshore-technology-com-7e5c28"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "HD Hyundai Heavy Industries",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "ExxonMobil / Esso Exploration Angola",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/kizomba-offshore-field-deepwater-project/",
+      "source_id": "cost-offshore-technology-com-7e5c28",
+      "note": "Built by Hyundai Heavy Industries at cost of more than US$800 million; 2.2 milli"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/kizomba-offshore-field-deepwater-project/",
+      "source_id": "cost-offshore-technology-com-7e5c28"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/HD_Hyundai_Heavy_Industries",
+      "source_id": "mob-en-wikipedia-org-hd-hyundai-heavy-industries-b67c733"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/kizomba-offshore-field-deepwater-project/",
+      "source_id": "cost-offshore-technology-com-7e5c28",
+      "note": "Built by Hyundai Heavy Industries at cost of more than US$800 million; 2.2 million barrel storage class; operated by Esso Exploration Angola."
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/kizomba-offshore-field-deepwater-project/",
+      "source_id": "cost-offshore-technology-com-7e5c28",
+      "note": "US$750 million earmarked for the FPSO; 2.2 million barrels storage; 285 m x 63 m x 32 m, 81,000 t."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar years for Kizomba figures",
+      "why": "Nominal 2000s USD amounts with no stated base year",
+      "next_action": "Read ExxonMobil project documentation stating cost basis"
+    },
+    {
+      "what": "2006-2026 HHI FPSO contract register",
+      "why": "Pages read focus on Kizomba and corporate history",
+      "next_action": "Read HHI annual reports and press releases"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

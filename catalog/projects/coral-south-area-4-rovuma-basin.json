@@ -1,0 +1,96 @@
+{
+  "id": "coral-south-area-4-rovuma-basin",
+  "name": "Coral South, Area 4, Rovuma Basin",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Mozambique",
+  "location": "Mozambique",
+  "status": "operating",
+  "description": "MRV JV (Eni, ExxonMobil, CNPC) holds 70% Area 4; Galp, KOGAS, ENH 10% each",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Project sanctioned",
+      "date": "2017",
+      "source": {
+        "url": "https://www.eni.com/en-IT/media/press-release/2022/11/eni-coral-first-cargo.html",
+        "source_id": "mob-eni-com-eni-coral-first-cargo-html-1327a5b"
+      }
+    },
+    {
+      "event": "First LNG cargo departed",
+      "date": "2022",
+      "source": {
+        "url": "https://www.eni.com/en-IT/media/press-release/2022/11/eni-coral-first-cargo.html",
+        "source_id": "mob-eni-com-eni-coral-first-cargo-html-1327a5b"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Eni (delegated operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "ExxonMobil (FLEXSORB, OASE sulfexx joint development)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "CNPC",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "GALP",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "KOGAS",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "ENH",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Mozambique Rovuma Venture S.p.A. (MRV, 70% Area 4)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.eni.com/en-IT/media/press-release/2022/11/eni-coral-first-cargo.html",
+      "source_id": "mob-eni-com-eni-coral-first-cargo-html-1327a5b",
+      "note": "MRV JV (Eni, ExxonMobil, CNPC) holds 70% Area 4; Galp, KOGAS, ENH 10% each"
+    },
+    {
+      "url": "https://www.eni.com/en-IT/media/press-release/2022/11/eni-coral-first-cargo.html",
+      "source_id": "mob-eni-com-eni-coral-first-cargo-html-1327a5b"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "project capital cost",
+      "why": "Eni release says in line with initial budget but gives no figure",
+      "next_action": "Find Eni annual report or sanction disclosure"
+    },
+    {
+      "what": "water depth and hull dimensions",
+      "why": "Not in the read Eni release; ~2,000 m appeared only in an unread search snippet and is not asserted",
+      "next_action": "Fetch a citable project profile or Samsung Heavy Industries release"
+    },
+    {
+      "what": "EPC/conversion yard",
+      "why": "Not stated in read source",
+      "next_action": "Consult Eni project documentation"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

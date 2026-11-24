@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-daewoo-shipbuilding-marine-engineering-okpo-hull-09bf1",
+  "name": "Daewoo Shipbuilding & Marine Engineering, Okpo (hull)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Daewoo Shipbuilding & Marine Engineering, Okpo (hull) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Thunder_Horse_PDQ",
+      "source_id": "mob-en-wikipedia-org-thunder-horse-pdq-1a34032"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

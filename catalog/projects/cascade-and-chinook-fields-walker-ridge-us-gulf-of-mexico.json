@@ -1,0 +1,105 @@
+{
+  "id": "cascade-and-chinook-fields-walker-ridge-us-gulf-of-mexico",
+  "name": "Cascade and Chinook fields, Walker Ridge, US Gulf of Mexico",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "BW Offshore's first FPSO in US waters; disconnectable turret for hurricane regions",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "EPCI contract awarded",
+      "date": "2007",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+      }
+    },
+    {
+      "event": "First oil from Cascade field",
+      "date": "2012",
+      "source": {
+        "url": "https://bwoffshore.com/pressreleases/first-oil-on-bw-pioneer",
+        "source_id": "mob-bwoffshore-com-first-oil-on-bw-pioneer-3e4890b"
+      }
+    },
+    {
+      "event": "Contract to operate Cascade and Chinook fields",
+      "date": "2012",
+      "source": {
+        "url": "https://bwoffshore.com/pressreleases/first-oil-on-bw-pioneer",
+        "source_id": "mob-bwoffshore-com-first-oil-on-bw-pioneer-3e4890b"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "BW Offshore (owner/operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Petrobras Americas (Cascade 100%; Chinook 66.67%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Total (Chinook 33.33%)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "MMHE Shipyard Pasir Gudang, Malaysia (conversion, per Wikipedia FPSO article read)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "APL (disconnectable turret, per Wikipedia FPSO article read)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://bwoffshore.com/pressreleases/first-oil-on-bw-pioneer",
+      "source_id": "mob-bwoffshore-com-first-oil-on-bw-pioneer-3e4890b",
+      "note": "BW Offshore's first FPSO in US waters; disconnectable turret for hurricane regio"
+    },
+    {
+      "url": "https://bwoffshore.com/pressreleases/first-oil-on-bw-pioneer",
+      "source_id": "mob-bwoffshore-com-first-oil-on-bw-pioneer-3e4890b"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+    },
+    {
+      "url": "https://bwoffshore.com/pressreleases/first-oil-on-bw-pioneer",
+      "source_id": "mob-bwoffshore-com-first-oil-on-bw-pioneer-3e4890b",
+      "note": "BW Offshore's first FPSO in US waters; disconnectable turret for hurricane regions"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "water depth discrepancy",
+      "why": "BW Offshore says approx. 2,500 m; Wikipedia says 2,600 m",
+      "next_action": "Verify with BOEM or Petrobras field data"
+    },
+    {
+      "what": "contract value",
+      "why": "No dollar value in read sources",
+      "next_action": "Check BW Offshore annual report 2012"
+    },
+    {
+      "what": "Chinook first-oil date exact sourcing",
+      "why": "Search result snippet from Offshore Energy was not fetched/read",
+      "next_action": "Fetch the Offshore Energy article to confirm 6 September 2012 with page_read:true"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

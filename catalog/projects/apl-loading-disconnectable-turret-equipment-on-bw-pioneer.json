@@ -1,0 +1,136 @@
+{
+  "id": "apl-loading-disconnectable-turret-equipment-on-bw-pioneer",
+  "name": "APL loading/disconnectable turret equipment on BW Pioneer",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "APL, acquired by NOV in 2010, supplied the disconnectable turret on BW Offshore's Pioneer FPSO in 2,600 m Gulf of Mexico water depth.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "National Oilwell Varco formed",
+      "date": "2005",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/NOV_Inc.",
+        "source_id": "mob-en-wikipedia-org-nov-inc-d21d483"
+      }
+    },
+    {
+      "event": "Grant Prideco acquired",
+      "date": "2008",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/NOV_Inc.",
+        "source_id": "mob-en-wikipedia-org-nov-inc-d21d483"
+      }
+    },
+    {
+      "event": "APL acquired from BW Offshore",
+      "date": "2010",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    },
+    {
+      "event": "GustoMSC acquired",
+      "date": "2018",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/NOV_Inc.",
+        "source_id": "mob-en-wikipedia-org-nov-inc-d21d483"
+      }
+    },
+    {
+      "event": "Renamed NOV Inc.",
+      "date": "2021",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/NOV_Inc.",
+        "source_id": "mob-en-wikipedia-org-nov-inc-d21d483"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Grant Prideco acquisition",
+      "year": 2008,
+      "unit": "USD million (as printed)",
+      "basis": "US$7.37 billion acquisition; dollar year not stated; nominal at 2008 transaction",
+      "value": 7370,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/NOV_Inc.",
+        "source_id": "mob-en-wikipedia-org-nov-inc-d21d483"
+      }
+    },
+    {
+      "metric": "APL acquisition from BW Offshore",
+      "year": 2010,
+      "unit": "USD million (as printed)",
+      "basis": "USD 500 million cash; dollar year not stated; per archived BW press-release title cited on Wikipedia",
+      "value": 500,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+        "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "NOV Inc.",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "NKT Flexibles",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "GustoMSC",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading",
+      "note": "APL, acquired by NOV in 2010, supplied the disconnectable turret on BW Offshore'"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/NOV_Inc.",
+      "source_id": "mob-en-wikipedia-org-nov-inc-d21d483"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading",
+      "note": "APL, acquired by NOV in 2010, supplied the disconnectable turret on BW Offshore's Pioneer FPSO in 2,600 m Gulf of Mexico water depth."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SBM_Offshore",
+      "source_id": "mob-en-wikipedia-org-sbm-offshore-680ab98",
+      "note": "GustoMSC, bought by SBM in 1984 and sold to Parcom in 2012 for US$185 million, purchased by NOV in 2018."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BW_Offshore",
+      "source_id": "mob-en-wikipedia-org-bw-offshore-f9eb716"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "GustoMSC 2018 purchase price",
+      "why": "Only the year is stated",
+      "next_action": "Read the S&P Global article referenced on the page"
+    },
+    {
+      "what": "Named FPSO equipment scopes and values for NOV/NKT Flexibles",
+      "why": "No unit-specific figures on pages read",
+      "next_action": "Read NOV product and project literature"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "stones-development-walker-ridge-us-gulf-of-mexico",
+  "name": "Stones development, Walker Ridge, US Gulf of Mexico",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Shell Offshore Inc. client; SBM-led JV owns and operates the FPSO under a 10-year initial lease-and-operate contract",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Shell-SBM Enterprise Framework Agreement",
+      "date": "2012",
+      "source": {
+        "url": "https://www.sbmoffshore.com/newsroom/sbm-offshore-awarded-contracts-provide-worlds-deepest/",
+        "source_id": "mob-sbmoffshore-com-47e19e1"
+      }
+    },
+    {
+      "event": "Contract awarded",
+      "date": "2013",
+      "source": {
+        "url": "https://www.sbmoffshore.com/newsroom/sbm-offshore-awarded-contracts-provide-worlds-deepest/",
+        "source_id": "mob-sbmoffshore-com-47e19e1"
+      }
+    },
+    {
+      "event": "First oil and on hire",
+      "date": "2016",
+      "source": {
+        "url": "https://www.sbmoffshore.com/newsroom/first-oil-turritella/",
+        "source_id": "mob-sbmoffshore-com-ac549bb"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "total asset value of FPSO, approximately",
+      "year": 2013,
+      "unit": "USD billion",
+      "basis": "SBM award release 23 July 2013: total asset value of the FPSO approximately US$1 billion",
+      "value": 1,
+      "source": {
+        "url": "https://www.sbmoffshore.com/newsroom/sbm-offshore-awarded-contracts-provide-worlds-deepest/",
+        "source_id": "mob-sbmoffshore-com-47e19e1"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Shell Offshore Inc. (client)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "SBM Offshore (designer, EPCI, owner/operator, 55% JV)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Mitsubishi Corporation (30% JV)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "NYK Line (15% JV)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.sbmoffshore.com/newsroom/first-oil-turritella/",
+      "source_id": "mob-sbmoffshore-com-ac549bb",
+      "note": "Shell Offshore Inc. client; SBM-led JV owns and operates the FPSO under a 10-yea"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/newsroom/sbm-offshore-awarded-contracts-provide-worlds-deepest/",
+      "source_id": "mob-sbmoffshore-com-47e19e1"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/newsroom/first-oil-turritella/",
+      "source_id": "mob-sbmoffshore-com-ac549bb"
+    },
+    {
+      "url": "https://www.sbmoffshore.com/newsroom/first-oil-turritella/",
+      "source_id": "mob-sbmoffshore-com-ac549bb",
+      "note": "Shell Offshore Inc. client; SBM-led JV owns and operates the FPSO under a 10-year initial lease-and-operate contract"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "charter hire rate",
+      "why": "Not disclosed in the read releases",
+      "next_action": "Check SBM annual report lease-and-operate revenue disclosures"
+    },
+    {
+      "what": "actual field peak production achieved",
+      "why": "Only facility capacity given in read sources",
+      "next_action": "Obtain Shell Stones production reports"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Global mobile units). Fifteen named mobile production units were researched from pages actually read (secondary pages via r.jina.ai proxy where direct fetch returned 404/403; those p"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "msu-floatel-triumph-contract",
+  "name": "MSU Floatel Triumph contract",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Letter of intent converted to firm contract; contract value, client and location not printed on the page read.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Floatel Triumph firm contract",
+      "date": "2026",
+      "source": {
+        "url": "https://www.floatel.no/",
+        "source_id": "mob-floatel-no-b9e80d8"
+      }
+    },
+    {
+      "event": "Q3 2026 interim report",
+      "date": "2026",
+      "source": {
+        "url": "https://www.floatel.no/",
+        "source_id": "mob-floatel-no-b9e80d8"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Floatel International Ltd",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.floatel.no/",
+      "source_id": "mob-floatel-no-b9e80d8",
+      "note": "Letter of intent converted to firm contract; contract value, client and location"
+    },
+    {
+      "url": "https://www.floatel.no/",
+      "source_id": "mob-floatel-no-b9e80d8"
+    },
+    {
+      "url": "https://www.floatel.no/",
+      "source_id": "mob-floatel-no-b9e80d8",
+      "note": "Letter of intent converted to firm contract; contract value, client and location not printed on the page read."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Ownership (possible COSCO link)",
+      "why": "Not stated on the page read; a Google search via Jina returned HTTP 403, so the ownership claim could not be verified and is NOT asserted",
+      "next_action": "Read Floatel investors page or official ownership announcement"
+    },
+    {
+      "what": "Contract values and dollar years for all Floatel charters",
+      "why": "No values printed on the home page",
+      "next_action": "Read the Q3 2026 interim report and individual fleet pages"
+    },
+    {
+      "what": "Yard of construction and build dates for the four units",
+      "why": "Not printed on the page read",
+      "next_action": "Open each fleet page"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 20-year mobile production platform retrospective (Mobile unit vendors and contractors). Evidence-first vendor/contractor map of mobile production units over 2006-2026, built only from pages actually read. Owners/operators: SBM Offshore (Netherlands"
+}

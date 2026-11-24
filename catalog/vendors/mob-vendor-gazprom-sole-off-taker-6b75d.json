@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-gazprom-sole-off-taker-6b75d",
+  "name": "Gazprom (sole off-taker)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Gazprom (sole off-taker) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-energy.biz/2018/06/04/golar-hilli-episeyo-in-full-commercial-operation-off-cameroon",
+      "source_id": "mob-offshore-energy-biz-golar-hilli-episeyo-in-ful-594e513"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}

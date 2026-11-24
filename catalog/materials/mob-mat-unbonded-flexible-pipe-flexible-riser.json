@@ -1,0 +1,60 @@
+{
+  "id": "mob-mat-unbonded-flexible-pipe-flexible-riser",
+  "name": "Unbonded flexible pipe / flexible riser",
+  "material_category": "flexible-riser",
+  "description": "Unbonded flexible pipe / flexible riser named for mobile production unit service on a page read in the 20-year retrospective.",
+  "specifications": [
+    {
+      "metric": "API 17J scope",
+      "unit": "qualitative",
+      "basis": "API Spec 17J 4th edition May 2014 preview PDF actually read",
+      "source": {
+        "url": "https://www.api.org/~/media/files/publications/whats%20new/17j%20e4%20pa.pdf",
+        "source_id": "mob-api-org-17j-20e4-20pa-pdf-d3c6d8a"
+      },
+      "year": 2014
+    },
+    {
+      "metric": "construction materials",
+      "unit": "qualitative",
+      "basis": "TechnipFMC Flexible pipes product page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+        "source_id": "technipfmc-com-flexible-pipes"
+      }
+    },
+    {
+      "metric": "retrievability",
+      "unit": "qualitative",
+      "basis": "TechnipFMC Flexible pipes product page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+        "source_id": "technipfmc-com-flexible-pipes"
+      }
+    },
+    {
+      "metric": "Kikeh external turret riser size range",
+      "unit": "qualitative",
+      "basis": "Offshore Technology Kikeh FPSO project profile",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development/",
+        "source_id": "sys-offshore-technology-com-dc5c67"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/~/media/files/publications/whats%20new/17j%20e4%20pa.pdf",
+      "source_id": "mob-api-org-17j-20e4-20pa-pdf-d3c6d8a"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+      "source_id": "technipfmc-com-flexible-pipes"
+    },
+    {
+      "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development/",
+      "source_id": "sys-offshore-technology-com-dc5c67"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

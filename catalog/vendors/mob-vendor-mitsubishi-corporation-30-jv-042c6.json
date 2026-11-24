@@ -1,0 +1,23 @@
+{
+  "id": "mob-vendor-mitsubishi-corporation-30-jv-042c6",
+  "name": "Mitsubishi Corporation (30% JV)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Mitsubishi Corporation (30% JV) named on a page read in the 20-year mobile production platform retrospective.",
+  "technologies": [
+    "ups-mobile-production-twenty-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sbmoffshore.com/newsroom/first-oil-turritella/",
+      "source_id": "mob-sbmoffshore-com-ac549bb"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed mobile platform sweep."
+}
