@@ -1,0 +1,61 @@
+{
+  "id": "cooec-offshore-oil-engineering-co-qingdao-tianjin-zhuhai-fabrication-yards",
+  "name": "Qingdao / Tianjin / Zhuhai fabrication yards",
+  "manufacturer": "cooec-cnooc-engineering",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
+  ],
+  "description": "Vendor product line read 2026-11-24. EPCI contractor controlled by CNOOC.",
+  "specifications": [
+    {
+      "metric": "Qingdao annual production",
+      "unit": "tons/yr",
+      "basis": "single onshore unit 50,000 t; floating unit 300,000 t; up to 15,000 t onshore transport",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
+        "source_id": "cnoocengineering-com-solutions-yards"
+      },
+      "value": 300000
+    },
+    {
+      "metric": "Qingdao slideways",
+      "unit": "capacity",
+      "basis": "plus two 800 t and one 600 t gantry cranes",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
+        "source_id": "cnoocengineering-com-solutions-yards"
+      },
+      "value": "five, 4,000-50,000 t bearing capacity"
+    },
+    {
+      "metric": "Zhuhai annual production",
+      "unit": "tons/yr",
+      "basis": "deepwater floating structures, semi-submersibles, TLPs, spars, FLNG/FPSO topsides",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
+        "source_id": "cnoocengineering-com-solutions-yards"
+      },
+      "value": 250000
+    },
+    {
+      "metric": "Zhuhai slideway 1",
+      "unit": "T",
+      "basis": "slideway 3 is 12,000 T",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
+        "source_id": "cnoocengineering-com-solutions-yards"
+      },
+      "value": 35000
+    }
+  ],
+  "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
+  "sources": [
+    {
+      "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
+      "source_id": "cnoocengineering-com-solutions-yards"
+    }
+  ],
+  "notes": "EPCI contractor controlled by CNOOC.",
+  "last_reviewed": "2026-11-24"
+}

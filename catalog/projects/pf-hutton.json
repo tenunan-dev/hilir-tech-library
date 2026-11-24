@@ -1,0 +1,25 @@
+{
+  "id": "pf-hutton",
+  "name": "Hutton",
+  "country": "UK",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "World's first TLP, 1984, 16 tension legs",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+      "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

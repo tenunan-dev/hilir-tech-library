@@ -1,0 +1,32 @@
+{
+  "id": "offshore-technology-com-projects-malikai-deepwater-oilfield-projec",
+  "name": "Technip / TechnipFMC",
+  "url": "https://www.offshore-technology.com/projects/malikai-deepwater-oilfield-project",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Technology",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. search-verified Evidence: https://www.offshore-technology.com/projects/malikai-deepwater-oilfield-project"
+}

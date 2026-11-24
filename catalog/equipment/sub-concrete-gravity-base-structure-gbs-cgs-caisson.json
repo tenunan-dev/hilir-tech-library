@@ -1,0 +1,76 @@
+{
+  "id": "sub-concrete-gravity-base-structure-gbs-cgs-caisson",
+  "name": "Concrete gravity base structure",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Large reinforced/prestressed concrete caisson that resists overturning and sliding by self-weight; often provides oil storage and flotation during tow-out.",
+  "specifications": [
+    {
+      "metric": "number of major concrete offshore structures built",
+      "unit": "structures",
+      "basis": "Wikipedia Offshore concrete structure: at least 47 major concrete offshore structures built since first North Sea installation in 1973",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": 47
+    },
+    {
+      "metric": "economic water depth",
+      "unit": "m+",
+      "basis": "Wikipedia Offshore concrete structure: concrete gravity platforms economical for water depths larger than 150 m; most need no additional fixing due to large foundation and weight",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": 150
+    },
+    {
+      "metric": "Troll A total height",
+      "unit": "m",
+      "basis": "Wikipedia Condeep: tallest Condeep, total height 472 m, deployed 1995, placed at 300 m depth and dug 35 m into seabed",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Condeep",
+        "source_id": "en-wikipedia-org-wiki-condeep"
+      },
+      "value": 472
+    },
+    {
+      "metric": "Gullfaks C total height",
+      "unit": "m",
+      "basis": "Wikipedia Condeep: Gullfaks C rests 217 m below sea surface, total height 380 m, displacement 1.4-1.5 million t",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Condeep",
+        "source_id": "en-wikipedia-org-wiki-condeep"
+      },
+      "value": 380
+    }
+  ],
+  "vendors": [
+    "norwegian-contractors",
+    "arup",
+    "doris-c-g-doris"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Condeep",
+      "source_id": "en-wikipedia-org-wiki-condeep"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Large reinforced/prestressed concrete caisson that resists overturning and sliding by self-weight; often provides oil storage and flotation during tow-out."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

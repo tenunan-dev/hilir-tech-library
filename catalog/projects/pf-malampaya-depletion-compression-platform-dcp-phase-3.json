@@ -1,0 +1,34 @@
+{
+  "id": "pf-malampaya-depletion-compression-platform-dcp-phase-3",
+  "name": "Malampaya Depletion Compression Platform (DCP, Phase 3)",
+  "country": "Philippines",
+  "location": "Adjacent to the Malampaya shallow-water platform, ~50 km off Palawan",
+  "status": "under-construction",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "substructure_type: Self-installing platform with inbuilt jacking system and 80 m legs (small fixed platform) | topside_type: Depletion compression topsides, bridge-linked to existing CGS platform | water_depth: Shallow water (same area as existing platform, 43 m) | topside_weight: 4,300 t topsides; ~12,000 t load-out weight (Fluor); OGJ reports a 13,000 t platform — source-specific values | installation_method: Self-installing: built to float, towed from Keppel Shipyard, Subic; inbuilt jacking system jacked 80 m legs down and lifted platform out of water into final position; set in place in less than 24 hours in February 2015 — no large specialised installation vessel needed | contractor: Fluor (engineering, procurement, construction support); Arup (engineering support for self-installing substructure); Keppel Shipyard Subic (fabrication) | dates: Fabrication ~2013-2015 (approx. two year",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fluor.com/projects/offshore-deepwater-gas-to-power-epc",
+      "source_id": "fluor-com-projects-offshore-deepwater-gas-to-power-epc"
+    },
+    {
+      "url": "https://www.ogj.com/drilling-production/production-operations/article/17245544/malampaya-compression-platform-installed",
+      "source_id": "ogj-com-17245544-malampaya-compression-platform-installed"
+    },
+    {
+      "url": "https://malampaya.com/malampaya-begins-gas-production-from-new-offshore-platform/",
+      "source_id": "malampaya-com-malampaya-begins-gas-production-from-new-offshore-pl"
+    }
+  ],
+  "notes": " Producing (gas production from new platform announced Oct 2015)",
+  "last_reviewed": "2026-11-24"
+}

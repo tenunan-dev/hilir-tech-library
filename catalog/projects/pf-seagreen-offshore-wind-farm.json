@@ -1,0 +1,25 @@
+{
+  "id": "pf-seagreen-offshore-wind-farm",
+  "name": "Seagreen offshore wind farm",
+  "country": "UK",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Saipem 7000 installing 114 jacket foundations ~27 km east of Montrose, Scotland (per Wikipedia page, current at time of read).",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+      "source_id": "en-wikipedia-org-wiki-saipem-7000"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

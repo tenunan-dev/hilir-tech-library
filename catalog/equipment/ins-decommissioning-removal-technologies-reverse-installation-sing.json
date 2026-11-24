@@ -1,0 +1,78 @@
+{
+  "id": "ins-decommissioning-removal-technologies-reverse-installation-sing",
+  "name": "Decommissioning / removal technologies",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Prepare structure (clean, cut, install lifting points), remove topsides and jacket by reverse installation (piece-small or module), single-lift heavy lift, or controlled toppling where permitted; transport to shore for recycling/disposal.",
+  "specifications": [
+    {
+      "metric": "Heerema removal vessel capacity",
+      "unit": "metric tons",
+      "basis": "Heerema jacket and topside removal page",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal",
+        "source_id": "heerema-com-offshore-decommissioning-jacket-and-topside-removal"
+      },
+      "value": "up to approximately 20,000 metric tons"
+    },
+    {
+      "metric": "Largest single-lift jacket removal",
+      "unit": "metric tons",
+      "basis": "Heerema decommissioning page (world record claim)",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal",
+        "source_id": "heerema-com-offshore-decommissioning-jacket-and-topside-removal"
+      },
+      "value": "10,100 metric tons — Brent Alpha jacket, 2020"
+    },
+    {
+      "metric": "Recycling/repurposing rate",
+      "unit": "%",
+      "basis": "Heerema decommissioning page",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal",
+        "source_id": "heerema-com-offshore-decommissioning-jacket-and-topside-removal"
+      },
+      "value": "98% of structures safely repurposed or recycled"
+    },
+    {
+      "metric": "Rigs-to-Reefs decommissioning example",
+      "unit": "date / description",
+      "basis": "Wikipedia Spar (platform), lead section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+        "source_id": "en-wikipedia-org-wiki-spar-platform"
+      },
+      "value": "Red Hawk cell spar decommissioned in 2014 under BSEE Rigs-to-Reefs program; deepest floating platform decommissioned at the time"
+    }
+  ],
+  "vendors": [
+    "heerema-marine-contractors",
+    "allseas-oem-design",
+    "boskalis-dockwise-heritage",
+    "thunder-cranes",
+    "mammoet"
+  ],
+  "sources": [
+    {
+      "url": "https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal",
+      "source_id": "heerema-com-offshore-decommissioning-jacket-and-topside-removal"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+      "source_id": "en-wikipedia-org-wiki-spar-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Prepare structure (clean, cut, install lifting points), remove topsides and jacket by reverse installation (piece-small or module), single-lift heavy lift, or c"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

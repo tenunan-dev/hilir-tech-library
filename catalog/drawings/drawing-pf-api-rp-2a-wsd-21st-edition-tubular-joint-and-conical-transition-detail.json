@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-api-rp-2a-wsd-21st-edition-tubular-joint-and-conical-transition-detail",
+  "title": "API RP 2A-WSD 21st edition — tubular joint and conical transition detail figures",
+  "diagram_type": "schematic",
+  "description": "Tubular joint classification, in-plane/out-of-plane detailing, simple tubular joint geometry terminology, example conical transition and grouted pile-to-structure connection — core references for fixed jacket steel connections | Figures: Figure 3.4.1-1 Example Conical Transition; Figure 4.2-1 Examples of Joint Classification; Figure 4.2-2 In-Plane Joint Detailing; Figure 4.2-3 Out-of-Plane Joint Detailing; Figure 4.3-1 Terminology and Geometric Parameters, Simple Tubular Joints; Figure 7.4.4-1 Grouted Pile to Structure Connection; Figure 5.5-1 Example Tubular Joint S-N Curve for T = 5/8 in. (16 mm)",
+  "publisher": "American Petroleum Institute (API); copy hosted by icoffshore.com.vn",
+  "url": "https://icoffshore.com.vn/Uploads/files/Nghien_Cuu/TCQP/TCQT/5_API-RP-2A-WSD%20(21st%202007).pdf",
+  "licence": "API standard (copyright); third-party hosted copy. Cite standard clause/figure and URL. Do not reproduce figures without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://icoffshore.com.vn/Uploads/files/Nghien_Cuu/TCQP/TCQT/5_API-RP-2A-WSD%20(21st%202007).pdf",
+      "source_id": "icoffshore-com-vn-tcqt-5-api-rp-2a-wsd-20-21st-202007-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. curl + pypdf text extraction — figure captions confirmed (288-page PDF)",
+  "last_reviewed": "2026-11-24"
+}

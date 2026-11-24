@@ -1,0 +1,25 @@
+{
+  "id": "pf-johan-sverdrup",
+  "name": "Johan Sverdrup",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "flare towers delivered 2018 and 2019 by WorleyParsons",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/johan-sverdrup-living-quarters-topside-sails-away-field",
+      "source_id": "jpt-spe-org-jpt-spe-org-johan-sverdrup-living-quarters-topside-sai"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

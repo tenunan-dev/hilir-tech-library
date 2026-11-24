@@ -1,0 +1,42 @@
+{
+  "id": "aker-solutions-offshore-production-facility-topsides-2-000-to-over-40-000-to",
+  "name": "Offshore production facility topsides (2,000 to over 40,000 tonnes)",
+  "manufacturer": "aker-solutions",
+  "product_type": "ins-platform",
+  "equipment": [
+    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati"
+  ],
+  "description": "Vendor product line read 2026-11-24. Stord yard: 318,000 m2 facility with 'Storen' gantry crane, 1,050 t capacity, 115 m tall and 153 m wide.",
+  "specifications": [
+    {
+      "metric": "design weight range",
+      "unit": "tonnes",
+      "basis": "facility design range, from simple wellhead platforms to large integrated facilities",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
+        "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
+      },
+      "low": 2000,
+      "high": 40000
+    },
+    {
+      "metric": "substructure types served",
+      "unit": "list",
+      "basis": "Stord yard topside projects",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
+        "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
+      },
+      "value": "jacket, GBS, semi-submersible, FPSO, drilling rig, TLP"
+    }
+  ],
+  "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
+  "sources": [
+    {
+      "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
+      "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
+    }
+  ],
+  "notes": "Stord yard: 318,000 m2 facility with 'Storen' gantry crane, 1,050 t capacity, 115 m tall and 153 m wide.",
+  "last_reviewed": "2026-11-24"
+}

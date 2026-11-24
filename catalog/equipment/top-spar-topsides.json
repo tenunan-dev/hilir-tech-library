@@ -1,0 +1,60 @@
+{
+  "id": "top-spar-topsides",
+  "name": "Spar topsides",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Topside supported on a deep-draft single vertical cylinder (classic, truss or cell spar) with a typical fixed-platform-style deck carrying drilling and production equipment and dry-tree risers; low heave motion suits ultra-deepwater.",
+  "specifications": [
+    {
+      "metric": "Perdido single-lift spar topsides",
+      "unit": "ton (8,618 metric ton)",
+      "basis": "installed by Thialf March 2009 with living quarter added three days later; heaviest single-lift topsides in GOM by HLCV at the time",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 9500
+    },
+    {
+      "metric": "Perdido spar water depth",
+      "unit": "m",
+      "basis": "deepest spar in world at time of source",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 2450
+    },
+    {
+      "metric": "Perdido topsides deck count",
+      "unit": "decks",
+      "basis": "support oil and gas processing, drilling rig and living quarters",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 3
+    }
+  ],
+  "vendors": [
+    "kiewit-offshore-services"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Topside supported on a deep-draft single vertical cylinder (classic, truss or cell spar) with a typical fixed-platform-style deck carrying drilling and producti"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-snorre-heidrun-jolliet",
+  "name": "Snorre / Heidrun / Jolliet",
+  "country": "Norway / USA",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Snorre full drilling and workover package; Heidrun concrete hull TLP; Jolliet wellhead TLP with small workover rig only",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning",
+      "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

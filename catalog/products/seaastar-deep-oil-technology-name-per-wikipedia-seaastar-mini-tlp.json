@@ -1,0 +1,32 @@
+{
+  "id": "seaastar-deep-oil-technology-name-per-wikipedia-seaastar-mini-tlp",
+  "name": "Seaastar mini-TLP",
+  "manufacturer": "seaastar-deep-oil-technology-name-per-wikipedia",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
+  ],
+  "description": "Vendor product line read 2026-11-24. Manufacturer name as stated in Wikipedia; no vendor page fetched",
+  "specifications": [
+    {
+      "metric": "water depth",
+      "unit": "m",
+      "basis": "Wikipedia Oil platform (applies to mini-TLPs generally)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "low": 180,
+      "high": 1300
+    }
+  ],
+  "url": "https://en.wikipedia.org/wiki/Oil_platform",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "notes": "Manufacturer name as stated in Wikipedia; no vendor page fetched",
+  "last_reviewed": "2026-11-24"
+}

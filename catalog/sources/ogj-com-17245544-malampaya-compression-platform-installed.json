@@ -1,0 +1,32 @@
+{
+  "id": "ogj-com-17245544-malampaya-compression-platform-installed",
+  "name": "Oil & Gas Journal — Malampaya Depletion Compression Platform (DCP, Phase 3)",
+  "url": "https://www.ogj.com/drilling-production/production-operations/article/17245544/malampaya-compression-platform-installed",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Oil & Gas Journal",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. 13,000 t platform, set in <24 hr in Feb 2015 with inbuilt jacking, 43 m bridge link, Arup role Evidence: https://www.ogj.com/drilling-production/production-operations/article/17245544/malampaya-compression-platform-installed"
+}

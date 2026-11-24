@@ -1,0 +1,25 @@
+{
+  "id": "pf-kikeh",
+  "name": "Kikeh",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "142 m × 32 m truss spar dry tree unit, 1,310-1,330 m, first Malaysian deepwater development",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development",
+      "source_id": "offshore-technology-com-projects-kikeh-floating-production-storage"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

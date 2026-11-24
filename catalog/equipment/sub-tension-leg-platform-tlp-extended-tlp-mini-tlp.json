@@ -1,0 +1,87 @@
+{
+  "id": "sub-tension-leg-platform-tlp-extended-tlp-mini-tlp",
+  "name": "Tension leg platform",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Vertically moored buoyant platform with high-axial-stiffness tendons that eliminate nearly all vertical motion, permitting deck-mounted dry-tree wellheads and rigid risers.",
+  "specifications": [
+    {
+      "metric": "preferred water depth range",
+      "unit": "m",
+      "basis": "Wikipedia Tension-leg platform: particularly suited to water depths greater than 300 m and less than 1,500 m; proposed for offshore wind",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+        "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
+      },
+      "low": 300,
+      "high": 1500
+    },
+    {
+      "metric": "upper general water depth",
+      "unit": "m",
+      "basis": "Wikipedia Oil platform: TLPs used in water depths up to about 2,000 m",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "mini-TLP water depth",
+      "unit": "m",
+      "basis": "Wikipedia Oil platform: Seastar and MOSES mini TLPs used in 180-1,300 m; utility/satellite/early production roles",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "low": 180,
+      "high": 1300
+    },
+    {
+      "metric": "Hutton TLP tendon count / mass",
+      "unit": "description",
+      "basis": "Wikipedia Tension-leg platform: first TLP, Conoco Hutton field, hull built at Nigg, deck at Ardersier, mated 1984; designed for 25 years in 100-1,000 m North Sea",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+        "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
+      },
+      "value": "16 tension legs; 46,500-55,000 t moored; up to 61,580 t free-floating"
+    },
+    {
+      "metric": "deepest ETLP, Big Foot",
+      "unit": "m",
+      "basis": "Wikipedia Tension-leg platform list of deepest (E)TLPs: Big Foot 5,185 ft (1,580 m)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+        "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
+      },
+      "value": 1580
+    }
+  ],
+  "vendors": [
+    "technip-technipfmc",
+    "heerema-marine-contractors"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+      "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Vertically moored buoyant platform with high-axial-stiffness tendons that eliminate nearly all vertical motion, permitting deck-mounted dry-tree wellheads and r"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

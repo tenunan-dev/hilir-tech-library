@@ -1,0 +1,41 @@
+{
+  "id": "mat-ins-azimuth-thrusters-dp-propulsion",
+  "name": "Azimuth thrusters",
+  "material_category": "machinery",
+  "description": "Station keeping and transit for DP installation vessels",
+  "specifications": [
+    {
+      "metric": "Sleipnir thrusters",
+      "unit": "count x MW",
+      "basis": "Wikipedia SSCV Sleipnir, Propulsion",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": "8 x Wartsila azimuth thrusters, 5.5 MW each (4 retractable forward, 4 fixed aft)"
+    }
+  ],
+  "applications": [
+    "Station keeping and transit for DP installation vessels"
+  ],
+  "standards": [],
+  "equipment": [
+    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati",
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast",
+    "ins-float-over-topside-installation-barge-float-over-tidal-float-o",
+    "ins-leg-mating-units-lmu-elastomeric-shock-absorbers"
+  ],
+  "suppliers": [
+    "wartsila",
+    "rolls-royce-power-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+      "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

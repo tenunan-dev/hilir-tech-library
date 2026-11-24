@@ -1,0 +1,34 @@
+{
+  "id": "pf-malampaya-shallow-water-platform-original-gas-processing-platform",
+  "name": "Malampaya shallow-water platform (original gas processing platform)",
+  "country": "Philippines",
+  "location": "Approx. 50-80 km offshore northwest of Palawan, western Philippines",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "substructure_type: Concrete gravity substructure (CGS), rectangular caisson with four shafts | topside_type: Three-level integrated deck (weather, production, cellar decks) plus accommodation module | water_depth: 43 m at platform; subsea wells at approx. 820-850 m | topside_weight: 13,000 t initial operating weight; load-out weight 10,000 t excluding transportation frame (Offshore Technology); 11,500 t at installation (Offshore Magazine, KBR) — source-specific values | installation_method: Float-over of integrated topsides by KBR in mid-March 2001 using H-541 barge; 36 pumps transferred >21,000 t/h seawater; full weight transfer in 57 minutes; CGS installed summer 2000 on seabed prepared with 17,000 t rock in 361 mounds; 75,000 t iron ore ballast in open cells; 3,000 t rock scour protection | contractor: Brown & Root / KBR (EPCI, $432m contract awarded Aug 1998); topsides fabrication Se",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/malampaya/",
+      "source_id": "offshore-technology-com-malampaya"
+    },
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges",
+      "source_id": "offshore-mag-com-16759665-malampaya-development-project-presented"
+    },
+    {
+      "url": "https://www.offshore-mag.com/field-development/article/16759016/asia-pacific-commissioning-underway-on-philippines-malampaya-platform",
+      "source_id": "offshore-mag-com-16759016-asia-pacific-commissioning-underway-on-p"
+    }
+  ],
+  "notes": " Operating; Phase 3 compression added 2015",
+  "last_reviewed": "2026-11-24"
+}

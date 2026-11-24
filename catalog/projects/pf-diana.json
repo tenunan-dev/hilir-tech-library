@@ -1,0 +1,25 @@
+{
+  "id": "pf-diana",
+  "name": "Diana",
+  "country": "USA",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "30 m high × 6.5 m diameter suction anchors at ~1,500 m water depth, 1999",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+      "source_id": "en-wikipedia-org-wiki-suction-caisson"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

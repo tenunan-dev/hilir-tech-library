@@ -1,0 +1,25 @@
+{
+  "id": "pf-johan-sverdrup-phase-1-riser-and-processing-platforms",
+  "name": "Johan Sverdrup Phase 1 riser and processing platforms",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Aker Solutions engineering and procurement; Samsung Heavy Industries fabrication; WorleyParsons bridges and flare towers",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/johan-sverdrup-living-quarters-topside-sails-away-field",
+      "source_id": "jpt-spe-org-jpt-spe-org-johan-sverdrup-living-quarters-topside-sai"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

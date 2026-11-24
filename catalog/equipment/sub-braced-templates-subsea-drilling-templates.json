@@ -1,0 +1,40 @@
+{
+  "id": "sub-braced-templates-subsea-drilling-templates",
+  "name": "Braced templates",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": " seabed frame that positions and guides wells or manifold equipment; may be piled or suction-founded.",
+  "specifications": [
+    {
+      "metric": "Snorre concrete foundation templates",
+      "unit": "description",
+      "basis": "Wikipedia Offshore concrete structure, major structures table, row 33 (Saga, 1992)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": "3 cells with suction anchors at 310 m water depth"
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    " seabed frame that positions and guides wells or manifold equipment; may be piled or suction-founded."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

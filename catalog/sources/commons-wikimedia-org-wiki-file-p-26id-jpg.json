@@ -1,31 +1,32 @@
 {
   "id": "commons-wikimedia-org-wiki-file-p-26id-jpg",
-  "name": "Wikimedia Commons (author 'Ub', 2001)",
+  "name": "Wikimedia Commons; author 'Ub', 2001 (own work)",
   "url": "https://commons.wikimedia.org/wiki/File:P%26ID.JPG",
   "source_type": "oem-supplier",
   "sectors": [
     "UPS",
-    "MID"
+    "MID",
+    "PWR"
   ],
   "disciplines": [
+    "CIV",
     "PRC",
     "ROT",
-    "CIV",
-    "ELE",
-    "INS"
+    "MAT"
   ],
   "publisher_org": "Commons.Wikimedia.Org",
   "regions": [
     "global",
     "apac",
     "sea",
+    "eu",
     "na"
   ],
   "access": "open",
   "licence": "proprietary (site terms)",
   "reuse_level": "summary-only",
   "quality_tier": 1,
-  "verification": "unverified",
-  "last_verified": null,
-  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Generic P&ID example with equipment, piping and instrumentation symbols; useful for P&ID convention, NOT a wellhead-platform P&ID Evidence: https://commons.wikimedia.org/wiki/File:P%26ID.JPG"
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Generic P&ID example with equipment, piping and instrumentation symbols (evaporative crystallizer); useful for P&ID convention, NOT a wellhead-platform P&ID Evidence: https://commons.wikimedia.org/wiki/File:P%26ID.JPG"
 }

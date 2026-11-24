@@ -1,0 +1,32 @@
+{
+  "id": "seacamel-com-lmu",
+  "name": "SeaCamel",
+  "url": "https://seacamel.com/lmu/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Seacamel.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Referenced by Orca Offshore LMU page; SeaCamel page not fetched directly. Evidence: https://seacamel.com/lmu/"
+}

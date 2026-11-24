@@ -1,0 +1,32 @@
+{
+  "id": "jpt-spe-org-jpt-spe-org-johan-sverdrup-living-quarters-topside-sai",
+  "name": "Jpt.Spe.Org — Johan Sverdrup Phase 1 riser and processing platforms",
+  "url": "https://jpt.spe.org/johan-sverdrup-living-quarters-topside-sails-away-field",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Jpt.Spe.Org",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Aker Solutions engineering and procurement; Samsung Heavy Industries fabrication; WorleyParsons bridges and flare towers Evidence: https://jpt.spe.org/johan-sverdrup-living-quarters-topside-sails-away-field"
+}

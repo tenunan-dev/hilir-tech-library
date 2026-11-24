@@ -1,0 +1,25 @@
+{
+  "id": "pf-amenam-kpono-amp1",
+  "name": "Amenam/Kpono AMP1",
+  "country": "Nigeria",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "11,970 t integrated topsides, three decks plus mezzanine, 130 systems commissioned at yard, floatover by Mighty Servant 3",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

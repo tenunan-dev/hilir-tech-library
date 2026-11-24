@@ -1,31 +1,32 @@
 {
   "id": "offshore-mag-com-16757093-liwan-marks-first-ever-deepwater-gas-dev",
-  "name": "Offshore Magazine; image credited to CNOOC Ltd",
+  "name": "Offshore Mag.Com — Liwan 3-1 deepwater gas project (shallow-water host pla",
   "url": "https://www.offshore-mag.com/subsea/article/16757093/liwan-marks-first-ever-deepwater-gas-development-offshore-china",
   "source_type": "oem-supplier",
   "sectors": [
     "UPS",
-    "MID"
+    "MID",
+    "PWR"
   ],
   "disciplines": [
+    "CIV",
     "PRC",
     "ROT",
-    "CIV",
-    "ELE",
-    "INS"
+    "MAT"
   ],
   "publisher_org": "Offshore Mag.Com",
   "regions": [
     "global",
     "apac",
     "sea",
+    "eu",
     "na"
   ],
   "access": "open",
   "licence": "proprietary (site terms)",
   "reuse_level": "summary-only",
   "quality_tier": 1,
-  "verification": "unverified",
-  "last_verified": null,
-  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Liwan 3-1 subsea wells tied back via manifolds/flowlines to shallow-water platform and onshore Gaolan terminal Evidence: https://www.offshore-mag.com/subsea/article/16757093/liwan-marks-first-ever-deepwater-gas-development-offshore-china"
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. all above plus named figure 'Schematic of subsea tieback arrangement at Liwan 3-1' (image courtesy CNOOC Ltd) Evidence: https://www.offshore-mag.com/subsea/article/16757093/liwan-marks-first-ever-deepwater-gas-development-offshore-china"
 }

@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-471 project records (one per named project or plant, schema `schema/project.schema.json`).
+605 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -1943,6 +1943,26 @@ Technologies: ref-merox-sweetening
 
 ## UPS: Upstream
 
+### 16,000 ton jacket offshore support (Ace jacket) (pf-16-000-ton-jacket-offshore-support-ace-jacket)
+Status: **operating** | Country: unspecified
+Orca Offshore provided offshore support for a 16,000 ton jacket (March 2023).
+Technologies: civ-offshore-platform-structures
+
+### 2,500+ wind turbine foundations (pf-2-500-wind-turbine-foundations)
+Status: **operating** | Country: global
+Acteon/Menck states 2,500+ wind turbine foundations driven with its hammers.
+Technologies: civ-offshore-platform-structures
+
+### Aasta Hansteen (pf-aasta-hansteen)
+Status: **operating** | Country: Norway
+17 suction anchors
+Technologies: civ-offshore-platform-structures
+
+### Aasta Hansteen spar (pf-aasta-hansteen-spar)
+Status: **operating** | Country: Norway
+17 suction anchors; spar in 1,300 m water (2018).
+Technologies: civ-offshore-platform-structures
+
 ### ADNOC Asab Gas Injection Trunk Line-2 Relocation WHCP (wh-adnoc-asab-gas-injection-trunk-line-2-relocation-whcp)
 Status: **operating** | Country: United Arab Emirates
 Three WHCPs delivered and accepted March 2024; hydraulic control unit plus PLC logic; SIL3; two 32 L accumulators; local/remote control and ESD/PSD; integrated fire and gas control.
@@ -1988,6 +2008,26 @@ Status: **operating** | Country: Egypt
 Topside equipment included gas lift, water injection wellhead control panel, chemical injection unit and navigation aids, powered by two diesel generators.
 Technologies: ups-subsea-production-systems
 
+### Amenam/Kpono AMP1 (pf-amenam-kpono-amp1)
+Status: **operating** | Country: Nigeria
+11,970 t integrated topsides, three decks plus mezzanine, 130 systems commissioned at yard, floatover by Mighty Servant 3
+Technologies: civ-offshore-platform-structures
+
+### Anjung Kecil (pf-anjung-kecil)
+Status: **operating** | Country: Malaysia
+Tarpon minimum-facility unmanned wellhead platform, Block SK315, Sarawak; tied to MAMPU-1 FPSO
+Technologies: civ-offshore-platform-structures
+
+### Ardjuna LPG barge (pf-ardjuna-lpg-barge)
+Status: **operating** | Country: Indonesia
+First prestressed concrete barge, 43 m, 1974
+Technologies: civ-offshore-platform-structures
+
+### Argyll FPF (pf-argyll-fpf)
+Status: **operating** | Country: UK
+First semi-submersible floating production platform, converted 1975
+Technologies: civ-offshore-platform-structures
+
 ### Asgard subsea gas compression, Norwegian Sea (asgard-subsea-gas-compression-norwegian-sea)
 Status: **operating** | Country: NO
 world's first subsea gas compression facility; on stream 17 Sep 2015; phase 2 started 2025 (first module replaced 2023, second installed at 270 m); recovery from Mikkel and Midgard rising to 90%, about 306 million boe additional, about NOK 175 bn added value
@@ -1997,6 +2037,46 @@ Technologies: ups-subsea-gas-compression
 Status: **operating** | Country: Asia Pacific (country not named)
 460K HWO/snubbing unit on unmanned platform supported by tender vessels; slip-and-shear BOP stack; recovered 2-inch CT string stuck at 3,865 m; reported up to 20% production uplift.
 Technologies: ups-subsea-production-systems
+
+### Auger (Shell) (pf-auger-shell)
+Status: **operating** | Country: USA GOM
+12,700 t topsides, 2,860 ft water depth, first GOM TLP with drilling rig and full production facilities
+Technologies: civ-offshore-platform-structures
+
+### Baldpate GB 260 (pf-baldpate-gb-260)
+Status: **operating** | Country: USA
+12 skirt piles through 84 in sleeves, ~430 ft penetration
+Technologies: civ-offshore-platform-structures
+
+### Bayu Undan (pf-bayu-undan)
+Status: **operating** | Country: Australia (Timor Sea)
+jacket opening sized for Dockwise floatover vessel
+Technologies: civ-offshore-platform-structures
+
+### Bałtyk 2 & 3 offshore wind farms (pf-ba-tyk-2-3-offshore-wind-farms)
+Status: **operating** | Country: Poland
+Heerema Thialf installed 100 turbine foundations and 2 OSS jackets (2026 news item on Heerema home page).
+Technologies: civ-offshore-platform-structures
+
+### Benguela-Belize Lobito-Tomboco (pf-benguela-belize-lobito-tomboco)
+Status: **operating** | Country: Angola
+512 m tall compliant tower in 390 m water depth
+Technologies: civ-offshore-platform-structures
+
+### Bibi Eibat (pf-bibi-eibat)
+Status: **operating** | Country: Azerbaijan
+1923 well on artificial island in shallow Caspian Sea
+Technologies: civ-offshore-platform-structures
+
+### Big Foot (pf-big-foot)
+Status: **operating** | Country: USA
+Deepest ETLP 1,580 m
+Technologies: civ-offshore-platform-structures
+
+### Big Foot ETLP (pf-big-foot-etlp)
+Status: **operating** | Country: USA (Gulf of Mexico)
+Deepest ETLP at 1,580 m (2018).
+Technologies: civ-offshore-platform-structures
 
 ### Bindu WHP, offshore Terengganu (wh-bindu-whp-offshore-terengganu)
 Status: **operating** | Country: Malaysia
@@ -2023,10 +2103,55 @@ Status: **operating** | Country: Malaysia
 80,000 BWPD; 3x50% pumps/hydrocyclones + 100% CFU; guaranteed 30 ppm OIW; MMHE/PETRONAS Carigali.
 Technologies: ups-subsea-production-systems
 
+### Borkum Riffgrund / Hornsea / Aberdeen Bay (pf-borkum-riffgrund-hornsea-aberdeen-bay)
+Status: **operating** | Country: Germany/UK
+suction bucket support structures for offshore wind
+Technologies: civ-offshore-platform-structures
+
+### BorWin Epsilon / He Dreiht (pf-borwin-epsilon-he-dreiht)
+Status: **operating** | Country: Germany
+Converter platform delivered to He Dreiht wind farm 2025.
+Technologies: civ-offshore-platform-structures
+
+### Brent Alpha jacket removal (pf-brent-alpha-jacket-removal)
+Status: **operating** | Country: UK North Sea
+10,100 t jacket removed by Sleipnir in 2020 — Heerema states world record for largest single-lift jacket removal.
+Technologies: civ-offshore-platform-structures
+
+### Brent Charlie topsides removal (pf-brent-charlie-topsides-removal)
+Status: **operating** | Country: UK North Sea
+31,000 t removed in July 2024 by Pioneering Spirit, described as heaviest offshore lift ever performed.
+Technologies: civ-offshore-platform-structures
+
+### Brent Delta / Brent Bravo / Brent Charlie removals (pf-brent-delta-brent-bravo-brent-charlie-removals)
+Status: **operating** | Country: UK North Sea
+Pioneering Spirit removed 24,200 t Brent Delta (2017), 25,000 t Brent Bravo (2019), 31,000 t Brent Charlie (2024, described as heaviest offshore lift ever performed).
+Technologies: civ-offshore-platform-structures
+
+### Bullwinkle jacket (pf-bullwinkle-jacket)
+Status: **operating** | Country: USA (Gulf of Mexico)
+47,000 t jacket launched in 412 m water depth, Shell 1988; cited as largest jacket launched in the article.
+Technologies: civ-offshore-platform-structures
+
 ### BW Opal FPSO, Barossa Gas Project, Australia (wh-bw-opal-fpso-barossa-gas-project-australia)
 Status: **operating** | Country: Australia
 World's largest offshore power generation per Siemens Energy; 5 x SGT-750 combined cycle with 30 MW steam turbine.
 Technologies: ups-subsea-production-systems
+
+### BW Pioneer (pf-bw-pioneer)
+Status: **operating** | Country: USA (converted Malaysia)
+2,600 m water depth, 80,000 bbl/d, disconnectable turret
+Technologies: civ-offshore-platform-structures
+
+### Chevron Benguela Belize compliant tower piles (pf-chevron-benguela-belize-compliant-tower-piles)
+Status: **operating** | Country: Angola
+Thialf installed heaviest single-piece foundation piles: 2.74 m diameter x 190 m long, 818 t each (2005).
+Technologies: civ-offshore-platform-structures
+
+### Chikyū (pf-chiky)
+Status: **operating** | Country: Japan
+Scientific drillship, 7 km below seabed capability
+Technologies: civ-offshore-platform-structures
 
 ### Clair Ridge low-salinity waterflood project, west of Shetland (clair-ridge-low-salinity-waterflood-project-west-of-shetland)
 Status: **operating** | Country: GB
@@ -2048,6 +2173,21 @@ Status: **operating** | Country: China
 Honeywell Experion PKS DCS, Safety Manager ESD, F&G, combustible/toxic/flame detectors; four 160,000 m3 LNG tanks; search-verified case study.
 Technologies: ups-subsea-production-systems
 
+### Coral South FLNG (ENI) (pf-coral-south-flng-eni)
+Status: **operating** | Country: Mozambique
+turret weight ~8,000 MT, HIPPS 400 bar/143 bar
+Technologies: civ-offshore-platform-structures
+
+### Coulomb to NaKika (pf-coulomb-to-nakika)
+Status: **operating** | Country: USA
+2,307 m subsea tieback, 2004
+Technologies: civ-offshore-platform-structures
+
+### Crux jacket (pf-crux-jacket)
+Status: **operating** | Country: Australia
+24,000 t jacket under tow with support vessels, Shell and McDermott 2025.
+Technologies: civ-offshore-platform-structures
+
 ### D18 Phase 2 and D28 Phase 1 conductor-supported platforms, Sarawak (wh-d18-phase-2-and-d28-phase-1-conductor-supported-platforms-sarawak)
 Status: **operating** | Country: Malaysia
 D18 Phase 2 installed in 35 m water depth for OceanMight on behalf of PETRONAS Carigali; lightweight conductor-supported substructure and topside installed by jack-up drilling rig; eighth conductor-supported platform installed in Malaysian waters by 2H Kuala Lumpur office.
@@ -2063,10 +2203,45 @@ Status: **operating** | Country: CN
 average incremental recovery about 11% over waterflooding across tested blocks
 Technologies: ups-chemical-eor
 
+### Deep-draft semisubmersible FPU concepts (pf-deep-draft-semisubmersible-fpu-concepts)
+Status: **operating** | Country: various
+authors compare 20,000 t crane floatover, heavy-lift derrick barge, jacking system, Kiewit Heavy Lift Device and multiple modular lifts
+Technologies: civ-offshore-platform-structures
+
+### Dhirubhai Deepwater KG1 (pf-dhirubhai-deepwater-kg1)
+Status: **operating** | Country: India
+3,107 m water-depth record in 2011 for Reliance
+Technologies: civ-offshore-platform-structures
+
+### Diana (pf-diana)
+Status: **operating** | Country: USA
+30 m high × 6.5 m diameter suction anchors at ~1,500 m water depth, 1999
+Technologies: civ-offshore-platform-structures
+
 ### DNO Block 47 early production facility, Yemen (wh-dno-block-47-early-production-facility-yemen)
 Status: **operating** | Country: Yemen
 SPEC horizontal three-phase separator skid reference, 2015.
 Technologies: ups-subsea-production-systems
+
+### DolWin Kappa converter station (pf-dolwin-kappa-converter-station)
+Status: **operating** | Country: Germany (North Sea)
+900 MW offshore converter station transport and installation, 2022.
+Technologies: civ-offshore-platform-structures
+
+### Dongfang gas fields topside load-out (pf-dongfang-gas-fields-topside-load-out)
+Status: **operating** | Country: China
+18,000 t topside skidded from Zhuhai yard onto heavy-lift barge using 4 x 850 t strand jacks; float-over transported onto jacket in South China Sea.
+Technologies: civ-offshore-platform-structures
+
+### Dongfang gas fields, South China Sea (pf-dongfang-gas-fields-south-china-sea)
+Status: **operating** | Country: China
+Mammoet performed 18,000 t topside load-out at Zhuhai yard and float-over transportation onto an offshore jacket; used 4 x 850 t strand jacks, 4 x 2,400 t ballast pumps, 12 x 1,000 t de-ballast pumps; field 132 km west of Dongfang City, expected up to 43,000 boepd.
+Technologies: civ-offshore-platform-structures
+
+### Draugen (pf-draugen)
+Status: **operating** | Country: Norway
+Condeep monotower concrete platform at 251 m, installed 1993
+Technologies: civ-offshore-platform-structures
 
 ### Dvalin North (wh-dvalin-north)
 Status: **operating** | Country: Norway
@@ -2083,6 +2258,11 @@ Status: **operating** | Country: NO
 116 mmboe gross recoverable; four templates with 12 all-electric trees (SLB OneSubsea)
 Technologies: ups-all-electric-subsea
 
+### Fenris (Aker BP) (pf-fenris-aker-bp)
+Status: **operating** | Country: Norway
+2,600 t unmanned wellhead platform
+Technologies: civ-offshore-platform-structures
+
 ### First SPM facility (wh-first-spm-facility)
 Status: **operating** | Country: Malaysia/SEA
 1959 Shell Malaysia CALM Type Gusto in 48 ft water depth, concept developed by Esso, first SPM facility
@@ -2098,20 +2278,100 @@ Status: **operating** | Country: MY
 120,000 bopd process capacity; water depth about 1,300 m; first deepwater FPSO in Malaysia and Asia
 Technologies: ups-fpso-floating-production
 
+### FPSO mooring line hook-up (Brazil, torpedo anchors) (pf-fpso-mooring-line-hook-up-brazil-torpedo-anchors)
+Status: **operating** | Country: Brazil
+Oceaneering case study advertises high-precision subsea survey, real-time anchor positioning and ROV support for FPSO mooring hook-up — search-verified snippet only.
+Technologies: civ-offshore-platform-structures
+
 ### Gorek platform, Malaysia (wh-gorek-platform-malaysia)
 Status: **operating** | Country: Malaysia
 Minimal facility wellhead platform fully powered by solar energy, precursor to Timi hybrid power.
 Technologies: ups-subsea-production-systems
+
+### Gorm field (pf-gorm-field)
+Status: **operating** | Country: Denmark
+12 small suction caissons for loading buoy at 40 m depth, 1981
+Technologies: civ-offshore-platform-structures
+
+### Gudrun (pf-gudrun)
+Status: **operating** | Country: Norway
+Fixed processing platform, 7,400 t steel jacket, 361 ft water depth, 16 well slots, first oil April 2014
+Technologies: civ-offshore-platform-structures
+
+### Gullfaks C (pf-gullfaks-c)
+Status: **operating** | Country: Norway
+380 m tall, 1.4-1.5 Mt displacement, 216/217 m depth
+Technologies: civ-offshore-platform-structures
+
+### Gyda platform removal (pf-gyda-platform-removal)
+Status: **operating** | Country: Norway
+30,000 t complete platform single-lift removal 2021/2022.
+Technologies: civ-offshore-platform-structures
 
 ### Haynesville Shale HPHT sour gas well test, Texas (wh-haynesville-shale-hpht-sour-gas-well-test-texas)
 Status: **operating** | Country: USA
 SLB 42 in 1440 psi NACE separator in 15K psi package with zero NPT; search-verified case study.
 Technologies: ups-subsea-production-systems
 
+### Hebron (pf-hebron)
+Status: **operating** | Country: Canada
+Concrete GBS, 93 m depth, 1.2 million bbl storage
+Technologies: civ-offshore-platform-structures
+
+### Hebron GBS, offshore Canada (pf-hebron-gbs-offshore-canada)
+Status: **operating** | Country: Canada
+gravity-base structure topsides shown with drilling, utilities, flare boom, living quarter modules
+Technologies: civ-offshore-platform-structures
+
+### Heidrun (pf-heidrun)
+Status: **operating** | Country: Norway
+Concrete TLP hull, 350 m depth
+Technologies: civ-offshore-platform-structures
+
+### Hibernia (pf-hibernia)
+Status: **operating** | Country: Canada
+450,000 t GBS, ice wall with 16 teeth, 80 m depth
+Technologies: civ-offshore-platform-structures
+
+### Hugin B (Aker BP) (pf-hugin-b-aker-bp)
+Status: **operating** | Country: Norway
+2,100 t normally unmanned wellhead platform; fabrication at Verdal
+Technologies: civ-offshore-platform-structures
+
 ### Huldra DEH pipeline (North Sea) (huldra-deh-pipeline-north-sea)
 Status: **operating** | Country: NO
 16 km DEH piggybacked pipeline; activated about 60 times since commissioning in May 2002 — first commercial DEH use in the source
 Technologies: ups-direct-electrical-heating-tiebacks
+
+### Hutton (pf-hutton)
+Status: **operating** | Country: UK
+World's first TLP, 1984, 16 tension legs
+Technologies: civ-offshore-platform-structures
+
+### Hutton (Conoco) (pf-hutton-conoco)
+Status: **operating** | Country: UK North Sea
+first TLP, 1984; 20,000 Te integrated topsides fabricated at Ardersier
+Technologies: civ-offshore-platform-structures
+
+### Hutton TLP (pf-hutton-tlp)
+Status: **operating** | Country: UK North Sea
+First TLP, Conoco, early 1980s; 16 tension legs; hull/deck mated in Moray Firth 1984.
+Technologies: civ-offshore-platform-structures
+
+### HVDC converter platforms (BorWin type) (pf-hvdc-converter-platforms-borwin-type)
+Status: **operating** | Country: Germany
+Trelleborg lists offshore wind HVDC as an LMU application; Wikipedia HVDC pages describe float-over-type topsides jacked up after float-out (search result only, pages not read).
+Technologies: civ-offshore-platform-structures
+
+### Hywind Scotland (pf-hywind-scotland)
+Status: **operating** | Country: UK
+World's first commercial floating wind farm, 30 MW, 2017
+Technologies: civ-offshore-platform-structures
+
+### Hywind Tampen (pf-hywind-tampen)
+Status: **operating** | Country: Norway
+World's first floating wind farm built to power offshore oil and gas installations; 11 turbines, 260-300 m water depth
+Technologies: civ-offshore-platform-structures
 
 ### Ichthys CPF (wh-ichthys-cpf)
 Status: **operating** | Country: Australia/APAC
@@ -2133,6 +2393,16 @@ Status: **operating** | Country: Australia/APAC
 Subsea tieback to CPF; gas export pipeline to onshore LNG plant with two 4.2 mtpa trains; condensate stored and exported via offtake tankers
 Technologies: ups-subsea-production-systems
 
+### Ichthys LNG — Central Processing Facility and FPSO (pf-ichthys-lng-central-processing-facility-and-fpso)
+Status: **operating** | Country: Australia
+substructure_type: Semi-submersible CPF (one of largest of its kind) + ship-shaped FPSO; subsea production system | topside_type: CPF separates gas/condensate from flexible risers; FPSO stores and offloads condensate | water_depth: Up to 250 m along gas export pipeline route (per INPEX concept page) | topside_weight: Not stated on pages read | installation_method: Subsea wells -> manifolds -> flowlines/flexible risers -> CPF; CPF gas to 890 km pipeline; condensate to FPSO and offtake tankers (arrangement shown in Figures 1 and 3 of the INPEX factsheet). Detailed installation method not stated on pages read. | contractor: INPEX Ichthys Pty Ltd (operator/developer) | dates: Not stated on pages actually read
+Technologies: civ-offshore-platform-structures
+
+### Independence Hub (pf-independence-hub)
+Status: **operating** | Country: USA
+Deepest semi-submersible at 2,438 m, Gulf of Mexico, 2007
+Technologies: civ-offshore-platform-structures
+
 ### IRONG wellhead platform, Malaysia (wh-irong-wellhead-platform-malaysia)
 Status: **operating** | Country: Malaysia
 Vestigo Petroleum satellite wellhead platforms; rigid pipeline from IRONG WHP to PLET and flexible flowline from PLET to Berantai FPSO; unmanned minimal facilities WHP; topside weight 350 tonnes.
@@ -2153,10 +2423,45 @@ Status: **operating** | Country: Norway
 SGT-750 gas turbines minimise weight and footprint; listed on Siemens Energy FPSO page.
 Technologies: ups-subsea-production-systems
 
+### Johan Sverdrup (pf-johan-sverdrup)
+Status: **operating** | Country: Norway
+flare towers delivered 2018 and 2019 by WorleyParsons
+Technologies: civ-offshore-platform-structures
+
+### Johan Sverdrup Phase 1 & 2 (pf-johan-sverdrup-phase-1-2)
+Status: **operating** | Country: Norway
+P2 24,000 t; DP 22,000 t; 560-bed living quarters topside sail-away 2019; 5,000 t additional riser-platform module delivered 2021
+Technologies: civ-offshore-platform-structures
+
+### Johan Sverdrup Phase 1 & 2 (Norway) (pf-johan-sverdrup-phase-1-2-norway)
+Status: **operating** | Country: Norway
+Pioneering Spirit single-lift installation of DP (2018), P1 (26,000 t) and LQ topsides (2019); P2 process topsides 2022.
+Technologies: civ-offshore-platform-structures
+
+### Johan Sverdrup Phase 1 riser and processing platforms (pf-johan-sverdrup-phase-1-riser-and-processing-platforms)
+Status: **operating** | Country: Norway
+Aker Solutions engineering and procurement; Samsung Heavy Industries fabrication; WorleyParsons bridges and flare towers
+Technologies: civ-offshore-platform-structures
+
 ### Johan Sverdrup power-from-shore (Equinor), North Sea (johan-sverdrup-power-from-shore-equinor-north-sea)
 Status: **operating** | Country: NO
 field producing since Oct 2019 entirely on hydropower from shore; CO2 emissions 0.67 kg/bbl vs about 9 kg/bbl NCS average; launch estimate 460,000 t CO2/yr avoided, Equinor now states more than 620,000 t/yr
 Technologies: ups-platform-electrification
+
+### Johan Sverdrup riser platform (pf-johan-sverdrup-riser-platform)
+Status: **operating** | Country: Norway
+5,000 t additional module delivered 2021 and lifted by Sleipnir
+Technologies: civ-offshore-platform-structures
+
+### Johan Sverdrup utility and living quarters topside (pf-johan-sverdrup-utility-and-living-quarters-topside)
+Status: **operating** | Country: Norway
+560 beds; KBR/Kvaerner JV with Leirvik modules; described as close to 'plug-n-play'
+Technologies: civ-offshore-platform-structures
+
+### Kanowit FLNG (pf-kanowit-flng)
+Status: **operating** | Country: Malaysia
+Petronas contract with Technip/DSME, 2012, off Sarawak
+Technologies: civ-offshore-platform-structures
 
 ### Kashagan MPFM deployment (NCOC/Schlumberger), Kashagan field, Kazakhstan (kashagan-mpfm-deployment-ncoc-schlumberger-kashagan-field-kazakhstan)
 Status: **operating** | Country: KZ
@@ -2168,15 +2473,85 @@ Status: **operating** | Country: Malaysia
 Two wellhead platforms in 70-85 m water depth, 200 km offshore Bintulu; 20-year operational lifespan; relocatable; each has three 20-inch conductor slots internal to the caisson, two utilised and one spare; client PETRONAS Carigali.
 Technologies: ups-subsea-production-systems
 
+### KBM Cluster (Kapal, Banang, Meranti) (pf-kbm-cluster-kapal-banang-meranti)
+Status: **operating** | Country: Malaysia
+MOPU processing at 60 m water depth, 25,000 bpd water treatment
+Technologies: civ-offshore-platform-structures
+
+### Kebabangan (pf-kebabangan)
+Status: **operating** | Country: Malaysia
+Fixed eight-leg steel jacket 12,300 t at 142 m water depth
+Technologies: civ-offshore-platform-structures
+
+### Kikeh (pf-kikeh)
+Status: **operating** | Country: Malaysia
+142 m × 32 m truss spar dry tree unit, 1,310-1,330 m, first Malaysian deepwater development
+Technologies: civ-offshore-platform-structures
+
+### Kikeh FPSO (pf-kikeh-fpso)
+Status: **operating** | Country: Malaysia
+337 m × 54.6 m, 273,000 dwt, 2 million bbl, 120,000 bpd
+Technologies: civ-offshore-platform-structures
+
+### Kikeh spar (pf-kikeh-spar)
+Status: **operating** | Country: Malaysia
+Truss spar in 1,310 m water, South China Sea — only spar installed outside Gulf of Mexico per Wikipedia list; anchor type not stated on page.
+Technologies: civ-offshore-platform-structures
+
+### Kincardine (pf-kincardine)
+Status: **operating** | Country: UK
+48-50 MW semi-submersible WindFloat, 60-80 m depth, 2021
+Technologies: civ-offshore-platform-structures
+
+### Kizomba A (pf-kizomba-a)
+Status: **operating** | Country: Angola
+1,177 m TLP; associated FPSO storage 2.2 million bbl
+Technologies: civ-offshore-platform-structures
+
+### LAM-E topside (North Sea, Netherlands) (pf-lam-e-topside-north-sea-netherlands)
+Status: **operating** | Country: Netherlands
+Orca Offshore and SeaCamel developed an LMU allowing direct welding of topside to jacket after set-down, eliminating sand-jack phase.
+Technologies: civ-offshore-platform-structures
+
+### LAM-E topside float-over (pf-lam-e-topside-float-over)
+Status: **operating** | Country: Netherlands/North Sea
+Direct-weld LMU used; no sand-jack lowering phase.
+Technologies: civ-offshore-platform-structures
+
+### Lena (pf-lena)
+Status: **operating** | Country: USA
+First compliant tower, guyed, Exxon, 1983, 396 m tall, 24,000-27,000 t jacket
+Technologies: civ-offshore-platform-structures
+
+### Leviathan gas field topsides (record crane lift) (pf-leviathan-gas-field-topsides-record-crane-lift)
+Status: **operating** | Country: Israel/Mediterranean
+Sleipnir lifted 15,300 t topsides in September 2019 — record at the time.
+Technologies: civ-offshore-platform-structures
+
 ### Lingshui 17-2 (wh-lingshui-17-2)
 Status: **operating** | Country: China (South China Sea, APAC)
 CNOOC deepwater gas field, water depths up to about 1,500 m; 11 horizontal trees, four manifolds, >70 km static and dynamic umbilicals to a semisubmersible platform
 Technologies: ups-subsea-production-systems
 
+### Liwan 3-1 CEP (pf-liwan-3-1-cep)
+Status: **operating** | Country: China (South China Sea)
+jacket and topsides each >30,000 t; jacket launched, topsides float-over; modified HYSY229 installation barge
+Technologies: civ-offshore-platform-structures
+
 ### Long Lake SAGD with in-field upgrader (Nexen, later CNOOC), Alberta (long-lake-sagd-with-in-field-upgrader-nexen-later-cnooc-alberta)
 Status: **operating** | Country: CA
 design 72,000 bpd bitumen (SAGD + integrated in-field upgrader); operator guided 38,000-45,000 bpd for 2011
 Technologies: ups-heavy-oil-upgrading-in-field
+
+### Lun-A (Sakhalin) (pf-lun-a-sakhalin)
+Status: **operating** | Country: Russia
+Concrete gravity base substructure off northeastern Sakhalin Island.
+Technologies: civ-offshore-platform-structures
+
+### Lun-A CGBS (pf-lun-a-cgbs)
+Status: **operating** | Country: Russia (Sakhalin)
+Concrete gravity base substructure platform shown in Wikipedia oil platform article; float-out/float-in concept described for Condeep-type structures.
+Technologies: civ-offshore-platform-structures
 
 ### Makat and Balgymbaeva gas treatment units, Kazakhstan (wh-makat-and-balgymbaeva-gas-treatment-units-kazakhstan)
 Status: **operating** | Country: Kazakhstan
@@ -2188,15 +2563,65 @@ Status: **operating** | Country: Kazakhstan
 SPEC scope included glycol dehydration and dew point control alongside condensate stabilisation, 2013.
 Technologies: ups-subsea-production-systems
 
+### Malampaya (pf-malampaya)
+Status: **operating** | Country: Philippines
+112 x 70 x 16 m CGS, 43 m water depth, 13,000 t topsides
+Technologies: civ-offshore-platform-structures
+
+### Malampaya Phase III DCP (pf-malampaya-phase-iii-dcp)
+Status: **operating** | Country: Philippines
+self-installing jack-up-type deepwater completion platform, ~12,000 t loadout
+Technologies: civ-offshore-platform-structures
+
+### Malampaya shallow-water platform (original gas processing platform) (pf-malampaya-shallow-water-platform-original-gas-processing-platform)
+Status: **operating** | Country: Philippines
+substructure_type: Concrete gravity substructure (CGS), rectangular caisson with four shafts | topside_type: Three-level integrated deck (weather, production, cellar decks) plus accommodation module | water_depth: 43 m at platform; subsea wells at approx. 820-850 m | topside_weight: 13,000 t initial operating weight; load-out weight 10,000 t excluding transportation frame (Offshore Technology); 11,500 t at installation (Offshore Magazine, KBR) — source-specific values | installation_method: Float-over of integrated topsides by KBR in mid-March 2001 using H-541 barge; 36 pumps transferred >21,000 t/h seawater; full weight transfer in 57 minutes; CGS installed summer 2000 on seabed prepared with 17,000 t rock in 361 mounds; 75,000 t iron ore ballast in open cells; 3,000 t rock scour protection | contractor: Brown & Root / KBR (EPCI, $432m contract awarded Aug 1998); topsides fabrication Se
+Technologies: civ-offshore-platform-structures
+
+### Malikai (pf-malikai)
+Status: **operating** | Country: Malaysia
+26,000 t TLP, 500 m, first in Malaysia
+Technologies: civ-offshore-platform-structures
+
+### Maureen ALC (pf-maureen-alc)
+Status: **operating** | Country: UK
+Concrete articulated loading column in 92 m, 1982, removed
+Technologies: civ-offshore-platform-structures
+
 ### Mero 3 FPSO, Brazil (wh-mero-3-fpso-brazil)
 Status: **operating** | Country: Brazil
 Siemens Energy power generation reference listed on FPSO solutions page.
 Technologies: ups-subsea-production-systems
 
+### Mexilhão PMXL-1 (pf-mexilh-o-pmxl-1)
+Status: **operating** | Country: Brazil
+180 m jacket ~10,500 t, 3,150 t piles up to 120 m, 172 m water depth, 12,000 t topsides
+Technologies: civ-offshore-platform-structures
+
+### Miller (pf-miller)
+Status: **operating** | Country: UK
+12 modules; living quarter module an independent five-level structure with 98 cabins/196 beds
+Technologies: civ-offshore-platform-structures
+
+### Miller (BP), North Sea (pf-miller-bp-north-sea)
+Status: **operating** | Country: UK
+topsides installed with twelve modules; five-level living quarter with 98 cabins / 196 beds
+Technologies: civ-offshore-platform-structures
+
 ### MMC D1 cluster WHSF, D30 and Dana fields, offshore Sarawak (wh-mmc-d1-cluster-whsf-d30-and-dana-fields-offshore-sarawak)
 Status: **operating** | Country: Malaysia
 Approximately 45 m water depth; substructure acts as drilling template with 36-inch conductors driven and grouted into four 40-inch legs doubling as structural piles; D30 accommodates at least eight wells, Dana at least five; JOC partners Petronas Carigali, Pertamina and Petrovietnam; 24-inch internal conductors.
 Technologies: ups-subsea-production-systems
+
+### Mumbai Coastal Road Project (pf-mumbai-coastal-road-project)
+Status: **operating** | Country: India
+4 no. HLMUs and 8 no. stabbing cones supplied (Hi-Tech Elastomers).
+Technologies: civ-offshore-platform-structures
+
+### Mumbai Coastal Road Project (LMUs & stabbing cones) (pf-mumbai-coastal-road-project-lmus-stabbing-cones)
+Status: **operating** | Country: India
+Hi-Tech Elastomers supplied 4 HLMUs and 8 stabbing cones for float-over jacket/topside operations.
+Technologies: civ-offshore-platform-structures
 
 ### Muskeg River Mine (Albian Sands Energy, Shell-led), Athabasca, Alberta (muskeg-river-mine-albian-sands-energy-shell-led-athabasca-alberta)
 Status: **operating** | Country: CA
@@ -2208,6 +2633,31 @@ Status: **operating** | Country: US
 world's first fully automated land drilling rig; purpose-built proving ground for drilling automation
 Technologies: ups-drilling-automation
 
+### Neptune (pf-neptune)
+Status: **operating** | Country: USA
+First production spar, classic, 1996, 588 m
+Technologies: civ-offshore-platform-structures
+
+### Neptune (Oryx/CNG) (pf-neptune-oryx-cng)
+Status: **operating** | Country: USA GOM
+first production spar 1996, 1,930 ft water depth, 6,600 t topsides
+Technologies: civ-offshore-platform-structures
+
+### Ninian Northern platform removal (pf-ninian-northern-platform-removal)
+Status: **operating** | Country: UK North Sea
+23,000 t complete platform removed in single lift 2020.
+Technologies: civ-offshore-platform-structures
+
+### Noble Lloyd Noble (pf-noble-lloyd-noble)
+Status: **operating** | Country: USA
+Tallest jackup built, 214 m legs, completed 2016
+Technologies: civ-offshore-platform-structures
+
+### Northstar Island (pf-northstar-island)
+Status: **operating** | Country: USA
+Artificial drilling island, Beaufort Sea
+Technologies: civ-offshore-platform-structures
+
 ### Occidental Petroleum of Qatar — directional casing while drilling at Idd Shargi North Dome (offshore Qatar) (occidental-petroleum-of-qatar-directional-casing-while-drilling-at-idd-s)
 Status: **operating** | Country: QA
 12-1/4-in. horizontal production and injection wells landed up to 86 deg inclination into the top of the Shuaiba, with 9-5/8-in. casing drilled and set through the unstable Nahr Umr shale
@@ -2217,6 +2667,16 @@ Technologies: ups-casing-drilling-expandable-tubulars
 Status: **operating** | Country: RU
 world-record extended-reach well at completion: 12,345 m measured depth (40,502 ft)
 Technologies: ups-extended-reach-multilateral-wells
+
+### Olympus / Mars B (Shell) (pf-olympus-mars-b-shell)
+Status: **operating** | Country: USA GOM
+22,400 t topsides, 342,000 ft2 deck, 24 well slots, 100,000 BOEPD
+Technologies: civ-offshore-platform-structures
+
+### Olympus TLP (pf-olympus-tlp)
+Status: **operating** | Country: USA GOM
+2-million-lbm hook load rig centred on topsides; rig tied into platform power grid
+Technologies: civ-offshore-platform-structures
 
 ### OMV Mehar sour gas processing facility, Pakistan (wh-omv-mehar-sour-gas-processing-facility-pakistan)
 Status: **operating** | Country: Pakistan
@@ -2233,6 +2693,16 @@ Status: **operating** | Country: Norway
 One of 16 receiving scrubbers assembled in shop; shown in SLB phase separation internals brochure (search-verified).
 Technologies: ups-subsea-production-systems
 
+### P63 FPSO (Petrobras) (pf-p63-fpso-petrobras)
+Status: **operating** | Country: Brazil
+23 process plant modules installed during conversion; 1,500 people at peak
+Technologies: civ-offshore-platform-structures
+
+### Patimban Deep Sea Port, Indonesia (pf-patimban-deep-sea-port-indonesia)
+Status: **operating** | Country: Indonesia
+Concrete spun pile driving with diesel hammer shown in Wikipedia pile driver article (photo caption) — APAC relevant but no quantitative data.
+Technologies: civ-offshore-platform-structures
+
 ### PEGAGA development, Malaysia (wh-pegaga-development-malaysia)
 Status: **operating** | Country: Malaysia
 12,000 BWPD; hydrocyclones + CFU; 2,000 to 20 ppm OIW; Sapura Energy/Mubadala Petroleum.
@@ -2242,6 +2712,21 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: Malaysia
 Tai Crest Resources awarded contract to supply flare ignition package in 2019.
 Technologies: ups-subsea-production-systems
+
+### Perdido (pf-perdido)
+Status: **operating** | Country: USA
+Deepest spar, truss, 2,383 m mooring depth
+Technologies: civ-offshore-platform-structures
+
+### Perdido (Shell) (pf-perdido-shell)
+Status: **operating** | Country: USA GOM
+9,500-ton single-lift topsides on 2,450 m water depth spar; three decks
+Technologies: civ-offshore-platform-structures
+
+### Perdido spar (pf-perdido-spar)
+Status: **operating** | Country: USA GOM
+three-deck single-lift topsides supporting oil/gas processing, drilling rig and living quarters
+Technologies: civ-offshore-platform-structures
 
 ### Perdido subsea boosting (Baker Hughes), Gulf of Mexico (perdido-subsea-boosting-baker-hughes-gulf-of-mexico)
 Status: **operating** | Country: US
@@ -2258,6 +2743,46 @@ Status: **operating** | Country: BR
 2 rigs equipped for MPD as of mid-2014, planned expansion to 12 by end-2015 and 16 by 2016; seven wells drilled with MPD at the time
 Technologies: ups-managed-pressure-drilling
 
+### Petronius (pf-petronius)
+Status: **operating** | Country: USA
+Deepest compliant tower, 623 m
+Technologies: civ-offshore-platform-structures
+
+### PFLNG1 / FLNG Satu (PETRONAS) (pf-pflng1-flng-satu-petronas)
+Status: **operating** | Country: Malaysia
+1.2 Mtpa LNG, 21 topsides modules, one flare, 1.2 MTPA design, offshore Malaysia 70-200 m water depth
+Technologies: civ-offshore-platform-structures
+
+### Prelude FLNG (pf-prelude-flng)
+Status: **operating** | Country: Australia
+488 m, >600,000 t, 3.6 mtpa LNG, ~200-475 km off Broome; first cargo June 2019
+Technologies: civ-offshore-platform-structures
+
+### Prelude FLNG (Shell) (pf-prelude-flng-shell)
+Status: **operating** | Country: Australia
+>80,000 t topsides, 488 x 74 m hull, 250 m water depth, 10,000-year cyclonic design, 5.3 Mtpa total capacity
+Technologies: civ-offshore-platform-structures
+
+### Prelude FLNG living quarters (pf-prelude-flng-living-quarters)
+Status: **operating** | Country: Australia
+temporary refuge, designated living quarters separated from processes by utilities and safety gap
+Technologies: civ-offshore-platform-structures
+
+### Provence Grand Large (pf-provence-grand-large)
+Status: **operating** | Country: France
+25 MW TLP floater, 2024
+Technologies: civ-offshore-platform-structures
+
+### Red Hawk (pf-red-hawk)
+Status: **operating** | Country: USA
+Only cell spar, 1,615 m, decommissioned 2014 under Rigs-to-Reefs
+Technologies: civ-offshore-platform-structures
+
+### Red Hawk spar decommissioning (pf-red-hawk-spar-decommissioning)
+Status: **operating** | Country: USA (Gulf of Mexico)
+Decommissioned 2014 under Rigs-to-Reefs.
+Technologies: civ-offshore-platform-structures
+
 ### Salsabil sour gas plant, Pakistan (wh-salsabil-sour-gas-plant-pakistan)
 Status: **operating** | Country: Pakistan
 Dewan Petroleum, 2008; two 30 MMSCFD TEG trains plus two 30 MMSCFD amine trains in a 60 MMSCFD plant.
@@ -2273,6 +2798,11 @@ Status: **operating** | Country: Scotland/UK
 114 jackets 2,000-2,250 t, 77.5-93 m height, suction caisson diameter 10.5-11.5 m; scour protection and grouting; 312 km 66 kV cables
 Technologies: ups-subsea-production-systems
 
+### Seagreen offshore wind farm (pf-seagreen-offshore-wind-farm)
+Status: **operating** | Country: UK
+Saipem 7000 installing 114 jacket foundations ~27 km east of Montrose, Scotland (per Wikipedia page, current at time of read).
+Technologies: civ-offshore-platform-structures
+
 ### Shahbazpur gas field, Bangladesh (wh-shahbazpur-gas-field-bangladesh)
 Status: **operating** | Country: Bangladesh
 SPEC designed/supplied 2 x 35 MMSCFD TEG dehydration plant for BAPEX with commissioning support.
@@ -2282,6 +2812,11 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: Brazil
 First Subsea 2.0 tree installed in 2021; 100th tree (2025) for a Shell Gulf of America project
 Technologies: ups-subsea-production-systems
+
+### Shell Perdido spar (pf-shell-perdido-spar)
+Status: **operating** | Country: USA (Gulf of Mexico)
+lightweight single-lift topsides installed by Thialf in March 2009, living quarter added three days later
+Technologies: civ-offshore-platform-structures
 
 ### Shell Silvertip, Perdido development, Gulf of Mexico (wh-shell-silvertip-perdido-development-gulf-of-mexico)
 Status: **operating** | Country: United States
@@ -2303,10 +2838,30 @@ Status: **operating** | Country: Malaysia
 3,200 BWPD; HP hydrocyclone + compact gas flotation; 3,000 to 20 ppmV; MMHE/SapuraOMV.
 Technologies: ups-subsea-production-systems
 
+### Skarv (pf-skarv)
+Status: **operating** | Country: Norway
+292 m FPSO, 19 million m3/d gas, 13,500 m3/d oil
+Technologies: civ-offshore-platform-structures
+
 ### Skarv Satellites (wh-skarv-satellites)
 Status: **operating** | Country: Norway
 Seven vertical trees, three 4-slot template/manifolds, one cluster manifold; 60 km umbilicals; tie-back to Alvheim FPSO
 Technologies: ups-subsea-production-systems
+
+### Snorre / Heidrun / Jolliet (pf-snorre-heidrun-jolliet)
+Status: **operating** | Country: Norway / USA
+Snorre full drilling and workover package; Heidrun concrete hull TLP; Jolliet wellhead TLP with small workover rig only
+Technologies: civ-offshore-platform-structures
+
+### Snorre A (pf-snorre-a)
+Status: **operating** | Country: Norway
+TLP secured with 12 m suction caissons analysed by NGI, 1992.
+Technologies: civ-offshore-platform-structures
+
+### Snorre CFT (pf-snorre-cft)
+Status: **operating** | Country: Norway
+3-cell concrete foundation templates, suction anchors, 310 m
+Technologies: civ-offshore-platform-structures
 
 ### Snøhvit (wh-sn-hvit)
 Status: **operating** | Country: Norway
@@ -2348,15 +2903,35 @@ Status: **operating** | Country: Iraq
 50,000 BOPD facility; 2 electrostatic dehydrators and 2 crude cross exchangers, designed/fabricated/tested by SPEC, 2019.
 Technologies: ups-subsea-production-systems
 
+### Tarsiut Island (pf-tarsiut-island)
+Status: **operating** | Country: Canada
+4 hollow caissons, Beaufort Sea, 16 m, removed
+Technologies: civ-offshore-platform-structures
+
 ### TechnipFMC subsea wellhead installations (regional tally from Subsea Drilling Services brochure) (wh-technipfmc-subsea-wellhead-installations-regional-tally-from-subsea-dr)
 Status: **operating** | Country: multiple regions
 North America 665 UWD systems installed; South America 74; Africa/Mediterranean 553; Europe/Russia 675; Asia/Australia 328 (brochure figures, undated beyond 2018 publication date).
 Technologies: ups-subsea-production-systems
 
+### Terra Nova FPSO (pf-terra-nova-fpso)
+Status: **operating** | Country: Canada
+example of disconnectable turret technology
+Technologies: civ-offshore-platform-structures
+
 ### Three enclosed ground flares, Assam gas gathering stations, ONGC (wh-three-enclosed-ground-flares-assam-gas-gathering-stations-ongc)
 Status: **operating** | Country: India
 LSTK delivery replacing atmospheric venting with enclosed combustion; CRA case study listed on fetched KO drum page.
 Technologies: ups-subsea-production-systems
+
+### Thunder Horse PDQ dry transport (not floating installation) (pf-thunder-horse-pdq-dry-transport-not-floating-installation)
+Status: **operating** | Country: USA
+Moved by semi-submersible heavy transport vessel Blue Marlin in 2004.
+Technologies: civ-offshore-platform-structures
+
+### Thunder Horse PDQ transport (pf-thunder-horse-pdq-transport)
+Status: **operating** | Country: USA/South Korea
+Blue Marlin transported BP's then-largest semi-submersible platform from DSME yard to Kiewit Offshore Services, Ingleside, Texas, 2004.
+Technologies: civ-offshore-platform-structures
 
 ### Timi WHP comparison case (wh-timi-whp-comparison-case)
 Status: **operating** | Country: Malaysia
@@ -2378,15 +2953,35 @@ Status: **operating** | Country: Nigeria
 SPEC supplied two gas filter separator skids plus scrubber, drain vessel and injection manifold skids, 2019.
 Technologies: ups-subsea-production-systems
 
+### Troll A (pf-troll-a)
+Status: **operating** | Country: Norway
+472 m tall Condeep, 1.2 Mt launch weight, 300 m water depth
+Technologies: civ-offshore-platform-structures
+
+### Troll A (Norway) (pf-troll-a-norway)
+Status: **operating** | Country: Norway
+Condeep-type concrete GBS, 330 m water depth, 30 m skirts, 600 kt structure.
+Technologies: civ-offshore-platform-structures
+
 ### Troll A Condeep gravity-based structure (Troll field, Norwegian North Sea) (troll-a-condeep-gravity-based-structure-troll-field-norwegian-north-sea)
 Status: **operating** | Country: NO
 natural-gas production platform; gravity-based substructure about 472 m total height in about 300 m water depth, about 245,000 m3 concrete, about 683,600 t unballasted weight
 Technologies: ups-fixed-jackets-gravity-structures
 
+### Troll B (pf-troll-b)
+Status: **operating** | Country: Norway
+Concrete semi-submersible, 325 m depth, 1995
+Technologies: civ-offshore-platform-structures
+
 ### Tullow Chacher Gas Processing Facility, Pakistan (wh-tullow-chacher-gas-processing-facility-pakistan)
 Status: **operating** | Country: Pakistan
 SPEC mechanical heater treater project reference, 2007.
 Technologies: ups-subsea-production-systems
+
+### Turritella FPSO (pf-turritella-fpso)
+Status: **operating** | Country: United States
+substructure_type: FPSO (floating production storage and offloading) | topside_type: Not stated on page read | water_depth: 2,900 m (9,514 ft) — deepest FPSO in type table | topside_weight: Not stated on page read | installation_method: Not stated on page read | contractor: Not stated on page read | dates: 2016 (type table)
+Technologies: civ-offshore-platform-structures
 
 ### Tyrihans DEH tieback to the Kristin FPSO (Norwegian Sea) (tyrihans-deh-tieback-to-the-kristin-fpso-norwegian-sea)
 Status: **operating** | Country: NO
@@ -2398,10 +2993,20 @@ Status: **operating** | Country: Nigeria
 Molecular sieve dehydration unit in 100 tonne/day LPG plant, 2009.
 Technologies: ups-subsea-production-systems
 
+### Valhall QP removal (pf-valhall-qp-removal)
+Status: **operating** | Country: Norway
+3,800 t accommodation platform (lightest lift for Pioneering Spirit) removed June 2019; full scope included topsides, jacket and bridge.
+Technologies: civ-offshore-platform-structures
+
 ### Wasson field Denver Unit, West Texas (Shell) (wasson-field-denver-unit-west-texas-shell)
 Status: **operating** | Country: US
 31,500 bbl/d of which 26,850 bbl/d incremental from CO2; over 120 million bbl incremental to 2008
 Technologies: ups-co2-eor
+
+### Wellhead jacket, 71.5 m water depth (pf-wellhead-jacket-71-5-m-water-depth)
+Status: **operating** | Country: unspecified
+about 2,000 t; Rosemond-EMI 2020 — example of small launch jacket.
+Technologies: civ-offshore-platform-structures
 
 ### West Desaru WSS, Peninsular Malaysia (wh-west-desaru-wss-peninsular-malaysia)
 Status: **operating** | Country: Malaysia
@@ -2413,10 +3018,25 @@ Status: **operating** | Country: Iraq
 SPEC designed/fabricated modular coalescer and balance vessel skids for a 100,000 BOPD system; modules >100 tonnes and higher than two storeys, supplied to CPECC.
 Technologies: ups-subsea-production-systems
 
+### West White Rose (pf-west-white-rose)
+Status: **operating** | Country: Canada
+Wellhead platform on concrete gravity structure, 20 slots / 40 wells with conductor sharing, 25-year design life
+Technologies: civ-offshore-platform-structures
+
 ### Weyburn field, Saskatchewan (EnCana) (weyburn-field-saskatchewan-encana)
 Status: **operating** | Country: CA
 about 95 million ft3/d CO2 (4,935 t/d) from the Dakota Gasification plant via a 205-mile pipeline; 130 million bbl incremental oil expected
 Technologies: ups-co2-eor
+
+### Wheatstone LNG (36,000 t) and Arkutun Dagi (42,380 t) (pf-wheatstone-lng-36-000-t-and-arkutun-dagi-42-380-t)
+Status: **operating** | Country: Australia / Azerbaijan (Caspian)
+Single-lift topsides installs with H 851, cited as heavier than Johan Sverdrup P1.
+Technologies: civ-offshore-platform-structures
+
+### Wheatstone project topside load-out (pf-wheatstone-project-topside-load-out)
+Status: **operating** | Country: South Korea
+37,000 t topside load-out (ALE case study title cited by Wikipedia).
+Technologies: civ-offshore-platform-structures
 
 ### Wison FLNG / FSRU (China) (wh-wison-flng-fsru-china)
 Status: **operating** | Country: China
@@ -2427,6 +3047,16 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: Norway
 Aker Solutions/Aker BP subsea scope: 40 standardized vertical trees, nine six-slot templates/manifolds, eight static umbilicals about 90 km
 Technologies: ups-subsea-production-systems
+
+### Yme field MOPU (pf-yme-field-mopu)
+Status: **operating** | Country: Norway
+Jack-up type mobile offshore production unit removed in single lift by Pioneering Spirit, 2016.
+Technologies: civ-offshore-platform-structures
+
+### Yme MOPU removal (maiden heavy lift) (pf-yme-mopu-removal-maiden-heavy-lift)
+Status: **operating** | Country: Norway
+13,500 t MOPU single-lift removal Aug 2016; first commercial lift.
+Technologies: civ-offshore-platform-structures
 
 ### Åsgard subsea compression (wh-sgard-subsea-compression)
 Status: **operating** | Country: Norway
@@ -2462,6 +3092,46 @@ Technologies: ups-basin-petroleum-systems-modelling
 Status: **proposed** | Country: GB
 9-5/8 x 13-3/8 in bismuth plug set on a platform well; NZTC covered Wellstrom's cost, up-front testing and third-party costs
 Technologies: ups-thermite-bismuth-plugs
+
+### Hutton TLP (first tension leg platform) (pf-hutton-tlp-first-tension-leg-platform)
+Status: **under-construction** | Country: United Kingdom
+substructure_type: Conventional TLP, 16 tension legs — first TLP in the world | topside_type: Production topsides with accommodation (later redeployed to Prirazlomnoye) | water_depth: Designed for 100-1,000 m North Sea depths | topside_weight: 46,500-55,000 t when moored; up to 61,580 t floating freely | installation_method: Hull built in Highland Fabricators' Nigg dry dock (north Scotland); deck built at McDermott's Ardersier yard; two parts mated in the Moray Firth in 1984 | contractor: Highland Fabricators (hull); McDermott (deck) | dates: Built early 1980s; mated 1984; 25-year original design life
+Technologies: civ-offshore-platform-structures
+
+### Kizomba A (TLP + FPSO) (pf-kizomba-a-tlp-fpso)
+Status: **under-construction** | Country: Angola (West Africa)
+substructure_type: Tension leg platform plus FPSO | topside_type: TLP production topsides and separate storage/offloading FPSO | water_depth: 1,200 m (FPSO); 1,177 m for Kizomba A TLP per TLP type table | topside_weight: FPSO 81,000 t | installation_method: TLP plus FPSO receives oil from wells and stores until tanker transfer (method detail not on page read) | contractor: Hyundai Heavy Industries, Ulsan Korea (FPSO build, >US$800m) | dates: ExxonMobil began production at Block 15 in 2003; contract extended to 2037 (2025 addendum)
+Technologies: civ-offshore-platform-structures
+
+### Liwan 3-1 deepwater gas project (shallow-water host platform + subsea tieback) (pf-liwan-3-1-deepwater-gas-project-shallow-water-host-platform-subsea-tie)
+Status: **under-construction** | Country: China
+substructure_type: Fixed steel jacket (host) with deepwater subsea wells tied back | topside_type: 30,000 t integrated topsides on shallow-water jacket; MEG unit on host | water_depth: Wells 1,200-1,500 m (drilling depths 650-1,450 m); host in shallow water | topside_weight: 30,000 metric tonne topsides installed on shallow-water jacket | installation_method: Subsea wells/manifolds tied back via deepwater flowlines to shallow-water platform; 30-in. two-phase export pipeline laid to 70 m water depth by Technip's Global 1201; deepwater portion installed by Saipem; 174 km pipeline trenching by DeepOcean with Volantis and UT-1 jet trencher for COOEC | contractor: CNOOC, Husky Energy, Cameron (subsea trees/manifolds/controls), Technip, Saipem, DeepOcean, COOEC, WorleyParsons (FEED), Expro/CETS | dates: Discovery ~2007; wells installed June 2011-Jan 2013; pipeline trenching early 2012; first p
+Technologies: civ-offshore-platform-structures
+
+### Magnolia (pf-magnolia)
+Status: **under-construction** | Country: United States
+substructure_type: Extended tension leg platform (ETLP); four circular columns joined by rectangular pontoons, two tethers per column base | topside_type: Drilling and production topsides (owner not stated on page read) | water_depth: 1,432 m (4,698 ft) — world's deepest ETLP until Big Foot (1,580 m) in March 2018 | topside_weight: Not stated on page read | installation_method: Tethers from pontoon extensions to seabed pile foundations (design description on page read; installation vessel not stated) | contractor: Not stated on page read | dates: Big Foot overtook depth record March 2018
+Technologies: civ-offshore-platform-structures
+
+### Malampaya Depletion Compression Platform (DCP, Phase 3) (pf-malampaya-depletion-compression-platform-dcp-phase-3)
+Status: **under-construction** | Country: Philippines
+substructure_type: Self-installing platform with inbuilt jacking system and 80 m legs (small fixed platform) | topside_type: Depletion compression topsides, bridge-linked to existing CGS platform | water_depth: Shallow water (same area as existing platform, 43 m) | topside_weight: 4,300 t topsides; ~12,000 t load-out weight (Fluor); OGJ reports a 13,000 t platform — source-specific values | installation_method: Self-installing: built to float, towed from Keppel Shipyard, Subic; inbuilt jacking system jacked 80 m legs down and lifted platform out of water into final position; set in place in less than 24 hours in February 2015 — no large specialised installation vessel needed | contractor: Fluor (engineering, procurement, construction support); Arup (engineering support for self-installing substructure); Keppel Shipyard Subic (fabrication) | dates: Fabrication ~2013-2015 (approx. two year
+Technologies: civ-offshore-platform-structures
+
+### Neptune spar (pf-neptune-spar)
+Status: **under-construction** | Country: United States
+substructure_type: Conventional one-piece cylindrical spar — first production spar | topside_type: Not stated on page read | water_depth: 590 m (1,940 ft) | topside_weight: Not stated on page read | installation_method: Moored spar (description on page read) | contractor: Not stated on page read | dates: Not stated on page read
+Technologies: civ-offshore-platform-structures
+
+### Red Hawk spar (pf-red-hawk-spar)
+Status: **under-construction** | Country: United States
+substructure_type: Cell spar — first and, as of 2010, only cell spar (rare type) | topside_type: Not stated on page read | water_depth: Not stated on page read | topside_weight: Not stated on page read | installation_method: Multiple vertical cylinders (cell spar configuration) | contractor: Not stated on page read | dates: As of 2010, only cell spar (per page read)
+Technologies: civ-offshore-platform-structures
+
+### Sleipner A (pf-sleipner-a)
+Status: **under-construction** | Country: Norway
+substructure_type: Condeep concrete gravity base structure (notable failure case) | topside_type: Not stated on page read | water_depth: 82 m | topside_weight: Not stated on page read | installation_method: Original concrete structure sank during trials in Gandsfjord on 23 Aug 1991; a new structure was built and deployed in 1993 | contractor: Norwegian Contractors (Condeep) | dates: 1991 sinkage; 1993 deployment
+Technologies: civ-offshore-platform-structures
 
 ## WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 

@@ -1,0 +1,32 @@
+{
+  "id": "onepetro-org-conference-paper-otc-10952-ms",
+  "name": "Onepetro.Org — Neptune (Oryx/CNG)",
+  "url": "https://www.onepetro.org/conference-paper/OTC-10952-MS",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Onepetro.Org",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. first production spar 1996, 1,930 ft water depth, 6,600 t topsides Evidence: https://www.onepetro.org/conference-paper/OTC-10952-MS"
+}

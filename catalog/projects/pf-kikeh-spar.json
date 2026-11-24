@@ -1,0 +1,25 @@
+{
+  "id": "pf-kikeh-spar",
+  "name": "Kikeh spar",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Truss spar in 1,310 m water, South China Sea — only spar installed outside Gulf of Mexico per Wikipedia list; anchor type not stated on page.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+      "source_id": "en-wikipedia-org-wiki-spar-platform"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

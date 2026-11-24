@@ -1,0 +1,32 @@
+{
+  "id": "offshore-technology-com-projects-anjung-kecil-oil-field",
+  "name": "Offshore Technology — Anjung Kecil",
+  "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Technology",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Tarpon minimum-facility unmanned wellhead platform, Block SK315, Sarawak; tied to MAMPU-1 FPSO Evidence: https://www.offshore-technology.com/projects/anjung-kecil-oil-field"
+}

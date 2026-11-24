@@ -1,0 +1,25 @@
+{
+  "id": "pf-thunder-horse-pdq-transport",
+  "name": "Thunder Horse PDQ transport",
+  "country": "USA/South Korea",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Blue Marlin transported BP's then-largest semi-submersible platform from DSME yard to Kiewit Offshore Services, Ingleside, Texas, 2004.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Heavy-lift_ship",
+      "source_id": "en-wikipedia-org-wiki-heavy-lift-ship"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

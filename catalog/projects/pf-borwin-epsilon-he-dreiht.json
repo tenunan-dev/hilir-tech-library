@@ -1,0 +1,25 @@
+{
+  "id": "pf-borwin-epsilon-he-dreiht",
+  "name": "BorWin Epsilon / He Dreiht",
+  "country": "Germany",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Converter platform delivered to He Dreiht wind farm 2025.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+      "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

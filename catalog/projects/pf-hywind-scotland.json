@@ -1,0 +1,25 @@
+{
+  "id": "pf-hywind-scotland",
+  "name": "Hywind Scotland",
+  "country": "UK",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "World's first commercial floating wind farm, 30 MW, 2017",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+      "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

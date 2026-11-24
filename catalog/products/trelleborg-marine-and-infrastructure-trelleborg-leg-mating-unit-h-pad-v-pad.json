@@ -1,0 +1,31 @@
+{
+  "id": "trelleborg-marine-and-infrastructure-trelleborg-leg-mating-unit-h-pad-v-pad",
+  "name": "Trelleborg Leg Mating Unit (H-pad / V-pad)",
+  "manufacturer": "trelleborg-marine-and-infrastructure",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
+  ],
+  "description": "Vendor product line read 2026-11-24. Steel structure + elastomeric pads; project-specific design and testing.",
+  "specifications": [
+    {
+      "metric": "Full-scale compression test capability",
+      "unit": "MT",
+      "basis": "",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+        "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
+      },
+      "value": 18300
+    }
+  ],
+  "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+  "sources": [
+    {
+      "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+      "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
+    }
+  ],
+  "notes": "Steel structure + elastomeric pads; project-specific design and testing.",
+  "last_reviewed": "2026-11-24"
+}

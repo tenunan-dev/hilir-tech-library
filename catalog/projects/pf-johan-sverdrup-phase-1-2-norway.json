@@ -1,0 +1,25 @@
+{
+  "id": "pf-johan-sverdrup-phase-1-2-norway",
+  "name": "Johan Sverdrup Phase 1 & 2 (Norway)",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Pioneering Spirit single-lift installation of DP (2018), P1 (26,000 t) and LQ topsides (2019); P2 process topsides 2022.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+      "source_id": "allseas-com-our-fleet-pioneering-spirit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pf-liwan-3-1-deepwater-gas-project-shallow-water-host-platform-subsea-tie",
+  "name": "Liwan 3-1 deepwater gas project (shallow-water host platform + subsea tieback)",
+  "country": "China",
+  "location": "South China Sea, Block 29/26, ~300 km south-east of Hong Kong; wells ~75 km from host platform",
+  "status": "under-construction",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "substructure_type: Fixed steel jacket (host) with deepwater subsea wells tied back | topside_type: 30,000 t integrated topsides on shallow-water jacket; MEG unit on host | water_depth: Wells 1,200-1,500 m (drilling depths 650-1,450 m); host in shallow water | topside_weight: 30,000 metric tonne topsides installed on shallow-water jacket | installation_method: Subsea wells/manifolds tied back via deepwater flowlines to shallow-water platform; 30-in. two-phase export pipeline laid to 70 m water depth by Technip's Global 1201; deepwater portion installed by Saipem; 174 km pipeline trenching by DeepOcean with Volantis and UT-1 jet trencher for COOEC | contractor: CNOOC, Husky Energy, Cameron (subsea trees/manifolds/controls), Technip, Saipem, DeepOcean, COOEC, WorleyParsons (FEED), Expro/CETS | dates: Discovery ~2007; wells installed June 2011-Jan 2013; pipeline trenching early 2012; first p",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16757093/liwan-marks-first-ever-deepwater-gas-development-offshore-china",
+      "source_id": "offshore-mag-com-16757093-liwan-marks-first-ever-deepwater-gas-dev"
+    }
+  ],
+  "notes": " Producing (first production 2014)",
+  "last_reviewed": "2026-11-24"
+}

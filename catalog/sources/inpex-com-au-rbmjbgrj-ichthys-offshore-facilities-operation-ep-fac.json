@@ -1,31 +1,32 @@
 {
   "id": "inpex-com-au-rbmjbgrj-ichthys-offshore-facilities-operation-ep-fac",
-  "name": "INPEX Ichthys Pty Ltd / NOPSEMA (public document)",
+  "name": "INPEX — Ichthys LNG — Central Processing Facility and FPSO",
   "url": "https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf",
   "source_type": "oem-supplier",
   "sectors": [
     "UPS",
-    "MID"
+    "MID",
+    "PWR"
   ],
   "disciplines": [
+    "CIV",
     "PRC",
     "ROT",
-    "CIV",
-    "ELE",
-    "INS"
+    "MAT"
   ],
   "publisher_org": "INPEX",
   "regions": [
     "global",
     "apac",
     "sea",
+    "eu",
     "na"
   ],
   "access": "open",
   "licence": "proprietary (site terms)",
   "reuse_level": "summary-only",
   "quality_tier": 1,
-  "verification": "unverified",
-  "last_verified": null,
-  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Arrangement of CPF, FPSO, subsea drill centres, flowlines/umbilicals, gas export riser base and export pipeline within permit WA-50-L Evidence: https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf"
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Figure 1 Ichthys offshore facilities in WA 50-L; Figure 2 location; Figure 3 subsea production system overview (read via pypdf text extraction) Evidence: https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf"
 }

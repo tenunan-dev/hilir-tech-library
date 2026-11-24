@@ -1,0 +1,39 @@
+{
+  "id": "mat-ins-grout-and-grout-sealing-hardware",
+  "name": "Grout and grout sealing hardware",
+  "material_category": "cementitious-elastomer",
+  "description": "Fill and seal pile-to-sleeve annulus; packers and seals control grout placement",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Fill and seal pile-to-sleeve annulus; packers and seals control grout placement",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Fill and seal pile-to-sleeve annulus; packers and seals control grout placement"
+  ],
+  "standards": [],
+  "equipment": [
+    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati",
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast",
+    "ins-float-over-topside-installation-barge-float-over-tidal-float-o",
+    "ins-leg-mating-units-lmu-elastomeric-shock-absorbers"
+  ],
+  "suppliers": [
+    "hi-tech-elastomers",
+    "menck-acteon-grout-coordinated-with-piling"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mat-sub-reinforced-prestressed-marine-concrete",
+  "name": "Reinforced / prestressed marine concrete",
+  "material_category": "cementitious",
+  "description": "Buoyancy, storage and gravity ballast in GBS/CGS; durability in marine, ice and seismic environments.",
+  "specifications": [
+    {
+      "metric": "Troll A concrete volume",
+      "unit": "m3",
+      "basis": "Wikipedia Condeep",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Condeep",
+        "source_id": "en-wikipedia-org-wiki-condeep"
+      },
+      "value": 245000
+    },
+    {
+      "metric": "suitability",
+      "unit": "description",
+      "basis": "Wikipedia Offshore concrete structure",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": "highly durable, low-maintenance, suitable for harsh/arctic and seismic regions, can carry heavy topsides and provide storage, economical >150 m"
+    }
+  ],
+  "applications": [
+    "Buoyancy, storage and gravity ballast in GBS/CGS; durability in marine, ice and seismic environments."
+  ],
+  "standards": [],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-wellhead-caisson-conductor-guided-single-well-structure",
+    "sub-monopod-tripod-tripile-bottom-founded-structures"
+  ],
+  "suppliers": [
+    "lenbetong"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Condeep",
+      "source_id": "en-wikipedia-org-wiki-condeep"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

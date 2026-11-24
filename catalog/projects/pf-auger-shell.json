@@ -1,0 +1,25 @@
+{
+  "id": "pf-auger-shell",
+  "name": "Auger (Shell)",
+  "country": "USA GOM",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "12,700 t topsides, 2,860 ft water depth, first GOM TLP with drilling rig and full production facilities",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.osti.gov/biblio/5909490",
+      "source_id": "osti-gov-biblio-5909490"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "heerema-marine-contractors-huisman-sembcorp-marine-sscv-sleipnir-2-x-10-000",
+  "name": "SSCV Sleipnir (2 x 10,000 t Huisman cranes)",
+  "manufacturer": "heerema-marine-contractors-huisman-sembcorp-marine",
+  "product_type": "ins-platform",
+  "equipment": [
+    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati"
+  ],
+  "description": "Vendor product line read 2026-11-24. Built by Sembcorp Marine, Singapore (2019); US$1.5 billion build cost stated (dollar year not given).",
+  "specifications": [
+    {
+      "metric": "Tandem lift",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Main hoist at 27-48 m radius",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Max main-hoist radius",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": 102
+    },
+    {
+      "metric": "Auxiliary hoist",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": 2500
+    }
+  ],
+  "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+      "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+    }
+  ],
+  "notes": "Built by Sembcorp Marine, Singapore (2019); US$1.5 billion build cost stated (dollar year not given).",
+  "last_reviewed": "2026-11-24"
+}

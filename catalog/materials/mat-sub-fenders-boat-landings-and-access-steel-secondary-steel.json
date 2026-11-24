@@ -1,0 +1,38 @@
+{
+  "id": "mat-sub-fenders-boat-landings-and-access-steel-secondary-steel",
+  "name": "Fenders, boat landings and access steel",
+  "material_category": "appurtenance",
+  "description": "Protect structures from vessel impact and provide access for personnel and equipment.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Protect structures from vessel impact and provide access for personnel and equipment.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Protect structures from vessel impact and provide access for personnel and equipment."
+  ],
+  "standards": [],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-wellhead-caisson-conductor-guided-single-well-structure",
+    "sub-monopod-tripod-tripile-bottom-founded-structures"
+  ],
+  "suppliers": [
+    "smulders-eiffage"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

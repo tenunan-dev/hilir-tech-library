@@ -1,0 +1,25 @@
+{
+  "id": "pf-lun-a-cgbs",
+  "name": "Lun-A CGBS",
+  "country": "Russia (Sakhalin)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Concrete gravity base substructure platform shown in Wikipedia oil platform article; float-out/float-in concept described for Condeep-type structures.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

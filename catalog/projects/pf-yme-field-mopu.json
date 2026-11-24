@@ -1,0 +1,25 @@
+{
+  "id": "pf-yme-field-mopu",
+  "name": "Yme field MOPU",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Jack-up type mobile offshore production unit removed in single lift by Pioneering Spirit, 2016.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+      "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

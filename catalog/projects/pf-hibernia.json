@@ -1,0 +1,25 @@
+{
+  "id": "pf-hibernia",
+  "name": "Hibernia",
+  "country": "Canada",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "450,000 t GBS, ice wall with 16 teeth, 80 m depth",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/hibernia-oil-gas-field-project/",
+      "source_id": "offshore-technology-com-hibernia-oil-gas-field-project"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

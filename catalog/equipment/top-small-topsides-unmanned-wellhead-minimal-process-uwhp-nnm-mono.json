@@ -1,0 +1,50 @@
+{
+  "id": "top-small-topsides-unmanned-wellhead-minimal-process-uwhp-nnm-mono",
+  "name": "Small topsides: unmanned wellhead / minimal process",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Minimalist topsides for wellhead-only or very small production functions, normally unattended, with no process facilities in the simplest cases. Used where wells are tied back to existing facilities, or for marginal/small fields.",
+  "specifications": [
+    {
+      "metric": "Visund Gas topsides weight",
+      "unit": "t (rounded)",
+      "basis": "Aibel project 2005",
+      "source": {
+        "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+        "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Sleipner B topsides weight",
+      "unit": "t (rounded)",
+      "basis": "Aibel project 2008",
+      "source": {
+        "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+        "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+      },
+      "value": 2000
+    }
+  ],
+  "vendors": [
+    "aker-solutions"
+  ],
+  "sources": [
+    {
+      "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+      "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Minimalist topsides for wellhead-only or very small production functions, normally unattended, with no process facilities in the simplest cases. Used where well"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

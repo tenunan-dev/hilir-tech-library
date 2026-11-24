@@ -1,0 +1,25 @@
+{
+  "id": "pf-maureen-alc",
+  "name": "Maureen ALC",
+  "country": "UK",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Concrete articulated loading column in 92 m, 1982, removed",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

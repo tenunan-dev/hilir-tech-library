@@ -1,0 +1,69 @@
+{
+  "id": "mat-sub-mooring-components-chain-wire-polyester-rope-anchors-turrets",
+  "name": "Mooring components",
+  "material_category": "station-keeping",
+  "description": "Station keeping for floating platforms: catenary chain, chain-wire-chain, chain-polyester-chain, taut synthetic, tensioned tendons and anchors/turrets.",
+  "specifications": [
+    {
+      "metric": "spar mooring configurations",
+      "unit": "description",
+      "basis": "Wikipedia Spar (platform)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+        "source_id": "en-wikipedia-org-wiki-spar-platform"
+      },
+      "value": "chain-wire-chain or chain-polyester-chain spread mooring; helical strakes on larger designs for vortex-induced motion"
+    },
+    {
+      "metric": "semi-sub mooring",
+      "unit": "description",
+      "basis": "Wikipedia Oil platform, Semi-submersible section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": "chain, wire rope or polyester rope singly or in combination during drilling/production; alternatively dynamic positioning"
+    },
+    {
+      "metric": "TLP tendons",
+      "unit": "description",
+      "basis": "Wikipedia Tension-leg platform",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+        "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
+      },
+      "value": "high axial stiffness tethers grouped at corners; Hutton had 16 tension legs"
+    }
+  ],
+  "applications": [
+    "Station keeping for floating platforms: catenary chain, chain-wire-chain, chain-polyester-chain, taut synthetic, tensioned tendons and anchors/turrets."
+  ],
+  "standards": [],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-wellhead-caisson-conductor-guided-single-well-structure",
+    "sub-monopod-tripod-tripile-bottom-founded-structures"
+  ],
+  "suppliers": [
+    "sbm-offshore",
+    "first-subsea"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+      "source_id": "en-wikipedia-org-wiki-spar-platform"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+      "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

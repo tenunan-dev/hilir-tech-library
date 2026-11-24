@@ -1,24 +1,25 @@
 {
   "id": "en-wikipedia-org-wiki-fixed-platform",
-  "name": "Wikipedia —  economically feasible water depth (fixed platform",
+  "name": "Wikipedia — typical economic water depth limit",
   "url": "https://en.wikipedia.org/wiki/Fixed_platform",
   "source_type": "research-institute",
   "sectors": [
     "UPS",
-    "MID"
+    "MID",
+    "PWR"
   ],
   "disciplines": [
+    "CIV",
     "PRC",
     "ROT",
-    "CIV",
-    "ELE",
-    "INS"
+    "MAT"
   ],
   "publisher_org": "Wikipedia",
   "regions": [
     "global",
     "apac",
     "sea",
+    "eu",
     "na"
   ],
   "access": "open",
@@ -27,5 +28,5 @@
   "quality_tier": 1,
   "verification": "verified",
   "last_verified": "2026-11-24",
-  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Fixed platforms economically feasible up to about 500 feet (150 m); Oil platform page separately states up to about 520 m (1,710 ft) — conflicting figures betwe Evidence: https://en.wikipedia.org/wiki/Fixed_platform"
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Wikipedia Fixed platform: fixed platforms economically feasible to about 500 ft (150 m); deeper usually floating or subsea tieback Evidence: https://en.wikipedia.org/wiki/Fixed_platform"
 }

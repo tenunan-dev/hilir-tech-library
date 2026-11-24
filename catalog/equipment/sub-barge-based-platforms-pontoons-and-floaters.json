@@ -1,0 +1,40 @@
+{
+  "id": "sub-barge-based-platforms-pontoons-and-floaters",
+  "name": "Barge-based platforms, pontoons and floaters",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Shallow-draft buoyant hulls used as drilling/production/support bases; spud barges, swamp barges and deck barges can be moored or jack-up supported.",
+  "specifications": [
+    {
+      "metric": "generic use",
+      "unit": "description",
+      "basis": "Wikipedia Oil platform intro; Wikipedia Offshore drilling",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_drilling",
+        "source_id": "en-wikipedia-org-wiki-offshore-drilling"
+      },
+      "value": "bottom-founded drilling rigs include jackup barges and swamp barges; MODUs include jackups, semi-submersibles, drillships and barges"
+    }
+  ],
+  "vendors": [
+    "aquaterra-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_drilling",
+      "source_id": "en-wikipedia-org-wiki-offshore-drilling"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Shallow-draft buoyant hulls used as drilling/production/support bases; spud barges, swamp barges and deck barges can be moored or jack-up supported."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

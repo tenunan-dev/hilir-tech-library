@@ -1,6 +1,6 @@
 # Product catalog
 
-190 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
+216 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
 
 ## ammonia
 
@@ -90,8 +90,8 @@
 | [Cometto MSPE 48T / 60T / EVO3 70T SPMT](https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter) | Cometto | Heavy transport and installation — SPMT, jacking, skidding, cranes and rigging | Axle load max; Steering; Bending moment |
 | [ContiTech anchored conveyor-belt scour mat](https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring) | ContiTech (Continental Group) | Shallow / raft / pad foundations | thickness; diameter |
 | [CS WIND monopiles / transition pieces / jacket foundations](https://www.cswoffshore.com/solutions/monopiles) | CS WIND Offshore | Driven precast piles | diameter classes; length; weight |
-| [DNV-RP-C203 fatigue design recommended practice](https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures) | DNV | Shallow / raft / pad foundations | edition |
-| [DNV-ST-0126 support structures for wind turbines](https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/) | DNV | Shallow / raft / pad foundations | edition |
+| [DNV-RP-C203 fatigue design recommended practice](https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures) | DNV (Installjac software) | Shallow / raft / pad foundations | edition |
+| [DNV-ST-0126 support structures for wind turbines](https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/) | DNV (Installjac software) | Shallow / raft / pad foundations | edition |
 | [EEW monopiles and jacket-component pipes / pin piles](https://eew-group.com/offshore-wind) | EEW Group | Driven precast piles | monopiles produced; projects supplied |
 | [Flyability Elios 3 UT NDT drone](https://www.flyability.com/blog/offshore-drone-inspections) | Flyability | Shallow / raft / pad foundations | camera / payload; battery range |
 | [Fosroc Conbextra GP / HF / HES / EP65 Plus](https://www.fosroc.com/product/show/conbextra-gp) | Fosroc | Shallow / raft / pad foundations | GP 28-day compressive; EP65 Plus 7-day compressive |
@@ -257,6 +257,21 @@
 | [HESI Spark Igniter](https://www.forneycorp.com/igniters) | Forney Corporation | Pilot and ignition systems (pilots, igniters, flame scanners, BMS sequencing) | Igniter class; Duty; Approval |
 | [MAXFire 100 Series Gas Igniter (models 110, 130, 135, 140, 150)](https://www.forneycorp.com/products/maxfire-gas-igniter) | Forney Corporation | Pilot and ignition systems (pilots, igniters, flame scanners, BMS sequencing) | Nominal capacity range, whole series; Model 110 capacity; Model 130 capacity; Model 135 capacity; Model 140 capacity; Model 150 capacity; Fuel; Minimum length; HESI output energy; HESI spark rate; HESI output voltage; HTSI output voltage; Typical fuel pressure, models 110/130; Typical fuel pressure, models 135/140/150 |
 
+## ins-platform
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Bokalift 1](https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels) | Boskalis (Dockwise heritage) | Single-lift topsides/jacket installation by catamaran ballast-lift vessel | Crane capacity; Deck |
+| [Bokalift 2](https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels) | Boskalis (Dockwise heritage) | Single-lift topsides/jacket installation by catamaran ballast-lift vessel | Crane capacity; Free deck space; Monopile handling up to |
+| [Hydrohammer S-series (S-30 to S-2000)](https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/) | IQIP | Impact pile driving hammers | Energy range; S-2000 max blow energy; S-2000 blow rate; S-2000 hammer weight; Operating angle |
+| [Menck MHU6000W double-acting hydraulic hammer](https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers) | Menck / Acteon (sale to Cadeler announced 2026) | Impact pile driving hammers | Energy range; Blow rate; Oil flow; Operating pressure; Weight (5 m foot) |
+| [Offshore production facility topsides (2,000 to over 40,000 tonnes)](https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities) | Aker Solutions | Semi-submersible crane vessel | design weight range; substructure types served |
+| [Orca/SeaCamel direct-weld LMU](https://www.orca-offshore.com/products/leg-mating-unit/) | Orca Offshore / SeaCamel | Float-over topside installation | Innovation |
+| [Pioneering Spirit](https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit) | Allseas (OEM design) | Single-lift topsides/jacket installation by catamaran ballast-lift vessel | Topsides single-lift capacity; Jacket lift capacity; S-lay tension; Azimuth thrusters |
+| [Saipem 7000](https://en.wikipedia.org/wiki/Saipem_7000) | Saipem (ex-Micoperi 7000) | Impact pile driving hammers | Tandem lift; Per-crane main hook at 40 m; Ballast transfer rate; J-lay tension (friction clamps) |
+| [SSCV Sleipnir (2 x 10,000 t Huisman cranes)](https://en.wikipedia.org/wiki/SSCV_Sleipnir) | Heerema Marine Contractors / Huisman / Sembcorp Marine | Semi-submersible crane vessel | Tandem lift; Main hoist at 27-48 m radius; Max main-hoist radius; Auxiliary hoist |
+| [SSCV Thialf](https://www.heerema.com/heerema-marine-contractors/fleet) | Heerema Marine Contractors | Single-lift topsides/jacket installation by catamaran ballast-lift vessel | Tandem lift; DP class |
+
 ## instrumentation
 
 | Product | Manufacturer | Equipment | Specifications |
@@ -291,7 +306,7 @@
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
-| [Menck MHU hydraulic double-acting impact hammers (100C to 6000W)](https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers) | Menck / Acteon | Impact piling hammers | energy range (spread); MHU6000W |
+| [Menck MHU hydraulic double-acting impact hammers (100C to 6000W)](https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers) | Menck / Acteon (sale to Cadeler announced 2026) | Impact piling hammers | energy range (spread); MHU6000W |
 | [PALFINGER AHC marine/offshore cranes](https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html) | PALFINGER | Deck cranes, davits and lifting appliances | hoisting capacity; jib radius; wire capacity; winterization |
 
 ## pressure-part
@@ -358,6 +373,27 @@
 | [PowerTrap GP Series mechanical condensate pump (GP5C, GP10, GP10F, GP14 etc.)](https://www.tlv.com/en-us/products/condensate-recovery/powertrap) | TLV | Steam traps (thermodynamic, float, thermostatic, inverted bucket) | GP5C maximum operating pressure; GP5C condensate recovery; GP10 maximum operating pressure; GP10 condensate recovery; GP10F maximum operating temperature; GP14 maximum operating pressure; Power source |
 | [TD42 Thermodynamic Steam Trap](https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/) | Spirax Sarco | Steam traps (thermodynamic, float, thermostatic, inverted bucket) | Body design condition; Maximum allowable pressure; Maximum allowable / operating temperature; Recommended maximum operating pressure; Minimum allowable / operating temperature; Minimum operating differential pressure; Maximum operating backpressure; Maximum cold hydraulic test pressure; Nominal sizes; Blast discharge to atmosphere temperature warning |
 | [ThermoDyne A3N thermodynamic steam trap](https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne) | TLV | Steam traps (thermodynamic, float, thermostatic, inverted bucket) | Maximum operating pressure (PMO); Minimum operating pressure; Maximum operating temperature (TMO); Discharge capacity; Body material; Connection |
+
+## sub-platform
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Aegir](https://www.heerema.com/heerema-marine-contractors/fleet) | Heerema Marine Contractors | Fixed steel jacket platform | Lifting capacity |
+| [Arup Concrete Gravity Substructure (CGS) / ACE platform](https://en.wikipedia.org/wiki/Offshore_concrete_structure) | Arup | Fixed steel jacket platform | concept |
+| [Balder](https://www.heerema.com/heerema-marine-contractors/fleet) | Heerema Marine Contractors | Fixed steel jacket platform | Tandem lift (guyed mode) |
+| [H-851 barge](https://www.heerema.com/heerema-marine-contractors/fleet) | Heerema Marine Contractors | Fixed steel jacket platform | Ranking |
+| [Hi-Tech Leg Mating Unit with sand jack](https://hitechelastomers.com/products/leg-mating-unit/) | Hi-Tech Elastomers | Fixed steel jacket platform | Load relief |
+| [Iron Lady / Braveheart shallow-water transfer barges](https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit) | Allseas (OEM design) | Fixed steel jacket platform | Iron Lady deck |
+| [Mammoet computer-controlled strand jack](https://www.mammoet.com/offshore/topside-load-out/) | Mammoet | Fixed steel jacket platform | Capacity per unit; Skidding speed |
+| [Mammoet hydraulic compensated skid shoe system](https://www.mammoet.com/offshore/topside-load-out/) | Mammoet | Fixed steel jacket platform | Load-out capability |
+| [Menck MHU3500S](https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers) | Menck / Acteon (sale to Cadeler announced 2026) | Fixed steel jacket platform | Energy range; Blow rate; Oil flow |
+| [MOSES mini-TLP](https://en.wikipedia.org/wiki/Oil_platform) | MOSES (per Wikipedia) | Fixed steel jacket platform | water depth |
+| [Qingdao / Tianjin / Zhuhai fabrication yards](https://www.cnoocengineering.com/english/Solutions/Yards) | COOEC (CNOOC Engineering) | Fixed steel jacket platform | Qingdao annual production; Qingdao slideways; Zhuhai annual production; Zhuhai slideway 1 |
+| [Seaastar mini-TLP](https://en.wikipedia.org/wiki/Oil_platform) | Seaastar/Deep Oil Technology (name per Wikipedia) | Fixed steel jacket platform | water depth |
+| [Suction caisson / suction anchor](https://en.wikipedia.org/wiki/Suction_caisson) | Heerema | Wellhead caisson / conductor-guided single-well structure | Diana caisson |
+| [Tentech975 FPSO hull](https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading) | Aker Solutions | Fixed steel jacket platform | hull dimensions on Skarv |
+| [Trelleborg Leg Mating Unit (H-pad / V-pad)](https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)) | Trelleborg Marine and Infrastructure | Fixed steel jacket platform | Full-scale compression test capability |
+| [WindFloat semi-submersible floater](https://en.wikipedia.org/wiki/Floating_offshore_wind) | Principle Power | Barge-based platforms, pontoons and floaters | turbine rating, WindFloat Atlantic |
 
 ## tp-wellhead
 

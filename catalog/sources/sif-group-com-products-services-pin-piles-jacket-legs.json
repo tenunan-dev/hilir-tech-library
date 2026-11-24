@@ -1,0 +1,32 @@
+{
+  "id": "sif-group-com-products-services-pin-piles-jacket-legs",
+  "name": "Sif Group",
+  "url": "https://sif-group.com/products-services/pin-piles-jacket-legs",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Sif Group.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. search-verified; EN 10025-1 / EN 10225-1 / NORSOK M-120 material Evidence: https://sif-group.com/products-services/pin-piles-jacket-legs"
+}

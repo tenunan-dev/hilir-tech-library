@@ -1,0 +1,105 @@
+{
+  "id": "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast",
+  "name": "Single-lift topsides/jacket installation by catamaran ballast-lift vessel",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Straddle a platform with a bow slot, ballast down, extend motion-compensated lifting beams under the payload, de-ballast to transfer weight, then fast-lift clear; also carries jackets at stern tilting beams/sheerlegs.",
+  "specifications": [
+    {
+      "metric": "Topsides single-lift capacity (current page)",
+      "unit": "tonnes",
+      "basis": "Allseas Pioneering Spirit page: 'installation or removal of platform topsides up to 60,000 tonnes'",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": 60000
+    },
+    {
+      "metric": "Jacket lift capacity (Allseas current page)",
+      "unit": "tonnes",
+      "basis": "Allseas Pioneering Spirit page: jackets up to 20,000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "S-lay tension capacity",
+      "unit": "tonnes",
+      "basis": "Allseas Pioneering Spirit page: unmatched S-lay tension capacity of 2000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Number of azimuth thrusters",
+      "unit": "count",
+      "basis": "Allseas Pioneering Spirit page",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Bow slot dimensions",
+      "unit": "m",
+      "basis": "Wikipedia Pioneering Spirit, Design and Construction",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+        "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+      },
+      "value": "122 m x 59 m (L x W); widened from 52 m to 59 m"
+    },
+    {
+      "metric": "Fast-lift stroke / time",
+      "unit": "m / s",
+      "basis": "Wikipedia Pioneering Spirit, Design (citing IV-Consult)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+        "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+      },
+      "value": "2.5 m in 15 s"
+    },
+    {
+      "metric": "Largest recorded single-lift removal",
+      "unit": "tonnes",
+      "basis": "Wikipedia Pioneering Spirit, Projects (Brent Charlie, July 2024)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+        "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+      },
+      "value": 31000
+    }
+  ],
+  "vendors": [
+    "allseas-oem-design",
+    "huisman-equipment"
+  ],
+  "sources": [
+    {
+      "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+      "source_id": "allseas-com-our-fleet-pioneering-spirit"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+      "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Straddle a platform with a bow slot, ballast down, extend motion-compensated lifting beams under the payload, de-ballast to transfer weight, then fast-lift clea"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

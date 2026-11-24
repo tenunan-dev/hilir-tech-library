@@ -1,0 +1,32 @@
+{
+  "id": "en-wikipedia-org-wiki-spar-platform",
+  "name": "Wikipedia — cell spar cell count and diameter, Red Hawk",
+  "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Wikipedia",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Wikipedia Spar (platform): '7 ea. 8 m (26 ft) diameter cells'; first and only cell spar, 1,615 m water depth, 2004 Evidence: https://en.wikipedia.org/wiki/Spar_(platform)"
+}

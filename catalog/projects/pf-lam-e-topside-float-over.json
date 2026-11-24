@@ -1,0 +1,25 @@
+{
+  "id": "pf-lam-e-topside-float-over",
+  "name": "LAM-E topside float-over",
+  "country": "Netherlands/North Sea",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Direct-weld LMU used; no sand-jack lowering phase.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
+      "source_id": "orca-offshore-com-leg-mating-unit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

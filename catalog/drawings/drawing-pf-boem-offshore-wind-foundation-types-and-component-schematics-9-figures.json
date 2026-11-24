@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-boem-offshore-wind-foundation-types-and-component-schematics-9-figures",
+  "title": "BOEM — Offshore wind foundation types and component schematics (9 figures)",
+  "diagram_type": "schematic",
+  "description": "Illustrated comparison of offshore support structure concepts: monopile, jacket, tripod, tri-pile, jack-up, suction bucket, gravity and floating foundations, plus scour/wake illustration | Figures: Figure 1 Offshore wind foundation types; Figure 2 Monopile foundation; Figure 3 Jacket foundation; Figure 4 Tripod foundation; Figure 5 Tri-pile foundation; Figure 6 Jack-up foundation; Figure 7 Suction bucket foundation; Figure 8 Gravity foundation; Figure 9 Floating foundations; Figure 11 Turbulent wake and scour effects",
+  "publisher": "U.S. Bureau of Ocean Energy Management (BOEM)",
+  "url": "https://boem.gov/sites/default/files/documents/environment/Wind-Turbine-Foundations-White%20Paper-Final-White-Paper.pdf",
+  "licence": "US Government publication; cite report and figure number. Note: examples are wind foundations but the jacket, suction-bucket and gravity concepts transfer to O&G substructures.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://boem.gov/sites/default/files/documents/environment/Wind-Turbine-Foundations-White%20Paper-Final-White-Paper.pdf",
+      "source_id": "boem-gov-environment-wind-turbine-foundations-white-20paper-final"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. curl + pypdf text extraction — figure list and captions confirmed (53-page PDF)",
+  "last_reviewed": "2026-11-24"
+}

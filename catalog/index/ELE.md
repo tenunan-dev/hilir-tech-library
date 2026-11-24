@@ -1,6 +1,6 @@
 # ELE: Electrical engineering
 
-286 sources. Sub-topics: power-generation, hv-distribution, switchgear, protection, transformers, motors-drives, emergency-power, hazardous-area-electrical, heat-tracing, cable-systems, power-management, earthing-lightning.
+274 sources. Sub-topics: power-generation, hv-distribution, switchgear, protection, transformers, motors-drives, emergency-power, hazardous-area-electrical, heat-tracing, cable-systems, power-management, earthing-lightning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -12,10 +12,8 @@
 | [Akersolutions.Com — Lingshui 17-2](https://www.akersolutions.com/news/news-archive/2018/aker-solutions-wins-subsea-order-for-lingshui-field-development-in-china/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Akersolutions.Com — Yggdrasil (NOAKA)](https://www.akersolutions.com/news/news-archive/2022/aker-solutions-secures-multiple-contracts-with-aker-bp--record-high-order-intake/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Allmarc Industries](https://www.allmarcindia.com/oil-and-gas/knock-out-drums/) | oem-supplier | global, apac, sea, na | open | summary-only |
-| [API RP 14C, 8th edition (2017), Analysis, Design, Installation, and Testing of Safety Systems for Offshore Production Facilities](https://www.stdhive.com/pdf_preview/api-rp-14c-pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [Aquaterra Energy](https://aquaterraenergy.com/delivering-a-jacket-supported-platform-in-a-seismic-region-in-the-gulf-of-suez) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Aquaterra Energy](https://aquaterraenergy.com/pushing-the-boundaries-wellhead-support-structure) | oem-supplier | global, apac, sea, na | open | summary-only |
-| [Azeri-Chirag-Gunashli (ACG) Phase 3 Environmental & Socio-economic Impact Assessment, Chapter 5 (reproduced on Silo.tips)](https://silo.tips/download/55-offshore-platform-production) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [Baker Hughes](https://www.bakerhughes.com/subsea/subsea-connect/aptara-totexlite-subsea-system) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Baker Hughes](https://www.bakerhughes.com/subsea/flexible-pipe-systems) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Baker Hughes](https://www.bakerhughes.com/subsea/subsea-production-systems/subsea-power-and-processing/seawater-treatment-and-injection) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -71,11 +69,9 @@
 | [Honeywell — Wison FLNG / FSRU (China)](https://process.honeywell.com/content/dam/process/en/documents/document-lists/doc-list-lng/CaseStudy-Wison-FG-EN.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Hydropneumatic S.r.l.](https://www.hydropneumatic.it/HydroPneumatic/DataSheets/HYPN-DataSheet-WHCP-CIS-DS-R0-Wellhead-Injection-Skids.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Iconeng.Com.Au — MMC D1 cluster WHSF, D30 and Dana fields, offshore Sara](https://www.iconeng.com.au/track-record/projects/d1-cluster-development-wellhead-support-frames-whs) | oem-supplier | global, apac, sea, na | open | summary-only |
-| [INPEX CORPORATION](https://www.inpex.com/english/ichthys/concept.html) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [INPEX CORPORATION](https://www.inpex.com/assets/documents/english/ir/library/integrated_report/inpex_integratedreport202512_en_03.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [INPEX CORPORATION](https://www.inpex.com/english/news/upload/20250804.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [INPEX Ichthys Pty Ltd (document held by NOPSEMA)](https://docs.nopsema.gov.au/A826886) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
-| [INPEX Ichthys Pty Ltd / NOPSEMA (public document)](https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [INPEX — Ichthys Gas Export Pipeline (GEP)](https://www.inpex.com.au/media/lldoewsu/offshore-terminal-regulations-manual-february-2019.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [INTECH Automation & Intelligence](https://www.intechww.com/skids-packages/wellhead-solutions/wellhead-control-panels) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [IntechOpen (chapter 'Mechanics of Deepwater Steel Catenary Riser', China University of Petroleum / Offshore Oil Engineering Co.)](https://cdn.intechopen.com/pdfs/19441/InTech-Mechanics_of_deepwater_steel_catenary_riser.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
@@ -103,9 +99,6 @@
 | [Oedigital.Com — Jerun CPP topside, SK408W, Sarawak](https://www.oedigital.com/news/512208-mmhe-delivers-topside-for-jerun-gas-field-platform-offshore-malaysia) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Oedigital.Com — Timi WHP comparison case](https://www.oedigital.com/news/490216-malaysia-shell-to-develop-timi-field-with-solar-wind-powered-platform) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Offshore Mag.Com — West Desaru WSS, Peninsular Malaysia](https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in) | oem-supplier | global, apac, sea, na | open | summary-only |
-| [Offshore Magazine (Expro Group authors: Barrett, Cheyne, Molloy)](https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
-| [Offshore Magazine; image credited to CNOOC Ltd](https://www.offshore-mag.com/subsea/article/16757093/liwan-marks-first-ever-deepwater-gas-development-offshore-china) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
-| [Offshore Technology (GlobalData)](https://www.offshore-technology.com/projects/malampaya/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [OMS (Oilfield Manufacturers and Supplies)](https://www.omsos.com/product-services/surface-wellhead-trees) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Onepetro.Org — Titan TTR system, Telemark Hub, Mississippi Canyon 941](https://onepetro.org/OTCONF/proceedings-pdf/10OTC/10OTC/OTC-21024-MS/1719423/otc-21024-ms.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [OneSubsea](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-boosting-pumps) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -119,7 +112,6 @@
 | [OneSubsea (SLB) — OneSubsea umbilical product lines](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [OneSubsea (SLB) — Ormen Lange](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-compression/ormen-lange-project) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [OneSubsea (SLB) — Åsgard subsea compression](https://www.onesubsea.slb.com/resources/case-study-with-navigation/al/asgard) | oem-supplier | global, apac, sea, na | open | summary-only |
-| [Orcina (OrcaFlex example A05)](https://www.orcina.com/wp-content/uploads/examples/a/a05/A05%20Steel%20catenary%20riser%20systems.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [Petro Controls Europe BV](https://petro-controls.com/products/chemical-injection-system/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [PETRONAS — Bindu WHP, offshore Terengganu](https://www.petronas.com/sites/default/files/uploads/content/2026/PETRONAS%20Activity%20Outlook%202026-2028.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [PETRONAS — Timi WHP, SK318, offshore Sarawak](https://www.petronas.com/mpm/media/media-releases/first-gas-production-sk318-timi-field) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -195,13 +187,9 @@
 | [Veolia Water Technologies / VWS Westgarth](https://www.vwswestgarth.com/sites/g/files/dvc3331/files/document/2025/04/Westgarth%20Upstream%20Produced%20Water%20Treatment%20brochure_0.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Wasco Energy](https://wascoenergy.com/pdf/engineering-fabrication/modules/produced-water-treatment-package.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Wikimedia Commons (author 'Con-struct', 2012)](https://commons.wikimedia.org/wiki/File:Pump_with_tank_pid_en.svg) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
-| [Wikimedia Commons (author 'Ub', 2001)](https://commons.wikimedia.org/wiki/File:P%26ID.JPG) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [Wikimedia Commons (author Steven Baltakatei Sandoval)](https://commons.wikimedia.org/wiki/File:ISO_10628-2_2012_Symbols_Sheet_1.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [Wikipedia (secondary), image on Wikimedia Commons](https://en.wikipedia.org/wiki/Oil_production_plant) | research-institute | global, apac, sea, na | open | summary-only |
-| [Wikipedia (secondary); images on Wikimedia Commons](https://en.wikipedia.org/wiki/Process_flow_diagram) | research-institute | global, apac, sea, na | open | summary-only |
-| [Wikipedia —  economically feasible water depth (fixed platform](https://en.wikipedia.org/wiki/Fixed_platform) | research-institute | global, apac, sea, na | open | summary-only |
 | [Wikipedia — coiled tubing diameter](https://en.wikipedia.org/wiki/Coiled_tubing) | research-institute | global, apac, sea, na | open | summary-only |
-| [Wikipedia — description from Oil platform article](https://en.wikipedia.org/wiki/Oil_platform) | research-institute | global, apac, sea, na | open | summary-only |
 | [Wikipedia — offshore wellhead location terminology](https://en.wikipedia.org/wiki/Wellhead) | research-institute | global, apac, sea, na | open | summary-only |
 | [Wikipedia — surface tree valve arrangement](https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)) | research-institute | global, apac, sea, na | open | summary-only |
 | [Wikipedia — typical valve mechanism](https://en.wikipedia.org/wiki/Downhole_safety_valve) | research-institute | global, apac, sea, na | open | summary-only |

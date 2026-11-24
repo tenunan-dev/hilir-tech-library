@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-dnv-sesam-fixed-offshore-wind-structure-design-jacket-topside-transpor",
+  "title": "DNV Sesam — Fixed offshore wind structure design (jacket, topside, transport and lift figures)",
+  "diagram_type": "schematic",
+  "description": "3D model views and analysis diagrams for jacket legs/joints, shell transition pieces, wave/soil environment, transportation sea-fastening analysis and topside lifting operations | Figures: Figure 3.7 A jacket including wave and soil; Figure 3.8 An example mode shape of a jacket; Figure 6.1 Transportation analysis of...; Figure 6.3 Lifting; Figure 6.4 Lifting operations in Sima; Figure 7.2 Lifting operations in Sima",
+  "publisher": "DNV (Sesam whitepaper: Fixed Offshore Wind Structure Design)",
+  "url": "https://dnv.jp/siteassets/images/pdf-documents/sesam-wind---fixed-offshore-wind-structure-design---whitepaper---pdf.pdf",
+  "licence": "Publisher whitepaper; cite document and figure numbers. Wind-sector example of jacket/transport/lift analysis.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://dnv.jp/siteassets/images/pdf-documents/sesam-wind---fixed-offshore-wind-structure-design---whitepaper---pdf.pdf",
+      "source_id": "dnv-jp-pdf-documents-sesam-wind-fixed-offshore-wind-structure-desi"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. curl + pypdf text extraction — selected figure captions confirmed (24-page PDF); some captions wrap across lines",
+  "last_reviewed": "2026-11-24"
+}

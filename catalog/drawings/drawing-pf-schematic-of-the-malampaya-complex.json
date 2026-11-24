@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-schematic-of-the-malampaya-complex",
+  "title": "Schematic of the Malampaya complex",
+  "diagram_type": "schematic",
+  "description": "Integrated Malampaya topside/concrete gravity structure complex | Figures: Image caption: 'Schematic of the Malampaya complex.' (malam8.jpg)",
+  "publisher": "Offshore Technology (GlobalData)",
+  "url": "https://www.offshore-technology.com/projects/malampaya/",
+  "licence": "Publisher copyright; 'summary-only'. Cite URL; do not reproduce.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/malampaya/",
+      "source_id": "offshore-technology-com-malampaya"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch — caption and image file name read on page",
+  "last_reviewed": "2026-11-24"
+}

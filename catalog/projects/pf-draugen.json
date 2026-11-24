@@ -1,0 +1,25 @@
+{
+  "id": "pf-draugen",
+  "name": "Draugen",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Condeep monotower concrete platform at 251 m, installed 1993",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Condeep",
+      "source_id": "en-wikipedia-org-wiki-condeep"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "mat-sub-steel-plate-and-plated-structures-topsides-caissons-hulls",
+  "name": "Steel plate and plated structures",
+  "material_category": "metal",
+  "description": "Fabrication of deck plating, caisson walls, ship-shaped FPSO hulls and box girders.",
+  "specifications": [
+    {
+      "metric": "Troll A reinforcement steel",
+      "unit": "t",
+      "basis": "Wikipedia Condeep: 245,000 m3 concrete and 100,000 t reinforcement steel",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Condeep",
+        "source_id": "en-wikipedia-org-wiki-condeep"
+      },
+      "value": 100000
+    }
+  ],
+  "applications": [
+    "Fabrication of deck plating, caisson walls, ship-shaped FPSO hulls and box girders."
+  ],
+  "standards": [],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-wellhead-caisson-conductor-guided-single-well-structure",
+    "sub-monopod-tripod-tripile-bottom-founded-structures"
+  ],
+  "suppliers": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Condeep",
+      "source_id": "en-wikipedia-org-wiki-condeep"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "smit-boskalis",
+  "name": "Smit (Boskalis)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "categories": [
+    "fabrication"
+  ],
+  "description": "Smit (Boskalis) is named as a provider on a page read during the platform installation sweep.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+      "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 platform sweep."
+}

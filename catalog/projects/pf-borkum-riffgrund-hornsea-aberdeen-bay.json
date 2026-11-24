@@ -1,0 +1,25 @@
+{
+  "id": "pf-borkum-riffgrund-hornsea-aberdeen-bay",
+  "name": "Borkum Riffgrund / Hornsea / Aberdeen Bay",
+  "country": "Germany/UK",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "suction bucket support structures for offshore wind",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+      "source_id": "en-wikipedia-org-wiki-suction-caisson"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

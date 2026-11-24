@@ -1,0 +1,25 @@
+{
+  "id": "pf-16-000-ton-jacket-offshore-support-ace-jacket",
+  "name": "16,000 ton jacket offshore support (Ace jacket)",
+  "country": "unspecified",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Orca Offshore provided offshore support for a 16,000 ton jacket (March 2023).",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
+      "source_id": "orca-offshore-com-leg-mating-unit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

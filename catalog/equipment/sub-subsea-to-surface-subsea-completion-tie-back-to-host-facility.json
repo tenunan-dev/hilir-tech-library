@@ -1,0 +1,56 @@
+{
+  "id": "sub-subsea-to-surface-subsea-completion-tie-back-to-host-facility",
+  "name": "Subsea-to-surface / subsea completion tie-back to host facility",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Subsea wells and manifolds tied back by flowlines and umbilicals to a surface host (fixed platform, FPSO, spar), avoiding a dedicated platform at the well location.",
+  "specifications": [
+    {
+      "metric": "system classification",
+      "unit": "classification",
+      "basis": "Wikipedia Subsea production system citing NORSOK U-001",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Subsea_production_system",
+        "source_id": "en-wikipedia-org-wiki-subsea-production-system"
+      },
+      "value": "subsea production control system; subsea structures and manifold system; subsea intervention system; subsea umbilical system; subsea processing system"
+    },
+    {
+      "metric": "deepest tieback example",
+      "unit": "m",
+      "basis": "Wikipedia Oil platform, Types of offshore oil and gas structures caption (2005 data)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": "Shell's Coulomb tie to NaKika, 2,307 m (7,570 ft), 2004"
+    }
+  ],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "saipem-ex-micoperi-7000",
+    "subsea7-swagelining-all-polymer-liner"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Subsea_production_system",
+      "source_id": "en-wikipedia-org-wiki-subsea-production-system"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Subsea wells and manifolds tied back by flowlines and umbilicals to a surface host (fixed platform, FPSO, spar), avoiding a dedicated platform at the well locat"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

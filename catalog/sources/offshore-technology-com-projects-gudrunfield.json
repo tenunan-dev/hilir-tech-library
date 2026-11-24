@@ -1,0 +1,32 @@
+{
+  "id": "offshore-technology-com-projects-gudrunfield",
+  "name": "Offshore Technology — jacket mass, Gudrun platform",
+  "url": "https://www.offshore-technology.com/projects/gudrunfield",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Technology",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Offshore Technology project profile: fixed processing platform supported by 7,400 t steel jacket; water depth 361 ft; 16 well slots Evidence: https://www.offshore-technology.com/projects/gudrunfield"
+}

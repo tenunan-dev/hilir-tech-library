@@ -1,0 +1,25 @@
+{
+  "id": "pf-chevron-benguela-belize-compliant-tower-piles",
+  "name": "Chevron Benguela Belize compliant tower piles",
+  "country": "Angola",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Thialf installed heaviest single-piece foundation piles: 2.74 m diameter x 190 m long, 818 t each (2005).",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/SSCV_Thialf",
+      "source_id": "en-wikipedia-org-wiki-sscv-thialf"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

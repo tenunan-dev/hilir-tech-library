@@ -1,0 +1,87 @@
+{
+  "id": "top-topside-weight-and-area-benchmarks-small-vs-large",
+  "name": "Topside weight and area benchmarks",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Empirical relations and published weight tables used for early-stage sizing and checking whether a proposed topsides weight is within historical ranges.",
+  "specifications": [
+    {
+      "metric": "Eiffel Tower comparator weight",
+      "unit": "tonnes",
+      "basis": "comparator used in Aibel weight article",
+      "source": {
+        "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+        "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+      },
+      "value": 9000
+    },
+    {
+      "metric": "Aibel project weight range (listed examples)",
+      "unit": "t (rounded)",
+      "basis": "Visund Gas 1,000 t (2005) to Johan Sverdrup P2 24,000 t (2022)",
+      "source": {
+        "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+        "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+      },
+      "low": 1000,
+      "high": 24000
+    },
+    {
+      "metric": "weight cells used simultaneously for P2 weighing",
+      "unit": "cells",
+      "basis": "up to 50-60 weight cells lift the module from grillage; process repeated three times",
+      "source": {
+        "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+        "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+      },
+      "low": 50,
+      "high": 60
+    },
+    {
+      "metric": "minimum equipment weight logged for weighing",
+      "unit": "tonne",
+      "basis": "Aibel follows ISO weighing standard; all equipment over one tonne weighed before installation",
+      "source": {
+        "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+        "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Aker Solutions design weight envelope",
+      "unit": "tonnes (over 40,000 at top end)",
+      "basis": "company facility design range",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
+        "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
+      },
+      "low": 2000,
+      "high": 40000
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+      "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+    },
+    {
+      "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
+      "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Empirical relations and published weight tables used for early-stage sizing and checking whether a proposed topsides weight is within historical ranges."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

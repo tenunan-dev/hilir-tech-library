@@ -1,0 +1,32 @@
+{
+  "id": "parliament-wa-gov-au-file-20140811-sub-09-shell-pdf",
+  "name": "Parliament.Wa.Gov.Au — Prelude FLNG living quarters",
+  "url": "https://www.parliament.wa.gov.au/parliament/commit.nsf/(Evidence+Lookup+by+Com+ID)/86A29802584DD0BC48257D8C001C710B/$file/20140811+Sub.+09+Shell.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Parliament.Wa.Gov.Au",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. temporary refuge, designated living quarters separated from processes by utilities and safety gap Evidence: https://www.parliament.wa.gov.au/parliament/commit.nsf/(Evidence+Lookup+by+Com+ID)/86A29802584DD0BC48257D8C001C710B/$file/20140811+Sub.+09+Shell.pdf"
+}

@@ -1,0 +1,144 @@
+{
+  "id": "ins-impact-pile-driving-hammers-hydraulic-diesel-underwater",
+  "name": "Impact pile driving hammers",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Drive tubular piles/conductors/monopiles to target penetration using controlled high-energy blows; hydraulic double-acting hammers give higher frequency and control; underwater hammers use power packs and compensators.",
+  "specifications": [
+    {
+      "metric": "IQIP Hydrohammer S-series energy range",
+      "unit": "kJ",
+      "basis": "IQIP Hydrohammer S-series page: 'Models range from S-30 to S-2000, with energy capacities from 30kJ to 2000kJ'",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": "30 kJ (S-30) to 2,000 kJ (S-2000)"
+    },
+    {
+      "metric": "IQIP S-2000 max blow energy / blow rate / hammer weight",
+      "unit": "kJ / bl/min / t",
+      "basis": "IQIP S-series datasheet table on product page",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": "2,000 kJ; 35 bl/min; 230 t hammer (100 t ram)"
+    },
+    {
+      "metric": "IQIP S-150 max blow energy / blow rate / hammer weight",
+      "unit": "kJ / bl/min / t",
+      "basis": "IQIP S-series datasheet table",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": "150 kJ; 44 bl/min; 16.5 t hammer (7.5 t ram)"
+    },
+    {
+      "metric": "IQIP minimum energy setting",
+      "unit": "% of max energy",
+      "basis": "IQIP S-series datasheet footnote",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": "about 10% of max (standard); 2-5% in high-frequency/low-energy mode"
+    },
+    {
+      "metric": "Menck double-acting hammer energy range (whole spread)",
+      "unit": "kJ",
+      "basis": "Acteon/Menck hydraulic hammers page: 'hammer spread unites double-acting hydraulic hammers (100 kJ to 6,250 kJ)'",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "100 kJ to 6,250 kJ"
+    },
+    {
+      "metric": "Menck MHU6000W max energy / blow rate / oil flow / pressure",
+      "unit": "kJ / bl/min / L/min / bar",
+      "basis": "Acteon/Menck hydraulic hammers page, MHU6000W specification block",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "6,250 kJ; 30 bl/min; 12,800 L/min; 210 bar"
+    },
+    {
+      "metric": "Menck MHU300S / MHU800S / MHU3500S energy ranges",
+      "unit": "kJ",
+      "basis": "Acteon/Menck hydraulic hammers page, individual model blocks",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "27-300 kJ / 75-820 kJ / 320-3,500 kJ"
+    },
+    {
+      "metric": "Saipem 7000 hammer spread",
+      "unit": "list",
+      "basis": "Wikipedia Saipem 7000, Platform installation equipment",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": "2 x Menck MHU 3000 (3,000 kJ each); 2 x MHU1700; 2 x MHU1000; 2 x MHU600; 1 x MHU220; 1 x MHU195; 2 underwater power packs; 1 hydraulic hammer compensator"
+    },
+    {
+      "metric": "Diesel hammer principle",
+      "unit": "description",
+      "basis": "Wikipedia Pile driver, Diesel hammer",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pile_driver",
+        "source_id": "en-wikipedia-org-wiki-pile-driver"
+      },
+      "value": "two-stroke diesel engine; piston is ram, cylinder connects to pile head; fuel ignites on compression, rebounding ram"
+    },
+    {
+      "metric": "Underwater noise mitigation",
+      "unit": "list",
+      "basis": "Wikipedia Pile driver, Environmental effects",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pile_driver",
+        "source_id": "en-wikipedia-org-wiki-pile-driver"
+      },
+      "value": "bubble curtains, balloons, internal combustion water hammers"
+    }
+  ],
+  "vendors": [
+    "iqip",
+    "menck-acteon-marine-foundations-sale-to-cadeler-announced-au",
+    "vulcan-iron-works"
+  ],
+  "sources": [
+    {
+      "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+      "source_id": "iqip-com-hydrohammer-s-series"
+    },
+    {
+      "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+      "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+      "source_id": "en-wikipedia-org-wiki-saipem-7000"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pile_driver",
+      "source_id": "en-wikipedia-org-wiki-pile-driver"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Drive tubular piles/conductors/monopiles to target penetration using controlled high-energy blows; hydraulic double-acting hammers give higher frequency and con"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

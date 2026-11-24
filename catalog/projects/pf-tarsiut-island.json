@@ -1,0 +1,25 @@
+{
+  "id": "pf-tarsiut-island",
+  "name": "Tarsiut Island",
+  "country": "Canada",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "4 hollow caissons, Beaufort Sea, 16 m, removed",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

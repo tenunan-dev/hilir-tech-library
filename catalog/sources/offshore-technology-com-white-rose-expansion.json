@@ -1,0 +1,32 @@
+{
+  "id": "offshore-technology-com-white-rose-expansion",
+  "name": "Offshore Technology — West White Rose",
+  "url": "https://www.offshore-technology.com/projects/white-rose-expansion/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Technology",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Wellhead platform on concrete gravity structure, 20 slots / 40 wells with conductor sharing, 25-year design life Evidence: https://www.offshore-technology.com/projects/white-rose-expansion/"
+}

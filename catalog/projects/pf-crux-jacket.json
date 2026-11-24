@@ -1,0 +1,25 @@
+{
+  "id": "pf-crux-jacket",
+  "name": "Crux jacket",
+  "country": "Australia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "24,000 t jacket under tow with support vessels, Shell and McDermott 2025.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://thenavalarch.com/launching-steel-jackets/",
+      "source_id": "thenavalarch-com-launching-steel-jackets"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

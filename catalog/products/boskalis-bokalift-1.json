@@ -1,0 +1,41 @@
+{
+  "id": "boskalis-bokalift-1",
+  "name": "Bokalift 1",
+  "manufacturer": "boskalis-dockwise-heritage",
+  "product_type": "ins-platform",
+  "equipment": [
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast"
+  ],
+  "description": "Vendor product line read 2026-11-24. DP2; converted 2017; 150 persons.",
+  "specifications": [
+    {
+      "metric": "Crane capacity",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+        "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Deck",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+        "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+      },
+      "value": "165 x 43"
+    }
+  ],
+  "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+  "sources": [
+    {
+      "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+      "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+    }
+  ],
+  "notes": "DP2; converted 2017; 150 persons.",
+  "last_reviewed": "2026-11-24"
+}

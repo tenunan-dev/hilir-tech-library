@@ -1,0 +1,39 @@
+{
+  "id": "sub-floating-power-desalination-units-and-power-service-vessels",
+  "name": "Floating power / desalination units and power service vessels",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Floating hulls carrying power plants or desalination plants to supply offshore assets or shore grids without fixed infrastructure.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Floating hulls carrying power plants or desalination plants to supply offshore assets or shore grids without fixed infrastructure.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "american-bureau-of-shipping",
+    "dnv-installjac-software"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Floating hulls carrying power plants or desalination plants to supply offshore assets or shore grids without fixed infrastructure."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

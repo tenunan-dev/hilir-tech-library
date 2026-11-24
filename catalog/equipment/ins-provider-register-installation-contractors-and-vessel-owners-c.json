@@ -1,0 +1,63 @@
+{
+  "id": "ins-provider-register-installation-contractors-and-vessel-owners-c",
+  "name": "Provider register — installation contractors and vessel owners",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Consolidated evidence-backed list of contractors/vessel owners for installation scope, including those named in the task brief for which only partial or search-verified evidence was obtained.",
+  "specifications": [
+    {
+      "metric": "Provider evidence tiers",
+      "unit": "classification",
+      "basis": "Compiled by this research from sources listed per vendor",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": "tier A = primary OEM/contractor page read; tier B = Wikipedia page read; tier C = search-verified snippet only"
+    }
+  ],
+  "vendors": [
+    "heerema-marine-contractors",
+    "allseas-oem-design",
+    "saipem-ex-micoperi-7000",
+    "subsea7-seaway7",
+    "boskalis-dockwise-heritage",
+    "van-oord",
+    "jan-de-nul",
+    "scaldis",
+    "ale",
+    "mammoet",
+    "lampson",
+    "cooec-cnooc-engineering",
+    "sapura-vantris-energy-incl-l-t-sapura-jv",
+    "micoperi",
+    "technipfmc-technip",
+    "dof",
+    "deepocean",
+    "iqip",
+    "menck-acteon-sale-to-cadeler-announced-2026",
+    "trelleborg-marine-and-infrastructure",
+    "hi-tech-elastomers",
+    "orca-offshore-seacamel",
+    "fugro",
+    "oceaneering"
+  ],
+  "sources": [
+    {
+      "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+      "source_id": "heerema-com-heerema-marine-contractors-fleet"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Consolidated evidence-backed list of contractors/vessel owners for installation scope, including those named in the task brief for which only partial or search-"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

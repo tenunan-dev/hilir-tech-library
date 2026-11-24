@@ -1,24 +1,25 @@
 {
   "id": "inpex-com-ichthys-concept-html",
-  "name": "INPEX CORPORATION",
+  "name": "INPEX — Ichthys LNG — Central Processing Facility and FPSO",
   "url": "https://www.inpex.com/english/ichthys/concept.html",
   "source_type": "oem-supplier",
   "sectors": [
     "UPS",
-    "MID"
+    "MID",
+    "PWR"
   ],
   "disciplines": [
+    "CIV",
     "PRC",
     "ROT",
-    "CIV",
-    "ELE",
-    "INS"
+    "MAT"
   ],
   "publisher_org": "INPEX",
   "regions": [
     "global",
     "apac",
     "sea",
+    "eu",
     "na"
   ],
   "access": "open",
@@ -27,5 +28,5 @@
   "quality_tier": 1,
   "verification": "verified",
   "last_verified": "2026-11-24",
-  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Whole-chain development concept diagram: subsea production wells, CPF, FPSO, gas export pipeline, flowlines/flexible risers and onshore LNG plant; page also carries 'concept_map' location figure Evidence: https://www.inpex.com/english/ichthys/concept.html"
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. CPF 110x150 m semi-submersible, FPSO 336x59 m >1 million bbl, capacities, 890 km 42-inch pipeline, concept_img and concept_map figures Evidence: https://www.inpex.com/english/ichthys/concept.html"
 }

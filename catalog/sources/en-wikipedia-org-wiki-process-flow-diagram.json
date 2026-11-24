@@ -1,24 +1,25 @@
 {
   "id": "en-wikipedia-org-wiki-process-flow-diagram",
-  "name": "Wikipedia (secondary); images on Wikimedia Commons",
+  "name": "Wikimedia Commons / Wikipedia (secondary)",
   "url": "https://en.wikipedia.org/wiki/Process_flow_diagram",
   "source_type": "research-institute",
   "sectors": [
     "UPS",
-    "MID"
+    "MID",
+    "PWR"
   ],
   "disciplines": [
+    "CIV",
     "PRC",
     "ROT",
-    "CIV",
-    "ELE",
-    "INS"
+    "MAT"
   ],
   "publisher_org": "Wikipedia",
   "regions": [
     "global",
     "apac",
     "sea",
+    "eu",
     "na"
   ],
   "access": "open",
@@ -27,5 +28,5 @@
   "quality_tier": 1,
   "verification": "verified",
   "last_verified": "2026-11-24",
-  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Generic PFD examples and PFD symbol set; gas sweetening/amine treating is directly relevant to platform gas treatment Evidence: https://en.wikipedia.org/wiki/Process_flow_diagram"
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. PFD of a single chemical-engineering unit process (amine treating/gas sweetening) — directly relevant to offshore gas treatment topsides Evidence: https://en.wikipedia.org/wiki/Process_flow_diagram"
 }

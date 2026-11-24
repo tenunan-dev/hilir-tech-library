@@ -1,0 +1,32 @@
+{
+  "id": "icoffshore-com-vn-tcqt-5-api-rp-2a-wsd-20-21st-202007-pdf",
+  "name": "American Petroleum Institute (API); copy hosted by icoffshore.com.vn",
+  "url": "https://icoffshore.com.vn/Uploads/files/Nghien_Cuu/TCQP/TCQT/5_API-RP-2A-WSD%20(21st%202007).pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Icoffshore.Com.Vn",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Tubular joint classification, in-plane/out-of-plane detailing, simple tubular joint geometry terminology, example conical transition and grouted pile-to-structure connection — core references for fixe Evidence: https://icoffshore.com.vn/Uploads/files/Nghien_Cuu/TCQP/TCQT/5_API-RP-2A-WSD%20(21st%202007).pdf"
+}

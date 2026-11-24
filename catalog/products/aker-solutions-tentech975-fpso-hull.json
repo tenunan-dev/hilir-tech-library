@@ -1,0 +1,31 @@
+{
+  "id": "aker-solutions-tentech975-fpso-hull",
+  "name": "Tentech975 FPSO hull",
+  "manufacturer": "aker-solutions",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
+  ],
+  "description": "Vendor product line read 2026-11-24. page_read=true",
+  "specifications": [
+    {
+      "metric": "hull dimensions on Skarv",
+      "unit": "m",
+      "basis": "Wikipedia FPSO (Skarv)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+      },
+      "value": "292 m × 50.6 m × 29 m"
+    }
+  ],
+  "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+    }
+  ],
+  "notes": "page_read=true",
+  "last_reviewed": "2026-11-24"
+}

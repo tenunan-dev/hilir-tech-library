@@ -1,0 +1,25 @@
+{
+  "id": "pf-provence-grand-large",
+  "name": "Provence Grand Large",
+  "country": "France",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "25 MW TLP floater, 2024",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+      "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

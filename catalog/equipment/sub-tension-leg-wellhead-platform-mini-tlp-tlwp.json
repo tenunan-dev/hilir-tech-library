@@ -1,0 +1,41 @@
+{
+  "id": "sub-tension-leg-wellhead-platform-mini-tlp-tlwp",
+  "name": "Tension-leg wellhead platform",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Small vertically moored wellhead or utility platform for satellite/early production, using tensioned tendons to support dry trees at lower cost than a full TLP.",
+  "specifications": [
+    {
+      "metric": "water depth",
+      "unit": "m",
+      "basis": "Wikipedia Oil platform: proprietary Seastar and MOSES mini TLPs used in water depths 180-1,300 m, low cost, utility/satellite/early production",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "low": 180,
+      "high": 1300
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Small vertically moored wellhead or utility platform for satellite/early production, using tensioned tendons to support dry trees at lower cost than a full TLP."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

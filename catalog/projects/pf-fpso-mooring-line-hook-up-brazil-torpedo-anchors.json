@@ -1,0 +1,25 @@
+{
+  "id": "pf-fpso-mooring-line-hook-up-brazil-torpedo-anchors",
+  "name": "FPSO mooring line hook-up (Brazil, torpedo anchors)",
+  "country": "Brazil",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Oceaneering case study advertises high-precision subsea survey, real-time anchor positioning and ROV support for FPSO mooring hook-up — search-verified snippet only.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.oceaneering.com/case-studies/subsea-survey-torpedo-anchor-support-fpso-mooring/",
+      "source_id": "oceaneering-com-subsea-survey-torpedo-anchor-support-fpso-mooring"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

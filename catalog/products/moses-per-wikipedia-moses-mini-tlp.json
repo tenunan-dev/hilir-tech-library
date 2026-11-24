@@ -1,0 +1,32 @@
+{
+  "id": "moses-per-wikipedia-moses-mini-tlp",
+  "name": "MOSES mini-TLP",
+  "manufacturer": "moses-per-wikipedia",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
+  ],
+  "description": "Vendor product line read 2026-11-24. No vendor page fetched",
+  "specifications": [
+    {
+      "metric": "water depth",
+      "unit": "m",
+      "basis": "Wikipedia Oil platform",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "low": 180,
+      "high": 1300
+    }
+  ],
+  "url": "https://en.wikipedia.org/wiki/Oil_platform",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "notes": "No vendor page fetched",
+  "last_reviewed": "2026-11-24"
+}

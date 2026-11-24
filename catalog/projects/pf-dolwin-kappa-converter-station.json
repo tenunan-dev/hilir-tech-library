@@ -1,0 +1,25 @@
+{
+  "id": "pf-dolwin-kappa-converter-station",
+  "name": "DolWin Kappa converter station",
+  "country": "Germany (North Sea)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "900 MW offshore converter station transport and installation, 2022.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+      "source_id": "allseas-com-our-fleet-pioneering-spirit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

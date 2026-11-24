@@ -1,0 +1,32 @@
+{
+  "id": "subsea7-com-annual-report-2025-annual-report-pdf",
+  "name": "Subsea7",
+  "url": "https://subsea7.com/content/dam/subsea7-corporate2018/annual-report-2025/annual-report.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Subsea7",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. search-verified Evidence: https://subsea7.com/content/dam/subsea7-corporate2018/annual-report-2025/annual-report.pdf"
+}

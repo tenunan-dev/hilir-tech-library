@@ -1,0 +1,25 @@
+{
+  "id": "pf-kanowit-flng",
+  "name": "Kanowit FLNG",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Petronas contract with Technip/DSME, 2012, off Sarawak",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

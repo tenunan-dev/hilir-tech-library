@@ -1,0 +1,24 @@
+{
+  "id": "ngi-norwegian-geotechnical-institute",
+  "name": "NGI (Norwegian Geotechnical Institute)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "categories": [
+    "fabrication"
+  ],
+  "description": "NGI (Norwegian Geotechnical Institute) is named as a provider on a page read during the platform installation sweep.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+      "source_id": "en-wikipedia-org-wiki-suction-caisson"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 platform sweep."
+}

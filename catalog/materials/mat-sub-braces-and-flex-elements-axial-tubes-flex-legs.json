@@ -1,0 +1,50 @@
+{
+  "id": "mat-sub-braces-and-flex-elements-axial-tubes-flex-legs",
+  "name": "Braces and flex elements",
+  "material_category": "structural-component",
+  "description": "Provide triangulation and, in compliant towers, controlled flexibility to de-amplify wave forces.",
+  "specifications": [
+    {
+      "metric": "Baldpate axial tubes",
+      "unit": "count",
+      "basis": "Offshore Technology Baldpate",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/baldpate/",
+        "source_id": "offshore-technology-com-baldpate"
+      },
+      "value": "two axial tubes at each of four legs of tower section"
+    },
+    {
+      "metric": "Baldpate dynamic response",
+      "unit": "description",
+      "basis": "Offshore Technology Baldpate",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/baldpate/",
+        "source_id": "offshore-technology-com-baldpate"
+      },
+      "value": "sway-response cycle about 30 s; up to 10 ft lateral movement in storms"
+    }
+  ],
+  "applications": [
+    "Provide triangulation and, in compliant towers, controlled flexibility to de-amplify wave forces."
+  ],
+  "standards": [],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-wellhead-caisson-conductor-guided-single-well-structure",
+    "sub-monopod-tripod-tripile-bottom-founded-structures"
+  ],
+  "suppliers": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/baldpate/",
+      "source_id": "offshore-technology-com-baldpate"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

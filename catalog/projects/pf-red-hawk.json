@@ -1,0 +1,25 @@
+{
+  "id": "pf-red-hawk",
+  "name": "Red Hawk",
+  "country": "USA",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Only cell spar, 1,615 m, decommissioned 2014 under Rigs-to-Reefs",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+      "source_id": "en-wikipedia-org-wiki-spar-platform"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

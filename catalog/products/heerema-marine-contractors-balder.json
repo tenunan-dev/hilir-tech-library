@@ -1,0 +1,31 @@
+{
+  "id": "heerema-marine-contractors-balder",
+  "name": "Balder",
+  "manufacturer": "heerema-marine-contractors",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
+  ],
+  "description": "Vendor product line read 2026-11-24. Deepwater construction vessel.",
+  "specifications": [
+    {
+      "metric": "Tandem lift (guyed mode)",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": 6300
+    }
+  ],
+  "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+  "sources": [
+    {
+      "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+      "source_id": "heerema-com-heerema-marine-contractors-fleet"
+    }
+  ],
+  "notes": "Deepwater construction vessel.",
+  "last_reviewed": "2026-11-24"
+}

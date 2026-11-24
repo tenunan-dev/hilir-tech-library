@@ -1,0 +1,38 @@
+{
+  "id": "mat-sub-tubular-joints-nodes-chord-brace-intersections",
+  "name": "Tubular joints / nodes",
+  "material_category": "structural-component",
+  "description": "Connect braces to chords in jackets and towers; fatigue-critical hot spots governed by S-N curves and stress concentration factors.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Connect braces to chords in jackets and towers; fatigue-critical hot spots governed by S-N curves and stress concentration factors.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Connect braces to chords in jackets and towers; fatigue-critical hot spots governed by S-N curves and stress concentration factors."
+  ],
+  "standards": [],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-wellhead-caisson-conductor-guided-single-well-structure",
+    "sub-monopod-tripod-tripile-bottom-founded-structures"
+  ],
+  "suppliers": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

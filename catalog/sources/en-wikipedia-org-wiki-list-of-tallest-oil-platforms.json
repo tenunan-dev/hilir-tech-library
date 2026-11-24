@@ -1,0 +1,32 @@
+{
+  "id": "en-wikipedia-org-wiki-list-of-tallest-oil-platforms",
+  "name": "Wikipedia — Lena",
+  "url": "https://en.wikipedia.org/wiki/List_of_tallest_oil_platforms",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Wikipedia",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. First compliant tower, guyed, Exxon, 1983, 396 m tall, 24,000-27,000 t jacket Evidence: https://en.wikipedia.org/wiki/List_of_tallest_oil_platforms"
+}

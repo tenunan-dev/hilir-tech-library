@@ -1,0 +1,54 @@
+{
+  "id": "sub-articulated-tower-articulated-loading-platform-rare",
+  "name": "Articulated tower / articulated loading platform",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Bottom-founded tower connected by a universal joint or articulated base, allowing the structure to rotate with environmental loads while supporting loading or wellhead facilities.",
+  "specifications": [
+    {
+      "metric": "concrete articulated loading column example",
+      "unit": "description",
+      "basis": "Wikipedia Offshore concrete structure major structures table, row 20",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": "Maureen ALC, concrete base articulated loading column, 92 m water depth, North Sea UK, Phillips, 1982, later removed"
+    },
+    {
+      "metric": "Hutton TLP topsides redeployed to Prirazlomnoye",
+      "unit": "description",
+      "basis": "Wikipedia Tension-leg platform",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+        "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
+      },
+      "value": "Hull and topsides separated; topsides redeployed to Prirazlomnoye field in Barents Sea (ice-resistant platform)"
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+      "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Bottom-founded tower connected by a universal joint or articulated base, allowing the structure to rotate with environmental loads while supporting loading or w"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

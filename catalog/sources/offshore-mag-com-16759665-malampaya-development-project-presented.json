@@ -1,31 +1,32 @@
 {
   "id": "offshore-mag-com-16759665-malampaya-development-project-presented",
-  "name": "Offshore Magazine (Expro Group authors: Barrett, Cheyne, Molloy)",
+  "name": "Offshore Mag.Com — Malampaya shallow-water platform (original gas processi",
   "url": "https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges",
   "source_type": "oem-supplier",
   "sectors": [
     "UPS",
-    "MID"
+    "MID",
+    "PWR"
   ],
   "disciplines": [
+    "CIV",
     "PRC",
     "ROT",
-    "CIV",
-    "ELE",
-    "INS"
+    "MAT"
   ],
   "publisher_org": "Offshore Mag.Com",
   "regions": [
     "global",
     "apac",
     "sea",
+    "eu",
     "na"
   ],
   "access": "open",
   "licence": "proprietary (site terms)",
   "reuse_level": "summary-only",
   "quality_tier": 1,
-  "verification": "unverified",
-  "last_verified": null,
-  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Project overview showing five subsea wells, manifold in 2,690 ft, two 18.6-mi flowlines, shallow-water platform, 313-mi 24-inch gas pipeline to Batangas, Catenary Anchored Leg Mooring buoy for condens Evidence: https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges"
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. 11,500 t integrated deck installed by float-over by KBR, March 2001; 40x92 m, three decks, 2,690 ft wells, 313-mi pipeline, CALM buoy; named figure 'Overview of Evidence: https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "fluor-cooec-fluor",
+  "name": "Fluor / COOEC-Fluor",
+  "country": "—",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "categories": [
+    "fabrication"
+  ],
+  "description": "Fluor / COOEC-Fluor is named as a provider on a page read during the platform installation sweep.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+      "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 platform sweep."
+}

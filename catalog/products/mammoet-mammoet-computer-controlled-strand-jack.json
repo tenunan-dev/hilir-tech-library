@@ -1,0 +1,41 @@
+{
+  "id": "mammoet-mammoet-computer-controlled-strand-jack",
+  "name": "Mammoet computer-controlled strand jack",
+  "manufacturer": "mammoet",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
+  ],
+  "description": "Vendor product line read 2026-11-24. Used with skidway; 18,000 t Dongfang case used 4 x 850 t jacks.",
+  "specifications": [
+    {
+      "metric": "Capacity per unit",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://www.mammoet.com/offshore/topside-load-out/",
+        "source_id": "mammoet-com-topside-load-out"
+      },
+      "value": 1045
+    },
+    {
+      "metric": "Skidding speed",
+      "unit": "m/h",
+      "basis": "",
+      "source": {
+        "url": "https://www.mammoet.com/offshore/topside-load-out/",
+        "source_id": "mammoet-com-topside-load-out"
+      },
+      "value": 50
+    }
+  ],
+  "url": "https://www.mammoet.com/offshore/topside-load-out/",
+  "sources": [
+    {
+      "url": "https://www.mammoet.com/offshore/topside-load-out/",
+      "source_id": "mammoet-com-topside-load-out"
+    }
+  ],
+  "notes": "Used with skidway; 18,000 t Dongfang case used 4 x 850 t jacks.",
+  "last_reviewed": "2026-11-24"
+}

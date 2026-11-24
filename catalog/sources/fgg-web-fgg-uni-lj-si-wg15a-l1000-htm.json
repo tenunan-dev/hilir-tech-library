@@ -1,0 +1,32 @@
+{
+  "id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm",
+  "name": "Fgg Web.Fgg.Uni Lj.Si — inter-deck vertical distance",
+  "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Fgg Web.Fgg.Uni Lj.Si",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. vertical distance between topside decks, North Sea practice Evidence: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
+}

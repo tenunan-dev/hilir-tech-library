@@ -1,0 +1,32 @@
+{
+  "id": "en-wikipedia-org-wiki-sscv-sleipnir",
+  "name": "Wikipedia — Sleipnir main hoist capacity vs radius",
+  "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Wikipedia",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Wikipedia SSCV Sleipnir, Design>Cranes, citing Heerema Sleipnir page Evidence: https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+}

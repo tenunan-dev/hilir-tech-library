@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-a05-steel-catenary-riser-systems-three-configurations",
+  "title": "A05 Steel catenary riser systems — three configurations",
+  "diagram_type": "schematic",
+  "description": "SCR hang-off configurations from spar (flexjoint at soft tank, straked upper 4,000 ft), from semisub (flexjoint vs tapered stress joint alternatives, 7-degree hang-off), and lazy-wave SCR from FPSO external turret with buoyancy section; API RP 2RD stress check discussion | Figures: OrcaFlex Example A05; document opens 'This example contains three examples of steel catenary risers (SCRs). These are: Catenary with spar; Catenary with semisub; Lazy wave with FPSO.' Section headings 'Catenary with spar' (p2), 'Catenary with semisub' (p6), 'Lazy Wave with FPSO' (p9).",
+  "publisher": "Orcina (OrcaFlex example A05)",
+  "url": "https://www.orcina.com/wp-content/uploads/examples/a/a05/A05%20Steel%20catenary%20riser%20systems.pdf",
+  "licence": "Publisher example document; cite URL. Figure numbers not assigned in this document — section headings used instead.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.orcina.com/wp-content/uploads/examples/a/a05/A05%20Steel%20catenary%20riser%20systems.pdf",
+      "source_id": "orcina-com-a05-a05-20steel-20catenary-20riser-20systems-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. curl + pypdf text extraction — 10 pages read; section headings and configuration descriptions confirmed",
+  "last_reviewed": "2026-11-24"
+}

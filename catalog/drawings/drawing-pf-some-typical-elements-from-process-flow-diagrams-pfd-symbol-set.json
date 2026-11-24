@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-some-typical-elements-from-process-flow-diagrams-pfd-symbol-set",
+  "title": "Some typical elements from process flow diagrams (PFD symbol set)",
+  "diagram_type": "PFD",
+  "description": "Typical PFD symbol set from the open-source program Dia; click for image legend | Figures: Wikimedia Commons file 'Pfd-symbols.png' on Wikipedia Process flow diagram page",
+  "publisher": "Wikimedia Commons / Wikipedia (secondary)",
+  "url": "https://en.wikipedia.org/wiki/Process_flow_diagram",
+  "licence": "Wikipedia article text CC BY-SA 4.0; verify individual image licence on Commons file page.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Process_flow_diagram",
+      "source_id": "en-wikipedia-org-wiki-process-flow-diagram"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch — image, file name and caption read on page",
+  "last_reviewed": "2026-11-24"
+}

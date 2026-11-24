@@ -1,0 +1,60 @@
+{
+  "id": "mat-sub-sacrificial-anodes-and-cathodic-protection",
+  "name": "Sacrificial anodes and cathodic protection",
+  "material_category": "corrosion-control",
+  "description": "Galvanic anodes (Al, Zn, Mg alloys) corrode preferentially to protect jacket steel, hulls and rebar; ICCP used for large vessels/pipelines.",
+  "specifications": [
+    {
+      "metric": "anode alloy potentials vs Cu/CuSO4",
+      "unit": "V",
+      "basis": "Wikipedia Cathodic protection, Galvanic series table",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Cathodic_protection",
+        "source_id": "en-wikipedia-org-wiki-cathodic-protection"
+      },
+      "value": "Al alloy -0.8 V; Al-5%Zn -1.05 V; Zn -1.1 V; Mg alloy -1.6 V; pure Mg -1.75 V"
+    },
+    {
+      "metric": "anode design standards",
+      "unit": "standards",
+      "basis": "Wikipedia Cathodic protection, Standards list",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Cathodic_protection",
+        "source_id": "en-wikipedia-org-wiki-cathodic-protection"
+      },
+      "value": "DNV-RP-B401 Cathodic Protection Design; EN 12495 (fixed steel offshore structures); EN 13173 (offshore floating structures); NACE SP0169"
+    },
+    {
+      "metric": "visual evidence",
+      "unit": "description",
+      "basis": "Wikipedia Cathodic protection lead image caption",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Cathodic_protection",
+        "source_id": "en-wikipedia-org-wiki-cathodic-protection"
+      },
+      "value": "aluminium sacrificial anodes mounted as light rectangular bars on steel jacket"
+    }
+  ],
+  "applications": [
+    "Galvanic anodes (Al, Zn, Mg alloys) corrode preferentially to protect jacket steel, hulls and rebar; ICCP used for large vessels/pipelines."
+  ],
+  "standards": [],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-wellhead-caisson-conductor-guided-single-well-structure",
+    "sub-monopod-tripod-tripile-bottom-founded-structures"
+  ],
+  "suppliers": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Cathodic_protection",
+      "source_id": "en-wikipedia-org-wiki-cathodic-protection"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

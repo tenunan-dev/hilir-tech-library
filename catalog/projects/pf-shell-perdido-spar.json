@@ -1,0 +1,25 @@
+{
+  "id": "pf-shell-perdido-spar",
+  "name": "Shell Perdido spar",
+  "country": "USA (Gulf of Mexico)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "lightweight single-lift topsides installed by Thialf in March 2009, living quarter added three days later",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

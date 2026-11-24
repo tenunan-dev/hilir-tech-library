@@ -1,0 +1,25 @@
+{
+  "id": "pf-ninian-northern-platform-removal",
+  "name": "Ninian Northern platform removal",
+  "country": "UK North Sea",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "23,000 t complete platform removed in single lift 2020.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+      "source_id": "allseas-com-our-fleet-pioneering-spirit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-brent-delta-brent-bravo-brent-charlie-removals",
+  "name": "Brent Delta / Brent Bravo / Brent Charlie removals",
+  "country": "UK North Sea",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Pioneering Spirit removed 24,200 t Brent Delta (2017), 25,000 t Brent Bravo (2019), 31,000 t Brent Charlie (2024, described as heaviest offshore lift ever performed).",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+      "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-aci-prc-357-24-design-and-construction-of-fixed-offshore-concrete-stru",
+  "title": "ACI PRC-357-24 — Design and Construction of Fixed Offshore Concrete Structures (preview)",
+  "diagram_type": "schematic",
+  "description": "Fixed offshore concrete structures and associated marine works: jetties, berthing structures and pile-supported platforms | Figures: Public preview does not expose figure captions; figures must be cited from the full guide",
+  "publisher": "American Concrete Institute (ACI), Committee 357",
+  "url": "https://concrete.org/Portals/0/Files/PDF/Previews/357-24_preview.pdf",
+  "licence": "ACI copyright; preview only. Cite the full standard for any figure.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://concrete.org/Portals/0/Files/PDF/Previews/357-24_preview.pdf",
+      "source_id": "concrete-org-previews-357-24-preview-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. Curated hilir-techlib drawing record; URL not independently fetched in this session — verify before use",
+  "last_reviewed": "2026-11-24"
+}

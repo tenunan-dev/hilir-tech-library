@@ -1,0 +1,25 @@
+{
+  "id": "pf-prelude-flng-living-quarters",
+  "name": "Prelude FLNG living quarters",
+  "country": "Australia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "temporary refuge, designated living quarters separated from processes by utilities and safety gap",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.parliament.wa.gov.au/parliament/commit.nsf/(Evidence+Lookup+by+Com+ID)/86A29802584DD0BC48257D8C001C710B/$file/20140811+Sub.+09+Shell.pdf",
+      "source_id": "parliament-wa-gov-au-file-20140811-sub-09-shell-pdf"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

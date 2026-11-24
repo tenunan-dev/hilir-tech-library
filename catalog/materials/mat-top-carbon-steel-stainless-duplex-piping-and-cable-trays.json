@@ -1,0 +1,38 @@
+{
+  "id": "mat-top-carbon-steel-stainless-duplex-piping-and-cable-trays",
+  "name": "Carbon steel / stainless / duplex piping and cable trays",
+  "material_category": "piping-electrical-support",
+  "description": "Process piping, pipe racks, cable supports and trays; material selected for corrosion resistance and mechanical compatibility.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Process piping, pipe racks, cable supports and trays; material selected for corrosion resistance and mechanical compatibility.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Process piping, pipe racks, cable supports and trays; material selected for corrosion resistance and mechanical compatibility."
+  ],
+  "standards": [],
+  "equipment": [
+    "top-offshore-topsides-definition-function-and-structural-scope",
+    "top-integrated-single-lift-topsides",
+    "top-modular-multi-module-topsides",
+    "top-module-support-frame-msf-and-deck-structures"
+  ],
+  "suppliers": [
+    "lamprell"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

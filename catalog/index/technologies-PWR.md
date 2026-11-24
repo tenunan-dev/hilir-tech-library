@@ -761,7 +761,7 @@ flowchart LR
     ARR --> EXP
 ```
 
-**Key equipment:** turbine, monopile or jacket foundation, inter-array cables, offshore substation, export cable.
+**Key equipment:** turbine, monopile or jacket foundation, inter-array cables, offshore substation, export cable, monopile foundation, jacket foundation, suction bucket jacket, grouted pile connection.
 
 **Performance:**
 - representative turbine rating: 12 MW; 216 m rotor, 137 m hub height, base year. [source](https://atb.nrel.gov/electricity/2024/offshore_wind)
@@ -775,7 +775,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Seabed fixed offshore wind turbine' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/offshore_wind), [2](https://en.wikipedia.org/wiki/Offshore_wind_power). Last reviewed 2026-11-11.
+Sources: [1](https://atb.nrel.gov/electricity/2024/offshore_wind), [2](https://en.wikipedia.org/wiki/Offshore_wind_power). Last reviewed 2026-11-24.
 
 ## Onshore wind
 <a id="pwr-onshore-wind"></a>
@@ -1020,7 +1020,7 @@ flowchart LR
     TURB --> CAB
 ```
 
-**Key equipment:** floating hull, mooring and anchors, turbine, dynamic cable.
+**Key equipment:** floating hull, mooring and anchors, turbine, dynamic cable, semi-submersible floater, SPAR floater, tension-leg platform floater, barge/pontoon floater, mooring and anchoring.
 
 **Performance:**
 - Hywind Tampen capacity: 94.6 MW; 11 turbines of 8.6 MW. [source](https://www.equinor.com/energy/hywind-tampen)
@@ -1035,7 +1035,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Floating offshore wind turbine' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-Sources: [1](https://www.equinor.com/energy/hywind-tampen), [2](https://atb.nrel.gov/electricity/2024/offshore_wind), [3](https://maritime-executive.com/article/wind-farm-to-power-offshore-platforms-gains-approval), [4](https://en.wikipedia.org/wiki/Floating_wind_turbine). Last reviewed 2026-10-29.
+Sources: [1](https://www.equinor.com/energy/hywind-tampen), [2](https://atb.nrel.gov/electricity/2024/offshore_wind), [3](https://maritime-executive.com/article/wind-farm-to-power-offshore-platforms-gains-approval), [4](https://en.wikipedia.org/wiki/Floating_wind_turbine). Last reviewed 2026-11-24.
 
 ## Gravity energy storage
 <a id="pwr-gravity-storage"></a>

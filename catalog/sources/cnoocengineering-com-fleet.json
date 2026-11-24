@@ -1,0 +1,32 @@
+{
+  "id": "cnoocengineering-com-fleet",
+  "name": "COOEC (CNOOC Engineering)",
+  "url": "https://www.cnoocengineering.com/english/Solutions/Fleet/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Cnoocengineering.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Search-verified snippet: 19 vessels in 6 types; page not read. Evidence: https://www.cnoocengineering.com/english/Solutions/Fleet/"
+}

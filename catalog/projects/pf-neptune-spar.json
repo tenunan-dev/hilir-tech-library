@@ -1,0 +1,26 @@
+{
+  "id": "pf-neptune-spar",
+  "name": "Neptune spar",
+  "country": "United States",
+  "location": "Gulf of Mexico",
+  "status": "under-construction",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "substructure_type: Conventional one-piece cylindrical spar — first production spar | topside_type: Not stated on page read | water_depth: 590 m (1,940 ft) | topside_weight: Not stated on page read | installation_method: Moored spar (description on page read) | contractor: Not stated on page read | dates: Not stated on page read",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "notes": "secondary source Historical (first production spar)",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "norwegian-contractors",
+  "name": "Norwegian Contractors",
+  "country": "—",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "categories": [
+    "fabrication"
+  ],
+  "description": "Norwegian Contractors is named as a provider on a page read during the platform installation sweep.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 platform sweep."
+}

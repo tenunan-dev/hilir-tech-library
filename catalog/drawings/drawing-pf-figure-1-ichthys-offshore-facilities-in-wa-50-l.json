@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-figure-1-ichthys-offshore-facilities-in-wa-50-l",
+  "title": "Figure 1: Ichthys offshore facilities in WA 50-L",
+  "diagram_type": "schematic",
+  "description": "Arrangement of CPF, FPSO, subsea drill centres, flowlines/umbilicals, gas export riser base and export pipeline in permit WA-50-L | Figures: Figure 1 (factsheet page 1)",
+  "publisher": "INPEX Ichthys Pty Ltd / NOPSEMA (public document)",
+  "url": "https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf",
+  "licence": "Publisher/regulator document; cite document and figure number; reproduce only under applicable terms.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf",
+      "source_id": "inpex-com-au-rbmjbgrj-ichthys-offshore-facilities-operation-ep-fac"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. curl + pypdf text extraction — Figure 1 caption confirmed on page 1",
+  "last_reviewed": "2026-11-24"
+}

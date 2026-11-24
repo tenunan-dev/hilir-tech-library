@@ -1,0 +1,25 @@
+{
+  "id": "pf-snorre-cft",
+  "name": "Snorre CFT",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "3-cell concrete foundation templates, suction anchors, 310 m",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

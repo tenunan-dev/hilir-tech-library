@@ -1,0 +1,25 @@
+{
+  "id": "pf-red-hawk-spar-decommissioning",
+  "name": "Red Hawk spar decommissioning",
+  "country": "USA (Gulf of Mexico)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Decommissioned 2014 under Rigs-to-Reefs.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+      "source_id": "en-wikipedia-org-wiki-spar-platform"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

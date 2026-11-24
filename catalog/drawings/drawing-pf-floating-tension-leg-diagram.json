@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-floating-tension-leg-diagram",
+  "title": "Floating tension leg diagram",
+  "diagram_type": "schematic",
+  "description": "TLP free floating on left; pulled down by tensioned cables to seabed anchors on right (simplified, omitting ballast transfers) | Figures: Wikimedia Commons file 'Floating_tension_leg_diagram.svg', displayed on Wikipedia Tension-leg platform page",
+  "publisher": "Wikimedia Commons / Wikipedia (secondary)",
+  "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+  "licence": "Wikipedia article text CC BY-SA 4.0; verify individual image licence on Commons file page.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+      "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch — image, file name and caption read on page",
+  "last_reviewed": "2026-11-24"
+}

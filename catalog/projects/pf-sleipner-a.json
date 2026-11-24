@@ -1,0 +1,26 @@
+{
+  "id": "pf-sleipner-a",
+  "name": "Sleipner A",
+  "country": "Norway",
+  "location": "North Sea; trials in Gandsfjord",
+  "status": "under-construction",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "substructure_type: Condeep concrete gravity base structure (notable failure case) | topside_type: Not stated on page read | water_depth: 82 m | topside_weight: Not stated on page read | installation_method: Original concrete structure sank during trials in Gandsfjord on 23 Aug 1991; a new structure was built and deployed in 1993 | contractor: Norwegian Contractors (Condeep) | dates: 1991 sinkage; 1993 deployment",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Condeep",
+      "source_id": "en-wikipedia-org-wiki-condeep"
+    }
+  ],
+  "notes": "secondary source Replacement structure deployed 1993",
+  "last_reviewed": "2026-11-24"
+}

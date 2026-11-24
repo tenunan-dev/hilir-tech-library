@@ -1,0 +1,32 @@
+{
+  "id": "offshore-technology-com-baldpate",
+  "name": "Offshore Technology — skirt-pile sleeves, Baldpate",
+  "url": "https://www.offshore-technology.com/projects/baldpate/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Technology",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Offshore Technology Baldpate: three 84 in-diameter, 530 ft skirt-pile sleeves at each of four bottom corners; 12 foundation piles installed by Heerema; penetrat Evidence: https://www.offshore-technology.com/projects/baldpate/"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "pf-ichthys-lng-central-processing-facility-and-fpso",
+  "name": "Ichthys LNG — Central Processing Facility and FPSO",
+  "country": "Australia",
+  "location": "Offshore Western Australia (permit WA-50-L), gas export pipeline to onshore LNG plant near Darwin",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "substructure_type: Semi-submersible CPF (one of largest of its kind) + ship-shaped FPSO; subsea production system | topside_type: CPF separates gas/condensate from flexible risers; FPSO stores and offloads condensate | water_depth: Up to 250 m along gas export pipeline route (per INPEX concept page) | topside_weight: Not stated on pages read | installation_method: Subsea wells -> manifolds -> flowlines/flexible risers -> CPF; CPF gas to 890 km pipeline; condensate to FPSO and offtake tankers (arrangement shown in Figures 1 and 3 of the INPEX factsheet). Detailed installation method not stated on pages read. | contractor: INPEX Ichthys Pty Ltd (operator/developer) | dates: Not stated on pages actually read",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inpex.com/english/ichthys/concept.html",
+      "source_id": "inpex-com-ichthys-concept-html"
+    },
+    {
+      "url": "https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf",
+      "source_id": "inpex-com-au-rbmjbgrj-ichthys-offshore-facilities-operation-ep-fac"
+    }
+  ],
+  "notes": " Operating",
+  "last_reviewed": "2026-11-24"
+}

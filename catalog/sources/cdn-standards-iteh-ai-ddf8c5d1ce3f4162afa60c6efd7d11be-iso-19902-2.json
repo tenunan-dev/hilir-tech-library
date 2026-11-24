@@ -1,0 +1,32 @@
+{
+  "id": "cdn-standards-iteh-ai-ddf8c5d1ce3f4162afa60c6efd7d11be-iso-19902-2",
+  "name": "International Organization for Standardization (ISO), TC 67/SC 7",
+  "url": "https://cdn.standards.iteh.ai/samples/65688/ddf8c5d1ce3f4162afa60c6efd7d11be/ISO-19902-2020.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Cdn.Standards.Iteh.Ai",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Standard scope covering fixed steel offshore structures: jackets, towers, caissons, monotowers Evidence: https://cdn.standards.iteh.ai/samples/65688/ddf8c5d1ce3f4162afa60c6efd7d11be/ISO-19902-2020.pdf"
+}

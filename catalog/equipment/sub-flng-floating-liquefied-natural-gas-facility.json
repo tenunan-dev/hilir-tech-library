@@ -1,0 +1,42 @@
+{
+  "id": "sub-flng-floating-liquefied-natural-gas-facility",
+  "name": "FLNG",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Floating facility that extracts, processes, liquefies, stores and offloads LNG at sea, removing the need for a pipeline to shore.",
+  "specifications": [
+    {
+      "metric": "Petronas Kanowit FLNG contract",
+      "unit": "description",
+      "basis": "Wikipedia FPSO History section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+      },
+      "value": "Technip/DSME consortium EPCI contract awarded June 2012"
+    }
+  ],
+  "vendors": [
+    "shell",
+    "technip-samsung-consortium",
+    "sbm-offshore"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Floating facility that extracts, processes, liquefies, stores and offloads LNG at sea, removing the need for a pipeline to shore."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

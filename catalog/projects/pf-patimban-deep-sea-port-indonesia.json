@@ -1,0 +1,25 @@
+{
+  "id": "pf-patimban-deep-sea-port-indonesia",
+  "name": "Patimban Deep Sea Port, Indonesia",
+  "country": "Indonesia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Concrete spun pile driving with diesel hammer shown in Wikipedia pile driver article (photo caption) — APAC relevant but no quantitative data.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Pile_driver",
+      "source_id": "en-wikipedia-org-wiki-pile-driver"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

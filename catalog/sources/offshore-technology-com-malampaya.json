@@ -1,24 +1,25 @@
 {
   "id": "offshore-technology-com-malampaya",
-  "name": "Offshore Technology (GlobalData)",
+  "name": "Offshore Technology — Malampaya shallow-water platform (original gas processi",
   "url": "https://www.offshore-technology.com/projects/malampaya/",
   "source_type": "oem-supplier",
   "sectors": [
     "UPS",
-    "MID"
+    "MID",
+    "PWR"
   ],
   "disciplines": [
+    "CIV",
     "PRC",
     "ROT",
-    "CIV",
-    "ELE",
-    "INS"
+    "MAT"
   ],
   "publisher_org": "Offshore Technology",
   "regions": [
     "global",
     "apac",
     "sea",
+    "eu",
     "na"
   ],
   "access": "open",
@@ -27,5 +28,5 @@
   "quality_tier": 1,
   "verification": "verified",
   "last_verified": "2026-11-24",
-  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Malampaya field development system schematic (subsea wells/flowlines to platform and export) as published alongside the project article Evidence: https://www.offshore-technology.com/projects/malampaya/"
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. CGS dimensions, topsides weight and dimensions, contractors, float-over context, 43 m/850 m depths, ballast and rock figures; contains three named drawings Evidence: https://www.offshore-technology.com/projects/malampaya/"
 }

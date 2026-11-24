@@ -1,0 +1,42 @@
+{
+  "id": "mat-ins-elastomeric-lmu-pads-high-performance-rubber",
+  "name": "Elastomeric LMU pads",
+  "material_category": "polymer-elastomer",
+  "description": "Absorb vertical and horizontal compression and dynamic motion during topside set-down; low creep",
+  "specifications": [
+    {
+      "metric": "Full-scale compression test capability",
+      "unit": "MT",
+      "basis": "Trelleborg LMU page, Benefits",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+        "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
+      },
+      "value": 18300
+    }
+  ],
+  "applications": [
+    "Absorb vertical and horizontal compression and dynamic motion during topside set-down; low creep"
+  ],
+  "standards": [],
+  "equipment": [
+    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati",
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast",
+    "ins-float-over-topside-installation-barge-float-over-tidal-float-o",
+    "ins-leg-mating-units-lmu-elastomeric-shock-absorbers"
+  ],
+  "suppliers": [
+    "trelleborg-marine-and-infrastructure",
+    "hi-tech-elastomers",
+    "seacamel-orca-offshore"
+  ],
+  "sources": [
+    {
+      "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+      "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+  "name": "Minimal / minimum-facility jacket and wellhead platform",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Small unmanned well bay and process/wellhead structure tied back by flowline or umbilical to a host platform.",
+  "specifications": [
+    {
+      "metric": "configuration",
+      "unit": "description",
+      "basis": "Wikipedia Oil platform, Normally unmanned installations section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": "well bay + helipad + emergency shelter; operated remotely, occasional visits"
+    },
+    {
+      "metric": "configuration (conductor support)",
+      "unit": "description",
+      "basis": "Wikipedia Oil platform, Conductor support systems section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": "well bay + small process plant; linked to static production platform by flow lines and/or umbilical"
+    }
+  ],
+  "vendors": [
+    "aquaterra-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Small unmanned well bay and process/wellhead structure tied back by flowline or umbilical to a host platform."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-ichthys-lng-development-concept-concept-img",
+  "title": "Ichthys LNG — Development Concept (concept_img)",
+  "diagram_type": "block-diagram",
+  "description": "Whole-chain concept: subsea wells, CPF, FPSO, gas export pipeline, flowlines/flexible risers and onshore LNG plant | Figures: Page image 'concept_img' under heading 'Outline of Development Concept'",
+  "publisher": "INPEX CORPORATION",
+  "url": "https://www.inpex.com/english/ichthys/concept.html",
+  "licence": "Publisher copyright; 'summary-only'. Cite URL; do not reproduce without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inpex.com/english/ichthys/concept.html",
+      "source_id": "inpex-com-ichthys-concept-html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch — figure and associated table read on page",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-mexilh-o-pmxl-1",
+  "name": "Mexilhão PMXL-1",
+  "country": "Brazil",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "180 m jacket ~10,500 t, 3,150 t piles up to 120 m, 172 m water depth, 12,000 t topsides",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/mexilhao",
+      "source_id": "offshore-technology-com-projects-mexilhao"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

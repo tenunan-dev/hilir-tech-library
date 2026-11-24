@@ -1,0 +1,101 @@
+{
+  "id": "ins-suction-bucket-suction-pile-suction-caisson-installation",
+  "name": "Suction bucket / suction pile",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Inverted open-bottom tube sealed at top; penetrate by self-weight then by pumping water out to create negative pressure (suction); removable by pumping water in to create overpressure. Used as anchors for floating platforms and as foundations for fixed structures and wind turbines.",
+  "specifications": [
+    {
+      "metric": "Installation mechanism",
+      "unit": "description",
+      "basis": "Wikipedia Suction caisson, Description",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": "push or pump water out of skirt to create negative pressure; removal by overpressure"
+    },
+    {
+      "metric": "Installed population / depth (as of 2002 statistics)",
+      "unit": "count / locations / m",
+      "basis": "Wikipedia Suction caisson, lead section (statistics from 2002)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": "485 caissons at more than 50 localities, depths to about 2,000 m"
+    },
+    {
+      "metric": "Diana platform suction anchors",
+      "unit": "m / m / m",
+      "basis": "Wikipedia Suction caisson, History",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": "30 m high, 6.5 m diameter, installed at about 1,500 m water depth on soft clay (1999)"
+    },
+    {
+      "metric": "Gorm field first suction caissons",
+      "unit": "count / m",
+      "basis": "Wikipedia Suction caisson, History",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": "12 caissons for a loading buoy at 40 m depth, Shell, 1981"
+    },
+    {
+      "metric": "Snorre A TLP suction caissons",
+      "unit": "m",
+      "basis": "Wikipedia Suction caisson, History (Saga Petroleum/NGI)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": "12 m long vs up to 90 m long piles that would otherwise be required"
+    },
+    {
+      "metric": "Gravity platform skirt lengths",
+      "unit": "m",
+      "basis": "Wikipedia Suction caisson, Gravity oil platforms",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": "Gullfaks C 22 m skirts; Troll A 30 m skirts at 330 m water depth"
+    },
+    {
+      "metric": "Aasta Hansteen suction anchors",
+      "unit": "count",
+      "basis": "Wikipedia Suction caisson, image caption",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": "17 suction anchors for the Aasta Hansteen platform, Norwegian Sea"
+    }
+  ],
+  "vendors": [
+    "ngi-norwegian-geotechnical-institute",
+    "iqip"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+      "source_id": "en-wikipedia-org-wiki-suction-caisson"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Inverted open-bottom tube sealed at top; penetrate by self-weight then by pumping water out to create negative pressure (suction); removable by pumping water in"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

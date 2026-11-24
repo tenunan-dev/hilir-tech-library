@@ -1,0 +1,58 @@
+{
+  "id": "ins-float-over-topside-installation-barge-float-over-tidal-float-o",
+  "name": "Float-over topside installation",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Transport an integrated topside on a heavy-lift/transport barge, maneuver the barge between pre-installed jacket legs, align deck legs with leg-mating units, ballast the barge (or use tidal change) to transfer weight to the substructure, then weld out.",
+  "specifications": [
+    {
+      "metric": "Float-over hardware set",
+      "unit": "list",
+      "basis": "Trelleborg LMU page, Overview",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+        "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
+      },
+      "value": "LMU + Sway and Surge Fenders (SSF) + Deck Support Units (DSU)"
+    },
+    {
+      "metric": "Topsides weight where crane-free float-over is advantageous",
+      "unit": "t",
+      "basis": "Mammoet topside load-out page",
+      "source": {
+        "url": "https://www.mammoet.com/offshore/topside-load-out/",
+        "source_id": "mammoet-com-topside-load-out"
+      },
+      "value": ">10,000 t (many topsides now exceed this)"
+    }
+  ],
+  "vendors": [
+    "trelleborg-marine-and-infrastructure",
+    "mammoet",
+    "orca-offshore",
+    "hi-tech-elastomers",
+    "seacamel"
+  ],
+  "sources": [
+    {
+      "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+      "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
+    },
+    {
+      "url": "https://www.mammoet.com/offshore/topside-load-out/",
+      "source_id": "mammoet-com-topside-load-out"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Transport an integrated topside on a heavy-lift/transport barge, maneuver the barge between pre-installed jacket legs, align deck legs with leg-mating units, ba"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-hutton-conoco",
+  "name": "Hutton (Conoco)",
+  "country": "UK North Sea",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "first TLP, 1984; 20,000 Te integrated topsides fabricated at Ardersier",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://mcdermottscotlandheritage.com/project/hutton-1984",
+      "source_id": "mcdermottscotlandheritage-com-project-hutton-1984"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

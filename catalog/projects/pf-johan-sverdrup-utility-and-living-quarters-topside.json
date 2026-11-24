@@ -1,0 +1,25 @@
+{
+  "id": "pf-johan-sverdrup-utility-and-living-quarters-topside",
+  "name": "Johan Sverdrup utility and living quarters topside",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "560 beds; KBR/Kvaerner JV with Leirvik modules; described as close to 'plug-n-play'",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/johan-sverdrup-living-quarters-topside-sails-away-field",
+      "source_id": "jpt-spe-org-jpt-spe-org-johan-sverdrup-living-quarters-topside-sai"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

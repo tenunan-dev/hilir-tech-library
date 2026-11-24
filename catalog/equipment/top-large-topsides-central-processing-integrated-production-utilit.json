@@ -1,0 +1,81 @@
+{
+  "id": "top-large-topsides-central-processing-integrated-production-utilit",
+  "name": "Large topsides: central processing / integrated production-utility-accommodation platforms",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Large multi-module topsides carrying separation, gas processing, water handling, utilities, power and living quarters, often with drilling and riser systems. Weight and dimensions are driven primarily by platform function.",
+  "specifications": [
+    {
+      "metric": "Johan Sverdrup P2 topsides weight",
+      "unit": "t (rounded)",
+      "basis": "Aibel's largest designed/built topside; three modules, flare tower and bridge, weighed by load cells and displacement",
+      "source": {
+        "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+        "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+      },
+      "value": 24000
+    },
+    {
+      "metric": "Johan Sverdrup drilling platform (DP) topsides weight",
+      "unit": "t (rounded)",
+      "basis": "Aibel project 2018",
+      "source": {
+        "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+        "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+      },
+      "value": 22000
+    },
+    {
+      "metric": "Kvitebjørn topsides weight",
+      "unit": "t (rounded)",
+      "basis": "Aibel project 2003",
+      "source": {
+        "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+        "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+      },
+      "value": 14400
+    },
+    {
+      "metric": "Gudrun topsides weight",
+      "unit": "t (rounded)",
+      "basis": "Aibel project 2014",
+      "source": {
+        "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+        "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+      },
+      "value": 10500
+    },
+    {
+      "metric": "Dolwin Beta offshore HVDC platform topsides",
+      "unit": "t (rounded)",
+      "basis": "Aibel project 2015 - non-O&G comparator",
+      "source": {
+        "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+        "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+      },
+      "value": 22000
+    }
+  ],
+  "vendors": [
+    "aker-solutions",
+    "fluor-cooec-fluor"
+  ],
+  "sources": [
+    {
+      "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+      "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Large multi-module topsides carrying separation, gas processing, water handling, utilities, power and living quarters, often with drilling and riser systems. We"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

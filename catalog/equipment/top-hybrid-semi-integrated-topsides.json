@@ -1,0 +1,50 @@
+{
+  "id": "top-hybrid-semi-integrated-topsides",
+  "name": "Hybrid / semi-integrated topsides",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Mixed concept where most equipment is integrated into a single lifted structure and smaller modules are added afterwards, balancing crane capacity, weight and offshore HUC cost.",
+  "specifications": [
+    {
+      "metric": "semi-integrated option rationale",
+      "unit": "n/a",
+      "basis": "described as more cost-effective than fully modularised installation when crane capacity is limiting",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": "lift semi-integrated topsides then install additional smaller modules on top"
+    },
+    {
+      "metric": "Perdido living quarter installed after topsides",
+      "unit": "days after topsides lift",
+      "basis": "single-lift topsides 9 March 2009? topsides lift completed 13 March, living quarters added three days later",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 3
+    }
+  ],
+  "vendors": [
+    "technip-coflexip"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Mixed concept where most equipment is integrated into a single lifted structure and smaller modules are added afterwards, balancing crane capacity, weight and o"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

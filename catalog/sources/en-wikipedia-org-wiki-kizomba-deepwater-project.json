@@ -1,0 +1,32 @@
+{
+  "id": "en-wikipedia-org-wiki-kizomba-deepwater-project",
+  "name": "Wikipedia — Kizomba A (TLP + FPSO)",
+  "url": "https://en.wikipedia.org/wiki/Kizomba_deepwater_project",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Wikipedia",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. all above; Kizomba B startup Oct 2005; Kizomba C two FPSOs (Saxi/Batuque, Mondo) launched 2008 in ~730 m Evidence: https://en.wikipedia.org/wiki/Kizomba_deepwater_project"
+}

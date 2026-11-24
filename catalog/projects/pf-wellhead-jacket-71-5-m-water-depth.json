@@ -1,0 +1,25 @@
+{
+  "id": "pf-wellhead-jacket-71-5-m-water-depth",
+  "name": "Wellhead jacket, 71.5 m water depth",
+  "country": "unspecified",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "about 2,000 t; Rosemond-EMI 2020 — example of small launch jacket.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://thenavalarch.com/launching-steel-jackets/",
+      "source_id": "thenavalarch-com-launching-steel-jackets"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

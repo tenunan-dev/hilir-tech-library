@@ -1,0 +1,94 @@
+{
+  "id": "top-topside-systems-process-layout-piping-electrical-icss-f-g-esd",
+  "name": "Topside systems",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "The distributed systems carried by the topside structure: process equipment and pipe racks; power generation/distribution and control; fire & gas and emergency shutdown; heating/ventilation/air conditioning; material-handling cranes; escape/lifesaving; helicopter decks; and inter-platform bridges.",
+  "specifications": [
+    {
+      "metric": "helideck location requirement",
+      "unit": "n/a",
+      "basis": "to enable fast evacuation",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": "near living quarters; usually on obstacle-free area on top of living quarters"
+    },
+    {
+      "metric": "deck crane siting",
+      "unit": "n/a",
+      "basis": "layout requirement",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": "outside helideck obstacle-free area; maximum deck coverage; operator eye contact with load and supply vessel"
+    },
+    {
+      "metric": "pipe rack arrangement",
+      "unit": "n/a",
+      "basis": "FPSO best practice; rack floor at same elevation as common lower deck level",
+      "source": {
+        "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
+        "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
+      },
+      "value": "central longitudinal pipe rack with process/utility modules on either side"
+    },
+    {
+      "metric": "electrical building strategy",
+      "unit": "n/a",
+      "basis": "distributes cable tray runs, allows smaller electrical buildings and lower module weights",
+      "source": {
+        "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
+        "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
+      },
+      "value": "main electrical building aft plus auxiliary electrical building forward"
+    },
+    {
+      "metric": "FPSO process optimisation example module count and weight saving",
+      "unit": "modules; 7,000 t weight reduction and ~$300 million savings",
+      "basis": "100,000 b/d oil, 250 mmcf/d gas, 100,000 b/d produced water, 275,000 b/d water injection at 5,000 psig; oil stabilisation vs conventional stage separation",
+      "source": {
+        "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
+        "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
+      },
+      "value": 10
+    },
+    {
+      "metric": "escapeway width criterion",
+      "unit": "n/a",
+      "basis": "walkways, ladders and stairs kept obstacle-free and non-slippery",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": "sufficient to allow evacuation of personnel on stretchers"
+    }
+  ],
+  "vendors": [
+    "alliance-engineering"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+    },
+    {
+      "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
+      "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "The distributed systems carried by the topside structure: process equipment and pipe racks; power generation/distribution and control; fire & gas and emergency "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

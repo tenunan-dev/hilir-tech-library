@@ -1,0 +1,25 @@
+{
+  "id": "pf-ba-tyk-2-3-offshore-wind-farms",
+  "name": "Bałtyk 2 & 3 offshore wind farms",
+  "country": "Poland",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Heerema Thialf installed 100 turbine foundations and 2 OSS jackets (2026 news item on Heerema home page).",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.heerema.com/",
+      "source_id": "heerema-com-www-heerema-com"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-hugin-b-aker-bp",
+  "name": "Hugin B (Aker BP)",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "2,100 t normally unmanned wellhead platform; fabrication at Verdal",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://mfn.se/all/a/aker-solutions/aker-solutions-asa-aker-solutions-secures-multiple-contracts-with-aker-bp-record-high-order-intake-994c33c7",
+      "source_id": "mfn-se-aker-solutions-aker-solutions-asa-aker-solutions-secures-mu"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

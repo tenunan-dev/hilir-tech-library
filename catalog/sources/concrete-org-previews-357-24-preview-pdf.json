@@ -1,0 +1,32 @@
+{
+  "id": "concrete-org-previews-357-24-preview-pdf",
+  "name": "American Concrete Institute (ACI), Committee 357",
+  "url": "https://concrete.org/Portals/0/Files/PDF/Previews/357-24_preview.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Concrete.Org",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Fixed offshore concrete structures and associated marine works: jetties, berthing structures and pile-supported platforms Evidence: https://concrete.org/Portals/0/Files/PDF/Previews/357-24_preview.pdf"
+}

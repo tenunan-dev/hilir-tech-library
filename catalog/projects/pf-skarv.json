@@ -1,0 +1,25 @@
+{
+  "id": "pf-skarv",
+  "name": "Skarv",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "292 m FPSO, 19 million m3/d gas, 13,500 m3/d oil",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

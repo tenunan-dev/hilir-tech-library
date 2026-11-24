@@ -1,0 +1,25 @@
+{
+  "id": "pf-miller-bp-north-sea",
+  "name": "Miller (BP), North Sea",
+  "country": "UK",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "topsides installed with twelve modules; five-level living quarter with 98 cabins / 196 beds",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

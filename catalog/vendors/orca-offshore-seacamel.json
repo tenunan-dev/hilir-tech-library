@@ -1,0 +1,24 @@
+{
+  "id": "orca-offshore-seacamel",
+  "name": "Orca Offshore / SeaCamel",
+  "country": "—",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "categories": [
+    "fabrication"
+  ],
+  "description": "Orca Offshore / SeaCamel is named as a provider on a page read during the platform installation sweep.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
+      "source_id": "orca-offshore-com-leg-mating-unit"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 platform sweep."
+}

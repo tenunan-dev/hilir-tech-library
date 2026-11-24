@@ -5,27 +5,28 @@
   "source_type": "oem-supplier",
   "sectors": [
     "UPS",
-    "MID"
+    "MID",
+    "PWR"
   ],
   "disciplines": [
+    "CIV",
     "PRC",
     "ROT",
-    "CIV",
-    "ELE",
-    "INS"
+    "MAT"
   ],
-  "publisher_org": "Orcina",
+  "publisher_org": "Orcina.Com",
   "regions": [
     "global",
     "apac",
     "sea",
+    "eu",
     "na"
   ],
   "access": "open",
   "licence": "proprietary (site terms)",
   "reuse_level": "summary-only",
   "quality_tier": 1,
-  "verification": "unverified",
-  "last_verified": null,
-  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. SCR configurations with spar, semi-submersible (flexjoint and tapered stress joint alternatives) and lazy-wave SCR from FPSO external turret with buoyancy section; API RP 2RD stress code check Evidence: https://www.orcina.com/wp-content/uploads/examples/a/a05/A05%20Steel%20catenary%20riser%20systems.pdf"
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. SCR hang-off configurations from spar (flexjoint at soft tank, straked upper 4,000 ft), from semisub (flexjoint vs tapered stress joint alternatives, 7-degree hang-off), and lazy-wave SCR from FPSO ex Evidence: https://www.orcina.com/wp-content/uploads/examples/a/a05/A05%20Steel%20catenary%20riser%20systems.pdf"
 }

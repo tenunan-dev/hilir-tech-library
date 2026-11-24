@@ -1,0 +1,25 @@
+{
+  "id": "pf-malikai",
+  "name": "Malikai",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "26,000 t TLP, 500 m, first in Malaysia",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/malikai-deepwater-oilfield-project",
+      "source_id": "offshore-technology-com-projects-malikai-deepwater-oilfield-projec"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,24 +1,25 @@
 {
   "id": "en-wikipedia-org-wiki-oil-platform",
-  "name": "Wikipedia — description from Oil platform article",
+  "name": "Wikipedia — quoted general water depth feasibility",
   "url": "https://en.wikipedia.org/wiki/Oil_platform",
   "source_type": "research-institute",
   "sectors": [
     "UPS",
-    "MID"
+    "MID",
+    "PWR"
   ],
   "disciplines": [
+    "CIV",
     "PRC",
     "ROT",
-    "CIV",
-    "ELE",
-    "INS"
+    "MAT"
   ],
   "publisher_org": "Wikipedia",
   "regions": [
     "global",
     "apac",
     "sea",
+    "eu",
     "na"
   ],
   "access": "open",
@@ -27,5 +28,5 @@
   "quality_tier": 1,
   "verification": "verified",
   "last_verified": "2026-11-24",
-  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Wikipedia Oil platform, Conductor support systems section Evidence: https://en.wikipedia.org/wiki/Oil_platform"
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Wikipedia Oil platform, Fixed platforms section: economically feasible up to about 520 m (1,710 ft) Evidence: https://en.wikipedia.org/wiki/Oil_platform"
 }

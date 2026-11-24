@@ -1,0 +1,32 @@
+{
+  "id": "cnoocengineering-com-solutions-yards",
+  "name": "COOEC",
+  "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Cnoocengineering.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Qingdao yard 300,000 t/yr; Zhuhai 250,000 t/yr. Evidence: https://www.cnoocengineering.com/english/Solutions/Yards"
+}

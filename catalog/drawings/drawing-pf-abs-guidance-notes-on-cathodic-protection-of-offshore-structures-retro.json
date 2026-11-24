@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-abs-guidance-notes-on-cathodic-protection-of-offshore-structures-retro",
+  "title": "ABS Guidance Notes on Cathodic Protection of Offshore Structures — retrofit anode arrangement figures",
+  "diagram_type": "schematic",
+  "description": "Hanging/retractable anode systems, gravity anode sleds, anode pods and mats, anode links and buoyant sleds for retrofit CP of offshore structures, FPSOs and jetties | Figures: Section 5, Figure 1 Hanging Anode System at Retracted Position for a FPSO; Figure 2 Anode Sled; Figure 3 Anode Pod and Mat; Figure 4 Anode Link; Figure 5 Buoyant Sled",
+  "publisher": "American Bureau of Shipping (ABS)",
+  "url": "https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/offshore/306-cathodicprotection-offshore-structures/cathodic-protection-offshore-gn-dec18.pdf",
+  "licence": "Publisher guidance notes (copyright); cite document and Section 5 figure numbers.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/offshore/306-cathodicprotection-offshore-structures/cathodic-protection-offshore-gn-dec18.pdf",
+      "source_id": "ww2-eagle-org-306-cathodicprotection-offshore-structures-cathodic"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. curl + pypdf text extraction — 46-page PDF reached; Section 5 Figure 2 and Figure 4 cross-references confirmed in text; full caption list per curated catalogue (verify captions before publication)",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-kikeh-fpso",
+  "name": "Kikeh FPSO",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "337 m × 54.6 m, 273,000 dwt, 2 million bbl, 120,000 bpd",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development",
+      "source_id": "offshore-technology-com-projects-kikeh-floating-production-storage"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

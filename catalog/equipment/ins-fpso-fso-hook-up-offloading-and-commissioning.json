@@ -1,0 +1,43 @@
+{
+  "id": "ins-fpso-fso-hook-up-offloading-and-commissioning",
+  "name": "FPSO/FSO hook-up, offloading and commissioning",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Bring a tanker-based FPSO/FSO to site, moor it, connect risers/flowlines/umbilicals and offloading system, hook up pre-laid moorings (often with AHTS + ROV), then commission and hand over.",
+  "specifications": [
+    {
+      "metric": "FPSO/FSO definition",
+      "unit": "description",
+      "basis": "Wikipedia Oil platform, Floating production systems",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": "FPSO = large monohull, usually ship-shaped, with processing facilities, moored for extended periods and not drilling; FSO/FSU used exclusively for storage with little process equipment"
+    }
+  ],
+  "vendors": [
+    "acteon",
+    "fugro",
+    "oceaneering",
+    "vantris-energy-sapura-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Bring a tanker-based FPSO/FSO to site, moor it, connect risers/flowlines/umbilicals and offloading system, hook up pre-laid moorings (often with AHTS + ROV), th"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

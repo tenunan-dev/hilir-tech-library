@@ -1,0 +1,25 @@
+{
+  "id": "pf-mumbai-coastal-road-project",
+  "name": "Mumbai Coastal Road Project",
+  "country": "India",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "4 no. HLMUs and 8 no. stabbing cones supplied (Hi-Tech Elastomers).",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://hitechelastomers.com/products/leg-mating-unit/",
+      "source_id": "hitechelastomers-com-leg-mating-unit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

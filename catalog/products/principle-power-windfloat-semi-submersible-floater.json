@@ -1,0 +1,31 @@
+{
+  "id": "principle-power-windfloat-semi-submersible-floater",
+  "name": "WindFloat semi-submersible floater",
+  "manufacturer": "principle-power",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-barge-based-platforms-pontoons-and-floaters"
+  ],
+  "description": "Vendor product line read 2026-11-24. page_read=true via Wikipedia; vendor site not fetched",
+  "specifications": [
+    {
+      "metric": "turbine rating, WindFloat Atlantic",
+      "unit": "MW",
+      "basis": "Wikipedia Floating offshore wind operational table",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+        "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
+      },
+      "value": 8.4
+    }
+  ],
+  "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+      "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
+    }
+  ],
+  "notes": "page_read=true via Wikipedia; vendor site not fetched",
+  "last_reviewed": "2026-11-24"
+}

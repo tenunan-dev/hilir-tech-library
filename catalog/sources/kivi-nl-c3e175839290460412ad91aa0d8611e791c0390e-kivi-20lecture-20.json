@@ -1,0 +1,32 @@
+{
+  "id": "kivi-nl-c3e175839290460412ad91aa0d8611e791c0390e-kivi-20lecture-20",
+  "name": "SBM Offshore",
+  "url": "https://kivi.nl/_Resources/Persistent/c/3/e/1/c3e175839290460412ad91aa0d8611e791c0390e/KIVI%20lecture%2025-Jan-16%20-%20issue%20to%20KIVI%20-%202spp.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Kivi.Nl",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Prelude turret manifolds and fluid transfer. Evidence: https://kivi.nl/_Resources/Persistent/c/3/e/1/c3e175839290460412ad91aa0d8611e791c0390e/KIVI%20lecture%2025-Jan-16%20-%20issue%20to%20KIVI%20-%202spp.pdf"
+}

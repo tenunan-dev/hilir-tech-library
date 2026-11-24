@@ -1,0 +1,25 @@
+{
+  "id": "pf-olympus-mars-b-shell",
+  "name": "Olympus / Mars B (Shell)",
+  "country": "USA GOM",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "22,400 t topsides, 342,000 ft2 deck, 24 well slots, 100,000 BOEPD",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/shell-deploys-next-generation-tlp-extended-field-development-gom",
+      "source_id": "jpt-spe-org-jpt-spe-org-shell-deploys-next-generation-tlp-extended"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

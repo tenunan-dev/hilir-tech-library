@@ -1,0 +1,32 @@
+{
+  "id": "en-wikipedia-org-wiki-cathodic-protection",
+  "name": "Wikipedia — anode alloy potentials vs Cu/CuSO4",
+  "url": "https://en.wikipedia.org/wiki/Cathodic_protection",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Wikipedia",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Wikipedia Cathodic protection, Galvanic series table Evidence: https://en.wikipedia.org/wiki/Cathodic_protection"
+}

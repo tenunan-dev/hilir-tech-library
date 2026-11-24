@@ -1,0 +1,25 @@
+{
+  "id": "pf-2-500-wind-turbine-foundations",
+  "name": "2,500+ wind turbine foundations",
+  "country": "global",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Acteon/Menck states 2,500+ wind turbine foundations driven with its hammers.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+      "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

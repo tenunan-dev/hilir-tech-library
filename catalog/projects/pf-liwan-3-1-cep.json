@@ -1,0 +1,25 @@
+{
+  "id": "pf-liwan-3-1-cep",
+  "name": "Liwan 3-1 CEP",
+  "country": "China (South China Sea)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "jacket and topsides each >30,000 t; jacket launched, topsides float-over; modified HYSY229 installation barge",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://onepetro.org/OTCONF/proceedings/13OTC/13OTC/OTC-23971-MS/37463",
+      "source_id": "onepetro-org-otc-23971-ms-37463"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

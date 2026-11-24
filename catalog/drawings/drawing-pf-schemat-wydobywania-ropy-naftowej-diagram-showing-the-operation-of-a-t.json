@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-schemat-wydobywania-ropy-naftowej-diagram-showing-the-operation-of-a-t",
+  "title": "Schemat wydobywania ropy naftowej (Diagram showing the operation of a typical oil platform)",
+  "diagram_type": "schematic",
+  "description": "Numbered generic oil production operation: 1 drilling rig, 2 rock layers, 3 oil drills, 4 oil and natural gas | Figures: Wikimedia Commons file 'Schemat_wydobywania_ropy_naftowej.svg' on Wikipedia Oil platform page",
+  "publisher": "Wikimedia Commons / Wikipedia (secondary)",
+  "url": "https://en.wikipedia.org/wiki/Oil_platform",
+  "licence": "Wikipedia article text CC BY-SA 4.0; verify individual image licence on Commons file page.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch — image, file name and caption read on page",
+  "last_reviewed": "2026-11-24"
+}

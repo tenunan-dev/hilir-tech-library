@@ -1,0 +1,25 @@
+{
+  "id": "pf-ardjuna-lpg-barge",
+  "name": "Ardjuna LPG barge",
+  "country": "Indonesia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "First prestressed concrete barge, 43 m, 1974",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

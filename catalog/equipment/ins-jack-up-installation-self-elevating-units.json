@@ -1,0 +1,85 @@
+{
+  "id": "ins-jack-up-installation-self-elevating-units",
+  "name": "Jack-up installation",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Tow to site with legs up, jack legs down to seabed, preload with ballast to ensure legs do not penetrate further in service, then jack hull above water to a predetermined air gap so waves act on slender legs rather than hull.",
+  "specifications": [
+    {
+      "metric": "Typical water depth limit",
+      "unit": "m",
+      "basis": "Wikipedia Jackup rig, Process of operation",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jackup_rig",
+        "source_id": "en-wikipedia-org-wiki-jackup-rig"
+      },
+      "value": "generally less than 120 m; premium/ultra-premium 150-190 m (490-620 ft)"
+    },
+    {
+      "metric": "Tallest jack-up legs",
+      "unit": "m",
+      "basis": "Wikipedia Jackup rig, lead section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jackup_rig",
+        "source_id": "en-wikipedia-org-wiki-jackup-rig"
+      },
+      "value": "Noble Lloyd Noble, legs 214 m, completed 2016"
+    },
+    {
+      "metric": "Global fleet size",
+      "unit": "count",
+      "basis": "Wikipedia Jackup rig, lead section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jackup_rig",
+        "source_id": "en-wikipedia-org-wiki-jackup-rig"
+      },
+      "value": "about 540 jackup drilling rigs at end of 2013"
+    },
+    {
+      "metric": "Jacking mechanism",
+      "unit": "description",
+      "basis": "Wikipedia Jackup rig, Process of operation",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jackup_rig",
+        "source_id": "en-wikipedia-org-wiki-jackup-rig"
+      },
+      "value": "rack and pinion; pinions driven by hydraulic or electric motors, rack affixed to legs"
+    },
+    {
+      "metric": "Yme MOPU removal by Pioneering Spirit",
+      "unit": "t / m",
+      "basis": "Wikipedia Pioneering Spirit, Projects",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+        "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+      },
+      "value": "13,500 t jack-up type platform on three 3.5 m diameter steel legs"
+    }
+  ],
+  "vendors": [
+    "seaway7-subsea7",
+    "noble-drilling-noble-lloyd-noble"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Jackup_rig",
+      "source_id": "en-wikipedia-org-wiki-jackup-rig"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+      "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Tow to site with legs up, jack legs down to seabed, preload with ballast to ensure legs do not penetrate further in service, then jack hull above water to a pre"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

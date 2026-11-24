@@ -1,0 +1,69 @@
+{
+  "id": "top-accommodation-living-quarters-topsides",
+  "name": "Accommodation / living quarters topsides",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Provides habitability for the offshore workforce, with helideck access nearby and maximum segregation from hazardous process equipment, flare and high-noise sources.",
+  "specifications": [
+    {
+      "metric": "Miller living quarter",
+      "unit": "n/a",
+      "basis": "independent module with integrated bathroom facilities",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": "five levels, 98 cabins, 196 beds"
+    },
+    {
+      "metric": "Olympus TLP accommodation",
+      "unit": "crew members",
+      "basis": "up to 192 crew housed; 342,000 ft2 deck space",
+      "source": {
+        "url": "https://jpt.spe.org/shell-deploys-next-generation-tlp-extended-field-development-gom",
+        "source_id": "jpt-spe-org-jpt-spe-org-shell-deploys-next-generation-tlp-extended"
+      },
+      "value": 192
+    },
+    {
+      "metric": "Kizomba A living quarters design",
+      "unit": "pax",
+      "basis": "platform design includes 100-man living quarters",
+      "source": {
+        "url": "https://qa-site.mcdermott.com/projects/kizomba-tension-leg-platform",
+        "source_id": "qa-site-mcdermott-com-projects-kizomba-tension-leg-platform"
+      },
+      "value": 100
+    }
+  ],
+  "vendors": [
+    "leirvik-as",
+    "kbr-kvaerner-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    },
+    {
+      "url": "https://jpt.spe.org/shell-deploys-next-generation-tlp-extended-field-development-gom",
+      "source_id": "jpt-spe-org-jpt-spe-org-shell-deploys-next-generation-tlp-extended"
+    },
+    {
+      "url": "https://qa-site.mcdermott.com/projects/kizomba-tension-leg-platform",
+      "source_id": "qa-site-mcdermott-com-projects-kizomba-tension-leg-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Provides habitability for the offshore workforce, with helideck access nearby and maximum segregation from hazardous process equipment, flare and high-noise sou"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

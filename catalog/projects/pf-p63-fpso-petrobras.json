@@ -1,0 +1,25 @@
+{
+  "id": "pf-p63-fpso-petrobras",
+  "name": "P63 FPSO (Petrobras)",
+  "country": "Brazil",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "23 process plant modules installed during conversion; 1,500 people at peak",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.oilandgasiq.com/operational-excellence/case-studies/what-are-mopus-and-fpsos",
+      "source_id": "oilandgasiq-com-case-studies-what-are-mopus-and-fpsos"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-neptune-oryx-cng",
+  "name": "Neptune (Oryx/CNG)",
+  "country": "USA GOM",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "first production spar 1996, 1,930 ft water depth, 6,600 t topsides",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.onepetro.org/conference-paper/OTC-10952-MS",
+      "source_id": "onepetro-org-conference-paper-otc-10952-ms"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

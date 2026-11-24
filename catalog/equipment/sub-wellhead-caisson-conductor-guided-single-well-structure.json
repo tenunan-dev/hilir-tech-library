@@ -1,0 +1,40 @@
+{
+  "id": "sub-wellhead-caisson-conductor-guided-single-well-structure",
+  "name": "Wellhead caisson / conductor-guided single-well structure",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Single- or few-well structure in which the conductor(s) provide primary lateral support for a small wellhead deck.",
+  "specifications": [
+    {
+      "metric": "structural concept",
+      "unit": "description",
+      "basis": "Wikipedia Oil platform, Conductor support systems",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": "small unmanned platform with well bay and small process plant, connected to a static production platform by flowlines/umbilical"
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Single- or few-well structure in which the conductor(s) provide primary lateral support for a small wellhead deck."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

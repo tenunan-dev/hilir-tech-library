@@ -33,19 +33,19 @@
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
-| Catalog sources | 1,251 valid, 1,251 unique ids |
+| Catalog sources | 1,382 valid, 1,382 unique ids |
 | Technology cards | 392 (407-entry register) |
-| Vendor records | 794 |
-| Equipment classes | 254 (58 boiler types/components from the first sweep, plus 23 supporting systems: feedwater pretreatment, RO/EDI, chemical dosing, sampling, blowdown recovery, cleaning, steam traps, condensate pumps/polishing, separators, PRV/desuperheating, expansion joints, silencers, insulation, gas boosters, pilots/ignition, instrument air, SCR reagent, circulation/feedwater pumps, MCC/VFD and HRSG bypass dampers) |
-| Projects and plants | 471 |
-| Product catalog | 190 vendor product lines with printed specifications (`schema/product.schema.json`, `catalog/products/`) |
-| Process drawings | 154 PFD/P&ID/schematic records (`schema/drawing.schema.json`, `catalog/drawings/`) — the diagrams stay at the publisher's url |
-| Engineering materials | 58 records with sourced properties (`schema/material.schema.json`, `catalog/materials/`) |
+| Vendor records | 864 |
+| Equipment classes | 326 (58 boiler types/components from the first sweep, plus 23 supporting systems: feedwater pretreatment, RO/EDI, chemical dosing, sampling, blowdown recovery, cleaning, steam traps, condensate pumps/polishing, separators, PRV/desuperheating, expansion joints, silencers, insulation, gas boosters, pilots/ignition, instrument air, SCR reagent, circulation/feedwater pumps, MCC/VFD and HRSG bypass dampers) |
+| Projects and plants | 605 |
+| Product catalog | 216 vendor product lines with printed specifications (`schema/product.schema.json`, `catalog/products/`) |
+| Process drawings | 182 PFD/P&ID/schematic records (`schema/drawing.schema.json`, `catalog/drawings/`) — the diagrams stay at the publisher's url |
+| Engineering materials | 87 records with sourced properties (`schema/material.schema.json`, `catalog/materials/`) |
 | Corpus documents | 253, **one per source url** (decision 40), each with a hand-written summary — 207 open, 46 full-text-restricted (13,192 chunks locally and in Neon) |
 
-Verified live 2026-11-24: Neon reloaded (1,251 sources / 794 vendors / 392 cards / 254 equipment /
-471 projects / 190 products / 154 drawings / 58 materials / 407 register entries / 253 documents /
-13,192 chunks / 6,474 nodes / 22,499 edges / 16,756 vectors); `pytest -q tests` 2,149 passed, 13 skipped.
+Verified live 2026-11-24: Neon reloaded (1,382 sources / 864 vendors / 392 cards / 326 equipment /
+605 projects / 216 products / 182 drawings / 87 materials / 407 register entries / 253 documents /
+13,192 chunks / 7,012 nodes / 24,997 edges / 17,246 vectors); `pytest -q tests` 2,454 passed, 13 skipped.
 The MCP surface is 32 tools, adding list/get materials.
 The MCP surface is 30 tools, adding list/get products and drawings. Standing main effort is source discovery
 (`docs/SOURCE_DISCOVERY_PLAN.md`, decision #30); the next equipment families wait on the owner

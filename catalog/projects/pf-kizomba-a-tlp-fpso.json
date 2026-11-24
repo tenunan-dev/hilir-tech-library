@@ -1,0 +1,30 @@
+{
+  "id": "pf-kizomba-a-tlp-fpso",
+  "name": "Kizomba A (TLP + FPSO)",
+  "country": "Angola (West Africa)",
+  "location": "Block 15, ~145-320 km off northern Angola, Atlantic Ocean",
+  "status": "under-construction",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "substructure_type: Tension leg platform plus FPSO | topside_type: TLP production topsides and separate storage/offloading FPSO | water_depth: 1,200 m (FPSO); 1,177 m for Kizomba A TLP per TLP type table | topside_weight: FPSO 81,000 t | installation_method: TLP plus FPSO receives oil from wells and stores until tanker transfer (method detail not on page read) | contractor: Hyundai Heavy Industries, Ulsan Korea (FPSO build, >US$800m) | dates: ExxonMobil began production at Block 15 in 2003; contract extended to 2037 (2025 addendum)",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Kizomba_deepwater_project",
+      "source_id": "en-wikipedia-org-wiki-kizomba-deepwater-project"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+      "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
+    }
+  ],
+  "notes": "secondary source Producing",
+  "last_reviewed": "2026-11-24"
+}

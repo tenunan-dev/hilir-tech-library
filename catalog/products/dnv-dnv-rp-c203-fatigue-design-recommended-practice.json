@@ -1,7 +1,7 @@
 {
   "id": "dnv-dnv-rp-c203-fatigue-design-recommended-practice",
   "name": "DNV-RP-C203 fatigue design recommended practice",
-  "manufacturer": "dnv",
+  "manufacturer": "dnv-installjac-software",
   "product_type": "civ-civil",
   "equipment": [
     "civ-shallow-raft-pad-foundations"

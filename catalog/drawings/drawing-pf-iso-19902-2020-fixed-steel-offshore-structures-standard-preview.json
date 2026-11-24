@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-iso-19902-2020-fixed-steel-offshore-structures-standard-preview",
+  "title": "ISO 19902:2020 Fixed steel offshore structures standard (preview)",
+  "diagram_type": "schematic",
+  "description": "Standard scope covering fixed steel offshore structures: jackets, towers, caissons, monotowers | Figures: 15-page public preview exposes scope and revision information but not figure captions",
+  "publisher": "International Organization for Standardization (ISO), TC 67/SC 7",
+  "url": "https://cdn.standards.iteh.ai/samples/65688/ddf8c5d1ce3f4162afa60c6efd7d11be/ISO-19902-2020.pdf",
+  "licence": "ISO copyright; preview only. Cite full standard for figures.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://cdn.standards.iteh.ai/samples/65688/ddf8c5d1ce3f4162afa60c6efd7d11be/ISO-19902-2020.pdf",
+      "source_id": "cdn-standards-iteh-ai-ddf8c5d1ce3f4162afa60c6efd7d11be-iso-19902-2"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. Curated hilir-techlib drawing record; URL not independently fetched in this session — verify before use",
+  "last_reviewed": "2026-11-24"
+}

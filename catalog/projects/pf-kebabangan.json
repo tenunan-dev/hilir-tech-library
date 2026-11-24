@@ -1,0 +1,25 @@
+{
+  "id": "pf-kebabangan",
+  "name": "Kebabangan",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Fixed eight-leg steel jacket 12,300 t at 142 m water depth",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/kebabangan-field",
+      "source_id": "offshore-technology-com-projects-kebabangan-field"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

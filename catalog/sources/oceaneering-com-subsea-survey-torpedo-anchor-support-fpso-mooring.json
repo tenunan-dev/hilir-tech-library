@@ -1,0 +1,32 @@
+{
+  "id": "oceaneering-com-subsea-survey-torpedo-anchor-support-fpso-mooring",
+  "name": "Oceaneering.Com — FPSO mooring line hook-up (Brazil, torpedo anchors)",
+  "url": "https://www.oceaneering.com/case-studies/subsea-survey-torpedo-anchor-support-fpso-mooring/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Oceaneering.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Oceaneering case study advertises high-precision subsea survey, real-time anchor positioning and ROV support for FPSO mooring hook-up — search-verified snippet  Evidence: https://www.oceaneering.com/case-studies/subsea-survey-torpedo-anchor-support-fpso-mooring/"
+}

@@ -1,6 +1,6 @@
 # Equipment catalog
 
-254 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+326 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -588,7 +588,7 @@ Recorded gaps:
 
 Primary code: PCH: Petrochemicals
 High-pressure exchanger where ammonia and carbon dioxide from the stripper recombine into carbamate, releasing heat that is recovered as steam. Pool-condenser designs carry the reaction further in the condenser itself, which reduces the duty left for the reactor and the recycle section.
-Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale, Saipem, Casale SA, Alleima (3 model lines recorded).
+Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale, Saipem (ex-Micoperi 7000), Casale SA, Alleima (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -1133,7 +1133,7 @@ Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale SA, Yara (3 mo
 
 - **Stamicarbon** High-pressure CO2 stripper: CO2 stripping; no medium-pressure recirculation stage downstream
 - **Casale** SPLIT FLOW LOOP: best suited up to 2,300 MTD, or 3,500 MTD with medium-pressure stage
-- **Saipem** Falling-film stripper 31/41 E-1: operates at 146 kg/cm2g
+- **Saipem (ex-Micoperi 7000)** Falling-film stripper 31/41 E-1: operates at 146 kg/cm2g
 
 Recorded gaps:
 
@@ -2289,6 +2289,333 @@ Recorded gaps:
 - No fetchable NFPA 85 document (paywalled); trial-for-ignition numbers quoted second-hand via AFRC (NFPA 86) and magazine articles — Use NFPA 85 handbook summaries or insurer/BOCA guidance pages that print the trial-for-ignition and purge requirements.
 - Asia-Pacific flame scanner/pilot vendors not yet evidenced beyond Zeeco/John Zink regional offices — Search KOSHA/KTL-certified ignition suppliers and Chinese/Japanese flame scanner OEMs.
 
+## ins-platform
+
+### Decommissioning / removal technologies (ins-decommissioning-removal-technologies-reverse-installation-sing)
+
+Primary code: UPS: Upstream
+Prepare structure (clean, cut, install lifting points), remove topsides and jacket by reverse installation (piece-small or module), single-lift heavy lift, or controlled toppling where permitted; transport to shore for recycling/disposal.
+Vendors: Heerema Marine Contractors, Allseas (OEM design), Boskalis (Dockwise heritage), Thunder Cranes, Mammoet (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Heerema removal vessel capacity | up to approximately 20,000 metric tons metric tons | Heerema jacket and topside removal page |
+| Largest single-lift jacket removal | 10,100 metric tons — Brent Alpha jacket, 2020 metric tons | Heerema decommissioning page (world record claim) |
+| Recycling/repurposing rate | 98% of structures safely repurposed or recycled % | Heerema decommissioning page |
+| Rigs-to-Reefs decommissioning example | Red Hawk cell spar decommissioned in 2014 under BSEE Rigs-to-Reefs program; deepest floating platform decommissioned at the time date / description | Wikipedia Spar (platform), lead section |
+
+
+### Float-over topside installation (ins-float-over-topside-installation-barge-float-over-tidal-float-o)
+
+Primary code: UPS: Upstream
+Transport an integrated topside on a heavy-lift/transport barge, maneuver the barge between pre-installed jacket legs, align deck legs with leg-mating units, ballast the barge (or use tidal change) to transfer weight to the substructure, then weld out.
+Vendors: Trelleborg Marine and Infrastructure, Mammoet, Orca Offshore, Hi-Tech Elastomers, SeaCamel (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Float-over hardware set | LMU + Sway and Surge Fenders (SSF) + Deck Support Units (DSU) list | Trelleborg LMU page, Overview |
+| Topsides weight where crane-free float-over is advantageous | >10,000 t (many topsides now exceed this) t | Mammoet topside load-out page |
+
+
+### Floating platform installation — semi-submersible ballasting/mooring (ins-floating-platform-installation-semi-submersible-ballasting-moo)
+
+Primary code: UPS: Upstream
+Float a semi-submersible hull to site, ballast to operational draft, connect chain/wire/polyester mooring or hold with DP; can be used from 60 m to 6,000 m water depth.
+Vendors: Boskalis (Dockwise heritage), Allseas (OEM design) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Semi-submersible platform water depth range | 60 to 6,000 m (200 to 20,000 ft) m | Wikipedia Oil platform, Semi-submersible platform |
+| Semi-submersible heavy transport ballast method | flood ballast tanks to lower well deck below water; float cargo over; pump out to raise deck description | Wikipedia Heavy-lift ship, Semi-submersible ships |
+| Pioneering Spirit semi-sub operation | 48,000 t topside lift achieved by operating as a semi-submersible t | Wikipedia Pioneering Spirit, Design |
+
+
+### FPSO/FSO hook-up, offloading and commissioning (ins-fpso-fso-hook-up-offloading-and-commissioning)
+
+Primary code: UPS: Upstream
+Bring a tanker-based FPSO/FSO to site, moor it, connect risers/flowlines/umbilicals and offloading system, hook up pre-laid moorings (often with AHTS + ROV), then commission and hand over.
+Vendors: Acteon, Fugro, Oceaneering, Vantris Energy (Sapura Energy) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| FPSO/FSO definition | FPSO = large monohull, usually ship-shaped, with processing facilities, moored for extended periods and not drilling; FSO/FSU used exclusively for storage with little process equipment description | Wikipedia Oil platform, Floating production systems |
+
+
+### Gravity-based structure (ins-gravity-based-structure-gbs-installation)
+
+Primary code: UPS: Upstream
+Concrete or steel gravity structure built in sheltered deep water near shore, floated to site, sunk by controlled ballasting onto prepared seabed, then topsides installed by float-over or crane.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| GBS float-out and sinking | built close to shore in Norwegian fjords/Scottish firths, floated to final position and sunk to seabed description | Wikipedia Oil platform, Fixed platforms |
+| Fixed platform economic depth limit | up to about 520 m (1,710 ft) m | Wikipedia Oil platform, Fixed platforms |
+| Troll A gravity platform | founded in 330 m depth with 30 m long skirts; world's biggest gravity platform m | Wikipedia Suction caisson, Gravity oil platforms |
+| Ekofisk first North Sea gravity platform | foundation area as big as a football field; designed for waves up to 24 m description / m | Wikipedia Suction caisson, Gravity oil platforms |
+
+
+### Hook-up, commissioning and close-out (ins-hook-up-commissioning-and-close-out)
+
+Primary code: UPS: Upstream
+After set-down: weld out LMU/leg connections, install conductors/risers/umbilicals, connect utilities, test systems, survey as-built position and hand over; for float-over, release LMU load and weld topside leg cans to substructure.
+Vendors: Acteon, Fugro (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Post-float-over close-out step | topside leg cans securely welded to substructure after installation description | Trelleborg LMU page, Overview |
+| Direct-weld LMU close-out | topside welded directly to jacket after set-down; sand-jack lowering phase eliminated description | Orca Offshore LMU page |
+
+
+### Impact pile driving hammers (ins-impact-pile-driving-hammers-hydraulic-diesel-underwater)
+
+Primary code: UPS: Upstream
+Drive tubular piles/conductors/monopiles to target penetration using controlled high-energy blows; hydraulic double-acting hammers give higher frequency and control; underwater hammers use power packs and compensators.
+Vendors: IQIP, Menck (Acteon Marine Foundations; sale to Cadeler announced Aug 2026), Vulcan Iron Works (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| IQIP Hydrohammer S-series energy range | 30 kJ (S-30) to 2,000 kJ (S-2000) kJ | IQIP Hydrohammer S-series page: 'Models range from S-30 to S-2000, with energy capacities from 30kJ to 2000kJ' |
+| IQIP S-2000 max blow energy / blow rate / hammer weight | 2,000 kJ; 35 bl/min; 230 t hammer (100 t ram) kJ / bl/min / t | IQIP S-series datasheet table on product page |
+| IQIP S-150 max blow energy / blow rate / hammer weight | 150 kJ; 44 bl/min; 16.5 t hammer (7.5 t ram) kJ / bl/min / t | IQIP S-series datasheet table |
+| IQIP minimum energy setting | about 10% of max (standard); 2-5% in high-frequency/low-energy mode % of max energy | IQIP S-series datasheet footnote |
+| Menck double-acting hammer energy range (whole spread) | 100 kJ to 6,250 kJ kJ | Acteon/Menck hydraulic hammers page: 'hammer spread unites double-acting hydraulic hammers (100 kJ to 6,250 kJ)' |
+| Menck MHU6000W max energy / blow rate / oil flow / pressure | 6,250 kJ; 30 bl/min; 12,800 L/min; 210 bar kJ / bl/min / L/min / bar | Acteon/Menck hydraulic hammers page, MHU6000W specification block |
+| Menck MHU300S / MHU800S / MHU3500S energy ranges | 27-300 kJ / 75-820 kJ / 320-3,500 kJ kJ | Acteon/Menck hydraulic hammers page, individual model blocks |
+| Saipem 7000 hammer spread | 2 x Menck MHU 3000 (3,000 kJ each); 2 x MHU1700; 2 x MHU1000; 2 x MHU600; 1 x MHU220; 1 x MHU195; 2 underwater power packs; 1 hydraulic hammer compensator list | Wikipedia Saipem 7000, Platform installation equipment |
+| Diesel hammer principle | two-stroke diesel engine; piston is ram, cylinder connects to pile head; fuel ignites on compression, rebounding ram description | Wikipedia Pile driver, Diesel hammer |
+| Underwater noise mitigation | bubble curtains, balloons, internal combustion water hammers list | Wikipedia Pile driver, Environmental effects |
+
+
+### Jack-up installation (ins-jack-up-installation-self-elevating-units)
+
+Primary code: UPS: Upstream
+Tow to site with legs up, jack legs down to seabed, preload with ballast to ensure legs do not penetrate further in service, then jack hull above water to a predetermined air gap so waves act on slender legs rather than hull.
+Vendors: Seaway7 (Subsea7), Noble Drilling (Noble Lloyd Noble) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Typical water depth limit | generally less than 120 m; premium/ultra-premium 150-190 m (490-620 ft) m | Wikipedia Jackup rig, Process of operation |
+| Tallest jack-up legs | Noble Lloyd Noble, legs 214 m, completed 2016 m | Wikipedia Jackup rig, lead section |
+| Global fleet size | about 540 jackup drilling rigs at end of 2013 count | Wikipedia Jackup rig, lead section |
+| Jacking mechanism | rack and pinion; pinions driven by hydraulic or electric motors, rack affixed to legs description | Wikipedia Jackup rig, Process of operation |
+| Yme MOPU removal by Pioneering Spirit | 13,500 t jack-up type platform on three 3.5 m diameter steel legs t / m | Wikipedia Pioneering Spirit, Projects |
+
+
+### Launch barge and jacket launching (ins-launch-barge-and-jacket-launching-skid-rails-rocker-arms-launc)
+
+Primary code: UPS: Upstream
+Fabricate jacket horizontally, load out onto a launch barge, tow to site, ballast the barge to trim, winch/slide the jacket over skid rails and rocker arms into the water, let it float near-horizontal (head-up), then upend and set on seabed.
+Vendors: DNV (Installjac software), Mermaid Consultants, TheNavalArch, Heerema Marine Contractors (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Principal launch stages | 1 winching to overcome friction; 2 sliding; 3 point of rotation; 4 rotating and sliding; 5 jacket clear of barge list | TheNavalArch, 'Launching Steel Jackets' by Alan Crowle, Figure 1 |
+| Typical launch barge draft | 60-65% of barge depth; up to 80% possible if strength adequate % of depth | TheNavalArch launch article, Barge choice |
+| Maximum allowable barge trim | usually about 10 degrees degrees | TheNavalArch launch article, Launch constraints |
+| Friction coefficients (greased timber on Teflon) | dynamic 0.035 (3.5%); static as low as 0.05 (5%) dimensionless | TheNavalArch launch article, Launch constraints |
+| Jacket auxiliary buoyancy | typically over 10% of launch weight % of launch weight | TheNavalArch launch article, Jacket auxiliary buoyancy |
+| Jacket reserve buoyancy (floating after launch) | at least 15% of total jacket weight % | Mermaid Consultants, Jacket Launching — Jacket Reserve Buoyancy |
+| Minimum bottom clearance during launch | 10% of water depth or 5 m, whichever is greater m / % | Mermaid Consultants, Jacket Bottom Clearance |
+| Stability criterion during launch | transverse and longitudinal GM > 1 m m | Mermaid Consultants, Barge and Jacket Stability |
+| Hydrodynamic coefficients used in launch analysis | Cd 0.7; Cm 2.0 dimensionless | TheNavalArch launch article, Structural analysis (Morison's equation) |
+| Launch sea state limit (personnel transfer / boarding) | significant wave height typically less than 2 m m Hs | TheNavalArch launch article, Offshore operations; Mermaid Consultants, Environmental Conditions |
+
+
+### Leg Mating Units (ins-leg-mating-units-lmu-elastomeric-shock-absorbers)
+
+Primary code: UPS: Upstream
+Absorb vertical and horizontal compression as topside deck-leg cans land on jacket legs during float-over; manage static and dynamic loads and horizontal movement from sea state; allow load release after set-down.
+Vendors: Trelleborg Marine and Infrastructure, Hi-Tech Elastomers, Orca Offshore / SeaCamel (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Full-scale compression load test up to | 18300 MT | Trelleborg LMU page, Benefits: 'Full-scale testing compression loads up to 18,300 MT' |
+| LMU construction | robust steel structure with high-performance elastomeric pads description | Trelleborg LMU page, Overview |
+| Load-relief mechanism | sand released from valve lowers plunger assembly, unloading rubber elements description | Hitech Elastomers LMU page, INTRO |
+| Alternative LMU build | standard rubber elements + standard steel pipe + flush steel plates description | Orca Offshore LMU page |
+
+
+### Load-out and transport — SPMT, skidding, strand jacking, barge load-out, sea-fastening (ins-load-out-and-transport-spmt-skidding-strand-jacking-barge-load)
+
+Primary code: UPS: Upstream
+Move completed topsides/jackets from fabrication yard onto a transport barge or heavy-lift vessel using SPMTs, skid tracks or strand jacks; analyze quay strength and CoG; ballast vessel and install sea-fastening for the voyage.
+Vendors: Mammoet, ALE, Lampson, Allseas (OEM design) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Strand-jack unit capacity / skid speed | up to 1,045 t per unit; load-outs up to 50 m per hour t per unit / m per hour | Mammoet topside load-out page |
+| Hydraulic compensated skid shoe load-out capacity | in excess of 20,000 t using multiple skid shoes t | Mammoet topside load-out page |
+| Typical topside weight driving load-out design | many now exceed 10,000 t t | Mammoet topside load-out page |
+| Dongfang 18,000 t load-out equipment | 4 x 850 t strand jacks; 4 x 2,400 t ballast pumps; 12 x 1,000 t de-ballast pumps count x t | Mammoet case study, 18,000 t topside load-out |
+
+
+### Mooring and anchoring systems (ins-mooring-and-anchoring-systems-incl-ahts-and-anchors)
+
+Primary code: UPS: Upstream
+Position and hold floating facilities and assist installation vessels using anchors, chain/wire/polyester lines, AHTS vessels and DP systems; includes pre-laid mooring line hook-up for FPSOs.
+Vendors: Heerema Marine Contractors, Acteon / Intermoor, Smit (Boskalis) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Sleipnir 12-point mooring | 12 Stevpris Mk-6 anchors of 12 t each with 1,750 m wire rope count / t / m | Wikipedia SSCV Sleipnir, Stationkeeping |
+| Thialf mooring for shallow water | 12 Flipper Delta anchors at 22.5 t with 2,500 m of 80 mm mooring wire count / t / m / mm | Wikipedia SSCV Thialf, Layout |
+| Saipem 7000 mooring system | 16 anchor lines, each 3,350 m of 96 mm wire + 50 m of 92 mm chain + 40 t anchor; usable to 450 m water depth count / m / mm / t | Wikipedia Saipem 7000, Mooring system |
+| AHTS bollard pull | 200 t and 212 t (Heerema Bylgia and Kolga) t | Heerema fleet page |
+| Spar mooring configuration | spread mooring of chain-wire-chain or chain-polyester-chain description | Wikipedia Spar (platform), lead section |
+
+
+### Pile handling, levelling, grouting and connection hardware (ins-pile-handling-levelling-grouting-and-connection-hardware)
+
+Primary code: UPS: Upstream
+Handle/upend piles and jacket legs, level and align before grouting, seal annulus, grip jacket piles and provide lifting/release tools.
+Vendors: Hi-Tech Elastomers, IQIP, Acteon / Menck (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Saipem 7000 levelling systems | two internal systems, 66-72 in diameter, 900 t each; two external levelling systems, 1,000 t each in / t | Wikipedia Saipem 7000, Platform installation equipment |
+| Saipem 7000 pile slings | 16 x 35 cm diameter x 60 m long cable-laid slings count / cm / m | Wikipedia Saipem 7000, Platform installation equipment |
+| Grout/seal product families | Passive Grout Seal, Inflatable Grout Packer, Diaphragm Closure, Jacket Pile Gripper list | Hi-Tech Elastomers offshore products navigation |
+| IQIP handling/lifting tools | Upending Frame, Pile Upending Tool, Flanged Jacket Lifting Tool, Hydraulic Release Shackle, Skidding System, Pile Guiding & Positioning Frame list | IQIP product navigation |
+
+
+### Provider register — installation contractors and vessel owners (ins-provider-register-installation-contractors-and-vessel-owners-c)
+
+Primary code: UPS: Upstream
+Consolidated evidence-backed list of contractors/vessel owners for installation scope, including those named in the task brief for which only partial or search-verified evidence was obtained.
+Vendors: Heerema Marine Contractors, Allseas (OEM design), Saipem (ex-Micoperi 7000), Subsea7 / Seaway7, Boskalis (Dockwise heritage), Van Oord, Jan De Nul, Scaldis, ALE, Mammoet, Lampson, COOEC (CNOOC Engineering), Sapura / Vantris Energy (incl. L&T Sapura JV), Micoperi, TechnipFMC / Technip, DOF, DeepOcean, IQIP, Menck / Acteon (sale to Cadeler announced 2026), Trelleborg Marine and Infrastructure, Hi-Tech Elastomers, Orca Offshore / SeaCamel, Fugro, Oceaneering (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Provider evidence tiers | tier A = primary OEM/contractor page read; tier B = Wikipedia page read; tier C = search-verified snippet only classification | Compiled by this research from sources listed per vendor |
+
+
+### Semi-submersible crane vessel (ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati)
+
+Primary code: UPS: Upstream
+Lift integrated topsides, jackets and large modules in a single lift or tandem lift; ballast down to submerge pontoons and reduce wave/swell motion; use revolving cranes with main/auxiliary/whip hoists, heave-compensated where fitted.
+Vendors: Heerema Marine Contractors, Allseas (OEM design), Saipem (ex-Micoperi 7000), Boskalis (Dockwise heritage), Seaway7 (Subsea7), Jan De Nul, Van Oord, COOEC (CNOOC Engineering), Sapura / Vantris Energy (incl. L&T Sapura JV), Micoperi, Scaldis (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Sleipnir tandem lifting capacity | 20000 metric tons | Heerema fleet page: pair of revolving cranes can lift 20,000 metric tons |
+| Sleipnir main hoist capacity vs radius | 10,000 t @ 27-48 m; 7,000 t @ 62 m; 4,000 t @ 82 m; max radius 102 m t / m radius | Wikipedia SSCV Sleipnir, Design>Cranes, citing Heerema Sleipnir page |
+| Sleipnir lowering/hoisting reach | 20 m below waterline to 135 m above waterline at 32 m draft m | Wikipedia SSCV Sleipnir, Design>Cranes (main hoist) |
+| Thialf tandem lift capacity | 14200 metric tons | Heerema fleet page and Wikipedia SSCV Thialf (combined maximum) |
+| Saipem 7000 tandem lift / per-crane capacity | 14,000 t tandem; 7,000 t per crane at 40 m radius t | Wikipedia Saipem 7000, Description>Heavy lift |
+| Aegir lifting capacity | 5000 metric tons | Heerema fleet page: monohull heavy lift vessel with 5,000 metric tons lifting capacity |
+| Balder guyed-mode tandem lift | 6300 metric tons | Heerema fleet page |
+| Boskalis Bokalift 1 / Bokalift 2 crane capacity | 3,000 t / 4,000 t t | Boskalis heavy lift vessels page |
+| Saipem 7000 ballast transfer capacity | 24000 tonnes of water per hour | Wikipedia Saipem 7000, Ballast system (4 pumps) + free flooding via 2 m valves |
+| Stable-lift assessment methods | Virtual CoG; Kaps; Nikitin; numerical simulation (standard & extensive) list | DNV expert story 'New guidance on achieving stable lifting operations' (28 Nov 2024), Guidance on Stability of Lifts by Heavy Lift Exchange Forum |
+
+
+### Single-lift topsides/jacket installation by catamaran ballast-lift vessel (ins-single-lift-topsides-jacket-installation-by-catamaran-ballast)
+
+Primary code: UPS: Upstream
+Straddle a platform with a bow slot, ballast down, extend motion-compensated lifting beams under the payload, de-ballast to transfer weight, then fast-lift clear; also carries jackets at stern tilting beams/sheerlegs.
+Vendors: Allseas (OEM design), Huisman Equipment (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Topsides single-lift capacity (current page) | 60000 tonnes | Allseas Pioneering Spirit page: 'installation or removal of platform topsides up to 60,000 tonnes' |
+| Jacket lift capacity (Allseas current page) | 20000 tonnes | Allseas Pioneering Spirit page: jackets up to 20,000 tonnes |
+| S-lay tension capacity | 2000 tonnes | Allseas Pioneering Spirit page: unmatched S-lay tension capacity of 2000 tonnes |
+| Number of azimuth thrusters | 12 count | Allseas Pioneering Spirit page |
+| Bow slot dimensions | 122 m x 59 m (L x W); widened from 52 m to 59 m m | Wikipedia Pioneering Spirit, Design and Construction |
+| Fast-lift stroke / time | 2.5 m in 15 s m / s | Wikipedia Pioneering Spirit, Design (citing IV-Consult) |
+| Largest recorded single-lift removal | 31000 tonnes | Wikipedia Pioneering Spirit, Projects (Brent Charlie, July 2024) |
+
+
+### SPAR platform installation — upending, ballasting and spread mooring (ins-spar-platform-installation-upending-ballasting-and-spread-moor)
+
+Primary code: UPS: Upstream
+Transport spar hull horizontally (wet tow or dry tow), upend by controlled ballasting/flooding, connect spread mooring (chain-wire-chain or chain-polyester-chain), then install topsides by crane or float-over.
+Vendors: Technip (now TechnipFMC), J. Ray McDermott (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Spar configurations | classic (one-piece cylinder); truss (hard tank + truss + soft tank); cell (cluster of small cylinders) list | Wikipedia Spar (platform), lead section; Wikipedia Oil platform, Spar platforms |
+| Deepest spar / deepest mooring | Perdido truss spar, 2,438 m mean water depth; deepest seabed mooring 2,383 m m | Wikipedia Spar (platform), lead and list; Wikipedia Oil platform, deepest platforms table |
+| APAC spar example | Kikeh truss spar, 1,310 m, Malaysia, 2007, Murphy Oil, designed by Technip m / year | Wikipedia Spar (platform), list of spar platforms |
+| Cell spar example | Red Hawk: 7 cells of 8 m diameter; decommissioned 2014 under Rigs-to-Reefs count / m | Wikipedia Spar (platform), lead section |
+| First production spar | Neptune, classic spar, 588 m, Gulf of Mexico, installed September 1996 m / date | Wikipedia Spar (platform), list and lead |
+
+
+### Suction bucket / suction pile (ins-suction-bucket-suction-pile-suction-caisson-installation)
+
+Primary code: UPS: Upstream
+Inverted open-bottom tube sealed at top; penetrate by self-weight then by pumping water out to create negative pressure (suction); removable by pumping water in to create overpressure. Used as anchors for floating platforms and as foundations for fixed structures and wind turbines.
+Vendors: NGI (Norwegian Geotechnical Institute), IQIP (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Installation mechanism | push or pump water out of skirt to create negative pressure; removal by overpressure description | Wikipedia Suction caisson, Description |
+| Installed population / depth (as of 2002 statistics) | 485 caissons at more than 50 localities, depths to about 2,000 m count / locations / m | Wikipedia Suction caisson, lead section (statistics from 2002) |
+| Diana platform suction anchors | 30 m high, 6.5 m diameter, installed at about 1,500 m water depth on soft clay (1999) m / m / m | Wikipedia Suction caisson, History |
+| Gorm field first suction caissons | 12 caissons for a loading buoy at 40 m depth, Shell, 1981 count / m | Wikipedia Suction caisson, History |
+| Snorre A TLP suction caissons | 12 m long vs up to 90 m long piles that would otherwise be required m | Wikipedia Suction caisson, History (Saga Petroleum/NGI) |
+| Gravity platform skirt lengths | Gullfaks C 22 m skirts; Troll A 30 m skirts at 330 m water depth m | Wikipedia Suction caisson, Gravity oil platforms |
+| Aasta Hansteen suction anchors | 17 suction anchors for the Aasta Hansteen platform, Norwegian Sea count | Wikipedia Suction caisson, image caption |
+
+
+### Survey, positioning and ROV support (ins-survey-positioning-and-rov-support-dp-gps-underwater-inspectio)
+
+Primary code: UPS: Upstream
+Provide hydrographic/geophysical survey, positioning and navigation of installation vessels, subsea inspection and intervention with ROVs, and penetration/position monitoring during installation.
+Vendors: Fugro, Oceaneering, Vantris Energy (Sapura Energy), COOEC (CNOOC Engineering) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Sleipnir DP accuracy | position held within 30 cm x 30 cm in simulated sea trials cm x cm | Wikipedia SSCV Sleipnir, Stationkeeping |
+| Pioneering Spirit DP | DP3 via 12 azimuth thrusters DP class | Wikipedia Pioneering Spirit, Design |
+| Saipem 7000 saturation diving system | containerized 14-man system movable to any of three moon pools persons | Wikipedia Saipem 7000, Platform installation equipment |
+| DP class on Boskalis heavy-lift vessels | DP2 (Bokalift 1 and Bokalift 2) DP class | Boskalis heavy lift vessels page |
+
+
+### Tension-leg platform (ins-tension-leg-platform-tlp-tendon-installation)
+
+Primary code: UPS: Upstream
+Vertically moor a floating platform with high-axial-stiffness tendons/tethers grouped at corners, eliminating most vertical motion so wellheads can be on deck; install hull/topsides, then connect pre-installed tendons to seabed anchors.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Suitable water depth | >300 m and <1,500 m m | Wikipedia Tension-leg platform, lead section |
+| Hutton TLP (first, 1980s) | 16 tension legs; 100-1,000 m design depth; 46,500-55,000 t moored, up to 61,580 t floating freely count / m / t | Wikipedia Tension-leg platform, lead section |
+| Deepest ETLPs | Big Foot 1,580 m; Magnolia 1,425 m; Marco Polo 1,300 m; Neptune 1,300 m; Kizomba A 1,177 m; Ursa 1,200 m m | Wikipedia Tension-leg platform, list of deepest (E)TLPs |
+| Snorre A TLP caisson alternative | 12 m long suction caissons instead of up to 90 m driven piles m | Wikipedia Suction caisson, History |
+
+
+### Tow-out and wet tow of jackets / gravity-based structures (ins-tow-out-and-wet-tow-of-jackets-gravity-based-structures)
+
+Primary code: UPS: Upstream
+Transport launched or floated substructures from fabrication yard to site with tug boats; use controlled ballasting for self-installing GBS; DP-assisted positioning for final placement.
+Vendors: Heerema Marine Contractors, Boskalis (Dockwise heritage), COSCO Shipping (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Steel GBS installation method | pulled off yard by wet-tow and/or dry-tow; self-installs by controlled ballasting of compartments with seawater description | Wikipedia Oil platform, Gravity-based structure |
+| Steel GBS use case | predominantly where no or limited crane barges available (e.g. Caspian Sea) description | Wikipedia Oil platform, Gravity-based structure |
+| Heerema AHTS bollard pull | 200 t (Bylgia) and 212 t (Kolga) metric tons bollard pull | Heerema fleet page: both tugs 72 m long, 18 m wide |
+| Semi-sub heavy transport speed advantage | roughly 3 to 4 times the speed of a self-deploying rig ratio | Wikipedia Heavy-lift ship, Semi-submersible ships |
+| Example heavy transport: Thunder Horse PDQ | world's largest semi-submersible oil platform (at the time), transported 2004 event | Wikipedia Heavy-lift ship, Incidents/Examples (Blue Marlin, DSME South Korea to Kiewit, Ingleside Texas) |
+
+
+### Vibratory and press-in pile installation (ins-vibratory-and-press-in-pile-installation)
+
+Primary code: UPS: Upstream
+Install piles rapidly with vertical vibration from counter-rotating eccentric weights (can also extract), or press piles hydraulically where vibration/noise must be minimised.
+Vendors: IQIP, Junttan (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Vibratory hammer frequency range | 1,200 to 2,400 vibrations per minute (VPM) VPM | Wikipedia Pile driver, Vibratory pile driver/extractor |
+| Vibratory hammer mechanism | counter-rotating eccentric weights powered by hydraulic motors; horizontal vibrations cancel, vertical transmitted to pile description | Wikipedia Pile driver, Vibratory pile driver/extractor |
+| Reaction-based hydraulic press-in noise | 69 dB at 23 ft dB at ft | Wikipedia Pile driver, Hydraulic press-in |
+| Combined vibro + impact recommendation | vibro enables rapid initial penetration in suitable soils; impact hammer drives to final depth/bearing description | IQIP S-series FAQ: 'Why combine the S-series hydrohammer with an F-series or Z-series vibro hammer?' |
+
+
 ## instrumentation
 
 ### Boiler water sampling and analysis (boiler-water-sampling-analysis)
@@ -2632,7 +2959,7 @@ Vendors: Vantris Energy Berhad (0 model lines recorded).
 
 Primary code: UPS: Upstream
 Self-weight founded structures avoiding piling; cells can provide oil storage and separation.
-Vendors: Boskalis (0 model lines recorded).
+Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2658,7 +2985,7 @@ Vendors: PALFINGER, Liebherr, Huisman Equipment (0 model lines recorded).
 
 Primary code: UPS: Upstream
 Drill through difficult ground (drive-drill-drive), grout pile-to-sleeve or monopile connections, prepare seabed and clear UXO before foundation installation.
-Vendors: Acteon / Menck, Boskalis (0 model lines recorded).
+Vendors: Acteon / Menck, Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2685,7 +3012,7 @@ Vendors: Vantris Energy Berhad, Malaysia Marine & Heavy Engineering, Jan De Nul 
 
 Primary code: UPS: Upstream
 Floating host for process, storage and offloading; interfaces with risers, moorings and fixed structures; relevant to CCS conversion of existing platforms.
-Vendors: Boskalis (0 model lines recorded).
+Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2729,7 +3056,7 @@ Vendors: Flyability, Deep Trekker, Oceaneering / Subsea 7 (ROV services) (0 mode
 
 Primary code: UPS: Upstream
 Mobile self-elevating drilling/workover platform with independent legs and jack houses; used for nearshore and shelf drilling.
-Vendors: Boskalis (0 model lines recorded).
+Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2784,7 +3111,7 @@ Vendors: Sif Group, CS WIND Offshore, EEW Group (0 model lines recorded).
 
 Primary code: UPS: Upstream
 Fixed crossings and immersed-tunnel elements in nearshore waters; relevant to platform/bridge interface structures and marine construction.
-Vendors: Boskalis (0 model lines recorded).
+Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2796,7 +3123,7 @@ Vendors: Boskalis (0 model lines recorded).
 
 Primary code: UPS: Upstream
 Governing codes for planning, design, fabrication, transport, installation, in-service management and removal of offshore structures.
-Vendors: Boskalis (0 model lines recorded).
+Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2823,7 +3150,7 @@ Vendors: CS WIND Offshore (0 model lines recorded).
 
 Primary code: UPS: Upstream
 Prevent seabed erosion around monopiles/jackets and over cables; filter layer plus armour layer, or flexible mattresses / sand containers.
-Vendors: Boskalis, Naue GmbH & Co. KG, Ridgeway Marine, ContiTech (Continental Group), Van Oord / DEME / Jan De Nul (0 model lines recorded).
+Vendors: Boskalis (Dockwise heritage), Naue GmbH & Co. KG, Ridgeway Marine, ContiTech (Continental Group), Van Oord / DEME / Jan De Nul (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2839,7 +3166,7 @@ Vendors: Boskalis, Naue GmbH & Co. KG, Ridgeway Marine, ContiTech (Continental G
 
 Primary code: UPS: Upstream
 Instrument critical details with strain/acceleration/acoustic sensors to support fatigue assessment, early crack detection and operational decisions.
-Vendors: Boskalis (0 model lines recorded).
+Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2850,7 +3177,7 @@ Vendors: Boskalis (0 model lines recorded).
 
 Primary code: UPS: Upstream
 Lifecycle process: data, evaluation, strategy, inspection programme, fitness-for-purpose assessment, risk reduction and decommissioning.
-Vendors: Allseas, Able UK (0 model lines recorded).
+Vendors: Allseas (OEM design), Able UK (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2890,7 +3217,7 @@ Vendors: IQIP (0 model lines recorded).
 
 Primary code: UPS: Upstream
 Four-legged lattice substructure for offshore wind; pin piles or suction buckets transfer loads to seabed.
-Vendors: Samkang (South Korea), Edgen Murray (yard manager) / Ming Rong Yuan (Taiwan fabricator), Boskalis (0 model lines recorded).
+Vendors: Samkang (South Korea), Edgen Murray (yard manager) / Ming Rong Yuan (Taiwan fabricator), Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -3104,7 +3431,7 @@ Recorded gaps:
 
 Primary code: PCH: Petrochemicals
 Tall tower in which molten urea is sprayed from the top and solidifies in falling droplets cooled by rising air, producing small round prills. Tower height and airflow set the prill size and the product's cooling and hardening; prills are smaller and more spherical than fluid-bed granules.
-Vendors: Stamicarbon, Saipem, Casale, Toyo Engineering (1 model lines recorded).
+Vendors: Stamicarbon, Saipem (ex-Micoperi 7000), Casale, Toyo Engineering (1 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -3660,6 +3987,383 @@ Recorded gaps:
 - No verified datasheet for a Tesla BESS product specifically configured for data-centre UPS bridging — Fetch Tesla Megapack product page and NERC Large Loads Task Force presentation directly
 - Measured round-trip efficiency and degradation for Li-ion UPS vs flywheel in a hot, high-cycling AI load profile — Seek independent test or operator data
 
+## sub-platform
+
+### Articulated tower / articulated loading platform (sub-articulated-tower-articulated-loading-platform-rare)
+
+Primary code: UPS: Upstream
+Bottom-founded tower connected by a universal joint or articulated base, allowing the structure to rotate with environmental loads while supporting loading or wellhead facilities.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| concrete articulated loading column example | Maureen ALC, concrete base articulated loading column, 92 m water depth, North Sea UK, Phillips, 1982, later removed description | Wikipedia Offshore concrete structure major structures table, row 20 |
+| Hutton TLP topsides redeployed to Prirazlomnoye | Hull and topsides separated; topsides redeployed to Prirazlomnoye field in Barents Sea (ice-resistant platform) description | Wikipedia Tension-leg platform |
+
+
+### Artificial island / sea island (sub-artificial-island-sea-island-oil-and-gas)
+
+Primary code: UPS: Upstream
+Constructed landmass or caisson-supported island providing a land-like drilling and production site in shallow water.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| maximum feasible water depth | 75 m | Wikipedia Artificial Island: technological advancements make it feasible to build artificial islands in waters as deep as 75 m; wave size and structural integrity determine maximum depth |
+| Ekofisk Tank sea-island form | C G Doris platform shaped like a marine sea island, surrounded by perforated breakwater wall (Jarlan patent); 71 m North Sea, 1973 description | Wikipedia Offshore concrete structure, C G DORIS type and table row 1 |
+| legal status | Under UNCLOS not harbour works (Art 11); no own territorial sea/EEZ; only coastal state may authorise within 200 nm (Art 56, 60); on high seas any state may construct (Art 87) description | Wikipedia Artificial Island, Legal status |
+
+
+### Barge-based platforms, pontoons and floaters (sub-barge-based-platforms-pontoons-and-floaters)
+
+Primary code: UPS: Upstream
+Shallow-draft buoyant hulls used as drilling/production/support bases; spud barges, swamp barges and deck barges can be moored or jack-up supported.
+Vendors: Aquaterra Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| generic use | bottom-founded drilling rigs include jackup barges and swamp barges; MODUs include jackups, semi-submersibles, drillships and barges description | Wikipedia Oil platform intro; Wikipedia Offshore drilling |
+
+
+### Braced templates (sub-braced-templates-subsea-drilling-templates)
+
+Primary code: UPS: Upstream
+ seabed frame that positions and guides wells or manifold equipment; may be piled or suction-founded.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Snorre concrete foundation templates | 3 cells with suction anchors at 310 m water depth description | Wikipedia Offshore concrete structure, major structures table, row 33 (Saga, 1992) |
+
+
+### Compliant tower (sub-compliant-tower)
+
+Primary code: UPS: Upstream
+Slender flexible bottom-founded tower with piled foundation and conventional deck, designed for significant lateral deflection in deep water.
+Vendors: J. Ray McDermott, Aker Gulf Marine (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| typical water depth | 450-900 m | Wikipedia Compliant tower: typically 1,500-3,000 ft (450-900 m); Wikipedia Oil platform states 370-910 m |
+| lateral deformation | up to 2.5% vs 0.5% for land-based structures % of height | Wikipedia Compliant tower |
+| economic limit | 1000 m | Wikipedia Compliant tower: uneconomical beyond depths greater than 1,000 m; floating production more appropriate |
+| Baldpate structural heights and masses | base 351 ft, 140×140 ft tapering to 90×90 ft, 8,700 t; tower 1,320 ft, 90×90 ft, 20,200 t; storm sway ~30 s period, up to 10 ft lateral description | Offshore Technology Baldpate project |
+| Baldpate tubular sizes | legs up to 144 in diameter / 3.5 in-8 in wall (base); 128 in / 3.3 in-4 in (tower) in | Offshore Technology Baldpate |
+| Petronius deepest compliant tower | 623 m | Wikipedia Compliant tower: deepest is Chevron Petronius in 623 m; platform 640 m to flare tip; topsides 7,500 t |
+| Benguela Belize BBLT base tower launch | base tower first 250 m of >400 m tower; launched from barge H-851 on 15 April 2005; heaviest compliant tower installed; first outside GoM description | Wikipedia Compliant tower |
+
+
+### Concrete gravity base structure (sub-concrete-gravity-base-structure-gbs-cgs-caisson)
+
+Primary code: UPS: Upstream
+Large reinforced/prestressed concrete caisson that resists overturning and sliding by self-weight; often provides oil storage and flotation during tow-out.
+Vendors: Norwegian Contractors, Arup, DORIS / C G DORIS (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| number of major concrete offshore structures built | 47 structures | Wikipedia Offshore concrete structure: at least 47 major concrete offshore structures built since first North Sea installation in 1973 |
+| economic water depth | 150 m+ | Wikipedia Offshore concrete structure: concrete gravity platforms economical for water depths larger than 150 m; most need no additional fixing due to large foundation and weight |
+| Troll A total height | 472 m | Wikipedia Condeep: tallest Condeep, total height 472 m, deployed 1995, placed at 300 m depth and dug 35 m into seabed |
+| Gullfaks C total height | 380 m | Wikipedia Condeep: Gullfaks C rests 217 m below sea surface, total height 380 m, displacement 1.4-1.5 million t |
+
+
+### Drillship (sub-drillship)
+
+Primary code: UPS: Upstream
+Ship-shaped self-propelled drilling vessel with moonpool, derrick and dynamic positioning; used for exploratory and development drilling in deep/ultra-deep water.
+Vendors: Transocean (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| maximum drilling water depth | 3700 m | Wikipedia Oil platform, Drillships: can drill in water depths up to 3,700 m (12,100 ft) |
+| MODU operational limit | 3000 m | Wikipedia Offshore drilling: deepwater MODUs capable of operating in water depths up to 3,000 m; >1,500 m uses dynamic positioning |
+| water-depth capability by vintage | CUSS I 350 ft (1961); Discoverer 534 7,000 ft (1975); Enterprise 10,000 ft (1999); Inspiration 12,000 ft (2009) ft | Wikipedia Drillship, Design table |
+| relocation time GoM to Angola | 20 days drillship vs 70 days towed semi-submersible days | Wikipedia Drillship, Design section citing Leffler et al. |
+| depth record, Dhirubhai Deepwater KG1 | 3107 m | Wikipedia Drillship: 2011 world water-depth record 10,194 ft, working for Reliance, India |
+| Chikyū scientific drilling depth | 7.0 km below seabed | Wikipedia Drillship: research vessel can drill to 7.0 km below seabed, 2-4 times any other drillship |
+
+
+### Driven pile and skirt-pile foundations (sub-driven-pile-and-skirt-pile-foundations)
+
+Primary code: UPS: Upstream
+Transfer jacket/tower loads into soil by axial and lateral resistance; skirt piles are driven through sleeves at jacket base corners.
+Vendors: Sif Group, Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| skirt-pile sleeves, Baldpate | 12 sleeves | Offshore Technology Baldpate: three 84 in-diameter, 530 ft skirt-pile sleeves at each of four bottom corners; 12 foundation piles installed by Heerema; penetrations approaching 430 ft |
+| pile mass and length, Mexilhão | 3150 t | Offshore Technology Mexilhão: 3,150 t tubular steel piles up to 120 m long |
+
+
+### Fixed steel jacket platform (sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg)
+
+Primary code: UPS: Upstream
+Bottom-founded tubular steel lattice that transfers deck, drilling and environmental loads to the seabed, normally via driven piles through the jacket legs.
+Vendors: Aker Solutions, Saipem (ex-Micoperi 7000), Sif Group, Heerema Marine Contractors (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| typical economic water depth limit | 150 m | Wikipedia Fixed platform: fixed platforms economically feasible to about 500 ft (150 m); deeper usually floating or subsea tieback |
+| quoted general water depth feasibility | 520 m | Wikipedia Oil platform, Fixed platforms section: economically feasible up to about 520 m (1,710 ft) |
+| jacket mass, Gudrun platform | 7400 t | Offshore Technology project profile: fixed processing platform supported by 7,400 t steel jacket; water depth 361 ft; 16 well slots |
+| jacket height / mass, Mexilhão PMXL-1 | 180 m | Offshore Technology: 180 m tall tubular jacket ~10,500 t; topsides 12,000 t; platform water depth 172 m; piles 3,150 t up to 120 m long |
+
+
+### FLNG (sub-flng-floating-liquefied-natural-gas-facility)
+
+Primary code: UPS: Upstream
+Floating facility that extracts, processes, liquefies, stores and offloads LNG at sea, removing the need for a pipeline to shore.
+Vendors: Shell, Technip Samsung Consortium, SBM Offshore (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Petronas Kanowit FLNG contract | Technip/DSME consortium EPCI contract awarded June 2012 description | Wikipedia FPSO History section |
+
+
+### Floating concrete structures (sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con)
+
+Primary code: UPS: Upstream
+Concrete hulls used where corrosion resistance, low maintenance and heavy topside capacity are valuable.
+Vendors: DORIS (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| only concrete semi-submersible | Troll B platform | Wikipedia Offshore concrete structure: 'The only concrete semi-submersible in existence is Troll B'; table lists Troll B, 325 m depth, 1995 |
+| only concrete TLP hull | Heidrun TLP platform | Wikipedia Offshore concrete structure: Statoil's Heidrun TLP is the only one with a concrete hull; table lists 350 m depth, 1994/1995 |
+| first prestressed concrete barge | Ardjuna Field LPG barge, Indonesia, 43 m, 1974 description | Wikipedia Offshore concrete structure: major structures table row 2 and Floating structures/Barge-Ship Design section |
+| concrete LNG terminal | Adriatic LNG terminal, 29 m, 2008 description | Wikipedia Offshore concrete structure table row 49 |
+
+
+### Floating power / desalination units and power service vessels (sub-floating-power-desalination-units-and-power-service-vessels)
+
+Primary code: UPS: Upstream
+Floating hulls carrying power plants or desalination plants to supply offshore assets or shore grids without fixed infrastructure.
+Vendors: American Bureau of Shipping, DNV (Installjac software) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Floating hulls carrying power plants or desalination plants to supply offshore assets or shore grids without fixed infrastructure. | Qualitative function from pages read in this sweep. |
+
+
+### Floating wind turbine floaters (sub-floating-wind-turbine-floaters-spar-semi-submersible-tlp-barge)
+
+Primary code: UPS: Upstream
+Buoyant substructures that support wind turbines in water depths where fixed foundations are uneconomic, moored by catenary, taut or tension-leg systems.
+Vendors: Equinor, Principle Power, SBM Offshore / IFPEN (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| operational floating wind capacity | 245 MW operational, 266 GW pipeline as of October 2024 MW / GW | Wikipedia Floating offshore wind intro |
+| Hywind Scotland | 5 × 6 MW Siemens turbines, 30 MW, commissioned 2017, 54% capacity factor first 5 years description | Wikipedia Floating offshore wind, Operational table |
+| WindFloat Atlantic | 3 × Vestas 8.4 MW, 25 MW, semi-submersible, 100 m water depth, 20 km offshore, 34% capacity factor description | Wikipedia Floating offshore wind, Operational table |
+| catenary mooring radius | turbine-to-anchor radius approximately 6-8 × water depth ratio | Wikipedia Floating offshore wind, Mooring systems |
+| floater concept count | over 100 concepts counted in a 2026 study concepts | Wikipedia Floating offshore wind intro |
+
+
+### FPSO / FSO / FSU / FDPSO / FSRU (sub-fpso-fso-fsu-fdpso-fsru)
+
+Primary code: UPS: Upstream
+Ship-shaped or circular floating vessel that receives, processes and stores hydrocarbons from subsea wells or nearby platforms and offloads to shuttle tankers; FSO/FSU store only.
+Vendors: SBM Offshore, MODEC Inc., BW Offshore, Aker Solutions (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| global fleet count | over 270 vessels deployed worldwide as oil FPSOs vessels | Wikipedia FPSO, History section |
+| deepest FPSO, BW Pioneer | 2600 m | Wikipedia FPSO Record vessels: moored at 2,600 m, Walker Ridge 249, GoM; rated 80,000 bbl/d; conversion at MMHE Pasir Gudang, Malaysia; disconnectable APL turret |
+| Kizomba A storage / dimensions | 2.2 million bbl; 285 m L × 63 m B × 32 m H; 81,000 t; cost over US$800m description | Wikipedia FPSO Record vessels |
+| Skarv FPSO dimensions | 292 m × 50.6 m × 29 m; ~100 people; hull Aker Solutions Tentech975 description | Wikipedia FPSO Record vessels |
+
+
+### Guyed tower (sub-guyed-tower-rare)
+
+Primary code: UPS: Upstream
+Compliant tower stabilised by inclined guy lines and anchors rather than relying solely on pile fixity; reduces base moment in deep water.
+Vendors: Brown & Root (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| first tower | Exxon's Lena oil platform, early 1980s description | Wikipedia Compliant tower |
+
+
+### Ice-resistant / Arctic caisson and artificial drilling island (sub-ice-resistant-arctic-caisson-and-artificial-drilling-island)
+
+Primary code: UPS: Upstream
+Bottom-founded structure or constructed island designed to resist iceberg impact, sea ice and ice scour in Arctic and sub-Arctic waters.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Tarsiut Island | 4 hollow caissons, 16 m water depth, Beaufort Sea, Amoco Canada, 1981, removed description | Wikipedia Offshore concrete structure table row 19 |
+| Super CIDS | CGS caisson island, 16 m, Beaufort Sea, Global Marine, 1984, removed description | Wikipedia Offshore concrete structure table row 24 |
+| Northstar Island | artificial island used for oil drilling in the Beaufort Sea north of Alaska description | Wikipedia Artificial Island gallery and Wikipedia Offshore drilling main fields |
+| iceberg scour protection | subsea wells set in glory holes; seabed burial used as protection against drifting ice gouging description | Wikipedia Offshore drilling (Terra Nova subsea layout and challenges) |
+
+
+### Jack-up rig / self-elevating unit (sub-jack-up-rig-self-elevating-unit-independent-leg-and-mat-suppor)
+
+Primary code: UPS: Upstream
+Mobile buoyant hull with movable legs jacked to the seabed; hull raised above waves for drilling, workover, production or wind-turbine service.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| typical water depth | 120 m | Wikipedia Jackup rig: typically used in water depths up to 120 m (390 ft), some designs to 170 m |
+| premium/ultra-premium water depth | 150-190 m | Wikipedia Jackup rig: premium/ultra-premium jackups 150-190 m (490-620 ft) |
+| tallest jackup leg length, Noble Lloyd Noble | 214 m | Wikipedia Jackup rig: completed 2016, legs 214 m (702 ft) tall |
+| world jackup fleet | about 540 jackup drilling rigs in operation at end 2013 rigs | Wikipedia Jackup rig |
+| leg configurations | 3 or 4 legs typical; also 6 and 8 movable legs description | Wikipedia Jackup rig, Name section |
+| preloading | hull weight + ballast water drive legs into seabed before jacking hull to air gap; rack-and-pinion jacking driven by hydraulic/electric motors description | Wikipedia Jackup rig, Process of operation |
+
+
+### Minimal / minimum-facility jacket and wellhead platform (sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad)
+
+Primary code: UPS: Upstream
+Small unmanned well bay and process/wellhead structure tied back by flowline or umbilical to a host platform.
+Vendors: Aquaterra Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| configuration | well bay + helipad + emergency shelter; operated remotely, occasional visits description | Wikipedia Oil platform, Normally unmanned installations section |
+| configuration (conductor support) | well bay + small process plant; linked to static production platform by flow lines and/or umbilical description | Wikipedia Oil platform, Conductor support systems section |
+
+
+### Mobile offshore production unit (sub-mobile-offshore-production-unit-mopu)
+
+Primary code: UPS: Upstream
+Reusable mobile production facility (converted jack-up, liftboat, semi-submersible or barge) with wellbay, processing and accommodation, used for phased/early production.
+Vendors: Aquaterra Energy, Noble Offshore (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Reusable mobile production facility (converted jack-up, liftboat, semi-submersible or barge) with wellbay, processing and accommodation, used for phased/early production. | Qualitative function from pages read in this sweep. |
+
+
+### Monopod / tripod / tripile bottom-founded structures (sub-monopod-tripod-tripile-bottom-founded-structures)
+
+Primary code: UPS: Upstream
+Single-leg (monopod) or three-leg (tripod/tripile) bottom-founded substructure supporting a small deck or a wind turbine.
+Vendors: Sif Group (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| concrete monotower example (Draugen) | 251 m water depth | Wikipedia Condeep platforms table: Draugen Condeep Monotower, Shell, 1993, 251 m |
+
+
+### Mudmats and jacket base templates (sub-mudmats-and-jacket-base-templates)
+
+Primary code: UPS: Upstream
+Distribute jacket base load over weak seabed during installation and before piling; templates guide piles and drill slots.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Distribute jacket base load over weak seabed during installation and before piling; templates guide piles and drill slots. | Qualitative function from pages read in this sweep. |
+
+
+### Semi-submersible platform (sub-semi-submersible-platform-production-and-modu)
+
+Primary code: UPS: Upstream
+Floating hull with submerged pontoons and columns supporting a deck; ballastable, moored or dynamically positioned; used for drilling, production, crane work and accommodation.
+Vendors: Heerema Marine Contractors, Saipem (ex-Micoperi 7000), Petrobras (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| water depth range | 60-6000 m | Wikipedia Oil platform, Semi-submersible platform: can be used in water depths from 60 to 6,000 m (200 to 20,000 ft) |
+| transition from fixed structures | 520 m | Wikipedia Semi-submersible platform: drilling in water depth greater than around 520 m requires a floating vessel since fixed structures are not practical |
+| nominal generations | 1st ~200 m (early 1960s); 2nd ~300 m (1969-74); 3rd ~500 m (early 1980s); 4th ~1,000 m (1990s); 5th ~2,500 m (1998-2004); 6th ~3,000 m (2005-2010) classification | Wikipedia Semi-submersible platform, Classification table |
+| heaviest SSCV lift capacity | Thialf 14,200 t; Saipem 7000 14,000 t t | Wikipedia Semi-submersible platform, SSCV section |
+| largest production semi-submersible | Thunder Horse PDQ (GVA40000 design) platform | Wikipedia Semi-submersible platform, Offshore production platforms section |
+
+
+### Spar platform (sub-spar-platform-classic-truss-cell)
+
+Primary code: UPS: Upstream
+Deep-draft vertical buoyant cylinder(s) moored by spread mooring; deep draft gives low wave sensitivity and supports dry-tree or subsea production.
+Vendors: Technip (now TechnipFMC), J. Ray McDermott (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| cell spar cell count and diameter, Red Hawk | 7 cells of 8 m diameter cells | Wikipedia Spar (platform): '7 ea. 8 m (26 ft) diameter cells'; first and only cell spar, 1,615 m water depth, 2004 |
+| deepest spar water depth, Perdido | 2383 m | Wikipedia Spar (platform): deepest seabed to which a spar moored is 2,383 m; mean water depth 2,438 m; truss spar, Shell, 2010 |
+| first production spar water depth, Neptune | 588 m | Wikipedia Spar (platform) list: Neptune, Classic, 1996, Oryx Energy, 588 m, designed by Technip |
+
+
+### Submersible drilling rig (sub-submersible-drilling-rig-shallow-water-bottom-founded-barge)
+
+Primary code: UPS: Upstream
+Floodable barge that rests on the seabed for drilling in very shallow water, often in marsh/swamp or inland waters.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| classification | listed as one of the MODU types alongside jackup, semi-submersible and drillship description | Wikipedia Offshore drilling, Drilling platforms section; Wikipedia Drillship types list |
+| first mobile steel barges | developed by The Texas Company (Texaco) in early 1930s for brackish coastal Gulf areas description | Wikipedia Offshore drilling history |
+
+
+### Subsea-to-surface / subsea completion tie-back to host facility (sub-subsea-to-surface-subsea-completion-tie-back-to-host-facility)
+
+Primary code: UPS: Upstream
+Subsea wells and manifolds tied back by flowlines and umbilicals to a surface host (fixed platform, FPSO, spar), avoiding a dedicated platform at the well location.
+Vendors: TechnipFMC (CDS Separation Systems), Saipem (ex-Micoperi 7000), Subsea7 (Swagelining all-polymer liner) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| system classification | subsea production control system; subsea structures and manifold system; subsea intervention system; subsea umbilical system; subsea processing system classification | Wikipedia Subsea production system citing NORSOK U-001 |
+| deepest tieback example | Shell's Coulomb tie to NaKika, 2,307 m (7,570 ft), 2004 m | Wikipedia Oil platform, Types of offshore oil and gas structures caption (2005 data) |
+
+
+### Suction bucket / suction caisson jacket foundations (sub-suction-bucket-suction-caisson-jacket-foundations)
+
+Primary code: UPS: Upstream
+Open-bottomed inverted-bucket foundation embedded by pumping water out (negative pressure); resists lateral and axial loads and is removable by reverse pumping.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| historical installation count | 485 caissons | Wikipedia Suction caisson: statistics from 2002 showed 485 suction caissons installed in more than 50 localities, in depths to about 2,000 m |
+| Diana suction caisson dimensions | 30 m height | Wikipedia Suction caisson: 12 caissons at Gorm (1981, 40 m depth); Diana caissons 30 m high, 6.5 m diameter, installed ~1,500 m on soft clay (1999) |
+| Diana suction caisson diameter | 6.5 m | Same Wikipedia Suction caisson passage |
+| Snorre A suction anchor length vs conventional pile | 12 m | Wikipedia Suction caisson: analysis showed safe fixity with 12 m suction caissons vs up to 90 m piles where pebbles at 60 m depth prevented piling; production started 1992 |
+| Troll A concrete skirt length | 30 m | Wikipedia Suction caisson, Gravity oil platforms: Troll A founded in 330 m depth with 30 m long skirts; Gullfaks C 22 m skirts |
+
+
+### Tension leg platform (sub-tension-leg-platform-tlp-extended-tlp-mini-tlp)
+
+Primary code: UPS: Upstream
+Vertically moored buoyant platform with high-axial-stiffness tendons that eliminate nearly all vertical motion, permitting deck-mounted dry-tree wellheads and rigid risers.
+Vendors: Technip / TechnipFMC, Heerema Marine Contractors (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| preferred water depth range | 300-1500 m | Wikipedia Tension-leg platform: particularly suited to water depths greater than 300 m and less than 1,500 m; proposed for offshore wind |
+| upper general water depth | 2000 m | Wikipedia Oil platform: TLPs used in water depths up to about 2,000 m |
+| mini-TLP water depth | 180-1300 m | Wikipedia Oil platform: Seastar and MOSES mini TLPs used in 180-1,300 m; utility/satellite/early production roles |
+| Hutton TLP tendon count / mass | 16 tension legs; 46,500-55,000 t moored; up to 61,580 t free-floating description | Wikipedia Tension-leg platform: first TLP, Conoco Hutton field, hull built at Nigg, deck at Ardersier, mated 1984; designed for 25 years in 100-1,000 m North Sea |
+| deepest ETLP, Big Foot | 1580 m | Wikipedia Tension-leg platform list of deepest (E)TLPs: Big Foot 5,185 ft (1,580 m) |
+
+
+### Tension-leg wellhead platform (sub-tension-leg-wellhead-platform-mini-tlp-tlwp)
+
+Primary code: UPS: Upstream
+Small vertically moored wellhead or utility platform for satellite/early production, using tensioned tendons to support dry trees at lower cost than a full TLP.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| water depth | 180-1300 m | Wikipedia Oil platform: proprietary Seastar and MOSES mini TLPs used in water depths 180-1,300 m, low cost, utility/satellite/early production |
+
+
+### Wellhead caisson / conductor-guided single-well structure (sub-wellhead-caisson-conductor-guided-single-well-structure)
+
+Primary code: UPS: Upstream
+Single- or few-well structure in which the conductor(s) provide primary lateral support for a small wellhead deck.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| structural concept | small unmanned platform with well bay and small process plant, connected to a static production platform by flowlines/umbilical description | Wikipedia Oil platform, Conductor support systems |
+
+
 ## switchgear
 
 ### Data centre medium-voltage switchgear (mv-switchgear-data-centre)
@@ -3714,6 +4418,313 @@ Recorded gaps:
 
 - Primary NFPA 110 standard text and exact clause numbers for load-bank test profiles — Consult NFPA LiNK or adopted edition via AHJ before specifying acceptance criteria
 - Load bank requirements specific to gas-engine (spark-ignition) prime plants running continuously rather than standby — Check engine OEM (INNIO/Wärtsilä) commissioning manuals for gas engine run-in procedures
+
+## top-platform
+
+### Accommodation / living quarters topsides (top-accommodation-living-quarters-topsides)
+
+Primary code: UPS: Upstream
+Provides habitability for the offshore workforce, with helideck access nearby and maximum segregation from hazardous process equipment, flare and high-noise sources.
+Vendors: Leirvik AS, KBR / Kvaerner JV (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Miller living quarter | five levels, 98 cabins, 196 beds n/a | independent module with integrated bathroom facilities |
+| Olympus TLP accommodation | 192 crew members | up to 192 crew housed; 342,000 ft2 deck space |
+| Kizomba A living quarters design | 100 pax | platform design includes 100-man living quarters |
+
+
+### Flare platform topsides and flare booms/stacks (top-flare-platform-topsides-and-flare-booms-stacks)
+
+Primary code: UPS: Upstream
+Vent and flare structures discharge and burn gaseous products; placed outside hazardous areas and away from the helideck, with tip elevation above the helideck and heat radiation checked.
+Vendors: Worley (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| flare tip elevation above helideck | 100 ft minimum | vent and flare tip shall exceed helideck elevation by at least 100 ft; heat radiation to be checked |
+
+
+### FLNG topsides and turrets (top-flng-topsides-and-turrets)
+
+Primary code: UPS: Upstream
+Floating LNG facility topsides consolidate gas pretreatment, liquefaction, fractionation, utilities, accommodation, flare and offtake on a ship-shaped hull; turret mooring enables weathervaning and fluid/power transfer.
+Vendors: Babcock International, CNOOC Research Institute (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| South China Sea FLNG side-by-side layout | bow-to-stern: single point - flare - pretreatment - liquefaction - offloading - power/utility - living quarter layout sequence | CNOOC Research Institute recommended layout; used by Prelude in benign environments |
+| South China Sea FLNG tandem layout | bow-to-stern: living quarter - offloading - single point - power/utility - pretreatment - flare - liquefaction - tandem offloading layout sequence | recommended for harsh environments / small FLNG in South China Sea |
+| FLNG side-by-side offloading sea state limit | 2.5 m Hs | side-by-side offloading requires Hs <2.5 m |
+| FLNG tandem offloading sea state limit | 5.5 m Hs | tandem offloading can operate at Hs <5.5 m |
+
+
+### Float-over topsides (top-float-over-topsides)
+
+Primary code: UPS: Upstream
+Fully integrated and pre-commissioned deck transported on a barge, floated over the substructure and lowered by ballasting or quick-drop mechanisms (or by deballasting a floating substructure). Avoids heavy-lift crane capacity limits.
+Vendors: COOEC (CNOOC Engineering) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| AMP1 floatover installation vessel | Dockwise Mighty Servant 3 vessel | 11,970 t integrated topsides installed by floatover |
+| floatover jacket load path | four legs instead of eight legs | jacket designed for floatover transfer of topsides weight directly to four leg rows with added bracing |
+
+
+### FPSO topsides and turrets (top-fpso-topsides-and-turrets)
+
+Primary code: UPS: Upstream
+Ship-shaped floating production topsides with process, utility, accommodation and offloading systems; turret mooring allows weathervaning and transfers fluids/power between subsea and topsides through a swivel.
+Vendors: SOFEC, SBM Offshore (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| FPSO topsides weight vs oil capacity regression (all sample) | {'intercept': 113.9, 'slope': 104.7} TW tonnes; OIL thousand bbl/d (Mbd) | TW = 113.9 + 104.7 OIL, R2=0.55, sample of 50 FPSOs |
+| FPSO topsides weight vs oil capacity (zero intercept) | 114.5 t per Mbd | TW = 114.5 OIL, R2=0.85 |
+| FPSO topsides weight (gas fields removed) | {'intercept': -5506, 'slope': 145.7} TW tonnes; OIL Mbd | TW = -5506 + 145.7 OIL, R2=0.74 |
+| FPSO topsides weight vs oil+water capacity | 45.1 t per Mbd liquids | TW = 45.1 LIQUIDS, R2=0.81; oil capacity alone is better descriptor |
+| FPSO topsides weight vs BOE capacity | 36.7 t per Mboe/d | TW = 36.7 BOE, R2=0.84 |
+| FPSO sample topsides weight distribution | about 20% <5,000 t; about 10% >35,000 t tonnes | sample of 50 FPSOs from OTC and trade publications |
+| FPSO topsides weight as share of deadweight | 7.4 % average (SD 4.5%) | sample of 50 FPSOs; about half between 5-10%, ~20% between 10-15% |
+| FPSO conversion multi-deck vs single-deck fixed weight difference | 10294 t | DRL Engineering inferred relations: TW(m)=13,824+23.5 BOE vs TW(s)=3,530+23.5 BOE |
+| module support: pin vs sliding stool | one pinned stool per module longitudinal frame, other stools sliding n/a | sliding stools reduce hull hogging/sagging stress; one pin allows rotation but restricts translation |
+
+
+### Hybrid / semi-integrated topsides (top-hybrid-semi-integrated-topsides)
+
+Primary code: UPS: Upstream
+Mixed concept where most equipment is integrated into a single lifted structure and smaller modules are added afterwards, balancing crane capacity, weight and offshore HUC cost.
+Vendors: Technip-Coflexip (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| semi-integrated option rationale | lift semi-integrated topsides then install additional smaller modules on top n/a | described as more cost-effective than fully modularised installation when crane capacity is limiting |
+| Perdido living quarter installed after topsides | 3 days after topsides lift | single-lift topsides 9 March 2009? topsides lift completed 13 March, living quarters added three days later |
+
+
+### Integrated (top-integrated-single-lift-topsides)
+
+Primary code: UPS: Upstream
+All equipment is arranged, hooked up and commissioned onshore on one integrated deck, minimising offshore hook-up and commissioning (HUC). Single-lift topsides are integrated topsides designed specifically to reduce total weight so the whole unit can be installed by one crane lift.
+Vendors: KBR, Aibel (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| integrated topsides concept first introduced | 1973 year | North Sea gravity-based structure project |
+| original integrated GBS deck girder depth | 7-10 m | girder-type plate deck mounted on concrete towers capable of housing machinery and equipment |
+| Amenam/Kpono AMP1 integrated topsides weight | 11970 tons | three decks (weather, main, cellar) plus mezzanine; floatover installation by Dockwise Mighty Servant 3 |
+| systems installed, connected and commissioned at yard on AMP1 | 130 systems | Elf Petroleum Nigeria project |
+| Shearwater single-lift record (2000) | 11883 tons | Shell topsides lifted by Thialf; world record at the time |
+| Sabratha single-lift record | 12150 tons | lifted by Saipem 7000; record cited as still standing in source |
+| Thialf nominal lifting capacity | 14200 t | SSCV nominal capacity |
+| Saipem 7000 nominal lifting capacity | 14000 t | SSCV nominal capacity |
+| structural steel share of total topsides weight | 50 % (approximately) | cited estimate ('some estimation says approximately half') |
+| commissioning effort for five modules of a BP project | 25000 person-hours | example of offshore HUC effort cited in book chapter |
+| single-lift offshore HUC schedule saving | 3-4 months | same published articles |
+
+
+### Integrated deck with drilling rig (top-integrated-deck-with-drilling-rig)
+
+Primary code: UPS: Upstream
+A topsides concept combining drilling and production facilities on one structure, either as a fully integrated deck with a permanent/skiddable rig module or as a lightweight single-lift deck with a rig added later.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| TLP full drilling package typical weight | 4000-6000 tons | multiwell deepwater TLP |
+| TLP drilling riser tension load examples | Snorre ~450 t (22-in riser); Heidrun ~950 t (26-in riser) tons | tentative figures in 1992 OGJ article |
+| Snorre TLP BOP stack movement allowance | 3.0 m vertical | 16 3/4-in 5,000 psi BOP stack of 40 tons; BOP envelope total height ~7.5 m |
+| TLP horizontal acceleration design | Snorre ~0.18 g; Heidrun ~0.12 g g | affects tubular handling and structural design |
+| Hutton TLP drilling module share | large share of 20,000 Te topsides n/a | Hutton had a full drilling package on an integrated deck |
+
+
+### Large topsides: central processing / integrated production-utility-accommodation platforms (top-large-topsides-central-processing-integrated-production-utilit)
+
+Primary code: UPS: Upstream
+Large multi-module topsides carrying separation, gas processing, water handling, utilities, power and living quarters, often with drilling and riser systems. Weight and dimensions are driven primarily by platform function.
+Vendors: Aker Solutions, Fluor / COOEC-Fluor (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Johan Sverdrup P2 topsides weight | 24000 t (rounded) | Aibel's largest designed/built topside; three modules, flare tower and bridge, weighed by load cells and displacement |
+| Johan Sverdrup drilling platform (DP) topsides weight | 22000 t (rounded) | Aibel project 2018 |
+| Kvitebjørn topsides weight | 14400 t (rounded) | Aibel project 2003 |
+| Gudrun topsides weight | 10500 t (rounded) | Aibel project 2014 |
+| Dolwin Beta offshore HVDC platform topsides | 22000 t (rounded) | Aibel project 2015 - non-O&G comparator |
+
+
+### Large topsides: riser, compression, pump, gas processing/reinjection, separation and water-injection platforms (top-large-topsides-riser-compression-pump-gas-processing-reinjecti)
+
+Primary code: UPS: Upstream
+Function-specific large topsides that host risers and manifolds, gas compression for export or reinjection, produced-water separation and injection, and power/utility support, often tied back to a central hub.
+Vendors: Aker Solutions (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| gas compression need driver | reservoir pressure declines with production n/a | future compression may be needed for acceptable export pipeline flow |
+| water/gas injection need driver | oil production declines after some years n/a | reservoir requires stimulation by injection of water |
+
+
+### Modular multi-module topsides (top-modular-multi-module-topsides)
+
+Primary code: UPS: Upstream
+Several modules are fabricated onshore, transported offshore and installed onto a module support frame (MSF) mounted on the substructure; hook-up and commissioning then occurs offshore. Modularisation enables parallel work, accommodates the gap between total topsides weight and available crane capacity, and allows module replacement during field life.
+Vendors: Lamprell (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Miller topsides module count | 12 modules | BP North Sea platform |
+| Petronius topsides total weight | 7500 tons | Chevron compliant tower; two installable modules (North and South) |
+| Petronius North Module weight | 4000 tons (close to) | half of the whole topsides, multi-deck |
+| module-to-module clearance | 1000 mm | generally accepted spacing between FPSO modules; can be reduced to 600 mm between module and rack |
+| module-to-rack clearance (minimum) | 600 mm | reduced spacing between module and pipe rack |
+| accommodation safe zone gap | 20 m | 20 m gap or safe zone between accommodations and all process/utility modules on FPSO |
+| hull deck to module underside air gap | 3 m minimum | free zone between hull, marine and topsides systems |
+| module length design ratio | ship length / 10 ratio | maximum length between outer module supports for FPSO modular sections |
+
+
+### Module Support Frame (top-module-support-frame-msf-and-deck-structures)
+
+Primary code: UPS: Upstream
+A space frame that supports modules and transfers their loads to the jacket/tower substructure; may also house storage tanks, pig launchers/receivers, metering devices and piping. Provides the structural skeleton for integrated or modular decks.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| truss vs portal frame longitudinal rows | 2-3 rows | 20-25 m wide deck: trusses at centreline and both outer walls; portal frames in 2 rows ~14-16 m apart |
+| portal frame row spacing | 14-16 m | allowing floor cantilevers of approximately 5 m |
+| conventional steel floor share of deck steel weight | 50 % (approximately) | conventional steel floor contributes about half the steel structure weight of an offshore deck |
+| GBS topside steel yield stress | 355 MPa | high strength steel commonly used at present; trend to 420-460 MPa |
+| typical production deck spans | floor plate 1 m; stringer 5 m; deck beam 15 m; main structure 15 m m | typical floor design dimensions |
+
+
+### Offshore topsides (top-offshore-topsides-definition-function-and-structural-scope)
+
+Primary code: UPS: Upstream
+The above-water steel structure, consisting of one or more decks, that holds all facilities for exploration/production and human activity; it is designed and fabricated separately from the substructure and integrated inshore or offshore. Its three common design elements are: hold all equipment needed for operations, provide a safe and sustainable healthy living environment, and optimise dimensions and weight.
+Vendors: Aker Solutions (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| definition | steel structure consisting of more than one deck holding facilities for exploration/production and human activities n/a | book chapter definition; topsides and deck often used interchangeably |
+| inter-deck vertical distance | 6-9 m | vertical distance between topside decks, North Sea practice |
+| cellar deck air gap above design wave crest | 1.5 m minimum | max elevation of design wave crest including tide and storm sway plus minimum 1.5 m air gap |
+| heavy deck threshold requiring MSF | 10000 tons | decks over 10,000 t are provided with a module support frame onto which modules are placed |
+| weight prognosis uncertainty surcharge | ?-30 % | conceptual design phase surcharge, reducing to +5% at final fabrication phase |
+| main deck live load | 20 kN/m2 | generally accepted figure for main decks; API-RP2A does not specify live loads |
+| concentrated deck live load | 10-25 kN on 0.3 x 0.3 m area | generally accepted figures for main decks |
+| floor plate thickness | 6-10 mm | chequered or flat steel plate; usually 8-10 mm, 6 mm for lighter loaded floors |
+| stringer centres | 1000-1200 mm | hot rolled beams typical spacing; IPE 240-270 / HE 240-280A at ~1 m centres spanning 5 m |
+| jacket transverse column spacing | 9-15 m | Dutch sector North Sea: 9 m wellhead platform to 15 m production platform; longitudinal ~15 m |
+| deck beam section | HE 800-1000 (or HL 1000 400 mm wide / HX 1000 450 mm wide) section designation | deck beams supporting floor panels or major equipment |
+
+
+### Self-installing topsides (top-self-installing-topsides)
+
+Primary code: UPS: Upstream
+Topsides installed without a heavy-lift crane vessel, using self-contained jacking/lifting systems, skidding or the support structure's own buoyancy; reduces dependence on scarce heavy-lift tonnage.
+Vendors: Kiewit (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Topsides installed without a heavy-lift crane vessel, using self-contained jacking/lifting systems, skidding or the support structure's own buoyancy; reduces dependence on scarce heavy-lift tonnage. | Qualitative function from pages read in this sweep. |
+
+
+### Semi-submersible production topsides (top-semi-submersible-production-topsides)
+
+Primary code: UPS: Upstream
+Topsides placed on column-stabilised floating hulls held by catenary moorings; can be integrated and commissioned at dock, with installation method (heavy lift, jacking, float-over, multiple lifts) strongly affecting selection.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Topsides placed on column-stabilised floating hulls held by catenary moorings; can be integrated and commissioned at dock, with installation method (heavy lift, jacking, float-over, multiple lifts) strongly affecting selection. | Qualitative function from pages read in this sweep. |
+
+
+### Small topsides: portable / mobile (top-small-topsides-portable-mobile-mopu-topsides)
+
+Primary code: UPS: Upstream
+Portable or reusable offshore production facility where the topsides can be moved and reused; includes ship-shaped FPSOs, spars, TLPs, jack-ups, semi-submersible production units and production barges.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Portable or reusable offshore production facility where the topsides can be moved and reused; includes ship-shaped FPSOs, spars, TLPs, jack-ups, semi-submersible production units and production barges. | Qualitative function from pages read in this sweep. |
+
+
+### Small topsides: unmanned wellhead / minimal process (top-small-topsides-unmanned-wellhead-minimal-process-uwhp-nnm-mono)
+
+Primary code: UPS: Upstream
+Minimalist topsides for wellhead-only or very small production functions, normally unattended, with no process facilities in the simplest cases. Used where wells are tied back to existing facilities, or for marginal/small fields.
+Vendors: Aker Solutions (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Visund Gas topsides weight | 1000 t (rounded) | Aibel project 2005 |
+| Sleipner B topsides weight | 2000 t (rounded) | Aibel project 2008 |
+
+
+### Spar topsides (top-spar-topsides)
+
+Primary code: UPS: Upstream
+Topside supported on a deep-draft single vertical cylinder (classic, truss or cell spar) with a typical fixed-platform-style deck carrying drilling and production equipment and dry-tree risers; low heave motion suits ultra-deepwater.
+Vendors: Kiewit Offshore Services (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Perdido single-lift spar topsides | 9500 ton (8,618 metric ton) | installed by Thialf March 2009 with living quarter added three days later; heaviest single-lift topsides in GOM by HLCV at the time |
+| Perdido spar water depth | 2450 m | deepest spar in world at time of source |
+| Perdido topsides deck count | 3 decks | support oil and gas processing, drilling rig and living quarters |
+
+
+### Tension leg platform (top-tension-leg-platform-tlp-topsides)
+
+Primary code: UPS: Upstream
+Topside carried on a column-stabilised buoyant hull held by tensioned tendons; supports drilling, production and accommodation. Enables surface BOP/wellhead access but adds drilling-package weight, riser tension and motion design constraints.
+Vendors: McDermott, SBM Atlantia / SOFEC (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Hutton TLP topsides weight | 20000 Te | largest integrated deck built at Ardersier; client Conoco, 1984 |
+| Hutton TLP water depth | 143 m | installation depth in Hutton Field; production 1984-2001 |
+| Olympus TLP displacement | 126000 tons | largest Shell TLP in US GOM; more than twice displacement of neighbouring Mars TLP |
+| Olympus TLP deck area | 342000 ft2 | accommodates 100,000 BOEPD processing capacity and up to 192 crew |
+| Kizomba A TLP overall platform weight | 35000 tonnes | 100-man living quarters, two 6,000 t topsides modules, 7,500 t drilling rig, two support modules, 36 well slots |
+| full drilling package deepwater TLP typical weight | 4000-6000 tons | depends on topside concept and site conditions |
+| skidable North Sea drilling rig dry weight | 2000-3000 tons | operating weight 4,000-6,000 t with variable loads |
+| mud and drilling supply facilities weight | 2000-4000 tons | lower figure typical integrated topside, upper figure separate module; module operating weight up to 8,000 t with pipe rack |
+
+
+### Topside systems (top-topside-systems-process-layout-piping-electrical-icss-f-g-esd)
+
+Primary code: UPS: Upstream
+The distributed systems carried by the topside structure: process equipment and pipe racks; power generation/distribution and control; fire & gas and emergency shutdown; heating/ventilation/air conditioning; material-handling cranes; escape/lifesaving; helicopter decks; and inter-platform bridges.
+Vendors: Alliance Engineering (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| helideck location requirement | near living quarters; usually on obstacle-free area on top of living quarters n/a | to enable fast evacuation |
+| deck crane siting | outside helideck obstacle-free area; maximum deck coverage; operator eye contact with load and supply vessel n/a | layout requirement |
+| pipe rack arrangement | central longitudinal pipe rack with process/utility modules on either side n/a | FPSO best practice; rack floor at same elevation as common lower deck level |
+| electrical building strategy | main electrical building aft plus auxiliary electrical building forward n/a | distributes cable tray runs, allows smaller electrical buildings and lower module weights |
+| FPSO process optimisation example module count and weight saving | 10 modules; 7,000 t weight reduction and ~$300 million savings | 100,000 b/d oil, 250 mmcf/d gas, 100,000 b/d produced water, 275,000 b/d water injection at 5,000 psig; oil stabilisation vs conventional stage separation |
+| escapeway width criterion | sufficient to allow evacuation of personnel on stretchers n/a | walkways, ladders and stairs kept obstacle-free and non-slippery |
+
+
+### Topside weight and area benchmarks (top-topside-weight-and-area-benchmarks-small-vs-large)
+
+Primary code: UPS: Upstream
+Empirical relations and published weight tables used for early-stage sizing and checking whether a proposed topsides weight is within historical ranges.
+Vendors: Heerema (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Eiffel Tower comparator weight | 9000 tonnes | comparator used in Aibel weight article |
+| Aibel project weight range (listed examples) | 1000-24000 t (rounded) | Visund Gas 1,000 t (2005) to Johan Sverdrup P2 24,000 t (2022) |
+| weight cells used simultaneously for P2 weighing | 50-60 cells | up to 50-60 weight cells lift the module from grillage; process repeated three times |
+| minimum equipment weight logged for weighing | 1 tonne | Aibel follows ISO weighing standard; all equipment over one tonne weighed before installation |
+| Aker Solutions design weight envelope | 2000-40000 tonnes (over 40,000 at top end) | company facility design range |
+
 
 ## tp-wellhead
 
@@ -4112,7 +5123,7 @@ Recorded gaps:
 
 Primary code: PCH: Petrochemicals
 High-pressure reactor in which ammonia and carbon dioxide form ammonium carbamate and then dehydrate to urea. Conversion per pass is incomplete, so the high-pressure loop strips and recycles unconverted carbamate; reactor pressure, temperature and the ammonia-to-CO2 ratio set conversion and downstream stripping duty.
-Vendors: Stamicarbon, thyssenkrupp Uhde, Casale, Toyo Engineering, Saipem, Casale SA (5 model lines recorded).
+Vendors: Stamicarbon, thyssenkrupp Uhde, Casale, Toyo Engineering, Saipem (ex-Micoperi 7000), Casale SA (5 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -4131,7 +5142,7 @@ Vendors: Stamicarbon, thyssenkrupp Uhde, Casale, Toyo Engineering, Saipem, Casal
 - **Toyo Engineering** ACES21 process: reactor at N/C 3.7, 182 C and 152 bar
 - **Toyo Engineering** ACES21-LP process: synthesis pressure lowered to 136 barG; 5-10% lighter synthesis equipment
 - **Casale** HYPER-U: combined condenser/reactor; optimally designed up to 4,000 MTD
-- **Saipem** Snamprogetti ammonia stripping urea process: synthesis conditions 188 C and 155 kg/cm2
+- **Saipem (ex-Micoperi 7000)** Snamprogetti ammonia stripping urea process: synthesis conditions 188 C and 155 kg/cm2
 
 Recorded gaps:
 
@@ -4756,7 +5767,7 @@ Recorded gaps:
 
 Primary code: UPS: Upstream
 Provide well access for logging, fishing, cleanout, pumping, completions and interventions from the wellhead platform or an intervention vessel.
-Vendors: NOV (Hydra Rig), Halliburton, Balance Point Control (BPC), International Snubbing Services (0 model lines recorded).
+Vendors: NOV (Bondstrand), Halliburton, Balance Point Control (BPC), International Snubbing Services (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |

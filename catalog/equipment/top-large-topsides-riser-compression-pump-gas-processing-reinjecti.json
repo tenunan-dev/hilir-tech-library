@@ -1,0 +1,50 @@
+{
+  "id": "top-large-topsides-riser-compression-pump-gas-processing-reinjecti",
+  "name": "Large topsides: riser, compression, pump, gas processing/reinjection, separation and water-injection platforms",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Function-specific large topsides that host risers and manifolds, gas compression for export or reinjection, produced-water separation and injection, and power/utility support, often tied back to a central hub.",
+  "specifications": [
+    {
+      "metric": "gas compression need driver",
+      "unit": "n/a",
+      "basis": "future compression may be needed for acceptable export pipeline flow",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": "reservoir pressure declines with production"
+    },
+    {
+      "metric": "water/gas injection need driver",
+      "unit": "n/a",
+      "basis": "reservoir requires stimulation by injection of water",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": "oil production declines after some years"
+    }
+  ],
+  "vendors": [
+    "aker-solutions"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Function-specific large topsides that host risers and manifolds, gas compression for export or reinjection, produced-water separation and injection, and power/u"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sub-submersible-drilling-rig-shallow-water-bottom-founded-barge",
+  "name": "Submersible drilling rig",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Floodable barge that rests on the seabed for drilling in very shallow water, often in marsh/swamp or inland waters.",
+  "specifications": [
+    {
+      "metric": "classification",
+      "unit": "description",
+      "basis": "Wikipedia Offshore drilling, Drilling platforms section; Wikipedia Drillship types list",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_drilling",
+        "source_id": "en-wikipedia-org-wiki-offshore-drilling"
+      },
+      "value": "listed as one of the MODU types alongside jackup, semi-submersible and drillship"
+    },
+    {
+      "metric": "first mobile steel barges",
+      "unit": "description",
+      "basis": "Wikipedia Offshore drilling history",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_drilling",
+        "source_id": "en-wikipedia-org-wiki-offshore-drilling"
+      },
+      "value": "developed by The Texas Company (Texaco) in early 1930s for brackish coastal Gulf areas"
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_drilling",
+      "source_id": "en-wikipedia-org-wiki-offshore-drilling"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Floodable barge that rests on the seabed for drilling in very shallow water, often in marsh/swamp or inland waters."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

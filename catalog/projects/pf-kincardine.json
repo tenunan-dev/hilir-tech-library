@@ -1,0 +1,25 @@
+{
+  "id": "pf-kincardine",
+  "name": "Kincardine",
+  "country": "UK",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "48-50 MW semi-submersible WindFloat, 60-80 m depth, 2021",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+      "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

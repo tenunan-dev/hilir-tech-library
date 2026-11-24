@@ -1,0 +1,32 @@
+{
+  "id": "dnv-com-simulation-of-jacket-installations-installjac-2279",
+  "name": "DNV (Installjac software)",
+  "url": "https://www.dnv.com/services/simulation-of-jacket-installations-installjac-2279/",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "DNV",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Search-verified snippet: analyses launching from barge, floating stability and up-ending; page not fetched. Evidence: https://www.dnv.com/services/simulation-of-jacket-installations-installjac-2279/"
+}

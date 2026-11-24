@@ -1,0 +1,61 @@
+{
+  "id": "sub-spar-platform-classic-truss-cell",
+  "name": "Spar platform",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Deep-draft vertical buoyant cylinder(s) moored by spread mooring; deep draft gives low wave sensitivity and supports dry-tree or subsea production.",
+  "specifications": [
+    {
+      "metric": "cell spar cell count and diameter, Red Hawk",
+      "unit": "cells",
+      "basis": "Wikipedia Spar (platform): '7 ea. 8 m (26 ft) diameter cells'; first and only cell spar, 1,615 m water depth, 2004",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+        "source_id": "en-wikipedia-org-wiki-spar-platform"
+      },
+      "value": "7 cells of 8 m diameter"
+    },
+    {
+      "metric": "deepest spar water depth, Perdido",
+      "unit": "m",
+      "basis": "Wikipedia Spar (platform): deepest seabed to which a spar moored is 2,383 m; mean water depth 2,438 m; truss spar, Shell, 2010",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+        "source_id": "en-wikipedia-org-wiki-spar-platform"
+      },
+      "value": 2383
+    },
+    {
+      "metric": "first production spar water depth, Neptune",
+      "unit": "m",
+      "basis": "Wikipedia Spar (platform) list: Neptune, Classic, 1996, Oryx Energy, 588 m, designed by Technip",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+        "source_id": "en-wikipedia-org-wiki-spar-platform"
+      },
+      "value": 588
+    }
+  ],
+  "vendors": [
+    "technip-now-technipfmc",
+    "j-ray-mcdermott"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+      "source_id": "en-wikipedia-org-wiki-spar-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Deep-draft vertical buoyant cylinder(s) moored by spread mooring; deep draft gives low wave sensitivity and supports dry-tree or subsea production."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

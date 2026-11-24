@@ -47,7 +47,12 @@
     "floating hull",
     "mooring and anchors",
     "turbine",
-    "dynamic cable"
+    "dynamic cable",
+    "semi-submersible floater",
+    "SPAR floater",
+    "tension-leg platform floater",
+    "barge/pontoon floater",
+    "mooring and anchoring"
   ],
   "suppliers": [
     {
@@ -135,7 +140,7 @@
       "note": "Wikipedia: Floating offshore wind — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-24",
   "gaps": [],
   "reference_plants": [
     {
@@ -163,5 +168,6 @@
         "note": "Maritime Executive, 8 Apr 2020 (read 2026-10-28)"
       }
     }
-  ]
+  ],
+  "notes": " All substructure/topside types and installation technologies added 2026-11-24."
 }

@@ -1,0 +1,32 @@
+{
+  "id": "iqip-com-hydrohammer-s-series",
+  "name": "Iqip.Com — IQIP Hydrohammer S-series energy range",
+  "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Iqip.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. IQIP Hydrohammer S-series page: 'Models range from S-30 to S-2000, with energy capacities from 30kJ to 2000kJ' Evidence: https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "mat-ins-high-tensile-steel-lifting-beams-sheerlegs-jacket-tubulars",
+  "name": "High-tensile steel",
+  "material_category": "metal",
+  "description": "Fabricate lifting beams and shear legs for extreme single-lift loads",
+  "specifications": [
+    {
+      "metric": "High-tensile steel ordered for Pioneering Spirit lift systems",
+      "unit": "event",
+      "basis": "Wikipedia Pioneering Spirit, Construction (citing Allseas press release)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+        "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+      },
+      "value": "ordered 2008 (no grade printed on fetched page)"
+    }
+  ],
+  "applications": [
+    "Fabricate lifting beams and shear legs for extreme single-lift loads"
+  ],
+  "standards": [],
+  "equipment": [
+    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati",
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast",
+    "ins-float-over-topside-installation-barge-float-over-tidal-float-o",
+    "ins-leg-mating-units-lmu-elastomeric-shock-absorbers"
+  ],
+  "suppliers": [
+    "allseas-oem-design",
+    "huisman"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+      "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

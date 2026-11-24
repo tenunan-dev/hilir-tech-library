@@ -1,24 +1,25 @@
 {
   "id": "stdhive-com-pdf-preview-api-rp-14c-pdf",
-  "name": "API RP 14C, 8th edition (2017), Analysis, Design, Installation, and Testing of Safety Systems for Offshore Production Facilities",
+  "name": "American Petroleum Institute, API RP 14C 8th edition (2017); preview hosted by stdhive.com",
   "url": "https://www.stdhive.com/pdf_preview/api-rp-14c-pdf",
   "source_type": "oem-supplier",
   "sectors": [
     "UPS",
-    "MID"
+    "MID",
+    "PWR"
   ],
   "disciplines": [
+    "CIV",
     "PRC",
     "ROT",
-    "CIV",
-    "ELE",
-    "INS"
+    "MAT"
   ],
   "publisher_org": "Stdhive.Com",
   "regions": [
     "global",
     "apac",
     "sea",
+    "eu",
     "na"
   ],
   "access": "open",
@@ -27,5 +28,5 @@
   "quality_tier": 1,
   "verification": "unverified",
   "last_verified": null,
-  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Figure 1 shows the boundary between topside/API 14C and subsea/API 17V safety systems (DHSV/SSSV, SCSSV, BSDV, SDV, production tree, manifold, umbilicals, flying leads, SCU, HPU, EPU, PSS); Figure 3 i Evidence: https://www.stdhive.com/pdf_preview/api-rp-14c-pdf"
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Boundary between topside (API 14C) and subsea (API 17V) safety systems: DHSV/SSSV, SCSSV, BSDV, SDV, production tree, manifold, umbilicals, flying leads, SCU, HPU, EPU, PSS; offshore production facili Evidence: https://www.stdhive.com/pdf_preview/api-rp-14c-pdf"
 }

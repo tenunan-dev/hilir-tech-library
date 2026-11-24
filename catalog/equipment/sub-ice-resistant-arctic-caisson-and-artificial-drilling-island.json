@@ -1,0 +1,78 @@
+{
+  "id": "sub-ice-resistant-arctic-caisson-and-artificial-drilling-island",
+  "name": "Ice-resistant / Arctic caisson and artificial drilling island",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Bottom-founded structure or constructed island designed to resist iceberg impact, sea ice and ice scour in Arctic and sub-Arctic waters.",
+  "specifications": [
+    {
+      "metric": "Tarsiut Island",
+      "unit": "description",
+      "basis": "Wikipedia Offshore concrete structure table row 19",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": "4 hollow caissons, 16 m water depth, Beaufort Sea, Amoco Canada, 1981, removed"
+    },
+    {
+      "metric": "Super CIDS",
+      "unit": "description",
+      "basis": "Wikipedia Offshore concrete structure table row 24",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": "CGS caisson island, 16 m, Beaufort Sea, Global Marine, 1984, removed"
+    },
+    {
+      "metric": "Northstar Island",
+      "unit": "description",
+      "basis": "Wikipedia Artificial Island gallery and Wikipedia Offshore drilling main fields",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Artificial_island",
+        "source_id": "en-wikipedia-org-wiki-artificial-island"
+      },
+      "value": "artificial island used for oil drilling in the Beaufort Sea north of Alaska"
+    },
+    {
+      "metric": "iceberg scour protection",
+      "unit": "description",
+      "basis": "Wikipedia Offshore drilling (Terra Nova subsea layout and challenges)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_drilling",
+        "source_id": "en-wikipedia-org-wiki-offshore-drilling"
+      },
+      "value": "subsea wells set in glory holes; seabed burial used as protection against drifting ice gouging"
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Artificial_island",
+      "source_id": "en-wikipedia-org-wiki-artificial-island"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_drilling",
+      "source_id": "en-wikipedia-org-wiki-offshore-drilling"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Bottom-founded structure or constructed island designed to resist iceberg impact, sea ice and ice scour in Arctic and sub-Arctic waters."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

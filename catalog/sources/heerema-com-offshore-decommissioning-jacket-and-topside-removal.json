@@ -1,0 +1,32 @@
+{
+  "id": "heerema-com-offshore-decommissioning-jacket-and-topside-removal",
+  "name": "Heerema Marine Contractors — Heerema removal vessel capacity",
+  "url": "https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Heerema Marine Contractors",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Heerema jacket and topside removal page Evidence: https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal"
+}

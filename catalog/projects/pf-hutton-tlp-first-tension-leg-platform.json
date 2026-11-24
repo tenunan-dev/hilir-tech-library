@@ -1,0 +1,26 @@
+{
+  "id": "pf-hutton-tlp-first-tension-leg-platform",
+  "name": "Hutton TLP (first tension leg platform)",
+  "country": "United Kingdom",
+  "location": "Hutton oilfield, North Sea",
+  "status": "under-construction",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "substructure_type: Conventional TLP, 16 tension legs — first TLP in the world | topside_type: Production topsides with accommodation (later redeployed to Prirazlomnoye) | water_depth: Designed for 100-1,000 m North Sea depths | topside_weight: 46,500-55,000 t when moored; up to 61,580 t floating freely | installation_method: Hull built in Highland Fabricators' Nigg dry dock (north Scotland); deck built at McDermott's Ardersier yard; two parts mated in the Moray Firth in 1984 | contractor: Highland Fabricators (hull); McDermott (deck) | dates: Built early 1980s; mated 1984; 25-year original design life",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+      "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
+    }
+  ],
+  "notes": "secondary source Decommissioned as TLP; hull separated from topsides, topsides redeployed to Prirazlomnoye field (Barents Sea)",
+  "last_reviewed": "2026-11-24"
+}

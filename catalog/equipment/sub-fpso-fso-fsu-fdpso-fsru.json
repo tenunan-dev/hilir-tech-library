@@ -1,0 +1,73 @@
+{
+  "id": "sub-fpso-fso-fsu-fdpso-fsru",
+  "name": "FPSO / FSO / FSU / FDPSO / FSRU",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Ship-shaped or circular floating vessel that receives, processes and stores hydrocarbons from subsea wells or nearby platforms and offloads to shuttle tankers; FSO/FSU store only.",
+  "specifications": [
+    {
+      "metric": "global fleet count",
+      "unit": "vessels",
+      "basis": "Wikipedia FPSO, History section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+      },
+      "value": "over 270 vessels deployed worldwide as oil FPSOs"
+    },
+    {
+      "metric": "deepest FPSO, BW Pioneer",
+      "unit": "m",
+      "basis": "Wikipedia FPSO Record vessels: moored at 2,600 m, Walker Ridge 249, GoM; rated 80,000 bbl/d; conversion at MMHE Pasir Gudang, Malaysia; disconnectable APL turret",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+      },
+      "value": 2600
+    },
+    {
+      "metric": "Kizomba A storage / dimensions",
+      "unit": "description",
+      "basis": "Wikipedia FPSO Record vessels",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+      },
+      "value": "2.2 million bbl; 285 m L × 63 m B × 32 m H; 81,000 t; cost over US$800m"
+    },
+    {
+      "metric": "Skarv FPSO dimensions",
+      "unit": "description",
+      "basis": "Wikipedia FPSO Record vessels",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+      },
+      "value": "292 m × 50.6 m × 29 m; ~100 people; hull Aker Solutions Tentech975"
+    }
+  ],
+  "vendors": [
+    "sbm-offshore",
+    "modec",
+    "bw-offshore",
+    "aker-solutions"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Ship-shaped or circular floating vessel that receives, processes and stores hydrocarbons from subsea wells or nearby platforms and offloads to shuttle tankers; "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

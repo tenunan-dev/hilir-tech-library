@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-794 vendor records covering 320 technologies. One record per vendor in
+864 vendor records covering 320 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -16,7 +16,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Carbon Recycling International](https://carbonrecycling.com) | Iceland | operator | CO2 to methanol and fuels |
 | [CarbonCure Technologies](https://www.carboncure.com) | Canada | oem, supplier | CO2 to concrete and aggregates |
 | [Climeworks](https://climeworks.com) | Switzerland | developer, operator | Direct air capture with solid sorbent |
-| [CNOOC Engineering (COOEC)](https://www.cnoocengineering.com) | China | epc | CO2 compression and dehydration |
 | [Covestro](https://www.covestro.com) | Germany | oem | CO2 to urea and polymers |
 | [Drax Group](https://www.drax.com) | United Kingdom | operator, developer | Bioenergy with CCS (BECCS) |
 | [Exomad Green](https://www.exomadgreen.com) | Bolivia | oem | Biochar |
@@ -42,9 +41,17 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
 | Able UK | — | oem, supplier | Plant structural steel design |
+| Acteon | — | oem, service | Fixed platform topsides and substructures |
+| Acteon / Intermoor | — | oem, service | Fixed platform topsides and substructures |
 | Acteon / Menck | — | oem, supplier | Plant structural steel design |
-| Allseas | — | oem, supplier | Plant structural steel design |
+| Aibel | — | oem, service | Fixed platform topsides and substructures |
+| AIS (Advanced Insulation Systems) | — | oem, service | Fixed platform topsides and substructures |
+| Aker Gulf Marine | — | oem, service | Fixed platform topsides and substructures |
+| ALE | — | oem, service | Fixed platform topsides and substructures |
+| Alliance Engineering | — | oem, service | Fixed platform topsides and substructures |
+| Allseas (OEM design) | — | oem, service | Fixed platform topsides and substructures |
 | Altex Coatings | — | oem, supplier | Plant structural steel design |
+| American Bureau of Shipping | — | oem, service | Fixed platform topsides and substructures |
 | American Steel & Aluminum | — | oem, supplier | Plant structural steel design |
 | American Welding Society | — | oem, supplier | Plant structural steel design |
 | Ampelmann Operations B.V. | — | oem, supplier | Plant structural steel design |
@@ -52,6 +59,8 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | ArcelorMittal | — | oem, supplier | Plant structural steel design |
 | ArcelorMittal Europe | — | oem, supplier | Plant structural steel design |
 | ArcelorMittal Orange Book | — | oem, supplier | Plant structural steel design |
+| Arup | — | oem, service | Fixed platform topsides and substructures |
+| Babcock International | — | oem, service | Fixed platform topsides and substructures |
 | BakerRisk | — | oem, supplier | Plant structural steel design |
 | Barnhart Crane & Rigging | — | oem, supplier | Plant structural steel design |
 | BASF Master Builders / Mapei / Fosroc / Grace | — | oem, supplier | Plant structural steel design |
@@ -62,31 +71,42 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | BAUER Spezialtiefbau | — | oem, supplier | Plant structural steel design |
 | BAUER Spezialtiefbau GmbH | — | oem, supplier | Plant structural steel design |
 | Boomarine | — | oem, supplier | Plant structural steel design |
-| Boskalis | — | oem, supplier | Plant structural steel design |
+| Boskalis (Dockwise heritage) | — | oem, service | Fixed platform topsides and substructures |
 | Bridgestone | — | oem, supplier | Plant structural steel design |
 | Bridgestone Corporation | — | oem, supplier | Plant structural steel design |
+| Brown & Root | — | oem, service | Fixed platform topsides and substructures |
 | [Carboline](https://www.carboline.com) | USA | supplier | Structural fireproofing and passive fire protection |
 | [Carpenter & Paterson](https://pipehangers.com) | USA | oem, supplier | Pipe racks, sleepers and pipe supports |
 | Cathodic Marine Engineering Pte Ltd | — | oem, supplier | Plant structural steel design |
 | CathPro | — | oem, supplier | Plant structural steel design |
 | CCME-MCPS LLC | — | oem, supplier | Plant structural steel design |
+| CNOOC Research Institute | — | oem, service | Fixed platform topsides and substructures |
 | Cometto | — | oem, supplier | Plant structural steel design |
 | ContiTech (Continental Group) | — | oem, supplier | Plant structural steel design |
+| COOEC (CNOOC Engineering) | — | oem, service | Fixed platform topsides and substructures |
+| COSCO Shipping | — | oem, service | Fixed platform topsides and substructures |
 | CRSI (Concrete Reinforcing Steel Institute) | — | oem, supplier | Plant structural steel design |
 | CS WIND Offshore | — | oem, supplier | Plant structural steel design |
 | Deep Trekker | — | oem, supplier | Plant structural steel design |
 | Deepwater (stoprust.com) | — | oem, supplier | Plant structural steel design |
 | DESMI (Ro-Clean) | — | oem, supplier | Plant structural steel design |
+| DNV (Installjac software) | — | oem, service | Fixed platform topsides and substructures |
 | DockGuard Ltd | — | oem, supplier | Plant structural steel design |
+| DOF | — | oem, service | Fixed platform topsides and substructures |
 | Doka | — | oem, supplier | Plant structural steel design |
 | Doowin Marine | — | oem, supplier | Plant structural steel design |
+| DORIS | — | oem, service | Fixed platform topsides and substructures |
+| DORIS / C G DORIS | — | oem, service | Fixed platform topsides and substructures |
 | Dynamic Isolation Systems (DIS) | — | oem, supplier | Plant structural steel design |
 | Edgen Murray (yard manager) / Ming Rong Yuan (Taiwan fabricator) | — | oem, supplier | Plant structural steel design |
 | EEW Group | — | oem, supplier | Plant structural steel design |
 | FDG | — | oem, supplier | Plant structural steel design |
+| First Subsea | — | oem, service | Fixed platform topsides and substructures |
 | Flowtork Technologies Corporation | — | oem, supplier | Plant structural steel design |
+| Fluor / COOEC-Fluor | — | oem, service | Fixed platform topsides and substructures |
 | Flyability | — | oem, supplier | Plant structural steel design |
 | Fosroc | — | oem, supplier | Plant structural steel design |
+| Fugro | — | oem, service | Fixed platform topsides and substructures |
 | Fyfe / Critica Infrastructure (Henkel) | — | oem, supplier | Plant structural steel design |
 | Fyfe FRP / Critica Infrastructure (Henkel) | — | oem, supplier | Plant structural steel design |
 | GEOfabrics Limited | — | oem, supplier | Plant structural steel design |
@@ -94,19 +114,31 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Hai Nam | — | oem, supplier | Plant structural steel design |
 | HAIL | — | oem, supplier | Plant structural steel design |
 | [Heerema](https://www.heerema.com) | Netherlands | epc, service | Heavy lift, transport and temporary works |
+| Heerema Marine Contractors | — | oem, service | Fixed platform topsides and substructures |
+| Heerema Marine Contractors / Huisman / Sembcorp Marine | — | oem, service | Fixed platform topsides and substructures |
 | [Hempel](https://www.hempel.com) | Denmark | supplier | Structural fireproofing and passive fire protection |
+| Hi-Tech Elastomers | — | oem, service | Fixed platform topsides and substructures |
 | Holcim / Lafarge / YTL / Tasek | — | oem, supplier | Plant structural steel design |
+| Huisman | — | oem, service | Fixed platform topsides and substructures |
 | Huisman Equipment | — | oem, supplier | Plant structural steel design |
 | IGSB | — | oem, supplier | Plant structural steel design |
 | India Electricals (IES) | — | oem, supplier | Plant structural steel design |
 | IQIP | — | oem, supplier | Plant structural steel design |
+| J. Ray McDermott | — | oem, service | Fixed platform topsides and substructures |
+| Jan De Nul | — | oem, service | Fixed platform topsides and substructures |
 | Jan De Nul / Hitachi consortium | — | oem, supplier | Plant structural steel design |
 | Jotun / Hempel / PPG / Sherwin-Williams | — | oem, supplier | Plant structural steel design |
+| Junttan | — | oem, service | Fixed platform topsides and substructures |
+| KBR / Kvaerner JV | — | oem, service | Fixed platform topsides and substructures |
 | [Keller Group](https://www.kellerfoundations.com/) | United Kingdom | service | Foundations and piling |
 | [Kiewit](https://www.kiewit.com) | USA | epc | Modular construction and industrialised building systems |
+| Kiewit Offshore Services | — | oem, service | Fixed platform topsides and substructures |
 | L-Vision Engineering Pte Ltd | — | oem, supplier | Plant structural steel design |
+| Lamprell | — | oem, service | Fixed platform topsides and substructures |
+| Lampson | — | oem, service | Fixed platform topsides and substructures |
 | Layher | — | oem, supplier | Plant structural steel design |
 | Leica Geosystems / Topcon | — | oem, supplier | Plant structural steel design |
+| Leirvik AS | — | oem, service | Fixed platform topsides and substructures |
 | Liebherr | — | oem, supplier | Plant structural steel design |
 | Lincoln Electric / ESAB / Kobelco | — | oem, supplier | Plant structural steel design |
 | [LISEGA](https://www.lisega.de) | Germany | oem, supplier | Pipe racks, sleepers and pipe supports |
@@ -115,12 +147,25 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Masteel UK Ltd | — | oem, supplier | Plant structural steel design |
 | Menard | — | oem, supplier | Plant structural steel design |
 | Menck (Acteon Marine Foundations; sale to Cadeler announced Aug 2026) | — | oem, supplier | Plant structural steel design |
-| Menck / Acteon | — | oem, supplier | Plant structural steel design |
+| Menck / Acteon (sale to Cadeler announced 2026) | — | oem, service | Fixed platform topsides and substructures |
+| Menck/Acteon (grout coordinated with piling) | — | oem, service | Fixed platform topsides and substructures |
+| Mermaid Consultants | — | oem, service | Fixed platform topsides and substructures |
+| Micoperi | — | oem, service | Fixed platform topsides and substructures |
 | MME Group | — | oem, supplier | Plant structural steel design |
+| MOSES (per Wikipedia) | — | oem, service | Fixed platform topsides and substructures |
 | Naue GmbH & Co. KG | — | oem, supplier | Plant structural steel design |
+| NGI (Norwegian Geotechnical Institute) | — | oem, service | Fixed platform topsides and substructures |
+| Noble Drilling (Noble Lloyd Noble) | — | oem, service | Fixed platform topsides and substructures |
+| Noble Offshore | — | oem, service | Fixed platform topsides and substructures |
+| Norwegian Contractors | — | oem, service | Fixed platform topsides and substructures |
+| NOV (Bondstrand) | — | oem, service | Fixed platform topsides and substructures |
+| NOV/AmClyde | — | oem, service | Fixed platform topsides and substructures |
 | NPES | — | oem, supplier | Plant structural steel design |
 | Nucor | — | oem, supplier | Plant structural steel design |
+| Oceaneering | — | oem, service | Fixed platform topsides and substructures |
 | Oceaneering / Subsea 7 (ROV services) | — | oem, supplier | Plant structural steel design |
+| Orca Offshore | — | oem, service | Fixed platform topsides and substructures |
+| Orca Offshore / SeaCamel | — | oem, service | Fixed platform topsides and substructures |
 | Pacific Marine & Industrial | — | oem, supplier | Plant structural steel design |
 | PALFINGER | — | oem, supplier | Plant structural steel design |
 | PERI | — | oem, supplier | Plant structural steel design |
@@ -129,33 +174,61 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Portland Bolt | — | oem, supplier | Plant structural steel design |
 | [RedGuard](https://redguard.com/) | United States | supplier | Blast-resistant buildings |
 | Ridgeway Marine | — | oem, supplier | Plant structural steel design |
+| Rosetexwool | — | oem, service | Fixed platform topsides and substructures |
+| Saipem (ex-Micoperi 7000) | — | oem, service | Fixed platform topsides and substructures |
 | Samkang (South Korea) | — | oem, supplier | Plant structural steel design |
+| Sapura / Vantris Energy (incl. L&T Sapura JV) | — | oem, service | Fixed platform topsides and substructures |
 | [Sarens Group](https://www.sarens.com/) | Belgium | rental, service | Heavy lift, transport and temporary works |
+| SBM Atlantia / SOFEC | — | oem, service | Fixed platform topsides and substructures |
+| SBM Offshore / IFPEN | — | oem, service | Fixed platform topsides and substructures |
+| Scaldis | — | oem, service | Fixed platform topsides and substructures |
 | SDI Certified Manufacturers | — | oem, supplier | Plant structural steel design |
+| Seaastar/Deep Oil Technology (name per Wikipedia) | — | oem, service | Fixed platform topsides and substructures |
+| SeaCamel | — | oem, service | Fixed platform topsides and substructures |
+| SeaCamel/Orca Offshore | — | oem, service | Fixed platform topsides and substructures |
 | [Seatrium](https://www.seatrium.com) | Singapore | epc, oem | Fixed platform topsides and substructures |
+| Seaway7 (Subsea7) | — | oem, service | Fixed platform topsides and substructures |
 | ShibataFenderTeam | — | oem, supplier | Plant structural steel design |
 | ShibataFenderTeam Group | — | oem, supplier | Plant structural steel design |
 | Sif Group | — | oem, supplier | Plant structural steel design |
 | Sika | — | oem, supplier | Plant structural steel design |
 | Sika / Simpson Strong-Tie | — | oem, supplier | Plant structural steel design |
+| Smit (Boskalis) | — | oem, service | Fixed platform topsides and substructures |
+| Smulders (Eiffage) | — | oem, service | Fixed platform topsides and substructures |
+| SOFEC | — | oem, service | Fixed platform topsides and substructures |
 | SSAB | — | oem, supplier | Plant structural steel design |
+| Subsea7 / Seaway7 | — | oem, service | Fixed platform topsides and substructures |
 | Survitec Group | — | oem, supplier | Plant structural steel design |
 | Tank Built Pte Ltd | — | oem, supplier | Plant structural steel design |
 | TBG Technologies (Chokusen), Japan | — | oem, supplier | Plant structural steel design |
+| Technip (now TechnipFMC) | — | oem, service | Fixed platform topsides and substructures |
+| Technip / TechnipFMC | — | oem, service | Fixed platform topsides and substructures |
 | Technip Energies Loading Systems | — | oem, supplier | Plant structural steel design |
+| Technip Samsung Consortium | — | oem, service | Fixed platform topsides and substructures |
+| Technip-Coflexip | — | oem, service | Fixed platform topsides and substructures |
+| TechnipFMC / Technip | — | oem, service | Fixed platform topsides and substructures |
 | Terram | — | oem, supplier | Plant structural steel design |
 | The Yokohama Rubber Co., Ltd. | — | oem, supplier | Plant structural steel design |
+| TheNavalArch | — | oem, service | Fixed platform topsides and substructures |
+| Thunder Cranes | — | oem, service | Fixed platform topsides and substructures |
 | TII SCHEUERLE | — | oem, supplier | Plant structural steel design |
+| Transocean | — | oem, service | Fixed platform topsides and substructures |
+| Trelleborg | — | oem, service | Fixed platform topsides and substructures |
 | Trelleborg Marine & Infrastructure | — | oem, supplier | Plant structural steel design |
+| Trelleborg Marine and Infrastructure | — | oem, service | Fixed platform topsides and substructures |
 | Trimble | — | oem, supplier | Plant structural steel design |
 | Trimble Geospatial | — | oem, supplier | Plant structural steel design |
 | Universal Steel America | — | oem, supplier | Plant structural steel design |
+| Van Oord | — | oem, service | Fixed platform topsides and substructures |
 | Van Oord / DEME / Jan De Nul | — | oem, supplier | Plant structural steel design |
+| Vantris Energy (Sapura Energy) | — | oem, service | Fixed platform topsides and substructures |
 | Vantris Energy Berhad | — | oem, supplier | Plant structural steel design |
 | VIKING Life-Saving Equipment | — | oem, supplier | Plant structural steel design |
 | Vikoma International Ltd | — | oem, supplier | Plant structural steel design |
 | Vinfab Engineers India | — | oem, supplier | Plant structural steel design |
+| Vulcan Iron Works | — | oem, service | Fixed platform topsides and substructures |
 | [Yinson Production](https://www.yinsonproduction.com/) | Malaysia | operator, epc | FPSO and floating production structures |
+| ØlenBetong | — | oem, service | Fixed platform topsides and substructures |
 
 ## DIG: Digital
 
@@ -408,7 +481,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Avestec Technologies](https://www.avestec.com) | Canada | service | Drones and robotics for inspection |
 | [Axalta Coating Systems](https://www.axalta.us) | USA | supplier | Coatings and linings |
 | [Butting](https://www.butting.com) | Germany | oem | Corrosion-resistant alloys and clad pipe |
-| [DNV](https://www.dnv.com) | Norway | supplier, service | Risk-based inspection and integrity management |
 | [Eddyfi Technologies](https://www.eddyfi.com) | Canada | oem | Non-destructive testing (UT, PAUT, radiography, eddy current) |
 | [Evident (Olympus)](https://www.evidentscientific.com) | Japan | oem | Non-destructive testing (UT, PAUT, radiography, eddy current) |
 | [Future Pipe Industries](https://www.futurepipe.com) | United Arab Emirates | oem | Non-metallic and composite equipment |
@@ -827,7 +899,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | chemical vendors not named on fetched pages | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Chevron](https://www.chevron.com) | USA | operator | Thermal EOR (steam flood, SAGD, CSS) |
 | [Cimarron Energy (Aereon)](https://aereon.com) | USA | oem, service | Flare gas recovery and zero routine flaring |
-| [CNOOC Engineering (COOEC)](https://www.cnoocengineering.com) | China | epc | Fixed jackets and gravity-based structures; FPSO and floating production (TLP, spar, semi-submersible) |
 | [CNPC](https://www.cnpc.com.cn) | China | operator, developer | Gas hydrate production |
 | [Cognite](https://www.cognite.com) | Norway | supplier | AI-assisted seismic interpretation and history matching; Production optimisation and digital oilfield |
 | [Computer Modelling Group](https://www.cmgl.ca) | Canada | supplier | Reservoir simulation (black oil, compositional, thermal) |
@@ -883,7 +954,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Nabors Industries](https://www.nabors.com) | Bermuda | oem, service | Drilling automation and autonomous rigs |
 | NAO Inc. | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Nexans](https://www.nexans.com) | France | oem | Long subsea tiebacks with direct electrical heating |
-| NOV (Hydra Rig) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Novomet](https://novomet.ru) | Russia | oem | Electric submersible pumps |
 | [Occidental Petroleum](https://www.oxy.com) | USA | operator, developer | CO2 enhanced oil recovery (miscible CO2 flooding); Thermal EOR (steam flood, SAGD, CSS) |
 | OCIMF | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
@@ -900,7 +970,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Project Canary](https://www.projectcanary.com) | USA | service | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
 | Proserv | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Rock Flow Dynamics](https://rfdyn.com) | Russia | supplier | Reservoir simulation (black oil, compositional, thermal) |
-| [Saipem](https://www.saipem.com) | Italy | epc, oem | Fixed jackets and gravity-based structures |
 | [SBM Offshore](https://www.sbmoffshore.com) | Netherlands | oem, operator | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Sercel](https://www.sercel.com) | France | oem | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
 | [Shearwater GeoServices](https://shearwatergeo.com) | Norway | service | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |

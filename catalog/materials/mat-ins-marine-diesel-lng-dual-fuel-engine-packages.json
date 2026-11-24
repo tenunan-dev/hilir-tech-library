@@ -1,0 +1,56 @@
+{
+  "id": "mat-ins-marine-diesel-lng-dual-fuel-engine-packages",
+  "name": "Marine diesel / LNG dual-fuel engine packages",
+  "material_category": "machinery",
+  "description": "Power crane vessels and DP thrusters",
+  "specifications": [
+    {
+      "metric": "Sleipnir engines",
+      "unit": "count / MW",
+      "basis": "Wikipedia SSCV Sleipnir, Power",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": "12 x MAN 8L51/60DF dual-fuel engines, 7.8 MW continuous each (8 MW at 514 RPM)"
+    },
+    {
+      "metric": "Pioneering Spirit generators",
+      "unit": "count x kW",
+      "basis": "Wikipedia Pioneering Spirit infobox (citing Ships Monthly)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+        "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+      },
+      "value": "8 x 11,200 kW MAN 20V32/44CR plus one 5,040 kW 9L32/44CR generator set"
+    }
+  ],
+  "applications": [
+    "Power crane vessels and DP thrusters"
+  ],
+  "standards": [],
+  "equipment": [
+    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati",
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast",
+    "ins-float-over-topside-installation-barge-float-over-tidal-float-o",
+    "ins-leg-mating-units-lmu-elastomeric-shock-absorbers"
+  ],
+  "suppliers": [
+    "everllence",
+    "wartsila",
+    "rolls-royce-power-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+      "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+      "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

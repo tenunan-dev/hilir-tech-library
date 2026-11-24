@@ -1,0 +1,71 @@
+{
+  "id": "top-flng-topsides-and-turrets",
+  "name": "FLNG topsides and turrets",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Floating LNG facility topsides consolidate gas pretreatment, liquefaction, fractionation, utilities, accommodation, flare and offtake on a ship-shaped hull; turret mooring enables weathervaning and fluid/power transfer.",
+  "specifications": [
+    {
+      "metric": "South China Sea FLNG side-by-side layout",
+      "unit": "layout sequence",
+      "basis": "CNOOC Research Institute recommended layout; used by Prelude in benign environments",
+      "source": {
+        "url": "https://html.rhhz.net/jckxjsgw/html/51228.htm",
+        "source_id": "html-rhhz-net-html-51228-htm"
+      },
+      "value": "bow-to-stern: single point - flare - pretreatment - liquefaction - offloading - power/utility - living quarter"
+    },
+    {
+      "metric": "South China Sea FLNG tandem layout",
+      "unit": "layout sequence",
+      "basis": "recommended for harsh environments / small FLNG in South China Sea",
+      "source": {
+        "url": "https://html.rhhz.net/jckxjsgw/html/51228.htm",
+        "source_id": "html-rhhz-net-html-51228-htm"
+      },
+      "value": "bow-to-stern: living quarter - offloading - single point - power/utility - pretreatment - flare - liquefaction - tandem offloading"
+    },
+    {
+      "metric": "FLNG side-by-side offloading sea state limit",
+      "unit": "m Hs",
+      "basis": "side-by-side offloading requires Hs <2.5 m",
+      "source": {
+        "url": "https://html.rhhz.net/jckxjsgw/html/51228.htm",
+        "source_id": "html-rhhz-net-html-51228-htm"
+      },
+      "value": 2.5
+    },
+    {
+      "metric": "FLNG tandem offloading sea state limit",
+      "unit": "m Hs",
+      "basis": "tandem offloading can operate at Hs <5.5 m",
+      "source": {
+        "url": "https://html.rhhz.net/jckxjsgw/html/51228.htm",
+        "source_id": "html-rhhz-net-html-51228-htm"
+      },
+      "value": 5.5
+    }
+  ],
+  "vendors": [
+    "babcock-international",
+    "cnooc-research-institute"
+  ],
+  "sources": [
+    {
+      "url": "https://html.rhhz.net/jckxjsgw/html/51228.htm",
+      "source_id": "html-rhhz-net-html-51228-htm"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Floating LNG facility topsides consolidate gas pretreatment, liquefaction, fractionation, utilities, accommodation, flare and offtake on a ship-shaped hull; tur"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

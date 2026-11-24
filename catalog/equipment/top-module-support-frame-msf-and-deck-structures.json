@@ -1,0 +1,82 @@
+{
+  "id": "top-module-support-frame-msf-and-deck-structures",
+  "name": "Module Support Frame",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "A space frame that supports modules and transfers their loads to the jacket/tower substructure; may also house storage tanks, pig launchers/receivers, metering devices and piping. Provides the structural skeleton for integrated or modular decks.",
+  "specifications": [
+    {
+      "metric": "truss vs portal frame longitudinal rows",
+      "unit": "rows",
+      "basis": "20-25 m wide deck: trusses at centreline and both outer walls; portal frames in 2 rows ~14-16 m apart",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "low": 2,
+      "high": 3
+    },
+    {
+      "metric": "portal frame row spacing",
+      "unit": "m",
+      "basis": "allowing floor cantilevers of approximately 5 m",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "low": 14,
+      "high": 16
+    },
+    {
+      "metric": "conventional steel floor share of deck steel weight",
+      "unit": "% (approximately)",
+      "basis": "conventional steel floor contributes about half the steel structure weight of an offshore deck",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": 50
+    },
+    {
+      "metric": "GBS topside steel yield stress",
+      "unit": "MPa",
+      "basis": "high strength steel commonly used at present; trend to 420-460 MPa",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": 355
+    },
+    {
+      "metric": "typical production deck spans",
+      "unit": "m",
+      "basis": "typical floor design dimensions",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": "floor plate 1 m; stringer 5 m; deck beam 15 m; main structure 15 m"
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "A space frame that supports modules and transfers their loads to the jacket/tower substructure; may also house storage tanks, pig launchers/receivers, metering "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

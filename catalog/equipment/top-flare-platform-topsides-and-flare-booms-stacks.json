@@ -1,0 +1,40 @@
+{
+  "id": "top-flare-platform-topsides-and-flare-booms-stacks",
+  "name": "Flare platform topsides and flare booms/stacks",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Vent and flare structures discharge and burn gaseous products; placed outside hazardous areas and away from the helideck, with tip elevation above the helideck and heat radiation checked.",
+  "specifications": [
+    {
+      "metric": "flare tip elevation above helideck",
+      "unit": "ft minimum",
+      "basis": "vent and flare tip shall exceed helideck elevation by at least 100 ft; heat radiation to be checked",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": 100
+    }
+  ],
+  "vendors": [
+    "worley"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Vent and flare structures discharge and burn gaseous products; placed outside hazardous areas and away from the helideck, with tip elevation above the helideck "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

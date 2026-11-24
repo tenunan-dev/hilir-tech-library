@@ -1,0 +1,38 @@
+{
+  "id": "top-self-installing-topsides",
+  "name": "Self-installing topsides",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Topsides installed without a heavy-lift crane vessel, using self-contained jacking/lifting systems, skidding or the support structure's own buoyancy; reduces dependence on scarce heavy-lift tonnage.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Topsides installed without a heavy-lift crane vessel, using self-contained jacking/lifting systems, skidding or the support structure's own buoyancy; reduces dependence on scarce heavy-lift tonnage.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "kiewit"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Topsides installed without a heavy-lift crane vessel, using self-contained jacking/lifting systems, skidding or the support structure's own buoyancy; reduces de"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

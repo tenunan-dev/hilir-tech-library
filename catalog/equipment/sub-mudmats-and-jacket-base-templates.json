@@ -1,0 +1,38 @@
+{
+  "id": "sub-mudmats-and-jacket-base-templates",
+  "name": "Mudmats and jacket base templates",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Distribute jacket base load over weak seabed during installation and before piling; templates guide piles and drill slots.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Distribute jacket base load over weak seabed during installation and before piling; templates guide piles and drill slots.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Distribute jacket base load over weak seabed during installation and before piling; templates guide piles and drill slots."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-brent-alpha-jacket-removal",
+  "name": "Brent Alpha jacket removal",
+  "country": "UK North Sea",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "10,100 t jacket removed by Sleipnir in 2020 — Heerema states world record for largest single-lift jacket removal.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal",
+      "source_id": "heerema-com-offshore-decommissioning-jacket-and-topside-removal"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

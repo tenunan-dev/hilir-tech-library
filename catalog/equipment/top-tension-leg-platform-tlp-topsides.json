@@ -1,0 +1,126 @@
+{
+  "id": "top-tension-leg-platform-tlp-topsides",
+  "name": "Tension leg platform",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Topside carried on a column-stabilised buoyant hull held by tensioned tendons; supports drilling, production and accommodation. Enables surface BOP/wellhead access but adds drilling-package weight, riser tension and motion design constraints.",
+  "specifications": [
+    {
+      "metric": "Hutton TLP topsides weight",
+      "unit": "Te",
+      "basis": "largest integrated deck built at Ardersier; client Conoco, 1984",
+      "source": {
+        "url": "https://mcdermottscotlandheritage.com/project/hutton-1984",
+        "source_id": "mcdermottscotlandheritage-com-project-hutton-1984"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Hutton TLP water depth",
+      "unit": "m",
+      "basis": "installation depth in Hutton Field; production 1984-2001",
+      "source": {
+        "url": "https://mcdermottscotlandheritage.com/project/hutton-1984",
+        "source_id": "mcdermottscotlandheritage-com-project-hutton-1984"
+      },
+      "value": 143
+    },
+    {
+      "metric": "Olympus TLP displacement",
+      "unit": "tons",
+      "basis": "largest Shell TLP in US GOM; more than twice displacement of neighbouring Mars TLP",
+      "source": {
+        "url": "https://jpt.spe.org/shell-deploys-next-generation-tlp-extended-field-development-gom",
+        "source_id": "jpt-spe-org-jpt-spe-org-shell-deploys-next-generation-tlp-extended"
+      },
+      "value": 126000
+    },
+    {
+      "metric": "Olympus TLP deck area",
+      "unit": "ft2",
+      "basis": "accommodates 100,000 BOEPD processing capacity and up to 192 crew",
+      "source": {
+        "url": "https://jpt.spe.org/shell-deploys-next-generation-tlp-extended-field-development-gom",
+        "source_id": "jpt-spe-org-jpt-spe-org-shell-deploys-next-generation-tlp-extended"
+      },
+      "value": 342000
+    },
+    {
+      "metric": "Kizomba A TLP overall platform weight",
+      "unit": "tonnes",
+      "basis": "100-man living quarters, two 6,000 t topsides modules, 7,500 t drilling rig, two support modules, 36 well slots",
+      "source": {
+        "url": "https://qa-site.mcdermott.com/projects/kizomba-tension-leg-platform",
+        "source_id": "qa-site-mcdermott-com-projects-kizomba-tension-leg-platform"
+      },
+      "value": 35000
+    },
+    {
+      "metric": "full drilling package deepwater TLP typical weight",
+      "unit": "tons",
+      "basis": "depends on topside concept and site conditions",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning",
+        "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
+      },
+      "low": 4000,
+      "high": 6000
+    },
+    {
+      "metric": "skidable North Sea drilling rig dry weight",
+      "unit": "tons",
+      "basis": "operating weight 4,000-6,000 t with variable loads",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning",
+        "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
+      },
+      "low": 2000,
+      "high": 3000
+    },
+    {
+      "metric": "mud and drilling supply facilities weight",
+      "unit": "tons",
+      "basis": "lower figure typical integrated topside, upper figure separate module; module operating weight up to 8,000 t with pipe rack",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning",
+        "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
+      },
+      "low": 2000,
+      "high": 4000
+    }
+  ],
+  "vendors": [
+    "mcdermott",
+    "sbm-atlantia-sofec"
+  ],
+  "sources": [
+    {
+      "url": "https://mcdermottscotlandheritage.com/project/hutton-1984",
+      "source_id": "mcdermottscotlandheritage-com-project-hutton-1984"
+    },
+    {
+      "url": "https://jpt.spe.org/shell-deploys-next-generation-tlp-extended-field-development-gom",
+      "source_id": "jpt-spe-org-jpt-spe-org-shell-deploys-next-generation-tlp-extended"
+    },
+    {
+      "url": "https://qa-site.mcdermott.com/projects/kizomba-tension-leg-platform",
+      "source_id": "qa-site-mcdermott-com-projects-kizomba-tension-leg-platform"
+    },
+    {
+      "url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning",
+      "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Topside carried on a column-stabilised buoyant hull held by tensioned tendons; supports drilling, production and accommodation. Enables surface BOP/wellhead acc"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

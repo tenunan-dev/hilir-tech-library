@@ -422,7 +422,7 @@ flowchart LR
     PROC --> STORE
 ```
 
-**Key equipment:** hull, turret and mooring, topsides process, storage tanks, offloading system.
+**Key equipment:** hull, turret and mooring, topsides process, storage tanks, offloading system, ship-shaped FPSO, semi-submersible production platform, SPAR production platform, TLP production topsides, FLNG, turret mooring.
 
 **Performance:**
 - oil FPSOs in service: 270 units (over); 2019 figure cited by Wikipedia. [source](https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading)
@@ -438,7 +438,7 @@ flowchart LR
 **Missing inputs:**
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched FPSO, floating production, floating storage, turret); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading), [2](https://en.wikipedia.org/wiki/Oil_platform), [3](https://www.oedigital.com/news/493811-pttep-awards-long-term-charter-extension-for-fpso-kikeh). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading), [2](https://en.wikipedia.org/wiki/Oil_platform), [3](https://www.oedigital.com/news/493811-pttep-awards-long-term-charter-extension-for-fpso-kikeh). Last reviewed 2026-11-24.
 
 ## Fixed jackets and gravity-based structures
 <a id="ups-fixed-jackets-gravity-structures"></a>

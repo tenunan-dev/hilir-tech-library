@@ -1,0 +1,24 @@
+{
+  "id": "vulcan-iron-works",
+  "name": "Vulcan Iron Works",
+  "country": "—",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "categories": [
+    "fabrication"
+  ],
+  "description": "Vulcan Iron Works is named as a provider on a page read during the platform installation sweep.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+      "source_id": "iqip-com-hydrohammer-s-series"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 platform sweep."
+}

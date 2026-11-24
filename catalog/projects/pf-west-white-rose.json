@@ -1,0 +1,25 @@
+{
+  "id": "pf-west-white-rose",
+  "name": "West White Rose",
+  "country": "Canada",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Wellhead platform on concrete gravity structure, 20 slots / 40 wells with conductor sharing, 25-year design life",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/white-rose-expansion/",
+      "source_id": "offshore-technology-com-white-rose-expansion"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

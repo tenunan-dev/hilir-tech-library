@@ -1,0 +1,25 @@
+{
+  "id": "pf-noble-lloyd-noble",
+  "name": "Noble Lloyd Noble",
+  "country": "USA",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Tallest jackup built, 214 m legs, completed 2016",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Jackup_rig",
+      "source_id": "en-wikipedia-org-wiki-jackup-rig"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

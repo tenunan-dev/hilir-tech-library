@@ -1,0 +1,26 @@
+{
+  "id": "pf-red-hawk-spar",
+  "name": "Red Hawk spar",
+  "country": "United States",
+  "location": "Gulf of Mexico",
+  "status": "under-construction",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "substructure_type: Cell spar — first and, as of 2010, only cell spar (rare type) | topside_type: Not stated on page read | water_depth: Not stated on page read | topside_weight: Not stated on page read | installation_method: Multiple vertical cylinders (cell spar configuration) | contractor: Not stated on page read | dates: As of 2010, only cell spar (per page read)",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "notes": "secondary source Historical",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-yme-mopu-removal-maiden-heavy-lift",
+  "name": "Yme MOPU removal (maiden heavy lift)",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "13,500 t MOPU single-lift removal Aug 2016; first commercial lift.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+      "source_id": "allseas-com-our-fleet-pioneering-spirit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

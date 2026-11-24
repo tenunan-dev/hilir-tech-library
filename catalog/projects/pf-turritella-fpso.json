@@ -1,0 +1,26 @@
+{
+  "id": "pf-turritella-fpso",
+  "name": "Turritella FPSO",
+  "country": "United States",
+  "location": "Gulf of Mexico, Walker Ridge",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "substructure_type: FPSO (floating production storage and offloading) | topside_type: Not stated on page read | water_depth: 2,900 m (9,514 ft) — deepest FPSO in type table | topside_weight: Not stated on page read | installation_method: Not stated on page read | contractor: Not stated on page read | dates: 2016 (type table)",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "notes": "secondary source Historical/operating at time of table",
+  "last_reviewed": "2026-11-24"
+}

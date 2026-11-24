@@ -1,0 +1,71 @@
+{
+  "id": "iqip-hydrohammer-s-series-s-30-to-s-2000",
+  "name": "Hydrohammer S-series (S-30 to S-2000)",
+  "manufacturer": "iqip",
+  "product_type": "ins-platform",
+  "equipment": [
+    "ins-impact-pile-driving-hammers-hydraulic-diesel-underwater"
+  ],
+  "description": "Vendor product line read 2026-11-24. Hydraulic single-acting with gas-accelerated ram; table of 9 models printed.",
+  "specifications": [
+    {
+      "metric": "Energy range",
+      "unit": "kJ",
+      "basis": "",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": "30-2,000"
+    },
+    {
+      "metric": "S-2000 max blow energy",
+      "unit": "kJ",
+      "basis": "",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "S-2000 blow rate",
+      "unit": "bl/min",
+      "basis": "",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": 35
+    },
+    {
+      "metric": "S-2000 hammer weight",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": 230
+    },
+    {
+      "metric": "Operating angle",
+      "unit": "degrees",
+      "basis": "",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": "0-90"
+    }
+  ],
+  "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+  "sources": [
+    {
+      "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+      "source_id": "iqip-com-hydrohammer-s-series"
+    }
+  ],
+  "notes": "Hydraulic single-acting with gas-accelerated ram; table of 9 models printed.",
+  "last_reviewed": "2026-11-24"
+}

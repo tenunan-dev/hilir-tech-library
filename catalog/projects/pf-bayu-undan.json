@@ -1,0 +1,25 @@
+{
+  "id": "pf-bayu-undan",
+  "name": "Bayu Undan",
+  "country": "Australia (Timor Sea)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "jacket opening sized for Dockwise floatover vessel",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

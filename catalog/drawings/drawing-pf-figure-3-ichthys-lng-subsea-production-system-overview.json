@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-figure-3-ichthys-lng-subsea-production-system-overview",
+  "title": "Figure 3: Ichthys LNG subsea production system overview",
+  "diagram_type": "schematic",
+  "description": "Umbilicals and flexible risers, mooring chains, GEP, riser support structure, drill centres (wellheads and collection manifold), flowline and umbilical, FPSO, offtake tanker, gas export pipeline | Figures: Figure 3 (factsheet page 2)",
+  "publisher": "INPEX Ichthys Pty Ltd / NOPSEMA",
+  "url": "https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf",
+  "licence": "Publisher/regulator document; cite document and figure number.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf",
+      "source_id": "inpex-com-au-rbmjbgrj-ichthys-offshore-facilities-operation-ep-fac"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. curl + pypdf text extraction — Figure 3 caption confirmed on page 2",
+  "last_reviewed": "2026-11-24"
+}

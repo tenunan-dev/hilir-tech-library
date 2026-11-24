@@ -1,0 +1,25 @@
+{
+  "id": "pf-wheatstone-lng-36-000-t-and-arkutun-dagi-42-380-t",
+  "name": "Wheatstone LNG (36,000 t) and Arkutun Dagi (42,380 t)",
+  "country": "Australia / Azerbaijan (Caspian)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Single-lift topsides installs with H 851, cited as heavier than Johan Sverdrup P1.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+      "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

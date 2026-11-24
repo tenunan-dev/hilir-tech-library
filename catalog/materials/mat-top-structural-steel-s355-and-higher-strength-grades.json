@@ -1,0 +1,74 @@
+{
+  "id": "mat-top-structural-steel-s355-and-higher-strength-grades",
+  "name": "Structural steel",
+  "material_category": "structural",
+  "description": "Primary deck/truss/MSF structure, floors, supports and secondary steel; major contributor to topsides dry weight.",
+  "specifications": [
+    {
+      "metric": "GBS topside commonly used steel yield",
+      "unit": "MPa",
+      "basis": "high strength steel at present; trend to 420-460 MPa",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": 355
+    },
+    {
+      "metric": "deck beam sections",
+      "unit": "section designation",
+      "basis": "deck beams supporting floor panels or direct major equipment",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": "HE 800-1000; HL 1000 (400 mm wide); HX 1000 (450 mm wide)"
+    },
+    {
+      "metric": "lower flange thickness of main structure",
+      "unit": "mm",
+      "basis": "typical in stacked floor concept; web 20-25 mm",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": 40
+    },
+    {
+      "metric": "structural steel share of topsides dry weight",
+      "unit": "% (approximately)",
+      "basis": "cited estimate",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 50
+    }
+  ],
+  "applications": [
+    "Primary deck/truss/MSF structure, floors, supports and secondary steel; major contributor to topsides dry weight."
+  ],
+  "standards": [],
+  "equipment": [
+    "top-offshore-topsides-definition-function-and-structural-scope",
+    "top-integrated-single-lift-topsides",
+    "top-modular-multi-module-topsides",
+    "top-module-support-frame-msf-and-deck-structures"
+  ],
+  "suppliers": [
+    "cooec-cnooc-engineering"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+    },
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

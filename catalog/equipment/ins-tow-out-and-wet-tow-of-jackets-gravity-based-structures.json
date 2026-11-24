@@ -1,0 +1,90 @@
+{
+  "id": "ins-tow-out-and-wet-tow-of-jackets-gravity-based-structures",
+  "name": "Tow-out and wet tow of jackets / gravity-based structures",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Transport launched or floated substructures from fabrication yard to site with tug boats; use controlled ballasting for self-installing GBS; DP-assisted positioning for final placement.",
+  "specifications": [
+    {
+      "metric": "Steel GBS installation method",
+      "unit": "description",
+      "basis": "Wikipedia Oil platform, Gravity-based structure",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": "pulled off yard by wet-tow and/or dry-tow; self-installs by controlled ballasting of compartments with seawater"
+    },
+    {
+      "metric": "Steel GBS use case",
+      "unit": "description",
+      "basis": "Wikipedia Oil platform, Gravity-based structure",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": "predominantly where no or limited crane barges available (e.g. Caspian Sea)"
+    },
+    {
+      "metric": "Heerema AHTS bollard pull",
+      "unit": "metric tons bollard pull",
+      "basis": "Heerema fleet page: both tugs 72 m long, 18 m wide",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": "200 t (Bylgia) and 212 t (Kolga)"
+    },
+    {
+      "metric": "Semi-sub heavy transport speed advantage",
+      "unit": "ratio",
+      "basis": "Wikipedia Heavy-lift ship, Semi-submersible ships",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Heavy-lift_ship",
+        "source_id": "en-wikipedia-org-wiki-heavy-lift-ship"
+      },
+      "value": "roughly 3 to 4 times the speed of a self-deploying rig"
+    },
+    {
+      "metric": "Example heavy transport: Thunder Horse PDQ",
+      "unit": "event",
+      "basis": "Wikipedia Heavy-lift ship, Incidents/Examples (Blue Marlin, DSME South Korea to Kiewit, Ingleside Texas)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Heavy-lift_ship",
+        "source_id": "en-wikipedia-org-wiki-heavy-lift-ship"
+      },
+      "value": "world's largest semi-submersible oil platform (at the time), transported 2004"
+    }
+  ],
+  "vendors": [
+    "heerema-marine-contractors",
+    "boskalis-dockwise-heritage",
+    "cosco-shipping"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    },
+    {
+      "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+      "source_id": "heerema-com-heerema-marine-contractors-fleet"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Heavy-lift_ship",
+      "source_id": "en-wikipedia-org-wiki-heavy-lift-ship"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Transport launched or floated substructures from fabrication yard to site with tug boats; use controlled ballasting for self-installing GBS; DP-assisted positio"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

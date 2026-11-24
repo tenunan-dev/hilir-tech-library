@@ -1,0 +1,38 @@
+{
+  "id": "mat-top-aluminium",
+  "name": "Aluminium",
+  "material_category": "structural-non-ferrous",
+  "description": "Lightweight living-quarter structures and cable tray material; corrosion resistance and weight reduction.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Lightweight living-quarter structures and cable tray material; corrosion resistance and weight reduction.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Lightweight living-quarter structures and cable tray material; corrosion resistance and weight reduction."
+  ],
+  "standards": [],
+  "equipment": [
+    "top-offshore-topsides-definition-function-and-structural-scope",
+    "top-integrated-single-lift-topsides",
+    "top-modular-multi-module-topsides",
+    "top-module-support-frame-msf-and-deck-structures"
+  ],
+  "suppliers": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

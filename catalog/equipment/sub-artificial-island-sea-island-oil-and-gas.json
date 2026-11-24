@@ -1,0 +1,64 @@
+{
+  "id": "sub-artificial-island-sea-island-oil-and-gas",
+  "name": "Artificial island / sea island",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Constructed landmass or caisson-supported island providing a land-like drilling and production site in shallow water.",
+  "specifications": [
+    {
+      "metric": "maximum feasible water depth",
+      "unit": "m",
+      "basis": "Wikipedia Artificial Island: technological advancements make it feasible to build artificial islands in waters as deep as 75 m; wave size and structural integrity determine maximum depth",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Artificial_island",
+        "source_id": "en-wikipedia-org-wiki-artificial-island"
+      },
+      "value": 75
+    },
+    {
+      "metric": "Ekofisk Tank sea-island form",
+      "unit": "description",
+      "basis": "Wikipedia Offshore concrete structure, C G DORIS type and table row 1",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": "C G Doris platform shaped like a marine sea island, surrounded by perforated breakwater wall (Jarlan patent); 71 m North Sea, 1973"
+    },
+    {
+      "metric": "legal status",
+      "unit": "description",
+      "basis": "Wikipedia Artificial Island, Legal status",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Artificial_island",
+        "source_id": "en-wikipedia-org-wiki-artificial-island"
+      },
+      "value": "Under UNCLOS not harbour works (Art 11); no own territorial sea/EEZ; only coastal state may authorise within 200 nm (Art 56, 60); on high seas any state may construct (Art 87)"
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Artificial_island",
+      "source_id": "en-wikipedia-org-wiki-artificial-island"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Constructed landmass or caisson-supported island providing a land-like drilling and production site in shallow water."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

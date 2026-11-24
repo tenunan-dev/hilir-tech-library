@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-api-rp-14c-8th-edition-offshore-production-facility-safety-flow-chart",
+  "title": "API RP 14C 8th edition — Offshore Production Facility Safety Flow Chart and safety-system scope figures",
+  "diagram_type": "schematic",
+  "description": "Boundary between topside (API 14C) and subsea (API 17V) safety systems: DHSV/SSSV, SCSSV, BSDV, SDV, production tree, manifold, umbilicals, flying leads, SCU, HPU, EPU, PSS; offshore production facility safety flow chart | Figures: Figure 1 Scope of API 14C vs API 17V; Figure 2 Examples of Safety Device Identification; Figure 3 Offshore Production Facility Safety Flow Chart; Annex figures cover dry-tree wellhead flowlines and SAFE/cause-and-effect logic",
+  "publisher": "American Petroleum Institute, API RP 14C 8th edition (2017); preview hosted by stdhive.com",
+  "url": "https://www.stdhive.com/pdf_preview/api-rp-14c-pdf",
+  "licence": "API standard (copyright); preview only. Cite standard clause/figure. Do not reproduce without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.stdhive.com/pdf_preview/api-rp-14c-pdf",
+      "source_id": "stdhive-com-pdf-preview-api-rp-14c-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. Curated hilir-techlib drawing record (figure list); URL not independently fetched in this session — verify before use",
+  "last_reviewed": "2026-11-24"
+}

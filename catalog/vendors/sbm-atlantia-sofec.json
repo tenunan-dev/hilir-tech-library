@@ -1,0 +1,24 @@
+{
+  "id": "sbm-atlantia-sofec",
+  "name": "SBM Atlantia / SOFEC",
+  "country": "—",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "categories": [
+    "fabrication"
+  ],
+  "description": "SBM Atlantia / SOFEC is named as a provider on a page read during the platform installation sweep.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://mcdermottscotlandheritage.com/project/hutton-1984",
+      "source_id": "mcdermottscotlandheritage-com-project-hutton-1984"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 platform sweep."
+}

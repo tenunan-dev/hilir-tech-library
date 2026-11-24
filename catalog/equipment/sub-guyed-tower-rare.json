@@ -1,0 +1,40 @@
+{
+  "id": "sub-guyed-tower-rare",
+  "name": "Guyed tower",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Compliant tower stabilised by inclined guy lines and anchors rather than relying solely on pile fixity; reduces base moment in deep water.",
+  "specifications": [
+    {
+      "metric": "first tower",
+      "unit": "description",
+      "basis": "Wikipedia Compliant tower",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Compliant_tower",
+        "source_id": "en-wikipedia-org-wiki-compliant-tower"
+      },
+      "value": "Exxon's Lena oil platform, early 1980s"
+    }
+  ],
+  "vendors": [
+    "brown-root"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Compliant_tower",
+      "source_id": "en-wikipedia-org-wiki-compliant-tower"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Compliant tower stabilised by inclined guy lines and anchors rather than relying solely on pile fixity; reduces base moment in deep water."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

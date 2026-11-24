@@ -1,0 +1,32 @@
+{
+  "id": "heerema-com-heerema-marine-contractors-fleet",
+  "name": "Heerema Marine Contractors — Sleipnir tandem lifting capacity",
+  "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Heerema Marine Contractors",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Heerema fleet page: pair of revolving cranes can lift 20,000 metric tons Evidence: https://www.heerema.com/heerema-marine-contractors/fleet"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "top-float-over-topsides",
+  "name": "Float-over topsides",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Fully integrated and pre-commissioned deck transported on a barge, floated over the substructure and lowered by ballasting or quick-drop mechanisms (or by deballasting a floating substructure). Avoids heavy-lift crane capacity limits.",
+  "specifications": [
+    {
+      "metric": "AMP1 floatover installation vessel",
+      "unit": "vessel",
+      "basis": "11,970 t integrated topsides installed by floatover",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": "Dockwise Mighty Servant 3"
+    },
+    {
+      "metric": "floatover jacket load path",
+      "unit": "legs",
+      "basis": "jacket designed for floatover transfer of topsides weight directly to four leg rows with added bracing",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": "four legs instead of eight"
+    }
+  ],
+  "vendors": [
+    "cooec-cnooc-engineering"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Fully integrated and pre-commissioned deck transported on a barge, floated over the substructure and lowered by ballasting or quick-drop mechanisms (or by debal"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

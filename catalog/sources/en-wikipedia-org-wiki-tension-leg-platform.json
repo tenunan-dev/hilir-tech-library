@@ -1,0 +1,32 @@
+{
+  "id": "en-wikipedia-org-wiki-tension-leg-platform",
+  "name": "Wikipedia — preferred water depth range",
+  "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Wikipedia",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Wikipedia Tension-leg platform: particularly suited to water depths greater than 300 m and less than 1,500 m; proposed for offshore wind Evidence: https://en.wikipedia.org/wiki/Tension-leg_platform"
+}

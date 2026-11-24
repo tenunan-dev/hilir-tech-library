@@ -1,0 +1,70 @@
+{
+  "id": "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+  "name": "Floating concrete structures",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Concrete hulls used where corrosion resistance, low maintenance and heavy topside capacity are valuable.",
+  "specifications": [
+    {
+      "metric": "only concrete semi-submersible",
+      "unit": "platform",
+      "basis": "Wikipedia Offshore concrete structure: 'The only concrete semi-submersible in existence is Troll B'; table lists Troll B, 325 m depth, 1995",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": "Troll B"
+    },
+    {
+      "metric": "only concrete TLP hull",
+      "unit": "platform",
+      "basis": "Wikipedia Offshore concrete structure: Statoil's Heidrun TLP is the only one with a concrete hull; table lists 350 m depth, 1994/1995",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": "Heidrun TLP"
+    },
+    {
+      "metric": "first prestressed concrete barge",
+      "unit": "description",
+      "basis": "Wikipedia Offshore concrete structure: major structures table row 2 and Floating structures/Barge-Ship Design section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": "Ardjuna Field LPG barge, Indonesia, 43 m, 1974"
+    },
+    {
+      "metric": "concrete LNG terminal",
+      "unit": "description",
+      "basis": "Wikipedia Offshore concrete structure table row 49",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": "Adriatic LNG terminal, 29 m, 2008"
+    }
+  ],
+  "vendors": [
+    "doris"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Concrete hulls used where corrosion resistance, low maintenance and heavy topside capacity are valuable."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

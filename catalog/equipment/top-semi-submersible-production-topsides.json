@@ -1,0 +1,38 @@
+{
+  "id": "top-semi-submersible-production-topsides",
+  "name": "Semi-submersible production topsides",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Topsides placed on column-stabilised floating hulls held by catenary moorings; can be integrated and commissioned at dock, with installation method (heavy lift, jacking, float-over, multiple lifts) strongly affecting selection.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Topsides placed on column-stabilised floating hulls held by catenary moorings; can be integrated and commissioned at dock, with installation method (heavy lift, jacking, float-over, multiple lifts) strongly affecting selection.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Topsides placed on column-stabilised floating hulls held by catenary moorings; can be integrated and commissioned at dock, with installation method (heavy lift,"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

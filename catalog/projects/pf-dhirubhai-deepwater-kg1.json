@@ -1,0 +1,25 @@
+{
+  "id": "pf-dhirubhai-deepwater-kg1",
+  "name": "Dhirubhai Deepwater KG1",
+  "country": "India",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "3,107 m water-depth record in 2011 for Reliance",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Drillship",
+      "source_id": "en-wikipedia-org-wiki-drillship"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-kbm-cluster-kapal-banang-meranti",
+  "name": "KBM Cluster (Kapal, Banang, Meranti)",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "MOPU processing at 60 m water depth, 25,000 bpd water treatment",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/kbm-cluster-fields-development/",
+      "source_id": "offshore-technology-com-kbm-cluster-fields-development"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

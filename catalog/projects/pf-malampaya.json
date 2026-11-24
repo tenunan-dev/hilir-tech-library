@@ -1,0 +1,25 @@
+{
+  "id": "pf-malampaya",
+  "name": "Malampaya",
+  "country": "Philippines",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "112 x 70 x 16 m CGS, 43 m water depth, 13,000 t topsides",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/malampaya",
+      "source_id": "offshore-technology-com-projects-malampaya"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

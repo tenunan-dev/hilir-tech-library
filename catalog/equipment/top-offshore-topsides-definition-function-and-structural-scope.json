@@ -1,0 +1,149 @@
+{
+  "id": "top-offshore-topsides-definition-function-and-structural-scope",
+  "name": "Offshore topsides",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "The above-water steel structure, consisting of one or more decks, that holds all facilities for exploration/production and human activity; it is designed and fabricated separately from the substructure and integrated inshore or offshore. Its three common design elements are: hold all equipment needed for operations, provide a safe and sustainable healthy living environment, and optimise dimensions and weight.",
+  "specifications": [
+    {
+      "metric": "definition",
+      "unit": "n/a",
+      "basis": "book chapter definition; topsides and deck often used interchangeably",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": "steel structure consisting of more than one deck holding facilities for exploration/production and human activities"
+    },
+    {
+      "metric": "inter-deck vertical distance",
+      "unit": "m",
+      "basis": "vertical distance between topside decks, North Sea practice",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "low": 6,
+      "high": 9
+    },
+    {
+      "metric": "cellar deck air gap above design wave crest",
+      "unit": "m minimum",
+      "basis": "max elevation of design wave crest including tide and storm sway plus minimum 1.5 m air gap",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": 1.5
+    },
+    {
+      "metric": "heavy deck threshold requiring MSF",
+      "unit": "tons",
+      "basis": "decks over 10,000 t are provided with a module support frame onto which modules are placed",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "weight prognosis uncertainty surcharge",
+      "unit": "%",
+      "basis": "conceptual design phase surcharge, reducing to +5% at final fabrication phase",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "high": 30
+    },
+    {
+      "metric": "main deck live load",
+      "unit": "kN/m2",
+      "basis": "generally accepted figure for main decks; API-RP2A does not specify live loads",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": 20
+    },
+    {
+      "metric": "concentrated deck live load",
+      "unit": "kN on 0.3 x 0.3 m area",
+      "basis": "generally accepted figures for main decks",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "low": 10,
+      "high": 25
+    },
+    {
+      "metric": "floor plate thickness",
+      "unit": "mm",
+      "basis": "chequered or flat steel plate; usually 8-10 mm, 6 mm for lighter loaded floors",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "low": 6,
+      "high": 10
+    },
+    {
+      "metric": "stringer centres",
+      "unit": "mm",
+      "basis": "hot rolled beams typical spacing; IPE 240-270 / HE 240-280A at ~1 m centres spanning 5 m",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "low": 1000,
+      "high": 1200
+    },
+    {
+      "metric": "jacket transverse column spacing",
+      "unit": "m",
+      "basis": "Dutch sector North Sea: 9 m wellhead platform to 15 m production platform; longitudinal ~15 m",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "low": 9,
+      "high": 15
+    },
+    {
+      "metric": "deck beam section",
+      "unit": "section designation",
+      "basis": "deck beams supporting floor panels or major equipment",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+      },
+      "value": "HE 800-1000 (or HL 1000 400 mm wide / HX 1000 450 mm wide)"
+    }
+  ],
+  "vendors": [
+    "aker-solutions"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    },
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "The above-water steel structure, consisting of one or more decks, that holds all facilities for exploration/production and human activity; it is designed and fa"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

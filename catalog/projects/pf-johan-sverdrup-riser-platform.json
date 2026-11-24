@@ -1,0 +1,25 @@
+{
+  "id": "pf-johan-sverdrup-riser-platform",
+  "name": "Johan Sverdrup riser platform",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "5,000 t additional module delivered 2021 and lifted by Sleipnir",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://news.cision.com/aker-solutions-asa/r/aker-solutions-delivers-large-johan-sverdrup-module,c3380312",
+      "source_id": "news-cision-com-r-aker-solutions-delivers-large-johan-sverdrup-mod"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

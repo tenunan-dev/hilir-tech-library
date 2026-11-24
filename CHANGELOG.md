@@ -8,6 +8,30 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.24.8] — 2026-11-24 — All platform substructures, topsides and installation technologies
+
+Owner-directed study of every platform substructure and topside type (small/big, common/rare) and every
+installation method with its providers, added across all catalog categories.
+
+### Added
+- **72 equipment records** covering fixed steel jackets/minimal/wellhead caissons, concrete GBS/Condeep,
+  semi-subs, spars (classic/truss/cell), TLP/mini-TLP/TLWP, FPSO/FSO/FLNG, jack-ups/drillships, barges and
+  pontoons, and rare types (compliant/guyed/articulated towers, Arctic caissons, artificial islands, FOWT
+  floaters); topside types from UWHP to 35,000 t integrated TLP decks; and 22 installation methods.
+- **29 materials, 131 sources, 70 vendors, 26 product lines, 134 named projects, 28 drawing pointers.**
+  Four platform/FPSO/wind cards extended. Evidence includes Heerema, Allseas, Mammoet, Trelleborg LMU,
+  TheNavalArch jacket launching, IQIP/MENCK hammers, DNV, Offshore Technology and project case studies.
+
+### Verification
+`tools/build.py` 1,382 sources / 392 cards / 864 vendors / 326 equipment / 605 projects / 216 products /
+182 drawings / 87 materials; `pytest -q tests` **2,454 passed, 13 skipped**; Neon reloaded with 7,012 nodes,
+24,997 edges and 17,246 vectors.
+
+### Gaps
+Full API/ISO texts, dedicated sources for articulated towers and Aquapod-type floaters, generic jacket/MOPU
+envelopes and dollar-dated costs were not publicly readable — recorded as gaps.
+
+
 ## [2026.11.24.7] — 2026-11-24 — Wellhead platform, topsides, subsea and export-to-shore
 
 Owner-directed expansion of the whole wellhead-to-shore system with strict page-read evidence.

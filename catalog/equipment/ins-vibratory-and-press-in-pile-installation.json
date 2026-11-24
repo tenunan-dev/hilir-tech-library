@@ -1,0 +1,75 @@
+{
+  "id": "ins-vibratory-and-press-in-pile-installation",
+  "name": "Vibratory and press-in pile installation",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Install piles rapidly with vertical vibration from counter-rotating eccentric weights (can also extract), or press piles hydraulically where vibration/noise must be minimised.",
+  "specifications": [
+    {
+      "metric": "Vibratory hammer frequency range",
+      "unit": "VPM",
+      "basis": "Wikipedia Pile driver, Vibratory pile driver/extractor",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pile_driver",
+        "source_id": "en-wikipedia-org-wiki-pile-driver"
+      },
+      "value": "1,200 to 2,400 vibrations per minute (VPM)"
+    },
+    {
+      "metric": "Vibratory hammer mechanism",
+      "unit": "description",
+      "basis": "Wikipedia Pile driver, Vibratory pile driver/extractor",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pile_driver",
+        "source_id": "en-wikipedia-org-wiki-pile-driver"
+      },
+      "value": "counter-rotating eccentric weights powered by hydraulic motors; horizontal vibrations cancel, vertical transmitted to pile"
+    },
+    {
+      "metric": "Reaction-based hydraulic press-in noise",
+      "unit": "dB at ft",
+      "basis": "Wikipedia Pile driver, Hydraulic press-in",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pile_driver",
+        "source_id": "en-wikipedia-org-wiki-pile-driver"
+      },
+      "value": "69 dB at 23 ft"
+    },
+    {
+      "metric": "Combined vibro + impact recommendation",
+      "unit": "description",
+      "basis": "IQIP S-series FAQ: 'Why combine the S-series hydrohammer with an F-series or Z-series vibro hammer?'",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": "vibro enables rapid initial penetration in suitable soils; impact hammer drives to final depth/bearing"
+    }
+  ],
+  "vendors": [
+    "iqip",
+    "junttan"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Pile_driver",
+      "source_id": "en-wikipedia-org-wiki-pile-driver"
+    },
+    {
+      "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+      "source_id": "iqip-com-hydrohammer-s-series"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Install piles rapidly with vertical vibration from counter-rotating eccentric weights (can also extract), or press piles hydraulically where vibration/noise mus"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "mat-ins-teflon-lined-skid-ways-greased-timber-launch-runners",
+  "name": "Teflon-lined skid ways / greased timber launch runners",
+  "material_category": "polymer-composite-surface",
+  "description": "Low-friction sliding surface for jacket launch from barge",
+  "specifications": [
+    {
+      "metric": "Dynamic friction coefficient (greased timber on Teflon)",
+      "unit": "dimensionless",
+      "basis": "TheNavalArch launch article, Launch constraints",
+      "source": {
+        "url": "https://thenavalarch.com/launching-steel-jackets/",
+        "source_id": "thenavalarch-com-launching-steel-jackets"
+      },
+      "value": 0.035
+    }
+  ],
+  "applications": [
+    "Low-friction sliding surface for jacket launch from barge"
+  ],
+  "standards": [],
+  "equipment": [
+    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati",
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast",
+    "ins-float-over-topside-installation-barge-float-over-tidal-float-o",
+    "ins-leg-mating-units-lmu-elastomeric-shock-absorbers"
+  ],
+  "suppliers": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://thenavalarch.com/launching-steel-jackets/",
+      "source_id": "thenavalarch-com-launching-steel-jackets"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

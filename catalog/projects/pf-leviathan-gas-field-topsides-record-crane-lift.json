@@ -1,0 +1,25 @@
+{
+  "id": "pf-leviathan-gas-field-topsides-record-crane-lift",
+  "name": "Leviathan gas field topsides (record crane lift)",
+  "country": "Israel/Mediterranean",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Sleipnir lifted 15,300 t topsides in September 2019 — record at the time.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+      "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

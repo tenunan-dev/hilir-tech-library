@@ -1,0 +1,125 @@
+{
+  "id": "top-fpso-topsides-and-turrets",
+  "name": "FPSO topsides and turrets",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Ship-shaped floating production topsides with process, utility, accommodation and offloading systems; turret mooring allows weathervaning and transfers fluids/power between subsea and topsides through a swivel.",
+  "specifications": [
+    {
+      "metric": "FPSO topsides weight vs oil capacity regression (all sample)",
+      "unit": "TW tonnes; OIL thousand bbl/d (Mbd)",
+      "basis": "TW = 113.9 + 104.7 OIL, R2=0.55, sample of 50 FPSOs",
+      "source": {
+        "url": "https://www.offshore-mag.com/deepwater/article/55330459/fpso-fleet-correlations-calculating-topsides-weight-vs-processing-capacity",
+        "source_id": "offshore-mag-com-55330459-fpso-fleet-correlations-calculating-tops"
+      },
+      "value": "{'intercept': 113.9, 'slope': 104.7}"
+    },
+    {
+      "metric": "FPSO topsides weight vs oil capacity (zero intercept)",
+      "unit": "t per Mbd",
+      "basis": "TW = 114.5 OIL, R2=0.85",
+      "source": {
+        "url": "https://www.offshore-mag.com/deepwater/article/55330459/fpso-fleet-correlations-calculating-topsides-weight-vs-processing-capacity",
+        "source_id": "offshore-mag-com-55330459-fpso-fleet-correlations-calculating-tops"
+      },
+      "value": 114.5
+    },
+    {
+      "metric": "FPSO topsides weight (gas fields removed)",
+      "unit": "TW tonnes; OIL Mbd",
+      "basis": "TW = -5506 + 145.7 OIL, R2=0.74",
+      "source": {
+        "url": "https://www.offshore-mag.com/deepwater/article/55330459/fpso-fleet-correlations-calculating-topsides-weight-vs-processing-capacity",
+        "source_id": "offshore-mag-com-55330459-fpso-fleet-correlations-calculating-tops"
+      },
+      "value": "{'intercept': -5506, 'slope': 145.7}"
+    },
+    {
+      "metric": "FPSO topsides weight vs oil+water capacity",
+      "unit": "t per Mbd liquids",
+      "basis": "TW = 45.1 LIQUIDS, R2=0.81; oil capacity alone is better descriptor",
+      "source": {
+        "url": "https://www.offshore-mag.com/deepwater/article/55330459/fpso-fleet-correlations-calculating-topsides-weight-vs-processing-capacity",
+        "source_id": "offshore-mag-com-55330459-fpso-fleet-correlations-calculating-tops"
+      },
+      "value": 45.1
+    },
+    {
+      "metric": "FPSO topsides weight vs BOE capacity",
+      "unit": "t per Mboe/d",
+      "basis": "TW = 36.7 BOE, R2=0.84",
+      "source": {
+        "url": "https://www.offshore-mag.com/deepwater/article/55330459/fpso-fleet-correlations-calculating-topsides-weight-vs-processing-capacity",
+        "source_id": "offshore-mag-com-55330459-fpso-fleet-correlations-calculating-tops"
+      },
+      "value": 36.7
+    },
+    {
+      "metric": "FPSO sample topsides weight distribution",
+      "unit": "tonnes",
+      "basis": "sample of 50 FPSOs from OTC and trade publications",
+      "source": {
+        "url": "https://www.offshore-mag.com/deepwater/article/55330459/fpso-fleet-correlations-calculating-topsides-weight-vs-processing-capacity",
+        "source_id": "offshore-mag-com-55330459-fpso-fleet-correlations-calculating-tops"
+      },
+      "value": "about 20% <5,000 t; about 10% >35,000 t"
+    },
+    {
+      "metric": "FPSO topsides weight as share of deadweight",
+      "unit": "% average (SD 4.5%)",
+      "basis": "sample of 50 FPSOs; about half between 5-10%, ~20% between 10-15%",
+      "source": {
+        "url": "https://www.offshore-mag.com/deepwater/article/55330459/fpso-fleet-correlations-calculating-topsides-weight-vs-processing-capacity",
+        "source_id": "offshore-mag-com-55330459-fpso-fleet-correlations-calculating-tops"
+      },
+      "value": 7.4
+    },
+    {
+      "metric": "FPSO conversion multi-deck vs single-deck fixed weight difference",
+      "unit": "t",
+      "basis": "DRL Engineering inferred relations: TW(m)=13,824+23.5 BOE vs TW(s)=3,530+23.5 BOE",
+      "source": {
+        "url": "https://www.offshore-mag.com/deepwater/article/55330459/fpso-fleet-correlations-calculating-topsides-weight-vs-processing-capacity",
+        "source_id": "offshore-mag-com-55330459-fpso-fleet-correlations-calculating-tops"
+      },
+      "value": 10294
+    },
+    {
+      "metric": "module support: pin vs sliding stool",
+      "unit": "n/a",
+      "basis": "sliding stools reduce hull hogging/sagging stress; one pin allows rotation but restricts translation",
+      "source": {
+        "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
+        "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
+      },
+      "value": "one pinned stool per module longitudinal frame, other stools sliding"
+    }
+  ],
+  "vendors": [
+    "sofec",
+    "sbm-offshore"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/deepwater/article/55330459/fpso-fleet-correlations-calculating-topsides-weight-vs-processing-capacity",
+      "source_id": "offshore-mag-com-55330459-fpso-fleet-correlations-calculating-tops"
+    },
+    {
+      "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
+      "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Ship-shaped floating production topsides with process, utility, accommodation and offloading systems; turret mooring allows weathervaning and transfers fluids/p"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

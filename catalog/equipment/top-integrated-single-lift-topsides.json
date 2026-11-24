@@ -1,0 +1,143 @@
+{
+  "id": "top-integrated-single-lift-topsides",
+  "name": "Integrated",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "All equipment is arranged, hooked up and commissioned onshore on one integrated deck, minimising offshore hook-up and commissioning (HUC). Single-lift topsides are integrated topsides designed specifically to reduce total weight so the whole unit can be installed by one crane lift.",
+  "specifications": [
+    {
+      "metric": "integrated topsides concept first introduced",
+      "unit": "year",
+      "basis": "North Sea gravity-based structure project",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 1973
+    },
+    {
+      "metric": "original integrated GBS deck girder depth",
+      "unit": "m",
+      "basis": "girder-type plate deck mounted on concrete towers capable of housing machinery and equipment",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "low": 7,
+      "high": 10
+    },
+    {
+      "metric": "Amenam/Kpono AMP1 integrated topsides weight",
+      "unit": "tons",
+      "basis": "three decks (weather, main, cellar) plus mezzanine; floatover installation by Dockwise Mighty Servant 3",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 11970
+    },
+    {
+      "metric": "systems installed, connected and commissioned at yard on AMP1",
+      "unit": "systems",
+      "basis": "Elf Petroleum Nigeria project",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 130
+    },
+    {
+      "metric": "Shearwater single-lift record (2000)",
+      "unit": "tons",
+      "basis": "Shell topsides lifted by Thialf; world record at the time",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 11883
+    },
+    {
+      "metric": "Sabratha single-lift record",
+      "unit": "tons",
+      "basis": "lifted by Saipem 7000; record cited as still standing in source",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 12150
+    },
+    {
+      "metric": "Thialf nominal lifting capacity",
+      "unit": "t",
+      "basis": "SSCV nominal capacity",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 14200
+    },
+    {
+      "metric": "Saipem 7000 nominal lifting capacity",
+      "unit": "t",
+      "basis": "SSCV nominal capacity",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 14000
+    },
+    {
+      "metric": "structural steel share of total topsides weight",
+      "unit": "% (approximately)",
+      "basis": "cited estimate ('some estimation says approximately half')",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 50
+    },
+    {
+      "metric": "commissioning effort for five modules of a BP project",
+      "unit": "person-hours",
+      "basis": "example of offshore HUC effort cited in book chapter",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 25000
+    },
+    {
+      "metric": "single-lift offshore HUC schedule saving",
+      "unit": "months",
+      "basis": "same published articles",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "low": 3,
+      "high": 4
+    }
+  ],
+  "vendors": [
+    "kbr",
+    "aibel"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "All equipment is arranged, hooked up and commissioned onshore on one integrated deck, minimising offshore hook-up and commissioning (HUC). Single-lift topsides "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

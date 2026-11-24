@@ -1,0 +1,25 @@
+{
+  "id": "pf-johan-sverdrup-phase-1-2",
+  "name": "Johan Sverdrup Phase 1 & 2",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "P2 24,000 t; DP 22,000 t; 560-bed living quarters topside sail-away 2019; 5,000 t additional riser-platform module delivered 2021",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
+      "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

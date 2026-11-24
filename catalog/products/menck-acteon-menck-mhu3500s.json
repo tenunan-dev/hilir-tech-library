@@ -1,0 +1,51 @@
+{
+  "id": "menck-acteon-menck-mhu3500s",
+  "name": "Menck MHU3500S",
+  "manufacturer": "menck-acteon-sale-to-cadeler-announced-2026",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
+  ],
+  "description": "Vendor product line read 2026-11-24. O&G and renewables.",
+  "specifications": [
+    {
+      "metric": "Energy range",
+      "unit": "kJ",
+      "basis": "",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "320-3,500"
+    },
+    {
+      "metric": "Blow rate",
+      "unit": "bl/min",
+      "basis": "",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": 32
+    },
+    {
+      "metric": "Oil flow",
+      "unit": "L/min",
+      "basis": "",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": 5800
+    }
+  ],
+  "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+  "sources": [
+    {
+      "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+      "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+    }
+  ],
+  "notes": "O&G and renewables.",
+  "last_reviewed": "2026-11-24"
+}

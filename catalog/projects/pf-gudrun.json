@@ -1,0 +1,25 @@
+{
+  "id": "pf-gudrun",
+  "name": "Gudrun",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Fixed processing platform, 7,400 t steel jacket, 361 ft water depth, 16 well slots, first oil April 2014",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/gudrunfield",
+      "source_id": "offshore-technology-com-projects-gudrunfield"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

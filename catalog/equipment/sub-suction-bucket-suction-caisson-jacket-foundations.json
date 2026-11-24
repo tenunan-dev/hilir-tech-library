@@ -1,0 +1,80 @@
+{
+  "id": "sub-suction-bucket-suction-caisson-jacket-foundations",
+  "name": "Suction bucket / suction caisson jacket foundations",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Open-bottomed inverted-bucket foundation embedded by pumping water out (negative pressure); resists lateral and axial loads and is removable by reverse pumping.",
+  "specifications": [
+    {
+      "metric": "historical installation count",
+      "unit": "caissons",
+      "basis": "Wikipedia Suction caisson: statistics from 2002 showed 485 suction caissons installed in more than 50 localities, in depths to about 2,000 m",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": 485
+    },
+    {
+      "metric": "Diana suction caisson dimensions",
+      "unit": "m height",
+      "basis": "Wikipedia Suction caisson: 12 caissons at Gorm (1981, 40 m depth); Diana caissons 30 m high, 6.5 m diameter, installed ~1,500 m on soft clay (1999)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Diana suction caisson diameter",
+      "unit": "m",
+      "basis": "Same Wikipedia Suction caisson passage",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": 6.5
+    },
+    {
+      "metric": "Snorre A suction anchor length vs conventional pile",
+      "unit": "m",
+      "basis": "Wikipedia Suction caisson: analysis showed safe fixity with 12 m suction caissons vs up to 90 m piles where pebbles at 60 m depth prevented piling; production started 1992",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Troll A concrete skirt length",
+      "unit": "m",
+      "basis": "Wikipedia Suction caisson, Gravity oil platforms: Troll A founded in 330 m depth with 30 m long skirts; Gullfaks C 22 m skirts",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": 30
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+      "source_id": "en-wikipedia-org-wiki-suction-caisson"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Open-bottomed inverted-bucket foundation embedded by pumping water out (negative pressure); resists lateral and axial loads and is removable by reverse pumping."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

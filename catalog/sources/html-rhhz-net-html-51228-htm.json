@@ -1,0 +1,32 @@
+{
+  "id": "html-rhhz-net-html-51228-htm",
+  "name": "Html.Rhhz.Net — South China Sea FLNG side-by-side layout",
+  "url": "https://html.rhhz.net/jckxjsgw/html/51228.htm",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Html.Rhhz.Net",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. CNOOC Research Institute recommended layout; used by Prelude in benign environments Evidence: https://html.rhhz.net/jckxjsgw/html/51228.htm"
+}

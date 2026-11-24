@@ -1,0 +1,31 @@
+{
+  "id": "arup-arup-concrete-gravity-substructure-cgs-ace-platform",
+  "name": "Arup Concrete Gravity Substructure (CGS) / ACE platform",
+  "manufacturer": "arup",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
+  ],
+  "description": "Vendor product line read 2026-11-24. page_read=true",
+  "specifications": [
+    {
+      "metric": "concept",
+      "unit": "description",
+      "basis": "Wikipedia Offshore concrete structure, Arup CGS section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+        "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+      },
+      "value": "dry-build, fully removable, inclined installation technique"
+    }
+  ],
+  "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
+      "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
+    }
+  ],
+  "notes": "page_read=true",
+  "last_reviewed": "2026-11-24"
+}

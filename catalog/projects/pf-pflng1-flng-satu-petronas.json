@@ -1,0 +1,25 @@
+{
+  "id": "pf-pflng1-flng-satu-petronas",
+  "name": "PFLNG1 / FLNG Satu (PETRONAS)",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "1.2 Mtpa LNG, 21 topsides modules, one flare, 1.2 MTPA design, offshore Malaysia 70-200 m water depth",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.oil-gasportal.com/wp-content/uploads/2019/11/8.-Floating-LNG-FLNG-technical-challenges-and-future-trends.pdf",
+      "source_id": "oil-gasportal-com-11-8-floating-lng-flng-technical-challenges-and"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

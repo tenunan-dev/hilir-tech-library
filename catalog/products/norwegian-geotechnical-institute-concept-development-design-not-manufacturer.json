@@ -1,0 +1,31 @@
+{
+  "id": "norwegian-geotechnical-institute-concept-development-design-not-manufacturer",
+  "name": "Suction caisson / suction anchor",
+  "manufacturer": "heerema",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-wellhead-caisson-conductor-guided-single-well-structure"
+  ],
+  "description": "Vendor product line read 2026-11-24. page_read=true; NGI involved in concept development per source",
+  "specifications": [
+    {
+      "metric": "Diana caisson",
+      "unit": "m",
+      "basis": "Wikipedia Suction caisson",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": "30 m high × 6.5 m diameter"
+    }
+  ],
+  "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+      "source_id": "en-wikipedia-org-wiki-suction-caisson"
+    }
+  ],
+  "notes": "page_read=true; NGI involved in concept development per source",
+  "last_reviewed": "2026-11-24"
+}

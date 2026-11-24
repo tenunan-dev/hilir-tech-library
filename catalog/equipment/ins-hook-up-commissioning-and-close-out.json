@@ -1,0 +1,55 @@
+{
+  "id": "ins-hook-up-commissioning-and-close-out",
+  "name": "Hook-up, commissioning and close-out",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "After set-down: weld out LMU/leg connections, install conductors/risers/umbilicals, connect utilities, test systems, survey as-built position and hand over; for float-over, release LMU load and weld topside leg cans to substructure.",
+  "specifications": [
+    {
+      "metric": "Post-float-over close-out step",
+      "unit": "description",
+      "basis": "Trelleborg LMU page, Overview",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+        "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
+      },
+      "value": "topside leg cans securely welded to substructure after installation"
+    },
+    {
+      "metric": "Direct-weld LMU close-out",
+      "unit": "description",
+      "basis": "Orca Offshore LMU page",
+      "source": {
+        "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
+        "source_id": "orca-offshore-com-leg-mating-unit"
+      },
+      "value": "topside welded directly to jacket after set-down; sand-jack lowering phase eliminated"
+    }
+  ],
+  "vendors": [
+    "acteon",
+    "fugro"
+  ],
+  "sources": [
+    {
+      "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+      "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
+    },
+    {
+      "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
+      "source_id": "orca-offshore-com-leg-mating-unit"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "After set-down: weld out LMU/leg connections, install conductors/risers/umbilicals, connect utilities, test systems, survey as-built position and hand over; for"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

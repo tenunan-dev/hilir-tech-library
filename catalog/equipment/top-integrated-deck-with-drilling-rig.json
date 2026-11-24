@@ -1,0 +1,85 @@
+{
+  "id": "top-integrated-deck-with-drilling-rig",
+  "name": "Integrated deck with drilling rig",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "A topsides concept combining drilling and production facilities on one structure, either as a fully integrated deck with a permanent/skiddable rig module or as a lightweight single-lift deck with a rig added later.",
+  "specifications": [
+    {
+      "metric": "TLP full drilling package typical weight",
+      "unit": "tons",
+      "basis": "multiwell deepwater TLP",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning",
+        "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
+      },
+      "low": 4000,
+      "high": 6000
+    },
+    {
+      "metric": "TLP drilling riser tension load examples",
+      "unit": "tons",
+      "basis": "tentative figures in 1992 OGJ article",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning",
+        "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
+      },
+      "value": "Snorre ~450 t (22-in riser); Heidrun ~950 t (26-in riser)"
+    },
+    {
+      "metric": "Snorre TLP BOP stack movement allowance",
+      "unit": "m vertical",
+      "basis": "16 3/4-in 5,000 psi BOP stack of 40 tons; BOP envelope total height ~7.5 m",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning",
+        "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
+      },
+      "value": 3.0
+    },
+    {
+      "metric": "TLP horizontal acceleration design",
+      "unit": "g",
+      "basis": "affects tubular handling and structural design",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning",
+        "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
+      },
+      "value": "Snorre ~0.18 g; Heidrun ~0.12 g"
+    },
+    {
+      "metric": "Hutton TLP drilling module share",
+      "unit": "n/a",
+      "basis": "Hutton had a full drilling package on an integrated deck",
+      "source": {
+        "url": "https://mcdermottscotlandheritage.com/project/hutton-1984",
+        "source_id": "mcdermottscotlandheritage-com-project-hutton-1984"
+      },
+      "value": "large share of 20,000 Te topsides"
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning",
+      "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
+    },
+    {
+      "url": "https://mcdermottscotlandheritage.com/project/hutton-1984",
+      "source_id": "mcdermottscotlandheritage-com-project-hutton-1984"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "A topsides concept combining drilling and production facilities on one structure, either as a fully integrated deck with a permanent/skiddable rig module or as "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

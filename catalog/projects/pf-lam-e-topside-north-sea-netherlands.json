@@ -1,0 +1,25 @@
+{
+  "id": "pf-lam-e-topside-north-sea-netherlands",
+  "name": "LAM-E topside (North Sea, Netherlands)",
+  "country": "Netherlands",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Orca Offshore and SeaCamel developed an LMU allowing direct welding of topside to jacket after set-down, eliminating sand-jack phase.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
+      "source_id": "orca-offshore-com-leg-mating-unit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

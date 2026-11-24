@@ -1,0 +1,25 @@
+{
+  "id": "pf-gullfaks-c",
+  "name": "Gullfaks C",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "380 m tall, 1.4-1.5 Mt displacement, 216/217 m depth",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Condeep",
+      "source_id": "en-wikipedia-org-wiki-condeep"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "mat-top-stainless-steel-and-duplex-grades",
+  "name": "Stainless steel and duplex grades",
+  "material_category": "metallurgical-corrosion",
+  "description": "Blast and fire walls, cladding, accommodation units, cable ladders, pipe supports, process piping, vessels and caissons where corrosion resistance is required without coatings.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Blast and fire walls, cladding, accommodation units, cable ladders, pipe supports, process piping, vessels and caissons where corrosion resistance is required without coatings.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Blast and fire walls, cladding, accommodation units, cable ladders, pipe supports, process piping, vessels and caissons where corrosion resistance is required w"
+  ],
+  "standards": [],
+  "equipment": [
+    "top-offshore-topsides-definition-function-and-structural-scope",
+    "top-integrated-single-lift-topsides",
+    "top-modular-multi-module-topsides",
+    "top-module-support-frame-msf-and-deck-structures"
+  ],
+  "suppliers": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

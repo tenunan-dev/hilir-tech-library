@@ -1,0 +1,80 @@
+{
+  "id": "ins-leg-mating-units-lmu-elastomeric-shock-absorbers",
+  "name": "Leg Mating Units",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Absorb vertical and horizontal compression as topside deck-leg cans land on jacket legs during float-over; manage static and dynamic loads and horizontal movement from sea state; allow load release after set-down.",
+  "specifications": [
+    {
+      "metric": "Full-scale compression load test up to",
+      "unit": "MT",
+      "basis": "Trelleborg LMU page, Benefits: 'Full-scale testing compression loads up to 18,300 MT'",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+        "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
+      },
+      "value": 18300
+    },
+    {
+      "metric": "LMU construction",
+      "unit": "description",
+      "basis": "Trelleborg LMU page, Overview",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+        "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
+      },
+      "value": "robust steel structure with high-performance elastomeric pads"
+    },
+    {
+      "metric": "Load-relief mechanism",
+      "unit": "description",
+      "basis": "Hitech Elastomers LMU page, INTRO",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/",
+        "source_id": "hitechelastomers-com-leg-mating-unit"
+      },
+      "value": "sand released from valve lowers plunger assembly, unloading rubber elements"
+    },
+    {
+      "metric": "Alternative LMU build",
+      "unit": "description",
+      "basis": "Orca Offshore LMU page",
+      "source": {
+        "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
+        "source_id": "orca-offshore-com-leg-mating-unit"
+      },
+      "value": "standard rubber elements + standard steel pipe + flush steel plates"
+    }
+  ],
+  "vendors": [
+    "trelleborg-marine-and-infrastructure",
+    "hi-tech-elastomers",
+    "orca-offshore-seacamel"
+  ],
+  "sources": [
+    {
+      "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+      "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
+    },
+    {
+      "url": "https://hitechelastomers.com/products/leg-mating-unit/",
+      "source_id": "hitechelastomers-com-leg-mating-unit"
+    },
+    {
+      "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
+      "source_id": "orca-offshore-com-leg-mating-unit"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Absorb vertical and horizontal compression as topside deck-leg cans land on jacket legs during float-over; manage static and dynamic loads and horizontal moveme"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

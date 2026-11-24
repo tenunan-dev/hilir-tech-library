@@ -1,0 +1,32 @@
+{
+  "id": "assets-nov-com-946fqw4xfc6rxt3rqvx4vb6-caps-fgs-mos1109-bondstrand",
+  "name": "NOV (Bondstrand)",
+  "url": "https://assets.nov.com/NCP4N68N/at/946fqw4xfc6rxt3rqvx4vb6/CAPS_FGS_MOS1109_Bondstrand_Structural_for_Topsides_FLYER.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Assets.Nov.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. phenolic FRP handrails, ladders, grating, platforms, stairs, walkways, protection panels Evidence: https://assets.nov.com/NCP4N68N/at/946fqw4xfc6rxt3rqvx4vb6/CAPS_FGS_MOS1109_Bondstrand_Structural_for_Topsides_FLYER.pdf"
+}

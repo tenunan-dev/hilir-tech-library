@@ -1,0 +1,25 @@
+{
+  "id": "pf-dongfang-gas-fields-topside-load-out",
+  "name": "Dongfang gas fields topside load-out",
+  "country": "China",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "18,000 t topside skidded from Zhuhai yard onto heavy-lift barge using 4 x 850 t strand jacks; float-over transported onto jacket in South China Sea.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.mammoet.com/cases/time-saving-18000t-topside-load-out-and-float-over-transportation/",
+      "source_id": "mammoet-com-time-saving-18000t-topside-load-out-and-float-over-tra"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

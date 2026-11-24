@@ -1,7 +1,7 @@
 {
   "id": "dnv-dnv-st-0126-support-structures-for-wind-turbines",
   "name": "DNV-ST-0126 support structures for wind turbines",
-  "manufacturer": "dnv",
+  "manufacturer": "dnv-installjac-software",
   "product_type": "civ-civil",
   "equipment": [
     "civ-shallow-raft-pad-foundations"

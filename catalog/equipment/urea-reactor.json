@@ -123,7 +123,7 @@
     "thyssenkrupp-uhde",
     "casale",
     "toyo",
-    "saipem",
+    "saipem-ex-micoperi-7000",
     "casale-sa"
   ],
   "technologies": [
@@ -187,7 +187,7 @@
       "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_HYPER-U.pdf"
     },
     {
-      "vendor": "saipem",
+      "vendor": "saipem-ex-micoperi-7000",
       "line": "Snamprogetti ammonia stripping urea process",
       "models": [
         "Snamprogetti urea process"

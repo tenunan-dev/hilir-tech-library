@@ -1,0 +1,32 @@
+{
+  "id": "oilandgasiq-com-case-studies-what-are-mopus-and-fpsos",
+  "name": "Oilandgasiq.Com — P63 FPSO (Petrobras)",
+  "url": "https://www.oilandgasiq.com/operational-excellence/case-studies/what-are-mopus-and-fpsos",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Oilandgasiq.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. 23 process plant modules installed during conversion; 1,500 people at peak Evidence: https://www.oilandgasiq.com/operational-excellence/case-studies/what-are-mopus-and-fpsos"
+}

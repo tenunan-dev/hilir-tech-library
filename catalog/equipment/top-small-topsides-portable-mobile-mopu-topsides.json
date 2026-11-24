@@ -1,0 +1,38 @@
+{
+  "id": "top-small-topsides-portable-mobile-mopu-topsides",
+  "name": "Small topsides: portable / mobile",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Portable or reusable offshore production facility where the topsides can be moved and reused; includes ship-shaped FPSOs, spars, TLPs, jack-ups, semi-submersible production units and production barges.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Portable or reusable offshore production facility where the topsides can be moved and reused; includes ship-shaped FPSOs, spars, TLPs, jack-ups, semi-submersible production units and production barges.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Portable or reusable offshore production facility where the topsides can be moved and reused; includes ship-shaped FPSOs, spars, TLPs, jack-ups, semi-submersibl"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "bsee-gov-tap-technical-assessment-program-670aa-pdf",
+  "name": "U.S. Bureau of Safety and Environmental Enforcement (BSEE), Technical Assessment Program",
+  "url": "https://www.bsee.gov/sites/bsee.gov/files/tap-technical-assessment-program/670aa.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "BSEE",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Support-structure schematics and equivalent-monopile idealisations for monopile, tripod and jacket case studies; member size/location diagrams for utilisation checks Evidence: https://www.bsee.gov/sites/bsee.gov/files/tap-technical-assessment-program/670aa.pdf"
+}

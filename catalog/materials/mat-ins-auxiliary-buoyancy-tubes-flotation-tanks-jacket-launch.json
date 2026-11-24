@@ -1,0 +1,40 @@
+{
+  "id": "mat-ins-auxiliary-buoyancy-tubes-flotation-tanks-jacket-launch",
+  "name": "Auxiliary buoyancy tubes / flotation tanks",
+  "material_category": "steel-buoyancy",
+  "description": "Reduce rocker reactions, provide bottom clearance and stable floating attitude after launch",
+  "specifications": [
+    {
+      "metric": "Auxiliary buoyancy as share of launch weight",
+      "unit": "%",
+      "basis": "TheNavalArch launch article, Jacket auxiliary buoyancy",
+      "source": {
+        "url": "https://thenavalarch.com/launching-steel-jackets/",
+        "source_id": "thenavalarch-com-launching-steel-jackets"
+      },
+      "value": ">10%"
+    }
+  ],
+  "applications": [
+    "Reduce rocker reactions, provide bottom clearance and stable floating attitude after launch"
+  ],
+  "standards": [],
+  "equipment": [
+    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati",
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast",
+    "ins-float-over-topside-installation-barge-float-over-tidal-float-o",
+    "ins-leg-mating-units-lmu-elastomeric-shock-absorbers"
+  ],
+  "suppliers": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://thenavalarch.com/launching-steel-jackets/",
+      "source_id": "thenavalarch-com-launching-steel-jackets"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

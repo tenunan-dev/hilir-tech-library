@@ -1,0 +1,38 @@
+{
+  "id": "mat-sub-grout-pile-to-leg-annulus-and-monopile-connections",
+  "name": "Grout",
+  "material_category": "structural-material",
+  "description": "Fills annular gap between jacket leg and pile or transition piece, transferring load and eliminating dynamic clearances.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Fills annular gap between jacket leg and pile or transition piece, transferring load and eliminating dynamic clearances.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Fills annular gap between jacket leg and pile or transition piece, transferring load and eliminating dynamic clearances."
+  ],
+  "standards": [],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-wellhead-caisson-conductor-guided-single-well-structure",
+    "sub-monopod-tripod-tripile-bottom-founded-structures"
+  ],
+  "suppliers": [
+    "heerema-marine-contractors"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

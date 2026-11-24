@@ -1,0 +1,61 @@
+{
+  "id": "saipem-ex-micoperi-7000-saipem-7000",
+  "name": "Saipem 7000",
+  "manufacturer": "saipem-ex-micoperi-7000",
+  "product_type": "ins-platform",
+  "equipment": [
+    "ins-impact-pile-driving-hammers-hydraulic-diesel-underwater"
+  ],
+  "description": "Vendor product line read 2026-11-24. 16 anchor lines usable to 450 m water depth; Menck hammer spread.",
+  "specifications": [
+    {
+      "metric": "Tandem lift",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": 14000
+    },
+    {
+      "metric": "Per-crane main hook at 40 m",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": 7000
+    },
+    {
+      "metric": "Ballast transfer rate",
+      "unit": "t/h",
+      "basis": "",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": 24000
+    },
+    {
+      "metric": "J-lay tension (friction clamps)",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": 2000
+    }
+  ],
+  "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+      "source_id": "en-wikipedia-org-wiki-saipem-7000"
+    }
+  ],
+  "notes": "16 anchor lines usable to 450 m water depth; Menck hammer spread.",
+  "last_reviewed": "2026-11-24"
+}

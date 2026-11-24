@@ -1,0 +1,25 @@
+{
+  "id": "pf-chiky",
+  "name": "Chikyū",
+  "country": "Japan",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Scientific drillship, 7 km below seabed capability",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Drillship",
+      "source_id": "en-wikipedia-org-wiki-drillship"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

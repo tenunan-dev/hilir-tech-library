@@ -1,0 +1,68 @@
+{
+  "id": "mat-sub-design-codes-and-standards-for-substructures",
+  "name": "Design codes and standards for substructures",
+  "material_category": "standard",
+  "description": "Define design, fabrication, fatigue and classification requirements for fixed and floating offshore structures.",
+  "specifications": [
+    {
+      "metric": "DNV Sesam supported codes",
+      "unit": "code list",
+      "basis": "DNV FAQ - What offshore steel design codes does Sesam include",
+      "source": {
+        "url": "https://www.dnv.com/software/FAQ/What-offshore-steel-design-codes-does-sesam-include",
+        "source_id": "dnv-com-faq-what-offshore-steel-design-codes-does-sesam-include"
+      },
+      "value": "API-WSD 2002/2005/2014; API-LRFD 2003; NORSOK 2004 and 2013; ISO 19902 2007; AISC 2005/1989; Eurocode 3; Danish Standard 412/449"
+    },
+    {
+      "metric": "IMO MODU Code",
+      "unit": "standard",
+      "basis": "Wikipedia Semi-submersible platform, MODU section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",
+        "source_id": "en-wikipedia-org-wiki-semi-submersible-platform"
+      },
+      "value": "accredited design and operational guideline for semi-submersible MODUs"
+    },
+    {
+      "metric": "IEC 61400-3 / -3-2",
+      "unit": "standard",
+      "basis": "Wikipedia Floating offshore wind, Mooring systems",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+        "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
+      },
+      "value": "IEC 61400-3 requires site-specific loads analysis; IEC 61400-3-2 applies specifically to floating wind turbines"
+    }
+  ],
+  "applications": [
+    "Define design, fabrication, fatigue and classification requirements for fixed and floating offshore structures."
+  ],
+  "standards": [],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-wellhead-caisson-conductor-guided-single-well-structure",
+    "sub-monopod-tripod-tripile-bottom-founded-structures"
+  ],
+  "suppliers": [
+    "dnv-installjac-software"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dnv.com/software/FAQ/What-offshore-steel-design-codes-does-sesam-include",
+      "source_id": "dnv-com-faq-what-offshore-steel-design-codes-does-sesam-include"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",
+      "source_id": "en-wikipedia-org-wiki-semi-submersible-platform"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+      "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

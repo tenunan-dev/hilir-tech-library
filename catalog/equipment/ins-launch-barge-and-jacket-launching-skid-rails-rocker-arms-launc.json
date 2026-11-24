@@ -1,0 +1,137 @@
+{
+  "id": "ins-launch-barge-and-jacket-launching-skid-rails-rocker-arms-launc",
+  "name": "Launch barge and jacket launching",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Fabricate jacket horizontally, load out onto a launch barge, tow to site, ballast the barge to trim, winch/slide the jacket over skid rails and rocker arms into the water, let it float near-horizontal (head-up), then upend and set on seabed.",
+  "specifications": [
+    {
+      "metric": "Principal launch stages",
+      "unit": "list",
+      "basis": "TheNavalArch, 'Launching Steel Jackets' by Alan Crowle, Figure 1",
+      "source": {
+        "url": "https://thenavalarch.com/launching-steel-jackets/",
+        "source_id": "thenavalarch-com-launching-steel-jackets"
+      },
+      "value": "1 winching to overcome friction; 2 sliding; 3 point of rotation; 4 rotating and sliding; 5 jacket clear of barge"
+    },
+    {
+      "metric": "Typical launch barge draft",
+      "unit": "% of depth",
+      "basis": "TheNavalArch launch article, Barge choice",
+      "source": {
+        "url": "https://thenavalarch.com/launching-steel-jackets/",
+        "source_id": "thenavalarch-com-launching-steel-jackets"
+      },
+      "value": "60-65% of barge depth; up to 80% possible if strength adequate"
+    },
+    {
+      "metric": "Maximum allowable barge trim",
+      "unit": "degrees",
+      "basis": "TheNavalArch launch article, Launch constraints",
+      "source": {
+        "url": "https://thenavalarch.com/launching-steel-jackets/",
+        "source_id": "thenavalarch-com-launching-steel-jackets"
+      },
+      "value": "usually about 10 degrees"
+    },
+    {
+      "metric": "Friction coefficients (greased timber on Teflon)",
+      "unit": "dimensionless",
+      "basis": "TheNavalArch launch article, Launch constraints",
+      "source": {
+        "url": "https://thenavalarch.com/launching-steel-jackets/",
+        "source_id": "thenavalarch-com-launching-steel-jackets"
+      },
+      "value": "dynamic 0.035 (3.5%); static as low as 0.05 (5%)"
+    },
+    {
+      "metric": "Jacket auxiliary buoyancy",
+      "unit": "% of launch weight",
+      "basis": "TheNavalArch launch article, Jacket auxiliary buoyancy",
+      "source": {
+        "url": "https://thenavalarch.com/launching-steel-jackets/",
+        "source_id": "thenavalarch-com-launching-steel-jackets"
+      },
+      "value": "typically over 10% of launch weight"
+    },
+    {
+      "metric": "Jacket reserve buoyancy (floating after launch)",
+      "unit": "%",
+      "basis": "Mermaid Consultants, Jacket Launching — Jacket Reserve Buoyancy",
+      "source": {
+        "url": "https://www.mermaid-consultants.com/jacket-launching.html",
+        "source_id": "mermaid-consultants-com-www-mermaid-consultants-com-jacket-launchi"
+      },
+      "value": "at least 15% of total jacket weight"
+    },
+    {
+      "metric": "Minimum bottom clearance during launch",
+      "unit": "m / %",
+      "basis": "Mermaid Consultants, Jacket Bottom Clearance",
+      "source": {
+        "url": "https://www.mermaid-consultants.com/jacket-launching.html",
+        "source_id": "mermaid-consultants-com-www-mermaid-consultants-com-jacket-launchi"
+      },
+      "value": "10% of water depth or 5 m, whichever is greater"
+    },
+    {
+      "metric": "Stability criterion during launch",
+      "unit": "m",
+      "basis": "Mermaid Consultants, Barge and Jacket Stability",
+      "source": {
+        "url": "https://www.mermaid-consultants.com/jacket-launching.html",
+        "source_id": "mermaid-consultants-com-www-mermaid-consultants-com-jacket-launchi"
+      },
+      "value": "transverse and longitudinal GM > 1 m"
+    },
+    {
+      "metric": "Hydrodynamic coefficients used in launch analysis",
+      "unit": "dimensionless",
+      "basis": "TheNavalArch launch article, Structural analysis (Morison's equation)",
+      "source": {
+        "url": "https://thenavalarch.com/launching-steel-jackets/",
+        "source_id": "thenavalarch-com-launching-steel-jackets"
+      },
+      "value": "Cd 0.7; Cm 2.0"
+    },
+    {
+      "metric": "Launch sea state limit (personnel transfer / boarding)",
+      "unit": "m Hs",
+      "basis": "TheNavalArch launch article, Offshore operations; Mermaid Consultants, Environmental Conditions",
+      "source": {
+        "url": "https://thenavalarch.com/launching-steel-jackets/",
+        "source_id": "thenavalarch-com-launching-steel-jackets"
+      },
+      "value": "significant wave height typically less than 2 m"
+    }
+  ],
+  "vendors": [
+    "dnv-installjac-software",
+    "mermaid-consultants",
+    "thenavalarch",
+    "heerema-marine-contractors"
+  ],
+  "sources": [
+    {
+      "url": "https://thenavalarch.com/launching-steel-jackets/",
+      "source_id": "thenavalarch-com-launching-steel-jackets"
+    },
+    {
+      "url": "https://www.mermaid-consultants.com/jacket-launching.html",
+      "source_id": "mermaid-consultants-com-www-mermaid-consultants-com-jacket-launchi"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Fabricate jacket horizontally, load out onto a launch barge, tow to site, ballast the barge to trim, winch/slide the jacket over skid rails and rocker arms into"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

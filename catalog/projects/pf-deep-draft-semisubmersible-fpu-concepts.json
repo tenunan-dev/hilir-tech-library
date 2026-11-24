@@ -1,0 +1,25 @@
+{
+  "id": "pf-deep-draft-semisubmersible-fpu-concepts",
+  "name": "Deep-draft semisubmersible FPU concepts",
+  "country": "various",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "authors compare 20,000 t crane floatover, heavy-lift derrick barge, jacking system, Kiewit Heavy Lift Device and multiple modular lifts",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/regional-reports/article/16793877/topsides-installation-methods-for-deep-draft-semisubmersibles",
+      "source_id": "offshore-mag-com-16793877-topsides-installation-methods-for-deep-d"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

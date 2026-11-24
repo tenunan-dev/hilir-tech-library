@@ -1,0 +1,25 @@
+{
+  "id": "pf-bullwinkle-jacket",
+  "name": "Bullwinkle jacket",
+  "country": "USA (Gulf of Mexico)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "47,000 t jacket launched in 412 m water depth, Shell 1988; cited as largest jacket launched in the article.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://thenavalarch.com/launching-steel-jackets/",
+      "source_id": "thenavalarch-com-launching-steel-jackets"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

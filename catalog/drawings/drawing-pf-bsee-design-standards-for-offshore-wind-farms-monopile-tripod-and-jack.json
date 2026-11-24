@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-bsee-design-standards-for-offshore-wind-farms-monopile-tripod-and-jack",
+  "title": "BSEE Design Standards for Offshore Wind Farms — monopile, tripod and jacket support structure schematics",
+  "diagram_type": "schematic",
+  "description": "Support-structure schematics and equivalent-monopile idealisations for monopile, tripod and jacket case studies; member size/location diagrams for utilisation checks | Figures: Figure 2.19 Monopile Support Structure and Its Equivalent Monopile; 2.20 Modal Shapes of the Monopile Support Structure; 2.21 Tripod Support Structure and Its Equivalent Monopile; 2.22 Modal Shapes of the Tripod Support Structure; 2.23 Jacket Support Structure and Its Equivalent Monopile; 2.24 Modal Shapes of the Jacket Support Structure",
+  "publisher": "U.S. Bureau of Safety and Environmental Enforcement (BSEE), Technical Assessment Program",
+  "url": "https://www.bsee.gov/sites/bsee.gov/files/tap-technical-assessment-program/670aa.pdf",
+  "licence": "US Government publication; cite report and figure numbers.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bsee.gov/sites/bsee.gov/files/tap-technical-assessment-program/670aa.pdf",
+      "source_id": "bsee-gov-tap-technical-assessment-program-670aa-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. curl + pypdf text extraction — figure list confirmed (224-page PDF); some font warnings during extraction, captions legible",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-prelude-flng",
+  "name": "Prelude FLNG",
+  "country": "Australia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "488 m, >600,000 t, 3.6 mtpa LNG, ~200-475 km off Broome; first cargo June 2019",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.shell.com/what-we-do/oil-and-natural-gas/liquefied-natural-gas-lng/floating-lng.html",
+      "source_id": "shell-com-liquefied-natural-gas-lng-floating-lng-html"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

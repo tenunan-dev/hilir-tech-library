@@ -1,0 +1,39 @@
+{
+  "id": "mat-top-passive-fire-protection-pfp-epoxy-intumescent-coatings-and-s",
+  "name": "Passive fire protection",
+  "material_category": "fire-protection",
+  "description": "Protects structural steel, process equipment and control systems from hydrocarbon/jet fire by intumescence, delaying the steel reaching its critical core temperature.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Protects structural steel, process equipment and control systems from hydrocarbon/jet fire by intumescence, delaying the steel reaching its critical core temperature.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Protects structural steel, process equipment and control systems from hydrocarbon/jet fire by intumescence, delaying the steel reaching its critical core temper"
+  ],
+  "standards": [],
+  "equipment": [
+    "top-offshore-topsides-definition-function-and-structural-scope",
+    "top-integrated-single-lift-topsides",
+    "top-modular-multi-module-topsides",
+    "top-module-support-frame-msf-and-deck-structures"
+  ],
+  "suppliers": [
+    "ais-advanced-insulation-systems",
+    "rosetexwool"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

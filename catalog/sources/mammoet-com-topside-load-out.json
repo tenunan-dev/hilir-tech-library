@@ -1,0 +1,32 @@
+{
+  "id": "mammoet-com-topside-load-out",
+  "name": "Mammoet — Topsides weight where crane-free float-over is adv",
+  "url": "https://www.mammoet.com/offshore/topside-load-out/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Mammoet",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Mammoet topside load-out page Evidence: https://www.mammoet.com/offshore/topside-load-out/"
+}

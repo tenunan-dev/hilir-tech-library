@@ -1,0 +1,55 @@
+{
+  "id": "mat-ins-wire-rope-crane-hoists-and-moorings",
+  "name": "Wire rope",
+  "material_category": "metal",
+  "description": "Main/auxiliary/whip hoists and mooring lines on crane vessels",
+  "specifications": [
+    {
+      "metric": "Sleipnir main hoist wire rope",
+      "unit": "km / mm",
+      "basis": "Wikipedia SSCV Sleipnir, Design>Cranes",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": "approx. 33 km per crane, 72 mm diameter braided wire rope"
+    },
+    {
+      "metric": "Saipem 7000 mooring wire",
+      "unit": "m / mm / count",
+      "basis": "Wikipedia Saipem 7000, Mooring system",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": "3,350 m of 96 mm wire rope per line, 16 lines"
+    }
+  ],
+  "applications": [
+    "Main/auxiliary/whip hoists and mooring lines on crane vessels"
+  ],
+  "standards": [],
+  "equipment": [
+    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati",
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast",
+    "ins-float-over-topside-installation-barge-float-over-tidal-float-o",
+    "ins-leg-mating-units-lmu-elastomeric-shock-absorbers"
+  ],
+  "suppliers": [
+    "huisman",
+    "nov-amclyde"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+      "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+      "source_id": "en-wikipedia-org-wiki-saipem-7000"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "ins-pile-handling-levelling-grouting-and-connection-hardware",
+  "name": "Pile handling, levelling, grouting and connection hardware",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Handle/upend piles and jacket legs, level and align before grouting, seal annulus, grip jacket piles and provide lifting/release tools.",
+  "specifications": [
+    {
+      "metric": "Saipem 7000 levelling systems",
+      "unit": "in / t",
+      "basis": "Wikipedia Saipem 7000, Platform installation equipment",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": "two internal systems, 66-72 in diameter, 900 t each; two external levelling systems, 1,000 t each"
+    },
+    {
+      "metric": "Saipem 7000 pile slings",
+      "unit": "count / cm / m",
+      "basis": "Wikipedia Saipem 7000, Platform installation equipment",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": "16 x 35 cm diameter x 60 m long cable-laid slings"
+    },
+    {
+      "metric": "Grout/seal product families",
+      "unit": "list",
+      "basis": "Hi-Tech Elastomers offshore products navigation",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/",
+        "source_id": "hitechelastomers-com-leg-mating-unit"
+      },
+      "value": "Passive Grout Seal, Inflatable Grout Packer, Diaphragm Closure, Jacket Pile Gripper"
+    },
+    {
+      "metric": "IQIP handling/lifting tools",
+      "unit": "list",
+      "basis": "IQIP product navigation",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": "Upending Frame, Pile Upending Tool, Flanged Jacket Lifting Tool, Hydraulic Release Shackle, Skidding System, Pile Guiding & Positioning Frame"
+    }
+  ],
+  "vendors": [
+    "hi-tech-elastomers",
+    "iqip",
+    "acteon-menck"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+      "source_id": "en-wikipedia-org-wiki-saipem-7000"
+    },
+    {
+      "url": "https://hitechelastomers.com/products/leg-mating-unit/",
+      "source_id": "hitechelastomers-com-leg-mating-unit"
+    },
+    {
+      "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+      "source_id": "iqip-com-hydrohammer-s-series"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Handle/upend piles and jacket legs, level and align before grouting, seal annulus, grip jacket piles and provide lifting/release tools."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

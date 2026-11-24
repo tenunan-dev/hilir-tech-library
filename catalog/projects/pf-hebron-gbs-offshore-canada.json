@@ -1,0 +1,25 @@
+{
+  "id": "pf-hebron-gbs-offshore-canada",
+  "name": "Hebron GBS, offshore Canada",
+  "country": "Canada",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "gravity-base structure topsides shown with drilling, utilities, flare boom, living quarter modules",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

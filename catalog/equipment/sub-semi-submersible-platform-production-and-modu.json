@@ -1,0 +1,87 @@
+{
+  "id": "sub-semi-submersible-platform-production-and-modu",
+  "name": "Semi-submersible platform",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Floating hull with submerged pontoons and columns supporting a deck; ballastable, moored or dynamically positioned; used for drilling, production, crane work and accommodation.",
+  "specifications": [
+    {
+      "metric": "water depth range",
+      "unit": "m",
+      "basis": "Wikipedia Oil platform, Semi-submersible platform: can be used in water depths from 60 to 6,000 m (200 to 20,000 ft)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "low": 60,
+      "high": 6000
+    },
+    {
+      "metric": "transition from fixed structures",
+      "unit": "m",
+      "basis": "Wikipedia Semi-submersible platform: drilling in water depth greater than around 520 m requires a floating vessel since fixed structures are not practical",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",
+        "source_id": "en-wikipedia-org-wiki-semi-submersible-platform"
+      },
+      "value": 520
+    },
+    {
+      "metric": "nominal generations",
+      "unit": "classification",
+      "basis": "Wikipedia Semi-submersible platform, Classification table",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",
+        "source_id": "en-wikipedia-org-wiki-semi-submersible-platform"
+      },
+      "value": "1st ~200 m (early 1960s); 2nd ~300 m (1969-74); 3rd ~500 m (early 1980s); 4th ~1,000 m (1990s); 5th ~2,500 m (1998-2004); 6th ~3,000 m (2005-2010)"
+    },
+    {
+      "metric": "heaviest SSCV lift capacity",
+      "unit": "t",
+      "basis": "Wikipedia Semi-submersible platform, SSCV section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",
+        "source_id": "en-wikipedia-org-wiki-semi-submersible-platform"
+      },
+      "value": "Thialf 14,200 t; Saipem 7000 14,000 t"
+    },
+    {
+      "metric": "largest production semi-submersible",
+      "unit": "platform",
+      "basis": "Wikipedia Semi-submersible platform, Offshore production platforms section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",
+        "source_id": "en-wikipedia-org-wiki-semi-submersible-platform"
+      },
+      "value": "Thunder Horse PDQ (GVA40000 design)"
+    }
+  ],
+  "vendors": [
+    "heerema-marine-contractors",
+    "saipem-ex-micoperi-7000",
+    "petrobras"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",
+      "source_id": "en-wikipedia-org-wiki-semi-submersible-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Floating hull with submerged pontoons and columns supporting a deck; ballastable, moored or dynamically positioned; used for drilling, production, crane work an"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

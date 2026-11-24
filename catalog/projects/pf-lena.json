@@ -1,0 +1,25 @@
+{
+  "id": "pf-lena",
+  "name": "Lena",
+  "country": "USA",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "First compliant tower, guyed, Exxon, 1983, 396 m tall, 24,000-27,000 t jacket",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_tallest_oil_platforms",
+      "source_id": "en-wikipedia-org-wiki-list-of-tallest-oil-platforms"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

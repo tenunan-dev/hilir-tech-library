@@ -1,0 +1,61 @@
+{
+  "id": "allseas-pioneering-spirit",
+  "name": "Pioneering Spirit",
+  "manufacturer": "allseas-oem-design",
+  "product_type": "ins-platform",
+  "equipment": [
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast"
+  ],
+  "description": "Vendor product line read 2026-11-24. OEM page; motion-compensated single-lift.",
+  "specifications": [
+    {
+      "metric": "Topsides single-lift capacity",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": 60000
+    },
+    {
+      "metric": "Jacket lift capacity",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "S-lay tension",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Azimuth thrusters",
+      "unit": "count",
+      "basis": "",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": 12
+    }
+  ],
+  "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+  "sources": [
+    {
+      "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+      "source_id": "allseas-com-our-fleet-pioneering-spirit"
+    }
+  ],
+  "notes": "OEM page; motion-compensated single-lift.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "allseas-iron-lady-braveheart-shallow-water-transfer-barges",
+  "name": "Iron Lady / Braveheart shallow-water transfer barges",
+  "manufacturer": "allseas-oem-design",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
+  ],
+  "description": "Vendor product line read 2026-11-24. Braveheart due late 2025 with electric ballast system and tidal compensation (Allseas page).",
+  "specifications": [
+    {
+      "metric": "Iron Lady deck",
+      "unit": "description",
+      "basis": "",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": "SPMT-equipped deck with ballast system (no capacity figure printed)"
+    }
+  ],
+  "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+  "sources": [
+    {
+      "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+      "source_id": "allseas-com-our-fleet-pioneering-spirit"
+    }
+  ],
+  "notes": "Braveheart due late 2025 with electric ballast system and tidal compensation (Allseas page).",
+  "last_reviewed": "2026-11-24"
+}

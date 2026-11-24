@@ -1,0 +1,114 @@
+{
+  "id": "top-modular-multi-module-topsides",
+  "name": "Modular multi-module topsides",
+  "equipment_type": "top-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "CIV"
+  ],
+  "description": "Several modules are fabricated onshore, transported offshore and installed onto a module support frame (MSF) mounted on the substructure; hook-up and commissioning then occurs offshore. Modularisation enables parallel work, accommodates the gap between total topsides weight and available crane capacity, and allows module replacement during field life.",
+  "specifications": [
+    {
+      "metric": "Miller topsides module count",
+      "unit": "modules",
+      "basis": "BP North Sea platform",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Petronius topsides total weight",
+      "unit": "tons",
+      "basis": "Chevron compliant tower; two installable modules (North and South)",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 7500
+    },
+    {
+      "metric": "Petronius North Module weight",
+      "unit": "tons (close to)",
+      "basis": "half of the whole topsides, multi-deck",
+      "source": {
+        "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+        "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "module-to-module clearance",
+      "unit": "mm",
+      "basis": "generally accepted spacing between FPSO modules; can be reduced to 600 mm between module and rack",
+      "source": {
+        "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
+        "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "module-to-rack clearance (minimum)",
+      "unit": "mm",
+      "basis": "reduced spacing between module and pipe rack",
+      "source": {
+        "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
+        "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
+      },
+      "value": 600
+    },
+    {
+      "metric": "accommodation safe zone gap",
+      "unit": "m",
+      "basis": "20 m gap or safe zone between accommodations and all process/utility modules on FPSO",
+      "source": {
+        "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
+        "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
+      },
+      "value": 20
+    },
+    {
+      "metric": "hull deck to module underside air gap",
+      "unit": "m minimum",
+      "basis": "free zone between hull, marine and topsides systems",
+      "source": {
+        "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
+        "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
+      },
+      "value": 3
+    },
+    {
+      "metric": "module length design ratio",
+      "unit": "ratio",
+      "basis": "maximum length between outer module supports for FPSO modular sections",
+      "source": {
+        "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
+        "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
+      },
+      "value": "ship length / 10"
+    }
+  ],
+  "vendors": [
+    "lamprell"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
+    },
+    {
+      "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
+      "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Several modules are fabricated onshore, transported offshore and installed onto a module support frame (MSF) mounted on the substructure; hook-up and commission"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

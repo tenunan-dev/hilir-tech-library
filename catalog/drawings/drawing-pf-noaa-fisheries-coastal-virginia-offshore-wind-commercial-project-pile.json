@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-noaa-fisheries-coastal-virginia-offshore-wind-commercial-project-pile",
+  "title": "NOAA Fisheries — Coastal Virginia Offshore Wind Commercial Project, Pile Driving Monitoring, Mitigation and Management Plan (installation sequence diagrams)",
+  "diagram_type": "schematic",
+  "description": "Pre-piling, pin-pile stabbing through seabed template, vibratory and impact hammer arrangements, and monopile installation sequence | Figures: Figure 2 Pre-piling preparation (upending & stabbing) conceptual process diagram; Figure 3 Stabbing of first pin-pile through designated sleeve of seabed placed pin-pile template; Figure 4 Cape Holland CAPE VLT-640 vibratory hammers (monopile 'Quad' and pin pile 'Single'); Figure 5 hydro hammer in vessel gripper; Figure 6 IQ4 hydraulic impact hammer with Monopile anvil (Left) and Pin Pile anvil (Right); Figure 7 Lease area overview depicting installation sequence; Figure 8 Current foreseen sequence of MP installation",
+  "publisher": "U.S. Department of Commerce, NOAA Fisheries (CVOW Commercial Project document)",
+  "url": "https://www.fisheries.noaa.gov/s3/2024-05/CVOWC-PDMP-LOA-508-OPR1.pdf",
+  "licence": "US Government publication; cite document and figure numbers. Wind-sector example of pile-driving/installation sequence — applicable method reference for jacket/pin-pile installation.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fisheries.noaa.gov/s3/2024-05/CVOWC-PDMP-LOA-508-OPR1.pdf",
+      "source_id": "fisheries-noaa-gov-2024-05-cvowc-pdmp-loa-508-opr1-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. curl + pypdf text extraction — figure list and captions confirmed (48-page PDF)",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,156 @@
+{
+  "id": "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati",
+  "name": "Semi-submersible crane vessel",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Lift integrated topsides, jackets and large modules in a single lift or tandem lift; ballast down to submerge pontoons and reduce wave/swell motion; use revolving cranes with main/auxiliary/whip hoists, heave-compensated where fitted.",
+  "specifications": [
+    {
+      "metric": "Sleipnir tandem lifting capacity",
+      "unit": "metric tons",
+      "basis": "Heerema fleet page: pair of revolving cranes can lift 20,000 metric tons",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Sleipnir main hoist capacity vs radius",
+      "unit": "t / m radius",
+      "basis": "Wikipedia SSCV Sleipnir, Design>Cranes, citing Heerema Sleipnir page",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": "10,000 t @ 27-48 m; 7,000 t @ 62 m; 4,000 t @ 82 m; max radius 102 m"
+    },
+    {
+      "metric": "Sleipnir lowering/hoisting reach",
+      "unit": "m",
+      "basis": "Wikipedia SSCV Sleipnir, Design>Cranes (main hoist)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": "20 m below waterline to 135 m above waterline at 32 m draft"
+    },
+    {
+      "metric": "Thialf tandem lift capacity",
+      "unit": "metric tons",
+      "basis": "Heerema fleet page and Wikipedia SSCV Thialf (combined maximum)",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": 14200
+    },
+    {
+      "metric": "Saipem 7000 tandem lift / per-crane capacity",
+      "unit": "t",
+      "basis": "Wikipedia Saipem 7000, Description>Heavy lift",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": "14,000 t tandem; 7,000 t per crane at 40 m radius"
+    },
+    {
+      "metric": "Aegir lifting capacity",
+      "unit": "metric tons",
+      "basis": "Heerema fleet page: monohull heavy lift vessel with 5,000 metric tons lifting capacity",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": 5000
+    },
+    {
+      "metric": "Balder guyed-mode tandem lift",
+      "unit": "metric tons",
+      "basis": "Heerema fleet page",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": 6300
+    },
+    {
+      "metric": "Boskalis Bokalift 1 / Bokalift 2 crane capacity",
+      "unit": "t",
+      "basis": "Boskalis heavy lift vessels page",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+        "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+      },
+      "value": "3,000 t / 4,000 t"
+    },
+    {
+      "metric": "Saipem 7000 ballast transfer capacity",
+      "unit": "tonnes of water per hour",
+      "basis": "Wikipedia Saipem 7000, Ballast system (4 pumps) + free flooding via 2 m valves",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": 24000
+    },
+    {
+      "metric": "Stable-lift assessment methods",
+      "unit": "list",
+      "basis": "DNV expert story 'New guidance on achieving stable lifting operations' (28 Nov 2024), Guidance on Stability of Lifts by Heavy Lift Exchange Forum",
+      "source": {
+        "url": "https://www.dnv.com/expert-story/maritime-impact/new-guidance-on-achieving-stable-lifting-operations/",
+        "source_id": "dnv-com-new-guidance-on-achieving-stable-lifting-operations"
+      },
+      "value": "Virtual CoG; Kaps; Nikitin; numerical simulation (standard & extensive)"
+    }
+  ],
+  "vendors": [
+    "heerema-marine-contractors",
+    "allseas-oem-design",
+    "saipem-ex-micoperi-7000",
+    "boskalis-dockwise-heritage",
+    "seaway7-subsea7",
+    "jan-de-nul",
+    "van-oord",
+    "cooec-cnooc-engineering",
+    "sapura-vantris-energy-incl-l-t-sapura-jv",
+    "micoperi",
+    "scaldis"
+  ],
+  "sources": [
+    {
+      "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+      "source_id": "heerema-com-heerema-marine-contractors-fleet"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+      "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+      "source_id": "en-wikipedia-org-wiki-saipem-7000"
+    },
+    {
+      "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+      "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+    },
+    {
+      "url": "https://www.dnv.com/expert-story/maritime-impact/new-guidance-on-achieving-stable-lifting-operations/",
+      "source_id": "dnv-com-new-guidance-on-achieving-stable-lifting-operations"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Lift integrated topsides, jackets and large modules in a single lift or tandem lift; ballast down to submerge pontoons and reduce wave/swell motion; use revolvi"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "dnv-com-faq-what-offshore-steel-design-codes-does-sesam-include",
+  "name": "DNV — DNV Sesam supported codes",
+  "url": "https://www.dnv.com/software/FAQ/What-offshore-steel-design-codes-does-sesam-include",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "DNV",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. DNV FAQ - What offshore steel design codes does Sesam include Evidence: https://www.dnv.com/software/FAQ/What-offshore-steel-design-codes-does-sesam-include"
+}

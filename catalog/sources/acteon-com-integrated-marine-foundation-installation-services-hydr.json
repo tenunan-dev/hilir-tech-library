@@ -1,23 +1,26 @@
 {
   "id": "acteon-com-integrated-marine-foundation-installation-services-hydr",
-  "name": "Acteon / MENCK — Menck hammer range energy",
+  "name": "Acteon.Com — Menck double-acting hammer energy range (whole spr",
   "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
   "source_type": "oem-supplier",
   "sectors": [
-    "PWR",
-    "MID"
+    "UPS",
+    "MID",
+    "PWR"
   ],
   "disciplines": [
     "CIV",
-    "MAT",
     "PRC",
-    "ROT"
+    "ROT",
+    "MAT"
   ],
-  "publisher_org": "Acteon / MENCK",
+  "publisher_org": "Acteon.Com",
   "regions": [
     "global",
     "apac",
-    "sea"
+    "sea",
+    "eu",
+    "na"
   ],
   "access": "open",
   "licence": "proprietary (site terms)",
@@ -25,5 +28,5 @@
   "quality_tier": 1,
   "verification": "verified",
   "last_verified": "2026-11-24",
-  "notes": "Page read 2026-11-24 during the civil/structural sweep. Acteon 'Hydraulic double acting impact hammers' page - hammer spread range Evidence: https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Acteon/Menck hydraulic hammers page: 'hammer spread unites double-acting hydraulic hammers (100 kJ to 6,250 kJ)' Evidence: https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
 }

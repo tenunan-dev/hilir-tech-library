@@ -1,0 +1,31 @@
+{
+  "id": "mammoet-mammoet-hydraulic-compensated-skid-shoe-system",
+  "name": "Mammoet hydraulic compensated skid shoe system",
+  "manufacturer": "mammoet",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
+  ],
+  "description": "Vendor product line read 2026-11-24. For sites without existing skidway; variable skidding speeds.",
+  "specifications": [
+    {
+      "metric": "Load-out capability",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://www.mammoet.com/offshore/topside-load-out/",
+        "source_id": "mammoet-com-topside-load-out"
+      },
+      "value": ">20,000"
+    }
+  ],
+  "url": "https://www.mammoet.com/offshore/topside-load-out/",
+  "sources": [
+    {
+      "url": "https://www.mammoet.com/offshore/topside-load-out/",
+      "source_id": "mammoet-com-topside-load-out"
+    }
+  ],
+  "notes": "For sites without existing skidway; variable skidding speeds.",
+  "last_reviewed": "2026-11-24"
+}

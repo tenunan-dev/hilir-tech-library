@@ -1,21 +1,21 @@
 # Catalog summary
 
-1251 sources in total.
+1382 sources in total.
 
 ## By sector and discipline code
 
 | Value | Sources |
 | --- | --- |
-| PRC | 1051 |
-| ROT | 746 |
-| PWR | 639 |
+| PRC | 1182 |
+| ROT | 877 |
+| PWR | 782 |
+| MID | 575 |
+| UPS | 561 |
+| CIV | 492 |
 | REF | 469 |
-| MID | 444 |
-| UPS | 428 |
-| INS | 376 |
-| CIV | 361 |
-| MAT | 309 |
-| ELE | 286 |
+| MAT | 452 |
+| INS | 364 |
+| ELE | 274 |
 | PCH | 247 |
 | GAS | 237 |
 | H2 | 232 |
@@ -29,11 +29,11 @@
 
 | Value | Sources |
 | --- | --- |
-| global | 1082 |
-| apac | 563 |
-| sea | 519 |
-| na | 489 |
-| eu | 82 |
+| global | 1213 |
+| apac | 694 |
+| sea | 650 |
+| na | 622 |
+| eu | 227 |
 | me | 18 |
 | af | 1 |
 
@@ -41,13 +41,13 @@
 
 | Value | Sources |
 | --- | --- |
-| oem-supplier | 688 |
-| agency-data | 168 |
-| research-institute | 94 |
+| oem-supplier | 790 |
+| agency-data | 169 |
+| research-institute | 118 |
 | association | 58 |
+| standards-body | 52 |
 | journal | 49 |
 | trade-media | 49 |
-| standards-body | 48 |
 | licensor | 42 |
 | conference | 24 |
 | epc-contractor | 19 |
@@ -57,7 +57,7 @@
 
 | Value | Sources |
 | --- | --- |
-| summary-only | 874 |
+| summary-only | 1005 |
 | full-text-restricted | 161 |
 | full-text-open | 107 |
 | catalog-only | 105 |
@@ -67,5 +67,5 @@
 
 | Value | Sources |
 | --- | --- |
-| verified | 965 |
-| unverified | 286 |
+| verified | 1095 |
+| unverified | 287 |

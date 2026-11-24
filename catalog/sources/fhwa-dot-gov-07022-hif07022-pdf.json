@@ -1,0 +1,32 @@
+{
+  "id": "fhwa-dot-gov-07022-hif07022-pdf",
+  "name": "U.S. Department of Transportation, Federal Highway Administration (FHWA-HIF-07-022)",
+  "url": "https://www.fhwa.dot.gov/bridge/pubs/07022/hif07022.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Fhwa.Dot.Gov",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. SPMT axle-unit configurations, longitudinal/lateral coupling, lift/jack systems, ground-pressure/base-preparation relationships and documented SPMT load-out/launch arrangements onto barges — transfera Evidence: https://www.fhwa.dot.gov/bridge/pubs/07022/hif07022.pdf"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "en-wikipedia-org-wiki-semi-submersible-platform",
+  "name": "Wikipedia — transition from fixed structures",
+  "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Wikipedia",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. Wikipedia Semi-submersible platform: drilling in water depth greater than around 520 m requires a floating vessel since fixed structures are not practical Evidence: https://en.wikipedia.org/wiki/Semi-submersible_platform"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-gorm-field",
+  "name": "Gorm field",
+  "country": "Denmark",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "12 small suction caissons for loading buoy at 40 m depth, 1981",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+      "source_id": "en-wikipedia-org-wiki-suction-caisson"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

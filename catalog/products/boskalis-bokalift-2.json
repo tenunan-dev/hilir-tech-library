@@ -1,0 +1,51 @@
+{
+  "id": "boskalis-bokalift-2",
+  "name": "Bokalift 2",
+  "manufacturer": "boskalis-dockwise-heritage",
+  "product_type": "ins-platform",
+  "equipment": [
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast"
+  ],
+  "description": "Vendor product line read 2026-11-24. DP2; commissioned 2022; MCPGF and upend hinge.",
+  "specifications": [
+    {
+      "metric": "Crane capacity",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+        "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Free deck space",
+      "unit": "m2",
+      "basis": "",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+        "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+      },
+      "value": 7500
+    },
+    {
+      "metric": "Monopile handling up to",
+      "unit": "mt",
+      "basis": "",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+        "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+      },
+      "value": 3000
+    }
+  ],
+  "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+  "sources": [
+    {
+      "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+      "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+    }
+  ],
+  "notes": "DP2; commissioned 2022; MCPGF and upend hinge.",
+  "last_reviewed": "2026-11-24"
+}

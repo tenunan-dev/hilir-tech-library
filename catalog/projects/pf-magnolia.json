@@ -1,0 +1,26 @@
+{
+  "id": "pf-magnolia",
+  "name": "Magnolia",
+  "country": "United States",
+  "location": "Garden Banks blocks 783/784, ~290 km south of Cameron, Louisiana, Gulf of Mexico",
+  "status": "under-construction",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "substructure_type: Extended tension leg platform (ETLP); four circular columns joined by rectangular pontoons, two tethers per column base | topside_type: Drilling and production topsides (owner not stated on page read) | water_depth: 1,432 m (4,698 ft) — world's deepest ETLP until Big Foot (1,580 m) in March 2018 | topside_weight: Not stated on page read | installation_method: Tethers from pontoon extensions to seabed pile foundations (design description on page read; installation vessel not stated) | contractor: Not stated on page read | dates: Big Foot overtook depth record March 2018",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Magnolia_(oil_platform)",
+      "source_id": "en-wikipedia-org-wiki-magnolia-oil-platform"
+    }
+  ],
+  "notes": "secondary source Producing (page read does not state a date)",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-hvdc-converter-platforms-borwin-type",
+  "name": "HVDC converter platforms (BorWin type)",
+  "country": "Germany",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Trelleborg lists offshore wind HVDC as an LMU application; Wikipedia HVDC pages describe float-over-type topsides jacked up after float-out (search result only, pages not read).",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
+      "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

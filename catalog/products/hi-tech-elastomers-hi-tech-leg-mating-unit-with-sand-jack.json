@@ -1,0 +1,31 @@
+{
+  "id": "hi-tech-elastomers-hi-tech-leg-mating-unit-with-sand-jack",
+  "name": "Hi-Tech Leg Mating Unit with sand jack",
+  "manufacturer": "hi-tech-elastomers",
+  "product_type": "sub-platform",
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
+  ],
+  "description": "Vendor product line read 2026-11-24. Vertical and horizontal rubber elements; optional stabbing cone.",
+  "specifications": [
+    {
+      "metric": "Load relief",
+      "unit": "mechanism",
+      "basis": "",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/",
+        "source_id": "hitechelastomers-com-leg-mating-unit"
+      },
+      "value": "sand release valve lowers plunger assembly"
+    }
+  ],
+  "url": "https://hitechelastomers.com/products/leg-mating-unit/",
+  "sources": [
+    {
+      "url": "https://hitechelastomers.com/products/leg-mating-unit/",
+      "source_id": "hitechelastomers-com-leg-mating-unit"
+    }
+  ],
+  "notes": "Vertical and horizontal rubber elements; optional stabbing cone.",
+  "last_reviewed": "2026-11-24"
+}

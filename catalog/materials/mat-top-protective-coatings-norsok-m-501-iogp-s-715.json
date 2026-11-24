@@ -1,0 +1,38 @@
+{
+  "id": "mat-top-protective-coatings-norsok-m-501-iogp-s-715",
+  "name": "Protective coatings",
+  "material_category": "corrosion-coatings",
+  "description": "Surface preparation and protective coating systems for carbon steel structures, piping and equipment in atmospheric, splash, submerged and buried zones.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Surface preparation and protective coating systems for carbon steel structures, piping and equipment in atmospheric, splash, submerged and buried zones.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Surface preparation and protective coating systems for carbon steel structures, piping and equipment in atmospheric, splash, submerged and buried zones."
+  ],
+  "standards": [],
+  "equipment": [
+    "top-offshore-topsides-definition-function-and-structural-scope",
+    "top-integrated-single-lift-topsides",
+    "top-modular-multi-module-topsides",
+    "top-module-support-frame-msf-and-deck-structures"
+  ],
+  "suppliers": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

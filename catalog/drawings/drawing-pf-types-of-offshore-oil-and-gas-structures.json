@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-types-of-offshore-oil-and-gas-structures",
+  "title": "Types of offshore oil and gas structures",
+  "diagram_type": "schematic",
+  "description": "Ten numbered structure types: 1-2 conventional fixed platforms, 3 compliant tower, 4-5 TLP/mini-TLP, 6 spar, 7-8 semi-submersibles, 9 FPSO, 10 subsea completion and tie-back to host facility | Figures: Wikimedia Commons file 'Types_of_offshore_oil_and_gas_structures.jpg' on Wikipedia Oil platform page, caption 'Types of offshore oil and gas structures'",
+  "publisher": "Wikimedia Commons / Wikipedia (secondary)",
+  "url": "https://en.wikipedia.org/wiki/Oil_platform",
+  "licence": "Wikipedia article text CC BY-SA 4.0; verify individual image licence on Commons file page.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch — image, file name, caption and numbered legend read on page",
+  "last_reviewed": "2026-11-24"
+}

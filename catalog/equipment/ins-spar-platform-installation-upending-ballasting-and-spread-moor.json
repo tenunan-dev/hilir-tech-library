@@ -1,0 +1,81 @@
+{
+  "id": "ins-spar-platform-installation-upending-ballasting-and-spread-moor",
+  "name": "SPAR platform installation — upending, ballasting and spread mooring",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Transport spar hull horizontally (wet tow or dry tow), upend by controlled ballasting/flooding, connect spread mooring (chain-wire-chain or chain-polyester-chain), then install topsides by crane or float-over.",
+  "specifications": [
+    {
+      "metric": "Spar configurations",
+      "unit": "list",
+      "basis": "Wikipedia Spar (platform), lead section; Wikipedia Oil platform, Spar platforms",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+        "source_id": "en-wikipedia-org-wiki-spar-platform"
+      },
+      "value": "classic (one-piece cylinder); truss (hard tank + truss + soft tank); cell (cluster of small cylinders)"
+    },
+    {
+      "metric": "Deepest spar / deepest mooring",
+      "unit": "m",
+      "basis": "Wikipedia Spar (platform), lead and list; Wikipedia Oil platform, deepest platforms table",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+        "source_id": "en-wikipedia-org-wiki-spar-platform"
+      },
+      "value": "Perdido truss spar, 2,438 m mean water depth; deepest seabed mooring 2,383 m"
+    },
+    {
+      "metric": "APAC spar example",
+      "unit": "m / year",
+      "basis": "Wikipedia Spar (platform), list of spar platforms",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+        "source_id": "en-wikipedia-org-wiki-spar-platform"
+      },
+      "value": "Kikeh truss spar, 1,310 m, Malaysia, 2007, Murphy Oil, designed by Technip"
+    },
+    {
+      "metric": "Cell spar example",
+      "unit": "count / m",
+      "basis": "Wikipedia Spar (platform), lead section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+        "source_id": "en-wikipedia-org-wiki-spar-platform"
+      },
+      "value": "Red Hawk: 7 cells of 8 m diameter; decommissioned 2014 under Rigs-to-Reefs"
+    },
+    {
+      "metric": "First production spar",
+      "unit": "m / date",
+      "basis": "Wikipedia Spar (platform), list and lead",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+        "source_id": "en-wikipedia-org-wiki-spar-platform"
+      },
+      "value": "Neptune, classic spar, 588 m, Gulf of Mexico, installed September 1996"
+    }
+  ],
+  "vendors": [
+    "technip-now-technipfmc",
+    "j-ray-mcdermott"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+      "source_id": "en-wikipedia-org-wiki-spar-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Transport spar hull horizontally (wet tow or dry tow), upend by controlled ballasting/flooding, connect spread mooring (chain-wire-chain or chain-polyester-chai"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

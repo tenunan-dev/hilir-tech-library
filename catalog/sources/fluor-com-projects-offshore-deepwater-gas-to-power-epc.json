@@ -1,0 +1,32 @@
+{
+  "id": "fluor-com-projects-offshore-deepwater-gas-to-power-epc",
+  "name": "Fluor.Com — Malampaya Depletion Compression Platform (DCP, Phase 3)",
+  "url": "https://www.fluor.com/projects/offshore-deepwater-gas-to-power-epc",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Fluor.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. client, DCP self-installing, 4,300 t topsides, 12,000 t load-out, bridge link, contractor scope Evidence: https://www.fluor.com/projects/offshore-deepwater-gas-to-power-epc"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pf-thunder-horse-pdq-dry-transport-not-floating-installation",
+  "name": "Thunder Horse PDQ dry transport (not floating installation)",
+  "country": "USA",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "Moved by semi-submersible heavy transport vessel Blue Marlin in 2004.",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Heavy-lift_ship",
+      "source_id": "en-wikipedia-org-wiki-heavy-lift-ship"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

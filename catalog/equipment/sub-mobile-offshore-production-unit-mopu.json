@@ -1,0 +1,39 @@
+{
+  "id": "sub-mobile-offshore-production-unit-mopu",
+  "name": "Mobile offshore production unit",
+  "equipment_type": "sub-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "PRC"
+  ],
+  "description": "Reusable mobile production facility (converted jack-up, liftboat, semi-submersible or barge) with wellbay, processing and accommodation, used for phased/early production.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Reusable mobile production facility (converted jack-up, liftboat, semi-submersible or barge) with wellbay, processing and accommodation, used for phased/early production.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "aquaterra-energy",
+    "noble-offshore"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Reusable mobile production facility (converted jack-up, liftboat, semi-submersible or barge) with wellbay, processing and accommodation, used for phased/early p"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

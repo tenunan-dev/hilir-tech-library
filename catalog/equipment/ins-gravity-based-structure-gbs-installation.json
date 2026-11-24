@@ -1,0 +1,74 @@
+{
+  "id": "ins-gravity-based-structure-gbs-installation",
+  "name": "Gravity-based structure",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Concrete or steel gravity structure built in sheltered deep water near shore, floated to site, sunk by controlled ballasting onto prepared seabed, then topsides installed by float-over or crane.",
+  "specifications": [
+    {
+      "metric": "GBS float-out and sinking",
+      "unit": "description",
+      "basis": "Wikipedia Oil platform, Fixed platforms",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": "built close to shore in Norwegian fjords/Scottish firths, floated to final position and sunk to seabed"
+    },
+    {
+      "metric": "Fixed platform economic depth limit",
+      "unit": "m",
+      "basis": "Wikipedia Oil platform, Fixed platforms",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": "up to about 520 m (1,710 ft)"
+    },
+    {
+      "metric": "Troll A gravity platform",
+      "unit": "m",
+      "basis": "Wikipedia Suction caisson, Gravity oil platforms",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": "founded in 330 m depth with 30 m long skirts; world's biggest gravity platform"
+    },
+    {
+      "metric": "Ekofisk first North Sea gravity platform",
+      "unit": "description / m",
+      "basis": "Wikipedia Suction caisson, Gravity oil platforms",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": "foundation area as big as a football field; designed for waves up to 24 m"
+    }
+  ],
+  "vendors": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+      "source_id": "en-wikipedia-org-wiki-suction-caisson"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Concrete or steel gravity structure built in sheltered deep water near shore, floated to site, sunk by controlled ballasting onto prepared seabed, then topsides"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

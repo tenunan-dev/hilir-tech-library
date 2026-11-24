@@ -1,0 +1,85 @@
+{
+  "id": "ins-survey-positioning-and-rov-support-dp-gps-underwater-inspectio",
+  "name": "Survey, positioning and ROV support",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Provide hydrographic/geophysical survey, positioning and navigation of installation vessels, subsea inspection and intervention with ROVs, and penetration/position monitoring during installation.",
+  "specifications": [
+    {
+      "metric": "Sleipnir DP accuracy",
+      "unit": "cm x cm",
+      "basis": "Wikipedia SSCV Sleipnir, Stationkeeping",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": "position held within 30 cm x 30 cm in simulated sea trials"
+    },
+    {
+      "metric": "Pioneering Spirit DP",
+      "unit": "DP class",
+      "basis": "Wikipedia Pioneering Spirit, Design",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+        "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+      },
+      "value": "DP3 via 12 azimuth thrusters"
+    },
+    {
+      "metric": "Saipem 7000 saturation diving system",
+      "unit": "persons",
+      "basis": "Wikipedia Saipem 7000, Platform installation equipment",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": "containerized 14-man system movable to any of three moon pools"
+    },
+    {
+      "metric": "DP class on Boskalis heavy-lift vessels",
+      "unit": "DP class",
+      "basis": "Boskalis heavy lift vessels page",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+        "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+      },
+      "value": "DP2 (Bokalift 1 and Bokalift 2)"
+    }
+  ],
+  "vendors": [
+    "fugro",
+    "oceaneering",
+    "vantris-energy-sapura-energy",
+    "cooec-cnooc-engineering"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+      "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
+      "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+      "source_id": "en-wikipedia-org-wiki-saipem-7000"
+    },
+    {
+      "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+      "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Provide hydrographic/geophysical survey, positioning and navigation of installation vessels, subsea inspection and intervention with ROVs, and penetration/posit"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

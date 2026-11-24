@@ -1,0 +1,45 @@
+{
+  "id": "drawing-pf-overview-of-the-malampaya-gtp-project-offshore-the-philippines-in-2-69",
+  "title": "Overview of the Malampaya GTP project offshore the Philippines in 2,690 ft of water",
+  "diagram_type": "block-diagram",
+  "description": "Five subsea wells, manifold in 2,690 ft, two 18.6-mi flowlines, shallow-water platform, 313-mi 24-in gas pipeline to Batangas, CALM buoy for condensate | Figures: Figure caption under image th_107517: 'Overview of the Malampaya GTP project offshore the Philippines in 2,690 ft of water.'",
+  "publisher": "Offshore Magazine (authors Richard Barrett, Graham Cheyne, Steve Molloy — Expro Group)",
+  "url": "https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges",
+  "licence": "Publisher copyright (Endeavor Business Media); 'summary-only'. Cite URL; do not reproduce.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-mudmats-and-jacket-base-templates",
+    "sub-suction-bucket-suction-caisson-jacket-foundations",
+    "sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con",
+    "sub-floating-power-desalination-units-and-power-service-vessels"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges",
+      "source_id": "offshore-mag-com-16759665-malampaya-development-project-presented"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch — figure caption read on page",
+  "last_reviewed": "2026-11-24"
+}

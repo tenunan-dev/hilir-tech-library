@@ -1,0 +1,32 @@
+{
+  "id": "thenavalarch-com-launching-steel-jackets",
+  "name": "Thenavalarch.Com — Principal launch stages",
+  "url": "https://thenavalarch.com/launching-steel-jackets/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Thenavalarch.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. TheNavalArch, 'Launching Steel Jackets' by Alan Crowle, Figure 1 Evidence: https://thenavalarch.com/launching-steel-jackets/"
+}

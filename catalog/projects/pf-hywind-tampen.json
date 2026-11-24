@@ -1,0 +1,25 @@
+{
+  "id": "pf-hywind-tampen",
+  "name": "Hywind Tampen",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "World's first floating wind farm built to power offshore oil and gas installations; 11 turbines, 260-300 m water depth",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com/energy/hywind-tampen",
+      "source_id": "equinor-com-energy-hywind-tampen"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

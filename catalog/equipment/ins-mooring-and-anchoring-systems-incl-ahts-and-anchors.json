@@ -1,0 +1,98 @@
+{
+  "id": "ins-mooring-and-anchoring-systems-incl-ahts-and-anchors",
+  "name": "Mooring and anchoring systems",
+  "equipment_type": "ins-platform",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Position and hold floating facilities and assist installation vessels using anchors, chain/wire/polyester lines, AHTS vessels and DP systems; includes pre-laid mooring line hook-up for FPSOs.",
+  "specifications": [
+    {
+      "metric": "Sleipnir 12-point mooring",
+      "unit": "count / t / m",
+      "basis": "Wikipedia SSCV Sleipnir, Stationkeeping",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": "12 Stevpris Mk-6 anchors of 12 t each with 1,750 m wire rope"
+    },
+    {
+      "metric": "Thialf mooring for shallow water",
+      "unit": "count / t / m / mm",
+      "basis": "Wikipedia SSCV Thialf, Layout",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Thialf",
+        "source_id": "en-wikipedia-org-wiki-sscv-thialf"
+      },
+      "value": "12 Flipper Delta anchors at 22.5 t with 2,500 m of 80 mm mooring wire"
+    },
+    {
+      "metric": "Saipem 7000 mooring system",
+      "unit": "count / m / mm / t",
+      "basis": "Wikipedia Saipem 7000, Mooring system",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": "16 anchor lines, each 3,350 m of 96 mm wire + 50 m of 92 mm chain + 40 t anchor; usable to 450 m water depth"
+    },
+    {
+      "metric": "AHTS bollard pull",
+      "unit": "t",
+      "basis": "Heerema fleet page",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": "200 t and 212 t (Heerema Bylgia and Kolga)"
+    },
+    {
+      "metric": "Spar mooring configuration",
+      "unit": "description",
+      "basis": "Wikipedia Spar (platform), lead section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+        "source_id": "en-wikipedia-org-wiki-spar-platform"
+      },
+      "value": "spread mooring of chain-wire-chain or chain-polyester-chain"
+    }
+  ],
+  "vendors": [
+    "heerema-marine-contractors",
+    "acteon-intermoor",
+    "smit-boskalis"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+      "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SSCV_Thialf",
+      "source_id": "en-wikipedia-org-wiki-sscv-thialf"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+      "source_id": "en-wikipedia-org-wiki-saipem-7000"
+    },
+    {
+      "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+      "source_id": "heerema-com-heerema-marine-contractors-fleet"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
+      "source_id": "en-wikipedia-org-wiki-spar-platform"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Position and hold floating facilities and assist installation vessels using anchors, chain/wire/polyester lines, AHTS vessels and DP systems; includes pre-laid "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

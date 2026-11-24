@@ -1,0 +1,31 @@
+{
+  "id": "orca-offshore-seacamel-orca-seacamel-direct-weld-lmu",
+  "name": "Orca/SeaCamel direct-weld LMU",
+  "manufacturer": "orca-offshore-seacamel",
+  "product_type": "ins-platform",
+  "equipment": [
+    "ins-float-over-topside-installation-barge-float-over-tidal-float-o"
+  ],
+  "description": "Vendor product line read 2026-11-24. Developed for LAM-E topside float-over.",
+  "specifications": [
+    {
+      "metric": "Innovation",
+      "unit": "mechanism",
+      "basis": "",
+      "source": {
+        "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
+        "source_id": "orca-offshore-com-leg-mating-unit"
+      },
+      "value": "direct welding after set-down; no sand-jack lowering phase"
+    }
+  ],
+  "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
+  "sources": [
+    {
+      "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
+      "source_id": "orca-offshore-com-leg-mating-unit"
+    }
+  ],
+  "notes": "Developed for LAM-E topside float-over.",
+  "last_reviewed": "2026-11-24"
+}

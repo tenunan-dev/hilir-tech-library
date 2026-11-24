@@ -1,0 +1,40 @@
+{
+  "id": "mat-sub-structural-steel-tubulars-jacket-legs-braces-piles-monopiles",
+  "name": "Structural steel tubulars",
+  "material_category": "metal",
+  "description": "Primary axial, bending and lateral load path in jackets, towers, pin piles and monopiles.",
+  "specifications": [
+    {
+      "metric": "Baldpate leg sizes",
+      "unit": "in",
+      "basis": "Offshore Technology Baldpate",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/baldpate/",
+        "source_id": "offshore-technology-com-baldpate"
+      },
+      "value": "144 in OD / 3.5-8 in wall (base); 128 in / 3.3-4 in (tower)"
+    }
+  ],
+  "applications": [
+    "Primary axial, bending and lateral load path in jackets, towers, pin piles and monopiles."
+  ],
+  "standards": [],
+  "equipment": [
+    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg",
+    "sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad",
+    "sub-wellhead-caisson-conductor-guided-single-well-structure",
+    "sub-monopod-tripod-tripile-bottom-founded-structures"
+  ],
+  "suppliers": [
+    "sif-group"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/baldpate/",
+      "source_id": "offshore-technology-com-baldpate"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

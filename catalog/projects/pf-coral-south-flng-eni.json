@@ -1,0 +1,25 @@
+{
+  "id": "pf-coral-south-flng-eni",
+  "name": "Coral South FLNG (ENI)",
+  "country": "Mozambique",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV"
+  ],
+  "description": "turret weight ~8,000 MT, HIPPS 400 bar/143 bar",
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sofec.com/wp-content/uploads/presentations/2018-Gastech-Selection-and-Optimization-of-FLNG-Mooring-Systems.pdf",
+      "source_id": "sofec-com-presentations-2018-gastech-selection-and-optimization-of"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

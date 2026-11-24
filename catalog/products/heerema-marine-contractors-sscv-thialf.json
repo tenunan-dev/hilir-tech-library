@@ -1,0 +1,41 @@
+{
+  "id": "heerema-marine-contractors-sscv-thialf",
+  "name": "SSCV Thialf",
+  "manufacturer": "heerema-marine-contractors",
+  "product_type": "ins-platform",
+  "equipment": [
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast"
+  ],
+  "description": "Vendor product line read 2026-11-24. Built 1985; lifting draft 26.6 m.",
+  "specifications": [
+    {
+      "metric": "Tandem lift",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": 14200
+    },
+    {
+      "metric": "DP class",
+      "unit": "class",
+      "basis": "",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": "III"
+    }
+  ],
+  "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+  "sources": [
+    {
+      "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+      "source_id": "heerema-com-heerema-marine-contractors-fleet"
+    }
+  ],
+  "notes": "Built 1985; lifting draft 26.6 m.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "menck-acteon-sale-to-cadeler-announced-2026-menck-mhu6000w-double-acting-hyd",
+  "name": "Menck MHU6000W double-acting hydraulic hammer",
+  "manufacturer": "menck-acteon-sale-to-cadeler-announced-2026",
+  "product_type": "ins-platform",
+  "equipment": [
+    "ins-impact-pile-driving-hammers-hydraulic-diesel-underwater"
+  ],
+  "description": "Vendor product line read 2026-11-24. Largest hammer in the printed range; 8-9 m OD UW variant 1,319 t above / 1,020 t submerged.",
+  "specifications": [
+    {
+      "metric": "Energy range",
+      "unit": "kJ",
+      "basis": "",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "200-6,250"
+    },
+    {
+      "metric": "Blow rate",
+      "unit": "bl/min",
+      "basis": "",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Oil flow",
+      "unit": "L/min",
+      "basis": "",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": 12800
+    },
+    {
+      "metric": "Operating pressure",
+      "unit": "bar",
+      "basis": "",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": 210
+    },
+    {
+      "metric": "Weight (5 m foot)",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": 700
+    }
+  ],
+  "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+  "sources": [
+    {
+      "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+      "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+    }
+  ],
+  "notes": "Largest hammer in the printed range; 8-9 m OD UW variant 1,319 t above / 1,020 t submerged.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "offshore-mag-com-55330459-fpso-fleet-correlations-calculating-tops",
+  "name": "Offshore Mag.Com — FPSO topsides weight vs oil capacity regression (a",
+  "url": "https://www.offshore-mag.com/deepwater/article/55330459/fpso-fleet-correlations-calculating-topsides-weight-vs-processing-capacity",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Mag.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "eu",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the platform substructure/topside/installation sweep. TW = 113.9 + 104.7 OIL, R2=0.55, sample of 50 FPSOs Evidence: https://www.offshore-mag.com/deepwater/article/55330459/fpso-fleet-correlations-calculating-topsides-weight-vs-processing-capacity"
+}

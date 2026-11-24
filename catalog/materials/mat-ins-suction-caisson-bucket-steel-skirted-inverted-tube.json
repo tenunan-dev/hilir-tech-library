@@ -1,0 +1,40 @@
+{
+  "id": "mat-ins-suction-caisson-bucket-steel-skirted-inverted-tube",
+  "name": "Suction caisson / bucket steel",
+  "material_category": "metal",
+  "description": "Penetrate seabed under self-weight and suction to form anchor/foundation; removable by reverse pressure",
+  "specifications": [
+    {
+      "metric": "Diana caisson dimensions",
+      "unit": "m",
+      "basis": "Wikipedia Suction caisson, History",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": "30 m high x 6.5 m diameter, ~1,500 m water depth"
+    }
+  ],
+  "applications": [
+    "Penetrate seabed under self-weight and suction to form anchor/foundation; removable by reverse pressure"
+  ],
+  "standards": [],
+  "equipment": [
+    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati",
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast",
+    "ins-float-over-topside-installation-barge-float-over-tidal-float-o",
+    "ins-leg-mating-units-lmu-elastomeric-shock-absorbers"
+  ],
+  "suppliers": [
+    "heerema"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+      "source_id": "en-wikipedia-org-wiki-suction-caisson"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "mat-ins-deck-support-units-dsu",
+  "name": "Deck support units",
+  "material_category": "steel-elastomer-assembly",
+  "description": "Transfer topside weight from barge to substructure during float-over",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Transfer topside weight from barge to substructure during float-over",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Transfer topside weight from barge to substructure during float-over"
+  ],
+  "standards": [],
+  "equipment": [
+    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati",
+    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast",
+    "ins-float-over-topside-installation-barge-float-over-tidal-float-o",
+    "ins-leg-mating-units-lmu-elastomeric-shock-absorbers"
+  ],
+  "suppliers": [
+    "trelleborg",
+    "hi-tech-elastomers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
+  "last_reviewed": "2026-11-24"
+}
