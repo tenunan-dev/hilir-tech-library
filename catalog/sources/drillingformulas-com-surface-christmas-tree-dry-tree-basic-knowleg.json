@@ -1,0 +1,31 @@
+{
+  "id": "drillingformulas-com-surface-christmas-tree-dry-tree-basic-knowleg",
+  "name": "DrillingFormulas.Com (references Applied Drilling Engineering SPE textbook, Azar, Australian Drilling Manual, Devereux)",
+  "url": "https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "DrillingFormulas",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Surface wellhead and Christmas tree assembly: master valves, wing valves, choke, swab valve, T-cap, pressure gauge, tubing hanger and casing spools; segmenting tree vs wellhead Evidence: https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/"
+}

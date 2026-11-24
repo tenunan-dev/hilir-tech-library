@@ -1,0 +1,38 @@
+{
+  "id": "ex-export-to-shore-onshore-receiving-terminal-and-sales-specifica",
+  "name": "Export to shore: onshore receiving terminal and sales specifications",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Receive gas/condensate from export pipeline offshore, separate, stabilize, store, meter and dispatch to market to sales specifications.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Receive gas/condensate from export pipeline offshore, separate, stabilize, store, meter and dispatch to market to sales specifications.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Receive gas/condensate from export pipeline offshore, separate, stabilize, store, meter and dispatch to market to sales specifications."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

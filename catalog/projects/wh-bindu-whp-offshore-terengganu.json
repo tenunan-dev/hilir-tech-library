@@ -1,0 +1,25 @@
+{
+  "id": "wh-bindu-whp-offshore-terengganu",
+  "name": "Bindu WHP, offshore Terengganu",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "New unmanned wellhead platform powered by solar energy, connected by 62 km subsea pipeline to Guntong E production hub; two wells; peak expected 75 million standard cubic feet of gas per day.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/sites/default/files/uploads/content/2026/PETRONAS%20Activity%20Outlook%202026-2028.pdf",
+      "source_id": "petronas-com-2026-petronas-20activity-20outlook-202026-2028-pdf"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

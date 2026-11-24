@@ -1,0 +1,67 @@
+{
+  "id": "wh-master-valves-wing-valves-choke-valves-and-actuators",
+  "name": "Master valves, wing valves, choke valves and actuators",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Provide well isolation, flow routing, flow control and remote/fail-safe actuation on trees and manifolds.",
+  "specifications": [
+    {
+      "metric": "master valve operating practice",
+      "unit": "operating rule",
+      "basis": "Wikipedia Christmas tree (oil well)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      },
+      "value": "normally fully open; never opened or closed while well is flowing except in emergency, to prevent erosion of sealing surfaces"
+    },
+    {
+      "metric": "lower master valve operation",
+      "unit": "configuration",
+      "basis": "Wikipedia Christmas tree (oil well)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      },
+      "value": "manually operated; upper master valve often hydraulically actuated for remote shut-in"
+    },
+    {
+      "metric": "actuated wing valve",
+      "unit": "configuration",
+      "basis": "Wikipedia Christmas tree (oil well)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      },
+      "value": "normally used to shut in the well when flowing; built fail-safe closed"
+    }
+  ],
+  "vendors": [
+    "hydropneumatic-s-r-l",
+    "technipfmc-cds-separation-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Valve bore sizes, Cv and actuator thrust for specific tree models",
+      "why": "OEM datasheets not fetched",
+      "next_action": "Fetch named OEM gate valve and choke datasheets."
+    }
+  ],
+  "applications": [
+    "Provide well isolation, flow routing, flow control and remote/fail-safe actuation on trees and manifolds."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

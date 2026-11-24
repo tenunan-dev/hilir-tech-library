@@ -1,0 +1,41 @@
+{
+  "id": "tp-water-injection-reinjection-pumps-and-seawater-treatment",
+  "name": "Water injection, reinjection pumps and seawater treatment",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Provide reservoir pressure support/disposal by filtering seawater or produced water and injecting at high pressure; remove solids/sulphate/divalent ions that cause scaling/souring.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Provide reservoir pressure support/disposal by filtering seawater or produced water and injecting at high pressure; remove solids/sulphate/divalent ions that cause scaling/souring.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "baker-hughes",
+    "onesubsea-slb-aker-solutions-jv",
+    "siemens-energy",
+    "technipfmc-cds-separation-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Provide reservoir pressure support/disposal by filtering seawater or produced water and injecting at high pressure; remove solids/sulphate/divalent ions that ca"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

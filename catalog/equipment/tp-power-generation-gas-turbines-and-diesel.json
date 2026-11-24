@@ -1,0 +1,40 @@
+{
+  "id": "tp-power-generation-gas-turbines-and-diesel",
+  "name": "Power generation — gas turbines and diesel",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Supply electrical power and mechanical drive for topside process, compression, water injection and utilities; combined-cycle and single-lift modular packages for offshore use.",
+  "specifications": [
+    {
+      "metric": "SGT-800 combined cycle range",
+      "unit": "MW",
+      "basis": "Siemens Energy SeaFloat page; page read",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",
+        "source_id": "siemens-energy-com-product-seafloat-html"
+      },
+      "value": "150-450"
+    }
+  ],
+  "vendors": [
+    "siemens-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",
+      "source_id": "siemens-energy-com-product-seafloat-html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Supply electrical power and mechanical drive for topside process, compression, water injection and utilities; combined-cycle and single-lift modular packages fo"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

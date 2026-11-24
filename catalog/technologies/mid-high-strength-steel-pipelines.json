@@ -47,7 +47,12 @@
   "key_equipment": [
     "X70 or X80 line pipe",
     "mechanised welding systems",
-    "inspection equipment"
+    "inspection equipment",
+    "export trunkline",
+    "pipe-in-pipe",
+    "rigid flowline",
+    "SCR",
+    "shore approach"
   ],
   "suppliers": [
     {
@@ -115,7 +120,7 @@
       "note": "DNV-ST-F101, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-24",
   "gaps": [
     {
       "field": "costs",
@@ -160,5 +165,5 @@
       "year": 1999
     }
   ],
-  "notes": "Process provenance: DNV-ST-F101 sets the design, line-pipe material (CMn, CRA, lined/clad), offshore construction and installation, and operating requirements for submarine pipelines."
+  "notes": "Process provenance: DNV-ST-F101 sets the design, line-pipe material (CMn, CRA, lined/clad), offshore construction and installation, and operating requirements for submarine pipelines. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24."
 }

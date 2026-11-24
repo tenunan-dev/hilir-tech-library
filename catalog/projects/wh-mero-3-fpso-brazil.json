@@ -1,0 +1,25 @@
+{
+  "id": "wh-mero-3-fpso-brazil",
+  "name": "Mero 3 FPSO, Brazil",
+  "country": "Brazil",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Siemens Energy power generation reference listed on FPSO solutions page.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/solutions-industry/oil-gas/fpso-oil-gas.html",
+      "source_id": "siemens-energy-com-oil-gas-fpso-oil-gas-html"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

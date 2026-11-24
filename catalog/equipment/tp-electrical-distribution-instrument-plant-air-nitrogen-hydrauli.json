@@ -1,0 +1,51 @@
+{
+  "id": "tp-electrical-distribution-instrument-plant-air-nitrogen-hydrauli",
+  "name": "Electrical distribution, instrument/plant air, nitrogen, hydraulic power, seawater/lift pumps, HVAC, firewater",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Support utilities and safety systems that make the process train operable: power distribution, pneumatic control air, inerting, actuation power, cooling/firewater, lifting and living quarters.",
+  "specifications": [
+    {
+      "metric": "Instrument air package equipment",
+      "unit": "list",
+      "basis": "SPEC Utility Systems page; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+        "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+      },
+      "value": "rotary screw, oil-free screw or reciprocating compressors; KO drum, filters, refrigerated or adsorption dryers; receiver tanks, piping, instrumentation, valves"
+    },
+    {
+      "metric": "Utility scope linkage",
+      "unit": "qualitative",
+      "basis": "SPEC Utility Systems page; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+        "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+      },
+      "value": "utility scope follows process equipment: what has to be heated, cooled, driven, instrumented and drained"
+    }
+  ],
+  "vendors": [
+    "spec-oil-gas-technologies-fabricator",
+    "siemens-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+      "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Support utilities and safety systems that make the process train operable: power distribution, pneumatic control air, inerting, actuation power, cooling/firewat"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

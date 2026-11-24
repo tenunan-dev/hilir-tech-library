@@ -1,0 +1,46 @@
+{
+  "id": "wh-unmanned-wellhead-platform-uwhp",
+  "name": "Unmanned wellhead platform",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Normally unmanned installation with well bay, minimal facilities, remote operation and occasional visit for maintenance or well work.",
+  "specifications": [
+    {
+      "metric": "definition of NUI",
+      "unit": "qualitative",
+      "basis": "Wikipedia Oil platform, Normally Unmanned Installations section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": "small platforms consisting of little more than a well bay, helipad and emergency shelter; operated remotely under normal conditions"
+    }
+  ],
+  "vendors": [
+    "shell-malaysia-exploration-and-production"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "W2W transfer criteria and manning model for UWHPs",
+      "why": "SODIR report only summarized in search snippet",
+      "next_action": "Fetch full SODIR PDF."
+    }
+  ],
+  "applications": [
+    "Normally unmanned installation with well bay, minimal facilities, remote operation and occasional visit for maintenance or well work."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

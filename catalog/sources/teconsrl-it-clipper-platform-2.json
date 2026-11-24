@@ -1,0 +1,31 @@
+{
+  "id": "teconsrl-it-clipper-platform-2",
+  "name": "Teconsrl.It — Clipper PH platform, UK North Sea",
+  "url": "https://teconsrl.it/project/clipper-platform-2/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Teconsrl.It",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Four-legged jacket at 22 m water depth; 800 tonne jacket structural weight; topside operating weight 3,500 tonnes; seven-level PLQ module accommodating 84 perso Evidence: https://teconsrl.it/project/clipper-platform-2/"
+}

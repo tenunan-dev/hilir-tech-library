@@ -1,0 +1,25 @@
+{
+  "id": "wh-amal-c-bridge-link-gulf-of-suez",
+  "name": "AMAL-C bridge link, Gulf of Suez",
+  "country": "Egypt",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Bridge link provided access between AMAL-C and existing AMAL-B production platform; AMAL-C includes helideck and small accommodation module for emergency purposes.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://aquaterraenergy.com/delivering-a-jacket-supported-platform-in-a-seismic-region-in-the-gulf-of-suez",
+      "source_id": "aquaterraenergy-com-aquaterraenergy-com-delivering-a-jacket-suppor"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

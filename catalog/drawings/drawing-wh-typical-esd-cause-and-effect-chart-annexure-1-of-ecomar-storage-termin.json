@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-typical-esd-cause-and-effect-chart-annexure-1-of-ecomar-storage-termin",
+  "title": "Typical ESD Cause and Effect chart (Annexure-1 of Ecomar Storage Terminal ESD Philosophy)",
+  "diagram_type": "schematic",
+  "description": "Typical ESD cause-and-effect chart for terminal facilities plus shutdown level hierarchy (APS, ESD I, ESD II, PSD total/partial) and layered safety systems against fire/explosion",
+  "publisher": "Ecomar Storage Solution FZC LLC / EPC contractor (ESD Philosophy Rev A, 15 Feb 2024)",
+  "url": "https://cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/flex031/uploads/pdfjscommunity/original/2X/6/686af929c0ae2573d8470b0b680c568fa0fad42e.pdf",
+  "licence": "Project-controlled document on a third-party S3 host; use as pointer only, verify original before reuse",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/flex031/uploads/pdfjscommunity/original/2X/6/686af929c0ae2573d8470b0b680c568fa0fad42e.pdf",
+      "source_id": "cdck-file-uploads-canada1-s3-dualstack-ca-central-1-amazonaws-com"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

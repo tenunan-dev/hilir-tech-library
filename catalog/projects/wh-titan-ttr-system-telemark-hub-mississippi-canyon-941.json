@@ -1,0 +1,25 @@
+{
+  "id": "wh-titan-ttr-system-telemark-hub-mississippi-canyon-941",
+  "name": "Titan TTR system, Telemark Hub, Mississippi Canyon 941",
+  "country": "United States",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Approximately 4,000 ft water depth; TTR support frame near top of column; six dry tree riser slots, three planned for initial development; riser bottom connected to 18-3/4 in wellhead profile with hydraulically actuated connector; post-Katrina 1,000-year hurricane robustness checks.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://onepetro.org/OTCONF/proceedings-pdf/10OTC/10OTC/OTC-21024-MS/1719423/otc-21024-ms.pdf",
+      "source_id": "onepetro-org-1719423-otc-21024-ms-pdf"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

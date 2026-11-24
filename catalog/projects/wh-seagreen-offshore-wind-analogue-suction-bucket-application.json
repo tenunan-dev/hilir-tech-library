@@ -1,0 +1,25 @@
+{
+  "id": "wh-seagreen-offshore-wind-analogue-suction-bucket-application",
+  "name": "Seagreen offshore wind (analogue suction bucket application)",
+  "country": "Scotland/UK",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "114 jackets 2,000-2,250 t, 77.5-93 m height, suction caisson diameter 10.5-11.5 m; scour protection and grouting; 312 km 66 kV cables",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.subsea7.com/content/dam/subsea7-corporate2018/Datasheets/subsea7-brochures/2023/Seaway7_Seagreen.pdf.downloadasset.pdf",
+      "source_id": "subsea7-com-2023-seaway7-seagreen-pdf-downloadasset-pdf"
+    }
+  ],
+  "notes": "search-verified; wind-sector analogue not oil & gas",
+  "last_reviewed": "2026-11-24"
+}

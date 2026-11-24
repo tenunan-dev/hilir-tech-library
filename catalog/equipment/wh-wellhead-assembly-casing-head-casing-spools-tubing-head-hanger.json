@@ -1,0 +1,107 @@
+{
+  "id": "wh-wellhead-assembly-casing-head-casing-spools-tubing-head-hanger",
+  "name": "Wellhead assembly",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Provides structural suspension and pressure seals for casing and tubing strings, annulus monitoring/pumping access, BOP attachment during drilling and Christmas tree attachment during production.",
+  "specifications": [
+    {
+      "metric": "primary component list",
+      "unit": "component list",
+      "basis": "Wikipedia Wellhead, Components section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Wellhead",
+        "source_id": "en-wikipedia-org-wiki-wellhead"
+      },
+      "value": "casing head, casing spools, casing hangers, choke manifold, packoffs, test plugs, mudline suspension systems, tubing heads, tubing hangers, tubing head adapter"
+    },
+    {
+      "metric": "nominal pressure ratings (general wellheads)",
+      "unit": "x1000 psi working pressure (i.e. 2,000-15,000 psi); five ratings: 2, 3, 5, 10, 15",
+      "basis": "Wikipedia Wellhead, Design specification section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Wellhead",
+        "source_id": "en-wikipedia-org-wiki-wellhead"
+      },
+      "low": 2,
+      "high": 15
+    },
+    {
+      "metric": "operating temperature range (general)",
+      "unit": "degrees Fahrenheit",
+      "basis": "Wikipedia Wellhead, Design specification section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Wellhead",
+        "source_id": "en-wikipedia-org-wiki-wellhead"
+      },
+      "low": -50,
+      "high": 250
+    },
+    {
+      "metric": "material yield strength range",
+      "unit": "psi",
+      "basis": "Wikipedia Wellhead, Design specification section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Wellhead",
+        "source_id": "en-wikipedia-org-wiki-wellhead"
+      },
+      "low": 36000,
+      "high": 75000
+    },
+    {
+      "metric": "subsea wellhead primary barrier statement",
+      "unit": "qualitative",
+      "basis": "OneSubsea subsea wellheads page",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
+      },
+      "value": "Wellheads are the primary pressure barrier for a subsea well; anchor and suspension point and seal element for casing strings"
+    },
+    {
+      "metric": "welding/qualification standards cited by OneSubsea",
+      "unit": "standard list",
+      "basis": "OneSubsea subsea wellheads page, Application section",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
+      },
+      "value": "API Spec 6A and 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 fatigue classes F3, D or C1"
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv",
+    "technipfmc-cds-separation-systems",
+    "oms-oilfield-manufacturers-and-supplies",
+    "camtop-oilfield-tools",
+    "cameron-slb"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Wellhead",
+      "source_id": "en-wikipedia-org-wiki-wellhead"
+    },
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
+      "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "API 6A 21st edition full pressure/temperature derating table and PSL minimums by material class",
+      "why": "Only brochure snippets and PDF search result available",
+      "next_action": "Fetch full SLB API 6A brochure PDF and exal technology PDF."
+    }
+  ],
+  "applications": [
+    "Provides structural suspension and pressure seals for casing and tubing strings, annulus monitoring/pumping access, BOP attachment during drilling and Christmas"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

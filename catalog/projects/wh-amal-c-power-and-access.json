@@ -1,0 +1,25 @@
+{
+  "id": "wh-amal-c-power-and-access",
+  "name": "AMAL-C power and access",
+  "country": "Egypt",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Two diesel generators (one emergency back-up), helideck access or boat transfer, small accommodation module.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://aquaterraenergy.com/delivering-a-jacket-supported-platform-in-a-seismic-region-in-the-gulf-of-suez",
+      "source_id": "aquaterraenergy-com-aquaterraenergy-com-delivering-a-jacket-suppor"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

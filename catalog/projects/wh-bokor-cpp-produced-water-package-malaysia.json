@@ -1,0 +1,25 @@
+{
+  "id": "wh-bokor-cpp-produced-water-package-malaysia",
+  "name": "BOKOR CPP produced water package, Malaysia",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "80,000 BWPD; 3x50% pumps/hydrocyclones + 100% CFU; guaranteed 30 ppm OIW; MMHE/PETRONAS Carigali.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://issprocess.com/technology/water-treatment/bokor-cpp-produced-water-treatment-package/",
+      "source_id": "issprocess-com-bokor-cpp-produced-water-treatment-package"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

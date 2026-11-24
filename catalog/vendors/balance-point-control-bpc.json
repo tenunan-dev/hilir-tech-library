@@ -1,0 +1,24 @@
+{
+  "id": "balance-point-control-bpc",
+  "name": "Balance Point Control (BPC)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Balance Point Control (BPC) is named as a supplier on a page read during the wellhead-platform sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Coiled_tubing",
+      "source_id": "en-wikipedia-org-wiki-coiled-tubing"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 wellhead-platform sweep."
+}

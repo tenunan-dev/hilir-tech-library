@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-30-cfr-250-855-requirement-to-maintain-an-esd-schematic",
+  "title": "30 CFR 250.855 - requirement to maintain an ESD schematic",
+  "diagram_type": "schematic",
+  "description": "Regulatory requirement for platform emergency shutdown system schematics and conformance to API RP 14C Appendix C section C1; 30 CFR 250.841 requires API RP 14C safety systems on platform production facilities",
+  "publisher": "US Government Publishing Office / eCFR (BSEE regulations)",
+  "url": "https://www.ecfr.gov/current/title-30/section-250.855",
+  "licence": "US government regulation - public domain text; cite section number",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ecfr.gov/current/title-30/section-250.855",
+      "source_id": "ecfr-gov-title-30-section-250-855"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

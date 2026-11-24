@@ -1,0 +1,31 @@
+{
+  "id": "cdck-file-uploads-canada1-s3-dualstack-ca-central-1-amazonaws-com",
+  "name": "Ecomar Storage Solution FZC LLC / EPC contractor (ESD Philosophy Rev A, 15 Feb 2024)",
+  "url": "https://cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/flex031/uploads/pdfjscommunity/original/2X/6/686af929c0ae2573d8470b0b680c568fa0fad42e.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Cdck File Uploads Canada1.S3.Dualstack.Ca Central 1.Amazonaws.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Typical ESD cause-and-effect chart for terminal facilities plus shutdown level hierarchy (APS, ESD I, ESD II, PSD total/partial) and layered safety systems against fire/explosion Evidence: https://cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/flex031/uploads/pdfjscommunity/original/2X/6/686af929c0ae2573d8470b0b680c568fa0fad42e.pdf"
+}

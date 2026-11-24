@@ -1,0 +1,25 @@
+{
+  "id": "wh-akpo-field-nigeria-subsea-tree-manifold-reference",
+  "name": "Akpo field, Nigeria (subsea tree/manifold reference)",
+  "country": "Nigeria",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Each tree provided with a choke valve; tree operations controlled and monitored via dedicated Tree Control Modules (TCM); production loop manifolds at nine drill centres each allow up to four wells; 10-inch production manifolds with dual valve blocks and gas lift valves.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.referencebook.iasp.tgscloud.net/TOTAL_Handbooks/Akpo-Handbook.pdf",
+      "source_id": "referencebook-iasp-tgscloud-net-total-handbooks-akpo-handbook-pdf"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

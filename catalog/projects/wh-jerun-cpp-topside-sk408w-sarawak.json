@@ -1,0 +1,25 @@
+{
+  "id": "wh-jerun-cpp-topside-sk408w-sarawak",
+  "name": "Jerun CPP topside, SK408W, Sarawak",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Approximately 15,000 MT topside to be installed with 11,200 MT jacket; client SapuraOMV, with Shell and PETRONAS Carigali at 30% each.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.oedigital.com/news/512208-mmhe-delivers-topside-for-jerun-gas-field-platform-offshore-malaysia",
+      "source_id": "oedigital-com-news-512208-mmhe-delivers-topside-for-jerun-gas-fiel"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

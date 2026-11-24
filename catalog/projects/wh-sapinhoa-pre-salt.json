@@ -1,0 +1,25 @@
+{
+  "id": "wh-sapinhoa-pre-salt",
+  "name": "Sapinhoa pre-salt",
+  "country": "Brazil",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Prysmian umbilical record 2,500 m water depth (2015), in partnership with Petrobras",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.prysmian.com/en/insight/construction-and-industries/subsea-umbilicals-risers-and-flowlines-surf",
+      "source_id": "prysmian-com-construction-and-industries-subsea-umbilicals-risers"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

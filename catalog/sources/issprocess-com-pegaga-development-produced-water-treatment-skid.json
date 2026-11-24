@@ -1,0 +1,31 @@
+{
+  "id": "issprocess-com-pegaga-development-produced-water-treatment-skid",
+  "name": "ISS Process — Malaysia PEGAGA guarantee",
+  "url": "https://issprocess.com/technology/water-treatment/pegaga-development-produced-water-treatment-skid/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "ISS Process",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. ISS Process project page; page read Evidence: https://issprocess.com/technology/water-treatment/pegaga-development-produced-water-treatment-skid/"
+}

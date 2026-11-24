@@ -1,0 +1,25 @@
+{
+  "id": "wh-omv-mehar-sour-gas-processing-facility-pakistan",
+  "name": "OMV Mehar sour gas processing facility, Pakistan",
+  "country": "Pakistan",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Gas compression within 30 MMSCFD sour gas plant, 2013; SPEC scope.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/gas-conditioning/compressor-packages",
+      "source_id": "specoilandgas-com-gas-conditioning-compressor-packages"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

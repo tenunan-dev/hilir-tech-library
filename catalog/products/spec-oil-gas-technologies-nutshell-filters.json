@@ -1,0 +1,41 @@
+{
+  "id": "spec-oil-gas-technologies-nutshell-filters",
+  "name": "Nutshell Filters",
+  "manufacturer": "spec-oil-gas-technologies-fabricator",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "outlet quality",
+      "unit": "ppm",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters",
+        "source_id": "specoilandgas-com-produced-water-treatment-nutshell-filters"
+      },
+      "value": "as low as 5 ppm OIW"
+    },
+    {
+      "metric": "minimum filters",
+      "unit": "count",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters",
+        "source_id": "specoilandgas-com-produced-water-treatment-nutshell-filters"
+      },
+      "value": "2 (one online, one regenerating/standby)"
+    }
+  ],
+  "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters",
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters",
+      "source_id": "specoilandgas-com-produced-water-treatment-nutshell-filters"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

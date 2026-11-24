@@ -1,0 +1,25 @@
+{
+  "id": "wh-pegaga-development-malaysia",
+  "name": "PEGAGA development, Malaysia",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "12,000 BWPD; hydrocyclones + CFU; 2,000 to 20 ppm OIW; Sapura Energy/Mubadala Petroleum.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://issprocess.com/technology/water-treatment/pegaga-development-produced-water-treatment-skid/",
+      "source_id": "issprocess-com-pegaga-development-produced-water-treatment-skid"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "wh-fixed-jacket-wellhead-platform",
+  "name": "Fixed jacket wellhead platform",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "A fixed, pile-founded tubular steel substructure supporting a topside that houses wellheads, Christmas trees, well control and minimum processing; the wells are drilled and completed from the platform.",
+  "specifications": [
+    {
+      "metric": " economically feasible water depth (fixed platforms generally)",
+      "unit": "m (about 150 m cited on Fixed platform page)",
+      "basis": "Fixed platforms economically feasible up to about 500 feet (150 m); Oil platform page separately states up to about 520 m (1,710 ft) — conflicting figures between two fetched pages, neither preferred",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Fixed_platform",
+        "source_id": "en-wikipedia-org-wiki-fixed-platform"
+      },
+      "value": 500
+    },
+    {
+      "metric": "jacket function",
+      "unit": "qualitative",
+      "basis": "ESDEP lecture 15A.1 section 4.1",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "value": "braced tubular steel substructure; supports laterally and protects well conductors and pipeline riser"
+    },
+    {
+      "metric": "well conductor size protected by jacket",
+      "unit": "inch",
+      "basis": "ESDEP lecture 15A.1 section 4.1",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "low": 26,
+      "high": 30
+    },
+    {
+      "metric": "typical air gap (topside clearance above maximum wave)",
+      "unit": "m (approximately)",
+      "basis": "ESDEP lecture 15A.1 section 2.2; to be increased if reservoir depletion causes subsidence",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "value": 1.5
+    },
+    {
+      "metric": "applicable structural standard",
+      "unit": "standard designation",
+      "basis": "ESDEP 15A.1 section 2.4 and references; ISO 19902:2020 abstract (search-verified)",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "value": "API RP 2A (worldwide leading code); ISO 19902:2020; DNV rules; AISC and AWS D1.1 for topsides and welding"
+    }
+  ],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "aquaterra-energy",
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Fixed_platform",
+      "source_id": "en-wikipedia-org-wiki-fixed-platform"
+    },
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Current edition/date of API RP 2A (WSD and LRFD) and its exact status versus ISO 19902",
+      "why": "Only historical 18th/1989 and 21st edition references appear on the pages read; API paywalled",
+      "next_action": "Fetch API standards catalogue pages for RP 2A-WSD and RP 2A-LRFD current editions."
+    }
+  ],
+  "applications": [
+    "A fixed, pile-founded tubular steel substructure supporting a topside that houses wellheads, Christmas trees, well control and minimum processing; the wells are"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

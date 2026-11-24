@@ -1,0 +1,25 @@
+{
+  "id": "wh-akpo-field-manifolds-nigeria",
+  "name": "Akpo field manifolds, Nigeria",
+  "country": "Nigeria",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Nine drill centres, each with an identical 10-inch production loop manifold; each manifold handles up to four wells; flowline jumper spools to a pair of production flowlines; ROV-operated valves and methanol injection on gas injection manifold branches.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.referencebook.iasp.tgscloud.net/TOTAL_Handbooks/Akpo-Handbook.pdf",
+      "source_id": "referencebook-iasp-tgscloud-net-total-handbooks-akpo-handbook-pdf"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

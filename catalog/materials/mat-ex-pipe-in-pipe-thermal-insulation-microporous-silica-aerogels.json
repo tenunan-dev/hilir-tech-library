@@ -1,0 +1,40 @@
+{
+  "id": "mat-ex-pipe-in-pipe-thermal-insulation-microporous-silica-aerogels",
+  "name": "Pipe-in-pipe thermal insulation",
+  "material_category": "insulation",
+  "description": "Maintain fluid temperature above wax/hydrate formation; second containment barrier",
+  "specifications": [
+    {
+      "metric": "Installed PiP length",
+      "unit": "km",
+      "basis": "TechnipFMC",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+        "source_id": "technipfmc-com-rigid-pipelines"
+      },
+      "value": 1100
+    }
+  ],
+  "applications": [
+    "Maintain fluid temperature above wax/hydrate formation; second containment barrier"
+  ],
+  "standards": [],
+  "equipment": [
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-wellheads-conductors-and-mudline-wellhead-systems-hpht",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "suppliers": [
+    "technipfmc-cds-separation-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+      "source_id": "technipfmc-com-rigid-pipelines"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-1-christmas-tree-and-well-head-diagram-surface-dry-tree",
+  "title": "Figure 1 - Christmas Tree and Well Head Diagram (surface dry tree)",
+  "diagram_type": "schematic",
+  "description": "Surface wellhead and Christmas tree assembly: master valves, wing valves, choke, swab valve, T-cap, pressure gauge, tubing hanger and casing spools; segmenting tree vs wellhead",
+  "publisher": "DrillingFormulas.Com (references Applied Drilling Engineering SPE textbook, Azar, Australian Drilling Manual, Devereux)",
+  "url": "https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/",
+  "licence": "Blog copyright; figures credited to textbook references - cite source; no open reuse licence stated",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/",
+      "source_id": "drillingformulas-com-surface-christmas-tree-dry-tree-basic-knowleg"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

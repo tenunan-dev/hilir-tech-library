@@ -1,0 +1,31 @@
+{
+  "id": "process-honeywell-com-doc-list-lng-casestudy-wison-fg-en-pdf",
+  "name": "Honeywell — Wison FLNG / FSRU (China)",
+  "url": "https://process.honeywell.com/content/dam/process/en/documents/document-lists/doc-list-lng/CaseStudy-Wison-FG-EN.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Honeywell",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Honeywell scope: Experion PKS DCS, ESD, Safety Manager SIS, F&G, field equipment/FDM and HIPPS; completed one month ahead of schedule and project cost reduced 2 Evidence: https://process.honeywell.com/content/dam/process/en/documents/document-lists/doc-list-lng/CaseStudy-Wison-FG-EN.pdf"
+}

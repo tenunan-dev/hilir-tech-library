@@ -1,0 +1,25 @@
+{
+  "id": "wh-pegaga-flare-ignition-package-malaysia",
+  "name": "Pegaga flare ignition package, Malaysia",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Tai Crest Resources awarded contract to supply flare ignition package in 2019.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/pegaga-gas-field-development",
+      "source_id": "offshore-technology-com-projects-pegaga-gas-field-development"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

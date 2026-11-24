@@ -1,0 +1,24 @@
+{
+  "id": "us-epa-natural-gas-star-program",
+  "name": "US EPA Natural Gas STAR Program",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "US EPA Natural Gas STAR Program is named as a supplier on a page read during the wellhead-platform sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+      "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 wellhead-platform sweep."
+}

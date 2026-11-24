@@ -1124,7 +1124,7 @@ flowchart LR
     PUMP --> OUT
 ```
 
-**Key equipment:** multiphase pumps, electric motors, power and control umbilicals, subsea controls.
+**Key equipment:** multiphase pumps, electric motors, power and control umbilicals, subsea controls, multiphase pump, subsea separator, wet-gas meter, electric choke.
 
 **Performance:**
 - Pazflor boost differential pressure: 105 bar (max); 13.8 MW, 800 m, 2011. [source](https://www.oedigital.com/news/458098-deepwater-production-gets-high-pressure-boost)
@@ -1138,7 +1138,7 @@ flowchart LR
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, open). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.oedigital.com/news/458098-deepwater-production-gets-high-pressure-boost), [2](http://www.findingpetroleum.com/n/Baker-Hughes-installs-subsea-pumps-at-Perdido-field/8c0b00f8.aspx), [3](https://mcedd.com/wp-content/uploads/Arne%20B.%20Olsen%20-%20OneSubsea.pdf). Last reviewed 2026-11-17.
+Sources: [1](https://www.oedigital.com/news/458098-deepwater-production-gets-high-pressure-boost), [2](http://www.findingpetroleum.com/n/Baker-Hughes-installs-subsea-pumps-at-Perdido-field/8c0b00f8.aspx), [3](https://mcedd.com/wp-content/uploads/Arne%20B.%20Olsen%20-%20OneSubsea.pdf). Last reviewed 2026-11-24.
 
 ## Subsea gas compression
 <a id="ups-subsea-gas-compression"></a>
@@ -1187,7 +1187,7 @@ flowchart LR
     MAN --> HOST
 ```
 
-**Key equipment:** subsea trees, manifolds, umbilicals, control systems, flowlines.
+**Key equipment:** subsea trees, manifolds, umbilicals, control systems, flowlines, subsea tree, subsea wellhead, manifold/PLET, umbilical and SCM, flexible flowline, SCR, subsea boosting, CALM/SPM export.
 
 **Performance:**
 - subsea tree awards in 2024: 255 units; 12% below 2023. [source](https://www.westwoodenergy.com/sectors/offshore-energy-services/subsea-equipment-and-services/global-subsea-tree-tracker-2025)
@@ -1200,7 +1200,7 @@ flowchart LR
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; depth-record developments (Perdido/Tobago) are recorded in performance. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.technipfmc.com/en/media/news/2025/05/technipfmc-marks-milestone-100th-subsea-20-tree-delivery-with-client-that-placed-first-order/), [2](https://www.westwoodenergy.com/sectors/offshore-energy-services/subsea-equipment-and-services/global-subsea-tree-tracker-2025), [3](https://www.ogj.com/general-interest/companies/article/17268670/shell-sets-record-with-perdido-offshore-well-completion), [4](https://www.slb.com/-/media/files/oilfield-review/defining-subsea-infrastructure.ashx). Last reviewed 2026-11-17.
+Sources: [1](https://www.technipfmc.com/en/media/news/2025/05/technipfmc-marks-milestone-100th-subsea-20-tree-delivery-with-client-that-placed-first-order/), [2](https://www.westwoodenergy.com/sectors/offshore-energy-services/subsea-equipment-and-services/global-subsea-tree-tracker-2025), [3](https://www.ogj.com/general-interest/companies/article/17268670/shell-sets-record-with-perdido-offshore-well-completion), [4](https://www.slb.com/-/media/files/oilfield-review/defining-subsea-infrastructure.ashx). Last reviewed 2026-11-24.
 
 ## Thermal EOR (steam flood, SAGD, CSS)
 <a id="ups-thermal-eor"></a>

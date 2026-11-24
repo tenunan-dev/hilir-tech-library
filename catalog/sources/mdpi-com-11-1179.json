@@ -1,0 +1,31 @@
+{
+  "id": "mdpi-com-11-1179",
+  "name": "MDPI Journal of Marine Science and Engineering 9(11):1179 (2021)",
+  "url": "https://www.mdpi.com/2077-1312/9/11/1179",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Mdpi.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Lazy-wave hose/riser configuration, CALM buoy catenary mooring schematic, geometry parameter definitions and force loads on floating/submarine hose segments Evidence: https://www.mdpi.com/2077-1312/9/11/1179"
+}

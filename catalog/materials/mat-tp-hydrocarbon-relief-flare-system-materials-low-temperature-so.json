@@ -1,0 +1,42 @@
+{
+  "id": "mat-tp-hydrocarbon-relief-flare-system-materials-low-temperature-so",
+  "name": "Hydrocarbon-relief / flare system materials",
+  "material_category": "metals-carbon-stainless-for-relief-servi",
+  "description": "KO drums, flare headers and tips exposed to blowdown cooling and sour/chloride-containing relief streams.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "KO drums, flare headers and tips exposed to blowdown cooling and sour/chloride-containing relief streams.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "applications": [
+    "KO drums, flare headers and tips exposed to blowdown cooling and sour/chloride-containing relief streams."
+  ],
+  "standards": [],
+  "equipment": [
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "tp-inlet-scrubbers-gas-scrubbers-slug-catchers",
+    "tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones",
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "suppliers": [
+    "ergil",
+    "oilpro",
+    "flaretech-inc",
+    "cra-combustion-research-associates",
+    "allmarc-industries"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

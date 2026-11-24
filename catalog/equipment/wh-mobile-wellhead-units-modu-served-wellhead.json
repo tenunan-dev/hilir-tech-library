@@ -1,0 +1,61 @@
+{
+  "id": "wh-mobile-wellhead-units-modu-served-wellhead",
+  "name": "Mobile wellhead units / MODU-served wellhead",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Wellheads and trees served from a mobile offshore drilling unit or intervention vessel instead of a permanent platform; includes subsea wellheads tied back to a host.",
+  "specifications": [
+    {
+      "metric": "jack-up rig depth range for exploration wells",
+      "unit": "m",
+      "basis": "ESDEP 15A.1 section 3.1",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "low": 100,
+      "high": 120
+    },
+    {
+      "metric": "offshore wellhead location terminology",
+      "unit": "qualitative",
+      "basis": "Wikipedia Wellhead",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Wellhead",
+        "source_id": "en-wikipedia-org-wiki-wellhead"
+      },
+      "value": "surface wellhead on production platform; subsea/mudline wellhead below water"
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wellhead",
+      "source_id": "en-wikipedia-org-wiki-wellhead"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named mobile wellhead unit products and their ratings",
+      "why": "No fetchable OEM page found for 'mobile wellhead units' within this research pass",
+      "next_action": "Search OEM catalogs for riserless/mobile wellhead systems and fetch."
+    }
+  ],
+  "applications": [
+    "Wellheads and trees served from a mobile offshore drilling unit or intervention vessel instead of a permanent platform; includes subsea wellheads tied back to a"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

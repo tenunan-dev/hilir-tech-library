@@ -1,0 +1,25 @@
+{
+  "id": "wh-dno-block-47-early-production-facility-yemen",
+  "name": "DNO Block 47 early production facility, Yemen",
+  "country": "Yemen",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "SPEC horizontal three-phase separator skid reference, 2015.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
+      "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

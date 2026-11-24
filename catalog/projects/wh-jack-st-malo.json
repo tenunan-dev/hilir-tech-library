@@ -1,0 +1,25 @@
+{
+  "id": "wh-jack-st-malo",
+  "name": "Jack & St Malo",
+  "country": "Gulf of Mexico/USA",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Chevron power umbilicals installed August 2014 at about 2,400 m - deepest power umbilical installation for Nexans",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://hidrocaven.com/img/manuales/aplicacion-submarina.pdf",
+      "source_id": "hidrocaven-com-manuales-aplicacion-submarina-pdf"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

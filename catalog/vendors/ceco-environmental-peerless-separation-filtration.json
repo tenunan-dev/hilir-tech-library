@@ -1,0 +1,24 @@
+{
+  "id": "ceco-environmental-peerless-separation-filtration",
+  "name": "CECO Environmental (Peerless Separation & Filtration)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "CECO Environmental (Peerless Separation & Filtration) is named as a supplier on a page read during the wellhead-platform sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
+      "source_id": "specoilandgas-com-produced-water-treatment-hydrocyclone-separators"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 wellhead-platform sweep."
+}

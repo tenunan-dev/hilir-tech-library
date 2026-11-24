@@ -1,0 +1,40 @@
+{
+  "id": "ex-flexible-pipes-jumpers-and-bundled-flowlines",
+  "name": "Flexible pipes, jumpers and bundled flowlines",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Compliant pipe for connection of floating vessels/subsea equipment; flowlines, jumpers, risers, fluid transfer lines; bundled multiple services in one carrier pipe.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Compliant pipe for connection of floating vessels/subsea equipment; flowlines, jumpers, risers, fluid transfer lines; bundled multiple services in one carrier pipe.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "baker-hughes",
+    "technipfmc-cds-separation-systems",
+    "subsea7-swagelining-all-polymer-liner"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Compliant pipe for connection of floating vessels/subsea equipment; flowlines, jumpers, risers, fluid transfer lines; bundled multiple services in one carrier p"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "mat-tp-methyldiethanolamine-mdea-and-formulated-amines",
+  "name": "Methyldiethanolamine",
+  "material_category": "chemical-acid-gas-solvent",
+  "description": "Selectively remove H2S (and, with activators, CO2) from sour gas by reversible chemical absorption.",
+  "specifications": [
+    {
+      "metric": "MDEA selectivity / CAS",
+      "unit": "CAS / function",
+      "basis": "BASF OASE Formulations & Solvents page; page read",
+      "source": {
+        "url": "https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/formulations-and-solvents",
+        "source_id": "energy-resources-basf-com-gas-treatment-oase-formulations-and-solv"
+      },
+      "value": "selective H2S removal; CAS 105-59-9"
+    }
+  ],
+  "applications": [
+    "Selectively remove H2S (and, with activators, CO2) from sour gas by reversible chemical absorption."
+  ],
+  "standards": [],
+  "equipment": [
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "tp-inlet-scrubbers-gas-scrubbers-slug-catchers",
+    "tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones",
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "suppliers": [
+    "basf",
+    "exxonmobil-flexsorb-oase-sulfexx-joint-development",
+    "kinder-morgan-treating",
+    "spec-oil-gas-technologies-fabricator"
+  ],
+  "sources": [
+    {
+      "url": "https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/formulations-and-solvents",
+      "source_id": "energy-resources-basf-com-gas-treatment-oase-formulations-and-solv"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

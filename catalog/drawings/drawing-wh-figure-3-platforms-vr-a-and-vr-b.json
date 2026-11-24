@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-3-platforms-vr-a-and-vr-b",
+  "title": "Figure 3. Platforms VR-A And VR-B",
+  "diagram_type": "schematic",
+  "description": "The two Tangguh offshore gas production platforms in the Vorwata field and their tie-in to subsea pipelines",
+  "publisher": "BP Berau Ltd / Sucofindo / ADB",
+  "url": "https://www.adb.org/sites/default/files/project-documents/49222/49222-001-esmr-en_7.pdf",
+  "licence": "ADB-hosted operator report; cite source",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.adb.org/sites/default/files/project-documents/49222/49222-001-esmr-en_7.pdf",
+      "source_id": "adb-org-49222-49222-001-esmr-en-7-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

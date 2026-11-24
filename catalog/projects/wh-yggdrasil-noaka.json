@@ -1,0 +1,25 @@
+{
+  "id": "wh-yggdrasil-noaka",
+  "name": "Yggdrasil (NOAKA)",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Aker Solutions/Aker BP subsea scope: 40 standardized vertical trees, nine six-slot templates/manifolds, eight static umbilicals about 90 km",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.akersolutions.com/news/news-archive/2022/aker-solutions-secures-multiple-contracts-with-aker-bp--record-high-order-intake/",
+      "source_id": "akersolutions-com-aker-solutions-secures-multiple-contracts-with-a"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

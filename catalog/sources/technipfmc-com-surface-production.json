@@ -1,0 +1,31 @@
+{
+  "id": "technipfmc-com-surface-production",
+  "name": "TechnipFMC (formerly CDS Separation Systems)",
+  "url": "https://www.technipfmc.com/en/what-we-do/surface/production",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "TechnipFMC",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Surface production offering page read. Evidence: https://www.technipfmc.com/en/what-we-do/surface/production"
+}

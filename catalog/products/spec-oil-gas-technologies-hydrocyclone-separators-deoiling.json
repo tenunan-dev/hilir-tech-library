@@ -1,0 +1,31 @@
+{
+  "id": "spec-oil-gas-technologies-hydrocyclone-separators-deoiling",
+  "name": "Hydrocyclone Separators (deoiling)",
+  "manufacturer": "spec-oil-gas-technologies-fabricator",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "outlet quality",
+      "unit": "ppm",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
+        "source_id": "specoilandgas-com-produced-water-treatment-hydrocyclone-separators"
+      },
+      "value": "as low as 25 ppm OIW"
+    }
+  ],
+  "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
+      "source_id": "specoilandgas-com-produced-water-treatment-hydrocyclone-separators"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "subsea7-com-2023-seaway7-seagreen-pdf-downloadasset-pdf",
+  "name": "Subsea7 — Seagreen offshore wind (analogue suction bucket applica",
+  "url": "https://www.subsea7.com/content/dam/subsea7-corporate2018/Datasheets/subsea7-brochures/2023/Seaway7_Seagreen.pdf.downloadasset.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Subsea7",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. 114 jackets 2,000-2,250 t, 77.5-93 m height, suction caisson diameter 10.5-11.5 m; scour protection and grouting; 312 km 66 kV cables Evidence: https://www.subsea7.com/content/dam/subsea7-corporate2018/Datasheets/subsea7-brochures/2023/Seaway7_Seagreen.pdf.downloadasset.pdf"
+}

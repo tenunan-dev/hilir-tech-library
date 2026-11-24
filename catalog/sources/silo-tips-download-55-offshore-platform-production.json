@@ -1,0 +1,31 @@
+{
+  "id": "silo-tips-download-55-offshore-platform-production",
+  "name": "Azeri-Chirag-Gunashli (ACG) Phase 3 Environmental & Socio-economic Impact Assessment, Chapter 5 (reproduced on Silo.tips)",
+  "url": "https://silo.tips/download/55-offshore-platform-production",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Silo.Tips",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Simplified PFD of a full wellhead/topside system: manifolds, HP and LP separators, dehydration, export compression, oil boosters/coalescers/MOL pumps, produced-water hydrocyclones, seawater lift, deae Evidence: https://silo.tips/download/55-offshore-platform-production"
+}

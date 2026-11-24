@@ -1,0 +1,31 @@
+{
+  "id": "docs-nopsema-gov-au-docs-nopsema-gov-au-a680618",
+  "name": "Shell Australia Pty Ltd / NOPSEMA (Environment Plan Summary)",
+  "url": "https://docs.nopsema.gov.au/A680618",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Docs.Nopsema.Gov.Au",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Prelude FLNG and subsea/well infrastructure within the field safety zone Evidence: https://docs.nopsema.gov.au/A680618"
+}

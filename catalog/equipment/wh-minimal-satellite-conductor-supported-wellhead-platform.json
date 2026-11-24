@@ -1,0 +1,48 @@
+{
+  "id": "wh-minimal-satellite-conductor-supported-wellhead-platform",
+  "name": "Minimal / satellite / conductor-supported wellhead platform",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Low-cost unmanned wellhead platform, often supported directly by the well conductors, used for marginal fields and step-outs tied back to a host facility by flowline or umbilical.",
+  "specifications": [
+    {
+      "metric": "description from Oil platform article",
+      "unit": "qualitative",
+      "basis": "Wikipedia Oil platform, Conductor support systems section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "en-wikipedia-org-wiki-oil-platform"
+      },
+      "value": "small unmanned platforms consisting of little more than a well bay and a small process plant; operate with a static production platform connected by flow lines or umbilical"
+    }
+  ],
+  "vendors": [
+    "aquaterra-energy",
+    "2h-offshore",
+    "synergy-engineering"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed conductor size/grade and fatigue design factors for each minimal platform",
+      "why": "Project pages give high-level details only",
+      "next_action": "Fetch project PDFs or papers via operator/EPC sites."
+    }
+  ],
+  "applications": [
+    "Low-cost unmanned wellhead platform, often supported directly by the well conductors, used for marginal fields and step-outs tied back to a host facility by flo"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

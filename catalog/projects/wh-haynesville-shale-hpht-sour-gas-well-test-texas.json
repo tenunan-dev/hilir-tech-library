@@ -1,0 +1,25 @@
+{
+  "id": "wh-haynesville-shale-hpht-sour-gas-well-test-texas",
+  "name": "Haynesville Shale HPHT sour gas well test, Texas",
+  "country": "USA",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "SLB 42 in 1440 psi NACE separator in 15K psi package with zero NPT; search-verified case study.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.slb.com/resource-library/case-study-with-navigation/mi/three-phase-separator-texas",
+      "source_id": "slb-com-mi-three-phase-separator-texas"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

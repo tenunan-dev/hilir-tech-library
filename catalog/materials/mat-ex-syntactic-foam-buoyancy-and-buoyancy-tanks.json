@@ -1,0 +1,38 @@
+{
+  "id": "mat-ex-syntactic-foam-buoyancy-and-buoyancy-tanks",
+  "name": "Syntactic foam buoyancy and buoyancy tanks",
+  "material_category": "buoyancy-materials",
+  "description": "Tension hybrid risers, support flexible jumper configurations, provide buoyancy modules",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Tension hybrid risers, support flexible jumper configurations, provide buoyancy modules",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "applications": [
+    "Tension hybrid risers, support flexible jumper configurations, provide buoyancy modules"
+  ],
+  "standards": [],
+  "equipment": [
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-wellheads-conductors-and-mudline-wellhead-systems-hpht",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "suppliers": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

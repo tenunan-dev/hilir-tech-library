@@ -47,7 +47,11 @@
     "multiphase pumps",
     "electric motors",
     "power and control umbilicals",
-    "subsea controls"
+    "subsea controls",
+    "multiphase pump",
+    "subsea separator",
+    "wet-gas meter",
+    "electric choke"
   ],
   "suppliers": [
     {
@@ -122,7 +126,7 @@
       "note": "OneSubsea (MCEDD presentation), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-24",
   "gaps": [
     {
       "field": "costs",
@@ -175,5 +179,5 @@
       "project_id": "perdido-subsea-boosting-baker-hughes-gulf-of-mexico"
     }
   ],
-  "notes": "Process provenance: Documents the Barracuda high-boost multiphase pump system layout and flow path - subsea tree and umbilical/SCM, flowbase, pump module and production outlet, with gas lift and a control umbilical."
+  "notes": "Process provenance: Documents the Barracuda high-boost multiphase pump system layout and flow path - subsea tree and umbilical/SCM, flowbase, pump module and production outlet, with gas lift and a control umbilical. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24."
 }

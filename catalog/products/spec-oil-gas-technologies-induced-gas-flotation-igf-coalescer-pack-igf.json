@@ -1,0 +1,31 @@
+{
+  "id": "spec-oil-gas-technologies-induced-gas-flotation-igf-coalescer-pack-igf",
+  "name": "Induced Gas Flotation (IGF) / Coalescer Pack IGF",
+  "manufacturer": "spec-oil-gas-technologies-fabricator",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "outlet quality",
+      "unit": "ppm",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation",
+        "source_id": "specoilandgas-com-produced-water-treatment-induced-gas-flotation"
+      },
+      "value": "as low as 10 ppm OIW"
+    }
+  ],
+  "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation",
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation",
+      "source_id": "specoilandgas-com-produced-water-treatment-induced-gas-flotation"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

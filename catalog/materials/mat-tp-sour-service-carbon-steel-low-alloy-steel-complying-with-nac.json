@@ -1,0 +1,41 @@
+{
+  "id": "mat-tp-sour-service-carbon-steel-low-alloy-steel-complying-with-nac",
+  "name": "Sour-service carbon steel / low-alloy steel complying with NACE MR0175 / ISO 15156",
+  "material_category": "metals-ferrous",
+  "description": "Pressure-retaining vessels, piping and wetted parts in H2S-bearing service; resist sulphide stress cracking.",
+  "specifications": [
+    {
+      "metric": "Design code for sour vessels",
+      "unit": "code",
+      "basis": "SPEC two-/three-phase separator and produced-water pages; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
+        "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
+      },
+      "value": "ASME Section VIII, Division 1"
+    }
+  ],
+  "applications": [
+    "Pressure-retaining vessels, piping and wetted parts in H2S-bearing service; resist sulphide stress cracking."
+  ],
+  "standards": [],
+  "equipment": [
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "tp-inlet-scrubbers-gas-scrubbers-slug-catchers",
+    "tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones",
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "suppliers": [
+    "spec-oil-gas-technologies-fabricator",
+    "slb-emerson-equipment-qualified-to-nace-mr0175-iso-15156"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
+      "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

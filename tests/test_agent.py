@@ -215,7 +215,7 @@ def test_get_source_document_and_tags(db):
 def test_search_fuses_precomputed_query_vector(db):
     """A query with no keyword overlap can still surface the semantically closest row
     when its 384-dim vector is supplied (edge Workers AI path, decision #32)."""
-    rows = db.execute("SELECT rowid, kind, title, text FROM search").fetchall()
+    rows = db.execute("SELECT rowid, kind, ref, title, text FROM search").fetchall()
     target = next(r for r in rows if r["kind"] == "chunk")
     db.execute("INSERT OR REPLACE INTO info VALUES ('model', 'test')")
     for r in rows:
@@ -225,9 +225,9 @@ def test_search_fuses_precomputed_query_vector(db):
     db.commit()
     qvec = np.zeros(384, dtype=np.float32)
     qvec[0] = 1.0
-    hits = library.search("xylophone zebra quux", db=db, query_vector=qvec.tolist())
+    hits = library.search("xylophone zebra quux", db=db, query_vector=qvec.tolist(), limit=200)
     assert hits, "vector fusion should surface the aligned row despite zero keyword overlap"
-    assert any(h.get("kind") == "chunk" and "electrolyzer" in (h.get("title") or "") for h in hits)
+    assert any(h.get("kind") == "chunk" and h.get("ref") == target["ref"] for h in hits)
 
 
 def test_search_ignores_malformed_query_vector(db):

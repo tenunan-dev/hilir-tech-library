@@ -1,0 +1,25 @@
+{
+  "id": "wh-makat-and-balgymbaeva-gas-treatment-units-kazakhstan",
+  "name": "Makat and Balgymbaeva gas treatment units, Kazakhstan",
+  "country": "Kazakhstan",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "SPEC condensate stabilisation unit plus glycol dehydration and dew point control for associated gas, 2013.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization",
+      "source_id": "specoilandgas-com-oil-processing-crude-condensate-stabilization"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

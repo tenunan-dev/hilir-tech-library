@@ -1,0 +1,40 @@
+{
+  "id": "mat-ex-flexible-pipe-polymers-and-armour-polyamide-liner-polyuretha",
+  "name": "Flexible pipe polymers and armour",
+  "material_category": "polymer-composite-and-armour",
+  "description": "Bore fluid containment, structural strength, seawater barrier",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Bore fluid containment, structural strength, seawater barrier",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "applications": [
+    "Bore fluid containment, structural strength, seawater barrier"
+  ],
+  "standards": [],
+  "equipment": [
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-wellheads-conductors-and-mudline-wellhead-systems-hpht",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "suppliers": [
+    "baker-hughes",
+    "technipfmc-cds-separation-systems",
+    "prysmian"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

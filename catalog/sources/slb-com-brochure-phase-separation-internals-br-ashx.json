@@ -1,0 +1,31 @@
+{
+  "id": "slb-com-brochure-phase-separation-internals-br-ashx",
+  "name": "SLB — Ormen Lange receiving scrubbers, Norway",
+  "url": "https://www.slb.com/-/media/files/osf/brochure/phase-separation-internals-br.ashx",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "SLB",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. One of 16 receiving scrubbers assembled in shop; shown in SLB phase separation internals brochure (search-verified). Evidence: https://www.slb.com/-/media/files/osf/brochure/phase-separation-internals-br.ashx"
+}

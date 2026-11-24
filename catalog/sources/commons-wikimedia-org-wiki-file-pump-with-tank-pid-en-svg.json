@@ -1,0 +1,31 @@
+{
+  "id": "commons-wikimedia-org-wiki-file-pump-with-tank-pid-en-svg",
+  "name": "Wikimedia Commons (author 'Con-struct', 2012)",
+  "url": "https://commons.wikimedia.org/wiki/File:Pump_with_tank_pid_en.svg",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Commons.Wikimedia.Org",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Pump and storage tank P&ID using EN ISO 10628 piping symbols and EN 62424 instrument symbols Evidence: https://commons.wikimedia.org/wiki/File:Pump_with_tank_pid_en.svg"
+}

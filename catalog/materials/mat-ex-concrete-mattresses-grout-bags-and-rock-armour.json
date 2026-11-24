@@ -1,0 +1,40 @@
+{
+  "id": "mat-ex-concrete-mattresses-grout-bags-and-rock-armour",
+  "name": "Concrete mattresses, grout bags and rock armour",
+  "material_category": "seabed-protection",
+  "description": "Pipeline stabilization, span correction, crossing separation, scour protection",
+  "specifications": [
+    {
+      "metric": "Mattress deployment",
+      "unit": "system",
+      "basis": "DeepOcean IMF",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": "ROV/diverless Intelligent Mattress Frame with visual/sonar confirmation"
+    }
+  ],
+  "applications": [
+    "Pipeline stabilization, span correction, crossing separation, scour protection"
+  ],
+  "standards": [],
+  "equipment": [
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-wellheads-conductors-and-mudline-wellhead-systems-hpht",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "suppliers": [
+    "deepocean"
+  ],
+  "sources": [
+    {
+      "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+      "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

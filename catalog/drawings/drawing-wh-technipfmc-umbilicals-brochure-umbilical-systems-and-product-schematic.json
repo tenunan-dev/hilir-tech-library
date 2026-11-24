@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-technipfmc-umbilicals-brochure-umbilical-systems-and-product-schematic",
+  "title": "TechnipFMC Umbilicals brochure - umbilical systems and product schematic",
+  "diagram_type": "schematic",
+  "description": "Subsea umbilical systems linking wells to fixed/floating facilities: steel tube, thermoplastic hose, power/communication and hybrid umbilicals; topside and subsea termination hardware, bend stiffeners, jumpers and flying leads",
+  "publisher": "TechnipFMC",
+  "url": "https://www.technipfmc.com/media/l11loka4/technipfmc-umbilicals-brochure.pdf",
+  "licence": "TechnipFMC copyright (2018); OEM brochure - cite source, do not redistribute",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/media/l11loka4/technipfmc-umbilicals-brochure.pdf",
+      "source_id": "technipfmc-com-l11loka4-technipfmc-umbilicals-brochure-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

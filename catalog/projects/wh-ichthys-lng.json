@@ -1,0 +1,25 @@
+{
+  "id": "wh-ichthys-lng",
+  "name": "Ichthys LNG",
+  "country": "Australia/APAC",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Subsea tieback to CPF; gas export pipeline to onshore LNG plant with two 4.2 mtpa trains; condensate stored and exported via offtake tankers",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inpex.com.au/media/lldoewsu/offshore-terminal-regulations-manual-february-2019.pdf",
+      "source_id": "inpex-com-au-lldoewsu-offshore-terminal-regulations-manual-februar"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

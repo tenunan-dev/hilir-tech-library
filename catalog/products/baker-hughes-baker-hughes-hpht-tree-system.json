@@ -1,0 +1,41 @@
+{
+  "id": "baker-hughes-baker-hughes-hpht-tree-system",
+  "name": "Baker Hughes HPHT tree system",
+  "manufacturer": "baker-hughes",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea"
+  ],
+  "description": "Vendor product line read 2026-11-24. fetched/search-verified",
+  "specifications": [
+    {
+      "metric": "Pressure",
+      "unit": "psi",
+      "basis": "",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
+        "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "Flowing temperature",
+      "unit": "deg F",
+      "basis": "",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
+        "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
+      },
+      "value": 350
+    }
+  ],
+  "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
+  "sources": [
+    {
+      "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
+      "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
+    }
+  ],
+  "notes": "fetched/search-verified",
+  "last_reviewed": "2026-11-24"
+}

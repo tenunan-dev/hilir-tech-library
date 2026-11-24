@@ -1,0 +1,58 @@
+{
+  "id": "wh-conductors-conductor-guides-and-subsea-templates",
+  "name": "Conductors, conductor guides and subsea templates",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Protect and guide the drill string and well casing from topside to below the mudline; a subsea template guides conductors before jacket installation and may group several wells.",
+  "specifications": [
+    {
+      "metric": "conductor function and depth below seabed",
+      "unit": "m below sea bottom",
+      "basis": "ESDEP glossary: tubular protecting and guiding drill string from topside down to 40-100 m under sea bottom; after drilling protects well casing",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "low": 40,
+      "high": 100
+    },
+    {
+      "metric": "conductor size protected by jacket",
+      "unit": "inch",
+      "basis": "ESDEP 15A.1 section 4.1",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "low": 26,
+      "high": 30
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Conductor centralizer and guide bushing standard sizes/loads from an OEM",
+      "why": "No OEM conductor guide catalogue fetched",
+      "next_action": "Fetch OEM conductor guide and template product pages."
+    }
+  ],
+  "applications": [
+    "Protect and guide the drill string and well casing from topside to below the mudline; a subsea template guides conductors before jacket installation and may gro"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "wh-amal-c-platform-gulf-of-suez-egypt",
+  "name": "AMAL-C platform, Gulf of Suez, Egypt",
+  "country": "Egypt",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "23 m water depth; 4-leg jacket with 2 inner conductors; 6 m x 6 m well configuration; four 30-inch conductors through legs plus two additional central conductors; four skirt piles; helideck; small accommodation module; local power generation with two diesel generators (one emergency back-up); test separator; bridge link to AMAL-B; well stream exported by 10-inch pipeline.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://aquaterraenergy.com/delivering-a-jacket-supported-platform-in-a-seismic-region-in-the-gulf-of-suez",
+      "source_id": "aquaterraenergy-com-aquaterraenergy-com-delivering-a-jacket-suppor"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

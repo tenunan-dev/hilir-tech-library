@@ -1,0 +1,31 @@
+{
+  "id": "johnson-controls-wellhead-control-panels-whcp",
+  "name": "Wellhead Control Panels (WHCP)",
+  "manufacturer": "johnson-controls-york-silent-aire",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform"
+  ],
+  "description": "Vendor product line read 2026-11-24. Integrator for API 674 and 675 pump packages.",
+  "specifications": [
+    {
+      "metric": "scope",
+      "unit": "product list",
+      "basis": "Production Systems page",
+      "source": {
+        "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
+        "source_id": "johnsoncontrols-com-oil-and-gas-production-systems"
+      },
+      "value": "HPU, methanol injection skids, WHCP, TUTU, IWOCS, ESD, HIPPS"
+    }
+  ],
+  "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
+  "sources": [
+    {
+      "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
+      "source_id": "johnsoncontrols-com-oil-and-gas-production-systems"
+    }
+  ],
+  "notes": "Integrator for API 674 and 675 pump packages.",
+  "last_reviewed": "2026-11-24"
+}

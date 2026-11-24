@@ -1,0 +1,71 @@
+{
+  "id": "tp-gas-compression-reciprocating-centrifugal-axial-rotary-screw-s",
+  "name": "Gas compression — reciprocating, centrifugal/axial, rotary screw; suction/discharge scrubbers",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Raise associated/export gas pressure, provide gas lift/reinjection/vapour-recovery/refrigeration duty; scrub liquids ahead of and after compressors.",
+  "specifications": [
+    {
+      "metric": "Compressor types offered (package)",
+      "unit": "list",
+      "basis": "SPEC Compressor Packages page; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/compressor-packages",
+        "source_id": "specoilandgas-com-gas-conditioning-compressor-packages"
+      },
+      "value": "high-speed reciprocating; rotary screw"
+    },
+    {
+      "metric": "Topside pump/compressor skid envelope (TechnipFMC standard pumps)",
+      "unit": "psi / gpm",
+      "basis": "TechnipFMC Production page 'Standard pumps and complete skid systems'; page read",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production",
+        "source_id": "technipfmc-com-surface-production"
+      },
+      "value": "up to 10,000 psi and 1,500 gpm"
+    },
+    {
+      "metric": "Subsea processing envelope (context for topside debottlenecking)",
+      "unit": "m / degF / psi",
+      "basis": "TechnipFMC Subsea processing page; page read",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-processing",
+        "source_id": "technipfmc-com-subsea-systems-subsea-processing"
+      },
+      "value": "2,500 m water depth; 350 degF; 15,000 psi"
+    }
+  ],
+  "vendors": [
+    "spec-oil-gas-technologies-fabricator",
+    "siemens-energy",
+    "onesubsea-slb-aker-solutions-jv",
+    "technipfmc-cds-separation-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/gas-conditioning/compressor-packages",
+      "source_id": "specoilandgas-com-gas-conditioning-compressor-packages"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/surface/production",
+      "source_id": "technipfmc-com-surface-production"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-processing",
+      "source_id": "technipfmc-com-subsea-systems-subsea-processing"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Raise associated/export gas pressure, provide gas lift/reinjection/vapour-recovery/refrigeration duty; scrub liquids ahead of and after compressors."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

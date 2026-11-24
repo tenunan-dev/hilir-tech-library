@@ -1,0 +1,76 @@
+{
+  "id": "wh-downhole-safety-valve-dhsv-sssv-scssv",
+  "name": "Downhole safety valve",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Fail-safe downhole barrier that isolates reservoir fluids at surface if wellhead/tree containment is lost.",
+  "specifications": [
+    {
+      "metric": "typical valve mechanism",
+      "unit": "qualitative",
+      "basis": "Wikipedia Downhole safety valve, Operation section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Downhole_safety_valve",
+        "source_id": "en-wikipedia-org-wiki-downhole-safety-valve"
+      },
+      "value": "uni-directional flapper valve which opens downwards; hydraulic pressure from surface opens against a spring; loss of pressure closes it"
+    },
+    {
+      "metric": "minimum setting depth below mudline (MMS regulation)",
+      "unit": "ft (30 m)",
+      "basis": "Wikipedia Downhole safety valve, Positioning section, citing MMS regulations",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Downhole_safety_valve",
+        "source_id": "en-wikipedia-org-wiki-downhole-safety-valve"
+      },
+      "value": 100
+    },
+    {
+      "metric": "control method",
+      "unit": "qualitative",
+      "basis": "Wikipedia Downhole safety valve",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Downhole_safety_valve",
+        "source_id": "en-wikipedia-org-wiki-downhole-safety-valve"
+      },
+      "value": "hydraulically controlled from surface via a control line linked to a well control panel"
+    },
+    {
+      "metric": "legal status in United Kingdom",
+      "unit": "regulatory context",
+      "basis": "Wikipedia Downhole safety valve, Legal requirement section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Downhole_safety_valve",
+        "source_id": "en-wikipedia-org-wiki-downhole-safety-valve"
+      },
+      "value": "not a direct legal requirement; 1974 Health & Safety at Work Act requires prevention of uncontrolled release, so DHSVs are company policy for many UKCS operators"
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Downhole_safety_valve",
+      "source_id": "en-wikipedia-org-wiki-downhole-safety-valve"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "OEM DHSV pressure ratings, bore sizes and metallurgy",
+      "why": "No OEM DHSV datasheet fetched",
+      "next_action": "Fetch OEM subsurface safety valve product sheets."
+    }
+  ],
+  "applications": [
+    "Fail-safe downhole barrier that isolates reservoir fluids at surface if wellhead/tree containment is lost."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

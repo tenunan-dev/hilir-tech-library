@@ -48,7 +48,15 @@
     "manifolds",
     "umbilicals",
     "control systems",
-    "flowlines"
+    "flowlines",
+    "subsea tree",
+    "subsea wellhead",
+    "manifold/PLET",
+    "umbilical and SCM",
+    "flexible flowline",
+    "SCR",
+    "subsea boosting",
+    "CALM/SPM export"
   ],
   "suppliers": [
     {
@@ -141,7 +149,7 @@
       "note": "SLB Oilfield Review, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-24",
   "gaps": [
     {
       "field": "costs",
@@ -194,5 +202,5 @@
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
   ],
-  "notes": "Process provenance: Documents the subsea production chain from wellbore to host - tree, jumper through a multiphase meter, manifold, flowline, booster pump, PLET, riser and FPSO, with the umbilical/UTA routing power, hydraulics and chemicals."
+  "notes": "Process provenance: Documents the subsea production chain from wellbore to host - tree, jumper through a multiphase meter, manifold, flowline, booster pump, PLET, riser and FPSO, with the umbilical/UTA routing power, hydraulics and chemicals. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24."
 }

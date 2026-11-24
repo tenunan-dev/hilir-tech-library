@@ -1,0 +1,31 @@
+{
+  "id": "cdn-intechopen-com-pdfs-66629-pdf",
+  "name": "IntechOpen (Geotechnical Response Models for Steel Compliant Riser in Deepwater Clays)",
+  "url": "https://cdn.intechopen.com/pdfs/66629.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Cdn.Intechopen.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. General SCR arrangement, vessel-offset effects on riser configuration and a 910 m water depth / 20 degree hang-off static configuration Evidence: https://cdn.intechopen.com/pdfs/66629.pdf"
+}

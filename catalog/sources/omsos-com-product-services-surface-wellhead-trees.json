@@ -1,0 +1,31 @@
+{
+  "id": "omsos-com-product-services-surface-wellhead-trees",
+  "name": "OMS (Oilfield Manufacturers and Supplies)",
+  "url": "https://www.omsos.com/product-services/surface-wellhead-trees",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Omsos.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Search-verified. Evidence: https://www.omsos.com/product-services/surface-wellhead-trees"
+}

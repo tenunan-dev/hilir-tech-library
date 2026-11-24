@@ -1,0 +1,43 @@
+{
+  "id": "tp-flare-and-vent-system-flare-stack-boom-flare-tips-ko-drums-gas",
+  "name": "Flare and vent system — flare stack/boom, flare tips, KO drums, gas recovery/VRU",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Safely dispose of relief/blowdown/start-up gas by controlled combustion; knock out entrained liquid upstream to prevent flaming rain; recover gas where feasible.",
+  "specifications": [
+    {
+      "metric": "Flare KO drum size range (fabricator)",
+      "unit": "BBL",
+      "basis": "FlareTech Inc. Flare Knockout Drums page; page read",
+      "source": {
+        "url": "https://www.flaretechinc.com/products/flare-knockout-drums",
+        "source_id": "flaretechinc-com-products-flare-knockout-drums"
+      },
+      "value": "2 to 600"
+    }
+  ],
+  "vendors": [
+    "flaretech-inc",
+    "cra-combustion-research-associates",
+    "nao-inc",
+    "allmarc-industries"
+  ],
+  "sources": [
+    {
+      "url": "https://www.flaretechinc.com/products/flare-knockout-drums",
+      "source_id": "flaretechinc-com-products-flare-knockout-drums"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Safely dispose of relief/blowdown/start-up gas by controlled combustion; knock out entrained liquid upstream to prevent flaming rain; recover gas where feasible"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

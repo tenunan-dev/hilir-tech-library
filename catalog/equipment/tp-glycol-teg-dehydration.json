@@ -1,0 +1,139 @@
+{
+  "id": "tp-glycol-teg-dehydration",
+  "name": "Glycol",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Contact wet gas with lean triethylene glycol in an absorber/contactor, then regenerate glycol in a reboiler/still to meet water-content and water-dew-point specification and prevent hydrates/corrosion.",
+  "specifications": [
+    {
+      "metric": "Pipeline water-content specification range",
+      "unit": "lb/MMSCF (20-140 ppmv)",
+      "basis": "Digital Refining (PTQ) article 'Controlling the dew point of natural gas', Fluor Enterprises; page read",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+        "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+      },
+      "value": "1-7"
+    },
+    {
+      "metric": "Dry gas spec from TEG unit",
+      "unit": "lb water/MMSCF gas",
+      "basis": "Pietro Fiorentini gas dehydration packages page; page read",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-packages-with-liquid-media-technology-teg-deg-meg",
+        "source_id": "fiorentini-iberia-com-gas-treatment-gas-dehydration-packages-with"
+      },
+      "value": "3-7"
+    },
+    {
+      "metric": "Regenerated TEG purity, conventional",
+      "unit": "wt%",
+      "basis": "Digital Refining article; page read",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+        "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+      },
+      "value": "~99"
+    },
+    {
+      "metric": "TEG thermal degradation threshold",
+      "unit": "degF (207 degC)",
+      "basis": "Digital Refining article; page read",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+        "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+      },
+      "value": "404"
+    },
+    {
+      "metric": "Water dew point from 99.96 wt% lean TEG",
+      "unit": "degF (-40 degC) WDP at 80 degF contactor",
+      "basis": "Digital Refining article; page read",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+        "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+      },
+      "value": "-40"
+    },
+    {
+      "metric": "Rich TEG pressure at contactor outlet",
+      "unit": "psig",
+      "basis": "US EPA Natural Gas STAR 'Glycol Dehydrators'; page read",
+      "source": {
+        "url": "https://www.epa.gov/natural-gas-star-program/glycol-dehydrators",
+        "source_id": "epa-gov-natural-gas-star-program-glycol-dehydrators"
+      },
+      "value": "250-800"
+    },
+    {
+      "metric": "Dehydrator capacity range",
+      "unit": "MMscfd",
+      "basis": "Kinder Morgan Treating dehydration page; page read",
+      "source": {
+        "url": "https://www.kindermorgan.com/Operations/KM-Treating/Products/Dehydration",
+        "source_id": "kindermorgan-com-products-dehydration"
+      },
+      "value": "~1 to ~400"
+    },
+    {
+      "metric": "CO2 pipeline water limit (Kinder Morgan spec)",
+      "unit": "lb water/MMSCF vapour phase; no free water",
+      "basis": "Kinder Morgan Treating dehydration page; page read",
+      "source": {
+        "url": "https://www.kindermorgan.com/Operations/KM-Treating/Products/Dehydration",
+        "source_id": "kindermorgan-com-products-dehydration"
+      },
+      "value": "≤30"
+    },
+    {
+      "metric": "Project reference capacity",
+      "unit": "MMSCFD",
+      "basis": "SPEC Glycol Dehydration project reference; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
+        "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
+      },
+      "value": "2 x 30 MMSCFD TEG trains (60 MMSCFD sour gas plant)"
+    }
+  ],
+  "vendors": [
+    "pietro-fiorentini-teg-packages",
+    "kinder-morgan-treating",
+    "spec-oil-gas-technologies-fabricator",
+    "cimarron"
+  ],
+  "sources": [
+    {
+      "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+      "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+    },
+    {
+      "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-packages-with-liquid-media-technology-teg-deg-meg",
+      "source_id": "fiorentini-iberia-com-gas-treatment-gas-dehydration-packages-with"
+    },
+    {
+      "url": "https://www.epa.gov/natural-gas-star-program/glycol-dehydrators",
+      "source_id": "epa-gov-natural-gas-star-program-glycol-dehydrators"
+    },
+    {
+      "url": "https://www.kindermorgan.com/Operations/KM-Treating/Products/Dehydration",
+      "source_id": "kindermorgan-com-products-dehydration"
+    },
+    {
+      "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
+      "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Contact wet gas with lean triethylene glycol in an absorber/contactor, then regenerate glycol in a reboiler/still to meet water-content and water-dew-point spec"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

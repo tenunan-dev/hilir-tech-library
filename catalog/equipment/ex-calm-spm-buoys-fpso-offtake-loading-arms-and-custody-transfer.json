@@ -1,0 +1,85 @@
+{
+  "id": "ex-calm-spm-buoys-fpso-offtake-loading-arms-and-custody-transfer",
+  "name": "CALM/SPM buoys, FPSO offtake, loading arms and custody transfer",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Offshore transfer of liquid cargo between floating production/storage facility or pipeline and tanker: mooring, weathervaning, hose transfer, swivel, PLEM and metering.",
+  "specifications": [
+    {
+      "metric": "PLEM footprint",
+      "unit": "m (about 3x5 to 8x10 m)",
+      "basis": "EPCM SPM CALM guide: gravity base or piled, perimeter skirts for scour protection",
+      "source": {
+        "url": "https://epcmholdings.com/spm-calm-buoy-system/",
+        "source_id": "epcmholdings-com-spm-calm-buoy-system"
+      },
+      "low": 3,
+      "high": 10
+    },
+    {
+      "metric": "Floating hose string length",
+      "unit": "m (individual hoses 9-12 m); typical life 3-5 years",
+      "basis": "EPCM SPM CALM guide",
+      "source": {
+        "url": "https://epcmholdings.com/spm-calm-buoy-system/",
+        "source_id": "epcmholdings-com-spm-calm-buoy-system"
+      },
+      "low": 150,
+      "high": 250
+    },
+    {
+      "metric": "Mooring hawser load capacity",
+      "unit": "metric tons (sometimes over, for VLCCs)",
+      "basis": "Nylon hawser for VLCC; typical life up to 2,000 hours of use",
+      "source": {
+        "url": "https://epcmholdings.com/spm-calm-buoy-system/",
+        "source_id": "epcmholdings-com-spm-calm-buoy-system"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Anchor chain length (shallow SPM)",
+      "unit": "m",
+      "basis": "EPCM SPM CALM guide; shallow water to 150 m typically stud-link chain; deep water uses Dyneema/HMPE composite legs",
+      "source": {
+        "url": "https://epcmholdings.com/spm-calm-buoy-system/",
+        "source_id": "epcmholdings-com-spm-calm-buoy-system"
+      },
+      "low": 200,
+      "high": 400
+    },
+    {
+      "metric": "Flushing filtration",
+      "unit": "micron particle removal",
+      "basis": "Treated seawater flushing with biocide, oxygen scavenger and corrosion inhibitor",
+      "source": {
+        "url": "https://epcmholdings.com/spm-calm-buoy-system/",
+        "source_id": "epcmholdings-com-spm-calm-buoy-system"
+      },
+      "value": 50
+    }
+  ],
+  "vendors": [
+    "bluewater-energy-services",
+    "epcm-holdings",
+    "ocimf"
+  ],
+  "sources": [
+    {
+      "url": "https://epcmholdings.com/spm-calm-buoy-system/",
+      "source_id": "epcmholdings-com-spm-calm-buoy-system"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Offshore transfer of liquid cargo between floating production/storage facility or pipeline and tanker: mooring, weathervaning, hose transfer, swivel, PLEM and m"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

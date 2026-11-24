@@ -1,0 +1,41 @@
+{
+  "id": "spec-oil-gas-technologies-two-and-three-phase-separators",
+  "name": "Two- and Three-Phase Separators",
+  "manufacturer": "spec-oil-gas-technologies-fabricator",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "design code",
+      "unit": "code",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
+        "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
+      },
+      "value": "ASME Section VIII Div 1"
+    },
+    {
+      "metric": "inlet devices",
+      "unit": "list",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
+        "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
+      },
+      "value": "diverter plate, half pipe, vane, cyclonic"
+    }
+  ],
+  "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
+      "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

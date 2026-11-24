@@ -1,0 +1,31 @@
+{
+  "id": "halliburton-com-resources-hydraulic-workover-intervention-increase",
+  "name": "Halliburton — Asia Pacific high-pressure gas well HWO intervention",
+  "url": "https://halliburton.com/en/resources/hydraulic-workover-intervention-increases-gas-production",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Halliburton",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. 460K HWO/snubbing unit on unmanned platform supported by tender vessels; slip-and-shear BOP stack; recovered 2-inch CT string stuck at 3,865 m; reported up to 2 Evidence: https://halliburton.com/en/resources/hydraulic-workover-intervention-increases-gas-production"
+}

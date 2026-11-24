@@ -1,0 +1,31 @@
+{
+  "id": "cra-energy-product-knockout-drums",
+  "name": "CRA (Combustion Research Associates)",
+  "url": "https://www.cra.energy/product/knockout-drums",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Cra.Energy",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Page read; >800 installations in >25 countries since 1993; horizontal or vertical vessels. Evidence: https://www.cra.energy/product/knockout-drums"
+}

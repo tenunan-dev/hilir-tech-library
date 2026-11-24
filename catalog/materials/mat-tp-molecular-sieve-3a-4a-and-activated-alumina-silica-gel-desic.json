@@ -1,0 +1,55 @@
+{
+  "id": "mat-tp-molecular-sieve-3a-4a-and-activated-alumina-silica-gel-desic",
+  "name": "Molecular sieve 3A / 4A and activated alumina / silica gel desiccants",
+  "material_category": "mineral-adsorbent",
+  "description": "Solid desiccant adsorption for very low water dew points and hydrocarbon dew point control.",
+  "specifications": [
+    {
+      "metric": "Media selection basis",
+      "unit": "type",
+      "basis": "Pietro Fiorentini fixed-bed dehydration page; page read",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-units-with-fixed-bed-technology-molecular-sieves-and-aluminas-silica-gel",
+        "source_id": "fiorentini-iberia-com-gas-treatment-gas-dehydration-units-with-fix"
+      },
+      "value": "molecular sieve 4A or 3A depending on CO2/H2S concentration and bed life"
+    },
+    {
+      "metric": "Other solid desiccants",
+      "unit": "list",
+      "basis": "Digital Refining article; page read",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+        "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+      },
+      "value": "silica gel, alumina, zeolite molecular sieves"
+    }
+  ],
+  "applications": [
+    "Solid desiccant adsorption for very low water dew points and hydrocarbon dew point control."
+  ],
+  "standards": [],
+  "equipment": [
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "tp-inlet-scrubbers-gas-scrubbers-slug-catchers",
+    "tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones",
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "suppliers": [
+    "pietro-fiorentini-teg-packages",
+    "spec-oil-gas-technologies-fabricator"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-units-with-fixed-bed-technology-molecular-sieves-and-aluminas-silica-gel",
+      "source_id": "fiorentini-iberia-com-gas-treatment-gas-dehydration-units-with-fix"
+    },
+    {
+      "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+      "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

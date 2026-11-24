@@ -1,0 +1,25 @@
+{
+  "id": "wh-mmc-d1-cluster-whsf-d30-and-dana-fields-offshore-sarawak",
+  "name": "MMC D1 cluster WHSF, D30 and Dana fields, offshore Sarawak",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Approximately 45 m water depth; substructure acts as drilling template with 36-inch conductors driven and grouted into four 40-inch legs doubling as structural piles; D30 accommodates at least eight wells, Dana at least five; JOC partners Petronas Carigali, Pertamina and Petrovietnam; 24-inch internal conductors.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iconeng.com.au/track-record/projects/d1-cluster-development-wellhead-support-frames-whs",
+      "source_id": "iconeng-com-au-projects-d1-cluster-development-wellhead-support-fr"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

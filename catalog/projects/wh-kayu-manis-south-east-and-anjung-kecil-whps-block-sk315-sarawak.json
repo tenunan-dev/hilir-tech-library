@@ -1,0 +1,25 @@
+{
+  "id": "wh-kayu-manis-south-east-and-anjung-kecil-whps-block-sk315-sarawak",
+  "name": "Kayu Manis South East and Anjung Kecil WHPs, Block SK315, Sarawak",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Two wellhead platforms in 70-85 m water depth, 200 km offshore Bintulu; 20-year operational lifespan; relocatable; each has three 20-inch conductor slots internal to the caisson, two utilised and one spare; client PETRONAS Carigali.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+      "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

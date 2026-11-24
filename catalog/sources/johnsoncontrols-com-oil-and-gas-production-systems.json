@@ -1,0 +1,31 @@
+{
+  "id": "johnsoncontrols-com-oil-and-gas-production-systems",
+  "name": "Johnson Controls — Johnson Controls product scope",
+  "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Johnson Controls",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Johnson Controls Production Systems page Evidence: https://www.johnsoncontrols.com/oil-and-gas/production-systems"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "wh-hydraulic-and-control-lines-umbilicals",
+  "name": "Hydraulic and control lines, umbilicals",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Carry hydraulic power, electrical power, signals and chemicals between the surface control system and subsea/downhole devices.",
+  "specifications": [
+    {
+      "metric": "OneSubsea umbilical product lines",
+      "unit": "product list",
+      "basis": "OneSubsea subsea umbilical systems navigation on fetched wellhead/trees pages",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems",
+        "source_id": "onesubsea-slb-com-subsea-field-development-subsea-umbilical-system"
+      },
+      "value": "steeltube umbilicals, power umbilicals and cables, integrated production umbilicals, direct electrical heating systems"
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems",
+      "source_id": "onesubsea-slb-com-subsea-field-development-subsea-umbilical-system"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Umbilical tube count, conductor cross-sections and design pressure for a named project",
+      "why": "No detailed umbilical datasheet fetched",
+      "next_action": "Fetch an OEM umbilical datasheet."
+    }
+  ],
+  "applications": [
+    "Carry hydraulic power, electrical power, signals and chemicals between the surface control system and subsea/downhole devices."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

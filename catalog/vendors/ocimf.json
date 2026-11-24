@@ -1,0 +1,24 @@
+{
+  "id": "ocimf",
+  "name": "OCIMF",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "OCIMF is named as a supplier on a page read during the wellhead-platform sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://epcmholdings.com/spm-calm-buoy-system/",
+      "source_id": "epcmholdings-com-spm-calm-buoy-system"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 wellhead-platform sweep."
+}

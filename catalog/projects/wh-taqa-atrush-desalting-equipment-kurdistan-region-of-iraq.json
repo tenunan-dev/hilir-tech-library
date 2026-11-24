@@ -1,0 +1,25 @@
+{
+  "id": "wh-taqa-atrush-desalting-equipment-kurdistan-region-of-iraq",
+  "name": "TAQA Atrush desalting equipment, Kurdistan Region of Iraq",
+  "country": "Iraq",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "50,000 BOPD facility; 2 electrostatic dehydrators and 2 crude cross exchangers, designed/fabricated/tested by SPEC, 2019.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter",
+      "source_id": "specoilandgas-com-oil-processing-electrostatic-heater-treater-desa"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

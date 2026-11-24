@@ -1,0 +1,25 @@
+{
+  "id": "wh-salsabil-sour-gas-plant-pakistan",
+  "name": "Salsabil sour gas plant, Pakistan",
+  "country": "Pakistan",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Dewan Petroleum, 2008; two 30 MMSCFD TEG trains plus two 30 MMSCFD amine trains in a 60 MMSCFD plant.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
+      "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

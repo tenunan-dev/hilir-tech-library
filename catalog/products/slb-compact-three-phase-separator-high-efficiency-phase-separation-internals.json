@@ -1,0 +1,31 @@
+{
+  "id": "slb-compact-three-phase-separator-high-efficiency-phase-separation-internals",
+  "name": "Compact three-phase separator / high-efficiency phase separation internals",
+  "manufacturer": "slb-championx-portfolio",
+  "product_type": "tp-wellhead",
+  "equipment": [
+    "tp-flare-and-vent-system-flare-stack-boom-flare-tips-ko-drums-gas"
+  ],
+  "description": "Vendor product line read 2026-11-24. Internals used in scrubbers, 2-/3-phase separators, FWKO, flare KO drums, contactor towers, slug catchers (brochure search-verified).",
+  "specifications": [
+    {
+      "metric": "PORTA-TEST REVOLUTION installations",
+      "unit": "installations",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals",
+        "source_id": "slb-com-gas-treatment-high-efficiency-phase-separation-internals"
+      },
+      "value": ">500 worldwide"
+    }
+  ],
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals",
+  "sources": [
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals",
+      "source_id": "slb-com-gas-treatment-high-efficiency-phase-separation-internals"
+    }
+  ],
+  "notes": "Internals used in scrubbers, 2-/3-phase separators, FWKO, flare KO drums, contactor towers, slug catchers (brochure search-verified).",
+  "last_reviewed": "2026-11-24"
+}

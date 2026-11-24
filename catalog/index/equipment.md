@@ -1,6 +1,6 @@
 # Equipment catalog
 
-193 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+254 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -1614,6 +1614,184 @@ Vendors: Aquatech International, Veolia (1 model lines recorded).
 Recorded gaps:
 
 - per-model m3/d ranges — Read Aquatech/Veolia HPD model pages
+
+## ex-wellhead
+
+### CALM/SPM buoys, FPSO offtake, loading arms and custody transfer (ex-calm-spm-buoys-fpso-offtake-loading-arms-and-custody-transfer)
+
+Primary code: UPS: Upstream
+Offshore transfer of liquid cargo between floating production/storage facility or pipeline and tanker: mooring, weathervaning, hose transfer, swivel, PLEM and metering.
+Vendors: Bluewater Energy Services, EPCM Holdings, OCIMF (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| PLEM footprint | 3-10 m (about 3x5 to 8x10 m) | EPCM SPM CALM guide: gravity base or piled, perimeter skirts for scour protection |
+| Floating hose string length | 150-250 m (individual hoses 9-12 m); typical life 3-5 years | EPCM SPM CALM guide |
+| Mooring hawser load capacity | 1000 metric tons (sometimes over, for VLCCs) | Nylon hawser for VLCC; typical life up to 2,000 hours of use |
+| Anchor chain length (shallow SPM) | 200-400 m | EPCM SPM CALM guide; shallow water to 150 m typically stud-link chain; deep water uses Dyneema/HMPE composite legs |
+| Flushing filtration | 50 micron particle removal | Treated seawater flushing with biocide, oxygen scavenger and corrosion inhibitor |
+
+
+### Export to shore: onshore receiving terminal and sales specifications (ex-export-to-shore-onshore-receiving-terminal-and-sales-specifica)
+
+Primary code: UPS: Upstream
+Receive gas/condensate from export pipeline offshore, separate, stabilize, store, meter and dispatch to market to sales specifications.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Receive gas/condensate from export pipeline offshore, separate, stabilize, store, meter and dispatch to market to sales specifications. | Qualitative function from pages read in this sweep. |
+
+
+### Flexible pipes, jumpers and bundled flowlines (ex-flexible-pipes-jumpers-and-bundled-flowlines)
+
+Primary code: UPS: Upstream
+Compliant pipe for connection of floating vessels/subsea equipment; flowlines, jumpers, risers, fluid transfer lines; bundled multiple services in one carrier pipe.
+Vendors: Baker Hughes, TechnipFMC (CDS Separation Systems), Subsea7 (Swagelining all-polymer liner) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Compliant pipe for connection of floating vessels/subsea equipment; flowlines, jumpers, risers, fluid transfer lines; bundled multiple services in one carrier pipe. | Qualitative function from pages read in this sweep. |
+
+
+### Rigid flowlines, export pipelines and trunklines (ex-rigid-flowlines-export-pipelines-and-trunklines)
+
+Primary code: UPS: Upstream
+Transport oilfield fluids from wellhead/manifold to processing facility and from offshore facilities to onshore receiving terminals.
+Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, Subsea7 (Swagelining all-polymer liner) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Rigid pipeline diameter range | 4-18 inch | TechnipFMC rigid pipelines: 4-inch oilfield service fluids to 18-inch infield lines to larger export trunk lines |
+| Installed pipe-in-pipe length | 1100 km | TechnipFMC more than 1,100 km installed pipe-in-pipe |
+
+
+### Risers: SCR, top-tensioned, hybrid and free-standing (ex-risers-scr-top-tensioned-hybrid-and-free-standing)
+
+Primary code: UPS: Upstream
+Carry fluids between seabed flowlines/PLET and surface host; accommodate vessel motion and environmental loads.
+Vendors: TechnipFMC (CDS Separation Systems), Subsea7 (Swagelining all-polymer liner), ABS (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Carry fluids between seabed flowlines/PLET and surface host; accommodate vessel motion and environmental loads. | Qualitative function from pages read in this sweep. |
+
+
+### Subsea control and distribution systems (ex-subsea-control-and-distribution-systems-scm-sdu-mux-all-electr)
+
+Primary code: UPS: Upstream
+Remote monitoring and control of trees, manifolds, valves and chokes; distribute hydraulic power, electrical power, chemical injection and communications; enable ROV intervention.
+Vendors: OneSubsea (SLB/Aker Solutions JV), Baker Hughes, Proserv, TechnipFMC (CDS Separation Systems) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Remote monitoring and control of trees, manifolds, valves and chokes; distribute hydraulic power, electrical power, chemical injection and communications; enable ROV intervention. | Qualitative function from pages read in this sweep. |
+
+
+### Subsea gas compression (ex-subsea-gas-compression)
+
+Primary code: UPS: Upstream
+Boost unprocessed well-stream gas on the seabed to reduce downstream pressure drop and defer or replace topside compression.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Boost unprocessed well-stream gas on the seabed to reduce downstream pressure drop and defer or replace topside compression. | Qualitative function from pages read in this sweep. |
+
+
+### Subsea installation and protection (ex-subsea-installation-and-protection-anchors-trenching-burial-ro)
+
+Primary code: UPS: Upstream
+Stabilize and protect pipelines/umbilicals/structures against hydrodynamic loads, scour, dropped objects, trawling and iceberg scour; prepare seabed and correct spans.
+Vendors: DeepOcean, Subsea7 (Swagelining all-polymer liner), CTC Marine (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| T1500+ jet trenching ROV depth | 500 m | DeepOcean T1500+: 1500 hp (1125 kW), up to 3.5 knots current, 3 m maximum burial capacity |
+| UT-1 jetting ROV power | 2.1 MW total power | DeepOcean UT-1 described as world's most powerful jetting ROV |
+| AMP1500 plough product handling | 1500 mm diameter | DeepOcean Advanced Multi-Pass Plough for pre-cut/post-lay ploughing of large diameter pipelines/trunklines |
+| ACP2 cable plough capability | 300 mm diameter product; 5 m minimum bend radius | DeepOcean ACP2 for large diameter power cables |
+
+
+### Subsea manifolds and templates (ex-subsea-manifolds-and-templates-production-injection-cluster-pl)
+
+Primary code: UPS: Upstream
+Gather and distribute production/injection flows, enable testing, isolation, sampling, metering and allocation; provide tie-in termination of flowlines and risers.
+Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems), Baker Hughes (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Manifold water depth capability | 10000 ft | OneSubsea manifolds capability up to depths of 10,000 ft |
+| Manifold pressure | 15000 psi | OneSubsea manifolds up to 15,000 psi |
+| Manifold temperature | 175 deg C | OneSubsea manifolds up to 175 C |
+| Manifold pressure rating | 20000 psi | TechnipFMC manifold and tie-in systems up to 20K psi |
+| Manifold temperature rating | 350 deg F | TechnipFMC manifolds up to 350 F |
+| Connection diameter | 30 ft | TechnipFMC manifolds up to 30 ft connection diameter |
+
+
+### Subsea multiphase pumping and boosting (ex-subsea-multiphase-pumping-and-boosting)
+
+Primary code: UPS: Upstream
+Lower wellhead pressure, increase flow and recovery, compensate tieback pressure drop, mitigate slugging and manage hydrates/wax via pump heat.
+Vendors: OneSubsea (SLB/Aker Solutions JV), Baker Hughes (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Lower wellhead pressure, increase flow and recovery, compensate tieback pressure drop, mitigate slugging and manage hydrates/wax via pump heat. | Qualitative function from pages read in this sweep. |
+
+
+### Subsea separation, water handling and metering (ex-subsea-separation-water-handling-and-metering)
+
+Primary code: UPS: Upstream
+Separate gas/liquid and oil/water on the seabed, remove solids, and measure multiphase/wet-gas flows for allocation and control.
+Vendors: OneSubsea (SLB/Aker Solutions JV), Baker Hughes / Emerson Roxar, TechnipFMC (CDS Separation Systems) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Metering technology | Emerson Roxar wet-gas flow meter + Baker Hughes electric choke in IPM product | Baker Hughes Integrated Process Module |
+
+
+### Subsea trees (ex-subsea-trees-christmas-trees)
+
+Primary code: UPS: Upstream
+Installed on the subsea wellhead to control flow into and out of the well; connect tubing and downhole devices to the seafloor and surface host; provide valve, choke and intervention interfaces.
+Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems), Baker Hughes (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Operating temperature range | -18-176 deg C | OneSubsea subsea trees designed to operate in extreme temperature range |
+| Maximum pressure | 15000 psi (>1,000 bar) | OneSubsea trees 'up to 15,000 psi, or more than 1,000 bar' |
+| Production bore (wellhead vertical tree) | 7 inch | OneSubsea full deep-water capability and 7-inch production bore size for wellhead vertical trees |
+| Tree pressure rating | 20000 psi | TechnipFMC vertical and horizontal subsea tree solutions for pressures up to 20,000 psi |
+| Tree temperature rating | 400 deg F | TechnipFMC trees temperatures to 400 F |
+| Tree water depth rating | 10000 ft | TechnipFMC trees water depths up to 10,000 ft |
+| Deepest subsea completion record | 9627 ft | TechnipFMC EVDT subsea tree holds deepest subsea completion record |
+| Tree sizes | 5-7 inch | Baker Hughes provides both 5-inch and 7-inch systems with up to 15,000 psi, water depths up to 10,000 ft; >1,600 trees supplied since 1962 |
+| HPHT flowing temperature | 350 deg F | Baker Hughes HPHT tree system up to 15,000 psi and flowing temperatures up to 350 F |
+| Aptara framework rating | 10000 psi (690 bar), 10,000 ft / 3,048 m, 300 F / 149 C | Aptara suite built around this framework |
+
+
+### Subsea umbilicals (ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr)
+
+Primary code: UPS: Upstream
+Link surface and seafloor equipment: electric and fiber-optic signals, electrical power, hydraulic and chemical injection fluids; power boosting/compression and provide flowline heating.
+Vendors: OneSubsea (SLB/Aker Solutions JV), Prysmian Group, Nexans, TechnipFMC (CDS Separation Systems) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Link surface and seafloor equipment: electric and fiber-optic signals, electrical power, hydraulic and chemical injection fluids; power boosting/compression and provide flowline heating. | Qualitative function from pages read in this sweep. |
+
+
+### Subsea wellheads, conductors and mudline wellhead systems (ex-subsea-wellheads-conductors-and-mudline-wellhead-systems-hpht)
+
+Primary code: UPS: Upstream
+Primary pressure barrier of a subsea well; anchor and suspension point; seal element for casing strings; supports BOP, tree and downhole control line pass-through.
+Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems), Baker Hughes (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Welding procedure standards | API Spec 6A and 17D; ASME Section IX; NACE MR0175/ISO 15156; DNVGL-RP-C203 fatigue classes F3, D or C1 standard | OneSubsea subsea wellheads |
+
 
 ## exhaust
 
@@ -3537,6 +3715,277 @@ Recorded gaps:
 - Primary NFPA 110 standard text and exact clause numbers for load-bank test profiles — Consult NFPA LiNK or adopted edition via AHJ before specifying acceptance criteria
 - Load bank requirements specific to gas-engine (spark-ignition) prime plants running continuously rather than standby — Check engine OEM (INNIO/Wärtsilä) commissioning manuals for gas engine run-in procedures
 
+## tp-wellhead
+
+### Amine sweetening (tp-amine-sweetening-mdea-and-formulated-amines)
+
+Primary code: UPS: Upstream
+Absorb H2S and CO2 from sour gas in a contactor using lean amine; regenerate in a still/reboiler; route acid gas to flare, vent or sulphur recovery unit.
+Vendors: BASF, Kinder Morgan Treating, SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| MDEA CAS number | 105-59-9 CAS | BASF OASE Formulations & Solvents page; page read |
+| Other amine solvents (CAS) | ADEG 929-06-6; MEA 141-43-5; DEA 111-42-2; DIPA 110-97-4; NFM 4394-85-8; NAM 1696-20-4 CAS list | BASF page; page read |
+| Amine regeneration temperature | ~225 degF | Kinder Morgan Treating 'How Amine Treating Sweetens Natural Gas'; page read |
+| Reference plant capacity | 2 x 30 MMSCFD amine trains (60 MMSCFD sour gas plant) MMSCFD | SPEC Amine Sweetening page; page read |
+
+
+### Chemical injection systems — methanol/MEG, corrosion/scale inhibitor, demulsifier, defoamer, biocide (tp-chemical-injection-systems-methanol-meg-corrosion-scale-inhibi)
+
+Primary code: UPS: Upstream
+Inject hydrate inhibitors, corrosion/scale inhibitors, demulsifiers, defoamers and biocides via dosing pumps and tanks to maintain flow assurance, separation performance and asset integrity.
+Vendors: SLB (ChampionX portfolio), SPEC Oil & Gas Technologies (fabricator), US EPA Natural Gas STAR Program (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Methanol/EG hydrate-inhibition regime | EG above -40 degF; methanol below -140 degF degF | Digital Refining article; page read |
+| Chemical injection skid configuration | dosing pumps + tank on skid; supplied with process equipment or standalone configuration | SPEC Utility Systems page; page read |
+
+
+### Compact / in-line separation and debottlenecking (tp-compact-in-line-separation-and-debottlenecking-cross-cutting-t)
+
+Primary code: UPS: Upstream
+Increase existing separator capacity and reduce topside weight/footprint by bulk phase bypass and high-efficiency internals rather than new large vessels.
+Vendors: TechnipFMC (CDS Separation Systems), OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| InLine ElectroCoalescer claim | drastically enhances liquid-liquid separation; reduces footprint/cost; ideal for debottlenecking qualitative | TechnipFMC Production page; page read |
+| Subsea compact separation envelope | 1,015 metric tons CO2e elimination claim (electrified subsea approach) t CO2e | OneSubsea subsea separation page; page read |
+
+
+### Dew point control and gas cooling / hydrocarbon recovery (tp-dew-point-control-and-gas-cooling-hydrocarbon-recovery)
+
+Primary code: UPS: Upstream
+Meet water and hydrocarbon dew point sales specs by cooling/condensing heavy components, with upstream dehydration to prevent hydrate/ice formation; low-temperature separation, refrigeration, silica gel and LTS options.
+Vendors: Pietro Fiorentini (TEG packages), SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Hydrate inhibitor temperature applicability | EG above -40 degF; methanol down to below -140 degF degF | Digital Refining article; page read |
+| Dehydration route economics | glycol absorption less capex/opex than molecular sieve for 1-7 lb/MMSCF target comparison | Digital Refining article; page read |
+| Available dew-point product families | silica gel WDP/HDP control; hydrocarbon recovery/LTS dew point control; gas heat exchangers; indirect water/glycol bath heaters list | Pietro Fiorentini gas-treatment product family links; page read |
+
+
+### Electrical distribution, instrument/plant air, nitrogen, hydraulic power, seawater/lift pumps, HVAC, firewater (tp-electrical-distribution-instrument-plant-air-nitrogen-hydrauli)
+
+Primary code: UPS: Upstream
+Support utilities and safety systems that make the process train operable: power distribution, pneumatic control air, inerting, actuation power, cooling/firewater, lifting and living quarters.
+Vendors: SPEC Oil & Gas Technologies (fabricator), Siemens Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Instrument air package equipment | rotary screw, oil-free screw or reciprocating compressors; KO drum, filters, refrigerated or adsorption dryers; receiver tanks, piping, instrumentation, valves list | SPEC Utility Systems page; page read |
+| Utility scope linkage | utility scope follows process equipment: what has to be heated, cooled, driven, instrumented and drained qualitative | SPEC Utility Systems page; page read |
+
+
+### ESD / F&G / ICSS — emergency shutdown, fire and gas, safety instrumented systems, HIPPS (tp-esd-f-g-icss-emergency-shutdown-fire-and-gas-safety-instrument)
+
+Primary code: UPS: Upstream
+Detect fire/gas and execute SIL-rated shutdown and mitigation actions, integrated with process control on offshore/floating facilities.
+Vendors: Honeywell, TechnipFMC (CDS Separation Systems) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Safety Manager SIL capability | SIL 1-3 IEC 61508/61511 | Honeywell Safety Manager product page; page read |
+| Operating temperature | -40 to 70 degC (remote cabinet); -5 to 70 degC (Safety Manager cabinet) degC | Honeywell Safety Manager specifications table; page read |
+| Safety/F&G standards listed | IEC 61508, IEC 61511, ISA S84.01, NFPA 72/85/86, EN54-2, ATEX, UL/FM standards | Honeywell Safety Manager page specifications + Honeywell F&G case study; page read |
+| HIPPS offering | High Integrity Pressure Protection System listed system | TechnipFMC Production page Safety and Control list; page read |
+
+
+### Flare and vent system — flare stack/boom, flare tips, KO drums, gas recovery/VRU (tp-flare-and-vent-system-flare-stack-boom-flare-tips-ko-drums-gas)
+
+Primary code: UPS: Upstream
+Safely dispose of relief/blowdown/start-up gas by controlled combustion; knock out entrained liquid upstream to prevent flaming rain; recover gas where feasible.
+Vendors: FlareTech Inc., CRA (Combustion Research Associates), NAO Inc., Allmarc Industries (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Flare KO drum size range (fabricator) | 2 to 600 BBL | FlareTech Inc. Flare Knockout Drums page; page read |
+
+
+### Free-water knockout (tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones)
+
+Primary code: UPS: Upstream
+Remove bulk free water before downstream heating/chemical treating; remove sand/solids from wellstream or produced water upstream of separation and oil-in-water separation.
+Vendors: TechnipFMC (CDS Separation Systems), OneSubsea (SLB/Aker Solutions JV), Enerflex, Enhydra Ltd, eProcess Technologies (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| FWKO suitable duty | separate-phase water only; not stable emulsions qualitative | SPEC FWKO page, 'Free Water, Not Emulsion'; page read |
+
+
+### Gas compression — reciprocating, centrifugal/axial, rotary screw; suction/discharge scrubbers (tp-gas-compression-reciprocating-centrifugal-axial-rotary-screw-s)
+
+Primary code: UPS: Upstream
+Raise associated/export gas pressure, provide gas lift/reinjection/vapour-recovery/refrigeration duty; scrub liquids ahead of and after compressors.
+Vendors: SPEC Oil & Gas Technologies (fabricator), Siemens Energy, OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Compressor types offered (package) | high-speed reciprocating; rotary screw list | SPEC Compressor Packages page; page read |
+| Topside pump/compressor skid envelope (TechnipFMC standard pumps) | up to 10,000 psi and 1,500 gpm psi / gpm | TechnipFMC Production page 'Standard pumps and complete skid systems'; page read |
+| Subsea processing envelope (context for topside debottlenecking) | 2,500 m water depth; 350 degF; 15,000 psi m / degF / psi | TechnipFMC Subsea processing page; page read |
+
+
+### Gas export / sales specification compliance (tp-gas-export-sales-specification-compliance-cross-cutting)
+
+Primary code: UPS: Upstream
+Ensure dehydrated, sweetened, dew-point-controlled gas meets pipeline/sales requirements for water content, H2S/CO2, hydrocarbon dew point and heating value before custody transfer.
+Vendors: Honeywell, Emerson (duplex stainless steel option on Roxar 2600, page read) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Pipeline water content target | 1-7 lb/MMSCF (20-140 ppmv) | Digital Refining article; page read |
+| Pipeline requirement (operator practice) | 7 lb/mmcf or less | Kinder Morgan Treating dehydration page; page read |
+| Standard TEG dry-gas guarantee | 3-7 lb water/MMSCF | Pietro Fiorentini page; page read |
+
+
+### Glycol (tp-glycol-teg-dehydration)
+
+Primary code: UPS: Upstream
+Contact wet gas with lean triethylene glycol in an absorber/contactor, then regenerate glycol in a reboiler/still to meet water-content and water-dew-point specification and prevent hydrates/corrosion.
+Vendors: Pietro Fiorentini (TEG packages), Kinder Morgan Treating, SPEC Oil & Gas Technologies (fabricator), Cimarron Energy (Aereon) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Pipeline water-content specification range | 1-7 lb/MMSCF (20-140 ppmv) | Digital Refining (PTQ) article 'Controlling the dew point of natural gas', Fluor Enterprises; page read |
+| Dry gas spec from TEG unit | 3-7 lb water/MMSCF gas | Pietro Fiorentini gas dehydration packages page; page read |
+| Regenerated TEG purity, conventional | ~99 wt% | Digital Refining article; page read |
+| TEG thermal degradation threshold | 404 degF (207 degC) | Digital Refining article; page read |
+| Water dew point from 99.96 wt% lean TEG | -40 degF (-40 degC) WDP at 80 degF contactor | Digital Refining article; page read |
+| Rich TEG pressure at contactor outlet | 250-800 psig | US EPA Natural Gas STAR 'Glycol Dehydrators'; page read |
+| Dehydrator capacity range | ~1 to ~400 MMscfd | Kinder Morgan Treating dehydration page; page read |
+| CO2 pipeline water limit (Kinder Morgan spec) | ≤30 lb water/MMSCF vapour phase; no free water | Kinder Morgan Treating dehydration page; page read |
+| Project reference capacity | 2 x 30 MMSCFD TEG trains (60 MMSCFD sour gas plant) MMSCFD | SPEC Glycol Dehydration project reference; page read |
+
+
+### Inlet scrubbers / gas scrubbers / slug catchers (tp-inlet-scrubbers-gas-scrubbers-slug-catchers)
+
+Primary code: UPS: Upstream
+Remove free liquid and solids from gas entering a treatment facility before additional processing; protect compressors and downstream equipment.
+Vendors: SLB (ChampionX portfolio), SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Gas filter separator standard design pressure | 1440 psi (99 bar) | SPEC Gas Filter Separator 'Mechanical Features' table; page read |
+
+
+### Mercury removal (tp-mercury-removal)
+
+Primary code: UPS: Upstream
+Remove elemental mercury from gas to protect brazed aluminium plate-fin heat exchangers in cryogenic recovery/liquefaction plants.
+Vendors: Pietro Fiorentini (TEG packages) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Typical inlet mercury concentration | 1-10 micrograms/Nm3 (approx. 0.1-10 ppbv) | Pietro Fiorentini Gas mercury removal page; page read |
+| Designed outlet mercury concentration | 0.001 micrograms/Nm3 | Pietro Fiorentini page; page read |
+
+
+### Metering and export quality — oil/gas/water meters, multiphase flow meters, custody transfer, sampling, sales  (tp-metering-and-export-quality-oil-gas-water-meters-multiphase-fl)
+
+Primary code: UPS: Upstream
+Measure oil, gas and water rates (with or without separation), support allocation and custody transfer, sample fluids at or above hydrocarbon dew point, and demonstrate compliance with sales specifications.
+Vendors: SLB (ChampionX portfolio), Emerson (duplex stainless steel option on Roxar 2600, page read), TechnipFMC (CDS Separation Systems), Honeywell (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Roxar 2600 MPFM operating envelope | 0-100% GVF and 0-100% WLR; 6 sizes; duplex stainless steel to Inconel % / sizes | Emerson Roxar 2600 product page; page read |
+| TechnipFMC MPM GVF range | 0-100 % GVF | TechnipFMC Production page; page read |
+
+
+### Molecular sieve dehydration and solid desiccants (tp-molecular-sieve-dehydration-and-solid-desiccants)
+
+Primary code: UPS: Upstream
+Adsorb water to very low dew points upstream of cryogenic processing/LNG/NGL recovery; swing-bed adsorption with heated regeneration gas.
+Vendors: Pietro Fiorentini (TEG packages), SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Water content achievable | as low as 1 ppm vol | Pietro Fiorentini fixed-bed dehydration page; page read |
+| Water content / dew point capability | <0.1 ppmv water; WDP as low as -150 degF (-100 degC) or less ppmv / degF | Digital Refining article; page read |
+| Regeneration gas temperature | ~550 degF (290 degC) | SPEC Molecular Sieve Dehydration page 'Key Figures'; page read |
+| Reference duty | 100 tonne/day LPG facility tonne/day | SPEC Umutu LPG plant, Delta State, Nigeria 2009; page read |
+
+
+### Oil heating and crude/condensate stabilisation (tp-oil-heating-and-crude-condensate-stabilisation)
+
+Primary code: UPS: Upstream
+Heat emulsion or crude; strip light ends from crude/condensate to meet Reid vapour pressure (RVP) and H2S limits for storage/export; supply heat from hot-oil or fired systems.
+Vendors: SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Water bath heater maximum outlet temperature | 87 degC | SPEC Ancillary Equipment overview and Water Bath Heater page; page read (ancillary overview) |
+| Stabiliser configuration | column with trays/packing + reboiler (gas, hot oil or steam) configuration | SPEC Crude & Condensate Stabilization page; page read |
+
+
+### Oil treatment — mechanical heater treaters, electrostatic treaters/dehydrators, desalters (tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater)
+
+Primary code: UPS: Upstream
+Break produced-water-in-oil emulsions with heat and residence time or an applied electrostatic field; reduce BS&W and salt content to export specification.
+Vendors: SPEC Oil & Gas Technologies (fabricator), SLB (ChampionX portfolio) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Mechanical treater capacity | >20,000 barrels of liquid per day (BLPD) | SPEC Mechanical Heater Treater typical design data; page read |
+| Electrostatic vs mechanical treater (qualitative) | lower BS&W, lower salt content, smaller footprint comparison | SPEC Electrostatic Heater Treater & Desalter comparison table; page read |
+| Desalting reference plant capacity | 50,000 BOPD | SPEC TAQA Atrush project scope: 2 electrostatic dehydrators + 2 crude cross exchangers; page read |
+
+
+### Power generation — gas turbines and diesel (tp-power-generation-gas-turbines-and-diesel)
+
+Primary code: UPS: Upstream
+Supply electrical power and mechanical drive for topside process, compression, water injection and utilities; combined-cycle and single-lift modular packages for offshore use.
+Vendors: Siemens Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| SGT-800 combined cycle range | 150-450 MW | Siemens Energy SeaFloat page; page read |
+
+
+### Produced water treatment — deoiling hydrocyclones, flotation (tp-produced-water-treatment-deoiling-hydrocyclones-flotation-igf)
+
+Primary code: UPS: Upstream
+Reduce oil-in-water from produced water to discharge or reinjection specification; bulk removal by hydrocyclone, polishing by flotation and filtration.
+Vendors: SPEC Oil & Gas Technologies (fabricator), ISS Process (Innovative Synergy Solutions), TechnipFMC (CDS Separation Systems), Veolia Water Technologies / VWS Westgarth, CECO Environmental (Peerless Separation & Filtration), Wasco Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Hydrocyclone outlet quality | as low as 25 ppm oil in water | SPEC Hydrocyclone Separators typical design data table; page read |
+| IGF outlet quality | as low as 10 ppm oil in water | SPEC Induced Gas Flotation typical design data; page read |
+| Nutshell filter outlet quality | as low as 5 ppm oil in water | SPEC Nutshell Filters typical design data; page read |
+| Malaysia BOKOR CPP guarantee | 80,000 BWPD; 30 ppm OIW outlet (monthly) BWPD / ppm | ISS Process project page; page read |
+| Malaysia PEGAGA guarantee | 12,000 BWPD; 2,000 ppm inlet -> 20 ppm OIW outlet (monthly) BWPD / ppm | ISS Process project page; page read |
+| Malaysia SK408W Jerun guarantee | 3,200 BWPD; 3,000 ppmV inlet -> 20 ppmV OIW outlet BWPD / ppmV | ISS Process project page; page read |
+
+
+### Three-phase (tp-three-phase-production-test-separator-horizontal-vertical-sphe)
+
+Primary code: UPS: Upstream
+Split well effluent into gas, oil and free water; absorb inlet momentum, provide liquid retention, demist gas and control each outlet. Commonly used as a free-water knockout (FWKO).
+Vendors: SLB (ChampionX portfolio), TechnipFMC (CDS Separation Systems), SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Separator orientation | horizontal, vertical or spherical configuration | SLB Energy Glossary definition of three-phase separator; page read |
+| Design code | ASME Section VIII, Division 1 code | SPEC two-/three-phase separator page, 'Design basis' table; page read |
+| Inlet device types | Diverter plate, half pipe, vane, cyclonic list | SPEC two-/three-phase separator page, 'How the vessel works'; page read |
+
+
+### Water injection, reinjection pumps and seawater treatment (tp-water-injection-reinjection-pumps-and-seawater-treatment)
+
+Primary code: UPS: Upstream
+Provide reservoir pressure support/disposal by filtering seawater or produced water and injecting at high pressure; remove solids/sulphate/divalent ions that cause scaling/souring.
+Vendors: Baker Hughes, OneSubsea (SLB/Aker Solutions JV), Siemens Energy, TechnipFMC (CDS Separation Systems) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Provide reservoir pressure support/disposal by filtering seawater or produced water and injecting at high pressure; remove solids/sulphate/divalent ions that cause scaling/souring. | Qualitative function from pages read in this sweep. |
+
+
 ## truck-rail
 
 ### Truck/rail loaders, shiploaders and bulk loading stations (bulk-loading-stations)
@@ -3888,3 +4337,433 @@ Recorded gaps:
 
 - Belt scale accuracy class, capacity range, calibration method, OEM models (Schenck/Siemens etc.) — Fetch a verified weigh-belt OEM datasheet.
 - Belt scale accuracy class, capacity range, calibration method, OEM models (Schenck/Siemens etc.) — Fetch a verified weigh-belt OEM datasheet.
+
+## wh-wellhead
+
+### Caisson platform / conductor-supported caisson (wh-caisson-platform-conductor-supported-caisson-csp)
+
+Primary code: UPS: Upstream
+Vertical large-diameter caisson(s) used as the substructure and often as conductor(s) for a small wellhead topside; cheaper and installable by jack-up rig.
+Vendors: Aquaterra Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Vertical large-diameter caisson(s) used as the substructure and often as conductor(s) for a small wellhead topside; cheaper and installable by jack-up rig. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Design basis for caisson conductor support under ship impact and seismic loading — Fetch detailed design papers or classification notes.
+
+### Chemical injection system (wh-chemical-injection-system-methanol-meg-scale-corrosion-inhibit)
+
+Primary code: UPS: Upstream
+Doses chemicals at the well or flowline to prevent hydrates, corrosion, scale, wax, foaming and demulsification problems.
+Vendors: Johnson Controls (YORK, Silent-Aire), Petro Controls Europe BV, Veetech Automation FZE, ABB Wellhead Management System (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| hydrate prevention via kill wing valve | kill wing valve used primarily for injection of corrosion inhibitors or methanol to prevent hydrate formation qualitative | Wikipedia Christmas tree (oil well) |
+
+
+Recorded gaps:
+
+- MEG injection rates and hydrate inhibition design basis for a named field — Fetch flow assurance design paper or operator project paper.
+
+### Christmas tree (wh-christmas-tree-surface-and-subsea)
+
+Primary code: UPS: Upstream
+Assembly of valves, spools and fittings mounted on the wellhead to control production or injection flow, provide chemical injection and intervention access, and monitor pressure/temperature/sand.
+Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems), Baker Hughes, CDI Oil & Gas (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| surface tree valve arrangement | basic: two or three manual gate valves; sophisticated: four or five valves in crucifix pattern with upper and lower master valves, production wing valve, kill wing valve (NASA in North Sea), swab valve configuration | Wikipedia Christmas tree (oil well), Valves section |
+| hydraulic wing valve fail-safe mode | fail-safe closed; requires active hydraulic pressure to stay open qualitative | Wikipedia Christmas tree (oil well) |
+| deepest installed subsea tree (as stated on page) | 9000 ft (2,700 m), approximately, Gulf of Mexico | Wikipedia Christmas tree (oil well) overview |
+| subsea tree current technical limits (as stated on page) | -50-350 degrees F (-46 to 177 C); pressure up to 15,000 psi (100 MPa); water depth up to around 3,000 m | Wikipedia Christmas tree (oil well) overview |
+| subsea tree mass range | 1-70 tons, approximately; up to about 70 tons for HPHT deepwater (>3,000 ft / 910 m) guidelineless trees | Wikipedia Christmas tree (oil well) |
+| OneSubsea subsea tree temperature range | -18-176 degrees Celsius | OneSubsea subsea trees page |
+| OneSubsea subsea tree pressure rating | ?-15000 psi (more than 1,000 bar), up to | OneSubsea subsea trees page |
+| OneSubsea wellhead vertical tree production bore | 7 inch | OneSubsea subsea trees page, Features |
+| TechnipFMC subsea tree ratings | ?-20000 psi; up to 400 F; up to 10,000 ft water depth | TechnipFMC subsea trees page |
+| API specifications for tree valves | API Spec 6A (surface) and API Spec 17D (subsea) standard | Wikipedia Christmas tree (oil well), Valves section |
+| ISO standard for wellhead/tree equipment | ISO 10423:2009 (also ISO 13628-4:2010 for subsea wellhead and tree equipment) standard | Wikipedia Wellhead and Christmas tree reference lists; ISO 13628-4:2010 from API international usage report |
+
+
+Recorded gaps:
+
+- Reconciliation of deepest-tree records (9,000 ft Wikipedia vs 9,627 ft TechnipFMC) — Fetch original source cited by Wikipedia and TechnipFMC record press release.
+
+### Conductors, conductor guides and subsea templates (wh-conductors-conductor-guides-and-subsea-templates)
+
+Primary code: UPS: Upstream
+Protect and guide the drill string and well casing from topside to below the mudline; a subsea template guides conductors before jacket installation and may group several wells.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| conductor function and depth below seabed | 40-100 m below sea bottom | ESDEP glossary: tubular protecting and guiding drill string from topside down to 40-100 m under sea bottom; after drilling protects well casing |
+| conductor size protected by jacket | 26-30 inch | ESDEP 15A.1 section 4.1 |
+
+
+Recorded gaps:
+
+- Conductor centralizer and guide bushing standard sizes/loads from an OEM — Fetch OEM conductor guide and template product pages.
+
+### Downhole safety valve (wh-downhole-safety-valve-dhsv-sssv-scssv)
+
+Primary code: UPS: Upstream
+Fail-safe downhole barrier that isolates reservoir fluids at surface if wellhead/tree containment is lost.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| typical valve mechanism | uni-directional flapper valve which opens downwards; hydraulic pressure from surface opens against a spring; loss of pressure closes it qualitative | Wikipedia Downhole safety valve, Operation section |
+| minimum setting depth below mudline (MMS regulation) | 100 ft (30 m) | Wikipedia Downhole safety valve, Positioning section, citing MMS regulations |
+| control method | hydraulically controlled from surface via a control line linked to a well control panel qualitative | Wikipedia Downhole safety valve |
+| legal status in United Kingdom | not a direct legal requirement; 1974 Health & Safety at Work Act requires prevention of uncontrolled release, so DHSVs are company policy for many UKCS operators regulatory context | Wikipedia Downhole safety valve, Legal requirement section |
+
+
+Recorded gaps:
+
+- OEM DHSV pressure ratings, bore sizes and metallurgy — Fetch OEM subsurface safety valve product sheets.
+
+### Fire and gas, deluge and ESD/HIPPS (wh-fire-and-gas-deluge-and-esd-hipps)
+
+Primary code: UPS: Upstream
+Detect fire and gas, mitigate fire escalation with water deluge, and shut down or blow down the installation safely.
+Vendors: Johnson Controls (YORK, Silent-Aire) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Detect fire and gas, mitigate fire escalation with water deluge, and shut down or blow down the installation safely. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Installation-specific F&G voting logic and deluge coverage density — Fetch safety case or F&G philosophy documents.
+
+### Fixed jacket wellhead platform (wh-fixed-jacket-wellhead-platform)
+
+Primary code: UPS: Upstream
+A fixed, pile-founded tubular steel substructure supporting a topside that houses wellheads, Christmas trees, well control and minimum processing; the wells are drilled and completed from the platform.
+Vendors: TechnipFMC (CDS Separation Systems), Aquaterra Energy, OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+|  economically feasible water depth (fixed platforms generally) | 500 m (about 150 m cited on Fixed platform page) | Fixed platforms economically feasible up to about 500 feet (150 m); Oil platform page separately states up to about 520 m (1,710 ft) — conflicting figures between two fetched pages, neither preferred |
+| jacket function | braced tubular steel substructure; supports laterally and protects well conductors and pipeline riser qualitative | ESDEP lecture 15A.1 section 4.1 |
+| well conductor size protected by jacket | 26-30 inch | ESDEP lecture 15A.1 section 4.1 |
+| typical air gap (topside clearance above maximum wave) | 1.5 m (approximately) | ESDEP lecture 15A.1 section 2.2; to be increased if reservoir depletion causes subsidence |
+| applicable structural standard | API RP 2A (worldwide leading code); ISO 19902:2020; DNV rules; AISC and AWS D1.1 for topsides and welding standard designation | ESDEP 15A.1 section 2.4 and references; ISO 19902:2020 abstract (search-verified) |
+
+
+Recorded gaps:
+
+- Current edition/date of API RP 2A (WSD and LRFD) and its exact status versus ISO 19902 — Fetch API standards catalogue pages for RP 2A-WSD and RP 2A-LRFD current editions.
+
+### Flare boom / flare stack (wh-flare-boom-flare-stack)
+
+Primary code: UPS: Upstream
+Safely combust waste gas during normal operation and emergencies; height/length set by radiation and noise limits.
+Vendors: Tai Crest Resources (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Safely combust waste gas during normal operation and emergencies; height/length set by radiation and noise limits. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Flare tip diameter, radiation limit and stack height for a specific WHP — Fetch flare design paper or project specification.
+
+### Helideck, bridge link and accommodation/control rooms (wh-helideck-bridge-link-and-accommodation-control-rooms)
+
+Primary code: UPS: Upstream
+Provides helicopter landing and personnel transfer, a safe bridge connection between platforms, and living quarters/control room spaces.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Provides helicopter landing and personnel transfer, a safe bridge connection between platforms, and living quarters/control room spaces. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Detailed helideck D-value, load classification and obstacle-free sector requirements — Fetch full CAAP 71 PDF and extract section 5 tables.
+
+### Hydraulic and control lines, umbilicals (wh-hydraulic-and-control-lines-umbilicals)
+
+Primary code: UPS: Upstream
+Carry hydraulic power, electrical power, signals and chemicals between the surface control system and subsea/downhole devices.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| OneSubsea umbilical product lines | steeltube umbilicals, power umbilicals and cables, integrated production umbilicals, direct electrical heating systems product list | OneSubsea subsea umbilical systems navigation on fetched wellhead/trees pages |
+
+
+Recorded gaps:
+
+- Umbilical tube count, conductor cross-sections and design pressure for a named project — Fetch an OEM umbilical datasheet.
+
+### J-tubes, guide tubes and bend restrictors/stiffeners (wh-j-tubes-guide-tubes-and-bend-restrictors-stiffeners)
+
+Primary code: UPS: Upstream
+Guide, protect and control curvature of flexible risers, umbilicals and cables at platform and subsea terminations.
+Vendors: CRP Subsea (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Guide, protect and control curvature of flexible risers, umbilicals and cables at platform and subsea terminations. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- MBR and design load tables for specific bend restrictor models — Retry CRP page or fetch range sheet PDF.
+
+### Jacket substructure and pile foundation (wh-jacket-substructure-and-pile-foundation)
+
+Primary code: UPS: Upstream
+Transfers topside and environmental loads to the seabed; piles are driven through jacket legs or skirt sleeves and fixed by grouting, welding or swaging.
+Vendors: Sika, CAPE Holland (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| open-ended tubular steel pile diameter | ?-2 m (up to) | ESDEP 15A.1 section 4.2 |
+| pile penetration | 40-80 m; in some cases 120 m | ESDEP 15A.1 section 4.2 |
+| sacrificial anode mass | 3 kN each, approximately | ESDEP 15A.1 section 4.4; zinc/aluminium bar cast about a steel tube and welded to structure |
+| anode mass as fraction of jacket weight | 5 % typically | ESDEP 15A.1 section 4.4 |
+| splash zone corrosion allowance | 12 mm sacrificial wall thickness | ESDEP 15A.1 section 4.4 |
+
+
+Recorded gaps:
+
+- Current API RP 2A pile design equations and fatigue criteria — Fetch API preview or ISO 19902 OBP sample.
+
+### Landing nipples and packers (wh-landing-nipples-and-packers)
+
+Primary code: UPS: Upstream
+Provide downhole loci for wireline tools/valves and isolate annuli or zones within the completion.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Provide downhole loci for wireline tools/valves and isolate annuli or zones within the completion. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Named landing nipple and packer products with bore, pressure rating and setting depth — Fetch completion equipment catalogs (e.g. packer and nipple datasheets) and add specs.
+
+### Manifolds and piping (wh-manifolds-and-piping-production-test-injection)
+
+Primary code: UPS: Upstream
+Gather flow from multiple wells, route to production/test headers, distribute injection fluids and chemicals, and provide isolation and pigging interfaces.
+Vendors: Baker Hughes, OneSubsea (SLB/Aker Solutions JV), Deepsea Technologies, Inc. (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Gather flow from multiple wells, route to production/test headers, distribute injection fluids and chemicals, and provide isolation and pigging interfaces. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Design pressure/temperature of named manifold models — Fetch full Baker Hughes catalog or datasheet pages.
+
+### Master valves, wing valves, choke valves and actuators (wh-master-valves-wing-valves-choke-valves-and-actuators)
+
+Primary code: UPS: Upstream
+Provide well isolation, flow routing, flow control and remote/fail-safe actuation on trees and manifolds.
+Vendors: Hydropneumatic S.r.l., TechnipFMC (CDS Separation Systems) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| master valve operating practice | normally fully open; never opened or closed while well is flowing except in emergency, to prevent erosion of sealing surfaces operating rule | Wikipedia Christmas tree (oil well) |
+| lower master valve operation | manually operated; upper master valve often hydraulically actuated for remote shut-in configuration | Wikipedia Christmas tree (oil well) |
+| actuated wing valve | normally used to shut in the well when flowing; built fail-safe closed configuration | Wikipedia Christmas tree (oil well) |
+
+
+Recorded gaps:
+
+- Valve bore sizes, Cv and actuator thrust for specific tree models — Fetch named OEM gate valve and choke datasheets.
+
+### Minimal / satellite / conductor-supported wellhead platform (wh-minimal-satellite-conductor-supported-wellhead-platform)
+
+Primary code: UPS: Upstream
+Low-cost unmanned wellhead platform, often supported directly by the well conductors, used for marginal fields and step-outs tied back to a host facility by flowline or umbilical.
+Vendors: Aquaterra Energy, 2H Offshore, Synergy Engineering (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| description from Oil platform article | small unmanned platforms consisting of little more than a well bay and a small process plant; operate with a static production platform connected by flow lines or umbilical qualitative | Wikipedia Oil platform, Conductor support systems section |
+
+
+Recorded gaps:
+
+- Detailed conductor size/grade and fatigue design factors for each minimal platform — Fetch project PDFs or papers via operator/EPC sites.
+
+### Mobile wellhead units / MODU-served wellhead (wh-mobile-wellhead-units-modu-served-wellhead)
+
+Primary code: UPS: Upstream
+Wellheads and trees served from a mobile offshore drilling unit or intervention vessel instead of a permanent platform; includes subsea wellheads tied back to a host.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| jack-up rig depth range for exploration wells | 100-120 m | ESDEP 15A.1 section 3.1 |
+| offshore wellhead location terminology | surface wellhead on production platform; subsea/mudline wellhead below water qualitative | Wikipedia Wellhead |
+
+
+Recorded gaps:
+
+- Named mobile wellhead unit products and their ratings — Search OEM catalogs for riserless/mobile wellhead systems and fetch.
+
+### Pig traps and pigging loops (wh-pig-traps-and-pigging-loops)
+
+Primary code: UPS: Upstream
+Launch and receive pigs to clean or inspect flowlines between manifold and platform.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Launch and receive pigs to clean or inspect flowlines between manifold and platform. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Pig trap pressure class, size and supplier for a named platform — Fetch pig trap/pigging system OEM datasheet.
+
+### Platform utilities: cranes, lifeboats, power generation, HVAC and drainage (wh-platform-utilities-cranes-lifeboats-power-generation-hvac-and)
+
+Primary code: UPS: Upstream
+Support safe operation and habitation: lifting, evacuation, electrical power, environmental control and liquid drainage.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| major offshore crane vessel lifting capacity | 1600-14000 tonnes (table of vessels from ESDEP, historical) | ESDEP 15A.1 Table 1; e.g. Hermod 8,164 t fixed dual crane, Micoperi M7000 14,000 t revolving dual crane |
+| heaviest sling breaking load and SWL | approximately 350 mm diameter; breaking load approximately 48 MN; safe working load 16 MN; shackles up to 10 MN SWL mm / MN | ESDEP 15A.1 section 7.3.2 |
+| AMAL-C local power generation | two diesel generators, one providing emergency back-up generator count | Aquaterra AMAL-C case study |
+
+
+Recorded gaps:
+
+- Named platform crane and lifeboat models with capacities — Fetch OEM datasheets for pedestal cranes and enclosed lifeboats.
+
+### Risers (wh-risers-top-tensioned-flexible-scr)
+
+Primary code: UPS: Upstream
+Convey production/injection fluids between subsea wellheads/manifolds and the host platform or floating facility.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Convey production/injection fluids between subsea wellheads/manifolds and the host platform or floating facility. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Actual riser diameters, wall thicknesses and tensioner ratings for named installations — Fetch project-specific riser papers.
+
+### Tender-assisted drilling (wh-tender-assisted-drilling-tad-wellhead-platform)
+
+Primary code: UPS: Upstream
+Wellhead platform where drilling facilities and accommodation are provided by an adjacent tender vessel or barge rather than being permanently installed on the platform.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Wellhead platform where drilling facilities and accommodation are provided by an adjacent tender vessel or barge rather than being permanently installed on the platform. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Absolute topside/jacket weights for a representative TAD WHP — Fetch operator or yard project sheets for a TAD WHP.
+
+### Topsides decks and module support frame (wh-topsides-decks-and-module-support-frame-msf)
+
+Primary code: UPS: Upstream
+Carries wells, process equipment, utilities, accommodation and helideck; either a single integrated deck lifted in one piece or a module support frame carrying multiple modules.
+Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| integrated deck weight limit | ?-100 MN, approximately (about 10,000 tonnes) | ESDEP 15A.1 section 5.2.1 |
+| modularized topside weight range | 200-400 MN | ESDEP 15A.1 section 5.2.3 |
+| equipment module weight range | 20-75 MN | ESDEP 15A.1 section 6 |
+| living quarter module weight range | 5-25 MN | ESDEP 15A.1 section 6 |
+| deck leg support elevation | 4-6 m above Low Astronomical Tide | ESDEP 15A.1 section 5.2.2; down to top of piles |
+| topside installed CAPEX (historical) | 20 ECU/kg, approximately | ESDEP 15A.1 section 9.1; historical figure, NOT a current USD cost |
+
+
+Recorded gaps:
+
+- Current topside structural steel design code (API 2TOP vs AISC) and load factors — Fetch API 2TOP preview and ISO 19901-3 scope.
+
+### Unmanned wellhead platform (wh-unmanned-wellhead-platform-uwhp)
+
+Primary code: UPS: Upstream
+Normally unmanned installation with well bay, minimal facilities, remote operation and occasional visit for maintenance or well work.
+Vendors: Shell Malaysia Exploration and Production (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| definition of NUI | small platforms consisting of little more than a well bay, helipad and emergency shelter; operated remotely under normal conditions qualitative | Wikipedia Oil platform, Normally Unmanned Installations section |
+
+
+Recorded gaps:
+
+- W2W transfer criteria and manning model for UWHPs — Fetch full SODIR PDF.
+
+### Wellhead assembly (wh-wellhead-assembly-casing-head-casing-spools-tubing-head-hanger)
+
+Primary code: UPS: Upstream
+Provides structural suspension and pressure seals for casing and tubing strings, annulus monitoring/pumping access, BOP attachment during drilling and Christmas tree attachment during production.
+Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems), OMS (Oilfield Manufacturers and Supplies), CAMTOP Oilfield Tools, Cameron (SLB) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| primary component list | casing head, casing spools, casing hangers, choke manifold, packoffs, test plugs, mudline suspension systems, tubing heads, tubing hangers, tubing head adapter component list | Wikipedia Wellhead, Components section |
+| nominal pressure ratings (general wellheads) | 2-15 x1000 psi working pressure (i.e. 2,000-15,000 psi); five ratings: 2, 3, 5, 10, 15 | Wikipedia Wellhead, Design specification section |
+| operating temperature range (general) | -50-250 degrees Fahrenheit | Wikipedia Wellhead, Design specification section |
+| material yield strength range | 36000-75000 psi | Wikipedia Wellhead, Design specification section |
+| subsea wellhead primary barrier statement | Wellheads are the primary pressure barrier for a subsea well; anchor and suspension point and seal element for casing strings qualitative | OneSubsea subsea wellheads page |
+| welding/qualification standards cited by OneSubsea | API Spec 6A and 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 fatigue classes F3, D or C1 standard list | OneSubsea subsea wellheads page, Application section |
+
+
+Recorded gaps:
+
+- API 6A 21st edition full pressure/temperature derating table and PSL minimums by material class — Fetch full SLB API 6A brochure PDF and exal technology PDF.
+
+### Wellhead control panel and surface control system (wh-wellhead-control-panel-and-surface-control-system-whcp)
+
+Primary code: UPS: Upstream
+Controls and monitors surface and subsurface valves, choke, ESD and fire/gas functions for one or multiple wells from a local or remote panel.
+Vendors: Johnson Controls (YORK, Silent-Aire), Hydropneumatic S.r.l., FST, IPS Group BV, INTECH Automation & Intelligence, Hitec Products AS (NORWEP listing) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Johnson Controls product scope | HPU, chemical/methanol injection skids, WHCP, TUTU, IWOCS, ESD and HIPPS; integrator for API 674 and API 675 pump packages product list | Johnson Controls Production Systems page |
+
+
+Recorded gaps:
+
+- WHCP response times and hydraulic pressure settings for specific projects — Fetch project datasheets with performance standards.
+
+### Wireline, coiled tubing and snubbing/workover equipment (wh-wireline-coiled-tubing-and-snubbing-workover-equipment)
+
+Primary code: UPS: Upstream
+Provide well access for logging, fishing, cleanout, pumping, completions and interventions from the wellhead platform or an intervention vessel.
+Vendors: NOV (Hydra Rig), Halliburton, Balance Point Control (BPC), International Snubbing Services (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| coiled tubing diameter | 1-3.25 inch (25 to 83 mm) | Wikipedia Coiled tubing |
+| common coiled tubing steel yield strength | 55000-120000 psi | Wikipedia Coiled tubing |
+
+
+Recorded gaps:
+
+- Deck load/footprint and crane limits for CT and snubbing spreads on small WHPs — Fetch rig-up drawings or intervention engineering papers.

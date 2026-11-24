@@ -1,0 +1,24 @@
+{
+  "id": "2h-offshore",
+  "name": "2H Offshore",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "2H Offshore is named as a supplier on a page read during the wellhead-platform sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "en-wikipedia-org-wiki-oil-platform"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 wellhead-platform sweep."
+}

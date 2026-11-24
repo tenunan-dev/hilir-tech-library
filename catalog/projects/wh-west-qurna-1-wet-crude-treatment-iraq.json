@@ -1,0 +1,25 @@
+{
+  "id": "wh-west-qurna-1-wet-crude-treatment-iraq",
+  "name": "West Qurna-1 wet crude treatment, Iraq",
+  "country": "Iraq",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "SPEC designed/fabricated modular coalescer and balance vessel skids for a 100,000 BOPD system; modules >100 tonnes and higher than two storeys, supplied to CPECC.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
+      "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "tp-chemical-injection-systems-methanol-meg-corrosion-scale-inhibi",
+  "name": "Chemical injection systems — methanol/MEG, corrosion/scale inhibitor, demulsifier, defoamer, biocide",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Inject hydrate inhibitors, corrosion/scale inhibitors, demulsifiers, defoamers and biocides via dosing pumps and tanks to maintain flow assurance, separation performance and asset integrity.",
+  "specifications": [
+    {
+      "metric": "Methanol/EG hydrate-inhibition regime",
+      "unit": "degF",
+      "basis": "Digital Refining article; page read",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+        "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+      },
+      "value": "EG above -40 degF; methanol below -140 degF"
+    },
+    {
+      "metric": "Chemical injection skid configuration",
+      "unit": "configuration",
+      "basis": "SPEC Utility Systems page; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+        "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+      },
+      "value": "dosing pumps + tank on skid; supplied with process equipment or standalone"
+    }
+  ],
+  "vendors": [
+    "slb-championx-portfolio",
+    "spec-oil-gas-technologies-fabricator",
+    "us-epa-natural-gas-star-program"
+  ],
+  "sources": [
+    {
+      "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+      "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+    },
+    {
+      "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+      "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Inject hydrate inhibitors, corrosion/scale inhibitors, demulsifiers, defoamers and biocides via dosing pumps and tanks to maintain flow assurance, separation pe"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

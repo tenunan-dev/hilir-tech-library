@@ -1,0 +1,44 @@
+{
+  "id": "mat-wh-grouting-materials-for-pile-to-jacket-connections",
+  "name": "Grouting materials for pile-to-jacket connections",
+  "material_category": "cementitious",
+  "description": "Transfer load between driven pile and jacket leg or sleeve.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Transfer load between driven pile and jacket leg or sleeve.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "applications": [
+    "Transfer load between driven pile and jacket leg or sleeve."
+  ],
+  "standards": [],
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform",
+    "wh-minimal-satellite-conductor-supported-wellhead-platform",
+    "wh-unmanned-wellhead-platform-uwhp",
+    "wh-caisson-platform-conductor-supported-caisson-csp"
+  ],
+  "suppliers": [
+    "sika"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Grout compressive strength acceptance criteria",
+      "why": "Project sheet refers to client benchmarks without numbers",
+      "next_action": "Fetch project technical paper."
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

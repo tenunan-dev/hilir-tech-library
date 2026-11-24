@@ -1,0 +1,31 @@
+{
+  "id": "spec-oil-gas-technologies-mechanical-heater-treater",
+  "name": "Mechanical Heater Treater",
+  "manufacturer": "spec-oil-gas-technologies-fabricator",
+  "product_type": "tp-wellhead",
+  "equipment": [
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "treating capacity",
+      "unit": "BLPD",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
+        "source_id": "specoilandgas-com-oil-processing-mechanical-heater-treater"
+      },
+      "value": ">20,000 BLPD, including low-API crude"
+    }
+  ],
+  "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
+      "source_id": "specoilandgas-com-oil-processing-mechanical-heater-treater"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mat-wh-sacrificial-anodes-and-splash-zone-coatings",
+  "name": "Sacrificial anodes and splash-zone coatings",
+  "material_category": "corrosion-protection",
+  "description": "Cathodic protection of submerged jacket and pile steelwork; extra wall thickness in splash zone.",
+  "specifications": [
+    {
+      "metric": "anode mass",
+      "unit": "kN each, approximately",
+      "basis": "ESDEP 15A.1 section 4.4",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "value": 3
+    },
+    {
+      "metric": "anode mass fraction of jacket weight",
+      "unit": "% typically",
+      "basis": "ESDEP 15A.1 section 4.4",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "value": 5
+    }
+  ],
+  "applications": [
+    "Cathodic protection of submerged jacket and pile steelwork; extra wall thickness in splash zone."
+  ],
+  "standards": [],
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform",
+    "wh-minimal-satellite-conductor-supported-wellhead-platform",
+    "wh-unmanned-wellhead-platform-uwhp",
+    "wh-caisson-platform-conductor-supported-caisson-csp"
+  ],
+  "suppliers": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Anode alloy composition and consumption rate",
+      "why": "Not on fetched pages",
+      "next_action": "Fetch cathodic protection design standard."
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

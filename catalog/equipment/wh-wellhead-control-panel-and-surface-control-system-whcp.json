@@ -1,0 +1,51 @@
+{
+  "id": "wh-wellhead-control-panel-and-surface-control-system-whcp",
+  "name": "Wellhead control panel and surface control system",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Controls and monitors surface and subsurface valves, choke, ESD and fire/gas functions for one or multiple wells from a local or remote panel.",
+  "specifications": [
+    {
+      "metric": "Johnson Controls product scope",
+      "unit": "product list",
+      "basis": "Johnson Controls Production Systems page",
+      "source": {
+        "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
+        "source_id": "johnsoncontrols-com-oil-and-gas-production-systems"
+      },
+      "value": "HPU, chemical/methanol injection skids, WHCP, TUTU, IWOCS, ESD and HIPPS; integrator for API 674 and API 675 pump packages"
+    }
+  ],
+  "vendors": [
+    "johnson-controls-york-silent-aire",
+    "hydropneumatic-s-r-l",
+    "fst",
+    "ips-group-bv",
+    "intech-automation-intelligence",
+    "hitec-products-as-norwep-listing"
+  ],
+  "sources": [
+    {
+      "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
+      "source_id": "johnsoncontrols-com-oil-and-gas-production-systems"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "WHCP response times and hydraulic pressure settings for specific projects",
+      "why": "Only general capability statements fetched",
+      "next_action": "Fetch project datasheets with performance standards."
+    }
+  ],
+  "applications": [
+    "Controls and monitors surface and subsurface valves, choke, ESD and fire/gas functions for one or multiple wells from a local or remote panel."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

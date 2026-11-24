@@ -1,0 +1,31 @@
+{
+  "id": "pure-unileoben-ac-at-1876337-ac13373932n01vt-pdf",
+  "name": "Montanuniversität Leoben (subsea production systems review thesis); figure from source [6] cited in the thesis",
+  "url": "https://pure.unileoben.ac.at/ws/portalfiles/portal/1876337/AC13373932n01vt.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Pure.Unileoben.Ac.At",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Schematic of the constituent parts of a subsea production system (trees, manifold, control system, umbilicals, flowlines, host facility) Evidence: https://pure.unileoben.ac.at/ws/portalfiles/portal/1876337/AC13373932n01vt.pdf"
+}

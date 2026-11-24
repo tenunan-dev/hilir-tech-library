@@ -1,0 +1,72 @@
+{
+  "id": "ex-subsea-installation-and-protection-anchors-trenching-burial-ro",
+  "name": "Subsea installation and protection",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Stabilize and protect pipelines/umbilicals/structures against hydrodynamic loads, scour, dropped objects, trawling and iceberg scour; prepare seabed and correct spans.",
+  "specifications": [
+    {
+      "metric": "T1500+ jet trenching ROV depth",
+      "unit": "m",
+      "basis": "DeepOcean T1500+: 1500 hp (1125 kW), up to 3.5 knots current, 3 m maximum burial capacity",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": 500
+    },
+    {
+      "metric": "UT-1 jetting ROV power",
+      "unit": "MW total power",
+      "basis": "DeepOcean UT-1 described as world's most powerful jetting ROV",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": 2.1
+    },
+    {
+      "metric": "AMP1500 plough product handling",
+      "unit": "mm diameter",
+      "basis": "DeepOcean Advanced Multi-Pass Plough for pre-cut/post-lay ploughing of large diameter pipelines/trunklines",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "ACP2 cable plough capability",
+      "unit": "mm diameter product; 5 m minimum bend radius",
+      "basis": "DeepOcean ACP2 for large diameter power cables",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": 300
+    }
+  ],
+  "vendors": [
+    "deepocean",
+    "subsea7-swagelining-all-polymer-liner",
+    "ctc-marine"
+  ],
+  "sources": [
+    {
+      "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+      "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Stabilize and protect pipelines/umbilicals/structures against hydrodynamic loads, scour, dropped objects, trawling and iceberg scour; prepare seabed and correct"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

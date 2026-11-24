@@ -1,0 +1,44 @@
+{
+  "id": "wh-caisson-platform-conductor-supported-caisson-csp",
+  "name": "Caisson platform / conductor-supported caisson",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Vertical large-diameter caisson(s) used as the substructure and often as conductor(s) for a small wellhead topside; cheaper and installable by jack-up rig.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Vertical large-diameter caisson(s) used as the substructure and often as conductor(s) for a small wellhead topside; cheaper and installable by jack-up rig.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "aquaterra-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Design basis for caisson conductor support under ship impact and seismic loading",
+      "why": "Only qualitative statements on fetched pages",
+      "next_action": "Fetch detailed design papers or classification notes."
+    }
+  ],
+  "applications": [
+    "Vertical large-diameter caisson(s) used as the substructure and often as conductor(s) for a small wellhead topside; cheaper and installable by jack-up rig."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

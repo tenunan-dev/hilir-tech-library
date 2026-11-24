@@ -1,0 +1,44 @@
+{
+  "id": "wh-fire-and-gas-deluge-and-esd-hipps",
+  "name": "Fire and gas, deluge and ESD/HIPPS",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Detect fire and gas, mitigate fire escalation with water deluge, and shut down or blow down the installation safely.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Detect fire and gas, mitigate fire escalation with water deluge, and shut down or blow down the installation safely.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "johnson-controls-york-silent-aire"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Installation-specific F&G voting logic and deluge coverage density",
+      "why": "Not available on fetched pages",
+      "next_action": "Fetch safety case or F&G philosophy documents."
+    }
+  ],
+  "applications": [
+    "Detect fire and gas, mitigate fire escalation with water deluge, and shut down or blow down the installation safely."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

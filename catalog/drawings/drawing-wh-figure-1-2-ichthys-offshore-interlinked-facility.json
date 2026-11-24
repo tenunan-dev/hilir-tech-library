@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-1-2-ichthys-offshore-interlinked-facility",
+  "title": "Figure 1-2: Ichthys offshore interlinked facility",
+  "diagram_type": "schematic",
+  "description": "Interlinked offshore facility; associated text lists SPS infrastructure (XTs, manifolds, subsea control systems, umbilicals, risers and flowlines, gas export riser base) connecting wells to CPF and FPSO; 18-inch production flowlines to 12-inch flexible production risers",
+  "publisher": "INPEX Ichthys Pty Ltd (document held by NOPSEMA)",
+  "url": "https://docs.nopsema.gov.au/A826886",
+  "licence": "Public document, 'Security Classification: Public' on the page; but document states copyright - use as pointer only",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://docs.nopsema.gov.au/A826886",
+      "source_id": "docs-nopsema-gov-au-docs-nopsema-gov-au-a826886"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

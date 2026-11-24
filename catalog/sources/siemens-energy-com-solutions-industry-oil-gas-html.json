@@ -1,0 +1,31 @@
+{
+  "id": "siemens-energy-com-solutions-industry-oil-gas-html",
+  "name": "Siemens Energy",
+  "url": "https://www.siemens-energy.com/global/en/home/products-services/solutions-industry/oil-gas.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Siemens Energy",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Compressor standards cited in search-verified text. Evidence: https://www.siemens-energy.com/global/en/home/products-services/solutions-industry/oil-gas.html"
+}

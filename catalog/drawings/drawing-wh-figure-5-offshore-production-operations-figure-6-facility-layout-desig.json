@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-5-offshore-production-operations-figure-6-facility-layout-desig",
+  "title": "Figure 5. Offshore Production Operations; Figure 6. Facility Layout Designed by Authors",
+  "diagram_type": "block-diagram",
+  "description": "Offshore production operations overview and an author-designed facility layout for a 10,000-15,000 BOPD offshore separation design with 3,000-10,000 BPD water, H2S 10,000 ppm",
+  "publisher": "UPES (University of Petroleum and Energy Studies) institutional repository - student major project report, 2015",
+  "url": "https://dr.ddn.upes.ac.in/server/api/core/bitstreams/59de0bef-b4f8-4b11-933c-f2f5d744158d/content",
+  "licence": "University repository; Figure 5 sourced externally - check original; cite source",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://dr.ddn.upes.ac.in/server/api/core/bitstreams/59de0bef-b4f8-4b11-933c-f2f5d744158d/content",
+      "source_id": "dr-ddn-upes-ac-in-59de0bef-b4f8-4b11-933c-f2f5d744158d-content"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

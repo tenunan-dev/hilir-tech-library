@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-25-lazy-wave-configuration-figure-27-schematic-of-catenary-moor",
+  "title": "Figure 25. Lazy-wave configuration; Figure 27. Schematic of catenary mooring system of CALM buoy; Figure 28. Definition of lazy-wave geometry parameters",
+  "diagram_type": "schematic",
+  "description": "Lazy-wave hose/riser configuration, CALM buoy catenary mooring schematic, geometry parameter definitions and force loads on floating/submarine hose segments",
+  "publisher": "MDPI Journal of Marine Science and Engineering 9(11):1179 (2021)",
+  "url": "https://www.mdpi.com/2077-1312/9/11/1179",
+  "licence": "MDPI article typically CC BY 4.0 - verify on article page; cite source",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.mdpi.com/2077-1312/9/11/1179",
+      "source_id": "mdpi-com-11-1179"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

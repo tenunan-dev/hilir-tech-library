@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-fig-3-1-a-composite-process-flow-diagram-representing-the-essentials-o",
+  "title": "Fig. 3.1 - A composite process flow diagram representing the essentials of the process system typically installed in GOM deepwater operations",
+  "diagram_type": "PFD",
+  "description": "Composite produced-water/process PFD: hydrocyclones and flotation cells, degassing vessels, closed drains, pumps, valves and instrumentation for deepwater Gulf of Mexico facilities",
+  "publisher": "Journal of Petroleum Technology (SPE)",
+  "url": "https://jpt.spe.org/mastering-produced-water-management-in-deepwater-gom-25-years-of-insights-part-2",
+  "licence": "JPT/SPE; cite figure, no open reuse licence stated",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/mastering-produced-water-management-in-deepwater-gom-25-years-of-insights-part-2",
+      "source_id": "jpt-spe-org-jpt-spe-org-mastering-produced-water-management-in-dee"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

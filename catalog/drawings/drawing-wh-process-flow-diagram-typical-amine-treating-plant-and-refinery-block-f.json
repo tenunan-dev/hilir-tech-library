@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-process-flow-diagram-typical-amine-treating-plant-and-refinery-block-f",
+  "title": "Process flow diagram - typical amine treating plant and refinery block flow diagram",
+  "diagram_type": "PFD",
+  "description": "Generic PFD examples and PFD symbol set; gas sweetening/amine treating is directly relevant to platform gas treatment",
+  "publisher": "Wikipedia (secondary); images on Wikimedia Commons",
+  "url": "https://en.wikipedia.org/wiki/Process_flow_diagram",
+  "licence": "Wikipedia text CC BY-SA 4.0; check individual Commons file pages for media licences. Page also lists ISO 15519-1/-2 and ISO 10628-1/-2 as governing standards",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Process_flow_diagram",
+      "source_id": "en-wikipedia-org-wiki-process-flow-diagram"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

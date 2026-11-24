@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-3-ichthys-lng-subsea-production-system-overview",
+  "title": "Figure 3: Ichthys LNG subsea production system overview",
+  "diagram_type": "schematic",
+  "description": "Subsea production system overview labelled 'Umbilical and Flexible Risers', 'Mooring Chains', 'GEP', 'Riser Support Structure', 'Drill Centres (wellheads and collection manifold - subsea production system)', 'Flowline and Umbilical', 'FPSO', 'Offtake Tanker', 'Gas Export Pipeline'",
+  "publisher": "INPEX Ichthys Pty Ltd / NOPSEMA",
+  "url": "https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf",
+  "licence": "INPEX-controlled; cite source, do not reproduce without permission",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf",
+      "source_id": "inpex-com-au-rbmjbgrj-ichthys-offshore-facilities-operation-ep-fac"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

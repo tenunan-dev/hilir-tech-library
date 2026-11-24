@@ -1,0 +1,31 @@
+{
+  "id": "technipfmc-com-l11loka4-technipfmc-umbilicals-brochure-pdf",
+  "name": "TechnipFMC",
+  "url": "https://www.technipfmc.com/media/l11loka4/technipfmc-umbilicals-brochure.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "TechnipFMC",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Subsea umbilical systems linking wells to fixed/floating facilities: steel tube, thermoplastic hose, power/communication and hybrid umbilicals; topside and subsea termination hardware, bend stiffeners Evidence: https://www.technipfmc.com/media/l11loka4/technipfmc-umbilicals-brochure.pdf"
+}

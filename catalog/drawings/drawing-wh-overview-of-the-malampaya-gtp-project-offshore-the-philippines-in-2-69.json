@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-overview-of-the-malampaya-gtp-project-offshore-the-philippines-in-2-69",
+  "title": "Overview of the Malampaya GTP project offshore the Philippines in 2,690 ft of water",
+  "diagram_type": "block-diagram",
+  "description": "Project overview showing five subsea wells, manifold in 2,690 ft, two 18.6-mi flowlines, shallow-water platform, 313-mi 24-inch gas pipeline to Batangas, Catenary Anchored Leg Mooring buoy for condensate",
+  "publisher": "Offshore Magazine (Expro Group authors: Barrett, Cheyne, Molloy)",
+  "url": "https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges",
+  "licence": "Offshore Magazine / Expro - no open reuse licence stated; pointer only",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges",
+      "source_id": "offshore-mag-com-16759665-malampaya-development-project-presented"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

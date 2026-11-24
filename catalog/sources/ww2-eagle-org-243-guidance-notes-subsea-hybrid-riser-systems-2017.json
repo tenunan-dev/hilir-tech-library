@@ -1,0 +1,31 @@
+{
+  "id": "ww2-eagle-org-243-guidance-notes-subsea-hybrid-riser-systems-2017",
+  "name": "ABS",
+  "url": "https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/offshore/243_guidance_notes_subsea_hybrid_riser_systems_2017/Hybrid_Riser_GN_e-Jan17.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Ww2.Eagle.Org",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. search-verified Evidence: https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/offshore/243_guidance_notes_subsea_hybrid_riser_systems_2017/Hybrid_Riser_GN_e-Jan17.pdf"
+}

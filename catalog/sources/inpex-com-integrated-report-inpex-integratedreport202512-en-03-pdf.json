@@ -1,0 +1,31 @@
+{
+  "id": "inpex-com-integrated-report-inpex-integratedreport202512-en-03-pdf",
+  "name": "INPEX CORPORATION",
+  "url": "https://www.inpex.com/assets/documents/english/ir/library/integrated_report/inpex_integratedreport202512_en_03.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "INPEX",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Whole-chain concept for Ichthys/Abadi comparison: offshore SURF and FPSO separation, GEP to onshore LNG, CO2 pipeline and injection Evidence: https://www.inpex.com/assets/documents/english/ir/library/integrated_report/inpex_integratedreport202512_en_03.pdf"
+}

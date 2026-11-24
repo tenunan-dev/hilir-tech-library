@@ -1,0 +1,44 @@
+{
+  "id": "tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones",
+  "name": "Free-water knockout",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Remove bulk free water before downstream heating/chemical treating; remove sand/solids from wellstream or produced water upstream of separation and oil-in-water separation.",
+  "specifications": [
+    {
+      "metric": "FWKO suitable duty",
+      "unit": "qualitative",
+      "basis": "SPEC FWKO page, 'Free Water, Not Emulsion'; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/free-water-knock-out",
+        "source_id": "specoilandgas-com-phase-separation-free-water-knock-out"
+      },
+      "value": "separate-phase water only; not stable emulsions"
+    }
+  ],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "onesubsea-slb-aker-solutions-jv",
+    "enerflex",
+    "enhydra-ltd",
+    "eprocess-technologies"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/phase-separation/free-water-knock-out",
+      "source_id": "specoilandgas-com-phase-separation-free-water-knock-out"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Remove bulk free water before downstream heating/chemical treating; remove sand/solids from wellstream or produced water upstream of separation and oil-in-water"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

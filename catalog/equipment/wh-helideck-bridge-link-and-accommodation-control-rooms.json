@@ -1,0 +1,44 @@
+{
+  "id": "wh-helideck-bridge-link-and-accommodation-control-rooms",
+  "name": "Helideck, bridge link and accommodation/control rooms",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Provides helicopter landing and personnel transfer, a safe bridge connection between platforms, and living quarters/control room spaces.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Provides helicopter landing and personnel transfer, a safe bridge connection between platforms, and living quarters/control room spaces.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Detailed helideck D-value, load classification and obstacle-free sector requirements",
+      "why": "Only classification headings were in search snippet",
+      "next_action": "Fetch full CAAP 71 PDF and extract section 5 tables."
+    }
+  ],
+  "applications": [
+    "Provides helicopter landing and personnel transfer, a safe bridge connection between platforms, and living quarters/control room spaces."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

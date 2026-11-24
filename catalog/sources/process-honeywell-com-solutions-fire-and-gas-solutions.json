@@ -1,0 +1,31 @@
+{
+  "id": "process-honeywell-com-solutions-fire-and-gas-solutions",
+  "name": "Honeywell",
+  "url": "https://process.honeywell.com/us/en/solutions/fire-and-gas-solutions",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Honeywell",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Pages read; one-stop F&G supplier; layered approach pairs F&G with Experion PKS and Safety Manager. Evidence: https://process.honeywell.com/us/en/solutions/fire-and-gas-solutions"
+}

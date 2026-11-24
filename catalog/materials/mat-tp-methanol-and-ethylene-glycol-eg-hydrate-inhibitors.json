@@ -1,0 +1,41 @@
+{
+  "id": "mat-tp-methanol-and-ethylene-glycol-eg-hydrate-inhibitors",
+  "name": "Methanol and ethylene glycol",
+  "material_category": "chemical-hydrate-inhibition",
+  "description": "Injected upstream of cooling equipment to absorb water and prevent ice/hydrate formation; recovered in a regeneration still.",
+  "specifications": [
+    {
+      "metric": "Applicability by temperature",
+      "unit": "degF",
+      "basis": "Digital Refining article; page read",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+        "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+      },
+      "value": "methanol adequate below -140 degF; EG considered above -40 degF"
+    }
+  ],
+  "applications": [
+    "Injected upstream of cooling equipment to absorb water and prevent ice/hydrate formation; recovered in a regeneration still."
+  ],
+  "standards": [],
+  "equipment": [
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "tp-inlet-scrubbers-gas-scrubbers-slug-catchers",
+    "tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones",
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "suppliers": [
+    "us-epa-natural-gas-star-guidance",
+    "chemical-vendors-not-named-on-fetched-pages"
+  ],
+  "sources": [
+    {
+      "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+      "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

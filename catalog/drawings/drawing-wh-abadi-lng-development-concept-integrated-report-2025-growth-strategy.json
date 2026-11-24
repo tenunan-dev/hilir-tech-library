@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-abadi-lng-development-concept-integrated-report-2025-growth-strategy",
+  "title": "Abadi LNG Development Concept (Integrated Report 2025, Growth Strategy)",
+  "diagram_type": "block-diagram",
+  "description": "Whole-chain concept for Ichthys/Abadi comparison: offshore SURF and FPSO separation, GEP to onshore LNG, CO2 pipeline and injection",
+  "publisher": "INPEX CORPORATION",
+  "url": "https://www.inpex.com/assets/documents/english/ir/library/integrated_report/inpex_integratedreport202512_en_03.pdf",
+  "licence": "INPEX copyright; cite source, no open reuse licence stated",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inpex.com/assets/documents/english/ir/library/integrated_report/inpex_integratedreport202512_en_03.pdf",
+      "source_id": "inpex-com-integrated-report-inpex-integratedreport202512-en-03-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ex-subsea-control-and-distribution-systems-scm-sdu-mux-all-electr",
+  "name": "Subsea control and distribution systems",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Remote monitoring and control of trees, manifolds, valves and chokes; distribute hydraulic power, electrical power, chemical injection and communications; enable ROV intervention.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Remote monitoring and control of trees, manifolds, valves and chokes; distribute hydraulic power, electrical power, chemical injection and communications; enable ROV intervention.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv",
+    "baker-hughes",
+    "proserv",
+    "technipfmc-cds-separation-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Remote monitoring and control of trees, manifolds, valves and chokes; distribute hydraulic power, electrical power, chemical injection and communications; enabl"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+  "name": "Three-phase",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Split well effluent into gas, oil and free water; absorb inlet momentum, provide liquid retention, demist gas and control each outlet. Commonly used as a free-water knockout (FWKO).",
+  "specifications": [
+    {
+      "metric": "Separator orientation",
+      "unit": "configuration",
+      "basis": "SLB Energy Glossary definition of three-phase separator; page read",
+      "source": {
+        "url": "https://glossary.slb.com/en/terms/t/three-phase_separator",
+        "source_id": "glossary-slb-com-t-three-phase-separator"
+      },
+      "value": "horizontal, vertical or spherical"
+    },
+    {
+      "metric": "Design code",
+      "unit": "code",
+      "basis": "SPEC two-/three-phase separator page, 'Design basis' table; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
+        "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
+      },
+      "value": "ASME Section VIII, Division 1"
+    },
+    {
+      "metric": "Inlet device types",
+      "unit": "list",
+      "basis": "SPEC two-/three-phase separator page, 'How the vessel works'; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
+        "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
+      },
+      "value": "Diverter plate, half pipe, vane, cyclonic"
+    }
+  ],
+  "vendors": [
+    "slb-championx-portfolio",
+    "technipfmc-cds-separation-systems",
+    "spec-oil-gas-technologies-fabricator"
+  ],
+  "sources": [
+    {
+      "url": "https://glossary.slb.com/en/terms/t/three-phase_separator",
+      "source_id": "glossary-slb-com-t-three-phase-separator"
+    },
+    {
+      "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
+      "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Split well effluent into gas, oil and free water; absorb inlet momentum, provide liquid retention, demist gas and control each outlet. Commonly used as a free-w"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

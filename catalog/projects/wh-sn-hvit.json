@@ -1,0 +1,25 @@
+{
+  "id": "wh-sn-hvit",
+  "name": "Snøhvit",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "145-km umbilical supplied by Nexans",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://hidrocaven.com/img/manuales/aplicacion-submarina.pdf",
+      "source_id": "hidrocaven-com-manuales-aplicacion-submarina-pdf"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

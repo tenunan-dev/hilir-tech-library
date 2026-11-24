@@ -1,0 +1,50 @@
+{
+  "id": "mat-ex-synthetic-fibre-mooring-ropes-nylon-hmpe-dyneema-and-chafe-c",
+  "name": "Synthetic fibre mooring ropes",
+  "material_category": "mooring-consumables",
+  "description": "SPM/CALM buoy hawser and anchor legs; tanker offtake hawser",
+  "specifications": [
+    {
+      "metric": "Hawser load",
+      "unit": "metric tons",
+      "basis": "EPCM SPM guide for VLCC; hawser life up to 2,000 hours",
+      "source": {
+        "url": "https://epcmholdings.com/spm-calm-buoy-system/",
+        "source_id": "epcmholdings-com-spm-calm-buoy-system"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Dyneema strength",
+      "unit": "relative",
+      "basis": "EPCM SPM guide",
+      "source": {
+        "url": "https://epcmholdings.com/spm-calm-buoy-system/",
+        "source_id": "epcmholdings-com-spm-calm-buoy-system"
+      },
+      "value": "15 times stronger than steel, floats on water"
+    }
+  ],
+  "applications": [
+    "SPM/CALM buoy hawser and anchor legs; tanker offtake hawser"
+  ],
+  "standards": [],
+  "equipment": [
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-wellheads-conductors-and-mudline-wellhead-systems-hpht",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "suppliers": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://epcmholdings.com/spm-calm-buoy-system/",
+      "source_id": "epcmholdings-com-spm-calm-buoy-system"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

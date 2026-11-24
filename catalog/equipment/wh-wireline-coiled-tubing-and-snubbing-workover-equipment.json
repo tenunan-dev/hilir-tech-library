@@ -1,0 +1,61 @@
+{
+  "id": "wh-wireline-coiled-tubing-and-snubbing-workover-equipment",
+  "name": "Wireline, coiled tubing and snubbing/workover equipment",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Provide well access for logging, fishing, cleanout, pumping, completions and interventions from the wellhead platform or an intervention vessel.",
+  "specifications": [
+    {
+      "metric": "coiled tubing diameter",
+      "unit": "inch (25 to 83 mm)",
+      "basis": "Wikipedia Coiled tubing",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Coiled_tubing",
+        "source_id": "en-wikipedia-org-wiki-coiled-tubing"
+      },
+      "low": 1,
+      "high": 3.25
+    },
+    {
+      "metric": "common coiled tubing steel yield strength",
+      "unit": "psi",
+      "basis": "Wikipedia Coiled tubing",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Coiled_tubing",
+        "source_id": "en-wikipedia-org-wiki-coiled-tubing"
+      },
+      "low": 55000,
+      "high": 120000
+    }
+  ],
+  "vendors": [
+    "nov-hydra-rig",
+    "halliburton",
+    "balance-point-control-bpc",
+    "international-snubbing-services"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Coiled_tubing",
+      "source_id": "en-wikipedia-org-wiki-coiled-tubing"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Deck load/footprint and crane limits for CT and snubbing spreads on small WHPs",
+      "why": "Case study mentions limited space but gives no loads",
+      "next_action": "Fetch rig-up drawings or intervention engineering papers."
+    }
+  ],
+  "applications": [
+    "Provide well access for logging, fishing, cleanout, pumping, completions and interventions from the wellhead platform or an intervention vessel."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

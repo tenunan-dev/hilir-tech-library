@@ -1,0 +1,24 @@
+{
+  "id": "oms-oilfield-manufacturers-and-supplies",
+  "name": "OMS (Oilfield Manufacturers and Supplies)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "OMS (Oilfield Manufacturers and Supplies) is named as a supplier on a page read during the wellhead-platform sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Wellhead",
+      "source_id": "en-wikipedia-org-wiki-wellhead"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 wellhead-platform sweep."
+}

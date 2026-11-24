@@ -1,0 +1,25 @@
+{
+  "id": "wh-west-desaru-wss-peninsular-malaysia",
+  "name": "West Desaru WSS, Peninsular Malaysia",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Unmanned minimal facilities platform; Petrofac and Petronas ordered Aquaterra Sea Swift-derived WSS; first of its kind in Asia/Pacific; bridge linked to adjacent MOPU; topside supports 28 well completions and oil production, gas lift and water injection flowlines and manifolds; installed by jack-up drilling rig; four 36-inch x 2-inch leg conductors; relatively small subsea footprint of 8 square metres.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+      "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

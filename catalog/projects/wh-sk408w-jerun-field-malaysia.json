@@ -1,0 +1,25 @@
+{
+  "id": "wh-sk408w-jerun-field-malaysia",
+  "name": "SK408W Jerun field, Malaysia",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "3,200 BWPD; HP hydrocyclone + compact gas flotation; 3,000 to 20 ppmV; MMHE/SapuraOMV.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://issprocess.com/technology/water-treatment/ks408w-jerun-field-development-produced-water-treatment-package/",
+      "source_id": "issprocess-com-ks408w-jerun-field-development-produced-water-treat"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ex-subsea-wellheads-conductors-and-mudline-wellhead-systems-hpht",
+  "name": "Subsea wellheads, conductors and mudline wellhead systems",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Primary pressure barrier of a subsea well; anchor and suspension point; seal element for casing strings; supports BOP, tree and downhole control line pass-through.",
+  "specifications": [
+    {
+      "metric": "Welding procedure standards",
+      "unit": "standard",
+      "basis": "OneSubsea subsea wellheads",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
+      },
+      "value": "API Spec 6A and 17D; ASME Section IX; NACE MR0175/ISO 15156; DNVGL-RP-C203 fatigue classes F3, D or C1"
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv",
+    "technipfmc-cds-separation-systems",
+    "baker-hughes"
+  ],
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
+      "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Primary pressure barrier of a subsea well; anchor and suspension point; seal element for casing strings; supports BOP, tree and downhole control line pass-throu"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

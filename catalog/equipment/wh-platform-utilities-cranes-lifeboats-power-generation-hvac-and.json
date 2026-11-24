@@ -1,0 +1,71 @@
+{
+  "id": "wh-platform-utilities-cranes-lifeboats-power-generation-hvac-and",
+  "name": "Platform utilities: cranes, lifeboats, power generation, HVAC and drainage",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Support safe operation and habitation: lifting, evacuation, electrical power, environmental control and liquid drainage.",
+  "specifications": [
+    {
+      "metric": "major offshore crane vessel lifting capacity",
+      "unit": "tonnes (table of vessels from ESDEP, historical)",
+      "basis": "ESDEP 15A.1 Table 1; e.g. Hermod 8,164 t fixed dual crane, Micoperi M7000 14,000 t revolving dual crane",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "low": 1600,
+      "high": 14000
+    },
+    {
+      "metric": "heaviest sling breaking load and SWL",
+      "unit": "mm / MN",
+      "basis": "ESDEP 15A.1 section 7.3.2",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "value": "approximately 350 mm diameter; breaking load approximately 48 MN; safe working load 16 MN; shackles up to 10 MN SWL"
+    },
+    {
+      "metric": "AMAL-C local power generation",
+      "unit": "generator count",
+      "basis": "Aquaterra AMAL-C case study",
+      "source": {
+        "url": "https://aquaterraenergy.com/delivering-a-jacket-supported-platform-in-a-seismic-region-in-the-gulf-of-suez",
+        "source_id": "aquaterraenergy-com-aquaterraenergy-com-delivering-a-jacket-suppor"
+      },
+      "value": "two diesel generators, one providing emergency back-up"
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+    },
+    {
+      "url": "https://aquaterraenergy.com/delivering-a-jacket-supported-platform-in-a-seismic-region-in-the-gulf-of-suez",
+      "source_id": "aquaterraenergy-com-aquaterraenergy-com-delivering-a-jacket-suppor"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named platform crane and lifeboat models with capacities",
+      "why": "No OEM crane/lifeboat product page fetched",
+      "next_action": "Fetch OEM datasheets for pedestal cranes and enclosed lifeboats."
+    }
+  ],
+  "applications": [
+    "Support safe operation and habitation: lifting, evacuation, electrical power, environmental control and liquid drainage."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "wh-wison-flng-fsru-china",
+  "name": "Wison FLNG / FSRU (China)",
+  "country": "China",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Honeywell scope: Experion PKS DCS, ESD, Safety Manager SIS, F&G, field equipment/FDM and HIPPS; completed one month ahead of schedule and project cost reduced 2% (Honeywell case study).",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://process.honeywell.com/content/dam/process/en/documents/document-lists/doc-list-lng/CaseStudy-Wison-FG-EN.pdf",
+      "source_id": "process-honeywell-com-doc-list-lng-casestudy-wison-fg-en-pdf"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

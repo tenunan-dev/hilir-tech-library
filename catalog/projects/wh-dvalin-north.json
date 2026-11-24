@@ -1,0 +1,25 @@
+{
+  "id": "wh-dvalin-north",
+  "name": "Dvalin North",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Three horizontal trees, four-slot steel subsea template with integrated manifold, three wellheads, 10 km static umbilicals; tie-back to Heidrun",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.akersolutions.com/news/news-archive/2022/aker-solutions-asa-aker-solutions-wins-dvalin-north-subsea-contract-from-wintershall-dea/",
+      "source_id": "akersolutions-com-aker-solutions-asa-aker-solutions-wins-dvalin-no"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "technipfmc-technipfmc-manifold-tie-in-systems-incl-plem-plet",
+  "name": "TechnipFMC manifold/tie-in systems incl. PLEM/PLET",
+  "manufacturer": "technipfmc-cds-separation-systems",
+  "product_type": "ex-wellhead",
+  "equipment": [
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl"
+  ],
+  "description": "Vendor product line read 2026-11-24. fetched",
+  "specifications": [
+    {
+      "metric": "Pressure",
+      "unit": "psi",
+      "basis": "",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+        "source_id": "technipfmc-com-manifolds"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Temperature",
+      "unit": "deg F",
+      "basis": "",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+        "source_id": "technipfmc-com-manifolds"
+      },
+      "value": 350
+    },
+    {
+      "metric": "Connection diameter",
+      "unit": "ft",
+      "basis": "",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+        "source_id": "technipfmc-com-manifolds"
+      },
+      "value": 30
+    }
+  ],
+  "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+      "source_id": "technipfmc-com-manifolds"
+    }
+  ],
+  "notes": "fetched",
+  "last_reviewed": "2026-11-24"
+}

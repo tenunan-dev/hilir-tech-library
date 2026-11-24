@@ -1,0 +1,51 @@
+{
+  "id": "spec-oil-gas-technologies-gas-filter-separator-horizontal-double-barrel-vert",
+  "name": "Gas Filter Separator (horizontal double barrel / vertical)",
+  "manufacturer": "spec-oil-gas-technologies-fabricator",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "standard design pressure",
+      "unit": "psi",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
+        "source_id": "specoilandgas-com-phase-separation-gas-filter-separator"
+      },
+      "value": "1440 psi (99 bar)"
+    },
+    {
+      "metric": "stock design temperature",
+      "unit": "degF",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
+        "source_id": "specoilandgas-com-phase-separation-gas-filter-separator"
+      },
+      "value": "-20 to 130 degF (-29 to 54 degC)"
+    },
+    {
+      "metric": "design code",
+      "unit": "code",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
+        "source_id": "specoilandgas-com-phase-separation-gas-filter-separator"
+      },
+      "value": "ASME VIII Div 1"
+    }
+  ],
+  "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
+      "source_id": "specoilandgas-com-phase-separation-gas-filter-separator"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

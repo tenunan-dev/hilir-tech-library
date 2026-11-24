@@ -1,0 +1,25 @@
+{
+  "id": "wh-umutu-lpg-production-facility-nigeria",
+  "name": "Umutu LPG production facility, Nigeria",
+  "country": "Nigeria",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Molecular sieve dehydration unit in 100 tonne/day LPG plant, 2009.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
+      "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

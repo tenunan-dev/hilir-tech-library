@@ -1,0 +1,31 @@
+{
+  "id": "specoilandgas-com-hydrocarbon-recovery-hydrocarbon-dew-point-contr",
+  "name": "SPEC Oil & Gas Technologies",
+  "url": "https://www.specoilandgas.com/equipment/hydrocarbon-recovery/hydrocarbon-dew-point-control",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "SPEC Oil & Gas Technologies",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Listed in fetched navigation. Evidence: https://www.specoilandgas.com/equipment/hydrocarbon-recovery/hydrocarbon-dew-point-control"
+}

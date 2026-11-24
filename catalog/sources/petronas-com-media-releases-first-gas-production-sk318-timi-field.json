@@ -1,0 +1,31 @@
+{
+  "id": "petronas-com-media-releases-first-gas-production-sk318-timi-field",
+  "name": "PETRONAS — Timi WHP, SK318, offshore Sarawak",
+  "url": "https://www.petronas.com/mpm/media/media-releases/first-gas-production-sk318-timi-field",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "PETRONAS",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Unmanned fixed wellhead platform about 200 km off Sarawak; installed in about 143 m water depth (Malaysia's deepest fixed platform to date, per PETRONAS); tied  Evidence: https://www.petronas.com/mpm/media/media-releases/first-gas-production-sk318-timi-field"
+}

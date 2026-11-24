@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-x-mas-tree-schematic-pmv-pwv-amv-awv-acv-xov-scssv-ptt",
+  "title": "X-Mas Tree Schematic (PMV, PWV, AMV, AWV, ACV, XOV, SCSSV, PTT)",
+  "diagram_type": "schematic",
+  "description": "Subsea X-mas tree valve schematic with labels PMV production master valve, PWV production wing valve, AMV annulus master valve, AWV annulus wing valve, ACV annulus circulation valve, XOV cross-over valve, SCSSV surface-controlled subsurface safety valve, PTT pressure/temperature transmitter, control module, HP/LP supply and return, manifold/flowline and umbilical/manifold interfaces; subsequent slide shows horizontal and dual-bore trees",
+  "publisher": "Det Norske Veritas AS (training material hosted by PDFCOFFEE)",
+  "url": "https://pdfcoffee.com/introduction-to-subsea-production-system-pdf-free.html",
+  "licence": "© Det Norske Veritas AS 2008; third-party host - use as pointer, do not redistribute",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/introduction-to-subsea-production-system-pdf-free.html",
+      "source_id": "pdfcoffee-com-pdfcoffee-com-introduction-to-subsea-production-syst"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

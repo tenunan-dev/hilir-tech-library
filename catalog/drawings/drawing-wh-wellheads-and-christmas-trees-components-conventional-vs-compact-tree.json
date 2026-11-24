@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-wellheads-and-christmas-trees-components-conventional-vs-compact-tree",
+  "title": "Wellheads and Christmas Trees Components - conventional vs compact tree comparison",
+  "diagram_type": "schematic",
+  "description": "Component cards for wellheads and Christmas trees, including a same-scale conventional vs compact tree comparison and tees/crosses/elbows with sizes 2 1/16 to 7 1/16 inch and 2,000-15,000 psi",
+  "publisher": "EXAL Technology",
+  "url": "https://www.exal-technology.com/uploads/product/wellheads-christmas-trees-components/wellheads-christmas-trees-components.pdf",
+  "licence": "OEM product literature; cite source, no open reuse licence stated",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.exal-technology.com/uploads/product/wellheads-christmas-trees-components/wellheads-christmas-trees-components.pdf",
+      "source_id": "exal-technology-com-wellheads-christmas-trees-components-wellheads"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

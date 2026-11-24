@@ -1,0 +1,53 @@
+{
+  "id": "ex-rigid-flowlines-export-pipelines-and-trunklines",
+  "name": "Rigid flowlines, export pipelines and trunklines",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Transport oilfield fluids from wellhead/manifold to processing facility and from offshore facilities to onshore receiving terminals.",
+  "specifications": [
+    {
+      "metric": "Rigid pipeline diameter range",
+      "unit": "inch",
+      "basis": "TechnipFMC rigid pipelines: 4-inch oilfield service fluids to 18-inch infield lines to larger export trunk lines",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+        "source_id": "technipfmc-com-rigid-pipelines"
+      },
+      "low": 4,
+      "high": 18
+    },
+    {
+      "metric": "Installed pipe-in-pipe length",
+      "unit": "km",
+      "basis": "TechnipFMC more than 1,100 km installed pipe-in-pipe",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+        "source_id": "technipfmc-com-rigid-pipelines"
+      },
+      "value": 1100
+    }
+  ],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "baker-hughes",
+    "subsea7-swagelining-all-polymer-liner"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+      "source_id": "technipfmc-com-rigid-pipelines"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Transport oilfield fluids from wellhead/manifold to processing facility and from offshore facilities to onshore receiving terminals."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

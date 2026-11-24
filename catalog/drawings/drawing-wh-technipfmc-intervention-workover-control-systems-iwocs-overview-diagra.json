@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-technipfmc-intervention-workover-control-systems-iwocs-overview-diagra",
+  "title": "TechnipFMC Intervention Workover Control Systems (IWOCS) overview diagram",
+  "diagram_type": "schematic",
+  "description": "IWOCS architecture: master control station, HPU, HDU, RCP, PCS, ROV reel/TMS, workover control system, subsea tree/EDP/LRP control pod, jumpers and umbilicals; PSD/ESD/EQD/dead-man safety features",
+  "publisher": "TechnipFMC",
+  "url": "https://www.technipfmc.com/media/rakf034t/intervention-workover-control-systems-brochure_digital.pdf",
+  "licence": "TechnipFMC copyright 2018; cite source, no open reuse licence stated",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/media/rakf034t/intervention-workover-control-systems-brochure_digital.pdf",
+      "source_id": "technipfmc-com-rakf034t-intervention-workover-control-systems-broc"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

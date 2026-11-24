@@ -1,0 +1,31 @@
+{
+  "id": "repository-library-noaa-gov-44523-noaa-44523-ds1-pdf",
+  "name": "NOAA (Offshore Single Point Mooring Systems, NOAA repository)",
+  "url": "https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "NOAA",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. CALM buoy principle: transfer hawsers, tanker hoses, buoy, pipeline, fluid swivel and catenary anchor legs Evidence: https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "wh-jacket-substructure-and-pile-foundation",
+  "name": "Jacket substructure and pile foundation",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Transfers topside and environmental loads to the seabed; piles are driven through jacket legs or skirt sleeves and fixed by grouting, welding or swaging.",
+  "specifications": [
+    {
+      "metric": "open-ended tubular steel pile diameter",
+      "unit": "m (up to)",
+      "basis": "ESDEP 15A.1 section 4.2",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "high": 2
+    },
+    {
+      "metric": "pile penetration",
+      "unit": "m; in some cases 120 m",
+      "basis": "ESDEP 15A.1 section 4.2",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "low": 40,
+      "high": 80
+    },
+    {
+      "metric": "sacrificial anode mass",
+      "unit": "kN each, approximately",
+      "basis": "ESDEP 15A.1 section 4.4; zinc/aluminium bar cast about a steel tube and welded to structure",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "value": 3
+    },
+    {
+      "metric": "anode mass as fraction of jacket weight",
+      "unit": "% typically",
+      "basis": "ESDEP 15A.1 section 4.4",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "value": 5
+    },
+    {
+      "metric": "splash zone corrosion allowance",
+      "unit": "mm sacrificial wall thickness",
+      "basis": "ESDEP 15A.1 section 4.4",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "value": 12
+    }
+  ],
+  "vendors": [
+    "sika",
+    "cape-holland"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Current API RP 2A pile design equations and fatigue criteria",
+      "why": "Paywalled standard",
+      "next_action": "Fetch API preview or ISO 19902 OBP sample."
+    }
+  ],
+  "applications": [
+    "Transfers topside and environmental loads to the seabed; piles are driven through jacket legs or skirt sleeves and fixed by grouting, welding or swaging."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "tp-inlet-scrubbers-gas-scrubbers-slug-catchers",
+  "name": "Inlet scrubbers / gas scrubbers / slug catchers",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Remove free liquid and solids from gas entering a treatment facility before additional processing; protect compressors and downstream equipment.",
+  "specifications": [
+    {
+      "metric": "Gas filter separator standard design pressure",
+      "unit": "psi (99 bar)",
+      "basis": "SPEC Gas Filter Separator 'Mechanical Features' table; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
+        "source_id": "specoilandgas-com-phase-separation-gas-filter-separator"
+      },
+      "value": "1440"
+    }
+  ],
+  "vendors": [
+    "slb-championx-portfolio",
+    "spec-oil-gas-technologies-fabricator"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
+      "source_id": "specoilandgas-com-phase-separation-gas-filter-separator"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Remove free liquid and solids from gas entering a treatment facility before additional processing; protect compressors and downstream equipment."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "onesubsea-onesubsea-subsea-wellhead-systems",
+  "name": "OneSubsea subsea wellhead systems",
+  "manufacturer": "onesubsea-slb-aker-solutions-jv",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform"
+  ],
+  "description": "Vendor product line read 2026-11-24. fetched",
+  "specifications": [
+    {
+      "metric": "Standards",
+      "unit": "standard",
+      "basis": "",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
+      },
+      "value": "API 6A/17D, ASME IX, NACE MR0175/ISO 15156, DNVGL-RP-C203"
+    }
+  ],
+  "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
+      "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
+    }
+  ],
+  "notes": "fetched",
+  "last_reviewed": "2026-11-24"
+}

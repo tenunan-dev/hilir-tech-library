@@ -1,0 +1,41 @@
+{
+  "id": "siemens-energy-seafloat-sgt-750-sgt-800-sgt-8000h-offshore-power-plants",
+  "name": "SeaFloat SGT-750 / SGT-800 / SGT-8000H offshore power plants",
+  "manufacturer": "siemens-energy",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform"
+  ],
+  "description": "Vendor product line read 2026-11-24. CCPP figures search-verified PDF.",
+  "specifications": [
+    {
+      "metric": "SGT-800 combined cycle range",
+      "unit": "MW",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",
+        "source_id": "siemens-energy-com-product-seafloat-html"
+      },
+      "value": "150-450 MW"
+    },
+    {
+      "metric": "SGT-750 offshore CCPP",
+      "unit": "MWe / %",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",
+        "source_id": "siemens-energy-com-product-seafloat-html"
+      },
+      "value": "41.0/108.4/163.3 MWe; 40.5/54.1/54.4% efficiency"
+    }
+  ],
+  "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",
+  "sources": [
+    {
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",
+      "source_id": "siemens-energy-com-product-seafloat-html"
+    }
+  ],
+  "notes": "CCPP figures search-verified PDF.",
+  "last_reviewed": "2026-11-24"
+}

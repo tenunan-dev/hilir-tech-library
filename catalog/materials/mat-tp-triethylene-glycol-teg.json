@@ -1,0 +1,57 @@
+{
+  "id": "mat-tp-triethylene-glycol-teg",
+  "name": "Triethylene glycol",
+  "material_category": "chemical-desiccant-hydrate-inhibitor",
+  "description": "Absorb water vapour from natural gas in a contactor; regenerate in reboiler. Also absorbs methane, VOCs and BTEX/HAPs, requiring emission control.",
+  "specifications": [
+    {
+      "metric": "Typical desiccant of choice",
+      "unit": "chemical",
+      "basis": "US EPA Natural Gas STAR page; page read",
+      "source": {
+        "url": "https://www.epa.gov/natural-gas-star-program/glycol-dehydrators",
+        "source_id": "epa-gov-natural-gas-star-program-glycol-dehydrators"
+      },
+      "value": "triethylene glycol (TEG)"
+    },
+    {
+      "metric": "Conventional regenerated purity",
+      "unit": "wt%",
+      "basis": "Digital Refining article; page read",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+        "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+      },
+      "value": "~99"
+    }
+  ],
+  "applications": [
+    "Absorb water vapour from natural gas in a contactor; regenerate in reboiler. Also absorbs methane, VOCs and BTEX/HAPs, requiring emission control."
+  ],
+  "standards": [],
+  "equipment": [
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "tp-inlet-scrubbers-gas-scrubbers-slug-catchers",
+    "tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones",
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "suppliers": [
+    "pietro-fiorentini-teg-packages",
+    "kinder-morgan-treating",
+    "cimarron",
+    "spec-oil-gas-technologies-fabricator"
+  ],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/natural-gas-star-program/glycol-dehydrators",
+      "source_id": "epa-gov-natural-gas-star-program-glycol-dehydrators"
+    },
+    {
+      "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+      "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

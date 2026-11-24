@@ -1,0 +1,41 @@
+{
+  "id": "spec-oil-gas-technologies-molecular-sieve-dehydration-unit",
+  "name": "Molecular Sieve Dehydration unit",
+  "manufacturer": "spec-oil-gas-technologies-fabricator",
+  "product_type": "tp-wellhead",
+  "equipment": [
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "regeneration gas temperature",
+      "unit": "degF",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
+        "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
+      },
+      "value": "~550 degF (290 degC)"
+    },
+    {
+      "metric": "towers",
+      "unit": "count",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
+        "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
+      },
+      "value": "minimum 2, fixed switching cycle"
+    }
+  ],
+  "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
+      "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

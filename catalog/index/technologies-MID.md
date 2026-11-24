@@ -304,7 +304,7 @@ flowchart LR
     WELD --> TEST
 ```
 
-**Key equipment:** X70 or X80 line pipe, mechanised welding systems, inspection equipment.
+**Key equipment:** X70 or X80 line pipe, mechanised welding systems, inspection equipment, export trunkline, pipe-in-pipe, rigid flowline, SCR, shore approach.
 
 **Performance:**
 - design pressure with X80 pipe: 90-94 bar; UK DN1200 projects. [source](https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf)
@@ -318,7 +318,7 @@ flowchart LR
 - current cost per km with dollar year (costs): The paper gives a saving percentage only. Web-checked 2026-10-28; pipeline build costs vary by region; no authoritative open $/km found. Where: PRCI and operator project cost studies (catalog: prci, open). Next: Add cost per inch-km with year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched linepipe, X70, X80, pipeline steel, high strength steel, pipelines); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf), [2](https://www.dnv.com/oilgas/download/dnv-st-f101-submarine-pipeline-systems/). Last reviewed 2026-11-17.
+Sources: [1](https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf), [2](https://www.dnv.com/oilgas/download/dnv-st-f101-submarine-pipeline-systems/). Last reviewed 2026-11-24.
 
 ## Hydrate, wax and asphaltene management (inhibitors, heating, pigging)
 <a id="mid-hydrate-wax-asphaltene-management"></a>

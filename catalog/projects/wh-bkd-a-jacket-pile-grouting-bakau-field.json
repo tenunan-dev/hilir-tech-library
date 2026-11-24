@@ -1,0 +1,25 @@
+{
+  "id": "wh-bkd-a-jacket-pile-grouting-bakau-field",
+  "name": "BKD-A jacket pile grouting, Bakau Field",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "84 metric tons of SikaGrout-9610 supplied and subsea grouting executed for four-legged conductor-supported jacket at 52 m water depth.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sika.com/dms/getdocument.get/aab6ff9d-faaf-4409-9e47-e8e502432c20/glo-bkd-a-jacket-installation-malaysia.pdf",
+      "source_id": "sika-com-aab6ff9d-faaf-4409-9e47-e8e502432c20-glo-bkd-a-jacket-ins"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

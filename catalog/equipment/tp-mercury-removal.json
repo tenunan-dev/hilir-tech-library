@@ -1,0 +1,50 @@
+{
+  "id": "tp-mercury-removal",
+  "name": "Mercury removal",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Remove elemental mercury from gas to protect brazed aluminium plate-fin heat exchangers in cryogenic recovery/liquefaction plants.",
+  "specifications": [
+    {
+      "metric": "Typical inlet mercury concentration",
+      "unit": "micrograms/Nm3 (approx. 0.1-10 ppbv)",
+      "basis": "Pietro Fiorentini Gas mercury removal page; page read",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
+        "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
+      },
+      "value": "1-10"
+    },
+    {
+      "metric": "Designed outlet mercury concentration",
+      "unit": "micrograms/Nm3",
+      "basis": "Pietro Fiorentini page; page read",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
+        "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
+      },
+      "value": "0.001"
+    }
+  ],
+  "vendors": [
+    "pietro-fiorentini-teg-packages"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
+      "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Remove elemental mercury from gas to protect brazed aluminium plate-fin heat exchangers in cryogenic recovery/liquefaction plants."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "wh-topsides-decks-and-module-support-frame-msf",
+  "name": "Topsides decks and module support frame",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Carries wells, process equipment, utilities, accommodation and helideck; either a single integrated deck lifted in one piece or a module support frame carrying multiple modules.",
+  "specifications": [
+    {
+      "metric": "integrated deck weight limit",
+      "unit": "MN, approximately (about 10,000 tonnes)",
+      "basis": "ESDEP 15A.1 section 5.2.1",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "high": 100
+    },
+    {
+      "metric": "modularized topside weight range",
+      "unit": "MN",
+      "basis": "ESDEP 15A.1 section 5.2.3",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "low": 200,
+      "high": 400
+    },
+    {
+      "metric": "equipment module weight range",
+      "unit": "MN",
+      "basis": "ESDEP 15A.1 section 6",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "low": 20,
+      "high": 75
+    },
+    {
+      "metric": "living quarter module weight range",
+      "unit": "MN",
+      "basis": "ESDEP 15A.1 section 6",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "low": 5,
+      "high": 25
+    },
+    {
+      "metric": "deck leg support elevation",
+      "unit": "m above Low Astronomical Tide",
+      "basis": "ESDEP 15A.1 section 5.2.2; down to top of piles",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "low": 4,
+      "high": 6
+    },
+    {
+      "metric": "topside installed CAPEX (historical)",
+      "unit": "ECU/kg, approximately",
+      "basis": "ESDEP 15A.1 section 9.1; historical figure, NOT a current USD cost",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "value": 20
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Current topside structural steel design code (API 2TOP vs AISC) and load factors",
+      "why": "Not fetched",
+      "next_action": "Fetch API 2TOP preview and ISO 19901-3 scope."
+    }
+  ],
+  "applications": [
+    "Carries wells, process equipment, utilities, accommodation and helideck; either a single integrated deck lifted in one piece or a module support frame carrying "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

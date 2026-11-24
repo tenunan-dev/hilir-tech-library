@@ -1,0 +1,44 @@
+{
+  "id": "wh-risers-top-tensioned-flexible-scr",
+  "name": "Risers",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Convey production/injection fluids between subsea wellheads/manifolds and the host platform or floating facility.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Convey production/injection fluids between subsea wellheads/manifolds and the host platform or floating facility.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Actual riser diameters, wall thicknesses and tensioner ratings for named installations",
+      "why": "Only conceptual descriptions fetched",
+      "next_action": "Fetch project-specific riser papers."
+    }
+  ],
+  "applications": [
+    "Convey production/injection fluids between subsea wellheads/manifolds and the host platform or floating facility."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

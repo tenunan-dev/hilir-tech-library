@@ -1,0 +1,25 @@
+{
+  "id": "wh-shell-silvertip-perdido-development-gulf-of-mexico",
+  "name": "Shell Silvertip, Perdido development, Gulf of Mexico",
+  "country": "United States",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "TechnipFMC EVDT set world record for deepest installed tree at 9,627 ft in 2011.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
+      "source_id": "technipfmc-com-well-control-subsea-trees"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

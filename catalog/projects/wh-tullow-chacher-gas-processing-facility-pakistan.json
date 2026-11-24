@@ -1,0 +1,25 @@
+{
+  "id": "wh-tullow-chacher-gas-processing-facility-pakistan",
+  "name": "Tullow Chacher Gas Processing Facility, Pakistan",
+  "country": "Pakistan",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "SPEC mechanical heater treater project reference, 2007.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
+      "source_id": "specoilandgas-com-oil-processing-mechanical-heater-treater"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

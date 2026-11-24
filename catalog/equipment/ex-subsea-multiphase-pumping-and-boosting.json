@@ -1,0 +1,39 @@
+{
+  "id": "ex-subsea-multiphase-pumping-and-boosting",
+  "name": "Subsea multiphase pumping and boosting",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Lower wellhead pressure, increase flow and recovery, compensate tieback pressure drop, mitigate slugging and manage hydrates/wax via pump heat.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Lower wellhead pressure, increase flow and recovery, compensate tieback pressure drop, mitigate slugging and manage hydrates/wax via pump heat.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv",
+    "baker-hughes"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Lower wellhead pressure, increase flow and recovery, compensate tieback pressure drop, mitigate slugging and manage hydrates/wax via pump heat."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "wh-technipfmc-subsea-wellhead-installations-regional-tally-from-subsea-dr",
+  "name": "TechnipFMC subsea wellhead installations (regional tally from Subsea Drilling Services brochure)",
+  "country": "multiple regions",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "North America 665 UWD systems installed; South America 74; Africa/Mediterranean 553; Europe/Russia 675; Asia/Australia 328 (brochure figures, undated beyond 2018 publication date).",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/media/1cdb1vmk/sds-brochure-final-print.pdf",
+      "source_id": "technipfmc-com-1cdb1vmk-sds-brochure-final-print-pdf"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

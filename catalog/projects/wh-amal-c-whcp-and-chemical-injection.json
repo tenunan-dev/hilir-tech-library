@@ -1,0 +1,25 @@
+{
+  "id": "wh-amal-c-whcp-and-chemical-injection",
+  "name": "AMAL-C WHCP and chemical injection",
+  "country": "Egypt",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Topside equipment included gas lift, water injection wellhead control panel, chemical injection unit and navigation aids, powered by two diesel generators.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://aquaterraenergy.com/delivering-a-jacket-supported-platform-in-a-seismic-region-in-the-gulf-of-suez",
+      "source_id": "aquaterraenergy-com-aquaterraenergy-com-delivering-a-jacket-suppor"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

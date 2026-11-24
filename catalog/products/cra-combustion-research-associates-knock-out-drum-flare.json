@@ -1,0 +1,41 @@
+{
+  "id": "cra-combustion-research-associates-knock-out-drum-flare",
+  "name": "Knock-out Drum (flare)",
+  "manufacturer": "cra-combustion-research-associates",
+  "product_type": "tp-wellhead",
+  "equipment": [
+    "tp-flare-and-vent-system-flare-stack-boom-flare-tips-ko-drums-gas"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "configuration",
+      "unit": "configuration",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums",
+        "source_id": "cra-energy-product-knockout-drums"
+      },
+      "value": "horizontal or vertical"
+    },
+    {
+      "metric": "company installations",
+      "unit": "count",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums",
+        "source_id": "cra-energy-product-knockout-drums"
+      },
+      "value": ">800 in >25 countries since 1993"
+    }
+  ],
+  "url": "https://www.cra.energy/product/knockout-drums",
+  "sources": [
+    {
+      "url": "https://www.cra.energy/product/knockout-drums",
+      "source_id": "cra-energy-product-knockout-drums"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

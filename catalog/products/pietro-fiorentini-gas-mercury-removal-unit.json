@@ -1,0 +1,41 @@
+{
+  "id": "pietro-fiorentini-gas-mercury-removal-unit",
+  "name": "Gas mercury removal unit",
+  "manufacturer": "pietro-fiorentini-teg-packages",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "inlet mercury",
+      "unit": "ug/Nm3",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
+        "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
+      },
+      "value": "1-10 ug/Nm3 (0.1-10 ppbv)"
+    },
+    {
+      "metric": "design outlet",
+      "unit": "ug/Nm3",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
+        "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
+      },
+      "value": "0.001 ug/Nm3"
+    }
+  ],
+  "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
+  "sources": [
+    {
+      "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
+      "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

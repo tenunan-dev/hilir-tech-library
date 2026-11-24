@@ -1,0 +1,31 @@
+{
+  "id": "technipfmc-com-manifolds",
+  "name": "TechnipFMC — Manifold pressure rating",
+  "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "TechnipFMC",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. TechnipFMC manifold and tie-in systems up to 20K psi Evidence: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
+}

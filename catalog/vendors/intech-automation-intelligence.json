@@ -1,0 +1,24 @@
+{
+  "id": "intech-automation-intelligence",
+  "name": "INTECH Automation & Intelligence",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "INTECH Automation & Intelligence is named as a supplier on a page read during the wellhead-platform sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
+      "source_id": "johnsoncontrols-com-oil-and-gas-production-systems"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 wellhead-platform sweep."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-3-2-typical-single-anchor-leg-mooring-schematic-figure-3-3-typi",
+  "title": "Figure 3.2: Typical Single Anchor Leg Mooring Schematic; Figure 3.3: Typical Turret Mooring Schematic; Figure 3.4: Typical Tower Mooring Schematic",
+  "diagram_type": "schematic",
+  "description": "Alternative single-point mooring configurations: SALM, turret and tower mooring with catenary legs, product risers and pipelines",
+  "publisher": "NOAA (Offshore Single Point Mooring Systems)",
+  "url": "https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf",
+  "licence": "NOAA-hosted report; cite with attribution",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf",
+      "source_id": "repository-library-noaa-gov-44523-noaa-44523-ds1-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

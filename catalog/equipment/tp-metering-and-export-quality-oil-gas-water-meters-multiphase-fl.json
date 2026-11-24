@@ -1,0 +1,57 @@
+{
+  "id": "tp-metering-and-export-quality-oil-gas-water-meters-multiphase-fl",
+  "name": "Metering and export quality — oil/gas/water meters, multiphase flow meters, custody transfer, sampling, sales ",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Measure oil, gas and water rates (with or without separation), support allocation and custody transfer, sample fluids at or above hydrocarbon dew point, and demonstrate compliance with sales specifications.",
+  "specifications": [
+    {
+      "metric": "Roxar 2600 MPFM operating envelope",
+      "unit": "% / sizes",
+      "basis": "Emerson Roxar 2600 product page; page read",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "emerson-com-products-roxar-2600-multiphase-flow-meter"
+      },
+      "value": "0-100% GVF and 0-100% WLR; 6 sizes; duplex stainless steel to Inconel"
+    },
+    {
+      "metric": "TechnipFMC MPM GVF range",
+      "unit": "% GVF",
+      "basis": "TechnipFMC Production page; page read",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production",
+        "source_id": "technipfmc-com-surface-production"
+      },
+      "value": "0-100"
+    }
+  ],
+  "vendors": [
+    "slb-championx-portfolio",
+    "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
+    "technipfmc-cds-separation-systems",
+    "honeywell"
+  ],
+  "sources": [
+    {
+      "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+      "source_id": "emerson-com-products-roxar-2600-multiphase-flow-meter"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/surface/production",
+      "source_id": "technipfmc-com-surface-production"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Measure oil, gas and water rates (with or without separation), support allocation and custody transfer, sample fluids at or above hydrocarbon dew point, and dem"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

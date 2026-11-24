@@ -1,0 +1,31 @@
+{
+  "id": "wascoenergy-com-modules-produced-water-treatment-package-pdf",
+  "name": "Wasco Energy",
+  "url": "https://wascoenergy.com/pdf/engineering-fabrication/modules/produced-water-treatment-package.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Wascoenergy.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Search-verified PDF. Evidence: https://wascoenergy.com/pdf/engineering-fabrication/modules/produced-water-treatment-package.pdf"
+}

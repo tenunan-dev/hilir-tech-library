@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-1-tanker-moored-to-an-spm-calm-buoy-with-mooring-hawser-arrange",
+  "title": "Figure 1: Tanker moored to an SPM CALM buoy with mooring hawser arrangements and floating hoses connected to midship manifold; Figure 'Typical PLEM Layout'; subsea hose/riser confi",
+  "diagram_type": "schematic",
+  "description": "CALM SPM system: tanker hawser, floating hose strings, buoy, product swivel, subsea hose risers, PLEM and subsea pipeline; describes Chinese Lantern, Lazy-S, Midwater Arch and Steep-S hose configurations and MBC",
+  "publisher": "EPCM Holdings",
+  "url": "https://epcmholdings.com/spm-calm-buoy-system",
+  "licence": "EPCM Holdings website; cite source, no open reuse licence stated",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://epcmholdings.com/spm-calm-buoy-system",
+      "source_id": "epcmholdings-com-epcmholdings-com-spm-calm-buoy-system"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

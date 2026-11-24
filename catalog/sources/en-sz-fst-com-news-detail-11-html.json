@@ -1,0 +1,31 @@
+{
+  "id": "en-sz-fst-com-news-detail-11-html",
+  "name": "FST",
+  "url": "https://en.sz-fst.com/news_detail/11.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "En.Sz Fst.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Search-verified; ADNOC project. Evidence: https://en.sz-fst.com/news_detail/11.html"
+}

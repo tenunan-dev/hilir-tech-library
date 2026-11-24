@@ -1,0 +1,40 @@
+{
+  "id": "mat-ex-stainless-and-high-alloy-steel-tubes-umbilicals",
+  "name": "Stainless and high-alloy steel tubes",
+  "material_category": "metals-tubing",
+  "description": "Hydraulic control and chemical injection conduits in steel tube umbilicals",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Hydraulic control and chemical injection conduits in steel tube umbilicals",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "applications": [
+    "Hydraulic control and chemical injection conduits in steel tube umbilicals"
+  ],
+  "standards": [],
+  "equipment": [
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-wellheads-conductors-and-mudline-wellhead-systems-hpht",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "suppliers": [
+    "prysmian",
+    "nexans",
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

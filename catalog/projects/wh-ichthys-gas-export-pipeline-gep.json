@@ -1,0 +1,25 @@
+{
+  "id": "wh-ichthys-gas-export-pipeline-gep",
+  "name": "Ichthys Gas Export Pipeline (GEP)",
+  "country": "Australia/APAC",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Gas dehydrated and compressed at CPF then exported via GEP to onshore LNG plant; two LNG trains each 4.2 mtpa",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inpex.com.au/media/lldoewsu/offshore-terminal-regulations-manual-february-2019.pdf",
+      "source_id": "inpex-com-au-lldoewsu-offshore-terminal-regulations-manual-februar"
+    }
+  ],
+  "notes": "search-verified; PDF fetch unsupported",
+  "last_reviewed": "2026-11-24"
+}

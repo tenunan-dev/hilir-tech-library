@@ -1,0 +1,51 @@
+{
+  "id": "deepocean-deepocean-t1500-jet-trenching-rov",
+  "name": "DeepOcean T1500+ jet trenching ROV",
+  "manufacturer": "deepocean",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform"
+  ],
+  "description": "Vendor product line read 2026-11-24. fetched",
+  "specifications": [
+    {
+      "metric": "Depth",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Power",
+      "unit": "kW",
+      "basis": "",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": 1125
+    },
+    {
+      "metric": "Burial capacity",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": 3
+    }
+  ],
+  "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+  "sources": [
+    {
+      "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+      "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+    }
+  ],
+  "notes": "fetched",
+  "last_reviewed": "2026-11-24"
+}

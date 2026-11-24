@@ -1,0 +1,96 @@
+{
+  "id": "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+  "name": "Subsea manifolds and templates",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Gather and distribute production/injection flows, enable testing, isolation, sampling, metering and allocation; provide tie-in termination of flowlines and risers.",
+  "specifications": [
+    {
+      "metric": "Manifold water depth capability",
+      "unit": "ft",
+      "basis": "OneSubsea manifolds capability up to depths of 10,000 ft",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Manifold pressure",
+      "unit": "psi",
+      "basis": "OneSubsea manifolds up to 15,000 psi",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "Manifold temperature",
+      "unit": "deg C",
+      "basis": "OneSubsea manifolds up to 175 C",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+      },
+      "value": 175
+    },
+    {
+      "metric": "Manifold pressure rating",
+      "unit": "psi",
+      "basis": "TechnipFMC manifold and tie-in systems up to 20K psi",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+        "source_id": "technipfmc-com-manifolds"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Manifold temperature rating",
+      "unit": "deg F",
+      "basis": "TechnipFMC manifolds up to 350 F",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+        "source_id": "technipfmc-com-manifolds"
+      },
+      "value": 350
+    },
+    {
+      "metric": "Connection diameter",
+      "unit": "ft",
+      "basis": "TechnipFMC manifolds up to 30 ft connection diameter",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+        "source_id": "technipfmc-com-manifolds"
+      },
+      "value": 30
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv",
+    "technipfmc-cds-separation-systems",
+    "baker-hughes"
+  ],
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
+      "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+      "source_id": "technipfmc-com-manifolds"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Gather and distribute production/injection flows, enable testing, isolation, sampling, metering and allocation; provide tie-in termination of flowlines and rise"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

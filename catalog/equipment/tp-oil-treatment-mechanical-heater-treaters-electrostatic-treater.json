@@ -1,0 +1,65 @@
+{
+  "id": "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater",
+  "name": "Oil treatment — mechanical heater treaters, electrostatic treaters/dehydrators, desalters",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Break produced-water-in-oil emulsions with heat and residence time or an applied electrostatic field; reduce BS&W and salt content to export specification.",
+  "specifications": [
+    {
+      "metric": "Mechanical treater capacity",
+      "unit": "barrels of liquid per day (BLPD)",
+      "basis": "SPEC Mechanical Heater Treater typical design data; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
+        "source_id": "specoilandgas-com-oil-processing-mechanical-heater-treater"
+      },
+      "value": ">20,000"
+    },
+    {
+      "metric": "Electrostatic vs mechanical treater (qualitative)",
+      "unit": "comparison",
+      "basis": "SPEC Electrostatic Heater Treater & Desalter comparison table; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter",
+        "source_id": "specoilandgas-com-oil-processing-electrostatic-heater-treater-desa"
+      },
+      "value": "lower BS&W, lower salt content, smaller footprint"
+    },
+    {
+      "metric": "Desalting reference plant capacity",
+      "unit": "BOPD",
+      "basis": "SPEC TAQA Atrush project scope: 2 electrostatic dehydrators + 2 crude cross exchangers; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter",
+        "source_id": "specoilandgas-com-oil-processing-electrostatic-heater-treater-desa"
+      },
+      "value": "50,000"
+    }
+  ],
+  "vendors": [
+    "spec-oil-gas-technologies-fabricator",
+    "slb-championx-portfolio"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
+      "source_id": "specoilandgas-com-oil-processing-mechanical-heater-treater"
+    },
+    {
+      "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter",
+      "source_id": "specoilandgas-com-oil-processing-electrostatic-heater-treater-desa"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Break produced-water-in-oil emulsions with heat and residence time or an applied electrostatic field; reduce BS&W and salt content to export specification."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

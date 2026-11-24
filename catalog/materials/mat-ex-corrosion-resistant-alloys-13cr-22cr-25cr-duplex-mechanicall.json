@@ -1,0 +1,40 @@
+{
+  "id": "mat-ex-corrosion-resistant-alloys-13cr-22cr-25cr-duplex-mechanicall",
+  "name": "Corrosion resistant alloys",
+  "material_category": "metals-corrosion-resistant",
+  "description": "Corrosive production fluids, inner flowline of PiP, injection lines",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Corrosive production fluids, inner flowline of PiP, injection lines",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "applications": [
+    "Corrosive production fluids, inner flowline of PiP, injection lines"
+  ],
+  "standards": [],
+  "equipment": [
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-wellheads-conductors-and-mudline-wellhead-systems-hpht",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "suppliers": [
+    "technipfmc-cds-separation-systems",
+    "prysmian",
+    "subsea7-swagelining-all-polymer-liner"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

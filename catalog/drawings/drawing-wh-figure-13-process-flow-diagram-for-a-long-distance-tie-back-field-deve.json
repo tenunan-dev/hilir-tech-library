@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-13-process-flow-diagram-for-a-long-distance-tie-back-field-deve",
+  "title": "Figure 13: Process flow-diagram for a long distance tie-back field development example",
+  "diagram_type": "PFD",
+  "description": "Process flow diagram for a long-distance subsea tie-back development; accompanies discussion of multiphase pumping and field-development layout (Figure 14 typical electro-hydraulic control system; Figure 15 all-electric control system; Figure 17 marginal field development layout with MFP)",
+  "publisher": "Montanuniversität Leoben (subsea production systems review thesis)",
+  "url": "https://pure.unileoben.ac.at/ws/portalfiles/portal/1876337/AC13373932n01vt.pdf",
+  "licence": "University thesis; cite with figure number and check underlying sources for reuse",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://pure.unileoben.ac.at/ws/portalfiles/portal/1876337/AC13373932n01vt.pdf",
+      "source_id": "pure-unileoben-ac-at-1876337-ac13373932n01vt-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

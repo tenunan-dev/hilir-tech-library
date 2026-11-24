@@ -1,0 +1,31 @@
+{
+  "id": "commons-wikimedia-org-wiki-file-iso-10628-2-2012-symbols-sheet-1-p",
+  "name": "Wikimedia Commons (author Steven Baltakatei Sandoval)",
+  "url": "https://commons.wikimedia.org/wiki/File:ISO_10628-2_2012_Symbols_Sheet_1.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Commons.Wikimedia.Org",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. P&ID graphical symbol legend to ISO 10628-2:2012; drawing area ISO 5457:1999, title block ISO 7200:2004 Evidence: https://commons.wikimedia.org/wiki/File:ISO_10628-2_2012_Symbols_Sheet_1.pdf"
+}

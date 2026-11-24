@@ -1,0 +1,25 @@
+{
+  "id": "wh-d18-phase-2-and-d28-phase-1-conductor-supported-platforms-sarawak",
+  "name": "D18 Phase 2 and D28 Phase 1 conductor-supported platforms, Sarawak",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "D18 Phase 2 installed in 35 m water depth for OceanMight on behalf of PETRONAS Carigali; lightweight conductor-supported substructure and topside installed by jack-up drilling rig; eighth conductor-supported platform installed in Malaysian waters by 2H Kuala Lumpur office.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://2hoffshore.com/about/news/2h-offshore-installs-its-eighth-conductor-supported-platform-offshore-malaysia",
+      "source_id": "2hoffshore-com-news-2h-offshore-installs-its-eighth-conductor-supp"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

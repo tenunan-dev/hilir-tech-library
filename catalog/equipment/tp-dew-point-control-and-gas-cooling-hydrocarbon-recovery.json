@@ -1,0 +1,65 @@
+{
+  "id": "tp-dew-point-control-and-gas-cooling-hydrocarbon-recovery",
+  "name": "Dew point control and gas cooling / hydrocarbon recovery",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Meet water and hydrocarbon dew point sales specs by cooling/condensing heavy components, with upstream dehydration to prevent hydrate/ice formation; low-temperature separation, refrigeration, silica gel and LTS options.",
+  "specifications": [
+    {
+      "metric": "Hydrate inhibitor temperature applicability",
+      "unit": "degF",
+      "basis": "Digital Refining article; page read",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+        "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+      },
+      "value": "EG above -40 degF; methanol down to below -140 degF"
+    },
+    {
+      "metric": "Dehydration route economics",
+      "unit": "comparison",
+      "basis": "Digital Refining article; page read",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+        "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+      },
+      "value": "glycol absorption less capex/opex than molecular sieve for 1-7 lb/MMSCF target"
+    },
+    {
+      "metric": "Available dew-point product families",
+      "unit": "list",
+      "basis": "Pietro Fiorentini gas-treatment product family links; page read",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-packages-with-liquid-media-technology-teg-deg-meg",
+        "source_id": "fiorentini-iberia-com-gas-treatment-gas-dehydration-packages-with"
+      },
+      "value": "silica gel WDP/HDP control; hydrocarbon recovery/LTS dew point control; gas heat exchangers; indirect water/glycol bath heaters"
+    }
+  ],
+  "vendors": [
+    "pietro-fiorentini-teg-packages",
+    "spec-oil-gas-technologies-fabricator"
+  ],
+  "sources": [
+    {
+      "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+      "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+    },
+    {
+      "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-packages-with-liquid-media-technology-teg-deg-meg",
+      "source_id": "fiorentini-iberia-com-gas-treatment-gas-dehydration-packages-with"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Meet water and hydrocarbon dew point sales specs by cooling/condensing heavy components, with upstream dehydration to prevent hydrate/ice formation; low-tempera"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

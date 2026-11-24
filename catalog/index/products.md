@@ -1,6 +1,6 @@
 # Product catalog
 
-160 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
+190 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
 
 ## ammonia
 
@@ -173,6 +173,13 @@
 | [Wärtsilä 31SG gas engine](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions) | Wärtsilä | Gas engine prime mover | Electrical output; Electrical efficiency |
 | [Wärtsilä 46TS-SG gas engine](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions) | Wärtsilä | Gas engine prime mover | Electrical output (50/60 Hz variants as listed); Electrical efficiency |
 | [Wärtsilä 50SG gas engine](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions) | Wärtsilä | Gas engine prime mover | Electrical output; Electrical efficiency |
+
+## ex-wellhead
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [OneSubsea cluster/manifold and integrated template structure](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds) | OneSubsea (SLB/Aker Solutions JV) | Subsea trees | Depth; Pressure; Temperature |
+| [TechnipFMC manifold/tie-in systems incl. PLEM/PLET](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/) | TechnipFMC (CDS Separation Systems) | Subsea manifolds and templates | Pressure; Temperature; Connection diameter |
 
 ## exhaust
 
@@ -352,6 +359,19 @@
 | [TD42 Thermodynamic Steam Trap](https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/) | Spirax Sarco | Steam traps (thermodynamic, float, thermostatic, inverted bucket) | Body design condition; Maximum allowable pressure; Maximum allowable / operating temperature; Recommended maximum operating pressure; Minimum allowable / operating temperature; Minimum operating differential pressure; Maximum operating backpressure; Maximum cold hydraulic test pressure; Nominal sizes; Blast discharge to atmosphere temperature warning |
 | [ThermoDyne A3N thermodynamic steam trap](https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne) | TLV | Steam traps (thermodynamic, float, thermostatic, inverted bucket) | Maximum operating pressure (PMO); Minimum operating pressure; Maximum operating temperature (TMO); Discharge capacity; Body material; Connection |
 
+## tp-wellhead
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Compact three-phase separator / high-efficiency phase separation internals](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals) | SLB (ChampionX portfolio) | Flare and vent system — flare stack/boom, flare tips, KO drums, gas recovery/VRU | PORTA-TEST REVOLUTION installations |
+| [Electrostatic Heater Treater & Desalter](https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter) | SPEC Oil & Gas Technologies (fabricator) | Oil treatment — mechanical heater treaters, electrostatic treaters/dehydrators, desalters | reference facility |
+| [Flare Knock-out Drum](https://www.flaretechinc.com/products/flare-knockout-drums) | FlareTech Inc. | Flare and vent system — flare stack/boom, flare tips, KO drums, gas recovery/VRU | size range |
+| [Knock-out Drum (flare)](https://www.cra.energy/product/knockout-drums) | CRA (Combustion Research Associates) | Flare and vent system — flare stack/boom, flare tips, KO drums, gas recovery/VRU | configuration; company installations |
+| [Mechanical Heater Treater](https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater) | SPEC Oil & Gas Technologies (fabricator) | Oil treatment — mechanical heater treaters, electrostatic treaters/dehydrators, desalters | treating capacity |
+| [Molecular Sieve Dehydration unit](https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration) | SPEC Oil & Gas Technologies (fabricator) | Oil treatment — mechanical heater treaters, electrostatic treaters/dehydrators, desalters | regeneration gas temperature; towers |
+| [Roxar 2600 Multiphase Flow Meter (with 5726 transmitter)](https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter) | Emerson (duplex stainless steel option on Roxar 2600, page read) | Metering and export quality — oil/gas/water meters, multiphase flow meters, custody transfer, sampling, sales  | GVF / WLR; sizes; design pressure |
+| [TEG Dehydration package](https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration) | OneSubsea (SLB/Aker Solutions JV) | Oil treatment — mechanical heater treaters, electrostatic treaters/dehydrators, desalters | reference trains; TEG outlet spec (Fiorentini) |
+
 ## urea-reactor
 
 | Product | Manufacturer | Equipment | Specifications |
@@ -371,3 +391,28 @@
 | [Deep Bed Condensate Polishers (with SepraEight regeneration)](https://graver.com/condensate-polishers/deepbed/) | Graver Water (Marmon Industrial Water) | Condensate polishing systems for HRSG / once-through boilers (filtration, ion exchange; conductivity/sodium ta | Service pressure; Flow rate; Cation:anion resin ratio for All Volatile Treatment (AVT) high pH; Regeneration design; Resin; Contaminants removed |
 | [ElectroFlex Electro-deionization (EDI) Systems](https://graver.com/makeup/electroflex/) | Graver Water (Marmon Industrial Water) | Reverse osmosis (RO), electrodeionisation (EDI/CEDI) and demineralisation for boiler make-up; conductivity/sil | Operating cost reduction vs mixed bed DI; Floor space vs ion exchange demineralization; Recycle of EDI reject to RO feed; Typical application |
 | [ROFlex Reverse Osmosis Systems](https://graver.com/makeup/ro/) | Graver Water (Marmon Industrial Water) | Reverse osmosis (RO), electrodeionisation (EDI/CEDI) and demineralisation for boiler make-up; conductivity/sil | Membrane size/type; High pressure piping material; Low pressure piping material; Membrane vessel material; Motor supply; Pump type; Typical application |
+
+## wh-wellhead
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Baker Hughes HPHT tree system](https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions) | Baker Hughes | Christmas tree | Pressure; Flowing temperature |
+| [Crude & Condensate Stabilization unit](https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization) | SPEC Oil & Gas Technologies (fabricator) | Fixed jacket wellhead platform | reboiler heat media |
+| [DeepOcean AMP1500 / ACP2 ploughs, Intelligent Mattress Frame](https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools) | DeepOcean | Fixed jacket wellhead platform | AMP1500 product diameter; ACP2 product diameter |
+| [DeepOcean T1500+ jet trenching ROV](https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools) | DeepOcean | Fixed jacket wellhead platform | Depth; Power; Burial capacity |
+| [DeepOcean UT-1 jetting ROV](https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools) | DeepOcean | Fixed jacket wellhead platform | Power |
+| [Gas Filter Separator (horizontal double barrel / vertical)](https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator) | SPEC Oil & Gas Technologies (fabricator) | Fixed jacket wellhead platform | standard design pressure; stock design temperature; design code |
+| [Gas mercury removal unit](https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal) | Pietro Fiorentini (TEG packages) | Fixed jacket wellhead platform | inlet mercury; design outlet |
+| [Hydrocyclone Separators (deoiling)](https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators) | SPEC Oil & Gas Technologies (fabricator) | Fixed jacket wellhead platform | outlet quality |
+| [Induced Gas Flotation (IGF) / Coalescer Pack IGF](https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation) | SPEC Oil & Gas Technologies (fabricator) | Fixed jacket wellhead platform | outlet quality |
+| [Nutshell Filters](https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters) | SPEC Oil & Gas Technologies (fabricator) | Fixed jacket wellhead platform | outlet quality; minimum filters |
+| [OneSubsea subsea trees (horizontal, wellhead vertical, tubing head spool vertical)](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees) | OneSubsea (SLB/Aker Solutions JV) | Christmas tree | Temperature range; Pressure; Production bore |
+| [OneSubsea subsea wellhead systems](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads) | OneSubsea (SLB/Aker Solutions JV) | Fixed jacket wellhead platform | Standards |
+| [Safety Manager (SIS/ESD/F&G)](https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager) | Honeywell | Fixed jacket wellhead platform | SIL; operating temperature; supply voltage |
+| [SeaFloat SGT-750 / SGT-800 / SGT-8000H offshore power plants](https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html) | Siemens Energy | Fixed jacket wellhead platform | SGT-800 combined cycle range; SGT-750 offshore CCPP |
+| [Subsea trees](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees) | OneSubsea (SLB/Aker Solutions JV) | Christmas tree | temperature range; pressure; production bore (wellhead vertical tree) |
+| [Subsea trees (EVDT, Subsea 2.0)](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees) | TechnipFMC (CDS Separation Systems) | Christmas tree | pressure; temperature; water depth |
+| [Subsea wellheads](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads) | OneSubsea (SLB/Aker Solutions JV) | Christmas tree | standards for welding |
+| [TechnipFMC vertical/horizontal subsea trees & EVDT](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/) | TechnipFMC (CDS Separation Systems) | Christmas tree | Pressure; Temperature; Water depth |
+| [Two- and Three-Phase Separators](https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators) | SPEC Oil & Gas Technologies (fabricator) | Fixed jacket wellhead platform | design code; inlet devices |
+| [Wellhead Control Panels (WHCP)](https://www.johnsoncontrols.com/oil-and-gas/production-systems) | Johnson Controls (YORK, Silent-Aire) | Fixed jacket wellhead platform | scope |

@@ -1,0 +1,31 @@
+{
+  "id": "specoilandgas-com-equipment-ancillary-equipment",
+  "name": "SPEC Oil & Gas Technologies — Water bath heater maximum outlet temperature",
+  "url": "https://www.specoilandgas.com/equipment/ancillary-equipment",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "SPEC Oil & Gas Technologies",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. SPEC Ancillary Equipment overview and Water Bath Heater page; page read (ancillary overview) Evidence: https://www.specoilandgas.com/equipment/ancillary-equipment"
+}

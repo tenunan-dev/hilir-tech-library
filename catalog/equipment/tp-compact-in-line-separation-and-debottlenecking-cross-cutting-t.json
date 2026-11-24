@@ -1,0 +1,55 @@
+{
+  "id": "tp-compact-in-line-separation-and-debottlenecking-cross-cutting-t",
+  "name": "Compact / in-line separation and debottlenecking",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Increase existing separator capacity and reduce topside weight/footprint by bulk phase bypass and high-efficiency internals rather than new large vessels.",
+  "specifications": [
+    {
+      "metric": "InLine ElectroCoalescer claim",
+      "unit": "qualitative",
+      "basis": "TechnipFMC Production page; page read",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production",
+        "source_id": "technipfmc-com-surface-production"
+      },
+      "value": "drastically enhances liquid-liquid separation; reduces footprint/cost; ideal for debottlenecking"
+    },
+    {
+      "metric": "Subsea compact separation envelope",
+      "unit": "t CO2e",
+      "basis": "OneSubsea subsea separation page; page read",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-separation",
+        "source_id": "onesubsea-slb-com-subsea-processing-systems-subsea-separation"
+      },
+      "value": "1,015 metric tons CO2e elimination claim (electrified subsea approach)"
+    }
+  ],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/surface/production",
+      "source_id": "technipfmc-com-surface-production"
+    },
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-separation",
+      "source_id": "onesubsea-slb-com-subsea-processing-systems-subsea-separation"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Increase existing separator capacity and reduce topside weight/footprint by bulk phase bypass and high-efficiency internals rather than new large vessels."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

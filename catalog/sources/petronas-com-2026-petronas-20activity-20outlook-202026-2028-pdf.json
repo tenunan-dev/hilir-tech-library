@@ -1,0 +1,31 @@
+{
+  "id": "petronas-com-2026-petronas-20activity-20outlook-202026-2028-pdf",
+  "name": "PETRONAS — Bindu WHP, offshore Terengganu",
+  "url": "https://www.petronas.com/sites/default/files/uploads/content/2026/PETRONAS%20Activity%20Outlook%202026-2028.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "PETRONAS",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. New unmanned wellhead platform powered by solar energy, connected by 62 km subsea pipeline to Guntong E production hub; two wells; peak expected 75 million stan Evidence: https://www.petronas.com/sites/default/files/uploads/content/2026/PETRONAS%20Activity%20Outlook%202026-2028.pdf"
+}

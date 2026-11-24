@@ -1,0 +1,51 @@
+{
+  "id": "technipfmc-subsea-trees-evdt-subsea-2-0",
+  "name": "Subsea trees (EVDT, Subsea 2.0)",
+  "manufacturer": "technipfmc-cds-separation-systems",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea"
+  ],
+  "description": "Vendor product line read 2026-11-24. EVDT record 9,627 ft installed depth at Shell Silvertip/Perdido (2011).",
+  "specifications": [
+    {
+      "metric": "pressure",
+      "unit": "psi",
+      "basis": "Subsea trees page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
+        "source_id": "technipfmc-com-well-control-subsea-trees"
+      },
+      "high": 20000
+    },
+    {
+      "metric": "temperature",
+      "unit": "F",
+      "basis": "Subsea trees page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
+        "source_id": "technipfmc-com-well-control-subsea-trees"
+      },
+      "high": 400
+    },
+    {
+      "metric": "water depth",
+      "unit": "ft",
+      "basis": "Subsea trees page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
+        "source_id": "technipfmc-com-well-control-subsea-trees"
+      },
+      "high": 10000
+    }
+  ],
+  "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
+      "source_id": "technipfmc-com-well-control-subsea-trees"
+    }
+  ],
+  "notes": "EVDT record 9,627 ft installed depth at Shell Silvertip/Perdido (2011).",
+  "last_reviewed": "2026-11-24"
+}

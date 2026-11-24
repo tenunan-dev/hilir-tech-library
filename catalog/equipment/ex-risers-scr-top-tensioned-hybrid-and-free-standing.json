@@ -1,0 +1,40 @@
+{
+  "id": "ex-risers-scr-top-tensioned-hybrid-and-free-standing",
+  "name": "Risers: SCR, top-tensioned, hybrid and free-standing",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Carry fluids between seabed flowlines/PLET and surface host; accommodate vessel motion and environmental loads.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Carry fluids between seabed flowlines/PLET and surface host; accommodate vessel motion and environmental loads.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "subsea7-swagelining-all-polymer-liner",
+    "abs"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Carry fluids between seabed flowlines/PLET and surface host; accommodate vessel motion and environmental loads."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

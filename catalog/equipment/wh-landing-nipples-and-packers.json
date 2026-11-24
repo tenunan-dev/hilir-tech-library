@@ -1,0 +1,44 @@
+{
+  "id": "wh-landing-nipples-and-packers",
+  "name": "Landing nipples and packers",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Provide downhole loci for wireline tools/valves and isolate annuli or zones within the completion.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Provide downhole loci for wireline tools/valves and isolate annuli or zones within the completion.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named landing nipple and packer products with bore, pressure rating and setting depth",
+      "why": "No dedicated OEM or technical page on these items was fetched in this pass",
+      "next_action": "Fetch completion equipment catalogs (e.g. packer and nipple datasheets) and add specs."
+    }
+  ],
+  "applications": [
+    "Provide downhole loci for wireline tools/valves and isolate annuli or zones within the completion."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "wh-ormen-lange",
+  "name": "Ormen Lange",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "World's deepest subsea compression at 900 m; EPCI awarded 2019 by A/S Norske Shell to OneSubsea/Subsea7; 32 MW, hydroelectric powered",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-compression/ormen-lange-project",
+      "source_id": "onesubsea-slb-com-subsea-compression-ormen-lange-project"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

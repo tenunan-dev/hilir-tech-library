@@ -1,0 +1,51 @@
+{
+  "id": "onesubsea-onesubsea-cluster-manifold-and-integrated-template-structure",
+  "name": "OneSubsea cluster/manifold and integrated template structure",
+  "manufacturer": "onesubsea-slb-aker-solutions-jv",
+  "product_type": "ex-wellhead",
+  "equipment": [
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "description": "Vendor product line read 2026-11-24. fetched",
+  "specifications": [
+    {
+      "metric": "Depth",
+      "unit": "ft",
+      "basis": "",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Pressure",
+      "unit": "psi",
+      "basis": "",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "Temperature",
+      "unit": "deg C",
+      "basis": "",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+      },
+      "value": 175
+    }
+  ],
+  "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
+      "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+    }
+  ],
+  "notes": "fetched",
+  "last_reviewed": "2026-11-24"
+}

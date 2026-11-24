@@ -1,0 +1,56 @@
+{
+  "id": "mat-wh-offshore-structural-steel-and-tubulars",
+  "name": "Offshore structural steel and tubulars",
+  "material_category": "structural-metal",
+  "description": "Jacket braces and legs, piles, deck framing and module support frames.",
+  "specifications": [
+    {
+      "metric": "pile diameter",
+      "unit": "m (up to)",
+      "basis": "ESDEP 15A.1 section 4.2",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "high": 2
+    },
+    {
+      "metric": "splash zone corrosion allowance",
+      "unit": "mm sacrificial wall thickness",
+      "basis": "ESDEP 15A.1 section 4.4",
+      "source": {
+        "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+        "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+      },
+      "value": 12
+    }
+  ],
+  "applications": [
+    "Jacket braces and legs, piles, deck framing and module support frames."
+  ],
+  "standards": [],
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform",
+    "wh-minimal-satellite-conductor-supported-wellhead-platform",
+    "wh-unmanned-wellhead-platform-uwhp",
+    "wh-caisson-platform-conductor-supported-caisson-csp"
+  ],
+  "suppliers": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Steel grade specifications for current jacket fabrication",
+      "why": "Not stated on fetched pages",
+      "next_action": "Fetch a fabrication specification or ISO 19902 full text."
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-3-1-typical-catenary-anchor-leg-mooring-schematic",
+  "title": "Figure 3.1: Typical Catenary Anchor Leg Mooring Schematic",
+  "diagram_type": "schematic",
+  "description": "CALM buoy principle: transfer hawsers, tanker hoses, buoy, pipeline, fluid swivel and catenary anchor legs",
+  "publisher": "NOAA (Offshore Single Point Mooring Systems, NOAA repository)",
+  "url": "https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf",
+  "licence": "US government-authored report hosted by NOAA; public-domain status not confirmed from the page read - cite with attribution",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf",
+      "source_id": "repository-library-noaa-gov-44523-noaa-44523-ds1-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

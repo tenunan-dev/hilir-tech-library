@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-parallel-plate-separator-file-parallel-plate-separator-png",
+  "title": "Parallel plate separator (File:Parallel_Plate_Separator.png)",
+  "diagram_type": "schematic",
+  "description": "Parallel plate separator used historically for produced-water cleaning prior to overboard disposal",
+  "publisher": "Wikipedia (secondary), image on Wikimedia Commons",
+  "url": "https://en.wikipedia.org/wiki/Oil_production_plant",
+  "licence": "Wikipedia text CC BY-SA 4.0; check Commons file page for media licence",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_production_plant",
+      "source_id": "en-wikipedia-org-wiki-oil-production-plant"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

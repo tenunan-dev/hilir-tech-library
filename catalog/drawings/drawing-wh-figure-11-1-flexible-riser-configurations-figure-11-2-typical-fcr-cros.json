@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-11-1-flexible-riser-configurations-figure-11-2-typical-fcr-cros",
+  "title": "Figure 11.1: Flexible Riser Configurations; Figure 11.2: Typical FCR Cross Section Structure; Figures 11.4-11.8 end fitting, bend stiffener, bellmouth, bend restrictor, buoyancy mo",
+  "diagram_type": "schematic",
+  "description": "Flexible catenary riser geometry options, cross-section structure, and hardware schematics (hang-off, end fitting, bend stiffener/restrictor, bellmouth, buoyancy module)",
+  "publisher": "BSEE / MMS Deepwater Riser Design Study; figures credited to API RP 2RD and API RP 17B",
+  "url": "https://www.bsee.gov/sites/bsee.gov/files/research-reports/572aa.pdf",
+  "licence": "US government report; API-sourced figures require API permission check",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bsee.gov/sites/bsee.gov/files/research-reports/572aa.pdf",
+      "source_id": "bsee-gov-research-reports-572aa-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

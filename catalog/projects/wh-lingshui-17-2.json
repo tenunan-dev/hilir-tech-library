@@ -1,0 +1,25 @@
+{
+  "id": "wh-lingshui-17-2",
+  "name": "Lingshui 17-2",
+  "country": "China (South China Sea, APAC)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "CNOOC deepwater gas field, water depths up to about 1,500 m; 11 horizontal trees, four manifolds, >70 km static and dynamic umbilicals to a semisubmersible platform",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.akersolutions.com/news/news-archive/2018/aker-solutions-wins-subsea-order-for-lingshui-field-development-in-china/",
+      "source_id": "akersolutions-com-aker-solutions-wins-subsea-order-for-lingshui-fi"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

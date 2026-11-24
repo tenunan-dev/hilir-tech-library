@@ -1,0 +1,160 @@
+{
+  "id": "wh-christmas-tree-surface-and-subsea",
+  "name": "Christmas tree",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Assembly of valves, spools and fittings mounted on the wellhead to control production or injection flow, provide chemical injection and intervention access, and monitor pressure/temperature/sand.",
+  "specifications": [
+    {
+      "metric": "surface tree valve arrangement",
+      "unit": "configuration",
+      "basis": "Wikipedia Christmas tree (oil well), Valves section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      },
+      "value": "basic: two or three manual gate valves; sophisticated: four or five valves in crucifix pattern with upper and lower master valves, production wing valve, kill wing valve (NASA in North Sea), swab valve"
+    },
+    {
+      "metric": "hydraulic wing valve fail-safe mode",
+      "unit": "qualitative",
+      "basis": "Wikipedia Christmas tree (oil well)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      },
+      "value": "fail-safe closed; requires active hydraulic pressure to stay open"
+    },
+    {
+      "metric": "deepest installed subsea tree (as stated on page)",
+      "unit": "ft (2,700 m), approximately, Gulf of Mexico",
+      "basis": "Wikipedia Christmas tree (oil well) overview",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      },
+      "value": 9000
+    },
+    {
+      "metric": "subsea tree current technical limits (as stated on page)",
+      "unit": "degrees F (-46 to 177 C); pressure up to 15,000 psi (100 MPa); water depth up to around 3,000 m",
+      "basis": "Wikipedia Christmas tree (oil well) overview",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      },
+      "low": -50,
+      "high": 350
+    },
+    {
+      "metric": "subsea tree mass range",
+      "unit": "tons, approximately; up to about 70 tons for HPHT deepwater (>3,000 ft / 910 m) guidelineless trees",
+      "basis": "Wikipedia Christmas tree (oil well)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      },
+      "low": 1,
+      "high": 70
+    },
+    {
+      "metric": "OneSubsea subsea tree temperature range",
+      "unit": "degrees Celsius",
+      "basis": "OneSubsea subsea trees page",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-trees"
+      },
+      "low": -18,
+      "high": 176
+    },
+    {
+      "metric": "OneSubsea subsea tree pressure rating",
+      "unit": "psi (more than 1,000 bar), up to",
+      "basis": "OneSubsea subsea trees page",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-trees"
+      },
+      "high": 15000
+    },
+    {
+      "metric": "OneSubsea wellhead vertical tree production bore",
+      "unit": "inch",
+      "basis": "OneSubsea subsea trees page, Features",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-trees"
+      },
+      "value": 7
+    },
+    {
+      "metric": "TechnipFMC subsea tree ratings",
+      "unit": "psi; up to 400 F; up to 10,000 ft water depth",
+      "basis": "TechnipFMC subsea trees page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
+        "source_id": "technipfmc-com-well-control-subsea-trees"
+      },
+      "high": 20000
+    },
+    {
+      "metric": "API specifications for tree valves",
+      "unit": "standard",
+      "basis": "Wikipedia Christmas tree (oil well), Valves section",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      },
+      "value": "API Spec 6A (surface) and API Spec 17D (subsea)"
+    },
+    {
+      "metric": "ISO standard for wellhead/tree equipment",
+      "unit": "standard",
+      "basis": "Wikipedia Wellhead and Christmas tree reference lists; ISO 13628-4:2010 from API international usage report",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      },
+      "value": "ISO 10423:2009 (also ISO 13628-4:2010 for subsea wellhead and tree equipment)"
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv",
+    "technipfmc-cds-separation-systems",
+    "baker-hughes",
+    "cdi-oil-gas"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+    },
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+      "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-trees"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
+      "source_id": "technipfmc-com-well-control-subsea-trees"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Reconciliation of deepest-tree records (9,000 ft Wikipedia vs 9,627 ft TechnipFMC)",
+      "why": "Different statements on fetched pages; no silent preference",
+      "next_action": "Fetch original source cited by Wikipedia and TechnipFMC record press release."
+    }
+  ],
+  "applications": [
+    "Assembly of valves, spools and fittings mounted on the wellhead to control production or injection flow, provide chemical injection and intervention access, and"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

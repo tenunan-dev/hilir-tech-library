@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-3-6-final-calm-design",
+  "title": "Figure 3.6: Final CALM Design",
+  "diagram_type": "schematic",
+  "description": "Worked CALM configuration: 60 ft diameter, 25 ft depth, 271 LT buoy; eight anchor legs at 45 degrees; upper chain, wire rope (3.75 inch, 2,000 ft), lower chain (3.75 inch, 3,300 ft); 2 x 24-inch flexible pipe, 1,000 ft; tanker hawsers and transfer hoses",
+  "publisher": "NOAA (Offshore Single Point Mooring Systems)",
+  "url": "https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf",
+  "licence": "NOAA-hosted report; cite with attribution",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf",
+      "source_id": "repository-library-noaa-gov-44523-noaa-44523-ds1-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

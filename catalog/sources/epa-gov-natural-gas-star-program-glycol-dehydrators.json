@@ -1,0 +1,31 @@
+{
+  "id": "epa-gov-natural-gas-star-program-glycol-dehydrators",
+  "name": "US EPA — Rich TEG pressure at contactor outlet",
+  "url": "https://www.epa.gov/natural-gas-star-program/glycol-dehydrators",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "US EPA",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. US EPA Natural Gas STAR 'Glycol Dehydrators'; page read Evidence: https://www.epa.gov/natural-gas-star-program/glycol-dehydrators"
+}

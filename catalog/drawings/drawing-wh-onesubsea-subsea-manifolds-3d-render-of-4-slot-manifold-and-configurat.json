@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-onesubsea-subsea-manifolds-3d-render-of-4-slot-manifold-and-configurat",
+  "title": "OneSubsea subsea manifolds - 3D render of 4-slot manifold and configuration diagrams",
+  "diagram_type": "schematic",
+  "description": "Subsea manifold structure types: cluster manifolds, PLEM/PLET, tie-in structures, riser bases; integrated template structure protecting trees and manifold; capability to 10,000 ft, 15,000 psi, 175 degC",
+  "publisher": "OneSubsea (SLB)",
+  "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
+  "licence": "OneSubsea/SLB copyright; cite source, no open reuse licence stated",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
+      "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

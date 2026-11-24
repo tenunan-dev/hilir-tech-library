@@ -1,0 +1,49 @@
+{
+  "id": "wh-chemical-injection-system-methanol-meg-scale-corrosion-inhibit",
+  "name": "Chemical injection system",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Doses chemicals at the well or flowline to prevent hydrates, corrosion, scale, wax, foaming and demulsification problems.",
+  "specifications": [
+    {
+      "metric": "hydrate prevention via kill wing valve",
+      "unit": "qualitative",
+      "basis": "Wikipedia Christmas tree (oil well)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+        "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+      },
+      "value": "kill wing valve used primarily for injection of corrosion inhibitors or methanol to prevent hydrate formation"
+    }
+  ],
+  "vendors": [
+    "johnson-controls-york-silent-aire",
+    "petro-controls-europe-bv",
+    "veetech-automation-fze",
+    "abb-wellhead-management-system"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
+      "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "MEG injection rates and hydrate inhibition design basis for a named field",
+      "why": "No such design basis page fetched",
+      "next_action": "Fetch flow assurance design paper or operator project paper."
+    }
+  ],
+  "applications": [
+    "Doses chemicals at the well or flowline to prevent hydrates, corrosion, scale, wax, foaming and demulsification problems."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

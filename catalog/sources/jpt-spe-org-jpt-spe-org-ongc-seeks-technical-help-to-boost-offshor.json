@@ -1,0 +1,31 @@
+{
+  "id": "jpt-spe-org-jpt-spe-org-ongc-seeks-technical-help-to-boost-offshor",
+  "name": "Journal of Petroleum Technology (SPE)",
+  "url": "https://jpt.spe.org/ongc-seeks-technical-help-to-boost-offshore-production",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Jpt.Spe.Org",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Map/asset diagram of Bombay High field and adjacent offshore assets; figure source credited 'E. Chandrasekhar and V. Eswara Rao' Evidence: https://jpt.spe.org/ongc-seeks-technical-help-to-boost-offshore-production"
+}

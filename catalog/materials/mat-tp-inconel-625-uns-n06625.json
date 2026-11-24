@@ -1,0 +1,39 @@
+{
+  "id": "mat-tp-inconel-625-uns-n06625",
+  "name": "INCONEL 625 / UNS N06625",
+  "material_category": "metals-nickel-alloy",
+  "description": "High-corrosion-resistance venturi body / wetted material option for severe multiphase service.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "High-corrosion-resistance venturi body / wetted material option for severe multiphase service.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "applications": [
+    "High-corrosion-resistance venturi body / wetted material option for severe multiphase service."
+  ],
+  "standards": [],
+  "equipment": [
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "tp-inlet-scrubbers-gas-scrubbers-slug-catchers",
+    "tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones",
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "suppliers": [
+    "slb-championx-portfolio",
+    "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

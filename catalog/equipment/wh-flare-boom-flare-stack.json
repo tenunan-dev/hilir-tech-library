@@ -1,0 +1,44 @@
+{
+  "id": "wh-flare-boom-flare-stack",
+  "name": "Flare boom / flare stack",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Safely combust waste gas during normal operation and emergencies; height/length set by radiation and noise limits.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Safely combust waste gas during normal operation and emergencies; height/length set by radiation and noise limits.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "tai-crest-resources"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Flare tip diameter, radiation limit and stack height for a specific WHP",
+      "why": "No project flare design sheet fetched",
+      "next_action": "Fetch flare design paper or project specification."
+    }
+  ],
+  "applications": [
+    "Safely combust waste gas during normal operation and emergencies; height/length set by radiation and noise limits."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

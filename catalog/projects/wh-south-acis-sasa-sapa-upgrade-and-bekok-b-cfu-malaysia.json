@@ -1,0 +1,25 @@
+{
+  "id": "wh-south-acis-sasa-sapa-upgrade-and-bekok-b-cfu-malaysia",
+  "name": "South ACIS (SASA & SAPA) upgrade and Bekok B CFU, Malaysia",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Listed as ISS Process produced water project references on the fetched water-treatment page; no numeric duty published there.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://issprocess.com/technology/water-treatment",
+      "source_id": "issprocess-com-technology-water-treatment"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

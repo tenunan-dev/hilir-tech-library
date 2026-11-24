@@ -1,0 +1,41 @@
+{
+  "id": "mat-ex-carbon-steel-line-pipe-api-grades-incl-x70",
+  "name": "Carbon steel line pipe",
+  "material_category": "metals-pipe",
+  "description": "Rigid flowlines and export trunklines",
+  "specifications": [
+    {
+      "metric": "Pipe diameter range",
+      "unit": "inch typical subsea range",
+      "basis": "TechnipFMC rigid pipelines page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+        "source_id": "technipfmc-com-rigid-pipelines"
+      },
+      "low": 4,
+      "high": 18
+    }
+  ],
+  "applications": [
+    "Rigid flowlines and export trunklines"
+  ],
+  "standards": [],
+  "equipment": [
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-wellheads-conductors-and-mudline-wellhead-systems-hpht",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "suppliers": [
+    "technipfmc-cds-separation-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+      "source_id": "technipfmc-com-rigid-pipelines"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

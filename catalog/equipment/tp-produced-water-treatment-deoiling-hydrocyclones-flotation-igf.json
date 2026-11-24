@@ -1,0 +1,115 @@
+{
+  "id": "tp-produced-water-treatment-deoiling-hydrocyclones-flotation-igf",
+  "name": "Produced water treatment — deoiling hydrocyclones, flotation",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Reduce oil-in-water from produced water to discharge or reinjection specification; bulk removal by hydrocyclone, polishing by flotation and filtration.",
+  "specifications": [
+    {
+      "metric": "Hydrocyclone outlet quality",
+      "unit": "ppm oil in water",
+      "basis": "SPEC Hydrocyclone Separators typical design data table; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
+        "source_id": "specoilandgas-com-produced-water-treatment-hydrocyclone-separators"
+      },
+      "value": "as low as 25"
+    },
+    {
+      "metric": "IGF outlet quality",
+      "unit": "ppm oil in water",
+      "basis": "SPEC Induced Gas Flotation typical design data; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation",
+        "source_id": "specoilandgas-com-produced-water-treatment-induced-gas-flotation"
+      },
+      "value": "as low as 10"
+    },
+    {
+      "metric": "Nutshell filter outlet quality",
+      "unit": "ppm oil in water",
+      "basis": "SPEC Nutshell Filters typical design data; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters",
+        "source_id": "specoilandgas-com-produced-water-treatment-nutshell-filters"
+      },
+      "value": "as low as 5"
+    },
+    {
+      "metric": "Malaysia BOKOR CPP guarantee",
+      "unit": "BWPD / ppm",
+      "basis": "ISS Process project page; page read",
+      "source": {
+        "url": "https://issprocess.com/technology/water-treatment/bokor-cpp-produced-water-treatment-package/",
+        "source_id": "issprocess-com-bokor-cpp-produced-water-treatment-package"
+      },
+      "value": "80,000 BWPD; 30 ppm OIW outlet (monthly)"
+    },
+    {
+      "metric": "Malaysia PEGAGA guarantee",
+      "unit": "BWPD / ppm",
+      "basis": "ISS Process project page; page read",
+      "source": {
+        "url": "https://issprocess.com/technology/water-treatment/pegaga-development-produced-water-treatment-skid/",
+        "source_id": "issprocess-com-pegaga-development-produced-water-treatment-skid"
+      },
+      "value": "12,000 BWPD; 2,000 ppm inlet -> 20 ppm OIW outlet (monthly)"
+    },
+    {
+      "metric": "Malaysia SK408W Jerun guarantee",
+      "unit": "BWPD / ppmV",
+      "basis": "ISS Process project page; page read",
+      "source": {
+        "url": "https://issprocess.com/technology/water-treatment/ks408w-jerun-field-development-produced-water-treatment-package/",
+        "source_id": "issprocess-com-ks408w-jerun-field-development-produced-water-treat"
+      },
+      "value": "3,200 BWPD; 3,000 ppmV inlet -> 20 ppmV OIW outlet"
+    }
+  ],
+  "vendors": [
+    "spec-oil-gas-technologies-fabricator",
+    "iss-process-innovative-synergy-solutions",
+    "technipfmc-cds-separation-systems",
+    "veolia-water-technologies-vws-westgarth",
+    "ceco-environmental-peerless-separation-filtration",
+    "wasco-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
+      "source_id": "specoilandgas-com-produced-water-treatment-hydrocyclone-separators"
+    },
+    {
+      "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation",
+      "source_id": "specoilandgas-com-produced-water-treatment-induced-gas-flotation"
+    },
+    {
+      "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters",
+      "source_id": "specoilandgas-com-produced-water-treatment-nutshell-filters"
+    },
+    {
+      "url": "https://issprocess.com/technology/water-treatment/bokor-cpp-produced-water-treatment-package/",
+      "source_id": "issprocess-com-bokor-cpp-produced-water-treatment-package"
+    },
+    {
+      "url": "https://issprocess.com/technology/water-treatment/pegaga-development-produced-water-treatment-skid/",
+      "source_id": "issprocess-com-pegaga-development-produced-water-treatment-skid"
+    },
+    {
+      "url": "https://issprocess.com/technology/water-treatment/ks408w-jerun-field-development-produced-water-treatment-package/",
+      "source_id": "issprocess-com-ks408w-jerun-field-development-produced-water-treat"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Reduce oil-in-water from produced water to discharge or reinjection specification; bulk removal by hydrocyclone, polishing by flotation and filtration."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

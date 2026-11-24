@@ -1,0 +1,31 @@
+{
+  "id": "dr-ddn-upes-ac-in-59de0bef-b4f8-4b11-933c-f2f5d744158d-content",
+  "name": "UPES (University of Petroleum and Energy Studies) institutional repository - student major project report, 2015",
+  "url": "https://dr.ddn.upes.ac.in/server/api/core/bitstreams/59de0bef-b4f8-4b11-933c-f2f5d744158d/content",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Dr.Ddn.Upes.Ac.In",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Offshore production operations overview and an author-designed facility layout for a 10,000-15,000 BOPD offshore separation design with 3,000-10,000 BPD water, H2S 10,000 ppm Evidence: https://dr.ddn.upes.ac.in/server/api/core/bitstreams/59de0bef-b4f8-4b11-933c-f2f5d744158d/content"
+}

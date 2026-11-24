@@ -1,0 +1,25 @@
+{
+  "id": "wh-d30-and-dana-whsf-conductors-sarawak",
+  "name": "D30 and Dana WHSF conductors, Sarawak",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "36-inch conductors driven and grouted into four 40-inch legs acting as structural piles; four internal 24-inch conductors at D30 and one at Dana.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iconeng.com.au/track-record/projects/d1-cluster-development-wellhead-support-frames-whs",
+      "source_id": "iconeng-com-au-projects-d1-cluster-development-wellhead-support-fr"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

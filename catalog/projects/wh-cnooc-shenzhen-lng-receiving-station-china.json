@@ -1,0 +1,25 @@
+{
+  "id": "wh-cnooc-shenzhen-lng-receiving-station-china",
+  "name": "CNOOC Shenzhen LNG receiving station, China",
+  "country": "China",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Honeywell Experion PKS DCS, Safety Manager ESD, F&G, combustible/toxic/flame detectors; four 160,000 m3 LNG tanks; search-verified case study.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/hps/products/pas/safety-systems/safety-manager/CaseStudy-CNOOC-IntegratedSafety.pdf",
+      "source_id": "prod-edam-honeywell-com-safety-manager-casestudy-cnooc-integrateds"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

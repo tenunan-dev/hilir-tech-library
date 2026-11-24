@@ -1,0 +1,44 @@
+{
+  "id": "wh-j-tubes-guide-tubes-and-bend-restrictors-stiffeners",
+  "name": "J-tubes, guide tubes and bend restrictors/stiffeners",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Guide, protect and control curvature of flexible risers, umbilicals and cables at platform and subsea terminations.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Guide, protect and control curvature of flexible risers, umbilicals and cables at platform and subsea terminations.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "crp-subsea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "MBR and design load tables for specific bend restrictor models",
+      "why": "CRP page not fetched successfully",
+      "next_action": "Retry CRP page or fetch range sheet PDF."
+    }
+  ],
+  "applications": [
+    "Guide, protect and control curvature of flexible risers, umbilicals and cables at platform and subsea terminations."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

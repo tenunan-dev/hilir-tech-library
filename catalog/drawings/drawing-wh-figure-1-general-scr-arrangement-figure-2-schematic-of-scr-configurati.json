@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-1-general-scr-arrangement-figure-2-schematic-of-scr-configurati",
+  "title": "Figure 1. General SCR arrangement; Figure 2. Schematic of SCR configuration and vessel offsets; Figure 3. Static configuration of SCR model",
+  "diagram_type": "schematic",
+  "description": "General SCR arrangement, vessel-offset effects on riser configuration and a 910 m water depth / 20 degree hang-off static configuration",
+  "publisher": "IntechOpen (Geotechnical Response Models for Steel Compliant Riser in Deepwater Clays)",
+  "url": "https://cdn.intechopen.com/pdfs/66629.pdf",
+  "licence": "IntechOpen chapter - check chapter licence; cite source",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://cdn.intechopen.com/pdfs/66629.pdf",
+      "source_id": "cdn-intechopen-com-pdfs-66629-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

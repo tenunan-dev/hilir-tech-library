@@ -1,0 +1,31 @@
+{
+  "id": "glossary-slb-com-t-three-phase-separator",
+  "name": "SLB — Separator orientation",
+  "url": "https://glossary.slb.com/en/terms/t/three-phase_separator",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "SLB",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. SLB Energy Glossary definition of three-phase separator; page read Evidence: https://glossary.slb.com/en/terms/t/three-phase_separator"
+}

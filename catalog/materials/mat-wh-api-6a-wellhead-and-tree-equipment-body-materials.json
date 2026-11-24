@@ -1,0 +1,48 @@
+{
+  "id": "mat-wh-api-6a-wellhead-and-tree-equipment-body-materials",
+  "name": "API 6A wellhead and tree equipment body materials",
+  "material_category": "metallic-pressure-containing",
+  "description": "Structural and pressure-containing housings, spools, valve bodies and connectors for wellhead and tree equipment.",
+  "specifications": [
+    {
+      "metric": "material yield strength range (general wellheads)",
+      "unit": "psi",
+      "basis": "Wikipedia Wellhead design specification",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Wellhead",
+        "source_id": "en-wikipedia-org-wiki-wellhead"
+      },
+      "low": 36000,
+      "high": 75000
+    }
+  ],
+  "applications": [
+    "Structural and pressure-containing housings, spools, valve bodies and connectors for wellhead and tree equipment."
+  ],
+  "standards": [],
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform",
+    "wh-minimal-satellite-conductor-supported-wellhead-platform",
+    "wh-unmanned-wellhead-platform-uwhp",
+    "wh-caisson-platform-conductor-supported-caisson-csp"
+  ],
+  "suppliers": [
+    "camtop-oilfield-tools",
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Wellhead",
+      "source_id": "en-wikipedia-org-wiki-wellhead"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Full API 6A material class chemistry and mechanical property tables",
+      "why": "Paywalled specification",
+      "next_action": "Fetch SLB/Cameron API 6A brochure PDF fully."
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

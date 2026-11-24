@@ -1,0 +1,31 @@
+{
+  "id": "iconeng-com-au-projects-d1-cluster-development-wellhead-support-fr",
+  "name": "Iconeng.Com.Au — MMC D1 cluster WHSF, D30 and Dana fields, offshore Sara",
+  "url": "https://www.iconeng.com.au/track-record/projects/d1-cluster-development-wellhead-support-frames-whs",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Iconeng.Com.Au",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Approximately 45 m water depth; substructure acts as drilling template with 36-inch conductors driven and grouted into four 40-inch legs doubling as structural  Evidence: https://www.iconeng.com.au/track-record/projects/d1-cluster-development-wellhead-support-frames-whs"
+}

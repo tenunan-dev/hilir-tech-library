@@ -1,0 +1,25 @@
+{
+  "id": "wh-three-enclosed-ground-flares-assam-gas-gathering-stations-ongc",
+  "name": "Three enclosed ground flares, Assam gas gathering stations, ONGC",
+  "country": "India",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "LSTK delivery replacing atmospheric venting with enclosed combustion; CRA case study listed on fetched KO drum page.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cra.energy/case-study/stk-execution-of-three-high-capacity-enclosed-ground-flare-systems-for-ongcs-gas-production-facilities-in-assam",
+      "source_id": "cra-energy-case-study-stk-execution-of-three-high-capacity-enclose"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

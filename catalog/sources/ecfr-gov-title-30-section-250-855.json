@@ -1,0 +1,31 @@
+{
+  "id": "ecfr-gov-title-30-section-250-855",
+  "name": "US Government Publishing Office / eCFR (BSEE regulations)",
+  "url": "https://www.ecfr.gov/current/title-30/section-250.855",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "eCFR",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Regulatory requirement for platform emergency shutdown system schematics and conformance to API RP 14C Appendix C section C1; 30 CFR 250.841 requires API RP 14C safety systems on platform production f Evidence: https://www.ecfr.gov/current/title-30/section-250.855"
+}

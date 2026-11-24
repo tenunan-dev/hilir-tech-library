@@ -1,0 +1,25 @@
+{
+  "id": "wh-first-spm-facility",
+  "name": "First SPM facility",
+  "country": "Malaysia/SEA",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "1959 Shell Malaysia CALM Type Gusto in 48 ft water depth, concept developed by Esso, first SPM facility",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://epcmholdings.com/spm-calm-buoy-system/",
+      "source_id": "epcmholdings-com-spm-calm-buoy-system"
+    }
+  ],
+  "notes": "fetched",
+  "last_reviewed": "2026-11-24"
+}

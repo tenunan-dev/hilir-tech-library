@@ -1,0 +1,79 @@
+{
+  "id": "tp-molecular-sieve-dehydration-and-solid-desiccants",
+  "name": "Molecular sieve dehydration and solid desiccants",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Adsorb water to very low dew points upstream of cryogenic processing/LNG/NGL recovery; swing-bed adsorption with heated regeneration gas.",
+  "specifications": [
+    {
+      "metric": "Water content achievable",
+      "unit": "ppm vol",
+      "basis": "Pietro Fiorentini fixed-bed dehydration page; page read",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-units-with-fixed-bed-technology-molecular-sieves-and-aluminas-silica-gel",
+        "source_id": "fiorentini-iberia-com-gas-treatment-gas-dehydration-units-with-fix"
+      },
+      "value": "as low as 1"
+    },
+    {
+      "metric": "Water content / dew point capability",
+      "unit": "ppmv / degF",
+      "basis": "Digital Refining article; page read",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+        "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+      },
+      "value": "<0.1 ppmv water; WDP as low as -150 degF (-100 degC) or less"
+    },
+    {
+      "metric": "Regeneration gas temperature",
+      "unit": "degF (290 degC)",
+      "basis": "SPEC Molecular Sieve Dehydration page 'Key Figures'; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
+        "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
+      },
+      "value": "~550"
+    },
+    {
+      "metric": "Reference duty",
+      "unit": "tonne/day",
+      "basis": "SPEC Umutu LPG plant, Delta State, Nigeria 2009; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
+        "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
+      },
+      "value": "100 tonne/day LPG facility"
+    }
+  ],
+  "vendors": [
+    "pietro-fiorentini-teg-packages",
+    "spec-oil-gas-technologies-fabricator"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-units-with-fixed-bed-technology-molecular-sieves-and-aluminas-silica-gel",
+      "source_id": "fiorentini-iberia-com-gas-treatment-gas-dehydration-units-with-fix"
+    },
+    {
+      "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
+      "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
+    },
+    {
+      "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
+      "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Adsorb water to very low dew points upstream of cryogenic processing/LNG/NGL recovery; swing-bed adsorption with heated regeneration gas."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

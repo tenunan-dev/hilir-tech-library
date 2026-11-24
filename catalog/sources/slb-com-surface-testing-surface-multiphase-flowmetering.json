@@ -1,0 +1,31 @@
+{
+  "id": "slb-com-surface-testing-surface-multiphase-flowmetering",
+  "name": "SLB",
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/reservoir-characterization/reservoir-testing/surface-testing/surface-multiphase-flowmetering",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "SLB",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Vx Spectra data sheet search-verified; Diligens Spectra improves turndown 10:1 to 50:1 using 19 mm + 40 mm venturis (search-verified page). Evidence: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/reservoir-characterization/reservoir-testing/surface-testing/surface-multiphase-flowmetering"
+}

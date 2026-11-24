@@ -1,0 +1,52 @@
+{
+  "id": "onesubsea-slb-aker-solutions-jv-onesubsea-subsea-trees-horizontal-wellhead-v",
+  "name": "OneSubsea subsea trees (horizontal, wellhead vertical, tubing head spool vertical)",
+  "manufacturer": "onesubsea-slb-aker-solutions-jv",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea"
+  ],
+  "description": "Vendor product line read 2026-11-24. fetched",
+  "specifications": [
+    {
+      "metric": "Temperature range",
+      "unit": "deg C",
+      "basis": "",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-trees"
+      },
+      "low": -18,
+      "high": 176
+    },
+    {
+      "metric": "Pressure",
+      "unit": "psi",
+      "basis": "",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-trees"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "Production bore",
+      "unit": "inch (wellhead vertical)",
+      "basis": "",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-trees"
+      },
+      "value": 7
+    }
+  ],
+  "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+      "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-trees"
+    }
+  ],
+  "notes": "fetched",
+  "last_reviewed": "2026-11-24"
+}

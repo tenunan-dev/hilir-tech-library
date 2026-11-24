@@ -1,0 +1,31 @@
+{
+  "id": "vwswestgarth-com-04-westgarth-20upstream-20produced-20water-20trea",
+  "name": "Veolia Water Technologies / VWS Westgarth",
+  "url": "https://www.vwswestgarth.com/sites/g/files/dvc3331/files/document/2025/04/Westgarth%20Upstream%20Produced%20Water%20Treatment%20brochure_0.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Vwswestgarth.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Search-verified PDF; combines technologies to avoid interfacing plant from different suppliers. Evidence: https://www.vwswestgarth.com/sites/g/files/dvc3331/files/document/2025/04/Westgarth%20Upstream%20Produced%20Water%20Treatment%20brochure_0.pdf"
+}

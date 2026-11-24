@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-2-prelude-field-layout-and-safety-zone-diagram",
+  "title": "Figure 2: Prelude Field Layout and Safety Zone Diagram",
+  "diagram_type": "schematic",
+  "description": "Prelude FLNG and subsea/well infrastructure within the field safety zone",
+  "publisher": "Shell Australia Pty Ltd / NOPSEMA (Environment Plan Summary)",
+  "url": "https://docs.nopsema.gov.au/A680618",
+  "licence": "Document states '© Shell Development (Australia) Pty Ltd owns the copyright... All rights reserved'. Security Classification Restricted in the copy read; use as pointer only",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://docs.nopsema.gov.au/A680618",
+      "source_id": "docs-nopsema-gov-au-docs-nopsema-gov-au-a680618"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

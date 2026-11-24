@@ -1,0 +1,25 @@
+{
+  "id": "wh-sk316-cpp-and-whp-topsides-sarawak",
+  "name": "SK316 CPP and WHP topsides, Sarawak",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "CPP topside 12,688 MT, jacket 9,126 MT, piles 4,968 MT; WHP topside 1,821 MT, jacket 2,418 MT, piles 1,761 MT, bridge 469 MT.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://mhb.com.my/solutions/offshore/",
+      "source_id": "mhb-com-my-offshore"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

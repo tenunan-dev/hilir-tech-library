@@ -1,0 +1,31 @@
+{
+  "id": "hydropneumatic-it-datasheets-hypn-datasheet-whcp-cis-ds-r0-wellhea",
+  "name": "Hydropneumatic S.r.l.",
+  "url": "https://www.hydropneumatic.it/HydroPneumatic/DataSheets/HYPN-DataSheet-WHCP-CIS-DS-R0-Wellhead-Injection-Skids.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Hydropneumatic.It",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Search-verified. Evidence: https://www.hydropneumatic.it/HydroPneumatic/DataSheets/HYPN-DataSheet-WHCP-CIS-DS-R0-Wellhead-Injection-Skids.pdf"
+}

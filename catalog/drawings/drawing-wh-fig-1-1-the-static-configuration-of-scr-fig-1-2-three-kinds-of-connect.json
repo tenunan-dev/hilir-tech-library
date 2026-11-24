@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-fig-1-1-the-static-configuration-of-scr-fig-1-2-three-kinds-of-connect",
+  "title": "Fig. 1.1 The static configuration of SCR; Fig. 1.2 Three kinds of connecting devices; Fig. 1.3 VIV suppression devices",
+  "diagram_type": "schematic",
+  "description": "SCR static profile and hang-off connection devices, plus VIV suppression devices; text notes SCRs first installed on Auger TLP in 1994",
+  "publisher": "IntechOpen (chapter 'Mechanics of Deepwater Steel Catenary Riser', China University of Petroleum / Offshore Oil Engineering Co.)",
+  "url": "https://cdn.intechopen.com/pdfs/19441/InTech-Mechanics_of_deepwater_steel_catenary_riser.pdf",
+  "licence": "IntechOpen chapter - check chapter licence on the publisher page before reuse; cite source",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://cdn.intechopen.com/pdfs/19441/InTech-Mechanics_of_deepwater_steel_catenary_riser.pdf",
+      "source_id": "cdn-intechopen-com-19441-intech-mechanics-of-deepwater-steel-caten"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

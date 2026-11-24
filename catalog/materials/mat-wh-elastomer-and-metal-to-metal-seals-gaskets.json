@@ -1,0 +1,46 @@
+{
+  "id": "mat-wh-elastomer-and-metal-to-metal-seals-gaskets",
+  "name": "Elastomer and metal-to-metal seals / gaskets",
+  "material_category": "sealing",
+  "description": "Provide pressure containment between wellhead spools, hangers and valve bodies; resist rapid gas decompression and sour service.",
+  "specifications": [
+    {
+      "metric": "wellhead seal type",
+      "unit": "qualitative",
+      "basis": "Wikipedia Wellhead design specification",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Wellhead",
+        "source_id": "en-wikipedia-org-wiki-wellhead"
+      },
+      "value": "ring type seal gaskets used with general wellheads"
+    }
+  ],
+  "applications": [
+    "Provide pressure containment between wellhead spools, hangers and valve bodies; resist rapid gas decompression and sour service."
+  ],
+  "standards": [],
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform",
+    "wh-minimal-satellite-conductor-supported-wellhead-platform",
+    "wh-unmanned-wellhead-platform-uwhp",
+    "wh-caisson-platform-conductor-supported-caisson-csp"
+  ],
+  "suppliers": [
+    "oms-oilfield-manufacturers-and-supplies"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Wellhead",
+      "source_id": "en-wikipedia-org-wiki-wellhead"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Elastomer compound names and RGD test conditions",
+      "why": "Not on fetched pages",
+      "next_action": "Fetch seal OEM datasheets."
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

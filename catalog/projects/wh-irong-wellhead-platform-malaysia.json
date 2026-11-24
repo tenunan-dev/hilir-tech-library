@@ -1,0 +1,25 @@
+{
+  "id": "wh-irong-wellhead-platform-malaysia",
+  "name": "IRONG wellhead platform, Malaysia",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Vestigo Petroleum satellite wellhead platforms; rigid pipeline from IRONG WHP to PLET and flexible flowline from PLET to Berantai FPSO; unmanned minimal facilities WHP; topside weight 350 tonnes.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.synergyengineering.com/business-unit/engineering/service/facilities-engineering/project/irong-offshore-wellhead-facilities",
+      "source_id": "synergyengineering-com-project-irong-offshore-wellhead-facilities"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

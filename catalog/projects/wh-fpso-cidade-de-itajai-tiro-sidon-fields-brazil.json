@@ -1,0 +1,25 @@
+{
+  "id": "wh-fpso-cidade-de-itajai-tiro-sidon-fields-brazil",
+  "name": "FPSO Cidade de Itajai, Tiro & Sidon fields, Brazil",
+  "country": "Brazil",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Two SGT-400 gas turbine packages power water injection; search-verified Siemens Energy page.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product/sgt-400.html",
+      "source_id": "siemens-energy-com-product-sgt-400-html"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

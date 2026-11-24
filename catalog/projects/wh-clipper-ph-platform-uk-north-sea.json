@@ -1,0 +1,25 @@
+{
+  "id": "wh-clipper-ph-platform-uk-north-sea",
+  "name": "Clipper PH platform, UK North Sea",
+  "country": "United Kingdom",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Four-legged jacket at 22 m water depth; 800 tonne jacket structural weight; topside operating weight 3,500 tonnes; seven-level PLQ module accommodating 84 personnel; helideck; bridge link to PT platform; client Shell UK, executed through Rosetti Marino.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://teconsrl.it/project/clipper-platform-2/",
+      "source_id": "teconsrl-it-clipper-platform-2"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

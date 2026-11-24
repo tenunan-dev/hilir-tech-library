@@ -1,0 +1,25 @@
+{
+  "id": "wh-shell-bc-10",
+  "name": "Shell BC-10",
+  "country": "Brazil",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "First Subsea 2.0 tree installed in 2021; 100th tree (2025) for a Shell Gulf of America project",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/media/news/2025/05/technipfmc-marks-milestone-100th-subsea-20-tree-delivery-with-client-that-placed-first-order/",
+      "source_id": "technipfmc-com-technipfmc-marks-milestone-100th-subsea-20-tree-del"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

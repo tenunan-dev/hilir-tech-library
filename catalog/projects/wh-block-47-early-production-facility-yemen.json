@@ -1,0 +1,25 @@
+{
+  "id": "wh-block-47-early-production-facility-yemen",
+  "name": "Block 47 early production facility, Yemen",
+  "country": "Yemen",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "SPEC scope included utility systems alongside process equipment; MCC/switchgear room image on page.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+      "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

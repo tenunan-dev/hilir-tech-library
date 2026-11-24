@@ -1,0 +1,25 @@
+{
+  "id": "wh-sgard-subsea-compression",
+  "name": "Åsgard subsea compression",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "OneSubsea case study: next-generation compression for difficult subsea challenges",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/resources/case-study-with-navigation/al/asgard",
+      "source_id": "onesubsea-slb-com-al-asgard"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

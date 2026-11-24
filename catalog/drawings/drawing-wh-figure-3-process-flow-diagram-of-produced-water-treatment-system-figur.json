@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-3-process-flow-diagram-of-produced-water-treatment-system-figur",
+  "title": "Figure 3: Process Flow Diagram of Produced Water Treatment System; Figure 8: Process Flow Diagram (PFD) for Produced Water Treatment with Three Test Protocols",
+  "diagram_type": "PFD",
+  "description": "Produced-water treatment system: wash tank, surge vessel, Wemco units, skimmer pit, treater, Enviro-cell test connections (Tests A/B/C)",
+  "publisher": "Enviro-Tech Systems (technical paper on pilot testing of Enviro-cell unit, 2011)",
+  "url": "https://envirotechsystems.com/wp-content/uploads/2013/10/Technical-Paper-on-Pilot-testing-of-Enviro-cell-Unit.pdf",
+  "licence": "Vendor technical paper; cite source, no open reuse licence stated",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://envirotechsystems.com/wp-content/uploads/2013/10/Technical-Paper-on-Pilot-testing-of-Enviro-cell-Unit.pdf",
+      "source_id": "envirotechsystems-com-10-technical-paper-on-pilot-testing-of-envir"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

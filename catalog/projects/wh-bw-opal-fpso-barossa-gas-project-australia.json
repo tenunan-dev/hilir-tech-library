@@ -1,0 +1,25 @@
+{
+  "id": "wh-bw-opal-fpso-barossa-gas-project-australia",
+  "name": "BW Opal FPSO, Barossa Gas Project, Australia",
+  "country": "Australia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "World's largest offshore power generation per Siemens Energy; 5 x SGT-750 combined cycle with 30 MW steam turbine.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://assets.siemens-energy.com/dam/d3c87b4a-fc4f-4299-be43-b3540071a66c/BW_Opal_Reference_onepagers-pdf_Original%20file.pdf",
+      "source_id": "assets-siemens-energy-com-d3c87b4a-fc4f-4299-be43-b3540071a66c-bw"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

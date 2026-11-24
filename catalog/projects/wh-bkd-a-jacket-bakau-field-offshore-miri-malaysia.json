@@ -1,0 +1,25 @@
+{
+  "id": "wh-bkd-a-jacket-bakau-field-offshore-miri-malaysia",
+  "name": "BKD-A jacket, Bakau Field, offshore Miri, Malaysia",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "52 m water depth; four-legged conductor-supported platform; jacket 490 metric tons supporting a 690 metric ton topside; 84 metric tons of SikaGrout-9610 supplied for main pile grouting; client Petronas Carigali; 2021.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sika.com/dms/getdocument.get/aab6ff9d-faaf-4409-9e47-e8e502432c20/glo-bkd-a-jacket-installation-malaysia.pdf",
+      "source_id": "sika-com-aab6ff9d-faaf-4409-9e47-e8e502432c20-glo-bkd-a-jacket-ins"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

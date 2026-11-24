@@ -1,0 +1,41 @@
+{
+  "id": "spec-oil-gas-technologies-pietro-fiorentini-kinder-morgan-treating-teg-dehyd",
+  "name": "TEG Dehydration package",
+  "manufacturer": "onesubsea-slb-aker-solutions-jv",
+  "product_type": "tp-wellhead",
+  "equipment": [
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "reference trains",
+      "unit": "MMSCFD",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
+        "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
+      },
+      "value": "2 x 30 MMSCFD"
+    },
+    {
+      "metric": "TEG outlet spec (Fiorentini)",
+      "unit": "lb/MMSCF",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
+        "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
+      },
+      "value": "3-7 lb water/MMSCF"
+    }
+  ],
+  "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
+      "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

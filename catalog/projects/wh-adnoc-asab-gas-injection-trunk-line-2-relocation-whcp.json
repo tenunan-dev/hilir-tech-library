@@ -1,0 +1,25 @@
+{
+  "id": "wh-adnoc-asab-gas-injection-trunk-line-2-relocation-whcp",
+  "name": "ADNOC Asab Gas Injection Trunk Line-2 Relocation WHCP",
+  "country": "United Arab Emirates",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Three WHCPs delivered and accepted March 2024; hydraulic control unit plus PLC logic; SIL3; two 32 L accumulators; local/remote control and ESD/PSD; integrated fire and gas control.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.sz-fst.com/news_detail/11.html",
+      "source_id": "en-sz-fst-com-news-detail-11-html"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "mat-tp-hydrocyclone-liner-materials-abrasive-resistant",
+  "name": "Hydrocyclone liner materials",
+  "material_category": "ceramic-engineered-polymer-metals-applic",
+  "description": "Centrifugal separation of oil from water or sand from produced water; liners are the replaceable wear parts.",
+  "specifications": [
+    {
+      "metric": "Moving parts",
+      "unit": "count",
+      "basis": "SPEC Hydrocyclone Separators page; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
+        "source_id": "specoilandgas-com-produced-water-treatment-hydrocyclone-separators"
+      },
+      "value": "none"
+    }
+  ],
+  "applications": [
+    "Centrifugal separation of oil from water or sand from produced water; liners are the replaceable wear parts."
+  ],
+  "standards": [],
+  "equipment": [
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "tp-inlet-scrubbers-gas-scrubbers-slug-catchers",
+    "tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones",
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "suppliers": [
+    "enhydra",
+    "ceco-environmental-peerless-separation-filtration",
+    "enerflex",
+    "spec-oil-gas-technologies-fabricator"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
+      "source_id": "specoilandgas-com-produced-water-treatment-hydrocyclone-separators"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

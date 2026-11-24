@@ -1,0 +1,31 @@
+{
+  "id": "enhydra-co-uk-products-ds-desanding-hydrocyclones",
+  "name": "Enhydra Ltd",
+  "url": "https://enhydra.co.uk/products/ds-desanding-hydrocyclones",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Enhydra.Co.Uk",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Search-verified page; test liners available for site trials. Evidence: https://enhydra.co.uk/products/ds-desanding-hydrocyclones"
+}

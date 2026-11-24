@@ -1,0 +1,44 @@
+{
+  "id": "wh-tender-assisted-drilling-tad-wellhead-platform",
+  "name": "Tender-assisted drilling",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Wellhead platform where drilling facilities and accommodation are provided by an adjacent tender vessel or barge rather than being permanently installed on the platform.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Wellhead platform where drilling facilities and accommodation are provided by an adjacent tender vessel or barge rather than being permanently installed on the platform.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Absolute topside/jacket weights for a representative TAD WHP",
+      "why": "Only relative comparison available",
+      "next_action": "Fetch operator or yard project sheets for a TAD WHP."
+    }
+  ],
+  "applications": [
+    "Wellhead platform where drilling facilities and accommodation are provided by an adjacent tender vessel or barge rather than being permanently installed on the "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

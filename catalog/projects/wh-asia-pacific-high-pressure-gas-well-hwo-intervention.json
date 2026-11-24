@@ -1,0 +1,25 @@
+{
+  "id": "wh-asia-pacific-high-pressure-gas-well-hwo-intervention",
+  "name": "Asia Pacific high-pressure gas well HWO intervention",
+  "country": "Asia Pacific (country not named)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "460K HWO/snubbing unit on unmanned platform supported by tender vessels; slip-and-shear BOP stack; recovered 2-inch CT string stuck at 3,865 m; reported up to 20% production uplift.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://halliburton.com/en/resources/hydraulic-workover-intervention-increases-gas-production",
+      "source_id": "halliburton-com-resources-hydraulic-workover-intervention-increase"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

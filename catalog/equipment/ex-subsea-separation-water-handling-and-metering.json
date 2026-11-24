@@ -1,0 +1,42 @@
+{
+  "id": "ex-subsea-separation-water-handling-and-metering",
+  "name": "Subsea separation, water handling and metering",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Separate gas/liquid and oil/water on the seabed, remove solids, and measure multiphase/wet-gas flows for allocation and control.",
+  "specifications": [
+    {
+      "metric": "Metering technology",
+      "unit": "product",
+      "basis": "Baker Hughes Integrated Process Module",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
+        "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
+      },
+      "value": "Emerson Roxar wet-gas flow meter + Baker Hughes electric choke in IPM"
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv",
+    "baker-hughes-emerson-roxar",
+    "technipfmc-cds-separation-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
+      "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Separate gas/liquid and oil/water on the seabed, remove solids, and measure multiphase/wet-gas flows for allocation and control."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

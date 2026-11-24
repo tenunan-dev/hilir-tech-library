@@ -1,0 +1,46 @@
+{
+  "id": "wh-manifolds-and-piping-production-test-injection",
+  "name": "Manifolds and piping",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Gather flow from multiple wells, route to production/test headers, distribute injection fluids and chemicals, and provide isolation and pigging interfaces.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Gather flow from multiple wells, route to production/test headers, distribute injection fluids and chemicals, and provide isolation and pigging interfaces.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "baker-hughes",
+    "onesubsea-slb-aker-solutions-jv",
+    "deepsea-technologies-inc"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Design pressure/temperature of named manifold models",
+      "why": "Catalog snippet lacks pressure ratings",
+      "next_action": "Fetch full Baker Hughes catalog or datasheet pages."
+    }
+  ],
+  "applications": [
+    "Gather flow from multiple wells, route to production/test headers, distribute injection fluids and chemicals, and provide isolation and pigging interfaces."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

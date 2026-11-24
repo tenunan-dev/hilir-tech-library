@@ -1,0 +1,25 @@
+{
+  "id": "wh-ormen-lange-receiving-scrubbers-norway",
+  "name": "Ormen Lange receiving scrubbers, Norway",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "One of 16 receiving scrubbers assembled in shop; shown in SLB phase separation internals brochure (search-verified).",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.slb.com/-/media/files/osf/brochure/phase-separation-internals-br.ashx",
+      "source_id": "slb-com-brochure-phase-separation-internals-br-ashx"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

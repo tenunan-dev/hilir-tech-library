@@ -1,0 +1,44 @@
+{
+  "id": "mat-wh-flexible-pipe-and-bend-protection-polymers",
+  "name": "Flexible pipe and bend protection polymers",
+  "material_category": "polymer-composite",
+  "description": "Flexible risers, jumpers and flowlines with curvature protection at terminations.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Flexible risers, jumpers and flowlines with curvature protection at terminations.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "applications": [
+    "Flexible risers, jumpers and flowlines with curvature protection at terminations."
+  ],
+  "standards": [],
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform",
+    "wh-minimal-satellite-conductor-supported-wellhead-platform",
+    "wh-unmanned-wellhead-platform-uwhp",
+    "wh-caisson-platform-conductor-supported-caisson-csp"
+  ],
+  "suppliers": [
+    "crp-subsea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Specific polymer grade and MBR tables",
+      "why": "Fetch failed / not available",
+      "next_action": "Fetch CRP range sheet."
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

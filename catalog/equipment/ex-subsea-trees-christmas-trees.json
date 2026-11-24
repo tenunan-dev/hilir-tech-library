@@ -1,0 +1,142 @@
+{
+  "id": "ex-subsea-trees-christmas-trees",
+  "name": "Subsea trees",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Installed on the subsea wellhead to control flow into and out of the well; connect tubing and downhole devices to the seafloor and surface host; provide valve, choke and intervention interfaces.",
+  "specifications": [
+    {
+      "metric": "Operating temperature range",
+      "unit": "deg C",
+      "basis": "OneSubsea subsea trees designed to operate in extreme temperature range",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-trees"
+      },
+      "low": -18,
+      "high": 176
+    },
+    {
+      "metric": "Maximum pressure",
+      "unit": "psi (>1,000 bar)",
+      "basis": "OneSubsea trees 'up to 15,000 psi, or more than 1,000 bar'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-trees"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "Production bore (wellhead vertical tree)",
+      "unit": "inch",
+      "basis": "OneSubsea full deep-water capability and 7-inch production bore size for wellhead vertical trees",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-trees"
+      },
+      "value": 7
+    },
+    {
+      "metric": "Tree pressure rating",
+      "unit": "psi",
+      "basis": "TechnipFMC vertical and horizontal subsea tree solutions for pressures up to 20,000 psi",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+        "source_id": "technipfmc-com-well-control"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Tree temperature rating",
+      "unit": "deg F",
+      "basis": "TechnipFMC trees temperatures to 400 F",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+        "source_id": "technipfmc-com-well-control"
+      },
+      "value": 400
+    },
+    {
+      "metric": "Tree water depth rating",
+      "unit": "ft",
+      "basis": "TechnipFMC trees water depths up to 10,000 ft",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+        "source_id": "technipfmc-com-well-control"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Deepest subsea completion record",
+      "unit": "ft",
+      "basis": "TechnipFMC EVDT subsea tree holds deepest subsea completion record",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+        "source_id": "technipfmc-com-well-control"
+      },
+      "value": 9627
+    },
+    {
+      "metric": "Tree sizes",
+      "unit": "inch",
+      "basis": "Baker Hughes provides both 5-inch and 7-inch systems with up to 15,000 psi, water depths up to 10,000 ft; >1,600 trees supplied since 1962",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
+        "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
+      },
+      "low": 5,
+      "high": 7
+    },
+    {
+      "metric": "HPHT flowing temperature",
+      "unit": "deg F",
+      "basis": "Baker Hughes HPHT tree system up to 15,000 psi and flowing temperatures up to 350 F",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
+        "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
+      },
+      "value": 350
+    },
+    {
+      "metric": "Aptara framework rating",
+      "unit": "psi (690 bar), 10,000 ft / 3,048 m, 300 F / 149 C",
+      "basis": "Aptara suite built around this framework",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
+        "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
+      },
+      "value": 10000
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv",
+    "technipfmc-cds-separation-systems",
+    "baker-hughes"
+  ],
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+      "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-trees"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+      "source_id": "technipfmc-com-well-control"
+    },
+    {
+      "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
+      "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Installed on the subsea wellhead to control flow into and out of the well; connect tubing and downhole devices to the seafloor and surface host; provide valve, "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

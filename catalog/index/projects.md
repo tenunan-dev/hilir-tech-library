@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-399 project records (one per named project or plant, schema `schema/project.schema.json`).
+471 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -1943,20 +1943,135 @@ Technologies: ref-merox-sweetening
 
 ## UPS: Upstream
 
+### ADNOC Asab Gas Injection Trunk Line-2 Relocation WHCP (wh-adnoc-asab-gas-injection-trunk-line-2-relocation-whcp)
+Status: **operating** | Country: United Arab Emirates
+Three WHCPs delivered and accepted March 2024; hydraulic control unit plus PLC logic; SIL3; two 32 L accumulators; local/remote control and ESD/PSD; integrated fire and gas control.
+Technologies: ups-subsea-production-systems
+
+### Ain Sifni EPF, Kurdistan Region of Iraq (wh-ain-sifni-epf-kurdistan-region-of-iraq)
+Status: **operating** | Country: Iraq
+SPEC utility scope included utility systems alongside process equipment; chemical injection skid shown on page.
+Technologies: ups-subsea-production-systems
+
+### Akpo field manifolds, Nigeria (wh-akpo-field-manifolds-nigeria)
+Status: **operating** | Country: Nigeria
+Nine drill centres, each with an identical 10-inch production loop manifold; each manifold handles up to four wells; flowline jumper spools to a pair of production flowlines; ROV-operated valves and methanol injection on gas injection manifold branches.
+Technologies: ups-subsea-production-systems
+
+### Akpo field, Nigeria (subsea tree/manifold reference) (wh-akpo-field-nigeria-subsea-tree-manifold-reference)
+Status: **operating** | Country: Nigeria
+Each tree provided with a choke valve; tree operations controlled and monitored via dedicated Tree Control Modules (TCM); production loop manifolds at nine drill centres each allow up to four wells; 10-inch production manifolds with dual valve blocks and gas lift valves.
+Technologies: ups-subsea-production-systems
+
+### AMAL-C bridge link, Gulf of Suez (wh-amal-c-bridge-link-gulf-of-suez)
+Status: **operating** | Country: Egypt
+Bridge link provided access between AMAL-C and existing AMAL-B production platform; AMAL-C includes helideck and small accommodation module for emergency purposes.
+Technologies: ups-subsea-production-systems
+
+### AMAL-C chemical injection unit (wh-amal-c-chemical-injection-unit)
+Status: **operating** | Country: Egypt
+Chemical injection unit part of topside equipment package.
+Technologies: ups-subsea-production-systems
+
+### AMAL-C platform, Gulf of Suez, Egypt (wh-amal-c-platform-gulf-of-suez-egypt)
+Status: **operating** | Country: Egypt
+23 m water depth; 4-leg jacket with 2 inner conductors; 6 m x 6 m well configuration; four 30-inch conductors through legs plus two additional central conductors; four skirt piles; helideck; small accommodation module; local power generation with two diesel generators (one emergency back-up); test separator; bridge link to AMAL-B; well stream exported by 10-inch pipeline.
+Technologies: ups-subsea-production-systems
+
+### AMAL-C power and access (wh-amal-c-power-and-access)
+Status: **operating** | Country: Egypt
+Two diesel generators (one emergency back-up), helideck access or boat transfer, small accommodation module.
+Technologies: ups-subsea-production-systems
+
+### AMAL-C WHCP and chemical injection (wh-amal-c-whcp-and-chemical-injection)
+Status: **operating** | Country: Egypt
+Topside equipment included gas lift, water injection wellhead control panel, chemical injection unit and navigation aids, powered by two diesel generators.
+Technologies: ups-subsea-production-systems
+
 ### Asgard subsea gas compression, Norwegian Sea (asgard-subsea-gas-compression-norwegian-sea)
 Status: **operating** | Country: NO
 world's first subsea gas compression facility; on stream 17 Sep 2015; phase 2 started 2025 (first module replaced 2023, second installed at 270 m); recovery from Mikkel and Midgard rising to 90%, about 306 million boe additional, about NOK 175 bn added value
 Technologies: ups-subsea-gas-compression
+
+### Asia Pacific high-pressure gas well HWO intervention (wh-asia-pacific-high-pressure-gas-well-hwo-intervention)
+Status: **operating** | Country: Asia Pacific (country not named)
+460K HWO/snubbing unit on unmanned platform supported by tender vessels; slip-and-shear BOP stack; recovered 2-inch CT string stuck at 3,865 m; reported up to 20% production uplift.
+Technologies: ups-subsea-production-systems
+
+### Bindu WHP, offshore Terengganu (wh-bindu-whp-offshore-terengganu)
+Status: **operating** | Country: Malaysia
+New unmanned wellhead platform powered by solar energy, connected by 62 km subsea pipeline to Guntong E production hub; two wells; peak expected 75 million standard cubic feet of gas per day.
+Technologies: ups-subsea-production-systems
+
+### BKD-A jacket pile grouting, Bakau Field (wh-bkd-a-jacket-pile-grouting-bakau-field)
+Status: **operating** | Country: Malaysia
+84 metric tons of SikaGrout-9610 supplied and subsea grouting executed for four-legged conductor-supported jacket at 52 m water depth.
+Technologies: ups-subsea-production-systems
+
+### BKD-A jacket, Bakau Field, offshore Miri, Malaysia (wh-bkd-a-jacket-bakau-field-offshore-miri-malaysia)
+Status: **operating** | Country: Malaysia
+52 m water depth; four-legged conductor-supported platform; jacket 490 metric tons supporting a 690 metric ton topside; 84 metric tons of SikaGrout-9610 supplied for main pile grouting; client Petronas Carigali; 2021.
+Technologies: ups-subsea-production-systems
+
+### Block 47 early production facility, Yemen (wh-block-47-early-production-facility-yemen)
+Status: **operating** | Country: Yemen
+SPEC scope included utility systems alongside process equipment; MCC/switchgear room image on page.
+Technologies: ups-subsea-production-systems
+
+### BOKOR CPP produced water package, Malaysia (wh-bokor-cpp-produced-water-package-malaysia)
+Status: **operating** | Country: Malaysia
+80,000 BWPD; 3x50% pumps/hydrocyclones + 100% CFU; guaranteed 30 ppm OIW; MMHE/PETRONAS Carigali.
+Technologies: ups-subsea-production-systems
+
+### BW Opal FPSO, Barossa Gas Project, Australia (wh-bw-opal-fpso-barossa-gas-project-australia)
+Status: **operating** | Country: Australia
+World's largest offshore power generation per Siemens Energy; 5 x SGT-750 combined cycle with 30 MW steam turbine.
+Technologies: ups-subsea-production-systems
 
 ### Clair Ridge low-salinity waterflood project, west of Shetland (clair-ridge-low-salinity-waterflood-project-west-of-shetland)
 Status: **operating** | Country: GB
 USD 4.5 bn development targeting 640 million boe over about 40 years; world-first commercial low-salinity (LoSal) water injection EOR; first oil 23 Nov 2018
 Technologies: ups-waterflood-low-salinity
 
+### Clipper PH platform bridge link (wh-clipper-ph-platform-bridge-link)
+Status: **operating** | Country: United Kingdom
+Seven-level PLQ module with accommodation for 84 personnel, helideck, integrated cellar deck, bridge-linked to PT platform.
+Technologies: ups-subsea-production-systems
+
+### Clipper PH platform, UK North Sea (wh-clipper-ph-platform-uk-north-sea)
+Status: **operating** | Country: United Kingdom
+Four-legged jacket at 22 m water depth; 800 tonne jacket structural weight; topside operating weight 3,500 tonnes; seven-level PLQ module accommodating 84 personnel; helideck; bridge link to PT platform; client Shell UK, executed through Rosetti Marino.
+Technologies: ups-subsea-production-systems
+
+### CNOOC Shenzhen LNG receiving station, China (wh-cnooc-shenzhen-lng-receiving-station-china)
+Status: **operating** | Country: China
+Honeywell Experion PKS DCS, Safety Manager ESD, F&G, combustible/toxic/flame detectors; four 160,000 m3 LNG tanks; search-verified case study.
+Technologies: ups-subsea-production-systems
+
+### D18 Phase 2 and D28 Phase 1 conductor-supported platforms, Sarawak (wh-d18-phase-2-and-d28-phase-1-conductor-supported-platforms-sarawak)
+Status: **operating** | Country: Malaysia
+D18 Phase 2 installed in 35 m water depth for OceanMight on behalf of PETRONAS Carigali; lightweight conductor-supported substructure and topside installed by jack-up drilling rig; eighth conductor-supported platform installed in Malaysian waters by 2H Kuala Lumpur office.
+Technologies: ups-subsea-production-systems
+
+### D30 and Dana WHSF conductors, Sarawak (wh-d30-and-dana-whsf-conductors-sarawak)
+Status: **operating** | Country: Malaysia
+36-inch conductors driven and grouted into four 40-inch legs acting as structural piles; four internal 24-inch conductors at D30 and one at Dana.
+Technologies: ups-subsea-production-systems
+
 ### Daqing oilfield polymer flood (daqing-oilfield-polymer-flood)
 Status: **operating** | Country: CN
 average incremental recovery about 11% over waterflooding across tested blocks
 Technologies: ups-chemical-eor
+
+### DNO Block 47 early production facility, Yemen (wh-dno-block-47-early-production-facility-yemen)
+Status: **operating** | Country: Yemen
+SPEC horizontal three-phase separator skid reference, 2015.
+Technologies: ups-subsea-production-systems
+
+### Dvalin North (wh-dvalin-north)
+Status: **operating** | Country: Norway
+Three horizontal trees, four-slot steel subsea template with integrated manifold, three wellheads, 10 km static umbilicals; tie-back to Heidrun
+Technologies: ups-subsea-production-systems
 
 ### Enefit shale-oil plants (Eesti Energia), Estonia (enefit-shale-oil-plants-eesti-energia-estonia)
 Status: **operating** | Country: EE
@@ -1968,15 +2083,75 @@ Status: **operating** | Country: NO
 116 mmboe gross recoverable; four templates with 12 all-electric trees (SLB OneSubsea)
 Technologies: ups-all-electric-subsea
 
+### First SPM facility (wh-first-spm-facility)
+Status: **operating** | Country: Malaysia/SEA
+1959 Shell Malaysia CALM Type Gusto in 48 ft water depth, concept developed by Esso, first SPM facility
+Technologies: ups-subsea-production-systems
+
+### FPSO Cidade de Itajai, Tiro & Sidon fields, Brazil (wh-fpso-cidade-de-itajai-tiro-sidon-fields-brazil)
+Status: **operating** | Country: Brazil
+Two SGT-400 gas turbine packages power water injection; search-verified Siemens Energy page.
+Technologies: ups-subsea-production-systems
+
 ### FPSO Kikeh (Kikeh field, offshore Sabah) (fpso-kikeh-kikeh-field-offshore-sabah)
 Status: **operating** | Country: MY
 120,000 bopd process capacity; water depth about 1,300 m; first deepwater FPSO in Malaysia and Asia
 Technologies: ups-fpso-floating-production
 
+### Gorek platform, Malaysia (wh-gorek-platform-malaysia)
+Status: **operating** | Country: Malaysia
+Minimal facility wellhead platform fully powered by solar energy, precursor to Timi hybrid power.
+Technologies: ups-subsea-production-systems
+
+### Haynesville Shale HPHT sour gas well test, Texas (wh-haynesville-shale-hpht-sour-gas-well-test-texas)
+Status: **operating** | Country: USA
+SLB 42 in 1440 psi NACE separator in 15K psi package with zero NPT; search-verified case study.
+Technologies: ups-subsea-production-systems
+
 ### Huldra DEH pipeline (North Sea) (huldra-deh-pipeline-north-sea)
 Status: **operating** | Country: NO
 16 km DEH piggybacked pipeline; activated about 60 times since commissioning in May 2002 — first commercial DEH use in the source
 Technologies: ups-direct-electrical-heating-tiebacks
+
+### Ichthys CPF (wh-ichthys-cpf)
+Status: **operating** | Country: Australia/APAC
+Production flowlines terminate at Production Riser Bases and route to CPF via flexible risers on Riser Support Structure; gas exported via four flexible risers to Gas Export Riser Base
+Technologies: ups-subsea-production-systems
+
+### Ichthys FPSO condensate offtake (wh-ichthys-fpso-condensate-offtake)
+Status: **operating** | Country: Australia/APAC
+Tandem offload at FPSO stern with 150 m 32 mm HMPE messenger, 150 m 78 mm PP pickup rope, 80 m 152 mm nylon hawser, 8.9 m 76 mm R3 chafe chain
+Technologies: ups-subsea-production-systems
+
+### Ichthys Gas Export Pipeline (GEP) (wh-ichthys-gas-export-pipeline-gep)
+Status: **operating** | Country: Australia/APAC
+Gas dehydrated and compressed at CPF then exported via GEP to onshore LNG plant; two LNG trains each 4.2 mtpa
+Technologies: ups-subsea-production-systems
+
+### Ichthys LNG (wh-ichthys-lng)
+Status: **operating** | Country: Australia/APAC
+Subsea tieback to CPF; gas export pipeline to onshore LNG plant with two 4.2 mtpa trains; condensate stored and exported via offtake tankers
+Technologies: ups-subsea-production-systems
+
+### IRONG wellhead platform, Malaysia (wh-irong-wellhead-platform-malaysia)
+Status: **operating** | Country: Malaysia
+Vestigo Petroleum satellite wellhead platforms; rigid pipeline from IRONG WHP to PLET and flexible flowline from PLET to Berantai FPSO; unmanned minimal facilities WHP; topside weight 350 tonnes.
+Technologies: ups-subsea-production-systems
+
+### Jack & St Malo (wh-jack-st-malo)
+Status: **operating** | Country: Gulf of Mexico/USA
+Chevron power umbilicals installed August 2014 at about 2,400 m - deepest power umbilical installation for Nexans
+Technologies: ups-subsea-production-systems
+
+### Jerun CPP topside, SK408W, Sarawak (wh-jerun-cpp-topside-sk408w-sarawak)
+Status: **operating** | Country: Malaysia
+Approximately 15,000 MT topside to be installed with 11,200 MT jacket; client SapuraOMV, with Shell and PETRONAS Carigali at 30% each.
+Technologies: ups-subsea-production-systems
+
+### Johan Castberg FPSO, Norway (wh-johan-castberg-fpso-norway)
+Status: **operating** | Country: Norway
+SGT-750 gas turbines minimise weight and footprint; listed on Siemens Energy FPSO page.
+Technologies: ups-subsea-production-systems
 
 ### Johan Sverdrup power-from-shore (Equinor), North Sea (johan-sverdrup-power-from-shore-equinor-north-sea)
 Status: **operating** | Country: NO
@@ -1988,10 +2163,40 @@ Status: **operating** | Country: KZ
 multiphase flow meters on unmanned production islands: one MPFM per group of wells on some islands, one per well on others; used for allocation, well testing and virtual-meter calibration
 Technologies: ups-multiphase-flow-metering
 
+### Kayu Manis South East and Anjung Kecil WHPs, Block SK315, Sarawak (wh-kayu-manis-south-east-and-anjung-kecil-whps-block-sk315-sarawak)
+Status: **operating** | Country: Malaysia
+Two wellhead platforms in 70-85 m water depth, 200 km offshore Bintulu; 20-year operational lifespan; relocatable; each has three 20-inch conductor slots internal to the caisson, two utilised and one spare; client PETRONAS Carigali.
+Technologies: ups-subsea-production-systems
+
+### Lingshui 17-2 (wh-lingshui-17-2)
+Status: **operating** | Country: China (South China Sea, APAC)
+CNOOC deepwater gas field, water depths up to about 1,500 m; 11 horizontal trees, four manifolds, >70 km static and dynamic umbilicals to a semisubmersible platform
+Technologies: ups-subsea-production-systems
+
 ### Long Lake SAGD with in-field upgrader (Nexen, later CNOOC), Alberta (long-lake-sagd-with-in-field-upgrader-nexen-later-cnooc-alberta)
 Status: **operating** | Country: CA
 design 72,000 bpd bitumen (SAGD + integrated in-field upgrader); operator guided 38,000-45,000 bpd for 2011
 Technologies: ups-heavy-oil-upgrading-in-field
+
+### Makat and Balgymbaeva gas treatment units, Kazakhstan (wh-makat-and-balgymbaeva-gas-treatment-units-kazakhstan)
+Status: **operating** | Country: Kazakhstan
+SPEC condensate stabilisation unit plus glycol dehydration and dew point control for associated gas, 2013.
+Technologies: ups-subsea-production-systems
+
+### Makat/Balgymbaeva associated gas dew point control, Kazakhstan (wh-makat-balgymbaeva-associated-gas-dew-point-control-kazakhstan)
+Status: **operating** | Country: Kazakhstan
+SPEC scope included glycol dehydration and dew point control alongside condensate stabilisation, 2013.
+Technologies: ups-subsea-production-systems
+
+### Mero 3 FPSO, Brazil (wh-mero-3-fpso-brazil)
+Status: **operating** | Country: Brazil
+Siemens Energy power generation reference listed on FPSO solutions page.
+Technologies: ups-subsea-production-systems
+
+### MMC D1 cluster WHSF, D30 and Dana fields, offshore Sarawak (wh-mmc-d1-cluster-whsf-d30-and-dana-fields-offshore-sarawak)
+Status: **operating** | Country: Malaysia
+Approximately 45 m water depth; substructure acts as drilling template with 36-inch conductors driven and grouted into four 40-inch legs doubling as structural piles; D30 accommodates at least eight wells, Dana at least five; JOC partners Petronas Carigali, Pertamina and Petrovietnam; 24-inch internal conductors.
+Technologies: ups-subsea-production-systems
 
 ### Muskeg River Mine (Albian Sands Energy, Shell-led), Athabasca, Alberta (muskeg-river-mine-albian-sands-energy-shell-led-athabasca-alberta)
 Status: **operating** | Country: CA
@@ -2013,6 +2218,31 @@ Status: **operating** | Country: RU
 world-record extended-reach well at completion: 12,345 m measured depth (40,502 ft)
 Technologies: ups-extended-reach-multilateral-wells
 
+### OMV Mehar sour gas processing facility, Pakistan (wh-omv-mehar-sour-gas-processing-facility-pakistan)
+Status: **operating** | Country: Pakistan
+Gas compression within 30 MMSCFD sour gas plant, 2013; SPEC scope.
+Technologies: ups-subsea-production-systems
+
+### Ormen Lange (wh-ormen-lange)
+Status: **operating** | Country: Norway
+World's deepest subsea compression at 900 m; EPCI awarded 2019 by A/S Norske Shell to OneSubsea/Subsea7; 32 MW, hydroelectric powered
+Technologies: ups-subsea-production-systems
+
+### Ormen Lange receiving scrubbers, Norway (wh-ormen-lange-receiving-scrubbers-norway)
+Status: **operating** | Country: Norway
+One of 16 receiving scrubbers assembled in shop; shown in SLB phase separation internals brochure (search-verified).
+Technologies: ups-subsea-production-systems
+
+### PEGAGA development, Malaysia (wh-pegaga-development-malaysia)
+Status: **operating** | Country: Malaysia
+12,000 BWPD; hydrocyclones + CFU; 2,000 to 20 ppm OIW; Sapura Energy/Mubadala Petroleum.
+Technologies: ups-subsea-production-systems
+
+### Pegaga flare ignition package, Malaysia (wh-pegaga-flare-ignition-package-malaysia)
+Status: **operating** | Country: Malaysia
+Tai Crest Resources awarded contract to supply flare ignition package in 2019.
+Technologies: ups-subsea-production-systems
+
 ### Perdido subsea boosting (Baker Hughes), Gulf of Mexico (perdido-subsea-boosting-baker-hughes-gulf-of-mexico)
 Status: **operating** | Country: US
 subsea pumps boosting production from three satellite fields (Great White, Silvertip, Tobago) tied back to the Perdido spar; installed 2010
@@ -2028,10 +2258,70 @@ Status: **operating** | Country: BR
 2 rigs equipped for MPD as of mid-2014, planned expansion to 12 by end-2015 and 16 by 2016; seven wells drilled with MPD at the time
 Technologies: ups-managed-pressure-drilling
 
+### Salsabil sour gas plant, Pakistan (wh-salsabil-sour-gas-plant-pakistan)
+Status: **operating** | Country: Pakistan
+Dewan Petroleum, 2008; two 30 MMSCFD TEG trains plus two 30 MMSCFD amine trains in a 60 MMSCFD plant.
+Technologies: ups-subsea-production-systems
+
+### Sapinhoa pre-salt (wh-sapinhoa-pre-salt)
+Status: **operating** | Country: Brazil
+Prysmian umbilical record 2,500 m water depth (2015), in partnership with Petrobras
+Technologies: ups-subsea-production-systems
+
+### Seagreen offshore wind (analogue suction bucket application) (wh-seagreen-offshore-wind-analogue-suction-bucket-application)
+Status: **operating** | Country: Scotland/UK
+114 jackets 2,000-2,250 t, 77.5-93 m height, suction caisson diameter 10.5-11.5 m; scour protection and grouting; 312 km 66 kV cables
+Technologies: ups-subsea-production-systems
+
+### Shahbazpur gas field, Bangladesh (wh-shahbazpur-gas-field-bangladesh)
+Status: **operating** | Country: Bangladesh
+SPEC designed/supplied 2 x 35 MMSCFD TEG dehydration plant for BAPEX with commissioning support.
+Technologies: ups-subsea-production-systems
+
+### Shell BC-10 (wh-shell-bc-10)
+Status: **operating** | Country: Brazil
+First Subsea 2.0 tree installed in 2021; 100th tree (2025) for a Shell Gulf of America project
+Technologies: ups-subsea-production-systems
+
+### Shell Silvertip, Perdido development, Gulf of Mexico (wh-shell-silvertip-perdido-development-gulf-of-mexico)
+Status: **operating** | Country: United States
+TechnipFMC EVDT set world record for deepest installed tree at 9,627 ft in 2011.
+Technologies: ups-subsea-production-systems
+
+### SK316 CPP and WHP topsides, Sarawak (wh-sk316-cpp-and-whp-topsides-sarawak)
+Status: **operating** | Country: Malaysia
+CPP topside 12,688 MT, jacket 9,126 MT, piles 4,968 MT; WHP topside 1,821 MT, jacket 2,418 MT, piles 1,761 MT, bridge 469 MT.
+Technologies: ups-subsea-production-systems
+
+### SK316 WHP, offshore Sarawak, Malaysia (wh-sk316-whp-offshore-sarawak-malaysia)
+Status: **operating** | Country: Malaysia
+WHP topside 1,821 MT; jacket 2,418 MT; piles 1,761 MT; bridge 469 MT; client PETRONAS Carigali.
+Technologies: ups-subsea-production-systems
+
+### SK408W Jerun field, Malaysia (wh-sk408w-jerun-field-malaysia)
+Status: **operating** | Country: Malaysia
+3,200 BWPD; HP hydrocyclone + compact gas flotation; 3,000 to 20 ppmV; MMHE/SapuraOMV.
+Technologies: ups-subsea-production-systems
+
+### Skarv Satellites (wh-skarv-satellites)
+Status: **operating** | Country: Norway
+Seven vertical trees, three 4-slot template/manifolds, one cluster manifold; 60 km umbilicals; tie-back to Alvheim FPSO
+Technologies: ups-subsea-production-systems
+
+### Snøhvit (wh-sn-hvit)
+Status: **operating** | Country: Norway
+145-km umbilical supplied by Nexans
+Technologies: ups-subsea-production-systems
+
 ### Sonatrach commercial use of Ingrain digital rock physics services (sonatrach-commercial-use-of-ingrain-digital-rock-physics-services)
 Status: **operating** | Country: DZ
 commercial agreement covering Ingrain's digital rock physics services (3D imaging and computation of reservoir rock properties)
 Technologies: ups-digital-core-analysis
+
+### South ACIS (SASA & SAPA) upgrade and Bekok B CFU, Malaysia (wh-south-acis-sasa-sapa-upgrade-and-bekok-b-cfu-malaysia)
+Status: **operating** | Country: Malaysia
+Listed as ISS Process produced water project references on the fetched water-treatment page; no numeric duty published there.
+Technologies: ups-subsea-production-systems
 
 ### Statfjord WAG (water-alternating-gas injection) (statfjord-wag-water-alternating-gas-injection)
 Status: **operating** | Country: NO
@@ -2053,25 +2343,95 @@ Status: **operating** | Country: AO
 seawater treatment for injection: SRP removes sulphates and other divalent ions from injection water (capacity not stated in the source)
 Technologies: ups-seawater-sulfate-removal
 
+### TAQA Atrush desalting equipment, Kurdistan Region of Iraq (wh-taqa-atrush-desalting-equipment-kurdistan-region-of-iraq)
+Status: **operating** | Country: Iraq
+50,000 BOPD facility; 2 electrostatic dehydrators and 2 crude cross exchangers, designed/fabricated/tested by SPEC, 2019.
+Technologies: ups-subsea-production-systems
+
+### TechnipFMC subsea wellhead installations (regional tally from Subsea Drilling Services brochure) (wh-technipfmc-subsea-wellhead-installations-regional-tally-from-subsea-dr)
+Status: **operating** | Country: multiple regions
+North America 665 UWD systems installed; South America 74; Africa/Mediterranean 553; Europe/Russia 675; Asia/Australia 328 (brochure figures, undated beyond 2018 publication date).
+Technologies: ups-subsea-production-systems
+
+### Three enclosed ground flares, Assam gas gathering stations, ONGC (wh-three-enclosed-ground-flares-assam-gas-gathering-stations-ongc)
+Status: **operating** | Country: India
+LSTK delivery replacing atmospheric venting with enclosed combustion; CRA case study listed on fetched KO drum page.
+Technologies: ups-subsea-production-systems
+
+### Timi WHP comparison case (wh-timi-whp-comparison-case)
+Status: **operating** | Country: Malaysia
+Sarawak Shell described the unmanned Timi WHP as around 60% lighter than a conventional tender-assisted drilling wellhead platform.
+Technologies: ups-subsea-production-systems
+
+### Timi WHP, SK318, offshore Sarawak (wh-timi-whp-sk318-offshore-sarawak)
+Status: **operating** | Country: Malaysia
+Unmanned fixed wellhead platform about 200 km off Sarawak; installed in about 143 m water depth (Malaysia's deepest fixed platform to date, per PETRONAS); tied back to F23 hub by 80 km pipeline; solar and wind hybrid power; topside and substructure fabricated locally; two wells; operator Sarawak Shell 75%, PETRONAS Carigali 15%, Brunei Energy Exploration 10%; first gas 22 August 2023.
+Technologies: ups-subsea-production-systems
+
+### Titan TTR system, Telemark Hub, Mississippi Canyon 941 (wh-titan-ttr-system-telemark-hub-mississippi-canyon-941)
+Status: **operating** | Country: United States
+Approximately 4,000 ft water depth; TTR support frame near top of column; six dry tree riser slots, three planned for initial development; riser bottom connected to 18-3/4 in wellhead profile with hydraulically actuated connector; post-Katrina 1,000-year hurricane robustness checks.
+Technologies: ups-subsea-production-systems
+
+### Tonmoor gas lift compression station, Jones Creek, Nigeria (wh-tonmoor-gas-lift-compression-station-jones-creek-nigeria)
+Status: **operating** | Country: Nigeria
+SPEC supplied two gas filter separator skids plus scrubber, drain vessel and injection manifold skids, 2019.
+Technologies: ups-subsea-production-systems
+
 ### Troll A Condeep gravity-based structure (Troll field, Norwegian North Sea) (troll-a-condeep-gravity-based-structure-troll-field-norwegian-north-sea)
 Status: **operating** | Country: NO
 natural-gas production platform; gravity-based substructure about 472 m total height in about 300 m water depth, about 245,000 m3 concrete, about 683,600 t unballasted weight
 Technologies: ups-fixed-jackets-gravity-structures
+
+### Tullow Chacher Gas Processing Facility, Pakistan (wh-tullow-chacher-gas-processing-facility-pakistan)
+Status: **operating** | Country: Pakistan
+SPEC mechanical heater treater project reference, 2007.
+Technologies: ups-subsea-production-systems
 
 ### Tyrihans DEH tieback to the Kristin FPSO (Norwegian Sea) (tyrihans-deh-tieback-to-the-kristin-fpso-norwegian-sea)
 Status: **operating** | Country: NO
 43 km, 18-in production pipeline with piggybacked DEH cable, about 10 MW, 52 kV cable — the longest DEH line described in the source
 Technologies: ups-direct-electrical-heating-tiebacks
 
+### Umutu LPG production facility, Nigeria (wh-umutu-lpg-production-facility-nigeria)
+Status: **operating** | Country: Nigeria
+Molecular sieve dehydration unit in 100 tonne/day LPG plant, 2009.
+Technologies: ups-subsea-production-systems
+
 ### Wasson field Denver Unit, West Texas (Shell) (wasson-field-denver-unit-west-texas-shell)
 Status: **operating** | Country: US
 31,500 bbl/d of which 26,850 bbl/d incremental from CO2; over 120 million bbl incremental to 2008
 Technologies: ups-co2-eor
 
+### West Desaru WSS, Peninsular Malaysia (wh-west-desaru-wss-peninsular-malaysia)
+Status: **operating** | Country: Malaysia
+Unmanned minimal facilities platform; Petrofac and Petronas ordered Aquaterra Sea Swift-derived WSS; first of its kind in Asia/Pacific; bridge linked to adjacent MOPU; topside supports 28 well completions and oil production, gas lift and water injection flowlines and manifolds; installed by jack-up drilling rig; four 36-inch x 2-inch leg conductors; relatively small subsea footprint of 8 square metres.
+Technologies: ups-subsea-production-systems
+
+### West Qurna-1 wet crude treatment, Iraq (wh-west-qurna-1-wet-crude-treatment-iraq)
+Status: **operating** | Country: Iraq
+SPEC designed/fabricated modular coalescer and balance vessel skids for a 100,000 BOPD system; modules >100 tonnes and higher than two storeys, supplied to CPECC.
+Technologies: ups-subsea-production-systems
+
 ### Weyburn field, Saskatchewan (EnCana) (weyburn-field-saskatchewan-encana)
 Status: **operating** | Country: CA
 about 95 million ft3/d CO2 (4,935 t/d) from the Dakota Gasification plant via a 205-mile pipeline; 130 million bbl incremental oil expected
 Technologies: ups-co2-eor
+
+### Wison FLNG / FSRU (China) (wh-wison-flng-fsru-china)
+Status: **operating** | Country: China
+Honeywell scope: Experion PKS DCS, ESD, Safety Manager SIS, F&G, field equipment/FDM and HIPPS; completed one month ahead of schedule and project cost reduced 2% (Honeywell case study).
+Technologies: ups-subsea-production-systems
+
+### Yggdrasil (NOAKA) (wh-yggdrasil-noaka)
+Status: **operating** | Country: Norway
+Aker Solutions/Aker BP subsea scope: 40 standardized vertical trees, nine six-slot templates/manifolds, eight static umbilicals about 90 km
+Technologies: ups-subsea-production-systems
+
+### Åsgard subsea compression (wh-sgard-subsea-compression)
+Status: **operating** | Country: Norway
+OneSubsea case study: next-generation compression for difficult subsea challenges
+Technologies: ups-subsea-production-systems
 
 ### Kerrobert THAI in-situ combustion pilot (Petrobank, later Baytex), Saskatchewan (kerrobert-thai-in-situ-combustion-pilot-petrobank-later-baytex-saskatche)
 Status: **proposed** | Country: CA

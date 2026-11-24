@@ -1,0 +1,31 @@
+{
+  "id": "adb-org-49222-49222-001-esmr-en-7-pdf",
+  "name": "BP Berau Ltd / Sucofindo / Asian Development Bank (Operator's EHS Report)",
+  "url": "https://www.adb.org/sites/default/files/project-documents/49222/49222-001-esmr-en_7.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Asian Development Bank",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Tangguh LNG operations: offshore VR-A and VR-B platforms in 50-60 m water, two 24-inch subsea pipelines (20.5 km and 19.3 km) to Onshore Receiving Facilities and two processing trains, LNG and condens Evidence: https://www.adb.org/sites/default/files/project-documents/49222/49222-001-esmr-en_7.pdf"
+}

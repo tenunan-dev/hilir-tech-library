@@ -1,0 +1,31 @@
+{
+  "id": "onesubsea-slb-com-al-asgard",
+  "name": "OneSubsea (SLB) — Åsgard subsea compression",
+  "url": "https://www.onesubsea.slb.com/resources/case-study-with-navigation/al/asgard",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "OneSubsea (SLB)",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. OneSubsea case study: next-generation compression for difficult subsea challenges Evidence: https://www.onesubsea.slb.com/resources/case-study-with-navigation/al/asgard"
+}

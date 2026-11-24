@@ -8,6 +8,33 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.24.7] — 2026-11-24 — Wellhead platform, topsides, subsea and export-to-shore
+
+Owner-directed expansion of the whole wellhead-to-shore system with strict page-read evidence.
+
+### Added
+- **61 equipment records** covering wellhead platform structures and wellhead equipment, topside
+  processing (separation through sales-specification export), subsea trees/wellheads/manifolds/flowlines/
+  risers/umbilicals/control/boosting/processing, and export-to-shore (pipelines, CALM/SPM, onshore terminal).
+- **26 materials**, **199 sources**, **49 vendors**, **30 product lines**, **72 named projects** and
+  **52 drawing pointers** (wellhead/X-mas tree, platform PFDs, subsea layouts, SCR profiles, CALM/SPM
+  arrangements, onshore reception). Four existing upstream/subsea/pipeline cards were extended.
+- Evidence includes OneSubsea, TechnipFMC, Baker Hughes, DeepOcean, SPEC Oil & Gas, SLB/Emerson,
+  PETRONAS/INPEX/PTTEP/CNOOC project pages and API/ISO/DNV/BSEE standards.
+
+### Verification
+`tools/build.py` 1,251 sources / 392 cards / 794 vendors / 254 equipment / 471 projects / 190 products /
+154 drawings / 58 materials; `pytest -q tests` **2,149 passed, 13 skipped**; Neon reloaded with 6,474 nodes,
+22,499 edges and 16,756 vectors.
+
+### Gaps
+API 17/ISO 13628 full texts, dual-bore trees, TTR data, sales-gas composition and bend-restrictor tables
+were not publicly readable — recorded as gaps, not estimated.
+
+### Test note
+Two search tests were made target-relative after corpus growth changed tie-breaking in the top-10 results.
+
+
 ## [2026.11.24.6] — 2026-11-24 — Civil/structural, jetty/terminal, nearshore and materials layer
 
 Owner-directed expansion covering all categories, plus a new **materials** record type.

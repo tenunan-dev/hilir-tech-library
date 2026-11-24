@@ -1,0 +1,25 @@
+{
+  "id": "wh-ain-sifni-epf-kurdistan-region-of-iraq",
+  "name": "Ain Sifni EPF, Kurdistan Region of Iraq",
+  "country": "Iraq",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "SPEC utility scope included utility systems alongside process equipment; chemical injection skid shown on page.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+      "source_id": "specoilandgas-com-ancillary-equipment-utilities"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

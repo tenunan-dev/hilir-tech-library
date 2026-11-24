@@ -1,0 +1,38 @@
+{
+  "id": "ex-subsea-gas-compression",
+  "name": "Subsea gas compression",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Boost unprocessed well-stream gas on the seabed to reduce downstream pressure drop and defer or replace topside compression.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Boost unprocessed well-stream gas on the seabed to reduce downstream pressure drop and defer or replace topside compression.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Boost unprocessed well-stream gas on the seabed to reduce downstream pressure drop and defer or replace topside compression."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

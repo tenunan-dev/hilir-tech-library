@@ -1,0 +1,31 @@
+{
+  "id": "spec-oil-gas-technologies-electrostatic-heater-treater-desalter",
+  "name": "Electrostatic Heater Treater & Desalter",
+  "manufacturer": "spec-oil-gas-technologies-fabricator",
+  "product_type": "tp-wellhead",
+  "equipment": [
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "reference facility",
+      "unit": "BOPD",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter",
+        "source_id": "specoilandgas-com-oil-processing-electrostatic-heater-treater-desa"
+      },
+      "value": "50,000 BOPD; 2 dehydrators + 2 cross exchangers"
+    }
+  ],
+  "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter",
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter",
+      "source_id": "specoilandgas-com-oil-processing-electrostatic-heater-treater-desa"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-7-7-1-scr-elevation-schematic",
+  "title": "Figure 7.7.1: SCR Elevation Schematic",
+  "diagram_type": "schematic",
+  "description": "Typical steel catenary riser elevation in host vessel mean position: hang-off point, hang-off angle, catenary and touchdown region",
+  "publisher": "BSEE / Minerals Management Service (Deepwater Riser Design, Fatigue Life and Standards Study, 2007); original credit API RP 2RD",
+  "url": "https://www.bsee.gov/sites/bsee.gov/files/research-reports/572aa.pdf",
+  "licence": "US government report; underlying figure credited to API RP 2RD - check API licence before reuse",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bsee.gov/sites/bsee.gov/files/research-reports/572aa.pdf",
+      "source_id": "bsee-gov-research-reports-572aa-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-a-diagram-of-the-malampaya-field-development-in-the-philippines",
+  "title": "A diagram of the Malampaya field development in the Philippines",
+  "diagram_type": "schematic",
+  "description": "Malampaya field development system schematic (subsea wells/flowlines to platform and export) as published alongside the project article",
+  "publisher": "Offshore Technology (GlobalData)",
+  "url": "https://www.offshore-technology.com/projects/malampaya/",
+  "licence": "GlobalData/Offshore Technology copyright; linked image at https://www.offshore-technology.com/wp-content/uploads/sites/20/2017/09/malam5.jpg - no open reuse licence stated; do not redistribute",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/malampaya/",
+      "source_id": "offshore-technology-com-malampaya"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

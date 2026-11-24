@@ -1,0 +1,25 @@
+{
+  "id": "wh-timi-whp-comparison-case",
+  "name": "Timi WHP comparison case",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Sarawak Shell described the unmanned Timi WHP as around 60% lighter than a conventional tender-assisted drilling wellhead platform.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.oedigital.com/news/490216-malaysia-shell-to-develop-timi-field-with-solar-wind-powered-platform",
+      "source_id": "oedigital-com-news-490216-malaysia-shell-to-develop-timi-field-wit"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

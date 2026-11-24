@@ -1,0 +1,41 @@
+{
+  "id": "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+  "name": "Subsea umbilicals",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Link surface and seafloor equipment: electric and fiber-optic signals, electrical power, hydraulic and chemical injection fluids; power boosting/compression and provide flowline heating.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Link surface and seafloor equipment: electric and fiber-optic signals, electrical power, hydraulic and chemical injection fluids; power boosting/compression and provide flowline heating.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv",
+    "prysmian",
+    "nexans",
+    "technipfmc-cds-separation-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Link surface and seafloor equipment: electric and fiber-optic signals, electrical power, hydraulic and chemical injection fluids; power boosting/compression and"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

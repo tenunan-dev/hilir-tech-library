@@ -1,0 +1,25 @@
+{
+  "id": "wh-ichthys-fpso-condensate-offtake",
+  "name": "Ichthys FPSO condensate offtake",
+  "country": "Australia/APAC",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Tandem offload at FPSO stern with 150 m 32 mm HMPE messenger, 150 m 78 mm PP pickup rope, 80 m 152 mm nylon hawser, 8.9 m 76 mm R3 chafe chain",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inpex.com.au/media/lldoewsu/offshore-terminal-regulations-manual-february-2019.pdf",
+      "source_id": "inpex-com-au-lldoewsu-offshore-terminal-regulations-manual-februar"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

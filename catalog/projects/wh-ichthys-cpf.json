@@ -1,0 +1,25 @@
+{
+  "id": "wh-ichthys-cpf",
+  "name": "Ichthys CPF",
+  "country": "Australia/APAC",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Production flowlines terminate at Production Riser Bases and route to CPF via flexible risers on Riser Support Structure; gas exported via four flexible risers to Gas Export Riser Base",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inpex.com.au/media/lldoewsu/offshore-terminal-regulations-manual-february-2019.pdf",
+      "source_id": "inpex-com-au-lldoewsu-offshore-terminal-regulations-manual-februar"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "honeywell-safety-manager-sis-esd-f-g",
+  "name": "Safety Manager (SIS/ESD/F&G)",
+  "manufacturer": "honeywell",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-fixed-jacket-wellhead-platform"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "SIL",
+      "unit": "SIL",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "process-honeywell-com-safety-systems-safety-manager"
+      },
+      "value": "1-3 (IEC 61508/61511)"
+    },
+    {
+      "metric": "operating temperature",
+      "unit": "degC",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "process-honeywell-com-safety-systems-safety-manager"
+      },
+      "value": "-40 to 70 degC remote cabinet; -5 to 70 degC cabinet"
+    },
+    {
+      "metric": "supply voltage",
+      "unit": "VDC",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "process-honeywell-com-safety-systems-safety-manager"
+      },
+      "value": "110/48/24 VDC"
+    }
+  ],
+  "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+  "sources": [
+    {
+      "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+      "source_id": "process-honeywell-com-safety-systems-safety-manager"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

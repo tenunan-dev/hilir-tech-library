@@ -1,0 +1,31 @@
+{
+  "id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools",
+  "name": "Deepoceangroup.Com — T1500+ jet trenching ROV depth",
+  "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Deepoceangroup.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. DeepOcean T1500+: 1500 hp (1125 kW), up to 3.5 knots current, 3 m maximum burial capacity Evidence: https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+}

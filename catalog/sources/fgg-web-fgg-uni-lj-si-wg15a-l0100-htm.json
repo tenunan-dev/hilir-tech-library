@@ -1,0 +1,31 @@
+{
+  "id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm",
+  "name": "University of Ljubljana — jacket function",
+  "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "University of Ljubljana",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. ESDEP lecture 15A.1 section 4.1 Evidence: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
+}

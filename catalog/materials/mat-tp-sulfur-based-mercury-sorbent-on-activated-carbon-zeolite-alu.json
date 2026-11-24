@@ -1,0 +1,40 @@
+{
+  "id": "mat-tp-sulfur-based-mercury-sorbent-on-activated-carbon-zeolite-alu",
+  "name": "Sulfur-based mercury sorbent on activated carbon / zeolite / alumina",
+  "material_category": "chemical-adsorbent",
+  "description": "React with elemental mercury to form cinnabar (HgS) on the bed, protecting brazed aluminium cryogenic heat exchangers.",
+  "specifications": [
+    {
+      "metric": "Reaction product",
+      "unit": "compound",
+      "basis": "Pietro Fiorentini gas mercury removal page; page read",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
+        "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
+      },
+      "value": "cinnabar (HgS)"
+    }
+  ],
+  "applications": [
+    "React with elemental mercury to form cinnabar (HgS) on the bed, protecting brazed aluminium cryogenic heat exchangers."
+  ],
+  "standards": [],
+  "equipment": [
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "tp-inlet-scrubbers-gas-scrubbers-slug-catchers",
+    "tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones",
+    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
+  ],
+  "suppliers": [
+    "pietro-fiorentini-teg-packages"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
+      "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

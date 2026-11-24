@@ -1,0 +1,31 @@
+{
+  "id": "energy-resources-basf-com-gas-treatment-oase-formulations-and-solv",
+  "name": "BASF — MDEA CAS number",
+  "url": "https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/formulations-and-solvents",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "BASF",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. BASF OASE Formulations & Solvents page; page read Evidence: https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/formulations-and-solvents"
+}

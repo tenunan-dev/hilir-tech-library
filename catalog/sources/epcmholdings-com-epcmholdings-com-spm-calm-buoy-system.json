@@ -1,0 +1,31 @@
+{
+  "id": "epcmholdings-com-epcmholdings-com-spm-calm-buoy-system",
+  "name": "EPCM Holdings",
+  "url": "https://epcmholdings.com/spm-calm-buoy-system",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "EPCM Holdings",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. CALM SPM system: tanker hawser, floating hose strings, buoy, product swivel, subsea hose risers, PLEM and subsea pipeline; describes Chinese Lantern, Lazy-S, Midwater Arch and Steep-S hose configurati Evidence: https://epcmholdings.com/spm-calm-buoy-system"
+}

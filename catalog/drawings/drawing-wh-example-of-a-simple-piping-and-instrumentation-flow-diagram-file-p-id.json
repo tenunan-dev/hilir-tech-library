@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-example-of-a-simple-piping-and-instrumentation-flow-diagram-file-p-id",
+  "title": "Example of a simple Piping and Instrumentation Flow Diagram (File:P&ID.JPG)",
+  "diagram_type": "P&ID",
+  "description": "Generic P&ID example with equipment, piping and instrumentation symbols; useful for P&ID convention, NOT a wellhead-platform P&ID",
+  "publisher": "Wikimedia Commons (author 'Ub', 2001)",
+  "url": "https://commons.wikimedia.org/wiki/File:P%26ID.JPG",
+  "licence": "CC BY-SA 3.0 Unported and GFDL 1.2+ (attribution, share-alike) - verified on file page",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:P%26ID.JPG",
+      "source_id": "commons-wikimedia-org-wiki-file-p-26id-jpg"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

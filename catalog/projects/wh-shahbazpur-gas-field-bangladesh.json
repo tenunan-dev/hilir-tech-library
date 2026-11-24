@@ -1,0 +1,25 @@
+{
+  "id": "wh-shahbazpur-gas-field-bangladesh",
+  "name": "Shahbazpur gas field, Bangladesh",
+  "country": "Bangladesh",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "SPEC designed/supplied 2 x 35 MMSCFD TEG dehydration plant for BAPEX with commissioning support.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
+      "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

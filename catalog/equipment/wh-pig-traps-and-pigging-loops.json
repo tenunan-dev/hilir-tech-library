@@ -1,0 +1,44 @@
+{
+  "id": "wh-pig-traps-and-pigging-loops",
+  "name": "Pig traps and pigging loops",
+  "equipment_type": "wh-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "description": "Launch and receive pigs to clean or inspect flowlines between manifold and platform.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Launch and receive pigs to clean or inspect flowlines between manifold and platform.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards"
+      }
+    }
+  ],
+  "vendors": [
+    "onesubsea-slb-aker-solutions-jv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Pig trap pressure class, size and supplier for a named platform",
+      "why": "No pig trap OEM page fetched",
+      "next_action": "Fetch pig trap/pigging system OEM datasheet."
+    }
+  ],
+  "applications": [
+    "Launch and receive pigs to clean or inspect flowlines between manifold and platform."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

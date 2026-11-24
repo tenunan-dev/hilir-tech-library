@@ -1,0 +1,31 @@
+{
+  "id": "bsee-gov-research-reports-572aa-pdf",
+  "name": "BSEE / Minerals Management Service (Deepwater Riser Design, Fatigue Life and Standards Study, 2007); original credit API RP 2RD",
+  "url": "https://www.bsee.gov/sites/bsee.gov/files/research-reports/572aa.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "BSEE",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Typical steel catenary riser elevation in host vessel mean position: hang-off point, hang-off angle, catenary and touchdown region Evidence: https://www.bsee.gov/sites/bsee.gov/files/research-reports/572aa.pdf"
+}

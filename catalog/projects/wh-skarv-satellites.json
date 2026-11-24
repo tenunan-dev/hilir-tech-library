@@ -1,0 +1,25 @@
+{
+  "id": "wh-skarv-satellites",
+  "name": "Skarv Satellites",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Seven vertical trees, three 4-slot template/manifolds, one cluster manifold; 60 km umbilicals; tie-back to Alvheim FPSO",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.akersolutions.com/news/news-archive/2022/aker-solutions-secures-multiple-contracts-with-aker-bp--record-high-order-intake/",
+      "source_id": "akersolutions-com-aker-solutions-secures-multiple-contracts-with-a"
+    }
+  ],
+  "notes": "search-verified",
+  "last_reviewed": "2026-11-24"
+}

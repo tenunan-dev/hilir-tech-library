@@ -1,0 +1,25 @@
+{
+  "id": "wh-timi-whp-sk318-offshore-sarawak",
+  "name": "Timi WHP, SK318, offshore Sarawak",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "Unmanned fixed wellhead platform about 200 km off Sarawak; installed in about 143 m water depth (Malaysia's deepest fixed platform to date, per PETRONAS); tied back to F23 hub by 80 km pipeline; solar and wind hybrid power; topside and substructure fabricated locally; two wells; operator Sarawak Shell 75%, PETRONAS Carigali 15%, Brunei Energy Exploration 10%; first gas 22 August 2023.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/mpm/media/media-releases/first-gas-production-sk318-timi-field",
+      "source_id": "petronas-com-media-releases-first-gas-production-sk318-timi-field"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "technipfmc-technipfmc-vertical-horizontal-subsea-trees-evdt",
+  "name": "TechnipFMC vertical/horizontal subsea trees & EVDT",
+  "manufacturer": "technipfmc-cds-separation-systems",
+  "product_type": "wh-wellhead",
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea"
+  ],
+  "description": "Vendor product line read 2026-11-24. fetched",
+  "specifications": [
+    {
+      "metric": "Pressure",
+      "unit": "psi",
+      "basis": "",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+        "source_id": "technipfmc-com-well-control"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Temperature",
+      "unit": "deg F",
+      "basis": "",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+        "source_id": "technipfmc-com-well-control"
+      },
+      "value": 400
+    },
+    {
+      "metric": "Water depth",
+      "unit": "ft",
+      "basis": "",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+        "source_id": "technipfmc-com-well-control"
+      },
+      "value": 10000
+    }
+  ],
+  "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+      "source_id": "technipfmc-com-well-control"
+    }
+  ],
+  "notes": "fetched",
+  "last_reviewed": "2026-11-24"
+}

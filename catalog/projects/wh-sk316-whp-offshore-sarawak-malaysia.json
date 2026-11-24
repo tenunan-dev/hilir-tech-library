@@ -1,0 +1,25 @@
+{
+  "id": "wh-sk316-whp-offshore-sarawak-malaysia",
+  "name": "SK316 WHP, offshore Sarawak, Malaysia",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC"
+  ],
+  "description": "WHP topside 1,821 MT; jacket 2,418 MT; piles 1,761 MT; bridge 469 MT; client PETRONAS Carigali.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://mhb.com.my/solutions/offshore/",
+      "source_id": "mhb-com-my-offshore"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

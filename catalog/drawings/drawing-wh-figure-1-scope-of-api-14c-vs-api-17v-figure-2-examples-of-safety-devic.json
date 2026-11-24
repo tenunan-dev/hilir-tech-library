@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-figure-1-scope-of-api-14c-vs-api-17v-figure-2-examples-of-safety-devic",
+  "title": "Figure 1 - Scope of API 14C vs API 17V; Figure 2 - Examples of Safety Device Identification; Figure 3 - Offshore Production Facility Safety Flow Chart",
+  "diagram_type": "schematic",
+  "description": "Figure 1 shows the boundary between topside/API 14C and subsea/API 17V safety systems (DHSV/SSSV, SCSSV, BSDV, SDV, production tree, manifold, umbilicals, flying leads, SCU, HPU, EPU, PSS); Figure 3 is the offshore production facility safety flow chart; Annex figures cover dry-tree wellhead flowlines and SAFE/cause-and-effect logic",
+  "publisher": "API RP 14C, 8th edition (2017), Analysis, Design, Installation, and Testing of Safety Systems for Offshore Production Facilities",
+  "url": "https://www.stdhive.com/pdf_preview/api-rp-14c-pdf",
+  "licence": "API standard - copyrighted, preview only; cite standard and figure number, do not reproduce",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.stdhive.com/pdf_preview/api-rp-14c-pdf",
+      "source_id": "stdhive-com-pdf-preview-api-rp-14c-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}

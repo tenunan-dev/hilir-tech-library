@@ -1,0 +1,31 @@
+{
+  "id": "mhb-com-my-offshore",
+  "name": "Mhb.Com.My — SK316 WHP, offshore Sarawak, Malaysia",
+  "url": "https://mhb.com.my/solutions/offshore/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "Mhb.Com.My",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. WHP topside 1,821 MT; jacket 2,418 MT; piles 1,761 MT; bridge 469 MT; client PETRONAS Carigali. Evidence: https://mhb.com.my/solutions/offshore/"
+}

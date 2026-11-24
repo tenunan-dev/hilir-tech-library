@@ -1,0 +1,51 @@
+{
+  "id": "emerson-roxar-2600-multiphase-flow-meter-with-5726-transmitter",
+  "name": "Roxar 2600 Multiphase Flow Meter (with 5726 transmitter)",
+  "manufacturer": "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
+  "product_type": "tp-wellhead",
+  "equipment": [
+    "tp-metering-and-export-quality-oil-gas-water-meters-multiphase-fl"
+  ],
+  "description": "Vendor product line read 2026-11-24. Product page read; data sheet figures search-verified.",
+  "specifications": [
+    {
+      "metric": "GVF / WLR",
+      "unit": "%",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "emerson-com-products-roxar-2600-multiphase-flow-meter"
+      },
+      "value": "0-100% / 0-100%"
+    },
+    {
+      "metric": "sizes",
+      "unit": "in",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "emerson-com-products-roxar-2600-multiphase-flow-meter"
+      },
+      "value": "6 sizes; 1.5-8 in"
+    },
+    {
+      "metric": "design pressure",
+      "unit": "psi",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "emerson-com-products-roxar-2600-multiphase-flow-meter"
+      },
+      "value": "3,750 psi ANSI / 5,000 psi hub"
+    }
+  ],
+  "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+  "sources": [
+    {
+      "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+      "source_id": "emerson-com-products-roxar-2600-multiphase-flow-meter"
+    }
+  ],
+  "notes": "Product page read; data sheet figures search-verified.",
+  "last_reviewed": "2026-11-24"
+}

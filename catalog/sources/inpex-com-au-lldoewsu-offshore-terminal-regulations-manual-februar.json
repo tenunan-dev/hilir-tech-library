@@ -1,0 +1,31 @@
+{
+  "id": "inpex-com-au-lldoewsu-offshore-terminal-regulations-manual-februar",
+  "name": "INPEX — Ichthys Gas Export Pipeline (GEP)",
+  "url": "https://www.inpex.com.au/media/lldoewsu/offshore-terminal-regulations-manual-february-2019.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "INPEX",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. Gas dehydrated and compressed at CPF then exported via GEP to onshore LNG plant; two LNG trains each 4.2 mtpa Evidence: https://www.inpex.com.au/media/lldoewsu/offshore-terminal-regulations-manual-february-2019.pdf"
+}

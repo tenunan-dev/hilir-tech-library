@@ -1,0 +1,54 @@
+{
+  "id": "tp-oil-heating-and-crude-condensate-stabilisation",
+  "name": "Oil heating and crude/condensate stabilisation",
+  "equipment_type": "tp-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Heat emulsion or crude; strip light ends from crude/condensate to meet Reid vapour pressure (RVP) and H2S limits for storage/export; supply heat from hot-oil or fired systems.",
+  "specifications": [
+    {
+      "metric": "Water bath heater maximum outlet temperature",
+      "unit": "degC",
+      "basis": "SPEC Ancillary Equipment overview and Water Bath Heater page; page read (ancillary overview)",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/ancillary-equipment",
+        "source_id": "specoilandgas-com-equipment-ancillary-equipment"
+      },
+      "value": "87"
+    },
+    {
+      "metric": "Stabiliser configuration",
+      "unit": "configuration",
+      "basis": "SPEC Crude & Condensate Stabilization page; page read",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization",
+        "source_id": "specoilandgas-com-oil-processing-crude-condensate-stabilization"
+      },
+      "value": "column with trays/packing + reboiler (gas, hot oil or steam)"
+    }
+  ],
+  "vendors": [
+    "spec-oil-gas-technologies-fabricator"
+  ],
+  "sources": [
+    {
+      "url": "https://www.specoilandgas.com/equipment/ancillary-equipment",
+      "source_id": "specoilandgas-com-equipment-ancillary-equipment"
+    },
+    {
+      "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization",
+      "source_id": "specoilandgas-com-oil-processing-crude-condensate-stabilization"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Heat emulsion or crude; strip light ends from crude/condensate to meet Reid vapour pressure (RVP) and H2S limits for storage/export; supply heat from hot-oil or"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

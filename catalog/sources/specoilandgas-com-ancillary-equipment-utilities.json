@@ -1,0 +1,31 @@
+{
+  "id": "specoilandgas-com-ancillary-equipment-utilities",
+  "name": "SPEC Oil & Gas Technologies — Chemical injection skid configuration",
+  "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV",
+    "ELE",
+    "INS"
+  ],
+  "publisher_org": "SPEC Oil & Gas Technologies",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the wellhead-platform sweep. SPEC Utility Systems page; page read Evidence: https://www.specoilandgas.com/equipment/ancillary-equipment/utilities"
+}

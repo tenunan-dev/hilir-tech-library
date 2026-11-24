@@ -1,0 +1,45 @@
+{
+  "id": "drawing-wh-schematic-of-the-malampaya-complex",
+  "title": "Schematic of the Malampaya complex",
+  "diagram_type": "schematic",
+  "description": "Schematic of the integrated Malampaya topside/concrete gravity structure complex",
+  "publisher": "Offshore Technology (GlobalData)",
+  "url": "https://www.offshore-technology.com/projects/malampaya/",
+  "licence": "GlobalData copyright; image https://www.offshore-technology.com/wp-content/uploads/sites/20/2000/05/malam8.jpg - no open reuse licence stated",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "wh-christmas-tree-surface-and-subsea",
+    "wh-risers-top-tensioned-flexible-scr",
+    "wh-manifolds-and-piping-production-test-injection",
+    "ex-subsea-trees-christmas-trees",
+    "ex-subsea-manifolds-and-templates-production-injection-cluster-pl",
+    "ex-rigid-flowlines-export-pipelines-and-trunklines"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/malampaya/",
+      "source_id": "offshore-technology-com-malampaya"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. ",
+  "last_reviewed": "2026-11-24"
+}
