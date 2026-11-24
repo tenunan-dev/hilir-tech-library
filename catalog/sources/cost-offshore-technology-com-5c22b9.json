@@ -1,0 +1,30 @@
+{
+  "id": "cost-offshore-technology-com-5c22b9",
+  "name": "Hibernia oil field platform — cost",
+  "url": "https://www.offshore-technology.com/projects/hibernia/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Technology.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Total investment in Hibernia development 'by that time' (January 2007), as stated by Offshore Technology Evidence: https://www.offshore-technology.com/projects/hibernia/"
+}

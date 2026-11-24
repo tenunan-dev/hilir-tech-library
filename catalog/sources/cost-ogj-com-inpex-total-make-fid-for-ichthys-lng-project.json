@@ -1,0 +1,30 @@
+{
+  "id": "cost-ogj-com-inpex-total-make-fid-for-ichthys-lng-project",
+  "name": "Ichthys LNG — cost",
+  "url": "https://www.ogj.com/pipelines-transportation/lng/article/17273248/inpex-total-make-fid-for-ichthys-lng-project",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Ogj.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Oil & Gas Journal: '$34 billion development' Evidence: https://www.ogj.com/pipelines-transportation/lng/article/17273248/inpex-total-make-fid-for-ichthys-lng-project"
+}

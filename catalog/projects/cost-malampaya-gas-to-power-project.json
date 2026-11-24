@@ -1,0 +1,32 @@
+{
+  "id": "cost-malampaya-gas-to-power-project",
+  "name": "Malampaya Gas-to-Power Project",
+  "country": "Philippines (offshore Palawan)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Shallow-water fixed platform (Malampaya Phase 1) plus subsea wells; Phase 3 depletion compression platform | Fixed-platform process/compression topsides; onshore gas plant at Batangas City | Five production wells tied back by flowlines to shallow-water platform; 504 km subsea gas export pipeline to Batangas | Shell Philippines Exploration B.V.; Chevron Malampaya LLC; PNOC-EC | 820 m (wells); shallow-water platform separately | About 429 million ft3/d gas and 15,000 bpd condensate; supplies up to ~40% of Luzon power needs (3,200 MW) upstream component of gas-to-power project: USD 4.5 — dollar year not stated (Stated upstream component cost of the Malampaya gas-to-power project) Shallow-water fixed platform (Malampaya Phase 1) plus subsea wells; Phase 3 depletion compression platform | Fixed-platform process/compression topsides; onshore gas plant at Batangas City | Five production wells tied back by flowlines to shallow-water platform; 504 km subsea gas export pipeline to Batangas | Shell Philippines Exploration B.V.; Chevron Malampaya LLC; PNOC-EC | 820 m (wells); shallow-water platform separately | About 429 million ft3/d gas and 15,000 bpd condensate; supplies up to ~40% of Luzon",
+  "capex": [],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Malampaya_gas_field&action=raw"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

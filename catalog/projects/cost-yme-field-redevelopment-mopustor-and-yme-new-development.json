@@ -1,0 +1,32 @@
+{
+  "id": "cost-yme-field-redevelopment-mopustor-and-yme-new-development",
+  "name": "Yme field redevelopment (MOPUstor) and Yme New Development",
+  "country": "Norway (Egersund Basin, North Sea)",
+  "status": "under-construction",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Jack-up production facility: Maersk Giant (original), MOPUstor jack-up with subsea storage tank (Talisman), Maersk Inspirer jack-up (Repsol) | Mobile offshore production unit topsides; subsea storage tank; submerged loading system | MOPUstor built by SBM Offshore, installed 2011; cracks in leg grouting found 2012; single-lift removal by Pioneering Spirit August 2016; new jack-up installed late 2020 | SBM Offshore (MOPUstor design/construction); Odim (workover jack-up); Adyard (hull/topsides fabrication); Technip (flowlines/umbilicals); Maersk Drilling (rigs); Allseas (removal) | 93 m | ~60 million barrels recoverable; maximum 40,000 bpd estimated field development investment: USD 629.5 — dollar year not stated (Estimated investment in the Yme field development (Offshore Technology project profile)) planned further investment: USD 800 — dollar year not stated (Further investment Talisman planned after the initial expenditure) project writedown: USD 250 — dollar year not stated (Talisman writedown announced May 2011 on the Yme project after commissioning delays) subsea installation contract: USD 155 — dollar year not stated (Technip contract for rigid flowlines, umbilicals, tie-ins, ",
+  "capex": [],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/ymeegersundbasin/"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

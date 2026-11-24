@@ -1,0 +1,30 @@
+{
+  "id": "cost-offshoreindustry-co-uk",
+  "name": "Installation cost benchmark",
+  "url": "https://offshoreindustry.co.uk/offshore-heavy-lift-2026-crane-vessel-scarcity-sscv-market-dynamics-and-the-wind-sector-collision/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Offshoreindustry.Co.Uk",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Contracted dayrates for major project campaigns for Cadeler Wind Peaks/Wind Apex, Heerema Aegir, Charybdis, Van Oord Boreas, DEME Orion/Gulliver; attributed to genuine scarcity of  Evidence: https://offshoreindustry.co.uk/offshore-heavy-lift-2026-crane-vessel-scarcity-sscv-market-dynamics-and-the-wind-sector-collision/"
+}

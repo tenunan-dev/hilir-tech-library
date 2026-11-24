@@ -1,0 +1,32 @@
+{
+  "id": "cost-pflng-dua-petronas-floating-lng-2",
+  "name": "PFLNG DUA (PETRONAS Floating LNG 2)",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Deepwater FLNG vessel, 333 m in length (PETRONAS LNG page, search-verified); capable of water depths up to 1,500 m | FLNG topside with liquefaction, storage and offloading; described as PETRONAS's first deepwater FLNG | Moored at the Rotan gas field; subsea commissioning completed before first gas | Not established from a fetched page; gap | Up to 1,500 m (PETRONAS LNG page, search-verified) | 1.5 Mtpa LNG Cost (project tracker): USD 1600000000 — dollar year not stated (LNG2030 project tracker record for PFLNG Dua: 'Cost (US$bn) 1.6') Deepwater FLNG vessel, 333 m in length (PETRONAS LNG page, search-verified); capable of water depths up to 1,500 m | FLNG topside with liquefaction, storage and offloading; described as PETRONAS's first deepwater FLNG | Moored at the Rotan gas field; subsea commissioning completed before first gas | Not established from a fetched page; gap | Up to 1,500 m (PETRONAS LNG page, search-verified) | 1.5 Mtpa LNG Cost (project tracker): USD 1600000000 — dollar year not stated (LNG2030 project tracker record for PFLNG Dua: 'Cost (US$bn) 1.6')",
+  "capex": [],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://lng2030.com/project/lng_223"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

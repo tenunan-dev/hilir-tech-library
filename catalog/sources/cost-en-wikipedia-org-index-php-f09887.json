@@ -1,0 +1,30 @@
+{
+  "id": "cost-en-wikipedia-org-index-php-f09887",
+  "name": "Brent field (development and decommissioning) — cost",
+  "url": "https://en.wikipedia.org/w/index.php?title=Brent_oilfield&action=raw",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "En.Wikipedia.Org",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Total initial investment required to develop the field, install infrastructure, drill wells and bring oil and gas to shore Evidence: https://en.wikipedia.org/w/index.php?title=Brent_oilfield&action=raw"
+}

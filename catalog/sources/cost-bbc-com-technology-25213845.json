@@ -1,0 +1,30 @@
+{
+  "id": "cost-bbc-com-technology-25213845",
+  "name": "Prelude FLNG — cost",
+  "url": "https://www.bbc.com/news/technology-25213845",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Bbc.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Industry analyst estimate of Prelude vessel cost reported by Reuters; article dated 4 December 2013 Evidence: https://www.bbc.com/news/technology-25213845"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "cost-gorgon-gas-project",
+  "name": "Gorgon Gas Project",
+  "country": "Australia (Barrow Island, Western Australia)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Subsea gas-gathering infrastructure and pipelines to onshore; no offshore production platform for the main fields | Onshore LNG plant (three 5.2 Mt/y trains) and domestic gas plant on Barrow Island | Subsea wells and gathering pipelines to Barrow Island; 2,100 m jetty for LNG/condensate export | Kellogg Joint Venture (Chevron downstream facilities, incl. Clough); JGC | ~200 m (Gorgon field); 1,300 m (Jansz-Io) | 15.6 Mt/y LNG; 300 TJ/d domestic gas analyst/media estimate of total investment: 11 AUD billion (Estimated total project cost, as stated with year by the source) analyst/media estimate of total investment: 16 AUD billion (Estimated total project cost; source cites Sydney Morning Herald 4 September 2007) analyst/media estimate of total investment: 50 AUD billion (Estimated total project cost reported in March/August 2009; source cites The Australian 19 August 2009) analyst/media estimate of total investment: 43 AUD billion (Alternative 2009 cost estimate (September 2009)) analyst/media estimate of total investment: 53 AUD billion Subsea gas-gathering infrastructure and pipelines to onshore; no offshore production platform for the main fields | Onshore LNG plant (three 5.2 Mt",
+  "capex": [],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Gorgon_gas_project&action=raw"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

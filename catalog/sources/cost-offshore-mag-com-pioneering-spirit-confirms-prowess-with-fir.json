@@ -1,0 +1,30 @@
+{
+  "id": "cost-offshore-mag-com-pioneering-spirit-confirms-prowess-with-fir",
+  "name": "Installation cost benchmark",
+  "url": "https://www.offshore-mag.com/field-development/article/16762279/pioneering-spirit-confirms-prowess-with-first-major-topsides-lift-at-johan-sverdrup",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Mag.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Equinor said the single-lift approach trimmed three months off the Johan Sverdrup Phase 1 schedule and reduced overall cost by around NOK1 billion; total Phase 1 project cost quote Evidence: https://www.offshore-mag.com/field-development/article/16762279/pioneering-spirit-confirms-prowess-with-first-major-topsides-lift-at-johan-sverdrup"
+}

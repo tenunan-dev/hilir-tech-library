@@ -1,0 +1,30 @@
+{
+  "id": "cost-lng2030-com-lng-223",
+  "name": "PFLNG DUA (PETRONAS Floating LNG 2) — cost",
+  "url": "https://lng2030.com/project/lng_223",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Lng2030.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. LNG2030 project tracker record for PFLNG Dua: 'Cost (US$bn) 1.6' Evidence: https://lng2030.com/project/lng_223"
+}

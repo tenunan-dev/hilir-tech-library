@@ -1,0 +1,30 @@
+{
+  "id": "cost-sec-gov-d705225dex991-htm",
+  "name": "Liwan Gas Project (Liwan 3-1 / Liuhua 34-2 / Liuhua 29-1) — cost",
+  "url": "https://www.sec.gov/Archives/edgar/data/49279/000119312514123595/d705225dex991.htm",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Sec.Gov",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Husky 6-K exhibit 99.1: 'The first stage of the US$6.5 billion project ... have been completed on budget'; Offshore Magazine: 'Under the $6.5-billion first-stage program' Evidence: https://www.sec.gov/Archives/edgar/data/49279/000119312514123595/d705225dex991.htm"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cost-bvgassociates-com-bvga-rvo-future-foundations-technical-sect",
+  "name": "Installation cost benchmark",
+  "url": "https://bvgassociates.com/wp-content/uploads/2022/04/BVGA-RVO-Future-Foundations-technical-sections-2204.pdf",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Bvgassociates.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. BVGA/RVO report: jackets have the highest installation cost (medium-lift vessel pre-installs piles, then heavy-lift vessel installs and grouts jacket); MP installation ~20% of manu Evidence: https://bvgassociates.com/wp-content/uploads/2022/04/BVGA-RVO-Future-Foundations-technical-sections-2204.pdf"
+}

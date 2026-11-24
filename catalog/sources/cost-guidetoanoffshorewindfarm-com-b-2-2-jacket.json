@@ -1,0 +1,30 @@
+{
+  "id": "cost-guidetoanoffshorewindfarm-com-b-2-2-jacket",
+  "name": "Installation cost benchmark",
+  "url": "https://guidetoanoffshorewindfarm.com/guide/b-balance-of-plant/b-2-turbine-foundation/b-2-2-jacket",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Guidetoanoffshorewindfarm.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Cost of jackets for a 1 GW wind farm at 50 m water depth, includes pin piles and upper jacket performing transition-piece functions. Suction buckets typically more expensive than p Evidence: https://guidetoanoffshorewindfarm.com/guide/b-balance-of-plant/b-2-turbine-foundation/b-2-2-jacket"
+}

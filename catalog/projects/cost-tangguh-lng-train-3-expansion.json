@@ -1,0 +1,45 @@
+{
+  "id": "cost-tangguh-lng-train-3-expansion",
+  "name": "Tangguh LNG Train 3 Expansion",
+  "country": "Indonesia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Two new offshore platforms plus an expandable hub platform; 13 new production wells; infill wells from existing VR-A and VR-B platforms | Onshore third liquefaction train of 3.8 Mtpa; new LNG jetty and expanded loading facilities | Unmanned offshore platforms and subsea pipelines EPCI by Saipem; platform/flowline tie-ins to existing onshore LNG plant; two 19 km and 18 km multiphase subsea pipelines, 24 in | Saipem (offshore EPCI and overall completion); CSTS JV (Chiyoda, Saipem, Tripatra, Suluh Ardhi Engineering) onshore marine construction; RJK JV (Rekin/Rekayasa Industri, KBR, JGC Indonesia) onshore FEED; McConnell Dowell jetty with HR Wallingford navigation studies; SB Submarine Systems cables | Not stated in the fetched project page; gap | 11.4 Mtpa LNG total (3 x 3.8 Mtpa), ~50% increase Estimated expansion project cost / CAPEX: USD 8000000000 — dollar year not stated (Offshore Technology project profile: 'The project, with an estimated cost of $8bn' and 'Estimated Investment $8bn') Two new offshore platforms plus an expandable hub platform; 13 new production wells; infill wells from existing VR-A and VR-B platforms | Onshore third liquefaction train of 3.8 Mtpa; new LNG jetty",
+  "capex": [
+    {
+      "metric": "Approved expansion plan cost (2012 press report)",
+      "value": 12000000000,
+      "unit": "USD",
+      "basis": "Indonesian government approval of third train plan",
+      "year": 2012,
+      "source": {
+        "url": "https://www.wsj.com/articles/SB10001424052970204712904578094051528788578",
+        "note": "Indonesian government approval of third train plan",
+        "source_id": "cost-wsj-com-sb10001424052970204712904578094051528788578"
+      }
+    }
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wsj.com/articles/SB10001424052970204712904578094051528788578"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

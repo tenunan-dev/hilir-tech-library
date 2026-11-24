@@ -8,6 +8,26 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.24.9] — 2026-11-24 — Project capex and installation cost benchmarks
+
+Owner-directed cost research tied to the platform/substructure/topside findings, with strict price-year discipline.
+
+### Added
+- **76 sources**, **30 project capex records/enrichments** and **98 sourced cost figures** on three cards.
+- Project capex includes Ichthys USD 34bn (2012), Aasta Hansteen NOK 37.5bn (2018), Troll A NOK 4.15bn,
+  Hibernia USD 5.8bn, Kizomba A USD 3.2bn, Prelude USD 10.8–12.6bn, Gorgon USD 54bn, Abadi USD 20.9bn,
+  Tangguh USD 8bn, Liwan USD 6.5bn, Malampaya USD 2bn, Yme USD 629.5m and Petronius USD 500m.
+- Installation benchmarks include BSEE 2025 decommissioning (USD 24.54–213.85m/platform; HLV mob/demob
+  USD 1.58–2.04m; USD 200/t disposal), Valaris jack-up rates USD 112–170k/day, EUR 78k/bucket suction
+  saving and NST UKCS GBP 44bn.
+- No currency conversion or escalation: figures with no stated price year were kept with an explicit note.
+
+### Verification
+`tools/build.py` 1,458 sources / 392 cards / 864 vendors / 326 equipment / 625 projects / 216 products /
+182 drawings / 87 materials; `pytest -q tests` **2,474 passed, 13 skipped**; Neon reloaded with 7,153 nodes,
+25,853 edges and 17,342 vectors; `find_figures` verified on several cost queries.
+
+
 ## [2026.11.24.8] — 2026-11-24 — All platform substructures, topsides and installation technologies
 
 Owner-directed study of every platform substructure and topside type (small/big, common/rare) and every

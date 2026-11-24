@@ -1,0 +1,45 @@
+{
+  "id": "cost-kashagan-field-development-island-d-artificial-islands",
+  "name": "Kashagan field development (Island D artificial islands)",
+  "country": "Kazakhstan (northern Caspian Sea)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Artificial islands / onshore-style pads in very shallow water (Island D) rather than offshore platforms | Two-train production, separation, dehydration and sour-gas reinjection facilities on artificial islands; onshore plant | Artificial islands constructed in 3-9 m water; 92 km pipeline to shore; workers accommodated on living-quarters barge Vivaldi | Agip KCO then NCOC; Aker Solutions/WorleyParsons/CB&I FEED JV; Wagenborg Offshore and Ersai Caspian Contractor (LQ barge) | 3-9 m | 13 billion bbl recoverable estimate; 370,000 bpd target; 400,000 bpd in 2019 alternative development cost estimate: USD 50 — dollar year not stated (Other sources report cost up to USD 50 billion; Bloomberg headline 'Oil From $50 Billion Kashagan Field Starts Flowing to Export' (14 Octobe) phase-two FEED letter of intent: USD 31 — dollar year not stated (Letter of intent for FEED work on phase two awarded October 2008 to Aker Solutions/WorleyParsons/CB&I JV) Artificial islands / onshore-style pads in very shallow water (Island D) rather than offshore platforms | Two-train production, separation, dehydration and sour-gas reinjection facilities on artificial islands; onshore plant | Artificial islands cons",
+  "capex": [
+    {
+      "metric": "development cost estimate",
+      "value": 116,
+      "unit": "USD",
+      "basis": "CNNMoney estimate of development cost as of 2012, described as the world's most expensive energy project",
+      "year": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Kashagan_Field&action=raw",
+        "note": "CNNMoney estimate of development cost as of 2012, described as the world's most expensive energy project",
+        "source_id": "cost-en-wikipedia-org-index-php-ae1203"
+      }
+    }
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Kashagan_Field&action=raw"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

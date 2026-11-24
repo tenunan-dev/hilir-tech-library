@@ -125,7 +125,7 @@
       "note": "Equinor, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-24",
   "gaps": [
     {
       "field": "costs",
@@ -169,5 +169,52 @@
       "project_id": "johan-sverdrup-power-from-shore-equinor-north-sea"
     }
   ],
-  "notes": "Process provenance: Documents the Johan Sverdrup power-from-shore chain - onshore AC-to-DC converter at Haugsneset, 200 km HVDC cable, offshore DC-to-AC converter module on the riser platform, and supply to field-centre equipment."
+  "notes": "Process provenance: Documents the Johan Sverdrup power-from-shore chain - onshore AC-to-DC converter at Haugsneset, 200 km HVDC cable, offshore DC-to-AC converter module on the riser platform, and supply to field-centre equipment. Sourced project/installation cost figures added 2026-11-24.",
+  "costs": [
+    {
+      "metric": "Contracted day rates, next-generation wind turbine installation vessels (WTIVs) and heavy-lift jack-ups",
+      "unit": "USD/day",
+      "basis": "Contracted dayrates for major project campaigns for Cadeler Wind Peaks/Wind Apex, Heerema Aegir, Charybdis, Van Oord Boreas, DEME Orion/Gulliver; attributed to genuine scarcity of suitable installation capacity.  Dollar year not stated.",
+      "source": {
+        "url": "https://offshoreindustry.co.uk/offshore-heavy-lift-2026-crane-vessel-scarcity-sscv-market-dynamics-and-the-wind-sector-collision/",
+        "source_id": "cost-offshoreindustry-co-uk"
+      },
+      "low": 200000,
+      "high": 350000
+    },
+    {
+      "metric": "Jack-up rig one-well option contract value, ~30 days",
+      "unit": "USD",
+      "basis": "TotalEnergies exercised a one-well option for HDHE jack-up Valaris Stavanger in UK North Sea, ~30 additional days.  Dollar year not stated.",
+      "source": {
+        "url": "https://www.rivieramm.com/news-content-hub/north-seas-jack-up-pool-shrinks-as-rigs-move-to-more-lucrative-waters-80654",
+        "source_id": "cost-rivieramm-com-north-seas-jack-up-pool-shrinks-as-rigs-move-t"
+      },
+      "low": 4000000,
+      "high": 4000000
+    },
+    {
+      "metric": "Jack-up rig contract value, 330-day campaign (including minor rig modifications)",
+      "unit": "USD",
+      "basis": "TotalEnergies / VALARIS Stavanger 330-day campaign from March 2024; approximate total contract value as reported.  Dollar year not stated.",
+      "source": {
+        "url": "https://www.rivieramm.com/news-content-hub/rigs-report-north-sea-jack-up-utility-hits-94-79737",
+        "source_id": "cost-rivieramm-com-rigs-report-north-sea-jack-up-utility-hits-94"
+      },
+      "low": 48000000,
+      "high": 48000000
+    },
+    {
+      "metric": "Valaris heavy-duty harsh-environment (HDHE) jack-up average day rate, 2024",
+      "unit": "USD/day",
+      "basis": "Average day rates as of 29 July 2024, excluding non-recurring mobilisation/contract-preparation revenue; rigs used in the North Sea.",
+      "source": {
+        "url": "https://s23.q4cdn.com/956522167/files/doc_downloads/2024/07292024-Fleet-Status-Report_FINAL.pdf",
+        "source_id": "cost-s23-q4cdn-com-07292024-fleet-status-report-final-pdf"
+      },
+      "year": 2024,
+      "low": 125000,
+      "high": 125000
+    }
+  ]
 }

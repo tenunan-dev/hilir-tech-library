@@ -1,0 +1,30 @@
+{
+  "id": "cost-en-wikipedia-org-prelude-flng",
+  "name": "Prelude FLNG — cost",
+  "url": "https://en.wikipedia.org/wiki/Prelude_FLNG",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "En.Wikipedia.Org",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Shell estimate reported by WSJ; Wikipedia notes this implies total cost up to USD 12.6 billion for 3.6 Mt/y LNG Evidence: https://en.wikipedia.org/wiki/Prelude_FLNG"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cost-sarpn-org-7-wri-community-dev-may2007-pdf",
+  "name": "Malampaya Deep Water Gas-to-Power Project — cost",
+  "url": "https://sarpn.org/documents/d0002569/7-WRI_Community_dev_May2007.pdf",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Sarpn.Org",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Shell estimate of total cost of community engagement/consent; incremental ~0.13% of total project cost Evidence: https://sarpn.org/documents/d0002569/7-WRI_Community_dev_May2007.pdf"
+}

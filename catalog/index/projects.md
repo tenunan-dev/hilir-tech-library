@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-605 project records (one per named project or plant, schema `schema/project.schema.json`).
+625 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -290,7 +290,7 @@ Technologies: lng-mixed-fluid-cascade
 
 ### Ichthys LNG (ichthys-lng)
 Status: **operating** | Country: Australia
-LNG plant with gas-phase mercury removal units ahead of acid gas removal.
+LNG plant with gas-phase mercury removal units ahead of acid gas removal. Semi-submersible Central Processing Facility (CPF) plus Floating Production Storage and Offloading (FPSO) vessel for condensate; subsea well development | CPF process topsides (described by Total as one of the largest in the world); onshore two-train LNG plant at Bladin Point, 4.2 Mtpa per train | Subsea wells tied back to CPF; gas exported by 889 km subsea pipeline to Darwin; condensate offloaded from FPSO to carriers | JV operator INPEX with Total; ~75% of EPC contract value was lump-sum (INPEX 2014 annual report, search-verified). Named contractors from search only: McDermott/Heerema subsea flowline, Saipem pipelay, Mitsui/Europipe/Sumitomo/Nippon Steel/Metal One line pipe (Industrial Info, search-verified) - not confirmed by a fetched page. | 260 m (TotalEnergies FID release, fetched) | 8.4 Mtpa LNG at FID (2 x 4.2 Mtpa); 1.6 Mtpa LPG; ~100,000 bbl/d condensate at peak; INPEX currently quotes up to 9.3 Mtpa LNG and 1.65 Mtpa LPG Semi-submersible Central Processing Facility (CPF) plus Floating Production Storage and Offloading (FPSO) vessel for condensate; subsea well development | CPF process topsides (de
 Technologies: gas-mercury-removal
 
 ### Kasawari gas field development and CCS project (Block SK316, offshore Sarawak) (kasawari-ccs-sarawak)
@@ -1963,6 +1963,12 @@ Status: **operating** | Country: Norway
 17 suction anchors; spar in 1,300 m water (2018).
 Technologies: civ-offshore-platform-structures
 
+### Aasta Hansteen spar and Polarled pipeline (cost-aasta-hansteen-spar-and-polarled-pipeline)
+Status: **operating** | Country: Norway (Norwegian Sea)
+Truss spar (first spar on the Norwegian continental shelf; 198 m hull, 50 m diameter), polyester moorings | Gas processing topsides; total platform height 339 m; 70,000 t | Hull and topsides built by Hyundai Heavy Industries in South Korea; hull transported on Dockwise Vanguard; upended in fjord near Stord; topsides installed by floatover; towed vertically 300 km to field | Technip (spar hull design); CB&I (topsides design); Hyundai Heavy Industries (fabrication) | 1,300 m; moorings in ~1,200 m | 55.6 billion Sm3 gas and 0.6 million Sm3 condensate (353 MMboe) including Snefrid North; 144,000 boe/d plateau total project cost (Aasta Hansteen and Polarled): 37.5 NOK billion (Operator-stated project cost, explicitly given as '2018 value'; covers Aasta Hansteen field development together with the 482 km Polarled pi) Truss spar (first spar on the Norwegian continental shelf; 198 m hull, 50 m diameter), polyester moorings | Gas processing topsides; total platform height 339 m; 70,000 t | Hull and topsides built by Hyundai Heavy Industries in South Korea; hull transported on Dockwise Vanguard; upended in fjord near Stord; topsides installed by floatover; towed vertically 300 km to field | 
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
+
 ### ADNOC Asab Gas Injection Trunk Line-2 Relocation WHCP (wh-adnoc-asab-gas-injection-trunk-line-2-relocation-whcp)
 Status: **operating** | Country: United Arab Emirates
 Three WHCPs delivered and accepted March 2024; hydraulic control unit plus PLC logic; SIL3; two 32 L accumulators; local/remote control and ESD/PSD; integrated fire and gas control.
@@ -2102,6 +2108,12 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: Malaysia
 80,000 BWPD; 3x50% pumps/hydrocyclones + 100% CFU; guaranteed 30 ppm OIW; MMHE/PETRONAS Carigali.
 Technologies: ups-subsea-production-systems
+
+### Bongkot and Erawan gas fields (G2/61 and G1/61) (cost-bongkot-and-erawan-gas-fields-g2-61-and-g1-61)
+Status: **operating** | Country: Thailand
+Fixed wellhead platforms plus central processing platforms; eight wellhead platforms and subsea pipelines planned (Offshore Magazine, search-verified) | Wellhead platform topsides and central processing facilities; equipment/system inspection and maintenance | Construction and installation of additional wellhead platforms; drilling of new exploration and production wells; subsea pipelines; two additional rigs for 52 wells (search-verified) | Not stated in the fetched sources; gap | Shallow water; no figure stated in the fetched sources | Bongkot committed ≥700 MMSCFD (recent actual ~710-860 MMSCFD); Erawan 800 MMSCFD target; combined ~1,500 MMcf/d, ~60% of Thai domestic gas supply Planned investment in Bongkot and Erawan fields: 1000000000000 THB (PTTEP ED plan to maintain ≥700 MMSCFD (Bongkot) and 800 MMSCFD (Erawan), including exploration/production well drilling and construction of ) Fixed wellhead platforms plus central processing platforms; eight wellhead platforms and subsea pipelines planned (Offshore Magazine, search-verified) | Wellhead platform topsides and central processing facilities; equipment/system inspection and maintenance | Construction and installation of additi
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
 
 ### Borkum Riffgrund / Hornsea / Aberdeen Bay (pf-borkum-riffgrund-hornsea-aberdeen-bay)
 Status: **operating** | Country: Germany/UK
@@ -2288,6 +2300,18 @@ Status: **operating** | Country: Malaysia
 Minimal facility wellhead platform fully powered by solar energy, precursor to Timi hybrid power.
 Technologies: ups-subsea-production-systems
 
+### Gorgon Gas Project (cost-gorgon-gas-project)
+Status: **operating** | Country: Australia (Barrow Island, Western Australia)
+Subsea gas-gathering infrastructure and pipelines to onshore; no offshore production platform for the main fields | Onshore LNG plant (three 5.2 Mt/y trains) and domestic gas plant on Barrow Island | Subsea wells and gathering pipelines to Barrow Island; 2,100 m jetty for LNG/condensate export | Kellogg Joint Venture (Chevron downstream facilities, incl. Clough); JGC | ~200 m (Gorgon field); 1,300 m (Jansz-Io) | 15.6 Mt/y LNG; 300 TJ/d domestic gas analyst/media estimate of total investment: 11 AUD billion (Estimated total project cost, as stated with year by the source) analyst/media estimate of total investment: 16 AUD billion (Estimated total project cost; source cites Sydney Morning Herald 4 September 2007) analyst/media estimate of total investment: 50 AUD billion (Estimated total project cost reported in March/August 2009; source cites The Australian 19 August 2009) analyst/media estimate of total investment: 43 AUD billion (Alternative 2009 cost estimate (September 2009)) analyst/media estimate of total investment: 53 AUD billion Subsea gas-gathering infrastructure and pipelines to onshore; no offshore production platform for the main fields | Onshore LNG plant (three 5.2 Mt
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
+
+### Gorgon LNG (Gorgon Gas Development) (cost-gorgon-lng-gorgon-gas-development)
+Status: **operating** | Country: Australia
+Onshore gas processing and LNG plant on Barrow Island (Class A nature reserve); offshore subsea wells and pipelines | Three LNG trains of 5.2 Mtpa each (15.6 Mtpa total) plus 300 TJ/d domestic gas plant, CO2 separation and injection facilities | Gas piped from offshore fields to Barrow Island; CO2 compressed and injected into the Dupuy Formation ~2,500 m below the island | Hyundai Heavy Industries reported as main contractor; GE supplied CO2 injection components (SCCS/University of Edinburgh record, search-verified only) | Not stated in the fetched sources; gap | 15.6 Mtpa LNG (three trains) and 300 TJ/d domestic gas (ABC, fetched) CO2 injection system cost (alternate currency reporting): 2000000000 AUD (SCCS/University of Edinburgh project record: 'cost of CCS system, AUD 2Bn') Onshore gas processing and LNG plant on Barrow Island (Class A nature reserve); offshore subsea wells and pipelines | Three LNG trains of 5.2 Mtpa each (15.6 Mtpa total) plus 300 TJ/d domestic gas plant, CO2 separation and injection facilities | Gas piped from offshore fields to Barrow Island; CO2 compressed and injected into the Dupuy Formation ~2,500 m below the island | Hyundai Heavy Industries reported 
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
+
 ### Gorm field (pf-gorm-field)
 Status: **operating** | Country: Denmark
 12 small suction caissons for loading buoy at 40 m depth, 1981
@@ -2332,6 +2356,12 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Canada
 450,000 t GBS, ice wall with 16 teeth, 80 m depth
 Technologies: civ-offshore-platform-structures
+
+### Hibernia oil field platform (cost-hibernia-oil-field-platform)
+Status: **operating** | Country: Canada (Jeanne d'Arc Basin, offshore Newfoundland)
+Concrete gravity-base structure (GBS), 600,000 t, with 1.3 million bbl storage | 37,000 t integrated topsides (five super-modules, drilling modules); shuttle-tanker loading | GBS built at Bull Arm; topsides mated over partially submerged GBS; towed to field; 450,000 t solid ballast added | Nodeco (GBS design); Doris Development Canada (detailed design); HMDC | 80 m | Topsides design 150,000 bpd; recoverable reserves ~704-1,200 million bbl total development investment to date: USD 5.8 — dollar year not stated (Total investment in Hibernia development 'by that time' (January 2007), as stated by Offshore Technology) Concrete gravity-base structure (GBS), 600,000 t, with 1.3 million bbl storage | 37,000 t integrated topsides (five super-modules, drilling modules); shuttle-tanker loading | GBS built at Bull Arm; topsides mated over partially submerged GBS; towed to field; 450,000 t solid ballast added | Nodeco (GBS design); Doris Development Canada (detailed design); HMDC | 80 m | Topsides design 150,000 bpd; recoverable reserves ~704-1,200 million bbl total development investment to date: USD 5.8 — dollar year not stated (Total investment in Hibernia development 'by that time' (January
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
 
 ### Hugin B (Aker BP) (pf-hugin-b-aker-bp)
 Status: **operating** | Country: Norway
@@ -2393,6 +2423,12 @@ Status: **operating** | Country: Australia/APAC
 Subsea tieback to CPF; gas export pipeline to onshore LNG plant with two 4.2 mtpa trains; condensate stored and exported via offtake tankers
 Technologies: ups-subsea-production-systems
 
+### Ichthys LNG (Ichthys gas field) (cost-ichthys-lng-ichthys-gas-field)
+Status: **operating** | Country: Australia (Timor Sea, offshore Western Australia)
+Semi-submersible central processing facility (Ichthys Explorer); FPSO (Ichthys Venturer); onshore LNG plant at Bladin Point | Semi-submersible processing topsides (~130 x 120 m, 120,000 t); FPSO top-side process/condensate facilities | CPF and FPSO towed to field; FPSO permanently moored on turret (not disconnectable); 889 km subsea gas pipeline to Darwin | JGC/KBR/Chiyoda joint venture; Samsung Heavy Industries; GE; McDermott | approximately 250 m average | 8.9 Mt/y LNG in two trains; 10 million m3/d gas; 1.12 million bbl condensate storage initial project cost: USD 34 — dollar year not stated (Initial cost of the integrated LNG project (offshore CPF + FPSO + 889 km pipeline + onshore liquefaction plant)) revised project cost: USD 37 — dollar year not stated (Subsequently increased total project cost; described as largest overseas project undertaken by a Japanese company) Semi-submersible central processing facility (Ichthys Explorer); FPSO (Ichthys Venturer); onshore LNG plant at Bladin Point | Semi-submersible processing topsides (~130 x 120 m, 120,000 t); FPSO top-side process/condensate facilities | CPF and FPSO towed to field; FPSO permanently moored on turret (not disconnect
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
+
 ### Ichthys LNG — Central Processing Facility and FPSO (pf-ichthys-lng-central-processing-facility-and-fpso)
 Status: **operating** | Country: Australia
 substructure_type: Semi-submersible CPF (one of largest of its kind) + ship-shaped FPSO; subsea production system | topside_type: CPF separates gas/condensate from flexible risers; FPSO stores and offloads condensate | water_depth: Up to 250 m along gas export pipeline route (per INPEX concept page) | topside_weight: Not stated on pages read | installation_method: Subsea wells -> manifolds -> flowlines/flexible risers -> CPF; CPF gas to 890 km pipeline; condensate to FPSO and offtake tankers (arrangement shown in Figures 1 and 3 of the INPEX factsheet). Detailed installation method not stated on pages read. | contractor: INPEX Ichthys Pty Ltd (operator/developer) | dates: Not stated on pages actually read
@@ -2428,6 +2464,12 @@ Status: **operating** | Country: Norway
 flare towers delivered 2018 and 2019 by WorleyParsons
 Technologies: civ-offshore-platform-structures
 
+### Johan Sverdrup field development (cost-johan-sverdrup-field-development)
+Status: **operating** | Country: Norway (North Sea, Utsira High)
+Fixed steel jacket platforms (P1 production, DP drilling, RP riser, LQ living quarters, P2 Phase 2); shore power via HVDC | Production, drilling, riser and accommodation topsides; Phase 2 P2 220,000 bpd | Jackets built at Kvaerner Verdal and Dragados Spain; installed in 110-120 m water; hookup by Kvaerner/Aker Solutions | Aker Solutions (FEED, RP and P1, hookup); Aibel (FEED, DP, P2); Kvaerner (three jackets, hookup); Dragados (LQ jacket); Saipem | 110-120 m | 755,000 bpd plateau (Phase 1 440,000 bpd; Phase 2 adds 220,000 bpd) development cost announced at sanction: USD 29 — dollar year not stated (Statoil announcement to develop Johan Sverdrup, 13 February 2015, reported as a USD 29 billion field development) development cost paid back: 83 NOK billion (Cost of NOK 83 billion reported as paid off after 16 months of operation (Teknisk Ukeblad, 11 February 2021)) Fixed steel jacket platforms (P1 production, DP drilling, RP riser, LQ living quarters, P2 Phase 2); shore power via HVDC | Production, drilling, riser and accommodation topsides; Phase 2 P2 220,000 bpd | Jackets built at Kvaerner Verdal and Dragados Spain; installed in 110-120 m water; hookup by Kvaerner/Aker Solutions | Ak
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
+
 ### Johan Sverdrup Phase 1 & 2 (pf-johan-sverdrup-phase-1-2)
 Status: **operating** | Country: Norway
 P2 24,000 t; DP 22,000 t; 560-bed living quarters topside sail-away 2019; 5,000 t additional riser-platform module delivered 2021
@@ -2462,6 +2504,12 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Malaysia
 Petronas contract with Technip/DSME, 2012, off Sarawak
 Technologies: civ-offshore-platform-structures
+
+### Kashagan field development (Island D artificial islands) (cost-kashagan-field-development-island-d-artificial-islands)
+Status: **operating** | Country: Kazakhstan (northern Caspian Sea)
+Artificial islands / onshore-style pads in very shallow water (Island D) rather than offshore platforms | Two-train production, separation, dehydration and sour-gas reinjection facilities on artificial islands; onshore plant | Artificial islands constructed in 3-9 m water; 92 km pipeline to shore; workers accommodated on living-quarters barge Vivaldi | Agip KCO then NCOC; Aker Solutions/WorleyParsons/CB&I FEED JV; Wagenborg Offshore and Ersai Caspian Contractor (LQ barge) | 3-9 m | 13 billion bbl recoverable estimate; 370,000 bpd target; 400,000 bpd in 2019 alternative development cost estimate: USD 50 — dollar year not stated (Other sources report cost up to USD 50 billion; Bloomberg headline 'Oil From $50 Billion Kashagan Field Starts Flowing to Export' (14 Octobe) phase-two FEED letter of intent: USD 31 — dollar year not stated (Letter of intent for FEED work on phase two awarded October 2008 to Aker Solutions/WorleyParsons/CB&I JV) Artificial islands / onshore-style pads in very shallow water (Island D) rather than offshore platforms | Two-train production, separation, dehydration and sour-gas reinjection facilities on artificial islands; onshore plant | Artificial islands cons
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
 
 ### Kashagan MPFM deployment (NCOC/Schlumberger), Kashagan field, Kazakhstan (kashagan-mpfm-deployment-ncoc-schlumberger-kashagan-field-kazakhstan)
 Status: **operating** | Country: KZ
@@ -2508,6 +2556,12 @@ Status: **operating** | Country: Angola
 1,177 m TLP; associated FPSO storage 2.2 million bbl
 Technologies: civ-offshore-platform-structures
 
+### Kizomba A / B / C deepwater project (cost-kizomba-a-b-c-deepwater-project)
+Status: **operating** | Country: Angola (Block 15)
+Kizomba A: extended-leg TLP (dry tree, ABB ETLP design) plus subsea completions; B: surface wellhead platform and subsea wells; C: subsea wells only | TLP dry-tree topsides (two 6,000 t modules, 7,500 t drilling rig) tied to FPSO; FPSO processing/storage topsides | TLP hull towed from Rotterdam; FPSOs built in Korea and towed to field; subsea tiebacks to FPSOs | ABB (TLP design); Hyundai Heavy Industries (FPSOs); McDermott (TLP detailed engineering); Saipem; SBM Offshore | 1,250 m (Kizomba A TLP); ~1,000-1,400 m (discoveries); 4,425 ft stated for project | Kizomba A target 250,000 bpd; B target 250,000 bpd; C 100,000 bpd from Saxi/Batuque; ~2 billion boe recoverable Kizomba A FPSO construction cost: USD 800 — dollar year not stated (Construction cost of the Kizomba A FPSO by Hyundai Heavy Industries) Kizomba A development investment: USD 3.2 — dollar year not stated (Estimated total investment in Kizomba A development (TLP + FPSO + wells)) Kizomba B project cost: USD 3 — dollar year not stated (Construction/development cost of the Kizomba B project, started early 2003) Kizomba B FPSO allocation: USD 750 — dollar year not stated (Amount earmarked by ExxonMobil for the Kizomba B FPSO
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
+
 ### LAM-E topside (North Sea, Netherlands) (pf-lam-e-topside-north-sea-netherlands)
 Status: **operating** | Country: Netherlands
 Orca Offshore and SeaCamel developed an LMU allowing direct welding of topside to jacket after set-down, eliminating sand-jack phase.
@@ -2538,6 +2592,12 @@ Status: **operating** | Country: China (South China Sea)
 jacket and topsides each >30,000 t; jacket launched, topsides float-over; modified HYSY229 installation barge
 Technologies: civ-offshore-platform-structures
 
+### Liwan Gas Project (Liwan 3-1 / Liuhua 34-2 / Liuhua 29-1) (cost-liwan-gas-project-liwan-3-1-liuhua-34-2-liuhua-29-1)
+Status: **operating** | Country: China
+Nine deepwater subsea wells in 1,200-1,500 m water depth tied back 75 km to a shallow-water central platform (jacket in ~200 m water) | 30,000 metric ton topsides installed on the shallow-water jacket; subsea trees, three manifolds and MEG unit | Subsea tieback from deepwater wells to central platform; 260 km subsea pipeline to the onshore Gaolan gas terminal; 30,000 t topsides installed on jacket; deepwater pipeline trenching by DeepOcean | Cameron (subsea trees, manifolds, connectors, controls, MEG modules); COOEC (pipeline trenching/client); Technip (shallow-water 160 km 30-in pipeline, Global 1201 vessel); Saipem (deepwater pipeline); WorleyParsons (FEED and EPC tenders); DeepOcean (174 km trenching); Expro/CETS JV ($25m subsea and well testing); Bechtel (project management, search-verified) | 1,200-1,500 m at the deepwater wells; central platform ~200 m | ~250 MMcf/d rising to ~300 MMcf/d in 2014; ~340 MMcf/d after Liuhua 34-2 tie-in; 400-500 MMcf/d with Liuhua 29-1; condensate/NGL 10,000-14,000 boe/d First-stage project cost: USD 6500000000 — dollar year not stated (Husky 6-K exhibit 99.1: 'The first stage of the US$6.5 billion project ... have been completed on budget'; Offs
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
+
 ### Long Lake SAGD with in-field upgrader (Nexen, later CNOOC), Alberta (long-lake-sagd-with-in-field-upgrader-nexen-later-cnooc-alberta)
 Status: **operating** | Country: CA
 design 72,000 bpd bitumen (SAGD + integrated in-field upgrader); operator guided 38,000-45,000 bpd for 2011
@@ -2567,6 +2627,17 @@ Technologies: ups-subsea-production-systems
 Status: **operating** | Country: Philippines
 112 x 70 x 16 m CGS, 43 m water depth, 13,000 t topsides
 Technologies: civ-offshore-platform-structures
+
+### Malampaya Deep Water Gas-to-Power Project (cost-malampaya-deep-water-gas-to-power-project)
+Status: **operating** | Country: Philippines
+Concrete gravity structure (CGS) built at Subic Bay, mated to a steel topside; condensate stored in CGS caisson shells; CALM buoy for tanker loading | 11,500-tonne steel topside deck built in Singapore; gas/condensate separation | Float-over mating of the 11,500 t topside onto the concrete gravity structure - described as the heaviest structure installed by float-over at the time; subsea wells/manifold at 850 m tied to the platform; 504 km 24-in gas export pipeline | CGS constructed at Subic Bay, topside built in Singapore (OGJ, fetched); named EPC contractors for these packages not stated in the fetched source. Power plants: KEPCO 1,200 MW Ilijan; First Gas Power 1,000 MW Santa Rita and 500 MW San Lorenzo | 850 m at subsea manifold; 43 m at the production platform | ~400-450 MMcf/d gas; 2,700 MW across three gas-fired power plants; reserves >3 Tcf gas and 120 million bbl condensate Concrete gravity structure (CGS) built at Subic Bay, mated to a steel topside; condensate stored in CGS caisson shells; CALM buoy for tanker loading | 11,500-tonne steel topside deck built in Singapore; gas/condensate separation | Float-over mating of the 11,500 t topside onto the concrete gravity struc
+Technologies: civ-offshore-platform-structures
+
+### Malampaya Gas-to-Power Project (cost-malampaya-gas-to-power-project)
+Status: **operating** | Country: Philippines (offshore Palawan)
+Shallow-water fixed platform (Malampaya Phase 1) plus subsea wells; Phase 3 depletion compression platform | Fixed-platform process/compression topsides; onshore gas plant at Batangas City | Five production wells tied back by flowlines to shallow-water platform; 504 km subsea gas export pipeline to Batangas | Shell Philippines Exploration B.V.; Chevron Malampaya LLC; PNOC-EC | 820 m (wells); shallow-water platform separately | About 429 million ft3/d gas and 15,000 bpd condensate; supplies up to ~40% of Luzon power needs (3,200 MW) upstream component of gas-to-power project: USD 4.5 — dollar year not stated (Stated upstream component cost of the Malampaya gas-to-power project) Shallow-water fixed platform (Malampaya Phase 1) plus subsea wells; Phase 3 depletion compression platform | Fixed-platform process/compression topsides; onshore gas plant at Batangas City | Five production wells tied back by flowlines to shallow-water platform; 504 km subsea gas export pipeline to Batangas | Shell Philippines Exploration B.V.; Chevron Malampaya LLC; PNOC-EC | 820 m (wells); shallow-water platform separately | About 429 million ft3/d gas and 15,000 bpd condensate; supplies up to ~40% of Luzon
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
 
 ### Malampaya Phase III DCP (pf-malampaya-phase-iii-dcp)
 Status: **operating** | Country: Philippines
@@ -2748,14 +2819,31 @@ Status: **operating** | Country: USA
 Deepest compliant tower, 623 m
 Technologies: civ-offshore-platform-structures
 
+### Petronius platform (cost-petronius-platform)
+Status: **operating** | Country: United States (Gulf of Mexico, Viosca Knoll block 786)
+Compliant piled tower (flexible tower; 43,000 t, 1,870 ft design height) | 7,500 t multi-deck topsides, 21 well slots, 60,000 bpd oil and 100 MMscf/d gas | Foundation piles driven 1997; North Module installed November 1998; replacement South Module lifted by Saipem 7000 in May 2000 | J Ray McDermott (tower construction and installation); Gulf Island Fabrication (deck modules); Saipem (module lift); WH Linder (topsides engineering) | 535 m (1,754 ft) | 60,000 bpd oil; 100 million ft3/d gas; 80-100 million boe recoverable estimated total project cost: USD 500 — dollar year not stated (Cost of the Petronius project estimated by Offshore Technology) compliant tower construction contract: USD 140 — dollar year not stated (Contract for construction of the compliant tower awarded to J Ray McDermott) deck fabrication and integration contract: USD 50 — dollar year not stated (Gulf Island Fabrication contract for deck fabrication and integration) topsides engineering design contract: USD 10 — dollar year not stated (WH Linder & Associates contract for topsides engineering design and procurement support) lost module val Compliant piled tower (flexible tower; 43,000 t, 1,870 ft design height) 
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
+
+### PFLNG DUA (PETRONAS Floating LNG 2) (cost-pflng-dua-petronas-floating-lng-2)
+Status: **operating** | Country: Malaysia
+Deepwater FLNG vessel, 333 m in length (PETRONAS LNG page, search-verified); capable of water depths up to 1,500 m | FLNG topside with liquefaction, storage and offloading; described as PETRONAS's first deepwater FLNG | Moored at the Rotan gas field; subsea commissioning completed before first gas | Not established from a fetched page; gap | Up to 1,500 m (PETRONAS LNG page, search-verified) | 1.5 Mtpa LNG Cost (project tracker): USD 1600000000 — dollar year not stated (LNG2030 project tracker record for PFLNG Dua: 'Cost (US$bn) 1.6') Deepwater FLNG vessel, 333 m in length (PETRONAS LNG page, search-verified); capable of water depths up to 1,500 m | FLNG topside with liquefaction, storage and offloading; described as PETRONAS's first deepwater FLNG | Moored at the Rotan gas field; subsea commissioning completed before first gas | Not established from a fetched page; gap | Up to 1,500 m (PETRONAS LNG page, search-verified) | 1.5 Mtpa LNG Cost (project tracker): USD 1600000000 — dollar year not stated (LNG2030 project tracker record for PFLNG Dua: 'Cost (US$bn) 1.6')
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
+
 ### PFLNG1 / FLNG Satu (PETRONAS) (pf-pflng1-flng-satu-petronas)
 Status: **operating** | Country: Malaysia
 1.2 Mtpa LNG, 21 topsides modules, one flare, 1.2 MTPA design, offshore Malaysia 70-200 m water depth
 Technologies: civ-offshore-platform-structures
 
+### PNG LNG Project (cost-png-lng-project)
+Status: **operating** | Country: Papua New Guinea
+Predominantly onshore development: Hides gas conditioning plant and wellpads, Kutubu/Gobe associated gas facilities, onshore and offshore pipelines. Not a fixed offshore platform project - noted as a scope caveat. | Two-train LNG liquefaction and storage plant near Port Moresby | ~700 km pipelines through rugged terrain; pipe airlifted in places; new roads, communications and Komo airfield constructed for heavy equipment | Chiyoda + JGC JV (LNG plant and marine facilities EPC3); CBI + Clough JV (Hides gas conditioning plant and wellpads EPC4); SpieCapag (onshore pipeline EPC5A) - all from the PNG LNG Q3 2013 ES report, search-verified only | Not applicable to a predominantly onshore development; no offshore platform water depth stated | 6.9 Mtpa original design; >8.3 Mtpa current capacity (PNG LNG project page, search-verified); >9 Tcf gas over ~30 years Predominantly onshore development: Hides gas conditioning plant and wellpads, Kutubu/Gobe associated gas facilities, onshore and offshore pipelines. Not a fixed offshore platform project - noted as a scope caveat. | Two-train LNG liquefaction and storage plant near Port Moresby | ~700 km pipelines through rugged terrain; pipe airli
+Technologies: civ-offshore-platform-structures
+
 ### Prelude FLNG (pf-prelude-flng)
 Status: **operating** | Country: Australia
-488 m, >600,000 t, 3.6 mtpa LNG, ~200-475 km off Broome; first cargo June 2019
+488 m, >600,000 t, 3.6 mtpa LNG, ~200-475 km off Broome; first cargo June 2019 Floating FLNG hull (double-hulled ship-shaped floater), turret-moored to seabed suction/driven piles | FLNG processing plant (14 gas-plant modules), LNG storage (six tanks, 220,000 m3) | Built at Samsung Heavy Industries, Geoje; towed ~5,800 km to site; moored by turret to 16 steel piles | Technip-Samsung Consortium (TSC); SBM Offshore (turret mooring); FMC Technologies (subsea); Emerson (automation) | 250 m | 5.3 Mt/y liquids and condensate: 3.6 Mt/y LNG, 1.3 Mt/y condensate, 0.4 Mt/y LPG; 110,000 boe/d design announced capital investment: USD 12 — dollar year not stated (Investment announced by Shell to build the Prelude FLNG facility; source gives announcement date 20 May 2011 but no explicit price-year labe) analyst estimated vessel cost: USD 10.8-12.6 — dollar year not stated (Industry analyst estimate of Prelude vessel cost reported by Reuters; article dated 4 December 2013) Shell unit cost guidanc FLNG vessel: double-hulled, 488 m x 74 m x 105 m; 600,000 t fully loaded; turret moored to seabed piles/suction piles at ~250 m water depth | 14 gas plant topsides modules; LNG, LPG and condensate proces
 Technologies: civ-offshore-platform-structures
 
 ### Prelude FLNG (Shell) (pf-prelude-flng-shell)
@@ -2898,6 +2986,12 @@ Status: **operating** | Country: AO
 seawater treatment for injection: SRP removes sulphates and other divalent ions from injection water (capacity not stated in the source)
 Technologies: ups-seawater-sulfate-removal
 
+### Tangguh LNG Train 3 Expansion (cost-tangguh-lng-train-3-expansion)
+Status: **operating** | Country: Indonesia
+Two new offshore platforms plus an expandable hub platform; 13 new production wells; infill wells from existing VR-A and VR-B platforms | Onshore third liquefaction train of 3.8 Mtpa; new LNG jetty and expanded loading facilities | Unmanned offshore platforms and subsea pipelines EPCI by Saipem; platform/flowline tie-ins to existing onshore LNG plant; two 19 km and 18 km multiphase subsea pipelines, 24 in | Saipem (offshore EPCI and overall completion); CSTS JV (Chiyoda, Saipem, Tripatra, Suluh Ardhi Engineering) onshore marine construction; RJK JV (Rekin/Rekayasa Industri, KBR, JGC Indonesia) onshore FEED; McConnell Dowell jetty with HR Wallingford navigation studies; SB Submarine Systems cables | Not stated in the fetched project page; gap | 11.4 Mtpa LNG total (3 x 3.8 Mtpa), ~50% increase Estimated expansion project cost / CAPEX: USD 8000000000 — dollar year not stated (Offshore Technology project profile: 'The project, with an estimated cost of $8bn' and 'Estimated Investment $8bn') Two new offshore platforms plus an expandable hub platform; 13 new production wells; infill wells from existing VR-A and VR-B platforms | Onshore third liquefaction train of 3.8 Mtpa; new LNG jetty
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
+
 ### TAQA Atrush desalting equipment, Kurdistan Region of Iraq (wh-taqa-atrush-desalting-equipment-kurdistan-region-of-iraq)
 Status: **operating** | Country: Iraq
 50,000 BOPD facility; 2 electrostatic dehydrators and 2 crude cross exchangers, designed/fabricated/tested by SPEC, 2019.
@@ -2967,6 +3061,12 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: NO
 natural-gas production platform; gravity-based substructure about 472 m total height in about 300 m water depth, about 245,000 m3 concrete, about 683,600 t unballasted weight
 Technologies: ups-fixed-jackets-gravity-structures
+
+### Troll A platform (cost-troll-a-platform)
+Status: **operating** | Country: Norway (Troll gas field, North Sea)
+Condeep concrete gravity-base structure (GBS), four legs, reinforced concrete | Integrated gas processing topsides; later compressor modules M12 | Base built at Vats, Rogaland; towed >200 km over seven days (10-17 May 1995); lowered to seabed and penetrated 36 m into soil; no mooring required | Norwegian Contractors (base construction), for Norske Shell | 303 m | Gas from 40 wells exported to Kollsnes; Guinness record largest offshore gas platform (1996) base construction cost: USD 4150 — dollar year not stated (Cost of constructing the Troll A base; Wikipedia notes approx. USD 650 million 'at the time' and cites Norges Bank exchange rate) Condeep concrete gravity-base structure (GBS), four legs, reinforced concrete | Integrated gas processing topsides; later compressor modules M12 | Base built at Vats, Rogaland; towed >200 km over seven days (10-17 May 1995); lowered to seabed and penetrated 36 m into soil; no mooring required | Norwegian Contractors (base construction), for Norske Shell | 303 m | Gas from 40 wells exported to Kollsnes; Guinness record largest offshore gas platform (1996) base construction cost: USD 4150 — dollar year not stated (Cost of constructing the Troll A b
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
 
 ### Troll B (pf-troll-b)
 Status: **operating** | Country: Norway
@@ -3093,6 +3193,17 @@ Status: **proposed** | Country: GB
 9-5/8 x 13-3/8 in bismuth plug set on a platform well; NZTC covered Wellstrom's cost, up-front testing and third-party costs
 Technologies: ups-thermite-bismuth-plugs
 
+### Abadi LNG (Masela) (cost-abadi-lng-masela)
+Status: **under-construction** | Country: Indonesia
+Floating Production Storage and Offloading (FPSO) unit plus subsea facilities, risers and flowlines (SURF) and a gas export pipeline, feeding an onshore LNG plant | Onshore LNG plant with CCS; FPSO process topsides | Subsea tieback to FPSO; gas export pipeline to onshore liquefaction; four EPC packages (onshore LNG, FPSO, SURF, gas export pipeline) in tender as of November 2026 (search-verified only) | FEED participants: Saipem, Tripatra, McDermott, Technip, JGC, TEN, KBR Indonesia, PT Adhi Karya, Samsung E&A, Worley (Kompas, search-verified). EPC tender launched November 2026 with Technip-led and Saipem-led consortia pairing Chinese yards (COSCO Shipping Heavy Industry and COOEC) - search-verified only, no contract awarded. | 400-800 m (Chinese industry article, search-verified only; not stated in fetched sources) | 9.5 Mtpa LNG; 150 MMSCFD domestic pipeline gas; up to 35,000 bbl/d condensate; ~10.5 Mtpa LNG-equivalent total gas production Floating Production Storage and Offloading (FPSO) unit plus subsea facilities, risers and flowlines (SURF) and a gas export pipeline, feeding an onshore LNG plant | Onshore LNG plant with CCS; FPSO process topsides | Subsea tieback to FPSO; gas 
+Technologies: civ-offshore-platform-structures
+
+### Brent field (development and decommissioning) (cost-brent-field-development-and-decommissioning)
+Status: **under-construction** | Country: United Kingdom (East Shetland Basin, North Sea)
+Four fixed platforms: Brent Alpha steel jacket; Brent Bravo, Charlie and Delta concrete gravity/Condeep structures; plus Brent Spar spar storage buoy | Drilling, production, storage and accommodation topsides (14,762-23,194 t per installation) | Platforms installed 1975-1978; topsides removed by single-lift using Pioneering Spirit (Delta 2017, Bravo 2019); GBS legs left in place | Norwegian Contractors (Condeep bases); Redpath Dorman Long (Alpha jacket); McAlpine/Sea Tank (Charlie); Allseas (removal) | 140-142 m (~470 ft) | Peak 504,000 bpd (1982); ~3 billion boe produced initial field development investment: 3 GBP billion (Total initial investment required to develop the field, install infrastructure, drill wells and bring oil and gas to shore) mid-1990s field upgrade: 1.3 GBP billion (Upgrade project to depressurise the reservoir and modify three of four platforms for low-pressure operation) Four fixed platforms: Brent Alpha steel jacket; Brent Bravo, Charlie and Delta concrete gravity/Condeep structures; plus Brent Spar spar storage buoy | Drilling, production, storage and accommodation topsides (14,762-23,194 t per installation) | Platforms installed 1975-1978; topsides removed
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
+
 ### Hutton TLP (first tension leg platform) (pf-hutton-tlp-first-tension-leg-platform)
 Status: **under-construction** | Country: United Kingdom
 substructure_type: Conventional TLP, 16 tension legs — first TLP in the world | topside_type: Production topsides with accommodation (later redeployed to Prirazlomnoye) | water_depth: Designed for 100-1,000 m North Sea depths | topside_weight: 46,500-55,000 t when moored; up to 61,580 t floating freely | installation_method: Hull built in Highland Fabricators' Nigg dry dock (north Scotland); deck built at McDermott's Ardersier yard; two parts mated in the Moray Firth in 1984 | contractor: Highland Fabricators (hull); McDermott (deck) | dates: Built early 1980s; mated 1984; 25-year original design life
@@ -3132,6 +3243,12 @@ Technologies: civ-offshore-platform-structures
 Status: **under-construction** | Country: Norway
 substructure_type: Condeep concrete gravity base structure (notable failure case) | topside_type: Not stated on page read | water_depth: 82 m | topside_weight: Not stated on page read | installation_method: Original concrete structure sank during trials in Gandsfjord on 23 Aug 1991; a new structure was built and deployed in 1993 | contractor: Norwegian Contractors (Condeep) | dates: 1991 sinkage; 1993 deployment
 Technologies: civ-offshore-platform-structures
+
+### Yme field redevelopment (MOPUstor) and Yme New Development (cost-yme-field-redevelopment-mopustor-and-yme-new-development)
+Status: **under-construction** | Country: Norway (Egersund Basin, North Sea)
+Jack-up production facility: Maersk Giant (original), MOPUstor jack-up with subsea storage tank (Talisman), Maersk Inspirer jack-up (Repsol) | Mobile offshore production unit topsides; subsea storage tank; submerged loading system | MOPUstor built by SBM Offshore, installed 2011; cracks in leg grouting found 2012; single-lift removal by Pioneering Spirit August 2016; new jack-up installed late 2020 | SBM Offshore (MOPUstor design/construction); Odim (workover jack-up); Adyard (hull/topsides fabrication); Technip (flowlines/umbilicals); Maersk Drilling (rigs); Allseas (removal) | 93 m | ~60 million barrels recoverable; maximum 40,000 bpd estimated field development investment: USD 629.5 — dollar year not stated (Estimated investment in the Yme field development (Offshore Technology project profile)) planned further investment: USD 800 — dollar year not stated (Further investment Talisman planned after the initial expenditure) project writedown: USD 250 — dollar year not stated (Talisman writedown announced May 2011 on the Yme project after commissioning delays) subsea installation contract: USD 155 — dollar year not stated (Technip contract for rigid flowlines, umbilicals, tie-ins, 
+Technologies: civ-offshore-platform-structures
+Recorded gaps: Dollar year not stated for some published costs
 
 ## WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 

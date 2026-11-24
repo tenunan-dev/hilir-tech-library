@@ -1,0 +1,30 @@
+{
+  "id": "cost-nao-org-uk-oil-and-gas-in-the-uk-offshore-decommissioning",
+  "name": "Installation cost benchmark",
+  "url": "https://www.nao.org.uk/press-releases/oil-and-gas-in-the-uk-offshore-decommissioning",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Nao.Org.Uk",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. OGA June 2018 estimate: £45-77bn (10th-90th percentiles), central £58.3bn; HMRC estimates taxpayer cost via reliefs £24bn over 2018-19 to 2062-63; 49% of estimates accurate to -20% Evidence: https://www.nao.org.uk/press-releases/oil-and-gas-in-the-uk-offshore-decommissioning"
+}

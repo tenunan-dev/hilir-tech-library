@@ -1,0 +1,30 @@
+{
+  "id": "cost-offshore-energy-biz-norway-dof-subsea-gets-contract-for-goli",
+  "name": "Installation cost benchmark",
+  "url": "https://www.offshore-energy.biz/2011/07/11/norway-dof-subsea-gets-contract-for-goliat-fpso-marine-installation-activities",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Energy.Biz",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. DOF Subsea Norway contract from Eni Norge, July 2011-December 2013: fabrication and installation of 14 suction anchors, pre-installation of bottom chain, polyester line and buoyanc Evidence: https://www.offshore-energy.biz/2011/07/11/norway-dof-subsea-gets-contract-for-goliat-fpso-marine-installation-activities"
+}

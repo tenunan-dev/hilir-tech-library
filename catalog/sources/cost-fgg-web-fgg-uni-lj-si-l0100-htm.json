@@ -1,0 +1,30 @@
+{
+  "id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm",
+  "name": "Installation cost benchmark",
+  "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Fgg Web.Fgg.Uni Lj.Si",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. 'The CAPEX of an installed offshore platform topside amounts to approximately 20 ECU/kg.' Also states a typical offshore field development splits CAPEX one third platform, one thir Evidence: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
+}

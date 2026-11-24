@@ -1,0 +1,30 @@
+{
+  "id": "cost-businesskorea-co-kr-articleview-html",
+  "name": "Prelude FLNG — cost",
+  "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=18504",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Businesskorea.Co.Kr",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the project-cost sweep. BusinessKorea: Samsung Heavy won the Prelude FLNG project in 2011 'at the cost of US$3.4 billion (3.89 trillion won)' Evidence: https://www.businesskorea.co.kr/news/articleView.html?idxno=18504"
+}

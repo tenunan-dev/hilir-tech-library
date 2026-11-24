@@ -1,0 +1,32 @@
+{
+  "id": "cost-johan-sverdrup-field-development",
+  "name": "Johan Sverdrup field development",
+  "country": "Norway (North Sea, Utsira High)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Fixed steel jacket platforms (P1 production, DP drilling, RP riser, LQ living quarters, P2 Phase 2); shore power via HVDC | Production, drilling, riser and accommodation topsides; Phase 2 P2 220,000 bpd | Jackets built at Kvaerner Verdal and Dragados Spain; installed in 110-120 m water; hookup by Kvaerner/Aker Solutions | Aker Solutions (FEED, RP and P1, hookup); Aibel (FEED, DP, P2); Kvaerner (three jackets, hookup); Dragados (LQ jacket); Saipem | 110-120 m | 755,000 bpd plateau (Phase 1 440,000 bpd; Phase 2 adds 220,000 bpd) development cost announced at sanction: USD 29 — dollar year not stated (Statoil announcement to develop Johan Sverdrup, 13 February 2015, reported as a USD 29 billion field development) development cost paid back: 83 NOK billion (Cost of NOK 83 billion reported as paid off after 16 months of operation (Teknisk Ukeblad, 11 February 2021)) Fixed steel jacket platforms (P1 production, DP drilling, RP riser, LQ living quarters, P2 Phase 2); shore power via HVDC | Production, drilling, riser and accommodation topsides; Phase 2 P2 220,000 bpd | Jackets built at Kvaerner Verdal and Dragados Spain; installed in 110-120 m water; hookup by Kvaerner/Aker Solutions | Ak",
+  "capex": [],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Johan_Sverdrup_oil_field&action=raw"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

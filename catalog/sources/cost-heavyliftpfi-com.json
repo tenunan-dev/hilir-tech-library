@@ -1,0 +1,30 @@
+{
+  "id": "cost-heavyliftpfi-com",
+  "name": "Installation cost benchmark",
+  "url": "https://www.heavyliftpfi.com/shipping/2019/09/09/heeremas-sleipnir-sets-new-world-record-lifting-15300-tonnes/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Heavyliftpfi.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Source states only 'Rates for vessels like Sleipnir usually amount to several hundred thousand dollars a day.' No number is published — recorded as a gap, not converted to a figure Evidence: https://www.heavyliftpfi.com/shipping/2019/09/09/heeremas-sleipnir-sets-new-world-record-lifting-15300-tonnes/"
+}

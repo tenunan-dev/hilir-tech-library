@@ -1,0 +1,32 @@
+{
+  "id": "cost-kizomba-a-b-c-deepwater-project",
+  "name": "Kizomba A / B / C deepwater project",
+  "country": "Angola (Block 15)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Kizomba A: extended-leg TLP (dry tree, ABB ETLP design) plus subsea completions; B: surface wellhead platform and subsea wells; C: subsea wells only | TLP dry-tree topsides (two 6,000 t modules, 7,500 t drilling rig) tied to FPSO; FPSO processing/storage topsides | TLP hull towed from Rotterdam; FPSOs built in Korea and towed to field; subsea tiebacks to FPSOs | ABB (TLP design); Hyundai Heavy Industries (FPSOs); McDermott (TLP detailed engineering); Saipem; SBM Offshore | 1,250 m (Kizomba A TLP); ~1,000-1,400 m (discoveries); 4,425 ft stated for project | Kizomba A target 250,000 bpd; B target 250,000 bpd; C 100,000 bpd from Saxi/Batuque; ~2 billion boe recoverable Kizomba A FPSO construction cost: USD 800 — dollar year not stated (Construction cost of the Kizomba A FPSO by Hyundai Heavy Industries) Kizomba A development investment: USD 3.2 — dollar year not stated (Estimated total investment in Kizomba A development (TLP + FPSO + wells)) Kizomba B project cost: USD 3 — dollar year not stated (Construction/development cost of the Kizomba B project, started early 2003) Kizomba B FPSO allocation: USD 750 — dollar year not stated (Amount earmarked by ExxonMobil for the Kizomba B FPSO",
+  "capex": [],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/kizomba-offshore-field-deepwater-project/"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

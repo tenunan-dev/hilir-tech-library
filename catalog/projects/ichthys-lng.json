@@ -8,7 +8,7 @@
   ],
   "country": "Australia",
   "status": "operating",
-  "description": "LNG plant with gas-phase mercury removal units ahead of acid gas removal.",
+  "description": "LNG plant with gas-phase mercury removal units ahead of acid gas removal. Semi-submersible Central Processing Facility (CPF) plus Floating Production Storage and Offloading (FPSO) vessel for condensate; subsea well development | CPF process topsides (described by Total as one of the largest in the world); onshore two-train LNG plant at Bladin Point, 4.2 Mtpa per train | Subsea wells tied back to CPF; gas exported by 889 km subsea pipeline to Darwin; condensate offloaded from FPSO to carriers | JV operator INPEX with Total; ~75% of EPC contract value was lump-sum (INPEX 2014 annual report, search-verified). Named contractors from search only: McDermott/Heerema subsea flowline, Saipem pipelay, Mitsui/Europipe/Sumitomo/Nippon Steel/Metal One line pipe (Industrial Info, search-verified) - not confirmed by a fetched page. | 260 m (TotalEnergies FID release, fetched) | 8.4 Mtpa LNG at FID (2 x 4.2 Mtpa); 1.6 Mtpa LPG; ~100,000 bbl/d condensate at peak; INPEX currently quotes up to 9.3 Mtpa LNG and 1.65 Mtpa LPG Semi-submersible Central Processing Facility (CPF) plus Floating Production Storage and Offloading (FPSO) vessel for condensate; subsea well development | CPF process topsides (de",
   "technologies": [
     "gas-mercury-removal"
   ],
@@ -18,7 +18,7 @@
       "note": "INPEX project page; NT EPA onshore EMP confirms gas-phase MRUs ahead of the AGRUs, read 2026-11-16"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-24",
   "milestones": [
     {
       "source": {
@@ -27,6 +27,44 @@
       },
       "date": "2018",
       "event": "start-up / delivery"
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Total project CAPEX / investment at FID",
+      "value": 34000000000,
+      "unit": "USD",
+      "basis": "INPEX and Total FID announcement: 'US$34 billion Ichthys LNG Project'; CAPEX line in INPEX project summary",
+      "year": 2012,
+      "source": {
+        "url": "https://www.inpex.com.au/news-and-updates/media-centre/media-releases/final-investment-decision-on-ichthys-lng-project/",
+        "note": "INPEX and Total FID announcement: 'US$34 billion Ichthys LNG Project'; CAPEX line in INPEX project summary",
+        "source_id": "cost-inpex-com-au"
+      }
+    },
+    {
+      "metric": "Total project investment at FID (JV partner statement)",
+      "value": 34000000000,
+      "unit": "USD",
+      "basis": "Total/TotalEnergies press release: 'investment of US$34 billion dollars'; Total holds 24%",
+      "year": 2012,
+      "source": {
+        "url": "https://totalenergies.com/newsroom/australie-total-et-inpex-lancent-ichthys-projet-strategique-de-gnl-offshore/?lang=eng",
+        "note": "Total/TotalEnergies press release: 'investment of US$34 billion dollars'; Total holds 24%",
+        "source_id": "cost-totalenergies-com"
+      }
+    },
+    {
+      "metric": "Development cost at FID (trade press)",
+      "value": 34000000000,
+      "unit": "USD",
+      "basis": "Oil & Gas Journal: '$34 billion development'",
+      "year": 2012,
+      "source": {
+        "url": "https://www.ogj.com/pipelines-transportation/lng/article/17273248/inpex-total-make-fid-for-ichthys-lng-project",
+        "note": "Oil & Gas Journal: '$34 billion development'",
+        "source_id": "cost-ogj-com-inpex-total-make-fid-for-ichthys-lng-project"
+      }
     }
   ]
 }

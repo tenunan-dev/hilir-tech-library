@@ -1,0 +1,30 @@
+{
+  "id": "cost-en-wikipedia-org-index-php",
+  "name": "Prelude FLNG — cost",
+  "url": "https://en.wikipedia.org/w/index.php?title=Floating_liquefied_natural_gas&action=raw",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "En.Wikipedia.Org",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Investment announced by Shell to build the Prelude FLNG facility; source gives announcement date 20 May 2011 but no explicit price-year label Evidence: https://en.wikipedia.org/w/index.php?title=Floating_liquefied_natural_gas&action=raw"
+}

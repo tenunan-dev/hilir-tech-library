@@ -1,6 +1,6 @@
 # CIV: Civil and structural
 
-492 sources. Sub-topics: structural-steel, foundations-piling, pipe-racks, modular-construction, ibs, offshore-structures, floating-structures, concrete, blast-resistance, fireproofing, seismic, temporary-works-lifting.
+568 sources. Sub-topics: structural-steel, foundations-piling, pipe-racks, modular-construction, ibs, offshore-structures, floating-structures, concrete, blast-resistance, fireproofing, seismic, temporary-works-lifting.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -68,6 +68,7 @@
 | [Boskalis — Boskalis Bokalift 1 / Bokalift 2 crane capacity](https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Boskalis — NASR field jacket net installed weight](https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate) | oem-supplier | global, apac, sea | open | summary-only |
 | [BP Berau Ltd / Sucofindo / Asian Development Bank (Operator's EHS Report)](https://www.adb.org/sites/default/files/project-documents/49222/49222-001-esmr-en_7.pdf) | agency-data | global, apac, sea, na | open | summary-only (unverified) |
+| [Brent field (development and decommissioning) — cost](https://en.wikipedia.org/w/index.php?title=Brent_oilfield&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
 | [Bridgestone — Bridgestone seismic isolation product line](https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html) | oem-supplier | global, apac, sea | open | summary-only |
 | [Bridgestone — Tohoku University seismic isolation test buildings](https://www.bridgestone.com/products/diversified/antiseismic_rubber/pdf/leaflet_en_202210.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [British Standards Institution (BSI)](https://www.normsplash.com/Samples/BSI/194347938/BS-6349-4-2014-en.pdf) | agency-data | global, apac, sea | open | summary-only |
@@ -149,6 +150,7 @@
 | [Fyfe / CS-NRI — FRP fire protection](https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions) | oem-supplier | global, apac, sea | open | summary-only |
 | [GEOfabrics Limited](https://geofabrics.com/wp-content/uploads/2024/02/Coastal-Brochure.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Goldhofer — Goldhofer THP/SL axle load](https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl) | oem-supplier | global, apac, sea | open | summary-only |
+| [Gorgon Gas Project — cost](https://en.wikipedia.org/w/index.php?title=Gorgon_gas_project&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
 | [Hai Nam](https://www.hainamsi.com/wp-content/uploads/2024/11/05.-Catalog-Cable-Tray-.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [HAIL](https://hail.ltd/locations/overseas-storage-tank-contractor) | oem-supplier | global, apac, sea | open | summary-only |
 | [Halliburton](https://www.halliburton.com/en/completions/well-intervention-and-diagnostics/hydraulic-workover) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -169,6 +171,7 @@
 | [Html.Rhhz.Net — South China Sea FLNG side-by-side layout](https://html.rhhz.net/jckxjsgw/html/51228.htm) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Huisman Equipment](https://www.huismanequipment.com/en/1007-4_Huisman-awarded-with-contract-for-world-s-largest-Leg-Encircling-Crane?p=1) | oem-supplier | global, apac, sea | open | summary-only |
 | [Hydropneumatic S.r.l.](https://www.hydropneumatic.it/HydroPneumatic/DataSheets/HYPN-DataSheet-WHCP-CIS-DS-R0-Wellhead-Injection-Skids.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [Ichthys LNG (Ichthys gas field) — cost](https://en.wikipedia.org/w/index.php?title=Ichthys_gas_field&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
 | [Iconeng.Com.Au — MMC D1 cluster WHSF, D30 and Dana fields, offshore Sara](https://www.iconeng.com.au/track-record/projects/d1-cluster-development-wellhead-support-frames-whs) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Igs.Org.In — Indian railway embankment soft-ground improvement](https://igs.org.in/storage/proceedings-uploads/TH-08-108-160523094501.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [IGSB](https://www.igsb.eu/en/faq) | oem-supplier | global, apac, sea | open | summary-only |
@@ -179,6 +182,9 @@
 | [INPEX — Ichthys Gas Export Pipeline (GEP)](https://www.inpex.com.au/media/lldoewsu/offshore-terminal-regulations-manual-february-2019.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [INPEX — Ichthys LNG — Central Processing Facility and FPSO](https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [INPEX — Ichthys LNG — Central Processing Facility and FPSO](https://www.inpex.com/english/ichthys/concept.html) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
+| [Installation cost benchmark](https://www.bsee.gov/sites/bsee.gov/files/2026-06/2025%20POCSR%20Decommissioning%20Cost%20Study%20%E2%80%93%20Final%20Report.pdf) | agency-data | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.bsee.gov/sites/bsee.gov/files/2023-03/738aa1%5B1%5D.pdf) | agency-data | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.nao.org.uk/press-releases/oil-and-gas-in-the-uk-offshore-decommissioning) | agency-data | global, apac, na, eu | open | summary-only |
 | [INTECH Automation & Intelligence](https://www.intechww.com/skids-packages/wellhead-solutions/wellhead-control-panels) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [IntechOpen (chapter 'Mechanics of Deepwater Steel Catenary Riser', China University of Petroleum / Offshore Oil Engineering Co.)](https://cdn.intechopen.com/pdfs/19441/InTech-Mechanics_of_deepwater_steel_catenary_riser.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [IntechOpen (Geotechnical Response Models for Steel Compliant Riser in Deepwater Clays)](https://cdn.intechopen.com/pdfs/66629.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
@@ -197,12 +203,14 @@
 | [ITOPF (International Tanker Owners Pollution Federation)](https://itopf.org/fileadmin/uploads/itopf/data/Documents/TIPS_TAPS_new/TIP_3_Use_of_Booms_in_Oil_Pollution_Response.pdf) | agency-data | global, apac, sea | open | summary-only |
 | [Jan De Nul](https://www.jandenul.com/fleet/heavy-lift-vessels) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Jan De Nul / Hitachi consortium](https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm) | oem-supplier | global, apac, sea | open | summary-only |
+| [Johan Sverdrup field development — cost](https://en.wikipedia.org/w/index.php?title=Johan_Sverdrup_oil_field&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
 | [Johnson Controls — Johnson Controls product scope](https://www.johnsoncontrols.com/oil-and-gas/production-systems) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Jotun](https://www.jotun.com/ww-en/products-and-services/products/Antifouling-SeaGuardian) | oem-supplier | global, apac, sea | open | summary-only |
 | [Journal of Petroleum Technology (SPE)](https://jpt.spe.org/mastering-produced-water-management-in-deepwater-gom-25-years-of-insights-part-2) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [Journal of Petroleum Technology (SPE)](https://jpt.spe.org/ongc-seeks-technical-help-to-boost-offshore-production) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
 | [Jpt.Spe.Org — Johan Sverdrup Phase 1 riser and processing platforms](https://jpt.spe.org/johan-sverdrup-living-quarters-topside-sails-away-field) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Jpt.Spe.Org — Olympus TLP accommodation](https://jpt.spe.org/shell-deploys-next-generation-tlp-extended-field-development-gom) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
+| [Kashagan field development (Island D artificial islands) — cost](https://en.wikipedia.org/w/index.php?title=Kashagan_Field&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
 | [Kiewit Offshore Services](https://www.ogj.com/home/article/17282333/fabricating-the-single-lift-topsides) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Kinder Morgan — Amine regeneration temperature](https://www.kindermorgan.com/Operations/KM-Treating/News/How-Amine-Treating-Sweetens-Natural-Gas) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Kinder Morgan — Dehydrator capacity range](https://www.kindermorgan.com/Operations/KM-Treating/Products/Dehydration) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -212,7 +220,9 @@
 | [Layher — Layher Allround connections per rosette](https://www.layher.com/en/products/allroundscaffolding) | oem-supplier | global, apac, sea | open | summary-only |
 | [Liebherr](https://www.liebherr.com/shared/media/maritime-cranes/downloads-and-brochures/brochures/offshore-cranes/liebherr-offshore-cranes-product-range_en.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Liebherr (Deep Foundation)](https://www.liebherr.com/en-us/p/lrb23-4424791) | oem-supplier | global, apac, sea | open | summary-only |
+| [Liwan Gas Project (Liwan 3-1 / Liuhua 34-2 / Liuhua 29-1) — cost](https://www.sec.gov/Archives/edgar/data/49279/000119312514123595/d705225dex991.htm) | agency-data | global, apac, na, eu | open | summary-only |
 | [LNG Canada Development Inc.](https://lngcanada.ca/wp-content/uploads/C000-000-OA-9020-0007_R4_LNGCanadaTerminalInformationGuide.pdf) | agency-data | global, apac, sea | open | summary-only |
+| [Malampaya Gas-to-Power Project — cost](https://en.wikipedia.org/w/index.php?title=Malampaya_gas_field&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
 | [Malampaya.Com — Malampaya Depletion Compression Platform (DCP, Phase 3)](https://malampaya.com/malampaya-begins-gas-production-from-new-offshore-platform/) | oem-supplier | global, apac, sea, eu, na | open | summary-only (unverified) |
 | [Malaysia Marine & Heavy Engineering](https://www.upstreamonline.com/field-development/mmhe-wins-platform-epc-prize-for-shell-s-malaysia-gas-project/2-1-1331945) | oem-supplier | global, apac, sea | open | summary-only |
 | [Malaysia Marine & Heavy Engineering (MHB/MMHE)](https://www.mhb.com.my) | oem-supplier | global, apac, sea | open | summary-only |
@@ -307,6 +317,8 @@
 | [Pillar Consulting Group](https://pillar-inc.com/wp-content/uploads/2017/06/INDUSTRIAL-MARKET-Project-Profile-02-Industrial-Blast-Walls.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Porthosco2.Nl — Porthos CO2 injection host](https://www.porthosco2.nl/en) | oem-supplier | global, apac, sea | open | summary-only |
 | [Portland Bolt](https://www.portlandbolt.com/technical/specifications/astm-f3125) | oem-supplier | global, apac, sea | open | summary-only |
+| [Prelude FLNG — cost](https://en.wikipedia.org/w/index.php?title=Floating_liquefied_natural_gas&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
+| [Prelude FLNG — cost](https://en.wikipedia.org/wiki/Prelude_FLNG) | research-institute | global, apac, na, eu | open | summary-only |
 | [Proserv](https://proserv.com/technology-solution/subsea-control-systems/subsea-control-module/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Prysmian](https://www.prysmian.com/en/markets/transmission/submarine-power/offshore-specialties) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Prysmian — Sapinhoa pre-salt](https://www.prysmian.com/en/insight/construction-and-industries/subsea-umbilicals-risers-and-flowlines-surf) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -420,6 +432,7 @@
 | [Trelleborg — Trelleborg QRH installed base and service dates](https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/docking-and-mooring/quick-release-hooks) | oem-supplier | global, apac, sea | open | summary-only |
 | [Trelleborg.Com — Float-over hardware set](https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Trimble — Trimble S9 angular accuracy](https://geospatial.trimble.com/en/products/hardware/trimble-s9) | oem-supplier | global, apac, sea | open | summary-only |
+| [Troll A platform — cost](https://en.wikipedia.org/w/index.php?title=Troll_A_platform&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
 | [U.S. Bureau of Ocean Energy Management (BOEM)](https://boem.gov/sites/default/files/documents/environment/Wind-Turbine-Foundations-White%20Paper-Final-White-Paper.pdf) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [U.S. Bureau of Ocean Energy Management (BOEM)](https://boem.gov/sites/default/files/documents/environment/Wind-Turbine-Foundations-White%20Paper-Final-White-Paper.pdf) | agency-data | global, apac, sea | open | summary-only |
 | [U.S. Bureau of Safety and Environmental Enforcement (BSEE), Technical Assessment Program](https://www.bsee.gov/sites/bsee.gov/files/tap-technical-assessment-program/670aa.pdf) | agency-data | global, apac, sea, eu, na | open | summary-only |
@@ -489,9 +502,72 @@
 | [Wikipedia — typical water depth](https://en.wikipedia.org/wiki/Compliant_tower) | research-institute | global, apac, sea, eu, na | open | summary-only |
 | [Wikipedia — typical water depth](https://en.wikipedia.org/wiki/Jackup_rig) | research-institute | global, apac, sea, eu, na | open | summary-only |
 | [Wikipedia — water-depth capability by vintage](https://en.wikipedia.org/wiki/Drillship) | research-institute | global, apac, sea, eu, na | open | summary-only |
+| [Yme field redevelopment (MOPUstor) and Yme New Development — cost](https://en.wikipedia.org/w/index.php?title=Yme_field&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
 | [Yokohama Rubber — Pneumatic 50 — guaranteed energy absorption (GEA) ](https://www.y-yokohama.com/global/product/mb/fenders/floating/) | oem-supplier | global, apac, sea | open | summary-only |
 | [ØlenBetong](https://www.equinor.com/magazine/new-industrial-chapter) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Ørsted / Danish Energy Agency (Tethys/ENS host)](https://tethys.pnnl.gov/sites/default/files/publications/Anholt_StabilisationofCableProtectionSystemsandCablesatScourProtectedMonopileLocationsandtheOffshoreSubstation.pdf) | agency-data | global, apac, sea | open | summary-only (unverified) |
+| [Aasta Hansteen spar and Polarled pipeline — cost](https://www.equinor.com/en/news/2018-12-17-aasta-hansteen.html) | trade-media | global, apac, na, eu | open | summary-only |
+| [Abadi LNG (Masela) — cost](https://en.antaranews.com/news/422873/indonesia-launches-us209-billion-abadi-masela-lng-project) | trade-media | global, apac, na, eu | open | summary-only |
+| [Abadi LNG (Masela) — cost](https://en.antaranews.com/news/438211/inpex-completes-abadi-masela-lng-feed-ahead-of-schedule) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Abadi LNG (Masela) — cost](https://www.gem.wiki/Abadi_LNG_Terminal) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Abadi LNG (Masela) — cost](https://www.kompas.id/artikel/masela-abadi-field-project-to-enter-final-investment-evaluation-soon) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Bongkot and Erawan gas fields (G2/61 and G1/61) — cost](https://www.bangkokpost.com/business/general/2734825/pttep-to-hike-gas-output) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Bongkot and Erawan gas fields (G2/61 and G1/61) — cost](https://www.offshore-mag.com/field-development/article/16790389/pttep-confirms-long-term-management-of-thai-gas-fields) | trade-media | global, apac, na, eu | open | summary-only |
+| [Bongkot and Erawan gas fields (G2/61 and G1/61) — cost](https://www.pttep.com/en/newsroom/press-releases/454/pttep-pushes-forward-investment-plan-in-bongkot-and-erawan-creating-long-term-value-to-the-country-thai-people-and-company-s-growth) | trade-media | global, apac, na, eu | open | summary-only |
+| [Gorgon LNG (Gorgon Gas Development) — cost](https://www.abc.net.au/news/2013-12-12/gorgon-gas-project-cost-blowout/5151982) | trade-media | global, apac, na, eu | open | summary-only |
+| [Gorgon LNG (Gorgon Gas Development) — cost](https://www.geos.ed.ac.uk/sccs/project-info/27) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Hibernia oil field platform — cost](https://www.offshore-technology.com/projects/hibernia/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Ichthys LNG — cost](https://www.inpex.com.au/news-and-updates/media-centre/media-releases/final-investment-decision-on-ichthys-lng-project/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Ichthys LNG — cost](https://www.ogj.com/pipelines-transportation/lng/article/17273248/inpex-total-make-fid-for-ichthys-lng-project) | trade-media | global, apac, na, eu | open | summary-only |
+| [Ichthys LNG — cost](https://totalenergies.com/newsroom/australie-total-et-inpex-lancent-ichthys-projet-strategique-de-gnl-offshore/?lang=eng) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.borsaitaliana.it/mediasource/star/db/pdf/88483.pdf) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://breakbulk.com/articles/too-many-turbines-too-few-vessels) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://bvgassociates.com/wp-content/uploads/2022/04/BVGA-RVO-Future-Foundations-technical-sections-2204.pdf) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.energyvoice.com/oilandgas/north-sea/241343/uk-north-sea-to-dominate-global-decommissioning-spend-over-next-five-years/) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Installation cost benchmark](https://www.enr.com/articles/3557-removing-north-sea-oil-platforms-to-cost-76-billion) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Installation cost benchmark](https://eudp.dk/files/slutrapporter/64015-0625_slutrapport_rev2018-08-28.pdf) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.foundocean.com/news-resources/news/13998818/suction-bucket-foundations) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://guidetoanoffshorewindfarm.com/guide/b-balance-of-plant/b-2-turbine-foundation/b-2-2-jacket) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://guidetoanoffshorewindfarm.com/wind-farm-costs/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://guidetofloatingoffshorewind.com/guide/i-installation-and-commissioning/i-6-floating-offshore-wind-turbine-installation/i-6-1-tow-out/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://guidetofloatingoffshorewind.com/guide/i-installation-and-commissioning/i-1-offshore-substation-installation/i-1-1-substation-installation-vessel/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.heavyliftpfi.com/shipping/2019/09/09/heeremas-sleipnir-sets-new-world-record-lifting-15300-tonnes/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://iopscience.iop.org/article/10.1088/1755-1315/202/1/012024/pdf) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.nstauthority.co.uk/media/zvjbfauj/decommissioning-cost-and-performance-update-2025.pdf) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.oedigital.com/news/452131-counting-the-cost) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://oeuk.org.uk/wp-content/uploads/2020/11/Decommissioning-Insight.pdf) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.offshore-energy.biz/2011/07/11/norway-dof-subsea-gets-contract-for-goliat-fpso-marine-installation-activities) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.offshore-mag.com/decommissioning/article/55000962/center-for-energy-studies-louisiana-state-university-work-decomposition-methods-can-help-estimate-deepwater-platform-removal-costs) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.offshore-mag.com/decommissioning/article/14303886/center-for-energy-studies-louisiana-state-university-models-describe-bsee-deepwater-decommissioning-cost-estimates) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.offshore-mag.com/home/article/14288318/new-statistical-model-can-help-operators-estimate-shallow-water-platform-removal-costs) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.offshore-mag.com/field-development/article/16762279/pioneering-spirit-confirms-prowess-with-first-major-topsides-lift-at-johan-sverdrup) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://offshoreindustry.co.uk/offshore-heavy-lift-2026-crane-vessel-scarcity-sscv-market-dynamics-and-the-wind-sector-collision/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://repository.its.ac.id/915/1/4312100053-paper.pdf) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Installation cost benchmark](https://www.rivieramm.com/news-content-hub/north-seas-jack-up-pool-shrinks-as-rigs-move-to-more-lucrative-waters-80654) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://www.rivieramm.com/news-content-hub/rigs-report-north-sea-jack-up-utility-hits-94-79737) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Installation cost benchmark](https://s23.q4cdn.com/956522167/files/doc_downloads/2024/07292024-Fleet-Status-Report_FINAL.pdf) | trade-media | global, apac, na, eu | open | summary-only |
+| [Installation cost benchmark](https://splash247.com/allseas-taps-aker-solutions-for-massive-topside-dismantling-job/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Kizomba A / B / C deepwater project — cost](https://www.offshore-technology.com/projects/kizomba-offshore-field-deepwater-project/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Liwan Gas Project (Liwan 3-1 / Liuhua 34-2 / Liuhua 29-1) — cost](https://www.offshore-mag.com/subsea/article/16757093/liwan-marks-first-ever-deepwater-gas-development-offshore-china) | trade-media | global, apac, na, eu | open | summary-only |
+| [Malampaya Deep Water Gas-to-Power Project — cost](https://www.officialgazette.gov.ph/2012/01/24/malampaya-consortium-remits-1-134-b-to-government) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Malampaya Deep Water Gas-to-Power Project — cost](https://www.ogj.com/drilling-production/production-operations/article/17261643/oct-1-startup-due-for-malampaya-gas-field-project-off-philippines) | trade-media | global, apac, na, eu | open | summary-only |
+| [Malampaya Deep Water Gas-to-Power Project — cost](https://sarpn.org/documents/d0002569/7-WRI_Community_dev_May2007.pdf) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Petronius platform — cost](https://www.offshore-technology.com/projects/petronius/) | trade-media | global, apac, na, eu | open | summary-only |
+| [PFLNG DUA (PETRONAS Floating LNG 2) — cost](https://lng2030.com/project/lng_223) | trade-media | global, apac, na, eu | open | summary-only |
+| [PNG LNG Project — cost](https://chemanager-online.com/en/news/exxon-s-png-lng-project-costs-balloon-to-19-billion) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [PNG LNG Project — cost](https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/files/PNGLNGreport.pdf) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [PNG LNG Project — cost](https://investor.exxonmobil.com/company-information/press-releases/detail/564/exxonmobil-starts-production-ahead-of-schedule-at-png-lng) | trade-media | global, apac, na, eu | open | summary-only |
+| [Prelude FLNG — cost](https://www.bbc.com/news/technology-25213845) | trade-media | global, apac, na, eu | open | summary-only |
+| [Prelude FLNG — cost](https://www.blackridgeresearch.com/project-profiles/all-about-prelude-shell-flng-floating-liquified-natural-gas-ship-project-australia-oceania) | trade-media | global, apac, na, eu | open | summary-only |
+| [Prelude FLNG — cost](https://www.businesskorea.co.kr/news/articleView.html?idxno=18504) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Prelude FLNG — cost](https://gcaptain.com/samsung-shells-flng-facility/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Prelude FLNG — cost](https://jpt.spe.org/twa/prelude-flng-takes-seas) | trade-media | global, apac, na, eu | open | summary-only |
+| [Prelude FLNG — cost](https://www.offshore-technology.com/projects/shell-project/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Prelude FLNG — cost](https://www.ogj.com/pipelines-transportation/lng/article/17266891/shell-moving-ahead-with-prelude-floating-lng-project) | trade-media | global, apac, na, eu | open | summary-only |
+| [Tangguh LNG Train 3 Expansion — cost](https://www.offshore-technology.com/projects/tangguh-expansion-project-papua-barat/) | trade-media | global, apac, na, eu | open | summary-only |
+| [Tangguh LNG Train 3 Expansion — cost](https://www.wsj.com/articles/SB10001424052970204712904578094051528788578) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
+| [Yme field redevelopment (MOPUstor) and Yme New Development — cost](https://www.offshore-technology.com/projects/ymeegersundbasin/) | trade-media | global, apac, na, eu | open | summary-only |
 | [CB&I (McDermott) technologies](https://www.cbi.com) | licensor | global | open | full-text-restricted |
 | [Construction Industry Institute (CII)](https://www.construction-institute.org) | association | global | mixed | catalog-only |
 | [CSI Spring Support and Strut Selection Guide](https://www.csidesigns.com/PDFs/SSSguide.pdf) | oem-supplier | global | open | catalog-only (unverified) |

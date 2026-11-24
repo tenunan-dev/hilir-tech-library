@@ -1,0 +1,30 @@
+{
+  "id": "cost-en-wikipedia-org-index-php-ae1203",
+  "name": "Kashagan field development (Island D artificial islands) — cost",
+  "url": "https://en.wikipedia.org/w/index.php?title=Kashagan_Field&action=raw",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "En.Wikipedia.Org",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. CNNMoney estimate of development cost as of 2012, described as the world's most expensive energy project Evidence: https://en.wikipedia.org/w/index.php?title=Kashagan_Field&action=raw"
+}

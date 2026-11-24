@@ -1,0 +1,30 @@
+{
+  "id": "cost-rivieramm-com-rigs-report-north-sea-jack-up-utility-hits-94",
+  "name": "Installation cost benchmark",
+  "url": "https://www.rivieramm.com/news-content-hub/rigs-report-north-sea-jack-up-utility-hits-94-79737",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Rivieramm.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the project-cost sweep. TotalEnergies / VALARIS Stavanger 330-day campaign from March 2024; approximate total contract value as reported. Evidence: https://www.rivieramm.com/news-content-hub/rigs-report-north-sea-jack-up-utility-hits-94-79737"
+}

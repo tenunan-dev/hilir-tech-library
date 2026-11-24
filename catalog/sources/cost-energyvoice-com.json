@@ -1,0 +1,30 @@
+{
+  "id": "cost-energyvoice-com",
+  "name": "Installation cost benchmark",
+  "url": "https://www.energyvoice.com/oilandgas/north-sea/241343/uk-north-sea-to-dominate-global-decommissioning-spend-over-next-five-years/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Energyvoice.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Rystad Energy forecast: nearly 300,000 t of topsides removed from UKCS by 2025; average removal cost more than £4,300/tonne. P&A ~45% of five-year decommissioning cost, platform re Evidence: https://www.energyvoice.com/oilandgas/north-sea/241343/uk-north-sea-to-dominate-global-decommissioning-spend-over-next-five-years/"
+}

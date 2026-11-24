@@ -1,0 +1,30 @@
+{
+  "id": "cost-chemanager-online-com-exxon-s-png-lng-project-costs-balloon",
+  "name": "PNG LNG Project — cost",
+  "url": "https://chemanager-online.com/en/news/exxon-s-png-lng-project-costs-balloon-to-19-billion",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Chemanager Online.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Exxon letter to partners: $3.3bn increase attributed to FX ($1.4bn), work stoppages/land access ($1.2bn) and rainfall ($700m) Evidence: https://chemanager-online.com/en/news/exxon-s-png-lng-project-costs-balloon-to-19-billion"
+}

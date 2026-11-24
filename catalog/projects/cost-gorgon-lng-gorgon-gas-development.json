@@ -1,0 +1,69 @@
+{
+  "id": "cost-gorgon-lng-gorgon-gas-development",
+  "name": "Gorgon LNG (Gorgon Gas Development)",
+  "country": "Australia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Onshore gas processing and LNG plant on Barrow Island (Class A nature reserve); offshore subsea wells and pipelines | Three LNG trains of 5.2 Mtpa each (15.6 Mtpa total) plus 300 TJ/d domestic gas plant, CO2 separation and injection facilities | Gas piped from offshore fields to Barrow Island; CO2 compressed and injected into the Dupuy Formation ~2,500 m below the island | Hyundai Heavy Industries reported as main contractor; GE supplied CO2 injection components (SCCS/University of Edinburgh record, search-verified only) | Not stated in the fetched sources; gap | 15.6 Mtpa LNG (three trains) and 300 TJ/d domestic gas (ABC, fetched) CO2 injection system cost (alternate currency reporting): 2000000000 AUD (SCCS/University of Edinburgh project record: 'cost of CCS system, AUD 2Bn') Onshore gas processing and LNG plant on Barrow Island (Class A nature reserve); offshore subsea wells and pipelines | Three LNG trains of 5.2 Mtpa each (15.6 Mtpa total) plus 300 TJ/d domestic gas plant, CO2 separation and injection facilities | Gas piped from offshore fields to Barrow Island; CO2 compressed and injected into the Dupuy Formation ~2,500 m below the island | Hyundai Heavy Industries reported ",
+  "capex": [
+    {
+      "metric": "Original project cost estimate",
+      "value": 37000000000,
+      "unit": "USD",
+      "basis": "FID-era estimate reported by ABC",
+      "year": 2009,
+      "source": {
+        "url": "https://www.abc.net.au/news/2013-12-12/gorgon-gas-project-cost-blowout/5151982",
+        "note": "FID-era estimate reported by ABC",
+        "source_id": "cost-abc-net-au-5151982"
+      }
+    },
+    {
+      "metric": "First revised cost estimate",
+      "value": 52000000000,
+      "unit": "USD",
+      "basis": "2012 Chevron cost review",
+      "year": 2012,
+      "source": {
+        "url": "https://www.abc.net.au/news/2013-12-12/gorgon-gas-project-cost-blowout/5151982",
+        "note": "2012 Chevron cost review",
+        "source_id": "cost-abc-net-au-5151982"
+      }
+    },
+    {
+      "metric": "Revised total project cost",
+      "value": 54000000000,
+      "unit": "USD",
+      "basis": "Chevron capital budget announcement, December 2013",
+      "year": 2013,
+      "source": {
+        "url": "https://www.abc.net.au/news/2013-12-12/gorgon-gas-project-cost-blowout/5151982",
+        "note": "Chevron capital budget announcement, December 2013",
+        "source_id": "cost-abc-net-au-5151982"
+      }
+    }
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.abc.net.au/news/2013-12-12/gorgon-gas-project-cost-blowout/5151982"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

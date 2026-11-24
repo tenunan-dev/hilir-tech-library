@@ -1,0 +1,32 @@
+{
+  "id": "cost-aasta-hansteen-spar-and-polarled-pipeline",
+  "name": "Aasta Hansteen spar and Polarled pipeline",
+  "country": "Norway (Norwegian Sea)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Truss spar (first spar on the Norwegian continental shelf; 198 m hull, 50 m diameter), polyester moorings | Gas processing topsides; total platform height 339 m; 70,000 t | Hull and topsides built by Hyundai Heavy Industries in South Korea; hull transported on Dockwise Vanguard; upended in fjord near Stord; topsides installed by floatover; towed vertically 300 km to field | Technip (spar hull design); CB&I (topsides design); Hyundai Heavy Industries (fabrication) | 1,300 m; moorings in ~1,200 m | 55.6 billion Sm3 gas and 0.6 million Sm3 condensate (353 MMboe) including Snefrid North; 144,000 boe/d plateau total project cost (Aasta Hansteen and Polarled): 37.5 NOK billion (Operator-stated project cost, explicitly given as '2018 value'; covers Aasta Hansteen field development together with the 482 km Polarled pi) Truss spar (first spar on the Norwegian continental shelf; 198 m hull, 50 m diameter), polyester moorings | Gas processing topsides; total platform height 339 m; 70,000 t | Hull and topsides built by Hyundai Heavy Industries in South Korea; hull transported on Dockwise Vanguard; upended in fjord near Stord; topsides installed by floatover; towed vertically 300 km to field | ",
+  "capex": [],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com/en/news/2018-12-17-aasta-hansteen.html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

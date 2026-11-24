@@ -1,0 +1,32 @@
+{
+  "id": "cost-troll-a-platform",
+  "name": "Troll A platform",
+  "country": "Norway (Troll gas field, North Sea)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Condeep concrete gravity-base structure (GBS), four legs, reinforced concrete | Integrated gas processing topsides; later compressor modules M12 | Base built at Vats, Rogaland; towed >200 km over seven days (10-17 May 1995); lowered to seabed and penetrated 36 m into soil; no mooring required | Norwegian Contractors (base construction), for Norske Shell | 303 m | Gas from 40 wells exported to Kollsnes; Guinness record largest offshore gas platform (1996) base construction cost: USD 4150 — dollar year not stated (Cost of constructing the Troll A base; Wikipedia notes approx. USD 650 million 'at the time' and cites Norges Bank exchange rate) Condeep concrete gravity-base structure (GBS), four legs, reinforced concrete | Integrated gas processing topsides; later compressor modules M12 | Base built at Vats, Rogaland; towed >200 km over seven days (10-17 May 1995); lowered to seabed and penetrated 36 m into soil; no mooring required | Norwegian Contractors (base construction), for Norske Shell | 303 m | Gas from 40 wells exported to Kollsnes; Guinness record largest offshore gas platform (1996) base construction cost: USD 4150 — dollar year not stated (Cost of constructing the Troll A b",
+  "capex": [],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Troll_A_platform&action=raw"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

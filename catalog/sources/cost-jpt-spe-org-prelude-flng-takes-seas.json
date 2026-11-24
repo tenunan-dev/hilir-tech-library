@@ -1,0 +1,30 @@
+{
+  "id": "cost-jpt-spe-org-prelude-flng-takes-seas",
+  "name": "Prelude FLNG — cost",
+  "url": "https://jpt.spe.org/twa/prelude-flng-takes-seas",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Jpt.Spe.Org",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. JPT/The Way Ahead: 'Expected to begin operating and generating cash flow next year, the USD 12.5-billion project...' Evidence: https://jpt.spe.org/twa/prelude-flng-takes-seas"
+}

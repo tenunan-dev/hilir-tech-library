@@ -1,0 +1,32 @@
+{
+  "id": "cost-ichthys-lng-ichthys-gas-field",
+  "name": "Ichthys LNG (Ichthys gas field)",
+  "country": "Australia (Timor Sea, offshore Western Australia)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Semi-submersible central processing facility (Ichthys Explorer); FPSO (Ichthys Venturer); onshore LNG plant at Bladin Point | Semi-submersible processing topsides (~130 x 120 m, 120,000 t); FPSO top-side process/condensate facilities | CPF and FPSO towed to field; FPSO permanently moored on turret (not disconnectable); 889 km subsea gas pipeline to Darwin | JGC/KBR/Chiyoda joint venture; Samsung Heavy Industries; GE; McDermott | approximately 250 m average | 8.9 Mt/y LNG in two trains; 10 million m3/d gas; 1.12 million bbl condensate storage initial project cost: USD 34 — dollar year not stated (Initial cost of the integrated LNG project (offshore CPF + FPSO + 889 km pipeline + onshore liquefaction plant)) revised project cost: USD 37 — dollar year not stated (Subsequently increased total project cost; described as largest overseas project undertaken by a Japanese company) Semi-submersible central processing facility (Ichthys Explorer); FPSO (Ichthys Venturer); onshore LNG plant at Bladin Point | Semi-submersible processing topsides (~130 x 120 m, 120,000 t); FPSO top-side process/condensate facilities | CPF and FPSO towed to field; FPSO permanently moored on turret (not disconnect",
+  "capex": [],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Ichthys_gas_field&action=raw"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

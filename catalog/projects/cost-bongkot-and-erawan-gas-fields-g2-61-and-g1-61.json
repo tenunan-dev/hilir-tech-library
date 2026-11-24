@@ -1,0 +1,57 @@
+{
+  "id": "cost-bongkot-and-erawan-gas-fields-g2-61-and-g1-61",
+  "name": "Bongkot and Erawan gas fields (G2/61 and G1/61)",
+  "country": "Thailand",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Fixed wellhead platforms plus central processing platforms; eight wellhead platforms and subsea pipelines planned (Offshore Magazine, search-verified) | Wellhead platform topsides and central processing facilities; equipment/system inspection and maintenance | Construction and installation of additional wellhead platforms; drilling of new exploration and production wells; subsea pipelines; two additional rigs for 52 wells (search-verified) | Not stated in the fetched sources; gap | Shallow water; no figure stated in the fetched sources | Bongkot committed ≥700 MMSCFD (recent actual ~710-860 MMSCFD); Erawan 800 MMSCFD target; combined ~1,500 MMcf/d, ~60% of Thai domestic gas supply Planned investment in Bongkot and Erawan fields: 1000000000000 THB (PTTEP ED plan to maintain ≥700 MMSCFD (Bongkot) and 800 MMSCFD (Erawan), including exploration/production well drilling and construction of ) Fixed wellhead platforms plus central processing platforms; eight wellhead platforms and subsea pipelines planned (Offshore Magazine, search-verified) | Wellhead platform topsides and central processing facilities; equipment/system inspection and maintenance | Construction and installation of additi",
+  "capex": [
+    {
+      "metric": "Same investment expressed in USD by trade press",
+      "value": 31000000000,
+      "unit": "USD",
+      "basis": "Press conversion of the PTTEP THB1 trillion figure at March 2019 exchange rates",
+      "year": 2019,
+      "source": {
+        "url": "https://www.offshore-mag.com/field-development/article/16790389/pttep-confirms-long-term-management-of-thai-gas-fields",
+        "note": "Press conversion of the PTTEP THB1 trillion figure at March 2019 exchange rates",
+        "source_id": "cost-offshore-mag-com-pttep-confirms-long-term-management-of-thai"
+      }
+    },
+    {
+      "metric": "Investment required to double Erawan output to 800 MMSCFD",
+      "value": 900000000,
+      "unit": "USD",
+      "basis": "PTTEP CEO: '$900 million to double gas production at Erawan to 800 MMSCFD and keep the capacity at this level for 10 years'",
+      "year": 2024,
+      "source": {
+        "url": "https://www.bangkokpost.com/business/general/2734825/pttep-to-hike-gas-output",
+        "note": "PTTEP CEO: '$900 million to double gas production at Erawan to 800 MMSCFD and keep the capacity at this level for 10 years'",
+        "source_id": "cost-bangkokpost-com-pttep-to-hike-gas-output"
+      }
+    }
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/field-development/article/16790389/pttep-confirms-long-term-management-of-thai-gas-fields"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

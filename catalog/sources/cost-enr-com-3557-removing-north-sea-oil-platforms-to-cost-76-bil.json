@@ -1,0 +1,30 @@
+{
+  "id": "cost-enr-com-3557-removing-north-sea-oil-platforms-to-cost-76-bil",
+  "name": "Installation cost benchmark",
+  "url": "https://www.enr.com/articles/3557-removing-north-sea-oil-platforms-to-cost-76-billion",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Enr.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the project-cost sweep. 'The North Sea Offshore Decommissioning Report' estimate; 478 platforms and 7,888 wells; 76 platforms >10,000 t. Super-heavy lift vessels (SLVs, >15,000 t) could save almost $11 bi Evidence: https://www.enr.com/articles/3557-removing-north-sea-oil-platforms-to-cost-76-billion"
+}

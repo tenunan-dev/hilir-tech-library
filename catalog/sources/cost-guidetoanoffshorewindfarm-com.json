@@ -1,0 +1,30 @@
+{
+  "id": "cost-guidetoanoffshorewindfarm-com",
+  "name": "Installation cost benchmark",
+  "url": "https://guidetoanoffshorewindfarm.com/wind-farm-costs/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Guidetoanoffshorewindfarm.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Installation and commissioning total £1,000,000/MW for a 1,000 MW reference project at 50 m water depth, comprising inbound transport £87,000/MW, foundation installation £165,000/M Evidence: https://guidetoanoffshorewindfarm.com/wind-farm-costs/"
+}

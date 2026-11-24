@@ -1,0 +1,75 @@
+{
+  "id": "cost-abadi-lng-masela",
+  "name": "Abadi LNG (Masela)",
+  "country": "Indonesia",
+  "status": "under-construction",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Floating Production Storage and Offloading (FPSO) unit plus subsea facilities, risers and flowlines (SURF) and a gas export pipeline, feeding an onshore LNG plant | Onshore LNG plant with CCS; FPSO process topsides | Subsea tieback to FPSO; gas export pipeline to onshore liquefaction; four EPC packages (onshore LNG, FPSO, SURF, gas export pipeline) in tender as of November 2026 (search-verified only) | FEED participants: Saipem, Tripatra, McDermott, Technip, JGC, TEN, KBR Indonesia, PT Adhi Karya, Samsung E&A, Worley (Kompas, search-verified). EPC tender launched November 2026 with Technip-led and Saipem-led consortia pairing Chinese yards (COSCO Shipping Heavy Industry and COOEC) - search-verified only, no contract awarded. | 400-800 m (Chinese industry article, search-verified only; not stated in fetched sources) | 9.5 Mtpa LNG; 150 MMSCFD domestic pipeline gas; up to 35,000 bbl/d condensate; ~10.5 Mtpa LNG-equivalent total gas production Floating Production Storage and Offloading (FPSO) unit plus subsea facilities, risers and flowlines (SURF) and a gas export pipeline, feeding an onshore LNG plant | Onshore LNG plant with CCS; FPSO process topsides | Subsea tieback to FPSO; gas ",
+  "capex": [
+    {
+      "metric": "Estimated project cost (2019 development plan)",
+      "value": 20000000000,
+      "unit": "USD",
+      "basis": "2019 onshore-LNG development plan estimate",
+      "year": 2019,
+      "source": {
+        "url": "https://www.gem.wiki/Abadi_LNG_Terminal",
+        "note": "2019 onshore-LNG development plan estimate",
+        "source_id": "cost-gem-wiki-abadi-lng-terminal"
+      }
+    },
+    {
+      "metric": "Estimated investment / National Strategic Project value",
+      "value": 20900000000,
+      "unit": "USD",
+      "basis": "Indonesian government/state secretary statement at groundbreaking",
+      "year": 2026,
+      "source": {
+        "url": "https://en.antaranews.com/news/422873/indonesia-launches-us209-billion-abadi-masela-lng-project",
+        "note": "Indonesian government/state secretary statement at groundbreaking",
+        "source_id": "cost-en-antaranews-com-indonesia-launches-us209-billion-abadi-mas"
+      }
+    },
+    {
+      "metric": "Project investment value (later report)",
+      "value": 22000000000,
+      "unit": "USD",
+      "basis": "Kompas report at FEED completion ceremony",
+      "year": 2026,
+      "source": {
+        "url": "https://www.kompas.id/artikel/masela-abadi-field-project-to-enter-final-investment-evaluation-soon",
+        "note": "Kompas report at FEED completion ceremony",
+        "source_id": "cost-kompas-id-masela-abadi-field-project-to-enter-final-investme"
+      }
+    },
+    {
+      "metric": "FEED-stage strategic project estimate (regulator statement)",
+      "value": 22000000000,
+      "unit": "USD",
+      "basis": "SKK Migas statement at FEED completion",
+      "year": 2026,
+      "source": {
+        "url": "https://en.antaranews.com/news/438211/inpex-completes-abadi-masela-lng-feed-ahead-of-schedule",
+        "note": "SKK Migas statement at FEED completion",
+        "source_id": "cost-en-antaranews-com-inpex-completes-abadi-masela-lng-feed-ahea"
+      }
+    }
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gem.wiki/Abadi_LNG_Terminal"
+    }
+  ],
+  "gaps": [],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cost-offshore-technology-com-7e5c28",
+  "name": "Kizomba A / B / C deepwater project — cost",
+  "url": "https://www.offshore-technology.com/projects/kizomba-offshore-field-deepwater-project/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Technology.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Construction cost of the Kizomba A FPSO by Hyundai Heavy Industries Evidence: https://www.offshore-technology.com/projects/kizomba-offshore-field-deepwater-project/"
+}

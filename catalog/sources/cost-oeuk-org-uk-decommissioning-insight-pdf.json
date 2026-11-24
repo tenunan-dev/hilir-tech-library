@@ -1,0 +1,30 @@
+{
+  "id": "cost-oeuk-org-uk-decommissioning-insight-pdf",
+  "name": "Installation cost benchmark",
+  "url": "https://oeuk.org.uk/wp-content/uploads/2020/11/Decommissioning-Insight.pdf",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Oeuk.Org.Uk",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. 'Expected costs per tonne for topsides decommissioning in this region... this year's survey estimating £2,190 per tonne compared with £1,757 last year.' Substructure removal expect Evidence: https://oeuk.org.uk/wp-content/uploads/2020/11/Decommissioning-Insight.pdf"
+}

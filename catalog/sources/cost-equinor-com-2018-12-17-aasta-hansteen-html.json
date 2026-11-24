@@ -1,0 +1,30 @@
+{
+  "id": "cost-equinor-com-2018-12-17-aasta-hansteen-html",
+  "name": "Aasta Hansteen spar and Polarled pipeline — cost",
+  "url": "https://www.equinor.com/en/news/2018-12-17-aasta-hansteen.html",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Equinor.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Operator-stated project cost, explicitly given as '2018 value'; covers Aasta Hansteen field development together with the 482 km Polarled pipeline Evidence: https://www.equinor.com/en/news/2018-12-17-aasta-hansteen.html"
+}

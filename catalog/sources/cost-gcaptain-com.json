@@ -1,0 +1,30 @@
+{
+  "id": "cost-gcaptain-com",
+  "name": "Prelude FLNG — cost",
+  "url": "https://gcaptain.com/samsung-shells-flng-facility/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Gcaptain.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. 3.27 trillion won contract for Technip Samsung Consortium to engineer, procure, construct and install the vessel; article prints '($3 billion)' conversion Evidence: https://gcaptain.com/samsung-shells-flng-facility/"
+}

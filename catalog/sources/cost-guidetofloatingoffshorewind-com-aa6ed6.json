@@ -1,0 +1,30 @@
+{
+  "id": "cost-guidetofloatingoffshorewind-com-aa6ed6",
+  "name": "Installation cost benchmark",
+  "url": "https://guidetofloatingoffshorewind.com/guide/i-installation-and-commissioning/i-6-floating-offshore-wind-turbine-installation/i-6-1-tow-out/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Guidetofloatingoffshorewind.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Tow-out of assembled floating wind turbine: one primary towing AHV (>=200 t bollard pull) plus two trailing AHVs; included in the floating turbine installation contract. Evidence: https://guidetofloatingoffshorewind.com/guide/i-installation-and-commissioning/i-6-floating-offshore-wind-turbine-installation/i-6-1-tow-out/"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cost-offshore-mag-com-center-for-energy-studies-louisiana-state-u",
+  "name": "Installation cost benchmark",
+  "url": "https://www.offshore-mag.com/decommissioning/article/14303886/center-for-energy-studies-louisiana-state-university-models-describe-bsee-deepwater-decommissioning-cost-estimates",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Mag.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. BSEE estimate 122-250 m $4.8m; 250-500 m $10-80m. Probabilistic <200 m: 29 FPs, $149m total, $5.1m/FP (P50), cost function FP=32,402*WD. Deterministic 34 FPs + 2 CTs: $843m total,  Evidence: https://www.offshore-mag.com/decommissioning/article/14303886/center-for-energy-studies-louisiana-state-university-models-describe-bsee-deepwater-decommissioning-cost-estimates"
+}

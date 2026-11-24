@@ -1,0 +1,30 @@
+{
+  "id": "cost-splash247-com",
+  "name": "Installation cost benchmark",
+  "url": "https://splash247.com/allseas-taps-aker-solutions-for-massive-topside-dismantling-job/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Splash247.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Aker Solutions letter of intent from Allseas for preparatory work, reception, dismantling and recycling of ~50,000 t Statfjord A topside at Stord; excludes the offshore lift by Pio Evidence: https://splash247.com/allseas-taps-aker-solutions-for-massive-topside-dismantling-job/"
+}

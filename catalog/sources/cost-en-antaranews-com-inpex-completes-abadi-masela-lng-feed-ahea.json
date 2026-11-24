@@ -1,0 +1,30 @@
+{
+  "id": "cost-en-antaranews-com-inpex-completes-abadi-masela-lng-feed-ahea",
+  "name": "Abadi LNG (Masela) — cost",
+  "url": "https://en.antaranews.com/news/438211/inpex-completes-abadi-masela-lng-feed-ahead-of-schedule",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "En.Antaranews.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the project-cost sweep. SKK Migas statement at FEED completion Evidence: https://en.antaranews.com/news/438211/inpex-completes-abadi-masela-lng-feed-ahead-of-schedule"
+}

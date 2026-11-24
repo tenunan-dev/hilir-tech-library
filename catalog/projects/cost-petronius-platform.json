@@ -1,0 +1,32 @@
+{
+  "id": "cost-petronius-platform",
+  "name": "Petronius platform",
+  "country": "United States (Gulf of Mexico, Viosca Knoll block 786)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Compliant piled tower (flexible tower; 43,000 t, 1,870 ft design height) | 7,500 t multi-deck topsides, 21 well slots, 60,000 bpd oil and 100 MMscf/d gas | Foundation piles driven 1997; North Module installed November 1998; replacement South Module lifted by Saipem 7000 in May 2000 | J Ray McDermott (tower construction and installation); Gulf Island Fabrication (deck modules); Saipem (module lift); WH Linder (topsides engineering) | 535 m (1,754 ft) | 60,000 bpd oil; 100 million ft3/d gas; 80-100 million boe recoverable estimated total project cost: USD 500 — dollar year not stated (Cost of the Petronius project estimated by Offshore Technology) compliant tower construction contract: USD 140 — dollar year not stated (Contract for construction of the compliant tower awarded to J Ray McDermott) deck fabrication and integration contract: USD 50 — dollar year not stated (Gulf Island Fabrication contract for deck fabrication and integration) topsides engineering design contract: USD 10 — dollar year not stated (WH Linder & Associates contract for topsides engineering design and procurement support) lost module val Compliant piled tower (flexible tower; 43,000 t, 1,870 ft design height) ",
+  "capex": [],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/petronius/"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

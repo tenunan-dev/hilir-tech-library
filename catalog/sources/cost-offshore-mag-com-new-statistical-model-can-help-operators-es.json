@@ -1,0 +1,30 @@
+{
+  "id": "cost-offshore-mag-com-new-statistical-model-can-help-operators-es",
+  "name": "Installation cost benchmark",
+  "url": "https://www.offshore-mag.com/home/article/14288318/new-statistical-model-can-help-operators-estimate-shallow-water-platform-removal-costs",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Mag.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Caisson <30 m $346,000; fixed platform <30 m $977,000; 30-60 m caisson $932,000 vs fixed platform $2,260,000; 61-122 m fixed platform $3,630,000. Site clearance & verification $141 Evidence: https://www.offshore-mag.com/home/article/14288318/new-statistical-model-can-help-operators-estimate-shallow-water-platform-removal-costs"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cost-officialgazette-gov-ph-malampaya-consortium-remits-1-134-b-t",
+  "name": "Malampaya Deep Water Gas-to-Power Project — cost",
+  "url": "https://www.officialgazette.gov.ph/2012/01/24/malampaya-consortium-remits-1-134-b-to-government",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Officialgazette.Gov.Ph",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Consortium commitment for additional wells (Phase 2, 2013) and compression capacity (Phase 3, 2015) Evidence: https://www.officialgazette.gov.ph/2012/01/24/malampaya-consortium-remits-1-134-b-to-government"
+}

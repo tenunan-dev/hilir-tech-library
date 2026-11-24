@@ -1,0 +1,30 @@
+{
+  "id": "cost-en-wikipedia-org-index-php-2540b4",
+  "name": "Johan Sverdrup field development — cost",
+  "url": "https://en.wikipedia.org/w/index.php?title=Johan_Sverdrup_oil_field&action=raw",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "En.Wikipedia.Org",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Statoil announcement to develop Johan Sverdrup, 13 February 2015, reported as a USD 29 billion field development Evidence: https://en.wikipedia.org/w/index.php?title=Johan_Sverdrup_oil_field&action=raw"
+}

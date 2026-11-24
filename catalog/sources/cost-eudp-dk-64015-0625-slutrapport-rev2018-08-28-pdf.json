@@ -1,0 +1,30 @@
+{
+  "id": "cost-eudp-dk-64015-0625-slutrapport-rev2018-08-28-pdf",
+  "name": "Installation cost benchmark",
+  "url": "https://eudp.dk/files/slutrapporter/64015-0625_slutrapport_rev2018-08-28.pdf",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Eudp.Dk",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Reference suction bucket with wall thickness 40 mm and weight 92 t; cost benchmark for comparison in EUDP project on industrial-scale suction buckets. Evidence: https://eudp.dk/files/slutrapporter/64015-0625_slutrapport_rev2018-08-28.pdf"
+}

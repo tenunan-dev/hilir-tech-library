@@ -1,0 +1,30 @@
+{
+  "id": "cost-oedigital-com-452131-counting-the-cost",
+  "name": "Installation cost benchmark",
+  "url": "https://www.oedigital.com/news/452131-counting-the-cost",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Oedigital.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. DECC/Genesis study presented at SPE European Well Abandonment Seminar: 'Facilities removal costs have been £2200/tonne ($3371/tonne) for topsides and £4100/tonne ($6282/tonne) for  Evidence: https://www.oedigital.com/news/452131-counting-the-cost"
+}

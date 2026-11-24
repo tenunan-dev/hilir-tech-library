@@ -1,0 +1,30 @@
+{
+  "id": "cost-iopscience-iop-org-pdf",
+  "name": "Installation cost benchmark",
+  "url": "https://iopscience.iop.org/article/10.1088/1755-1315/202/1/012024/pdf",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Iopscience.Iop.Org",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Jacket X load-out using skidding method, 9 days: worker cost $29,696 (barge prep $6,128; welding skid beams/deadman $6,256; mooring $1,984; onshore skidding $6,256; loadout $4,776; Evidence: https://iopscience.iop.org/article/10.1088/1755-1315/202/1/012024/pdf"
+}

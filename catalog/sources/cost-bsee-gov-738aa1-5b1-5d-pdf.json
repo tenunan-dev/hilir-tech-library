@@ -1,0 +1,30 @@
+{
+  "id": "cost-bsee-gov-738aa1-5b1-5d-pdf",
+  "name": "Installation cost benchmark",
+  "url": "https://www.bsee.gov/sites/bsee.gov/files/2023-03/738aa1%5B1%5D.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Bsee.Gov",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. 'Time and material rates for large crane vessels can exceed $500,000 dollars per day' — used to explain cost exposure if a pile or conductor severance fails and delays the vessel s Evidence: https://www.bsee.gov/sites/bsee.gov/files/2023-03/738aa1%5B1%5D.pdf"
+}

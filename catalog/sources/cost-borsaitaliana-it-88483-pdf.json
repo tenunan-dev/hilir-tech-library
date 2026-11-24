@@ -1,0 +1,30 @@
+{
+  "id": "cost-borsaitaliana-it-88483-pdf",
+  "name": "Installation cost benchmark",
+  "url": "https://www.borsaitaliana.it/mediasource/star/db/pdf/88483.pdf",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Borsaitaliana.It",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Deutsche Bank modelled implicit day rates from 47 Saipem offshore construction contracts since 2003; modelling assumes installation represents 35% or 45% of reported contract value Evidence: https://www.borsaitaliana.it/mediasource/star/db/pdf/88483.pdf"
+}

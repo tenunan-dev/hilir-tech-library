@@ -1,0 +1,30 @@
+{
+  "id": "cost-hks-harvard-edu-pnglngreport-pdf",
+  "name": "PNG LNG Project — cost",
+  "url": "https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/files/PNGLNGreport.pdf",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Hks.Harvard.Edu",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Original lender-group project finance package Evidence: https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/files/PNGLNGreport.pdf"
+}

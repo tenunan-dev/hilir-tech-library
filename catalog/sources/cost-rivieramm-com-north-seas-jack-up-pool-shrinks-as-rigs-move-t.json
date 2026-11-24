@@ -1,0 +1,30 @@
+{
+  "id": "cost-rivieramm-com-north-seas-jack-up-pool-shrinks-as-rigs-move-t",
+  "name": "Installation cost benchmark",
+  "url": "https://www.rivieramm.com/news-content-hub/north-seas-jack-up-pool-shrinks-as-rigs-move-to-more-lucrative-waters-80654",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Rivieramm.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. TotalEnergies exercised a one-well option for HDHE jack-up Valaris Stavanger in UK North Sea, ~30 additional days. Evidence: https://www.rivieramm.com/news-content-hub/north-seas-jack-up-pool-shrinks-as-rigs-move-to-more-lucrative-waters-80654"
+}

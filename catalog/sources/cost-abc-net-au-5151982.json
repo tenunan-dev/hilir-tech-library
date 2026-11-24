@@ -1,0 +1,30 @@
+{
+  "id": "cost-abc-net-au-5151982",
+  "name": "Gorgon LNG (Gorgon Gas Development) — cost",
+  "url": "https://www.abc.net.au/news/2013-12-12/gorgon-gas-project-cost-blowout/5151982",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Abc.Net.Au",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. FID-era estimate reported by ABC Evidence: https://www.abc.net.au/news/2013-12-12/gorgon-gas-project-cost-blowout/5151982"
+}

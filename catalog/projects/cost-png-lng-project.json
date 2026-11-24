@@ -1,0 +1,63 @@
+{
+  "id": "cost-png-lng-project",
+  "name": "PNG LNG Project",
+  "country": "Papua New Guinea",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Predominantly onshore development: Hides gas conditioning plant and wellpads, Kutubu/Gobe associated gas facilities, onshore and offshore pipelines. Not a fixed offshore platform project - noted as a scope caveat. | Two-train LNG liquefaction and storage plant near Port Moresby | ~700 km pipelines through rugged terrain; pipe airlifted in places; new roads, communications and Komo airfield constructed for heavy equipment | Chiyoda + JGC JV (LNG plant and marine facilities EPC3); CBI + Clough JV (Hides gas conditioning plant and wellpads EPC4); SpieCapag (onshore pipeline EPC5A) - all from the PNG LNG Q3 2013 ES report, search-verified only | Not applicable to a predominantly onshore development; no offshore platform water depth stated | 6.9 Mtpa original design; >8.3 Mtpa current capacity (PNG LNG project page, search-verified); >9 Tcf gas over ~30 years Predominantly onshore development: Hides gas conditioning plant and wellpads, Kutubu/Gobe associated gas facilities, onshore and offshore pipelines. Not a fixed offshore platform project - noted as a scope caveat. | Two-train LNG liquefaction and storage plant near Port Moresby | ~700 km pipelines through rugged terrain; pipe airli",
+  "capex": [
+    {
+      "metric": "Project cost",
+      "value": 19000000000,
+      "unit": "USD",
+      "basis": "Operator statement at start of production",
+      "year": 2014,
+      "source": {
+        "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/564/exxonmobil-starts-production-ahead-of-schedule-at-png-lng",
+        "note": "Operator statement at start of production",
+        "source_id": "cost-investor-exxonmobil-com-exxonmobil-starts-production-ahead-o"
+      }
+    },
+    {
+      "metric": "Original project finance agreement",
+      "value": 15700000000,
+      "unit": "USD",
+      "basis": "Original lender-group project finance package",
+      "year": 2009,
+      "source": {
+        "url": "https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/files/PNGLNGreport.pdf",
+        "note": "Original lender-group project finance package",
+        "source_id": "cost-hks-harvard-edu-pnglngreport-pdf"
+      }
+    },
+    {
+      "metric": "Revised cost estimate after overrun",
+      "value": 19000000000,
+      "unit": "USD",
+      "basis": "Exxon letter to partners: $3.3bn increase attributed to FX ($1.4bn), work stoppages/land access ($1.2bn) and rainfall ($700m)",
+      "year": 2012,
+      "source": {
+        "url": "https://chemanager-online.com/en/news/exxon-s-png-lng-project-costs-balloon-to-19-billion",
+        "note": "Exxon letter to partners: $3.3bn increase attributed to FX ($1.4bn), work stoppages/land access ($1.2bn) and rainfall ($700m)",
+        "source_id": "cost-chemanager-online-com-exxon-s-png-lng-project-costs-balloon"
+      }
+    }
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/564/exxonmobil-starts-production-ahead-of-schedule-at-png-lng"
+    }
+  ],
+  "gaps": [],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

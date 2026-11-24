@@ -1,0 +1,45 @@
+{
+  "id": "cost-liwan-gas-project-liwan-3-1-liuhua-34-2-liuhua-29-1",
+  "name": "Liwan Gas Project (Liwan 3-1 / Liuhua 34-2 / Liuhua 29-1)",
+  "country": "China",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "MID"
+  ],
+  "description": "Nine deepwater subsea wells in 1,200-1,500 m water depth tied back 75 km to a shallow-water central platform (jacket in ~200 m water) | 30,000 metric ton topsides installed on the shallow-water jacket; subsea trees, three manifolds and MEG unit | Subsea tieback from deepwater wells to central platform; 260 km subsea pipeline to the onshore Gaolan gas terminal; 30,000 t topsides installed on jacket; deepwater pipeline trenching by DeepOcean | Cameron (subsea trees, manifolds, connectors, controls, MEG modules); COOEC (pipeline trenching/client); Technip (shallow-water 160 km 30-in pipeline, Global 1201 vessel); Saipem (deepwater pipeline); WorleyParsons (FEED and EPC tenders); DeepOcean (174 km trenching); Expro/CETS JV ($25m subsea and well testing); Bechtel (project management, search-verified) | 1,200-1,500 m at the deepwater wells; central platform ~200 m | ~250 MMcf/d rising to ~300 MMcf/d in 2014; ~340 MMcf/d after Liuhua 34-2 tie-in; 400-500 MMcf/d with Liuhua 29-1; condensate/NGL 10,000-14,000 boe/d First-stage project cost: USD 6500000000 — dollar year not stated (Husky 6-K exhibit 99.1: 'The first stage of the US$6.5 billion project ... have been completed on budget'; Offs",
+  "capex": [
+    {
+      "metric": "Exploration costs expected to be recovered",
+      "value": 800000000,
+      "unit": "USD",
+      "basis": "Husky quick facts: 'Husky expects to recover approximately $800 million in exploration costs in the first 18 months of production'",
+      "year": 2014,
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/49279/000119312514123595/d705225dex991.htm",
+        "note": "Husky quick facts: 'Husky expects to recover approximately $800 million in exploration costs in the first 18 months of production'",
+        "source_id": "cost-sec-gov-d705225dex991-htm"
+      }
+    }
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/49279/000119312514123595/d705225dex991.htm"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dollar year not stated for some published costs",
+      "why": "Source omitted a price-year label; no escalation or conversion applied.",
+      "next_action": "Verify the price year in the original filing before using the figure for comparison."
+    }
+  ],
+  "notes": "Cost details sourced in the 2026-11-24 project-cost sweep.",
+  "last_reviewed": "2026-11-24"
+}

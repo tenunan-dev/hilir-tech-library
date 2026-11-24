@@ -126,6 +126,86 @@
       },
       "low": 1000,
       "high": 1000
+    },
+    {
+      "metric": "announced capital investment",
+      "unit": "AUD (USD 8.71 billion equivalent as stat",
+      "basis": "Investment announced by Shell to build the Prelude FLNG facility; source gives announcement date 20 May 2011 but no explicit price-year label  Dollar year not stated.",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Floating_liquefied_natural_gas&action=raw",
+        "source_id": "cost-en-wikipedia-org-index-php"
+      },
+      "low": 12,
+      "high": 12
+    },
+    {
+      "metric": "analyst estimated vessel cost",
+      "unit": "USD",
+      "basis": "Industry analyst estimate of Prelude vessel cost reported by Reuters; article dated 4 December 2013  Dollar year not stated.",
+      "source": {
+        "url": "https://www.bbc.com/news/technology-25213845",
+        "source_id": "cost-bbc-com-technology-25213845"
+      },
+      "low": 10.8,
+      "high": 12.6
+    },
+    {
+      "metric": "initial project cost",
+      "unit": "USD billion",
+      "basis": "Initial cost of the integrated LNG project (offshore CPF + FPSO + 889 km pipeline + onshore liquefaction plant)  Dollar year not stated.",
+      "source": {
+        "url": "https://en.wikipedia.org/w/index.php?title=Ichthys_gas_field&action=raw",
+        "source_id": "cost-en-wikipedia-org-index-php-ad269f"
+      },
+      "low": 34,
+      "high": 34
+    },
+    {
+      "metric": "Total project CAPEX / investment at FID",
+      "unit": "USD",
+      "basis": "INPEX and Total FID announcement: 'US$34 billion Ichthys LNG Project'; CAPEX line in INPEX project summary Source dated 13 January 2012 and states the figure at FID; source does not separately label a nominal-dollar base year.",
+      "source": {
+        "url": "https://www.inpex.com.au/news-and-updates/media-centre/media-releases/final-investment-decision-on-ichthys-lng-project/",
+        "source_id": "cost-inpex-com-au"
+      },
+      "year": 2012,
+      "low": 34000000000,
+      "high": 34000000000
+    },
+    {
+      "metric": "Total project investment at FID (JV partner statement)",
+      "unit": "USD",
+      "basis": "Total/TotalEnergies press release: 'investment of US$34 billion dollars'; Total holds 24% Press release dated 13 January 2012; base dollar year not separately labelled.",
+      "source": {
+        "url": "https://totalenergies.com/newsroom/australie-total-et-inpex-lancent-ichthys-projet-strategique-de-gnl-offshore/?lang=eng",
+        "source_id": "cost-totalenergies-com"
+      },
+      "year": 2012,
+      "low": 34000000000,
+      "high": 34000000000
+    },
+    {
+      "metric": "FLNG vessel EPC contract value (Samsung regulatory filing)",
+      "unit": "KRW",
+      "basis": "3.27 trillion won contract for Technip Samsung Consortium to engineer, procure, construct and install the vessel; article prints '($3 billion)' conversion Contract period 1 June 2011 to 30 September 2016, as stated in the filing; base year not separately labelled.",
+      "source": {
+        "url": "https://gcaptain.com/samsung-shells-flng-facility/",
+        "source_id": "cost-gcaptain-com"
+      },
+      "year": 2011,
+      "low": 3270000000000,
+      "high": 3270000000000
+    },
+    {
+      "metric": "Cost (project tracker)",
+      "unit": "USD",
+      "basis": "LNG2030 project tracker record for PFLNG Dua: 'Cost (US$bn) 1.6' Dollar price year not stated by the source; tracker entry last reviewed 24 July 2026. Dollar year not stated.",
+      "source": {
+        "url": "https://lng2030.com/project/lng_223",
+        "source_id": "cost-lng2030-com-lng-223"
+      },
+      "low": 1600000000,
+      "high": 1600000000
     }
   ],
   "advantages": [
@@ -180,5 +260,5 @@
       "project_id": "fpso-kikeh-kikeh-field-offshore-sabah"
     }
   ],
-  "notes": " All substructure/topside types and installation technologies added 2026-11-24."
+  "notes": " All substructure/topside types and installation technologies added 2026-11-24. Sourced project/installation cost figures added 2026-11-24."
 }

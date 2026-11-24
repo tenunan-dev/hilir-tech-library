@@ -1,0 +1,30 @@
+{
+  "id": "cost-offshore-technology-com-e69286",
+  "name": "Tangguh LNG Train 3 Expansion — cost",
+  "url": "https://www.offshore-technology.com/projects/tangguh-expansion-project-papua-barat/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Technology.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Offshore Technology project profile: 'The project, with an estimated cost of $8bn' and 'Estimated Investment $8bn' Evidence: https://www.offshore-technology.com/projects/tangguh-expansion-project-papua-barat/"
+}

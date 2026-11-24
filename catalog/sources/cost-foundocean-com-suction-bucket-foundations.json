@@ -1,0 +1,30 @@
+{
+  "id": "cost-foundocean-com-suction-bucket-foundations",
+  "name": "Installation cost benchmark",
+  "url": "https://www.foundocean.com/news-resources/news/13998818/suction-bucket-foundations",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Foundocean.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. 'The cost-savings for the customer in terms of grouting can be significant because ... the yield for an ultra-low-strength formula used in suction bucket foundations could be 5 tim Evidence: https://www.foundocean.com/news-resources/news/13998818/suction-bucket-foundations"
+}

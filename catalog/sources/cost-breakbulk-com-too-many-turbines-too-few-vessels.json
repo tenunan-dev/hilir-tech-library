@@ -1,0 +1,30 @@
+{
+  "id": "cost-breakbulk-com-too-many-turbines-too-few-vessels",
+  "name": "Installation cost benchmark",
+  "url": "https://breakbulk.com/articles/too-many-turbines-too-few-vessels",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV",
+    "MAT"
+  ],
+  "publisher_org": "Breakbulk.Com",
+  "regions": [
+    "global",
+    "apac",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the project-cost sweep. Quoted by David Carr (joint CEO, Zero-C) in Breakbulk Magazine as the rate the Saipem 7000 was 'on' in oil and gas, well above wind-sector rates. Vessel one of four able to install Evidence: https://breakbulk.com/articles/too-many-turbines-too-few-vessels"
+}
