@@ -1,0 +1,60 @@
+{
+  "id": "mat-civ-welding-consumables",
+  "name": "Welding consumables",
+  "material_category": "consumable",
+  "description": "Filler metals and fluxes for joining structural steel and reinforcing bar; selected to match base metal strength, toughness, welding process and preheat conditions.",
+  "specifications": [
+    {
+      "metric": "A992 matching consumable",
+      "unit": "AWS classification",
+      "basis": "American Steel & Aluminum: A992 is prequalified base metal under AWS D1.1, normally welded with E70 series low-hydrogen filler by SMAW/FCAW/GMAW/SAW",
+      "source": {
+        "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+        "source_id": "americansteelandaluminum-com-materials-a992-steel"
+      },
+      "value": "E70 series low-hydrogen"
+    },
+    {
+      "metric": "Rebar welding standard",
+      "unit": "standard",
+      "basis": "ASTM A615 Note 3: use latest AWS D1.4/D1.4M for filler selection and preheat/interpass temperatures",
+      "source": {
+        "url": "https://www.astm.org/Standards/A615.htm",
+        "source_id": "astm-org-standards-a615-htm"
+      },
+      "value": "AWS D1.4/D1.4M"
+    }
+  ],
+  "applications": [
+    "Filler metals and fluxes for joining structural steel and reinforcing bar; selected to match base metal strength, toughness, welding process and preheat conditi"
+  ],
+  "standards": [],
+  "equipment": [
+    "civ-shallow-raft-pad-foundations",
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "civ-micropiles"
+  ],
+  "suppliers": [
+    "lincoln-electric-esab-kobelco"
+  ],
+  "sources": [
+    {
+      "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+      "source_id": "americansteelandaluminum-com-materials-a992-steel"
+    },
+    {
+      "url": "https://www.astm.org/Standards/A615.htm",
+      "source_id": "astm-org-standards-a615-htm"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "AWS classification strength/toughness tables by filler",
+      "why": "No filler metal datasheet fetched",
+      "next_action": "Fetch an AWS filler metal classification guide"
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

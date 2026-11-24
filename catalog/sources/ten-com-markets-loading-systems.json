@@ -1,0 +1,29 @@
+{
+  "id": "ten-com-markets-loading-systems",
+  "name": "Trelleborg Engineered Systems — Technip Energies installed base / patents / experi",
+  "url": "https://www.ten.com/en/markets/loading-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Trelleborg Engineered Systems",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Technip Energies Loading Systems page figures: '57 patents', '70+ years of experience', '+15K installed loading arms', '300+ employees worldwide' Evidence: https://www.ten.com/en/markets/loading-systems"
+}

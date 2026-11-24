@@ -1,0 +1,54 @@
+{
+  "id": "cathodic-marine-engineering-pte-ltd-sacrificial-anode-range-zinc-aluminium-m",
+  "name": "Sacrificial anode range — zinc / aluminium / magnesium",
+  "manufacturer": "cathodic-marine-engineering-pte-ltd",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. ASTM B-6 / B-521 / B-843; supplier-stated class approvals.",
+  "specifications": [
+    {
+      "metric": "zinc weight range",
+      "unit": "kg",
+      "basis": "",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system",
+        "source_id": "cathodicme-com-services-sacrificial-anodes-system"
+      },
+      "low": 5,
+      "high": 500
+    },
+    {
+      "metric": "aluminium weight range",
+      "unit": "kg",
+      "basis": "",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system",
+        "source_id": "cathodicme-com-services-sacrificial-anodes-system"
+      },
+      "low": 3,
+      "high": 300
+    },
+    {
+      "metric": "aluminium design life",
+      "unit": "years in seawater",
+      "basis": "",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system",
+        "source_id": "cathodicme-com-services-sacrificial-anodes-system"
+      },
+      "low": 18,
+      "high": 28
+    }
+  ],
+  "url": "https://cathodicme.com/services/sacrificial-anodes-system",
+  "sources": [
+    {
+      "url": "https://cathodicme.com/services/sacrificial-anodes-system",
+      "source_id": "cathodicme-com-services-sacrificial-anodes-system"
+    }
+  ],
+  "notes": "ASTM B-6 / B-521 / B-843; supplier-stated class approvals.",
+  "last_reviewed": "2026-11-24"
+}

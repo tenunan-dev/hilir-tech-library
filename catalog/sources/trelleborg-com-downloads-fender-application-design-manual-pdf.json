@@ -1,0 +1,29 @@
+{
+  "id": "trelleborg-com-downloads-fender-application-design-manual-pdf",
+  "name": "Trelleborg Marine & Infrastructure",
+  "url": "https://www.trelleborg.com/marine-and-infrastructure/-/media/marine-systems/resources/guides-and-design-manual/downloads/fender-application-design-manual.pdf?rev=f3e34525d9ee4331b058f46f0ec489f4",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Trelleborg",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Fender Application Design Manual. Evidence: https://www.trelleborg.com/marine-and-infrastructure/-/media/marine-systems/resources/guides-and-design-manual/downloads/fender-application-design-manual.pdf?rev=f3e34525d9ee4331b058f46f0ec489f4"
+}

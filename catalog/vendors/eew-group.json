@@ -1,0 +1,24 @@
+{
+  "id": "eew-group",
+  "name": "EEW Group",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "EEW Group is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://eew-group.com/offshore-wind",
+      "source_id": "eew-group-com-eew-group-com-offshore-wind"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

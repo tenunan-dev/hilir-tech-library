@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-644 vendor records covering 326 technologies. One record per vendor in
+745 vendor records covering 327 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -42,19 +42,120 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| Able UK | — | oem, supplier | Plant structural steel design |
+| Acteon / Menck | — | oem, supplier | Plant structural steel design |
+| Allseas | — | oem, supplier | Plant structural steel design |
+| Altex Coatings | — | oem, supplier | Plant structural steel design |
+| American Steel & Aluminum | — | oem, supplier | Plant structural steel design |
+| American Welding Society | — | oem, supplier | Plant structural steel design |
+| Ampelmann Operations B.V. | — | oem, supplier | Plant structural steel design |
 | [Anvil (ASC Engineered Solutions)](https://www.asc-es.com) | USA | oem, supplier | Pipe racks, sleepers and pipe supports |
+| ArcelorMittal | — | oem, supplier | Plant structural steel design |
+| ArcelorMittal Europe | — | oem, supplier | Plant structural steel design |
+| ArcelorMittal Orange Book | — | oem, supplier | Plant structural steel design |
+| BakerRisk | — | oem, supplier | Plant structural steel design |
+| Barnhart Crane & Rigging | — | oem, supplier | Plant structural steel design |
+| BASF Master Builders / Mapei / Fosroc / Grace | — | oem, supplier | Plant structural steel design |
+| BAUER Equipment Australia | — | oem, supplier | Plant structural steel design |
+| BAUER Equipment Australia Pty Ltd | — | oem, supplier | Plant structural steel design |
 | [BAUER Maschinen](https://www.bauer.de/) | Germany | oem, service | Foundations and piling |
+| BAUER Maschinen GmbH | — | oem, supplier | Plant structural steel design |
+| BAUER Spezialtiefbau | — | oem, supplier | Plant structural steel design |
+| BAUER Spezialtiefbau GmbH | — | oem, supplier | Plant structural steel design |
+| Boomarine | — | oem, supplier | Plant structural steel design |
+| Boskalis | — | oem, supplier | Plant structural steel design |
+| Bridgestone | — | oem, supplier | Plant structural steel design |
+| Bridgestone Corporation | — | oem, supplier | Plant structural steel design |
 | [Carboline](https://www.carboline.com) | USA | supplier | Structural fireproofing and passive fire protection |
 | [Carpenter & Paterson](https://pipehangers.com) | USA | oem, supplier | Pipe racks, sleepers and pipe supports |
+| Cathodic Marine Engineering Pte Ltd | — | oem, supplier | Plant structural steel design |
+| CathPro | — | oem, supplier | Plant structural steel design |
+| CCME-MCPS LLC | — | oem, supplier | Plant structural steel design |
+| Cometto | — | oem, supplier | Plant structural steel design |
+| ContiTech (Continental Group) | — | oem, supplier | Plant structural steel design |
+| CRSI (Concrete Reinforcing Steel Institute) | — | oem, supplier | Plant structural steel design |
+| CS WIND Offshore | — | oem, supplier | Plant structural steel design |
+| Deep Trekker | — | oem, supplier | Plant structural steel design |
+| Deepwater (stoprust.com) | — | oem, supplier | Plant structural steel design |
+| DESMI (Ro-Clean) | — | oem, supplier | Plant structural steel design |
+| DockGuard Ltd | — | oem, supplier | Plant structural steel design |
+| Doka | — | oem, supplier | Plant structural steel design |
+| Doowin Marine | — | oem, supplier | Plant structural steel design |
+| Dynamic Isolation Systems (DIS) | — | oem, supplier | Plant structural steel design |
+| Edgen Murray (yard manager) / Ming Rong Yuan (Taiwan fabricator) | — | oem, supplier | Plant structural steel design |
+| EEW Group | — | oem, supplier | Plant structural steel design |
+| FDG | — | oem, supplier | Plant structural steel design |
+| Flowtork Technologies Corporation | — | oem, supplier | Plant structural steel design |
+| Flyability | — | oem, supplier | Plant structural steel design |
+| Fosroc | — | oem, supplier | Plant structural steel design |
+| Fyfe / Critica Infrastructure (Henkel) | — | oem, supplier | Plant structural steel design |
+| Fyfe FRP / Critica Infrastructure (Henkel) | — | oem, supplier | Plant structural steel design |
+| GEOfabrics Limited | — | oem, supplier | Plant structural steel design |
+| Goldhofer AG | — | oem, supplier | Plant structural steel design |
+| Hai Nam | — | oem, supplier | Plant structural steel design |
+| HAIL | — | oem, supplier | Plant structural steel design |
 | [Heerema](https://www.heerema.com) | Netherlands | epc, service | Heavy lift, transport and temporary works |
 | [Hempel](https://www.hempel.com) | Denmark | supplier | Structural fireproofing and passive fire protection |
+| Holcim / Lafarge / YTL / Tasek | — | oem, supplier | Plant structural steel design |
+| Huisman Equipment | — | oem, supplier | Plant structural steel design |
+| IGSB | — | oem, supplier | Plant structural steel design |
+| India Electricals (IES) | — | oem, supplier | Plant structural steel design |
+| IQIP | — | oem, supplier | Plant structural steel design |
+| Jan De Nul / Hitachi consortium | — | oem, supplier | Plant structural steel design |
+| Jotun / Hempel / PPG / Sherwin-Williams | — | oem, supplier | Plant structural steel design |
 | [Keller Group](https://www.kellerfoundations.com/) | United Kingdom | service | Foundations and piling |
 | [Kiewit](https://www.kiewit.com) | USA | epc | Modular construction and industrialised building systems |
+| L-Vision Engineering Pte Ltd | — | oem, supplier | Plant structural steel design |
+| Layher | — | oem, supplier | Plant structural steel design |
+| Leica Geosystems / Topcon | — | oem, supplier | Plant structural steel design |
+| Liebherr | — | oem, supplier | Plant structural steel design |
+| Lincoln Electric / ESAB / Kobelco | — | oem, supplier | Plant structural steel design |
 | [LISEGA](https://www.lisega.de) | Germany | oem, supplier | Pipe racks, sleepers and pipe supports |
+| Malaysia Marine & Heavy Engineering | — | oem, supplier | Plant structural steel design |
 | [Mammoet](https://www.mammoet.com/) | Netherlands | rental, service | Heavy lift, transport and temporary works |
+| Masteel UK Ltd | — | oem, supplier | Plant structural steel design |
+| Menard | — | oem, supplier | Plant structural steel design |
+| Menck (Acteon Marine Foundations; sale to Cadeler announced Aug 2026) | — | oem, supplier | Plant structural steel design |
+| Menck / Acteon | — | oem, supplier | Plant structural steel design |
+| MME Group | — | oem, supplier | Plant structural steel design |
+| Naue GmbH & Co. KG | — | oem, supplier | Plant structural steel design |
+| NPES | — | oem, supplier | Plant structural steel design |
+| Nucor | — | oem, supplier | Plant structural steel design |
+| Oceaneering / Subsea 7 (ROV services) | — | oem, supplier | Plant structural steel design |
+| Pacific Marine & Industrial | — | oem, supplier | Plant structural steel design |
+| PALFINGER | — | oem, supplier | Plant structural steel design |
+| PERI | — | oem, supplier | Plant structural steel design |
+| PERI GmbH | — | oem, supplier | Plant structural steel design |
+| Pillar Consulting Group | — | oem, supplier | Plant structural steel design |
+| Portland Bolt | — | oem, supplier | Plant structural steel design |
 | [RedGuard](https://redguard.com/) | United States | supplier | Blast-resistant buildings |
+| Ridgeway Marine | — | oem, supplier | Plant structural steel design |
+| Samkang (South Korea) | — | oem, supplier | Plant structural steel design |
 | [Sarens Group](https://www.sarens.com/) | Belgium | rental, service | Heavy lift, transport and temporary works |
+| SDI Certified Manufacturers | — | oem, supplier | Plant structural steel design |
 | [Seatrium](https://www.seatrium.com) | Singapore | epc, oem | Fixed platform topsides and substructures |
+| ShibataFenderTeam | — | oem, supplier | Plant structural steel design |
+| ShibataFenderTeam Group | — | oem, supplier | Plant structural steel design |
+| Sif Group | — | oem, supplier | Plant structural steel design |
+| Sika | — | oem, supplier | Plant structural steel design |
+| Sika / Simpson Strong-Tie | — | oem, supplier | Plant structural steel design |
+| SSAB | — | oem, supplier | Plant structural steel design |
+| Survitec Group | — | oem, supplier | Plant structural steel design |
+| Tank Built Pte Ltd | — | oem, supplier | Plant structural steel design |
+| TBG Technologies (Chokusen), Japan | — | oem, supplier | Plant structural steel design |
+| Technip Energies Loading Systems | — | oem, supplier | Plant structural steel design |
+| Terram | — | oem, supplier | Plant structural steel design |
+| The Yokohama Rubber Co., Ltd. | — | oem, supplier | Plant structural steel design |
+| TII SCHEUERLE | — | oem, supplier | Plant structural steel design |
+| Trelleborg Marine & Infrastructure | — | oem, supplier | Plant structural steel design |
+| Trimble | — | oem, supplier | Plant structural steel design |
+| Trimble Geospatial | — | oem, supplier | Plant structural steel design |
+| Universal Steel America | — | oem, supplier | Plant structural steel design |
+| Van Oord / DEME / Jan De Nul | — | oem, supplier | Plant structural steel design |
+| Vantris Energy Berhad | — | oem, supplier | Plant structural steel design |
+| VIKING Life-Saving Equipment | — | oem, supplier | Plant structural steel design |
+| Vikoma International Ltd | — | oem, supplier | Plant structural steel design |
+| Vinfab Engineers India | — | oem, supplier | Plant structural steel design |
 | [Yinson Production](https://www.yinsonproduction.com/) | Malaysia | operator, epc | FPSO and floating production structures |
 
 ## DIG: Digital

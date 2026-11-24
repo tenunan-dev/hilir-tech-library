@@ -1,0 +1,25 @@
+{
+  "id": "civ-indian-railway-embankment-soft-ground-improvement",
+  "name": "Indian railway embankment soft-ground improvement",
+  "country": "India",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "Stone columns 900 mm dia, 2.4 m triangular spacing, 8–14 m deep, design capacity 290 kN; CH 2+800 to CH 4+000",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://igs.org.in/storage/proceedings-uploads/TH-08-108-160523094501.pdf",
+      "source_id": "igs-org-in-proceedings-uploads-th-08-108-160523094501-pdf"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

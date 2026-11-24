@@ -1,0 +1,52 @@
+{
+  "id": "mat-civ-reinforcing-steel-rebar-mesh-fibre",
+  "name": "Reinforcing steel — rebar, mesh, fibre",
+  "material_category": "reinforcement",
+  "description": "Provide tensile capacity, ductility and crack control in concrete members; seismic members require controlled yield and elongation (A706).",
+  "specifications": [
+    {
+      "metric": "ASTM A615 yield grades",
+      "unit": "ksi (280 / 420 / 550 / 690 MPa)",
+      "basis": "ASTM A615/A615M-26 public abstract: four minimum yield strength levels; Grade 100 introduced 2015 with tensile/yield ratio 1.15 (lower warning of failure); splicing for Gr100 min 115,000 psi",
+      "source": {
+        "url": "https://www.astm.org/Standards/A615.htm",
+        "source_id": "astm-org-standards-a615-htm"
+      },
+      "value": "40 / 60 / 80 / 100"
+    }
+  ],
+  "applications": [
+    "Provide tensile capacity, ductility and crack control in concrete members; seismic members require controlled yield and elongation (A706)."
+  ],
+  "standards": [],
+  "equipment": [
+    "civ-shallow-raft-pad-foundations",
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "civ-micropiles"
+  ],
+  "suppliers": [
+    "nucor",
+    "crsi-concrete-reinforcing-steel-institute"
+  ],
+  "sources": [
+    {
+      "url": "https://www.astm.org/Standards/A615.htm",
+      "source_id": "astm-org-standards-a615-htm"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "APAC rebar grades (B500B, SD500, JIS SD345, AS/NZS 500N) with sourced tables",
+      "why": "No APAC rebar standard page fetched",
+      "next_action": "Fetch mill datasheets for B500/500N/SD345"
+    },
+    {
+      "what": "Steel fibre and welded mesh product specifications",
+      "why": "No fibre/mesh datasheet fetched",
+      "next_action": "Fetch a fibre reinforcement manufacturer datasheet"
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

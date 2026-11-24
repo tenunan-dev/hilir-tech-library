@@ -1,0 +1,55 @@
+{
+  "id": "mat-civ-geotextiles-aggregates-and-timber-supporting-materials",
+  "name": "Geotextiles, aggregates and timber",
+  "material_category": "civil-materials",
+  "description": "Separation/filtration/drainage/reinforcement in ground works; load-bearing granular fill; temporary and permanent timber formwork and structural elements.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Separation/filtration/drainage/reinforcement in ground works; load-bearing granular fill; temporary and permanent timber formwork and structural elements.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Separation/filtration/drainage/reinforcement in ground works; load-bearing granular fill; temporary and permanent timber formwork and structural elements."
+  ],
+  "standards": [],
+  "equipment": [
+    "civ-shallow-raft-pad-foundations",
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "civ-micropiles"
+  ],
+  "suppliers": [
+    "menard",
+    "peri"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Geotextile tensile/permeability specification sheets",
+      "why": "No geotextile manufacturer datasheet fetched",
+      "next_action": "Fetch a geotextile product data sheet (e.g. TenCate, GSE, local APAC supplier)"
+    },
+    {
+      "what": "Aggregate grading and concrete aggregate standards",
+      "why": "No aggregate standard page fetched",
+      "next_action": "Fetch ASTM C33 / EN 12620 public summary"
+    },
+    {
+      "what": "Structural timber grades for industrial/blast buildings",
+      "why": "ASCE 2025 only mentions timber generically",
+      "next_action": "Fetch a timber grade/design standard page"
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

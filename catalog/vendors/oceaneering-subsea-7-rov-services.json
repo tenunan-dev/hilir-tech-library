@@ -1,0 +1,24 @@
+{
+  "id": "oceaneering-subsea-7-rov-services",
+  "name": "Oceaneering / Subsea 7 (ROV services)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Oceaneering / Subsea 7 (ROV services) is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+      "source_id": "flyability-com-blog-offshore-drone-inspections"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

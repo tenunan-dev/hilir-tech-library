@@ -1,0 +1,42 @@
+{
+  "id": "carboline-carboline-thermo-lag-3000-p-3000-sp",
+  "name": "Carboline Thermo-Lag 3000-P / 3000-SP",
+  "manufacturer": "carboline",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Page read; film build 2–4 mm from search-verified PDS",
+  "specifications": [
+    {
+      "metric": "Solids by volume",
+      "unit": "%",
+      "basis": "",
+      "source": {
+        "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
+        "source_id": "carboline-com-product-details-thermo-lag-3000-p"
+      },
+      "value": 95
+    },
+    {
+      "metric": "Fire rating",
+      "unit": "h",
+      "basis": "",
+      "source": {
+        "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
+        "source_id": "carboline-com-product-details-thermo-lag-3000-p"
+      },
+      "low": 1,
+      "high": 4
+    }
+  ],
+  "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
+  "sources": [
+    {
+      "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
+      "source_id": "carboline-com-product-details-thermo-lag-3000-p"
+    }
+  ],
+  "notes": "Page read; film build 2–4 mm from search-verified PDS",
+  "last_reviewed": "2026-11-24"
+}

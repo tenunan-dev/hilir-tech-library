@@ -1,0 +1,25 @@
+{
+  "id": "civ-shell-prelude-flng-7-offshore-footless-marine-loading-arms-4-lng-3-lpg",
+  "name": "Shell Prelude FLNG — 7 offshore footless marine loading arms (4 LNG, 3 LPG)",
+  "country": "Australia (offshore) / Korea",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "FMC Technologies contract with Technip France for Technip Samsung Consortium; designed/manufactured in Sens, France; Prelude built at Samsung Heavy Industries, Geoje, Korea; 488 m LOA, ~600,000 tonnes fully loaded, moored >200 km from land.",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/investors/archives/fmc-technologies/press-releases/fmc-technologies-awarded-offshore-loading-arm-systems-contract",
+      "source_id": "technipfmc-com-press-releases-fmc-technologies-awarded-offshore-lo"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

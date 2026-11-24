@@ -1,0 +1,55 @@
+{
+  "id": "mat-civ-epoxies-coatings-and-paints-protective-and-fire-resistant",
+  "name": "Epoxies, coatings and paints — protective and fire-resistant",
+  "material_category": "coating",
+  "description": "Provide corrosion barrier, chemical resistance, fire resistance and surface protection for steel, concrete and FRP systems.",
+  "specifications": [
+    {
+      "metric": "Thermo-Lag 3000 95% solids epoxy intumescent",
+      "unit": "% volume solids",
+      "basis": "Carboline Thermo-Lag 3000-P page: flexible two-component epoxy intumescent, 1–4 h rating, UL 1709 / UL 2431 Cat I-A / ISO 834-3 / IMO FTP / ASTM E119 / NFPA 290 to 150 min",
+      "source": {
+        "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
+        "source_id": "carboline-com-product-details-thermo-lag-3000-p"
+      },
+      "value": 95
+    },
+    {
+      "metric": "TYFO CFP / RR fire and flame coatings",
+      "unit": "rating",
+      "basis": "Fyfe FAQ: Tyfo RR finish for egress flame/smoke rating; Tyfo CFP coating for FRP fire protection under gravity loads",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
+        "source_id": "cs-nri-com-resources-frequently-asked-questions"
+      },
+      "value": "Class 1 / Class A per ASTM E84"
+    }
+  ],
+  "applications": [
+    "Provide corrosion barrier, chemical resistance, fire resistance and surface protection for steel, concrete and FRP systems."
+  ],
+  "standards": [],
+  "equipment": [
+    "civ-shallow-raft-pad-foundations",
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "civ-micropiles"
+  ],
+  "suppliers": [
+    "carboline",
+    "fyfe-critica-infrastructure-henkel"
+  ],
+  "sources": [
+    {
+      "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
+      "source_id": "carboline-com-product-details-thermo-lag-3000-p"
+    },
+    {
+      "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
+      "source_id": "cs-nri-com-resources-frequently-asked-questions"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

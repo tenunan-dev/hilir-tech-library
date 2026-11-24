@@ -1,6 +1,6 @@
 # Equipment catalog
 
-143 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+193 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -678,6 +678,324 @@ Recorded gaps:
 
 - Measured COP and heat-recovery rate for absorption chillers coupled specifically to a named gas engine model at a data centre — Request thermodynamic datasheet from engine OEM and chiller vendor for a specific engine exhaust mass flow/temperature
 - Thermax capacity discrepancy (30-3000 TR header vs 50-3000 TR table) — Query Thermax for a certified capacity table; do not choose either value silently
+
+## civ-civil
+
+### Blast-resistant walls, blast doors and windows (civ-blast-resistant-walls-blast-doors-and-windows)
+
+Primary code: PWR: Power and renewables
+Protect personnel and equipment from accidental or intentional explosion by reinforced concrete/steel barriers and rated doors/glazing designed for specified peak reflected pressure, impulse and standoff.
+Vendors: SDI Certified Manufacturers, Pillar Consulting Group, BakerRisk (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Blast design standards | ACI 370R-14 / UFC 3-340-02 / ASCE 2025 3rd ed / PIP STC01018 standards | SDI 133-26 lists blast test methods and design criteria: ASTM F2927-21 doors, ASTM F2912-17 glazing, ASTM F1642-17, GSA-TS01-2003, ASCE 2025 3rd edition, PIP STC01018-2014, UFC 4-010-01 2018 |
+| Sample blast design criteria (non-DoD door) | 4 psi peak reflected pressure, 100 ms duration, 50% rebound psi / ms / % | SDI 133-26 sample criteria: 3 ft x 7 ft door and frame, seated in frame, welded to steel subframe, Category II response, ASTM F2927-21 |
+| Sample DoD criteria | Charge Weight II, 250 ft standoff, Medium level of protection category / ft / level | SDI 133-26 sample DoD blast quote request form referencing UFC 4-010-01 12 Dec 2018 |
+
+
+Recorded gaps:
+
+- Blast wall thickness vs charge/standoff design tables — Fetch UFC 3-340-02 or TM 5-1300 public PDF from WBDG
+- APAC blast-resistant building suppliers — Search APAC blast protection suppliers
+
+### Bored cast-in-situ piles — Kelly, CFA, FDP, secant/c contiguous walls (civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w)
+
+Primary code: PWR: Power and renewables
+Replace soil with a drilled, concreted cylindrical pile transferring load to deep bearing strata; also used contiguous/secant to form excavation support and groundwater cut-off walls. CFA concretes from bottom up through the hollow auger as it is withdrawn.
+Vendors: BAUER Spezialtiefbau GmbH, Liebherr, BAUER Equipment Australia Pty Ltd (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Secant pile wall example | 880 mm diameter x 16 m deep mm x m | BAUER geotechnical solutions page, Businesspark Hannover Germany: secant pile wall with double-head drilling method |
+| BAUER Seabed Drill current capability | 12 knots | BSD 3000 underwater drilling rig works in currents up to 12 knots, remotely operated via umbilicals |
+| Liebherr LRB 23 operating weight | 72.6-78.5 t | Liebherr LRB 23 product page; max torque 300 kNm, crowd 320 kN, engine 600 kW, max pile length with slim vibrator 22.0 m |
+
+
+Recorded gaps:
+
+- CFA pile load-test acceptance criteria and integrity testing frequencies — Fetch EN 1997-1 / local code requirements on pile testing
+- APAC CFA contractors with published diameter/depth ranges — Search APAC specialist contractors
+
+### Driven precast piles (civ-driven-precast-piles-concrete-steel-h-steel-pipe)
+
+Primary code: PWR: Power and renewables
+Displacement piles installed by hammer or vibrator, transferring load by end bearing and shaft friction to deeper competent strata; used where soft near-surface soils overlie bearing layers.
+Vendors: Liebherr, BAUER Maschinen GmbH (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Displacement piles installed by hammer or vibrator, transferring load by end bearing and shaft friction to deeper competent strata; used where soft near-surface soils overlie bearing layers. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Named driven-pile contractors and project case studies in APAC — Search and fetch project pages from APAC piling contractors
+- Pile driving refusal/wave-equation numeric acceptance criteria — Fetch FHWA NHI-05-042 driven pile manual
+
+### Formwork and shuttering (civ-formwork-and-shuttering-wall-column-slab-circular)
+
+Primary code: PWR: Power and renewables
+Temporary moulds that contain fresh concrete until it hardens; system formwork must resist fresh concrete pressure and meet surface finish tolerances (DIN 18202 / EN 13670 etc.).
+Vendors: PERI GmbH, Doka (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Temporary moulds that contain fresh concrete until it hardens; system formwork must resist fresh concrete pressure and meet surface finish tolerances (DIN 18202 / EN 13670 etc.). | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Doka and MEVA formwork product specifications — Fetch Doka/MEVA product data sheets
+- Slipform and precast/IBS system specifications for industrial structures — Search and fetch slipform/IBS system provider pages
+
+### Ground improvement — stone columns, vibrocompaction, grouting (civ-ground-improvement-stone-columns-vibrocompaction-grouting)
+
+Primary code: PWR: Power and renewables
+Densify loose granular soils, reinforce soft cohesive soils, accelerate consolidation and mitigate liquefaction before placing foundations; includes vibro-replacement stone columns, vibro-compaction, dynamic compaction and permeation/compaction/jet grouting.
+Vendors: Menard, BAUER Spezialtiefbau GmbH (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Densify loose granular soils, reinforce soft cohesive soils, accelerate consolidation and mitigate liquefaction before placing foundations; includes vibro-replacement stone columns, vibro-compaction, dynamic compaction and permeation/compac | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- APAC ground-improvement contractor names and completed projects — Search and fetch APAC specialist contractor project pages
+
+### Heavy transport and installation — SPMT, jacking, skidding, cranes and rigging (civ-heavy-transport-and-installation-spmt-jacking-skidding-crane)
+
+Primary code: PWR: Power and renewables
+Move and set heavy equipment (reactors, columns, transformers, modules, vessel topsides) from laydown to foundation with precision, including self-propelled modular transporters, towed modular trailers, hydraulic jacking/skidding and crane lifts.
+Vendors: TII SCHEUERLE, Cometto, Goldhofer AG, Barnhart Crane & Rigging (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Scheuerle SPMT axle load | 60 t per axle line | TII Scheuerle SPMT page: max 60 t axle load, 530 HP power, 700 mm axle compensation; 3–6 axle line modules; positioning accuracy +/-1–2 mm |
+| Scheuerle SPMT platform payloads | 166.5-333.9 t | TII Scheuerle technical data: 3-axle 166.5 t, 4-axle 222.2 t, 5-axle 278.3 t, 6-axle 333.9 t; width 2430 mm |
+| Scheuerle PPU outputs | 180-390 kW | TII Scheuerle: PPU Z180 180 kW (244 HP); PPU Z390 390 kW (530 HP); ePPU Z390 electric 320 kWh battery, 300 kW charging, 390 kW performance |
+| Cometto MSPE axle load range | 48-70 t per axle line | Cometto MSPE product page: 48T, 60T, EVO3 70T families; up to 70 t/axle line, +/-135 deg electronic steering, 700 mm suspension stroke, bending moment 7250 kN.m standard / 9400 kN.m heavy duty |
+| Goldhofer THP/SL axle load | 45 t at 1 km/h | Goldhofer THP/SL page: axle load 45 t at 1 km/h, axle compensation 600 mm, width 3000 mm, axle spacing 1500/1800 mm, max steering +/-55 deg, 2–8 axles, dead weight 13.85 t (4 axles) |
+| SPMT world record load | 23000 t | TII Scheuerle success story: 23,000-tonne ship transported on 880 SCHEUERLE SPMT axle lines |
+| SPMT convoy capacity | 25000 t (and beyond) | Cometto MSPE FAQ: modules combine lengthways and side-by-side, convoys up to 25,000 tons and beyond |
+
+
+Recorded gaps:
+
+- Hydraulic jacking/skidding system capacities (e.g. Enerpac, Holmatro) and crane lift plans — Fetch Enerpac/Holmatro heavy-lift system data and Liebherr crawler crane load charts
+- Rigging gear (slings, shackles, lifting beams) WLL tables — Fetch Crosby/Gunnebo rigging catalogue pages
+- APAC heavy-lift contractors with published project data — Search APAC heavy-lift contractor case studies
+
+### Micropiles (civ-micropiles)
+
+Primary code: PWR: Power and renewables
+Small-diameter drilled and grouted replacement piles carrying axial and/or lateral loads; used in restricted access, under existing structures, in hard rock and for seismic retrofit.
+Vendors: BAUER Equipment Australia (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Small-diameter drilled and grouted replacement piles carrying axial and/or lateral loads; used in restricted access, under existing structures, in hard rock and for seismic retrofit. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Current live BAUER micropile product URL — Locate current BAUER micropile page on equipment.bauer.de
+
+### Passive fire protection — intumescent coatings and fireproofing (civ-passive-fire-protection-intumescent-coatings-and-fireproofin)
+
+Primary code: PWR: Power and renewables
+Insulate structural steel, vessels, raceways and divisions from cellulosic and hydrocarbon fires to maintain load-bearing capacity for a specified rating (e.g. H-0/H-60/H-120, R30–R180, 1–4 hours).
+Vendors: Carboline, Altex Coatings, IGSB (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Carboline Thermo-Lag 3000-P/SP solids content | 95 % by volume | Carboline product page and PDS: two-component epoxy intumescent fireproofing; tested UL 1709, UL 2431 Category I-A, ISO 834-3, IMO FTP Code (H-0/H-60/H-120), ASTM E84, ASTM E119, ISO 20340, NFPA 290 extended to 150 minutes |
+| FRP fire protection | Tyfo CFP coating / Tyfo RR finish system | Fyfe FAQ: FRP does not reduce existing fire rating; no special protection for intermittent seismic/blast loads; Class 1/A flame & smoke per ASTM E84 may be needed for egress; Tyfo CFP for gravity-load cases |
+
+
+Recorded gaps:
+
+- Hydrocarbon jet-fire vs pool-fire DFT tables for specific section factors — Fetch full Thermo-Lag 3000 PDS/UL listing PDF via a browser that supports PDFs
+- APAC fireproofing applicators and approvals — Search APAC fireproofing supplier pages
+
+### Pile caps and pile-to-structure connections (civ-pile-caps-and-pile-to-structure-connections)
+
+Primary code: PWR: Power and renewables
+Rigid reinforced concrete blocks that distribute column/equipment loads to a pile group and tie piles together; include pile head connections, shear reinforcement and anchor/sole-plate interfaces.
+Vendors: Fosroc (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Cementitious grout for baseplates (gap range) | 10-75 mm | Fosroc Conbextra GP product page: free-flow non-shrink cementitious grouting of gap thicknesses 10 to 75 mm; BS EN 1504-3 Class R4 and EN 1504-6 |
+
+
+Recorded gaps:
+
+- Pile cap punching shear / strut-and-tie design numeric examples — Fetch a public DOT or ACI pile cap design example
+
+### Pipe racks, cable trays, access platforms, stairs, handrails, gratings (civ-pipe-racks-cable-trays-access-platforms-stairs-handrails-gra)
+
+Primary code: PWR: Power and renewables
+Provide supported routes for process piping and electrical/instrument cables and safe access/egress and working surfaces around pipe racks, vessels and structures.
+Vendors: Hai Nam, India Electricals (IES), Vinfab Engineers India, NPES, FDG (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Provide supported routes for process piping and electrical/instrument cables and safe access/egress and working surfaces around pipe racks, vessels and structures. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Steel grating, handrail, stair and access platform manufacturer specifications (load classes, span tables) — Fetch a grating manufacturer catalogue (e.g. AMICO, Nucor, Treadwell) with load tables
+- Pipe rack design standards and typical bay dimensions — Fetch a public pipe rack design guideline
+
+### Reinforced concrete — high-performance / sulfate-resistant concrete (civ-reinforced-concrete-high-performance-sulfate-resistant-concr)
+
+Primary code: PWR: Power and renewables
+Provide durable structural concrete for foundations, slabs, walls and machine blocks in aggressive ground/process environments; sulfate-resistant cement, low permeability mixes and corrosion inhibition used where required.
+Vendors: Sika, Fosroc (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Provide durable structural concrete for foundations, slabs, walls and machine blocks in aggressive ground/process environments; sulfate-resistant cement, low permeability mixes and corrosion inhibition used where required. | Qualitative function from pages read in this sweep. |
+
+
+Recorded gaps:
+
+- Sulfate-resistant cement types (ASTM C150 Type II/V, EN 197 CEM I/II/III) with sourced property tables — Fetch a cement manufacturer's public datasheet for sulfate-resistant cement
+- Concrete mix design numeric ranges for aggressive sulfate/chloride exposure — Fetch ACI 318 durability chapter public summary or DOT spec
+
+### Scaffolding (civ-scaffolding-module-rosette-systems-for-industrial-access)
+
+Primary code: PWR: Power and renewables
+Provide temporary worker access, guardrails, loading platforms and birdcage/scaffold support around tanks, vessels, pipe racks and structures during construction and maintenance.
+Vendors: Layher, PERI (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Layher Allround connections per rosette | 8 connections | Layher Allround product page: up to eight connections in one Allround Connector at one level and various angles; bolt-free wedge-head with AutoLock; launched 1974; steel or aluminium |
+| Layher approvals | Z-8.22-64 / Z-8.22-939 / Z-8.22-26.1 approval nos. | Layher: Allround Scaffolding Steel Z-8.22-64 on basis of EN 12811; Lightweight Z-8.22-939; Aluminium Z-8.22-26.1 |
+
+
+Recorded gaps:
+
+- APAC scaffolding supplier specifications and local loading regulations — Fetch local scaffold supplier pages in Malaysia/Singapore
+
+### Seismic design — base isolation, dampers, structural monitoring (civ-seismic-design-base-isolation-dampers-structural-monitoring)
+
+Primary code: PWR: Power and renewables
+Decouple structure from ground motion using laminated rubber/lead-rubber/friction-pendulum bearings and dissipate energy; monitored by robotic total stations, GNSS and geotechnical sensors.
+Vendors: Bridgestone Corporation, Dynamic Isolation Systems (DIS), Trimble Geospatial (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Bridgestone seismic isolation product line | HDR / LRB / NRB / Elastic Sliding Bearing product types | Bridgestone products page: HDR uses high damping rubber (spring + damping); LRB lead plug in laminated natural rubber (G0.40) with elasto-plastic hysteresis; NRB low damping about 2–3% with G0.30/G0.35/G0.40/G0.45; Elastic Sliding Bearing uses PTFE + stainless plate, used with NRB/LRB/HDR |
+| Trimble S9 angular accuracy | 0.5 or 1 arc-second | Trimble S9 product page: EDM accuracy 1.0 mm + 2 ppm prism / 2.0 mm + 2 ppm DR; max range 5500 m; DR PLUS; used for monitoring, rail, mining, tunneling |
+| Trimble S9 HP EDM accuracy | 0.8 mm + 1 ppm prism / 3.0 mm + 2 ppm DR mm + ppm | Trimble comparison table: S9 HP max range 7000 m, angular accuracy 0.5 or 1 arc-second |
+
+
+Recorded gaps:
+
+- Fluid viscous damper and tuned mass damper manufacturer data — Fetch Taylor Devices / Fyfe dampers datasheets
+- Strain gauge / SHM sensor specifications (vibrating wire, fibre optic) — Fetch Geokon or Micron Optics sensor datasheets
+
+### Shallow / raft / pad foundations (civ-shallow-raft-pad-foundations)
+
+Primary code: PWR: Power and renewables
+Transfer column, wall and equipment loads to near-surface bearing strata by spread footings, combined pads, rafts or mat foundations; commonly used for tanks, pumps, pipe-rack columns and small equipment where surface soils are competent.
+Vendors: BAUER Spezialtiefbau GmbH (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Eurocode 7 scope | EN 1997-1:2004 / EN 1997-2:2007 standard | EC7 applies to geotechnical aspects of design of buildings and civil engineering works, used with EN 1990:2002; Part 2 covers ground investigation and testing |
+
+
+Recorded gaps:
+
+- Bearing-capacity and settlement calculation examples for pad/raft footings to EC7 / ACI — Fetch a public EC7 worked example or state DOT shallow foundation manual
+- APAC-specific shallow foundation practice (Malaysia, Singapore) — Fetch BCA Singapore / JKR Malaysia foundation guidance pages
+
+### Steel connections — bolting, welding, fabricated details (civ-steel-connections-bolting-welding-fabricated-details)
+
+Primary code: PWR: Power and renewables
+Join beams, columns, bracing and equipment supports by shop/site welding and high-strength bolting; seismic designs require predictable yield and ductility at connections.
+Vendors: Portland Bolt, ArcelorMittal Orange Book (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| A992 welding filler | E70 series low-hydrogen filler metal | A992 is prequalified base metal under AWS D1.1; normally E70 series low-hydrogen filler by SMAW/FCAW/GMAW/SAW; preheat per D1.1 tables; heavy flanges >2 in need access-hole grinding + MT/PT |
+| Rebar welding code | AWS D1.4/D1.4M standard | ASTM A615 Note 3: welding should be approached with caution; latest AWS D1.4/D1.4M recommended for filler selection and preheat/interpass |
+
+
+Recorded gaps:
+
+- RCSC 2020 pretension table values — Fetch RCSC Specification for Structural Joints Using High-Strength Bolts public page
+- Welding consumable manufacturer catalogues (ESAB, Lincoln Electric, Kobelco) — Fetch AWS D1.1 filler metal classification pages from manufacturers
+
+### Structural steel corrosion protection systems (civ-structural-steel-corrosion-protection-systems)
+
+Primary code: PWR: Power and renewables
+Protect structural steel from atmospheric and process corrosion via barrier coatings, galvanizing, metallizing or weathering steel; often specified in a system with primer/intermediate/topcoat and DFT schedule.
+Vendors: Carboline, Jotun / Hempel / PPG / Sherwin-Williams (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Weathering steel grades | ASTM A588 Grade 50 / A242 Grade 42, 46, 50 grade | AISC steelwise: W-shapes with atmospheric corrosion resistance obtainable to A588 Gr 50 or A242 Gr 42/46/50 |
+
+
+Recorded gaps:
+
+- Named anti-corrosion coating systems with DFT schedules for carbon steel in C5-M / offshore environments — Fetch ISO 12944 system datasheets from a protective coatings manufacturer
+
+### Structural steel — fabricated beams, columns, bracing (civ-structural-steel-fabricated-beams-columns-bracing)
+
+Primary code: PWR: Power and renewables
+Primary gravity and lateral load-resisting frame for process structures, pipe racks, equipment supports and buildings; fabricated from rolled or welded sections in carbon, HSLA or high-strength grades.
+Vendors: ArcelorMittal Europe, SSAB, American Steel & Aluminum (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| ASTM A992 yield strength | 50-65 ksi (345–450 MPa) | ASTM A992 preferred grade for W-shapes: 50 ksi min / 65 ksi max yield, 65 ksi min tensile, Fy/Fu <=0.85, CE <=0.45 (0.47 for flanges >2 in); AISC 341 expected yield = 1.1 x specified min |
+
+
+Recorded gaps:
+
+- APAC structural steel grade equivalents (JIS SM490, AS/NZS 300PLUS, Chinese Q355) — Fetch JIS/AS/NZS steel grade datasheets from mills
+
+### Survey, setting out, geotechnical investigation and laboratory testing (civ-survey-setting-out-geotechnical-investigation-and-laboratory)
+
+Primary code: PWR: Power and renewables
+Establish control points and setting-out, characterize ground and groundwater via drilling, sampling and in-situ tests, and determine soil/rock properties by laboratory testing for foundation design.
+Vendors: Trimble Geospatial, Leica Geosystems / Topcon (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Trimble S9 EDM accuracy (prism) | 1.0 mm + 2 ppm mm + ppm | Trimble S9 page: DR PLUS EDM; 2.0 mm + 2 ppm DR; 5500 m max range; angular accuracy 0.5 or 1 arc-second; ISO 17123-3/-4 on spec sheet |
+| Eurocode 7 Part 2 | EN 1997-2:2007 Ground investigation and testing standard | JRC Eurocode 7 page: Part 2 covers ground investigation and testing; actions from ground (earth pressures, groundwater) calculated per EN 1997 |
+
+
+Recorded gaps:
+
+- Geotechnical lab test standards and typical result ranges (Atterberg, SPT N, consolidation mv/Cv) — Fetch a public geotechnical laboratory manual
+- Leica/Topcon instrument specifications — Fetch Leica/Topcon product pages
+
+### Temporary works — cofferdams, dewatering, shoring, excavation support (civ-temporary-works-cofferdams-dewatering-shoring-excavation-sup)
+
+Primary code: PWR: Power and renewables
+Exclude water and soil from excavation areas, temporarily retain excavation faces and protect adjacent assets while foundations are constructed; includes sheet-pile cofferdams, diaphragm/secant walls, ground anchors, struts, wellpoints and dewatering pumps.
+Vendors: BAUER Spezialtiefbau, Layher (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Secant wall example (BAUER) | 880 mm dia x 16 m mm x m | BAUER: secant pile wall to support excavation pit / seal groundwater, double-head method, Businesspark Hannover |
+| Layher shoring/heavy-duty support | Shoring TG 60 / Heavy-Duty Tower system | Layher Allround product page lists Shoring TG 60, Heavy-Duty support/Heavy-Duty Tower and Allround Bridging System accessories |
+
+
+Recorded gaps:
+
+- Cofferdam design water-head/steel sheet pile section data — Fetch USACE cofferdam design manual or sheet-pile supplier datasheet
+- Dewatering pump capacities and wellpoint spacing — Fetch a dewatering equipment manufacturer datasheet
 
 ## civil
 
@@ -1839,6 +2157,129 @@ Recorded gaps:
 - Cladding material/thickness and weatherproofing specifications for outdoor steam lines in Southeast Asia — Find boiler OEM or insulation contractor specification with cladding gauge, material and fastening details.
 - Numeric heat-loss chart values for insulated HRSG/boiler casings (as opposed to pipes) — Fetch a boiler/HRSG OEM thermal performance datasheet or ASTM C680 based calculation example.
 
+## jetty-civil
+
+### Berth and jetty structures — piled jetties, quay walls, caissons, sheet piles, trestles and dredging (jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons)
+
+Primary code: MID: Midstream
+Provide the load-bearing berth face and access structure that transfers vessel berthing/mooring loads and terminal loads to the seabed, with dredged approach channels and berth pockets providing navigable depth.
+Vendors: Trelleborg Marine & Infrastructure (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Provide the load-bearing berth face and access structure that transfers vessel berthing/mooring loads and terminal loads to the seabed, with dredged approach channels and berth pockets providing navigable depth. | Qualitative function from pages read in this sweep. |
+
+
+### Fender design standards and guidance — PIANC, BS 6349, ACI, ASTM (jetty-fender-design-standards-and-guidance-pianc-bs-6349-aci-astm)
+
+Primary code: MID: Midstream
+Provide the calculation framework for berthing energy, fender selection, reaction loads, mooring loads and marine concrete durability; used by designers worldwide as guidance or by reference in codes.
+Vendors: Trelleborg Marine & Infrastructure (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| PIANC WG33 publication year and status | 2002 year | PIANC USA webinar page: WG33 published Guidelines for the Design of Fenders Systems: 2002; 'the one reference document to which all other national guidelines and codes that specify or prescribe fender design refer' |
+
+
+### Floating pneumatic rubber fenders (jetty-floating-pneumatic-rubber-fenders-yokohama-type)
+
+Primary code: MID: Midstream
+Floating shock absorber between two vessels (STS) or vessel and quay; accommodates tidal range and ship vertical movement; soft, non-linear reaction force protects hull and jetty under overload and inclined berthing.
+Vendors: The Yokohama Rubber Co., Ltd., ShibataFenderTeam, Doowin Marine, Pacific Marine & Industrial (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Pneumatic 50 — guaranteed energy absorption (GEA) across standard sizes | 6-6473 kNm | Yokohama published 'Pneumatic 50 Standard Sizes' table, from 500x1000 mm (GEA 6 kNm) to 4500x12000 mm (GEA 6473 kNm), initial internal pressure 50 kPa |
+| Pneumatic 80 — guaranteed energy absorption (GEA) across standard sizes | 8-9037 kNm | Yokohama 'Pneumatic 80 Standard Sizes' table, from 500x1000 mm (GEA 8 kNm) to 4500x12000 mm (GEA 9037 kNm), initial internal pressure 80 kPa |
+| Inclined berthing energy retention | no decrease up to 15 degrees | Yokohama page: 'energy absorption does not decrease at inclined compression up to 15 degrees' for Yokohama Pneumatic Rubber Fenders (comparative diagrams vs solid and foam fenders) |
+| Low-pressure pneumatic fender GEA | 676-1565 kNm | Yokohama low-pressure table, 10 kPa initial pressure: 2500x9100 mm -> 676 kNm, reaction 1901 kN, hull pressure 88 kPa; 3300x12700 mm -> 1565 kNm, reaction 3439 kN, hull pressure 89 kPa |
+| ISO 17357-1:2014 bead-ring requirement | less than 0.20 D ratio (D = fender diameter) | Yokohama explanation of ISO 17357-1:2014 new requirements, to keep metal parts safe from permanent deformation at ~80% over-compression |
+
+
+### Marine / shore-to-ship loading arms and transfer systems (jetty-marine-shore-to-ship-loading-arms-and-transfer-systems)
+
+Primary code: MID: Midstream
+Articulated pipework with swivel joints connecting shore or offshore facility to ship for transfer of oil, LNG, LPG, chemicals, high-pressure gas, CO2 and hydrogen; includes emergency release systems (ERS) and quick connect/disconnect couplers (QC/DC).
+Vendors: Technip Energies, Flowtork Technologies Corporation, TBG Technologies (Chokusen), Japan (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Flowtork/Technip Energies refining & petrochemical loading arm diameter | 6-24 inches | Flowtork (Philippines distributor) page for Technip Energies loading systems: 'Diameter 6 to 24 inches, design pressure up to 50 bar'; options heat tracing, insulation, EasyDrive, automatic connection |
+| ATOL 20 inch full-bore product line | 20 inches full bore | Flowtork page: 'ATOL – Articulated Tandem Offshore Loader: Rigid transfer system for LNG transfer with high-flow performance and 20 inch full-bore product lines' |
+| Technip Energies installed base / patents / experience | +15,000 installed loading arms; 57 patents; 70+ years count / years | Technip Energies Loading Systems page figures: '57 patents', '70+ years of experience', '+15K installed loading arms', '300+ employees worldwide' |
+
+
+### Marine utility and navigation systems (jetty-marine-utility-and-navigation-systems-fire-water-foam-draina)
+
+Primary code: MID: Midstream
+Support safe terminal operation: fire protection, oily-water/drainage handling, sewage, electrical power and lighting, and navigation aids.
+Vendors: Vikoma International Ltd (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Support safe terminal operation: fire protection, oily-water/drainage handling, sewage, electrical power and lighting, and navigation aids. | Qualitative function from pages read in this sweep. |
+
+
+### Mooring quick release hooks (jetty-mooring-quick-release-hooks-qrh-bollards-and-load-monitoring)
+
+Primary code: MID: Midstream
+Secure mooring lines at jetties/berths/dolphins, release safely under load, and monitor line tension to warn of surging or overload.
+Vendors: Trelleborg Marine & Infrastructure, ShibataFenderTeam (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Trelleborg QRH installed base and service dates | since 1972; over 600 mooring facilities worldwide; SmartMoor over 100 FPSO facilities (hawser hooks) count/year | Trelleborg QRH product page (installed since 1972) and company brochure search snippets ('installed in over 600 mooring facilities worldwide'; hawser hooks 'installed in over 100 FPSO facilities') |
+| LMT2 T-head bollard rated mooring capacity | 80 tonnes | ShibataFenderTeam LMT2 project: 37 T-head bollards with a rated mooring capacity of 80 tonnes |
+
+
+### Motion-compensated access gangways / boarding bridges (jetty-motion-compensated-access-gangways-boarding-bridges)
+
+Primary code: MID: Midstream
+Transfer personnel and cargo between vessel and fixed or floating structure with active compensation of vessel motions (6 degrees of freedom), extending the weather window for crew change and transfer.
+Vendors: Ampelmann Operations B.V. (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Ampelmann E-type significant wave height compensation | 4.5 m Hs | Ampelmann E-type product page: 'safely transferring personnel in sea states up to 4.5m Hs'; full 6-DOF compensation, zero movement of gangway during operation |
+| Ampelmann E-type gangway length / footprint / weight | 30 m / 8.4 x 9.5 m / 105 mt m, m x m, metric tonnes | Ampelmann E-type page specification tiles |
+
+
+### Oil spill response — containment booms, skimmers and recovery (jetty-oil-spill-response-containment-booms-skimmers-and-recovery)
+
+Primary code: MID: Midstream
+Contain spilled oil on water, protect jetty/harbour intake areas and recover oil with skimmers, pumps and temporary storage.
+Vendors: Vikoma International Ltd, DESMI (Ro-Clean) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Boom materials and deployment characteristics | Neoprene (vulcanised) or polyurethane; air or foam filled material/configuration | Vikoma Information Hub article (page fetched): neoprene gives wave-following flexibility; polyurethane is lower cost but less robust; foam-filled needs no inflation but more storage; air-filled inflation time depends on design |
+
+
+### Rubber fenders — cone, cell, element and V/arch types (jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett)
+
+Primary code: MID: Midstream
+Absorb berthing kinetic energy and limit reaction force and hull pressure transmitted to the vessel and the berth structure; remain functional when a vessel is moored ('lean-on' loads).
+Vendors: ShibataFenderTeam Group, Trelleborg Marine & Infrastructure, The Yokohama Rubber Co., Ltd., Pacific Marine & Industrial (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| SPC cone fender overall height, range across published sizes | 300-2000 mm | ShibataFenderTeam SPC cone fender standard size table, SPC 300 to SPC 2000; page states 'heights between 300 and 2,000 mm' in 3 main rubber grades |
+| SPC 2000 cone fender diameter / weight / anchors | 3090 mm outer diameter (Ø D); weight 9,560 kg; 10 x M56 anchors | Largest size in the published SPC dimension table (SPC 2000, H 2000 mm, Ø d 1750 mm) |
+| V-fender SX/SH standard height range | 250-1000 mm | ShibataFenderTeam V-fender page: standard heights 250-1,000 mm, standard lengths 1,000-3,500 mm, 3 rubber grades |
+| SX 1000 V-fender dimensions | 1000 mm H; W 1800 mm; w 800 mm; t 47 mm; C 610 mm; PW 1550 mm; anchors M48 | Published SX fender dimension table, row SX 1000 |
+
+
+### Storage tanks, bunds and tank-farm equipment (jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620)
+
+Primary code: MID: Midstream
+Bulk liquid storage at terminals: fixed cone roof, internal floating roof (IFR), external floating roof (EFR), double-deck floating roof (DDFR); secondary containment/bunds; associated pumps, metering and loading.
+Vendors: L-Vision Engineering Pte Ltd, Tank Built Pte Ltd, HAIL (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Bulk liquid storage at terminals: fixed cone roof, internal floating roof (IFR), external floating roof (EFR), double-deck floating roof (DDFR); secondary containment/bunds; associated pumps, metering and loading. | Qualitative function from pages read in this sweep. |
+
+
 ## laboratories
 
 ### Laboratories (utility-laboratories)
@@ -1994,6 +2435,291 @@ Vendors: ABB, Schneider Electric, Siemens, Eaton (4 model lines recorded).
 Recorded gaps:
 
 - per-panel prices from ABB/Schneider/Eaton themselves — Ask a TNB-registered Malaysian switchgear supplier (EPE Switchgear, Inteflex, others) for a per-unit benchmark
+
+## near-civil
+
+### Bridges, helidecks and accommodation modules (near-bridges-helidecks-and-accommodation-modules)
+
+Primary code: UPS: Upstream
+Connect platforms, enable helicopter transfer, and house crew.
+Vendors: Vantris Energy Berhad (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| living quarter + bridge fabrication scope, East Piatu | 4161 metric tonnes (combined topside scope) | Newfield Malaysia, includes topside, CPP, living quarter and bridge |
+| permanent living quarters and office cabins, Cakerawala gas field | supply and installation scope n/a | Carigali Hess, Feb 2013-Aug 2013 |
+
+
+### Concrete gravity-base structures (near-concrete-gravity-base-structures-gbs-and-caissons)
+
+Primary code: UPS: Upstream
+Self-weight founded structures avoiding piling; cells can provide oil storage and separation.
+Vendors: Boskalis (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Brent GBS weight | several hundred thousand tonnes each tonnes | Shell description of Brent Bravo/Charlie/Delta gravity base structures |
+| Brent storage/separation cells | 64 total (42 used for storage/separation), each 60 m tall count / m | Shell Brent decommissioning process |
+| ISO concrete offshore structures standard | ISO 19903:2019 (Published); ISO/AWI 19903 under development n/a | ISO/TC 67/SC 7 catalogue |
+| caisson types in ISO 19902 scope | free-standing and braced caissons n/a | ISO 19902:2020 abstract |
+
+
+### Deck cranes, davits and lifting appliances (near-deck-cranes-davits-and-lifting-appliances)
+
+Primary code: UPS: Upstream
+Pedestal/knuckle-boom and active-heave-compensated cranes for supply vessel transfers, subsea lifts and module handling.
+Vendors: PALFINGER, Liebherr, Huisman Equipment (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| PALFINGER AHC hoisting capacity / jib radius / wire | up to 250 t / up to 50 m / 3,000 m wire (standard range) t / m / m | PALFINGER AHC Cranes feature list |
+| PALFINGER winterization | reliable performance down to -50 °C; DNV, BV, LRS, ABS compliance °C | PALFINGER AHC Cranes winterization section |
+
+
+### Drilling, grouting and seabed preparation (near-drilling-grouting-and-seabed-preparation)
+
+Primary code: UPS: Upstream
+Drill through difficult ground (drive-drill-drive), grout pile-to-sleeve or monopile connections, prepare seabed and clear UXO before foundation installation.
+Vendors: Acteon / Menck, Boskalis (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| 3D method purpose | combines pile driving and drilling to reach target depth in hard, rocky or variable ground n/a | Acteon brochure listing 'Drive-drill-drive (3D) method for monopiles' |
+| Veja Mate seabed preparation | UXO detection and removal before scour protection; rock placement by fallpipe vessel Rockpiper; each piling operation ~24 hours including driving through pre-laid scour protection n/a | Boskalis project page |
+| Boskalis Aberdeen Bay scope | UXO survey and removal; seabed preparation; 11 suction bucket jacket installations n/a | Boskalis related-project card |
+
+
+### Fixed steel jacket (near-fixed-steel-jacket-oil-gas)
+
+Primary code: UPS: Upstream
+Bottom-founded tubular space frame that transfers topsides, wind, wave, current and seismic loads into piled foundations; supports conductors and risers.
+Vendors: Vantris Energy Berhad, Malaysia Marine & Heavy Engineering, Jan De Nul / Hitachi consortium (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| 8-legged jacket substructure net weight, Kebabangan (Malaysia) | 13393 metric tonnes | KBB substructure, engineering/procurement/fabrication/inspection/testing/pre-commissioning/loadout, Apr 2011-Sep 2012 |
+| jacket with piles and appurtenances, Tapis R (Malaysia) | 5475 metric tonnes | ExxonMobil EMEPMI, Mar 2012-Jul 2013 scope |
+| 6-legged jacket fabrication weight, Deen Dayal West (India) | 4530 metric tonnes | Larsen & Toubro / GSPC fabrication, loadout and seafastening Apr 2010-Jan 2011 |
+| NASR field jacket net installed weight | 2270-3070 metric tonnes | 2 topsides and 3 jackets (Accommodation, Separation, Gas Treatment platforms), NASR and Umm Shait fields |
+
+
+### Floating production interfaces (near-floating-production-interfaces-fpso-flng-fso)
+
+Primary code: UPS: Upstream
+Floating host for process, storage and offloading; interfaces with risers, moorings and fixed structures; relevant to CCS conversion of existing platforms.
+Vendors: Boskalis (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Jotun A FPSO size / production | 92,000 DWT / 70,000 bpd DWT / bpd | Boskalis related-project card; producing on Jotun field (Norway) since 1999 |
+| Porthos CO2 injection host | P18-A former gas production platform converted to CO2 injection platform; >20 km offshore pipeline laid n/a | Porthos official project site |
+
+
+### Impact piling hammers (near-impact-piling-hammers-hydraulic-double-acting)
+
+Primary code: UPS: Upstream
+Drive jacket piles, conductors and monopiles by controlled hydraulic blows; integrated with drivability analysis and noise mitigation.
+Vendors: Menck (Acteon Marine Foundations; sale to Cadeler announced Aug 2026), IQIP (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Menck hammer range energy | 100-6250 kJ | Acteon 'Hydraulic double acting impact hammers' page - hammer spread range |
+| MHU800S energy range / oil flow / pressure / blow rate | 75-820 kJ / 1,600 L/min / 250 bar / 38 bl/min kJ / L/min / bar / blows per min | Acteon product specification table |
+| MHU3500S energy range / oil flow / pressure / blow rate | 320-3,500 kJ / 5,800 L/min / 240 bar / 32 bl/min kJ / L/min / bar / blows per min | Acteon product specification table |
+| MHU6000W energy range / oil flow / pressure / blow rate | 200-6,250 kJ / 12,800 L/min / 210 bar / 30 bl/min kJ / L/min / bar / blows per min | Acteon product specification table; largest in range |
+| IQIP IQ8 blow energy | >7500 kJ | IQIP Hydrohammer page - 'strongest hydraulic impact hammer in the world' |
+| Hydrohammer total range / operating history | 30 kJ to >7,500 kJ; >5.5 million piles installed; >97% availability kJ / count / % | IQIP Hydrohammer FAQ |
+
+
+### Inspection: ROV, AUV and drone-based remote inspection (near-inspection-rov-auv-and-drone-based-remote-inspection)
+
+Primary code: UPS: Upstream
+Close-up visual inspection, UT thickness measurement, corrosion mapping and CP verification in splash zone, tanks, risers and subsea structures without confined-space entry.
+Vendors: Flyability, Deep Trekker, Oceaneering / Subsea 7 (ROV services) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| inspection time: rope/boat vs drone | 2-7 h vs days | Flyability comparison table: rope access/boat 3-7 days, drone 2-4 hours |
+| crew footprint | 4-6 technicians vs 2 operators on deck persons | Flyability comparison table |
+| Saipem COT/WBT inspection speed | 80-90% faster with zero human entry % | Saipem interview cited by Flyability; class-approved inspection |
+| TotalEnergies FPSO hull digitalization cost reduction | 45 % | Flyability testimonial reference |
+| BP confined-space hours saved | >1700 hours | Flyability: drones supporting BP offshore operations since 2023 |
+| RIT acceptance | ABS, BV, LR, ClassNK, DNV, RINA rulebooks accept remote inspection techniques; IMO defines RIT as alternative means for close-up survey n/a | Flyability offshore drone inspection guide |
+
+
+### Jack-up rigs (near-jack-up-rigs-mobile-offshore-units)
+
+Primary code: UPS: Upstream
+Mobile self-elevating drilling/workover platform with independent legs and jack houses; used for nearshore and shelf drilling.
+Vendors: Boskalis (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| jack-up standard (elevated at a site) | ISO 19905-1:2023 (Amd 1:2025 corrections to tubular member strength, Table B-2, simplified free-field liquefaction method) n/a | ISO/TC 67/SC 7 catalogue |
+| jack-up installation/removal standard | ISO 19905-4:2026 n/a | ISO/TC 67/SC 7 catalogue |
+| jack-ups within fixed steel structure standard scope | included (site-specific assessment referred to ISO 19905-1) n/a | ISO 19902:2020 abstract / NOTE 2 |
+| self-erected tender rig & derrick equipment set KM-I tonnage | 8750 metric tonnes | Kencana Mermaid Drilling, 2009-2010 |
+
+
+### Legs, pile foundations, conductors and risers (near-legs-pile-foundations-conductors-and-risers)
+
+Primary code: UPS: Upstream
+Transfer structural and drilling loads to seabed; conductors guide and support wellheads; risers connect subsea wells to topsides.
+Vendors: EEW Group, IQIP (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| wind jacket pin pile diameter / max length / max weight | 3 m / 82 m / 310 t m / m / t | Changhua TPC Phase 1 demonstration: 4 pin piles per jacket, 84 total, 21 jackets |
+
+
+### Lifeboats, liferafts, davits and evacuation systems (near-lifeboats-liferafts-davits-and-evacuation-systems)
+
+Primary code: UPS: Upstream
+TEMPSC/free-fall lifeboats, rescue boats and launched liferafts for evacuation from fixed platforms, rigs and FPSOs.
+Vendors: VIKING Life-Saving Equipment, Survitec Group (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| VIKING Norsafe free-fall approved drop height | 50 m | VIKING product insights: 'world record free-fall performance of up to 50 m approved drop height' |
+| VIKING offshore evacuation system height capability | 81 m | VIKING offshore evacuation systems: chute- or slide-based, for heights up to 81 m |
+| VIKING compact lifeboat capacities | 40 / 52 persons | VNJY range of enclosed lifeboats |
+
+
+### Monopile foundations (near-monopile-foundations-offshore-wind-nearshore)
+
+Primary code: UPS: Upstream
+Single large-diameter tubular driven into seabed carrying wind-turbine or platform loads; commonly used with transition piece or TP-less design.
+Vendors: Sif Group, CS WIND Offshore, EEW Group (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| monopile length | ?-120 m | Sif 'up to 120 metres' |
+| monopile diameter | ?-11 m | Sif metric tile |
+| maximum wall thickness | 160 mm | Sif metric tile |
+| maximum monopile weight | 2000-2500 tonnes | Sif page states 'weigh a maximum of 2,000 tonnes each' in prose and '>2500 tonnes' in metric tile |
+| monopile weight range (fabricator) | 1000-3500 tonnes | CS WIND Offshore monopile page |
+| foundations fabricated since 2002 | >3100 count | CS WIND Offshore |
+| Veja Mate monopile weight / height and water depth | 1,230-1,302 t; 85 m tall; water depth 39-41 m t / m / m | Boskalis Veja Mate EPCI project, German North Sea |
+
+
+### Nearshore submerged tunnels and bridges (near-nearshore-submerged-tunnels-and-bridges)
+
+Primary code: UPS: Upstream
+Fixed crossings and immersed-tunnel elements in nearshore waters; relevant to platform/bridge interface structures and marine construction.
+Vendors: Boskalis (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| bridges within ISO 19902 scope | bridges and connecting structures listed as related offshore structures n/a | ISO 19902:2020 abstract |
+| Boskalis tunnels and bridges capability | listed market (no numeric spec) n/a | Boskalis site navigation |
+
+
+### Offshore structural design standards (near-offshore-structural-design-standards-umbrella)
+
+Primary code: UPS: Upstream
+Governing codes for planning, design, fabrication, transport, installation, in-service management and removal of offshore structures.
+Vendors: Boskalis (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| ISO 19902:2020 | Edition 2, published 2020-11, 565 pages; being replaced by ISO/CD 19902 edition 3 n/a | ISO standard page |
+| ISO 19901-3:2024 topsides structure | published (stage 60.60) n/a | ISO/TC 67/SC 7 catalogue |
+| DNV-ST-0126 support structures for wind turbines | Edition 2021-12; general principles for structural design of wind turbine support structures n/a | DNV standards page |
+| AWS D1.1/D1.1M:2025 | 25th edition; ANSI approved 2025-03-19; Amendment 1 January 2026; 8 normative and 11 informative annexes n/a | AWS standard page and preview PDF |
+
+
+### Pipe racks, cable trays, gratings, handrails and access platforms (near-pipe-racks-cable-trays-gratings-handrails-and-access-platfor)
+
+Primary code: UPS: Upstream
+Secondary steel that routes piping/cables and provides safe access and walkways on topsides and wind foundations.
+Vendors: CS WIND Offshore (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| external platforms and anodes | CS WIND fabricates/mounts external platforms and both static anodes and dynamic ICCP systems n/a | CS WIND monopile page |
+| heated gangways, stairs, ladders and railings | listed as winterization features on PALFINGER offshore cranes n/a | PALFINGER AHC cranes page |
+| secondary steel scope | CS WIND Offshore product line 'Secondary Steel' n/a | CS WIND solutions navigation |
+
+
+### Scour protection (near-scour-protection-rock-dumping-mattresses-bags)
+
+Primary code: UPS: Upstream
+Prevent seabed erosion around monopiles/jackets and over cables; filter layer plus armour layer, or flexible mattresses / sand containers.
+Vendors: Boskalis, Naue GmbH & Co. KG, Ridgeway Marine, ContiTech (Continental Group), Van Oord / DEME / Jan De Nul (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| West of Duddon Sands armour rock grading | 8-18 inch (20-45 cm) in / cm | 108 turbines; filter layer at 108 locations before monopile installation; side-dump armour placement after installation |
+| Meerwind armour rock mass | 100-700 kg | 80 monopile locations; pre-installation 1-5 inch filter material |
+| Anholt filter / armour grading | 1-4 inch filter + 2-8 inch armour in | 42 WTG foundations |
+| Ridgeway filter bag design life | 50 years | polyester filter bag, 61% recycled bottles, filled with stones; produced by Sumisho Kyowa, used at EDF Teesside |
+| ContiTech mat thickness / diameter | 12-15 mm / up to 52 m mm / m | conveyor-belt type mat tested at Deltares under simulated extreme storms and streams |
+| NAUE Secutex Soft Rock | needle-punched nonwoven geotextile sand container; used at Amrumbank West n/a | offshorewind.biz scour protection article |
+
+
+### Structural health monitoring (near-structural-health-monitoring-shm-and-fatigue-management)
+
+Primary code: UPS: Upstream
+Instrument critical details with strain/acceleration/acoustic sensors to support fatigue assessment, early crack detection and operational decisions.
+Vendors: Boskalis (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| fatigue design standard | DNV-RP-C203, Edition 2024-10, amended 2025-10 n/a | DNV standards page |
+
+
+### Structural integrity management and decommissioning planning (near-structural-integrity-management-and-decommissioning-planning)
+
+Primary code: UPS: Upstream
+Lifecycle process: data, evaluation, strategy, inspection programme, fitness-for-purpose assessment, risk reduction and decommissioning.
+Vendors: Allseas, Able UK (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| ISO structural integrity management standard | ISO 19901-9:2019 (published); ISO/CD 19901-9 under development n/a | ISO/TC 67/SC 7 catalogue |
+| Brent topsides reuse/recycling target | 97 % | Shell Brent decommissioning: Allseas single-lift removal, Able UK reuse/recycling |
+
+
+### Topsides, decks and module support frames (near-topsides-decks-and-module-support-frames)
+
+Primary code: UPS: Upstream
+Process, drilling, utilities and accommodation modules carried above the jacket; module support frames distribute loads to jacket legs.
+Vendors: Vantris Energy Berhad, Malaysia Marine & Heavy Engineering (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| CUQ / DPP float-over topside weight, Bayu Undan (Timor Sea) | 11,500 t / 15,000 t t | ConocoPhillips Bayu Undan floatover, Feb 2004 |
+| Angel Platform topside floatover weight, Western Australia | 7700 tonnes | Woodside Angel gas field, Nov 2005-Jun 2008 EPCI |
+| Maari wellhead platform (base + support + process deck), New Zealand | 10000 tonnes (approx.) | OMV New Zealand EPIC contract, Taranaki Basin |
+| topside + CPP + living quarter + bridge, East Piatu (Malaysia) | 4161 metric tonnes | Newfield Peninsular Malaysia fabrication scope Jul 2010-Aug 2011 |
+| Brent Delta accommodation capacity | 161 persons | topsides house accommodation block, helipad, drilling and operational areas; kitchen/cinema/gym |
+
+
+### Vibratory piling and vibratory/suction installation equipment (near-vibratory-piling-and-vibratory-suction-installation-equipmen)
+
+Primary code: UPS: Upstream
+Alternative to impact driving for sheet piles, tubular piles and jackets in granular soils; suction installation uses differential pressure.
+Vendors: IQIP (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| IQIP vibratory product families | VibroLift VQ; Vibrohammer F-series and Z-series n/a | IQIP product navigation |
+| PULSE effect | extends hammer impact duration to reduce underwater noise, pile fatigue and operating costs n/a | IQIP Hydrohammer FAQ |
+| suction bucket jacket installations | 11 count | Aberdeen Bay suction bucket jacket project (Boskalis) |
+
+
+### Wind-turbine jacket foundations and suction-bucket jackets (near-wind-turbine-jacket-foundations-and-suction-bucket-jackets)
+
+Primary code: UPS: Upstream
+Four-legged lattice substructure for offshore wind; pin piles or suction buckets transfer loads to seabed.
+Vendors: Samkang (South Korea), Edgen Murray (yard manager) / Ming Rong Yuan (Taiwan fabricator), Boskalis (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Changhua jacket height / weight / steel | 60 m / >1,100 t each / >23,000 t total for 21 jackets m / t / t | TPC Changhua Phase 1 demonstration, fabricated by Samkang, South Korea |
+| transition piece maximum diameter / height | 5.40 m / 7 m m / m | Changhua jackets for 5.2 MW turbines |
+| Aberdeen Bay suction bucket jackets | 11 count | Boskalis scope: design/fabrication of jacket foundations, UXO survey/removal, installation of 11 suction bucket jackets, scour protection, 66 kV cables |
+
 
 ## nitrogen
 

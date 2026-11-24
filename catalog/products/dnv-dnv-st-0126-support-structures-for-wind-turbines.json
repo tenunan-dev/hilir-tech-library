@@ -1,0 +1,31 @@
+{
+  "id": "dnv-dnv-st-0126-support-structures-for-wind-turbines",
+  "name": "DNV-ST-0126 support structures for wind turbines",
+  "manufacturer": "dnv",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Preview PDF linked; full text subscription.",
+  "specifications": [
+    {
+      "metric": "edition",
+      "unit": "n/a",
+      "basis": "",
+      "source": {
+        "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/",
+        "source_id": "dnv-com-dnv-st-0126-support-structures-for-wind-turbines"
+      },
+      "value": "2021-12"
+    }
+  ],
+  "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/",
+  "sources": [
+    {
+      "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/",
+      "source_id": "dnv-com-dnv-st-0126-support-structures-for-wind-turbines"
+    }
+  ],
+  "notes": "Preview PDF linked; full text subscription.",
+  "last_reviewed": "2026-11-24"
+}

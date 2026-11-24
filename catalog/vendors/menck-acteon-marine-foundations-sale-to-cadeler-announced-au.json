@@ -1,0 +1,24 @@
+{
+  "id": "menck-acteon-marine-foundations-sale-to-cadeler-announced-au",
+  "name": "Menck (Acteon Marine Foundations; sale to Cadeler announced Aug 2026)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Menck (Acteon Marine Foundations; sale to Cadeler announced Aug 2026) is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+      "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

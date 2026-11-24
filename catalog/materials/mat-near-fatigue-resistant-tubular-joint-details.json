@@ -1,0 +1,40 @@
+{
+  "id": "mat-near-fatigue-resistant-tubular-joint-details",
+  "name": "Fatigue-resistant tubular joint details",
+  "material_category": "design-detail-steel",
+  "description": "Manage stress concentration and S-N performance at welded tubular intersections and splash-zone details.",
+  "specifications": [
+    {
+      "metric": "DNV fatigue assessment method",
+      "unit": "n/a",
+      "basis": "DNV standards page",
+      "source": {
+        "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
+        "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"
+      },
+      "value": "DNV-RP-C203 2024-10 amended 2025-10; methods for fatigue assessment of offshore steel structures"
+    }
+  ],
+  "applications": [
+    "Manage stress concentration and S-N performance at welded tubular intersections and splash-zone details."
+  ],
+  "standards": [],
+  "equipment": [
+    "near-fixed-steel-jacket-oil-gas",
+    "near-topsides-decks-and-module-support-frames",
+    "near-legs-pile-foundations-conductors-and-risers",
+    "near-bridges-helidecks-and-accommodation-modules"
+  ],
+  "suppliers": [
+    "trelleborg-marine-infrastructure"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
+      "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

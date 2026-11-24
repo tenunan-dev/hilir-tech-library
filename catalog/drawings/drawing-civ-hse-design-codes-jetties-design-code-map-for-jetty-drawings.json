@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-hse-design-codes-jetties-design-code-map-for-jetty-drawings",
+  "title": "HSE Design Codes – Jetties (design-code map for jetty drawings)",
+  "diagram_type": "block-diagram",
+  "description": "Regulatory guide mapping jetty design issues (berthing, mooring, fendering, ship-to-shore transfer, cathodic protection of undersea piles, emergency access) to the BS 6349 series and HSE guidance; useful as a citation hub for jetty GA details.",
+  "publisher": "UK Health and Safety Executive (HSE), COMAH SRAM Technical Measures",
+  "url": "https://hse.gov.uk/comah/sragtech/techmeasjetties.htm",
+  "licence": "All content available under the Open Government Licence v3.0 except where otherwise stated (page footer).",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://hse.gov.uk/comah/sragtech/techmeasjetties.htm",
+      "source_id": "drawing-src-hse-gov-uk-techmeasjetties-htm"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. webfetch_read",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "mat-jetty-uhmw-pe-fender-facing-pads-and-sliding-plates",
+  "name": "UHMW-PE fender facing pads and sliding plates",
+  "material_category": "polymer-fendering",
+  "description": "Low-friction, high-abrasion-resistance facing on steel fender panels and rubber fenders; lets vessel hulls glide along the berth and reduces wear and hull damage.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Low-friction, high-abrasion-resistance facing on steel fender panels and rubber fenders; lets vessel hulls glide along the berth and reduces wear and hull damage.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Low-friction, high-abrasion-resistance facing on steel fender panels and rubber fenders; lets vessel hulls glide along the berth and reduces wear and hull damag"
+  ],
+  "standards": [],
+  "equipment": [
+    "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "jetty-mooring-quick-release-hooks-qrh-bollards-and-load-monitoring",
+    "jetty-motion-compensated-access-gangways-boarding-bridges"
+  ],
+  "suppliers": [
+    "trelleborg-marine-infrastructure",
+    "dockguard-ltd",
+    "boomarine",
+    "shibatafenderteam"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

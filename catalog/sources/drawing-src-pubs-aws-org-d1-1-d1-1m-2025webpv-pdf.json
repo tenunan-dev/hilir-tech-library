@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-pubs-aws-org-d1-1-d1-1m-2025webpv-pdf",
+  "name": "American Welding Society (AWS)",
+  "url": "https://pubs.aws.org/Download_PDFS/D1.1-D1.1M-2025WebPV.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "American Welding Society (AWS)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Public preview of the welding code naming new or revised welded-joint detailed drawings; figures cover maximum fillet weld size at edges and prequalified joint details, with Clause 10 covering tubular T-, Y- and K-connections. Evidence: https://pubs.aws.org/Download_PDFS/D1.1-D1.1M-2025WebPV.pdf"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-izw-baw-de-marcom180ivz-pdf",
+  "name": "PIANC MarCom WG 180; copy hosted by BAW",
+  "url": "https://izw.baw.de/publikationen/pianc/0/marcom180IVZ.pdf",
+  "source_type": "association",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "PIANC MarCom WG 180; copy hosted by BAW",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "PIANC guidance specifically on scour of berthing structures caused by ship propeller wash; the 6-page BAW-hosted copy was downloaded as an image-based/PDF pointer (no machine-readable figure captions extracted). Evidence: https://izw.baw.de/publikationen/pianc/0/marcom180IVZ.pdf"
+}

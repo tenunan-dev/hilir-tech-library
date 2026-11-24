@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-scour-and-scour-mitigation-for-ijmuiden-ver-wind-farm-zone-scour-prote",
+  "title": "Scour and Scour Mitigation for IJmuiden Ver Wind Farm Zone — scour protection layout figures",
+  "diagram_type": "schematic",
+  "description": "Illustrations of scour protection methods including filter units and rock bags around a monopile, plus suitability tables for protection strategies under stable/rising/lowering seabed conditions. | Figures: Figure 5.11 — (left) Example of filter unit; (right) illustration of rock bags around a monopile; Figure 5.12 — Gravel bag (temporary scour protection for jack-up operations); Table 5.11 — Suitability of all considered scour protection methods for strategies B and C",
+  "publisher": "Deltares / Rijksdienst voor Ondernemend Nederland (RVO), IJmuiden Ver Wind Farm Zone",
+  "url": "https://offshorewind.rvo.nl/file/download/5704b803-1954-4d8f-a3d7-77c0d0c423ec/ijv_20230207_deltares_scour-and-scour-mitigation-report-f.pdf",
+  "licence": "Dutch Government (RVO) / Deltares report; public with attribution. Figures not reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://offshorewind.rvo.nl/file/download/5704b803-1954-4d8f-a3d7-77c0d0c423ec/ijv_20230207_deltares_scour-and-scour-mitigation-report-f.pdf",
+      "source_id": "drawing-src-offshorewind-rvo-nl-ijv-20230207-deltares-scour-and-scour-mi"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. search_verified",
+  "last_reviewed": "2026-11-24"
+}

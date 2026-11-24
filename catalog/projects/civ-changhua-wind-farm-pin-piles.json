@@ -1,0 +1,25 @@
+{
+  "id": "civ-changhua-wind-farm-pin-piles",
+  "name": "Changhua wind farm pin piles",
+  "country": "Taiwan",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "84 pin piles, 3 m dia, up to 82 m long, up to 310 t; some fabricated in Taiwan by Ming Rong Yuan",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
+      "source_id": "jandenul-com-news-jan-de-nul-nears-completion-fabrication-foundati"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

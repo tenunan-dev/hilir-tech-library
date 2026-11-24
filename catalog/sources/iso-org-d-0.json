@@ -1,0 +1,29 @@
+{
+  "id": "iso-org-d-0",
+  "name": "International Organization for Standardization — jack-up standard (elevated at a site)",
+  "url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "International Organization for Standardization",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. ISO/TC 67/SC 7 catalogue Evidence: https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mat-near-tubular-sections-and-piles",
+  "name": "Tubular sections and piles",
+  "material_category": "structural-steel-products",
+  "description": "Primary members of jackets, monopiles, pin piles and conductors.",
+  "specifications": [
+    {
+      "metric": "monopile diameter classes",
+      "unit": "m",
+      "basis": "CS WIND Offshore monopile page",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles",
+        "source_id": "cswoffshore-com-solutions-monopiles"
+      },
+      "value": "regular 5-6 m; XL 6-8 m; XXL 8-13 m"
+    },
+    {
+      "metric": "pin pile diameter / length / weight",
+      "unit": "m / m / t",
+      "basis": "Changhua wind farm pin piles",
+      "source": {
+        "url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
+        "source_id": "jandenul-com-news-jan-de-nul-nears-completion-fabrication-foundati"
+      },
+      "value": "3 m / max 82 m / max 310 t"
+    }
+  ],
+  "applications": [
+    "Primary members of jackets, monopiles, pin piles and conductors."
+  ],
+  "standards": [],
+  "equipment": [
+    "near-fixed-steel-jacket-oil-gas",
+    "near-topsides-decks-and-module-support-frames",
+    "near-legs-pile-foundations-conductors-and-risers",
+    "near-bridges-helidecks-and-accommodation-modules"
+  ],
+  "suppliers": [
+    "eew-group",
+    "sif-group"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cswoffshore.com/solutions/monopiles",
+      "source_id": "cswoffshore-com-solutions-monopiles"
+    },
+    {
+      "url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
+      "source_id": "jandenul-com-news-jan-de-nul-nears-completion-fabrication-foundati"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

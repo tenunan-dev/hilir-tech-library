@@ -1,0 +1,78 @@
+{
+  "id": "near-concrete-gravity-base-structures-gbs-and-caissons",
+  "name": "Concrete gravity-base structures",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Self-weight founded structures avoiding piling; cells can provide oil storage and separation.",
+  "specifications": [
+    {
+      "metric": "Brent GBS weight",
+      "unit": "tonnes",
+      "basis": "Shell description of Brent Bravo/Charlie/Delta gravity base structures",
+      "source": {
+        "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
+        "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
+      },
+      "value": "several hundred thousand tonnes each"
+    },
+    {
+      "metric": "Brent storage/separation cells",
+      "unit": "count / m",
+      "basis": "Shell Brent decommissioning process",
+      "source": {
+        "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
+        "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
+      },
+      "value": "64 total (42 used for storage/separation), each 60 m tall"
+    },
+    {
+      "metric": "ISO concrete offshore structures standard",
+      "unit": "n/a",
+      "basis": "ISO/TC 67/SC 7 catalogue",
+      "source": {
+        "url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
+        "source_id": "iso-org-d-0"
+      },
+      "value": "ISO 19903:2019 (Published); ISO/AWI 19903 under development"
+    },
+    {
+      "metric": "caisson types in ISO 19902 scope",
+      "unit": "n/a",
+      "basis": "ISO 19902:2020 abstract",
+      "source": {
+        "url": "https://www.iso.org/standard/65688.html",
+        "source_id": "iso-org-standard-65688-html"
+      },
+      "value": "free-standing and braced caissons"
+    }
+  ],
+  "vendors": [
+    "boskalis"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
+      "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
+    },
+    {
+      "url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
+      "source_id": "iso-org-d-0"
+    },
+    {
+      "url": "https://www.iso.org/standard/65688.html",
+      "source_id": "iso-org-standard-65688-html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Self-weight founded structures avoiding piling; cells can provide oil storage and separation."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

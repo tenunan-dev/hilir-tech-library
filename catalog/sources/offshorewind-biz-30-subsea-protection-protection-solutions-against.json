@@ -1,0 +1,29 @@
+{
+  "id": "offshorewind-biz-30-subsea-protection-protection-solutions-against",
+  "name": "Offshore Wind (Navingo) — West of Duddon Sands armour rock grading",
+  "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Offshore Wind (Navingo)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. 108 turbines; filter layer at 108 locations before monopile installation; side-dump armour placement after installation Evidence: https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+}

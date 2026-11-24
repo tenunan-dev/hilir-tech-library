@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-windeurope-org-302-windeurope2016presentation-pdf",
+  "name": "airwerk GmbH / WindEurope Summit 2016",
+  "url": "https://windeurope.org/summit2016/conference/allfiles2/302_WindEurope2016presentation.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "airwerk GmbH / WindEurope Summit 2016",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Location diagram for accelerometers/inclinometers/strain gauges on an offshore support structure above water, plus a three-stage SHM data evaluation strategy diagram and alarm-level visualisation. Evidence: https://windeurope.org/summit2016/conference/allfiles2/302_WindEurope2016presentation.pdf"
+}

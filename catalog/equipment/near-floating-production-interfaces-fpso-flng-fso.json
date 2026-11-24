@@ -1,0 +1,54 @@
+{
+  "id": "near-floating-production-interfaces-fpso-flng-fso",
+  "name": "Floating production interfaces",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Floating host for process, storage and offloading; interfaces with risers, moorings and fixed structures; relevant to CCS conversion of existing platforms.",
+  "specifications": [
+    {
+      "metric": "Jotun A FPSO size / production",
+      "unit": "DWT / bpd",
+      "basis": "Boskalis related-project card; producing on Jotun field (Norway) since 1999",
+      "source": {
+        "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+        "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+      },
+      "value": "92,000 DWT / 70,000 bpd"
+    },
+    {
+      "metric": "Porthos CO2 injection host",
+      "unit": "n/a",
+      "basis": "Porthos official project site",
+      "source": {
+        "url": "https://www.porthosco2.nl/en",
+        "source_id": "porthosco2-nl-www-porthosco2-nl-en"
+      },
+      "value": "P18-A former gas production platform converted to CO2 injection platform; >20 km offshore pipeline laid"
+    }
+  ],
+  "vendors": [
+    "boskalis"
+  ],
+  "sources": [
+    {
+      "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+      "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+    },
+    {
+      "url": "https://www.porthosco2.nl/en",
+      "source_id": "porthosco2-nl-www-porthosco2-nl-en"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Floating host for process, storage and offloading; interfaces with risers, moorings and fixed structures; relevant to CCS conversion of existing platforms."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

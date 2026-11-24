@@ -1,0 +1,41 @@
+{
+  "id": "technip-energies-loading-systems-technip-energies-marine-loading-arms-chemco",
+  "name": "Technip Energies marine loading arms (ChemConnect, GasConnect, CO2Connect, PrimeConnect, H2Connect; DynaConnect, ARCOS, OLAF, ATOL; eMAX)",
+  "manufacturer": "technip-energies-loading-systems",
+  "product_type": "jetty-civil",
+  "equipment": [
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems"
+  ],
+  "description": "Vendor product line read 2026-11-24. Also available via Flowtork in the Philippines with size/pressure data.",
+  "specifications": [
+    {
+      "metric": "installed loading arms",
+      "unit": "count (+15K stated)",
+      "basis": "",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems",
+        "source_id": "ten-com-markets-loading-systems"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "patents",
+      "unit": "count",
+      "basis": "",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems",
+        "source_id": "ten-com-markets-loading-systems"
+      },
+      "value": 57
+    }
+  ],
+  "url": "https://www.ten.com/en/markets/loading-systems",
+  "sources": [
+    {
+      "url": "https://www.ten.com/en/markets/loading-systems",
+      "source_id": "ten-com-markets-loading-systems"
+    }
+  ],
+  "notes": "Also available via Flowtork in the Philippines with size/pressure data.",
+  "last_reviewed": "2026-11-24"
+}

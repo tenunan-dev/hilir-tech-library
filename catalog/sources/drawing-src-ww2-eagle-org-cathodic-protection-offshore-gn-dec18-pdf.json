@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-ww2-eagle-org-cathodic-protection-offshore-gn-dec18-pdf",
+  "name": "American Bureau of Shipping (ABS)",
+  "url": "https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/offshore/306-cathodicprotection-offshore-structures/cathodic-protection-offshore-gn-dec18.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "American Bureau of Shipping (ABS)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Section 5 figures showing hanging/retractable anode systems, gravity anode sleds, anode pods and mats, anode links and buoyant sleds for retrofit CP of offshore structures and jetties. Evidence: https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/offshore/306-cathodicprotection-offshore-structures/cathodic-protection-offshore-gn-dec18.pdf"
+}

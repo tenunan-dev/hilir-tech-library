@@ -101,6 +101,13 @@ def routes(tools):
     async def drawing(request: Request):
         return _found(tools.get_drawing(request.path_params["drawing_id"]))
 
+    async def material_list(request: Request):
+        q = request.query_params
+        return JSONResponse(tools.list_materials(q.get("material_category"), q.get("q")))
+
+    async def material(request: Request):
+        return _found(tools.get_material(request.path_params["material_id"]))
+
     async def register(request: Request):
         q = request.query_params
         return JSONResponse(tools.list_technology_register(q.get("code"), q.get("maturity"), q.get("q")))
@@ -171,6 +178,7 @@ def routes(tools):
         Route("/api/projects", project_list), Route("/api/projects/{project_id}", project),
         Route("/api/products", product_list), Route("/api/products/{product_id}", product),
         Route("/api/drawings", drawing_list), Route("/api/drawings/{drawing_id}", drawing),
+        Route("/api/materials", material_list), Route("/api/materials/{material_id}", material),
         Route("/api/gaps", gaps), Route("/api/stats", stats), Route("/api/version", version),
         Route("/api/figures", figures), Route("/api/taxonomy", taxonomy),
         Route("/api/glossary", glossary), Route("/api/glossary/{term}", glossary_term),
@@ -265,6 +273,10 @@ def openapi_spec(server_url):
                 _param("q", "Text filter")]),
             "/api/drawings/{drawing_id}": get("getDrawing", "One process drawing: scope, publisher, url and coverage",
                                               [_param("drawing_id", "Drawing id", where="path")], JSON_OR_404),
+            "/api/materials": get("listMaterials", "Engineering materials with sourced properties", [
+                _param("material_category", "e.g. concrete, steel, coating"), _param("q", "Text filter")]),
+            "/api/materials/{material_id}": get("getMaterial", "One material with properties, basis, standards and sources",
+                                                [_param("material_id", "Material id", where="path")], JSON_OR_404),
             "/api/register": get("listTechnologyRegister", "The full technology register (400+ entries across all sectors)", [
                 _param("code", "Sector or discipline code"), _param("maturity", "Maturity filter"), _param("q", "Text filter")]),
             "/api/register/{entry_id}": get("getRegisterEntry", "One register entry by its id, which register rows carry",

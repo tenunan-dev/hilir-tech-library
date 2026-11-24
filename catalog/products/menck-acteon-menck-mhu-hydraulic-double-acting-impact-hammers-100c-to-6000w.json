@@ -1,0 +1,41 @@
+{
+  "id": "menck-acteon-menck-mhu-hydraulic-double-acting-impact-hammers-100c-to-6000w",
+  "name": "Menck MHU hydraulic double-acting impact hammers (100C to 6000W)",
+  "manufacturer": "menck-acteon",
+  "product_type": "near-civil",
+  "equipment": [
+    "near-impact-piling-hammers-hydraulic-double-acting"
+  ],
+  "description": "Vendor product line read 2026-11-24. Acteon announced sale of Menck to Cadeler in Aug 2026.",
+  "specifications": [
+    {
+      "metric": "energy range (spread)",
+      "unit": "kJ",
+      "basis": "",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "100-6,250"
+    },
+    {
+      "metric": "MHU6000W",
+      "unit": "kJ / L/min / bar / bl/min",
+      "basis": "",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "200-6,250 kJ; 12,800 L/min; 210 bar; 30 bl/min"
+    }
+  ],
+  "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+  "sources": [
+    {
+      "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+      "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+    }
+  ],
+  "notes": "Acteon announced sale of Menck to Cadeler in Aug 2026.",
+  "last_reviewed": "2026-11-24"
+}

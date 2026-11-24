@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-fhwa-seismic-retrofitting-manual-for-highway-structures-part-1-bridges",
+  "title": "FHWA — Seismic Retrofitting Manual for Highway Structures: Part 1 – Bridges (isolation bearing details)",
+  "diagram_type": "schematic",
+  "description": "Detailed sections through seismic isolation bearings (lead-filled elastomeric, friction pendulum, Eradiquake) and a flowchart of the seismic retrofit process; applicable as a citable isolation-detail analogue for marine/civil structures. | Figures: Figure 8-20 — Lead-filled elastomeric isolation bearing; Figure 8-21 — Friction-pendulum isolation bearing; Figure 8-22 — Eradiquake isolation bearing; Figure 1-1 — Overview of the retrofitting process for highway bridges; Figure 1-15 — Selected retrofit measures",
+  "publisher": "U.S. Department of Transportation, Federal Highway Administration (FHWA), FHWA-RD-06-032",
+  "url": "https://www.fhwa.dot.gov/publications/research/infrastructure/bridge/06032/06032.pdf",
+  "licence": "U.S. Government work; public domain with attribution. Figures not reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fhwa.dot.gov/publications/research/infrastructure/bridge/06032/06032.pdf",
+      "source_id": "drawing-src-fhwa-dot-gov-06032-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

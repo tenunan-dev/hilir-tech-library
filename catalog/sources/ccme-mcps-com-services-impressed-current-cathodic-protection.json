@@ -1,0 +1,29 @@
+{
+  "id": "ccme-mcps-com-services-impressed-current-cathodic-protection",
+  "name": "CCME MCPS — protection criterion",
+  "url": "https://www.ccme-mcps.com/services/impressed-current-cathodic-protection",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "CCME MCPS",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. CCME-MCPS ICCP/SACP page (both engineered to same criterion); external presentation gives carbon steel immersed in seawater -0.80 to -1.10 V vs Ag/AgCl Evidence: https://www.ccme-mcps.com/services/impressed-current-cathodic-protection"
+}

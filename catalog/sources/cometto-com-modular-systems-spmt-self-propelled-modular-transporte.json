@@ -1,0 +1,29 @@
+{
+  "id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte",
+  "name": "Cometto.Com — Cometto MSPE axle load range",
+  "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Cometto.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Cometto MSPE product page: 48T, 60T, EVO3 70T families; up to 70 t/axle line, +/-135 deg electronic steering, 700 mm suspension stroke, bending moment 7250 kN.m Evidence: https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+}

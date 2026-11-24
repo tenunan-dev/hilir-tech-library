@@ -1,0 +1,50 @@
+{
+  "id": "mat-near-concrete-and-concrete-weight-coating-cementitious-grout",
+  "name": "Concrete and concrete weight coating / cementitious grout",
+  "material_category": "concrete-cementitious",
+  "description": "Gravity-base stability and storage, pipeline weight coating, and pile-to-sleeve or monopile grouted connections.",
+  "specifications": [
+    {
+      "metric": "Brent GBS cell height",
+      "unit": "m",
+      "basis": "64 storage/separation cells across Brent Bravo/Charlie/Delta, 42 used for oil storage",
+      "source": {
+        "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
+        "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
+      },
+      "value": 60
+    },
+    {
+      "metric": "GBS mass description",
+      "unit": "tonnes (qualitative)",
+      "basis": "Shell Brent decommissioning",
+      "source": {
+        "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
+        "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
+      },
+      "value": "each weighs several hundred thousand tonnes"
+    }
+  ],
+  "applications": [
+    "Gravity-base stability and storage, pipeline weight coating, and pile-to-sleeve or monopile grouted connections."
+  ],
+  "standards": [],
+  "equipment": [
+    "near-fixed-steel-jacket-oil-gas",
+    "near-topsides-decks-and-module-support-frames",
+    "near-legs-pile-foundations-conductors-and-risers",
+    "near-bridges-helidecks-and-accommodation-modules"
+  ],
+  "suppliers": [
+    "trelleborg-marine-infrastructure"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
+      "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

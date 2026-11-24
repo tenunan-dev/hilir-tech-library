@@ -1,0 +1,55 @@
+{
+  "id": "near-structural-integrity-management-and-decommissioning-planning",
+  "name": "Structural integrity management and decommissioning planning",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Lifecycle process: data, evaluation, strategy, inspection programme, fitness-for-purpose assessment, risk reduction and decommissioning.",
+  "specifications": [
+    {
+      "metric": "ISO structural integrity management standard",
+      "unit": "n/a",
+      "basis": "ISO/TC 67/SC 7 catalogue",
+      "source": {
+        "url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
+        "source_id": "iso-org-d-0"
+      },
+      "value": "ISO 19901-9:2019 (published); ISO/CD 19901-9 under development"
+    },
+    {
+      "metric": "Brent topsides reuse/recycling target",
+      "unit": "%",
+      "basis": "Shell Brent decommissioning: Allseas single-lift removal, Able UK reuse/recycling",
+      "source": {
+        "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
+        "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
+      },
+      "value": 97
+    }
+  ],
+  "vendors": [
+    "allseas",
+    "able-uk"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
+      "source_id": "iso-org-d-0"
+    },
+    {
+      "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
+      "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Lifecycle process: data, evaluation, strategy, inspection programme, fitness-for-purpose assessment, risk reduction and decommissioning."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

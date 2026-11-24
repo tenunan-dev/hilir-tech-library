@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-aws-d1-1-d1-1m-2025-structural-welding-code-steel-public-preview-figur",
+  "title": "AWS D1.1/D1.1M:2025 Structural Welding Code — Steel (public preview figure list)",
+  "diagram_type": "schematic",
+  "description": "Public preview of the welding code naming new or revised welded-joint detailed drawings; figures cover maximum fillet weld size at edges and prequalified joint details, with Clause 10 covering tubular T-, Y- and K-connections. | Figures: Figure 4.7 — clarifying the maximum specified fillet weld size along edges (new in 2025); Figures 5.1 and 5.2 — prequalified joint details replaced with new drawings (2025); Figure 5.2 — joint details for partially penetrated groove welds (referenced in 2020 summary); Figure 5.4 — acceptable and unacceptable weld profiles for groove welds in butt, corner, T- and lap joints (2010 edition summary)",
+  "publisher": "American Welding Society (AWS)",
+  "url": "https://pubs.aws.org/Download_PDFS/D1.1-D1.1M-2025WebPV.pdf",
+  "licence": "© AWS. All rights reserved; no portion may be reproduced without written permission. Figure numbers/titles from the public preview are recorded for citation only.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://pubs.aws.org/Download_PDFS/D1.1-D1.1M-2025WebPV.pdf",
+      "source_id": "drawing-src-pubs-aws-org-d1-1-d1-1m-2025webpv-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "eew-group-eew-monopiles-and-jacket-component-pipes-pin-piles",
+  "name": "EEW monopiles and jacket-component pipes / pin piles",
+  "manufacturer": "eew-group",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe"
+  ],
+  "description": "Vendor product line read 2026-11-24. Korea and Malaysia plants serve Asian offshore wind.",
+  "specifications": [
+    {
+      "metric": "monopiles produced",
+      "unit": "count",
+      "basis": "",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind",
+        "source_id": "eew-group-com-eew-group-com-offshore-wind"
+      },
+      "value": ">2,200"
+    },
+    {
+      "metric": "projects supplied",
+      "unit": "count",
+      "basis": "",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind",
+        "source_id": "eew-group-com-eew-group-com-offshore-wind"
+      },
+      "value": ">80"
+    }
+  ],
+  "url": "https://eew-group.com/offshore-wind",
+  "sources": [
+    {
+      "url": "https://eew-group.com/offshore-wind",
+      "source_id": "eew-group-com-eew-group-com-offshore-wind"
+    }
+  ],
+  "notes": "Korea and Malaysia plants serve Asian offshore wind.",
+  "last_reviewed": "2026-11-24"
+}

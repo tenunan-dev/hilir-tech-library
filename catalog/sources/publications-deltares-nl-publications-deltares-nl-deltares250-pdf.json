@@ -1,0 +1,29 @@
+{
+  "id": "publications-deltares-nl-publications-deltares-nl-deltares250-pdf",
+  "name": "Van Oord / DEME / Jan De Nul",
+  "url": "https://publications.deltares.nl/Deltares250.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Publications.Deltares.Nl",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. search-verified (WebSearch extract); Deltares Handbook of Scour and Cable Protection Methods PDF Evidence: https://publications.deltares.nl/Deltares250.pdf"
+}

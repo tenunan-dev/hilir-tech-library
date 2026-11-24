@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-tbgtech-co-jp-01-marineloadingarms-e-pdf",
+  "name": "TBG Tech / EMCO Wheaton (manufacturer)",
+  "url": "https://tbgtech.co.jp/wp-content/uploads/2021/03/01_MarineLoadingArms_E.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "TBG Tech / EMCO Wheaton (manufacturer)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Manufacturer brochure showing basic structure of marine loading arms: base riser, inboard/outboard arms, swivel joints (types 40/50/80), counterweight, tanker manifold and quick-connect coupler. Evidence: https://tbgtech.co.jp/wp-content/uploads/2021/03/01_MarineLoadingArms_E.pdf"
+}

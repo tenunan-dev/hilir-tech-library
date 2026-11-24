@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-eprints-hrwallingford-com-pa-6-39-riezebos-h-pdf",
+  "name": "Deltares / wpd offshore solutions (HR Wallingford eprints host)",
+  "url": "https://eprints.hrwallingford.com/id/eprint/1126/1/PA_6_39-Riezebos-H.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "Deltares / wpd offshore solutions (HR Wallingford eprints host)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Scour mitigation strategies for a lowering seabed and a cross-section of a single-graded rock scour protection showing main dimensions (base extent, falling apron, layer thickness) around a monopile. Evidence: https://eprints.hrwallingford.com/id/eprint/1126/1/PA_6_39-Riezebos-H.pdf"
+}

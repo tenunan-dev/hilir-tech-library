@@ -1,0 +1,25 @@
+{
+  "id": "civ-infrastructure-construction-pilbara-region",
+  "name": "Infrastructure construction, Pilbara region",
+  "country": "Australia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "PERI DUO brochure project example",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.peri.com.au/dam/jcr:c64fb84d-069b-4138-a85b-b872077fbb42/duo-brochure-2026.pdf",
+      "source_id": "peri-com-au-jcr-c64fb84d-069b-4138-a85b-b872077fbb42-duo-brochure"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-pianc-fender-guidelines-2024-publisher-page",
+  "title": "PIANC Fender Guidelines 2024 (publisher page)",
+  "diagram_type": "block-diagram",
+  "description": "Publisher description of WG 211: fender design, manufacturing and testing guidance; explicitly states fenders and supporting marine structure must be designed integrally, and that WG 211 supersedes WG 33.",
+  "publisher": "PIANC",
+  "url": "https://pianc.org/publication/pianc-fender-guidelines-2024",
+  "licence": "Commercial publication (EUR 205.20 on page); copyright PIANC. No figures on the landing page.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://pianc.org/publication/pianc-fender-guidelines-2024",
+      "source_id": "drawing-src-pianc-org-pianc-fender-guidelines-2024"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. webfetch_read",
+  "last_reviewed": "2026-11-24"
+}

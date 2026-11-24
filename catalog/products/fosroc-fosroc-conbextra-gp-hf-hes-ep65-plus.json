@@ -1,0 +1,41 @@
+{
+  "id": "fosroc-fosroc-conbextra-gp-hf-hes-ep65-plus",
+  "name": "Fosroc Conbextra GP / HF / HES / EP65 Plus",
+  "manufacturer": "fosroc",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Page read for GP product page; strengths from search-verified TDS",
+  "specifications": [
+    {
+      "metric": "GP 28-day compressive",
+      "unit": "MPa",
+      "basis": "",
+      "source": {
+        "url": "https://www.fosroc.com/product/show/conbextra-gp",
+        "source_id": "fosroc-com-show-conbextra-gp"
+      },
+      "value": 74.3
+    },
+    {
+      "metric": "EP65 Plus 7-day compressive",
+      "unit": "MPa",
+      "basis": "",
+      "source": {
+        "url": "https://www.fosroc.com/product/show/conbextra-gp",
+        "source_id": "fosroc-com-show-conbextra-gp"
+      },
+      "value": 125
+    }
+  ],
+  "url": "https://www.fosroc.com/product/show/conbextra-gp",
+  "sources": [
+    {
+      "url": "https://www.fosroc.com/product/show/conbextra-gp",
+      "source_id": "fosroc-com-show-conbextra-gp"
+    }
+  ],
+  "notes": "Page read for GP product page; strengths from search-verified TDS",
+  "last_reviewed": "2026-11-24"
+}

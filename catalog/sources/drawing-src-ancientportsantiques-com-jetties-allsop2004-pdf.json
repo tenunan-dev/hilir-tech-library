@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-ancientportsantiques-com-jetties-allsop2004-pdf",
+  "name": "Allsop / HR Wallingford-related jetty design guidance (as hosted by Ancient Ports Antiques)",
+  "url": "https://ancientportsantiques.com/wp-content/uploads/Documents/ENGINEERING/Maritime/Jetties-Allsop2004.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "Allsop / HR Wallingford-related jetty design guidance (as hosted by Ancient Ports Antiques)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Typical plan and cross-section of an open piled jetty, marginal quay, rubble-mound causeway section, and construction views showing precast pilecaps that avoid complex shutters. Evidence: https://ancientportsantiques.com/wp-content/uploads/Documents/ENGINEERING/Maritime/Jetties-Allsop2004.pdf"
+}

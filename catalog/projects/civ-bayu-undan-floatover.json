@@ -1,0 +1,25 @@
+{
+  "id": "civ-bayu-undan-floatover",
+  "name": "Bayu Undan floatover",
+  "country": "Timor Sea",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "CUQ 11,500 t and DPP 15,000 t topsides moved by floatover",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+      "source_id": "vantrisenergy-com-engineering-construction-track-record"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

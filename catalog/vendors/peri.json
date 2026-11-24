@@ -1,0 +1,24 @@
+{
+  "id": "peri",
+  "name": "PERI",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "PERI is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.layher.com/en/products/allroundscaffolding",
+      "source_id": "layher-com-products-allroundscaffolding"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

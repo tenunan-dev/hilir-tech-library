@@ -1,0 +1,51 @@
+{
+  "id": "cs-wind-offshore-cs-wind-monopiles-transition-pieces-jacket-foundations",
+  "name": "CS WIND monopiles / transition pieces / jacket foundations",
+  "manufacturer": "cs-wind-offshore",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe"
+  ],
+  "description": "Vendor product line read 2026-11-24. Also mounts external platforms, static anodes and dynamic ICCP.",
+  "specifications": [
+    {
+      "metric": "diameter classes",
+      "unit": "m (regular/XL/XXL)",
+      "basis": "",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles",
+        "source_id": "cswoffshore-com-solutions-monopiles"
+      },
+      "value": "5-6 / 6-8 / 8-13"
+    },
+    {
+      "metric": "length",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles",
+        "source_id": "cswoffshore-com-solutions-monopiles"
+      },
+      "value": "20 to >120"
+    },
+    {
+      "metric": "weight",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles",
+        "source_id": "cswoffshore-com-solutions-monopiles"
+      },
+      "value": "1,000-3,500"
+    }
+  ],
+  "url": "https://www.cswoffshore.com/solutions/monopiles",
+  "sources": [
+    {
+      "url": "https://www.cswoffshore.com/solutions/monopiles",
+      "source_id": "cswoffshore-com-solutions-monopiles"
+    }
+  ],
+  "notes": "Also mounts external platforms, static anodes and dynamic ICCP.",
+  "last_reviewed": "2026-11-24"
+}

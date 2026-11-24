@@ -1,0 +1,24 @@
+{
+  "id": "vikoma-international-ltd",
+  "name": "Vikoma International Ltd",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Vikoma International Ltd is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
+      "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

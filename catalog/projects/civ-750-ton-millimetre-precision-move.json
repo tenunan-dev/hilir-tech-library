@@ -1,0 +1,25 @@
+{
+  "id": "civ-750-ton-millimetre-precision-move",
+  "name": "750-ton millimetre-precision move",
+  "country": "unspecified",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "Cometto success story",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+      "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-anholt-offshore-wind-farm-generic-plan-and-section-of-monopile-scour-p",
+  "title": "Anholt Offshore Wind Farm — Generic plan and section of monopile scour protection with rock berms",
+  "diagram_type": "schematic",
+  "description": "Generic plan and section views of monopile and existing scour protection pad, and design drawing of cable protection system with rock berms on the existing scour protection. | Figures: Figure 6 — Generic plan and section views of the monopile and existing scour protection; Figure 7 — Design drawing: Cable protection system (CPS) with rock berms on the existing scour protection. Generic plan and section views",
+  "publisher": "Ørsted / Danish Energy Agency (Tethys/ENS host)",
+  "url": "https://tethys.pnnl.gov/sites/default/files/publications/Anholt_StabilisationofCableProtectionSystemsandCablesatScourProtectedMonopileLocationsandtheOffshoreSubstation.pdf",
+  "licence": "Project/environmental document hosted by Tethys (PNNL); public with attribution. Figures not reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://tethys.pnnl.gov/sites/default/files/publications/Anholt_StabilisationofCableProtectionSystemsandCablesatScourProtectedMonopileLocationsandtheOffshoreSubstation.pdf",
+      "source_id": "drawing-src-tethys-pnnl-gov-anholt-stabilisationofcableprotectionsystems"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. search_verified",
+  "last_reviewed": "2026-11-24"
+}

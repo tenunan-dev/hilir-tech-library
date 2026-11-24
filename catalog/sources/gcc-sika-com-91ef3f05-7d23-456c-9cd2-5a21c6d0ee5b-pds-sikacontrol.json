@@ -1,0 +1,29 @@
+{
+  "id": "gcc-sika-com-91ef3f05-7d23-456c-9cd2-5a21c6d0ee5b-pds-sikacontrol",
+  "name": "Holcim / Lafarge / YTL / Tasek",
+  "url": "https://gcc.sika.com/dms/getdocument.get/91ef3f05-7d23-456c-9cd2-5a21c6d0ee5b/pds-sikacontrol-113aer.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Sika",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Gap — no cement manufacturer datasheet fetched Evidence: https://gcc.sika.com/dms/getdocument.get/91ef3f05-7d23-456c-9cd2-5a21c6d0ee5b/pds-sikacontrol-113aer.pdf"
+}

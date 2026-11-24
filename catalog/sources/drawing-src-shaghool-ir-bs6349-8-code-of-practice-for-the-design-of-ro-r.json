@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-shaghool-ir-bs6349-8-code-of-practice-for-the-design-of-ro-r",
+  "name": "British Standards Institution (BSI)",
+  "url": "https://shaghool.ir/Files/BS6349_8_Code-of-practice-for-the-design-of-Ro-Ro-ramps-linkspans-and-walkways-2007.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "British Standards Institution (BSI)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "General arrangement and interface diagrams for linkspans and passenger walkways, including motorized carriage and traversing drawbridge arrangements, plan geometry, clearances and transition geometry. Evidence: https://shaghool.ir/Files/BS6349_8_Code-of-practice-for-the-design-of-Ro-Ro-ramps-linkspans-and-walkways-2007.pdf"
+}

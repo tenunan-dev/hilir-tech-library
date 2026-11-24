@@ -1,6 +1,6 @@
 # Product catalog
 
-123 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
+160 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
 
 ## ammonia
 
@@ -78,6 +78,39 @@
 | --- | --- | --- | --- |
 | [Preset Vent Silencers](https://burgessmanning.com/preset-vent-silencers/) | Burgess-Manning (CECO Environmental) | Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres | Inlet diameter; Casing diameter; Standard design temperature; Enhanced noise attenuation |
 | [Thermax Exhaust Gas-Driven Absorption Chiller-Heater](https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater) | Thermax | Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres | Capacity; Cooling COP; Exhaust temperature |
+
+## civ-civil
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [API 2H Grade 50 normalized plate](https://www.universalsteelamerica.com/api-2h-steel-plate) | Universal Steel America | Shallow / raft / pad foundations | stock thickness; condition |
+| [AWS D1.1/D1.1M:2025-AMD1 Structural Welding Code—Steel](https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/) | American Welding Society | Structural steel — fabricated beams, columns, bracing | edition; annexes |
+| [Bridgestone HDR / LRB / NRB / Elastic Sliding Bearings](https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html) | Bridgestone | Shallow / raft / pad foundations | NRB damping; LRB rubber grade |
+| [Carboline Thermo-Lag 3000-P / 3000-SP](https://www.carboline.com/products/product-details/Thermo-Lag-3000-P) | Carboline | Shallow / raft / pad foundations | Solids by volume; Fire rating |
+| [Cometto MSPE 48T / 60T / EVO3 70T SPMT](https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter) | Cometto | Heavy transport and installation — SPMT, jacking, skidding, cranes and rigging | Axle load max; Steering; Bending moment |
+| [ContiTech anchored conveyor-belt scour mat](https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring) | ContiTech (Continental Group) | Shallow / raft / pad foundations | thickness; diameter |
+| [CS WIND monopiles / transition pieces / jacket foundations](https://www.cswoffshore.com/solutions/monopiles) | CS WIND Offshore | Driven precast piles | diameter classes; length; weight |
+| [DNV-RP-C203 fatigue design recommended practice](https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures) | DNV | Shallow / raft / pad foundations | edition |
+| [DNV-ST-0126 support structures for wind turbines](https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/) | DNV | Shallow / raft / pad foundations | edition |
+| [EEW monopiles and jacket-component pipes / pin piles](https://eew-group.com/offshore-wind) | EEW Group | Driven precast piles | monopiles produced; projects supplied |
+| [Flyability Elios 3 UT NDT drone](https://www.flyability.com/blog/offshore-drone-inspections) | Flyability | Shallow / raft / pad foundations | camera / payload; battery range |
+| [Fosroc Conbextra GP / HF / HES / EP65 Plus](https://www.fosroc.com/product/show/conbextra-gp) | Fosroc | Shallow / raft / pad foundations | GP 28-day compressive; EP65 Plus 7-day compressive |
+| [Fyfe LOCTITE Tyfo SCH-41 CFRP system](https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions) | Fyfe / Critica Infrastructure (Henkel) | Shallow / raft / pad foundations | Laminate tensile strength; Tensile modulus |
+| [Goldhofer THP/SL heavy-duty modules](https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl) | Goldhofer AG | Shallow / raft / pad foundations | Axle load; Axle compensation; Width |
+| [IQIP Hydrohammer IQ-series / S-series / SW-series](https://iqip.com/products/pile-driving-equipment/hydrohammer) | IQIP | Driven precast piles | IQ8 blow energy; total range; SW-series water depth |
+| [IQIP PULSE noise mitigation](https://iqip.com/products/pile-driving-equipment/hydrohammer) | IQIP | Shallow / raft / pad foundations | function |
+| [Layher Allround Scaffolding](https://www.layher.com/en/products/allroundscaffolding) | Layher | Scaffolding | Connections per rosette; Approvals |
+| [Liebherr LRB 23 piling and drilling rig](https://www.liebherr.com/en-us/p/lrb23-4424791) | Liebherr | Shallow / raft / pad foundations | Operating weight; Max torque; Crowd force; Engine power |
+| [NAUE Secutex Soft Rock Sand Container](https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring) | Naue GmbH & Co. KG | Shallow / raft / pad foundations | material |
+| [Ridgeway rock-filled filter bag](https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring) | Ridgeway Marine | Shallow / raft / pad foundations | design life in saline water; recycled content |
+| [Sacrificial anode range — zinc / aluminium / magnesium](https://cathodicme.com/services/sacrificial-anodes-system) | Cathodic Marine Engineering Pte Ltd | Shallow / raft / pad foundations | zinc weight range; aluminium weight range; aluminium design life |
+| [Sif monopiles (with TP and TP-less variants)](https://sif-group.com/products-services/monopiles) | Sif Group | Driven precast piles | length; diameter; wall thickness; weight |
+| [Sika ViscoCrete-1000 / SikaPlast-210 VX / Sika AIR](https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html) | Sika | Shallow / raft / pad foundations | ViscoCrete-1000 water reduction; Sika AIR dosage |
+| [T-head bollard (LMT2 project type)](https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html) | ShibataFenderTeam | Shallow / raft / pad foundations | rated mooring capacity |
+| [TII SCHEUERLE SPMT](https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt) | TII SCHEUERLE | Heavy transport and installation — SPMT, jacking, skidding, cranes and rigging | Axle load; Axle compensation; Positioning accuracy |
+| [Trimble S9 / S9 HP robotic total station](https://geospatial.trimble.com/en/products/hardware/trimble-s9) | Trimble | Shallow / raft / pad foundations | EDM accuracy; Max range |
+| [VIKING Norsafe free-fall lifeboat and davit systems](https://www.viking-life.com/product-insights) | VIKING Life-Saving Equipment | Shallow / raft / pad foundations | approved free-fall drop height |
+| [VIKING offshore evacuation systems (chute / slide)](https://www.viking-life.com/product-insights) | VIKING Life-Saving Equipment | Shallow / raft / pad foundations | embarkation height capability |
 
 ## co2-stripper
 
@@ -229,11 +262,30 @@
 | --- | --- | --- | --- |
 | [Boiler Door and Drum Cover Insulation Jackets](https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/) | Thermaxx Jackets (Specialty Distribution Group, LLC) | Thermal insulation / lagging and cladding for boilers and steam lines (heat-loss figures) | Fire door surface temperature (uninsulated); Mud drum cover surface temperature (uninsulated); Typical insulation material; Warranty; Closure system; Equipment covered |
 
+## jetty-civil
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Ampelmann E-type motion-compensated gangway](https://www.ampelmann.nl/systems/e-type) | Ampelmann Operations B.V. | Motion-compensated access gangways / boarding bridges | wave compensation; gangway length; footprint; system weight |
+| [Flowtork/Technip Energies refining & petrochemical loading arm range](https://flowtork.com/marine-loading-arms) | Trelleborg Marine & Infrastructure | Marine / shore-to-ship loading arms and transfer systems | diameter; design pressure |
+| [SPC Cone Fender (SPC 300 - SPC 2000)](https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html) | ShibataFenderTeam | Rubber fenders — cone, cell, element and V/arch types | height range; SPC 2000 mass; SPC 2000 anchor bolts |
+| [Technip Energies marine loading arms (ChemConnect, GasConnect, CO2Connect, PrimeConnect, H2Connect; DynaConnect, ARCOS, OLAF, ATOL; eMAX)](https://www.ten.com/en/markets/loading-systems) | Technip Energies Loading Systems | Marine / shore-to-ship loading arms and transfer systems | installed loading arms; patents |
+| [V Fender SX / SX-P / SH / SH-P (SX 250 - SX 1000)](https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html) | ShibataFenderTeam | Rubber fenders — cone, cell, element and V/arch types | SX standard heights; standard lengths; SX 1000 width |
+| [Vikoma Hi Sprint / Bulkhead containment booms](https://www.vikoma.com/articles/essential-types-of-oil-spill-booms) | Vikoma International Ltd | Oil spill response — containment booms, skimmers and recovery | inflated height (catalogue range); freeboard |
+| [Yokohama Floating (Pneumatic) Fenders — Pneumatic 50 / 80 / Low Pressure](https://www.y-yokohama.com/global/product/mb/fenders/floating/) | The Yokohama Rubber Co., Ltd. | Rubber fenders — cone, cell, element and V/arch types | Pneumatic 50 GEA range; Pneumatic 80 GEA range; initial internal pressure |
+
 ## methanation
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [PK-5 ring-shaped methanation catalyst](https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation) | Topsoe | Methanation and syngas drying/purification | Pressure drop reduction vs sphere/cylinder catalysts |
+
+## near-civil
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Menck MHU hydraulic double-acting impact hammers (100C to 6000W)](https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers) | Menck / Acteon | Impact piling hammers | energy range (spread); MHU6000W |
+| [PALFINGER AHC marine/offshore cranes](https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html) | PALFINGER | Deck cranes, davits and lifting appliances | hoisting capacity; jib radius; wire capacity; winterization |
 
 ## pressure-part
 

@@ -1,0 +1,50 @@
+{
+  "id": "civ-driven-precast-piles-concrete-steel-h-steel-pipe",
+  "name": "Driven precast piles",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Displacement piles installed by hammer or vibrator, transferring load by end bearing and shaft friction to deeper competent strata; used where soft near-surface soils overlie bearing layers.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Displacement piles installed by hammer or vibrator, transferring load by end bearing and shaft friction to deeper competent strata; used where soft near-surface soils overlie bearing layers.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "liebherr",
+    "bauer-maschinen-gmbh"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named driven-pile contractors and project case studies in APAC",
+      "why": "No fetched APAC driven-pile project page",
+      "next_action": "Search and fetch project pages from APAC piling contractors"
+    },
+    {
+      "what": "Pile driving refusal/wave-equation numeric acceptance criteria",
+      "why": "No fetched page with numeric wave-equation results",
+      "next_action": "Fetch FHWA NHI-05-042 driven pile manual"
+    }
+  ],
+  "applications": [
+    "Displacement piles installed by hammer or vibrator, transferring load by end bearing and shaft friction to deeper competent strata; used where soft near-surface"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "mat-near-rock-armour-and-geotextile-containment-materials",
+  "name": "Rock armour and geotextile containment materials",
+  "material_category": "scour-seabed-materials",
+  "description": "Armour and filter layers that stabilise seabed around foundations and cables.",
+  "specifications": [
+    {
+      "metric": "armour rock size, West of Duddon Sands",
+      "unit": "cm",
+      "basis": "Boskalis scour protection case",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": "20-45 cm (8-18 in)"
+    },
+    {
+      "metric": "armour rock mass, Meerwind",
+      "unit": "kg",
+      "basis": "Scour protection case",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "low": 100,
+      "high": 700
+    }
+  ],
+  "applications": [
+    "Armour and filter layers that stabilise seabed around foundations and cables."
+  ],
+  "standards": [],
+  "equipment": [
+    "near-fixed-steel-jacket-oil-gas",
+    "near-topsides-decks-and-module-support-frames",
+    "near-legs-pile-foundations-conductors-and-risers",
+    "near-bridges-helidecks-and-accommodation-modules"
+  ],
+  "suppliers": [
+    "naue-gmbh-co-kg",
+    "ridgeway-marine"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+      "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

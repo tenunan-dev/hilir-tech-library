@@ -1,0 +1,25 @@
+{
+  "id": "civ-kebabangan-northern-hub-sabah-malaysia",
+  "name": "Kebabangan Northern Hub (Sabah, Malaysia)",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "8-legged jacket substructure 13,393 mt; hook-up and commissioning 710,000 man-hours",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+      "source_id": "vantrisenergy-com-engineering-construction-track-record"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

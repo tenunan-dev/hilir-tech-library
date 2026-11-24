@@ -1,0 +1,24 @@
+{
+  "id": "american-welding-society",
+  "name": "American Welding Society",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "American Welding Society is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
+      "source_id": "aws-org-d1-1"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

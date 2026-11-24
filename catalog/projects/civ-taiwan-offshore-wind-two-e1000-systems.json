@@ -1,0 +1,25 @@
+{
+  "id": "civ-taiwan-offshore-wind-two-e1000-systems",
+  "name": "Taiwan offshore wind — two E1000 systems",
+  "country": "Taiwan",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "Ampelmann signed two E1000 systems in May 2024; each compensates waves up to 4.5 m Hs and switches people/cargo mode in under one minute (search-verified snippet).",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ampelmann.nl/news-articles/winds-of-change-ampelmann-signs-two-e1000-systems-to-drive-growth-in-taiwans-offshore-wind-market",
+      "source_id": "ampelmann-nl-news-articles-winds-of-change-ampelmann-signs-two-e10"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

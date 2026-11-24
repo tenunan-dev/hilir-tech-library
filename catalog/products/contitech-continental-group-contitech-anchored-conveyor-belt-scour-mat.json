@@ -1,0 +1,41 @@
+{
+  "id": "contitech-continental-group-contitech-anchored-conveyor-belt-scour-mat",
+  "name": "ContiTech anchored conveyor-belt scour mat",
+  "manufacturer": "contitech-continental-group",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Tested at Deltares under simulated extreme storms/streams.",
+  "specifications": [
+    {
+      "metric": "thickness",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": "12-15"
+    },
+    {
+      "metric": "diameter",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": "up to 52"
+    }
+  ],
+  "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+  "sources": [
+    {
+      "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+      "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+    }
+  ],
+  "notes": "Tested at Deltares under simulated extreme storms/streams.",
+  "last_reviewed": "2026-11-24"
+}

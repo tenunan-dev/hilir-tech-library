@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-boem-gov-wind-turbine-foundations-white-20paper-final-white",
+  "name": "U.S. Bureau of Ocean Energy Management (BOEM)",
+  "url": "https://boem.gov/sites/default/files/documents/environment/Wind-Turbine-Foundations-White%20Paper-Final-White-Paper.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "U.S. Bureau of Ocean Energy Management (BOEM)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Illustrated comparison of offshore wind foundation concepts: monopile, jacket, tripod, tri-pile, jack-up, suction bucket, gravity and floating foundations, plus scour/wake illustration. Evidence: https://boem.gov/sites/default/files/documents/environment/Wind-Turbine-Foundations-White%20Paper-Final-White-Paper.pdf"
+}

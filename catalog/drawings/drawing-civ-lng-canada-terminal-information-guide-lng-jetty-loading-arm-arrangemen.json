@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-lng-canada-terminal-information-guide-lng-jetty-loading-arm-arrangemen",
+  "title": "LNG Canada Terminal Information Guide — LNG jetty loading arm arrangement",
+  "diagram_type": "schematic",
+  "description": "Public terminal information guide describing the LNG Canada jetty and the loading arms arranged from south to north, with maps/illustrations of the marine terminal.",
+  "publisher": "LNG Canada Development Inc.",
+  "url": "https://lngcanada.ca/wp-content/uploads/C000-000-OA-9020-0007_R4_LNGCanadaTerminalInformationGuide.pdf",
+  "licence": "Public information guide; © LNG Canada. PDF downloaded and read; figure captions not extracted. Pointer only.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://lngcanada.ca/wp-content/uploads/C000-000-OA-9020-0007_R4_LNGCanadaTerminalInformationGuide.pdf",
+      "source_id": "drawing-src-lngcanada-ca-c000-000-oa-9020-0007-r4-lngcanadaterminalinfor"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

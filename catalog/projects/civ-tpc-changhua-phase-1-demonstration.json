@@ -1,0 +1,25 @@
+{
+  "id": "civ-tpc-changhua-phase-1-demonstration",
+  "name": "TPC Changhua Phase 1 demonstration",
+  "country": "Taiwan",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "21 x 5.2 MW turbines; 60 m jackets >1,100 t; 4 pin piles each up to 310 t",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
+      "source_id": "jandenul-com-news-jan-de-nul-nears-completion-fabrication-foundati"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

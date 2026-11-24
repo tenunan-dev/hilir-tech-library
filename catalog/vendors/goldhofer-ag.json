@@ -1,0 +1,24 @@
+{
+  "id": "goldhofer-ag",
+  "name": "Goldhofer AG",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Goldhofer AG is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
+      "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

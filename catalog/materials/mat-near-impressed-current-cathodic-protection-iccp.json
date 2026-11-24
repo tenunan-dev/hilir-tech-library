@@ -1,0 +1,62 @@
+{
+  "id": "mat-near-impressed-current-cathodic-protection-iccp",
+  "name": "Impressed current cathodic protection",
+  "material_category": "corrosion-control",
+  "description": "Transformer-rectifier-powered protection with inert electrodes and reference electrodes for large platforms, FPSOs, long pipelines and port structures.",
+  "specifications": [
+    {
+      "metric": "anode / reference electrode design life",
+      "unit": "years",
+      "basis": "CCME-MCPS FAQ: anodes and reference electrodes typically 15-25 years depending on application",
+      "source": {
+        "url": "https://www.ccme-mcps.com/services/impressed-current-cathodic-protection",
+        "source_id": "ccme-mcps-com-services-impressed-current-cathodic-protection"
+      },
+      "low": 15,
+      "high": 25
+    },
+    {
+      "metric": "transformer rectifier and cabling life",
+      "unit": "years",
+      "basis": "CCME-MCPS FAQ; usually needs replacement/refurbishment in this interval",
+      "source": {
+        "url": "https://www.ccme-mcps.com/services/impressed-current-cathodic-protection",
+        "source_id": "ccme-mcps-com-services-impressed-current-cathodic-protection"
+      },
+      "low": 10,
+      "high": 15
+    },
+    {
+      "metric": "delivery scope",
+      "unit": "n/a",
+      "basis": "CCME-MCPS service description",
+      "source": {
+        "url": "https://www.ccme-mcps.com/services/impressed-current-cathodic-protection",
+        "source_id": "ccme-mcps-com-services-impressed-current-cathodic-protection"
+      },
+      "value": "CP design report and current-demand calculation, anode/electrode layout, transformer rectifier spec, reference electrode plan, installation/commissioning procedure and as-built report"
+    }
+  ],
+  "applications": [
+    "Transformer-rectifier-powered protection with inert electrodes and reference electrodes for large platforms, FPSOs, long pipelines and port structures."
+  ],
+  "standards": [],
+  "equipment": [
+    "near-fixed-steel-jacket-oil-gas",
+    "near-topsides-decks-and-module-support-frames",
+    "near-legs-pile-foundations-conductors-and-risers",
+    "near-bridges-helidecks-and-accommodation-modules"
+  ],
+  "suppliers": [
+    "ccme-mcps-llc"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ccme-mcps.com/services/impressed-current-cathodic-protection",
+      "source_id": "ccme-mcps-com-services-impressed-current-cathodic-protection"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

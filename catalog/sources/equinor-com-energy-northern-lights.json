@@ -1,0 +1,29 @@
+{
+  "id": "equinor-com-energy-northern-lights",
+  "name": "Equinor.Com — Northern Lights",
+  "url": "https://www.equinor.com/energy/northern-lights",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Equinor.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. world's first cross-border CO2 transport and storage; first CO2 injected August 2025 Evidence: https://www.equinor.com/energy/northern-lights"
+}

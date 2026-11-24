@@ -1,0 +1,38 @@
+{
+  "id": "jetty-marine-utility-and-navigation-systems-fire-water-foam-draina",
+  "name": "Marine utility and navigation systems",
+  "equipment_type": "jetty-civil",
+  "sector": "MID",
+  "sector_codes": [
+    "MID",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Support safe terminal operation: fire protection, oily-water/drainage handling, sewage, electrical power and lighting, and navigation aids.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Support safe terminal operation: fire protection, oily-water/drainage handling, sewage, electrical power and lighting, and navigation aids.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "vikoma-international-ltd"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Support safe terminal operation: fire protection, oily-water/drainage handling, sewage, electrical power and lighting, and navigation aids."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "near-bridges-helidecks-and-accommodation-modules",
+  "name": "Bridges, helidecks and accommodation modules",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Connect platforms, enable helicopter transfer, and house crew.",
+  "specifications": [
+    {
+      "metric": "living quarter + bridge fabrication scope, East Piatu",
+      "unit": "metric tonnes (combined topside scope)",
+      "basis": "Newfield Malaysia, includes topside, CPP, living quarter and bridge",
+      "source": {
+        "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+        "source_id": "vantrisenergy-com-engineering-construction-track-record"
+      },
+      "value": 4161
+    },
+    {
+      "metric": "permanent living quarters and office cabins, Cakerawala gas field",
+      "unit": "n/a",
+      "basis": "Carigali Hess, Feb 2013-Aug 2013",
+      "source": {
+        "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+        "source_id": "vantrisenergy-com-engineering-construction-track-record"
+      },
+      "value": "supply and installation scope"
+    }
+  ],
+  "vendors": [
+    "vantris-energy-berhad"
+  ],
+  "sources": [
+    {
+      "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+      "source_id": "vantrisenergy-com-engineering-construction-track-record"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Connect platforms, enable helicopter transfer, and house crew."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

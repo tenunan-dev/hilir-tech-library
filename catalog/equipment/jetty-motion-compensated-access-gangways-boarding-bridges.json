@@ -1,0 +1,50 @@
+{
+  "id": "jetty-motion-compensated-access-gangways-boarding-bridges",
+  "name": "Motion-compensated access gangways / boarding bridges",
+  "equipment_type": "jetty-civil",
+  "sector": "MID",
+  "sector_codes": [
+    "MID",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Transfer personnel and cargo between vessel and fixed or floating structure with active compensation of vessel motions (6 degrees of freedom), extending the weather window for crew change and transfer.",
+  "specifications": [
+    {
+      "metric": "Ampelmann E-type significant wave height compensation",
+      "unit": "m Hs",
+      "basis": "Ampelmann E-type product page: 'safely transferring personnel in sea states up to 4.5m Hs'; full 6-DOF compensation, zero movement of gangway during operation",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type",
+        "source_id": "ampelmann-nl-systems-e-type"
+      },
+      "value": 4.5
+    },
+    {
+      "metric": "Ampelmann E-type gangway length / footprint / weight",
+      "unit": "m, m x m, metric tonnes",
+      "basis": "Ampelmann E-type page specification tiles",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type",
+        "source_id": "ampelmann-nl-systems-e-type"
+      },
+      "value": "30 m / 8.4 x 9.5 m / 105 mt"
+    }
+  ],
+  "vendors": [
+    "ampelmann-operations-b-v"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ampelmann.nl/systems/e-type",
+      "source_id": "ampelmann-nl-systems-e-type"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Transfer personnel and cargo between vessel and fixed or floating structure with active compensation of vessel motions (6 degrees of freedom), extending the wea"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html",
+  "name": "Shibata Fender Team — SPC cone fender overall height, range across publi",
+  "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Shibata Fender Team",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. ShibataFenderTeam SPC cone fender standard size table, SPC 300 to SPC 2000; page states 'heights between 300 and 2,000 mm' in 3 main rubber grades Evidence: https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
+}

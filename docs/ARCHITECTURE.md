@@ -113,6 +113,14 @@ indexed as kinds `product` and `drawing` in the SQLite and Postgres search paths
 and web `/products` and `/drawings`, and loaded into `og.product` / `og.drawing` with vectors and graph
 nodes.
 
+### Engineering materials (`catalog/materials/`, `schema/material.schema.json`)
+
+One record per engineering material with the properties printed on a source the author read: category,
+applications, standards, suppliers, sourced specifications (metric, value/range, unit, basis, source) and
+gaps. Validated by `tools/build.py`, indexed as kind `material` in SQLite and Postgres, exposed through
+`list_materials`/`get_material`, REST `/api/materials`, web `/materials`, the `og.material` table and
+material graph nodes. Added 2026-11-24 (decision #43).
+
 ### Verification (`tools/verification/`)
 
 `log.jsonl` is an append-only log of terms checks: `id`, `checked_on`, `evidence` (URL), `finding`, and any of `url`, `licence`, `reuse_level`, `access`, `update_frequency`, `automated_access`, `permitted_use`. `apply_verification.py` replays the whole log onto the records, so the log is the source of truth for verification state. An entry with `"verified": false` records a check that could not confirm the terms; such records appear in `catalog/index/needs-manual-check.md`.

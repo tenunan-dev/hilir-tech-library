@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-lngcanada-ca-c000-000-oa-9020-0007-r4-lngcanadaterminalinfor",
+  "name": "LNG Canada Development Inc.",
+  "url": "https://lngcanada.ca/wp-content/uploads/C000-000-OA-9020-0007_R4_LNGCanadaTerminalInformationGuide.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "LNG Canada Development Inc.",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Public terminal information guide describing the LNG Canada jetty and the loading arms arranged from south to north, with maps/illustrations of the marine terminal. Evidence: https://lngcanada.ca/wp-content/uploads/C000-000-OA-9020-0007_R4_LNGCanadaTerminalInformationGuide.pdf"
+}

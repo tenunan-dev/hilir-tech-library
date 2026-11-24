@@ -1,0 +1,54 @@
+{
+  "id": "near-nearshore-submerged-tunnels-and-bridges",
+  "name": "Nearshore submerged tunnels and bridges",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Fixed crossings and immersed-tunnel elements in nearshore waters; relevant to platform/bridge interface structures and marine construction.",
+  "specifications": [
+    {
+      "metric": "bridges within ISO 19902 scope",
+      "unit": "n/a",
+      "basis": "ISO 19902:2020 abstract",
+      "source": {
+        "url": "https://www.iso.org/standard/65688.html",
+        "source_id": "iso-org-standard-65688-html"
+      },
+      "value": "bridges and connecting structures listed as related offshore structures"
+    },
+    {
+      "metric": "Boskalis tunnels and bridges capability",
+      "unit": "n/a",
+      "basis": "Boskalis site navigation",
+      "source": {
+        "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+        "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+      },
+      "value": "listed market (no numeric spec)"
+    }
+  ],
+  "vendors": [
+    "boskalis"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/65688.html",
+      "source_id": "iso-org-standard-65688-html"
+    },
+    {
+      "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+      "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Fixed crossings and immersed-tunnel elements in nearshore waters; relevant to platform/bridge interface structures and marine construction."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "civ-micropiles",
+  "name": "Micropiles",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Small-diameter drilled and grouted replacement piles carrying axial and/or lateral loads; used in restricted access, under existing structures, in hard rock and for seismic retrofit.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Small-diameter drilled and grouted replacement piles carrying axial and/or lateral loads; used in restricted access, under existing structures, in hard rock and for seismic retrofit.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "bauer-equipment-australia"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Current live BAUER micropile product URL",
+      "why": "The search-indexed URL returned 404 on WebFetch",
+      "next_action": "Locate current BAUER micropile page on equipment.bauer.de"
+    }
+  ],
+  "applications": [
+    "Small-diameter drilled and grouted replacement piles carrying axial and/or lateral loads; used in restricted access, under existing structures, in hard rock and"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

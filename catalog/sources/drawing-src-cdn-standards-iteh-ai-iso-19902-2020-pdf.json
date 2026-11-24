@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-cdn-standards-iteh-ai-iso-19902-2020-pdf",
+  "name": "International Organization for Standardization (ISO), TC 67/SC 7",
+  "url": "https://cdn.standards.iteh.ai/samples/65688/ddf8c5d1ce3f4162afa60c6efd7d11be/ISO-19902-2020.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "International Organization for Standardization (ISO), TC 67/SC 7",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "ISO standard for fixed steel offshore structures (jackets, towers, caissons, monotowers); the 15-page public preview exposes scope and revision information but not figure captions, so figures must be cited from the full standard. Evidence: https://cdn.standards.iteh.ai/samples/65688/ddf8c5d1ce3f4162afa60c6efd7d11be/ISO-19902-2020.pdf"
+}

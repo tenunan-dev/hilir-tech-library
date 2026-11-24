@@ -1,0 +1,28 @@
+{
+  "id": "iqip",
+  "name": "IQIP",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "IQIP is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+      "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+    },
+    {
+      "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+      "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

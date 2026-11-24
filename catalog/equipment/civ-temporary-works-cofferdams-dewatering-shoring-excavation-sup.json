@@ -1,0 +1,66 @@
+{
+  "id": "civ-temporary-works-cofferdams-dewatering-shoring-excavation-sup",
+  "name": "Temporary works — cofferdams, dewatering, shoring, excavation support",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Exclude water and soil from excavation areas, temporarily retain excavation faces and protect adjacent assets while foundations are constructed; includes sheet-pile cofferdams, diaphragm/secant walls, ground anchors, struts, wellpoints and dewatering pumps.",
+  "specifications": [
+    {
+      "metric": "Secant wall example (BAUER)",
+      "unit": "mm x m",
+      "basis": "BAUER: secant pile wall to support excavation pit / seal groundwater, double-head method, Businesspark Hannover",
+      "source": {
+        "url": "https://geotechnical-solutions.bauer.de/en/piles",
+        "source_id": "geotechnical-solutions-bauer-de-en-piles"
+      },
+      "value": "880 mm dia x 16 m"
+    },
+    {
+      "metric": "Layher shoring/heavy-duty support",
+      "unit": "system",
+      "basis": "Layher Allround product page lists Shoring TG 60, Heavy-Duty support/Heavy-Duty Tower and Allround Bridging System accessories",
+      "source": {
+        "url": "https://www.layher.com/en/products/allroundscaffolding",
+        "source_id": "layher-com-products-allroundscaffolding"
+      },
+      "value": "Shoring TG 60 / Heavy-Duty Tower"
+    }
+  ],
+  "vendors": [
+    "bauer-spezialtiefbau",
+    "layher"
+  ],
+  "sources": [
+    {
+      "url": "https://geotechnical-solutions.bauer.de/en/piles",
+      "source_id": "geotechnical-solutions-bauer-de-en-piles"
+    },
+    {
+      "url": "https://www.layher.com/en/products/allroundscaffolding",
+      "source_id": "layher-com-products-allroundscaffolding"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Cofferdam design water-head/steel sheet pile section data",
+      "why": "No fetched cofferdam design or supplier page",
+      "next_action": "Fetch USACE cofferdam design manual or sheet-pile supplier datasheet"
+    },
+    {
+      "what": "Dewatering pump capacities and wellpoint spacing",
+      "why": "No dewatering equipment page read",
+      "next_action": "Fetch a dewatering equipment manufacturer datasheet"
+    }
+  ],
+  "applications": [
+    "Exclude water and soil from excavation areas, temporarily retain excavation faces and protect adjacent assets while foundations are constructed; includes sheet-"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

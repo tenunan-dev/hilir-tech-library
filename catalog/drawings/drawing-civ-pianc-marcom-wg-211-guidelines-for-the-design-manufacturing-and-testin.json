@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-pianc-marcom-wg-211-guidelines-for-the-design-manufacturing-and-testin",
+  "title": "PIANC MarCom WG 211 — Guidelines for the Design, Manufacturing and Testing of Fender Systems 2024 (fender layout and detail figures)",
+  "diagram_type": "schematic",
+  "description": "Figure titles in the verified BAW-hosted copy cover fender pitch/clearance, chain layouts, tension chains, bracket assemblies, anchors, facing connections and fender panel cross-sections; Tables 2-1 to 2-11 pair typical fender system sketches with performance curves for cone, cell, element/leg, arch/trapezoidal, cylindrical, foam, pneumatic, parallel-motion, pile/pivot and rolling fenders. | Figures: Figure 6.4 — Estimate of maximum fender pitch and minimum clearance to the supporting structure; Figure 8.3 — Typical fender system chain layout (viewed from rear of fender panel); Figure 8.4 — Typical tension chain arrangement; Figure 8.5 — Recommendations for angles and chain arrangement for non-compressed fenders; Figure 8.6 — Double and 4-chain arrangements for foam and pneumatic fenders; Figure 8.7 — Typical examples of fender system bracket assemblies",
+  "publisher": "PIANC (International Association for Navigation Congresses), MarCom WG 211; copy hosted by Bundesanstalt für Wasserbau (BAW)",
+  "url": "https://izw.baw.de/publikationen/pianc/0/IVZMarCom%20WG%20211.pdf",
+  "licence": "Copyright PIANC. BAW-hosted copy consulted for bibliographic/figure-title reference only; do not reproduce figures without PIANC permission. Commercial edition at https://pianc.org/publication/pianc-f",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://izw.baw.de/publikationen/pianc/0/IVZMarCom%20WG%20211.pdf",
+      "source_id": "drawing-src-izw-baw-de-ivzmarcom-20wg-20211-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

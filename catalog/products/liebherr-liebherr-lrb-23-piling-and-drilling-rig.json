@@ -1,0 +1,61 @@
+{
+  "id": "liebherr-liebherr-lrb-23-piling-and-drilling-rig",
+  "name": "Liebherr LRB 23 piling and drilling rig",
+  "manufacturer": "liebherr",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Page read",
+  "specifications": [
+    {
+      "metric": "Operating weight",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
+        "source_id": "liebherr-com-p-lrb23-4424791"
+      },
+      "value": "72.6–78.5"
+    },
+    {
+      "metric": "Max torque",
+      "unit": "kNm",
+      "basis": "",
+      "source": {
+        "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
+        "source_id": "liebherr-com-p-lrb23-4424791"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Crowd force",
+      "unit": "kN",
+      "basis": "",
+      "source": {
+        "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
+        "source_id": "liebherr-com-p-lrb23-4424791"
+      },
+      "value": 320
+    },
+    {
+      "metric": "Engine power",
+      "unit": "kW",
+      "basis": "",
+      "source": {
+        "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
+        "source_id": "liebherr-com-p-lrb23-4424791"
+      },
+      "value": 600
+    }
+  ],
+  "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
+  "sources": [
+    {
+      "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
+      "source_id": "liebherr-com-p-lrb23-4424791"
+    }
+  ],
+  "notes": "Page read",
+  "last_reviewed": "2026-11-24"
+}

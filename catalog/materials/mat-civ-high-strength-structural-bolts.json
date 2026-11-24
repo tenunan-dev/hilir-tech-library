@@ -1,0 +1,44 @@
+{
+  "id": "mat-civ-high-strength-structural-bolts",
+  "name": "High-strength structural bolts",
+  "material_category": "fastener",
+  "description": "Connect structural steel members in bearing-type or slip-critical joints; pretensioned assemblies transfer load by friction and resist slip and fatigue.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Connect structural steel members in bearing-type or slip-critical joints; pretensioned assemblies transfer load by friction and resist slip and fatigue.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Connect structural steel members in bearing-type or slip-critical joints; pretensioned assemblies transfer load by friction and resist slip and fatigue."
+  ],
+  "standards": [],
+  "equipment": [
+    "civ-shallow-raft-pad-foundations",
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "civ-micropiles"
+  ],
+  "suppliers": [
+    "portland-bolt"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Pretension values per bolt diameter from RCSC 2020",
+      "why": "Not fetched from RCSC",
+      "next_action": "Fetch RCSC specification public summary"
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

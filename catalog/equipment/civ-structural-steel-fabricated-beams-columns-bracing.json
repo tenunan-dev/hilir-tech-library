@@ -1,0 +1,49 @@
+{
+  "id": "civ-structural-steel-fabricated-beams-columns-bracing",
+  "name": "Structural steel — fabricated beams, columns, bracing",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Primary gravity and lateral load-resisting frame for process structures, pipe racks, equipment supports and buildings; fabricated from rolled or welded sections in carbon, HSLA or high-strength grades.",
+  "specifications": [
+    {
+      "metric": "ASTM A992 yield strength",
+      "unit": "ksi (345–450 MPa)",
+      "basis": "ASTM A992 preferred grade for W-shapes: 50 ksi min / 65 ksi max yield, 65 ksi min tensile, Fy/Fu <=0.85, CE <=0.45 (0.47 for flanges >2 in); AISC 341 expected yield = 1.1 x specified min",
+      "source": {
+        "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+        "source_id": "americansteelandaluminum-com-materials-a992-steel"
+      },
+      "low": 50,
+      "high": 65
+    }
+  ],
+  "vendors": [
+    "arcelormittal-europe",
+    "ssab",
+    "american-steel-aluminum"
+  ],
+  "sources": [
+    {
+      "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+      "source_id": "americansteelandaluminum-com-materials-a992-steel"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "APAC structural steel grade equivalents (JIS SM490, AS/NZS 300PLUS, Chinese Q355)",
+      "why": "Only US/EU grades captured with sourced pages",
+      "next_action": "Fetch JIS/AS/NZS steel grade datasheets from mills"
+    }
+  ],
+  "applications": [
+    "Primary gravity and lateral load-resisting frame for process structures, pipe racks, equipment supports and buildings; fabricated from rolled or welded sections"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

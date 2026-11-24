@@ -1,0 +1,24 @@
+{
+  "id": "bauer-spezialtiefbau",
+  "name": "BAUER Spezialtiefbau",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "BAUER Spezialtiefbau is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://geotechnical-solutions.bauer.de/en/piles",
+      "source_id": "geotechnical-solutions-bauer-de-en-piles"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

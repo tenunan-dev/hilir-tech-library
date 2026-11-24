@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-noaa-fisheries-revolution-wind-pile-driving-monitoring-plan-foundation",
+  "title": "NOAA Fisheries — Revolution Wind Pile Driving Monitoring Plan (foundation and hammer schematics)",
+  "diagram_type": "schematic",
+  "description": "Schematic drawing of WTG monopile foundation, OSS monopile foundation with module support frame, and Menck 4400S hydraulic hammer used for pile installation. | Figures: Figure 1 — Schematic drawing of a WTG MP foundation; Figure 2 — Example MP OSS foundation concept, including module support frame; Figure 3 — Menck 4400S hydraulic hammer",
+  "publisher": "U.S. Department of Commerce, NOAA Fisheries (Revolution Wind project document)",
+  "url": "https://www.fisheries.noaa.gov/s3/2024-06/RevWind-PileDrivingMonitoringPlan-508-OPR1.pdf",
+  "licence": "U.S. Government-hosted project document; public with citation. Figures not reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fisheries.noaa.gov/s3/2024-06/RevWind-PileDrivingMonitoringPlan-508-OPR1.pdf",
+      "source_id": "drawing-src-fisheries-noaa-gov-revwind-piledrivingmonitoringplan-508-opr"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. search_verified",
+  "last_reviewed": "2026-11-24"
+}

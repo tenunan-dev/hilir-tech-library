@@ -1,0 +1,41 @@
+{
+  "id": "universal-steel-america-stockist-api-2h-grade-50-normalized-plate",
+  "name": "API 2H Grade 50 normalized plate",
+  "manufacturer": "universal-steel-america",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Supplements S1-S5 in stock.",
+  "specifications": [
+    {
+      "metric": "stock thickness",
+      "unit": "in",
+      "basis": "",
+      "source": {
+        "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
+        "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
+      },
+      "value": "1/4-4"
+    },
+    {
+      "metric": "condition",
+      "unit": "n/a",
+      "basis": "",
+      "source": {
+        "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
+        "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
+      },
+      "value": "normalized"
+    }
+  ],
+  "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
+  "sources": [
+    {
+      "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
+      "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
+    }
+  ],
+  "notes": "Supplements S1-S5 in stock.",
+  "last_reviewed": "2026-11-24"
+}

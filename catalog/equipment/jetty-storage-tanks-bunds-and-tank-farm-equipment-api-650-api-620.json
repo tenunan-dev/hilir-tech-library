@@ -1,0 +1,40 @@
+{
+  "id": "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620",
+  "name": "Storage tanks, bunds and tank-farm equipment",
+  "equipment_type": "jetty-civil",
+  "sector": "MID",
+  "sector_codes": [
+    "MID",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Bulk liquid storage at terminals: fixed cone roof, internal floating roof (IFR), external floating roof (EFR), double-deck floating roof (DDFR); secondary containment/bunds; associated pumps, metering and loading.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Bulk liquid storage at terminals: fixed cone roof, internal floating roof (IFR), external floating roof (EFR), double-deck floating roof (DDFR); secondary containment/bunds; associated pumps, metering and loading.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "l-vision-engineering-pte-ltd",
+    "tank-built-pte-ltd",
+    "hail"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Bulk liquid storage at terminals: fixed cone roof, internal floating roof (IFR), external floating roof (EFR), double-deck floating roof (DDFR); secondary conta"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

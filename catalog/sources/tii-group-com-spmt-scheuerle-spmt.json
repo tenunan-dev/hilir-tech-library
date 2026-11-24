@@ -1,0 +1,29 @@
+{
+  "id": "tii-group-com-spmt-scheuerle-spmt",
+  "name": "TII Scheuerle — Scheuerle SPMT axle load",
+  "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "TII Scheuerle",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. TII Scheuerle SPMT page: max 60 t axle load, 530 HP power, 700 mm axle compensation; 3–6 axle line modules; positioning accuracy +/-1–2 mm Evidence: https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+}

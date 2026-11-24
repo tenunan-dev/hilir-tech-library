@@ -1,0 +1,29 @@
+{
+  "id": "hainamsi-com-11-05-catalog-cable-tray-pdf",
+  "name": "Hai Nam",
+  "url": "https://www.hainamsi.com/wp-content/uploads/2024/11/05.-Catalog-Cable-Tray-.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Hainamsi.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. search-verified PDF; APAC Evidence: https://www.hainamsi.com/wp-content/uploads/2024/11/05.-Catalog-Cable-Tray-.pdf"
+}

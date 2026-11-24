@@ -1,0 +1,53 @@
+{
+  "id": "shibatafenderteam-v-fender-sx-sx-p-sh-sh-p-sx-250-sx-1000",
+  "name": "V Fender SX / SX-P / SH / SH-P (SX 250 - SX 1000)",
+  "manufacturer": "shibatafenderteam",
+  "product_type": "jetty-civil",
+  "equipment": [
+    "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett"
+  ],
+  "description": "Vendor product line read 2026-11-24. SX-P and SH-P embed a steel plate for UHMW-PE or steel panel mounting.",
+  "specifications": [
+    {
+      "metric": "SX standard heights",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
+      },
+      "low": 250,
+      "high": 1000
+    },
+    {
+      "metric": "standard lengths",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
+      },
+      "low": 1000,
+      "high": 3500
+    },
+    {
+      "metric": "SX 1000 width",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
+      },
+      "value": 1800
+    }
+  ],
+  "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+  "sources": [
+    {
+      "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+      "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
+    }
+  ],
+  "notes": "SX-P and SH-P embed a steel plate for UHMW-PE or steel panel mounting.",
+  "last_reviewed": "2026-11-24"
+}

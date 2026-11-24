@@ -1,0 +1,52 @@
+{
+  "id": "shibatafenderteam-spc-cone-fender-spc-300-spc-2000",
+  "name": "SPC Cone Fender (SPC 300 - SPC 2000)",
+  "manufacturer": "shibatafenderteam",
+  "product_type": "jetty-civil",
+  "equipment": [
+    "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett"
+  ],
+  "description": "Vendor product line read 2026-11-24. No energy/reaction performance table on the HTML page; see downloadable Product Information SPC Fenders PDF.",
+  "specifications": [
+    {
+      "metric": "height range",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
+      },
+      "low": 300,
+      "high": 2000
+    },
+    {
+      "metric": "SPC 2000 mass",
+      "unit": "kg",
+      "basis": "",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
+      },
+      "value": 9560
+    },
+    {
+      "metric": "SPC 2000 anchor bolts",
+      "unit": "count/size",
+      "basis": "",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
+      },
+      "value": "10 x M56"
+    }
+  ],
+  "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+  "sources": [
+    {
+      "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+      "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
+    }
+  ],
+  "notes": "No energy/reaction performance table on the HTML page; see downloadable Product Information SPC Fenders PDF.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "near-vibratory-piling-and-vibratory-suction-installation-equipmen",
+  "name": "Vibratory piling and vibratory/suction installation equipment",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Alternative to impact driving for sheet piles, tubular piles and jackets in granular soils; suction installation uses differential pressure.",
+  "specifications": [
+    {
+      "metric": "IQIP vibratory product families",
+      "unit": "n/a",
+      "basis": "IQIP product navigation",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+        "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+      },
+      "value": "VibroLift VQ; Vibrohammer F-series and Z-series"
+    },
+    {
+      "metric": "PULSE effect",
+      "unit": "n/a",
+      "basis": "IQIP Hydrohammer FAQ",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+        "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+      },
+      "value": "extends hammer impact duration to reduce underwater noise, pile fatigue and operating costs"
+    },
+    {
+      "metric": "suction bucket jacket installations",
+      "unit": "count",
+      "basis": "Aberdeen Bay suction bucket jacket project (Boskalis)",
+      "source": {
+        "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+        "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+      },
+      "value": 11
+    }
+  ],
+  "vendors": [
+    "iqip"
+  ],
+  "sources": [
+    {
+      "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+      "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+    },
+    {
+      "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+      "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Alternative to impact driving for sheet piles, tubular piles and jackets in granular soils; suction installation uses differential pressure."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

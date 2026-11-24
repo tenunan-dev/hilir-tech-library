@@ -87,7 +87,7 @@ flowchart LR
     TOP --> HKP
 ```
 
-**Key equipment:** steel jacket, foundation piles, topsides modules, conductor guides, boat landings and riser guards.
+**Key equipment:** steel jacket, foundation piles, topsides modules, conductor guides, boat landings and riser guards, steel jackets, monopiles, suction-bucket jackets, topsides, scour protection, cathodic protection, structural health monitoring.
 
 **Performance:**
 - jacket weight against water depth: 14000 t at 105 m water depth; A 14,000 t steel jacket installed in 105 m of water.. [source](https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0900.htm)
@@ -97,7 +97,7 @@ flowchart LR
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://en.wikipedia.org/wiki/Oil_platform), [2](https://www.offshore-mag.com/). Last reviewed 2026-11-17.
+Sources: [1](https://en.wikipedia.org/wiki/Oil_platform), [2](https://www.offshore-mag.com/). Last reviewed 2026-11-24.
 
 ## Foundations and piling
 <a id="civ-foundations-piling"></a>
@@ -115,7 +115,7 @@ flowchart LR
     EXE --> TST
 ```
 
-**Key equipment:** driven steel and concrete piles, bored piles, vibro and stone columns, pile caps.
+**Key equipment:** driven steel and concrete piles, bored piles, vibro and stone columns, pile caps, driven precast piles, bored CFA piles, micropiles, ground improvement, geotechnical investigation.
 
 **Performance:**
 - pile productivity by pile type: 2-22 piles/day at 16 m depth; 22 driven H piles per day against 11 CFA and 2 bored 600 mm piles per day; a 2 m bored pile can exceed 5,000 kN.. [source](https://methvin.co/production-rates/foundation/piling-productivities/piling-productivities)
@@ -125,7 +125,7 @@ flowchart LR
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://en.wikipedia.org/wiki/Deep_foundation). Last reviewed 2026-11-17.
+Sources: [1](https://en.wikipedia.org/wiki/Deep_foundation). Last reviewed 2026-11-24.
 
 ## Heavy lift, transport and temporary works
 <a id="civ-heavy-lift-temporary-works"></a>
@@ -171,7 +171,7 @@ flowchart LR
     SHP --> INS
 ```
 
-**Key equipment:** fabrication yards, SPMT transporters, heavy cranes, module interface joints.
+**Key equipment:** fabrication yards, SPMT transporters, heavy cranes, module interface joints, formwork and shuttering, precast concrete, scaffolding, cofferdams and temporary works.
 
 **Performance:**
 - programme saving versus conventional construction: 30 % construction time; IBS projects save up to 30% of construction time; CIDB case studies show near cost parity.. [source](https://www.e3s-conferences.org/articles/e3sconf/pdf/2014/02/e3sconf_etsdc2014_01009.pdf)
@@ -181,7 +181,7 @@ flowchart LR
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://www.cidb.gov.my/), [2](https://en.wikipedia.org/wiki/Modular_construction). Last reviewed 2026-11-17.
+Sources: [1](https://www.cidb.gov.my/), [2](https://en.wikipedia.org/wiki/Modular_construction). Last reviewed 2026-11-24.
 
 ## Pipe racks, sleepers and pipe supports
 <a id="civ-pipe-racks-supports"></a>
@@ -227,7 +227,7 @@ flowchart LR
     DSN --> DET
 ```
 
-**Key equipment:** hot-rolled beams and columns, bracing, base plates and anchors, gratings and handrails.
+**Key equipment:** hot-rolled beams and columns, bracing, base plates and anchors, gratings and handrails, piling rigs, structural steel sections, high-strength bolts, SPMT heavy transport, passive fire protection, seismic isolators.
 
 **Performance:**
 - steel erection productivity: 1.5-1.68 t per worker-day; AISC case-study building: 400 t with 7 workers in 38 days (1.5 t/worker-day); Empire State reached 1.68 t/worker-day, with low-rise frames at 50-60 kg/m2.. [source](https://www.construction-physics.com/p/construction-productivity-structural)
@@ -237,7 +237,7 @@ flowchart LR
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://www.hse.gov.uk/electricity/), [2](https://en.wikipedia.org/wiki/Structural_steel). Last reviewed 2026-11-17.
+Sources: [1](https://www.hse.gov.uk/electricity/), [2](https://en.wikipedia.org/wiki/Structural_steel). Last reviewed 2026-11-24.
 
 ## Seismic design of process facilities
 <a id="civ-seismic-design"></a>

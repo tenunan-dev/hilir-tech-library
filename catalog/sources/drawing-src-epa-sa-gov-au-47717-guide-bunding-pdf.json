@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-epa-sa-gov-au-47717-guide-bunding-pdf",
+  "name": "Environment Protection Authority South Australia (EPA 080/16)",
+  "url": "https://www.epa.sa.gov.au/files/47717_guide_bunding.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "Environment Protection Authority South Australia (EPA 080/16)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Parallel EPA guidance with Figure 1/Figure 2 bunding diagrams for bulk liquid tanks and drums, including 120% largest-tank capacity note, blind collection sump, high level detector and pipework over bund wall. Evidence: https://www.epa.sa.gov.au/files/47717_guide_bunding.pdf"
+}

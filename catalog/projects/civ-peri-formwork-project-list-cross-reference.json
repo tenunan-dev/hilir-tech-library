@@ -1,0 +1,25 @@
+{
+  "id": "civ-peri-formwork-project-list-cross-reference",
+  "name": "PERI formwork project list (cross-reference)",
+  "country": "Multiple APAC",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "PERI brochure lists infrastructure construction Pilbara Australia, Choa Chu Kang Grove Singapore, Aspen Residence George Town Penang Malaysia, Tonson Park View Bangkok Thailand",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.peri.com.au/dam/jcr:c64fb84d-069b-4138-a85b-b872077fbb42/duo-brochure-2026.pdf",
+      "source_id": "peri-com-au-jcr-c64fb84d-069b-4138-a85b-b872077fbb42-duo-brochure"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

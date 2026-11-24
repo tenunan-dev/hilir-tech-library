@@ -1,0 +1,40 @@
+{
+  "id": "jetty-fender-design-standards-and-guidance-pianc-bs-6349-aci-astm",
+  "name": "Fender design standards and guidance — PIANC, BS 6349, ACI, ASTM",
+  "equipment_type": "jetty-civil",
+  "sector": "MID",
+  "sector_codes": [
+    "MID",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Provide the calculation framework for berthing energy, fender selection, reaction loads, mooring loads and marine concrete durability; used by designers worldwide as guidance or by reference in codes.",
+  "specifications": [
+    {
+      "metric": "PIANC WG33 publication year and status",
+      "unit": "year",
+      "basis": "PIANC USA webinar page: WG33 published Guidelines for the Design of Fenders Systems: 2002; 'the one reference document to which all other national guidelines and codes that specify or prescribe fender design refer'",
+      "source": {
+        "url": "https://pianc.us/webinar-updated-guidelines-for-the-design-of-fender-systems",
+        "source_id": "pianc-us-pianc-us-webinar-updated-guidelines-for-the-design-of-fen"
+      },
+      "value": 2002
+    }
+  ],
+  "vendors": [
+    "trelleborg-marine-infrastructure"
+  ],
+  "sources": [
+    {
+      "url": "https://pianc.us/webinar-updated-guidelines-for-the-design-of-fender-systems",
+      "source_id": "pianc-us-pianc-us-webinar-updated-guidelines-for-the-design-of-fen"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Provide the calculation framework for berthing energy, fender selection, reaction loads, mooring loads and marine concrete durability; used by designers worldwi"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

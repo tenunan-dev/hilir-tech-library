@@ -1,0 +1,25 @@
+{
+  "id": "civ-10-000-t-historic-building-moved-600-m",
+  "name": "10,000 t historic building moved 600 m",
+  "country": "unspecified",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "SCHEUERLE SPMT triple record",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+      "source_id": "tii-group-com-spmt-scheuerle-spmt"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

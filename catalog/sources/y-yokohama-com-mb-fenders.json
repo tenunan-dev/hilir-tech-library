@@ -1,0 +1,29 @@
+{
+  "id": "y-yokohama-com-mb-fenders",
+  "name": "The Yokohama Rubber Co., Ltd.",
+  "url": "https://www.y-yokohama.com/global/product/mb/fenders",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Yokohama Rubber",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Floating fenders developed 1958; fixed fenders 40+ years of experience; cell/cone solid fenders added 2024 (company release dated 30 Apr 2024). Evidence: https://www.y-yokohama.com/global/product/mb/fenders"
+}

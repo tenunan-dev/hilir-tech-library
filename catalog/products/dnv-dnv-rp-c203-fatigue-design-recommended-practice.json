@@ -1,0 +1,31 @@
+{
+  "id": "dnv-dnv-rp-c203-fatigue-design-recommended-practice",
+  "name": "DNV-RP-C203 fatigue design recommended practice",
+  "manufacturer": "dnv",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Subscription document; scope verified.",
+  "specifications": [
+    {
+      "metric": "edition",
+      "unit": "n/a",
+      "basis": "",
+      "source": {
+        "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
+        "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"
+      },
+      "value": "2024-10, amended 2025-10"
+    }
+  ],
+  "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
+  "sources": [
+    {
+      "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
+      "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"
+    }
+  ],
+  "notes": "Subscription document; scope verified.",
+  "last_reviewed": "2026-11-24"
+}

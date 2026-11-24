@@ -1,0 +1,32 @@
+{
+  "id": "shibatafenderteam",
+  "name": "ShibataFenderTeam",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "ShibataFenderTeam is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+      "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
+    },
+    {
+      "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+      "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
+    },
+    {
+      "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
+      "source_id": "shibata-fender-team-news-detail-optimizing-the-fender-design-for-l"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

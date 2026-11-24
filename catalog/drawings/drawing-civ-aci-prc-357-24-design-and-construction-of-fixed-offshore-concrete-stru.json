@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-aci-prc-357-24-design-and-construction-of-fixed-offshore-concrete-stru",
+  "title": "ACI PRC-357-24 — Design and Construction of Fixed Offshore Concrete Structures (preview)",
+  "diagram_type": "schematic",
+  "description": "Public preview of the ACI 357 guide covering fixed offshore concrete structures and associated marine works such as jetties, berthing structures and pile-supported platforms; preview does not expose figure captions.",
+  "publisher": "American Concrete Institute (ACI), Committee 357",
+  "url": "https://concrete.org/Portals/0/Files/PDF/Previews/357-24_preview.pdf",
+  "licence": "© ACI; preview only. Full guide paywalled. No figures reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://concrete.org/Portals/0/Files/PDF/Previews/357-24_preview.pdf",
+      "source_id": "drawing-src-concrete-org-357-24-preview-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

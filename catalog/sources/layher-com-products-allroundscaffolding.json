@@ -1,0 +1,29 @@
+{
+  "id": "layher-com-products-allroundscaffolding",
+  "name": "Layher — Layher Allround connections per rosette",
+  "url": "https://www.layher.com/en/products/allroundscaffolding",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Layher",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Layher Allround product page: up to eight connections in one Allround Connector at one level and various angles; bolt-free wedge-head with AutoLock; launched 19 Evidence: https://www.layher.com/en/products/allroundscaffolding"
+}

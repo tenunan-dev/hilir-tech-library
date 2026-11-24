@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-osha-scaffolding-etool-illustrated-safety-checklists-by-scaffold-type",
+  "title": "OSHA Scaffolding eTool — illustrated safety checklists by scaffold type",
+  "diagram_type": "schematic",
+  "description": "Illustrated checklists for supported and suspended scaffolds including frame, tube-and-coupler, float (ship) and tank-builder types, with numbered figures for common hazards. | Figures: Figure 4 — When scaffold frames are interconnected, failure of one frame can cause the whole system to collapse; Figure 13 — Example of a scaffold that is not fully planked; planks not cleated against displacement",
+  "publisher": "U.S. Department of Labor, Occupational Safety and Health Administration (OSHA)",
+  "url": "https://www.osha.gov/etools/scaffolding",
+  "licence": "U.S. Government website; public domain with attribution.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.osha.gov/etools/scaffolding",
+      "source_id": "drawing-src-osha-gov-scaffolding"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. search_verified",
+  "last_reviewed": "2026-11-24"
+}

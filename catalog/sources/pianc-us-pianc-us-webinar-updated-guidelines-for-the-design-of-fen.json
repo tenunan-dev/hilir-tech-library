@@ -1,0 +1,29 @@
+{
+  "id": "pianc-us-pianc-us-webinar-updated-guidelines-for-the-design-of-fen",
+  "name": "PIANC — PIANC WG33 publication year and status",
+  "url": "https://pianc.us/webinar-updated-guidelines-for-the-design-of-fender-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "PIANC",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. PIANC USA webinar page: WG33 published Guidelines for the Design of Fenders Systems: 2002; 'the one reference document to which all other national guidelines an Evidence: https://pianc.us/webinar-updated-guidelines-for-the-design-of-fender-systems"
+}

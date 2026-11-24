@@ -1,0 +1,25 @@
+{
+  "id": "civ-industrial-process-blast-wall-project",
+  "name": "Industrial process blast wall project",
+  "country": "USA (Linn County, OR)",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "16–20 in RC walls, two large sliding steel blast doors, smaller man access door, TM 5-1300/SBEDS design",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://pillar-inc.com/wp-content/uploads/2017/06/INDUSTRIAL-MARKET-Project-Profile-02-Industrial-Blast-Walls.pdf",
+      "source_id": "pillar-inc-com-06-industrial-market-project-profile-02-industrial"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

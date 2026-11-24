@@ -1,0 +1,41 @@
+{
+  "id": "flyability-flyability-elios-3-ut-ndt-drone",
+  "name": "Flyability Elios 3 UT NDT drone",
+  "manufacturer": "flyability",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Used by Shell, BP, TotalEnergies, Saipem and other operators per cited case studies.",
+  "specifications": [
+    {
+      "metric": "camera / payload",
+      "unit": "n/a",
+      "basis": "",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+        "source_id": "flyability-com-blog-offshore-drone-inspections"
+      },
+      "value": "4K camera; Cygnus Instruments UT payload; LiDAR stabilisation"
+    },
+    {
+      "metric": "battery range",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+        "source_id": "flyability-com-blog-offshore-drone-inspections"
+      },
+      "value": "100+"
+    }
+  ],
+  "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+  "sources": [
+    {
+      "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+      "source_id": "flyability-com-blog-offshore-drone-inspections"
+    }
+  ],
+  "notes": "Used by Shell, BP, TotalEnergies, Saipem and other operators per cited case studies.",
+  "last_reviewed": "2026-11-24"
+}

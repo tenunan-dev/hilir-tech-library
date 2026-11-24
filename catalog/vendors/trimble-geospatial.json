@@ -1,0 +1,24 @@
+{
+  "id": "trimble-geospatial",
+  "name": "Trimble Geospatial",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Trimble Geospatial is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
+      "source_id": "bridgestone-com-antiseismic-rubber-product-html"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

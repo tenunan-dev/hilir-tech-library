@@ -1,0 +1,50 @@
+{
+  "id": "mat-civ-rubber-elastomeric-bearings-and-seismic-isolators",
+  "name": "Rubber — elastomeric bearings and seismic isolators",
+  "material_category": "rubber",
+  "description": "Provide vertical stiffness with horizontal flexibility for bridges/buildings; absorb earthquake energy via high damping or lead plug plasticity.",
+  "specifications": [
+    {
+      "metric": "Bridgestone NRB damping and rubber grades",
+      "unit": "% / grade",
+      "basis": "Bridgestone products page: NRB low damping about 2–3%, excellent linearity and stable restoring force; separate damper required",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
+        "source_id": "bridgestone-com-antiseismic-rubber-product-html"
+      },
+      "value": "2–3% equivalent damping; G0.30/G0.35/G0.40/G0.45"
+    },
+    {
+      "metric": "Bridgestone LRB lead plug compound",
+      "unit": "rubber grade",
+      "basis": "Bridgestone page: LRB lead plug in laminated natural rubber, elasto-plastic hysteresis, damping adjusted by lead plug diameter; MLIT certification MVBR-0447",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
+        "source_id": "bridgestone-com-antiseismic-rubber-product-html"
+      },
+      "value": "G0.40"
+    }
+  ],
+  "applications": [
+    "Provide vertical stiffness with horizontal flexibility for bridges/buildings; absorb earthquake energy via high damping or lead plug plasticity."
+  ],
+  "standards": [],
+  "equipment": [
+    "civ-shallow-raft-pad-foundations",
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "civ-micropiles"
+  ],
+  "suppliers": [
+    "bridgestone-corporation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
+      "source_id": "bridgestone-com-antiseismic-rubber-product-html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

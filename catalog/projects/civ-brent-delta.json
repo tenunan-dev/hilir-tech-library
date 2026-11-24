@@ -1,0 +1,25 @@
+{
+  "id": "civ-brent-delta",
+  "name": "Brent Delta",
+  "country": "United Kingdom",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "topsides accommodated 161 people; Allseas single-lift removal, target >=97% reuse/recycling",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
+      "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "civ-steel-connections-bolting-welding-fabricated-details",
+  "name": "Steel connections — bolting, welding, fabricated details",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Join beams, columns, bracing and equipment supports by shop/site welding and high-strength bolting; seismic designs require predictable yield and ductility at connections.",
+  "specifications": [
+    {
+      "metric": "A992 welding filler",
+      "unit": "filler metal",
+      "basis": "A992 is prequalified base metal under AWS D1.1; normally E70 series low-hydrogen filler by SMAW/FCAW/GMAW/SAW; preheat per D1.1 tables; heavy flanges >2 in need access-hole grinding + MT/PT",
+      "source": {
+        "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+        "source_id": "americansteelandaluminum-com-materials-a992-steel"
+      },
+      "value": "E70 series low-hydrogen"
+    },
+    {
+      "metric": "Rebar welding code",
+      "unit": "standard",
+      "basis": "ASTM A615 Note 3: welding should be approached with caution; latest AWS D1.4/D1.4M recommended for filler selection and preheat/interpass",
+      "source": {
+        "url": "https://www.astm.org/Standards/A615.htm",
+        "source_id": "astm-org-standards-a615-htm"
+      },
+      "value": "AWS D1.4/D1.4M"
+    }
+  ],
+  "vendors": [
+    "portland-bolt",
+    "arcelormittal-orange-book"
+  ],
+  "sources": [
+    {
+      "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+      "source_id": "americansteelandaluminum-com-materials-a992-steel"
+    },
+    {
+      "url": "https://www.astm.org/Standards/A615.htm",
+      "source_id": "astm-org-standards-a615-htm"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "RCSC 2020 pretension table values",
+      "why": "Not read from the RCSC specification itself",
+      "next_action": "Fetch RCSC Specification for Structural Joints Using High-Strength Bolts public page"
+    },
+    {
+      "what": "Welding consumable manufacturer catalogues (ESAB, Lincoln Electric, Kobelco)",
+      "why": "No specific consumable product data fetched",
+      "next_action": "Fetch AWS D1.1 filler metal classification pages from manufacturers"
+    }
+  ],
+  "applications": [
+    "Join beams, columns, bracing and equipment supports by shop/site welding and high-strength bolting; seismic designs require predictable yield and ductility at c"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

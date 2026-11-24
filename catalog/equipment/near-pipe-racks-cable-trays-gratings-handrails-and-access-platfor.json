@@ -1,0 +1,64 @@
+{
+  "id": "near-pipe-racks-cable-trays-gratings-handrails-and-access-platfor",
+  "name": "Pipe racks, cable trays, gratings, handrails and access platforms",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Secondary steel that routes piping/cables and provides safe access and walkways on topsides and wind foundations.",
+  "specifications": [
+    {
+      "metric": "external platforms and anodes",
+      "unit": "n/a",
+      "basis": "CS WIND monopile page",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles",
+        "source_id": "cswoffshore-com-solutions-monopiles"
+      },
+      "value": "CS WIND fabricates/mounts external platforms and both static anodes and dynamic ICCP systems"
+    },
+    {
+      "metric": "heated gangways, stairs, ladders and railings",
+      "unit": "n/a",
+      "basis": "PALFINGER AHC cranes page",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+        "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+      },
+      "value": "listed as winterization features on PALFINGER offshore cranes"
+    },
+    {
+      "metric": "secondary steel scope",
+      "unit": "n/a",
+      "basis": "CS WIND solutions navigation",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles",
+        "source_id": "cswoffshore-com-solutions-monopiles"
+      },
+      "value": "CS WIND Offshore product line 'Secondary Steel'"
+    }
+  ],
+  "vendors": [
+    "cs-wind-offshore"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cswoffshore.com/solutions/monopiles",
+      "source_id": "cswoffshore-com-solutions-monopiles"
+    },
+    {
+      "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+      "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Secondary steel that routes piping/cables and provides safe access and walkways on topsides and wind foundations."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

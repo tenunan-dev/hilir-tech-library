@@ -1,0 +1,29 @@
+{
+  "id": "eew-group-com-eew-group-com-offshore-wind",
+  "name": "EEW Group (EEW SPC / PPE / Korea / Malaysia)",
+  "url": "https://eew-group.com/offshore-wind",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Eew Group.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. >2,200 monopiles produced, >80 projects supplied; Pasir Gudang Malaysia plant Evidence: https://eew-group.com/offshore-wind"
+}

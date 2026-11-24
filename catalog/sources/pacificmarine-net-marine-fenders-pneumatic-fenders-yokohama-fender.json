@@ -1,0 +1,29 @@
+{
+  "id": "pacificmarine-net-marine-fenders-pneumatic-fenders-yokohama-fender",
+  "name": "Pacific Marine & Industrial (PM&I)",
+  "url": "https://www.pacificmarine.net/marine-deck/marine-fenders/pneumatic-fenders-yokohama-fenders.htm",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Pacific Marine",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Distributor/manufacturer since 1985; quoting requires quantity, style, size, 50 or 80 kPa initial pressure and colour. Evidence: https://www.pacificmarine.net/marine-deck/marine-fenders/pneumatic-fenders-yokohama-fenders.htm"
+}

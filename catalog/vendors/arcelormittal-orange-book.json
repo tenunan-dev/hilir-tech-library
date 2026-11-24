@@ -1,0 +1,24 @@
+{
+  "id": "arcelormittal-orange-book",
+  "name": "ArcelorMittal Orange Book",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "ArcelorMittal Orange Book is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+      "source_id": "americansteelandaluminum-com-materials-a992-steel"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

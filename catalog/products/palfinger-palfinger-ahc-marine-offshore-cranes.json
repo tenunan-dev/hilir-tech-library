@@ -1,0 +1,61 @@
+{
+  "id": "palfinger-palfinger-ahc-marine-offshore-cranes",
+  "name": "PALFINGER AHC marine/offshore cranes",
+  "manufacturer": "palfinger",
+  "product_type": "near-civil",
+  "equipment": [
+    "near-deck-cranes-davits-and-lifting-appliances"
+  ],
+  "description": "Vendor product line read 2026-11-24. Designed to DNV-ST-0378; AOPS/MOPS overload protection.",
+  "specifications": [
+    {
+      "metric": "hoisting capacity",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+        "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+      },
+      "value": "up to 250"
+    },
+    {
+      "metric": "jib radius",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+        "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+      },
+      "value": "up to 50"
+    },
+    {
+      "metric": "wire capacity",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+        "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "winterization",
+      "unit": "°C",
+      "basis": "",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+        "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+      },
+      "value": -50
+    }
+  ],
+  "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+  "sources": [
+    {
+      "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+      "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+    }
+  ],
+  "notes": "Designed to DNV-ST-0378; AOPS/MOPS overload protection.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-fisheries-noaa-gov-cvowc-pdmp-loa-508-opr1-pdf",
+  "name": "U.S. Department of Commerce, NOAA Fisheries (project document from CVOW Commercial Project)",
+  "url": "https://www.fisheries.noaa.gov/s3/2024-05/CVOWC-PDMP-LOA-508-OPR1.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "U.S. Department of Commerce, NOAA Fisheries (project document from CVOW Commercial Project)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Pre-piling conceptual process diagram, pin-pile stabbing through seabed template, vibratory hammer arrangements for monopile/pin piles, hydro-hammer placement in vessel gripper, and hydraulic impact hammer with monopile and pin-pile anvils. Evidence: https://www.fisheries.noaa.gov/s3/2024-05/CVOWC-PDMP-LOA-508-OPR1.pdf"
+}

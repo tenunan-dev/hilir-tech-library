@@ -1,0 +1,66 @@
+{
+  "id": "near-wind-turbine-jacket-foundations-and-suction-bucket-jackets",
+  "name": "Wind-turbine jacket foundations and suction-bucket jackets",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Four-legged lattice substructure for offshore wind; pin piles or suction buckets transfer loads to seabed.",
+  "specifications": [
+    {
+      "metric": "Changhua jacket height / weight / steel",
+      "unit": "m / t / t",
+      "basis": "TPC Changhua Phase 1 demonstration, fabricated by Samkang, South Korea",
+      "source": {
+        "url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
+        "source_id": "jandenul-com-news-jan-de-nul-nears-completion-fabrication-foundati"
+      },
+      "value": "60 m / >1,100 t each / >23,000 t total for 21 jackets"
+    },
+    {
+      "metric": "transition piece maximum diameter / height",
+      "unit": "m / m",
+      "basis": "Changhua jackets for 5.2 MW turbines",
+      "source": {
+        "url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
+        "source_id": "jandenul-com-news-jan-de-nul-nears-completion-fabrication-foundati"
+      },
+      "value": "5.40 m / 7 m"
+    },
+    {
+      "metric": "Aberdeen Bay suction bucket jackets",
+      "unit": "count",
+      "basis": "Boskalis scope: design/fabrication of jacket foundations, UXO survey/removal, installation of 11 suction bucket jackets, scour protection, 66 kV cables",
+      "source": {
+        "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+        "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+      },
+      "value": 11
+    }
+  ],
+  "vendors": [
+    "samkang-south-korea",
+    "edgen-murray-yard-manager-ming-rong-yuan-taiwan-fabricator",
+    "boskalis"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
+      "source_id": "jandenul-com-news-jan-de-nul-nears-completion-fabrication-foundati"
+    },
+    {
+      "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+      "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Four-legged lattice substructure for offshore wind; pin piles or suction buckets transfer loads to seabed."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

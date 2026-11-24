@@ -1,0 +1,41 @@
+{
+  "id": "layher-layher-allround-scaffolding",
+  "name": "Layher Allround Scaffolding",
+  "manufacturer": "layher",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-scaffolding-module-rosette-systems-for-industrial-access"
+  ],
+  "description": "Vendor product line read 2026-11-24. Page read",
+  "specifications": [
+    {
+      "metric": "Connections per rosette",
+      "unit": "count",
+      "basis": "",
+      "source": {
+        "url": "https://www.layher.com/en/products/allroundscaffolding",
+        "source_id": "layher-com-products-allroundscaffolding"
+      },
+      "value": 8
+    },
+    {
+      "metric": "Approvals",
+      "unit": "standard",
+      "basis": "",
+      "source": {
+        "url": "https://www.layher.com/en/products/allroundscaffolding",
+        "source_id": "layher-com-products-allroundscaffolding"
+      },
+      "value": "Z-8.22-64 / Z-8.22-939 / EN 12811"
+    }
+  ],
+  "url": "https://www.layher.com/en/products/allroundscaffolding",
+  "sources": [
+    {
+      "url": "https://www.layher.com/en/products/allroundscaffolding",
+      "source_id": "layher-com-products-allroundscaffolding"
+    }
+  ],
+  "notes": "Page read",
+  "last_reviewed": "2026-11-24"
+}

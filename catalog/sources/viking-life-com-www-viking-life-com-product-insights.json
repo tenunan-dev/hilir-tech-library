@@ -1,0 +1,29 @@
+{
+  "id": "viking-life-com-www-viking-life-com-product-insights",
+  "name": "VIKING Life-Saving — VIKING Norsafe free-fall approved drop height",
+  "url": "https://www.viking-life.com/product-insights",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "VIKING Life-Saving",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. VIKING product insights: 'world record free-fall performance of up to 50 m approved drop height' Evidence: https://www.viking-life.com/product-insights"
+}

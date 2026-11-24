@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-fhwa-dot-gov-06032-pdf",
+  "name": "U.S. Department of Transportation, Federal Highway Administration (FHWA), FHWA-RD-06-032",
+  "url": "https://www.fhwa.dot.gov/publications/research/infrastructure/bridge/06032/06032.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "U.S. Department of Transportation, Federal Highway Administration (FHWA), FHWA-RD-06-032",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Detailed sections through seismic isolation bearings (lead-filled elastomeric, friction pendulum, Eradiquake) and a flowchart of the seismic retrofit process; applicable as a citable isolation-detail analogue for marine/civil structures. Evidence: https://www.fhwa.dot.gov/publications/research/infrastructure/bridge/06032/06032.pdf"
+}

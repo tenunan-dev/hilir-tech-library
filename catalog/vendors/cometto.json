@@ -1,0 +1,24 @@
+{
+  "id": "cometto",
+  "name": "Cometto",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Cometto is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+      "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

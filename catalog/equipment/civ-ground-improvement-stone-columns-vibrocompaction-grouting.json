@@ -1,0 +1,45 @@
+{
+  "id": "civ-ground-improvement-stone-columns-vibrocompaction-grouting",
+  "name": "Ground improvement — stone columns, vibrocompaction, grouting",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Densify loose granular soils, reinforce soft cohesive soils, accelerate consolidation and mitigate liquefaction before placing foundations; includes vibro-replacement stone columns, vibro-compaction, dynamic compaction and permeation/compaction/jet grouting.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Densify loose granular soils, reinforce soft cohesive soils, accelerate consolidation and mitigate liquefaction before placing foundations; includes vibro-replacement stone columns, vibro-compaction, dynamic compaction and permeation/compac",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "menard",
+    "bauer-spezialtiefbau-gmbh"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "APAC ground-improvement contractor names and completed projects",
+      "why": "Only one Indian case paper captured; no Malaysia/Singapore contractor page read",
+      "next_action": "Search and fetch APAC specialist contractor project pages"
+    }
+  ],
+  "applications": [
+    "Densify loose granular soils, reinforce soft cohesive soils, accelerate consolidation and mitigate liquefaction before placing foundations; includes vibro-repla"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "naue-gmbh-co-kg-naue-secutex-soft-rock-sand-container",
+  "name": "NAUE Secutex Soft Rock Sand Container",
+  "manufacturer": "naue-gmbh-co-kg",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Used at Amrumbank West; can be placed before piling.",
+  "specifications": [
+    {
+      "metric": "material",
+      "unit": "n/a",
+      "basis": "",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": "needle-punched nonwoven geotextile filled with sand"
+    }
+  ],
+  "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+  "sources": [
+    {
+      "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+      "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+    }
+  ],
+  "notes": "Used at Amrumbank West; can be placed before piling.",
+  "last_reviewed": "2026-11-24"
+}

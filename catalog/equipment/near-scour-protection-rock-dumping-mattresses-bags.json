@@ -1,0 +1,94 @@
+{
+  "id": "near-scour-protection-rock-dumping-mattresses-bags",
+  "name": "Scour protection",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Prevent seabed erosion around monopiles/jackets and over cables; filter layer plus armour layer, or flexible mattresses / sand containers.",
+  "specifications": [
+    {
+      "metric": "West of Duddon Sands armour rock grading",
+      "unit": "in / cm",
+      "basis": "108 turbines; filter layer at 108 locations before monopile installation; side-dump armour placement after installation",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": "8-18 inch (20-45 cm)"
+    },
+    {
+      "metric": "Meerwind armour rock mass",
+      "unit": "kg",
+      "basis": "80 monopile locations; pre-installation 1-5 inch filter material",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": "100-700"
+    },
+    {
+      "metric": "Anholt filter / armour grading",
+      "unit": "in",
+      "basis": "42 WTG foundations",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": "1-4 inch filter + 2-8 inch armour"
+    },
+    {
+      "metric": "Ridgeway filter bag design life",
+      "unit": "years",
+      "basis": "polyester filter bag, 61% recycled bottles, filled with stones; produced by Sumisho Kyowa, used at EDF Teesside",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": 50
+    },
+    {
+      "metric": "ContiTech mat thickness / diameter",
+      "unit": "mm / m",
+      "basis": "conveyor-belt type mat tested at Deltares under simulated extreme storms and streams",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": "12-15 mm / up to 52 m"
+    },
+    {
+      "metric": "NAUE Secutex Soft Rock",
+      "unit": "n/a",
+      "basis": "offshorewind.biz scour protection article",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": "needle-punched nonwoven geotextile sand container; used at Amrumbank West"
+    }
+  ],
+  "vendors": [
+    "boskalis",
+    "naue-gmbh-co-kg",
+    "ridgeway-marine",
+    "contitech-continental-group",
+    "van-oord-deme-jan-de-nul"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+      "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Prevent seabed erosion around monopiles/jackets and over cables; filter layer plus armour layer, or flexible mattresses / sand containers."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

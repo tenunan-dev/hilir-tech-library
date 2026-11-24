@@ -1,0 +1,42 @@
+{
+  "id": "technip-energies-supplied-by-flowtork-technologies-corporation-philippines-f",
+  "name": "Flowtork/Technip Energies refining & petrochemical loading arm range",
+  "manufacturer": "trelleborg-marine-infrastructure",
+  "product_type": "jetty-civil",
+  "equipment": [
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems"
+  ],
+  "description": "Vendor product line read 2026-11-24. LNG 6-20 in; ATOL 20 in full bore; heat tracing/insulation/EasyDrive/automatic connection options.",
+  "specifications": [
+    {
+      "metric": "diameter",
+      "unit": "inches",
+      "basis": "",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms",
+        "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
+      },
+      "low": 6,
+      "high": 24
+    },
+    {
+      "metric": "design pressure",
+      "unit": "bar (up to)",
+      "basis": "",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms",
+        "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
+      },
+      "value": 50
+    }
+  ],
+  "url": "https://flowtork.com/marine-loading-arms",
+  "sources": [
+    {
+      "url": "https://flowtork.com/marine-loading-arms",
+      "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
+    }
+  ],
+  "notes": "LNG 6-20 in; ATOL 20 in full bore; heat tracing/insulation/EasyDrive/automatic connection options.",
+  "last_reviewed": "2026-11-24"
+}

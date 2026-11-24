@@ -1,0 +1,29 @@
+{
+  "id": "bridgestone-com-pdf-leaflet-en-202210-pdf",
+  "name": "Bridgestone — Tohoku University seismic isolation test buildings",
+  "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/pdf/leaflet_en_202210.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Bridgestone",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Two test buildings at Aobayama, Sendai, built jointly by university and Shimizu Corporation in 1986: one base-isolated, one fixed-base with same superstructure Evidence: https://www.bridgestone.com/products/diversified/antiseismic_rubber/pdf/leaflet_en_202210.pdf"
+}

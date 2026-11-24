@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-dnv-sesam-fixed-offshore-wind-structure-design-jacket-topside-transpor",
+  "title": "DNV Sesam — Fixed offshore wind structure design (jacket, topside, transport and lift figures)",
+  "diagram_type": "schematic",
+  "description": "3D model views and analysis diagrams for jacket legs/joints, shell transition pieces, hotspot fatigue, seismic effects, concrete gravity-base structures, corrosion potentials, transportation sea-fastening, topside lifting and substation/OSS arrangement. | Figures: Figure 3.1 — The leg is modelled as a beam concept; Figure 3.2 — A joint modelled with shell elements within a beam model; Figure 3.3 — Shell transition piece connected to the jacket and tower; Figure 3.7 — A jacket including wave and soil environment in GeniE; Figure 4.4 — Hotspots around a tubular cross-section are used in the fatigue analysis; Figure 4.6 — Seismic time histories can be included as prescribed accelerations",
+  "publisher": "DNV (Sesam whitepaper: Fixed Offshore Wind Structure Design)",
+  "url": "https://dnv.jp/siteassets/images/pdf-documents/sesam-wind---fixed-offshore-wind-structure-design---whitepaper---pdf.pdf",
+  "licence": "© DNV; vendor whitepaper. Record as a citation/pointer; request permission before reusing images.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://dnv.jp/siteassets/images/pdf-documents/sesam-wind---fixed-offshore-wind-structure-design---whitepaper---pdf.pdf",
+      "source_id": "drawing-src-dnv-jp-sesam-wind-fixed-offshore-wind-structure-design-white"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

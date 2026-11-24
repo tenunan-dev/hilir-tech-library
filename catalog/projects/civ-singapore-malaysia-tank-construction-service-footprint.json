@@ -1,0 +1,25 @@
+{
+  "id": "civ-singapore-malaysia-tank-construction-service-footprint",
+  "name": "Singapore/Malaysia tank construction service footprint",
+  "country": "Singapore, Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "L-Vision Engineering delivers API 650 construction, fabrication and field erection for storage terminals and process plants in Singapore, Malaysia and Southeast Asia (page actually read).",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.l-vision.com/services/cid/6449/sid/55671/api-650-tank-construction-erection-in-singapore-malaysia-equipment-design-and-fabrication",
+      "source_id": "l-vision-com-55671-api-650-tank-construction-erection-in-singapore"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

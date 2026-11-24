@@ -1,0 +1,29 @@
+{
+  "id": "liebherr-com-offshore-cranes-liebherr-offshore-cranes-product-rang",
+  "name": "Liebherr",
+  "url": "https://www.liebherr.com/shared/media/maritime-cranes/downloads-and-brochures/brochures/offshore-cranes/liebherr-offshore-cranes-product-range_en.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Liebherr",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep.  Evidence: https://www.liebherr.com/shared/media/maritime-cranes/downloads-and-brochures/brochures/offshore-cranes/liebherr-offshore-cranes-product-range_en.pdf"
+}

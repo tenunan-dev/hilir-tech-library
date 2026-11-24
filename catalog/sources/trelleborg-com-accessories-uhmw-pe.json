@@ -1,0 +1,29 @@
+{
+  "id": "trelleborg-com-accessories-uhmw-pe",
+  "name": "Trelleborg Marine & Infrastructure",
+  "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/marine-fenders/accessories/uhmw-pe",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Trelleborg",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. FQ1000, FQ1000-DS, FQ1000-V. Evidence: https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/marine-fenders/accessories/uhmw-pe"
+}

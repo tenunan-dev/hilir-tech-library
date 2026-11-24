@@ -1,0 +1,25 @@
+{
+  "id": "civ-refinery-power-plant-data-centre-cable-tray-applications",
+  "name": "Refinery / power plant / data centre cable tray applications",
+  "country": "India",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "IES perforated trays used in power distribution panel rooms, data centres, refineries, hospitals, railway/metro and offshore installations",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://indiaelectricals.net/products/perforated-cable-tray/",
+      "source_id": "indiaelectricals-net-perforated-cable-tray"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

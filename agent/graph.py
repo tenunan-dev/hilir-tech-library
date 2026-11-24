@@ -18,6 +18,7 @@ import equipment
 import projects
 import products
 import drawings
+import materials
 
 ROOT = library.ROOT
 GENERIC_NAMES = {"operators", "operator", "various", "research", "major drilling contractors", "service companies",
@@ -160,6 +161,15 @@ def build_graph(root=None, corpus=None):
         for t in rec.get("technologies", []):
             if t in card_nodes:
                 g.edge(card_nodes[t], f"equipment:{rec['id']}", "uses_equipment")
+
+    # Engineering materials attach to the equipment classes and suppliers that use them.
+    for rec in materials.load_materials(root / "catalog" / "materials"):
+        mid = g.node(f"material:{rec['id']}", "material", rec["name"],
+                     category=rec.get("material_category"))
+        for eid in rec.get("equipment", []):
+            g.edge(mid, f"equipment:{eid}", "used_in")
+        for vid in rec.get("suppliers", []):
+            g.edge(mid, f"vendor:{vid}", "supplied_by")
 
     # Product catalog and process drawings: products attach to their vendor and the equipment
     # classes they supply; drawings attach to the equipment and technology cards they depict.

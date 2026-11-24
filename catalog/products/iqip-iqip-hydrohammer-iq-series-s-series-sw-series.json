@@ -1,0 +1,51 @@
+{
+  "id": "iqip-iqip-hydrohammer-iq-series-s-series-sw-series",
+  "name": "IQIP Hydrohammer IQ-series / S-series / SW-series",
+  "manufacturer": "iqip",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe"
+  ],
+  "description": "Vendor product line read 2026-11-24. >5.5 million piles installed; >97% availability stated.",
+  "specifications": [
+    {
+      "metric": "IQ8 blow energy",
+      "unit": "kJ",
+      "basis": "",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+        "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+      },
+      "value": ">7,500"
+    },
+    {
+      "metric": "total range",
+      "unit": "kJ",
+      "basis": "",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+        "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+      },
+      "value": "30 to >7,500"
+    },
+    {
+      "metric": "SW-series water depth",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+        "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+      },
+      "value": "up to 2,000"
+    }
+  ],
+  "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+  "sources": [
+    {
+      "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+      "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+    }
+  ],
+  "notes": ">5.5 million piles installed; >97% availability stated.",
+  "last_reviewed": "2026-11-24"
+}

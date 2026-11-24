@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-riezebos-et-al-scour-protection-design-in-highly-morphodynamic-environ",
+  "title": "Riezebos et al. — Scour protection design in highly morphodynamic environments (cross-section)",
+  "diagram_type": "schematic",
+  "description": "Scour mitigation strategies for a lowering seabed and a cross-section of a single-graded rock scour protection showing main dimensions (base extent, falling apron, layer thickness) around a monopile. | Figures: Figure 1 — Scour mitigation strategies illustrated for a lowering seabed: 1) no protection with free scour development, 2) immediate protection, 3) monitor and react; Figure 3 — Cross-section of the scour protection concept and main dimensions",
+  "publisher": "Deltares / wpd offshore solutions (HR Wallingford eprints host)",
+  "url": "https://eprints.hrwallingford.com/id/eprint/1126/1/PA_6_39-Riezebos-H.pdf",
+  "licence": "Conference paper; check author/publisher reuse terms. Figure titles recorded only.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://eprints.hrwallingford.com/id/eprint/1126/1/PA_6_39-Riezebos-H.pdf",
+      "source_id": "drawing-src-eprints-hrwallingford-com-pa-6-39-riezebos-h-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. search_verified",
+  "last_reviewed": "2026-11-24"
+}

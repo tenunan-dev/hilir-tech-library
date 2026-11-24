@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-bs-6349-4-2014-fender-layouts-mooring-patterns-and-flexible-dolphins-s",
+  "title": "BS 6349-4:2014 — Fender layouts, mooring patterns and flexible dolphins (sample)",
+  "diagram_type": "schematic",
+  "description": "List of figures in the BSI sample showing fender layouts for continuous and island berths, flexible dolphins, mooring patterns, fender/hull impact geometry and design berthing velocity. | Figures: Figure 1 — Geometry of vessel with bulbous bow; Figure 2 — Hull and cope geometry at impact; Figure 3 — Fender layout on a continuous quay; Figure 4 — Fender layout for three island berth; Figure 5 — Fender layout for five island berth; Figure 10 — Flexible dolphins",
+  "publisher": "British Standards Institution (BSI)",
+  "url": "https://www.normsplash.com/Samples/BSI/194347938/BS-6349-4-2014-en.pdf",
+  "licence": "© BSI; 7-page sample/preview only. Figure numbers and titles recorded for citation; figures not reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.normsplash.com/Samples/BSI/194347938/BS-6349-4-2014-en.pdf",
+      "source_id": "drawing-src-normsplash-com-bs-6349-4-2014-en-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

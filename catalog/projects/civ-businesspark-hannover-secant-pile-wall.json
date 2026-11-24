@@ -1,0 +1,25 @@
+{
+  "id": "civ-businesspark-hannover-secant-pile-wall",
+  "name": "Businesspark Hannover secant pile wall",
+  "country": "Germany",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "Secant pile wall, diameter 880 mm, depth 16 m, double-head drilling method",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://geotechnical-solutions.bauer.de/en/piles",
+      "source_id": "geotechnical-solutions-bauer-de-en-piles"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

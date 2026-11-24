@@ -1,0 +1,25 @@
+{
+  "id": "civ-kinmen-bridge-hkzmb-transition-structure",
+  "name": "Kinmen Bridge / HKZMB transition structure",
+  "country": "Taiwan / Hong Kong",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "PERI VARIO VT20 girder wall formwork reference projects",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.perihk.com/en/dam/jcr:e01650b3-8c83-4870-b76d-7f835f87a0c4/peri-greater-china-product-handbook.pdf",
+      "source_id": "perihk-com-jcr-e01650b3-8c83-4870-b76d-7f835f87a0c4-peri-greater-c"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

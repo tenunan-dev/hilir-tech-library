@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-izw-baw-de-ivzmarcom-20wg-20211-pdf",
+  "name": "PIANC (International Association for Navigation Congresses), MarCom WG 211; copy hosted by Bundesanstalt für Wasserbau (",
+  "url": "https://izw.baw.de/publikationen/pianc/0/IVZMarCom%20WG%20211.pdf",
+  "source_type": "association",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "PIANC (International Association for Navigation Congresses), MarCom WG 211; copy hosted by Bundesans",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Figure titles in the verified BAW-hosted copy cover fender pitch/clearance, chain layouts, tension chains, bracket assemblies, anchors, facing connections and fender panel cross-sections; Tables 2-1 to 2-11 pair typical fender system sketch Evidence: https://izw.baw.de/publikationen/pianc/0/IVZMarCom%20WG%20211.pdf"
+}

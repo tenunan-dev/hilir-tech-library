@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-normsplash-com-bs-6349-4-2014-en-pdf",
+  "name": "British Standards Institution (BSI)",
+  "url": "https://www.normsplash.com/Samples/BSI/194347938/BS-6349-4-2014-en.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "British Standards Institution (BSI)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "List of figures in the BSI sample showing fender layouts for continuous and island berths, flexible dolphins, mooring patterns, fender/hull impact geometry and design berthing velocity. Evidence: https://www.normsplash.com/Samples/BSI/194347938/BS-6349-4-2014-en.pdf"
+}

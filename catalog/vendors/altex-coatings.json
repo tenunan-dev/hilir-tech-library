@@ -1,0 +1,24 @@
+{
+  "id": "altex-coatings",
+  "name": "Altex Coatings",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Altex Coatings is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
+      "source_id": "carboline-com-product-details-thermo-lag-3000-p"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

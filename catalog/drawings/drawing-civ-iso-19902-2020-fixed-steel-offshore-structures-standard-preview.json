@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-iso-19902-2020-fixed-steel-offshore-structures-standard-preview",
+  "title": "ISO 19902:2020 Fixed steel offshore structures standard (preview)",
+  "diagram_type": "schematic",
+  "description": "ISO standard for fixed steel offshore structures (jackets, towers, caissons, monotowers); the 15-page public preview exposes scope and revision information but not figure captions, so figures must be cited from the full standard.",
+  "publisher": "International Organization for Standardization (ISO), TC 67/SC 7",
+  "url": "https://cdn.standards.iteh.ai/samples/65688/ddf8c5d1ce3f4162afa60c6efd7d11be/ISO-19902-2020.pdf",
+  "licence": "© ISO; sample/preview only. Full standard is paywalled; no figures reproduced here.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://cdn.standards.iteh.ai/samples/65688/ddf8c5d1ce3f4162afa60c6efd7d11be/ISO-19902-2020.pdf",
+      "source_id": "drawing-src-cdn-standards-iteh-ai-iso-19902-2020-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

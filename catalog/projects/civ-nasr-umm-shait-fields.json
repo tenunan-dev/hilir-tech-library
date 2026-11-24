@@ -1,0 +1,25 @@
+{
+  "id": "civ-nasr-umm-shait-fields",
+  "name": "NASR / Umm Shait fields",
+  "country": "United Arab Emirates",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "3 jackets 2,270-3,070 t net weight; accommodation, separation and gas treatment platforms",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+      "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

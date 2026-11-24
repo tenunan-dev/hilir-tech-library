@@ -1,0 +1,40 @@
+{
+  "id": "near-structural-health-monitoring-shm-and-fatigue-management",
+  "name": "Structural health monitoring",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Instrument critical details with strain/acceleration/acoustic sensors to support fatigue assessment, early crack detection and operational decisions.",
+  "specifications": [
+    {
+      "metric": "fatigue design standard",
+      "unit": "n/a",
+      "basis": "DNV standards page",
+      "source": {
+        "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
+        "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"
+      },
+      "value": "DNV-RP-C203, Edition 2024-10, amended 2025-10"
+    }
+  ],
+  "vendors": [
+    "boskalis"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
+      "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Instrument critical details with strain/acceleration/acoustic sensors to support fatigue assessment, early crack detection and operational decisions."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

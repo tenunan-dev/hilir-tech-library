@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-api-rp-2a-wsd-21st-edition-tubular-joint-and-conical-transition-detail",
+  "title": "API RP 2A-WSD 21st edition — tubular joint and conical transition detail figures",
+  "diagram_type": "schematic",
+  "description": "Tubular joint classification and in-plane/out-of-plane detailing diagrams, simple tubular joint geometry terminology, and an example conical transition — core references for fixed offshore platform/jacket steel connections. | Figures: Figure 3.4.1-1 — Example Conical Transition; Figure 4.2-1 — Examples of Joint Classification; Figure 4.2-2 — In-Plane Joint Detailing; Figure 4.2-3 — Out-of-Plane Joint Detailing; Figure 4.3-1 — Terminology and Geometric Parameters, Simple Tubular Joints; Figure 4.3-2 — Examples of Chord Length, Lc",
+  "publisher": "American Petroleum Institute (API); copy hosted by icoffshore.com.vn",
+  "url": "https://icoffshore.com.vn/Uploads/files/Nghien_Cuu/TCQP/TCQT/5_API-RP-2A-WSD%20(21st%202007).pdf",
+  "licence": "© API; third-party hosted copy. Figure numbers/titles recorded for citation only; do not reproduce.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://icoffshore.com.vn/Uploads/files/Nghien_Cuu/TCQP/TCQT/5_API-RP-2A-WSD%20(21st%202007).pdf",
+      "source_id": "drawing-src-icoffshore-com-vn-5-api-rp-2a-wsd-20-21st-202007-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

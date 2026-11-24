@@ -1,0 +1,51 @@
+{
+  "id": "cometto-cometto-mspe-48t-60t-evo3-70t-spmt",
+  "name": "Cometto MSPE 48T / 60T / EVO3 70T SPMT",
+  "manufacturer": "cometto",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-heavy-transport-and-installation-spmt-jacking-skidding-crane"
+  ],
+  "description": "Vendor product line read 2026-11-24. Page read",
+  "specifications": [
+    {
+      "metric": "Axle load max",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+        "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
+      },
+      "value": 70
+    },
+    {
+      "metric": "Steering",
+      "unit": "deg",
+      "basis": "",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+        "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
+      },
+      "value": "±135"
+    },
+    {
+      "metric": "Bending moment",
+      "unit": "kNm",
+      "basis": "",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+        "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
+      },
+      "value": "7250 / 9400"
+    }
+  ],
+  "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+  "sources": [
+    {
+      "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+      "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
+    }
+  ],
+  "notes": "Page read",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-nationaloffshorewind-org-154719-final-report-pdf",
+  "name": "National Offshore Wind Research and Development Consortium (NOWRDC); Tufts University / URI / NREL / NGI",
+  "url": "https://nationaloffshorewind.org/wp-content/uploads/154719_Final-Report.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "National Offshore Wind Research and Development Consortium (NOWRDC); Tufts University / URI / NREL /",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Project and organisational diagrams for offshore wind structural health monitoring and optimal sensor placement research on jacket- and monopile-supported structures at Block Island Wind Farm. Evidence: https://nationaloffshorewind.org/wp-content/uploads/154719_Final-Report.pdf"
+}

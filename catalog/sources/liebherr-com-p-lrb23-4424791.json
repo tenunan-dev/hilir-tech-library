@@ -1,0 +1,29 @@
+{
+  "id": "liebherr-com-p-lrb23-4424791",
+  "name": "Liebherr (Deep Foundation)",
+  "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Liebherr",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Page read for LRB 23 Evidence: https://www.liebherr.com/en-us/p/lrb23-4424791"
+}

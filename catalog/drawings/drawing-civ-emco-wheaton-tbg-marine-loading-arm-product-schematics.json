@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-emco-wheaton-tbg-marine-loading-arm-product-schematics",
+  "title": "EMCO Wheaton / TBG — Marine loading arm product schematics",
+  "diagram_type": "schematic",
+  "description": "Manufacturer brochure showing basic structure of marine loading arms: base riser, inboard/outboard arms, swivel joints (types 40/50/80), counterweight, tanker manifold and quick-connect coupler.",
+  "publisher": "TBG Tech / EMCO Wheaton (manufacturer)",
+  "url": "https://tbgtech.co.jp/wp-content/uploads/2021/03/01_MarineLoadingArms_E.pdf",
+  "licence": "Manufacturer marketing literature; check terms before reuse. PDF downloaded and read; figure captions not present in extracted text.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://tbgtech.co.jp/wp-content/uploads/2021/03/01_MarineLoadingArms_E.pdf",
+      "source_id": "drawing-src-tbgtech-co-jp-01-marineloadingarms-e-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

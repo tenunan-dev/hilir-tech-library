@@ -1,0 +1,60 @@
+{
+  "id": "mat-near-sacrificial-anode-cathodic-protection-sacp",
+  "name": "Sacrificial anode cathodic protection",
+  "material_category": "corrosion-control",
+  "description": "Galvanic anodes (aluminium/zinc alloys) provide CP without external power for jackets, monopiles, jetty piles and smaller structures.",
+  "specifications": [
+    {
+      "metric": "protection criterion",
+      "unit": "mV",
+      "basis": "CCME-MCPS ICCP/SACP page (both engineered to same criterion); external presentation gives carbon steel immersed in seawater -0.80 to -1.10 V vs Ag/AgCl",
+      "source": {
+        "url": "https://www.ccme-mcps.com/services/impressed-current-cathodic-protection",
+        "source_id": "ccme-mcps-com-services-impressed-current-cathodic-protection"
+      },
+      "value": "-850 mV or more negative vs Ag/AgCl"
+    },
+    {
+      "metric": "DNV Type Approved anode emergency supply case",
+      "unit": "count / hours",
+      "basis": "NOVA 1 emergency SACP retrofit project described by CCME-MCPS",
+      "source": {
+        "url": "https://www.ccme-mcps.com/services/impressed-current-cathodic-protection",
+        "source_id": "ccme-mcps-com-services-impressed-current-cathodic-protection"
+      },
+      "value": "~250 weld-on anodes cast/delivered within 24 hours"
+    },
+    {
+      "metric": "design standards for CP",
+      "unit": "n/a",
+      "basis": "CCME-MCPS standards table",
+      "source": {
+        "url": "https://www.ccme-mcps.com/services/impressed-current-cathodic-protection",
+        "source_id": "ccme-mcps-com-services-impressed-current-cathodic-protection"
+      },
+      "value": "DNV-RP-B401, DNV-RP-F103, ISO 15589-2, NORSOK M-503, NACE SP0387, NACE SP0492"
+    }
+  ],
+  "applications": [
+    "Galvanic anodes (aluminium/zinc alloys) provide CP without external power for jackets, monopiles, jetty piles and smaller structures."
+  ],
+  "standards": [],
+  "equipment": [
+    "near-fixed-steel-jacket-oil-gas",
+    "near-topsides-decks-and-module-support-frames",
+    "near-legs-pile-foundations-conductors-and-risers",
+    "near-bridges-helidecks-and-accommodation-modules"
+  ],
+  "suppliers": [
+    "ccme-mcps-llc"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ccme-mcps.com/services/impressed-current-cathodic-protection",
+      "source_id": "ccme-mcps-com-services-impressed-current-cathodic-protection"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

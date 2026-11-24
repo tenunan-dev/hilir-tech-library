@@ -1,0 +1,25 @@
+{
+  "id": "civ-northern-lights",
+  "name": "Northern Lights",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "world's first cross-border CO2 transport and storage; first CO2 injected August 2025",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com/energy/northern-lights",
+      "source_id": "equinor-com-energy-northern-lights"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

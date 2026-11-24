@@ -1,0 +1,50 @@
+{
+  "id": "civ-formwork-and-shuttering-wall-column-slab-circular",
+  "name": "Formwork and shuttering",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Temporary moulds that contain fresh concrete until it hardens; system formwork must resist fresh concrete pressure and meet surface finish tolerances (DIN 18202 / EN 13670 etc.).",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Temporary moulds that contain fresh concrete until it hardens; system formwork must resist fresh concrete pressure and meet surface finish tolerances (DIN 18202 / EN 13670 etc.).",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "peri-gmbh",
+    "doka"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Doka and MEVA formwork product specifications",
+      "why": "No Doka/MEVA page fetched",
+      "next_action": "Fetch Doka/MEVA product data sheets"
+    },
+    {
+      "what": "Slipform and precast/IBS system specifications for industrial structures",
+      "why": "No slipform/IBS page was found or read",
+      "next_action": "Search and fetch slipform/IBS system provider pages"
+    }
+  ],
+  "applications": [
+    "Temporary moulds that contain fresh concrete until it hardens; system formwork must resist fresh concrete pressure and meet surface finish tolerances (DIN 18202"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

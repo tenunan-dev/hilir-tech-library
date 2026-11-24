@@ -1,0 +1,41 @@
+{
+  "id": "sika-sika-viscocrete-1000-sikaplast-210-vx-sika-air",
+  "name": "Sika ViscoCrete-1000 / SikaPlast-210 VX / Sika AIR",
+  "manufacturer": "sika",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Page read for Sika AIR",
+  "specifications": [
+    {
+      "metric": "ViscoCrete-1000 water reduction",
+      "unit": "% max",
+      "basis": "",
+      "source": {
+        "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
+        "source_id": "usa-sika-com-air-entrainers-sika-air-html"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Sika AIR dosage",
+      "unit": "mL/100 kg",
+      "basis": "",
+      "source": {
+        "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
+        "source_id": "usa-sika-com-air-entrainers-sika-air-html"
+      },
+      "value": "7–400"
+    }
+  ],
+  "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
+  "sources": [
+    {
+      "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
+      "source_id": "usa-sika-com-air-entrainers-sika-air-html"
+    }
+  ],
+  "notes": "Page read for Sika AIR",
+  "last_reviewed": "2026-11-24"
+}

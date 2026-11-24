@@ -1,0 +1,25 @@
+{
+  "id": "civ-flng-facility-malaysia-largest-css3000-cell-fenders",
+  "name": "FLNG facility, Malaysia — largest CSS3000 cell fenders",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "ShibataFenderTeam designed/manufactured 4 x CSS3000 (G3.1) cell fender systems for a new berth built under Samsung Heavy Industries and JGC leadership with China Communications Construction (search snippet only; full article not fetched).",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://maritimejournal.com/mj-directory/shibatafenderteam/shibatafenderteam-supplies-largest-cell-fenders-css3000-to-flng-facility-in-malaysia/1505141.supplierarticle",
+      "source_id": "maritimejournal-com-shibatafenderteam-supplies-largest-cell-fender"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

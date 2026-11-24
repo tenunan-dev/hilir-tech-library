@@ -1,0 +1,40 @@
+{
+  "id": "mat-jetty-geotextile-filter-fabric-and-rock-armour-scour-coastal-prote",
+  "name": "Geotextile filter fabric and rock armour",
+  "material_category": "geosynthetic-civil",
+  "description": "Filter and separation layer between seabed/fine-grained soil and rock armour or precast concrete units at breakwaters, quay walls, groynes and scour protection; prevents soil migration while allowing water flow.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Filter and separation layer between seabed/fine-grained soil and rock armour or precast concrete units at breakwaters, quay walls, groynes and scour protection; prevents soil migration while allowing water flow.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Filter and separation layer between seabed/fine-grained soil and rock armour or precast concrete units at breakwaters, quay walls, groynes and scour protection;"
+  ],
+  "standards": [],
+  "equipment": [
+    "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "jetty-mooring-quick-release-hooks-qrh-bollards-and-load-monitoring",
+    "jetty-motion-compensated-access-gangways-boarding-bridges"
+  ],
+  "suppliers": [
+    "naue-gmbh-co-kg",
+    "geofabrics-limited",
+    "terram"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

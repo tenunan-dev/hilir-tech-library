@@ -1,0 +1,29 @@
+{
+  "id": "trelleborg-com-docking-and-mooring-quick-release-hooks",
+  "name": "Trelleborg — Trelleborg QRH installed base and service dates",
+  "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/docking-and-mooring/quick-release-hooks",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Trelleborg",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Trelleborg QRH product page (installed since 1972) and company brochure search snippets ('installed in over 600 mooring facilities worldwide'; hawser hooks 'ins Evidence: https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/docking-and-mooring/quick-release-hooks"
+}

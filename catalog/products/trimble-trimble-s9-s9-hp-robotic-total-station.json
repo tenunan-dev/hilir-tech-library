@@ -1,0 +1,41 @@
+{
+  "id": "trimble-trimble-s9-s9-hp-robotic-total-station",
+  "name": "Trimble S9 / S9 HP robotic total station",
+  "manufacturer": "trimble",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Page read",
+  "specifications": [
+    {
+      "metric": "EDM accuracy",
+      "unit": "mm+ppm",
+      "basis": "",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
+        "source_id": "geospatial-trimble-com-hardware-trimble-s9"
+      },
+      "value": "1.0 mm + 2 ppm prism / 2.0 mm + 2 ppm DR"
+    },
+    {
+      "metric": "Max range",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
+        "source_id": "geospatial-trimble-com-hardware-trimble-s9"
+      },
+      "value": 5500
+    }
+  ],
+  "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
+  "sources": [
+    {
+      "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
+      "source_id": "geospatial-trimble-com-hardware-trimble-s9"
+    }
+  ],
+  "notes": "Page read",
+  "last_reviewed": "2026-11-24"
+}

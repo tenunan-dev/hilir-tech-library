@@ -1,0 +1,112 @@
+{
+  "id": "near-monopile-foundations-offshore-wind-nearshore",
+  "name": "Monopile foundations",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Single large-diameter tubular driven into seabed carrying wind-turbine or platform loads; commonly used with transition piece or TP-less design.",
+  "specifications": [
+    {
+      "metric": "monopile length",
+      "unit": "m",
+      "basis": "Sif 'up to 120 metres'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles",
+        "source_id": "sif-group-com-products-services-monopiles"
+      },
+      "high": 120
+    },
+    {
+      "metric": "monopile diameter",
+      "unit": "m",
+      "basis": "Sif metric tile",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles",
+        "source_id": "sif-group-com-products-services-monopiles"
+      },
+      "high": 11
+    },
+    {
+      "metric": "maximum wall thickness",
+      "unit": "mm",
+      "basis": "Sif metric tile",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles",
+        "source_id": "sif-group-com-products-services-monopiles"
+      },
+      "value": 160
+    },
+    {
+      "metric": "maximum monopile weight",
+      "unit": "tonnes",
+      "basis": "Sif page states 'weigh a maximum of 2,000 tonnes each' in prose and '>2500 tonnes' in metric tile",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles",
+        "source_id": "sif-group-com-products-services-monopiles"
+      },
+      "low": 2000,
+      "high": 2500
+    },
+    {
+      "metric": "monopile weight range (fabricator)",
+      "unit": "tonnes",
+      "basis": "CS WIND Offshore monopile page",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles",
+        "source_id": "cswoffshore-com-solutions-monopiles"
+      },
+      "low": 1000,
+      "high": 3500
+    },
+    {
+      "metric": "foundations fabricated since 2002",
+      "unit": "count",
+      "basis": "CS WIND Offshore",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles",
+        "source_id": "cswoffshore-com-solutions-monopiles"
+      },
+      "value": ">3100"
+    },
+    {
+      "metric": "Veja Mate monopile weight / height and water depth",
+      "unit": "t / m / m",
+      "basis": "Boskalis Veja Mate EPCI project, German North Sea",
+      "source": {
+        "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+        "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+      },
+      "value": "1,230-1,302 t; 85 m tall; water depth 39-41 m"
+    }
+  ],
+  "vendors": [
+    "sif-group",
+    "cs-wind-offshore",
+    "eew-group"
+  ],
+  "sources": [
+    {
+      "url": "https://sif-group.com/products-services/monopiles",
+      "source_id": "sif-group-com-products-services-monopiles"
+    },
+    {
+      "url": "https://www.cswoffshore.com/solutions/monopiles",
+      "source_id": "cswoffshore-com-solutions-monopiles"
+    },
+    {
+      "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+      "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Single large-diameter tubular driven into seabed carrying wind-turbine or platform loads; commonly used with transition piece or TP-less design."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

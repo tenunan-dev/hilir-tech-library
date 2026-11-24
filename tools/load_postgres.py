@@ -29,6 +29,7 @@ import equipment  # noqa: E402
 import projects  # noqa: E402
 import products  # noqa: E402
 import drawings  # noqa: E402
+import materials  # noqa: E402
 import pg  # noqa: E402
 import technologies  # noqa: E402
 import vendors  # noqa: E402
@@ -88,6 +89,7 @@ def collect(include_restricted=False):
     project_recs = projects.load_projects()
     product_recs = products.load_products()
     drawing_recs = drawings.load_drawings()
+    material_recs = materials.load_materials()
     docs, chunks = [], []
     for path in sorted(library.CORPUS.glob("*/*.md")):
         if path.parent.name.startswith("_"):
@@ -109,7 +111,7 @@ def collect(include_restricted=False):
                 chunks.append({"id": f"{rel}#{i}", "document_id": rel, "ord": i, "title": meta.get("title"), "body": text})
     return {"labels": labels, "records": records, "cards": cards, "entries": entries, "vendors": vendor_recs,
             "equipment": equipment_recs, "projects": project_recs, "products": product_recs,
-            "drawings": drawing_recs, "docs": docs, "chunks": chunks}
+            "drawings": drawing_recs, "materials": material_recs, "docs": docs, "chunks": chunks}
 
 
 def card_embed_text(card):
@@ -149,7 +151,7 @@ def load(conn, data, nodes, edges, vectors, df_terms=None):
     cur.execute("SET search_path = og, public")
     # TRUNCATE list kept in sync with the og schema (db/schema.sql); written as a
     # literal so no statement is ever assembled at runtime.
-    cur.execute("TRUNCATE edge, node, register_entry, technology_gap, technology_supplier, technology_figure, technology_source, technology_alias, technology, vendor, equipment, project, product, drawing, chunk, document, source_tag, search_concept, search_term, source RESTART IDENTITY CASCADE")
+    cur.execute("TRUNCATE edge, node, register_entry, technology_gap, technology_supplier, technology_figure, technology_source, technology_alias, technology, vendor, equipment, project, product, drawing, material, chunk, document, source_tag, search_concept, search_term, source RESTART IDENTITY CASCADE")
     # The query-side concept groups (SRCH_CONCEPT): both search paths expand a query through them,
     # so they load with the data rather than living only in the schema file.
     for concept, terms in sorted(library.search_concepts().items()):
@@ -240,6 +242,14 @@ def load(conn, data, nodes, edges, vectors, df_terms=None):
                      dr.get("regions", []), dr.get("equipment", []), dr.get("technologies", []),
                      json.dumps(dr.get("sources", [])), json.dumps(dr.get("gaps", [])), json.dumps(dr),
                      drawings.search_text(dr), vec_text(vec) if vec is not None else None))
+    for m in data["materials"]:
+        vec = vectors.get(("material", m["id"]))
+        cur.execute("INSERT INTO material (id, name, material_category, description, specifications, applications, standards, equipment, suppliers, sources, gaps, record, search_text, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
+                    (m["id"], m["name"], m["material_category"], m["description"],
+                     json.dumps(m.get("specifications", [])), m.get("applications", []),
+                     m.get("standards", []), m.get("equipment", []), m.get("suppliers", []),
+                     json.dumps(m.get("sources", [])), json.dumps(m.get("gaps", [])), json.dumps(m),
+                     materials.search_text(m), vec_text(vec) if vec is not None else None))
     for e in data["entries"]:
         cur.execute("INSERT INTO register_entry VALUES (%s,%s,%s,%s,%s,%s,%s)",
                     (graph.register_id(e).removeprefix("register:"), e["code"], e["area"], e["name"], e["maturity"], e["examples"], e["card"]))
@@ -270,6 +280,7 @@ def load(conn, data, nodes, edges, vectors, df_terms=None):
                         + (SELECT count(*) FROM project WHERE embedding IS NOT NULL)
                         + (SELECT count(*) FROM product WHERE embedding IS NOT NULL)
                         + (SELECT count(*) FROM drawing WHERE embedding IS NOT NULL)
+                        + (SELECT count(*) FROM material WHERE embedding IS NOT NULL)
                         + (SELECT count(*) FROM source WHERE embedding IS NOT NULL)
                         + (SELECT count(*) FROM chunk WHERE embedding IS NOT NULL)""")
     stored_vectors = cur.fetchone()[0]
@@ -277,7 +288,7 @@ def load(conn, data, nodes, edges, vectors, df_terms=None):
             "technologies": len(data["cards"]), "vendors": len(data["vendors"]), "register": len(data["entries"]),
             "equipment": len(data["equipment"]), "projects": len(data["projects"]),
             "products": len(data["products"]), "drawings": len(data["drawings"]),
-            "nodes": len(nodes), "edges": len(edges), "vectors": stored_vectors}
+            "materials": len(data["materials"]), "nodes": len(nodes), "edges": len(edges), "vectors": stored_vectors}
 
 
 def grant_readonly(dsn):

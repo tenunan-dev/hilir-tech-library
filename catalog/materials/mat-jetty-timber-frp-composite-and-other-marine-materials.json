@@ -1,0 +1,39 @@
+{
+  "id": "mat-jetty-timber-frp-composite-and-other-marine-materials",
+  "name": "Timber, FRP/composite and other marine materials",
+  "material_category": "structural-composite",
+  "description": "Traditional timber fender facing/rubbing strips and fibre-reinforced polymer components used where corrosion resistance and low maintenance are required.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Traditional timber fender facing/rubbing strips and fibre-reinforced polymer components used where corrosion resistance and low maintenance are required.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Traditional timber fender facing/rubbing strips and fibre-reinforced polymer components used where corrosion resistance and low maintenance are required."
+  ],
+  "standards": [],
+  "equipment": [
+    "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "jetty-mooring-quick-release-hooks-qrh-bollards-and-load-monitoring",
+    "jetty-motion-compensated-access-gangways-boarding-bridges"
+  ],
+  "suppliers": [
+    "l-vision-engineering-pte-ltd",
+    "shibatafenderteam"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

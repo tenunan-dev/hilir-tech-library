@@ -1,0 +1,61 @@
+{
+  "id": "near-lifeboats-liferafts-davits-and-evacuation-systems",
+  "name": "Lifeboats, liferafts, davits and evacuation systems",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "TEMPSC/free-fall lifeboats, rescue boats and launched liferafts for evacuation from fixed platforms, rigs and FPSOs.",
+  "specifications": [
+    {
+      "metric": "VIKING Norsafe free-fall approved drop height",
+      "unit": "m",
+      "basis": "VIKING product insights: 'world record free-fall performance of up to 50 m approved drop height'",
+      "source": {
+        "url": "https://www.viking-life.com/product-insights",
+        "source_id": "viking-life-com-www-viking-life-com-product-insights"
+      },
+      "value": 50
+    },
+    {
+      "metric": "VIKING offshore evacuation system height capability",
+      "unit": "m",
+      "basis": "VIKING offshore evacuation systems: chute- or slide-based, for heights up to 81 m",
+      "source": {
+        "url": "https://www.viking-life.com/product-insights",
+        "source_id": "viking-life-com-www-viking-life-com-product-insights"
+      },
+      "value": 81
+    },
+    {
+      "metric": "VIKING compact lifeboat capacities",
+      "unit": "persons",
+      "basis": "VNJY range of enclosed lifeboats",
+      "source": {
+        "url": "https://www.viking-life.com/product-insights",
+        "source_id": "viking-life-com-www-viking-life-com-product-insights"
+      },
+      "value": "40 / 52"
+    }
+  ],
+  "vendors": [
+    "viking-life-saving-equipment",
+    "survitec-group"
+  ],
+  "sources": [
+    {
+      "url": "https://www.viking-life.com/product-insights",
+      "source_id": "viking-life-com-www-viking-life-com-product-insights"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "TEMPSC/free-fall lifeboats, rescue boats and launched liferafts for evacuation from fixed platforms, rigs and FPSOs."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "civ-lumut-maritime-terminal-2-malaysia-37-t-head-bollards-at-80-t",
+  "name": "Lumut Maritime Terminal 2, Malaysia — 37 T-head bollards at 80 t",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "See LMT2 entry under fenders; bollards supplied in same package as 36 cone fender systems.",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
+      "source_id": "shibata-fender-team-news-detail-optimizing-the-fender-design-for-l"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

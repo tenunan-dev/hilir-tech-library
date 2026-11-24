@@ -1,0 +1,77 @@
+{
+  "id": "civ-seismic-design-base-isolation-dampers-structural-monitoring",
+  "name": "Seismic design — base isolation, dampers, structural monitoring",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Decouple structure from ground motion using laminated rubber/lead-rubber/friction-pendulum bearings and dissipate energy; monitored by robotic total stations, GNSS and geotechnical sensors.",
+  "specifications": [
+    {
+      "metric": "Bridgestone seismic isolation product line",
+      "unit": "product types",
+      "basis": "Bridgestone products page: HDR uses high damping rubber (spring + damping); LRB lead plug in laminated natural rubber (G0.40) with elasto-plastic hysteresis; NRB low damping about 2–3% with G0.30/G0.35/G0.40/G0.45; Elastic Sliding Bearing uses PTFE + stainless plate, used with NRB/LRB/HDR",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
+        "source_id": "bridgestone-com-antiseismic-rubber-product-html"
+      },
+      "value": "HDR / LRB / NRB / Elastic Sliding Bearing"
+    },
+    {
+      "metric": "Trimble S9 angular accuracy",
+      "unit": "arc-second",
+      "basis": "Trimble S9 product page: EDM accuracy 1.0 mm + 2 ppm prism / 2.0 mm + 2 ppm DR; max range 5500 m; DR PLUS; used for monitoring, rail, mining, tunneling",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
+        "source_id": "geospatial-trimble-com-hardware-trimble-s9"
+      },
+      "value": "0.5 or 1"
+    },
+    {
+      "metric": "Trimble S9 HP EDM accuracy",
+      "unit": "mm + ppm",
+      "basis": "Trimble comparison table: S9 HP max range 7000 m, angular accuracy 0.5 or 1 arc-second",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
+        "source_id": "geospatial-trimble-com-hardware-trimble-s9"
+      },
+      "value": "0.8 mm + 1 ppm prism / 3.0 mm + 2 ppm DR"
+    }
+  ],
+  "vendors": [
+    "bridgestone-corporation",
+    "dynamic-isolation-systems-dis",
+    "trimble-geospatial"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
+      "source_id": "bridgestone-com-antiseismic-rubber-product-html"
+    },
+    {
+      "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
+      "source_id": "geospatial-trimble-com-hardware-trimble-s9"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Fluid viscous damper and tuned mass damper manufacturer data",
+      "why": "No damper product page fetched",
+      "next_action": "Fetch Taylor Devices / Fyfe dampers datasheets"
+    },
+    {
+      "what": "Strain gauge / SHM sensor specifications (vibrating wire, fibre optic)",
+      "why": "Trimble total station/GNSS only; no strain gauge page read",
+      "next_action": "Fetch Geokon or Micron Optics sensor datasheets"
+    }
+  ],
+  "applications": [
+    "Decouple structure from ground motion using laminated rubber/lead-rubber/friction-pendulum bearings and dissipate energy; monitored by robotic total stations, G"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

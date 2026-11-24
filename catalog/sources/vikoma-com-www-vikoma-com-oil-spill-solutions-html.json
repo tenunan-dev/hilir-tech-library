@@ -1,0 +1,29 @@
+{
+  "id": "vikoma-com-www-vikoma-com-oil-spill-solutions-html",
+  "name": "Vikoma International Ltd",
+  "url": "https://www.vikoma.com/oil-spill-solutions.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Vikoma",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. ISO 9001:2015; dedicated 'Ports & Terminals' application page and 'Can I protect a jetty or pier from oil spill?' guidance. Evidence: https://www.vikoma.com/oil-spill-solutions.html"
+}

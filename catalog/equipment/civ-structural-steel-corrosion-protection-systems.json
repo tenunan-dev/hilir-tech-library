@@ -1,0 +1,47 @@
+{
+  "id": "civ-structural-steel-corrosion-protection-systems",
+  "name": "Structural steel corrosion protection systems",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Protect structural steel from atmospheric and process corrosion via barrier coatings, galvanizing, metallizing or weathering steel; often specified in a system with primer/intermediate/topcoat and DFT schedule.",
+  "specifications": [
+    {
+      "metric": "Weathering steel grades",
+      "unit": "grade",
+      "basis": "AISC steelwise: W-shapes with atmospheric corrosion resistance obtainable to A588 Gr 50 or A242 Gr 42/46/50",
+      "source": {
+        "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+        "source_id": "americansteelandaluminum-com-materials-a992-steel"
+      },
+      "value": "ASTM A588 Grade 50 / A242 Grade 42, 46, 50"
+    }
+  ],
+  "vendors": [
+    "carboline",
+    "jotun-hempel-ppg-sherwin-williams"
+  ],
+  "sources": [
+    {
+      "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+      "source_id": "americansteelandaluminum-com-materials-a992-steel"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named anti-corrosion coating systems with DFT schedules for carbon steel in C5-M / offshore environments",
+      "why": "No fetched coating-system datasheet with full DFT schedule",
+      "next_action": "Fetch ISO 12944 system datasheets from a protective coatings manufacturer"
+    }
+  ],
+  "applications": [
+    "Protect structural steel from atmospheric and process corrosion via barrier coatings, galvanizing, metallizing or weathering steel; often specified in a system "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

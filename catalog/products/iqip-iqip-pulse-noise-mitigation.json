@@ -1,0 +1,31 @@
+{
+  "id": "iqip-iqip-pulse-noise-mitigation",
+  "name": "IQIP PULSE noise mitigation",
+  "manufacturer": "iqip",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "n/a",
+      "basis": "",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+        "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+      },
+      "value": "extends hammer impact duration to reduce underwater noise, pile fatigue and operating costs"
+    }
+  ],
+  "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+  "sources": [
+    {
+      "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+      "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

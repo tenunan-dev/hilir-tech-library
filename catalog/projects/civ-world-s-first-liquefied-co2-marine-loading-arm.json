@@ -1,0 +1,25 @@
+{
+  "id": "civ-world-s-first-liquefied-co2-marine-loading-arm",
+  "name": "World's first liquefied CO2 marine loading arm",
+  "country": "France/global",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "Technip Energies states CO2Connect by T.EN is 'the world's first liquefied marine loading arm, designed to transfer CO2 from the point of capture to destination for utilization or storage'",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ten.com/en/markets/loading-systems",
+      "source_id": "ten-com-markets-loading-systems"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

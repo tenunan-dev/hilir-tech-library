@@ -1,0 +1,45 @@
+{
+  "id": "mat-civ-portland-and-specialty-cement",
+  "name": "Portland and specialty cement",
+  "material_category": "cement",
+  "description": "Binder in concrete, grout and mortar; specialty types provide sulfate resistance, low heat of hydration or early strength.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Binder in concrete, grout and mortar; specialty types provide sulfate resistance, low heat of hydration or early strength.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Binder in concrete, grout and mortar; specialty types provide sulfate resistance, low heat of hydration or early strength."
+  ],
+  "standards": [],
+  "equipment": [
+    "civ-shallow-raft-pad-foundations",
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "civ-micropiles"
+  ],
+  "suppliers": [
+    "sika",
+    "holcim-lafarge-ytl-tasek"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Cement type chemical/physical requirement tables (C3A, fineness, compressive strength)",
+      "why": "No cement standard or datasheet fetched",
+      "next_action": "Fetch a public cement manufacturer datasheet for Type II/V or CEM III"
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

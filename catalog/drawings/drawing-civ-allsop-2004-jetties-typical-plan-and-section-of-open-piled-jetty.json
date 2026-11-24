@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-allsop-2004-jetties-typical-plan-and-section-of-open-piled-jetty",
+  "title": "Allsop (2004) Jetties — Typical plan and section of open piled jetty",
+  "diagram_type": "schematic",
+  "description": "Typical plan and cross-section of an open piled jetty, marginal quay, rubble-mound causeway section, and construction views showing precast pilecaps that avoid complex shutters. | Figures: Figure 2.3 — Sri Racha Jetty, Thailand (mooring dolphins and detached breakwater); Figure 2.4 — Typical plan of open piled jetty; Figure 2.5 — Typical section of open piled jetty; Figure 2.8 — Typical rubble mound causeway section; Figure 2.9 — Typical marginal quay; Figure 8.3 — Sri Racha Jetty under construction; use of precast pilecaps allowed infill concrete without complicated shutters",
+  "publisher": "Allsop / HR Wallingford-related jetty design guidance (as hosted by Ancient Ports Antiques)",
+  "url": "https://ancientportsantiques.com/wp-content/uploads/Documents/ENGINEERING/Maritime/Jetties-Allsop2004.pdf",
+  "licence": "Third-party hosted copy of a technical guidance report; verify original publisher rights before reuse. Figure titles recorded only, not reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://ancientportsantiques.com/wp-content/uploads/Documents/ENGINEERING/Maritime/Jetties-Allsop2004.pdf",
+      "source_id": "drawing-src-ancientportsantiques-com-jetties-allsop2004-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

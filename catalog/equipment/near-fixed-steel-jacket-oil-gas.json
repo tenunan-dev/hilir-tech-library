@@ -1,0 +1,77 @@
+{
+  "id": "near-fixed-steel-jacket-oil-gas",
+  "name": "Fixed steel jacket",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Bottom-founded tubular space frame that transfers topsides, wind, wave, current and seismic loads into piled foundations; supports conductors and risers.",
+  "specifications": [
+    {
+      "metric": "8-legged jacket substructure net weight, Kebabangan (Malaysia)",
+      "unit": "metric tonnes",
+      "basis": "KBB substructure, engineering/procurement/fabrication/inspection/testing/pre-commissioning/loadout, Apr 2011-Sep 2012",
+      "source": {
+        "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+        "source_id": "vantrisenergy-com-engineering-construction-track-record"
+      },
+      "value": 13393
+    },
+    {
+      "metric": "jacket with piles and appurtenances, Tapis R (Malaysia)",
+      "unit": "metric tonnes",
+      "basis": "ExxonMobil EMEPMI, Mar 2012-Jul 2013 scope",
+      "source": {
+        "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+        "source_id": "vantrisenergy-com-engineering-construction-track-record"
+      },
+      "value": 5475
+    },
+    {
+      "metric": "6-legged jacket fabrication weight, Deen Dayal West (India)",
+      "unit": "metric tonnes",
+      "basis": "Larsen & Toubro / GSPC fabrication, loadout and seafastening Apr 2010-Jan 2011",
+      "source": {
+        "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+        "source_id": "vantrisenergy-com-engineering-construction-track-record"
+      },
+      "value": 4530
+    },
+    {
+      "metric": "NASR field jacket net installed weight",
+      "unit": "metric tonnes",
+      "basis": "2 topsides and 3 jackets (Accommodation, Separation, Gas Treatment platforms), NASR and Umm Shait fields",
+      "source": {
+        "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+        "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+      },
+      "low": 2270,
+      "high": 3070
+    }
+  ],
+  "vendors": [
+    "vantris-energy-berhad",
+    "malaysia-marine-heavy-engineering",
+    "jan-de-nul-hitachi-consortium"
+  ],
+  "sources": [
+    {
+      "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+      "source_id": "vantrisenergy-com-engineering-construction-track-record"
+    },
+    {
+      "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+      "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Bottom-founded tubular space frame that transfers topsides, wind, wave, current and seismic loads into piled foundations; supports conductors and risers."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

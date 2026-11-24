@@ -1,0 +1,25 @@
+{
+  "id": "civ-23-000-t-ship-move-on-880-axle-lines",
+  "name": "23,000 t ship move on 880 axle lines",
+  "country": "unspecified",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "World record transport using SCHEUERLE SPMTs",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+      "source_id": "tii-group-com-spmt-scheuerle-spmt"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

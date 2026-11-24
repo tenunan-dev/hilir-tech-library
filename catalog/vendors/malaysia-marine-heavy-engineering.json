@@ -1,0 +1,24 @@
+{
+  "id": "malaysia-marine-heavy-engineering",
+  "name": "Malaysia Marine & Heavy Engineering",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Malaysia Marine & Heavy Engineering is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+      "source_id": "vantrisenergy-com-engineering-construction-track-record"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

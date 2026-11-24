@@ -1,0 +1,85 @@
+{
+  "id": "near-topsides-decks-and-module-support-frames",
+  "name": "Topsides, decks and module support frames",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Process, drilling, utilities and accommodation modules carried above the jacket; module support frames distribute loads to jacket legs.",
+  "specifications": [
+    {
+      "metric": "CUQ / DPP float-over topside weight, Bayu Undan (Timor Sea)",
+      "unit": "t",
+      "basis": "ConocoPhillips Bayu Undan floatover, Feb 2004",
+      "source": {
+        "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+        "source_id": "vantrisenergy-com-engineering-construction-track-record"
+      },
+      "value": "11,500 t / 15,000 t"
+    },
+    {
+      "metric": "Angel Platform topside floatover weight, Western Australia",
+      "unit": "tonnes",
+      "basis": "Woodside Angel gas field, Nov 2005-Jun 2008 EPCI",
+      "source": {
+        "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+        "source_id": "vantrisenergy-com-engineering-construction-track-record"
+      },
+      "value": 7700
+    },
+    {
+      "metric": "Maari wellhead platform (base + support + process deck), New Zealand",
+      "unit": "tonnes (approx.)",
+      "basis": "OMV New Zealand EPIC contract, Taranaki Basin",
+      "source": {
+        "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+        "source_id": "vantrisenergy-com-engineering-construction-track-record"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "topside + CPP + living quarter + bridge, East Piatu (Malaysia)",
+      "unit": "metric tonnes",
+      "basis": "Newfield Peninsular Malaysia fabrication scope Jul 2010-Aug 2011",
+      "source": {
+        "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+        "source_id": "vantrisenergy-com-engineering-construction-track-record"
+      },
+      "value": 4161
+    },
+    {
+      "metric": "Brent Delta accommodation capacity",
+      "unit": "persons",
+      "basis": "topsides house accommodation block, helipad, drilling and operational areas; kitchen/cinema/gym",
+      "source": {
+        "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
+        "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
+      },
+      "value": 161
+    }
+  ],
+  "vendors": [
+    "vantris-energy-berhad",
+    "malaysia-marine-heavy-engineering"
+  ],
+  "sources": [
+    {
+      "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+      "source_id": "vantrisenergy-com-engineering-construction-track-record"
+    },
+    {
+      "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
+      "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Process, drilling, utilities and accommodation modules carried above the jacket; module support frames distribute loads to jacket legs."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

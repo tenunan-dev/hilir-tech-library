@@ -1,0 +1,29 @@
+{
+  "id": "shibata-fender-team-rubber-fenders-v-fenders-html",
+  "name": "Shibata Fender Team — V-fender SX/SH standard height range",
+  "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Shibata Fender Team",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. ShibataFenderTeam V-fender page: standard heights 250-1,000 mm, standard lengths 1,000-3,500 mm, 3 rubber grades Evidence: https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
+}

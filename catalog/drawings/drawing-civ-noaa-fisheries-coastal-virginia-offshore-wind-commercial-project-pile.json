@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-noaa-fisheries-coastal-virginia-offshore-wind-commercial-project-pile",
+  "title": "NOAA Fisheries — Coastal Virginia Offshore Wind Commercial Project Pile Driving Monitoring, Mitigation and Management Plan (hammer arrangements)",
+  "diagram_type": "schematic",
+  "description": "Pre-piling conceptual process diagram, pin-pile stabbing through seabed template, vibratory hammer arrangements for monopile/pin piles, hydro-hammer placement in vessel gripper, and hydraulic impact hammer with monopile and pin-pile anvils. | Figures: Figure 2 — Pre-piling preparation (upending & stabbing) conceptual process diagram; Figure 3 — Stabbing of first pin-pile (purple) through designated sleeve of seabed placed pin-pile template (dark green); Figure 4 — The planned Cape Holland supplied Vibratory lifting technology hammers (type CAPE VLT-640): monopile 'Quad' and pin pile 'Single' versions; Figure 5 — Aerial picture showing the placement of the hydro hammer on a MP at safe depth in the gripper of the installation vessel Orion on the Vineyard Wind 1 Project; Figure 6 — The planned IQ4 hydraulic impact hammer supplied by IQIP with a Monopile anvil (Left) and a Pin Pile anvil (Ri",
+  "publisher": "U.S. Department of Commerce, NOAA Fisheries (project document from CVOW Commercial Project)",
+  "url": "https://www.fisheries.noaa.gov/s3/2024-05/CVOWC-PDMP-LOA-508-OPR1.pdf",
+  "licence": "U.S. Government-hosted project document; public with citation. Figures not reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fisheries.noaa.gov/s3/2024-05/CVOWC-PDMP-LOA-508-OPR1.pdf",
+      "source_id": "drawing-src-fisheries-noaa-gov-cvowc-pdmp-loa-508-opr1-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "civ-cakerawala-gas-field",
+  "name": "Cakerawala gas field",
+  "country": "Malaysia/Thailand JDA",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "permanent living quarters and office cabins installed 2013",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+      "source_id": "vantrisenergy-com-engineering-construction-track-record"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-dnv-com-dnv-st-0126-support-structures-for-wind-turbines",
+  "name": "DNV",
+  "url": "https://dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "DNV",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Standard page confirming scope: steel and concrete towers, monopile, jacket and suction-bucket foundations; page links to a preview PDF and subscription access. Figure captions require the full standard/preview PDF. Evidence: https://dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines"
+}

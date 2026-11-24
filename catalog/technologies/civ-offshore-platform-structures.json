@@ -55,7 +55,14 @@
     "foundation piles",
     "topsides modules",
     "conductor guides",
-    "boat landings and riser guards"
+    "boat landings and riser guards",
+    "steel jackets",
+    "monopiles",
+    "suction-bucket jackets",
+    "topsides",
+    "scour protection",
+    "cathodic protection",
+    "structural health monitoring"
   ],
   "suppliers": [
     {
@@ -107,7 +114,7 @@
       "note": "offshore construction and installation coverage, read 2026-11-07"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-24",
   "gaps": [
     {
       "field": "costs",
@@ -156,5 +163,6 @@
       ],
       "action": "Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity."
     }
-  ]
+  ],
+  "notes": " Civil/structural, jetty/terminal and nearshore equipment and materials added 2026-11-24. Civil/structural, jetty/terminal and nearshore equipment and materials added 2026-11-24. Civil/structural, jetty/terminal and nearshore equipment and materials added 2026-11-24."
 }

@@ -1,0 +1,78 @@
+{
+  "id": "near-jack-up-rigs-mobile-offshore-units",
+  "name": "Jack-up rigs",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Mobile self-elevating drilling/workover platform with independent legs and jack houses; used for nearshore and shelf drilling.",
+  "specifications": [
+    {
+      "metric": "jack-up standard (elevated at a site)",
+      "unit": "n/a",
+      "basis": "ISO/TC 67/SC 7 catalogue",
+      "source": {
+        "url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
+        "source_id": "iso-org-d-0"
+      },
+      "value": "ISO 19905-1:2023 (Amd 1:2025 corrections to tubular member strength, Table B-2, simplified free-field liquefaction method)"
+    },
+    {
+      "metric": "jack-up installation/removal standard",
+      "unit": "n/a",
+      "basis": "ISO/TC 67/SC 7 catalogue",
+      "source": {
+        "url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
+        "source_id": "iso-org-d-0"
+      },
+      "value": "ISO 19905-4:2026"
+    },
+    {
+      "metric": "jack-ups within fixed steel structure standard scope",
+      "unit": "n/a",
+      "basis": "ISO 19902:2020 abstract / NOTE 2",
+      "source": {
+        "url": "https://www.iso.org/standard/65688.html",
+        "source_id": "iso-org-standard-65688-html"
+      },
+      "value": "included (site-specific assessment referred to ISO 19905-1)"
+    },
+    {
+      "metric": "self-erected tender rig & derrick equipment set KM-I tonnage",
+      "unit": "metric tonnes",
+      "basis": "Kencana Mermaid Drilling, 2009-2010",
+      "source": {
+        "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+        "source_id": "vantrisenergy-com-engineering-construction-track-record"
+      },
+      "value": 8750
+    }
+  ],
+  "vendors": [
+    "boskalis"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
+      "source_id": "iso-org-d-0"
+    },
+    {
+      "url": "https://www.iso.org/standard/65688.html",
+      "source_id": "iso-org-standard-65688-html"
+    },
+    {
+      "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
+      "source_id": "vantrisenergy-com-engineering-construction-track-record"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Mobile self-elevating drilling/workover platform with independent legs and jack houses; used for nearshore and shelf drilling."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

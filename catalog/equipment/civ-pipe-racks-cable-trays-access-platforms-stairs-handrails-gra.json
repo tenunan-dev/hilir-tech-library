@@ -1,0 +1,53 @@
+{
+  "id": "civ-pipe-racks-cable-trays-access-platforms-stairs-handrails-gra",
+  "name": "Pipe racks, cable trays, access platforms, stairs, handrails, gratings",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Provide supported routes for process piping and electrical/instrument cables and safe access/egress and working surfaces around pipe racks, vessels and structures.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Provide supported routes for process piping and electrical/instrument cables and safe access/egress and working surfaces around pipe racks, vessels and structures.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "hai-nam",
+    "india-electricals-ies",
+    "vinfab-engineers-india",
+    "npes",
+    "fdg"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Steel grating, handrail, stair and access platform manufacturer specifications (load classes, span tables)",
+      "why": "No grating/platform product page fetched",
+      "next_action": "Fetch a grating manufacturer catalogue (e.g. AMICO, Nucor, Treadwell) with load tables"
+    },
+    {
+      "what": "Pipe rack design standards and typical bay dimensions",
+      "why": "No pipe rack engineering page fetched",
+      "next_action": "Fetch a public pipe rack design guideline"
+    }
+  ],
+  "applications": [
+    "Provide supported routes for process piping and electrical/instrument cables and safe access/egress and working surfaces around pipe racks, vessels and structur"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

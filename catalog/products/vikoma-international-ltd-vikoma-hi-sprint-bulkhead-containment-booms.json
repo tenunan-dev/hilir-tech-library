@@ -1,0 +1,43 @@
+{
+  "id": "vikoma-international-ltd-vikoma-hi-sprint-bulkhead-containment-booms",
+  "name": "Vikoma Hi Sprint / Bulkhead containment booms",
+  "manufacturer": "vikoma-international-ltd",
+  "product_type": "jetty-civil",
+  "equipment": [
+    "jetty-oil-spill-response-containment-booms-skimmers-and-recovery"
+  ],
+  "description": "Vendor product line read 2026-11-24. Range from Vikoma catalogue snippets; Hi Sprint single-point inflation, Bulkhead chamber inflation; neoprene.",
+  "specifications": [
+    {
+      "metric": "inflated height (catalogue range)",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
+        "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
+      },
+      "low": 750,
+      "high": 1500
+    },
+    {
+      "metric": "freeboard",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
+        "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
+      },
+      "low": 335,
+      "high": 600
+    }
+  ],
+  "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
+  "sources": [
+    {
+      "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
+      "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
+    }
+  ],
+  "notes": "Range from Vikoma catalogue snippets; Hi Sprint single-point inflation, Bulkhead chamber inflation; neoprene.",
+  "last_reviewed": "2026-11-24"
+}

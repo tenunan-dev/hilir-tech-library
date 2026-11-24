@@ -1,0 +1,24 @@
+{
+  "id": "survitec-group",
+  "name": "Survitec Group",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Survitec Group is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.viking-life.com/product-insights",
+      "source_id": "viking-life-com-www-viking-life-com-product-insights"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

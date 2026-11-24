@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-bsee-gov-670aa-pdf",
+  "name": "U.S. Bureau of Safety and Environmental Enforcement (BSEE), Technical Assessment Program",
+  "url": "https://www.bsee.gov/sites/bsee.gov/files/tap-technical-assessment-program/670aa.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "U.S. Bureau of Safety and Environmental Enforcement (BSEE), Technical Assessment Program",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Support-structure schematics and equivalent-monopile idealisations used for monopile, tripod and jacket case studies, with member size/location diagrams for utilisation checks. Evidence: https://www.bsee.gov/sites/bsee.gov/files/tap-technical-assessment-program/670aa.pdf"
+}

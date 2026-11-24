@@ -1,0 +1,29 @@
+{
+  "id": "fosroc-com-show-conbextra-gp",
+  "name": "Fosroc — Cementitious grout for baseplates (gap range)",
+  "url": "https://www.fosroc.com/product/show/conbextra-gp",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Fosroc",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Fosroc Conbextra GP product page: free-flow non-shrink cementitious grouting of gap thicknesses 10 to 75 mm; BS EN 1504-3 Class R4 and EN 1504-6 Evidence: https://www.fosroc.com/product/show/conbextra-gp"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "peri-com-au-jcr-c64fb84d-069b-4138-a85b-b872077fbb42-duo-brochure",
+  "name": "Peri.Com.Au — PERI formwork project list (cross-reference)",
+  "url": "https://www.peri.com.au/dam/jcr:c64fb84d-069b-4138-a85b-b872077fbb42/duo-brochure-2026.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Peri.Com.Au",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. PERI brochure lists infrastructure construction Pilbara Australia, Choa Chu Kang Grove Singapore, Aspen Residence George Town Penang Malaysia, Tonson Park View  Evidence: https://www.peri.com.au/dam/jcr:c64fb84d-069b-4138-a85b-b872077fbb42/duo-brochure-2026.pdf"
+}

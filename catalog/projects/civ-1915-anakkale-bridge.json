@@ -1,0 +1,25 @@
+{
+  "id": "civ-1915-anakkale-bridge",
+  "name": "1915 Çanakkale Bridge",
+  "country": "Turkey",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "suspension bridge over Dardanelles; referenced on Boskalis related-projects panel",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+      "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-fisheries-noaa-gov-revwind-piledrivingmonitoringplan-508-opr",
+  "name": "U.S. Department of Commerce, NOAA Fisheries (Revolution Wind project document)",
+  "url": "https://www.fisheries.noaa.gov/s3/2024-06/RevWind-PileDrivingMonitoringPlan-508-OPR1.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "U.S. Department of Commerce, NOAA Fisheries (Revolution Wind project document)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Schematic drawing of WTG monopile foundation, OSS monopile foundation with module support frame, and Menck 4400S hydraulic hammer used for pile installation. Evidence: https://www.fisheries.noaa.gov/s3/2024-06/RevWind-PileDrivingMonitoringPlan-508-OPR1.pdf"
+}

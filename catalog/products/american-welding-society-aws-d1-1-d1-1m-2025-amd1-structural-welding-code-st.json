@@ -1,0 +1,41 @@
+{
+  "id": "american-welding-society-aws-d1-1-d1-1m-2025-amd1-structural-welding-code-st",
+  "name": "AWS D1.1/D1.1M:2025-AMD1 Structural Welding Code—Steel",
+  "manufacturer": "american-welding-society",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-structural-steel-fabricated-beams-columns-bracing"
+  ],
+  "description": "Vendor product line read 2026-11-24. Member price USD 588 / non-member USD 784 (publisher store page, 2026).",
+  "specifications": [
+    {
+      "metric": "edition",
+      "unit": "n/a",
+      "basis": "",
+      "source": {
+        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
+        "source_id": "aws-org-d1-1"
+      },
+      "value": "25th edition, 2025 with 2026 amendment"
+    },
+    {
+      "metric": "annexes",
+      "unit": "count",
+      "basis": "",
+      "source": {
+        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
+        "source_id": "aws-org-d1-1"
+      },
+      "value": "8 normative + 11 informative"
+    }
+  ],
+  "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
+  "sources": [
+    {
+      "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
+      "source_id": "aws-org-d1-1"
+    }
+  ],
+  "notes": "Member price USD 588 / non-member USD 784 (publisher store page, 2026).",
+  "last_reviewed": "2026-11-24"
+}

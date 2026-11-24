@@ -1,0 +1,47 @@
+{
+  "id": "civ-pile-caps-and-pile-to-structure-connections",
+  "name": "Pile caps and pile-to-structure connections",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Rigid reinforced concrete blocks that distribute column/equipment loads to a pile group and tie piles together; include pile head connections, shear reinforcement and anchor/sole-plate interfaces.",
+  "specifications": [
+    {
+      "metric": "Cementitious grout for baseplates (gap range)",
+      "unit": "mm",
+      "basis": "Fosroc Conbextra GP product page: free-flow non-shrink cementitious grouting of gap thicknesses 10 to 75 mm; BS EN 1504-3 Class R4 and EN 1504-6",
+      "source": {
+        "url": "https://www.fosroc.com/product/show/conbextra-gp",
+        "source_id": "fosroc-com-show-conbextra-gp"
+      },
+      "low": 10,
+      "high": 75
+    }
+  ],
+  "vendors": [
+    "fosroc"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fosroc.com/product/show/conbextra-gp",
+      "source_id": "fosroc-com-show-conbextra-gp"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Pile cap punching shear / strut-and-tie design numeric examples",
+      "why": "No fetched page with numeric pile-cap design example",
+      "next_action": "Fetch a public DOT or ACI pile cap design example"
+    }
+  ],
+  "applications": [
+    "Rigid reinforced concrete blocks that distribute column/equipment loads to a pile group and tie piles together; include pile head connections, shear reinforceme"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-osha-gov-scaffolding",
+  "name": "U.S. Department of Labor, Occupational Safety and Health Administration (OSHA)",
+  "url": "https://www.osha.gov/etools/scaffolding",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "U.S. Department of Labor, Occupational Safety and Health Administration (OSHA)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Illustrated checklists for supported and suspended scaffolds including frame, tube-and-coupler, float (ship) and tank-builder types, with numbered figures for common hazards. Evidence: https://www.osha.gov/etools/scaffolding"
+}

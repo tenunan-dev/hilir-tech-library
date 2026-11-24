@@ -1,0 +1,24 @@
+{
+  "id": "allseas",
+  "name": "Allseas",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Allseas is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
+      "source_id": "iso-org-d-0"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

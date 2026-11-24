@@ -1,0 +1,52 @@
+{
+  "id": "near-deck-cranes-davits-and-lifting-appliances",
+  "name": "Deck cranes, davits and lifting appliances",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Pedestal/knuckle-boom and active-heave-compensated cranes for supply vessel transfers, subsea lifts and module handling.",
+  "specifications": [
+    {
+      "metric": "PALFINGER AHC hoisting capacity / jib radius / wire",
+      "unit": "t / m / m",
+      "basis": "PALFINGER AHC Cranes feature list",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+        "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+      },
+      "value": "up to 250 t / up to 50 m / 3,000 m wire (standard range)"
+    },
+    {
+      "metric": "PALFINGER winterization",
+      "unit": "°C",
+      "basis": "PALFINGER AHC Cranes winterization section",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+        "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+      },
+      "value": "reliable performance down to -50 °C; DNV, BV, LRS, ABS compliance"
+    }
+  ],
+  "vendors": [
+    "palfinger",
+    "liebherr",
+    "huisman-equipment"
+  ],
+  "sources": [
+    {
+      "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+      "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Pedestal/knuckle-boom and active-heave-compensated cranes for supply vessel transfers, subsea lifts and module handling."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

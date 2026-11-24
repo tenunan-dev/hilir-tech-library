@@ -1,0 +1,25 @@
+{
+  "id": "civ-changfang-xidao-taiwan",
+  "name": "Changfang & Xidao (Taiwan)",
+  "country": "Taiwan",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "62 jacket foundations; listed by CS WIND as reference",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cswoffshore.com/solutions/monopiles",
+      "source_id": "cswoffshore-com-solutions-monopiles"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

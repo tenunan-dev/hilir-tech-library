@@ -1,0 +1,50 @@
+{
+  "id": "civ-reinforced-concrete-high-performance-sulfate-resistant-concr",
+  "name": "Reinforced concrete — high-performance / sulfate-resistant concrete",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Provide durable structural concrete for foundations, slabs, walls and machine blocks in aggressive ground/process environments; sulfate-resistant cement, low permeability mixes and corrosion inhibition used where required.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Provide durable structural concrete for foundations, slabs, walls and machine blocks in aggressive ground/process environments; sulfate-resistant cement, low permeability mixes and corrosion inhibition used where required.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "sika",
+    "fosroc"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Sulfate-resistant cement types (ASTM C150 Type II/V, EN 197 CEM I/II/III) with sourced property tables",
+      "why": "Only a Sika compatibility mention was captured; no cement-type datasheet fetched",
+      "next_action": "Fetch a cement manufacturer's public datasheet for sulfate-resistant cement"
+    },
+    {
+      "what": "Concrete mix design numeric ranges for aggressive sulfate/chloride exposure",
+      "why": "No fetched page with w/c and cement content limits",
+      "next_action": "Fetch ACI 318 durability chapter public summary or DOT spec"
+    }
+  ],
+  "applications": [
+    "Provide durable structural concrete for foundations, slabs, walls and machine blocks in aggressive ground/process environments; sulfate-resistant cement, low pe"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "jetty-oil-spill-response-containment-booms-skimmers-and-recovery",
+  "name": "Oil spill response — containment booms, skimmers and recovery",
+  "equipment_type": "jetty-civil",
+  "sector": "MID",
+  "sector_codes": [
+    "MID",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Contain spilled oil on water, protect jetty/harbour intake areas and recover oil with skimmers, pumps and temporary storage.",
+  "specifications": [
+    {
+      "metric": "Boom materials and deployment characteristics",
+      "unit": "material/configuration",
+      "basis": "Vikoma Information Hub article (page fetched): neoprene gives wave-following flexibility; polyurethane is lower cost but less robust; foam-filled needs no inflation but more storage; air-filled inflation time depends on design",
+      "source": {
+        "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
+        "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
+      },
+      "value": "Neoprene (vulcanised) or polyurethane; air or foam filled"
+    }
+  ],
+  "vendors": [
+    "vikoma-international-ltd",
+    "desmi-ro-clean"
+  ],
+  "sources": [
+    {
+      "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
+      "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Contain spilled oil on water, protect jetty/harbour intake areas and recover oil with skimmers, pumps and temporary storage."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

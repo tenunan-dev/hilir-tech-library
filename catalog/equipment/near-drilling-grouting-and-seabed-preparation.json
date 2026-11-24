@@ -1,0 +1,65 @@
+{
+  "id": "near-drilling-grouting-and-seabed-preparation",
+  "name": "Drilling, grouting and seabed preparation",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Drill through difficult ground (drive-drill-drive), grout pile-to-sleeve or monopile connections, prepare seabed and clear UXO before foundation installation.",
+  "specifications": [
+    {
+      "metric": "3D method purpose",
+      "unit": "n/a",
+      "basis": "Acteon brochure listing 'Drive-drill-drive (3D) method for monopiles'",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "combines pile driving and drilling to reach target depth in hard, rocky or variable ground"
+    },
+    {
+      "metric": "Veja Mate seabed preparation",
+      "unit": "n/a",
+      "basis": "Boskalis project page",
+      "source": {
+        "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+        "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+      },
+      "value": "UXO detection and removal before scour protection; rock placement by fallpipe vessel Rockpiper; each piling operation ~24 hours including driving through pre-laid scour protection"
+    },
+    {
+      "metric": "Boskalis Aberdeen Bay scope",
+      "unit": "n/a",
+      "basis": "Boskalis related-project card",
+      "source": {
+        "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+        "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+      },
+      "value": "UXO survey and removal; seabed preparation; 11 suction bucket jacket installations"
+    }
+  ],
+  "vendors": [
+    "acteon-menck",
+    "boskalis"
+  ],
+  "sources": [
+    {
+      "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+      "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+    },
+    {
+      "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+      "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Drill through difficult ground (drive-drill-drive), grout pile-to-sleeve or monopile connections, prepare seabed and clear UXO before foundation installation."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

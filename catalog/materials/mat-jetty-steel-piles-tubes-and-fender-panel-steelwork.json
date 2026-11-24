@@ -1,0 +1,40 @@
+{
+  "id": "mat-jetty-steel-piles-tubes-and-fender-panel-steelwork",
+  "name": "Steel piles, tubes and fender panel steelwork",
+  "material_category": "structural-metallic",
+  "description": "Primary load-bearing piles and bracing for open-piled jetties, and closed-box/steel fender panels that distribute fender reaction to low hull pressure.",
+  "specifications": [
+    {
+      "metric": "LMT2 fender panel dimensions",
+      "unit": "mm closed-box steel panel (per fender)",
+      "basis": "ShibataFenderTeam Lumut LMT2 project: each of 36 SPC 1200 fender systems equipped with a 2000x4320 mm closed-box steel panel",
+      "source": {
+        "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
+        "source_id": "shibata-fender-team-news-detail-optimizing-the-fender-design-for-l"
+      },
+      "value": "2000 x 4320"
+    }
+  ],
+  "applications": [
+    "Primary load-bearing piles and bracing for open-piled jetties, and closed-box/steel fender panels that distribute fender reaction to low hull pressure."
+  ],
+  "standards": [],
+  "equipment": [
+    "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "jetty-mooring-quick-release-hooks-qrh-bollards-and-load-monitoring",
+    "jetty-motion-compensated-access-gangways-boarding-bridges"
+  ],
+  "suppliers": [
+    "shibatafenderteam"
+  ],
+  "sources": [
+    {
+      "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
+      "source_id": "shibata-fender-team-news-detail-optimizing-the-fender-design-for-l"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

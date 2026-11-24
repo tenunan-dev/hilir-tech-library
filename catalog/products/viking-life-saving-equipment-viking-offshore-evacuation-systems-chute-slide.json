@@ -1,0 +1,31 @@
+{
+  "id": "viking-life-saving-equipment-viking-offshore-evacuation-systems-chute-slide",
+  "name": "VIKING offshore evacuation systems (chute / slide)",
+  "manufacturer": "viking-life-saving-equipment",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "embarkation height capability",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://www.viking-life.com/product-insights",
+        "source_id": "viking-life-com-www-viking-life-com-product-insights"
+      },
+      "value": 81
+    }
+  ],
+  "url": "https://www.viking-life.com/product-insights",
+  "sources": [
+    {
+      "url": "https://www.viking-life.com/product-insights",
+      "source_id": "viking-life-com-www-viking-life-com-product-insights"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-offshorewind-rvo-nl-ijv-20230207-deltares-scour-and-scour-mi",
+  "name": "Deltares / Rijksdienst voor Ondernemend Nederland (RVO), IJmuiden Ver Wind Farm Zone",
+  "url": "https://offshorewind.rvo.nl/file/download/5704b803-1954-4d8f-a3d7-77c0d0c423ec/ijv_20230207_deltares_scour-and-scour-mitigation-report-f.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "Deltares / Rijksdienst voor Ondernemend Nederland (RVO), IJmuiden Ver Wind Farm Zone",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Illustrations of scour protection methods including filter units and rock bags around a monopile, plus suitability tables for protection strategies under stable/rising/lowering seabed conditions. Evidence: https://offshorewind.rvo.nl/file/download/5704b803-1954-4d8f-a3d7-77c0d0c423ec/ijv_20230207_deltares_scour-and-scour-mitigation-report-f.pdf"
+}

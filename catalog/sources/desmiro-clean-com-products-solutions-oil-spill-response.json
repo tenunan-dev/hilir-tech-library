@@ -1,0 +1,29 @@
+{
+  "id": "desmiro-clean-com-products-solutions-oil-spill-response",
+  "name": "DESMI (Ro-Clean)",
+  "url": "https://www.desmiro-clean.com/products-solutions/oil-spill-response",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Desmiro Clean.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Search-verified page; describes itself as a complete oil spill response supplier. Evidence: https://www.desmiro-clean.com/products-solutions/oil-spill-response"
+}

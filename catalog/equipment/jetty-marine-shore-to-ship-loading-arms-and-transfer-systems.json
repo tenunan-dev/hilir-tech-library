@@ -1,0 +1,67 @@
+{
+  "id": "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+  "name": "Marine / shore-to-ship loading arms and transfer systems",
+  "equipment_type": "jetty-civil",
+  "sector": "MID",
+  "sector_codes": [
+    "MID",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Articulated pipework with swivel joints connecting shore or offshore facility to ship for transfer of oil, LNG, LPG, chemicals, high-pressure gas, CO2 and hydrogen; includes emergency release systems (ERS) and quick connect/disconnect couplers (QC/DC).",
+  "specifications": [
+    {
+      "metric": "Flowtork/Technip Energies refining & petrochemical loading arm diameter",
+      "unit": "inches",
+      "basis": "Flowtork (Philippines distributor) page for Technip Energies loading systems: 'Diameter 6 to 24 inches, design pressure up to 50 bar'; options heat tracing, insulation, EasyDrive, automatic connection",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms",
+        "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
+      },
+      "low": 6,
+      "high": 24
+    },
+    {
+      "metric": "ATOL 20 inch full-bore product line",
+      "unit": "inches full bore",
+      "basis": "Flowtork page: 'ATOL – Articulated Tandem Offshore Loader: Rigid transfer system for LNG transfer with high-flow performance and 20 inch full-bore product lines'",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms",
+        "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Technip Energies installed base / patents / experience",
+      "unit": "count / years",
+      "basis": "Technip Energies Loading Systems page figures: '57 patents', '70+ years of experience', '+15K installed loading arms', '300+ employees worldwide'",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems",
+        "source_id": "ten-com-markets-loading-systems"
+      },
+      "value": "+15,000 installed loading arms; 57 patents; 70+ years"
+    }
+  ],
+  "vendors": [
+    "technip-energies",
+    "flowtork-technologies-corporation",
+    "tbg-technologies-chokusen-japan"
+  ],
+  "sources": [
+    {
+      "url": "https://flowtork.com/marine-loading-arms",
+      "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
+    },
+    {
+      "url": "https://www.ten.com/en/markets/loading-systems",
+      "source_id": "ten-com-markets-loading-systems"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Articulated pipework with swivel joints connecting shore or offshore facility to ship for transfer of oil, LNG, LPG, chemicals, high-pressure gas, CO2 and hydro"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

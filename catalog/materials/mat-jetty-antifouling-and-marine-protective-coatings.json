@@ -1,0 +1,38 @@
+{
+  "id": "mat-jetty-antifouling-and-marine-protective-coatings",
+  "name": "Antifouling and marine protective coatings",
+  "material_category": "coatings-chemical",
+  "description": "Control biofouling on hulls and immersed structures, reduce speed loss/fuel consumption and protect substrates in the marine environment.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Control biofouling on hulls and immersed structures, reduce speed loss/fuel consumption and protect substrates in the marine environment.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Control biofouling on hulls and immersed structures, reduce speed loss/fuel consumption and protect substrates in the marine environment."
+  ],
+  "standards": [],
+  "equipment": [
+    "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "jetty-mooring-quick-release-hooks-qrh-bollards-and-load-monitoring",
+    "jetty-motion-compensated-access-gangways-boarding-bridges"
+  ],
+  "suppliers": [
+    "jotun"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

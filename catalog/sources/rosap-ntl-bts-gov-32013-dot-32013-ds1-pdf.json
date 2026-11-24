@@ -1,0 +1,29 @@
+{
+  "id": "rosap-ntl-bts-gov-32013-dot-32013-ds1-pdf",
+  "name": "Nucor",
+  "url": "https://rosap.ntl.bts.gov/view/dot/32013/dot_32013_DS1.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Rosap.Ntl.Bts.Gov",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Identified in mill-data report (A615/A706 Gr60/80) Evidence: https://rosap.ntl.bts.gov/view/dot/32013/dot_32013_DS1.pdf"
+}

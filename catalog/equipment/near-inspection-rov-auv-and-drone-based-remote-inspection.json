@@ -1,0 +1,93 @@
+{
+  "id": "near-inspection-rov-auv-and-drone-based-remote-inspection",
+  "name": "Inspection: ROV, AUV and drone-based remote inspection",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Close-up visual inspection, UT thickness measurement, corrosion mapping and CP verification in splash zone, tanks, risers and subsea structures without confined-space entry.",
+  "specifications": [
+    {
+      "metric": "inspection time: rope/boat vs drone",
+      "unit": "h vs days",
+      "basis": "Flyability comparison table: rope access/boat 3-7 days, drone 2-4 hours",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+        "source_id": "flyability-com-blog-offshore-drone-inspections"
+      },
+      "low": 2,
+      "high": 7
+    },
+    {
+      "metric": "crew footprint",
+      "unit": "persons",
+      "basis": "Flyability comparison table",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+        "source_id": "flyability-com-blog-offshore-drone-inspections"
+      },
+      "value": "4-6 technicians vs 2 operators on deck"
+    },
+    {
+      "metric": "Saipem COT/WBT inspection speed",
+      "unit": "%",
+      "basis": "Saipem interview cited by Flyability; class-approved inspection",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+        "source_id": "flyability-com-blog-offshore-drone-inspections"
+      },
+      "value": "80-90% faster with zero human entry"
+    },
+    {
+      "metric": "TotalEnergies FPSO hull digitalization cost reduction",
+      "unit": "%",
+      "basis": "Flyability testimonial reference",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+        "source_id": "flyability-com-blog-offshore-drone-inspections"
+      },
+      "value": 45
+    },
+    {
+      "metric": "BP confined-space hours saved",
+      "unit": "hours",
+      "basis": "Flyability: drones supporting BP offshore operations since 2023",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+        "source_id": "flyability-com-blog-offshore-drone-inspections"
+      },
+      "value": ">1700"
+    },
+    {
+      "metric": "RIT acceptance",
+      "unit": "n/a",
+      "basis": "Flyability offshore drone inspection guide",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+        "source_id": "flyability-com-blog-offshore-drone-inspections"
+      },
+      "value": "ABS, BV, LR, ClassNK, DNV, RINA rulebooks accept remote inspection techniques; IMO defines RIT as alternative means for close-up survey"
+    }
+  ],
+  "vendors": [
+    "flyability",
+    "deep-trekker",
+    "oceaneering-subsea-7-rov-services"
+  ],
+  "sources": [
+    {
+      "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+      "source_id": "flyability-com-blog-offshore-drone-inspections"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Close-up visual inspection, UT thickness measurement, corrosion mapping and CP verification in splash zone, tanks, risers and subsea structures without confined"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

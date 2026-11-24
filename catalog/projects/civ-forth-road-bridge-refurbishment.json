@@ -1,0 +1,25 @@
+{
+  "id": "civ-forth-road-bridge-refurbishment",
+  "name": "Forth Road Bridge refurbishment",
+  "country": "Scotland/UK",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "Layher success story: suspension bridge over Firth of Forth",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.layher.com/en/products/allroundscaffolding",
+      "source_id": "layher-com-products-allroundscaffolding"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

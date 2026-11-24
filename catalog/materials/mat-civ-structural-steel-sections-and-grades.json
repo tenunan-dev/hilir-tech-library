@@ -1,0 +1,52 @@
+{
+  "id": "mat-civ-structural-steel-sections-and-grades",
+  "name": "Structural steel sections and grades",
+  "material_category": "steel",
+  "description": "Primary material for frames, supports, bracing and platforms; grades selected for yield, toughness, weldability and corrosion resistance.",
+  "specifications": [
+    {
+      "metric": "ASTM A992 mechanical properties",
+      "unit": "ksi / ratio",
+      "basis": "American Steel & Aluminum A992 guide; AISC manual preferred material for W-shapes",
+      "source": {
+        "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+        "source_id": "americansteelandaluminum-com-materials-a992-steel"
+      },
+      "value": "Fy 50–65 ksi; Fu 65 ksi min; Fy/Fu 0.85 max; CE 0.45 max"
+    },
+    {
+      "metric": "ASTM A36 yield/tensile",
+      "unit": "ksi",
+      "basis": "American Steel & Aluminum comparison table: A36 min yield 36 ksi (250 MPa), tensile 58 ksi min / 80 ksi max",
+      "source": {
+        "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+        "source_id": "americansteelandaluminum-com-materials-a992-steel"
+      },
+      "value": "36 / 58–80"
+    }
+  ],
+  "applications": [
+    "Primary material for frames, supports, bracing and platforms; grades selected for yield, toughness, weldability and corrosion resistance."
+  ],
+  "standards": [],
+  "equipment": [
+    "civ-shallow-raft-pad-foundations",
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "civ-micropiles"
+  ],
+  "suppliers": [
+    "arcelormittal",
+    "ssab",
+    "american-steel-aluminum"
+  ],
+  "sources": [
+    {
+      "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+      "source_id": "americansteelandaluminum-com-materials-a992-steel"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

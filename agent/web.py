@@ -43,12 +43,13 @@ import library
 import pg
 import products as product_records
 import drawings as drawing_records
+import materials as material_records
 import technologies as technology_records
 import userstore
 import vendors as vendor_records
 
 # keep in sync with the edge: deploy/frontend/src/index.ts (UI_PREFIXES)
-PREFIXES = ("/search", "/technologies", "/compare", "/export", "/database", "/glossary", "/standards", "/vendors", "/equipment", "/projects", "/products", "/drawings", "/register", "/sources", "/documents", "/gaps", "/admin", "/account")
+PREFIXES = ("/search", "/technologies", "/compare", "/export", "/database", "/glossary", "/standards", "/vendors", "/equipment", "/projects", "/products", "/drawings", "/materials", "/register", "/sources", "/documents", "/gaps", "/admin", "/account")
 SECTOR_SELECT = ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS", "IDC", "PRC", "ROT", "ELE", "CIV", "INS", "MAT", "HSE", "DIG"]
 MATURITIES = ["commercial", "demonstration", "pilot", "lab"]
 REUSE_LEVELS = ["full-text-open", "full-text-restricted", "summary-only", "catalog-only"]
@@ -1674,6 +1675,41 @@ def routes(tools) -> list:
         pieces.append("</section>")
         return _page("Products", "".join(pieces), active="/products")
 
+    async def materials_page(request: Request):
+        qp = request.query_params
+        cat, query = str(qp.get("category") or ""), str(qp.get("q") or "")
+        items = _neon_first(lambda: pg.material_rows(cat or None, query or None),
+                            lambda: tools.list_materials(cat or None, query or None))
+        mid = str(qp.get("id") or "")
+        if mid:
+            items = [i for i in items if i.get("id") == mid]
+        pieces = ['<section class="card"><form class="filters" method="get" action="/materials">']
+        pieces.append(_select("category", [("", "any material category")]
+                              + [(c, c) for c in sorted({i.get("material_category") or "" for i in items})], cat))
+        pieces.append(f' <input type="search" name="q" value="{esc(query)}" placeholder="material, property" size="20">')
+        pieces.append(' <button type="submit">Filter</button></form>')
+        for item in items:
+            pieces.append(f'<h3>{esc(item["name"])} <span class="muted small">{esc(item["id"])}</span></h3>')
+            rec = _neon_first(lambda rid=item["id"]: pg.material_row(rid),
+                              lambda rid=item["id"]: next((r for r in material_records.load_materials() if r["id"] == rid), None))
+            if not rec:
+                continue
+            rows = "".join(
+                f"<tr><td>{esc(sp['metric'])}</td><td>"
+                + (f"{esc(sp['value'])} {esc(sp.get('unit') or '')}".strip() if "value" in sp
+                   else f"{esc(sp.get('low', ''))}-{esc(sp.get('high', ''))} {esc(sp.get('unit') or '')}".strip()
+                   if "low" in sp or "high" in sp else "—")
+                + f"</td><td class='small'>{esc(sp.get('basis') or '')}</td></tr>"
+                for sp in rec.get("specifications", []))
+            sources = "".join(f'<li><a href="{esc(s["url"])}" target="_blank" rel="noopener">{esc(s["url"])}</a></li>'
+                              for s in rec.get("sources", []))
+            pieces.append(f'<p>{esc(rec.get("description") or "")}</p>'
+                          '<div class="scroll"><table><thead><tr><th>Property</th><th>Value</th><th>Basis</th>'
+                          f'</tr></thead><tbody>{rows}</tbody></table></div>'
+                          + _section("Sources", f"<ul class='small'>{sources}</ul>"))
+        pieces.append("</section>")
+        return _page("Materials", "".join(pieces), active="/materials")
+
     async def drawings_page(request: Request):
         qp = request.query_params
         dtype, sector, query = str(qp.get("type") or ""), str(qp.get("sector") or ""), str(qp.get("q") or "")
@@ -2298,6 +2334,7 @@ def routes(tools) -> list:
         Route("/standards", gated(standards_page)),
         Route("/vendors", gated(vendors_page)), Route("/equipment", gated(equipment_page)),
         Route("/products", gated(products_page)), Route("/drawings", gated(drawings_page)),
+        Route("/materials", gated(materials_page)),
         Route("/projects", gated(projects_page)),
         Route("/register", gated(register)),
         Route("/sources", gated(sources)),

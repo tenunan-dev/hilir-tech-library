@@ -1,0 +1,25 @@
+{
+  "id": "civ-veja-mate",
+  "name": "Veja Mate",
+  "country": "Germany",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "67 foundations, monopiles 1,230-1,302 t, 85 m tall; 350 t transition pieces; installed 2016",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+      "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

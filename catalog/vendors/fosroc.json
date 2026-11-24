@@ -1,0 +1,24 @@
+{
+  "id": "fosroc",
+  "name": "Fosroc",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Fosroc is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fosroc.com/product/show/conbextra-gp",
+      "source_id": "fosroc-com-show-conbextra-gp"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

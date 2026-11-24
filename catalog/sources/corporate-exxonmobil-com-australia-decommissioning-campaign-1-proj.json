@@ -1,0 +1,29 @@
+{
+  "id": "corporate-exxonmobil-com-australia-decommissioning-campaign-1-proj",
+  "name": "Corporate.Exxonmobil.Com — Bream B (Bass Strait)",
+  "url": "https://corporate.exxonmobil.com/-/media/global/files/locations/australia/decommissioning-campaign-1-project-update---september-2024.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Corporate.Exxonmobil.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. topsides and module support frame removal from concrete gravity structure; base retained pending end-state decision Evidence: https://corporate.exxonmobil.com/-/media/global/files/locations/australia/decommissioning-campaign-1-project-update---september-2024.pdf"
+}

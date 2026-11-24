@@ -24,6 +24,7 @@ import equipment
 import projects
 import products
 import drawings
+import materials
 import bm25
 from urlnorm import url_key
 
@@ -49,6 +50,7 @@ EQUIPMENT_LICENCE = "Library's own curated equipment record; cite the sources li
 PROJECT_LICENCE = "Library's own curated project record; cite the sources listed in the record"
 PRODUCT_LICENCE = "Library's own curated product catalog record; cite the vendor pages listed in the record"
 DRAWING_LICENCE = "Library's own curated drawing record; the diagram stays at the publisher's url"
+MATERIAL_LICENCE = "Library's own curated material record; cite the sources listed in the record"
 # Candidates each kind contributes to the rank fusion. og.hybrid_search uses the same 50
 # (its CTE keeps `r <= 50`), so a passage pool of 15,000 rows cannot crowd out the records.
 FUSION_POOL = 50
@@ -299,6 +301,7 @@ def build(db_path=None, corpus=None):
         CREATE TABLE projects (id TEXT PRIMARY KEY, record TEXT NOT NULL, sectors TEXT NOT NULL);
         CREATE TABLE products (id TEXT PRIMARY KEY, record TEXT NOT NULL, sectors TEXT NOT NULL);
         CREATE TABLE drawings (id TEXT PRIMARY KEY, record TEXT NOT NULL, sectors TEXT NOT NULL);
+        CREATE TABLE materials (id TEXT PRIMARY KEY, record TEXT NOT NULL, sectors TEXT NOT NULL);
         CREATE TABLE term_df (term TEXT PRIMARY KEY, df INTEGER NOT NULL);
     """)
     # A custom corpus root can carry its own catalog.jsonl (tests and scratch builds);
@@ -383,6 +386,16 @@ def build(db_path=None, corpus=None):
         db.execute("INSERT INTO search VALUES ('drawing', ?, ?, ?, ?, ?)",
                    (rec["id"], rec["id"], rec["title"], drawings.search_text(rec),
                     tag_text({"sectors": sectors}, labels)))
+    material_recs = materials.load_materials(corpus.parent / "catalog" / "materials")
+    for rec in material_recs:
+        sectors = sorted({code for eid in rec.get("equipment", []) for code in eq_sectors.get(eid, [])})
+        if not sectors:
+            sectors = ["PWR", "CIV"]
+        db.execute("INSERT INTO materials VALUES (?, ?, ?)",
+                   (rec["id"], json.dumps(rec, ensure_ascii=False), json.dumps(sectors)))
+        db.execute("INSERT INTO search VALUES ('material', ?, ?, ?, ?, ?)",
+                   (rec["id"], rec["id"], rec["name"], materials.search_text(rec),
+                    tag_text({"sectors": sectors}, labels)))
     db.execute("INSERT INTO info VALUES ('root', ?)", (str(corpus.parent),))
     # Per-term document frequency, the same signal og.search_term carries on the Postgres path:
     # a product code is in a handful of records, an ordinary word in thousands, and the rare-concept
@@ -395,7 +408,7 @@ def build(db_path=None, corpus=None):
     db.commit()
     return {"sources": len(records), "documents": n_docs, "chunks": n_chunks, "technologies": len(cards),
             "vendors": len(vendor_recs), "equipment": len(equipment_recs), "projects": len(project_recs),
-            "products": len(product_recs), "drawings": len(drawing_recs)}
+            "products": len(product_recs), "drawings": len(drawing_recs), "materials": len(material_recs)}
 
 
 def _matches(rec, sector, discipline, region, reuse_level):
@@ -453,7 +466,7 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     """
     db = db or connect()
     records = {r["id"]: json.loads(r["record"]) for r in db.execute("SELECT * FROM sources")}
-    kinds = ("source", "chunk", "technology", "vendor", "equipment", "project", "product", "drawing") \
+    kinds = ("source", "chunk", "technology", "vendor", "equipment", "project", "product", "drawing", "material") \
         if kind == "all" else (kind,)
     # Keep word characters only, then quote each token: any of the query's words (or a word its
     # concept group adds) may match. The token filter is what keeps the MATCH value inert, so it
@@ -555,8 +568,8 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
                     and reuse_level in (None, "full-text-open"):
                 results.append((score, row, prec))
             continue
-        if row["kind"] in ("product", "drawing"):
-            table = "products" if row["kind"] == "product" else "drawings"
+        if row["kind"] in ("product", "drawing", "material"):
+            table = {"product": "products", "drawing": "drawings", "material": "materials"}[row["kind"]]
             found = db.execute(f"SELECT record, sectors FROM {table} WHERE id = ?", (row["ref"],)).fetchone()
             if not found:
                 continue
@@ -581,6 +594,7 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
             _equipment_result(row, score, rec) if row["kind"] == "equipment" else
             _product_result(row, score, rec) if row["kind"] == "product" else
             _drawing_result(row, score, rec) if row["kind"] == "drawing" else
+            _material_result(row, score, rec) if row["kind"] == "material" else
             _project_result(row, score, rec) if row["kind"] == "project" else
             _result(db, row, score, records)
             for score, row, rec in results[:limit]]
@@ -915,6 +929,41 @@ def list_drawings(diagram_type=None, sector=None, query=None, db=None):
     return out
 
 
+def _material_result(row, score, mrec):
+    out = {"kind": "material", "ref": mrec["id"], "title": mrec["name"], "score": round(score, 4),
+           "licence": MATERIAL_LICENCE, "reuse_level": "full-text-open", "permitted_use": "any",
+           "material_category": mrec["material_category"], "applications": mrec.get("applications", []),
+           "standards": mrec.get("standards", []),
+           "spec_metrics": [s["metric"] for s in mrec.get("specifications", [])]}
+    out["hint"] = "Call get_material for the property values, basis and sources."
+    return out
+
+
+def get_material(material_id, db=None):
+    db = db or connect()
+    row = db.execute("SELECT record FROM materials WHERE id = ?", (material_id,)).fetchone()
+    return json.loads(row[0]) if row else None
+
+
+def list_materials(material_category=None, query=None, db=None):
+    db = db or connect()
+    q = (query or "").lower()
+    out = []
+    for blob in db.execute("SELECT record FROM materials"):
+        rec = json.loads(blob[0])
+        if material_category and material_category != rec.get("material_category"):
+            continue
+        hay = " ".join([rec["name"], " ".join(rec.get("aliases", [])), rec.get("description", ""),
+                        rec.get("material_category", ""), " ".join(rec.get("applications", [])),
+                        " ".join(rec.get("standards", [])),
+                        " ".join(s["metric"] for s in rec.get("specifications", []))]).lower()
+        if q and q not in hay:
+            continue
+        out.append(materials.summary(rec))
+    out.sort(key=lambda x: x["name"].lower())
+    return out
+
+
 def _project_result(row, score, prec):
     out = {"kind": "project", "ref": prec["id"], "title": prec["name"], "score": round(score, 4),
            "licence": PROJECT_LICENCE, "reuse_level": "full-text-open", "permitted_use": "any",
@@ -1015,6 +1064,7 @@ def stats(db=None):
             "equipment": db.execute("SELECT count(*) FROM equipment").fetchone()[0],
             "products": db.execute("SELECT count(*) FROM products").fetchone()[0],
             "drawings": db.execute("SELECT count(*) FROM drawings").fetchone()[0],
+            "materials": db.execute("SELECT count(*) FROM materials").fetchone()[0],
             "embedding_model": (db.execute("SELECT value FROM info WHERE key = 'model'").fetchone() or [None])[0]}
 
 

@@ -1,0 +1,41 @@
+{
+  "id": "ridgeway-marine-ridgeway-rock-filled-filter-bag",
+  "name": "Ridgeway rock-filled filter bag",
+  "manufacturer": "ridgeway-marine",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Bags produced by Sumisho Kyowa; used at EDF Teesside.",
+  "specifications": [
+    {
+      "metric": "design life in saline water",
+      "unit": "years",
+      "basis": "",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": 50
+    },
+    {
+      "metric": "recycled content",
+      "unit": "%",
+      "basis": "",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": 61
+    }
+  ],
+  "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+  "sources": [
+    {
+      "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+      "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+    }
+  ],
+  "notes": "Bags produced by Sumisho Kyowa; used at EDF Teesside.",
+  "last_reviewed": "2026-11-24"
+}

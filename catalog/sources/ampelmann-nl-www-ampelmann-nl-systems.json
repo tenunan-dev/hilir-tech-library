@@ -1,0 +1,29 @@
+{
+  "id": "ampelmann-nl-www-ampelmann-nl-systems",
+  "name": "Ampelmann Operations B.V.",
+  "url": "https://www.ampelmann.nl/systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Ampelmann",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Founded 2007/2008; global leader in Walk-to-Work systems (company descriptions). Evidence: https://www.ampelmann.nl/systems"
+}

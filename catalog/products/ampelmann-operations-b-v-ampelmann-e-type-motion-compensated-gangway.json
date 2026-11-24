@@ -1,0 +1,61 @@
+{
+  "id": "ampelmann-operations-b-v-ampelmann-e-type-motion-compensated-gangway",
+  "name": "Ampelmann E-type motion-compensated gangway",
+  "manufacturer": "ampelmann-operations-b-v",
+  "product_type": "jetty-civil",
+  "equipment": [
+    "jetty-motion-compensated-access-gangways-boarding-bridges"
+  ],
+  "description": "Vendor product line read 2026-11-24. Lloyd's certified, DNV-approved sea fastening; vessel >70 m.",
+  "specifications": [
+    {
+      "metric": "wave compensation",
+      "unit": "m Hs",
+      "basis": "",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type",
+        "source_id": "ampelmann-nl-systems-e-type"
+      },
+      "value": 4.5
+    },
+    {
+      "metric": "gangway length",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type",
+        "source_id": "ampelmann-nl-systems-e-type"
+      },
+      "value": 30
+    },
+    {
+      "metric": "footprint",
+      "unit": "m",
+      "basis": "",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type",
+        "source_id": "ampelmann-nl-systems-e-type"
+      },
+      "value": "8.4 x 9.5"
+    },
+    {
+      "metric": "system weight",
+      "unit": "metric tonnes",
+      "basis": "",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type",
+        "source_id": "ampelmann-nl-systems-e-type"
+      },
+      "value": 105
+    }
+  ],
+  "url": "https://www.ampelmann.nl/systems/e-type",
+  "sources": [
+    {
+      "url": "https://www.ampelmann.nl/systems/e-type",
+      "source_id": "ampelmann-nl-systems-e-type"
+    }
+  ],
+  "notes": "Lloyd's certified, DNV-approved sea fastening; vessel >70 m.",
+  "last_reviewed": "2026-11-24"
+}

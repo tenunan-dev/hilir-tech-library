@@ -1,0 +1,25 @@
+{
+  "id": "civ-port-extension-high-replacement-vibro-stone-columns",
+  "name": "Port extension high-replacement vibro stone columns",
+  "country": "unspecified",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "High replacement vibro stone columns; most contracts 5%–30% area replacement",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.taylorfrancis.com/chapters/oa-mono/10.1201/9781315372341-4/improvement-fine-grained-cohesive-soils-vibro-replacement-stone-columns-klaus-kirsch-fabian-kirsch?context=ubx",
+      "source_id": "taylorfrancis-com-9781315372341-4-improvement-fine-grained-cohesiv"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

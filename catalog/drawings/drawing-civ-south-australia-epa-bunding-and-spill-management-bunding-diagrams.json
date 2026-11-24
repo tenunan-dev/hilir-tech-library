@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-south-australia-epa-bunding-and-spill-management-bunding-diagrams",
+  "title": "South Australia EPA — Bunding and spill management (bunding diagrams)",
+  "diagram_type": "schematic",
+  "description": "Parallel EPA guidance with Figure 1/Figure 2 bunding diagrams for bulk liquid tanks and drums, including 120% largest-tank capacity note, blind collection sump, high level detector and pipework over bund wall. | Figures: Figure 1 — Example of bunding for bulk liquid storage tanks (adapted from Victorian and NSW EPA); Figure 2 — Example of bunding for drums and containers (adapted from Victorian and NSW EPA)",
+  "publisher": "Environment Protection Authority South Australia (EPA 080/16)",
+  "url": "https://www.epa.sa.gov.au/files/47717_guide_bunding.pdf",
+  "licence": "South Australian Government guidance; check reuse conditions. Figure titles recorded only.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.epa.sa.gov.au/files/47717_guide_bunding.pdf",
+      "source_id": "drawing-src-epa-sa-gov-au-47717-guide-bunding-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. search_verified",
+  "last_reviewed": "2026-11-24"
+}

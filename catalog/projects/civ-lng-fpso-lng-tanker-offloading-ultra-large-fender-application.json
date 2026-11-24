@@ -1,0 +1,25 @@
+{
+  "id": "civ-lng-fpso-lng-tanker-offloading-ultra-large-fender-application",
+  "name": "LNG-FPSO / LNG tanker offloading (ultra-large fender application)",
+  "country": "Japan / global",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "Yokohama's ultra-large 'Mega Fender' enables LNG-FPSO and LNG tanker to maintain greater separation distance than with previous fenders; company developed world's largest floating fender (release dated 24 Jan 2018).",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.y-yokohama.com/global/product/mb/fenders",
+      "source_id": "y-yokohama-com-mb-fenders"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

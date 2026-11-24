@@ -1,0 +1,25 @@
+{
+  "id": "civ-lumut-maritime-terminal-2-new-396-m-berth",
+  "name": "Lumut Maritime Terminal 2 — new 396 m berth",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "Berth length, fender spacing optimisation and supporting-structure reaction considerations documented by the fender supplier (see fender component).",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
+      "source_id": "shibata-fender-team-news-detail-optimizing-the-fender-design-for-l"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

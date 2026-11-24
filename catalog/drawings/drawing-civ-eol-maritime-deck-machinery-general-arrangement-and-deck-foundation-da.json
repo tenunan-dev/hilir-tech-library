@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-eol-maritime-deck-machinery-general-arrangement-and-deck-foundation-da",
+  "title": "EOL/Maritime Deck Machinery — General arrangement and deck foundation data for lifeboat davit DAF-375 E Low",
+  "diagram_type": "schematic",
+  "description": "General arrangement drawing of a rescue boat davit: footprint, outreach, support loads at deck attachment points A-D, wire rope data and launch path under 20° list/10° trim. | Figures: C3-0512 — Arrangement & data for deck foundation DAF-375 E Low (revision drawing, 01.04.2019)",
+  "publisher": "Maritime Deck Machinery b.v. / EOL (manufacturer)",
+  "url": "https://www.eolifesaving.com/wp-content/uploads/2021/04/C3-0512E-General-arrangement-DAF-375-E-Low-EO.pdf",
+  "licence": "Manufacturer drawing; footer states reproduction/distribution without authorisation prohibited. Recorded as pointer only; not reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.eolifesaving.com/wp-content/uploads/2021/04/C3-0512E-General-arrangement-DAF-375-E-Low-EO.pdf",
+      "source_id": "drawing-src-eolifesaving-com-c3-0512e-general-arrangement-daf-375-e-low"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. search_verified",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-mdpi-com-4525",
+  "name": "MDPI, Applied Sciences 13(7):4525 (Mei et al., 2023)",
+  "url": "https://www.mdpi.com/2076-3417/13/7/4525",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "MDPI, Applied Sciences 13(7):4525 (Mei et al., 2023)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Schematic of an LNG marine loading arm docking with an LNG ship, identifying control box, swivel joints, outboard/inboard arms, base riser and counterweight. Evidence: https://www.mdpi.com/2076-3417/13/7/4525"
+}

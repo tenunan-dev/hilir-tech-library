@@ -1,0 +1,29 @@
+{
+  "id": "concrete-org-store-productdetail-aspx",
+  "name": "American Concrete Institute — ACI PRC-357.3-25 publication details",
+  "url": "https://www.concrete.org/store/productdetail.aspx?ItemID=357325",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "American Concrete Institute",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. ACI store product page for ACI PRC-357.3-25: Design and Construction of Waterfront and Coastal Concrete Marine Structures—Guide Evidence: https://www.concrete.org/store/productdetail.aspx?ItemID=357325"
+}

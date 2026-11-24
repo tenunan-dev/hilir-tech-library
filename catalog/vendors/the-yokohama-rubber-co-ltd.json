@@ -1,0 +1,24 @@
+{
+  "id": "the-yokohama-rubber-co-ltd",
+  "name": "The Yokohama Rubber Co., Ltd.",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "The Yokohama Rubber Co., Ltd. is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
+      "source_id": "y-yokohama-com-floating"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

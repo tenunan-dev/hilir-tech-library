@@ -1,0 +1,42 @@
+{
+  "id": "mat-civ-grouts-cementitious-epoxy-and-anchoring",
+  "name": "Grouts — cementitious, epoxy and anchoring",
+  "material_category": "grout",
+  "description": "Fill voids between baseplates/sole plates and concrete foundations, anchor bolts and rebar, and grout cable bolts/tunnel segments; transfer loads with high bearing contact and controlled shrinkage.",
+  "specifications": [
+    {
+      "metric": "Conbextra GP gap range",
+      "unit": "mm (AU TDS: 10–100 mm)",
+      "basis": "Fosroc Conbextra GP product page: BS EN 1504-3 Class R4 and EN 1504-6 anchoring of reinforcing bar; non-shrink, high strength, chloride free",
+      "source": {
+        "url": "https://www.fosroc.com/product/show/conbextra-gp",
+        "source_id": "fosroc-com-show-conbextra-gp"
+      },
+      "low": 10,
+      "high": 75
+    }
+  ],
+  "applications": [
+    "Fill voids between baseplates/sole plates and concrete foundations, anchor bolts and rebar, and grout cable bolts/tunnel segments; transfer loads with high bear"
+  ],
+  "standards": [],
+  "equipment": [
+    "civ-shallow-raft-pad-foundations",
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "civ-micropiles"
+  ],
+  "suppliers": [
+    "fosroc",
+    "sika"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fosroc.com/product/show/conbextra-gp",
+      "source_id": "fosroc-com-show-conbextra-gp"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

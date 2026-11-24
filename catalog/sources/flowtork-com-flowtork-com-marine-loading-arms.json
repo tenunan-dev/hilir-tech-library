@@ -1,0 +1,29 @@
+{
+  "id": "flowtork-com-flowtork-com-marine-loading-arms",
+  "name": "Flowtork — Flowtork/Technip Energies refining & petrochemical",
+  "url": "https://flowtork.com/marine-loading-arms",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Flowtork",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Flowtork (Philippines distributor) page for Technip Energies loading systems: 'Diameter 6 to 24 inches, design pressure up to 50 bar'; options heat tracing, ins Evidence: https://flowtork.com/marine-loading-arms"
+}

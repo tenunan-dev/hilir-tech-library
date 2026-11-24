@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-itopf-tip-3-use-of-booms-in-oil-pollution-response-boom-arrangement-fi",
+  "title": "ITOPF TIP 3 — Use of Booms in Oil Pollution Response (boom arrangement figures)",
+  "diagram_type": "schematic",
+  "description": "Boom types, failure modes and deployment configurations: U-configuration between two vessels, V-configuration by two vessels, spur deflection to shore, mooring arrangements and protection of intakes/power stations. | Figures: Figure 1 — Fence boom deflecting oil from moorings; Figure 2a — A solid flotation curtain boom with external ballast; Figure 2b — An external flotation fence boom with external flotation; Figure 2c — An inflatable curtain boom with a combined ballast; Figure 2d — Intertidal shore-sealing boom; Figure 3 — Boom failure modes (entrainment, drainage failure, critical accumulation, splash-over, submergence, planing)",
+  "publisher": "ITOPF (International Tanker Owners Pollution Federation)",
+  "url": "https://itopf.org/fileadmin/uploads/itopf/data/Documents/TIPS_TAPS_new/TIP_3_Use_of_Booms_in_Oil_Pollution_Response.pdf",
+  "licence": "© ITOPF; technical information paper. Figure titles recorded for citation; request reuse permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://itopf.org/fileadmin/uploads/itopf/data/Documents/TIPS_TAPS_new/TIP_3_Use_of_Booms_in_Oil_Pollution_Response.pdf",
+      "source_id": "drawing-src-itopf-org-tip-3-use-of-booms-in-oil-pollution-response-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

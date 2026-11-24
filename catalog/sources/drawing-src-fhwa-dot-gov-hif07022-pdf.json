@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-fhwa-dot-gov-hif07022-pdf",
+  "name": "U.S. Department of Transportation, Federal Highway Administration (FHWA), FHWA-HIF-07-022",
+  "url": "https://www.fhwa.dot.gov/bridge/pubs/07022/hif07022.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "U.S. Department of Transportation, Federal Highway Administration (FHWA), FHWA-HIF-07-022",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "SPMT axle-unit configurations, longitudinal/lateral coupling, lift/jack systems, ground-pressure/base-preparation relationships, temporary shoring settlement and documented SPMT load-out/launch arrangements onto barges. Evidence: https://www.fhwa.dot.gov/bridge/pubs/07022/hif07022.pdf"
+}

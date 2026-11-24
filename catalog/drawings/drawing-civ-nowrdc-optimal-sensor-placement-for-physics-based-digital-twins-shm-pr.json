@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-nowrdc-optimal-sensor-placement-for-physics-based-digital-twins-shm-pr",
+  "title": "NOWRDC — Optimal Sensor Placement for Physics-Based Digital Twins (SHM programme diagrams)",
+  "diagram_type": "block-diagram",
+  "description": "Project and organisational diagrams for offshore wind structural health monitoring and optimal sensor placement research on jacket- and monopile-supported structures at Block Island Wind Farm. | Figures: Figure 1 — Digital Twins require both forward and inverse modeling; Figure 2 — The NOWRDC-OSP Project; Figure 3 — Project Partners and OWTs; Figure 4 — Location and images of the Block Island Wind Farm (BIWF); Figure 5 — Project Organizational Chart",
+  "publisher": "National Offshore Wind Research and Development Consortium (NOWRDC); Tufts University / URI / NREL / NGI",
+  "url": "https://nationaloffshorewind.org/wp-content/uploads/154719_Final-Report.pdf",
+  "licence": "Public research report; attribute authors and NOWRDC. Figures not reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://nationaloffshorewind.org/wp-content/uploads/154719_Final-Report.pdf",
+      "source_id": "drawing-src-nationaloffshorewind-org-154719-final-report-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

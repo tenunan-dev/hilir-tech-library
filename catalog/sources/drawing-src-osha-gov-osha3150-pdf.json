@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-osha-gov-osha3150-pdf",
+  "name": "U.S. Department of Labor, OSHA",
+  "url": "https://www.osha.gov/sites/default/files/publications/OSHA3150.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "U.S. Department of Labor, OSHA",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Alternate publicly cited URL for the OSHA scaffolding guide (see CD-037); direct osha.gov PDF fetch returned an HTML interstitial in this session, so the govinfo copy was used for reading. Evidence: https://www.osha.gov/sites/default/files/publications/OSHA3150.pdf"
+}

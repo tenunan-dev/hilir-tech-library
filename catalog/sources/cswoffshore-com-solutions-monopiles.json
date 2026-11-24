@@ -1,0 +1,29 @@
+{
+  "id": "cswoffshore-com-solutions-monopiles",
+  "name": "Cswoffshore.Com — monopile weight range (fabricator)",
+  "url": "https://www.cswoffshore.com/solutions/monopiles",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Cswoffshore.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. CS WIND Offshore monopile page Evidence: https://www.cswoffshore.com/solutions/monopiles"
+}

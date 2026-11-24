@@ -1,0 +1,73 @@
+{
+  "id": "civ-blast-resistant-walls-blast-doors-and-windows",
+  "name": "Blast-resistant walls, blast doors and windows",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Protect personnel and equipment from accidental or intentional explosion by reinforced concrete/steel barriers and rated doors/glazing designed for specified peak reflected pressure, impulse and standoff.",
+  "specifications": [
+    {
+      "metric": "Blast design standards",
+      "unit": "standards",
+      "basis": "SDI 133-26 lists blast test methods and design criteria: ASTM F2927-21 doors, ASTM F2912-17 glazing, ASTM F1642-17, GSA-TS01-2003, ASCE 2025 3rd edition, PIP STC01018-2014, UFC 4-010-01 2018",
+      "source": {
+        "url": "https://steeldoor.org/sdi-133",
+        "source_id": "steeldoor-org-steeldoor-org-sdi-133"
+      },
+      "value": "ACI 370R-14 / UFC 3-340-02 / ASCE 2025 3rd ed / PIP STC01018"
+    },
+    {
+      "metric": "Sample blast design criteria (non-DoD door)",
+      "unit": "psi / ms / %",
+      "basis": "SDI 133-26 sample criteria: 3 ft x 7 ft door and frame, seated in frame, welded to steel subframe, Category II response, ASTM F2927-21",
+      "source": {
+        "url": "https://steeldoor.org/sdi-133",
+        "source_id": "steeldoor-org-steeldoor-org-sdi-133"
+      },
+      "value": "4 psi peak reflected pressure, 100 ms duration, 50% rebound"
+    },
+    {
+      "metric": "Sample DoD criteria",
+      "unit": "category / ft / level",
+      "basis": "SDI 133-26 sample DoD blast quote request form referencing UFC 4-010-01 12 Dec 2018",
+      "source": {
+        "url": "https://steeldoor.org/sdi-133",
+        "source_id": "steeldoor-org-steeldoor-org-sdi-133"
+      },
+      "value": "Charge Weight II, 250 ft standoff, Medium level of protection"
+    }
+  ],
+  "vendors": [
+    "sdi-certified-manufacturers",
+    "pillar-consulting-group",
+    "bakerrisk"
+  ],
+  "sources": [
+    {
+      "url": "https://steeldoor.org/sdi-133",
+      "source_id": "steeldoor-org-steeldoor-org-sdi-133"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Blast wall thickness vs charge/standoff design tables",
+      "why": "No fetched design table with charge weight and standoff",
+      "next_action": "Fetch UFC 3-340-02 or TM 5-1300 public PDF from WBDG"
+    },
+    {
+      "what": "APAC blast-resistant building suppliers",
+      "why": "No APAC blast door/wall vendor page read",
+      "next_action": "Search APAC blast protection suppliers"
+    }
+  ],
+  "applications": [
+    "Protect personnel and equipment from accidental or intentional explosion by reinforced concrete/steel barriers and rated doors/glazing designed for specified pe"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

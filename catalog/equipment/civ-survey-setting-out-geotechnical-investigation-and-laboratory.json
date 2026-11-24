@@ -1,0 +1,66 @@
+{
+  "id": "civ-survey-setting-out-geotechnical-investigation-and-laboratory",
+  "name": "Survey, setting out, geotechnical investigation and laboratory testing",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Establish control points and setting-out, characterize ground and groundwater via drilling, sampling and in-situ tests, and determine soil/rock properties by laboratory testing for foundation design.",
+  "specifications": [
+    {
+      "metric": "Trimble S9 EDM accuracy (prism)",
+      "unit": "mm + ppm",
+      "basis": "Trimble S9 page: DR PLUS EDM; 2.0 mm + 2 ppm DR; 5500 m max range; angular accuracy 0.5 or 1 arc-second; ISO 17123-3/-4 on spec sheet",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
+        "source_id": "geospatial-trimble-com-hardware-trimble-s9"
+      },
+      "value": "1.0 mm + 2 ppm"
+    },
+    {
+      "metric": "Eurocode 7 Part 2",
+      "unit": "standard",
+      "basis": "JRC Eurocode 7 page: Part 2 covers ground investigation and testing; actions from ground (earth pressures, groundwater) calculated per EN 1997",
+      "source": {
+        "url": "https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-7-geotechnical-design",
+        "source_id": "eurocodes-jrc-ec-europa-eu-en-eurocodes-eurocode-7-geotechnical-de"
+      },
+      "value": "EN 1997-2:2007 Ground investigation and testing"
+    }
+  ],
+  "vendors": [
+    "trimble-geospatial",
+    "leica-geosystems-topcon"
+  ],
+  "sources": [
+    {
+      "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
+      "source_id": "geospatial-trimble-com-hardware-trimble-s9"
+    },
+    {
+      "url": "https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-7-geotechnical-design",
+      "source_id": "eurocodes-jrc-ec-europa-eu-en-eurocodes-eurocode-7-geotechnical-de"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Geotechnical lab test standards and typical result ranges (Atterberg, SPT N, consolidation mv/Cv)",
+      "why": "No lab testing standard datasheet fetched",
+      "next_action": "Fetch a public geotechnical laboratory manual"
+    },
+    {
+      "what": "Leica/Topcon instrument specifications",
+      "why": "No page read",
+      "next_action": "Fetch Leica/Topcon product pages"
+    }
+  ],
+  "applications": [
+    "Establish control points and setting-out, characterize ground and groundwater via drilling, sampling and in-situ tests, and determine soil/rock properties by la"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

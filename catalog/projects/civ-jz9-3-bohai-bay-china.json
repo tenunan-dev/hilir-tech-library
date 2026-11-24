@@ -1,0 +1,25 @@
+{
+  "id": "civ-jz9-3-bohai-bay-china",
+  "name": "JZ9-3 (Bohai Bay, China)",
+  "country": "China",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "two 4-leg jackets, main steel 1,528 t, pile pipe 2,792 t, risers 578 t, total 4,973 t",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cnpc.com.cn/cnpc/gcdx/201507/4e39a22c7cc945b792d7231df2b21e91/files/4a13bd9d4d5b4bd4b8acbc75d01ac9a3.pdf",
+      "source_id": "cnpc-com-cn-files-4a13bd9d4d5b4bd4b8acbc75d01ac9a3-pdf"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

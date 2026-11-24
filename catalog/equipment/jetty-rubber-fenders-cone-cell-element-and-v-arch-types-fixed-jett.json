@@ -1,0 +1,79 @@
+{
+  "id": "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett",
+  "name": "Rubber fenders — cone, cell, element and V/arch types",
+  "equipment_type": "jetty-civil",
+  "sector": "MID",
+  "sector_codes": [
+    "MID",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Absorb berthing kinetic energy and limit reaction force and hull pressure transmitted to the vessel and the berth structure; remain functional when a vessel is moored ('lean-on' loads).",
+  "specifications": [
+    {
+      "metric": "SPC cone fender overall height, range across published sizes",
+      "unit": "mm",
+      "basis": "ShibataFenderTeam SPC cone fender standard size table, SPC 300 to SPC 2000; page states 'heights between 300 and 2,000 mm' in 3 main rubber grades",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
+      },
+      "low": 300,
+      "high": 2000
+    },
+    {
+      "metric": "SPC 2000 cone fender diameter / weight / anchors",
+      "unit": "mm outer diameter (Ø D); weight 9,560 kg; 10 x M56 anchors",
+      "basis": "Largest size in the published SPC dimension table (SPC 2000, H 2000 mm, Ø d 1750 mm)",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
+      },
+      "value": 3090
+    },
+    {
+      "metric": "V-fender SX/SH standard height range",
+      "unit": "mm",
+      "basis": "ShibataFenderTeam V-fender page: standard heights 250-1,000 mm, standard lengths 1,000-3,500 mm, 3 rubber grades",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
+      },
+      "low": 250,
+      "high": 1000
+    },
+    {
+      "metric": "SX 1000 V-fender dimensions",
+      "unit": "mm H; W 1800 mm; w 800 mm; t 47 mm; C 610 mm; PW 1550 mm; anchors M48",
+      "basis": "Published SX fender dimension table, row SX 1000",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
+      },
+      "value": 1000
+    }
+  ],
+  "vendors": [
+    "shibatafenderteam-group",
+    "trelleborg-marine-infrastructure",
+    "the-yokohama-rubber-co-ltd",
+    "pacific-marine-industrial"
+  ],
+  "sources": [
+    {
+      "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+      "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
+    },
+    {
+      "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+      "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Absorb berthing kinetic energy and limit reaction force and hull pressure transmitted to the vessel and the berth structure; remain functional when a vessel is "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

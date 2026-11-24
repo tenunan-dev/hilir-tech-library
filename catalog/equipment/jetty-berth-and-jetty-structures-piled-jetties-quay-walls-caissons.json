@@ -1,0 +1,38 @@
+{
+  "id": "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+  "name": "Berth and jetty structures — piled jetties, quay walls, caissons, sheet piles, trestles and dredging",
+  "equipment_type": "jetty-civil",
+  "sector": "MID",
+  "sector_codes": [
+    "MID",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Provide the load-bearing berth face and access structure that transfers vessel berthing/mooring loads and terminal loads to the seabed, with dredged approach channels and berth pockets providing navigable depth.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Provide the load-bearing berth face and access structure that transfers vessel berthing/mooring loads and terminal loads to the seabed, with dredged approach channels and berth pockets providing navigable depth.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "vendors": [
+    "trelleborg-marine-infrastructure"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Provide the load-bearing berth face and access structure that transfers vessel berthing/mooring loads and terminal loads to the seabed, with dredged approach ch"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "mat-civ-frp-composite-strengthening-systems",
+  "name": "FRP / composite strengthening systems",
+  "material_category": "composite",
+  "description": "Externally bonded carbon/glass fibre laminates and fabrics strengthening concrete, masonry, steel and timber members in flexure, shear, axial confinement and seismic/blast retrofit.",
+  "specifications": [
+    {
+      "metric": "FRP design principle",
+      "unit": "design basis",
+      "basis": "Fyfe FAQ: basic design equations similar to steel with attention to service/ultimate strains of concrete, steel and FRP; validated by hundreds of full-scale tests",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
+        "source_id": "cs-nri-com-resources-frequently-asked-questions"
+      },
+      "value": "linear-elastic tension member; do not use ultimate tensile strength in design"
+    },
+    {
+      "metric": "Tyfo FRP design life / service history",
+      "unit": "years",
+      "basis": "Fyfe FAQ: design goal = life of structure, typically 50–100 years; in service since 1991 including waterfront/tidal zones; multiple major earthquakes",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
+        "source_id": "cs-nri-com-resources-frequently-asked-questions"
+      },
+      "value": "50–100 years; in service since 1991"
+    }
+  ],
+  "applications": [
+    "Externally bonded carbon/glass fibre laminates and fabrics strengthening concrete, masonry, steel and timber members in flexure, shear, axial confinement and se"
+  ],
+  "standards": [],
+  "equipment": [
+    "civ-shallow-raft-pad-foundations",
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "civ-micropiles"
+  ],
+  "suppliers": [
+    "fyfe-frp-critica-infrastructure-henkel",
+    "sika-simpson-strong-tie"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
+      "source_id": "cs-nri-com-resources-frequently-asked-questions"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

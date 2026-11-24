@@ -1,0 +1,23 @@
+{
+  "id": "fyfe-frp-critica-infrastructure-henkel",
+  "name": "Fyfe FRP / Critica Infrastructure (Henkel)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Fyfe FRP / Critica Infrastructure (Henkel) is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

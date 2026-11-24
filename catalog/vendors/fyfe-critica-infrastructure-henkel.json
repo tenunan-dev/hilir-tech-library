@@ -1,0 +1,24 @@
+{
+  "id": "fyfe-critica-infrastructure-henkel",
+  "name": "Fyfe / Critica Infrastructure (Henkel)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Fyfe / Critica Infrastructure (Henkel) is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
+      "source_id": "cs-nri-com-resources-frequently-asked-questions"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-bs-6349-8-2007-ro-ro-ramps-linkspans-and-walkways-linkspan-types-and-p",
+  "title": "BS 6349-8:2007 — Ro-Ro ramps, linkspans and walkways: linkspan types and passenger walkway arrangements",
+  "diagram_type": "schematic",
+  "description": "General arrangement and interface diagrams for linkspans and passenger walkways, including motorized carriage and traversing drawbridge arrangements, plan geometry, clearances and transition geometry. | Figures: Figure 1 — Linkspan types; Figure 2 — Passenger walkways – Type A – Motorized carriage at ship; Figure 3 — Passenger walkways – Type B – Motorized carriage at ship; Figure 4 — Passenger walkways – Type C – Traversing drawbridge on [vehicle deck]; Figure 5 — Passenger walkways – Type D – Single tunnel supported on [linkspan]; Figure 7 — Plan geometry of linkspans",
+  "publisher": "British Standards Institution (BSI)",
+  "url": "https://shaghool.ir/Files/BS6349_8_Code-of-practice-for-the-design-of-Ro-Ro-ramps-linkspans-and-walkways-2007.pdf",
+  "licence": "© BSI; third-party hosted copy. Figure titles recorded for citation only; figures not reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://shaghool.ir/Files/BS6349_8_Code-of-practice-for-the-design-of-Ro-Ro-ramps-linkspans-and-walkways-2007.pdf",
+      "source_id": "drawing-src-shaghool-ir-bs6349-8-code-of-practice-for-the-design-of-ro-r"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

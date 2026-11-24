@@ -1,0 +1,25 @@
+{
+  "id": "civ-lumut-maritime-terminal-2-lmt2-batu-undan-perak-malaysia",
+  "name": "Lumut Maritime Terminal 2 (LMT2), Batu Undan, Perak, Malaysia",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "New 396 m long berth. ShibataFenderTeam designed/supplied 36 x SPC 1200 (G1.0) cone fender systems, each with a 2000 x 4320 mm closed-box steel panel, plus 37 T-head bollards rated 80 tonnes. Original tender specified FE leg fenders at 6.5 m spacing; optimised to cone fenders at 12.5 m spacing. Chain assemblies duplex-coated for corrosion protection. Client Lumut Maritime Terminal; contractor MEB Construction Sdn Bhd.",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
+      "source_id": "shibata-fender-team-news-detail-optimizing-the-fender-design-for-l"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

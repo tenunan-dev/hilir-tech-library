@@ -64,6 +64,8 @@ ROUTING — pick the tool by the question being asked:
   status, sector or country), get_project.
 - "What products / model lines supply X, and what do their spec sheets say?" -> list_products
   (filter by product_type, manufacturer or text), then get_product for the printed specifications.
+- "What material should be used / what are its properties?" -> list_materials (filter by material_category),
+  then get_material for the property values, basis and sources.
 - "Is there a PFD or P&ID for this process or equipment?" -> list_drawings (filter by diagram_type,
   sector or text), then get_drawing for its scope, publisher, url and reuse terms. The diagram itself
   is not copied here; open the url and respect its licence.
@@ -399,6 +401,22 @@ def get_drawing(drawing_id: str) -> dict | None:
     technology cards it covers, and the recorded reuse terms. Returns null for an unknown id."""
     return _with_neon(lambda: pg.drawing_row(drawing_id),
                       lambda: library.get_drawing(drawing_id, db()))
+
+
+@server.tool()
+def list_materials(material_category: str | None = None, query: str | None = None) -> list[dict]:
+    """Engineering materials with sourced properties: concrete, steel, coatings, fenders, anodes and
+    more for civil, jetty, terminal and nearshore work. material_category groups them (call with no
+    arguments to see the categories); query is text."""
+    return _with_neon(lambda: pg.material_rows(material_category, query),
+                      lambda: library.list_materials(material_category, query, db()))
+
+
+@server.tool()
+def get_material(material_id: str) -> dict | None:
+    """One material: property values with their basis and source URL, applications, standards, suppliers and gaps."""
+    return _with_neon(lambda: pg.material_row(material_id),
+                      lambda: library.get_material(material_id, db()))
 
 
 @server.tool()

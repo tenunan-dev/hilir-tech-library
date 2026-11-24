@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-fhwa-manual-on-use-of-self-propelled-modular-transporters-spmt-to-move",
+  "title": "FHWA — Manual on Use of Self-Propelled Modular Transporters (SPMT) to Move Bridges (SPMT arrangement figures)",
+  "diagram_type": "schematic",
+  "description": "SPMT axle-unit configurations, longitudinal/lateral coupling, lift/jack systems, ground-pressure/base-preparation relationships, temporary shoring settlement and documented SPMT load-out/launch arrangements onto barges. | Figures: Figure 1(a) — SPMT six-axle unit, 8 ft (2.4 m) wide; Figure 1(b) — SPMT six-axle unit, 10 ft (3 m) wide; Figure 1(c) — SPMT units coupled longitudinally and laterally; Figure 2(a) — Titan Bridge Lift System; Figure 2(b) — Climbing jack system; Figure 2(c) — Container support system",
+  "publisher": "U.S. Department of Transportation, Federal Highway Administration (FHWA), FHWA-HIF-07-022",
+  "url": "https://www.fhwa.dot.gov/bridge/pubs/07022/hif07022.pdf",
+  "licence": "U.S. Government work; public domain with attribution. Figures not reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fhwa.dot.gov/bridge/pubs/07022/hif07022.pdf",
+      "source_id": "drawing-src-fhwa-dot-gov-hif07022-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mat-near-api-spec-2h-grade-50-offshore-structural-steel-plate",
+  "name": "API Spec 2H Grade 50 offshore structural steel plate",
+  "material_category": "offshore-structural-steel",
+  "description": "Normalized carbon-manganese plate for welded offshore structures, tubular joints, stiffened plate and through-thickness tension zones.",
+  "specifications": [
+    {
+      "metric": "stocked thickness range",
+      "unit": "in",
+      "basis": "Universal Steel America stocks API 2H 1/4 to 4 in in normalized condition, with supplements S1-S5",
+      "source": {
+        "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
+        "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
+      },
+      "low": 0.25,
+      "high": 4
+    },
+    {
+      "metric": "key properties",
+      "unit": "n/a",
+      "basis": "Universal Steel / AZoM supplier-sponsored descriptions",
+      "source": {
+        "url": "https://www.azom.com/article.aspx?ArticleID=5344",
+        "source_id": "azom-com-www-azom-com-article-aspx"
+      },
+      "value": "fracture resistance, high impact toughness, fatigue loading resistance, high yield strength, lamellar tearing resistance"
+    }
+  ],
+  "applications": [
+    "Normalized carbon-manganese plate for welded offshore structures, tubular joints, stiffened plate and through-thickness tension zones."
+  ],
+  "standards": [],
+  "equipment": [
+    "near-fixed-steel-jacket-oil-gas",
+    "near-topsides-decks-and-module-support-frames",
+    "near-legs-pile-foundations-conductors-and-risers",
+    "near-bridges-helidecks-and-accommodation-modules"
+  ],
+  "suppliers": [
+    "universal-steel-america",
+    "masteel-uk-ltd"
+  ],
+  "sources": [
+    {
+      "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
+      "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
+    },
+    {
+      "url": "https://www.azom.com/article.aspx?ArticleID=5344",
+      "source_id": "azom-com-www-azom-com-article-aspx"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

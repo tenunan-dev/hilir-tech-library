@@ -1,0 +1,67 @@
+{
+  "id": "civ-passive-fire-protection-intumescent-coatings-and-fireproofin",
+  "name": "Passive fire protection — intumescent coatings and fireproofing",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Insulate structural steel, vessels, raceways and divisions from cellulosic and hydrocarbon fires to maintain load-bearing capacity for a specified rating (e.g. H-0/H-60/H-120, R30–R180, 1–4 hours).",
+  "specifications": [
+    {
+      "metric": "Carboline Thermo-Lag 3000-P/SP solids content",
+      "unit": "% by volume",
+      "basis": "Carboline product page and PDS: two-component epoxy intumescent fireproofing; tested UL 1709, UL 2431 Category I-A, ISO 834-3, IMO FTP Code (H-0/H-60/H-120), ASTM E84, ASTM E119, ISO 20340, NFPA 290 extended to 150 minutes",
+      "source": {
+        "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
+        "source_id": "carboline-com-product-details-thermo-lag-3000-p"
+      },
+      "value": 95
+    },
+    {
+      "metric": "FRP fire protection",
+      "unit": "system",
+      "basis": "Fyfe FAQ: FRP does not reduce existing fire rating; no special protection for intermittent seismic/blast loads; Class 1/A flame & smoke per ASTM E84 may be needed for egress; Tyfo CFP for gravity-load cases",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
+        "source_id": "cs-nri-com-resources-frequently-asked-questions"
+      },
+      "value": "Tyfo CFP coating / Tyfo RR finish"
+    }
+  ],
+  "vendors": [
+    "carboline",
+    "altex-coatings",
+    "igsb"
+  ],
+  "sources": [
+    {
+      "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
+      "source_id": "carboline-com-product-details-thermo-lag-3000-p"
+    },
+    {
+      "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
+      "source_id": "cs-nri-com-resources-frequently-asked-questions"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Hydrocarbon jet-fire vs pool-fire DFT tables for specific section factors",
+      "why": "No full approved DFT table fetched (PDF snippets only)",
+      "next_action": "Fetch full Thermo-Lag 3000 PDS/UL listing PDF via a browser that supports PDFs"
+    },
+    {
+      "what": "APAC fireproofing applicators and approvals",
+      "why": "Only global manufacturer pages read",
+      "next_action": "Search APAC fireproofing supplier pages"
+    }
+  ],
+  "applications": [
+    "Insulate structural steel, vessels, raceways and divisions from cellulosic and hydrocarbon fires to maintain load-bearing capacity for a specified rating (e.g. "
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

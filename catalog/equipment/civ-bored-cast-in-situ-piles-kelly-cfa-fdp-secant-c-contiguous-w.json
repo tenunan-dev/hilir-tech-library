@@ -1,0 +1,78 @@
+{
+  "id": "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+  "name": "Bored cast-in-situ piles — Kelly, CFA, FDP, secant/c contiguous walls",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Replace soil with a drilled, concreted cylindrical pile transferring load to deep bearing strata; also used contiguous/secant to form excavation support and groundwater cut-off walls. CFA concretes from bottom up through the hollow auger as it is withdrawn.",
+  "specifications": [
+    {
+      "metric": "Secant pile wall example",
+      "unit": "mm x m",
+      "basis": "BAUER geotechnical solutions page, Businesspark Hannover Germany: secant pile wall with double-head drilling method",
+      "source": {
+        "url": "https://geotechnical-solutions.bauer.de/en/piles",
+        "source_id": "geotechnical-solutions-bauer-de-en-piles"
+      },
+      "value": "880 mm diameter x 16 m deep"
+    },
+    {
+      "metric": "BAUER Seabed Drill current capability",
+      "unit": "knots",
+      "basis": "BSD 3000 underwater drilling rig works in currents up to 12 knots, remotely operated via umbilicals",
+      "source": {
+        "url": "https://geotechnical-solutions.bauer.de/en/piles",
+        "source_id": "geotechnical-solutions-bauer-de-en-piles"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Liebherr LRB 23 operating weight",
+      "unit": "t",
+      "basis": "Liebherr LRB 23 product page; max torque 300 kNm, crowd 320 kN, engine 600 kW, max pile length with slim vibrator 22.0 m",
+      "source": {
+        "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
+        "source_id": "liebherr-com-p-lrb23-4424791"
+      },
+      "low": 72.6,
+      "high": 78.5
+    }
+  ],
+  "vendors": [
+    "bauer-spezialtiefbau-gmbh",
+    "liebherr",
+    "bauer-equipment-australia-pty-ltd"
+  ],
+  "sources": [
+    {
+      "url": "https://geotechnical-solutions.bauer.de/en/piles",
+      "source_id": "geotechnical-solutions-bauer-de-en-piles"
+    },
+    {
+      "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
+      "source_id": "liebherr-com-p-lrb23-4424791"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "CFA pile load-test acceptance criteria and integrity testing frequencies",
+      "why": "Not present in fetched pages",
+      "next_action": "Fetch EN 1997-1 / local code requirements on pile testing"
+    },
+    {
+      "what": "APAC CFA contractors with published diameter/depth ranges",
+      "why": "No APAC-specific CFA contractor page read",
+      "next_action": "Search APAC specialist contractors"
+    }
+  ],
+  "applications": [
+    "Replace soil with a drilled, concreted cylindrical pile transferring load to deep bearing strata; also used contiguous/secant to form excavation support and gro"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

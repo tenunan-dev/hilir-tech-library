@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-assets-publishing-service-gov-uk-msis-14-chapter-18-pdf",
+  "name": "UK Maritime and Coastguard Agency (MCA), Merchant Shipping Instructions",
+  "url": "https://assets.publishing.service.gov.uk/media/5efb1d50d3bf7f769866dc36/MSIS_14_Chapter_18.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "UK Maritime and Coastguard Agency (MCA), Merchant Shipping Instructions",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Regulatory text defining boat deck layout, chocks, platforms, fendering and davit/launching appliance requirements — a citable source for lifeboat arrangement drawings rather than a drawing itself. Evidence: https://assets.publishing.service.gov.uk/media/5efb1d50d3bf7f769866dc36/MSIS_14_Chapter_18.pdf"
+}

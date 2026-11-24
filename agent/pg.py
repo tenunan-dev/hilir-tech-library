@@ -327,6 +327,8 @@ def library_stats() -> dict:
         out["products"] = cur.fetchone()[0]
         cur.execute("SELECT count(*) FROM drawing")
         out["drawings"] = cur.fetchone()[0]
+        cur.execute("SELECT count(*) FROM material")
+        out["materials"] = cur.fetchone()[0]
         return out
 
     return _execute(work)
@@ -705,6 +707,36 @@ def equipment_row(equipment_id: str) -> dict | None:
         rows = cur.fetchall()
         return _jsonb(rows[0][0]) if rows else None
 
+    return _execute(work)
+
+
+def material_rows(material_category: str | None = None, query: str | None = None) -> list[dict]:
+    """list_materials-shaped rows from og.material.record, filtered like the SQLite path."""
+    def work(cur):
+        import materials as material_records
+        cur.execute("SELECT record FROM material ORDER BY name")
+        out = []
+        for r in cur.fetchall():
+            rec = _jsonb(r[0])
+            if material_category and material_category != rec.get("material_category"):
+                continue
+            hay = " ".join([rec["name"], " ".join(rec.get("aliases", [])), rec.get("description", ""),
+                            rec.get("material_category", ""), " ".join(rec.get("applications", [])),
+                            " ".join(rec.get("standards", [])),
+                            " ".join(sp["metric"] for sp in rec.get("specifications", []))]).lower()
+            if query and query.lower() not in hay:
+                continue
+            out.append(material_records.summary(rec))
+        return out
+    return _execute(work)
+
+
+def material_row(material_id: str) -> dict | None:
+    """One full material record from og.material.record."""
+    def work(cur):
+        cur.execute("SELECT record FROM material WHERE id = %s", (material_id,))
+        rows = cur.fetchall()
+        return _jsonb(rows[0][0]) if rows else None
     return _execute(work)
 
 

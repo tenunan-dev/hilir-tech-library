@@ -1,14 +1,30 @@
 # ROT: Rotating and static equipment
 
-425 sources. Sub-topics: compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals.
+547 sources. Sub-topics: compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
+| [Acteon / MENCK — Menck hammer range energy](https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers) | oem-supplier | global, apac, sea | open | summary-only |
 | [Alleima](https://ureaknowhow.com/) | oem-supplier | global, apac, sea | open | summary-only |
+| [Altex Coatings](https://api.altexcoatings.com/download.cfm?download=pds&productid=325) | oem-supplier | global, apac, sea | open | summary-only |
+| [American Concrete Institute — ACI PRC-357.3-25 publication details](https://www.concrete.org/store/productdetail.aspx?ItemID=357325) | standards-body | global, apac, sea | open | summary-only |
 | [American Petroleum Institute](https://www.api.org/products-and-services/standards/important-standards-announcements/standard521) | oem-supplier | global, apac, sea | open | summary-only |
+| [American Steel & Aluminum — ASTM A992 yield strength](https://americansteelandaluminum.com/resources/materials/a992-steel) | oem-supplier | global, apac, sea | open | summary-only |
 | [Ammoniaenergy.Org — Guohua (Cangzhou) Integrated Energy 'Green Port Hydroge](https://ammoniaenergy.org/wp-content/uploads/2026/08/AEA-LEAD-Plants-Executive-Summary-August-2026.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Ampelmann Operations B.V.](https://www.ampelmann.nl/systems) | oem-supplier | global, apac, sea | open | summary-only |
+| [Ampelmann — Ampelmann E-type significant wave height compensat](https://www.ampelmann.nl/systems/e-type) | oem-supplier | global, apac, sea | open | summary-only |
+| [Ampelmann — Petrobras / Solstad Offshore, Brazil — A-type and E-typ](https://www.ampelmann.nl/news-articles/ampelmann-signs-two-year-contract-extension-with-solstad-offshore-in-brazil) | oem-supplier | global, apac, sea | open | summary-only |
+| [Ampelmann — Taiwan offshore wind — two E1000 systems](https://www.ampelmann.nl/news-articles/winds-of-change-ampelmann-signs-two-e1000-systems-to-drive-growth-in-taiwans-offshore-wind-market) | oem-supplier | global, apac, sea | open | summary-only |
 | [ANDRITZ PowerFluid circulating fluidized bed boilers](https://www.andritz.com/products-en/tiac/environmental-solutions/powerfluid-boilers) | oem-supplier | global, eu, apac | open | summary-only |
+| [ArcelorMittal Orange Book](https://orangebook.arcelormittal.com/node/184) | oem-supplier | global, apac, sea | open | summary-only |
 | [Assetlibrary.Msasafety.Com — Detection applications in tank farms](https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [ASTM International — Rebar welding code](https://www.astm.org/Standards/A615.htm) | standards-body | global, apac, sea | open | summary-only |
+| [AWS — AWS D1.1/D1.1M:2025](https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/) | standards-body | global, apac, sea | open | summary-only |
+| [AZoM — key properties](https://www.azom.com/article.aspx?ArticleID=5344) | oem-supplier | global, apac, sea | open | summary-only |
+| [BakerRisk](https://www.bakerrisk.com/wp-content/uploads/2025/06/BakerRisk-ASCE-Manual-Update-Webinar-6-18-2025.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Barnhart Crane & Rigging](https://www.barnhartcrane.com/goldhofer-spmt) | oem-supplier | global, apac, sea | open | summary-only |
+| [BAUER Equipment Australia Pty Ltd](https://www.bauerequipment.com.au/en/micro-piles) | oem-supplier | global, apac, sea | open | summary-only |
+| [BAUER Spezialtiefbau GmbH](https://geotechnical-solutions.bauer.de/en/piles) | oem-supplier | global, apac, sea | open | summary-only |
 | [Blogs.Ubc.Ca — Refrigeration utility selection (design study)](https://blogs.ubc.ca/rajdeepdev/files/2020/01/201_220-final-report.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Boiler blowdown heat recovery (Fig. 14.6.10) — Condensate Recovery: Flash Steam](https://www.spiraxsarco.com/learn-about-steam/condensate-recovery/flash-steam?sc_lang=en-GB) | oem-supplier | global, apac, sea, eu | open | summary-only (unverified) |
 | [Boiler Blowdown Heat Recovery Systems — Installation, Operation and Maintenance, AI-P404-07 AB Issue 7, Figs 1](https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/en/ai/heat_recovery-ai-p404-07-en.ashx?rev=3487fc6fff89450eb5babb1fa9d70195) | oem-supplier | global, apac, sea, eu | open | summary-only (unverified) |
@@ -16,34 +32,102 @@
 | [Boiler fittings and mountings](https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [Boiler Fittings and Mountings — Figures 3.7.1 to 3.7.14 (automatic TDS control, bottom blowdown, feedwater che](https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings) | oem-supplier | global, apac, sea, eu | open | summary-only |
 | [Booksite.Elsevier.Com — Refrigeration working fluids](https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Boomarine](https://www.boomarine.com/products/uhmwpe-marine-fender-sliding-panel) | oem-supplier | global, apac, sea | open | summary-only |
+| [Boskalis](https://boskalis.com/markets/infrastructure/tunnels-and-bridges) | oem-supplier | global, apac, sea | open | summary-only |
+| [Boskalis — NASR field jacket net installed weight](https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate) | oem-supplier | global, apac, sea | open | summary-only |
 | [Bottom blowdown](https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Bridgestone — Bridgestone seismic isolation product line](https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [Bridgestone — Tohoku University seismic isolation test buildings](https://www.bridgestone.com/products/diversified/antiseismic_rubber/pdf/leaflet_en_202210.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Bühler](https://www.buhlergroup.com/global/en/homepage.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [Carboline](https://www.carboline.com/products/product-details/Thermo-Lag-3000-P) | oem-supplier | global, apac, sea | open | summary-only |
 | [Casale](https://casale.ch/technologies/ammonia/) | oem-supplier | global, apac, sea | open | summary-only |
 | [Casale — CO2 conversion in reactor (Split Flow Loop)](https://www.casale.ch/technologies/urea/) | oem-supplier | global, apac, sea | open | summary-only |
 | [Casale — N-LOOP ammonia synthesis loop](https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/) | oem-supplier | global, apac, sea | open | summary-only |
+| [Cathodic Protection Management — Cathodic Marine zinc anode specification](https://cathodicme.com/services/sacrificial-anodes-system) | oem-supplier | global, apac, sea | open | summary-only |
+| [CathPro](https://www.cathprocp.com/aluminum-sacrificial-anodes.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [CCME MCPS — protection criterion](https://www.ccme-mcps.com/services/impressed-current-cathodic-protection) | oem-supplier | global, apac, sea | open | summary-only |
 | [Chart Industries (Howden) — Howden reciprocating gas compressor ratings](https://www.chartindustries.com/Howden) | oem-supplier | global, apac, sea | open | summary-only |
 | [Chemguide — A flow scheme for the Haber Process (haberflow.gif)](https://www.chemguide.co.uk/physical/equilibria/haber.html) | research-institute | global, apac, sea | open | summary-only |
 | [Circulating fluidized-bed boilers](https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers) | oem-supplier | global, na, apac | open | summary-only |
+| [Cnpc.Com.Cn — JZ9-3 (Bohai Bay, China)](https://www.cnpc.com.cn/cnpc/gcdx/201507/4e39a22c7cc945b792d7231df2b21e91/files/4a13bd9d4d5b4bd4b8acbc75d01ac9a3.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Cometto.Com — Cometto MSPE axle load range](https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter) | oem-supplier | global, apac, sea | open | summary-only |
+| [Corporate.Exxonmobil.Com — Bream B (Bass Strait)](https://corporate.exxonmobil.com/-/media/global/files/locations/australia/decommissioning-campaign-1-project-update---september-2024.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [CRSI (Concrete Reinforcing Steel Institute)](https://www.irebar.com/USCommonBarGrades.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [Cswoffshore.Com — monopile weight range (fabricator)](https://www.cswoffshore.com/solutions/monopiles) | oem-supplier | global, apac, sea | open | summary-only |
+| [Deep Trekker](https://www.deeptrekker.com/resources/case-study-offshore-riser-inspections-with-an-underwater-rov) | oem-supplier | global, apac, sea | open | summary-only |
+| [Deepwater (stoprust.com)](https://stoprust.com/sacrificial-anodes) | oem-supplier | global, apac, sea | open | summary-only |
+| [DESMI (Ro-Clean)](https://www.desmiro-clean.com/products-solutions/oil-spill-response) | oem-supplier | global, apac, sea | open | summary-only |
 | [Desuperheater Online Program Sizing Guidance — TI-P475-06 CTLS Issue 4, combined pressure reducing/desuperheat](https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/en/ti/dsh_sizing-ti-p475-06-en.ashx?rev=da7fa56dddf14745b69654a9cf6112c2) | oem-supplier | global, apac, sea, eu | open | summary-only (unverified) |
+| [DNV — DNV-ST-0126 support structures for wind turbines](https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/) | standards-body | global, apac, sea | open | summary-only |
+| [DNV — fatigue design standard](https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures) | standards-body | global, apac, sea | open | summary-only |
+| [DockGuard Ltd](https://www.dockguard.com/en/uhmw-pe-panel-fenders/) | oem-supplier | global, apac, sea | open | summary-only |
+| [Doowin Marine](https://doowinmarine.com/floating-yokohama-type-pneumatic-rubber-fenders) | oem-supplier | global, apac, sea | open | summary-only |
 | [Dynaflow — Number of distinct cooling systems at one ammonia ](https://dynaflow.com/consulting/projects/design-review-of-cooling-water-systems-for-ammonia-plant/) | oem-supplier | global, apac, sea | open | summary-only |
+| [Dynamic Isolation Systems (DIS)](https://dis-inc.com/products/base-isolators) | oem-supplier | global, apac, sea | open | summary-only |
 | [ECOjet Edge+ low-NOx burner](https://johnzink.com/products/powerburners/ecojet-edge-plus) | oem-supplier | global, na, apac | open | summary-only |
+| [EEW Group (EEW SPC / PPE / Korea / Malaysia)](https://eew-group.com/offshore-wind) | oem-supplier | global, apac, sea | open | summary-only |
 | [Enipedia.Org — Export terminal](https://enipedia.org/wiki/Petronas_Fertiliser_Kedah) | oem-supplier | global, apac, sea | open | summary-only |
 | [EPA Ireland — Typical arrangement of flue gas treatment and CEMS at a](https://leap.epa.ie/docs/118948d5-4f92-4cda-893b-5a4f751c8f4b.pdf) | agency-data | global, apac | open | summary-only (unverified) |
+| [Equinor.Com — Northern Lights](https://www.equinor.com/energy/northern-lights) | oem-supplier | global, apac, sea | open | summary-only |
 | [Esg.Pusri.Co.Id — Boiler types in Pusri cradle-to-gate boundary](https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [European Commission JRC — Eurocode 7 scope](https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-7-geotechnical-design) | research-institute | global, apac, sea | open | summary-only |
+| [FDG](https://www.fdgau.com/wp-content/uploads/sites/2/2026/08/AU-Cable-Tray-Technical-Specifications.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Figure 1.3.2 — A sophisticated feedtank system where the water is being heated by steam injection](https://www.spiraxsteam.com/uploads/pdfs/202608/20260901062219858_2ccbde3a.pdf) | oem-supplier | global, apac, sea, eu | open | summary-only (unverified) |
+| [Flowtork — Flowtork/Technip Energies refining & petrochemical](https://flowtork.com/marine-loading-arms) | oem-supplier | global, apac, sea | open | summary-only |
+| [Flyability — inspection time: rope/boat vs drone](https://www.flyability.com/blog/offshore-drone-inspections) | oem-supplier | global, apac, sea | open | summary-only |
+| [Fosroc — Cementitious grout for baseplates (gap range)](https://www.fosroc.com/product/show/conbextra-gp) | oem-supplier | global, apac, sea | open | summary-only |
+| [Fyfe / CS-NRI — FRP fire protection](https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions) | oem-supplier | global, apac, sea | open | summary-only |
 | [GE Vernova heat recovery steam generators](https://www.gevernova.com/gas-power/products/hrsg) | oem-supplier | global, na, apac, sea, me, eu | open | summary-only |
+| [GEOfabrics Limited](https://geofabrics.com/wp-content/uploads/2024/02/Coastal-Brochure.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Goldhofer — Goldhofer THP/SL axle load](https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl) | oem-supplier | global, apac, sea | open | summary-only |
 | [Google Patents — Effluent quantity from urea synthesis reaction](https://patents.google.com/patent/US5096599A/en) | oem-supplier | global, apac, sea | open | summary-only |
+| [Hai Nam](https://www.hainamsi.com/wp-content/uploads/2024/11/05.-Catalog-Cable-Tray-.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [HAIL](https://hail.ltd/locations/overseas-storage-tank-contractor) | oem-supplier | global, apac, sea | open | summary-only |
 | [Heat recovery from boiler blowdown — SB-P404-11 (AU)](https://content.spiraxsarco.com/-/media/spiraxsarco/international/documents/au/sb/heat_recovery_tds-sb-p404-11-au.ashx?rev=1ef8cf853c454be982e4cd3d492b05a7) | oem-supplier | global, apac, sea, eu | open | summary-only (unverified) |
+| [Holcim / Lafarge / YTL / Tasek](https://gcc.sika.com/dms/getdocument.get/91ef3f05-7d23-456c-9cd2-5a21c6d0ee5b/pds-sikacontrol-113aer.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Huisman Equipment](https://www.huismanequipment.com/en/1007-4_Huisman-awarded-with-contract-for-world-s-largest-Leg-Encircling-Crane?p=1) | oem-supplier | global, apac, sea | open | summary-only |
+| [Igs.Org.In — Indian railway embankment soft-ground improvement](https://igs.org.in/storage/proceedings-uploads/TH-08-108-160523094501.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [IGSB](https://www.igsb.eu/en/faq) | oem-supplier | global, apac, sea | open | summary-only |
+| [India Electricals (IES)](https://indiaelectricals.net/products/perforated-cable-tray/) | oem-supplier | global, apac, sea | open | summary-only |
 | [Info.Zeeco.Com — Number of flare types typically used in a urea pla](https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en) | oem-supplier | global, apac, sea | open | summary-only |
 | [International Energy Agency — Mass flows in the ammonia supply chain from fossil fuel](https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf) | agency-data | global, apac, sea | open | summary-only |
+| [International Organization for Standardization — jack-up standard (elevated at a site)](https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0) | standards-body | global, apac, sea | open | summary-only |
+| [International Organization for Standardization — jack-ups within fixed steel structure standard sco](https://www.iso.org/standard/65688.html) | standards-body | global, apac, sea | open | summary-only |
+| [IQIP](https://iqip.com/products/pile-driving-equipment/hydrohammer) | oem-supplier | global, apac, sea | open | summary-only |
+| [Jan De Nul / Hitachi consortium](https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm) | oem-supplier | global, apac, sea | open | summary-only |
 | [Japanese Industrial Standards (JISC)](https://www.jisc.go.jp/eng/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [John Zink Asia-Pacific locations](https://johnzink.com/our-business/locations/asia-pacific) | oem-supplier | apac, sea, na | open | summary-only |
 | [Johnson Matthey](https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde) | oem-supplier | global, apac, sea | open | summary-only |
+| [Jotun](https://www.jotun.com/ww-en/products-and-services/products/Antifouling-SeaGuardian) | oem-supplier | global, apac, sea | open | summary-only |
+| [L-Vision Engineering Pte Ltd](https://www.l-vision.com/services/cid/6449/sid/55671/api-650-tank-construction-erection-in-singapore-malaysia-equipment-design-and-fabrication) | oem-supplier | global, apac, sea | open | summary-only |
+| [Layher — Layher Allround connections per rosette](https://www.layher.com/en/products/allroundscaffolding) | oem-supplier | global, apac, sea | open | summary-only |
+| [Liebherr](https://www.liebherr.com/shared/media/maritime-cranes/downloads-and-brochures/brochures/offshore-cranes/liebherr-offshore-cranes-product-range_en.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Liebherr (Deep Foundation)](https://www.liebherr.com/en-us/p/lrb23-4424791) | oem-supplier | global, apac, sea | open | summary-only |
+| [Malaysia Marine & Heavy Engineering](https://www.upstreamonline.com/field-development/mmhe-wins-platform-epc-prize-for-shell-s-malaysia-gas-project/2-1-1331945) | oem-supplier | global, apac, sea | open | summary-only |
+| [Malaysia Marine & Heavy Engineering (MHB/MMHE)](https://www.mhb.com.my) | oem-supplier | global, apac, sea | open | summary-only |
 | [MAN Energy Solutions — Power range](https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html) | oem-supplier | global, apac | open | summary-only |
+| [Maritimejournal.Com — FLNG facility, Malaysia — largest CSS3000 cell fenders](https://maritimejournal.com/mj-directory/shibatafenderteam/shibatafenderteam-supplies-largest-cell-fenders-css3000-to-flng-facility-in-malaysia/1505141.supplierarticle) | oem-supplier | global, apac, sea | open | summary-only |
+| [Masteel UK Ltd](https://masteel.co.uk/offshore-industry/) | oem-supplier | global, apac, sea | open | summary-only |
+| [Menard (ground improvement specialist)](https://menard.pl/wp-content/uploads/sites/13/2023/05/MEN_wkl_SC_2-1.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Miscellaneous boiler types, economisers and superheaters](https://spiraxsarco.com/learn-about-steam/the-boiler-house/miscellaneous-boiler-types-economisers-and-superheaters?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [Miura America product range](https://miuraboiler.com/products-category/all) | oem-supplier | global, na, apac, sea | open | summary-only |
 | [Miura LX series steam boiler (Canada)](https://miuraboiler.ca/product/lx-steam-boiler) | oem-supplier | global, na, apac | open | summary-only |
+| [MME Group](https://www.mme-group.com/cathodic-protection/sacrificial-anodes) | oem-supplier | global, apac, sea | open | summary-only |
+| [Naue GmbH & Co. KG](https://www.naue.com/global-en/products/geotextiles/secutex-h) | oem-supplier | global, apac, sea | open | summary-only |
+| [NPES](https://www.npes.in/services/cable-trays) | oem-supplier | global, apac, sea | open | summary-only |
+| [Nucor](https://rosap.ntl.bts.gov/view/dot/32013/dot_32013_DS1.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Oceaneering / Subsea 7 (ROV services)](https://onlinelibrary.wiley.com/doi/full/10.1155/stc/8468521) | oem-supplier | global, apac, sea | open | summary-only |
+| [Offshore Wind (Navingo) — West of Duddon Sands armour rock grading](https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring) | oem-supplier | global, apac, sea | open | summary-only |
+| [Pacific Marine & Industrial (PM&I)](https://www.pacificmarine.net/marine-deck/marine-fenders/pneumatic-fenders-yokohama-fenders.htm) | oem-supplier | global, apac, sea | open | summary-only |
+| [PALFINGER — PALFINGER AHC hoisting capacity / jib radius / wir](https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [PERI GmbH](https://www.peri.com.au/product/formwork-load-calculator.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [Peri.Com.Au — PERI formwork project list (cross-reference)](https://www.peri.com.au/dam/jcr:c64fb84d-069b-4138-a85b-b872077fbb42/duo-brochure-2026.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Perihk.Com — Kinmen Bridge / HKZMB transition structure](https://www.perihk.com/en/dam/jcr:e01650b3-8c83-4870-b76d-7f835f87a0c4/peri-greater-china-product-handbook.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Petronas.Com — PC Fertiliser Sabah (Sabah ammonia/urea complex)](https://www.petronas.com/pcg/sites/default/files/uploads/content/pdf/petronas-annual-report-2017.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [PIANC — PIANC WG33 publication year and status](https://pianc.us/webinar-updated-guidelines-for-the-design-of-fender-systems) | oem-supplier | global, apac, sea | open | summary-only |
+| [Pillar Consulting Group](https://pillar-inc.com/wp-content/uploads/2017/06/INDUSTRIAL-MARKET-Project-Profile-02-Industrial-Blast-Walls.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Porthosco2.Nl — Porthos CO2 injection host](https://www.porthosco2.nl/en) | oem-supplier | global, apac, sea | open | summary-only |
+| [Portland Bolt](https://www.portlandbolt.com/technical/specifications/astm-f3125) | oem-supplier | global, apac, sea | open | summary-only |
 | [Pressure Reducing Valves for Steam — Fig. 1 process application, Fig. 2 direct-acting PRV, Fig. 3 pilot-operat](https://www.tlv.com/steam-info/steam-theory/other/pressure-reducing-valves-for-steam) | oem-supplier | global, apac | open | summary-only |
 | [Pressurised deaerators](https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [Prosim.Net — Simulation flowsheet of an ammonia synthesis process fr](https://www.prosim.net/wp-content/uploads/2023/05/PSPS_EX_EN-Ammonia-Synthesis-Process.pdf) | oem-supplier | global, apac, sea | open | summary-only |
@@ -53,6 +137,19 @@
 | [S3.Amazonaws.Com — PASB Kerteh OTS control systems](https://s3.amazonaws.com/aramis-craft-medias/case_studies/pdf/36-Petronas-PGSB-PASB-Malaysia-OTS.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [SensoTech — carbamate thermal conversion temperature/pressure](https://www.sensotech.com/en/urea-production) | oem-supplier | global, apac, sea | open | summary-only |
 | [Shell boilers (Learn About Steam)](https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [Shell — Brent Delta accommodation capacity](https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [Shibata Fender Team — Lumut Maritime Terminal 2 (LMT2), Batu Undan, Perak, Ma](https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [Shibata Fender Team — SPC cone fender overall height, range across publi](https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [Shibata Fender Team — V-fender SX/SH standard height range](https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [ShibataFenderTeam](https://www.shibata-fender.team/en/products/floating-fenders/pneumatic-fenders.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [ShibataFenderTeam](https://www.shibata-fender.team/en/products/pe-sliding-plates-and-fenders/uhmw-pe-sliding-plates.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [ShibataFenderTeam](https://www.shibata-fender.team/en/products/accessories-and-fixings.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [ShibataFenderTeam](https://www.shibata-fender.team/en/products/bollards.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [ShibataFenderTeam](https://www.shibata-fender.team/en/products/komposite-fenders.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [ShibataFenderTeam Group](https://www.shibata-fender.team/en/products.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [Sif Group.Com — monopile length](https://sif-group.com/products-services/monopiles) | oem-supplier | global, apac, sea | open | summary-only |
+| [Sika](https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [Sika / Simpson Strong-Tie](https://www.wistatedocuments.org/digital/api/collection/p267601coll4/id/13233/download) | oem-supplier | global, apac, sea | open | summary-only |
 | [Spirax Sarco](https://www.spiraxsarco.com/global/en-US/products/boiler-controls-and-systems/sample-cooler) | oem-supplier | global, apac, sea, eu | open | summary-only |
 | [Spirax Sarco](https://www.spiraxsarco.com/learn-about-steam/control-applications/pressure-control-applications) | oem-supplier | global, apac, sea, eu | open | summary-only |
 | [Spirax Sarco](https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/mechanical-steam-traps) | oem-supplier | global, apac, sea, eu | open | summary-only |
@@ -72,10 +169,20 @@
 | [Spirax Sarco — steam velocity in superheated mains](https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheating-theory) | oem-supplier | global, apac, sea, eu | open | summary-only |
 | [Spirax Sarco — TD42 Thermodynamic Steam Trap](https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/) | oem-supplier | global, apac, sea, eu | open | summary-only |
 | [Spirax Sarco — thermodynamic trap minimum inlet pressure](https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps) | oem-supplier | global, apac, sea, eu | open | summary-only |
+| [SSAB](https://www.ssab.com/en-us/brands-and-products/commercial-steel/structural-steel/astm-a572/grade-50) | oem-supplier | global, apac, sea | open | summary-only |
 | [Stamicarbon](https://ureaknowhow.com/stamicarbon/) | oem-supplier | global, apac, sea | open | summary-only |
 | [Steam Desuperheating System RGDS — system flow diagram and component schedule (172-65608MA-03)](https://www.tlv.com/sites/default/files/tlv_assets/ja/download/manual/doc/man/e/172-65608ma.pdf) | oem-supplier | global, apac | open | summary-only (unverified) |
+| [Steel Door Institute — Blast design standards](https://steeldoor.org/sdi-133) | oem-supplier | global, apac, sea | open | summary-only |
+| [Survitec Group](https://survitecgroup.com/pdf/displaypdf/north-america-safety-solutions-catalog-english_online.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Tank Built Pte Ltd](https://tankbuiltsg.com/about-us) | oem-supplier | global, apac, sea | open | summary-only |
+| [Taylorfrancis.Com — Port extension high-replacement vibro stone columns](https://www.taylorfrancis.com/chapters/oa-mono/10.1201/9781315372341-4/improvement-fine-grained-cohesive-soils-vibro-replacement-stone-columns-klaus-kirsch-fabian-kirsch?context=ubx) | oem-supplier | global, apac, sea | open | summary-only |
+| [TBG Technologies (Chokusen), Japan](https://www.tbgtech.co.jp/wp-content/uploads/2021/03/MarineLoadingArms_E.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [Tcccthai.Com — Thai Central Chemical PCL fertilizer plants (Samut Prak](https://www.tcccthai.com/en) | oem-supplier | global, apac, sea | open | summary-only |
+| [Technipfmc.Com — Shell Prelude FLNG — offshore loading and mooring inter](https://www.technipfmc.com/en/investors/archives/fmc-technologies/press-releases/fmc-technologies-awarded-offshore-loading-arm-systems-contract) | oem-supplier | global, apac, sea | open | summary-only |
+| [Terram](https://terram.com/markets/coastal-and-waterways/filtration-and-separation/) | oem-supplier | global, apac, sea | open | summary-only |
 | [The feedtank and feedwater conditioning](https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
+| [The Yokohama Rubber Co., Ltd.](https://www.y-yokohama.com/global/product/mb/fenders) | oem-supplier | global, apac, sea | open | summary-only |
+| [TII Scheuerle — Scheuerle SPMT axle load](https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt) | oem-supplier | global, apac, sea | open | summary-only |
 | [TLV](https://www.tlv.com/steam-info/steam-theory) | oem-supplier | global, apac | open | summary-only |
 | [TLV (Ventrite product line) — Guardian / Guardian-Plus Electric Boiler Feed Pumps](https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps) | oem-supplier | global, apac | open | summary-only |
 | [TLV steam theory](https://www.tlv.com/steam-info/steam-theory) | oem-supplier | global, apac | open | summary-only |
@@ -98,11 +205,25 @@
 | [Topsoe — Tubular radiant-wall reformer arrangement](https://www.topsoe.com/solutions/outputs/ammonia/ammonia-reforming) | oem-supplier | global, apac, sea | open | summary-only |
 | [Toyo Engineering Corporation — TOYO ACES21 urea process](https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en) | oem-supplier | global, apac, sea | open | summary-only |
 | [Toyo Engineering — feed-solution concentration effect on granulation ](https://www.toyo-eng.com/jp/en/solution/urea_granulation/) | oem-supplier | global, apac, sea | open | summary-only |
+| [Trelleborg Engineered Systems — Technip Energies installed base / patents / experi](https://www.ten.com/en/markets/loading-systems) | oem-supplier | global, apac, sea | open | summary-only |
+| [Trelleborg Marine & Infrastructure](https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/marine-fenders/accessories/uhmw-pe) | oem-supplier | global, apac, sea | open | summary-only |
+| [Trelleborg Marine & Infrastructure](https://www.trelleborg.com/marine-and-infrastructure/-/media/marine-systems/resources/guides-and-design-manual/downloads/fender-application-design-manual.pdf?rev=f3e34525d9ee4331b058f46f0ec489f4) | oem-supplier | global, apac, sea | open | summary-only |
+| [Trelleborg Marine & Infrastructure](https://www.trelleborg.com/en/marine-and-infrastructure) | oem-supplier | global, apac, sea | open | summary-only |
+| [Trelleborg — Trelleborg QRH installed base and service dates](https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/docking-and-mooring/quick-release-hooks) | oem-supplier | global, apac, sea | open | summary-only |
+| [Trimble — Trimble S9 angular accuracy](https://geospatial.trimble.com/en/products/hardware/trimble-s9) | oem-supplier | global, apac, sea | open | summary-only |
+| [Universalsteelamerica.Com — stocked thickness range](https://www.universalsteelamerica.com/api-2h-steel-plate) | oem-supplier | global, apac, sea | open | summary-only |
 | [UreaKnowHow B.V.](https://ureaknowhow.com/fluid-bed-granulation-optimization/) | oem-supplier | global, apac, sea | open | summary-only |
 | [UreaKnowHow — Ca Mau Fertilizer Plant (PVCFC)](https://ureaknowhow.com/wp-content/uploads/2023/03/2023-03-Ca-Mau-Fertilizer-Plant-in-Vietnam-TEC-Granulation-10-Years-Operation-and-Performance-REV.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [UreaKnowHow — Figure 1 - process flow diagram of Stamicarbon original](https://ureaknowhow.com/wp-content/uploads/2020/10/2020-Cucchiella-Stamicarbon-Scaling-up-granulation-plants.pdf) | oem-supplier | global, apac, sea | open | summary-only (unverified) |
 | [UreaKnowHow — Urea Production by Stamicarbon 2000plus Technology - Pr](https://ureaknowhow.com/wp-content/uploads/attachments/process%20flow.pdf) | oem-supplier | global, apac, sea | open | summary-only (unverified) |
 | [Valmet CFB boiler](https://www.valmet.com/energyproduction/cfb-boilers/) | oem-supplier | global, eu, apac | open | summary-only |
+| [Van Oord / DEME / Jan De Nul](https://publications.deltares.nl/Deltares250.pdf) | oem-supplier | global, apac, sea | open | summary-only |
+| [Vantrisenergy.Com — 8-legged jacket substructure net weight, Kebabanga](https://vantrisenergy.com/services/engineering-construction/track-record) | oem-supplier | global, apac, sea | open | summary-only |
+| [VIKING Life-Saving — VIKING Norsafe free-fall approved drop height](https://www.viking-life.com/product-insights) | oem-supplier | global, apac, sea | open | summary-only |
+| [Vikoma International Ltd](https://www.vikoma.com/Industrial-Oily-Water-Skimming) | oem-supplier | global, apac, sea | open | summary-only |
+| [Vikoma International Ltd](https://www.vikoma.com/oil-spill-solutions.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [Vikoma — Boom materials and deployment characteristics](https://www.vikoma.com/articles/essential-types-of-oil-spill-booms) | oem-supplier | global, apac, sea | open | summary-only |
+| [Vinfab Engineers India](https://www.vinfabengineers.in/cable-trays.html) | oem-supplier | global, apac, sea | open | summary-only |
 | [Water Treatment, Storage and Blowdown for Steam Boilers — Figures 3.9.1 to 3.9.7](https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-treatment-storage-and-blowdown-for-steam-boilers) | oem-supplier | global, apac, sea, eu | open | summary-only |
 | [Water tube boilers (Learn About Steam)](https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB) | oem-supplier | global, eu, apac | open | summary-only |
 | [Why you need an ultra-low-NOx steam boiler](https://miuraboiler.com/why-you-need-an-ultra-low-nox-steam-boiler/) | oem-supplier | global, na, apac | open | summary-only |
@@ -129,6 +250,7 @@
 | [Wikipedia — The Process to make ammonia from coal (Ammoniafromcoal.](https://en.wikipedia.org/wiki/File:Ammoniafromcoal.png) | research-institute | global, apac, sea | open | summary-only (unverified) |
 | [Wikipedia — vibrator-assisted discharge](https://en.wikipedia.org/wiki/Silo) | research-institute | global, apac, sea | open | summary-only |
 | [Woodside Energy — Beaumont New Ammonia (formerly OCI Clean Ammonia), Beau](https://www.woodside.com/what-we-do/growth-projects/beaumont-new-ammonia) | oem-supplier | global, apac, sea | open | summary-only |
+| [Yokohama Rubber — Pneumatic 50 — guaranteed energy absorption (GEA) ](https://www.y-yokohama.com/global/product/mb/fenders/floating/) | oem-supplier | global, apac, sea | open | summary-only |
 | [Ebara Corporation](https://www.ebara.com/) | oem-supplier | apac, global | open | summary-only (unverified) |
 | [J-PlatPat Japan Platform for Patent Information](https://www.j-platpat.inpit.go.jp/) | patents | apac | open | full-text-open (unverified) |
 | [KIPRIS Korea patent information](https://www.kipris.or.kr/enghome/main.do) | patents | apac | open | full-text-open (unverified) |

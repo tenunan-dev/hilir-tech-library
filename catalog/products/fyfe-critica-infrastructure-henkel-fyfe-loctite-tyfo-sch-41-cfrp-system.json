@@ -1,0 +1,41 @@
+{
+  "id": "fyfe-critica-infrastructure-henkel-fyfe-loctite-tyfo-sch-41-cfrp-system",
+  "name": "Fyfe LOCTITE Tyfo SCH-41 CFRP system",
+  "manufacturer": "fyfe-critica-infrastructure-henkel",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Page read FAQ; strengths from search-verified selector PDF",
+  "specifications": [
+    {
+      "metric": "Laminate tensile strength",
+      "unit": "ksi",
+      "basis": "",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
+        "source_id": "cs-nri-com-resources-frequently-asked-questions"
+      },
+      "value": 131
+    },
+    {
+      "metric": "Tensile modulus",
+      "unit": "Msi",
+      "basis": "",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
+        "source_id": "cs-nri-com-resources-frequently-asked-questions"
+      },
+      "value": 14.6
+    }
+  ],
+  "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
+  "sources": [
+    {
+      "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
+      "source_id": "cs-nri-com-resources-frequently-asked-questions"
+    }
+  ],
+  "notes": "Page read FAQ; strengths from search-verified selector PDF",
+  "last_reviewed": "2026-11-24"
+}

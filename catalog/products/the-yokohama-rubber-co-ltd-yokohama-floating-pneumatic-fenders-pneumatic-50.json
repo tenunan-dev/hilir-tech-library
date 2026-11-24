@@ -1,0 +1,53 @@
+{
+  "id": "the-yokohama-rubber-co-ltd-yokohama-floating-pneumatic-fenders-pneumatic-50",
+  "name": "Yokohama Floating (Pneumatic) Fenders — Pneumatic 50 / 80 / Low Pressure",
+  "manufacturer": "the-yokohama-rubber-co-ltd",
+  "product_type": "jetty-civil",
+  "equipment": [
+    "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett"
+  ],
+  "description": "Vendor product line read 2026-11-24. ISO 17357-1:2014 compliant. Type I net and Type II sling; vertical, low pressure and Mega special types.",
+  "specifications": [
+    {
+      "metric": "Pneumatic 50 GEA range",
+      "unit": "kNm",
+      "basis": "",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
+        "source_id": "y-yokohama-com-floating"
+      },
+      "low": 6,
+      "high": 6473
+    },
+    {
+      "metric": "Pneumatic 80 GEA range",
+      "unit": "kNm",
+      "basis": "",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
+        "source_id": "y-yokohama-com-floating"
+      },
+      "low": 8,
+      "high": 9037
+    },
+    {
+      "metric": "initial internal pressure",
+      "unit": "kPa",
+      "basis": "",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
+        "source_id": "y-yokohama-com-floating"
+      },
+      "value": "50 or 80"
+    }
+  ],
+  "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
+  "sources": [
+    {
+      "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
+      "source_id": "y-yokohama-com-floating"
+    }
+  ],
+  "notes": "ISO 17357-1:2014 compliant. Type I net and Type II sling; vertical, low pressure and Mega special types.",
+  "last_reviewed": "2026-11-24"
+}

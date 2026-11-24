@@ -33,6 +33,7 @@ EQUIPMENT = ROOT / "catalog" / "equipment"
 PROJECTS = ROOT / "catalog" / "projects"
 PRODUCTS = ROOT / "catalog" / "products"
 DRAWINGS = ROOT / "catalog" / "drawings"
+MATERIALS = ROOT / "catalog" / "materials"
 INDEX = ROOT / "catalog" / "index"
 
 
@@ -290,6 +291,45 @@ def load_projects(vendor_ids, card_ids, source_ids):
     return projects, errors
 
 
+def load_materials(equipment_ids, vendor_ids, source_ids):
+    import materials as material_records
+    schema = json.loads((ROOT / "schema" / "material.schema.json").read_text(encoding="utf-8"))
+    validator = jsonschema.Draft202012Validator(schema, format_checker=jsonschema.FormatChecker())
+    out, errors = [], []
+    for path in sorted(MATERIALS.glob("*.json")):
+        rec = json.loads(path.read_text(encoding="utf-8"))
+        errors += [f"materials/{path.name}: {'/'.join(map(str, e.path))} {e.message}" for e in validator.iter_errors(rec)]
+        if rec.get("id") != path.stem:
+            errors.append(f"materials/{path.name}: id does not match file name")
+        for eid in rec.get("equipment", []):
+            if eid not in equipment_ids:
+                errors.append(f"materials/{path.name}: unknown equipment id {eid}")
+        for vid in rec.get("suppliers", []):
+            if vid not in vendor_ids:
+                errors.append(f"materials/{path.name}: unknown vendor id {vid}")
+        for sr in rec["sources"]:
+            if "source_id" in sr and sr["source_id"] not in source_ids:
+                errors.append(f"materials/{path.name}: unknown source_id {sr['source_id']}")
+        for spec in rec["specifications"]:
+            if "USD" in spec.get("unit", "").upper() and "year" not in spec:
+                errors.append(f"materials/{path.name}: USD cost '{spec['metric']}' needs a dollar year")
+        out.append(rec)
+    return out, errors
+
+
+def material_page(materials):
+    import materials as material_records
+    lines = ["# Engineering materials", "",
+             f"{len(materials)} material records (schema `schema/material.schema.json`). Every property "
+             "carries the source it was read from.", "",
+             "| Material | Category | Properties | Applications |", "| --- | --- | --- | --- |"]
+    for rec in sorted(materials, key=lambda r: (r["material_category"], r["name"].lower())):
+        props = "; ".join(s["metric"] for s in rec["specifications"])
+        apps = ", ".join(rec.get("applications", [])[:4])
+        lines.append(f"| [{rec['name']}]({rec['sources'][0]['url']}) | {rec['material_category']} | {props} | {apps} |")
+    return "\n".join(lines)
+
+
 def load_products(vendor_ids, equipment_ids, source_ids):
     import products as product_records
     schema = json.loads((ROOT / "schema" / "product.schema.json").read_text(encoding="utf-8"))
@@ -478,6 +518,9 @@ def main():
     drawings, drawing_errors = load_drawings({e["id"] for e in equipment}, {c["id"] for c in cards},
                                              {r.get("id") for r in records})
     errors += drawing_errors
+    materials, material_errors = load_materials({e["id"] for e in equipment}, {v["id"] for v in vendors},
+                                                {r.get("id") for r in records})
+    errors += material_errors
     for url, paths in library.duplicate_documents().items():
         errors.append(f"corpus document stored twice ({url}): {' and '.join(paths)}")
     if errors:
@@ -509,6 +552,9 @@ def main():
     with (ROOT / "catalog" / "drawings.jsonl").open("w", encoding="utf-8") as fh:
         for rec in drawings:
             fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    with (ROOT / "catalog" / "materials.jsonl").open("w", encoding="utf-8") as fh:
+        for rec in materials:
+            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
     register = technologies.load_register(cards=cards)
     (INDEX / "technology-register.md").write_text(technologies.register_page(register, labels), encoding="utf-8")
     (INDEX / "gaps.md").write_text(technologies.gaps_page(technologies.gaps(cards, register)), encoding="utf-8")
@@ -523,10 +569,11 @@ def main():
         product_page(products, eq_names, {v["id"]: v["name"] for v in vendors}), encoding="utf-8")
     (INDEX / "drawings.md").write_text(
         drawing_page(drawings, eq_names, {c["id"]: c["name"] for c in cards}), encoding="utf-8")
+    (INDEX / "materials.md").write_text(material_page(materials), encoding="utf-8")
     print(f"{len(records)} records valid, {len(ids)} unique ids, {len(cards)} technology cards, "
           f"{len(vendors)} vendor records, {len(equipment)} equipment records, "
           f"{len(projects)} project records, {len(products)} product records, "
-          f"{len(drawings)} drawing records; indexes written")
+          f"{len(drawings)} drawing records, {len(materials)} material records; indexes written")
     return 0
 
 

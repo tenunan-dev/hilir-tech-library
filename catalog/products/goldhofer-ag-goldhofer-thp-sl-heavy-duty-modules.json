@@ -1,0 +1,51 @@
+{
+  "id": "goldhofer-ag-goldhofer-thp-sl-heavy-duty-modules",
+  "name": "Goldhofer THP/SL heavy-duty modules",
+  "manufacturer": "goldhofer-ag",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Page read",
+  "specifications": [
+    {
+      "metric": "Axle load",
+      "unit": "t at 1 km/h",
+      "basis": "",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
+        "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
+      },
+      "value": 45
+    },
+    {
+      "metric": "Axle compensation",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
+        "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
+      },
+      "value": 600
+    },
+    {
+      "metric": "Width",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
+        "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
+      },
+      "value": 3000
+    }
+  ],
+  "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
+  "sources": [
+    {
+      "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
+      "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
+    }
+  ],
+  "notes": "Page read",
+  "last_reviewed": "2026-11-24"
+}

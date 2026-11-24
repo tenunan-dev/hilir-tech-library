@@ -1,0 +1,25 @@
+{
+  "id": "civ-petrobras-solstad-offshore-brazil-a-type-and-e-type-gangways",
+  "name": "Petrobras / Solstad Offshore, Brazil — A-type and E-type gangways",
+  "country": "Brazil",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "Ampelmann extended a two-year contract with Solstad Offshore in March 2025; A-type fitted to Normand Valliant in 2022 (until Aug 2026) and E-type operational on Normand Fortress from June 2024.",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ampelmann.nl/news-articles/ampelmann-signs-two-year-contract-extension-with-solstad-offshore-in-brazil",
+      "source_id": "ampelmann-nl-news-articles-ampelmann-signs-two-year-contract-exten"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

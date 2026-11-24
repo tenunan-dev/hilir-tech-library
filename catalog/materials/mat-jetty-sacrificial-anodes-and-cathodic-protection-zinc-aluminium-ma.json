@@ -1,0 +1,53 @@
+{
+  "id": "mat-jetty-sacrificial-anodes-and-cathodic-protection-zinc-aluminium-ma",
+  "name": "Sacrificial anodes and cathodic protection",
+  "material_category": "metallic-corrosion-protection",
+  "description": "Galvanic or impressed-current protection of steel piles, jackets, hulls, tanks and submerged jetty steelwork in seawater and brackish water.",
+  "specifications": [
+    {
+      "metric": "Cathodic Marine zinc anode specification",
+      "unit": "material property set",
+      "basis": "Cathodic Marine Engineering Pte Ltd (Singapore) sacrificial anodes page, actually fetched",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system",
+        "source_id": "cathodicme-com-services-sacrificial-anodes-system"
+      },
+      "value": "99.9% high-purity zinc; ASTM B-6; 5-500 kg; 25-30 A/m2; 15-25 years in seawater"
+    },
+    {
+      "metric": "Cathodic Marine aluminium Al-Zn-In anode specification",
+      "unit": "material property set",
+      "basis": "Same fetched page, 'Aluminum Anodes (Al-Zn-In)' subsection",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system",
+        "source_id": "cathodicme-com-services-sacrificial-anodes-system"
+      },
+      "value": "ASTM B-521; 3-300 kg; 30-40 A/m2; 18-28 years in seawater"
+    }
+  ],
+  "applications": [
+    "Galvanic or impressed-current protection of steel piles, jackets, hulls, tanks and submerged jetty steelwork in seawater and brackish water."
+  ],
+  "standards": [],
+  "equipment": [
+    "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "jetty-mooring-quick-release-hooks-qrh-bollards-and-load-monitoring",
+    "jetty-motion-compensated-access-gangways-boarding-bridges"
+  ],
+  "suppliers": [
+    "cathodic-marine-engineering-pte-ltd",
+    "cathpro",
+    "mme-group",
+    "deepwater-stoprust-com"
+  ],
+  "sources": [
+    {
+      "url": "https://cathodicme.com/services/sacrificial-anodes-system",
+      "source_id": "cathodicme-com-services-sacrificial-anodes-system"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

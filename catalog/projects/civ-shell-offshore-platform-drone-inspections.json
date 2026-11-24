@@ -1,0 +1,25 @@
+{
+  "id": "civ-shell-offshore-platform-drone-inspections",
+  "name": "Shell offshore platform drone inspections",
+  "country": "global",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "Flyability/CAN case study; rope-access inspections that took a day now accomplished in minutes",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.flyability.com/blog/offshore-drone-inspections",
+      "source_id": "flyability-com-blog-offshore-drone-inspections"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

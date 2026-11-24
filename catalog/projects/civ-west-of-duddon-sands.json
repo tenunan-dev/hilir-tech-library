@@ -1,0 +1,25 @@
+{
+  "id": "civ-west-of-duddon-sands",
+  "name": "West of Duddon Sands",
+  "country": "United Kingdom",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "scour protection at 108 turbines; Norwegian rock shipped via Holyhead",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+      "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

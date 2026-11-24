@@ -1,0 +1,51 @@
+{
+  "id": "tii-scheuerle-tii-scheuerle-spmt",
+  "name": "TII SCHEUERLE SPMT",
+  "manufacturer": "tii-scheuerle",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-heavy-transport-and-installation-spmt-jacking-skidding-crane"
+  ],
+  "description": "Vendor product line read 2026-11-24. Page read",
+  "specifications": [
+    {
+      "metric": "Axle load",
+      "unit": "t",
+      "basis": "",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+        "source_id": "tii-group-com-spmt-scheuerle-spmt"
+      },
+      "value": 60
+    },
+    {
+      "metric": "Axle compensation",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+        "source_id": "tii-group-com-spmt-scheuerle-spmt"
+      },
+      "value": 700
+    },
+    {
+      "metric": "Positioning accuracy",
+      "unit": "mm",
+      "basis": "",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+        "source_id": "tii-group-com-spmt-scheuerle-spmt"
+      },
+      "value": "±1–2"
+    }
+  ],
+  "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+  "sources": [
+    {
+      "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+      "source_id": "tii-group-com-spmt-scheuerle-spmt"
+    }
+  ],
+  "notes": "Page read",
+  "last_reviewed": "2026-11-24"
+}

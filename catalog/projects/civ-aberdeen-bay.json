@@ -1,0 +1,25 @@
+{
+  "id": "civ-aberdeen-bay",
+  "name": "Aberdeen Bay",
+  "country": "United Kingdom",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "11 suction bucket jacket foundations plus scour protection and 66 kV cables",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+      "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

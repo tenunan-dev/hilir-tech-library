@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-eolifesaving-com-c3-0512e-general-arrangement-daf-375-e-low",
+  "name": "Maritime Deck Machinery b.v. / EOL (manufacturer)",
+  "url": "https://www.eolifesaving.com/wp-content/uploads/2021/04/C3-0512E-General-arrangement-DAF-375-E-Low-EO.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "Maritime Deck Machinery b.v. / EOL (manufacturer)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "General arrangement drawing of a rescue boat davit: footprint, outreach, support loads at deck attachment points A-D, wire rope data and launch path under 20° list/10° trim. Evidence: https://www.eolifesaving.com/wp-content/uploads/2021/04/C3-0512E-General-arrangement-DAF-375-E-Low-EO.pdf"
+}

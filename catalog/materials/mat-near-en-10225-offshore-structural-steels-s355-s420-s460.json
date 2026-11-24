@@ -1,0 +1,40 @@
+{
+  "id": "mat-near-en-10225-offshore-structural-steels-s355-s420-s460",
+  "name": "EN 10225 offshore structural steels S355 / S420 / S460",
+  "material_category": "offshore-structural-steel",
+  "description": "European offshore plate grades cited as equivalents to API 2H Grade 50.",
+  "specifications": [
+    {
+      "metric": "grade designations",
+      "unit": "MPa-class",
+      "basis": "AZoM list of equivalent grades to API 2H Grade 50",
+      "source": {
+        "url": "https://www.azom.com/article.aspx?ArticleID=5344",
+        "source_id": "azom-com-www-azom-com-article-aspx"
+      },
+      "value": "S355, S420, S460"
+    }
+  ],
+  "applications": [
+    "European offshore plate grades cited as equivalents to API 2H Grade 50."
+  ],
+  "standards": [],
+  "equipment": [
+    "near-fixed-steel-jacket-oil-gas",
+    "near-topsides-decks-and-module-support-frames",
+    "near-legs-pile-foundations-conductors-and-risers",
+    "near-bridges-helidecks-and-accommodation-modules"
+  ],
+  "suppliers": [
+    "masteel-uk-ltd"
+  ],
+  "sources": [
+    {
+      "url": "https://www.azom.com/article.aspx?ArticleID=5344",
+      "source_id": "azom-com-www-azom-com-article-aspx"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

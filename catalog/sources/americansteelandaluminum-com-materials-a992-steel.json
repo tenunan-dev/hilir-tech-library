@@ -1,0 +1,29 @@
+{
+  "id": "americansteelandaluminum-com-materials-a992-steel",
+  "name": "American Steel & Aluminum — ASTM A992 yield strength",
+  "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "American Steel & Aluminum",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. ASTM A992 preferred grade for W-shapes: 50 ksi min / 65 ksi max yield, 65 ksi min tensile, Fy/Fu <=0.85, CE <=0.45 (0.47 for flanges >2 in); AISC 341 expected y Evidence: https://americansteelandaluminum.com/resources/materials/a992-steel"
+}

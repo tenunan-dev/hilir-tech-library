@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-mdpi-applied-sciences-working-schematic-diagram-of-lng-marine-loading",
+  "title": "MDPI Applied Sciences — Working schematic diagram of LNG marine loading arm docking with LNG ship",
+  "diagram_type": "schematic",
+  "description": "Schematic of an LNG marine loading arm docking with an LNG ship, identifying control box, swivel joints, outboard/inboard arms, base riser and counterweight. | Figures: Figure 2 — Working schematic diagram of LNG marine loading arm docking with LNG ship (1 — LNG marine loading arm control box; ...)",
+  "publisher": "MDPI, Applied Sciences 13(7):4525 (Mei et al., 2023)",
+  "url": "https://www.mdpi.com/2076-3417/13/7/4525",
+  "licence": "Open access under Creative Commons (MDPI CC BY 4.0 for this journal); attribution required. Fetch from MDPI was 403 in this session — search-verified only.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.mdpi.com/2076-3417/13/7/4525",
+      "source_id": "drawing-src-mdpi-com-4525"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. search_verified",
+  "last_reviewed": "2026-11-24"
+}

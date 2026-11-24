@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-osha-govinfo-a-guide-to-scaffold-use-in-the-construction-industry-orig",
+  "title": "OSHA / govinfo — A Guide to Scaffold Use in the Construction Industry (original OSHA-hosted URL)",
+  "diagram_type": "schematic",
+  "description": "Alternate publicly cited URL for the OSHA scaffolding guide (see CD-037); direct osha.gov PDF fetch returned an HTML interstitial in this session, so the govinfo copy was used for reading.",
+  "publisher": "U.S. Department of Labor, OSHA",
+  "url": "https://www.osha.gov/sites/default/files/publications/OSHA3150.pdf",
+  "licence": "U.S. Government publication; public domain with attribution.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.osha.gov/sites/default/files/publications/OSHA3150.pdf",
+      "source_id": "drawing-src-osha-gov-osha3150-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. search_verified",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ampelmann-nl-news-articles-ampelmann-signs-two-year-contract-exten",
+  "name": "Ampelmann — Petrobras / Solstad Offshore, Brazil — A-type and E-typ",
+  "url": "https://www.ampelmann.nl/news-articles/ampelmann-signs-two-year-contract-extension-with-solstad-offshore-in-brazil",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Ampelmann",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Ampelmann extended a two-year contract with Solstad Offshore in March 2025; A-type fitted to Normand Valliant in 2022 (until Aug 2026) and E-type operational on Evidence: https://www.ampelmann.nl/news-articles/ampelmann-signs-two-year-contract-extension-with-solstad-offshore-in-brazil"
+}

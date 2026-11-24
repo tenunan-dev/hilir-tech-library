@@ -1,0 +1,38 @@
+{
+  "id": "mat-near-composites-fibre-reinforced-polymer-frp",
+  "name": "Composites / fibre-reinforced polymer",
+  "material_category": "non-metallic-structural-materials",
+  "description": "Corrosion-resistant walkways, gratings, cable supports and secondary structures in marine environments.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Corrosion-resistant walkways, gratings, cable supports and secondary structures in marine environments.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.iso.org/standard/84215.html"
+      }
+    }
+  ],
+  "applications": [
+    "Corrosion-resistant walkways, gratings, cable supports and secondary structures in marine environments."
+  ],
+  "standards": [],
+  "equipment": [
+    "near-fixed-steel-jacket-oil-gas",
+    "near-topsides-decks-and-module-support-frames",
+    "near-legs-pile-foundations-conductors-and-risers",
+    "near-bridges-helidecks-and-accommodation-modules"
+  ],
+  "suppliers": [
+    "trelleborg-marine-infrastructure"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

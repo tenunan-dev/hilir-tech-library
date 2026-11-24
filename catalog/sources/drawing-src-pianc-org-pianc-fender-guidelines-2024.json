@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-pianc-org-pianc-fender-guidelines-2024",
+  "name": "PIANC",
+  "url": "https://pianc.org/publication/pianc-fender-guidelines-2024",
+  "source_type": "association",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "PIANC",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Publisher description of WG 211: fender design, manufacturing and testing guidance; explicitly states fenders and supporting marine structure must be designed integrally, and that WG 211 supersedes WG 33. Evidence: https://pianc.org/publication/pianc-fender-guidelines-2024"
+}

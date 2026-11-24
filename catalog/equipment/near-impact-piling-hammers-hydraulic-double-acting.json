@@ -1,0 +1,96 @@
+{
+  "id": "near-impact-piling-hammers-hydraulic-double-acting",
+  "name": "Impact piling hammers",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Drive jacket piles, conductors and monopiles by controlled hydraulic blows; integrated with drivability analysis and noise mitigation.",
+  "specifications": [
+    {
+      "metric": "Menck hammer range energy",
+      "unit": "kJ",
+      "basis": "Acteon 'Hydraulic double acting impact hammers' page - hammer spread range",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "low": 100,
+      "high": 6250
+    },
+    {
+      "metric": "MHU800S energy range / oil flow / pressure / blow rate",
+      "unit": "kJ / L/min / bar / blows per min",
+      "basis": "Acteon product specification table",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "75-820 kJ / 1,600 L/min / 250 bar / 38 bl/min"
+    },
+    {
+      "metric": "MHU3500S energy range / oil flow / pressure / blow rate",
+      "unit": "kJ / L/min / bar / blows per min",
+      "basis": "Acteon product specification table",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "320-3,500 kJ / 5,800 L/min / 240 bar / 32 bl/min"
+    },
+    {
+      "metric": "MHU6000W energy range / oil flow / pressure / blow rate",
+      "unit": "kJ / L/min / bar / blows per min",
+      "basis": "Acteon product specification table; largest in range",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "200-6,250 kJ / 12,800 L/min / 210 bar / 30 bl/min"
+    },
+    {
+      "metric": "IQIP IQ8 blow energy",
+      "unit": "kJ",
+      "basis": "IQIP Hydrohammer page - 'strongest hydraulic impact hammer in the world'",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+        "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+      },
+      "value": ">7500"
+    },
+    {
+      "metric": "Hydrohammer total range / operating history",
+      "unit": "kJ / count / %",
+      "basis": "IQIP Hydrohammer FAQ",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+        "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+      },
+      "value": "30 kJ to >7,500 kJ; >5.5 million piles installed; >97% availability"
+    }
+  ],
+  "vendors": [
+    "menck-acteon-marine-foundations-sale-to-cadeler-announced-au",
+    "iqip"
+  ],
+  "sources": [
+    {
+      "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+      "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+    },
+    {
+      "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+      "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Drive jacket piles, conductors and monopiles by controlled hydraulic blows; integrated with drivability analysis and noise mitigation."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

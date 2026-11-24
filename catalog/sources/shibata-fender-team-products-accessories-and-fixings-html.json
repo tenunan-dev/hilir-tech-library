@@ -1,0 +1,29 @@
+{
+  "id": "shibata-fender-team-products-accessories-and-fixings-html",
+  "name": "ShibataFenderTeam",
+  "url": "https://www.shibata-fender.team/en/products/accessories-and-fixings.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Shibata Fender Team",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Fender chains, anchors and accessories; URL observed in fetched navigation, page not fetched. Evidence: https://www.shibata-fender.team/en/products/accessories-and-fixings.html"
+}

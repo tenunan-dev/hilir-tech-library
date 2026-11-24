@@ -1,0 +1,29 @@
+{
+  "id": "pillar-inc-com-06-industrial-market-project-profile-02-industrial",
+  "name": "Pillar Consulting Group",
+  "url": "https://pillar-inc.com/wp-content/uploads/2017/06/INDUSTRIAL-MARKET-Project-Profile-02-Industrial-Blast-Walls.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Pillar Inc.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. search-verified Evidence: https://pillar-inc.com/wp-content/uploads/2017/06/INDUSTRIAL-MARKET-Project-Profile-02-Industrial-Blast-Walls.pdf"
+}

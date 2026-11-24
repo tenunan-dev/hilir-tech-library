@@ -1,0 +1,24 @@
+{
+  "id": "bakerrisk",
+  "name": "BakerRisk",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "BakerRisk is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://steeldoor.org/sdi-133",
+      "source_id": "steeldoor-org-steeldoor-org-sdi-133"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

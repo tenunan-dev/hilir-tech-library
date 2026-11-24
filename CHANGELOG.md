@@ -8,6 +8,31 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.24.6] — 2026-11-24 — Civil/structural, jetty/terminal, nearshore and materials layer
+
+Owner-directed expansion covering all categories, plus a new **materials** record type.
+
+### Added
+- **50 equipment records** for civil/structural works, jetties and marine terminals, and nearshore/offshore
+  platforms — from piling and SPMT heavy lift through fenders, mooring, loading arms and tank farms to
+  jackets, monopiles, suction buckets, hammers, scour protection, SHM and inspection.
+- **New `catalog/materials/` layer** (`schema/material.schema.json`): 32 engineering materials with
+  sourced properties — cement, admixtures, rebar, structural steel, bolts, welding consumables, grouts,
+  coatings, FRP, seismic rubber, marine concrete, anodes, ICCP/SACP, geotextiles and rock armour.
+- **158 sources, 101 vendors, 37 product lines, 50 named projects, 38 drawing pointers** (PIANC, BS 6349,
+  jetty GAs, monopile/jacket arrangements, SPMT and blast-rated building figures). Four CIV cards extended.
+- Full integration of materials into build, SQLite/Neon, 2 new MCP tools (32 total), REST, web, graph and tests.
+
+### Verification
+`tools/build.py` 1,052 sources / 392 cards / 745 vendors / 193 equipment / 399 projects / 160 products /
+102 drawings / 32 materials; `pytest -q tests` **1,941 passed, 13 skipped**; Neon schema applied and
+reloaded with 5,913 nodes, 19,293 edges and 16,267 vectors.
+
+### Gaps
+Full PIANC/BS 6349/Eurocode design tables, approved intumescent DFT, grating/handrail load tables,
+FRP properties and marine-growth prevention data were not publicly readable — recorded as gaps.
+
+
 ## [2026.11.24.5] — 2026-11-24 — Ammonia/urea supporting systems and bulk handling
 
 Owner-directed expansion of the ammonia/urea categories, explicitly including conveyor belts and bulk

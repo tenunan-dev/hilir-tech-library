@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-itopf-org-tip-3-use-of-booms-in-oil-pollution-response-pdf",
+  "name": "ITOPF (International Tanker Owners Pollution Federation)",
+  "url": "https://itopf.org/fileadmin/uploads/itopf/data/Documents/TIPS_TAPS_new/TIP_3_Use_of_Booms_in_Oil_Pollution_Response.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "ITOPF (International Tanker Owners Pollution Federation)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Boom types, failure modes and deployment configurations: U-configuration between two vessels, V-configuration by two vessels, spur deflection to shore, mooring arrangements and protection of intakes/power stations. Evidence: https://itopf.org/fileadmin/uploads/itopf/data/Documents/TIPS_TAPS_new/TIP_3_Use_of_Booms_in_Oil_Pollution_Response.pdf"
+}

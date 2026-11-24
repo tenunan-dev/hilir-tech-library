@@ -1,0 +1,41 @@
+{
+  "id": "near-legs-pile-foundations-conductors-and-risers",
+  "name": "Legs, pile foundations, conductors and risers",
+  "equipment_type": "near-civil",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Transfer structural and drilling loads to seabed; conductors guide and support wellheads; risers connect subsea wells to topsides.",
+  "specifications": [
+    {
+      "metric": "wind jacket pin pile diameter / max length / max weight",
+      "unit": "m / m / t",
+      "basis": "Changhua TPC Phase 1 demonstration: 4 pin piles per jacket, 84 total, 21 jackets",
+      "source": {
+        "url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
+        "source_id": "jandenul-com-news-jan-de-nul-nears-completion-fabrication-foundati"
+      },
+      "value": "3 m / 82 m / 310 t"
+    }
+  ],
+  "vendors": [
+    "eew-group",
+    "iqip"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
+      "source_id": "jandenul-com-news-jan-de-nul-nears-completion-fabrication-foundati"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Transfer structural and drilling loads to seabed; conductors guide and support wellheads; risers connect subsea wells to topsides."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

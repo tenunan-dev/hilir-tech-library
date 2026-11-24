@@ -1,0 +1,51 @@
+{
+  "id": "civ-shallow-raft-pad-foundations",
+  "name": "Shallow / raft / pad foundations",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Transfer column, wall and equipment loads to near-surface bearing strata by spread footings, combined pads, rafts or mat foundations; commonly used for tanks, pumps, pipe-rack columns and small equipment where surface soils are competent.",
+  "specifications": [
+    {
+      "metric": "Eurocode 7 scope",
+      "unit": "standard",
+      "basis": "EC7 applies to geotechnical aspects of design of buildings and civil engineering works, used with EN 1990:2002; Part 2 covers ground investigation and testing",
+      "source": {
+        "url": "https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-7-geotechnical-design",
+        "source_id": "eurocodes-jrc-ec-europa-eu-en-eurocodes-eurocode-7-geotechnical-de"
+      },
+      "value": "EN 1997-1:2004 / EN 1997-2:2007"
+    }
+  ],
+  "vendors": [
+    "bauer-spezialtiefbau-gmbh"
+  ],
+  "sources": [
+    {
+      "url": "https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-7-geotechnical-design",
+      "source_id": "eurocodes-jrc-ec-europa-eu-en-eurocodes-eurocode-7-geotechnical-de"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Bearing-capacity and settlement calculation examples for pad/raft footings to EC7 / ACI",
+      "why": "No fetched page with numeric worked design values for shallow foundations",
+      "next_action": "Fetch a public EC7 worked example or state DOT shallow foundation manual"
+    },
+    {
+      "what": "APAC-specific shallow foundation practice (Malaysia, Singapore)",
+      "why": "No APAC shallow-foundation code page read",
+      "next_action": "Fetch BCA Singapore / JKR Malaysia foundation guidance pages"
+    }
+  ],
+  "applications": [
+    "Transfer column, wall and equipment loads to near-surface bearing strata by spread footings, combined pads, rafts or mat foundations; commonly used for tanks, p"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

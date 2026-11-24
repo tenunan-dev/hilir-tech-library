@@ -1,6 +1,6 @@
 # Using the MCP server
 
-The library exposes 30 tools over MCP (stdio locally, Streamable HTTP at
+The library exposes 32 tools over MCP (stdio locally, Streamable HTTP at
 `https://techlib-api.hilir.app/mcp`) and the same functionality as a REST API under `/api`. This
 page is the instruction sheet for an AI agent: what each tool answers, when to reach for it, and the
 rules that keep an answer honest. `tools/list` is the live count — this number tracks it.
@@ -58,7 +58,7 @@ Codes with names and subtopics. Cache it for the session; it changes only when t
 Hybrid keyword + vector search over sources, document passages, cards, vendors, equipment and
 projects. Each row carries `kind`, `ref`, `title`, `score`, `licence`, `reuse_level`,
 `permitted_use` and a url.
-`kind` may be `source`, `chunk`, `technology`, `vendor`, `equipment`, `project`, `product` or `drawing` to narrow.
+`kind` may be `source`, `chunk`, `technology`, `vendor`, `equipment`, `project`, `product`, `drawing` or `material` to narrow.
 Use it to *find* things; use the `get_*`/`list_*` tools to *read* them.
 
 Ranking is **concept coverage, then density** — not literal wording. The query is expanded through
@@ -161,6 +161,13 @@ Citable PFDs, P&IDs, schematics and flowsheets. Each record says what the diagra
 published it, where it lives, which equipment and technology cards it covers, and the reuse terms.
 The diagram itself is not copied into the repository — open the URL and respect its licence.
 
+### Engineering materials
+
+**`list_materials(material_category=None, query=None)`** / **`get_material(material_id)`**
+Engineering materials with the properties printed on a source the author read — concrete, steel, bolts,
+coatings, fenders, anodes and more. Each figure carries a `basis` and source URL; `material_category`
+groups them (call with no arguments to see the categories), `query` is text.
+
 ### Register and gaps
 
 **`list_technology_register(code=None, maturity=None, query=None)`**
@@ -246,6 +253,7 @@ Same functions, same shapes, for clients without MCP:
 | `list_projects` / `get_project` | `GET /api/projects?status=&sector=&country=&q=` · `GET /api/projects/{id}` |
 | `list_products` / `get_product` | `GET /api/products?product_type=&manufacturer=&q=` · `GET /api/products/{id}` |
 | `list_drawings` / `get_drawing` | `GET /api/drawings?diagram_type=&sector=&q=` · `GET /api/drawings/{id}` |
+| `list_materials` / `get_material` | `GET /api/materials?material_category=&q=` · `GET /api/materials/{id}` |
 | `list_technology_register` | `GET /api/register?...` |
 | `list_gaps` | `GET /api/gaps?field=&reason_code=&include_no_card=` |
 | `taxonomy` | `GET /api/taxonomy` |

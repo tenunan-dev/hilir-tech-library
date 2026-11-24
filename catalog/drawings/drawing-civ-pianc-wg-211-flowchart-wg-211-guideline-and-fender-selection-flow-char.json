@@ -1,0 +1,43 @@
+{
+  "id": "drawing-civ-pianc-wg-211-flowchart-wg-211-guideline-and-fender-selection-flow-char",
+  "title": "PIANC WG 211 — Flowchart WG 211 guideline and fender selection flow chart",
+  "diagram_type": "flowsheet",
+  "description": "Decision flowcharts for the fender design process and for moored-condition fender design, plus vessel hull contact-zone diagrams. | Figures: Figure 1.1 — Flowchart WG 211 guideline; Figure 6.1 — Overview of fender selection process; Figure 7.1 — Fender design flow chart for moored conditions; Figure 3.1 — Parallel mid-body of a typical container vessel hull; Figure 3.2 — Fender contact zones on vessel hull at low berthing angles",
+  "publisher": "PIANC MarCom WG 211; copy hosted by BAW",
+  "url": "https://izw.baw.de/publikationen/pianc/0/IVZMarCom%20WG%20211.pdf",
+  "licence": "Copyright PIANC; figure titles recorded, figures not reproduced.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "regions": [
+    "global"
+  ],
+  "equipment": [
+    "civ-pile-caps-and-pile-to-structure-connections",
+    "jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons",
+    "jetty-floating-pneumatic-rubber-fenders-yokohama-type",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems",
+    "jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620"
+  ],
+  "technologies": [
+    "civ-offshore-platform-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://izw.baw.de/publikationen/pianc/0/IVZMarCom%20WG%20211.pdf",
+      "source_id": "drawing-src-izw-baw-de-ivzmarcom-20wg-20211-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced in this repository.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. fetched_and_text_extracted",
+  "last_reviewed": "2026-11-24"
+}

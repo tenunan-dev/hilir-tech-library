@@ -1,0 +1,29 @@
+{
+  "id": "bauerequipment-com-au-en-micro-piles",
+  "name": "BAUER Equipment Australia Pty Ltd",
+  "url": "https://www.bauerequipment.com.au/en/micro-piles",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Bauerequipment.Com.Au",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. search-verified; direct WebFetch returned 404 at retrieval time Evidence: https://www.bauerequipment.com.au/en/micro-piles"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "dnv-com-dnv-st-0126-support-structures-for-wind-turbines",
+  "name": "DNV — DNV-ST-0126 support structures for wind turbines",
+  "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "DNV",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. DNV standards page Evidence: https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
+}

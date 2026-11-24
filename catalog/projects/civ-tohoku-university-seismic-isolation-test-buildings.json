@@ -1,0 +1,25 @@
+{
+  "id": "civ-tohoku-university-seismic-isolation-test-buildings",
+  "name": "Tohoku University seismic isolation test buildings",
+  "country": "Japan",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "Two test buildings at Aobayama, Sendai, built jointly by university and Shimizu Corporation in 1986: one base-isolated, one fixed-base with same superstructure",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/pdf/leaflet_en_202210.pdf",
+      "source_id": "bridgestone-com-pdf-leaflet-en-202210-pdf"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

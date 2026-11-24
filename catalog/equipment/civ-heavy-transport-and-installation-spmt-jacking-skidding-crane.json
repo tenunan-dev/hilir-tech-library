@@ -1,0 +1,130 @@
+{
+  "id": "civ-heavy-transport-and-installation-spmt-jacking-skidding-crane",
+  "name": "Heavy transport and installation — SPMT, jacking, skidding, cranes and rigging",
+  "equipment_type": "civ-civil",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV",
+    "MAT"
+  ],
+  "description": "Move and set heavy equipment (reactors, columns, transformers, modules, vessel topsides) from laydown to foundation with precision, including self-propelled modular transporters, towed modular trailers, hydraulic jacking/skidding and crane lifts.",
+  "specifications": [
+    {
+      "metric": "Scheuerle SPMT axle load",
+      "unit": "t per axle line",
+      "basis": "TII Scheuerle SPMT page: max 60 t axle load, 530 HP power, 700 mm axle compensation; 3–6 axle line modules; positioning accuracy +/-1–2 mm",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+        "source_id": "tii-group-com-spmt-scheuerle-spmt"
+      },
+      "value": 60
+    },
+    {
+      "metric": "Scheuerle SPMT platform payloads",
+      "unit": "t",
+      "basis": "TII Scheuerle technical data: 3-axle 166.5 t, 4-axle 222.2 t, 5-axle 278.3 t, 6-axle 333.9 t; width 2430 mm",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+        "source_id": "tii-group-com-spmt-scheuerle-spmt"
+      },
+      "low": 166.5,
+      "high": 333.9
+    },
+    {
+      "metric": "Scheuerle PPU outputs",
+      "unit": "kW",
+      "basis": "TII Scheuerle: PPU Z180 180 kW (244 HP); PPU Z390 390 kW (530 HP); ePPU Z390 electric 320 kWh battery, 300 kW charging, 390 kW performance",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+        "source_id": "tii-group-com-spmt-scheuerle-spmt"
+      },
+      "low": 180,
+      "high": 390
+    },
+    {
+      "metric": "Cometto MSPE axle load range",
+      "unit": "t per axle line",
+      "basis": "Cometto MSPE product page: 48T, 60T, EVO3 70T families; up to 70 t/axle line, +/-135 deg electronic steering, 700 mm suspension stroke, bending moment 7250 kN.m standard / 9400 kN.m heavy duty",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+        "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
+      },
+      "low": 48,
+      "high": 70
+    },
+    {
+      "metric": "Goldhofer THP/SL axle load",
+      "unit": "t at 1 km/h",
+      "basis": "Goldhofer THP/SL page: axle load 45 t at 1 km/h, axle compensation 600 mm, width 3000 mm, axle spacing 1500/1800 mm, max steering +/-55 deg, 2–8 axles, dead weight 13.85 t (4 axles)",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
+        "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
+      },
+      "value": 45
+    },
+    {
+      "metric": "SPMT world record load",
+      "unit": "t",
+      "basis": "TII Scheuerle success story: 23,000-tonne ship transported on 880 SCHEUERLE SPMT axle lines",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+        "source_id": "tii-group-com-spmt-scheuerle-spmt"
+      },
+      "value": 23000
+    },
+    {
+      "metric": "SPMT convoy capacity",
+      "unit": "t (and beyond)",
+      "basis": "Cometto MSPE FAQ: modules combine lengthways and side-by-side, convoys up to 25,000 tons and beyond",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+        "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
+      },
+      "value": 25000
+    }
+  ],
+  "vendors": [
+    "tii-scheuerle",
+    "cometto",
+    "goldhofer-ag",
+    "barnhart-crane-rigging"
+  ],
+  "sources": [
+    {
+      "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+      "source_id": "tii-group-com-spmt-scheuerle-spmt"
+    },
+    {
+      "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+      "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
+    },
+    {
+      "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
+      "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Hydraulic jacking/skidding system capacities (e.g. Enerpac, Holmatro) and crane lift plans",
+      "why": "No jacking/skidding/crane manufacturer page fetched",
+      "next_action": "Fetch Enerpac/Holmatro heavy-lift system data and Liebherr crawler crane load charts"
+    },
+    {
+      "what": "Rigging gear (slings, shackles, lifting beams) WLL tables",
+      "why": "No rigging manufacturer page fetched",
+      "next_action": "Fetch Crosby/Gunnebo rigging catalogue pages"
+    },
+    {
+      "what": "APAC heavy-lift contractors with published project data",
+      "why": "Only OEM global pages read",
+      "next_action": "Search APAC heavy-lift contractor case studies"
+    }
+  ],
+  "applications": [
+    "Move and set heavy equipment (reactors, columns, transformers, modules, vessel topsides) from laydown to foundation with precision, including self-propelled mod"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

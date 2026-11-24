@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-dnv-jp-sesam-wind-fixed-offshore-wind-structure-design-white",
+  "name": "DNV (Sesam whitepaper: Fixed Offshore Wind Structure Design)",
+  "url": "https://dnv.jp/siteassets/images/pdf-documents/sesam-wind---fixed-offshore-wind-structure-design---whitepaper---pdf.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "DNV (Sesam whitepaper: Fixed Offshore Wind Structure Design)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "3D model views and analysis diagrams for jacket legs/joints, shell transition pieces, hotspot fatigue, seismic effects, concrete gravity-base structures, corrosion potentials, transportation sea-fastening, topside lifting and substation/OSS Evidence: https://dnv.jp/siteassets/images/pdf-documents/sesam-wind---fixed-offshore-wind-structure-design---whitepaper---pdf.pdf"
+}

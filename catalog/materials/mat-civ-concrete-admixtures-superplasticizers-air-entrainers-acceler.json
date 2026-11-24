@@ -1,0 +1,42 @@
+{
+  "id": "mat-civ-concrete-admixtures-superplasticizers-air-entrainers-acceler",
+  "name": "Concrete admixtures — superplasticizers, air entrainers, accelerators, retarders, corrosion inhibitors",
+  "material_category": "admixture",
+  "description": "Modify fresh and hardened concrete: water reduction, slump retention, air void system, setting control, durability and corrosion protection.",
+  "specifications": [
+    {
+      "metric": "Sika AIR dosage",
+      "unit": "mL/100 kg cementitious (0.1–6.0 fl oz/100 lb)",
+      "basis": "Sika USA Sika AIR product page: ASTM C260/AASHTO M154; no intentionally added chlorides; specific gravity 1.010; 55-gal drums, 275-gal totes, bulk",
+      "source": {
+        "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
+        "source_id": "usa-sika-com-air-entrainers-sika-air-html"
+      },
+      "low": 7,
+      "high": 400
+    }
+  ],
+  "applications": [
+    "Modify fresh and hardened concrete: water reduction, slump retention, air void system, setting control, durability and corrosion protection."
+  ],
+  "standards": [],
+  "equipment": [
+    "civ-shallow-raft-pad-foundations",
+    "civ-driven-precast-piles-concrete-steel-h-steel-pipe",
+    "civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w",
+    "civ-micropiles"
+  ],
+  "suppliers": [
+    "sika",
+    "basf-master-builders-mapei-fosroc-grace"
+  ],
+  "sources": [
+    {
+      "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
+      "source_id": "usa-sika-com-air-entrainers-sika-air-html"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

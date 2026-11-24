@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-concrete-org-357-24-preview-pdf",
+  "name": "American Concrete Institute (ACI), Committee 357",
+  "url": "https://concrete.org/Portals/0/Files/PDF/Previews/357-24_preview.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "American Concrete Institute (ACI), Committee 357",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Public preview of the ACI 357 guide covering fixed offshore concrete structures and associated marine works such as jetties, berthing structures and pile-supported platforms; preview does not expose figure captions. Evidence: https://concrete.org/Portals/0/Files/PDF/Previews/357-24_preview.pdf"
+}

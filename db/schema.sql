@@ -249,6 +249,27 @@ CREATE TABLE IF NOT EXISTS drawing (                         -- citable PFD / P&
 );
 CREATE INDEX IF NOT EXISTS drawing_tsv_idx ON drawing USING gin (tsv);
 
+CREATE TABLE IF NOT EXISTS material (                         -- engineering materials with sourced properties
+    id                text PRIMARY KEY,
+    name              text NOT NULL,
+    material_category text NOT NULL,
+    description       text NOT NULL,
+    specifications    jsonb NOT NULL DEFAULT '[]',
+    applications      text[] NOT NULL DEFAULT '{}',
+    standards         text[] NOT NULL DEFAULT '{}',
+    equipment         text[] NOT NULL DEFAULT '{}',
+    suppliers         text[] NOT NULL DEFAULT '{}',
+    sources           jsonb NOT NULL DEFAULT '[]',
+    gaps              jsonb NOT NULL DEFAULT '[]',
+    record            jsonb NOT NULL DEFAULT '{}'::jsonb,
+    search_text       text NOT NULL DEFAULT '',
+    embedding         vector(384),
+    tsv               tsvector GENERATED ALWAYS AS (
+                        setweight(to_tsvector('english', name), 'A') ||
+                        setweight(to_tsvector('english', search_text), 'B')) STORED
+);
+CREATE INDEX IF NOT EXISTS material_tsv_idx ON material USING gin (tsv);
+
 CREATE TABLE IF NOT EXISTS register_entry (            -- the indicative technology register (see library_stats for the live count)
     id       text PRIMARY KEY,
     sector   text NOT NULL,
@@ -467,6 +488,11 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
         UNION ALL
         SELECT 'drawing', d.id, d.title, d.tsv, d.embedding, d.sectors, NULL::text, d.reuse_level, d.regions
         FROM drawing d
+        UNION ALL
+        SELECT 'material', m.id, m.name, m.tsv, m.embedding,
+               (SELECT array_agg(DISTINCT s) FROM unnest(m.equipment) e JOIN equipment eq ON eq.id = e
+                CROSS JOIN LATERAL unnest(eq.sector_codes) s), NULL::text, NULL::text, NULL::text[]
+        FROM material m
     ),
     -- Every pool draws from `keep`, so a filter cannot drift between them.
     keep AS (
@@ -483,7 +509,7 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
                 OR (i.kind = 'drawing' AND region = ANY (i.regions))))
           AND (reuse_level IS NULL OR (
                 (i.kind IN ('chunk', 'source', 'drawing') AND i.src_reuse = reuse_level)
-                OR (i.kind IN ('technology', 'vendor', 'equipment', 'project', 'product') AND reuse_level = 'full-text-open')))
+                OR (i.kind IN ('technology', 'vendor', 'equipment', 'project', 'product', 'material') AND reuse_level = 'full-text-open')))
           AND (kind_filter IS NULL OR i.kind = kind_filter)
     ),
     -- Query terms (subscript digits folded, so CO₂ tokenises like CO2), each replaced by its

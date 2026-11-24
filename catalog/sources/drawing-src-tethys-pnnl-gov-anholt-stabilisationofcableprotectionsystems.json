@@ -1,0 +1,28 @@
+{
+  "id": "drawing-src-tethys-pnnl-gov-anholt-stabilisationofcableprotectionsystems",
+  "name": "Ørsted / Danish Energy Agency (Tethys/ENS host)",
+  "url": "https://tethys.pnnl.gov/sites/default/files/publications/Anholt_StabilisationofCableProtectionSystemsandCablesatScourProtectedMonopileLocationsandtheOffshoreSubstation.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC"
+  ],
+  "publisher_org": "Ørsted / Danish Energy Agency (Tethys/ENS host)",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "See publisher terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Generic plan and section views of monopile and existing scour protection pad, and design drawing of cable protection system with rock berms on the existing scour protection. Evidence: https://tethys.pnnl.gov/sites/default/files/publications/Anholt_StabilisationofCableProtectionSystemsandCablesatScourProtectedMonopileLocationsandtheOffshoreSubstation.pdf"
+}

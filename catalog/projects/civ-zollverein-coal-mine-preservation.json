@@ -1,0 +1,25 @@
+{
+  "id": "civ-zollverein-coal-mine-preservation",
+  "name": "Zollverein coal mine preservation",
+  "country": "Germany",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "Layher success story: UNESCO World Heritage site",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.layher.com/en/products/allroundscaffolding",
+      "source_id": "layher-com-products-allroundscaffolding"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

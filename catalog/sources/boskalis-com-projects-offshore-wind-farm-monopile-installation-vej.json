@@ -1,0 +1,29 @@
+{
+  "id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej",
+  "name": "Boskalis — NASR field jacket net installed weight",
+  "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Boskalis",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. 2 topsides and 3 jackets (Accommodation, Separation, Gas Treatment platforms), NASR and Umm Shait fields Evidence: https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate"
+}

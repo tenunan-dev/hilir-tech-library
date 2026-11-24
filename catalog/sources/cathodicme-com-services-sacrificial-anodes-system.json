@@ -1,0 +1,29 @@
+{
+  "id": "cathodicme-com-services-sacrificial-anodes-system",
+  "name": "Cathodic Protection Management — Cathodic Marine zinc anode specification",
+  "url": "https://cathodicme.com/services/sacrificial-anodes-system",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT",
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Cathodic Protection Management",
+  "regions": [
+    "global",
+    "apac",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the civil/structural sweep. Cathodic Marine Engineering Pte Ltd (Singapore) sacrificial anodes page, actually fetched Evidence: https://cathodicme.com/services/sacrificial-anodes-system"
+}

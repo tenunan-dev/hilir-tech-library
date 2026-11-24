@@ -1,0 +1,41 @@
+{
+  "id": "bridgestone-bridgestone-hdr-lrb-nrb-elastic-sliding-bearings",
+  "name": "Bridgestone HDR / LRB / NRB / Elastic Sliding Bearings",
+  "manufacturer": "bridgestone",
+  "product_type": "civ-civil",
+  "equipment": [
+    "civ-shallow-raft-pad-foundations"
+  ],
+  "description": "Vendor product line read 2026-11-24. Page read; APAC (Japan)",
+  "specifications": [
+    {
+      "metric": "NRB damping",
+      "unit": "%",
+      "basis": "",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
+        "source_id": "bridgestone-com-antiseismic-rubber-product-html"
+      },
+      "value": "2–3"
+    },
+    {
+      "metric": "LRB rubber grade",
+      "unit": "grade",
+      "basis": "",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
+        "source_id": "bridgestone-com-antiseismic-rubber-product-html"
+      },
+      "value": "G0.40"
+    }
+  ],
+  "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
+  "sources": [
+    {
+      "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
+      "source_id": "bridgestone-com-antiseismic-rubber-product-html"
+    }
+  ],
+  "notes": "Page read; APAC (Japan)",
+  "last_reviewed": "2026-11-24"
+}

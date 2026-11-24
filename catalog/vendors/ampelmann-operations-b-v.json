@@ -1,0 +1,24 @@
+{
+  "id": "ampelmann-operations-b-v",
+  "name": "Ampelmann Operations B.V.",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Ampelmann Operations B.V. is named as a supplier on a page read during the civil/structural sweep.",
+  "technologies": [
+    "civ-structural-steel-design"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ampelmann.nl/systems/e-type",
+      "source_id": "ampelmann-nl-systems-e-type"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 civil/structural sweep."
+}

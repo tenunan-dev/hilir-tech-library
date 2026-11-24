@@ -1,0 +1,25 @@
+{
+  "id": "civ-porthos-co2-storage-netherlands",
+  "name": "Porthos CO2 storage (Netherlands)",
+  "country": "Netherlands",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "CIV"
+  ],
+  "description": "P18-A platform conversion, 30 km onshore and >20 km offshore CO2 pipeline; first injection planned",
+  "technologies": [
+    "civ-floating-structures-fpso"
+  ],
+  "sources": [
+    {
+      "url": "https://www.porthosco2.nl/en",
+      "source_id": "porthosco2-nl-www-porthosco2-nl-en"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}
