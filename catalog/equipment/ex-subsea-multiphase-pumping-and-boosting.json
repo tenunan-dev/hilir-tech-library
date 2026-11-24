@@ -17,7 +17,8 @@
       "value": "Lower wellhead pressure, increase flow and recovery, compensate tieback pressure drop, mitigate slugging and manage hydrates/wax via pump heat.",
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
-        "url": "https://www.api.org/products-and-services/standards"
+        "url": "https://www.api.org/products-and-services/standards",
+        "source_id": "sys-api-org-standards"
       }
     }
   ],
@@ -27,7 +28,8 @@
   ],
   "sources": [
     {
-      "url": "https://www.api.org/products-and-services/standards"
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "sys-api-org-standards"
     }
   ],
   "gaps": [],

@@ -17,7 +17,8 @@
       "value": "Launch and receive pigs to clean or inspect flowlines between manifold and platform.",
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
-        "url": "https://www.api.org/products-and-services/standards"
+        "url": "https://www.api.org/products-and-services/standards",
+        "source_id": "sys-api-org-standards"
       }
     }
   ],
@@ -26,7 +27,8 @@
   ],
   "sources": [
     {
-      "url": "https://www.api.org/products-and-services/standards"
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "sys-api-org-standards"
     }
   ],
   "gaps": [

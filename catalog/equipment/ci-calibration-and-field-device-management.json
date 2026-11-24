@@ -1,0 +1,54 @@
+{
+  "id": "ci-calibration-and-field-device-management",
+  "name": "Calibration and field device management",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Configuration, calibration, proof testing and asset management of field instruments across their lifecycle.",
+  "specifications": [
+    {
+      "metric": "tool types attested",
+      "unit": "tools",
+      "basis": "Yokogawa product catalogue navigation",
+      "source": {
+        "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+        "source_id": "sys-yokogawa-com"
+      },
+      "value": "Pressure Calibrators, Device Smart Communicators, FieldMate, Plant Resource Manager (PRM), Field Asset Analytics (InsightSuiteAE)"
+    },
+    {
+      "metric": "temporary masters on FOUNDATION Fieldbus",
+      "unit": "tool types",
+      "basis": "FieldComm Group Foundation Fieldbus page",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+        "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+      },
+      "value": "handheld field communicators, laptops/tablets, documenting calibrators"
+    }
+  ],
+  "vendors": [
+    "yokogawa"
+  ],
+  "sources": [
+    {
+      "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+      "source_id": "sys-yokogawa-com"
+    },
+    {
+      "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+      "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Configuration, calibration, proof testing and asset management of field instruments across their lifecycle."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

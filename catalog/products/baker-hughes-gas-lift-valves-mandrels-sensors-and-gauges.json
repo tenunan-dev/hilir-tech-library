@@ -1,0 +1,31 @@
+{
+  "id": "baker-hughes-gas-lift-valves-mandrels-sensors-and-gauges",
+  "name": "Gas lift valves / mandrels / sensors and gauges",
+  "manufacturer": "baker-hughes",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24. No pressure/bore ratings published on the page.",
+  "specifications": [
+    {
+      "metric": "Retrieval options",
+      "unit": "n/a",
+      "basis": "Baker Hughes gas lift systems overview",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems",
+        "source_id": "sys-bakerhughes-com-gas-lift-systems"
+      },
+      "value": "wireline retrievable, tubing retrievable, special application products"
+    }
+  ],
+  "url": "https://www.bakerhughes.com/completions/gas-lift-systems",
+  "sources": [
+    {
+      "url": "https://www.bakerhughes.com/completions/gas-lift-systems",
+      "source_id": "sys-bakerhughes-com-gas-lift-systems"
+    }
+  ],
+  "notes": "No pressure/bore ratings published on the page.",
+  "last_reviewed": "2026-11-24"
+}

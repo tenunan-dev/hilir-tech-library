@@ -1,7 +1,7 @@
 {
   "id": "siemens-energy-seafloat-sgt-750-sgt-800-sgt-8000h-offshore-power-plants",
   "name": "SeaFloat SGT-750 / SGT-800 / SGT-8000H offshore power plants",
-  "manufacturer": "siemens-energy",
+  "manufacturer": "siemens-energy-incl-ex-dresser-rand",
   "product_type": "wh-wellhead",
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"

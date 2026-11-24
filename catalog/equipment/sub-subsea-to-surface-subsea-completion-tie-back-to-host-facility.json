@@ -27,7 +27,7 @@
       "basis": "Wikipedia Oil platform, Types of offshore oil and gas structures caption (2005 data)",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
-        "source_id": "en-wikipedia-org-wiki-oil-platform"
+        "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "value": "Shell's Coulomb tie to NaKika, 2,307 m (7,570 ft), 2004"
     }
@@ -44,7 +44,7 @@
     },
     {
       "url": "https://en.wikipedia.org/wiki/Oil_platform",
-      "source_id": "en-wikipedia-org-wiki-oil-platform"
+      "source_id": "sys-en-wikipedia-org-oil-platform"
     }
   ],
   "gaps": [],

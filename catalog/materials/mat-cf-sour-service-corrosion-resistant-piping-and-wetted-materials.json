@@ -1,0 +1,55 @@
+{
+  "id": "mat-cf-sour-service-corrosion-resistant-piping-and-wetted-materials",
+  "name": "Sour-service / corrosion-resistant piping and wetted materials",
+  "material_category": "metals-ferrous-and-corrosion-resistant-a",
+  "description": "Pressure-retaining pipe, fittings and wetted parts in H2S/CO2-bearing service; material selection is governed by the applicable B31 code and project pipe class.",
+  "specifications": [
+    {
+      "metric": "B31.3 material coverage",
+      "unit": "scope statement",
+      "basis": "ASME B31.3 product page description",
+      "source": {
+        "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping",
+        "source_id": "sys-asme-org-b31-3-process-piping"
+      },
+      "value": "materials and components, design, fabrication, assembly, erection, examination, inspection and testing"
+    },
+    {
+      "metric": "B31.8 plastic-pipe design formula",
+      "unit": "code change",
+      "basis": "ASME B31.8 product page key-changes statement",
+      "source": {
+        "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-8-gas-transmission-distribution-piping-systems",
+        "source_id": "sys-asme-org-b31-8-gas-transmission-distribution-piping-system"
+      },
+      "value": "revised in entirety in 2025 edition"
+    }
+  ],
+  "applications": [
+    "Pressure-retaining pipe, fittings and wetted parts in H2S/CO2-bearing service; material selection is governed by the applicable B31 code and project pipe class."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "asme"
+  ],
+  "sources": [
+    {
+      "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping",
+      "source_id": "sys-asme-org-b31-3-process-piping"
+    },
+    {
+      "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-8-gas-transmission-distribution-piping-systems",
+      "source_id": "sys-asme-org-b31-8-gas-transmission-distribution-piping-system"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Specific pipe material grades (e.g. ASTM A106 Gr B, API 5L X-grade, 316L, duplex, Inconel) and NACE MR0175/ISO 15156 sour-service limits",
+      "why": "No page naming these grades in an oil & gas piping context was fetched in this session; recording a gap rather than importing another subagent's unverified figures",
+      "next_action": "Fetch NACE/ISO standard page and a project piping material specification"
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

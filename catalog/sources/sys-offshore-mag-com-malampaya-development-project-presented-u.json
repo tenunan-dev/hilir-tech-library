@@ -1,0 +1,33 @@
+{
+  "id": "sys-offshore-mag-com-malampaya-development-project-presented-u",
+  "name": "Offshore Magazine (Barrett, Cheyne, Molloy — Expro Group)",
+  "url": "https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Mag.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the all-systems sweep. Five subsea wells, manifold in 2,690 ft, two 18.6-mi flowlines, shallow-water platform, 313-mi 24-in gas pipeline to Batangas, CALM buoy for condensate Evidence: https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges"
+}

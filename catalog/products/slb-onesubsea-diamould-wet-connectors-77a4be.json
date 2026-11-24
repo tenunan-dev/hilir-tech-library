@@ -1,0 +1,41 @@
+{
+  "id": "slb-onesubsea-diamould-wet-connectors-77a4be",
+  "name": "Diamould wet connectors",
+  "manufacturer": "slb-onesubsea-slb-aker-solutions-subsea7-joint-venture",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. Dry- and wet-mateable variants.",
+  "specifications": [
+    {
+      "metric": "Sealing",
+      "unit": "n/a",
+      "basis": "OneSubsea wet connectors page",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
+        "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
+      },
+      "value": "dual-barrier mechanical and electrical sealing; dielectric-filled wiper protection; crimped terminations"
+    },
+    {
+      "metric": "Environment",
+      "unit": "n/a",
+      "basis": "OneSubsea wet connectors page",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
+        "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
+      },
+      "value": "deepwater, HPHT wellhead and downhole; sour-resistant options"
+    }
+  ],
+  "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
+      "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
+    }
+  ],
+  "notes": "Dry- and wet-mateable variants.",
+  "last_reviewed": "2026-11-24"
+}

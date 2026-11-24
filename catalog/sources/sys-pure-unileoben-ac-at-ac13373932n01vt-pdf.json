@@ -1,0 +1,33 @@
+{
+  "id": "sys-pure-unileoben-ac-at-ac13373932n01vt-pdf",
+  "name": "Montanuniversität Leoben (review thesis)",
+  "url": "https://pure.unileoben.ac.at/ws/portalfiles/portal/1876337/AC13373932n01vt.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Pure.Unileoben.Ac.At",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the all-systems sweep. Typical vertical and horizontal subsea trees with valves and conduits; crossover valves and tree/tubing-hanger seals Evidence: https://pure.unileoben.ac.at/ws/portalfiles/portal/1876337/AC13373932n01vt.pdf"
+}

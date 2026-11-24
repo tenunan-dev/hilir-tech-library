@@ -1,0 +1,41 @@
+{
+  "id": "ci-data-historians-edge-computing-digital-twin-iiot",
+  "name": "Data historians / edge computing / digital twin / IIoT",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Time-series data capture, edge analytics, process digital twins and IIoT connectivity for optimisation and remote operations.",
+  "specifications": [
+    {
+      "metric": "offering attested",
+      "unit": "offerings",
+      "basis": "Yokogawa product/solutions catalogue navigation",
+      "source": {
+        "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+        "source_id": "sys-yokogawa-com"
+      },
+      "value": "Data Historian; Plant Information Management System; Process Data Analytics; OpreX Intelligent Manufacturing Hub; process digital twin for LNG plants and for oil & gas upstream; Intelligent Edge Controllers (A8)"
+    }
+  ],
+  "vendors": [
+    "yokogawa",
+    "honeywell"
+  ],
+  "sources": [
+    {
+      "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+      "source_id": "sys-yokogawa-com"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Time-series data capture, edge analytics, process digital twins and IIoT connectivity for optimisation and remote operations."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ci-ot-cybersecurity",
+  "name": "OT cybersecurity",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Security of industrial automation and control systems (IACS) across the lifecycle for offshore/onshore ICSS and SCADA.",
+  "specifications": [
+    {
+      "metric": "standard family",
+      "unit": "standard",
+      "basis": "ISA/IEC 62443 Series of Standards page",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards",
+        "source_id": "sys-isa-org-isa-iec-62443-series-of-standards"
+      },
+      "value": "ISA/IEC 62443 (world's only consensus-based IACS cybersecurity standard series); IEC recognised it as a horizontal standard in 2021; endorsed by the United Nations"
+    },
+    {
+      "metric": "key parts",
+      "unit": "standards",
+      "basis": "ISA/IEC 62443 page",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards",
+        "source_id": "sys-isa-org-isa-iec-62443-series-of-standards"
+      },
+      "value": "62443-2-1:2024 (asset owners), 62443-3-2:2020 (risk assessment), 62443-3-3:2013 (system security requirements and security levels), 62443-4-1:2018 (secure product development), 62443-4-2:2018 (component technical requirements)"
+    },
+    {
+      "metric": "ISAGCA membership",
+      "unit": "member companies (more than)",
+      "basis": "ISA/IEC 62443 page: 'more than 50 member companies representing more than $1.5 trillion in aggregate revenue across more than 2,400 combined locations' and '31 different industries'",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards",
+        "source_id": "sys-isa-org-isa-iec-62443-series-of-standards"
+      },
+      "low": 50
+    },
+    {
+      "metric": "Siemens PCS 7 cybersecurity",
+      "unit": "compliance",
+      "basis": "Siemens SIMATIC PCS 7 product page",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+        "source_id": "sys-siemens-com-simatic-pcs-7-html"
+      },
+      "value": "NIS2-compliant cybersecurity; IEC 62443-4-1 and IEC 62443-3-3 compliance; secure communication protocols and centralised Microsoft update deployment"
+    }
+  ],
+  "vendors": [
+    "isa-isagca-isci-isasecure",
+    "yokogawa",
+    "honeywell"
+  ],
+  "sources": [
+    {
+      "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards",
+      "source_id": "sys-isa-org-isa-iec-62443-series-of-standards"
+    },
+    {
+      "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+      "source_id": "sys-siemens-com-simatic-pcs-7-html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Security of industrial automation and control systems (IACS) across the lifecycle for offshore/onshore ICSS and SCADA."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-figure-25-lazy-wave-configuration-figure-27-calm-buoy-catenary-mooring-335559",
+  "title": "Figure 25 — Lazy-wave configuration; Figure 27 — CALM buoy catenary mooring; Figure 28 — lazy-wave geometry parameters",
+  "diagram_type": "schematic",
+  "description": "Lazy-wave hose/riser configuration, buoy mooring schematic, geometry definitions and loads on floating/submarine hose segments | Figures: Figures 25, 27, 28 in MDPI Journal of Marine Science and Engineering 9(11):1179 (2021)",
+  "publisher": "MDPI JMSE",
+  "url": "https://www.mdpi.com/2077-1312/9/11/1179",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.mdpi.com/2077-1312/9/11/1179",
+      "source_id": "sys-mdpi-com-1179"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct GET HTTP 403 (bot protection)",
+  "last_reviewed": "2026-11-24"
+}

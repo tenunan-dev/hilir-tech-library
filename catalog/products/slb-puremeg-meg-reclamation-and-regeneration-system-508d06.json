@@ -1,0 +1,31 @@
+{
+  "id": "slb-puremeg-meg-reclamation-and-regeneration-system-508d06",
+  "name": "PureMEG MEG Reclamation and Regeneration System",
+  "manufacturer": "slb-cameron-pressure-control-equipment",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. Not an injection pump/valve; relevant to glycol loop chemistry.",
+  "specifications": [
+    {
+      "metric": "Function",
+      "unit": "n/a",
+      "basis": "SLB Processing and Separation gas-treatment listing",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+        "source_id": "sys-slb-com-processing-and-separation"
+      },
+      "value": "MEG reclamation and regeneration (gas treatment)"
+    }
+  ],
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+  "sources": [
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+      "source_id": "sys-slb-com-processing-and-separation"
+    }
+  ],
+  "notes": "Not an injection pump/valve; relevant to glycol loop chemistry.",
+  "last_reviewed": "2026-11-24"
+}

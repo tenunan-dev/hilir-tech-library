@@ -1,0 +1,33 @@
+{
+  "id": "sys-dr-ddn-upes-ac-in-content",
+  "name": "UPES (University of Petroleum and Energy Studies) institutional repository",
+  "url": "https://dr.ddn.upes.ac.in/server/api/core/bitstreams/59de0bef-b4f8-4b11-933c-f2f5d744158d/content",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Dr.Ddn.Upes.Ac.In",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the all-systems sweep. Author-designed facility layout for 10,000-15,000 BOPD offshore separation with 3,000-10,000 BPD water and 10,000 ppm H2S Evidence: https://dr.ddn.upes.ac.in/server/api/core/bitstreams/59de0bef-b4f8-4b11-933c-f2f5d744158d/content"
+}

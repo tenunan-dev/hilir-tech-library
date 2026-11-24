@@ -1,0 +1,41 @@
+{
+  "id": "multiple-registered-vendors-fieldcomm-group-registry-wirelesshart-field-devi-279e42",
+  "name": "WirelessHART field devices and gateways (generic, standards-based)",
+  "manufacturer": "multiple-registered-vendors-fieldcomm-group-registry",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. Standards family, not a single purchasable SKU; registry: https://www.fieldcommgroup.org/registered-products?category=WIRELESS",
+  "specifications": [
+    {
+      "metric": "RF physical layer",
+      "unit": "GHz",
+      "basis": "",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+        "source_id": "sys-fieldcommgroup-org-wirelesshart"
+      },
+      "value": "2.4 GHz DSSS O-QPSK (IEEE 802.15.4-2006)"
+    },
+    {
+      "metric": "MAC",
+      "unit": "protocol",
+      "basis": "",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+        "source_id": "sys-fieldcommgroup-org-wirelesshart"
+      },
+      "value": "TDMA data-link layer"
+    }
+  ],
+  "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+  "sources": [
+    {
+      "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+      "source_id": "sys-fieldcommgroup-org-wirelesshart"
+    }
+  ],
+  "notes": "Standards family, not a single purchasable SKU; registry: https://www.fieldcommgroup.org/registered-products?category=WIRELESS",
+  "last_reviewed": "2026-11-24"
+}

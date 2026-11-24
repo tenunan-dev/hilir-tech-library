@@ -114,14 +114,14 @@
       "note": "B&W package boilers page including FM capacity tables, read 30 October 2026"
     },
     {
-      "vendor": "john-zink",
+      "vendor": "john-zink-koch-engineered-solutions",
       "line": "Coen burners paired with B&W packages",
       "range": "B&W packages boilers with JZHC Coen burners under an agreement between the two companies; Coen burners installed in more than 15,000 plants",
       "url": "https://www.babcock.com/home/products/package-boilers",
       "note": "B&W package boilers page, integrated-boiler-and-burner section, read 30 October 2026"
     }
   ],
-  "vendors": ["babcock-wilcox", "john-zink"],
+  "vendors": ["babcock-wilcox", "john-zink-koch-engineered-solutions"],
   "technologies": ["pwr-cogeneration-chp", "pwr-combined-cycle-hrsg"],
   "sources": [
     {

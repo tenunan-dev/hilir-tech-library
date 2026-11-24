@@ -1,0 +1,33 @@
+{
+  "id": "sys-en-wikipedia-org-oil-platform",
+  "name": "Wikipedia / Wikimedia Commons (secondary)",
+  "url": "https://en.wikipedia.org/wiki/Oil_platform",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Wikipedia",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. Basic well-to-platform operation schematic Evidence: https://en.wikipedia.org/wiki/Oil_platform"
+}

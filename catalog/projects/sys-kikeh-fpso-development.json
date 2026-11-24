@@ -1,0 +1,25 @@
+{
+  "id": "sys-kikeh-fpso-development",
+  "name": "Kikeh FPSO Development",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "description": "capacity: 2 million bbl FPSO storage; 400-700 million bbl recoverable; 120,000 bpd initial ramp-up | status: Operating; first oil August 2007 | dates: ['Apr 2004 Kikeh-7 appraisal well', 'Aug 2007 first oil'] | location: Block K, 120 km north-west of Labuan, offshore Sabah, East Malaysia; ~1,330 m water depth",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development/",
+      "source_id": "sys-offshore-technology-com-dc5c67"
+    }
+  ],
+  "notes": "Added in the 2026-11-24 all-systems sweep.",
+  "last_reviewed": "2026-11-24"
+}

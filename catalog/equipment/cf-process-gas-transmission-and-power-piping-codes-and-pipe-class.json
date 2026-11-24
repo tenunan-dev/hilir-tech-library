@@ -1,0 +1,115 @@
+{
+  "id": "cf-process-gas-transmission-and-power-piping-codes-and-pipe-class",
+  "name": "Process, gas-transmission and power piping codes and pipe classes",
+  "equipment_type": "cf-system",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "UPS",
+    "PRC",
+    "ELE"
+  ],
+  "description": "Defines materials, design, fabrication, assembly, erection, examination, inspection and testing for piping. B31.3 governs plant process piping, B31.8 gas transmission/distribution including offshore gathering appurtenances, and B31.1 power/boiler-external piping.",
+  "specifications": [
+    {
+      "metric": "B31.3 latest edition",
+      "unit": "edition year",
+      "basis": "ASME B31.3 Process Piping page states 'B31.3 - 2024'",
+      "source": {
+        "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping",
+        "source_id": "sys-asme-org-b31-3-process-piping"
+      },
+      "value": "2024"
+    },
+    {
+      "metric": "B31.8 latest edition",
+      "unit": "edition year",
+      "basis": "ASME B31.8 Gas Transmission and Distribution Piping Systems page states 'B31.8 - 2025'",
+      "source": {
+        "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-8-gas-transmission-distribution-piping-systems",
+        "source_id": "sys-asme-org-b31-8-gas-transmission-distribution-piping-system"
+      },
+      "value": "2025"
+    },
+    {
+      "metric": "B31.1 latest edition",
+      "unit": "edition year",
+      "basis": "ASME B31.1 Power Piping page states 'B31.1 - 2026'",
+      "source": {
+        "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping",
+        "source_id": "sys-asme-org-b31-1-power-piping"
+      },
+      "value": "2026"
+    },
+    {
+      "metric": "B31.3 key 2024 changes",
+      "unit": "clause list",
+      "basis": "ASME B31.3 product page 'Key changes' list with paragraph references (307, 319 & 320, 323.2.2/323.3.1, 328.5.2, 330.1/331.1, K302.3.2, K302.3/K304.8)",
+      "source": {
+        "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping",
+        "source_id": "sys-asme-org-b31-3-process-piping"
+      },
+      "value": "Unlisted valves, flexibility/SIF, impact testing, flange attachment welds, heat treatment, high-pressure fluid service design & fatigue"
+    },
+    {
+      "metric": "B31.1 key 2026 changes",
+      "unit": "clause list",
+      "basis": "ASME B31.1 product page 'Key changes' list",
+      "source": {
+        "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping",
+        "source_id": "sys-asme-org-b31-1-power-piping"
+      },
+      "value": "Appendices Q/R, B31J reference, joint exposure during pressure test, wind/earthquake factors, API 579-1/ASME FFS-1 reference"
+    }
+  ],
+  "vendors": [
+    "asme",
+    "api"
+  ],
+  "sources": [
+    {
+      "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping",
+      "source_id": "sys-asme-org-b31-3-process-piping"
+    },
+    {
+      "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-8-gas-transmission-distribution-piping-systems",
+      "source_id": "sys-asme-org-b31-8-gas-transmission-distribution-piping-system"
+    },
+    {
+      "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping",
+      "source_id": "sys-asme-org-b31-1-power-piping"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Full normative text and allowable stress tables of B31.3/B31.8/B31.1",
+      "why": "Paywalled standards; only product/scope pages were fetched",
+      "next_action": "Procurement of standards; do not infer allowable stresses from public pages"
+    },
+    {
+      "what": "Typical offshore vs onshore piping class differences (materials, corrosion allowance, supports, insulation, expansion)",
+      "why": "No page with a side-by-side piping-class comparison was fetched; this must not be guessed",
+      "next_action": "Fetch a project piping specification or a recognised piping-engineering reference (e.g. ASTM/API material specs, offshore operator standard)"
+    },
+    {
+      "what": "Valve, flange and fitting standards (API 600/602/605, ASME B16.5/B16.9, MSS) and their numeric dimensions/ratings",
+      "why": "Not on any fetched page",
+      "next_action": "Fetch ASME/API product pages for the specific component standards"
+    },
+    {
+      "what": "Full normative text and allowable stress tables of B31.3/B31.8/B31.1",
+      "why": "Paywalled standards; only product/scope pages were fetched",
+      "next_action": "Procurement of standards; do not infer allowable stresses from public pages"
+    },
+    {
+      "what": "Typical offshore vs onshore piping class differences (materials, corrosion allowance, supports, insulation, expansion)",
+      "why": "No page with a side-by-side piping-class comparison was fetched; this must not be guessed",
+      "next_action": "Fetch a project piping specification or a recognised piping-engineering reference (e.g. ASTM/API material specs, offshore operator standard)"
+    }
+  ],
+  "applications": [
+    "Defines materials, design, fabrication, assembly, erection, examination, inspection and testing for piping. B31.3 governs plant process piping, B31.8 gas transm"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

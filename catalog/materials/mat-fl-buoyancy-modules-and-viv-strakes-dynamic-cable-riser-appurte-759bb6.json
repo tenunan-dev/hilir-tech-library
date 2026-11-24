@@ -1,0 +1,45 @@
+{
+  "id": "mat-fl-buoyancy-modules-and-viv-strakes-dynamic-cable-riser-appurte-759bb6",
+  "name": "Buoyancy modules and VIV strakes",
+  "material_category": "composite-manufactured-hardware",
+  "description": "Control dynamic configuration, provide buoyancy and suppress vortex-induced vibration on dynamic subsea cables/risers.",
+  "specifications": [
+    {
+      "metric": "Buoyancy modules installed",
+      "unit": "modules",
+      "basis": "Nexans Jansz-Io project: horizontal installation method developed by Nexans",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
+        "source_id": "sys-nexans-com"
+      },
+      "value": 26
+    },
+    {
+      "metric": "VIV strakes installed",
+      "unit": "metres (about)",
+      "basis": "Nexans Jansz-Io project: about 200 m of VIV strakes in the Scarp section",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
+        "source_id": "sys-nexans-com"
+      },
+      "value": 200
+    }
+  ],
+  "applications": [
+    "Control dynamic configuration, provide buoyancy and suppress vortex-induced vibration on dynamic subsea cables/risers."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "nexans"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
+      "source_id": "sys-nexans-com"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

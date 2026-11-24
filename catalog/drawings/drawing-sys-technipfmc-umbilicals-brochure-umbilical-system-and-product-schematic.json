@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-technipfmc-umbilicals-brochure-umbilical-system-and-product-schematic",
+  "title": "TechnipFMC Umbilicals brochure — umbilical system and product schematic",
+  "diagram_type": "schematic",
+  "description": "Steel-tube, thermoplastic-hose, power/communication and hybrid umbilicals; topside/subsea terminations, bend stiffeners, jumpers and flying leads | Figures: Unnumbered schematic in TechnipFMC Umbilicals brochure",
+  "publisher": "TechnipFMC",
+  "url": "https://www.technipfmc.com/media/l11loka4/technipfmc-umbilicals-brochure.pdf",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral",
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "top-flare-platform-topsides-and-flare-booms-stacks",
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/media/l11loka4/technipfmc-umbilicals-brochure.pdf",
+      "source_id": "sys-technipfmc-com-technipfmc-umbilicals-brochure-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct URL HTTP 200",
+  "last_reviewed": "2026-11-24"
+}

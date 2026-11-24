@@ -1,0 +1,31 @@
+{
+  "id": "siemens-simatic-et-200sp-ha-remote-i-o",
+  "name": "SIMATIC ET 200SP HA remote I/O",
+  "manufacturer": "siemens",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "design intent",
+      "unit": "description",
+      "basis": "",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+        "source_id": "sys-siemens-com-simatic-pcs-7-html"
+      },
+      "value": "compact robust remote I/O for high availability"
+    }
+  ],
+  "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+  "sources": [
+    {
+      "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+      "source_id": "sys-siemens-com-simatic-pcs-7-html"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

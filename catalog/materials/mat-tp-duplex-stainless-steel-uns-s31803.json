@@ -10,7 +10,8 @@
       "value": "Corrosion-resistant wetted body material for multiphase flowmeter venturi bodies and process wetted parts.",
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
-        "url": "https://www.api.org/products-and-services/standards"
+        "url": "https://www.api.org/products-and-services/standards",
+        "source_id": "sys-api-org-standards"
       }
     }
   ],
@@ -25,12 +26,13 @@
     "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
   ],
   "suppliers": [
-    "slb-championx-portfolio",
+    "slb-cameron-pressure-control-equipment",
     "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea"
   ],
   "sources": [
     {
-      "url": "https://www.api.org/products-and-services/standards"
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "sys-api-org-standards"
     }
   ],
   "gaps": [],

@@ -1,0 +1,85 @@
+{
+  "id": "fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246",
+  "name": "Connectors",
+  "equipment_type": "fl-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Make separable hydraulic, electrical and optical connections subsea/downhole, and connect flowlines/tie-ins; provide sealing and corrosion protection in hostile environments.",
+  "specifications": [
+    {
+      "metric": "Connection system internal pressure qualification",
+      "unit": "psi",
+      "basis": "TechnipFMC subsea infrastructure: all connection systems 'extensively tested and are qualified for internal pressures up to 20,000 psi and 3,000 m of water'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
+        "source_id": "sys-technipfmc-com-b0f39f"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Connection system water depth qualification",
+      "unit": "m of water",
+      "basis": "Same TechnipFMC statement",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
+        "source_id": "sys-technipfmc-com-b0f39f"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Installed connection systems",
+      "unit": "systems (more than)",
+      "basis": "TechnipFMC: 'More than 3,000 of our connection systems are installed and operating worldwide'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
+        "source_id": "sys-technipfmc-com-b0f39f"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Wet connector sealing architecture",
+      "unit": "n/a",
+      "basis": "OneSubsea wet connectors page, Application and Features",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
+        "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
+      },
+      "value": "dual-barrier system for mechanical and electrical sealing; dielectric-filled compensation wiper system protects receptacle contacts; crimped cable terminations; male pin gives immediate corrosion protection on de-mating"
+    },
+    {
+      "metric": "Wet connector environment capability",
+      "unit": "n/a",
+      "basis": "OneSubsea wet connectors page, Core benefits",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
+        "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
+      },
+      "value": "deepwater and high-pressure/high-temperature wellhead and downhole applications; many dry- and wet-mateable connectors resistant to sour environments and sand/silt ingress"
+    }
+  ],
+  "vendors": [
+    "slb-onesubsea-slb-aker-solutions-subsea7-joint-venture",
+    "technipfmc-cds-separation-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
+      "source_id": "sys-technipfmc-com-b0f39f"
+    },
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
+      "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Make separable hydraulic, electrical and optical connections subsea/downhole, and connect flowlines/tie-ins; provide sealing and corrosion protection in hostile"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

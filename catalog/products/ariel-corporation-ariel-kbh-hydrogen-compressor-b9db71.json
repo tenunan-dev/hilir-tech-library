@@ -1,0 +1,61 @@
+{
+  "id": "ariel-corporation-ariel-kbh-hydrogen-compressor-b9db71",
+  "name": "Ariel KBH hydrogen compressor",
+  "manufacturer": "ariel-corporation",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. Non-lubricated, vertical",
+  "specifications": [
+    {
+      "metric": "Suction",
+      "unit": "bar",
+      "basis": "",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html",
+        "source_id": "sys-arielcorp-com-kbh-html"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Discharge",
+      "unit": "bar",
+      "basis": "",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html",
+        "source_id": "sys-arielcorp-com-kbh-html"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Flow",
+      "unit": "kg/h",
+      "basis": "",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html",
+        "source_id": "sys-arielcorp-com-kbh-html"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Stages",
+      "unit": "count",
+      "basis": "",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html",
+        "source_id": "sys-arielcorp-com-kbh-html"
+      },
+      "value": 4
+    }
+  ],
+  "url": "https://www.arielcorp.com/compressors/kbh.html",
+  "sources": [
+    {
+      "url": "https://www.arielcorp.com/compressors/kbh.html",
+      "source_id": "sys-arielcorp-com-kbh-html"
+    }
+  ],
+  "notes": "Non-lubricated, vertical",
+  "last_reviewed": "2026-11-24"
+}

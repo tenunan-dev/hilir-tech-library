@@ -1,0 +1,33 @@
+{
+  "id": "sys-wartsila-com-engines-and-generating-sets",
+  "name": "INNIO / Wartsila",
+  "url": "https://www.wartsila.com/marine/products/engines-and-generating-sets",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Wärtsilä",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. PAGE NOT FETCHED (404). No figures attributed. Evidence: https://www.wartsila.com/marine/products/engines-and-generating-sets"
+}

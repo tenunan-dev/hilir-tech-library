@@ -1,0 +1,54 @@
+{
+  "id": "ci-telemetry-scada-remote-monitoring",
+  "name": "Telemetry & SCADA / remote monitoring",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Remote acquisition and supervision of dispersed onshore wells/pipelines and offshore assets.",
+  "specifications": [
+    {
+      "metric": "telemetry/wide-area products attested",
+      "unit": "products/solutions",
+      "basis": "Yokogawa product/solutions catalogue navigation",
+      "source": {
+        "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+        "source_id": "sys-yokogawa-com"
+      },
+      "value": "Wide Area Monitoring System; Multi-Sensing Remote I/O; Wireless Data Acquisition (920 MHz); Data Connectivity; Integrated Operations Center (IOC) for efficient remote plant operations"
+    },
+    {
+      "metric": "Honeywell SCADA",
+      "unit": "offering",
+      "basis": "Honeywell Process Automation overview page",
+      "source": {
+        "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
+        "source_id": "sys-honeywellprocess-com-default-aspx"
+      },
+      "value": "Honeywell offers advanced SCADA alongside Experion PKS, bridging operations and strategy"
+    }
+  ],
+  "vendors": [
+    "yokogawa"
+  ],
+  "sources": [
+    {
+      "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+      "source_id": "sys-yokogawa-com"
+    },
+    {
+      "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
+      "source_id": "sys-honeywellprocess-com-default-aspx"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Remote acquisition and supervision of dispersed onshore wells/pipelines and offshore assets."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -17,7 +17,7 @@
       "basis": "OneSubsea manifolds capability up to depths of 10,000 ft",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
-        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+        "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
       "value": 10000
     },
@@ -27,7 +27,7 @@
       "basis": "OneSubsea manifolds up to 15,000 psi",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
-        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+        "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
       "value": 15000
     },
@@ -37,7 +37,7 @@
       "basis": "OneSubsea manifolds up to 175 C",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
-        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+        "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
       "value": 175
     },
@@ -80,7 +80,7 @@
   "sources": [
     {
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
-      "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+      "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
     },
     {
       "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",

@@ -1,0 +1,25 @@
+{
+  "id": "sys-petronas-pflng-dua-pflng-2-rotan-buluh-gas-fields",
+  "name": "PETRONAS PFLNG DUA (PFLNG-2, Rotan/Buluh gas fields)",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "description": "capacity: 1.5 million tonnes per annum LNG; world's first FLNG serving a deepwater gas field >1,000 m | status: Operating; first production February 2021 | dates: ['Jan 2007 Rotan-1 discovery', '2012 FEED', 'Feb 2014 FID', 'May 2015 fabrication start', 'Dec 2015 keel laying', 'May 2016 hull launch', 'Feb-Mar 2020 tow to field', 'Feb 2021 first production'] | location: Block H, South China Sea, 140 km offshore Kota Kinabalu, Sabah; moored in up to 1,500 m water",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/pflng-2-rotan-flng-project-sabah/",
+      "source_id": "sys-offshore-technology-com-c904ac"
+    }
+  ],
+  "notes": "Added in the 2026-11-24 all-systems sweep.",
+  "last_reviewed": "2026-11-24"
+}

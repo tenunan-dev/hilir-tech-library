@@ -1,0 +1,31 @@
+{
+  "id": "slb-wemco-pacesetter-separator-wemco-silver-band-separator-mozley-desanding-508d06",
+  "name": "WEMCO PACESETTER Separator / WEMCO SILVER BAND Separator / MOZLEY Desanding Hydrocyclone Separator",
+  "manufacturer": "slb-cameron-pressure-control-equipment",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. Names only; no numeric data on the page.",
+  "specifications": [
+    {
+      "metric": "Category",
+      "unit": "n/a",
+      "basis": "SLB Processing and Separation produced-water product listing",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+        "source_id": "sys-slb-com-processing-and-separation"
+      },
+      "value": "produced-water treatment / desanding"
+    }
+  ],
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+  "sources": [
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+      "source_id": "sys-slb-com-processing-and-separation"
+    }
+  ],
+  "notes": "Names only; no numeric data on the page.",
+  "last_reviewed": "2026-11-24"
+}

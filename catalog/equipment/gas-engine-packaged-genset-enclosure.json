@@ -59,7 +59,7 @@
       "basis": "Cummins Gas Power Plant Application Manual, Noise Attenuation Support (3.6.7)",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "sound attenuation built into air inlet/outlet; linings of fibreglass, drywall with fibreglass, insulated perforated airfoils or foam; evaluate flame retardance and resistance to oil/contaminants; 90-degree duct bend reduces high-frequency noise; high-mass line-of-sight barriers (sand-filled cement block or brick)"
     },
@@ -69,7 +69,7 @@
       "basis": "Cummins Gas Power Plant Application Manual, enclosure design section",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "shall meet the site noise reduction requirement"
     },
@@ -97,7 +97,7 @@
     },
     {
       "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
     },
     {
       "url": "https://burgessmanning.com/preset-vent-silencers/",

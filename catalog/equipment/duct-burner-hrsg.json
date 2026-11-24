@@ -89,7 +89,7 @@
     }
   ],
   "vendors": [
-    "john-zink",
+    "john-zink-koch-engineered-solutions",
     "cleaver-brooks",
     "entech-products"
   ],
@@ -140,13 +140,13 @@
   ],
   "vendor_models": [
     {
-      "vendor": "john-zink",
+      "vendor": "john-zink-koch-engineered-solutions",
       "line": "ProLine in-line duct burner",
       "range": "0.03 lb/MMBtu NOx and CO, to 5 MMBtu/hr/ft, 20:1 turndown",
       "url": "https://johnzink.com/products/duct-burner/proline-in-line-duct-burner"
     },
     {
-      "vendor": "john-zink",
+      "vendor": "john-zink-koch-engineered-solutions",
       "line": "Duct-burner flame holders",
       "range": "LDRW low-draft reverse wing, VC V-cone tip wing and Coen castings, with igniters and flame scanners",
       "url": "https://www.johnzink.com/products/powerburners/duct-burner"

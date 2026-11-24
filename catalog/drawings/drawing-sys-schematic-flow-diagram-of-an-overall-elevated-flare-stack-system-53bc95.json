@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-schematic-flow-diagram-of-an-overall-elevated-flare-stack-system-53bc95",
+  "title": "Schematic flow diagram of an overall elevated flare stack system",
+  "diagram_type": "PFD",
+  "description": "Flare KO/knockout drum, water seal drum, gas recovery, steam injection for smokeless burning, pilot/ignition and flare stack with flashback prevention | Figures: Wikipedia caption: 'Schematic flow diagram of an overall vertical, elevated flare stack system in an industrial plant'; Commons File:FlareStack_System.png",
+  "publisher": "Wikimedia Commons; author Mbeychok (2012)",
+  "url": "https://commons.wikimedia.org/wiki/File:FlareStack_System.png",
+  "licence": "CC0 1.0 Universal public-domain dedication; copy/modify/distribute even commercially without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:FlareStack_System.png",
+      "source_id": "sys-commons-wikimedia-org-file-flarestack-system-png"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch of Wikipedia Gas flare page and Commons file page (author, date, CC0 confirmed)",
+  "last_reviewed": "2026-11-24"
+}

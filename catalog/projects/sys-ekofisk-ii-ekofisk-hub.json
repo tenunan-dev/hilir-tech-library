@@ -1,0 +1,25 @@
+{
+  "id": "sys-ekofisk-ii-ekofisk-hub",
+  "name": "Ekofisk II / Ekofisk hub",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "description": "capacity: ~560,000 bpd oil piped 354 km to Teesside; ~2 bcfd gas piped 440 km to Emden; 6,400 t process module | status: Operating; 2/4 J installed July 1997; 2/4 L in service 2013; Ekofisk South production Oct 2013; extension to 2050 | dates: ['1993 expansion plan', 'Jul 1997 2/4 J installed', '2009 2/4 VA injection wells', '2010 2/4 L accommodation approval', 'Jun 2011 Ekofisk South permission', 'Oct 2013 South production'] | location: Central North Sea; 27 permanent installations, 10 in central Ekofisk complex",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/ekofisk/",
+      "source_id": "sys-offshore-technology-com-5815ab"
+    }
+  ],
+  "notes": "Added in the 2026-11-24 all-systems sweep.",
+  "last_reviewed": "2026-11-24"
+}

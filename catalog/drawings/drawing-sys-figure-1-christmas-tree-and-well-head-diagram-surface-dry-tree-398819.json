@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-figure-1-christmas-tree-and-well-head-diagram-surface-dry-tree-398819",
+  "title": "Figure 1 — Christmas Tree and Well Head Diagram (surface dry tree)",
+  "diagram_type": "schematic",
+  "description": "Master valves, wing valves, choke, swab valve, T-cap, pressure gauge, tubing hanger and casing spools | Figures: Figure 1, DrillingFormulas.Com article 'Surface Christmas Tree (Dry Tree) Basic Knowledge'",
+  "publisher": "DrillingFormulas.Com (references Applied Drilling Engineering / SPE, Azar, Australian Drilling Manual, Devereux)",
+  "url": "https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/",
+      "source_id": "sys-drillingformulas-com"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct URL HTTP 200",
+  "last_reviewed": "2026-11-24"
+}

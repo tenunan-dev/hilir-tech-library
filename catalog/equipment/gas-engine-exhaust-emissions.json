@@ -66,7 +66,7 @@
       "basis": "Cummins Gas Power Plant Application Manual, exhaust section: route exhaust piping at least 8 feet (2.3 metres) above... (qualifier as printed in the manual)",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "low": "8"
     },
@@ -76,7 +76,7 @@
       "basis": "Cummins Gas Power Plant Application Manual, exhaust section; expansion joints required in long straight runs and every change of direction",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "0.0078 inches per foot of pipe per 100 deg F rise (1.17 mm per metre per 100 deg C)"
     },
@@ -86,7 +86,7 @@
       "basis": "Cummins Gas Power Plant Application Manual, exhaust after-treatment section",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "oxidation catalyst located as close to engine as possible; catalyst bypass at start-up to protect from high exhaust temperatures; DEF approx. one-third urea and two-thirds water; SCR costly, heavy, needs careful doser sizing and ammonia-slip control"
     },
@@ -126,7 +126,7 @@
     },
     {
       "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
     },
     {
       "url": "https://burgessmanning.com/preset-vent-silencers/",

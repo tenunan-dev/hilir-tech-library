@@ -1,0 +1,25 @@
+{
+  "id": "sys-gumusut-kakap-deepwater-project",
+  "name": "Gumusut-Kakap Deepwater Project",
+  "country": "Malaysia",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "description": "capacity: FPS processing capacity 150,000 bbl/d oil; average production expected 135,000 bbl/d; reserves 300-500 million boe | status: Operating; first production October 2014 | dates: ['2003 Gumusut discovery', '2004 Kakap discovery', '2006 unitisation agreement', 'Jan 2008 FID and development drilling', 'Oct 2010-Nov 2010 mooring piles', 'Oct 2014 first production'] | location: Blocks J and K, ~120 km offshore Sabah; 1,200 m water depth",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/gumusut-kakap-deepwater-oil-gas/",
+      "source_id": "sys-offshore-technology-com-80111e"
+    }
+  ],
+  "notes": "Added in the 2026-11-24 all-systems sweep.",
+  "last_reviewed": "2026-11-24"
+}

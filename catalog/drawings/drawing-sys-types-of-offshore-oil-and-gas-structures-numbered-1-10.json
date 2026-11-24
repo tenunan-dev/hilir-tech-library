@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-types-of-offshore-oil-and-gas-structures-numbered-1-10",
+  "title": "Types of offshore oil and gas structures (numbered 1-10)",
+  "diagram_type": "schematic",
+  "description": "Fixed platforms, compliant tower, TLP/mini-TLP, spar, semi-submersibles, FPSO and subsea completion tie-back | Figures: Commons File:Types_of_offshore_oil_and_gas_structures.jpg; numbered 1-10 from left to right",
+  "publisher": "NOAA Office of Ocean Exploration and Research; graphic originally by Oil States Industries, Inc.",
+  "url": "https://commons.wikimedia.org/wiki/File:Types_of_offshore_oil_and_gas_structures.jpg",
+  "licence": "Public domain. Freely reusable with attribution good practice.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral",
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "top-flare-platform-topsides-and-flare-booms-stacks",
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Types_of_offshore_oil_and_gas_structures.jpg",
+      "source_id": "sys-commons-wikimedia-org-file-types-of-offshore-oil-and-gas-s"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch of Commons file page (source, author and PD status confirmed)",
+  "last_reviewed": "2026-11-24"
+}

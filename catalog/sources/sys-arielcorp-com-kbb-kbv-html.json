@@ -1,0 +1,33 @@
+{
+  "id": "sys-arielcorp-com-kbb-kbv-html",
+  "name": "Arielcorp.Com — Large-frame rated power",
+  "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Arielcorp.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. Ariel KBB/KBV, 4-throw 6668 BHP and 6-throw 10,000 BHP; stroke 7.25 in (KBB) / 8.50 in (KBV); total rod load 190,000 lb; max 900/750 rpm Evidence: https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+}

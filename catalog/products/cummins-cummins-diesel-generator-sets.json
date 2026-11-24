@@ -1,0 +1,52 @@
+{
+  "id": "cummins-cummins-diesel-generator-sets",
+  "name": "Cummins diesel generator sets",
+  "manufacturer": "cummins",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24. 50/60 Hz; Quiet and Standard ranges",
+  "specifications": [
+    {
+      "metric": "Rating range",
+      "unit": "kVA",
+      "basis": "",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel",
+        "source_id": "sys-cummins-com-diesel"
+      },
+      "low": 15,
+      "high": 3750
+    },
+    {
+      "metric": "Load acceptance",
+      "unit": "s",
+      "basis": "",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel",
+        "source_id": "sys-cummins-com-diesel"
+      },
+      "value": "<10"
+    },
+    {
+      "metric": "Emission certification",
+      "unit": "qualitative",
+      "basis": "",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel",
+        "source_id": "sys-cummins-com-diesel"
+      },
+      "value": "Tier 4F (rental)"
+    }
+  ],
+  "url": "https://www.cummins.com/en-apac/generators/diesel",
+  "sources": [
+    {
+      "url": "https://www.cummins.com/en-apac/generators/diesel",
+      "source_id": "sys-cummins-com-diesel"
+    }
+  ],
+  "notes": "50/60 Hz; Quiet and Standard ranges",
+  "last_reviewed": "2026-11-24"
+}

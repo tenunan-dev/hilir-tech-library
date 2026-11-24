@@ -1,0 +1,25 @@
+{
+  "id": "sys-sn-hvit-gas-field-hammerfest-lng",
+  "name": "Snøhvit Gas Field / Hammerfest LNG",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "description": "capacity: 193 billion Sm3 gas, 113 million bbl condensate, 5.1 Mt NGL; 5.75 bcm/yr LNG, 747,000 t condensate, 247,000 t LPG; 143 km x 68 cm ID gas line, 153 km CO2 pipeline, 2 chemical lines + umbilical | status: Operating; production started September 2007 | dates: ['1984 discovery', 'Sep 2001 plan submitted', 'Mar 2002 approval', '2004-05 CO2 injection and production wells drilled', '2007 production start', '2014-15 Askeladd start'] | location: Barents Sea, 140 km north-west of Hammerfest; 250-345 m water depth",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/snohvit-field/",
+      "source_id": "sys-offshore-technology-com-ae16bd"
+    }
+  ],
+  "notes": "Added in the 2026-11-24 all-systems sweep.",
+  "last_reviewed": "2026-11-24"
+}

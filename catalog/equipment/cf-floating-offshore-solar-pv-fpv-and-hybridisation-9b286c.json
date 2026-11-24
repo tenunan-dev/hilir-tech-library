@@ -1,0 +1,108 @@
+{
+  "id": "cf-floating-offshore-solar-pv-fpv-and-hybridisation-9b286c",
+  "name": "Floating / offshore solar PV",
+  "equipment_type": "cf-system",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "UPS",
+    "PRC",
+    "ELE"
+  ],
+  "description": "PV mounted on buoyant structures over water; relevant to offshore/nearshore facilities where land is unavailable. Water cooling can improve yield; salt-water installations need corrosion resistance, wave/wind design and robust anchoring.",
+  "specifications": [
+    {
+      "metric": "Sungrow FPV global installed capacity",
+      "unit": "GW (greater than)",
+      "basis": "Sungrow floating PV page: 'With Over 4GW of Floating PV Application'; No.1 global market share stated; 290+ patents",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "sys-sungrowpower-com-floating-pv-system"
+      },
+      "low": 4
+    },
+    {
+      "metric": "Sungrow Cirata FPV project",
+      "unit": "MW",
+      "basis": "Sungrow FPV case: world's largest floating PV project at a hydroelectric power station, Cirata, Indonesia, reservoir, 192 MW",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "sys-sungrowpower-com-floating-pv-system"
+      },
+      "value": 192
+    },
+    {
+      "metric": "Global installed FPV capacity",
+      "unit": "GW in 2022",
+      "basis": "Wikipedia floating solar: grew from 3 GW in 2020 to 13 GW in 2022; World Bank estimates >4,000 GW technical capacity at 10% coverage of 6,600 large water bodies",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_solar",
+        "source_id": "sys-en-wikipedia-org-floating-solar"
+      },
+      "value": 13
+    },
+    {
+      "metric": "FPV energy-yield gain from water cooling",
+      "unit": "%",
+      "basis": "Wikipedia floating solar 'cooling effect of the water ... leads to an energy gain that ranges from 5% to 15%'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_solar",
+        "source_id": "sys-en-wikipedia-org-floating-solar"
+      },
+      "low": 5,
+      "high": 15
+    },
+    {
+      "metric": "FPV installation cost premium",
+      "unit": "% higher than ground-mount (2023)",
+      "basis": "Wikipedia floating solar: 'installation was about 10-25% higher in 2023', attributed mainly to anchoring (NREL researcher)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_solar",
+        "source_id": "sys-en-wikipedia-org-floating-solar"
+      },
+      "low": 10,
+      "high": 25
+    },
+    {
+      "metric": "First offshore FPV at sea",
+      "unit": "kWp pilot, Maldives, 2014",
+      "basis": "Wikipedia: Swimsol installed world's first offshore floating solar PV at sea, 15 kWp pilot in Maldives with TU Wien and Fraunhofer; 2019 Oceans of Energy first open rough-sea North Sea farm",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_solar",
+        "source_id": "sys-en-wikipedia-org-floating-solar"
+      },
+      "value": 15
+    }
+  ],
+  "vendors": [
+    "sungrow",
+    "oceans-of-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sungrowpower.com/en/floating-pv-system",
+      "source_id": "sys-sungrowpower-com-floating-pv-system"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_solar",
+      "source_id": "sys-en-wikipedia-org-floating-solar"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Verified offshore FPV installation on an operating oil & gas platform, with MW and metocean design basis",
+      "why": "Fetched pages cover reservoirs/coastal pilots and generic offshore FPV history, not a platform-mounted PV system",
+      "next_action": "Search operator/engineering pages for an offshore platform PV pilot and fetch a data sheet"
+    },
+    {
+      "what": "Reconciliation of conflicting FPV yield-gain figures (5-15% vs 0.6-4.4%)",
+      "why": "Two figures in the same fetched Wikipedia page disagree; neither preferred",
+      "next_action": "Fetch the underlying peer-reviewed LCA/yield papers cited in that page"
+    }
+  ],
+  "applications": [
+    "PV mounted on buoyant structures over water; relevant to offshore/nearshore facilities where land is unavailable. Water cooling can improve yield; salt-water in"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

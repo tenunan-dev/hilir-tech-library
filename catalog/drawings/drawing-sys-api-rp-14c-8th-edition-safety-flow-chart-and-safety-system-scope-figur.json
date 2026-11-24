@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-api-rp-14c-8th-edition-safety-flow-chart-and-safety-system-scope-figur",
+  "title": "API RP 14C 8th edition — safety flow chart and safety-system scope figures",
+  "diagram_type": "schematic",
+  "description": "Boundary between topside and subsea safety systems: DHSV/SSSV, SCSSV, BSDV, SDV, tree, manifold, umbilicals, flying leads, SCU, HPU, EPU, PSS | Figures: Figure 1 Scope of API 14C vs API 17V; Figure 2 Examples of Safety Device Identification; Figure 3 Offshore Production Facility Safety Flow Chart; annex figures for dry-tree wellhead flowlines and SAFE/cause-and-effect logic",
+  "publisher": "American Petroleum Institute, API RP 14C 8th ed (2017); preview on stdhive.com",
+  "url": "https://www.stdhive.com/pdf_preview/api-rp-14c-pdf",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral",
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "top-flare-platform-topsides-and-flare-booms-stacks",
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.stdhive.com/pdf_preview/api-rp-14c-pdf",
+      "source_id": "sys-stdhive-com-api-rp-14c-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct URL HTTP 200; requirement cross-checked via eCFR 30 CFR 250.855",
+  "last_reviewed": "2026-11-24"
+}

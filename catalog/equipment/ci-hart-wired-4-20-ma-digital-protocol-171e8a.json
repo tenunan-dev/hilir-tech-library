@@ -1,0 +1,74 @@
+{
+  "id": "ci-hart-wired-4-20-ma-digital-protocol-171e8a",
+  "name": "HART",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Bi-directional digital communication over 4-20 mA analog current loops connecting field instruments to control/monitoring systems; preserves analog wiring while exposing diagnostics.",
+  "specifications": [
+    {
+      "metric": "installed base",
+      "unit": "field instruments",
+      "basis": "FieldComm Group HART page: 'over 40 million field instruments supporting HART technology installed worldwide'",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart",
+        "source_id": "sys-fieldcommgroup-org-hart"
+      },
+      "value": 40000000
+    },
+    {
+      "metric": "physical medium",
+      "unit": "signal",
+      "basis": "FieldComm Group HART technology page",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart",
+        "source_id": "sys-fieldcommgroup-org-hart"
+      },
+      "value": "4-20 mA analog current loops; instrumentation-grade wiring and standard terminations"
+    },
+    {
+      "metric": "specification kit size",
+      "unit": "documents",
+      "basis": "HART Protocol Specifications Kit is a collection of 17 documents",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/hart-specifications",
+        "source_id": "sys-fieldcommgroup-org-hart-specifications"
+      },
+      "value": 17
+    },
+    {
+      "metric": "standards status",
+      "unit": "standard",
+      "basis": "FieldComm Group HART page",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart",
+        "source_id": "sys-fieldcommgroup-org-hart"
+      },
+      "value": "IEC standard; three major revisions with backward compatibility"
+    }
+  ],
+  "vendors": [
+    "fieldcomm-group-specification-owner"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fieldcommgroup.org/technologies/hart",
+      "source_id": "sys-fieldcommgroup-org-hart"
+    },
+    {
+      "url": "https://www.fieldcommgroup.org/hart-specifications",
+      "source_id": "sys-fieldcommgroup-org-hart-specifications"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Bi-directional digital communication over 4-20 mA analog current loops connecting field instruments to control/monitoring systems; preserves analog wiring while"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

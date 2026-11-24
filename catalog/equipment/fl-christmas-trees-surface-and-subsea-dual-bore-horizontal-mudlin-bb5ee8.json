@@ -1,0 +1,107 @@
+{
+  "id": "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin-bb5ee8",
+  "name": "Christmas trees",
+  "equipment_type": "fl-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Control flow in and out of wells, connect tubing to seafloor/above-water facilities, and provide pressure barrier and intervention access.",
+  "specifications": [
+    {
+      "metric": "OneSubsea subsea tree temperature range",
+      "unit": "degrees Celsius",
+      "basis": "OneSubsea subsea trees page: 'extreme temperature ranging from minus 18 degrees Celsius to plus 176 degrees Celsius'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "sys-onesubsea-slb-com-subsea-trees"
+      },
+      "low": -18,
+      "high": 176
+    },
+    {
+      "metric": "OneSubsea subsea tree pressure rating",
+      "unit": "psi (stated as 'up to 15,000 pounds per square inch, or more than 1,000 bar')",
+      "basis": "OneSubsea subsea trees page",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "sys-onesubsea-slb-com-subsea-trees"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "Wellhead vertical tree production bore",
+      "unit": "inches",
+      "basis": "OneSubsea subsea trees page, Features: '7-inch production bore size for wellhead vertical trees'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "sys-onesubsea-slb-com-subsea-trees"
+      },
+      "value": 7
+    },
+    {
+      "metric": "TechnipFMC subsea tree pressure rating",
+      "unit": "psi (pressures up to)",
+      "basis": "TechnipFMC well control page: vertical and horizontal subsea tree solutions for pressures up to 20,000 psi",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+        "source_id": "sys-technipfmc-com-0277d2"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "TechnipFMC subsea tree temperature rating",
+      "unit": "degrees Fahrenheit (temperatures to)",
+      "basis": "TechnipFMC well control page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+        "source_id": "sys-technipfmc-com-0277d2"
+      },
+      "value": 400
+    },
+    {
+      "metric": "TechnipFMC subsea tree water depth",
+      "unit": "ft (water depths up to)",
+      "basis": "TechnipFMC well control page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+        "source_id": "sys-technipfmc-com-0277d2"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "EVDT deepest subsea completion record",
+      "unit": "ft",
+      "basis": "TechnipFMC well control page: 'Our EVDT subsea tree holds the deepest subsea completion record at 9,627 feet'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+        "source_id": "sys-technipfmc-com-0277d2"
+      },
+      "value": 9627
+    }
+  ],
+  "vendors": [
+    "slb-onesubsea-slb-aker-solutions-subsea7-joint-venture",
+    "technipfmc-cds-separation-systems",
+    "baker-hughes"
+  ],
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+      "source_id": "sys-onesubsea-slb-com-subsea-trees"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
+      "source_id": "sys-technipfmc-com-0277d2"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Control flow in and out of wells, connect tubing to seafloor/above-water facilities, and provide pressure barrier and intervention access."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

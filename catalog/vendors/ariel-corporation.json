@@ -1,0 +1,32 @@
+{
+  "id": "ariel-corporation",
+  "name": "Ariel Corporation",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Ariel Corporation is named as a supplier on a page read during the all-systems sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
+      "source_id": "sys-arielcorp-com-jgn-jgq-html"
+    },
+    {
+      "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+      "source_id": "sys-arielcorp-com-kbb-kbv-html"
+    },
+    {
+      "url": "https://www.arielcorp.com/compressors/kbh.html",
+      "source_id": "sys-arielcorp-com-kbh-html"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 all-systems sweep."
+}

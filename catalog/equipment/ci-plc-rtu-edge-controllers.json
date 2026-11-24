@@ -1,0 +1,40 @@
+{
+  "id": "ci-plc-rtu-edge-controllers",
+  "name": "PLC / RTU / edge controllers",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Local control and remote telemetry/IO for onshore well sites and offshore modules.",
+  "specifications": [
+    {
+      "metric": "product families attested",
+      "unit": "families",
+      "basis": "Yokogawa product catalogue navigation",
+      "source": {
+        "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+        "source_id": "sys-yokogawa-com"
+      },
+      "value": "Programmable Logic Controllers (PLC/PAC), Process Control PLC/RTU, Intelligent Edge Controllers (A8), Single Loop Controllers"
+    }
+  ],
+  "vendors": [
+    "yokogawa"
+  ],
+  "sources": [
+    {
+      "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+      "source_id": "sys-yokogawa-com"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Local control and remote telemetry/IO for onshore well sites and offshore modules."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

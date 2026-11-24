@@ -1,0 +1,25 @@
+{
+  "id": "sys-browse-flng-project-brecknock-calliance-torosa",
+  "name": "Browse FLNG Project (Brecknock, Calliance, Torosa)",
+  "country": "Australia",
+  "status": "under-construction",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "description": "capacity: 15.4 tcf dry gas + 453 million bbl condensate (2C contingent resources); per FLNG 3.9 Mtpa LNG and ~22,000 bpd condensate | status: Pre-FEED/FEED stage as documented; FID expected second half 2016 (article dated Aug 2015) | dates: ['Sep 2013 decision to use FLNG', 'Jun 2015 FEED start', 'FID expected H2 2016'] | location: Browse Basin, 425 km north of Broome and 290 km off Kimberley coast; 350-700 m water depth",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/browse-flng-project/",
+      "source_id": "sys-offshore-technology-com-3418e4"
+    }
+  ],
+  "notes": "Added in the 2026-11-24 all-systems sweep.",
+  "last_reviewed": "2026-11-24"
+}

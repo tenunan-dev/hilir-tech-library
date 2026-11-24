@@ -17,7 +17,8 @@
       "value": "Carry fluids between seabed flowlines/PLET and surface host; accommodate vessel motion and environmental loads.",
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
-        "url": "https://www.api.org/products-and-services/standards"
+        "url": "https://www.api.org/products-and-services/standards",
+        "source_id": "sys-api-org-standards"
       }
     }
   ],
@@ -28,7 +29,8 @@
   ],
   "sources": [
     {
-      "url": "https://www.api.org/products-and-services/standards"
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "sys-api-org-standards"
     }
   ],
   "gaps": [],

@@ -17,19 +17,21 @@
       "value": "Provide reservoir pressure support/disposal by filtering seawater or produced water and injecting at high pressure; remove solids/sulphate/divalent ions that cause scaling/souring.",
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
-        "url": "https://www.api.org/products-and-services/standards"
+        "url": "https://www.api.org/products-and-services/standards",
+        "source_id": "sys-api-org-standards"
       }
     }
   ],
   "vendors": [
     "baker-hughes",
     "onesubsea-slb-aker-solutions-jv",
-    "siemens-energy",
+    "siemens-energy-incl-ex-dresser-rand",
     "technipfmc-cds-separation-systems"
   ],
   "sources": [
     {
-      "url": "https://www.api.org/products-and-services/standards"
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "sys-api-org-standards"
     }
   ],
   "gaps": [],

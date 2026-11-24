@@ -1,0 +1,31 @@
+{
+  "id": "slb-porta-test-whirlyscrub-i-inline-separator-whirlyscrub-v-single-stage-scr-508d06",
+  "name": "PORTA-TEST WHIRLYSCRUB I Inline Separator / WHIRLYSCRUB V Single-Stage Scrubber",
+  "manufacturer": "slb-cameron-pressure-control-equipment",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. No capacity/pressure data on the listing page.",
+  "specifications": [
+    {
+      "metric": "Type",
+      "unit": "n/a",
+      "basis": "SLB Processing and Separation gas-treatment product listing",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+        "source_id": "sys-slb-com-processing-and-separation"
+      },
+      "value": "inline separator / single-stage scrubber"
+    }
+  ],
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+  "sources": [
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+      "source_id": "sys-slb-com-processing-and-separation"
+    }
+  ],
+  "notes": "No capacity/pressure data on the listing page.",
+  "last_reviewed": "2026-11-24"
+}

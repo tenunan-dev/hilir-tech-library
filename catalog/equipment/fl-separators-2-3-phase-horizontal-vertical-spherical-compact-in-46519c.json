@@ -1,0 +1,65 @@
+{
+  "id": "fl-separators-2-3-phase-horizontal-vertical-spherical-compact-in-46519c",
+  "name": "Separators",
+  "equipment_type": "fl-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection.",
+  "specifications": [
+    {
+      "metric": "Separation design objective",
+      "unit": "n/a",
+      "basis": "SLB Processing and Separation overview; process pilot testing used to optimize technology selection",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+        "source_id": "sys-slb-com-processing-and-separation"
+      },
+      "value": "separate and treat oil, water and gas using minimal chemicals and energy to reduce capex and opex"
+    },
+    {
+      "metric": "Produced-water oil recovery case result",
+      "unit": "% of oil content recovered",
+      "basis": "SLB Processing and Separation page case-study title: 'Advanced Media Filter Technology Recovers 98% of Oil Content from Heavily Emulsified Produced Water'",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+        "source_id": "sys-slb-com-processing-and-separation"
+      },
+      "value": 98
+    },
+    {
+      "metric": "Subsea separation control",
+      "unit": "n/a",
+      "basis": "OneSubsea water injection page, related resource 'Subsea separation': 'phase and fluid separation features all-electric control systems'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
+        "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
+      },
+      "value": "all-electric control systems"
+    }
+  ],
+  "vendors": [
+    "slb-cameron-pressure-control-equipment",
+    "slb-onesubsea-slb-aker-solutions-subsea7-joint-venture"
+  ],
+  "sources": [
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+      "source_id": "sys-slb-com-processing-and-separation"
+    },
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
+      "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

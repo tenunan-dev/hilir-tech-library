@@ -1,0 +1,33 @@
+{
+  "id": "sys-arielcorp-com-jgn-jgq-html",
+  "name": "Arielcorp.Com — Small-frame rated power (1-throw / 2-throw)",
+  "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Arielcorp.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. Ariel JGN/JGQ, 1 throw JGN 126 BHP @1500 rpm, JGQ 140 BHP @1800 rpm; 2 throw JGN 252 BHP, JGQ 280 BHP. Rod load 18,000-20,000 lb; stroke 3.5 in (JGN) / 3.0 in ( Evidence: https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+}

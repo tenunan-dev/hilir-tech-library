@@ -1,0 +1,41 @@
+{
+  "id": "multiple-registered-vendors-foundation-fieldbus-h1-devices-generic-e0a52d",
+  "name": "FOUNDATION Fieldbus H1 devices (generic)",
+  "manufacturer": "multiple-registered-vendors-fieldcomm-group-registry",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. No specific model asserted.",
+  "specifications": [
+    {
+      "metric": "registered interoperable products",
+      "unit": "products (over)",
+      "basis": "",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+        "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "wiring",
+      "unit": "wiring",
+      "basis": "",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+        "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+      },
+      "value": "two-wire twisted pair; IS/non-incendive power"
+    }
+  ],
+  "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+  "sources": [
+    {
+      "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+      "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+    }
+  ],
+  "notes": "No specific model asserted.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-figure-1-typical-esd-cause-and-effect-api-rp-14c-training",
+  "title": "Figure 1 — Typical ESD cause and effect (API RP 14C training)",
+  "diagram_type": "schematic",
+  "description": "Safety-system layering, SAT/SFC/SAFE analysis and shutdown hierarchy (APS, ESD I/II, PSD total/partial) | Figures: Figure 1 in API RP 14C training slide set (Ocean Systems Engineering, mirrored on PDFCOFFEE)",
+  "publisher": "Ocean Systems Engineering (training material)",
+  "url": "https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral",
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "top-flare-platform-topsides-and-flare-booms-stacks",
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html",
+      "source_id": "sys-pdfcoffee-com-safety-design-and-api-rp-14c-2-pdf-free-html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct URL HTTP 200",
+  "last_reviewed": "2026-11-24"
+}

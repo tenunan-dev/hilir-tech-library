@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-ichthys-lng-development-concept-concept-img-fab7c0",
+  "title": "Ichthys LNG — Development Concept (concept_img)",
+  "diagram_type": "block-diagram",
+  "description": "Subsea production wells, CPF, FPSO, gas export pipeline, flowlines/flexible risers and onshore LNG plant | Figures: Page image 'concept_img' under 'Outline of Development Concept' (with 'concept_map' location figure)",
+  "publisher": "INPEX CORPORATION",
+  "url": "https://www.inpex.com/english/ichthys/concept.html",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inpex.com/english/ichthys/concept.html",
+      "source_id": "sys-inpex-com-concept-html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch of INPEX Development Concept page (image names and capacities confirmed)",
+  "last_reviewed": "2026-11-24"
+}

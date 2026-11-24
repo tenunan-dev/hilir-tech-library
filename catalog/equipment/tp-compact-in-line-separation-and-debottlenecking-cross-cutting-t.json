@@ -27,7 +27,7 @@
       "basis": "OneSubsea subsea separation page; page read",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-separation",
-        "source_id": "onesubsea-slb-com-subsea-processing-systems-subsea-separation"
+        "source_id": "sys-onesubsea-slb-com-subsea-separation"
       },
       "value": "1,015 metric tons CO2e elimination claim (electrified subsea approach)"
     }
@@ -43,7 +43,7 @@
     },
     {
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-separation",
-      "source_id": "onesubsea-slb-com-subsea-processing-systems-subsea-separation"
+      "source_id": "sys-onesubsea-slb-com-subsea-separation"
     }
   ],
   "gaps": [],

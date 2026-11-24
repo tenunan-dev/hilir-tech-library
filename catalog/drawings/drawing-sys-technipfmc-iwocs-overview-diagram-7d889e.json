@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-technipfmc-iwocs-overview-diagram-7d889e",
+  "title": "TechnipFMC IWOCS overview diagram",
+  "diagram_type": "block-diagram",
+  "description": "Master control station, HPU, HDU, RCP, PCS, ROV reel/TMS, subsea tree control pod, jumpers and umbilicals; PSD/ESD/EQD/dead-man features | Figures: Overview diagram in TechnipFMC Intervention Workover Control Systems brochure",
+  "publisher": "TechnipFMC",
+  "url": "https://www.technipfmc.com/media/rakf034t/intervention-workover-control-systems-brochure_digital.pdf",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/media/rakf034t/intervention-workover-control-systems-brochure_digital.pdf",
+      "source_id": "sys-technipfmc-com-intervention-workover-control-systems-broch"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct URL HTTP 200",
+  "last_reviewed": "2026-11-24"
+}

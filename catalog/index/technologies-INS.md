@@ -82,7 +82,7 @@ flowchart LR
     SUP --> PLAN
 ```
 
-**Key equipment:** controllers, I/O modules, operator stations, RTUs and PLCs, historian.
+**Key equipment:** controllers, I/O modules, operator stations, RTUs and PLCs, historian, wirelessHART, ISA100.11a, field instrumentation, ICSS/ESD, SIS, OT cybersecurity.
 
 **Performance:**
 - DCS hardware lifecycle: 15-20 years (to over 20); stated. [source](https://en.wikipedia.org/wiki/Distributed_control_system)
@@ -93,7 +93,7 @@ flowchart LR
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Distributed_control_system), [2](https://en.wikipedia.org/wiki/SCADA). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Distributed_control_system), [2](https://en.wikipedia.org/wiki/SCADA). Last reviewed 2026-11-24.
 
 ## Field instrumentation
 <a id="ins-field-instrumentation"></a>

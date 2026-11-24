@@ -1,0 +1,53 @@
+{
+  "id": "howden-howden-periflow-compressor",
+  "name": "Howden Periflow compressor",
+  "manufacturer": "howden-a-chart-industries-company-kk-k-ckd-brands",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24. Explicit FPSO/offshore and BOG application; low vibration, pulsation-free",
+  "specifications": [
+    {
+      "metric": "Max pressure",
+      "unit": "bar",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+      },
+      "value": 350
+    },
+    {
+      "metric": "Capacity flow",
+      "unit": "m3/h",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+      },
+      "low": 10,
+      "high": 20000
+    },
+    {
+      "metric": "Speed",
+      "unit": "rpm",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+      },
+      "low": 1000,
+      "high": 6000
+    }
+  ],
+  "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+  "sources": [
+    {
+      "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+      "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+    }
+  ],
+  "notes": "Explicit FPSO/offshore and BOG application; low vibration, pulsation-free",
+  "last_reviewed": "2026-11-24"
+}

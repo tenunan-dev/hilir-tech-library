@@ -1,0 +1,41 @@
+{
+  "id": "john-zink-john-zink-lrgo-multi-point-ground-flare",
+  "name": "John Zink LRGO Multi-Point Ground Flare",
+  "manufacturer": "john-zink-koch-engineered-solutions",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24. Highest total smokeless rate claim; staging for turndown",
+  "specifications": [
+    {
+      "metric": "Destruction efficiency",
+      "unit": "% typically greater than",
+      "basis": "",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+        "source_id": "sys-johnzink-com-lrgo-multi-point-ground-flare"
+      },
+      "value": 99.5
+    },
+    {
+      "metric": "API 537 compliance",
+      "unit": "qualitative",
+      "basis": "",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+        "source_id": "sys-johnzink-com-lrgo-multi-point-ground-flare"
+      },
+      "value": "available"
+    }
+  ],
+  "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+  "sources": [
+    {
+      "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+      "source_id": "sys-johnzink-com-lrgo-multi-point-ground-flare"
+    }
+  ],
+  "notes": "Highest total smokeless rate claim; staging for turndown",
+  "last_reviewed": "2026-11-24"
+}

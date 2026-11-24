@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-figure-5-offshore-production-operations-figure-6-facility-layout-abb7c5",
+  "title": "Figure 5 — Offshore Production Operations; Figure 6 — Facility Layout",
+  "diagram_type": "block-diagram",
+  "description": "Author-designed facility layout for 10,000-15,000 BOPD offshore separation with 3,000-10,000 BPD water and 10,000 ppm H2S | Figures: Figures 5 and 6 in a 2015 UPES student major project report",
+  "publisher": "UPES (University of Petroleum and Energy Studies) institutional repository",
+  "url": "https://dr.ddn.upes.ac.in/server/api/core/bitstreams/59de0bef-b4f8-4b11-933c-f2f5d744158d/content",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://dr.ddn.upes.ac.in/server/api/core/bitstreams/59de0bef-b4f8-4b11-933c-f2f5d744158d/content",
+      "source_id": "sys-dr-ddn-upes-ac-in-content"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct URL HTTP 200",
+  "last_reviewed": "2026-11-24"
+}

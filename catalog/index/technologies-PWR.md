@@ -352,7 +352,7 @@ flowchart LR
     ENG --> GEN
 ```
 
-**Key equipment:** gas engine, generator, turbocharger, exhaust after-treatment, cooling system, gas engine prime mover, alternator, packaged genset enclosure, jacket-water and radiator cooling, lube oil system, fuel gas train and storage, exhaust silencer and SCR, starting air, paralleling controller, generator circuit breaker and MV switchgear, absorption chiller for waste heat, foundation and vibration isolation.
+**Key equipment:** gas engine, generator, turbocharger, exhaust after-treatment, cooling system, gas engine prime mover, alternator, packaged genset enclosure, jacket-water and radiator cooling, lube oil system, fuel gas train and storage, exhaust silencer and SCR, starting air, paralleling controller, generator circuit breaker and MV switchgear, absorption chiller for waste heat, foundation and vibration isolation, diesel generator, solar hybrid, wireless instrumentation, gas export compressor.
 
 **Performance:**
 - 18V50SG electrical efficiency (50 Hz): 50.2 %; output 18,434 kW; 5% tolerance on efficiency. [source](https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine)

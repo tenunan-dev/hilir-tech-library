@@ -1,0 +1,33 @@
+{
+  "id": "sys-johnzink-com-flare-gas-recovery",
+  "name": "John Zink — FGR application scope",
+  "url": "https://www.johnzink.com/products/flare-gas-recovery",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "John Zink",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. John Zink states FGR systems are 'custom-engineered' for applications from petroleum refineries to FPSO offshore platforms Evidence: https://www.johnzink.com/products/flare-gas-recovery"
+}

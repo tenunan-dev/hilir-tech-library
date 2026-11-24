@@ -47,7 +47,7 @@
       "basis": "Cummins Gas Power Plant Application Manual section 3.4.3.1: 'This is a 50 micron rating filter used for all gases and air'",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "50"
     },
@@ -57,7 +57,7 @@
       "basis": "Cummins Gas Power Plant Application Manual section 3.4.3.1: regulator output pressure generally adjustable between 100 and 160 mbar",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "low": "100",
       "high": "160"
@@ -68,7 +68,7 @@
       "basis": "Cummins Gas Power Plant Application Manual section 3.4.3.1: depends on valve seat diameter of the pressure regulating valve",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "low": "1.25",
       "high": "4.0"
@@ -79,7 +79,7 @@
       "basis": "Schneider Electric White Paper 286, section 'Storing gas on site for increased availability': less than 50 m³ sufficient for 12 hours at 10 MW; LNG kept below -162 C in insulated cryogenic tanks",
       "source": {
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-        "source_id": "download-se-com-download-se-com-files"
+        "source_id": "sys-download-se-com-files"
       },
       "high": "<50"
     },
@@ -89,7 +89,7 @@
       "basis": "Schneider Electric White Paper 286, 'A gas power plant architecture overview': study set the on-site gas storage requirement at 48 h assuming full load",
       "source": {
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-        "source_id": "download-se-com-download-se-com-files"
+        "source_id": "sys-download-se-com-files"
       },
       "value": "48 hours at full load capacity"
     },
@@ -99,7 +99,7 @@
       "basis": "Schneider Electric White Paper 286, 'Gas supply system architecture' and Figure 10",
       "source": {
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-        "source_id": "download-se-com-download-se-com-files"
+        "source_id": "sys-download-se-com-files"
       },
       "value": "fully redundant 2 x 100% gas distribution; physically separated main feeders; LNG storage A/B with pressure reduction stations A/B; gas-leak sections automatically isolated"
     },
@@ -109,7 +109,7 @@
       "basis": "Schneider Electric White Paper 286, 'Gas engine technology': medium-speed engines supply gas individually to each cylinder inlet, requiring around 6-7 bar",
       "source": {
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-        "source_id": "download-se-com-download-se-com-files"
+        "source_id": "sys-download-se-com-files"
       },
       "low": "6",
       "high": "7"
@@ -160,11 +160,11 @@
     },
     {
       "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
     },
     {
       "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-      "source_id": "download-se-com-download-se-com-files"
+      "source_id": "sys-download-se-com-files"
     },
     {
       "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",

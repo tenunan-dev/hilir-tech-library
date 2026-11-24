@@ -1,0 +1,90 @@
+{
+  "id": "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+  "name": "Risers",
+  "equipment_type": "fl-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Convey produced fluids or injection/power services between subsea wells/tie-backs and a fixed or floating surface host; accommodate platform motion, pressure and thermal load.",
+  "specifications": [
+    {
+      "metric": "Flexible pipe high-pressure resistance",
+      "unit": "n/a",
+      "basis": "TechnipFMC flexible-pipe page: helically wound corrosion-resistant steel wires give high-pressure resistance and bending characteristics; independent layers adapted per field",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+        "source_id": "sys-technipfmc-com"
+      },
+      "value": "high-pressure resistant (qualitative; no numeric rating published on page)"
+    },
+    {
+      "metric": "Rigid pipeline water depth capability",
+      "unit": "m of water (descriptive range, not a precise figure)",
+      "basis": "TechnipFMC subsea infrastructure: rigid pipelines installed 'in water depths from tens to thousands of meters offshore'; four global spoolbases and pipelay fleet",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
+        "source_id": "sys-technipfmc-com-b0f39f"
+      },
+      "value": "tens to thousands"
+    },
+    {
+      "metric": "Flexible pipe installation speed advantage",
+      "unit": "times faster (depending on method)",
+      "basis": "Baker Hughes flexible pipe systems: manufactured onshore, ready to install, minimizes offshore welding; 'up to 20 times faster depending on the method'",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/flexible-pipe-systems",
+        "source_id": "sys-bakerhughes-com-flexible-pipe-systems"
+      },
+      "value": 20
+    },
+    {
+      "metric": "FSHR tensioning method",
+      "unit": "n/a",
+      "basis": "TechnipFMC FSHR description: vertical steel pipe tensioned by a near-surface buoyancy can; flexible jumper to production platform; foundation at seabed; rigid base jumper to PLET",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+        "source_id": "sys-technipfmc-com"
+      },
+      "value": "near-surface buoyancy can"
+    },
+    {
+      "metric": "Fluid transfer line applications",
+      "unit": "n/a",
+      "basis": "Baker Hughes flexible pipe systems overview and applications list",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/flexible-pipe-systems",
+        "source_id": "sys-bakerhughes-com-flexible-pipe-systems"
+      },
+      "value": "riser, flowline, jumper, fluid transfer line; high H2S, dense CO2, high temperature"
+    }
+  ],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "baker-hughes",
+    "slb-onesubsea-slb-aker-solutions-subsea7-joint-venture"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+      "source_id": "sys-technipfmc-com"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
+      "source_id": "sys-technipfmc-com-b0f39f"
+    },
+    {
+      "url": "https://www.bakerhughes.com/subsea/flexible-pipe-systems",
+      "source_id": "sys-bakerhughes-com-flexible-pipe-systems"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Convey produced fluids or injection/power services between subsea wells/tie-backs and a fixed or floating surface host; accommodate platform motion, pressure an"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

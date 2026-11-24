@@ -1,0 +1,127 @@
+{
+  "id": "ci-integrated-control-and-safety-system-icss-dcs",
+  "name": "Integrated Control and Safety System",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Integrated process control and safety platform for offshore and onshore plants; unifies control, safety, monitoring and enterprise data.",
+  "specifications": [
+    {
+      "metric": "Honeywell installed base - refineries",
+      "unit": "% of refineries",
+      "basis": "Honeywell Process Automation overview: '45% Of Refineries'",
+      "source": {
+        "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
+        "source_id": "sys-honeywellprocess-com-default-aspx"
+      },
+      "value": 45
+    },
+    {
+      "metric": "Honeywell installed base - ammonia",
+      "unit": "% of ammonia production",
+      "basis": "Honeywell Process Automation overview: '30% Ammonia Production'",
+      "source": {
+        "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
+        "source_id": "sys-honeywellprocess-com-default-aspx"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Honeywell O&G processing plants",
+      "unit": "plants (over)",
+      "basis": "Honeywell overview: '>500 O&G Processing Plants'",
+      "source": {
+        "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
+        "source_id": "sys-honeywellprocess-com-default-aspx"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Honeywell LNG liquefaction trains",
+      "unit": "trains",
+      "basis": "Honeywell overview: '86 Liquefacation trains'",
+      "source": {
+        "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
+        "source_id": "sys-honeywellprocess-com-default-aspx"
+      },
+      "value": 86
+    },
+    {
+      "metric": "Honeywell LNG carriers/FSRU",
+      "unit": "vessels (221+)",
+      "basis": "Honeywell overview: '221+ TLNG carriers/ FSRU vessels'",
+      "source": {
+        "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
+        "source_id": "sys-honeywellprocess-com-default-aspx"
+      },
+      "value": 221
+    },
+    {
+      "metric": "Siemens PCS 7 version / cybersecurity",
+      "unit": "standard/version",
+      "basis": "Siemens SIMATIC PCS 7 product page (fetched 2026-11-18)",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+        "source_id": "sys-siemens-com-simatic-pcs-7-html"
+      },
+      "value": "V10.0; NIS2-compliant; full IEC 62443-4-1 and IEC 62443-3-3 compliance"
+    },
+    {
+      "metric": "Siemens MTP startup improvement",
+      "unit": "% (up to)",
+      "basis": "Siemens PCS 7 page: 'MTP integration for up to 75% faster startup'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+        "source_id": "sys-siemens-com-simatic-pcs-7-html"
+      },
+      "value": 75
+    },
+    {
+      "metric": "Siemens high-availability I/O",
+      "unit": "product",
+      "basis": "Siemens PCS 7 product page",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+        "source_id": "sys-siemens-com-simatic-pcs-7-html"
+      },
+      "value": "SIMATIC ET 200SP HA compact robust remote I/O designed for high availability"
+    },
+    {
+      "metric": "Siemens installed base",
+      "unit": "installations",
+      "basis": "Siemens PCS 7 product page",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+        "source_id": "sys-siemens-com-simatic-pcs-7-html"
+      },
+      "value": "in use in thousands of installations worldwide"
+    }
+  ],
+  "vendors": [
+    "honeywell",
+    "siemens",
+    "yokogawa",
+    "abb"
+  ],
+  "sources": [
+    {
+      "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
+      "source_id": "sys-honeywellprocess-com-default-aspx"
+    },
+    {
+      "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+      "source_id": "sys-siemens-com-simatic-pcs-7-html"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Integrated process control and safety platform for offshore and onshore plants; unifies control, safety, monitoring and enterprise data."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

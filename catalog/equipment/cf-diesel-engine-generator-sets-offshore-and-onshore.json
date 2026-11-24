@@ -1,0 +1,124 @@
+{
+  "id": "cf-diesel-engine-generator-sets-offshore-and-onshore",
+  "name": "Diesel engine generator sets",
+  "equipment_type": "cf-system",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "UPS",
+    "PRC",
+    "ELE"
+  ],
+  "description": "Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-power-to-weight packages are favoured offshore; paralleling and system controls are provided by integrated power systems.",
+  "specifications": [
+    {
+      "metric": "Cummins diesel genset rating range",
+      "unit": "kVA",
+      "basis": "Cummins APAC diesel generator page: 'generator sets from 15 - 3750 kVA'; 50/60 Hz quiet and standard product families",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel",
+        "source_id": "sys-cummins-com-diesel"
+      },
+      "low": 15,
+      "high": 3750
+    },
+    {
+      "metric": "Cummins start/load acceptance",
+      "unit": "seconds to assume load",
+      "basis": "Cummins commercial generators 'start and assume load in less than 10 seconds, and rated load in a single step'",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel",
+        "source_id": "sys-cummins-com-diesel"
+      },
+      "value": "<10"
+    },
+    {
+      "metric": "Cummins natural-gas genset range",
+      "unit": "kW",
+      "basis": "Cummins generators overview: natural gas generator sets 13 to 2000 kW; diesel 15-3750 kVA; HVO-capable",
+      "source": {
+        "url": "https://www.cummins.com/generators",
+        "source_id": "sys-cummins-com-generators"
+      },
+      "low": 13,
+      "high": 2000
+    },
+    {
+      "metric": "MTU diesel genset portfolio ceiling",
+      "unit": "kWe @60 Hz",
+      "basis": "MTU diesel generator set page: 'up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz)'; 85% load factor standby, 75% prime",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "value": 3250
+    },
+    {
+      "metric": "MTU Series 2000 rating",
+      "unit": "kWe @60 Hz (770-1400 kVA @50 Hz)",
+      "basis": "MTU diesel generator sets page series table",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "low": 680,
+      "high": 1250
+    },
+    {
+      "metric": "MTU offshore design basis",
+      "unit": "qualitative",
+      "basis": "MTU offshore O&G solutions: compact, high power-to-weight gensets; backup/standby/continuous power; emergency supply and fire-extinguishing pumps; mud pumps/frac drives; explosion-risk safety designs and certifications such as NFPA 20",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/oil-and-gas/offshore-oil-and-gas-solutions.html",
+        "source_id": "sys-mtu-solutions-com-offshore-oil-and-gas-solutions-html"
+      },
+      "value": "classified by all major classification societies"
+    }
+  ],
+  "vendors": [
+    "cummins-inc",
+    "rolls-royce-power-systems",
+    "caterpillar",
+    "innio-wartsila"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cummins.com/en-apac/generators/diesel",
+      "source_id": "sys-cummins-com-diesel"
+    },
+    {
+      "url": "https://www.cummins.com/generators",
+      "source_id": "sys-cummins-com-generators"
+    },
+    {
+      "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+      "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+    },
+    {
+      "url": "https://www.mtu-solutions.com/eu/en/applications/oil-and-gas/offshore-oil-and-gas-solutions.html",
+      "source_id": "sys-mtu-solutions-com-offshore-oil-and-gas-solutions-html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Numeric EPA Tier 4 Final / EU Stage V emission limits for nonroad diesel gensets (g/kWh NOx, PM) and applicability dates",
+      "why": "EPA and EU Commission and dieselnet URLs all 404'd; generic Wikipedia emission-standard page fetched but covers road vehicles, not numeric Stage V/Tier 4 nonroad limits",
+      "next_action": "Fetch the current EPA nonroad diesel rule page and the EU mobile-machinery regulation page directly, then record exact limits and dates"
+    },
+    {
+      "what": "Paralleling/load-sharing and black-start control architecture for a named offshore platform",
+      "why": "Not on fetched pages",
+      "next_action": "Fetch an OEM integrated power-system or operator case study"
+    },
+    {
+      "what": "Offshore genset derating at ambient/altitude and exact per-model offshore ratings",
+      "why": "Not on fetched pages",
+      "next_action": "Fetch mtu/Cummins offshore specification sheets"
+    }
+  ],
+  "applications": [
+    "Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-po"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

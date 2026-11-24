@@ -1,0 +1,33 @@
+{
+  "id": "sys-offshore-technology-com-5ef988",
+  "name": "Bayu-Undan Gas Field",
+  "url": "https://www.offshore-technology.com/projects/bayu-undan/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Offshore Technology",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep.  Evidence: https://www.offshore-technology.com/projects/bayu-undan/"
+}

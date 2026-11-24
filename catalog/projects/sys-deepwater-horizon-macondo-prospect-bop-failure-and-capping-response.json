@@ -1,0 +1,25 @@
+{
+  "id": "sys-deepwater-horizon-macondo-prospect-bop-failure-and-capping-response",
+  "name": "Deepwater Horizon / Macondo Prospect BOP failure and capping response",
+  "country": "United States (Gulf of Mexico)",
+  "status": "under-construction",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "description": "capacity: Not applicable — well-control incident; capping stack 'Top Hat 10' with three Hydril blind shear ram BOPs | status: Well sealed by capping stack on 15 July 2010 after 87 days; failed BOP removed 3 September 2010 and replaced | dates: ['20 Apr 2010 Deepwater Horizon explosion', '22 Apr 2010 ROV attempted BOP activation', '10 Jul 2010 capping stack installation began', '15 Jul 2010 well temporarily sealed', '3 Sep 2010 failed BOP removed', '4 Sep 2010 replacement BOP placed', '20 Mar 2011 DNV final report presented to US Department of the Interior'] | location: Macondo Prospect, Gulf of Mexico; drilling rig in ~1,500 m water (depth not stated on page read)",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Blowout_preventer",
+      "source_id": "sys-en-wikipedia-org-blowout-preventer"
+    }
+  ],
+  "notes": "Added in the 2026-11-24 all-systems sweep.",
+  "last_reviewed": "2026-11-24"
+}

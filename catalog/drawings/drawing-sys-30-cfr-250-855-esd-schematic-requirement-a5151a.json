@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-30-cfr-250-855-esd-schematic-requirement-a5151a",
+  "title": "30 CFR 250.855 — ESD schematic requirement",
+  "diagram_type": "schematic",
+  "description": "Requirement to maintain a platform emergency shutdown schematic conforming to API RP 14C Appendix C section C1; electronic ESD stations de-energize-to-trip | Figures: Regulatory text § 250.855(b): 'You must maintain a schematic of the ESD that indicates the control functions of all safety devices...'",
+  "publisher": "US Government Publishing Office / eCFR (BSEE)",
+  "url": "https://www.ecfr.gov/current/title-30/section-250.855",
+  "licence": "Public domain. Freely reusable with attribution good practice.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ecfr.gov/current/title-30/section-250.855",
+      "source_id": "sys-ecfr-gov-section-250-855"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch of eCFR section (full regulatory text read)",
+  "last_reviewed": "2026-11-24"
+}

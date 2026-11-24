@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-ormen-lange-development-option-diagrams",
+  "title": "Ormen Lange development option diagrams",
+  "diagram_type": "schematic",
+  "description": "Comparison of spar vs subsea completion and to-shore vs platform-tie-in gas export concepts | Figures: Named figures on project page: 'Diagram of slope and subsea options'; 'A spar with gas piped to a tie-in point'; 'A spar with gas piped to the shore'; 'Subsea completion to the shore'; 'Subsea completion to the platform, then to the shore'",
+  "publisher": "Offshore Technology (GlobalData)",
+  "url": "https://www.offshore-technology.com/projects/ormen-lange-field/",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral",
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "top-flare-platform-topsides-and-flare-booms-stacks",
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/ormen-lange-field/",
+      "source_id": "sys-offshore-technology-com-5078fd"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch of Offshore Technology project page",
+  "last_reviewed": "2026-11-24"
+}

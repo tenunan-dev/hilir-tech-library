@@ -17,7 +17,7 @@
       "basis": "Sonic flare tip used when upstream pressure > 5 bar",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Gas_flare",
-        "source_id": "en-wikipedia-org-wiki-gas-flare"
+        "source_id": "sys-en-wikipedia-org-gas-flare"
       },
       "value": 5
     },
@@ -27,7 +27,7 @@
       "basis": "Maximum recommended radiation for continuous exposure of personnel in appropriate clothing (API Std 521 Table 12 cited)",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Gas_flare",
-        "source_id": "en-wikipedia-org-wiki-gas-flare"
+        "source_id": "sys-en-wikipedia-org-gas-flare"
       },
       "value": 1.58
     },
@@ -37,7 +37,7 @@
       "basis": "Higher radiation permitted for reduced exposure times (API Std 521 cited)",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Gas_flare",
-        "source_id": "en-wikipedia-org-wiki-gas-flare"
+        "source_id": "sys-en-wikipedia-org-gas-flare"
       },
       "value": "4.73 kW/m2 (3-4 min); 6.31 kW/m2 (30 s)"
     },
@@ -93,14 +93,14 @@
     }
   ],
   "vendors": [
-    "howden-chart-industries",
+    "howden-a-chart-industries-company-kk-k-ckd-brands",
     "american-petroleum-institute",
     "zeeco"
   ],
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Gas_flare",
-      "source_id": "en-wikipedia-org-wiki-gas-flare"
+      "source_id": "sys-en-wikipedia-org-gas-flare"
     },
     {
       "url": "https://www.chartindustries.com/Howden",

@@ -1,0 +1,36 @@
+{
+  "id": "mat-fl-thermoplastic-barrier-layers-flexible-pipe",
+  "name": "Thermoplastic barrier layers",
+  "material_category": "polymer-non-metallic",
+  "description": "Leakproof fluid containment layers in flexible pipe; combined with steel armour wires for pressure resistance and bending performance.",
+  "specifications": [
+    {
+      "metric": "Layer function",
+      "unit": "n/a",
+      "basis": "TechnipFMC flexible pipes page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+        "source_id": "sys-technipfmc-com"
+      },
+      "value": "leakproof thermoplastic barriers; independent but interacting layers adapted per field development"
+    }
+  ],
+  "applications": [
+    "Leakproof fluid containment layers in flexible pipe; combined with steel armour wires for pressure resistance and bending performance."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "technipfmc-cds-separation-systems",
+    "baker-hughes"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+      "source_id": "sys-technipfmc-com"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

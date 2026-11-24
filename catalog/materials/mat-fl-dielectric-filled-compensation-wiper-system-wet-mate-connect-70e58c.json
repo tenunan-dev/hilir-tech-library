@@ -1,0 +1,35 @@
+{
+  "id": "mat-fl-dielectric-filled-compensation-wiper-system-wet-mate-connect-70e58c",
+  "name": "Dielectric-filled compensation wiper system",
+  "material_category": "chemical-dielectric",
+  "description": "Protects connector receptacle contacts; combined with male pin corrosion protection and crimped terminations.",
+  "specifications": [
+    {
+      "metric": "Contact protection method",
+      "unit": "n/a",
+      "basis": "OneSubsea wet connectors page, Features",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
+        "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
+      },
+      "value": "dielectric-filled compensation wiper system"
+    }
+  ],
+  "applications": [
+    "Protects connector receptacle contacts; combined with male pin corrosion protection and crimped terminations."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "slb-onesubsea-slb-aker-solutions-subsea7-joint-venture"
+  ],
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
+      "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

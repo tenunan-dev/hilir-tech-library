@@ -1,0 +1,70 @@
+{
+  "id": "mat-cf-pv-module-glass-silicon-aluminium-and-fpv-float-anchoring-ma",
+  "name": "PV module glass/silicon/aluminium and FPV float/anchoring materials",
+  "material_category": "non-metals-semiconductors-and-polymers",
+  "description": "Encapsulated crystalline-silicon cells on a framed module; FPV uses buoyant floats, mooring lines and corrosion-resistant coatings in water/salt-water exposure.",
+  "specifications": [
+    {
+      "metric": "LONGi Hi-MO 9 cell/wafer technology",
+      "unit": "technology description",
+      "basis": "LONGi Hi-MO 9 product page core advantages",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "sys-longi-com"
+      },
+      "value": "Tairay silicon wafers + HPBC 2.0 cell technology; 0BB front design; anti-shading soft breakdown design"
+    },
+    {
+      "metric": "FPV material requirements",
+      "unit": "qualitative",
+      "basis": "Wikipedia floating solar 'Installation' and 'Disadvantages' sections",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_solar",
+        "source_id": "sys-en-wikipedia-org-floating-solar"
+      },
+      "value": "plastic buoys and cables; special anti-corrosion coating; redundant resilient distributed floats, especially over salt water"
+    },
+    {
+      "metric": "Sungrow FPV material claim",
+      "unit": "qualitative",
+      "basis": "Sungrow floating PV page 'Environmental friendly' feature list",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "sys-sungrowpower-com-floating-pv-system"
+      },
+      "value": "food grade material; anti-corrosion"
+    }
+  ],
+  "applications": [
+    "Encapsulated crystalline-silicon cells on a framed module; FPV uses buoyant floats, mooring lines and corrosion-resistant coatings in water/salt-water exposure."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "longi",
+    "sungrow"
+  ],
+  "sources": [
+    {
+      "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+      "source_id": "sys-longi-com"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_solar",
+      "source_id": "sys-en-wikipedia-org-floating-solar"
+    },
+    {
+      "url": "https://www.sungrowpower.com/en/floating-pv-system",
+      "source_id": "sys-sungrowpower-com-floating-pv-system"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Specific float polymer, UV stabiliser and mooring-line material grades with design life for offshore FPV",
+      "why": "Not on fetched pages",
+      "next_action": "Fetch an FPV structure technical data sheet"
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

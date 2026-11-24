@@ -112,7 +112,7 @@
   "vendors": [
     "cleaver-brooks",
     "zeeco",
-    "john-zink",
+    "john-zink-koch-engineered-solutions",
     "alzeta",
     "miura"
   ],
@@ -179,7 +179,7 @@
       "url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner"
     },
     {
-      "vendor": "john-zink",
+      "vendor": "john-zink-koch-engineered-solutions",
       "line": "ECOjet Edge+",
       "range": "as low as 15 ppm NOx without FGR in select applications; natural gas to 100% hydrogen",
       "url": "https://johnzink.com/products/powerburners/ecojet-edge-plus"

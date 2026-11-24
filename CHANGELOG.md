@@ -8,6 +8,28 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.24.10] — 2026-11-24 — All platform systems (offshore and onshore)
+
+Owner-directed complete search across all categories for the listed platform systems, ingested across the database.
+
+### Added
+- **39 equipment records** (15 enrichments) and **15 materials** (6 enrichments) covering risers, umbilicals,
+  pipelines/flowlines, hoses, connectors, BOPs, trees, separators, injection systems, export/injection
+  compressors, flare systems, piping, diesel gensets, solar PV/FPV, and wireless/instrumentation/ICSS.
+- **132 sources, 20 vendors, 29 product lines, 22 projects and 60 drawing pointers**; four cards extended.
+- Evidence includes TechnipFMC, Baker Hughes, OneSubsea/SLB, FieldComm, ISA, Honeywell, Siemens, Yokogawa,
+  Howden, Ariel, Cummins, mtu, LONGi and Sungrow, with reachability-checked diagram pointers.
+
+### Verification
+`tools/build.py` 1,590 sources / 392 cards / 884 vendors / 389 equipment / 647 projects / 274 products /
+302 drawings / 111 materials; `pytest -q tests` **2,603 passed, 13 skipped**; Neon reloaded with 7,616 nodes,
+28,860 edges and 17,781 vectors.
+
+### Gaps
+API 16A/17 and ISO 13628 full texts, hose pressure ratings (supplier sites blocked), quantified 5G/satellite
+latency, and verified project-linked solar/wireless deployments were not found — recorded as gaps.
+
+
 ## [2026.11.24.9] — 2026-11-24 — Project capex and installation cost benchmarks
 
 Owner-directed cost research tied to the platform/substructure/topside findings, with strict price-year discipline.

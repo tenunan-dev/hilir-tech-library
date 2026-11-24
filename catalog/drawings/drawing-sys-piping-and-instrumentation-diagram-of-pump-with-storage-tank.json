@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-piping-and-instrumentation-diagram-of-pump-with-storage-tank",
+  "title": "Piping and instrumentation diagram of pump with storage tank",
+  "diagram_type": "P&ID",
+  "description": "Pump, tank, piping and instrument symbols showing level and flow control | Figures: Wikipedia caption: 'Piping and instrumentation diagram of pump with storage tank. Symbols according to EN ISO 10628 and EN 62424' (File:Pump_with_tank_pid_en.svg)",
+  "publisher": "Wikimedia Commons; author 'Con-struct' (2012)",
+  "url": "https://commons.wikimedia.org/wiki/File:Pump_with_tank_pid_en.svg",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral",
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "top-flare-platform-topsides-and-flare-booms-stacks",
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Pump_with_tank_pid_en.svg",
+      "source_id": "sys-commons-wikimedia-org-file-pump-with-tank-pid-en-svg"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. Wikipedia P&ID page read via WebFetch/direct fetch; Commons URL HTTP 200",
+  "last_reviewed": "2026-11-24"
+}

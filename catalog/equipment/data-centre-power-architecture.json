@@ -77,7 +77,7 @@
       "basis": "Schneider Electric White Paper 286, electrical design section",
       "source": {
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-        "source_id": "download-se-com-download-se-com-files"
+        "source_id": "sys-download-se-com-files"
       },
       "value": "99.999% (about five minutes downtime per year); avoided event = loss of power to IT servers for more than 20 ms"
     },
@@ -87,7 +87,7 @@
       "basis": "Schneider Electric White Paper 286, 'Gas engine attributes important for large data centre applications' and Figure 4 start-up curves",
       "source": {
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-        "source_id": "download-se-com-download-se-com-files"
+        "source_id": "sys-download-se-com-files"
       },
       "value": "start, synchronise and reach nominal speed within 15 s; additional 35 s to support site full load; steps of about 20% of nominal output"
     },
@@ -97,7 +97,7 @@
       "basis": "Schneider Electric White Paper 286, electrical distribution architecture and Figure 7",
       "source": {
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-        "source_id": "download-se-com-download-se-com-files"
+        "source_id": "sys-download-se-com-files"
       },
       "value": "9 gas generator units (7+2 redundancy), four data-centre buildings at 17.5 MW each, 15 kV MV switchgear, 18 MVA grid backup for Block 1 only"
     },
@@ -141,7 +141,7 @@
     },
     {
       "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-      "source_id": "download-se-com-download-se-com-files"
+      "source_id": "sys-download-se-com-files"
     },
     {
       "url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/",

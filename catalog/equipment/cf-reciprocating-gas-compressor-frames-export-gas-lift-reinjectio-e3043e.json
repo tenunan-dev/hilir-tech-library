@@ -1,0 +1,101 @@
+{
+  "id": "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio-e3043e",
+  "name": "Reciprocating gas compressor frames",
+  "equipment_type": "cf-system",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "UPS",
+    "PRC",
+    "ELE"
+  ],
+  "description": "Positive-displacement compression where high pressure ratio, turndown or intermittent duty is required. Ariel frames are separable, engine- or motor-driven, with high-pressure cylinders for gas lift, gas reinjection and CNG; large frames are recommended for pipeline transmission and high-pressure injection.",
+  "specifications": [
+    {
+      "metric": "Small-frame rated power (1-throw / 2-throw)",
+      "unit": "BHP",
+      "basis": "Ariel JGN/JGQ, 1 throw JGN 126 BHP @1500 rpm, JGQ 140 BHP @1800 rpm; 2 throw JGN 252 BHP, JGQ 280 BHP. Rod load 18,000-20,000 lb; stroke 3.5 in (JGN) / 3.0 in (JGQ)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
+        "source_id": "sys-arielcorp-com-jgn-jgq-html"
+      },
+      "low": 126,
+      "high": 280
+    },
+    {
+      "metric": "Large-frame rated power",
+      "unit": "BHP",
+      "basis": "Ariel KBB/KBV, 4-throw 6668 BHP and 6-throw 10,000 BHP; stroke 7.25 in (KBB) / 8.50 in (KBV); total rod load 190,000 lb; max 900/750 rpm",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "sys-arielcorp-com-kbb-kbv-html"
+      },
+      "low": 6668,
+      "high": 10000
+    },
+    {
+      "metric": "Reciprocating compressor power rating",
+      "unit": "MW",
+      "basis": "Howden / Peter Brotherhood reciprocating compressors rated to 20 MW, operating 260-1000 rpm",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Compressors manufactured",
+      "unit": "units since 1966",
+      "basis": "Ariel '70,000+ compressors manufactured since 1966'; 550+ cylinder-to-frame combinations",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page.html",
+        "source_id": "sys-arielcorp-com-compressor-landing-page-html"
+      },
+      "value": 70000
+    },
+    {
+      "metric": "Downstream rod-load limit",
+      "unit": "lbf",
+      "basis": "Ariel process/refining/chemical compressors 'rod load up to 10,000 lbs'",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page.html",
+        "source_id": "sys-arielcorp-com-compressor-landing-page-html"
+      },
+      "value": 10000
+    }
+  ],
+  "vendors": [
+    "ariel-corporation",
+    "howden-peter-brotherhood"
+  ],
+  "sources": [
+    {
+      "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
+      "source_id": "sys-arielcorp-com-jgn-jgq-html"
+    },
+    {
+      "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+      "source_id": "sys-arielcorp-com-kbb-kbv-html"
+    },
+    {
+      "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+      "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+    },
+    {
+      "url": "https://www.arielcorp.com/compressors/compressor-landing-page.html",
+      "source_id": "sys-arielcorp-com-compressor-landing-page-html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Actual gas-lift / reinjection discharge pressures and capacities for Ariel frames in named fields",
+      "why": "Ariel frames give BHP/rod load only; cylinder selection determines duty and was not published on fetched pages",
+      "next_action": "Fetch Ariel product spec-sheet PDFs and an operator gas-lift case study"
+    }
+  ],
+  "applications": [
+    "Positive-displacement compression where high pressure ratio, turndown or intermittent duty is required. Ariel frames are separable, engine- or motor-driven, wit"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

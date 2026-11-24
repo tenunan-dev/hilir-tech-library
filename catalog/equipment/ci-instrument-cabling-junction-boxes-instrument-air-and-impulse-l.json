@@ -1,0 +1,70 @@
+{
+  "id": "ci-instrument-cabling-junction-boxes-instrument-air-and-impulse-l",
+  "name": "Instrument cabling, junction boxes, instrument air and impulse lines",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Physical signal/power cabling, field junction boxes, pneumatic supply and impulse tubing connecting instruments to ICSS.",
+  "specifications": [
+    {
+      "metric": "fieldbus wiring",
+      "unit": "cabling",
+      "basis": "FieldComm Group Foundation Fieldbus page",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+        "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+      },
+      "value": "FOUNDATION Fieldbus uses two-wire twisted pair cable; intrinsically safe or non-incendive device power suitable for all hazardous areas"
+    },
+    {
+      "metric": "wireless vs wired installation",
+      "unit": "% cost reduction",
+      "basis": "FieldComm Group WirelessHART page",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+        "source_id": "sys-fieldcommgroup-org-wirelesshart"
+      },
+      "value": "No additional instrument wiring needed for WirelessHART; 30%-60% lower installation cost claimed vs adding traditional wired instruments",
+      "low": 30,
+      "high": 60
+    },
+    {
+      "metric": "related Yokogawa components",
+      "unit": "components",
+      "basis": "Yokogawa product catalogue navigation",
+      "source": {
+        "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+        "source_id": "sys-yokogawa-com"
+      },
+      "value": "Valve Manifolds, Current to Pneumatic Converter, Signal Conditioners, Surge Arresters, Network Converters, Multi-Sensing Remote I/O"
+    }
+  ],
+  "vendors": [
+    "yokogawa"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+      "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+    },
+    {
+      "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+      "source_id": "sys-fieldcommgroup-org-wirelesshart"
+    },
+    {
+      "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+      "source_id": "sys-yokogawa-com"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Physical signal/power cabling, field junction boxes, pneumatic supply and impulse tubing connecting instruments to ICSS."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

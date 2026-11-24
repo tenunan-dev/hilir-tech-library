@@ -1,0 +1,35 @@
+{
+  "id": "mat-ci-hazardous-area-protection-concepts-is-non-incendive",
+  "name": "Hazardous-area protection concepts",
+  "material_category": "certification-safety-basis",
+  "description": "Allows fieldbus-powered devices to be installed in hazardous (classified) areas.",
+  "specifications": [
+    {
+      "metric": "protection methods named",
+      "unit": "protection concept",
+      "basis": "FieldComm Group Foundation Fieldbus page",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+        "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+      },
+      "value": "intrinsically safe or non-incendive device power"
+    }
+  ],
+  "applications": [
+    "Allows fieldbus-powered devices to be installed in hazardous (classified) areas."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "slb-cameron-pressure-control-equipment"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+      "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

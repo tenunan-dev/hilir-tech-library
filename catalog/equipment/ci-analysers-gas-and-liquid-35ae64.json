@@ -1,0 +1,40 @@
+{
+  "id": "ci-analysers-gas-and-liquid-35ae64",
+  "name": "Analysers",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Online composition and quality measurement for process and emissions monitoring.",
+  "specifications": [
+    {
+      "metric": "product families attested by catalogue",
+      "unit": "families",
+      "basis": "Yokogawa product catalogue navigation",
+      "source": {
+        "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+        "source_id": "sys-yokogawa-com"
+      },
+      "value": "Gas Analyzers, Liquid Analyzers, Analyzer System; Advanced Analytical Instrument Management System (AMADAS)"
+    }
+  ],
+  "vendors": [
+    "yokogawa"
+  ],
+  "sources": [
+    {
+      "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+      "source_id": "sys-yokogawa-com"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Online composition and quality measurement for process and emissions monitoring."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

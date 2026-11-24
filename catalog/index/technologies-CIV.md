@@ -87,7 +87,7 @@ flowchart LR
     TOP --> HKP
 ```
 
-**Key equipment:** steel jacket, foundation piles, topsides modules, conductor guides, boat landings and riser guards, steel jackets, monopiles, suction-bucket jackets, topsides, scour protection, cathodic protection, structural health monitoring, wellhead platform jacket, X-mas tree deck, wellhead control panel, flare boom, bridge link, jacket substructure, concrete GBS, semi-submersible platform, SPAR platform, TLP, jack-up platform, pontoon/barge platform, float-over topside installation, heavy-lift installation, suction bucket foundation.
+**Key equipment:** steel jacket, foundation piles, topsides modules, conductor guides, boat landings and riser guards, steel jackets, monopiles, suction-bucket jackets, topsides, scour protection, cathodic protection, structural health monitoring, wellhead platform jacket, X-mas tree deck, wellhead control panel, flare boom, bridge link, jacket substructure, concrete GBS, semi-submersible platform, SPAR platform, TLP, jack-up platform, pontoon/barge platform, float-over topside installation, heavy-lift installation, suction bucket foundation, flare stack/boom, process piping, diesel genset, solar power, umbilical and riser.
 
 **Performance:**
 - jacket weight against water depth: 14000 t at 105 m water depth; A 14,000 t steel jacket installed in 105 m of water.. [source](https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0900.htm)

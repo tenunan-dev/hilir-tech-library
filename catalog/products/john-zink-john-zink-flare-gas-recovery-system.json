@@ -1,0 +1,41 @@
+{
+  "id": "john-zink-john-zink-flare-gas-recovery-system",
+  "name": "John Zink Flare Gas Recovery system",
+  "manufacturer": "john-zink-koch-engineered-solutions",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24. Deep liquid seals, back-pressure control, H2S sweetening",
+  "specifications": [
+    {
+      "metric": "Application scope",
+      "unit": "qualitative",
+      "basis": "",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery",
+        "source_id": "sys-johnzink-com-flare-gas-recovery"
+      },
+      "value": "refineries to FPSO"
+    },
+    {
+      "metric": "Compression options",
+      "unit": "qualitative",
+      "basis": "",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery",
+        "source_id": "sys-johnzink-com-flare-gas-recovery"
+      },
+      "value": "ejectors / evaluated technologies"
+    }
+  ],
+  "url": "https://www.johnzink.com/products/flare-gas-recovery",
+  "sources": [
+    {
+      "url": "https://www.johnzink.com/products/flare-gas-recovery",
+      "source_id": "sys-johnzink-com-flare-gas-recovery"
+    }
+  ],
+  "notes": "Deep liquid seals, back-pressure control, H2S sweetening",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru-509b41",
+  "name": "Pipelines and flowlines",
+  "equipment_type": "fl-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Transport produced fluids from well/tie-back to host and export, and injection fluids from host to wells; flow assurance (heating/insulation) where required.",
+  "specifications": [
+    {
+      "metric": "Rigid pipeline water depth",
+      "unit": "m (descriptive)",
+      "basis": "TechnipFMC subsea infrastructure page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
+        "source_id": "sys-technipfmc-com-b0f39f"
+      },
+      "value": "tens to thousands"
+    },
+    {
+      "metric": "Global spoolbases",
+      "unit": "facilities",
+      "basis": "TechnipFMC subsea infrastructure: 'use of our four strategically located global spoolbases'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
+        "source_id": "sys-technipfmc-com-b0f39f"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Flexible pipe vs rigid installation speed",
+      "unit": "times faster (up to, method-dependent)",
+      "basis": "Baker Hughes flexible pipe systems: minimizes offshore welding; flexible pipes can be recovered and redeployed",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/flexible-pipe-systems",
+        "source_id": "sys-bakerhughes-com-flexible-pipe-systems"
+      },
+      "value": 20
+    }
+  ],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "baker-hughes",
+    "slb-onesubsea-slb-aker-solutions-subsea7-joint-venture"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
+      "source_id": "sys-technipfmc-com-b0f39f"
+    },
+    {
+      "url": "https://www.bakerhughes.com/subsea/flexible-pipe-systems",
+      "source_id": "sys-bakerhughes-com-flexible-pipe-systems"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Transport produced fluids from well/tie-back to host and export, and injection fluids from host to wells; flow assurance (heating/insulation) where required."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

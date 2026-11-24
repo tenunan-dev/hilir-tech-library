@@ -17,7 +17,7 @@
       "basis": "Wikipedia Oil platform, Floating production systems",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
-        "source_id": "en-wikipedia-org-wiki-oil-platform"
+        "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "value": "FPSO = large monohull, usually ship-shaped, with processing facilities, moored for extended periods and not drilling; FSO/FSU used exclusively for storage with little process equipment"
     }
@@ -31,7 +31,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Oil_platform",
-      "source_id": "en-wikipedia-org-wiki-oil-platform"
+      "source_id": "sys-en-wikipedia-org-oil-platform"
     }
   ],
   "gaps": [],

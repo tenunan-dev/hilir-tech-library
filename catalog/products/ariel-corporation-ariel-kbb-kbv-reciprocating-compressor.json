@@ -1,0 +1,53 @@
+{
+  "id": "ariel-corporation-ariel-kbb-kbv-reciprocating-compressor",
+  "name": "Ariel KBB/KBV reciprocating compressor",
+  "manufacturer": "ariel-corporation",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24. Pipeline transmission and high-pressure injection",
+  "specifications": [
+    {
+      "metric": "Rated power",
+      "unit": "BHP",
+      "basis": "",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "sys-arielcorp-com-kbb-kbv-html"
+      },
+      "low": 6668,
+      "high": 10000
+    },
+    {
+      "metric": "Total rod load",
+      "unit": "lbf",
+      "basis": "",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "sys-arielcorp-com-kbb-kbv-html"
+      },
+      "value": 190000
+    },
+    {
+      "metric": "Max RPM",
+      "unit": "rpm",
+      "basis": "",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "sys-arielcorp-com-kbb-kbv-html"
+      },
+      "low": 750,
+      "high": 900
+    }
+  ],
+  "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+  "sources": [
+    {
+      "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+      "source_id": "sys-arielcorp-com-kbb-kbv-html"
+    }
+  ],
+  "notes": "Pipeline transmission and high-pressure injection",
+  "last_reviewed": "2026-11-24"
+}

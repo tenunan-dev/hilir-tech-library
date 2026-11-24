@@ -1,0 +1,31 @@
+{
+  "id": "technipfmc-integrated-production-bundle-ipb",
+  "name": "Integrated Production Bundle (IPB)",
+  "manufacturer": "technipfmc-cds-separation-systems",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24. Proprietary flexible pipe product for flow assurance in viscous oil, deepwater and pressure-constrained conditions.",
+  "specifications": [
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "TechnipFMC flexible pipes page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+        "source_id": "sys-technipfmc-com"
+      },
+      "value": "flexible production riser with thermal insulation layers, additional hoses for gas lift/other services, active heating through electric cables, fluid temperature monitoring with optical fibres"
+    }
+  ],
+  "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+      "source_id": "sys-technipfmc-com"
+    }
+  ],
+  "notes": "Proprietary flexible pipe product for flow assurance in viscous oil, deepwater and pressure-constrained conditions.",
+  "last_reviewed": "2026-11-24"
+}

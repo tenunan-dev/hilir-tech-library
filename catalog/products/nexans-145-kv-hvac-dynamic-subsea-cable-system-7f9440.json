@@ -1,0 +1,51 @@
+{
+  "id": "nexans-145-kv-hvac-dynamic-subsea-cable-system-7f9440",
+  "name": "145 kV HVAC dynamic subsea cable system",
+  "manufacturer": "nexans",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. Power cable for subsea gas compression; not a hydraulic umbilical.",
+  "specifications": [
+    {
+      "metric": "Voltage",
+      "unit": "kV HVAC",
+      "basis": "Nexans Jansz-Io project key facts",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
+        "source_id": "sys-nexans-com"
+      },
+      "value": 145
+    },
+    {
+      "metric": "Route length",
+      "unit": "km (about)",
+      "basis": "Nexans Jansz-Io project key facts",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
+        "source_id": "sys-nexans-com"
+      },
+      "value": 135
+    },
+    {
+      "metric": "Trenching",
+      "unit": "km",
+      "basis": "Nexans Jansz-Io project key facts",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
+        "source_id": "sys-nexans-com"
+      },
+      "value": 30
+    }
+  ],
+  "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
+  "sources": [
+    {
+      "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
+      "source_id": "sys-nexans-com"
+    }
+  ],
+  "notes": "Power cable for subsea gas compression; not a hydraulic umbilical.",
+  "last_reviewed": "2026-11-24"
+}

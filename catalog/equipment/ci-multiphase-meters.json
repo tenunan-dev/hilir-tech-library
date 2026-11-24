@@ -1,0 +1,40 @@
+{
+  "id": "ci-multiphase-meters",
+  "name": "Multiphase meters",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Measurement of oil/water/gas flow rates without full separation, used in wellhead and subsea/onshore applications.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Measurement of oil/water/gas flow rates without full separation, used in wellhead and subsea/onshore applications.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards",
+        "source_id": "sys-api-org-standards"
+      }
+    }
+  ],
+  "vendors": [
+    "slb-cameron-pressure-control-equipment"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "sys-api-org-standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Measurement of oil/water/gas flow rates without full separation, used in wellhead and subsea/onshore applications."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

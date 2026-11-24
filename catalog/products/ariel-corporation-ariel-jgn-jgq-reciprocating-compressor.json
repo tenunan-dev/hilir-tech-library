@@ -1,0 +1,54 @@
+{
+  "id": "ariel-corporation-ariel-jgn-jgq-reciprocating-compressor",
+  "name": "Ariel JGN/JGQ reciprocating compressor",
+  "manufacturer": "ariel-corporation",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24. Gas lift and CNG duty",
+  "specifications": [
+    {
+      "metric": "Rated power (1/2 throw)",
+      "unit": "BHP",
+      "basis": "",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
+        "source_id": "sys-arielcorp-com-jgn-jgq-html"
+      },
+      "low": 126,
+      "high": 280
+    },
+    {
+      "metric": "Max RPM",
+      "unit": "rpm",
+      "basis": "",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
+        "source_id": "sys-arielcorp-com-jgn-jgq-html"
+      },
+      "low": 1500,
+      "high": 1800
+    },
+    {
+      "metric": "Total rod load",
+      "unit": "lbf",
+      "basis": "",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
+        "source_id": "sys-arielcorp-com-jgn-jgq-html"
+      },
+      "low": 18000,
+      "high": 20000
+    }
+  ],
+  "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
+  "sources": [
+    {
+      "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
+      "source_id": "sys-arielcorp-com-jgn-jgq-html"
+    }
+  ],
+  "notes": "Gas lift and CNG duty",
+  "last_reviewed": "2026-11-24"
+}

@@ -14,7 +14,7 @@
       "basis": "",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
-        "source_id": "technipfmc-com-well-control"
+        "source_id": "sys-technipfmc-com-0277d2"
       },
       "value": 20000
     },
@@ -24,7 +24,7 @@
       "basis": "",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
-        "source_id": "technipfmc-com-well-control"
+        "source_id": "sys-technipfmc-com-0277d2"
       },
       "value": 400
     },
@@ -34,7 +34,7 @@
       "basis": "",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
-        "source_id": "technipfmc-com-well-control"
+        "source_id": "sys-technipfmc-com-0277d2"
       },
       "value": 10000
     }
@@ -43,7 +43,7 @@
   "sources": [
     {
       "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
-      "source_id": "technipfmc-com-well-control"
+      "source_id": "sys-technipfmc-com-0277d2"
     }
   ],
   "notes": "fetched",

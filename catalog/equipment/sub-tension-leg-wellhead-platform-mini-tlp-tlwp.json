@@ -17,7 +17,7 @@
       "basis": "Wikipedia Oil platform: proprietary Seastar and MOSES mini TLPs used in water depths 180-1,300 m, low cost, utility/satellite/early production",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
-        "source_id": "en-wikipedia-org-wiki-oil-platform"
+        "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "low": 180,
       "high": 1300
@@ -29,7 +29,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Oil_platform",
-      "source_id": "en-wikipedia-org-wiki-oil-platform"
+      "source_id": "sys-en-wikipedia-org-oil-platform"
     }
   ],
   "gaps": [],

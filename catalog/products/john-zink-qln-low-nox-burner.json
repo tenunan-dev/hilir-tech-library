@@ -1,7 +1,7 @@
 {
   "id": "john-zink-qln-low-nox-burner",
   "name": "QLN Low NOx Burner",
-  "manufacturer": "john-zink",
+  "manufacturer": "john-zink-koch-engineered-solutions",
   "product_type": "burner",
   "equipment": [
     "burner-gas-low-nox"

@@ -1,0 +1,86 @@
+{
+  "id": "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339",
+  "name": "Injectors and injection systems",
+  "equipment_type": "fl-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Provide reservoir pressure support and lift; inject treating chemicals for flow assurance and asset integrity; deliver seawater/gas/chemicals to the reservoir or production stream.",
+  "specifications": [
+    {
+      "metric": "OneSubsea subsea pump operational hours",
+      "unit": "operational hours (over)",
+      "basis": "OneSubsea subsea water injection page: 'track record of over 5 million operational hours'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
+        "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
+      },
+      "value": 5000000
+    },
+    {
+      "metric": "OneSubsea subsea pumps delivered globally",
+      "unit": "pumps (more than)",
+      "basis": "Same page: 'more than 130 pumps delivered globally'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
+        "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
+      },
+      "value": 130
+    },
+    {
+      "metric": "OneSubsea subsea pumps for water injection",
+      "unit": "pumps delivered and installed",
+      "basis": "Same page: 'OneSubsea has delivered and installed 14 of its subsea pumps for water injection purposes'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
+        "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
+      },
+      "value": 14
+    },
+    {
+      "metric": "Seawater treatment configuration levels",
+      "unit": "named configurations (raw seawater; coarse filtration; disinfection and particle removal; ultrafiltration and sulfate removal)",
+      "basis": "OneSubsea subsea water injection page, 'Seawater quality requirements'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
+        "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Chemical injection case duration / scale",
+      "unit": "months / wells",
+      "basis": "Same SLB case-study headline",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/production-chemicals-and-services",
+        "source_id": "sys-slb-com-production-chemicals-and-services"
+      },
+      "value": "9 months across 1,400 wells"
+    }
+  ],
+  "vendors": [
+    "slb-onesubsea-slb-aker-solutions-subsea7-joint-venture",
+    "baker-hughes",
+    "slb-cameron-pressure-control-equipment"
+  ],
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
+      "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
+    },
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/production-chemicals-and-services",
+      "source_id": "sys-slb-com-production-chemicals-and-services"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Provide reservoir pressure support and lift; inject treating chemicals for flow assurance and asset integrity; deliver seawater/gas/chemicals to the reservoir o"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

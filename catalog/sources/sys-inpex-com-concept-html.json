@@ -1,0 +1,33 @@
+{
+  "id": "sys-inpex-com-concept-html",
+  "name": "INPEX CORPORATION",
+  "url": "https://www.inpex.com/english/ichthys/concept.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Inpex.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. Subsea production wells, CPF, FPSO, gas export pipeline, flowlines/flexible risers and onshore LNG plant Evidence: https://www.inpex.com/english/ichthys/concept.html"
+}

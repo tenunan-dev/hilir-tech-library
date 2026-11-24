@@ -1,0 +1,31 @@
+{
+  "id": "technipfmc-freestanding-hybrid-riser-fshr-369745",
+  "name": "Freestanding Hybrid Riser (FSHR)",
+  "manufacturer": "technipfmc-cds-separation-systems",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. Deepwater riser solution described on the fetched TechnipFMC flexible pipes page.",
+  "specifications": [
+    {
+      "metric": "Configuration",
+      "unit": "n/a",
+      "basis": "TechnipFMC flexible pipes page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+        "source_id": "sys-technipfmc-com"
+      },
+      "value": "vertical steel pipe tensioned by near-surface buoyancy can; flexible jumper to platform; seabed foundation and rigid base jumper to PLET"
+    }
+  ],
+  "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+      "source_id": "sys-technipfmc-com"
+    }
+  ],
+  "notes": "Deepwater riser solution described on the fetched TechnipFMC flexible pipes page.",
+  "last_reviewed": "2026-11-24"
+}

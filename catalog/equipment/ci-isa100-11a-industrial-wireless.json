@@ -1,0 +1,70 @@
+{
+  "id": "ci-isa100-11a-industrial-wireless",
+  "name": "ISA100.11a",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Wireless systems for industrial automation: process control and related applications, from non-critical monitoring to supervisory and closed-loop control.",
+  "specifications": [
+    {
+      "metric": "standard designation",
+      "unit": "standard",
+      "basis": "ISA-100 Series of Standards page",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards",
+        "source_id": "sys-isa-org-isa-100-standards"
+      },
+      "value": "ISA-100.11a-2011, Wireless Systems for Industrial Automation: Process Control and Related Applications"
+    },
+    {
+      "metric": "data rate class",
+      "unit": "qualitative",
+      "basis": "ISA-100.11a key focus areas",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards",
+        "source_id": "sys-isa-org-isa-100-standards"
+      },
+      "value": "low-data-rate wireless communication"
+    },
+    {
+      "metric": "application scope",
+      "unit": "scope",
+      "basis": "ISA-100 standards page, 'Versatility for Critical and Non-Critical Applications'",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards",
+        "source_id": "sys-isa-org-isa-100-standards"
+      },
+      "value": "monitoring, supervisory control, open-loop and closed-loop control; oil and gas listed as applicable industry"
+    },
+    {
+      "metric": "supporting technical reports",
+      "unit": "documents",
+      "basis": "ISA-100 Series of Standards page",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards",
+        "source_id": "sys-isa-org-isa-100-standards"
+      },
+      "value": "ISA-TR100.14.01 trustworthiness; ANSI/ISA-TR100.15.01-2012 backhaul architecture over untrusted/trusted networks; ISA-TR100.20.01-2017 common network management"
+    }
+  ],
+  "vendors": [
+    "isa-isa100-wireless-compliance-institute"
+  ],
+  "sources": [
+    {
+      "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards",
+      "source_id": "sys-isa-org-isa-100-standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Wireless systems for industrial automation: process control and related applications, from non-critical monitoring to supervisory and closed-loop control."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-schneider-electric-wp286-diesel-vs-gas-power-block-diagram-plant-compo-e04200",
+  "title": "Schneider Electric WP286 — diesel vs gas power block diagram; plant components; MV gas-supply topology",
+  "diagram_type": "block-diagram",
+  "description": "Diesel gensets vs gas engines feeding MV/LV loads; generator auxiliaries, instrument/starting air, exhaust, control panel, gas pressure reduction and distribution | Figures: Figure 1 'Block diagram showing the difference between a traditional diesel-powered solution and a gas powered solution without connection to the grid'; Figure 5 'A high-level presentation of the power plant components'; Figure 10 'Medium Voltage closed ring topology based architecture for the gas supply system'",
+  "publisher": "Schneider Electric Data Center Science Center (with Wärtsilä)",
+  "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
+      "source_id": "sys-download-se-com-files"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct GET returned HTTP 403 (bot protection)",
+  "last_reviewed": "2026-11-24"
+}

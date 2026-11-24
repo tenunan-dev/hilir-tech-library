@@ -1,0 +1,33 @@
+{
+  "id": "sys-epcmholdings-com-spm-calm-buoy-system",
+  "name": "EPCM Holdings",
+  "url": "https://epcmholdings.com/spm-calm-buoy-system",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Epcmholdings.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the all-systems sweep. Floating hose strings and subsea hose risers linking tanker manifold to PLEM and pipeline Evidence: https://epcmholdings.com/spm-calm-buoy-system"
+}

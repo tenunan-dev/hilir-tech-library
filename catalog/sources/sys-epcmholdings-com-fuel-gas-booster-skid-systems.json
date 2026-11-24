@@ -1,0 +1,33 @@
+{
+  "id": "sys-epcmholdings-com-fuel-gas-booster-skid-systems",
+  "name": "EPCM Holdings",
+  "url": "https://epcmholdings.com/fuel-gas-booster-skid-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Epcmholdings.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the all-systems sweep. Air filter, gas booster, pressure gauge, pneumatic control valves, non-return valves, piston/cylinder compression chamber, pilot and spool valves, drive, exhaust silencer and cooling Evidence: https://epcmholdings.com/fuel-gas-booster-skid-systems"
+}

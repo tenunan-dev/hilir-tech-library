@@ -1,0 +1,70 @@
+{
+  "id": "cf-flare-gas-recovery-fgr-and-enclosed-ground-flare-packages",
+  "name": "Flare gas recovery",
+  "equipment_type": "cf-system",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "UPS",
+    "PRC",
+    "ELE"
+  ],
+  "description": "Captures gas that would otherwise be flared, using a liquid seal vessel for backpressure control and flashback prevention, plus compression (ejector or compressor) and optional H2S sweetening. Reduces emissions, light, noise and odour and extends flare tip life.",
+  "specifications": [
+    {
+      "metric": "FGR application scope",
+      "unit": "qualitative",
+      "basis": "John Zink states FGR systems are 'custom-engineered' for applications from petroleum refineries to FPSO offshore platforms",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery",
+        "source_id": "sys-johnzink-com-flare-gas-recovery"
+      },
+      "value": "refineries to FPSO offshore platforms"
+    },
+    {
+      "metric": "FGR emissions reduced",
+      "unit": "qualitative",
+      "basis": "John Zink FGR benefit statement; also reduces purchased fuel gas and steam and can lower carbon taxes/fines",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery",
+        "source_id": "sys-johnzink-com-flare-gas-recovery"
+      },
+      "value": "NOx, CO, CO2, SOx"
+    },
+    {
+      "metric": "Ground flare heat/visibility control",
+      "unit": "qualitative",
+      "basis": "Ground flares hide the flame and reduce thermal radiation and noise; open at top with base air openings; multiple tips for turndown; used onshore in sensitive areas and on FPSOs",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_flare",
+        "source_id": "sys-en-wikipedia-org-gas-flare"
+      },
+      "value": "refractory-lined steel box or cylinder"
+    }
+  ],
+  "vendors": [
+    "john-zink-koch-engineered-solutions"
+  ],
+  "sources": [
+    {
+      "url": "https://www.johnzink.com/products/flare-gas-recovery",
+      "source_id": "sys-johnzink-com-flare-gas-recovery"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gas_flare",
+      "source_id": "sys-en-wikipedia-org-gas-flare"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named FGR installation with recovered gas flow, seal pressure and payback",
+      "why": "Not on fetched pages",
+      "next_action": "Fetch an operator or John Zink FGR case study with data"
+    }
+  ],
+  "applications": [
+    "Captures gas that would otherwise be flared, using a liquid seal vessel for backpressure control and flashback prevention, plus compression (ejector or compress"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

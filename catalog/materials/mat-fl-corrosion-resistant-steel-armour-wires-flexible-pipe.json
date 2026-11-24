@@ -1,0 +1,36 @@
+{
+  "id": "mat-fl-corrosion-resistant-steel-armour-wires-flexible-pipe",
+  "name": "Corrosion-resistant steel armour wires",
+  "material_category": "metal",
+  "description": "Helically wound wires providing high-pressure resistance and bending/fatigue performance in flexible pipe.",
+  "specifications": [
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "TechnipFMC flexible pipes page",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+        "source_id": "sys-technipfmc-com"
+      },
+      "value": "helically wound corrosion-resistant steel wires"
+    }
+  ],
+  "applications": [
+    "Helically wound wires providing high-pressure resistance and bending/fatigue performance in flexible pipe."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "technipfmc-cds-separation-systems",
+    "baker-hughes"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
+      "source_id": "sys-technipfmc-com"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

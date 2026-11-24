@@ -17,7 +17,7 @@
       "basis": "Wikipedia Oil platform, Drillships: can drill in water depths up to 3,700 m (12,100 ft)",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
-        "source_id": "en-wikipedia-org-wiki-oil-platform"
+        "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "value": 3700
     },
@@ -78,7 +78,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Oil_platform",
-      "source_id": "en-wikipedia-org-wiki-oil-platform"
+      "source_id": "sys-en-wikipedia-org-oil-platform"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Offshore_drilling",

@@ -47,7 +47,7 @@
       "basis": "Cummins Gas Power Plant Application Manual A049Z057 section 3.1.9.2; Figure 24 'Tower cooling system connection to generator set'",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "Cooling towers typically used with heat exchangers; chemical water treatment, make-up system, discharge and special maintenance must be planned"
     },
@@ -78,7 +78,7 @@
       "basis": "Cummins Gas Power Plant Application Manual, section 3.1 cooling system introduction",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "maintain temperature at design flow, maintain design pressure, accommodate expansion/contraction/overfill/loss, provide vent path for entrapped air, provide fill/drain/sample points"
     }
@@ -105,7 +105,7 @@
     },
     {
       "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
     },
     {
       "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",

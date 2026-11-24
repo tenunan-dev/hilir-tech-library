@@ -130,7 +130,7 @@
       "range": "subcycle to 1.5-cycle distance protection"
     },
     {
-      "vendor": "siemens-energy",
+      "vendor": "siemens-energy-incl-ex-dresser-rand",
       "line": "SIPROTEC 5",
       "models": [
         "7SA86/7SA87 distance",
@@ -162,7 +162,7 @@
   ],
   "vendors": [
     "selinc",
-    "siemens-energy",
+    "siemens-energy-incl-ex-dresser-rand",
     "hitachi-energy",
     "ge-vernova"
   ],

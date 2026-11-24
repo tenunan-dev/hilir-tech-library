@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-parallel-plate-separator",
+  "title": "Parallel plate separator",
+  "diagram_type": "schematic",
+  "description": "Parallel-plate produced-water separator used historically before overboard disposal | Figures: Commons File:Parallel_Plate_Separator.png, shown on Wikipedia 'Oil production plant'",
+  "publisher": "Wikipedia / Wikimedia Commons (secondary)",
+  "url": "https://en.wikipedia.org/wiki/Oil_production_plant",
+  "licence": "Wikipedia article text CC BY-SA 4.0; individual image licences vary — check the Commons file page before reuse.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral",
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "top-flare-platform-topsides-and-flare-booms-stacks",
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_production_plant",
+      "source_id": "sys-en-wikipedia-org-oil-production-plant"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct URL HTTP 200",
+  "last_reviewed": "2026-11-24"
+}

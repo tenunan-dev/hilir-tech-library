@@ -17,7 +17,7 @@
       "basis": "Wikipedia Oil platform, Gravity-based structure",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
-        "source_id": "en-wikipedia-org-wiki-oil-platform"
+        "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "value": "pulled off yard by wet-tow and/or dry-tow; self-installs by controlled ballasting of compartments with seawater"
     },
@@ -27,7 +27,7 @@
       "basis": "Wikipedia Oil platform, Gravity-based structure",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
-        "source_id": "en-wikipedia-org-wiki-oil-platform"
+        "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "value": "predominantly where no or limited crane barges available (e.g. Caspian Sea)"
     },
@@ -70,7 +70,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Oil_platform",
-      "source_id": "en-wikipedia-org-wiki-oil-platform"
+      "source_id": "sys-en-wikipedia-org-oil-platform"
     },
     {
       "url": "https://www.heerema.com/heerema-marine-contractors/fleet",

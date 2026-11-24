@@ -1,0 +1,109 @@
+{
+  "id": "cf-solar-pv-modules-and-inverters-onshore-gas-plant-and-remote-hy-fa78bf",
+  "name": "Solar PV modules and inverters",
+  "equipment_type": "cf-system",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "UPS",
+    "PRC",
+    "ELE"
+  ],
+  "description": "Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and string/modular inverters are the core hardware.",
+  "specifications": [
+    {
+      "metric": "LONGi Hi-MO 9 module maximum power",
+      "unit": "W",
+      "basis": "LONGi Hi-MO 9 product page 'Up to 670 W'; HPBC 2.0 technology, 0BB front design",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "sys-longi-com"
+      },
+      "value": 670
+    },
+    {
+      "metric": "LONGi Hi-MO 9 module efficiency",
+      "unit": "%",
+      "basis": "LONGi Hi-MO 9 'Module efficiency of up to 24.8%'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "sys-longi-com"
+      },
+      "value": 24.8
+    },
+    {
+      "metric": "LONGi Hi-MO 9 STC Pmax (LR7-72HYD-660M)",
+      "unit": "W",
+      "basis": "STC table: Voc 54.00 V, Isc 15.41 A, Vmp 44.85 V, Imp 14.72 A",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "sys-longi-com"
+      },
+      "value": 660
+    },
+    {
+      "metric": "LONGi Hi-MO 9 mechanical dimensions and mass",
+      "unit": "mm (33.5 kg)",
+      "basis": "Mechanical parameters: 144 cells (6x24), split junction box IP68 with 3 diodes; 36 pcs/pallet, 720 pcs/40HC",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "sys-longi-com"
+      },
+      "value": "2382 x 1134 x 30"
+    },
+    {
+      "metric": "LONGi Hi-MO 9 mechanical load",
+      "unit": "Pa",
+      "basis": "Max static load front 5400 Pa (snow/wind), back 2400 Pa (wind)",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "sys-longi-com"
+      },
+      "low": 2400,
+      "high": 5400
+    },
+    {
+      "metric": "Sungrow product categories",
+      "unit": "category list",
+      "basis": "Sungrow products page lists these categories; company states No.1 PV inverter shipment in 2025 (S&P Global estimate cited)",
+      "source": {
+        "url": "https://en.sungrowpower.com/products",
+        "source_id": "sys-en-sungrowpower-com-products"
+      },
+      "value": "string inverter, modular inverter, MLPE, floating PV system, ESS, EV charger"
+    }
+  ],
+  "vendors": [
+    "longi",
+    "sungrow",
+    "solaredge",
+    "trina-solar"
+  ],
+  "sources": [
+    {
+      "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+      "source_id": "sys-longi-com"
+    },
+    {
+      "url": "https://en.sungrowpower.com/products",
+      "source_id": "sys-en-sungrowpower-com-products"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named diesel-solar hybrid installation for a remote oil & gas platform/plant with PV MW, diesel MW and fuel-saving figure",
+      "why": "No such case study was fetched; LONGi solution categories are indicative only",
+      "next_action": "Fetch an operator/OEM hybrid-power case study with numeric capacity and diesel displacement"
+    },
+    {
+      "what": "Onshore solar capacity at a named gas processing plant",
+      "why": "Not on fetched pages",
+      "next_action": "Locate and fetch a gas-plant PV project page"
+    }
+  ],
+  "applications": [
+    "Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and st"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ci-control-valves-and-actuators",
+  "name": "Control valves and actuators",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Final control elements modulating or isolating process flow, driven by pneumatic/electric/hydraulic actuators; safety-rated versions used in ESD.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Final control elements modulating or isolating process flow, driven by pneumatic/electric/hydraulic actuators; safety-rated versions used in ESD.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards",
+        "source_id": "sys-api-org-standards"
+      }
+    }
+  ],
+  "vendors": [
+    "fisher-emerson"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "sys-api-org-standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Final control elements modulating or isolating process flow, driven by pneumatic/electric/hydraulic actuators; safety-rated versions used in ESD."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

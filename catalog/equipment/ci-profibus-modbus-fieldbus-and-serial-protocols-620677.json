@@ -1,0 +1,40 @@
+{
+  "id": "ci-profibus-modbus-fieldbus-and-serial-protocols-620677",
+  "name": "Profibus / Modbus",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards",
+        "source_id": "sys-api-org-standards"
+      }
+    }
+  ],
+  "vendors": [
+    "slb-cameron-pressure-control-equipment"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "sys-api-org-standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

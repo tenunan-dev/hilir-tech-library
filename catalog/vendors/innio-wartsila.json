@@ -1,0 +1,23 @@
+{
+  "id": "innio-wartsila",
+  "name": "INNIO / Wartsila",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "INNIO / Wartsila is named as a supplier on a page read during the all-systems sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 all-systems sweep."
+}

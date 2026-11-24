@@ -1,6 +1,6 @@
 # Equipment catalog
 
-326 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+389 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -96,7 +96,7 @@ Recorded gaps:
 
 Primary code: PCH: Petrochemicals
 Ammonia plant control system, analysers and safety systems | Instrumentation and control rooms
-Vendors: Topsoe, Casale, thyssenkrupp Industrial Solutions (Uhde), Howden (Chart Industries), Yokogawa Electric, Aramis Group (0 model lines recorded).
+Vendors: Topsoe, Casale, thyssenkrupp Industrial Solutions (Uhde), Howden (a Chart Industries company; KK&K, CKD brands), Yokogawa Electric, Aramis Group (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -118,7 +118,7 @@ Recorded gaps:
 
 Primary code: H2: Hydrogen and low-carbon fuels
 Catalytic reactor in the Haber-Bosch loop where hydrogen and nitrogen combine over an iron catalyst to form ammonia. Conversion per pass is limited by equilibrium, so the loop circulates unreacted gas, condenses ammonia by refrigeration and returns the remainder to the converter.
-Vendors: Topsoe, thyssenkrupp Uhde, KBR, Casale, thyssenkrupp Industrial Solutions (Uhde), Howden (Chart Industries) (4 model lines recorded).
+Vendors: Topsoe, thyssenkrupp Uhde, KBR, Casale, thyssenkrupp Industrial Solutions (Uhde), Howden (a Chart Industries company; KK&K, CKD brands) (4 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -400,7 +400,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Boiler fired by hot combustion-turbine or furnace exhaust gas rather than by burners, raised in horizontal or vertical panels behind a gas turbine with one or more drum pressures and optionally reheat. Converts a gas turbine into a combined-cycle or cogeneration plant and is the deciding component for how much of the turbine exhaust energy becomes steam.
-Vendors: Babcock & Wilcox, Cleaver-Brooks, Doosan Enerbility, IHI Corporation, Sumitomo SHI FW, GE Vernova, John Zink Company, Tetra Engineering Group, Entech Products Corp (6 model lines recorded).
+Vendors: Babcock & Wilcox, Cleaver-Brooks, Doosan Enerbility, IHI Corporation, Sumitomo SHI FW, GE Vernova, John Zink (Koch Engineered Solutions), Tetra Engineering Group, Entech Products Corp (6 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -413,9 +413,9 @@ Vendors: Babcock & Wilcox, Cleaver-Brooks, Doosan Enerbility, IHI Corporation, S
 - **Babcock & Wilcox** HRSG systems, upgrades and components: reliable HRSG systems plus upgrades and replacement components — HARPs (high pressure evaporators), headers, finned tubing and other pressure parts — suitable for a wide range of combustion turbine applications
 - **Cleaver-Brooks** packaged HRSG for small turbines: state-of-the-art customized packaged heat-recovery steam generators for gas-fired turbines from 1 to 60 MW
 - **GE Vernova** Horizontal drum / horizontal once-through / vertical drum HRSG: supplementary firing, SCR/CO catalysts, bypass and modular construction; 1,300+ installed (OEM statement)
-- **John Zink Company** HRSG duct burners: LDRW, VC and Coen-casting flame holders with igniters and flame scanners
+- **John Zink (Koch Engineered Solutions)** HRSG duct burners: LDRW, VC and Coen-casting flame holders with igniters and flame scanners
 - **GE Vernova** Horizontal drum / horizontal once-through / vertical drum HRSG: supplementary firing, SCR/CO catalysts, bypass and modular construction; 1,300+ installed (OEM statement)
-- **John Zink Company** HRSG duct burners: LDRW, VC and Coen-casting flame holders with igniters and flame scanners
+- **John Zink (Koch Engineered Solutions)** HRSG duct burners: LDRW, VC and Coen-casting flame holders with igniters and flame scanners
 
 Recorded gaps:
 
@@ -425,7 +425,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Shop-assembled watertube boiler (steam and lower drum above a water-cooled membrane furnace) custom-engineered per project, with D-type and O-type two-drum layouts. The standard steam generator above the fire-tube class for refineries, petrochemical plants and industrial power, firing liquid or gaseous fuels including refinery byproduct gases.
-Vendors: Babcock & Wilcox, John Zink Company (2 model lines recorded).
+Vendors: Babcock & Wilcox, John Zink (Koch Engineered Solutions) (2 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -438,7 +438,7 @@ Vendors: Babcock & Wilcox, John Zink Company (2 model lines recorded).
 | tube specification | 2.5-1.0 in | larger tube diameter 2.5 in spaced 1 in apart contributes to faster load response (design feature) |
 
 - **Babcock & Wilcox** FM water-tube package: 8,200 to 1,200,000 lb/h across the series; D-type or O-type, single-drum or multi-drum; membrane-wall construction, fully drainable superheaters
-- **John Zink Company** Coen burners paired with B&W packages: B&W packages boilers with JZHC Coen burners under an agreement between the two companies; Coen burners installed in more than 15,000 plants
+- **John Zink (Koch Engineered Solutions)** Coen burners paired with B&W packages: B&W packages boilers with JZHC Coen burners under an agreement between the two companies; Coen burners installed in more than 15,000 plants
 
 Recorded gaps:
 
@@ -512,7 +512,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Burner installed in the gas-turbine exhaust duct to burn additional natural gas in the remaining oxygen and raise steam output. Two main forms are standard round gas burners and linear grid burners spanning the duct. Installed in the transition duct before the lead tube bank or between superheater stages, with flame holders, pilots, igniters and flame scanners.
-Vendors: John Zink Company, Cleaver-Brooks, Entech Products Corp (3 model lines recorded).
+Vendors: John Zink (Koch Engineered Solutions), Cleaver-Brooks, Entech Products Corp (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -525,8 +525,8 @@ Vendors: John Zink Company, Cleaver-Brooks, Entech Products Corp (3 model lines 
 | US combined-cycle capacity with duct burners | 208 GW | About 208 GW of the 278 GW US combined-cycle fleet, EIA-860/EIA-923 data, article June 2022 |
 | capacity factor with versus without duct firing | 47-59 % | EIA 2020: 59% for plants with duct firing versus 47% without; fleet average 56% |
 
-- **John Zink Company** ProLine in-line duct burner: 0.03 lb/MMBtu NOx and CO, to 5 MMBtu/hr/ft, 20:1 turndown
-- **John Zink Company** Duct-burner flame holders: LDRW low-draft reverse wing, VC V-cone tip wing and Coen castings, with igniters and flame scanners
+- **John Zink (Koch Engineered Solutions)** ProLine in-line duct burner: 0.03 lb/MMBtu NOx and CO, to 5 MMBtu/hr/ft, 20:1 turndown
+- **John Zink (Koch Engineered Solutions)** Duct-burner flame holders: LDRW low-draft reverse wing, VC V-cone tip wing and Coen castings, with igniters and flame scanners
 - **Cleaver-Brooks** Natcom duct burner: 10-500 MMBtu/hr, under 7 ppm NOx / under 50 ppm CO
 
 Recorded gaps:
@@ -537,7 +537,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Burner that stages fuel and air, delays mixing or recirculates flue gas to lower flame temperature and NOx formation. Package gas burners span roughly 10-500 MMBtu/hr with 10:1 turndown; ultra-low-NOx versions reach single-digit ppm NOx with flue-gas recirculation or surface-stabilised premixed combustion. Used on fire-tube, water-tube and hot-water boilers and on refinery fired heaters.
-Vendors: Cleaver-Brooks, Zeeco, John Zink Company, ALZETA, Miura Boiler (4 model lines recorded).
+Vendors: Cleaver-Brooks, Zeeco, John Zink (Koch Engineered Solutions), ALZETA, Miura Boiler (4 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -554,7 +554,7 @@ Vendors: Cleaver-Brooks, Zeeco, John Zink Company, ALZETA, Miura Boiler (4 model
 
 - **Cleaver-Brooks** ProFire SBR-30 / SBR-5: 16.8-54.6 and 10.5-42 MMBtu/hr; 10:1; 30 ppm without FGR / 5 ppm with FGR
 - **Zeeco** PLN / GO: 2.5-63 MMBtu/hr; 10:1; 9-40 ppm versus excess air (PLN), 30 ppm at 15% excess air (GO)
-- **John Zink Company** ECOjet Edge+: as low as 15 ppm NOx without FGR in select applications; natural gas to 100% hydrogen
+- **John Zink (Koch Engineered Solutions)** ECOjet Edge+: as low as 15 ppm NOx without FGR in select applications; natural gas to 100% hydrogen
 - **ALZETA** surface-stabilised premix: below 5 ppm corrected to 3% O2
 
 Recorded gaps:
@@ -607,6 +607,352 @@ Recorded gaps:
 - Condenser duty, heat transfer area, tube material/dimensions, approach temperature — Read a carbamate condenser datasheet or licensor technical paper.
 - Condenser duty, heat transfer area, tube material/dimensions, approach temperature — Read a carbamate condenser datasheet or licensor technical paper.
 
+## cf-system
+
+### Compressor drivers, sealing and auxiliary systems (cf-compressor-drivers-sealing-and-auxiliary-systems)
+
+Primary code: PWR: Power and renewables
+Provide shaft power, prevent process-gas leakage to atmosphere, and support lube/seal-oil and capacity control. On offshore platforms electric motors or gas turbines are most common; steam turbines are offered as integrated drivers on some turbo compressors.
+Vendors: CPI by Howden, Howden Turbo UK (Peter Brotherhood) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Howden steam turbine power range | 75-40000 kW | Howden steam turbines 75 kW to 40 MWe; mechanical drive for rotating equipment 10 kW to 40 MW; inlet pressures to 70 bar |
+| Packing vent-gas reduction | 20173000 Nm3 prevented | Howden/CPI EMISSIONGUARD TR2 packing rings stated to have prevented an estimated 20,173,000 Nm3 (693,144,000 scf) of vented gas, equivalent to 60,500 t CO2 |
+| Compressor improvement standard | API 618 standard | Howden lists N2 buffer system per API 618 and 'compressor improvements API 618' in revamp services |
+
+
+Recorded gaps:
+
+- Named compressor train with driver power, seal type and auxiliaries for an offshore gas export duty — Fetch a Siemens Energy or GE Vernova compressor-train data sheet and an FPSO topsides equipment list
+- Named compressor train with driver power, seal type and auxiliaries for an offshore gas export duty — Fetch a Siemens Energy or GE Vernova compressor-train data sheet and an FPSO topsides equipment list
+
+### Diesel engine generator sets (cf-diesel-engine-generator-sets-offshore-and-onshore-4cb391)
+
+Primary code: PWR: Power and renewables
+Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-power-to-weight packages are favoured offshore; paralleling and system controls are provided by integrated power systems.
+Vendors: Cummins Inc., Rolls-Royce Power Systems (mtu), Caterpillar, INNIO / Wartsila (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Cummins diesel genset rating range | 15-3750 kVA | Cummins APAC diesel generator page: 'generator sets from 15 - 3750 kVA'; 50/60 Hz quiet and standard product families |
+| Cummins start/load acceptance | <10 seconds to assume load | Cummins commercial generators 'start and assume load in less than 10 seconds, and rated load in a single step' |
+| Cummins natural-gas genset range | 13-2000 kW | Cummins generators overview: natural gas generator sets 13 to 2000 kW; diesel 15-3750 kVA; HVO-capable |
+| MTU diesel genset portfolio ceiling | 3250 kWe @60 Hz | MTU diesel generator set page: 'up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz)'; 85% load factor standby, 75% prime |
+| MTU Series 2000 rating | 680-1250 kWe @60 Hz (770-1400 kVA @50 Hz) | MTU diesel generator sets page series table |
+| MTU offshore design basis | classified by all major classification societies qualitative | MTU offshore O&G solutions: compact, high power-to-weight gensets; backup/standby/continuous power; emergency supply and fire-extinguishing pumps; mud pumps/frac drives; explosion-risk safety designs and certifications such as NFPA 20 |
+
+
+Recorded gaps:
+
+- Numeric EPA Tier 4 Final / EU Stage V emission limits for nonroad diesel gensets (g/kWh NOx, PM) and applicability dates — Fetch the current EPA nonroad diesel rule page and the EU mobile-machinery regulation page directly, then record exact limits and dates
+- Paralleling/load-sharing and black-start control architecture for a named offshore platform — Fetch an OEM integrated power-system or operator case study
+- Offshore genset derating at ambient/altitude and exact per-model offshore ratings — Fetch mtu/Cummins offshore specification sheets
+
+### Diesel engine generator sets (cf-diesel-engine-generator-sets-offshore-and-onshore)
+
+Primary code: PWR: Power and renewables
+Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-power-to-weight packages are favoured offshore; paralleling and system controls are provided by integrated power systems.
+Vendors: Cummins Inc., Rolls-Royce Power Systems (mtu), Caterpillar, INNIO / Wartsila (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Cummins diesel genset rating range | 15-3750 kVA | Cummins APAC diesel generator page: 'generator sets from 15 - 3750 kVA'; 50/60 Hz quiet and standard product families |
+| Cummins start/load acceptance | <10 seconds to assume load | Cummins commercial generators 'start and assume load in less than 10 seconds, and rated load in a single step' |
+| Cummins natural-gas genset range | 13-2000 kW | Cummins generators overview: natural gas generator sets 13 to 2000 kW; diesel 15-3750 kVA; HVO-capable |
+| MTU diesel genset portfolio ceiling | 3250 kWe @60 Hz | MTU diesel generator set page: 'up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz)'; 85% load factor standby, 75% prime |
+| MTU Series 2000 rating | 680-1250 kWe @60 Hz (770-1400 kVA @50 Hz) | MTU diesel generator sets page series table |
+| MTU offshore design basis | classified by all major classification societies qualitative | MTU offshore O&G solutions: compact, high power-to-weight gensets; backup/standby/continuous power; emergency supply and fire-extinguishing pumps; mud pumps/frac drives; explosion-risk safety designs and certifications such as NFPA 20 |
+
+
+Recorded gaps:
+
+- Numeric EPA Tier 4 Final / EU Stage V emission limits for nonroad diesel gensets (g/kWh NOx, PM) and applicability dates — Fetch the current EPA nonroad diesel rule page and the EU mobile-machinery regulation page directly, then record exact limits and dates
+- Paralleling/load-sharing and black-start control architecture for a named offshore platform — Fetch an OEM integrated power-system or operator case study
+- Offshore genset derating at ambient/altitude and exact per-model offshore ratings — Fetch mtu/Cummins offshore specification sheets
+
+### Flare gas recovery (cf-flare-gas-recovery-fgr-and-enclosed-ground-flare-packages-047094)
+
+Primary code: PWR: Power and renewables
+Captures gas that would otherwise be flared, using a liquid seal vessel for backpressure control and flashback prevention, plus compression (ejector or compressor) and optional H2S sweetening. Reduces emissions, light, noise and odour and extends flare tip life.
+Vendors: John Zink (Koch Engineered Solutions) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| FGR application scope | refineries to FPSO offshore platforms qualitative | John Zink states FGR systems are 'custom-engineered' for applications from petroleum refineries to FPSO offshore platforms |
+| FGR emissions reduced | NOx, CO, CO2, SOx qualitative | John Zink FGR benefit statement; also reduces purchased fuel gas and steam and can lower carbon taxes/fines |
+| Ground flare heat/visibility control | refractory-lined steel box or cylinder qualitative | Ground flares hide the flame and reduce thermal radiation and noise; open at top with base air openings; multiple tips for turndown; used onshore in sensitive areas and on FPSOs |
+
+
+Recorded gaps:
+
+- Named FGR installation with recovered gas flow, seal pressure and payback — Fetch an operator or John Zink FGR case study with data
+
+### Flare gas recovery (cf-flare-gas-recovery-fgr-and-enclosed-ground-flare-packages)
+
+Primary code: PWR: Power and renewables
+Captures gas that would otherwise be flared, using a liquid seal vessel for backpressure control and flashback prevention, plus compression (ejector or compressor) and optional H2S sweetening. Reduces emissions, light, noise and odour and extends flare tip life.
+Vendors: John Zink (Koch Engineered Solutions) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| FGR application scope | refineries to FPSO offshore platforms qualitative | John Zink states FGR systems are 'custom-engineered' for applications from petroleum refineries to FPSO offshore platforms |
+| FGR emissions reduced | NOx, CO, CO2, SOx qualitative | John Zink FGR benefit statement; also reduces purchased fuel gas and steam and can lower carbon taxes/fines |
+| Ground flare heat/visibility control | refractory-lined steel box or cylinder qualitative | Ground flares hide the flame and reduce thermal radiation and noise; open at top with base air openings; multiple tips for turndown; used onshore in sensitive areas and on FPSOs |
+
+
+Recorded gaps:
+
+- Named FGR installation with recovered gas flow, seal pressure and payback — Fetch an operator or John Zink FGR case study with data
+
+### Flare stack / boom system with knockout drum, seal drum, flare tips, pilots and ignition (cf-flare-stack-boom-system-with-knockout-drum-seal-drum-flare-tip)
+
+Primary code: PWR: Power and renewables
+Safely disposes of relieved and waste gas from PSVs and shutdowns. Header routes gas to a KO (vapour-liquid separator) drum, then a water/liquid seal drum preventing flashback, then an elevated stack or ground flare with pilots and continuous ignition. Stack height or boom reach is set by permissible thermal radiation.
+Vendors: John Zink (Koch Engineered Solutions), FlareTech, Zeto (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Continuous personnel thermal radiation limit | 1.58 kW/m2 | Recommended maximum for continuous exposure of personnel wearing appropriate industrial clothing; 500 Btu/hr.ft2 |
+| Short-exposure thermal radiation (3-4 min) | 4.73 kW/m2 | 4.73 kW/m2 (1500 Btu/hr.ft2) limits exposure to 3-4 minutes |
+| Short-exposure thermal radiation (30 s) | 6.31 kW/m2 | 6.31 kW/m2 (2000 Btu/hr.ft2) limits exposure to 30 seconds |
+| Sonic flare tip upstream pressure threshold | 5-? bar (greater than) | Wikipedia gas-flare tip configurations: 'sonic tip - upstream pressure >5 bar' |
+| Enclosed biogas flare combustion temperature | 1000-1200 degC | Flare specification for enclosed flares: >1000 and <1200 degC to ensure 98% destruction efficiency and avoid NOx formation; 0.3 s residence time in chimney |
+| Flare destruction efficiency (LRGO multi-point ground flare) | 99.5-? % (typically greater than) | John Zink LRGO: 'highest destruction efficiency (typically >99.5%) of any flare type'; API 537 compliance available |
+
+
+Recorded gaps:
+
+- Direct text of API Std 521 and API Std 537 (edition, scope, definitive radiation/noise limits) — Use the API webstore or IBR reading room; record exact edition and clause before citing limits as normative
+- ISO 25457 scope, edition and relationship to API 537 — Locate the correct ISO catalogue record via iso.org search and fetch it
+- Quantified flare noise limits and flare-stack height design method — Fetch a dedicated flare-noise/stack-height engineering reference or an operator design standard
+- KO drum and seal drum sizing rules (holdup, residence time, diameter) — Fetch API 521 text or an engineering-design reference with worked sizing
+- Direct text of API Std 521 and API Std 537 (edition, scope, definitive radiation/noise limits) — Use the API webstore or IBR reading room; record exact edition and clause before citing limits as normative
+- ISO 25457 scope, edition and relationship to API 537 — Locate the correct ISO catalogue record via iso.org search and fetch it
+
+### Floating / offshore solar PV (cf-floating-offshore-solar-pv-fpv-and-hybridisation-9b286c)
+
+Primary code: PWR: Power and renewables
+PV mounted on buoyant structures over water; relevant to offshore/nearshore facilities where land is unavailable. Water cooling can improve yield; salt-water installations need corrosion resistance, wave/wind design and robust anchoring.
+Vendors: Sungrow, Oceans of Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Sungrow FPV global installed capacity | 4-? GW (greater than) | Sungrow floating PV page: 'With Over 4GW of Floating PV Application'; No.1 global market share stated; 290+ patents |
+| Sungrow Cirata FPV project | 192 MW | Sungrow FPV case: world's largest floating PV project at a hydroelectric power station, Cirata, Indonesia, reservoir, 192 MW |
+| Global installed FPV capacity | 13 GW in 2022 | Wikipedia floating solar: grew from 3 GW in 2020 to 13 GW in 2022; World Bank estimates >4,000 GW technical capacity at 10% coverage of 6,600 large water bodies |
+| FPV energy-yield gain from water cooling | 5-15 % | Wikipedia floating solar 'cooling effect of the water ... leads to an energy gain that ranges from 5% to 15%' |
+| FPV installation cost premium | 10-25 % higher than ground-mount (2023) | Wikipedia floating solar: 'installation was about 10-25% higher in 2023', attributed mainly to anchoring (NREL researcher) |
+| First offshore FPV at sea | 15 kWp pilot, Maldives, 2014 | Wikipedia: Swimsol installed world's first offshore floating solar PV at sea, 15 kWp pilot in Maldives with TU Wien and Fraunhofer; 2019 Oceans of Energy first open rough-sea North Sea farm |
+
+
+Recorded gaps:
+
+- Verified offshore FPV installation on an operating oil & gas platform, with MW and metocean design basis — Search operator/engineering pages for an offshore platform PV pilot and fetch a data sheet
+- Reconciliation of conflicting FPV yield-gain figures (5-15% vs 0.6-4.4%) — Fetch the underlying peer-reviewed LCA/yield papers cited in that page
+
+### Floating / offshore solar PV (cf-floating-offshore-solar-pv-fpv-and-hybridisation)
+
+Primary code: PWR: Power and renewables
+PV mounted on buoyant structures over water; relevant to offshore/nearshore facilities where land is unavailable. Water cooling can improve yield; salt-water installations need corrosion resistance, wave/wind design and robust anchoring.
+Vendors: Sungrow, Oceans of Energy (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Sungrow FPV global installed capacity | 4-? GW (greater than) | Sungrow floating PV page: 'With Over 4GW of Floating PV Application'; No.1 global market share stated; 290+ patents |
+| Sungrow Cirata FPV project | 192 MW | Sungrow FPV case: world's largest floating PV project at a hydroelectric power station, Cirata, Indonesia, reservoir, 192 MW |
+| Global installed FPV capacity | 13 GW in 2022 | Wikipedia floating solar: grew from 3 GW in 2020 to 13 GW in 2022; World Bank estimates >4,000 GW technical capacity at 10% coverage of 6,600 large water bodies |
+| FPV energy-yield gain from water cooling | 5-15 % | Wikipedia floating solar 'cooling effect of the water ... leads to an energy gain that ranges from 5% to 15%' |
+| FPV installation cost premium | 10-25 % higher than ground-mount (2023) | Wikipedia floating solar: 'installation was about 10-25% higher in 2023', attributed mainly to anchoring (NREL researcher) |
+| First offshore FPV at sea | 15 kWp pilot, Maldives, 2014 | Wikipedia: Swimsol installed world's first offshore floating solar PV at sea, 15 kWp pilot in Maldives with TU Wien and Fraunhofer; 2019 Oceans of Energy first open rough-sea North Sea farm |
+
+
+Recorded gaps:
+
+- Verified offshore FPV installation on an operating oil & gas platform, with MW and metocean design basis — Search operator/engineering pages for an offshore platform PV pilot and fetch a data sheet
+- Reconciliation of conflicting FPV yield-gain figures (5-15% vs 0.6-4.4%) — Fetch the underlying peer-reviewed LCA/yield papers cited in that page
+
+### Gas export / reinforcement centrifugal compressor train (cf-gas-export-reinforcement-centrifugal-compressor-train-integral-a5a9f5)
+
+Primary code: PWR: Power and renewables
+Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty; drivers are electric motors or steam/gas turbines, with dry gas seals and oil systems as auxiliaries.
+Vendors: Howden (a Chart Industries company; KK&K, CKD brands), Siemens Energy (incl. ex-Dresser-Rand), GE Vernova / Baker Hughes (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Single-stage flow range | 1500-600000 m3/h | Howden/KK&K single-stage centrifugal model range (SF 15,000-600,000; SFG 5,000-300,000; ST 1,500-150,000; SL 15,000-450,000 m3/h), pressure ratio up to 3.5 |
+| Multistage flow range | 400-200000 m3/h | Howden/KK&K + CKD multistage range (RS 400-65,000; RV 400-85,000 / 400-170,000 back-to-back), pressure ratio up to 10.0 |
+| Periflow maximum discharge pressure | 350 bar | Howden Periflow compressor performance, capacity flow 10-20,000 m3/h, variable speed 1000-6000 rpm |
+| Compressor design life / installed base | 4000 installations | Howden industrial centrifugal turbo compressors, 'proven over 100 years and 4000 installations' |
+| Screw compressors in FLNG service | Howden states screw compressors 'selected for a number of FLNG projects for t... | Howden states screw compressors 'selected for a number of FLNG projects for their compact design, high performance and reliability' (FLNGscrewcompressor.pdf listed on page); no numeric rating printed on fetched page |
+
+
+Recorded gaps:
+
+- Named offshore/onshore gas-export compressor train with duty (MMSCFD, suction/discharge bar, absorbed MW) and driver — Fetch Siemens Energy 'compression' product pages and a named operator/EPC case study with an equipment data sheet
+- Dry-gas seal and wet-seal leakage / seal-gas consumption figures for export compressors — Fetch a dry-gas seal OEM data sheet (e.g. Flowserve/John Crane) and Howden/CPI sealing bulletin
+
+### Gas export / reinforcement centrifugal compressor train (cf-gas-export-reinforcement-centrifugal-compressor-train-integral)
+
+Primary code: PWR: Power and renewables
+Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty; drivers are electric motors or steam/gas turbines, with dry gas seals and oil systems as auxiliaries.
+Vendors: Howden (a Chart Industries company; KK&K, CKD brands), Siemens Energy (incl. ex-Dresser-Rand), GE Vernova / Baker Hughes (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Single-stage flow range | 1500-600000 m3/h | Howden/KK&K single-stage centrifugal model range (SF 15,000-600,000; SFG 5,000-300,000; ST 1,500-150,000; SL 15,000-450,000 m3/h), pressure ratio up to 3.5 |
+| Multistage flow range | 400-200000 m3/h | Howden/KK&K + CKD multistage range (RS 400-65,000; RV 400-85,000 / 400-170,000 back-to-back), pressure ratio up to 10.0 |
+| Periflow maximum discharge pressure | 350 bar | Howden Periflow compressor performance, capacity flow 10-20,000 m3/h, variable speed 1000-6000 rpm |
+| Compressor design life / installed base | 4000 installations | Howden industrial centrifugal turbo compressors, 'proven over 100 years and 4000 installations' |
+| Screw compressors in FLNG service | Howden states screw compressors 'selected for a number of FLNG projects for t... | Howden states screw compressors 'selected for a number of FLNG projects for their compact design, high performance and reliability' (FLNGscrewcompressor.pdf listed on page); no numeric rating printed on fetched page |
+
+
+Recorded gaps:
+
+- Named offshore/onshore gas-export compressor train with duty (MMSCFD, suction/discharge bar, absorbed MW) and driver — Fetch Siemens Energy 'compression' product pages and a named operator/EPC case study with an equipment data sheet
+- Dry-gas seal and wet-seal leakage / seal-gas consumption figures for export compressors — Fetch a dry-gas seal OEM data sheet (e.g. Flowserve/John Crane) and Howden/CPI sealing bulletin
+
+### High-pressure / hermetic injection compressors (cf-high-pressure-hermetic-injection-compressors-diaphragm-hybrid-ce91d6)
+
+Primary code: PWR: Power and renewables
+Handles high-pressure, toxic, flammable or high-purity gases where hermetic separation or zero leakage is required; applicable to CO2 injection and hydrogen compression packages as well as specialty gas service.
+Vendors: Ariel Corporation, Howden / Burton Corblin (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Ariel KBH suction pressure | 25 bar | Ariel KBH hydrogen compressor suction 370 psig (25 bar) |
+| Ariel KBH discharge pressure | 500 bar | Ariel KBH discharge 7,250 psig (500 bar); flow at design point 250 kg/h; stroke 4.25 in (108 mm); max 1000 rpm |
+| Howden hybrid pressure increase | 450 bar | Howden hybrid reciprocating compressor, horizontal or vertical, up to five compression stages, with inter-stage cooling and condensate purging; suitable for virtually all dry gases incl. helium, hydrogen, nitrogen |
+| Diaphragm compressor package electrolyser sizing | 5-10 MW | Howden TFC90 and TFC180 standardised diaphragm compressor packages designed for 5 MW and 10 MW electrolyser modules; skid mounted, zero process-gas leakage |
+
+
+Recorded gaps:
+
+- CO2 injection compressor duty, material selection and phase behaviour (dense/supercritical CO2) for a named CCS/EOR project — Fetch an OEM CO2 compressor page (e.g. Siemens/man-es-oss or Ariel CO2 bulletin) and a named CO2-EOR injection case study
+- Seal leakage rate and seal-gas consumption for high-pressure hydrogen/CO2 packages — Fetch CPI/Howden sealing bulletin or a dry-gas seal data sheet
+
+### High-pressure / hermetic injection compressors (cf-high-pressure-hermetic-injection-compressors-diaphragm-hybrid)
+
+Primary code: PWR: Power and renewables
+Handles high-pressure, toxic, flammable or high-purity gases where hermetic separation or zero leakage is required; applicable to CO2 injection and hydrogen compression packages as well as specialty gas service.
+Vendors: Ariel Corporation, Howden / Burton Corblin (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Ariel KBH suction pressure | 25 bar | Ariel KBH hydrogen compressor suction 370 psig (25 bar) |
+| Ariel KBH discharge pressure | 500 bar | Ariel KBH discharge 7,250 psig (500 bar); flow at design point 250 kg/h; stroke 4.25 in (108 mm); max 1000 rpm |
+| Howden hybrid pressure increase | 450 bar | Howden hybrid reciprocating compressor, horizontal or vertical, up to five compression stages, with inter-stage cooling and condensate purging; suitable for virtually all dry gases incl. helium, hydrogen, nitrogen |
+| Diaphragm compressor package electrolyser sizing | 5-10 MW | Howden TFC90 and TFC180 standardised diaphragm compressor packages designed for 5 MW and 10 MW electrolyser modules; skid mounted, zero process-gas leakage |
+
+
+Recorded gaps:
+
+- CO2 injection compressor duty, material selection and phase behaviour (dense/supercritical CO2) for a named CCS/EOR project — Fetch an OEM CO2 compressor page (e.g. Siemens/man-es-oss or Ariel CO2 bulletin) and a named CO2-EOR injection case study
+- Seal leakage rate and seal-gas consumption for high-pressure hydrogen/CO2 packages — Fetch CPI/Howden sealing bulletin or a dry-gas seal data sheet
+
+### Process, gas-transmission and power piping codes and pipe classes (cf-process-gas-transmission-and-power-piping-codes-and-pipe-class)
+
+Primary code: PWR: Power and renewables
+Defines materials, design, fabrication, assembly, erection, examination, inspection and testing for piping. B31.3 governs plant process piping, B31.8 gas transmission/distribution including offshore gathering appurtenances, and B31.1 power/boiler-external piping.
+Vendors: ASME, API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| B31.3 latest edition | 2024 edition year | ASME B31.3 Process Piping page states 'B31.3 - 2024' |
+| B31.8 latest edition | 2025 edition year | ASME B31.8 Gas Transmission and Distribution Piping Systems page states 'B31.8 - 2025' |
+| B31.1 latest edition | 2026 edition year | ASME B31.1 Power Piping page states 'B31.1 - 2026' |
+| B31.3 key 2024 changes | Unlisted valves, flexibility/SIF, impact testing, flange attachment welds, heat treatment, high-pressure fluid service design & fatigue clause list | ASME B31.3 product page 'Key changes' list with paragraph references (307, 319 & 320, 323.2.2/323.3.1, 328.5.2, 330.1/331.1, K302.3.2, K302.3/K304.8) |
+| B31.1 key 2026 changes | Appendices Q/R, B31J reference, joint exposure during pressure test, wind/earthquake factors, API 579-1/ASME FFS-1 reference clause list | ASME B31.1 product page 'Key changes' list |
+
+
+Recorded gaps:
+
+- Full normative text and allowable stress tables of B31.3/B31.8/B31.1 — Procurement of standards; do not infer allowable stresses from public pages
+- Typical offshore vs onshore piping class differences (materials, corrosion allowance, supports, insulation, expansion) — Fetch a project piping specification or a recognised piping-engineering reference (e.g. ASTM/API material specs, offshore operator standard)
+- Valve, flange and fitting standards (API 600/602/605, ASME B16.5/B16.9, MSS) and their numeric dimensions/ratings — Fetch ASME/API product pages for the specific component standards
+- Full normative text and allowable stress tables of B31.3/B31.8/B31.1 — Procurement of standards; do not infer allowable stresses from public pages
+- Typical offshore vs onshore piping class differences (materials, corrosion allowance, supports, insulation, expansion) — Fetch a project piping specification or a recognised piping-engineering reference (e.g. ASTM/API material specs, offshore operator standard)
+
+### Reciprocating gas compressor frames (cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio-e3043e)
+
+Primary code: PWR: Power and renewables
+Positive-displacement compression where high pressure ratio, turndown or intermittent duty is required. Ariel frames are separable, engine- or motor-driven, with high-pressure cylinders for gas lift, gas reinjection and CNG; large frames are recommended for pipeline transmission and high-pressure injection.
+Vendors: Ariel Corporation, Howden / Peter Brotherhood (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Small-frame rated power (1-throw / 2-throw) | 126-280 BHP | Ariel JGN/JGQ, 1 throw JGN 126 BHP @1500 rpm, JGQ 140 BHP @1800 rpm; 2 throw JGN 252 BHP, JGQ 280 BHP. Rod load 18,000-20,000 lb; stroke 3.5 in (JGN) / 3.0 in (JGQ) |
+| Large-frame rated power | 6668-10000 BHP | Ariel KBB/KBV, 4-throw 6668 BHP and 6-throw 10,000 BHP; stroke 7.25 in (KBB) / 8.50 in (KBV); total rod load 190,000 lb; max 900/750 rpm |
+| Reciprocating compressor power rating | 20 MW | Howden / Peter Brotherhood reciprocating compressors rated to 20 MW, operating 260-1000 rpm |
+| Compressors manufactured | 70000 units since 1966 | Ariel '70,000+ compressors manufactured since 1966'; 550+ cylinder-to-frame combinations |
+| Downstream rod-load limit | 10000 lbf | Ariel process/refining/chemical compressors 'rod load up to 10,000 lbs' |
+
+
+Recorded gaps:
+
+- Actual gas-lift / reinjection discharge pressures and capacities for Ariel frames in named fields — Fetch Ariel product spec-sheet PDFs and an operator gas-lift case study
+
+### Reciprocating gas compressor frames (cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio)
+
+Primary code: PWR: Power and renewables
+Positive-displacement compression where high pressure ratio, turndown or intermittent duty is required. Ariel frames are separable, engine- or motor-driven, with high-pressure cylinders for gas lift, gas reinjection and CNG; large frames are recommended for pipeline transmission and high-pressure injection.
+Vendors: Ariel Corporation, Howden / Peter Brotherhood (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Small-frame rated power (1-throw / 2-throw) | 126-280 BHP | Ariel JGN/JGQ, 1 throw JGN 126 BHP @1500 rpm, JGQ 140 BHP @1800 rpm; 2 throw JGN 252 BHP, JGQ 280 BHP. Rod load 18,000-20,000 lb; stroke 3.5 in (JGN) / 3.0 in (JGQ) |
+| Large-frame rated power | 6668-10000 BHP | Ariel KBB/KBV, 4-throw 6668 BHP and 6-throw 10,000 BHP; stroke 7.25 in (KBB) / 8.50 in (KBV); total rod load 190,000 lb; max 900/750 rpm |
+| Reciprocating compressor power rating | 20 MW | Howden / Peter Brotherhood reciprocating compressors rated to 20 MW, operating 260-1000 rpm |
+| Compressors manufactured | 70000 units since 1966 | Ariel '70,000+ compressors manufactured since 1966'; 550+ cylinder-to-frame combinations |
+| Downstream rod-load limit | 10000 lbf | Ariel process/refining/chemical compressors 'rod load up to 10,000 lbs' |
+
+
+Recorded gaps:
+
+- Actual gas-lift / reinjection discharge pressures and capacities for Ariel frames in named fields — Fetch Ariel product spec-sheet PDFs and an operator gas-lift case study
+
+### Solar PV modules and inverters (cf-solar-pv-modules-and-inverters-onshore-gas-plant-and-remote-hy-fa78bf)
+
+Primary code: PWR: Power and renewables
+Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and string/modular inverters are the core hardware.
+Vendors: LONGi, Sungrow, SolarEdge, Trina Solar (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| LONGi Hi-MO 9 module maximum power | 670 W | LONGi Hi-MO 9 product page 'Up to 670 W'; HPBC 2.0 technology, 0BB front design |
+| LONGi Hi-MO 9 module efficiency | 24.8 % | LONGi Hi-MO 9 'Module efficiency of up to 24.8%' |
+| LONGi Hi-MO 9 STC Pmax (LR7-72HYD-660M) | 660 W | STC table: Voc 54.00 V, Isc 15.41 A, Vmp 44.85 V, Imp 14.72 A |
+| LONGi Hi-MO 9 mechanical dimensions and mass | 2382 x 1134 x 30 mm (33.5 kg) | Mechanical parameters: 144 cells (6x24), split junction box IP68 with 3 diodes; 36 pcs/pallet, 720 pcs/40HC |
+| LONGi Hi-MO 9 mechanical load | 2400-5400 Pa | Max static load front 5400 Pa (snow/wind), back 2400 Pa (wind) |
+| Sungrow product categories | string inverter, modular inverter, MLPE, floating PV system, ESS, EV charger category list | Sungrow products page lists these categories; company states No.1 PV inverter shipment in 2025 (S&P Global estimate cited) |
+
+
+Recorded gaps:
+
+- Named diesel-solar hybrid installation for a remote oil & gas platform/plant with PV MW, diesel MW and fuel-saving figure — Fetch an operator/OEM hybrid-power case study with numeric capacity and diesel displacement
+- Onshore solar capacity at a named gas processing plant — Locate and fetch a gas-plant PV project page
+
+### Solar PV modules and inverters (cf-solar-pv-modules-and-inverters-onshore-gas-plant-and-remote-hy)
+
+Primary code: PWR: Power and renewables
+Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and string/modular inverters are the core hardware.
+Vendors: LONGi, Sungrow, SolarEdge, Trina Solar (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| LONGi Hi-MO 9 module maximum power | 670 W | LONGi Hi-MO 9 product page 'Up to 670 W'; HPBC 2.0 technology, 0BB front design |
+| LONGi Hi-MO 9 module efficiency | 24.8 % | LONGi Hi-MO 9 'Module efficiency of up to 24.8%' |
+| LONGi Hi-MO 9 STC Pmax (LR7-72HYD-660M) | 660 W | STC table: Voc 54.00 V, Isc 15.41 A, Vmp 44.85 V, Imp 14.72 A |
+| LONGi Hi-MO 9 mechanical dimensions and mass | 2382 x 1134 x 30 mm (33.5 kg) | Mechanical parameters: 144 cells (6x24), split junction box IP68 with 3 diodes; 36 pcs/pallet, 720 pcs/40HC |
+| LONGi Hi-MO 9 mechanical load | 2400-5400 Pa | Max static load front 5400 Pa (snow/wind), back 2400 Pa (wind) |
+| Sungrow product categories | string inverter, modular inverter, MLPE, floating PV system, ESS, EV charger category list | Sungrow products page lists these categories; company states No.1 PV inverter shipment in 2025 (S&P Global estimate cited) |
+
+
+Recorded gaps:
+
+- Named diesel-solar hybrid installation for a remote oil & gas platform/plant with PV MW, diesel MW and fuel-saving figure — Fetch an operator/OEM hybrid-power case study with numeric capacity and diesel displacement
+- Onshore solar capacity at a named gas processing plant — Locate and fetch a gas-plant PV project page
+
 ## chemical-dosing
 
 ### Boiler water chemical dosing (boiler-chemical-dosing)
@@ -645,7 +991,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Store and deliver aqueous ammonia (or anhydrous ammonia / urea) to an ammonia injection grid (AIG) upstream of the SCR catalyst; tuning of AIG distribution controls NOx removal, ammonia slip and downstream ammonium bisulfate (ABS) / ammonium sulfate (AS) deposition on air-preheater or HRSG tube surfaces. Flow-correction devices (turning vanes, static mixers, graduated straightening grids) and CFD are used to obtain uniform NH3/NOx distribution.
-Vendors: Concord Environmental, Fuel Tech, John Zink Company, Cleaver-Brooks, Zeeco (0 model lines recorded).
+Vendors: Concord Environmental, Fuel Tech, John Zink (Koch Engineered Solutions), Cleaver-Brooks, Zeeco (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -678,6 +1024,372 @@ Recorded gaps:
 
 - Measured COP and heat-recovery rate for absorption chillers coupled specifically to a named gas engine model at a data centre — Request thermodynamic datasheet from engine OEM and chiller vendor for a specific engine exhaust mass flow/temperature
 - Thermax capacity discrepancy (30-3000 TR header vs 50-3000 TR table) — Query Thermax for a certified capacity table; do not choose either value silently
+
+## ci-system
+
+### Analysers (ci-analysers-gas-and-liquid-35ae64)
+
+Primary code: UPS: Upstream
+Online composition and quality measurement for process and emissions monitoring.
+Vendors: Yokogawa Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| product families attested by catalogue | Gas Analyzers, Liquid Analyzers, Analyzer System; Advanced Analytical Instrument Management System (AMADAS) families | Yokogawa product catalogue navigation |
+
+
+### Analysers (ci-analysers-gas-and-liquid)
+
+Primary code: UPS: Upstream
+Online composition and quality measurement for process and emissions monitoring.
+Vendors: Yokogawa Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| product families attested by catalogue | Gas Analyzers, Liquid Analyzers, Analyzer System; Advanced Analytical Instrument Management System (AMADAS) families | Yokogawa product catalogue navigation |
+
+
+### Calibration and field device management (ci-calibration-and-field-device-management)
+
+Primary code: UPS: Upstream
+Configuration, calibration, proof testing and asset management of field instruments across their lifecycle.
+Vendors: Yokogawa Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| tool types attested | Pressure Calibrators, Device Smart Communicators, FieldMate, Plant Resource Manager (PRM), Field Asset Analytics (InsightSuiteAE) tools | Yokogawa product catalogue navigation |
+| temporary masters on FOUNDATION Fieldbus | handheld field communicators, laptops/tablets, documenting calibrators tool types | FieldComm Group Foundation Fieldbus page |
+
+
+### Control valves and actuators (ci-control-valves-and-actuators)
+
+Primary code: UPS: Upstream
+Final control elements modulating or isolating process flow, driven by pneumatic/electric/hydraulic actuators; safety-rated versions used in ESD.
+Vendors: Fisher (Emerson) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Final control elements modulating or isolating process flow, driven by pneumatic/electric/hydraulic actuators; safety-rated versions used in ESD. | Qualitative function from pages read in this sweep. |
+
+
+### Data historians / edge computing / digital twin / IIoT (ci-data-historians-edge-computing-digital-twin-iiot)
+
+Primary code: UPS: Upstream
+Time-series data capture, edge analytics, process digital twins and IIoT connectivity for optimisation and remote operations.
+Vendors: Yokogawa Electric, Honeywell (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| offering attested | Data Historian; Plant Information Management System; Process Data Analytics; OpreX Intelligent Manufacturing Hub; process digital twin for LNG plants and for oil & gas upstream; Intelligent Edge Controllers (A8) offerings | Yokogawa product/solutions catalogue navigation |
+
+
+### Field transmitters (ci-field-transmitters-pressure-temperature-flow-level-82501c)
+
+Primary code: UPS: Upstream
+Primary measurement instruments converting process variables to standard analog/digital signals for control and safety.
+Vendors: Yokogawa Electric, Emerson (duplex stainless steel option on Roxar 2600, page read) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| product families attested by catalogue | Pressure Transmitters, Flowmeters, Temperature Transmitters, Level Meters, Pressure Calibrators, Valve Manifolds families | Yokogawa product catalogue navigation (measured/field instruments and components) |
+| HART device family specifications | Temperature (HCF_SPEC-160-04), Pressure (HCF_SPEC-160-05), Level and PID Control families specifications | HART Protocol Specifications - Device Families Command Specification HCF_SPEC-160 Rev.3.0 |
+
+
+### Field transmitters (ci-field-transmitters-pressure-temperature-flow-level)
+
+Primary code: UPS: Upstream
+Primary measurement instruments converting process variables to standard analog/digital signals for control and safety.
+Vendors: Yokogawa Electric, Emerson (duplex stainless steel option on Roxar 2600, page read) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| product families attested by catalogue | Pressure Transmitters, Flowmeters, Temperature Transmitters, Level Meters, Pressure Calibrators, Valve Manifolds families | Yokogawa product catalogue navigation (measured/field instruments and components) |
+| HART device family specifications | Temperature (HCF_SPEC-160-04), Pressure (HCF_SPEC-160-05), Level and PID Control families specifications | HART Protocol Specifications - Device Families Command Specification HCF_SPEC-160 Rev.3.0 |
+
+
+### FOUNDATION Fieldbus (ci-foundation-fieldbus)
+
+Primary code: UPS: Upstream
+All-digital fieldbus for process automation with multivariable measurement, device diagnostics, control-in-the-field and integration of wireless devices.
+Vendors: FieldComm Group (specification owner) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| cable / power | two-wire twisted pair cable; intrinsically safe or non-incendive device power suitable for all hazardous areas wiring | FieldComm Group Foundation Fieldbus page |
+| registered interoperable products | 1000 products (over) | FieldComm Group 'FOUNDATION Technology Explained': 'over 1,000 registered products' interoperate across manufacturers |
+| control architecture | Control-in-the-field (CIF): field instruments can communicate directly during host system failure to maintain safe operations architecture | FieldComm Group Foundation Fieldbus page |
+| data rate | H1: 31.25 kbit/s (NOT confirmed on fetched page - record as gap) kbit/s | Not stated on fetched FieldComm overview page |
+
+
+### Gas detectors and flame detectors (ci-gas-detectors-and-flame-detectors)
+
+Primary code: UPS: Upstream
+Fixed and portable detection of combustible/toxic gas and flame, interfaced to fire & gas systems and SIS.
+Vendors: MSA, Honeywell Analytics, Dräger (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| gas/flame detection effectiveness guidance | ISA-TR84.00.07-2026: Guidance on the Evaluation of Fire, Combustible Gas, and Toxic Gas System Effectiveness - covers detection coverage, response times and system reliability technical report | ISA-84 Standards page |
+
+
+### HART (ci-hart-wired-4-20-ma-digital-protocol-171e8a)
+
+Primary code: UPS: Upstream
+Bi-directional digital communication over 4-20 mA analog current loops connecting field instruments to control/monitoring systems; preserves analog wiring while exposing diagnostics.
+Vendors: FieldComm Group (specification owner) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| installed base | 40000000 field instruments | FieldComm Group HART page: 'over 40 million field instruments supporting HART technology installed worldwide' |
+| physical medium | 4-20 mA analog current loops; instrumentation-grade wiring and standard terminations signal | FieldComm Group HART technology page |
+| specification kit size | 17 documents | HART Protocol Specifications Kit is a collection of 17 documents |
+| standards status | IEC standard; three major revisions with backward compatibility standard | FieldComm Group HART page |
+
+
+### HART (ci-hart-wired-4-20-ma-digital-protocol)
+
+Primary code: UPS: Upstream
+Bi-directional digital communication over 4-20 mA analog current loops connecting field instruments to control/monitoring systems; preserves analog wiring while exposing diagnostics.
+Vendors: FieldComm Group (specification owner) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| installed base | 40000000 field instruments | FieldComm Group HART page: 'over 40 million field instruments supporting HART technology installed worldwide' |
+| physical medium | 4-20 mA analog current loops; instrumentation-grade wiring and standard terminations signal | FieldComm Group HART technology page |
+| specification kit size | 17 documents | HART Protocol Specifications Kit is a collection of 17 documents |
+| standards status | IEC standard; three major revisions with backward compatibility standard | FieldComm Group HART page |
+
+
+### Industrial Wi-Fi / 4G / 5G / private LTE (ci-industrial-wi-fi-4g-5g-private-lte)
+
+Primary code: UPS: Upstream
+Higher-bandwidth wireless backhaul and mobile connectivity for plant and offshore platforms.
+Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Higher-bandwidth wireless backhaul and mobile connectivity for plant and offshore platforms. | Qualitative function from pages read in this sweep. |
+
+
+### Instrument cabling, junction boxes, instrument air and impulse lines (ci-instrument-cabling-junction-boxes-instrument-air-and-impulse-l)
+
+Primary code: UPS: Upstream
+Physical signal/power cabling, field junction boxes, pneumatic supply and impulse tubing connecting instruments to ICSS.
+Vendors: Yokogawa Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| fieldbus wiring | FOUNDATION Fieldbus uses two-wire twisted pair cable; intrinsically safe or non-incendive device power suitable for all hazardous areas cabling | FieldComm Group Foundation Fieldbus page |
+| wireless vs wired installation | No additional instrument wiring needed for WirelessHART; 30%-60% lower installation cost claimed vs adding traditional wired instruments % cost reduction | FieldComm Group WirelessHART page |
+| related Yokogawa components | Valve Manifolds, Current to Pneumatic Converter, Signal Conditioners, Surge Arresters, Network Converters, Multi-Sensing Remote I/O components | Yokogawa product catalogue navigation |
+
+
+### Integrated Control and Safety System (ci-integrated-control-and-safety-system-icss-dcs-1bd06b)
+
+Primary code: UPS: Upstream
+Integrated process control and safety platform for offshore and onshore plants; unifies control, safety, monitoring and enterprise data.
+Vendors: Honeywell, Siemens, Yokogawa Electric, ABB (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Honeywell installed base - refineries | 45 % of refineries | Honeywell Process Automation overview: '45% Of Refineries' |
+| Honeywell installed base - ammonia | 30 % of ammonia production | Honeywell Process Automation overview: '30% Ammonia Production' |
+| Honeywell O&G processing plants | 500 plants (over) | Honeywell overview: '>500 O&G Processing Plants' |
+| Honeywell LNG liquefaction trains | 86 trains | Honeywell overview: '86 Liquefacation trains' |
+| Honeywell LNG carriers/FSRU | 221 vessels (221+) | Honeywell overview: '221+ TLNG carriers/ FSRU vessels' |
+| Siemens PCS 7 version / cybersecurity | V10.0; NIS2-compliant; full IEC 62443-4-1 and IEC 62443-3-3 compliance standard/version | Siemens SIMATIC PCS 7 product page (fetched 2026-11-18) |
+| Siemens MTP startup improvement | 75 % (up to) | Siemens PCS 7 page: 'MTP integration for up to 75% faster startup' |
+| Siemens high-availability I/O | SIMATIC ET 200SP HA compact robust remote I/O designed for high availability product | Siemens PCS 7 product page |
+| Siemens installed base | in use in thousands of installations worldwide installations | Siemens PCS 7 product page |
+
+
+### Integrated Control and Safety System (ci-integrated-control-and-safety-system-icss-dcs)
+
+Primary code: UPS: Upstream
+Integrated process control and safety platform for offshore and onshore plants; unifies control, safety, monitoring and enterprise data.
+Vendors: Honeywell, Siemens, Yokogawa Electric, ABB (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Honeywell installed base - refineries | 45 % of refineries | Honeywell Process Automation overview: '45% Of Refineries' |
+| Honeywell installed base - ammonia | 30 % of ammonia production | Honeywell Process Automation overview: '30% Ammonia Production' |
+| Honeywell O&G processing plants | 500 plants (over) | Honeywell overview: '>500 O&G Processing Plants' |
+| Honeywell LNG liquefaction trains | 86 trains | Honeywell overview: '86 Liquefacation trains' |
+| Honeywell LNG carriers/FSRU | 221 vessels (221+) | Honeywell overview: '221+ TLNG carriers/ FSRU vessels' |
+| Siemens PCS 7 version / cybersecurity | V10.0; NIS2-compliant; full IEC 62443-4-1 and IEC 62443-3-3 compliance standard/version | Siemens SIMATIC PCS 7 product page (fetched 2026-11-18) |
+| Siemens MTP startup improvement | 75 % (up to) | Siemens PCS 7 page: 'MTP integration for up to 75% faster startup' |
+| Siemens high-availability I/O | SIMATIC ET 200SP HA compact robust remote I/O designed for high availability product | Siemens PCS 7 product page |
+| Siemens installed base | in use in thousands of installations worldwide installations | Siemens PCS 7 product page |
+
+
+### ISA100.11a (ci-isa100-11a-industrial-wireless-c7641c)
+
+Primary code: UPS: Upstream
+Wireless systems for industrial automation: process control and related applications, from non-critical monitoring to supervisory and closed-loop control.
+Vendors: ISA / ISA100 Wireless Compliance Institute (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| standard designation | ISA-100.11a-2011, Wireless Systems for Industrial Automation: Process Control and Related Applications standard | ISA-100 Series of Standards page |
+| data rate class | low-data-rate wireless communication qualitative | ISA-100.11a key focus areas |
+| application scope | monitoring, supervisory control, open-loop and closed-loop control; oil and gas listed as applicable industry scope | ISA-100 standards page, 'Versatility for Critical and Non-Critical Applications' |
+| supporting technical reports | ISA-TR100.14.01 trustworthiness; ANSI/ISA-TR100.15.01-2012 backhaul architecture over untrusted/trusted networks; ISA-TR100.20.01-2017 common network management documents | ISA-100 Series of Standards page |
+
+
+### ISA100.11a (ci-isa100-11a-industrial-wireless)
+
+Primary code: UPS: Upstream
+Wireless systems for industrial automation: process control and related applications, from non-critical monitoring to supervisory and closed-loop control.
+Vendors: ISA / ISA100 Wireless Compliance Institute (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| standard designation | ISA-100.11a-2011, Wireless Systems for Industrial Automation: Process Control and Related Applications standard | ISA-100 Series of Standards page |
+| data rate class | low-data-rate wireless communication qualitative | ISA-100.11a key focus areas |
+| application scope | monitoring, supervisory control, open-loop and closed-loop control; oil and gas listed as applicable industry scope | ISA-100 standards page, 'Versatility for Critical and Non-Critical Applications' |
+| supporting technical reports | ISA-TR100.14.01 trustworthiness; ANSI/ISA-TR100.15.01-2012 backhaul architecture over untrusted/trusted networks; ISA-TR100.20.01-2017 common network management documents | ISA-100 Series of Standards page |
+
+
+### Multiphase meters (ci-multiphase-meters)
+
+Primary code: UPS: Upstream
+Measurement of oil/water/gas flow rates without full separation, used in wellhead and subsea/onshore applications.
+Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Measurement of oil/water/gas flow rates without full separation, used in wellhead and subsea/onshore applications. | Qualitative function from pages read in this sweep. |
+
+
+### OT cybersecurity (ci-ot-cybersecurity)
+
+Primary code: UPS: Upstream
+Security of industrial automation and control systems (IACS) across the lifecycle for offshore/onshore ICSS and SCADA.
+Vendors: ISA / ISAGCA / ISCI (ISASecure), Yokogawa Electric, Honeywell (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| standard family | ISA/IEC 62443 (world's only consensus-based IACS cybersecurity standard series); IEC recognised it as a horizontal standard in 2021; endorsed by the United Nations standard | ISA/IEC 62443 Series of Standards page |
+| key parts | 62443-2-1:2024 (asset owners), 62443-3-2:2020 (risk assessment), 62443-3-3:2013 (system security requirements and security levels), 62443-4-1:2018 (secure product development), 62443-4-2:2018 (component technical requirements) standards | ISA/IEC 62443 page |
+| ISAGCA membership | 50-? member companies (more than) | ISA/IEC 62443 page: 'more than 50 member companies representing more than $1.5 trillion in aggregate revenue across more than 2,400 combined locations' and '31 different industries' |
+| Siemens PCS 7 cybersecurity | NIS2-compliant cybersecurity; IEC 62443-4-1 and IEC 62443-3-3 compliance; secure communication protocols and centralised Microsoft update deployment compliance | Siemens SIMATIC PCS 7 product page |
+
+
+### PLC / RTU / edge controllers (ci-plc-rtu-edge-controllers)
+
+Primary code: UPS: Upstream
+Local control and remote telemetry/IO for onshore well sites and offshore modules.
+Vendors: Yokogawa Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| product families attested | Programmable Logic Controllers (PLC/PAC), Process Control PLC/RTU, Intelligent Edge Controllers (A8), Single Loop Controllers families | Yokogawa product catalogue navigation |
+
+
+### Profibus / Modbus (ci-profibus-modbus-fieldbus-and-serial-protocols-620677)
+
+Primary code: UPS: Upstream
+Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments.
+Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments. | Qualitative function from pages read in this sweep. |
+
+
+### Profibus / Modbus (ci-profibus-modbus-fieldbus-and-serial-protocols)
+
+Primary code: UPS: Upstream
+Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments.
+Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments. | Qualitative function from pages read in this sweep. |
+
+
+### Safety Instrumented System (ci-safety-instrumented-system-sis-esd-fire-gas-0765e4)
+
+Primary code: UPS: Upstream
+Independent safety layer that detects hazardous conditions and drives the process to a safe state; ESD and fire & gas are core SIFs on offshore and onshore facilities.
+Vendors: Yokogawa Electric, Honeywell (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| functional safety standard (process industry) | ANSI/ISA-61511-1-2018 / IEC 61511-1:2016+AMD1:2017 CSV standard | ISA-84 Standards page: defines SIS lifecycle framework and performance targets based on Safety Integrity Levels (SIL) |
+| SIL determination guidance | ANSI/ISA-61511-3-2018 / IEC 61511-3:2016 - guidance for determination of required SIL; covers tolerable risk and methodologies standard | ISA-84 Standards page |
+| SIL verification | ISA-TR84.00.02-2022: SIL Verification of Safety Instrumented Functions - random and systematic failures, spurious trip rates, failure probabilities technical report | ISA-84 Standards page |
+| wireless in non-SIS protection layers | ISA-TR84.00.08-2017: Guidance for Application of Wireless Sensor Technology to Non-SIS Independent Protection Layers technical report | ISA-84 Standards page |
+| safety lifecycle scope | design, installation, operation, maintenance, decommissioning; plus ISA-TR84.00.09-2024 cybersecurity related to the safety lifecycle scope | ISA-84 Standards page |
+
+
+### Safety Instrumented System (ci-safety-instrumented-system-sis-esd-fire-gas)
+
+Primary code: UPS: Upstream
+Independent safety layer that detects hazardous conditions and drives the process to a safe state; ESD and fire & gas are core SIFs on offshore and onshore facilities.
+Vendors: Yokogawa Electric, Honeywell (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| functional safety standard (process industry) | ANSI/ISA-61511-1-2018 / IEC 61511-1:2016+AMD1:2017 CSV standard | ISA-84 Standards page: defines SIS lifecycle framework and performance targets based on Safety Integrity Levels (SIL) |
+| SIL determination guidance | ANSI/ISA-61511-3-2018 / IEC 61511-3:2016 - guidance for determination of required SIL; covers tolerable risk and methodologies standard | ISA-84 Standards page |
+| SIL verification | ISA-TR84.00.02-2022: SIL Verification of Safety Instrumented Functions - random and systematic failures, spurious trip rates, failure probabilities technical report | ISA-84 Standards page |
+| wireless in non-SIS protection layers | ISA-TR84.00.08-2017: Guidance for Application of Wireless Sensor Technology to Non-SIS Independent Protection Layers technical report | ISA-84 Standards page |
+| safety lifecycle scope | design, installation, operation, maintenance, decommissioning; plus ISA-TR84.00.09-2024 cybersecurity related to the safety lifecycle scope | ISA-84 Standards page |
+
+
+### Satellite and microwave link and radio telemetry (ci-satellite-and-microwave-link-and-radio-telemetry)
+
+Primary code: UPS: Upstream
+Long-haul offshore-to-shore and remote telemetry backhaul for platforms and onshore wells.
+Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| function | Long-haul offshore-to-shore and remote telemetry backhaul for platforms and onshore wells. | Qualitative function from pages read in this sweep. |
+
+
+### Telemetry & SCADA / remote monitoring (ci-telemetry-scada-remote-monitoring)
+
+Primary code: UPS: Upstream
+Remote acquisition and supervision of dispersed onshore wells/pipelines and offshore assets.
+Vendors: Yokogawa Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| telemetry/wide-area products attested | Wide Area Monitoring System; Multi-Sensing Remote I/O; Wireless Data Acquisition (920 MHz); Data Connectivity; Integrated Operations Center (IOC) for efficient remote plant operations products/solutions | Yokogawa product/solutions catalogue navigation |
+| Honeywell SCADA | Honeywell offers advanced SCADA alongside Experion PKS, bridging operations and strategy offering | Honeywell Process Automation overview page |
+
+
+### WirelessHART (ci-wirelesshart-industrial-wireless-mesh-024e52)
+
+Primary code: UPS: Upstream
+Wireless field instrumentation communications for process automation; mesh networking adds redundant routes in difficult radio environments of process facilities. Applicable offshore and onshore.
+Vendors: FieldComm Group (specification owner), Yokogawa Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| wireless mesh topology | Each device can act as a router; redundant communication routes extend range and improve reliability topology | FieldComm Group WirelessHART technology page, descriptive claim |
+| installation cost reduction vs wired instruments | 30-60 % | FieldComm Group WirelessHART page citing WirelessHART User Case Studies: '30%-60% lower installation costs than adding traditional wired instruments' |
+| RF physical layer | 2.4 GHz DSSS O-QPSK, based on IEEE STD 802.15.4-2006 2.4GHz DSSS Physical Layer GHz / modulation | HART Protocol Specifications: 2.4GHz DSSS O-QPSK Physical Layer Specification (HCF_SPEC-65 FCG TS20065) Rev. 1.1 |
+| MAC / DLL | TDMA Data-Link Layer over IEEE 802.15.4-2006 PHY; secure, reliable, error-free mesh communication protocol | HCF_SPEC-75 FCG TS20075 Rev. 1.2 (TDMA Data-Link Layer) |
+| messaging modes | one-way publishing, exception notification, ad-hoc request/response, auto-segmented block transfers modes | FieldComm Group WirelessHART technology page |
+
+
+### WirelessHART (ci-wirelesshart-industrial-wireless-mesh)
+
+Primary code: UPS: Upstream
+Wireless field instrumentation communications for process automation; mesh networking adds redundant routes in difficult radio environments of process facilities. Applicable offshore and onshore.
+Vendors: FieldComm Group (specification owner), Yokogawa Electric (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| wireless mesh topology | Each device can act as a router; redundant communication routes extend range and improve reliability topology | FieldComm Group WirelessHART technology page, descriptive claim |
+| installation cost reduction vs wired instruments | 30-60 % | FieldComm Group WirelessHART page citing WirelessHART User Case Studies: '30%-60% lower installation costs than adding traditional wired instruments' |
+| RF physical layer | 2.4 GHz DSSS O-QPSK, based on IEEE STD 802.15.4-2006 2.4GHz DSSS Physical Layer GHz / modulation | HART Protocol Specifications: 2.4GHz DSSS O-QPSK Physical Layer Specification (HCF_SPEC-65 FCG TS20065) Rev. 1.1 |
+| MAC / DLL | TDMA Data-Link Layer over IEEE 802.15.4-2006 PHY; secure, reliable, error-free mesh communication protocol | HCF_SPEC-75 FCG TS20075 Rev. 1.2 (TDMA Data-Link Layer) |
+| messaging modes | one-way publishing, exception notification, ad-hoc request/response, auto-segmented block transfers modes | FieldComm Group WirelessHART technology page |
+
 
 ## civ-civil
 
@@ -1180,7 +1892,7 @@ Recorded gaps:
 
 Primary code: ROT: Rotating and static equipment
 Dynamic compressor that raises gas pressure across one or more impeller stages — the standard machine for refinery and petrochemical process gas, pipeline boost, gas-lift and reinjection, and CO2 service, driven by gas turbines or electric motors through gears. Casing arrangements (overhung, integrally-geared, horizontally- or vertically-split/barrel) set the pressure class; barrel-style machines serve the highest-pressure gas reinjection duties.
-Vendors: Siemens Energy, Baker Hughes, Atlas Copco, Mitsubishi Power (0 model lines recorded).
+Vendors: Siemens Energy (incl. ex-Dresser-Rand), Baker Hughes, Atlas Copco, Mitsubishi Power (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -1980,13 +2692,271 @@ Vendors: JBW Consulting Engineers (0 model lines recorded).
 | Water uses on a chemical site | fire hydrants use | Raw water used for process cleaning and to supply fire hydrants |
 
 
+## fl-system
+
+### Blowout preventers (fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s-d23380)
+
+Primary code: UPS: Upstream
+Contain wellbore pressure and divert formation fluids/gases; shear pipe in emergency; provide surface, subsea and land pressure control.
+Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Large-bore drilling BOP pressure rating | 20000 psi (stated as 20,000+ psi) | SLB/Cameron pressure control equipment page: 'first to engineer large-bore drilling BOPs rated 20,000+ psi for deepwater drilling' |
+| Shear ram capability | can shear hardbanding on tool joints n/a | SLB/Cameron page: 'first to manufacture rams that can shear the hardbanding on tool joints' |
+
+
+### Blowout preventers (fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s)
+
+Primary code: UPS: Upstream
+Contain wellbore pressure and divert formation fluids/gases; shear pipe in emergency; provide surface, subsea and land pressure control.
+Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Large-bore drilling BOP pressure rating | 20000 psi (stated as 20,000+ psi) | SLB/Cameron pressure control equipment page: 'first to engineer large-bore drilling BOPs rated 20,000+ psi for deepwater drilling' |
+| Shear ram capability | can shear hardbanding on tool joints n/a | SLB/Cameron page: 'first to manufacture rams that can shear the hardbanding on tool joints' |
+
+
+### Christmas trees (fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin-bb5ee8)
+
+Primary code: UPS: Upstream
+Control flow in and out of wells, connect tubing to seafloor/above-water facilities, and provide pressure barrier and intervention access.
+Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFMC (CDS Separation Systems), Baker Hughes (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| OneSubsea subsea tree temperature range | -18-176 degrees Celsius | OneSubsea subsea trees page: 'extreme temperature ranging from minus 18 degrees Celsius to plus 176 degrees Celsius' |
+| OneSubsea subsea tree pressure rating | 15000 psi (stated as 'up to 15,000 pounds per square inch, or more than 1,000 bar') | OneSubsea subsea trees page |
+| Wellhead vertical tree production bore | 7 inches | OneSubsea subsea trees page, Features: '7-inch production bore size for wellhead vertical trees' |
+| TechnipFMC subsea tree pressure rating | 20000 psi (pressures up to) | TechnipFMC well control page: vertical and horizontal subsea tree solutions for pressures up to 20,000 psi |
+| TechnipFMC subsea tree temperature rating | 400 degrees Fahrenheit (temperatures to) | TechnipFMC well control page |
+| TechnipFMC subsea tree water depth | 10000 ft (water depths up to) | TechnipFMC well control page |
+| EVDT deepest subsea completion record | 9627 ft | TechnipFMC well control page: 'Our EVDT subsea tree holds the deepest subsea completion record at 9,627 feet' |
+
+
+### Christmas trees (fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin)
+
+Primary code: UPS: Upstream
+Control flow in and out of wells, connect tubing to seafloor/above-water facilities, and provide pressure barrier and intervention access.
+Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFMC (CDS Separation Systems), Baker Hughes (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| OneSubsea subsea tree temperature range | -18-176 degrees Celsius | OneSubsea subsea trees page: 'extreme temperature ranging from minus 18 degrees Celsius to plus 176 degrees Celsius' |
+| OneSubsea subsea tree pressure rating | 15000 psi (stated as 'up to 15,000 pounds per square inch, or more than 1,000 bar') | OneSubsea subsea trees page |
+| Wellhead vertical tree production bore | 7 inches | OneSubsea subsea trees page, Features: '7-inch production bore size for wellhead vertical trees' |
+| TechnipFMC subsea tree pressure rating | 20000 psi (pressures up to) | TechnipFMC well control page: vertical and horizontal subsea tree solutions for pressures up to 20,000 psi |
+| TechnipFMC subsea tree temperature rating | 400 degrees Fahrenheit (temperatures to) | TechnipFMC well control page |
+| TechnipFMC subsea tree water depth | 10000 ft (water depths up to) | TechnipFMC well control page |
+| EVDT deepest subsea completion record | 9627 ft | TechnipFMC well control page: 'Our EVDT subsea tree holds the deepest subsea completion record at 9,627 feet' |
+
+
+### Connectors (fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246)
+
+Primary code: UPS: Upstream
+Make separable hydraulic, electrical and optical connections subsea/downhole, and connect flowlines/tie-ins; provide sealing and corrosion protection in hostile environments.
+Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFMC (CDS Separation Systems) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Connection system internal pressure qualification | 20000 psi | TechnipFMC subsea infrastructure: all connection systems 'extensively tested and are qualified for internal pressures up to 20,000 psi and 3,000 m of water' |
+| Connection system water depth qualification | 3000 m of water | Same TechnipFMC statement |
+| Installed connection systems | 3000 systems (more than) | TechnipFMC: 'More than 3,000 of our connection systems are installed and operating worldwide' |
+| Wet connector sealing architecture | dual-barrier system for mechanical and electrical sealing; dielectric-filled compensation wiper system protects receptacle contacts; crimped cable terminations; male pin gives immediate corrosion protection on de-mating n/a | OneSubsea wet connectors page, Application and Features |
+| Wet connector environment capability | deepwater and high-pressure/high-temperature wellhead and downhole applications; many dry- and wet-mateable connectors resistant to sour environments and sand/silt ingress n/a | OneSubsea wet connectors page, Core benefits |
+
+
+### Connectors (fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri)
+
+Primary code: UPS: Upstream
+Make separable hydraulic, electrical and optical connections subsea/downhole, and connect flowlines/tie-ins; provide sealing and corrosion protection in hostile environments.
+Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFMC (CDS Separation Systems) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Connection system internal pressure qualification | 20000 psi | TechnipFMC subsea infrastructure: all connection systems 'extensively tested and are qualified for internal pressures up to 20,000 psi and 3,000 m of water' |
+| Connection system water depth qualification | 3000 m of water | Same TechnipFMC statement |
+| Installed connection systems | 3000 systems (more than) | TechnipFMC: 'More than 3,000 of our connection systems are installed and operating worldwide' |
+| Wet connector sealing architecture | dual-barrier system for mechanical and electrical sealing; dielectric-filled compensation wiper system protects receptacle contacts; crimped cable terminations; male pin gives immediate corrosion protection on de-mating n/a | OneSubsea wet connectors page, Application and Features |
+| Wet connector environment capability | deepwater and high-pressure/high-temperature wellhead and downhole applications; many dry- and wet-mateable connectors resistant to sour environments and sand/silt ingress n/a | OneSubsea wet connectors page, Core benefits |
+
+
+### Hoses (fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966)
+
+Primary code: UPS: Upstream
+Flexible transfer of hydraulic power, chemicals, drilling fluids and fluids/gases between equipment; in umbilicals, hose elements carry hydraulic and chemical services.
+Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Thermoplastic hose umbilical attributes | highly dynamic; short lead time; cost effective n/a | TechnipFMC umbilicals page, 'Umbilical products' list |
+| Next-generation thermoplastic hose drivers | harsh environments, ultra-deepwater, elevated temperatures, longer tiebacks; shorter manufacturing lead time; simpler hose-to-end-fitting termination n/a | TechnipFMC umbilicals page, 'Next generation thermoplastic hose' |
+| Hydraulic/chemical service in steel-tube umbilical | hydraulic fluid for control; various chemical fluids for injection into the flowline n/a | OneSubsea steeltube umbilicals page |
+
+
+### Hoses (fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading)
+
+Primary code: UPS: Upstream
+Flexible transfer of hydraulic power, chemicals, drilling fluids and fluids/gases between equipment; in umbilicals, hose elements carry hydraulic and chemical services.
+Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Thermoplastic hose umbilical attributes | highly dynamic; short lead time; cost effective n/a | TechnipFMC umbilicals page, 'Umbilical products' list |
+| Next-generation thermoplastic hose drivers | harsh environments, ultra-deepwater, elevated temperatures, longer tiebacks; shorter manufacturing lead time; simpler hose-to-end-fitting termination n/a | TechnipFMC umbilicals page, 'Next generation thermoplastic hose' |
+| Hydraulic/chemical service in steel-tube umbilical | hydraulic fluid for control; various chemical fluids for injection into the flowline n/a | OneSubsea steeltube umbilicals page |
+
+
+### Injectors and injection systems (fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339)
+
+Primary code: UPS: Upstream
+Provide reservoir pressure support and lift; inject treating chemicals for flow assurance and asset integrity; deliver seawater/gas/chemicals to the reservoir or production stream.
+Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), Baker Hughes, SLB (Cameron pressure control equipment) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| OneSubsea subsea pump operational hours | 5000000 operational hours (over) | OneSubsea subsea water injection page: 'track record of over 5 million operational hours' |
+| OneSubsea subsea pumps delivered globally | 130 pumps (more than) | Same page: 'more than 130 pumps delivered globally' |
+| OneSubsea subsea pumps for water injection | 14 pumps delivered and installed | Same page: 'OneSubsea has delivered and installed 14 of its subsea pumps for water injection purposes' |
+| Seawater treatment configuration levels | 4 named configurations (raw seawater; coarse filtration; disinfection and particle removal; ultrafiltration and sulfate removal) | OneSubsea subsea water injection page, 'Seawater quality requirements' |
+| Chemical injection case duration / scale | 9 months across 1,400 wells months / wells | Same SLB case-study headline |
+
+
+### Injectors and injection systems (fl-injectors-and-injection-systems-water-injection-gas-injection)
+
+Primary code: UPS: Upstream
+Provide reservoir pressure support and lift; inject treating chemicals for flow assurance and asset integrity; deliver seawater/gas/chemicals to the reservoir or production stream.
+Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), Baker Hughes, SLB (Cameron pressure control equipment) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| OneSubsea subsea pump operational hours | 5000000 operational hours (over) | OneSubsea subsea water injection page: 'track record of over 5 million operational hours' |
+| OneSubsea subsea pumps delivered globally | 130 pumps (more than) | Same page: 'more than 130 pumps delivered globally' |
+| OneSubsea subsea pumps for water injection | 14 pumps delivered and installed | Same page: 'OneSubsea has delivered and installed 14 of its subsea pumps for water injection purposes' |
+| Seawater treatment configuration levels | 4 named configurations (raw seawater; coarse filtration; disinfection and particle removal; ultrafiltration and sulfate removal) | OneSubsea subsea water injection page, 'Seawater quality requirements' |
+| Chemical injection case duration / scale | 9 months across 1,400 wells months / wells | Same SLB case-study headline |
+
+
+### Pipelines and flowlines (fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru-509b41)
+
+Primary code: UPS: Upstream
+Transport produced fluids from well/tie-back to host and export, and injection fluids from host to wells; flow assurance (heating/insulation) where required.
+Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Rigid pipeline water depth | tens to thousands m (descriptive) | TechnipFMC subsea infrastructure page |
+| Global spoolbases | 4 facilities | TechnipFMC subsea infrastructure: 'use of our four strategically located global spoolbases' |
+| Flexible pipe vs rigid installation speed | 20 times faster (up to, method-dependent) | Baker Hughes flexible pipe systems: minimizes offshore welding; flexible pipes can be recovered and redeployed |
+
+
+### Pipelines and flowlines (fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru)
+
+Primary code: UPS: Upstream
+Transport produced fluids from well/tie-back to host and export, and injection fluids from host to wells; flow assurance (heating/insulation) where required.
+Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Rigid pipeline water depth | tens to thousands m (descriptive) | TechnipFMC subsea infrastructure page |
+| Global spoolbases | 4 facilities | TechnipFMC subsea infrastructure: 'use of our four strategically located global spoolbases' |
+| Flexible pipe vs rigid installation speed | 20 times faster (up to, method-dependent) | Baker Hughes flexible pipe systems: minimizes offshore welding; flexible pipes can be recovered and redeployed |
+
+
+### Risers (fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e)
+
+Primary code: UPS: Upstream
+Convey produced fluids or injection/power services between subsea wells/tie-backs and a fixed or floating surface host; accommodate platform motion, pressure and thermal load.
+Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Flexible pipe high-pressure resistance | high-pressure resistant (qualitative; no numeric rating published on page) n/a | TechnipFMC flexible-pipe page: helically wound corrosion-resistant steel wires give high-pressure resistance and bending characteristics; independent layers adapted per field |
+| Rigid pipeline water depth capability | tens to thousands m of water (descriptive range, not a precise figure) | TechnipFMC subsea infrastructure: rigid pipelines installed 'in water depths from tens to thousands of meters offshore'; four global spoolbases and pipelay fleet |
+| Flexible pipe installation speed advantage | 20 times faster (depending on method) | Baker Hughes flexible pipe systems: manufactured onshore, ready to install, minimizes offshore welding; 'up to 20 times faster depending on the method' |
+| FSHR tensioning method | near-surface buoyancy can n/a | TechnipFMC FSHR description: vertical steel pipe tensioned by a near-surface buoyancy can; flexible jumper to production platform; foundation at seabed; rigid base jumper to PLET |
+| Fluid transfer line applications | riser, flowline, jumper, fluid transfer line; high H2S, dense CO2, high temperature n/a | Baker Hughes flexible pipe systems overview and applications list |
+
+
+### Risers (fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing)
+
+Primary code: UPS: Upstream
+Convey produced fluids or injection/power services between subsea wells/tie-backs and a fixed or floating surface host; accommodate platform motion, pressure and thermal load.
+Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Flexible pipe high-pressure resistance | high-pressure resistant (qualitative; no numeric rating published on page) n/a | TechnipFMC flexible-pipe page: helically wound corrosion-resistant steel wires give high-pressure resistance and bending characteristics; independent layers adapted per field |
+| Rigid pipeline water depth capability | tens to thousands m of water (descriptive range, not a precise figure) | TechnipFMC subsea infrastructure: rigid pipelines installed 'in water depths from tens to thousands of meters offshore'; four global spoolbases and pipelay fleet |
+| Flexible pipe installation speed advantage | 20 times faster (depending on method) | Baker Hughes flexible pipe systems: manufactured onshore, ready to install, minimizes offshore welding; 'up to 20 times faster depending on the method' |
+| FSHR tensioning method | near-surface buoyancy can n/a | TechnipFMC FSHR description: vertical steel pipe tensioned by a near-surface buoyancy can; flexible jumper to production platform; foundation at seabed; rigid base jumper to PLET |
+| Fluid transfer line applications | riser, flowline, jumper, fluid transfer line; high H2S, dense CO2, high temperature n/a | Baker Hughes flexible pipe systems overview and applications list |
+
+
+### Separators (fl-separators-2-3-phase-horizontal-vertical-spherical-compact-in-46519c)
+
+Primary code: UPS: Upstream
+Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection.
+Vendors: SLB (Cameron pressure control equipment), SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Separation design objective | separate and treat oil, water and gas using minimal chemicals and energy to reduce capex and opex n/a | SLB Processing and Separation overview; process pilot testing used to optimize technology selection |
+| Produced-water oil recovery case result | 98 % of oil content recovered | SLB Processing and Separation page case-study title: 'Advanced Media Filter Technology Recovers 98% of Oil Content from Heavily Emulsified Produced Water' |
+| Subsea separation control | all-electric control systems n/a | OneSubsea water injection page, related resource 'Subsea separation': 'phase and fluid separation features all-electric control systems' |
+
+
+### Separators (fl-separators-2-3-phase-horizontal-vertical-spherical-compact-in)
+
+Primary code: UPS: Upstream
+Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection.
+Vendors: SLB (Cameron pressure control equipment), SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Separation design objective | separate and treat oil, water and gas using minimal chemicals and energy to reduce capex and opex n/a | SLB Processing and Separation overview; process pilot testing used to optimize technology selection |
+| Produced-water oil recovery case result | 98 % of oil content recovered | SLB Processing and Separation page case-study title: 'Advanced Media Filter Technology Recovers 98% of Oil Content from Heavily Emulsified Produced Water' |
+| Subsea separation control | all-electric control systems n/a | OneSubsea water injection page, related resource 'Subsea separation': 'phase and fluid separation features all-electric control systems' |
+
+
+### Subsea umbilicals (fl-subsea-umbilicals-electro-hydraulic-electrical-fibre-optic-ste-15ccf3)
+
+Primary code: UPS: Upstream
+Provide the critical link between onshore/offshore hosts and subsea facilities: control, hydraulic power, chemical injection, electrical power and communications.
+Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), Nexans (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Steeltube umbilical service content | hydraulic fluid for control; various chemical fluids for injection into flowline; electrical power; electrical- or fibre-optic signal transmission n/a | OneSubsea steeltube umbilicals page, opening definition |
+| Steeltube umbilical armour / bending | no armour; can be bent in any direction, eliminating 'bird caging'; long lay (pitch) length with components supported within channel elements n/a | OneSubsea steeltube umbilicals core benefits and features |
+| Umbilical systems track record | 40 years | TechnipFMC umbilicals page: 'Supplying customized subsea umbilical systems for 40 years'; 40-year record of excellence in project execution |
+| Umbilical manufacturing locations | 3 plants (United Kingdom, United States, Angola) | TechnipFMC umbilicals page: strategically located plants in UK, US and Angola |
+| Dynamic cable voltage (subsea compression power) | 145 kV HVAC | Nexans Jansz-Io project: turnkey design, manufacturing and installation of a 145 kV HVAC dynamic cable |
+
+
+### Subsea umbilicals (fl-subsea-umbilicals-electro-hydraulic-electrical-fibre-optic-ste)
+
+Primary code: UPS: Upstream
+Provide the critical link between onshore/offshore hosts and subsea facilities: control, hydraulic power, chemical injection, electrical power and communications.
+Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), Nexans (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Steeltube umbilical service content | hydraulic fluid for control; various chemical fluids for injection into flowline; electrical power; electrical- or fibre-optic signal transmission n/a | OneSubsea steeltube umbilicals page, opening definition |
+| Steeltube umbilical armour / bending | no armour; can be bent in any direction, eliminating 'bird caging'; long lay (pitch) length with components supported within channel elements n/a | OneSubsea steeltube umbilicals core benefits and features |
+| Umbilical systems track record | 40 years | TechnipFMC umbilicals page: 'Supplying customized subsea umbilical systems for 40 years'; 40-year record of excellence in project execution |
+| Umbilical manufacturing locations | 3 plants (United Kingdom, United States, Angola) | TechnipFMC umbilicals page: strategically located plants in UK, US and Angola |
+| Dynamic cable voltage (subsea compression power) | 145 kV HVAC | Nexans Jansz-Io project: turnkey design, manufacturing and installation of a 145 kV HVAC dynamic cable |
+
+
 ## flare
 
 ### Flare, relief, vent gas recovery and fugitive emission control (ammonia-flare-vent-control)
 
 Primary code: PCH: Petrochemicals
 Flare, relief, vent gas recovery and fugitive emission control | Flare and relief systems (ammonia and urea relief, liquid seal drums)
-Vendors: Howden (Chart Industries), American Petroleum Institute, Zeeco (0 model lines recorded).
+Vendors: Howden (a Chart Industries company; KK&K, CKD brands), American Petroleum Institute, Zeeco (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2245,7 +3215,7 @@ Recorded gaps:
 
 Primary code: ELE: Electrical engineering
 SF6 dead-tank and live-tank circuit breakers at 132, 275 and 500 kV for grid and substation duty, with interrupting ratings set by the Malaysian fault levels, to IEC 62271-100.
-Vendors: Hitachi Energy, Siemens Energy, GE Vernova (3 model lines recorded).
+Vendors: Hitachi Energy, Siemens Energy (incl. ex-Dresser-Rand), GE Vernova (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2257,7 +3227,7 @@ Vendors: Hitachi Energy, Siemens Energy, GE Vernova (3 model lines recorded).
 | indicative cost, 550 kV dead-tank breaker | 200000-520000 USD per three-phase set | Chinese OEM 550 kV about USD 210,000-270,000; an import record of a 3150 A 50 kA three-phase set near USD 520,000; EGAT tender about THB 6.0 million per unit (about USD 170,000). Indicative and highly configuration-dependent. |
 
 - **Hitachi Energy** Live tank / dead tank: 72.5-800 kV
-- **Siemens Energy** 3AP / 3AT / SPS: 72.5-550 kV
+- **Siemens Energy (incl. ex-Dresser-Rand)** 3AP / 3AT / SPS: 72.5-550 kV
 - **GE Vernova** Dead tank breakers: 72.5-800 kV
 
 Recorded gaps:
@@ -2270,7 +3240,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Provide a reliable ignition source for pilot and main burners and prove flame presence before fuel is admitted; burner management system (BMS) sequences purge, pilot trial-for-ignition, flame proof, main flame light-off and shutdown, while a separate combustion control system meters fuel/air. Flame scanners with background-flame discrimination allow light-off and verification from the control room.
-Vendors: John Zink Company, Zeeco, Forney Corporation, Siemens, Profire Energy (0 model lines recorded).
+Vendors: John Zink (Koch Engineered Solutions), Zeeco, Forney Corporation, Siemens, Profire Energy (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -3342,7 +4312,7 @@ Recorded gaps:
 
 Primary code: ELE: Electrical engineering
 Oil-immersed and dry-type transformers stepping between the Malaysian voltage tiers: 500/275 kV and 275/132 kV grid banks, 132/33/11 kV distribution units and 11-33 kV/415 V site transformers, to MS IEC 60076 (IEC 60076 adopted).
-Vendors: Malaysia Transformer Manufacturing (MTM), Hitachi Energy, Siemens Energy, GE Vernova, HD Hyundai Electric (5 model lines recorded).
+Vendors: Malaysia Transformer Manufacturing (MTM), Hitachi Energy, Siemens Energy (incl. ex-Dresser-Rand), GE Vernova, HD Hyundai Electric (5 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -3358,7 +4328,7 @@ Vendors: Malaysia Transformer Manufacturing (MTM), Hitachi Energy, Siemens Energ
 
 - **Malaysia Transformer Manufacturing (MTM)** MTM distribution and power transformers: 100 kVA to 100 MVA; refurbishment to 275 kV
 - **Hitachi Energy** Power and distribution transformers: distribution to UHV
-- **Siemens Energy** Transformers: distribution to UHV
+- **Siemens Energy (incl. ex-Dresser-Rand)** Transformers: distribution to UHV
 - **GE Vernova** Transformers: distribution to UHV
 - **HD Hyundai Electric** Transformers: grid class
 
@@ -3525,7 +4495,7 @@ Recorded gaps:
 
 Primary code: ELE: Electrical engineering
 Numerical protection relays and IEC 61850 intelligent electronic devices for overcurrent, distance, differential and transformer protection on the Malaysian grid and industrial systems, type-tested to IEC 60255.
-Vendors: Schweitzer Engineering Laboratories (SEL), Siemens Energy, Hitachi Energy, GE Vernova (4 model lines recorded).
+Vendors: Schweitzer Engineering Laboratories (SEL), Siemens Energy (incl. ex-Dresser-Rand), Hitachi Energy, GE Vernova (4 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -3539,7 +4509,7 @@ Vendors: Schweitzer Engineering Laboratories (SEL), Siemens Energy, Hitachi Ener
 | indicative cost, full IEC 61850 bay-controller IED (export price list) | 4000-12000 USD per unit | Same price guide: the spread reaches USD 12,000+ for a full IEC 61850 bay controller from Schweitzer Engineering Laboratories or GE Grid Solutions. Function class, brand tier and certification drive the 30x spread the source documents. |
 
 - **Schweitzer Engineering Laboratories (SEL)** SEL-421 / SEL-411L: subcycle to 1.5-cycle distance protection
-- **Siemens Energy** SIPROTEC 5: IEC 60255-151 type-tested
+- **Siemens Energy (incl. ex-Dresser-Rand)** SIPROTEC 5: IEC 60255-151 type-tested
 - **Hitachi Energy** Relion: transmission protection
 - **GE Vernova** UR (Universal Relay): transmission protection
 
@@ -4746,7 +5716,7 @@ Vendors: BASF, Kinder Morgan Treating, SPEC Oil & Gas Technologies (fabricator) 
 
 Primary code: UPS: Upstream
 Inject hydrate inhibitors, corrosion/scale inhibitors, demulsifiers, defoamers and biocides via dosing pumps and tanks to maintain flow assurance, separation performance and asset integrity.
-Vendors: SLB (ChampionX portfolio), SPEC Oil & Gas Technologies (fabricator), US EPA Natural Gas STAR Program (0 model lines recorded).
+Vendors: SLB (Cameron pressure control equipment), SPEC Oil & Gas Technologies (fabricator), US EPA Natural Gas STAR Program (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -4783,7 +5753,7 @@ Vendors: Pietro Fiorentini (TEG packages), SPEC Oil & Gas Technologies (fabricat
 
 Primary code: UPS: Upstream
 Support utilities and safety systems that make the process train operable: power distribution, pneumatic control air, inerting, actuation power, cooling/firewater, lifting and living quarters.
-Vendors: SPEC Oil & Gas Technologies (fabricator), Siemens Energy (0 model lines recorded).
+Vendors: SPEC Oil & Gas Technologies (fabricator), Siemens Energy (incl. ex-Dresser-Rand) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -4831,7 +5801,7 @@ Vendors: TechnipFMC (CDS Separation Systems), OneSubsea (SLB/Aker Solutions JV),
 
 Primary code: UPS: Upstream
 Raise associated/export gas pressure, provide gas lift/reinjection/vapour-recovery/refrigeration duty; scrub liquids ahead of and after compressors.
-Vendors: SPEC Oil & Gas Technologies (fabricator), Siemens Energy, OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems) (0 model lines recorded).
+Vendors: SPEC Oil & Gas Technologies (fabricator), Siemens Energy (incl. ex-Dresser-Rand), OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -4876,7 +5846,7 @@ Vendors: Pietro Fiorentini (TEG packages), Kinder Morgan Treating, SPEC Oil & Ga
 
 Primary code: UPS: Upstream
 Remove free liquid and solids from gas entering a treatment facility before additional processing; protect compressors and downstream equipment.
-Vendors: SLB (ChampionX portfolio), SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
+Vendors: SLB (Cameron pressure control equipment), SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -4899,7 +5869,7 @@ Vendors: Pietro Fiorentini (TEG packages) (0 model lines recorded).
 
 Primary code: UPS: Upstream
 Measure oil, gas and water rates (with or without separation), support allocation and custody transfer, sample fluids at or above hydrocarbon dew point, and demonstrate compliance with sales specifications.
-Vendors: SLB (ChampionX portfolio), Emerson (duplex stainless steel option on Roxar 2600, page read), TechnipFMC (CDS Separation Systems), Honeywell (0 model lines recorded).
+Vendors: SLB (Cameron pressure control equipment), Emerson (duplex stainless steel option on Roxar 2600, page read), TechnipFMC (CDS Separation Systems), Honeywell (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -4937,7 +5907,7 @@ Vendors: SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
 
 Primary code: UPS: Upstream
 Break produced-water-in-oil emulsions with heat and residence time or an applied electrostatic field; reduce BS&W and salt content to export specification.
-Vendors: SPEC Oil & Gas Technologies (fabricator), SLB (ChampionX portfolio) (0 model lines recorded).
+Vendors: SPEC Oil & Gas Technologies (fabricator), SLB (Cameron pressure control equipment) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -4950,7 +5920,7 @@ Vendors: SPEC Oil & Gas Technologies (fabricator), SLB (ChampionX portfolio) (0 
 
 Primary code: UPS: Upstream
 Supply electrical power and mechanical drive for topside process, compression, water injection and utilities; combined-cycle and single-lift modular packages for offshore use.
-Vendors: Siemens Energy (0 model lines recorded).
+Vendors: Siemens Energy (incl. ex-Dresser-Rand) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -4977,7 +5947,7 @@ Vendors: SPEC Oil & Gas Technologies (fabricator), ISS Process (Innovative Syner
 
 Primary code: UPS: Upstream
 Split well effluent into gas, oil and free water; absorb inlet momentum, provide liquid retention, demist gas and control each outlet. Commonly used as a free-water knockout (FWKO).
-Vendors: SLB (ChampionX portfolio), TechnipFMC (CDS Separation Systems), SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
+Vendors: SLB (Cameron pressure control equipment), TechnipFMC (CDS Separation Systems), SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -4990,7 +5960,7 @@ Vendors: SLB (ChampionX portfolio), TechnipFMC (CDS Separation Systems), SPEC Oi
 
 Primary code: UPS: Upstream
 Provide reservoir pressure support/disposal by filtering seawater or produced water and injecting at high pressure; remove solids/sulphate/divalent ions that cause scaling/souring.
-Vendors: Baker Hughes, OneSubsea (SLB/Aker Solutions JV), Siemens Energy, TechnipFMC (CDS Separation Systems) (0 model lines recorded).
+Vendors: Baker Hughes, OneSubsea (SLB/Aker Solutions JV), Siemens Energy (incl. ex-Dresser-Rand), TechnipFMC (CDS Separation Systems) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -5024,7 +5994,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Gas turbine for power generation and mechanical drive, in two families: aeroderivative units adapted from jet engines (fast start, high simple-cycle efficiency, modular exchange) and heavy-frame machines built for bulky base-load duty behind the grid or as compressor drives on pipelines and gas plants. Sets the exhaust energy that an HRSG converts in combined-cycle and cogeneration service.
-Vendors: Baker Hughes, GE Vernova, Solar Turbines, Siemens Energy (2 model lines recorded).
+Vendors: Baker Hughes, GE Vernova, Solar Turbines, Siemens Energy (incl. ex-Dresser-Rand) (2 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |

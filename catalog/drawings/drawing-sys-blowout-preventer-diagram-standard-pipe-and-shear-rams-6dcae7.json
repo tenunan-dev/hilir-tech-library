@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-blowout-preventer-diagram-standard-pipe-and-shear-rams-6dcae7",
+  "title": "Blowout preventer diagram — standard, pipe and shear rams",
+  "diagram_type": "schematic",
+  "description": "Cross-section comparing ram BOP types and how each seals or shears the wellbore | Figures: Unnumbered figure on Wikipedia 'Blowout preventer' page; Commons File:Blowout Preventer.svg; caption '(a) standard ram (b) pipe ram and (c) shear ram'",
+  "publisher": "Wikimedia Commons; author Egmason (2011)",
+  "url": "https://commons.wikimedia.org/wiki/File:Blowout_Preventer.svg",
+  "licence": "CC BY-SA 3.0 (attribution + share-alike on derivatives). Cite author and licence; do not imply endorsement.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Blowout_Preventer.svg",
+      "source_id": "sys-commons-wikimedia-org-file-blowout-preventer-svg"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch of Wikipedia Blowout preventer page + WebFetch of Commons file page",
+  "last_reviewed": "2026-11-24"
+}

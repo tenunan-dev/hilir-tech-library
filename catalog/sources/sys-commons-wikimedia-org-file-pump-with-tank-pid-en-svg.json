@@ -1,0 +1,33 @@
+{
+  "id": "sys-commons-wikimedia-org-file-pump-with-tank-pid-en-svg",
+  "name": "Wikimedia Commons; author 'Con-struct' (2012)",
+  "url": "https://commons.wikimedia.org/wiki/File:Pump_with_tank_pid_en.svg",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Commons.Wikimedia.Org",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. Pump, tank, piping and instrument symbols showing level and flow control Evidence: https://commons.wikimedia.org/wiki/File:Pump_with_tank_pid_en.svg"
+}

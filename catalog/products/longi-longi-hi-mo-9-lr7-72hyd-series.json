@@ -1,0 +1,71 @@
+{
+  "id": "longi-longi-hi-mo-9-lr7-72hyd-series",
+  "name": "LONGi Hi-MO 9 (LR7-72HYD series)",
+  "manufacturer": "longi",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24. HPBC 2.0; 30-year power warranty",
+  "specifications": [
+    {
+      "metric": "Max power",
+      "unit": "W",
+      "basis": "",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "sys-longi-com"
+      },
+      "value": 670
+    },
+    {
+      "metric": "Module efficiency",
+      "unit": "%",
+      "basis": "",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "sys-longi-com"
+      },
+      "value": 24.8
+    },
+    {
+      "metric": "STC Pmax (660M)",
+      "unit": "W",
+      "basis": "",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "sys-longi-com"
+      },
+      "value": 660
+    },
+    {
+      "metric": "Front static load",
+      "unit": "Pa",
+      "basis": "",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "sys-longi-com"
+      },
+      "value": 5400
+    },
+    {
+      "metric": "Pmax temp coefficient",
+      "unit": "%/degC",
+      "basis": "",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "sys-longi-com"
+      },
+      "value": -0.26
+    }
+  ],
+  "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+  "sources": [
+    {
+      "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+      "source_id": "sys-longi-com"
+    }
+  ],
+  "notes": "HPBC 2.0; 30-year power warranty",
+  "last_reviewed": "2026-11-24"
+}

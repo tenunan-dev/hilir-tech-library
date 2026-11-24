@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-annotated-patent-drawing-of-a-blowout-preventer-stack-351407",
+  "title": "Annotated Patent Drawing of a Blowout Preventer Stack",
+  "diagram_type": "schematic",
+  "description": "Subsea BOP stack arrangement with annotated components | Figures: US Patent 7,300,033 (2007); legend added and figure locations shifted; Commons File:Cameron EVO BOP Patent (Stack).jpg",
+  "publisher": "US patent by Melvyn F. Whitby and John T. Mangan (Cameron); copy on Wikimedia Commons",
+  "url": "https://commons.wikimedia.org/wiki/File:Cameron_EVO_BOP_Patent_(Stack).jpg",
+  "licence": "Public domain. Freely reusable with attribution good practice.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Cameron_EVO_BOP_Patent_(Stack).jpg",
+      "source_id": "sys-commons-wikimedia-org-file-cameron-evo-bop-patent-stack-jp"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch of Commons file page (patent number, authors, licence confirmed)",
+  "last_reviewed": "2026-11-24"
+}

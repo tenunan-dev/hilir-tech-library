@@ -1,0 +1,33 @@
+{
+  "id": "sys-draeger-com-flame-5000",
+  "name": "Dräger",
+  "url": "https://www.draeger.com/en-us_u/Products/Flame-Detectors/Flame-5000",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Draeger.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. URL returned 404; no specification claimed (page_read:false). Evidence: https://www.draeger.com/en-us_u/Products/Flame-Detectors/Flame-5000"
+}

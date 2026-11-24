@@ -1,0 +1,33 @@
+{
+  "id": "sys-en-wikipedia-org-floating-solar",
+  "name": "Wikipedia — Global installed FPV capacity",
+  "url": "https://en.wikipedia.org/wiki/Floating_solar",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Wikipedia",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. Wikipedia floating solar: grew from 3 GW in 2020 to 13 GW in 2022; World Bank estimates >4,000 GW technical capacity at 10% coverage of 6,600 large water bodies Evidence: https://en.wikipedia.org/wiki/Floating_solar"
+}

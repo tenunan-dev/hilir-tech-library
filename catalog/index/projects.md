@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-625 project records (one per named project or plant, schema `schema/project.schema.json`).
+647 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -2054,10 +2054,20 @@ Status: **operating** | Country: USA
 12 skirt piles through 84 in sleeves, ~430 ft penetration
 Technologies: civ-offshore-platform-structures
 
+### Barossa LNG Project (sys-barossa-lng-project)
+Status: **operating** | Country: Australia
+capacity: ~3.4 Mtpa LNG; 25-year production life; $3.6bn (A$4.98bn) FID | status: Operating/commissioned: FPSO received first gas September 2025; first LNG cargo to JERA June 2026 | dates: ['2006 Barossa discovery', 'Mar 2018 NOPSEMA proposal accepted', 'Mar 2021 FID', 'Mar 2022 Environment Plan approved', 'Jun 2025 FPSO installed', 'Sep 2025 first gas', 'Jun 2026 first LNG cargo'] | location: Bonaparte Basin, Timor Sea, 285 km north-north-west of Darwin; 130-350 m water depth
+Technologies: ups-subsea-production-systems
+
 ### Bayu Undan (pf-bayu-undan)
 Status: **operating** | Country: Australia (Timor Sea)
 jacket opening sized for Dockwise floatover vessel
 Technologies: civ-offshore-platform-structures
+
+### Bayu-Undan Gas Field (sys-bayu-undan-gas-field)
+Status: **operating** | Country: Timor Sea (Australia / Timor-Leste zone)
+capacity: 250-400 million bbl liquids + 3.4 tcf gas; 115,000 bpd condensate and LPG (Phase I); 3.24 Mtpa LNG (Phase II) | status: Operating/phased: Phase I Apr 2004, Phase II Feb 2006, Phase III Stage 1 Apr 2015 | dates: ['1995 Bayu and Undan discoveries', 'Apr 2004 Phase I production', 'Feb 2006 Phase II production', 'Apr 2015 Phase III Stage 1 first gas'] | location: 500 km offshore Darwin, 250 km south of East Timor; blocks 91-12 and 91-13; 80 m water depth
+Technologies: ups-subsea-production-systems
 
 ### Bałtyk 2 & 3 offshore wind farms (pf-ba-tyk-2-3-offshore-wind-farms)
 Status: **operating** | Country: Poland
@@ -2107,6 +2117,11 @@ Technologies: ups-subsea-production-systems
 ### BOKOR CPP produced water package, Malaysia (wh-bokor-cpp-produced-water-package-malaysia)
 Status: **operating** | Country: Malaysia
 80,000 BWPD; 3x50% pumps/hydrocyclones + 100% CFU; guaranteed 30 ppm OIW; MMHE/PETRONAS Carigali.
+Technologies: ups-subsea-production-systems
+
+### Bonga Deep-water Project (sys-bonga-deep-water-project)
+Status: **operating** | Country: Nigeria
+capacity: 200,000 bpd oil and 150 MMscfd gas; 819 million bbl produced by end-2018; $3.6bn field development cost | status: Operating; first oil November 2005, first shipment February 2006 | dates: ['1993 OPL 212 awarded / discovery', '1995-96 discovery well', 'Nov 2005 first oil', 'Feb 2006 first shipment', '2017 fourth TAM'] | location: 120 km south-west of Niger Delta; >1,000 m water depth
 Technologies: ups-subsea-production-systems
 
 ### Bongkot and Erawan gas fields (G2/61 and G1/61) (cost-bongkot-and-erawan-gas-fields-g2-61-and-g1-61)
@@ -2260,6 +2275,16 @@ Status: **operating** | Country: Norway
 Three horizontal trees, four-slot steel subsea template with integrated manifold, three wellheads, 10 km static umbilicals; tie-back to Heidrun
 Technologies: ups-subsea-production-systems
 
+### Egina Oil Field and FPSO (sys-egina-oil-field-and-fpso)
+Status: **operating** | Country: Nigeria
+capacity: 200,000 bpd peak (FPSO 208,000 bpd); 550 million bbl reserves; 2.3 million bbl oil storage; $16bn | status: Operating; first oil December 2018 | dates: ['Dec 2003 Egina-1 discovery', '2008 basic engineering', 'Dec 2013 construction start', 'Dec 2018 first oil'] | location: OML 130, Gulf of Guinea, ~150 km off Nigeria; ~1,600 m water depth
+Technologies: ups-subsea-production-systems
+
+### Ekofisk II / Ekofisk hub (sys-ekofisk-ii-ekofisk-hub)
+Status: **operating** | Country: Norway
+capacity: ~560,000 bpd oil piped 354 km to Teesside; ~2 bcfd gas piped 440 km to Emden; 6,400 t process module | status: Operating; 2/4 J installed July 1997; 2/4 L in service 2013; Ekofisk South production Oct 2013; extension to 2050 | dates: ['1993 expansion plan', 'Jul 1997 2/4 J installed', '2009 2/4 VA injection wells', '2010 2/4 L accommodation approval', 'Jun 2011 Ekofisk South permission', 'Oct 2013 South production'] | location: Central North Sea; 27 permanent installations, 10 in central Ekofisk complex
+Technologies: ups-subsea-production-systems
+
 ### Enefit shale-oil plants (Eesti Energia), Estonia (enefit-shale-oil-plants-eesti-energia-estonia)
 Status: **operating** | Country: EE
 group shale-oil production 475,000 t in 2023 (including the Enefit 280-2 oil plant), up 11.9% on 2022; record 411,000 t in 2018
@@ -2326,6 +2351,11 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Norway
 380 m tall, 1.4-1.5 Mt displacement, 216/217 m depth
 Technologies: civ-offshore-platform-structures
+
+### Gumusut-Kakap Deepwater Project (sys-gumusut-kakap-deepwater-project)
+Status: **operating** | Country: Malaysia
+capacity: FPS processing capacity 150,000 bbl/d oil; average production expected 135,000 bbl/d; reserves 300-500 million boe | status: Operating; first production October 2014 | dates: ['2003 Gumusut discovery', '2004 Kakap discovery', '2006 unitisation agreement', 'Jan 2008 FID and development drilling', 'Oct 2010-Nov 2010 mooring piles', 'Oct 2014 first production'] | location: Blocks J and K, ~120 km offshore Sabah; 1,200 m water depth
+Technologies: ups-subsea-production-systems
 
 ### Gyda platform removal (pf-gyda-platform-removal)
 Status: **operating** | Country: Norway
@@ -2429,6 +2459,11 @@ Semi-submersible central processing facility (Ichthys Explorer); FPSO (Ichthys V
 Technologies: civ-offshore-platform-structures
 Recorded gaps: Dollar year not stated for some published costs
 
+### Ichthys LNG Project (sys-ichthys-lng-project)
+Status: **operating** | Country: Australia
+capacity: 8.9-9.3 Mtpa LNG; 1.65 Mtpa LPG; 100,000 bbl/d condensate; 12.8 tcf gas and 530 million bbl condensate reserves; 42 in x 890 km gas export pipeline; CPF peak gas export 1,657 MMscfd | status: Operating; first production September 2017 | dates: ['1980 discovery', 'Jan 2012 FID and construction start', 'Sep 2017 first production'] | location: Block WA-285-P / WA-50-L, Browse Basin, Timor Sea, Western Australia; 280 m water depth
+Technologies: ups-subsea-production-systems
+
 ### Ichthys LNG — Central Processing Facility and FPSO (pf-ichthys-lng-central-processing-facility-and-fpso)
 Status: **operating** | Country: Australia
 substructure_type: Semi-submersible CPF (one of largest of its kind) + ship-shaped FPSO; subsea production system | topside_type: CPF separates gas/condensate from flexible risers; FPSO stores and offloads condensate | water_depth: Up to 250 m along gas export pipeline route (per INPEX concept page) | topside_weight: Not stated on pages read | installation_method: Subsea wells -> manifolds -> flowlines/flexible risers -> CPF; CPF gas to 890 km pipeline; condensate to FPSO and offtake tankers (arrangement shown in Figures 1 and 3 of the INPEX factsheet). Detailed installation method not stated on pages read. | contractor: INPEX Ichthys Pty Ltd (operator/developer) | dates: Not stated on pages actually read
@@ -2485,6 +2520,11 @@ Status: **operating** | Country: Norway
 Aker Solutions engineering and procurement; Samsung Heavy Industries fabrication; WorleyParsons bridges and flare towers
 Technologies: civ-offshore-platform-structures
 
+### Johan Sverdrup power-from-shore (Equinor) (sys-johan-sverdrup-power-from-shore-equinor)
+Status: **operating** | Country: Norway
+capacity: Field producing since Oct 2019 entirely on hydropower from shore; 0.67 kg CO2/bbl vs ~9 kg/bbl NCS average; >620,000 t/yr CO2 avoided (Equinor current figure; earlier launch estimate 460,000 t/yr) | status: Operating | dates: ['Oct 2019 production start'] | location: North Sea
+Technologies: ups-subsea-production-systems
+
 ### Johan Sverdrup power-from-shore (Equinor), North Sea (johan-sverdrup-power-from-shore-equinor-north-sea)
 Status: **operating** | Country: NO
 field producing since Oct 2019 entirely on hydropower from shore; CO2 emissions 0.67 kg/bbl vs about 9 kg/bbl NCS average; launch estimate 460,000 t CO2/yr avoided, Equinor now states more than 620,000 t/yr
@@ -2531,6 +2571,11 @@ Status: **operating** | Country: Malaysia
 Fixed eight-leg steel jacket 12,300 t at 142 m water depth
 Technologies: civ-offshore-platform-structures
 
+### Kebabangan Gas Field / Northern Hub Project (sys-kebabangan-gas-field-northern-hub-project)
+Status: **operating** | Country: Malaysia
+capacity: 825 MMscfd gas + 22,000 bbl/d condensate platform capacity; 2.2 tcf gas reserves | status: Operating; first production November 2014 | dates: ['1994 discovery', '2002 appraisal well', '2007 development and production sharing contract', '2010 detailed design', 'Nov 2014 first production'] | location: South China Sea, 130 km offshore Sabah, East Malaysia; 100-400 m water depth; platform in 142 m
+Technologies: ups-subsea-production-systems
+
 ### Kikeh (pf-kikeh)
 Status: **operating** | Country: Malaysia
 142 m × 32 m truss spar dry tree unit, 1,310-1,330 m, first Malaysian deepwater development
@@ -2540,6 +2585,11 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Malaysia
 337 m × 54.6 m, 273,000 dwt, 2 million bbl, 120,000 bpd
 Technologies: civ-offshore-platform-structures
+
+### Kikeh FPSO Development (sys-kikeh-fpso-development)
+Status: **operating** | Country: Malaysia
+capacity: 2 million bbl FPSO storage; 400-700 million bbl recoverable; 120,000 bpd initial ramp-up | status: Operating; first oil August 2007 | dates: ['Apr 2004 Kikeh-7 appraisal well', 'Aug 2007 first oil'] | location: Block K, 120 km north-west of Labuan, offshore Sabah, East Malaysia; ~1,330 m water depth
+Technologies: ups-subsea-production-systems
 
 ### Kikeh spar (pf-kikeh-spar)
 Status: **operating** | Country: Malaysia
@@ -2632,6 +2682,11 @@ Technologies: civ-offshore-platform-structures
 Status: **operating** | Country: Philippines
 Concrete gravity structure (CGS) built at Subic Bay, mated to a steel topside; condensate stored in CGS caisson shells; CALM buoy for tanker loading | 11,500-tonne steel topside deck built in Singapore; gas/condensate separation | Float-over mating of the 11,500 t topside onto the concrete gravity structure - described as the heaviest structure installed by float-over at the time; subsea wells/manifold at 850 m tied to the platform; 504 km 24-in gas export pipeline | CGS constructed at Subic Bay, topside built in Singapore (OGJ, fetched); named EPC contractors for these packages not stated in the fetched source. Power plants: KEPCO 1,200 MW Ilijan; First Gas Power 1,000 MW Santa Rita and 500 MW San Lorenzo | 850 m at subsea manifold; 43 m at the production platform | ~400-450 MMcf/d gas; 2,700 MW across three gas-fired power plants; reserves >3 Tcf gas and 120 million bbl condensate Concrete gravity structure (CGS) built at Subic Bay, mated to a steel topside; condensate stored in CGS caisson shells; CALM buoy for tanker loading | 11,500-tonne steel topside deck built in Singapore; gas/condensate separation | Float-over mating of the 11,500 t topside onto the concrete gravity struc
 Technologies: civ-offshore-platform-structures
+
+### Malampaya Deep Water Gas-to-Power Project (SC 38) (sys-malampaya-deep-water-gas-to-power-project-sc-38)
+Status: **operating** | Country: Philippines
+capacity: Design 508 MMscfd gas + 32,800 bbl/d stabilised condensate; 2,700 MW power generation cited | status: Operating; inaugurated October 2001 (onshore gas plant, Batangas) | dates: ['Aug 1998 EPIC award', 'Mar 2000 concrete structure completed', 'Mar 2001 deck installed', 'Oct 2001 inauguration', 'Dec 2001 extended well test'] | location: 80 km off Palawan Island, South China Sea; platform in 43 m water; subsea wells at 850 m
+Technologies: ups-subsea-production-systems
 
 ### Malampaya Gas-to-Power Project (cost-malampaya-gas-to-power-project)
 Status: **operating** | Country: Philippines (offshore Palawan)
@@ -2759,6 +2814,11 @@ Status: **operating** | Country: Norway
 World's deepest subsea compression at 900 m; EPCI awarded 2019 by A/S Norske Shell to OneSubsea/Subsea7; 32 MW, hydroelectric powered
 Technologies: ups-subsea-production-systems
 
+### Ormen Lange Gas Field (sys-ormen-lange-gas-field)
+Status: **operating** | Country: Norway
+capacity: 315 billion Sm3 gas resources; 24 wells from up to four subsea templates; 15% of UK gas requirement | status: Operating; gas production started 2007 | dates: ['1997 discovery well 6305/5-1', 'Dec 2003 development plan', 'Apr 2004 approval', '2007 first gas', 'May 2009 third template'] | location: ~140 km west of Kristiansund, Norwegian Sea; 800-1,200 m water depth
+Technologies: ups-subsea-production-systems
+
 ### Ormen Lange receiving scrubbers, Norway (wh-ormen-lange-receiving-scrubbers-norway)
 Status: **operating** | Country: Norway
 One of 16 receiving scrubbers assembled in shop; shown in SLB phase separation internals brochure (search-verified).
@@ -2813,6 +2873,16 @@ Technologies: ups-ai-seismic-interpretation-history-matching
 Status: **operating** | Country: BR
 2 rigs equipped for MPD as of mid-2014, planned expansion to 12 by end-2015 and 16 by 2016; seven wells drilled with MPD at the time
 Technologies: ups-managed-pressure-drilling
+
+### Petronas Bintulu LNG Complex (incl. LNG Train 9) (sys-petronas-bintulu-lng-complex-incl-lng-train-9)
+Status: **operating** | Country: Malaysia
+capacity: 25.7 Mtpa existing -> 29.3 Mtpa after Train 9; Train 9 3.6 Mtpa; 8 then 9 LNG trains; 850 MMscfd additional feed gas | status: Operating; Train 9 scheduled completion late 2015 | dates: ['Aug 1982 first train online', 'Jan 1983 first cargo', '1996 trains 4 and 6', '2004 trains 7 and 8', 'Dec 2012 FEED complete', 'Mar 2013 EPCC award', 'Late 2015 scheduled completion'] | location: ~20 km from Bintulu Town, Sarawak; 276 ha
+Technologies: ups-subsea-production-systems
+
+### PETRONAS PFLNG DUA (PFLNG-2, Rotan/Buluh gas fields) (sys-petronas-pflng-dua-pflng-2-rotan-buluh-gas-fields)
+Status: **operating** | Country: Malaysia
+capacity: 1.5 million tonnes per annum LNG; world's first FLNG serving a deepwater gas field >1,000 m | status: Operating; first production February 2021 | dates: ['Jan 2007 Rotan-1 discovery', '2012 FEED', 'Feb 2014 FID', 'May 2015 fabrication start', 'Dec 2015 keel laying', 'May 2016 hull launch', 'Feb-Mar 2020 tow to field', 'Feb 2021 first production'] | location: Block H, South China Sea, 140 km offshore Kota Kinabalu, Sabah; moored in up to 1,500 m water
+Technologies: ups-subsea-production-systems
 
 ### Petronius (pf-petronius)
 Status: **operating** | Country: USA
@@ -2956,6 +3026,11 @@ Status: **operating** | Country: Norway
 145-km umbilical supplied by Nexans
 Technologies: ups-subsea-production-systems
 
+### Snøhvit Gas Field / Hammerfest LNG (sys-sn-hvit-gas-field-hammerfest-lng)
+Status: **operating** | Country: Norway
+capacity: 193 billion Sm3 gas, 113 million bbl condensate, 5.1 Mt NGL; 5.75 bcm/yr LNG, 747,000 t condensate, 247,000 t LPG; 143 km x 68 cm ID gas line, 153 km CO2 pipeline, 2 chemical lines + umbilical | status: Operating; production started September 2007 | dates: ['1984 discovery', 'Sep 2001 plan submitted', 'Mar 2002 approval', '2004-05 CO2 injection and production wells drilled', '2007 production start', '2014-15 Askeladd start'] | location: Barents Sea, 140 km north-west of Hammerfest; 250-345 m water depth
+Technologies: ups-subsea-production-systems
+
 ### Sonatrach commercial use of Ingrain digital rock physics services (sonatrach-commercial-use-of-ingrain-digital-rock-physics-services)
 Status: **operating** | Country: DZ
 commercial agreement covering Ingrain's digital rock physics services (3D imaging and computation of reservoir rock properties)
@@ -2985,6 +3060,11 @@ Technologies: ups-co2-eor
 Status: **operating** | Country: AO
 seawater treatment for injection: SRP removes sulphates and other divalent ions from injection water (capacity not stated in the source)
 Technologies: ups-seawater-sulfate-removal
+
+### Tangguh LNG Project (sys-tangguh-lng-project)
+Status: **operating** | Country: Indonesia
+capacity: Two LNG trains, 7 million tonnes per year combined; reserves >18.3 tcf | status: Operating; production began 2009; Train 1 mid-June 2009, Train 2 Q3 2009 | dates: ['1997 project initiated by ARCO and Pertamina', '2004 construction start', '2009 production start'] | location: Bintuni Bay, West Papua; offshore fields and onshore LNG plant
+Technologies: ups-subsea-production-systems
 
 ### Tangguh LNG Train 3 Expansion (cost-tangguh-lng-train-3-expansion)
 Status: **operating** | Country: Indonesia
@@ -3072,6 +3152,11 @@ Recorded gaps: Dollar year not stated for some published costs
 Status: **operating** | Country: Norway
 Concrete semi-submersible, 325 m depth, 1995
 Technologies: civ-offshore-platform-structures
+
+### Troll West / Troll A Oil and Gas Field (sys-troll-west-troll-a-oil-and-gas-field)
+Status: **operating** | Country: Norway
+capacity: 1.8 tcm gas and 2 billion bbl oil recoverable; 2008 output ~138,000 bpd oil and ~120 Mmscm/d gas; Troll A 472 m tall, 656,000 t | status: Operating; oil production from late 1995, Troll B gas Sep 1995, Troll East gas Jun 1996, Troll C late 1999 | dates: ['1979 discovery', '1995-96 first production', '1999 Troll C start'] | location: Blocks 31/2, 31/3, 31/5 and 31/6, ~65 km west of Kollsnes; 315-345 m water depth
+Technologies: ups-subsea-production-systems
 
 ### Tullow Chacher Gas Processing Facility, Pakistan (wh-tullow-chacher-gas-processing-facility-pakistan)
 Status: **operating** | Country: Pakistan
@@ -3204,6 +3289,16 @@ Four fixed platforms: Brent Alpha steel jacket; Brent Bravo, Charlie and Delta c
 Technologies: civ-offshore-platform-structures
 Recorded gaps: Dollar year not stated for some published costs
 
+### Browse FLNG Project (Brecknock, Calliance, Torosa) (sys-browse-flng-project-brecknock-calliance-torosa)
+Status: **under-construction** | Country: Australia
+capacity: 15.4 tcf dry gas + 453 million bbl condensate (2C contingent resources); per FLNG 3.9 Mtpa LNG and ~22,000 bpd condensate | status: Pre-FEED/FEED stage as documented; FID expected second half 2016 (article dated Aug 2015) | dates: ['Sep 2013 decision to use FLNG', 'Jun 2015 FEED start', 'FID expected H2 2016'] | location: Browse Basin, 425 km north of Broome and 290 km off Kimberley coast; 350-700 m water depth
+Technologies: ups-subsea-production-systems
+
+### Deepwater Horizon / Macondo Prospect BOP failure and capping response (sys-deepwater-horizon-macondo-prospect-bop-failure-and-capping-response)
+Status: **under-construction** | Country: United States (Gulf of Mexico)
+capacity: Not applicable — well-control incident; capping stack 'Top Hat 10' with three Hydril blind shear ram BOPs | status: Well sealed by capping stack on 15 July 2010 after 87 days; failed BOP removed 3 September 2010 and replaced | dates: ['20 Apr 2010 Deepwater Horizon explosion', '22 Apr 2010 ROV attempted BOP activation', '10 Jul 2010 capping stack installation began', '15 Jul 2010 well temporarily sealed', '3 Sep 2010 failed BOP removed', '4 Sep 2010 replacement BOP placed', '20 Mar 2011 DNV final report presented to US Department of the Interior'] | location: Macondo Prospect, Gulf of Mexico; drilling rig in ~1,500 m water (depth not stated on page read)
+Technologies: ups-subsea-production-systems
+
 ### Hutton TLP (first tension leg platform) (pf-hutton-tlp-first-tension-leg-platform)
 Status: **under-construction** | Country: United Kingdom
 substructure_type: Conventional TLP, 16 tension legs — first TLP in the world | topside_type: Production topsides with accommodation (later redeployed to Prirazlomnoye) | water_depth: Designed for 100-1,000 m North Sea depths | topside_weight: 46,500-55,000 t when moored; up to 61,580 t floating freely | installation_method: Hull built in Highland Fabricators' Nigg dry dock (north Scotland); deck built at McDermott's Ardersier yard; two parts mated in the Moray Firth in 1984 | contractor: Highland Fabricators (hull); McDermott (deck) | dates: Built early 1980s; mated 1984; 25-year original design life
@@ -3234,10 +3329,25 @@ Status: **under-construction** | Country: United States
 substructure_type: Conventional one-piece cylindrical spar — first production spar | topside_type: Not stated on page read | water_depth: 590 m (1,940 ft) | topside_weight: Not stated on page read | installation_method: Moored spar (description on page read) | contractor: Not stated on page read | dates: Not stated on page read
 Technologies: civ-offshore-platform-structures
 
+### Perdido Regional Host Development (sys-perdido-regional-host-development)
+Status: **under-construction** | Country: United States (Gulf of Mexico)
+capacity: 130,000 bpd production; 17 subsea trees rated 10,000 psi; 2 subsea manifolds; 5 subsea caisson separation and boosting systems; 60 km production umbilicals | status: Development/host documented as deepest spar production facility and first with Direct Vertical Access (article dated Mar 2008) | dates: ['2004 Tobago and Silvertip discoveries'] | location: Alaminos Canyon, ~200 miles south of Freeport/Galveston, Texas; spar in 7,817 ft (2,383 m) water
+Technologies: ups-subsea-production-systems
+
 ### Red Hawk spar (pf-red-hawk-spar)
 Status: **under-construction** | Country: United States
 substructure_type: Cell spar — first and, as of 2010, only cell spar (rare type) | topside_type: Not stated on page read | water_depth: Not stated on page read | topside_weight: Not stated on page read | installation_method: Multiple vertical cylinders (cell spar configuration) | contractor: Not stated on page read | dates: As of 2010, only cell spar (per page read)
 Technologies: civ-offshore-platform-structures
+
+### Scarborough Gas Project and Pluto Train 2 (sys-scarborough-gas-project-and-pluto-train-2)
+Status: **under-construction** | Country: Australia
+capacity: 11.1 tcf dry gas; 8 wells initial phase, 13 additional over field life; $8.5-9.7bn investment | status: FID November 2021; development/construction stage as documented (June 2022 article states first production 2023) | dates: ['1979 Scarborough-1 discovery', "Mar 2018 Woodside acquired Esso's 50%", 'Nov 2021 FIDs', 'Jan 2022 GIP transaction'] | location: WA-1-R licence, Carnarvon Basin, ~270 km north-west of Onslow, Western Australia; 900-1,500 m water depth
+Technologies: ups-subsea-production-systems
+
+### Shah Deniz Stage Two (Full Field Development) (sys-shah-deniz-stage-two-full-field-development)
+Status: **under-construction** | Country: Azerbaijan
+capacity: 16 bcma gas + 120,000 bpd condensate incremental; 40 tcf reserves; 2 new onshore gas trains of 900 MMscfd each; $28bn total with SCP expansion | status: FID December 2013; first production expected 2018 (article dated May 2014) | dates: ['1999 discovery', '2006 Stage 1 production', 'Apr 2012 FEED start', 'Dec 2013 FID', '2018 expected first production'] | location: ~70 km south-east of Baku, Caspian Sea; 50-550 m water depth
+Technologies: ups-subsea-production-systems
 
 ### Sleipner A (pf-sleipner-a)
 Status: **under-construction** | Country: Norway

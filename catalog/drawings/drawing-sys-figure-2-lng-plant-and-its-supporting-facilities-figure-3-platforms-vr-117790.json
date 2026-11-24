@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-figure-2-lng-plant-and-its-supporting-facilities-figure-3-platforms-vr-117790",
+  "title": "Figure 2 — LNG Plant And Its Supporting Facilities; Figure 3 — Platforms VR-A And VR-B; Figure 7 — Tangguh Expansion Project Scope",
+  "diagram_type": "block-diagram",
+  "description": "Tangguh offshore platforms, 24 in subsea pipelines to onshore receiving facilities and two trains; expansion scope with LNG train 3, BOG recovery, utilities and flares | Figures: Figures 2, 3 and 7 in BP Berau Ltd / Sucofindo / ADB Tangguh EHS report",
+  "publisher": "BP Berau Ltd / Sucofindo / Asian Development Bank",
+  "url": "https://www.adb.org/sites/default/files/project-documents/49222/49222-001-esmr-en_7.pdf",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.adb.org/sites/default/files/project-documents/49222/49222-001-esmr-en_7.pdf",
+      "source_id": "sys-adb-org-49222-001-esmr-en-7-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct URL HTTP 200",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "sys-johan-sverdrup-power-from-shore-equinor",
+  "name": "Johan Sverdrup power-from-shore (Equinor)",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "description": "capacity: Field producing since Oct 2019 entirely on hydropower from shore; 0.67 kg CO2/bbl vs ~9 kg/bbl NCS average; >620,000 t/yr CO2 avoided (Equinor current figure; earlier launch estimate 460,000 t/yr) | status: Operating | dates: ['Oct 2019 production start'] | location: North Sea",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com/energy/electrification",
+      "source_id": "sys-equinor-com-electrification"
+    }
+  ],
+  "notes": "Added in the 2026-11-24 all-systems sweep.",
+  "last_reviewed": "2026-11-24"
+}

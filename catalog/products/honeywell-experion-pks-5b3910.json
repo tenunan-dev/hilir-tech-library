@@ -1,0 +1,41 @@
+{
+  "id": "honeywell-experion-pks-5b3910",
+  "name": "Experion PKS",
+  "manufacturer": "honeywell",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. DCS; statistics sourced from Honeywell process automation overview page (also fetched).",
+  "specifications": [
+    {
+      "metric": "installed base - refineries",
+      "unit": "%",
+      "basis": "",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
+        "source_id": "sys-process-honeywell-com-experion-pks"
+      },
+      "value": 45
+    },
+    {
+      "metric": "O&G processing plants",
+      "unit": "plants (over)",
+      "basis": "",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
+        "source_id": "sys-process-honeywell-com-experion-pks"
+      },
+      "value": 500
+    }
+  ],
+  "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
+  "sources": [
+    {
+      "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
+      "source_id": "sys-process-honeywell-com-experion-pks"
+    }
+  ],
+  "notes": "DCS; statistics sourced from Honeywell process automation overview page (also fetched).",
+  "last_reviewed": "2026-11-24"
+}

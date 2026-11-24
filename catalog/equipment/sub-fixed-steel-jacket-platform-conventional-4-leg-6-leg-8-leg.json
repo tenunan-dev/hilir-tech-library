@@ -27,7 +27,7 @@
       "basis": "Wikipedia Oil platform, Fixed platforms section: economically feasible up to about 520 m (1,710 ft)",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
-        "source_id": "en-wikipedia-org-wiki-oil-platform"
+        "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "value": 520
     },
@@ -67,7 +67,7 @@
     },
     {
       "url": "https://en.wikipedia.org/wiki/Oil_platform",
-      "source_id": "en-wikipedia-org-wiki-oil-platform"
+      "source_id": "sys-en-wikipedia-org-oil-platform"
     },
     {
       "url": "https://www.offshore-technology.com/projects/gudrunfield",

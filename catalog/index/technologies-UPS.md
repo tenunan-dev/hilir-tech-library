@@ -1200,7 +1200,7 @@ flowchart LR
     MAN --> HOST
 ```
 
-**Key equipment:** subsea trees, manifolds, umbilicals, control systems, flowlines, subsea tree, subsea wellhead, manifold/PLET, umbilical and SCM, flexible flowline, SCR, subsea boosting, CALM/SPM export.
+**Key equipment:** subsea trees, manifolds, umbilicals, control systems, flowlines, subsea tree, subsea wellhead, manifold/PLET, umbilical and SCM, flexible flowline, SCR, subsea boosting, CALM/SPM export, riser, subsea umbilical, pipeline/flowline, wet-mate connector, BOP, subsea separator, injection system.
 
 **Performance:**
 - subsea tree awards in 2024: 255 units; 12% below 2023. [source](https://www.westwoodenergy.com/sectors/offshore-energy-services/subsea-equipment-and-services/global-subsea-tree-tracker-2025)

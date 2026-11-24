@@ -1,0 +1,42 @@
+{
+  "id": "howden-howden-tfc90-tfc180-diaphragm-compressor-packages-7f857d",
+  "name": "Howden TFC90 / TFC180 diaphragm compressor packages",
+  "manufacturer": "howden-a-chart-industries-company-kk-k-ckd-brands",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. Skid mounted; H2 service",
+  "specifications": [
+    {
+      "metric": "Electrolyser module size",
+      "unit": "MW",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+      },
+      "low": 5,
+      "high": 10
+    },
+    {
+      "metric": "Process gas leakage",
+      "unit": "qualitative (zero leakage stated)",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+      },
+      "value": 0
+    }
+  ],
+  "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+  "sources": [
+    {
+      "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+      "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+    }
+  ],
+  "notes": "Skid mounted; H2 service",
+  "last_reviewed": "2026-11-24"
+}

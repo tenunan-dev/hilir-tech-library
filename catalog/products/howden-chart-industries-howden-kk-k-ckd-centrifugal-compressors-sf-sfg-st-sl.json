@@ -1,0 +1,64 @@
+{
+  "id": "howden-chart-industries-howden-kk-k-ckd-centrifugal-compressors-sf-sfg-st-sl",
+  "name": "Howden / KK&K & CKD centrifugal compressors (SF, SFG, ST, SL, RS, RV)",
+  "manufacturer": "howden-a-chart-industries-company-kk-k-ckd-brands",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24. Oil & gas, petrochemical, SAGD, CO2 capture applications listed",
+  "specifications": [
+    {
+      "metric": "Single-stage flow envelope",
+      "unit": "m3/h",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 1500,
+      "high": 600000
+    },
+    {
+      "metric": "Multistage flow envelope",
+      "unit": "m3/h",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 400,
+      "high": 200000
+    },
+    {
+      "metric": "Pressure ratio",
+      "unit": "ratio depending on series",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 3.5,
+      "high": 10
+    },
+    {
+      "metric": "CKD discharge pressure",
+      "unit": "MPa",
+      "basis": "",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "value": 20
+    }
+  ],
+  "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+  "sources": [
+    {
+      "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+      "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+    }
+  ],
+  "notes": "Oil & gas, petrochemical, SAGD, CO2 capture applications listed",
+  "last_reviewed": "2026-11-24"
+}

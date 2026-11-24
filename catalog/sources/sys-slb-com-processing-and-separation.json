@@ -1,0 +1,33 @@
+{
+  "id": "sys-slb-com-processing-and-separation",
+  "name": "SLB — Separation design objective",
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "SLB",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. SLB Processing and Separation overview; process pilot testing used to optimize technology selection Evidence: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+}

@@ -64,7 +64,11 @@
     "paralleling controller",
     "generator circuit breaker and MV switchgear",
     "absorption chiller for waste heat",
-    "foundation and vibration isolation"
+    "foundation and vibration isolation",
+    "diesel generator",
+    "solar hybrid",
+    "wireless instrumentation",
+    "gas export compressor"
   ],
   "suppliers": [
     {
@@ -253,5 +257,5 @@
       }
     }
   ],
-  "notes": " Balance-of-plant, utilities, products, drawings and named projects added 2026-11-24. Balance-of-plant, utilities, products, drawings and named projects added 2026-11-24. Balance-of-plant, utilities, products, drawings and named projects added 2026-11-24."
+  "notes": " Balance-of-plant, utilities, products, drawings and named projects added 2026-11-24. Balance-of-plant, utilities, products, drawings and named projects added 2026-11-24. Balance-of-plant, utilities, products, drawings and named projects added 2026-11-24. Riser/umbilical/pipeline/BOP/tree/separation/injection/compression/flare/piping/genset/solar/wireless/instrumentation systems added 2026-11-24. Riser/umbilical/pipeline/BOP/tree/separation/injection/compression/flare/piping/genset/solar/wireless/instrumentation systems added 2026-11-24."
 }

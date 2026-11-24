@@ -1,0 +1,33 @@
+{
+  "id": "sys-fieldcommgroup-org-hart",
+  "name": "Fieldcommgroup.Org — installed base",
+  "url": "https://www.fieldcommgroup.org/technologies/hart",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Fieldcommgroup.Org",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. FieldComm Group HART page: 'over 40 million field instruments supporting HART technology installed worldwide' Evidence: https://www.fieldcommgroup.org/technologies/hart"
+}

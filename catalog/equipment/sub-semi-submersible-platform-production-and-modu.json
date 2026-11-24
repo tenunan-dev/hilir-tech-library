@@ -17,7 +17,7 @@
       "basis": "Wikipedia Oil platform, Semi-submersible platform: can be used in water depths from 60 to 6,000 m (200 to 20,000 ft)",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
-        "source_id": "en-wikipedia-org-wiki-oil-platform"
+        "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "low": 60,
       "high": 6000
@@ -71,7 +71,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Oil_platform",
-      "source_id": "en-wikipedia-org-wiki-oil-platform"
+      "source_id": "sys-en-wikipedia-org-oil-platform"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",

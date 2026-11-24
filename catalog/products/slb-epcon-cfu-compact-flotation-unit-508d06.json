@@ -1,0 +1,31 @@
+{
+  "id": "slb-epcon-cfu-compact-flotation-unit-508d06",
+  "name": "EPCON CFU Compact Flotation Unit",
+  "manufacturer": "slb-cameron-pressure-control-equipment",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. Case-study detail page not fetched.",
+  "specifications": [
+    {
+      "metric": "Documented application",
+      "unit": "n/a",
+      "basis": "SLB Processing and Separation page case-study title",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+        "source_id": "sys-slb-com-processing-and-separation"
+      },
+      "value": "oil-in-water separation (Oman case study)"
+    }
+  ],
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+  "sources": [
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+      "source_id": "sys-slb-com-processing-and-separation"
+    }
+  ],
+  "notes": "Case-study detail page not fetched.",
+  "last_reviewed": "2026-11-24"
+}

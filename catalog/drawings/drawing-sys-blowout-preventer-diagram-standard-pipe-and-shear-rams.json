@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-blowout-preventer-diagram-standard-pipe-and-shear-rams",
+  "title": "Blowout preventer diagram — standard, pipe and shear rams",
+  "diagram_type": "schematic",
+  "description": "Cross-section comparing ram BOP types and how each seals or shears the wellbore | Figures: Unnumbered figure on Wikipedia 'Blowout preventer' page; Commons File:Blowout Preventer.svg; caption '(a) standard ram (b) pipe ram and (c) shear ram'",
+  "publisher": "Wikimedia Commons; author Egmason (2011)",
+  "url": "https://commons.wikimedia.org/wiki/File:Blowout_Preventer.svg",
+  "licence": "CC BY-SA 3.0 (attribution + share-alike on derivatives). Cite author and licence; do not imply endorsement.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral",
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "top-flare-platform-topsides-and-flare-booms-stacks",
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Blowout_Preventer.svg",
+      "source_id": "sys-commons-wikimedia-org-file-blowout-preventer-svg"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch of Wikipedia Blowout preventer page + WebFetch of Commons file page",
+  "last_reviewed": "2026-11-24"
+}

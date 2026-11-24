@@ -109,7 +109,7 @@
       "range": "72.5-800 kV"
     },
     {
-      "vendor": "siemens-energy",
+      "vendor": "siemens-energy-incl-ex-dresser-rand",
       "line": "3AP / 3AT / SPS",
       "models": [
         "3AP live tank",
@@ -131,7 +131,7 @@
   ],
   "vendors": [
     "hitachi-energy",
-    "siemens-energy",
+    "siemens-energy-incl-ex-dresser-rand",
     "ge-vernova"
   ],
   "technologies": [

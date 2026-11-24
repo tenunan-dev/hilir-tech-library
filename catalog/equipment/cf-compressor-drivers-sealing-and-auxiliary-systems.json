@@ -1,0 +1,77 @@
+{
+  "id": "cf-compressor-drivers-sealing-and-auxiliary-systems",
+  "name": "Compressor drivers, sealing and auxiliary systems",
+  "equipment_type": "cf-system",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "UPS",
+    "PRC",
+    "ELE"
+  ],
+  "description": "Provide shaft power, prevent process-gas leakage to atmosphere, and support lube/seal-oil and capacity control. On offshore platforms electric motors or gas turbines are most common; steam turbines are offered as integrated drivers on some turbo compressors.",
+  "specifications": [
+    {
+      "metric": "Howden steam turbine power range",
+      "unit": "kW",
+      "basis": "Howden steam turbines 75 kW to 40 MWe; mechanical drive for rotating equipment 10 kW to 40 MW; inlet pressures to 70 bar",
+      "source": {
+        "url": "https://www.howden.com/en-gb/products/compressors",
+        "source_id": "sys-howden-com-compressors"
+      },
+      "low": 75,
+      "high": 40000
+    },
+    {
+      "metric": "Packing vent-gas reduction",
+      "unit": "Nm3 prevented",
+      "basis": "Howden/CPI EMISSIONGUARD TR2 packing rings stated to have prevented an estimated 20,173,000 Nm3 (693,144,000 scf) of vented gas, equivalent to 60,500 t CO2",
+      "source": {
+        "url": "https://www.howden.com/en-gb/products/compressors",
+        "source_id": "sys-howden-com-compressors"
+      },
+      "value": 20173000
+    },
+    {
+      "metric": "Compressor improvement standard",
+      "unit": "standard",
+      "basis": "Howden lists N2 buffer system per API 618 and 'compressor improvements API 618' in revamp services",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+      },
+      "value": "API 618"
+    }
+  ],
+  "vendors": [
+    "cpi-by-howden",
+    "howden-turbo-uk-peter-brotherhood"
+  ],
+  "sources": [
+    {
+      "url": "https://www.howden.com/en-gb/products/compressors",
+      "source_id": "sys-howden-com-compressors"
+    },
+    {
+      "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+      "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named compressor train with driver power, seal type and auxiliaries for an offshore gas export duty",
+      "why": "Not on fetched pages",
+      "next_action": "Fetch a Siemens Energy or GE Vernova compressor-train data sheet and an FPSO topsides equipment list"
+    },
+    {
+      "what": "Named compressor train with driver power, seal type and auxiliaries for an offshore gas export duty",
+      "why": "Not on fetched pages",
+      "next_action": "Fetch a Siemens Energy or GE Vernova compressor-train data sheet and an FPSO topsides equipment list"
+    }
+  ],
+  "applications": [
+    "Provide shaft power, prevent process-gas leakage to atmosphere, and support lube/seal-oil and capacity control. On offshore platforms electric motors or gas tur"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

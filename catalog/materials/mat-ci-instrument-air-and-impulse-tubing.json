@@ -1,0 +1,35 @@
+{
+  "id": "mat-ci-instrument-air-and-impulse-tubing",
+  "name": "Instrument air and impulse tubing",
+  "material_category": "pneumatic-process-interface",
+  "description": "Pneumatic supply to actuators and impulse lines conveying process pressure to transmitters.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Pneumatic supply to actuators and impulse lines conveying process pressure to transmitters.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards",
+        "source_id": "sys-api-org-standards"
+      }
+    }
+  ],
+  "applications": [
+    "Pneumatic supply to actuators and impulse lines conveying process pressure to transmitters."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "yokogawa"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "sys-api-org-standards"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

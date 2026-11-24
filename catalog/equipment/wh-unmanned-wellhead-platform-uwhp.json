@@ -17,7 +17,7 @@
       "basis": "Wikipedia Oil platform, Normally Unmanned Installations section",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
-        "source_id": "en-wikipedia-org-wiki-oil-platform"
+        "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "value": "small platforms consisting of little more than a well bay, helipad and emergency shelter; operated remotely under normal conditions"
     }
@@ -28,7 +28,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Oil_platform",
-      "source_id": "en-wikipedia-org-wiki-oil-platform"
+      "source_id": "sys-en-wikipedia-org-oil-platform"
     }
   ],
   "gaps": [

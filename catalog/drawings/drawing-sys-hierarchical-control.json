@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-hierarchical-control",
+  "title": "Hierarchical Control",
+  "diagram_type": "block-diagram",
+  "description": "Centralised/decentralised hierarchical control architecture for microgrids | Figures: Wikipedia caption 'Hierarchical Control' on 'Microgrid' page (File:Microgrid Hierarchical Control.png)",
+  "publisher": "Wikipedia / Wikimedia Commons (secondary)",
+  "url": "https://en.wikipedia.org/wiki/Microgrid",
+  "licence": "Wikipedia article text CC BY-SA 4.0; individual image licences vary — check the Commons file page before reuse.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral",
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "top-flare-platform-topsides-and-flare-booms-stacks",
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Microgrid",
+      "source_id": "sys-en-wikipedia-org-microgrid"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. Wikipedia raw wikitext caption extracted via direct fetch; URL HTTP 200",
+  "last_reviewed": "2026-11-24"
+}

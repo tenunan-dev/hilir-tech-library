@@ -28,7 +28,7 @@
       "basis": "Schneider Electric White Paper 286, Figure 5 and accompanying text",
       "source": {
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-        "source_id": "download-se-com-download-se-com-files"
+        "source_id": "sys-download-se-com-files"
       },
       "value": "Instrument Air and Starting Air Unit are listed as generator-unit auxiliaries; starting air unit and controller unit are engine-dedicated in the study plant"
     }
@@ -46,7 +46,7 @@
     },
     {
       "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-      "source_id": "download-se-com-download-se-com-files"
+      "source_id": "sys-download-se-com-files"
     }
   ],
   "gaps": [

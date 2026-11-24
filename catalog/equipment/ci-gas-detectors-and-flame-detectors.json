@@ -1,0 +1,42 @@
+{
+  "id": "ci-gas-detectors-and-flame-detectors",
+  "name": "Gas detectors and flame detectors",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Fixed and portable detection of combustible/toxic gas and flame, interfaced to fire & gas systems and SIS.",
+  "specifications": [
+    {
+      "metric": "gas/flame detection effectiveness guidance",
+      "unit": "technical report",
+      "basis": "ISA-84 Standards page",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
+        "source_id": "sys-isa-org-isa-84-standards"
+      },
+      "value": "ISA-TR84.00.07-2026: Guidance on the Evaluation of Fire, Combustible Gas, and Toxic Gas System Effectiveness - covers detection coverage, response times and system reliability"
+    }
+  ],
+  "vendors": [
+    "msa",
+    "honeywell-analytics",
+    "draeger"
+  ],
+  "sources": [
+    {
+      "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
+      "source_id": "sys-isa-org-isa-84-standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Fixed and portable detection of combustible/toxic gas and flame, interfaced to fire & gas systems and SIS."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

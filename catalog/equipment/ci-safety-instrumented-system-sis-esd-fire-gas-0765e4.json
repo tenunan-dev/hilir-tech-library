@@ -1,0 +1,81 @@
+{
+  "id": "ci-safety-instrumented-system-sis-esd-fire-gas-0765e4",
+  "name": "Safety Instrumented System",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Independent safety layer that detects hazardous conditions and drives the process to a safe state; ESD and fire & gas are core SIFs on offshore and onshore facilities.",
+  "specifications": [
+    {
+      "metric": "functional safety standard (process industry)",
+      "unit": "standard",
+      "basis": "ISA-84 Standards page: defines SIS lifecycle framework and performance targets based on Safety Integrity Levels (SIL)",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
+        "source_id": "sys-isa-org-isa-84-standards"
+      },
+      "value": "ANSI/ISA-61511-1-2018 / IEC 61511-1:2016+AMD1:2017 CSV"
+    },
+    {
+      "metric": "SIL determination guidance",
+      "unit": "standard",
+      "basis": "ISA-84 Standards page",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
+        "source_id": "sys-isa-org-isa-84-standards"
+      },
+      "value": "ANSI/ISA-61511-3-2018 / IEC 61511-3:2016 - guidance for determination of required SIL; covers tolerable risk and methodologies"
+    },
+    {
+      "metric": "SIL verification",
+      "unit": "technical report",
+      "basis": "ISA-84 Standards page",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
+        "source_id": "sys-isa-org-isa-84-standards"
+      },
+      "value": "ISA-TR84.00.02-2022: SIL Verification of Safety Instrumented Functions - random and systematic failures, spurious trip rates, failure probabilities"
+    },
+    {
+      "metric": "wireless in non-SIS protection layers",
+      "unit": "technical report",
+      "basis": "ISA-84 Standards page",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
+        "source_id": "sys-isa-org-isa-84-standards"
+      },
+      "value": "ISA-TR84.00.08-2017: Guidance for Application of Wireless Sensor Technology to Non-SIS Independent Protection Layers"
+    },
+    {
+      "metric": "safety lifecycle scope",
+      "unit": "scope",
+      "basis": "ISA-84 Standards page",
+      "source": {
+        "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
+        "source_id": "sys-isa-org-isa-84-standards"
+      },
+      "value": "design, installation, operation, maintenance, decommissioning; plus ISA-TR84.00.09-2024 cybersecurity related to the safety lifecycle"
+    }
+  ],
+  "vendors": [
+    "yokogawa",
+    "honeywell"
+  ],
+  "sources": [
+    {
+      "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
+      "source_id": "sys-isa-org-isa-84-standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Independent safety layer that detects hazardous conditions and drives the process to a safe state; ESD and fire & gas are core SIFs on offshore and onshore faci"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

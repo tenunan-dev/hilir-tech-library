@@ -1,0 +1,65 @@
+{
+  "id": "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading",
+  "name": "Hoses",
+  "equipment_type": "fl-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Flexible transfer of hydraulic power, chemicals, drilling fluids and fluids/gases between equipment; in umbilicals, hose elements carry hydraulic and chemical services.",
+  "specifications": [
+    {
+      "metric": "Thermoplastic hose umbilical attributes",
+      "unit": "n/a",
+      "basis": "TechnipFMC umbilicals page, 'Umbilical products' list",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
+        "source_id": "sys-technipfmc-com-c36d9c"
+      },
+      "value": "highly dynamic; short lead time; cost effective"
+    },
+    {
+      "metric": "Next-generation thermoplastic hose drivers",
+      "unit": "n/a",
+      "basis": "TechnipFMC umbilicals page, 'Next generation thermoplastic hose'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
+        "source_id": "sys-technipfmc-com-c36d9c"
+      },
+      "value": "harsh environments, ultra-deepwater, elevated temperatures, longer tiebacks; shorter manufacturing lead time; simpler hose-to-end-fitting termination"
+    },
+    {
+      "metric": "Hydraulic/chemical service in steel-tube umbilical",
+      "unit": "n/a",
+      "basis": "OneSubsea steeltube umbilicals page",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals",
+        "source_id": "sys-onesubsea-slb-com-steeltube-umbilicals"
+      },
+      "value": "hydraulic fluid for control; various chemical fluids for injection into the flowline"
+    }
+  ],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "slb-onesubsea-slb-aker-solutions-subsea7-joint-venture"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
+      "source_id": "sys-technipfmc-com-c36d9c"
+    },
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals",
+      "source_id": "sys-onesubsea-slb-com-steeltube-umbilicals"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Flexible transfer of hydraulic power, chemicals, drilling fluids and fluids/gases between equipment; in umbilicals, hose elements carry hydraulic and chemical s"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

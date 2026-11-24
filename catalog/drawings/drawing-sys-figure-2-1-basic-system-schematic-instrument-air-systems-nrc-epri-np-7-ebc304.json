@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-figure-2-1-basic-system-schematic-instrument-air-systems-nrc-epri-np-7-ebc304",
+  "title": "Figure 2-1 — Basic system schematic, Instrument Air Systems (NRC/EPRI NP-7079)",
+  "diagram_type": "schematic",
+  "description": "Intake filters, compressors, intercoolers, aftercoolers, moisture separators, air receiver, dryer and distribution subsystems | Figures: Figure 2-1 in 'Instrument Air Systems: A Guide for Power Plant Maintenance Personnel' (NP-7079)",
+  "publisher": "U.S. Nuclear Regulatory Commission / EPRI",
+  "url": "https://www.nrc.gov/docs/ml0037/ml003767039.pdf",
+  "licence": "Public domain. Freely reusable with attribution good practice.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nrc.gov/docs/ml0037/ml003767039.pdf",
+      "source_id": "sys-nrc-gov-ml003767039-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct GET HTTP 403 (bot protection)",
+  "last_reviewed": "2026-11-24"
+}

@@ -17,7 +17,7 @@
       "basis": "Cummins Gas Power Plant Application Manual, section 5.6.3 Fire Arrangements",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "design by competent licensed professional and reviewed by Cummins; uninterruptible emergency power for critical functions; smoke and heat detection in all non-sprinkled areas; alarms monitored 24/7 at constantly attended location"
     },
@@ -27,7 +27,7 @@
       "basis": "Cummins Gas Power Plant Application Manual, section 5.6.3",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "1"
     },
@@ -37,7 +37,7 @@
       "basis": "Schneider Electric White Paper 286, Figure 5",
       "source": {
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-        "source_id": "download-se-com-download-se-com-files"
+        "source_id": "sys-download-se-com-files"
       },
       "value": "listed as a common power-plant system and classified 'Non Critical' in the Schneider/Wärtsilä study (gas piping/pressure reduction, gas storage, electrical distribution, control system classified Critical)"
     },
@@ -47,7 +47,7 @@
       "basis": "Cummins Gas Power Plant Application Manual, section 3.3 ventilation/dampers",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "gravity-type dampers close on actuator failure or loss of AC power, starving enclosure of air and helping extinguish fire; dampers to be used with screen"
     }
@@ -58,11 +58,11 @@
   "sources": [
     {
       "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
     },
     {
       "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-      "source_id": "download-se-com-download-se-com-files"
+      "source_id": "sys-download-se-com-files"
     }
   ],
   "gaps": [],

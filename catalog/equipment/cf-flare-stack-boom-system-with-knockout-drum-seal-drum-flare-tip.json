@@ -1,0 +1,128 @@
+{
+  "id": "cf-flare-stack-boom-system-with-knockout-drum-seal-drum-flare-tip",
+  "name": "Flare stack / boom system with knockout drum, seal drum, flare tips, pilots and ignition",
+  "equipment_type": "cf-system",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "UPS",
+    "PRC",
+    "ELE"
+  ],
+  "description": "Safely disposes of relieved and waste gas from PSVs and shutdowns. Header routes gas to a KO (vapour-liquid separator) drum, then a water/liquid seal drum preventing flashback, then an elevated stack or ground flare with pilots and continuous ignition. Stack height or boom reach is set by permissible thermal radiation.",
+  "specifications": [
+    {
+      "metric": "Continuous personnel thermal radiation limit",
+      "unit": "kW/m2",
+      "basis": "Recommended maximum for continuous exposure of personnel wearing appropriate industrial clothing; 500 Btu/hr.ft2",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_flare",
+        "source_id": "sys-en-wikipedia-org-gas-flare"
+      },
+      "value": 1.58
+    },
+    {
+      "metric": "Short-exposure thermal radiation (3-4 min)",
+      "unit": "kW/m2",
+      "basis": "4.73 kW/m2 (1500 Btu/hr.ft2) limits exposure to 3-4 minutes",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_flare",
+        "source_id": "sys-en-wikipedia-org-gas-flare"
+      },
+      "value": 4.73
+    },
+    {
+      "metric": "Short-exposure thermal radiation (30 s)",
+      "unit": "kW/m2",
+      "basis": "6.31 kW/m2 (2000 Btu/hr.ft2) limits exposure to 30 seconds",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_flare",
+        "source_id": "sys-en-wikipedia-org-gas-flare"
+      },
+      "value": 6.31
+    },
+    {
+      "metric": "Sonic flare tip upstream pressure threshold",
+      "unit": "bar (greater than)",
+      "basis": "Wikipedia gas-flare tip configurations: 'sonic tip - upstream pressure >5 bar'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_flare",
+        "source_id": "sys-en-wikipedia-org-gas-flare"
+      },
+      "low": 5
+    },
+    {
+      "metric": "Enclosed biogas flare combustion temperature",
+      "unit": "degC",
+      "basis": "Flare specification for enclosed flares: >1000 and <1200 degC to ensure 98% destruction efficiency and avoid NOx formation; 0.3 s residence time in chimney",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_flare",
+        "source_id": "sys-en-wikipedia-org-gas-flare"
+      },
+      "low": 1000,
+      "high": 1200
+    },
+    {
+      "metric": "Flare destruction efficiency (LRGO multi-point ground flare)",
+      "unit": "% (typically greater than)",
+      "basis": "John Zink LRGO: 'highest destruction efficiency (typically >99.5%) of any flare type'; API 537 compliance available",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+        "source_id": "sys-johnzink-com-lrgo-multi-point-ground-flare"
+      },
+      "low": 99.5
+    }
+  ],
+  "vendors": [
+    "john-zink-koch-engineered-solutions",
+    "flaretech",
+    "zeto"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Gas_flare",
+      "source_id": "sys-en-wikipedia-org-gas-flare"
+    },
+    {
+      "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+      "source_id": "sys-johnzink-com-lrgo-multi-point-ground-flare"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Direct text of API Std 521 and API Std 537 (edition, scope, definitive radiation/noise limits)",
+      "why": "API 521/537 dedicated URLs returned 404; only the secondary Wikipedia page quoting API 521 Table 12 and a John Zink 'API 537 compliance available' statement were fetched",
+      "next_action": "Use the API webstore or IBR reading room; record exact edition and clause before citing limits as normative"
+    },
+    {
+      "what": "ISO 25457 scope, edition and relationship to API 537",
+      "why": "Guessed ISO standard number resolved to an unrelated UPnP standard; ISO 25457 page was never fetched",
+      "next_action": "Locate the correct ISO catalogue record via iso.org search and fetch it"
+    },
+    {
+      "what": "Quantified flare noise limits and flare-stack height design method",
+      "why": "OEM pages describe 'minimizing noise' but give no dBA or height formula; Wikipedia gives radiation criteria only",
+      "next_action": "Fetch a dedicated flare-noise/stack-height engineering reference or an operator design standard"
+    },
+    {
+      "what": "KO drum and seal drum sizing rules (holdup, residence time, diameter)",
+      "why": "Not on any fetched page",
+      "next_action": "Fetch API 521 text or an engineering-design reference with worked sizing"
+    },
+    {
+      "what": "Direct text of API Std 521 and API Std 537 (edition, scope, definitive radiation/noise limits)",
+      "why": "API 521/537 dedicated URLs returned 404; only the secondary Wikipedia page quoting API 521 Table 12 and a John Zink 'API 537 compliance available' statement were fetched",
+      "next_action": "Use the API webstore or IBR reading room; record exact edition and clause before citing limits as normative"
+    },
+    {
+      "what": "ISO 25457 scope, edition and relationship to API 537",
+      "why": "Guessed ISO standard number resolved to an unrelated UPnP standard; ISO 25457 page was never fetched",
+      "next_action": "Locate the correct ISO catalogue record via iso.org search and fetch it"
+    }
+  ],
+  "applications": [
+    "Safely disposes of relieved and waste gas from PSVs and shutdowns. Header routes gas to a KO (vapour-liquid separator) drum, then a water/liquid seal drum preve"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

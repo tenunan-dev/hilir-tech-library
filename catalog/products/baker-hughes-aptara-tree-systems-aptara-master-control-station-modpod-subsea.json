@@ -1,0 +1,31 @@
+{
+  "id": "baker-hughes-aptara-tree-systems-aptara-master-control-station-modpod-subsea",
+  "name": "Aptara tree systems / Aptara Master Control Station / ModPod subsea control module",
+  "manufacturer": "baker-hughes",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24. Product names from the fetched page listing; no numeric specifications on that page.",
+  "specifications": [
+    {
+      "metric": "Tree families",
+      "unit": "n/a",
+      "basis": "Baker Hughes subsea production systems listing",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems",
+        "source_id": "sys-bakerhughes-com-subsea-production-systems"
+      },
+      "value": "deepwater horizontal, medium-water horizontal, shallow-water, subsea HPHT"
+    }
+  ],
+  "url": "https://www.bakerhughes.com/subsea/subsea-production-systems",
+  "sources": [
+    {
+      "url": "https://www.bakerhughes.com/subsea/subsea-production-systems",
+      "source_id": "sys-bakerhughes-com-subsea-production-systems"
+    }
+  ],
+  "notes": "Product names from the fetched page listing; no numeric specifications on that page.",
+  "last_reviewed": "2026-11-24"
+}

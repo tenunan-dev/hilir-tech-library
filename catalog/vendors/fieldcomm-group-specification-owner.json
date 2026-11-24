@@ -1,0 +1,23 @@
+{
+  "id": "fieldcomm-group-specification-owner",
+  "name": "FieldComm Group (specification owner)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "FieldComm Group (specification owner) is named as a supplier on a page read during the all-systems sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Created from a page read in the 2026-11-24 all-systems sweep."
+}

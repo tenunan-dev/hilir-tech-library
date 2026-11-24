@@ -1,0 +1,102 @@
+{
+  "id": "cf-gas-export-reinforcement-centrifugal-compressor-train-integral-a5a9f5",
+  "name": "Gas export / reinforcement centrifugal compressor train",
+  "equipment_type": "cf-system",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "UPS",
+    "PRC",
+    "ELE"
+  ],
+  "description": "Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty; drivers are electric motors or steam/gas turbines, with dry gas seals and oil systems as auxiliaries.",
+  "specifications": [
+    {
+      "metric": "Single-stage flow range",
+      "unit": "m3/h",
+      "basis": "Howden/KK&K single-stage centrifugal model range (SF 15,000-600,000; SFG 5,000-300,000; ST 1,500-150,000; SL 15,000-450,000 m3/h), pressure ratio up to 3.5",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 1500,
+      "high": 600000
+    },
+    {
+      "metric": "Multistage flow range",
+      "unit": "m3/h",
+      "basis": "Howden/KK&K + CKD multistage range (RS 400-65,000; RV 400-85,000 / 400-170,000 back-to-back), pressure ratio up to 10.0",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 400,
+      "high": 200000
+    },
+    {
+      "metric": "Periflow maximum discharge pressure",
+      "unit": "bar",
+      "basis": "Howden Periflow compressor performance, capacity flow 10-20,000 m3/h, variable speed 1000-6000 rpm",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+      },
+      "value": 350
+    },
+    {
+      "metric": "Compressor design life / installed base",
+      "unit": "installations",
+      "basis": "Howden industrial centrifugal turbo compressors, 'proven over 100 years and 4000 installations'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Screw compressors in FLNG service",
+      "unit": "qualitative",
+      "basis": "Howden states screw compressors 'selected for a number of FLNG projects for their compact design, high performance and reliability' (FLNGscrewcompressor.pdf listed on page); no numeric rating printed on fetched page",
+      "source": {
+        "url": "https://www.howden.com/en-gb/products/compressors",
+        "source_id": "sys-howden-com-compressors"
+      }
+    }
+  ],
+  "vendors": [
+    "howden-a-chart-industries-company-kk-k-ckd-brands",
+    "siemens-energy-incl-ex-dresser-rand",
+    "ge-vernova-baker-hughes"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+      "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+    },
+    {
+      "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+      "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+    },
+    {
+      "url": "https://www.howden.com/en-gb/products/compressors",
+      "source_id": "sys-howden-com-compressors"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named offshore/onshore gas-export compressor train with duty (MMSCFD, suction/discharge bar, absorbed MW) and driver",
+      "why": "OEM pages fetched give machine envelopes but no specific export-gas project duty; Siemens/GE/MAN pages were not fetchable",
+      "next_action": "Fetch Siemens Energy 'compression' product pages and a named operator/EPC case study with an equipment data sheet"
+    },
+    {
+      "what": "Dry-gas seal and wet-seal leakage / seal-gas consumption figures for export compressors",
+      "why": "Not printed on fetched OEM pages",
+      "next_action": "Fetch a dry-gas seal OEM data sheet (e.g. Flowserve/John Crane) and Howden/CPI sealing bulletin"
+    }
+  ],
+  "applications": [
+    "Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty;"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -17,7 +17,7 @@
       "basis": "Wikipedia Oil platform, Conductor support systems",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
-        "source_id": "en-wikipedia-org-wiki-oil-platform"
+        "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "value": "small unmanned platform with well bay and small process plant, connected to a static production platform by flowlines/umbilical"
     }
@@ -28,7 +28,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Oil_platform",
-      "source_id": "en-wikipedia-org-wiki-oil-platform"
+      "source_id": "sys-en-wikipedia-org-oil-platform"
     }
   ],
   "gaps": [],

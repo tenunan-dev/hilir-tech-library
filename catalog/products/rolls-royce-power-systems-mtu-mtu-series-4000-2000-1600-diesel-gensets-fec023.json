@@ -1,0 +1,64 @@
+{
+  "id": "rolls-royce-power-systems-mtu-mtu-series-4000-2000-1600-diesel-gensets-fec023",
+  "name": "mtu Series 4000 / 2000 / 1600 diesel gensets",
+  "manufacturer": "rolls-royce-power-systems",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Vendor product line read 2026-11-24. HVO to EN 15940 approved on Series 4000/1600",
+  "specifications": [
+    {
+      "metric": "Series 4000",
+      "unit": "kWe @60 Hz (1600-4000 kVA @50 Hz)",
+      "basis": "",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "low": 1125,
+      "high": 3250
+    },
+    {
+      "metric": "Series 2000",
+      "unit": "kWe @60 Hz",
+      "basis": "",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "low": 680,
+      "high": 1250
+    },
+    {
+      "metric": "Series 1600",
+      "unit": "kWe @60 Hz",
+      "basis": "",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "low": 500,
+      "high": 900
+    },
+    {
+      "metric": "Load factor",
+      "unit": "% standby (75% prime)",
+      "basis": "",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "value": 85
+    }
+  ],
+  "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+  "sources": [
+    {
+      "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+      "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+    }
+  ],
+  "notes": "HVO to EN 15940 approved on Series 4000/1600",
+  "last_reviewed": "2026-11-24"
+}

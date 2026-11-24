@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-figure-5-21-offshore-production-process-acg-phase-3-esia-385d18",
+  "title": "Figure 5.21 — Offshore Production Process (ACG Phase 3 ESIA)",
+  "diagram_type": "PFD",
+  "description": "Manifolds, HP and LP separators, dehydration, export compression, oil boosters/coalescers/MOL pumps, produced-water hydrocyclones, seawater lift, deaeration, injection pumps, power generation, gas lift and fuel gas, gas and oil export to Sangachal | Figures: Figure 5.21, Chapter 5, Azeri-Chirag-Gunashli Phase 3 Environmental & Socio-economic Impact Assessment",
+  "publisher": "ACG Phase 3 ESIA (copy reproduced on Silo.tips)",
+  "url": "https://silo.tips/download/55-offshore-platform-production",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://silo.tips/download/55-offshore-platform-production",
+      "source_id": "sys-silo-tips-55-offshore-platform-production"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct URL HTTP 200",
+  "last_reviewed": "2026-11-24"
+}

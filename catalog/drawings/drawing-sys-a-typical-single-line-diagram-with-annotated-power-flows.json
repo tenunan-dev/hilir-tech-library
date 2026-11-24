@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-a-typical-single-line-diagram-with-annotated-power-flows",
+  "title": "A typical single-line diagram with annotated power flows",
+  "diagram_type": "schematic",
+  "description": "Circuit breakers, three-phase buses, generator, inductor and double-wound transformer with tertiary winding | Figures: Wikipedia caption: 'A typical single-line diagram with annotated power flows' (File:One-line diagram.svg)",
+  "publisher": "Wikipedia / Wikimedia Commons (secondary)",
+  "url": "https://en.wikipedia.org/wiki/Single-line_diagram",
+  "licence": "Wikipedia article text CC BY-SA 4.0; individual image licences vary — check the Commons file page before reuse.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral",
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "top-flare-platform-topsides-and-flare-booms-stacks",
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Single-line_diagram",
+      "source_id": "sys-en-wikipedia-org-single-line-diagram"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. Wikipedia file list extracted via direct fetch; URL HTTP 200",
+  "last_reviewed": "2026-11-24"
+}

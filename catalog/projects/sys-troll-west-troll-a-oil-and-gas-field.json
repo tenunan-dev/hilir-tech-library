@@ -1,0 +1,25 @@
+{
+  "id": "sys-troll-west-troll-a-oil-and-gas-field",
+  "name": "Troll West / Troll A Oil and Gas Field",
+  "country": "Norway",
+  "status": "operating",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "description": "capacity: 1.8 tcm gas and 2 billion bbl oil recoverable; 2008 output ~138,000 bpd oil and ~120 Mmscm/d gas; Troll A 472 m tall, 656,000 t | status: Operating; oil production from late 1995, Troll B gas Sep 1995, Troll East gas Jun 1996, Troll C late 1999 | dates: ['1979 discovery', '1995-96 first production', '1999 Troll C start'] | location: Blocks 31/2, 31/3, 31/5 and 31/6, ~65 km west of Kollsnes; 315-345 m water depth",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/troll/",
+      "source_id": "sys-offshore-technology-com-64e1df"
+    }
+  ],
+  "notes": "Added in the 2026-11-24 all-systems sweep.",
+  "last_reviewed": "2026-11-24"
+}

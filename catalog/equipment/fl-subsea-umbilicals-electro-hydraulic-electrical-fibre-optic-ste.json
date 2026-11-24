@@ -1,0 +1,90 @@
+{
+  "id": "fl-subsea-umbilicals-electro-hydraulic-electrical-fibre-optic-ste",
+  "name": "Subsea umbilicals",
+  "equipment_type": "fl-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID",
+    "PRC",
+    "ROT"
+  ],
+  "description": "Provide the critical link between onshore/offshore hosts and subsea facilities: control, hydraulic power, chemical injection, electrical power and communications.",
+  "specifications": [
+    {
+      "metric": "Steeltube umbilical service content",
+      "unit": "n/a",
+      "basis": "OneSubsea steeltube umbilicals page, opening definition",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals",
+        "source_id": "sys-onesubsea-slb-com-steeltube-umbilicals"
+      },
+      "value": "hydraulic fluid for control; various chemical fluids for injection into flowline; electrical power; electrical- or fibre-optic signal transmission"
+    },
+    {
+      "metric": "Steeltube umbilical armour / bending",
+      "unit": "n/a",
+      "basis": "OneSubsea steeltube umbilicals core benefits and features",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals",
+        "source_id": "sys-onesubsea-slb-com-steeltube-umbilicals"
+      },
+      "value": "no armour; can be bent in any direction, eliminating 'bird caging'; long lay (pitch) length with components supported within channel elements"
+    },
+    {
+      "metric": "Umbilical systems track record",
+      "unit": "years",
+      "basis": "TechnipFMC umbilicals page: 'Supplying customized subsea umbilical systems for 40 years'; 40-year record of excellence in project execution",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
+        "source_id": "sys-technipfmc-com-c36d9c"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Umbilical manufacturing locations",
+      "unit": "plants (United Kingdom, United States, Angola)",
+      "basis": "TechnipFMC umbilicals page: strategically located plants in UK, US and Angola",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
+        "source_id": "sys-technipfmc-com-c36d9c"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Dynamic cable voltage (subsea compression power)",
+      "unit": "kV HVAC",
+      "basis": "Nexans Jansz-Io project: turnkey design, manufacturing and installation of a 145 kV HVAC dynamic cable",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
+        "source_id": "sys-nexans-com"
+      },
+      "value": 145
+    }
+  ],
+  "vendors": [
+    "technipfmc-cds-separation-systems",
+    "slb-onesubsea-slb-aker-solutions-subsea7-joint-venture",
+    "nexans"
+  ],
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals",
+      "source_id": "sys-onesubsea-slb-com-steeltube-umbilicals"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
+      "source_id": "sys-technipfmc-com-c36d9c"
+    },
+    {
+      "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
+      "source_id": "sys-nexans-com"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Provide the critical link between onshore/offshore hosts and subsea facilities: control, hydraulic power, chemical injection, electrical power and communication"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

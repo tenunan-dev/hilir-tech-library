@@ -18,11 +18,11 @@
   "sources": [
     {
       "url": "https://www.inpex.com/english/ichthys/concept.html",
-      "source_id": "inpex-com-ichthys-concept-html"
+      "source_id": "sys-inpex-com-concept-html"
     },
     {
       "url": "https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf",
-      "source_id": "inpex-com-au-rbmjbgrj-ichthys-offshore-facilities-operation-ep-fac"
+      "source_id": "sys-inpex-com-au-ichthys-offshore-facilities-operation-ep-fact"
     }
   ],
   "notes": " Operating",

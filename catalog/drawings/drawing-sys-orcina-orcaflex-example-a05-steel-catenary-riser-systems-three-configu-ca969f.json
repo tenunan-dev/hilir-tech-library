@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-orcina-orcaflex-example-a05-steel-catenary-riser-systems-three-configu-ca969f",
+  "title": "Orcina OrcaFlex Example A05 — Steel catenary riser systems, three configurations",
+  "diagram_type": "schematic",
+  "description": "SCR hang-off from spar, semi-submersible (flexjoint vs tapered stress joint) and lazy-wave SCR from FPSO turret; API RP 2RD stress check | Figures: OrcaFlex Example A05; sections 'Catenary with spar' (p2), 'Catenary with semisub' (p6), 'Lazy Wave with FPSO' (p9)",
+  "publisher": "Orcina",
+  "url": "https://www.orcina.com/wp-content/uploads/examples/a/a05/A05%20Steel%20catenary%20riser%20systems.pdf",
+  "licence": "Publisher copyright; reuse level 'summary-only'. Record pointer and cite URL; do not reproduce the figure without permission.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.orcina.com/wp-content/uploads/examples/a/a05/A05%20Steel%20catenary%20riser%20systems.pdf",
+      "source_id": "sys-orcina-com-a05-20steel-20catenary-20riser-20systems-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue + direct URL HTTP 200; WebFetch cannot parse PDF",
+  "last_reviewed": "2026-11-24"
+}

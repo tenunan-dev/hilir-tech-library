@@ -20,7 +20,7 @@
       "basis": "Wikipedia Oil platform, Semi-submersible section",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
-        "source_id": "en-wikipedia-org-wiki-oil-platform"
+        "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "value": "chain, wire rope or polyester rope singly or in combination during drilling/production; alternatively dynamic positioning"
     },
@@ -56,7 +56,7 @@
     },
     {
       "url": "https://en.wikipedia.org/wiki/Oil_platform",
-      "source_id": "en-wikipedia-org-wiki-oil-platform"
+      "source_id": "sys-en-wikipedia-org-oil-platform"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",

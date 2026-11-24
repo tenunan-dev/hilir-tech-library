@@ -1,0 +1,33 @@
+{
+  "id": "sys-asme-org-b31-3-process-piping",
+  "name": "Asme.Org — B31.3 latest edition",
+  "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Asme.Org",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. ASME B31.3 Process Piping page states 'B31.3 - 2024' Evidence: https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping"
+}

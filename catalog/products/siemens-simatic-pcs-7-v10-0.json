@@ -1,0 +1,41 @@
+{
+  "id": "siemens-simatic-pcs-7-v10-0",
+  "name": "SIMATIC PCS 7 (V10.0)",
+  "manufacturer": "siemens",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24.",
+  "specifications": [
+    {
+      "metric": "cybersecurity compliance",
+      "unit": "standard",
+      "basis": "",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+        "source_id": "sys-siemens-com-simatic-pcs-7-html"
+      },
+      "value": "IEC 62443-4-1 and IEC 62443-3-3"
+    },
+    {
+      "metric": "MTP startup improvement",
+      "unit": "% (up to)",
+      "basis": "",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+        "source_id": "sys-siemens-com-simatic-pcs-7-html"
+      },
+      "value": 75
+    }
+  ],
+  "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+  "sources": [
+    {
+      "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
+      "source_id": "sys-siemens-com-simatic-pcs-7-html"
+    }
+  ],
+  "notes": "",
+  "last_reviewed": "2026-11-24"
+}

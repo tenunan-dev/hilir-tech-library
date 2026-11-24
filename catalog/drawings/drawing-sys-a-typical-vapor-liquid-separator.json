@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-a-typical-vapor-liquid-separator",
+  "title": "A typical vapor–liquid separator",
+  "diagram_type": "schematic",
+  "description": "Vertical/horizontal separator internals: inlet diffuser, mesh pad, vortex breaker, vapour and liquid outlets | Figures: Wikipedia caption on 'Vapor–liquid separator': 'A typical vapor–liquid separator including commonly a de-entrainment pad and sometimes an inlet distributor' (File:Vap-Liq_Separator.png)",
+  "publisher": "Wikipedia (secondary); image on Wikimedia Commons",
+  "url": "https://en.wikipedia.org/wiki/Vapor%E2%80%93liquid_separator",
+  "licence": "Wikipedia article text CC BY-SA 4.0; individual image licences vary — check the Commons file page before reuse.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral",
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "top-flare-platform-topsides-and-flare-booms-stacks",
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Vapor%E2%80%93liquid_separator",
+      "source_id": "sys-en-wikipedia-org-vapor-e2-80-93liquid-separator"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch of Wikipedia Vapor-liquid separator page",
+  "last_reviewed": "2026-11-24"
+}

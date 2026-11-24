@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-864 vendor records covering 320 technologies. One record per vendor in
+884 vendor records covering 320 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -560,7 +560,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [GIG Karasek](https://www.gigkarasek.at) | Austria | oem | Electrification of process heat (e-boilers, heat pumps) |
 | Harvestore | — | oem, supplier | Ammonia and urea |
 | [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Aromatics complexes (paraxylene, benzene); Methanol-to-olefins (MTO, DMTO); Paraxylene adsorption and crystallisation; Propane dehydrogenation (Oleflex, CATOFIN); Toluene disproportionation and transalkylation |
-| Howden (Chart Industries) | — | oem, supplier | Ammonia and urea |
 | [Hyundai Engineering & Construction](https://www.hdec.co.kr) | South Korea | epc | Steam cracking (naphtha, ethane, LPG) |
 | [Indorama Ventures](https://www.indoramaventures.com) | Thailand | oem | Depolymerisation of PET (glycolysis, enzymatic) |
 | [Ineos](https://www.ineos.com) | United Kingdom | oem | Polyethylene (gas phase, slurry, solution); Polypropylene (gas phase, bulk); PVC (suspension) and chlor-alkali |
@@ -761,7 +760,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Rongke Power](https://www.rongkepower.com) | China | oem, supplier | Flow batteries (vanadium, zinc-bromine) |
 | SCC Inc. | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Schneider Electric](https://www.se.com) | France | oem, integrator | Smart grids, microgrids and virtual power plants; Grid-forming inverters and synchronous condensers |
-| [Siemens Energy](https://www.siemens-energy.com) | Germany | oem, service | Heavy-duty gas turbines (H and J class); Aeroderivative and industrial gas turbines; Combined cycle and HRSG; Mobile gas turbine power plants; HVDC transmission and interconnectors; Grid-forming inverters and synchronous condensers |
 | [Siemens Gamesa](https://www.siemensgamesa.com) | Spain | oem, service | Offshore wind (fixed bottom); Onshore wind |
 | [SMA](https://www.sma.de/en/company) | Germany | oem | Grid-forming inverters and synchronous condensers; Crystalline silicon PV (PERC, TOPCon, HJT) |
 | [Solar Turbines](https://www.solarturbines.com) | USA | oem, service | Aeroderivative and industrial gas turbines |
@@ -880,7 +878,10 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | ABB Wellhead Management System | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | ABS | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Allmarc Industries | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| API | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Aquaterra Energy | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Ariel Corporation | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| ASME | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [AspenTech](https://www.aspentech.com) | USA | supplier | Production optimisation and digital oilfield; Reservoir simulation (black oil, compositional, thermal) |
 | [Axter](https://axter.no) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
 | Baker Hughes / Emerson Roxar | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
@@ -903,6 +904,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Cognite](https://www.cognite.com) | Norway | supplier | AI-assisted seismic interpretation and history matching; Production optimisation and digital oilfield |
 | [Computer Modelling Group](https://www.cmgl.ca) | Canada | supplier | Reservoir simulation (black oil, compositional, thermal) |
 | [Core Laboratories](https://www.corelab.com) | USA | service | Digital core and special core analysis |
+| CPI by Howden | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | CRA (Combustion Research Associates) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | CRP Subsea | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | CTC Marine | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
@@ -923,26 +925,37 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Exedra AS](https://exedra.no) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
 | [Exxon Neftegas](https://www.exxonmobil.com) | Russia | operator | Extended-reach and multilateral wells |
 | ExxonMobil (FLEXSORB, OASE sulfexx joint development) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| FieldComm Group (specification owner) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Fisher (Emerson) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| FlareTech | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | FlareTech Inc. | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [FLIR Systems](https://www.flir.com) | USA | oem | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
 | [Frames Group](https://frames-group.com/) | NL | packager, integrator | Produced water treatment (hydrocyclones, flotation, membranes) |
 | [Framo](https://www.onesubsea.slb.com) | Norway | oem | Subsea boosting and multiphase pumps; Subsea separation and water reinjection |
 | FST | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| GE Vernova / Baker Hughes | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [GHGSat](https://www.ghgsat.com) | Canada | service | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
 | [Halliburton](https://www.halliburton.com) | USA | service, supplier | AI-assisted seismic interpretation and history matching; Coiled tubing and well intervention; Hydraulic fracturing (plug-and-perf, electric frac fleets); Intelligent completions and inflow control devices; Managed pressure drilling; Measurement and logging while drilling (MWD/LWD); Production optimisation and digital oilfield; Rotary steerable systems; Sand control (gravel pack, frac pack, screens) |
 | [Halliburton Landmark](https://www.landmark.solutions) | USA | supplier, service | Full-waveform inversion and seismic imaging |
 | [Helmerich & Payne](https://www.hpinc.com) | USA | service | Drilling automation and autonomous rigs |
 | Hitec Products AS (NORWEP listing) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Howden (a Chart Industries company; KK&K, CKD brands) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Howden / Burton Corblin | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Howden / Peter Brotherhood | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Howden Turbo UK (Peter Brotherhood) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Hydropneumatic S.r.l. | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| INNIO / Wartsila | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | INTECH Automation & Intelligence | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | International Snubbing Services | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Interwell](https://interwell.com) | Norway | service | Well plug and abandonment technologies (thermite, bismuth plugs) |
 | IPS Group BV | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| ISA / ISA100 Wireless Compliance Institute | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| ISA / ISAGCA / ISCI (ISASecure) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | ISS Process (Innovative Synergy Solutions) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [JAPEX](https://www.japex.co.jp) | Japan | operator | CO2 enhanced oil recovery (miscible CO2 flooding) |
 | [JEREH](https://www.jereh.com) | China | oem, packager, epc, service, rental | Hydraulic fracturing (plug-and-perf, electric frac fleets) |
 | [JOGMEC](https://www.jogmec.go.jp) | Japan | developer, operator | Gas hydrate production; CO2 enhanced oil recovery (miscible CO2 flooding) |
-| [John Zink Company](https://www.johnzink.com) | USA | oem | Flare gas recovery and zero routine flaring |
+| John Zink (Koch Engineered Solutions) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Kayrros](https://www.kayrros.com) | France | service | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
 | Kinder Morgan Treating | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Liberty Energy](https://libertyenergy.com) | USA | service | Hydraulic fracturing (plug-and-perf, electric frac fleets) |
@@ -951,11 +964,14 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [McDermott](https://www.mcdermott.com) | USA | epc, oem | Subsea production systems (trees, manifolds, umbilicals) |
 | [MISC Berhad](https://www.miscgroup.com) | Malaysia | operator, packager | FPSO and floating production (TLP, spar, semi-submersible) |
 | [MODEC Inc.](https://www.modec.com) | Japan | oem, operator | FPSO and floating production (TLP, spar, semi-submersible) |
+| MSA | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Multiple registered vendors (FieldComm Group registry) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Nabors Industries](https://www.nabors.com) | Bermuda | oem, service | Drilling automation and autonomous rigs |
 | NAO Inc. | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Nexans](https://www.nexans.com) | France | oem | Long subsea tiebacks with direct electrical heating |
 | [Novomet](https://novomet.ru) | Russia | oem | Electric submersible pumps |
 | [Occidental Petroleum](https://www.oxy.com) | USA | operator, developer | CO2 enhanced oil recovery (miscible CO2 flooding); Thermal EOR (steam flood, SAGD, CSS) |
+| Oceans of Energy | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | OCIMF | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | OilPro | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | OMS (Oilfield Manufacturers and Supplies) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
@@ -976,9 +992,12 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Shell](https://www.shell.com) | United Kingdom | operator, developer | Chemical EOR (polymer and surfactant flooding) |
 | Shell Malaysia Exploration and Production | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Siemens](https://www.siemens.com) | Germany | oem, integrator | Produced water treatment (hydrocyclones, flotation, membranes) |
-| SLB (ChampionX portfolio) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| Siemens Energy (incl. ex-Dresser-Rand) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| SLB (Cameron pressure control equipment) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | SLB / Emerson (equipment qualified to NACE MR0175/ISO 15156) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
+| SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [SNF](https://www.snfgroup.com) | France | supplier | Chemical EOR (polymer and surfactant flooding) |
+| SolarEdge | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | SPEC Oil & Gas Technologies (fabricator) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | Subsea7 (Swagelining all-polymer liner) | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 | [Sulzer](https://www.sulzer.com) | Switzerland | oem | Subsea boosting and multiphase pumps |
@@ -1004,6 +1023,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Wison](https://www.wison-energies.com) | China | epc, developer | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Wood](https://www.woodplc.com) | UK | epc, service | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Zeeco](https://www.zeeco.com) | USA | oem | Flare gas recovery and zero routine flaring |
+| Zeto | — | oem, supplier | Subsea production systems (trees, manifolds, umbilicals) |
 
 ## WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 

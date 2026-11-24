@@ -1,0 +1,86 @@
+{
+  "id": "ci-wirelesshart-industrial-wireless-mesh-024e52",
+  "name": "WirelessHART",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Wireless field instrumentation communications for process automation; mesh networking adds redundant routes in difficult radio environments of process facilities. Applicable offshore and onshore.",
+  "specifications": [
+    {
+      "metric": "wireless mesh topology",
+      "unit": "topology",
+      "basis": "FieldComm Group WirelessHART technology page, descriptive claim",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+        "source_id": "sys-fieldcommgroup-org-wirelesshart"
+      },
+      "value": "Each device can act as a router; redundant communication routes extend range and improve reliability"
+    },
+    {
+      "metric": "installation cost reduction vs wired instruments",
+      "unit": "%",
+      "basis": "FieldComm Group WirelessHART page citing WirelessHART User Case Studies: '30%-60% lower installation costs than adding traditional wired instruments'",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+        "source_id": "sys-fieldcommgroup-org-wirelesshart"
+      },
+      "low": 30,
+      "high": 60
+    },
+    {
+      "metric": "RF physical layer",
+      "unit": "GHz / modulation",
+      "basis": "HART Protocol Specifications: 2.4GHz DSSS O-QPSK Physical Layer Specification (HCF_SPEC-65 FCG TS20065) Rev. 1.1",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/hart-specifications",
+        "source_id": "sys-fieldcommgroup-org-hart-specifications"
+      },
+      "value": "2.4 GHz DSSS O-QPSK, based on IEEE STD 802.15.4-2006 2.4GHz DSSS Physical Layer"
+    },
+    {
+      "metric": "MAC / DLL",
+      "unit": "protocol",
+      "basis": "HCF_SPEC-75 FCG TS20075 Rev. 1.2 (TDMA Data-Link Layer)",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/hart-specifications",
+        "source_id": "sys-fieldcommgroup-org-hart-specifications"
+      },
+      "value": "TDMA Data-Link Layer over IEEE 802.15.4-2006 PHY; secure, reliable, error-free mesh communication"
+    },
+    {
+      "metric": "messaging modes",
+      "unit": "modes",
+      "basis": "FieldComm Group WirelessHART technology page",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+        "source_id": "sys-fieldcommgroup-org-wirelesshart"
+      },
+      "value": "one-way publishing, exception notification, ad-hoc request/response, auto-segmented block transfers"
+    }
+  ],
+  "vendors": [
+    "fieldcomm-group-specification-owner",
+    "yokogawa"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+      "source_id": "sys-fieldcommgroup-org-wirelesshart"
+    },
+    {
+      "url": "https://www.fieldcommgroup.org/hart-specifications",
+      "source_id": "sys-fieldcommgroup-org-hart-specifications"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Wireless field instrumentation communications for process automation; mesh networking adds redundant routes in difficult radio environments of process facilitie"
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

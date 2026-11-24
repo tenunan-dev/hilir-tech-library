@@ -1,6 +1,6 @@
 # Product catalog
 
-216 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
+274 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
 
 ## ammonia
 
@@ -53,9 +53,9 @@
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
-| [HRSG Duct Burners (LDRW, VC, Coen Castings flame holders)](https://www.johnzink.com/products/powerburners/duct-burner) | John Zink Company | HRSG duct burner (supplementary gas firing) | Flame holder models; Application; Hydrogen readiness; Integrated equipment |
+| [HRSG Duct Burners (LDRW, VC, Coen Castings flame holders)](https://www.johnzink.com/products/powerburners/duct-burner) | John Zink (Koch Engineered Solutions) | HRSG duct burner (supplementary gas firing) | Flame holder models; Application; Hydrogen readiness; Integrated equipment |
 | [ProFire SBR-30 Low-NOx Burner](https://cleaverbrooks.com/product/sbr30-burner) | Cleaver-Brooks | Low-NOx gas burner (package and ultra-low-NOx) | NOx emissions; Natural gas input; Boiler horsepower; Oil input; Turndown; Furnace pressure; Minimum gas pressure; Mode of operation |
-| [QLN Low NOx Burner](https://www.johnzink.com/products/powerburners/qln) | John Zink Company | Low-NOx gas burner (package and ultra-low-NOx) | Firing capacity; NOx reduction mechanism; Fuels; Application |
+| [QLN Low NOx Burner](https://www.johnzink.com/products/powerburners/qln) | John Zink (Koch Engineered Solutions) | Low-NOx gas burner (package and ultra-low-NOx) | Firing capacity; NOx reduction mechanism; Fuels; Application |
 | [teg+ Duct Burner](https://www.zeeco.com/products/burners/power-burners?hsLang=en) | Zeeco | HRSG duct burner (supplementary gas firing) | Support design; Flame stabilizer; Application |
 | [ZEECO GB Low-NOx Power Burner](https://www.zeeco.com/products/burners/power-burners?hsLang=en) | Zeeco | Low-NOx gas burner (package and ultra-low-NOx) | Heat input per burner; Combustion air / FGR; Fuels; Boiler types |
 
@@ -152,7 +152,7 @@
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
-| [Selective Catalytic Reduction (SCR) Systems](https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems) | John Zink Company | SCR, SNCR and CEMS for boilers | NOx reduction; Reductant options; Additional catalyst; Applications |
+| [Selective Catalytic Reduction (SCR) Systems](https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems) | John Zink (Koch Engineered Solutions) | SCR, SNCR and CEMS for boilers | NOx reduction; Reductant options; Additional catalyst; Applications |
 
 ## engine
 
@@ -205,6 +205,69 @@
 | [Reactivator Solids Contact Clarifier](https://graver.com/pretreatment/) | Graver Water (Marmon Industrial Water) | Boiler feedwater pretreatment | Clarifier type; Functions integrated in single unit; Applications |
 | [TrayMaster Deaerator (TMV / TMH)](https://cleaverbrooks.com/product/traymaster) | Cleaver-Brooks | Feedtank, deaerator and feedwater pump | Capacity TMV; Capacity TMH; Residual dissolved oxygen; Configuration; Standard |
 
+## fl-system
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [145 kV HVAC dynamic subsea cable system](https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/) | Nexans | Risers | Voltage; Route length; Trenching |
+| [145 kV HVAC dynamic subsea cable system](https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/) | Nexans | Risers | Voltage; Route length; Trenching |
+| [Aptara tree systems / Aptara Master Control Station / ModPod subsea control module](https://www.bakerhughes.com/subsea/subsea-production-systems) | Baker Hughes | Risers | Tree families |
+| [Aptara tree systems / Aptara Master Control Station / ModPod subsea control module](https://www.bakerhughes.com/subsea/subsea-production-systems) | Baker Hughes | Risers | Tree families |
+| [Ariel JGN/JGQ reciprocating compressor](https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html) | Ariel Corporation | Risers | Rated power (1/2 throw); Max RPM; Total rod load |
+| [Ariel JGN/JGQ reciprocating compressor](https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html) | Ariel Corporation | Risers | Rated power (1/2 throw); Max RPM; Total rod load |
+| [Ariel KBB/KBV reciprocating compressor](https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html) | Ariel Corporation | Risers | Rated power; Total rod load; Max RPM |
+| [Ariel KBB/KBV reciprocating compressor](https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html) | Ariel Corporation | Risers | Rated power; Total rod load; Max RPM |
+| [Ariel KBH hydrogen compressor](https://www.arielcorp.com/compressors/kbh.html) | Ariel Corporation | Risers | Suction; Discharge; Flow; Stages |
+| [Ariel KBH hydrogen compressor](https://www.arielcorp.com/compressors/kbh.html) | Ariel Corporation | Risers | Suction; Discharge; Flow; Stages |
+| [CENTUM VP plus SIS / Field Wireless / 920 MHz Wireless Data Acquisition](https://www.yokogawa.com/ia/dcs/centum-vp/) | Yokogawa Electric | Risers | wireless frequency listed |
+| [CENTUM VP plus SIS / Field Wireless / 920 MHz Wireless Data Acquisition](https://www.yokogawa.com/ia/dcs/centum-vp/) | Yokogawa Electric | Risers | wireless frequency listed |
+| [Cummins diesel generator sets](https://www.cummins.com/en-apac/generators/diesel) | Cummins | Risers | Rating range; Load acceptance; Emission certification |
+| [Cummins diesel generator sets](https://www.cummins.com/en-apac/generators/diesel) | Cummins | Risers | Rating range; Load acceptance; Emission certification |
+| [Diamould wet connectors](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors) | SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) | Risers | Sealing; Environment |
+| [Diamould wet connectors](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors) | SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) | Risers | Sealing; Environment |
+| [EPCON CFU Compact Flotation Unit](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation) | SLB (Cameron pressure control equipment) | Risers | Documented application |
+| [EPCON CFU Compact Flotation Unit](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation) | SLB (Cameron pressure control equipment) | Risers | Documented application |
+| [Experion PKS](https://process.honeywell.com/us/en/solutions/experion-pks) | Honeywell | Risers | installed base - refineries; O&G processing plants |
+| [Experion PKS](https://process.honeywell.com/us/en/solutions/experion-pks) | Honeywell | Risers | installed base - refineries; O&G processing plants |
+| [FOUNDATION Fieldbus H1 devices (generic)](https://www.fieldcommgroup.org/technologies/foundation-fieldbus) | Multiple registered vendors (FieldComm Group registry) | Risers | registered interoperable products; wiring |
+| [FOUNDATION Fieldbus H1 devices (generic)](https://www.fieldcommgroup.org/technologies/foundation-fieldbus) | Multiple registered vendors (FieldComm Group registry) | Risers | registered interoperable products; wiring |
+| [Freestanding Hybrid Riser (FSHR)](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/) | TechnipFMC (CDS Separation Systems) | Risers | Configuration |
+| [Freestanding Hybrid Riser (FSHR)](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/) | TechnipFMC (CDS Separation Systems) | Risers | Configuration |
+| [Gas lift valves / mandrels / sensors and gauges](https://www.bakerhughes.com/completions/gas-lift-systems) | Baker Hughes | Risers | Retrieval options |
+| [Gas lift valves / mandrels / sensors and gauges](https://www.bakerhughes.com/completions/gas-lift-systems) | Baker Hughes | Risers | Retrieval options |
+| [HART-enabled field instruments (generic)](https://www.fieldcommgroup.org/technologies/hart) | Multiple registered vendors (FieldComm Group registry) | Risers | installed base |
+| [HART-enabled field instruments (generic)](https://www.fieldcommgroup.org/technologies/hart) | Multiple registered vendors (FieldComm Group registry) | Risers | installed base |
+| [Howden / KK&K & CKD centrifugal compressors (SF, SFG, ST, SL, RS, RV)](https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors) | Howden (a Chart Industries company; KK&K, CKD brands) | Risers | Single-stage flow envelope; Multistage flow envelope; Pressure ratio; CKD discharge pressure |
+| [Howden / KK&K & CKD centrifugal compressors (SF, SFG, ST, SL, RS, RV)](https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors) | Howden (a Chart Industries company; KK&K, CKD brands) | Risers | Single-stage flow envelope; Multistage flow envelope; Pressure ratio; CKD discharge pressure |
+| [Howden Periflow compressor](https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor) | Howden (a Chart Industries company; KK&K, CKD brands) | Risers | Max pressure; Capacity flow; Speed |
+| [Howden Periflow compressor](https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor) | Howden (a Chart Industries company; KK&K, CKD brands) | Risers | Max pressure; Capacity flow; Speed |
+| [Howden TFC90 / TFC180 diaphragm compressor packages](https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor) | Howden (a Chart Industries company; KK&K, CKD brands) | Risers | Electrolyser module size; Process gas leakage |
+| [Howden TFC90 / TFC180 diaphragm compressor packages](https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor) | Howden (a Chart Industries company; KK&K, CKD brands) | Risers | Electrolyser module size; Process gas leakage |
+| [Integrated Production Bundle (IPB)](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/) | TechnipFMC (CDS Separation Systems) | Risers | Construction |
+| [Integrated Production Bundle (IPB)](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/) | TechnipFMC (CDS Separation Systems) | Risers | Construction |
+| [John Zink Flare Gas Recovery system](https://www.johnzink.com/products/flare-gas-recovery) | John Zink (Koch Engineered Solutions) | Risers | Application scope; Compression options |
+| [John Zink Flare Gas Recovery system](https://www.johnzink.com/products/flare-gas-recovery) | John Zink (Koch Engineered Solutions) | Risers | Application scope; Compression options |
+| [John Zink LRGO Multi-Point Ground Flare](https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare) | John Zink (Koch Engineered Solutions) | Risers | Destruction efficiency; API 537 compliance |
+| [John Zink LRGO Multi-Point Ground Flare](https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare) | John Zink (Koch Engineered Solutions) | Risers | Destruction efficiency; API 537 compliance |
+| [LONGi Hi-MO 9 (LR7-72HYD series)](https://www.longi.com/en/products/modules/hi-mo-9/) | LONGi | Risers | Max power; Module efficiency; STC Pmax (660M); Front static load; Pmax temp coefficient |
+| [LONGi Hi-MO 9 (LR7-72HYD series)](https://www.longi.com/en/products/modules/hi-mo-9/) | LONGi | Risers | Max power; Module efficiency; STC Pmax (660M); Front static load; Pmax temp coefficient |
+| [mtu Series 4000 / 2000 / 1600 diesel gensets](https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html) | Rolls-Royce Power Systems (mtu) | Risers | Series 4000; Series 2000; Series 1600; Load factor |
+| [mtu Series 4000 / 2000 / 1600 diesel gensets](https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html) | Rolls-Royce Power Systems (mtu) | Risers | Series 4000; Series 2000; Series 1600; Load factor |
+| [PORTA-TEST WHIRLYSCRUB I Inline Separator / WHIRLYSCRUB V Single-Stage Scrubber](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation) | SLB (Cameron pressure control equipment) | Risers | Type |
+| [PORTA-TEST WHIRLYSCRUB I Inline Separator / WHIRLYSCRUB V Single-Stage Scrubber](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation) | SLB (Cameron pressure control equipment) | Risers | Type |
+| [PureMEG MEG Reclamation and Regeneration System](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation) | SLB (Cameron pressure control equipment) | Risers | Function |
+| [PureMEG MEG Reclamation and Regeneration System](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation) | SLB (Cameron pressure control equipment) | Risers | Function |
+| [SIMATIC ET 200SP HA remote I/O](https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html) | Siemens | Risers | design intent |
+| [SIMATIC ET 200SP HA remote I/O](https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html) | Siemens | Risers | design intent |
+| [SIMATIC PCS 7 (V10.0)](https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html) | Siemens | Risers | cybersecurity compliance; MTP startup improvement |
+| [SIMATIC PCS 7 (V10.0)](https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html) | Siemens | Risers | cybersecurity compliance; MTP startup improvement |
+| [Sungrow TS30M / PT60 / Floating Barge FPV systems](https://www.sungrowpower.com/en/floating-pv-system) | Sungrow | Risers | Global FPV applications; Example project |
+| [Sungrow TS30M / PT60 / Floating Barge FPV systems](https://www.sungrowpower.com/en/floating-pv-system) | Sungrow | Risers | Global FPV applications; Example project |
+| [WEMCO PACESETTER Separator / WEMCO SILVER BAND Separator / MOZLEY Desanding Hydrocyclone Separator](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation) | SLB (Cameron pressure control equipment) | Risers | Category |
+| [WEMCO PACESETTER Separator / WEMCO SILVER BAND Separator / MOZLEY Desanding Hydrocyclone Separator](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation) | SLB (Cameron pressure control equipment) | Risers | Category |
+| [WirelessHART field devices and gateways (generic, standards-based)](https://www.fieldcommgroup.org/technologies/wirelesshart) | Multiple registered vendors (FieldComm Group registry) | Risers | RF physical layer; MAC |
+| [WirelessHART field devices and gateways (generic, standards-based)](https://www.fieldcommgroup.org/technologies/wirelesshart) | Multiple registered vendors (FieldComm Group registry) | Risers | RF physical layer; MAC |
+
 ## fuel-gas
 
 | Product | Manufacturer | Equipment | Specifications |
@@ -236,7 +299,7 @@
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
-| [Air Heaters & Recuperators](https://www.johnzink.com/products) | John Zink Company | Boiler air preheater | Function; Characteristics |
+| [Air Heaters & Recuperators](https://www.johnzink.com/products) | John Zink (Koch Engineered Solutions) | Boiler air preheater | Function; Characteristics |
 | [C2X Condensing Economizer](https://cleaverbrooks.com/product/c2x) | Cleaver-Brooks | Boiler economizer (feedwater heat recovery) | Applicable boiler size; Construction; Tube material; Condensing fuel basis |
 | [ECF Economizer (ClearFire Economizer)](https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers) | Cleaver-Brooks | Boiler economizer (feedwater heat recovery) | Efficiency boost; Applicable boilers |
 | [Max-Fire HRSG superheater (optional)](https://cleaverbrooks.com/product/max-fire-series) | Cleaver-Brooks | Boiler superheater and attemperator | Superheater outlet temperature |
@@ -344,7 +407,7 @@
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
-| [Howden centrifugal / reciprocating / screw compressors and steam turbines](https://www.chartindustries.com/Howden) | Howden (Chart Industries) | Screw conveyors | Reciprocating gas compressor rating; Reciprocating compressor speed; Steam turbine electrical output range; Steam turbine mechanical drive range |
+| [Howden centrifugal / reciprocating / screw compressors and steam turbines](https://www.chartindustries.com/Howden) | Howden (a Chart Industries company; KK&K, CKD brands) | Screw conveyors | Reciprocating gas compressor rating; Reciprocating compressor speed; Steam turbine electrical output range; Steam turbine mechanical drive range |
 
 ## secondary
 
@@ -399,7 +462,7 @@
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
-| [Compact three-phase separator / high-efficiency phase separation internals](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals) | SLB (ChampionX portfolio) | Flare and vent system — flare stack/boom, flare tips, KO drums, gas recovery/VRU | PORTA-TEST REVOLUTION installations |
+| [Compact three-phase separator / high-efficiency phase separation internals](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals) | SLB (Cameron pressure control equipment) | Flare and vent system — flare stack/boom, flare tips, KO drums, gas recovery/VRU | PORTA-TEST REVOLUTION installations |
 | [Electrostatic Heater Treater & Desalter](https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter) | SPEC Oil & Gas Technologies (fabricator) | Oil treatment — mechanical heater treaters, electrostatic treaters/dehydrators, desalters | reference facility |
 | [Flare Knock-out Drum](https://www.flaretechinc.com/products/flare-knockout-drums) | FlareTech Inc. | Flare and vent system — flare stack/boom, flare tips, KO drums, gas recovery/VRU | size range |
 | [Knock-out Drum (flare)](https://www.cra.energy/product/knockout-drums) | CRA (Combustion Research Associates) | Flare and vent system — flare stack/boom, flare tips, KO drums, gas recovery/VRU | configuration; company installations |
@@ -445,7 +508,7 @@
 | [OneSubsea subsea trees (horizontal, wellhead vertical, tubing head spool vertical)](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees) | OneSubsea (SLB/Aker Solutions JV) | Christmas tree | Temperature range; Pressure; Production bore |
 | [OneSubsea subsea wellhead systems](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads) | OneSubsea (SLB/Aker Solutions JV) | Fixed jacket wellhead platform | Standards |
 | [Safety Manager (SIS/ESD/F&G)](https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager) | Honeywell | Fixed jacket wellhead platform | SIL; operating temperature; supply voltage |
-| [SeaFloat SGT-750 / SGT-800 / SGT-8000H offshore power plants](https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html) | Siemens Energy | Fixed jacket wellhead platform | SGT-800 combined cycle range; SGT-750 offshore CCPP |
+| [SeaFloat SGT-750 / SGT-800 / SGT-8000H offshore power plants](https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html) | Siemens Energy (incl. ex-Dresser-Rand) | Fixed jacket wellhead platform | SGT-800 combined cycle range; SGT-750 offshore CCPP |
 | [Subsea trees](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees) | OneSubsea (SLB/Aker Solutions JV) | Christmas tree | temperature range; pressure; production bore (wellhead vertical tree) |
 | [Subsea trees (EVDT, Subsea 2.0)](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees) | TechnipFMC (CDS Separation Systems) | Christmas tree | pressure; temperature; water depth |
 | [Subsea wellheads](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads) | OneSubsea (SLB/Aker Solutions JV) | Christmas tree | standards for welding |

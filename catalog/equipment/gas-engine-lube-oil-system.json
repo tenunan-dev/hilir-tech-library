@@ -26,7 +26,7 @@
       "basis": "Cummins Gas Power Plant Application Manual section 3.2.1",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "mono-grade SAE 40 (most Cummins lean-burn gas gensets); never use diesel engine oil in a natural gas engine"
     },
@@ -36,7 +36,7 @@
       "basis": "Cummins Gas Power Plant Application Manual section 3.2.3: tank base between 1 and 4 m above floor level for adequate gravity feed to engine sump",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "low": "1",
       "high": "4"
@@ -47,7 +47,7 @@
       "basis": "Cummins Gas Power Plant Application Manual section 3.2.4.2: design not specified but tank must contain a minimum of 100 liters; total capacity depends on expected running hours and genset datasheet oil consumption",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "100"
     },
@@ -57,7 +57,7 @@
       "basis": "Cummins Gas Power Plant Application Manual section 3.2.4.2: make-up tank mounted away from engine, connected by suitable pipework of at least 3/4 inch I.D.",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "low": "0.75"
     },
@@ -67,7 +67,7 @@
       "basis": "Cummins Gas Power Plant Application Manual section 3.2.3",
       "source": {
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-        "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+        "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "value": "pickled or cold-drawn pickled pipe; strainer and foot valve on storage tank suction; solenoid valve if service tank lower than storage tank to prevent siphon overfill"
     },
@@ -77,7 +77,7 @@
       "basis": "Schneider Electric White Paper 286, Figure 5 'A high-level presentation of the power plant components'",
       "source": {
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-        "source_id": "download-se-com-download-se-com-files"
+        "source_id": "sys-download-se-com-files"
       },
       "value": "Lubrication System listed among power-plant common systems (alongside gas piping/pressure reduction, gas storage, electrical distribution, control, fire detection)"
     }
@@ -94,11 +94,11 @@
     },
     {
       "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
-      "source_id": "cummins-com-2024-08-t035-gas-power-plant-application-manual-pdf"
+      "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
     },
     {
       "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
-      "source_id": "download-se-com-download-se-com-files"
+      "source_id": "sys-download-se-com-files"
     }
   ],
   "gaps": [

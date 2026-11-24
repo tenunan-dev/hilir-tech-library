@@ -1,0 +1,55 @@
+{
+  "id": "ci-field-transmitters-pressure-temperature-flow-level",
+  "name": "Field transmitters",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Primary measurement instruments converting process variables to standard analog/digital signals for control and safety.",
+  "specifications": [
+    {
+      "metric": "product families attested by catalogue",
+      "unit": "families",
+      "basis": "Yokogawa product catalogue navigation (measured/field instruments and components)",
+      "source": {
+        "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+        "source_id": "sys-yokogawa-com"
+      },
+      "value": "Pressure Transmitters, Flowmeters, Temperature Transmitters, Level Meters, Pressure Calibrators, Valve Manifolds"
+    },
+    {
+      "metric": "HART device family specifications",
+      "unit": "specifications",
+      "basis": "HART Protocol Specifications - Device Families Command Specification HCF_SPEC-160 Rev.3.0",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/hart-specifications",
+        "source_id": "sys-fieldcommgroup-org-hart-specifications"
+      },
+      "value": "Temperature (HCF_SPEC-160-04), Pressure (HCF_SPEC-160-05), Level and PID Control families"
+    }
+  ],
+  "vendors": [
+    "yokogawa",
+    "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
+      "source_id": "sys-yokogawa-com"
+    },
+    {
+      "url": "https://www.fieldcommgroup.org/hart-specifications",
+      "source_id": "sys-fieldcommgroup-org-hart-specifications"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Primary measurement instruments converting process variables to standard analog/digital signals for control and safety."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

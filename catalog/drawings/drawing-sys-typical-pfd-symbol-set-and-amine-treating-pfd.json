@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-typical-pfd-symbol-set-and-amine-treating-pfd",
+  "title": "Typical PFD symbol set and amine-treating PFD",
+  "diagram_type": "PFD",
+  "description": "PFD symbol library plus a gas-sweetening/amine treating flowsheet directly relevant to topside gas treatment | Figures: Wikipedia 'Process flow diagram': File:Pfd-symbols.png ('Some typical elements from process flow diagrams') and File:AmineTreating.png ('Flow diagram of a typical amine treating process used in industrial plants')",
+  "publisher": "Wikipedia / Wikimedia Commons (secondary); symbol set from open-source Dia",
+  "url": "https://en.wikipedia.org/wiki/Process_flow_diagram",
+  "licence": "Wikipedia article text CC BY-SA 4.0; individual image licences vary — check the Commons file page before reuse.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing",
+    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral",
+    "tp-three-phase-production-test-separator-horizontal-vertical-sphe",
+    "top-flare-platform-topsides-and-flare-booms-stacks",
+    "ex-subsea-trees-christmas-trees"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Process_flow_diagram",
+      "source_id": "sys-en-wikipedia-org-process-flow-diagram"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Page/document read 2026-11-24. WebFetch of Wikipedia Process flow diagram page",
+  "last_reviewed": "2026-11-24"
+}

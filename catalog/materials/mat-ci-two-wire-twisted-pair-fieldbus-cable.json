@@ -1,0 +1,45 @@
+{
+  "id": "mat-ci-two-wire-twisted-pair-fieldbus-cable",
+  "name": "Two-wire twisted pair fieldbus cable",
+  "material_category": "power-signal-cabling",
+  "description": "Carries FOUNDATION Fieldbus H1 digital signal and intrinsically safe / non-incendive device power in hazardous areas.",
+  "specifications": [
+    {
+      "metric": "conductor arrangement",
+      "unit": "construction",
+      "basis": "FieldComm Group Foundation Fieldbus page",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+        "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+      },
+      "value": "two-wire twisted pair"
+    },
+    {
+      "metric": "hazardous-area suitability",
+      "unit": "certification basis",
+      "basis": "FieldComm Group Foundation Fieldbus page",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+        "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+      },
+      "value": "intrinsically safe or non-incendive device power suitable for all hazardous areas"
+    }
+  ],
+  "applications": [
+    "Carries FOUNDATION Fieldbus H1 digital signal and intrinsically safe / non-incendive device power in hazardous areas."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "fieldcomm-group-specification-owner"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+      "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

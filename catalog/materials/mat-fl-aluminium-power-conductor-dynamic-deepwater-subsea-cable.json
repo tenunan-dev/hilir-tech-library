@@ -1,0 +1,36 @@
+{
+  "id": "mat-fl-aluminium-power-conductor-dynamic-deepwater-subsea-cable",
+  "name": "Aluminium power conductor",
+  "material_category": "metal-electrical",
+  "description": "Electrical power and communication conductor for subsea pumping/processing and dynamic deepwater applications.",
+  "specifications": [
+    {
+      "metric": "Conductor material and feature",
+      "unit": "n/a",
+      "basis": "TechnipFMC umbilicals page, Electrical cables",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
+        "source_id": "sys-technipfmc-com-c36d9c"
+      },
+      "value": "aluminium cable for dynamic and deepwater application; patented gas blocking technology"
+    }
+  ],
+  "applications": [
+    "Electrical power and communication conductor for subsea pumping/processing and dynamic deepwater applications."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "technipfmc-cds-separation-systems",
+    "nexans"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
+      "source_id": "sys-technipfmc-com-c36d9c"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

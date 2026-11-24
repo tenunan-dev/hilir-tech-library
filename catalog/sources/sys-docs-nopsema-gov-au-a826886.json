@@ -1,0 +1,33 @@
+{
+  "id": "sys-docs-nopsema-gov-au-a826886",
+  "name": "INPEX Ichthys Pty Ltd / NOPSEMA",
+  "url": "https://docs.nopsema.gov.au/A826886",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Docs.Nopsema.Gov.Au",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Page read 2026-11-24 during the all-systems sweep. SPS infrastructure: XTs, manifolds, subsea control systems, umbilicals, risers and flowlines, gas export riser base; 18 in production flowlines to 12 in flexible production risers Evidence: https://docs.nopsema.gov.au/A826886"
+}

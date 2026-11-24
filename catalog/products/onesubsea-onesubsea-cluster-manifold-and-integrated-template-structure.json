@@ -14,7 +14,7 @@
       "basis": "",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
-        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+        "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
       "value": 10000
     },
@@ -24,7 +24,7 @@
       "basis": "",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
-        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+        "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
       "value": 15000
     },
@@ -34,7 +34,7 @@
       "basis": "",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
-        "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+        "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
       "value": 175
     }
@@ -43,7 +43,7 @@
   "sources": [
     {
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
-      "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-manifolds"
+      "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
     }
   ],
   "notes": "fetched",

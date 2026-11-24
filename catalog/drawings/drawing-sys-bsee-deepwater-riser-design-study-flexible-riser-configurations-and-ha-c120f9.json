@@ -1,0 +1,46 @@
+{
+  "id": "drawing-sys-bsee-deepwater-riser-design-study-flexible-riser-configurations-and-ha-c120f9",
+  "title": "BSEE Deepwater Riser Design Study — flexible riser configurations and hardware",
+  "diagram_type": "schematic",
+  "description": "Flexible catenary riser geometry, cross-section and end hardware; SCR hang-off and touchdown region | Figures: Figure 11.1 Flexible Riser Configurations; 11.2 Typical FCR Cross Section; 11.4-11.8 end fitting, bend stiffener, bellmouth, bend restrictor, buoyancy modules; Figure 7.7.1 SCR Elevation Schematic",
+  "publisher": "BSEE / MMS (Deepwater Riser Design Study, 2007); original figures credited to API RP 2RD and API RP 17B",
+  "url": "https://www.bsee.gov/sites/bsee.gov/files/research-reports/572aa.pdf",
+  "licence": "Public domain. Freely reusable with attribution good practice.",
+  "reuse_level": "summary-only",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "equipment": [
+    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin",
+    "ex-subsea-trees-christmas-trees",
+    "wh-flare-boom-flare-stack",
+    "ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr",
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e",
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s"
+  ],
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bsee.gov/sites/bsee.gov/files/research-reports/572aa.pdf",
+      "source_id": "sys-bsee-gov-572aa-pdf"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Diagram held at publisher URL",
+      "why": "Not reproduced here.",
+      "next_action": "Open the URL and respect the stated terms before reuse."
+    }
+  ],
+  "notes": "Search-verified pointer 2026-11-24. HILIR techlib catalogue record; direct URL HTTP 200",
+  "last_reviewed": "2026-11-24"
+}

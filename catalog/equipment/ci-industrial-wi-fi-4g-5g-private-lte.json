@@ -1,0 +1,40 @@
+{
+  "id": "ci-industrial-wi-fi-4g-5g-private-lte",
+  "name": "Industrial Wi-Fi / 4G / 5G / private LTE",
+  "equipment_type": "ci-system",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "PWR",
+    "INS",
+    "ELE"
+  ],
+  "description": "Higher-bandwidth wireless backhaul and mobile connectivity for plant and offshore platforms.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "",
+      "value": "Higher-bandwidth wireless backhaul and mobile connectivity for plant and offshore platforms.",
+      "basis": "Qualitative function from pages read in this sweep.",
+      "source": {
+        "url": "https://www.api.org/products-and-services/standards",
+        "source_id": "sys-api-org-standards"
+      }
+    }
+  ],
+  "vendors": [
+    "slb-cameron-pressure-control-equipment"
+  ],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "sys-api-org-standards"
+    }
+  ],
+  "gaps": [],
+  "applications": [
+    "Higher-bandwidth wireless backhaul and mobile connectivity for plant and offshore platforms."
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

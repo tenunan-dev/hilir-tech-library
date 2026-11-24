@@ -1,0 +1,55 @@
+{
+  "id": "mat-cf-gray-iron-crankcase-ductile-iron-crosshead-forged-steel-cran-50a4fc",
+  "name": "Gray iron crankcase / ductile iron crosshead / forged steel crankshaft and connecting rods",
+  "material_category": "metals-ferrous",
+  "description": "Pressure and load-bearing structure of reciprocating compressor frames; tri-metal bearings and bronze bushings reduce friction and wear.",
+  "specifications": [
+    {
+      "metric": "Ariel JGN/JGQ materials",
+      "unit": "material list",
+      "basis": "Ariel JGN/JGQ product page 'Materials' section",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
+        "source_id": "sys-arielcorp-com-jgn-jgq-html"
+      },
+      "value": "Gray iron crankcase; forged steel crankshaft; gray iron crosshead guide; tri-metal main bearing; ductile iron crosshead; alloy steel crosshead pin; forged steel connecting rod; bronze pin bushing; grade 8 stress bolts"
+    },
+    {
+      "metric": "Ariel KBB/KBV materials",
+      "unit": "material list",
+      "basis": "Ariel KBB/KBV product page 'Materials' section",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "sys-arielcorp-com-kbb-kbv-html"
+      },
+      "value": "Gray iron crankcase; forged steel crankshaft; bronze thrust bearing; tri-metal main bearing; ductile iron crosshead; alloy steel crosshead pin"
+    }
+  ],
+  "applications": [
+    "Pressure and load-bearing structure of reciprocating compressor frames; tri-metal bearings and bronze bushings reduce friction and wear."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "ariel-corporation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
+      "source_id": "sys-arielcorp-com-jgn-jgq-html"
+    },
+    {
+      "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+      "source_id": "sys-arielcorp-com-kbb-kbv-html"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Equivalent ASTM/EN material grades and allowable stresses for these compressor-frame materials",
+      "why": "Not published on the fetched OEM pages",
+      "next_action": "Fetch Ariel application manual or material certificates"
+    }
+  ],
+  "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -56,7 +56,14 @@
     "flexible flowline",
     "SCR",
     "subsea boosting",
-    "CALM/SPM export"
+    "CALM/SPM export",
+    "riser",
+    "subsea umbilical",
+    "pipeline/flowline",
+    "wet-mate connector",
+    "BOP",
+    "subsea separator",
+    "injection system"
   ],
   "suppliers": [
     {
@@ -202,5 +209,5 @@
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
   ],
-  "notes": "Process provenance: Documents the subsea production chain from wellbore to host - tree, jumper through a multiphase meter, manifold, flowline, booster pump, PLET, riser and FPSO, with the umbilical/UTA routing power, hydraulics and chemicals. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24."
+  "notes": "Process provenance: Documents the subsea production chain from wellbore to host - tree, jumper through a multiphase meter, manifold, flowline, booster pump, PLET, riser and FPSO, with the umbilical/UTA routing power, hydraulics and chemicals. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Wellhead platform, topside, subsea and export-to-shore systems added 2026-11-24. Riser/umbilical/pipeline/BOP/tree/separation/injection/compression/flare/piping/genset/solar/wireless/instrumentation systems added 2026-11-24. Riser/umbilical/pipeline/BOP/tree/separation/injection/compression/flare/piping/genset/solar/wireless/instrumentation systems added 2026-11-24."
 }

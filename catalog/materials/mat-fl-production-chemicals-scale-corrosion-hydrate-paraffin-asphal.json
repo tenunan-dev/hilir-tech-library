@@ -1,0 +1,45 @@
+{
+  "id": "mat-fl-production-chemicals-scale-corrosion-hydrate-paraffin-asphal",
+  "name": "Production chemicals",
+  "material_category": "chemical",
+  "description": "Flow assurance and asset integrity from reservoir to refinery; inhibit or remove deposits, dehydrate/desalt oil, clean produced water, remove H2S/mercury.",
+  "specifications": [
+    {
+      "metric": "Deposit types addressed",
+      "unit": "n/a",
+      "basis": "SLB production chemicals page, Flow assurance",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/production-chemicals-and-services",
+        "source_id": "sys-slb-com-production-chemicals-and-services"
+      },
+      "value": "scale, paraffin, asphaltene, hydrates, naphthenates and other deposits"
+    },
+    {
+      "metric": "Deepwater chemical compatibility",
+      "unit": "n/a",
+      "basis": "SLB production chemicals page, Deepwater chemicals",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/production-chemicals-and-services",
+        "source_id": "sys-slb-com-production-chemicals-and-services"
+      },
+      "value": "umbilical-friendly production chemicals addressing scale, corrosion, wax, asphaltene deposition and hydrates in extreme subsea conditions"
+    }
+  ],
+  "applications": [
+    "Flow assurance and asset integrity from reservoir to refinery; inhibit or remove deposits, dehydrate/desalt oil, clean produced water, remove H2S/mercury."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "slb-cameron-pressure-control-equipment"
+  ],
+  "sources": [
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/production-chemicals-and-services",
+      "source_id": "sys-slb-com-production-chemicals-and-services"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

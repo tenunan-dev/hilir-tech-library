@@ -1,0 +1,35 @@
+{
+  "id": "mat-ci-4-20-ma-instrumentation-cable",
+  "name": "4-20 mA instrumentation cable",
+  "material_category": "power-signal-cabling",
+  "description": "Analog current loop medium for HART-enabled field instruments.",
+  "specifications": [
+    {
+      "metric": "medium",
+      "unit": "signal/wiring",
+      "basis": "FieldComm Group HART technology page",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart",
+        "source_id": "sys-fieldcommgroup-org-hart"
+      },
+      "value": "4-20 mA analog current loops; instrumentation-grade wiring and standard termination practices"
+    }
+  ],
+  "applications": [
+    "Analog current loop medium for HART-enabled field instruments."
+  ],
+  "standards": [],
+  "equipment": [],
+  "suppliers": [
+    "slb-cameron-pressure-control-equipment"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fieldcommgroup.org/technologies/hart",
+      "source_id": "sys-fieldcommgroup-org-hart"
+    }
+  ],
+  "gaps": [],
+  "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "sungrow-sungrow-ts30m-pt60-floating-barge-fpv-systems",
+  "name": "Sungrow TS30M / PT60 / Floating Barge FPV systems",
+  "manufacturer": "sungrow",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
+  ],
+  "description": "Vendor product line read 2026-11-24. Truss, pontoon and barge structures",
+  "specifications": [
+    {
+      "metric": "Global FPV applications",
+      "unit": "GW (over)",
+      "basis": "",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "sys-sungrowpower-com-floating-pv-system"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Example project",
+      "unit": "MW (Cirata, Indonesia)",
+      "basis": "",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "sys-sungrowpower-com-floating-pv-system"
+      },
+      "value": 192
+    }
+  ],
+  "url": "https://www.sungrowpower.com/en/floating-pv-system",
+  "sources": [
+    {
+      "url": "https://www.sungrowpower.com/en/floating-pv-system",
+      "source_id": "sys-sungrowpower-com-floating-pv-system"
+    }
+  ],
+  "notes": "Truss, pontoon and barge structures",
+  "last_reviewed": "2026-11-24"
+}

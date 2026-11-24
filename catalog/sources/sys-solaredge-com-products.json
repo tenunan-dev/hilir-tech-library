@@ -1,0 +1,33 @@
+{
+  "id": "sys-solaredge-com-products",
+  "name": "SolarEdge",
+  "url": "https://www.solaredge.com/products",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE",
+    "MAT"
+  ],
+  "publisher_org": "Solaredge.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Page read 2026-11-24 during the all-systems sweep. PAGE NOT FETCHED - HTTP 403. No facts attributed. Evidence: https://www.solaredge.com/products"
+}
