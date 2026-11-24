@@ -20,6 +20,126 @@
         "source_id": "eurocodes-jrc-ec-europa-eu-en-eurocodes-eurocode-7-geotechnical-de"
       },
       "value": "EN 1997-1:2004 / EN 1997-2:2007"
+    },
+    {
+      "metric": "Axle load",
+      "unit": "t at 1 km/h",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
+        "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
+      },
+      "value": 45
+    },
+    {
+      "metric": "Axle compensation",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
+        "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
+      },
+      "value": 600
+    },
+    {
+      "metric": "Width",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
+        "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "edition",
+      "unit": "n/a",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/",
+        "source_id": "dnv-com-dnv-st-0126-support-structures-for-wind-turbines"
+      },
+      "value": "2021-12"
+    },
+    {
+      "metric": "rated mooring capacity",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
+        "source_id": "shibata-fender-team-news-detail-optimizing-the-fender-design-for-l"
+      },
+      "value": 80
+    },
+    {
+      "metric": "ViscoCrete-1000 water reduction",
+      "unit": "% max",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
+        "source_id": "usa-sika-com-air-entrainers-sika-air-html"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Sika AIR dosage",
+      "unit": "mL/100 kg",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
+        "source_id": "usa-sika-com-air-entrainers-sika-air-html"
+      },
+      "value": "7–400"
+    },
+    {
+      "metric": "thickness",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": "12-15"
+    },
+    {
+      "metric": "diameter",
+      "unit": "m",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": "up to 52"
+    },
+    {
+      "metric": "stock thickness",
+      "unit": "in",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
+        "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
+      },
+      "value": "1/4-4"
+    },
+    {
+      "metric": "condition",
+      "unit": "n/a",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
+        "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
+      },
+      "value": "normalized"
+    },
+    {
+      "metric": "material",
+      "unit": "n/a",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
+        "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
+      },
+      "value": "needle-punched nonwoven geotextile filled with sand"
     }
   ],
   "vendors": [

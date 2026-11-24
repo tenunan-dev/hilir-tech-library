@@ -40,6 +40,66 @@
         "source_id": "specoilandgas-com-oil-processing-electrostatic-heater-treater-desa"
       },
       "value": "50,000"
+    },
+    {
+      "metric": "regeneration gas temperature",
+      "unit": "degF",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
+        "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
+      },
+      "value": "~550 degF (290 degC)"
+    },
+    {
+      "metric": "towers",
+      "unit": "count",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
+        "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
+      },
+      "value": "minimum 2, fixed switching cycle"
+    },
+    {
+      "metric": "treating capacity",
+      "unit": "BLPD",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
+        "source_id": "specoilandgas-com-oil-processing-mechanical-heater-treater"
+      },
+      "value": ">20,000 BLPD, including low-API crude"
+    },
+    {
+      "metric": "reference facility",
+      "unit": "BOPD",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter",
+        "source_id": "specoilandgas-com-oil-processing-electrostatic-heater-treater-desa"
+      },
+      "value": "50,000 BOPD; 2 dehydrators + 2 cross exchangers"
+    },
+    {
+      "metric": "reference trains",
+      "unit": "MMSCFD",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
+        "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
+      },
+      "value": "2 x 30 MMSCFD"
+    },
+    {
+      "metric": "TEG outlet spec (Fiorentini)",
+      "unit": "lb/MMSCF",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
+        "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
+      },
+      "value": "3-7 lb water/MMSCF"
     }
   ],
   "vendors": [

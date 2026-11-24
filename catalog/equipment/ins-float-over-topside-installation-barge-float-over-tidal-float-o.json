@@ -30,6 +30,16 @@
         "source_id": "mammoet-com-topside-load-out"
       },
       "value": ">10,000 t (many topsides now exceed this)"
+    },
+    {
+      "metric": "Innovation",
+      "unit": "mechanism",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
+        "source_id": "orca-offshore-com-leg-mating-unit"
+      },
+      "value": "direct welding after set-down; no sand-jack lowering phase"
     }
   ],
   "vendors": [

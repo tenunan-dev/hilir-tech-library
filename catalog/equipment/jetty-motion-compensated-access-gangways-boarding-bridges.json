@@ -30,6 +30,46 @@
         "source_id": "ampelmann-nl-systems-e-type"
       },
       "value": "30 m / 8.4 x 9.5 m / 105 mt"
+    },
+    {
+      "metric": "wave compensation",
+      "unit": "m Hs",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type",
+        "source_id": "ampelmann-nl-systems-e-type"
+      },
+      "value": 4.5
+    },
+    {
+      "metric": "gangway length",
+      "unit": "m",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type",
+        "source_id": "ampelmann-nl-systems-e-type"
+      },
+      "value": 30
+    },
+    {
+      "metric": "footprint",
+      "unit": "m",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type",
+        "source_id": "ampelmann-nl-systems-e-type"
+      },
+      "value": "8.4 x 9.5"
+    },
+    {
+      "metric": "system weight",
+      "unit": "metric tonnes",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type",
+        "source_id": "ampelmann-nl-systems-e-type"
+      },
+      "value": 105
     }
   ],
   "vendors": [

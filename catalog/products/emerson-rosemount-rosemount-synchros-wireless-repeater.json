@@ -1,0 +1,41 @@
+{
+  "id": "emerson-rosemount-rosemount-synchros-wireless-repeater",
+  "name": "Rosemount Synchros Wireless Repeater",
+  "manufacturer": "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
+  "product_type": "ci-system",
+  "equipment": [
+    "ci-wirelesshart-industrial-wireless-mesh-024e52"
+  ],
+  "description": "Page read in full; no numeric electrical or dimensional specification table was printed on this product page.",
+  "specifications": [
+    {
+      "metric": "Data reliability",
+      "unit": "%",
+      "basis": "'WirelessHART technology is secure, cost-effective and delivers >99% data reliability' (Key Features)",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater",
+        "source_id": "cat-emerson-com-rosemount-synchros-wireless-repeater"
+      },
+      "low": ">99"
+    },
+    {
+      "metric": "Mounting",
+      "unit": "qualitative",
+      "basis": "First Key Feature as printed",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater",
+        "source_id": "cat-emerson-com-rosemount-synchros-wireless-repeater"
+      },
+      "value": "directly mounts to process piping without cutting or changing pipe configurations"
+    }
+  ],
+  "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater",
+  "sources": [
+    {
+      "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater",
+      "source_id": "cat-emerson-com-rosemount-synchros-wireless-repeater"
+    }
+  ],
+  "notes": "Page read in full; no numeric electrical or dimensional specification table was printed on this product page.",
+  "last_reviewed": "2026-11-24"
+}

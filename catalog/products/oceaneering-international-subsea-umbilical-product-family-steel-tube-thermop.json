@@ -1,0 +1,61 @@
+{
+  "id": "oceaneering-international-subsea-umbilical-product-family-steel-tube-thermop",
+  "name": "Subsea umbilical product family (steel tube, thermoplastic hose, power, IWOCS), M Series junction plates, hydraulic flying leads, UTAs, I/J ",
+  "manufacturer": "oceaneering-international",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-subsea-umbilicals-electro-hydraulic-electrical-fibre-optic-ste"
+  ],
+  "description": "HTML index page read; each item links to a separate PDF datasheet (not WebFetch-readable). The page's 'more than 0 km' counter is a rendering artifact and is not reported as a figure.",
+  "specifications": [
+    {
+      "metric": "Umbilical types",
+      "unit": "n/a",
+      "basis": "Products page headings and captions.",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
+        "source_id": "cat-oceaneering-com"
+      },
+      "value": "Steel Tube Umbilicals; Thermoplastic Hose Umbilicals; Power Umbilicals; IWOCS Umbilicals"
+    },
+    {
+      "metric": "Flying lead conduit",
+      "unit": "n/a",
+      "basis": "Hydraulic Flying Leads section: 'Combining a primary conduit section—typically steel tubes or thermoplastic hoses...'",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
+        "source_id": "cat-oceaneering-com"
+      },
+      "value": "Steel tubes or thermoplastic hoses; modular hydraulic, electro-hydraulic and hybrid designs"
+    },
+    {
+      "metric": "Uta configuration",
+      "unit": "n/a",
+      "basis": "Subsea Umbilical Termination Assemblies section.",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
+        "source_id": "cat-oceaneering-com"
+      },
+      "value": "Modular components; configurable side panels for hydraulic, electrical and fiber optic connectivity"
+    },
+    {
+      "metric": "Ancillary hardware",
+      "unit": "n/a",
+      "basis": "Topside Connection Hardware and Ancillary Equipment section.",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
+        "source_id": "cat-oceaneering-com"
+      },
+      "value": "Umbilical I- and J-Tube Seals; Pull-In and Hang Off Systems; Subsea Umbilical Termination Interfaces; Tie Back or Tie Down Collars; Subsea Umbilical Weak Links"
+    }
+  ],
+  "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
+  "sources": [
+    {
+      "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
+      "source_id": "cat-oceaneering-com"
+    }
+  ],
+  "notes": "HTML index page read; each item links to a separate PDF datasheet (not WebFetch-readable). The page's 'more than 0 km' counter is a rendering artifact and is not reported as a figure.",
+  "last_reviewed": "2026-11-24"
+}

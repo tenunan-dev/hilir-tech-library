@@ -1,0 +1,71 @@
+{
+  "id": "slb-cameron-wellhead-systems-ic-conventional-wellhead-system-6da85e",
+  "name": "IC Conventional Wellhead System",
+  "manufacturer": "slb-cameron-pressure-control-equipment",
+  "product_type": "system",
+  "equipment": [],
+  "description": "Straight-bore design with 45-degree load shoulder; casing head housings IC-2, IC-2-BP, IC-2-L; tubing spools C, MTBS, CD-2. Surface overview brochure linked but not fetched.",
+  "specifications": [
+    {
+      "metric": "Maximum pressure rating",
+      "unit": "psi",
+      "basis": "Max. pressure rating: 10,000 psi [68.9 MPa]",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems",
+        "source_id": "cat-slb-com-ic-conventional-wellhead-systems"
+      },
+      "value": "10,000"
+    },
+    {
+      "metric": "Maximum pressure rating (metric)",
+      "unit": "MPa",
+      "basis": "Max. pressure rating: 10,000 psi [68.9 MPa]",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems",
+        "source_id": "cat-slb-com-ic-conventional-wellhead-systems"
+      },
+      "value": "68.9"
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degF",
+      "basis": "Temperature range: 0 to 150 degF [-17 to 65 degC]",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems",
+        "source_id": "cat-slb-com-ic-conventional-wellhead-systems"
+      },
+      "low": "0",
+      "high": "150"
+    },
+    {
+      "metric": "Temperature range (metric)",
+      "unit": "degC",
+      "basis": "Temperature range: 0 to 150 degF [-17 to 65 degC]",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems",
+        "source_id": "cat-slb-com-ic-conventional-wellhead-systems"
+      },
+      "low": "-17",
+      "high": "65"
+    },
+    {
+      "metric": "Available sizes",
+      "unit": "in",
+      "basis": "Available sizes: 9, 11, and 13 5/8 in",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems",
+        "source_id": "cat-slb-com-ic-conventional-wellhead-systems"
+      },
+      "value": "9, 11, and 13 5/8"
+    }
+  ],
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems",
+  "sources": [
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems",
+      "source_id": "cat-slb-com-ic-conventional-wellhead-systems"
+    }
+  ],
+  "notes": "Straight-bore design with 45-degree load shoulder; casing head housings IC-2, IC-2-BP, IC-2-L; tubing spools C, MTBS, CD-2. Surface overview brochure linked but not fetched.",
+  "last_reviewed": "2026-11-24"
+}

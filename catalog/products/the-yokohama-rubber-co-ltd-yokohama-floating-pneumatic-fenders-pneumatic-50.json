@@ -11,7 +11,7 @@
     {
       "metric": "Pneumatic 50 GEA range",
       "unit": "kNm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
         "source_id": "y-yokohama-com-floating"
@@ -22,7 +22,7 @@
     {
       "metric": "Pneumatic 80 GEA range",
       "unit": "kNm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
         "source_id": "y-yokohama-com-floating"
@@ -33,7 +33,7 @@
     {
       "metric": "initial internal pressure",
       "unit": "kPa",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
         "source_id": "y-yokohama-com-floating"

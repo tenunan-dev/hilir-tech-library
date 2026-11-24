@@ -87,6 +87,26 @@
         "source_id": "casale-ch-urea"
       },
       "value": "medium-high pressure (MHP) carbamate decomposition step reduces steam and cooling water demand"
+    },
+    {
+      "metric": "CO2 conversion in reactor",
+      "unit": "percent (as high as)",
+      "basis": "Casale performance claim",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/",
+        "source_id": "casale-ch-urea"
+      },
+      "value": 62
+    },
+    {
+      "metric": "sections",
+      "unit": "n/a",
+      "basis": "Casale technology page",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/",
+        "source_id": "casale-ch-urea"
+      },
+      "value": "HP synthesis + LP purification/carbamate recovery; optional MP section for high capacity"
     }
   ],
   "vendors": [

@@ -11,7 +11,7 @@
     {
       "metric": "edition",
       "unit": "n/a",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/",
         "source_id": "dnv-com-dnv-st-0126-support-structures-for-wind-turbines"

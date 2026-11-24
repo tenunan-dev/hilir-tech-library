@@ -1,0 +1,62 @@
+{
+  "id": "ewfm-e-w-fuel-management-ltd-chemical-composite-hose-standard-and-heavy-duty",
+  "name": "Chemical Composite Hose (standard and heavy duty)",
+  "manufacturer": "ewfm-e-w-fuel-management-ltd",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
+  ],
+  "description": "Eight configurations listed; inner helix 316 SS or PP-coated steel, outer helix 316 SS or galvanised steel.",
+  "specifications": [
+    {
+      "metric": "Maximum working pressure",
+      "unit": "bar",
+      "basis": "Page summary block 'Pressure 14 bar' and Additional Specifications 'Maximum Working Pressure: 14 BAR'",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
+        "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
+      },
+      "value": 14
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degC",
+      "basis": "Additional Specifications: 'Temperature Range: -30°C to + 100°C'",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
+        "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
+      },
+      "low": -30,
+      "high": 100
+    },
+    {
+      "metric": "Standard duty sizes",
+      "unit": "in / mm",
+      "basis": "Additional Specifications: 'Standard Duty: 1” – 4” (25MM – 100MM)'",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
+        "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
+      },
+      "value": "1 in – 4 in (25 mm – 100 mm)"
+    },
+    {
+      "metric": "Heavy duty sizes",
+      "unit": "in / mm",
+      "basis": "Additional Specifications: 'Heavy Duty: 4” – 10” (100MM – 250MM)'",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
+        "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
+      },
+      "value": "4 in – 10 in (100 mm – 250 mm)"
+    }
+  ],
+  "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
+  "sources": [
+    {
+      "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
+      "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
+    }
+  ],
+  "notes": "Eight configurations listed; inner helix 316 SS or PP-coated steel, outer helix 316 SS or galvanised steel.",
+  "last_reviewed": "2026-11-24"
+}

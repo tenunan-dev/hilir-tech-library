@@ -11,7 +11,7 @@
     {
       "metric": "ViscoCrete-1000 water reduction",
       "unit": "% max",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
         "source_id": "usa-sika-com-air-entrainers-sika-air-html"
@@ -21,7 +21,7 @@
     {
       "metric": "Sika AIR dosage",
       "unit": "mL/100 kg",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
         "source_id": "usa-sika-com-air-entrainers-sika-air-html"

@@ -1,0 +1,32 @@
+{
+  "id": "cat-teledynemarine-com-underwater-pluggable-connectors",
+  "name": "Teledyne Marine (Impulse / ODI) — Impulse / Teledyne Wet Mate Series underwater pluggable connectors (IE2-BC, IERD2-BC, ",
+  "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "Teledynemarine.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. Table read from HTML page. A separate Teledyne Nautilus WM1.7-60 HTML page returned only the header under WebFetch and is treated as search-verified only. Evidence: https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
+}

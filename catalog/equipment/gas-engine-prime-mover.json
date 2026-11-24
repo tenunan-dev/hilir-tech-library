@@ -133,6 +133,126 @@
       },
       "low": 776,
       "high": 2547
+    },
+    {
+      "metric": "Voltage",
+      "unit": "kV @50Hz",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "value": "400 / 6.3 / 10.5"
+    },
+    {
+      "metric": "Service life",
+      "unit": "operating hours before first major overhaul (fact sheet, search-verified)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "value": 60000
+    },
+    {
+      "metric": "Ramp rate",
+      "unit": "MW/min hot",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": ">14"
+    },
+    {
+      "metric": "Hydrogen admixture",
+      "unit": "%",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Voltage",
+      "unit": "kV @50Hz",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+        "source_id": "jenbacher-com-j920-flextra"
+      },
+      "value": "10.5 / 11"
+    },
+    {
+      "metric": "Start to full power",
+      "unit": "min",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+        "source_id": "jenbacher-com-j920-flextra"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Applications",
+      "unit": "qualitative",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers",
+        "source_id": "comap-control-com-controllers-paralleling-gen-set-controllers"
+      },
+      "value": "gas gensets / CHP"
+    },
+    {
+      "metric": "Grid codes",
+      "unit": "standards (search-verified detail)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers",
+        "source_id": "comap-control-com-controllers-paralleling-gen-set-controllers"
+      },
+      "value": "EN 50549-1/-2, VDE-AR-N 4105/4110, TOR A/B"
+    },
+    {
+      "metric": "Time to full load",
+      "unit": "minutes",
+      "basis": "POWER magazine article: 'achieves full load within two minutes'",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
+        "source_id": "powermag-com-engine-power-plants-surge-as-data-centers-drive-unpre"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Engine portfolio rating (Jenbacher Type 9 page navigation)",
+      "unit": "kW/engine",
+      "basis": "Jenbacher data-centre page navigation labels 'Jenbacher Type 9 Up to 10606 kW/engine'",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
+        "source_id": "powermag-com-engine-power-plants-surge-as-data-centers-drive-unpre"
+      },
+      "high": 10606
+    },
+    {
+      "metric": "Full-load start time",
+      "unit": "min (fast start)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
+      },
+      "value": "<2"
+    },
+    {
+      "metric": "Efficiency",
+      "unit": "% with two-stage turbocharging",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
+        "source_id": "everllence-com-products-gas-fuel-engines"
+      },
+      "value": ">51"
     }
   ],
   "vendors": [

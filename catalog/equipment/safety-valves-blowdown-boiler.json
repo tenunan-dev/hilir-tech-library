@@ -136,6 +136,16 @@
       "unit": "ppm",
       "low": 2000,
       "high": 10000
+    },
+    {
+      "metric": "Method",
+      "basis": "Blowdown Systems catalog listing: 'Cleaver-Brooks model BDS blowdown separators and model BDT tanks use a safe, proven, economical flash purification process'",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems",
+        "source_id": "cleaverbrooks-com-boiler-room-equipment-blowdown-systems"
+      },
+      "unit": "process",
+      "value": "Safe, proven, economical flash purification process for blowdown effectiveness and disposal"
     }
   ],
   "vendors": [

@@ -1,0 +1,71 @@
+{
+  "id": "sungrow-power-supply-co-ltd-sungrow-floating-pv-systems-ts30m-truss-structur",
+  "name": "Sungrow floating PV systems - TS30M truss structure, PT60 pontoon, Floating Barge",
+  "manufacturer": "sungrow-power-supply-co-ltd",
+  "product_type": "cf-system",
+  "equipment": [
+    "cf-solar-pv-modules-and-inverters-onshore-gas-plant-and-remote-hy"
+  ],
+  "description": "Product families listed: TS30M truss structure, PT60 pontoon, Floating Barge equipment support system. Page claims No.1 global market share for FPV. Detailed product spec sheets are behind linked Documents & Installation tabs (not read).",
+  "specifications": [
+    {
+      "metric": "Global FPV application",
+      "unit": "GW (over, as printed)",
+      "basis": "With Over 4GW of Floating PV Application, We Set the Standard / >4 GW Global Application",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 4
+    },
+    {
+      "metric": "FPV patents",
+      "unit": "patents (over, as printed)",
+      "basis": "290 + Patents (page stat)",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 290
+    },
+    {
+      "metric": "Reference project - Indonesia",
+      "unit": "MW",
+      "basis": "Cases & Stories: Capacity 192 MW, Location Indonesia, Application Scenario Reservoir",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 192
+    },
+    {
+      "metric": "Reference project - Anhui China",
+      "unit": "MW",
+      "basis": "Cases & Stories: Major 200MW Floating Solar Plant Launched on Anhui's Former Coal Mines; Capacity 200 MW, Application Scenario Subsidence Area",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Reference project - Philippines",
+      "unit": "MW",
+      "basis": "Cases & Stories: Philippines' First Megawatt-Scale Floating Solar Plant; Capacity 4.99 MW, Application Scenario Reservoir",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 4.99
+    }
+  ],
+  "url": "https://www.sungrowpower.com/en/floating-pv-system",
+  "sources": [
+    {
+      "url": "https://www.sungrowpower.com/en/floating-pv-system",
+      "source_id": "cat-sungrowpower-com-floating-pv-system"
+    }
+  ],
+  "notes": "Product families listed: TS30M truss structure, PT60 pontoon, Floating Barge equipment support system. Page claims No.1 global market share for FPV. Detailed product spec sheets are behind linked Documents & Installation tabs (not read).",
+  "last_reviewed": "2026-11-24"
+}

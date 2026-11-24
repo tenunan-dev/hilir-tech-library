@@ -11,7 +11,7 @@
     {
       "metric": "camera / payload",
       "unit": "n/a",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.flyability.com/blog/offshore-drone-inspections",
         "source_id": "flyability-com-blog-offshore-drone-inspections"
@@ -21,7 +21,7 @@
     {
       "metric": "battery range",
       "unit": "m",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.flyability.com/blog/offshore-drone-inspections",
         "source_id": "flyability-com-blog-offshore-drone-inspections"

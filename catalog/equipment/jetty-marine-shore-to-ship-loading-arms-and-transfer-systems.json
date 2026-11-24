@@ -41,6 +41,47 @@
         "source_id": "ten-com-markets-loading-systems"
       },
       "value": "+15,000 installed loading arms; 57 patents; 70+ years"
+    },
+    {
+      "metric": "installed loading arms",
+      "unit": "count (+15K stated)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems",
+        "source_id": "ten-com-markets-loading-systems"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "patents",
+      "unit": "count",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems",
+        "source_id": "ten-com-markets-loading-systems"
+      },
+      "value": 57
+    },
+    {
+      "metric": "diameter",
+      "unit": "inches",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms",
+        "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
+      },
+      "low": 6,
+      "high": 24
+    },
+    {
+      "metric": "design pressure",
+      "unit": "bar (up to)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms",
+        "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
+      },
+      "value": 50
     }
   ],
   "vendors": [

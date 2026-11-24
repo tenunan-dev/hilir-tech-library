@@ -1,0 +1,69 @@
+{
+  "id": "siemens-scalance-s-industrial-security-appliances-scalance-sc-600-s615-s605",
+  "name": "SCALANCE S Industrial Security Appliances (SCALANCE SC-600, S615/S605, SC622-2C, SC626-2C)",
+  "manufacturer": "siemens",
+  "product_type": "system",
+  "equipment": [],
+  "description": "Page read in full (WebFetch returned status 200, canonical https://www.siemens.com/en-us/products/scalance/s-industrial-security-appliance/). Linked Siemens ordering-overview PDF was not fetched.",
+  "specifications": [
+    {
+      "metric": "Firewall throughput",
+      "unit": "Mbit/s",
+      "basis": "'Process up to 750 Mbit/s firewall throughput with up to 1,000 rules and support up to 200 VPN connections'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
+        "source_id": "cat-siemens-com-scalance-s-html"
+      },
+      "high": 750
+    },
+    {
+      "metric": "Firewall rules",
+      "unit": "rules",
+      "basis": "'up to 1,000 rules' in High-performance firewall and VPN in one solution",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
+        "source_id": "cat-siemens-com-scalance-s-html"
+      },
+      "high": 1000
+    },
+    {
+      "metric": "VPN connections",
+      "unit": "connections",
+      "basis": "'support up to 200 VPN connections'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
+        "source_id": "cat-siemens-com-scalance-s-html"
+      },
+      "high": 200
+    },
+    {
+      "metric": "Redundancy",
+      "unit": "mechanism",
+      "basis": "'Ensure continuous operation with VRRP and firewall state synchronization'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
+        "source_id": "cat-siemens-com-scalance-s-html"
+      },
+      "value": "VRRP and firewall state synchronization"
+    },
+    {
+      "metric": "Compliance standard",
+      "unit": "standard",
+      "basis": "'Integrate OT securely into enterprise IT environments ... while maintaining compliance with IEC 62443'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
+        "source_id": "cat-siemens-com-scalance-s-html"
+      },
+      "value": "IEC 62443"
+    }
+  ],
+  "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
+  "sources": [
+    {
+      "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
+      "source_id": "cat-siemens-com-scalance-s-html"
+    }
+  ],
+  "notes": "Page read in full (WebFetch returned status 200, canonical https://www.siemens.com/en-us/products/scalance/s-industrial-security-appliance/). Linked Siemens ordering-overview PDF was not fetched.",
+  "last_reviewed": "2026-11-24"
+}

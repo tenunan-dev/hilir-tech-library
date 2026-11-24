@@ -11,7 +11,7 @@
     {
       "metric": "EDM accuracy",
       "unit": "mm+ppm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
         "source_id": "geospatial-trimble-com-hardware-trimble-s9"
@@ -21,7 +21,7 @@
     {
       "metric": "Max range",
       "unit": "m",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
         "source_id": "geospatial-trimble-com-hardware-trimble-s9"

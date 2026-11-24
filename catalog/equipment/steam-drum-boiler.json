@@ -34,6 +34,36 @@
       "unit": "degF",
       "low": 100,
       "high": 400
+    },
+    {
+      "metric": "Drum arrangement",
+      "basis": "Modular HRSG Product Overview bullets",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "design feature",
+      "value": "Large separate steam drums with high efficiency drum internals"
+    },
+    {
+      "metric": "Circulation",
+      "basis": "Modular HRSG Product Overview bullets and Technical Data table 'Vertical Tube with Steam Drum'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "design feature",
+      "value": "Vertical tube natural circulation; hydraulically matched downcomers and risers"
+    },
+    {
+      "metric": "Drum design",
+      "basis": "Max-Fire Product Overview bullets",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "design feature",
+      "value": "Large steam drums to assure ample steaming area; downcomers on both ends of boiler"
     }
   ],
   "vendors": [

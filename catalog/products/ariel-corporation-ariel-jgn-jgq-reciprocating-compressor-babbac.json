@@ -1,7 +1,7 @@
 {
   "id": "ariel-corporation-ariel-jgn-jgq-reciprocating-compressor-babbac",
   "name": "Ariel JGN/JGQ reciprocating compressor",
-  "manufacturer": "ariel-corporation",
+  "manufacturer": "ariel-corporation-with-hoerbiger",
   "product_type": "fl-system",
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
@@ -11,10 +11,10 @@
     {
       "metric": "Rated power (1/2 throw)",
       "unit": "BHP",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
-        "source_id": "sys-arielcorp-com-jgn-jgq-html"
+        "source_id": "cat-arielcorp-com-jgn-jgq-html"
       },
       "low": 126,
       "high": 280
@@ -22,10 +22,10 @@
     {
       "metric": "Max RPM",
       "unit": "rpm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
-        "source_id": "sys-arielcorp-com-jgn-jgq-html"
+        "source_id": "cat-arielcorp-com-jgn-jgq-html"
       },
       "low": 1500,
       "high": 1800
@@ -33,10 +33,10 @@
     {
       "metric": "Total rod load",
       "unit": "lbf",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
-        "source_id": "sys-arielcorp-com-jgn-jgq-html"
+        "source_id": "cat-arielcorp-com-jgn-jgq-html"
       },
       "low": 18000,
       "high": 20000
@@ -46,7 +46,7 @@
   "sources": [
     {
       "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
-      "source_id": "sys-arielcorp-com-jgn-jgq-html"
+      "source_id": "cat-arielcorp-com-jgn-jgq-html"
     }
   ],
   "notes": "Gas lift and CNG duty",

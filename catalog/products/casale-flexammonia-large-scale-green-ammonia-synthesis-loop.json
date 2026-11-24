@@ -11,7 +11,7 @@
     {
       "metric": "Clean syngas consumption per tonne ammonia",
       "unit": "Nm3/t NH3 (equivalent to less than 2000 Nm3 H2)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
@@ -21,7 +21,7 @@
     {
       "metric": "Reaction heat recovery per tonne ammonia",
       "unit": "Kcal/t NH3 (more than)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
@@ -31,7 +31,7 @@
     {
       "metric": "Plant turndown",
       "unit": "%",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
@@ -42,7 +42,7 @@
     {
       "metric": "Ramp-up/down rate",
       "unit": "%/min",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"

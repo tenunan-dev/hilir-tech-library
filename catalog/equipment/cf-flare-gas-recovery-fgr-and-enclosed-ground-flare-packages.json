@@ -17,7 +17,7 @@
       "basis": "John Zink states FGR systems are 'custom-engineered' for applications from petroleum refineries to FPSO offshore platforms",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery",
-        "source_id": "sys-johnzink-com-flare-gas-recovery"
+        "source_id": "cat-johnzink-com-flare-gas-recovery"
       },
       "value": "refineries to FPSO offshore platforms"
     },
@@ -27,7 +27,7 @@
       "basis": "John Zink FGR benefit statement; also reduces purchased fuel gas and steam and can lower carbon taxes/fines",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery",
-        "source_id": "sys-johnzink-com-flare-gas-recovery"
+        "source_id": "cat-johnzink-com-flare-gas-recovery"
       },
       "value": "NOx, CO, CO2, SOx"
     },
@@ -48,7 +48,7 @@
   "sources": [
     {
       "url": "https://www.johnzink.com/products/flare-gas-recovery",
-      "source_id": "sys-johnzink-com-flare-gas-recovery"
+      "source_id": "cat-johnzink-com-flare-gas-recovery"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Gas_flare",

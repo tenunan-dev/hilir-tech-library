@@ -60,6 +60,126 @@
         "source_id": "sys-bakerhughes-com-flexible-pipe-systems"
       },
       "value": "riser, flowline, jumper, fluid transfer line; high H2S, dense CO2, high temperature"
+    },
+    {
+      "metric": "installed base - refineries",
+      "unit": "%",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
+        "source_id": "sys-process-honeywell-com-experion-pks"
+      },
+      "value": 45
+    },
+    {
+      "metric": "O&G processing plants",
+      "unit": "plants (over)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
+        "source_id": "sys-process-honeywell-com-experion-pks"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Global FPV applications",
+      "unit": "GW (over)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Example project",
+      "unit": "MW (Cirata, Indonesia)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 192
+    },
+    {
+      "metric": "Documented application",
+      "unit": "n/a",
+      "basis": "SLB Processing and Separation page case-study title",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
+        "source_id": "sys-slb-com-processing-and-separation"
+      },
+      "value": "oil-in-water separation (Oman case study)"
+    },
+    {
+      "metric": "Max power",
+      "unit": "W",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 670
+    },
+    {
+      "metric": "Module efficiency",
+      "unit": "%",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 24.8
+    },
+    {
+      "metric": "STC Pmax (660M)",
+      "unit": "W",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 660
+    },
+    {
+      "metric": "Front static load",
+      "unit": "Pa",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 5400
+    },
+    {
+      "metric": "Pmax temp coefficient",
+      "unit": "%/degC",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": -0.26
+    },
+    {
+      "metric": "RF physical layer",
+      "unit": "GHz",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+        "source_id": "cat-fieldcommgroup-org-wirelesshart"
+      },
+      "value": "2.4 GHz DSSS O-QPSK (IEEE 802.15.4-2006)"
+    },
+    {
+      "metric": "MAC",
+      "unit": "protocol",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+        "source_id": "cat-fieldcommgroup-org-wirelesshart"
+      },
+      "value": "TDMA data-link layer"
     }
   ],
   "vendors": [

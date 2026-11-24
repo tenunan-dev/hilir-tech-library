@@ -21,6 +21,26 @@
       },
       "low": 50,
       "high": 65
+    },
+    {
+      "metric": "edition",
+      "unit": "n/a",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
+        "source_id": "aws-org-d1-1"
+      },
+      "value": "25th edition, 2025 with 2026 amendment"
+    },
+    {
+      "metric": "annexes",
+      "unit": "count",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
+        "source_id": "aws-org-d1-1"
+      },
+      "value": "8 normative + 11 informative"
     }
   ],
   "vendors": [

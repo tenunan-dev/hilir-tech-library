@@ -132,6 +132,47 @@
         "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
       },
       "value": "compressor rooms, pump bays, valves, dike walls, access points"
+    },
+    {
+      "metric": "Clean syngas consumption per tonne ammonia",
+      "unit": "Nm3/t NH3 (equivalent to less than 2000 Nm3 H2)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 2650
+    },
+    {
+      "metric": "Reaction heat recovery per tonne ammonia",
+      "unit": "Kcal/t NH3 (more than)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 600000
+    },
+    {
+      "metric": "Plant turndown",
+      "unit": "%",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "low": 10,
+      "high": 100
+    },
+    {
+      "metric": "Ramp-up/down rate",
+      "unit": "%/min",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "high": 3
     }
   ],
   "vendors": [

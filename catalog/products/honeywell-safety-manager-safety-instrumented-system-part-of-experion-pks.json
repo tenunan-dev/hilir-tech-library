@@ -1,0 +1,137 @@
+{
+  "id": "honeywell-safety-manager-safety-instrumented-system-part-of-experion-pks",
+  "name": "Safety Manager (Safety Instrumented System, part of Experion PKS)",
+  "manufacturer": "honeywell",
+  "product_type": "ci-system",
+  "equipment": [
+    "ci-field-transmitters-pressure-temperature-flow-level"
+  ],
+  "description": "Page read in full including Specifications tab and part-number list. Universal Safety I/O allows remote I/O in hazardous locations, reducing marshalling cabinets/home-run cables/junction boxes.",
+  "specifications": [
+    {
+      "metric": "Safety integrity level",
+      "unit": "SIL",
+      "basis": "'providing a Safety Integrity Level (SIL) 1-3 certified safety platform'; also 'Safety Manager is a SIL 3 certified system'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "low": 1,
+      "high": 3
+    },
+    {
+      "metric": "Redundant architecture",
+      "unit": "architecture",
+      "basis": "'Based on the same Quadruple Modular Redundant (QMR) architecture as its FSC predecessor' and 'executes SIL-defined safety application logic in a fully redundant (2oo4D) architecture'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "value": "Quadruple Modular Redundant (QMR), fully redundant 2oo4D"
+    },
+    {
+      "metric": "Supply voltage",
+      "unit": "VDC",
+      "basis": "'Supply Voltage: 110/48/24 VDC' under Specifications/Others",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "value": "110/48/24"
+    },
+    {
+      "metric": "Operating temperature - SM Remote Cabinet",
+      "unit": "deg C",
+      "basis": "'-40 to 70 deg C (-40 to 158 deg F) SM Remote Cabinet'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "low": -40,
+      "high": 70
+    },
+    {
+      "metric": "Operating temperature - Safety Manager Cabinet",
+      "unit": "deg C",
+      "basis": "'-5 to 70 deg C (23 to 158 deg F) Safety Manager Cabinet'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "low": -5,
+      "high": 70
+    },
+    {
+      "metric": "Storage temperature",
+      "unit": "deg C",
+      "basis": "'-40 to +85 deg C' (also -40 to +185 deg F)",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "low": -40,
+      "high": 85
+    },
+    {
+      "metric": "Shock",
+      "unit": "G in 3 Axes",
+      "basis": "'Shock: 15 G in 3 Axes'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "value": 15
+    },
+    {
+      "metric": "Relative humidity",
+      "unit": "% RH non-condensing",
+      "basis": "'Relative Humidity: 5 to 95% RH, Non-Condensing'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "low": 5,
+      "high": 95
+    },
+    {
+      "metric": "Vibration frequency range",
+      "unit": "Hz",
+      "basis": "'Frequency Range: 10 to 150 Hz'; 'Vibration Type: Sinusoidal'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "low": 10,
+      "high": 150
+    },
+    {
+      "metric": "Cybersecurity certification",
+      "unit": "certification",
+      "basis": "'Its cyber secure architecture is certified by the Embedded Device Security Assurance program as defined by the ISA Security Compliance Institute'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "value": "ISA Security Compliance Institute EDSA"
+    },
+    {
+      "metric": "Standards printed",
+      "unit": "standards",
+      "basis": "Standards list under Specifications/Others",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "value": "ANSI/ISA 71.04, CSA C22.2, FM 3600/3611, IEC, ISO 13849-1, NFPA 72/85/86, SIL 3, UL 508/508A (2001)"
+    }
+  ],
+  "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+  "sources": [
+    {
+      "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+      "source_id": "cat-process-honeywell-com-safety-manager"
+    }
+  ],
+  "notes": "Page read in full including Specifications tab and part-number list. Universal Safety I/O allows remote I/O in hazardous locations, reducing marshalling cabinets/home-run cables/junction boxes.",
+  "last_reviewed": "2026-11-24"
+}

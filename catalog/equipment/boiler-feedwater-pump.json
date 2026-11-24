@@ -71,6 +71,132 @@
         "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
       },
       "value": "absolute pressure in feedwater tank +/- elevation of minimum water level above pump - vapor pressure of water in tank - suction-line friction loss"
+    },
+    {
+      "metric": "Guardian pump capacity",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+        "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
+      },
+      "unit": "GPM",
+      "low": "10",
+      "high": "18"
+    },
+    {
+      "metric": "Guardian discharge pressure",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+        "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
+      },
+      "unit": "psig",
+      "value": "20"
+    },
+    {
+      "metric": "Guardian motor power",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+        "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
+      },
+      "unit": "HP",
+      "value": "1/3"
+    },
+    {
+      "metric": "Guardian motor speed",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+        "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
+      },
+      "unit": "RPM",
+      "value": "3450"
+    },
+    {
+      "metric": "Guardian tank capacity",
+      "basis": "Printed in Product Details table with three tank material/configuration rows",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+        "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
+      },
+      "unit": "gal (cast iron); 10-20 gal carbon steel rectangular; 49-117 gal carbon steel cylindrical",
+      "low": "6",
+      "high": "21"
+    },
+    {
+      "metric": "Guardian-Plus pump capacity",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+        "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
+      },
+      "unit": "GPM",
+      "low": "1.5",
+      "high": "150"
+    },
+    {
+      "metric": "Guardian-Plus discharge pressure",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+        "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
+      },
+      "unit": "psig",
+      "low": "10",
+      "high": "70"
+    },
+    {
+      "metric": "Guardian-Plus motor power",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+        "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
+      },
+      "unit": "HP",
+      "low": "1/3",
+      "high": "10"
+    },
+    {
+      "metric": "Guardian-Plus motor speed",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+        "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
+      },
+      "unit": "RPM",
+      "value": "1750 or 3450"
+    },
+    {
+      "metric": "Guardian-Plus motor voltage",
+      "basis": "Printed in Product Details table; single/three phase",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+        "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
+      },
+      "unit": "V",
+      "value": "115/208-230"
+    },
+    {
+      "metric": "Guardian-Plus tank capacity",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+        "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
+      },
+      "unit": "gal (cast iron); 21-110 rectangular; 49-1000 cylindrical",
+      "low": "15",
+      "high": "110"
+    },
+    {
+      "metric": "Water temperature capability",
+      "basis": "Printed under Benefits and Features: 'Versatile compatibility of handling 250˚F water'",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
+        "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
+      },
+      "unit": "deg F",
+      "value": "250"
     }
   ],
   "vendors": [

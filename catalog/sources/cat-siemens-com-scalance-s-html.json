@@ -1,0 +1,32 @@
+{
+  "id": "cat-siemens-com-scalance-s-html",
+  "name": "Siemens — SCALANCE S Industrial Security Appliances (SCALANCE SC-600, S615/S605, SC622-2C, SC626-2C)",
+  "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "Siemens",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. Page read in full (WebFetch returned status 200, canonical https://www.siemens.com/en-us/products/scalance/s-industrial-security-appliance/). Linked Siemens ordering-overview PDF w Evidence: https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
+}

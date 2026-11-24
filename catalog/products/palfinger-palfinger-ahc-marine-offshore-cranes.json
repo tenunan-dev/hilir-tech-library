@@ -11,7 +11,7 @@
     {
       "metric": "hoisting capacity",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
@@ -21,7 +21,7 @@
     {
       "metric": "jib radius",
       "unit": "m",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
@@ -31,7 +31,7 @@
     {
       "metric": "wire capacity",
       "unit": "m",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
@@ -41,7 +41,7 @@
     {
       "metric": "winterization",
       "unit": "°C",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"

@@ -11,7 +11,7 @@
     {
       "metric": "Depth",
       "unit": "m",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
@@ -21,7 +21,7 @@
     {
       "metric": "Power",
       "unit": "kW",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
@@ -31,7 +31,7 @@
     {
       "metric": "Burial capacity",
       "unit": "m",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"

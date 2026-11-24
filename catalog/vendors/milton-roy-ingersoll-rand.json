@@ -1,0 +1,24 @@
+{
+  "id": "milton-roy-ingersoll-rand",
+  "name": "Milton Roy (Ingersoll Rand)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Milton Roy (Ingersoll Rand) is named on a product catalog page read in the 2026-11-24 sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/",
+      "source_id": "cat-miltonroy-com-cn"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Minimal record created from a vendor catalog page."
+}

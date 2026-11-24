@@ -11,7 +11,7 @@
     {
       "metric": "Tandem lift",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
@@ -21,7 +21,7 @@
     {
       "metric": "DP class",
       "unit": "class",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"

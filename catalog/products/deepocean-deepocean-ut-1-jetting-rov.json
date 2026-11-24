@@ -11,7 +11,7 @@
     {
       "metric": "Power",
       "unit": "MW",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"

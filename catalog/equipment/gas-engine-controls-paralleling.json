@@ -73,6 +73,67 @@
       },
       "low": 63,
       "high": 4032
+    },
+    {
+      "metric": "Isochronous gensets",
+      "unit": "gensets",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
+        "source_id": "woodward-com-generator-controllers-easygen"
+      },
+      "low": 1,
+      "high": 32
+    },
+    {
+      "metric": "Measurement",
+      "unit": "accuracy class",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
+        "source_id": "woodward-com-generator-controllers-easygen"
+      },
+      "value": "Class I true RMS"
+    },
+    {
+      "metric": "Redundancy",
+      "unit": "modes (search-verified detail)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
+        "source_id": "woodward-com-generator-controllers-easygen"
+      },
+      "value": "cold / warm / hot"
+    },
+    {
+      "metric": "Cooperating controllers",
+      "unit": "additional units",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+        "source_id": "comap-control-com-inteligen-inteligen-1000"
+      },
+      "value": 64
+    },
+    {
+      "metric": "Cybersecurity",
+      "unit": "compliance claim",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+        "source_id": "comap-control-com-inteligen-inteligen-1000"
+      },
+      "value": "ISA 62443 level 2-3"
+    },
+    {
+      "metric": "Enclosure",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
+        "source_id": "comap-control-com-inteligen-inteligen-1000"
+      },
+      "value": "262 x 182 x 47"
     }
   ],
   "vendors": [

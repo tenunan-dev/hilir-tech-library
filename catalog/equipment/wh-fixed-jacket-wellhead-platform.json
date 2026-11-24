@@ -61,6 +61,126 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
       "value": "API RP 2A (worldwide leading code); ISO 19902:2020; DNV rules; AISC and AWS D1.1 for topsides and welding"
+    },
+    {
+      "metric": "reboiler heat media",
+      "unit": "list",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization",
+        "source_id": "specoilandgas-com-oil-processing-crude-condensate-stabilization"
+      },
+      "value": "gas fired, hot oil or steam"
+    },
+    {
+      "metric": "inlet mercury",
+      "unit": "ug/Nm3",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
+        "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
+      },
+      "value": "1-10 ug/Nm3 (0.1-10 ppbv)"
+    },
+    {
+      "metric": "design outlet",
+      "unit": "ug/Nm3",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
+        "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
+      },
+      "value": "0.001 ug/Nm3"
+    },
+    {
+      "metric": "scope",
+      "unit": "product list",
+      "basis": "Production Systems page",
+      "source": {
+        "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
+        "source_id": "johnsoncontrols-com-oil-and-gas-production-systems"
+      },
+      "value": "HPU, methanol injection skids, WHCP, TUTU, IWOCS, ESD, HIPPS"
+    },
+    {
+      "metric": "Depth",
+      "unit": "m",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Power",
+      "unit": "kW",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": 1125
+    },
+    {
+      "metric": "Burial capacity",
+      "unit": "m",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": 3
+    },
+    {
+      "metric": "SIL",
+      "unit": "SIL",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "value": "1-3 (IEC 61508/61511)"
+    },
+    {
+      "metric": "operating temperature",
+      "unit": "degC",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "value": "-40 to 70 degC remote cabinet; -5 to 70 degC cabinet"
+    },
+    {
+      "metric": "supply voltage",
+      "unit": "VDC",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
+        "source_id": "cat-process-honeywell-com-safety-manager"
+      },
+      "value": "110/48/24 VDC"
+    },
+    {
+      "metric": "AMP1500 product diameter",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "ACP2 product diameter",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
+        "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
+      },
+      "value": 300
     }
   ],
   "vendors": [

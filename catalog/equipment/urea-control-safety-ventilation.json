@@ -92,6 +92,48 @@
         "source_id": "ureaknowhow-com-ureaknowhow-com"
       },
       "value": "13 Sept 2026: two workers dead, up to 114 injured; 14 Sept 2026: up to 14 injured"
+    },
+    {
+      "metric": "installed base",
+      "unit": "n/a",
+      "basis": "Stamicarbon profile claim on UreaKnowHow",
+      "source": {
+        "url": "https://ureaknowhow.com/stamicarbon/",
+        "source_id": "ureaknowhow-com-stamicarbon"
+      },
+      "value": "technology used in half of the world's urea plants"
+    },
+    {
+      "metric": "concentration range",
+      "unit": "m%",
+      "basis": "typical measuring range",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "low": 0,
+      "high": 100
+    },
+    {
+      "metric": "temperature range",
+      "unit": "degC",
+      "basis": "typical measuring range",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "low": -10,
+      "high": 140
+    },
+    {
+      "metric": "sensors per Controller 30",
+      "unit": "count",
+      "basis": "controller specification",
+      "source": {
+        "url": "https://www.sensotech.com/en/urea-production",
+        "source_id": "sensotech-com-en-urea-production"
+      },
+      "value": 4
     }
   ],
   "vendors": [

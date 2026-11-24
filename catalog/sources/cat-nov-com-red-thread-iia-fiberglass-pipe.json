@@ -1,0 +1,32 @@
+{
+  "id": "cat-nov-com-red-thread-iia-fiberglass-pipe",
+  "name": "NOV (National Oilwell Varco) — Red Thread IIA Fiberglass Pipe (primary and secondary)",
+  "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "NOV",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. UL 971 listed. Onshore/terminal piping rather than subsea; included for onshore piping family coverage. Evidence: https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+}

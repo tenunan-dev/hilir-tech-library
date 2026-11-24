@@ -84,6 +84,132 @@
         "source_id": "chemengonline-com-the-balanced-burner"
       },
       "value": 32
+    },
+    {
+      "metric": "Igniter class",
+      "basis": "Printed on Forney igniters list page",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters",
+        "source_id": "forneycorp-com-igniters"
+      },
+      "unit": "n/a",
+      "value": "Class 3"
+    },
+    {
+      "metric": "Duty",
+      "basis": "Printed on Forney igniters list page",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters",
+        "source_id": "forneycorp-com-igniters"
+      },
+      "unit": "n/a",
+      "value": "direct spark ignition of oil or gas igniters, small burners, and combustion turbines"
+    },
+    {
+      "metric": "Approval",
+      "basis": "Printed on Forney igniters list page",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters",
+        "source_id": "forneycorp-com-igniters"
+      },
+      "unit": "n/a",
+      "value": "Standard HESI is FM approved; CE Version meets Low Voltage Directive"
+    },
+    {
+      "metric": "Fuel",
+      "basis": "Printed on Forney igniters list page",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters",
+        "source_id": "forneycorp-com-igniters"
+      },
+      "unit": "n/a",
+      "value": "air atomized No. 2 oil"
+    },
+    {
+      "metric": "Design feature",
+      "basis": "Printed on Forney igniters list page; claimed self-stabilized and highly reliable",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters",
+        "source_id": "forneycorp-com-igniters"
+      },
+      "unit": "n/a",
+      "value": "protected primary combustion zone"
+    },
+    {
+      "metric": "Nominal capacity range, whole series",
+      "basis": "Printed: 'Capacities (nominal) range from 1 mmBtu/hr to 50 mmBtu/hr' in overview and '0.3 to 50 MBtu/hr' in Features & Benefits; both printings retained",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter",
+        "source_id": "forneycorp-com-products-maxfire-gas-igniter"
+      },
+      "unit": "MBtu/hr",
+      "low": "0.3",
+      "high": "50"
+    },
+    {
+      "metric": "Model 110 capacity",
+      "basis": "Printed in Specifications table",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter",
+        "source_id": "forneycorp-com-products-maxfire-gas-igniter"
+      },
+      "unit": "MBtu/hr",
+      "low": "0.3",
+      "high": "1.5"
+    },
+    {
+      "metric": "Model 130 capacity",
+      "basis": "Printed in Specifications table",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter",
+        "source_id": "forneycorp-com-products-maxfire-gas-igniter"
+      },
+      "unit": "MBtu/hr",
+      "low": "1.5",
+      "high": "6.0"
+    },
+    {
+      "metric": "Model 135 capacity",
+      "basis": "Printed in Specifications table",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter",
+        "source_id": "forneycorp-com-products-maxfire-gas-igniter"
+      },
+      "unit": "MBtu/hr",
+      "low": "5.0",
+      "high": "15"
+    },
+    {
+      "metric": "Model 140 capacity",
+      "basis": "Printed in Specifications table",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter",
+        "source_id": "forneycorp-com-products-maxfire-gas-igniter"
+      },
+      "unit": "MBtu/hr",
+      "low": "5.0",
+      "high": "25"
+    },
+    {
+      "metric": "Model 150 capacity",
+      "basis": "Printed in Specifications table",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter",
+        "source_id": "forneycorp-com-products-maxfire-gas-igniter"
+      },
+      "unit": "MBtu/hr",
+      "low": "10",
+      "high": "50"
+    },
+    {
+      "metric": "Fuel",
+      "basis": "Printed in Specifications table",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter",
+        "source_id": "forneycorp-com-products-maxfire-gas-igniter"
+      },
+      "unit": "n/a",
+      "value": "Natural gas or propane"
     }
   ],
   "vendors": [

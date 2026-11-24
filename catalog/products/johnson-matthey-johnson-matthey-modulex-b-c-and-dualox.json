@@ -11,7 +11,7 @@
     {
       "metric": "Engine power",
       "unit": "HP for Modulex C / Modulex B / DualOx",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",
         "source_id": "matthey-com-emissions-control-oxidation-catalyst-systems"

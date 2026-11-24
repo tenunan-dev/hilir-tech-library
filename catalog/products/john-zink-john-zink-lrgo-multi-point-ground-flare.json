@@ -11,20 +11,20 @@
     {
       "metric": "Destruction efficiency",
       "unit": "% typically greater than",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
-        "source_id": "sys-johnzink-com-lrgo-multi-point-ground-flare"
+        "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
       "value": 99.5
     },
     {
       "metric": "API 537 compliance",
       "unit": "qualitative",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
-        "source_id": "sys-johnzink-com-lrgo-multi-point-ground-flare"
+        "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
       "value": "available"
     }
@@ -33,7 +33,7 @@
   "sources": [
     {
       "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
-      "source_id": "sys-johnzink-com-lrgo-multi-point-ground-flare"
+      "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
     }
   ],
   "notes": "Highest total smokeless rate claim; staging for turndown",

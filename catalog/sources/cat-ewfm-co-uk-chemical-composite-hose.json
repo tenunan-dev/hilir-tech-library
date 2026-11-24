@@ -1,0 +1,32 @@
+{
+  "id": "cat-ewfm-co-uk-chemical-composite-hose",
+  "name": "EWFM (E W Fuel Management Ltd) — Chemical Composite Hose (standard and heavy duty)",
+  "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "Ewfm.Co.Uk",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. Eight configurations listed; inner helix 316 SS or PP-coated steel, outer helix 316 SS or galvanised steel. Evidence: https://www.ewfm.co.uk/product/chemical-composite-hose"
+}

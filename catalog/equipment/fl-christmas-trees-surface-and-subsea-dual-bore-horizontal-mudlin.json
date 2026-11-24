@@ -17,7 +17,7 @@
       "basis": "OneSubsea subsea trees page: 'extreme temperature ranging from minus 18 degrees Celsius to plus 176 degrees Celsius'",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
-        "source_id": "sys-onesubsea-slb-com-subsea-trees"
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "low": -18,
       "high": 176
@@ -28,7 +28,7 @@
       "basis": "OneSubsea subsea trees page",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
-        "source_id": "sys-onesubsea-slb-com-subsea-trees"
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "value": 15000
     },
@@ -38,7 +38,7 @@
       "basis": "OneSubsea subsea trees page, Features: '7-inch production bore size for wellhead vertical trees'",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
-        "source_id": "sys-onesubsea-slb-com-subsea-trees"
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "value": 7
     },
@@ -81,6 +81,108 @@
         "source_id": "sys-technipfmc-com-0277d2"
       },
       "value": 9627
+    },
+    {
+      "metric": "Design temperature",
+      "unit": "degC",
+      "basis": "We design trees that can work in extreme temperature ranging from minus 18 degrees Celsius to plus 176 degrees Celsius",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
+      },
+      "low": "-18",
+      "high": "176"
+    },
+    {
+      "metric": "Design pressure",
+      "unit": "psi",
+      "basis": "and at pressures of up to 15,000 pounds per square inch",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
+      },
+      "value": "15,000"
+    },
+    {
+      "metric": "Design pressure (metric equivalent)",
+      "unit": "bar (more than)",
+      "basis": "or more than 1,000 bar",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
+      },
+      "value": "1,000"
+    },
+    {
+      "metric": "Production bore - wellhead vertical trees",
+      "unit": "in",
+      "basis": "Features | Full deep-water capability and 7-inch production bore size for wellhead vertical trees",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
+      },
+      "value": "7"
+    },
+    {
+      "metric": "Tree configurations offered",
+      "unit": "-",
+      "basis": "Application | Horizontal, wellhead vertical, and tubing head spool vertical trees offered",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
+      },
+      "value": "Horizontal, wellhead vertical, and tubing head spool vertical trees"
+    },
+    {
+      "metric": "Design temperature",
+      "unit": "degC",
+      "basis": "We design trees that can work in extreme temperature ranging from minus 18 degrees Celsius to plus 176 degrees Celsius",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
+      },
+      "low": "-18",
+      "high": "176"
+    },
+    {
+      "metric": "Design pressure",
+      "unit": "psi",
+      "basis": "and at pressures of up to 15,000 pounds per square inch",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
+      },
+      "value": "15,000"
+    },
+    {
+      "metric": "Design pressure (metric equivalent)",
+      "unit": "bar (more than)",
+      "basis": "or more than 1,000 bar",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
+      },
+      "value": "1,000"
+    },
+    {
+      "metric": "Production bore - wellhead vertical trees",
+      "unit": "in",
+      "basis": "Features | Full deep-water capability and 7-inch production bore size for wellhead vertical trees",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
+      },
+      "value": "7"
+    },
+    {
+      "metric": "Tree configurations offered",
+      "unit": "-",
+      "basis": "Application | Horizontal, wellhead vertical, and tubing head spool vertical trees offered",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
+      },
+      "value": "Horizontal, wellhead vertical, and tubing head spool vertical trees"
     }
   ],
   "vendors": [
@@ -91,7 +193,7 @@
   "sources": [
     {
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
-      "source_id": "sys-onesubsea-slb-com-subsea-trees"
+      "source_id": "cat-onesubsea-slb-com-subsea-trees"
     },
     {
       "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",

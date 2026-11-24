@@ -170,6 +170,56 @@
         "source_id": "watertechnologies-com-boiler-water-internal-boiler-chemicals"
       },
       "value": "21 CFR 173.310"
+    },
+    {
+      "metric": "Feed pressure",
+      "basis": "Printed as 'Up to 3,600 psi feed pressures' under Chemical Feed Skid Capabilities",
+      "source": {
+        "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems",
+        "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
+      },
+      "unit": "psi",
+      "high": "3,600"
+    },
+    {
+      "metric": "Feed rate",
+      "basis": "Printed as 'Up to 2,200 gallon/hour feed rate' on same page",
+      "source": {
+        "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems",
+        "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
+      },
+      "unit": "gallon/hour",
+      "high": "2,200"
+    },
+    {
+      "metric": "Pump types",
+      "basis": "Printed under Chemical Feed Skid Capabilities",
+      "source": {
+        "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems",
+        "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
+      },
+      "unit": "n/a",
+      "value": "solenoid, peristaltic or hydraulically driven"
+    },
+    {
+      "metric": "Frame materials",
+      "basis": "Printed under Chemical Feed Skid Capabilities",
+      "source": {
+        "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems",
+        "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
+      },
+      "unit": "n/a",
+      "value": "painted carbon steel; stainless steel; non-metallic"
+    },
+    {
+      "metric": "Piping materials",
+      "basis": "Printed under Chemical Feed Skid Capabilities",
+      "source": {
+        "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems",
+        "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
+      },
+      "unit": "n/a",
+      "value": "PVC; CPVC; stainless steel (tubing or welded); Alloy 20; PVDF"
     }
   ],
   "vendors": [

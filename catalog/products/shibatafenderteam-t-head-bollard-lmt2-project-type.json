@@ -11,7 +11,7 @@
     {
       "metric": "rated mooring capacity",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
         "source_id": "shibata-fender-team-news-detail-optimizing-the-fender-design-for-l"

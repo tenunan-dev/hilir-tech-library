@@ -1,0 +1,125 @@
+{
+  "id": "ariel-corporation-ariel-kbb-kbv-large-line-reciprocating-compressor",
+  "name": "Ariel KBB / KBV large-line reciprocating compressor",
+  "manufacturer": "ariel-corporation-with-hoerbiger",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru"
+  ],
+  "description": "Full pressure lubrication with frame-driven lube oil pump and divider-block cylinder/packing lubrication. Linked KBBV product spec sheet is a PDF (not read).",
+  "specifications": [
+    {
+      "metric": "Rated power (4 throw / 6 throw)",
+      "unit": "BHP",
+      "basis": "Product tables: Rated Power 6,668 (4 Throw) and 10,000 (6 Throw); page text: rated up to 10,000 BHP",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "low": 6668,
+      "high": 10000
+    },
+    {
+      "metric": "Stroke",
+      "unit": "in (KBB 7.25 / KBV 8.50)",
+      "basis": "Product table: Stroke (in) KBB 7.25, KBV 8.50",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "low": 7.25,
+      "high": 8.5
+    },
+    {
+      "metric": "Max RPM",
+      "unit": "rpm (KBB 900 / KBV 750)",
+      "basis": "Product table: Max RPM KBB 900, KBV 750",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "low": 750,
+      "high": 900
+    },
+    {
+      "metric": "Total rod load",
+      "unit": "lbs",
+      "basis": "Product table: Total Rod Load (lbs) 190,000 for KBB and KBV",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "value": 190000
+    },
+    {
+      "metric": "Tension load",
+      "unit": "lbs",
+      "basis": "Product table: Tension (lbs) 95,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "value": 95000
+    },
+    {
+      "metric": "Compression load",
+      "unit": "lbs",
+      "basis": "Product table: Compression (lbs) 100,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "Rod diameter",
+      "unit": "in",
+      "basis": "Product table: Rod Diameter (in) 3.125",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "value": 3.125
+    },
+    {
+      "metric": "Average weight (4 throw / 6 throw)",
+      "unit": "lbs",
+      "basis": "Product table: Average Weight (lbs) 79,000 (4 Throw), 115,000 (6 Throw)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "low": 79000,
+      "high": 115000
+    },
+    {
+      "metric": "Nominal width",
+      "unit": "in",
+      "basis": "Product table: Nominal Width (in) 228",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "value": 228
+    },
+    {
+      "metric": "Crankshaft centerline",
+      "unit": "in",
+      "basis": "Product table: Crankshaft Centerline (in) 27",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "value": 27
+    }
+  ],
+  "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+  "sources": [
+    {
+      "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+      "source_id": "cat-arielcorp-com-kbb-kbv-html"
+    }
+  ],
+  "notes": "Full pressure lubrication with frame-driven lube oil pump and divider-block cylinder/packing lubrication. Linked KBBV product spec sheet is a PDF (not read).",
+  "last_reviewed": "2026-11-24"
+}

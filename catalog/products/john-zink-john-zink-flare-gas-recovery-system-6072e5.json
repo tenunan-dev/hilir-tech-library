@@ -11,20 +11,20 @@
     {
       "metric": "Application scope",
       "unit": "qualitative",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery",
-        "source_id": "sys-johnzink-com-flare-gas-recovery"
+        "source_id": "cat-johnzink-com-flare-gas-recovery"
       },
       "value": "refineries to FPSO"
     },
     {
       "metric": "Compression options",
       "unit": "qualitative",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery",
-        "source_id": "sys-johnzink-com-flare-gas-recovery"
+        "source_id": "cat-johnzink-com-flare-gas-recovery"
       },
       "value": "ejectors / evaluated technologies"
     }
@@ -33,7 +33,7 @@
   "sources": [
     {
       "url": "https://www.johnzink.com/products/flare-gas-recovery",
-      "source_id": "sys-johnzink-com-flare-gas-recovery"
+      "source_id": "cat-johnzink-com-flare-gas-recovery"
     }
   ],
   "notes": "Deep liquid seals, back-pressure control, H2S sweetening",

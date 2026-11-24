@@ -11,7 +11,7 @@
     {
       "metric": "inflated height (catalogue range)",
       "unit": "mm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
         "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
@@ -22,7 +22,7 @@
     {
       "metric": "freeboard",
       "unit": "mm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
         "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"

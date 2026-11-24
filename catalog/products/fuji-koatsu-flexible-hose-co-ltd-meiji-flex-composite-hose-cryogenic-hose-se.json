@@ -1,0 +1,65 @@
+{
+  "id": "fuji-koatsu-flexible-hose-co-ltd-meiji-flex-composite-hose-cryogenic-hose-se",
+  "name": "Meiji Flex Composite Hose - Cryogenic Hose, series 0933 / 0940 / 0957",
+  "manufacturer": "fuji-koatsu-flexible-hose-co-ltd",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
+  ],
+  "description": "APAC supplier. Page states pressure varies with fluid and temperature; consult manufacturer.",
+  "specifications": [
+    {
+      "metric": "Series 0933 temperature range",
+      "unit": "degC",
+      "basis": "0933 series: 'Specified temperature range -200°C to +80°C'",
+      "source": {
+        "url": "https://fujikoatsu.jp/en/pages/79",
+        "source_id": "cat-fujikoatsu-jp-79"
+      },
+      "low": -200,
+      "high": 80
+    },
+    {
+      "metric": "Series 0940 temperature range",
+      "unit": "degC",
+      "basis": "0940 series: 'Specified temperature range -110°C to +80°C'",
+      "source": {
+        "url": "https://fujikoatsu.jp/en/pages/79",
+        "source_id": "cat-fujikoatsu-jp-79"
+      },
+      "low": -110,
+      "high": 80
+    },
+    {
+      "metric": "Series 0957 temperature range",
+      "unit": "degC",
+      "basis": "0957 series: 'Specified temperature range -200°C to +80°C'",
+      "source": {
+        "url": "https://fujikoatsu.jp/en/pages/79",
+        "source_id": "cat-fujikoatsu-jp-79"
+      },
+      "low": -200,
+      "high": 80
+    },
+    {
+      "metric": "Regular pressure",
+      "unit": "MPa (10 to 22 kgf/cm2)",
+      "basis": "General terms of use: 'Regular pressure: 1 MPa (10 kgf/cm2) to 2.2 MPa (22 kgf/cm2)'",
+      "source": {
+        "url": "https://fujikoatsu.jp/en/pages/79",
+        "source_id": "cat-fujikoatsu-jp-79"
+      },
+      "low": 1,
+      "high": 2.2
+    }
+  ],
+  "url": "https://fujikoatsu.jp/en/pages/79",
+  "sources": [
+    {
+      "url": "https://fujikoatsu.jp/en/pages/79",
+      "source_id": "cat-fujikoatsu-jp-79"
+    }
+  ],
+  "notes": "APAC supplier. Page states pressure varies with fluid and temperature; consult manufacturer.",
+  "last_reviewed": "2026-11-24"
+}

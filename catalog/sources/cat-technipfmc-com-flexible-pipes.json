@@ -1,0 +1,32 @@
+{
+  "id": "cat-technipfmc-com-flexible-pipes",
+  "name": "TechnipFMC — Flexible pipes (unbonded flexible pipe)",
+  "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "TechnipFMC",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. HTML page read successfully; it is descriptive and prints no numeric performance table. Linked 210x270 PDF brochure was not WebFetch-readable. Evidence: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
+}

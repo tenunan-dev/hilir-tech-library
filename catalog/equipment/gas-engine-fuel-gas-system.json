@@ -135,6 +135,38 @@
       },
       "low": "150",
       "high": "2000"
+    },
+    {
+      "metric": "Volume flow",
+      "unit": "m³/h",
+      "basis": "Product page Technical data; positive displacement blower, 1 or 2 stage",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+        "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+      },
+      "low": 50,
+      "high": 38000
+    },
+    {
+      "metric": "Differential pressure",
+      "unit": "mbar",
+      "basis": "Product page Technical data",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+        "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+      },
+      "low": 150,
+      "high": 2000
+    },
+    {
+      "metric": "Conveying",
+      "unit": "qualitative",
+      "basis": "Product page advantages/technical data",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+        "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+      },
+      "value": "oil-free; medium process gases; magnetic-coupling sealing; two-lobe gas-tight rotors"
     }
   ],
   "vendors": [

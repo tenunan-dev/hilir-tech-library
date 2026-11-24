@@ -27,7 +27,7 @@
       "basis": "FieldComm Group WirelessHART page",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
-        "source_id": "sys-fieldcommgroup-org-wirelesshart"
+        "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
       "value": "No additional instrument wiring needed for WirelessHART; 30%-60% lower installation cost claimed vs adding traditional wired instruments",
       "low": 30,
@@ -54,7 +54,7 @@
     },
     {
       "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
-      "source_id": "sys-fieldcommgroup-org-wirelesshart"
+      "source_id": "cat-fieldcommgroup-org-wirelesshart"
     },
     {
       "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",

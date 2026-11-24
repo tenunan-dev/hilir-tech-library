@@ -1,0 +1,187 @@
+{
+  "id": "longi-green-energy-technology-co-ltd-longi-hi-mo-9-pv-modules-lr7-72hyd-lr8",
+  "name": "LONGi Hi-MO 9 PV modules (LR7-72HYD, LR8-66HYD; LR7-72HYD-635M to 660M)",
+  "manufacturer": "longi-green-energy-technology-co-ltd",
+  "product_type": "cf-system",
+  "equipment": [
+    "cf-solar-pv-modules-and-inverters-onshore-gas-plant-and-remote-hy"
+  ],
+  "description": "HPBC 2.0 cell technology with Tairay silicon wafers; 0BB front design; split junction box IP68 with 3 diodes; layout 144 (6x24); packaging 36 pcs/pallet, 144 pcs/20GP, 720 pcs/40 HC.",
+  "specifications": [
+    {
+      "metric": "Module power",
+      "unit": "W (up to)",
+      "basis": "Up to 670 W Module Power (page header stat)",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 670
+    },
+    {
+      "metric": "Module efficiency",
+      "unit": "% (up to)",
+      "basis": "Up to 24.80 % Module Efficiency (page header stat)",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 24.8
+    },
+    {
+      "metric": "Product warranty",
+      "unit": "years",
+      "basis": "12 Years Product Warranty (page header stat)",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Power warranty",
+      "unit": "years",
+      "basis": "30 Years Power Warranty (page header stat)",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Pmax STC (LR7-72HYD-635M to 660M)",
+      "unit": "W",
+      "basis": "Electrical Performance Parameters (STC Test) table: Maximum power (Pmax/W) 635 / 640 / 645 / 650 / 655 / 660",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "low": 635,
+      "high": 660
+    },
+    {
+      "metric": "Voc STC",
+      "unit": "V",
+      "basis": "Electrical Performance Parameters (STC Test) table: Open-circuit voltage (Voc/V) 53.50 to 54.00",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "low": 53.5,
+      "high": 54.0
+    },
+    {
+      "metric": "Isc STC",
+      "unit": "A",
+      "basis": "Electrical Performance Parameters (STC Test) table: Short circuit current (Isc/A) 15.01 to 15.41",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "low": 15.01,
+      "high": 15.41
+    },
+    {
+      "metric": "Vmp STC",
+      "unit": "V",
+      "basis": "Electrical Performance Parameters (STC Test) table: Peak power voltage (Vmp/V) 44.36 to 44.85",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "low": 44.36,
+      "high": 44.85
+    },
+    {
+      "metric": "Imp STC",
+      "unit": "A",
+      "basis": "Electrical Performance Parameters (STC Test) table: Peak power current (Imp/A) 14.32 to 14.72",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "low": 14.32,
+      "high": 14.72
+    },
+    {
+      "metric": "Pmax NOCT",
+      "unit": "W",
+      "basis": "Electrical Performance Parameters (NOCT Test) table: Maximum power (Pmax/W) 483.4 to 502.4; NOCT = Normal operating cell temperature",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "low": 483.4,
+      "high": 502.4
+    },
+    {
+      "metric": "Front static load",
+      "unit": "Pa",
+      "basis": "Mechanical Load Capacity: Maximum static load on the front (such as snow and wind) 5400Pa",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 5400
+    },
+    {
+      "metric": "Back static load",
+      "unit": "Pa",
+      "basis": "Mechanical Load Capacity: Maximum static load on the back (such as wind) 2400Pa",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 2400
+    },
+    {
+      "metric": "Hail test impact speed",
+      "unit": "m/s",
+      "basis": "Mechanical Load Capacity: Hail test Diameter 25 mm, impact speed 23 m/s",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 23
+    },
+    {
+      "metric": "Temperature coefficient Pmax",
+      "unit": "%/degC",
+      "basis": "Temperature Coefficient (STC test): Temperature coefficient of peak power (Pmax) -0.260%/C",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": -0.26
+    },
+    {
+      "metric": "Module weight",
+      "unit": "kg",
+      "basis": "Mechanical Parameters: Weight 33.5kg",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 33.5
+    },
+    {
+      "metric": "Module size",
+      "unit": "mm",
+      "basis": "Mechanical Parameters: Size 2382x1134x30mm",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": "2382 x 1134 x 30"
+    }
+  ],
+  "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+  "sources": [
+    {
+      "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+      "source_id": "cat-longi-com"
+    }
+  ],
+  "notes": "HPBC 2.0 cell technology with Tairay silicon wafers; 0BB front design; split junction box IP68 with 3 diodes; layout 144 (6x24); packaging 36 pcs/pallet, 144 pcs/20GP, 720 pcs/40 HC.",
+  "last_reviewed": "2026-11-24"
+}

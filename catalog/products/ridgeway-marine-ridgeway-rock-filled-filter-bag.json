@@ -11,7 +11,7 @@
     {
       "metric": "design life in saline water",
       "unit": "years",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
@@ -21,7 +21,7 @@
     {
       "metric": "recycled content",
       "unit": "%",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"

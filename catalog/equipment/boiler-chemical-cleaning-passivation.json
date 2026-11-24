@@ -89,6 +89,36 @@
         "source_id": "anz-veolia-com-industrial-cleaning-chemical-cleaning-and-deconta"
       },
       "value": "up to 90% reduced cleaning time; up to two days saved on large vessels vs steaming-out"
+    },
+    {
+      "metric": "System type",
+      "basis": "Capabilities list printed verbatim on WOG Chemical Treatment Systems page",
+      "source": {
+        "url": "https://woggroup.com/chemical-treatment-systems/",
+        "source_id": "woggroup-com-chemical-treatment-systems"
+      },
+      "unit": "n/a",
+      "value": "Coagulation and Flocculation Units; pH Neutralization Systems; Chemical Oxidation Systems; Precipitation and Complexation; Disinfection Systems; Integrated Dosing Skids"
+    },
+    {
+      "metric": "Control logic",
+      "basis": "Printed under 'Integrated Dosing Skids'",
+      "source": {
+        "url": "https://woggroup.com/chemical-treatment-systems/",
+        "source_id": "woggroup-com-chemical-treatment-systems"
+      },
+      "unit": "n/a",
+      "value": "flow-paced, pH-based and ORP-based"
+    },
+    {
+      "metric": "Compliance referenced",
+      "basis": "Printed claim on page; no numeric limit printed",
+      "source": {
+        "url": "https://woggroup.com/chemical-treatment-systems/",
+        "source_id": "woggroup-com-chemical-treatment-systems"
+      },
+      "unit": "n/a",
+      "value": "US EPA, EU REACH and other global regulatory standards"
     }
   ],
   "vendors": [

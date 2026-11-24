@@ -1,0 +1,92 @@
+{
+  "id": "teledyne-marine-impulse-odi-impulse-teledyne-wet-mate-series-underwater-plug",
+  "name": "Impulse / Teledyne Wet Mate Series underwater pluggable connectors (IE2-BC, IERD2-BC, IESQ4-BC, IE4-BC, IE6/8 BC, IEB2, IEB6/8, IE31-BC, IE3",
+  "manufacturer": "teledyne-marine-impulse-odi",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246"
+  ],
+  "description": "Table read from HTML page. A separate Teledyne Nautilus WM1.7-60 HTML page returned only the header under WebFetch and is treated as search-verified only.",
+  "specifications": [
+    {
+      "metric": "Mated pressure rating, IE2-BC / IERD2-BC / IE4-BC / IE6,8 BC / IEB2 / IEB6,8",
+      "unit": "psi",
+      "basis": "Wet Mate Series table, column 'Mated Pressure Rating (PSI)'",
+      "source": {
+        "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
+        "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Mated pressure rating, IESQ4-BC / IESQ32-BC",
+      "unit": "psi",
+      "basis": "Wet Mate Series table",
+      "source": {
+        "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
+        "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
+      },
+      "value": 5000
+    },
+    {
+      "metric": "Mated pressure rating, IEB34",
+      "unit": "psi",
+      "basis": "Wet Mate Series table",
+      "source": {
+        "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
+        "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Voltage rating, IE series",
+      "unit": "VDC",
+      "basis": "Wet Mate Series table, 'Voltage Rating (VDC)'",
+      "source": {
+        "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
+        "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Voltage rating, IE Underwater Pluggable Series 3",
+      "unit": "VDC",
+      "basis": "Wet Mate Series table",
+      "source": {
+        "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
+        "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
+      },
+      "value": 600
+    },
+    {
+      "metric": "Number of contacts, IE2-BC",
+      "unit": "contacts",
+      "basis": "Wet Mate Series table, '# of Contacts'",
+      "source": {
+        "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
+        "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
+      },
+      "low": 2,
+      "high": 8
+    },
+    {
+      "metric": "Bulkhead thread, IE2-BC",
+      "unit": "in thread",
+      "basis": "Wet Mate Series table, 'Bulkhead Thread'",
+      "source": {
+        "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
+        "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
+      },
+      "value": "7/16\"-20"
+    }
+  ],
+  "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
+  "sources": [
+    {
+      "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
+      "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
+    }
+  ],
+  "notes": "Table read from HTML page. A separate Teledyne Nautilus WM1.7-60 HTML page returned only the header under WebFetch and is treated as search-verified only.",
+  "last_reviewed": "2026-11-24"
+}

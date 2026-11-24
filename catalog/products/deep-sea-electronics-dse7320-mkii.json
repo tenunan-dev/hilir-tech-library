@@ -11,7 +11,7 @@
     {
       "metric": "DC supply",
       "unit": "V DC continuous",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
         "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
@@ -22,7 +22,7 @@
     {
       "metric": "Generator/mains voltage",
       "unit": "V AC phase-neutral",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
         "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
@@ -33,7 +33,7 @@
     {
       "metric": "Frequency range",
       "unit": "Hz",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
         "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
@@ -44,7 +44,7 @@
     {
       "metric": "Panel size",
       "unit": "mm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
         "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"

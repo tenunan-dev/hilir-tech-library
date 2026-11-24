@@ -1,0 +1,41 @@
+{
+  "id": "swagelok-company-swagelok-fittings-tube-fittings-and-adapters-vcr-vco-face-s",
+  "name": "Swagelok fittings - tube fittings and adapters, VCR/VCO face seal fittings, flange adapters, pipe fittings",
+  "manufacturer": "swagelok-company",
+  "product_type": "cf-system",
+  "equipment": [
+    "cf-process-gas-transmission-and-power-piping-codes-and-pipe-class"
+  ],
+  "description": "Product families on page: Tube Fittings and Adapters, Cone and Thread Fittings (incl. Sno-Trik high-pressure), Medium-Pressure Tube Fittings, VCO O-Ring Face Seal, VCR Metal Gasket Face Seal, Flange Adapters, Pipe Fittings, Weld Fittings. No numeric pressure/temperature ratings printed on the page read; detailed specs are in the linked catalog library (PDFs not read).",
+  "specifications": [
+    {
+      "metric": "Product lineage",
+      "unit": "year introduced (as printed)",
+      "basis": "Since the introduction of the Swagelok tube fitting in 1947, industrial professionals have relied on Swagelok fittings to achieve leak-tight connections in their analytical, instrumentation, and small-bore process fluid systems",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100",
+        "source_id": "cat-products-swagelok-com-100"
+      },
+      "value": 1947
+    },
+    {
+      "metric": "Flange adapter standards families",
+      "unit": "flange families (as printed)",
+      "basis": "Flange Adapters categories listed: ANSI Flanges, DIN Flanges, EN Flanges, Lap Joint Flanges",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100",
+        "source_id": "cat-products-swagelok-com-100"
+      },
+      "value": "ANSI / DIN / EN / Lap Joint"
+    }
+  ],
+  "url": "https://products.swagelok.com/en/all-products/fittings/c/100",
+  "sources": [
+    {
+      "url": "https://products.swagelok.com/en/all-products/fittings/c/100",
+      "source_id": "cat-products-swagelok-com-100"
+    }
+  ],
+  "notes": "Product families on page: Tube Fittings and Adapters, Cone and Thread Fittings (incl. Sno-Trik high-pressure), Medium-Pressure Tube Fittings, VCO O-Ring Face Seal, VCR Metal Gasket Face Seal, Flange Adapters, Pipe Fittings, Weld Fittings. No numeric pressure/temperature ratings printed on the page read; detailed specs are in the linked catalog library (PDFs not read).",
+  "last_reviewed": "2026-11-24"
+}

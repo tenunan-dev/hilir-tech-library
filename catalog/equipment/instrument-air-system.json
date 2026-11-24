@@ -30,6 +30,80 @@
         "source_id": "atlascopco-com-compressed-air-articles-instrument-air-quality"
       },
       "value": 4
+    },
+    {
+      "metric": "Working pressure",
+      "basis": "Printed in Technical specifications table; imperial equivalent 109-189 psig also printed",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series",
+        "source_id": "atlascopco-com-rotary-screw-compressor-ga-series"
+      },
+      "unit": "bar(g)",
+      "low": "4",
+      "high": "13"
+    },
+    {
+      "metric": "Capacity FAD",
+      "basis": "Printed in Technical specifications table; imperial equivalent 18-2,988 cfm also printed",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series",
+        "source_id": "atlascopco-com-rotary-screw-compressor-ga-series"
+      },
+      "unit": "m3/h",
+      "low": "30",
+      "high": "5,082"
+    },
+    {
+      "metric": "Installed motor power",
+      "basis": "Printed in Technical specifications table; imperial equivalent 7.5-670.5 HP also printed",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series",
+        "source_id": "atlascopco-com-rotary-screw-compressor-ga-series"
+      },
+      "unit": "kW",
+      "low": "5.5",
+      "high": "500"
+    },
+    {
+      "metric": "Capacity FAD",
+      "basis": "Printed in separate row of Technical specifications table",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series",
+        "source_id": "atlascopco-com-rotary-screw-compressor-ga-series"
+      },
+      "unit": "l/s",
+      "low": "8",
+      "high": "1,410"
+    },
+    {
+      "metric": "Standards compliance",
+      "basis": "Printed under 'Designed for efficiency'",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series",
+        "source_id": "atlascopco-com-rotary-screw-compressor-ga-series"
+      },
+      "unit": "n/a",
+      "value": "ISO 9001, ISO 14001, ISO 1217"
+    },
+    {
+      "metric": "Energy recovery from motor and element oil circuit",
+      "basis": "Printed under 'Recover energy' on GA series page",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series",
+        "source_id": "atlascopco-com-rotary-screw-compressor-ga-series"
+      },
+      "unit": "%",
+      "high": "up to 78"
+    },
+    {
+      "metric": "VSD average energy savings claim",
+      "basis": "Printed vendor claim: 'GA VSD+ achieves average energy savings of 50%'",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series",
+        "source_id": "atlascopco-com-rotary-screw-compressor-ga-series"
+      },
+      "unit": "%",
+      "value": "50"
     }
   ],
   "vendors": [

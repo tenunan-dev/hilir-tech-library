@@ -11,7 +11,7 @@
     {
       "metric": "Energy range",
       "unit": "kJ",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
@@ -21,7 +21,7 @@
     {
       "metric": "Blow rate",
       "unit": "bl/min",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
@@ -31,7 +31,7 @@
     {
       "metric": "Oil flow",
       "unit": "L/min",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
@@ -41,7 +41,7 @@
     {
       "metric": "Operating pressure",
       "unit": "bar",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
@@ -51,7 +51,7 @@
     {
       "metric": "Weight (5 m foot)",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"

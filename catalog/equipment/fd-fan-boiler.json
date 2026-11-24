@@ -43,6 +43,46 @@
       },
       "unit": "qualitative",
       "value": "VFD or damper"
+    },
+    {
+      "metric": "Fan design",
+      "basis": "Zeeco Industrial Burners page Packaged Burners section",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en",
+        "source_id": "zeeco-com-products-burners-hslang-en"
+      },
+      "unit": "design feature",
+      "value": "High efficiency backward curve blade design"
+    },
+    {
+      "metric": "Scope",
+      "basis": "Zeeco Industrial Burners page Packaged Burners section",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en",
+        "source_id": "zeeco-com-products-burners-hslang-en"
+      },
+      "unit": "scope",
+      "value": "Each package burner system comes complete with automatic flame monitoring and shut-off, rotary air dampers, and a combustion air fan"
+    },
+    {
+      "metric": "Air fan design",
+      "basis": "SBR-30 product page Product Overview bullet 'Silent operation with an advanced combustion air fan wheel using less horsepower and less noise'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      },
+      "unit": "design feature",
+      "value": "Advanced combustion air fan wheel using less horsepower and less noise; silent operation"
+    },
+    {
+      "metric": "Air housing",
+      "basis": "SBR-30 Product Overview bullet",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner",
+        "source_id": "cleaverbrooks-com-product-sbr30-burner"
+      },
+      "unit": "design feature",
+      "value": "Easy access air housing for internal components"
     }
   ],
   "vendors": [

@@ -11,7 +11,7 @@
     {
       "metric": "installed base - refineries",
       "unit": "%",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
         "source_id": "sys-process-honeywell-com-experion-pks"
@@ -21,7 +21,7 @@
     {
       "metric": "O&G processing plants",
       "unit": "plants (over)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
         "source_id": "sys-process-honeywell-com-experion-pks"

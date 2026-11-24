@@ -11,7 +11,7 @@
     {
       "metric": "Power",
       "unit": "kW for Type 2/3/4 / Type 6",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
         "source_id": "jenbacher-com-containerized-solutions"
@@ -21,7 +21,7 @@
     {
       "metric": "Sound",
       "unit": "dB(A) at 10 m, DIN 45635 (Type 2/3/4); 65/70/75/80 for Type 6",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
         "source_id": "jenbacher-com-containerized-solutions"
@@ -31,7 +31,7 @@
     {
       "metric": "Ambient",
       "unit": "degC, Type 2/3/4 / Type 6 standard ventilation",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
         "source_id": "jenbacher-com-containerized-solutions"

@@ -40,6 +40,128 @@
         "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
       },
       "value": "all-electric control systems"
+    },
+    {
+      "metric": "Working pressure rating",
+      "unit": "psi",
+      "basis": "Product specifications | Rated for working pressures from 500 to 2,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
+        "source_id": "cat-slb-com-well-test-separators"
+      },
+      "low": "500",
+      "high": "2,000"
+    },
+    {
+      "metric": "Inlet diameter",
+      "unit": "in (up to)",
+      "basis": "Product specifications | Inlet diameter up to 84 in",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
+        "source_id": "cat-slb-com-well-test-separators"
+      },
+      "value": "84"
+    },
+    {
+      "metric": "Phase configurations",
+      "unit": "-",
+      "basis": "Product specifications | Two-, three-, or four-phase separator test units",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
+        "source_id": "cat-slb-com-well-test-separators"
+      },
+      "value": "Two-, three-, or four-phase separator test units"
+    },
+    {
+      "metric": "Vessel orientation",
+      "unit": "-",
+      "basis": "Product specifications | Horizontal or vertical orientation of vessels",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
+        "source_id": "cat-slb-com-well-test-separators"
+      },
+      "value": "Horizontal or vertical"
+    },
+    {
+      "metric": "Service rating",
+      "unit": "-",
+      "basis": "Product specifications | Sweet or sour service rated",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
+        "source_id": "cat-slb-com-well-test-separators"
+      },
+      "value": "Sweet or sour service rated"
+    },
+    {
+      "metric": "Design code / sour service",
+      "unit": "-",
+      "basis": "The 3-phase separator is built in compliance with ASME Section VIII, Division 1 and NACE MR0175 for H2S environments.",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator",
+        "source_id": "cat-slb-com-3-phase-separator"
+      },
+      "value": "ASME Section VIII, Division 1 and NACE MR0175 for H2S environments"
+    },
+    {
+      "metric": "Working pressure rating",
+      "unit": "psi",
+      "basis": "Product specifications | Rated for working pressures from 500 to 2,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
+        "source_id": "cat-slb-com-well-test-separators"
+      },
+      "low": "500",
+      "high": "2,000"
+    },
+    {
+      "metric": "Inlet diameter",
+      "unit": "in (up to)",
+      "basis": "Product specifications | Inlet diameter up to 84 in",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
+        "source_id": "cat-slb-com-well-test-separators"
+      },
+      "value": "84"
+    },
+    {
+      "metric": "Phase configurations",
+      "unit": "-",
+      "basis": "Product specifications | Two-, three-, or four-phase separator test units",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
+        "source_id": "cat-slb-com-well-test-separators"
+      },
+      "value": "Two-, three-, or four-phase separator test units"
+    },
+    {
+      "metric": "Vessel orientation",
+      "unit": "-",
+      "basis": "Product specifications | Horizontal or vertical orientation of vessels",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
+        "source_id": "cat-slb-com-well-test-separators"
+      },
+      "value": "Horizontal or vertical"
+    },
+    {
+      "metric": "Service rating",
+      "unit": "-",
+      "basis": "Product specifications | Sweet or sour service rated",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
+        "source_id": "cat-slb-com-well-test-separators"
+      },
+      "value": "Sweet or sour service rated"
+    },
+    {
+      "metric": "Design code / sour service",
+      "unit": "-",
+      "basis": "The 3-phase separator is built in compliance with ASME Section VIII, Division 1 and NACE MR0175 for H2S environments.",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator",
+        "source_id": "cat-slb-com-3-phase-separator"
+      },
+      "value": "ASME Section VIII, Division 1 and NACE MR0175 for H2S environments"
     }
   ],
   "vendors": [

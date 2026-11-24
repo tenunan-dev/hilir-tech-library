@@ -1,0 +1,111 @@
+{
+  "id": "nov-national-oilwell-varco-duraflex-composite-spoolable-pipe-series-500-eddbda",
+  "name": "DuraFlex composite spoolable pipe, Series 500",
+  "manufacturer": "nov-bondstrand",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru"
+  ],
+  "description": "API 15S licensed facility per printed page. Sizes 3, 4 and 6 in on this page; a linked 2021 flyer mentions 8 in and 750 psi but that PDF was not WebFetch-verified.",
+  "specifications": [
+    {
+      "metric": "Nominal pressure rating",
+      "unit": "psi (3.45 MPa)",
+      "basis": "Specifications table: '500 psi (3.45 MPa) API 15S Nominal Pressure Rating (NPR)'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Maximum temperature",
+      "unit": "degF (60 degC)",
+      "basis": "Product Offering table: 'Max Temp | 140°F (60°C)'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 140
+    },
+    {
+      "metric": "Inside diameter, DF 3in 500",
+      "unit": "mm",
+      "basis": "Series 500 Product Properties table, column 'DF 3\" 500', row 'Inside Pipe Diameter'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 72
+    },
+    {
+      "metric": "Inside diameter, DF 4in 500",
+      "unit": "mm",
+      "basis": "Series 500 Product Properties table, column 'DF 4\" 500', row 'Inside Pipe Diameter'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 91
+    },
+    {
+      "metric": "Inside diameter, DF 6in 500",
+      "unit": "mm",
+      "basis": "Series 500 Product Properties table, column 'DF 6\" 500', row 'Inside Pipe Diameter'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 142
+    },
+    {
+      "metric": "Outside diameter, DF 6in 500",
+      "unit": "mm",
+      "basis": "Series 500 Product Properties table, column 'DF 6\" 500', row 'Outside Pipe Diameter'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 173
+    },
+    {
+      "metric": "Pipe weight, DF 6in 500",
+      "unit": "kg/m",
+      "basis": "Series 500 Product Properties table, column 'DF 6\" 500', row 'Pipe Weight'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 8.53
+    },
+    {
+      "metric": "Factory hydrotest",
+      "unit": "ratio",
+      "basis": "Product Offering: '100% hydrotested at the factory to 1.5x the nominal pressure rating.'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": "1.5x nominal pressure rating"
+    },
+    {
+      "metric": "Connection",
+      "unit": "n/a",
+      "basis": "Product Offering table, row 'Connection'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": "Flange and pipe to pipe"
+    }
+  ],
+  "url": "https://www.nov.com/products/duraflex",
+  "sources": [
+    {
+      "url": "https://www.nov.com/products/duraflex",
+      "source_id": "cat-nov-com-duraflex"
+    }
+  ],
+  "notes": "API 15S licensed facility per printed page. Sizes 3, 4 and 6 in on this page; a linked 2021 flyer mentions 8 in and 750 psi but that PDF was not WebFetch-verified.",
+  "last_reviewed": "2026-11-24"
+}

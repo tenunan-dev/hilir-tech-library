@@ -11,7 +11,7 @@
     {
       "metric": "edition",
       "unit": "n/a",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
         "source_id": "aws-org-d1-1"
@@ -21,7 +21,7 @@
     {
       "metric": "annexes",
       "unit": "count",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
         "source_id": "aws-org-d1-1"

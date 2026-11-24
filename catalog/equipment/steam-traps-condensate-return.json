@@ -120,6 +120,126 @@
         "source_id": "tlv-com-steamtrap-basics-steam-trap-varieties-and-applications"
       },
       "value": "up to 26"
+    },
+    {
+      "metric": "Maximum operating pressure (PMO)",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne",
+        "source_id": "tlv-com-thermodynamic-thermodyne"
+      },
+      "unit": "psig",
+      "value": "230"
+    },
+    {
+      "metric": "Minimum operating pressure",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne",
+        "source_id": "tlv-com-thermodynamic-thermodyne"
+      },
+      "unit": "psig",
+      "value": "0.03"
+    },
+    {
+      "metric": "Maximum operating temperature (TMO)",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne",
+        "source_id": "tlv-com-thermodynamic-thermodyne"
+      },
+      "unit": "deg F",
+      "value": "428"
+    },
+    {
+      "metric": "Discharge capacity",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne",
+        "source_id": "tlv-com-thermodynamic-thermodyne"
+      },
+      "unit": "lb/h",
+      "value": "1660"
+    },
+    {
+      "metric": "Body material",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne",
+        "source_id": "tlv-com-thermodynamic-thermodyne"
+      },
+      "unit": "n/a",
+      "value": "Ductile Cast Iron (FCD450)"
+    },
+    {
+      "metric": "Connection",
+      "basis": "Printed in Product Details table",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne",
+        "source_id": "tlv-com-thermodynamic-thermodyne"
+      },
+      "unit": "n/a",
+      "value": "Screwed"
+    },
+    {
+      "metric": "Body design condition",
+      "basis": "Printed under 'Pressure, temperature and backpressure envelope'",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "n/a",
+      "value": "PN63"
+    },
+    {
+      "metric": "Maximum allowable pressure",
+      "basis": "Printed under 'Pressure, temperature and backpressure envelope'",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "bar g at 100 deg C",
+      "value": "63"
+    },
+    {
+      "metric": "Maximum allowable / operating temperature",
+      "basis": "Printed under 'Pressure, temperature and backpressure envelope'",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "deg C at 42 bar g",
+      "value": "400"
+    },
+    {
+      "metric": "Recommended maximum operating pressure",
+      "basis": "Printed under 'Pressure, temperature and backpressure envelope' and in pressure/temperature limits note",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "bar g",
+      "value": "42"
+    },
+    {
+      "metric": "Minimum allowable / operating temperature",
+      "basis": "Printed under 'Pressure, temperature and backpressure envelope'; consult manufacturer below this",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "deg C",
+      "value": "0"
+    },
+    {
+      "metric": "Minimum operating differential pressure",
+      "basis": "Printed under 'Pressure, temperature and backpressure envelope'",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/",
+        "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
+      },
+      "unit": "bar g",
+      "value": "0.25"
     }
   ],
   "vendors": [

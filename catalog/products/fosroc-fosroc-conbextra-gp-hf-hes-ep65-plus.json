@@ -11,7 +11,7 @@
     {
       "metric": "GP 28-day compressive",
       "unit": "MPa",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.fosroc.com/product/show/conbextra-gp",
         "source_id": "fosroc-com-show-conbextra-gp"
@@ -21,7 +21,7 @@
     {
       "metric": "EP65 Plus 7-day compressive",
       "unit": "MPa",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.fosroc.com/product/show/conbextra-gp",
         "source_id": "fosroc-com-show-conbextra-gp"

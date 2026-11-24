@@ -11,7 +11,7 @@
     {
       "metric": "diameter classes",
       "unit": "m (regular/XL/XXL)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cswoffshore.com/solutions/monopiles",
         "source_id": "cswoffshore-com-solutions-monopiles"
@@ -21,7 +21,7 @@
     {
       "metric": "length",
       "unit": "m",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cswoffshore.com/solutions/monopiles",
         "source_id": "cswoffshore-com-solutions-monopiles"
@@ -31,7 +31,7 @@
     {
       "metric": "weight",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cswoffshore.com/solutions/monopiles",
         "source_id": "cswoffshore-com-solutions-monopiles"

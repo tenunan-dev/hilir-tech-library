@@ -1,0 +1,24 @@
+{
+  "id": "longi-green-energy-technology-co-ltd",
+  "name": "LONGi Green Energy Technology Co., Ltd.",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "LONGi Green Energy Technology Co., Ltd. is named on a product catalog page read in the 2026-11-24 sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+      "source_id": "cat-longi-com"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Minimal record created from a vendor catalog page."
+}

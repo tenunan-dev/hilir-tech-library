@@ -1,0 +1,32 @@
+{
+  "id": "cat-fujikoatsu-jp-79",
+  "name": "Fuji Koatsu Flexible Hose Co., Ltd. — Meiji Flex Composite Hose - Cryogenic Hose, series 0933 / 0940 / 0957",
+  "url": "https://fujikoatsu.jp/en/pages/79",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "Fujikoatsu.Jp",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. APAC supplier. Page states pressure varies with fluid and temperature; consult manufacturer. Evidence: https://fujikoatsu.jp/en/pages/79"
+}

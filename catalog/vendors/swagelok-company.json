@@ -1,0 +1,24 @@
+{
+  "id": "swagelok-company",
+  "name": "Swagelok Company",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Swagelok Company is named on a product catalog page read in the 2026-11-24 sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://products.swagelok.com/en/all-products/fittings/c/100",
+      "source_id": "cat-products-swagelok-com-100"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Minimal record created from a vendor catalog page."
+}

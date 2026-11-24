@@ -11,7 +11,7 @@
     {
       "metric": "diameter",
       "unit": "inches",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://flowtork.com/marine-loading-arms",
         "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
@@ -22,7 +22,7 @@
     {
       "metric": "design pressure",
       "unit": "bar (up to)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://flowtork.com/marine-loading-arms",
         "source_id": "flowtork-com-flowtork-com-marine-loading-arms"

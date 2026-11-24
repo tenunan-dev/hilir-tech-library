@@ -11,7 +11,7 @@
     {
       "metric": "edition",
       "unit": "n/a",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
         "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"

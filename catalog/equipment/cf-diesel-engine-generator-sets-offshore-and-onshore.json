@@ -17,7 +17,7 @@
       "basis": "Cummins APAC diesel generator page: 'generator sets from 15 - 3750 kVA'; 50/60 Hz quiet and standard product families",
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/diesel",
-        "source_id": "sys-cummins-com-diesel"
+        "source_id": "cat-cummins-com-diesel"
       },
       "low": 15,
       "high": 3750
@@ -28,7 +28,7 @@
       "basis": "Cummins commercial generators 'start and assume load in less than 10 seconds, and rated load in a single step'",
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/diesel",
-        "source_id": "sys-cummins-com-diesel"
+        "source_id": "cat-cummins-com-diesel"
       },
       "value": "<10"
     },
@@ -49,7 +49,7 @@
       "basis": "MTU diesel generator set page: 'up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz)'; 85% load factor standby, 75% prime",
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
-        "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "value": 3250
     },
@@ -59,7 +59,7 @@
       "basis": "MTU diesel generator sets page series table",
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
-        "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "low": 680,
       "high": 1250
@@ -73,6 +73,132 @@
         "source_id": "sys-mtu-solutions-com-offshore-oil-and-gas-solutions-html"
       },
       "value": "classified by all major classification societies"
+    },
+    {
+      "metric": "Generator set power range",
+      "unit": "kVA",
+      "basis": "We offer a diverse range of generator sets from 15 - 3750 kVA",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel",
+        "source_id": "cat-cummins-com-diesel"
+      },
+      "low": 15,
+      "high": 3750
+    },
+    {
+      "metric": "Frequency",
+      "unit": "Hz",
+      "basis": "Quiet Diesel Generators: Frequency (Hz) 60, 50; Standard Diesel Generators: Frequency (Hz) 50, 60",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel",
+        "source_id": "cat-cummins-com-diesel"
+      },
+      "value": "50 / 60"
+    },
+    {
+      "metric": "Load acceptance",
+      "unit": "s (less than)",
+      "basis": "Commercial and Industrial solutions: Able to start and assume load in less than 10 seconds, and rated load in a single step",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel",
+        "source_id": "cat-cummins-com-diesel"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Sunny Central UP maximum power",
+      "unit": "kW",
+      "basis": "Central Inverters for PV Power Plants: Sunny Central UP maximum 4,600 kW",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters",
+        "source_id": "cat-sma-de-solar-inverters"
+      },
+      "value": 4600
+    },
+    {
+      "metric": "Sunny Highpower PEAK3 power",
+      "unit": "kW (100 / 150 / 172 / 180)",
+      "basis": "Sunny Highpower PEAK3 100 kW / 150 kW / 172 kW / 180 kW",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters",
+        "source_id": "cat-sma-de-solar-inverters"
+      },
+      "low": 100,
+      "high": 180
+    },
+    {
+      "metric": "Sunny Tripower 125 power",
+      "unit": "kW",
+      "basis": "Sunny Tripower 125 125 kW - The ideal PV inverter for large commercial systems",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters",
+        "source_id": "cat-sma-de-solar-inverters"
+      },
+      "value": 125
+    },
+    {
+      "metric": "Sunny Tripower X 60 power",
+      "unit": "kW",
+      "basis": "Sunny Tripower X 60 50 kW / 60 kW - The smart solution for commercial applications",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters",
+        "source_id": "cat-sma-de-solar-inverters"
+      },
+      "low": 50,
+      "high": 60
+    },
+    {
+      "metric": "Sunny Tripower X 25 power",
+      "unit": "kW (12 / 15 / 20 / 25)",
+      "basis": "Sunny Tripower X 25 12 kW / 15 kW / 20 kW / 25 kW",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters",
+        "source_id": "cat-sma-de-solar-inverters"
+      },
+      "low": 12,
+      "high": 25
+    },
+    {
+      "metric": "Portfolio maximum (60 Hz)",
+      "unit": "kWe",
+      "basis": "Our product portfolio covers diesel generator sets up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz)",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "value": 3250
+    },
+    {
+      "metric": "Portfolio maximum (50 Hz)",
+      "unit": "kVA",
+      "basis": "Our product portfolio covers diesel generator sets up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz)",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Series 4000 power range",
+      "unit": "kVA (50 Hz); 1,125-3,250 kWe (60 Hz)",
+      "basis": "mtu Series 4000 POWER RANGE: 50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "low": 1600,
+      "high": 4000
+    },
+    {
+      "metric": "Series 2000 power range",
+      "unit": "kVA (50 Hz); 680-1,250 kWe (60 Hz)",
+      "basis": "mtu Series 2000 POWER RANGE: 50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "low": 770,
+      "high": 1400
     }
   ],
   "vendors": [
@@ -84,7 +210,7 @@
   "sources": [
     {
       "url": "https://www.cummins.com/en-apac/generators/diesel",
-      "source_id": "sys-cummins-com-diesel"
+      "source_id": "cat-cummins-com-diesel"
     },
     {
       "url": "https://www.cummins.com/generators",
@@ -92,7 +218,7 @@
     },
     {
       "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
-      "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+      "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
     },
     {
       "url": "https://www.mtu-solutions.com/eu/en/applications/oil-and-gas/offshore-oil-and-gas-solutions.html",

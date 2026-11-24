@@ -11,7 +11,7 @@
     {
       "metric": "Cooperating controllers",
       "unit": "additional units",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
         "source_id": "comap-control-com-inteligen-inteligen-1000"
@@ -21,7 +21,7 @@
     {
       "metric": "Cybersecurity",
       "unit": "compliance claim",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
         "source_id": "comap-control-com-inteligen-inteligen-1000"
@@ -31,7 +31,7 @@
     {
       "metric": "Enclosure",
       "unit": "mm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
         "source_id": "comap-control-com-inteligen-inteligen-1000"

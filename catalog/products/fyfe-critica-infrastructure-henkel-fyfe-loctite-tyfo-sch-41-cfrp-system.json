@@ -11,7 +11,7 @@
     {
       "metric": "Laminate tensile strength",
       "unit": "ksi",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
         "source_id": "cs-nri-com-resources-frequently-asked-questions"
@@ -21,7 +21,7 @@
     {
       "metric": "Tensile modulus",
       "unit": "Msi",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
         "source_id": "cs-nri-com-resources-frequently-asked-questions"

@@ -110,6 +110,126 @@
         "source_id": "en-wikipedia-org-wiki-pile-driver"
       },
       "value": "bubble curtains, balloons, internal combustion water hammers"
+    },
+    {
+      "metric": "Tandem lift",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": 14000
+    },
+    {
+      "metric": "Per-crane main hook at 40 m",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": 7000
+    },
+    {
+      "metric": "Ballast transfer rate",
+      "unit": "t/h",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": 24000
+    },
+    {
+      "metric": "J-lay tension (friction clamps)",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000",
+        "source_id": "en-wikipedia-org-wiki-saipem-7000"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Energy range",
+      "unit": "kJ",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": "30-2,000"
+    },
+    {
+      "metric": "S-2000 max blow energy",
+      "unit": "kJ",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "S-2000 blow rate",
+      "unit": "bl/min",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": 35
+    },
+    {
+      "metric": "S-2000 hammer weight",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": 230
+    },
+    {
+      "metric": "Operating angle",
+      "unit": "degrees",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
+        "source_id": "iqip-com-hydrohammer-s-series"
+      },
+      "value": "0-90"
+    },
+    {
+      "metric": "Energy range",
+      "unit": "kJ",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "200-6,250"
+    },
+    {
+      "metric": "Blow rate",
+      "unit": "bl/min",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Oil flow",
+      "unit": "L/min",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": 12800
     }
   ],
   "vendors": [

@@ -1,0 +1,74 @@
+{
+  "id": "sma-solar-technology-ag-sma-pv-and-solar-inverters-sunny-central-up-sunny-hi",
+  "name": "SMA PV and solar inverters - Sunny Central UP, Sunny Highpower PEAK3, Sunny Tripower 125 / X 60 / X 25, Sunny Boy 3-6",
+  "manufacturer": "sma-solar-technology-ag",
+  "product_type": "cf-system",
+  "equipment": [
+    "cf-diesel-engine-generator-sets-offshore-and-onshore"
+  ],
+  "description": "Page notes 100% grid independence and grid-forming solutions for large scale; SMA ShadeFix MPP tracking; single-phase inverters up to 4.6 kVA under German VDE-AR-N 4105 code. Detailed per-model data sheets linked but not read.",
+  "specifications": [
+    {
+      "metric": "Sunny Central UP maximum power",
+      "unit": "kW",
+      "basis": "Central Inverters for PV Power Plants: Sunny Central UP maximum 4,600 kW",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters",
+        "source_id": "cat-sma-de-solar-inverters"
+      },
+      "value": 4600
+    },
+    {
+      "metric": "Sunny Highpower PEAK3 power",
+      "unit": "kW (100 / 150 / 172 / 180)",
+      "basis": "Sunny Highpower PEAK3 100 kW / 150 kW / 172 kW / 180 kW",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters",
+        "source_id": "cat-sma-de-solar-inverters"
+      },
+      "low": 100,
+      "high": 180
+    },
+    {
+      "metric": "Sunny Tripower 125 power",
+      "unit": "kW",
+      "basis": "Sunny Tripower 125 125 kW - The ideal PV inverter for large commercial systems",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters",
+        "source_id": "cat-sma-de-solar-inverters"
+      },
+      "value": 125
+    },
+    {
+      "metric": "Sunny Tripower X 60 power",
+      "unit": "kW",
+      "basis": "Sunny Tripower X 60 50 kW / 60 kW - The smart solution for commercial applications",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters",
+        "source_id": "cat-sma-de-solar-inverters"
+      },
+      "low": 50,
+      "high": 60
+    },
+    {
+      "metric": "Sunny Tripower X 25 power",
+      "unit": "kW (12 / 15 / 20 / 25)",
+      "basis": "Sunny Tripower X 25 12 kW / 15 kW / 20 kW / 25 kW",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters",
+        "source_id": "cat-sma-de-solar-inverters"
+      },
+      "low": 12,
+      "high": 25
+    }
+  ],
+  "url": "https://www.sma.de/en/products/solar-inverters",
+  "sources": [
+    {
+      "url": "https://www.sma.de/en/products/solar-inverters",
+      "source_id": "cat-sma-de-solar-inverters"
+    }
+  ],
+  "notes": "Page notes 100% grid independence and grid-forming solutions for large scale; SMA ShadeFix MPP tracking; single-phase inverters up to 4.6 kVA under German VDE-AR-N 4105 code. Detailed per-model data sheets linked but not read.",
+  "last_reviewed": "2026-11-24"
+}

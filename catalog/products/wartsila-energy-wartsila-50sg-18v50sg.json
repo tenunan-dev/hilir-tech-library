@@ -11,7 +11,7 @@
     {
       "metric": "Rated electrical power",
       "unit": "kW @50Hz, generator terminals, 100kPa/25C/30%RH, PF1.0, no engine-driven pumps",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
         "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
@@ -21,7 +21,7 @@
     {
       "metric": "Electrical efficiency",
       "unit": "% @50Hz, 5% tolerance",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
         "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
@@ -31,7 +31,7 @@
     {
       "metric": "Engine speed",
       "unit": "rpm @50Hz (514 @60Hz)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
         "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
@@ -41,7 +41,7 @@
     {
       "metric": "Full-load start time",
       "unit": "min (fast start)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
         "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"

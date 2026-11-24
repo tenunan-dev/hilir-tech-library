@@ -60,6 +60,66 @@
         "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermostatic-stea"
       },
       "value": "requires 1-3 m unlagged cooling leg"
+    },
+    {
+      "metric": "Fire door surface temperature (uninsulated)",
+      "basis": "Printed under 'Boiler Temperatures': 'Surface temperatures may reach around 350°F in fire doors'",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+        "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+      },
+      "unit": "deg F",
+      "value": "around 350"
+    },
+    {
+      "metric": "Mud drum cover surface temperature (uninsulated)",
+      "basis": "Printed under 'Boiler Temperatures'",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+        "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+      },
+      "unit": "deg F",
+      "value": "around 200"
+    },
+    {
+      "metric": "Typical insulation material",
+      "basis": "Printed under Cost-Effective: 'We typically utilize 1” fiberglass for boiler insulation'",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+        "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+      },
+      "unit": "in",
+      "value": "1 in fiberglass"
+    },
+    {
+      "metric": "Warranty",
+      "basis": "Printed: 'come with a 5 year warranty' and '5 year guarantee'",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+        "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+      },
+      "unit": "years",
+      "value": "5 year"
+    },
+    {
+      "metric": "Closure system",
+      "basis": "Printed under Convenient",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+        "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+      },
+      "unit": "n/a",
+      "value": "velcro and D-rings"
+    },
+    {
+      "metric": "Equipment covered",
+      "basis": "Printed under 'Types of boiler doors and covers we regularly encounter'",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
+        "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
+      },
+      "unit": "n/a",
+      "value": "Boiler Access Doors; Steam Drum Covers; Mud Drum Covers"
     }
   ],
   "vendors": [

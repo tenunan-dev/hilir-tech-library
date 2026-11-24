@@ -11,7 +11,7 @@
     {
       "metric": "installed base",
       "unit": "devices (over)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/hart",
         "source_id": "sys-fieldcommgroup-org-hart"

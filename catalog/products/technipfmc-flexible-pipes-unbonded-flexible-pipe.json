@@ -1,0 +1,31 @@
+{
+  "id": "technipfmc-flexible-pipes-unbonded-flexible-pipe",
+  "name": "Flexible pipes (unbonded flexible pipe)",
+  "manufacturer": "technipfmc-cds-separation-systems",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "HTML page read successfully; it is descriptive and prints no numeric performance table. Linked 210x270 PDF brochure was not WebFetch-readable.",
+  "specifications": [
+    {
+      "metric": "Structure",
+      "unit": "n/a",
+      "basis": "Flexible pipes page: 'A flexible pipe is made up of several different layers... The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires.'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
+        "source_id": "cat-technipfmc-com-flexible-pipes"
+      },
+      "value": "Leakproof thermoplastic barriers + corrosion-resistant steel wires, helically wound; modular independent layers"
+    }
+  ],
+  "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
+      "source_id": "cat-technipfmc-com-flexible-pipes"
+    }
+  ],
+  "notes": "HTML page read successfully; it is descriptive and prints no numeric performance table. Linked 210x270 PDF brochure was not WebFetch-readable.",
+  "last_reviewed": "2026-11-24"
+}

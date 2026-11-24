@@ -80,6 +80,116 @@
         "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
       },
       "value": 31000
+    },
+    {
+      "metric": "Crane capacity",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+        "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Free deck space",
+      "unit": "m2",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+        "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+      },
+      "value": 7500
+    },
+    {
+      "metric": "Monopile handling up to",
+      "unit": "mt",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+        "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Topsides single-lift capacity",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": 60000
+    },
+    {
+      "metric": "Jacket lift capacity",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "S-lay tension",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Azimuth thrusters",
+      "unit": "count",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Crane capacity",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+        "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Deck",
+      "unit": "m",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
+        "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
+      },
+      "value": "165 x 43"
+    },
+    {
+      "metric": "Tandem lift",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": 14200
+    },
+    {
+      "metric": "DP class",
+      "unit": "class",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": "III"
     }
   ],
   "vendors": [

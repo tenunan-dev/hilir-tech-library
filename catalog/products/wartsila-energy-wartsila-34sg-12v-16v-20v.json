@@ -11,7 +11,7 @@
     {
       "metric": "Rated electrical power",
       "unit": "kW @50Hz, same reference basis",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine",
         "source_id": "wartsila-com-engine-power-plants-wartsila-34sg-gas-engine"
@@ -22,7 +22,7 @@
     {
       "metric": "Electrical efficiency",
       "unit": "% @50Hz, 5% tolerance",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine",
         "source_id": "wartsila-com-engine-power-plants-wartsila-34sg-gas-engine"
@@ -33,7 +33,7 @@
     {
       "metric": "Engine speed",
       "unit": "rpm @50Hz (720 @60Hz)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine",
         "source_id": "wartsila-com-engine-power-plants-wartsila-34sg-gas-engine"

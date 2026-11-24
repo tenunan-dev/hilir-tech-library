@@ -1,0 +1,30 @@
+{
+  "id": "technipfmc-surface-multiphase-meter-mpm-231dbc",
+  "name": "Surface MultiPhase Meter (MPM)",
+  "manufacturer": "technipfmc-cds-separation-systems",
+  "product_type": "system",
+  "equipment": [],
+  "description": "Other listed features (no numeric basis printed): 3D Broadband, dual-mode combined multiphase and wet-gas meter, water salinity correction, in-situ verification, KBC Multiflash PVT built in.",
+  "specifications": [
+    {
+      "metric": "Gas volume fraction (GVF) operating range",
+      "unit": "%",
+      "basis": "Operation across the full GVF Spectrum, 0-100%",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production/",
+        "source_id": "cat-technipfmc-com"
+      },
+      "low": "0",
+      "high": "100"
+    }
+  ],
+  "url": "https://www.technipfmc.com/en/what-we-do/surface/production/",
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/surface/production/",
+      "source_id": "cat-technipfmc-com"
+    }
+  ],
+  "notes": "Other listed features (no numeric basis printed): 3D Broadband, dual-mode combined multiphase and wet-gas meter, water salinity correction, in-situ verification, KBC Multiflash PVT built in.",
+  "last_reviewed": "2026-11-24"
+}

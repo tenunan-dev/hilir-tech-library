@@ -76,6 +76,97 @@
       },
       "unit": "ppm",
       "value": 40
+    },
+    {
+      "metric": "CFB technology name",
+      "basis": "Thermal power page, 'CFB TECHNOLOGY - PowerFluid': flue gas velocity higher, bed expanded and entrained, material separated by cyclones and returned to lower furnace",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en",
+        "source_id": "andritz-com-thermal-power-en"
+      },
+      "unit": "product/technology name",
+      "value": "PowerFluid"
+    },
+    {
+      "metric": "Emissions mechanism",
+      "basis": "Thermal power page: efficient mixing and relatively low combustion temperatures contribute to low emissions",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en",
+        "source_id": "andritz-com-thermal-power-en"
+      },
+      "unit": "qualitative",
+      "value": "Low emissions of CO, hydrocarbons and nitric oxides"
+    },
+    {
+      "metric": "Fuel range",
+      "basis": "Thermal power page",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en",
+        "source_id": "andritz-com-thermal-power-en"
+      },
+      "unit": "fuel options",
+      "value": "Biomass, demolition wood, RDF, SRF, peat, various sludges, waste"
+    },
+    {
+      "metric": "Related BFB technology",
+      "basis": "Thermal power page BFB TECHNOLOGY - EcoFluid section",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en",
+        "source_id": "andritz-com-thermal-power-en"
+      },
+      "unit": "product/technology name",
+      "value": "EcoFluid"
+    },
+    {
+      "metric": "Boiler size range",
+      "basis": "Product page: 'The wide size range covers boilers from 30 to 1200 MWth'",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "MWth",
+      "low": 30,
+      "high": 1200
+    },
+    {
+      "metric": "Cyclone construction",
+      "basis": "Product page 'High steam parameters' section; no hot expansion joints between furnace and cyclone",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "construction",
+      "value": "High-efficiency cylindrical cyclones of membrane walls covered by light refractory"
+    },
+    {
+      "metric": "Steam parameters",
+      "basis": "Product page: enabled by fluidized bed heat exchangers located in the loop seal; dedicated superheaters for corrosive fuels",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "qualitative",
+      "value": "High steam parameters without severe corrosion"
+    },
+    {
+      "metric": "Low-load operation",
+      "basis": "Product page section 'Low-load operation available for CFB boilers'",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "operating mode",
+      "value": "Partial bed operation available"
+    },
+    {
+      "metric": "Fuels",
+      "basis": "Product page 'High fuel flexibility'; more than 100 references worldwide, mostly multifuel boilers",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "fuel flexibility",
+      "value": "Biomass, agricultural waste streams, recovered fuels, coals, solid petrochemical residues (pet coke, asphaltene, solidified pitch), any combination"
     }
   ],
   "vendors": [

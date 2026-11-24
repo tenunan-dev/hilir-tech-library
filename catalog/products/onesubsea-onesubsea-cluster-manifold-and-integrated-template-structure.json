@@ -11,7 +11,7 @@
     {
       "metric": "Depth",
       "unit": "ft",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
@@ -21,7 +21,7 @@
     {
       "metric": "Pressure",
       "unit": "psi",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
@@ -31,7 +31,7 @@
     {
       "metric": "Temperature",
       "unit": "deg C",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"

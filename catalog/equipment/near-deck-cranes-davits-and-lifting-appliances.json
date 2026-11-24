@@ -30,6 +30,46 @@
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
       },
       "value": "reliable performance down to -50 °C; DNV, BV, LRS, ABS compliance"
+    },
+    {
+      "metric": "hoisting capacity",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+        "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+      },
+      "value": "up to 250"
+    },
+    {
+      "metric": "jib radius",
+      "unit": "m",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+        "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+      },
+      "value": "up to 50"
+    },
+    {
+      "metric": "wire capacity",
+      "unit": "m",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+        "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "winterization",
+      "unit": "°C",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
+        "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
+      },
+      "value": -50
     }
   ],
   "vendors": [

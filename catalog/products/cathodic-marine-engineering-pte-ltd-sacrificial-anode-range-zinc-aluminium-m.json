@@ -11,7 +11,7 @@
     {
       "metric": "zinc weight range",
       "unit": "kg",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system",
         "source_id": "cathodicme-com-services-sacrificial-anodes-system"
@@ -22,7 +22,7 @@
     {
       "metric": "aluminium weight range",
       "unit": "kg",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system",
         "source_id": "cathodicme-com-services-sacrificial-anodes-system"
@@ -33,7 +33,7 @@
     {
       "metric": "aluminium design life",
       "unit": "years in seawater",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system",
         "source_id": "cathodicme-com-services-sacrificial-anodes-system"

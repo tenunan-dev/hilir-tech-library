@@ -17,7 +17,7 @@
       "basis": "Sungrow floating PV page: 'With Over 4GW of Floating PV Application'; No.1 global market share stated; 290+ patents",
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
-        "source_id": "sys-sungrowpower-com-floating-pv-system"
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
       "low": 4
     },
@@ -27,7 +27,7 @@
       "basis": "Sungrow FPV case: world's largest floating PV project at a hydroelectric power station, Cirata, Indonesia, reservoir, 192 MW",
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
-        "source_id": "sys-sungrowpower-com-floating-pv-system"
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
       "value": 192
     },
@@ -81,7 +81,7 @@
   "sources": [
     {
       "url": "https://www.sungrowpower.com/en/floating-pv-system",
-      "source_id": "sys-sungrowpower-com-floating-pv-system"
+      "source_id": "cat-sungrowpower-com-floating-pv-system"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Floating_solar",

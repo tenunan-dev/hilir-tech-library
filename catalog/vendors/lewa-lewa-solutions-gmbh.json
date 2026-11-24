@@ -1,0 +1,24 @@
+{
+  "id": "lewa-lewa-solutions-gmbh",
+  "name": "LEWA (LEWA Solutions GmbH)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "LEWA (LEWA Solutions GmbH) is named on a product catalog page read in the 2026-11-24 sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.lewa.com/en/systems/chemical-injection-packages/",
+      "source_id": "cat-lewa-com"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Minimal record created from a vendor catalog page."
+}

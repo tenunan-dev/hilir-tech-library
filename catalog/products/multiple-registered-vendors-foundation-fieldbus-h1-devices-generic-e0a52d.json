@@ -11,7 +11,7 @@
     {
       "metric": "registered interoperable products",
       "unit": "products (over)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
         "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
@@ -21,7 +21,7 @@
     {
       "metric": "wiring",
       "unit": "wiring",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
         "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"

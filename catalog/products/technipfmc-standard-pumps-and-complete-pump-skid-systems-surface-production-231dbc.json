@@ -1,0 +1,41 @@
+{
+  "id": "technipfmc-standard-pumps-and-complete-pump-skid-systems-surface-production-231dbc",
+  "name": "Standard pumps and complete pump skid systems (surface production)",
+  "manufacturer": "technipfmc-cds-separation-systems",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
+  ],
+  "description": "Page states diverse line of pumps customized according to the application and complete skid solutions from design consultation through startup and commissioning. Individual pump model ratings are not printed.",
+  "specifications": [
+    {
+      "metric": "Pressure range",
+      "unit": "psi (up to)",
+      "basis": "Pressure ranges available up to 10,000 psi and flow rates up to 1,500 gpm",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production/",
+        "source_id": "cat-technipfmc-com"
+      },
+      "value": "10,000"
+    },
+    {
+      "metric": "Flow rate",
+      "unit": "gpm (up to)",
+      "basis": "Pressure ranges available up to 10,000 psi and flow rates up to 1,500 gpm",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production/",
+        "source_id": "cat-technipfmc-com"
+      },
+      "value": "1,500"
+    }
+  ],
+  "url": "https://www.technipfmc.com/en/what-we-do/surface/production/",
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/surface/production/",
+      "source_id": "cat-technipfmc-com"
+    }
+  ],
+  "notes": "Page states diverse line of pumps customized according to the application and complete skid solutions from design consultation through startup and commissioning. Individual pump model ratings are not printed.",
+  "last_reviewed": "2026-11-24"
+}

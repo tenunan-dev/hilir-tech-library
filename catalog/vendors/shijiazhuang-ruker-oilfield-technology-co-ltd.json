@@ -1,0 +1,23 @@
+{
+  "id": "shijiazhuang-ruker-oilfield-technology-co-ltd",
+  "name": "Shijiazhuang Ruker Oilfield Technology Co., Ltd.",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Shijiazhuang Ruker Oilfield Technology Co., Ltd. is named on a product catalog page read in the 2026-11-24 sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/84215.html"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Minimal record created from a vendor catalog page."
+}

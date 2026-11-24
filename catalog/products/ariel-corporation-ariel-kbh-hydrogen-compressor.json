@@ -1,7 +1,7 @@
 {
   "id": "ariel-corporation-ariel-kbh-hydrogen-compressor",
   "name": "Ariel KBH hydrogen compressor",
-  "manufacturer": "ariel-corporation",
+  "manufacturer": "ariel-corporation-with-hoerbiger",
   "product_type": "fl-system",
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
@@ -11,40 +11,40 @@
     {
       "metric": "Suction",
       "unit": "bar",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html",
-        "source_id": "sys-arielcorp-com-kbh-html"
+        "source_id": "cat-arielcorp-com-kbh-html"
       },
       "value": 25
     },
     {
       "metric": "Discharge",
       "unit": "bar",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html",
-        "source_id": "sys-arielcorp-com-kbh-html"
+        "source_id": "cat-arielcorp-com-kbh-html"
       },
       "value": 500
     },
     {
       "metric": "Flow",
       "unit": "kg/h",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html",
-        "source_id": "sys-arielcorp-com-kbh-html"
+        "source_id": "cat-arielcorp-com-kbh-html"
       },
       "value": 250
     },
     {
       "metric": "Stages",
       "unit": "count",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html",
-        "source_id": "sys-arielcorp-com-kbh-html"
+        "source_id": "cat-arielcorp-com-kbh-html"
       },
       "value": 4
     }
@@ -53,7 +53,7 @@
   "sources": [
     {
       "url": "https://www.arielcorp.com/compressors/kbh.html",
-      "source_id": "sys-arielcorp-com-kbh-html"
+      "source_id": "cat-arielcorp-com-kbh-html"
     }
   ],
   "notes": "Non-lubricated, vertical",

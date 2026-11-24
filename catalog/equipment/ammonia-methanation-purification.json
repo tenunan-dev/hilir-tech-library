@@ -52,6 +52,17 @@
         "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
       },
       "value": "nitrogen wash with purge and nitrogen addition"
+    },
+    {
+      "metric": "Pressure drop reduction vs sphere/cylinder catalysts",
+      "unit": "%",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation",
+        "source_id": "topsoe-com-ammonia-ammonia-methanation"
+      },
+      "low": 30,
+      "high": 70
     }
   ],
   "vendors": [

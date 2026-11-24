@@ -11,7 +11,7 @@
     {
       "metric": "wireless frequency listed",
       "unit": "MHz",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
         "source_id": "sys-yokogawa-com"

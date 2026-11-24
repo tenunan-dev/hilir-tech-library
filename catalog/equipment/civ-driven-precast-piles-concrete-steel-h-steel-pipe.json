@@ -19,6 +19,126 @@
       "source": {
         "url": "https://www.iso.org/standard/84215.html"
       }
+    },
+    {
+      "metric": "monopiles produced",
+      "unit": "count",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind",
+        "source_id": "eew-group-com-eew-group-com-offshore-wind"
+      },
+      "value": ">2,200"
+    },
+    {
+      "metric": "projects supplied",
+      "unit": "count",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind",
+        "source_id": "eew-group-com-eew-group-com-offshore-wind"
+      },
+      "value": ">80"
+    },
+    {
+      "metric": "IQ8 blow energy",
+      "unit": "kJ",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+        "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+      },
+      "value": ">7,500"
+    },
+    {
+      "metric": "total range",
+      "unit": "kJ",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+        "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+      },
+      "value": "30 to >7,500"
+    },
+    {
+      "metric": "SW-series water depth",
+      "unit": "m",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
+        "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
+      },
+      "value": "up to 2,000"
+    },
+    {
+      "metric": "length",
+      "unit": "m (up to)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles",
+        "source_id": "sif-group-com-products-services-monopiles"
+      },
+      "value": 120
+    },
+    {
+      "metric": "diameter",
+      "unit": "m (up to)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles",
+        "source_id": "sif-group-com-products-services-monopiles"
+      },
+      "value": 11
+    },
+    {
+      "metric": "wall thickness",
+      "unit": "mm (max)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles",
+        "source_id": "sif-group-com-products-services-monopiles"
+      },
+      "value": 160
+    },
+    {
+      "metric": "weight",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles",
+        "source_id": "sif-group-com-products-services-monopiles"
+      },
+      "value": "2,000 (prose) / >2,500 (tile)"
+    },
+    {
+      "metric": "diameter classes",
+      "unit": "m (regular/XL/XXL)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles",
+        "source_id": "cswoffshore-com-solutions-monopiles"
+      },
+      "value": "5-6 / 6-8 / 8-13"
+    },
+    {
+      "metric": "length",
+      "unit": "m",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles",
+        "source_id": "cswoffshore-com-solutions-monopiles"
+      },
+      "value": "20 to >120"
+    },
+    {
+      "metric": "weight",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles",
+        "source_id": "cswoffshore-com-solutions-monopiles"
+      },
+      "value": "1,000-3,500"
     }
   ],
   "vendors": [

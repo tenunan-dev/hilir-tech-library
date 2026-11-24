@@ -11,7 +11,7 @@
     {
       "metric": "monopiles produced",
       "unit": "count",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://eew-group.com/offshore-wind",
         "source_id": "eew-group-com-eew-group-com-offshore-wind"
@@ -21,7 +21,7 @@
     {
       "metric": "projects supplied",
       "unit": "count",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://eew-group.com/offshore-wind",
         "source_id": "eew-group-com-eew-group-com-offshore-wind"

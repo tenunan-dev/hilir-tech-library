@@ -11,7 +11,7 @@
     {
       "metric": "Axle load",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
         "source_id": "tii-group-com-spmt-scheuerle-spmt"
@@ -21,7 +21,7 @@
     {
       "metric": "Axle compensation",
       "unit": "mm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
         "source_id": "tii-group-com-spmt-scheuerle-spmt"
@@ -31,7 +31,7 @@
     {
       "metric": "Positioning accuracy",
       "unit": "mm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
         "source_id": "tii-group-com-spmt-scheuerle-spmt"

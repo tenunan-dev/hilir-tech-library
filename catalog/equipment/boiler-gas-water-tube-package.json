@@ -75,6 +75,134 @@
       "unit": "%",
       "low": 85,
       "high": 87
+    },
+    {
+      "metric": "Input capacity",
+      "basis": "Product bullet 2,000-6,000 MBH Input; Technical Data table 2,000-6,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": "MBH",
+      "low": 2000,
+      "high": 6000
+    },
+    {
+      "metric": "Design pressure (steam)",
+      "basis": "Product bullet: 15-500 psig Design Pressure (Steam)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": "psig",
+      "low": 15,
+      "high": 500
+    },
+    {
+      "metric": "Design pressure (hot water)",
+      "basis": "Product bullet: 160-250 psig Design Pressure (Hot Water)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": "psig",
+      "low": 160,
+      "high": 250
+    },
+    {
+      "metric": "Boiler horsepower",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": "HP",
+      "low": 48,
+      "high": 143
+    },
+    {
+      "metric": "NOx emissions",
+      "basis": "Product bullet 'Standard sub-20 ppm NOx'; narrative <20 ppm NOx without FGR and <10 CO as standard on natural gas",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": "ppm NOx (less than; standard, without FGR)",
+      "value": 20
+    },
+    {
+      "metric": "Turndown",
+      "basis": "Product Overview attribute list; linkageless premix burner",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": ":1 (up to)",
+      "value": 5
+    },
+    {
+      "metric": "Design temperature options",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m",
+        "source_id": "cleaverbrooks-com-product-m5m"
+      },
+      "unit": "deg F",
+      "value": "235, 340, 355, 380, 410"
+    },
+    {
+      "metric": "Input capacity",
+      "basis": "Product bullet 1,500-25,000 MBH Input; Technical Data table 1,500-25,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx",
+        "source_id": "cleaverbrooks-com-product-flx"
+      },
+      "unit": "MBH",
+      "low": 1500,
+      "high": 25000
+    },
+    {
+      "metric": "Design pressure",
+      "basis": "Product bullet: 15-250 psig Design Pressure",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx",
+        "source_id": "cleaverbrooks-com-product-flx"
+      },
+      "unit": "psig",
+      "low": 15,
+      "high": 250
+    },
+    {
+      "metric": "Boiler horsepower",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx",
+        "source_id": "cleaverbrooks-com-product-flx"
+      },
+      "unit": "HP",
+      "low": 36,
+      "high": 600
+    },
+    {
+      "metric": "Thermal efficiency",
+      "basis": "Product narrative: efficiency ratings up to 81% (steam) and 85% (hot water); 5-pass bent water-tube design",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx",
+        "source_id": "cleaverbrooks-com-product-flx"
+      },
+      "unit": "%",
+      "low": 81,
+      "high": 85
+    },
+    {
+      "metric": "NOx emissions",
+      "basis": "Product bullet 'Available to <9 ppm NOx'; table lists Standard, <30, <20, <9",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx",
+        "source_id": "cleaverbrooks-com-product-flx"
+      },
+      "unit": "ppm NOx (option, less than)",
+      "value": 9
     }
   ],
   "vendors": [

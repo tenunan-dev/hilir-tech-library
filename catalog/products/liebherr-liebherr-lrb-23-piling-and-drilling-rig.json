@@ -11,7 +11,7 @@
     {
       "metric": "Operating weight",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
         "source_id": "liebherr-com-p-lrb23-4424791"
@@ -21,7 +21,7 @@
     {
       "metric": "Max torque",
       "unit": "kNm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
         "source_id": "liebherr-com-p-lrb23-4424791"
@@ -31,7 +31,7 @@
     {
       "metric": "Crowd force",
       "unit": "kN",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
         "source_id": "liebherr-com-p-lrb23-4424791"
@@ -41,7 +41,7 @@
     {
       "metric": "Engine power",
       "unit": "kW",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
         "source_id": "liebherr-com-p-lrb23-4424791"

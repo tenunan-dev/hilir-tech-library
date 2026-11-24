@@ -166,6 +166,127 @@
       },
       "low": 10,
       "high": 40
+    },
+    {
+      "metric": "Plant applications",
+      "unit": "plants designed/engineered/commissioned",
+      "basis": "TOYO states >110 urea plants using its technologies",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en",
+        "source_id": "pupuk-indonesia-com-913-pupuk-indonesia-dan-toyo-kembangkan-kapasi"
+      },
+      "low": 110
+    },
+    {
+      "metric": "Selected capacity",
+      "unit": "million t/y urea",
+      "basis": "Fakfak, West Papua urea plant BED selection, Nov 2026",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en",
+        "source_id": "pupuk-indonesia-com-913-pupuk-indonesia-dan-toyo-kembangkan-kapasi"
+      },
+      "value": 1.15
+    },
+    {
+      "metric": "Detection range",
+      "unit": "m",
+      "basis": "Typical range depends on microphone technology",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+        "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+      },
+      "low": 17,
+      "high": 28
+    },
+    {
+      "metric": "Minimum pressurised installation",
+      "unit": "bar",
+      "basis": "Only suitable for pressurised installations from 2 bar (29 psi) or more",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+        "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Reference plant capacity",
+      "unit": "MTD (coal-based ammonia)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
+        "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
+      },
+      "value": 1200
+    },
+    {
+      "metric": "Achieved capacity shortly after start-up",
+      "unit": "% of nameplate",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
+        "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
+      },
+      "value": 110
+    },
+    {
+      "metric": "Stable extended operation",
+      "unit": "% load",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
+        "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
+      },
+      "value": 130
+    },
+    {
+      "metric": "Tank capacity",
+      "unit": "tonnes each",
+      "basis": "July 2024 BEDP contract for two cryogenic ammonia tanks, Gove",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+        "source_id": "research-csiro-au-allied-green-ammonia"
+      },
+      "value": 40000
+    },
+    {
+      "metric": "Quantity",
+      "unit": "tanks",
+      "basis": "CSIRO HyResource project entry",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+        "source_id": "research-csiro-au-allied-green-ammonia"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Scope",
+      "unit": "scope",
+      "basis": "Allied Green Ammonia May 2024 entry; Oct 2023 first Australian green ammonia contract",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+        "source_id": "research-csiro-au-allied-green-ammonia"
+      },
+      "value": "process licence and ammonia plant engineering"
+    },
+    {
+      "metric": "Project capacity linked",
+      "unit": "t/y ammonia",
+      "basis": "Allied Green Ammonia project design capacity",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
+        "source_id": "research-csiro-au-allied-green-ammonia"
+      },
+      "value": 958500
+    },
+    {
+      "metric": "Steam-to-carbon ratio",
+      "unit": "mol/mol",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
+        "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
+      },
+      "value": 0.6
     }
   ],
   "vendors": [

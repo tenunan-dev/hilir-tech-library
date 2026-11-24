@@ -65,6 +65,16 @@
         "source_id": "en-wikipedia-org-w-index-php"
       },
       "value": "falling-film"
+    },
+    {
+      "metric": "outside diameter stocked",
+      "unit": "mm",
+      "basis": "UreaKnowHow news item: one-week delivery for critical heat exchanger needs",
+      "source": {
+        "url": "https://ureaknowhow.com/",
+        "source_id": "ureaknowhow-com-ureaknowhow-com"
+      },
+      "value": "19.05 mm and 25.4 mm"
     }
   ],
   "vendors": [

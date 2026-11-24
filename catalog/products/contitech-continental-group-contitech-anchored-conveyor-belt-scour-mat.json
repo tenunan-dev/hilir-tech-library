@@ -11,7 +11,7 @@
     {
       "metric": "thickness",
       "unit": "mm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
@@ -21,7 +21,7 @@
     {
       "metric": "diameter",
       "unit": "m",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"

@@ -1,0 +1,92 @@
+{
+  "id": "gass-equipments-s-a-gassoflex-lng-cryogenic-hose",
+  "name": "Gassoflex LNG cryogenic hose",
+  "manufacturer": "gass-equipments-s-a",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
+  ],
+  "description": "Technical specifications table on page is an image; figures above are from the printed text/Characteristics list.",
+  "specifications": [
+    {
+      "metric": "Working pressure",
+      "unit": "bar",
+      "basis": "Description: 'working pressures of up to 14 bar'",
+      "source": {
+        "url": "https://gasso.com/en/producto/lng",
+        "source_id": "cat-gasso-com-lng"
+      },
+      "high": 14
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degC",
+      "basis": "Characteristics: 'Temperature range: -196 °C to +45 °C'",
+      "source": {
+        "url": "https://gasso.com/en/producto/lng",
+        "source_id": "cat-gasso-com-lng"
+      },
+      "low": -196,
+      "high": 45
+    },
+    {
+      "metric": "Standard",
+      "unit": "standard",
+      "basis": "Characteristics: 'Standard EN 13766:2010'",
+      "source": {
+        "url": "https://gasso.com/en/producto/lng",
+        "source_id": "cat-gasso-com-lng"
+      },
+      "value": "EN 13766:2010"
+    },
+    {
+      "metric": "Safety factor",
+      "unit": "ratio",
+      "basis": "Characteristics: 'Safety factor 5:1'",
+      "source": {
+        "url": "https://gasso.com/en/producto/lng",
+        "source_id": "cat-gasso-com-lng"
+      },
+      "value": "5:1"
+    },
+    {
+      "metric": "Vacuum",
+      "unit": "bar",
+      "basis": "Characteristics: 'Vacuum 0.9 bar'",
+      "source": {
+        "url": "https://gasso.com/en/producto/lng",
+        "source_id": "cat-gasso-com-lng"
+      },
+      "value": 0.9
+    },
+    {
+      "metric": "Roll length",
+      "unit": "m",
+      "basis": "Characteristics: 'Roll length 30 m. ask for other lengths'",
+      "source": {
+        "url": "https://gasso.com/en/producto/lng",
+        "source_id": "cat-gasso-com-lng"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Materials",
+      "unit": "n/a",
+      "basis": "Material section",
+      "source": {
+        "url": "https://gasso.com/en/producto/lng",
+        "source_id": "cat-gasso-com-lng"
+      },
+      "value": "316L stainless steel inner coil and outer spiral; polyamide/polyester inner lining; polyamide fabric cover"
+    }
+  ],
+  "url": "https://gasso.com/en/producto/lng",
+  "sources": [
+    {
+      "url": "https://gasso.com/en/producto/lng",
+      "source_id": "cat-gasso-com-lng"
+    }
+  ],
+  "notes": "Technical specifications table on page is an image; figures above are from the printed text/Characteristics list.",
+  "last_reviewed": "2026-11-24"
+}

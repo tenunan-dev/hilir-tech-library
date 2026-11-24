@@ -40,6 +40,129 @@
         "source_id": "sys-bakerhughes-com-flexible-pipe-systems"
       },
       "value": 20
+    },
+    {
+      "metric": "Nominal pressure rating",
+      "unit": "psi (3.45 MPa)",
+      "basis": "Specifications table: '500 psi (3.45 MPa) API 15S Nominal Pressure Rating (NPR)'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Maximum temperature",
+      "unit": "degF (60 degC)",
+      "basis": "Product Offering table: 'Max Temp | 140°F (60°C)'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 140
+    },
+    {
+      "metric": "Inside diameter, DF 3in 500",
+      "unit": "mm",
+      "basis": "Series 500 Product Properties table, column 'DF 3\" 500', row 'Inside Pipe Diameter'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 72
+    },
+    {
+      "metric": "Inside diameter, DF 4in 500",
+      "unit": "mm",
+      "basis": "Series 500 Product Properties table, column 'DF 4\" 500', row 'Inside Pipe Diameter'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 91
+    },
+    {
+      "metric": "Inside diameter, DF 6in 500",
+      "unit": "mm",
+      "basis": "Series 500 Product Properties table, column 'DF 6\" 500', row 'Inside Pipe Diameter'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 142
+    },
+    {
+      "metric": "Outside diameter, DF 6in 500",
+      "unit": "mm",
+      "basis": "Series 500 Product Properties table, column 'DF 6\" 500', row 'Outside Pipe Diameter'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 173
+    },
+    {
+      "metric": "Pipe weight, DF 6in 500",
+      "unit": "kg/m",
+      "basis": "Series 500 Product Properties table, column 'DF 6\" 500', row 'Pipe Weight'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": 8.53
+    },
+    {
+      "metric": "Factory hydrotest",
+      "unit": "ratio",
+      "basis": "Product Offering: '100% hydrotested at the factory to 1.5x the nominal pressure rating.'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": "1.5x nominal pressure rating"
+    },
+    {
+      "metric": "Connection",
+      "unit": "n/a",
+      "basis": "Product Offering table, row 'Connection'",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex",
+        "source_id": "cat-nov-com-duraflex"
+      },
+      "value": "Flange and pipe to pipe"
+    },
+    {
+      "metric": "Rated power (4 throw / 6 throw)",
+      "unit": "BHP",
+      "basis": "Product tables: Rated Power 6,668 (4 Throw) and 10,000 (6 Throw); page text: rated up to 10,000 BHP",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "low": 6668,
+      "high": 10000
+    },
+    {
+      "metric": "Stroke",
+      "unit": "in (KBB 7.25 / KBV 8.50)",
+      "basis": "Product table: Stroke (in) KBB 7.25, KBV 8.50",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "low": 7.25,
+      "high": 8.5
+    },
+    {
+      "metric": "Max RPM",
+      "unit": "rpm (KBB 900 / KBV 750)",
+      "basis": "Product table: Max RPM KBB 900, KBV 750",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
+      },
+      "low": 750,
+      "high": 900
     }
   ],
   "vendors": [

@@ -11,7 +11,7 @@
     {
       "metric": "NRB damping",
       "unit": "%",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
         "source_id": "bridgestone-com-antiseismic-rubber-product-html"
@@ -21,7 +21,7 @@
     {
       "metric": "LRB rubber grade",
       "unit": "grade",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
         "source_id": "bridgestone-com-antiseismic-rubber-product-html"

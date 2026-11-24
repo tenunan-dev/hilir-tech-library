@@ -11,7 +11,7 @@
     {
       "metric": "Tandem lift",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
@@ -21,7 +21,7 @@
     {
       "metric": "Main hoist at 27-48 m radius",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
@@ -31,7 +31,7 @@
     {
       "metric": "Max main-hoist radius",
       "unit": "m",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
@@ -41,7 +41,7 @@
     {
       "metric": "Auxiliary hoist",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"

@@ -1,0 +1,51 @@
+{
+  "id": "john-zink-company-llc-koch-engineered-solutions-john-zink-pressure-assisted",
+  "name": "John Zink pressure-assisted flare tips (Kaldair Indair, Kaldair Multipoint Indair KMI, JZ Hydra, JZ Poseidon, KSP)",
+  "manufacturer": "john-zink-company-llc-koch-engineered-solutions",
+  "product_type": "cf-system",
+  "equipment": [
+    "cf-flare-stack-boom-system-with-knockout-drum-seal-drum-flare-tip"
+  ],
+  "description": "Proprietary high-pressure burner technology; variable slot Coanda flare tip custom designed to enable smokeless flaring using the Coanda effect. No numeric capacity printed on the page read.",
+  "specifications": [
+    {
+      "metric": "Turndown",
+      "unit": "turndown (as printed)",
+      "basis": "Features: Unlimited Turndown - Some of the systems can offer unlimited turndown, making them highly adaptable to varying operational conditions",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare",
+        "source_id": "cat-johnzink-com-pressure-assisted-flare"
+      },
+      "value": "unlimited"
+    },
+    {
+      "metric": "Assist medium",
+      "unit": "no assist medium required",
+      "basis": "Features: No Assist Medium Required - These flares produce short, smokeless flames without the need for an assist medium, allowing for shorter boom lengths and simpler mounting structures",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare",
+        "source_id": "cat-johnzink-com-pressure-assisted-flare"
+      },
+      "value": 0
+    },
+    {
+      "metric": "Service history",
+      "unit": "years (over)",
+      "basis": "John Zink's pressure-assisted flares have been successfully used in a wide range of applications for over 30 years",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare",
+        "source_id": "cat-johnzink-com-pressure-assisted-flare"
+      },
+      "value": 30
+    }
+  ],
+  "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare",
+  "sources": [
+    {
+      "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare",
+      "source_id": "cat-johnzink-com-pressure-assisted-flare"
+    }
+  ],
+  "notes": "Proprietary high-pressure burner technology; variable slot Coanda flare tip custom designed to enable smokeless flaring using the Coanda effect. No numeric capacity printed on the page read.",
+  "last_reviewed": "2026-11-24"
+}

@@ -17,7 +17,7 @@
       "basis": "FieldComm Group WirelessHART technology page, descriptive claim",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
-        "source_id": "sys-fieldcommgroup-org-wirelesshart"
+        "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
       "value": "Each device can act as a router; redundant communication routes extend range and improve reliability"
     },
@@ -27,7 +27,7 @@
       "basis": "FieldComm Group WirelessHART page citing WirelessHART User Case Studies: '30%-60% lower installation costs than adding traditional wired instruments'",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
-        "source_id": "sys-fieldcommgroup-org-wirelesshart"
+        "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
       "low": 30,
       "high": 60
@@ -58,7 +58,7 @@
       "basis": "FieldComm Group WirelessHART technology page",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
-        "source_id": "sys-fieldcommgroup-org-wirelesshart"
+        "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
       "value": "one-way publishing, exception notification, ad-hoc request/response, auto-segmented block transfers"
     }
@@ -70,7 +70,7 @@
   "sources": [
     {
       "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
-      "source_id": "sys-fieldcommgroup-org-wirelesshart"
+      "source_id": "cat-fieldcommgroup-org-wirelesshart"
     },
     {
       "url": "https://www.fieldcommgroup.org/hart-specifications",

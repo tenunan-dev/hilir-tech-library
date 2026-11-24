@@ -11,7 +11,7 @@
     {
       "metric": "Reciprocating gas compressor rating",
       "unit": "MW",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.chartindustries.com/Howden",
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
@@ -21,7 +21,7 @@
     {
       "metric": "Reciprocating compressor speed",
       "unit": "rpm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.chartindustries.com/Howden",
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
@@ -32,7 +32,7 @@
     {
       "metric": "Steam turbine electrical output range",
       "unit": "kW",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.chartindustries.com/Howden",
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
@@ -43,7 +43,7 @@
     {
       "metric": "Steam turbine mechanical drive range",
       "unit": "MW",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.chartindustries.com/Howden",
         "source_id": "chartindustries-com-www-chartindustries-com-howden"

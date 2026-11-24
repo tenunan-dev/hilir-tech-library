@@ -11,7 +11,7 @@
     {
       "metric": "energy range (spread)",
       "unit": "kJ",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
@@ -21,7 +21,7 @@
     {
       "metric": "MHU6000W",
       "unit": "kJ / L/min / bar / bl/min",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"

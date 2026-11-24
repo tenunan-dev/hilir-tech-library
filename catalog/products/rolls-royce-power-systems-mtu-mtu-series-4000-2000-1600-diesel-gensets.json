@@ -11,10 +11,10 @@
     {
       "metric": "Series 4000",
       "unit": "kWe @60 Hz (1600-4000 kVA @50 Hz)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
-        "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "low": 1125,
       "high": 3250
@@ -22,10 +22,10 @@
     {
       "metric": "Series 2000",
       "unit": "kWe @60 Hz",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
-        "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "low": 680,
       "high": 1250
@@ -33,10 +33,10 @@
     {
       "metric": "Series 1600",
       "unit": "kWe @60 Hz",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
-        "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "low": 500,
       "high": 900
@@ -44,10 +44,10 @@
     {
       "metric": "Load factor",
       "unit": "% standby (75% prime)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
-        "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "value": 85
     }
@@ -56,7 +56,7 @@
   "sources": [
     {
       "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
-      "source_id": "sys-mtu-solutions-com-diesel-generator-sets-html"
+      "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
     }
   ],
   "notes": "HVO to EN 15940 approved on Series 4000/1600",

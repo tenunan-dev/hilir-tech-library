@@ -11,50 +11,50 @@
     {
       "metric": "Max power",
       "unit": "W",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": 670
     },
     {
       "metric": "Module efficiency",
       "unit": "%",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": 24.8
     },
     {
       "metric": "STC Pmax (660M)",
       "unit": "W",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": 660
     },
     {
       "metric": "Front static load",
       "unit": "Pa",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": 5400
     },
     {
       "metric": "Pmax temp coefficient",
       "unit": "%/degC",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": -0.26
     }
@@ -63,7 +63,7 @@
   "sources": [
     {
       "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-      "source_id": "sys-longi-com"
+      "source_id": "cat-longi-com"
     }
   ],
   "notes": "HPBC 2.0; 30-year power warranty",

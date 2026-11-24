@@ -1,0 +1,73 @@
+{
+  "id": "swagelok-full-flow-quick-connects-qf-series-qf4-qf8-qf12-qf16",
+  "name": "Full-Flow Quick-Connects, QF series (QF4, QF8, QF12, QF16)",
+  "manufacturer": "swagelok",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246"
+  ],
+  "description": "Range values and filter facets printed on the HTML catalogue page; full pressure-temperature tables are in the linked PDF (not WebFetch-read).",
+  "specifications": [
+    {
+      "metric": "Size range",
+      "unit": "in / mm",
+      "basis": "Header line: '1/4 to 1 in. (6 mm)'",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
+        "source_id": "cat-products-swagelok-com-241"
+      },
+      "value": "1/4 to 1 in. (6 mm)"
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degC (-50 to 500 degF)",
+      "basis": "Header line: '–50°F (–45°C) to 500°F (260°C)'",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
+        "source_id": "cat-products-swagelok-com-241"
+      },
+      "low": -45,
+      "high": 260
+    },
+    {
+      "metric": "Pressure rating range",
+      "unit": "bar (150 to 6000 psig)",
+      "basis": "Header line: '150 psig (10.3 bar) to 6000 psig (413 bar)'",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
+        "source_id": "cat-products-swagelok-com-241"
+      },
+      "low": 10.3,
+      "high": 413
+    },
+    {
+      "metric": "Coupled pressure at room temp",
+      "unit": "psig / bar",
+      "basis": "Filter facet 'Pressure Rating Coupled at Room Temp' (32 items)",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
+        "source_id": "cat-products-swagelok-com-241"
+      },
+      "value": "6000 PSIG @ 70 °F / 413 BAR @ 21 °C"
+    },
+    {
+      "metric": "Body material",
+      "unit": "n/a",
+      "basis": "Header line and filter facets",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
+        "source_id": "cat-products-swagelok-com-241"
+      },
+      "value": "316 stainless steel, brass"
+    }
+  ],
+  "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
+  "sources": [
+    {
+      "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
+      "source_id": "cat-products-swagelok-com-241"
+    }
+  ],
+  "notes": "Range values and filter facets printed on the HTML catalogue page; full pressure-temperature tables are in the linked PDF (not WebFetch-read).",
+  "last_reviewed": "2026-11-24"
+}

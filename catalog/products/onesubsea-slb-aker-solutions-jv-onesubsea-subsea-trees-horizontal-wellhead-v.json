@@ -11,10 +11,10 @@
     {
       "metric": "Temperature range",
       "unit": "deg C",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
-        "source_id": "sys-onesubsea-slb-com-subsea-trees"
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "low": -18,
       "high": 176
@@ -22,20 +22,20 @@
     {
       "metric": "Pressure",
       "unit": "psi",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
-        "source_id": "sys-onesubsea-slb-com-subsea-trees"
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "value": 15000
     },
     {
       "metric": "Production bore",
       "unit": "inch (wellhead vertical)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
-        "source_id": "sys-onesubsea-slb-com-subsea-trees"
+        "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "value": 7
     }
@@ -44,7 +44,7 @@
   "sources": [
     {
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
-      "source_id": "sys-onesubsea-slb-com-subsea-trees"
+      "source_id": "cat-onesubsea-slb-com-subsea-trees"
     }
   ],
   "notes": "fetched",

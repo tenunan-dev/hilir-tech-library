@@ -1,0 +1,102 @@
+{
+  "id": "emerson-automation-solutions-emerson-industrial-wireless-portfolio-gateways",
+  "name": "Emerson industrial wireless portfolio (gateways, wireless instrumentation, SmartPower modules)",
+  "manufacturer": "emerson-automation-solutions",
+  "product_type": "ci-system",
+  "equipment": [
+    "ci-wirelesshart-industrial-wireless-mesh-024e52"
+  ],
+  "description": "Page read in full. Named gateways 1410S1/1410S2 and repeaters are product families; no electrical supply figures were printed on this catalogue page.",
+  "specifications": [
+    {
+      "metric": "Data reliability",
+      "unit": "%",
+      "basis": "Page states 'over 99% data reliability' for WirelessHART (IEC 62591) mesh; also 'delivering over 99% data reliability even in environments with interference, extreme temperatures, or physical obstructions'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
+        "source_id": "cat-emerson-com-industrial-wireless-technology"
+      },
+      "low": ">99"
+    },
+    {
+      "metric": "WirelessHART standard",
+      "unit": "standard",
+      "basis": "'WirelessHART® is the global industry standard (IEC 62591) for process automation wireless'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
+        "source_id": "cat-emerson-com-industrial-wireless-technology"
+      },
+      "value": "IEC 62591"
+    },
+    {
+      "metric": "Encryption",
+      "unit": "encryption",
+      "basis": "'AES-128 encryption on every message' under 'How is industrial wireless secured against cyber threats?'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
+        "source_id": "cat-emerson-com-industrial-wireless-technology"
+      },
+      "value": "AES-128"
+    },
+    {
+      "metric": "Host protocols",
+      "unit": "protocol",
+      "basis": "'Wireless field devices send data over a secure self-organizing mesh network to a gateway, which translates that data into protocols your DCS, PLC, or SCADA already understands such as HART-IP, OPC UA, and Modbus TCP'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
+        "source_id": "cat-emerson-com-industrial-wireless-technology"
+      },
+      "value": "HART-IP, OPC UA, Modbus TCP"
+    },
+    {
+      "metric": "Installation cost saving vs wired instrumentation",
+      "unit": "% lower",
+      "basis": "'Up to 60% lower installation costs vs. traditional wired instrumentation' under 'What ROI can I expect'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
+        "source_id": "cat-emerson-com-industrial-wireless-technology"
+      },
+      "high": "60"
+    },
+    {
+      "metric": "Payback period",
+      "unit": "months",
+      "basis": "'Most industrial wireless deployments deliver payback within 12 to 24 months'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
+        "source_id": "cat-emerson-com-industrial-wireless-technology"
+      },
+      "low": 12,
+      "high": 24
+    },
+    {
+      "metric": "Example wireless gateway models",
+      "unit": "model",
+      "basis": "'Emerson Wireless Gateway to aggregate data and connect to your host system (1410S1 or 1410S2)' in tank-level deployment FAQ",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
+        "source_id": "cat-emerson-com-industrial-wireless-technology"
+      },
+      "value": "1410S1, 1410S2"
+    },
+    {
+      "metric": "Hazardous-area certifications",
+      "unit": "certification",
+      "basis": "'Emerson offers devices certified for use in intrinsically safe and explosion-proof areas under FM, CSA, ATEX, and IECEx standards'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
+        "source_id": "cat-emerson-com-industrial-wireless-technology"
+      },
+      "value": "FM, CSA, ATEX, IECEx"
+    }
+  ],
+  "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
+  "sources": [
+    {
+      "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
+      "source_id": "cat-emerson-com-industrial-wireless-technology"
+    }
+  ],
+  "notes": "Page read in full. Named gateways 1410S1/1410S2 and repeaters are product families; no electrical supply figures were printed on this catalogue page.",
+  "last_reviewed": "2026-11-24"
+}

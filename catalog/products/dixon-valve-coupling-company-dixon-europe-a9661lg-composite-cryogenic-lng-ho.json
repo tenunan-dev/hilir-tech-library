@@ -1,0 +1,92 @@
+{
+  "id": "dixon-valve-coupling-company-dixon-europe-a9661lg-composite-cryogenic-lng-ho",
+  "name": "A9661LG Composite Cryogenic LNG Hose (A9661-S6S6-N-050)",
+  "manufacturer": "dixon-valve-coupling-company-dixon-europe",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
+  ],
+  "description": "Page note states: 'Hose pressures are indicative only, please confirm with customer service.' S6S6 denotes 316 stainless inner and outer wires.",
+  "specifications": [
+    {
+      "metric": "Inside diameter",
+      "unit": "mm",
+      "basis": "Attributes table, row 'ID'",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050",
+        "source_id": "cat-europe-dixonvalve-com-a9661-s6s6-n-050"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Working pressure",
+      "unit": "bar",
+      "basis": "Attributes table, row 'Working Pressure'",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050",
+        "source_id": "cat-europe-dixonvalve-com-a9661-s6s6-n-050"
+      },
+      "value": 16
+    },
+    {
+      "metric": "Burst pressure",
+      "unit": "bar",
+      "basis": "Attributes table, row 'Burst Pressure'",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050",
+        "source_id": "cat-europe-dixonvalve-com-a9661-s6s6-n-050"
+      },
+      "value": 128
+    },
+    {
+      "metric": "Bend radius",
+      "unit": "mm",
+      "basis": "Attributes table, row 'Bend Radius'",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050",
+        "source_id": "cat-europe-dixonvalve-com-a9661-s6s6-n-050"
+      },
+      "value": 180
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degC",
+      "basis": "Attributes table, row 'Temperature Range'",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050",
+        "source_id": "cat-europe-dixonvalve-com-a9661-s6s6-n-050"
+      },
+      "low": -200,
+      "high": 80
+    },
+    {
+      "metric": "Length",
+      "unit": "m",
+      "basis": "Attributes table, row 'Length | up to 40m'",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050",
+        "source_id": "cat-europe-dixonvalve-com-a9661-s6s6-n-050"
+      },
+      "high": 40
+    },
+    {
+      "metric": "Unit weight",
+      "unit": "kg",
+      "basis": "Attributes table, row 'Unit weight'",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050",
+        "source_id": "cat-europe-dixonvalve-com-a9661-s6s6-n-050"
+      },
+      "value": 2.5
+    }
+  ],
+  "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050",
+  "sources": [
+    {
+      "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050",
+      "source_id": "cat-europe-dixonvalve-com-a9661-s6s6-n-050"
+    }
+  ],
+  "notes": "Page note states: 'Hose pressures are indicative only, please confirm with customer service.' S6S6 denotes 316 stainless inner and outer wires.",
+  "last_reviewed": "2026-11-24"
+}

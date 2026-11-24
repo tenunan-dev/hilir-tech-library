@@ -1,0 +1,31 @@
+{
+  "id": "technipfmc-integrated-production-bundle-ipb-66c4a2",
+  "name": "Integrated Production Bundle (IPB)",
+  "manufacturer": "technipfmc-cds-separation-systems",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "Proprietary technology; no numeric rating printed on the HTML page.",
+  "specifications": [
+    {
+      "metric": "Integrated functions",
+      "unit": "n/a",
+      "basis": "Flexible pipes page, 'Integrated Production Bundle': 'features thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid temperature monitoring with optical fibers.'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
+        "source_id": "cat-technipfmc-com-flexible-pipes"
+      },
+      "value": "Thermal insulation layers; additional hoses for gas lift or other services; active heating through electric cables; fluid temperature monitoring with optical fibers"
+    }
+  ],
+  "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
+      "source_id": "cat-technipfmc-com-flexible-pipes"
+    }
+  ],
+  "notes": "Proprietary technology; no numeric rating printed on the HTML page.",
+  "last_reviewed": "2026-11-24"
+}

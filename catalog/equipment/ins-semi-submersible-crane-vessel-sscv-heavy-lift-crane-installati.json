@@ -110,6 +110,67 @@
         "source_id": "dnv-com-new-guidance-on-achieving-stable-lifting-operations"
       },
       "value": "Virtual CoG; Kaps; Nikitin; numerical simulation (standard & extensive)"
+    },
+    {
+      "metric": "Tandem lift",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Main hoist at 27-48 m radius",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Max main-hoist radius",
+      "unit": "m",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": 102
+    },
+    {
+      "metric": "Auxiliary hoist",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
+        "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
+      },
+      "value": 2500
+    },
+    {
+      "metric": "design weight range",
+      "unit": "tonnes",
+      "basis": "facility design range, from simple wellhead platforms to large integrated facilities",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
+        "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
+      },
+      "low": 2000,
+      "high": 40000
+    },
+    {
+      "metric": "substructure types served",
+      "unit": "list",
+      "basis": "Stord yard topside projects",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
+        "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
+      },
+      "value": "jacket, GBS, semi-submersible, FPSO, drilling rig, TLP"
     }
   ],
   "vendors": [

@@ -11,7 +11,7 @@
     {
       "metric": "Solids by volume",
       "unit": "%",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
         "source_id": "carboline-com-product-details-thermo-lag-3000-p"
@@ -21,7 +21,7 @@
     {
       "metric": "Fire rating",
       "unit": "h",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
         "source_id": "carboline-com-product-details-thermo-lag-3000-p"

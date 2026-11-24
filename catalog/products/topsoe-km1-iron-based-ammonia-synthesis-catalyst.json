@@ -11,7 +11,7 @@
     {
       "metric": "Share of world ammonia produced with KM1",
       "unit": "qualitative",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
         "source_id": "topsoe-com-ammonia-synthesis"

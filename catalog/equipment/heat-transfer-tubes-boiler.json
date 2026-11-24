@@ -64,6 +64,110 @@
       },
       "unit": "sq ft/BHP",
       "value": 5
+    },
+    {
+      "metric": "Standard straight tube length",
+      "basis": "Boiler Tubes page 'Types of Boiler Tubes': Standard Straight Boiler Tubes available from 50-510 in",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "inches",
+      "low": 50,
+      "high": 510
+    },
+    {
+      "metric": "Rifled (XID) tube length",
+      "basis": "Boiler Tubes page: Rifled tubes available from 50-366 in; internal grooves increase heat transfer by creating turbulence",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "inches",
+      "low": 50,
+      "high": 366
+    },
+    {
+      "metric": "Material",
+      "basis": "Boiler Tubes page 'OEM Quality You Can Trust'",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "material",
+      "value": "Premium ERW SA178 steel produced to ASME Boiler & Pressure Vessel Code requirements"
+    },
+    {
+      "metric": "Heat exchanger tube bending",
+      "basis": "Boiler Tubes page Tube Fabrication: ¾-1½ in OD tubes, radius sizes 2-15½ in, stainless and mild steel",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "inch OD",
+      "low": 0.75,
+      "high": 1.5
+    },
+    {
+      "metric": "Tube replacement bending",
+      "basis": "Boiler Tubes page: hot and cold bending capabilities include 1½ up to 4 in OD",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "inch OD",
+      "low": 1.5,
+      "high": 4
+    },
+    {
+      "metric": "Other products",
+      "basis": "Boiler Tubes page Tube Replacement section",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "scope",
+      "value": "Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging"
+    },
+    {
+      "metric": "Quality documentation",
+      "basis": "Boiler Tubes page 'Certified Materials'",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
+        "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
+      },
+      "unit": "quality",
+      "value": "Material traceability, MTR documentation, non-destructive testing, ASME compliance"
+    },
+    {
+      "metric": "Heat transfer increase",
+      "basis": "CBEX Product Overview: extended heat transfer tubes with CFD-optimized geometry increase heat transfer by 85%",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex",
+        "source_id": "cleaverbrooks-com-product-cbex"
+      },
+      "unit": "%",
+      "value": 85
+    },
+    {
+      "metric": "Effective heat transfer surface",
+      "basis": "ClearFire-CE Product Overview: AluFer tube technology increases effective heat transfer surface area up to five times",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "times greater than other condensing boilers",
+      "value": 5
+    },
+    {
+      "metric": "Thermal conductivity",
+      "basis": "ClearFire-CE Product Overview",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "times greater than stainless steel alone",
+      "value": 10
     }
   ],
   "vendors": [

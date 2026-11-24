@@ -11,7 +11,7 @@
     {
       "metric": "cybersecurity compliance",
       "unit": "standard",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
@@ -21,7 +21,7 @@
     {
       "metric": "MTP startup improvement",
       "unit": "% (up to)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
         "source_id": "sys-siemens-com-simatic-pcs-7-html"

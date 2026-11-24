@@ -52,6 +52,101 @@
         "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
       },
       "value": 1000
+    },
+    {
+      "metric": "Pneumatic 50 GEA range",
+      "unit": "kNm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
+        "source_id": "y-yokohama-com-floating"
+      },
+      "low": 6,
+      "high": 6473
+    },
+    {
+      "metric": "Pneumatic 80 GEA range",
+      "unit": "kNm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
+        "source_id": "y-yokohama-com-floating"
+      },
+      "low": 8,
+      "high": 9037
+    },
+    {
+      "metric": "initial internal pressure",
+      "unit": "kPa",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
+        "source_id": "y-yokohama-com-floating"
+      },
+      "value": "50 or 80"
+    },
+    {
+      "metric": "height range",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
+      },
+      "low": 300,
+      "high": 2000
+    },
+    {
+      "metric": "SPC 2000 mass",
+      "unit": "kg",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
+      },
+      "value": 9560
+    },
+    {
+      "metric": "SPC 2000 anchor bolts",
+      "unit": "count/size",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
+      },
+      "value": "10 x M56"
+    },
+    {
+      "metric": "SX standard heights",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
+      },
+      "low": 250,
+      "high": 1000
+    },
+    {
+      "metric": "standard lengths",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
+      },
+      "low": 1000,
+      "high": 3500
+    },
+    {
+      "metric": "SX 1000 width",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
+        "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
+      },
+      "value": 1800
     }
   ],
   "vendors": [

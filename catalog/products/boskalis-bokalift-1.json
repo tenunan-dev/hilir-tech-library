@@ -11,7 +11,7 @@
     {
       "metric": "Crane capacity",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
@@ -21,7 +21,7 @@
     {
       "metric": "Deck",
       "unit": "m",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"

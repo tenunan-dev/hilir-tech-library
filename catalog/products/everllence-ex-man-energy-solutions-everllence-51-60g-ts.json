@@ -11,7 +11,7 @@
     {
       "metric": "Mechanical output",
       "unit": "kWm up to",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
         "source_id": "everllence-com-products-gas-fuel-engines"
@@ -21,7 +21,7 @@
     {
       "metric": "Engine speed",
       "unit": "rpm (50/60 Hz)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
         "source_id": "everllence-com-products-gas-fuel-engines"
@@ -31,7 +31,7 @@
     {
       "metric": "Efficiency",
       "unit": "% with two-stage turbocharging",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
         "source_id": "everllence-com-products-gas-fuel-engines"

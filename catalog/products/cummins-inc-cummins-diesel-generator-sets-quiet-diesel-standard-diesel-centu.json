@@ -1,0 +1,52 @@
+{
+  "id": "cummins-inc-cummins-diesel-generator-sets-quiet-diesel-standard-diesel-centu",
+  "name": "Cummins diesel generator sets (Quiet Diesel, Standard Diesel, Centum Series)",
+  "manufacturer": "cummins-inc",
+  "product_type": "cf-system",
+  "equipment": [
+    "cf-diesel-engine-generator-sets-offshore-and-onshore"
+  ],
+  "description": "All major components (engine, alternator, controls) manufactured, tested and serviced by Cummins; Cummins Power Suite tool for design/installation. Tier 4F certified rental solutions noted. Centum S17 Series 600-1000 kW 60 Hz referenced in related news item on same site.",
+  "specifications": [
+    {
+      "metric": "Generator set power range",
+      "unit": "kVA",
+      "basis": "We offer a diverse range of generator sets from 15 - 3750 kVA",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel",
+        "source_id": "cat-cummins-com-diesel"
+      },
+      "low": 15,
+      "high": 3750
+    },
+    {
+      "metric": "Frequency",
+      "unit": "Hz",
+      "basis": "Quiet Diesel Generators: Frequency (Hz) 60, 50; Standard Diesel Generators: Frequency (Hz) 50, 60",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel",
+        "source_id": "cat-cummins-com-diesel"
+      },
+      "value": "50 / 60"
+    },
+    {
+      "metric": "Load acceptance",
+      "unit": "s (less than)",
+      "basis": "Commercial and Industrial solutions: Able to start and assume load in less than 10 seconds, and rated load in a single step",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel",
+        "source_id": "cat-cummins-com-diesel"
+      },
+      "value": 10
+    }
+  ],
+  "url": "https://www.cummins.com/en-apac/generators/diesel",
+  "sources": [
+    {
+      "url": "https://www.cummins.com/en-apac/generators/diesel",
+      "source_id": "cat-cummins-com-diesel"
+    }
+  ],
+  "notes": "All major components (engine, alternator, controls) manufactured, tested and serviced by Cummins; Cummins Power Suite tool for design/installation. Tier 4F certified rental solutions noted. Centum S17 Series 600-1000 kW 60 Hz referenced in related news item on same site.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "howden-a-chart-industries-company-howden-hybrid-reciprocating-compressor-hor-7f857d",
+  "name": "Howden hybrid reciprocating compressor (horizontal/vertical)",
+  "manufacturer": "howden-a-chart-industries-company-kk-k-ckd-brands",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
+  ],
+  "description": "Peter Brotherhood reciprocating compressors rated to 20MW and operating between 260 and 1,000 rpm also described on this page (text as printed).",
+  "specifications": [
+    {
+      "metric": "Compression stages",
+      "unit": "stages (up to)",
+      "basis": "The Howden hybrid reciprocating compressor is available in horizontal or vertical configurations of up to five compression stages",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Pressure increase",
+      "unit": "bar (up to)",
+      "basis": "offering pressures increases of to 450 bar while providing inter-stage cooling and purging of condensates",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
+      },
+      "value": 450
+    }
+  ],
+  "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+  "sources": [
+    {
+      "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+      "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
+    }
+  ],
+  "notes": "Peter Brotherhood reciprocating compressors rated to 20MW and operating between 260 and 1,000 rpm also described on this page (text as printed).",
+  "last_reviewed": "2026-11-24"
+}

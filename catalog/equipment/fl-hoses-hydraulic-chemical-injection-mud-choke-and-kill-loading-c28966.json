@@ -40,6 +40,130 @@
         "source_id": "sys-onesubsea-slb-com-steeltube-umbilicals"
       },
       "value": "hydraulic fluid for control; various chemical fluids for injection into the flowline"
+    },
+    {
+      "metric": "Maximum working pressure",
+      "unit": "bar",
+      "basis": "Page summary block 'Pressure 14 bar' and Additional Specifications 'Maximum Working Pressure: 14 BAR'",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
+        "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
+      },
+      "value": 14
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degC",
+      "basis": "Additional Specifications: 'Temperature Range: -30°C to + 100°C'",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
+        "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
+      },
+      "low": -30,
+      "high": 100
+    },
+    {
+      "metric": "Standard duty sizes",
+      "unit": "in / mm",
+      "basis": "Additional Specifications: 'Standard Duty: 1” – 4” (25MM – 100MM)'",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
+        "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
+      },
+      "value": "1 in – 4 in (25 mm – 100 mm)"
+    },
+    {
+      "metric": "Heavy duty sizes",
+      "unit": "in / mm",
+      "basis": "Additional Specifications: 'Heavy Duty: 4” – 10” (100MM – 250MM)'",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
+        "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
+      },
+      "value": "4 in – 10 in (100 mm – 250 mm)"
+    },
+    {
+      "metric": "Petrol hose standard, working pressure",
+      "unit": "kPa at 20 degC",
+      "basis": "Petrol Hose Range overview, code 1000, 'Max Working Pressure (kPa @ Ambient Temp)'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "value": 700
+    },
+    {
+      "metric": "Petrol hose heavy duty, working pressure",
+      "unit": "kPa at 20 degC",
+      "basis": "Petrol Hose HD code 901 table, 'Working Pressure kPa at 20ºC'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "value": 1400
+    },
+    {
+      "metric": "Chemical hose range standard",
+      "unit": "standard",
+      "basis": "Chemical Hose Range AS 2594-1983 overview",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "value": "AS 2594-1983"
+    },
+    {
+      "metric": "Chemical hose PTSS working pressure",
+      "unit": "kPa at 20 degC",
+      "basis": "Chemical hose PTSS code 2200 table",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "value": 1400
+    },
+    {
+      "metric": "Petrol hose temperature range",
+      "unit": "degC",
+      "basis": "Code 1000 / 901 / 1003 product blocks: 'Temperature Range: -30ºC to +80ºC'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "low": -30,
+      "high": 80
+    },
+    {
+      "metric": "Chemical hose temperature range",
+      "unit": "degC",
+      "basis": "Code 951 / 952 / 969 product blocks: 'Temperature Range: -30ºC to +100ºC'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "low": -30,
+      "high": 100
+    },
+    {
+      "metric": "Hot bitumen hose temperature range",
+      "unit": "degC",
+      "basis": "Code 966 block: 'Temperature Range: -30ºC to +180ºC'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "low": -30,
+      "high": 180
+    },
+    {
+      "metric": "Kind 1 electrical resistance",
+      "unit": "ohm/m",
+      "basis": "Petrol hose range overview: 'Kind 1 hose has an electrical resistance not greater than 1.0 ohm/m.'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "high": 1.0
     }
   ],
   "vendors": [

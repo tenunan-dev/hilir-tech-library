@@ -20,6 +20,46 @@
         "source_id": "flaretechinc-com-products-flare-knockout-drums"
       },
       "value": "2 to 600"
+    },
+    {
+      "metric": "size range",
+      "unit": "BBL",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.flaretechinc.com/products/flare-knockout-drums",
+        "source_id": "flaretechinc-com-products-flare-knockout-drums"
+      },
+      "value": "2-600 BBL"
+    },
+    {
+      "metric": "PORTA-TEST REVOLUTION installations",
+      "unit": "installations",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals",
+        "source_id": "slb-com-gas-treatment-high-efficiency-phase-separation-internals"
+      },
+      "value": ">500 worldwide"
+    },
+    {
+      "metric": "configuration",
+      "unit": "configuration",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums",
+        "source_id": "cra-energy-product-knockout-drums"
+      },
+      "value": "horizontal or vertical"
+    },
+    {
+      "metric": "company installations",
+      "unit": "count",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums",
+        "source_id": "cra-energy-product-knockout-drums"
+      },
+      "value": ">800 in >25 countries since 1993"
     }
   ],
   "vendors": [

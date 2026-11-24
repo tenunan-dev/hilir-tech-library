@@ -8,6 +8,24 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.24.11] — 2026-11-24 — Product catalogs and specifications for all systems
+
+Owner-directed catalog/spec-sheet sweep for every equipment family searched today, ingested into the products and equipment layers.
+
+### Added
+- **87 new product lines** (33 enrichments) with printed spec tables, **56 sources**, **23 vendors**, and
+  spec tables copied into **95 equipment records**. Coverage: LNG/composite hoses, wet-mate connectors,
+  buoyancy modules, fiberglass pipe, BOPs to 25,000 psi, trees, separators, chemical injection packages,
+  Howden/Ariel compressors, John Zink flares, Swagelok/Victaulic piping, Cummins/mtu gensets, LONGi/Sungrow
+  solar, WirelessHART, Honeywell SIS/flame scanners, Endress+Hauser transmitters and Rittal boxes.
+- Blocked PDF/vendor pages were recorded as search-verified candidates with no figures asserted.
+
+### Verification
+`tools/build.py` 1,646 sources / 392 cards / 907 vendors / 389 equipment / 647 projects / 361 products /
+302 drawings / 111 materials; `pytest -q tests` **2,626 passed, 13 skipped**; Neon reloaded with 7,800 nodes,
+29,780 edges and 17,947 vectors.
+
+
 ## [2026.11.24.10] — 2026-11-24 — All platform systems (offshore and onshore)
 
 Owner-directed complete search across all categories for the listed platform systems, ingested across the database.

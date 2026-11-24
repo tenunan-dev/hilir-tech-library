@@ -1,0 +1,32 @@
+{
+  "id": "cat-sma-de-solar-inverters",
+  "name": "SMA Solar Technology AG — SMA PV and solar inverters - Sunny Central UP, Sunny Highpower PEAK3, Sunny Tripower 125 / X 6",
+  "url": "https://www.sma.de/en/products/solar-inverters",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "Sma.De",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. Page notes 100% grid independence and grid-forming solutions for large scale; SMA ShadeFix MPP tracking; single-phase inverters up to 4.6 kVA under German VDE-AR-N 4105 code. Detai Evidence: https://www.sma.de/en/products/solar-inverters"
+}

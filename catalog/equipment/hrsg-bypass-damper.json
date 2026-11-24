@@ -40,6 +40,56 @@
         "source_id": "forneycorp-com-articles-hrsg-bypass-dampers"
       },
       "value": 400
+    },
+    {
+      "metric": "Configuration",
+      "basis": "Printed in product overview",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers",
+        "source_id": "forneycorp-com-products-hrsg-bypass-dampers"
+      },
+      "unit": "n/a",
+      "value": "two BiPlane Dampers - one on HRSG inlet, one isolating the stack"
+    },
+    {
+      "metric": "Safety interlock",
+      "basis": "Printed under Safety System",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers",
+        "source_id": "forneycorp-com-products-hrsg-bypass-dampers"
+      },
+      "unit": "n/a",
+      "value": "mechanical interlock prevents both dampers closing at the same time; allows both open"
+    },
+    {
+      "metric": "Sealing",
+      "basis": "Printed under Safety System",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers",
+        "source_id": "forneycorp-com-products-hrsg-bypass-dampers"
+      },
+      "unit": "n/a",
+      "value": "dual set of seals; seal air system interlocked if pressure falls indicating a leak"
+    },
+    {
+      "metric": "Claimed advantages",
+      "basis": "Printed under Features & Benefits; no numeric performance figures printed",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers",
+        "source_id": "forneycorp-com-products-hrsg-bypass-dampers"
+      },
+      "unit": "n/a",
+      "value": "soft start flow distribution; control capability; reduced time to open; eliminates guillotine damper; smaller actuators"
+    },
+    {
+      "metric": "Independent actuation",
+      "basis": "Printed in product overview",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers",
+        "source_id": "forneycorp-com-products-hrsg-bypass-dampers"
+      },
+      "unit": "n/a",
+      "value": "independent actuator on each damper"
     }
   ],
   "vendors": [

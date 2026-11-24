@@ -11,7 +11,7 @@
     {
       "metric": "Electrical output",
       "unit": "kW up to @50Hz, generator terminals, ISO 3046 +5%",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
         "source_id": "jenbacher-com-type-6"
@@ -21,7 +21,7 @@
     {
       "metric": "Voltage",
       "unit": "kV @50Hz",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
         "source_id": "jenbacher-com-type-6"
@@ -31,7 +31,7 @@
     {
       "metric": "Engine speed",
       "unit": "rpm @50Hz",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
         "source_id": "jenbacher-com-type-6"
@@ -41,7 +41,7 @@
     {
       "metric": "Service life",
       "unit": "operating hours before first major overhaul (fact sheet, search-verified)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
         "source_id": "jenbacher-com-type-6"

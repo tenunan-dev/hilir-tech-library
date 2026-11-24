@@ -82,6 +82,36 @@
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
       "value": "Acoustic Enclosures, Acoustic Buildings, Acoustic Shrouds, Acoustic Walls and Noise Barriers, Acoustic Louvers, Acoustic Containers, Engine Test Cells"
+    },
+    {
+      "metric": "Power",
+      "unit": "kW for Type 2/3/4 / Type 6",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+        "source_id": "jenbacher-com-containerized-solutions"
+      },
+      "value": "249-1562 / 1634-4507"
+    },
+    {
+      "metric": "Sound",
+      "unit": "dB(A) at 10 m, DIN 45635 (Type 2/3/4); 65/70/75/80 for Type 6",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+        "source_id": "jenbacher-com-containerized-solutions"
+      },
+      "value": 65
+    },
+    {
+      "metric": "Ambient",
+      "unit": "degC, Type 2/3/4 / Type 6 standard ventilation",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+        "source_id": "jenbacher-com-containerized-solutions"
+      },
+      "value": "-25 to +34 / -25 to +40"
     }
   ],
   "vendors": [

@@ -33,6 +33,36 @@
       },
       "unit": "degC",
       "value": 104
+    },
+    {
+      "metric": "Superheater outlet temperature",
+      "basis": "Max-Fire Technical Data table: Steam Temperature up to 1,050 deg F; narrative: furnace and evaporator and superheater, if applicable",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "deg F (up to)",
+      "value": 1050
+    },
+    {
+      "metric": "Superheater design",
+      "basis": "Valmet CFB Boiler page bullets and 'High steam parameters' section",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "design feature",
+      "value": "Dedicated superheaters for corrosive fuels; easily replaceable superheaters in back pass"
+    },
+    {
+      "metric": "High steam parameters",
+      "basis": "Valmet CFB Boiler page: fluidized bed heat exchangers in loop seal",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
+        "source_id": "valmet-com-energyproduction-cfb-boilers"
+      },
+      "unit": "qualitative",
+      "value": "Possible without severe corrosion even with recovered fuels"
     }
   ],
   "vendors": [

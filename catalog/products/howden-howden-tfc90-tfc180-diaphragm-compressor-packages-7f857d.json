@@ -11,10 +11,10 @@
     {
       "metric": "Electrolyser module size",
       "unit": "MW",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
-        "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+        "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "low": 5,
       "high": 10
@@ -22,10 +22,10 @@
     {
       "metric": "Process gas leakage",
       "unit": "qualitative (zero leakage stated)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
-        "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+        "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "value": 0
     }
@@ -34,7 +34,7 @@
   "sources": [
     {
       "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
-      "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+      "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
     }
   ],
   "notes": "Skid mounted; H2 service",

@@ -1,0 +1,124 @@
+{
+  "id": "shijiazhuang-ruker-oilfield-technology-co-ltd-choke-kill-line-hose-full-bore",
+  "name": "Choke & kill line hose (full bore), JLG-FB series",
+  "manufacturer": "shijiazhuang-ruker-oilfield-technology-co-ltd",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
+  ],
+  "description": "APAC supplier. Nitrile/HNBR tube, multiple steel cable layers, modified nitrile cover, built-in couplings meet NACE MR0175.",
+  "specifications": [
+    {
+      "metric": "Standard",
+      "unit": "standard",
+      "basis": "Standards and API Monogram lines",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
+        "source_id": "cat-rukeroil-com-choke-kill-html"
+      },
+      "value": "API Spec 16C / ISO; API Monogram No. 16C-0486"
+    },
+    {
+      "metric": "Working pressure, X35 models",
+      "unit": "psi (35 MPa)",
+      "basis": "Product table, column 'WP psi / MPa', rows JLG-FB-51X35 etc.",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
+        "source_id": "cat-rukeroil-com-choke-kill-html"
+      },
+      "value": 5000
+    },
+    {
+      "metric": "Working pressure, X70 models",
+      "unit": "psi (70 MPa)",
+      "basis": "Product table, column 'WP psi / MPa', rows JLG-FB-51X70 etc.",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
+        "source_id": "cat-rukeroil-com-choke-kill-html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Test pressure, X70 models",
+      "unit": "psi (105 MPa)",
+      "basis": "Product table, column 'TP psi / MPa'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
+        "source_id": "cat-rukeroil-com-choke-kill-html"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "Inside diameter range",
+      "unit": "mm",
+      "basis": "Product table, column 'ID mm'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
+        "source_id": "cat-rukeroil-com-choke-kill-html"
+      },
+      "low": 51,
+      "high": 102
+    },
+    {
+      "metric": "Safety factor",
+      "unit": "ratio",
+      "basis": "Product table, column 'Safety Factor'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
+        "source_id": "cat-rukeroil-com-choke-kill-html"
+      },
+      "value": 2.25
+    },
+    {
+      "metric": "Flexibility specification level",
+      "unit": "FSL",
+      "basis": "FSLs line and product table column 'FSL'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
+        "source_id": "cat-rukeroil-com-choke-kill-html"
+      },
+      "value": "FSL 0~3; table lists FSL3"
+    },
+    {
+      "metric": "Minimum bending radius",
+      "unit": "m",
+      "basis": "Product table, column 'Min Bending Radius m'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
+        "source_id": "cat-rukeroil-com-choke-kill-html"
+      },
+      "low": 1.2,
+      "high": 1.5
+    },
+    {
+      "metric": "Maximum length",
+      "unit": "m",
+      "basis": "Product table, column 'Max length m'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
+        "source_id": "cat-rukeroil-com-choke-kill-html"
+      },
+      "value": 45
+    },
+    {
+      "metric": "Temperature rating A",
+      "unit": "degC",
+      "basis": "TEMPERATURE: 'Rating A: -4 ℉ to +180℉ (-20℃ to +82℃)'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
+        "source_id": "cat-rukeroil-com-choke-kill-html"
+      },
+      "low": -20,
+      "high": 82
+    }
+  ],
+  "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
+  "sources": [
+    {
+      "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
+      "source_id": "cat-rukeroil-com-choke-kill-html"
+    }
+  ],
+  "notes": "APAC supplier. Nitrile/HNBR tube, multiple steel cable layers, modified nitrile cover, built-in couplings meet NACE MR0175.",
+  "last_reviewed": "2026-11-24"
+}

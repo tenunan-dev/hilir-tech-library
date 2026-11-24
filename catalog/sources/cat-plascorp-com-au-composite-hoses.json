@@ -1,0 +1,32 @@
+{
+  "id": "cat-plascorp-com-au-composite-hoses",
+  "name": "Plascorp Pty Ltd — Composite hose range (petrol, vapour, hot bitumen, chemical; Codes 1000/901/1003/AVA/VRH/966/951/952/",
+  "url": "https://www.plascorp.com.au/products/composite-hoses",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "Plascorp.Com.Au",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. APAC supplier; AS 2683-2000 / AS 2594-1983 / AS 2475 standards as printed. Assembly testing per page: hydrostatic and electrical, AS 2683 / AS 2594 / AS 1180. Evidence: https://www.plascorp.com.au/products/composite-hoses"
+}

@@ -59,6 +59,66 @@
         "source_id": "woggroup-com-condensate-polishing-unit-cpu"
       },
       "value": "conductivity <0.2 µS/cm; silica <10 ppb"
+    },
+    {
+      "metric": "Service pressure",
+      "basis": "Printed: 'designed to handle service pressures of up to 800psi' and in Advantages list 'Up to 800psi service pressure'",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/",
+        "source_id": "graver-com-condensate-polishers-deepbed"
+      },
+      "unit": "psi",
+      "high": "800"
+    },
+    {
+      "metric": "Flow rate",
+      "basis": "Printed in Advantages list: 'Up to 50 gpm/sq. ft. flowrate'",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/",
+        "source_id": "graver-com-condensate-polishers-deepbed"
+      },
+      "unit": "gpm/sq.ft.",
+      "high": "50"
+    },
+    {
+      "metric": "Cation:anion resin ratio for All Volatile Treatment (AVT) high pH",
+      "basis": "Printed under Resin Optimization",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/",
+        "source_id": "graver-com-condensate-polishers-deepbed"
+      },
+      "unit": "ratio",
+      "value": "2:1"
+    },
+    {
+      "metric": "Regeneration design",
+      "basis": "Printed in page description",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/",
+        "source_id": "graver-com-condensate-polishers-deepbed"
+      },
+      "unit": "n/a",
+      "value": "two-vessel SepraEight external regeneration"
+    },
+    {
+      "metric": "Resin",
+      "basis": "Printed under Resin Optimization",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/",
+        "source_id": "graver-com-condensate-polishers-deepbed"
+      },
+      "unit": "n/a",
+      "value": "Gravex Bead Resin"
+    },
+    {
+      "metric": "Contaminants removed",
+      "basis": "Printed in page description",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/",
+        "source_id": "graver-com-condensate-polishers-deepbed"
+      },
+      "unit": "n/a",
+      "value": "iron, copper, silica, salts, suspended solids"
     }
   ],
   "vendors": [

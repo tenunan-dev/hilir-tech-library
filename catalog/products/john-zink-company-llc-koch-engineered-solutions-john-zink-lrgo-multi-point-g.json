@@ -1,0 +1,51 @@
+{
+  "id": "john-zink-company-llc-koch-engineered-solutions-john-zink-lrgo-multi-point-g",
+  "name": "John Zink LRGO Multi-Point Ground Flare",
+  "manufacturer": "john-zink-company-llc-koch-engineered-solutions",
+  "product_type": "cf-system",
+  "equipment": [
+    "cf-flare-stack-boom-system-with-knockout-drum-seal-drum-flare-tip"
+  ],
+  "description": "High pressure technology with staging for full-range smokeless turndown; turnkey supply available through Koch Specialty Plant Services. No numeric flow capacity printed on the page read.",
+  "specifications": [
+    {
+      "metric": "Destruction efficiency",
+      "unit": "%",
+      "basis": "Low Emissions: This system has demonstrated the highest destruction efficiency (typically > 99.5%) of any flare type",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+        "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
+      },
+      "value": ">99.5"
+    },
+    {
+      "metric": "API compliance",
+      "unit": "standard (available)",
+      "basis": "Features: Available API 537 Compliance - Ensures compliance with the latest Industry flare standards",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+        "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
+      },
+      "value": "API 537"
+    },
+    {
+      "metric": "Smokeless operation",
+      "unit": "% at high flow rates",
+      "basis": "Benefits: Design is capable of producing 100% smokeless operation at high flow rates, reducing the offsite impact of the flare system",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+        "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
+      },
+      "value": 100
+    }
+  ],
+  "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+  "sources": [
+    {
+      "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+      "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
+    }
+  ],
+  "notes": "High pressure technology with staging for full-range smokeless turndown; turnkey supply available through Koch Specialty Plant Services. No numeric flow capacity printed on the page read.",
+  "last_reviewed": "2026-11-24"
+}

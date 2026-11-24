@@ -1,0 +1,41 @@
+{
+  "id": "rittal-jb-junction-boxes-and-terminal-boxes-carbon-steel-304-316-stainless-s",
+  "name": "JB Junction Boxes and terminal boxes (carbon steel, 304/316 stainless steel), PK/GA/KX enclosure families",
+  "manufacturer": "rittal",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
+  ],
+  "description": "Catalogue page read in full (232 variants listed). The linked JB & WM Specification Guide PDF (with UL/cUL Type 1/3R/12/4/4X and 16 ga/1.5 mm figures) was seen in search results but WebFetch returned 'Unsupported fetched file content type: application/pdf' — those figures are NOT asserted as page-read.",
+  "specifications": [
+    {
+      "metric": "Protection category",
+      "unit": "IP",
+      "basis": "'Protection category up to IP66' in page introduction",
+      "source": {
+        "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201",
+        "source_id": "cat-rittal-com-pg20231215sch201"
+      },
+      "high": "IP66"
+    },
+    {
+      "metric": "Enclosure material families",
+      "unit": "material",
+      "basis": "'A large variety of small enclosures: polycarbonate enclosure PK, aluminum enclosure GA, small enclosure KX, carbon steel in the terminal box versions with and without a flange, e-boxes, and bus enclosure'",
+      "source": {
+        "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201",
+        "source_id": "cat-rittal-com-pg20231215sch201"
+      },
+      "value": "polycarbonate PK, cast aluminum GA, small enclosure KX, carbon steel, 304/316 stainless steel"
+    }
+  ],
+  "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201",
+  "sources": [
+    {
+      "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201",
+      "source_id": "cat-rittal-com-pg20231215sch201"
+    }
+  ],
+  "notes": "Catalogue page read in full (232 variants listed). The linked JB & WM Specification Guide PDF (with UL/cUL Type 1/3R/12/4/4X and 16 ga/1.5 mm figures) was seen in search results but WebFetch returned 'Unsupported fetched file content type: application/pdf' — those figures are NOT asserted as page-read.",
+  "last_reviewed": "2026-11-24"
+}

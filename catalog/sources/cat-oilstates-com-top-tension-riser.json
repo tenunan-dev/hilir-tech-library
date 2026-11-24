@@ -1,0 +1,32 @@
+{
+  "id": "cat-oilstates-com-top-tension-riser",
+  "name": "Oil States International — Top Tension Riser (TTR)",
+  "url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "Oilstates.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. No numeric ratings printed on HTML product page; linked Merlin R Connector PDF not WebFetch-read. Evidence: https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser"
+}

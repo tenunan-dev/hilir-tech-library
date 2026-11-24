@@ -1,0 +1,53 @@
+{
+  "id": "howden-a-chart-industries-company-howden-periflow-low-flow-swirling-flow-com",
+  "name": "Howden Periflow low-flow swirling-flow compressor",
+  "manufacturer": "howden-a-chart-industries-company-kk-k-ckd-brands",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
+  ],
+  "description": "Page states fully compliant with API, area protection requirements and site specifications; low vibration and pulsation-free operation suited to elevated structures.",
+  "specifications": [
+    {
+      "metric": "Discharge pressure",
+      "unit": "bar",
+      "basis": "Periflow Compressors Performance: Up to 350 bar",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
+      },
+      "value": 350
+    },
+    {
+      "metric": "Capacity flow",
+      "unit": "m3/hr",
+      "basis": "Periflow Compressors Performance: 10 to 20,000 m3/hr capacity flow",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
+      },
+      "low": 10,
+      "high": 20000
+    },
+    {
+      "metric": "Variable speed",
+      "unit": "rpm",
+      "basis": "Periflow Compressors Performance: Variable speed from 1000 to 6000 rpm",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
+      },
+      "low": 1000,
+      "high": 6000
+    }
+  ],
+  "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+  "sources": [
+    {
+      "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+      "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
+    }
+  ],
+  "notes": "Page states fully compliant with API, area protection requirements and site specifications; low vibration and pulsation-free operation suited to elevated structures.",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "fieldcomm-group-wirelesshart-protocol-and-network-elements-wireless-field-de",
+  "name": "WirelessHART (protocol and network elements: wireless field devices, gateways, network manager)",
+  "manufacturer": "fieldcomm-group-specification-owner",
+  "product_type": "ci-system",
+  "equipment": [
+    "ci-wirelesshart-industrial-wireless-mesh-024e52"
+  ],
+  "description": "Page read in full. Defines three network elements (wireless field devices, gateways, network manager) and four messaging modes. Registered-products subpage returned HTTP 403 to WebFetch and is not used as evidence.",
+  "specifications": [
+    {
+      "metric": "WirelessHART mesh installation cost saving vs wired instruments",
+      "unit": "% lower installation costs",
+      "basis": "Quoted on the WirelessHART technology page from the 'WirelessHART User Case Studies - web publishing' brochure: 'WirelessHART offers 30%-60% lower installation costs than adding traditional wired instruments'",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+        "source_id": "cat-fieldcommgroup-org-wirelesshart"
+      },
+      "value": "30-60"
+    },
+    {
+      "metric": "WirelessHART radio technology",
+      "unit": " qualitative",
+      "basis": "As printed on the page: 'By design, WirelessHART using mesh networking technology' and 'a device doesn't have to communicate directly to a gateway, but just forward its message to the next closest device'",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+        "source_id": "cat-fieldcommgroup-org-wirelesshart"
+      },
+      "value": "self-organizing, self-healing mesh; each device can route for other devices"
+    }
+  ],
+  "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+  "sources": [
+    {
+      "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+      "source_id": "cat-fieldcommgroup-org-wirelesshart"
+    }
+  ],
+  "notes": "Page read in full. Defines three network elements (wireless field devices, gateways, network manager) and four messaging modes. Registered-products subpage returned HTTP 403 to WebFetch and is not used as evidence.",
+  "last_reviewed": "2026-11-24"
+}

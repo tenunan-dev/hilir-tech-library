@@ -20,6 +20,16 @@
         "source_id": "en-wikipedia-org-wiki-offshore-drilling"
       },
       "value": "bottom-founded drilling rigs include jackup barges and swamp barges; MODUs include jackups, semi-submersibles, drillships and barges"
+    },
+    {
+      "metric": "turbine rating, WindFloat Atlantic",
+      "unit": "MW",
+      "basis": "Wikipedia Floating offshore wind operational table",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+        "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
+      },
+      "value": 8.4
     }
   ],
   "vendors": [

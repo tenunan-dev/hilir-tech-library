@@ -51,6 +51,27 @@
         "source_id": "jenbacher-com-j920-flextra"
       },
       "value": "10.5 / 11"
+    },
+    {
+      "metric": "Combined range",
+      "unit": "kVA",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.cummins.com/generators/alternators",
+        "source_id": "cummins-com-generators-alternators"
+      },
+      "low": 7.5,
+      "high": 11200
+    },
+    {
+      "metric": "Global coverage",
+      "unit": "countries",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.cummins.com/generators/alternators",
+        "source_id": "cummins-com-generators-alternators"
+      },
+      "value": 116
     }
   ],
   "vendors": [

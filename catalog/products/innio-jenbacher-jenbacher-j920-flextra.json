@@ -11,7 +11,7 @@
     {
       "metric": "Electrical output",
       "unit": "kW @50Hz, ISO 3046/DIN 6271, +5% tolerance, NOx 250/500 mg/Nm3 @5% O2 dry",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
         "source_id": "jenbacher-com-j920-flextra"
@@ -21,7 +21,7 @@
     {
       "metric": "Voltage",
       "unit": "kV @50Hz",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
         "source_id": "jenbacher-com-j920-flextra"
@@ -31,7 +31,7 @@
     {
       "metric": "Electrical efficiency",
       "unit": "% up to",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
         "source_id": "jenbacher-com-j920-flextra"
@@ -41,7 +41,7 @@
     {
       "metric": "Start to full power",
       "unit": "min",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
         "source_id": "jenbacher-com-j920-flextra"

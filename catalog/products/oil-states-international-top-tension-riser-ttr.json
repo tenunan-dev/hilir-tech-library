@@ -1,0 +1,31 @@
+{
+  "id": "oil-states-international-top-tension-riser-ttr",
+  "name": "Top Tension Riser (TTR)",
+  "manufacturer": "oil-states-international",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
+  ],
+  "description": "No numeric ratings printed on HTML product page; linked Merlin R Connector PDF not WebFetch-read.",
+  "specifications": [
+    {
+      "metric": "Connection system",
+      "unit": "n/a",
+      "basis": "Page text: 'The riser joints, stress joint and tension joint all incorporate Oil States’ Merlin® connections, providing high-pressure, metal-to-metal sealing, load capacities exceeding those of the pipe and excellent fatigue properties.'",
+      "source": {
+        "url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser",
+        "source_id": "cat-oilstates-com-top-tension-riser"
+      },
+      "value": "Oil States Merlin connections; high-pressure metal-to-metal sealing; load capacities exceeding those of the pipe"
+    }
+  ],
+  "url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser",
+  "sources": [
+    {
+      "url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser",
+      "source_id": "cat-oilstates-com-top-tension-riser"
+    }
+  ],
+  "notes": "No numeric ratings printed on HTML product page; linked Merlin R Connector PDF not WebFetch-read.",
+  "last_reviewed": "2026-11-24"
+}

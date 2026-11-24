@@ -1,0 +1,32 @@
+{
+  "id": "cat-lewa-com",
+  "name": "LEWA (LEWA Solutions GmbH) — LEWA Chemical Injection Packages (CIP)",
+  "url": "https://www.lewa.com/en/systems/chemical-injection-packages/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "Lewa.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. Skids comply with ASME, API and ATEX as stated; high-alloy materials Incoloy, Monel, titanium and Hastelloy; drives electric/solar, compressed air, gas or diesel. A 4 MB English pr Evidence: https://www.lewa.com/en/systems/chemical-injection-packages/"
+}

@@ -1,6 +1,6 @@
 # INS: Instrumentation and control
 
-496 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering, field-instrumentation, fire-gas-detection, machinery-control, vibration-monitoring, control-valves.
+552 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering, field-instrumentation, fire-gas-detection, machinery-control, vibration-monitoring, control-valves.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -275,6 +275,9 @@
 | [ABB](https://new.abb.com/control-systems/system-800xA) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [ACG Phase 3 ESIA (copy reproduced on Silo.tips)](https://silo.tips/download/55-offshore-platform-production) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [American Petroleum Institute, API RP 14C 8th ed (2017); preview on stdhive.com](https://www.stdhive.com/pdf_preview/api-rp-14c-pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [Ariel Corporation (with Hoerbiger) — Ariel KBH hydrogen reciprocating compressor](https://www.arielcorp.com/compressors/kbh.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Ariel Corporation — Ariel JGN / JGQ separable reciprocating compressor (1-throw and 2-throw)](https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Ariel Corporation — Ariel KBB / KBV large-line reciprocating compressor](https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Arielcorp.Com — Ariel KBH suction pressure](https://www.arielcorp.com/compressors/kbh.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Arielcorp.Com — Compressors manufactured](https://www.arielcorp.com/compressors/compressor-landing-page.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Arielcorp.Com — Large-frame rated power](https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -285,6 +288,7 @@
 | [Baker Hughes](https://www.bakerhughes.com/completions/gas-lift-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Baker Hughes](https://www.bakerhughes.com/subsea/subsea-production-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Baker Hughes — Flexible pipe installation speed advantage](https://www.bakerhughes.com/subsea/flexible-pipe-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Baker Hughes — Gas lift valves (injection-pressure and production-pressure operated; tubing retrievable; wireline retrie](https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Barossa LNG Project](https://www.offshore-technology.com/projects/barossa-offshore-development-project/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Bayu-Undan Gas Field](https://www.offshore-technology.com/projects/bayu-undan/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Bonga Deep-water Project](https://www.offshore-technology.com/projects/bonga/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -295,28 +299,43 @@
 | [Chartindustries.Com — Periflow maximum discharge pressure](https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Chartindustries.Com — Single-stage flow range](https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Cummins Inc.](https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [Cummins Inc. — Cummins diesel generator sets (Quiet Diesel, Standard Diesel, Centum Series)](https://www.cummins.com/en-apac/generators/diesel) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Cummins — Cummins diesel genset rating range](https://www.cummins.com/en-apac/generators/diesel) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Cummins — Cummins natural-gas genset range](https://www.cummins.com/generators) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Dixon Valve & Coupling Company (Dixon Europe) — A9661LG Composite Cryogenic LNG Hose (A9661-S6S6-N-050)](https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [DrillingFormulas.Com (references Applied Drilling Engineering / SPE, Azar, Australian Drilling Manual, Devereux)](https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Dräger](https://www.draeger.com/en-us_u/Products/Flame-Detectors/Flame-5000) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Ecomar Storage Solution FZC LLC / EPC contractor](https://cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/flex031/uploads/pdfjscommunity/original/2X/6/686af929c0ae2573d8470b0b680c568fa0fad42e.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Egina Oil Field and FPSO](https://www.offshore-technology.com/projects/egina-field/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Ekofisk II / Ekofisk hub](https://www.offshore-technology.com/projects/ekofisk/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Emerson (Rosemount)](https://www.emerson.com/en-us/automation/measurement-instrumentation/pressure-transmitters) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Emerson (Rosemount) — Rosemount Synchros Wireless Repeater](https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Emerson (Roxar) — Roxar 2600 Multiphase Flow Meter (MPFM), with Roxar 5726 Multiphase Transmitter](https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Emerson Automation Solutions — Emerson industrial wireless portfolio (gateways, wireless instrumentation, SmartPower mod](https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Endress+Hauser — Cerabar PMP51B pressure transmitter](https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Endress+Hauser — Cerabar PMP71B pressure transmitter](https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [EnggCyclopedia](https://enggcyclopedia.com/2012/02/typical-pfd-instrument-air-supply-system) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [EPCM Holdings](https://epcmholdings.com/fuel-gas-booster-skid-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [EPCM Holdings](https://epcmholdings.com/spm-calm-buoy-system) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [EWFM (E W Fuel Management Ltd) — Chemical Composite Hose (standard and heavy duty)](https://www.ewfm.co.uk/product/chemical-composite-hose) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [FieldComm Group — WirelessHART (protocol and network elements: wireless field devices, gateways, network manager)](https://www.fieldcommgroup.org/technologies/wirelesshart) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Fieldcommgroup.Org — cable / power](https://www.fieldcommgroup.org/technologies/foundation-fieldbus) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Fieldcommgroup.Org — installed base](https://www.fieldcommgroup.org/technologies/hart) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Fieldcommgroup.Org — RF physical layer](https://www.fieldcommgroup.org/hart-specifications) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Fieldcommgroup.Org — wireless mesh topology](https://www.fieldcommgroup.org/technologies/wirelesshart) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Fisher (Emerson)](https://www.emerson.com/en-us/automation/control-and-safety-systems/control-valves/fisher) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [FlareTech](https://flaretech.com) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Fuji Koatsu Flexible Hose Co., Ltd. — Meiji Flex Composite Hose - Cryogenic Hose, series 0933 / 0940 / 0957](https://fujikoatsu.jp/en/pages/79) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Gassó Equipments S.A. — Gassoflex LNG cryogenic hose](https://gasso.com/en/producto/lng) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [GE Vernova / Baker Hughes](https://www.ge.com/oil-and-gas/compressors) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Gumusut-Kakap Deepwater Project](https://www.offshore-technology.com/projects/gumusut-kakap-deepwater-oil-gas/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Honeywell](https://process.honeywell.com/us/en/solutions/experion-pks) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Honeywell Analytics](https://www.honeywellanalytics.com/en/products/gas-detectors) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Honeywell — Safety Manager (Safety Instrumented System, part of Experion PKS)](https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Honeywell — Viewing Heads S70X/S80X (S702, S702PF, S706, S706PF, S802, S806)](https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Honeywellprocess.Com — Honeywell installed base - refineries](https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Howden (a Chart Industries company) — Howden Periflow low-flow swirling-flow compressor](https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Howden (a Chart Industries company); brands Kühnle, Kopp & Kausch (KK&K) and Českomoravská-Kolben-Daněk (CKD) — Howden /](https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Howden — Screw compressors in FLNG service](https://www.howden.com/en-gb/products/compressors) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Ichthys LNG Project](https://www.offshore-technology.com/projects/ichthys-field/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [INNIO / Wartsila](https://www.wartsila.com/marine/products/engines-and-generating-sets) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -326,13 +345,21 @@
 | [INPEX Ichthys Pty Ltd / NOPSEMA](https://www.inpex.com.au/media/rbmjbgrj/ichthys-offshore-facilities-operation-ep-factsheet-1.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Johan Sverdrup power-from-shore (Equinor)](https://www.equinor.com/energy/electrification) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [John Zink (Koch Engineered Solutions)](https://www.johnzink.com/products/flare-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [John Zink Company, LLC (Koch Engineered Solutions) — John Zink Flare Gas Recovery (FGR) systems](https://www.johnzink.com/products/flare-gas-recovery) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [John Zink Company, LLC (Koch Engineered Solutions) — John Zink LRGO Multi-Point Ground Flare](https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [John Zink Company, LLC (Koch Engineered Solutions) — John Zink pressure-assisted flare tips (Kaldair Indair, Kaldair Mul](https://www.johnzink.com/products/flare-systems/pressure-assisted-flare) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [John Zink Company, LLC (Koch Engineered Solutions) — John Zink STELLA Flare Ignition System](https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [John Zink Company, LLC (Koch Engineered Solutions) — John Zink ZTOF Enclosed Flare](https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [John Zink — FGR application scope](https://www.johnzink.com/products/flare-gas-recovery) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [John Zink — Flare destruction efficiency (LRGO multi-point gro](https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Journal of Petroleum Technology (SPE)](https://jpt.spe.org/mastering-produced-water-management-in-deepwater-gom-25-years-of-insights-part-2) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Kebabangan Gas Field / Northern Hub Project](https://www.offshore-technology.com/projects/kebabangan-field/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Kikeh FPSO Development](https://www.offshore-technology.com/projects/kikeh-floating-production-storage-offloading-development/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [LEWA (LEWA Solutions GmbH) — LEWA Chemical Injection Packages (CIP)](https://www.lewa.com/en/systems/chemical-injection-packages/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [LONGi Green Energy Technology Co., Ltd. — LONGi Hi-MO 9 PV modules (LR7-72HYD, LR8-66HYD; LR7-72HYD-635M to 660M)](https://www.longi.com/en/products/modules/hi-mo-9/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [LONGi — LONGi Hi-MO 9 module maximum power](https://www.longi.com/en/products/modules/hi-mo-9/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [MDPI JMSE](https://www.mdpi.com/2077-1312/9/11/1179) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [Milton Roy (Ingersoll Rand) — MAXROY Series Industrial Grade Metering Pump](https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Montanuniversität Leoben (review thesis)](https://pure.unileoben.ac.at/ws/portalfiles/portal/1876337/AC13373932n01vt.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [MSA](https://www.msasafety.com/fixed-gas-and-flame-detection/gas-detectors/ultima-x5000-gas-monitor) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Mtu Solutions.Com — MTU diesel genset portfolio ceiling](https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -340,22 +367,42 @@
 | [Nexans — Dynamic cable voltage (subsea compression power)](https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [NOAA](https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [NOAA Office of Ocean Exploration and Research; graphic originally by Oil States Industries, Inc.](https://commons.wikimedia.org/wiki/File:Types_of_offshore_oil_and_gas_structures.jpg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [NOV (National Oilwell Varco) — DuraFlex composite spoolable pipe, Series 500](https://www.nov.com/products/duraflex) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [NOV (National Oilwell Varco) — Red Thread IIA Fiberglass Pipe (primary and secondary)](https://www.nov.com/products/red-thread-iia-fiberglass-pipe) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Ocean Systems Engineering (training material)](https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [Oceaneering International — Subsea umbilical product family (steel tube, thermoplastic hose, power, IWOCS), M Series jun](https://www.oceaneering.com/subsea-distribution-solutions/products/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Offshore Magazine (Barrett, Cheyne, Molloy — Expro Group)](https://www.offshore-mag.com/subsea/article/16759665/malampaya-development-project-presented-unique-challenges) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Offshore Magazine; image credited to CNOOC Ltd](https://www.offshore-mag.com/subsea/article/16757093/liwan-marks-first-ever-deepwater-gas-development-offshore-china) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Offshore Technology (GlobalData)](https://www.offshore-technology.com/projects/ormen-lange-field/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Offshore Technology (GlobalData)](https://www.offshore-technology.com/projects/troll/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Offshore Technology (GlobalData)](https://www.offshore-technology.com/projects/perdido/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Offshore Technology (GlobalData)](https://www.offshore-technology.com/projects/malampaya/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Oil States International — Top Tension Riser (TTR)](https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [OneSubsea (SLB) — Subsea junction box](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [OneSubsea (SLB) — Subsea trees (horizontal, wellhead vertical, tubing head spool vertical)](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Orcina](https://www.orcina.com/wp-content/uploads/examples/a/a05/A05%20Steel%20catenary%20riser%20systems.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Petronas Bintulu LNG Complex (incl. LNG Train 9)](https://www.offshore-technology.com/projects/petronas-bintulu-lng-complex-sarawak/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [PETRONAS PFLNG DUA (PFLNG-2, Rotan/Buluh gas fields)](https://www.offshore-technology.com/projects/pflng-2-rotan-flng-project-sabah/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Plascorp Pty Ltd — Composite hose range (petrol, vapour, hot bitumen, chemical; Codes 1000/901/1003/AVA/VRH/966/951/952/](https://www.plascorp.com.au/products/composite-hoses) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Quail Tools (secondary aggregator; values stated as taken from OEM manuals) — Annular / Single Ram / Double Ram BOP spec](https://www.quailtools.com/BOPSpecSheets.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Rittal — JB Junction Boxes and terminal boxes (carbon steel, 304/316 stainless steel), PK/GA/KX enclosure families](https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Rolls-Royce Power Systems AG (mtu) — mtu diesel generator sets - Series 4000, 2000, 1600, 0080-0225](https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Scarborough Gas Project and Pluto Train 2](https://www.offshore-technology.com/projects/scarborough-gas-field/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Schneider Electric Data Center Science Center (with Wärtsilä)](https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [SCM (Solutions for Energy) — SEA-VI 6-100 Wet Mate Connector](https://www.scmlemans.com/product/sea-vi-6-100-serie) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Shah Deniz Stage Two (Full Field Development)](https://www.offshore-technology.com/projects/shah-deniz-stage-2-caspian-sea/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Sharda Industrial Corporation — COMPOHOSE LNG cryogenic composite hose (SNS type)](https://composite-hose.com/cryogenic/lng) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Shell Australia Pty Ltd / NOPSEMA](https://docs.nopsema.gov.au/A680618) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [Shijiazhuang Ruker Oilfield Technology Co., Ltd. — Choke & kill line hose (full bore), JLG-FB series](https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Siemens Energy (incl. ex-Dresser-Rand)](https://www.siemens-energy.com/global/en/home/products-services/product-offering/compressors.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Siemens — SCALANCE S Industrial Security Appliances (SCALANCE SC-600, S615/S605, SC622-2C, SC626-2C)](https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Siemens.Com — Siemens PCS 7 version / cybersecurity](https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [SLB (Cameron product family) — 25,000-psi Ram-Type BOP](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [SLB (Cameron product family) — DL High-Pressure Annular BOP](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [SLB (Cameron product family) — U Surface Ram-Type BOP](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [SLB (Cameron product family) — Well Test Separators (two-, three-, or four-phase; horizontal or vertical)](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [SLB (Cameron Wellhead Systems) — IC Conventional Wellhead System](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [SLB (M-I SWACO product line) — 3-Phase Separator (managed-pressure-drilling / well-test vessel)](https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [SLB OneSubsea](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [SLB OneSubsea](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-separation) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture)](https://www.onesubsea.slb.com/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -366,22 +413,31 @@
 | [SLB — Steeltube umbilical service content](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [SLB — Subsea separation control](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [SLB — Wet connector sealing architecture](https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [SMA Solar Technology AG — SMA PV and solar inverters - Sunny Central UP, Sunny Highpower PEAK3, Sunny Tripower 125 / X 6](https://www.sma.de/en/products/solar-inverters) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Snøhvit Gas Field / Hammerfest LNG](https://www.offshore-technology.com/projects/snohvit-field/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [SolarEdge](https://www.solaredge.com/products) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Sungrow Power Supply Co., Ltd. — Sungrow floating PV systems - TS30M truss structure, PT60 pontoon, Floating Barge](https://www.sungrowpower.com/en/floating-pv-system) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Sungrow — Sungrow FPV global installed capacity](https://www.sungrowpower.com/en/floating-pv-system) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Sungrow — Sungrow product categories](https://en.sungrowpower.com/products) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Swagelok Company — Swagelok fittings - tube fittings and adapters, VCR/VCO face seal fittings, flange adapters, pipe fit](https://products.swagelok.com/en/all-products/fittings/c/100) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Swagelok — Full-Flow Quick-Connects, QF series (QF4, QF8, QF12, QF16)](https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Tangguh LNG Project](https://www.offshore-technology.com/projects/tangguh/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [TE Connectivity (SEACON) — SEACON HydraElectric Wet-Mate Connectors (incl. HydraElectric Ethernet Connector)](https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [TechnipFMC](https://www.technipfmc.com/media/rakf034t/intervention-workover-control-systems-brochure_digital.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [TechnipFMC](https://www.technipfmc.com/media/l11loka4/technipfmc-umbilicals-brochure.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [TechnipFMC — Flexible pipe high-pressure resistance](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [TechnipFMC — Flexible pipes (unbonded flexible pipe)](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [TechnipFMC — Rigid pipeline water depth capability](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [TechnipFMC — Standard pumps and complete pump skid systems (surface production)](https://www.technipfmc.com/en/what-we-do/surface/production/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [TechnipFMC — TechnipFMC subsea tree pressure rating](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [TechnipFMC — Umbilical systems track record](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Teledyne Marine (Impulse / ODI) — Impulse / Teledyne Wet Mate Series underwater pluggable connectors (IE2-BC, IERD2-BC, ](https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Trina Solar](https://www.trinasolar.com/en/products) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [U.S. Nuclear Regulatory Commission / EPRI](https://www.nrc.gov/docs/ml0037/ml003767039.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [UPES (University of Petroleum and Energy Studies) institutional repository](https://dr.ddn.upes.ac.in/server/api/core/bitstreams/59de0bef-b4f8-4b11-933c-f2f5d744158d/content) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [US Government Publishing Office / eCFR (BSEE)](https://www.ecfr.gov/current/title-30/section-250.855) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [US patent by Melvyn F. Whitby and John T. Mangan (Cameron); copy on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cameron_EVO_BOP_Patent_(Stack).jpg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Victaulic Company — Victaulic mechanical pipe joining, fittings, flow control and expansion joints](https://www.victaulic.com/products/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Wikimedia Commons; author 'Con-struct' (2012)](https://commons.wikimedia.org/wiki/File:Pump_with_tank_pid_en.svg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Wikimedia Commons; author 'Ub' (2001)](https://commons.wikimedia.org/wiki/File:P%26ID.JPG) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Wikimedia Commons; author Egmason (2011)](https://commons.wikimedia.org/wiki/File:Blowout_Preventer.svg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |

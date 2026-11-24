@@ -17,7 +17,7 @@
       "basis": "Emerson Roxar 2600 product page; page read",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
-        "source_id": "emerson-com-products-roxar-2600-multiphase-flow-meter"
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
       "value": "0-100% GVF and 0-100% WLR; 6 sizes; duplex stainless steel to Inconel"
     },
@@ -30,6 +30,36 @@
         "source_id": "technipfmc-com-surface-production"
       },
       "value": "0-100"
+    },
+    {
+      "metric": "GVF / WLR",
+      "unit": "%",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      },
+      "value": "0-100% / 0-100%"
+    },
+    {
+      "metric": "sizes",
+      "unit": "in",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      },
+      "value": "6 sizes; 1.5-8 in"
+    },
+    {
+      "metric": "design pressure",
+      "unit": "psi",
+      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      },
+      "value": "3,750 psi ANSI / 5,000 psi hub"
     }
   ],
   "vendors": [
@@ -41,7 +71,7 @@
   "sources": [
     {
       "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
-      "source_id": "emerson-com-products-roxar-2600-multiphase-flow-meter"
+      "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
     },
     {
       "url": "https://www.technipfmc.com/en/what-we-do/surface/production",

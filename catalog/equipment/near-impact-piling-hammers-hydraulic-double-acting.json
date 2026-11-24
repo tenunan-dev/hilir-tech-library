@@ -71,6 +71,26 @@
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
       "value": "30 kJ to >7,500 kJ; >5.5 million piles installed; >97% availability"
+    },
+    {
+      "metric": "energy range (spread)",
+      "unit": "kJ",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "100-6,250"
+    },
+    {
+      "metric": "MHU6000W",
+      "unit": "kJ / L/min / bar / bl/min",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "200-6,250 kJ; 12,800 L/min; 210 bar; 30 bl/min"
     }
   ],
   "vendors": [

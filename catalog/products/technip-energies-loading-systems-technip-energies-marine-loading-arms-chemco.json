@@ -11,7 +11,7 @@
     {
       "metric": "installed loading arms",
       "unit": "count (+15K stated)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems",
         "source_id": "ten-com-markets-loading-systems"
@@ -21,7 +21,7 @@
     {
       "metric": "patents",
       "unit": "count",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems",
         "source_id": "ten-com-markets-loading-systems"

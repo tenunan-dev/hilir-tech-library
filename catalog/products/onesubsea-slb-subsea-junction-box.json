@@ -1,0 +1,61 @@
+{
+  "id": "onesubsea-slb-subsea-junction-box",
+  "name": "Subsea junction box",
+  "manufacturer": "onesubsea-slb-aker-solutions-jv",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-subsea-umbilicals-electro-hydraulic-electrical-fibre-optic-ste"
+  ],
+  "description": "Printed figures are callouts on the product page.",
+  "specifications": [
+    {
+      "metric": "Power rating per connection",
+      "unit": "kV",
+      "basis": "Benefits callout: '66kV / Power rating per connection'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
+        "source_id": "cat-onesubsea-slb-com-subsea-junction-box"
+      },
+      "value": 66
+    },
+    {
+      "metric": "Maintenance-free life",
+      "unit": "yr",
+      "basis": "Benefits callout: '30 yrs / Maintenance-free life'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
+        "source_id": "cat-onesubsea-slb-com-subsea-junction-box"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Water depth",
+      "unit": "m",
+      "basis": "Benefits callout: '↓ 1500m / Water depth'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
+        "source_id": "cat-onesubsea-slb-com-subsea-junction-box"
+      },
+      "high": 1500
+    },
+    {
+      "metric": "Mating",
+      "unit": "n/a",
+      "basis": "Overview: 'Subsea junction boxes offer versatile, wet-mate-only cable connections on the seafloor.'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
+        "source_id": "cat-onesubsea-slb-com-subsea-junction-box"
+      },
+      "value": "Wet-mate-only cable connections; seabed-resident, reconnection without retrieval"
+    }
+  ],
+  "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
+      "source_id": "cat-onesubsea-slb-com-subsea-junction-box"
+    }
+  ],
+  "notes": "Printed figures are callouts on the product page.",
+  "last_reviewed": "2026-11-24"
+}

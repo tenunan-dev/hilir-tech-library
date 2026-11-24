@@ -68,6 +68,129 @@
       },
       "unit": "qualitative",
       "value": "pressure parts and catalyst housings"
+    },
+    {
+      "metric": "Gas turbine range",
+      "basis": "Product bullet 25-60 MW gas turbine-generators; Technical Data 'Gas Turbine Size 25 MW-60 MW'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "MW",
+      "low": 25,
+      "high": 60
+    },
+    {
+      "metric": "Turbine exhaust gas flow",
+      "basis": "Product bullets and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "lb/hr",
+      "low": 500000,
+      "high": 1000000
+    },
+    {
+      "metric": "Steam generation",
+      "basis": "Product bullet: Steam generation to 500,000+ lbs/hr",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "lb/hr (500,000+)",
+      "value": 500000
+    },
+    {
+      "metric": "Design pressure",
+      "basis": "Product bullet and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "psig (up to)",
+      "value": 1800
+    },
+    {
+      "metric": "Superheater outlet temperature",
+      "basis": "Product bullet and Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "deg F",
+      "value": 1050
+    },
+    {
+      "metric": "NOx with SCR",
+      "basis": "Product bullet",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "ppm NOx (less than, available)",
+      "value": 2
+    },
+    {
+      "metric": "Construction",
+      "basis": "Product bullets, Technical Data table and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg",
+        "source_id": "cleaverbrooks-com-product-modular-hrsg"
+      },
+      "unit": "construction",
+      "value": "Vertical tube natural circulation with steam drum; field erected; single or multiple pressure levels"
+    },
+    {
+      "metric": "Exhaust gas flow",
+      "basis": "Product bullet and Technical Data table 'Exhaust Gas Flows (lb/hr) Up to 1,000,000'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "lb/hr (up to)",
+      "value": 1000000
+    },
+    {
+      "metric": "Steam generation",
+      "basis": "Product bullet 10,000-500,000 lb/hr; Technical Data 'Steam Flows Up to 500,000'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "lb/hr",
+      "low": 10000,
+      "high": 500000
+    },
+    {
+      "metric": "Design pressure",
+      "basis": "Product bullet: Design pressure up to 1,800 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "psig (up to)",
+      "value": 1800
+    },
+    {
+      "metric": "Steam temperature",
+      "basis": "Product bullet and Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "deg F (up to)",
+      "value": 1050
+    },
+    {
+      "metric": "Duct firing temperature",
+      "basis": "Technical Data table; membrane/water-cooled furnace allows firing up to 2800 F without high-maintenance refractory",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series",
+        "source_id": "cleaverbrooks-com-product-max-fire-series"
+      },
+      "unit": "deg F (up to)",
+      "value": 2800
     }
   ],
   "vendor_models": [

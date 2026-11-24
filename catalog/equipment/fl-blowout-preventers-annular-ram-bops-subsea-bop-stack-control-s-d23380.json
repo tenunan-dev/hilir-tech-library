@@ -30,6 +30,131 @@
         "source_id": "sys-slb-com-pressure-control-equipment"
       },
       "value": "can shear hardbanding on tool joints"
+    },
+    {
+      "metric": "Bore size",
+      "unit": "in",
+      "basis": "Specifications | Bore sizes | 7 1/16 in to 21 1/4 in",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
+        "source_id": "cat-slb-com-dl-annular-bop"
+      },
+      "low": "7 1/16",
+      "high": "21 1/4"
+    },
+    {
+      "metric": "Working pressure",
+      "unit": "psi",
+      "basis": "Specifications | Working pressures | 2,000 to 10,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
+        "source_id": "cat-slb-com-dl-annular-bop"
+      },
+      "low": "2,000",
+      "high": "10,000"
+    },
+    {
+      "metric": "Body styles",
+      "unit": "-",
+      "basis": "Specifications | Body styles | Single and dual",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
+        "source_id": "cat-slb-com-dl-annular-bop"
+      },
+      "value": "Single and dual"
+    },
+    {
+      "metric": "Optional gas bleed port",
+      "unit": "in",
+      "basis": "Optional 3-in gas bleed port that runs from the ID to the OD",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
+        "source_id": "cat-slb-com-dl-annular-bop"
+      },
+      "value": "3"
+    },
+    {
+      "metric": "Packer elastomer",
+      "unit": "-",
+      "basis": "Specifications | Packer | High-performance CAMULAR annular elastomer technology",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
+        "source_id": "cat-slb-com-dl-annular-bop"
+      },
+      "value": "High-performance CAMULAR annular elastomer technology"
+    },
+    {
+      "metric": "Bore size / working pressure (7 1/16, 11, 13 5/8 in)",
+      "unit": "psi",
+      "basis": "Bore sizes and working pressures | 7 1/16, 11, and 13 5/8 in: 3,000 to 15,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "low": "3,000",
+      "high": "15,000"
+    },
+    {
+      "metric": "Bore size / working pressure (16 3/4 in)",
+      "unit": "psi",
+      "basis": "Bore sizes and working pressures | 16 3/4 in: 3,000 to 10,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "low": "3,000",
+      "high": "10,000"
+    },
+    {
+      "metric": "Bore size / working pressure (20 3/4 in)",
+      "unit": "psi",
+      "basis": "Bore sizes and working pressures | 20 3/4 in: 3,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "value": "3,000"
+    },
+    {
+      "metric": "Bore size / working pressure (21 1/4 in)",
+      "unit": "psi",
+      "basis": "Bore sizes and working pressures | 21 1/4 in: 2,000, 5000, and 10,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "low": "2,000",
+      "high": "10,000"
+    },
+    {
+      "metric": "Bore size / working pressure (26 3/4 in)",
+      "unit": "psi",
+      "basis": "Bore sizes and working pressures | 26 3/4 in: 3,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "value": "3,000"
+    },
+    {
+      "metric": "Body styles",
+      "unit": "-",
+      "basis": "Specifications | Body styles | Single, double, triple, or quad",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "value": "Single, double, triple, or quad"
+    },
+    {
+      "metric": "Lock types",
+      "unit": "-",
+      "basis": "Specifications | Lock types | Standard: Manual Optional: Hydraulic",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "value": "Standard: Manual; Optional: Hydraulic"
     }
   ],
   "vendors": [

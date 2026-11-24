@@ -41,6 +41,80 @@
         "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
       },
       "value": "Exhaust 250-600 C; chilled water -5 to 35 C; hot water up to 110 C"
+    },
+    {
+      "metric": "Inlet diameter",
+      "unit": "inch",
+      "basis": "Product page Design section",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "low": 2,
+      "high": 12
+    },
+    {
+      "metric": "Casing diameter",
+      "unit": "inch",
+      "basis": "Product page Design section",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "low": 8,
+      "high": 24
+    },
+    {
+      "metric": "Standard design temperature",
+      "unit": "deg C",
+      "basis": "Product page Design section",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Enhanced noise attenuation",
+      "unit": "dB",
+      "basis": "Product page: 'Typical acoustic performance (no guaranteed noise attenuation)'",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/",
+        "source_id": "burgessmanning-com-preset-vent-silencers"
+      },
+      "high": "50+"
+    },
+    {
+      "metric": "Capacity",
+      "unit": "TR (table); header states 30-3000 TR",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+        "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
+      },
+      "low": 50,
+      "high": 3000
+    },
+    {
+      "metric": "Cooling COP",
+      "unit": "up to",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+        "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
+      },
+      "value": 1.53
+    },
+    {
+      "metric": "Exhaust temperature",
+      "unit": "deg C",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
+        "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
+      },
+      "low": 250,
+      "high": 600
     }
   ],
   "vendors": [

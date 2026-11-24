@@ -11,7 +11,7 @@
     {
       "metric": "Tandem lift",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
@@ -21,7 +21,7 @@
     {
       "metric": "Per-crane main hook at 40 m",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
@@ -31,7 +31,7 @@
     {
       "metric": "Ballast transfer rate",
       "unit": "t/h",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
@@ -41,7 +41,7 @@
     {
       "metric": "J-lay tension (friction clamps)",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"

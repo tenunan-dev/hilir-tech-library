@@ -1,7 +1,7 @@
 {
   "id": "ariel-corporation-ariel-kbb-kbv-reciprocating-compressor-e6290f",
   "name": "Ariel KBB/KBV reciprocating compressor",
-  "manufacturer": "ariel-corporation",
+  "manufacturer": "ariel-corporation-with-hoerbiger",
   "product_type": "fl-system",
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
@@ -11,10 +11,10 @@
     {
       "metric": "Rated power",
       "unit": "BHP",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
-        "source_id": "sys-arielcorp-com-kbb-kbv-html"
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
       "low": 6668,
       "high": 10000
@@ -22,20 +22,20 @@
     {
       "metric": "Total rod load",
       "unit": "lbf",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
-        "source_id": "sys-arielcorp-com-kbb-kbv-html"
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
       "value": 190000
     },
     {
       "metric": "Max RPM",
       "unit": "rpm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
-        "source_id": "sys-arielcorp-com-kbb-kbv-html"
+        "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
       "low": 750,
       "high": 900
@@ -45,7 +45,7 @@
   "sources": [
     {
       "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
-      "source_id": "sys-arielcorp-com-kbb-kbv-html"
+      "source_id": "cat-arielcorp-com-kbb-kbv-html"
     }
   ],
   "notes": "Pipeline transmission and high-pressure injection",

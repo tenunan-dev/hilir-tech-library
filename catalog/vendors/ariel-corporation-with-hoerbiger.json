@@ -1,0 +1,24 @@
+{
+  "id": "ariel-corporation-with-hoerbiger",
+  "name": "Ariel Corporation (with Hoerbiger)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Ariel Corporation (with Hoerbiger) is named on a product catalog page read in the 2026-11-24 sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.arielcorp.com/compressors/kbh.html",
+      "source_id": "cat-arielcorp-com-kbh-html"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Minimal record created from a vendor catalog page."
+}

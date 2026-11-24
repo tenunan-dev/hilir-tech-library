@@ -11,7 +11,7 @@
     {
       "metric": "Axle load max",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
         "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
@@ -21,7 +21,7 @@
     {
       "metric": "Steering",
       "unit": "deg",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
         "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
@@ -31,7 +31,7 @@
     {
       "metric": "Bending moment",
       "unit": "kNm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
         "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"

@@ -86,6 +86,76 @@
       "unit": "%",
       "low": 47,
       "high": 59
+    },
+    {
+      "metric": "Flame holder models",
+      "basis": "Product page 'Model Options' section with descriptions of each",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+        "source_id": "johnzink-com-powerburners-duct-burner"
+      },
+      "unit": "model designations",
+      "value": "LDRW (Low Draft Reverse Wing), VC (V-Cone Tip Wing), Coen Castings"
+    },
+    {
+      "metric": "Application",
+      "basis": "Product page Overview and Features",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+        "source_id": "johnzink-com-powerburners-duct-burner"
+      },
+      "unit": "application",
+      "value": "HRSG supplementary firing, combined cycle, dual cycle, cogeneration"
+    },
+    {
+      "metric": "Hydrogen readiness",
+      "basis": "Product page Feature: 'Hydrogen-Ready Capabilities'",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+        "source_id": "johnzink-com-powerburners-duct-burner"
+      },
+      "unit": "fuel capability",
+      "value": "Hydrogen and alternative fuels"
+    },
+    {
+      "metric": "Integrated equipment",
+      "basis": "Product page Features",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner",
+        "source_id": "johnzink-com-powerburners-duct-burner"
+      },
+      "unit": "scope of supply",
+      "value": "Proprietary igniters, flame scanners, optional instrumentation packages"
+    },
+    {
+      "metric": "Support design",
+      "basis": "Power Burners page teg+ section: reduces installation time and material costs",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+        "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      },
+      "unit": "design feature",
+      "value": "Self-supporting; eliminates internal fixed structural support"
+    },
+    {
+      "metric": "Flame stabilizer",
+      "basis": "Power Burners page teg+ section; nozzle design uses pilot flame propagation drilling and varying orifice sizes",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+        "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      },
+      "unit": "design feature",
+      "value": "Optimized drilled wing orifice pattern producing short, compact flame"
+    },
+    {
+      "metric": "Application",
+      "basis": "Power Burners page Duct burners and teg+ sections",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
+        "source_id": "zeeco-com-burners-power-burners-hslang-en"
+      },
+      "unit": "application",
+      "value": "HRSG and Turbine Exhaust Gas (TEG) supplementary firing"
     }
   ],
   "vendors": [

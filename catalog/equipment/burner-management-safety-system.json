@@ -9,7 +9,7 @@
       "basis": "Honeywell S70X/S80X UV models: UVTron sensor, 185-260 nm, peak 210 nm",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
-        "source_id": "honeywell-flame-scanners"
+        "source_id": "cat-process-honeywell-com-viewing-heads-s70x-s80x"
       },
       "unit": "nm",
       "low": 185,
@@ -20,7 +20,7 @@
       "basis": "Honeywell IR models: germanium detector, 950-1,710 nm",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
-        "source_id": "honeywell-flame-scanners"
+        "source_id": "cat-process-honeywell-com-viewing-heads-s70x-s80x"
       },
       "unit": "nm",
       "low": 950,
@@ -31,7 +31,7 @@
       "basis": "S702/S802 and S706/S806 viewing-head families are SIL 3 capable",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
-        "source_id": "honeywell-flame-scanners"
+        "source_id": "cat-process-honeywell-com-viewing-heads-s70x-s80x"
       },
       "unit": "SIL",
       "value": 3
@@ -41,7 +41,7 @@
       "basis": "Standard S70X/S80X models rated -40 to +85 C",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
-        "source_id": "honeywell-flame-scanners"
+        "source_id": "cat-process-honeywell-com-viewing-heads-s70x-s80x"
       },
       "unit": "degC",
       "low": -40,
@@ -52,7 +52,7 @@
       "basis": "10,000-50,000 hours depending on conditions, with monthly sensitivity check recommended",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
-        "source_id": "honeywell-flame-scanners"
+        "source_id": "cat-process-honeywell-com-viewing-heads-s70x-s80x"
       },
       "unit": "hours",
       "low": 10000,
@@ -63,7 +63,7 @@
       "basis": "IR models 1 degree, UV models 5 degrees",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
-        "source_id": "honeywell-flame-scanners"
+        "source_id": "cat-process-honeywell-com-viewing-heads-s70x-s80x"
       },
       "unit": "degrees",
       "low": 1,
@@ -78,6 +78,66 @@
       },
       "unit": "qualitative",
       "value": "NFPA 85/86, IRI, ISA 84, FM, Gastec"
+    },
+    {
+      "metric": "Platform types",
+      "basis": "Product page: 'Burner Management Systems are implemented in two general types of platforms'; DCS most common for utilities",
+      "source": {
+        "url": "https://www.forneycorp.com/burner-management-systems",
+        "source_id": "forneycorp-com-burner-management-systems"
+      },
+      "unit": "platform",
+      "value": "DCS (plant-wide Distributed Control System) and PLC"
+    },
+    {
+      "metric": "Engineering scope",
+      "basis": "Product page DCS Platform and PLC Platform sections",
+      "source": {
+        "url": "https://www.forneycorp.com/burner-management-systems",
+        "source_id": "forneycorp-com-burner-management-systems"
+      },
+      "unit": "scope",
+      "value": "Forney designs and engineers BMS logic; physical programming at Forney or DCS supplier location; PLC programming and Factory Acceptance Test at Forney facility"
+    },
+    {
+      "metric": "Display",
+      "basis": "Boiler Controls catalog listing: 'comes with a standard 7\" touchscreen'",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls",
+        "source_id": "cleaverbrooks-com-controls-boiler-controls"
+      },
+      "unit": "HMI",
+      "value": "Standard 7-inch touchscreen"
+    },
+    {
+      "metric": "Positioning",
+      "basis": "Boiler Controls catalog listing",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls",
+        "source_id": "cleaverbrooks-com-controls-boiler-controls"
+      },
+      "unit": "product class",
+      "value": "High-performance industrial and commercial burner control system"
+    },
+    {
+      "metric": "Components",
+      "basis": "Industrial Burners page Burner management systems section",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en",
+        "source_id": "zeeco-com-products-burners-hslang-en"
+      },
+      "unit": "scope of supply",
+      "value": "PLCs, HMIs, complex relay logic, transmitters for all measurements"
+    },
+    {
+      "metric": "Panel certifications",
+      "basis": "Industrial Burners page Burner management systems section",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en",
+        "source_id": "zeeco-com-products-burners-hslang-en"
+      },
+      "unit": "certifications",
+      "value": "UL certified panel shop; ATEX, CSA and UL certifications; IEC and NEC standards"
     }
   ],
   "vendors": [
@@ -91,7 +151,7 @@
     },
     {
       "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
-      "source_id": "honeywell-flame-scanners"
+      "source_id": "cat-process-honeywell-com-viewing-heads-s70x-s80x"
     }
   ],
   "last_reviewed": "2026-11-24",

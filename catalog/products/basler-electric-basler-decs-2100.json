@@ -11,7 +11,7 @@
     {
       "metric": "Excitation current",
       "unit": "A DC up to",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system",
         "source_id": "basler-com-product-decs-2100-digital-excitation-control-system"
@@ -21,7 +21,7 @@
     {
       "metric": "Optional",
       "unit": "qualitative",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system",
         "source_id": "basler-com-product-decs-2100-digital-excitation-control-system"

@@ -11,10 +11,10 @@
     {
       "metric": "Single-stage flow envelope",
       "unit": "m3/h",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
-        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 1500,
       "high": 600000
@@ -22,10 +22,10 @@
     {
       "metric": "Multistage flow envelope",
       "unit": "m3/h",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
-        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 400,
       "high": 200000
@@ -33,10 +33,10 @@
     {
       "metric": "Pressure ratio",
       "unit": "ratio depending on series",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
-        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 3.5,
       "high": 10
@@ -44,10 +44,10 @@
     {
       "metric": "CKD discharge pressure",
       "unit": "MPa",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
-        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "value": 20
     }
@@ -56,7 +56,7 @@
   "sources": [
     {
       "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
-      "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+      "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
     }
   ],
   "notes": "Oil & gas, petrochemical, SAGD, CO2 capture applications listed",

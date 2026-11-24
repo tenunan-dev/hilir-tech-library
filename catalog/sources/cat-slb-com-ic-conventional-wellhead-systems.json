@@ -1,0 +1,32 @@
+{
+  "id": "cat-slb-com-ic-conventional-wellhead-systems",
+  "name": "SLB (Cameron Wellhead Systems) — IC Conventional Wellhead System",
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "SLB",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. Straight-bore design with 45-degree load shoulder; casing head housings IC-2, IC-2-BP, IC-2-L; tubing spools C, MTBS, CD-2. Surface overview brochure linked but not fetched. Evidence: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
+}

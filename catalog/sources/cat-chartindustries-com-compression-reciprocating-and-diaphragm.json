@@ -1,0 +1,32 @@
+{
+  "id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm",
+  "name": "Howden (a Chart Industries company) — Howden Periflow low-flow swirling-flow compressor",
+  "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "Chartindustries.Com",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. Page states fully compliant with API, area protection requirements and site specifications; low vibration and pulsation-free operation suited to elevated structures. Evidence: https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "victaulic-company-victaulic-mechanical-pipe-joining-fittings-flow-control-an",
+  "name": "Victaulic mechanical pipe joining, fittings, flow control and expansion joints",
+  "manufacturer": "victaulic-company",
+  "product_type": "cf-system",
+  "equipment": [
+    "cf-process-gas-transmission-and-power-piping-codes-and-pipe-class"
+  ],
+  "description": "Markets include Oil & Gas, Energy, Infrastructure; systems listed include Dynamic Movement Joints, Advanced Groove System, StrengThin 100 for thin wall stainless, Vic-Press for Schedule 10S stainless, and High Performance System for Steam & Chemical Service. Numeric pressure ratings not printed on the page read; product specification sheets linked but not read.",
+  "specifications": [
+    {
+      "metric": "Pipe joining product families",
+      "unit": "families (as printed)",
+      "basis": "Pipe Joining category listing on the Products page",
+      "source": {
+        "url": "https://www.victaulic.com/products/",
+        "source_id": "cat-victaulic-com"
+      },
+      "value": "Rigid / Flexible / Transition / Reducing / Outlet / Plain End / Flange Adapters / Expansion Joints / Press"
+    },
+    {
+      "metric": "Fitting materials",
+      "unit": "materials (as printed)",
+      "basis": "Fittings section: hundreds of pipe fittings and a range of adapters and outlets in carbon steel, stainless steel, copper, HDPE, PVC/CPVC and other pipe materials",
+      "source": {
+        "url": "https://www.victaulic.com/products/",
+        "source_id": "cat-victaulic-com"
+      },
+      "value": "carbon steel, stainless steel, copper, HDPE, PVC/CPVC and other pipe materials"
+    }
+  ],
+  "url": "https://www.victaulic.com/products/",
+  "sources": [
+    {
+      "url": "https://www.victaulic.com/products/",
+      "source_id": "cat-victaulic-com"
+    }
+  ],
+  "notes": "Markets include Oil & Gas, Energy, Infrastructure; systems listed include Dynamic Movement Joints, Advanced Groove System, StrengThin 100 for thin wall stainless, Vic-Press for Schedule 10S stainless, and High Performance System for Steam & Chemical Service. Numeric pressure ratings not printed on the page read; product specification sheets linked but not read.",
+  "last_reviewed": "2026-11-24"
+}

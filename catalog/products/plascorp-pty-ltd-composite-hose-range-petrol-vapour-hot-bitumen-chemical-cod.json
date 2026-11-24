@@ -1,0 +1,104 @@
+{
+  "id": "plascorp-pty-ltd-composite-hose-range-petrol-vapour-hot-bitumen-chemical-cod",
+  "name": "Composite hose range (petrol, vapour, hot bitumen, chemical; Codes 1000/901/1003/AVA/VRH/966/951/952/969/ASS/2200)",
+  "manufacturer": "plascorp-pty-ltd",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
+  ],
+  "description": "APAC supplier; AS 2683-2000 / AS 2594-1983 / AS 2475 standards as printed. Assembly testing per page: hydrostatic and electrical, AS 2683 / AS 2594 / AS 1180.",
+  "specifications": [
+    {
+      "metric": "Petrol hose standard, working pressure",
+      "unit": "kPa at 20 degC",
+      "basis": "Petrol Hose Range overview, code 1000, 'Max Working Pressure (kPa @ Ambient Temp)'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "value": 700
+    },
+    {
+      "metric": "Petrol hose heavy duty, working pressure",
+      "unit": "kPa at 20 degC",
+      "basis": "Petrol Hose HD code 901 table, 'Working Pressure kPa at 20ºC'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "value": 1400
+    },
+    {
+      "metric": "Chemical hose range standard",
+      "unit": "standard",
+      "basis": "Chemical Hose Range AS 2594-1983 overview",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "value": "AS 2594-1983"
+    },
+    {
+      "metric": "Chemical hose PTSS working pressure",
+      "unit": "kPa at 20 degC",
+      "basis": "Chemical hose PTSS code 2200 table",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "value": 1400
+    },
+    {
+      "metric": "Petrol hose temperature range",
+      "unit": "degC",
+      "basis": "Code 1000 / 901 / 1003 product blocks: 'Temperature Range: -30ºC to +80ºC'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "low": -30,
+      "high": 80
+    },
+    {
+      "metric": "Chemical hose temperature range",
+      "unit": "degC",
+      "basis": "Code 951 / 952 / 969 product blocks: 'Temperature Range: -30ºC to +100ºC'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "low": -30,
+      "high": 100
+    },
+    {
+      "metric": "Hot bitumen hose temperature range",
+      "unit": "degC",
+      "basis": "Code 966 block: 'Temperature Range: -30ºC to +180ºC'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "low": -30,
+      "high": 180
+    },
+    {
+      "metric": "Kind 1 electrical resistance",
+      "unit": "ohm/m",
+      "basis": "Petrol hose range overview: 'Kind 1 hose has an electrical resistance not greater than 1.0 ohm/m.'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses",
+        "source_id": "cat-plascorp-com-au-composite-hoses"
+      },
+      "high": 1.0
+    }
+  ],
+  "url": "https://www.plascorp.com.au/products/composite-hoses",
+  "sources": [
+    {
+      "url": "https://www.plascorp.com.au/products/composite-hoses",
+      "source_id": "cat-plascorp-com-au-composite-hoses"
+    }
+  ],
+  "notes": "APAC supplier; AS 2683-2000 / AS 2594-1983 / AS 2475 standards as printed. Assembly testing per page: hydrostatic and electrical, AS 2683 / AS 2594 / AS 1180.",
+  "last_reviewed": "2026-11-24"
+}

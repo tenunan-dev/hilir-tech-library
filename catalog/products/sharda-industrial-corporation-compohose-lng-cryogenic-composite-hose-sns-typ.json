@@ -1,0 +1,124 @@
+{
+  "id": "sharda-industrial-corporation-compohose-lng-cryogenic-composite-hose-sns-typ",
+  "name": "COMPOHOSE LNG cryogenic composite hose (SNS type)",
+  "manufacturer": "sharda-industrial-corporation",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
+  ],
+  "description": "APAC supplier. Construction: 316/304 SS inner and outer wires, polyamide fabric/polyester barrier linings, polyamide fabric cover.",
+  "specifications": [
+    {
+      "metric": "Compliance",
+      "unit": "standard",
+      "basis": "Compliance line",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng",
+        "source_id": "cat-composite-hose-com-lng"
+      },
+      "value": "EN 13766 / 2018 Class A Type 2 and Class B Type 2"
+    },
+    {
+      "metric": "Working pressure, Class A Type 2",
+      "unit": "bar (185 PSI)",
+      "basis": "Features: 'Working Pressure: Class A Type 2 – 13 Bar (185 PSI)'",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng",
+        "source_id": "cat-composite-hose-com-lng"
+      },
+      "value": 13
+    },
+    {
+      "metric": "Working pressure, Class B Type 2",
+      "unit": "bar (149 PSI)",
+      "basis": "Features: 'Class B Type 2 – 10.5 Bar (149 PSI)'",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng",
+        "source_id": "cat-composite-hose-com-lng"
+      },
+      "value": 10.5
+    },
+    {
+      "metric": "Minimum burst pressure",
+      "unit": "bar (800 PSI)",
+      "basis": "Specification Table, column 'MIN BURST BAR / PSI'",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng",
+        "source_id": "cat-composite-hose-com-lng"
+      },
+      "value": 52.5
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degC",
+      "basis": "Features: 'Temperature Range for this hose is -196° C to +50° C'",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng",
+        "source_id": "cat-composite-hose-com-lng"
+      },
+      "low": -196,
+      "high": 50
+    },
+    {
+      "metric": "Safety factor",
+      "unit": "ratio",
+      "basis": "Features: 'Safety factor 4:1 as per EN 13766 / 2018'",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng",
+        "source_id": "cat-composite-hose-com-lng"
+      },
+      "value": "4:1"
+    },
+    {
+      "metric": "Size range",
+      "unit": "mm",
+      "basis": "Specification Table, column 'SIZE MM'",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng",
+        "source_id": "cat-composite-hose-com-lng"
+      },
+      "low": 25,
+      "high": 300
+    },
+    {
+      "metric": "Bend radius range",
+      "unit": "mm",
+      "basis": "Specification Table, column 'BEND RADIUS MM'",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng",
+        "source_id": "cat-composite-hose-com-lng"
+      },
+      "low": 200,
+      "high": 1200
+    },
+    {
+      "metric": "Vacuum",
+      "unit": "bar",
+      "basis": "Features: 'Suitable for 0.9 Bar Vacuum rating.'",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng",
+        "source_id": "cat-composite-hose-com-lng"
+      },
+      "value": 0.9
+    },
+    {
+      "metric": "Pressure test",
+      "unit": "ratio",
+      "basis": "Features / Safety Standards: 'Tested to industry standards 1.5 times the rated working pressure.'",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng",
+        "source_id": "cat-composite-hose-com-lng"
+      },
+      "value": "1.5 x rated working pressure"
+    }
+  ],
+  "url": "https://composite-hose.com/cryogenic/lng",
+  "sources": [
+    {
+      "url": "https://composite-hose.com/cryogenic/lng",
+      "source_id": "cat-composite-hose-com-lng"
+    }
+  ],
+  "notes": "APAC supplier. Construction: 316/304 SS inner and outer wires, polyamide fabric/polyester barrier linings, polyamide fabric cover.",
+  "last_reviewed": "2026-11-24"
+}

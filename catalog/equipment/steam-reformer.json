@@ -161,6 +161,67 @@
         "source_id": "topsoe-com-ammonia-ammonia-reforming"
       },
       "value": "catalyst tubes in single line, one or two fired boxes, burners on walls at several elevations"
+    },
+    {
+      "metric": "NOx",
+      "unit": "mg/Nm3 (standard scheme; lower possible with proper burner)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 110
+    },
+    {
+      "metric": "Energy consumption, grey configuration",
+      "unit": "Gcal/MT (basis as stated on page)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "high": 6.5
+    },
+    {
+      "metric": "Energy consumption, blue configuration",
+      "unit": "Gcal/MT",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 7.9
+    },
+    {
+      "metric": "NOx",
+      "unit": "mg/Nm3 standard scheme",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 110
+    },
+    {
+      "metric": "CO2 emissions",
+      "unit": "t CO2/t NH3",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "low": 0.1,
+      "high": 0.15
+    },
+    {
+      "metric": "Energy consumption",
+      "unit": "Gcal/MT LHV basis",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 7.9
     }
   ],
   "vendors": [

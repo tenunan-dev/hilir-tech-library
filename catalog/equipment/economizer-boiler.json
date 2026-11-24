@@ -54,6 +54,67 @@
       },
       "unit": "sq ft/BHP",
       "value": 5
+    },
+    {
+      "metric": "Applicable boiler size",
+      "basis": "Product bullet: 'Boilers up to 2,500 HP'; accommodates all boiler design pressures",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x",
+        "source_id": "cleaverbrooks-com-product-c2x"
+      },
+      "unit": "HP (up to)",
+      "value": 2500
+    },
+    {
+      "metric": "Construction",
+      "basis": "Product bullets and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x",
+        "source_id": "cleaverbrooks-com-product-c2x"
+      },
+      "unit": "configuration",
+      "value": "Two-stage: separate non-condensing stack section and condensing section"
+    },
+    {
+      "metric": "Tube material",
+      "basis": "Product Overview: tube core assemblies individually removable; all gas side surfaces 316 stainless steel to eliminate corrosion",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x",
+        "source_id": "cleaverbrooks-com-product-c2x"
+      },
+      "unit": "material",
+      "value": "316 stainless steel tube with aluminum fins (Al-Fuse)"
+    },
+    {
+      "metric": "Condensing fuel basis",
+      "basis": "Product Overview bullet and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x",
+        "source_id": "cleaverbrooks-com-product-c2x"
+      },
+      "unit": "fuel basis",
+      "value": "Condenses on natural gas only; near-condensing mode on #2 oil"
+    },
+    {
+      "metric": "Efficiency boost",
+      "basis": "Economizers catalog listing: 'Boost efficiency 3-5% with the ClearFire Economizer (ECF)'",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers",
+        "source_id": "cleaverbrooks-com-boiler-room-equipment-economizers"
+      },
+      "unit": "%",
+      "low": 3,
+      "high": 5
+    },
+    {
+      "metric": "Applicable boilers",
+      "basis": "Economizers catalog listing",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers",
+        "source_id": "cleaverbrooks-com-boiler-room-equipment-economizers"
+      },
+      "unit": "applicability",
+      "value": "ClearFire-H and CBT boilers from 10-80 HP, high or low pressure steam"
     }
   ],
   "vendors": [

@@ -11,7 +11,7 @@
     {
       "metric": "Capacity",
       "unit": "MTPD ammonia",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification",
         "source_id": "topsoe-com-ammonia-ammonia-purification"

@@ -177,6 +177,96 @@
         "source_id": "casale-ch-urea"
       },
       "value": 2022
+    },
+    {
+      "metric": "service scope",
+      "unit": "n/a",
+      "basis": "UreaKnowHow service list",
+      "source": {
+        "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",
+        "source_id": "ureaknowhow-com-fluid-bed-granulation-optimization"
+      },
+      "value": "training, desk studies, online Q&A, site visits, troubleshooting, revamp proposals, dynamic simulator"
+    },
+    {
+      "metric": "formaldehyde use",
+      "unit": "n/a",
+      "basis": "Casale benefits list",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/",
+        "source_id": "casale-ch-urea"
+      },
+      "value": "minimum or no use"
+    },
+    {
+      "metric": "application",
+      "unit": "n/a",
+      "basis": "Casale news items 'Yara selects Uremium 29' and HP stripper made with Uremium 29",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/",
+        "source_id": "casale-ch-urea"
+      },
+      "value": "critical items in urea plants / high-pressure strippers"
+    },
+    {
+      "metric": "total nitrogen",
+      "unit": "wt%",
+      "basis": "typical product quality",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 46.3
+    },
+    {
+      "metric": "biuret",
+      "unit": "wt%",
+      "basis": "typical product quality",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 0.8
+    },
+    {
+      "metric": "size 2-4 mm",
+      "unit": "wt%",
+      "basis": "typical product quality",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 95
+    },
+    {
+      "metric": "steam",
+      "unit": "MT/MT",
+      "basis": "typical consumption",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 0.01
+    },
+    {
+      "metric": "power",
+      "unit": "kWh/MT",
+      "basis": "typical, fluidizing product cooler",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 24
+    },
+    {
+      "metric": "urea dust",
+      "unit": "mg/Nm3-Air (less than)",
+      "basis": "scrubber design target",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
+        "source_id": "toyo-eng-com-urea-granulation"
+      },
+      "value": 30
     }
   ],
   "vendors": [

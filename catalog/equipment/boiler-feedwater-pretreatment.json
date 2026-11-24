@@ -122,6 +122,76 @@
       },
       "low": 25,
       "high": 40
+    },
+    {
+      "metric": "Design principle",
+      "basis": "Printed on Raw Water Pretreatment page",
+      "source": {
+        "url": "https://graver.com/pretreatment/",
+        "source_id": "graver-com-pretreatment"
+      },
+      "unit": "n/a",
+      "value": "inclined plate clarification assuring laminar flow conditions"
+    },
+    {
+      "metric": "Installation attribute",
+      "basis": "Printed on Raw Water Pretreatment page",
+      "source": {
+        "url": "https://graver.com/pretreatment/",
+        "source_id": "graver-com-pretreatment"
+      },
+      "unit": "n/a",
+      "value": "reduced space; can be located indoors or relocated"
+    },
+    {
+      "metric": "Clarifier type",
+      "basis": "Qualitative design description printed on Raw Water Pretreatment page; no numeric rating printed",
+      "source": {
+        "url": "https://graver.com/pretreatment/",
+        "source_id": "graver-com-pretreatment"
+      },
+      "unit": "n/a",
+      "value": "high rate, solids contact, sludge recirculation type"
+    },
+    {
+      "metric": "Functions integrated in single unit",
+      "basis": "Printed on Raw Water Pretreatment page",
+      "source": {
+        "url": "https://graver.com/pretreatment/",
+        "source_id": "graver-com-pretreatment"
+      },
+      "unit": "n/a",
+      "value": "chemical addition and mixing, flocculation, upflow clarification"
+    },
+    {
+      "metric": "Applications",
+      "basis": "Printed on Raw Water Pretreatment page",
+      "source": {
+        "url": "https://graver.com/pretreatment/",
+        "source_id": "graver-com-pretreatment"
+      },
+      "unit": "n/a",
+      "value": "clarification, lime softening, silica reduction, organics reduction"
+    },
+    {
+      "metric": "Filter type",
+      "basis": "Printed on Raw Water Pretreatment page",
+      "source": {
+        "url": "https://graver.com/pretreatment/",
+        "source_id": "graver-com-pretreatment"
+      },
+      "unit": "n/a",
+      "value": "heavy duty, high rate gravity filter"
+    },
+    {
+      "metric": "Design duty",
+      "basis": "Printed on Raw Water Pretreatment page; no filtration rate printed",
+      "source": {
+        "url": "https://graver.com/pretreatment/",
+        "source_id": "graver-com-pretreatment"
+      },
+      "unit": "n/a",
+      "value": "treating high turbidity loads and sticky particulates following polymer/coagulant treatment"
     }
   ],
   "vendors": [

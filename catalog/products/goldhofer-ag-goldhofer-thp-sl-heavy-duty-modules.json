@@ -11,7 +11,7 @@
     {
       "metric": "Axle load",
       "unit": "t at 1 km/h",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
         "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
@@ -21,7 +21,7 @@
     {
       "metric": "Axle compensation",
       "unit": "mm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
         "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
@@ -31,7 +31,7 @@
     {
       "metric": "Width",
       "unit": "mm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
         "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"

@@ -11,7 +11,7 @@
     {
       "metric": "stock thickness",
       "unit": "in",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
         "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
@@ -21,7 +21,7 @@
     {
       "metric": "condition",
       "unit": "n/a",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
         "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"

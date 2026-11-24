@@ -11,7 +11,7 @@
     {
       "metric": "Energy range",
       "unit": "kJ",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
         "source_id": "iqip-com-hydrohammer-s-series"
@@ -21,7 +21,7 @@
     {
       "metric": "S-2000 max blow energy",
       "unit": "kJ",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
         "source_id": "iqip-com-hydrohammer-s-series"
@@ -31,7 +31,7 @@
     {
       "metric": "S-2000 blow rate",
       "unit": "bl/min",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
         "source_id": "iqip-com-hydrohammer-s-series"
@@ -41,7 +41,7 @@
     {
       "metric": "S-2000 hammer weight",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
         "source_id": "iqip-com-hydrohammer-s-series"
@@ -51,7 +51,7 @@
     {
       "metric": "Operating angle",
       "unit": "degrees",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
         "source_id": "iqip-com-hydrohammer-s-series"

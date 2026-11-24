@@ -40,6 +40,49 @@
         "source_id": "en-wikipedia-org-wiki-screw-conveyor"
       },
       "value": "trough or tube with spiral blade around a shaft (driven one end, held at other) or shaftless spiral driven at one end and free at the other"
+    },
+    {
+      "metric": "Reciprocating gas compressor rating",
+      "unit": "MW",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden",
+        "source_id": "chartindustries-com-www-chartindustries-com-howden"
+      },
+      "high": 20
+    },
+    {
+      "metric": "Reciprocating compressor speed",
+      "unit": "rpm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden",
+        "source_id": "chartindustries-com-www-chartindustries-com-howden"
+      },
+      "low": 260,
+      "high": 1000
+    },
+    {
+      "metric": "Steam turbine electrical output range",
+      "unit": "kW",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden",
+        "source_id": "chartindustries-com-www-chartindustries-com-howden"
+      },
+      "low": 75,
+      "high": 40000
+    },
+    {
+      "metric": "Steam turbine mechanical drive range",
+      "unit": "MW",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden",
+        "source_id": "chartindustries-com-www-chartindustries-com-howden"
+      },
+      "low": 10,
+      "high": 40
     }
   ],
   "vendors": [

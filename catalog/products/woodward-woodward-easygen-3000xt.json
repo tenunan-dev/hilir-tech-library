@@ -11,7 +11,7 @@
     {
       "metric": "Isochronous gensets",
       "unit": "gensets",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
         "source_id": "woodward-com-generator-controllers-easygen"
@@ -22,7 +22,7 @@
     {
       "metric": "Measurement",
       "unit": "accuracy class",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
         "source_id": "woodward-com-generator-controllers-easygen"
@@ -32,7 +32,7 @@
     {
       "metric": "Redundancy",
       "unit": "modes (search-verified detail)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
         "source_id": "woodward-com-generator-controllers-easygen"

@@ -1,0 +1,24 @@
+{
+  "id": "rolls-royce-power-systems-ag-mtu",
+  "name": "Rolls-Royce Power Systems AG (mtu)",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Rolls-Royce Power Systems AG (mtu) is named on a product catalog page read in the 2026-11-24 sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+      "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Minimal record created from a vendor catalog page."
+}

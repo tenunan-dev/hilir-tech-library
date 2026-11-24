@@ -11,7 +11,7 @@
     {
       "metric": "Applications",
       "unit": "qualitative",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers",
         "source_id": "comap-control-com-controllers-paralleling-gen-set-controllers"
@@ -21,7 +21,7 @@
     {
       "metric": "Grid codes",
       "unit": "standards (search-verified detail)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers",
         "source_id": "comap-control-com-controllers-paralleling-gen-set-controllers"

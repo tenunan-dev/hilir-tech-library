@@ -17,7 +17,7 @@
       "basis": "Howden/KK&K single-stage centrifugal model range (SF 15,000-600,000; SFG 5,000-300,000; ST 1,500-150,000; SL 15,000-450,000 m3/h), pressure ratio up to 3.5",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
-        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 1500,
       "high": 600000
@@ -28,7 +28,7 @@
       "basis": "Howden/KK&K + CKD multistage range (RS 400-65,000; RV 400-85,000 / 400-170,000 back-to-back), pressure ratio up to 10.0",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
-        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 400,
       "high": 200000
@@ -39,7 +39,7 @@
       "basis": "Howden Periflow compressor performance, capacity flow 10-20,000 m3/h, variable speed 1000-6000 rpm",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
-        "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+        "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "value": 350
     },
@@ -49,7 +49,7 @@
       "basis": "Howden industrial centrifugal turbo compressors, 'proven over 100 years and 4000 installations'",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
-        "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "value": 4000
     },
@@ -61,6 +61,136 @@
         "url": "https://www.howden.com/en-gb/products/compressors",
         "source_id": "sys-howden-com-compressors"
       }
+    },
+    {
+      "metric": "Single-stage model range flow",
+      "unit": "m3/h",
+      "basis": "Howden single stage centrifugal compressors model range serves applications requiring flows of between 3,000 m3/h and 600,000 m3/h with pressure ratios up to 3.5",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 3000,
+      "high": 600000
+    },
+    {
+      "metric": "Multistage model range flow",
+      "unit": "m3/h",
+      "basis": "Howden multistage centrifugal compressors model range serves applications requiring flows of between 400 m3/h and 200,000 m3/h with pressure ratios up to 10.0",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 400,
+      "high": 200000
+    },
+    {
+      "metric": "SF model flow",
+      "unit": "m3/h",
+      "basis": "Model table: SF, Flow (m3/h) 15,000-600,000; Pressure Ratio up to 3.5; Impeller Dia. (mm) up to 2240; Drive Electric or turbine",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 15000,
+      "high": 600000
+    },
+    {
+      "metric": "SFG model flow",
+      "unit": "m3/h",
+      "basis": "Model table: SFG, Flow (m3/h) 5,000-300,000; Pressure Ratio up to 3.5; Impeller Dia. (mm) up to 1120",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 5000,
+      "high": 300000
+    },
+    {
+      "metric": "ST model flow",
+      "unit": "m3/h",
+      "basis": "Model table: ST, Flow (m3/h) 1,500-150,000; Pressure Ratio up to 3.5; Impeller Dia. (mm) up to 900; Drive Steam turbine (integrated)",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 1500,
+      "high": 150000
+    },
+    {
+      "metric": "SL model flow",
+      "unit": "m3/h",
+      "basis": "Model table: SL, Flow (m3/h) 15,000-450,000; Pressure Ratio up to 1.45; Impeller Dia. (mm) up to 1800; application Coke oven gas",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 15000,
+      "high": 450000
+    },
+    {
+      "metric": "SFG Twin model flow",
+      "unit": "m3/h",
+      "basis": "Multistage model table: SFG Twin, Flow (m3/h) 3,000-200,000; Pressure Ratio up to 6.0; Impeller Dia. (mm) up to 900",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 3000,
+      "high": 200000
+    },
+    {
+      "metric": "SFG Back-to-Back model flow",
+      "unit": "m3/h",
+      "basis": "Multistage model table: SFG Back-to-Back, Flow (m3/h) 3,000-75,000; Pressure Ratio up to 6.0; Impeller Dia. (mm) up to 560",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 3000,
+      "high": 75000
+    },
+    {
+      "metric": "RS model flow",
+      "unit": "m3/h",
+      "basis": "Multistage model table: RS, Flow (m3/h) 400-65,000; Pressure Ratio up to 10.0; Impeller Dia. (mm) up to 700",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 400,
+      "high": 65000
+    },
+    {
+      "metric": "RV model flow",
+      "unit": "m3/h",
+      "basis": "Multistage model table: RV, Flow (m3/h) 400-85,000; 400-170,000 (back-to-back); Pressure Ratio up to 10.0; Impeller Dia. (mm) up to 780",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 400,
+      "high": 85000
+    },
+    {
+      "metric": "CKD multistage discharge pressure",
+      "unit": "MPa",
+      "basis": "CKD compressors serve flow requirements up to 1700,000 m3/h (as printed) and discharge pressures of up to 20 MPa",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "value": 20
+    },
+    {
+      "metric": "SFO/SFP/SFN pressure",
+      "unit": "bar",
+      "basis": "SFO, SFP and SFN series formerly branded as Kühnle, Kopp & Kausch. Single and multi-stage turbo compressors for the chemical and petrochemical industries with pressures up to 50 bar and flow rates up to 200,000 m3/hr",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "value": 50
     }
   ],
   "vendors": [
@@ -71,11 +201,11 @@
   "sources": [
     {
       "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
-      "source_id": "sys-chartindustries-com-compression-centrifugal-compressors"
+      "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
     },
     {
       "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
-      "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+      "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
     },
     {
       "url": "https://www.howden.com/en-gb/products/compressors",

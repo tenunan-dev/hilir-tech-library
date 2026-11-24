@@ -1,0 +1,83 @@
+{
+  "id": "emerson-roxar-roxar-2600-multiphase-flow-meter-mpfm-with-roxar-5726-multipha",
+  "name": "Roxar 2600 Multiphase Flow Meter (MPFM), with Roxar 5726 Multiphase Transmitter",
+  "manufacturer": "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
+  "product_type": "ci-system",
+  "equipment": [
+    "ci-field-transmitters-pressure-temperature-flow-level"
+  ],
+  "description": "Page read in full. Accuracy is NOT stated as a fixed number: 'Performance specifications ... are not directly comparable to single phase measurement instruments'; project-specific sizing/uncertainty is prepared from operator flow data. No accuracy figure asserted.",
+  "specifications": [
+    {
+      "metric": "Meter sizes available",
+      "unit": "sizes",
+      "basis": "'Roxar™ 2600 MPFM is available in 6 sizes' (FAQ on sizes/materials/flanges)",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      },
+      "value": 6
+    },
+    {
+      "metric": "Gas volume fraction operating envelope",
+      "unit": "% GVF",
+      "basis": "'all phases within the full range of flowing conditions, 0-100% GVF and 0-100% WLR'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      },
+      "low": 0,
+      "high": 100
+    },
+    {
+      "metric": "Water liquid ratio operating envelope",
+      "unit": "% WLR",
+      "basis": "'all phases within the full range of flowing conditions, 0-100% GVF and 0-100% WLR'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      },
+      "low": 0,
+      "high": 100
+    },
+    {
+      "metric": "Sour service design standard",
+      "unit": "standard",
+      "basis": "'including extreme sour service in accordance with NACE MR0175/ISO 15156, where required'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      },
+      "value": "NACE MR0175 / ISO 15156"
+    },
+    {
+      "metric": "Host communication protocols",
+      "unit": "protocol",
+      "basis": "'digital protocols such as Modbus and OPC UA ... and HTTPS for secure data access and integration'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      },
+      "value": "Modbus, OPC UA, HTTPS"
+    },
+    {
+      "metric": "Typical calibration/verification interval",
+      "unit": "checks and verification",
+      "basis": "'with a typical recommendation being yearly checks and verification' - project-specific recommendation after application review",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+      },
+      "value": "yearly"
+    }
+  ],
+  "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+  "sources": [
+    {
+      "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
+      "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
+    }
+  ],
+  "notes": "Page read in full. Accuracy is NOT stated as a fixed number: 'Performance specifications ... are not directly comparable to single phase measurement instruments'; project-specific sizing/uncertainty is prepared from operator flow data. No accuracy figure asserted.",
+  "last_reviewed": "2026-11-24"
+}

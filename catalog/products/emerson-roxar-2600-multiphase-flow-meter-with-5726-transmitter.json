@@ -14,7 +14,7 @@
       "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
-        "source_id": "emerson-com-products-roxar-2600-multiphase-flow-meter"
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
       "value": "0-100% / 0-100%"
     },
@@ -24,7 +24,7 @@
       "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
-        "source_id": "emerson-com-products-roxar-2600-multiphase-flow-meter"
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
       "value": "6 sizes; 1.5-8 in"
     },
@@ -34,7 +34,7 @@
       "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
-        "source_id": "emerson-com-products-roxar-2600-multiphase-flow-meter"
+        "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
       "value": "3,750 psi ANSI / 5,000 psi hub"
     }
@@ -43,7 +43,7 @@
   "sources": [
     {
       "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
-      "source_id": "emerson-com-products-roxar-2600-multiphase-flow-meter"
+      "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
     }
   ],
   "notes": "Product page read; data sheet figures search-verified.",

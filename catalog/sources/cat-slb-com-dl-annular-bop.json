@@ -1,0 +1,32 @@
+{
+  "id": "cat-slb-com-dl-annular-bop",
+  "name": "SLB (Cameron product family) — DL High-Pressure Annular BOP",
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "ELE"
+  ],
+  "publisher_org": "SLB",
+  "regions": [
+    "global",
+    "apac",
+    "sea",
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary (site terms)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-24",
+  "notes": "Product catalog/spec page read 2026-11-24. NACE MR0175 H2S service compliance stated on page. A 'DL High-Pressure Annular BOP' brochure PDF is linked on the page (https://www.slb.com/-/media/files/cam-drlg-pc/brochure/dl-bo Evidence: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
+}

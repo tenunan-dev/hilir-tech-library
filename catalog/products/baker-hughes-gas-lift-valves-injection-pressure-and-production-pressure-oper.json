@@ -1,0 +1,41 @@
+{
+  "id": "baker-hughes-gas-lift-valves-injection-pressure-and-production-pressure-oper",
+  "name": "Gas lift valves (injection-pressure and production-pressure operated; tubing retrievable; wireline retrievable orifice/dummy/circulating/che",
+  "manufacturer": "baker-hughes",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
+  ],
+  "description": "Integral reverse-flow check valve; stainless steel construction with premium materials available; standard neoprene packing. Page references BOTipod gas lift software for valve placement. No pressure rating printed.",
+  "specifications": [
+    {
+      "metric": "Standard temperature rating",
+      "unit": "degF (121 degC)",
+      "basis": "A standard temperature rating of up to 250°F (121°C)",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
+        "source_id": "cat-bakerhughes-com-gas-lift-valves"
+      },
+      "value": "250"
+    },
+    {
+      "metric": "Standard temperature rating (metric)",
+      "unit": "degC",
+      "basis": "A standard temperature rating of up to 250°F (121°C)",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
+        "source_id": "cat-bakerhughes-com-gas-lift-valves"
+      },
+      "value": "121"
+    }
+  ],
+  "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
+  "sources": [
+    {
+      "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
+      "source_id": "cat-bakerhughes-com-gas-lift-valves"
+    }
+  ],
+  "notes": "Integral reverse-flow check valve; stainless steel construction with premium materials available; standard neoprene packing. Page references BOTipod gas lift software for valve placement. No pressure rating printed.",
+  "last_reviewed": "2026-11-24"
+}

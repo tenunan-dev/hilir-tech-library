@@ -11,7 +11,7 @@
     {
       "metric": "Steam-to-carbon ratio",
       "unit": "mol/mol",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
         "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
@@ -21,7 +21,7 @@
     {
       "metric": "Steam throughput reduction",
       "unit": "%",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
         "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
@@ -31,7 +31,7 @@
     {
       "metric": "Relative energy consumption (conventional = 100)",
       "unit": "index",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
         "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
@@ -41,7 +41,7 @@
     {
       "metric": "Relative make-up water consumption (conventional = 100)",
       "unit": "index",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
         "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
@@ -52,7 +52,7 @@
     {
       "metric": "Referenced single-train capacity, ammonia",
       "unit": "MTPD (equivalent); >6000 MTPD for other industries",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
         "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"

@@ -11,7 +11,7 @@
     {
       "metric": "Reference plant capacity",
       "unit": "MTD (coal-based ammonia)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
         "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
@@ -21,7 +21,7 @@
     {
       "metric": "Achieved capacity shortly after start-up",
       "unit": "% of nameplate",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
         "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
@@ -31,7 +31,7 @@
     {
       "metric": "Stable extended operation",
       "unit": "% load",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
         "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"

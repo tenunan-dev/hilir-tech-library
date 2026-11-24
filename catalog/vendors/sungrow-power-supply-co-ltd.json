@@ -1,0 +1,24 @@
+{
+  "id": "sungrow-power-supply-co-ltd",
+  "name": "Sungrow Power Supply Co., Ltd.",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Sungrow Power Supply Co., Ltd. is named on a product catalog page read in the 2026-11-24 sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sungrowpower.com/en/floating-pv-system",
+      "source_id": "cat-sungrowpower-com-floating-pv-system"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Minimal record created from a vendor catalog page."
+}

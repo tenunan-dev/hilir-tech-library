@@ -31,6 +31,96 @@
       },
       "low": 2.1,
       "high": 6.8
+    },
+    {
+      "metric": "Storage vessel capacity",
+      "basis": "Printed under 'Storage System Module': 'Vessel storage up to 65,000 gallons'",
+      "source": {
+        "url": "https://www.ifsolutions.com/products/scr-ammonia-system/",
+        "source_id": "ifsolutions-com-products-scr-ammonia-system"
+      },
+      "unit": "gallons",
+      "high": "65,000"
+    },
+    {
+      "metric": "Storage vessel construction",
+      "basis": "Printed under Storage System Module",
+      "source": {
+        "url": "https://www.ifsolutions.com/products/scr-ammonia-system/",
+        "source_id": "ifsolutions-com-products-scr-ammonia-system"
+      },
+      "unit": "n/a",
+      "value": "single & double wall carbon steel vessels"
+    },
+    {
+      "metric": "Anhydrous vaporizer",
+      "basis": "Printed under Distribution System Module (Anhydrous)",
+      "source": {
+        "url": "https://www.ifsolutions.com/products/scr-ammonia-system/",
+        "source_id": "ifsolutions-com-products-scr-ammonia-system"
+      },
+      "unit": "n/a",
+      "value": "Integraheat Electric Vaporizer ASME Code Stamped (locally mounted)"
+    },
+    {
+      "metric": "Vessel code",
+      "basis": "Printed under Industry Standards",
+      "source": {
+        "url": "https://www.ifsolutions.com/products/scr-ammonia-system/",
+        "source_id": "ifsolutions-com-products-scr-ammonia-system"
+      },
+      "unit": "n/a",
+      "value": "ASME Section VIII, National Board Registered"
+    },
+    {
+      "metric": "Piping design code",
+      "basis": "Printed under Industry Standards",
+      "source": {
+        "url": "https://www.ifsolutions.com/products/scr-ammonia-system/",
+        "source_id": "ifsolutions-com-products-scr-ammonia-system"
+      },
+      "unit": "n/a",
+      "value": "ANSI B31.1 / ANSI B31.3"
+    },
+    {
+      "metric": "Pipe fabrication code",
+      "basis": "Printed under Industry Standards",
+      "source": {
+        "url": "https://www.ifsolutions.com/products/scr-ammonia-system/",
+        "source_id": "ifsolutions-com-products-scr-ammonia-system"
+      },
+      "unit": "n/a",
+      "value": "ASME Section IX"
+    },
+    {
+      "metric": "Structural steel assembly code",
+      "basis": "Printed under Industry Standards",
+      "source": {
+        "url": "https://www.ifsolutions.com/products/scr-ammonia-system/",
+        "source_id": "ifsolutions-com-products-scr-ammonia-system"
+      },
+      "unit": "n/a",
+      "value": "AWS D1.1"
+    },
+    {
+      "metric": "System design standard",
+      "basis": "Printed under Industry Standards",
+      "source": {
+        "url": "https://www.ifsolutions.com/products/scr-ammonia-system/",
+        "source_id": "ifsolutions-com-products-scr-ammonia-system"
+      },
+      "unit": "n/a",
+      "value": "API RP 550 & K61.1"
+    },
+    {
+      "metric": "Hazardous location option",
+      "basis": "Printed under Optional Features",
+      "source": {
+        "url": "https://www.ifsolutions.com/products/scr-ammonia-system/",
+        "source_id": "ifsolutions-com-products-scr-ammonia-system"
+      },
+      "unit": "n/a",
+      "value": "Class 1, Div 2"
     }
   ],
   "vendors": [

@@ -53,6 +53,76 @@
       },
       "unit": "qualitative",
       "value": "interlocks + flame supervision"
+    },
+    {
+      "metric": "Control type",
+      "basis": "Product bullets and Product Overview",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim",
+        "source_id": "cleaverbrooks-com-product-accu-trim"
+      },
+      "unit": "control type",
+      "value": "Stand-alone PLC-based oxygen trim control for steam or hot water boilers"
+    },
+    {
+      "metric": "Trim modes",
+      "basis": "Product Overview bullets",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim",
+        "source_id": "cleaverbrooks-com-product-accu-trim"
+      },
+      "unit": "modes",
+      "value": "Air trim or fuel trim; variable-speed drive option"
+    },
+    {
+      "metric": "Compensation",
+      "basis": "Product Overview: system automatically compensates for these",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim",
+        "source_id": "cleaverbrooks-com-product-accu-trim"
+      },
+      "unit": "compensated variables",
+      "value": "Temperature, barometric pressure, fuel characteristics and normal hysteresis"
+    },
+    {
+      "metric": "Sensors",
+      "basis": "Product Overview",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim",
+        "source_id": "cleaverbrooks-com-product-accu-trim"
+      },
+      "unit": "scope",
+      "value": "Oxygen and firing rate sensors; custom C-B O2 Probe or industrial O2 probes such as Yokogawa"
+    },
+    {
+      "metric": "Fuel train compatibility",
+      "basis": "Product Overview bullet",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim",
+        "source_id": "cleaverbrooks-com-product-accu-trim"
+      },
+      "unit": "compatibility",
+      "value": "Standard or compact fuel trains such as the Siemens valve assembly"
+    },
+    {
+      "metric": "Hawk Boiler Controls features",
+      "basis": "Boiler Controls catalog listing",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls",
+        "source_id": "cleaverbrooks-com-controls-boiler-controls"
+      },
+      "unit": "feature set",
+      "value": "Touchscreen HMI, economizer and O2-trim options, burner sequencing, fault history, lead/lag operation"
+    },
+    {
+      "metric": "Hawk 4500 features",
+      "basis": "Boiler Controls catalog listing",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls",
+        "source_id": "cleaverbrooks-com-controls-boiler-controls"
+      },
+      "unit": "feature set",
+      "value": "Complete control system for new or retrofit industrial watertube boilers/burners; economizer control, draft control, full metering options"
     }
   ],
   "vendors": [

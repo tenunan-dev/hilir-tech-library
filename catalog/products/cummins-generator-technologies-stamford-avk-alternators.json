@@ -11,7 +11,7 @@
     {
       "metric": "Combined range",
       "unit": "kVA",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cummins.com/generators/alternators",
         "source_id": "cummins-com-generators-alternators"
@@ -22,7 +22,7 @@
     {
       "metric": "Global coverage",
       "unit": "countries",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cummins.com/generators/alternators",
         "source_id": "cummins-com-generators-alternators"

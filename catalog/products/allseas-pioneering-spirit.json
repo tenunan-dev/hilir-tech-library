@@ -11,7 +11,7 @@
     {
       "metric": "Topsides single-lift capacity",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
@@ -21,7 +21,7 @@
     {
       "metric": "Jacket lift capacity",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
@@ -31,7 +31,7 @@
     {
       "metric": "S-lay tension",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
@@ -41,7 +41,7 @@
     {
       "metric": "Azimuth thrusters",
       "unit": "count",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"

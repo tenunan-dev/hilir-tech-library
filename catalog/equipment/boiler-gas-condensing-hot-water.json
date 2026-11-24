@@ -87,6 +87,131 @@
       "unit": "%",
       "low": 95.6,
       "high": 96.3
+    },
+    {
+      "metric": "Input capacity",
+      "basis": "Product bullets: 11 models from 500 MBH to 6,000 MBH; Technical Data table 500-6,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "MBH (11 models)",
+      "low": 500,
+      "high": 6000
+    },
+    {
+      "metric": "AHRI combustion efficiency",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "%",
+      "value": 94.7
+    },
+    {
+      "metric": "AHRI thermal efficiency",
+      "basis": "Technical Data table; narrative states up to 99% efficient",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "%",
+      "value": 96
+    },
+    {
+      "metric": "Design temperature",
+      "basis": "Technical Data table",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "deg F",
+      "value": 210
+    },
+    {
+      "metric": "NOx emissions",
+      "basis": "Bullet 'Standard less than 20 ppm NOx, sub 7 ppm NOx available'; table <20 ppm standard, lower emission optional",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "ppm NOx",
+      "low": 7,
+      "high": 20
+    },
+    {
+      "metric": "Turndown",
+      "basis": "Product bullet and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": ":1 fully modulating",
+      "value": 10
+    },
+    {
+      "metric": "Sound level",
+      "basis": "Product Overview attribute list",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "dBA at 3 feet (less than)",
+      "value": 70
+    },
+    {
+      "metric": "Heat exchanger construction",
+      "basis": "Product Overview; AluFer tube technology increases effective heat transfer surface up to five times and thermal conductivity ten times greater than stainless steel alone",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "material",
+      "value": "Duplex stainless steel; TurboFer/AluFer tubes"
+    },
+    {
+      "metric": "Hydrogen readiness",
+      "basis": "Product narrative: supports RNG and up to 20% volumetric mix hydrogen-natural gas blends",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce",
+        "source_id": "cleaverbrooks-com-product-cfce"
+      },
+      "unit": "% volumetric hydrogen-natural gas blend",
+      "value": 20
+    },
+    {
+      "metric": "Input capacity",
+      "basis": "Product page Size Range: 399,000-6,000,000 BTU/HR; model table EXE-399 to EXE-6000 MBH",
+      "source": {
+        "url": "https://fulton.com/exe",
+        "source_id": "fulton-com-exe"
+      },
+      "unit": "BTU/hr",
+      "low": 399000,
+      "high": 6000000
+    },
+    {
+      "metric": "Thermal efficiency",
+      "basis": "Specifications & Dimensions table, model-by-model values 96.2-98.0%; page headline 'Efficiency up to 99%'",
+      "source": {
+        "url": "https://fulton.com/exe",
+        "source_id": "fulton-com-exe"
+      },
+      "unit": "% AHRI Thermal Efficiency",
+      "low": 96.2,
+      "high": 98.0
+    },
+    {
+      "metric": "Turndown ratio",
+      "basis": "Specifications table by model (8:1 EXE-399, 10:1 EXE-500, 13:1 EXE-650, 15:1 EXE-750 through EXE-3000 etc.)",
+      "source": {
+        "url": "https://fulton.com/exe",
+        "source_id": "fulton-com-exe"
+      },
+      "unit": ":1",
+      "low": 8,
+      "high": 15
     }
   ],
   "vendors": [

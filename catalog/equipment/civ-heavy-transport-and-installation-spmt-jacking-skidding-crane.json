@@ -83,6 +83,66 @@
         "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
       },
       "value": 25000
+    },
+    {
+      "metric": "Axle load max",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+        "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
+      },
+      "value": 70
+    },
+    {
+      "metric": "Steering",
+      "unit": "deg",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+        "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
+      },
+      "value": "±135"
+    },
+    {
+      "metric": "Bending moment",
+      "unit": "kNm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
+        "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
+      },
+      "value": "7250 / 9400"
+    },
+    {
+      "metric": "Axle load",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+        "source_id": "tii-group-com-spmt-scheuerle-spmt"
+      },
+      "value": 60
+    },
+    {
+      "metric": "Axle compensation",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+        "source_id": "tii-group-com-spmt-scheuerle-spmt"
+      },
+      "value": 700
+    },
+    {
+      "metric": "Positioning accuracy",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+        "source_id": "tii-group-com-spmt-scheuerle-spmt"
+      },
+      "value": "±1–2"
     }
   ],
   "vendors": [

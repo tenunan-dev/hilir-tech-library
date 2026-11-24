@@ -17,7 +17,7 @@
       "basis": "LONGi Hi-MO 9 product page 'Up to 670 W'; HPBC 2.0 technology, 0BB front design",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": 670
     },
@@ -27,7 +27,7 @@
       "basis": "LONGi Hi-MO 9 'Module efficiency of up to 24.8%'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": 24.8
     },
@@ -37,7 +37,7 @@
       "basis": "STC table: Voc 54.00 V, Isc 15.41 A, Vmp 44.85 V, Imp 14.72 A",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": 660
     },
@@ -47,7 +47,7 @@
       "basis": "Mechanical parameters: 144 cells (6x24), split junction box IP68 with 3 diodes; 36 pcs/pallet, 720 pcs/40HC",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": "2382 x 1134 x 30"
     },
@@ -57,7 +57,7 @@
       "basis": "Max static load front 5400 Pa (snow/wind), back 2400 Pa (wind)",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "low": 2400,
       "high": 5400
@@ -82,7 +82,7 @@
   "sources": [
     {
       "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-      "source_id": "sys-longi-com"
+      "source_id": "cat-longi-com"
     },
     {
       "url": "https://en.sungrowpower.com/products",

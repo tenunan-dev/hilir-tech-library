@@ -1,0 +1,105 @@
+{
+  "id": "rolls-royce-power-systems-ag-mtu-mtu-diesel-generator-sets-series-4000-2000",
+  "name": "mtu diesel generator sets - Series 4000, 2000, 1600, 0080-0225",
+  "manufacturer": "rolls-royce-power-systems-ag-mtu",
+  "product_type": "cf-system",
+  "equipment": [
+    "cf-diesel-engine-generator-sets-offshore-and-onshore"
+  ],
+  "description": "Series 4000 and Series 1600 engines approved for synthetic paraffinic diesel fuels to EN 15940 including HVO; diesel genset container/power modules and components/accessories available. Linked Series 4000 brochure is a PDF (not read).",
+  "specifications": [
+    {
+      "metric": "Portfolio maximum (60 Hz)",
+      "unit": "kWe",
+      "basis": "Our product portfolio covers diesel generator sets up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz)",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "value": 3250
+    },
+    {
+      "metric": "Portfolio maximum (50 Hz)",
+      "unit": "kVA",
+      "basis": "Our product portfolio covers diesel generator sets up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz)",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Series 4000 power range",
+      "unit": "kVA (50 Hz); 1,125-3,250 kWe (60 Hz)",
+      "basis": "mtu Series 4000 POWER RANGE: 50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "low": 1600,
+      "high": 4000
+    },
+    {
+      "metric": "Series 2000 power range",
+      "unit": "kVA (50 Hz); 680-1,250 kWe (60 Hz)",
+      "basis": "mtu Series 2000 POWER RANGE: 50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "low": 770,
+      "high": 1400
+    },
+    {
+      "metric": "Series 1600 power range",
+      "unit": "kVA (50 Hz); 500-900 kWe (60 Hz)",
+      "basis": "mtu Series 1600 POWER RANGE: 50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "low": 590,
+      "high": 1000
+    },
+    {
+      "metric": "Series 0080-0225 power range",
+      "unit": "kVA (50 Hz); 27-400 kWe (60 Hz)",
+      "basis": "mtu Series 0080 - mtu Series 0225 POWER RANGE: 50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "low": 30,
+      "high": 94
+    },
+    {
+      "metric": "Standby load factor",
+      "unit": "%",
+      "basis": "85% load factor for standby applications and 75% for prime power",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "value": 85
+    },
+    {
+      "metric": "Prime power load factor",
+      "unit": "%",
+      "basis": "85% load factor for standby applications and 75% for prime power",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+        "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+      },
+      "value": 75
+    }
+  ],
+  "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+  "sources": [
+    {
+      "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
+      "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
+    }
+  ],
+  "notes": "Series 4000 and Series 1600 engines approved for synthetic paraffinic diesel fuels to EN 15940 including HVO; diesel genset container/power modules and components/accessories available. Linked Series 4000 brochure is a PDF (not read).",
+  "last_reviewed": "2026-11-24"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "ariel-corporation-with-hoerbiger-ariel-kbh-hydrogen-reciprocating-compressor",
+  "name": "Ariel KBH hydrogen reciprocating compressor",
+  "manufacturer": "ariel-corporation-with-hoerbiger",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
+  ],
+  "description": "Vertically oriented, non-lubricated cylinders for gas purity; page claims 500 bar discharge at 250 kg/h means 1 KBH does the work of 5-6 leading diaphragm style compressors. Linked KBH product sheet is a PDF (not read).",
+  "specifications": [
+    {
+      "metric": "Suction pressure",
+      "unit": "bar (370 psig)",
+      "basis": "KBH Specifications table: Suction Pressure 370 psig (25 bar)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html",
+        "source_id": "cat-arielcorp-com-kbh-html"
+      },
+      "low": 25,
+      "high": 370
+    },
+    {
+      "metric": "Discharge pressure",
+      "unit": "bar (7,250 psig)",
+      "basis": "KBH Specifications table: Discharge Pressure 7,250 psig (500 bar)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html",
+        "source_id": "cat-arielcorp-com-kbh-html"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Flow at design point",
+      "unit": "kg/hr",
+      "basis": "KBH Specifications table: Flow at design point 250 kg/hr",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html",
+        "source_id": "cat-arielcorp-com-kbh-html"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Number of stages",
+      "unit": "stages",
+      "basis": "KBH Specifications table: Number of Stages 4",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html",
+        "source_id": "cat-arielcorp-com-kbh-html"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Stroke",
+      "unit": "in (108 mm)",
+      "basis": "KBH Specifications table: Stroke 4.25 in (108 mm)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html",
+        "source_id": "cat-arielcorp-com-kbh-html"
+      },
+      "value": 4.25
+    },
+    {
+      "metric": "Max RPM",
+      "unit": "rpm",
+      "basis": "KBH Specifications table: Max RPM 1,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html",
+        "source_id": "cat-arielcorp-com-kbh-html"
+      },
+      "value": 1000
+    }
+  ],
+  "url": "https://www.arielcorp.com/compressors/kbh.html",
+  "sources": [
+    {
+      "url": "https://www.arielcorp.com/compressors/kbh.html",
+      "source_id": "cat-arielcorp-com-kbh-html"
+    }
+  ],
+  "notes": "Vertically oriented, non-lubricated cylinders for gas purity; page claims 500 bar discharge at 250 kg/h means 1 KBH does the work of 5-6 leading diaphragm style compressors. Linked KBH product sheet is a PDF (not read).",
+  "last_reviewed": "2026-11-24"
+}

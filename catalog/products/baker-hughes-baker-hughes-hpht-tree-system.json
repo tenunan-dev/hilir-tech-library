@@ -11,7 +11,7 @@
     {
       "metric": "Pressure",
       "unit": "psi",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
@@ -21,7 +21,7 @@
     {
       "metric": "Flowing temperature",
       "unit": "deg F",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"

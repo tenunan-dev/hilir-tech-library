@@ -1,0 +1,112 @@
+{
+  "id": "quail-tools-secondary-aggregator-values-stated-as-taken-from-oem-manuals-ann-f80fdb",
+  "name": "Annular / Single Ram / Double Ram BOP spec sheets (Cameron T90, Cameron DL, Hydril GK/GL, Shaffer bolted/wedge)",
+  "manufacturer": "slb-cameron-pressure-control-equipment",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s-d23380"
+  ],
+  "description": "SECONDARY SOURCE, NOT OEM. Page explicitly states: 'Drawings and information contained herein are for general purposes only and is not intended to replace OEM data... All values are from OEM's most current operation / maintenance / user's manual, as of spec binders published date.' Use as search/aggregation evidence only; confirm against an OEM data sheet before engineering use.",
+  "specifications": [
+    {
+      "metric": "Cameron T90 annular - vertical bore",
+      "unit": "in",
+      "basis": "Annular table row: VERTICAL BORE (INCHES) 7.063 | PRESSURE RATING (PSI) 5M | MANUFACTURER Cameron | ANNULAR TYPE T90 | HEIGHT 30.875 | WEIGHT APPROX 3.175 | MAX HYDRAULIC PRESSURE 1,500",
+      "source": {
+        "url": "https://www.quailtools.com/BOPSpecSheets.html",
+        "source_id": "cat-quailtools-com-bopspecsheets-html"
+      },
+      "value": "7.063"
+    },
+    {
+      "metric": "Cameron T90 annular - working pressure rating",
+      "unit": "psi (M = thousand)",
+      "basis": "Annular table column 'PRESSURE RATING (PSI)' printed as 5M for Cameron T90, 7.063-in bore",
+      "source": {
+        "url": "https://www.quailtools.com/BOPSpecSheets.html",
+        "source_id": "cat-quailtools-com-bopspecsheets-html"
+      },
+      "value": "5M"
+    },
+    {
+      "metric": "Cameron T90 annular - maximum hydraulic pressure",
+      "unit": "psi",
+      "basis": "Annular table column 'MAX HYDRAULIC PRESSURE (PSI)' = 1,500 for Cameron T90, 7.063-in bore",
+      "source": {
+        "url": "https://www.quailtools.com/BOPSpecSheets.html",
+        "source_id": "cat-quailtools-com-bopspecsheets-html"
+      },
+      "value": "1,500"
+    },
+    {
+      "metric": "Cameron T90 annular - fluid to open / to close",
+      "unit": "gal",
+      "basis": "Annular table 'TO OPEN (GALLONS)' 3.43, 'TO CLOSE (GALLONS)' 4.920 for Cameron T90, 7.063-in bore",
+      "source": {
+        "url": "https://www.quailtools.com/BOPSpecSheets.html",
+        "source_id": "cat-quailtools-com-bopspecsheets-html"
+      },
+      "low": "3.43",
+      "high": "4.920"
+    },
+    {
+      "metric": "Shaffer wedge annular - vertical bore / pressure",
+      "unit": "in / psi (M = thousand)",
+      "basis": "Annular table row: 13.625 | 10M | Shaffer | Wedge | HEIGHT 58.750 | WEIGHT APPROX 32,475 | CLEARANCE DIAMETER 64.500",
+      "source": {
+        "url": "https://www.quailtools.com/BOPSpecSheets.html",
+        "source_id": "cat-quailtools-com-bopspecsheets-html"
+      },
+      "value": "13.625 / 10M"
+    },
+    {
+      "metric": "Cameron Type U single ram - height",
+      "unit": "in",
+      "basis": "Single ram table row: 7.063 | 5M | Type U | Standard Bonnets | HEIGHT 27.500 | WEIGHT APPROX 4,697 | MAX HYDRAULIC PRESSURE 3,000",
+      "source": {
+        "url": "https://www.quailtools.com/BOPSpecSheets.html",
+        "source_id": "cat-quailtools-com-bopspecsheets-html"
+      },
+      "value": "27.500"
+    },
+    {
+      "metric": "Cameron Type U single ram - maximum hydraulic pressure",
+      "unit": "psi",
+      "basis": "Single ram table column 'MAX HYDRAULIC PRESSURE (PSI)' = 3,000",
+      "source": {
+        "url": "https://www.quailtools.com/BOPSpecSheets.html",
+        "source_id": "cat-quailtools-com-bopspecsheets-html"
+      },
+      "value": "3,000"
+    },
+    {
+      "metric": "Cameron Type U double ram (13.625 in, 15M) - weight",
+      "unit": "lb",
+      "basis": "Double ram table row: 13.625 | 15M | Type U | Standard | Standard | HEIGHT 81.750 | WEIGHT 47,886 | MAX HYDRAULIC PRESSURE 3,000",
+      "source": {
+        "url": "https://www.quailtools.com/BOPSpecSheets.html",
+        "source_id": "cat-quailtools-com-bopspecsheets-html"
+      },
+      "value": "47,886"
+    },
+    {
+      "metric": "Cameron Type U ram - close ratio (7.063 in, 5M)",
+      "unit": "ratio",
+      "basis": "Single ram table 'CLOSE RATIO' = 6.20 for 7.063 in 5M Type U standard bonnets",
+      "source": {
+        "url": "https://www.quailtools.com/BOPSpecSheets.html",
+        "source_id": "cat-quailtools-com-bopspecsheets-html"
+      },
+      "value": "6.20"
+    }
+  ],
+  "url": "https://www.quailtools.com/BOPSpecSheets.html",
+  "sources": [
+    {
+      "url": "https://www.quailtools.com/BOPSpecSheets.html",
+      "source_id": "cat-quailtools-com-bopspecsheets-html"
+    }
+  ],
+  "notes": "SECONDARY SOURCE, NOT OEM. Page explicitly states: 'Drawings and information contained herein are for general purposes only and is not intended to replace OEM data... All values are from OEM's most current operation / maintenance / user's manual, as of spec binders published date.' Use as search/aggregation evidence only; confirm against an OEM data sheet before engineering use.",
+  "last_reviewed": "2026-11-24"
+}

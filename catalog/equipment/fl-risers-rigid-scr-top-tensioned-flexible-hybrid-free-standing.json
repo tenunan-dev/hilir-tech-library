@@ -60,6 +60,129 @@
         "source_id": "sys-bakerhughes-com-flexible-pipe-systems"
       },
       "value": "riser, flowline, jumper, fluid transfer line; high H2S, dense CO2, high temperature"
+    },
+    {
+      "metric": "registered interoperable products",
+      "unit": "products (over)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+        "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "wiring",
+      "unit": "wiring",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
+        "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
+      },
+      "value": "two-wire twisted pair; IS/non-incendive power"
+    },
+    {
+      "metric": "Sealing",
+      "unit": "n/a",
+      "basis": "OneSubsea wet connectors page",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
+        "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
+      },
+      "value": "dual-barrier mechanical and electrical sealing; dielectric-filled wiper protection; crimped terminations"
+    },
+    {
+      "metric": "Environment",
+      "unit": "n/a",
+      "basis": "OneSubsea wet connectors page",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
+        "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
+      },
+      "value": "deepwater, HPHT wellhead and downhole; sour-resistant options"
+    },
+    {
+      "metric": "Single-stage flow envelope",
+      "unit": "m3/h",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 1500,
+      "high": 600000
+    },
+    {
+      "metric": "Multistage flow envelope",
+      "unit": "m3/h",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 400,
+      "high": 200000
+    },
+    {
+      "metric": "Pressure ratio",
+      "unit": "ratio depending on series",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "low": 3.5,
+      "high": 10
+    },
+    {
+      "metric": "CKD discharge pressure",
+      "unit": "MPa",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
+        "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Global FPV applications",
+      "unit": "GW (over)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Example project",
+      "unit": "MW (Cirata, Indonesia)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 192
+    },
+    {
+      "metric": "installed base - refineries",
+      "unit": "%",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
+        "source_id": "sys-process-honeywell-com-experion-pks"
+      },
+      "value": 45
+    },
+    {
+      "metric": "O&G processing plants",
+      "unit": "plants (over)",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
+        "source_id": "sys-process-honeywell-com-experion-pks"
+      },
+      "value": 500
     }
   ],
   "vendors": [

@@ -11,7 +11,7 @@
     {
       "metric": "length",
       "unit": "m (up to)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
@@ -21,7 +21,7 @@
     {
       "metric": "diameter",
       "unit": "m (up to)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
@@ -31,7 +31,7 @@
     {
       "metric": "wall thickness",
       "unit": "mm (max)",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
@@ -41,7 +41,7 @@
     {
       "metric": "weight",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"

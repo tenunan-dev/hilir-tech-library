@@ -11,7 +11,7 @@
     {
       "metric": "Power",
       "unit": "kW natural gas",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
@@ -21,7 +21,7 @@
     {
       "metric": "Cylinders / displacement",
       "unit": "cylinders / L",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
@@ -31,7 +31,7 @@
     {
       "metric": "Bore / stroke",
       "unit": "mm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
@@ -41,7 +41,7 @@
     {
       "metric": "Air-fuel ratio",
       "unit": "lambda, natural gas",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"

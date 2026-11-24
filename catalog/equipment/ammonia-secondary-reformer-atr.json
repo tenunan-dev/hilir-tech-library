@@ -82,6 +82,37 @@
         "source_id": "casale-ch-ammonia"
       },
       "high": 99
+    },
+    {
+      "metric": "Energy consumption",
+      "unit": "Gcal/MT LHV basis, including utilities and final CO2 compression at battery limits",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "low": 7.4,
+      "high": 7.6
+    },
+    {
+      "metric": "CO2 recovery",
+      "unit": "%",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "high": 99
+    },
+    {
+      "metric": "Best-suited capacity",
+      "unit": "MTD and above",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/",
+        "source_id": "casale-ch-ammonia"
+      },
+      "value": 3500
     }
   ],
   "vendors": [

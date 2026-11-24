@@ -118,6 +118,100 @@
       },
       "unit": "%",
       "value": 80
+    },
+    {
+      "metric": "Capacity TMV",
+      "basis": "Product bullets: Model TMV 30,000-500,000 lb/hr",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster",
+        "source_id": "cleaverbrooks-com-product-traymaster"
+      },
+      "unit": "lb/hr",
+      "low": 30000,
+      "high": 500000
+    },
+    {
+      "metric": "Capacity TMH",
+      "basis": "Product bullets: Model TMH 500,000-1,000,000 lb/hr",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster",
+        "source_id": "cleaverbrooks-com-product-traymaster"
+      },
+      "unit": "lb/hr",
+      "low": 500000,
+      "high": 1000000
+    },
+    {
+      "metric": "Residual dissolved oxygen",
+      "basis": "Product Overview: 'reducing dissolved oxygen content in boiler feedwater to levels less than .005 cc/liter (7 ppb)'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster",
+        "source_id": "cleaverbrooks-com-product-traymaster"
+      },
+      "unit": "cc/liter (7 ppb), less than",
+      "value": 0.005
+    },
+    {
+      "metric": "Configuration",
+      "basis": "Product bullets and Product Overview",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster",
+        "source_id": "cleaverbrooks-com-product-traymaster"
+      },
+      "unit": "configuration",
+      "value": "Vertical or horizontal tray column; two-stage deaeration in a common vessel"
+    },
+    {
+      "metric": "Standard",
+      "basis": "Product Overview bullet",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster",
+        "source_id": "cleaverbrooks-com-product-traymaster"
+      },
+      "unit": "standard",
+      "value": "Exceeds ASME recommendations for oxygen level"
+    },
+    {
+      "metric": "Capacity",
+      "basis": "Product bullets: 1,500-135,000 lbs/hr",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/boilermate",
+        "source_id": "cleaverbrooks-com-product-boilermate"
+      },
+      "unit": "lb/hr",
+      "low": 1500,
+      "high": 135000
+    },
+    {
+      "metric": "Type",
+      "basis": "Product bullets and narrative",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/boilermate",
+        "source_id": "cleaverbrooks-com-product-boilermate"
+      },
+      "unit": "type",
+      "value": "Pressurized packed column deaerator"
+    },
+    {
+      "metric": "Storage capacity",
+      "basis": "Product Overview attribute: 'Storage capacities from 10 to 30 minutes'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/boilermate",
+        "source_id": "cleaverbrooks-com-product-boilermate"
+      },
+      "unit": "minutes",
+      "low": 10,
+      "high": 30
+    },
+    {
+      "metric": "Pumping",
+      "basis": "Product bullets and Product Overview",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/boilermate",
+        "source_id": "cleaverbrooks-com-product-boilermate"
+      },
+      "unit": "configuration",
+      "value": "On/off or variable speed pumping"
     }
   ],
   "vendors": [

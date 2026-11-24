@@ -1,0 +1,31 @@
+{
+  "id": "slb-m-i-swaco-product-line-3-phase-separator-managed-pressure-drilling-well-a1573f",
+  "name": "3-Phase Separator (managed-pressure-drilling / well-test vessel)",
+  "manufacturer": "slb-cameron-pressure-control-equipment",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-separators-2-3-phase-horizontal-vertical-spherical-compact-in-46519c"
+  ],
+  "description": "No numeric pressure, flow or size rating is printed on this page. Page states instrumented vessel separating well effluent into three phases; multiple pressure safety valves and bypass valves for maintenance without shutting in the well. A brochure PDF is linked but not fetched.",
+  "specifications": [
+    {
+      "metric": "Design code / sour service",
+      "unit": "-",
+      "basis": "The 3-phase separator is built in compliance with ASME Section VIII, Division 1 and NACE MR0175 for H2S environments.",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator",
+        "source_id": "cat-slb-com-3-phase-separator"
+      },
+      "value": "ASME Section VIII, Division 1 and NACE MR0175 for H2S environments"
+    }
+  ],
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator",
+  "sources": [
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator",
+      "source_id": "cat-slb-com-3-phase-separator"
+    }
+  ],
+  "notes": "No numeric pressure, flow or size rating is printed on this page. Page states instrumented vessel separating well effluent into three phases; multiple pressure safety valves and bypass valves for maintenance without shutting in the well. A brochure PDF is linked but not fetched.",
+  "last_reviewed": "2026-11-24"
+}

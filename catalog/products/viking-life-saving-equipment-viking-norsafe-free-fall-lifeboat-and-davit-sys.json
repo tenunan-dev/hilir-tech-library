@@ -11,7 +11,7 @@
     {
       "metric": "approved free-fall drop height",
       "unit": "m",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.viking-life.com/product-insights",
         "source_id": "viking-life-com-www-viking-life-com-product-insights"

@@ -17,7 +17,7 @@
       "basis": "Honeywell Safety Manager product page; page read",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
-        "source_id": "process-honeywell-com-safety-systems-safety-manager"
+        "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "value": "SIL 1-3"
     },
@@ -27,7 +27,7 @@
       "basis": "Honeywell Safety Manager specifications table; page read",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
-        "source_id": "process-honeywell-com-safety-systems-safety-manager"
+        "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "value": "-40 to 70 degC (remote cabinet); -5 to 70 degC (Safety Manager cabinet)"
     },
@@ -37,7 +37,7 @@
       "basis": "Honeywell Safety Manager page specifications + Honeywell F&G case study; page read",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
-        "source_id": "process-honeywell-com-safety-systems-safety-manager"
+        "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "value": "IEC 61508, IEC 61511, ISA S84.01, NFPA 72/85/86, EN54-2, ATEX, UL/FM"
     },
@@ -59,7 +59,7 @@
   "sources": [
     {
       "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
-      "source_id": "process-honeywell-com-safety-systems-safety-manager"
+      "source_id": "cat-process-honeywell-com-safety-manager"
     },
     {
       "url": "https://www.technipfmc.com/en/what-we-do/surface/production",

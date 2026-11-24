@@ -11,10 +11,10 @@
     {
       "metric": "Rating range",
       "unit": "kVA",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/diesel",
-        "source_id": "sys-cummins-com-diesel"
+        "source_id": "cat-cummins-com-diesel"
       },
       "low": 15,
       "high": 3750
@@ -22,20 +22,20 @@
     {
       "metric": "Load acceptance",
       "unit": "s",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/diesel",
-        "source_id": "sys-cummins-com-diesel"
+        "source_id": "cat-cummins-com-diesel"
       },
       "value": "<10"
     },
     {
       "metric": "Emission certification",
       "unit": "qualitative",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/diesel",
-        "source_id": "sys-cummins-com-diesel"
+        "source_id": "cat-cummins-com-diesel"
       },
       "value": "Tier 4F (rental)"
     }
@@ -44,7 +44,7 @@
   "sources": [
     {
       "url": "https://www.cummins.com/en-apac/generators/diesel",
-      "source_id": "sys-cummins-com-diesel"
+      "source_id": "cat-cummins-com-diesel"
     }
   ],
   "notes": "50/60 Hz; Quiet and Standard ranges",

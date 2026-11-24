@@ -1,0 +1,41 @@
+{
+  "id": "howden-a-chart-industries-company-burton-corblin-diaphragm-technology-howden",
+  "name": "Howden TFC90 / TFC180 standardized diaphragm compressor packages for hydrogen",
+  "manufacturer": "slb-cameron-pressure-control-equipment",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
+  ],
+  "description": "Page describes diaphragm compression as technology of choice where complete hermetic separation and high pressure sealing are required (rare, toxic, flammable, explosive or radioactive gases). Linked TFC90_180_Diaphragm_Compressors.pdf is a PDF and was NOT read; no pressure figures asserted from it.",
+  "specifications": [
+    {
+      "metric": "Electrolyzer module sizing",
+      "unit": "MW (design basis as printed)",
+      "basis": "Hydrogen Package Solutions: Designed for 5 MW and 10 MW electrolyzer modules",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
+      },
+      "value": "5 MW and 10 MW"
+    },
+    {
+      "metric": "Process gas leakage",
+      "unit": "zero leakage (as printed)",
+      "basis": "Key Features: Zero leakage of process gas to the environment",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+        "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
+      },
+      "value": 0
+    }
+  ],
+  "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+  "sources": [
+    {
+      "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
+      "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
+    }
+  ],
+  "notes": "Page describes diaphragm compression as technology of choice where complete hermetic separation and high pressure sealing are required (rare, toxic, flammable, explosive or radioactive gases). Linked TFC90_180_Diaphragm_Compressors.pdf is a PDF and was NOT read; no pressure figures asserted from it.",
+  "last_reviewed": "2026-11-24"
+}

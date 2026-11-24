@@ -1,0 +1,24 @@
+{
+  "id": "emerson-automation-solutions",
+  "name": "Emerson Automation Solutions",
+  "country": "—",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Emerson Automation Solutions is named on a product catalog page read in the 2026-11-24 sweep.",
+  "technologies": [
+    "ups-subsea-production-systems"
+  ],
+  "sources": [
+    {
+      "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
+      "source_id": "cat-emerson-com-industrial-wireless-technology"
+    }
+  ],
+  "last_reviewed": "2026-11-24",
+  "notes": "Minimal record created from a vendor catalog page."
+}

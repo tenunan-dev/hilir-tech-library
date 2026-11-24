@@ -17,7 +17,7 @@
       "basis": "LONGi Hi-MO 9 product page 'Up to 670 W'; HPBC 2.0 technology, 0BB front design",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": 670
     },
@@ -27,7 +27,7 @@
       "basis": "LONGi Hi-MO 9 'Module efficiency of up to 24.8%'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": 24.8
     },
@@ -37,7 +37,7 @@
       "basis": "STC table: Voc 54.00 V, Isc 15.41 A, Vmp 44.85 V, Imp 14.72 A",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": 660
     },
@@ -47,7 +47,7 @@
       "basis": "Mechanical parameters: 144 cells (6x24), split junction box IP68 with 3 diodes; 36 pcs/pallet, 720 pcs/40HC",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "value": "2382 x 1134 x 30"
     },
@@ -57,7 +57,7 @@
       "basis": "Max static load front 5400 Pa (snow/wind), back 2400 Pa (wind)",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-        "source_id": "sys-longi-com"
+        "source_id": "cat-longi-com"
       },
       "low": 2400,
       "high": 5400
@@ -71,6 +71,129 @@
         "source_id": "sys-en-sungrowpower-com-products"
       },
       "value": "string inverter, modular inverter, MLPE, floating PV system, ESS, EV charger"
+    },
+    {
+      "metric": "Global FPV application",
+      "unit": "GW (over, as printed)",
+      "basis": "With Over 4GW of Floating PV Application, We Set the Standard / >4 GW Global Application",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 4
+    },
+    {
+      "metric": "FPV patents",
+      "unit": "patents (over, as printed)",
+      "basis": "290 + Patents (page stat)",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 290
+    },
+    {
+      "metric": "Reference project - Indonesia",
+      "unit": "MW",
+      "basis": "Cases & Stories: Capacity 192 MW, Location Indonesia, Application Scenario Reservoir",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 192
+    },
+    {
+      "metric": "Reference project - Anhui China",
+      "unit": "MW",
+      "basis": "Cases & Stories: Major 200MW Floating Solar Plant Launched on Anhui's Former Coal Mines; Capacity 200 MW, Application Scenario Subsidence Area",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Reference project - Philippines",
+      "unit": "MW",
+      "basis": "Cases & Stories: Philippines' First Megawatt-Scale Floating Solar Plant; Capacity 4.99 MW, Application Scenario Reservoir",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system",
+        "source_id": "cat-sungrowpower-com-floating-pv-system"
+      },
+      "value": 4.99
+    },
+    {
+      "metric": "Module power",
+      "unit": "W (up to)",
+      "basis": "Up to 670 W Module Power (page header stat)",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 670
+    },
+    {
+      "metric": "Module efficiency",
+      "unit": "% (up to)",
+      "basis": "Up to 24.80 % Module Efficiency (page header stat)",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 24.8
+    },
+    {
+      "metric": "Product warranty",
+      "unit": "years",
+      "basis": "12 Years Product Warranty (page header stat)",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Power warranty",
+      "unit": "years",
+      "basis": "30 Years Power Warranty (page header stat)",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Pmax STC (LR7-72HYD-635M to 660M)",
+      "unit": "W",
+      "basis": "Electrical Performance Parameters (STC Test) table: Maximum power (Pmax/W) 635 / 640 / 645 / 650 / 655 / 660",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "low": 635,
+      "high": 660
+    },
+    {
+      "metric": "Voc STC",
+      "unit": "V",
+      "basis": "Electrical Performance Parameters (STC Test) table: Open-circuit voltage (Voc/V) 53.50 to 54.00",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "low": 53.5,
+      "high": 54.0
+    },
+    {
+      "metric": "Isc STC",
+      "unit": "A",
+      "basis": "Electrical Performance Parameters (STC Test) table: Short circuit current (Isc/A) 15.01 to 15.41",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
+        "source_id": "cat-longi-com"
+      },
+      "low": 15.01,
+      "high": 15.41
     }
   ],
   "vendors": [
@@ -82,7 +205,7 @@
   "sources": [
     {
       "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
-      "source_id": "sys-longi-com"
+      "source_id": "cat-longi-com"
     },
     {
       "url": "https://en.sungrowpower.com/products",

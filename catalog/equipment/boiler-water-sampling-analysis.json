@@ -79,6 +79,126 @@
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
       "value": "only one of the two needs to be measured; same method/readout must be used consistently"
+    },
+    {
+      "metric": "Body and coil material",
+      "basis": "Printed in Technical Information section TI-P403-09",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+        "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
+      },
+      "unit": "n/a",
+      "value": "austenitic stainless steel 316L"
+    },
+    {
+      "metric": "Cooling-water connection size",
+      "basis": "Printed in Construction and connections",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+        "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
+      },
+      "unit": "in BSP or 1/2 in NPT",
+      "value": "1/2"
+    },
+    {
+      "metric": "Sample connection",
+      "basis": "Printed in Construction and connections; clamp version uses 1/2 in adaptor",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+        "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
+      },
+      "unit": "mm outside-diameter tube",
+      "value": "6"
+    },
+    {
+      "metric": "Cooler weight",
+      "basis": "Approximate weight printed in Dimensions and weights table",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+        "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
+      },
+      "unit": "kg",
+      "value": "3.1"
+    },
+    {
+      "metric": "SCS20 assembly weight",
+      "basis": "Approximate weight printed in Dimensions and weights table",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+        "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
+      },
+      "unit": "kg",
+      "value": "4.2"
+    },
+    {
+      "metric": "Envelope dimension A",
+      "basis": "Approximate dimension printed in Dimensions and weights table",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+        "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
+      },
+      "unit": "mm",
+      "value": "410"
+    },
+    {
+      "metric": "Envelope dimension H",
+      "basis": "Approximate dimension printed in Dimensions and weights table",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+        "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
+      },
+      "unit": "mm",
+      "value": "450"
+    },
+    {
+      "metric": "Performance example: boiler pressure",
+      "basis": "Worked selection example, explicitly NOT an unconditional rating",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+        "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
+      },
+      "unit": "barg",
+      "value": "10"
+    },
+    {
+      "metric": "Performance example: sample flow",
+      "basis": "Worked selection example, explicitly NOT an unconditional rating",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+        "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
+      },
+      "unit": "l/h",
+      "value": "30"
+    },
+    {
+      "metric": "Performance example: cooling-water flow",
+      "basis": "Worked selection example, explicitly NOT an unconditional rating",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+        "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
+      },
+      "unit": "l/s",
+      "value": "0.3"
+    },
+    {
+      "metric": "Performance example: temperature approach",
+      "basis": "Worked selection example, explicitly NOT an unconditional rating",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+        "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
+      },
+      "unit": "deg C",
+      "value": "4"
+    },
+    {
+      "metric": "Performance example: sample outlet with 15 deg C cooling water",
+      "basis": "Worked selection example, explicitly NOT an unconditional rating",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/",
+        "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
+      },
+      "unit": "deg C",
+      "value": "approximately 19"
     }
   ],
   "vendors": [

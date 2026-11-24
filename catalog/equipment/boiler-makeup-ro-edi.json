@@ -154,6 +154,118 @@
         "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
       },
       "value": "<7 ppb O2 / 20 ppb Fe / 15 ppb Cu"
+    },
+    {
+      "metric": "Operating cost reduction vs mixed bed DI",
+      "basis": "Printed claim on Graver ElectroFlex page: '40-50% lower operating costs when compared to mixed bed DI'",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/",
+        "source_id": "graver-com-makeup-electroflex"
+      },
+      "unit": "% lower",
+      "low": "40",
+      "high": "50"
+    },
+    {
+      "metric": "Floor space vs ion exchange demineralization",
+      "basis": "Printed claim under 'Operating Cost Savings'",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/",
+        "source_id": "graver-com-makeup-electroflex"
+      },
+      "unit": "% less",
+      "low": "50",
+      "high": "75"
+    },
+    {
+      "metric": "Recycle of EDI reject to RO feed",
+      "basis": "Printed as a capability: 'Can be recycled upstream to the RO feed for 100% recovery, zero waste production'",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/",
+        "source_id": "graver-com-makeup-electroflex"
+      },
+      "unit": "% recovery, zero waste production",
+      "value": "100"
+    },
+    {
+      "metric": "Typical application",
+      "basis": "Printed under Typical Applications",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/",
+        "source_id": "graver-com-makeup-electroflex"
+      },
+      "unit": "n/a",
+      "value": "Power Generation: Steam makeup water"
+    },
+    {
+      "metric": "Membrane size/type",
+      "basis": "Printed under 'Standard Design Features'; the page prints 'TFC 8”x40” high rejection BW membranes'",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "in (TFC high rejection BW membranes)",
+      "value": "8 x 40"
+    },
+    {
+      "metric": "High pressure piping material",
+      "basis": "Printed under Standard Design Features",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "n/a",
+      "value": "316L SS sch. 40"
+    },
+    {
+      "metric": "Low pressure piping material",
+      "basis": "Printed under Standard Design Features",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "n/a",
+      "value": "PVC sch. 80"
+    },
+    {
+      "metric": "Membrane vessel material",
+      "basis": "Printed under Standard Design Features",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "n/a",
+      "value": "FRP, side-ported"
+    },
+    {
+      "metric": "Motor supply",
+      "basis": "Printed under Standard Design Features as '460V/60HZ/3PH, TEFC motor'",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "V / Hz / phase",
+      "value": "460/60/3, TEFC"
+    },
+    {
+      "metric": "Pump type",
+      "basis": "Printed under Standard Design Features",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "n/a",
+      "value": "stainless steel vertical centrifugal pump"
+    },
+    {
+      "metric": "Typical application",
+      "basis": "Printed under Typical Applications",
+      "source": {
+        "url": "https://graver.com/makeup/ro/",
+        "source_id": "graver-com-makeup-ro"
+      },
+      "unit": "n/a",
+      "value": "Boiler Water Make-Up"
     }
   ],
   "vendors": [

@@ -38,7 +38,7 @@
       "basis": "Howden lists N2 buffer system per API 618 and 'compressor improvements API 618' in revamp services",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
-        "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+        "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "value": "API 618"
     }
@@ -54,7 +54,7 @@
     },
     {
       "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
-      "source_id": "sys-chartindustries-com-compression-reciprocating-and-diaphrag"
+      "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
     }
   ],
   "gaps": [

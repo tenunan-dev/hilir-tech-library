@@ -68,9 +68,129 @@
       "basis": "John Zink LRGO: 'highest destruction efficiency (typically >99.5%) of any flare type'; API 537 compliance available",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
-        "source_id": "sys-johnzink-com-lrgo-multi-point-ground-flare"
+        "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
       "low": 99.5
+    },
+    {
+      "metric": "Turndown",
+      "unit": "turndown (as printed)",
+      "basis": "Features: Unlimited Turndown - Some of the systems can offer unlimited turndown, making them highly adaptable to varying operational conditions",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare",
+        "source_id": "cat-johnzink-com-pressure-assisted-flare"
+      },
+      "value": "unlimited"
+    },
+    {
+      "metric": "Assist medium",
+      "unit": "no assist medium required",
+      "basis": "Features: No Assist Medium Required - These flares produce short, smokeless flames without the need for an assist medium, allowing for shorter boom lengths and simpler mounting structures",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare",
+        "source_id": "cat-johnzink-com-pressure-assisted-flare"
+      },
+      "value": 0
+    },
+    {
+      "metric": "Service history",
+      "unit": "years (over)",
+      "basis": "John Zink's pressure-assisted flares have been successfully used in a wide range of applications for over 30 years",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare",
+        "source_id": "cat-johnzink-com-pressure-assisted-flare"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Destruction efficiency",
+      "unit": "%",
+      "basis": "Low Emissions: This system has demonstrated the highest destruction efficiency (typically > 99.5%) of any flare type",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+        "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
+      },
+      "value": ">99.5"
+    },
+    {
+      "metric": "API compliance",
+      "unit": "standard (available)",
+      "basis": "Features: Available API 537 Compliance - Ensures compliance with the latest Industry flare standards",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+        "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
+      },
+      "value": "API 537"
+    },
+    {
+      "metric": "Smokeless operation",
+      "unit": "% at high flow rates",
+      "basis": "Benefits: Design is capable of producing 100% smokeless operation at high flow rates, reducing the offsite impact of the flare system",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
+        "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Electric operation",
+      "unit": "% electric (as printed)",
+      "basis": "Features: 100% Electric Operation - No need for pilot fuel gas or instrument air, reducing utility consumption",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system",
+        "source_id": "cat-johnzink-com-stella-flare-ignition-system"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Power options",
+      "unit": "power supply options (as printed)",
+      "basis": "Flexible Power Options - Operates on grid power, battery, or solar charging",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system",
+        "source_id": "cat-johnzink-com-stella-flare-ignition-system"
+      },
+      "value": "grid, battery, or solar charging"
+    },
+    {
+      "metric": "Destruction rate efficiency",
+      "unit": "%",
+      "basis": "offering greater than 98% destruction rate efficiencies for methane and other gases / Features: Achieves greater than 98% destruction rate efficiencies",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
+        "source_id": "cat-johnzink-com-ztof-enclosed-flare"
+      },
+      "value": ">98"
+    },
+    {
+      "metric": "Instantaneous turndown",
+      "unit": "ratio (up to)",
+      "basis": "this system provides up to 10:1 instantaneous turndown from maximum design without the need for external adjustments",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
+        "source_id": "cat-johnzink-com-ztof-enclosed-flare"
+      },
+      "value": "10:1"
+    },
+    {
+      "metric": "Capacity",
+      "unit": "SCFM",
+      "basis": "Features: Exceptional Capacity - Processes up to 6,000 SCFM at 50% methane concentration",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
+        "source_id": "cat-johnzink-com-ztof-enclosed-flare"
+      },
+      "value": 6000
+    },
+    {
+      "metric": "Methane concentration basis",
+      "unit": "%",
+      "basis": "Processes up to 6,000 SCFM at 50% methane concentration",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
+        "source_id": "cat-johnzink-com-ztof-enclosed-flare"
+      },
+      "value": 50
     }
   ],
   "vendors": [
@@ -85,7 +205,7 @@
     },
     {
       "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
-      "source_id": "sys-johnzink-com-lrgo-multi-point-ground-flare"
+      "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
     }
   ],
   "gaps": [

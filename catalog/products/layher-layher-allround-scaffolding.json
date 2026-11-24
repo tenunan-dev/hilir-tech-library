@@ -11,7 +11,7 @@
     {
       "metric": "Connections per rosette",
       "unit": "count",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.layher.com/en/products/allroundscaffolding",
         "source_id": "layher-com-products-allroundscaffolding"
@@ -21,7 +21,7 @@
     {
       "metric": "Approvals",
       "unit": "standard",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.layher.com/en/products/allroundscaffolding",
         "source_id": "layher-com-products-allroundscaffolding"

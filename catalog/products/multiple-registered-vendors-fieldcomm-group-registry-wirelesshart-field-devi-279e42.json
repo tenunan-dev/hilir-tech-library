@@ -11,20 +11,20 @@
     {
       "metric": "RF physical layer",
       "unit": "GHz",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
-        "source_id": "sys-fieldcommgroup-org-wirelesshart"
+        "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
       "value": "2.4 GHz DSSS O-QPSK (IEEE 802.15.4-2006)"
     },
     {
       "metric": "MAC",
       "unit": "protocol",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
-        "source_id": "sys-fieldcommgroup-org-wirelesshart"
+        "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
       "value": "TDMA data-link layer"
     }
@@ -33,7 +33,7 @@
   "sources": [
     {
       "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
-      "source_id": "sys-fieldcommgroup-org-wirelesshart"
+      "source_id": "cat-fieldcommgroup-org-wirelesshart"
     }
   ],
   "notes": "Standards family, not a single purchasable SKU; registry: https://www.fieldcommgroup.org/registered-products?category=WIRELESS",

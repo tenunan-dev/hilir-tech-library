@@ -11,7 +11,7 @@
     {
       "metric": "Rating band",
       "unit": "kVA across ECO43-ECO49, @50Hz/cl.H/40C/PF0.8, 11kV reference",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
         "source_id": "meccalte-com-alternators-power-products-mvhv"
@@ -22,7 +22,7 @@
     {
       "metric": "Voltage",
       "unit": "kV up to",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
         "source_id": "meccalte-com-alternators-power-products-mvhv"
@@ -32,7 +32,7 @@
     {
       "metric": "Speed",
       "unit": "rpm (50/60 Hz), 4 poles",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
         "source_id": "meccalte-com-alternators-power-products-mvhv"

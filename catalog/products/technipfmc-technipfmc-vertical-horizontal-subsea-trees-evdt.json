@@ -11,7 +11,7 @@
     {
       "metric": "Pressure",
       "unit": "psi",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
@@ -21,7 +21,7 @@
     {
       "metric": "Temperature",
       "unit": "deg F",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
@@ -31,7 +31,7 @@
     {
       "metric": "Water depth",
       "unit": "ft",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"

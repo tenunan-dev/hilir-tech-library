@@ -11,7 +11,7 @@
     {
       "metric": "Catalyst beds",
       "unit": "beds, radial flow with indirect cooling between beds",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
         "source_id": "topsoe-com-ammonia-synthesis"

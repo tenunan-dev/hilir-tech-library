@@ -11,7 +11,7 @@
     {
       "metric": "Capacity per unit",
       "unit": "t",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.mammoet.com/offshore/topside-load-out/",
         "source_id": "mammoet-com-topside-load-out"
@@ -21,7 +21,7 @@
     {
       "metric": "Skidding speed",
       "unit": "m/h",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.mammoet.com/offshore/topside-load-out/",
         "source_id": "mammoet-com-topside-load-out"

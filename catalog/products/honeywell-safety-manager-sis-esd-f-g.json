@@ -14,7 +14,7 @@
       "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
-        "source_id": "process-honeywell-com-safety-systems-safety-manager"
+        "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "value": "1-3 (IEC 61508/61511)"
     },
@@ -24,7 +24,7 @@
       "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
-        "source_id": "process-honeywell-com-safety-systems-safety-manager"
+        "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "value": "-40 to 70 degC remote cabinet; -5 to 70 degC cabinet"
     },
@@ -34,7 +34,7 @@
       "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
-        "source_id": "process-honeywell-com-safety-systems-safety-manager"
+        "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "value": "110/48/24 VDC"
     }
@@ -43,7 +43,7 @@
   "sources": [
     {
       "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
-      "source_id": "process-honeywell-com-safety-systems-safety-manager"
+      "source_id": "cat-process-honeywell-com-safety-manager"
     }
   ],
   "notes": "",

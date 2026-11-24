@@ -1,0 +1,61 @@
+{
+  "id": "slb-cameron-product-family-25-000-psi-ram-type-bop-c82262",
+  "name": "25,000-psi Ram-Type BOP",
+  "manufacturer": "slb-cameron-pressure-control-equipment",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s-d23380"
+  ],
+  "description": "EVO BOP-style system with wedge lock technology. Page states Cameron delivered the industry's first 20,000-psi large-bore drilling BOP stack in 2009 and first 25,000-psi stack in 2010. Data sheet PDF linked but not fetched.",
+  "specifications": [
+    {
+      "metric": "Working pressure",
+      "unit": "psi",
+      "basis": "Specifications | Working pressure | 25,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop",
+        "source_id": "cat-slb-com-25k-psi-ram-type-bop"
+      },
+      "value": "25,000"
+    },
+    {
+      "metric": "Close ratio",
+      "unit": "ratio",
+      "basis": "Specifications | Close ratio | 9:1",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop",
+        "source_id": "cat-slb-com-25k-psi-ram-type-bop"
+      },
+      "value": "9:1"
+    },
+    {
+      "metric": "Hydraulic operating system",
+      "unit": "psi",
+      "basis": "Specifications | Hydraulic operating system | 5,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop",
+        "source_id": "cat-slb-com-25k-psi-ram-type-bop"
+      },
+      "value": "5,000"
+    },
+    {
+      "metric": "Qualification",
+      "unit": "-",
+      "basis": "Specifications | Qualification | API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop",
+        "source_id": "cat-slb-com-25k-psi-ram-type-bop"
+      },
+      "value": "API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition"
+    }
+  ],
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop",
+  "sources": [
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop",
+      "source_id": "cat-slb-com-25k-psi-ram-type-bop"
+    }
+  ],
+  "notes": "EVO BOP-style system with wedge lock technology. Page states Cameron delivered the industry's first 20,000-psi large-bore drilling BOP stack in 2009 and first 25,000-psi stack in 2010. Data sheet PDF linked but not fetched.",
+  "last_reviewed": "2026-11-24"
+}

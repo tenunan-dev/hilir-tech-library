@@ -20,6 +20,16 @@
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "value": "small unmanned platform with well bay and small process plant, connected to a static production platform by flowlines/umbilical"
+    },
+    {
+      "metric": "Diana caisson",
+      "unit": "m",
+      "basis": "Wikipedia Suction caisson",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson",
+        "source_id": "en-wikipedia-org-wiki-suction-caisson"
+      },
+      "value": "30 m high × 6.5 m diameter"
     }
   ],
   "vendors": [

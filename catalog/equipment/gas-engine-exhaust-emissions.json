@@ -99,6 +99,26 @@
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
       "value": "inlet diameter 2-12 in; casing diameter 8-24 in; standard design temperature 250 deg C; enhanced noise attenuation up to 50+ dB (typical, no guaranteed attenuation)"
+    },
+    {
+      "metric": "Engine power",
+      "unit": "HP for Modulex C / Modulex B / DualOx",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",
+        "source_id": "matthey-com-emissions-control-oxidation-catalyst-systems"
+      },
+      "value": "50-500 / 250-2250 / >=2000"
+    },
+    {
+      "metric": "Service interval",
+      "unit": "hours before maintenance, stated",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
+        "source_id": "matthey-com-emissions-control-nox-control-systems"
+      },
+      "value": 15000
     }
   ],
   "vendors": [

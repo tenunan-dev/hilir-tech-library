@@ -1,0 +1,94 @@
+{
+  "id": "slb-cameron-product-family-u-surface-ram-type-bop",
+  "name": "U Surface Ram-Type BOP",
+  "manufacturer": "slb-cameron-pressure-control-equipment",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s-d23380"
+  ],
+  "description": "Page states it is the most widely used ram-type BOP with the widest bore-size range. Rams are pressure-energized; hydraulically opening bonnets; field-replaceable bonnet cylinders, pistons and seals. A Type U data sheet PDF is linked on the page but was not fetched.",
+  "specifications": [
+    {
+      "metric": "Bore size / working pressure (7 1/16, 11, 13 5/8 in)",
+      "unit": "psi",
+      "basis": "Bore sizes and working pressures | 7 1/16, 11, and 13 5/8 in: 3,000 to 15,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "low": "3,000",
+      "high": "15,000"
+    },
+    {
+      "metric": "Bore size / working pressure (16 3/4 in)",
+      "unit": "psi",
+      "basis": "Bore sizes and working pressures | 16 3/4 in: 3,000 to 10,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "low": "3,000",
+      "high": "10,000"
+    },
+    {
+      "metric": "Bore size / working pressure (20 3/4 in)",
+      "unit": "psi",
+      "basis": "Bore sizes and working pressures | 20 3/4 in: 3,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "value": "3,000"
+    },
+    {
+      "metric": "Bore size / working pressure (21 1/4 in)",
+      "unit": "psi",
+      "basis": "Bore sizes and working pressures | 21 1/4 in: 2,000, 5000, and 10,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "low": "2,000",
+      "high": "10,000"
+    },
+    {
+      "metric": "Bore size / working pressure (26 3/4 in)",
+      "unit": "psi",
+      "basis": "Bore sizes and working pressures | 26 3/4 in: 3,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "value": "3,000"
+    },
+    {
+      "metric": "Body styles",
+      "unit": "-",
+      "basis": "Specifications | Body styles | Single, double, triple, or quad",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "value": "Single, double, triple, or quad"
+    },
+    {
+      "metric": "Lock types",
+      "unit": "-",
+      "basis": "Specifications | Lock types | Standard: Manual Optional: Hydraulic",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+        "source_id": "cat-slb-com-u-ram-type-bop"
+      },
+      "value": "Standard: Manual; Optional: Hydraulic"
+    }
+  ],
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+  "sources": [
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
+      "source_id": "cat-slb-com-u-ram-type-bop"
+    }
+  ],
+  "notes": "Page states it is the most widely used ram-type BOP with the widest bore-size range. Rams are pressure-energized; hydraulically opening bonnets; field-replaceable bonnet cylinders, pistons and seals. A Type U data sheet PDF is linked on the page but was not fetched.",
+  "last_reviewed": "2026-11-24"
+}

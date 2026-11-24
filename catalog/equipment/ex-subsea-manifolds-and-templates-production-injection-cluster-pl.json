@@ -70,6 +70,26 @@
         "source_id": "technipfmc-com-manifolds"
       },
       "value": 30
+    },
+    {
+      "metric": "Pressure",
+      "unit": "psi",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+        "source_id": "technipfmc-com-manifolds"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Temperature",
+      "unit": "deg F",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+        "source_id": "technipfmc-com-manifolds"
+      },
+      "value": 350
     }
   ],
   "vendors": [

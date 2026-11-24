@@ -11,7 +11,7 @@
     {
       "metric": "Capacity",
       "unit": "TR (table); header states 30-3000 TR",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
         "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
@@ -22,7 +22,7 @@
     {
       "metric": "Cooling COP",
       "unit": "up to",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
         "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"
@@ -32,7 +32,7 @@
     {
       "metric": "Exhaust temperature",
       "unit": "deg C",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
         "source_id": "thermaxglobal-com-absorption-chillers-heaters-exhaust-gas-driven-a"

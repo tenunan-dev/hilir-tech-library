@@ -11,7 +11,7 @@
     {
       "metric": "Capacity",
       "unit": "t/day",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
@@ -21,7 +21,7 @@
     {
       "metric": "Basis for larger plants",
       "unit": "t/day",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
@@ -32,7 +32,7 @@
     {
       "metric": "LP once-through converter suction pressure",
       "unit": "bar approx.",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
@@ -42,7 +42,7 @@
     {
       "metric": "HP loop operating pressure",
       "unit": "bar",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
@@ -52,7 +52,7 @@
     {
       "metric": "Share of ammonia from once-through converter",
       "unit": "qualitative",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
@@ -62,7 +62,7 @@
     {
       "metric": "Ammonia condensed from once-through effluent",
       "unit": "%",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"

@@ -23,6 +23,26 @@
       },
       "unit": "qualitative",
       "value": "tubular and regenerative air heaters"
+    },
+    {
+      "metric": "Function",
+      "basis": "John Zink Products page product card for Air Heaters & Recuperators",
+      "source": {
+        "url": "https://www.johnzink.com/products",
+        "source_id": "johnzink-com-products"
+      },
+      "unit": "qualitative",
+      "value": "Advanced combustion solutions for indirect-fired process gas heating applications"
+    },
+    {
+      "metric": "Characteristics",
+      "basis": "John Zink Products page product card",
+      "source": {
+        "url": "https://www.johnzink.com/products",
+        "source_id": "johnzink-com-products"
+      },
+      "unit": "qualitative",
+      "value": "Clean air contact with products and high efficiency in heat transfer"
     }
   ],
   "vendors": [

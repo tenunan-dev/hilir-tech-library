@@ -11,7 +11,7 @@
     {
       "metric": "height range",
       "unit": "mm",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
         "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
@@ -22,7 +22,7 @@
     {
       "metric": "SPC 2000 mass",
       "unit": "kg",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
         "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
@@ -32,7 +32,7 @@
     {
       "metric": "SPC 2000 anchor bolts",
       "unit": "count/size",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
         "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"

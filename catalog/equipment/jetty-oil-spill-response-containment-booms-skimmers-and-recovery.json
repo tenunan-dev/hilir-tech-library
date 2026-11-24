@@ -20,6 +20,28 @@
         "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
       },
       "value": "Neoprene (vulcanised) or polyurethane; air or foam filled"
+    },
+    {
+      "metric": "inflated height (catalogue range)",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
+        "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
+      },
+      "low": 750,
+      "high": 1500
+    },
+    {
+      "metric": "freeboard",
+      "unit": "mm",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
+        "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
+      },
+      "low": 335,
+      "high": 600
     }
   ],
   "vendors": [

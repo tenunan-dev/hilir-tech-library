@@ -1,0 +1,91 @@
+{
+  "id": "te-connectivity-seacon-seacon-hydraelectric-wet-mate-connectors-incl-hydrael",
+  "name": "SEACON HydraElectric Wet-Mate Connectors (incl. HydraElectric Ethernet Connector)",
+  "manufacturer": "te-connectivity-seacon",
+  "product_type": "fl-system",
+  "equipment": [
+    "fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246"
+  ],
+  "description": "HTML product-group page read; linked DDE datasheet not separately read.",
+  "specifications": [
+    {
+      "metric": "Electrical circuits",
+      "unit": "circuits",
+      "basis": "Features: 'Modular construction with 4, 7 or 12 electrical circuits'",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
+        "source_id": "cat-te-com-electrical-wet-mate-html"
+      },
+      "value": "4, 7 or 12"
+    },
+    {
+      "metric": "Water depth qualification",
+      "unit": "m",
+      "basis": "Features: 'Qualified for use at 4,000m water depth'",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
+        "source_id": "cat-te-com-electrical-wet-mate-html"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Standards",
+      "unit": "standard",
+      "basis": "Features: 'Designed in accordance with ISO 13628-6 and API 17F - SEAFOM TSD-02, Statoil and Total requirements'",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
+        "source_id": "cat-te-com-electrical-wet-mate-html"
+      },
+      "value": "ISO 13628-6; API 17F; SEAFOM TSD-02"
+    },
+    {
+      "metric": "Ethernet data rate",
+      "unit": "Mbit/s",
+      "basis": "HydraElectric Ethernet Connector features: 'Up to 100 Mbit/s'",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
+        "source_id": "cat-te-com-electrical-wet-mate-html"
+      },
+      "high": 100
+    },
+    {
+      "metric": "Ethernet contacts",
+      "unit": "contacts",
+      "basis": "HydraElectric Ethernet Connector features: '12 contacts'",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
+        "source_id": "cat-te-com-electrical-wet-mate-html"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Ethernet voltage rating",
+      "unit": "V",
+      "basis": "Features: 'Qualified for both 1500 VDC and 1000 VAC pin to pin'",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
+        "source_id": "cat-te-com-electrical-wet-mate-html"
+      },
+      "value": "1500 VDC and 1000 VAC pin to pin"
+    },
+    {
+      "metric": "Interface",
+      "unit": "n/a",
+      "basis": "Features bullet",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
+        "source_id": "cat-te-com-electrical-wet-mate-html"
+      },
+      "value": "SEACON MKII Pressure Balanced Oil Filled (PBOF) hose interface as standard"
+    }
+  ],
+  "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
+  "sources": [
+    {
+      "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
+      "source_id": "cat-te-com-electrical-wet-mate-html"
+    }
+  ],
+  "notes": "HTML product-group page read; linked DDE datasheet not separately read.",
+  "last_reviewed": "2026-11-24"
+}

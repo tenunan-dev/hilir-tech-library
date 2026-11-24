@@ -52,6 +52,127 @@
       "value": 180,
       "low": 180,
       "high": 180
+    },
+    {
+      "metric": "water depth",
+      "unit": "m",
+      "basis": "Wikipedia Oil platform",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "sys-en-wikipedia-org-oil-platform"
+      },
+      "low": 180,
+      "high": 1300
+    },
+    {
+      "metric": "Iron Lady deck",
+      "unit": "description",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
+        "source_id": "allseas-com-our-fleet-pioneering-spirit"
+      },
+      "value": "SPMT-equipped deck with ballast system (no capacity figure printed)"
+    },
+    {
+      "metric": "Load-out capability",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.mammoet.com/offshore/topside-load-out/",
+        "source_id": "mammoet-com-topside-load-out"
+      },
+      "value": ">20,000"
+    },
+    {
+      "metric": "Load relief",
+      "unit": "mechanism",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/",
+        "source_id": "hitechelastomers-com-leg-mating-unit"
+      },
+      "value": "sand release valve lowers plunger assembly"
+    },
+    {
+      "metric": "Tandem lift (guyed mode)",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": 6300
+    },
+    {
+      "metric": "Lifting capacity",
+      "unit": "t",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": 5000
+    },
+    {
+      "metric": "Qingdao annual production",
+      "unit": "tons/yr",
+      "basis": "single onshore unit 50,000 t; floating unit 300,000 t; up to 15,000 t onshore transport",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
+        "source_id": "cnoocengineering-com-solutions-yards"
+      },
+      "value": 300000
+    },
+    {
+      "metric": "Qingdao slideways",
+      "unit": "capacity",
+      "basis": "plus two 800 t and one 600 t gantry cranes",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
+        "source_id": "cnoocengineering-com-solutions-yards"
+      },
+      "value": "five, 4,000-50,000 t bearing capacity"
+    },
+    {
+      "metric": "Zhuhai annual production",
+      "unit": "tons/yr",
+      "basis": "deepwater floating structures, semi-submersibles, TLPs, spars, FLNG/FPSO topsides",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
+        "source_id": "cnoocengineering-com-solutions-yards"
+      },
+      "value": 250000
+    },
+    {
+      "metric": "Zhuhai slideway 1",
+      "unit": "T",
+      "basis": "slideway 3 is 12,000 T",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
+        "source_id": "cnoocengineering-com-solutions-yards"
+      },
+      "value": 35000
+    },
+    {
+      "metric": "Ranking",
+      "unit": "description",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
+        "source_id": "heerema-com-heerema-marine-contractors-fleet"
+      },
+      "value": "world's largest barge (Heerema claim)"
+    },
+    {
+      "metric": "Energy range",
+      "unit": "kJ",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
+        "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
+      },
+      "value": "320-3,500"
     }
   ],
   "vendors": [

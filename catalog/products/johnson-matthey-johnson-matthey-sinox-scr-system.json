@@ -11,7 +11,7 @@
     {
       "metric": "NOx reduction",
       "unit": "% greater than, stationary diesel and gas engines",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "matthey-com-emissions-control-nox-control-systems"
@@ -21,7 +21,7 @@
     {
       "metric": "Service interval",
       "unit": "hours before maintenance, stated",
-      "basis": "",
+      "basis": "Value as printed in the cited source; no further qualifier stated.",
       "source": {
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "matthey-com-emissions-control-nox-control-systems"

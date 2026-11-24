@@ -21,6 +21,78 @@
       },
       "low": 1000,
       "high": 1600
+    },
+    {
+      "metric": "Volume flow",
+      "basis": "Printed under Technical data (metric view) on AERZEN product page",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+        "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+      },
+      "unit": "m3/h",
+      "low": "50",
+      "high": "38,000"
+    },
+    {
+      "metric": "Differential pressure (delta p)",
+      "basis": "Printed under Technical data (metric view) on AERZEN product page",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+        "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+      },
+      "unit": "mbar",
+      "low": "150",
+      "high": "2,000"
+    },
+    {
+      "metric": "Medium",
+      "basis": "Printed under Technical data",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+        "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+      },
+      "unit": "n/a",
+      "value": "Process Gases"
+    },
+    {
+      "metric": "Conveying",
+      "basis": "Printed under Technical data",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+        "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+      },
+      "unit": "n/a",
+      "value": "Oil-free"
+    },
+    {
+      "metric": "Stage configuration",
+      "basis": "Printed in product description",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+        "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+      },
+      "unit": "n/a",
+      "value": "1 or 2 stage design"
+    },
+    {
+      "metric": "Shaft sealing",
+      "basis": "Printed under 'advantages at a glance': low-maintenance sealing system with magnetic coupling",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+        "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+      },
+      "unit": "n/a",
+      "value": "magnetic coupling"
+    },
+    {
+      "metric": "Rotor design",
+      "basis": "Printed under 'advantages at a glance'",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
+        "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
+      },
+      "unit": "n/a",
+      "value": "robust two-lobe rotor design (gas-tight sealed)"
     }
   ],
   "vendors": [
