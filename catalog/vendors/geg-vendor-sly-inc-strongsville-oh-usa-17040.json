@@ -1,0 +1,22 @@
+{
+  "id": "geg-vendor-sly-inc-strongsville-oh-usa-17040",
+  "name": "Sly Inc., Strongsville, OH, USA",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Sly Inc., Strongsville, OH, USA named on a page read for the GEG plant WBS supply-chain sweep.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed WBS/BOQ sweep."
+}

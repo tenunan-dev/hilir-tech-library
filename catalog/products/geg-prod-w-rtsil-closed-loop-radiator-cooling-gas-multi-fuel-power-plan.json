@@ -1,0 +1,32 @@
+{
+  "id": "geg-prod-w-rtsil-closed-loop-radiator-cooling-gas-multi-fuel-power-plan",
+  "name": "Wärtsilä closed-loop radiator cooling (gas/multi-fuel power plants)",
+  "manufacturer": "wartsila",
+  "product_type": "closed-circuit-radiator-cooling-arrangement",
+  "equipment": [
+    "geg-cooling-water-system-with-air-cooled-radiator"
+  ],
+  "description": "closed-circuit radiator cooling arrangement",
+  "specifications": [
+    {
+      "metric": "Plant process water consumption with closed-loop radiator cooling",
+      "unit": "l/MWh",
+      "basis": "Wärtsilä 'Gas and multi-fuel power plants' brochure, 'Closed-circuit radiator cooling with only 0.2 l/MWh water consumption'; printed imprint 08.2017; read via r.jina.ai 2023-08-18.",
+      "value": 0.2,
+      "year": 2017,
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+        "source_id": "geg-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
+      }
+    }
+  ],
+  "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+      "source_id": "geg-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

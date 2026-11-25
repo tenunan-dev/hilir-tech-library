@@ -12,7 +12,7 @@
   "status": "operating",
   "description": "Printed in JM power generation brochure, cover ©2018 Johnson Matthey.",
   "technologies": [
-    "pwr-alaska-geg-wbs-supply-chain"
+    "pwr-geg-plant-wbs-supply-chain"
   ],
   "milestones": [
     {
@@ -20,7 +20,7 @@
       "date": "2003",
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
-        "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
+        "source_id": "geg-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
       }
     }
   ],
@@ -34,7 +34,7 @@
       "high": 700,
       "source": {
         "url": "https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf",
-        "source_id": "alaska-epa-gov-catalog-of-chp-technologies-section-461c8db"
+        "source_id": "geg-epa-gov-catalog-of-chp-technologies-section-461c8db"
       }
     },
     {
@@ -46,35 +46,35 @@
       "high": 135,
       "source": {
         "url": "https://www.epa.gov/system/files/documents/2022-03/gas-fired-scr-cost-methodology.pdf",
-        "source_id": "alaska-epa-gov-gas-fired-scr-cost-methodology-pdf-a889d3a"
+        "source_id": "geg-epa-gov-gas-fired-scr-cost-methodology-pdf-a889d3a"
       }
     }
   ],
   "sources": [
     {
       "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
-      "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9",
+      "source_id": "geg-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9",
       "note": "Printed in JM power generation brochure, cover ©2018 Johnson Matthey."
     },
     {
       "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
-      "source_id": "alaska-matthey-com-nox-control-systems-af80333"
+      "source_id": "geg-matthey-com-nox-control-systems-af80333"
     },
     {
       "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
-      "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
+      "source_id": "geg-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
     },
     {
       "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
-      "source_id": "alaska-umicore-com-data-center-emission-control-cat-a1abcab"
+      "source_id": "geg-umicore-com-data-center-emission-control-cat-a1abcab"
     },
     {
       "url": "https://patents.google.com/patent/EP3137745B1/en",
-      "source_id": "alaska-patents-google-com-en-70a2d76"
+      "source_id": "geg-patents-google-com-en-70a2d76"
     },
     {
       "url": "https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf",
-      "source_id": "alaska-epa-gov-catalog-of-chp-technologies-section-461c8db"
+      "source_id": "geg-epa-gov-catalog-of-chp-technologies-section-461c8db"
     }
   ],
   "gaps": [
@@ -85,5 +85,5 @@
     }
   ],
   "last_reviewed": "2026-11-25",
-  "notes": "Reference project from the Alaska GEG WBS sweep (3.2 Mechanical)."
+  "notes": "Reference project from the GEG plant WBS sweep (3.2 Mechanical)."
 }

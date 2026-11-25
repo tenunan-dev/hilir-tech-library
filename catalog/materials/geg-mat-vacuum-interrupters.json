@@ -1,0 +1,25 @@
+{
+  "id": "geg-mat-vacuum-interrupters",
+  "name": "Vacuum interrupters",
+  "material_category": "arc-quenching-medium",
+  "description": "Vacuum interrupters named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "Technology description",
+      "unit": "qualitative (OEM catalogue)",
+      "basis": "Siemens Catalog HG 11.06 Edition 2017, 'Switching medium'; read 2026-11-25 via r.jina.ai (value: vacuum switching technology using vacuum interrupters as arc-quenching principle)",
+      "year": 2017,
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
+        "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
+      "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

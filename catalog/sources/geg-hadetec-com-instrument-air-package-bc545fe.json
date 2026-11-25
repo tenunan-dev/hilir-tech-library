@@ -1,0 +1,26 @@
+{
+  "id": "geg-hadetec-com-instrument-air-package-bc545fe",
+  "name": "Instrument Air Package",
+  "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "HADETEC / Rootselaar Group",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Page read 2026-11-25; site footer ©2026; no publication date on product page. Figure table includes explicit 'other capacities and pressure ranges available upon request'.. Exact printed figures are recorded in the linked records' basis fields."
+}

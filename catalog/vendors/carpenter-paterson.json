@@ -2,10 +2,18 @@
   "id": "carpenter-paterson",
   "name": "Carpenter & Paterson",
   "country": "USA",
-  "roles": ["oem", "supplier"],
-  "categories": ["equipment-oem", "fabrication"],
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem",
+    "fabrication"
+  ],
   "description": "Pipe hanger and support specialist that designs, engineers and fabricates pipe hangers and engineered supports, from estimating and take-offs to PE-stamped designs and rapid fabrication.",
-  "technologies": ["civ-pipe-racks-supports"],
+  "technologies": [
+    "civ-pipe-racks-supports"
+  ],
   "url": "https://pipehangers.com",
   "sources": [
     {

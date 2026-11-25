@@ -1,0 +1,86 @@
+{
+  "id": "geg-freight-transport-cargo-insurance-and-installation",
+  "name": "Freight, transport, cargo insurance and installation",
+  "equipment_type": "freight-installation",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Freight, transport, cargo insurance and installation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Freight, transport, cargo insurance and installation"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Marine cargo insurance certificate / p — fixed stamp duty for cargo insurance documents",
+      "unit": "RM (fixed)",
+      "basis": "HASiL Guideline LHDN.AG.600-1/10/3 printed 30 June 2026, section G: 'dikenakan duti secara amnya RM10' with section 4.11 listing Cargo Insurance Certificate, Cargo Insurance Policy, Certificate of Insurance Marine Cargo Policy (Export), Marine Cargo Insurance Certificate and Marine Declaration Cum Certificate of Insurance.",
+      "value": 10,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+        "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+      }
+    },
+    {
+      "metric": "GE Frame 6FA gas turbines and generato — number of gas turbines supplied",
+      "unit": "units",
+      "basis": "GE press release 14 June 2011: three Frame 6FA gas turbines, associated generators and services for 300 MW CCGT in Sabah; 'expected to be shipped in the first quarter of 2012, with commercial operation scheduled to begin in the fourth quarter of 2013'. No freight cost printed.",
+      "value": 3,
+      "year": 2011,
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+        "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "mob-vendor-ge-prelude-compressor-trains-secondary-source-not-re-24889",
+      "line": "GE Frame 6FA gas turbines and generators (shipped to Kimanis)",
+      "note": "GEG freight/installation reference"
+    }
+  ],
+  "vendors": [
+    "mob-vendor-ge-prelude-compressor-trains-secondary-source-not-re-24889"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+      "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+    },
+    {
+      "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+      "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
+    },
+    {
+      "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf",
+      "source_id": "geg-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
+    },
+    {
+      "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+      "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead",
+      "note": "3 x Frame 6FA gas turbines plus generators; BOOT plant developed by Kimanis Power Sdn Bhd."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Freight, Transportation, Cargo Insurance and Installation [Handling, Taxes and Insurances] - GEG & BOP",
+      "why": "No ocean freight rate, heavy-lift/handling charge, Malaysian import duty or sales-tax figure, cargo-insurance premium or installation price for GEG/BOP into Sabah was found in the sources read. Only the RM10 cargo-insurance stamp duty and a shipment date are printed.",
+      "next_action": "Obtain quoted freight/handling/insurance/tax amounts per shipment and keep them separate from the RM10 stamp duty."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

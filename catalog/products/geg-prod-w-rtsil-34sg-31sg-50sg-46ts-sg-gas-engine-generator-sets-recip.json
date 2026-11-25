@@ -1,0 +1,151 @@
+{
+  "id": "geg-prod-w-rtsil-34sg-31sg-50sg-46ts-sg-gas-engine-generator-sets-recip",
+  "name": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG gas engine generator sets",
+  "manufacturer": "wartsila",
+  "product_type": "reciprocating-gas-engine-generator-set-lean-burn-s",
+  "equipment": [
+    "geg-gas-engine-generator-units"
+  ],
+  "description": "reciprocating gas engine generator set (lean-burn, spark-ignited)",
+  "specifications": [
+    {
+      "metric": "Electrical output range, Wärtsilä 34SG",
+      "unit": "MW",
+      "basis": "Wärtsilä Energy 'Engine power plant products' product selector as displayed 2026-11-25; page shows two ratings per engine (5.8-9.8 MW and 5.6-9.4 MW). No print date on the page; site footer (c) 2026 Wärtsilä.",
+      "low": 5.6,
+      "high": 9.8,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Electrical efficiency, Wärtsilä 34SG",
+      "unit": "%",
+      "basis": "Wärtsilä Energy product selector, '48.9% efficiency / 48.8% efficiency | Over 80% CHP efficiency', as displayed 2026-11-25; two figures shown side by side, both retained.",
+      "value": 48.9,
+      "low": 48.8,
+      "high": 48.9,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Electrical output, Wärtsilä 31SG",
+      "unit": "MW",
+      "basis": "Wärtsilä Energy product selector, two ratings shown (11.8 MW and 11.4 MW), as displayed 2026-11-25.",
+      "low": 11.4,
+      "high": 11.8,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Electrical efficiency, Wärtsilä 31SG",
+      "unit": "%",
+      "basis": "Wärtsilä Energy product selector '51.5% efficiency / 51.6% efficiency | 90% CHP efficiency', as displayed 2026-11-25; both printed values kept side by side.",
+      "low": 51.5,
+      "high": 51.6,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Electrical output, Wärtsilä 50SG",
+      "unit": "MW",
+      "basis": "Wärtsilä Energy product selector, two ratings shown (18.4 MW and 18.9 MW), as displayed 2026-11-25; white paper separately gives 18.5 MW for the 18V50SG.",
+      "low": 18.4,
+      "high": 18.9,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Electrical efficiency, Wärtsilä 50SG",
+      "unit": "%",
+      "basis": "Wärtsilä Energy product selector, '49.9% efficiency / 50.0% efficiency | 30 sec power to grid', as displayed 2026-11-25.",
+      "low": 49.9,
+      "high": 50.0,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Electrical output range, Wärtsilä 46TS-SG",
+      "unit": "MW",
+      "basis": "Wärtsilä Energy product selector, '20.4 MW - 22.9 MW', as displayed 2026-11-25.",
+      "low": 20.4,
+      "high": 22.9,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Simple cycle efficiency of modern combustion engines (generator terminals)",
+      "unit": "%",
+      "basis": "Wärtsilä white paper 'Combustion engine power plants', section 1 'Simple cycle efficiency': 'modern combustion engines reach 47.5% simple cycle efficiency (heat rate 7187 Btu/kWh), measured at generator terminals'. r.jina.ai reports Published Time Tue, 14 Apr 2020; document footer states 'Copyright (c) 2011 Wärtsilä Corporation'. Fetched via r.jina.ai because direct PDF fetch returned unsupported ",
+      "value": 47.5,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "geg-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
+      }
+    },
+    {
+      "metric": "Gas pressure required at power plant",
+      "unit": "bar(a)",
+      "basis": "Wärtsilä white paper 'Combustion engine power plants': 'A gas pressure of just 5 bar(a) (73 PSI) is required'. Published Time Tue, 14 Apr 2020 per r.jina.ai; document footer copyright 2011 Wärtsilä Corporation.",
+      "value": 5,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "geg-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
+      }
+    },
+    {
+      "metric": "Combustion engine speed range (medium-speed)",
+      "unit": "rpm",
+      "basis": "Wärtsilä white paper 'Combustion engine power plants' section 1: 'Medium-speed engines run at between 300 to 1000 rpm, and the engine and the generator run at the same speed so there is no need for a gearbox.' Published Time Tue, 14 Apr 2020 per r.jina.ai; footer copyright 2011 Wärtsilä Corporation.",
+      "low": 300,
+      "high": 1000,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "geg-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
+      }
+    },
+    {
+      "metric": "Flexicycle combined cycle efficiency, plant net at site",
+      "unit": "%",
+      "basis": "Wärtsilä white paper 'Combustion engine power plants' section 4: 'Combined cycle mode - for competitive base load power - 50.0 % efficiency, 6829 Btu/kWhe'; note says 'Efficiencies and heat rates are given as plant net at site conditions.' Published Time Tue, 14 Apr 2020 per r.jina.ai; footer copyright 2011 Wärtsilä Corporation.",
+      "value": 50.0,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "geg-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
+      }
+    }
+  ],
+  "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+      "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

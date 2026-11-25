@@ -1,0 +1,25 @@
+{
+  "id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e",
+  "name": "CENTUM VP General Specifications GS 33K01A10-50E",
+  "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "INS",
+    "ELE",
+    "DIG"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Yokogawa Electric Corporation",
+  "access": "open",
+  "licence": "© Yokogawa Electric Corporation; subject to change without notice",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: GS 33K01A10-50E, © Copyright Aug. 2011 (YK), 12th Edition Sep. 1, 2014; r.jina.ai reports Published Time Fri, 10 Apr 2020. Read via r.jina.ai because WebFetch rejects application/pdf.. Exact printed figures are recorded in the linked records' basis fields."
+}

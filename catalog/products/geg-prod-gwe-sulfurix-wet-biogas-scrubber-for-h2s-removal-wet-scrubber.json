@@ -1,0 +1,109 @@
+{
+  "id": "geg-prod-gwe-sulfurix-wet-biogas-scrubber-for-h2s-removal-wet-scrubber",
+  "name": "GWE SULFURIX™ wet biogas scrubber for H2S removal",
+  "manufacturer": "geg-vendor-unidentified",
+  "product_type": "wet-scrubber-biological-h2s-removal-tower",
+  "equipment": [
+    "geg-gas-treatment-scrubber"
+  ],
+  "description": "wet scrubber / biological H2S removal tower",
+  "specifications": [
+    {
+      "metric": "single-stage sulphide removal",
+      "unit": "% (printed 'about 80-95% sulfide removal')",
+      "basis": "Global Water & Energy SULFURIX™ technology page; page read 2026-11-25; no page publication date printed.",
+      "low": 80,
+      "high": 95,
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "two-stage combined removal efficiency",
+      "unit": "% (printed 'more than 99% in many cases')",
+      "basis": "GWE SULFURIX™ page; page read 2026-11-25.",
+      "high": 99,
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "standard model height",
+      "unit": "m (approximately 20-30ft)",
+      "basis": "GWE SULFURIX™ page: 'series of standard models with heights ranging from 6 to 9-meters'; page read 2026-11-25.",
+      "low": 6,
+      "high": 9,
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "biogas flow range",
+      "unit": "m3/h (printed '100 to >1000 m3/h (about 60 to >600scfm)')",
+      "basis": "GWE SULFURIX™ page; page read 2026-11-25.",
+      "low": 100,
+      "high": 1000,
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "assumed washing liquid conditions",
+      "unit": "activated sludge, pH 7.3 and 30°C (printed 'standard conditions of pH 7.3 and 30",
+      "basis": "GWE SULFURIX™ page; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "suitable raw gas H2S concentration",
+      "unit": "% (printed 'particularly suitable for treating H2S rich biogas (> 1% concentrati",
+      "basis": "GWE SULFURIX™ page; page read 2026-11-25.",
+      "value": 1,
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "construction materials",
+      "unit": "anti-static HDPE and polyester (corrosion-proof)",
+      "basis": "GWE SULFURIX™ page; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "blower requirement",
+      "unit": "typically no biogas blowers required (pressure loss minimal)",
+      "basis": "GWE SULFURIX™ page; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
+      }
+    }
+  ],
+  "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+  "sources": [
+    {
+      "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+      "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

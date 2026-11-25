@@ -1,0 +1,24 @@
+{
+  "id": "geg-cummins-com-natural-gas-8d24901",
+  "name": "Natural gas generators",
+  "url": "https://www.cummins.com/en-na/generators/natural-gas",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT",
+    "ELE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Cummins Inc.",
+  "access": "open",
+  "licence": "(c) 2026 Cummins Inc.",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Page read 2026-11-25; footer (c) 2026 Cummins Inc.; no article publication date. Case-study dates on page include 25 November 2019 and 11 November 2021.. Exact printed figures are recorded in the linked records' basis fields."
+}

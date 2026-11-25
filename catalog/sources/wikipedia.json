@@ -3,11 +3,29 @@
   "name": "Wikipedia (English)",
   "url": "https://en.wikipedia.org/",
   "source_type": "association",
-  "sectors": ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS"],
-  "disciplines": ["PRC", "ROT", "INS", "MAT", "HSE", "DIG"],
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "PCH",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "MAT",
+    "HSE",
+    "DIG"
+  ],
   "publisher_org": "Wikimedia Foundation",
   "country": "US",
-  "regions": ["global"],
+  "regions": [
+    "global"
+  ],
   "access": "open",
   "licence": "CC-BY-SA-4.0",
   "reuse_level": "full-text-open",

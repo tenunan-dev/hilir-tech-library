@@ -12,35 +12,35 @@
   "status": "operating",
   "description": "Prismecs delivered project scope; location and date not printed in article published 11 February 2024.",
   "technologies": [
-    "pwr-alaska-geg-wbs-supply-chain"
+    "pwr-geg-plant-wbs-supply-chain"
   ],
   "milestones": [],
   "capex": [],
   "sources": [
     {
       "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
-      "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce",
+      "source_id": "geg-prismecs-com-components-of-the-lubrication-s-9e6c5ce",
       "note": "Prismecs delivered project scope; location and date not printed in article publi"
     },
     {
       "url": "https://robenmfg.com/lubricating-oil-storage-application",
-      "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
     },
     {
       "url": "https://atlanticcontainment.com/lube-tanks",
-      "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
     },
     {
       "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
-      "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
+      "source_id": "geg-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
     },
     {
       "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
-      "source_id": "alaska-focusmalaysia-my-kinergy-secures-biggest-epc-2381482"
+      "source_id": "geg-focusmalaysia-my-kinergy-secures-biggest-epc-2381482"
     },
     {
       "url": "https://basiia.com/products/api-650-tanks",
-      "source_id": "alaska-basiia-com-api-650-tanks-28cf110"
+      "source_id": "geg-basiia-com-api-650-tanks-28cf110"
     }
   ],
   "gaps": [
@@ -61,5 +61,5 @@
     }
   ],
   "last_reviewed": "2026-11-25",
-  "notes": "Reference project from the Alaska GEG WBS sweep (3.2 Mechanical)."
+  "notes": "Reference project from the GEG plant WBS sweep (3.2 Mechanical)."
 }

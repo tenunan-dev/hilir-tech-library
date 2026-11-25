@@ -12,7 +12,7 @@
   "status": "operating",
   "description": "11 x Wärtsilä 20V34SG gas gensets, 110 MW, natural gas, EEQ scope; printed in Wärtsilä gas/multi-fuel brochure (08.2017).",
   "technologies": [
-    "pwr-alaska-geg-wbs-supply-chain"
+    "pwr-geg-plant-wbs-supply-chain"
   ],
   "milestones": [
     {
@@ -20,7 +20,7 @@
       "date": "2012",
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
-        "source_id": "alaska-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
+        "source_id": "geg-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
       }
     }
   ],
@@ -34,35 +34,35 @@
       "high": 750,
       "source": {
         "url": "https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf",
-        "source_id": "alaska-epa-gov-catalog-of-chp-technologies-section-461c8db"
+        "source_id": "geg-epa-gov-catalog-of-chp-technologies-section-461c8db"
       }
     }
   ],
   "sources": [
     {
       "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
-      "source_id": "alaska-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3",
+      "source_id": "geg-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3",
       "note": "11 x Wärtsilä 20V34SG gas gensets, 110 MW, natural gas, EEQ scope; printed in Wä"
     },
     {
       "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/",
-      "source_id": "alaska-iacacoustics-global-021ca23"
+      "source_id": "geg-iacacoustics-global-021ca23"
     },
     {
       "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
-      "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
     },
     {
       "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
-      "source_id": "alaska-matthey-com-nox-control-systems-af80333"
+      "source_id": "geg-matthey-com-nox-control-systems-af80333"
     },
     {
       "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
-      "source_id": "alaska-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
+      "source_id": "geg-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
     },
     {
       "url": "https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf",
-      "source_id": "alaska-epa-gov-catalog-of-chp-technologies-section-461c8db"
+      "source_id": "geg-epa-gov-catalog-of-chp-technologies-section-461c8db"
     }
   ],
   "gaps": [
@@ -73,5 +73,5 @@
     }
   ],
   "last_reviewed": "2026-11-25",
-  "notes": "Reference project from the Alaska GEG WBS sweep (3.2 Mechanical)."
+  "notes": "Reference project from the GEG plant WBS sweep (3.2 Mechanical)."
 }

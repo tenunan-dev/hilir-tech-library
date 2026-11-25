@@ -1,0 +1,32 @@
+{
+  "id": "geg-prod-ge-frame-6fa-gas-turbines-and-generators-shipped-to-kimanis-ge",
+  "name": "GE Frame 6FA gas turbines and generators (shipped to Kimanis)",
+  "manufacturer": "mob-vendor-ge-prelude-compressor-trains-secondary-source-not-re-24889",
+  "product_type": "geg-freight-installation-reference",
+  "equipment": [
+    "geg-freight-transport-cargo-insurance-and-installation"
+  ],
+  "description": "GEG freight/installation reference",
+  "specifications": [
+    {
+      "metric": "number of gas turbines supplied",
+      "unit": "units",
+      "basis": "GE press release 14 June 2011: three Frame 6FA gas turbines, associated generators and services for 300 MW CCGT in Sabah; 'expected to be shipped in the first quarter of 2012, with commercial operation scheduled to begin in the fourth quarter of 2013'. No freight cost printed.",
+      "value": 3,
+      "year": 2011,
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+        "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
+      }
+    }
+  ],
+  "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+  "sources": [
+    {
+      "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+      "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

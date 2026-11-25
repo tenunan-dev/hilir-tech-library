@@ -1,0 +1,51 @@
+{
+  "id": "geg-prod-basiia-awwa-d100-welded-carbon-steel-water-storage-tanks-potab",
+  "name": "Basiia AWWA D100 welded carbon steel water storage tanks (potable / fire water / industrial water)",
+  "manufacturer": "geg-vendor-unidentified",
+  "product_type": "atmospheric-steel-water-storage-tank-epc-scope",
+  "equipment": [
+    "geg-water-storage-tank-system"
+  ],
+  "description": "atmospheric steel water storage tank, EPC scope",
+  "specifications": [
+    {
+      "metric": "applicable standard",
+      "unit": "AWWA D100",
+      "basis": "Basiia 'Atmospheric Storage Tanks' page, Key Features 'AWWA D100 — Water Storage Tanks'; page read 2026-11-25; site footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks",
+        "source_id": "geg-basiia-com-api-650-tanks-28cf110"
+      }
+    },
+    {
+      "metric": "potable water contact lining",
+      "unit": "NSF/ANSI 61 lining systems",
+      "basis": "Basiia page: 'including NSF/ANSI 61 lining systems where potable water contact is required'; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks",
+        "source_id": "geg-basiia-com-api-650-tanks-28cf110"
+      }
+    },
+    {
+      "metric": "service scope",
+      "unit": "tank design, foundation specification, appurtenances, roof systems, documentatio",
+      "basis": "Basiia page Overview and Key Features; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks",
+        "source_id": "geg-basiia-com-api-650-tanks-28cf110"
+      }
+    }
+  ],
+  "url": "https://basiia.com/products/api-650-tanks",
+  "sources": [
+    {
+      "url": "https://basiia.com/products/api-650-tanks",
+      "source_id": "geg-basiia-com-api-650-tanks-28cf110"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

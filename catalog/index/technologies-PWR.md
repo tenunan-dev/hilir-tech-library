@@ -5,7 +5,6 @@
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [Aeroderivative and industrial gas turbines](#pwr-aeroderivative-turbines) | Gas-fired power | commercial |  | Baker Hughes (LM6000, LM9000); GE Vernova (LM2500, LM2500XPRESS, LM6000); Solar Turbines (Titan, Taurus, Mars industrial turbines); Siemens Energy (SGT-A35, SGT-A65 aeroderivatives); JEREH (SGT-A05 aeroderivative genset packages (Jereh Distributed Energy); packaging and distribution of FTAI's Mod-1 CFM56 gensets via the J&F Power Systems joint venture) | overnight capital cost, aeroderivative simple cycle: 1606 USD per kW (2023$) |
-| [Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV)](#pwr-alaska-geg-wbs-supply-chain) | Gas engine power plant EPC | commercial |  | Supplier not identified in sources read (WBS line item); Wärtsilä Corporation; PT Pembangunan Perumahan (Persero) Tbk (PT PP); EPV Energy Ltd; Kenya Electricity Generating Company Limited (KenGen); Tsavo Power Company Limited; Clarke Energy (authorised distributor and service provider in 27 countries); SynCraft (Jenbacher J412 customer/project partner); Stadtwerke Kiel (190 MW J920 CHP project owner); Rolls-Royce Power Systems (MTU brand); IAC Acoustics (UK Ltd / IAC World); Rolls-Royce / mtu solutions; Johnson Matthey (EU and Asia applications enquiries listed on page); Camfil; Donaldson Company, Inc.; Kohler Power Systems (Kohler Energy); Umicore; Johnson Matthey Catalysts Germany GmbH; Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia; Dunham-Bush (Malaysia and regional operations); T.D. Williamson, LLC (Tulsa, OK, USA); Preferred Utilities Manufacturing Corp., Danbury, CT, USA; Preferred Utilities Manufacturing Corp.; Roben Mfg., Inc. (Lakewood, NJ, USA); Atlantic Containment LLC (McGaheysville, VA, USA); Prismecs (OEM-agnostic EPCM/O&M provider, Houston, TX); PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia); Alfa Laval (Malaysia site alfalaval.my; product OFPX 517); Ruhrpumpen Group; Tornatech (controllers); Clarke (C18 diesel engine); HADETEC (Nijkerk, Netherlands; member of Rootselaar Group); Comair (Shanghai, China); nano-purification solutions Asia Pacific (Singapore); HADETEC (Nijkerk, Netherlands; Rootselaar Group); Aerodyn Group Malaysia (Shah Alam and Labuan); Pneumatech; ELGI; Quincy; SPX Jemaco | Price — Total capital cost, 4 x 5.6 MW natural-gas reciprocating engine (RICE) plant, 21.4 MW net: 3.8727e+07 USD (2019$)<br>Price — Overnight capital cost per kW net, 4 x 5.6 MW natural-gas RICE plant: 1810 USD/kW (2019$)<br>Price — Engines and associated auxiliaries, owner-furnished from engine OEM (4 x 5.6 MW case): 1.1974e+07 USD (2019$)<br>Price — Total installed cost, industrial natural gas reciprocating engine 1,000 kW, year 2015: 1899 USD/kW (2015$)<br>Price — Total installed cost, industrial natural gas reciprocating engine 1,000 kW, year 2020: 2105 USD/kW (2020$)<br>Price — Total installed cost, industrial natural gas reciprocating engine 3,000 kW, year 2015: 1742 USD/kW (2015$)<br>Price — Total installed cost, industrial natural gas reciprocating engine 3,000 kW, year 2020: 1931 USD/kW (2020$)<br>Price — Exhaust gas treatment capital cost (representative lean-burn gas engine CHP, systems 2-5 in Table 2-4): 150-750 $/kW (2013 dollars, USD as printed) (2013$)<br>Price — SCR with oxidation catalyst and CEMS capital-cost increment, lean-burn reciprocating-engine CHP: 150-700 $/kW (2013 dollars, USD as printed) (2013$)<br>Price — SCR total project cost per kW, 500 MW oil/gas-fired boiler IPM example (NOT a gas-engine figure — printed scope retained for comparison): 127-135 $/kW (2021 dollars, USD; EPA IPM methodology February 2023) (2021$)<br>Price — ASME B31.1-2026 Power Piping standard list price (print book or PDF): 450 $450.00 (USD as printed, 2026 edition) (2026$)<br>Price — reference price, 1 ton single girder overhead crane: 1830-5100 USD (2025$)<br>Price — reference price, 5 ton single girder overhead crane: 3130-8680 USD (2025$)<br>Price — reference price, 10 ton single girder overhead crane: 3890-12000 USD (2025$)<br>Price — reference price, 5t LH-type double girder crane with hoist trolley: 15600-29500 USD (2025$)<br>Price — reference price, 10t LH-type double girder crane with hoist trolley: 17200-32500 USD (2025$)<br>Price — reference price, 20t/5t LH-type double girder crane: 25500-45900 USD (2025$)<br>Price — reference price, 50t/10t LH-type double girder crane: 49500-72000 USD (2025$)<br>Price — reference price, 100t/20t LH-type double girder crane: 115000-166700 USD (2025$)<br>Price — reference price, manual single girder overhead crane 1 ton: 840-1800 USD (2025$)<br>Price — typical automation system delivery order value (not the disclosed SESB order value): 1e+06-3e+06 EUR<br>Price — IEC 62052-11:2020 electronic standard list price: 405 CHF<br>Price — Lighting point, PVC cable in conduit (switch separate): 85 RM/point<br>Price — MCB single pole up to 32A: 32 RM/no<br>Price — Insulation and continuity test, single-phase DB: 719 RM/no<br>Price — EPC contract value, 132/33/11 kV Star1 & Star2 substation incl. GIS building: 1.83e+08 AED<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — BRC A6 steel fabric: 35.1 RM/m2<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Formwork to columns: 69.3 RM/m2<br>Price — Bored pile 600 mm diameter: 600-1000 RM/m<br>Price — Drill 1000 mm nominal diameter vertical holes in soil other than rock with temporary casing: 109-450 RM/m<br>Price — Drill 1000 mm nominal diameter vertical holes in rock: 900-2200 RM/m<br>Price — 1000 mm nominal diameter x 12 mm thick permanent casing: 2000-3300 RM/m<br>Price — Concreted length with Grade 40/20: 253.6-497.4 RM/m3<br>Price — High yield reinforcement up to 12 mm / 16 mm and above: 3000-3636 RM/tonne<br>Price — Cutting off pile heads and preparing as shown: 249-335 RM/no<br>Price — Mobilisation/demobilisation of labour, plant and drilling equipment for bored piling: 20000-185000 RM/sum<br>Price — Initial maintained load test to 2.0 x maximum working load, 5500 kN pile: 50000-60900 RM/no<br>Price — Pile dynamic analyser (PDA) test: 485-5024.3 RM/no<br>Price — Handle, pitch and drive vertical 300 x 300 mm precast RC pile: 12-30 RM/m<br>Price — Bore 200 mm diameter micropile not exceeding 13.5 m deep in soil: 50-115 RM/m<br>Price — Supply and drive 12 m long steel sheet pile type OZ 13A or equivalent: 180-460 RM/m2<br>Price — Site clearing (semak, tunggul, akar): 0.9 RM/m2<br>Price — Excavate topsoil up to 150 mm by machine: 4.2 RM/m2<br>Price — Excavate foundation pit not exceeding 1 m3 by machine: 22 RM/no<br>Price — Excavate trench up to 1.5 m deep by machine: 21.2 RM/m3<br>Price — Dispose surplus soil 1-5 km by lorry: 37.6 RM/m3<br>Price — Hardcore 150 mm under concrete floor: 14.4 RM/m2<br>Price — Preload fill (sand/aggregate), place, surcharge, monitor settlement, remove: 50-120 RM/m3<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — Additional per 25 mm of slab thickness: 12.3 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Mild steel reinforcement 6 mm (links): 6.2 RM/kg<br>Price — BRC A6 steel fabric: 35.1 RM/m2<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Formwork to columns: 69.3 RM/m2<br>Price — Half-brick clay wall 113 mm: 76.8 RM/m2<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — Additional per 25 mm of slab thickness: 12.3 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — BRC A6 steel fabric: 35.1 RM/m2<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Formwork to columns: 69.3 RM/m2<br>Price — Half-brick clay wall 113 mm: 76.8 RM/m2<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — EPC contract value, 132/33/11 kV Star1 & Star2 substation incl. GIS building: 1.83e+08 AED<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Lighting point, PVC cable in conduit (switch separate): 85 RM/point<br>Price — MCB single pole up to 32A: 32 RM/no<br>Price — Insulation and continuity test, single-phase DB: 719 RM/no<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Half-brick clay wall 113 mm: 76.8 RM/m2<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Borehole 150 mm dia, soil through residual to weathered rock: 250-500 RM/m<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Excavate foundation pit not exceeding 1 m3 by machine: 22 RM/no<br>Price — RC retaining wall up to 3 m (cantilever): 800-1500 RM/m2 wall face<br>Price — RC retaining wall 3-6 m (cantilever): 1500-2500 RM/m2 wall face<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — RC retaining wall up to 3 m (cantilever): 800-1500 RM/m2 wall face<br>Price — RC retaining wall 3-6 m (cantilever): 1500-2500 RM/m2 wall face<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — uPVC soil pipe 100 mm: 22.4 RM/m<br>Price — Brick inspection chamber/manhole up to 600 mm deep: 174.5 RM/no<br>Price — Cast iron manhole cover 600 x 450 mm: 158.4 RM/no<br>Price — Subsoil drain 100 mm UPVC perforated, gravel surround, geotextile filter: 150-280 RM/linear m<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — Soil nail with 100 mm shotcrete + BRC A8 mesh, permanent (32 mm Grade 670, 1.5x1.5 m grid, 9-12 m, residual soil): 200-400 RM/m2 of slope face<br>Price — Individual permanent soil nail (32 mm Grade 670, 9-12 m, HDG, grouted): 1500-3500 RM/nail<br>Price — Wet-mix shotcrete 100 mm thickness with mesh: 130-200 RM/m2<br>Price — Shotcrete, volume basis (for comparison with structural concrete): 1200-1800 RM/m3<br>Price — Gabion wall up to 4 m (galvanised + PVC double-twist mesh, stone fill): 500-900 RM/m2 wall face<br>Price — Site clearing (semak, tunggul, akar): 0.9 RM/m2<br>Price — Excavate topsoil up to 150 mm by machine: 4.2 RM/m2<br>Price — Hardcore 150 mm under concrete floor: 14.4 RM/m2<br>Price — total Kimanis 300 MW CCGT plant capital (not a construction-management component): 1.5e+09 RM<br>Price — lease stamp duty per RM250 of annual rent, term up to 1 year: 1 RM per RM250 or part thereof<br>Price — lease stamp duty per RM250 of annual rent, term over 1 to 3 years: 3 RM per RM250 or part thereof<br>Price — lease stamp duty per RM250 of annual rent, term over 3 to 5 years: 5 RM per RM250 or part thereof<br>Price — lease stamp duty per RM250 of annual rent, term over 5 years: 7 RM per RM250 or part thereof<br>Price — fixed stamp duty, electricity and water supply application forms: 10 RM (fixed)<br>Price — ad valorem stamp duty on security/bond instruments, first RM100,000: 1-4 RM per RM100 or part thereof (RM1.00 first RM100,000; RM2.00 >RM100,000-RM500,00<br>Price — fixed stamp duty, general stamping (insurance policy, performance bond/guarantee, factoring agreement): 10 RM (fixed)<br>Price — fixed stamp duty for marine/cargo insurance documents: 10 RM (fixed)<br>Price — ISO 45001:2018 standard list price (PDF + ePub): 196 CHF |
 | [Biomass and waste-to-energy](#pwr-biomass-waste-to-energy) | Biomass and waste | commercial | 9 | Hitachi Zosen Inova (now Kanadevia Inova) (waste-to-energy plants); Babcock & Wilcox (biomass and waste boilers) | capital cost of the Dubai Waste Management Centre waste-to-energy plant: 1 billion USD project cost (1.9 Mt/yr waste processing) (2023$) |
 | [Cogeneration and combined heat and power](#pwr-cogeneration-chp) | Gas-fired power | commercial | 9 | Solar Turbines (Titan and Taurus CHP packages); Siemens Energy (industrial gas turbine CHP); Wärtsilä (engine CHP); JEREH (CHP and distributed energy investment, construction and O&M on Jenbacher/Waukesha gensets (Jereh Distributed Energy)) | installed cost, gas-turbine CHP: 1248-3281 USD/kW (2013$) |
 | [Combined cycle and HRSG](#pwr-combined-cycle-hrsg) | Gas-fired power | commercial |  | GE Vernova (HA combined-cycle plants); Siemens Energy (combined-cycle plants and HRSGs); Mitsubishi Heavy Industries (Mitsubishi Power) (GTCC plants) | total overnight cost, combined cycle single-shaft: 1086 USD/kW (2025$)<br>total overnight cost, combined cycle multi-shaft: 1032 USD/kW (2025$)<br>total overnight cost, combined cycle with 95% carbon capture: 2824 USD/kW (2025$) |
@@ -14,6 +13,7 @@
 | [Crystalline silicon PV (PERC, TOPCon, HJT)](#pwr-crystalline-silicon-pv) | Solar | commercial | 9 | LONGi (HJT and back-contact modules); Jinko Solar (TOPCon modules); Trina Solar (TOPCon modules); JA Solar (modules) | overnight capital cost: 1.56 USD/Wac (2023$) |
 | [Floating solar](#pwr-floating-solar) | Solar | commercial | 9 | Sungrow (floating PV systems); Ciel & Terre (Hydrelio floats) | total capital cost, floating PV: 1.18 USD per Wp (2022$) |
 | [Flow batteries (vanadium, zinc-bromine)](#pwr-flow-batteries) | Electrochemical storage | commercial | 9 | Rongke Power (vanadium flow); Invinity Energy Systems (vanadium flow) | installed cost, vanadium redox flow battery: 446 USD per kWh (2024$) |
+| [Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV)](#pwr-geg-plant-wbs-supply-chain) | Gas engine power plant EPC | commercial |  | Supplier not identified in sources read (WBS line item); Wärtsilä Corporation; PT Pembangunan Perumahan (Persero) Tbk (PT PP); EPV Energy Ltd; Kenya Electricity Generating Company Limited (KenGen); Tsavo Power Company Limited; Clarke Energy (authorised distributor and service provider in 27 countries); SynCraft (Jenbacher J412 customer/project partner); Stadtwerke Kiel (190 MW J920 CHP project owner); Rolls-Royce Power Systems (MTU brand); IAC Acoustics (UK Ltd / IAC World); Rolls-Royce / mtu solutions; Johnson Matthey (EU and Asia applications enquiries listed on page); Camfil; Donaldson Company, Inc.; Kohler Power Systems (Kohler Energy); Umicore; Johnson Matthey Catalysts Germany GmbH; Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia; Dunham-Bush (Malaysia and regional operations); T.D. Williamson, LLC (Tulsa, OK, USA); Preferred Utilities Manufacturing Corp., Danbury, CT, USA; Preferred Utilities Manufacturing Corp.; Roben Mfg., Inc. (Lakewood, NJ, USA); Atlantic Containment LLC (McGaheysville, VA, USA); Prismecs (OEM-agnostic EPCM/O&M provider, Houston, TX); PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia); Alfa Laval (Malaysia site alfalaval.my; product OFPX 517); Ruhrpumpen Group; Tornatech (controllers); Clarke (C18 diesel engine); HADETEC (Nijkerk, Netherlands; member of Rootselaar Group); Comair (Shanghai, China); nano-purification solutions Asia Pacific (Singapore); HADETEC (Nijkerk, Netherlands; Rootselaar Group); Aerodyn Group Malaysia (Shah Alam and Labuan); Pneumatech; ELGI; Quincy; SPX Jemaco | Price — Total capital cost, 4 x 5.6 MW natural-gas reciprocating engine (RICE) plant, 21.4 MW net: 3.8727e+07 USD (2019$)<br>Price — Overnight capital cost per kW net, 4 x 5.6 MW natural-gas RICE plant: 1810 USD/kW (2019$)<br>Price — Engines and associated auxiliaries, owner-furnished from engine OEM (4 x 5.6 MW case): 1.1974e+07 USD (2019$)<br>Price — Total installed cost, industrial natural gas reciprocating engine 1,000 kW, year 2015: 1899 USD/kW (2015$)<br>Price — Total installed cost, industrial natural gas reciprocating engine 1,000 kW, year 2020: 2105 USD/kW (2020$)<br>Price — Total installed cost, industrial natural gas reciprocating engine 3,000 kW, year 2015: 1742 USD/kW (2015$)<br>Price — Total installed cost, industrial natural gas reciprocating engine 3,000 kW, year 2020: 1931 USD/kW (2020$)<br>Price — Exhaust gas treatment capital cost (representative lean-burn gas engine CHP, systems 2-5 in Table 2-4): 150-750 $/kW (2013 dollars, USD as printed) (2013$)<br>Price — SCR with oxidation catalyst and CEMS capital-cost increment, lean-burn reciprocating-engine CHP: 150-700 $/kW (2013 dollars, USD as printed) (2013$)<br>Price — SCR total project cost per kW, 500 MW oil/gas-fired boiler IPM example (NOT a gas-engine figure — printed scope retained for comparison): 127-135 $/kW (2021 dollars, USD; EPA IPM methodology February 2023) (2021$)<br>Price — ASME B31.1-2026 Power Piping standard list price (print book or PDF): 450 $450.00 (USD as printed, 2026 edition) (2026$)<br>Price — reference price, 1 ton single girder overhead crane: 1830-5100 USD (2025$)<br>Price — reference price, 5 ton single girder overhead crane: 3130-8680 USD (2025$)<br>Price — reference price, 10 ton single girder overhead crane: 3890-12000 USD (2025$)<br>Price — reference price, 5t LH-type double girder crane with hoist trolley: 15600-29500 USD (2025$)<br>Price — reference price, 10t LH-type double girder crane with hoist trolley: 17200-32500 USD (2025$)<br>Price — reference price, 20t/5t LH-type double girder crane: 25500-45900 USD (2025$)<br>Price — reference price, 50t/10t LH-type double girder crane: 49500-72000 USD (2025$)<br>Price — reference price, 100t/20t LH-type double girder crane: 115000-166700 USD (2025$)<br>Price — reference price, manual single girder overhead crane 1 ton: 840-1800 USD (2025$)<br>Price — typical automation system delivery order value (not the disclosed SESB order value): 1e+06-3e+06 EUR<br>Price — IEC 62052-11:2020 electronic standard list price: 405 CHF<br>Price — Lighting point, PVC cable in conduit (switch separate): 85 RM/point<br>Price — MCB single pole up to 32A: 32 RM/no<br>Price — Insulation and continuity test, single-phase DB: 719 RM/no<br>Price — EPC contract value, 132/33/11 kV Star1 & Star2 substation incl. GIS building: 1.83e+08 AED<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — BRC A6 steel fabric: 35.1 RM/m2<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Formwork to columns: 69.3 RM/m2<br>Price — Bored pile 600 mm diameter: 600-1000 RM/m<br>Price — Drill 1000 mm nominal diameter vertical holes in soil other than rock with temporary casing: 109-450 RM/m<br>Price — Drill 1000 mm nominal diameter vertical holes in rock: 900-2200 RM/m<br>Price — 1000 mm nominal diameter x 12 mm thick permanent casing: 2000-3300 RM/m<br>Price — Concreted length with Grade 40/20: 253.6-497.4 RM/m3<br>Price — High yield reinforcement up to 12 mm / 16 mm and above: 3000-3636 RM/tonne<br>Price — Cutting off pile heads and preparing as shown: 249-335 RM/no<br>Price — Mobilisation/demobilisation of labour, plant and drilling equipment for bored piling: 20000-185000 RM/sum<br>Price — Initial maintained load test to 2.0 x maximum working load, 5500 kN pile: 50000-60900 RM/no<br>Price — Pile dynamic analyser (PDA) test: 485-5024.3 RM/no<br>Price — Handle, pitch and drive vertical 300 x 300 mm precast RC pile: 12-30 RM/m<br>Price — Bore 200 mm diameter micropile not exceeding 13.5 m deep in soil: 50-115 RM/m<br>Price — Supply and drive 12 m long steel sheet pile type OZ 13A or equivalent: 180-460 RM/m2<br>Price — Site clearing (semak, tunggul, akar): 0.9 RM/m2<br>Price — Excavate topsoil up to 150 mm by machine: 4.2 RM/m2<br>Price — Excavate foundation pit not exceeding 1 m3 by machine: 22 RM/no<br>Price — Excavate trench up to 1.5 m deep by machine: 21.2 RM/m3<br>Price — Dispose surplus soil 1-5 km by lorry: 37.6 RM/m3<br>Price — Hardcore 150 mm under concrete floor: 14.4 RM/m2<br>Price — Preload fill (sand/aggregate), place, surcharge, monitor settlement, remove: 50-120 RM/m3<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — Additional per 25 mm of slab thickness: 12.3 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Mild steel reinforcement 6 mm (links): 6.2 RM/kg<br>Price — BRC A6 steel fabric: 35.1 RM/m2<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Formwork to columns: 69.3 RM/m2<br>Price — Half-brick clay wall 113 mm: 76.8 RM/m2<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — Additional per 25 mm of slab thickness: 12.3 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — BRC A6 steel fabric: 35.1 RM/m2<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Formwork to columns: 69.3 RM/m2<br>Price — Half-brick clay wall 113 mm: 76.8 RM/m2<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — EPC contract value, 132/33/11 kV Star1 & Star2 substation incl. GIS building: 1.83e+08 AED<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Lighting point, PVC cable in conduit (switch separate): 85 RM/point<br>Price — MCB single pole up to 32A: 32 RM/no<br>Price — Insulation and continuity test, single-phase DB: 719 RM/no<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 in beams: 634.4 RM/m3<br>Price — Reinforced concrete C16/20 in columns: 663.6 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Half-brick clay wall 113 mm: 76.8 RM/m2<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Formwork to beam sides and soffit: 80.1 RM/m2<br>Price — Borehole 150 mm dia, soil through residual to weathered rock: 250-500 RM/m<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — Excavate foundation pit not exceeding 1 m3 by machine: 22 RM/no<br>Price — RC retaining wall up to 3 m (cantilever): 800-1500 RM/m2 wall face<br>Price — RC retaining wall 3-6 m (cantilever): 1500-2500 RM/m2 wall face<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — RC retaining wall up to 3 m (cantilever): 800-1500 RM/m2 wall face<br>Price — RC retaining wall 3-6 m (cantilever): 1500-2500 RM/m2 wall face<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — High tensile reinforcement 12 mm: 5.3 RM/kg<br>Price — Formwork to vertical faces (footings, ground beams): 61.7 RM/m2<br>Price — uPVC soil pipe 100 mm: 22.4 RM/m<br>Price — Brick inspection chamber/manhole up to 600 mm deep: 174.5 RM/no<br>Price — Cast iron manhole cover 600 x 450 mm: 158.4 RM/no<br>Price — Subsoil drain 100 mm UPVC perforated, gravel surround, geotextile filter: 150-280 RM/linear m<br>Price — Reinforced concrete C16/20 in foundations and floor: 492.1 RM/m3<br>Price — Reinforced concrete C16/20 floor slab, average 75 mm: 36.9 RM/m2<br>Price — Soil nail with 100 mm shotcrete + BRC A8 mesh, permanent (32 mm Grade 670, 1.5x1.5 m grid, 9-12 m, residual soil): 200-400 RM/m2 of slope face<br>Price — Individual permanent soil nail (32 mm Grade 670, 9-12 m, HDG, grouted): 1500-3500 RM/nail<br>Price — Wet-mix shotcrete 100 mm thickness with mesh: 130-200 RM/m2<br>Price — Shotcrete, volume basis (for comparison with structural concrete): 1200-1800 RM/m3<br>Price — Gabion wall up to 4 m (galvanised + PVC double-twist mesh, stone fill): 500-900 RM/m2 wall face<br>Price — Site clearing (semak, tunggul, akar): 0.9 RM/m2<br>Price — Excavate topsoil up to 150 mm by machine: 4.2 RM/m2<br>Price — Hardcore 150 mm under concrete floor: 14.4 RM/m2<br>Price — total Kimanis 300 MW CCGT plant capital (not a construction-management component): 1.5e+09 RM<br>Price — lease stamp duty per RM250 of annual rent, term up to 1 year: 1 RM per RM250 or part thereof<br>Price — lease stamp duty per RM250 of annual rent, term over 1 to 3 years: 3 RM per RM250 or part thereof<br>Price — lease stamp duty per RM250 of annual rent, term over 3 to 5 years: 5 RM per RM250 or part thereof<br>Price — lease stamp duty per RM250 of annual rent, term over 5 years: 7 RM per RM250 or part thereof<br>Price — fixed stamp duty, electricity and water supply application forms: 10 RM (fixed)<br>Price — ad valorem stamp duty on security/bond instruments, first RM100,000: 1-4 RM per RM100 or part thereof (RM1.00 first RM100,000; RM2.00 >RM100,000-RM500,00<br>Price — fixed stamp duty, general stamping (insurance policy, performance bond/guarantee, factoring agreement): 10 RM (fixed)<br>Price — fixed stamp duty for marine/cargo insurance documents: 10 RM (fixed)<br>Price — ISO 45001:2018 standard list price (PDF + ePub): 196 CHF |
 | [Gas engines](#pwr-gas-engines) | Gas-fired power | commercial | 9 | Wärtsilä (31SG, 34SG, 50SG); INNIO Jenbacher (Jenbacher gas engines); MAN Energy Solutions (Everllence) (gas engines); JEREH (INNIO Jenbacher/Waukesha authorized integrator; 3 kVA-3,300 kVA gas gensets and distributed energy (Jereh Distributed Energy)) | total installed cost, gas engine in grid-interconnected CHP application: 1433-2900 USD/kW (2013) (2013$)<br>total installed cost, reciprocating engine CHP: 2000-4250 USD/kW (2020) (2020$) |
 | [Gas-fired steam and hot-water boilers](#pwr-gas-fired-boilers) | Steam generation | commercial |  | Cleaver-Brooks (CBEX/CBLE firetube, ClearFire-CE and SwitchFire condensing boilers, ProFire burners); Miura (once-through vertical water-tube steam generators and ultra-low-NOx LX burners); Babcock & Wilcox (industrial water-tube package boilers, IR-CFB boilers and HRSG pressure parts); Fulton (packaged steam boilers); Zeeco (PLN/GO low-NOx package burners, SCR systems and CFB gas-conversion burners); John Zink (ECOjet Edge+, QLN and duct burners); ALZETA (surface-stabilised ultra-low-NOx burners); Valmet (CFB boilers with partial-bed low-load operation); Spirax Sarco (feedtanks, deaerators, valves and steam-system engineering guidance) |  |
 | [Geothermal (flash and binary cycle)](#pwr-geothermal-flash-binary) | Geothermal | commercial | 9 | Ormat (binary and flash plants); Toshiba (geothermal steam turbines); Fuji Electric (geothermal steam turbines) | overnight capital cost, hydrothermal: 4759-6349 USD/kW |
@@ -80,10 +80,269 @@ flowchart LR
 
 Sources: [1](https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/lm2500), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [4](https://www.turbomachinerymag.com/view/ge-vernova-delivers-two-lm6000-aeroderivatives-for-qpm-s-isaac-power-station), [5](https://www.bakerhughes.com/sites/bakerhughes/files/2021-06/BakerHughes_LMPGT25%2BG4_Overview-060121.pdf). Last reviewed 2026-11-17.
 
-## Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV)
-<a id="pwr-alaska-geg-wbs-supply-chain"></a>
+## Biomass and waste-to-energy
+<a id="pwr-biomass-waste-to-energy"></a>
 
-Evidence assembled for every line item of the Alaska GEG WBS/BOQ across procurement, construction, commissioning and EPC indirects, with sourced specifications, dated prices and explicit gaps.
+Solid biomass or municipal waste is burned on a grate or in a fluidised bed to raise steam for a turbine, or gasified to a fuel gas. The IEA guide rates small-scale biomass gasification (bio-syngas) at TRL 9; no source read so far gives power-plant efficiency or cost.
+
+```mermaid
+flowchart LR
+    FUEL["Fuel receipt, drying and feeding<br/><small>fuel bunker, crane</small>"]
+    BOIL["Combustion on grate or in fluidised bed<br/><small>grate or fluidised-bed boiler</small>"]
+    TURB["Steam turbine and flue gas cleaning<br/><small>steam turbine, bag filter, scrubber</small>"]
+    FUEL --> BOIL
+    BOIL --> TURB
+```
+
+**Key equipment:** fuel handling, grate or fluidised-bed boiler, steam turbine, flue gas cleaning.
+
+**Performance:**
+- net electricity yield per tonne of municipal solid waste: 550 kWh/t; EIA: a typical waste-to-energy plant generates about 550 kWh per ton of waste. No net electrical-efficiency percentage is given.. [source](https://www.eia.gov/energyexplained/biomass/waste-to-energy-in-depth.php)
+
+**Costs:**
+- capital cost of the Dubai Waste Management Centre waste-to-energy plant: 1 billion USD project cost (1.9 Mt/yr waste processing) (2023$); dollar year not stated in the source (publication 2023); "Dubai opens $1bn waste-to-energy centre" covering 1.9 Mt/yr of waste. [source](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity)
+
+**Reference plants:**
+- Dubai Waste Management Centre (Warsan), United Arab Emirates, AE: world's largest waste-to-energy plant: processes 1.9 million tonnes of waste a year, powers about 135,000 homes; about USD 1 bn project; began transmitting electricity July 2023; operating. [source](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Biomass gasification - small-scale (bio-syngas)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity), [3](https://en.wikipedia.org/wiki/Waste-to-energy). Last reviewed 2026-11-17.
+
+## Cogeneration and combined heat and power
+<a id="pwr-cogeneration-chp"></a>
+
+A prime mover (gas turbine, reciprocating engine or boiler with steam turbine) makes electricity while its waste heat is recovered as steam or hot water for a process or building. US EPA reports total CHP efficiencies of 65 to 80% and sometimes close to 90%, against 50 to 55% for separate heat and grid power.
+
+```mermaid
+flowchart LR
+    PM["Prime mover generates electricity<br/><small>gas turbine or engine, generator</small>"]
+    HR["Heat recovery from exhaust and jacket<br/><small>HRSG or exhaust boiler, heat exchangers</small>"]
+    USE["Steam or hot water to process, absorption chiller or district heat<br/><small>steam header, absorption chiller</small>"]
+    PM --> HR
+    HR --> USE
+```
+
+**Key equipment:** prime mover, heat recovery steam generator or exhaust boiler, generator, switchgear and grid interconnection, heat distribution.
+
+**Performance:**
+- total CHP efficiency: 65-80 % (some systems approach 90%); EPA CHP benefits page. [source](https://www.epa.gov/chp/chp-benefits)
+- gas-turbine CHP electrical efficiency: 23.95-35.96 % HHV; five representative systems, 3.3 MW to 44.5 MW. [source](https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf)
+- gas-turbine CHP total efficiency: 65.7-70.5 % HHV; same five systems. [source](https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf)
+- separate heat and power efficiency: 50-55 %; reference case in the EPA page. [source](https://www.epa.gov/chp/chp-benefits)
+
+**Costs:**
+- installed cost, gas-turbine CHP: 1248-3281 USD/kW (2013$); 3 MW system $3,281; 45 MW system $1,248; costs fall with size. [source](https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf)
+
+**Reference plants:**
+- Dresden-Reick CHP (DREWAG / SachsenEnergie), DE: 94 MW electrical, 84 MW district heating; operational in 2022; 8 x Wärtsilä 31SG gas engines, natural gas, EPC. [source](https://www.wartsila.com/energy/learn-more/references/utilities/drewag-germany)
+- Bremen CHP (swb Erzeugung), DE: 105 MW electrical, up to 93 MW district heating; delivery mid-2022; 9 x Wärtsilä 31SG gas engines with heat recovery, EPC with Uniper as consortium leader — delivery date, not a stated commercial-operation date. [source](https://www.wartsila.com/energy/learn-more/references/utilities/bremen-germany)
+
+TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Trigeneration (CCHP)', TRL 2025 = 9 (9 in every year 2020-2025); the guide has no separate 'gas engine' row; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
+
+Sources: [1](https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf), [2](https://www.epa.gov/chp/chp-benefits), [3](https://en.wikipedia.org/wiki/Cogeneration). Last reviewed 2026-11-16.
+
+## Combined cycle and HRSG
+<a id="pwr-combined-cycle-hrsg"></a>
+
+A gas turbine exhausts at about 600 °C into a heat recovery steam generator (HRSG) that raises steam for a steam turbine, so the plant makes electricity from both cycles. Multi-pressure HRSGs with reheat give the highest efficiency; US EPA reports combined-cycle efficiencies routinely above 55% HHV and 57.1% to 57.9% for GE HA-class units.
+
+```mermaid
+flowchart LR
+    GT["Gas turbine generation<br/><small>gas turbine</small>"]
+    HRSG["Heat recovery steam generation at one, two or three pressure levels, with optional reheat<br/><small>HRSG, duct burners</small>"]
+    ST["Steam turbine generation<br/><small>steam turbine, condenser</small>"]
+    CW["Condensing and feedwater return<br/><small>air-cooled condenser or cooling tower, feedwater pumps</small>"]
+    GT --> HRSG
+    HRSG --> ST
+    ST --> CW
+```
+
+**Key equipment:** gas turbine, HRSG, steam turbine, condenser, feedwater system, SCR for NOx.
+
+**Performance:**
+- combined-cycle efficiency, utility scale: 55 % HHV (more than); EPA: routinely above 55%. [source](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf)
+- net plant efficiency, GE HA 1 on 1: 56.1-57.9 % HHV; 7HA.01 56.1, 7HA.02 57.1, 7HA.03 57.6, 9HA.02 (2x) 57.9. [source](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf)
+- steam-cycle efficiency by HRSG type: 20-30 %; about 20% two-pressure no reheat, 26% three-pressure, about 30% three-pressure with reheat. [source](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf)
+- combined cycle at 1-on-1, M701JAC: 64 % LHV (more than); vendor claim. [source](https://power.mhi.com/products/gasturbines/lineup/m701j)
+
+**Costs:**
+- total overnight cost, combined cycle single-shaft: 1086 USD/kW (2025$); AEO2026 EMM Table 3 (2025$/kW): 627 MW unit, first available 2028, technological optimism factor 1.00; excludes regional multipliers, learning effects and interest during construction; current costs for plants coming online in 2026; based on Sargent & Lundy (Jan 2024) with about a 20% combined-cycle increase per the Brattle Group/S&L PJM new-entry study; Table 4 regional range 875-1,513 USD/kW (2025$), average 1,102. [source](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf)
+- total overnight cost, combined cycle multi-shaft: 1032 USD/kW (2025$); AEO2026 EMM Table 3 (2025$/kW): 1,227 MW unit, first available 2028, technological optimism factor 1.00; exclusions and S&L/PJM adjustment basis as for the single-shaft entry; Table 4 regional range 830-1,445 USD/kW (2025$), average 1,049. [source](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf)
+- total overnight cost, combined cycle with 95% carbon capture: 2824 USD/kW (2025$); AEO2026 EMM Table 3 (2025$/kW): 543 MW unit, first available 2029, base overnight cost 2,567 USD/kW times technological optimism factor 1.10; excludes regional multipliers, learning effects and interest during construction; Table 4 regional range 2,268-5,674 USD/kW (2025$), average 2,954. [source](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf)
+
+**Reference plants:**
+- Keadby 2 CCGT (SSE Thermal), United Kingdom: 893 MW CCGT (N2 configuration with HRSG); commercial operation March 2023. [source](https://www.ssethermal.com/flexible-generation/operational/keadby-2)
+
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+
+Sources: [1](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [3](https://power.mhi.com/products/gasturbines/lineup/m701j), [4](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf), [5](https://en.wikipedia.org/wiki/Combined_cycle_power_plant). Last reviewed 2026-11-16.
+
+## Concentrated solar power with storage
+<a id="pwr-concentrated-solar-power"></a>
+
+Mirrors concentrate sunlight on a receiver; the heat is stored in molten salt and used to raise steam for a turbine, giving dispatchable solar. NREL's 2024 baseline is a 102 MWe molten-salt power tower with 10 hours of two-tank storage, costed at $7,912/kWe in the 2022 base year.
+
+```mermaid
+flowchart LR
+    MIR["Heliostats or troughs focus sunlight<br/><small>heliostats or parabolic troughs</small>"]
+    REC["Receiver heats molten salt<br/><small>receiver</small>"]
+    TES["Hot salt tank stores heat<br/><small>two-tank molten-salt storage</small>"]
+    PB["Steam generator and turbine<br/><small>steam generator, steam turbine</small>"]
+    MIR --> REC
+    REC --> TES
+    TES --> PB
+```
+
+**Key equipment:** heliostat field, receiver, molten-salt tanks, steam generator, turbine.
+
+**Performance:**
+- capacity factor with 10 h storage, base year: 51.4-66.6 %; Abilene TX 51.4, Phoenix 64.7, Daggett CA 66.6. [source](https://atb.nrel.gov/electricity/2024/concentrating_solar_power)
+- power cycle gross efficiency, 2022: 41.2 %; steam Rankine at 574 °C. [source](https://atb.nrel.gov/electricity/2024/concentrating_solar_power)
+- fixed O&M: 74.6 USD/kW-yr (2022$); 2022. [source](https://atb.nrel.gov/electricity/2024/concentrating_solar_power)
+
+**Costs:**
+- capital cost, base year: 7912 USD/kWe (2022$); 2022 dollars. [source](https://atb.nrel.gov/electricity/2024/concentrating_solar_power)
+
+**Reference plants:**
+- Noor Ouarzazate solar complex, Morocco (MASEN), MA: about 510 MW of concentrated solar power (plus a 72 MW PV plant) across Noor I-III, including the Noor III molten-salt tower; about USD 2.5 bn; phases 2014-2018; world's largest CSP complex; operating. [source](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/103151506335526236)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Solar tower' 9 (2025); 'Parabolic trough (solar)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+Sources: [1](https://atb.nrel.gov/electricity/2024/concentrating_solar_power), [2](https://en.wikipedia.org/wiki/Concentrated_solar_power). Last reviewed 2026-10-29.
+
+## Containerised hybrid power modules (solar, storage, gensets)
+<a id="pwr-containerised-hybrid-modules"></a>
+
+Factory-integrated containers or skids combine solar PV, battery storage and diesel/gas gensets under one hybrid controller, so a remote site replaces part of its diesel generation within days to weeks of arrival. Aggreko delivers such plants as rental or build-own-operate contracts (relocatable solar farms plus its containerised Y.Cube batteries), BoxPower ships pre-engineered container microgrids from 5 kW to 20 MW, and fold-out PV containers such as SolarContainer's 140 kWp unit install in hours.
+
+```mermaid
+flowchart LR
+    SOLAR["Solar generation, fixed array or fold-out container<br/><small>PV modules, mounting frames or container-hinged array</small>"]
+    BATT["Battery storage in container<br/><small>lithium-ion battery module, bidirectional inverter, fire protection and HVAC</small>"]
+    GEN["Genset backup generation<br/><small>diesel or gas gensets</small>"]
+    CTRL["Hybrid control and dispatch<br/><small>hybrid controller with forecasting algorithms, remote monitoring</small>"]
+    SOLAR --> BATT
+    BATT --> GEN
+    GEN --> CTRL
+```
+
+**Key equipment:** PV array or fold-out solar container, containerised battery energy storage, diesel or gas gensets, hybrid controller, microgrid switchgear.
+
+**Performance:**
+- Aggreko containerised battery ratings: 250-500 kW / kWh; 250 kW / 575 kWh and 500 kW / 250 kWh plug-and-play units, expandable down to 30/60 kVA small nodes; Y.Cube fits a standard 20 ft container. [source](https://www.aggreko.com/en-us/news/aggreko-launches-new-mid-sized-500-kw-250-kwh-and-250-kw-575-kwh-energy-storage-systems)
+- Bisha mine, Eritrea: fuel savings: 12 %; 22 MW generation plus 7.5 MWp solar on 9 ha; about 10,000 litres of diesel saved per day; roughly 10,000 tonnes of CO2 avoided annually. [source](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project)
+- Aggreko hybrid plants savings claim: 5-20 %; savings from the first kWh on hybrid solar-storage-genset plants; contract durations 3-10+ years with no upfront capital. [source](https://www.aggreko.com/en-ae/solutions/power-plants/hybrid-power-plants)
+- BoxPower product range: 5-20000 kW; 5 kW to 20 MW+ solar PV and 15 kWh to 6 MWh storage; MiniBox installs in a few hours with no foundation. [source](https://boxpower.io/products/solar-container/)
+- SolarContainer fold-out PV array: 140 kWp; 140 kWp from 240 modules over about 720 square metres, assembly up to 5 hours; ISO container with CSC badge. [source](https://www.solarcontainer.one/english/product-information)
+
+**Reference plants:**
+- Bisha mine solar-hybrid plant, Eritrea: 22 MW gensets + 7.5 MWp solar; operating under Aggreko contract; over 12% fuel savings. [source](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project)
+- Porphyry gold mine hybrid plant (Northern Star), Australia: 4.4 MW solar + 2 MW battery; operating under a 10-year PPA; 1.91 million litres of fuel saved per year. [source](https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia)
+- Bisha mine solar-diesel hybrid (Aggreko for Nevsun), Eritrea: 22 MW diesel + 7.5 MW solar = 29.5 MW; in service 2017. [source](https://www.miningweekly.com/article/nevsun-taps-uk-based-aggreko-to-provide-295-mw-solar-diesel-hybrid-power-to-bisha-2017-05-04)
+
+**Missing inputs:**
+- module prices or contract rates in $/kW or $/kWh delivered, with dollar year (costs): Vendor pages sell services without publishing rates. Web-checked 2026-10-28; module prices are quote-only. Where: arXiv and open-access journals: hybrid solar-storage-diesel techno-economic studies for mines and islands (catalog: arxiv, open); IRENA reports on hybrid mini-grid costs (irena.org) (open). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no entry for hybrid container modules as such. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): mini-grid and off-grid PV entries (catalog: iea-reports, open). Next: Find a TRL table entry or leave maturity resting on the evidence on the card.
+
+Sources: [1](https://www.aggreko.com/en-ae/solutions/power-plants/hybrid-power-plants), [2](https://www.aggreko.com/en-us/news/aggreko-launches-new-mid-sized-500-kw-250-kwh-and-250-kw-575-kwh-energy-storage-systems), [3](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project), [4](https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia), [5](https://boxpower.io/products/solar-container/), [6](https://www.bredenoord.com/en/knowledge/mobile-solar-plant), [7](https://www.solarcontainer.one/english/product-information), [8](https://www.cat.com/en_US/by-industry/electric-power/Articles/White-papers/how-solar-and-battery-energy-storage-change-the-way-diesel-generator-sets-run.html). Last reviewed 2026-11-16.
+
+## Crystalline silicon PV (PERC, TOPCon, HJT)
+<a id="pwr-crystalline-silicon-pv"></a>
+
+Silicon wafers convert sunlight to DC electricity; the cell structure sets efficiency. PERC is the mature cell, TOPCon and heterojunction (HJT/SHJ) are the current upgrades. NREL's 2024 baseline models a 100 MWdc (74.6 MWac) one-axis tracked plant with bifacial modules and costs it at $1.56/WAC in 2023.
+
+```mermaid
+flowchart LR
+    MOD["Modules convert sunlight to DC<br/><small>bifacial modules, trackers</small>"]
+    INV["Inverters convert DC to AC<br/><small>string or central inverters</small>"]
+    GRID["Step-up and grid connection<br/><small>transformer, switchgear</small>"]
+    MOD --> INV
+    INV --> GRID
+```
+
+**Key equipment:** PV modules, single-axis trackers, inverters, step-up transformer.
+
+**Performance:**
+- capacity factor, AC, one-axis tracking, ILR 1.34: 21.4-34 %; 2021 first-year range from lowest to best solar resource class. [source](https://atb.nrel.gov/electricity/2024/utility-scale_pv)
+- fixed O&M: 22 USD/kWac-yr (2023$); 2023. [source](https://atb.nrel.gov/electricity/2024/utility-scale_pv)
+
+**Costs:**
+- overnight capital cost: 1.56 USD/Wac (2023$); 2023 benchmark (Q1 2023), 100 MWdc one-axis tracking; the base year 2022 value is $1.43/Wac. [source](https://atb.nrel.gov/electricity/2024/utility-scale_pv)
+
+**Reference plants:**
+- Cirata floating solar PV plant, West Java, Indonesia, ID: 145 MW floating PV, the largest in Southeast Asia at commissioning (planned expansion to up to 500 MW); powers about 50,000 homes; operating. [source](https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations)
+- Sunny Bangchak solar plant, Thailand, TH: 44 MW silicon PV, Southeast Asia's largest silicon photovoltaic plant at grid connection (27 Sep 2012); operating. [source](https://www.eco-business.com/news/southeast-asias-largest-solar-plant-in-thailand-gets-turned-on)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Crystalline silicon PV' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations), [3](https://en.wikipedia.org/wiki/Photovoltaics). Last reviewed 2026-10-29.
+
+## Floating solar
+<a id="pwr-floating-solar"></a>
+
+PV modules mounted on floats moored on reservoirs, lakes or near-shore water. The World Bank found floating PV grew from about 10 MW at end 2014 to 1.1 GW by September 2018, with a conservative global potential of 400 GW, a cooling-driven yield gain, and lifetime costs at par with land PV.
+
+```mermaid
+flowchart LR
+    FLT["Floats and mooring hold the array<br/><small>floats, anchoring and mooring</small>"]
+    MOD["Modules generate DC<br/><small>PV modules</small>"]
+    INV["Inverters and submarine or floating cables to shore<br/><small>inverters, cables</small>"]
+    FLT --> MOD
+    MOD --> INV
+```
+
+**Key equipment:** floats, mooring system, PV modules, inverters, cables.
+
+**Performance:**
+- global installed floating PV: 1.1 GW; September 2018 (report date 30 October 2018). [source](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water)
+- conservative global potential: 400 GW; World Bank estimate. [source](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water)
+- global cumulative installed floating PV capacity, end-2024: 9.16 GW; IEA PVPS: 9.16 GW cumulative at end-2024, up from 7.7 GW in 2023 with 1.5 GW added in 2024. A verified yield gain versus land PV is not given.. [source](https://taiyangnews.info/technology/iea-pvps-global-floating-solar-capacity-exceeds-9-gw-in-2024)
+
+**Costs:**
+- total capital cost, floating PV: 1.18 USD per Wp (2022$); Median of reported projects (about 1,180 USD/kWp); 30 projects sit below 1.00 USD/W. Total capex, not overnight.. [source](https://iea-pvps.org/wp-content/uploads/2025/04/IEA-PVPS-T13-31-2025-REPORT-Floating-PV-Plants.pdf)
+
+**Reference plants:**
+- Cirata floating solar PV plant, West Java, Indonesia, ID: 145 MW floating PV (Masdar/PLN), largest in Southeast Asia at its 2023 commissioning, planned expansion to 500 MW; operating. [source](https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Floating solar PV' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+Sources: [1](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water), [2](https://en.wikipedia.org/wiki/Floating_solar). Last reviewed 2026-11-17.
+
+## Flow batteries (vanadium, zinc-bromine)
+<a id="pwr-flow-batteries"></a>
+
+Energy is stored in liquid electrolytes in tanks and pumped through a cell stack, so power and energy are sized separately. Invinity reports over 11,000 MWh discharged since 2022 and cites a 1.5 GWh vanadium project at Laufenburg, Switzerland; duration, cycle life and efficiency were not quantified on its page.
+
+```mermaid
+flowchart LR
+    TANK["Electrolyte tanks hold energy<br/><small>electrolyte tanks</small>"]
+    STACK["Pumps circulate electrolyte through the stack<br/><small>pumps, cell stacks</small>"]
+    PCS["Power conversion to grid<br/><small>inverter</small>"]
+    TANK --> STACK
+    STACK --> PCS
+```
+
+**Key equipment:** electrolyte tanks, cell stacks, pumps, power conversion.
+
+**Performance:**
+- energy discharged since 2022, Invinity fleet: 11000 MWh; vendor claim. [source](https://invinity.com/)
+
+**Costs:**
+- installed cost, vanadium redox flow battery: 446 USD per kWh (2024$); 100 MW / 10 h system, total installed cost, from the PNNL assessment as reported second-hand; a 10-hour LFP comparator is $379/kWh.. [source](https://gr1d.us/insights/flow-battery-data-center)
+
+**Reference plants:**
+- Dalian Flow Battery Energy Storage Peak-shaving Power Station (Rongke Power), Dalian, Liaoning, CN: Phase 1 100 MW / 400 MWh vanadium redox flow battery, first phase of a planned 200 MW / 800 MWh station; grid-connected 29 September 2022 with commercial operation from mid-October 2022 — the largest flow-battery station in the world at the time; operating. [source](https://english.cas.cn/Special_Reports/rd/2022/202410/t20241031_693355.shtml)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Redox flow storage battery' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+Sources: [1](https://invinity.com/), [2](https://en.wikipedia.org/wiki/Flow_battery). Last reviewed 2026-11-16.
+
+## Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV)
+<a id="pwr-geg-plant-wbs-supply-chain"></a>
+
+Evidence assembled for every line item of the GEG plant WBS/BOQ across procurement, construction, commissioning and EPC indirects, with sourced specifications, dated prices and explicit gaps.
 
 ```mermaid
 flowchart LR
@@ -96,7 +355,7 @@ flowchart LR
     COMMISSION --> GRID
 ```
 
-**Key equipment:** GEG (7 units), Admin Charges for Gas Engine Generator Handling, Profit Undertaking for Gas Engine Generator, Exhaust Gas System Package, Intake Air System Package, Cooling Water System Package / Air Cold Radiator, DOC and SCR system Package, HVAC System Package, Mechanical Maintenance Workshop Equipment Package, Gas Receiving, metering station, hot tap, FG supply system, Diesel Fuel System Package, Lube Oil Tank System Package, Water Tank System Package, Oily Water Treatment System Package, Fire Fighting System Package, Instrument Air System Package, Service Air System Package, Crane & Hoist, Scrubber (Gas Treatment), Transformers (4 units), 132kV Substation (3 busbar, 2 outgoing, 4 incoming), 33kV Substation (1 busbar, 7 outgoing, 2 incoming), 11kV Generator Circuit Breakers (7 units), 11kV Switchgears (11 units), Low Voltage Switchgear, Black Start Diesel Generator Package, UPS System, Bus Duct (between LV switchgear), NGR panels, Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV), Electrical Laboratory Equipment Package, Busbar PT - 132KV 40kA (3s), Busbar PT - 33kV 40kA (3s), Plant Control System, Energy Billing System, Main & Check tariff Meters at each SESB-IF 33kV incomers, Telecommunication and Network Infrastructure, Communication System with Sabah Electricity S/B (SESB), Integration to SESB SCADA System incl Auto Generation Control System, CCTV System, PA System, Sampling System, Field Instrumentation, Equipment, Mech, Elec, C&I, Building (C&S), Piling Works (All Areas) - 1100 piles, 600 dia x 15m depth, Earthwork (Site Clearing and Land Levelling) - soil import 43200 m3, Powerhouse Building (steel structure 32x71x16), Administratrion Building (reinforced concrete 13x35x7.5), Visitor/ Meeting Building (reinforced concrete 22x13x7.2), Electrical & Mechanical Workshop (steel structure 38x20x9.6), SESB_132kV Switchgear Room (reinforced concrete 10.8x35x13.2 + 10.8 x26x7.5), 33 kV substation and low voltage distribution room (reinforced concrete 27.2x7x5.3), Pump Building (steel structure 22x12x5.7), Fire/ Service Water Pump House (upper steel 9x28x6), Compressor Room (reinforced concrete 15x12x5.7), Chemical /Urea Storage (reinforced concrete 15x9x7), LV Switchgear Room & Control Room (reinforced concrete 16.2x36.6x14.4), MV Switchgear Room (reinforced concrete 16.5x9.9x5.3), Unloading Station (steel structure).
+**Key equipment:** LV auxiliary transformer bay, Fire fighting system, 132 kV busbar potential transformer, Gas receiving and metering station with hot tap and fuel gas supply, Cooling water system with air-cooled radiator, Water storage tank system, Exhaust gas system, Unloading station (steel structure), Service air system, 11 kV generator circuit breakers, HV and LV cables with cable trays and accessories, Pre-commissioning and start-up management, Security room and gatehouse, Electrical and mechanical workshop building, Uninterruptible power supply system, 33 kV substation and LV distribution room, Main and check tariff meters, Compressor room (reinforced concrete), Diesel oxidation catalyst and SCR emission control system, Civil and structural buildings, Site gate and fencing, Power transformers, Powerhouse building (steel structure), Lube oil storage and transfer system, Commissioning equipment and consumables, Telecommunication and network infrastructure, Intake air system, Bus duct, 132 kV substation, CCTV system, Administration building (reinforced concrete), Field instrumentation, MV switchgear room, Fire and service water pump house, 11 kV switchgear, Public address system, Bored piling works, Bonds, guarantees, insurance and financing costs, Mechanical, electrical and C&I installation, Low voltage switchgear, 33 kV busbar potential transformer, Gas metering foundation, Electrical laboratory test equipment, Pump building (steel structure), Two-year operational spares, Step-up transformer bay, Utility communication system, HVAC system, Sampling system, Black start diesel generator, Contractor site facilities and laydown area, Gas engine generator units, Oily water treatment system, Site roads and paving, Health, safety, security and environment, Diesel fuel system, LV switchgear and control room, Construction management and services, Black start generator building, Crane and hoist, Visitor and meeting building (reinforced concrete), Plant control system, 132 kV switchgear room, Instrument air system, Neutral grounding resistor panels, Sewerage and water storage system, Utility SCADA and automatic generation control integration, Chemical and urea storage building, Gas treatment scrubber, 33 kV substation, Scheduled waste building (steel structure), Mechanical maintenance workshop equipment, Earthworks and soil import, Energy billing system, Freight, transport, cargo insurance and installation.
 
 **Performance:**
 - Operational history — GE acquired Jenbacher gas engine-energy division; later sold Jenbacher and Waukesha to Advent International, creating INNIO: no range recorded; Wikipedia: 'The remaining gas engine-energy division was acquired by General Electric in 2003' and 'In 2018 GE sold its Jenbacher and Waukesha brands to the private equity company Advent International which created the new company INNIO.' Ownership-change dates both retained.. [source](https://en.wikipedia.org/wiki/Jenbacher)
@@ -365,265 +624,6 @@ flowchart LR
 - WBS line item with zero evidence: Others (BIDDER to specify): (other): No publicly readable page was found for this exact line item in the 2026-11-25 sweep. Where: OEM catalogues, tender documents, SESB/DOSH filings and Malaysian cost references (open). Next: Search supplier catalogues and project tender awards for the item.
 
 Sources: [1](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products), [2](https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf), [3](https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/), [4](https://en.wikipedia.org/wiki/Jenbacher), [5](https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx), [6](https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html), [7](https://www.cummins.com/en-na/generators/natural-gas), [8](https://www.clarke-energy.com/us/gas-engines/), [9](https://www.wartsila.com/energy/learn-more/references/utilities/kipevu-ii-iii-kenya), [10](https://www.wartsila.com/media/news/18-11-2021-wartsila-contracted-to-supply-three-flexible-thermal-balancing-power-plants-totalling-150-mw-to-brazil-3009303), [11](https://www.powermag.com/wartsila-will-supply-engines-for-finnish-power-plant-project/), [12](https://www.aquathermindia.com/accordions/gas-turbine-completed-projects/), [13](https://r.jina.ai/https://www.scribd.com/presentation/460356567/GAS-ENGINE-POWER-PLANT-GEPP), [14](https://r.jina.ai/https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_aeo2020.pdf), [15](https://r.jina.ai/https://www.eia.gov/analysis/studies/buildings/distrigen/pdf/dg_chp.pdf), [16](https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf), [17](https://www.iso.org/standard/30567.html), [18](https://patents.google.com/patent/US9172217B2/en), [19](https://patents.google.com/patent/US9249723B2/en), [20](https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/), [21](https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf), [22](https://matthey.com/products-and-markets/emissions-control/nox-control-systems), [23](https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22), [24](https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf), [25](https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf), [26](https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf), [27](https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf), [28](https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da), [29](https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf), [30](https://patents.google.com/patent/EP3137745B1/en), [31](https://www.epa.gov/system/files/documents/2022-03/gas-fired-scr-cost-methodology.pdf), [32](https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf), [33](https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf), [34](https://dunham-bush.com/our-products/), [35](https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf), [36](https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf), [37](https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines), [38](https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf), [39](https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf), [40](https://robenmfg.com/lubricating-oil-storage-application), [41](https://atlanticcontainment.com/lube-tanks), [42](https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines), [43](https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp), [44](https://basiia.com/products/api-650-tanks), [45](https://pipeco.com.my/tank-product/grp-sectional-water-tank), [46](https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf), [47](https://www.abpsoil.com/images/oil-waste-treatment/API-421.pdf), [48](https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf), [49](https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives), [50](https://hadetec.com/products/air-compressor-packages/instrument-air-package), [51](https://comairflow.com/instrument-air-compressor), [52](https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance), [53](https://aerodyngroup.com/pneumatech), [54](https://vibrantengineering.com.my/products/overhead-crane), [55](https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf), [56](https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1), [57](https://wet-scrubber.com/sox-scrubber), [58](https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf), [59](https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html), [60](https://electrical-engineering-portal.com/wp-content/uploads/2024/10/IEC-60076-1-Power-Transformers-General.pdf). Last reviewed 2026-11-25.
-
-## Biomass and waste-to-energy
-<a id="pwr-biomass-waste-to-energy"></a>
-
-Solid biomass or municipal waste is burned on a grate or in a fluidised bed to raise steam for a turbine, or gasified to a fuel gas. The IEA guide rates small-scale biomass gasification (bio-syngas) at TRL 9; no source read so far gives power-plant efficiency or cost.
-
-```mermaid
-flowchart LR
-    FUEL["Fuel receipt, drying and feeding<br/><small>fuel bunker, crane</small>"]
-    BOIL["Combustion on grate or in fluidised bed<br/><small>grate or fluidised-bed boiler</small>"]
-    TURB["Steam turbine and flue gas cleaning<br/><small>steam turbine, bag filter, scrubber</small>"]
-    FUEL --> BOIL
-    BOIL --> TURB
-```
-
-**Key equipment:** fuel handling, grate or fluidised-bed boiler, steam turbine, flue gas cleaning.
-
-**Performance:**
-- net electricity yield per tonne of municipal solid waste: 550 kWh/t; EIA: a typical waste-to-energy plant generates about 550 kWh per ton of waste. No net electrical-efficiency percentage is given.. [source](https://www.eia.gov/energyexplained/biomass/waste-to-energy-in-depth.php)
-
-**Costs:**
-- capital cost of the Dubai Waste Management Centre waste-to-energy plant: 1 billion USD project cost (1.9 Mt/yr waste processing) (2023$); dollar year not stated in the source (publication 2023); "Dubai opens $1bn waste-to-energy centre" covering 1.9 Mt/yr of waste. [source](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity)
-
-**Reference plants:**
-- Dubai Waste Management Centre (Warsan), United Arab Emirates, AE: world's largest waste-to-energy plant: processes 1.9 million tonnes of waste a year, powers about 135,000 homes; about USD 1 bn project; began transmitting electricity July 2023; operating. [source](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity)
-
-TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Biomass gasification - small-scale (bio-syngas)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
-
-Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity), [3](https://en.wikipedia.org/wiki/Waste-to-energy). Last reviewed 2026-11-17.
-
-## Cogeneration and combined heat and power
-<a id="pwr-cogeneration-chp"></a>
-
-A prime mover (gas turbine, reciprocating engine or boiler with steam turbine) makes electricity while its waste heat is recovered as steam or hot water for a process or building. US EPA reports total CHP efficiencies of 65 to 80% and sometimes close to 90%, against 50 to 55% for separate heat and grid power.
-
-```mermaid
-flowchart LR
-    PM["Prime mover generates electricity<br/><small>gas turbine or engine, generator</small>"]
-    HR["Heat recovery from exhaust and jacket<br/><small>HRSG or exhaust boiler, heat exchangers</small>"]
-    USE["Steam or hot water to process, absorption chiller or district heat<br/><small>steam header, absorption chiller</small>"]
-    PM --> HR
-    HR --> USE
-```
-
-**Key equipment:** prime mover, heat recovery steam generator or exhaust boiler, generator, switchgear and grid interconnection, heat distribution.
-
-**Performance:**
-- total CHP efficiency: 65-80 % (some systems approach 90%); EPA CHP benefits page. [source](https://www.epa.gov/chp/chp-benefits)
-- gas-turbine CHP electrical efficiency: 23.95-35.96 % HHV; five representative systems, 3.3 MW to 44.5 MW. [source](https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf)
-- gas-turbine CHP total efficiency: 65.7-70.5 % HHV; same five systems. [source](https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf)
-- separate heat and power efficiency: 50-55 %; reference case in the EPA page. [source](https://www.epa.gov/chp/chp-benefits)
-
-**Costs:**
-- installed cost, gas-turbine CHP: 1248-3281 USD/kW (2013$); 3 MW system $3,281; 45 MW system $1,248; costs fall with size. [source](https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf)
-
-**Reference plants:**
-- Dresden-Reick CHP (DREWAG / SachsenEnergie), DE: 94 MW electrical, 84 MW district heating; operational in 2022; 8 x Wärtsilä 31SG gas engines, natural gas, EPC. [source](https://www.wartsila.com/energy/learn-more/references/utilities/drewag-germany)
-- Bremen CHP (swb Erzeugung), DE: 105 MW electrical, up to 93 MW district heating; delivery mid-2022; 9 x Wärtsilä 31SG gas engines with heat recovery, EPC with Uniper as consortium leader — delivery date, not a stated commercial-operation date. [source](https://www.wartsila.com/energy/learn-more/references/utilities/bremen-germany)
-
-TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Trigeneration (CCHP)', TRL 2025 = 9 (9 in every year 2020-2025); the guide has no separate 'gas engine' row; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
-
-Sources: [1](https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf), [2](https://www.epa.gov/chp/chp-benefits), [3](https://en.wikipedia.org/wiki/Cogeneration). Last reviewed 2026-11-16.
-
-## Combined cycle and HRSG
-<a id="pwr-combined-cycle-hrsg"></a>
-
-A gas turbine exhausts at about 600 °C into a heat recovery steam generator (HRSG) that raises steam for a steam turbine, so the plant makes electricity from both cycles. Multi-pressure HRSGs with reheat give the highest efficiency; US EPA reports combined-cycle efficiencies routinely above 55% HHV and 57.1% to 57.9% for GE HA-class units.
-
-```mermaid
-flowchart LR
-    GT["Gas turbine generation<br/><small>gas turbine</small>"]
-    HRSG["Heat recovery steam generation at one, two or three pressure levels, with optional reheat<br/><small>HRSG, duct burners</small>"]
-    ST["Steam turbine generation<br/><small>steam turbine, condenser</small>"]
-    CW["Condensing and feedwater return<br/><small>air-cooled condenser or cooling tower, feedwater pumps</small>"]
-    GT --> HRSG
-    HRSG --> ST
-    ST --> CW
-```
-
-**Key equipment:** gas turbine, HRSG, steam turbine, condenser, feedwater system, SCR for NOx.
-
-**Performance:**
-- combined-cycle efficiency, utility scale: 55 % HHV (more than); EPA: routinely above 55%. [source](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf)
-- net plant efficiency, GE HA 1 on 1: 56.1-57.9 % HHV; 7HA.01 56.1, 7HA.02 57.1, 7HA.03 57.6, 9HA.02 (2x) 57.9. [source](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf)
-- steam-cycle efficiency by HRSG type: 20-30 %; about 20% two-pressure no reheat, 26% three-pressure, about 30% three-pressure with reheat. [source](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf)
-- combined cycle at 1-on-1, M701JAC: 64 % LHV (more than); vendor claim. [source](https://power.mhi.com/products/gasturbines/lineup/m701j)
-
-**Costs:**
-- total overnight cost, combined cycle single-shaft: 1086 USD/kW (2025$); AEO2026 EMM Table 3 (2025$/kW): 627 MW unit, first available 2028, technological optimism factor 1.00; excludes regional multipliers, learning effects and interest during construction; current costs for plants coming online in 2026; based on Sargent & Lundy (Jan 2024) with about a 20% combined-cycle increase per the Brattle Group/S&L PJM new-entry study; Table 4 regional range 875-1,513 USD/kW (2025$), average 1,102. [source](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf)
-- total overnight cost, combined cycle multi-shaft: 1032 USD/kW (2025$); AEO2026 EMM Table 3 (2025$/kW): 1,227 MW unit, first available 2028, technological optimism factor 1.00; exclusions and S&L/PJM adjustment basis as for the single-shaft entry; Table 4 regional range 830-1,445 USD/kW (2025$), average 1,049. [source](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf)
-- total overnight cost, combined cycle with 95% carbon capture: 2824 USD/kW (2025$); AEO2026 EMM Table 3 (2025$/kW): 543 MW unit, first available 2029, base overnight cost 2,567 USD/kW times technological optimism factor 1.10; excludes regional multipliers, learning effects and interest during construction; Table 4 regional range 2,268-5,674 USD/kW (2025$), average 2,954. [source](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf)
-
-**Reference plants:**
-- Keadby 2 CCGT (SSE Thermal), United Kingdom: 893 MW CCGT (N2 configuration with HRSG); commercial operation March 2023. [source](https://www.ssethermal.com/flexible-generation/operational/keadby-2)
-
-**Missing inputs:**
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-
-Sources: [1](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [3](https://power.mhi.com/products/gasturbines/lineup/m701j), [4](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf), [5](https://en.wikipedia.org/wiki/Combined_cycle_power_plant). Last reviewed 2026-11-16.
-
-## Concentrated solar power with storage
-<a id="pwr-concentrated-solar-power"></a>
-
-Mirrors concentrate sunlight on a receiver; the heat is stored in molten salt and used to raise steam for a turbine, giving dispatchable solar. NREL's 2024 baseline is a 102 MWe molten-salt power tower with 10 hours of two-tank storage, costed at $7,912/kWe in the 2022 base year.
-
-```mermaid
-flowchart LR
-    MIR["Heliostats or troughs focus sunlight<br/><small>heliostats or parabolic troughs</small>"]
-    REC["Receiver heats molten salt<br/><small>receiver</small>"]
-    TES["Hot salt tank stores heat<br/><small>two-tank molten-salt storage</small>"]
-    PB["Steam generator and turbine<br/><small>steam generator, steam turbine</small>"]
-    MIR --> REC
-    REC --> TES
-    TES --> PB
-```
-
-**Key equipment:** heliostat field, receiver, molten-salt tanks, steam generator, turbine.
-
-**Performance:**
-- capacity factor with 10 h storage, base year: 51.4-66.6 %; Abilene TX 51.4, Phoenix 64.7, Daggett CA 66.6. [source](https://atb.nrel.gov/electricity/2024/concentrating_solar_power)
-- power cycle gross efficiency, 2022: 41.2 %; steam Rankine at 574 °C. [source](https://atb.nrel.gov/electricity/2024/concentrating_solar_power)
-- fixed O&M: 74.6 USD/kW-yr (2022$); 2022. [source](https://atb.nrel.gov/electricity/2024/concentrating_solar_power)
-
-**Costs:**
-- capital cost, base year: 7912 USD/kWe (2022$); 2022 dollars. [source](https://atb.nrel.gov/electricity/2024/concentrating_solar_power)
-
-**Reference plants:**
-- Noor Ouarzazate solar complex, Morocco (MASEN), MA: about 510 MW of concentrated solar power (plus a 72 MW PV plant) across Noor I-III, including the Noor III molten-salt tower; about USD 2.5 bn; phases 2014-2018; world's largest CSP complex; operating. [source](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/103151506335526236)
-
-TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Solar tower' 9 (2025); 'Parabolic trough (solar)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
-
-Sources: [1](https://atb.nrel.gov/electricity/2024/concentrating_solar_power), [2](https://en.wikipedia.org/wiki/Concentrated_solar_power). Last reviewed 2026-10-29.
-
-## Containerised hybrid power modules (solar, storage, gensets)
-<a id="pwr-containerised-hybrid-modules"></a>
-
-Factory-integrated containers or skids combine solar PV, battery storage and diesel/gas gensets under one hybrid controller, so a remote site replaces part of its diesel generation within days to weeks of arrival. Aggreko delivers such plants as rental or build-own-operate contracts (relocatable solar farms plus its containerised Y.Cube batteries), BoxPower ships pre-engineered container microgrids from 5 kW to 20 MW, and fold-out PV containers such as SolarContainer's 140 kWp unit install in hours.
-
-```mermaid
-flowchart LR
-    SOLAR["Solar generation, fixed array or fold-out container<br/><small>PV modules, mounting frames or container-hinged array</small>"]
-    BATT["Battery storage in container<br/><small>lithium-ion battery module, bidirectional inverter, fire protection and HVAC</small>"]
-    GEN["Genset backup generation<br/><small>diesel or gas gensets</small>"]
-    CTRL["Hybrid control and dispatch<br/><small>hybrid controller with forecasting algorithms, remote monitoring</small>"]
-    SOLAR --> BATT
-    BATT --> GEN
-    GEN --> CTRL
-```
-
-**Key equipment:** PV array or fold-out solar container, containerised battery energy storage, diesel or gas gensets, hybrid controller, microgrid switchgear.
-
-**Performance:**
-- Aggreko containerised battery ratings: 250-500 kW / kWh; 250 kW / 575 kWh and 500 kW / 250 kWh plug-and-play units, expandable down to 30/60 kVA small nodes; Y.Cube fits a standard 20 ft container. [source](https://www.aggreko.com/en-us/news/aggreko-launches-new-mid-sized-500-kw-250-kwh-and-250-kw-575-kwh-energy-storage-systems)
-- Bisha mine, Eritrea: fuel savings: 12 %; 22 MW generation plus 7.5 MWp solar on 9 ha; about 10,000 litres of diesel saved per day; roughly 10,000 tonnes of CO2 avoided annually. [source](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project)
-- Aggreko hybrid plants savings claim: 5-20 %; savings from the first kWh on hybrid solar-storage-genset plants; contract durations 3-10+ years with no upfront capital. [source](https://www.aggreko.com/en-ae/solutions/power-plants/hybrid-power-plants)
-- BoxPower product range: 5-20000 kW; 5 kW to 20 MW+ solar PV and 15 kWh to 6 MWh storage; MiniBox installs in a few hours with no foundation. [source](https://boxpower.io/products/solar-container/)
-- SolarContainer fold-out PV array: 140 kWp; 140 kWp from 240 modules over about 720 square metres, assembly up to 5 hours; ISO container with CSC badge. [source](https://www.solarcontainer.one/english/product-information)
-
-**Reference plants:**
-- Bisha mine solar-hybrid plant, Eritrea: 22 MW gensets + 7.5 MWp solar; operating under Aggreko contract; over 12% fuel savings. [source](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project)
-- Porphyry gold mine hybrid plant (Northern Star), Australia: 4.4 MW solar + 2 MW battery; operating under a 10-year PPA; 1.91 million litres of fuel saved per year. [source](https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia)
-- Bisha mine solar-diesel hybrid (Aggreko for Nevsun), Eritrea: 22 MW diesel + 7.5 MW solar = 29.5 MW; in service 2017. [source](https://www.miningweekly.com/article/nevsun-taps-uk-based-aggreko-to-provide-295-mw-solar-diesel-hybrid-power-to-bisha-2017-05-04)
-
-**Missing inputs:**
-- module prices or contract rates in $/kW or $/kWh delivered, with dollar year (costs): Vendor pages sell services without publishing rates. Web-checked 2026-10-28; module prices are quote-only. Where: arXiv and open-access journals: hybrid solar-storage-diesel techno-economic studies for mines and islands (catalog: arxiv, open); IRENA reports on hybrid mini-grid costs (irena.org) (open). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no entry for hybrid container modules as such. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): mini-grid and off-grid PV entries (catalog: iea-reports, open). Next: Find a TRL table entry or leave maturity resting on the evidence on the card.
-
-Sources: [1](https://www.aggreko.com/en-ae/solutions/power-plants/hybrid-power-plants), [2](https://www.aggreko.com/en-us/news/aggreko-launches-new-mid-sized-500-kw-250-kwh-and-250-kw-575-kwh-energy-storage-systems), [3](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project), [4](https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia), [5](https://boxpower.io/products/solar-container/), [6](https://www.bredenoord.com/en/knowledge/mobile-solar-plant), [7](https://www.solarcontainer.one/english/product-information), [8](https://www.cat.com/en_US/by-industry/electric-power/Articles/White-papers/how-solar-and-battery-energy-storage-change-the-way-diesel-generator-sets-run.html). Last reviewed 2026-11-16.
-
-## Crystalline silicon PV (PERC, TOPCon, HJT)
-<a id="pwr-crystalline-silicon-pv"></a>
-
-Silicon wafers convert sunlight to DC electricity; the cell structure sets efficiency. PERC is the mature cell, TOPCon and heterojunction (HJT/SHJ) are the current upgrades. NREL's 2024 baseline models a 100 MWdc (74.6 MWac) one-axis tracked plant with bifacial modules and costs it at $1.56/WAC in 2023.
-
-```mermaid
-flowchart LR
-    MOD["Modules convert sunlight to DC<br/><small>bifacial modules, trackers</small>"]
-    INV["Inverters convert DC to AC<br/><small>string or central inverters</small>"]
-    GRID["Step-up and grid connection<br/><small>transformer, switchgear</small>"]
-    MOD --> INV
-    INV --> GRID
-```
-
-**Key equipment:** PV modules, single-axis trackers, inverters, step-up transformer.
-
-**Performance:**
-- capacity factor, AC, one-axis tracking, ILR 1.34: 21.4-34 %; 2021 first-year range from lowest to best solar resource class. [source](https://atb.nrel.gov/electricity/2024/utility-scale_pv)
-- fixed O&M: 22 USD/kWac-yr (2023$); 2023. [source](https://atb.nrel.gov/electricity/2024/utility-scale_pv)
-
-**Costs:**
-- overnight capital cost: 1.56 USD/Wac (2023$); 2023 benchmark (Q1 2023), 100 MWdc one-axis tracking; the base year 2022 value is $1.43/Wac. [source](https://atb.nrel.gov/electricity/2024/utility-scale_pv)
-
-**Reference plants:**
-- Cirata floating solar PV plant, West Java, Indonesia, ID: 145 MW floating PV, the largest in Southeast Asia at commissioning (planned expansion to up to 500 MW); powers about 50,000 homes; operating. [source](https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations)
-- Sunny Bangchak solar plant, Thailand, TH: 44 MW silicon PV, Southeast Asia's largest silicon photovoltaic plant at grid connection (27 Sep 2012); operating. [source](https://www.eco-business.com/news/southeast-asias-largest-solar-plant-in-thailand-gets-turned-on)
-
-TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Crystalline silicon PV' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
-
-Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations), [3](https://en.wikipedia.org/wiki/Photovoltaics). Last reviewed 2026-10-29.
-
-## Floating solar
-<a id="pwr-floating-solar"></a>
-
-PV modules mounted on floats moored on reservoirs, lakes or near-shore water. The World Bank found floating PV grew from about 10 MW at end 2014 to 1.1 GW by September 2018, with a conservative global potential of 400 GW, a cooling-driven yield gain, and lifetime costs at par with land PV.
-
-```mermaid
-flowchart LR
-    FLT["Floats and mooring hold the array<br/><small>floats, anchoring and mooring</small>"]
-    MOD["Modules generate DC<br/><small>PV modules</small>"]
-    INV["Inverters and submarine or floating cables to shore<br/><small>inverters, cables</small>"]
-    FLT --> MOD
-    MOD --> INV
-```
-
-**Key equipment:** floats, mooring system, PV modules, inverters, cables.
-
-**Performance:**
-- global installed floating PV: 1.1 GW; September 2018 (report date 30 October 2018). [source](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water)
-- conservative global potential: 400 GW; World Bank estimate. [source](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water)
-- global cumulative installed floating PV capacity, end-2024: 9.16 GW; IEA PVPS: 9.16 GW cumulative at end-2024, up from 7.7 GW in 2023 with 1.5 GW added in 2024. A verified yield gain versus land PV is not given.. [source](https://taiyangnews.info/technology/iea-pvps-global-floating-solar-capacity-exceeds-9-gw-in-2024)
-
-**Costs:**
-- total capital cost, floating PV: 1.18 USD per Wp (2022$); Median of reported projects (about 1,180 USD/kWp); 30 projects sit below 1.00 USD/W. Total capex, not overnight.. [source](https://iea-pvps.org/wp-content/uploads/2025/04/IEA-PVPS-T13-31-2025-REPORT-Floating-PV-Plants.pdf)
-
-**Reference plants:**
-- Cirata floating solar PV plant, West Java, Indonesia, ID: 145 MW floating PV (Masdar/PLN), largest in Southeast Asia at its 2023 commissioning, planned expansion to 500 MW; operating. [source](https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations)
-
-TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Floating solar PV' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
-
-Sources: [1](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water), [2](https://en.wikipedia.org/wiki/Floating_solar). Last reviewed 2026-11-17.
-
-## Flow batteries (vanadium, zinc-bromine)
-<a id="pwr-flow-batteries"></a>
-
-Energy is stored in liquid electrolytes in tanks and pumped through a cell stack, so power and energy are sized separately. Invinity reports over 11,000 MWh discharged since 2022 and cites a 1.5 GWh vanadium project at Laufenburg, Switzerland; duration, cycle life and efficiency were not quantified on its page.
-
-```mermaid
-flowchart LR
-    TANK["Electrolyte tanks hold energy<br/><small>electrolyte tanks</small>"]
-    STACK["Pumps circulate electrolyte through the stack<br/><small>pumps, cell stacks</small>"]
-    PCS["Power conversion to grid<br/><small>inverter</small>"]
-    TANK --> STACK
-    STACK --> PCS
-```
-
-**Key equipment:** electrolyte tanks, cell stacks, pumps, power conversion.
-
-**Performance:**
-- energy discharged since 2022, Invinity fleet: 11000 MWh; vendor claim. [source](https://invinity.com/)
-
-**Costs:**
-- installed cost, vanadium redox flow battery: 446 USD per kWh (2024$); 100 MW / 10 h system, total installed cost, from the PNNL assessment as reported second-hand; a 10-hour LFP comparator is $379/kWh.. [source](https://gr1d.us/insights/flow-battery-data-center)
-
-**Reference plants:**
-- Dalian Flow Battery Energy Storage Peak-shaving Power Station (Rongke Power), Dalian, Liaoning, CN: Phase 1 100 MW / 400 MWh vanadium redox flow battery, first phase of a planned 200 MW / 800 MWh station; grid-connected 29 September 2022 with commercial operation from mid-October 2022 — the largest flow-battery station in the world at the time; operating. [source](https://english.cas.cn/Special_Reports/rd/2022/202410/t20241031_693355.shtml)
-
-TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Redox flow storage battery' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
-
-Sources: [1](https://invinity.com/), [2](https://en.wikipedia.org/wiki/Flow_battery). Last reviewed 2026-11-16.
 
 ## Gas engines
 <a id="pwr-gas-engines"></a>

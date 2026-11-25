@@ -1,0 +1,24 @@
+{
+  "id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630",
+  "name": "SIVACON S8 low-voltage power distribution board catalogue",
+  "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "publisher_org": "Siemens AG",
+  "access": "open",
+  "licence": "OEM catalogue; licence not stated in the read text",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: 48-page catalogue; no print date found in the read section; WebFetch blocked for application/pdf, read via r.jina.ai 2026-11-25.. Exact printed figures are recorded in the linked records' basis fields."
+}

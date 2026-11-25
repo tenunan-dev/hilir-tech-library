@@ -1,0 +1,148 @@
+{
+  "id": "geg-prod-abb-vd4g-vacuum-circuit-breakers-for-generator-switching-appli",
+  "name": "ABB VD4G vacuum circuit breakers for generator switching applications",
+  "manufacturer": "abb",
+  "product_type": "generator-circuit-breaker",
+  "equipment": [
+    "geg-11-kv-generator-circuit-breakers"
+  ],
+  "description": "generator circuit breaker",
+  "specifications": [
+    {
+      "metric": "Family ratings (system-fed / generator-fed fault)",
+      "unit": "kA symmetrical short-circuit; up to 1250/4000/4000/4000 A respectively",
+      "basis": "ABB brochure 1VCP000670 Rev B, 2019.07 (copyright 2019 ABB), 'The ABB VD4G family' chart; PDF blocked by WebFetch, read via r.jina.ai 2026-11-25 (value: VD4G-25 25 kA Ik SFF / 16 kA Ik GFF; VD4G-40 40/25; VD4G-50 50/50; VD4G-63 63/50)",
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+        "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
+      }
+    },
+    {
+      "metric": "Applicable generation power level",
+      "unit": "MVA (product family ranges from lowest ratings up to 100 MVA generation power le",
+      "basis": "ABB VD4G brochure 1VCP000670 Rev B 2019.07: 'Unique product family ranging from the lowest ratings up to 100 MVA generation power level'; read 2026-11-25 via r.jina.ai",
+      "value": 100,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+        "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
+      }
+    },
+    {
+      "metric": "Rated voltage (technical data table)",
+      "unit": "kV",
+      "basis": "ABB VD4G brochure 1VCP000670 Rev B 2019.07, Technical data: 15 kV, 3150 A / 4000 A, 63 kA per Dual Logo IEC/IEEE 62271-37-013; read 2026-11-25 via r.jina.ai",
+      "value": 15,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+        "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
+      }
+    },
+    {
+      "metric": "Rated normal current at 40 degrees C",
+      "unit": "A (1250, 2000, 3150 and 4000 A columns)",
+      "basis": "ABB VD4G brochure 1VCP000670 Rev B 2019.07, Technical data table; read 2026-11-25 via r.jina.ai",
+      "value": 1250,
+      "low": 1250,
+      "high": 4000,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+        "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
+      }
+    },
+    {
+      "metric": "Withstand voltage at 50 Hz / impulse withstand",
+      "unit": "kV (common values)",
+      "basis": "ABB VD4G brochure 1VCP000670 Rev B 2019.07, Technical data table; read 2026-11-25 via r.jina.ai (value: 38 / 95)",
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+        "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
+      }
+    },
+    {
+      "metric": "Rated making current",
+      "unit": "kA (68.5 / 115 / 137 / 173 kA by rating)",
+      "basis": "ABB VD4G brochure 1VCP000670 Rev B 2019.07, Technical data table; read 2026-11-25 via r.jina.ai",
+      "value": 68.5,
+      "low": 68.5,
+      "high": 173,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+        "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
+      }
+    },
+    {
+      "metric": "Generator-source short-circuit current classes G1 / G2",
+      "unit": "kA (110% DC component for G1, 130% for G2)",
+      "basis": "ABB VD4G brochure 1VCP000670 Rev B 2019.07, Technical data table; read 2026-11-25 via r.jina.ai (value: G1 16 / 25 / 50 / 50 kA; G2 16 / 25 / 37 / 37 kA)",
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+        "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
+      }
+    },
+    {
+      "metric": "Rated operating sequence during short-circuit interruption",
+      "unit": "duty cycle",
+      "basis": "ABB VD4G brochure 1VCP000670 Rev B 2019.07, Technical data table; read 2026-11-25 via r.jina.ai (value: CO-10 min-CO)",
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+        "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
+      }
+    },
+    {
+      "metric": "Pole centre distance",
+      "unit": "mm (150 / 210 or 275 / 275 / 275 mm by rating)",
+      "basis": "ABB VD4G brochure 1VCP000670 Rev B 2019.07, Dimensions row; read 2026-11-25 via r.jina.ai",
+      "value": 150,
+      "low": 150,
+      "high": 275,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+        "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
+      }
+    },
+    {
+      "metric": "Generator-standard versus distribution-standard DC time constant",
+      "unit": "ms (IEC 62271-37-013 133 ms; IEC 62271-100 45 ms)",
+      "basis": "ABB VD4G brochure 1VCP000670 Rev B 2019.07, comparison table: IEC 62271-37-013 short-circuit current d.c. time constant 133 ms versus IEC 62271-100 45 ms; read 2026-11-25 via r.jina.ai",
+      "value": 133,
+      "low": 45,
+      "high": 133,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+        "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
+      }
+    },
+    {
+      "metric": "TRV rate of rise, terminal faults",
+      "unit": "kV per microsecond (IEC 62271-37-013 up to 6; IEC 62271-100 up to 3.5)",
+      "basis": "ABB VD4G brochure 1VCP000670 Rev B 2019.07, comparison table; read 2026-11-25 via r.jina.ai",
+      "value": 6,
+      "low": 3.5,
+      "high": 6,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+        "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
+      }
+    }
+  ],
+  "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+  "sources": [
+    {
+      "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+      "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

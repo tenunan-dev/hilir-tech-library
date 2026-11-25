@@ -1,0 +1,88 @@
+{
+  "id": "geg-prod-dafang-crane-lh-type-qd-type-double-girder-overhead-crane-with",
+  "name": "Dafang Crane LH-type / QD-type double girder overhead crane with hoist trolley",
+  "manufacturer": "geg-vendor-dafang-crane-dgcrane-com-1e13a",
+  "product_type": "double-girder-eot-crane-with-hoist-winch-trolley",
+  "equipment": [
+    "geg-crane-and-hoist"
+  ],
+  "description": "double girder EOT crane with hoist/winch trolley",
+  "specifications": [
+    {
+      "metric": "LH-type 5t span",
+      "unit": "m",
+      "basis": "Dafang Crane 'Overhead Crane Price' PDF, LH-type table; PDF read via r.jina.ai mirror; URL path /2025/07/; r.jina.ai Published Time Sat, 31 Jan 2026 01:04:46 GMT.",
+      "low": 10.5,
+      "high": 31.5,
+      "year": 2025,
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+        "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+      }
+    },
+    {
+      "metric": "LH-type 5t lifting height",
+      "unit": "m",
+      "basis": "Dafang Crane price PDF LH-type row 5t; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026.",
+      "value": 16,
+      "year": 2026,
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+        "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+      }
+    },
+    {
+      "metric": "LH-type 5t total power",
+      "unit": "kW",
+      "basis": "Dafang Crane price PDF LH-type row 5t; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026.",
+      "low": 22.8,
+      "high": 27.8,
+      "year": 2026,
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+        "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+      }
+    },
+    {
+      "metric": "LH-type 10t total power",
+      "unit": "kW",
+      "basis": "Dafang Crane price PDF LH-type row 10t; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026.",
+      "low": 26.8,
+      "high": 34.8,
+      "year": 2026,
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+        "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+      }
+    },
+    {
+      "metric": "working duty",
+      "unit": "A5, A6",
+      "basis": "Dafang Crane price PDF LH-type and QD-type tables; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+        "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+      }
+    },
+    {
+      "metric": "single girder reference span/lift/power",
+      "unit": "span 7.5-28.5 m; lift 6-30 m; 220V-660V, 50-60Hz, 3ph AC",
+      "basis": "Dafang Crane price PDF 'Single Girder Electric Overhead Travelling Crane Price List (Reference)'; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+        "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+      }
+    }
+  ],
+  "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+  "sources": [
+    {
+      "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+      "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

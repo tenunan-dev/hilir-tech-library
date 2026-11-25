@@ -2,10 +2,18 @@
   "id": "aker-solutions",
   "name": "Aker Solutions",
   "country": "Norway",
-  "roles": ["epc", "supplier"],
-  "categories": ["offshore-epc", "equipment-oem"],
+  "roles": [
+    "epc",
+    "supplier"
+  ],
+  "categories": [
+    "offshore-epc",
+    "equipment-oem"
+  ],
   "description": "Norwegian offshore energy services company delivering subsea production systems, umbilicals and engineering, procurement and construction services to offshore oil, gas and offshore wind projects.",
-  "technologies": ["ele-subsea-umbilicals-power"],
+  "technologies": [
+    "ele-subsea-umbilicals-power"
+  ],
   "url": "https://www.akersolutions.com",
   "sources": [
     {

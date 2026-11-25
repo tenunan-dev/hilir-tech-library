@@ -1,0 +1,31 @@
+{
+  "id": "geg-prod-omterra-formerly-siemens-energy-omnivise-t3000-scada-functiona",
+  "name": "Omterra (formerly Siemens Energy) Omnivise T3000 SCADA functionality",
+  "manufacturer": "siemens-gamesa",
+  "product_type": "power-plant-scada-centralized-fleet-control",
+  "equipment": [
+    "geg-utility-scada-and-automatic-generation-control-integration"
+  ],
+  "description": "power plant SCADA / centralized fleet control",
+  "specifications": [
+    {
+      "metric": "SCADA role",
+      "unit": "function",
+      "basis": "Omterra Omnivise T3000 product page, © 2026 Omterra, read directly: 'a scalable SCADA system ... combine all types of generation units by centralized process control' and FAQ 'The Omnivise T3000 system supports easy remote access for remote operation and maintenance.' (value: controls mixed fleet generation from single platform; supports centralized remot)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
+        "source_id": "geg-omterra-com-omnivise-t3000-html-6e40189"
+      }
+    }
+  ],
+  "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
+  "sources": [
+    {
+      "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
+      "source_id": "geg-omterra-com-omnivise-t3000-html-6e40189"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

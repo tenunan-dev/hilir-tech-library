@@ -1,0 +1,83 @@
+{
+  "id": "geg-prod-sesb-sldc-automatic-generation-control-load-following-interfac",
+  "name": "SESB SLDC Automatic Generation Control / load following interface",
+  "manufacturer": "geg-vendor-sesb-grid-system-operator-sabah-load-dispatch-cent-b06c8",
+  "product_type": "grid-dispatch-and-agc-interface",
+  "equipment": [
+    "geg-utility-scada-and-automatic-generation-control-integration"
+  ],
+  "description": "grid dispatch and AGC interface",
+  "specifications": [
+    {
+      "metric": "AGC command signal",
+      "unit": "signal",
+      "basis": "Sabah Grid Code CC5.3.5 (published 2024, read via r.jina.ai): 'The AGC command shall be sent via the transmittal of a \"desired generation output level\" signal from the SLDC and the plant controller will adjust the Generating Unit s output accordingly.' (value: desired generation output level signal sent from SLDC to plant controller)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "AGC participation requirement",
+      "unit": "requirement",
+      "basis": "Sabah Grid Code CC5.3.5 (published 2024, read via r.jina.ai): 'Unless otherwise specified by the GSO, all Generating Units shall be equipped with appropriate plant controllers to participate in this AGC function.' (value: all Generating Units shall be equipped with appropriate plant controllers to par)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "secondary reserve (AGC/manual dispatch) response",
+      "unit": "seconds realisable; sustainable for next 30 minutes",
+      "basis": "Sabah Grid Code OC3.4.1 (published 2024, read via r.jina.ai): 'Secondary Reserve: ... under automatic generation control (AGC) or manually dispatch by GSO ... realisable within thirty (30) seconds ... sustainable for the next thirty (30) minutes.'",
+      "value": 30,
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "primary reserve (free governor) response",
+      "unit": "seconds realisable; sustainable for next 25 seconds",
+      "basis": "Sabah Grid Code OC3.4.1 (published 2024, read via r.jina.ai): 'Primary Reserve ... realisable within five (5) seconds ... sustainable for the next twenty-five (25) seconds.'",
+      "value": 5,
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "pre-COD AGC test requirement",
+      "unit": "test item",
+      "basis": "Sabah Grid Code OC10 test list (published 2024, read via r.jina.ai): 'Before the Commercial Operation Date (COD), Generator and Power Park Module shall conduct the following tests ... x. Automatic Generation Control'. (value: Automatic Generation Control listed among tests before Commercial Operation Date)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "operational metering to SCADA",
+      "unit": "data scope",
+      "basis": "Sabah Grid Code MC4.1.2 (published 2024, read via r.jina.ai): 'Operational Metering Data shall be collected by the Remote Terminal Units (RTUs) which are part of the GSO 's SCADA system.' (value: voltage, current, frequency, active/reactive power, plant status indications and)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    }
+  ],
+  "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+  "sources": [
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+      "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

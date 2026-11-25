@@ -1,0 +1,218 @@
+{
+  "id": "geg-low-voltage-switchgear",
+  "name": "Low voltage switchgear",
+  "equipment_type": "lv-switchgear",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Low voltage switchgear for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Low voltage switchgear"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "ABB MNS 3.0 low-voltage switchgear — Rated insulation voltage",
+      "unit": "V AC 3P (up to 1500 V DC depending on equipment)",
+      "basis": "ABB MNS 3.0 catalogue 1SXH900001C0201 Rev C 2019.11, Technical Data - Electrical data; PDF blocked by WebFetch, read via r.jina.ai 2026-11-25",
+      "value": 1000,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "ABB MNS 3.0 low-voltage switchgear — Rated operating voltage",
+      "unit": "V AC 3P (up to 750 V DC depending on equipment)",
+      "basis": "ABB MNS 3.0 catalogue 1SXH900001C0201 Rev C 2019.11, Electrical data; read 2026-11-25 via r.jina.ai",
+      "value": 690,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "ABB MNS 3.0 low-voltage switchgear — Main busbar rated current",
+      "unit": "A",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11: 'Rated current Ie up to 6300 A'; read 2026-11-25 via r.jina.ai",
+      "value": 6300,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "ABB MNS 3.0 low-voltage switchgear — Main busbar rated peak withstand current",
+      "unit": "kA",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11, Electrical data: rated peak withstand current Ipk up to 220 kA; read 2026-11-25 via r.jina.ai",
+      "value": 220,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "ABB MNS 3.0 low-voltage switchgear — Main busbar rated short-time withstand current",
+      "unit": "kA",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11, Electrical data: Icw up to 100 kA; read 2026-11-25 via r.jina.ai",
+      "value": 100,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "ABB MNS 3.0 low-voltage switchgear — Internal arc proof",
+      "unit": "arc-fault test data",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11, Electrical data - Arc proof; read 2026-11-25 via r.jina.ai (value: up to 690 V, prospective short-circuit current 100 kA, 300 ms, criteria 1 to 7 p)",
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "ABB MNS 3.0 low-voltage switchgear — Standard dimensions height / width / depth",
+      "unit": "mm; basic grid E = 25 mm per DIN 43660",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11, Mechanical characteristics; read 2026-11-25 via r.jina.ai (value: 2200 / 400, 600, 800, 1000 or 1200 / 800, 1000 or 1200)",
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "ABB MNS 3.0 low-voltage switchgear — Degree of protection / internal subdivision",
+      "unit": "IP / form",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11, Mechanical characteristics; read 2026-11-25 via r.jina.ai (value: up to IP54 (IEC 529); internal subdivision up to Form 4)",
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "ABB MNS 3.0 low-voltage switchgear — Low voltage definition under Sabah Distribution Code",
+      "unit": "definition",
+      "basis": "Sabah Distribution Code glossary, 'Low Voltage'; PDF posted 2024-01-05; read via r.jina.ai 2026-11-25 (value: exceeding extra low voltage but not exceeding 1,000 V AC or 1,500 V DC between c)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20distribution-20code-pdf-3fe93a1"
+      }
+    },
+    {
+      "metric": "Siemens SIVACON S8 low-voltage power d — Main busbar rated current",
+      "unit": "A (rear busbar); top busbar up to 6,300 A",
+      "basis": "Siemens SIVACON S8 catalogue, Technical specifications - Main busbars: 'Rated currents up to 7,000 A'; PDF blocked by WebFetch, read via r.jina.ai 2026-11-25; no catalogue date printed in the read section",
+      "value": 7000,
+      "year": 2026,
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+        "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
+      }
+    },
+    {
+      "metric": "Siemens SIVACON S8 low-voltage power d — Rated peak withstand current",
+      "unit": "kA (Ipk)",
+      "basis": "Siemens SIVACON S8 catalogue, Technical specifications - Main busbars: rated impulse withstand current up to 330 kA; read 2026-11-25 via r.jina.ai",
+      "value": 330,
+      "year": 2026,
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+        "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
+      }
+    },
+    {
+      "metric": "Siemens SIVACON S8 low-voltage power d — Rated short-time withstand current",
+      "unit": "kA (Icw)",
+      "basis": "Siemens SIVACON S8 catalogue, Technical specifications - Main busbars: rated short-time withstand current up to 150 kA; read 2026-11-25 via r.jina.ai",
+      "value": 150,
+      "year": 2026,
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+        "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
+      }
+    },
+    {
+      "metric": "Siemens SIVACON S8 low-voltage power d — Frame height / degree of protection",
+      "unit": "mm / IP code",
+      "basis": "Siemens SIVACON S8 catalogue, Technical specifications - Frame; read 2026-11-25 via r.jina.ai (value: 2000 or 2200 mm; IP30, IP31, IP40, IP41, IP42, IP54 per IEC 60529)",
+      "year": 2026,
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+        "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
+      }
+    },
+    {
+      "metric": "Siemens SIVACON S8 low-voltage power d — Circuit breaker design rated current",
+      "unit": "A (3WL/3VL circuit breaker sections)",
+      "basis": "Siemens SIVACON S8 catalogue, system overview: 'Rated current In up to 6,300 A' for circuit breaker design; read 2026-11-25 via r.jina.ai",
+      "value": 6300,
+      "year": 2026,
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+        "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "siemens",
+      "line": "Siemens SIVACON S8 low-voltage power distribution switchboard",
+      "note": "low-voltage switchgear assembly / MCC"
+    }
+  ],
+  "vendors": [
+    "siemens"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+      "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+    },
+    {
+      "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+      "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
+    },
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf",
+      "source_id": "geg-ecos-gov-my-sabah-20distribution-20code-pdf-3fe93a1"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Low Voltage Switchgear",
+      "why": "No project LV switchgear schedule found: 415/400 V rating, board count, incomer and bus-tie ratings, MCC duties, short-circuit rating and OEM selection are not stated in any source read.",
+      "next_action": "Obtain the LV board schedule and fault study before selecting a system."
+    },
+    {
+      "what": "Low Voltage Switchgear",
+      "why": "No printed price with year and currency for the LV switchgear package was found.",
+      "next_action": "Add the BOQ rate with date and currency when sourced."
+    },
+    {
+      "what": "Low Voltage Switchgear",
+      "why": "The Siemens catalogue asserts patented double-front PCCs, holeless connections and ventilation technique but gives no patent numbers, and no patent page was read; patents therefore remain empty.",
+      "next_action": "Read a patent page with a publication number before recording any patent."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

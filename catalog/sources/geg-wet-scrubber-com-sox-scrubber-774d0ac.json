@@ -1,0 +1,25 @@
+{
+  "id": "geg-wet-scrubber-com-sox-scrubber-774d0ac",
+  "name": "SOX Scrubber",
+  "url": "https://wet-scrubber.com/sox-scrubber",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "APZEM India Engineering",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Page read 2026-11-25; site footer ©2023; no publication date on product page. Vendor claims; page describes engine exhaust gas scrubbing.. Exact printed figures are recorded in the linked records' basis fields."
+}

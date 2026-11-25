@@ -1,0 +1,26 @@
+{
+  "id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69",
+  "name": "Sabah Grid Code (Annex 1)",
+  "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Energy Commission of Sabah / SESB",
+  "access": "open",
+  "licence": "Government/regulatory document; no reuse statement on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: PDF read via r.jina.ai (224 pages); r.jina.ai Published Time Fri, 05 Jan 2024. Document refers to the Electricity Supply Enactment 2024 and defines SESB, GSO, Single Buyer, CDGU (synchronous >=30 MW; power park module total >=5 MW) and distribution network at 33 kV or below. Direct PDF text extraction not attempted.. Exact printed figures are recorded in the linked records' basis fields."
+}

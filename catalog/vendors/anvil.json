@@ -1,12 +1,22 @@
 {
   "id": "anvil",
   "name": "Anvil (ASC Engineered Solutions)",
-  "aliases": ["ASC Engineered Solutions"],
+  "aliases": [
+    "ASC Engineered Solutions"
+  ],
   "country": "USA",
-  "roles": ["oem", "supplier"],
-  "categories": ["equipment-oem", "materials-supplier"],
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem",
+    "materials-supplier"
+  ],
   "description": "Pipe joining and support-systems manufacturer (formerly Anvil International, now part of ASC Engineered Solutions) supplying precision-engineered hangers, supports and fittings, including the Anvil EPS engineered pipe support line for dynamic loading.",
-  "technologies": ["civ-pipe-racks-supports"],
+  "technologies": [
+    "civ-pipe-racks-supports"
+  ],
   "url": "https://www.asc-es.com",
   "sources": [
     {

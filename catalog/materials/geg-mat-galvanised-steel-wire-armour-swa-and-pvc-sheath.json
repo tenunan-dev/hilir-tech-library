@@ -1,0 +1,24 @@
+{
+  "id": "geg-mat-galvanised-steel-wire-armour-swa-and-pvc-sheath",
+  "name": "Galvanised steel wire armour (SWA) and PVC sheath",
+  "material_category": "metal-polymer",
+  "description": "Galvanised steel wire armour (SWA) and PVC sheath named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "armour and sheath",
+      "unit": "n/a",
+      "basis": "Nexans 11 kV 3C 50sqmm BS6622 product page: 'Armouring type Round steel wires SWA', 'Material of cable sheath PVC', 'Thickness of cable sheath (mm) 2.6'. (value: Round steel wires SWA; PVC sheath 2.6 mm)",
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "geg-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+      "source_id": "geg-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

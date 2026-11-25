@@ -1,0 +1,25 @@
+{
+  "id": "geg-dosh-gov-my-cebaa79",
+  "name": "SHO Performance Indicators",
+  "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Department of Occupational Safety and Health, Malaysia",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Read with WebFetch 25 Nov 2026. Updated Date 16/03/2026.. Exact printed figures are recorded in the linked records' basis fields."
+}

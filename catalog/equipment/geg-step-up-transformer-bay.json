@@ -1,0 +1,108 @@
+{
+  "id": "geg-step-up-transformer-bay",
+  "name": "Step-up transformer bay",
+  "equipment_type": "transformer-bay-stepup",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Step-up transformer bay for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Step-up transformer bay"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "WBS line item",
+      "value": "Transformer Bay Area for Step-Up Transfomer (132/11kV) - blast wall & platform",
+      "unit": "n/a",
+      "basis": "Line item from the GEG plant WBS/BOQ; no sourced numeric specification found.",
+      "source": {
+        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
+        "note": "Work package supplied by owner; not a technical source."
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "geg-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://standards.ieee.org/ieee/979/7242",
+      "source_id": "geg-standards-ieee-org-7242-9cb8c7d"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "geg-knowledge-bsigroup-com-standard-0143e45"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard",
+      "source_id": "geg-knowledge-bsigroup-com-standard-c9ea26f"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
+      "source_id": "geg-knowledge-bsigroup-com-execution-of-concrete-4636911"
+    },
+    {
+      "url": "https://infraconcrete.co/cost-programme-guide",
+      "source_id": "geg-infraconcrete-co-cost-programme-guide-397f736"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "geg-dspecmy-com-portfolio-d114008"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e"
+    },
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "geg-dspecmy-com-portfolio-d114008",
+      "note": "Deltaspec portfolio item 6: one 90 MVA 132/33/11 kV and one 30 MVA 132/11 kV power transformer; client BUMISEM / SESB."
+    },
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "geg-dspecmy-com-portfolio-d114008",
+      "note": "Deltaspec portfolio item 15: replacement of two 45 MVA 11/132 kV generator transformers, supply and transport; client TNB REMACO / SESB."
+    },
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "geg-dspecmy-com-portfolio-d114008",
+      "note": "Deltaspec portfolio item 17: one 30 MVA 11/132 kV generator transformer; client TNB REMACO / SESB. Portfolio also lists rehabilitation/upgrading of the 132 kV Tenom Pangi hydro power station (item 5)."
+    },
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "geg-dspecmy-com-portfolio-d114008",
+      "note": "Deltaspec portfolio item 4: two 60 MVA 132/33 kV transformers, supply/delivery/installation/commissioning; client Penulaju Sdn Bhd / SESB."
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "PESTEC reference: design, engineering, supply, erect and commissioning of substation establishment; client Sarawak Energy Berhad."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Transformer Bay Area for Step-Up Transfomer (132/11kV) - blast wall & platform",
+      "why": "No published blast-wall rate, fire-rating requirement or transformer-bay platform cost for this plant; Deltaspec projects cover transformers, not bay civil works.",
+      "next_action": "Source the 132/11 kV transformer bay civil design and a comparable substation fire-wall BQ."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

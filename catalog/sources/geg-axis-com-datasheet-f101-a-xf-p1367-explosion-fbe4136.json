@@ -1,0 +1,25 @@
+{
+  "id": "geg-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136",
+  "name": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet",
+  "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "DIG",
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Axis Communications",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: 3-page datasheet; r.jina.ai reports Published Time Fri, 22 May 2026; read via r.jina.ai.. Exact printed figures are recorded in the linked records' basis fields."
+}

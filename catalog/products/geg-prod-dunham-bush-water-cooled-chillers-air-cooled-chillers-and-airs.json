@@ -1,0 +1,51 @@
+{
+  "id": "geg-prod-dunham-bush-water-cooled-chillers-air-cooled-chillers-and-airs",
+  "name": "Dunham-Bush water-cooled chillers, air-cooled chillers and airside AHUs",
+  "manufacturer": "geg-vendor-dunham-bush-malaysia-and-regional-operations-75358",
+  "product_type": "hvac-chiller-air-handling-unit-product-lines",
+  "equipment": [
+    "geg-hvac-system"
+  ],
+  "description": "HVAC chiller / air handling unit product lines",
+  "specifications": [
+    {
+      "metric": "Water-cooled chiller model lines",
+      "unit": "DCLCW / CMW / CFX / WCHX / WCS",
+      "basis": "Dunham-Bush 'Our Products' webpage, Water Cooled Chiller section; page read 2026-11-25; site footer ©2022 Dunham Bush; no article publication date printed.",
+      "year": 2026,
+      "source": {
+        "url": "https://dunham-bush.com/our-products/",
+        "source_id": "geg-dunham-bush-com-a2dd740"
+      }
+    },
+    {
+      "metric": "Air-cooled chiller model lines",
+      "unit": "ACMA / VX / ACHX / ACDS",
+      "basis": "Dunham-Bush 'Our Products' webpage, Air Cooled Chiller section; page read 2026-11-25; no article date printed.",
+      "year": 2026,
+      "source": {
+        "url": "https://dunham-bush.com/our-products/",
+        "source_id": "geg-dunham-bush-com-a2dd740"
+      }
+    },
+    {
+      "metric": "Airside equipment certification",
+      "unit": "AHRI certified (as printed)",
+      "basis": "Dunham-Bush 'Our Products' webpage, Airside section, 'comprehensive range of AHRI certified airside equipment'; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://dunham-bush.com/our-products/",
+        "source_id": "geg-dunham-bush-com-a2dd740"
+      }
+    }
+  ],
+  "url": "https://dunham-bush.com/our-products/",
+  "sources": [
+    {
+      "url": "https://dunham-bush.com/our-products/",
+      "source_id": "geg-dunham-bush-com-a2dd740"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

@@ -12,7 +12,7 @@
   "status": "operating",
   "description": "3 x Frame 6FA gas turbines plus generators; BOOT plant developed by Kimanis Power Sdn Bhd.",
   "technologies": [
-    "pwr-alaska-geg-wbs-supply-chain"
+    "pwr-geg-plant-wbs-supply-chain"
   ],
   "milestones": [
     {
@@ -20,7 +20,7 @@
       "date": "2012",
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
-        "source_id": "alaska-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
+        "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
       }
     }
   ],
@@ -33,31 +33,31 @@
       "value": 10,
       "source": {
         "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
-        "source_id": "alaska-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+        "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
       }
     }
   ],
   "sources": [
     {
       "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
-      "source_id": "alaska-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead",
+      "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead",
       "note": "3 x Frame 6FA gas turbines plus generators; BOOT plant developed by Kimanis Powe"
     },
     {
       "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
-      "source_id": "alaska-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+      "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
     },
     {
       "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
-      "source_id": "alaska-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
+      "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
     },
     {
       "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf",
-      "source_id": "alaska-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
+      "source_id": "geg-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
     },
     {
       "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
-      "source_id": "alaska-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead",
+      "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead",
       "note": "3 x Frame 6FA gas turbines plus generators; BOOT plant developed by Kimanis Power Sdn Bhd."
     }
   ],
@@ -69,5 +69,5 @@
     }
   ],
   "last_reviewed": "2026-11-25",
-  "notes": "Reference project from the Alaska GEG WBS sweep (5/6/7 Construction indirect, commissioning, EPC indirect)."
+  "notes": "Reference project from the GEG plant WBS sweep (5/6/7 Construction indirect, commissioning, EPC indirect)."
 }

@@ -1,0 +1,23 @@
+{
+  "id": "geg-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f",
+  "name": "Rolls-Royce introduces new MTU gas engine Series 500 for Power Generation",
+  "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Rolls-Royce plc / Rolls-Royce Power Systems",
+  "access": "open",
+  "licence": "Rolls-Royce press release; read via r.jina.ai",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Press release dated 10 December 2020. Direct WebFetch returned mostly site navigation, so article text was read via r.jina.ai; URL in evidence is the r.jina.ai reader URL, canonical page is https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx.. Exact printed figures are recorded in the linked records' basis fields."
+}

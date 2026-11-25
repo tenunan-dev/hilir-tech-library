@@ -1,0 +1,121 @@
+{
+  "id": "geg-prod-iso-8573-moisture-class-definitions-and-dryer-selection-nano-p",
+  "name": "ISO 8573 moisture class definitions and dryer selection (nano-purification solutions / Aerodyn Group Malaysia)",
+  "manufacturer": "geg-vendor-nano-purification-solutions-asia-pacific-singapore-de333",
+  "product_type": "compressed-air-quality-standard-interpretation-and",
+  "equipment": [
+    "geg-instrument-air-system"
+  ],
+  "description": "compressed air quality standard interpretation and dryer technology",
+  "specifications": [
+    {
+      "metric": "ISO 8573 moisture class 1 dew point",
+      "unit": "°F (printed '≤ -100°F')",
+      "basis": "nano-purification article 'Instrument Air Standards in Oil & Gas: How to Achieve ISO 8573 Compliance'; page read 2026-11-25; no article date printed.",
+      "high": -100,
+      "year": 2026,
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
+        "source_id": "geg-nano-purification-com-instrument-air-standar-c0601ff"
+      }
+    },
+    {
+      "metric": "ISO 8573 moisture class 2 dew point",
+      "unit": "°F (printed '≤ -40°F'; standard for instrument air in most oil & gas operations)",
+      "basis": "nano-purification article; page read 2026-11-25; no article date printed.",
+      "high": -40,
+      "year": 2026,
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
+        "source_id": "geg-nano-purification-com-instrument-air-standar-c0601ff"
+      }
+    },
+    {
+      "metric": "ISO 8573 moisture class 3 dew point",
+      "unit": "°F (printed '≤ 14°F')",
+      "basis": "nano-purification article; page read 2026-11-25; no article date printed.",
+      "high": 14,
+      "year": 2026,
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
+        "source_id": "geg-nano-purification-com-instrument-air-standar-c0601ff"
+      }
+    },
+    {
+      "metric": "desiccant dryer achievable dew point",
+      "unit": "°F or lower (printed '-40°F or lower')",
+      "basis": "nano-purification article; page read 2026-11-25.",
+      "high": -40,
+      "year": 2026,
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
+        "source_id": "geg-nano-purification-com-instrument-air-standar-c0601ff"
+      }
+    },
+    {
+      "metric": "refrigerated dryer dew point",
+      "unit": "°F (printed '~37°F to 45°F', Class 4 or 5)",
+      "basis": "nano-purification article; page read 2026-11-25.",
+      "low": 37,
+      "high": 45,
+      "year": 2026,
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
+        "source_id": "geg-nano-purification-com-instrument-air-standar-c0601ff"
+      }
+    },
+    {
+      "metric": "refrigerant dryer PDP",
+      "unit": "°C / 37.4 °F (printed '+3 °C/37.4 °F')",
+      "basis": "Aerodyn Group Malaysia Pneumatech page; page read 2026-11-25; site footer ©2026.",
+      "value": 3,
+      "year": 2026,
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech",
+        "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
+      }
+    },
+    {
+      "metric": "adsorption/desiccant dryer PDP",
+      "unit": "°C / 14 °F to -70 °F/-94 °F",
+      "basis": "Aerodyn Group Malaysia Pneumatech page; page read 2026-11-25; footer ©2026.",
+      "low": -10,
+      "high": -70,
+      "year": 2026,
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech",
+        "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
+      }
+    },
+    {
+      "metric": "membrane dryer PDP",
+      "unit": "°C / 37.4 °F",
+      "basis": "Aerodyn Group Malaysia Pneumatech page; page read 2026-11-25; footer ©2026.",
+      "value": 3,
+      "year": 2026,
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech",
+        "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
+      }
+    },
+    {
+      "metric": "ISO 8573-1 class 1 PDP / class 4 PDP (as printed)",
+      "unit": "class 1: -70 °C/-94 °F; class 4: +3 °C/37.4 °F",
+      "basis": "Aerodyn page states 'ISO 8537-1 class 1 requires a PDP of -70 °C/-94 °F, while class 4 indicates +3 °C/37.4 °F' (the page prints 'ISO 8537-1' in this sentence and 'ISO 8573-1' elsewhere; conflict preserved); page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech",
+        "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
+      }
+    }
+  ],
+  "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
+  "sources": [
+    {
+      "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
+      "source_id": "geg-nano-purification-com-instrument-air-standar-c0601ff"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

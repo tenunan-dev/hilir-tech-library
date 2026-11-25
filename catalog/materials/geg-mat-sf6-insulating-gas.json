@@ -1,0 +1,25 @@
+{
+  "id": "geg-mat-sf6-insulating-gas",
+  "name": "SF6 insulating gas",
+  "material_category": "insulating-gas",
+  "description": "SF6 insulating gas named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "Design role",
+      "unit": "qualitative (OEM brochure)",
+      "basis": "ABB ELK-04 C 145 kV brochure, Applications/Benefits and circuit-breaker sections; read 2026-11-25 via r.jina.ai (value: arc-quenching and insulating medium; ELK-04 C uses 60 percent less SF6 than pred)",
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+      "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

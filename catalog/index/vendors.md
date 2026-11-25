@@ -678,18 +678,18 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Abengoa](https://www.abengoa.com) | Spain | epc | Concentrated solar power with storage |
 | Active Power (Piller group) | — | oem, supplier | Gas engines |
 | Active Power / Piller | — | oem, supplier | Gas engines |
-| Aerodyn Group Malaysia (Shah Alam and Labuan) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Aerodyn Group Malaysia (Shah Alam and Labuan) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | AERZEN (Aerzener Maschinenfabrik GmbH) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Aggreko](https://www.aggreko.com) | United Kingdom | rental, packager | Containerised hybrid power modules (solar, storage, gensets); Lithium-ion battery energy storage; Gas engines |
 | [ALZETA](https://alzeta.com/ultra-low-nox-burners) | United States | oem | Gas-fired steam and hot-water boilers |
 | [ANDRITZ](https://www.andritz.com) | Austria | oem | Hydropower |
 | [APR Energy](https://www.aprenergy.com) | USA | rental, packager | Mobile gas turbine power plants |
-| APZEM India Engineering, Chennai, India | — | epc | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| APZEM India Engineering, Chennai, India | — | epc | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Armstrong International | — | oem, supplier | Gas-fired steam and hot-water boilers |
-| Atlantic Containment LLC (McGaheysville, VA, USA) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Atlantic Containment LLC (McGaheysville, VA, USA) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Atlantic Feedwater Systems | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | Avtron Power Solutions | — | oem, supplier | Gas engines |
-| Axis Communications AB | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Axis Communications AB | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Babcock & Wilcox](https://www.babcock.com) | USA | oem, service | Combined cycle and HRSG; Biomass and waste-to-energy |
 | [Baker Hughes](https://www.bakerhughes.com/) | USA | oem, service | Aeroderivative and industrial gas turbines; Cogeneration and combined heat and power |
 | Basler Electric | — | oem, supplier | Gas engines |
@@ -705,57 +705,57 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [BWSC](https://www.bwsc.com) | Denmark | packager, epc | Powerships and power barges; Biomass and waste-to-energy |
 | [BWX Technologies](https://www.bwxt.com) | USA | oem, developer, supplier | Microreactors (transportable nuclear); Advanced reactors (high-temperature gas, molten salt) |
 | [BYD](https://www.fdbatt.com) | China | oem | Lithium-ion battery energy storage |
-| Camfil | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Camfil | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Carrier | — | oem, supplier | Gas engines |
-| Castrol Ltd. | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Castrol Ltd. | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [CATL](https://www.catl.com) | China | oem | Lithium-ion battery energy storage; Sodium-ion batteries |
-| CG Power Systems (Crompton Greaves Ltd, India; acquired Pauwels Group and Ganz) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| CG Power Systems (Crompton Greaves Ltd, India; acquired Pauwels Group and Ganz) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [CGN](https://www.cgn.com.cn) | China | operator, developer | Large light-water reactors |
 | Changyu Pump | — | oem, supplier | Gas-fired steam and hot-water boilers |
-| CIDB Malaysia | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| CIDB Malaysia | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Ciel & Terre](https://www.ciel-et-terre.net) | France | developer, oem | Floating solar |
-| Clarke (C18 diesel engine) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Clarke (C18 diesel engine) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Cleaver-Brooks](https://cleaverbrooks.com) | USA | oem | Combined cycle and HRSG; Cogeneration and combined heat and power |
 | [Climeon](https://climeon.com) | Sweden | oem | Modular ORC units for waste heat and small geothermal |
-| Comair (Shanghai, China) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Comair (Shanghai, China) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | ComAp | — | oem, supplier | Gas engines |
 | [Commonwealth Fusion Systems](https://cfs.energy) | USA | developer | Fusion |
 | Concord Environmental | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Cosin](https://www.cosinsolar.com) | China | oem, epc | Concentrated solar power with storage |
 | CS Instruments | — | oem, supplier | Gas-fired steam and hot-water boilers |
-| CTCI Corporation | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| CTCI Corporation | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Cummins Generator Technologies | — | oem, supplier | Gas engines |
 | Cummins Inc. | — | oem, supplier | Gas engines |
-| Dafang Crane (dgcrane.com) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
-| Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Dafang Crane (dgcrane.com) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | dB Noise Reduction | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | dB Noise Reduction Inc. | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | Deep Sea Electronics | — | oem, supplier | Gas engines |
 | DEIF | — | oem, supplier | Gas engines |
-| Department of Occupational Safety and Health (DOSH) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
-| Donaldson Company, Inc. | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Department of Occupational Safety and Health (DOSH) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Donaldson Company, Inc. | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Doosan Enerbility](https://www.doosanenerbility.com) | South Korea | oem, supplier | Heavy-duty gas turbines (H and J class); Combined cycle and HRSG; Large light-water reactors; Offshore wind (fixed bottom) |
-| Dunham-Bush (Malaysia and regional operations) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Dunham-Bush (Malaysia and regional operations) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | E+E Elektronik | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | EagleBurgmann (KE-A/S) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Eavor](https://eavor.com) | Canada | developer | Enhanced geothermal systems |
 | Eclipse Combustion (BoostPak; spec sheets hosted on Kromschroeder docuthek) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [EDF](https://www.edf.fr) | France | operator | Large light-water reactors; Hydropower |
 | [ElectraTherm](https://electratherm.com) | USA | oem | Modular ORC units for waste heat and small geothermal |
-| ELGI | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| ELGI | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Emerson Copeland VFDs | — | oem, supplier | Gas-fired steam and hot-water boilers |
-| Energy Commission of Sabah | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Energy Commission of Sabah | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Energy Vault](https://energyvault.com) | USA | integrator, developer, service | Gravity energy storage; Lithium-ion battery energy storage |
 | Energylink International | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Enogia](https://www.enogia.com) | France | oem | Modular ORC units for waste heat and small geothermal |
 | [Entech Products Corp](https://www.entechproducts.com/products/combustion/) | United States | supplier, service | Combined cycle and HRSG; Gas-fired steam and hot-water boilers |
 | [Envision](https://www.envision-group.com) | China | oem, service | Onshore wind; Offshore wind (fixed bottom); Smart grids, microgrids and virtual power plants |
-| EPV Energy Ltd | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| EPV Energy Ltd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Equinor](https://www.equinor.com) | Norway | operator, developer | Floating offshore wind; Offshore wind (fixed bottom) |
 | ETTER Engineering / BoosterWorx | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Everllence](https://www.everllence.com) | Germany | oem, packager | Modular reciprocating engine power plants; Gas engines; Powerships and power barges; Cogeneration and combined heat and power |
 | [Exergy](https://exergyint.com) | Italy | oem | Modular ORC units for waste heat and small geothermal |
-| Exxon Mobil Corporation | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Exxon Mobil Corporation | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Fervo Energy](https://fervoenergy.com) | USA | developer, operator | Enhanced geothermal systems |
 | [Fluence](https://fluenceenergy.com/) | USA | integrator, service | Lithium-ion battery energy storage; Smart grids, microgrids and virtual power plants |
 | Forney Corporation | — | oem, supplier | Gas-fired steam and hot-water boilers |
@@ -763,7 +763,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Fuel Tech | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Fuji Electric](https://www.fujielectric.com) | Japan | oem | Geothermal (flash and binary cycle) |
 | [Fulton](https://fulton.com/product-categories/steam-boilers/) | United States | oem | Gas-fired steam and hot-water boilers |
-| GE / GE Energy | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| GE / GE Energy | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [GE Vernova](https://www.gevernova.com) | USA | oem, service | Mobile gas turbine power plants; Heavy-duty gas turbines (H and J class); Aeroderivative and industrial gas turbines; Combined cycle and HRSG; Cogeneration and combined heat and power; Hydropower; HVDC transmission and interconnectors |
 | [GE Vernova Hitachi Nuclear Energy](https://www.gevernova.com/nuclear) | USA | oem | Small modular reactors; Large light-water reactors |
 | [Goldwind](https://www.goldwind.com) | China | oem, service | Onshore wind; Offshore wind (fixed bottom) |
@@ -772,7 +772,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Grundfos | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [GS E&C](https://www.gsenc.com) | South Korea | epc | Combined cycle and HRSG |
 | GSD (Genel Sistem Dizaynı) | — | oem, supplier | Gas-fired steam and hot-water boilers |
-| HADETEC (Nijkerk, Netherlands; Rootselaar Group) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| HADETEC (Nijkerk, Netherlands; Rootselaar Group) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Halgo Power](https://www.halgopower.com/products/forced-draft-fans) | United States | oem, supplier | Gas-fired steam and hot-water boilers; Combined cycle and HRSG |
 | Hangguo (HGTYBypass) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Highview Power](https://highviewpower.com/) | United Kingdom | developer, oem | Compressed and liquid air energy storage |
@@ -782,7 +782,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [HolosGen](https://holosgen.com) | USA | developer | Microreactors (transportable nuclear) |
 | [Hydrostor](https://www.hydrostor.ca/) | Canada | developer | Compressed and liquid air energy storage |
 | [Hyundai Engineering & Construction](https://www.hdec.co.kr) | South Korea | epc | Large light-water reactors |
-| IAC Acoustics (UK Ltd / IAC World) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| IAC Acoustics (UK Ltd / IAC World) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [IHI Corporation](https://www.ihi.co.jp) | Japan | oem | Combined cycle and HRSG |
 | IMI Process Automation | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [INNIO Jenbacher](https://www.jenbacher.com) | Austria | oem | Gas engines; Modular reciprocating engine power plants; Cogeneration and combined heat and power |
@@ -791,23 +791,23 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Invinity Energy Systems](https://invinity.com/) | United Kingdom | oem | Flow batteries (vanadium, zinc-bromine) |
 | Ion Exchange (India) Ltd | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [ITER Organization](https://www.iter.org) | France | developer | Fusion |
-| Itron SAS | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Itron SAS | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [JA Solar](https://www.jasolar.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT) |
 | [JERA](https://www.jera.co.jp) | Japan | operator | Combined cycle and HRSG; Hydrogen-capable and ammonia-fired gas turbines |
 | [JEREH](https://www.jereh.com) | China | oem, packager, epc, service, rental | Mobile gas turbine power plants; Aeroderivative and industrial gas turbines; Gas engines; Cogeneration and combined heat and power; Lithium-ion battery energy storage |
 | [JinkoSolar](https://www.jinkosolar.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT) |
 | Johnson Controls (YORK, Silent-Aire) | — | oem, supplier | Gas engines |
-| Johnson Matthey Catalysts Germany GmbH | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Johnson Matthey Catalysts Germany GmbH | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Kairos Power](https://kairospower.com) | USA | developer, oem | Advanced reactors (high-temperature gas, molten salt) |
 | [Karpowership](https://karpowership.com) | Turkey | operator, packager | Powerships and power barges |
-| Kenya Electricity Generating Company Limited (KenGen) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Kenya Electricity Generating Company Limited (KenGen) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [KEPCO E&C](https://www.kepco-enc.com) | South Korea | epc | Large light-water reactors |
 | [KHNP](https://www.khnp.co.kr) | South Korea | operator | Large light-water reactors |
-| Kohler Power Systems (Kohler Energy) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Kohler Power Systems (Kohler Energy) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Kraftblock](https://www.kraftblock.com/) | Germany | oem | Thermal energy storage (molten salt, sand, bricks) |
 | Kurita America Inc. | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | Kurita Water Industries (Kurita ASEAN) | — | oem, supplier | Gas-fired steam and hot-water boilers |
-| Landis+Gyr | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Landis+Gyr | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | LANXESS | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [LONGi](https://www.longi.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT); Perovskite and tandem solar cells |
 | MAN Engines | — | oem, supplier | Gas engines |
@@ -819,7 +819,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Miura Boiler](https://miuraboiler.com) | Japan | oem | Cogeneration and combined heat and power |
 | MWM / Everllence | — | oem, supplier | Gas engines |
 | [NANO Nuclear Energy](https://www.nanonuclearenergy.com) | USA | developer | Microreactors (transportable nuclear) |
-| nano-purification solutions Asia Pacific (Singapore) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| nano-purification solutions Asia Pacific (Singapore) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | NEM Energy | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [NuScale Power](https://www.nuscalepower.com) | USA | oem | Small modular reactors |
 | [Oklo](https://oklo.com) | USA | developer, operator | Microreactors (transportable nuclear); Advanced reactors (high-temperature gas, molten salt) |
@@ -827,52 +827,52 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Ormat](https://www.ormat.com) | USA | oem, operator | Modular ORC units for waste heat and small geothermal; Geothermal (flash and binary cycle) |
 | Ovivo (Christ Water Technology / Kennicott) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Oxford PV](https://www.oxfordpv.com) | UK | oem, supplier | Perovskite and tandem solar cells |
-| PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
-| Pneumatech | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Pneumatech | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Polar Night Energy](https://polarnightenergy.com/) | Finland | oem | Thermal energy storage (molten salt, sand, bricks) |
 | [Power Barge Corporation](https://powerbargecorp.com) | USA | packager | Powerships and power barges |
 | [PR Power](https://www.prpower.com.au) | Australia | rental, supplier | Containerised hybrid power modules (solar, storage, gensets) |
-| Preferred Utilities Manufacturing Corp. | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
-| Preferred Utilities Manufacturing Corp., Danbury, CT, USA | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Preferred Utilities Manufacturing Corp. | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Preferred Utilities Manufacturing Corp., Danbury, CT, USA | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Principle Power](https://www.principlepower.com) | France | developer, service | Floating offshore wind |
-| Prismecs (OEM-agnostic EPCM/O&M provider, Houston, TX) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Prismecs (OEM-agnostic EPCM/O&M provider, Houston, TX) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [PROENERGY](https://www.proenergyservices.com) | USA | oem, packager, service | Mobile gas turbine power plants; Aeroderivative and industrial gas turbines |
 | Profire Energy | — | oem, supplier | Gas-fired steam and hot-water boilers |
-| PT Pembangunan Perumahan (Persero) Tbk (PT PP) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| PT Pembangunan Perumahan (Persero) Tbk (PT PP) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [PT PLN (Persero)](https://web.pln.co.id) | Indonesia | operator | Floating solar |
 | Purolite (Ecolab) | — | oem, supplier | Gas-fired steam and hot-water boilers |
-| Quincy | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Quincy | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Rehlko | — | oem, supplier | Gas engines |
-| Roben Mfg., Inc. (Lakewood, NJ, USA) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
-| Rolls-Royce / mtu solutions | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Roben Mfg., Inc. (Lakewood, NJ, USA) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Rolls-Royce / mtu solutions | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Rolls-Royce Power Systems (mtu)](https://www.mtu-solutions.com) | Germany | oem, packager | Modular reciprocating engine power plants; Gas engines; Cogeneration and combined heat and power |
 | [Rolls-Royce SMR](https://www.rolls-royce-smr.com) | United Kingdom | oem, developer | Small modular reactors |
 | [Rondo Energy](https://www.rondo.com/) | USA | oem | Thermal energy storage (molten salt, sand, bricks) |
 | [Rongke Power](https://www.rongkepower.com) | China | oem, supplier | Flow batteries (vanadium, zinc-bromine) |
-| Ruhrpumpen Group | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
-| Sabah Electricity Sdn Bhd | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Ruhrpumpen Group | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Sabah Electricity Sdn Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | SCC Inc. | — | oem, supplier | Gas-fired steam and hot-water boilers |
-| SCHB Engineering Services | — | epc | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| SCHB Engineering Services | — | epc | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Schneider Electric](https://www.se.com) | France | oem, integrator | Smart grids, microgrids and virtual power plants; Grid-forming inverters and synchronous condensers |
-| SESB Grid System Operator (GSO) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
-| SESB Grid System Operator / Sabah Load Dispatch Centre (SLDC) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
-| SESB Single Buyer (system owner/operator per Sabah Grid Code) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| SESB Grid System Operator (GSO) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| SESB Grid System Operator / Sabah Load Dispatch Centre (SLDC) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| SESB Single Buyer (system owner/operator per Sabah Grid Code) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Siemens Gamesa](https://www.siemensgamesa.com) | Spain | oem, service | Offshore wind (fixed bottom); Onshore wind |
-| Sly Inc., Strongsville, OH, USA | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Sly Inc., Strongsville, OH, USA | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [SMA](https://www.sma.de/en/company) | Germany | oem | Grid-forming inverters and synchronous condensers; Crystalline silicon PV (PERC, TOPCon, HJT) |
 | [Solar Turbines](https://www.solarturbines.com) | USA | oem, service | Aeroderivative and industrial gas turbines |
 | [SolarContainer](https://www.solarcontainer.one) | Austria | oem, packager | Containerised hybrid power modules (solar, storage, gensets) |
 | [SolarReserve](https://www.solarreserve.com) | USA | developer, operator | Concentrated solar power with storage |
 | [Spirax Sarco](https://spiraxsarco.com/learn-about-steam/the-boiler-house/introduction) | United Kingdom | oem, service, supplier | Gas-fired steam and hot-water boilers |
-| SPX Jemaco | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
-| Stadtwerke Kiel (190 MW J920 CHP project owner) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| SPX Jemaco | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Stadtwerke Kiel (190 MW J920 CHP project owner) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Sumitomo SHI FW](https://shi-fw.com) | Finland | oem, service | Biomass and waste-to-energy; Combined cycle and HRSG |
 | [Sungrow](https://www.sungrowpower.com/) | China | oem | Lithium-ion battery energy storage; Floating solar; Grid-forming inverters and synchronous condensers |
-| Supplier not identified in sources read (WBS line item) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Supplier not identified in sources read (WBS line item) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | SVI BREMCO | — | oem, supplier | Gas-fired steam and hot-water boilers |
-| SynCraft (Jenbacher J412 customer/project partner) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
-| Synerlitz Sdn Bhd | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
-| T.D. Williamson, LLC (Tulsa, OK, USA) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| SynCraft (Jenbacher J412 customer/project partner) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Synerlitz Sdn Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| T.D. Williamson, LLC (Tulsa, OK, USA) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [TerraPower](https://terrapower.com) | USA | developer | Advanced reactors (high-temperature gas, molten salt) |
 | [Tesla Energy](https://www.tesla.com/megapack) | USA | oem | Lithium-ion battery energy storage |
 | [Tetra Engineering Group](https://www.tetra-eng.com/whitepaper/duct-burners) | United Kingdom / United States | service, supplier | Combined cycle and HRSG; Gas-fired steam and hot-water boilers |
@@ -881,13 +881,13 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [TLV](https://www.tlv.com/steam-info/steam-theory) | Japan | oem, supplier | Gas-fired steam and hot-water boilers |
 | TMEIC | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Tokamak Energy](https://tokamakenergy.com) | UK | developer | Fusion |
-| Tornatech (controllers) | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Tornatech (controllers) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Trane | — | oem, supplier | Gas engines |
 | [Trina Solar](https://www.trinasolar.com) | China | oem, supplier | Crystalline silicon PV (PERC, TOPCon, HJT); Lithium-ion battery energy storage |
 | Trystar | — | oem, supplier | Gas engines |
-| Tsavo Power Company Limited | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Tsavo Power Company Limited | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Turboden](https://www.turboden.com) | Italy | oem | Modular ORC units for waste heat and small geothermal |
-| Umicore | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Umicore | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Unaflex / Kadant | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [USP&E Global](https://uspeglobal.com) | USA | epc, rental, operator, service | Modular reciprocating engine power plants; Mobile gas turbine power plants; Containerised hybrid power modules (solar, storage, gensets) |
 | [Valmet](https://www.valmet.com/energyproduction/cfb-boilers/) | Finland | oem | Gas-fired steam and hot-water boilers; Biomass and waste-to-energy |
@@ -895,7 +895,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Veolia Water Technologies | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | Veolia Water Technologies & Solutions | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Vestas](https://www.vestas.com) | Denmark | oem, service | Onshore wind; Offshore wind (fixed bottom) |
-| Vibrant Engineering Services Sdn. Bhd. (798115-T), Pelabuhan Klang, Selangor, Malaysia | — | epc | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Vibrant Engineering Services Sdn. Bhd. (798115-T), Pelabuhan Klang, Selangor, Malaysia | — | epc | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Voith](https://voith.com) | Germany | oem, service | Hydropower |
 | [Waller Marine](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083) | USA | packager | Powerships and power barges |
 | Warren Controls | — | oem, supplier | Gas-fired steam and hot-water boilers |
@@ -907,7 +907,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | WOG Technologies Limited | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Wärtsilä](https://www.wartsila.com/energy) | Finland | oem, packager | Modular reciprocating engine power plants; Gas engines; Powerships and power barges; Cogeneration and combined heat and power |
 | [X-energy](https://x-energy.com) | USA | developer, supplier | Advanced reactors (high-temperature gas, molten salt); Small modular reactors |
-| Yokogawa Electric Corporation | — | supplier | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) |
+| Yokogawa Electric Corporation | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Ørsted](https://orsted.com) | Denmark | developer, operator | Offshore wind (fixed bottom) |
 
 ## REF: Refining

@@ -1,0 +1,25 @@
+{
+  "id": "geg-mat-grade-40-20-concrete-bored-pile-concreted-length",
+  "name": "Grade 40/20 concrete (bored pile concreted length)",
+  "material_category": "concrete",
+  "description": "Grade 40/20 concrete (bored pile concreted length) named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "Average unit rate",
+      "unit": "RM/m3",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 11, PURATA/JULAT, Peninsular regions, read 2026-11-25 (value: RM361.48/m3; range RM253.60-497.40)",
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf",
+        "source_id": "geg-r-jina-ai-3-6-20piling-20works-pdf-b482501"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf",
+      "source_id": "geg-r-jina-ai-3-6-20piling-20works-pdf-b482501"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

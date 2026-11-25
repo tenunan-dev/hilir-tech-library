@@ -1,0 +1,24 @@
+{
+  "id": "geg-ecos-gov-my-sabah-20distribution-20code-pdf-3fe93a1",
+  "name": "Sabah Distribution Code version 6",
+  "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "INS"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "Energy Commission of Sabah (ECOS)",
+  "access": "open",
+  "licence": "not stated on the document",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: 184-page PDF posted 2024-01-05 under Electricity Supply Enactment 2024; WebFetch blocked for application/pdf, read via r.jina.ai 2026-11-25 plus a curl of the same jina URL for clauses 5.4.9, 5.5, 6.9.7 and 10.5.3.. Exact printed figures are recorded in the linked records' basis fields."
+}

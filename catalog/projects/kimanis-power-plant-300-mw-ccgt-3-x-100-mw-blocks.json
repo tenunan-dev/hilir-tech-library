@@ -12,7 +12,7 @@
   "status": "operating",
   "description": "EPCC consortium CTCI Corporation, Synerlitz Sdn Bhd, SCHB Engineering Services; owner Kimanis Power Sdn Bhd; RM1.5 billion printed.",
   "technologies": [
-    "pwr-alaska-geg-wbs-supply-chain"
+    "pwr-geg-plant-wbs-supply-chain"
   ],
   "milestones": [
     {
@@ -20,7 +20,7 @@
       "date": "2011",
       "source": {
         "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
-        "source_id": "alaska-dailyexpress-com-my-76deb3e"
+        "source_id": "geg-dailyexpress-com-my-76deb3e"
       }
     },
     {
@@ -28,7 +28,7 @@
       "date": "2024",
       "source": {
         "url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/",
-        "source_id": "alaska-theborneopost-com-db0284b"
+        "source_id": "geg-theborneopost-com-db0284b"
       }
     }
   ],
@@ -41,35 +41,35 @@
       "value": 1500000000,
       "source": {
         "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
-        "source_id": "alaska-dailyexpress-com-my-76deb3e"
+        "source_id": "geg-dailyexpress-com-my-76deb3e"
       }
     }
   ],
   "sources": [
     {
       "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
-      "source_id": "alaska-dailyexpress-com-my-76deb3e",
+      "source_id": "geg-dailyexpress-com-my-76deb3e",
       "note": "EPCC consortium CTCI Corporation, Synerlitz Sdn Bhd, SCHB Engineering Services; "
     },
     {
       "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
-      "source_id": "alaska-dailyexpress-com-my-76deb3e"
+      "source_id": "geg-dailyexpress-com-my-76deb3e"
     },
     {
       "url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/",
-      "source_id": "alaska-theborneopost-com-db0284b"
+      "source_id": "geg-theborneopost-com-db0284b"
     },
     {
       "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
-      "source_id": "alaska-cidb-gov-my-7ada474"
+      "source_id": "geg-cidb-gov-my-7ada474"
     },
     {
       "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf",
-      "source_id": "alaska-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
+      "source_id": "geg-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
     },
     {
       "url": "https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf",
-      "source_id": "alaska-r-jina-ai-perintah-kualiti-alam-sekeliling-a-1d5ada5"
+      "source_id": "geg-r-jina-ai-perintah-kualiti-alam-sekeliling-a-1d5ada5"
     }
   ],
   "gaps": [
@@ -80,5 +80,5 @@
     }
   ],
   "last_reviewed": "2026-11-25",
-  "notes": "Reference project from the Alaska GEG WBS sweep (5/6/7 Construction indirect, commissioning, EPC indirect)."
+  "notes": "Reference project from the GEG plant WBS sweep (5/6/7 Construction indirect, commissioning, EPC indirect)."
 }

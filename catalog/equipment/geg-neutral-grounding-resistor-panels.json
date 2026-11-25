@@ -1,0 +1,167 @@
+{
+  "id": "geg-neutral-grounding-resistor-panels",
+  "name": "Neutral grounding resistor panels",
+  "equipment_type": "ngr-panel",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Neutral grounding resistor panels for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Neutral grounding resistor panels"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "I-Gard Neutral Grounding Resistor (NGR — voltage range",
+      "unit": "V",
+      "basis": "I-Gard C-098EB Product Brochure, April 2022: 'I-Gard offers a complete range of Neutral Grounding Resistors, from 480V to 69,000V for resistance grounding of industrial power systems.'",
+      "low": 480,
+      "high": 69000,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
+        "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
+      }
+    },
+    {
+      "metric": "I-Gard Neutral Grounding Resistor (NGR — rated time options",
+      "unit": "10 seconds, 30 seconds, 1 minute or continuous time",
+      "basis": "CSA C22.2 295-15 clause 4.1.2 quoted in I-Gard C-098EB brochure, April 2022: 'Rated time shall be 10 seconds, 30 seconds, 1 minute or continuous time.'",
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
+        "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
+      }
+    },
+    {
+      "metric": "I-Gard Neutral Grounding Resistor (NGR — temperature rise, duty-rated example (2400 V L-N, 400 A, 10 s)",
+      "unit": "deg C",
+      "basis": "I-Gard C-098EB brochure, April 2022, 'Neutral Grounding Resistor (NGR) Ratings and Dimensions' table: 2400 V line-to-neutral, 400 A, 10 seconds, 760 deg C temperature rise.",
+      "value": 760,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
+        "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
+      }
+    },
+    {
+      "metric": "I-Gard Neutral Grounding Resistor (NGR — temperature rise, continuous example (277 V L-N, 5 A)",
+      "unit": "deg C",
+      "basis": "I-Gard C-098EB brochure, April 2022, NGR Ratings and Dimensions table: 277 V, 5 A continuous, 375 deg C temperature rise.",
+      "value": 375,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
+        "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
+      }
+    },
+    {
+      "metric": "I-Gard Neutral Grounding Resistor (NGR — recommended maximum temperature coefficient of resistance",
+      "unit": "Ohms / deg C",
+      "basis": "I-Gard C-098EB brochure, April 2022: 'it is recommended that the NGR element material to be specified to have a temperature coefficient of resistance no greater than 0.0002 Ohms / deg C.'",
+      "value": 0.0002,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
+        "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
+      }
+    },
+    {
+      "metric": "I-Gard Neutral Grounding Resistor (NGR — maximum current variation in rated voltage test",
+      "unit": "%",
+      "basis": "CSA C22.2 295-15 clause 6.2.1 quoted in I-Gard C-098EB brochure, April 2022: 'The current shall not vary from the rated current by more than 20%.'",
+      "value": 20,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
+        "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
+      }
+    },
+    {
+      "metric": "I-Gard Neutral Grounding Resistor (NGR — maximum resistance change over temperature range",
+      "unit": "%",
+      "basis": "IEEE C57.32 quoted in I-Gard C-098EB brochure, April 2022: 'The resistance of the NGR should not change by more than 67% from the initial value over the temperature range.'",
+      "value": 67,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
+        "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
+      }
+    },
+    {
+      "metric": "I-Gard SIGMA 3 NGR monitor / ground fa — applicable voltage range",
+      "unit": "V",
+      "basis": "I-Gard C-098EB brochure, April 2022: 'The SIGMA 3 is the I-Gard ground fault relay... it can be used across the whole range of High and Low Resistance Grounding Systems, in voltages from 480V to 69 kV.'",
+      "low": 480,
+      "high": 69000,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
+        "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
+      }
+    },
+    {
+      "metric": "I-Gard SIGMA 3 NGR monitor / ground fa — neutral-ground monitoring requirement",
+      "unit": "CEC 2021 10-302 (audible or visual alarm)",
+      "basis": "I-Gard C-098EB brochure, April 2022: 'All Neutral Grounding Resistors from I-Gard comply with CEC 2021 which requires complete neutral-to-ground path monitoring.'",
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
+        "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "geg-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
+      "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
+    },
+    {
+      "url": "http://standards.iteh.ai/catalog/standards/iec/148ee643-093a-434c-8738-5ba881469ebf/iec-60076-25-2023"
+    },
+    {
+      "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
+      "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4",
+      "note": "3D drawing and typical configuration figures in the C-098EB Product Brochure, April 2022; dimensions stated for information only and subject to change."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "NGR panels",
+      "why": "No printed price, EPC contractor, or named/dated/sized/located reference project for the NGR panels was found in a page read with WebFetch.",
+      "next_action": "Obtain the NGR panel tender pricing and project reference list from the electrical package bid."
+    },
+    {
+      "what": "NGR panels",
+      "why": "The I-Gard brochure does not state which generator or transformer neutral voltage/current rating is required for this 7-unit plant.",
+      "next_action": "Retrieve the generator neutral grounding study and single-line diagram for the plant."
+    },
+    {
+      "what": "NGR panels",
+      "why": "No SESB-specific NGR panel requirement was found in a page read with WebFetch; IEC 60076-25:2023 was located in search results but its full text page returned only a site header to WebFetch.",
+      "next_action": "Read the IEC 60076-25:2023 text from an accessible source and obtain the SESB earthing specification before recording requirements."
+    },
+    {
+      "what": "NGR panels",
+      "why": "No patent number printed in the I-Gard source read.",
+      "next_action": "Do not infer patent numbers."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

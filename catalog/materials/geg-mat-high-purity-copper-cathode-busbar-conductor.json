@@ -1,0 +1,25 @@
+{
+  "id": "geg-mat-high-purity-copper-cathode-busbar-conductor",
+  "name": "High purity copper cathode (busbar conductor)",
+  "material_category": "metal",
+  "description": "High purity copper cathode (busbar conductor) named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "conductivity",
+      "unit": "% IACS",
+      "basis": "ABB WavePro Series Busway Leaflet 1SXH3432025 REV A 04-2022, copyright 2022 ABB: 'Copper conductor is made of high purity copper cathode, conductivity is no less than 97% IACS.' (value: no less than 97% IACS)",
+      "year": 2025,
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
+        "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
+      "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

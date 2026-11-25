@@ -1,0 +1,26 @@
+{
+  "id": "geg-epa-gov-gas-fired-scr-cost-methodology-pdf-a889d3a",
+  "name": "Sargent & Lundy / ERG for US EPA — SCR cost methodology for oil/gas-fired boilers, Final February 2023",
+  "url": "https://www.epa.gov/system/files/documents/2022-03/gas-fired-scr-cost-methodology.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Eastern Research Group / Sargent & Lundy / US EPA",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Read via r.jina.ai fallback (retrieval 2023-04-04); document dated Final February 2023; costs in 2021 dollars. Scope is oil/gas-fired boilers, not gas engines.. Exact printed figures are recorded in the linked records' basis fields."
+}

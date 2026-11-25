@@ -1,0 +1,73 @@
+{
+  "id": "geg-prod-abb-ability-system-800xa-dcs-with-high-integrity-sis-integrate",
+  "name": "ABB Ability System 800xA (DCS with High Integrity SIS)",
+  "manufacturer": "abb",
+  "product_type": "integrated-control-and-safety-system-icss",
+  "equipment": [
+    "geg-plant-control-system"
+  ],
+  "description": "integrated control and safety system (ICSS)",
+  "specifications": [
+    {
+      "metric": "safety integrity level",
+      "unit": "SIL (TÜV to IEC 61508 and IEC 61511)",
+      "basis": "ABB Ability System 800xA Safety Overview brochure, copyright © 2025 ABB, PDF read via r.jina.ai (direct WebFetch of application/pdf unsupported): 'The ABB Ability System 800xA High Integrity safety system was released in 2005 and is TÜV certified for SIL 3 operation according to IEC 61508 and IEC 61511.'",
+      "value": 3,
+      "year": 2025,
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "source_id": "geg-search-abb-com-download-aspx-583c22e"
+      }
+    },
+    {
+      "metric": "controller hardware I/O capacity PM857",
+      "unit": "I/O points",
+      "basis": "ABB System 800xA Safety Overview, © 2025 ABB, read via r.jina.ai: 'The PM857 for up to 128 I/O points and the PM863 and PM867 when larger applications and more I/O is needed.'",
+      "value": 128,
+      "year": 2025,
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "source_id": "geg-search-abb-com-download-aspx-583c22e"
+      }
+    },
+    {
+      "metric": "cybersecurity certification",
+      "unit": "certification",
+      "basis": "ABB System 800xA Safety Overview, © 2025 ABB, read via r.jina.ai: 'ABB has achieved ISASecure System Security Assurance (SSA™) Level 1 certification for System 800xA version according to the IEC 62443 international standard.' (value: ISASecure System Security Assurance (SSA) Level 1 to IEC 62443; 800xA 6.1.1 LTS)",
+      "year": 2025,
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "source_id": "geg-search-abb-com-download-aspx-583c22e"
+      }
+    },
+    {
+      "metric": "alarm performance metrics standards",
+      "unit": "standard",
+      "basis": "ABB System 800xA Safety Overview, © 2025 ABB, read via r.jina.ai: alarm management 'metrics continuously calculated according EEMUA 191 and ISA 18.2 standards.' (value: EEMUA 191 and ISA 18.2)",
+      "year": 2025,
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "source_id": "geg-search-abb-com-download-aspx-583c22e"
+      }
+    },
+    {
+      "metric": "SIS connectivity protocols",
+      "unit": "protocol list",
+      "basis": "ABB System 800xA Safety Overview, © 2025 ABB, read via r.jina.ai: 'certified interference free communications modules for Modbus RS232, Modbus TCP, OPC, Profinet, Profisafe, and other ABB protocols.' (value: Modbus RS232, Modbus TCP, OPC, PROFINET, PROFIsafe)",
+      "year": 2025,
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "source_id": "geg-search-abb-com-download-aspx-583c22e"
+      }
+    }
+  ],
+  "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+  "sources": [
+    {
+      "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "source_id": "geg-search-abb-com-download-aspx-583c22e"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

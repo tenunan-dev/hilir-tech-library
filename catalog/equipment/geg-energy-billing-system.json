@@ -1,0 +1,179 @@
+{
+  "id": "geg-energy-billing-system",
+  "name": "Energy billing system",
+  "equipment_type": "energy-billing-system",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Energy billing system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Energy billing system"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "SESB Single Buyer revenue-metering dat — revenue data recording interval",
+      "unit": "minutes",
+      "basis": "Sabah Grid Code clause MC4.1.1 (224-page PDF, Energy Commission of Sabah, proxy reports published 5 Jan 2024, read via r.jina.ai): 'Revenue Metering Data ... shall be recorded, stored at data registers on-site every thirty (30) minutes and automatically collected once a day by the Data Collection System of the Single Buyer.'",
+      "value": 30,
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "SESB Single Buyer revenue-metering dat — on-site data store backup capability",
+      "unit": "days",
+      "basis": "Sabah Grid Code clause MC4.1.1 (published 2024, read via r.jina.ai): onsite electronic data registers shall have 'adequate capacity to store at least forty five (45) days of on-site data to provide back-up for any interruptions to the Automatic Data Collection System'.",
+      "value": 45,
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "SESB Single Buyer revenue-metering dat — billing data source",
+      "unit": "rule",
+      "basis": "Sabah Grid Code clause MC4.1.1 (published 2024, read via r.jina.ai); the code explicitly states it 'does not address the requirements, both technical and administrative, of the data adjustment and other functions within the Billing System or the requirements of the Billing System.' (value: Revenue Metering shall be the primary source of data for Billing purposes)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "SESB Single Buyer revenue-metering dat — meter database archive",
+      "unit": "years",
+      "basis": "Sabah Grid Code clause MC4.4/MC4 requirements (line 3924 of fetched text, published 2024, read via r.jina.ai): metering data to be kept 'seven (7) years in archive' (clause context: Single Buyer metering database).",
+      "value": 7,
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "Landis+Gyr E660 high-end metering and  — accuracy classes for active energy",
+      "unit": "class as printed",
+      "basis": "Landis+Gyr E660 product page (© Landis+Gyr 2026), read directly: 'Accuracy classes C, B (MID) or 0.2s, 0.5s, 1 (IEC) (for active energy)'. (value: C, B (MID) or 0.2s, 0.5s, 1 (IEC))",
+      "year": 2026,
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
+        "source_id": "geg-landisgyr-com-e660-f701920"
+      }
+    },
+    {
+      "metric": "Landis+Gyr E660 high-end metering and  — functional scope",
+      "unit": "product description",
+      "basis": "Landis+Gyr E660 product page (© Landis+Gyr 2026), read directly: '3 in 1 approach: one device for billing, network monitoring and control and power quality supervision'. (value: 3 in 1: billing, network monitoring and control, power quality supervision)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
+        "source_id": "geg-landisgyr-com-e660-f701920"
+      }
+    },
+    {
+      "metric": "Landis+Gyr E660 high-end metering and  — security",
+      "unit": "protocol/security",
+      "basis": "Landis+Gyr E660 product page (© Landis+Gyr 2026), read directly: 'High Level DLMS security with encryption and authentication, role based access (RBAC), TLS' and 'DLMS security suite 0 as default, upgrade path to suite 1 and 2 and TLS'. (value: DLMS High Level Security suite 0 default, upgrade path suite 1/2 and TLS; role b)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
+        "source_id": "geg-landisgyr-com-e660-f701920"
+      }
+    },
+    {
+      "metric": "Landis+Gyr E850 grid meter — accuracy class",
+      "unit": "class as printed",
+      "basis": "Landis+Gyr E850 product page (© Landis+Gyr 2026), read directly: 'Accuracy class 0.2S / 0.5S for active energy and 0.5S / 1 for reactive energy'. (value: 0.2S / 0.5S (active), 0.5S / 1 (reactive))",
+      "year": 2026,
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
+        "source_id": "geg-landisgyr-com-e850-873e563"
+      }
+    },
+    {
+      "metric": "Landis+Gyr E850 grid meter — low-load accuracy guarantee",
+      "unit": "% load (stated as 'lowest load of 2% in a single phase operation')",
+      "basis": "Landis+Gyr E850 product page (© Landis+Gyr 2026), read directly: 'the precision is guaranteed even at the lowest load of 2% in a singe phase operation, unbalanced or cos φ below 1'.",
+      "value": 2,
+      "year": 2026,
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
+        "source_id": "geg-landisgyr-com-e850-873e563"
+      }
+    },
+    {
+      "metric": "Landis+Gyr E850 grid meter — deployment base",
+      "unit": "countries (stated as '70 countries worldwide' / '70+ countries')",
+      "basis": "Landis+Gyr E850 product page (© Landis+Gyr 2026), read directly: 'track record of successful deployments across 70 countries worldwide'.",
+      "value": 70,
+      "year": 2026,
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
+        "source_id": "geg-landisgyr-com-e850-873e563"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "geg-vendor-sesb-single-buyer-system-owner-operator-per-sabah-41f25",
+      "line": "SESB Single Buyer revenue-metering data collection and billing chain",
+      "note": "energy billing / metering data collection system"
+    },
+    {
+      "vendor": "geg-vendor-landis-gyr-b8b44",
+      "line": "Landis+Gyr E660 high-end metering and analysis device",
+      "note": "billing / power-quality grid-edge meter"
+    },
+    {
+      "vendor": "geg-vendor-landis-gyr-b8b44",
+      "line": "Landis+Gyr E850 grid meter",
+      "note": "billing/substation tariff meter"
+    }
+  ],
+  "vendors": [
+    "geg-vendor-sesb-single-buyer-system-owner-operator-per-sabah-41f25",
+    "geg-vendor-landis-gyr-b8b44"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+      "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/28212",
+      "source_id": "geg-webstore-iec-ch-28212-9619020"
+    },
+    {
+      "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
+      "source_id": "geg-landisgyr-com-e660-f701920"
+    },
+    {
+      "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
+      "source_id": "geg-landisgyr-com-e850-873e563"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Energy Billing System",
+      "why": "Sabah Grid Code explicitly excludes billing-system technical/administrative requirements; no SESB billing software vendor, licence count or price was found in any page read.",
+      "next_action": "Request SESB metering/billing interface specification and the EPC billing-systemBOQ with named software and priced quantities."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

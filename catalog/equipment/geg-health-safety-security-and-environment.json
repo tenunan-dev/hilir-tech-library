@@ -1,0 +1,86 @@
+{
+  "id": "geg-health-safety-security-and-environment",
+  "name": "Health, safety, security and environment",
+  "equipment_type": "hsse",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Health, safety, security and environment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Health, safety, security and environment"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Safety and Health Officer (SHO) statut — project contract price threshold making SHO appointment mandatory for builders",
+      "unit": "RM million (exceeding)",
+      "basis": "DOSH 'Petunjuk Prestasi SHO / SHO Performance Indicators' page read 25 Nov 2026, 'Updated Date: 16/03/2026': 'The appointment of an SHO is encouraged among client companies and designers, but mandatory for builders if the construction work has a total project contract price exceeding RM20 million.' Regulation 12 of the Safety and Health Officer Regulations 1997 allows DOSH to refuse renewal of SHO",
+      "value": 20,
+      "year": 2026,
+      "source": {
+        "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/",
+        "source_id": "geg-dosh-gov-my-cebaa79"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "geg-vendor-department-of-occupational-safety-and-health-dosh-e8d92",
+      "line": "Safety and Health Officer (SHO) statutory appointment",
+      "note": "statutory HSSE personnel requirement"
+    }
+  ],
+  "vendors": [
+    "geg-vendor-department-of-occupational-safety-and-health-dosh-e8d92"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iso.org/standard/63787.html",
+      "source_id": "geg-iso-org-63787-html-6f062db"
+    },
+    {
+      "url": "https://www.iso.org/standard/60857.html",
+      "source_id": "geg-iso-org-60857-html-01e01e4"
+    },
+    {
+      "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf",
+      "source_id": "geg-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
+    },
+    {
+      "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/",
+      "source_id": "geg-dosh-gov-my-cebaa79"
+    },
+    {
+      "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/oshcim/",
+      "source_id": "geg-dosh-gov-my-af63be6"
+    },
+    {
+      "url": "https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf",
+      "source_id": "geg-r-jina-ai-perintah-kualiti-alam-sekeliling-a-1d5ada5"
+    },
+    {
+      "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
+      "source_id": "geg-cidb-gov-my-7ada474"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "HSSE",
+      "why": "No project-specific HSSE budget, incident statistics, HSE plan or ISO 45001/14001 certificate for the 7-unit plant was found. The EIA Order 2015 text read has no explicit gas-engine-plant entry, so its applicability to this plant is not established.",
+      "next_action": "Confirm EIA classification with DOE Sabah, and obtain the contractor's HSSE plan and certification evidence before pricing."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

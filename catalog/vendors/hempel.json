@@ -2,11 +2,19 @@
   "id": "hempel",
   "name": "Hempel",
   "country": "Denmark",
-  "roles": ["supplier"],
-  "categories": ["materials-supplier"],
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "materials-supplier"
+  ],
   "description": "Danish coatings manufacturer (HQ Kgs. Lyngby) supplying protective, marine and industrial coatings including certified steel fire protection (Hempafire intumescent range) for energy and infrastructure assets.",
-  "products": ["Hempafire Optima 515 intumescent fire protection"],
-  "technologies": ["civ-fireproofing-passive-protection"],
+  "products": [
+    "Hempafire Optima 515 intumescent fire protection"
+  ],
+  "technologies": [
+    "civ-fireproofing-passive-protection"
+  ],
   "url": "https://www.hempel.com",
   "sources": [
     {

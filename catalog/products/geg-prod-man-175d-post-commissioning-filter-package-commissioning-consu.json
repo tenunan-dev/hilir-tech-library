@@ -1,0 +1,32 @@
+{
+  "id": "geg-prod-man-175d-post-commissioning-filter-package-commissioning-consu",
+  "name": "MAN 175D post-commissioning filter package",
+  "manufacturer": "everllence",
+  "product_type": "commissioning-consumables-package",
+  "equipment": [
+    "geg-commissioning-equipment-and-consumables"
+  ],
+  "description": "commissioning consumables package",
+  "specifications": [
+    {
+      "metric": "number of standardised spare parts packages",
+      "unit": "packages",
+      "basis": "MAN PrimeServ 'Prepare for MAN 175D' printed June 2022: four packages - post-commissioning (filters for complete replacement after commissioning), mechanical (lube oil/fuel/air filters, gaskets, spare fuel injector), after-treatment (urea filters, injectors, NOx sensors), automation (speed/pressure/float/temperature sensors).",
+      "value": 4,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
+    }
+  ],
+  "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+      "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

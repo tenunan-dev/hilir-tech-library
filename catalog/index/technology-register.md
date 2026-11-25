@@ -73,7 +73,7 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Wellhead platforms (WHP) | Minimum-facility wellhead platform structures and marine systems | commercial | Offshore Malaysia WHPs; minimum-facility designs | [card](technologies-UPS.md#ups-whp-platform-structures-and-marine-systems) |
 | Mobile production platforms | Twenty-year mobile production platform development and cost history (2006–2026) | commercial | Floating and mobile production units; dated project and cost evidence | [card](technologies-UPS.md#ups-mobile-production-twenty-year-retrospective) |
 | Data centre and modular power | Ten-year data centre power and modular gas generation retrospective (2016–2026) | commercial | Data centre power and small modular gas generation; dated evidence | [card](technologies-IDC.md#idc-datacentre-power-and-modular-gas-ten-year-retrospective) |
-| Power plant EPC WBS | Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV) | commercial | 7-unit gas engine plant, SESB 132/33/11 kV connection | [card](technologies-PWR.md#pwr-alaska-geg-wbs-supply-chain) |
+| Power plant EPC WBS | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) | commercial | 7-unit gas engine plant, SESB 132/33/11 kV connection | [card](technologies-PWR.md#pwr-geg-plant-wbs-supply-chain) |
 
 ## MID: Midstream
 

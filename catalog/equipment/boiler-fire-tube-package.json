@@ -1,10 +1,16 @@
 {
   "id": "boiler-fire-tube-package",
   "name": "Packaged fire-tube steam boiler",
-  "aliases": ["fire-tube boiler", "packaged firetube boiler"],
+  "aliases": [
+    "fire-tube boiler",
+    "packaged firetube boiler"
+  ],
   "equipment_type": "boiler",
   "sector": "PWR",
-  "sector_codes": ["PWR", "PRC"],
+  "sector_codes": [
+    "PWR",
+    "PRC"
+  ],
   "description": "Shop-assembled shell boiler in which hot combustion gases pass through tubes surrounded by the water, typically in two to four passes with a reverse-flue turnaround. The standard packaged steam source for small and medium industrial loads and the workhorse of on-site utilities where steam demand runs from tens of thousands of pounds per hour downward.",
   "subtypes": [
     {
@@ -120,8 +126,13 @@
       "note": "Miura America EX spec tables, read 30 October 2026"
     }
   ],
-  "vendors": ["cleaver-brooks", "miura"],
-  "technologies": ["pwr-cogeneration-chp"],
+  "vendors": [
+    "cleaver-brooks",
+    "miura"
+  ],
+  "technologies": [
+    "pwr-cogeneration-chp"
+  ],
   "sources": [
     {
       "url": "https://miuraboiler.com/products/ex-dual-fuel-steam-boiler",

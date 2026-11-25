@@ -1,10 +1,17 @@
 {
   "id": "boiler-electric-electrode",
   "name": "Electric and electrode steam boiler",
-  "aliases": ["electric steam boiler", "electrode steam boiler", "high-voltage electric boiler"],
+  "aliases": [
+    "electric steam boiler",
+    "electrode steam boiler",
+    "high-voltage electric boiler"
+  ],
   "equipment_type": "boiler",
   "sector": "PWR",
-  "sector_codes": ["PWR", "PRC"],
+  "sector_codes": [
+    "PWR",
+    "PRC"
+  ],
   "description": "Steam generator heated directly by electricity — resistance elements in a pressure vessel, or current conducted through the boiler water by electrodes at high voltage. No combustion, no flue gas and no fuel system, so it avoids the chimney, fuel infrastructure and air-permit scope entirely, and pairs with cheap or surplus site power; the electrification option for on-site steam.",
   "subtypes": [
     {
@@ -89,8 +96,14 @@
       "note": "Cleaver-Brooks Model S page, search-verified 30 October 2026"
     }
   ],
-  "vendors": ["bosch-industrial", "cleaver-brooks"],
-  "technologies": ["pwr-cogeneration-chp", "pch-electrified-process-heat"],
+  "vendors": [
+    "bosch-industrial",
+    "cleaver-brooks"
+  ],
+  "technologies": [
+    "pwr-cogeneration-chp",
+    "pch-electrified-process-heat"
+  ],
   "sources": [
     {
       "url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",

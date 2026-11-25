@@ -1,0 +1,25 @@
+{
+  "id": "geg-mat-rigid-polyurethane-foam",
+  "name": "rigid polyurethane foam",
+  "material_category": "polymers",
+  "description": "rigid polyurethane foam named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "insulation layer",
+      "unit": "mm",
+      "basis": "PIPECO pre-insulated panel description; page read 2026-11-25. (value: 50mm)",
+      "year": 2026,
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
+        "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
+      "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

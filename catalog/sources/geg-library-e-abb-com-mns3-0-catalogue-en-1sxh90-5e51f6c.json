@@ -1,0 +1,25 @@
+{
+  "id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c",
+  "name": "MNS 3.0 Low Voltage Switchgear catalogue 1SXH900001C0201 Rev C",
+  "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "MAT"
+  ],
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "publisher_org": "ABB Xiamen Low Voltage Equipment Co., Ltd / ABB",
+  "access": "open",
+  "licence": "OEM catalogue; licence not stated in the read text",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: 54-page PDF with filename Rev C 2019.11; WebFetch blocked for application/pdf, read via r.jina.ai 2026-11-25 (jina Published Time 2024-03-18).. Exact printed figures are recorded in the linked records' basis fields."
+}

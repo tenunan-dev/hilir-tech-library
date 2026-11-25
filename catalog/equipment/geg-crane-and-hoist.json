@@ -1,0 +1,256 @@
+{
+  "id": "geg-crane-and-hoist",
+  "name": "Crane and hoist",
+  "equipment_type": "crane-hoist",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Crane and hoist for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Crane and hoist"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Vibrant Engineering Services single/do — capacity range",
+      "unit": "T (printed '1T – 100T+')",
+      "basis": "Vibrant Engineering 'Overhead Travelling Crane' specifications table; page read 2026-11-25; site footer ©2026.",
+      "low": 1,
+      "high": 100,
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "Vibrant Engineering Services single/do — span",
+      "unit": "m (printed 'Up to 35m')",
+      "basis": "Vibrant Engineering crane specifications table; page read 2026-11-25; footer ©2026.",
+      "high": 35,
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "Vibrant Engineering Services single/do — single girder EOT capacity",
+      "unit": "T",
+      "basis": "Vibrant Engineering 'Types & Configurations – Single Girder EOT'; page read 2026-11-25; footer ©2026.",
+      "low": 1,
+      "high": 20,
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "Vibrant Engineering Services single/do — single girder EOT span",
+      "unit": "m",
+      "basis": "Vibrant Engineering 'Types & Configurations – Single Girder EOT'; page read 2026-11-25; footer ©2026.",
+      "high": 25,
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "Vibrant Engineering Services single/do — double girder EOT capacity",
+      "unit": "T (printed '5T–100T+')",
+      "basis": "Vibrant Engineering 'Types & Configurations – Double Girder EOT'; page read 2026-11-25; footer ©2026.",
+      "low": 5,
+      "high": 100,
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "Vibrant Engineering Services single/do — double girder EOT span",
+      "unit": "m",
+      "basis": "Vibrant Engineering 'Types & Configurations – Double Girder EOT'; page read 2026-11-25; footer ©2026.",
+      "high": 35,
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "Vibrant Engineering Services single/do — duty class",
+      "unit": "(printed 'A3 – A7')",
+      "basis": "Vibrant Engineering crane specifications table; page read 2026-11-25; footer ©2026. (low: A3) (high: A7)",
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "Vibrant Engineering Services single/do — certification",
+      "unit": "JKKP / DOSH; PE Approval",
+      "basis": "Vibrant Engineering specifications table and footer; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "Vibrant Engineering Services single/do — standard features",
+      "unit": "wireless remote control as standard; VFD; anti-collision and overload protection",
+      "basis": "Vibrant Engineering 'Key Features'; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "Vibrant Engineering Services single/do — supply condition",
+      "unit": "New & Reconditioned",
+      "basis": "Vibrant Engineering specifications table; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "Dafang Crane LH-type / QD-type double  — LH-type 5t span",
+      "unit": "m",
+      "basis": "Dafang Crane 'Overhead Crane Price' PDF, LH-type table; PDF read via r.jina.ai mirror; URL path /2025/07/; r.jina.ai Published Time Sat, 31 Jan 2026 01:04:46 GMT.",
+      "low": 10.5,
+      "high": 31.5,
+      "year": 2025,
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+        "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+      }
+    },
+    {
+      "metric": "Dafang Crane LH-type / QD-type double  — LH-type 5t lifting height",
+      "unit": "m",
+      "basis": "Dafang Crane price PDF LH-type row 5t; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026.",
+      "value": 16,
+      "year": 2026,
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+        "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+      }
+    },
+    {
+      "metric": "Dafang Crane LH-type / QD-type double  — LH-type 5t total power",
+      "unit": "kW",
+      "basis": "Dafang Crane price PDF LH-type row 5t; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026.",
+      "low": 22.8,
+      "high": 27.8,
+      "year": 2026,
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+        "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+      }
+    },
+    {
+      "metric": "Dafang Crane LH-type / QD-type double  — LH-type 10t total power",
+      "unit": "kW",
+      "basis": "Dafang Crane price PDF LH-type row 10t; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026.",
+      "low": 26.8,
+      "high": 34.8,
+      "year": 2026,
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+        "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+      }
+    },
+    {
+      "metric": "Dafang Crane LH-type / QD-type double  — working duty",
+      "unit": "A5, A6",
+      "basis": "Dafang Crane price PDF LH-type and QD-type tables; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+        "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+      }
+    },
+    {
+      "metric": "Dafang Crane LH-type / QD-type double  — single girder reference span/lift/power",
+      "unit": "span 7.5-28.5 m; lift 6-30 m; 220V-660V, 50-60Hz, 3ph AC",
+      "basis": "Dafang Crane price PDF 'Single Girder Electric Overhead Travelling Crane Price List (Reference)'; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+        "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "geg-vendor-vibrant-engineering-services-sdn-bhd-798115-t-pela-1f1a0",
+      "line": "Vibrant Engineering Services single/double girder EOT crane, wire rope hoist, chain hoist, gantry and jib crane",
+      "note": "electric overhead travelling crane and hoists, JKKP/DOSH certified"
+    },
+    {
+      "vendor": "geg-vendor-dafang-crane-dgcrane-com-1e13a",
+      "line": "Dafang Crane LH-type / QD-type double girder overhead crane with hoist trolley",
+      "note": "double girder EOT crane with hoist/winch trolley"
+    }
+  ],
+  "vendors": [
+    "geg-vendor-vibrant-engineering-services-sdn-bhd-798115-t-pela-1f1a0",
+    "geg-vendor-dafang-crane-dgcrane-com-1e13a"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://vibrantengineering.com.my/products/overhead-crane",
+      "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+    },
+    {
+      "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+      "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
+    },
+    {
+      "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
+      "source_id": "geg-focusmalaysia-my-kinergy-secures-biggest-epc-2381482"
+    },
+    {
+      "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
+      "source_id": "geg-focusmalaysia-my-kinergy-secures-biggest-epc-2381482",
+      "note": "LOA dated 13 May 2025 from Rancha Power (PETRONAS Gas / SESB / SEC Power JV formed 31 Dec 2024) to KAB Energy Holdings / Kinergy Advancement Bhd; nine acres adjacent Labuan Shipyard. Crane/hoist packa"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Crane & Hoist",
+      "why": "No patent page or patent number was actually read for cranes or hoists.",
+      "next_action": "Read official patent register pages before recording any patent."
+    },
+    {
+      "what": "Crane & Hoist",
+      "why": "No named, dated, sized, located crane reference project was printed; the Vibrant page lists application sectors but no named plant.",
+      "next_action": "Request project reference list from Vibrant Engineering Services Sdn Bhd."
+    },
+    {
+      "what": "Crane & Hoist",
+      "why": "Reference prices are vendor list prices in USD dated 2025/2026, not a Malaysian delivered-and-installed price including JKKP certification.",
+      "next_action": "Obtain a local delivered-and-certified quotation for the required capacity and span."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

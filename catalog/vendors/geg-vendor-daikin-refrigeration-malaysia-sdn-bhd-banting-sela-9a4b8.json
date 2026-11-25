@@ -1,0 +1,22 @@
+{
+  "id": "geg-vendor-daikin-refrigeration-malaysia-sdn-bhd-banting-sela-9a4b8",
+  "name": "Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia named on a page read for the GEG plant WBS supply-chain sweep.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed WBS/BOQ sweep."
+}

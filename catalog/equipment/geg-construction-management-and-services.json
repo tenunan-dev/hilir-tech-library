@@ -1,0 +1,108 @@
+{
+  "id": "geg-construction-management-and-services",
+  "name": "Construction management and services",
+  "equipment_type": "construction-management",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Construction management and services for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction indirect. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Construction management and services"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "CTCI Corporation / Synerlitz Sdn Bhd / — EPCC construction period",
+      "unit": "months",
+      "basis": "Daily Express, published 24 May 2011: Kimanis Power Sdn Bhd 300 MW combined-cycle plant; EPCC contract signed with consortium CTCI Corporation (Taiwan), Synerlitz Sdn Bhd and SCHB Engineering Services (Suria Capital subsidiary); consortium to develop, construct and commission plant and related facilities/infrastructures; package within 32 months from 1 Apr 2011 to first commercial operation 1 Dec ",
+      "value": 32,
+      "year": 2011,
+      "source": {
+        "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
+        "source_id": "geg-dailyexpress-com-my-76deb3e"
+      }
+    },
+    {
+      "metric": "Sabah Electricity Sdn Bhd / Energy Com — fast-track gas turbine capacity",
+      "unit": "MW",
+      "basis": "Borneo Post, posted 25 September 2024: SESB received Letter of Notification from Energy Commission of Sabah for supply and installation of 94 MW gas turbine generators at Kimanis; injection point at Langsat Main Intake Substation (PMU); completion expected June 2025.",
+      "value": 94,
+      "year": 2024,
+      "source": {
+        "url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/",
+        "source_id": "geg-theborneopost-com-db0284b"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "geg-vendor-ctci-corporation-fd1da",
+      "line": "CTCI Corporation / Synerlitz Sdn Bhd / SCHB Engineering Services EPCC consortium",
+      "note": "EPC/EPCC contractor and construction-management services"
+    },
+    {
+      "vendor": "geg-vendor-sabah-electricity-sdn-bhd-db37a",
+      "line": "Sabah Electricity Sdn Bhd / Energy Commission of Sabah (owner and regulator)",
+      "note": "owner project management / grid-connection authority"
+    }
+  ],
+  "vendors": [
+    "geg-vendor-ctci-corporation-fd1da",
+    "geg-vendor-synerlitz-sdn-bhd-5a18e",
+    "geg-vendor-schb-engineering-services-3f98f",
+    "geg-vendor-sabah-electricity-sdn-bhd-db37a",
+    "geg-vendor-energy-commission-of-sabah-9a5a7"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
+      "source_id": "geg-dailyexpress-com-my-76deb3e"
+    },
+    {
+      "url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/",
+      "source_id": "geg-theborneopost-com-db0284b"
+    },
+    {
+      "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
+      "source_id": "geg-cidb-gov-my-7ada474"
+    },
+    {
+      "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf",
+      "source_id": "geg-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
+    },
+    {
+      "url": "https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf",
+      "source_id": "geg-r-jina-ai-perintah-kualiti-alam-sekeliling-a-1d5ada5"
+    },
+    {
+      "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
+      "source_id": "geg-dailyexpress-com-my-76deb3e",
+      "note": "EPCC consortium CTCI Corporation, Synerlitz Sdn Bhd, SCHB Engineering Services; owner Kimanis Power Sdn Bhd; RM1.5 billion printed."
+    },
+    {
+      "url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/",
+      "source_id": "geg-theborneopost-com-db0284b",
+      "note": "Connected to Sabah Grid at Langsat Main Intake Substation (PMU)."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Construction Management + Svc (Sub-con, Third Party Cost, Local Authorities etc)",
+      "why": "No public document publishes a construction-management fee, subcontract third-party cost schedule, or Sabah local-authority fee schedule for this 7-unit project. The RM1.5 billion figure is a whole-plant capital sum with no indirect breakdown.",
+      "next_action": "Obtain the bidder's priced BOQ and the relevant Sabah local-authority fee schedule; do not derive an indirect percentage from the RM1.5 billion total."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

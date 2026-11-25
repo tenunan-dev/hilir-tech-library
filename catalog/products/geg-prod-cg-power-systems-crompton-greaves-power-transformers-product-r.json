@@ -1,0 +1,90 @@
+{
+  "id": "geg-prod-cg-power-systems-crompton-greaves-power-transformers-product-r",
+  "name": "CG Power Systems (Crompton Greaves) Power Transformers product range",
+  "manufacturer": "geg-vendor-cg-power-systems-crompton-greaves-ltd-india-acquir-a6b6b",
+  "product_type": "power-transformer",
+  "equipment": [
+    "geg-power-transformers"
+  ],
+  "description": "power transformer",
+  "specifications": [
+    {
+      "metric": "Power transformer manufacturing range",
+      "unit": "kVA (5 kVA to 575,000 kVA; 1.5 M kVA in a bank)",
+      "basis": "CG Power Systems 'Power Transformers' brochure catalogue excerpt, page 6: 'Crompton Greaves have the capability to produce transformers from 5 kVA to 575,000 kVA (1.5 M kVA in a bank), 3.3 kV to 765 kV class'; brochure date not printed on the DirectIndustry summary page, read 2026-11-25",
+      "value": 5,
+      "low": 5,
+      "high": 575000,
+      "year": 2026,
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+        "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
+      }
+    },
+    {
+      "metric": "Voltage class range",
+      "unit": "kV class as printed",
+      "basis": "CG Power Systems Power Transformers brochure excerpt p.6 (same sentence as range); read via DirectIndustry HTML summary 2026-11-25; no brochure print date stated there",
+      "value": 3.3,
+      "low": 3.3,
+      "high": 765,
+      "year": 2026,
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+        "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
+      }
+    },
+    {
+      "metric": "Annual manufacturing capacity",
+      "unit": "MVA per year across 10 plants on three continents (over 30,000 MVA annually in I",
+      "basis": "CG Power Systems Power Transformers catalogue summary, 'Manufacturing Capabilities'; page read 2026-11-25, source page does not print a date",
+      "value": 75000,
+      "year": 2026,
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+        "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
+      }
+    },
+    {
+      "metric": "Insulation level at 132 kV connection point (User Apparatus BIL)",
+      "unit": "kV (basic insulation level)",
+      "basis": "Planning and Connection Codes for Sabah and Labuan Grid Codes, 16 June 2014, slide 13: 'at 132 kV voltage level, the BIL is 550 kV'; PDF blocked by WebFetch, read via r.jina.ai 2026-11-25",
+      "value": 550,
+      "year": 2014,
+      "source": {
+        "url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf",
+        "source_id": "geg-st-gov-my-planning-and-connection-codes-for-e15af3e"
+      }
+    },
+    {
+      "metric": "Insulation level at 33 kV",
+      "unit": "kV (basic insulation level)",
+      "basis": "Planning and Connection Codes for Sabah and Labuan Grid Codes, 16 June 2014, slide 13: 'at 33 kV voltage level, the BIL is 170 kV'; read via r.jina.ai 2026-11-25",
+      "value": 170,
+      "year": 2014,
+      "source": {
+        "url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf",
+        "source_id": "geg-st-gov-my-planning-and-connection-codes-for-e15af3e"
+      }
+    },
+    {
+      "metric": "Highest voltage for equipment Um (definition)",
+      "unit": "definition, IEC 60076-1:2011 cl.3.1.9",
+      "basis": "IEC 60076-1 Edition 3.0 2011-04, clause 3.1.9; PDF blocked by WebFetch, read via r.jina.ai 2026-11-25 (value: highest r.m.s. phase-to-phase voltage in a three-phase system for which a transf)",
+      "year": 2011,
+      "source": {
+        "url": "https://electrical-engineering-portal.com/wp-content/uploads/2024/10/IEC-60076-1-Power-Transformers-General.pdf",
+        "source_id": "geg-electrical-engineering-portal-com-iec-60076-cebdb0c"
+      }
+    }
+  ],
+  "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+  "sources": [
+    {
+      "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+      "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

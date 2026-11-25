@@ -2,10 +2,16 @@
   "id": "holder-construction",
   "name": "Holder Construction",
   "country": "USA",
-  "roles": ["epc"],
-  "categories": ["plant-epc"],
+  "roles": [
+    "epc"
+  ],
+  "categories": [
+    "plant-epc"
+  ],
   "description": "Atlanta-based national construction manager (founded 1960) with a dedicated Data & Telecom sector among its project practices, delivering data-centre construction with design-build, preconstruction and self-perform capability.",
-  "technologies": ["idc-siting-power-procurement"],
+  "technologies": [
+    "idc-siting-power-procurement"
+  ],
   "url": "https://www.holderconstruction.com",
   "sources": [
     {

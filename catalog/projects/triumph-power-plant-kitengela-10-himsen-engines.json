@@ -12,7 +12,7 @@
   "status": "operating",
   "description": "Referenced as a MAN PrimeServ O&M case study, not a Sabah project.",
   "technologies": [
-    "pwr-alaska-geg-wbs-supply-chain"
+    "pwr-geg-plant-wbs-supply-chain"
   ],
   "milestones": [
     {
@@ -20,7 +20,7 @@
       "date": "2020",
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/primeserv-digital-services-eng.pdf?sfvrsn=12967c97_4",
-        "source_id": "alaska-r-jina-ai-primeserv-digital-services-eng-pdf-0ccb3a5"
+        "source_id": "geg-r-jina-ai-primeserv-digital-services-eng-pdf-0ccb3a5"
       }
     },
     {
@@ -28,7 +28,7 @@
       "date": "2020",
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/primeserv-digital-services-eng.pdf?sfvrsn=12967c97_4",
-        "source_id": "alaska-r-jina-ai-primeserv-digital-services-eng-pdf-0ccb3a5"
+        "source_id": "geg-r-jina-ai-primeserv-digital-services-eng-pdf-0ccb3a5"
       }
     }
   ],
@@ -36,28 +36,28 @@
   "sources": [
     {
       "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/primeserv-digital-services-eng.pdf?sfvrsn=12967c97_4",
-      "source_id": "alaska-r-jina-ai-primeserv-digital-services-eng-pdf-0ccb3a5",
+      "source_id": "geg-r-jina-ai-primeserv-digital-services-eng-pdf-0ccb3a5",
       "note": "Referenced as a MAN PrimeServ O&M case study, not a Sabah project."
     },
     {
       "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
-      "source_id": "alaska-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
     },
     {
       "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
-      "source_id": "alaska-r-jina-ai-a001072-02-e-pdf-969d53b"
+      "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
     },
     {
       "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/primeserv-digital-services-eng.pdf?sfvrsn=12967c97_4",
-      "source_id": "alaska-r-jina-ai-primeserv-digital-services-eng-pdf-0ccb3a5"
+      "source_id": "geg-r-jina-ai-primeserv-digital-services-eng-pdf-0ccb3a5"
     },
     {
       "url": "https://www.wartsila.com/mys",
-      "source_id": "alaska-wartsila-com-mys-1e8ef98"
+      "source_id": "geg-wartsila-com-mys-1e8ef98"
     },
     {
       "url": "https://www.iso.org/standard/63787.html",
-      "source_id": "alaska-iso-org-63787-html-6f062db"
+      "source_id": "geg-iso-org-63787-html-6f062db"
     }
   ],
   "gaps": [
@@ -68,5 +68,5 @@
     }
   ],
   "last_reviewed": "2026-11-25",
-  "notes": "Reference project from the Alaska GEG WBS sweep (5/6/7 Construction indirect, commissioning, EPC indirect)."
+  "notes": "Reference project from the GEG plant WBS sweep (5/6/7 Construction indirect, commissioning, EPC indirect)."
 }

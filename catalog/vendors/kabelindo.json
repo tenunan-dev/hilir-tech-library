@@ -2,10 +2,17 @@
   "id": "kabelindo",
   "name": "PT Kabelindo Murni Tbk",
   "country": "ID",
-  "roles": ["oem"],
-  "categories": ["equipment-oem"],
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
   "description": "Indonesian listed cable manufacturer (established 1979, Pulogadung Industrial Area, East Jakarta) supplying power, telephone and related cable, including bare and ACCC conductors used in PLN transmission reconductoring.",
-  "technologies": ["ele-cable-systems", "ele-transmission-lines"],
+  "technologies": [
+    "ele-cable-systems",
+    "ele-transmission-lines"
+  ],
   "products": [
     "power cables (low and medium voltage)",
     "bare conductors including ACCC",

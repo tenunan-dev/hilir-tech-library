@@ -1,0 +1,167 @@
+{
+  "id": "geg-field-instrumentation",
+  "name": "Field instrumentation",
+  "equipment_type": "field-instrumentation",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Field instrumentation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Field instrumentation"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Emerson Rosemount 3051 pressure transm — reference accuracy",
+      "unit": "percent of span",
+      "basis": "Emerson Rosemount 3051 Product Data Sheet 00813-0100-4001 Rev TA, February 2017 (PDF hosted by instrumart.com, read via r.jina.ai): 'Reference accuracy 0.04 percent of span'.",
+      "value": 0.04,
+      "year": 2017,
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
+        "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
+      }
+    },
+    {
+      "metric": "Emerson Rosemount 3051 pressure transm — installed total performance",
+      "unit": "percent of span",
+      "basis": "Rosemount 3051 PDS, February 2017, read via r.jina.ai: 'Installed total performance of 0.14 percent of span'.",
+      "value": 0.14,
+      "year": 2017,
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
+        "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
+      }
+    },
+    {
+      "metric": "Emerson Rosemount 3051 pressure transm — stability",
+      "unit": "percent of URL over 10 years",
+      "basis": "Rosemount 3051 PDS, February 2017, read via r.jina.ai: '10-year stability of 0.2 percent of URL'.",
+      "value": 0.2,
+      "year": 2017,
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
+        "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
+      }
+    },
+    {
+      "metric": "Emerson Rosemount 3051 pressure transm — safety certification",
+      "unit": "certification",
+      "basis": "Rosemount 3051 PDS, February 2017, read via r.jina.ai: 'SIL2/3 certified (IEC 61508)' and ordering option 'QT Safety certified to IEC 61508 with certificate of FMEDA'. (value: SIL2/3 certified to IEC 61508 (option QT safety certified with FMEDA certificate)",
+      "year": 2017,
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
+        "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
+      }
+    },
+    {
+      "metric": "Emerson Rosemount 3051 pressure transm — installed base",
+      "unit": "million units (stated as 'Over seven million installed', February 2017 edition)",
+      "basis": "Rosemount 3051 PDS, February 2017, read via r.jina.ai: 'Over seven million installed'. A later Emerson PDF preview (October 2025) states 'More than ten million installed' but that edition was not readable in this session.",
+      "value": 7,
+      "year": 2017,
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
+        "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
+      }
+    },
+    {
+      "metric": "Emerson Rosemount 3051 pressure transm — output protocols",
+      "unit": "protocol list",
+      "basis": "Rosemount 3051 PDS, February 2017, read via r.jina.ai: transmitter output table 'A 4–20 mA with Digital Signal Based on HART Protocol; F FOUNDATION Fieldbus Protocol; W PROFIBUS PA Protocol; X Wireless ... WA3 ... 2.4GHz Wireless HART; M Low-Power, 1–5 Vdc with Digital Signal Based on HART Protocol'. (value: 4-20 mA HART, FOUNDATION Fieldbus, PROFIBUS PA, WirelessHART (2.4 GHz), low-powe)",
+      "year": 2017,
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
+        "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
+      }
+    },
+    {
+      "metric": "Emerson Rosemount 3051 pressure transm — pressure range example (3051TG range 5)",
+      "unit": "psi (-1,01 to 689,47 bar)",
+      "basis": "Rosemount 3051 PDS, February 2017, read via r.jina.ai: Rosemount 3051TG gage pressure range 5 '-14.7 to 10000 psi (-1,01 to 689,47 bar)'.",
+      "low": -14.7,
+      "high": 10000,
+      "year": 2017,
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
+        "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
+      }
+    },
+    {
+      "metric": "Yokogawa Plant Resource Manager (PRM)  — supported field protocols",
+      "unit": "protocol list",
+      "basis": "Yokogawa CENTUM VP General Specifications GS 33K01A10-50E, 12th Edition Sep. 1, 2014, read via r.jina.ai: 'PRM communicates with devices with digital communication functions such as Foundation fieldbus, HART, and field wireless (complies with ISA 100.11a) devices'. (value: FOUNDATION fieldbus, HART, field wireless (ISA 100.11a), conventional analogue d)",
+      "year": 2014,
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
+        "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
+      }
+    },
+    {
+      "metric": "ABB System 800xA S880 / Select I/O saf — safety I/O module types",
+      "unit": "module scope",
+      "basis": "ABB System 800xA Safety Overview, copyright © 2025 ABB, read via r.jina.ai: 'Within the S880 I/O family, there are SIL3 compliant modules for safety critical applications including 4 - 20 mA analog inputs, 24 Vdc digital inputs and 24 Vdc digital outputs ... Analog inputs support HART routing'. (value: SIL3 compliant 4-20 mA analogue inputs, 24 Vdc digital inputs and 24 Vdc digital)",
+      "year": 2025,
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "source_id": "geg-search-abb-com-download-aspx-583c22e"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
+      "line": "Emerson Rosemount 3051 pressure transmitter family",
+      "note": "pressure/differential pressure transmitter"
+    },
+    {
+      "vendor": "geg-vendor-yokogawa-electric-corporation-31fff",
+      "line": "Yokogawa Plant Resource Manager (PRM) field device management",
+      "note": "field device management software"
+    },
+    {
+      "vendor": "abb",
+      "line": "ABB System 800xA S880 / Select I/O safety I/O",
+      "note": "safety and process I/O modules"
+    }
+  ],
+  "vendors": [
+    "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
+    "geg-vendor-yokogawa-electric-corporation-31fff",
+    "abb"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
+      "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
+    },
+    {
+      "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
+      "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
+    },
+    {
+      "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "source_id": "geg-search-abb-com-download-aspx-583c22e"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Field Instrumentation",
+      "why": "No project-specific instrument index, tag count, transmitter model selection, SIL allocation or price was found in any page read.",
+      "next_action": "Obtain the project instrument index, SIL verification report, datasheet set and priced instrumentation BOQ."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

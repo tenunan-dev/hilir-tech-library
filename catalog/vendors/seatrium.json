@@ -2,10 +2,20 @@
   "id": "seatrium",
   "name": "Seatrium",
   "country": "Singapore",
-  "roles": ["epc", "oem"],
-  "categories": ["shipyard", "offshore-epc", "fabrication"],
+  "roles": [
+    "epc",
+    "oem"
+  ],
+  "categories": [
+    "shipyard",
+    "offshore-epc",
+    "fabrication"
+  ],
   "description": "Singapore-based offshore and marine engineering group formed from the Keppel O&M and Sembcorp Marine merger, delivering offshore newbuilds and conversions (FPSOs, platforms, wind farm vessels) and gas/LNG solutions from its shipyards.",
-  "technologies": ["civ-offshore-platform-structures", "gas-lng-bunkering"],
+  "technologies": [
+    "civ-offshore-platform-structures",
+    "gas-lng-bunkering"
+  ],
   "url": "https://www.seatrium.com",
   "sources": [
     {

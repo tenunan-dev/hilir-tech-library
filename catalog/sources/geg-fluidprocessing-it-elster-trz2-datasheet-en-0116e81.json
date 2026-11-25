@@ -1,0 +1,27 @@
+{
+  "id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81",
+  "name": "EN 12261",
+  "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC",
+    "INS",
+    "CIV",
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Standards body",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: European Standard for turbine gas meters cited in Honeywell Elster TRZ2 datasheet (relevant to gas-metering interface of fuel system). Exact printed figures are recorded in the linked records' basis fields."
+}

@@ -1,0 +1,144 @@
+{
+  "id": "geg-hvac-system",
+  "name": "HVAC system",
+  "equipment_type": "hvac-system",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "HVAC system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "HVAC system"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Daikin Hybrid AHU DDS series (Daikin R — Airflow range (brochure headline)",
+      "unit": "CFM",
+      "basis": "Daikin Hybrid AHU DDS Series brochure, 'AIR FLOW RANGE : 1800 ~ 5900 CFM'; document reference 241105_HA_REV_A (Nov 2025), read via r.jina.ai 2025-05-14. Product brochure use case is operating-theatre AHU, not a power-plant HVAC package.",
+      "low": 1800,
+      "high": 5900,
+      "year": 2025,
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
+        "source_id": "geg-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
+      }
+    },
+    {
+      "metric": "Daikin Hybrid AHU DDS series (Daikin R — Model DS-0707 airflow",
+      "unit": "CFM (1838 / 2327 / 2989 for three DS-0707 variants, as printed)",
+      "basis": "Daikin Hybrid AHU overview table; document 241105_HA_REV_A (Nov 2025); read via r.jina.ai 2025-05-14.",
+      "low": 1838,
+      "high": 2989,
+      "year": 2025,
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
+        "source_id": "geg-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
+      }
+    },
+    {
+      "metric": "Daikin Hybrid AHU DDS series (Daikin R — Chilled-water outlet temperature, new method",
+      "unit": "ºC (Normal CHW Ent : 7.0 ºC)",
+      "basis": "Daikin Hybrid AHU brochure, heat-recovery comparison; document 241105_HA_REV_A (Nov 2025); read via r.jina.ai 2025-05-14.",
+      "value": 7,
+      "year": 2025,
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
+        "source_id": "geg-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
+      }
+    },
+    {
+      "metric": "Daikin Hybrid AHU DDS series (Daikin R — AHU dimensions (model DS-0707)",
+      "unit": "5480 x 1620 x 1240 mm",
+      "basis": "Daikin Hybrid AHU overview table, 'Dimensions LxWxH, mm'; document 241105_HA_REV_A (Nov 2025); read via r.jina.ai 2025-05-14.",
+      "year": 2025,
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
+        "source_id": "geg-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
+      }
+    },
+    {
+      "metric": "Dunham-Bush water-cooled chillers, air — Water-cooled chiller model lines",
+      "unit": "DCLCW / CMW / CFX / WCHX / WCS",
+      "basis": "Dunham-Bush 'Our Products' webpage, Water Cooled Chiller section; page read 2026-11-25; site footer ©2022 Dunham Bush; no article publication date printed.",
+      "year": 2026,
+      "source": {
+        "url": "https://dunham-bush.com/our-products/",
+        "source_id": "geg-dunham-bush-com-a2dd740"
+      }
+    },
+    {
+      "metric": "Dunham-Bush water-cooled chillers, air — Air-cooled chiller model lines",
+      "unit": "ACMA / VX / ACHX / ACDS",
+      "basis": "Dunham-Bush 'Our Products' webpage, Air Cooled Chiller section; page read 2026-11-25; no article date printed.",
+      "year": 2026,
+      "source": {
+        "url": "https://dunham-bush.com/our-products/",
+        "source_id": "geg-dunham-bush-com-a2dd740"
+      }
+    },
+    {
+      "metric": "Dunham-Bush water-cooled chillers, air — Airside equipment certification",
+      "unit": "AHRI certified (as printed)",
+      "basis": "Dunham-Bush 'Our Products' webpage, Airside section, 'comprehensive range of AHRI certified airside equipment'; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://dunham-bush.com/our-products/",
+        "source_id": "geg-dunham-bush-com-a2dd740"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "geg-vendor-daikin-refrigeration-malaysia-sdn-bhd-banting-sela-9a4b8",
+      "line": "Daikin Hybrid AHU DDS series (Daikin Refrigeration Malaysia Sdn. Bhd.)",
+      "note": "air handling unit with heat recovery"
+    },
+    {
+      "vendor": "geg-vendor-dunham-bush-malaysia-and-regional-operations-75358",
+      "line": "Dunham-Bush water-cooled chillers, air-cooled chillers and airside AHUs",
+      "note": "HVAC chiller / air handling unit product lines"
+    }
+  ],
+  "vendors": [
+    "geg-vendor-daikin-refrigeration-malaysia-sdn-bhd-banting-sela-9a4b8",
+    "geg-vendor-dunham-bush-malaysia-and-regional-operations-75358"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
+      "source_id": "geg-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
+    },
+    {
+      "url": "https://dunham-bush.com/our-products/",
+      "source_id": "geg-dunham-bush-com-a2dd740"
+    },
+    {
+      "url": "https://dunham-bush.com/",
+      "note": "Listed under featured projects, Industries category; WebFetch 2026-11-25."
+    },
+    {
+      "url": "https://dunham-bush.com/",
+      "note": "Listed under featured projects, Green Buildings category; WebFetch 2026-11-25."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "HVAC System Package",
+      "why": "No plant-specific HVAC load schedule, equipment list, capacities for the powerhouse/control room/electrical rooms, vendor or price was found in the pages read.",
+      "next_action": "Obtain the HVAC package BOQ, heat-load calculations and vendor quotation from the project documents; do not infer plant cooling capacity from either brochure."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

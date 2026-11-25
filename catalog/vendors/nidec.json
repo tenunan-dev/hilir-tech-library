@@ -2,10 +2,16 @@
   "id": "nidec",
   "name": "Nidec",
   "country": "Japan",
-  "roles": ["oem"],
-  "categories": ["equipment-oem"],
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
   "description": "Japanese motor manufacturer with a lineup spanning subminiature to ultra-large electric motors, plus fans and blowers, machine tools and power transmission equipment for industrial machinery and processing applications.",
-  "technologies": ["ele-motors-drives"],
+  "technologies": [
+    "ele-motors-drives"
+  ],
   "url": "https://www.nidec.com",
   "sources": [
     {

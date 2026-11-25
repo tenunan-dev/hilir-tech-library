@@ -1,0 +1,78 @@
+{
+  "id": "geg-prod-emerson-tartarini-pilot-operated-pressure-regulators-fuel-gas",
+  "name": "Emerson Tartarini™ pilot-operated pressure regulators / fuel-gas supply station",
+  "manufacturer": "geg-vendor-unidentified",
+  "product_type": "fuel-gas-pressure-regulating-and-metering-station",
+  "equipment": [
+    "geg-gas-receiving-and-metering-station-with-hot-tap-and-fuel-gas-sup"
+  ],
+  "description": "fuel gas pressure regulating and metering station",
+  "specifications": [
+    {
+      "metric": "Typical transmission pipeline pressure range",
+      "unit": "psig (150 to over 1000 psig, as printed)",
+      "basis": "Emerson White Paper D353412X012, 'Fuel Gas Conditioning — Fuel Gas Supply System for Gas Power Plants', August 2024, Application Overview; read via r.jina.ai 2026-02-27. Printed scope is gas-turbine plants, not gas-engine plants.",
+      "low": 150,
+      "high": 1000,
+      "year": 2024,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+        "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+      }
+    },
+    {
+      "metric": "Typical power-plant fuel-gas pressure required",
+      "unit": "psig (as printed; gas turbines in the source)",
+      "basis": "Emerson White Paper D353412X012, August 2024, Application Overview; read via r.jina.ai 2026-02-27.",
+      "low": 450,
+      "high": 600,
+      "year": 2024,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+        "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+      }
+    },
+    {
+      "metric": "Pilot-operated regulator set-pressure accuracy",
+      "unit": "% (0.5% to 2.5%, as printed)",
+      "basis": "Emerson White Paper D353412X012, August 2024, 'Pilot-operated regulators can maintain a set pressure accuracy of 0.5% to 2.5%'; read via r.jina.ai 2026-02-27.",
+      "low": 0.5,
+      "high": 2.5,
+      "year": 2024,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+        "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+      }
+    },
+    {
+      "metric": "Station noise benchmark",
+      "unit": "dBA (about 85 dBA, as printed)",
+      "basis": "Emerson White Paper D353412X012, August 2024, Noise section, 'a common benchmark is about 85 dBA'; read via r.jina.ai 2026-02-27.",
+      "value": 85,
+      "year": 2024,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+        "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+      }
+    },
+    {
+      "metric": "Fuel-gas supply station equipment items listed",
+      "unit": "pressure regulating devices, overpressure protection devices, filtration modules",
+      "basis": "Emerson White Paper D353412X012, August 2024, Introduction; read via r.jina.ai 2026-02-27.",
+      "year": 2024,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+        "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+      }
+    }
+  ],
+  "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+  "sources": [
+    {
+      "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+      "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

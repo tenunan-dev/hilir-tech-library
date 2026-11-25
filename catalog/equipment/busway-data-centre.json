@@ -3,7 +3,10 @@
   "name": "Data centre busway (overhead busbar power distribution)",
   "equipment_type": "busway",
   "sector": "IDC",
-  "sector_codes": ["IDC", "ELE"],
+  "sector_codes": [
+    "IDC",
+    "ELE"
+  ],
   "description": "Overhead extruded-aluminium busbar runs that carry power across a data hall and let plug-in tap-off units be added or moved at any point without shutting the run down — the reason busway has displaced cable trays for in-hall distribution. Starline's ranges illustrate the class: Track Busway 40-1250 A, Series-S 100-1200 A (IP54) and high-power enclosed busway 630-6000 A (to IP65), with plug-in units carrying integrated circuit protection and a metering family for branch-level monitoring.",
   "subtypes": [
     {
@@ -19,7 +22,12 @@
       "description": "Plug, standalone and end-feed meters enabling branch circuit monitoring."
     }
   ],
-  "applications": ["data hall overhead distribution", "row-level power to racks", "colocation fit-outs", "mission-critical power upgrades without downtime"],
+  "applications": [
+    "data hall overhead distribution",
+    "row-level power to racks",
+    "colocation fit-outs",
+    "mission-critical power upgrades without downtime"
+  ],
   "specifications": [
     {
       "metric": "Track Busway amperage range",
@@ -59,12 +67,23 @@
     {
       "vendor": "vertiv",
       "line": "Starline Track Busway (Vertiv brand)",
-      "models": ["Track Busway 40-1250 A", "Series-S 100-1200 A", "High Power enclosed 630-6000 A"],
+      "models": [
+        "Track Busway 40-1250 A",
+        "Series-S 100-1200 A",
+        "High Power enclosed 630-6000 A"
+      ],
       "range": "40-6000 A across families; IP54/IP65 options"
     }
   ],
-  "vendors": ["vertiv", "schneider-electric", "eaton", "anord-mardix"],
-  "technologies": ["idc-ups-systems"],
+  "vendors": [
+    "vertiv",
+    "schneider-electric",
+    "eaton",
+    "anord-mardix"
+  ],
+  "technologies": [
+    "idc-ups-systems"
+  ],
   "sources": [
     {
       "url": "https://www.starlinepower.com/products/busway",

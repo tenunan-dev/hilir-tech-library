@@ -2,10 +2,17 @@
   "id": "digital-realty",
   "name": "Digital Realty",
   "country": "USA",
-  "roles": ["developer", "operator"],
-  "categories": ["operator"],
+  "roles": [
+    "developer",
+    "operator"
+  ],
+  "categories": [
+    "operator"
+  ],
   "description": "Global data-centre REIT (PlatformDIGITAL) developing and operating colocation, interconnection and hyperscale facilities across six continents, one of the two anchor operators for enterprise-to-cloud gravity zones.",
-  "technologies": ["idc-smr-fuel-cell-ppa"],
+  "technologies": [
+    "idc-smr-fuel-cell-ppa"
+  ],
   "url": "https://www.digitalrealty.com",
   "sources": [
     {

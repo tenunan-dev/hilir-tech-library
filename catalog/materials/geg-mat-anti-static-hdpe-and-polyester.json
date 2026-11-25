@@ -1,0 +1,25 @@
+{
+  "id": "geg-mat-anti-static-hdpe-and-polyester",
+  "name": "anti-static HDPE and polyester",
+  "material_category": "polymers",
+  "description": "anti-static HDPE and polyester named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "SULFURIX tower construction",
+      "unit": "as printed",
+      "basis": "GWE SULFURIX™ page; read 2026-11-25. (value: corrosion-proof materials: anti-static HDPE and polyester)",
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+      "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

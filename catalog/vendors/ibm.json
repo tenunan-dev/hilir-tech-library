@@ -2,11 +2,20 @@
   "id": "ibm",
   "name": "IBM",
   "country": "USA",
-  "roles": ["supplier"],
-  "categories": ["engineering-consultancy"],
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "engineering-consultancy"
+  ],
   "description": "IBM Maximo Application Suite is a unified asset lifecycle management platform combining maintenance, inspections and reliability with embedded AI, targeting reliability, safety and compliance across upstream, midstream and downstream oil and gas operations.",
-  "products": ["IBM Maximo Application Suite"],
-  "technologies": ["dig-cmms-work-management", "dig-osdu"],
+  "products": [
+    "IBM Maximo Application Suite"
+  ],
+  "technologies": [
+    "dig-cmms-work-management",
+    "dig-osdu"
+  ],
   "url": "https://www.ibm.com",
   "sources": [
     {

@@ -1,0 +1,25 @@
+{
+  "id": "geg-mat-epoxy-resin-mixture-cast-resin-busway-enclosure",
+  "name": "Epoxy resin mixture (cast resin busway enclosure)",
+  "material_category": "polymer",
+  "description": "Epoxy resin mixture (cast resin busway enclosure) named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "enclosure material",
+      "unit": "n/a",
+      "basis": "ABB WavePro Series Busway Leaflet 1SXH3432025 REV A 04-2022, copyright 2022 ABB: WavePro-R 'Material of enclosure Epoxy resin mixture'; halogen free, non-toxic, non-flammable. (value: Epoxy resin mixture)",
+      "year": 2025,
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
+        "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
+      "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

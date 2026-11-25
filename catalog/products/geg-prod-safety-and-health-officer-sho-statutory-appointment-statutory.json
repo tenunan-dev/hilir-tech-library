@@ -1,0 +1,32 @@
+{
+  "id": "geg-prod-safety-and-health-officer-sho-statutory-appointment-statutory",
+  "name": "Safety and Health Officer (SHO) statutory appointment",
+  "manufacturer": "geg-vendor-department-of-occupational-safety-and-health-dosh-e8d92",
+  "product_type": "statutory-hsse-personnel-requirement",
+  "equipment": [
+    "geg-health-safety-security-and-environment"
+  ],
+  "description": "statutory HSSE personnel requirement",
+  "specifications": [
+    {
+      "metric": "project contract price threshold making SHO appointment mandatory for builders",
+      "unit": "RM million (exceeding)",
+      "basis": "DOSH 'Petunjuk Prestasi SHO / SHO Performance Indicators' page read 25 Nov 2026, 'Updated Date: 16/03/2026': 'The appointment of an SHO is encouraged among client companies and designers, but mandatory for builders if the construction work has a total project contract price exceeding RM20 million.' Regulation 12 of the Safety and Health Officer Regulations 1997 allows DOSH to refuse renewal of SHO",
+      "value": 20,
+      "year": 2026,
+      "source": {
+        "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/",
+        "source_id": "geg-dosh-gov-my-cebaa79"
+      }
+    }
+  ],
+  "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/",
+  "sources": [
+    {
+      "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/",
+      "source_id": "geg-dosh-gov-my-cebaa79"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

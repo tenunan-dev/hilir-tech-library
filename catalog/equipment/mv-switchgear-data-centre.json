@@ -3,7 +3,10 @@
   "name": "Data centre medium-voltage switchgear",
   "equipment_type": "switchgear",
   "sector": "IDC",
-  "sector_codes": ["IDC", "ELE"],
+  "sector_codes": [
+    "IDC",
+    "ELE"
+  ],
   "description": "The MV layer that takes utility or on-site generation supply into a data-centre campus and splits it to transformers and UPS halls: air-insulated (AIS) for flexible, expandable rooms and gas-insulated (GIS) where footprint or harsh conditions rule. ABB's MV switchgear covers 1-52 kV under IEC to IEC 62271, with SF6-free insulation (dry air or natural-origin gases, GWP below 1) available for most 6-24 kV applications and compliant with EU F-gas regulation 2024/573; data centres are a named served industry.",
   "subtypes": [
     {
@@ -19,7 +22,12 @@
       "description": "Same interface and footprint as SF6 versions, GWP below 1, compliant with EU F-gas regulation 2024/573."
     }
   ],
-  "applications": ["data-centre campus incoming supply", "HV/MV transformation", "UPS hall distribution", "generator and BTM interconnection"],
+  "applications": [
+    "data-centre campus incoming supply",
+    "HV/MV transformation",
+    "UPS hall distribution",
+    "generator and BTM interconnection"
+  ],
   "specifications": [
     {
       "metric": "medium-voltage switchgear range (IEC)",
@@ -51,8 +59,17 @@
       "range": "1-52 kV IEC; SF6-free GIS for 6-24 kV; LSC2B/LSC2A/LSC2/LSC1 service continuity classes"
     }
   ],
-  "vendors": ["abb", "schneider-electric", "eaton", "anord-mardix", "hitachi-energy"],
-  "technologies": ["idc-siting-power-procurement", "idc-behind-the-meter-gas"],
+  "vendors": [
+    "abb",
+    "schneider-electric",
+    "eaton",
+    "anord-mardix",
+    "hitachi-energy"
+  ],
+  "technologies": [
+    "idc-siting-power-procurement",
+    "idc-behind-the-meter-gas"
+  ],
   "sources": [
     {
       "url": "https://new.abb.com/medium-voltage/switchgear",

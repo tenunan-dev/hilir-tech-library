@@ -1,13 +1,29 @@
 {
   "id": "ccc",
   "name": "CCC (Compressor Controls Corporation)",
-  "aliases": ["Compressor Controls Corporation", "CCC by Honeywell"],
+  "aliases": [
+    "Compressor Controls Corporation",
+    "CCC by Honeywell"
+  ],
   "country": "USA",
-  "roles": ["oem", "supplier"],
-  "categories": ["equipment-oem"],
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
   "description": "Leader in turbomachinery train optimization since 1974 (a Honeywell company), with control systems, antisurge and performance control, safety systems (surge and overspeed detection) and supervisory software installed on more than 10,000 turbomachinery trains across upstream, midstream and downstream plants.",
-  "products": ["CCC Pro Built control systems", "CCC Inside (for Experion PKS and CENTUM VP)", "CCC Supervisory System", "Guardian surge/overspeed detection", "S5 Pro control platform"],
-  "technologies": ["ins-machinery-control"],
+  "products": [
+    "CCC Pro Built control systems",
+    "CCC Inside (for Experion PKS and CENTUM VP)",
+    "CCC Supervisory System",
+    "Guardian surge/overspeed detection",
+    "S5 Pro control platform"
+  ],
+  "technologies": [
+    "ins-machinery-control"
+  ],
   "url": "https://www.cccglobal.com",
   "sources": [
     {

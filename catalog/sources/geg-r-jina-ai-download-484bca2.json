@@ -1,0 +1,25 @@
+{
+  "id": "geg-r-jina-ai-download-484bca2",
+  "name": "Northern Powergrid NPS/003/001 Technical Specification for 33kV, 66kV and 132kV Voltage Transformers, Version 6.0, May 2024",
+  "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Northern Powergrid",
+  "access": "open",
+  "licence": "Information Classification - PUBLIC; 'CAUTION! This document may be out of date if printed'",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Direct WebFetch on northernpowergrid.com PDF returned a CAPTCHA/UK-only page; read via r.jina.ai proxy on the Northern Powergrid OpenDataSoft document-library file as instructed. Document NPS/003/001, Version 6.0, Date of Issue May 2024, 24 pages, supersedes v5.1 July 2019; Information Classification PUBLIC.. Exact printed figures are recorded in the linked records' basis fields."
+}

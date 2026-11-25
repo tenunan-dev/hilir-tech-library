@@ -1,0 +1,27 @@
+{
+  "id": "geg-camfil-com-data-sheet-united-states-of-ameri-1ec0d3c",
+  "name": "Camfil CAMGT Box Type G II data sheet (dated 2025-10-09)",
+  "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Camfil",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Direct WebFetch returned unsupported PDF content type; read via r.jina.ai fallback. Data sheet carries '2025-10-09' specification-change note.. Exact printed figures are recorded in the linked records' basis fields."
+}

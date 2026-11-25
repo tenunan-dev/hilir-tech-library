@@ -1,0 +1,32 @@
+{
+  "id": "geg-prod-ge-contractual-service-agreement-long-term-service-support-oem",
+  "name": "GE contractual service agreement (long-term service support)",
+  "manufacturer": "geg-vendor-ge-ge-energy-4ae9a",
+  "product_type": "oem-long-term-service-spare-parts-availability-arr",
+  "equipment": [
+    "geg-two-year-operational-spares"
+  ],
+  "description": "OEM long-term service / spare-parts availability arrangement (non-MAN)",
+  "specifications": [
+    {
+      "metric": "CSA duration at Kimanis Power plant",
+      "unit": "years",
+      "basis": "GE press release 14 June 2011: GE signed a contractual service agreement with Kimanis Power Sdn Bhd to support the 300 MW plant for 18 years; CSAs described as providing predictable maintenance costs and high availability.",
+      "value": 18,
+      "year": 2011,
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+        "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
+      }
+    }
+  ],
+  "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+  "sources": [
+    {
+      "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+      "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

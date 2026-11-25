@@ -1,0 +1,24 @@
+{
+  "id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047",
+  "name": "Prepare for MAN 175D - spare parts and training packages",
+  "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "MAN Energy Solutions",
+  "access": "open",
+  "licence": "Copyright MAN Energy Solutions; document states all data non-binding",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Read with WebFetch via r.jina.ai 25 Nov 2026 (direct PDF fetch unsupported). Printed copyright line '1510-0287-04ppr June 2022'; jina.ai file timestamp 14 Aug 2024 is not the print date.. Exact printed figures are recorded in the linked records' basis fields."
+}

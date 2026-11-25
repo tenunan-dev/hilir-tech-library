@@ -1,0 +1,26 @@
+{
+  "id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1",
+  "name": "VD4G Vacuum circuit breakers for generator switching applications, 1VCP000670 Rev B",
+  "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "GAS"
+  ],
+  "disciplines": [
+    "ELE",
+    "INS"
+  ],
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "publisher_org": "ABB Electrification Products Division",
+  "access": "open",
+  "licence": "Copyright 2019 ABB. All rights reserved",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: 8-page PDF, 1VCP000670 Rev B, 2019.07. WebFetch blocked for application/pdf; read via r.jina.ai 2026-11-25 (jina Published Time 2024-03-17).. Exact printed figures are recorded in the linked records' basis fields."
+}

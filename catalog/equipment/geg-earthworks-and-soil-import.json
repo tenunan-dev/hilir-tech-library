@@ -1,0 +1,77 @@
+{
+  "id": "geg-earthworks-and-soil-import",
+  "name": "Earthworks and soil import",
+  "equipment_type": "earthworks",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Earthworks and soil import for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Earthworks and soil import"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "WBS line item",
+      "value": "Earthwork (Site Clearing and Land Levelling) - soil import 43200 m3",
+      "unit": "n/a",
+      "basis": "Line item from the GEG plant WBS/BOQ; no sourced numeric specification found.",
+      "source": {
+        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
+        "note": "Work package supplied by owner; not a technical source."
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "geg-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://infraconcrete.co/cost-programme-guide",
+      "source_id": "geg-infraconcrete-co-cost-programme-guide-397f736"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard",
+      "source_id": "geg-knowledge-bsigroup-com-standard-c9ea26f"
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "geg-jml-com-sg-projects-18172e3"
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "geg-jml-com-sg-projects-18172e3",
+      "note": "JML scope: temporary facility, piling, civil and building work for an air separation unit; industrial plant; client Linde Engineering (Malaysia) Sdn Bhd."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Earthwork (Site Clearing and Land Levelling) - soil import 43200 m3",
+      "why": "No printed rate specifically for importing soil/engineered fill in Sabah; the preload-fill rate is for sand/aggregate surcharging, and the JKR rate read is for disposal of surplus soil, not import.",
+      "next_action": "Find a Sabah earthwork/import-fill rate (JKR Sabah Jadual Kadar Kerja or local tender BQ)."
+    },
+    {
+      "what": "Earthwork (Site Clearing and Land Levelling) - soil import 43200 m3",
+      "why": "The 43,200 m3 soil-import quantity is a bidder-supplied design figure, not an evidence figure.",
+      "next_action": "Keep as design input; do not cite as a sourced fact."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

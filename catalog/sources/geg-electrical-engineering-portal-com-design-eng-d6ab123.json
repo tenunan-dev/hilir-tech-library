@@ -1,0 +1,25 @@
+{
+  "id": "geg-electrical-engineering-portal-com-design-eng-d6ab123",
+  "name": "Design engineering and the black start of a power plant",
+  "url": "https://electrical-engineering-portal.com/design-engineering-and-the-black-start-of-a-power-plant",
+  "source_type": "trade-media",
+  "sectors": [
+    "PWR",
+    "GAS"
+  ],
+  "disciplines": [
+    "ELE",
+    "INS"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Electrical Engineering Portal (sources cited: Practical Power Plant Engineering by Z. Bedalov; ABB F",
+  "access": "open",
+  "licence": "not stated on the page; free web article",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: HTML article read with WebFetch 2026-11-25; jina reports published 2024-08-19. Engineering rules quoted as written; they are not claims about this project.. Exact printed figures are recorded in the linked records' basis fields."
+}

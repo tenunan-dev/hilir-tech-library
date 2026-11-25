@@ -8,7 +8,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
-## [2026.11.25.4] — 2026-11-25 — Alaska GEG WBS/BOQ supply-chain sweep (not deployed)
+## [2026.11.25.5] — 2026-11-25 — GEG plant WBS entries re-mapped to core items
+
+Owner review: the project codename was not a location and the BOQ text had been quoted verbatim.
+All 78 line items were analysed to their core equipment/system/facility names; the codename was
+removed from catalog content; 411 files and all cross-references were renamed; the technology card
+and register entry were renamed. Coverage by database category is in
+`research/geg-plant-wbs/core-item-analysis.json`. `pytest -q tests`: **3,656 passed, 13 skipped**.
+No container deploy.
+
+
+## [2026.11.25.4] — 2026-11-25 — GEG plant WBS/BOQ supply-chain sweep (not deployed)
 
 Owner-directed research over every line item of the 7-unit gas engine generator plant WBS/BOQ with
 SESB 132/33/11 kV connection. Eight evidence-first agents; all new records use existing schemas.

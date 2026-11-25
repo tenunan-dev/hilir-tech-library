@@ -1,0 +1,116 @@
+{
+  "id": "geg-prod-abb-mns-3-0-low-voltage-switchgear-low-voltage-switchgear-asse",
+  "name": "ABB MNS 3.0 low-voltage switchgear",
+  "manufacturer": "geg-vendor-unidentified",
+  "product_type": "low-voltage-switchgear-assembly-mcc",
+  "equipment": [
+    "geg-low-voltage-switchgear"
+  ],
+  "description": "low-voltage switchgear assembly / MCC",
+  "specifications": [
+    {
+      "metric": "Rated insulation voltage",
+      "unit": "V AC 3P (up to 1500 V DC depending on equipment)",
+      "basis": "ABB MNS 3.0 catalogue 1SXH900001C0201 Rev C 2019.11, Technical Data - Electrical data; PDF blocked by WebFetch, read via r.jina.ai 2026-11-25",
+      "value": 1000,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Rated operating voltage",
+      "unit": "V AC 3P (up to 750 V DC depending on equipment)",
+      "basis": "ABB MNS 3.0 catalogue 1SXH900001C0201 Rev C 2019.11, Electrical data; read 2026-11-25 via r.jina.ai",
+      "value": 690,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Main busbar rated current",
+      "unit": "A",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11: 'Rated current Ie up to 6300 A'; read 2026-11-25 via r.jina.ai",
+      "value": 6300,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Main busbar rated peak withstand current",
+      "unit": "kA",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11, Electrical data: rated peak withstand current Ipk up to 220 kA; read 2026-11-25 via r.jina.ai",
+      "value": 220,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Main busbar rated short-time withstand current",
+      "unit": "kA",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11, Electrical data: Icw up to 100 kA; read 2026-11-25 via r.jina.ai",
+      "value": 100,
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Internal arc proof",
+      "unit": "arc-fault test data",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11, Electrical data - Arc proof; read 2026-11-25 via r.jina.ai (value: up to 690 V, prospective short-circuit current 100 kA, 300 ms, criteria 1 to 7 p)",
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Standard dimensions height / width / depth",
+      "unit": "mm; basic grid E = 25 mm per DIN 43660",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11, Mechanical characteristics; read 2026-11-25 via r.jina.ai (value: 2200 / 400, 600, 800, 1000 or 1200 / 800, 1000 or 1200)",
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Degree of protection / internal subdivision",
+      "unit": "IP / form",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11, Mechanical characteristics; read 2026-11-25 via r.jina.ai (value: up to IP54 (IEC 529); internal subdivision up to Form 4)",
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Low voltage definition under Sabah Distribution Code",
+      "unit": "definition",
+      "basis": "Sabah Distribution Code glossary, 'Low Voltage'; PDF posted 2024-01-05; read via r.jina.ai 2026-11-25 (value: exceeding extra low voltage but not exceeding 1,000 V AC or 1,500 V DC between c)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20distribution-20code-pdf-3fe93a1"
+      }
+    }
+  ],
+  "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+  "sources": [
+    {
+      "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+      "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

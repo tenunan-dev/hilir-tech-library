@@ -1,0 +1,25 @@
+{
+  "id": "geg-mat-welded-carbon-steel-with-nsf-ansi-61-lining",
+  "name": "welded carbon steel with NSF/ANSI 61 lining",
+  "material_category": "metals-coatings",
+  "description": "welded carbon steel with NSF/ANSI 61 lining named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "potable water contact",
+      "unit": "as printed",
+      "basis": "Basiia atmospheric tanks page; page read 2026-11-25; footer ©2026. (value: NSF/ANSI 61 lining systems where required)",
+      "year": 2026,
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks",
+        "source_id": "geg-basiia-com-api-650-tanks-28cf110"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://basiia.com/products/api-650-tanks",
+      "source_id": "geg-basiia-com-api-650-tanks-28cf110"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

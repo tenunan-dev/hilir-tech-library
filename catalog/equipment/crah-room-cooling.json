@@ -3,7 +3,9 @@
   "name": "Data centre CRAH/CRAC room cooling (air side)",
   "equipment_type": "crah",
   "sector": "IDC",
-  "sector_codes": ["IDC"],
+  "sector_codes": [
+    "IDC"
+  ],
   "description": "Per-hall air handlers that close the loop between the cold aisle and the heat-rejection plant: computer-room air handlers (CRAH, chilled water) and air conditioners (CRAC, direct expansion), now joined by water-free pumped-refrigerant economisers. The Vertiv Liebert DSE spans 50-165 kW per unit (packaged systems to about 400 kW) and provides free cooling with no water — a chilled-water plant serving 1 MW of IT load uses roughly 4 million gallons of water a year that the DSE avoids.",
   "subtypes": [
     {
@@ -19,7 +21,12 @@
       "description": "Water-free systems such as the Liebert DSE that reject heat without compressors when ambient allows."
     }
   ],
-  "applications": ["colocation halls", "hyperscale halls with containment", "edge data rooms", "water-constrained sites"],
+  "applications": [
+    "colocation halls",
+    "hyperscale halls with containment",
+    "edge data rooms",
+    "water-constrained sites"
+  ],
   "specifications": [
     {
       "metric": "unit capacity range, Vertiv Liebert DSE free-cooling system",
@@ -48,12 +55,24 @@
     {
       "vendor": "vertiv",
       "line": "Liebert DSE (pumped refrigerant economiser)",
-      "models": ["50 kW", "165 kW standard units", "250 kW", "400 kW packaged"],
+      "models": [
+        "50 kW",
+        "165 kW standard units",
+        "250 kW",
+        "400 kW packaged"
+      ],
       "range": "50-165 kW per unit, packaged systems to about 400 kW, water-free"
     }
   ],
-  "vendors": ["vertiv", "schneider-electric", "rittal"],
-  "technologies": ["idc-direct-to-chip-liquid-cooling", "idc-siting-power-procurement"],
+  "vendors": [
+    "vertiv",
+    "schneider-electric",
+    "rittal"
+  ],
+  "technologies": [
+    "idc-direct-to-chip-liquid-cooling",
+    "idc-siting-power-procurement"
+  ],
   "sources": [
     {
       "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/room-cooling/liebert-dse-free-cooling-system-50-165kw",

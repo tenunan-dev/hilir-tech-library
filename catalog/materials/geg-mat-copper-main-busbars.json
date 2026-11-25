@@ -1,0 +1,25 @@
+{
+  "id": "geg-mat-copper-main-busbars",
+  "name": "Copper main busbars",
+  "material_category": "busbar-conductor",
+  "description": "Copper main busbars named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "Cross sections and finish",
+      "unit": "mm",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11, Busbar System - Main Busbars; read 2026-11-25 via r.jina.ai (value: 20x10, 30x10, 40x10 and 60x10 mm; bare copper standard, tin or silver plating or)",
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+      "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

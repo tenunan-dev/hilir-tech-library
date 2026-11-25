@@ -3,13 +3,23 @@
   "name": "Power and distribution transformers",
   "equipment_type": "power-transformers",
   "sector": "ELE",
-  "sector_codes": ["ELE"],
+  "sector_codes": [
+    "ELE"
+  ],
   "description": "Oil-immersed and dry-type transformers stepping between the Malaysian voltage tiers: 500/275 kV and 275/132 kV grid banks, 132/33/11 kV distribution units and 11-33 kV/415 V site transformers, to MS IEC 60076 (IEC 60076 adopted).",
   "subtypes": [
-    {"name": "Generator step-up and grid power transformers (275-500 kV)"},
-    {"name": "Distribution transformers (11-33 kV / 415-433 V, Dyn11, ONAN)"},
-    {"name": "Dry-type and cast-resin for indoor sites"},
-    {"name": "Converter and autotransformers"}
+    {
+      "name": "Generator step-up and grid power transformers (275-500 kV)"
+    },
+    {
+      "name": "Distribution transformers (11-33 kV / 415-433 V, Dyn11, ONAN)"
+    },
+    {
+      "name": "Dry-type and cast-resin for indoor sites"
+    },
+    {
+      "name": "Converter and autotransformers"
+    }
   ],
   "applications": [
     "grid transmission nodes",
@@ -17,55 +27,190 @@
     "renewable plant step-up"
   ],
   "specifications": [
-    {"metric": "ratio tiers used in Malaysia", "unit": "kV", "low": 0.415, "high": 500,
-     "basis": "Malaysian tiers 500, 275, 132, 33, 11 kV and 415-433 V are joined by transformers; the LV secondary is 415 V nominal or 433 V rated depending on specification",
-     "source": {"url": "https://www.tnb.com.my/", "note": "TNB supply-voltage table, read 2026-11-13"}},
-    {"metric": "no-load loss, 1000 kVA 11 kV/433 V Dyn11 ONAN", "unit": "W", "low": 1600, "high": 1600,
-     "basis": "Malaysian public-sector (JKR-type) specification for 11 kV/433 V Dyn11 hermetically sealed distribution transformers: 1,000 kVA no-load loss limit 1,600 W",
-     "source": {"url": "https://www.cidb.gov.my/", "note": "CIDB/JKR public-sector transformer loss schedule cited from search summary, 2026-11-13"}},
-    {"metric": "load loss, 1000 kVA 11 kV/433 V Dyn11 ONAN", "unit": "W", "low": 6100, "high": 6100,
-     "basis": "Same Malaysian schedule: 1,000 kVA load loss limit 6,100 W (other tiers 750 kVA 5,600 W; 1,500 kVA 10,000 W; 2,000 kVA 12,000 W; 2,500 kVA 13,900 W)",
-     "source": {"url": "https://www.cidb.gov.my/", "note": "CIDB/JKR public-sector transformer loss schedule cited from search summary, 2026-11-13"}},
-    {"metric": "short-circuit impedance, distribution class", "unit": "%", "low": 4.5, "high": 6.5,
-     "basis": "Typical 11 kV distribution transformer impedance range; TNB specifications commonly fall at 4.5-6%",
-     "source": {"url": "https://www.cidb.gov.my/", "note": "distribution transformer practice cited from search results, 2026-11-13"}},
-    {"metric": "distribution transformer rating", "unit": "kVA", "low": 500, "high": 2500,
-     "basis": "Typical 11-33 kV / 415-433 V distribution sizes in Malaysian schedules",
-     "source": {"url": "https://www.cidb.gov.my/", "note": "Malaysian distribution transformer schedule, 2026-11-13"}},
-    {"metric": "power transformer rating", "unit": "MVA", "low": 100, "high": 700,
-     "basis": "Grid bank sizes at 275 and 500 kV",
-     "source": {"url": "https://www.hitachienergy.com/products-and-solutions/transformers", "note": "Hitachi Energy power transformer range, read 2026-11-13"}},
-    {"metric": "distribution transformer rating, Malaysia Transformer Manufacturing (MTM)", "unit": "kVA", "low": 100, "high": 3000,
-     "basis": "MTM Products page: distribution transformers 100 kVA to 3,000 kVA for voltages up to 33 kV; overall production range stated as 300 kVA at 0.433 kV up to 90 MVA at 132/33 kV",
-     "source": {"url": "https://www.malaysiatransformer.com/products", "note": "MTM Products page, read in browser 2026-11-13"}},
-    {"metric": "power transformer rating, MTM", "unit": "MVA", "low": 5, "high": 90,
-     "basis": "MTM Products page: power transformers 5 MVA to 90 MVA, supporting up to 150 kV",
-     "source": {"url": "https://www.malaysiatransformer.com/products", "note": "MTM Products page, read in browser 2026-11-13"}},
-    {"metric": "indicative cost, 1000 kVA 11 kV/0.4 kV oil-immersed transformer (export price list)", "unit": "USD per unit", "low": 7000, "high": 20000,
-     "year": 2025,
-     "basis": "Foreign export price list, accepted as the price basis on owner instruction 2026-11-13. Aluminium-wound standard units about USD 7,000-12,000; copper-wound low-loss IEC units USD 12,000-20,000; 33 kV class USD 10,000-20,000. Malaysian landed cost adds roughly 30-60% for duties, SST, compliance testing and local margin (about MYR 80,000-150,000 for a compliant S13-class copper unit). FOB export, not a delivered Malaysian price.",
-     "source": {"url": "https://gdtanggula.en.made-in-china.com/product/DORGuNjYnyVn/China-S11-Electrical-Distribution-Oil-Immersed-Transformer-1000kVA-13-2kv-4-16kv-for-Malaysia-Power-Project.html", "note": "Export listings for Malaysia-power-project S11/S13 1000 kVA transformers (made-in-china, Alibaba), found in browser search 2026-11-13"}}
+    {
+      "metric": "ratio tiers used in Malaysia",
+      "unit": "kV",
+      "low": 0.415,
+      "high": 500,
+      "basis": "Malaysian tiers 500, 275, 132, 33, 11 kV and 415-433 V are joined by transformers; the LV secondary is 415 V nominal or 433 V rated depending on specification",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB supply-voltage table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "no-load loss, 1000 kVA 11 kV/433 V Dyn11 ONAN",
+      "unit": "W",
+      "low": 1600,
+      "high": 1600,
+      "basis": "Malaysian public-sector (JKR-type) specification for 11 kV/433 V Dyn11 hermetically sealed distribution transformers: 1,000 kVA no-load loss limit 1,600 W",
+      "source": {
+        "url": "https://www.cidb.gov.my/",
+        "note": "CIDB/JKR public-sector transformer loss schedule cited from search summary, 2026-11-13"
+      }
+    },
+    {
+      "metric": "load loss, 1000 kVA 11 kV/433 V Dyn11 ONAN",
+      "unit": "W",
+      "low": 6100,
+      "high": 6100,
+      "basis": "Same Malaysian schedule: 1,000 kVA load loss limit 6,100 W (other tiers 750 kVA 5,600 W; 1,500 kVA 10,000 W; 2,000 kVA 12,000 W; 2,500 kVA 13,900 W)",
+      "source": {
+        "url": "https://www.cidb.gov.my/",
+        "note": "CIDB/JKR public-sector transformer loss schedule cited from search summary, 2026-11-13"
+      }
+    },
+    {
+      "metric": "short-circuit impedance, distribution class",
+      "unit": "%",
+      "low": 4.5,
+      "high": 6.5,
+      "basis": "Typical 11 kV distribution transformer impedance range; TNB specifications commonly fall at 4.5-6%",
+      "source": {
+        "url": "https://www.cidb.gov.my/",
+        "note": "distribution transformer practice cited from search results, 2026-11-13"
+      }
+    },
+    {
+      "metric": "distribution transformer rating",
+      "unit": "kVA",
+      "low": 500,
+      "high": 2500,
+      "basis": "Typical 11-33 kV / 415-433 V distribution sizes in Malaysian schedules",
+      "source": {
+        "url": "https://www.cidb.gov.my/",
+        "note": "Malaysian distribution transformer schedule, 2026-11-13"
+      }
+    },
+    {
+      "metric": "power transformer rating",
+      "unit": "MVA",
+      "low": 100,
+      "high": 700,
+      "basis": "Grid bank sizes at 275 and 500 kV",
+      "source": {
+        "url": "https://www.hitachienergy.com/products-and-solutions/transformers",
+        "note": "Hitachi Energy power transformer range, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "distribution transformer rating, Malaysia Transformer Manufacturing (MTM)",
+      "unit": "kVA",
+      "low": 100,
+      "high": 3000,
+      "basis": "MTM Products page: distribution transformers 100 kVA to 3,000 kVA for voltages up to 33 kV; overall production range stated as 300 kVA at 0.433 kV up to 90 MVA at 132/33 kV",
+      "source": {
+        "url": "https://www.malaysiatransformer.com/products",
+        "note": "MTM Products page, read in browser 2026-11-13"
+      }
+    },
+    {
+      "metric": "power transformer rating, MTM",
+      "unit": "MVA",
+      "low": 5,
+      "high": 90,
+      "basis": "MTM Products page: power transformers 5 MVA to 90 MVA, supporting up to 150 kV",
+      "source": {
+        "url": "https://www.malaysiatransformer.com/products",
+        "note": "MTM Products page, read in browser 2026-11-13"
+      }
+    },
+    {
+      "metric": "indicative cost, 1000 kVA 11 kV/0.4 kV oil-immersed transformer (export price list)",
+      "unit": "USD per unit",
+      "low": 7000,
+      "high": 20000,
+      "year": 2025,
+      "basis": "Foreign export price list, accepted as the price basis on owner instruction 2026-11-13. Aluminium-wound standard units about USD 7,000-12,000; copper-wound low-loss IEC units USD 12,000-20,000; 33 kV class USD 10,000-20,000. Malaysian landed cost adds roughly 30-60% for duties, SST, compliance testing and local margin (about MYR 80,000-150,000 for a compliant S13-class copper unit). FOB export, not a delivered Malaysian price.",
+      "source": {
+        "url": "https://gdtanggula.en.made-in-china.com/product/DORGuNjYnyVn/China-S11-Electrical-Distribution-Oil-Immersed-Transformer-1000kVA-13-2kv-4-16kv-for-Malaysia-Power-Project.html",
+        "note": "Export listings for Malaysia-power-project S11/S13 1000 kVA transformers (made-in-china, Alibaba), found in browser search 2026-11-13"
+      }
+    }
   ],
   "vendor_models": [
-    {"vendor": "malaysia-transformer", "line": "MTM distribution and power transformers", "models": ["distribution transformers (to 5,000 kVA, 33 kV)", "power transformers (to 100 MVA)", "dry-type", "generator and earthing transformers", "compact substation units"], "range": "100 kVA to 100 MVA; refurbishment to 275 kV"},
-    {"vendor": "hitachi-energy", "line": "Power and distribution transformers", "models": ["TRAFOstar power transformers", "Resibloc dry-type"], "range": "distribution to UHV"},
-    {"vendor": "siemens-energy-incl-ex-dresser-rand", "line": "Transformers", "models": ["power transformers", "GEAFOL cast-resin"], "range": "distribution to UHV"},
-    {"vendor": "ge-vernova", "line": "Transformers", "models": ["power transformers", "distribution transformers"], "range": "distribution to UHV"},
-    {"vendor": "hyundai-electric", "line": "Transformers", "models": ["power transformers"], "range": "grid class"}
+    {
+      "vendor": "malaysia-transformer",
+      "line": "MTM distribution and power transformers",
+      "models": [
+        "distribution transformers (to 5,000 kVA, 33 kV)",
+        "power transformers (to 100 MVA)",
+        "dry-type",
+        "generator and earthing transformers",
+        "compact substation units"
+      ],
+      "range": "100 kVA to 100 MVA; refurbishment to 275 kV"
+    },
+    {
+      "vendor": "hitachi-energy",
+      "line": "Power and distribution transformers",
+      "models": [
+        "TRAFOstar power transformers",
+        "Resibloc dry-type"
+      ],
+      "range": "distribution to UHV"
+    },
+    {
+      "vendor": "siemens-energy-incl-ex-dresser-rand",
+      "line": "Transformers",
+      "models": [
+        "power transformers",
+        "GEAFOL cast-resin"
+      ],
+      "range": "distribution to UHV"
+    },
+    {
+      "vendor": "ge-vernova",
+      "line": "Transformers",
+      "models": [
+        "power transformers",
+        "distribution transformers"
+      ],
+      "range": "distribution to UHV"
+    },
+    {
+      "vendor": "hyundai-electric",
+      "line": "Transformers",
+      "models": [
+        "power transformers"
+      ],
+      "range": "grid class"
+    }
   ],
-  "vendors": ["malaysia-transformer", "hitachi-energy", "siemens-energy-incl-ex-dresser-rand", "ge-vernova", "hyundai-electric"],
-  "technologies": ["ele-transformers", "ele-mv-distribution", "ele-uhv-substations"],
+  "vendors": [
+    "malaysia-transformer",
+    "hitachi-energy",
+    "siemens-energy-incl-ex-dresser-rand",
+    "ge-vernova",
+    "hyundai-electric"
+  ],
+  "technologies": [
+    "ele-transformers",
+    "ele-mv-distribution",
+    "ele-uhv-substations"
+  ],
   "sources": [
-    {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB voltage tiers, read 2026-11-13"},
-    {"url": "https://www.hitachienergy.com/products-and-solutions/transformers", "note": "transformer range, read 2026-11-13"}
+    {
+      "source_id": "tnb",
+      "url": "https://www.tnb.com.my/",
+      "note": "TNB voltage tiers, read 2026-11-13"
+    },
+    {
+      "url": "https://www.hitachienergy.com/products-and-solutions/transformers",
+      "note": "transformer range, read 2026-11-13"
+    }
   ],
   "gaps": [
-    {"what": "manufacturer loss tables for power transformers (275-500 kV class)",
-     "why": "Hitachi/Siemens transformer datasheets are project-specific and were not read; only the distribution-class Malaysian loss schedule was found",
-     "next_action": "Read a manufacturer power-transformer technical guide for loss ranges by rating"},
-    {"what": "Malaysian retail prices from a local manufacturer",
-     "why": "Searched in an interactive browser (DuckDuckGo HTML, 2026-11-13): the only 1,000 kVA 11-13 kV hits were Chinese export listings (made-in-china, Alibaba). MTM and other TNB-registered Malaysian manufacturers publish no prices and sell by tender, so no local figure exists openly",
-     "next_action": "Ask owner for a local transformer quote benchmark, or watch ePerolehan/TNB tender award notices for a like-for-like unit price"}
+    {
+      "what": "manufacturer loss tables for power transformers (275-500 kV class)",
+      "why": "Hitachi/Siemens transformer datasheets are project-specific and were not read; only the distribution-class Malaysian loss schedule was found",
+      "next_action": "Read a manufacturer power-transformer technical guide for loss ranges by rating"
+    },
+    {
+      "what": "Malaysian retail prices from a local manufacturer",
+      "why": "Searched in an interactive browser (DuckDuckGo HTML, 2026-11-13): the only 1,000 kVA 11-13 kV hits were Chinese export listings (made-in-china, Alibaba). MTM and other TNB-registered Malaysian manufacturers publish no prices and sell by tender, so no local figure exists openly",
+      "next_action": "Ask owner for a local transformer quote benchmark, or watch ePerolehan/TNB tender award notices for a like-for-like unit price"
+    }
   ],
   "last_reviewed": "2026-11-13"
 }

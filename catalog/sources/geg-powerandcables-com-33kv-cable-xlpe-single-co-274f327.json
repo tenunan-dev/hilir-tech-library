@@ -1,0 +1,25 @@
+{
+  "id": "geg-powerandcables-com-33kv-cable-xlpe-single-co-274f327",
+  "name": "Nexans 33kV Cable XLPE Single Core 630sqmm BS7870 product page",
+  "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Thorne & Derrick (powerandcables.com)",
+  "access": "open",
+  "licence": "Copyright 2026 Thorne & Derrick",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: HTML page read directly with WebFetch. Product Nexans 19/33 kV 1C 630 sqmm BS7870-4.10. Ampacity basis printed on page; no separate publication date for the table.. Exact printed figures are recorded in the linked records' basis fields."
+}

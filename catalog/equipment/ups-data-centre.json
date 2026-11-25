@@ -3,7 +3,10 @@
   "name": "Data centre UPS (uninterruptible power supply)",
   "equipment_type": "ups",
   "sector": "IDC",
-  "sector_codes": ["IDC", "ELE"],
+  "sector_codes": [
+    "IDC",
+    "ELE"
+  ],
   "description": "Double-conversion UPS systems sized per data hall and paralleled to multi-MW capacity, bridging the IT load between a mains disturbance and generator pickup. The class follows the same specification pattern as industrial UPS but is driven by hyperscale density, lithium-ion adoption and, increasingly, grid-interactive operation.",
   "subtypes": [
     {
@@ -19,7 +22,12 @@
       "description": "Fleets that sell frequency response or demand flexibility from the same batteries (see idc-grid-interaction)."
     }
   ],
-  "applications": ["colocation halls", "hyperscale campuses", "enterprise data rooms", "frequency-response fleets"],
+  "applications": [
+    "colocation halls",
+    "hyperscale campuses",
+    "enterprise data rooms",
+    "frequency-response fleets"
+  ],
   "specifications": [
     {
       "metric": "unit power range, Vertiv Liebert EXL S1 class",
@@ -48,12 +56,25 @@
     {
       "vendor": "vertiv",
       "line": "Liebert EXL S1",
-      "models": ["100 kW", "1000 kW", "1100 kW", "1200 kW (60 Hz UL)"],
+      "models": [
+        "100 kW",
+        "1000 kW",
+        "1100 kW",
+        "1200 kW (60 Hz UL)"
+      ],
       "range": "100-1200 kW per unit, parallel to about 9.6 MW"
     }
   ],
-  "vendors": ["vertiv", "schneider-electric", "eaton", "abb"],
-  "technologies": ["idc-ups-systems", "idc-grid-interaction"],
+  "vendors": [
+    "vertiv",
+    "schneider-electric",
+    "eaton",
+    "abb"
+  ],
+  "technologies": [
+    "idc-ups-systems",
+    "idc-grid-interaction"
+  ],
   "sources": [
     {
       "url": "https://www.vertiv.com/en-emea/campaigns/liebert-exl-s1",

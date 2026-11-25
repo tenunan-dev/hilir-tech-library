@@ -1,0 +1,31 @@
+{
+  "id": "geg-prod-yokogawa-plant-resource-manager-prm-field-device-management-fi",
+  "name": "Yokogawa Plant Resource Manager (PRM) field device management",
+  "manufacturer": "geg-vendor-yokogawa-electric-corporation-31fff",
+  "product_type": "field-device-management-software",
+  "equipment": [
+    "geg-field-instrumentation"
+  ],
+  "description": "field device management software",
+  "specifications": [
+    {
+      "metric": "supported field protocols",
+      "unit": "protocol list",
+      "basis": "Yokogawa CENTUM VP General Specifications GS 33K01A10-50E, 12th Edition Sep. 1, 2014, read via r.jina.ai: 'PRM communicates with devices with digital communication functions such as Foundation fieldbus, HART, and field wireless (complies with ISA 100.11a) devices'. (value: FOUNDATION fieldbus, HART, field wireless (ISA 100.11a), conventional analogue d)",
+      "year": 2014,
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
+        "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
+      }
+    }
+  ],
+  "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
+  "sources": [
+    {
+      "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
+      "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

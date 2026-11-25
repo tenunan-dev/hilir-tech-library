@@ -1,0 +1,101 @@
+{
+  "id": "geg-prod-honeywell-elster-trz2-turbine-gas-meter-turbine-gas-meter",
+  "name": "Honeywell Elster TRZ2 turbine gas meter",
+  "manufacturer": "honeywell",
+  "product_type": "turbine-gas-meter",
+  "equipment": [
+    "geg-gas-receiving-and-metering-station-with-hot-tap-and-fuel-gas-sup"
+  ],
+  "description": "turbine gas meter",
+  "specifications": [
+    {
+      "metric": "Meter sizes",
+      "unit": "G65 to G1.000",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG # 3032 01/17, ©2017 Honeywell International Inc., Features & Benefits; read via r.jina.ai 2021-04-12.",
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Maximum measuring range",
+      "unit": "m³/h (5 to 1.600 m³/h, as printed)",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG 01/17, ©2017 Honeywell; read via r.jina.ai 2021-04-12.",
+      "low": 5,
+      "high": 1600,
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Nominal diameters",
+      "unit": "DN 50 to 150 (2” to 6”), as printed",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG 01/17, ©2017 Honeywell; read via r.jina.ai 2021-04-12.",
+      "low": 50,
+      "high": 150,
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Operating pressure",
+      "unit": "barg (0 to 100 barg, as printed)",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG 01/17, ©2017 Honeywell; read via r.jina.ai 2021-04-12.",
+      "low": 0,
+      "high": 100,
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "-25 °C to +70 °C (acc. MID), as printed",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG 01/17, ©2017 Honeywell; read via r.jina.ai 2021-04-12.",
+      "low": -25,
+      "high": 70,
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Measurement uncertainty per EN12261",
+      "unit": "% (± 1 % for 0.2 Qmax to Qmax; ± 2 % for Qmin to 0.2 Qmax), as printed",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG 01/17, ©2017 Honeywell, Measurement Uncertainty section; read via r.jina.ai 2021-04-12.",
+      "low": 1,
+      "high": 2,
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Flange rating",
+      "unit": "PN 10-100 and ANSI 150-600",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG 01/17, ©2017 Honeywell; read via r.jina.ai 2021-04-12.",
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    }
+  ],
+  "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+  "sources": [
+    {
+      "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+      "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

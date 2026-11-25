@@ -1,0 +1,22 @@
+{
+  "id": "geg-vendor-clarke-c18-diesel-engine-13dd4",
+  "name": "Clarke (C18 diesel engine)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Clarke (C18 diesel engine) named on a page read for the GEG plant WBS supply-chain sweep.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed WBS/BOQ sweep."
+}

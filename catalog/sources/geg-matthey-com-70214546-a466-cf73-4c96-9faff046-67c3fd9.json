@@ -1,0 +1,27 @@
+{
+  "id": "geg-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9",
+  "name": "Johnson Matthey Emission control solutions for power generation (file 'May 2021'; cover ©2018 Johnson Matthey)",
+  "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Johnson Matthey",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Read via r.jina.ai fallback (retrieval 2023-04-05). Conflicting date labels preserved: filename says May 2021, printed cover says ©2018 Johnson Matthey.. Exact printed figures are recorded in the linked records' basis fields."
+}

@@ -1,0 +1,132 @@
+{
+  "id": "geg-prod-hadetec-instrument-air-package-compressors-dryers-filtration-r",
+  "name": "HADETEC instrument air package (compressors, dryers, filtration, receivers, optionally nitrogen generation)",
+  "manufacturer": "geg-vendor-hadetec-nijkerk-netherlands-rootselaar-group-24844",
+  "product_type": "skid-mounted-containerised-instrument-air-package",
+  "equipment": [
+    "geg-instrument-air-system"
+  ],
+  "description": "skid-mounted / containerised instrument air package",
+  "specifications": [
+    {
+      "metric": "oil-free compressor discharge pressure",
+      "unit": "Barg",
+      "basis": "HADETEC 'Instrument Air Package' integrated compressor solutions table; page read 2026-11-25; site footer ©2026.",
+      "low": 8,
+      "high": 10,
+      "year": 2026,
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+        "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
+      }
+    },
+    {
+      "metric": "oil-free compressor flow rate FAD",
+      "unit": "m³/min FAD",
+      "basis": "HADETEC instrument air package table; page read 2026-11-25; footer ©2026.",
+      "high": 85,
+      "year": 2026,
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+        "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
+      }
+    },
+    {
+      "metric": "oil-free compressor power",
+      "unit": "kW (printed '37 ~ 600')",
+      "basis": "HADETEC instrument air package table; page read 2026-11-25; footer ©2026.",
+      "low": 37,
+      "high": 600,
+      "year": 2026,
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+        "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
+      }
+    },
+    {
+      "metric": "oil-injected compressor discharge pressure",
+      "unit": "Barg",
+      "basis": "HADETEC instrument air package table; page read 2026-11-25; footer ©2026.",
+      "low": 8,
+      "high": 16,
+      "year": 2026,
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+        "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
+      }
+    },
+    {
+      "metric": "oil-injected compressor flow rate FAD",
+      "unit": "m³/min FAD",
+      "basis": "HADETEC instrument air package table; page read 2026-11-25; footer ©2026.",
+      "high": 80,
+      "year": 2026,
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+        "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
+      }
+    },
+    {
+      "metric": "oil-injected compressor power",
+      "unit": "kW (printed '2.2 ~ 500')",
+      "basis": "HADETEC instrument air package table; page read 2026-11-25; footer ©2026.",
+      "low": 2.2,
+      "high": 500,
+      "year": 2026,
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+        "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
+      }
+    },
+    {
+      "metric": "dryer dew point (lowest stated)",
+      "unit": "°C (printed 'low dew points up to -90 °C')",
+      "basis": "HADETEC 'Integrated Air Treatment & Drying'; page read 2026-11-25; footer ©2026.",
+      "high": -90,
+      "year": 2026,
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+        "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
+      }
+    },
+    {
+      "metric": "air quality",
+      "unit": "ISO 8573-1 Class 0 oil-free air with filter & dryer package",
+      "basis": "HADETEC 'Integrated Air Treatment & Drying'; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+        "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
+      }
+    },
+    {
+      "metric": "pressure vessel fabrication",
+      "unit": "ASME VIII DIV.1 with U STAMP or PED",
+      "basis": "HADETEC product description; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+        "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
+      }
+    },
+    {
+      "metric": "configurations",
+      "unit": "oil-free screw; oil-injected screw; single/two-stage; air or water cooled; skid-",
+      "basis": "HADETEC product description; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+        "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
+      }
+    }
+  ],
+  "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+  "sources": [
+    {
+      "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+      "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

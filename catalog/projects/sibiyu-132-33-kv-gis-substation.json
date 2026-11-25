@@ -12,7 +12,7 @@
   "status": "operating",
   "description": "PESTEC reference: design, engineering, supply, erect and commissioning, Contract PLS-150129; client Sarawak Energy Berhad.",
   "technologies": [
-    "pwr-alaska-geg-wbs-supply-chain"
+    "pwr-geg-plant-wbs-supply-chain"
   ],
   "milestones": [],
   "capex": [
@@ -24,7 +24,7 @@
       "value": 492.1,
       "source": {
         "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
-        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+        "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
       }
     },
     {
@@ -35,7 +35,7 @@
       "value": 634.4,
       "source": {
         "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
-        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+        "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
       }
     },
     {
@@ -46,7 +46,7 @@
       "value": 663.6,
       "source": {
         "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
-        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+        "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
       }
     },
     {
@@ -57,7 +57,7 @@
       "value": 36.9,
       "source": {
         "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
-        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+        "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
       }
     },
     {
@@ -68,7 +68,7 @@
       "value": 5.3,
       "source": {
         "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
-        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+        "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
       }
     },
     {
@@ -79,7 +79,7 @@
       "value": 61.7,
       "source": {
         "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
-        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+        "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
       }
     },
     {
@@ -90,7 +90,7 @@
       "value": 80.1,
       "source": {
         "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
-        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+        "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
       }
     },
     {
@@ -101,35 +101,35 @@
       "value": 183000000,
       "source": {
         "url": "https://scanelectromechanical.com/project/scan-project-03",
-        "source_id": "alaska-scanelectromechanical-com-scan-project-03-f8abca1"
+        "source_id": "geg-scanelectromechanical-com-scan-project-03-f8abca1"
       }
     }
   ],
   "sources": [
     {
       "url": "https://pestec-international.com/project-reference/electrical-substations",
-      "source_id": "alaska-pestec-international-com-electrical-substati-bc9755e",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
       "note": "PESTEC reference: design, engineering, supply, erect and commissioning, Contract"
     },
     {
       "url": "https://webstore.iec.ch/en/publication/63466",
-      "source_id": "alaska-webstore-iec-ch-63466-a67c8c0"
+      "source_id": "geg-webstore-iec-ch-63466-a67c8c0"
     },
     {
       "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
-      "source_id": "alaska-knowledge-bsigroup-com-standard-0143e45"
+      "source_id": "geg-knowledge-bsigroup-com-standard-0143e45"
     },
     {
       "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
-      "source_id": "alaska-knowledge-bsigroup-com-execution-of-concrete-4636911"
+      "source_id": "geg-knowledge-bsigroup-com-execution-of-concrete-4636911"
     },
     {
       "url": "https://standards.ieee.org/ieee/979/7242",
-      "source_id": "alaska-standards-ieee-org-7242-9cb8c7d"
+      "source_id": "geg-standards-ieee-org-7242-9cb8c7d"
     },
     {
       "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
-      "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
     }
   ],
   "gaps": [
@@ -140,5 +140,5 @@
     }
   ],
   "last_reviewed": "2026-11-25",
-  "notes": "Reference project from the Alaska GEG WBS sweep (4 Construction direct)."
+  "notes": "Reference project from the GEG plant WBS sweep (4 Construction direct)."
 }

@@ -1,0 +1,108 @@
+{
+  "id": "geg-prod-comair-oil-free-instrument-air-compressors-and-packages-oil-fr",
+  "name": "Comair oil-free instrument air compressors and packages",
+  "manufacturer": "geg-vendor-comair-shanghai-china-454ad",
+  "product_type": "oil-free-screw-centrifugal-piston-scroll-instrumen",
+  "equipment": [
+    "geg-instrument-air-system"
+  ],
+  "description": "oil-free screw / centrifugal / piston / scroll instrument air compressors",
+  "specifications": [
+    {
+      "metric": "continuous running duty claim",
+      "unit": "hours (printed 'over 8,000 hours continuous running')",
+      "basis": "Comair 'Instrument Air Compressor' page; page read 2026-11-25; site footer ©2026.",
+      "value": 8000,
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    },
+    {
+      "metric": "oil-free air pressure capability",
+      "unit": "bar (printed 'over 40 bar')",
+      "basis": "Comair page: 'completely oil free and dusts free air of over 40 bar and 100,000 Nm3/hr'; page read 2026-11-25; footer ©2026.",
+      "high": 40,
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    },
+    {
+      "metric": "oil-free air flow capability",
+      "unit": "Nm3/hr (printed '100,000 Nm3/hr')",
+      "basis": "Comair page; page read 2026-11-25; footer ©2026.",
+      "high": 100000,
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    },
+    {
+      "metric": "pressure dew point (integrated screw package)",
+      "unit": "℃ (printed '-70℃')",
+      "basis": "Comair page, 'Integrated Screw Compressor for Instrument Air'; page read 2026-11-25; footer ©2026.",
+      "high": -70,
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    },
+    {
+      "metric": "typical discharge pressure",
+      "unit": "bar",
+      "basis": "Comair FAQ 'What is the required pressure for instrument air compressors?': 'Normally ... around 7-10 bar'; page read 2026-11-25; footer ©2026.",
+      "low": 7,
+      "high": 10,
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    },
+    {
+      "metric": "air quality class",
+      "unit": "ISO 8573-1 class 0 certified oil free",
+      "basis": "Comair page; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    },
+    {
+      "metric": "VSD running cost saving claim",
+      "unit": "% (printed 'VSD type could save as much as 30% running cost')",
+      "basis": "Comair page vendor claim; page read 2026-11-25; footer ©2026.",
+      "value": 30,
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    },
+    {
+      "metric": "electrical protection",
+      "unit": "IP55",
+      "basis": "Comair page: 'Our compressors are all IP55 protection grade'; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    }
+  ],
+  "url": "https://comairflow.com/instrument-air-compressor",
+  "sources": [
+    {
+      "url": "https://comairflow.com/instrument-air-compressor",
+      "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

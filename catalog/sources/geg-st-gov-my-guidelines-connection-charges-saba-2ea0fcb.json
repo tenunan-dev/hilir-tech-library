@@ -1,0 +1,25 @@
+{
+  "id": "geg-st-gov-my-guidelines-connection-charges-saba-2ea0fcb",
+  "name": "Guidelines on Connection Charges for Sabah Electricity Sdn. Bhd. (SESB) - resource landing page",
+  "url": "https://www.st.gov.my/resources/guidelines-connection-charges-sabah-electricity-sdn-bhd-sesb",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Suruhanjaya Tenaga / Energy Commission, Malaysia",
+  "access": "open",
+  "licence": "Government publication",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: HTML landing page read directly with WebFetch: file 'Guidelines-on-Connection-Charges-for-Sabah-Electricity-Sdn.-Bhd.-SESB.pdf' (1.02 MB), Topic Reference Legislation, Resource Type Electricity (Tariff), Publication Date Thu, 20 Apr 2017 - 12:00. The PDF body could NOT be extracted with WebFetch or the r.jina.ai proxy (empty markdown), so no numeric connection-charge figures are recorded from it.. Exact printed figures are recorded in the linked records' basis fields."
+}

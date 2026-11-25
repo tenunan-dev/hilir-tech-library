@@ -1,0 +1,296 @@
+{
+  "id": "geg-gas-receiving-and-metering-station-with-hot-tap-and-fuel-gas-sup",
+  "name": "Gas receiving and metering station with hot tap and fuel gas supply",
+  "equipment_type": "gas-receiving-metering",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Gas receiving and metering station with hot tap and fuel gas supply for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Gas receiving and metering station with hot tap and fuel gas supply"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Emerson Tartarini™ pilot-operated pres — Typical transmission pipeline pressure range",
+      "unit": "psig (150 to over 1000 psig, as printed)",
+      "basis": "Emerson White Paper D353412X012, 'Fuel Gas Conditioning — Fuel Gas Supply System for Gas Power Plants', August 2024, Application Overview; read via r.jina.ai 2026-02-27. Printed scope is gas-turbine plants, not gas-engine plants.",
+      "low": 150,
+      "high": 1000,
+      "year": 2024,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+        "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+      }
+    },
+    {
+      "metric": "Emerson Tartarini™ pilot-operated pres — Typical power-plant fuel-gas pressure required",
+      "unit": "psig (as printed; gas turbines in the source)",
+      "basis": "Emerson White Paper D353412X012, August 2024, Application Overview; read via r.jina.ai 2026-02-27.",
+      "low": 450,
+      "high": 600,
+      "year": 2024,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+        "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+      }
+    },
+    {
+      "metric": "Emerson Tartarini™ pilot-operated pres — Pilot-operated regulator set-pressure accuracy",
+      "unit": "% (0.5% to 2.5%, as printed)",
+      "basis": "Emerson White Paper D353412X012, August 2024, 'Pilot-operated regulators can maintain a set pressure accuracy of 0.5% to 2.5%'; read via r.jina.ai 2026-02-27.",
+      "low": 0.5,
+      "high": 2.5,
+      "year": 2024,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+        "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+      }
+    },
+    {
+      "metric": "Emerson Tartarini™ pilot-operated pres — Station noise benchmark",
+      "unit": "dBA (about 85 dBA, as printed)",
+      "basis": "Emerson White Paper D353412X012, August 2024, Noise section, 'a common benchmark is about 85 dBA'; read via r.jina.ai 2026-02-27.",
+      "value": 85,
+      "year": 2024,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+        "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+      }
+    },
+    {
+      "metric": "Emerson Tartarini™ pilot-operated pres — Fuel-gas supply station equipment items listed",
+      "unit": "pressure regulating devices, overpressure protection devices, filtration modules",
+      "basis": "Emerson White Paper D353412X012, August 2024, Introduction; read via r.jina.ai 2026-02-27.",
+      "year": 2024,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+        "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+      }
+    },
+    {
+      "metric": "Honeywell Elster TRZ2 turbine gas mete — Meter sizes",
+      "unit": "G65 to G1.000",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG # 3032 01/17, ©2017 Honeywell International Inc., Features & Benefits; read via r.jina.ai 2021-04-12.",
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Honeywell Elster TRZ2 turbine gas mete — Maximum measuring range",
+      "unit": "m³/h (5 to 1.600 m³/h, as printed)",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG 01/17, ©2017 Honeywell; read via r.jina.ai 2021-04-12.",
+      "low": 5,
+      "high": 1600,
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Honeywell Elster TRZ2 turbine gas mete — Nominal diameters",
+      "unit": "DN 50 to 150 (2” to 6”), as printed",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG 01/17, ©2017 Honeywell; read via r.jina.ai 2021-04-12.",
+      "low": 50,
+      "high": 150,
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Honeywell Elster TRZ2 turbine gas mete — Operating pressure",
+      "unit": "barg (0 to 100 barg, as printed)",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG 01/17, ©2017 Honeywell; read via r.jina.ai 2021-04-12.",
+      "low": 0,
+      "high": 100,
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Honeywell Elster TRZ2 turbine gas mete — Temperature range",
+      "unit": "-25 °C to +70 °C (acc. MID), as printed",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG 01/17, ©2017 Honeywell; read via r.jina.ai 2021-04-12.",
+      "low": -25,
+      "high": 70,
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Honeywell Elster TRZ2 turbine gas mete — Measurement uncertainty per EN12261",
+      "unit": "% (± 1 % for 0.2 Qmax to Qmax; ± 2 % for Qmin to 0.2 Qmax), as printed",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG 01/17, ©2017 Honeywell, Measurement Uncertainty section; read via r.jina.ai 2021-04-12.",
+      "low": 1,
+      "high": 2,
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Honeywell Elster TRZ2 turbine gas mete — Flange rating",
+      "unit": "PN 10-100 and ANSI 150-600",
+      "basis": "Honeywell Elster TRZ2 datasheet BR-17-06-ENG 01/17, ©2017 Honeywell; read via r.jina.ai 2021-04-12.",
+      "year": 2017,
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+        "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+      }
+    },
+    {
+      "metric": "Emerson Gas Ultrasonic Metering System — Installed base of integrated metering skids",
+      "unit": "skids (over 2800 large-scale skids, as printed)",
+      "basis": "Emerson datasheet DAN-GAS-TQ-GUSM-0213, February 2022, 'With an installed base of over 2800 large-scale skids around the world'; read via r.jina.ai 2026-01-30.",
+      "low": 2800,
+      "year": 2022,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
+        "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
+      }
+    },
+    {
+      "metric": "Emerson Gas Ultrasonic Metering System — Meter rangeability",
+      "unit": ">100:1 (as printed)",
+      "basis": "Emerson datasheet DAN-GAS-TQ-GUSM-0213, February 2022; read via r.jina.ai 2026-01-30.",
+      "low": 100,
+      "year": 2022,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
+        "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
+      }
+    },
+    {
+      "metric": "Emerson Gas Ultrasonic Metering System — Ultrasonic meter design",
+      "unit": "multiple four-path gas ultrasonic meters with chordal design",
+      "basis": "Emerson datasheet DAN-GAS-TQ-GUSM-0213, February 2022; read via r.jina.ai 2026-01-30.",
+      "year": 2022,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
+        "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
+      }
+    },
+    {
+      "metric": "T.D. Williamson hot tapping machines a — 360 Tapping Machine tap range",
+      "unit": "inch (2-inch through 6-inch, DN 50 to DN 150), as printed",
+      "basis": "TDW 'Tapping Machines' product listing page, read directly 2026-11-25; site footer ©2020 T.D. Williamson, LLC; no product publication date printed.",
+      "low": 2,
+      "high": 6,
+      "year": 2026,
+      "source": {
+        "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
+        "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
+      }
+    },
+    {
+      "metric": "T.D. Williamson hot tapping machines a — 1200 XL / 936 XL Tapping Machine tap range",
+      "unit": "inch (12-inch through 42-inch, DN 300 to DN 1000), as printed",
+      "basis": "TDW 'Tapping Machines' product listing page, read directly 2026-11-25; site footer ©2020 T.D. Williamson, LLC.",
+      "low": 12,
+      "high": 42,
+      "year": 2026,
+      "source": {
+        "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
+        "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
+      }
+    },
+    {
+      "metric": "T.D. Williamson hot tapping machines a — T-2460 XXL Tapping Machine tap range",
+      "unit": "inch (30-inch through 60-inch, DN 750 to DN 1500), as printed",
+      "basis": "TDW 'Tapping Machines' product listing page, read directly 2026-11-25; site footer ©2020 T.D. Williamson, LLC.",
+      "low": 30,
+      "high": 60,
+      "year": 2026,
+      "source": {
+        "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
+        "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
+      }
+    },
+    {
+      "metric": "T.D. Williamson hot tapping machines a — ANSI Class filter options shown",
+      "unit": "ANSI Class 150 / 300 / 600 / 900 / 1500 / 2500, as printed",
+      "basis": "TDW 'Tapping Machines' product listing filter, read directly 2026-11-25.",
+      "low": 150,
+      "high": 2500,
+      "year": 2026,
+      "source": {
+        "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
+        "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "honeywell",
+      "line": "Honeywell Elster TRZ2 turbine gas meter",
+      "note": "turbine gas meter"
+    },
+    {
+      "vendor": "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
+      "line": "Emerson Gas Ultrasonic Metering System (skid, Rosemount 3414/3417 meters, FloBoss S600+)",
+      "note": "custody-transfer gas metering skid"
+    },
+    {
+      "vendor": "geg-vendor-t-d-williamson-llc-tulsa-ok-usa-61e5d",
+      "line": "T.D. Williamson hot tapping machines and drilling machines",
+      "note": "hot tap equipment"
+    }
+  ],
+  "vendors": [
+    "honeywell",
+    "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
+    "geg-vendor-t-d-williamson-llc-tulsa-ok-usa-61e5d"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+      "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+    },
+    {
+      "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+      "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+    },
+    {
+      "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
+      "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
+    },
+    {
+      "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
+      "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
+    },
+    {
+      "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping",
+      "source_id": "sys-asme-org-b31-1-power-piping"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Gas Receiving, metering station, hot tap, FG supply system",
+      "why": "No project-specific gas composition/pressure, meter sizes, regulator station configuration, hot-tap diameter or package price for the SESB 7-unit plant was found in the pages read. The Emerson white paper's printed pressures are for gas turbines, not gas engines.",
+      "next_action": "Obtain the gas-receiving/metering station P&IDs, gas composition and pressure basis, hot-tap design and vendor quotations from project documents; keep the turbine-scope pressure figures clearly labelled."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

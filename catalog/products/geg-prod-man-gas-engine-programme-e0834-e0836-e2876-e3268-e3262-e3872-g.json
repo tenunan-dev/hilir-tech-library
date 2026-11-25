@@ -1,0 +1,78 @@
+{
+  "id": "geg-prod-man-gas-engine-programme-e0834-e0836-e2876-e3268-e3262-e3872-g",
+  "name": "MAN gas engine programme E0834 / E0836 / E2876 / E3268 / E3262 / E3872",
+  "manufacturer": "man-engines",
+  "product_type": "gas-engine-for-power-generation-natural-and-specia",
+  "equipment": [
+    "geg-gas-engine-generator-units"
+  ],
+  "description": "gas engine for power generation (natural and special gas)",
+  "specifications": [
+    {
+      "metric": "Natural gas engine power range",
+      "unit": "kW",
+      "basis": "MAN Engines 'MAN gas engine programme for power generation' page: 'The power range ranges from 37 kW to 750 kW with natural gas and from 68 kW to 750 kW with special gas'. Page footer (c) MAN 2026; accessed 2026-11-25.",
+      "low": 37,
+      "high": 750,
+      "year": 2026,
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      }
+    },
+    {
+      "metric": "MAN E3872 output",
+      "unit": "kW",
+      "basis": "MAN Engines product table: E3872, 12 cylinders, V 90 deg, 29.6 litres displacement, output 735 kW (natural gas). Page footer (c) MAN 2026; accessed 2026-11-25.",
+      "value": 735,
+      "year": 2026,
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      }
+    },
+    {
+      "metric": "MAN E3872 electrical efficiency",
+      "unit": "%",
+      "basis": "As printed in the 'Links and downloads' title on the MAN Engines page: 'Press release \"New MAN E3872 gas engine with 44.0 % efficiency and 735 kW output from just 12 cylinders\"'. Page footer (c) MAN 2026; accessed 2026-11-25. Press release itself not separately fetched.",
+      "value": 44.0,
+      "year": 2026,
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      }
+    },
+    {
+      "metric": "MAN E3262 output range (natural gas)",
+      "unit": "kW",
+      "basis": "MAN Engines technical data table 'Engines for natural gas combustion': E3262, 12 cylinders, 25.8 litres, 275-580 kW. Page footer (c) MAN 2026; accessed 2026-11-25.",
+      "low": 275,
+      "high": 580,
+      "year": 2026,
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      }
+    },
+    {
+      "metric": "Overall efficiency in cogeneration, MAN gas engines",
+      "unit": "%",
+      "basis": "MAN Engines page: 'achieve the best overall efficiencies of over 90 per cent thanks to their optimum combustion process' (combined heat and power context, not electrical efficiency). Page footer (c) MAN 2026; accessed 2026-11-25.",
+      "high": 90,
+      "year": 2026,
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      }
+    }
+  ],
+  "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+  "sources": [
+    {
+      "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+      "source_id": "man-eu-gas-power-generation-gas-html"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

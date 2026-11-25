@@ -12,7 +12,7 @@
   "status": "operating",
   "description": "Listed under featured projects, Industries category; WebFetch 2026-11-25.",
   "technologies": [
-    "pwr-alaska-geg-wbs-supply-chain"
+    "pwr-geg-plant-wbs-supply-chain"
   ],
   "milestones": [
     {
@@ -31,11 +31,11 @@
     },
     {
       "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
-      "source_id": "alaska-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
+      "source_id": "geg-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
     },
     {
       "url": "https://dunham-bush.com/our-products/",
-      "source_id": "alaska-dunham-bush-com-a2dd740"
+      "source_id": "geg-dunham-bush-com-a2dd740"
     },
     {
       "url": "https://dunham-bush.com/",
@@ -50,5 +50,5 @@
     }
   ],
   "last_reviewed": "2026-11-25",
-  "notes": "Reference project from the Alaska GEG WBS sweep (3.2 Mechanical)."
+  "notes": "Reference project from the GEG plant WBS sweep (3.2 Mechanical)."
 }

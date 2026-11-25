@@ -1,0 +1,42 @@
+{
+  "id": "geg-prod-mtu-12v1600-gs400-air-cleaner-and-aspirating-air-data-gas-engi",
+  "name": "mtu 12V1600 GS400 — air cleaner and aspirating air data",
+  "manufacturer": "geg-vendor-rolls-royce-mtu-solutions-00b30",
+  "product_type": "gas-engine-intake-interface",
+  "equipment": [
+    "geg-intake-air-system"
+  ],
+  "description": "gas engine intake interface",
+  "specifications": [
+    {
+      "metric": "Aspirating air flow",
+      "unit": "m³/min (SCFM) 22.4 (791), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Air requirements, 'Aspirating: *m³/min (SCFM) 22.4 (791)'; document 231296 | 2026-03; read via r.jina.ai 2026-04-16.",
+      "value": 22.4,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "Air cleaner type",
+      "unit": "dry",
+      "basis": "mtu 12V1600 GS400 spec sheet, Application data > Engine, 'Air cleaner dry'; document 231296 | 2026-03; read via r.jina.ai 2026-04-16.",
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    }
+  ],
+  "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+  "sources": [
+    {
+      "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+      "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

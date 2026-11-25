@@ -1,10 +1,18 @@
 {
   "id": "boiler-industrial-watertube-package",
   "name": "Industrial water-tube package boiler",
-  "aliases": ["D-type package boiler", "O-type package boiler", "industrial package boiler"],
+  "aliases": [
+    "D-type package boiler",
+    "O-type package boiler",
+    "industrial package boiler"
+  ],
   "equipment_type": "boiler",
   "sector": "PWR",
-  "sector_codes": ["PWR", "REF", "PCH"],
+  "sector_codes": [
+    "PWR",
+    "REF",
+    "PCH"
+  ],
   "description": "Shop-assembled watertube boiler (steam and lower drum above a water-cooled membrane furnace) custom-engineered per project, with D-type and O-type two-drum layouts. The standard steam generator above the fire-tube class for refineries, petrochemical plants and industrial power, firing liquid or gaseous fuels including refinery byproduct gases.",
   "subtypes": [
     {
@@ -108,7 +116,17 @@
     {
       "vendor": "babcock-wilcox",
       "line": "FM water-tube package",
-      "models": ["FM 9-22 through FM 9-57", "FM 10 / FM 101 / FM 103", "FM 106 / FM 117", "FM 120 / FM 160", "HCFM", "PFM", "PFI", "PFT", "TSSG"],
+      "models": [
+        "FM 9-22 through FM 9-57",
+        "FM 10 / FM 101 / FM 103",
+        "FM 106 / FM 117",
+        "FM 120 / FM 160",
+        "HCFM",
+        "PFM",
+        "PFI",
+        "PFT",
+        "TSSG"
+      ],
       "range": "8,200 to 1,200,000 lb/h across the series; D-type or O-type, single-drum or multi-drum; membrane-wall construction, fully drainable superheaters",
       "url": "https://www.babcock.com/home/products/package-boilers",
       "note": "B&W package boilers page including FM capacity tables, read 30 October 2026"
@@ -121,8 +139,14 @@
       "note": "B&W package boilers page, integrated-boiler-and-burner section, read 30 October 2026"
     }
   ],
-  "vendors": ["babcock-wilcox", "john-zink-koch-engineered-solutions"],
-  "technologies": ["pwr-cogeneration-chp", "pwr-combined-cycle-hrsg"],
+  "vendors": [
+    "babcock-wilcox",
+    "john-zink-koch-engineered-solutions"
+  ],
+  "technologies": [
+    "pwr-cogeneration-chp",
+    "pwr-combined-cycle-hrsg"
+  ],
   "sources": [
     {
       "url": "https://www.babcock.com/home/products/package-boilers",

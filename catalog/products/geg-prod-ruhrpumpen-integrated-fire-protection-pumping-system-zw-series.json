@@ -1,0 +1,105 @@
+{
+  "id": "geg-prod-ruhrpumpen-integrated-fire-protection-pumping-system-zw-series",
+  "name": "Ruhrpumpen integrated fire protection pumping system (ZW series electric + diesel pumps, jockey pump, controllers, pumphouse)",
+  "manufacturer": "geg-vendor-ruhrpumpen-group-a4979",
+  "product_type": "packaged-nfpa-20-fire-pump-system-for-heavy-indust",
+  "equipment": [
+    "geg-fire-fighting-system"
+  ],
+  "description": "packaged NFPA 20 fire pump system for heavy industrial service",
+  "specifications": [
+    {
+      "metric": "electric motor rating",
+      "unit": "HP (approximately; 6600 V / 50 Hz)",
+      "basis": "Ruhrpumpen article 'Ruhrpumpen Has Developed High-Performance Fire Pump Package...'; page read 2026-11-25; no article date printed, site footer ©2026; motor is medium-voltage TEFC induction.",
+      "value": 350,
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "diesel engine rating",
+      "unit": "HP (approximately; Clarke C18, 1760 rpm)",
+      "basis": "Ruhrpumpen article; page read 2026-11-25; site footer ©2026; UL/FM-certified engine with 24 VDC starting.",
+      "value": 510,
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "diesel starting system",
+      "unit": "VDC",
+      "basis": "Ruhrpumpen article diesel-driven package description; page read 2026-11-25.",
+      "value": 24,
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "pumphouse lighting",
+      "unit": "lux",
+      "basis": "Ruhrpumpen article supporting infrastructure description; page read 2026-11-25.",
+      "value": 500,
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "diesel fuel tank",
+      "unit": "UL-142 double-wall diesel fuel tank with integrated leak monitoring",
+      "basis": "Ruhrpumpen article diesel-driven package description; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "pump construction",
+      "unit": "ZW series horizontal split-case fire pumps (BB1 design), single-stage between-be",
+      "basis": "Ruhrpumpen article scope of supply; page read 2026-11-25; site footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "controllers and communications",
+      "unit": "Tornatech MPA (electric) and GPD (diesel), Modbus TCP/IP capability on MPA",
+      "basis": "Ruhrpumpen article; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "corrosion protection",
+      "unit": "C5 coating, SSPC-SP10 preparation, zinc-rich primer, high-build epoxy, polyureth",
+      "basis": "Ruhrpumpen article; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    }
+  ],
+  "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+  "sources": [
+    {
+      "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+      "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

@@ -1,0 +1,166 @@
+{
+  "id": "geg-prod-abb-elk-04-c-145-kv-gas-insulated-switchgear-gis-132-kv-gis-su",
+  "name": "ABB ELK-04 C, 145 kV gas-insulated switchgear (GIS)",
+  "manufacturer": "geg-vendor-unidentified",
+  "product_type": "132-kv-gis-substation-bay-circuit-breaker-disconne",
+  "equipment": [
+    "geg-132-kv-substation"
+  ],
+  "description": "132 kV GIS substation bay / circuit-breaker / disconnector / earthing switch",
+  "specifications": [
+    {
+      "metric": "Rated voltage",
+      "unit": "kV",
+      "basis": "ABB brochure 2GV008915 En / 03.15 (copyright 2015), Technical data table, ELK-04 C 145 kV double busbar bay; PDF blocked by WebFetch, read via r.jina.ai 2026-11-25",
+      "value": 145,
+      "year": 2015,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "Rated normal current",
+      "unit": "A",
+      "basis": "ABB ELK-04 C 145 kV brochure, Technical data table (2GV008915 En / 03.15); read 2026-11-25 via r.jina.ai",
+      "value": 3150,
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "Rated short-circuit breaking current 50/60 Hz",
+      "unit": "kA",
+      "basis": "ABB ELK-04 C 145 kV brochure, circuit-breaker technical data; read 2026-11-25 via r.jina.ai",
+      "value": 40,
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "Rated short-time withstand current / duration",
+      "unit": "kA / 3 s",
+      "basis": "ABB ELK-04 C 145 kV brochure, Technical data table; read 2026-11-25 via r.jina.ai",
+      "value": 40,
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "Rated peak withstand current / making current",
+      "unit": "kA peak",
+      "basis": "ABB ELK-04 C 145 kV brochure, Technical data (rated peak withstand current and rated short-circuit making current both 108 kA); read 2026-11-25 via r.jina.ai",
+      "value": 108,
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "Rated lightning impulse withstand voltage (to earth)",
+      "unit": "kV (750 kV across isolating distance)",
+      "basis": "ABB ELK-04 C 145 kV brochure, Technical data; read 2026-11-25 via r.jina.ai",
+      "value": 650,
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "Rated short-duration power-frequency withstand voltage",
+      "unit": "kV (315 kV across isolating distance)",
+      "basis": "ABB ELK-04 C 145 kV brochure, Technical data; read 2026-11-25 via r.jina.ai",
+      "value": 275,
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "Operating times (opening / closing / reclosing)",
+      "unit": "ms",
+      "basis": "ABB ELK-04 C 145 kV brochure, circuit-breaker data: rated opening time 26-35 ms, closing time 45-55 ms, reclosing time <300 ms; read 2026-11-25 via r.jina.ai (value: 26 to 35 / 45 to 55 / less than 300)",
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "Rated operating sequence",
+      "unit": "operating duty cycle",
+      "basis": "ABB ELK-04 C 145 kV brochure, circuit-breaker technical data; read 2026-11-25 via r.jina.ai (value: O - 0.3 s - CO - 3 min - CO)",
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "SF6 filling pressure / minimum functional pressure absolute at 20 degrees C",
+      "unit": "MPa",
+      "basis": "ABB ELK-04 C 145 kV brochure, Technical data: 0.68/0.60 MPa; read 2026-11-25 via r.jina.ai",
+      "value": 0.68,
+      "low": 0.6,
+      "high": 0.68,
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "BIL required at 132 kV by Sabah grid code (User Apparatus)",
+      "unit": "kV",
+      "basis": "Planning and Connection Codes for Sabah and Labuan Grid Codes, 16 June 2014, slide 13: 'at 132 kV voltage level, the BIL is 550 kV'; read via r.jina.ai 2026-11-25. Manufacturer 145 kV BIL above is product data, not evidence of project compliance.",
+      "value": 550,
+      "year": 2014,
+      "source": {
+        "url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf",
+        "source_id": "geg-st-gov-my-planning-and-connection-codes-for-e15af3e"
+      }
+    },
+    {
+      "metric": "Overhead line fault clearance time at 132 kV",
+      "unit": "cycles (120 to 140 ms)",
+      "basis": "Planning and Connection Codes for Sabah and Labuan Grid Codes, 16 June 2014, slide 11: 'for the 132 kV lines, 6 to 7 cycles (120 to 140 ms)'; read via r.jina.ai 2026-11-25",
+      "value": 6,
+      "low": 6,
+      "high": 7,
+      "year": 2014,
+      "source": {
+        "url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf",
+        "source_id": "geg-st-gov-my-planning-and-connection-codes-for-e15af3e"
+      }
+    },
+    {
+      "metric": "Total harmonic distortion limit at 132 kV",
+      "unit": "% THD with no individual harmonic greater than 1.5%",
+      "basis": "Planning and Connection Codes for Sabah and Labuan Grid Codes, 16 June 2014, slide 51: 'at 132 kV, a total harmonic distortion of 2% with no individual harmonic greater than 1.5%'; read via r.jina.ai 2026-11-25",
+      "value": 2,
+      "year": 2014,
+      "source": {
+        "url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf",
+        "source_id": "geg-st-gov-my-planning-and-connection-codes-for-e15af3e"
+      }
+    }
+  ],
+  "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+  "sources": [
+    {
+      "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+      "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

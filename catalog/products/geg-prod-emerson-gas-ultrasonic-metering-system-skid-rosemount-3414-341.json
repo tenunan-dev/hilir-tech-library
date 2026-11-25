@@ -1,0 +1,53 @@
+{
+  "id": "geg-prod-emerson-gas-ultrasonic-metering-system-skid-rosemount-3414-341",
+  "name": "Emerson Gas Ultrasonic Metering System (skid, Rosemount 3414/3417 meters, FloBoss S600+)",
+  "manufacturer": "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
+  "product_type": "custody-transfer-gas-metering-skid",
+  "equipment": [
+    "geg-gas-receiving-and-metering-station-with-hot-tap-and-fuel-gas-sup"
+  ],
+  "description": "custody-transfer gas metering skid",
+  "specifications": [
+    {
+      "metric": "Installed base of integrated metering skids",
+      "unit": "skids (over 2800 large-scale skids, as printed)",
+      "basis": "Emerson datasheet DAN-GAS-TQ-GUSM-0213, February 2022, 'With an installed base of over 2800 large-scale skids around the world'; read via r.jina.ai 2026-01-30.",
+      "low": 2800,
+      "year": 2022,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
+        "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
+      }
+    },
+    {
+      "metric": "Meter rangeability",
+      "unit": ">100:1 (as printed)",
+      "basis": "Emerson datasheet DAN-GAS-TQ-GUSM-0213, February 2022; read via r.jina.ai 2026-01-30.",
+      "low": 100,
+      "year": 2022,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
+        "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
+      }
+    },
+    {
+      "metric": "Ultrasonic meter design",
+      "unit": "multiple four-path gas ultrasonic meters with chordal design",
+      "basis": "Emerson datasheet DAN-GAS-TQ-GUSM-0213, February 2022; read via r.jina.ai 2026-01-30.",
+      "year": 2022,
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
+        "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
+      }
+    }
+  ],
+  "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
+  "sources": [
+    {
+      "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
+      "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

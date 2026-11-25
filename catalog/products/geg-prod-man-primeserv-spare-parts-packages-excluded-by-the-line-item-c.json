@@ -1,0 +1,43 @@
+{
+  "id": "geg-prod-man-primeserv-spare-parts-packages-excluded-by-the-line-item-c",
+  "name": "MAN PrimeServ spare parts packages (EXCLUDED by the line item - context only)",
+  "manufacturer": "everllence",
+  "product_type": "oem-spare-parts-packages-out-of-scope-for-this-lin",
+  "equipment": [
+    "geg-two-year-operational-spares"
+  ],
+  "description": "OEM spare parts packages - out of scope for this line item",
+  "specifications": [
+    {
+      "metric": "standardised spare parts packages",
+      "unit": "packages",
+      "basis": "MAN 'Prepare for MAN 175D' printed June 2022: post-commissioning, mechanical, after-treatment and automation packages; reconditioned exchange components include cylinder heads, turbochargers, fuel injectors and cooling water pumps, remanufactured at Frederikshavn, Denmark. These are MAN parts and are expressly excluded by the BOQ wording.",
+      "value": 4,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
+    },
+    {
+      "metric": "high-demand OEM spare parts delivery target",
+      "unit": "hours",
+      "basis": "MAN brochure printed June 2022: 'Prompt delivery of high-demand OEM spare parts within 24 hours'; Singapore and Denmark stock referenced in MAN 'Essential spare parts' material - out-of-scope MAN parts, included only as market context.",
+      "value": 24,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
+    }
+  ],
+  "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+      "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

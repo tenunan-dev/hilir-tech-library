@@ -1,0 +1,61 @@
+{
+  "id": "geg-prod-sesb-gso-user-operational-liaison-and-communication-channels-o",
+  "name": "SESB GSO/User operational liaison and communication channels (OC5.5)",
+  "manufacturer": "geg-vendor-sesb-grid-system-operator-gso-f0ff7",
+  "product_type": "utility-to-plant-operational-communication-interfa",
+  "equipment": [
+    "geg-utility-communication-system"
+  ],
+  "description": "utility-to-plant operational communication interface",
+  "specifications": [
+    {
+      "metric": "communication channel establishment",
+      "unit": "procedure",
+      "basis": "Sabah Grid Code OC5.5 (published 2024, read via r.jina.ai): full paragraph on operational liaison terms and communication channels. (value: GSO and Users nominate persons/contact locations and agree communication channel)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "technical criteria source for voice and data communication",
+      "unit": "document reference",
+      "basis": "Sabah Grid Code CC5.5 'Technical Criteria for Communication Equipment' (published 2024, read via r.jina.ai): 'The technical criteria concerning voice and data communication equipment for Power Stations is contained in the Grid Owner's guidelines document, which is available on request.' (value: Grid Owner's guidelines document, available on request)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "telecommunication signalling in fault clearance time",
+      "unit": "7.5 cycles (150 ms) for 132 kV overhead lines",
+      "basis": "Sabah Grid Code CC5.6/protection criteria (published 2024, read via r.jina.ai): 'Total fault clearance times include time for relay operation, circuit breaker operation, and telecommunication signaling ... for the 132 kV lines, 7.5 cycles (150 ms)'.",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "metering communication equipment legal approval",
+      "unit": "requirement",
+      "basis": "Sabah Grid Code MC6.2 (published 2024, read via r.jina.ai). (value: must be approved under relevant telecommunication laws and regulations)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    }
+  ],
+  "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+  "sources": [
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+      "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

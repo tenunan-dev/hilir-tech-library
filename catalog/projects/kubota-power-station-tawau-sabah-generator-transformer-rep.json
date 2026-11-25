@@ -12,7 +12,7 @@
   "status": "operating",
   "description": "Deltaspec portfolio item 15: replacement of two 45 MVA 11/132 kV generator transformers, supply and transport; client TNB REMACO / SESB.",
   "technologies": [
-    "pwr-alaska-geg-wbs-supply-chain"
+    "pwr-geg-plant-wbs-supply-chain"
   ],
   "milestones": [],
   "capex": [
@@ -25,7 +25,7 @@
       "high": 1500,
       "source": {
         "url": "https://infraconcrete.co/cost-programme-guide",
-        "source_id": "alaska-infraconcrete-co-cost-programme-guide-397f736"
+        "source_id": "geg-infraconcrete-co-cost-programme-guide-397f736"
       }
     },
     {
@@ -37,7 +37,7 @@
       "high": 2500,
       "source": {
         "url": "https://infraconcrete.co/cost-programme-guide",
-        "source_id": "alaska-infraconcrete-co-cost-programme-guide-397f736"
+        "source_id": "geg-infraconcrete-co-cost-programme-guide-397f736"
       }
     },
     {
@@ -48,7 +48,7 @@
       "value": 492.1,
       "source": {
         "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
-        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+        "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
       }
     },
     {
@@ -59,7 +59,7 @@
       "value": 5.3,
       "source": {
         "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
-        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+        "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
       }
     },
     {
@@ -70,35 +70,35 @@
       "value": 61.7,
       "source": {
         "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
-        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+        "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
       }
     }
   ],
   "sources": [
     {
       "url": "https://www.dspecmy.com/projects/portfolio",
-      "source_id": "alaska-dspecmy-com-portfolio-d114008",
+      "source_id": "geg-dspecmy-com-portfolio-d114008",
       "note": "Deltaspec portfolio item 15: replacement of two 45 MVA 11/132 kV generator trans"
     },
     {
       "url": "https://standards.ieee.org/ieee/979/7242",
-      "source_id": "alaska-standards-ieee-org-7242-9cb8c7d"
+      "source_id": "geg-standards-ieee-org-7242-9cb8c7d"
     },
     {
       "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
-      "source_id": "alaska-knowledge-bsigroup-com-standard-0143e45"
+      "source_id": "geg-knowledge-bsigroup-com-standard-0143e45"
     },
     {
       "url": "https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard",
-      "source_id": "alaska-knowledge-bsigroup-com-standard-c9ea26f"
+      "source_id": "geg-knowledge-bsigroup-com-standard-c9ea26f"
     },
     {
       "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
-      "source_id": "alaska-knowledge-bsigroup-com-execution-of-concrete-4636911"
+      "source_id": "geg-knowledge-bsigroup-com-execution-of-concrete-4636911"
     },
     {
       "url": "https://infraconcrete.co/cost-programme-guide",
-      "source_id": "alaska-infraconcrete-co-cost-programme-guide-397f736"
+      "source_id": "geg-infraconcrete-co-cost-programme-guide-397f736"
     }
   ],
   "gaps": [
@@ -109,5 +109,5 @@
     }
   ],
   "last_reviewed": "2026-11-25",
-  "notes": "Reference project from the Alaska GEG WBS sweep (4 Construction direct)."
+  "notes": "Reference project from the GEG plant WBS sweep (4 Construction direct)."
 }

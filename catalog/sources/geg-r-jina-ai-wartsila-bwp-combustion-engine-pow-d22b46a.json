@@ -1,0 +1,25 @@
+{
+  "id": "geg-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a",
+  "name": "Combustion engine power plants (white paper, 16 pages)",
+  "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT",
+    "ELE",
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Wärtsilä Corporation; author Niklas Haga",
+  "access": "open",
+  "licence": "Wärtsilä copyright; fetched through r.jina.ai reader",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Direct PDF fetch returned 'Unsupported fetched file content type: application/pdf'; re-fetched via r.jina.ai (noted). r.jina.ai Published Time Tue, 14 Apr 2020 14:44:23 GMT; document footer 'Copyright (c) 2011 Wärtsilä Corporation'. Both dates preserved in figure bases.. Exact printed figures are recorded in the linked records' basis fields."
+}

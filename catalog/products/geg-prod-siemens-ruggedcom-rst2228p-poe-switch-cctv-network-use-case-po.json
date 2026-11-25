@@ -1,0 +1,31 @@
+{
+  "id": "geg-prod-siemens-ruggedcom-rst2228p-poe-switch-cctv-network-use-case-po",
+  "name": "Siemens RUGGEDCOM RST2228P PoE switch (CCTV network use case)",
+  "manufacturer": "siemens",
+  "product_type": "poe-network-switch-for-cameras",
+  "equipment": [
+    "geg-cctv-system"
+  ],
+  "description": "PoE network switch for cameras",
+  "specifications": [
+    {
+      "metric": "use case shown in manufacturer brochure",
+      "unit": "documented use case",
+      "basis": "Siemens RUGGEDCOM 19” Layer 2 Ethernet Switches brochure, Edition 09/2018, read via r.jina.ai: figure caption 'Fully redundant communication network based on the RUGGEDCOM RST2228P is suitable for oil & gas applications ... CCTV Client PC ... PoE Cameras'. (value: CCTV Client PC, Recording Server (Fail Over), PoE Cameras in oil & gas applicati)",
+      "year": 2018,
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+        "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+      }
+    }
+  ],
+  "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+  "sources": [
+    {
+      "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+      "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

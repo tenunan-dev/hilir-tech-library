@@ -1,0 +1,24 @@
+{
+  "id": "geg-standards-ieee-org-7242-9cb8c7d",
+  "name": "IEEE 979-2025 - IEEE Guide for Substation Fire Protection",
+  "url": "https://standards.ieee.org/ieee/979/7242",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "IEEE Standards Association",
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: IEEE SA page read 2026-11-25. Active Standard; Board approval 2025-11-04, published 2026-04-10; supersedes 979-2012. Substation fire risk design/equipment/practices guidance. Note publication date is after the 2026-11-25 reading.. Exact printed figures are recorded in the linked records' basis fields."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "geg-hasil-gov-my-aa0fb0f",
+  "name": "Overview of Stamp Duty",
+  "url": "https://www.hasil.gov.my/en/duti-setem/pengenalan-duti-setem/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Inland Revenue Board of Malaysia (HASiL/LHDNM)",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Read with WebFetch 25 Nov 2026 (via r.jina.ai proxy). Page states 'Last updated on: 03/08/2026 05:28 PM' and governs duty under Stamp Act 1949.. Exact printed figures are recorded in the linked records' basis fields."
+}

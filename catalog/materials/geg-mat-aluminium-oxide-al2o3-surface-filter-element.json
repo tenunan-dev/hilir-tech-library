@@ -1,0 +1,25 @@
+{
+  "id": "geg-mat-aluminium-oxide-al2o3-surface-filter-element",
+  "name": "Aluminium oxide (Al2O3) surface filter element",
+  "material_category": "ceramic",
+  "description": "Aluminium oxide (Al2O3) surface filter element named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "filter fineness",
+      "unit": "μm",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006, read via r.jina.ai: 'Filter: Aluminum oxide surface filter; Filter Fineness 0.3 μm'. (value: 0.3)",
+      "year": 2006,
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
+        "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
+      "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

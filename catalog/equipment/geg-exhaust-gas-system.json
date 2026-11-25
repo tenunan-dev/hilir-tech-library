@@ -1,0 +1,202 @@
+{
+  "id": "geg-exhaust-gas-system",
+  "name": "Exhaust gas system",
+  "equipment_type": "exhaust-gas-system",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Exhaust gas system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Exhaust gas system"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "IAC Acoustics engine exhaust silencers — Noise reduction, absorptive silencer",
+      "unit": "dB(A)",
+      "basis": "IAC Acoustics Exhaust Silencers product page, 'Absorptive silencer: 15dB(A) to 25dB(A)'; page read 2026-11-25, no print date shown on page.",
+      "low": 15,
+      "high": 25,
+      "year": 2026,
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/",
+        "source_id": "geg-iacacoustics-global-021ca23"
+      }
+    },
+    {
+      "metric": "IAC Acoustics engine exhaust silencers — Noise reduction, reactive silencer",
+      "unit": "dB(A)",
+      "basis": "IAC Acoustics Exhaust Silencers product page, 'Reactive silencer: 30dB(A) to 50dB(A)'; page read 2026-11-25, no print date shown on page.",
+      "low": 30,
+      "high": 50,
+      "year": 2026,
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/",
+        "source_id": "geg-iacacoustics-global-021ca23"
+      }
+    },
+    {
+      "metric": "IAC Acoustics engine exhaust silencers — Typical performance range",
+      "unit": "dB(A)",
+      "basis": "IAC Acoustics Exhaust Silencers page, 'Typical performance characteristics and options include: Performance range 10-50 dB(A)'; page read 2026-11-25, no print date shown.",
+      "low": 10,
+      "high": 50,
+      "year": 2026,
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/",
+        "source_id": "geg-iacacoustics-global-021ca23"
+      }
+    },
+    {
+      "metric": "IAC Acoustics engine exhaust silencers — Working temperature range of exhaust silencers for reciprocating engines",
+      "unit": "°c (as printed)",
+      "basis": "IAC Acoustics Exhaust Silencers page, 'working temperature range of up to 450°c and approximately 5000Pa pressure level'; page read 2026-11-25, no print date shown.",
+      "high": 450,
+      "year": 2026,
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/",
+        "source_id": "geg-iacacoustics-global-021ca23"
+      }
+    },
+    {
+      "metric": "IAC Acoustics engine exhaust silencers — Pressure level",
+      "unit": "Pa",
+      "basis": "IAC Acoustics Exhaust Silencers page, 'approximately 5000Pa pressure level'; page read 2026-11-25, no print date shown.",
+      "value": 5000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/",
+        "source_id": "geg-iacacoustics-global-021ca23"
+      }
+    },
+    {
+      "metric": "mtu 12V1600 GS400 gas generator set —  — Gas temperature (stack)",
+      "unit": "°C (°F) 716 (1,321), as printed",
+      "basis": "mtu 12V1600 GS400 Gas Generator Set spec sheet, Application data > Exhaust system, 'Gas temperature (stack): °C (°F) 716 (1,321)'; document 231296 | 2026-03, read via r.jina.ai 2026-04-16.",
+      "value": 716,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "mtu 12V1600 GS400 gas generator set —  — Gas volume at stack temperature",
+      "unit": "m³/min (CFM) 84.6 (2,988), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Exhaust system, NG and LPG, document 231296 | 2026-03, read via r.jina.ai 2026-04-16.",
+      "value": 84.6,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "mtu 12V1600 GS400 gas generator set —  — Maximum allowable back pressure at outlet of engine, before piping",
+      "unit": "kPa (in. H₂O) 10 (40), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Exhaust system, NG and LPG, document 231296 | 2026-03, read via r.jina.ai 2026-04-16.",
+      "value": 10,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "Johnson Matthey SINOx® SCR / oxidation — NOx emissions reduction, SCR systems for stationary diesel and gas engines",
+      "unit": "% (>95% as printed)",
+      "basis": "Johnson Matthey NOx control systems webpage, 'JM's SCR systems are designed to reduce >95% of NOx emissions for stationary diesel and gas engines'; ©Johnson Matthey 2026, page read 2026-11-25.",
+      "high": 95,
+      "year": 2026,
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
+        "source_id": "geg-matthey-com-nox-control-systems-af80333"
+      }
+    },
+    {
+      "metric": "Johnson Matthey SINOx® SCR / oxidation — Hours of operation before maintenance",
+      "unit": "hours (15,000-plus as printed)",
+      "basis": "Johnson Matthey NOx control systems webpage, '15,000-plus hours of operation before maintenance is required'; ©Johnson Matthey 2026, page read 2026-11-25.",
+      "low": 15000,
+      "year": 2026,
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
+        "source_id": "geg-matthey-com-nox-control-systems-af80333"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "geg-vendor-iac-acoustics-uk-ltd-iac-world-8fd2a",
+      "line": "IAC Acoustics engine exhaust silencers (absorptive / reactive / catalytic / SCR-integrated)",
+      "note": "exhaust gas silencer"
+    },
+    {
+      "vendor": "geg-vendor-rolls-royce-mtu-solutions-00b30",
+      "line": "mtu 12V1600 GS400 gas generator set — exhaust system data (NG and LPG)",
+      "note": "gas engine exhaust interface"
+    },
+    {
+      "vendor": "johnson-matthey",
+      "line": "Johnson Matthey SINOx® SCR / oxidation catalyst system (also supplied as converter-silencers)",
+      "note": "exhaust aftertreatment / catalytic silencer"
+    }
+  ],
+  "vendors": [
+    "geg-vendor-iac-acoustics-uk-ltd-iac-world-8fd2a",
+    "geg-vendor-rolls-royce-mtu-solutions-00b30",
+    "johnson-matthey"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/",
+      "source_id": "geg-iacacoustics-global-021ca23"
+    },
+    {
+      "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+      "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+    },
+    {
+      "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
+      "source_id": "geg-matthey-com-nox-control-systems-af80333"
+    },
+    {
+      "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+      "source_id": "geg-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
+    },
+    {
+      "url": "https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf",
+      "source_id": "geg-epa-gov-catalog-of-chp-technologies-section-461c8db"
+    },
+    {
+      "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+      "source_id": "geg-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3",
+      "note": "10 x Wärtsilä 18V50DF multi-fuel gensets, 171 MW, natural gas & LFO, EEQ scope; printed in Wärtsilä gas/multi-fuel brochure (08.2017)."
+    },
+    {
+      "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+      "source_id": "geg-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3",
+      "note": "11 x Wärtsilä 20V34SG gas gensets, 110 MW, natural gas, EEQ scope; printed in Wärtsilä gas/multi-fuel brochure (08.2017)."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Exhaust Gas System Package",
+      "why": "No project-specific vendor list, ducting/silencer sizes, stack height, emission guarantee or quoted package price for the 7-unit SESB plant was found in any page read.",
+      "next_action": "Obtain the exhaust package BOQ, silencer datasheets and vendor quotations from the project tender/EPC documents; do not infer a package price from generic $/kW data."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

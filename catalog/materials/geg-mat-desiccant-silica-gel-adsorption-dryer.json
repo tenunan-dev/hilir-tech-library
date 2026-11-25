@@ -1,0 +1,25 @@
+{
+  "id": "geg-mat-desiccant-silica-gel-adsorption-dryer",
+  "name": "desiccant (silica gel) adsorption dryer",
+  "material_category": "process-materials",
+  "description": "desiccant (silica gel) adsorption dryer named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "adsorbent",
+      "unit": "as printed",
+      "basis": "Aerodyn Group Pneumatech page; page read 2026-11-25; footer ©2026. (value: hygroscopic material like silica gel)",
+      "year": 2026,
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech",
+        "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://aerodyngroup.com/pneumatech",
+      "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

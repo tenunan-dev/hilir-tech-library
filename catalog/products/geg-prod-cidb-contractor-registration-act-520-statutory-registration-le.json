@@ -1,0 +1,32 @@
+{
+  "id": "geg-prod-cidb-contractor-registration-act-520-statutory-registration-le",
+  "name": "CIDB contractor registration (Act 520)",
+  "manufacturer": "geg-vendor-cidb-malaysia-5f6b5",
+  "product_type": "statutory-registration-levy-framework",
+  "equipment": [
+    "geg-bonds-guarantees-insurance-and-financing-costs"
+  ],
+  "description": "statutory registration / levy framework",
+  "specifications": [
+    {
+      "metric": "year Act 520 was enacted",
+      "unit": "year",
+      "basis": "CIDB Malaysia web page read 25 Nov 2026: 'Akta 520 adalah satu tindakan untuk membentuk Lembaga Pembangunan Industri Pembinaan Malaysia (CIDB) pada tahun 1994'; scope includes contractor registration, material standards and responsibility for construction safety. No registration fee/levy rate is printed on the page read.",
+      "value": 1994,
+      "year": 2026,
+      "source": {
+        "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
+        "source_id": "geg-cidb-gov-my-7ada474"
+      }
+    }
+  ],
+  "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
+  "sources": [
+    {
+      "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
+      "source_id": "geg-cidb-gov-my-7ada474"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

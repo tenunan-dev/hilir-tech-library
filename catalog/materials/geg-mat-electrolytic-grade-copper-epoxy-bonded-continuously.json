@@ -1,0 +1,25 @@
+{
+  "id": "geg-mat-electrolytic-grade-copper-epoxy-bonded-continuously",
+  "name": "Electrolytic grade copper / epoxy bonded continuously transposed conductor (CTC)",
+  "material_category": "transformer-winding-conductor",
+  "description": "Electrolytic grade copper / epoxy bonded continuously transposed conductor (CTC) named on a page read in the GEG plant WBS sweep.",
+  "specifications": [
+    {
+      "metric": "Description",
+      "unit": "qualitative (OEM catalogue)",
+      "basis": "CG Power Systems Power Transformers catalogue summary, 'Winding Process'; read 2026-11-25, no date on page (value: electrolytic grade copper or epoxy bonded CTC with thermally upgraded paper for )",
+      "year": 2026,
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+        "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+      "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

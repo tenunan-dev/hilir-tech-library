@@ -1,0 +1,25 @@
+{
+  "id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9",
+  "name": "Gas-insulated switchgear ELK-04 C, 145 kV - Modular and reliable",
+  "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "INS"
+  ],
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "publisher_org": "ABB AG High Voltage Products",
+  "access": "open",
+  "licence": "Copyright 2015 ABB; all rights reserved (stated in brochure)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: 20-page PDF, 2GV008915 En / 03.15, copyright 2015. WebFetch blocked for application/pdf; read via r.jina.ai 2026-11-25.. Exact printed figures are recorded in the linked records' basis fields."
+}

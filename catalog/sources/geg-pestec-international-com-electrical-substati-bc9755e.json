@@ -1,0 +1,25 @@
+{
+  "id": "geg-pestec-international-com-electrical-substati-bc9755e",
+  "name": "PESTEC International - Electrical Substations project reference table",
+  "url": "https://pestec-international.com/project-reference/electrical-substations",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "CIV"
+  ],
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "PESTEC International",
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Page read 2026-11-25. Table gives year, client, written scope, country and substation name for Malaysia/Asia 132/33/11 kV and higher substation EPCC projects; no building unit rates.. Exact printed figures are recorded in the linked records' basis fields."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "geg-prod-cummins-natural-gas-generator-sets-hsk78g-1000-1300-kw-gta50e",
+  "name": "Cummins natural gas generator sets (HSK78G, 1000/1300 kW, GTA50e)",
+  "manufacturer": "cummins",
+  "product_type": "natural-gas-generator-set",
+  "equipment": [
+    "geg-gas-engine-generator-units"
+  ],
+  "description": "natural gas generator set",
+  "specifications": [
+    {
+      "metric": "Generator set power range",
+      "unit": "kW (16.25-2500 kVA)",
+      "basis": "Cummins 'Natural gas generators' page: 'ranging from 13-2000 kW (16.25-2500 kVA)'. Page footer (c) 2026 Cummins Inc.; accessed 2026-11-25.",
+      "low": 13,
+      "high": 2000,
+      "year": 2000,
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/natural-gas",
+        "source_id": "geg-cummins-com-natural-gas-8d24901"
+      }
+    },
+    {
+      "metric": "Standby rating, 1000kW and 1300kW natural gas gensets",
+      "unit": "kW (1250-1625 kVA)",
+      "basis": "Cummins product card on the page actually read: '1000-1300 kW / 1250-1625 kVA / Frequency 50, 60 / Standby'. Page footer (c) 2026 Cummins Inc.; accessed 2026-11-25.",
+      "low": 1000,
+      "high": 1300,
+      "year": 2026,
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/natural-gas",
+        "source_id": "geg-cummins-com-natural-gas-8d24901"
+      }
+    }
+  ],
+  "url": "https://www.cummins.com/en-na/generators/natural-gas",
+  "sources": [
+    {
+      "url": "https://www.cummins.com/en-na/generators/natural-gas",
+      "source_id": "geg-cummins-com-natural-gas-8d24901"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

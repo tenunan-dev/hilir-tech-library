@@ -1,0 +1,97 @@
+{
+  "id": "geg-prod-geapl-telescopic-sliding-gates-motorised-telescopic-sliding-en",
+  "name": "GEAPL Telescopic Sliding Gates",
+  "manufacturer": "geg-vendor-unidentified",
+  "product_type": "motorised-telescopic-sliding-entrance-gate",
+  "equipment": [
+    "geg-site-gate-and-fencing"
+  ],
+  "description": "motorised telescopic sliding entrance gate",
+  "specifications": [
+    {
+      "metric": "Maximum clear width",
+      "unit": "mm",
+      "basis": "GEAPL technical specification table; single leaf; double leaf (bi-parting) 80000 mm also printed",
+      "value": 40000,
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "Maximum height",
+      "unit": "mm",
+      "basis": "GEAPL technical specification table; 'larger dimensions available on request'",
+      "value": 3000,
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "Drive opening speed",
+      "unit": "m/s",
+      "basis": "GEAPL specification: 'Up to 0.16 m/s (up to 0.3 m/s on request)'",
+      "value": 0.16,
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "Gate capacity",
+      "unit": "kg",
+      "basis": "GEAPL standard specification: '300Kg to 25000Kg', duty class intensive use",
+      "value": 25000,
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "Number of telescopic systems",
+      "unit": "systems",
+      "basis": "GEAPL technical specification table (value: 2, 3, 4 & 5)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "Operator protection",
+      "unit": "IP rating",
+      "basis": "GEAPL standard specification; higher IP on request (value: IP 44)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "Supply voltage",
+      "unit": "V",
+      "basis": "GEAPL standard specification (value: 230V-1ph / 415V-3ph)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "Safety / type testing",
+      "unit": "standard",
+      "basis": "GEAPL technical specification, Security Features row (value: CE marked to Machinery Directive 2006/42/EC; type tested according to EN 13241-1)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    }
+  ],
+  "url": "https://www.geapl.com/telescopic-sliding-gates",
+  "sources": [
+    {
+      "url": "https://www.geapl.com/telescopic-sliding-gates",
+      "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

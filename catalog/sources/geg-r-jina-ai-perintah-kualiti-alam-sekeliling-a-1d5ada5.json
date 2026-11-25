@@ -1,0 +1,25 @@
+{
+  "id": "geg-r-jina-ai-perintah-kualiti-alam-sekeliling-a-1d5ada5",
+  "name": "Environmental Quality (Prescribed Activities) (EIA) Order 2015",
+  "url": "https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Department of Environment, Malaysia",
+  "access": "open",
+  "licence": "not stated in document",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Read with WebFetch via r.jina.ai 25 Nov 2026 (direct PDF fetch unsupported). Printed 'Made 5 August 2015', P.U. (A) 195.. Exact printed figures are recorded in the linked records' basis fields."
+}

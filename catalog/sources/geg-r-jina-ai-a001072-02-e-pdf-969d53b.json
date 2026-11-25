@@ -1,0 +1,24 @@
+{
+  "id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b",
+  "name": "Fluids and Lubricants Specifications - Gas engines and gas engine-generator sets",
+  "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "MTU / Rolls-Royce Power Systems AG",
+  "access": "open",
+  "licence": "Copyright MTU; publication protected",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Read with WebFetch via r.jina.ai 25 Nov 2026 (direct PDF fetch unsupported). Printed 'A001072/02E 2020-06', copyright 2020 MTU.. Exact printed figures are recorded in the linked records' basis fields."
+}

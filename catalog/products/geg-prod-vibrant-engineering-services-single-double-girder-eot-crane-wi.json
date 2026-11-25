@@ -1,0 +1,130 @@
+{
+  "id": "geg-prod-vibrant-engineering-services-single-double-girder-eot-crane-wi",
+  "name": "Vibrant Engineering Services single/double girder EOT crane, wire rope hoist, chain hoist, gantry and jib crane",
+  "manufacturer": "geg-vendor-vibrant-engineering-services-sdn-bhd-798115-t-pela-1f1a0",
+  "product_type": "electric-overhead-travelling-crane-and-hoists-jkkp",
+  "equipment": [
+    "geg-crane-and-hoist"
+  ],
+  "description": "electric overhead travelling crane and hoists, JKKP/DOSH certified",
+  "specifications": [
+    {
+      "metric": "capacity range",
+      "unit": "T (printed '1T – 100T+')",
+      "basis": "Vibrant Engineering 'Overhead Travelling Crane' specifications table; page read 2026-11-25; site footer ©2026.",
+      "low": 1,
+      "high": 100,
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "span",
+      "unit": "m (printed 'Up to 35m')",
+      "basis": "Vibrant Engineering crane specifications table; page read 2026-11-25; footer ©2026.",
+      "high": 35,
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "single girder EOT capacity",
+      "unit": "T",
+      "basis": "Vibrant Engineering 'Types & Configurations – Single Girder EOT'; page read 2026-11-25; footer ©2026.",
+      "low": 1,
+      "high": 20,
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "single girder EOT span",
+      "unit": "m",
+      "basis": "Vibrant Engineering 'Types & Configurations – Single Girder EOT'; page read 2026-11-25; footer ©2026.",
+      "high": 25,
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "double girder EOT capacity",
+      "unit": "T (printed '5T–100T+')",
+      "basis": "Vibrant Engineering 'Types & Configurations – Double Girder EOT'; page read 2026-11-25; footer ©2026.",
+      "low": 5,
+      "high": 100,
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "double girder EOT span",
+      "unit": "m",
+      "basis": "Vibrant Engineering 'Types & Configurations – Double Girder EOT'; page read 2026-11-25; footer ©2026.",
+      "high": 35,
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "duty class",
+      "unit": "(printed 'A3 – A7')",
+      "basis": "Vibrant Engineering crane specifications table; page read 2026-11-25; footer ©2026. (low: A3) (high: A7)",
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "certification",
+      "unit": "JKKP / DOSH; PE Approval",
+      "basis": "Vibrant Engineering specifications table and footer; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "standard features",
+      "unit": "wireless remote control as standard; VFD; anti-collision and overload protection",
+      "basis": "Vibrant Engineering 'Key Features'; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    },
+    {
+      "metric": "supply condition",
+      "unit": "New & Reconditioned",
+      "basis": "Vibrant Engineering specifications table; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane",
+        "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+      }
+    }
+  ],
+  "url": "https://vibrantengineering.com.my/products/overhead-crane",
+  "sources": [
+    {
+      "url": "https://vibrantengineering.com.my/products/overhead-crane",
+      "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+}

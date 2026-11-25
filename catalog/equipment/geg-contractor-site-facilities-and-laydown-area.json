@@ -1,0 +1,112 @@
+{
+  "id": "geg-contractor-site-facilities-and-laydown-area",
+  "name": "Contractor site facilities and laydown area",
+  "equipment_type": "site-facilities",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Contractor site facilities and laydown area for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction indirect. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Contractor site facilities and laydown area"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Site office / warehouse / laydown area — lease duty rate, term up to 1 year",
+      "unit": "RM per RM250 or part thereof of annual rent",
+      "basis": "HASiL Guideline LHDN.AG.600-1/10/3, printed 30 June 2026, section A 2.2 item 49(a): rate RM1.00 for lease <=1 year; examples of immovable property include kilang (factory), bangunan (building), tapak/ruang perniagaan and ruang kerja (workspace).",
+      "value": 1,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+        "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+      }
+    },
+    {
+      "metric": "Site office / warehouse / laydown area — lease duty rate, term over 1 to 3 years",
+      "unit": "RM per RM250 or part thereof of annual rent",
+      "basis": "Same HASiL guideline, printed 30 June 2026, item 49(a): RM3.00 for >1-3 years.",
+      "value": 3,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+        "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+      }
+    },
+    {
+      "metric": "Site office / warehouse / laydown area — lease duty rate, term over 3 to 5 years",
+      "unit": "RM per RM250 or part thereof of annual rent",
+      "basis": "Same HASiL guideline, printed 30 June 2026, item 49(a): RM5.00 for >3-5 years.",
+      "value": 5,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+        "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+      }
+    },
+    {
+      "metric": "Site office / warehouse / laydown area — lease duty rate, term over 5 years",
+      "unit": "RM per RM250 or part thereof of annual rent",
+      "basis": "Same HASiL guideline, printed 30 June 2026, item 49(a): RM7.00 for >5 years.",
+      "value": 7,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+        "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+      }
+    },
+    {
+      "metric": "Site office / warehouse / laydown area — fixed stamp duty, electricity and water supply application forms",
+      "unit": "RM (fixed)",
+      "basis": "Same HASiL guideline, printed 30 June 2026, section G (general stamping, fixed duty RM10): section 4.4 'Borang Permohonan Bekalan Elektrik / Application Form for Electricity Supply' and section 4.3 'Borang Permohonan Bekalan Air / Application for Water Supply'.",
+      "value": 10,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+        "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "geg-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+      "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+    },
+    {
+      "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/oshcim/",
+      "source_id": "geg-dosh-gov-my-af63be6"
+    },
+    {
+      "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf",
+      "source_id": "geg-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
+    },
+    {
+      "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
+      "source_id": "geg-cidb-gov-my-7ada474"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "CONTRACTOR Site Facilities, Warehouse, Laydown Area & Utilities",
+      "why": "No published rental rate, laydown-area cost, temporary-utilities tariff or contractor site-facilities price for a Sabah gas-plant project was found. Only statutory stamp-duty rates and welfare duties are printed in the sources read.",
+      "next_action": "Source the bidder's site-facilities price build-up and actual utility connection charges; leave the line item unpriced until obtained."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

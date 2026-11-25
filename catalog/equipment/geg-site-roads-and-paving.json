@@ -1,0 +1,77 @@
+{
+  "id": "geg-site-roads-and-paving",
+  "name": "Site roads and paving",
+  "equipment_type": "site-roads",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Site roads and paving for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "aliases": [
+    "Site roads and paving"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "WBS line item",
+      "value": "Road (10800 m2; slope protection area:500m2; floor:17000 m2; walkway :450 m2)",
+      "unit": "n/a",
+      "basis": "Line item from the GEG plant WBS/BOQ; no sourced numeric specification found.",
+      "source": {
+        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
+        "note": "Work package supplied by owner; not a technical source."
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "geg-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard",
+      "source_id": "geg-knowledge-bsigroup-com-standard-c9ea26f"
+    },
+    {
+      "url": "https://infraconcrete.co/cost-programme-guide",
+      "source_id": "geg-infraconcrete-co-cost-programme-guide-397f736"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "geg-jml-com-sg-projects-18172e3"
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "geg-jml-com-sg-projects-18172e3",
+      "note": "JML scope: temporary facility, piling, civil and building work for an air separation unit; industrial plant; client Linde Engineering (Malaysia) Sdn Bhd."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Road (10800 m2; slope protection area:500m2; floor:17000 m2; walkway :450 m2)",
+      "why": "No published RM/m2 rates for asphalt/concrete road pavement, plant floor slabs or walkways at a Sabah power plant; the slope rates read are indicative Klang Valley figures.",
+      "next_action": "Source JKR Sabah road/pavement schedule of rates and a plant-floor BQ."
+    },
+    {
+      "what": "Road (10800 m2; slope protection area:500m2; floor:17000 m2; walkway :450 m2)",
+      "why": "The 10,800 m2 road, 500 m2 slope, 17,000 m2 floor and 450 m2 walkway figures are bidder-supplied design data.",
+      "next_action": "Do not present as sourced facts."
+    }
+  ],
+  "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
+  "last_reviewed": "2026-11-25"
+}

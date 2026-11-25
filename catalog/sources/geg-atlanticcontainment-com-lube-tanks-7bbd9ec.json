@@ -1,0 +1,26 @@
+{
+  "id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec",
+  "name": "Lube Oil Tanks (AC series specification table)",
+  "url": "https://atlanticcontainment.com/lube-tanks",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Atlantic Containment LLC",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Page read 2026-11-25; page footer ©2019; linked tank drawing PDFs dated /2019/07 and /2019/08 (not opened separately).. Exact printed figures are recorded in the linked records' basis fields."
+}

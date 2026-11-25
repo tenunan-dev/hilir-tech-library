@@ -1,10 +1,14 @@
 {
   "id": "equinix-bloom-fuel-cell-programme",
   "name": "Equinix Bloom Energy fuel-cell programme",
-  "aliases": ["Equinix solid-oxide fuel cell deployment"],
+  "aliases": [
+    "Equinix solid-oxide fuel cell deployment"
+  ],
   "project_type": "operating-asset",
   "sector": "IDC",
-  "sector_codes": ["IDC"],
+  "sector_codes": [
+    "IDC"
+  ],
   "country": "US",
   "location": "About 19 Equinix data centres, primarily the United States (IBX sites)",
   "status": "operating",
@@ -35,7 +39,9 @@
       "role": "fuel-cell supplier (ES5-family solid-oxide systems)"
     }
   ],
-  "technologies": ["idc-smr-fuel-cell-ppa"],
+  "technologies": [
+    "idc-smr-fuel-cell-ppa"
+  ],
   "milestones": [
     {
       "event": "partnership began",
